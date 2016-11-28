@@ -27,7 +27,7 @@ Xq = quer * VT (1 X 100)
 cosine similarity = Xq * X'
 
 """
-path = 'test_papers'
+path = 'abstracts_test'
 token_dict = {}
 stemmer = PorterStemmer()
 
@@ -44,7 +44,7 @@ def tokenize(text):
 
 for subdir, dirs, files in os.walk(path):
     files.sort()
-    with open("filenames", 'w') as f:
+    with open("filenames_abstracts", 'w') as f:
     	f.write("\n".join(files)) 
     for file in files:
         file_path = subdir + os.path.sep + file
@@ -58,33 +58,33 @@ for subdir, dirs, files in os.walk(path):
 tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english', analyzer = 'word')
 print (tfidf)
 
-A = tfidf.fit_transform(token_dict.values())  #vector after initial steps.. preprocessing.. (docs X words) position
-feat_names = tfidf.get_feature_names() #vector of features i.e. words .. save it locally to be used for query 
-filename = "./feature_names.txt"
-np.savetxt(filename, feat_names, fmt = "%s")
+A_abstracts = tfidf.fit_transform(token_dict.values())  #vector after initial steps.. preprocessing.. (docs X words) position
+feat_names_abstracts = tfidf.get_feature_names() #vector of features i.e. words .. save it locally to be used for query 
+filename = "./feature_names_abstracts.txt"
+np.savetxt(filename, feat_names_abstracts, fmt = "%s")
 print("feats shape ")
-print(len(feat_names)) 
+print(len(feat_names_abstracts)) 
 #print(feat_names) 
 
-pickle.dump(A ,open("rp_A.pickle","wb"))
+pickle.dump(A_abstracts ,open("rp_A_abstracts.pickle","wb"))
 #save tfidf vectorizer locally to use it later..
 #pickle.dump(tfidf ,open("rp_vectorizer.pickle","wb"))
-pickle.dump(tfidf.vocabulary_ ,open("rp_vocabulary.pickle","wb"))
+pickle.dump(tfidf.vocabulary_ ,open("rp_vocabulary_abstracts.pickle","wb"))
                        
 svd = TruncatedSVD(n_components=100)  # SVD... components will be 100.. so result will be (docs X 100)
 normalizer = Normalizer(copy=False)
 lsa = make_pipeline(svd)
 print("before ")
-print(A.shape)
+print(A_abstracts.shape)
 #print(X)
 #U, Sigma, VT = randomized_svd(X, n_components=100,
  #                                     
   #                                    random_state=None)
-X = lsa.fit_transform(A,normalizer) # SVD transformation on A.. will give (docs X 100)
+X_abstracts = lsa.fit_transform(A_abstracts,normalizer) # SVD transformation on A.. will give (docs X 100)
 print("fit transformed ")
-VT =svd.components_  #VT.. matrix: words X 100 
-pickle.dump(VT ,open("rp_VT.pickle","wb"))
-pickle.dump(np.transpose(X) ,open("rp_XT.pickle","wb"))
+VT_abstracts =svd.components_  #VT.. matrix: words X 100 
+pickle.dump(VT_abstracts ,open("rp_VT_abstracts.pickle","wb"))
+pickle.dump(np.transpose(X_abstracts) ,open("rp_XT_abstracts.pickle","wb"))
 """print(U.shape)
 print(U)
 print("Sigma")
@@ -94,22 +94,22 @@ print("VT")
 print(VT.shape)
 print(VT)
 """
-print(X.shape)
+print(X_abstracts.shape)
 print("trans")
-print(VT)
+print(VT_abstracts)
 print("ratio : ")
 print(svd.explained_variance_ratio_) 
 
 print("ratio sum : ")
 print(svd.explained_variance_ratio_.sum()) 
 
-filename = "./outX.txt"
-np.savetxt(filename, X)
+filename = "./outX_abstracts.txt"
+np.savetxt(filename, X_abstracts)
 #z = np.load(filename)
 #print(z)
 
-filename = "./outVT.txt"
-np.savetxt(filename, VT)
+filename = "./outVT_abstracts.txt"
+np.savetxt(filename, VT_abstracts)
 """km = KMeans(n_clusters=true_k, init='k-means++', max_iter=100, n_init=1, verbose=True)
 km.fit(X)
 

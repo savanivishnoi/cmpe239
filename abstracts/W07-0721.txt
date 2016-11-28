@@ -1,0 +1,23 @@
+
+One main challenge of statistical machine trans-
+lation (SMT) is dealing with word order. The
+main idea of the statistical machine reordering
+(SMR) approach is to use the powerful tech-
+niques of SMT systems to generate a weighted
+reordering graph for SMT systems. This tech-
+nique supplies reordering constraints to an SMT
+system, using statistical criteria.
+In this paper, we experiment with different graph
+pruning which guarantees the translation quality
+improvement due to reordering at a very low in-
+crease of computational cost.
+The SMR approach is capable of generalizing re-
+orderings, which have been learned during train-
+ing, by using word classes instead of words
+themselves. We experiment with statistical and
+morphological classes in order to choose those
+which capture the most probable reorderings.
+Satisfactory results are reported in the WMT07
+Es/En task. Our system outperforms in terms of
+BLEU the WMT07 Official baseline system.
+1 

@@ -1,0 +1,23 @@
+
+The Varro toolkit is a system for identi-
+fying and counting a major class of reg-
+ularity in treebanks and annotated nat-
+ural language data in the form of tree-
+structures: frequently recurring unordered
+subtrees. This software has been designed
+for use in linguistics to be maximally
+applicable to actually existing treebanks
+and other stores of tree-structurable nat-
+ural language data. It minimizes mem-
+ory use so that moderately large treebanks
+are tractable on commonly available com-
+puter hardware. This article introduces
+condensed canonically ordered trees as a
+data structure for efficiently discovering
+frequently recurring unordered subtrees.
+1 Credits
+This research is supported by the AMASS++
+Project1 directly funded by the Institute for the
+Promotion of Innovation by Science and Technol-
+ogy in Flanders (IWT) (SBO IWT 060051).
+2 

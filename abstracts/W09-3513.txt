@@ -1,0 +1,15 @@
+
+Although most of previous translitera-
+tion methods are based on a generative
+model, this paper presents a discrimi-
+native transliteration model using condi-
+tional random fields. We regard charac-
+ter(s) as a kind of label, which enables
+us to consider a transliteration process as
+a sequential labeling process. This ap-
+proach has two advantages: (1) fast decod-
+ing and (2) easy implementation. Experi-
+mental results yielded competitive perfor-
+mance, demonstrating the feasibility of the
+proposed approach.
+1 

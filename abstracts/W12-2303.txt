@@ -1,0 +1,3 @@
+ 
+Fast re-training of word segmentation models is required for adapting to new resources or domains in NLP of many Asian languages without word delimiters. The traditional tokenization model is efficient but inaccurate. This paper proposes a phrase-based model that factors sentence tokenization into phrase tokenizations, the dependencies of which are also taken into account. The model has a good OOV recognition ability, which improves the overall performance significantly. The training is a linear time phrase extraction and MLE procedure, while the decoding is via dynamic programming based algorithms. 
+1 

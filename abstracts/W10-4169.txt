@@ -1,0 +1,7 @@
+ 
+Sense induction seeks to automatically identify word senses of polysemous words 
+encountered in a corpus. Unsupervised word sense induction can be viewed as a clustering 
+problem. In this paper, we used the Hierarchical Clustering Algorithm as the classifier for 
+word sense induction. Experiments show the system can achieve 72% F-score about 
+train-corpus and 65% F-score about test-corpus. 
+1. 

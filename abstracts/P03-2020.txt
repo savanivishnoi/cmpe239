@@ -1,0 +1,18 @@
+
+This paper proposes a method of collect-
+ing a dozen terms that are closely re-
+lated to a given seed term. The proposed
+method consists of three steps. The first
+step, compiling corpus step, collects texts
+that contain the given seed term by us-
+ing search engines. The second step, au-
+tomatic term recognition, extracts impor-
+tant terms from the corpus by using Naka-
+gawa?s method. These extracted terms be-
+come the candidates for the final step. The
+final step, filtering step, removes inappro-
+priate terms from the candidates based on
+search engine hits. An evaluation result
+shows that the precision of the method is
+85%.
+1 

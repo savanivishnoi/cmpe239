@@ -1,0 +1,18 @@
+ 
+This paper explores a hybrid approach to 
+temporal information extraction within the 
+TimeML framework. Particularly, we focus on 
+our initial efforts to apply machine learning 
+techniques to identify temporal relations as 
+defined in a constrained manner by the 
+TempEval-2007 task. We explored several 
+machine learning models and human rules to 
+infer temporal relations based on the features 
+available in TimeBank, as well as a number of 
+other features extracted by our in-house tools. 
+We participated in all three sub-tasks of the 
+TempEval task in SemEval-2007 workshop 
+and the evaluation shows that we achieved 
+comparable results in Task A & B and 
+competitive results in Task C.       
+1 

@@ -1,0 +1,27 @@
+
+Current statistical machine translation
+(SMT) systems are trained on sentence-
+aligned and word-aligned parallel text col-
+lected from various sources. Translation
+model parameters are estimated from the
+word alignments, and the quality of the
+translations on a given test set depends
+on the parameter estimates. There are
+at least two factors affecting the parame-
+ter estimation: domain match and training
+data quality. This paper describes a novel
+approach for automatically detecting and
+down-weighing certain parts of the train-
+ing corpus by assigning a weight to each
+sentence in the training bitext so as to op-
+timize a discriminative objective function
+on a designated tuning set. This way, the
+proposed method can limit the negative ef-
+fects of low quality training data, and can
+adapt the translation model to the domain
+of interest. It is shown that such discrim-
+inative corpus weights can provide sig-
+nificant improvements in Arabic-English
+translation on various conditions, using a
+state-of-the-art SMT system.
+1 

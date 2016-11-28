@@ -1,0 +1,20 @@
+ 
+We describe a similarity calculation 
+model called IFSM (Inherited Feature 
+Similarity Measure) between objects 
+(words/concepts) based on their com- 
+mon and distinctive features. We pro- 
+pose an implementation method for ob- 
+taining features based on abstracted 
+triples extracted fi'om a large text eorpus 
+utilizing taxonomical knowledge. This 
+model represents an integration of tradi- 
+tional methods, i.e,. relation b~used sin> 
+itarity measure and distribution based 
+similarity measure. An experiment, us- 
+ing our new concept abstraction method 
+which we <'all the fiat probability group- 
+ing method, over 80,000 surface triples, 
+shows that the abstraction level of 3000 
+is a good basis for feature description. 
+'1 

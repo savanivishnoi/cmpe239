@@ -1,0 +1,23 @@
+
+Automatic scoring of short text responses to
+educational assessment items is a challeng-
+ing task, particularly because large amounts
+of labeled data (i.e., human-scored responses)
+may or may not be available due to the va-
+riety of possible questions and topics. As
+such, it seems desirable to integrate various
+approaches, making use of model answers
+from experts (e.g., to give higher scores to
+responses that are similar), prescored student
+responses (e.g., to learn direct associations
+between particular phrases and scores), etc.
+Here, we describe a system that uses stack-
+ing (Wolpert, 1992) and domain adaptation
+(Daume III, 2007) to achieve this aim, allow-
+ing us to integrate item-specific n-gram fea-
+tures and more general text similarity mea-
+sures (Heilman and Madnani, 2012). We re-
+port encouraging results from the Joint Stu-
+dent Response Analysis and 8th Recognizing
+Textual Entailment Challenge.
+1 

@@ -1,0 +1,22 @@
+
+The development of robust ?deep? linguis-
+tic parsers is known to be a difficult task.
+Few such systems can claim to satisfy the
+needs of large-scale NLP applications in
+terms of robustness, efficiency, granular-
+ity or precision. Adapting such systems
+to more than one language makes the task
+even more challenging.
+This paper describes some of the proper-
+ties of Fips, a multilingual parsing sys-
+tem that has been for a number of years
+(and still is) under development at LATL.
+Based on Chomsky?s generative grammar
+for its grammatical aspects, and on object-
+oriented (OO) sofware engineering tech-
+niques for its implementation, Fips is de-
+signed to efficiently parse the four Swiss
+?national? languages (German, French,
+Italian and English) to which we also
+added Spanish and (more recently) Greek.
+1 

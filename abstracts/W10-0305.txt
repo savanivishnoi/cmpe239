@@ -1,0 +1,19 @@
+ 
+This paper presents our on-going work to 
+improve the lyric generation component of 
+the Automatic Lyric Generation system for 
+the Tamil Language. An earlier version of 
+the system used an n-gram based model to 
+generate lyrics that match the given melody. 
+This paper identifies some of the deficien-
+cies in the melody analysis and text genera-
+tion components of the earlier system and 
+explains the new approach used to tackle 
+those drawbacks. The two central approach-
+es discussed in this paper are: (1) An im-
+proved mapping scheme for matching melo-
+dy with words and (2) Knowledge-based 
+Text Generation algorithm based on an ex-
+isting Ontology and Tamil Morphology Ge-
+nerator. 
+1 

@@ -1,0 +1,26 @@
+  
+Texts acquired from recognition sources?conti-
+nuous speech/handwriting recognition and 
+OCR?generally have three types of errors re-
+gardless of the characteristics of the source in 
+particular. The output of the recognition process 
+may be (1) poorly segmented or not segmented at 
+all; (2) containing underspecified symbols (where 
+the recognition process can only indicate that the 
+symbol belongs to a specific group), e.g. shape 
+codes; (3) containing incorrectly identified sym-
+bols. The project presented in this paper addresses 
+these errors by developing of a unified linguistic 
+framework called the MorphoLogic Recognition 
+Assistant that provides feedback and corrections 
+for various recognition processes. The framework 
+uses customized morpho-syntactic and syntactic 
+analysis where the lexicons and their alphabets 
+correspond to the symbol set acquired from the 
+recognition process. The successful framework 
+must provide three services: (1) proper disambi-
+guated segmentation, (2) disambiguation for un-
+derspecified symbols, (3) correction for incorr-
+ectly recognized symbols. The paper outlines the 
+methods of morpho-syntactic and syntactic 
+post-processing currently in use. 

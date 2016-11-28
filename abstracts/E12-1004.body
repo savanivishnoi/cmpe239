@@ -1,0 +1,20 @@
+
+We introduce two ways to detect entail-
+ment using distributional semantic repre-
+sentations of phrases. Our first experiment
+shows that the entailment relation between
+adjective-noun constructions and their head
+nouns (big cat |= cat), once represented as
+semantic vector pairs, generalizes to lexical
+entailment among nouns (dog |= animal).
+Our second experiment shows that a classi-
+fier fed semantic vector pairs can similarly
+generalize the entailment relation among
+quantifier phrases (many dogs|=some dogs)
+to entailment involving unseen quantifiers
+(all cats|=several cats). Moreover, nominal
+and quantifier phrase entailment appears to
+be cued by different distributional corre-
+lates, as predicted by the type-based view
+of entailment in formal semantics.
+1 

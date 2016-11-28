@@ -1,0 +1,21 @@
+
+Learning for sentence re-writing is a funda-
+mental task in natural language processing and
+information retrieval. In this paper, we pro-
+pose a new class of kernel functions, referred
+to as string re-writing kernel, to address the
+problem. A string re-writing kernel measures
+the similarity between two pairs of strings,
+each pair representing re-writing of a string.
+It can capture the lexical and structural sim-
+ilarity between two pairs of sentences with-
+out the need of constructing syntactic trees.
+We further propose an instance of string re-
+writing kernel which can be computed effi-
+ciently. Experimental results on benchmark
+datasets show that our method can achieve bet-
+ter results than state-of-the-art methods on two
+sentence re-writing learning tasks: paraphrase
+identification and recognizing textual entail-
+ment.
+1 

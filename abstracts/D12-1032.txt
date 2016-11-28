@@ -1,0 +1,19 @@
+
+Many linguistic and textual processes involve transduc-
+tion of strings. We show how to learn a stochastic trans-
+ducer from an unorganized collection of strings (rather
+than string pairs). The role of the transducer is to orga-
+nize the collection. Our generative model explains simi-
+larities among the strings by supposing that some strings
+in the collection were not generated ab initio, but were in-
+stead derived by transduction from other, ?similar? strings
+in the collection. Our variational EM learning algorithm
+alternately reestimates this phylogeny and the transducer
+parameters. The final learned transducer can quickly link
+any test name into the final phylogeny, thereby locating
+variants of the test name. We find that our method can
+effectively find name variants in a corpus of web strings
+used to refer to persons inWikipedia, improving over stan-
+dard untrained distances such as Jaro-Winkler and Leven-
+shtein distance.
+1 

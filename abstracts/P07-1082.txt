@@ -1,0 +1,17 @@
+
+We propose a novel algorithm for English
+to Persian transliteration. Previous meth-
+ods proposed for this language pair apply
+a word alignment tool for training. By
+contrast, we introduce an alignment algo-
+rithm particularly designed for translitera-
+tion. Our new model improves the English
+to Persian transliteration accuracy by 14%
+over an n-gram baseline. We also propose
+a novel back-transliteration method for this
+language pair, a previously unstudied prob-
+lem. Experimental results demonstrate that
+our algorithm leads to an absolute improve-
+ment of 25% over standard transliteration
+approaches.
+1 

@@ -1,0 +1,21 @@
+
+Definition extraction is the task of au-
+tomatically identifying definitional sen-
+tences within texts. The task has proven
+useful in many research areas including
+ontology learning, relation extraction and
+question answering. However, current ap-
+proaches ? mostly focused on lexico-
+syntactic patterns ? suffer from both low
+recall and precision, as definitional sen-
+tences occur in highly variable syntactic
+structures. In this paper, we propose Word-
+Class Lattices (WCLs), a generalization of
+word lattices that we use to model tex-
+tual definitions. Lattices are learned from
+a dataset of definitions from Wikipedia.
+Our method is applied to the task of def-
+inition and hypernym extraction and com-
+pares favorably to other pattern general-
+ization methods proposed in the literature.
+1 

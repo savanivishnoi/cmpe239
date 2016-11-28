@@ -1,0 +1,12 @@
+
+In Chinese, nouns need numeral clas-
+sifiers to express quantity. In this pa-
+per, we explore the relationship be-
+tween classifiers and nouns. We ex-
+tract a set of lexical, syntactic and onto-
+logical features and the corresponding
+noun-classifier pairs from a corpus and
+then train SVMs to assign classifers to
+nouns. We analyse which features are
+most important for this task.
+1 

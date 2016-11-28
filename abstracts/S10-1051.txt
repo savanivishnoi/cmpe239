@@ -1,0 +1,13 @@
+
+This paper addresses the problem of rank-
+ing a list of paraphrases associated with a
+noun-noun compound as closely as possi-
+ble to human raters (Butnariu et al, 2010).
+UCD-Goggle tackles this task using se-
+mantic knowledge learnt from the Google
+n-grams together with human-preferences
+for paraphrases mined from training data.
+Empirical evaluation shows that UCD-
+Goggle achieves 0.432 Spearman correla-
+tion with human judgments.
+1 

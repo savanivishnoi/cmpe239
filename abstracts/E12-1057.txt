@@ -1,0 +1,32 @@
+
+Text prediction is the task of suggesting
+text while the user is typing. Its main aim
+is to reduce the number of keystrokes that
+are needed to type a text. In this paper, we
+address the influence of text type and do-
+main differences on text prediction quality.
+By training and testing our text predic-
+tion algorithm on four different text types
+(Wikipedia, Twitter, transcriptions of con-
+versational speech and FAQ) with equal
+corpus sizes, we found that there is a clear
+effect of text type on text prediction qual-
+ity: training and testing on the same text
+type gave percentages of saved keystrokes
+between 27 and 34%; training on a differ-
+ent text type caused the scores to drop to
+percentages between 16 and 28%.
+In our case study, we compared a num-
+ber of training corpora for a specific data
+set for which training data is sparse: ques-
+tions about neurological issues. We found
+that both text type and topic domain play
+a role in text prediction quality. The
+best performing training corpus was a set
+of medical pages from Wikipedia. The
+second-best result was obtained by leave-
+one-out experiments on the test questions,
+even though this training corpus was much
+smaller (2,672 words) than the other cor-
+pora (1.5 Million words).
+1 

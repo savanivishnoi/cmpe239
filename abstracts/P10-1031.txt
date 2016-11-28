@@ -1,0 +1,26 @@
+
+Extracting knowledge from unstructured
+text is a long-standing goal of NLP. Al-
+though learning approaches to many of its
+subtasks have been developed (e.g., pars-
+ing, taxonomy induction, information ex-
+traction), all end-to-end solutions to date
+require heavy supervision and/or manual
+engineering, limiting their scope and scal-
+ability. We present OntoUSP, a system that
+induces and populates a probabilistic on-
+tology using only dependency-parsed text
+as input. OntoUSP builds on the USP
+unsupervised semantic parser by jointly
+forming ISA and IS-PART hierarchies of
+lambda-form clusters. The ISA hierar-
+chy allows more general knowledge to
+be learned, and the use of smoothing for
+parameter estimation. We evaluate On-
+toUSP by using it to extract a knowledge
+base from biomedical abstracts and an-
+swer questions. OntoUSP improves on
+the recall of USP by 47% and greatly
+outperforms previous state-of-the-art ap-
+proaches.
+1 

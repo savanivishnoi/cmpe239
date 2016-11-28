@@ -1,0 +1,24 @@
+
+Incremental processing allows system design-
+ers to address several discourse phenomena
+that have previously been somewhat neglected
+in interactive systems, such as backchannels
+or barge-ins, but that can enhance the re-
+sponsiveness and naturalness of systems. Un-
+fortunately, prior work has focused largely
+on deterministic incremental decision mak-
+ing, rendering system behaviour less flexible
+and adaptive than is desirable. We present a
+novel approach to incremental decision mak-
+ing that is based on Hierarchical Reinforce-
+ment Learning to achieve an interactive op-
+timisation of Information Presentation (IP)
+strategies, allowing the system to generate
+and comprehend backchannels and barge-ins,
+by employing the recent psycholinguistic hy-
+pothesis of information density (ID) (Jaeger,
+2010). Results in terms of average rewards
+and a human rating study show that our learnt
+strategy outperforms several baselines that are
+not sensitive to ID by more than 23%.
+1 

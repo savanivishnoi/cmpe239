@@ -1,0 +1,16 @@
+
+We present a system for computing sim-
+ilarity between pairs of words. Our sys-
+tem is based on Pair Hidden Markov Mod-
+els, a variation on Hidden Markov Mod-
+els that has been used successfully for the
+alignment of biological sequences. The
+parameters of the model are automatically
+learned from training data that consists
+of word pairs known to be similar. Our
+tests focus on the identification of cog-
+nates ? words of common origin in re-
+lated languages. The results show that our
+system outperforms previously proposed
+techniques.
+1 

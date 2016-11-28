@@ -1,0 +1,13 @@
+  
+We describe an architecture for spoken dialogue 
+interfaces to semi-autonomous systems that trans- 
+forms speech~signals through successive representa- 
+tions of linguistic, dialogue, and domain knowledge. 
+Each step produces an output, and a meta-output 
+describing the transformation, with an executable 
+program in a simple scripting language as the fi- 
+nal result. The output/meta-output distinction per- 
+mits perspicuous treatment of diverse tasks such as 
+resolving pronouns, correcting user misconceptions, 
+and optimizing scripts. 
+1 

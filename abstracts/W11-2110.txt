@@ -1,0 +1,17 @@
+
+We propose the use of morphemes for auto-
+matic evaluation of machine translation out-
+put, and systematically investigate a set of F
+score and BLEU score based metrics calculated
+on words, morphemes and POS tags along with
+all corresponding combinations. Correlations
+between the new metrics and human judg-
+ments are calculated on the data of the third,
+fourth and fifth shared tasks of the Statisti-
+cal Machine Translation Workshop. Machine
+translation outputs in five different European
+languages are used: English, Spanish, French,
+German and Czech. The results show that the
+F scores which take into account morphemes
+and POS tags are the most promising metrics.
+1 

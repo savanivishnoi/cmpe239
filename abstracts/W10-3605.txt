@@ -1,0 +1,28 @@
+ 
+A web based Manipuri corpus is devel-
+oped for identification of reduplicated 
+multiword expression (MWE) and mul-
+tiword named entity recognition (NER). 
+Manipuri is one of the rarely investi-
+gated language and its resources for 
+natural language processing are not 
+available in the required measure. The 
+web content of Manipuri is also very 
+poor. News corpus from a popular Ma-
+nipuri news website is collected. Ap-
+proximately four and a half million Ma-
+nipuri wordforms have been collected 
+from the web. The mode of corpus col-
+lection and the identification of redupli-
+cated MWEs and multiword NE based 
+on support vector machine (SVM) 
+learning technique are reported. The 
+SVM based reduplicated MWE system 
+is evaluated with recall, precision and F-
+Score values of 94.62%, 93.53% and 
+94.07% respectively outperforming the 
+rule based approach. The recall, preci-
+sion and F-Score for multiword NE are 
+evaluated as 94.82%, 93.12% and 
+93.96% respectively. 
+1 

@@ -1,0 +1,27 @@
+ 
+SMS dictation by voice is becoming a viable al-
+ternative providing a convenient method for 
+texting in a variety of environments. Contextual 
+knowledge should be used to improve perfor-
+mance. We propose to add topic knowledge as 
+part of the contextual awareness of both texting 
+partners during SMS conversations. Topics can 
+be used for speech applications, if the relation 
+between the conversed topics and the choice of 
+words in SMS dialogs is measurable. In this 
+study, we collected an SMS corpus, developed 
+a topic annotation scheme, and built a topic hie-
+rarchy in a tree structure. We validated our top-
+ic assignments and tree structure by the 
+Agglomerative Information Bottleneck method, 
+which also proved the measurability of the in-
+terrelation between topics and wording. To 
+quantify this relation we propose a na?ve classi-
+fication method based on the calculation of top-
+ic distinctive word lists and compare the 
+classifiers? topic recognition capabilities for 
+SMS dialogs with unigram language models. 
+The results demonstrate that the relation be-
+tween topic and wording is significant and can 
+be integrated into SMS dictation.  
+1 

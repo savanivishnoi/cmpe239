@@ -1,0 +1,26 @@
+
+Adjectives like good, great, and excellent are
+similar in meaning, but differ in intensity. In-
+tensity order information is very useful for
+language learners as well as in several NLP
+tasks, but is missing in most lexical resources
+(dictionaries, WordNet, and thesauri). In this
+paper, we present a primarily unsupervised
+approach that uses semantics from Web-scale
+data (e.g., phrases like good but not excel-
+lent) to rank words by assigning them posi-
+tions on a continuous scale. We rely on Mixed
+Integer Linear Programming to jointly deter-
+mine the ranks, such that individual decisions
+benefit from global information. When rank-
+ing English adjectives, our global algorithm
+achieves substantial improvements over pre-
+vious work on both pairwise and rank corre-
+lation metrics (specifically, 70% pairwise ac-
+curacy as compared to only 56% by previous
+work). Moreover, our approach can incorpo-
+rate external synonymy information (increas-
+ing its pairwise accuracy to 78%) and extends
+easily to new languages. We also make our
+code and data freely available.1
+1 

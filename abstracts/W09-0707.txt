@@ -1,0 +1,25 @@
+ 
+This paper presents a speech synthesis system 
+for Amharic language and describes and how 
+the important prosodic features of the lan-
+guage were modeled in the system. The devel-
+oped Amharic Text-to-Speech system 
+(AmhTTS) is parametric and rule-based that 
+employs a cepstral method. The system uses a 
+source filter model for speech production and 
+a Log Magnitude Approximation (LMA) filter 
+as the vocal tract filter. The intelligibility and 
+naturalness of the system was evaluated by 
+word and sentence listening tests respectively 
+and we achieved 98% correct-rates for words 
+and an average Mean Opinion Score (MOS) of 
+3.2 (which is categorized as good) for sen-
+tences listening tests. The synthesized speech 
+has high intelligibility and moderate natural-
+ness. Comparing with previous similar study, 
+our system produced considerably similar 
+quality speech with a fairly good prosody. In 
+particular our system is mainly suitable for 
+building new languages with little modifica-
+tion. 
+1 

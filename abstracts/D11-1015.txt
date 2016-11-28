@@ -1,0 +1,25 @@
+
+Polarity classification of opinionated sen-
+tences with both positive and negative senti-
+ments1 is a key challenge in sentiment anal-
+ysis. This paper presents a novel unsuper-
+vised method for discovering intra-sentence
+level discourse relations for eliminating polar-
+ity ambiguities. Firstly, a discourse scheme
+with discourse constraints on polarity was de-
+fined empirically based on Rhetorical Struc-
+ture Theory (RST). Then, a small set of cue-
+phrase-based patterns were utilized to collect
+a large number of discourse instances which
+were later converted to semantic sequential
+representations (SSRs). Finally, an unsuper-
+vised method was adopted to generate, weigh
+and filter new SSRs without cue phrases for
+recognizing discourse relations. Experimen-
+tal results showed that the proposed methods
+not only effectively recognized the defined
+discourse relations but also achieved signifi-
+cant improvement by integrating discourse in-
+formation in sentence-level polarity classifica-
+tion.
+1 

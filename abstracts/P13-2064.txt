@@ -1,0 +1,15 @@
+
+In this paper, we propose a novel compact
+representation called weighted bipartite
+hypergraph to exploit the fertility model,
+which plays a critical role in word align-
+ment. However, estimating the probabili-
+ties of rules extracted from hypergraphs is
+an NP-complete problem, which is com-
+putationally infeasible. Therefore, we pro-
+pose a divide-and-conquer strategy by de-
+composing a hypergraph into a set of inde-
+pendent subhypergraphs. The experiments
+show that our approach outperforms both
+1-best and n-best alignments.
+1 

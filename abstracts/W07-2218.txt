@@ -1,0 +1,15 @@
+
+We propose a generative dependency pars-
+ing model which uses binary latent variables
+to induce conditioning features. To define
+this model we use a recently proposed class
+of Bayesian Networks for structured predic-
+tion, Incremental Sigmoid Belief Networks.
+We demonstrate that the proposed model
+achieves state-of-the-art results on three dif-
+ferent languages. We also demonstrate that
+the features induced by the ISBN?s latent
+variables are crucial to this success, and
+show that the proposed model is particularly
+good on long dependencies.
+1 

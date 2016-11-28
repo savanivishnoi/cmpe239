@@ -1,0 +1,23 @@
+
+Wikipedia is a Web based, freely available
+multilingual encyclopedia, constructed in a
+collaborative effort by thousands of contribu-
+tors. Wikipedia articles on the same topic in
+different languages are connected via interlin-
+gual (or translational) links. These links serve
+as an excellent resource for obtaining lexical
+translations, or building multilingual dictio-
+naries and semantic networks. As these links
+are manually built, many links are missing
+or simply wrong. This paper describes a su-
+pervised learning method for generating new
+links and detecting existing incorrect links.
+Since there is no dataset available to evaluate
+the resulting interlingual links, we create our
+own gold standard by sampling translational
+links from four language pairs using distance
+heuristics. We manually annotate the sampled
+translation links and used them to evaluate the
+output of our method for automatic link detec-
+tion and correction.
+1 

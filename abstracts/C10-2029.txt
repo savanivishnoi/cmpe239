@@ -1,0 +1,14 @@
+
+Recent work on distributional methods for
+similarity focuses on using the context
+in which a target word occurs to derive
+context-sensitive similarity computations.
+In this paper we present a method for com-
+puting similarity which builds vector rep-
+resentations for words in context by mod-
+eling senses as latent variables in a large
+corpus. We apply this to the Lexical Sub-
+stitution Task and we show that our model
+significantly outperforms typical distribu-
+tional methods.
+1 

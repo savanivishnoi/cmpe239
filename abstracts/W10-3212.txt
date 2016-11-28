@@ -1,0 +1,18 @@
+ 
+This paper presents a technique for word 
+segmentation for the Urdu OCR system. 
+Word segmentation or word tokeniza-
+tion is a preliminary task for Urdu lan-
+guage processing. Several techniques 
+are available for word segmentation in 
+other languages. A methodology is pro-
+posed for word segmentation in this pa-
+per which determines the boundaries of 
+words given a sequence of ligatures, 
+based on collocation of ligatures and 
+words in the corpus. Using this tech-
+nique, word identification rate of 
+96.10% is achieved, using trigram prob-
+abilities normalized over the number of 
+ligatures and words in the sequence. 
+1 

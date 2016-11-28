@@ -1,0 +1,13 @@
+. Many methods of term extraction have been discussed in
+terms of their accuracy on huge corpora. However, when we try to apply
+various methods that derive from frequency to a small corpus, we may
+not be able to achieve sufficient accuracy because of the shortage of
+statistical information on frequency. This paper reports a new way of
+extracting terms that is tuned for a very small corpus. It focuses on the
+structure of compound terms and calculates perplexity on the term unit?s
+left-side and right-side. The results of our experiments revealed that the
+accuracy with the proposed method was not that advantageous. However,
+experimentation with the method combining perplexity and frequency
+information obtained the highest average-precision in comparison with
+other methods.
+1 

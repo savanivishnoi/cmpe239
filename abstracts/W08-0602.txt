@@ -1,0 +1,30 @@
+
+The Clinical E-Science Framework (CLEF)
+project has built a system to extract clin-
+ically significant information from the tex-
+tual component of medical records, for clin-
+ical research, evidence-based healthcare and
+genotype-meets-phenotype informatics. One
+part of this system is the identification of rela-
+tionships between clinically important entities
+in the text. Typical approaches to relationship
+extraction in this domain have used full parses,
+domain-specific grammars, and large knowl-
+edge bases encoding domain knowledge. In
+other areas of biomedical NLP, statistical ma-
+chine learning approaches are now routinely
+applied to relationship extraction. We report
+on the novel application of these statistical
+techniques to clinical relationships.
+We describe a supervised machine learning
+system, trained with a corpus of oncology nar-
+ratives hand-annotated with clinically impor-
+tant relationships. Various shallow features
+are extracted from these texts, and used to
+train statistical classifiers. We compare the
+suitability of these features for clinical re-
+lationship extraction, how extraction varies
+between inter- and intra-sentential relation-
+ships, and examine the amount of training data
+needed to learn various relationships.
+1 

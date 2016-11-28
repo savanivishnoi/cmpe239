@@ -1,0 +1,21 @@
+ 
+Nested Named Entities (nested NEs), one 
+containing another, are commonly seen in 
+biomedical text, e.g., accounting for 
+16.7% of all named entities in GENIA 
+corpus. While many works have been 
+done in recognizing non-nested NEs, 
+nested NEs have been largely neglected. 
+In this work, we treat the task as a binary 
+classification problem and solve it using 
+Support Vector Machines. For each token 
+in nested NEs, we use two schemes to set 
+its class label: labeling as the outmost 
+entity or the inner entity. Our preliminary 
+results show that while the outmost 
+labeling tends to work better in 
+recognizing the outmost entities, the inner 
+labeling recognizes the inner NEs better. 
+This result should be useful for 
+recognition of nested NEs. 
+1 

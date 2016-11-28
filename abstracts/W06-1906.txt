@@ -1,0 +1,23 @@
+
+Question Classification is an important
+task in Question Answering Systems. This
+paper presents a Spanish Question Classi-
+fier based on machine learning, automatic
+online translators and different language
+features. Our system works with Eng-
+lish collections and bilingual questions
+(English/Spanish). We have tested two
+Spanish-English online translators to iden-
+tify the lost of precision. We have made
+experiments using lexical, syntactic and
+semantic features to test which ones made
+a better performance. The obtained results
+show that our system makes good classifi-
+cations, over a 80% in terms of accuracy
+using the original English questions and
+over a 65% using Spanish questions and
+machine translation systems. Our conclu-
+sion about the features is that a lexical,
+syntactic and semantic features combina-
+tion obtains the best result.
+1 

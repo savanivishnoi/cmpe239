@@ -1,0 +1,13 @@
+
+Idiom processing and reference resolution are two complex aspects of text
+processing that are commonly treated in isolation. However, closer study
+of the reference needs of some idioms suggests that these two phenom-
+ena will need to be treated together to support high-endNLP applications.
+Using evidence from Russian and English, this article describes a num-
+ber of classes of idioms according to their reference needs and suggests a
+method of lexical encoding which, supplemented by procedural semantic
+routines, can adequately support the full semantic and referential inter-
+pretation of these idioms.
+165
+166 McShane and Nirenburg
+1 

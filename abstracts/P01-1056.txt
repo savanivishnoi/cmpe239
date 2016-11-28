@@ -1,0 +1,23 @@
+
+Techniques for automatically training
+modules of a natural language gener-
+ator have recently been proposed, but
+a fundamental concern is whether the
+quality of utterances produced with
+trainable components can compete with
+hand-crafted template-based or rule-
+based approaches. In this paper We ex-
+perimentally evaluate a trainable sen-
+tence planner for a spoken dialogue sys-
+tem by eliciting subjective human judg-
+ments. In order to perform an ex-
+haustive comparison, we also evaluate
+a hand-crafted template-based genera-
+tion component, two rule-based sen-
+tence planners, and two baseline sen-
+tence planners. We show that the train-
+able sentence planner performs better
+than the rule-based systems and the
+baselines, and as well as the hand-
+crafted system.
+1 

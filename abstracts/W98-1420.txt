@@ -1,0 +1,12 @@
+  
+Two main problems in natural language generation are lexical selection and syntactic 
+? structure determination. In interlingua pproach to machine translation, determining sentence 
+structures becomes more difficult, especially when the interlingua does not contain any syntactic 
+information, in this paper, a knowledge-based computational model which handles these 
+two problems in interlingua pproach is presented. The developed system takes interlingua 
+representations of individual sentences, performs lexical selection, and produces frame-based 
+syntactic structures. The system takes all the information about the target language from 
+knowledge resources, in other words its architecture is language-independent. The implemented 
+system is tested with Turkish through small-sized resources such that its output can be fed into 
+a previously developed tactical generator to produce the final realizations of Turkish sentences. 
+1 

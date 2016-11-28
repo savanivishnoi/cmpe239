@@ -1,0 +1,13 @@
+
+This paper describes a hybrid, two-level
+approach for resolving hedge cues, the
+problem of the CoNLL-2010 shared task.
+First, a maximum entropy classifier is ap-
+plied to identify cue words, using both
+syntactic- and surface-oriented features.
+Second, a set of manually crafted rules,
+operating on dependency representations
+and the output of the classifier, is applied
+to resolve the scope of the hedge cues
+within the sentence.
+1 

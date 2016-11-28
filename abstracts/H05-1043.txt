@@ -1,0 +1,21 @@
+
+Consumers are often forced to wade
+through many on-line reviews in
+order to make an informed prod-
+uct choice. This paper introduces
+OPINE, an unsupervised information-
+extraction system which mines re-
+views in order to build a model of im-
+portant product features, their evalu-
+ation by reviewers, and their relative
+quality across products.
+Compared to previous work, OPINE
+achieves 22% higher precision (with
+only 3% lower recall) on the feature
+extraction task. OPINE?s novel use of
+relaxation labeling for finding the se-
+mantic orientation of words in con-
+text leads to strong performance on
+the tasks of finding opinion phrases
+and their polarity.
+1 

@@ -1,0 +1,14 @@
+
+This paper describes a time-series model
+for parsing transcribed speech containing
+disfluencies. This model differs from pre-
+vious parsers in its explicit modeling of a
+buffer of recent words, which allows it to
+recognize repairs more easily due to the
+frequent overlap in words between errors
+and their repairs. The parser implement-
+ing this model is evaluated on the stan-
+dard Switchboard transcribed speech pars-
+ing task for overall parsing accuracy and
+edited word detection.
+1 

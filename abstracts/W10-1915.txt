@@ -1,0 +1,31 @@
+
+Adverse reactions to drugs are among the
+most common causes of death in industri-
+alized nations. Expensive clinical trials are
+not sufficient to uncover all of the adverse
+reactions a drug may cause, necessitating
+systems for post-marketing surveillance,
+or pharmacovigilance. These systems
+have typically relied on voluntary report-
+ing by health care professionals. However,
+self-reported patient data has become an
+increasingly important resource, with ef-
+forts such as MedWatch from the FDA al-
+lowing reports directly from the consumer.
+In this paper, we propose mining the re-
+lationships between drugs and adverse re-
+actions as reported by the patients them-
+selves in user comments to health-related
+websites. We evaluate our system on a
+manually annotated set of user comments,
+with promising performance. We also re-
+port encouraging correlations between the
+frequency of adverse drug reactions found
+by our system in unlabeled data and the
+frequency of documented adverse drug re-
+actions. We conclude that user comments
+pose a significant natural language pro-
+cessing challenge, but do contain useful
+extractable information which merits fur-
+ther exploration.
+1 

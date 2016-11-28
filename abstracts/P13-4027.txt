@@ -1,0 +1,20 @@
+
+The use of deep syntactic information such
+as typed dependencies has been shown
+to be very effective in Information Ex-
+traction. Despite this potential, the pro-
+cess of manually creating rule-based in-
+formation extractors that operate on de-
+pendency trees is not intuitive for persons
+without an extensive NLP background. In
+this system demonstration, we present a
+tool and a workflow designed to enable
+initiate users to interactively explore the
+effect and expressivity of creating Infor-
+mation Extraction rules over dependency
+trees. We introduce the proposed five step
+workflow for creating information extrac-
+tors, the graph query based rule language,
+as well as the core features of the PROP-
+MINER tool.
+1 

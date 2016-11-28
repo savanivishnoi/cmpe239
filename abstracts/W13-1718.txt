@@ -1,0 +1,12 @@
+
+We apply Support Vector Machines to differ-
+entiate between 11 native languages in the
+2013 Native Language Identification Shared
+Task. We expand a set of common language
+identification features to include cognate inter-
+ference and spelling mistakes. Our best results
+are obtained with a classifier which includes
+both the cognate and the misspelling features,
+as well as word unigrams, word bigrams, char-
+acter bigrams, and syntax production rules.
+1 

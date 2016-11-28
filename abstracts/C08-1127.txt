@@ -1,0 +1,25 @@
+
+Bracketing Transduction Grammar (BTG)
+is a natural choice for effective integration
+of desired linguistic knowledge into sta-
+tistical machine translation (SMT). In this
+paper, we propose a Linguistically Anno-
+tated BTG (LABTG) for SMT. It conveys
+linguistic knowledge of source-side syn-
+tax structures to BTG hierarchical struc-
+tures through linguistic annotation. From
+the linguistically annotated data, we learn
+annotated BTG rules and train linguisti-
+cally motivated phrase translation model
+and reordering model. We also present an
+annotation algorithm that captures syntac-
+tic information for BTG nodes. The ex-
+periments show that the LABTG approach
+significantly outperforms a baseline BTG-
+based system and a state-of-the-art phrase-
+based system on the NISTMT-05 Chinese-
+to-English translation task. Moreover, we
+empirically demonstrate that the proposed
+method achieves better translation selec-
+tion and phrase reordering.
+1 

@@ -1,0 +1,19 @@
+
+This paper reports on the development of
+methods for the automated detection of vi-
+olations of style guidelines for legislative
+texts, and their implementation in a pro-
+totypical tool. To this aim, the approach
+of error modelling employed in automated
+style checkers for technical writing is en-
+hanced to meet the requirements of legisla-
+tive editing. The paper identifies and dis-
+cusses the two main sets of challenges that
+have to be tackled in this process: (i) the
+provision of domain-specific NLP methods
+for legislative drafts, and (ii) the concretisa-
+tion of guidelines for legislative drafting so
+that they can be assessed by machine. The
+project focuses on German-language legisla-
+tive drafting in Switzerland.
+1 

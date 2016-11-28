@@ -1,0 +1,20 @@
+
+An approach is presented to the auto-
+matic discovery of labels of relations be-
+tween pairs of ontological classes. Using
+a hyperlinked encyclopaedic resource, we
+gather evidence for likely predicative la-
+bels by searching for sentences that de-
+scribe relations between terms. The terms
+are instances of the pair of ontological
+classes under consideration, drawn from
+a populated knowledge base. Verbs or
+verb phrases are automatically extracted,
+yielding a ranked list of candidate rela-
+tions. Human judges rate the extracted
+relations. The extracted relations provide
+a basis for automatic ontology discovery
+from a non-relational database. The ap-
+proach is demonstrated on a database from
+the natural history domain.
+1 

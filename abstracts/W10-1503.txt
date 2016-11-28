@@ -1,0 +1,23 @@
+
+In this paper, we address the challenges
+posed by large amounts of text data by
+exploiting the power of hashing in the
+context of streaming data. We explore
+sketch techniques, especially the Count-
+Min Sketch, which approximates the fre-
+quency of a word pair in the corpus with-
+out explicitly storing the word pairs them-
+selves. We use the idea of a conservative
+update with the Count-Min Sketch to re-
+duce the average relative error of its ap-
+proximate counts by a factor of two. We
+show that it is possible to store all words
+and word pairs counts computed from 37
+GB of web data in just 2 billion counters
+(8 GB RAM). The number of these coun-
+ters is up to 30 times less than the stream
+size which is a big memory and space gain.
+In Semantic Orientation experiments, the
+PMI scores computed from 2 billion coun-
+ters are as effective as exact PMI scores.
+1 

@@ -1,0 +1,24 @@
+
+Topic models have great potential for help-
+ing users understand document corpora.
+This potential is stymied by their purely un-
+supervised nature, which often leads to top-
+ics that are neither entirely meaningful nor
+effective in extrinsic tasks (Chang et al.,
+2009). We propose a simple and effective
+way to guide topic models to learn topics
+of specific interest to a user. We achieve
+this by providing sets of seed words that a
+user believes are representative of the un-
+derlying topics in a corpus. Our model
+uses these seeds to improve both topic-
+word distributions (by biasing topics to pro-
+duce appropriate seed words) and to im-
+prove document-topic distributions (by bi-
+asing documents to select topics related to
+the seed words they contain). Extrinsic
+evaluation on a document clustering task
+reveals a significant improvement when us-
+ing seed information, even over other mod-
+els that use seed information na??vely.
+1 

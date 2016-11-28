@@ -1,0 +1,21 @@
+ 
+This paper presents an Extended WordNet 
+based word sense disambiguation system 
+using a major modification to the Lesk al-
+gorithm. The algorithm tries to disambigu-
+ate nouns, verbs and adjectives. The algo-
+rithm relies on the POS-sense tagged syn-
+set glosses provided by the Extended 
+WordNet. The basic unit of disambiguation 
+of our algorithm is the entire sentence un-
+der consideration. It takes a global ap-
+proach where all the words in the target 
+sentence are simultaneously disambigu-
+ated. The context includes previous and 
+next sentence. The system assigns the de-
+fault WordNet first sense to a word when 
+the algorithm fails to predict the sense of 
+the word. The system produces a precision 
+and recall of .402 on the SemEval-2007 
+English All-Words test data. 
+1 

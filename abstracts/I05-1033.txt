@@ -1,0 +1,11 @@
+. This paper presents a supervised approach for relation extraction. We 
+apply Support Vector Machines to detect and classify the relations in Automatic 
+Content Extraction (ACE) corpus. We use a set of features including lexical to-
+kens, syntactic structures, and semantic entity types for relation detection and 
+classification problem. Besides these linguistic features, we successfully utilize 
+the distance between two entities to improve the performance. In relation detec-
+tion, we filter out the negative relation candidates using entity distance thresh-
+old. In relation classification, we use the entity distance as a feature for Support 
+Vector Classifier. The system is evaluated in terms of recall, precision, and F-
+measure, and errors of the system are analyzed with proposed solution. 
+1   

@@ -1,0 +1,27 @@
+ 
+This paper describes a new program, correct, 
+which takes words rejected by the Unix? spell 
+program, proposes a list of candidate corrections, 
+and sorts them by probability. The probability 
+scores are the novel contribution of this work. 
+Probabilities are based on a noisy channel model. 
+It is assumed that the typist knows what words 
+he or she wants to type but some noise is added 
+on the way to the keyboard (in the form of typos 
+and spelling errors). Using a classic Bayesian 
+argument of the kind that is popular in the 
+speech recognition literature (Jelinek, 1985), one 
+can often recover the intended correction, c, from 
+a typo, t, by finding the correction c that 
+maximizes Pr (c )Pr ( t l c ) .  The first factor, 
+Pr(c), is a prior model of word probabilities; the 
+second factor, Pr(t\[c), is a model of the noisy 
+channel that accounts for spelling 
+transformations on letter sequences (e.g., 
+insertions, deletions, substitutions and reversals). 
+Both sets of probabilities were trained on data 
+collected from the Associated Press (AP) 
+newswire. This text is ideally suited for this 
+purpose since it contains a large number of typos 
+(about wo thousand per month). 
+1. 

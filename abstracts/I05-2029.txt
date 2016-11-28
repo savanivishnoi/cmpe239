@@ -1,0 +1,20 @@
+ 
+This paper describes our work to allow 
+players in a virtual world to pose ques-
+tions without relying on textual input. 
+Our approach is to create enhanced vir-
+tual photographs by annotating them 
+with semantic information from the 3D 
+environment?s scene graph. The player 
+can then use these annotated photos to 
+interact with inhabitants of the world 
+through automatically generated que-
+ries that are guaranteed to be relevant, 
+grammatical and unambiguous. While 
+the range of queries is more limited 
+than a text input system would permit, 
+in the gaming environment that we are 
+exploring these limitations are offset by 
+the practical concerns that make text 
+input inappropriate. 
+1 

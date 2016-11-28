@@ -1,0 +1,14 @@
+
+We present a language-independent and
+unsupervised algorithm for the segmenta-
+tion of words into morphs. The algorithm
+is based on a new generative probabilis-
+tic model, which makes use of relevant
+prior information on the length and fre-
+quency distributions of morphs in a lan-
+guage. Our algorithm is shown to out-
+perform two competing algorithms, when
+evaluated on data from a language with
+agglutinative morphology (Finnish), and
+to perform well also on English data.
+1 

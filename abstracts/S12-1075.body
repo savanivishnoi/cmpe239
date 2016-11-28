@@ -1,0 +1,14 @@
+ 
+This paper presents the work of the Hong 
+Kong Polytechnic University (PolyUCOMP) 
+team which has participated in the Semantic 
+Textual Similarity task of SemEval-2012. The 
+PolyUCOMP system combines semantic vec-
+tors with skip bigrams to determine sentence 
+similarity. The semantic vector is used to 
+compute similarities between sentence pairs 
+using the lexical database WordNet and the 
+Wikipedia corpus. The use of skip bigram is 
+to introduce the order of words in measuring 
+sentence similarity.  
+1 

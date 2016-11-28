@@ -1,0 +1,25 @@
+
+Dynamic sentiment ambiguous
+adjectives (DSAAs) like ?large, small,
+high, low? pose a challenging task on
+sentiment analysis. This paper proposes a
+knowledge-based method to
+automatically determine the semantic
+orientation of DSAAs within context.
+The task is reduced to sentiment
+classification of target nouns, which we
+refer to sentiment expectation instead of
+semantic orientation widely used in
+previous researches. We mine the Web
+using lexico-syntactic patterns to infer
+sentiment expectation of nouns, and then
+exploit character-sentiment model to
+reduce noises caused by the Web data.
+At sentence level, our method achieves
+promising result with an f-score of
+78.52% that is substantially better than
+baselines. At document level, our
+method outperforms previous work in
+sentiment classification of product
+reviews.
+1 

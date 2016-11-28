@@ -1,0 +1,16 @@
+
+Automatic relation extraction provides great
+support for scientists and database curators in
+dealing with the extensive amount of biomed-
+ical textual data. The DDIExtraction 2013
+challenge poses the task of detecting drug-
+drug interactions and further categorizing
+them into one of the four relation classes. We
+present our machine learning system which
+utilizes lexical, syntactical and semantic based
+feature sets. Resampling, balancing and en-
+semble learning experiments are performed to
+infer the best configuration. For general drug-
+drug relation extraction, the system achieves
+70.4% in F1 score.
+1 

@@ -1,0 +1,20 @@
+ 
+We propose an O(M(n2)) time algorithm 
+for the recognition of Tree Adjoining Lan- 
+guages (TALs), where n is the size of the 
+input string and M(k) is the time needed 
+to multiply two k x k boolean matrices. 
+Tree Adjoining Grammars (TAGs) are for- 
+malisms uitable for natural language pro- 
+cessing and have received enormous atten- 
+tion in the past among not only natural 
+language processing researchers but also al- 
+gorithms designers. The first polynomial 
+time algorithm for TAL parsing was pro- 
+posed in 1986 and had a run time of O(n6). 
+Quite recently, an O(n 3 M(n)) algorithm 
+has been proposed. The algorithm pre- 
+sented in this paper improves the run time 
+of the recent result using an entirely differ- 
+ent approach. 
+1 

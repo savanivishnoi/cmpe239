@@ -1,0 +1,20 @@
+
+We present work on linking events and flu-
+ents (i.e., relations that hold for certain
+periods of time) to temporal information
+in text, which is an important enabler for
+many applications such as timelines and
+reasoning. Previous research has mainly
+focused on temporal links for events, and
+we extend that work to include fluents
+as well, presenting a common methodol-
+ogy for linking both events and relations
+to timestamps within the same sentence.
+Our approach combines tree kernels with
+classical feature-based learning to exploit
+context and achieves competitive F1-scores
+on event-time linking, and comparable F1-
+scores for fluents. Our best systems achieve
+F1-scores of 0.76 on events and 0.72 on flu-
+ents.
+1 

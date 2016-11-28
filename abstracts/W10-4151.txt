@@ -1,0 +1,18 @@
+ 
+This paper describes a complete syntactic 
+analysis system based on multi-level 
+chunking. On the basis of the correct se-
+quences of Chinese words provided by 
+CLP2010, the system firstly has a Part-of-
+speech (POS) tagging with Conditional 
+Random Fields (CRFs), and then does the 
+base chunking and complex chunking with 
+Maximum Entropy (ME), and finally gene-
+rates a complete syntactic analysis tree. 
+The system took part in the Complete Sen-
+tence Parsing Track of the Task 2 Chinese 
+Parsing in CLP2010, achieved the F-1 
+measure of 63.25% on the overall analysis, 
+ranked the sixth; POS accuracy rate of 
+89.62%, ranked the third. 
+1 

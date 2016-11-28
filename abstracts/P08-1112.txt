@@ -1,0 +1,22 @@
+
+Automatic word alignment is a key step in
+training statistical machine translation sys-
+tems. Despite much recent work on word
+alignment methods, alignment accuracy in-
+creases often produce little or no improve-
+ments in machine translation quality. In
+this work we analyze a recently proposed
+agreement-constrained EM algorithm for un-
+supervised alignment models. We attempt to
+tease apart the effects that this simple but ef-
+fective modification has on alignment preci-
+sion and recall trade-offs, and how rare and
+common words are affected across several lan-
+guage pairs. We propose and extensively eval-
+uate a simple method for using alignment
+models to produce alignments better-suited
+for phrase-based MT systems, and show sig-
+nificant gains (as measured by BLEU score)
+in end-to-end translation systems for six lan-
+guages pairs used in recent MT competitions.
+1 

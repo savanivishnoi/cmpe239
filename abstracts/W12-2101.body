@@ -1,0 +1,25 @@
+ 
+The main aim of this work is to perform sen-
+timent analysis on Urdu blog data. We use the 
+method of structural correspondence learning 
+(SCL) to transfer sentiment analysis learning 
+from Urdu newswire data to Urdu blog data. 
+The pivots needed to transfer learning from 
+newswire domain to blog domain is not trivial 
+as Urdu blog data, unlike newswire data is 
+written in Latin script and exhibits code-
+mixing and code-switching behavior. We con-
+sider two oracles to generate the pivots. 1. 
+Transliteration oracle, to accommodate script 
+variation and spelling variation and 2. Trans-
+lation oracle, to accommodate code-switching 
+and code-mixing behavior.  In order to identi-
+fy strong candidates for translation, we pro-
+pose a novel part-of-speech tagging method 
+that helps select words based on POS catego-
+ries that strongly reflect code-mixing behav-
+ior. We validate our approach against a 
+supervised learning method and show that the 
+performance of our proposed approach is 
+comparable. 
+1 

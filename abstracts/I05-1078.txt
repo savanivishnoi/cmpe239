@@ -1,0 +1,14 @@
+. Recent work on Conditional Random Fields (CRFs) has
+demonstrated the need for regularisation when applying these models
+to real-world NLP data sets. Conventional approaches to regularising
+CRFs has focused on using a Gaussian prior over the model parameters.
+In this paper we explore other possibilities for CRF regularisation. We
+examine alternative choices of prior distribution and we relax the usual
+simplifying assumptions made with the use of a prior, such as constant
+hyperparameter values across features. In addition, we contrast the effec-
+tiveness of priors with an alternative, parameter-free approach. Specifi-
+cally, we employ logarithmic opinion pools (LOPs). Our results show
+that a LOP of CRFs can outperform a standard unregularised CRF and
+attain a performance level close to that of a regularised CRF, without
+the need for intensive hyperparameter search.
+1 

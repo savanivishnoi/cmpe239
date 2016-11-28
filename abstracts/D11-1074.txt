@@ -1,0 +1,19 @@
+
+In this paper we present a novel approach
+to entity linking based on a statistical lan-
+guage model-based information retrieval with
+query expansion. We use both local con-
+texts and global world knowledge to expand
+query language models. We place a strong
+emphasis on named entities in the local con-
+texts and explore a positional language model
+to weigh them differently based on their dis-
+tances to the query. Our experiments on
+the TAC-KBP 2010 data show that incor-
+porating such contextual information indeed
+aids in disambiguating the named entities and
+consistently improves the entity linking per-
+formance. Compared with the official re-
+sults from KBP 2010 participants, our system
+shows competitive performance.
+1 

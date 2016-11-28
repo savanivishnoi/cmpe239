@@ -1,0 +1,21 @@
+
+We present a novel method for record extrac-
+tion from social streams such as Twitter. Un-
+like typical extraction setups, these environ-
+ments are characterized by short, one sentence
+messages with heavily colloquial speech. To
+further complicate matters, individual mes-
+sages may not express the full relation to be
+uncovered, as is often assumed in extraction
+tasks. We develop a graphical model that ad-
+dresses these problems by learning a latent set
+of records and a record-message alignment si-
+multaneously; the output of our model is a
+set of canonical records, the values of which
+are consistent with aligned messages. We
+demonstrate that our approach is able to accu-
+rately induce event records from Twitter mes-
+sages, evaluated against events from a local
+city guide. Our method achieves significant
+error reduction over baseline methods.1
+1 

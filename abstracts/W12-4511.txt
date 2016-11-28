@@ -1,0 +1,14 @@
+
+This paper presents HITS? coreference reso-
+lution system that participated in the CoNLL-
+2012 shared task on multilingual unrestricted
+coreference resolution. Our system employs a
+simple multigraph representation of the rela-
+tion between mentions in a document, where
+the nodes correspond to mentions and the
+edges correspond to relations between the
+mentions. Entities are obtained via greedy
+clustering. We participated in the closed tasks
+for English and Chinese. Our system ranked
+second in the English closed task.
+1 

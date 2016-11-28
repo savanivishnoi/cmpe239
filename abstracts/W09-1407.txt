@@ -1,0 +1,16 @@
+
+We approached the problems of event detec-
+tion, argument identification, and negation and
+speculation detection as one of concept recog-
+nition and analysis. Our methodology in-
+volved using the OpenDMAP semantic parser
+with manually-written rules. We achieved
+state-of-the-art precision for two of the three
+tasks, scoring the highest of 24 teams at pre-
+cision of 71.81 on Task 1 and the highest of 6
+teams at precision of 70.97 on Task 2.
+The OpenDMAP system and the rule set are
+available at bionlp.sourceforge.net.
+*These two authors contributed equally to the
+paper.
+1 

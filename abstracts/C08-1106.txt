@@ -1,0 +1,24 @@
+
+Shallow parsing is one of many NLP tasks
+that can be reduced to a sequence la-
+beling problem. In this paper we show
+that the latent-dynamics (i.e., hidden sub-
+structure of shallow phrases) constitutes a
+problem in shallow parsing, and we show
+that modeling this intermediate structure
+is useful. By analyzing the automatically
+learned hidden states, we show how the
+latent conditional model explicitly learn
+latent-dynamics. We propose in this paper
+the Best Label Path (BLP) inference algo-
+rithm, which is able to produce the most
+probable label sequence on latent condi-
+tional models. It outperforms two existing
+inference algorithms. With the BLP infer-
+ence, the LDCRF model significantly out-
+performs CRF models on word features,
+and achieves comparable performance of
+the most successful shallow parsers on the
+CoNLL data when further using part-of-
+speech features.
+1 

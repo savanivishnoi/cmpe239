@@ -1,0 +1,16 @@
+
+Many automatic evaluation metrics for ma-
+chine translation (MT) rely on making com-
+parisons to human translations, a resource
+that may not always be available. We present
+a method for developing sentence-level MT
+evaluation metrics that do not directly rely
+on human reference translations. Our met-
+rics are developed using regression learn-
+ing and are based on a set of weaker indi-
+cators of fluency and adequacy (pseudo ref-
+erences). Experimental results suggest that
+they rival standard reference-based metrics
+in terms of correlations with human judg-
+ments on new test instances.
+1 

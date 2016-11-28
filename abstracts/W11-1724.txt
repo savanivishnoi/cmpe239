@@ -1,0 +1,25 @@
+
+This paper presents two instance-level transfer
+learning based algorithms for cross lingual
+opinion analysis by transferring useful
+translated opinion examples from other
+languages as the supplementary training
+data for improving the opinion classifier in
+target language. Starting from the union of
+small training data in target language and
+large translated examples in other languages,
+the Transfer AdaBoost algorithm is applied
+to iteratively reduce the influence of low
+quality translated examples. Alternatively,
+starting only from the training data in target
+language, the Transfer Self-training algorithm
+is designed to iteratively select high quality
+translated examples to enrich the training
+data set. These two algorithms are applied to
+sentence- and document-level cross lingual
+opinion analysis tasks, respectively. The
+evaluations show that these algorithms
+effectively improve the opinion analysis by
+exploiting small target language training data
+and large cross lingual training data.
+1 

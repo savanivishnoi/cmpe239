@@ -1,0 +1,14 @@
+
+Latent Dirichlet Allocation is an unsupervised
+graphical model which can discover latent top-
+ics in unlabeled data. We propose a mech-
+anism for adding partial supervision, called
+topic-in-set knowledge, to latent topic mod-
+eling. This type of supervision can be used
+to encourage the recovery of topics which are
+more relevant to user modeling goals than the
+topics which would be recovered otherwise.
+Preliminary experiments on text datasets are
+presented to demonstrate the potential effec-
+tiveness of this method.
+1 

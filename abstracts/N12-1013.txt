@@ -1,0 +1,19 @@
+
+Conditional Random Fields (CRFs) are a pop-
+ular formalism for structured prediction in
+NLP. It is well known how to train CRFs with
+certain topologies that admit exact inference,
+such as linear-chain CRFs. Some NLP phe-
+nomena, however, suggest CRFs with more
+complex topologies. Should such models be
+used, considering that they make exact infer-
+ence intractable? Stoyanov et al (2011) re-
+cently argued for training parameters to min-
+imize the task-specific loss of whatever ap-
+proximate inference and decoding methods
+will be used at test time. We apply their
+method to three NLP problems, showing that
+(i) using more complex CRFs leads to im-
+proved performance, and that (ii) minimum-
+risk training learns more accurate models.
+1 

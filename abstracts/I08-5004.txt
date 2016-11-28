@@ -1,0 +1,28 @@
+
+In this paper we describe a hybrid system
+that applies Maximum Entropy model (Max-
+Ent), language specific rules and gazetteers
+to the task of Named Entity Recognition
+(NER) in Indian languages designed for the
+IJCNLP NERSSEAL shared task. Starting
+with Named Entity (NE) annotated corpora
+and a set of features we first build a base-
+line NER system. Then some language spe-
+cific rules are added to the system to recog-
+nize some specific NE classes. Also we have
+added some gazetteers and context patterns
+to the system to increase the performance.
+As identification of rules and context pat-
+terns requires language knowledge, we were
+able to prepare rules and identify context
+patterns for Hindi and Bengali only. For the
+other languages the system uses the MaxEnt
+model only. After preparing the one-level
+NER system, we have applied a set of rules
+to identify the nested entities. The system
+is able to recognize 12 classes of NEs with
+65.13% f-value in Hindi, 65.96% f-value in
+Bengali and 44.65%, 18.74%, and 35.47%
+f-value in Oriya, Telugu and Urdu respec-
+tively.
+1 

@@ -1,0 +1,20 @@
+
+We describe a method for augmenting
+a bilingual lexicon with additional in-
+formation for selecting an appropriate 
+translation word. For each word in the 
+source language, we calculate a corre-
+lation matrix of its association words 
+versus its translation candidates. We 
+estimate the degree of correlation by
+using comparable corpora based on 
+these assumptions: ?parallel word as-
+sociations? and ?one sense per word 
+association.? In our word translation 
+disambiguation experiment, the results 
+show that our method achieved 42% 
+recall and 49% precision for Japa-
+nese-English newspaper texts, and 45% 
+recall and 76% precision for Chi-
+nese-Japanese technical documents.
+1 

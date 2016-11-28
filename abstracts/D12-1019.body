@@ -1,0 +1,21 @@
+
+Recently there has been substantial interest in
+using spectral methods to learn generative se-
+quence models like HMMs. Spectral meth-
+ods are attractive as they provide globally con-
+sistent estimates of the model parameters and
+are very fast and scalable, unlike EM meth-
+ods, which can get stuck in local minima. In
+this paper, we present a novel extension of
+this class of spectral methods to learn depen-
+dency tree structures. We propose a simple
+yet powerful latent variable generative model
+for dependency parsing, and a spectral learn-
+ing method to efficiently estimate it. As a pi-
+lot experimental evaluation, we use the spec-
+tral tree probabilities estimated by our model
+to re-rank the outputs of a near state-of-the-
+art parser. Our approach gives us a moderate
+reduction in error of up to 4.6% over the base-
+line re-ranker.
+1 

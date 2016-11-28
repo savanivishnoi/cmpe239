@@ -1,0 +1,20 @@
+
+Graph-based methods that are en vogue
+in the social network analysis area, such
+as centrality models, have been recently
+applied to linguistic knowledge bases, in-
+cluding unsupervised Word Sense Disam-
+biguation. Although the achievable accu-
+racy is rather high, the main drawback of
+these methods is the high computational
+demanding whenever applied to the large
+scale sense repositories. In this paper
+an adaptation of the PageRank algorithm
+recently proposed for Word Sense Dis-
+ambiguation is presented that preserves
+the reachable accuracy while significantly
+reducing the requested processing time.
+Experimental analysis over well-known
+benchmarks will be presented in the paper
+and the results confirm our hypothesis.
+1 

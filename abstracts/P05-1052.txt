@@ -1,0 +1,27 @@
+ 
+Entity relation detection is a form of in-
+formation extraction that finds predefined 
+relations between pairs of entities in text. 
+This paper describes a relation detection 
+approach that combines clues from differ-
+ent levels of syntactic processing using 
+kernel methods. Information from three 
+different levels of processing is consid-
+ered: tokenization, sentence parsing and 
+deep dependency analysis. Each source of 
+information is represented by kernel func-
+tions. Then composite kernels are devel-
+oped to integrate and extend individual 
+kernels so that processing errors occurring 
+at one level can be overcome by informa-
+tion from other levels. We present an 
+evaluation of these methods on the 2004 
+ACE relation detection task, using Sup-
+port Vector Machines, and show that each 
+level of syntactic processing contributes 
+useful information for this task. When 
+evaluated on the official test data, our ap-
+proach produced very competitive ACE 
+value scores. We also compare the SVM 
+with KNN on different kernels.  
+1 

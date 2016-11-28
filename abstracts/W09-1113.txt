@@ -1,0 +1,12 @@
+
+We propose a novel machine learning task that
+consists in learning to predict which words in
+a text are fixated by a reader. In a first pilot
+experiment, we show that it is possible to out-
+perform a majority baseline using a transition-
+based model with a logistic regression classi-
+fier and a very limited set of features. We also
+show that the model is capable of capturing
+frequency effects on eye movements observed
+in human readers.
+1 

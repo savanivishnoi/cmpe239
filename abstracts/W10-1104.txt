@@ -1,0 +1,33 @@
+
+We present an approach to analysing auto-
+matic speech recognition (ASR) hypotheses
+for dictated medical reports based on back-
+ground knowledge. Our application area is
+prescriptions of medications, which are a fre-
+quent source of misrecognitions: In a sam-
+ple report corpus, we found that about 40%
+of the active substances or trade names and
+dosages were recognized incorrectly. In about
+25% of these errors, the correct string of words
+was contained in the word graph. We have
+built a knowledge base of medications based
+on information contained in the Unified Med-
+ical Language System (UMLS), consisting
+of trade names, active substances, strengths
+and dosages. From this, we generate a va-
+riety of linguistic realizations for prescrip-
+tions. Whenever an inconsistency in a pre-
+scription is encountered on the best path of
+the word graph, the system searches for alter-
+native paths which contain valid linguistic re-
+alizations of prescriptions consistent with the
+knowledge base. If such a path exists, a new
+concept edge with a better score is added to
+the word graph, resulting in a higher plausi-
+bility for this reading. The concept edge can
+be used for rescoring the word graph to obtain
+a new best path. A preliminary evaluation led
+to encouraging results: in nearly half of the
+cases where the word graph contained the cor-
+rect variant, the correction was successful.
+1 

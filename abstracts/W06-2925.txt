@@ -1,0 +1,13 @@
+
+We describe an online learning depen-
+dency parser for the CoNLL-X Shared
+Task, based on the bottom-up projective
+algorithm of Eisner (2000). We experi-
+ment with a large feature set that mod-
+els: the tokens involved in dependencies
+and their immediate context, the surface-
+text distance between tokens, and the syn-
+tactic context dominated by each depen-
+dency. In experiments, the treatment of
+multilingual information was totally blind.
+1 

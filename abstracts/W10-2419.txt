@@ -1,0 +1,21 @@
+ 
+ 
+Named Entity Recognition or Extraction 
+(NER) is an important task for automated text 
+processing for industries and academia 
+engaged in the field of language processing, 
+intelligence gathering and Bioinformatics.  In 
+this paper we discuss the general problem of 
+Named Entity Recognition, more specifically 
+the challenges in NER in languages that do not 
+have language resources e.g. large annotated 
+corpora. We specifically address the 
+challenges for Urdu NER and differentiate it 
+from other South Asian (Indic) languages. We 
+discuss the differences between Hindi and 
+Urdu and conclude that the NER 
+computational models for Hindi cannot be 
+applied to Urdu. A rule-based Urdu NER 
+algorithm is presented that outperforms the 
+models that use statistical learning.  
+1. 

@@ -1,0 +1,21 @@
+
+Graph based dependency parsing is inefficient
+when handling non-local features due to high
+computational complexity of inference. In
+this paper, we proposed an exact and effi-
+cient decoding algorithm based on the Branch
+and Bound (B&B) framework where non-
+local features are bounded by a linear combi-
+nation of local features. Dynamic program-
+ming is used to search the upper bound. Ex-
+periments are conducted on English PTB and
+Chinese CTB datasets. We achieved competi-
+tive Unlabeled Attachment Score (UAS) when
+no additional resources are available: 93.17%
+for English and 87.25% for Chinese. Parsing
+speed is 177 words per second for English and
+97 words per second for Chinese. Our algo-
+rithm is general and can be adapted to non-
+projective dependency parsing or other graph-
+ical models.
+1 

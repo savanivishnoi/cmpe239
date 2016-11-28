@@ -1,0 +1,29 @@
+
+Multi-document summarization has
+been an important problem in infor-
+mation retrieval. It aims to dis-
+till the most important information
+from a set of documents to gener-
+ate a compressed summary. Given
+a sentence graph generated from a
+set of documents where vertices repre-
+sent sentences and edges indicate that
+the corresponding vertices are simi-
+lar, the extracted summary can be de-
+scribed using the idea of graph dom-
+ination. In this paper, we propose
+a new principled and versatile frame-
+work for multi-document summariza-
+tion using the minimum dominating
+set. We show that four well-known
+summarization tasks including generic,
+query-focused, update, and compara-
+tive summarization can be modeled as
+different variations derived from the
+proposed framework. Approximation
+algorithms for performing summariza-
+tion are also proposed and empirical
+experiments are conducted to demon-
+strate the effectiveness of our proposed
+framework.
+1 

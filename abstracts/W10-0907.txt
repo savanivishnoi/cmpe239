@@ -1,0 +1,22 @@
+
+Open Information Extraction is a recent
+paradigm for machine reading from arbitrary
+text. In contrast to existing techniques, which
+have used only shallow syntactic features, we
+investigate the use of semantic features (se-
+mantic roles) for the task of Open IE. We com-
+pare TEXTRUNNER (Banko et al, 2007), a
+state of the art open extractor, with our novel
+extractor SRL-IE, which is based on UIUC?s
+SRL system (Punyakanok et al, 2008). We
+find that SRL-IE is robust to noisy heteroge-
+neous Web data and outperforms TEXTRUN-
+NER on extraction quality. On the other
+hand, TEXTRUNNER performs over 2 orders
+of magnitude faster and achieves good pre-
+cision in high locality and high redundancy
+extractions. These observations enable the
+construction of hybrid extractors that output
+higher quality results than TEXTRUNNER and
+similar quality as SRL-IE in much less time.
+1 

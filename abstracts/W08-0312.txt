@@ -1,0 +1,17 @@
+
+This paper describes our submissions to the
+machine translation evaluation shared task in
+ACL WMT-08. Our primary submission is the
+Meteor metric tuned for optimizing correla-
+tion with human rankings of translation hy-
+potheses. We show significant improvement
+in correlation as compared to the earlier ver-
+sion of metric which was tuned to optimized
+correlation with traditional adequacy and flu-
+ency judgments. We also describe m-bleu and
+m-ter, enhanced versions of two other widely
+used metrics bleu and ter respectively, which
+extend the exact word matching used in these
+metrics with the flexible matching based on
+stemming and Wordnet in Meteor .
+1 

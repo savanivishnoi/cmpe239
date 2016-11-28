@@ -1,0 +1,444 @@
+ Class indicates that the class is not intended to be instantiated but is 
+intended to serve as a superclass for other classes (which will be instantiated). 
+A class C can include operations whose name has the form "class.C". If D is a type of C (i.e., class D includes the 
+specification Type of C), then the operation as inherited by D has the name "class.D". This facility is provided to 
+allow for the specialization of operations which create new instances of a class. 
+2.20ptionality 
+Some objects and functions will be required: they must be implemented by any system conforming to the 
+architecture. Some objects and functions will be optional: they need not be included, but if they are, they must 
+conform to the standard. This allows us to define standards, for example, for some linguistic annotations, without 
+requiring all systems to generate such annotations. 
+2.3 Correspondence toInterface Specifications 
+This document provides an abstract definition of the architecture in terms of classes and operations. This 
+architecture will be implemented in a number of programming languages; currently implementations are being 
+251 
+developed in C, Tcl, and Common Lisp. This section describes the correspondence b tween the set of operations 
+described in this document and the APIs for implementations of this architecture in these programming languages. 
+Common Lisp: The classes, properties, and operations defined herein correspond to those of a Common Lisp 
+implementation f the TIPSTER Architecture as follows: 
+1. (because Lisp is normally not case sensitive) each capital letter in the name of a class, property, or 
+operation, except for the first letter in a name, will be preceded by a "-" in Lisp 
+2. each class, property, and operation corresponds to a Lisp class, property, and function 
+3. each argument of the form "class" becomes a positional argument; each argument of the form "name: 
+class" becomes a keyword argument with the keyword name 
+4. sequences are represented as lists 
+In Lisp, the name of the property accessor function is formed from the class name, a hyphen, and the property name 
+(e.g., attr ibute-name and attribute-value). If the property is writable, the property accessor function acts as a 
+"generalized variable" which can be set by serf; e.g., (serf (collection-owner collectionl) "Mitchell"). 
+C: Each operation defined herein corresponds to a C function, with the same name as in the abstract architecture. All 
+arguments in the C implementation are positional; the argument names ("keywords") in the abstract architecture are 
+not used. If property Comp of a class is readable, it is accessed by the function Get Comp; if it is also writeable, it is 
+set by the function Set Comp. 
+Note that the abstract architecture occasionally "overloads" operations: the same operation name may apply to 
+different classes of arguments. To support such overloading, the C implementations of the various classes, as well as 
+sets and sequences, hould employ a generic container structure which will allow a C function to determine the class 
+of an actual argument. 1 
+The C-language typing, including the overloading of various functions, is spelled out in Appendix C. 
+Tci: Operation ames and argument lists in Tcl shall be the same as in the C implementation. 
+2.3.1 Opt iona l  Arguments  
+In addition to the arguments which are specified for each operation in this document and which are required, an 
+implementation f the Architecture may provide optional keyword or positional arguments for any of the operations. 
+The operation must be able to complete and to perform the specified function even if only the required arguments are 
+given, but use of the optional arguments may provide enhanced performance or a greater ange of functionality. 
+2 .3.2 Imp lementat ion  of Sequences 
+The architecture includes the notion 'sequence of X', where X is a type, as one of the possible values of an argument 
+to an operation or the value of a property. In describing an implementation of the Architecture (an API), it is 
+necessary to specify the representation r set of operations for such sequences. 
+1 The overloading does not extend to basic C data types (char, int, float), since these could not be differentiated from structures by a called 
+procedure. 
+252 
+The C language interface (Appendix C) defines types AttributeSet, AttributeValueSet, DocumentCollectionlndexSet, 
+QueryCollectionlndex, SpanSet, and stringSet, corresponding to "sequence of Attribute', "sequence of 
+AttributeValue', "sequence of DocumentCollectionlndex', "sequence of QueryCollectionlndex', "sequence of Span', 
+and "sequence of string' in the Architecture 2. These are referred to collectively as XSets, where X may be Attribute, 
+Span, etc. An empty XSet is created by the operation 
+CreateXSet 0: XSet 
+(i.e., by one of the operations CreateAttributeSet, CreateSpanSet, c.). The following operations apply to XSets: 
+Nth (XSet, n: integer): X
+returns the nth element of XSet (where the first element of sequence has index 0) 
+Push (XSet, X) 
+adds X to the end of sequence XSet 
+Pop (XSet): X 
+removes and returns the last element of XSet 
+Length (XSet): integer 
+returns the length of XSet 
+In addition, the operation Free, described just below, applies to all types of objects, including XSets. 
+2.4 Storage Management 
+A free operation must be provided for every class of object o release the memory associated with that object as well 
+as to perform any necessary implementation specific leanup operations. 
+2.5 Error Handling 
+A number of operations in the architecture describe rror conditions (generally with the phrase "it is an error if..."). 
+Such errors should be implemented by signaling an error rather than by returning an error value (this could be 
+performed in C by using the longjrnp function and in Common Lisp by the error function). 
+The C implementation provides utility routines which simplify the use of longjmp for this purpose. 
+2 Annotation sets are treated as a separately defined class in the Architecture, but its Nth and Length operations are designed to parallel those of 
+the other sets. 
+253 
+
+3.0 BASIC CLASSES 
+3.1 Attributes 
+A number of classes will have "attributes". This is a list of feature-value pairs, where the feature names are arbitrary 
+strings and the values can be any of a number of types: 
+Class Attribute 
+Properties 
+Name: string 
+Value: AttributeValue 
+Operations 
+CreateAttribute (name: string, value: AttributeValue): Attribute 
+Class AttributeValue 
+Properties 
+Value: string OR ObjectReference OR sequence of AttributeValue 
+Operations 
+CreateAttributeValue(string OR ObjectReference OR sequence of AttributeValue): AttributeValue 3 
+TypeOf (AttributeValue): one of {string, sequence, CollectionReference, DocumentReference, 
+AnnolationReference, AttributeReference } 
+returns a member of the enumerated type, indicating the type of AttributeValue 
+Note: AttributeValue is made a separate class, with an explicit TypeOf operator, out of deference to languages uch 
+as C without dynamic type identification. Because AttributeValue can take on multiple types, including types such as 
+strings which would not use a generic container structure, implementations in such languages must provide an 
+explicit ype discriminator here, accessible through the TypeOf operator. 
+The value of an attribute may be (inter alia) a reference to a collection, document, annotation, or attribute: 
+Abstract Class ObjectReference 
+Class CollectionReference 
+Type of ObjectReference 
+Properties 
+CollectionNarne: string 
+Operations 
+CreateCollectionReference (Collection): CollectionReference 
+3 For implementation n languages which cannot determine the type of the argument at run time, such as C, this operation requires two 
+arguments. The additional rgument ( he first of the two arguments) i  of enumerated type "'one of {string, sequence, CollectionReference, 
+DocumentReference, AnnotationReference, AttributeReference}" and specifies the type of the second argument, which is the value itself. 
+255 
+Class Document Reference 
+Type of ObjectReference 
+Properties 
+CollectionName: string 
+Documentld: swing 
+Operations 
+CreateDocumentReference (Document): DocumentReference 
+Class AttributeReference 
+Type of ObjectReference 
+Properties 
+CollectionName: string 
+Documentld: string 
+AttributeName: string 
+Operations 
+CreateAttributeReference (Document, AttributeName: string): AttributeReference 
+Class AnnotationReference 
+Type of ObjectReference 
+Properties 
+CollectionName: string 
+Documentld: string 
+Annotationld: string 
+Operations 
+CreateAnnotationReference (Document, Annotation): AnnotationReference 
+ObjectReferences are references to(names of) persistent collections, documents, etc., and not to the object instances 
+created by opening a collection, etc. It is therefore possible to have ObjectReferences to documents in collections 
+which are not currently open; it is even possible to have references to documents which have been deleted from a 
+collection. Because of the variety of objects which can be referenced, the Architecture does not provide a single 
+dereferencing operator. Dereferencing must be done explicitly by the Application using the property accessors - -  
+opening the collection, accessing the document, accessing the annotation i the document, etc. 
+An abstract class for objects which have attributes i defined as: 
+Abstract Class AttributedObject 
+Properties 
+Attributes: sequence of Attribute 
+Operations 
+PutAttribute (AttributedObject, name: string, value: AttributeValue) 
+256 
+assign value as the current value of attribute name of object, overwriting any prior assignment of a 
+value to that attribute 
+GetAttribute (AttributedObject, name: string): AttributeValue OR nil 
+if attribute name of object has been assigned a value by a prior PutAttribute operation, return that value, 
+else return nil 
+RemoveAttribute(AttributedObject, name: string) 
+if AttributedObject has an Attribute whose Name property is name, remove that attribute from 
+AttributedObject (otherwise do nothing) 
+3.2 Persistent Objects 
+The TIPSTER Architecture assumes a name space of persistent objects; each persistent object is assigned a unique 
+name (a string). If the Architecture is operating in a networked environment, his name will presumably consist of a 
+host name and a unique name on that host. 
+The (abstract) class Persistent Object is introduced, which is a superclass of any class of persistent objects. 
+Abstract Class PersistentObject 
+Properties 
+Name: string 
+Operations 
+Create.PersistentObject (name: string): PersistentObject 
+creates a new object of a specified class, and returns that object (it is an error if name is the name of 
+an existing persistent object) 
+Open.PersistentObject (name: string): PersistentObject 
+name should be the name of an object of class PersistentObject, created by a prior 
+Create.PersistentObject operation; the object with that name is returned 
+Close (object: PersistentObject) 
+saves any changes made to object in persistent storage and frees any local memory associated with 
+this object the Architecture assumes that all Persistent Objects will be automatically closed on 
+system termination 
+Sync (object: PersistentObject) 
+saves any changes made to object in persistent storage 
+Destroy (name: string) 
+erases the persistent instance of the object (it is an error if name is not the name of a persistent 
+object) 
+The architecture does not require us to identify persistent object names with file names, but this may be the simplest 
+way to manage initial implementations. In the present architecture DocumentCollectionlndexes and 
+QueryCollectionlndexes are persistent; Collections are optionally persistent (Documents are not persistent objects 
+themselves but have persistence as a part of a Collection). 
+3.3 Byte Sequences 
+The decision about the representation f a sequence of bytes, which constitutes the contents of a document, should be 
+hidden from most applications. To do so, the class ByteSequence is introduced. The minimal requirement for an 
+257 
+implementation f the Architecture is to be able to obtain the length of a ByteSequence, and to convert between a
+ByteSequence and a string: 
+Class ByteSequence 
+Operations 
+Length (ByteSequence): integer 
+returns the number of bytes in ByteSequence 
+ConvertToString (ByteSequence): string 
+CreateByteSequence (string): ByteSequence 
+(In fact, the simplest implementation f a ByteSequence will probably be as a string, so the conversion will be an 
+identity operation.) Implementations may choose to supplement these with additional operations for creating and 
+accessing ByteSequences, for two reasons: 
+1. For applications involving large documents, the implementation may wish to provide the ability to 
+directly access portions of the document. This may be done through operations which retrieve substrings of 
+a ByteSequence, or through operations which allow a ByteSequence to be opened to a stream (for 
+subsequent read and write operations). 
+2. A collection of documents needs to be converted into a TIPSTER Collection prior to processing within 
+the Architecture. For large collections which are already in place on some data store, such as a file system 
+or a data base, it may be highly desirable to create the TIPSTER Collection without copying the document 
+text. A TIPSTER implementation can support his capability by allowing a ByteSequence tobe created as a 
+reference to a portion of this data store. For example, the implementation could define a "file segment" as a 
+portion of a file (with start and end positions), and support operations for creating a ByteSequence from a 
+file segment. Alternatively, an application based on a data base could define an operation for creating a 
+ByteSequence from a data base field. 
+258 
+4.0 DOCUMENTS AND COLLECTIONS 
+4.1 Documents 
+The document is the central object class in the TIPSTER architecture. As a unit of information, it serves several 
+basic functions within the architecture: 
+? it is the repository of information about a text, in the form of attributes and annotations (although 
+annotations will in general refer to portions of documents) 
+? it is the atomic unit in building collections 
+? it is the atomic unit of retrieval in detection operations 
+Each Document is part of one or more Collections (see Section 4.2). A Document has persistence by virtue of being 
+a member of a Collection, and can be accessed only as a member of a Collection. Each document is given a unique 
+identity by its ld property, which is copied by the CopyDocument and CopyBareDocument operations, and is also 
+copied when a new collection is created by document retrieval operations. 
+Class Document 
+Type of AttributedObject 
+Properties 
+Parent: Collection 
+the Collection of which this Document is a member; 
+Id: string 
+an internal document identifier, assigned automatically when a new Document is created, which is 
+unique within an entire TIPSTER system (to insure uniqueness in a distributed system, an 
+implementation may choose to include a host name as part of the Id) 
+Externalld: string (R, W) 
+a document identifier assigned by the application 
+RawData: ByteSequence 
+the contents of the document prior to any TIPSTER processing. The byte-sequence may include 
+subsequences representing text in multiple languages, as well as non-text material such as pictures, 
+audio, and tables 
+Annotations: AnnotationSet 
+information about portions of the document (information about he document as a whole is stored in 
+Attributes; aDocument inherits an Attributes property by virtue of being a type of Attributed Object) 
+Operations 
+CreateDocument (Parent: Collection, Externalld: string, RawData: ByteSequence, annotations: 
+AnnotationSet, attributes: equence of Attribute): Document 
+creates anew document within the Collection Parent and assigns the document a new unique Id 
+CopyBareDocument (NewParent: Collection, Document): Document 
+makes a copy of Document, including only its internal Id, Externalld, and RawData, and places the 
+copy in collection NewParent. The attributes and annotations of the original document are not 
+copied by this operation. 
+259 
+CopyDocument (NewParent: Collection, Document): Document 
+makes a copy of Document, including its internal Id, Externalld, RawData, attributes, and 
+annotations, and places the copy in collection NewParent. 
+Annotate (Document, AnnotatorName: string) 
+invokes annotation procedure AnnotatorName on the Document; see Section 5.6. 
+WriteSGML (Document, AnnotationSet, AnnotationPrecedence: sequence of string): string 
+Converts a document together with a set of Annotations into SGML format. AnnotationPrecedence, 
+which is a list of annotation types, is used to resolve conflicts when two annotations cover the same 
+span: the tag corresponding to the annotation type which appears first in the list is written out first. 
+The resulting document is in a "normalized" SGML, with all attributes and end tags explicit. 4
+ReadSGML (string, Parent: Collection, Externalld: string): Document 
+Reads a string marked up with "normalized" SGML, with all attributes and end tags explicit, and 
+generates a Document with the specified Externalld, no attributes, and an AnnotationSet containing 
+one annotation for each SGML text element marked in the input text. If the input violates these 
+constraints (e.g., unmatched start tags) or violates SGML syntax (e.g., unmatched quotation marks 
+within tags), an error will be signaled. 5 
+As noted earlier, new sources of data will need to be converted by the application into Collections of Documents 
+before they can be processed within the TIPSTER Architecture. The functions which perform these conversions will 
+necessarily be specific to the type of data source, and hence a TIPSTER application will be required to provide these 
+conversion operations when a new type of data source is to be used. 
+4.2 Co l lec t ions  
+Documents are gathered into Collections, which may have attributes on the collection level as well as on the 
+individual documents. Collections provide a permanent repository for documents within the TIPSTER Architecture. 
+Collections in general are persistent and hence have names; however, the Architecture also provides for volatile, 
+unnamed Collections. 
+C lass  Co l lec t ion  
+Type of PersistentObject, AttributedObject 
+Properties 
+Owner: string (R, W) 
+Contents: sequence of Document (t~) 
+Operations 
+CreateCollection ( ame: string, attributes: equence of Attribute): Collection 
+creates anamed, persistent collection 
+CreateVolatileCollection (attributes: equence of Attribute): Collection 
+creates an unnamed, volatile collection 
+4 The specification of this operation is subject o revision based on the experience of implementors in using these SGML representations i  
+applications. 
+5 The specification of this operation is subject o revision based on the experience of implementors in using these SGML representations i  
+applications. 
+260 
+Length (Collection): integer 
+returns the number of documents in a collection 
+RemoveDocument (Collection, Id: string) 
+removes the Document with Id Id from the Collection; if no such Document is present, the Collection 
+is unchanged 
+GetDocument (Collection, Id: string): Document OR nil 
+returns the Document in the Collection with the given Id, or nil if no such Document exists 
+FirstDocument (Collection): Document OR nil 
+returns the "first' document within a collection and initializes data structures internal to the collection 
+so that NextDocument can be used to iterate through the documents in a collection. Returns nil if no 
+documents are found in the collection. 
+NextDocument (Collection): Document OR nil 
+returns the "next' document within a collection. Normally used to iterate through all documents in a 
+collection. Returns nil if no more documents are found in the collection. FirstDocument and 
+NextDocument must be well behaved in the presence of calls to CreateDocument and 
+RemoveDocument. This means that a loop using FirstDocument and NextDocument must visit all 
+documents which were in the collection when FirstDocument was called if and only if the documents 
+are not deleted before the loop reaches them. Documents added after FirstDocument is called may or 
+may not be encountered during the loop. 
+GetByExternalld (Collection, Externalld: string): Document OR nil 
+returns the Document in the Collection with the given Externalld; if several Documents have the same 
+Externalld, returns one of them; if none have this Externalld, returns nil. 
+AnnotateCollection (which: Collection, destination: Collection, AnnotatorName: string) 
+invokes annotation procedure AnnotatorName on a subset of Collection destination; see Section 5.6 
+for further information. 
+261 
+
+5.0 DOCUMENT ANNOTATIONS: GENERAL STRUCTURE 
+Annotations, along with attributes, provide the primary means by which information about a document is recorded 
+and transmitted from module to module within a system. This chapter elaborates the general structure of annotations, 
+noting some of the issues which arise at each stage. 
+5.1 What Is Annotated? 
+An annotation provides information about a portion of the document (including, possibly, the entire document). The 
+portion of the document is specified by a set of spans. Each span consists in turn of a pair of integers pecifying the 
+starting and ending byte positions in the RawData of the document (with the first byte of the document counting as 
+byte 0). 
+Class Span 
+Properties 
+Start: integer 
+End: integer 
+Operations 
+CreateSpan (start: integer, end: integer): Span 
+The current span design is intended for character-based text documents which may contain additional types of 
+information such as graphical images, audio, or video, which needs to be retained and displayed, but which would 
+not be further processed by components of the TIPSTER Architecture. For documents which do not contain text in 
+the form of a sequence of characters, the meaning of a span will not necessarily be compatible with this start 
+byte/end byte convention. For instance, in compressed video, the information contained in a sequence of frames 
+cannot be located using starting and ending byte. Similarly, in a graphical image of a document, such as a fax, the 
+most natural definition of a primitive subimage is likely to be a rectangle. Note that the data in a fax is not even byte 
+aligned. All of these considerations indicate that eventually an opaque type for spans with a subclass being 
+TextSpan will be needed 
+Most annotations will be associated with a single contiguous portion of the text, and hence with a single span. 
+However, a set of spans is provided for in order to be able to refer to non-contiguous portions of the text. For 
+example, an event might be described at the beginning of an article and again later in the article, but not in the 
+intervening text; using a set of spans allows us to have an annotation for the event refer to these two passages. It
+would also allow for discontinuous linguistic elements, uch as verb plus particle pairs ("I gave my gun up."). 
+5.1.1 Code Sets and Character Positions 
+Positions in the RawData re represented internally in terms of byte offsets, rather than characters. This is necessary 
+because the RawData may contain non-text data, such as graphics or sounds, for which character addressing would 
+not be meaningful. However, once a text has been segmented into text and non-text portions, and the text portion 
+into segments involving different character codes, it should be possible to provide operations at the character level 
+(i.e., operations which are sensitive to the different sizes of characters in different codes). This segmentation i to 
+regions using different character code sets is to be recorded in the TIPSTER Architecture as Annotations on the 
+document (see Section 6.1). By accessing these Annotations, an application can determine the code set employed at a 
+specific position in a document, and hence the size of the character at that position. This information can be used to 
+implement operations to extract asingle character or advance to the next character position. 
+More work is required on the multi-lingual design of the Architecture before such operations can be incorporated 
+into the Architecture itself. 
+263 
+5.1.2 Mod i f i ca t ion  o f  the Text 
+To allow annotations to modify the text (and, in particular, to insert characters) in such a way that subsequent 
+accesses to the text see the modified text in place of the original text, it is necessary to require a representation f
+positions in a document which allows for insertions (e.g., by using integers above the length of the original string to 
+refer to inserted elements). The current architecture does not allow for such changes; corrections to the text must be 
+recorded as attributes on text elements which are explicitly accessed by subsequent processes. Alternatively, the 
+application can create a new Document with a new RawText property which incorporates these modifications. 
+5.2 Information Associated With an Annotation 
+An annotation associates a type with a span of the document. Examples of possible types are token, sentence, 
+paragraph, and dateline. In addition, one or more attributes may be assigned to each annotation. 
+Class Annotation 
+Type of AttributedObject 
+Properties 
+Id: string 
+the identifier of an Annotation, which is nil when the Annotation is created and which is set when the 
+Annotation is added to a Document; the value assigned is unique among the Annotations on that 
+Document. 
+Type: string 
+Spans: sequence of Span 
+Operations 
+CreateAnnotation (Type: string, Spans: sequence of Span, attributes: sequence of Attribute): Annotation 
+Examples of simple attributes on annotations (attributes whose values are single strings) include a type-of-name 
+attribute on name annotations, which might take on such values as "person, country", "company", etc.; a pos (part of 
+speech) attribute on token annotations, which might take on the Penn Tree Bank values, such as "NNS" and "VBG", 
+and a root attribute on token annotations, which would record the root (uninflected) form of a token. 
+An example of an attribute whose value is another annotation would be a coreference pointer. An even more 
+complex attribute value would be a template object, which may in turn contain pointers to several other annotations 
+(for the text elements filling various slots in the template object). 
+5.3 Accessing Annotations 
+Because annotations are central to the TIPSTER architecture, it is expected that applications will have frequent need 
+to access, search, and select annotations on a document. To meet this need, the Architecture defines a class 
+AnnotationSet and a number of operations operating on such sets of annotations. In particular, operations are 
+provided to support the sequential scanning of a document (AnnotationsAt, NextAnnotations) and to support thc 
+extraction of annotations meeting certain criteria (SclcctAnnotations). 
+Although AnnotationSets are logically just sets of annotations, and could be implemented like other sets (e.g., as 
+lists), a special class is provided in the expectation that implementations may wish to choose a more elaborate 
+implementation (such as a sorted list or tree with one or more indexes) in order to implement the operations more 
+efficiently. 
+Each Document includes as one property an AnnotationSet, holding the annotations on that Document. Most of the 
+operations on AnnotationSets can also be applied to Documents, and in that case apply the same operation to the 
+AnnotationSet property of the Document. 
+264 
+Class AnnotationSet 
+Properties 
+Members: sequence of Annotation () 
+the individual annotations in the set 
+Operations 
+CreateAnnotationSet (): AnnotationSet 
+creates an empty AnnotationSet 
+AddAnnotation (Document, Annotation): string 
+adds an annotation to a document. If the Id slot of Annotation is nil, this operation creates a new 
+annotation Id (unique for this document) and assigns it to the id field of Annotation. If the ld field of 
+Annotation is filled (not nil), and there is an existing annotation on the document with the same Id, 
+the new annotation replaces the existing annotation. The Id field of the annotation is returned. 
+RemoveAnnotation (Document OR AnnotationSet, Id: string) 
+removes the annotation with the specified Id from the Document or AnnotationSet. It is an error if 
+the document does not have an annotation with that Id. 
+GetAnnotation (Document OR AnnotationSct, Id: string): Annotation 
+returns the annotation whose id slot is equal to the desired value. It is an error if no annotation has 
+the specified identifier. 
+Length (AnnotationSet): integer 
+returns a count of the number of annotations inAnnotationSet 
+Nth (AnnotationSet, n: integer): Annotation 
+returns the Nth annotation in AnnotationSct, where the first annotation has index 0. 
+SclectAnnotations (Document OR AnnotationSet, ype: swing OR nil, constraint: sequence of Attribute): 
+AnnotationSet 
+returns the (possibly empty) set of annotations from the Document or AnnotationSet which are of 
+type type and which satisfy constraint, constraint is a sequence of attributes, where the ith attribute 
+has name a i and value vi. An annotation satisfies the constraint if (for each i), attribute ai of the 
+annotation has value v i. If constraint is the empty sequence, no constraint is placed on the attributes: 
+all annotations of the given type are selected. If type is nil, annotations of all types satisfying the 
+attribute constraints are included. 
+DeleteAnnotations (Document OR AnnotationSct, ype: string OR nil, constraint: sequence of Attribute) 
+removes from the Document or AnnotationSet al annotations which are of type type and which 
+satisfy constraint. These arguments have the same significance as for SelectAnnotations, above. 
+AnnotationsAt (Document OR AnnotationSet, Position: integer): AnnotationSet 
+returns the set of annotations from Document or AnnotationSet which start at the specified position. 
+NextAnnotations (Document OR AnnotationSet, Position: integer): AnnotationSct 
+Returns the set of annotations from Document or AnnotationSet which have the smallest starting 
+point that is greater than or equal to Position. 
+MergeAnnotations (AnnotationSet, AnnotationSet): AnnotationSet 
+returns the union of the Annotations in the two AnnotationSets. 
+265 
+5.4 Annotation Type Declarations 
+5.4.1 

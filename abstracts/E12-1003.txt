@@ -1,0 +1,25 @@
+
+We introduce two Bayesian models for un-
+supervised semantic role labeling (SRL)
+task. The models treat SRL as clustering
+of syntactic signatures of arguments with
+clusters corresponding to semantic roles.
+The first model induces these clusterings
+independently for each predicate, exploit-
+ing the Chinese Restaurant Process (CRP)
+as a prior. In a more refined hierarchical
+model, we inject the intuition that the clus-
+terings are similar across different predi-
+cates, even though they are not necessar-
+ily identical. This intuition is encoded as
+a distance-dependent CRP with a distance
+between two syntactic signatures indicating
+how likely they are to correspond to a single
+semantic role. These distances are automat-
+ically induced within the model and shared
+across predicates. Both models achieve
+state-of-the-art results when evaluated on
+PropBank, with the coupled model consis-
+tently outperforming the factored counter-
+part in all experimental set-ups.
+1 

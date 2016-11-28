@@ -1,0 +1,17 @@
+ 
+We describe and evaluate a new method 
+of automatic seed word selection for un-
+supervised  sentiment  classification  of 
+product  reviews  in  Chinese.  The  whole 
+method is unsupervised and does not re-
+quire any annotated training data; it only 
+requires information about commonly oc-
+curring negations  and adverbials.  Unsu-
+pervised  techniques  are  promising  for 
+this task since they avoid problems of do-
+main-dependency  typically  associated 
+with supervised methods. The results ob-
+tained  are  close  to  those  of  supervised 
+classifiers and sometimes better, up to an 
+F1 of 92%.
+1 

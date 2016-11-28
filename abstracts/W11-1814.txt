@@ -1,0 +1,19 @@
+
+This paper describes our event extraction sys-
+tem that participated in the bacteria biotopes
+task in BioNLP Shared Task 2011. The sys-
+tem performs semi-supervised named entity
+recognition by leveraging additional informa-
+tion derived from external resources including
+a large amount of raw text. We also perform
+coreference resolution to deal with events hav-
+ing a large textual scope, which may span over
+several sentences (or even paragraphs). To
+create the training data for coreference resolu-
+tion, we have manually annotated the corpus
+with coreference links. The overall F-score of
+event extraction was 33.2 at the official eval-
+uation of the shared task, but it has been im-
+proved to 33.8 thanks to the refinement made
+after the submission deadline.
+1 

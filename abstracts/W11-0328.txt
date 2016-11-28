@@ -1,0 +1,22 @@
+
+This paper shows that the performance of
+history-based models can be significantly im-
+proved by performing lookahead in the state
+space when making each classification deci-
+sion. Instead of simply using the best ac-
+tion output by the classifier, we determine
+the best action by looking into possible se-
+quences of future actions and evaluating the
+final states realized by those action sequences.
+We present a perceptron-based parameter op-
+timization method for this learning frame-
+work and show its convergence properties.
+The proposed framework is evaluated on part-
+of-speech tagging, chunking, named entity
+recognition and dependency parsing, using
+standard data sets and features. Experimental
+results demonstrate that history-based models
+with lookahead are as competitive as globally
+optimized models including conditional ran-
+dom fields (CRFs) and structured perceptrons.
+1 

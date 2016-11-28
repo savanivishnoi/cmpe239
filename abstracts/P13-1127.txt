@@ -1,0 +1,27 @@
+
+We present a method for automatically
+generating input parsers from English
+specifications of input file formats. We
+use a Bayesian generative model to cap-
+ture relevant natural language phenomena
+and translate the English specification into
+a specification tree, which is then trans-
+lated into a C++ input parser. We model
+the problem as a joint dependency pars-
+ing and semantic role labeling task. Our
+method is based on two sources of infor-
+mation: (1) the correlation between the
+text and the specification tree and (2) noisy
+supervision as determined by the success
+of the generated C++ parser in reading in-
+put examples. Our results show that our
+approach achieves 80.0% F-Score accu-
+racy compared to an F-Score of 66.7%
+produced by a state-of-the-art semantic
+parser on a dataset of input format speci-
+fications from the ACM International Col-
+legiate Programming Contest (which were
+written in English for humans with no in-
+tention of providing support for automated
+processing).1
+1 

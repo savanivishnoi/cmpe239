@@ -1,0 +1,17 @@
+
+Recent exploratory efforts in discourse-level
+language modeling have relied heavily on cal-
+culating Pointwise Mutual Information (PMI),
+which involves significant computation when
+done over large collections. Prior work has
+required aggressive pruning or independence
+assumptions to compute scores on large col-
+lections. We show the method of Condi-
+tional Random Sampling, thus far an underuti-
+lized technique, to be a space-efficient means
+of representing the sufficient statistics in dis-
+course that underly recent PMI-based work.
+This is demonstrated in the context of induc-
+ing Shankian script-like structures over news
+articles.
+1 

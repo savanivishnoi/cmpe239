@@ -1,0 +1,25 @@
+
+This paper proposes a multi-dimensional
+framework for classifying text documents.
+In this framework, the concept of multi-
+dimensional category model is introduced
+for representing classes. In contrast with
+traditional flat and hierarchical category
+models, the multi-dimensional category
+model classifies each text document in a
+collection using multiple predefined sets of
+categories, where each set corresponds to a
+dimension. Since a multi-dimensional model
+can be converted to flat and hierarchical
+models, three classification strategies are
+possible, i.e., classifying directly based on
+the multi-dimensional model and classifying
+with the equivalent flat or hierarchical
+models. The efficiency of these three
+classifications is investigated on two data
+sets. Using k-NN, na?ve Bayes and centroid-
+based classifiers, the experimental results
+show that the multi-dimensional-based and
+hierarchical-based classification performs
+better than the flat-based classifications.
+1 

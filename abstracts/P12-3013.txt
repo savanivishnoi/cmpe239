@@ -1,0 +1,21 @@
+
+This paper introduces BIUTEE1, an open-
+source system for recognizing textual entail-
+ment. Its main advantages are its ability to uti-
+lize various types of knowledge resources, and
+its extensibility by which new knowledge re-
+sources and inference components can be eas-
+ily integrated. These abilities make BIUTEE
+an appealing RTE system for two research
+communities: (1) researchers of end applica-
+tions, that can benefit from generic textual in-
+ference, and (2) RTE researchers, who can in-
+tegrate their novel algorithms and knowledge
+resources into our system, saving the time and
+effort of developing a complete RTE system
+from scratch. Notable assistance for these re-
+searchers is provided by a visual tracing tool,
+by which researchers can refine and ?debug?
+their knowledge resources and inference com-
+ponents.
+1 

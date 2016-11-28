@@ -1,0 +1,23 @@
+
+Domain adaptation for SMT usually adapts
+models to an individual specific domain.
+However, it often lacks some correlation
+among different domains where common
+knowledge could be shared to improve the
+overall translation quality. In this paper, we
+propose a novel multi-domain adaptation ap-
+proach for SMT using Multi-Task Learning
+(MTL), with in-domain models tailored for
+each specific domain and a general-domain
+model shared by different domains. The pa-
+rameters of these models are tuned jointly via
+MTL so that they can learn general knowledge
+more accurately and exploit domain knowl-
+edge better. Our experiments on a large-
+scale English-to-Chinese translation task val-
+idate that the MTL-based adaptation approach
+significantly and consistently improves the
+translation quality compared to a non-adapted
+baseline. Furthermore, it also outperforms the
+individual adaptation of each specific domain.
+1 

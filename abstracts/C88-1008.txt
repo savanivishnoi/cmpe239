@@ -1,0 +1,52 @@
+. 
+This paper presents the most important 
+characteristic of the new formalism used in 
+Eurotra, the E-Framework. It is a formalism 
+for natural language processing within a 
+stratificational model. 
+In the E-Framework, mapping between levels 
+of representation is performed on the basis 
+of transitions between trees and partial 
+descriptions of objects, called descriptors. 
+These descriptors are completed using the 
+definition of the target level. 
+The tree to descriptor strategy simplifies 
+the expression of complex two-way relations 
+between text and abstract representations 
+when major structural changes have to be 
+performed on the input. This is illustrated 
+by way of a detailed example showing the 
+interaction of the two formal devices of the 
+E-Framework, the translator and the 
+generator, the basic ideas of which are also 
+briefly described. 
+The E-Framework has been implemented and 
+forms the basis of the development of 
+Euretra's pre-industrial prototype of a 
+transfer-based, multi-lingual machine trans- 
+lation system. 
+The E-Framework was developed because of 
+problems in expressing this relat ion in a 
+simple and perspicuous way in the earl ier 
+formal isms used in Eurotra: When gra~m~ars 
+grew to have substantial  l inguist ic 
+coverage, the rules descr ib ing the mapping 
+between levels became highly complex and 
+numerous due to interdependence between the 
+l inguist ic phenomena tr iggering structural  
+changes in a representat ional  tree. 
+The pro l i ferat ion in the number of rules was 
+main ly  due to the fact that mapping rules 
+ident i f ied specif ic  target level rules to 
+evaluate the new tree structures, and the 
+complexity of rules was due to the tree to 
+tree transducing strategy used which 
+str ict ly  required speci f icat ion of full ~ 
+f ledged target level tree structures. 
+Therefore this k ind of mapping strategy was 
+abandoned, and a di f ferent one requir ing 
+only part ial  target level tree descript ions, 
+has been adopted as the basic method for 
+performing transit ions within the E- 
+Framework. 
+i. 

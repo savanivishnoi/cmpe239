@@ -1,0 +1,16 @@
+
+This paper presents a semantic model for
+Chinese garden-path sentences. Based on
+the Sentence Degeneration model of
+HNC theory, a garden-path can arise
+from two types of ambiguities: SD type
+ambiguity and NP allocated ambiguity.
+This paper provides an approach to proc-
+ess garden-paths, in which ambiguity de-
+tection and analysis take the place of re-
+vision. The performance of the approach
+is evaluated on a small manually anno-
+tated test set. The results show that our
+algorithm can analyze Chinese gar-
+den-path sentences effectively.
+1 

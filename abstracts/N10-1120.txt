@@ -1,0 +1,26 @@
+
+In this paper, we present a dependency tree-
+based method for sentiment classification of
+Japanese and English subjective sentences us-
+ing conditional random fields with hidden
+variables. Subjective sentences often con-
+tain words which reverse the sentiment po-
+larities of other words. Therefore, interac-
+tions between words need to be considered
+in sentiment classification, which is difficult
+to be handled with simple bag-of-words ap-
+proaches, and the syntactic dependency struc-
+tures of subjective sentences are exploited in
+our method. In the method, the sentiment po-
+larity of each dependency subtree in a sen-
+tence, which is not observable in training data,
+is represented by a hidden variable. The po-
+larity of the whole sentence is calculated in
+consideration of interactions between the hid-
+den variables. Sum-product belief propaga-
+tion is used for inference. Experimental re-
+sults of sentiment classification for Japanese
+and English subjective sentences showed that
+the method performs better than other meth-
+ods based on bag-of-features.
+1 

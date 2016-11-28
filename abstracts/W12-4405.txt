@@ -1,0 +1,14 @@
+
+Supervised Named Entity Recognizers require
+large amounts of annotated text. Since manual
+annotation is a highly costly procedure, reduc-
+ing the annotation cost is essential. We present
+a fully automatic method to build NE anno-
+tated corpora from Wikipedia. In contrast to
+recent work, we apply a new method, which
+maps the DBpedia classes into CoNLL NE
+types. Since our method is mainly language-
+independent, we used it to generate corpora
+for English and Hungarian. The corpora are
+freely available.
+1 

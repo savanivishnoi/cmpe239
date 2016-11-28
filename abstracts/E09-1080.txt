@@ -1,0 +1,27 @@
+
+We present several algorithms for assign-
+ing heads in phrase structure trees, based
+on different linguistic intuitions on the role
+of heads in natural language syntax. Start-
+ing point of our approach is the obser-
+vation that a head-annotated treebank de-
+fines a unique lexicalized tree substitution
+grammar. This allows us to go back and
+forth between the two representations, and
+define objective functions for the unsu-
+pervised learning of head assignments in
+terms of features of the implicit lexical-
+ized tree grammars. We evaluate algo-
+rithms based on the match with gold stan-
+dard head-annotations, and the compar-
+ative parsing accuracy of the lexicalized
+grammars they give rise to. On the first
+task, we approach the accuracy of hand-
+designed heuristics for English and inter-
+annotation-standard agreement for Ger-
+man. On the second task, the implied lex-
+icalized grammars score 4% points higher
+on parsing accuracy than lexicalized gram-
+mars derived by commonly used heuris-
+tics.
+1 

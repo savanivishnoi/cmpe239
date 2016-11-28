@@ -1,0 +1,14 @@
+ 
+This paper describes a system designed to 
+disambiguate person names in a set of Web 
+pages. In our approach Web documents are 
+represented as different sets of features or 
+terms of different types (bag of words, 
+URLs, names and numbers). We apply Ag-
+glomerative Vector Space clustering that 
+uses the similarity between pairs of analo-
+gous feature sets. This system achieved a 
+value of 66% for F?=0.2 and a value of 48% 
+for F?=0.5 in the Web People Search Task at 
+SemEval-2007 (Artiles et al, 2007). 
+1 

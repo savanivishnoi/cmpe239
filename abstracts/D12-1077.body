@@ -1,0 +1,17 @@
+
+This paper proposes a method for learning
+a discriminative parser for machine trans-
+lation reordering using only aligned par-
+allel text. This is done by treating the
+parser?s derivation tree as a latent variable
+in a model that is trained to maximize re-
+ordering accuracy. We demonstrate that
+efficient large-margin training is possible
+by showing that two measures of reorder-
+ing accuracy can be factored over the parse
+tree. Using this model in the pre-ordering
+framework results in significant gains in
+translation accuracy over standard phrase-
+based SMT and previously proposed unsu-
+pervised syntax induction methods.
+1 

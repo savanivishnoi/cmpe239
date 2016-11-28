@@ -1,0 +1,24 @@
+
+This paper presents an incremental prob-
+abilistic learner that models the acquis-
+tion of syntax and semantics from a cor-
+pus of child-directed utterances paired with
+possible representations of their meanings.
+These meaning representations approxi-
+mate the contextual input available to the
+child; they do not specify the meanings of
+individual words or syntactic derivations.
+The learner then has to infer the meanings
+and syntactic properties of the words in the
+input along with a parsing model. We use
+the CCG grammatical framework and train
+a non-parametric Bayesian model of parse
+structure with online variational Bayesian
+expectation maximization. When tested on
+utterances from the CHILDES corpus, our
+learner outperforms a state-of-the-art se-
+mantic parser. In addition, it models such
+aspects of child acquisition as ?fast map-
+ping,? while also countering previous crit-
+icisms of statistical syntactic learners.
+1 

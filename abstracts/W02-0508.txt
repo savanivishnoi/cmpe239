@@ -1,0 +1,33 @@
+ 
+     This article describes the construction 
+of a morphological, syntactic and semantic 
+analyzer to operate a high-grade search 
+engine for Hebrew texts. A good search 
+engine must be complete  and accurate. In 
+Hebrew or Arabic script most of the 
+vowels are not written, many particles are 
+attached to the word without space, a 
+double consonant is written with one 
+letter, and some letters signify both vowels 
+and consonants. Thus, almost every string 
+of characters may designate many words 
+(the average in Hebrew is almost three 
+words). As a consequence, deciphering a 
+word necessitates reading the whole 
+sentence. Our model is Fillmore?s 
+framework of an expression with a verb as 
+its center. The engine eliminates readings 
+of words unsuited to the syntax or the 
+semantic structure of the sentence. In 
+every verbal entry of our conceptual 
+dictionary the features of the noun phrases 
+(NP?s)  required by the verb are included. 
+When all the correct readings of all the 
+strings of characters in the sentence have 
+been identified, the program chooses the 
+proper occurrences of the searched word 
+in the text. Approximately 95% of the 
+results by our search engine match those 
+in the query. 
+ 
+1.

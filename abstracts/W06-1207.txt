@@ -1,0 +1,17 @@
+
+Previous computational work on learning
+the semantic properties of verb-particle
+constructions (VPCs) has focused on their
+compositionality, and has left unaddressed
+the issue of which meaning of the compo-
+nent words is being used in a given VPC.
+We develop a feature space for use in clas-
+sification of the sense contributed by the
+particle in a VPC, and test this on VPCs
+using the particle up. The features that
+capture linguistic properties of VPCs that
+are relevant to the semantics of the par-
+ticle outperform linguistically uninformed
+word co-occurrence features in our exper-
+iments on unseen test VPCs.
+1 

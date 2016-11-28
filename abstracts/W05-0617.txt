@@ -1,0 +1,23 @@
+
+We address the problem of learning a
+morphological automaton directly from
+a monolingual text corpus without re-
+course to additional resources. Like pre-
+vious work in this area, our approach ex-
+ploits orthographic regularities in a search
+for possible morphological segmentation
+points. Instead of affixes, however, we
+search for affix transformation rules that
+express correspondences between term
+clusters induced from the data. This
+focuses the system on substrings hav-
+ing syntactic function, and yields cluster-
+to-cluster transformation rules which en-
+able the system to process unknown mor-
+phological forms of known words accu-
+rately. A stem-weighting algorithm based
+on Hubs and Authorities is used to clar-
+ify ambiguous segmentation points. We
+evaluate our approach using the CELEX
+database.
+1 

@@ -1,0 +1,21 @@
+
+Most learning algorithms for undirected
+graphical models require complete inference
+over at least one instance before parameter up-
+dates can be made. SampleRank is a rank-
+based learning framework that alleviates this
+problem by updating the parameters during in-
+ference. Most semi-supervised learning algo-
+rithms also perform full inference on at least
+one instance before each parameter update.
+We extend SampleRank to semi-supervised
+learning in order to circumvent this compu-
+tational bottleneck. Different approaches to
+incorporate unlabeled data and prior knowl-
+edge into this framework are explored. When
+evaluated on a standard information extraction
+dataset, our method significantly outperforms
+the supervised method, and matches results of
+a competing state-of-the-art semi-supervised
+learning approach.
+1 

@@ -1,0 +1,25 @@
+
+Traditional approaches to the task of ACE
+event extraction usually rely on sequential
+pipelines with multiple stages, which suf-
+fer from error propagation since event trig-
+gers and arguments are predicted in isola-
+tion by independent local classifiers. By
+contrast, we propose a joint framework
+based on structured prediction which ex-
+tracts triggers and arguments together so
+that the local predictions can be mutu-
+ally improved. In addition, we propose
+to incorporate global features which ex-
+plicitly capture the dependencies of multi-
+ple triggers and arguments. Experimental
+results show that our joint approach with
+local features outperforms the pipelined
+baseline, and adding global features fur-
+ther improves the performance signifi-
+cantly. Our approach advances state-of-
+the-art sentence-level event extraction, and
+even outperforms previous argument la-
+beling methods which use external knowl-
+edge from other sentences and documents.
+1 

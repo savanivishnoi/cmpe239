@@ -1,0 +1,18 @@
+
+Many methods are available for comput-
+ing semantic similarity between individ-
+ual words, but certain NLP tasks require
+the comparison of word pairs. This pa-
+per presents a kernel-based framework for
+application to relational reasoning tasks of
+this kind. The model presented here com-
+bines information about two distinct types
+of word pair similarity: lexical similarity
+and relational similarity. We present an
+efficient and flexible technique for imple-
+menting relational similarity and show the
+effectiveness of combining lexical and re-
+lational models by demonstrating state-of-
+the-art results on a compound noun inter-
+pretation task.
+1 

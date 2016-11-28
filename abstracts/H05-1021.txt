@@ -1,0 +1,20 @@
+
+We describe stochastic models of local
+phrase movement that can be incorpo-
+rated into a Statistical Machine Transla-
+tion (SMT) system. These models pro-
+vide properly formulated, non-deficient,
+probability distributions over reordered
+phrase sequences. They are imple-
+mented by Weighted Finite State Trans-
+ducers. We describe EM-style parameter
+re-estimation procedures based on phrase
+alignment under the complete translation
+model incorporating reordering. Our ex-
+periments show that the reordering model
+yields substantial improvements in trans-
+lation performance on Arabic-to-English
+and Chinese-to-English MT tasks. We
+also show that the procedure scales as the
+bitext size is increased.
+1 

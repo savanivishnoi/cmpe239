@@ -1,0 +1,16 @@
+
+The automatic extraction of relations be-
+tween entities expressed in natural lan-
+guage text is an important problem for IR
+and text understanding. In this paper we
+show how different kernels for parse trees
+can be combined to improve the relation
+extraction quality. On a public benchmark
+dataset the combination of a kernel for
+phrase grammar parse trees and for depen-
+dency parse trees outperforms all known
+tree kernel approaches alone suggesting
+that both types of trees contain comple-
+mentary information for relation extrac-
+tion.
+1 

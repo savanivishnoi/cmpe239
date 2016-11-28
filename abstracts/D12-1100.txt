@@ -1,0 +1,14 @@
+
+Many NLP tasks rely on accurate statis-
+tics from large corpora. Tracking com-
+plete statistics is memory intensive, so recent
+work has proposed using compact approx-
+imate ?sketches? of frequency distributions.
+We describe 10 sketch methods, including ex-
+isting and novel variants. We compare and
+study the errors (over-estimation and under-
+estimation) made by the sketches. We evaluate
+several sketches on three important NLP prob-
+lems. Our experiments show that one sketch
+performs best for all the three tasks.
+1 

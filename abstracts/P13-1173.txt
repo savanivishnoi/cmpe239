@@ -1,0 +1,22 @@
+
+This paper proposes a novel two-stage
+method for mining opinion words and
+opinion targets. In the first stage, we
+propose a Sentiment Graph Walking algo-
+rithm, which naturally incorporates syn-
+tactic patterns in a Sentiment Graph to ex-
+tract opinion word/target candidates. Then
+random walking is employed to estimate
+confidence of candidates, which improves
+extraction accuracy by considering confi-
+dence of patterns. In the second stage, we
+adopt a self-learning strategy to refine the
+results from the first stage, especially for
+filtering out high-frequency noise terms
+and capturing the long-tail terms, which
+are not investigated by previous meth-
+ods. The experimental results on three real
+world datasets demonstrate the effective-
+ness of our approach compared with state-
+of-the-art unsupervised methods.
+1 

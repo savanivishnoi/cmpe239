@@ -1,0 +1,23 @@
+
+This paper presents novel approaches to
+reordering in phrase-based statistical ma-
+chine translation. We perform consistent
+reordering of source sentences in train-
+ing and estimate a statistical translation
+model. Using this model, we follow a
+phrase-based monotonic machine transla-
+tion approach, for which we develop an ef-
+ficient and flexible reordering framework
+that allows to easily introduce different re-
+ordering constraints. In translation, we
+apply source sentence reordering on word
+level and use a reordering automaton as in-
+put. We show how to compute reordering
+automata on-demand using IBM or ITG
+constraints, and also introduce two new
+types of reordering constraints. We further
+add weights to the reordering automata.
+We present detailed experimental results
+and show that reordering significantly im-
+proves translation quality.
+1 

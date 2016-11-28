@@ -1,0 +1,16 @@
+ 
+We present a novel approach to RTE that 
+exploits a structure-oriented sentence rep-
+resentation followed by a similarity func-
+tion. The structural features are automati-
+cally acquired from tree skeletons that are 
+extracted and generalized from dependency 
+trees. Our method makes use of a limited 
+size of training data without any external 
+knowledge bases (e.g. WordNet) or hand-
+crafted inference rules. We have achieved 
+an accuracy of 71.1% on the RTE-3 devel-
+opment set performing a 10-fold cross 
+validation and 66.9% on the RTE-3 test 
+data. 
+1 

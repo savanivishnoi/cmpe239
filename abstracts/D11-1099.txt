@@ -1,0 +1,23 @@
+
+An entity in a dialogue may be old, new,
+or mediated/inferrable with respect to the
+hearer?s beliefs. Knowing the information
+status of the entities participating in a dia-
+logue can therefore facilitate its interpreta-
+tion. We address the under-investigated prob-
+lem of automatically determining the informa-
+tion status of discourse entities. Specifically,
+we extend Nissim?s (2006) machine learning
+approach to information-status determination
+with lexical and structured features, and ex-
+ploit learned knowledge of the information
+status of each discourse entity for coreference
+resolution. Experimental results on a set of
+Switchboard dialogues reveal that (1) incor-
+porating our proposed features into Nissim?s
+feature set enables our system to achieve state-
+of-the-art performance on information-status
+classification, and (2) the resulting informa-
+tion can be used to improve the performance
+of learning-based coreference resolvers.
+1 

@@ -1,0 +1,22 @@
+
+Patent corpus processing should be cen-
+tered around patent claim processing be-
+cause claims are the most important part
+in patent specifications. It is common that
+claims written in Japanese are described in
+one sentence with peculiar style and word-
+ing and are difficult to understand for ordi-
+nary people. The peculiarity is caused by
+structural complexity of the sentences and
+many difficult terms used in the descrip-
+tion. We have already proposed a frame-
+work to represent the structure of patent
+claims and a method to automatically an-
+alyze it. We are currently investigating a
+method to clarify terms in patent claims
+and to find the explanatory portions from
+the detailed description part of the patent
+specifications. Through both approaches,
+we believe we can improve readability of
+patent claims.
+1 

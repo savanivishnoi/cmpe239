@@ -1,0 +1,20 @@
+ 
+For our system we use the SMO implemen-
+tation of a support vector machine provided 
+with the WEKA machine learning toolkit. 
+As with all machine learning approaches, 
+the most important step is to choose a set of 
+features which reliably help to predict the 
+label of the example. We used 76 features 
+drawn from two very different knowledge 
+sources. The first 48 features are boolean 
+values indicating whether or not each of the 
+nominals in the sentence are linked to cer-
+tain other words in the WordNet hypernym 
+and meronym networks. The remaining 28 
+features are web frequency counts for the 
+two nominals joined by certain common 
+prepositions and verbs. Our system per-
+formed well on all but two of the relations; 
+theme-tool and origin entity. 
+1 

@@ -1,0 +1,25 @@
+
+Smoothing is a central issue in lan-
+guage modeling and a prior step in dif-
+ferent natural language processing (NLP)
+tasks. However, less attention has been
+given to it for bilingual lexicon extrac-
+tion from comparable corpora. If a first
+work to improve the extraction of low
+frequency words showed significant im-
+provement while using distance-based av-
+eraging (Pekar et al, 2006), no investi-
+gation of the many smoothing techniques
+has been carried out so far. In this pa-
+per, we present a study of some widely-
+used smoothing algorithms for language
+n-gram modeling (Laplace, Good-Turing,
+Kneser-Ney...). Our main contribution is
+to investigate how the different smoothing
+techniques affect the performance of the
+standard approach (Fung, 1998) tradition-
+ally used for bilingual lexicon extraction.
+We show that using smoothing as a pre-
+processing step of the standard approach
+increases its performance significantly.
+1 

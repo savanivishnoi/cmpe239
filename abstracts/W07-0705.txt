@@ -1,0 +1,21 @@
+
+Current statistical machine translation sys-
+tems handle the translation process as the
+transformation of a string of symbols into
+another string of symbols. Normally the
+symbols dealt with are the words in differ-
+ent languages, sometimes with some addi-
+tional information included, like morpho-
+logical data. In this work we try to push
+the approach to the limit, working not on the
+level of words, but treating both the source
+and target sentences as a string of letters.
+We try to find out if a nearly unmodified
+state-of-the-art translation system is able to
+cope with the problem and whether it is ca-
+pable to further generalize translation rules,
+for example at the level of word suffixes and
+translation of unseen words. Experiments
+are carried out for the translation of Catalan
+to Spanish.
+1 

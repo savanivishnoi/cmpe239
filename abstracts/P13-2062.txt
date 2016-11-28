@@ -1,0 +1,35 @@
+
+In this paper we introduce Translation Dif-
+ficulty Index (TDI), a measure of diffi-
+culty in text translation. We first de-
+fine and quantify translation difficulty in
+terms of TDI. We realize that any mea-
+sure of TDI based on direct input by trans-
+lators is fraught with subjectivity and ad-
+hocism. We, rather, rely on cognitive ev-
+idences from eye tracking. TDI is mea-
+sured as the sum of fixation (gaze) and
+saccade (rapid eye movement) times of
+the eye. We then establish that TDI is
+correlated with three properties of the in-
+put sentence, viz. length (L), degree of
+polysemy (DP) and structural complexity
+(SC). We train a Support Vector Regres-
+sion (SVR) system to predict TDIs for
+new sentences using these features as in-
+put. The prediction done by our frame-
+work is well correlated with the empiri-
+cal gold standard data, which is a repos-
+itory of < L,DP, SC > and TDI pairs
+for a set of sentences. The primary use of
+our work is a way of ?binning? sentences
+(to be translated) in ?easy?, ?medium? and
+?hard? categories as per their predicted
+TDI. This can decide pricing of any trans-
+lation task, especially useful in a scenario
+where parallel corpora for Machine Trans-
+lation are built through translation crowd-
+sourcing/outsourcing. This can also pro-
+vide a way of monitoring progress of sec-
+ond language learners.
+1 

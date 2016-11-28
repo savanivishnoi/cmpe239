@@ -1,0 +1,17 @@
+
+We propose a novel method to expand a
+small existing translation dictionary to a
+large translation dictionary using a pivot lan-
+guage. Our method depends on the assump-
+tion that it is possible to find a pivot lan-
+guage for a given language pair on con-
+dition that there are both a large transla-
+tion dictionary from the source language
+to the pivot language, and a large transla-
+tion dictionary from the pivot language to
+the destination language. Experiments that
+expands the Indonesian-Japanese dictionary
+using the English language as a pivot lan-
+guage shows that the proposed method can
+improve performance of a real CLIR system.
+1 

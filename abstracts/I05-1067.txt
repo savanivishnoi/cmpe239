@@ -1,0 +1,11 @@
+. We present a new method for computing semantic relatedness of con-
+cepts. The method relies solely on the structure of a conceptual network and
+eliminates the need for performing additional corpus analysis. The network struc-
+ture is employed to generate artificial conceptual glosses. They replace textual
+definitions proper written by humans and are processed by a dictionary based
+metric of semantic relatedness [1]. We implemented the metric on the basis of
+GermaNet, the German counterpart of WordNet, and evaluated the results on a
+German dataset of 57 word pairs rated by human subjects for their semantic re-
+latedness. Our approach can be easily applied to compute semantic relatedness
+based on alternative conceptual networks, e.g. in the domain of life sciences.
+1 

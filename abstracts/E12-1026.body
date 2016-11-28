@@ -1,0 +1,34 @@
+
+Translation models used for statistical ma-
+chine translation are compiled from par-
+allel corpora; such corpora are manually
+translated, but the direction of translation is
+usually unknown, and is consequently ig-
+nored. However, much research in Trans-
+lation Studies indicates that the direction of
+translation matters, as translated language
+(translationese) has many unique proper-
+ties. Specifically, phrase tables constructed
+from parallel corpora translated in the same
+direction as the translation task perform
+better than ones constructed from corpora
+translated in the opposite direction.
+We reconfirm that this is indeed the case,
+but emphasize the importance of using also
+texts translated in the ?wrong? direction.
+We take advantage of information pertain-
+ing to the direction of translation in con-
+structing phrase tables, by adapting the
+translation model to the special proper-
+ties of translationese. We define entropy-
+based measures that estimate the correspon-
+dence of target-language phrases to transla-
+tionese, thereby eliminating the need to an-
+notate the parallel corpus with information
+pertaining to the direction of translation.
+We show that incorporating these measures
+as features in the phrase tables of statisti-
+cal machine translation systems results in
+consistent, statistically significant improve-
+ment in the quality of the translation.
+1 

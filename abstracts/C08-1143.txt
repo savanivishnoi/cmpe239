@@ -1,0 +1,21 @@
+ 
+This paper addresses two issues of active 
+learning. Firstly, to solve a problem of 
+uncertainty sampling that it often fails by 
+selecting outliers, this paper presents a 
+new selective sampling technique, sam-
+pling by uncertainty and density (SUD), 
+in which a k-Nearest-Neighbor-based 
+density measure is adopted to determine 
+whether an unlabeled example is an out-
+lier. Secondly, a technique of sampling 
+by clustering (SBC) is applied to build a 
+representative initial training data set for 
+active learning. Finally, we implement a 
+new algorithm of active learning with 
+SUD and SBC techniques. The experi-
+mental results from three real-world data 
+sets show that our method outperforms 
+competing methods, particularly at the 
+early stages of active learning.  
+1 

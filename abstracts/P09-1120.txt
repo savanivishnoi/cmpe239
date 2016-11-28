@@ -1,0 +1,24 @@
+
+We consider the language identification
+problem for search engine queries. First,
+we propose a method to automatically
+generate a data set, which uses click-
+through logs of the Yahoo! Search En-
+gine to derive the language of a query indi-
+rectly from the language of the documents
+clicked by the users. Next, we use this
+data set to train two decision tree classi-
+fiers; one that only uses linguistic features
+and is aimed for textual language identi-
+fication, and one that additionally uses a
+non-linguistic feature, and is geared to-
+wards the identification of the language
+intended by the users of the search en-
+gine. Our results show that our method
+produces a highly reliable data set very ef-
+ficiently, and our decision tree classifier
+outperforms some of the best methods that
+have been proposed for the task of written
+language identification on the domain of
+search engine queries.
+1 

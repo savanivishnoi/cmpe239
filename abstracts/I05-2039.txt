@@ -1,0 +1,27 @@
+
+In this work we study the influence of
+corpus homogeneity on corpus-based
+NLP system performance. Experi-
+ments are performed on both stochas-
+tic language models and an EBMT sys-
+tem translating from Japanese to En-
+glish with a large bicorpus, in order
+to reassess the assumption that using
+only homogeneous data tends to make
+system performance go up. We de-
+scribe a method to represent corpus
+homogeneity as a distribution of sim-
+ilarity coefficients based on a cross-
+entropic measure investigated in previ-
+ous works. We show that beyond min-
+imal sizes of training data the exces-
+sive elimination of heterogeneous data
+proves prejudicial in terms of both per-
+plexity and translation quality : exces-
+sively restricting the training data to a
+particular domain may be prejudicial
+in terms of In-Domain system perfor-
+mance, and that heterogeneous, Out-of-
+Domain data may in fact contribute to
+better sytem performance.
+1 

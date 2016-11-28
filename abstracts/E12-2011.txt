@@ -1,0 +1,25 @@
+
+The aim of our software presentation is
+to demonstrate that corpus-driven bilingual
+dictionaries generated fully by automatic
+means are suitable for human use. Pre-
+vious experiments have proven that bilin-
+gual lexicons can be created by applying
+word alignment on parallel corpora. Such
+an approach, especially the corpus-driven
+nature of it, yields several advantages over
+more traditional approaches. Most im-
+portantly, automatically attained translation
+probabilities are able to guarantee that the
+most frequently used translations come first
+within an entry. However, the proposed
+technique have to face some difficulties, as
+well. In particular, the scarce availability of
+parallel texts for medium density languages
+imposes limitations on the size of the result-
+ing dictionary. Our objective is to design
+and implement a dictionary building work-
+flow and a query system that is apt to ex-
+ploit the additional benefits of the method
+and overcome the disadvantages of it.
+1 

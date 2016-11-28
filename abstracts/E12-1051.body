@@ -1,0 +1,27 @@
+
+Whether automatically extracted or human
+generated, open-domain factual knowledge
+is often available in the form of semantic
+annotations (e.g., composed-by) that take
+one or more specific instances (e.g., rhap-
+sody in blue, george gershwin) as their ar-
+guments. This paper introduces a method
+for converting flat sets of instance-level
+annotations into hierarchically organized,
+concept-level annotations, which capture
+not only the broad semantics of the desired
+arguments (e.g., ?People? rather than ?Loca-
+tions?), but also the correct level of general-
+ity (e.g., ?Composers? rather than ?People?,
+or ?Jazz Composers?). The method refrains
+from encoding features specific to a partic-
+ular domain or annotation, to ensure imme-
+diate applicability to new, previously un-
+seen annotations. Over a gold standard of
+semantic annotations and concepts that best
+capture their arguments, the method sub-
+stantially outperforms three baselines, on
+average, computing concepts that are less
+than one step in the hierarchy away from
+the corresponding gold standard concepts.
+1 

@@ -1,0 +1,29 @@
+
+Although a lot of progress has been made
+recently in word segmentation and POS
+tagging for Chinese, the output of cur-
+rent state-of-the-art systems is too inaccu-
+rate to allow for syntactic analysis based
+on it. We present an experiment in im-
+proving the output of an off-the-shelf mod-
+ule that performs segmentation and tag-
+ging, the tokenizer-tagger from Beijing
+University (PKU). Our approach is based
+on transformation-based learning (TBL).
+Unlike in other TBL-based approaches to
+the problem, however, both obligatory and
+optional transformation rules are learned,
+so that the final system can output multi-
+ple segmentation and POS tagging anal-
+yses for a given input. By allowing for
+a small amount of ambiguity in the out-
+put of the tokenizer-tagger, we achieve a
+very considerable improvement in accu-
+racy. Compared to the PKU tokenizer-
+tagger, we improve segmentation F-score
+from 94.18% to 96.74%, tagged word
+F-score from 84.63% to 92.44%, seg-
+mented sentence accuracy from 47.15%
+to 65.06% and tagged sentence accuracy
+from 14.07% to 31.47%.
+1 

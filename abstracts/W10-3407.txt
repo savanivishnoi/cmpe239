@@ -1,0 +1,45 @@
+ 
+This paper presents a cross-linguistic 
+analysis of the largest dictionaries cur-
+rently existing for Romanian, French, and 
+German, and a new, robust and portable 
+method for Dictionary Entry Parsing 
+(DEP), based on Segmentation-
+Cohesion-Dependency (SCD) configura-
+tions. The SCD configurations are ap-
+plied successively on each dictionary en-
+try to identify its lexicographic segments 
+(the first SCD configuration), to extract 
+its sense tree (the second configuration), 
+and to parse its atomic sense definitions 
+(the third one). Using previous results on 
+DLR (The Romanian Thesaurus ? new 
+format), the present paper adapts and ap-
+plies the SCD-based technology to other 
+four large and complex thesauri: DAR 
+(The Romanian Thesaurus ? old format), 
+TLF (Le Tr?sor de la Langue Fran?aise), 
+DWB (Deutsches W?rterbuch ? 
+GRIMM), and GWB (G?the-
+W?rterbuch). This experiment is illu-
+strated on significantly large parsed en-
+tries of these thesauri, and proved the fol-
+lowing features: (1) the SCD-based me-
+thod is a completely formal grammar-
+free approach for dictionary parsing, with 
+efficient (weeks-time adaptable) model-
+ing through sense hierarchies and parsing 
+portability for a new dictionary. (2) SCD-
+configurations separate and run sequen-
+tially and independently the processes of 
+lexicographic segment recognition, sense 
+tree extraction, and atomic definition  
+ 
+parsing. (3) The whole DEP process with 
+SCD-configurations is optimal. (4) SCD-
+configurations, through sense marker 
+classes and their dependency hyper-
+graphs, offer an unique instrument of lex-
+icon construction comparison, sense con-
+cept design and DEP standardization. 
+1 

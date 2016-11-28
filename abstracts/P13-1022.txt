@@ -1,0 +1,16 @@
+
+We adapt discriminative reranking to im-
+prove the performance of grounded lan-
+guage acquisition, specifically the task of
+learning to follow navigation instructions
+from observation. Unlike conventional
+reranking used in syntactic and semantic
+parsing, gold-standard reference trees are
+not naturally available in a grounded set-
+ting. Instead, we show how the weak su-
+pervision of response feedback (e.g. suc-
+cessful task completion) can be used as
+an alternative, experimentally demonstrat-
+ing that its performance is comparable to
+training on gold-standard parse trees.
+1 

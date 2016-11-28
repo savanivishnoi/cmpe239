@@ -1,0 +1,17 @@
+ 
+In this paper, we propose a novel 
+similarity measure based on  
+co-occurrence probabilities for inducing 
+semantic classes. Clustering with the new 
+similarity measure outperformed that 
+with the widely used distance measure 
+based on Kullback-Leibler divergence in 
+precision, recall and F1 evaluation. We 
+then use the induced semantic classes and 
+structures by the new similarity measure 
+to generate in-domain data. At last, we 
+use the generated data to do language 
+model adaptation and improve the result 
+of character recognition from 85.2% to 
+91%. 
+1 

@@ -1,0 +1,24 @@
+
+Speech style accommodation refers to
+shifts in style that are used to achieve strate-
+gic goals within interactions. Models of
+stylistic shift that focus on specific fea-
+tures are limited in terms of the contexts
+to which they can be applied if the goal of
+the analysis is to model socially motivated
+speech style accommodation. In this pa-
+per, we present an unsupervised Dynamic
+Bayesian Model that allows us to model
+stylistic style accommodation in a way that
+is agnostic to which specific speech style
+features will shift in a way that resem-
+bles socially motivated stylistic variation.
+This greatly expands the applicability of the
+model across contexts. Our hypothesis is
+that stylistic shifts that occur as a result of
+social processes are likely to display some
+consistency over time, and if we leverage
+this insight in our model,we will achieve
+a model that better captures inherent struc-
+ture within speech.
+1 

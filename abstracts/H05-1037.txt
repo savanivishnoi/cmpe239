@@ -1,0 +1,15 @@
+
+Text generation requires a planning mod-
+ule to select an object of discourse and its
+properties. This is specially hard in de-
+scriptive games, where a computer agent
+tries to describe some aspects of a game
+world. We propose to formalize this prob-
+lem as a Markov Decision Process, in
+which an optimal message policy can be
+defined and learned through simulation.
+Furthermore, we propose back-off poli-
+cies as a novel and effective technique to
+fight state dimensionality explosion in this
+framework.
+1 

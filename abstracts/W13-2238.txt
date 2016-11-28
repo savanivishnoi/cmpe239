@@ -1,0 +1,26 @@
+
+We present an iterative technique to gener-
+ate phrase tables for SMT, which is based
+on force-aligning the training data with
+a modified translation decoder. Differ-
+ent from previous work, we completely
+avoid the use of a word alignment or
+phrase extraction heuristics, moving to-
+wards a more principled phrase generation
+and probability estimation. During train-
+ing, we allow the decoder to generate new
+phrases on-the-fly and increment the max-
+imum phrase length in each iteration. Ex-
+periments are carried out on the IWSLT
+2011 Arabic-English task, where we are
+able to reach moderate improvements on a
+state-of-the-art baseline with our training
+method. The resulting phrase table shows
+only a small overlap with the heuristically
+extracted one, which demonstrates the re-
+strictiveness of limiting phrase selection
+by a word alignment or heuristics. By
+interpolating the heuristic and the trained
+phrase table, we can improve over the
+baseline by 0.5% BLEU and 0.5% TER.
+1 

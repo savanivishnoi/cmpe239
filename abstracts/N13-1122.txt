@@ -1,0 +1,28 @@
+
+Information extraction from microblog posts
+is an important task, as today microblogs cap-
+ture an unprecedented amount of information
+and provide a view into the pulse of the world.
+As the core component of information extrac-
+tion, we consider the task of Twitter entity
+linking in this paper.
+In the current entity linking literature, mention
+detection and entity disambiguation are fre-
+quently cast as equally important but distinct
+problems. However, in our task, we find that
+mention detection is often the performance
+bottleneck. The reason is that messages on
+micro-blogs are short, noisy and informal texts
+with little context, and often contain phrases
+with ambiguous meanings.
+To rigorously address the Twitter entity link-
+ing problem, we propose a structural SVM
+algorithm for entity linking that jointly op-
+timizes mention detection and entity disam-
+biguation as a single end-to-end task. By com-
+bining structural learning and a variety of first-
+order, second-order, and context-sensitive fea-
+tures, our system is able to outperform exist-
+ing state-of-the art entity linking systems by
+15% F1.
+1 

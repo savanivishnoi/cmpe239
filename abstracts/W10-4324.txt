@@ -1,0 +1,31 @@
+
+We present new results from a real-user
+evaluation of a data-driven approach to
+learning user-adaptive referring expres-
+sion generation (REG) policies for spoken
+dialogue systems. Referring expressions
+can be difficult to understand in techni-
+cal domains where users may not know
+the technical ?jargon? names of the do-
+main entities. In such cases, dialogue sys-
+tems must be able to model the user?s (lex-
+ical) domain knowledge and use appro-
+priate referring expressions. We present
+a reinforcement learning (RL) framework
+in which the system learns REG policies
+which can adapt to unknown users on-
+line. For real users of such a system, we
+show that in comparison to an adaptive
+hand-coded baseline policy, the learned
+policy performs significantly better, with
+a 20.8% average increase in adaptation ac-
+curacy, 12.6% decrease in time taken, and
+a 15.1% increase in task completion rate.
+The learned policy also has a significantly
+better subjective rating from users. This is
+because the learned policies adapt online
+to changing evidence about the user?s do-
+main expertise. We also discuss the issue
+of evaluation in simulation versus evalua-
+tion with real users.
+1 

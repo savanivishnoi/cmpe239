@@ -1,0 +1,25 @@
+
+This paper systematically compares unsuper-
+vised word sense discrimination techniques
+that cluster instances of a target word that oc-
+cur in raw text using both vector and similarity
+spaces. The context of each instance is repre-
+sented as a vector in a high dimensional fea-
+ture space. Discrimination is achieved by clus-
+tering these context vectors directly in vector
+space and also by finding pairwise similarities
+among the vectors and then clustering in sim-
+ilarity space. We employ two different repre-
+sentations of the context in which a target word
+occurs. First order context vectors represent
+the context of each instance of a target word
+as a vector of features that occur in that con-
+text. Second order context vectors are an indi-
+rect representation of the context based on the
+average of vectors that represent the words that
+occur in the context. We evaluate the discrim-
+inated clusters by carrying out experiments us-
+ing sense?tagged instances of 24 SENSEVAL-
+2 words and the well known Line, Hard and
+Serve sense?tagged corpora.
+1 

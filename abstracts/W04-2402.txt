@@ -1,0 +1,15 @@
+
+This paper considers the task of automatically
+collecting words with their entity class labels,
+starting from a small number of labeled ex-
+amples (?seed? words). We show that spec-
+tral analysis is useful for compensating for the
+paucity of labeled examples by learning from
+unlabeled data. The proposed method signif-
+icantly outperforms a number of methods that
+employ techniques such as EM and co-training.
+Furthermore, when trained with 300 labeled
+examples and unlabeled data, it rivals Naive
+Bayes classifiers trained with 7500 labeled ex-
+amples.
+1 

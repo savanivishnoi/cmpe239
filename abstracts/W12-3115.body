@@ -1,0 +1,18 @@
+
+In this paper, we describe the UPC system that
+participated in the WMT 2012 shared task on
+Quality Estimation for Machine Translation.
+Based on the empirical evidence that fluency-
+related features have a very high correlation
+with post-editing effort, we present a set of
+features for the assessment of quality estima-
+tion for machine translation designed around
+different kinds of n-gram language models,
+plus another set of features that model the
+quality of dependency parses automatically
+projected from source sentences to transla-
+tions. We document the results obtained on
+the shared task dataset, obtained by combining
+the features that we designed with the baseline
+features provided by the task organizers.
+1 

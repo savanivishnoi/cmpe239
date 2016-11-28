@@ -1,0 +1,21 @@
+
+This paper presents a novel approach for building
+adaptive similarity functions based on cardinality us-
+ing machine learning. Unlike current approaches
+that build feature sets using similarity scores, we
+have developed these feature sets with the cardinal-
+ities of the commonalities and differences between
+pairs of objects being compared. This approach al-
+lows the machine-learning algorithm to obtain an
+asymmetric similarity function suitable for direc-
+tional judgments. Besides using the classic set cardi-
+nality, we used soft cardinality to allow flexibility in
+the comparison between words. Our approach used
+only the information from the surface of the text,
+a stop-word remover and a stemmer to address the
+cross-lingual textual entailment task 8 at SEMEVAL
+2012. We have the third best result among the 29
+systems submitted by 10 teams. Additionally, this
+paper presents better results compared with the best
+official score.
+1 

@@ -1,0 +1,19 @@
+ 
+ 
+Statistical language modeling (SLM) has 
+been used in many different domains for dec-
+ades and has also been applied to information 
+retrieval (IR) recently.  Documents retrieved 
+using this approach are ranked according 
+their probability of generating the given 
+query. In this paper, we present a novel ap-
+proach that employs the generalized Expecta-
+tion Maximization (EM) algorithm to im-
+prove language models by representing their 
+parameters as observation probabilities of 
+Hidden Markov Models (HMM). In the expe-
+riments, we demonstrate that our method out-
+performs standard SLM-based and tf.idf-
+based methods on TREC 2005 HARD Track 
+data. 
+1 

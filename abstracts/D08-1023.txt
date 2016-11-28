@@ -1,0 +1,16 @@
+
+We advance the state-of-the-art for discrimi-
+natively trained machine translation systems
+by presenting novel probabilistic inference
+and search methods for synchronous gram-
+mars. By approximating the intractable space
+of all candidate translations produced by inter-
+secting an ngram language model with a
+synchronous grammar, we are able to train
+and decode models incorporating millions of
+sparse, heterogeneous features. Further, we
+demonstrate the power of the discriminative
+training paradigm by extracting structured
+syntactic features, and achieving increases in
+translation performance.
+1 

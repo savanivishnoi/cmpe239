@@ -1,0 +1,24 @@
+
+This paper describes the implementation
+of our three systems at SemEval-2007, for
+task 2 (word sense discrimination), task 5
+(Chinese word sense disambiguation), and
+the first subtask in task 17 (English word
+sense disambiguation). For task 2, we ap-
+plied a cluster validation method to esti-
+mate the number of senses of a target word
+in untagged data, and then grouped the in-
+stances of this target word into the esti-
+mated number of clusters. For both task 5
+and task 17, We used the label propagation
+algorithm as the classifier for sense disam-
+biguation. Our system at task 2 achieved
+63.9% F-score under unsupervised evalua-
+tion, and 71.9% supervised recall with su-
+pervised evaluation. For task 5, our sys-
+tem obtained 71.2% micro-average preci-
+sion and 74.7% macro-average precision.
+For the lexical sample subtask for task
+17, our system achieved 86.4% coarse-
+grained precision and recall.
+1 

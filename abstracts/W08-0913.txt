@@ -1,0 +1,32 @@
+
+A common focus of systems in Intelli-
+gent Computer-Assisted Language Learning
+(ICALL) is to provide immediate feedback to
+language learners working on exercises. Most
+of this research has focused on providing feed-
+back on the form of the learner input. Foreign
+language practice and second language acqui-
+sition research, on the other hand, emphasizes
+the importance of exercises that require the
+learner to manipulate meaning.
+The ability of an ICALL system to diag-
+nose and provide feedback on the mean-
+ing conveyed by a learner response depends
+on how well it can deal with the response
+variation allowed by an activity. We focus
+on short-answer reading comprehension ques-
+tions which have a clearly defined target re-
+sponse but the learner may convey the mean-
+ing of the target in multiple ways. As empiri-
+cal basis of our work, we collected an English
+as a Second Language (ESL) learner corpus
+of short-answer reading comprehension ques-
+tions, for which two graders provided target
+answers and correctness judgments. On this
+basis, we developed a Content-Assessment
+Module (CAM), which performs shallow se-
+mantic analysis to diagnose meaning errors. It
+reaches an accuracy of 88% for semantic error
+detection and 87% on semantic error diagno-
+sis on a held-out test data set.
+1 

@@ -1,0 +1,22 @@
+
+Many genetic epidemiological studies of hu-
+man diseases have multiple variables related
+to any given phenotype, resulting from dif-
+ferent definitions and multiple measurements
+or subsets of data. Manually mapping and
+harmonizing these phenotypes is a time-
+consuming process that may still miss the
+most appropriate variables. Previously, a su-
+pervised learning algorithm was proposed for
+this problem. That algorithm learns to de-
+termine whether a pair of phenotypes is in
+the same class. Though that algorithm ac-
+complished satisfying F-scores, the need to
+manually label training examples becomes a
+bottleneck to improve its coverage. Herein
+we present a novel active learning solution
+to solve this challenging phenotype-mapping
+problem. Active learning will make pheno-
+type mapping more efficient and improve its
+accuracy.
+1 

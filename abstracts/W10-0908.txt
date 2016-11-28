@@ -1,0 +1,15 @@
+ 
+In this paper, we present empirical results on 
+the challenge of learning to read. That is, giv-
+en a handful of examples of the concepts and 
+relations in an ontology and a large corpus, 
+the system should learn to map from text to 
+the concepts/relations of the ontology. In this 
+paper, we report contrastive experiments on 
+the recall, precision, and F-measure (F) of the 
+mapping in the following conditions: (1) em-
+ploying word-based patterns, employing se-
+mantic structure, and combining the two; and 
+(2) fully automatic learning versus allowing 
+minimal questions of a human informant. 
+1 

@@ -1,0 +1,27 @@
+
+In this paper, we investigate a full-fledged
+supervised machine learning framework for
+identifying English phrasal verbs in a given
+context. We concentrate on those that we de-
+fine as the most confusing phrasal verbs, in the
+sense that they are the most commonly used
+ones whose occurrence may correspond either
+to a true phrasal verb or an alignment of a sim-
+ple verb with a preposition.
+We construct a benchmark dataset1 with 1,348
+sentences from BNC, annotated via an Inter-
+net crowdsourcing platform. This dataset is
+further split into two groups, more idiomatic
+group which consists of those that tend to be
+used as a true phrasal verb and more compo-
+sitional group which tends to be used either
+way. We build a discriminative classifier with
+easily available lexical and syntactic features
+and test it over the datasets. The classifier
+overall achieves 79.4% accuracy, 41.1% er-
+ror deduction compared to the corpus major-
+ity baseline 65%. However, it is even more
+interesting to discover that the classifier learns
+more from the more compositional examples
+than those idiomatic ones.
+1 

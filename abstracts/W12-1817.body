@@ -1,0 +1,23 @@
+ 
+Developing interactive robots is an extremely 
+challenging task which requires a broad range 
+of expertise across diverse disciplines, includ-
+ing, robotic planning, spoken language under-
+standing, belief tracking and action 
+management. While there has been a boom in 
+recent years in the development of reusable 
+components for robotic systems within com-
+mon architectures, such as the Robot Operat-
+ing System (ROS), little emphasis has been 
+placed on developing components for Human-
+Robot-Interaction. In this paper we introduce 
+HRItk (the Human-Robot-Interaction toolkit), 
+a framework, consisting of messaging proto-
+cols, core-components, and development tools 
+for rapidly building speech-centric interactive 
+systems within the ROS environment. The 
+proposed toolkit was specifically designed for 
+extensibility, ease of use, and rapid develop-
+ment, allowing developers to quickly incorpo-
+rate speech interaction into existing projects. 
+1 

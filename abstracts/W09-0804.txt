@@ -1,0 +1,23 @@
+ 
+ 
+Modern standard Arabic is usually written 
+without diacritics. This makes it difficult for 
+performing Arabic text processing. Diacritiza-
+tion helps clarify the meaning of words and 
+disambiguate any vague spellings or pronun-
+ciations, as some Arabic words are spelled the 
+same but differ in meaning. In this paper, we 
+address the issue of adding diacritics to undia-
+critized Arabic text using a hybrid approach. 
+The approach requires an Arabic lexicon and 
+large corpus of fully diacritized text for train-
+ing purposes in order to detect diacritics. Case-
+Ending is treated as a separate post processing 
+task using syntactic information. The hybrid 
+approach relies on lexicon retrieval, bigram, 
+and SVM-statistical prioritized techniques.  
+We present results of an evaluation of the pro-
+posed diacritization approach and discuss var-
+ious modifications for improving the perfor-
+mance of this approach. 
+1 

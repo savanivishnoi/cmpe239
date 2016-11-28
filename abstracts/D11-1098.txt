@@ -1,0 +1,24 @@
+
+Lexical co-occurrence is an important cue for
+detecting word associations. We propose a
+new measure of word association based on a
+new notion of statistical significance for lex-
+ical co-occurrences. Existing measures typ-
+ically rely on global unigram frequencies to
+determine expected co-occurrence counts. In-
+stead, we focus only on documents that con-
+tain both terms (of a candidate word-pair) and
+ask if the distribution of the observed spans of
+the word-pair resembles that under a random
+null model. This would imply that the words
+in the pair are not related strongly enough
+for one word to influence placement of the
+other. However, if the words are found to oc-
+cur closer together than explainable by the null
+model, then we hypothesize a more direct as-
+sociation between the words. Through exten-
+sive empirical evaluation on most of the pub-
+licly available benchmark data sets, we show
+the advantages of our measure over existing
+co-occurrence measures.
+1 

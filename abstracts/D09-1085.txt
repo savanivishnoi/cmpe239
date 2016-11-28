@@ -1,0 +1,20 @@
+
+This paper introduces a new parser eval-
+uation corpus containing around 700 sen-
+tences annotated with unbounded depen-
+dencies, from seven different grammatical
+constructions. We run a series of off-the-
+shelf parsers on the corpus to evaluate how
+well state-of-the-art parsing technology is
+able to recover such dependencies. The
+overall results range from 25% accuracy
+to 59%. These low scores call into ques-
+tion the validity of using Parseval scores
+as a general measure of parsing capability.
+We discuss the importance of parsers be-
+ing able to recover unbounded dependen-
+cies, given their relatively low frequency
+in corpora. We also analyse the various er-
+rors made on these constructions by one of
+the more successful parsers.
+1 

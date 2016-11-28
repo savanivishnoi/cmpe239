@@ -1,0 +1,21 @@
+ 
+This paper proposes a segmentation stan- 
+dard for Chinese natural language processing. 
+The standard is proposed to achieve linguis- 
+tic felicity, computational feasibility, and 
+data uniformity. Linguistic felicity is main- 
+tained by defining a segmentation unit to be 
+equivalent to the theoretical definition of 
+word, and by providing a set of segmentation 
+principles that are equivalent o a functional 
+definition of a word. Computational feasi- 
+bility is ensured by the fact that the above 
+functional definitions are procedural in na- 
+ture and can be converted to segmentation 
+algorithms, as well as by the implementable 
+heuristic guidelines which deal with specific 
+linguistic categories. Data uniformity is 
+achieved by stratification of the standard 
+itself and by defining a standard lexicon as 
+part of the segmentation standard. 
+I. 

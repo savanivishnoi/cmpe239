@@ -1,0 +1,11 @@
+
+This paper presents an approach for web
+page clustering. The different underlying
+meanings of a name are discovered on the
+basis of the title of the web page, the body
+content, the common named entities across
+the documents and the sub-links. This in-
+formation is feeded into a K-Means cluster-
+ing algorithm which groups together the web
+pages that refer to the same individual.
+1 

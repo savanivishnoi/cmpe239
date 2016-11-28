@@ -1,0 +1,26 @@
+ 
+In order to realize their full potential, multimodal 
+interfaces need to support not just input from 
+multiple modes, but single comnmnds optinmlly 
+distributed across the available input modes. A 
+multimodal anguage processing architecture is 
+needed to integrate semantic content from the 
+different modes. Johnston 1998a proposes a 
+modular approach to multimodal language 
+processing in which spoken language parsing is 
+completed before lnultimodal parsing. In this 
+paper, I will demonstrate the difficulties this 
+approach faces as the spoken language parsing 
+component is expanded to provide a compositional 
+analysis of deictic expressions. I propose an 
+alternative architecture in which spoken and 
+multimodal parsing are tightly interleaved. This 
+architecture greatly simplifies the spoken language 
+parsing grm-nmar and enables predictive 
+information fiom spoken language parsing to drive 
+the application of multimodal parsing and gesture 
+combination rules. I also propose a treatment of 
+deictic numeral expressions that supports the 
+broad range of pen gesture combinations that can 
+be used to refer to collections of objects in the 
+interface. 

@@ -1,0 +1,22 @@
+ 
+This paper briefly describes the current implementa- 
+tion status of an intelligent information retrieval sys- 
+tem, MARIE, that employs natural language process- 
+ing techniques. Descriptive captions are used to iden- 
+tify photographic images concerning various military 
+projects. The captions are parsed to produce a logical 
+form from which nouns and verbs are extracted to 
+form the primary keywords. User queries are also 
+specified in natural language. A two-phase search pro- 
+cess employing coarse-grain and fine-grain match pro- 
+cesses is used to find the captions that best match the 
+query. A type hierarchy based on object-oriented pro- 
+gramming constructs i used to represent the semantic 
+knowledge base. This knowledge base contains 
+knowledge of various military concepts and terminol- 
+ogy with specifics from the Naval Weapons Center. 
+Methods are used for creating the logical form during 
+semantic analysis, generating the keywords to be used 
+in the coarse-grain match process, and fine-grain 
+matching between query and caption logical forms. 
+1 

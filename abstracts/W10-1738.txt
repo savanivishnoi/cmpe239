@@ -1,0 +1,19 @@
+
+We present Jane, RWTH?s hierarchical
+phrase-based translation system, which
+has been open sourced for the scientific
+community. This system has been in de-
+velopment at RWTH for the last two years
+and has been successfully applied in dif-
+ferent machine translation evaluations. It
+includes extensions to the hierarchical ap-
+proach developed by RWTH as well as
+other research institutions. In this paper
+we give an overview of its main features.
+We also introduce a novel reordering
+model for the hierarchical phrase-based
+approach which further enhances transla-
+tion performance, and analyze the effect
+some recent extended lexicon models have
+on the performance of the system.
+1 

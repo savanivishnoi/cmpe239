@@ -1,0 +1,14 @@
+
+We present a simple technique for learn-
+ing better SVMs using fewer training ex-
+amples. Rather than using the standard
+SVM regularization, we regularize toward
+low weight-variance. Our new SVM ob-
+jective remains a convex quadratic func-
+tion of the weights, and is therefore com-
+putationally no harder to optimize than a
+standard SVM. Variance regularization is
+shown to enable dramatic improvements
+in the learning rates of SVMs on three lex-
+ical disambiguation tasks.
+1 

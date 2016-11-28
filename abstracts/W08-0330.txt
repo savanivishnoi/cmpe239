@@ -1,0 +1,20 @@
+
+Previous studies have shown automatic evalu-
+ation metrics to be more reliable when com-
+pared against many human translations. How-
+ever, multiple human references may not al-
+ways be available. It is more common to have
+only a single human reference (extracted from
+parallel texts) or no reference at all. Our ear-
+lier work suggested that one way to address
+this problem is to train a metric to evaluate a
+sentence by comparing it against pseudo refer-
+ences, or imperfect ?references? produced by
+off-the-shelf MT systems. In this paper, we
+further examine the approach both in terms of
+the training methodology and in terms of the
+role of the human and pseudo references. Our
+expanded experiments show that the approach
+generalizes well across multiple years and dif-
+ferent source languages.
+1 

@@ -1,0 +1,26 @@
+ 
+Semantic relatedness between words is 
+important to many NLP tasks, and nu-
+merous measures exist which use a vari-
+ety of resources. Thus far, such work is 
+confined to measuring similarity between 
+two words (or two texts), and only a 
+handful utilize the web as a corpus. This 
+paper introduces a distributional similar-
+ity measure which uses internet search 
+counts and also extends to calculating the 
+similarity within word-groups. The 
+evaluation results are encouraging: for 
+word-pairs, the correlations with human 
+judgments are comparable with state-of-
+the-art web-search page-count heuristics. 
+When used to measure similarities within 
+sets of 10 words, the results correlate 
+highly (up to 0.8) with those expected.  
+Relatively little comparison has been 
+made between the results of different 
+search-engines. Here, we compare ex-
+perimental results from Google, Win-
+dows Live Search and Yahoo and find 
+noticeable differences. 
+1 

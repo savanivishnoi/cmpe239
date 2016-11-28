@@ -1,0 +1,18 @@
+
+Discontinuities occur especially frequently in
+languages with a relatively free word order,
+such as German. Generally, due to the long-
+distance dependencies they induce, they lie
+beyond the expressivity of Probabilistic CFG,
+i.e., they cannot be directly reconstructed by
+a PCFG parser. In this paper, we use a
+parser for Probabilistic Linear Context-Free
+Rewriting Systems (PLCFRS), a formalism
+with high expressivity, to directly parse the
+German NeGra and TIGER treebanks. In both
+treebanks, discontinuities are annotated with
+crossing branches. Based on an evaluation us-
+ing different metrics, we show that an output
+quality can be achieved which is comparable
+to the output quality of PCFG-based systems.
+1 

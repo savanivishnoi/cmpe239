@@ -1,0 +1,18 @@
+
+This paper proposes an unsupervised ap-
+proach to user simulation in order to automati-
+cally furnish updates and assessments of a de-
+ployed spoken dialog system. The proposed
+method adopts a dynamic Bayesian network
+to infer the unobservable true user action from
+which the parameters of other components are
+naturally derived. To verify the quality of the
+simulation, the proposed method was applied
+to the Let?s Go domain (Raux et al., 2005)
+and a set of measures was used to analyze the
+simulated data at several levels. The results
+showed a very close correspondence between
+the real and simulated data, implying that it is
+possible to create a realistic user simulator that
+does not necessitate human intervention.
+1 

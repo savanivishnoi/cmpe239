@@ -1,0 +1,17 @@
+
+An automatic generation of multiple-
+choice questions is one of the promising
+examples of educational applications of
+NLP techniques. A machine learning ap-
+proach seems to be useful for this pur-
+pose because some of the processes can
+be done by classification. Using basic ma-
+chine learning algorithms as Naive Bayes
+and K-Nearest Neighbors, we have devel-
+oped a real-time system which generates
+questions on English grammar and vocab-
+ulary from on-line news articles. This pa-
+per describes the current version of our
+system and discusses some of the issues
+on constructing this kind of system.
+1 

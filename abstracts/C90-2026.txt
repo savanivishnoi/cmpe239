@@ -1,0 +1,12 @@
+: Ttfs paper describes a tractable method for 
+parsing GPSG grmnmars without ,altering the modu- 
+larity and expressiveness of this tbnnalism. The pro- 
+posed method is based on a constraint propagation 
+mech,'ufism which reduces the number of unnecessary 
+structures built at parse thne through the early detec- 
+tion of inadmissible local trees. The propagation of 
+constraints is rendered efficient by indexing con- 
+straints and categories in a connection graph m~d by 
+using a bidirectional chat1 pm~er together with a bot- 
+lore-up strategy centered around head constituents. 
+;\[o 

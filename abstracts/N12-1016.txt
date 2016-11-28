@@ -1,0 +1,18 @@
+
+We propose a new segmentation evaluation
+metric, called segmentation similarity (S), that
+quantifies the similarity between two segmen-
+tations as the proportion of boundaries that
+are not transformed when comparing them us-
+ing edit distance, essentially using edit dis-
+tance as a penalty function and scaling penal-
+ties by segmentation size. We propose several
+adapted inter-annotator agreement coefficients
+which use S that are suitable for segmenta-
+tion. We show that S is configurable enough
+to suit a wide variety of segmentation evalua-
+tions, and is an improvement upon the state of
+the art. We also propose using inter-annotator
+agreement coefficients to evaluate automatic
+segmenters in terms of human performance.
+1 

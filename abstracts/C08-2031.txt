@@ -1,0 +1,13 @@
+
+This paper studies the role of base-NP in-
+formation in dependency parsing for Thai.
+The baseline performance reveals that the
+base-NP chunking task for Thai is much
+more difficult than those of some lan-
+guages (like English). The results show
+that the parsing performance can be im-
+proved (from 60.30% to 63.74%) with the
+use of base-NP chunk information, al-
+though the best chunker is still far from
+perfect (F?=1 = 83.06%).
+1 

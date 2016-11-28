@@ -1,0 +1,25 @@
+
+Biological databases contain facts from scien-
+tific literature, which have been curated by
+hand to ensure high quality. Curation is time-
+consuming and can be supported by informa-
+tion extraction methods. We present a server
+which identifies biological facts in scientific text
+and presents the annotation to the curator.
+Such facts are: UniProt, UMLS and GO ter-
+minology, identification of gene and protein
+names, mutations and protein-protein interac-
+tions. UniProt, UMLS and GO concepts are
+automatically linked to the original source. The
+module for mutations is based on syntax pat-
+terns and the one for protein-protein interac-
+tions on NLP. All modules work independently
+of each other in single threads and are combined
+in a pipeline to ensure proper meta data inte-
+gration. For fast response time the modules are
+distributed on a Linux cluster. The server is at
+present available to curation teams of biomedi-
+cal data and will be opened to the public in the
+future.
+Contents
+1 

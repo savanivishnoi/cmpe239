@@ -1,0 +1,22 @@
+
+In evaluating the output of language tech-
+nology applications?MT, natural language
+generation, summarisation?automatic eval-
+uation techniques generally conflate mea-
+surement of faithfulness to source content
+with fluency of the resulting text. In this
+paper we develop an automatic evaluation
+metric to estimate fluency alone, by examin-
+ing the use of parser outputs as metrics, and
+show that they correlate with human judge-
+ments of generated text fluency. We then de-
+velop a machine learner based on these, and
+show that this performs better than the indi-
+vidual parser metrics, approaching a lower
+bound on human performance. We finally
+look at different language models for gener-
+ating sentences, and show that while individ-
+ual parser metrics can be ?fooled? depending
+on generation method, the machine learner
+provides a consistent estimator of fluency.
+1 

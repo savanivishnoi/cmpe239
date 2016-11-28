@@ -1,0 +1,26 @@
+
+Defining the reordering search space is a cru-
+cial issue in phrase-based SMT between dis-
+tant languages. In fact, the optimal trade-
+off between accuracy and complexity of de-
+coding is nowadays reached by harshly lim-
+iting the input permutation space. We pro-
+pose a method to dynamically shape such
+space and, thus, capture long-range word
+movements without hurting translation qual-
+ity nor decoding time. The space defined
+by loose reordering constraints is dynamically
+pruned through a binary classifier that predicts
+whether a given input word should be trans-
+lated right after another. The integration of
+this model into a phrase-based decoder im-
+proves a strong Arabic-English baseline al-
+ready including state-of-the-art early distor-
+tion cost (Moore and Quirk, 2007) and hierar-
+chical phrase orientation models (Galley and
+Manning, 2008). Significant improvements in
+the reordering of verbs are achieved by a sys-
+tem that is notably faster than the baseline,
+while BLEU and METEOR remain stable, or
+even increase, at a very high distortion limit.
+1 

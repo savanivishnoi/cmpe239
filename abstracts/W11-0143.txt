@@ -1,0 +1,10 @@
+
+This paper discusses the phenomenon of granularity in natural language1. By ?granularity? we
+mean the level of detail of description of an event or object. Humans can seamlessly shift their gran-
+ularity perspective while reading or understanding a text. To emulate this mechanism, we describe
+a set of features that identify the levels of granularity in text, and empirically verify this feature set
+using a human annotation study for granularity identification. This theory is the foundation for any
+system that can learn the (global) behavior of event descriptions from (local) behavior descriptions.
+This is the first research initiative, to our knowledge, for identifying granularity shifts in natural
+language descriptions.
+1 

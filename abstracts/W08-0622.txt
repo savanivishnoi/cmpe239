@@ -1,0 +1,14 @@
+ 
+This work proposes a case-based classifier to tackle 
+the gene/protein mention problem in biomedical lit-
+erature. The so called gene mention problem con-
+sists of the recognition of gene and protein entities in 
+scientific texts. A classification process aiming at 
+deciding if a term is a gene mention or not is carried 
+out for each word in the text. It is based on the selec-
+tion of the best or most similar case in a base of 
+known and unknown cases. The approach was 
+evaluated on several datasets for different organisms 
+and results show the suitability of this approach for 
+the gene mention problem. 
+1 

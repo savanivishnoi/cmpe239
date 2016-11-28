@@ -1,0 +1,18 @@
+
+Handling terminology is an important
+matter in a translation workflow. However,
+current Machine Translation (MT) sys-
+tems do not yet propose anything proactive
+upon tools which assist in managing termi-
+nological databases. In this work, we in-
+vestigate several enhancements to analog-
+ical learning and test our implementation
+on translating medical terms. We show
+that the analogical engine works equally
+well when translating from and into a mor-
+phologically rich language, or when deal-
+ing with language pairs written in differ-
+ent scripts. Combining it with a phrase-
+based statistical engine leads to significant
+improvements.
+1 

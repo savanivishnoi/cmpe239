@@ -1,0 +1,22 @@
+ 
+This paper introduces a method for learn-
+ing to find translation of a given source 
+term on the Web. In the approach, the 
+source term is used as a query and part of 
+patterns to retrieve and extract transla-
+tions in Web pages. The method involves 
+using a bilingual term list to learn source-
+target surface patterns. At runtime, the 
+given term is submitted to a search engine 
+then the candidate translations are ex-
+tracted from the returned summaries and 
+subsequently ranked based on the surface 
+patterns, occurrence counts, and translit-
+eration knowledge. We present a proto-
+type called TermMine that applies the 
+method to translate terms. Evaluation on a 
+set of encyclopedia terms shows that the 
+method significantly outperforms the 
+state-of-the-art online machine translation 
+systems. 
+1 

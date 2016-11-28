@@ -1,0 +1,18 @@
+ 
+Single-document summarization and multi-
+document summarization are very closely re-
+lated tasks and they have been widely investi-
+gated independently.  This paper examines 
+the mutual influences between the two tasks 
+and proposes a novel unified approach to si-
+multaneous single-document and multi-
+document summarizations. The mutual influ-
+ences between the two tasks are incorporated 
+into a graph model and the ranking scores of a 
+sentence for the two tasks can be obtained in 
+a unified ranking process. Experimental re-
+sults on the benchmark DUC datasets demon-
+strate the effectiveness of the proposed ap-
+proach for both single-document and multi-
+document summarizations.  
+1 

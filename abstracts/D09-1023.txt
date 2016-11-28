@@ -1,0 +1,22 @@
+
+We present a machine translation frame-
+work that can incorporate arbitrary fea-
+tures of both input and output sentences.
+The core of the approach is a novel de-
+coder based on lattice parsing with quasi-
+synchronous grammar (Smith and Eis-
+ner, 2006), a syntactic formalism that
+does not require source and target trees
+to be isomorphic. Using generic approx-
+imate dynamic programming techniques,
+this decoder can handle ?non-local? fea-
+tures. Similar approximate inference tech-
+niques support efficient parameter esti-
+mation with hidden variables. We use
+the decoder to conduct controlled exper-
+iments on a German-to-English transla-
+tion task, to compare lexical phrase, syn-
+tax, and combined models, and to mea-
+sure effects of various restrictions on non-
+isomorphism.
+1 

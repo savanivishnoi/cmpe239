@@ -1,0 +1,14 @@
+
+Accuracy of dependency parsers is one of the
+key factors limiting the quality of dependency-
+based machine translation. This paper deals
+with the influence of various dependency pars-
+ing approaches (and also different training
+data size) on the overall performance of an
+English-to-Czech dependency-based statisti-
+cal translation system implemented in the
+Treex framework. We also study the relation-
+ship between parsing accuracy in terms of un-
+labeled attachment score and machine transla-
+tion quality in terms of BLEU.
+1 

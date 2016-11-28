@@ -1,0 +1,20 @@
+
+We consider the problem of producing a
+multi-document summary given a collec-
+tion of documents. Since most success-
+ful methods of multi-document summa-
+rization are still largely extractive, in this
+paper, we explore just how well an ex-
+tractive method can perform. We intro-
+duce an ?oracle? score, based on the prob-
+ability distribution of unigrams in human
+summaries. We then demonstrate that with
+the oracle score, we can generate extracts
+which score, on average, better than the
+human summaries, when evaluated with
+ROUGE. In addition, we introduce an ap-
+proximation to the oracle score which pro-
+duces a system with the best known per-
+formance for the 2005 Document Under-
+standing Conference (DUC) evaluation.
+1 

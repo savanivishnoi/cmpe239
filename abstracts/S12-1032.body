@@ -1,0 +1,15 @@
+
+Identifying textual inferences, where the
+meaning of one text follows from another, is
+a general underlying task within many natu-
+ral language applications. Commonly, it is ap-
+proached either by generative syntactic-based
+methods or by ?lightweight? heuristic lexical
+models. We suggest a model which is confined
+to simple lexical information, but is formu-
+lated as a principled generative probabilistic
+model. We focus our attention on the task of
+ranking textual inferences and show substan-
+tially improved results on a recently investi-
+gated question answering data set.
+1 

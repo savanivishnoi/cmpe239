@@ -1,0 +1,24 @@
+
+SMT has been used in paraphrase generation
+by translating a source sentence into another
+(pivot) language and then back into the source.
+The resulting sentences can be used as candi-
+date paraphrases of the source sentence. Exist-
+ing work that uses two independently trained
+SMT systems cannot directly optimize the
+paraphrase results. Paraphrase criteria espe-
+cially the paraphrase rate is not able to be en-
+sured in that way. In this paper, we propose
+a joint learning method of two SMT systems
+to optimize the process of paraphrase genera-
+tion. In addition, a revised BLEU score (called
+iBLEU ) which measures the adequacy and
+diversity of the generated paraphrase sentence
+is proposed for tuning parameters in SMT sys-
+tems. Our experiments on NIST 2008 test-
+ing data with automatic evaluation as well as
+human judgments suggest that the proposed
+method is able to enhance the paraphrase qual-
+ity by adjusting between semantic equivalency
+and surface dissimilarity.
+1 

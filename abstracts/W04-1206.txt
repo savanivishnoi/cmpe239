@@ -1,0 +1,30 @@
+
+The tagging of biological entities, and in partic-
+ular gene and protein names, is an essential step
+in the analysis of textual information in Molec-
+ular Biology and Biomedicine. The problem is
+harder than was originally thought because of
+the highly dynamic nature of the research area,
+in which new genes and their functions are con-
+stantly being discovered, and because of the lack
+of commonly accepted standards. An impres-
+sive collection of techniques has been used to
+detect protein and gene names in the last four-
+five years, ranging from typical NLP to purely
+bioinformatics approaches. We explore here the
+relationship between protein/gene names and
+expressions used to characterize protein/gene
+function. These expressions are captured in a
+collection of patterns derived from an original
+set of manually derived expressions, extended
+to cover lexical variants and filtered with known
+cases of association patterns/ names. Apply-
+ing these patterns to a large collection of cu-
+rated sentences, we found a significant number
+of patterns with a very strong tendency to ap-
+pear only in sentences in which a protein/gene
+name is simultaneously present. This approach
+is part of a larger effort to incorporate contex-
+tual information so as to make biological infor-
+mation less ambiguous.
+1 

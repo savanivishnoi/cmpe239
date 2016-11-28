@@ -1,0 +1,21 @@
+
+Large databases of facts are prevalent in
+many applications. Such databases are
+accurate, but as they broaden their scope
+they become increasingly incomplete. In
+contrast to extending such a database, we
+present a system to query whether it con-
+tains an arbitrary fact. This work can be
+thought of as re-casting open domain in-
+formation extraction: rather than growing
+a database of known facts, we smooth this
+data into a database in which any possi-
+ble fact has membership with some confi-
+dence. We evaluate our system predicting
+held out facts, achieving 74.2% accuracy
+and outperforming multiple baselines. We
+also evaluate the system as a common-
+sense filter for the ReVerb Open IE sys-
+tem, and as a method for answer validation
+in a Question Answering task.
+1 

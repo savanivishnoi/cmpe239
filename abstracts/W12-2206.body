@@ -1,0 +1,23 @@
+
+Although many approaches have been pre-
+sented to compute and predict readability of
+documents in different languages, the infor-
+mation provided by readability systems often
+fail to show in a clear and understandable way
+how difficult a document is and which aspects
+contribute to content readability. We address
+this issue by presenting a system that, for a
+given document in Italian, provides not only
+a list of readability indices inspired by Coh-
+Metrix, but also a graphical representation
+of the difficulty of the text compared to the
+three levels of Italian compulsory education,
+namely elementary, middle and high-school
+level. We believe that this kind of represen-
+tation makes readability assessment more in-
+tuitive, especially for educators who may not
+be familiar with readability predictions via su-
+pervised classification. In addition, we present
+the first available system for readability as-
+sessment of Italian inspired by Coh-Metrix.
+1 

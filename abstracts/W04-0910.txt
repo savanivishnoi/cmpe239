@@ -1,0 +1,16 @@
+
+Arguably, grammars which associate natural lan-
+guage expressions not only with a syntactic but
+also with a semantic representation, should do so in
+a way that capture paraphrasing relations between
+sentences whose core semantics are equivalent. Yet
+existing semantic grammars fail to do so. In this pa-
+per, we describe an ongoing project whose aim is
+the production of a ?paraphrastic grammar? that is,
+a grammar which associates paraphrases with iden-
+tical semantic representations. We begin by propos-
+ing a typology of paraphrases. We then show how
+this typology can be used to simultaneously guide
+the development of a grammar and of a testsuite de-
+signed to support the evaluation of this grammar.
+1 

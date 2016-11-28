@@ -1,0 +1,18 @@
+
+We investigate the classification of utter-
+ances into high-level dialog act categories
+using word-based features, under condi-
+tions where the train and test data dif-
+fer by genre and/or language. We han-
+dle the cross-language cases with ma-
+chine translation of the test utterances.
+We analyze and compare two feature-
+based approaches to using unlabeled data
+in adaptation: restriction to a shared fea-
+ture set, and an implementation of Blitzer
+et al?s Structural Correspondence Learn-
+ing. Both methods lead to increased detec-
+tion of backchannels in the cross-language
+cases by utilizing correlations between
+backchannel words and utterance length.
+1 

@@ -1,0 +1,21 @@
+ 
+  In natural language, a stem is the 
+morphological base of a word to which affixes can 
+be attached to form derivatives. Stemming is a 
+process of assigning morphological variants of 
+words to equivalence classes such that each class 
+corresponds to a single stem. Different stemmers 
+have been developed for a wide range of languages 
+and for a variety of purposes. Arabic, a highly 
+inflected language with complex orthography, 
+requires good stemming for effective text analysis. 
+Preliminary investigation indicates that existing 
+approaches to Arabic stemming fail to provide 
+effective and accurate equivalence classes when 
+applied to a text like the Qur?an written in 
+Classical Arabic. Therefore, I propose a new 
+stemming approach based on a light stemming 
+technique that uses a transliterated version of the 
+Qur?an in western script. 
+ 
+1 

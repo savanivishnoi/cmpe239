@@ -1,0 +1,22 @@
+
+The SemEval-2007 task to disambiguate
+prepositions was designed as a lexical sample
+task. A set of over 25,000 instances was
+developed, covering 34 of the most frequent
+English prepositions, with two-thirds of the
+instances for training and one-third as the test
+set. Each instance identified a preposition to be
+tagged in a full sentence taken from the
+FrameNet corpus (mostly from the British
+National Corpus). Definitions from the Oxford
+Dictionary of English formed the sense
+inventories. Three teams participated, with all
+achieving supervised results significantly
+better than baselines, with a high fine-grained
+precision of 0.693. This level is somewhat
+similar to results on lexical sample tasks with
+open class words, indicating that significant
+progress has been made. The data generated in
+the task provides ample opportunitites for
+further investigations of preposition behavior.
+1 

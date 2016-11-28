@@ -1,0 +1,392 @@
+ion is carried out over 
+the conjoined proposition as a whole, giving a list of 
+discourse referents/roles for the discourse processed 
+up to a given point. 
+Thus for (la, lg): 
+(la) Emily climbed Ben Nevis in July. 
+(lg) Fiona climbed Snowdon. 
+we get the representation shown in Figure 5.16 
+Now let us consider the processing of discourse se- 
+quences containing sentence-final 'then'. Consider 
+(la,lb): 
+(la) Emily climbed Ben Nevis in July. 
+(lb) Fiona climbed Snowdon then. 
+The system parses (la), followed by (lb) as far as 
+'then'. At this point in processing, the representa- 
+tion built so far is that of Figure 5. The processing 
+temporal discourse referents as phonologically realised, 
+as this is not relevant o the analysis of 'then'--but it 
+could of course be done. 
+16The representation for (la, lg) will also contain in- 
+formation about possible discourse relations between the 
+two eventualities. We do not describe this feature of the 
+system here except where it is relevant o 'then'. 
+of 'then' causes the rules for ETR 'then' and par t -  
+of  'then' to be invoked in turn. The rule for ETR 
+'then' causes the system to "look for" a temporal re- 
+ferent indexed 'pr' in the list of discourse referents 
+introduced by the processing of the discourse up to 
+this point. This list of discourse referents i  threaded 
+from one sentence to the next (and from NP to VP 
+within a sentence). In fact, what is threaded is not 
+just the discourse referents but the overall DRS/type 
+from the processing of the discourse up to this point. 
+The threading is achieved at discourse level by means 
+of the top-level rule of the grammar: 
+dis(dis(SBar, Dis)),In, Out) --> 
+sbar(SBar,Type .... ,In,Ned), 
+dis(Dis,Ned,Out). 
+The first argument to the predicate 'dis' is respon- 
+sible for building the tree structure associated with 
+the parse. The second and third arguments, the Pro- 
+log variables 'In' and 'Out', enable threading of dis- 
+course referents from the sentence just parsed to the 
+remaining discourse. The input 'In' to the proces- 
+sing of sbar consists of the overall DRS/type built 
+up from processing the discourse up to this point. 
+This includes a list of discourse referents generated 
+so far. The grammar ules at sbar level and below 
+cause the overall DRS/type to be updated to give a 
+new type 'Med', which is the input DRS/type to the 
+processing of the remainder of the discourse. The 
+'Type' argument of sbar is the DRS/type obtained 
+from parsing that individual sentence. The other ar- 
+guments to sbar are not relevant o this discussion 
+and have thus been omitted. 
+Thus, at a given point in processing of discourse, 
+the system can look for a temporal referent indexed 
+'pr'. Looking at Figure 5, we see that an appropriate 
+temporal referent indexed 'pr' is present. The rule 
+for ETR 'then' therefore succeeds, and a proposition 
+is introduced to the effect that T2 is temporally in- 
+cluded in T', i.e. 
+162 
+rl -4 Si, r~ -4 X, r3 "--+ Y, 1"4 ---+ 1~1, r5 -+ T~, r6 -4 S~, r7 -4  U,  rs --+ V, r9 --+ R2, rl0 --). T2, rn --> T'  
+climb(X,Y) 
+named(X/Emily') 
+named(Y/Ben Nevis') 
+named(T', ' July') 
+s, 1 
+occ-time(S,, Tl ) Ta E_ T'  
+-v \ ]  
+climb(U,V) 
+~~ ed(U,'Daniel' ed(V,'Snowdon') 
+occ-time(S2, T2) 
+Figure 5: Slightly simplified representation for ( la , lg)  and for ( la , lb )  at the point of processing 'then'.  
+163 
+T2 E T' 
+This proposition is added to the restrictions of the 
+lower box of Figure 5, to give the completed repre- 
+sentation for (la, lb), which is not shown here for 
+reasons of space. If there had been no such temporal 
+referent marked 'pr' present, the rule for ETR 'then' 
+would have failed. 
+Now consider the part-of  reading for 'then'. 
+We saw earlier that this requires an appro- 
+priate discourse relation between the two described 
+eventualities---one of ither backgrounding or ela- 
+boration. Testing for whether an elaboration re- 
+lation is possible requires world knowledge, and we 
+have not attempted to build any of this into the sy- 
+stem, although there appears to be no reason why 
+this could not be done. The system in its present 
+form therefore checks only for the background in- 
+stance of the part -of  relation. 
+Backgrounding is possible if the second eventua- 
+lity is either a state or if it is presented with pro- 
+gressive viewpoint. This means that, in order to 
+test for backgrounding, the representations for indi- 
+vidual sentences must contain information about the 
+aspectual properties of the described eventualities-- 
+for example, whether an eventuality is a state or a 
+non-state (event), and whether it is presented with 
+simple aspect (external viewpoint) or progressive as- 
+pect (internal viewpoint). It is widely known that 
+the aspectual properties of a described eventuality 
+depend on certain properties of the verb 17 and also 
+on other elements such as the referents of NP argu- 
+ments. For example, the event described by: 
+(5) Daniel climbed a mountain. 
+is a Vendler accomplishment. Alternatively, we may 
+characterise it in Krifka's terms as having the pro- 
+perty +Q (quantized) or -CUM (non-cumulative), 
+which are equivalent to the lack of a natural end- 
+point or culmination. However, the event described 
+by: 
+(6) Daniel climbed mountains. 
+is a Vendler activity, and in Krifka's terms has the 
+property -Q/+CUM. Here we see what Krifka de- 
+scribes as a "mapping" from the properties of the NP 
+object is to the properties of the event. The referent 
+of 'a mountain' is+Q, and so is the event of (5). The 
+referent of 'mountains' is -Q,  and so is the event of 
+(6). Such mapping from the properties of the object 
+to the properties of the event only occurs for certain 
+verbs, however--those where what Krifka calls the 
+17E.g. 'basic aspectual type' in Moens' terms (Moens, 
+1987) and semantic features in both Verkuyl's (1989) and 
+Krifka's (1991) accounts. 
+lSMore strictly the "patient", as it is thematic roles 
+and not grammatical roles that are important here. 
+"thematic relation" between the object and the event 
+has an appropriate property. One such property that 
+enables this mapping is what he calls gradual  pati- 
+ent. In such cases, there is an intuitive relationship 
+between the "progress" of the object and the pro- 
+gress of the event. For example, in an eating event, 
+the object is gradually consumed, and in a writing 
+event, the object is gradually created. Both 'eat' and 
+'write', as well as 'climb' thus have thematic relati- 
+ons with the property gradual  pat ient.  Driving 
+events do not, on the other hand, exhibit his corre- 
+spondence between the progress of the event and the 
+progress of the object. Thus the thematic relation 
+between object and event for 'drive' does not have 
+the gradual  pat ient  property, which explains why: 
+(7) John drove the car. 
+is +CUM/-Q even though 'the car' is -CUM/+Q. 19 
+In our EKN account we encode Krifka's properties 
+of thematic relations as types of situations and in- 
+dividuals. For example, the lexical entry for 'climb' 
+includes the following information: 
+Z 
+S,Y \] 
+climb(X,Y) GRAD-PAT 
+The grammar rules then make reference to this in- 
+formation. For example, the rule: 
+vbar( . . . .  ) --> v( . . . .  ), np( . . . .  ) 
+contains a procedure which evaluates the Q-value of 
+the predicate (vbar) according to the following algo- 
+rithm: 
+If: The thematic relation between S and Y is of type 
+GRAD-PAT 
+Then: Set the Q-value of the predicate (vbar) to be 
+the same as that of Y 
+Otherwise: Set the Q-value of the predicate to -Q.  
+The Q-value of the agent 2? also affects that of the 
+described eventuality. For example, the eventuality 
+described by: 
+(8) Emily climbed the mountain. 
+is +Q, whereas that described by: 
+(9) People climbed the mountain. 
+is -Q. In (9), the -Q  value of the agent is transferred 
+to the event. In order to deal with such examples, 
+the rule 
+s ( . . . )  --> r ip(. . . ) ,  vp( . . . )  
+19A well-known test for the property +CUM/-Q of 
+predicates i the ability to combine with a for-adverbial. 
+2?Corresponding to the grammatical subject in these 
+active sentences. 
+164 
+rl --~S, r~ -~X, r3 -~R 
+named(X,'Fiona ) 
+gi~l(x) 
+l s l  
+I STATE 
+Figure 6: Representation for (le) at the point of pro- 
+cessing 'then'. 
+contains a similar algorithm to the one in the vbar 
+rule. 
+Thus the representation constructed by parsing a 
+sentence includes information about the aspectual 
+properties of the described eventuality. These in- 
+clude the features +/ -STATE and +/ -Q  as already 
+described, together with +/ -PROG depending on 
+whether or not progressive aspect is present, and 
++/ -PUNCT which distinguishes punctual and non- 
+punctual events (corresponding to the difference bet- 
+ween achievements and accomplishments). 
+Let us now consider the representation from the 
+processing of: 
+(le) Fiona was a girl then. 
+up to the point where 'then' is reached. This is given 
+(in slightly simplified form) in Figure 6. 
+Now suppose we are processing (lc,le): 
+(lc) Emily climbed Ben Nevis. 
+(le) Fiona was a girl then. 
+The rule for par t -o f  'then' requires that the se- 
+cond eventuality is either a state or it is described 
+with progressive viewpoint. The former is true in 
+this case, so the conditions for par t -o f  'then' are 
+satisfied. The representation btained for (lc,le) is 
+shown in Figure 7. 
+The semant ics of  ~part-of '  
+What exactly does it mean for the par t -o f  (~) re- 
+lation to hold between two eventualities? The idea 
+is that if $2 ~ $1, then any infon which is suppor- 
+ted by $2 is also supported by $1. In other words, 
+$2 adds further information to S1, causing it to be 
+more fully specified. Here we exploit the partiality 
+of situation theory. Situations may be only parti- 
+ally specified: if we say that $1 supports ~, this does 
+not tell us anything about what other information 
+S1 does or does not support. It is thus possible for 
+a later utterance to add further information about 
+$1 and thereby specify it more fully. If the first ut- 
+terance tells us that $1 supports the infon ~r, and the 
+second tells us that $2 supports the infon 7" and also 
+that $2 <1 $1, then we know that $1 supports both 
+a and v. This is straightforward enough for the ela- 
+boration case. We need to consider carefully what it 
+means in a backgrounding case such as (la,le). 
+According to our theoretical analysis, if an even- 
+tuality is backgrounded then it does not introduce 
+an occurrence-time of its own. Instead, the backgro- 
+unded eventuality is of the same duration as that of 
+the preceding event-- it "takes on" the time of that 
+event. 21 Thus, in the representation f (lc,le) in Fi- 
+gure 7, the backgrounded $2 has the same temporal 
+extent as the event $1. This amounts to claiming 
+that (le) describes only the part of the state that 
+coincides with the preceding event. Of course we 
+know that the state of Fiona's being a girl began 
+before and continues after Emily's cl imb--there is a 
+relationship of temporal inclusion between the "to- 
+tal duration" of the state and the event. But we are 
+saying that those parts of the state that are before 
+and after the event are not described but are infer- 
+red from our world knowledge about the duration of 
+such states. 
+Stative verbs are "natural backgrounders" in that 
+they describe ventualities without making reference 
+to the beginning and end points of the eventuality. 
+They naturally describe a situation which can rea- 
+dily be seen as a temporal "slice" of a more prolon- 
+ged situation. For this reason, in the lexical entries 
+for stative verbs in our grammar, there is no men- 
+tion of the occurrence-time of the state. Progressives 
+usually behave in a similar way. When an event de- 
+scribed with progressive viewpoint follows one with 
+simple (perfective) viewpoint, the relation between 
+them is normally one of backgrounding. The effect of 
+progressive viewpoint is to present he event from an 
+internal perspective. An event described with inter- 
+nal perspective is no longer temporally bounded-- it  
+does not have an occurrence-time of its own. Instead, 
+its duration is that of the preceding event, just as in 
+the stative case. 
+If we define two instances of the par t -o f  relation: 
+. <1 bg for the backgrounding case 
+* _ el for the elaboration case 
+we can thus say: 
+S2 ~ b s $1 ) T2 = Tz 
+where T1,T2 are the temporal durations of $I and 
+$2 respectively. And: 
+S~ <l el $1 -'--+ T2 ___ T1 
+Thus, for the general <l relation: 
+$2 <I $1 ) T2 C T1 
+21Evidence for this comes from an analysis of 'at the 
+time' and 'at the same time'. See (Glasbey, ms2) for 
+details. 
+165 
+r~ --+ $1, r2 ~ X, r3 --+ Y, r4 -~ R1, rs -> TI, r6 --~ $2, r7 --~ U, rs --~ R~ 
+climb(X,V) 
+IR, I 
+I named(X,'Emily') 
+named(Y,'Ben Nevis') 
+Sl l  
+occ-time(S1, T,) 
+ rl(U) 
+R2 I 
+named(U,'Fiona') 
+s2 I 
+STATE $2 _<3 Sl 
+Figure 7: Representation for (lc,le). 
+Finally, let us consider (la,lf):  
+(la) Emily climbed Ben Nevis in July. 
+(lf) Fiona was climbing Snowdon then. 
+In this case, an ETR is present and the second sen- 
+tence has progressive aspect. This means that the 
+conditions for both ETI~ 'then' and par t -o f  'then' 
+are met.Our grammar will thus cause two represen- 
+tations to be generated for (la, lf), corresponding to 
+the two readings that we identified in Section 1. 
+3 Genera l  remarks  
+3.1 Fur ther  Deve lopments  
+The system parses sequences of any length, keeping 
+track of all the discourse referents/roles introduced 
+so far. Thus, as it stands at present, it will find a 
+temporal referent for 'then', irrespective of how far 
+back in the discourse that referent was introduced. 
+It may be desirable to refine this in some way--for 
+example, to disallow anaphoric reference to an ETR 
+that is more than a certain "distance" back in the 
+discourse. Also, the system at present finds only 
+the most recently introduce temporal referent. This 
+could easily be modified--for example, in order to 
+allow it to produce a set of alternatives. However, it 
+appears that we would need to take discourse struc- 
+ture into account here. 
+3.2 Relat ion to other accounts of  temporal  
+reference 
+It is important to consider how our analysis fits with 
+other work on temporal reference in discourse, and 
+how readily our treatment of 'then' could be incorpo- 
+rated into these accounts. Kamp and Reyle (forth- 
+coming) present a DRT fragment which deals with 
+temporal reference but does not include 'then'. In 
+(Glasbey, forthcoming) and (Glasbey, 1992) we pre- 
+sent a modification of Kamp and Reyle's fragment 
+which incorporates our analysis of 'then'. We make 
+the necessary distinction between what we call "ex- 
+plicit" and "inferred" times by allowing a temporal 
+referent o be introduced only when an explicit tem- 
+poral referent is present. If there is no ETR, only an 
+event referent may be introduced. This enables us to 
+produce the correct readings for 'then'. We consider 
+the ST/DRT account given in the present paper to 
+be preferable, however, in that situation theory al- 
+lows us to express information about the utterance 
+in a way that traditional DRT does not. This enables 
+us to make precisely the distinction we need between 
+whether or not a particular eferent was phonologi- 
+cally realised in the utterance. 
+Lascarides and Asher (1991) present an account of 
+temporal reference where discourse relations between 
+eventualities are deduced by means of defeasible rea- 
+soning. Their account is expressed in a version of 
+166 
+DRT and preliminary investigations suggest hat it 
+could be extended to include 'then' in a similar way 
+to the Kamp and Reyle fragment. 
+4 Conc lus ion  
+We have developed a computational gramlnar which 
+parses discourse consisting of sequences of simple 
+sentences containing a range of tense and aspect con- 
+structions. In particular, it generates the required 
+readings for sentence-final 'then'. We have also in- 
+dicated how our analysis of 'then' could be incorpo- 
+rated into some existing DRT accounts of temporal 
+reference. The system appears to be capable of va- 
+rious refinements involving more detailed theories of 
+discourse structure, and as such may provide a basis 
+for development of more extensive systems for dis- 
+course analysis. 
+Acknowledgments  
+I would like to thank Robin Cooper, Max Cresswell, 
+Elisabet Engdahl, Martin Mellor and Marc Moens 
+for helpful advice and comments on this work. 
+Re ferences  
+\[Bach, 1986\] Emmon Bach. The algebra of events. 
+Linguistics and Philosophy, 9:5-16, 1986. 
+\[Barwise, 1989\] Jon Barwise. The Situation in Logic. 
+CSLI, Stanford, California, 1989. 
+\[Barwise and Cooper, forthcoming\] Jon Barwise 
+and Robin Cooper. Extended Kamp Notation: 
+a graphical notation for situation theory. In P. 
+Aczel, D. Israel, Y. Katagiri and S. Peters (eds.) 
+Situation Theory and its Applications, Vol. 3. 
+CSLI, Stanford, California, 1993. 
+\[Cooper, 1991\] Robin Cooper. Three lectures on si- 
+tuation theoretic grammar. In Natural Language 
+Processing. Proceedings of2nd Advanced School 
+in Artificial Intelligence, Guarda, Portugal, Oc- 
+tober 8-12, 1990. In series: Lecture Notes in 
+Artificial Intelligence, Miguel Filgueiras (ed.). 
+Springer Verlag, Berlin, London, 1991. 
+\[Cooper, forthcoming\] Robin Cooper. Generalized 
+quantifiers and resource situations. In P. Ac- 
+zel, D. Israel, Y. Katagiri and S. Peters (eds.) 
+Situation Theory and its Applications, Vol. 3. 
+CSLI, Stanford, California, 1993. 
+\[Cooper, msl\] Robin Cooper. 

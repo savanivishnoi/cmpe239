@@ -1,0 +1,43 @@
+ 
+The rapid development of language tools 
+using machine learning techniques for less 
+computerized languages requires appropri-
+ately tagged corpus. A Bengali news cor-
+pus has been developed from the web ar-
+chive of a widely read Bengali newspaper. 
+A web crawler retrieves the web pages in 
+Hyper Text Markup Language (HTML) 
+format from the news archive. At present, 
+the corpus contains approximately 34 mil-
+lion wordforms. The date, location, re-
+porter and agency tags present in the web 
+pages have been automatically named en-
+tity (NE) tagged. A portion of this partially 
+NE tagged corpus has been manually anno-
+tated with the sixteen NE tags with the help 
+of Sanchay Editor1, a text editor for Indian 
+languages. This NE tagged corpus contains 
+150K wordforms. Additionally, 30K word-
+forms have been manually annotated with 
+the twelve NE tags as part of the IJCNLP-
+08 NER Shared Task for South and South 
+East Asian Languages 2 . A table driven 
+semi-automatic NE tag conversion routine 
+has been developed in order to convert the 
+sixteen-NE tagged corpus to the twelve-NE 
+tagged corpus. The 150K NE tagged cor-
+pus has been used to develop Named Entity 
+Recognition (NER) system in Bengali us-
+ing pattern directed shallow parsing ap-
+proach, Hidden Markov Model (HMM), 
+Maximum Entropy (ME) Model, Condi-
+                                                 
+1 sourceforge.net/project/nlp-sanchay 
+2 http://ltrc.iiit.ac.in/ner-ssea-08 
+tional Random Field (CRF) and Support 
+Vector Machine (SVM). Experimental re-
+sults of the 10-fold cross validation test 
+have demonstrated that the SVM based 
+NER system performs the best with an 
+overall F-Score of 91.8%. 
+1 

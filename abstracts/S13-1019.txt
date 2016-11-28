@@ -1,0 +1,19 @@
+
+In this paper we describe KnCe2013-CORE,
+a system to compute the semantic similarity
+of two short text snippets. The system com-
+putes a number of features which are gath-
+ered from different knowledge bases, namely
+WordNet, Wikipedia and Wiktionary. The
+similarity scores derived from these features
+are then fed into several multilayer perceptron
+neuronal networks. Depending on the size
+of the text snippets different parameters for
+the neural networks are used. The final out-
+put of the neural networks is compared to hu-
+man judged data. In the evaluation our system
+performed sufficiently well for text snippets
+of equal length, but the performance dropped
+considerably once the pairs of text snippets
+differ in size.
+1 

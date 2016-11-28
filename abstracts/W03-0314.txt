@@ -1,0 +1,19 @@
+
+We present an unsupervised extraction of
+sequence-to-sequence correspondences from
+parallel corpora by sequential pattern mining.
+The main characteristics of our method are
+two-fold. First, we propose a systematic way
+to enumerate all possible translation pair can-
+didates of rigid and gapped sequences without
+falling into combinatorial explosion. Second,
+our method uses an efficient data structure and
+algorithm for calculating frequencies in a con-
+tingency table for each translation pair candi-
+date. Our method is empirically evaluated us-
+ing English-Japanese parallel corpora of 6 mil-
+lion words. Results indicate that it works well
+for multi-word translations, giving 56-84% ac-
+curacy at 19% token coverage and 11% type
+coverage.
+1 

@@ -1,0 +1,18 @@
+
+We present an integrated dependency-
+based semantic role labeling system for
+English from both NomBank and Prop-
+Bank. By introducing assistant argument
+labels and considering much more fea-
+ture templates, two optimal feature tem-
+plate sets are obtained through an effec-
+tive feature selection procedure and help
+construct a high performance single SRL
+system. From the evaluations on the date
+set of CoNLL-2008 shared task, the per-
+formance of our system is quite close to
+the state of the art. As to our knowl-
+edge, this is the first integrated SRL sys-
+tem that achieves a competitive perfor-
+mance against previous pipeline systems.
+1 

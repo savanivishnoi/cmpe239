@@ -1,0 +1,14 @@
+ 
+This paper presents a framework for unsuper-
+vised natural language morphology induction 
+wherein candidate suffixes are grouped into 
+candidate inflection classes, which are then ar-
+ranged in a lattice structure.  With similar can-
+didate inflection classes placed near one an-
+other in the lattice, I propose this structure is 
+an ideal search space in which to isolate the 
+true inflection classes of a language.  This pa-
+per discusses and motivates possible search 
+strategies over the inflection class lattice struc-
+ture. 
+1 

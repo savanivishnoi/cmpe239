@@ -1,0 +1,16 @@
+
+We propose a novel method for inducing monolingual
+semantic hierarchies and sense clusters from numerous
+foreign-language-to-English bilingual dictionaries. The
+method exploits patterns of non-transitivity in transla-
+tions across multiple languages. No complex or hierar-
+chical structure is assumed or used in the input dictio-
+naries: each is initially parsed into the ?lowest common
+denominator? form, which is to say, a list of pairs of the
+form (foreign word, English word). We then propose a
+monolingual synonymy measure derived from this ag-
+gregate resource, which is used to derive multilingually-
+motivated sense hierarchies for monolingual English
+words, with potential applications in word sense classifi-
+cation, lexicography and statistical machine translation.
+1 

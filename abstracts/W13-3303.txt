@@ -1,0 +1,18 @@
+
+Explicit discourse connectives in a source
+language text are not always translated to
+comparable words or phrases in the tar-
+get language. The paper provides a corpus
+analysis and a method for semi-automatic
+detection of such cases. Results show
+that discourse connectives are not trans-
+lated into comparable forms (or even any
+form at all), in up to 18% of human refer-
+ence translations from English to French
+or German. In machine translation, this
+happens much less frequently (up to 8%
+only). Work in progress aims to cap-
+ture this natural implicitation of discourse
+connectives in current statistical machine
+translation models.
+1 

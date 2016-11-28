@@ -1,0 +1,28 @@
+ 
+A noun phrase can indirectly refer to an entity that 
+has already been mentioned. For example, " I  went 
+into an old house last night. The roof was leaking 
+badly and ..." indicates that "the roof' is asso- 
+ciated with "an old house", which was mentioned 
+in the previous sentence. This kind of reference 
+(indirect anaphora) has not been studied well in 
+natural language processing, but is important for 
+coherence resolution, language understanding, and 
+machine translation. In order to analyze indirect 
+anaphora, we need a case frame dictionary for nouns 
+that contains knowledge of the relationships between 
+two nouns but no such dictionary presently exists. 
+Therefore, we are forced to use examples of "X no 
+Y" (Y of X) and a verb case frame dictionary in- 
+stead. We tried estimating indirect anaphora using 
+this information and obtained a recall rate of 63% 
+and a precision rate of 68% on test sentences. This 
+indicates that the information of "X no Y" is use- 
+ful to a certain extent when we cannot make use 
+of a noun case frame dictionary. We estimated the 
+results that would be given by a noun case frame 
+dictionary, and obtained recall and precision rates 
+of 71% and 82% respectively. Finally, we proposed 
+a way to construct a noun case frame dictionary by 
+using examples of "X no Y." 
+1 

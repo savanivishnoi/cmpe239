@@ -1,0 +1,11 @@
+
+This paper describes the SyntaLex entries in
+the English Lexical Sample Task of SENSEVAL-3.
+There are four entries in all, where each of the dif-
+ferent entries corresponds to use of word bigrams
+or Part of Speech tags as features. The systems rely
+on bagged decision trees, and focus on using pairs
+of lexical and syntactic features individually and in
+combination. They are descendants of the Duluth
+systems that participated in SENSEVAL-2.
+1 

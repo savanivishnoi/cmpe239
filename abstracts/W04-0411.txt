@@ -1,0 +1,14 @@
+
+Multiword Expressions present a challenge for lan-
+guage technology, given their flexible nature. Each
+type of multiword expression has its own charac-
+teristics, and providing a uniform lexical encoding
+for them is a difficult task to undertake. Nonethe-
+less, in this paper we present an architecture for the
+lexical encoding of these expressions in a database,
+that takes into account their flexibility. This encod-
+ing extends in a straightforward manner the one re-
+quired for simplex (single) words, and maximises
+the information contained for them in the descrip-
+tion of multiwords.
+1 

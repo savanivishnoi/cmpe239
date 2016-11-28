@@ -1,0 +1,20 @@
+
+This paper investigates how to automat-
+ically create a dialogue control compo-
+nent of a listening agent to reduce the cur-
+rent high cost of manually creating such
+components. We collected a large number
+of listening-oriented dialogues with their
+user satisfaction ratings and used them to
+create a dialogue control component using
+partially observable Markov decision pro-
+cesses (POMDPs), which can learn a pol-
+icy to satisfy users by automatically find-
+ing a reasonable reward function. A com-
+parison between our POMDP-based com-
+ponent and other similarly motivated sys-
+tems using human subjects revealed that
+POMDPs can satisfactorily produce a dia-
+logue control component that can achieve
+reasonable subjective assessment.
+1 

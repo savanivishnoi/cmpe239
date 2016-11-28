@@ -1,0 +1,16 @@
+
+This paper describes our system about mul-
+tilingual semantic dependency parsing (SR-
+Lonly) for our participation in the shared task
+of CoNLL-2009. We illustrate that semantic
+dependency parsing can be transformed into
+a word-pair classification problem and im-
+plemented as a single-stage machine learning
+system. For each input corpus, a large scale
+feature engineering is conducted to select the
+best fit feature template set incorporated with a
+proper argument pruning strategy. The system
+achieved the top average score in the closed
+challenge: 80.47% semantic labeled F1 for the
+average score.
+1 

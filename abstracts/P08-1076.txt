@@ -1,0 +1,21 @@
+
+This paper provides evidence that the use of
+more unlabeled data in semi-supervised learn-
+ing can improve the performance of Natu-
+ral Language Processing (NLP) tasks, such
+as part-of-speech tagging, syntactic chunking,
+and named entity recognition. We first pro-
+pose a simple yet powerful semi-supervised
+discriminative model appropriate for handling
+large scale unlabeled data. Then, we describe
+experiments performed on widely used test
+collections, namely, PTB III data, CoNLL?00
+and ?03 shared task data for the above three
+NLP tasks, respectively. We incorporate up
+to 1G-words (one billion tokens) of unlabeled
+data, which is the largest amount of unlabeled
+data ever used for these tasks, to investigate
+the performance improvement. In addition,
+our results are superior to the best reported re-
+sults for all of the above test collections.
+1 

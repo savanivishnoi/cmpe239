@@ -1,0 +1,17 @@
+
+Up to now, work on semantic relations has fo-
+cused on relation classification: recognizing
+whether a given instance (a word pair such as
+virus:flu) belongs to a specific relation class
+(such as CAUSE:EFFECT). However, instances
+of a single relation class may still have signif-
+icant variability in how characteristic they are
+of that class. We present a new SemEval task
+based on identifying the degree of prototypi-
+cality for instances within a given class. As
+a part of the task, we have assembled the first
+dataset of graded relational similarity ratings
+across 79 relation categories. Three teams
+submitted six systems, which were evaluated
+using two methods.
+1 

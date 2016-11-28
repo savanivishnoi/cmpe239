@@ -1,0 +1,16 @@
+
+While there have been many successful applica-
+tions of machine learning methods to tasks in NLP,
+learning algorithms are not typically designed to
+optimize NLP performance metrics. This paper
+evaluates an ensemble selection framework de-
+signed to optimize arbitrary metrics and automate
+the process of algorithm selection and parameter
+tuning. We report the results of experiments that in-
+stantiate the framework for three NLP tasks, using
+six learning algorithms, a wide variety of parame-
+terizations, and 15 performance metrics. Based on
+our results, we make recommendations for subse-
+quent machine-learning-based research for natural
+language learning.
+1 

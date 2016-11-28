@@ -1,0 +1,24 @@
+ 
+Existing methods for extracting features 
+from Chinese reviews only use 
+simplistic syntactic knowledge, while 
+those for identifying sentiments rely 
+heavily on a semantic dictionary. In this 
+paper, we present a systematic technique 
+for identifying features and sentiments, 
+using both syntactic and statistical anal-
+ysis. We firstly identify candidate fea-
+tures using a proposed set of common 
+syntactic rules. We then prune irrelevant 
+candidates with topical relevance scores 
+below a cut-off point. We also propose 
+an association analysis method based on 
+likelihood ratio test to infer the polarity 
+of opinion word. The sentiment of a fea-
+ture is finally adjusted by analyzing the 
+negative modifiers in the local context 
+of the opinion word. Experimental re-
+sults show that our system performs sig-
+nificantly better than a well-known opi-
+nion mining system. 
+1 

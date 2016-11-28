@@ -1,0 +1,16 @@
+
+A reading difficulty measure can be described
+as a function or model that maps a text to a
+numerical value corresponding to a difficulty
+or grade level. We describe a measure of read-
+ability that uses a combination of lexical fea-
+tures and grammatical features that are derived
+from subtrees of syntactic parses. We also
+tested statistical models for nominal, ordinal,
+and interval scales of measurement. The re-
+sults indicate that a model for ordinal regres-
+sion, such as the proportional odds model, us-
+ing a combination of grammatical and lexical
+features is most effective at predicting reading
+difficulty.
+1 

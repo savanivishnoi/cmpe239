@@ -1,0 +1,27 @@
+
+One of the reasons for which the resolution
+of coreferences has remained a challenging
+information extraction task, especially in the
+biomedical domain, is the lack of training
+data in the form of annotated corpora. In or-
+der to address this issue, we developed the
+HANAPIN corpus. It consists of full-text ar-
+ticles from biochemistry literature, covering
+entities of several semantic types: chemical
+compounds, drug targets (e.g., proteins, en-
+zymes, cell lines, pathogens), diseases, or-
+ganisms and drug effects. All of the co-
+referring expressions pertaining to these se-
+mantic types were annotated based on the an-
+notation scheme that we developed. We ob-
+served four general types of coreferences in
+the corpus: sortal, pronominal, abbreviation
+and numerical. Using the MASI distance
+metric, we obtained 84% in computing the
+inter-annotator agreement in terms of Krip-
+pendorff?s alpha. Consisting of 20 full-text,
+open-access articles, the corpus will enable
+other researchers to use it as a resource for
+their own coreference resolution methodolo-
+gies.
+1 

@@ -1,0 +1,22 @@
+ 
+We address the problem of detecting Eng-
+lish language learner errors by using a dis-
+criminative high-order sequence model. 
+Unlike most work in error-detection, this 
+method is agnostic as to specific error 
+types, thus potentially allowing for higher 
+recall across different error types.  The ap-
+proach integrates features from many 
+sources into the error-detection model, 
+ranging from language model-based fea-
+tures to linguistic analysis features. Evalua-
+tion results on a large annotated corpus of 
+learner writing indicate the feasibility of 
+our approach on a realistic, noisy and in-
+herently skewed set of data. High-order 
+models consistently outperform low-order 
+models in our experiments. Error analysis 
+on the output shows that the calculation of 
+precision on the test set represents a lower 
+bound on the real system performance. 
+1. 

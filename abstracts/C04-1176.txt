@@ -1,0 +1,28 @@
+
+This paper presents a method to construct
+Japanese KATAKANA variant list from
+large corpus. Our method is useful for
+information retrieval, information extrac-
+tion, question answering, and so on, because
+KATAKANA words tend to be used as
+?loan words? and the transliteration causes
+several variations of spelling. Our method
+consists of three steps. At step 1, our sys-
+tem collects KATAKANA words from large
+corpus. At step 2, our system collects can-
+didate pairs of KATAKANA variants from
+the collected KATAKANA words using a
+spelling similarity which is based on the edit
+distance. At step 3, our system selects vari-
+ant pairs from the candidate pairs using a
+semantic similarity which is calculated by
+a vector space model of a context of each
+KATAKANA word. We conducted exper-
+iments using 38 years of Japanese news-
+paper articles and constructed Japanese
+KATAKANA variant list with the perfor-
+mance of 97.4% recall and 89.1% precision.
+Estimating from this precision, our system
+can extract 178,569 variant pairs from the
+corpus.
+1 

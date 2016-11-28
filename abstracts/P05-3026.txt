@@ -1,0 +1,25 @@
+ 
+We describe a new approach for syntheti-
+cally combining the output of several dif-
+ferent Machine Translation (MT) engines 
+operating on the same input.  The goal is 
+to produce a synthetic combination that 
+surpasses all of the original systems in 
+translation quality.  Our approach uses the 
+individual MT engines as ?black boxes? 
+and does not require any explicit coopera-
+tion from the original MT systems.  A de-
+coding algorithm uses explicit word 
+matches, in conjunction with confidence 
+estimates for the various engines and a tri-
+gram language model in order to score 
+and rank a collection of sentence hypothe-
+ses that are synthetic combinations of 
+words from the various original engines.  
+The highest scoring sentence hypothesis 
+is selected as the final output of our sys-
+tem.  Experiments, using several Arabic-
+to-English systems of similar quality, 
+show a substantial improvement in the 
+quality of the translation output.  
+1 

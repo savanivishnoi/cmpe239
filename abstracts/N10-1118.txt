@@ -1,0 +1,22 @@
+
+Factorization is the operation of transforming
+a production in a Linear Context-Free Rewrit-
+ing System (LCFRS) into two simpler produc-
+tions by factoring out a subset of the nontermi-
+nals on the production?s righthand side. Fac-
+torization lowers the rank of a production but
+may increase its fan-out. We show how to
+apply factorization in order to minimize the
+parsing complexity of the resulting grammar,
+and study the relationship between rank, fan-
+out, and parsing complexity. We show that it
+is always possible to obtain optimum parsing
+complexity with rank two. However, among
+transformed grammars of rank two, minimum
+parsing complexity is not always possible with
+minimum fan-out. Applying our factorization
+algorithm to LCFRS rules extracted from de-
+pendency treebanks allows us to find the most
+efficient parsing strategy for the syntactic phe-
+nomena found in non-projective trees.
+1 

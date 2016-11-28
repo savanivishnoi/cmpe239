@@ -1,0 +1,15 @@
+ 
+We explore the task of automatic classifica-
+tion of texts by the emotions expressed. Our 
+novel method arranges neutrality, polarity and 
+emotions hierarchically. We test the method 
+on two datasets and show that it outperforms 
+the corresponding ?flat? approach, which does 
+not take into account the hierarchical informa-
+tion. The highly imbalanced structure of most 
+of the datasets in this area, particularly the two 
+datasets with which we worked, has a dramat-
+ic effect on the performance of classification. 
+The hierarchical approach helps alleviate the 
+effect. 
+1 

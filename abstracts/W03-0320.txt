@@ -1,0 +1,19 @@
+
+A parallel corpus of texts in English and
+in Inuktitut, an Inuit language, is presented.
+These texts are from the Nunavut Hansards.
+The parallel texts are processed in two phases,
+the sentence alignment phase and the word cor-
+respondence phase. Our sentence alignment
+technique achieves a precision of 91.4% and
+a recall of 92.3%. Our word correspondence
+technique is aimed at providing the broadest
+coverage collection of reliable pairs of Inuktitut
+and English morphemes for dictionary expan-
+sion. For an agglutinative language like Inuk-
+titut, this entails considering substrings, not
+simply whole words. We employ a Pointwise
+Mutual Information method (PMI) and attain a
+coverage of 72.3% of English words and a pre-
+cision of 87%.
+1 

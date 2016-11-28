@@ -1,0 +1,22 @@
+
+We present a general architecture for incremen-
+tal interaction between modules in a speech-to-
+intention continuous understanding dialogue sys-
+tem. This architecture is then instantiated in the
+form of an incremental parser which receives suit-
+ability feedback on NP constituents from a refer-
+ence resolution module. Oracle results indicate
+that perfect NP suitability judgments can provide a
+labelled-bracket error reduction of as much as 42%
+and an efficiency improvement of 30%. Prelimi-
+nary experiments in which the parser incorporates
+feedback judgments based on the set of referents
+found in the discourse context achieve a maximum
+error reduction of 9.3% and efficiency gain of 4.6%.
+The parser is also able to incrementally instantiate
+the semantics of underspecified pronouns based on
+matches from the discourse context. These results
+suggest that the architecture holds promise as a plat-
+form for incremental parsing supporting continuous
+understanding.
+1 

@@ -1,0 +1,14 @@
+
+Natural language parsing has to be accu-
+rate and quick. Explanation-based Learn-
+ing (EBL) is a technique to speed-up pars-
+ing. The accuracy however often declines
+with EBL. The paper shows that this accu-
+racy loss is not due to the EBL framework
+as such, but to deductive parsing. Abduc-
+tive EBL allows extending the deductive
+closure of the parser. We present a Chi-
+nese parser based on abduction. Exper-
+iments show improvements in accuracy
+and efficiency.1
+1 

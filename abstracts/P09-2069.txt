@@ -1,0 +1,17 @@
+
+This paper presents the first stochastic
+finite-state morphological parser for Turk-
+ish. The non-probabilistic parser is a
+standard finite-state transducer implemen-
+tation of two-level morphology formal-
+ism. A disambiguated text corpus of
+200 million words is used to stochas-
+tize the morphotactics transducer, then it
+is composed with the morphophonemics
+transducer to get a stochastic morpho-
+logical parser. We present two applica-
+tions to evaluate the effectiveness of the
+stochastic parser; spelling correction and
+morphology-based language modeling for
+speech recognition.
+1 

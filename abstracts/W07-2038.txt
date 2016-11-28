@@ -1,0 +1,12 @@
+
+In this paper we present a semantic role la-
+beling system submitted to the task Multi-
+level Semantic Annotation of Catalan and
+Spanish in the context of SemEval?2007.
+The core of the system is a memory?based
+classifier that makes use of full syntactic in-
+formation. Building on standard features,
+we train two classifiers to predict separately
+the semantic class of the verb and the seman-
+tic roles.
+1 

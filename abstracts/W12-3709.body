@@ -1,0 +1,24 @@
+
+The past years have shown a steady growth
+in interest in the Natural Language Process-
+ing task of sentiment analysis. The research
+community in this field has actively proposed
+and improved methods to detect and classify
+the opinions and sentiments expressed in dif-
+ferent types of text - from traditional press ar-
+ticles, to blogs, reviews, fora or tweets. A less
+explored aspect has remained, however, the
+issue of dealing with sentiment expressed in
+texts in languages other than English. To this
+aim, the present article deals with the prob-
+lem of sentiment detection in three different
+languages - French, German and Spanish - us-
+ing three distinct Machine Translation (MT)
+systems - Bing, Google and Moses. Our ex-
+tensive evaluation scenarios show that SMT
+systems are mature enough to be reliably em-
+ployed to obtain training data for languages
+other than English and that sentiment analysis
+systems can obtain comparable performances
+to the one obtained for English.
+1 

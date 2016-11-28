@@ -1,0 +1,18 @@
+
+We describe two probabilistic models for unsuper-
+vised word-sense disambiguation using parallel cor-
+pora. The first model, which we call the Sense
+model, builds on the work of Diab and Resnik
+(2002) that uses both parallel text and a sense in-
+ventory for the target language, and recasts their ap-
+proach in a probabilistic framework. The second
+model, which we call the Concept model, is a hier-
+archical model that uses a concept latent variable to
+relate different language specific sense labels. We
+show that both models improve performance on the
+word sense disambiguation task over previous unsu-
+pervised approaches, with the Concept model show-
+ing the largest improvement. Furthermore, in learn-
+ing the Concept model, as a by-product, we learn a
+sense inventory for the parallel language.
+1 

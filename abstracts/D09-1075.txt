@@ -1,0 +1,19 @@
+
+Training a statistical machine translation
+starts with tokenizing a parallel corpus.
+Some languages such as Chinese do not in-
+corporate spacing in their writing system,
+which creates a challenge for tokenization.
+Moreover, morphologically rich languages
+such as Korean present an even bigger
+challenge, since optimal token boundaries
+for machine translation in these languages
+are often unclear. Both rule-based solu-
+tions and statistical solutions are currently
+used. In this paper, we present unsuper-
+vised methods to solve tokenization prob-
+lem. Our methods incorporate informa-
+tion available from parallel corpus to de-
+termine a good tokenization for machine
+translation.
+1 

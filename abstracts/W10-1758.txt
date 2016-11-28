@@ -1,0 +1,19 @@
+
+Structured perceptrons are attractive due
+to their simplicity and speed, and have
+been used successfully for tuning the
+weights of binary features in a machine
+translation system. In attempting to apply
+them to tuning the weights of real-valued
+features with highly skewed distributions,
+we found that they did not work well. This
+paper describes a modification to the up-
+date step and compares the performance
+of the resulting algorithm to standard min-
+imum error-rate training (MERT). In ad-
+dition, preliminary results for combining
+MERT or structured-perceptron tuning of
+the log-linear feature weights with coordi-
+nate ascent of other translation system pa-
+rameters are presented.
+1 

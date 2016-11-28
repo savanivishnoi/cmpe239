@@ -1,0 +1,25 @@
+ 
+We are constricting a Japanese-Chinese 
+parallel corpus, which is a part of the 
+NICT Multilingual Corpora. The corpus is 
+general domain, of large scale of about 
+40,000 sentence pairs, long sentences, 
+annotated with detailed information and 
+high quality. To the best of our knowledge, 
+this will be the first annotated Japanese-
+Chinese parallel corpus in the world. We 
+created the corpus by selecting Japanese 
+sentences from Mainichi Newspaper and 
+then manually translating them into 
+Chinese. We then annotated the corpus 
+with morphological and syntactic 
+structures and alignments at word and 
+phrase levels. This paper describes the 
+specification in human translation and the 
+scheme of detailed information annotation, 
+and the tools we developed in the corpus 
+construction. The experience we obtained 
+and points we paid special attentions are 
+also introduced for share with other 
+researches in corpora construction.     
+1 

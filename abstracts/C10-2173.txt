@@ -1,0 +1,26 @@
+ 
+This paper presents a novel semi-
+supervised learning algorithm called Ac-
+tive Deep Networks (ADN), to address 
+the semi-supervised sentiment classifica-
+tion problem with active learning. First, 
+we propose the semi-supervised learning 
+method of ADN. ADN is constructed by 
+Restricted Boltzmann Machines (RBM) 
+with unsupervised learning using labeled 
+data and abundant of unlabeled data. 
+Then the constructed structure is fine-
+tuned by gradient-descent based super-
+vised learning with an exponential loss 
+function. Second, we apply active learn-
+ing in the semi-supervised learning 
+framework to identify reviews that 
+should be labeled as training data. Then 
+ADN architecture is trained by the se-
+lected labeled data and all unlabeled data. 
+Experiments on five sentiment classifica-
+tion datasets show that ADN outper-
+forms the semi-supervised learning algo-
+rithm and deep learning techniques ap-
+plied for sentiment classification. 
+1 

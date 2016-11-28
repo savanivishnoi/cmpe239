@@ -1,0 +1,20 @@
+
+Two decades after their invention, the IBM
+word-based translation models, widely avail-
+able in the GIZA++ toolkit, remain the dom-
+inant approach to word alignment and an in-
+tegral part of many statistical translation sys-
+tems. Although many models have surpassed
+them in accuracy, none have supplanted them
+in practice. In this paper, we propose a simple
+extension to the IBM models: an `0 prior to en-
+courage sparsity in the word-to-word transla-
+tion model. We explain how to implement this
+extension efficiently for large-scale data (also
+released as a modification to GIZA++) and
+demonstrate, in experiments on Czech, Ara-
+bic, Chinese, and Urdu to English translation,
+significant improvements over IBM Model 4
+in both word alignment (up to +6.7 F1) and
+translation quality (up to +1.4 Bleu).
+1 

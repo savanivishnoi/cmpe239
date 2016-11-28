@@ -1,0 +1,16 @@
+ 
+Word sense disambiguation (WSD) is one of 
+the main challenges in Computational 
+Linguistics. TreeMatch is a WSD system 
+originally developed using data from SemEval 
+2007 Task 7 (Coarse-grained English All-
+words Task) that has been adapted for use in 
+SemEval 2010 Task 17 (All-words Word 
+Sense Disambiguation on a Specific Domain). 
+The system is based on a fully unsupervised 
+method using dependency knowledge drawn 
+from a domain specific knowledge base that 
+was built for this task. When evaluated on the 
+task, the system precision performs above the 
+First Sense Baseline. 
+1 

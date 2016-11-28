@@ -1,0 +1,24 @@
+
+In the field of multi-document summa-
+rization, the Pyramid method has be-
+come an important approach for evaluat-
+ing machine-generated summaries. The
+method is based on the manual annotation
+of text spans with the same meaning in a
+set of human model summaries. In this
+paper, we present an unsupervised, prob-
+abilistic topic modeling approach for au-
+tomatically identifying such semantically
+similar text spans. Our approach reveals
+some of the structure of model summaries
+and identifies topics that are good approx-
+imations of the Summary Content Units
+(SCU) used in the Pyramid method. Our
+results show that the topic model identi-
+fies topic-sentence associations that corre-
+spond to the contributors of SCUs, sug-
+gesting that the topic modeling approach
+can generate a viable set of candidate
+SCUs for facilitating the creation of Pyra-
+mids.
+1 

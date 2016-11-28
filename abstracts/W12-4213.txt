@@ -1,0 +1,21 @@
+
+In Japanese, particularly, spoken Japanese,
+subjective, objective and possessive cases are
+very often omitted. Such Japanese sentences
+are often translated by Japanese-English sta-
+tistical machine translation to the English sen-
+tence whose subjective, objective and posses-
+sive cases are omitted, and it causes to de-
+crease the quality of translation. We per-
+formed experiments of J-E phrase based trans-
+lation using Japanese sentence, whose omitted
+pronouns are complemented by human. We
+introduced ?antecedent F-measure? as a score
+for measuring quality of the translated En-
+glish. As a result, we found that it improves
+the scores of antecedent F-measure while the
+BLEU scores were almost unchanged. Every
+effectiveness of the zero pronoun resolution
+differs depending on the type and case of each
+zero pronoun.
+1 

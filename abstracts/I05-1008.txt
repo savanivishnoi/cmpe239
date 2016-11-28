@@ -1,0 +1,10 @@
+. We explore the use of a partially annotated corpus to build a depen-
+dency parser for Japanese. We examine two types of partially annotated corpora.
+It is found that a parser trained with a corpus that does not have any grammatical
+tags for words can demonstrate an accuracy of 87.38%, which is comparable to
+the current state-of-the-art accuracy on the Kyoto University Corpus. In contrast,
+a parser trained with a corpus that has only dependency annotations for each
+two adjacent bunsetsus (chunks) shows moderate performance. Nonetheless, it
+is notable that features based on character n-grams are found very useful for a
+dependency parser for Japanese.
+1 

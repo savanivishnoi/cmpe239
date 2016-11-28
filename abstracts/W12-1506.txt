@@ -1,0 +1,25 @@
+
+Until recently, deep stochastic surface realiza-
+tion has been hindered by the lack of seman-
+tically annotated corpora. This is about to
+change. Such corpora are increasingly avail-
+able, e.g., in the context of CoNLL shared
+tasks. However, recent experiments with
+CoNLL 2009 corpora show that these popu-
+lar resources, which serve well for other ap-
+plications, may not do so for generation. The
+attempts to adapt them for generation resulted
+so far in a better performance of the realizers,
+but not yet in a genuinely semantic generation-
+oriented annotation schema. Our goal is to
+initiate a debate on how a generation suit-
+able annotation schema should be defined. We
+define some general principles of a semantic
+generation-oriented annotation and propose an
+annotation schema that is based on these prin-
+ciples. Experiments shows that making the
+semantic corpora comply with the suggested
+principles does not need to have a negative im-
+pact on the quality of the stochastic generators
+trained on them.
+1 

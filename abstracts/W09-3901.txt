@@ -1,0 +1,25 @@
+
+Recent work on information presenta-
+tion in dialogue systems combines user
+modelling (UM) and stepwise refine-
+ment through clustering and summarisa-
+tion (SR) in the UMSR approach. An eval-
+uation in which participants rated dialogue
+transcripts showed that UMSR presents
+complex trade-offs understandably, pro-
+vides users with a good overview of their
+options, and increases users? confidence
+that all relevant options have been pre-
+sented (Demberg and Moore, 2006). In
+this paper, we evaluate the effectiveness
+of the UMSR approach in a more realis-
+tic setting, by incorporating this informa-
+tion presentation technique into a full end-
+to-end dialogue system in the city infor-
+mation domain, and comparing it with the
+traditional approach of presenting infor-
+mation sequentially. Our results suggest
+that despite complications associated with
+a real dialogue system setting, the UMSR
+model retains its advantages.
+1 

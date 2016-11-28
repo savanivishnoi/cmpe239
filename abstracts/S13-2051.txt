@@ -1,0 +1,22 @@
+
+This paper describes our system for shared
+task 13 ?Word Sense Induction for Graded and
+Non-Graded Senses? of SemEval-2013. The
+task is on word sense induction (WSI), and
+builds on earlier SemEval WSI tasks in ex-
+ploring the possibility of multiple senses be-
+ing compatible to varying degrees with a sin-
+gle contextual instance: participants are asked
+to grade senses rather than selecting a sin-
+gle sense like most word sense disambigua-
+tion (WSD) settings. The evaluation measures
+are designed to assess how well a system per-
+ceives the different senses in a contextual in-
+stance. We adopt a previously-proposed WSI
+methodology for the task, which is based on a
+Hierarchical Dirichlet Process (HDP), a non-
+parametric topic model. Our system requires
+no parameter tuning, uses the English ukWaC
+as an external resource, and achieves encour-
+aging results over the shared task.
+1 

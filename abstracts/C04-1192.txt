@@ -1,0 +1,19 @@
+ 
+The paper presents a method for word sense 
+disambiguation based on parallel corpora. The 
+method exploits recent advances in word 
+alignment and word clustering based on 
+automatic extraction of translation equivalents 
+and being supported by available aligned 
+wordnets for the languages in the corpus. The 
+wordnets are aligned to the Princeton 
+Wordnet, according to the principles 
+established by EuroWordNet. The evaluation 
+of the WSD system, implementing the 
+method described herein showed very 
+encouraging results. The same system used in 
+a validation mode, can be used to check and 
+spot alignment errors in multilingually 
+aligned wordnets as BalkaNet and 
+EuroWordNet.  
+1 

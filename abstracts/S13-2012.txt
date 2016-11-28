@@ -1,0 +1,19 @@
+
+This paper describes a complete event/time
+ordering system that annotates raw text with
+events, times, and the ordering relations be-
+tween them at the SemEval-2013 Task 1. Task
+1 is a unique challenge because it starts from
+raw text, rather than pre-annotated text with
+known events and times. A working system
+first identifies events and times, then identifies
+which events and times should be ordered, and
+finally labels the ordering relation between
+them. We present a split classifier approach
+that breaks the ordering tasks into smaller de-
+cision points. Experiments show that more
+specialized classifiers perform better than few
+joint classifiers. The NavyTime system ranked
+second both overall and in most subtasks like
+event extraction and relation labeling.
+1 

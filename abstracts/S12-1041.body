@@ -1,0 +1,14 @@
+
+This paper describes the first of two systems
+submitted from the University of Oslo (UiO)
+to the 2012 *SEM Shared Task on resolving
+negation. Our submission is an adaption of
+the negation system of Velldal et al. (2012),
+which combines SVM cue classification with
+SVM-based ranking of syntactic constituents
+for scope resolution. The approach further ex-
+tends our prior work in that we also identify
+factual negated events. While submitted for
+the closed track, the system was the top per-
+former in the shared task overall.
+1 

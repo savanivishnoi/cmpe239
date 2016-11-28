@@ -1,0 +1,14 @@
+
+We present PEM, the first fully automatic met-
+ric to evaluate the quality of paraphrases, and
+consequently, that of paraphrase generation
+systems. Our metric is based on three crite-
+ria: adequacy, fluency, and lexical dissimilar-
+ity. The key component in our metric is a ro-
+bust and shallow semantic similarity measure
+based on pivot language N-grams that allows
+us to approximate adequacy independently of
+lexical similarity. Human evaluation shows
+that PEM achieves high correlation with hu-
+man judgments.
+1 

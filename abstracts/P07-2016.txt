@@ -1,0 +1,11 @@
+ 
+This paper presents noisy-channel based 
+Korean preprocessor system, which cor-
+rects word spacing and typographical errors. 
+The proposed algorithm corrects both er-
+rors simultaneously. Using Eojeol transi-
+tion pattern dictionary and statistical data 
+such as Eumjeol n-gram and Jaso transition 
+probabilities, the algorithm minimizes the 
+usage of huge word dictionaries. 
+1 

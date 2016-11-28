@@ -1,0 +1,18 @@
+
+In order to simultaneously translate speech
+into multiple languages an extension of
+stochastic finite-state transducers is pro-
+posed. In this approach the speech trans-
+lation model consists of a single network
+where acoustic models (in the input) and the
+multilingual model (in the output) are em-
+bedded.
+The multi-target model has been evaluated
+in a practical situation, and the results have
+been compared with those obtained using
+several mono-target models. Experimental
+results show that the multi-target one re-
+quires less amount of memory. In addition, a
+single decoding is enough to get the speech
+translated into multiple languages.
+1 

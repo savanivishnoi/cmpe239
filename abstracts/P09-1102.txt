@@ -1,0 +1,23 @@
+
+The present paper describes a robust ap-
+proach for abbreviating terms. First, in
+order to incorporate non-local informa-
+tion into abbreviation generation tasks, we
+present both implicit and explicit solu-
+tions: the latent variable model, or alter-
+natively, the label encoding approach with
+global information. Although the two ap-
+proaches compete with one another, we
+demonstrate that these approaches are also
+complementary. By combining these two
+approaches, experiments revealed that the
+proposed abbreviation generator achieved
+the best results for both the Chinese and
+English languages. Moreover, we directly
+apply our generator to perform a very dif-
+ferent task from tradition, the abbreviation
+recognition. Experiments revealed that the
+proposed model worked robustly, and out-
+performed five out of six state-of-the-art
+abbreviation recognizers.
+1 

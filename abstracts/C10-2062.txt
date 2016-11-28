@@ -1,0 +1,22 @@
+
+We present a probabilistic generative
+model for learning semantic parsers from
+ambiguous supervision. Our approach
+learns from natural language sentences
+paired with world states consisting of
+multiple potential logical meaning repre-
+sentations. It disambiguates the mean-
+ing of each sentence while simultane-
+ously learning a semantic parser that maps
+sentences into logical form. Compared
+to a previous generative model for se-
+mantic alignment, it also supports full
+semantic parsing. Experimental results
+on the Robocup sportscasting corpora in
+both English and Korean indicate that
+our approach produces more accurate se-
+mantic alignments than existing methods
+and also produces competitive semantic
+parsers and improved language genera-
+tors.
+1 

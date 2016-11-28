@@ -1,0 +1,21 @@
+ 
+This paper proposes a new discriminative 
+training method, called minimum sample risk 
+(MSR), of estimating parameters of language 
+models for text input. While most existing 
+discriminative training methods use a loss 
+function that can be optimized easily but 
+approaches only approximately to the objec-
+tive of minimum error rate, MSR minimizes 
+the training error directly using a heuristic 
+training procedure. Evaluations on the task 
+of Japanese text input show that MSR can 
+handle a large number of features and train-
+ing samples; it significantly outperforms a 
+regular trigram model trained using maxi-
+mum likelihood estimation, and it also out-
+performs the two widely applied discrimi-
+native methods, the boosting and the per-
+ceptron algorithms, by a small but statisti-
+cally significant margin. 
+1 

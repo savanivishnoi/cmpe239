@@ -1,0 +1,17 @@
+
+Attempts to estimate phrase translation
+probablities for statistical machine transla-
+tion using iteratively-trained models have
+repeatedly failed to produce translations as
+good as those obtained by estimating phrase
+translation probablities from surface statis-
+tics of bilingual word alignments as de-
+scribed by Koehn, et al (2003). We pro-
+pose a new iteratively-trained phrase trans-
+lation model that produces translations of
+quality equal to or better than those pro-
+duced by Koehn, et al?s model. Moreover,
+with the new model, translation quality de-
+grades much more slowly as pruning is tigh-
+tend to reduce translation time.
+1 

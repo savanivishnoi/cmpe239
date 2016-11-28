@@ -1,0 +1,22 @@
+
+The development of summarization systems
+requires reliable similarity (evaluation) mea-
+sures that compare system outputs with hu-
+man references. A reliable measure should
+have correspondence with human judgements.
+However, the reliability of measures depends
+on the test collection in which the measure
+is meta-evaluated; for this reason, it has not
+yet been possible to reliably establish which
+are the best evaluation measures for automatic
+summarization. In this paper, we propose
+an unsupervised method called Heterogeneity-
+Based Ranking (HBR) that combines summa-
+rization evaluation measures without requiring
+human assessments. Our empirical results in-
+dicate that HBR achieves a similar correspon-
+dence with human assessments than the best
+single measure for every observed corpus. In
+addition, HBR results are more robust across
+topics than single measures.
+1 

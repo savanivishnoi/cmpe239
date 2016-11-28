@@ -1,0 +1,15 @@
+
+This article describes the first trial on bidirec-
+tional Thai-English machine transliteration ap-
+plied on the NEWS 2010 transliteration cor-
+pus. The system relies on segmenting source-
+language  words into syllable-like units,  find-
+ing unit's pronunciations, consulting a syllable 
+transliteration  table  to  form  target-language 
+word hypotheses, and ranking the hypotheses 
+by using syllable n-gram. The approach yields 
+84.2% and 70.4% mean F-scores on English-
+to-Thai  and  Thai-to-English  transliteration. 
+Discussion  on  existing  problems  and  future 
+solutions are addressed.
+1 

@@ -1,0 +1,24 @@
+
+We present an automatic method for mapping
+language-specific part-of-speech tags to a set
+of universal tags. This unified representation
+plays a crucial role in cross-lingual syntactic
+transfer of multilingual dependency parsers.
+Until now, however, such conversion schemes
+have been created manually. Our central hy-
+pothesis is that a valid mapping yields POS
+annotations with coherent linguistic proper-
+ties which are consistent across source and
+target languages. We encode this intuition
+in an objective function that captures a range
+of distributional and typological characteris-
+tics of the derived mapping. Given the ex-
+ponential size of the mapping space, we pro-
+pose a novel method for optimizing over soft
+mappings, and use entropy regularization to
+drive those towards hard mappings. Our re-
+sults demonstrate that automatically induced
+mappings rival the quality of their manually
+designed counterparts when evaluated in the
+context of multilingual parsing.1
+1 

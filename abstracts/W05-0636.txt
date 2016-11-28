@@ -1,0 +1,17 @@
+
+A striking feature of human syntactic pro-
+cessing is that it is context-dependent, that
+is, it seems to take into account seman-
+tic information from the discourse con-
+text and world knowledge. In this paper,
+we attempt to use this insight to bridge
+the gap between SRL results from gold
+parses and from automatically-generated
+parses. To do this, we jointly perform
+parsing and semantic role labeling, using
+a probabilistic SRL system to rerank the
+results of a probabilistic parser. Our cur-
+rent results are negative, because a locally-
+trained SRL model can return inaccurate
+probability estimates.
+1 

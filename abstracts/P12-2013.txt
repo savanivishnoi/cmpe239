@@ -1,0 +1,25 @@
+
+We describe an unsupervised approach to
+the problem of automatically detecting sub-
+groups of people holding similar opinions in
+a discussion thread. An intuitive way of iden-
+tifying this is to detect the attitudes of discus-
+sants towards each other or named entities or
+topics mentioned in the discussion. Sentiment
+tags play an important role in this detection,
+but we also note another dimension to the de-
+tection of people?s attitudes in a discussion: if
+two persons share the same opinion, they tend
+to use similar language content. We consider
+the latter to be an implicit attitude. In this pa-
+per, we investigate the impact of implicit and
+explicit attitude in two genres of social media
+discussion data, more formal wikipedia dis-
+cussions and a debate discussion forum that
+is much more informal. Experimental results
+strongly suggest that implicit attitude is an im-
+portant complement for explicit attitudes (ex-
+pressed via sentiment) and it can improve the
+sub-group detection performance independent
+of genre.
+1 

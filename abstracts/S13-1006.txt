@@ -1,0 +1,21 @@
+
+This paper describes the participation of iKer-
+nels system in the Semantic Textual Similar-
+ity (STS) shared task at *SEM 2013. Different
+from the majority of approaches, where a large
+number of pairwise similarity features are
+used to learn a regression model, our model
+directly encodes the input texts into syntac-
+tic/semantic structures. Our systems rely on
+tree kernels to automatically extract a rich set
+of syntactic patterns to learn a similarity score
+correlated with human judgements. We ex-
+periment with different structural representa-
+tions derived from constituency and depen-
+dency trees. While showing large improve-
+ments over the top results from the previous
+year task (STS-2012), our best system ranks
+21st out of total 88 participated in the STS-
+2013 task. Nevertheless, a slight refinement to
+our model makes it rank 4th.
+1 

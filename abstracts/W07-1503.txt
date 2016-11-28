@@ -1,0 +1,13 @@
+
+This paper presents a uniform approach to
+data extraction from syntactically annotated
+corpora encoded in XML. XQuery, which
+incorporates XPath, has been designed as
+a query language for XML. The combina-
+tion of XPath and XQuery offers flexibility
+and expressive power, while corpus specific
+functions can be added to reduce the com-
+plexity of individual extraction tasks. We il-
+lustrate our approach using examples from
+dependency treebanks for Dutch.
+1 

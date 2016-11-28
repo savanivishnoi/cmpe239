@@ -1,0 +1,31 @@
+ 
+As one of the important tasks of 
+SemEval Evaluation, Frame Semantic 
+Structure Extraction based on the Fra-
+meNet has received much more atten-
+tion in NLP field. This task is often di-
+vided into three sub-tasks: recognizing 
+target words which are word expres-
+sions that evoke semantic frames, as-
+signing the correct frame to them, name-
+ly, Frame Identification (FI), and for 
+each target word, detecting and labeling 
+the corresponding frame elements prop-
+erly. Frame identification is the founda-
+tion of this task. Since the existence of 
+links between frame semantics and syn-
+tactic features, we attempt to study FI on 
+the basis of dependency syntax. There-
+fore, we adopt a tree-structured condi-
+tional random field (T-CRF) model to 
+solve Chinese frame identification based 
+on Dependency Parsing. 7 typical lexi-
+cal units which belong to more than one 
+frame in Chinese FrameNet were se-
+lected to be researched. 940 human an-
+notated sentences serve as the training 
+data, and evaluation on 128 test data 
+achieved 81.46% precision. Compared 
+with previous works, our result shows 
+obvious improvement. 
+1 

@@ -1,0 +1,24 @@
+ 
+This paper describes a hybrid Chinese 
+word segmenter that is being developed 
+as part of a larger Chinese unknown 
+word resolution system. The segmenter 
+consists of two components: a tagging 
+component that uses the transforma-
+tion-based learning algorithm to tag 
+each character with its position in a 
+word, and a merging component that 
+transforms a tagged character sequence 
+into a word-segmented sentence. In ad-
+dition to the position-of-character tags 
+assigned to the characters, the merging 
+component makes use of a number of 
+heuristics to handle non-Chinese char-
+acters, numeric type compounds, and 
+long words. The segmenter achieved a 
+92.8% F-score and a 72.8% recall for 
+OOV words in the closed track of the 
+Peking University Corpus in the Sec-
+ond International Chinese Word Seg-
+mentation Bakeoff. 
+1 

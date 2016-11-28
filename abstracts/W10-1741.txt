@@ -1,0 +1,18 @@
+
+We use L1 regularized transductive regres-
+sion to learn mappings between source
+and target features of the training sets
+derived for each test sentence and use
+these mappings to rerank translation out-
+puts. We compare the effectiveness of L1
+regularization techniques for regression to
+learn mappings between features given in
+a sparse feature matrix. The results show
+the effectiveness of using L1 regulariza-
+tion versus L2 used in ridge regression.
+We show that regression mapping is ef-
+fective in reranking translation outputs and
+in selecting the best system combinations
+with encouraging results on different lan-
+guage pairs.
+1 

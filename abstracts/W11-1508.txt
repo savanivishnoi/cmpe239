@@ -1,0 +1,11 @@
+
+Most existing HLT pipelines assume the input
+is pure text or, at most, HTML and either ig-
+nore (logical) document structure or remove
+it. We argue that identifying the structure of
+documents is essential in digital library and
+other types of applications, and show that it
+is relatively straightforward to extend existing
+pipelines to achieve ones in which the struc-
+ture of a document is preserved.
+1 

@@ -1,0 +1,18 @@
+
+WordNet, a widely used sense inventory for
+Word Sense Disambiguation(WSD), is often
+too fine-grained for many Natural Language
+applications because of its narrow sense dis-
+tinctions. We present a semi-supervised ap-
+proach to learn similarity between WordNet
+synsets using a graph based recursive sim-
+ilarity definition. We seed our framework
+with sense similarities of all the word-sense
+pairs, learnt using supervision on human-
+labelled sense clusterings. Finally we discuss
+our method to derive coarse sense invento-
+ries at arbitrary granularities and show that the
+coarse-grained sense inventory obtained sig-
+nificantly boosts the disambiguation of nouns
+on standard test sets.
+1 

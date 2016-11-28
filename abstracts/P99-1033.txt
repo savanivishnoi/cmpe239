@@ -1,0 +1,14 @@
+ 
+This paper presents a dependency parsing scheme 
+using an extended finite state approach. The parser 
+augments input representation with "channels" so 
+that links representing syntactic dependency rela- 
+tions among words can be accommodated, and it- 
+erates on the input a number of times to arrive at 
+a fixed point. Intermediate configurations violating 
+various constraints of projective dependency repre- 
+sentations such as no crossing links, no independent 
+items except sentential head, etc, are filtered via fi- 
+nite state filters. We have applied the parser to de- 
+pendency parsing of Turkish. 
+1 

@@ -1,0 +1,20 @@
+
+The Web contains vast amounts of linguis-
+tic data. One key issue for linguists and
+language technologists is how to access
+it. Commercial search engines give highly
+compromised access. An alternative is to
+crawl the Web ourselves, which also al-
+lows us to remove duplicates and near-
+duplicates, navigational material, and a
+range of other kinds of non-linguistic mat-
+ter. We can also tokenize, lemmatise and
+part-of-speech tag the corpus, and load the
+data into a corpus query tool which sup-
+ports sophisticated linguistic queries. We
+have now done this for German and Ital-
+ian, with corpus sizes of over 1 billion
+words in each case. We provide Web ac-
+cess to the corpora in our query tool, the
+Sketch Engine.
+1 

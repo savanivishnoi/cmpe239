@@ -1,0 +1,22 @@
+ 
+We study an adaptive learning framework 
+for phonetic similarity modeling (PSM) that 
+supports the automatic acquisition of trans-
+literations by exploiting minimum prior 
+knowledge about machine transliteration to 
+mine transliterations incrementally from the 
+live Web. We formulate an incremental 
+learning strategy for the framework based 
+on Bayesian theory for PSM adaptation. 
+The idea of incremental learning is to bene-
+fit from the continuously developing his-
+tory to update a static model towards the in-
+tended reality. In this way, the learning 
+process refines the PSM incrementally 
+while constructing a transliteration lexicon 
+at the same time on a development corpus. 
+We further demonstrate that the proposed 
+learning framework is reliably effective in 
+mining live transliterations from Web query 
+results. 
+1 

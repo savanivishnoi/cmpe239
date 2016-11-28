@@ -1,0 +1,23 @@
+
+We demonstrate a new development environ-
+ment1 ?Information State Update? dialogue
+systems which allows non-expert developers
+to produce complete spoken dialogue sys-
+tems based only on a Business Process Model
+(BPM) describing their application (e.g. bank-
+ing, cinema booking, shopping, restaurant in-
+formation). The environment includes au-
+tomatic generation of Grammatical Frame-
+work (GF) grammars for robust interpretation
+of spontaneous speech, and uses application
+databases to generate lexical entries and gram-
+mar rules. The GF grammar is compiled to
+an ATK or Nuance language model for speech
+recognition. The demonstration system allows
+users to create and modify spoken dialogue
+systems, starting with a definition of a Busi-
+ness ProcessModel and ending with a working
+system. This paper describes the environment,
+its main components, and some of the research
+issues involved in its development.
+1 

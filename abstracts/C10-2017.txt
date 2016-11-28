@@ -1,0 +1,15 @@
+
+This article delves into the scoring func-
+tion of the statistical paraphrase genera-
+tion model. It presents an algorithm for
+exact computation and two applicative ex-
+periments. The first experiment analyses
+the behaviour of a statistical paraphrase
+generation decoder, and raises some is-
+sues with the ordering of n-best outputs.
+The second experiment shows that a major
+boost of performance can be obtained by
+embedding a true score computation in-
+side a Monte-Carlo sampling based para-
+phrase generator.
+1 

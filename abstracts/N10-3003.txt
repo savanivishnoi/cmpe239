@@ -1,0 +1,18 @@
+
+A Progressive summary helps a user to moni-
+tor changes in evolving news topics over a pe-
+riod of time. Detecting novel information is
+the essential part of progressive summariza-
+tion that differentiates it from normal multi
+document summarization. In this work, we
+explore the possibility of detecting novelty at
+various stages of summarization. New scoring
+features, Re-ranking criterions and filtering
+strategies are proposed to identify ?relevant
+novel? information. We compare these tech-
+niques using an automated evaluation frame-
+work ROUGE, and determine the best. Over-
+all, our summarizer is able to perform on par
+with existing prime methods in progressive
+summarization.
+1 

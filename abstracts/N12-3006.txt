@@ -1,0 +1,16 @@
+ 
+We describe MSR SPLAT, a toolkit for lan-
+guage analysis that allows easy access to the 
+linguistic analysis tools produced by the NLP 
+group at Microsoft Research. The tools in-
+clude both traditional linguistic analysis tools 
+such as part-of-speech taggers, constituency 
+and dependency parsers, and more recent de-
+velopments such as sentiment detection and 
+linguistically valid morphology. As we ex-
+pand the tools we develop for our own re-
+search, the set of tools available in MSR 
+SPLAT will be extended. The toolkit is acces-
+sible as a web service, which can be used 
+from a broad set of programming languages. 
+1 

@@ -1,0 +1,23 @@
+
+We propose to use a statistical phrase-
+based machine translation system in a
+post-editing task: the system takes as in-
+put raw machine translation output (from
+a commercial rule-based MT system), and
+produces post-edited target-language text.
+We report on experiments that were per-
+formed on data collected in precisely such
+a setting: pairs of raw MT output and
+their manually post-edited versions. In our
+evaluation, the output of our automatic
+post-editing (APE) system is not only bet-
+ter quality than the rule-based MT (both
+in terms of the BLEU and TER metrics),
+it is also better than the output of a state-
+of-the-art phrase-based MT system used
+in standalone translation mode. These re-
+sults indicate that automatic post-editing
+constitutes a simple and efficient way of
+combining rule-based and statistical MT
+technologies.
+1 

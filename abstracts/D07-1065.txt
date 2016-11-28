@@ -1,0 +1,18 @@
+
+In this paper, we describe a new algorithm
+for recovering WH-trace empty nodes. Our
+approach combines a set of hand-written
+patterns together with a probabilistic model.
+Because the patterns heavily utilize regu-
+lar expressions, the pertinent tree structures
+are covered using a limited number of pat-
+terns. The probabilistic model is essen-
+tially a probabilistic context-free grammar
+(PCFG) approach with the patterns acting as
+the terminals in production rules. We eval-
+uate the algorithm?s performance on gold
+trees and parser output using three differ-
+ent metrics. Our method compares favorably
+with state-of-the-art algorithms that recover
+WH-traces.
+1 

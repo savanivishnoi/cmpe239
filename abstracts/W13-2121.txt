@@ -1,0 +1,15 @@
+
+In this paper we present the preliminary work of
+a Basque poetry generation system. Basically,
+we have extracted the POS-tag sequences from
+some verse corpora and calculated the probabil-
+ity of each sequence. For the generation process
+we have defined 3 different experiments: Based
+on a strophe from the corpora, we (a) replace
+each word with other according to its POS-tag
+and suffixes, (b) replace each noun and adjective
+with another equally inflected word and (c) re-
+place only nouns with semantically related ones
+(inflected). Finally we evaluate those strategies
+using a Turing Test-like evaluation.
+1 

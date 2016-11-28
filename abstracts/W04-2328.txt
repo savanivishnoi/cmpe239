@@ -1,0 +1,16 @@
+
+In this paper we discuss the use of multi-
+layered tagsets for dialogue acts, in the con-
+text of dialogue understanding for multi-
+party meeting recording and retrieval ap-
+plications. We discuss some desiderata for
+such tagsets and critically examine some
+previous proposals. We then define MAL-
+TUS, a new tagset based on the ICSI-MR
+and Switchboard tagsets, which satisfies
+these requirements. We present some ex-
+periments using MALTUS which attempt
+to compare the merits of integrated versus
+multi-level classifiers for the detection of di-
+alogue acts.
+1 

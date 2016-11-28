@@ -1,0 +1,28 @@
+ 
+A prerequisite to a theory of the way agents un- 
+derstand speech acts is a theory of how their be- 
+liefs and intentions are revised as a consequence 
+of events. This process of attitude revision is 
+an interesting domain for the application of non- 
+monotonic reasoning because speech acts have a 
+conventional aspect that is readily represented by 
+defaults, but that interacts with an agent's be- 
+liefs and intentions in many complex ways that 
+may override the defaults. Perrault has devel- 
+oped a theory of speech acts, based on Rieter's 
+default logic, that captures the conventional as- 
+pect; it does not, however, adequately account for 
+certain easily observed facts about attitude revi- 
+sion resulting from speech acts. A natural the- 
+ory of attitude revision seems to require a method 
+of stating preferences among competing defaults. 
+We present here a speech act theory, formalized 
+in hierarchic autoepistemic logic (a refinement of 
+Moore's autoepistemic logic), in which revision of 
+both the speaker's and hearer's attitudes can be 
+adequately described. As a collateral benefit, effi- 
+cient automatic reasoning methods for the formal- 
+ism exist. The theory has been implemented and 
+is now being employed by an utterance-planning 
+system. 
+1 

@@ -1,0 +1,22 @@
+
+Semantic role labeling (SRL) and word
+sense disambiguation (WSD) are two fun-
+damental tasks in natural language pro-
+cessing to find a sentence-level seman-
+tic representation. To date, they have
+mostly been modeled in isolation. How-
+ever, this approach neglects logical con-
+straints between them. We therefore ex-
+ploit some pipeline systems which verify
+the automatic all word sense disambigua-
+tion could help the semantic role label-
+ing and vice versa. We further propose a
+Markov logic model that jointly labels se-
+mantic roles and disambiguates all word
+senses. By evaluating our model on the
+OntoNotes 3.0 data, we show that this
+joint approach leads to a higher perfor-
+mance for word sense disambiguation and
+semantic role labeling than those pipeline
+approaches.
+1 

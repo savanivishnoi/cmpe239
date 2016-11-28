@@ -1,0 +1,18 @@
+
+This paper describes DialogueView, a
+tool for annotating dialogues with utter-
+ance boundaries, speech repairs, speech
+act tags, and discourse segments. The
+tool provides several views of the data,
+including a word view that is time-
+aligned with the audio signal, and an ut-
+terance view that shows the dialogue as
+if it were a script for a play. The ut-
+terance view abstracts away from lower
+level details that are coded in the word
+view. This allows the annotator to have
+a simpler view of the dialogue when cod-
+ing speech act tags and discourse struc-
+ture, but still have access to the details
+when needed.
+1 

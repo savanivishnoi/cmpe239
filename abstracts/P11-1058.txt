@@ -1,0 +1,25 @@
+
+Resolving polysemy and synonymy is re-
+quired for high-quality information extraction.
+We present ConceptResolver, a component for
+the Never-Ending Language Learner (NELL)
+(Carlson et al, 2010) that handles both phe-
+nomena by identifying the latent concepts that
+noun phrases refer to. ConceptResolver per-
+forms both word sense induction and synonym
+resolution on relations extracted from text us-
+ing an ontology and a small amount of la-
+beled data. Domain knowledge (the ontology)
+guides concept creation by defining a set of
+possible semantic types for concepts. Word
+sense induction is performed by inferring a set
+of semantic types for each noun phrase. Syn-
+onym detection exploits redundant informa-
+tion to train several domain-specific synonym
+classifiers in a semi-supervised fashion. When
+ConceptResolver is run on NELL?s knowledge
+base, 87% of the word senses it creates cor-
+respond to real-world concepts, and 85% of
+noun phrases that it suggests refer to the same
+concept are indeed synonyms.
+1 

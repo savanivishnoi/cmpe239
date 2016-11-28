@@ -1,0 +1,28 @@
+
+We describe a method which uses one or more
+intermediary languages in order to automati-
+cally generate translation dictionaries. Such
+a method could potentially be used to effi-
+ciently create translation dictionaries for lan-
+guage groups which have as yet had little in-
+teraction. For any given word in the source
+language, our method involves first translating
+into the intermediary language(s), then into
+the target language, back into the intermediary
+language(s) and finally back into the source
+language. The relationship between a word
+and the number of possible translations in an-
+other language is most often 1-to-many, and so
+at each stage, the number of possible transla-
+tions grows exponentially. If we arrive back at
+the same starting point i.e. the same word in
+the source language, then we hypothesise that
+the meanings of the words in the chain have
+not diverged significantly. Hence we back-
+track through the link structure to the target
+language word and accept this as a suitable
+translation. We have tested our method by us-
+ing English as an intermediary language to au-
+tomatically generate a Spanish-to-Germandic-
+tionary, and the results are encouraging.
+1 

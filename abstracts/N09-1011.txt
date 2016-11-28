@@ -1,0 +1,24 @@
+
+Recent applications of Tree-Adjoining Gram-
+mar (TAG) to the domain of semantics as well
+as new attention to syntactic phenomena have
+given rise to increased interested in more ex-
+pressive and complex multicomponent TAG
+formalisms (MCTAG). Although many con-
+structions can be modeled using tree-local
+MCTAG (TL-MCTAG), certain applications
+require even more flexibility. In this pa-
+per we suggest a shift in focus from con-
+straining locality and complexity through tree-
+and set-locality to constraining locality and
+complexity through restrictions on the deriva-
+tional distance between trees in the same tree
+set in a valid derivation. We examine three
+formalisms, restricted NS-MCTAG, restricted
+Vector-TAG and delayed TL-MCTAG, that
+use notions of derivational distance to con-
+strain locality and demonstrate how they
+permit additional expressivity beyond TL-
+MCTAG without increasing complexity to the
+level of set local MCTAG.
+1 

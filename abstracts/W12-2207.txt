@@ -1,0 +1,25 @@
+
+Readability formulas are methods used to
+match texts with the readers? reading level.
+Several methodological paradigms have pre-
+viously been investigated in the field. The
+most popular paradigm dates several decades
+back and gave rise to well known readability
+formulas such as the Flesch formula (among
+several others). This paper compares this ap-
+proach (henceforth ?classic?) with an emerg-
+ing paradigm which uses sophisticated NLP-
+enabled features and machine learning tech-
+niques. Our experiments, carried on a corpus
+of texts for French as a foreign language, yield
+four main results: (1) the new readability for-
+mula performed better than the ?classic? for-
+mula; (2) ?non-classic? features were slightly
+more informative than ?classic? features; (3)
+modern machine learning algorithms did not
+improve the explanatory power of our read-
+ability model, but allowed to better classify
+new observations; and (4) combining ?classic?
+and ?non-classic? features resulted in a signif-
+icant gain in performance.
+1 

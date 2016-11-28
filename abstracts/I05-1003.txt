@@ -1,0 +1,17 @@
+. For cross-language text retrieval systems that rely on bilingual dic-
+tionaries for bridging the language gap between the source query language and 
+the target document language, good bilingual dictionary coverage is imperative.  
+For terms with missing translations, most systems employ some approaches for 
+expanding the existing translation dictionaries.  In this paper, instead of lexicon 
+expansion, we explore whether using the context of the unknown terms can help 
+mitigate the loss of meaning due to missing translation.  Our approaches consist 
+of two steps: (1) to identify terms that are closely associated with the unknown 
+source language terms as context vectors and (2) to use the translations of the 
+associated terms in the context vectors as the surrogate translations of the un-
+known terms.  We describe a query-independent version and a query-dependent 
+version using such monolingual context vectors.  These methods are evaluated 
+in Japanese-to-English retrieval using the NTCIR-3 topics and data sets.  Em-
+pirical results show that both methods improved CLIR performance for short 
+and medium-length queries and that the query-dependent context vectors per-
+formed better than the query-independent versions. 
+1   

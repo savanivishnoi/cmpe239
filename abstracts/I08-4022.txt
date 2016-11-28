@@ -1,0 +1,15 @@
+ 
+Chinese word segmentation and named 
+entity recognition (NER) are both important 
+tasks in Chinese information processing. 
+This paper presents a character-based 
+Conditional Random Fields (CRFs) model 
+for such two tasks. In The SIGHAN 
+Bakeoff 2007, this model participated in all 
+closed tracks for both Chinese NER and 
+word segmentation tasks, and turns out to 
+perform well. Our system ranks 2nd in the 
+closed track on NER of MSRA, and 4th in 
+the closed track on word segmentation of 
+SXU. 
+1 

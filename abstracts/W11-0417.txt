@@ -1,0 +1,15 @@
+
+In this paper, we first analyze and classify the
+empty categories in a Hindi dependency tree-
+bank and then identify various discovery pro-
+cedures to automatically detect the existence
+of these categories in a sentence. For this we
+make use of lexical knowledge along with the
+parsed output from a constraint based parser.
+Through this work we show that it is possi-
+ble to successfully discover certain types of
+empty categories while some other types are
+more difficult to identify. This work leads to
+the state-of-the-art system for automatic inser-
+tion of empty categories in the Hindi sentence.
+1 

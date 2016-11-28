@@ -1,0 +1,17 @@
+
+Research on coreference resolution and sum-
+marization has modeled the way entities are
+realized as concrete phrases in discourse. In
+particular there exist models of the noun
+phrase syntax used for discourse-new versus
+discourse-old referents, and models describ-
+ing the likely distance between a pronoun and
+its antecedent. However, models of discourse
+coherence, as applied to information ordering
+tasks, have ignored these kinds of information.
+We apply a discourse-new classifier and pro-
+noun coreference algorithm to the information
+ordering task, and show significant improve-
+ments in performance over the entity grid, a
+popular model of local coherence.
+1 

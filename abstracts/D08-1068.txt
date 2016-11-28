@@ -1,0 +1,21 @@
+
+Machine learning approaches to coreference
+resolution are typically supervised, and re-
+quire expensive labeled data. Some unsuper-
+vised approaches have been proposed (e.g.,
+Haghighi and Klein (2007)), but they are less
+accurate. In this paper, we present the first un-
+supervised approach that is competitive with
+supervised ones. This is made possible by
+performing joint inference across mentions,
+in contrast to the pairwise classification typ-
+ically used in supervised methods, and by us-
+ingMarkov logic as a representation language,
+which enables us to easily express relations
+like apposition and predicate nominals. On
+MUC and ACE datasets, our model outper-
+forms Haghigi and Klein?s one using only a
+fraction of the training data, and often matches
+or exceeds the accuracy of state-of-the-art su-
+pervised models.
+1 

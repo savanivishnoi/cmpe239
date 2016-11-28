@@ -1,0 +1,17 @@
+
+Query segmentation, like text chunking,
+is the first step towards query understand-
+ing. In this study, we explore the effec-
+tiveness of crowdsourcing for this task.
+Through carefully designed control ex-
+periments and Inter Annotator Agreement
+metrics for analysis of experimental data,
+we show that crowdsourcing may not be a
+suitable approach for query segmentation
+because the crowd seems to have a very
+strong bias towards dividing the query into
+roughly equal (often only two) parts. Sim-
+ilarly, in the case of hierarchical or nested
+segmentation, turkers have a strong prefer-
+ence towards balanced binary trees.
+1 

@@ -1,0 +1,15 @@
+
+We investigate several algorithms related
+to the parsing problem for weighted au-
+tomata, under the assumption that the in-
+put is a string rather than a tree. This
+assumption is motivated by several natu-
+ral language processing applications. We
+provide algorithms for the computation of
+parse-forests, best tree probability, inside
+probability (called partition function), and
+prefix probability. Our algorithms are ob-
+tained by extending to weighted tree au-
+tomata the Bar-Hillel technique, as defined
+for context-free grammars.
+1 

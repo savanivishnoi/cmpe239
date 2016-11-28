@@ -1,0 +1,16 @@
+
+Random Indexing is a vector space tech-
+nique that provides an efficient and scal-
+able approximation to distributional simi-
+larity problems. We present experiments
+showing Random Indexing to be poor at
+handling large volumes of data and evalu-
+ate the use of weighting functions for im-
+proving the performance of Random In-
+dexing. We find that Random Index is ro-
+bust for small data sets, but performance
+degrades because of the influence high fre-
+quency attributes in large data sets. The
+use of appropriate weight functions im-
+proves this significantly.
+1 

@@ -1,0 +1,15 @@
+
+Combinatorial Categorial Grammar (CCG)
+supertags present phrase-based machine
+translation with an opportunity to access
+rich syntactic information at a word level.
+The challenge is incorporating this informa-
+tion into the translation process. Factored
+translation models allow the inclusion of su-
+pertags as a factor in the source or target lan-
+guage. We show that this results in an im-
+provement in the quality of translation and
+that the value of syntactic supertags in flat
+structured phrase-based models is largely
+due to better local reorderings.
+1 

@@ -1,0 +1,23 @@
+
+In this study, a novel approach to robust di-
+alogue act detection for error-prone speech
+recognition in a spoken dialogue system is
+proposed. First, partial sentence trees are pro-
+posed to represent a speech recognition out-
+put sentence. Semantic information and the
+derivation rules of the partial sentence trees
+are extracted and used to model the relation-
+ship between the dialogue acts and the deriva-
+tion rules. The constructed model is then used
+to generate a semantic score for dialogue act
+detection given an input speech utterance. The
+proposed approach is implemented and evalu-
+ated in a Mandarin spoken dialogue system for
+tour-guiding service. Combined with scores
+derived from the ASR recognition probabil-
+ity and the dialogue history, the proposed ap-
+proach achieves 84.3% detection accuracy, an
+absolute improvement of 34.7% over the base-
+line of the semantic slot-based method with
+49.6% detection accuracy.
+1 

@@ -1,0 +1,15 @@
+ 
+We present two efficient search algorithms for real-time spo- 
+ken language systems. The first called the Word-Dependent 
+N-Best algorithm is an improved algorithm for finding the 
+top N sentence hypotheses. The new algorithm is shown 
+to perform as well as the Exact Sentence-Dependent al- 
+gorithm presented previously but with an order of mag- 
+nitude less computation. The second algorithm is a fast 
+match scheme for continuous peech recognition called the 
+Forward-Backward Search. This algorithm, which is directly 
+motivated by the Baum-Welch Forward-Backward training 
+algorithm, has been shown to reduce the computation of a 
+time-synchronous beam search by a factor of 40 with no 
+additional search errors. 
+1. 

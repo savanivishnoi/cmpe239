@@ -1,0 +1,15 @@
+ 
+Arabic inflectional morphology requires 
+infixation, prefixation and suffixation, 
+giving rise to a large space of morphological 
+variation. In this paper we describe an 
+approach to reducing the complexity of 
+Arabic morphology generation using 
+discrimination trees and transformational 
+rules. By decoupling the problem of stem 
+changes from that of prefixes and suffixes, 
+we gain a significant reduction in the 
+number of rules required, as much as a 
+factor of three for certain verb types. We 
+focus on hollow verbs but discuss the wider 
+applicability of the approach. 

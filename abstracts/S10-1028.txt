@@ -1,0 +1,21 @@
+
+We report here our work on English
+French Cross-lingual Word Sense Disam-
+biguation where the task is to find the
+best French translation for a target English
+word depending on the context in which it
+is used. Our approach relies on identifying
+the nearest neighbors of the test sentence
+from the training data using a pairwise
+similarity measure. The proposed mea-
+sure finds the affinity between two sen-
+tences by calculating a weighted sum of
+the word overlap and the semantic over-
+lap between them. The semantic overlap
+is calculated using standard Wordnet Sim-
+ilarity measures. Once the nearest neigh-
+bors have been identified, the best trans-
+lation is found by taking a majority vote
+over the French translations of the nearest
+neighbors.
+1 

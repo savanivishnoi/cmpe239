@@ -1,0 +1,21 @@
+ 
+Machine transliteration has a number of ap-
+plications in a variety of natural language 
+processing related tasks such as machine 
+translation, information retrieval and ques-
+tion-answering. For automated learning of 
+machine transliteration, a large parallel cor-
+pus of names in two scripts is required. In 
+this paper we present a simple yet powerful 
+method for automatic mining of Hindi-
+English names from a parallel corpus. An 
+average 93% precision and 85% recall is 
+achieved in mining of proper names. The 
+method works even with a small corpus. We 
+compare our results with Giza++ word 
+alignment tool that yields 30% precision and 
+63% recall on the same corpora. We also 
+demonstrate that this very method of name 
+mining works for other Indian languages as 
+well.  
+1 

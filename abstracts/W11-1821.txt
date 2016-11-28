@@ -1,0 +1,19 @@
+
+Recently, the focus in the BioNLP domain
+has shifted from binary relations to more ex-
+pressive event representations, largely owing
+to the international popularity of the BioNLP
+Shared Task (ST) of 2009. This year, the
+ST?11 provides a further generalization on
+three key aspects: text type, subject domain,
+and targeted event types. One of the sup-
+porting tasks established to provide more fine-
+grained text predictions is the extraction of en-
+tity relations. We have implemented an ex-
+traction system for such non-causal relations
+between named entities and domain terms, ap-
+plying semantic spaces and machine learning
+techniques. Our system ranks second of four
+participating teams, achieving 37.04% preci-
+sion, 47.48% recall and 41.62% F-score.
+1 

@@ -1,0 +1,36 @@
+ 
+When two texts have an inclusion 
+relation, the relationship between them is 
+called entailment. The task of 
+mechanically distinguishing such a 
+relation is called recognising textual 
+entailment (RTE), which is basically a 
+kind of semantic analysis. A variety of 
+methods have been proposed for RTE. 
+However, when the previous methods 
+were combined, the performances were 
+not clear. So, we utilized each method as 
+a feature of machine learning, in order to 
+combine methods. We have dealt with 
+the binary classification problem of two 
+texts exhibiting inclusion, and proposed 
+a method that uses machine learning to 
+judge whether the two texts present the 
+same content. We have built a program 
+capable to perform entailment judgment 
+on the basis of word overlap, i.e. the 
+matching rate of the words in the two 
+texts, mutual information, and similarity 
+of the respective syntax trees (Subpath 
+Set). Word overlap was calclated by 
+utilizing BiLingual Evaluation 
+Understudy (BLEU). Mutual information 
+is based on co-occurrence frequency, and 
+the Subpath Set was determined by using 
+the Japanise WordNet. A Confidence-
+Weighted Score of 68.6% was obtained 
+in the mutual information experiment on 
+RTE. Mutual information and the use of 
+three methods of SVM were shown to be 
+effective.  
+1 

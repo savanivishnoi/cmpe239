@@ -1,0 +1,16 @@
+
+One deficiency of current shallow pars-
+ing based Semantic Role Labeling (SRL)
+methods is that syntactic chunks are too
+small to effectively group words. To par-
+tially resolve this problem, we propose
+semantics-driven shallow parsing, which
+takes into account both syntactic struc-
+tures and predicate-argument structures.
+We also introduce several new ?path? fea-
+tures to improve shallow parsing based
+SRL method. Experiments indicate that
+our new method obtains a significant im-
+provement over the best reported Chinese
+SRL result.
+1 

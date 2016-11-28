@@ -1,0 +1,29 @@
+ 
+This paper proposes a hybrid Chinese 
+named entity recognition model based on 
+multiple features. It differentiates from 
+most of the previous approaches mainly 
+as follows. Firstly, the proposed Hybrid 
+Model integrates coarse particle feature 
+(POS Model) with fine particle feature 
+(Word Model), so that it can overcome 
+the disadvantages of each other. Secondly, 
+in order to reduce the searching space and 
+improve the efficiency, we introduce heu-
+ristic human knowledge into statistical 
+model, which could increase the perform-
+ance of NER significantly. Thirdly, we 
+use three sub-models to respectively de-
+scribe three kinds of transliterated person 
+name, that is, Japanese, Russian and 
+Euramerican person name, which can im-
+prove the performance of PN recognition. 
+From the experimental results on People's 
+Daily testing data, we can conclude that 
+our Hybrid Model is better than the mod-
+els which only use one kind of features. 
+And the experiments on MET-2 testing 
+data also confirm the above conclusion, 
+which show that our algorithm has consis-
+tence on different testing data. 
+1 

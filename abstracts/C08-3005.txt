@@ -1,0 +1,30 @@
+
+Building effective spoken dialogue sys-
+tems (SDS) is currently a complex task
+requiring expert knowledge. Our tools
+give control of SDS application develop-
+ment to non-experts, who need only use
+a Graphical User Interface or GUI to de-
+velop state-of-the-art ?Information State
+Update? (ISU) dialogue systems. Behind
+the GUI is a set of Advanced Dialogue
+Tools (ADT) that generate complete SDS
+based on Business User Resources. These
+resources include a database and a Pro-
+cess Model that captures the structure of
+an application, for example, banking or
+restaurant information. Also generated
+are speech recognition Language Models
+and grammars for robust interpretation of
+spontaneous speech. We will demonstrate
+how our simple GUI allows developers to
+easily and quickly create and modify SDS
+without the need for expensive speech ap-
+plication service providers. This demon-
+stration shows the interface, the ADT com-
+ponents, and discusses some of the re-
+search issues involved. We also show an
+example application built with the tools: a
+tourist information system running on an
+ultra-mobile PC.
+1 

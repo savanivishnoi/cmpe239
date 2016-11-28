@@ -1,0 +1,14 @@
+ 
+The #u-TBL system represents an attempt o use the 
+search and database capabilities of the Prolog pro- 
+gramming language to implement a generalized form 
+of transformation-based learning. In the true spirit 
+of logic-programming, the implementation is 'derived' 
+from a declarative, logical interpretation f transforma- 
+tion rules. The #-TBL system recognizes four kinds 
+of rules, that can be used to implement various kinds 
+of disambiguators, including Constraint Grammar dis- 
+ambiguators a  well as more traditional 'Brill-taggers'. 
+Results from a number of experiments and benchmarks 
+are presented which show that the system is both flex- 
+" ible and efficient. 

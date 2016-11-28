@@ -1,0 +1,22 @@
+
+We introduce a new emotion classification
+task based on Leary?s Rose, a framework for
+interpersonal communication. We present a
+small dataset of 740 Dutch sentences, out-
+line the annotation process and evaluate an-
+notator agreement. We then evaluate the per-
+formance of several automatic classification
+systems when classifying individual sentences
+according to the four quadrants and the eight
+octants of Leary?s Rose. SVM-based classi-
+fiers achieve average F-scores of up to 51% for
+4-way classification and 31% for 8-way clas-
+sification, which is well above chance level.
+We conclude that emotion classification ac-
+cording to the Interpersonal Circumplex is a
+challenging task for both humans and ma-
+chine learners. We expect classification per-
+formance to increase as context information
+becomes available in future versions of our
+dataset.
+1 

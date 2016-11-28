@@ -1,0 +1,18 @@
+
+This paper describes three systems: the
+Chinese word segmentation (WS) system,
+the named entity recognition (NER) sys-
+tem and the Part-of-Speech tagging (POS)
+system, which are submitted to the Fourth
+International Chinese Language Processing
+Bakeoff. Here, Conditional Random Fields
+(CRFs) are employed as the primary mod-
+els. For the WS and NER tracks, the n-
+gram language model is incorporated in our
+CRFs based systems in order to take into ac-
+count the higher level language information.
+Furthermore, to improve the performances
+of our submitted systems, a transformation-
+based learning (TBL) technique is adopted
+for post-processing.
+1 

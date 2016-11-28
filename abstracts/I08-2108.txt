@@ -1,0 +1,14 @@
+
+This paper reconsiders the task of MRD-
+based word sense disambiguation, in extend-
+ing the basic Lesk algorithm to investigate
+the impact onWSD performance of different
+tokenisation schemes, scoring mechanisms,
+methods of gloss extension and filtering
+methods. In experimentation over the Lex-
+eed Sensebank and the Japanese Senseval-
+2 dictionary task, we demonstrate that char-
+acter bigrams with sense-sensitive gloss ex-
+tension over hyponyms and hypernyms en-
+hances WSD performance.
+1 

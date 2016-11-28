@@ -1,0 +1,19 @@
+ 
+Language resource quality is crucial in 
+NLP. Many of the resources used are de-
+rived from data created by human beings 
+out of an NLP context, especially regard-
+ing MT and reference translations. In-
+deed, automatic evaluations need high-
+quality data that allow the comparison of 
+both automatic and human translations. 
+The validation of these resources is 
+widely recommended before being used. 
+This paper describes the impact of using 
+different-quality references on evalua-
+tion. Surprisingly enough, similar scores 
+are obtained in many cases regardless of 
+the quality. Thus, the limitations of the 
+automatic metrics used within MT are 
+also discussed in this regard.  
+1 

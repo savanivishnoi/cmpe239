@@ -1,0 +1,21 @@
+
+Information retrieval and spoken-term detec-
+tion from audio such as broadcast news, tele-
+phone conversations, conference calls, and
+meetings are of great interest to the academic,
+government, and business communities. Mo-
+tivated by the requirement for high-quality in-
+dexes, this study explores the effect of using
+both word and sub-word information to find
+in-vocabulary and OOV query terms. It also
+explores the trade-off between search accu-
+racy and the speed of audio transcription. We
+present a novel, vocabulary independent, hy-
+brid LVCSR approach to audio indexing and
+search and show that using phonetic confu-
+sions derived from posterior probabilities es-
+timated by a neural network in the retrieval
+of OOV queries can help in reducing misses.
+These methods are evaluated on data sets from
+the 2006 NIST STD task.
+1 

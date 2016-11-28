@@ -1,0 +1,21 @@
+
+In this paper we present the first step in a larger
+series of experiments for the induction of pred-
+icate/argument structures. The structures that
+we are inducing are very similar to the con-
+ceptual structures that are used in Frame Se-
+mantics (such as FrameNet). Those structures
+are called messages and they were previously
+used in the context of a multi-document sum-
+marization system of evolving events. The se-
+ries of experiments that we are proposing are
+essentially composed from two stages. In the
+first stage we are trying to extract a represen-
+tative vocabulary of words. This vocabulary
+is later used in the second stage, during which
+we apply to it various clustering approaches in
+order to identify the clusters of predicates and
+arguments?or frames and semantic roles, to
+use the jargon of Frame Semantics. This paper
+presents in detail and evaluates the first stage.
+1 

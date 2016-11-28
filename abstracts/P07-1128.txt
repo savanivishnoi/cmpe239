@@ -1,0 +1,18 @@
+
+Automatic segmentation is important for
+making multimedia archives comprehensi-
+ble, and for developing downstream infor-
+mation retrieval and extraction modules. In
+this study, we explore approaches that can
+segment multiparty conversational speech
+by integrating various knowledge sources
+(e.g., words, audio and video recordings,
+speaker intention and context). In particu-
+lar, we evaluate the performance of a Max-
+imum Entropy approach, and examine the
+effectiveness of multimodal features on the
+task of dialogue segmentation. We also pro-
+vide a quantitative account of the effect of
+using ASR transcription as opposed to hu-
+man transcripts.
+1 

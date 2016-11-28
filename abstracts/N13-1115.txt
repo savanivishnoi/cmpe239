@@ -1,0 +1,26 @@
+
+This paper examines tuning for statistical ma-
+chine translation (SMT) with respect to mul-
+tiple evaluation metrics. We propose several
+novel methods for tuning towards multiple ob-
+jectives, including some based on ensemble
+decoding methods. Pareto-optimality is a nat-
+ural way to think about multi-metric optimiza-
+tion (MMO) and our methods can effectively
+combine several Pareto-optimal solutions, ob-
+viating the need to choose one. Our best
+performing ensemble tuning method is a new
+algorithm for multi-metric optimization that
+searches for Pareto-optimal ensemble models.
+We study the effectiveness of our methods
+through experiments on multiple as well as
+single reference(s) datasets. Our experiments
+show simultaneous gains across several met-
+rics (BLEU, RIBES), without any significant
+reduction in other metrics. This contrasts the
+traditional tuning where gains are usually lim-
+ited to a single metric. Our human evaluation
+results confirm that in order to produce better
+MT output, optimizing multiple metrics is bet-
+ter than optimizing only one.
+1 

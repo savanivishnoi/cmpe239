@@ -1,0 +1,21 @@
+
+We present a novel compositional, gener-
+ative model for vector space representa-
+tions of meaning. This model reformulates
+earlier tensor-based approaches to vector
+space semantics as a top-down process,
+and provides efficient algorithms for trans-
+formation from natural language to vectors
+and from vectors to natural language. We
+describe procedures for estimating the pa-
+rameters of the model from positive exam-
+ples of similar phrases, and from distribu-
+tional representations, then use these pro-
+cedures to obtain similarity judgments for
+a set of adjective-noun pairs. The model?s
+estimation of the similarity of these pairs
+correlates well with human annotations,
+demonstrating a substantial improvement
+over several existing compositional ap-
+proaches in both settings.
+1 

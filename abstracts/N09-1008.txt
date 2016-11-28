@@ -1,0 +1,19 @@
+
+We present an unsupervised approach to re-
+constructing ancient word forms. The present
+work addresses three limitations of previous
+work. First, previous work focused on faith-
+fulness features, which model changes be-
+tween successive languages. We add marked-
+ness features, which model well-formedness
+within each language. Second, we introduce
+universal features, which support generaliza-
+tions across languages. Finally, we increase
+the number of languages to which these meth-
+ods can be applied by an order of magni-
+tude by using improved inference methods.
+Experiments on the reconstruction of Proto-
+Oceanic, Proto-Malayo-Javanic, and Classical
+Latin show substantial reductions in error rate,
+giving the best results to date.
+1 

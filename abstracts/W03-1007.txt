@@ -1,0 +1,19 @@
+ 
+The development of FrameNet, a large 
+database of semantically annotated sen-
+tences, has primed research into statistical 
+methods for semantic tagging.  We ad-
+vance previous work by adopting a 
+Maximum Entropy approach and by using 
+previous tag information to find the high-
+est probability tag sequence for a given 
+sentence.  Further we examine the use of 
+sentence level syntactic pattern features to 
+increase performance.  We analyze our 
+strategy on both human annotated and 
+automatically identified frame elements, 
+and compare performance to previous 
+work on identical test data.  Experiments 
+indicate a statistically significant im-
+provement (p<0.01) of over 6%. 
+1 

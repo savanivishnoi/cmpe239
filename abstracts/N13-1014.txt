@@ -1,0 +1,17 @@
+
+Most work on weakly-supervised learning for
+part-of-speech taggers has been based on un-
+realistic assumptions about the amount and
+quality of training data. For this paper, we
+attempt to create true low-resource scenarios
+by allowing a linguist just two hours to anno-
+tate data and evaluating on the languages Kin-
+yarwanda and Malagasy. Given these severely
+limited amounts of either type supervision
+(tag dictionaries) or token supervision (labeled
+sentences), we are able to dramatically im-
+prove the learning of a hidden Markov model
+through our method of automatically general-
+izing the annotations, reducing noise, and in-
+ducing word-tag frequency information.
+1 

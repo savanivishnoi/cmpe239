@@ -1,0 +1,22 @@
+
+We present the MT-NCD and MT-mNCD
+machine translation evaluation metrics
+as submission to the machine transla-
+tion evaluation shared task (MetricsMATR
+2010). The metrics are based on nor-
+malized compression distance (NCD), a
+general information theoretic measure of
+string similarity, and evaluated against hu-
+man judgments from the WMT08 shared
+task. The experiments show that 1)
+our metric improves correlation to hu-
+man judgments by using flexible match-
+ing, 2) segment replication is effective,
+and 3) our NCD-inspired method for mul-
+tiple references indicates improved results.
+Generally, the proposed MT-NCD and
+MT-mNCD methods correlate competi-
+tively with human judgments compared to
+commonly used machine translations eval-
+uation metrics, for instance, BLEU.
+1 

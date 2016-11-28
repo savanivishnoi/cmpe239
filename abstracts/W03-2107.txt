@@ -1,0 +1,28 @@
+
+We realize a telephone-based collab-
+orative natural language dialogue sys-
+tem. Since natural language involves
+very various expressions, a large num-
+ber of VoiceXML scripts need to be pre-
+pared to handle all possible input patterns.
+We realize flexible dialogue management
+for various user utterances by generating
+VoiceXML scripts dynamically. More-
+over, we address appropriate user mod-
+eling in order to generate cooperative re-
+sponses to each user. Specifically, we set
+up three dimensions of user models: skill
+level to the system, knowledge level on
+the target domain and the degree of hasti-
+ness. The models are automatically de-
+rived by decision tree learning using real
+dialogue data collected by the system. Ex-
+perimental evaluation shows that the co-
+operative responses adapted to individual
+users serve as good guidance for novice
+users without increasing the dialogue du-
+ration for skilled users.
+Keywords: spoken dialogue system, user model,
+VoiceXML, cooperative responses, dialogue
+strategy
+1 

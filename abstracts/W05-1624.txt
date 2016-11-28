@@ -1,0 +1,22 @@
+
+We describe a Wizard-of-Oz experiment setup for
+the collection of multimodal interaction data for a
+Music Player application. This setup was devel-
+oped and used to collect experimental data as part
+of a project aimed at building a flexible multimodal
+dialogue system which provides an interface to an
+MP3 player, combining speech and screen input
+and output. Besides the usual goal of WOZ data
+collection to get realistic examples of the behav-
+ior and expectations of the users, an equally im-
+portant goal for us was to observe natural behavior
+of multiple wizards in order to guide our system
+development. The wizards? responses were there-
+fore not constrained by a script. One of the chal-
+lenges we had to address was to allow the wizards
+to produce varied screen output a in real time. Our
+setup includes a preliminary screen output planning
+module, which prepares several versions of possi-
+ble screen output. The wizards were free to speak,
+and/or to select a screen output.
+1 

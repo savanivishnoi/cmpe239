@@ -1,0 +1,18 @@
+
+Mismatch between queries and documents
+is a key issue for the web search task. In
+order to narrow down such mismatch, in
+this paper, we present an in-depth inves-
+tigation on adapting a paraphrasing tech-
+nique to web search from three aspect-
+s: a search-oriented paraphrasing mod-
+el; an NDCG-based parameter optimiza-
+tion algorithm; an enhanced ranking mod-
+el leveraging augmented features comput-
+ed on paraphrases of original queries. Ex-
+periments performed on the large scale
+query-document data set show that, the
+search performance can be significantly
+improved, with +3.28% and +1.14% ND-
+CG gains on dev and test sets respectively.
+1 

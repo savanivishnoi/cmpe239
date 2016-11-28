@@ -1,0 +1,22 @@
+
+Several incompatible syntactic annotation
+schemes are currently used by parsers and
+corpora in biomedical information extrac-
+tion. The recently introduced Stanford de-
+pendency scheme has been suggested to be
+a suitable unifying syntax formalism. In this
+paper, we present a step towards such uni-
+fication by creating a conversion from the
+Link Grammar to the Stanford scheme. Fur-
+ther, we create a version of the BioInfer cor-
+pus with syntactic annotation in this scheme.
+We present an application-oriented evalua-
+tion of the transformation and assess the
+suitability of the scheme and our conversion
+to the unification of the syntactic annotations
+of BioInfer and the GENIA Treebank.
+We find that a highly reliable conversion is
+both feasible to create and practical, increas-
+ing the applicability of both the parser and
+the corpus to information extraction.
+1 

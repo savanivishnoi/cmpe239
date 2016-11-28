@@ -1,0 +1,19 @@
+
+This paper reports on LCC?s participation
+at the Third PASCAL Recognizing Textual
+Entailment Challenge. First, we summarize
+our semantic logical-based approach which
+proved successful in the previous two chal-
+lenges. Then we highlight this year?s inno-
+vations which contributed to an overall accu-
+racy of 72.25% for the RTE 3 test data. The
+novelties include new resources, such as eX-
+tended WordNet KB which provides a large
+number of world knowledge axioms, event
+and temporal information provided by the
+TARSQI toolkit, logic form representations
+of events, negation, coreference and context,
+and new improvements of lexical chain ax-
+iom generation. Finally, the system?s perfor-
+mance and error analysis are discussed.
+1 

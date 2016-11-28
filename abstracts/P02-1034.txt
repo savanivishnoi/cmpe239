@@ -1,0 +1,15 @@
+
+This paper introduces new learning al-
+gorithms for natural language processing
+based on the perceptron algorithm. We
+show how the algorithms can be efficiently
+applied to exponential sized representa-
+tions of parse trees, such as the ?all sub-
+trees? (DOP) representation described by
+(Bod 1998), or a representation tracking
+all sub-fragments of a tagged sentence.
+We give experimental results showing sig-
+nificant improvements on two tasks: pars-
+ing Wall Street Journal text, and named-
+entity extraction from web data.
+1 

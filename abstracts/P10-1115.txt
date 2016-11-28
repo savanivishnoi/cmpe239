@@ -1,0 +1,27 @@
+
+Probabilistic latent topic models have re-
+cently enjoyed much success in extracting
+and analyzing latent topics in text in an un-
+supervised way. One common deficiency
+of existing topic models, though, is that
+they would not work well for extracting
+cross-lingual latent topics simply because
+words in different languages generally do
+not co-occur with each other. In this paper,
+we propose a way to incorporate a bilin-
+gual dictionary into a probabilistic topic
+model so that we can apply topic models to
+extract shared latent topics in text data of
+different languages. Specifically, we pro-
+pose a new topic model called Probabilis-
+tic Cross-Lingual Latent Semantic Anal-
+ysis (PCLSA) which extends the Proba-
+bilistic Latent Semantic Analysis (PLSA)
+model by regularizing its likelihood func-
+tion with soft constraints defined based on
+a bilingual dictionary. Both qualitative and
+quantitative experimental results show that
+the PCLSA model can effectively extract
+cross-lingual latent topics from multilin-
+gual text data.
+1 

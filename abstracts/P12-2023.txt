@@ -1,0 +1,18 @@
+
+We propose an approach that biases machine
+translation systems toward relevant transla-
+tions based on topic-specific contexts, where
+topics are induced in an unsupervised way
+using topic models; this can be thought of
+as inducing subcorpora for adaptation with-
+out any human annotation. We use these topic
+distributions to compute topic-dependent lex-
+ical weighting probabilities and directly in-
+corporate them into our translation model as
+features. Conditioning lexical probabilities
+on the topic biases translations toward topic-
+relevant output, resulting in significant im-
+provements of up to 1 BLEU and 3 TER on
+Chinese to English translation over a strong
+baseline.
+1 

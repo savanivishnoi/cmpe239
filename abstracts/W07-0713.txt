@@ -1,0 +1,26 @@
+
+We introduce a novel evaluation scheme for
+the human evaluation of different machine
+translation systems. Our method is based
+on direct comparison of two sentences at a
+time by human judges. These binary judg-
+ments are then used to decide between all
+possible rankings of the systems. The ad-
+vantages of this new method are the lower
+dependency on extensive evaluation guide-
+lines, and a tighter focus on a typical eval-
+uation task, namely the ranking of systems.
+Furthermore we argue that machine transla-
+tion evaluations should be regarded as sta-
+tistical processes, both for human and au-
+tomatic evaluation. We show how confi-
+dence ranges for state-of-the-art evaluation
+measures such as WER and TER can be
+computed accurately and efficiently without
+having to resort to Monte Carlo estimates.
+We give an example of our new evaluation
+scheme, as well as a comparison with classi-
+cal automatic and human evaluation on data
+from a recent international evaluation cam-
+paign.
+1 

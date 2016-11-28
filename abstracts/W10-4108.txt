@@ -1,0 +1,17 @@
+ 
+This paper gives a new definition of Chi-
+nese clause called ?Event Descriptive 
+Clause? and proposes an automatic me-
+thod to identify these clauses in Chinese 
+sentence. By analyzing the characteristics 
+of the clause, the recognition task is formu-
+lated as a classification of Chinese punctua-
+tions. The maximum entropy classifier is 
+trained and two kinds of useful features and 
+their combinations are explored in the task. 
+Meanwhile, a simple rule-based post 
+processing phase is also proposed to im-
+prove the recognition performance. Ulti-
+mately, we obtain 81.32% F-score on the 
+test set. 
+1 

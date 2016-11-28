@@ -1,0 +1,30 @@
+ 
+We describe a coding scheme for ma-
+chine translation of spoken task-
+oriented dialogue. The coding scheme 
+covers two levels of speaker intention ? 
+domain independent speech acts and 
+domain dependent domain actions. Our 
+database contains over 14,000 tagged 
+sentences in English, Italian, and Ger-
+man. We argue that domain actions, and 
+not speech acts, are the relevant dis-
+course unit for improving translation 
+quality. We also show that, although 
+domain actions are domain specific, the 
+approach scales up to large domains 
+without an explosion of domain actions 
+and can be coded with high inter-coder 
+reliability across research sites. Fur-
+thermore, although the number of do-
+main actions is on the order of ten times 
+the number of speech acts, sparseness is 
+not a problem for the training of classi-
+fiers for identifying the domain action. 
+We describe our work on developing 
+high accuracy speech act and domain 
+action classifiers, which is the core of 
+the source language analysis module of 
+our NESPOLE machine translation sys-
+tem. 
+1 

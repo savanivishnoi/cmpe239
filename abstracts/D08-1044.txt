@@ -1,0 +1,25 @@
+
+This paper explores the challenge of scaling
+up language processing algorithms to increas-
+ingly large datasets. While cluster comput-
+ing has been available in commercial environ-
+ments for several years, academic researchers
+have fallen behind in their ability to work on
+large datasets. I discuss two barriers contribut-
+ing to this problem: lack of a suitable pro-
+gramming model for managing concurrency
+and difficulty in obtaining access to hardware.
+Hadoop, an open-source implementation of
+Google?s MapReduce framework, provides a
+compelling solution to both issues. Its simple
+programming model hides system-level de-
+tails from the developer, and its ability to run
+on commodity hardware puts cluster comput-
+ing within the reach of many academic re-
+search groups. This paper illustrates these
+points with a case study in building word co-
+occurrence matrices from large corpora. I con-
+clude with an analysis of an alternative com-
+puting model based on renting instead of buy-
+ing computer clusters.
+1 

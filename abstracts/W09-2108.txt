@@ -1,0 +1,17 @@
+ 
+We describe and motivate an unsupervised 
+lexical error detection and correction algo-
+rithm and its application in a tool called Lex-
+bar appearing as a query box on the Web 
+browser toolbar or as a search engine inter-
+face. Lexbar accepts as user input candidate 
+strings of English to be checked for accept-
+ability and, where errors are detected, offers 
+corrections. We introduce the notion of hy-
+brid n-gram and extract these from BNC as 
+the knowledgebase against which to compare 
+user input. An extended notion of edit dis-
+tance is used to identify most likely candi-
+dates for correcting detected errors. Results 
+are illustrated with four types of errors. 
+1 

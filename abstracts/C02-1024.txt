@@ -1,0 +1,14 @@
+
+This paper extends a polynomial-time parsing al-
+gorithm that resolves structural ambiguity in input
+sentences by calculating and comparing the deno-
+tations of rival constituents, given some model of
+the application environment (Schuler, 2001). The
+algorithm is extended to incorporate a full set of
+logical operators, including quantiers and conjunc-
+tions, into this calculation without increasing the
+complexity of the overall algorithm beyond polyno-
+mial time, both in terms of the length of the in-
+put and the number of entities in the environment
+model.
+1 

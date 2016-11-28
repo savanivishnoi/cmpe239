@@ -1,0 +1,22 @@
+
+Human text is characterised by the indi-
+vidual lexical choices of a specific au-
+thor. Significant variations exist be-
+tween authors. In contrast, natural lan-
+guage generation systems normally pro-
+duce uniform texts. In this paper we
+apply distributional similarity measures
+to help verb choice in a natural lan-
+guage generation system which tries to
+generate text similar to individual au-
+thor. By using a distributional sim-
+ilarity (DS) measure on corpora col-
+lected from a recipe domain, we get
+the most likely verbs for individual au-
+thors. The accuracy of matching verb
+pairs produced by distributional similar-
+ity is higher than using the synonym out-
+puts of verbs from WordNet. Further-
+more, the combination of the two meth-
+ods provides the best accuracy.
+1 

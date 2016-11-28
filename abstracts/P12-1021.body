@@ -1,0 +1,26 @@
+
+We address the problem of learning the map-
+ping between words and their possible pro-
+nunciations in terms of sub-word units. Most
+previous approaches have involved genera-
+tive modeling of the distribution of pronuncia-
+tions, usually trained to maximize likelihood.
+We propose a discriminative, feature-rich ap-
+proach using large-margin learning. This ap-
+proach allows us to optimize an objective
+closely related to a discriminative task, to
+incorporate a large number of complex fea-
+tures, and still do inference efficiently. We
+test the approach on the task of lexical access;
+that is, the prediction of a word given a pho-
+netic transcription. In experiments on a sub-
+set of the Switchboard conversational speech
+corpus, our models thus far improve classi-
+fication error rates from a previously pub-
+lished result of 29.1% to about 15%. We
+find that large-margin approaches outperform
+conditional random field learning, and that
+the Passive-Aggressive algorithm for large-
+margin learning is faster to converge than the
+Pegasos algorithm.
+1 

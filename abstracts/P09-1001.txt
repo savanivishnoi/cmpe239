@@ -1,0 +1,28 @@
+
+In this paper, we present a new learning
+scenario, heterogeneous transfer learn-
+ing, which improves learning performance
+when the data can be in different feature
+spaces and where no correspondence be-
+tween data instances in these spaces is pro-
+vided. In the past, we have classified Chi-
+nese text documents using English train-
+ing data under the heterogeneous trans-
+fer learning framework. In this paper,
+we present image clustering as an exam-
+ple to illustrate how unsupervised learning
+can be improved by transferring knowl-
+edge from auxiliary heterogeneous data
+obtained from the social Web. Image
+clustering is useful for image sense dis-
+ambiguation in query-based image search,
+but its quality is often low due to image-
+data sparsity problem. We extend PLSA
+to help transfer the knowledge from social
+Web data, which have mixed feature repre-
+sentations. Experiments on image-object
+clustering and scene clustering tasks show
+that our approach in heterogeneous trans-
+fer learning based on the auxiliary data is
+indeed effective and promising.
+1 

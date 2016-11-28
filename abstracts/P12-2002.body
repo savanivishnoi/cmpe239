@@ -1,0 +1,16 @@
+
+We present novel metrics for parse evalua-
+tion in joint segmentation and parsing sce-
+narios where the gold sequence of terminals
+is not known in advance. The protocol uses
+distance-based metrics defined for the space
+of trees over lattices. Our metrics allow us
+to precisely quantify the performance gap be-
+tween non-realistic parsing scenarios (assum-
+ing gold segmented and tagged input) and re-
+alistic ones (not assuming gold segmentation
+and tags). Our evaluation of segmentation and
+parsing for Modern Hebrew sheds new light
+on the performance of the best parsing systems
+to date in the different scenarios.
+1 

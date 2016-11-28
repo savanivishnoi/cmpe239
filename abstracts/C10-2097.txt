@@ -1,0 +1,24 @@
+
+In this paper, an automatic method for 
+Persian WordNet construction based on 
+Prenceton WordNet 2.1 (PWN) is intro-
+duced. The proposed approach uses Per-
+sian and English corpora as well as a bi-
+lingual dictionary in order to make a 
+mapping between PWN synsets and Per-
+sian words. Our method calculates a score 
+for each candidate synset of a given Per-
+sian word and for each of its translation,
+it selects the synset with maximum score 
+as a link to the Persian word. The manual 
+evaluation on selected links proposed by 
+our method on 500 randomly selected 
+Persian words, shows about 76.4% quali-
+ty respect to precision measure. By aug-
+menting the Persian WordNet with the 
+un-ambiguous words, the total accuracy 
+of automatically extracted Persian Word-
+Net is about 82.6% which outperforms 
+the previously semi-automated generated 
+Persian WordNet by about 12.6%.
+1 

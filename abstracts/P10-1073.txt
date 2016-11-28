@@ -1,0 +1,34 @@
+ 
+Syntactic knowledge is important for dis-
+course relation recognition. Yet only heu-
+ristically selected flat paths and 2-level 
+production rules have been used to incor-
+porate such information so far. In this 
+paper we propose using tree kernel based 
+approach to automatically mine the syn-
+tactic information from the parse trees for 
+discourse analysis, applying kernel func-
+tion to the tree structures directly. These 
+structural syntactic features, together 
+with other normal flat features are incor-
+porated into our composite kernel to cap-
+ture diverse knowledge for simultaneous 
+discourse identification and classification 
+for both explicit and implicit relations. 
+The experiment shows tree kernel ap-
+proach is able to give statistical signifi-
+cant improvements over flat syntactic 
+path feature. We also illustrate that tree 
+kernel approach covers more structure in-
+formation than the production rules, 
+which allows tree kernel to further incor-
+porate information from a higher dimen-
+sion space for possible better discrimina-
+tion. Besides, we further propose to leve-
+rage on temporal ordering information to 
+constrain the interpretation of discourse 
+relation, which also demonstrate statistic-
+al significant improvements for discourse 
+relation recognition on PDTB 2.0 for 
+both explicit and implicit as well. 
+1 

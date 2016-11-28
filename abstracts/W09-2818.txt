@@ -1,0 +1,18 @@
+
+In this paper, we describe our contribution to
+the Generation Challenge 2009 for the tasks of
+generating Referring Expressions to the Main
+Subject References (MSR) and Named Enti-
+ties Generation (NEG). To generate the refer-
+ring expressions, we employ the Conditional
+Random Fields (CRF) learning technique due
+to the fact that the selection of an expres-
+sion depends on the selection of the previ-
+ous references. CRFs fit very well to this
+task since they are designed for the labeling
+of sequences. For the MSR task, our system
+has a String Accuracy of 0.68 and a REG08-
+Type Accuracy of 0.76 and for the NEG task a
+String Accuracy of 0.79 and REG08-Type Ac-
+curacy of 0.83.
+1 

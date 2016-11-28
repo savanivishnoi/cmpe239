@@ -1,0 +1,24 @@
+
+In this paper we present a choreography that
+explains the process of supervised machine
+learning. We present how a perceptron (in its
+dual form) uses convolution kernels to learn
+to differentiate between two categories of ob-
+jects. Convolution kernels such as string ker-
+nels and tree kernels are widely used in Nat-
+ural Language Processing (NLP) applications.
+However, the baggage associated with learn-
+ing the theory behind convolution kernels,
+which extends beyond graduate linear algebra,
+makes the adoption of this technology intrinsi-
+cally difficult. The main challenge in creating
+this choreography was that we were required
+to represent these mathematical equations at
+their meaning level before we could translate
+them into the language of movement. By or-
+chestrating such a choreography, we believe,
+we have obviated the need for people to posses
+advanced math background in order to appre-
+ciate the core ideas of using convolution ker-
+nels in a supervised learning setting.
+1 

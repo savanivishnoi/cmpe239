@@ -1,0 +1,23 @@
+
+For centuries, the deep connection between
+languages has brought about major discover-
+ies about human communication. In this pa-
+per we investigate how this powerful source
+of information can be exploited for unsuper-
+vised language learning. In particular, we
+study the task of morphological segmentation
+of multiple languages. We present a non-
+parametric Bayesian model that jointly in-
+duces morpheme segmentations of each lan-
+guage under consideration and at the same
+time identifies cross-lingual morpheme pat-
+terns, or abstract morphemes. We apply our
+model to three Semitic languages: Arabic, He-
+brew, Aramaic, as well as to English. Our
+results demonstrate that learning morpholog-
+ical models in tandem reduces error by up
+to 24% relative to monolingual models. Fur-
+thermore, we provide evidence that our joint
+model achieves better performance when ap-
+plied to languages from the same family.
+1 

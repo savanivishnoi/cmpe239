@@ -1,0 +1,21 @@
+
+Minimum Error Rate Training is the algo-
+rithm for log-linear model parameter train-
+ing most used in state-of-the-art Statistical
+Machine Translation systems. In its original
+formulation, the algorithm uses N-best lists
+output by the decoder to grow the Transla-
+tion Pool that shapes the surface on which
+the actual optimization is performed. Recent
+work has been done to extend the algorithm
+to use the entire translation lattice built by
+the decoder, instead of N-best lists. We pro-
+pose here a third, intermediate way, consist-
+ing in growing the translation pool using sam-
+ples randomly drawn from the translation lat-
+tice. We empirically measure a systematic im-
+provement in the BLEU scores compared to
+training using N-best lists, without suffering
+the increase in computational complexity as-
+sociated with operating with the whole lattice.
+1 

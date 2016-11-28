@@ -1,0 +1,25 @@
+
+Strictly corpus-based measures of seman-
+tic distance conflate co-occurrence infor-
+mation pertaining to the many possible
+senses of target words. We propose a
+corpus?thesaurus hybrid method that uses
+soft constraints to generate word-sense-
+aware distributional profiles (DPs) from
+coarser ?concept DPs? (derived from a
+Roget-like thesaurus) and sense-unaware
+traditional word DPs (derived from raw
+text). Although it uses a knowledge
+source, the method is not vocabulary-
+limited: if the target word is not in the
+thesaurus, the method falls back grace-
+fully on the word?s co-occurrence infor-
+mation. This allows the method to access
+valuable information encoded in a lexical
+resource, such as a thesaurus, while still
+being able to effectively handle domain-
+specific terms and named entities. Exper-
+iments on word-pair ranking by semantic
+distance show the new hybrid method to
+be superior to others.
+1 

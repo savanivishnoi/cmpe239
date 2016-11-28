@@ -1,0 +1,17 @@
+ 
+This paper describes a system aimed at auto-
+matically scoring two task types of high and 
+medium-high linguistic entropy from a spoken 
+English test with a total of six widely differing 
+task types. 
+We describe the speech recognizer used for 
+this system and its acoustic model and lan-
+guage model adaptation; the speech features 
+computed based on the recognition output; 
+and finally the scoring models based on mul-
+tiple regression and classification trees. 
+For both tasks, agreement measures between 
+machine and human scores (correlation, 
+kappa) are close to or reach inter-human 
+agreements. 
+1 

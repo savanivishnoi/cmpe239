@@ -1,0 +1,20 @@
+
+We use a generative history-based model to
+predict the most likely derivation of a de-
+pendency parse. Our probabilistic model is
+based on Incremental Sigmoid Belief Net-
+works, a recently proposed class of la-
+tent variable models for structure predic-
+tion. Their ability to automatically in-
+duce features results in multilingual pars-
+ing which is robust enough to achieve accu-
+racy well above the average for each indi-
+vidual language in the multilingual track of
+the CoNLL-2007 shared task. This robust-
+ness led to the third best overall average la-
+beled attachment score in the task, despite
+using no discriminative methods. We also
+demonstrate that the parser is quite fast, and
+can provide even faster parsing times with-
+out much loss of accuracy.
+1 

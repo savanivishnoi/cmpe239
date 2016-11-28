@@ -1,0 +1,16 @@
+
+Current parsing models are not immedi-
+ately applicable for languages that exhibit
+strong interaction between morphology
+and syntax, e.g., Modern Hebrew (MH),
+Arabic and other Semitic languages. This
+work represents a first attempt at model-
+ing morphological-syntactic interaction in
+a generative probabilistic framework to al-
+low for MH parsing. We show that mor-
+phological information selected in tandem
+with syntactic categories is instrumental
+for parsing Semitic languages. We further
+show that redundant morphological infor-
+mation helps syntactic disambiguation.
+1 

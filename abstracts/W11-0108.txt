@@ -1,0 +1,8 @@
+
+Taking an asynchronous perspective on the syntax-semantics interface, we propose to use modu-
+lar graph rewriting systems as the model of computation. We formally define them and demonstrate
+their use with a set of modules which produce underspecified semantic representations from a syn-
+tactic dependency graph. We experimentally validate this approach on a set of sentences. The results
+open the way for the production of underspecified semantic dependency structures from corpora an-
+notated with syntactic dependencies and, more generally, for a broader use of modular rewriting
+systems for computational linguistics.

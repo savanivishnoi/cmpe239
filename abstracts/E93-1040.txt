@@ -1,0 +1,20 @@
+ 
+We report grammar inference xperiments on 
+partially parsed sentences taken from the Wall 
+Street Journal corpus using the inside-outside 
+algorithm for stochastic context-free grammars. 
+The initial grammar for the inference process 
+makes no ,assumption of the kinds of structures 
+and their distributions. The inferred grammar is
+evaluated by its predicting power and by com- 
+paring the bracketing of held out sentences 
+imposed by the inferred grammar with the par- 
+tial bracketings of these sentences given in the 
+corpus. Using part-of-speech tags as the only 
+source of lexical information, high bracketing 
+accuracy is achieved even with a small subset 
+of the available training material (1045 sen- 
+tences): 94.4% for test sentences shorter than 
+10 words and 90.2% for sentences shorter than 
+15 words. 
+1 

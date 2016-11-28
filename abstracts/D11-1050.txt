@@ -1,0 +1,24 @@
+
+This paper introduces an attribute selection
+task as a way to characterize the inherent mea-
+ning of property-denoting adjectives in adjec-
+tive-noun phrases, such as e.g. hot in hot sum-
+mer denoting the attribute TEMPERATURE,
+rather than TASTE. We formulate this task
+in a vector space model that represents adjec-
+tives and nouns as vectors in a semantic space
+defined over possible attributes. The vectors
+incorporate latent semantic information ob-
+tained from two variants of LDA topic mod-
+els. Our LDA models outperform previous ap-
+proaches on a small set of 10 attributes with
+considerable gains on sparse representations,
+which highlights the strong smoothing power
+of LDA models. For the first time, we extend
+the attribute selection task to a new data set
+with more than 200 classes. We observe that
+large-scale attribute selection is a hard prob-
+lem, but a subset of attributes performs ro-
+bustly on the large scale as well. Again, the
+LDA models outperform the VSM baseline.
+1 

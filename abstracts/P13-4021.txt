@@ -1,0 +1,20 @@
+
+We present DKPro Similarity, an open
+source framework for text similarity. Our
+goal is to provide a comprehensive repos-
+itory of text similarity measures which
+are implemented using standardized inter-
+faces. DKPro Similarity comprises a wide
+variety of measures ranging from ones
+based on simple n-grams and common
+subsequences to high-dimensional vector
+comparisons and structural, stylistic, and
+phonetic measures. In order to promote
+the reproducibility of experimental results
+and to provide reliable, permanent ex-
+perimental conditions for future studies,
+DKPro Similarity additionally comes with
+a set of full-featured experimental setups
+which can be run out-of-the-box and be
+used for future systems to built upon.
+1 

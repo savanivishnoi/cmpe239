@@ -1,0 +1,17 @@
+
+Faced with the problem of annotation er-
+rors in part-of-speech (POS) annotated
+corpora, we develop a method for auto-
+matically correcting such errors. Build-
+ing on top of a successful error detection
+method, we first try correcting a corpus us-
+ing two off-the-shelf POS taggers, based
+on the idea that they enforce consistency;
+with this, we find some improvement. Af-
+ter some discussion of the tagging process,
+we alter the tagging model to better ac-
+count for problematic tagging distinctions.
+This modification results in significantly
+improved performance, reducing the error
+rate of the corpus.
+1 

@@ -1,0 +1,24 @@
+  
+Pronunciation-translated names (P-Names) 
+bring more ambiguities to Chinese word 
+segmentation and generic named entity 
+recognition. As there are few annotated 
+resources that can be used to develop a good 
+P-Name extraction system, this paper 
+presents a bootstrapping algorithm, called 
+PN-Finder, to tackle this problem. Starting 
+from a small set of P-Name characters and 
+context cue-words, the algorithm iteratively 
+locates more P-Names from the Internet. 
+The algorithm uses a combination of 
+P-Name and context word probabilities to 
+identify new P-Names. Experiments show 
+that our PN-Finder is able to locate a large 
+number of P-Names (over 100,000) from the 
+Internet with a high recognition accuracy of 
+over 85%. Further tests on the MET-2 test 
+set show that our PN-Finder can achieve a 
+performance of over 90% in F1 value in 
+locating P-Names. The results demonstrate 
+that our PN-Finder is effective. 
+1 

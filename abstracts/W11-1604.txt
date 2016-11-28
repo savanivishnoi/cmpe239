@@ -1,0 +1,13 @@
+
+Paraphrase generation can be regarded as ma-
+chine translation where source and target lan-
+guage are the same. We use the Moses statisti-
+cal machine translation toolkit for paraphras-
+ing, comparing phrase-based to syntax-based
+approaches. Data is derived from a recently
+released, large scale (2.1M tokens) paraphrase
+corpus for Dutch. Preliminary results indicate
+that the phrase-based approach performs bet-
+ter in terms of NIST scores and produces para-
+phrases at a greater distance from the source.
+1 

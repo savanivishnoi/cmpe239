@@ -1,0 +1,21 @@
+
+Polarity classification of words is important
+for applications such as Opinion Mining and
+Sentiment Analysis. A number of sentiment
+word/sense dictionaries have been manually
+or (semi)automatically constructed. The dic-
+tionaries have substantial inaccuracies. Be-
+sides obvious instances, where the same word
+appears with different polarities in different
+dictionaries, the dictionaries exhibit complex
+cases, which cannot be detected by mere man-
+ual inspection. We introduce the concept of
+polarity consistency of words/senses in senti-
+ment dictionaries in this paper. We show that
+the consistency problem is NP-complete. We
+reduce the polarity consistency problem to the
+satisfiability problem and utilize a fast SAT
+solver to detect inconsistencies in a sentiment
+dictionary. We perform experiments on four
+sentiment dictionaries and WordNet.
+1 

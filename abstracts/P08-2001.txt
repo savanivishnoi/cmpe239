@@ -1,0 +1,15 @@
+
+This paper studies the impact of written lan-
+guage variations and the way it affects the cap-
+italization task over time. A discriminative
+approach, based on maximum entropy mod-
+els, is proposed to perform capitalization, tak-
+ing the language changes into consideration.
+The proposed method makes it possible to use
+large corpora for training. The evaluation is
+performed over newspaper corpora using dif-
+ferent testing periods. The achieved results
+reveal a strong relation between the capital-
+ization performance and the elapsed time be-
+tween the training and testing data periods.
+1 

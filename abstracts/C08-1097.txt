@@ -1,0 +1,17 @@
+
+This paper presents a probabilistic model
+for Japanese zero anaphora resolution.
+First, this model recognizes discourse en-
+tities and links all mentions to them. Zero
+pronouns are then detected by case struc-
+ture analysis based on automatically con-
+structed case frames. Their appropriate
+antecedents are selected from the entities
+with high salience scores, based on the
+case frames and several preferences on
+the relation between a zero pronoun and
+an antecedent. Case structure and zero
+anaphora relation are simultaneously de-
+termined based on probabilistic evaluation
+metrics.
+1 

@@ -1,0 +1,22 @@
+
+We present two methods for the automatic cre-
+ation of parallel corpora. Whereas previous
+work into the automatic construction of parallel
+corpora has focused on harvesting them from
+the web, we examine the use of existing paral-
+lel corpora to bootstrap data for new language
+pairs. First, we extend existing parallel cor-
+pora using co-training, wherein machine trans-
+lations are selectively added to training corpora
+with multiple source texts. Retraining transla-
+tion models yields modest improvements. Sec-
+ond, we simulate the creation of training data
+for a language pair for which a parallel corpus
+is not available. Starting with no human trans-
+lations from German to English we produce a
+German to English translation model with 45%
+accuracy using parallel corpora in other lan-
+guages. This suggests the method may be use-
+ful in the creation of parallel corpora for lan-
+guages with scarce resources.
+1 

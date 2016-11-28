@@ -1,0 +1,22 @@
+
+IRASubcat is a language-independent tool to
+acquire information about the subcategoriza-
+tion of verbs from corpus. The tool can extract
+information from corpora annotated at vari-
+ous levels, including almost raw text, where
+only verbs are identified. It can also ag-
+gregate information from a pre-existing lex-
+icon with verbal subcategorization informa-
+tion. The system is highly customizable, and
+works with XML as input and output format.
+IRASubcat identifies patterns of constituents
+in the corpus, and associates patterns with
+verbs if their association strength is over a fre-
+quency threshold and passes the likelihood ra-
+tio hypothesis test. It also implements a proce-
+dure to identify verbal constituents that could
+be playing the role of an adjunct in a pattern.
+Thresholds controlling frequency and identi-
+fication of adjuncts can be customized by the
+user, or else they are given a default value.
+1 

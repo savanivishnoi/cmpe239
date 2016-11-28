@@ -1,0 +1,31 @@
+
+We present Positive Diversity Tuning, a
+newmethod for tuningmachine translation
+models specifically for improved perfor-
+mance during system combination. Sys-
+tem combination gains are often limited
+by the fact that the translations produced
+by the different component systems are
+too similar to each other. We propose a
+method for reducing excess cross-system
+similarity by optimizing a joint objective
+that simultaneously rewards models for
+producing translations that are similar to
+reference translations, while also punish-
+ing them for translations that are too sim-
+ilar to those produced by other systems.
+The formulation of the Positive Diversity
+objective is easy to implement and allows
+for its quick integration with most machine
+translation tuning pipelines. We find that
+individual systems tuned on the same data
+to Positive Diversity can be even more
+diverse than systems built using different
+data sets, while still obtaining good BLEU
+scores. When these individual systems are
+used together for system combination, our
+approach allows for significant gains of 0.8
+BLEU even when the combination is per-
+formed using a small number of otherwise
+identical individual systems.
+1 

@@ -1,0 +1,22 @@
+
+Unsupervised word representations are very
+useful in NLP tasks both as inputs to learning
+algorithms and as extra word features in NLP
+systems. However, most of these models are
+built with only local context and one represen-
+tation per word. This is problematic because
+words are often polysemous and global con-
+text can also provide useful information for
+learning word meanings. We present a new
+neural network architecture which 1) learns
+word embeddings that better capture the se-
+mantics of words by incorporating both local
+and global document context, and 2) accounts
+for homonymy and polysemy by learning mul-
+tiple embeddings per word. We introduce a
+new dataset with human judgments on pairs of
+words in sentential context, and evaluate our
+model on it, showing that our model outper-
+forms competitive baselines and other neural
+language models. 1
+1 

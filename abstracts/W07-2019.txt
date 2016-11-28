@@ -1,0 +1,18 @@
+
+This paper presents a combined super-
+vised and unsupervised approach for multi-
+document person name disambiguation.
+Based on feature vectors reflecting pairwise
+comparisons between web pages, a classifi-
+cation algorithm provides linking informa-
+tion about document pairs, which leads to
+initial clusters. In addition, two different
+clustering algorithms are fed with matrices
+of weighted keywords. In a final step the
+?seed? clusters are combined with the results
+of the clustering algorithms. Results on the
+validation data show that a combined classi-
+fication and clustering approach doesn?t al-
+ways compare favorably to those obtained
+by the different algorithms separately.
+1 

@@ -1,0 +1,29 @@
+ Generation
+for Focused Meeting Summarization
+Lu Wang
+Department of Computer Science
+Cornell University
+Ithaca, NY 14853
+luwang@cs.cornell.edu
+Claire Cardie
+Department of Computer Science
+Cornell University
+Ithaca, NY 14853
+cardie@cs.cornell.edu
+Abstract
+We address the challenge of generating natu-
+ral language abstractive summaries for spoken
+meetings in a domain-independent fashion.
+We apply Multiple-Sequence Alignment to in-
+duce abstract generation templates that can be
+used for different domains. An Overgenerate-
+and-Rank strategy is utilized to produce and
+rank candidate abstracts. Experiments us-
+ing in-domain and out-of-domain training on
+disparate corpora show that our system uni-
+formly outperforms state-of-the-art supervised
+extract-based approaches. In addition, human
+judges rate our system summaries significantly
+higher than compared systems in fluency and
+overall quality.
+1 

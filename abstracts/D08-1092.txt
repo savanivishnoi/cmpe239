@@ -1,0 +1,21 @@
+
+We show that jointly parsing a bitext can sub-
+stantially improve parse quality on both sides.
+In a maximum entropy bitext parsing model,
+we define a distribution over source trees, tar-
+get trees, and node-to-node alignments be-
+tween them. Features include monolingual
+parse scores and various measures of syntac-
+tic divergence. Using the translated portion
+of the Chinese treebank, our model is trained
+iteratively to maximize the marginal likeli-
+hood of training tree pairs, with alignments
+treated as latent variables. The resulting bi-
+text parser outperforms state-of-the-art mono-
+lingual parser baselines by 2.5 F1 at predicting
+English side trees and 1.8 F1 at predicting Chi-
+nese side trees (the highest published numbers
+on these corpora). Moreover, these improved
+trees yield a 2.4 BLEU increase when used in
+a downstream MT evaluation.
+1 

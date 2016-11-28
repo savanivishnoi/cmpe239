@@ -1,0 +1,18 @@
+
+We address the problem of multi-way re-
+lation classification, applied to identifica-
+tion of the interactions between proteins
+in bioscience text. A major impediment
+to such work is the acquisition of appro-
+priately labeled training data; for our ex-
+periments we have identified a database
+that serves as a proxy for training data.
+We use two graphical models and a neu-
+ral net for the classification of the inter-
+actions, achieving an accuracy of 64%
+for a 10-way distinction between relation
+types. We also provide evidence that the
+exploitation of the sentences surrounding
+a citation to a paper can yield higher accu-
+racy than other sentences.
+1 

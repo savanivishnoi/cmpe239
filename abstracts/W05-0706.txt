@@ -1,0 +1,35 @@
+
+A major architectural decision in de-
+signing a disambiguation model for seg-
+mentation and Part-of-Speech (POS) tag-
+ging in Semitic languages concerns the
+choice of the input-output terminal sym-
+bols over which the probability distribu-
+tions are defined. In this paper we de-
+velop a segmenter and a tagger for He-
+brew based on Hidden Markov Models
+(HMMs). We start out from a morpholog-
+ical analyzer and a very small morpholog-
+ically annotated corpus. We show that a
+model whose terminal symbols are word
+segments (=morphemes), is advantageous
+over a word-level model for the task of
+POS tagging. However, for segmentation
+alone, the morpheme-level model has no
+significant advantage over the word-level
+model. Error analysis shows that both
+models are not adequate for resolving a
+common type of segmentation ambiguity
+in Hebrew ? whether or not a word in a
+written text is prefixed by a definiteness
+marker. Hence, we propose a morpheme-
+level model where the definiteness mor-
+pheme is treated as a possible feature of
+morpheme terminals. This model exhibits
+the best overall performance, both in POS
+tagging and in segmentation. Despite the
+small size of the annotated corpus avail-
+able for Hebrew, the results achieved us-
+ing our best model are on par with recent
+results on Modern Standard Arabic.
+1 

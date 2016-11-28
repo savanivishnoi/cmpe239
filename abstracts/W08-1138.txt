@@ -1,0 +1,14 @@
+
+We describe a graph-based generation sys-
+tem that participated in the TUNA attribute se-
+lection and realisation task of the REG 2008
+Challenge. Using a stochastic cost function
+(with certain properties for free), and trying
+attributes from cheapest to more expensive,
+the system achieves overall .76 DICE and .54
+MASI scores for attribute selection on the de-
+velopment set. For realisation, it turns out
+that in some cases higher attribute selection
+accuracy leads to larger differences between
+system-generated and human descriptions.
+1 

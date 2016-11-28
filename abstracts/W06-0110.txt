@@ -1,0 +1,20 @@
+ 
+This paper describes a hybrid model and 
+the corresponding algorithm combining 
+support vector machines (SVMs) with 
+statistical methods to improve the per-
+formance of SVMs for the task of Chi-
+nese Named Entity Recognition (NER). 
+In this algorithm, a threshold of the dis-
+tance from the test sample to the hyper-
+plane of SVMs in feature space is used to 
+separate SVMs region and statistical 
+method region. If the distance is greater 
+than the given threshold, the test sample 
+is classified using SVMs; otherwise, the 
+statistical model is used. By integrating 
+the advantages of two methods, the hy-
+brid model achieves 93.18% F-measure 
+for Chinese person names and 91.49% F-
+measure for Chinese location names. 
+1 

@@ -1,0 +1,28 @@
+ 
+Both full-text information retrieval and large scale 
+parsing require text preprocessing to identify 
+strong lexical associations in textual databases. In
+order to associate linguistic felicity with 
+computational efficiency, we have conceived 
+FASTR a unification-based parser supporting 
+large textual and grammatical databases. The 
+grammar is composed of term rules obtained by 
+tagging and lemmatizing term lists with an on- 
+line dictionary. Through FASTR,  large 
+terminological data can be recycled for text 
+processing purposes. Great stress is placed on the 
+handling of term variations through metarules 
+which relate basic terms to their semantically 
+close morphosyntactic variants. 
+The quality of terminological extraction and 
+the computational efficiency of FASTR are 
+evaluated through a joint experiment with an 
+industrial documentation center. The processing 
+of two large technical corpora shows that the 
+application is scalable to such industrial data and 
+that accounting for term variants results in an 
+increase of recall by 20%. 
+Although automatic indexing is the most 
+straightforward application of FASTR, it can be 
+extended fruitfully to terminological cquisition 
+and compound interpretation. 

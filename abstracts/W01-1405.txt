@@ -1,0 +1,26 @@
+
+This paper gives an overview of
+the stochastic modelling approach to
+machine translation. Starting with
+the Bayes decision rule as in pattern
+classification and speech recognition,
+we show how the resulting system
+architecture can be structured into three
+parts: the language model probability,
+the string translation model probability
+and the search procedure that gener-
+ates the word sequence in the target
+language. We discuss the properties
+of the system components and report
+results on the translation of spoken
+dialogues in the VERBMOBIL project.
+The experience obtained in the VERB-
+MOBIL project, in particular a large-
+scale end-to-end evaluation, showed
+that the stochastic modelling approach
+resulted in significantly lower error
+rates than three competing translation
+approaches: the sentence error rate was
+29% in comparison with 52% to 62%
+for the other translation approaches.
+1 

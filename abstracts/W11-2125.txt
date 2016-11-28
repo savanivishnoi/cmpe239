@@ -1,0 +1,32 @@
+ 
+We describe an approach for generating a 
+ranked list of candidate document transla-
+tion pairs without the use of bilingual dic-
+tionary or machine translation system. We 
+developed this approach as an initial, filter-
+ing step, for extracting parallel text from 
+large, multilingual?but non-parallel?
+corpora. We represent bilingual documents 
+in a vector space whose basis vectors are 
+the overlapping tokens found in both lan-
+guages of the collection. Using this repre-
+sentation, weighted by tf?idf, we compute 
+cosine document similarity to create a 
+ranked list of candidate document transla-
+tion pairs. Unlike cross-language informa-
+tion retrieval, where a ranked list in the 
+target language is evaluated for each source 
+query, we are interested in, and evaluate, 
+the more difficult task of finding translated 
+document pairs. We first perform a feasi-
+bility study of our approach on parallel col-
+lections in multiple languages, representing 
+multiple language families and scripts. The 
+approach is then applied to a large bilingual 
+collection of around 800k books. To avoid 
+the computational cost of )( 2nO document 
+pair comparisons, we employ locality sen-
+sitive hashing (LSH) approximation algo-
+rithm for cosine similarity, which reduces 
+our time complexity to )log( nnO . 
+1 

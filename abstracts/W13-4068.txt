@@ -1,0 +1,27 @@
+
+Statistical approaches to dialog state track-
+ing synthesize information across multi-
+ple turns in the dialog, overcoming some
+speech recognition errors. When training
+a dialog state tracker, there is typically
+only a small corpus of well-matched dia-
+log data available. However, often there is
+a large corpus of mis-matched but related
+data ? perhaps pertaining to different se-
+mantic concepts, or from a different dialog
+system. It would be desirable to use this
+related dialog data to supplement the small
+corpus of well-matched dialog data. This
+paper addresses this task as multi-domain
+learning, presenting 3 methods which syn-
+thesize data from different slots and differ-
+ent dialog systems. Since deploying a new
+dialog state tracker often changes the re-
+sulting dialogs in ways that are difficult to
+predict, we study how well each method
+generalizes to unseen distributions of dia-
+log data. Our main result is the finding that
+a simple method for multi-domain learn-
+ing substantially improves performance in
+highly mis-matched conditions.
+1 

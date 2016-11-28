@@ -1,0 +1,16 @@
+
+Word sense induction and discrimination
+(WSID) identifies the senses of an am-
+biguous word and assigns instances of this
+word to one of these senses. We have build
+a WSID system that exploits syntactic and
+semantic features based on the results of
+a natural language parser component. To
+achieve high robustness and good general-
+ization capabilities, we designed our sys-
+tem to work on a restricted, but grammat-
+ically rich set of features. Based on the
+results of the evaluations our system pro-
+vides a promising performance and robust-
+ness.
+1 

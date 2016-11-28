@@ -1,0 +1,21 @@
+
+Pair Hidden Markov Models (PairHMMs)
+are trained to align the pronunciation tran-
+scriptions of a large contemporary collec-
+tion of Dutch dialect material, the Goeman-
+Taeldeman-Van Reenen-Project (GTRP, col-
+lected 1980?1995). We focus on the ques-
+tion of how to incorporate information about
+sound segment distances to improve se-
+quence distance measures for use in di-
+alect comparison. PairHMMs induce seg-
+ment distances via expectation maximisa-
+tion (EM). Our analysis uses a phonologi-
+cally comparable subset of 562 items for all
+424 localities in the Netherlands. We evalu-
+ate the work first via comparison to analyses
+obtained using the Levenshtein distance on
+the same dataset and second, by comparing
+the quality of the induced vowel distances to
+acoustic differences.
+1 

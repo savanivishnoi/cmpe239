@@ -1,0 +1,226 @@
+ 
+We present an automated method of generating 
+human-readable summaries from a variety of text 
+documents including newspaper articles, business 
+reports, government documents, even broadcast 
+news transcripts. Our approach exploits an em- 
+pirical observation that much of the written text 
+display certain regularities of organization and 
+style, which we call the Discourse Macro Structure 
+(DMS). A summary is therefore created to reflect 
+the components of a given DMS. In order to pro- 
+duce a coherent and readable summary we select 
+continuous, well-formed passages from the source 
+document and assemble them into a mini-document 
+within a DMS template. In this paper we describe 
+an automated summarizer that can generate both 
+short indicative abstracts, useful for quick scanning 
+of a list of documents, as well as longer informative 
+digests that can serve as surrogates for the full text. 
+The summarizer can assist the users of an informa- 
+tion retrieval system in assessing the quality of the 
+results returned from a search, preparing reports 
+and memos for their customers, and even building 
+more effective search queries. 
+In t roduct ion  
+A good summarization tool can be of enormous help 
+for those who have to process large amounts of doc- 
+uments. In information retrieval one would bene- 
+fit greatly from having content-indicative quick-read 
+summaries upplied along with the titles returned 
+from search. Similarly, application areas like rout- 
+ing, news on demand, market intelligence and topic 
+tracking would benefit from a good summarization 
+tool. 
+Perhaps the most difficult problem in designing 
+an automatic text summarization is to define what 
+a summary is, and how to tell a summary from a 
+non-summary, or a good summary from a bad one. 
+The answer depends in part upon who the summary 
+is intended for, and in part upon what it is meant o 
+achieve, which in large measure precludes any objec- 
+tive evaluation. A good summary should at least be 
+a good reflection of the original document while be- 
+ing considerably shorter than the original thus sav- 
+ing the reader valuable reading time. 
+In this paper we describe an automatic way to 
+generate summaries from text-only documents. The 
+summarizer we developed can create general and 
+topical indicative summaries, and also topical in- 
+formative summaries. Our approach is domain- 
+independent and takes advantage of certain organi- 
+zation regularities that were observed in news-type 
+documents. The system participated in a third- 
+party evaluation program and turned out to be one 
+of the top-performing summarizers. Especially the 
+quality/length ratio was very good since our sum- 
+maries tend to be very short (10% of the original 
+length). 
+The summarizer is still undergoing improvement 
+and expansion in order to be able to summarize a
+wide variety of documents. It is also used success- 
+fully as a tool to solve different problems, like infor- 
+mation retrieval and topic tracking. 
+Task  Descr ip t ion  and  Re la ted  Work  
+For most of us, a summary is a brief synopsis of the 
+content of a larger document, an abstract recount- 
+ing the main points while suppressing most details. 
+One purpose of having a summary is to quickly learn 
+some facts, and decide what you want to do with the 
+entire story. Depending on how they are meant o be 
+used one can distinguish between two kinds of sum- 
+maries. Indicative summaries are not a replacement 
+for the original text but are meant to be a good re- 
+flection of the kind of information that can be found 
+in the original document. Informative summaries 
+can be used as a replacement of the original docu- 
+ment and should contain the main facts of the docu- 
+ment. Independent of their usage summaries can be 
+classified as general summaries or topical summaries. 
+A general summary addresses the main points of the 
+document ignoring unrelated issues. A topical sum- 
+223 
+mary will report he main issues relevant to a certain 
+topic, which might have little to do with the main 
+topic of the document. Both summaries might give 
+very different impressions of the same document. In 
+this paper we describe a summarizer that summa- 
+rizes one document, text only, at a time. It is capa- 
+ble of producing both topical and generic indicative 
+summaries, and topical informative summaries. 
+Our early inspiration, and a benchmark, have 
+been the Quick Read Summaries, posted daily off 
+the front page of New York Times on-line edition 
+(http://www.nytimes.com). These summaries, pro- 
+duced manually by NYT staff, are assembled out of 
+passages, sentences, and sometimes entence frag- 
+ments taken from the main article with very few, if 
+any, editorial adjustments. The effect is a collection 
+of perfectly coherent idbits of news: the who, the 
+what, and when, but perhaps not why. Indeed, these 
+summaries leave out most of the details, and cannot 
+serve as surrogates for the full article. Yet, they M- 
+low the reader to learn some basic facts, and then to 
+choose which stories to open. 
+This kind of summarization, where appropriate 
+passages are extracted from the original text, is very 
+efficient, and arguably effective, because it doesn't 
+require generation of any new text, and thus low- 
+ers the risk of misinterpretation. It is also relatively 
+easier to automate, because we only need to identify 
+the suitable passages among the other text, a task 
+that can be accomplished via shallow NLP and sta- 
+tistical techniques. Nonetheless, there are a num- 
+ber of serious problems to overcome before an ac- 
+ceptable quality summarizer can be built. For one, 
+quantitative methods alone are generally too weak 
+to deal adequately with the complexities of natural 
+language text. For example, one popular approach 
+to automated abstract generation has been to select 
+key sentences from the original text using statisti- 
+cal and linguistic cues, perform some cosmetic ad- 
+justments in order to restore cohesiveness, and then 
+output the result as a single passage, e.g., (Luhn 
+1958) (Paice 1990) (Brandow, Mitze, & Rau 1995) 
+(Kupiec, Pedersen, & Chen 1995). The main advan- 
+tage of this approach is that it can be applied to 
+almost any kind of text. The main problem is that 
+it hardly ever produces an intelligible summary: the 
+resulting passage often lacks coherence, is hard to 
+understand, sometimes misleading, and may be just 
+plain incomprehensible. In fact, some studies show 
+(cf. (Brandow, Mitze, & Ran 1995)) that simply se- 
+lecting the first paragraph from a document ends 
+to produce better summaries than a sentence-based 
+algorithm. 
+A far more difficult, but arguably more "human- 
+like" method to summarize text (with the possi- 
+ble exception of editorial staff of some well-known 
+dailies) is to comprehend it in its entirety, and then 
+write a summary "in your own words." What this 
+amounts to, computationally, is a full linguistic anal- 
+ysis to extract key text components from which a 
+summary could be built. One previously explored 
+approach, e.g., (Ono, Sumita, & Miike 1994) (McK- 
+eown & Radev 1995), was to extract discourse struc- 
+ture elements and then generate the summary within 
+this structure. In another approach, e.g., (DeJong 
+1982) (Lehnert 1981) pre-defined summary tem- 
+plates were filled with text elements obtained using 
+information extraction techniques. Marcu (Marcu 
+1997a) uses rhetorical structure analysis to guide the 
+selection of text segments for the summary; simi- 
+larly Teufel and Moens (Teufel & Moens 1997) ana- 
+lyze argumentative structure of discourse to extract 
+appropriate sentences. While these approaches can 
+produce very good results, they are yet to be demon- 
+strated in a practical system applied to a reasonable 
+size domain. The main difficulty is the lack of an effi- 
+cient and reliable method of computing the required 
+discourse structure. 
+Our Approach 
+The approach we adopted in our work falls some- 
+where between simple sentence xtraction and text- 
+understanding, although philosophically we are 
+closer to NYT cut-and-paste editors. We overcome 
+the shortcomings of sentence-based summarization 
+by working on paragraph level instead. Our sum- 
+marizer is based on taking advantage of paragraph 
+segmentation and the underlying Discourse Macro 
+Structure of News texts. Both will be discussed be- 
+low. 
+Paragraphs 
+Paragraphs are generally self-contained units, more 
+so than single sentences, they usually address a sin- 
+gle thought or issue, and their relationships with 
+the surrounding text are somewhat easier to trace. 
+This notion has been explored by Cornell's group 
+(Salton et al 1994) to design a summarizer that 
+traces inter-paragraph relationships and selects the 
+"best connected" paragraphs for the summary. Like 
+in Cornell's system, our summaries are made up of 
+paragraphs taken out of the original text. In addi- 
+tion, in order to obtain more coherent summaries, 
+we impose some fundamental discourse constraints 
+on the generation process, but avoid a full discourse 
+analysis. 
+We would like to note at this point that the sum- 
+marization algorithm, as described in detail later, 
+224 
+does not explicitly depend on nor indeed require in- 
+put text that is pre-segmented into paragraphs. In 
+general, any length passages can be used, although 
+this choice will impact the complexity of the solu- 
+tion. Lifting well-defined paragraphs from a docu- 
+ment and then recombining them into a summary 
+is relatively more straightforward than recombining 
+other text units. For texts where there is no struc- 
+ture at all, as in a closed-captioned stream in broad- 
+cast television, there are several ways to create arti- 
+ficial segments. The simplest would be to use fixed 
+word-count passages. Or, content-based segmen- 
+tation techniques may be applicable, e.g., Hearst's 
+Text-Tiling (Hearst 1997). 
+On the other hand, we may argue that essentially 
+any length segments of text can be used so long 
+as one could figure out a way to reconnect hem 
+into paragraph-like passages even if their boundaries 
+were somewhat off. This is actually not unlike deal- 
+ing with the texts with very fine grained paragraphs, 
+as is often the case with news-wire articles. For 
+such texts, in order to obtain an appropriate l vel of 
+chunking, some paragraphs need to be reconnected 
+into longer passages. This may be achieved by track- 
+ing co-references and other text cohesiveness devices, 
+and their choice will depend upon the initial segmen- 
+tation we work up from. 
+D iscourse  Macro  S t ructure  o f  a Text  
+It has been observed, eg., (Rino & Scott 1994), 
+(Weissberg & Buker 1990), that certain types of 
+texts, such as news articles, technical reports, re- 
+search papers, etc., conform to a set of style 
+and organization constraints, called the Discourse 
+Macro Structure (DMS) which help the author to 
+achieve a desired communication effect. For in- 
+stance, both physics papers and abstracts align 
+closely with the 

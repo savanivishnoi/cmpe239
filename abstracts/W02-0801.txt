@@ -1,0 +1,27 @@
+ 
+This paper presents preliminary 
+experiments in the use of translation 
+equivalences to disambiguate 
+prepositions or case suffixes. The core 
+of the method is to find translations of 
+the occurrence of the target preposition 
+or case suffix, and assign the 
+intersection of their set of 
+interpretations. Given a table with 
+prepositions and their possible 
+interpretations, the method is fully 
+automatic. We have tested this method 
+on the occurrences of the Basque 
+instrumental case -z in the definitions of 
+a Basque dictionary, looking for the 
+translations in the definitions from 3 
+Spanish and 3 English dictionaries. The 
+results have been that we are able to 
+disambiguate with 94.5% accuracy 
+2.3% of those occurrences (up to 91). 
+The ambiguity is reduced from 7 
+readings down to 3.1. The results are 
+very encouraging given the simple 
+techniques used, and show great 
+potential for improvement. 
+1 

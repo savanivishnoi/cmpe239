@@ -1,0 +1,25 @@
+
+We learn a joint model of sentence extraction
+and compression for multi-document summa-
+rization. Our model scores candidate sum-
+maries according to a combined linear model
+whose features factor over (1) the n-gram
+types in the summary and (2) the compres-
+sions used. We train the model using a margin-
+based objective whose loss captures end sum-
+mary quality. Because of the exponentially
+large set of candidate summaries, we use a
+cutting-plane algorithm to incrementally de-
+tect and add active constraints efficiently. In-
+ference in our model can be cast as an ILP
+and thereby solved in reasonable time; we also
+present a fast approximation scheme which
+achieves similar performance. Our jointly
+extracted and compressed summaries outper-
+form both unlearned baselines and our learned
+extraction-only system on both ROUGE and
+Pyramid, without a drop in judged linguis-
+tic quality. We achieve the highest published
+ROUGE results to date on the TAC 2008 data
+set.
+1 

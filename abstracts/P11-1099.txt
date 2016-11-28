@@ -1,0 +1,11 @@
+
+Argumentation schemes are structures or tem-
+plates for various kinds of arguments. Given
+the text of an argument with premises and con-
+clusion identified, we classify it as an instance
+of one of five common schemes, using features
+specific to each scheme. We achieve accura-
+cies of 63?91% in one-against-others classifi-
+cation and 80?94% in pairwise classification
+(baseline = 50% in both cases).
+1 

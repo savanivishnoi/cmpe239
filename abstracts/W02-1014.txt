@@ -1,0 +1,12 @@
+
+We describe an LR parser of parts-of-
+speech (and punctuation labels) for Tree
+Adjoining Grammars (TAGs), that solves
+table conflicts in a greedy way, with lim-
+ited amount of backtracking. We evaluate
+the parser using the Penn Treebank show-
+ing that the method yield very fast parsers
+with at least reasonable accuracy, confirm-
+ing the intuition that LR parsing benefits
+from the use of rich grammars.
+1 

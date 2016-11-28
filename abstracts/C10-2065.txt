@@ -1,0 +1,17 @@
+
+This paper presents a novel approach to
+dialogue act recognition employing multi-
+level information features. In addition to
+features such as context information and
+words in the utterances, the recognition
+task utilizes syntactic and semantic rela-
+tions acquired by information extraction
+methods. These features are utilized by
+a Bayesian network classifier for our dia-
+logue act recognition. The evaluation re-
+sults show a clear improvement from the
+accuracy of the baseline (only with word
+features) with 61.9% to an accuracy of
+67.4% achieved by the extended feature
+set.
+1 

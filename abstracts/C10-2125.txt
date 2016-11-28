@@ -1,0 +1,14 @@
+
+This paper presents a constraint-based
+graph partitioning approach to corefer-
+ence resolution solved by relaxation label-
+ing. The approach combines the strengths
+of groupwise classifiers and chain forma-
+tion methods in one global method. Ex-
+periments show that our approach signifi-
+cantly outperforms systems based on sep-
+arate classification and chain formation
+steps, and that it achieves the best results
+in the state of the art for the same dataset
+and metrics.
+1 

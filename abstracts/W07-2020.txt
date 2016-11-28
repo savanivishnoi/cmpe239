@@ -1,0 +1,23 @@
+ 
+This paper describes our word sense dis-
+ambiguation (WSD) system participating in 
+the SemEval-2007 tasks.  The core system 
+is a fully supervised system based on a Na-
+?ve Bayes classifier using multiple knowl-
+edge sources.  Toward a larger goal of in-
+corporating the intrinsic nature of individ-
+ual target words in disambiguation, thus in-
+troducing a cognitive element in automatic 
+WSD, we tried to fine-tune the results ob-
+tained from the core system with human-
+informed feature preference, and compared 
+it with automatic feature selection as com-
+monly practised in statistical WSD.  De-
+spite the insignificant improvement ob-
+served in this preliminary attempt, more 
+systematic analysis remains to be done for 
+a cognitively plausible account of the fac-
+tors underlying the lexical sensitivity of 
+WSD, which would inform and enhance 
+the development of WSD systems in return. 
+1 

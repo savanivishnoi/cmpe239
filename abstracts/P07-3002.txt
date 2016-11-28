@@ -1,0 +1,20 @@
+
+This paper proposes a novel approach to the
+induction of Combinatory Categorial Gram-
+mars (CCGs) by their potential affinity with
+the Genetic Algorithms (GAs). Specifically,
+CCGs utilize a rich yet compact notation for
+lexical categories, which combine with rela-
+tively few grammatical rules, presumed uni-
+versal. Thus, the search for a CCG consists
+in large part in a search for the appropri-
+ate categories for the data-set?s lexical items.
+We present and evaluates a system utilizing
+a simple GA to successively search and im-
+prove on such assignments. The fitness of
+categorial-assignments is approximated by
+the coverage of the resulting grammar on the
+data-set itself, and candidate solutions are
+updated via the standard GA techniques of
+reproduction, crossover and mutation.
+1 

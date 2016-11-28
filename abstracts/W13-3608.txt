@@ -1,0 +1,12 @@
+
+We introduce here a participating system
+of the CoNLL-2013 Shared Task ?Gram-
+matical Error Correction?. We focused on
+the noun number and article error cate-
+gories and constructed a supervised learn-
+ing system for solving these tasks. We car-
+ried out feature engineering and we found
+that (among others) the f-structure of an
+LFG parser can provide very informative
+features for the machine learning system.
+1 

@@ -1,0 +1,16 @@
+
+We propose a novel algorithm to ex-
+tract taxonomic (or isa/instanceOf ) rela-
+tions from category structure by classi-
+fying each category link. Previous algo-
+rithms mainly focus on lexical patterns of
+category names to classify whether or not
+a given category link is an isa/instanceOf.
+In contrast, our algorithm extracts intrin-
+sic properties that represent the definition
+of given category name, and uses those
+properties to classify each category link.
+Experimental result shows about 5 to 18 %
+increase in F-Measure, compared to other
+existing systems.
+1 

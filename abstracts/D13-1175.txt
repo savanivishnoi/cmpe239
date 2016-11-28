@@ -1,0 +1,18 @@
+
+We present an approach to learning bilin-
+gual n-gram correspondences from relevance
+rankings of English documents for Japanese
+queries. We show that directly optimizing
+cross-lingual rankings rivals and complements
+machine translation-based cross-language in-
+formation retrieval (CLIR). We propose an ef-
+ficient boosting algorithm that deals with very
+large cross-product spaces of word correspon-
+dences. We show in an experimental evalu-
+ation on patent prior art search that our ap-
+proach, and in particular a consensus-based
+combination of boosting and translation-based
+approaches, yields substantial improvements
+in CLIR performance. Our training and test
+data are made publicly available.
+1 

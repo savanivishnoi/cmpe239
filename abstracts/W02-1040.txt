@@ -1,0 +1,20 @@
+
+We report on experiments in reference res-
+olution using a decision tree approach. We
+started with a standard feature set used in
+previous work, which led to moderate re-
+sults. A closer examination of the perfor-
+mance of the features for different forms
+of anaphoric expressions showed good re-
+sults for pronouns, moderate results for
+proper names, and poor results for definite
+noun phrases. We then included a cheap,
+language and domain independent feature
+based on the minimum edit distance be-
+tween strings. This feature yielded a sig-
+nificant improvement for data sets consist-
+ing of definite noun phrases and proper
+names, respectively. When applied to
+the whole data set the feature produced a
+smaller but still significant improvement.
+1 

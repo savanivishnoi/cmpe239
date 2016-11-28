@@ -1,0 +1,17 @@
+. Partial parsing techniques try to recover syntactic informa-
+tion efficiently and reliably by sacrificing completeness and depth of anal-
+ysis. One of the difficulties of partial parsing is finding a means to extract
+the grammar involved automatically. In this paper, we present a method
+for automatically extracting partial parsing rules from a tree-annotated
+corpus using decision tree induction. We define the partial parsing rules
+as those that can decide the structure of a substring in an input sentence
+deterministically. This decision can be considered as a classification; as
+such, for a substring in an input sentence, a proper structure is chosen
+among the structures occurred in the corpus. For the classification, we
+use decision tree induction, and induce partial parsing rules from the
+decision tree. The acquired grammar is similar to a phrase structure
+grammar, with contextual and lexical information, but it allows building
+structures of depth one or more. Our experiments showed that the pro-
+posed partial parser using the automatically extracted rules is not only
+accurate and efficient, but also achieves reasonable coverage for Korean.
+1 

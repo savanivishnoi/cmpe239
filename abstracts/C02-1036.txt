@@ -1,0 +1,20 @@
+ 
+We profile the occurrence of clausal 
+extraposition in corpora from different 
+domains and demonstrate that extraposition 
+is a pervasive phenomenon in German that 
+must be addressed in German sentence 
+realization. We present two different 
+approaches to the modeling of extraposition, 
+both based on machine learned decision tree 
+classifiers. The two approaches differ in their 
+view of the movement operation: one 
+approach models multi-step movement 
+through intermediate nodes to the ultimate 
+target node, while the other approach models 
+one-step movement to the target node. We 
+compare the resulting models, trained on data 
+from two domains and discuss the 
+differences between the two types of models 
+and between the results obtained in the 
+different domains. 

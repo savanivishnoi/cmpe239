@@ -1,0 +1,18 @@
+
+We present a new variant of the Syntax-
+Augmented Machine Translation (SAMT) for-
+malism with a category-coarsening algorithm
+originally developed for tree-to-tree gram-
+mars. We induce bilingual labels into the
+SAMT grammar, use them for category coars-
+ening, then project back to monolingual la-
+beling as in standard SAMT. The result is a
+?collapsed? grammar with the same expres-
+sive power and format as the original, but
+many fewer nonterminal labels. We show that
+the smaller label set provides improved trans-
+lation scores by 1.14 BLEU on two Chinese?
+English test sets while reducing the occur-
+rence of sparsity and ambiguity problems
+common to large label sets.
+1 

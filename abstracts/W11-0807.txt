@@ -1,0 +1,24 @@
+
+In this paper, we investigate a supervised ma-
+chine learning framework for automatically
+learning of English Light Verb Constructions
+(LVCs). Our system achieves an 86.3% accu-
+racy with a baseline (chance) performance of
+52.2% when trained with groups of either con-
+textual or statistical features. In addition, we
+present an in-depth analysis of these contex-
+tual and statistical features and show that the
+system trained by these two types of cosmet-
+ically different features reaches similar per-
+formance empirically. However, in the situa-
+tion where the surface structures of candidate
+LVCs are identical, the system trained with
+contextual features which contain information
+on surrounding words performs 16.7% better.
+In this study, we also construct a balanced
+benchmark dataset with 2,162 sentences from
+BNC for English LVCs. And this data set is
+publicly available and is also a useful com-
+putational resource for research on MWEs in
+general.
+1 

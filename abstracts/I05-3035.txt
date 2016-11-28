@@ -1,0 +1,19 @@
+
+In this paper, we present a Chinese word 
+segmentation system which is consisted of 
+four components, i.e. basic segmentation, 
+named entity recognition, error-driven 
+learner and new word detector. The basic 
+segmentation and named entity recognition, 
+implemented based on conditional random 
+fields, are used to generate initial 
+segmentation results. The other two 
+components are used to refine the results. 
+Our system participated in the tests on 
+open and closed tracks of Beijing 
+University (PKU) and Microsoft Research 
+(MSR). The actual evaluation results show 
+that our system performs very well in MSR 
+open track, MSR closed track and PKU 
+open track.
+1 

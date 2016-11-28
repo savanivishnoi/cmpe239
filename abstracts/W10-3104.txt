@@ -1,0 +1,20 @@
+ 
+We explore the role negation and speculation 
+identification plays in the multi-label docu-
+ment-level classification of medical reports for 
+diseases. We identify the polarity of assertions 
+made on noun phrases which reference dis-
+eases in the medical reports. We experiment 
+with two machine learning classifiers: one 
+based upon Lucene and the other based upon 
+BoosTexter. We find the performance of these 
+systems on document-level classification of 
+medical reports for diseases fails to show im-
+provement when their input is enhanced by the 
+polarity of assertions made on noun phrases. 
+We conclude that due to the nature of our ma-
+chine learning classifiers, information on the 
+polarity of phrase-level assertions does not 
+improve performance on our data in a multi-
+label document-level classification task. 
+1 

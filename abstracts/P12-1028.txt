@@ -1,0 +1,17 @@
+
+In this paper, we propose innovative repre-
+sentations for automatic classification of verbs
+according to mainstream linguistic theories,
+namely VerbNet and FrameNet. First, syntac-
+tic and semantic structures capturing essential
+lexical and syntactic properties of verbs are
+defined. Then, we design advanced similarity
+functions between such structures, i.e., seman-
+tic tree kernel functions, for exploiting distri-
+butional and grammatical information in Sup-
+port Vector Machines. The extensive empir-
+ical analysis on VerbNet class and frame de-
+tection shows that our models capture mean-
+ingful syntactic/semantic structures, which al-
+lows for improving the state-of-the-art.
+1 

@@ -1,0 +1,18 @@
+
+We address the problem of sentiment and
+objectivity classification of product re-
+views in Chinese. Our approach is distinct-
+ive in that it treats both positive / negative
+sentiment and subjectivity / objectivity not
+as distinct classes but rather as a con-
+tinuum; we argue that this is desirable from
+the perspective of would-be customers who
+read the reviews. We use novel unsuper-
+vised techniques, including a one-word
+'seed' vocabulary and iterative retraining
+for sentiment processing, and a criterion of
+'sentiment density' for determining the ex-
+tent to which a document is opinionated.
+The classifier achieves up to 87% F-meas-
+ure for sentiment polarity detection.
+1 

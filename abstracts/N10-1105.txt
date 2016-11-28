@@ -1,0 +1,12 @@
+
+In this paper, we compare two novel methods
+for part of speech tagging of Arabic without
+the use of gold standard word segmentation
+but with the full POS tagset of the Penn Ara-
+bic Treebank. The first approach uses com-
+plex tags without any word segmentation, the
+second approach is segmention-based, using
+a machine learning segmenter. Surprisingly,
+word-based POS tagging yields the best re-
+sults, with a word accuracy of 94.74%.
+1 

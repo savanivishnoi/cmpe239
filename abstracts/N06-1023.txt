@@ -1,0 +1,17 @@
+
+We present an integrated probabilistic
+model for Japanese syntactic and case
+structure analysis. Syntactic and case
+structure are simultaneously analyzed
+based on wide-coverage case frames that
+are constructed from a huge raw corpus in
+an unsupervised manner. This model se-
+lects the syntactic and case structure that
+has the highest generative probability. We
+evaluate both syntactic structure and case
+structure. In particular, the experimen-
+tal results for syntactic analysis on web
+sentences show that the proposed model
+significantly outperforms known syntactic
+analyzers.
+1 

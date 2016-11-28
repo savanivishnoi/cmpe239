@@ -1,0 +1,23 @@
+
+Assigning a positive or negative score to a
+word out of context (i.e. a word?s prior polar-
+ity) is a challenging task for sentiment analy-
+sis. In the literature, various approaches based
+on SentiWordNet have been proposed. In this
+paper, we compare the most often used tech-
+niques together with newly proposed ones and
+incorporate all of them in a learning frame-
+work to see whether blending them can fur-
+ther improve the estimation of prior polarity
+scores. Using two different versions of Sen-
+tiWordNet and testing regression and classifi-
+cation models across tasks and datasets, our
+learning approach consistently outperforms
+the single metrics, providing a new state-of-
+the-art approach in computing words? prior
+polarity for sentiment analysis. We conclude
+our investigation showing interesting biases
+in calculated prior polarity scores when word
+Part of Speech and annotator gender are con-
+sidered.
+1 

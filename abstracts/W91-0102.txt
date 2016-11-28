@@ -1,0 +1,14 @@
+ 
+In this document, we present a formalism for 
+natural language processing which associates type 
+construction principles to constraint logic 
+programming. We show that it provides more 
+uniform, expressive and efficient tools for parsing 
+and generating language. Next, we present two 
+abstract machines which enable us to design, in a 
+symmetric way, a parser and a generator f om that 
+formalism. This abstract machinery is then 
+exemplified by a detailed study of secondary 
+predication within the framework of a principled- 
+based description of language: Government and 
+Binding theory. 

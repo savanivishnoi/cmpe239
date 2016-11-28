@@ -1,0 +1,21 @@
+
+We describe Joshua (Li et al, 2009a)
+1
+,
+an open source toolkit for statistical ma-
+chine translation. Joshua implements all
+of the algorithms required for transla-
+tion via synchronous context free gram-
+mars (SCFGs): chart-parsing, n-gram lan-
+guage model integration, beam- and cube-
+pruning, and k-best extraction. The toolkit
+also implements suffix-array grammar ex-
+traction and minimum error rate training.
+It uses parallel and distributed computing
+techniques for scalability. We also pro-
+vide a demonstration outline for illustrat-
+ing the toolkit?s features to potential users,
+whether they be newcomers to the field
+or power users interested in extending the
+toolkit.
+1 

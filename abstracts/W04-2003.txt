@@ -1,0 +1,18 @@
+
+Modern statistical parsers are robust and quite
+fast, but their output is relatively shallow when
+compared to formal grammar parsers. We sug-
+gest to extend statistical approaches to a more
+deep-linguistic analysis while at the same time
+keeping the speed and low complexity of a sta-
+tistical parser. The resulting parsing architec-
+ture suggested, implemented and evaluated here
+is highly robust and hybrid on a number of
+levels, combining statistical and rule-based ap-
+proaches, constituency and dependency gram-
+mar, shallow and deep processing, full and near-
+full parsing. With its parsing speed of about
+300,000 words per hour and state-of-the-art per-
+formance the parser is reliable for a number of
+large-scale applications discussed in the article.
+1 

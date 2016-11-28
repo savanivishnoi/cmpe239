@@ -1,0 +1,25 @@
+
+Georeferenced data sets are often large and
+complex. Natural Language Generation
+(NLG) systems are beginning to emerge that
+generate texts from such data. One of the
+challenges these systems face is the gener-
+ation of geographic descriptions referring to
+the location of events or patterns in the data.
+Based on our studies in the domain of me-
+teorology we present a two staged approach
+to generating geographic descriptions. The
+first stage involves using domain knowledge
+based on the task context to select a frame
+of reference, and the second involves using
+constraints imposed by the end user to select
+values within a frame of reference. Because
+geographic concepts are inherently vague our
+approach does not guarantee a distinguish-
+ing description. Our evaluation studies show
+that NLG systems, because they can analyse
+input data exhaustively, can produce more
+fine-grained geographic descriptions that are
+more useful to end users than those generated
+by human experts.
+1 

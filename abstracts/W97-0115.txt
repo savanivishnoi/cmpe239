@@ -1,0 +1,14 @@
+: Terminologies are specialized words and compound words used in a particular domain, such as 
+computer science. Since they are very common in scientific articles, the ability to automatic identification f
+terminology could greatly assist any domain related natural language processing applications. Unfortunately, 
+the collection of terminology information is very difficult and requires much tedious and time consuming 
+manual work. In this paper, a semi-automatic approach isdeveloped to extract technical words and phrases 
+from on-line corpora. This approach can significantly reduce the manual effort in the generation of 
+terminology dictionary. First, those domain specific words which have no entries in the universal dictionary 
+are identified. Second, terminology words are extracted from these new words as well as the universal 
+dictionary. Then compound words are extracted from the combination of terminology words and other 
+words. The final computer terminology dictionary contains 1,034 words and 3,471 compound words. 
+Experiment shows that 89.5 percent of all the occurrences ofcomputer terminology can be identified with 
+this terminology dictionary. 
+keyword: Chi-square Test, Automatic Indexing, Mutual Information 
+1. 

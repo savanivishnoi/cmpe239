@@ -1,0 +1,20 @@
+
+We propose the use of the word categories and
+embeddings induced from raw text as auxil-
+iary features in dependency parsing. To in-
+duce word features, we make use of contex-
+tual, morphologic and orthographic properties
+of the words. To exploit the contextual infor-
+mation, we make use of substitute words, the
+most likely substitutes for target words, gen-
+erated by using a statistical language model.
+We generate morphologic and orthographic
+properties of word types in an unsupervised
+manner. We use a co-occurrence model with
+these properties to embed words onto a 25-
+dimensional unit sphere. The AI-KU sys-
+tem shows improvements for some of the lan-
+guages it is trained on for the first Shared Task
+of Statistical Parsing of Morphologically Rich
+Languages.
+1 

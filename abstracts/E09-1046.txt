@@ -1,0 +1,19 @@
+
+We describe a method for creating a non-
+English subjectivity lexicon based on an
+English lexicon, an online translation ser-
+vice and a general purpose thesaurus:
+Wordnet. We use a PageRank-like algo-
+rithm to bootstrap from the translation of
+the English lexicon and rank the words
+in the thesaurus by polarity using the net-
+work of lexical relations in Wordnet. We
+apply our method to the Dutch language.
+The best results are achieved when using
+synonymy and antonymy relations only,
+and ranking positive and negative words
+simultaneously. Our method achieves an
+accuracy of 0.82 at the top 3,000 negative
+words, and 0.62 at the top 3,000 positive
+words.
+1 

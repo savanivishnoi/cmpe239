@@ -1,0 +1,25 @@
+ 
+This paper presents a method for auto- 
+matically recognizing local cohesion be- 
+tween utterances, which is one of the dis- 
+course structures in task-oriented spoken 
+dialogues. More specifically we can auto- 
+matically acquire discourse knowledge 
+from an annotated corpus with local co- 
+hesion. In this paper we focus on speech 
+act type-based local cohesion. The pre- 
+sented method consists of two steps 1) 
+identifying the speech act expressions in
+an utterance and 2) calculating the plausi- 
+bility of local cohesion between the 
+speech act expressions by using the dia- 
+logue corpus annotated with local cohe- 
+sion. We present two methods of interpo- 
+lating the plausibility of local cohesion 
+based on surface information on utter- 
+ances. The presented method has ob- 
+tained a 93% accuracy for closed data and 
+a 78% accuracy for open data in recogniz- 
+ing a pair of utterances with local cohe- 
+sion. 
+1 

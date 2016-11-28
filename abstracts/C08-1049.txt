@@ -1,0 +1,21 @@
+
+In this paper, we describe a new rerank-
+ing strategy named word lattice reranking,
+for the task of joint Chinese word segmen-
+tation and part-of-speech (POS) tagging.
+As a derivation of the forest reranking
+for parsing (Huang, 2008), this strategy
+reranks on the pruned word lattice, which
+potentially contains much more candidates
+while using less storage, compared with
+the traditional n-best list reranking. With a
+perceptron classifier trained with local fea-
+tures as the baseline, word lattice rerank-
+ing performs reranking with non-local fea-
+tures that can?t be easily incorporated into
+the perceptron baseline. Experimental re-
+sults show that, this strategy achieves im-
+provement on both segmentation and POS
+tagging, above the perceptron baseline and
+the n-best list reranking.
+1 

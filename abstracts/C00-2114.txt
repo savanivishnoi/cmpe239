@@ -1,0 +1,18 @@
+ 
+We present a new statistical language 
+model based on a Colnbination of 
+individual word language models. Each 
+word model is built from an individual 
+corpus which is formed by extracting 
+those subsets of the entire training corpus 
+which contain that significant word. We 
+also present a novel way of combining 
+language models called the "union 
+model", based on a logical union of 
+intersections, and use this to combine the 
+language models obtained for the 
+significant words from a cache. The 
+initial results with the new model provide 
+a 20% reduction in language model 
+perplexity over the standard 3-gram 
+approach. 

@@ -1,0 +1,26 @@
+
+We explore the intersection of rule-based and sta-
+tistical approaches in machine translation, with a
+particular focus on past and current work here at
+Microsoft Research. Until about ten years ago,
+the only machine translation systems worth using
+were rule-based and linguistically-informed. Along
+came statistical approaches, which use large cor-
+pora to directly guide translations toward expres-
+sions people would actually say. Rather than mak-
+ing local decisions when writing and conditioning
+rules, goodness of translation was modeled numer-
+ically and free parameters were selected to opti-
+mize that goodness. This led to huge improvements
+in translation quality as more and more data was
+consumed. By necessity, the pendulum is swing-
+ing towards the inclusion of linguistic features in
+MT systems. We describe some of our statistical
+and non-statistical attempts to incorporate linguis-
+tic insights into machine translation systems, show-
+ing what is currently working well, and what isn?t.
+We also look at trade-offs in using linguistic knowl-
+edge (?rules?) in pre- or post-processing by lan-
+guage pair, with a particular eye on the return on
+investment as training data increases in size.
+1 

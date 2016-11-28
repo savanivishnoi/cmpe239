@@ -1,0 +1,16 @@
+
+This paper presents preliminary results of using
+authorship attribution methods for the detec-
+tion of sockpuppeteering in Wikipedia. Sock-
+puppets are fake accounts created by malicious
+users to bypass Wikipedia?s regulations. Our
+dataset is composed of the comments made
+by the editors on the talk pages. To overcome
+the limitations of the short lengths of these
+comments, we use an voting scheme to com-
+bine predictions made on individual user en-
+tries. We show that this approach is promising
+and that it can be a viable alternative to the
+current human process that Wikipedia uses to
+resolve suspected sockpuppet cases.
+1 

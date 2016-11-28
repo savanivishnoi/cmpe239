@@ -1,0 +1,20 @@
+
+Translation systems that automatically
+extract transfer mappings (rules or
+examples) from bilingual corpora have
+been hampered by the difficulty of
+achieving accurate alignment and
+acquiring high quality mappings. We
+describe an algorithm that uses a best-
+first strategy and a small alignment
+grammar to significantly improve the
+quality of the transfer mappings
+extracted. For each mapping,
+frequencies are computed and sufficient
+context is retained to distinguish
+competing mappings during translation.
+Variants of the algorithm are run
+against a corpus containing 200K
+sentence pairs and evaluated based on
+the quality of resulting translations.
+1 

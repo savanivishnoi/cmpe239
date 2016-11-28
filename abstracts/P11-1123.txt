@@ -1,0 +1,14 @@
+
+In many natural language applications, there
+is a need to enrich syntactical parse trees. We
+present a statistical tree annotator augmenting
+nodes with additional information. The anno-
+tator is generic and can be applied to a va-
+riety of applications. We report 3 such ap-
+plications in this paper: predicting function
+tags; predicting null elements; and predicting
+whether a tree constituent is projectable in ma-
+chine translation. Our function tag prediction
+system outperforms significantly published re-
+sults.
+1 

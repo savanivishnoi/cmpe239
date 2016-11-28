@@ -1,0 +1,10 @@
+ 
+This paper presents a hybrid approach for 
+named entity (NE) tagging which combines 
+Maximum Entropy Model (MaxEnt), Hidden 
+Markov Model (HMM) and handcrafted 
+grammatical rules. Each has innate strengths 
+and weaknesses; the combination results in a 
+very high precision tagger. MaxEnt includes 
+external gazetteers in the system. Sub-category 
+generation is also discussed. 

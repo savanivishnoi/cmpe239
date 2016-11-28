@@ -1,0 +1,18 @@
+
+While the corpus-based research relies on hu-
+man annotated corpora, it is often said that a
+non-negligible amount of errors remain even in
+frequently used corpora such as Penn Treebank.
+Detection of errors in annotated corpora is im-
+portant for corpus-based natural language pro-
+cessing. In this paper, we propose a method
+to detect errors in corpora using support vec-
+tor machines (SVMs). This method is based
+on the idea of extracting exceptional elements
+that violate consistency. We propose a method
+of using SVMs to assign a weight to each ele-
+ment and to find errors in a POS tagged corpus.
+We apply the method to English and Japanese
+POS-tagged corpora and achieve high precision
+in detecting errors.
+1 

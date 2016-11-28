@@ -1,0 +1,28 @@
+
+Statistical language models using n-gram
+approach have been under the criticism of
+neglecting large-span syntactic-semantic in-
+formation that influences the choice of the
+next word in a language. One of the ap-
+proaches that helped recently is the use of
+latent semantic analysis to capture the se-
+mantic fabric of the document and enhance
+the n-gram model. Similarly there have
+been some approaches that used syntactic
+analysis to enhance the n-gram models. In
+this paper, we explain a framework called
+syntactically enhanced latent semantic anal-
+ysis and its application in statistical lan-
+guage modeling. This approach augments
+each word with its syntactic descriptor in
+terms of the part-of-speech tag, phrase type
+or the supertag. We observe that given this
+syntactic knowledge, the model outperforms
+LSA based models significantly in terms of
+perplexity measure. We also present some
+observations on the effect of the knowledge
+of content or function word type in language
+modeling. This paper also poses the prob-
+lem of better syntax prediction to achieve
+the benchmarks.
+1 

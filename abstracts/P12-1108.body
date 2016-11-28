@@ -1,0 +1,22 @@
+
+All types of part-of-speech (POS) tagging er-
+rors have been equally treated by existing tag-
+gers. However, the errors are not equally im-
+portant, since some errors affect the perfor-
+mance of subsequent natural language pro-
+cessing (NLP) tasks seriously while others do
+not. This paper aims to minimize these serious
+errors while retaining the overall performance
+of POS tagging. Two gradient loss functions
+are proposed to reflect the different types of er-
+rors. They are designed to assign a larger cost
+to serious errors and a smaller one to minor
+errors. Through a set of POS tagging exper-
+iments, it is shown that the classifier trained
+with the proposed loss functions reduces se-
+rious errors compared to state-of-the-art POS
+taggers. In addition, the experimental result
+on text chunking shows that fewer serious er-
+rors help to improve the performance of sub-
+sequent NLP tasks.
+1 

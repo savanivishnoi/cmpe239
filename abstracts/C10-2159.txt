@@ -1,0 +1,15 @@
+
+We show that unsupervised part of speech
+tagging performance can be significantly
+improved using likely substitutes for tar-
+get words given by a statistical language
+model. We choose unambiguous substi-
+tutes for each occurrence of an ambiguous
+target word based on its context. The part
+of speech tags for the unambiguous sub-
+stitutes are then used to filter the entry for
+the target word in the word?tag dictionary.
+A standard HMM model trained using the
+filtered dictionary achieves 92.25% accu-
+racy on a standard 24,000 word corpus.
+1 

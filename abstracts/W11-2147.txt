@@ -1,0 +1,15 @@
+
+This paper presents the LIU system for the
+WMT 2011 shared task for translation be-
+tween German and English. For English?
+German we attempted to improve the trans-
+lation tables with a combination of standard
+statistical word alignments and phrase-based
+word alignments. For German?English trans-
+lation we tried to make the German text more
+similar to the English text by normalizing Ger-
+man morphology and performing rule-based
+clause reordering of the German text. This re-
+sulted in small improvements for both transla-
+tion directions.
+1 

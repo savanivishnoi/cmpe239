@@ -1,0 +1,22 @@
+
+It is well known that multi-word expres-
+sions are problematic in natural language
+processing. In previous literature, it has
+been suggested that information about
+their degree of compositionality can be
+helpful in various applications but it has
+not been proven empirically. In this pa-
+per, we propose a framework in which
+information about the multi-word expres-
+sions can be used in the word-alignment
+task. We have shown that even simple
+features like point-wise mutual informa-
+tion are useful for word-alignment task in
+English-Hindi parallel corpora. The align-
+ment error rate which we achieve (AER =
+0.5040) is significantly better (about 10%
+decrease in AER) than the alignment error
+rates of the state-of-art models (Och and
+Ney, 2003) (Best AER = 0.5518) on the
+English-Hindi dataset.
+1 

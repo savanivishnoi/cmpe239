@@ -1,0 +1,20 @@
+
+We argue in favor of using a graph-based
+representation for language meaning and
+propose a novel learning method to map
+natural language text to its graph-based
+meaning representation. We present a
+grammar formalism, which combines syn-
+tax and semantics, and has ontology con-
+straints at the rule level. These constraints
+establish links between language expres-
+sions and the entities they refer to in the
+real world. We present a relational learning
+algorithm that learns these grammars from
+a small representative set of annotated ex-
+amples, and show how this grammar in-
+duction framework and the ontology-based
+semantic representation allow us to di-
+rectly map text to graph-based meaning
+representations.
+1 

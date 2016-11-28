@@ -1,0 +1,15 @@
+
+Machine-produced text often lacks grammat-
+icality and fluency. This paper studies gram-
+maticality improvement using a syntax-based
+algorithm based on CCG. The goal of the
+search problem is to find an optimal parse tree
+among all that can be constructed through se-
+lection and ordering of the input words. The
+search problem, which is significantly harder
+than parsing, is solved by guided learning for
+best-first search. In a standard word order-
+ing task, our system gives a BLEU score of
+40.1, higher than the previous result of 33.7
+achieved by a dependency-based system.
+1 

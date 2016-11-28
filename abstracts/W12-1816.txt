@@ -1,0 +1,20 @@
+
+In a spoken dialog system that can handle nat-
+ural conversation between a human and a ma-
+chine, spoken language understanding (SLU)
+is a crucial component aiming at capturing
+the key semantic components of utterances.
+Building a robust SLU system is a challeng-
+ing task due to variability in the usage of lan-
+guage, need for labeled data, and requirements
+to expand to new domains (movies, travel, fi-
+nance, etc.). In this paper, we survey recent
+research on bootstrapping or improving SLU
+systems by using information mined or ex-
+tracted from web search query logs, which
+include (natural language) queries entered by
+users as well as the links (web sites) they click
+on. We focus on learning methods that help
+unveiling hidden information in search query
+logs via implicit crowd-sourcing.
+1 

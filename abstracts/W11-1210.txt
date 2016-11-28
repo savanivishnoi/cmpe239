@@ -1,0 +1,17 @@
+
+Supervised learning algorithms for identify-
+ing comparable sentence pairs from a domi-
+nantly non-parallel corpora require resources
+for computing feature functions as well as
+training the classifier. In this paper we pro-
+pose active learning techniques for addressing
+the problem of building comparable data for
+low-resource languages. In particular we pro-
+pose strategies to elicit two kinds of annota-
+tions from comparable sentence pairs: class
+label assignment and parallel segment extrac-
+tion. We also propose an active learning strat-
+egy for these two annotations that performs
+significantly better than when sampling for ei-
+ther of the annotations independently.
+1 

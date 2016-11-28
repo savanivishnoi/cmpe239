@@ -1,0 +1,24 @@
+
+Many Natural Language Processing ap-
+plications require semantic knowledge
+about topics in order to be possible or to
+be efficient. So we developed a system,
+SEGAPSITH, that acquires it automat-
+ically from text segments by using an
+unsupervised and incremental cluster-
+ing method. In such an approach, an
+important problem consists of the vali-
+dation of the learned classes. To do that,
+we applied another clustering method,
+that only needs to know the number
+of classes to build, on the same sub-
+set of text segments and we reformu-
+late our evaluation problem in compar-
+ing the two classifications. So, we es-
+tablished different criteria to compare
+them, based either on the words as class
+descriptors or on the thematic units.
+Our first results lead to show a great
+correlation between the two classifica-
+tions.
+1 

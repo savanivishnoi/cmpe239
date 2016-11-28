@@ -1,0 +1,18 @@
+ 
+This paper discusses several issues in Arabic 
+orthography that were encountered in the 
+process of performing morphology analysis 
+and POS tagging of 542,543 Arabic words in 
+three newswire corpora at the LDC during 
+2002-2004, by means of the Buckwalter 
+Arabic Morphological Analyzer. The most 
+important issues involved variation in the 
+orthography of Modern Standard Arabic that 
+called for specific changes to the Analyzer 
+algorithm, and also a more rigorous definition 
+of typographic errors. Some orthographic 
+anomalies had a direct impact on word 
+tokenization, which in turn affected the 
+morphology analysis and assignment of POS 
+tags. 
+1 

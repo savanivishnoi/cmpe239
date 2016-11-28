@@ -1,0 +1,25 @@
+
+This report describes the UNITN system, a
+Part-Of-Speech Context Counter, that par-
+ticipated at Semeval 2010 Task 8: Multi-
+Way Classification of Semantic Relations
+Between Pairs of Nominals. Given a text
+annotated with Part-of-Speech, the system
+outputs a vector representation of a sen-
+tence containing 20 features in total. There
+are three steps in the system?s pipeline:
+first the system produces an estimation of
+the entities? position in the relation, then
+an estimation of the semantic relation type
+by means of decision trees and finally it
+gives a predicition of semantic relation
+plus entities? position. The system ob-
+tained good results in the estimation of en-
+tities? position (F1=98.3%) but a critically
+poor performance in relation classification
+(F1=26.6%), indicating that lexical and se-
+mantic information is essential in relation
+extraction. The system can be used as an
+integration for other systems or for pur-
+poses different from relation extraction.
+1 

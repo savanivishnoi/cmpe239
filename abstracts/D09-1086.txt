@@ -1,0 +1,41 @@
+
+We connect two scenarios in structured
+learning: adapting a parser trained on
+one corpus to another annotation style, and
+projecting syntactic annotations from one
+language to another. We propose quasi-
+synchronous grammar (QG) features for
+these structured learning tasks. That is, we
+score a aligned pair of source and target
+trees based on local features of the trees
+and the alignment. Our quasi-synchronous
+model assigns positive probability to any
+alignment of any trees, in contrast to a syn-
+chronous grammar, which would insist on
+some form of structural parallelism.
+In monolingual dependency parser adap-
+tation, we achieve high accuracy in trans-
+lating among multiple annotation styles
+for the same sentence. On the more
+difficult problem of cross-lingual parser
+projection, we learn a dependency parser
+for a target language by using bilin-
+gual text, an English parser, and auto-
+matic word alignments. Our experiments
+show that unsupervised QG projection im-
+proves on parses trained using only high-
+precision projected annotations and far
+outperforms, by more than 35% absolute
+dependency accuracy, learning an unsu-
+pervised parser from raw target-language
+text alone. When a few target-language
+parse trees are available, projection gives
+a boost equivalent to doubling the number
+of target-language trees.
+?
+The first author would like to thank the Center for Intel-
+ligent Information Retrieval at UMass Amherst. We would
+also like to thank Noah Smith and Rebecca Hwa for helpful
+discussions and the anonymous reviewers for their sugges-
+tions for improving the paper.
+1 

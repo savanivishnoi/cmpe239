@@ -1,0 +1,21 @@
+ 
+This paper presents an ongoing work on 
+identifying similarity between documents 
+across News papers in different 
+languages. Our aim is to identify similar 
+documents for a given News or event as 
+a query, across languages and make cross 
+lingual search more accurate and easy. 
+For example given  an event or News in 
+English, all the English news documents 
+related to the query are retrieved as well 
+as in other languages such as Hindi, 
+Bengali, Tamil, Telugu, Malayalam, 
+Spanish. We use Vector Space Model, a 
+known method for similarity calculation, 
+but the novelty is in identification of 
+terms for VSM calculation. Here a robust 
+translation system is not used for 
+translating the documents. The system is 
+working with good recall and precision. 
+1 

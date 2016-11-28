@@ -1,0 +1,23 @@
+
+This paper presents the problem within Hit-
+tite and Ancient Near Eastern studies of frag-
+mented and damaged cuneiform texts, and
+proposes to use well-known text classification
+metrics, in combination with some facts about
+the structure of Hittite-language cuneiform
+texts, to help classify a number of fragments of
+clay cuneiform-script tablets into more com-
+plete texts. In particular, I propose using
+Sumerian and Akkadian ideogrammatic signs
+within Hittite texts to improve the perfor-
+mance of Naive Bayes and Maximum Entropy
+classifiers. The performance in some cases
+is improved, and in some cases very much
+not, suggesting that the variable frequency of
+occurrence of these ideograms in individual
+fragments makes considerable difference in
+the ideal choice for a classification method.
+Further, complexities of the writing system
+and the digital availability of Hittite texts com-
+plicate the problem.
+1 

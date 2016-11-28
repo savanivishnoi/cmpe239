@@ -1,0 +1,23 @@
+
+We explore the augmentation of statistical ma-
+chine translation models with features of the
+context of each phrase to be translated. This
+work extends several existing threads of re-
+search in statistical MT, including the use of
+context in example-based machine translation
+(Carl and Way, 2003) and the incorporation of
+word sense disambiguation into a translation
+model (Chan et al, 2007). The context fea-
+tures we consider use surrounding words and
+part-of-speech tags, local syntactic structure,
+and other properties of the source language
+sentence to help predict each phrase?s transla-
+tion. Our approach requires very little compu-
+tation beyond the standard phrase extraction
+algorithm and scales well to large data sce-
+narios. We report significant improvements
+in automatic evaluation scores for Chinese-
+to-English and English-to-German translation,
+and also describe our entry in the WMT-08
+shared task based on this approach.
+1 

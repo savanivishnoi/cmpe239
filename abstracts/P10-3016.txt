@@ -1,0 +1,20 @@
+ 
+Supervised semantic role labeling (SRL) sys-
+tems trained on hand-crafted annotated corpo-
+ra have recently achieved state-of-the-art per-
+formance. However, creating such corpora is 
+tedious and costly, with the resulting corpora 
+not sufficiently representative of the language. 
+This paper describes a part of an ongoing work 
+on applying bootstrapping methods to SRL to 
+deal with this problem. Previous work shows 
+that, due to the complexity of SRL, this task is 
+not straight forward. One major difficulty is 
+the propagation of classification noise into the 
+successive iterations. We address this problem 
+by employing balancing and preselection me-
+thods for self-training, as a bootstrapping algo-
+rithm. The proposed methods could achieve 
+improvement over the base line, which do not 
+use these methods. 
+1 

@@ -1,0 +1,18 @@
+
+Some particular classes of lexical paraphrases such
+as verb alteration and compound noun decomposi-
+tion can be handled by a handful of general rules
+and lexical semantic knowledge. In this paper, we
+attempt to capture the regularity underlying these
+classes of paraphrases, focusing on the paraphras-
+ing of Japanese light-verb constructions (LVCs).
+We propose a paraphrasing model for LVCs that
+is based on transforming the Lexical Conceptual
+Structures (LCSs) of verbal elements. We also pro-
+pose a refinement of an existing LCS dictionary. Ex-
+perimental results show that our LCS-based para-
+phrasing model characterizes some of the semantic
+features of those verbs required for generating para-
+phrases, such as the direction of an action and the
+relationship between arguments and surface cases.
+1 

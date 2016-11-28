@@ -1,0 +1,15 @@
+
+This paper reports on guiding parser de-
+velopment by extracting information from
+output of a large-scale parser applied to
+Wikipedia documents. Data-driven parser
+improvement is especially important for
+applications where the corpus may differ
+from that originally used to develop the
+core grammar and where efficiency con-
+cerns affect whether a new construction
+should be added, or existing analyses mod-
+ified. The large size of the corpus in ques-
+tion also brings scalability concerns to the
+foreground.
+1 

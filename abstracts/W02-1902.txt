@@ -1,0 +1,23 @@
+  
+This paper describes a highly-portable 
+multilingual question answering system on 
+multiple relational databases. We apply 
+semantic category and pattern-based 
+grammars, into natural language interfaces to 
+relational databases. Lexico-semantic pattern 
+(LSP) and multi-level grammars achieve 
+portability of languages, domains, and 
+DBMSs. The LSP-based linguistic 
+processing does not require deep analysis 
+that sacrifices robustness and flexibility, but 
+can handle delicate natural language 
+questions. To maximize portability, we drive 
+various dependent parts into two tight 
+corners, i.e., language-dependent part into 
+front linguistic analysis, and 
+domain-dependent and database-dependent 
+parts into backend SQL query generation. 
+Experiments with 779 queries generate only 
+constraint-missing errors, which can be 
+easily corrected by adding new terms, of 
+2.25% for English and 5.67% for Korean. 

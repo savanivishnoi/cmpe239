@@ -1,0 +1,30 @@
+
+We present a preliminary pilot study of
+belief annotation and automatic tagging.
+Our objective is to explore semantic mean-
+ing beyond surface propositions. We aim
+to model people?s cognitive states, namely
+their beliefs as expressed through linguis-
+tic means. We model the strength of their
+beliefs and their (the human) degree of
+commitment to their utterance. We ex-
+plore only the perspective of the author of
+a text. We classify predicates into one of
+three possibilities: committed belief, non
+committed belief, or not applicable. We
+proceed to manually annotate data to that
+end, then we build a supervised frame-
+work to test the feasibility of automati-
+cally predicting these belief states. Even
+though the data is relatively small, we
+show that automatic prediction of a belief
+class is a feasible task. Using syntactic
+features, we are able to obtain significant
+improvements over a simple baseline of
+23% F-measure absolute points. The best
+performing automatic tagging condition is
+where we use POS tag, word type fea-
+ture AlphaNumeric, and shallow syntac-
+tic chunk information CHUNK. Our best
+overall performance is 53.97% F-measure.
+1 

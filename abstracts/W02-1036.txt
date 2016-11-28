@@ -1,0 +1,26 @@
+
+In this paper, we propose a method for
+learning a classifier which combines out-
+puts of more than one Japanese named
+entity extractors. The proposed combi-
+nation method belongs to the family of
+stacked generalizers, which is in principle
+a technique of combining outputs of sev-
+eral classifiers at the first stage by learn-
+ing a second stage classifier to combine
+those outputs at the first stage. Individ-
+ual models to be combined are based on
+maximum entropy models, one of which
+always considers surrounding contexts of
+a fixed length, while the other consid-
+ers those of variable lengths according to
+the number of constituent morphemes of
+named entities. As an algorithm for learn-
+ing the second stage classifier, we employ
+a decision list learning method. Experi-
+mental evaluation shows that the proposed
+method achieves improvement over the
+best known results with Japanese named
+entity extractors based on maximum en-
+tropy models.
+1 

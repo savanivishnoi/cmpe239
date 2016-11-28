@@ -1,0 +1,20 @@
+
+The clinical narrative contains a great deal
+of valuable information that is only under-
+standable in a temporal context. Events,
+time expressions, and temporal relations
+convey information about the time course
+of a patient?s clinical record that must be
+understood for many applications of inter-
+est. In this paper, we focus on extracting
+information about how time expressions
+and events are related by narrative con-
+tainers. We use support vector machines
+with composite kernels, which allows for
+integrating standard feature kernels with
+tree kernels for representing structured
+features such as constituency trees. Our
+experiments show that using tree kernels
+in addition to standard feature kernels im-
+proves F1 classification for this task.
+1 

@@ -1,0 +1,20 @@
+ 
+In this paper, we address the problem of 
+knowing when to stop the process of active 
+learning. We propose a new statistical 
+learning approach, called minimum 
+expected error strategy, to defining a 
+stopping criterion through estimation of the 
+classifier?s expected error on future 
+unlabeled examples in the active learning 
+process. In experiments on active learning 
+for word sense disambiguation and text 
+classification tasks, experimental results 
+show that the new proposed stopping 
+criterion can reduce approximately 50% 
+human labeling costs in word sense 
+disambiguation with degradation of 0.5% 
+average accuracy, and approximately 90% 
+costs in text classification with degradation 
+of 2% average accuracy. 
+1 

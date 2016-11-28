@@ -1,0 +1,20 @@
+
+In many applications, replacing a complex
+word form by its stem can reduce sparsity, re-
+vealing connections in the data that would not
+otherwise be apparent. In this paper, we focus
+on prefix verbs: verbs formed by adding a pre-
+fix to an existing verb stem. A prefix verb is
+considered compositional if it can be decom-
+posed into a semantically equivalent expres-
+sion involving its stem. We develop a clas-
+sifier to predict compositionality via a range
+of lexical and distributional features, includ-
+ing novel features derived from web-scale N-
+gram data. Results on a new annotated cor-
+pus show that prefix verb compositionality can
+be predicted with high accuracy. Our system
+also performs well when trained and tested on
+conventional morphological segmentations of
+prefix verbs.
+1 

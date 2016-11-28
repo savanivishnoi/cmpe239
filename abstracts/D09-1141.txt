@@ -1,0 +1,31 @@
+
+We propose a novel language-independent
+approach for improving statistical ma-
+chine translation for resource-poor lan-
+guages by exploiting their similarity to
+resource-rich ones. More precisely, we
+improve the translation from a resource-
+poor source language X
+1
+into a resource-
+rich language Y given a bi-text contain-
+ing a limited number of parallel sentences
+for X
+1
+-Y and a larger bi-text for X
+2
+-Y
+for some resource-rich language X
+2
+that
+is closely related to X
+1
+. The evaluation
+for Indonesian?English (using Malay)
+and Spanish?English (using Portuguese
+and pretending Spanish is resource-poor)
+shows an absolute gain of up to 1.35 and
+3.37 Bleu points, respectively, which is an
+improvement over the rivaling approaches,
+while using much less additional data.
+1 

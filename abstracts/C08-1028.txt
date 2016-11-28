@@ -1,0 +1,14 @@
+
+This paper provides a parsing algorithm
+for the Lambek calculus which is polyno-
+mial time for a more general fragment of
+the Lambek calculus than any previously
+known algorithm. The algorithm runs in
+worst-case time O(n5) when restricted to
+a certain fragment of the Lambek calcu-
+lus which is motivated by empirical anal-
+ysis. In addition, a set of parameterized
+inputs are given, showing why the algo-
+rithm has exponential worst-case running
+time for the Lambek calculus in general.
+1 

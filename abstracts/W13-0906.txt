@@ -1,0 +1,18 @@
+
+We present the CSF - Common Semantic Fea-
+tures method for metaphor detection. This
+method has two distinguishing characteristics:
+it is cross-lingual and it does not rely on the
+availability of extensive manually-compiled
+lexical resources in target languages other than
+English. A metaphor detecting classifier is
+trained on English samples and then applied to
+the target language. The method includes pro-
+cedures for obtaining semantic features from
+sentences in the target language. Our exper-
+iments with Russian and English sentences
+show comparable results, supporting our hy-
+pothesis that a CSF-based classifier can be ap-
+plied across languages. We obtain state-of-
+the-art performance in both languages.
+1 

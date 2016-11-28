@@ -1,0 +1,16 @@
+
+This paper describes the CMU entry for
+the system combination shared task at
+WMT?10. Our combination method is hy-
+pothesis selection, which uses information
+from n-best lists from the input MT sys-
+tems, where available. The sentence level
+features used are independent from the
+MT systems involved. Compared to the
+baseline we added source-to-target word
+alignment based features and trained sys-
+tem weights to our feature set. We com-
+bined MT systems for French - English
+and German - English using provided data
+only.
+1 

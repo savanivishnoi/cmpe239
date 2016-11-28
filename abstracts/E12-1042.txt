@@ -1,0 +1,17 @@
+
+In this paper we study spectral learning
+methods for non-deterministic split head-
+automata grammars, a powerful hidden-
+state formalism for dependency parsing.
+We present a learning algorithm that, like
+other spectral methods, is efficient and non-
+susceptible to local minima. We show
+how this algorithm can be formulated as
+a technique for inducing hidden structure
+from distributions computed by forward-
+backward recursions. Furthermore, we
+also present an inside-outside algorithm
+for the parsing model that runs in cubic
+time, hence maintaining the standard pars-
+ing costs for context-free grammars.
+1 

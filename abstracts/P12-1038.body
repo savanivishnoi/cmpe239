@@ -1,0 +1,22 @@
+
+We present a holistic data-driven approach
+to image description generation, exploit-
+ing the vast amount of (noisy) parallel im-
+age data and associated natural language
+descriptions available on the web. More
+specifically, given a query image, we re-
+trieve existing human-composed phrases
+used to describe visually similar images,
+then selectively combine those phrases
+to generate a novel description for the
+query image. We cast the generation pro-
+cess as constraint optimization problems,
+collectively incorporating multiple inter-
+connected aspects of language composition
+for content planning, surface realization
+and discourse structure. Evaluation by hu-
+man annotators indicates that our final
+system generates more semantically cor-
+rect and linguistically appealing descrip-
+tions than two nontrivial baselines.
+1 

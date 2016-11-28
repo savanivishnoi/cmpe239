@@ -1,0 +1,26 @@
+
+Unsupervised learning of linguistic structure
+is a difficult problem. A common approach
+is to define a generative model and max-
+imize the probability of the hidden struc-
+ture given the observed data. Typically,
+this is done using maximum-likelihood es-
+timation (MLE) of the model parameters.
+We show using part-of-speech tagging that
+a fully Bayesian approach can greatly im-
+prove performance. Rather than estimating
+a single set of parameters, the Bayesian ap-
+proach integrates over all possible parame-
+ter values. This difference ensures that the
+learned structure will have high probability
+over a range of possible parameters, and per-
+mits the use of priors favoring the sparse
+distributions that are typical of natural lan-
+guage. Our model has the structure of a
+standard trigram HMM, yet its accuracy is
+closer to that of a state-of-the-art discrimi-
+native model (Smith and Eisner, 2005), up
+to 14 percentage points better than MLE. We
+find improvements both when training from
+data alone, and using a tagging dictionary.
+1 

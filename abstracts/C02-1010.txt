@@ -1,0 +1,25 @@
+  
+A new statistical method called ?bilingual 
+chunking? for structure alignment is 
+proposed. Different with the existing 
+approaches which align hierarchical 
+structures like sub-trees, our method 
+conducts alignment on chunks. The 
+alignment is finished through a simultaneous 
+bilingual chunking algorithm. Using the 
+constrains of chunk correspondence between 
+source language (SL)1 and target language  
+(TL), our algorithm can dramatically reduce 
+search space, support time synchronous DP 
+algorithm, and lead to highly consistent 
+chunking. Furthermore, by unifying the POS 
+tagging and chunking in the search process, 
+our algorithm alleviates effectively the 
+influence of POS tagging deficiency to the 
+chunking result.  
+The experimental results with English- 
+Chinese structure alignment show that our 
+model can produce 90% in precision for 
+chunking, and 87% in precision for chunk 
+alignment.  
+ 

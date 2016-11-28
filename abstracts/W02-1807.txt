@@ -1,0 +1,20 @@
+ion 
+In Chinese language processing, the 
+recognition and analysis for serial verb 
+constructions (SVCs) is a fascinating research 
+topic. Chinese language researchers each may 
+have a different definition and interpretation of 
+SVC since the structure of SVC makes Chinese 
+unique to other languages and contains complex 
+semantic and pragmatic information. This paper 
+proposes a formal definition of SVC and a 
+knowledge based approach for the recognition of 
+SVCs, which is adopted in TOTAL-CK, a 
+transfer-based MT system from Chinese to 
+Korean. The recognition process is carried out in 
+two stages: the analysis stage classifies SVCs 
+into general categories, and the transfer stage 
+performs further classification for Korean 
+transfer. Some evaluation result for each stage 
+was also given with statistics of each category of 
+SVCs 

@@ -1,0 +1,31 @@
+ 
+Part of the unique cultural heritage of 
+China is the game of Chinese couplets 
+(du?li?n). One person challenges the oth-
+er person with a sentence (first sentence). 
+The other person then replies with a sen-
+tence (second sentence) equal in length 
+and word segmentation, in a way that 
+corresponding words in the two sentences 
+match each other by obeying certain con-
+straints on semantic, syntactic, and lexi-
+cal relatedness. This task is viewed as a 
+difficult problem in AI and has not been 
+explored in the research community. 
+In this paper, we regard this task as a 
+kind of machine translation process. We 
+present a phrase-based SMT approach to 
+generate the second sentence. First, the 
+system takes as input the first sentence, 
+and generates as output an N-best list of 
+proposed second sentences, using a 
+phrase-based SMT decoder. Then, a set 
+of filters is used to remove candidates vi-
+olating linguistic constraints. Finally, a 
+Ranking SVM is applied to rerank the 
+candidates. A comprehensive evaluation, 
+using both human judgments and BLEU 
+scores, has been conducted, and the re-
+sults demonstrate that this approach is 
+very successful. 
+1 

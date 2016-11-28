@@ -1,0 +1,15 @@
+
+This paper describes the development of
+French?English and English?French statisti-
+cal machine translation systems for the 2011
+WMT shared task evaluation. Our main sys-
+tems were standard phrase-based statistical
+systems based on the Moses decoder, trained
+on the provided data only, but we also per-
+formed initial experiments with hierarchical
+systems. Additional, new features this year in-
+clude improved translation model adaptation
+using monolingual data, a continuous space
+language model and the treatment of unknown
+words.
+1 

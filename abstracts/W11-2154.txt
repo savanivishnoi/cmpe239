@@ -1,0 +1,13 @@
+
+We describe our system for the news com-
+mentary translation task of WMT 2011. The
+submitted run for the French-English direction
+is a combination of two MOSES-based sys-
+tems developed at LIG and LIA laboratories.
+We report experiments to improve over the
+standard phrase-based model using statistical
+post-edition, information retrieval methods to
+subsample out-of-domain parallel corpora and
+ROVER to combine n-best list of hypotheses
+output by different systems.
+1 

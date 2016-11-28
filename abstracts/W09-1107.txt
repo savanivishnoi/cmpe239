@@ -1,0 +1,20 @@
+
+A survey of existing methods for stopping ac-
+tive learning (AL) reveals the needs for meth-
+ods that are: more widely applicable; more ag-
+gressive in saving annotations; and more sta-
+ble across changing datasets. A new method
+for stopping AL based on stabilizing predic-
+tions is presented that addresses these needs.
+Furthermore, stopping methods are required
+to handle a broad range of different annota-
+tion/performance tradeoff valuations. Despite
+this, the existing body of work is dominated
+by conservative methods with little (if any) at-
+tention paid to providing users with control
+over the behavior of stopping methods. The
+proposed method is shown to fill a gap in the
+level of aggressiveness available for stopping
+AL and supports providing users with control
+over stopping behavior.
+1 

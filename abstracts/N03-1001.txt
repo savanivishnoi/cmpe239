@@ -1,0 +1,17 @@
+
+This paper describes a method for utterance
+classification that does not require manual
+transcription of training data. The method
+combines domain independent acoustic models
+with off-the-shelf classifiers to give utterance
+classification performance that is surprisingly
+close to what can be achieved using conven-
+tional word-trigram recognition requiring man-
+ual transcription. In our method, unsupervised
+training is first used to train a phone n-gram
+model for a particular domain; the output of
+recognition with this model is then passed to
+a phone-string classifier. The classification ac-
+curacy of the method is evaluated on three dif-
+ferent spoken language system domains.
+1 

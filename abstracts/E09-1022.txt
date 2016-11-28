@@ -1,0 +1,20 @@
+
+We describe a methodology for learning a
+disambiguation model for deep pragmatic
+interpretations in the context of situated
+task-oriented dialogue. The system accu-
+mulates training examples for ambiguity
+resolution by tracking the fates of alter-
+native interpretations across dialogue, in-
+cluding subsequent clarificatory episodes
+initiated by the system itself. We illus-
+trate with a case study building maxi-
+mum entropy models over abductive in-
+terpretations in a referential communica-
+tion task. The resulting model correctly re-
+solves 81% of ambiguities left unresolved
+by an initial handcrafted baseline. A key
+innovation is that our method draws exclu-
+sively on a system?s own skills and experi-
+ence and requires no human annotation.
+1 

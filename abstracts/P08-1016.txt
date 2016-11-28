@@ -1,0 +1,18 @@
+
+This paper presents a new unsupervised algo-
+rithm (WordEnds) for inferring word bound-
+aries from transcribed adult conversations.
+Phone ngrams before and after observed
+pauses are used to bootstrap a simple dis-
+criminative model of boundary marking. This
+fast algorithm delivers high performance even
+on morphologically complex words in English
+and Arabic, and promising results on accurate
+phonetic transcriptions with extensive pronun-
+ciation variation. Expanding training data be-
+yond the traditional miniature datasets pushes
+performance numbers well above those previ-
+ously reported. This suggests that WordEnds
+is a viable model of child language acquisition
+and might be useful in speech understanding.
+1 

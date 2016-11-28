@@ -1,0 +1,28 @@
+
+This paper proposes cross-lingual language
+modeling for transcribing source resource-
+poor languages and translating them into tar-
+get resource-rich languages if necessary. Our
+focus is to improve the speech recognition
+performance of low-resource languages by
+leveraging the language model statistics from
+resource-rich languages. The most challeng-
+ing work of cross-lingual language modeling
+is to solve the syntactic discrepancies between
+the source and target languages. We therefore
+propose syntactic reordering for cross-lingual
+language modeling, and present a first result
+that compares inversion transduction grammar
+(ITG) reordering constraints to IBM and lo-
+cal constraints in an integrated speech tran-
+scription and translation system. Evaluations
+on resource-poor Cantonese speech transcrip-
+tion and Cantonese to resource-rich Mandarin
+translation tasks show that our proposed ap-
+proach improves the system performance sig-
+nificantly, up to 3.4% relative WER reduction
+in Cantonese transcription and 13.3% relative
+bilingual evaluation understudy (BLEU) score
+improvement in Mandarin transcription com-
+pared with the system without reordering.
+1 

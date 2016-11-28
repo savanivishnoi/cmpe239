@@ -1,0 +1,18 @@
+
+We present a word substitution approach
+to combine the output of different machine
+translation systems. Using part of speech
+information, candidate words are deter-
+mined among possible translation options,
+which in turn are estimated through a pre-
+computed word alignment. Automatic
+substitution is guided by several decision
+factors, including part of speech, local
+context, and language model probabili-
+ties. The combination of these factors
+is defined after careful manual analysis
+of their respective impact. The approach
+is tested for the language pair German-
+English, however the general technique it-
+self is language independent.
+1 

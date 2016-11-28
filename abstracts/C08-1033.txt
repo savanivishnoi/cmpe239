@@ -1,0 +1,14 @@
+
+This paper presents a probabilistic model
+for resolution of non-pronominal anaphora
+in biomedical texts. The model seeks to
+find the antecedents of anaphoric expres-
+sions, both coreferent and associative ones,
+and also to identify discourse-new expres-
+sions. We consider only the noun phrases
+referring to biomedical entities. The model
+reaches state-of-the art performance: 56-
+69% precision and 54-67% recall on coref-
+erent cases, and reasonable performance
+on different classes of associative cases.
+1 

@@ -1,0 +1,21 @@
+
+We propose a new model for unsupervised
+POS tagging based on linguistic distinc-
+tions between open and closed-class items.
+Exploiting notions from current linguis-
+tic theory, the system uses far less infor-
+mation than previous systems, far simpler
+computational methods, and far sparser
+descriptions in learning contexts. By ap-
+plying simple language acquisition tech-
+niques based on counting, the system is
+given the closed-class lexicon, acquires a
+large open-class lexicon and then acquires
+disambiguation rules for both. This sys-
+tem achieves a 20% error reduction for
+POS tagging over state-of-the-art unsuper-
+vised systems tested under the same con-
+ditions, and achieves comparable accuracy
+when trained with much less prior infor-
+mation.
+1 

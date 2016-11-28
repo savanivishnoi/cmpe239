@@ -1,0 +1,25 @@
+
+Annotation acquisition is an essential step in
+training supervised classifiers. However, man-
+ual annotation is often time-consuming and
+expensive. The possibility of recruiting anno-
+tators through Internet services (e.g., Amazon
+Mechanic Turk) is an appealing option that al-
+lows multiple labeling tasks to be outsourced
+in bulk, typically with low overall costs and
+fast completion rates. In this paper, we con-
+sider the difficult problem of classifying sen-
+timent in political blog snippets. Annotation
+data from both expert annotators in a research
+lab and non-expert annotators recruited from
+the Internet are examined. Three selection cri-
+teria are identified to select high-quality anno-
+tations: noise level, sentiment ambiguity, and
+lexical uncertainty. Analysis confirm the util-
+ity of these criteria on improving data quality.
+We conduct an empirical study to examine the
+effect of noisy annotations on the performance
+of sentiment classification models, and evalu-
+ate the utility of annotation selection on clas-
+sification accuracy and efficiency.
+1 

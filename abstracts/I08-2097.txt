@@ -1,0 +1,16 @@
+
+The accuracy of parsing has exceeded 90%
+recently, but this is not high enough to use
+parsing results practically in natural lan-
+guage processing (NLP) applications such as
+paraphrase acquisition and relation extrac-
+tion. We present a method for detecting re-
+liable parses out of the outputs of a single
+dependency parser. This technique is also
+applied to domain adaptation of dependency
+parsing. Our goal was to improve the per-
+formance of a state-of-the-art dependency
+parser on the data set of the domain adap-
+tation track of the CoNLL 2007 shared task,
+a formidable challenge.
+1 

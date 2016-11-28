@@ -1,0 +1,22 @@
+ 
+In this paper, we describe a SVM classi-
+fication framework of session detection 
+task on both Chinese and English query 
+logs. With eight features on the aspects 
+of temporal and content information ex-
+tracted from pairs of successive queries, 
+the classification models achieve signifi-
+cantly superior performance than the stat-
+of-the-art method. Additionally, we find 
+through ROC analysis that there exists 
+great discrimination power variability 
+among different features and within the 
+same feature across different users. To 
+fully utilize this variability, we build lo-
+cal models for individual users and com-
+bine their predictions with those from the 
+global model. Experiments show that the 
+local models do make significant im-
+provements to the global model, although 
+the amount is small. 
+1 

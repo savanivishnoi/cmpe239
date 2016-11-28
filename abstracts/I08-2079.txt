@@ -1,0 +1,21 @@
+ 
+ 
+Multiword chunking is defined as a task to 
+automatically analyze the external function 
+and internal structure of the multiword 
+chunk(MWC) in a sentence. To deal with 
+this problem, we proposed a rule acquisition 
+algorithm to automatically learn a chunk 
+rule base, under the support of a large scale 
+annotated corpus and a lexical knowledge 
+base. We also proposed an expectation 
+precision index to objectively evaluate the 
+descriptive capabilities of the refined rule 
+base. Some experimental results indicate 
+that the algorithm can acquire about 9% 
+useful expanded rules to cover 86% 
+annotated positive examples, and improve 
+the expectation precision from 51% to 83%. 
+These rules can be used to build an efficient 
+rule-based Chinese MWC parser. 
+1 

@@ -1,0 +1,21 @@
+s
+Chun Xiao and Dietmar Ro?sner
+Institut fu?r Wissens- und Sprachverarbeitung
+Otto-von-Guericke Universita?t Magdeburg
+Universita?tsplatz 2, Magdeburg, Germany 39106
+xiao|roesner@iws.cs.uni-magdeburg.de
+Abstract
+In this paper, we investigate the multiword
+verbs in the English sublanguage of MED-
+LINE abstracts. Based on the integration of
+the domain-specific named entity knowledge
+and syntactic as well as statistical information,
+this work mainly focuses on how to evaluate a
+proper multiword verb candidate. Our results
+present a sound balance between the low- and
+high-frequency multiword verb candidates in
+the sublanguage corpus. We get a F-measure of
+0.753, when tested on a manual sample subset
+consisting of multiword candidates with both
+low- and high-frequencies.
+1 

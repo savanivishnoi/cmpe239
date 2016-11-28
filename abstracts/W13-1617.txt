@@ -1,0 +1,26 @@
+
+This paper presents a method for sentiment
+analysis specifically designed to work with
+Twitter data (tweets), taking into account their
+structure, length and specific language. The
+approach employed makes it easily extendible
+to other languages and makes it able to pro-
+cess tweets in near real time. The main contri-
+butions of this work are: a) the pre-processing
+of tweets to normalize the language and gener-
+alize the vocabulary employed to express sen-
+timent; b) the use minimal linguistic process-
+ing, which makes the approach easily portable
+to other languages; c) the inclusion of higher
+order n-grams to spot modifications in the po-
+larity of the sentiment expressed; d) the use of
+simple heuristics to select features to be em-
+ployed; e) the application of supervised learn-
+ing using a simple Support Vector Machines
+linear classifier on a set of realistic data. We
+show that using the training models generated
+with the method described we can improve
+the sentiment classification performance, irre-
+spective of the domain and distribution of the
+test sets.
+1 

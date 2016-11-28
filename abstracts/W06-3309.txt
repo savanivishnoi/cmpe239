@@ -1,0 +1,34 @@
+s
+Jimmy Lin1,2, Damianos Karakos3, Dina Demner-Fushman2, and Sanjeev Khudanpur3
+1College of Information Studies 3Center for Language and
+2Institute for Advanced Computer Studies Speech Processing
+University of Maryland Johns Hopkins University
+College Park, MD 20742, USA Baltimore, MD 21218, USA
+jimmylin@umd.edu, demner@cs.umd.edu (damianos, khudanpur)@jhu.edu
+Abstract
+The ability to accurately model the con-
+tent structure of text is important for
+many natural language processing appli-
+cations. This paper describes experi-
+ments with generative models for analyz-
+ing the discourse structure of medical ab-
+stracts, which generally follow the pattern
+of ?introduction?, ?methods?, ?results?,
+and ?conclusions?. We demonstrate that
+Hidden Markov Models are capable of ac-
+curately capturing the structure of such
+texts, and can achieve classification ac-
+curacy comparable to that of discrimina-
+tive techniques. In addition, generative
+approaches provide advantages that may
+make them preferable to discriminative
+techniques such as Support Vector Ma-
+chines under certain conditions. Our work
+makes two contributions: at the applica-
+tion level, we report good performance
+on an interesting task in an important do-
+main; more generally, our results con-
+tribute to an ongoing discussion regarding
+the tradeoffs between generative and dis-
+criminative techniques.
+1 

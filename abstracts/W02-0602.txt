@@ -1,0 +1,17 @@
+
+This paper describes a system for the un-
+supervised learning of morphological suf-
+fixes and stems from word lists. The sys-
+tem is composed of a generative probabil-
+ity model and a novel search algorithm.
+By examining morphologically rich sub-
+sets of an input lexicon, the search identi-
+fies highly productive paradigms. Quanti-
+tative results are shown by measuring the
+accuracy of the morphological relations
+identified. Experiments in English and
+Polish, as well as comparisons with other
+recent unsupervised morphology learning
+algorithms demonstrate the effectiveness
+of this technique.
+1 

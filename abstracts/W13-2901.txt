@@ -1,0 +1,22 @@
+
+In this paper, we introduce a syntax-based
+sentence simplifier that models simplifi-
+cation using a probabilistic synchronous
+tree substitution grammar (STSG). To im-
+prove the STSG model specificity we uti-
+lize a multi-level backoff model with addi-
+tional syntactic annotations that allow for
+better discrimination over previous STSG
+formulations. We compare our approach
+to T3 (Cohn and Lapata, 2009), a re-
+cent STSG implementation, as well as
+two state-of-the-art phrase-based sentence
+simplifiers on a corpus of aligned sen-
+tences from English and Simple English
+Wikipedia. Our new approach performs
+significantly better than T3, similarly to
+human simplifications for both simplicity
+and fluency, and better than the phrase-
+based simplifiers for most of the evalua-
+tion metrics.
+1 

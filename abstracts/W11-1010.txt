@@ -1,0 +1,8 @@
+
+We use hand-coded rules and graph-aligned
+logical dependencies to reorder English text
+towards Chinese word order. We obtain a
+1.5% higher F-score for Giza++ compared to
+running with unprocessed text. We describe
+this research and its implications for SMT.
+1 

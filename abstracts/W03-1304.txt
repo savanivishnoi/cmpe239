@@ -1,0 +1,18 @@
+ 
+Named entity recognition is a fundamental task in 
+biological relationship mining.  This paper 
+employs protein collocates extracted from a 
+biological corpus to enhance the performance of 
+protein name recognizers.  Yapex and KeX are 
+taken as examples.  The precision of Yapex is 
+increased from 70.90% to 81.94% at the low 
+expense of recall rate (i.e., only decrease 2.39%) 
+when collocates are incorporated.  We also 
+integrate the results proposed by Yapex and KeX, 
+and employs collocates to filter the merged results.  
+Because the candidates suggested by these two 
+systems may be inconsistent, i.e., overlap in partial, 
+one of them is considered as a basis.  The 
+experiments show that Yapex-based integration is 
+better than KeX-based integration. 
+1 

@@ -1,0 +1,15 @@
+
+When only a small amount of manually anno-
+tated data is available, application of a boot-
+strapping method is often considered to com-
+pensate for the lack of sufcient training ma-
+terial for a machine-learning method. The
+paper reports a series of experimental results
+of bootstrapping for protein name recogni-
+tion. The results show that the performance
+changes signicantly according to the choice
+of text collection where the training samples
+to bootstrap, and that an improvement can be
+obtained only with a well chosen text collec-
+tion.
+1 

@@ -1,0 +1,23 @@
+
+Traditional 1-best translation pipelines
+suffer a major drawback: the errors of 1-
+best outputs, inevitably introduced by each
+module, will propagate and accumulate
+along the pipeline. In order to alleviate
+this problem, we use compact structures,
+lattice and forest, in each module instead
+of 1-best results. We integrate both lat-
+tice and forest into a single tree-to-string
+system, and explore the algorithms of lat-
+tice parsing, lattice-forest-based rule ex-
+traction and decoding. More importantly,
+our model takes into account all the proba-
+bilities of different steps, such as segmen-
+tation, parsing, and translation. The main
+advantage of our model is that we can
+make global decision to search for the best
+segmentation, parse-tree and translation in
+one step. Medium-scale experiments show
+an improvement of +0.9 BLEU points over
+a state-of-the-art forest-based baseline.
+1 

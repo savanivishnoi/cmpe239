@@ -1,0 +1,28 @@
+
+This paper introduces PhraseNet, a context-
+sensitive lexical semantic knowledge base sys-
+tem. Based on the supposition that seman-
+tic proximity is not simply a relation between
+two words in isolation, but rather a relation
+between them in their context, English nouns
+and verbs, along with contexts they appear in,
+are organized in PhraseNet into Consets; Con-
+sets capture the underlying lexical concept, and
+are connected with several semantic relations
+that respect contextually sensitive lexical infor-
+mation. PhraseNet makes use of WordNet as
+an important knowledge source. It enhances
+a WordNet synset with its contextual informa-
+tion and refines its relational structure by main-
+taining only those relations that respect con-
+textual constraints. The contextual informa-
+tion allows for supporting more functionali-
+ties compared with those of WordNet. Nat-
+ural language researchers as well as linguists
+and language learners can gain from accessing
+PhraseNet with a word token and its context, to
+retrieve relevant semantic information.
+We describe the design and construction of
+PhraseNet and give preliminary experimental
+evidence to its usefulness for NLP researches.
+1 

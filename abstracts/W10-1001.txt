@@ -1,0 +1,16 @@
+ 
+We describe a readability assessment ap-
+proach to support the process of text simplifi-
+cation for poor literacy readers. Given an in-
+put text, the goal is to predict its readability 
+level, which corresponds to the literacy level 
+that is expected from the target reader: rudi-
+mentary, basic or advanced. We complement 
+features traditionally used for readability as-
+sessment with a number of new features, and 
+experiment with alternative ways to model 
+this problem using machine learning methods, 
+namely classification, regression and ranking. 
+The best resulting model is embedded in an 
+authoring tool for Text Simplification. 
+1 

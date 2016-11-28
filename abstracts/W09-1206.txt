@@ -1,0 +1,23 @@
+
+This paper describes our contribution to the
+semantic role labeling task (SRL-only) of the
+CoNLL-2009 shared task in the closed chal-
+lenge (Hajic? et al, 2009). Our system con-
+sists of a pipeline of independent, local clas-
+sifiers that identify the predicate sense, the ar-
+guments of the predicates, and the argument
+labels. Using these local models, we carried
+out a beam search to generate a pool of candi-
+dates. We then reranked the candidates using
+a joint learning approach that combines the lo-
+cal models and proposition features.
+To address the multilingual nature of the data,
+we implemented a feature selection procedure
+that systematically explored the feature space,
+yielding significant gains over a standard set
+of features. Our system achieved the second
+best semantic score overall with an average la-
+beled semantic F1 of 80.31. It obtained the
+best F1 score on the Chinese and German data
+and the second best one on English.
+1 

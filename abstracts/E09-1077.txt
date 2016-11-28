@@ -1,0 +1,27 @@
+
+We present an extensive study on the prob-
+lem of detecting polarity of words. We
+consider the polarity of a word to be ei-
+ther positive or negative. For example,
+words such as good, beautiful , and won-
+derful are considered as positive words;
+whereas words such as bad, ugly, and sad
+are considered negative words. We treat
+polarity detection as a semi-supervised la-
+bel propagation problem in a graph. In
+the graph, each node represents a word
+whose polarity is to be determined. Each
+weighted edge encodes a relation that ex-
+ists between two words. Each node (word)
+can have two labels: positive or negative.
+We study this framework in two differ-
+ent resource availability scenarios using
+WordNet and OpenOffice thesaurus when
+WordNet is not available. We report our
+results on three different languages: En-
+glish, French, and Hindi. Our results in-
+dicate that label propagation improves sig-
+nificantly over the baseline and other semi-
+supervised learning methods like Mincuts
+and Randomized Mincuts for this task.
+1 

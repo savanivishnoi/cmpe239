@@ -1,0 +1,19 @@
+
+In this paper we introduce a web application
+(SAPIENT) for sentence based annotation of
+full papers with semantic information. SAPI-
+ENT enables experts to annotate scientific pa-
+pers sentence by sentence and also to link re-
+lated sentences together, thus forming spans
+of interesting regions, which can facilitate text
+mining applications. As part of the system,
+we developed an XML-aware sentence split-
+ter (SSSplit) which preserves XML markup
+and identifies sentences through the addition
+of in-line markup. SAPIENT has been used
+in a systematic study for the annotation of
+scientific papers with concepts representing
+the Core Information about Scientific Papers
+(CISP) to create a corpus of 225 annotated pa-
+pers.
+1 

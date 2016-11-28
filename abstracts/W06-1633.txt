@@ -1,0 +1,14 @@
+
+In this paper we describe a coreference
+resolution method that employs a classi-
+fication and a clusterization phase. In a
+novel way, the clusterization is produced
+as a graph cutting algorithm, in which
+nodes of the graph correspond to the men-
+tions of the text, whereas the edges of the
+graph constitute the confidences derived
+from the coreference classification. In ex-
+periments, the graph cutting algorithm for
+coreference resolution, called BESTCUT,
+achieves state-of-the-art performance.
+1 

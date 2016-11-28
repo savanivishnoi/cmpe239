@@ -1,0 +1,19 @@
+
+Many researchers are trying to use information
+extraction (IE) to create large-scale knowl-
+edge bases from natural language text on the
+Web. However, the primary approach (su-
+pervised learning of relation-specific extrac-
+tors) requires manually-labeled training data
+for each relation and doesn?t scale to the thou-
+sands of relations encoded in Web text.
+This paper presents LUCHS, a self-supervised,
+relation-specific IE system which learns 5025
+relations ? more than an order of magnitude
+greater than any previous approach ? with an
+average F1 score of 61%. Crucial to LUCHS?s
+performance is an automated system for dy-
+namic lexicon learning, which allows it to
+learn accurately from heuristically-generated
+training data, which is often noisy and sparse.
+1 

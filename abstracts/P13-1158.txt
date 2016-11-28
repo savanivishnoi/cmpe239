@@ -1,0 +1,18 @@
+
+We study question answering as a ma-
+chine learning problem, and induce a func-
+tion that maps open-domain questions to
+queries over a database of web extrac-
+tions. Given a large, community-authored,
+question-paraphrase corpus, we demon-
+strate that it is possible to learn a se-
+mantic lexicon and linear ranking func-
+tion without manually annotating ques-
+tions. Our approach automatically gener-
+alizes a seed lexicon and includes a scal-
+able, parallelized perceptron parameter es-
+timation scheme. Experiments show that
+our approach more than quadruples the re-
+call of the seed lexicon, with only an 8%
+loss in precision.
+1 

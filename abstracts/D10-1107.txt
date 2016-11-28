@@ -1,0 +1,30 @@
+
+Determining whether two terms in text have
+an ancestor relation (e.g. Toyota and car) or
+a sibling relation (e.g. Toyota and Honda) is
+an essential component of textual inference in
+NLP applications such as Question Answer-
+ing, Summarization, and Recognizing Textual
+Entailment. Significant work has been done
+on developing stationary knowledge sources
+that could potentially support these tasks, but
+these resources often suffer from low cover-
+age, noise, and are inflexible when needed to
+support terms that are not identical to those
+placed in them, making their use as general
+purpose background knowledge resources dif-
+ficult. In this paper, rather than building a sta-
+tionary hierarchical structure of terms and re-
+lations, we describe a system that, given two
+terms, determines the taxonomic relation be-
+tween them using a machine learning-based
+approach that makes use of existing resources.
+Moreover, we develop a global constraint opti-
+mization inference process and use it to lever-
+age an existing knowledge base also to enforce
+relational constraints among terms and thus
+improve the classifier predictions. Our exper-
+imental evaluation shows that our approach
+significantly outperforms other systems built
+upon existing well-known knowledge sources.
+1 

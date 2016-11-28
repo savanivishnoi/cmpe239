@@ -1,0 +1,21 @@
+
+Recent advances in large-margin learning
+have shown that better generalization can
+be achieved by incorporating higher order
+information into the optimization, such as
+the spread of the data. However, these so-
+lutions are impractical in complex struc-
+tured prediction problems such as statis-
+tical machine translation. We present an
+online gradient-based algorithm for rela-
+tive margin maximization, which bounds
+the spread of the projected data while max-
+imizing the margin. We evaluate our op-
+timizer on Chinese-English and Arabic-
+English translation tasks, each with small
+and large feature sets, and show that our
+learner is able to achieve significant im-
+provements of 1.2-2 BLEU and 1.7-4.3
+TER on average over state-of-the-art opti-
+mizers with the large feature set.
+1 

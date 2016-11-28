@@ -1,0 +1,14 @@
+ 
+We propose a new approach under the 
+example-based machine translation 
+paradigm. First, the proposed approach 
+retrieves the most similar example by 
+carrying out DP-matching of the input 
+sentence and example sentences while 
+measuring the semantic distance of the 
+words. Second, the approach adjusts 
+the gap between the input and the most 
+similar example by using a bilingual 
+dictionary. We show the results of a 
+computational experiment. 
+1 

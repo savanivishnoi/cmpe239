@@ -1,0 +1,24 @@
+ 
+An obstacle to research in automatic 
+paraphrase identification and genera-
+tion is the lack of large-scale, publicly-
+available labeled corpora of sentential 
+paraphrases. This paper describes the 
+creation of the recently-released Micro-
+soft Research Paraphrase Corpus, 
+which contains 5801 sentence pairs, 
+each hand-labeled with a binary judg-
+ment as to whether the pair constitutes 
+a paraphrase. The corpus was created 
+using heuristic extraction techniques in 
+conjunction with an SVM-based classi-
+fier to select likely sentence-level para-
+phrases from a large corpus of topic-
+clustered news data. These pairs were 
+then submitted to human judges, who 
+confirmed that 67% were in fact se-
+mantically equivalent. In addition to 
+describing the corpus itself, we explore 
+a number of issues that arose in defin-
+ing guidelines for the human raters. 
+1 

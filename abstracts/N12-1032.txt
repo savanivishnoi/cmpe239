@@ -1,0 +1,14 @@
+
+We propose a linguistically motivated set of
+features to capture morphological agreement
+and add them to the MSTParser dependency
+parser. Compared to the built-in morphologi-
+cal feature set, ours is both much smaller and
+more accurate across a sample of 20 morpho-
+logically annotated treebanks. We find in-
+creases in accuracy of up to 5.3% absolute.
+While some of this results from the feature set
+capturing information unrelated to morphol-
+ogy, there is still significant improvement, up
+to 4.6% absolute, due to the agreement model.
+1 

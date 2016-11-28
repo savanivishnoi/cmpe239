@@ -1,0 +1,17 @@
+
+This paper explores the use of statisti-
+cal machine translation (SMT) methods
+for tactical natural language generation.
+We present results on using phrase-based
+SMT for learning to map meaning repre-
+sentations to natural language. Improved
+results are obtained by inverting a seman-
+tic parser that uses SMT methods to map
+sentences into meaning representations.
+Finally, we show that hybridizing these
+two approaches results in still more accu-
+rate generation systems. Automatic and
+human evaluation of generated sentences
+are presented across two domains and four
+languages.
+1 

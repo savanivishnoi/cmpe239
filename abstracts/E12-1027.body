@@ -1,0 +1,22 @@
+
+In this paper we investigate the relevance of
+aspectual type for the problem of temporal
+information processing, i.e. the problems
+of the recent TempEval challenges.
+For a large list of verbs, we obtain sev-
+eral indicators about their lexical aspect by
+querying the web for expressions where
+these verbs occur in contexts associated
+with specific aspectual types.
+We then proceed to extend existing solu-
+tions for the problem of temporal informa-
+tion processing with the information ex-
+tracted this way. The improved perfor-
+mance of the resulting models shows that
+(i) aspectual type can be data-mined with
+unsupervised methods with a level of noise
+that does not prevent this information from
+being useful and that (ii) temporal informa-
+tion processing can profit from information
+about aspectual type.
+1 

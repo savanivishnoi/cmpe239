@@ -1,0 +1,23 @@
+
+A semantic parser learning system learns
+to map natural language sentences into
+their domain-specific formal meaning rep-
+resentations, but if the constructs of the
+meaning representation language do not
+correspond well with the natural language
+then the system may not learn a good se-
+mantic parser. This paper presents ap-
+proaches for automatically transforming a
+meaning representation grammar (MRG)
+to conform it better with the natural lan-
+guage semantics. It introduces grammar
+transformation operators and meaning rep-
+resentation macros which are applied in an
+error-driven manner to transform an MRG
+while training a semantic parser learning
+system. Experimental results show that the
+automatically transformed MRGs lead to
+better learned semantic parsers which per-
+form comparable to the semantic parsers
+learned using manually engineered MRGs.
+1 

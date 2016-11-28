@@ -1,0 +1,16 @@
+
+As it serves as a basis for POS tagging, cat-
+egory induction, and human category ac-
+quisition, we investigate the information
+needed to disambiguate a word in a lo-
+cal context, when using corpus categories.
+Specifically, we increase the recall of an
+error detection method by abstracting the
+word to be disambiguated to a represen-
+tation containing information about some
+of its inherent properties, namely the set
+of categories it can potentially have. This
+work thus provides insights into the rela-
+tion of corpus categories to categories de-
+rived from local contexts.
+1 

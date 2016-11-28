@@ -1,0 +1,17 @@
+
+Kleene is a high-level programming language,
+based on the OpenFst library, for constructing
+and manipulating finite-state acceptors and
+transducers. Users can program using reg-
+ular expressions, alternation-rule syntax and
+right-linear phrase-structure grammars; and
+Kleene provides variables, lists, functions and
+familiar program-control syntax. Kleene has
+been approved by SAP AG for release as free,
+open-source code under the Apache License,
+Version 2.0, and will be available by Au-
+gust 2012 for downloading from http://
+www.kleene-lang.org. The design, im-
+plementation, development status and future
+plans for the language are discussed.
+1 

@@ -1,0 +1,14 @@
+. This paper presents a novel formalization of optimality theory. Unlike pre- 
+vious treatments of optimality in computational linguistics, starting with EUison (1994), 
+the new approach does not require any explicit marking and counting of constraint vi- 
+olations. It is based on the notion of "lenient composition", defined as the combination 
+of ordinary composition and priority union. If an underlying form has outputs that can 
+meet a given constraint, lenient composition enforces the constraint; if none of the output 
+candidates meets the constraint, lenient composition allows all of them. For the sake of 
+greater efficiency, we may "leniently compose" the GEN relation and all the constraints 
+into a single finite-state transducer that maps each underlying form directly into its op- 
+timal surface realizations, and vice versa. Seen f~om this perspective, optimality theolT 
+is surprisingly similar to the two older strains of finite-state phonology: classical rewrite 
+systems and two-level models. In particular, the ranking of optimality constraints corre- 
+sponds to the ordering of rewrite rules. 
+1 

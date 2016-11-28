@@ -1,0 +1,21 @@
+
+In this paper we explore a generative
+model for recovering surface syntax and
+strings from deep-syntactic tree structures.
+Deep analysis has been proposed for a
+number of language and speech process-
+ing tasks, such as machine translation and
+paraphrasing of speech transcripts. In an
+effort to validate one such formalism of
+deep syntax, the Praguian Tectogrammat-
+ical Representation (TR), we present a
+model of synthesis for English which gen-
+erates surface-syntactic trees as well as
+strings. We propose a generative model
+for function word insertion (prepositions,
+definite/indefinite articles, etc.) and sub-
+phrase reordering. We show by way of
+empirical results that this model is ef-
+fective in constructing acceptable English
+sentences given impoverished trees.
+1 

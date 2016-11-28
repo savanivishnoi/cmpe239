@@ -1,0 +1,20 @@
+
+Motivated by recent work in phonotac-
+tic learning (Hayes and Wilson 2008, Al-
+bright 2009), this paper shows how to de-
+fine feature-based probability distributions
+whose parameters can be provably effi-
+ciently estimated. The main idea is that
+these distributions are defined as a prod-
+uct of simpler distributions (cf. Ghahra-
+mani and Jordan 1997). One advantage
+of this framework is it draws attention to
+what is minimally necessary to describe
+and learn phonological feature interactions
+in phonotactic patterns. The ?bottom-up?
+approach adopted here is contrasted with
+the ?top-down? approach in Hayes and
+Wilson (2008), and it is argued that the
+bottom-up approach is more analytically
+transparent.
+1 

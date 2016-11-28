@@ -1,0 +1,26 @@
+
+In this paper, we introduce a WordNet-
+based measure of semantic relatedness
+by combining the structure and content
+of WordNet with co?occurrence informa-
+tion derived from raw text. We use the
+co?occurrence information along with the
+WordNet definitions to build gloss vectors
+corresponding to each concept in Word-
+Net. Numeric scores of relatedness are as-
+signed to a pair of concepts by measuring
+the cosine of the angle between their re-
+spective gloss vectors. We show that this
+measure compares favorably to other mea-
+sures with respect to human judgments
+of semantic relatedness, and that it per-
+forms well when used in a word sense dis-
+ambiguation algorithm that relies on se-
+mantic relatedness. This measure is flex-
+ible in that it can make comparisons be-
+tween any two concepts without regard to
+their part of speech. In addition, it can
+be adapted to different domains, since any
+plain text corpus can be used to derive the
+co?occurrence information.
+1 

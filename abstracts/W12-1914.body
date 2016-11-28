@@ -1,0 +1,18 @@
+
+We propose an unsupervised approach to
+POS tagging where first we associate each
+word type with a probability distribution over
+word classes using Latent Dirichlet Alloca-
+tion. Then we create a hierarchical cluster-
+ing of the word types: we use an agglomer-
+ative clustering algorithm where the distance
+between clusters is defined as the Jensen-
+Shannon divergence between the probability
+distributions over classes associated with each
+word-type. When assigning POS tags, we find
+the tree leaf most similar to the current word
+and use the prefix of the path leading to this
+leaf as the tag. This simple labeler outper-
+forms a baseline based on Brown clusters on
+9 out of 10 datasets.
+1 

@@ -1,0 +1,28 @@
+
+Part of speech taggers based on Hidden
+Markov Models rely on a series of hypothe-
+ses which make certain errors inevitable.
+The idea developed in this paper consists
+in allowing a limited, controlled ambiguity
+in the output of the tagger in order to avoid
+a number of errors. The ambiguity takes
+the form of ambiguous tags which denote
+subsets of the tagset. These tags are used
+when the tagger hesitates between the dif-
+ferent components of the ambiguous tags.
+They are introduced in an existing lexicon
+and 3-gram database. Their lexical and
+syntactic counts are computed on the basis
+of the lexical and syntactic counts of their
+constituents, using impurity functions. The
+tagging process itself, based on the Viterbi
+algorithm, is unchanged. Experiments con-
+ducted on the Brown corpus show a recall of
+0.982, for an ambiguity rate of 1.233 which
+is to be compared with a baseline recall of
+0.978 for an ambiguity rate of 1.414 using
+the same ambiguous tags and with a recall
+of 0.955 corresponding to the one best solu-
+tion of standard tagging (without ambigu-
+ous tags).
+1 

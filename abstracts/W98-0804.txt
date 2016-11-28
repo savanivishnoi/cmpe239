@@ -1,0 +1,28 @@
+ 
+Large phonetic orpora including both standard and variant ranscriptions are available for many 
+languages. However, applications requiring the use of dynamic vocabularies make necessary to 
+transcribe words not present in the dictionary. Also, additional alternative pronunciations to
+standard forms have shown to improve recognition accuracy. Therefore, new techniques to 
+automatically generate variants in pronunciations have been investigated and proven to be very 
+effective. However, rule-based systems till remain useful to generate standard transcriptions ot 
+previously available or to build new corpora, oriented chiefly to synthesis applications. 
+The present paper describes a letter-to-phone conversion system for Spanish designed to supply 
+transcriptions to the flexible vocabulary speech recogniser and to the synthesiser, both developed 
+at CSELT (Centro Studi e Laboratori relecomunicazioni), Turin, Italy. Different sets of rules are 
+designed for the two applications. Symbols inventories also differ, although the IPA alphabet is the 
+reference system for both. Rules have been written in ANSI C and implemented on DOS and 
+Windows 95 and can be selectively applied. Two speech corpora have been transcribed by means 
+of these grapheme-to-phoneme conversion rules: a) the SpeechDat Spanish corpus which includes 
+4444 words extracted from the phonetically balanced sentences of the database b) a corpus 
+designed to train an automatic aligner to segment units for synthesis, composed of 303 sentences 
+(3240 words) and 338 isolated words; rule-based transcriptions of this corpus were manually 
+corrected. 
+The phonetic forms obtained by the rules matched satisfactorily the reference transcriptions: most 
+mistakes on the first corpus were caused by the presence of secondary stresses in the SpeechDat 
+transcriptions, which were not assigned by the rules, whereas errors on the synthesis corpus 
+appeared mostly on hiatuses and on words of foreign origin. 
+Further developments oriented to recognition can imply addition of rules to account for Latin 
+American pronunciations (especially Mexican, Argentinian and Paraguayan); for synthesis, on the 
+other hand, rules to represent coarticulatory phenomena atword boundaries can be implemented, 
+in order to transcribe whole sentences. 
+33 

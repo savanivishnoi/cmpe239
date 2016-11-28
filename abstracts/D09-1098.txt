@@ -1,0 +1,22 @@
+ 
+Computing the pairwise semantic similarity 
+between all words on the Web is a compu-
+tationally challenging task. Parallelization 
+and optimizations are necessary. We pro-
+pose a highly scalable implementation 
+based on distributional similarity, imple-
+mented in the MapReduce framework and 
+deployed over a 200 billion word crawl of 
+the Web. The pairwise similarity between 
+500 million terms is computed in 50 hours 
+using 200 quad-core nodes. We apply the 
+learned similarity matrix to the task of au-
+tomatic set expansion and present a large 
+empirical study to quantify the effect on 
+expansion performance of corpus size, cor-
+pus quality, seed composition and seed 
+size. We make public an experimental 
+testbed for set expansion analysis that in-
+cludes a large collection of diverse entity 
+sets extracted from Wikipedia. 
+1 

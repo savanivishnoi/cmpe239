@@ -1,0 +1,20 @@
+
+Extensive knowledge bases of entailment rules
+between predicates are crucial for applied se-
+mantic inference. In this paper we propose an
+algorithm that utilizes transitivity constraints
+to learn a globally-optimal set of entailment
+rules for typed predicates. We model the task
+as a graph learning problem and suggest meth-
+ods that scale the algorithm to larger graphs.
+We apply the algorithm over a large data set
+of extracted predicate instances, from which a
+resource of typed entailment rules has been re-
+cently released (Schoenmackers et al, 2010).
+Our results show that using global transitiv-
+ity information substantially improves perfor-
+mance over this resource and several base-
+lines, and that our scaling methods allow us
+to increase the scope of global learning of
+entailment-rule graphs.
+1 

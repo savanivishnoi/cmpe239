@@ -1,0 +1,13 @@
+
+We present a constraint-based syntax-semantics
+interface for the construction of RMRS (Robust
+Minimal Recursion Semantics) representations
+from shallow grammars. The architecture is de-
+signed to allow modular interfaces to existing
+shallow grammars of various depth ? ranging
+from chunk grammars to context-free stochastic
+grammars. We define modular semantics con-
+struction principles in a typed feature structure
+formalism that allow flexible adaptation to al-
+ternative grammars and different languages.1
+1 

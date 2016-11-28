@@ -1,0 +1,20 @@
+
+For transliterating foreign words into Chi-
+nese, the pronunciation of a source word
+is spelled out with Kanji characters. Be-
+cause Kanji comprises ideograms, an indi-
+vidual pronunciation may be represented
+by more than one character. However,
+because different Kanji characters convey
+different meanings and impressions, char-
+acters must be selected carefully. In this
+paper, we propose a transliteration method
+that models both pronunciation and im-
+pression, whereas existing methods do not
+model impression. Given a source word
+and impression keywords related to the
+source word, our method derives possible
+transliteration candidates and sorts them
+according to their probability. We evalu-
+ate our method experimentally.
+1 

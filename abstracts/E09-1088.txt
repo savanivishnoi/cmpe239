@@ -1,0 +1,22 @@
+
+Latent conditional models have become
+popular recently in both natural language
+processing and vision processing commu-
+nities. However, establishing an effective
+and efficient inference method on latent
+conditional models remains a question. In
+this paper, we describe the latent-dynamic
+inference (LDI), which is able to produce
+the optimal label sequence on latent con-
+ditional models by using efficient search
+strategy and dynamic programming. Fur-
+thermore, we describe a straightforward
+solution on approximating the LDI, and
+show that the approximated LDI performs
+as well as the exact LDI, while the speed is
+much faster. Our experiments demonstrate
+that the proposed inference algorithm out-
+performs existing inference methods on
+a variety of natural language processing
+tasks.
+1 

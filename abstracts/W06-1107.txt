@@ -1,0 +1,20 @@
+
+We investigate the problem of measuring
+phonetic similarity, focusing on the iden-
+tification of cognates, words of the same
+origin in different languages. We com-
+pare representatives of two principal ap-
+proaches to computing phonetic similar-
+ity: manually-designed metrics, and learn-
+ing algorithms. In particular, we consider
+a stochastic transducer, a Pair HMM, sev-
+eral DBN models, and two constructed
+schemes. We test those approaches on
+the task of identifying cognates among
+Indoeuropean languages, both in the su-
+pervised and unsupervised context. Our
+results suggest that the averaged context
+DBN model and the Pair HMM achieve
+the highest accuracy given a large training
+set of positive examples.
+1 

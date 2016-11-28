@@ -1,0 +1,13 @@
+ 
+A statistical language model may be used to 
+segment a data sequence by thresholding its 
+instantaneous entropy. In this paper we de- 
+scribe how this process works, and we apply it 
+to the problem of discovering separator sym- 
+bols in a text. Our results how that language 
+models which bootstrap themselves with struc- 
+ture found in this way undergo a reduction in 
+perplexity. We conclude that these techniques 
+may be useful in the design of generic gram- 
+matical inference systems. 
+1 

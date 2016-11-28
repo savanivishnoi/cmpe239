@@ -1,0 +1,22 @@
+
+Speech recognition in many morphologi-
+cally rich languages suffers from a very high
+out-of-vocabulary (OOV) ratio. Earlier work
+has shown that vocabulary decomposition
+methods can practically solve this problem
+for a subset of these languages. This pa-
+per compares various vocabulary decompo-
+sition approaches to open vocabulary speech
+recognition, using Estonian speech recogni-
+tion as a benchmark. Comparisons are per-
+formed utilizing large models of 60000 lex-
+ical items and smaller vocabularies of 5000
+items. A large vocabulary model based on
+a manually constructed morphological tag-
+ger is shown to give the lowest word er-
+ror rate, while the unsupervised morphol-
+ogy discovery method Morfessor Baseline
+gives marginally weaker results. Only the
+Morfessor-based approach is shown to ade-
+quately scale to smaller vocabulary sizes.
+1 

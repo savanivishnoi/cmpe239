@@ -1,0 +1,22 @@
+ 
+We review lexical Association Measures 
+(AMs) that have been employed by past 
+work in extracting multiword expressions. 
+Our work contributes to the understanding 
+of these AMs by categorizing them into 
+two groups and suggesting the use of rank 
+equivalence to group AMs with the same 
+ranking performance. We also examine 
+how existing AMs can be adapted to better 
+rank English verb particle constructions 
+and light verb constructions. Specifically, 
+we suggest normalizing (Pointwise) 
+Mutual Information and using marginal 
+frequencies to construct penalization 
+terms.  We empirically validate the 
+effectiveness of these modified AMs in 
+detection tasks in English, performed on 
+the Penn Treebank, which shows 
+significant improvement over the original 
+AMs. 
+1 

@@ -1,0 +1,19 @@
+ 
+Words and character-bigrams are both 
+used as features in Chinese text process-
+ing tasks, but no systematic comparison 
+or analysis of their values as features for 
+Chinese text categorization has been re-
+ported heretofore. We carry out here a 
+full performance comparison between 
+them by experiments on various docu-
+ment collections (including a manually 
+word-segmented corpus as a golden stan-
+dard), and a semi-quantitative analysis to 
+elucidate the characteristics of their be-
+havior; and try to provide some prelimi-
+nary clue for feature term choice (in most 
+cases, character-bigrams are better than 
+words) and dimensionality setting in text 
+categorization systems. 
+1 

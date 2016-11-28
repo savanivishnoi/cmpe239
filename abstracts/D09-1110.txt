@@ -1,0 +1,16 @@
+
+A large body of recent research has been
+investigating the acquisition and applica-
+tion of applied inference knowledge. Such
+knowledge may be typically captured as
+entailment rules, applied over syntactic
+representations. Efficient inference with
+such knowledge then becomes a funda-
+mental problem. Starting out from a for-
+malism for entailment-rule application we
+present a novel packed data-structure and
+a corresponding algorithm for its scalable
+implementation. We proved the validity of
+the new algorithm and established its effi-
+ciency analytically and empirically.
+1 

@@ -1,0 +1,12 @@
+ 
+The mapping from WordNet o Hector senses m Senseval provides a "gold standard" against wluch to 
+judge our ability to compare lexlcal resources The "gold standard" is provided through aword overlap analysis 
+(with and without a stop list) for flus mapping, achieving at most a 36 percent correct mapping (inflated by 9 
+percent from "empty" assignments) An alternaUve componenttal analysis of the defimtaons, using syntacUc, 
+collocatmnal, and semantac component and relation identification (through the use ofdefimng patterns integrated 
+seamlessly mto the parsing thclaonary), provides an almost 41 percent correct mapping, with an additaonal 4
+percent by recogmzmg semantic omponents not used in the Senseval mapping Defimtion sets of the Senseval 
+words from three pubhshed thclaonanes and Dorr's lextcal knowledge base were added to WordNet and the Hector 
+database to exanune the nature of the mapping process between defimtton sets of more and less sco\[~e The 
+tecbauques described here consUtute only an maaal implementation f the componenUal nalysis approach and 
+suggests that considerable further improvements can be aclueved 

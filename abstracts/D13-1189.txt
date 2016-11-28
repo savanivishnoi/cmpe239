@@ -1,0 +1,20 @@
+ 
+Microblog messages pose severe challenges 
+for current sentiment analysis techniques due 
+to some inherent characteristics such as the 
+length limit and informal writing style. In this 
+paper, we study the problem of extracting 
+opinion targets of Chinese microblog messag-
+es. Such fine-grained word-level task has not 
+been well investigated in microblogs yet. We 
+propose an unsupervised label propagation al-
+gorithm to address the problem. The opinion 
+targets of all messages in a topic are collec-
+tively extracted based on the assumption that 
+similar messages may focus on similar opinion 
+targets. Topics in microblogs are identified by 
+hashtags or using clustering algorithms. Ex-
+perimental results on Chinese microblogs 
+show the effectiveness of our framework and 
+algorithms. 
+1 

@@ -1,0 +1,15 @@
+
+Based on analysis of on-line review corpus
+we observe that most sentences have compli-
+cated opinion structures and they cannot be
+well represented by existing methods, such as
+frame-based and feature-based ones. In this
+work, we propose a novel graph-based rep-
+resentation for sentence level sentiment. An
+integer linear programming-based structural
+learning method is then introduced to produce
+the graph representations of input sentences.
+Experimental evaluations on a manually la-
+beled Chinese corpus demonstrate the effec-
+tiveness of the proposed approach.
+1 

@@ -1,0 +1,27 @@
+
+In most previous research on distribu-
+tional semantics, Vector Space Models
+(VSMs) of words are built either from
+topical information (e.g., documents in
+which a word is present), or from syntac-
+tic/semantic types of words (e.g., depen-
+dency parse links of a word in sentences),
+but not both. In this paper, we explore the
+utility of combining these two representa-
+tions to build VSM for the task of seman-
+tic composition of adjective-noun phrases.
+Through extensive experiments on bench-
+mark datasets, we find that even though
+a type-based VSM is effective for seman-
+tic composition, it is often outperformed
+by a VSM built using a combination of
+topic- and type-based statistics. We also
+introduce a new evaluation task wherein
+we predict the composed vector represen-
+tation of a phrase from the brain activity of
+a human subject reading that phrase. We
+exploit a large syntactically parsed corpus
+of 16 billion tokens to build our VSMs,
+with vectors for both phrases and words,
+and make them publicly available.
+1 

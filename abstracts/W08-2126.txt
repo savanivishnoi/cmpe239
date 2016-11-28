@@ -1,0 +1,15 @@
+
+In this paper we present our syntactic and
+semantic dependency parsing system par-
+ticipated in both closed and open compe-
+titions of the CoNLL 2008 Shared Task.
+By combining the outcome of two state-of-
+the-art syntactic dependency parsers, we
+achieved high accuracy in syntactic de-
+pendencies (87.32%). With MRSes from
+grammar-based HPSG parsers, we achieved
+significant performance improvement on
+semantic role labeling (from 71.31% to
+71.89%), especially in the out-domain
+evaluation (from 60.16% to 62.11%).
+1 

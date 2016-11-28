@@ -1,0 +1,19 @@
+
+Data-driven approaches to sentence com-
+pression define the task as dropping any
+subset of words from the input sentence
+while retaining important information and
+grammaticality. We show that only 16%
+of the observed compressed sentences in
+the domain of subtitling can be accounted
+for in this way. We argue that part of this
+is due to evaluation issues and estimate
+that a deletion model is in fact compat-
+ible with approximately 55% of the ob-
+served data. We analyse the remaining
+problems and conclude that in those cases
+word order changes and paraphrasing are
+crucial, and argue for more elaborate sen-
+tence compression models which build on
+NLG work.
+1 

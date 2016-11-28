@@ -1,0 +1,17 @@
+
+We present our entries for the SemEval-
+2013 cross-language word-sense disambigua-
+tion task (Lefever and Hoste, 2013). We
+submitted three systems based on classifiers
+trained on local context features, with some
+elaborations. Our three systems, in increasing
+order of complexity, were: maximum entropy
+classifiers trained to predict the desired target-
+language phrase using only monolingual fea-
+tures (we called this system L1); similar clas-
+sifiers, but with the desired target-language
+phrase for the other four languages as features
+(L2); and lastly, networks of five classifiers,
+over which we do loopy belief propagation to
+solve the classification tasks jointly (MRF).
+1 

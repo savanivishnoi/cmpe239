@@ -1,0 +1,20 @@
+ 
+The paper studies the automatic extraction of 
+diagnostic word endings for Slavonic langua-
+ges aimed to determine some grammatical, 
+morphological and semantic properties of the 
+underlying word. In particular, ending gues-
+sing rules are being learned from a large mor-
+phological dictionary of Bulgarian in order to 
+predict POS, gender, number, article and se-
+mantics. A simple exact high accuracy algo-
+rithm is developed and compared to an appro-
+ximate one, which uses a scoring function pre-
+viously proposed by Mikheev for POS gues-
+sing. It is shown how the number of rules of 
+the latter can be reduced by a factor of up to 
+35, without sacrificing performance. The eva-
+luation demonstrates coverage close to 100%, 
+and precision of 97-99% for the approximate 
+algorithm. 
+1 

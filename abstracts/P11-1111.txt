@@ -1,0 +1,17 @@
+
+In this work, we present a novel approach
+to the generation task of ordering prenomi-
+nal modifiers. We take a maximum entropy
+reranking approach to the problem which ad-
+mits arbitrary features on a permutation of
+modifiers, exploiting hundreds of thousands of
+features in total. We compare our error rates to
+the state-of-the-art and to a strong Google n-
+gram count baseline. We attain a maximum
+error reduction of 69.8% and average error re-
+duction across all test sets of 59.1% compared
+to the state-of-the-art and a maximum error re-
+duction of 68.4% and average error reduction
+across all test sets of 41.8% compared to our
+Google n-gram count baseline.
+1 

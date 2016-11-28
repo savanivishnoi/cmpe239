@@ -1,0 +1,18 @@
+ 
+In this paper, we describe the experimental 
+settings we adopted in the context of the 2010 
+CoNLL shared task for detecting sentences 
+containing uncertainty. The classification results 
+reported on are obtained using discriminative 
+learning with features essentially incorporating 
+lexical information. Hyper-parameters are tuned 
+for each domain: using BioScope training data 
+for the biomedical domain and Wikipedia 
+training data for the Wikipedia test set. By 
+allowing an efficient handling of combinations of 
+large-scale input features, the discriminative 
+approach we adopted showed highly competitive 
+empirical results for hedge detection on the 
+Wikipedia dataset: our system is ranked as the 
+first with an F-score of 60.17%. 
+1 

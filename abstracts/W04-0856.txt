@@ -1,0 +1,24 @@
+ion and Term Similarity for Word Sense Disambiguation:
+IRST at Senseval-3
+Carlo Strapparava and Alfio Gliozzo and Claudio Giuliano
+ITC-irst, Istituto per la Ricerca Scientica e Tecnologica, I-38050 Trento, ITALY
+{strappa, gliozzo, giuliano}@itc.it
+Abstract
+This paper summarizes IRST?s participation in
+Senseval-3. We participated both in the English all-
+words task and in some lexical sample tasks (En-
+glish, Basque, Catalan, Italian, Spanish). We fol-
+lowed two perspectives. On one hand, for the all-
+words task, we tried to refine the Domain Driven
+Disambiguation that we presented at Senseval-2.
+The refinements consist of both exploiting a new
+technique (Domain Relevance Estimation) for do-
+main detection in texts, and experimenting with the
+use of Latent Semantic Analysis to avoid reliance on
+manually annotated domain resources (e.g. WORD-
+NET DOMAINS). On the other hand, for the lexical
+sample tasks, we explored the direction of pattern
+abstraction and we demonstrated the feasibility of
+leveraging external knowledge using kernel meth-
+ods.
+1 

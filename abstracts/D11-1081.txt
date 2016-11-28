@@ -1,0 +1,18 @@
+
+Although discriminative training guarantees to
+improve statistical machine translation by in-
+corporating a large amount of overlapping fea-
+tures, it is hard to scale up to large data due to
+decoding complexity. We propose a new al-
+gorithm to generate translation forest of train-
+ing data in linear time with the help of word
+alignment. Our algorithm also alleviates the
+oracle selection problem by ensuring that a
+forest always contains derivations that exactly
+yield the reference translation. With millions
+of features trained on 519K sentences in 0.03
+second per sentence, our system achieves sig-
+nificant improvement by 0.84 BLEU over the
+baseline system on the NIST Chinese-English
+test sets.
+1 

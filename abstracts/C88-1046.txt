@@ -1,0 +1,18 @@
+ 
+Th.s paper explores the extent o which phoneme sequence 
+constralnt'~ can be used to identify word boundaries in coutinnous 
+speech recog~fition. The input consists of phonemic transcriptions 
+(without word boundaries indicated) of 145 utterances produced by 
+1 ~e speaker. The constraints are derived by matching the 
+complete set of 3 phonente sequences that can occur' across word 
+boundaries toentries in large lexicons containing both citation and 
+reduced h)rm pronunciations. Phonemic assimilatoxy adjushnents 
+across word boundaries are alse taken into account. The results 
+show that around 37% of all word boundaries can be correctly 
+identified t rom a knowledge of .~uch phoneme sequence contraints 
+alone, and ~hat his figure rises to 45% when a knowledge of one- 
+and two-phoneme words and all legal, word-initial and word-final, 
+two-pitoneloe sequences are taken into account. The possibility of 
+including :~uch constraints in tim architecture of a corrtinuous 
+speech reeogniser is discussed. 
+I. 

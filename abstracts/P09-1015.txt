@@ -1,0 +1,17 @@
+
+Letter-to-phoneme (L2P) conversion is the
+process of producing a correct phoneme
+sequence for a word, given its letters. It
+is often desirable to reduce the quantity of
+training data ? and hence human anno-
+tation ? that is needed to train an L2P
+classifier for a new language. In this pa-
+per, we confront the challenge of building
+an accurate L2P classifier with a minimal
+amount of training data by combining sev-
+eral diverse techniques: context ordering,
+letter clustering, active learning, and pho-
+netic L2P alignment. Experiments on six
+languages show up to 75% reduction in an-
+notation effort.
+1 

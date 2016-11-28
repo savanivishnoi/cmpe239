@@ -1,0 +1,14 @@
+
+Bootstrapping a classifier from a small set
+of seed rules can be viewed as the propaga-
+tion of labels between examples via features
+shared between them. This paper introduces a
+novel variant of the Yarowsky algorithm based
+on this view. It is a bootstrapping learning
+method which uses a graph propagation algo-
+rithm with a well defined objective function.
+The experimental results show that our pro-
+posed bootstrapping algorithm achieves state
+of the art performance or better on several dif-
+ferent natural language data sets.
+1 

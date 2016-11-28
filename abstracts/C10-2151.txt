@@ -1,0 +1,14 @@
+
+Search with synonyms is a challenging
+problem for Web search, as it can eas-
+ily cause intent drifting. In this paper,
+we propose a practical solution to this is-
+sue, based on co-clicked query analysis,
+i.e., analyzing queries leading to clicking
+the same documents. Evaluation results
+on Web search queries show that syn-
+onyms obtained from this approach con-
+siderably outperform the thesaurus based
+synonyms, such as WordNet, in terms of
+keeping search intent.
+1 

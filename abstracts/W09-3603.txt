@@ -1,0 +1,18 @@
+
+We present a maximum entropy classifier
+that significantly improves the accuracy of
+Argumentative Zoning in scientific litera-
+ture. We examine the features used to
+achieve this result and experiment with
+Argumentative Zoning as a sequence tag-
+ging task, decoded with Viterbi using up
+to four previous classification decisions.
+The result is a 23% F-score increase on the
+Computational Linguistics conference pa-
+pers marked up by Teufel (1999).
+Finally, we demonstrate the performance
+of our system in different scientific do-
+mains by applying it to a corpus of As-
+tronomy journal articles annotated using a
+modified Argumentative Zoning scheme.
+1 

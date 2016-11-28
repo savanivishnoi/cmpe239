@@ -1,0 +1,16 @@
+
+We describe a boosting-based supervised
+learning approach to the ?Multi-Way Clas-
+sification of Semantic Relations between
+Pairs of Nominals? task #8 of SemEval-
+2. Participants were asked to determine
+which relation, from a set of nine relations
+plus ?Other?, exists between two nomi-
+nals, and also to determine the roles of the
+two nominals in the relation.
+Our participation has focused, rather than
+on the choice of a rich set of features,
+on the classification model adopted to de-
+termine the correct assignment of relation
+and roles.
+1 

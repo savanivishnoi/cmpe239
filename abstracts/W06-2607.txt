@@ -1,0 +1,22 @@
+
+Recent work on the design of automatic
+systems for semantic role labeling has
+shown that feature engineering is a com-
+plex task from a modeling and implemen-
+tation point of view. Tree kernels alleviate
+such complexity as kernel functions gener-
+ate features automatically and require less
+software development for data extraction.
+In this paper, we study several tree kernel
+approaches for both boundary detection
+and argument classification. The compar-
+ative experiments on Support Vector Ma-
+chines with such kernels on the CoNLL
+2005 dataset show that very simple tree
+manipulations trigger automatic feature
+engineering that highly improves accuracy
+and efficiency in both phases. Moreover,
+the use of different classifiers for internal
+and pre-terminal nodes maintains the same
+accuracy and highly improves efficiency.
+1 

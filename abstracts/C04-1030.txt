@@ -1,0 +1,25 @@
+
+In statistical machine translation, the gen-
+eration of a translation hypothesis is com-
+putationally expensive. If arbitrary re-
+orderings are permitted, the search prob-
+lem is NP-hard. On the other hand,
+if we restrict the possible reorderings
+in an appropriate way, we obtain a
+polynomial-time search algorithm. We in-
+vestigate different reordering constraints
+for phrase-based statistical machine trans-
+lation, namely the IBM constraints and
+the ITG constraints. We present effi-
+cient dynamic programming algorithms
+for both constraints. We evaluate the con-
+straints with respect to translation quality
+on two Japanese?English tasks. We show
+that the reordering constraints improve
+translation quality compared to an un-
+constrained search that permits arbitrary
+phrase reorderings. The ITG constraints
+preform best on both tasks and yield sta-
+tistically significant improvements com-
+pared to the unconstrained search.
+1 

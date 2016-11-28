@@ -1,0 +1,18 @@
+
+In this paper, we study the problem of auto-
+matically segmenting written text into para-
+graphs. This is inherently a sequence label-
+ing problem, however, previous approaches
+ignore this dependency. We propose a novel
+approach for automatic paragraph segmen-
+tation, namely training Semi-Markov mod-
+els discriminatively using a Max-Margin
+method. This method allows us to model
+the sequential nature of the problem and to
+incorporate features of a whole paragraph,
+such as paragraph coherence which cannot
+be used in previous models. Experimental
+evaluation on four text corpora shows im-
+provement over the previous state-of-the art
+method on this task.
+1 

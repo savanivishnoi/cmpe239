@@ -1,0 +1,21 @@
+
+We use a set of enriched n-gram models to track
+grammaticality judgements for different sorts of
+passive sentences in English. We construct these
+models by specifying scoring functions to map the
+log probabilities (logprobs) of an n-gram model for
+a test set of sentences onto scores which depend
+on properties of the string related to the parame-
+ters of the model. We test our models on classifica-
+tion tasks for different kinds of passive sentences.
+Our experiments indicate that our n-gram models
+achieve high accuracy in identifying ill-formed pas-
+sives in which ill-formedness depends on local rela-
+tions within the n-gram frame, but they are far less
+successful in detecting non-local relations that pro-
+duce unacceptability in other types of passive con-
+struction. We take these results to indicate some of
+the strengths and the limitations of word and lexical
+class n-gram models as candidate representations of
+speakers? grammatical knowledge.
+1 

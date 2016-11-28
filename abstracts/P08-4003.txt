@@ -1,0 +1,20 @@
+
+Developing a full coreference system able
+to run all the way from raw text to seman-
+tic interpretation is a considerable engineer-
+ing effort, yet there is very limited avail-
+ability of off-the shelf tools for researchers
+whose interests are not in coreference, or for
+researchers who want to concentrate on a
+specific aspect of the problem. We present
+BART, a highly modular toolkit for de-
+veloping coreference applications. In the
+Johns Hopkins workshop on using lexical
+and encyclopedic knowledge for entity dis-
+ambiguation, the toolkit was used to ex-
+tend a reimplementation of the Soon et al
+(2001) proposal with a variety of additional
+syntactic and knowledge-based features, and
+experiment with alternative resolution pro-
+cesses, preprocessing tools, and classifiers.
+1 

@@ -1,0 +1,19 @@
+
+The rapid growth of geotagged social media
+raises new computational possibilities for in-
+vestigating geographic linguistic variation. In
+this paper, we present a multi-level generative
+model that reasons jointly about latent topics
+and geographical regions. High-level topics
+such as ?sports? or ?entertainment? are ren-
+dered differently in each geographic region,
+revealing topic-specific regional distinctions.
+Applied to a new dataset of geotagged mi-
+croblogs, our model recovers coherent top-
+ics and their regional variants, while identi-
+fying geographic areas of linguistic consis-
+tency. The model also enables prediction of
+an author?s geographic location from raw text,
+outperforming both text regression and super-
+vised topic models.
+1 

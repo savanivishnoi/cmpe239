@@ -1,0 +1,26 @@
+ 
+This paper proposes a new bootstrapping 
+framework using cross-lingual information pro-
+jection. We demonstrate that this framework is 
+particularly effective for a challenging NLP task 
+which is situated at the end of a pipeline and 
+thus suffers from the errors propagated from up-
+stream processing and has low-performance 
+baseline. Using Chinese event extraction as a 
+case study and bitexts as a new source of infor-
+mation, we present three bootstrapping tech-
+niques. We first conclude that the standard 
+mono-lingual bootstrapping approach is not so 
+effective. Then we exploit a second approach 
+that potentially benefits from the extra informa-
+tion captured by an English event extraction sys-
+tem and projected into Chinese. Such a cross-
+lingual scheme produces significant performance 
+gain. Finally we show that the combination of 
+mono-lingual and cross-lingual information in 
+bootstrapping can further enhance the perfor-
+mance. Ultimately this new framework obtained 
+10.1% relative improvement in trigger labeling 
+(F-measure) and 9.5% relative improvement in 
+argument-labeling. 
+1 

@@ -1,0 +1,17 @@
+ 
+This paper describes a character-based 
+Chinese word sense induction (WSI) sys-
+tem for the International Chinese Lan-
+guage Processing Bakeoff 2010. By 
+computing the longest common sub-
+strings between any two contexts of the 
+ambiguous word, our system extracts 
+collocations as features and does not de-
+pend on any extra tools, such as Chinese 
+word segmenters. We also design a con-
+strained clustering algorithm for this task. 
+Experiemental results show that our sys-
+tem could achieve 69.88 scores of 
+FScore on the development data set of 
+SIGHAN Bakeoff 2010. 
+1 

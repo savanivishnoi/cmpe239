@@ -1,0 +1,18 @@
+
+This paper investigates methods for using lexical pat-
+terns in a corpus to deduce the semantic relation that 
+holds between two nouns in a noun-noun compound 
+phrase such as ?flu virus? or ?morning exercise?. Much 
+of the previous work in this area has used automated 
+queries to commercial web search engines. In our exper-
+iments we use the Google Web 1T corpus. This corpus 
+contains every 2,3, 4 and 5 gram occurring more
+than 40 times in Google's index of the web, but has the
+advantage of being available to researchers directly
+rather than through a web interface. This paper evalu-
+ates the performance of the Web 1T corpus on the task 
+compared to similar systems in the literature, and also 
+investigates what kind of lexical patterns are most in-
+formative when trying to identify a semantic relation
+between two nouns.
+1 

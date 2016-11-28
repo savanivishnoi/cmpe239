@@ -1,0 +1,20 @@
+
+While inversion transduction grammar (ITG)
+is well suited for modeling ordering shifts
+between languages, how to make applying
+the two reordering rules (i.e., straight and
+inverted) dependent on actual blocks being
+merged remains a challenge. Unlike previous
+work that only uses boundary words, we pro-
+pose to use recursive autoencoders to make
+full use of the entire merging blocks alter-
+natively. The recursive autoencoders are ca-
+pable of generating vector space representa-
+tions for variable-sized phrases, which enable
+predicting orders to exploit syntactic and se-
+mantic information from a neural language
+modeling?s perspective. Experiments on the
+NIST 2008 dataset show that our system sig-
+nificantly improves over the MaxEnt classifier
+by 1.07 BLEU points.
+1 

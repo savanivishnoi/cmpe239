@@ -1,0 +1,24 @@
+
+In this paper, we address the issue of automat-
+ically identifying null instantiated arguments
+in text. We refer to Fillmore?s theory of prag-
+matically controlled zero anaphora (Fillmore,
+1986), which accounts for the phenomenon of
+omissible arguments using a lexically-based
+approach, and we propose a strategy for iden-
+tifying implicit arguments in a text and finding
+their antecedents, given the overtly expressed
+semantic roles in the form of frame elements.
+To this purpose, we primarily rely on linguis-
+tic knowledge enriched with role frequency
+information collected from a training corpus.
+We evaluate our approach using the test set
+developed for the SemEval task 10 and we
+highlight some issues of our approach. Be-
+sides, we also point out some open problems
+related to the task definition and to the general
+phenomenon of null instantiated arguments,
+which needs to be better investigated and de-
+scribed in order to be captured from a compu-
+tational point of view.
+1 

@@ -1,0 +1,29 @@
+
+Algorithms that generate expressions to 
+identify a referent are mostly tailored 
+towards objects which are in some sense 
+conceived as holistic entities, describing 
+them in terms of their properties and 
+relations to other objects. This approach 
+may prove not fully adequate when 
+referring to components of structured 
+objects, specifically for abstract objects 
+in formal domains, where scope and 
+relative positions are essential features. 
+In this paper, we adapt the standard Dale 
+and Reiter algorithm to specifics of such 
+references as observed in a corpus about  
+mathematical proofs. Extensions incor-
+porated include an incremental speciali-
+zation of property values for metonymic 
+references, local and global positions 
+reflecting group formations and impli-
+cature-based scope preferences to justify 
+unique identification of the intended 
+referent. The approach is primarily 
+relevant for domains where abstract 
+formal objects are prominent, but some 
+of its features are also useful to extend 
+the expressive repertoire of reference 
+generation algorithms in other domains.
+1 

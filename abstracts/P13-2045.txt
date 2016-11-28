@@ -1,0 +1,19 @@
+
+In this paper, we study the problem of au-
+tomatically annotating the factoids present
+in collective discourse. Factoids are in-
+formation units that are shared between
+instances of collective discourse and may
+have many different ways of being realized
+in words. Our approach divides this prob-
+lem into two steps, using a graph-based
+approach for each step: (1) factoid dis-
+covery, finding groups of words that corre-
+spond to the same factoid, and (2) factoid
+assignment, using these groups of words
+to mark collective discourse units that con-
+tain the respective factoids. We study this
+on two novel data sets: the New Yorker
+caption contest data set, and the crossword
+clues data set.
+1 

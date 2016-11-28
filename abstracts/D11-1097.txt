@@ -1,0 +1,14 @@
+
+This paper investigates novel methods for in-
+corporating syntactic information in proba-
+bilistic latent variable models of lexical choice
+and contextual similarity. The resulting mod-
+els capture the effects of context on the inter-
+pretation of a word and in particular its effect
+on the appropriateness of replacing that word
+with a potentially related one. Evaluating our
+techniques on two datasets, we report perfor-
+mance above the prior state of the art for esti-
+mating sentence similarity and ranking lexical
+substitutes.
+1 

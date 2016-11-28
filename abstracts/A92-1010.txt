@@ -1,0 +1,23 @@
+ 
+In our current research into the design of cognitively well-mo- 
+tivated interfaces relying primarily on the display of graphical 
+information, we have observed that graphical information 
+alone does not provide sufficient support to users particu- 
+larly when situations arise that do not simply conform to the 
+users' expectations. This can occur due to too much informa- 
+tion being requested, too little, information of the wrong kind, 
+etc. To solve this problem, we are working towards the integra- 
+tion of natural language generation toaugment the interaction 
+functionalities of the interface. This is intended to support the 
+generation of flexible natural language utterances which pin- 
+point possible problems with a user's request and which fur- 
+ther go on to outline the user's most sensible courses of action 
+away from the problem. In this paper, we describe our first pro- 
+totype, where we combine the graphical and interaction plan- 
+ning capabilities of our graphical information system SIC! 
+with the text generation capabilities of the Penman system. We 
+illustrate the need for such a combined system, and also give 
+examples of how a general natural language facility beneficial- 
+ly augments the user's ability to navigate a knowledge base 
+graphically. 
+I 

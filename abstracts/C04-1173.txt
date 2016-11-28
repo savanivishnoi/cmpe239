@@ -1,0 +1,13 @@
+
+This paper presents a disambiguation
+method in which word senses are deter-
+mined using a dictionary. We use a seman-
+tic proximity measure between words in the
+dictionary, taking into account the whole
+topology of the dictionary, seen as a graph
+on its entries. We have tested the method on
+the problem of disambiguation of the dic-
+tionary entries themselves, with promising
+results considering we do not use any prior
+annotated data.
+1 

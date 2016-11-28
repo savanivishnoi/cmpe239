@@ -1,0 +1,26 @@
+
+This paper describes our system for syn-
+tactic and semantic dependency parsing
+to participate the shared task of CoNLL-
+2008. We use a pipeline approach, in
+which syntactic dependency parsing, word
+sense disambiguation, and semantic role
+labeling are performed separately: Syn-
+tactic dependency parsing is performed
+by a tournament model with a support
+vector machine; word sense disambigua-
+tion is performed by a nearest neighbour
+method in a compressed feature space by
+probabilistic latent semantic indexing; and
+semantic role labeling is performed by
+a an online passive-aggressive algorithm.
+The submitted result was 79.10 macro-
+average F1 for the joint task, 87.18% syn-
+tactic dependencies LAS, and 70.84 se-
+mantic dependencies F1. After the dead-
+line, we constructed the other configura-
+tion, which achieved 80.89 F1 for the joint
+task, and 74.53 semantic dependencies F1.
+The result shows that the configuration of
+pipeline is a crucial issue in the task.
+1 

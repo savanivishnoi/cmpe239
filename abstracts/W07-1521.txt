@@ -1,0 +1,16 @@
+ 
+This paper presents the building procedure 
+of a Chinese sense annotated corpus. A set 
+of software tools is designed to help hu-
+man annotator to accelerate the annotation 
+speed and keep the consistency. The soft-
+ware tools include 1) a tagger for word 
+segmentation and POS tagging, 2) an an-
+notating interface responsible for the sense 
+describing in the lexicon and sense anno-
+tating in the corpus, 3) a checker for con-
+sistency keeping, 4) a transformer respon-
+sible for the transforming from text file to 
+XML format, and 5) a counter for sense 
+frequency distribution calculating. 
+1 

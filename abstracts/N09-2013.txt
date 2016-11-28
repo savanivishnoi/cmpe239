@@ -1,0 +1,3 @@
+ 
+Automatically detecting dialogue structure within corpora of human-human dialogue is the subject of increasing attention.  In the do-main of tutorial dialogue, automatic discovery of dialogue structure is of particular interest because these structures inherently represent tutorial strategies or modes, the study of which is key to the design of intelligent tutor-ing systems that communicate with learners through natural language.  We propose a methodology in which a corpus of human-human tutorial dialogue is first manually an-notated with dialogue acts.  Dependent adja-cency pairs of these acts are then identified through ?2 analysis, and hidden Markov mod-eling is applied to the observed sequences to induce a descriptive model of the dialogue structure.       
+1 

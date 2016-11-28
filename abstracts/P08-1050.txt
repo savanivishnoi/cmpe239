@@ -1,0 +1,15 @@
+
+In this work, we develop and evaluate a wide
+range of feature spaces for deriving Levin-
+style verb classifications (Levin, 1993). We
+perform the classification experiments using
+Bayesian Multinomial Regression (an effi-
+cient log-linear modeling framework which
+we found to outperform SVMs for this task)
+with the proposed feature spaces. Our exper-
+iments suggest that subcategorization frames
+are not the most effective features for auto-
+matic verb classification. A mixture of syntac-
+tic information and lexical information works
+best for this task.
+1 

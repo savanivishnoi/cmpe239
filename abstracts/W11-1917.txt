@@ -1,0 +1,15 @@
+
+Our system treats coreference resolution as
+an integer linear programming (ILP) problem.
+Extending Denis and Baldridge (2007) and
+Finkel andManning (2008)?s work, we exploit
+loose transitivity constraints on coreference
+pairs. Instead of enforcing transitivity closure
+constraints, which brings O(n3) complexity,
+we employ a strategy to reduce the number
+of constraints without large performance de-
+crease, i.e., eliminating coreference pairs with
+probability below a threshold . Experimental
+results show that it achieves a better perfor-
+mance than pairwise classifiers.
+1 

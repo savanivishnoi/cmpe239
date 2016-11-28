@@ -1,0 +1,9 @@
+
+Motivated by phrase-based translation research,
+we present a transliteration system where char-
+acters are grouped into substrings to be mapped
+atomically into the target language. We show how
+this substring representation can be incorporated
+into a Conditional Random Field model that uses
+local context and phonemic information.
+1 

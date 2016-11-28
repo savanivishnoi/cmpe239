@@ -1,0 +1,18 @@
+
+We describe a word alignment platform 
+which ensures text pre-processing (to-
+kenization, POS-tagging, lemmatization, 
+chunking, sentence alignment) as re-
+quired by an accurate word alignment. 
+The platform combines two different 
+methods, producing distinct alignments. 
+The basic word aligners are described in 
+some details and are individually evalu-
+ated. The union of the individual align-
+ments is subject to a filtering post-
+processing phase. Two different filtering 
+methods are also presented. The evalua-
+tion shows that the combined word 
+alignment contains 10.75% less errors 
+than the best individual aligner. 
+1 

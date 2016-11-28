@@ -1,0 +1,17 @@
+ 
+This paper explores the segmentation of 
+tutorial dialogue into cohesive topics. A 
+latent semantic space was created using 
+conversations from human to human tu-
+toring transcripts, allowing cohesion be-
+tween utterances to be measured using 
+vector similarity.  Previous cohesion-
+based segmentation methods that focus on 
+expository monologue are reapplied to 
+these dialogues to create benchmarks for 
+performance.  A novel moving window 
+technique using orthonormal bases of se-
+mantic vectors significantly outperforms 
+these benchmarks on this dialogue seg-
+mentation task. 
+1 

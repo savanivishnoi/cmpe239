@@ -1,0 +1,21 @@
+
+We present a system that learns to fol-
+low navigational natural language direc-
+tions. Where traditional models learn
+from linguistic annotation or word distri-
+butions, our approach is grounded in the
+world, learning by apprenticeship from
+routes through a map paired with English
+descriptions. Lacking an explicit align-
+ment between the text and the reference
+path makes it difficult to determine what
+portions of the language describe which
+aspects of the route. We learn this corre-
+spondence with a reinforcement learning
+algorithm, using the deviation of the route
+we follow from the intended path as a re-
+ward signal. We demonstrate that our sys-
+tem successfully grounds the meaning of
+spatial terms like above and south into ge-
+ometric properties of paths.
+1 

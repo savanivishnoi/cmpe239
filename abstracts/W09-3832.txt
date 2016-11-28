@@ -1,0 +1,29 @@
+
+Supertagging is a widely used speed-up
+technique for deep parsing. In another
+aspect, supertagging has been exploited
+in other NLP tasks than parsing for
+utilizing the rich syntactic information
+given by the supertags. However, the
+performance of supertagger is still a
+bottleneck for such applications. In this
+paper, we investigated the relationship
+between supertagging and parsing, not
+just to speed up the deep parser; We
+started from a sequence labeling view
+of HPSG supertagging, examining how
+well a supertagger can do when separated
+from parsing. Comparison of two types
+of supertagging model, point-wise model
+and sequential model, showed that the
+former model works competitively well
+despite its simplicity, which indicates
+the true dependency among supertag
+assignments is far more complex than the
+crude first-order approximation made in
+the sequential model. We then analyzed
+the limitation of separated supertagging
+by using a CFG-filter. The results showed
+that big gains could be acquired by resort-
+ing to a light-weight parser.
+1 

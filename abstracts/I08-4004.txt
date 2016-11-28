@@ -1,0 +1,26 @@
+ 
+We present a hybrid machine learning ap-
+proach for coreference resolution. In our 
+method, we use CRFs as basic training 
+model, use active learning method to gen-
+erate combined features so as to make ex-
+isted features used more effectively; at last, 
+we proposed a novel clustering algorithm 
+which used both the linguistics knowledge 
+and the statistical knowledge. We built a 
+coreference resolution system based on the 
+proposed method and evaluate its perform-
+ance from three aspects: the contributions 
+of active learning; the effects of different 
+clustering algorithms; and the resolution 
+performance of different kinds of NPs. Ex-
+perimental results show that additional per-
+formance gain can be obtained by using ac-
+tive learning method; clustering algorithm 
+has a great effect on coreference resolu-
+tion?s performance and our clustering algo-
+rithm is very effective; and the key of 
+coreference resolution is to improve the 
+performance of the normal noun?s resolu-
+tion, especially the pronoun?s resolution. 
+1 

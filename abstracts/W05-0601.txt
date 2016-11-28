@@ -1,0 +1,26 @@
+
+Research on document similarity has
+shown that complex representations are
+not more accurate than the simple bag-of-
+words. Term clustering, e.g. using latent
+semantic indexing, word co-occurrences
+or synonym relations using a word ontol-
+ogy have been shown not very effective.
+In particular, when to extend the similar-
+ity function external prior knowledge is
+used, e.g. WordNet, the retrieval system
+decreases its performance. The critical is-
+sues here are methods and conditions to
+integrate such knowledge.
+In this paper we propose kernel func-
+tions to add prior knowledge to learn-
+ing algorithms for document classifica-
+tion. Such kernels use a term similarity
+measure based on the WordNet hierarchy.
+The kernel trick is used to implement such
+space in a balanced and statistically co-
+herent way. Cross-validation results show
+the benefit of the approach for the Support
+Vector Machines when few training data is
+available.
+1 

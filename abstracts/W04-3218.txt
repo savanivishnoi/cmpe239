@@ -1,0 +1,31 @@
+
+We are interested in the problem of modeling
+and evaluating spoken language systems in the
+context of human-machine dialogs. Spoken di-
+alog corpora allow for a multidimensional anal-
+ysis of speech recognition and language under-
+standing models of dialog systems. Therefore
+language models can be directly trained based
+either on the dialog history or its equivalence
+class (or cluster). In this paper we propose an
+algorithm to mine dialog traces which exhibit
+similar patterns and are identified by the same
+class. For this purpose we apply data clustering
+methods to large human-machine spoken dia-
+logue corpora. The resulting clusters can be
+used for system evaluation and language mod-
+eling. By clustering dialog traces we expect to
+learn about the behavior of the system with re-
+gards to not only the automation rate but the
+nature of the interaction (e.g. easy vs difficult
+dialogs). The equivalence classes can also be
+used in order to automatically adapt the lan-
+guage model, the understanding module and the
+dialogue strategy to better fit the kind of in-
+teraction detected. This paper investigates dif-
+ferent ways for encoding dialogues into multi-
+dimensional structures and different clustering
+methods. Preliminary results are given for clus-
+ter interpretation and dynamic model adapta-
+tion using the clusters obtained.
+1 

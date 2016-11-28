@@ -1,0 +1,32 @@
+
+Today, automatic evaluation metrics such as
+ROUGE have become the de-facto mode of
+evaluating an automatic summarization sys-
+tem. However, based on the DUC and the TAC
+evaluation results, (Conroy and Schlesinger,
+2008; Dang and Owczarzak, 2008) showed
+that the performance gap between human-
+generated summaries and system-generated
+summaries is clearly visible in manual eval-
+uations but is often not reflected in automated
+evaluations using ROUGE scores. In this pa-
+per, we present our own experiments in com-
+paring the results of manual evaluations ver-
+sus automatic evaluations using our own text
+summarizer: BlogSum. We have evaluated
+BlogSum-generated summary content using
+ROUGE and compared the results with the
+original candidate list (OList). The t-test re-
+sults showed that there is no significant differ-
+ence between BlogSum-generated summaries
+and OList summaries. However, two man-
+ual evaluations for content using two different
+datasets show that BlogSum performed signif-
+icantly better than OList. A manual evaluation
+of summary coherence also shows that Blog-
+Sum performs significantly better than OList.
+These results agree with previous work and
+show the need for a better automated sum-
+mary evaluation metric rather than the stan-
+dard ROUGE metric.
+1 

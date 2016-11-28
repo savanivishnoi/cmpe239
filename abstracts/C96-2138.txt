@@ -1,0 +1,20 @@
+ 
+We have developed a technique that catego- 
+rizes document images based on their con- 
+tent. Unlike conventional methods that use 
+optical character recognition (OCR), we con- 
+vert document images into word shape 
+tokens, a shape-based representation of 
+words. Because we have only to recognize 
+simple graphical features from image, this 
+process is much faster than OCR. Although 
+the mapping between word shape tokens and 
+words is one-to-many, they are a rich source 
+of information for content characterization. 
+Using a vector space classifier with a 
+scanned ocument image database, we show 
+that the word shape token-based approach is 
+quite adequate for content-oriented categori- 
+zation in terms of accuracy compared with 
+conventional OCR-based approaches. 
+1 

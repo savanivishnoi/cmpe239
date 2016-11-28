@@ -1,0 +1,26 @@
+
+We present a novel approach to the unsu-
+pervised detection of affixes, that is, to ex-
+tract a set of salient prefixes and suffixes
+from an unlabeled corpus of a language.
+The underlying theory makes no assump-
+tions on whether the language uses a lot
+of morphology or not, whether it is pre-
+fixing or suffixing, or whether affixes are
+long or short. It does however make the
+assumption that 1. salient affixes have to
+be frequent, i.e occur much more often
+that random segments of the same length,
+and that 2. words essentially are vari-
+able length sequences of random charac-
+ters, e.g a character should not occur in
+far too many words than random without
+a reason, such as being part of a very fre-
+quent affix. The affix extraction algorithm
+uses only information from fluctation of
+frequencies, runs in linear time, and is free
+from thresholds and untransparent itera-
+tions. We demonstrate the usefulness of
+the approach with example case studies on
+typologically distant languages.
+1 

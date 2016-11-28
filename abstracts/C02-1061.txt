@@ -1,0 +1,20 @@
+
+For meaning representations in NLP, we focus
+our attention on thematic aspects and concep-
+tual vectors. The learning strategy of concep-
+tual vectors relies on a morphosyntaxic analy-
+sis of human usage dictionary definitions linked
+to vector propagation. This analysis currently
+doesn?t take into account negation phenomena.
+This work aims at studying the antonymy as-
+pects of negation, in the larger goal of its inte-
+gration into the thematic analysis. We present a
+model based on the idea of symmetry compat-
+ible with conceptual vectors. Then, we define
+antonymy functions which allows the construc-
+tion of an antonymous vector and the enumer-
+ation of its potentially antinomic lexical items.
+Finally, we introduce a measure which evaluates
+how a given word is an acceptable antonym for
+a term.
+1 

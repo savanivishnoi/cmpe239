@@ -1,0 +1,22 @@
+
+We describe our hybrid machine trans-
+lation system which has been developed
+for and used in the WMT10 shared task.
+We compute translations from a rule-
+based MT system and combine the re-
+sulting translation ?templates? with par-
+tial phrases from a state-of-the-art phrase-
+based, statistical MT engine. Phrase sub-
+stitution is guided by several decision
+factors, a continuation of previous work
+within our group. For the shared task,
+we have computed translations for six lan-
+guage pairs including English, German,
+French and Spanish. Our experiments
+have shown that our shallow substitu-
+tion approach can effectively improve the
+translation result from the RBMT system;
+however it has also become clear that a
+deeper integration is needed to further im-
+prove translation quality.
+1 

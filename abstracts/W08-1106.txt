@@ -1,0 +1,25 @@
+ive Summarization of Evaluative 
+Text: The Effect of Corpus Controversiality
+Giuseppe Carenini and Jackie Chi Kit Cheung1
+Department of Computer Science
+University of British Columbia
+Vancouver, B.C.  V6T 1Z4, Canada 
+{carenini,cckitpw}@cs.ubc.ca
+Abstract
+Extractive  summarization  is  the  strategy  of 
+concatenating  extracts  taken  from  a  corpus 
+into a summary, while abstractive summariza-
+tion  involves  paraphrasing  the  corpus  using 
+novel sentences.  We define a novel  measure 
+of  corpus  controversiality  of  opinions  con-
+tained in evaluative text, and report the results 
+of  a  user  study  comparing  extractive  and 
+NLG-based abstractive summarization at dif-
+ferent levels of controversiality. While the ab-
+stractive summarizer performs better overall, 
+the results suggest  that the margin by which 
+abstraction  outperforms  extraction  is  greater 
+when  controversiality  is  high,  providing  a 
+context  in  which  the  need  for  generation-
+based methods is especially great.
+1 

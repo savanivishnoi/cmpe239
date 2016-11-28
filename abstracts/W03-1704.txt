@@ -1,0 +1,29 @@
+ 
+Word extraction is one of the important 
+tasks in text information processing. 
+There are mainly two kinds of statistic-
+based measures for word extraction: the 
+internal measure and the contextual 
+measure. This paper discusses these two 
+kinds of measures for Chinese word 
+extraction. First, nine widely adopted 
+internal measures are tested and 
+compared on individual basis. Then 
+various schemes of combining these 
+measures are tried so as to improve the 
+performance. Finally, the left/right 
+entropy is integrated to see the effect of 
+contextual measures. Genetic algorithm is 
+explored to automatically adjust the 
+weights of combination and thresholds. 
+Experiments focusing on two-character 
+Chinese word extraction show a 
+promising result: the F-measure of 
+mutual information, the most powerful 
+internal measure, is 57.82%, whereas the 
+best combination scheme of internal 
+measures achieves the F-measure of 
+59.87%. With the integration of the 
+contextual measure, the word extraction 
+achieves the F-measure of 68.48% at last. 
+1 

@@ -1,0 +1,18 @@
+
+We consider a new subproblem of unsuper-
+vised parsing from raw text, unsupervised par-
+tial parsing?the unsupervised version of text
+chunking. We show that addressing this task
+directly, using probabilistic finite-state meth-
+ods, produces better results than relying on
+the local predictions of a current best unsu-
+pervised parser, Seginer?s (2007) CCL. These
+finite-state models are combined in a cascade
+to produce more general (full-sentence) con-
+stituent structures; doing so outperforms CCL
+by a wide margin in unlabeled PARSEVAL
+scores for English, German and Chinese. Fi-
+nally, we address the use of phrasal punctua-
+tion as a heuristic indicator of phrasal bound-
+aries, both in our system and in CCL.
+1 

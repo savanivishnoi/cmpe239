@@ -1,0 +1,11 @@
+
+We describe a parser used in the CoNLL
+2006 Shared Task, ?Multingual Depen-
+dency Parsing.? The parser first identi-
+fies syntactic dependencies and then labels
+those dependencies using a maximum en-
+tropy classifier. We consider the impact of
+feature engineering and the choice of ma-
+chine learning algorithm, with particular
+focus on Slovene, Spanish and Swedish.
+1 

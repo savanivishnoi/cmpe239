@@ -1,0 +1,15 @@
+
+Contextual information extracted from cor-
+pora is frequently used to model seman-
+tic similarity. We discuss distinct classes
+of context types and compare their effec-
+tiveness for compound noun interpretation.
+Contexts corresponding to word-word sim-
+ilarity perform better than contexts corre-
+sponding to relation similarity, even when
+relational co-occurrences are extracted from
+a much larger corpus. Combining word-
+similarity and relation-similarity kernels fur-
+ther improves SVM classification perfor-
+mance.
+1 

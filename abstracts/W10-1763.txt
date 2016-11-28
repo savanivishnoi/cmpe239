@@ -1,0 +1,23 @@
+
+We present a method for incorporat-
+ing arbitrary context-informed word at-
+tributes into statistical machine trans-
+lation by clustering attribute-qualified
+source words, and smoothing their
+word translation probabilities using bi-
+nary decision trees. We describe two
+ways in which the decision trees are
+used in machine translation: by us-
+ing the attribute-qualified source word
+clusters directly, or by using attribute-
+dependent lexical translation probabil-
+ities that are obtained from the trees,
+as a lexical smoothing feature in the de-
+coder model. We present experiments
+using Arabic-to-English newswire data,
+and using Arabic diacritics and part-of-
+speech as source word attributes, and
+show that the proposed method im-
+proves on a state-of-the-art translation
+system.
+1 

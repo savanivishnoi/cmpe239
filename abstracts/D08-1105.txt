@@ -1,0 +1,27 @@
+
+The accuracy of current word sense disam-
+biguation (WSD) systems is affected by the
+fine-grained sense inventory of WordNet as
+well as a lack of training examples. Using the
+WSD examples provided through OntoNotes,
+we conduct the first large-scale WSD evalua-
+tion involving hundreds of word types and tens
+of thousands of sense-tagged examples, while
+adopting a coarse-grained sense inventory. We
+show that though WSD systems trained with a
+large number of examples can obtain a high
+level of accuracy, they nevertheless suffer a
+substantial drop in accuracy when applied to
+a different domain. To address this issue, we
+propose combining a domain adaptation tech-
+nique using feature augmentation with active
+learning. Our results show that this approach
+is effective in reducing the annotation effort
+required to adapt a WSD system to a new do-
+main. Finally, we propose that one can maxi-
+mize the dual benefits of reducing the annota-
+tion effort while ensuring an increase in WSD
+accuracy, by only performing active learning
+on the set of most frequently occurring word
+types.
+1 

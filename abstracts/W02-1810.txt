@@ -1,0 +1,14 @@
+ 
+Traditional indexing methods often record 
+physical positions for the specified words, thus fail 
+to recognize context information. We suggest that 
+Chinese text index should work on the layer of 
+sentences. This paper presents an indexing method 
+based on sentences and demonstrates how to use 
+this method to help compute the mutual 
+information of word pairs in a running text. It 
+brings many conveniences to work of natural 
+language processing. 
+Keywords: natural language processing, index file, 
+mutual information 
+1. 

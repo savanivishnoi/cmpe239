@@ -1,0 +1,15 @@
+
+We present a number of semi-supervised pars-
+ing experiments on the Irish language carried
+out using a small seed set of manually parsed
+trees and a larger, yet still relatively small, set
+of unlabelled sentences. We take two pop-
+ular dependency parsers ? one graph-based
+and one transition-based ? and compare re-
+sults for both. Results show that using semi-
+supervised learning in the form of self-training
+and co-training yields only very modest im-
+provements in parsing accuracy. We also try
+to use morphological information in a targeted
+way and fail to see any improvements.
+1 

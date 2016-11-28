@@ -1,0 +1,16 @@
+
+Morphological analysis and disambiguation
+are crucial stages in a variety of natural
+language processing applications, especially
+when languages with complex morphology
+are concerned. We present a system which
+disambiguates the output of a morphologi-
+cal analyzer for Hebrew. It consists of sev-
+eral simple classifiers and a module which
+combines them under linguistically moti-
+vated constraints. We investigate a number
+of techniques for combining the predictions
+of the classifiers. Our best result, 91.44% ac-
+curacy, reflects a 25% reduction in error rate
+compared with the previous state of the art.
+1 

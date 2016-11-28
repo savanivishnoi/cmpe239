@@ -1,0 +1,18 @@
+
+We apply topic modelling to automatically
+induce word senses of a target word, and
+demonstrate that our word sense induction
+method can be used to automatically de-
+tect words with emergent novel senses, as
+well as token occurrences of those senses.
+We start by exploring the utility of stan-
+dard topic models for word sense induction
+(WSI), with a pre-determined number of
+topics (=senses). We next demonstrate that
+a non-parametric formulation that learns an
+appropriate number of senses per word ac-
+tually performs better at the WSI task. We
+go on to establish state-of-the-art results
+over two WSI datasets, and apply the pro-
+posed model to a novel sense detection task.
+1 

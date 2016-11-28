@@ -1,0 +1,26 @@
+
+Named entity recognition (NER) systems
+are often based on machine learning tech-
+niques to reduce the labor-intensive devel-
+opment of hand-crafted extraction rules and
+domain-dependent dictionaries. Nevertheless,
+time-consuming feature engineering is often
+needed to achieve state-of-the-art performance.
+In this study, we investigate the impact of such
+domain-specific features on the performance
+of recognizing and classifying mentions of
+pharmacological substances. We compare the
+performance of a system based on general fea-
+tures, which have been successfully applied
+to a wide range of NER tasks, with a system
+that additionally uses features generated from
+the output of an existing chemical NER tool
+and a collection of domain-specific resources.
+We demonstrate that acceptable results can be
+achieved with the former system. Still, our ex-
+periments show that using domain-specific fea-
+tures outperforms this general approach. Our
+system ranked first in the SemEval-2013 Task
+9.1: Recognition and classification of pharma-
+cological substances.
+1 

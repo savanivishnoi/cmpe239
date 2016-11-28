@@ -1,0 +1,24 @@
+
+With the evolution of online communication
+methods, conversations are increasingly han-
+dled via email, internet forums and other such
+methods. In this paper, we attempt to model
+lexical information in a context sensitive man-
+ner, encoding our belief that the use of lan-
+guage depends on the participants in the con-
+versation. We model the discourse as a com-
+bination of the speaker, the addressee and
+other participants in the conversation as well
+as a context specific language model. In or-
+der to do this, we introduce a novel method
+based on an HMM with an exponential state
+space to capture speaker-addressee context.
+We also study the performance of topic model-
+ing frameworks in conversational settings. We
+evaluate the models on the tasks of identify-
+ing the set of people present in any conver-
+sation, as well as identifying the speaker for
+every utterance in the conversation, and they
+show significant improvement over the base-
+line models.
+1 

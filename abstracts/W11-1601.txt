@@ -1,0 +1,20 @@
+
+In this paper we examine the sentence sim-
+plification problem as an English-to-English
+translation problem, utilizing a corpus of
+137K aligned sentence pairs extracted by
+aligning English Wikipedia and Simple En-
+glish Wikipedia. This data set contains the
+full range of transformation operations includ-
+ing rewording, reordering, insertion and dele-
+tion. We introduce a new translation model
+for text simplification that extends a phrase-
+based machine translation approach to include
+phrasal deletion. Evaluated based on three
+metrics that compare against a human refer-
+ence (BLEU, word-F1 and SSA) our new ap-
+proach performs significantly better than two
+text compression techniques (including T3)
+and the phrase-based translation system with-
+out deletion.
+1 

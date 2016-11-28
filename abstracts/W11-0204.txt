@@ -1,0 +1,22 @@
+
+In comparative genomics, functional annota-
+tions are transferred from one organism to an-
+other relying on sequence similarity. With
+more than 20 million citations in PubMed, text
+mining provides the ideal tool for generating
+additional large-scale homology-based predic-
+tions. To this end, we have refined a recent
+dataset of biomolecular events extracted from
+text, and integrated these predictions with
+records from public gene databases. Account-
+ing for lexical variation of gene symbols, we
+have implemented a disambiguation algorithm
+that uniquely links the arguments of 11.2 mil-
+lion biomolecular events to well-defined gene
+families, providing interesting opportunities
+for query expansion and hypothesis genera-
+tion. The resulting MySQL database, includ-
+ing all 19.2 million original events as well
+as their homology-based variants, is publicly
+available at http://bionlp.utu.fi/.
+1 

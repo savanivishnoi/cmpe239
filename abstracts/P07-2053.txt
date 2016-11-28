@@ -1,0 +1,21 @@
+
+In the world of non-proprietary NLP soft-
+ware the standard, and perhaps the best,
+HMM-based POS tagger is TnT (Brants,
+2000). We argue here that some of the crit-
+icism aimed at HMM performance on lan-
+guages with rich morphology should more
+properly be directed at TnT?s peculiar li-
+cense, free but not open source, since it is
+those details of the implementation which
+are hidden from the user that hold the key
+for improved POS tagging across a wider
+variety of languages. We present HunPos1,
+a free and open source (LGPL-licensed) al-
+ternative, which can be tuned by the user to
+fully utilize the potential of HMM architec-
+tures, offering performance comparable to
+more complex models, but preserving the
+ease and speed of the training and tagging
+process.
+0 

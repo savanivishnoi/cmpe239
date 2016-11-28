@@ -1,0 +1,23 @@
+ 
+In leading morpho-phonological theories and 
+state-of-the-art text-to-speech systems it is 
+assumed that word pronunciation cannot be 
+learned or performed without in-between anal- 
+yses at several abstraction levels (e.g., mor- 
+phological, graphemic, phonemic, syllabic, and 
+stress levels). We challenge this assump- 
+tion for the case of English word pronunci- 
+ation. Using IGTR~B, an inductive-learning 
+decision-tree algorithms, we train and test 
+three word-pronunciation systems in which the 
+number of abstraction levels (implemented as 
+sequenced modules) is reduced from five, via 
+three, to one. The latter system, classifying 
+letter strings directly as mapping to phonemes 
+with stress markers, yields signitlcemtly better 
+generali~tion accuracies than the two multi- 
+module systems. Analyses of empirical results 
+indicate that positive utility etfects of sequenc- 
+ing modules are outweighed by cascading er- 
+rors passed on between modules. 
+1 

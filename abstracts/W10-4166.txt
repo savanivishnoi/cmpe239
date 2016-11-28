@@ -1,0 +1,16 @@
+ 
+In this paper, we describe the implementation 
+of an unsupervised learning method for 
+Chinese word sense induction in 
+CIPS-SIGHAN-2010 bakeoff. We present 
+three individual clustering algorithms and the 
+ensemble of them, and discuss in particular 
+different approaches to represent text and 
+select features. Our main system based on 
+cluster ensemble achieves 79.33% in F-score, 
+the best result of this WSI task. Our 
+experiments also demonstrate the versatility 
+and effectiveness of the proposed model on 
+data sparseness problems.  
+ 
+1 

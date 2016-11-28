@@ -1,0 +1,12 @@
+
+This article introduces and evaluates an approach to semantic compositionality in computational lin-
+guistics based on the combination of Distributional Semantics and supervised Machine Learning. In
+brief, distributional semantic spaces containing representations for complex constructions such as
+Adjective-Noun and Verb-Noun pairs, as well as for their constituent parts, are built. These repre-
+sentations are then used as feature vectors in a supervised learning model using multivariate multiple
+regression. In particular, the distributional semantic representations of the constituents are used to
+predict those of the complex structures. This approach outperforms the rivals in a series of experi-
+ments with Adjective-Noun pairs extracted from the BNC. In a second experimental setting based on
+Verb-Noun pairs, a comparatively much lower performance was obtained by all the models; however,
+the proposed approach gives the best results in combination with a Random Indexing semantic space.
+1 

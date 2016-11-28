@@ -1,0 +1,33 @@
+ 
+A reading comprehension (RC) system 
+attempts to understand a document and returns 
+an answer sentence when posed with a 
+question.  RC resembles the ad hoc question 
+answering (QA) task that aims to extract an 
+answer from a collection of documents when 
+posed with a question.  However, since RC 
+focuses only on a single document, the system 
+needs to draw upon external knowledge 
+sources to achieve deep analysis of passage 
+sentences for answer sentence extraction.  
+This paper proposes an approach towards RC 
+that attempts to utilize external knowledge to 
+improve performance beyond the baseline set 
+by the bag-of-words (BOW) approach.  Our 
+approach emphasizes matching of metadata 
+(i.e. verbs, named entities and base noun 
+phrases) in passage context utilization and 
+answer sentence extraction. We have also 
+devised an automatic acquisition process for 
+Web-derived answer patterns (AP) which 
+utilizes question-answer pairs from TREC QA, 
+the Google search engine and the Web.  This 
+approach gave improved RC performances for 
+both the Remedia and ChungHwa corpora, 
+attaining HumSent accuracies of 42% and 
+69% respectively.  In particular, performance 
+analysis based on Remedia shows that relative 
+performances of 20.7% is due to metadata 
+matching and a further 10.9% is due to the 
+application of Web-derived answer patterns. 
+1. 

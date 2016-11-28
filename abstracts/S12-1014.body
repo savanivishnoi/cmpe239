@@ -1,0 +1,17 @@
+
+Given a set of images with related captions,
+our goal is to show how visual features can
+improve the accuracy of unsupervised word
+sense disambiguation when the textual con-
+text is very small, as this sort of data is com-
+mon in news and social media. We extend
+previous work in unsupervised text-only dis-
+ambiguation with methods that integrate text
+and images. We construct a corpus by using
+Amazon Mechanical Turk to caption sense-
+tagged images gathered from ImageNet. Us-
+ing a Yarowsky-inspired algorithm, we show
+that gains can be made over text-only disam-
+biguation, as well as multimodal approaches
+such as Latent Dirichlet Allocation.
+1 

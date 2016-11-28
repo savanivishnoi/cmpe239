@@ -1,0 +1,20 @@
+
+This paper presents an extension of the
+standard approach used for bilingual lex-
+icon extraction from comparable corpora.
+We study of the ambiguity problem re-
+vealed by the seed bilingual dictionary
+used to translate context vectors. For
+this purpose, we augment the standard ap-
+proach by a Word Sense Disambiguation
+process relying on a WordNet-based se-
+mantic similarity measure. The aim of
+this process is to identify the translations
+that are more likely to give the best rep-
+resentation of words in the target lan-
+guage. On two specialized French-English
+comparable corpora, empirical experimen-
+tal results show that the proposed method
+consistently outperforms the standard ap-
+proach.
+1 

@@ -1,0 +1,36 @@
+ 
+Temporal expressions in texts contain 
+significant temporal information. Under-
+standing temporal information is very 
+useful in many NLP applications, such as 
+information extraction, documents sum-
+marization and question answering. 
+Therefore, the temporal expression nor-
+malization which is used for transform-
+ing temporal expressions to temporal in-
+formation has absorbed many research-
+ers? attentions. But previous works, 
+whatever the hand-crafted rules-based or 
+the machine-learnt rules-based, all can 
+not address the actual problem about 
+temporal reference in real texts effective-
+ly. More specifically, the reference time 
+choosing mechanism employed by these 
+works is not adaptable to the universal 
+implicit times in normalization. Aiming 
+at this issue, we introduce a new refer-
+ence time choosing mechanism for tem-
+poral expression normalization, called 
+reference time dynamic-choosing, which 
+assigns the appropriate reference times to 
+different classes of implicit temporal ex-
+pressions dynamically when normalizing. 
+And then, the solution to temporal ex-
+pression defuzzification by scenario de-
+pendences among temporal expressions 
+is discussed. Finally, we evaluate the 
+system on a substantial corpus collected 
+by Chinese news articles and obtained 
+more promising results than compared 
+methods. 
+1 

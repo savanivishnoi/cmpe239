@@ -1,0 +1,11 @@
+
+This paper describes Acorn, a sentence planner and
+surface realizer for dialogue systems. Improve-
+ments to previous stochastic word-forest based ap-
+proaches are described, countering recent criticism
+of this class of algorithms for their slow speed.
+An evaluation of the approach with semantic in-
+put shows runtimes of a fraction of a second and
+presents results that suggest it is also portable
+across domains.
+1 

@@ -1,0 +1,22 @@
+
+We present and evaluate a new model for
+Natural Language Generation (NLG) in
+Spoken Dialogue Systems, based on statis-
+tical planning, given noisy feedback from
+the current generation context (e.g. a user
+and a surface realiser). We study its use in
+a standard NLG problem: how to present
+information (in this case a set of search re-
+sults) to users, given the complex trade-
+offs between utterance length, amount of
+information conveyed, and cognitive load.
+We set these trade-offs by analysing exist-
+ing MATCH data. We then train a NLG pol-
+icy using Reinforcement Learning (RL),
+which adapts its behaviour to noisy feed-
+back from the current generation context.
+This policy is compared to several base-
+lines derived from previous work in this
+area. The learned policy significantly out-
+performs all the prior approaches.
+1 

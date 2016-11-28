@@ -1,0 +1,23 @@
+
+Empirical experience and observations have shown us when
+powerful and highly tunable classifiers such as maximum en-
+tropy classifiers, boosting and SVMs are applied to language
+processing tasks, it is possible to achieve high accuracies, but
+eventually their performances all tend to plateau out at around
+the same point. To further improve performance, various error
+correction mechanisms have been developed, but in practice,
+most of them cannot be relied on to predictably improve per-
+formance on unseen data; indeed, depending upon the test set,
+they are as likely to degrade accuracy as to improve it. This
+problem is especially severe if the base classifier has already
+been finely tuned.
+In recent work, we introduced N-fold Templated Piped Cor-
+rection, or NTPC (?nitpick?), an intriguing error corrector that
+is designed to work in these extreme operating conditions. De-
+spite its simplicity, it consistently and robustly improves the ac-
+curacy of existing highly accurate base models. This paper in-
+vestigates some of the more surprising claims made by NTPC,
+and presents experiments supporting an Occam?s Razor argu-
+ment that more complex models are damaging or unnecessary
+in practice.
+1 

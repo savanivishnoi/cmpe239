@@ -1,0 +1,21 @@
+
+Summary sentences are often para-
+phrases of existing sentences. They
+may be made up of recycled fragments
+of text taken from important sentences
+in an input document. We investigate
+the use of a statistical sentence gener-
+ation technique that recombines words
+probabilistically in order to create new
+sentences. Given a set of event-related
+sentences, we use an extended version
+of the Viterbi algorithm which employs
+dependency relation and bigram proba-
+bilities to find the most probable sum-
+mary sentence. Using precision and
+recall metrics for verb arguments as a
+measure of grammaticality, we find that
+our system performs better than a bi-
+gram baseline, producing fewer spuri-
+ous verb arguments.
+1 

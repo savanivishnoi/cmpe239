@@ -1,0 +1,13 @@
+. Although effective for antecedent determination, the tradi-
+tional twin-candidate model can not prevent the invalid resolution of
+non-anaphors without additional measures. In this paper we propose a
+modified learning framework for the twin-candidate model. In the new
+framework, we make use of non-anaphors to create a special class of
+training instances, which leads to a classifier capable of identifying the
+cases of non-anaphors during resolution. In this way, the twin-candidate
+model itself could avoid the resolution of non-anaphors, and thus could
+be directly deployed to coreference resolution. The evaluation done on
+newswire domain shows that the twin-candidate based system with our
+modified framework achieves better and more reliable performance than
+those with other solutions.
+1 

@@ -1,0 +1,17 @@
+
+We compare two different types of extraction
+patterns for automatically deriving semantic
+information from text: lexical patterns, built
+from words and word class information, and
+dependency patterns with syntactic informa-
+tion obtained from a full parser. We are partic-
+ularly interested in whether the richer linguis-
+tic information provided by a parser allows for
+a better performance of subsequent informa-
+tion extraction work. We evaluate automatic
+extraction of hypernym information from text
+and conclude that the application of depen-
+dency patterns does not lead to substantially
+higher precision and recall scores than using
+lexical patterns.
+1 

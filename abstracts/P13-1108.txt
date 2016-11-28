@@ -1,0 +1,20 @@
+
+We describe a new probabilistic model
+for extracting events between major polit-
+ical actors from news corpora. Our un-
+supervised model brings together famil-
+iar components in natural language pro-
+cessing (like parsers and topic models)
+with contextual political information?
+temporal and dyad dependence?to in-
+fer latent event classes. We quantita-
+tively evaluate the model?s performance
+on political science benchmarks: recover-
+ing expert-assigned event class valences,
+and detecting real-world conflict. We also
+conduct a small case study based on our
+model?s inferences.
+A supplementary appendix, and replica-
+tion software/data are available online, at:
+http://brenocon.com/irevents
+1 

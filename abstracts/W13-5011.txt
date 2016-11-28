@@ -1,0 +1,18 @@
+
+This paper presents a system that performs
+skill extraction from text documents. It out-
+puts a list of professional skills that are rele-
+vant to a given input text. We argue that the
+system can be practical for hiring and man-
+agement of personnel in an organization. We
+make use of the texts and the hyperlink graph
+of Wikipedia, as well as a list of professional
+skills obtained from the LinkedIn social net-
+work. The system is based on first computing
+similarities between an input document and
+the texts of Wikipedia pages and then using a
+biased, hub-avoiding version of the Spreading
+Activation algorithm on the Wikipedia graph
+in order to associate the input document with
+skills.
+1 

@@ -1,0 +1,38 @@
+
+The NewsViz system aims to enhance news
+reading experiences by integrating 30 seconds
+long Flash-animations into news article web
+pages depicting their content and emotional
+aspects. NewsViz interprets football match
+news texts automatically and creates abstract
+2D visualizations. The user interface en-
+ables animators to further refine the anima-
+tions. Here, we focus on the emotion extrac-
+tion component of NewsViz which facilitates
+subtle background visualization. NewsViz de-
+tects moods from news reports. The origi-
+nal text is part-of-speech tagged and adjec-
+tives and/or nouns, the word types convey-
+ing most emotional meaning, are filtered out
+and labeled with an emotion and intensity
+value. Subsequently reoccurring emotions are
+joined into longer lasting moods and matched
+with appropriate animation presets. Differ-
+ent linguistic analysis methods were tested on
+NewsViz: word-by-word, sentence-based and
+minimum threshold summarization, to find a
+minimum number of occurrences of an emo-
+tion in forming a valid mood. NewsViz proved
+to be viable for the fixed domain of football
+news, grasping the overall moods and some
+more detailed emotions precisely. NewsViz
+offers an efficient technique to cater for the
+production of a large number of daily updated
+news stories. NewsViz bypasses the lack of
+information for background or environment
+depiction encountered in similar applications.
+Further development may refine the detection
+of emotion shifts through summarization with
+the full implementation of football and com-
+mon linguistic knowledge.
+1 

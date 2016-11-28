@@ -1,0 +1,23 @@
+ 
+This article provides description about the 
+grammar checking system developed for 
+detecting various grammatical errors in 
+Punjabi texts. This system utilizes a full-
+form lexicon for morphological analysis, 
+and applies rule-based approaches for 
+part-of-speech tagging and phrase 
+chunking. The system follows a novel 
+approach of performing agreement 
+checks at phrase and clause levels using 
+the grammatical information exhibited by 
+POS tags in the form of feature value 
+pairs. The system can detect and suggest 
+rectifications for a number of 
+grammatical errors, resulting from the 
+lack of agreement, order of words in 
+various phrases etc., in literary style 
+Punjabi texts. To the best of our 
+knowledge, this grammar checking 
+system is the first such system reported 
+for Indian languages. 
+1 

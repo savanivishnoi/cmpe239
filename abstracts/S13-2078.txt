@@ -1,0 +1,13 @@
+
+Sentiment analysis refers to automatically ex-
+tracting the sentiment present in a given natu-
+ral language text. We present our participation
+to the SemEval2013 competition, in the senti-
+ment analysis of Twitter and SMS messages.
+Our approach for this task is the combination
+of two sentiment analysis subsystems which
+are combined together to build the final sys-
+tem. Both subsystems use supervised learning
+using features based on various polarity lexi-
+cons.
+1 

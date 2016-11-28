@@ -1,0 +1,16 @@
+
+We investigate methods that add syntac-
+tically motivated features to a statistical
+machine translation system in a reranking
+framework. The goal is to analyze whether
+shallow parsing techniques help in iden-
+tifying ungrammatical hypotheses. We
+show that improvements are possible by
+utilizing supertagging, lightweight depen-
+dency analysis, a link grammar parser and
+a maximum-entropy based chunk parser.
+Adding features to n-best lists and dis-
+criminatively training the system on a de-
+velopment set increases the BLEU score
+up to 0.7% on the test set.
+1 

@@ -1,0 +1,26 @@
+
+Cross Document Coreference (CDC) is
+the task of constructing the coreference
+chain for mentions of a person across a set
+of documents. This work offers a holistic
+view of using document-level categories,
+sub-document level context and extracted
+entities and relations for the CDC task.
+We train a categorization component with
+an efficient flat algorithm using thousands
+of ODP categories and over a million web
+documents. We propose to use ranked cat-
+egories as coreference information, partic-
+ularly suitable for web documents that are
+widely different in style and content. An
+ensemble composite coreference function,
+amenable to inactive features, combines
+these three levels of evidence for disam-
+biguation.
+A thorough feature importance study is
+conducted to analyze how these three
+components contribute to the coreference
+results. The overall solution is evaluated
+using the WePS benchmark data and
+demonstrate superior performance.
+1 

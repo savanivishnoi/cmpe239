@@ -1,0 +1,24 @@
+
+This paper presents the LIG?s systems
+submitted for Task 2 of WMT13 Qual-
+ity Estimation campaign. This is a
+word confidence estimation (WCE) task
+where each participant was asked to la-
+bel each word in a translated text as
+a binary ( Keep/Change) or multi-class
+(Keep/Substitute/Delete) category. We in-
+tegrate a number of features of various
+types (system-based, lexical, syntactic and
+semantic) into the conventional feature
+set, for our baseline classifier training.
+After the experiments with all features,
+we deploy a ?Feature Selection? strategy
+to keep only the best performing ones.
+Then, a method that combines multiple
+?weak? classifiers to build a strong ?com-
+posite? classifier by taking advantage of
+their complementarity is presented and ex-
+perimented. We then select the best sys-
+tems for submission and present the offi-
+cial results obtained.
+1 

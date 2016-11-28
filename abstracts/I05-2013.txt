@@ -1,0 +1,21 @@
+ 
+We present a tool, called ILIMP, which 
+takes as input a raw text in French and 
+produces as output the same text in 
+which every occurrence of the pronoun 
+il is tagged either with tag [ANA] for 
+anaphoric or [IMP] for impersonal or 
+expletive. This tool is therefore 
+designed to distinguish between the 
+anaphoric occurrences of il, for which 
+an anaphora resolution system has to 
+look for an antecedent, and the expletive 
+occurrences of this pronoun, for which it 
+does not make sense to look for an 
+antecedent. The precision rate for ILIMP 
+is 97,5%. The few errors are analyzed in 
+detail. Other tasks using the method 
+developed for ILIMP are described 
+briefly, as well as the use of ILIMP in a 
+modular syntactic analysis system. 
+1 

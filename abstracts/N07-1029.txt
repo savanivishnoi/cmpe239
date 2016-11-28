@@ -1,0 +1,24 @@
+
+Currently there are several approaches to
+machine translation (MT) based on differ-
+ent paradigms; e.g., phrasal, hierarchical
+and syntax-based. These three approaches
+yield similar translation accuracy despite
+using fairly different levels of linguistic
+knowledge. The availability of such a
+variety of systems has led to a growing
+interest toward finding better translations
+by combining outputs from multiple sys-
+tems. This paper describes three differ-
+ent approaches to MT system combina-
+tion. These combination methods oper-
+ate on sentence, phrase and word level
+exploiting information from  -best lists,
+system scores and target-to-source phrase
+alignments. The word-level combination
+provides the most robust gains but the
+best results on the development test sets
+(NIST MT05 and the newsgroup portion
+of GALE 2006 dry-run) were achieved by
+combining all three methods.
+1 

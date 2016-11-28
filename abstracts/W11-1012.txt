@@ -1,0 +1,19 @@
+
+In this paper we present a novel approach
+of utilizing Semantic Role Labeling (SRL)
+information to improve Hierarchical Phrase-
+based Machine Translation. We propose an
+algorithm to extract SRL-aware Synchronous
+Context-Free Grammar (SCFG) rules. Con-
+ventional Hiero-style SCFG rules will also be
+extracted in the same framework. Special con-
+version rules are applied to ensure that when
+SRL-aware SCFG rules are used in deriva-
+tion, the decoder only generates hypotheses
+with complete semantic structures. We per-
+form machine translation experiments using 9
+different Chinese-English test-sets. Our ap-
+proach achieved an average BLEU score im-
+provement of 0.49 as well as 1.21 point reduc-
+tion in TER.
+1 

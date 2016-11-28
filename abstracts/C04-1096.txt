@@ -1,0 +1,18 @@
+
+Past work of generating referring expressions
+mainly utilized attributes of objects and bi-
+nary relations between objects. However, such
+an approach does not work well when there
+is no distinctive attribute among objects. To
+overcome this limitation, this paper proposes a
+method utilizing the perceptual groups of ob-
+jects and n-ary relations among them. The key
+is to identify groups of objects that are natu-
+rally recognized by humans. We conducted psy-
+chological experiments with 42 subjects to col-
+lect referring expressions in such situations, and
+built a generation algorithm based on the re-
+sults. The evaluation using another 23 subjects
+showed that the proposed method could effec-
+tively generate proper referring expressions.
+1 

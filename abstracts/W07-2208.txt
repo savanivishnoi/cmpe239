@@ -1,0 +1,23 @@
+
+This paper describes a log-linear model with
+an n-gram reference distribution for accurate
+probabilistic HPSG parsing. In the model,
+the n-gram reference distribution is simply
+defined as the product of the probabilities
+of selecting lexical entries, which are pro-
+vided by the discriminative method with ma-
+chine learning features of word and POS
+n-gram as defined in the CCG/HPSG/CDG
+supertagging. Recently, supertagging be-
+comes well known to drastically improve
+the parsing accuracy and speed, but su-
+pertagging techniques were heuristically in-
+troduced, and hence the probabilistic mod-
+els for parse trees were not well defined.
+We introduce the supertagging probabilities
+as a reference distribution for the log-linear
+model of the probabilistic HPSG. This is the
+first model which properly incorporates the
+supertagging probabilities into parse tree?s
+probabilistic model.
+1 

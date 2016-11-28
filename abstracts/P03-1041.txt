@@ -1,0 +1,22 @@
+
+Phrase level translation models are ef-
+fective in improving translation qual-
+ity by addressing the problem of local
+re-ordering across language boundaries.
+Methods that attempt to fundamentally
+modify the traditional IBM translation
+model to incorporate phrases typically do
+so at a prohibitive computational cost. We
+present a technique that begins with im-
+proved IBM models to create phrase level
+knowledge sources that effectively repre-
+sent local as well as global phrasal con-
+text. Our method is robust to noisy align-
+ments at both the sentence and corpus
+level, delivering high quality phrase level
+translation pairs that contribute to signif-
+icant improvements in translation quality
+(as measured by the BLEU metric) over
+word based lexica as well as a competing
+alignment based method.
+1 

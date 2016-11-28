@@ -1,0 +1,24 @@
+
+Unsupervised object matching (UOM) is
+a promising approach to cross-language
+natural language processing such as bilin-
+gual lexicon acquisition, parallel corpus
+construction, and cross-language text cat-
+egorization, because it does not require
+labor-intensive linguistic resources. How-
+ever, UOM only finds one-to-one corre-
+spondences from data sets with the same
+number of instances in source and target
+domains, and this prevents us from ap-
+plying UOM to real-world cross-language
+natural language processing tasks. To al-
+leviate these limitations, we proposes la-
+tent semantic matching, which embeds
+objects in both source and target lan-
+guage domains into a shared latent topic
+space. We demonstrate the effectiveness
+of our method on cross-language text cat-
+egorization. The results show that our
+method outperforms conventional unsu-
+pervised object matching methods.
+1 

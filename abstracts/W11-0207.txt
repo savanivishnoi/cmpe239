@@ -1,0 +1,19 @@
+
+Medical Entity Recognition is a crucial step
+towards efficient medical texts analysis. In
+this paper we present and compare three
+methods based on domain-knowledge and
+machine-learning techniques. We study two
+research directions through these approaches:
+(i) a first direction where noun phrases are
+extracted in a first step with a chunker be-
+fore the final classification step and (ii) a sec-
+ond direction where machine learning tech-
+niques are used to identify simultaneously en-
+tities boundaries and categories. Each of the
+presented approaches is tested on a standard
+corpus of clinical texts. The obtained results
+show that the hybrid approach based on both
+machine learning and domain knowledge ob-
+tains the best performance.
+1 

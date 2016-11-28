@@ -1,0 +1,23 @@
+
+To date, few attempts have been made
+to develop and validate methods for au-
+tomatic evaluation of linguistic quality in
+text summarization. We present the first
+systematic assessment of several diverse
+classes of metrics designed to capture var-
+ious aspects of well-written text. We train
+and test linguistic quality models on con-
+secutive years of NIST evaluation data in
+order to show the generality of results. For
+grammaticality, the best results come from
+a set of syntactic features. Focus, coher-
+ence and referential clarity are best evalu-
+ated by a class of features measuring local
+coherence on the basis of cosine similarity
+between sentences, coreference informa-
+tion, and summarization specific features.
+Our best results are 90% accuracy for pair-
+wise comparisons of competing systems
+over a test set of several inputs and 70%
+for ranking summaries of a specific input.
+1 

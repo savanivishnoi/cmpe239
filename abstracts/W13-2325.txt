@@ -1,0 +1,28 @@
+
+Crowdsourcing, while ideally reducing
+both costs and the need for domain ex-
+perts, is no all-purpose tool. We review
+how paraphrase recognition has benefited
+from crowdsourcing in the past and iden-
+tify two problems in paraphrase acqui-
+sition and semantic similarity evaluation
+that can be solved by employing a smart
+crowdsourcing strategy. First, we employ
+the CrowdFlower platform to conduct an
+experiment on sub-sentential paraphrase
+acquisition with early exclusion of low-
+accuracy crowdworkers. Second, we com-
+pare two human intelligence task designs
+for evaluating phrase pairs on a semantic
+similarity scale. While the first experiment
+confirms our strategy successful at tack-
+ling the problem of missing gold in para-
+phrase generation, the results of the sec-
+ond experiment suggest that, for both se-
+mantic similarity evaluation on a contin-
+uous and a binary scale, querying crowd-
+workers for a semantic similarity value on
+a multi-grade scale yields better results
+than directly asking for a binary classifi-
+cation.
+1 

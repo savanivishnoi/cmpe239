@@ -1,0 +1,26 @@
+
+Recent kernel-based PPI extraction 
+systems achieve promising perform-
+ance because of their capability to 
+capture structural syntactic informa-
+tion, but at the expense of computa-
+tional complexity. This paper incorpo-
+rates dependency information as well 
+as other lexical and syntactic knowl-
+edge in a feature-based framework. 
+Our motivation is that, considering the 
+large amount of biomedical literature 
+being archived daily, feature-based 
+methods with comparable performance 
+are more suitable for practical applica-
+tions. Additionally, we explore the 
+difference of lexical characteristics be-
+tween biomedical and newswire do-
+mains. Experimental evaluation on the 
+AIMed corpus shows that our system 
+achieves comparable performance of 
+54.7 in F1-Score with other 
+state-of-the-art PPI extraction systems, 
+yet the best performance among all the 
+feature-based ones.  
+1 

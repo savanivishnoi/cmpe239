@@ -1,0 +1,16 @@
+
+Multi-processor systems are becom-
+ing more commonplace and afford-
+able. Based on analyses of ac-
+tual parsings, we argue that to ex-
+ploit the capabilities of such ma-
+chines, unification-based grammar
+parsers should distribute work at the
+level of individual unification oper-
+ations. We present a generic ap-
+proach to parallel chart parsing that
+meets this requirement, and show
+that an implementation of this tech-
+nique for LinGO achieves consider-
+able speedups.
+1 

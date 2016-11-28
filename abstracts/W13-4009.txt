@@ -1,0 +1,29 @@
+
+Our aim is to acquire the attributes of con-
+cepts denoted by unknown words from
+users during dialogues. A word unknown
+to spoken dialogue systems can appear in
+user utterances, and systems should be ca-
+pable of acquiring information on it from
+the conversation partner as a kind of self-
+learning process. As a first step, we pro-
+pose a method for generating more spe-
+cific questions than simple wh-questions
+to acquire the attributes, as such ques-
+tions can narrow down the variation of
+the following user response and accord-
+ingly avoid possible speech recognition er-
+rors. Specifically, we obtain an appropri-
+ately distributed confidence measure (CM)
+on the attributes to generate more specific
+questions. Two basic CMs are defined us-
+ing (1) character and word distributions in
+the target database and (2) frequency of
+occurrence of restaurant attributes on Web
+pages. These are integrated to comple-
+ment each other and used as the final CM.
+We evaluated distributions of the CMs by
+average errors from the reference. Re-
+sults showed that the integrated CM out-
+performed the two basic CMs.
+1 

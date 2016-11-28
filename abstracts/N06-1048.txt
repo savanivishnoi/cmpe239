@@ -1,0 +1,31 @@
+
+The TREC Definition and Relationship
+questions are evaluated on the basis of in-
+formation nuggets that may be contained
+in system responses. Human evalua-
+tors provide informal descriptions of each
+nugget, and judgements (assignments of
+nuggets to responses) for each response
+submitted by participants. While human
+evaluation is the most accurate way to
+compare systems, approximate automatic
+evaluation becomes critical during system
+development.
+We present Nuggeteer, a new automatic
+evaluation tool for nugget-based tasks.
+Like the first such tool, Pourpre, Nugge-
+teer uses words in common between can-
+didate answer and answer key to approx-
+imate human judgements. Unlike Pour-
+pre, but like human assessors, Nuggeteer
+creates a judgement for each candidate-
+nugget pair, and can use existing judge-
+ments instead of guessing. This cre-
+ates a more readily interpretable aggregate
+score, and allows developers to track in-
+dividual nuggets through the variants of
+their system. Nuggeteer is quantitatively
+comparable in performance to Pourpre,
+and provides qualitatively better feedback
+to developers.
+1 

@@ -1,0 +1,18 @@
+
+Corry is a system for coreference resolution
+in English. It supports both local (Soon et
+al. (2001)-style) and global (Integer Linear
+Programming, Denis and Baldridge (2007)-
+style) models of coreference. Corry relies on a
+rich linguistically motivated feature set, which
+has, however, been manually reduced to 64
+features for efficiency reasons. Three runs
+have been submitted for the SemEval task 1
+on Coreference Resolution (Recasens et al,
+2010), optimizing Corry?s performance for
+BLANC (Recasens and Hovy, in prep), MUC
+(Vilain et al, 1995) and CEAF (Luo, 2005).
+Corry runs have shown the best performance
+level among all the systems in their track for
+the corresponding metric.
+1 

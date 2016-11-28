@@ -1,0 +1,27 @@
+ 
+In this paper we address the problem of identi-
+fying a broad range of term variations in Japa-
+nese web search queries, where these varia-
+tions pose a particularly thorny problem due to 
+the multiple character types employed in its 
+writing system. Our method extends the tech-
+niques proposed for English spelling correc-
+tion of web queries to handle a wider range of 
+term variants including spelling mistakes, va-
+lid alternative spellings using multiple charac-
+ter types, transliterations and abbreviations. 
+The core of our method is a statistical model 
+built on the MART algorithm (Friedman, 
+2001). We show that both string and semantic 
+similarity features contribute to identifying 
+term variation in web search queries; specifi-
+cally, the semantic similarity features used in 
+our system are learned by mining user session 
+and click-through logs, and are useful not only 
+as model features but also in generating term 
+variation candidates efficiently. The proposed 
+method achieves 70% precision on the term 
+variation identification task with the recall 
+slightly higher than 60%, reducing the error 
+rate of a na?ve baseline by 38%.  
+1 

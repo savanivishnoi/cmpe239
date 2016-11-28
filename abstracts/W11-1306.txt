@@ -1,0 +1,17 @@
+
+This paper describes three systems from the
+University of Minnesota, Duluth that partici-
+pated in the DiSCo 2011 shared task that eval-
+uated distributional methods of measuring se-
+mantic compositionality. All three systems
+approached this as a problem of collocation
+identification, where strong collocates are as-
+sumed to be minimally compositional. duluth-
+1 relies on the t-score, whereas duluth-2 and
+duluth-3 rely on Pointwise Mutual Informa-
+tion (pmi). duluth-1 was the top ranked sys-
+tem overall in coarse?grained scoring, which
+was a 3-way category assignment where pairs
+were assigned values of high, medium, or low
+compositionality.
+1 

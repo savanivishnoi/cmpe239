@@ -1,0 +1,15 @@
+
+Sentences that are syntactically quite different
+can often have similar or same meaning. The
+SemEval 2012 task of Semantic Textual Sim-
+ilarity aims at finding the semantic similarity
+between two sentences. The semantic repre-
+sentation of Universal Networking Language
+(UNL), represents only the inherent meaning
+in a sentence without any syntactic details.
+Thus, comparing the UNL graphs of two sen-
+tences can give an insight into how semanti-
+cally similar the two sentences are. This paper
+presents the UNL graph matching method for
+the Semantic Textual Similarity(STS) task.
+1 

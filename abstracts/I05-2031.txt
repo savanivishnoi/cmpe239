@@ -1,0 +1,17 @@
+
+This paper describes an attempt to recy-
+cle parts of the Czech-to-Russian ma-
+chine translation system (MT) in the
+new Czech-to-English MT system. The
+paper describes the overall architecture
+of the new system and the details of
+the modules which have been added.
+A special attention is paid to the prob-
+lem of named entity recognition and
+to the method of automatic acquisition
+of lexico-syntactic information for the
+bilingual dictionary of the system. The
+paper concentrates on the problems en-
+countered in the process of reusing ex-
+isting modules and their solution.
+1 

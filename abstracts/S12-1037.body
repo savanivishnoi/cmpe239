@@ -1,0 +1,22 @@
+
+This paper presents one of the two contribu-
+tions from the Universidad Complutense de
+Madrid to the *SEM Shared Task 2012 on Re-
+solving the Scope and Focus of Negation. We
+describe a rule-based system for detecting the
+presence of negations and delimitating their
+scope. It was initially intended for process-
+ing negation in opinionated texts, and has been
+adapted to fit the task requirements. It first
+detects negation cues using a list of explicit
+negation markers (such as not or nothing), and
+infers other implicit negations (such as affixal
+negations, e.g, undeniable or improper) by us-
+ing semantic information from WordNet con-
+cepts and relations. It next uses the informa-
+tion from the syntax tree of the sentence in
+which the negation arises to get a first approxi-
+mation to the negation scope, which is later re-
+fined using a set of post-processing rules that
+bound or expand such scope.
+1 

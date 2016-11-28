@@ -1,0 +1,28 @@
+ 
+Temporal information extraction is a 
+popular and interesting research field in 
+the area of Natural Language Processing 
+(NLP). In this paper, we report our works 
+on TempEval-2 shared task. This is our 
+first participation and we participated in 
+all the tasks, i.e., A, B, C, D, E and F. We 
+develop rule-based systems for Tasks A 
+and B, whereas the remaining tasks are 
+based on a machine learning approach, 
+namely Conditional Random Field 
+(CRF). All our systems are still in their 
+development stages, and we report the 
+very initial results. Evaluation results on 
+the shared task English datasets yield the 
+precision, recall and F-measure values of 
+55%, 17% and 26%, respectively for 
+Task A and 48%, 56% and 52%, respec-
+tively for Task B (event recognition).  
+The rest of tasks, namely C, D, E and F 
+were evaluated with a relatively simpler 
+metric: the number of correct answers di-
+vided by the number of answers. Experi-
+ments on the English datasets yield the 
+accuracies of 63%, 80%, 56% and 56% 
+for tasks C, D, E and F, respectively.        
+1 

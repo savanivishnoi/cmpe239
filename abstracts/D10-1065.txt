@@ -1,0 +1,31 @@
+
+Word alignment plays a central role in statisti-
+cal MT (SMT) since almost all SMT systems
+extract translation rules from word aligned
+parallel training data. While most SMT
+systems use unsupervised algorithms (e.g.
+GIZA++) for training word alignment, super-
+vised methods, which exploit a small amount
+of human-aligned data, have become increas-
+ingly popular recently. This work empirically
+studies the performance of these two classes
+of alignment algorithms and explores strate-
+gies to combine them to improve overall sys-
+tem performance. We used two unsupervised
+aligners, GIZA++ and HMM, and one super-
+vised aligner, ITG, in this study. To avoid lan-
+guage and genre specific conclusions, we ran
+experiments on test sets consisting of two lan-
+guage pairs (Chinese-to-English and Arabic-
+to-English) and two genres (newswire and we-
+blog). Results show that the two classes of al-
+gorithms achieve the same level of MT perfor-
+mance. Modest improvements were achieved
+by taking the union of the translation gram-
+mars extracted from different alignments. Sig-
+nificant improvements (around 1.0 in BLEU)
+were achieved by combining outputs of differ-
+ent systems trained with different alignments.
+The improvements are consistent across lan-
+guages and genres.
+1 

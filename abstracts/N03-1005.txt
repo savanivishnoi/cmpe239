@@ -1,0 +1,37 @@
+
+This paper describes a novel multi-stage recog-
+nition procedure for deducing the spelling and
+pronunciation of an open set of names. The
+overall goal is the automatic acquisition of un-
+known words in a human computer conver-
+sational system. The names are spoken and
+spelled in a single utterance, achieving a con-
+cise and natural dialogue flow. The first recog-
+nition pass extracts letter hypotheses from the
+spelled part of the waveform and maps them
+to phonemic hypotheses via a hierarchical sub-
+lexical model capable of generating grapheme-
+phoneme mappings. A second recognition pass
+determines the name by combining information
+from the spoken and spelled part of the wave-
+form, augmented with language model con-
+straints. The procedure is integrated into a spo-
+ken dialogue system where users are asked to
+enroll their names for the first time. The acqui-
+sition process is implemented in multiple paral-
+lel threads for real-time operation. Subsequent
+to inducing the spelling and pronunciation of a
+new name, a series of operations automatically
+updates the recognition and natural language
+systems to immediately accommodate the new
+word. Experiments show promising results for
+letter and phoneme accuracies on a preliminary
+dataset.
+
+The research at CNRI was supported by DARPA un-
+der contract number N66001-00-2-8922, monitored through
+SPAWAR Systems Center, San Diego. The research at MIT was
+supported by DARPA under contract number NBCH1020002
+monitored through the Dept. of the Interior, National Business
+Center, Acquisition Services Div., Fort Huachuca, AZ.
+1 

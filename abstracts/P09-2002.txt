@@ -1,0 +1,18 @@
+
+Past work on English coordination has fo-
+cused on coordination scope disambigua-
+tion. In Japanese, detecting whether coor-
+dination exists in a sentence is also a prob-
+lem, and the state-of-the-art alignment-
+based method specialized for scope dis-
+ambiguation does not perform well on
+Japanese sentences. To take the detection
+of coordination into account, this paper in-
+troduces a ?bypass? to the alignment graph
+used by this method, so as to explicitly
+represent the non-existence of coordinate
+structures in a sentence. We also present
+an effective feature decomposition scheme
+based on the distance between words in
+conjuncts.
+1 

@@ -1,0 +1,29 @@
+ 
+Chinese word segmentation (CWS), named 
+entity recognition (NER) and part-of-
+speech tagging is the lexical processing in 
+Chinese language. This paper describes the 
+work on these tasks done by France Tele-
+com Team (Beijing) at the fourth Interna-
+tional Chinese Language Processing Bake-
+off. In particular, we employ Conditional 
+Random Fields with different features for 
+these tasks. In order to improve NER rela-
+tively low recall; we exploit non-local fea-
+tures and alleviate class imbalanced distri-
+bution on NER dataset to enhance the re-
+call and keep its relatively high precision. 
+Some other post-processing measures such 
+as consistency checking and transforma-
+tion-based error-driven learning are used to 
+improve word segmentation performance. 
+Our systems participated in most CWS and 
+POS tagging evaluations and all the NER 
+tracks. As a result, our NER system 
+achieves the first ranks on MSRA open 
+track and MSRA/CityU closed track. Our 
+CWS system achieves the first rank on 
+CityU open track, which means that our 
+systems achieve state-of-the-art perform-
+ance on Chinese lexical processing. 
+1 

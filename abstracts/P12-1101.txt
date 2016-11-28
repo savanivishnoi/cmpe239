@@ -1,0 +1,22 @@
+
+We propose a simple generative, syntactic
+language model that conditions on overlap-
+ping windows of tree context (or treelets) in
+the same way that n-gram language models
+condition on overlapping windows of linear
+context. We estimate the parameters of our
+model by collecting counts from automati-
+cally parsed text using standard n-gram lan-
+guage model estimation techniques, allowing
+us to train a model on over one billion tokens
+of data using a single machine in a matter of
+hours. We evaluate on perplexity and a range
+of grammaticality tasks, and find that we per-
+form as well or better than n-gram models and
+other generative baselines. Our model even
+competes with state-of-the-art discriminative
+models hand-designed for the grammaticality
+tasks, despite training on positive data alone.
+We also show fluency improvements in a pre-
+liminary machine translation experiment.
+1 

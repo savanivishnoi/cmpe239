@@ -1,0 +1,19 @@
+
+We present experiments with a dependency
+parsing model defined on rich factors. Our
+model represents dependency trees with fac-
+tors that include three types of relations be-
+tween the tokens of a dependency and their
+children. We extend the projective pars-
+ing algorithm of Eisner (1996) for our case,
+and train models using the averaged percep-
+tron. Our experiments show that consider-
+ing higher-order information yields signifi-
+cant improvements in parsing accuracy, but
+comes at a high cost in terms of both time
+and memory consumption. In the multi-
+lingual exercise of the CoNLL-2007 shared
+task (Nivre et al, 2007), our system obtains
+the best accuracy for English, and the second
+best accuracies for Basque and Czech.
+1 

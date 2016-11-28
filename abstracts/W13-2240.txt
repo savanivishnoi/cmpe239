@@ -1,0 +1,20 @@
+
+This paper describes a set of experi-
+ments on two sub-tasks of Quality Esti-
+mation of Machine Translation (MT) out-
+put. Sentence-level ranking of alternative
+MT outputs is done with pairwise classi-
+fiers using Logistic Regression with black-
+box features originating from PCFG Pars-
+ing, language models and various counts.
+Post-editing time prediction uses regres-
+sion models, additionally fed with new
+elaborate features from the Statistical MT
+decoding process. These seem to be better
+indicators of post-editing time than black-
+box features. Prior to training the models,
+feature scoring with ReliefF and Informa-
+tion Gain is used to choose feature sets of
+decent size and avoid computational com-
+plexity.
+1 

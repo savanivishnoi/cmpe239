@@ -1,0 +1,23 @@
+
+We present a comparative study of transition-,
+graph- and PCFG-based models aimed at il-
+luminating more precisely the likely contri-
+bution of CFGs in improving Chinese depen-
+dency parsing accuracy, especially by com-
+bining heterogeneous models. Inspired by
+the impact of a constituency grammar on de-
+pendency parsing, we propose several strate-
+gies to acquire pseudo CFGs only from de-
+pendency annotations. Compared to linguistic
+grammars learned from rich phrase-structure
+treebanks, well designed pseudo grammars
+achieve similar parsing accuracy and have
+equivalent contributions to parser ensemble.
+Moreover, pseudo grammars increase the di-
+versity of base models; therefore, together
+with all other models, further improve sys-
+tem combination. Based on automatic POS
+tagging, our final model achieves a UAS of
+87.23%, resulting in a significant improve-
+ment of the state of the art.
+1 

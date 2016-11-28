@@ -1,0 +1,22 @@
+
+When rules of transfer-based machine
+translation (MT) are automatically ac-
+quired from bilingual corpora, incor-
+rect/redundant rules are generated due to
+acquisition errors or translation variety in
+the corpora. As a new countermeasure
+to this problem, we propose a feedback
+cleaning method using automatic evalua-
+tion of MT quality, which removes incor-
+rect/redundant rules as a way to increase
+the evaluation score. BLEU is utilized
+for the automatic evaluation. The hill-
+climbing algorithm, which involves fea-
+tures of this task, is applied to searching
+for the optimal combination of rules. Our
+experiments show that the MT quality im-
+proves by 10% in test sentences according
+to a subjective evaluation. This is consid-
+erable improvement over previous meth-
+ods.
+1 

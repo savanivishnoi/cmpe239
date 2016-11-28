@@ -1,0 +1,15 @@
+
+The purpose of this work is to investigate the
+use of machine learning approaches for confi-
+dence estimation within a statistical machine
+translation application. Specifically, we at-
+tempt to learn probabilities of correctness for
+various model predictions, based on the native
+probabilites (i.e. the probabilites given by the
+original model) and on features of the current
+context. Our experiments were conducted us-
+ing three original translation models and two
+types of neural nets (single-layer and multi-
+layer perceptrons) for the confidence estima-
+tion task.
+1 

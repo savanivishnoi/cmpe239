@@ -1,0 +1,15 @@
+. Fixed multiword expressions are strings of words which to-
+gether behave like a single word. This research establishes a method for
+the automatic extraction of such expressions. Our method involves three
+stages. In the first, a statistical measure is used to extract candidate bi-
+grams. In the second, we use this list to select occurrences of candidate
+expressions in a corpus, together with their surrounding contexts. These
+examples are used as training data for supervised machine learning, re-
+sulting in a classifier which can identify target multiword expressions.
+The final stage is the estimation of the part of speech of each extracted
+expression based on its context of occurence. Evaluation demonstrated
+that collocation measures alone are not effective in identifying target ex-
+pressions. However, when trained on one million examples, the classifier
+identified target multiword expressions with precision greater than 90%.
+Part of speech estimation had precision and recall of over 95%.
+1 

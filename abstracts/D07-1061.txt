@@ -1,0 +1,24 @@
+
+Many systems for tasks such as question answer-
+ing, multi-document summarization, and infor-
+mation retrieval need robust numerical measures
+of lexical relatedness. Standard thesaurus-based
+measures of word pair similarity are based on
+only a single path between those words in the
+thesaurus graph. By contrast, we propose a new
+model of lexical semantic relatedness that incor-
+porates information from every explicit or im-
+plicit path connecting the two words in the en-
+tire graph. Our model uses a random walk over
+nodes and edges derived from WordNet links
+and corpus statistics. We treat the graph as a
+Markov chain and compute a word-specific sta-
+tionary distribution via a generalized PageRank
+algorithm. Semantic relatedness of a word pair is
+scored by a novel divergence measure, ZKL, that
+outperforms existing measures on certain classes
+of distributions. In our experiments, the resulting
+relatedness measure is the WordNet-based mea-
+sure most highly correlated with human similar-
+ity judgments by rank ordering at ? = .90.
+1 

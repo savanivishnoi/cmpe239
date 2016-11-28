@@ -1,0 +1,18 @@
+
+We present Evita, an application for rec-
+ognizing events in natural language texts.
+Although developed as part of a suite of
+tools aimed at providing question answer-
+ing systems with information about both
+temporal and intensional relations among
+events, it can be used independently as
+an event extraction tool. It is unique in
+that it is not limited to any pre-established
+list of relation types (events), nor is it re-
+stricted to a specific domain. Evita per-
+forms the identification and tagging of
+event expressions based on fairly simple
+strategies, informed by both linguistic-
+and statistically-based data. It achieves a
+performance ratio of 80.12% F-measure.1
+1 

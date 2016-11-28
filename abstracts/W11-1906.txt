@@ -1,0 +1,17 @@
+
+In this paper, we describe a machine learn-
+ing system based on rule and tree ensembles
+for unrestricted coreference resolution. We
+use Entropy Guided Transformation Learning
+(ETL) and Decision Trees as the base learners,
+and, respectively, ETL Committee and Ran-
+dom Forest as ensemble algorithms. Our sys-
+tem is evaluated on the closed track of the
+CoNLL 2011 shared task: Modeling Unre-
+stricted Coreference in OntoNotes. A prelim-
+inary version of our system achieves the 6th
+best score out of 21 competitors in the CoNLL
+2011 shared task. Here, we depict the system
+architecture and our experimental results and
+findings.
+1 

@@ -1,0 +1,25 @@
+
+Probabilistic models such as Bayesian Net-
+works are now in widespread use in spoken
+dialogue systems, but their scalability to com-
+plex interaction domains remains a challenge.
+One central limitation is that the state space
+of such models grows exponentially with the
+problem size, which makes parameter esti-
+mation increasingly difficult, especially for
+domains where only limited training data is
+available. In this paper, we show how to cap-
+ture the underlying structure of a dialogue do-
+main in terms of probabilistic rules operating
+on the dialogue state. The probabilistic rules
+are associated with a small, compact set of pa-
+rameters that can be directly estimated from
+data. We argue that the introduction of this ab-
+straction mechanism yields probabilistic mod-
+els that are easier to learn and generalise bet-
+ter than their unstructured counterparts. We
+empirically demonstrate the benefits of such
+an approach learning a dialogue policy for a
+human-robot interaction domain based on a
+Wizard-of-Oz data set.
+1 

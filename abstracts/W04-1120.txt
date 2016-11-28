@@ -1,0 +1,19 @@
+
+A classical Chinese Natural Language Under-
+standing (NLU) architecture usually includes
+several NLU components which are executed
+with some mechanism. A new Multilayer Search
+Mechanism (MSM) which integrates and quan-
+tifies these components into a uniform multi-
+layer treelike architecture is presented in this
+paper. The mechanism gets the optimal re-
+sult with search algorithms. The components
+in MSM affect each other. At last, the per-
+formance of each component is enhanced. We
+built a practical system ? CUP (Chinese Under-
+standing Platform) based on MSM with three
+layers. By the experiments on Word Segmen-
+tation, a better performance was achieved. In
+theory the normal cascade and feedback mech-
+anism are just some special cases of MSM.
+1 

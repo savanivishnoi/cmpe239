@@ -1,0 +1,18 @@
+
+We present Tightly Packed Tries (TPTs), a
+compact implementation of read-only, com-
+pressed trie structures with fast on-demand
+paging and short load times.
+We demonstrate the benefits of TPTs for stor-
+ing n-gram back-off language models and
+phrase tables for statistical machine transla-
+tion. Encoded as TPTs, these databases re-
+quire less space than flat text file representa-
+tions of the same data compressed with the
+gzip utility. At the same time, they can be
+mapped into memory quickly and be searched
+directly in time linear in the length of the key,
+without the need to decompress the entire file.
+The overhead for local decompression during
+search is marginal.
+1 

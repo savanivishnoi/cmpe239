@@ -1,0 +1,19 @@
+ 
+This paper describes a mix word-pair 
+mix-WP) identifier to resolve homo-
+nym/segmentation ambiguities as well 
+as perform STW conversion effec-
+tively for Chinese input. The mix-WP 
+identifier includes a specific word-pair 
+(SWP) identifier and a common word-
+pair (CWP) identifier. It is designed as 
+a supporting processing with Chinese 
+input systems. Our experiments show 
+that by applying the mix-WP identifier, 
+together with the Microsoft input 
+method editor 2003 (MSIME) and an 
+optimized bigram model (BiGram), 
+the tonal and toneless STW perform-
+ance of the two input systems can be 
+improved. 
+1 

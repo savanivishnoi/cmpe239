@@ -1,0 +1,16 @@
+
+We present a cognitive model of inducing
+verb selectional preferences from individ-
+ual verb usages. The selectional preferences
+for each verb argument are represented as
+a probability distribution over the set of
+semantic properties that the argument can
+possess?a semantic profile. The seman-
+tic profiles yield verb-specific conceptual-
+izations of the arguments associated with a
+syntactic position. The proposed model can
+learn appropriate verb profiles from a small
+set of noisy training data, and can use them
+in simulating human plausibility judgments
+and analyzing implicit object alternation.
+1 

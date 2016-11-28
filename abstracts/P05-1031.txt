@@ -1,0 +1,20 @@
+
+Non-sentential utterances (e.g., short-
+answers as in ?Who came to the party???
+?Peter.?) are pervasive in dialogue. As
+with other forms of ellipsis, the elided ma-
+terial is typically present in the context
+(e.g., the question that a short answer an-
+swers). We present a machine learning
+approach to the novel task of identifying
+fragments and their antecedents in multi-
+party dialogue. We compare the perfor-
+mance of several learning algorithms, us-
+ing a mixture of structural and lexical fea-
+tures, and show that the task of identifying
+antecedents given a fragment can be learnt
+successfully (f(0.5) = .76); we discuss
+why the task of identifying fragments is
+harder (f(0.5) = .41) and finally report
+on a combined task (f(0.5) = .38).
+1 

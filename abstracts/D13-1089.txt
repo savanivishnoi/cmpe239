@@ -1,0 +1,15 @@
+
+We introduce a new highly scalable approach
+for computing Distributional Thesauri (DTs).
+By employing pruning techniques and a dis-
+tributed framework, we make the computation
+for very large corpora feasible on comparably
+small computational resources. We demon-
+strate this by releasing a DT for the whole vo-
+cabulary of Google Books syntactic n-grams.
+Evaluating against lexical resources using two
+measures, we show that our approach pro-
+duces higher quality DTs than previous ap-
+proaches, and is thus preferable in terms of
+speed and quality for large corpora.
+1 

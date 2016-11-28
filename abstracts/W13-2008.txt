@@ -1,0 +1,32 @@
+
+We present the design, preparation, results
+and analysis of the Cancer Genetics (CG)
+event extraction task, a main task of the
+BioNLP Shared Task (ST) 2013. The CG
+task is an information extraction task tar-
+geting the recognition of events in text,
+represented as structured n-ary associa-
+tions of given physical entities. In addition
+to addressing the cancer domain, the CG
+task is differentiated from previous event
+extraction tasks in the BioNLP ST series
+in addressing a wide range of pathological
+processes and multiple levels of biological
+organization, ranging from the molecular
+through the cellular and organ levels up to
+whole organisms. Final test set submis-
+sions were accepted from six teams. The
+highest-performing system achieved an F-
+score of 55.4%. This level of performance
+is broadly comparable with the state of
+the art for established molecular-level ex-
+traction tasks, demonstrating that event ex-
+traction resources and methods generalize
+well to higher levels of biological orga-
+nization and are applicable to the analy-
+sis of scientific texts on cancer. The CG
+task continues as an open challenge to
+all interested parties, with tools and re-
+sources available from http://2013.
+bionlp-st.org/.
+1 

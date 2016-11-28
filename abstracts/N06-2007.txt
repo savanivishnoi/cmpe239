@@ -1,0 +1,14 @@
+
+To overcome the problem of not hav-
+ing enough manually labeled relation in-
+stances for supervised relation extraction
+methods, in this paper we propose a label
+propagation (LP) based semi-supervised
+learning algorithm for relation extraction
+task to learn from both labeled and unla-
+beled data. Evaluation on the ACE corpus
+showed when only a few labeled examples
+are available, our LP based relation extrac-
+tion can achieve better performance than
+SVM and another bootstrapping method.
+1 

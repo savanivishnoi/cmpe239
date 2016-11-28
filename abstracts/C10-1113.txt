@@ -1,0 +1,18 @@
+
+We present a novel approach to auto-
+matic metaphor identification in unre-
+stricted text. Starting from a small seed set
+of manually annotated metaphorical ex-
+pressions, the system is capable of har-
+vesting a large number of metaphors of
+similar syntactic structure from a corpus.
+Our method is distinguished from previ-
+ous work in that it does not employ any
+hand-crafted knowledge, other than the
+initial seed set, but, in contrast, captures
+metaphoricity by means of verb and noun
+clustering. Being the first to employ un-
+supervised methods for metaphor identifi-
+cation, our system operates with the pre-
+cision of 0.79.
+1 

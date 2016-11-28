@@ -1,0 +1,18 @@
+
+We are interested in contributing a small, publicly
+available Urdu corpus of written text to the natu-
+ral language processing community. The Urdu
+text is stored in the Unicode character set, in its
+native Arabic script, and marked up according to
+the Corpus Encoding Standard (CES) XML Docu-
+ment Type Definition (DTD). All the tags and
+metadata are in English. To date, the corpus is
+made entirely of data from British Broadcasting
+Company?s (BBC) Urdu Web site, although we
+plan to add data from other Urdu newspapers.
+Upon completion, the corpus will consist mostly
+of raw Urdu text marked up only to the paragraph
+level so it can be used as input for natural lan-
+guage processing (NLP) tasks. In addition, it will
+be hand-tagged for parts of speech so the data can
+be used to train and test NLP  tools.

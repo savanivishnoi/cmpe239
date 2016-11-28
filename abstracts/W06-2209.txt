@@ -1,0 +1,20 @@
+
+This paper introduces a semi-supervised
+learning framework for creating training
+material, namely active annotation. The
+main intuition is that an unsupervised
+method is used to initially annotate imper-
+fectly the data and then the errors made
+are detected automatically and corrected
+by a human annotator. We applied ac-
+tive annotation to named entity recogni-
+tion in the biomedical domain and encour-
+aging results were obtained. The main
+advantages over the popular active learn-
+ing framework are that no seed annotated
+data is needed and that the reusability of
+the data is maintained. In addition to the
+framework, an efficient uncertainty esti-
+mation for Hidden Markov Models is pre-
+sented.
+1 

@@ -1,0 +1,24 @@
+
+In this paper, we outline the develop-
+ment of a system that automatically con-
+structs ontologies by extracting knowledge
+from dictionary definition sentences us-
+ing Robust Minimal Recursion Semantics
+(RMRS). Combining deep and shallow
+parsing resource through the common for-
+malism of RMRS allows us to extract on-
+tological relations in greater quantity and
+quality than possible with any of the meth-
+ods independently. Using this method,
+we construct ontologies from two differ-
+ent Japanese lexicons and one English lex-
+icon. We then link them to existing, hand-
+crafted ontologies, aligning them at the
+word-sense level. This alignment provides
+a representative evaluation of the qual-
+ity of the relations being extracted. We
+present the results of this ontology con-
+struction and discuss how our system was
+designed to handle multiple lexicons and
+languages.
+1 

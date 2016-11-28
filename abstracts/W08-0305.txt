@@ -1,0 +1,30 @@
+
+We present an extensive experimental study
+of a Statistical Machine Translation system,
+Moses (Koehn et al, 2007), from the point
+of view of its learning capabilities. Very ac-
+curate learning curves are obtained, by us-
+ing high-performance computing, and extrap-
+olations are provided of the projected perfor-
+mance of the system under different condi-
+tions. We provide a discussion of learning
+curves, and we suggest that: 1) the represen-
+tation power of the system is not currently a
+limitation to its performance, 2) the inference
+of its models from finite sets of i.i.d. data
+is responsible for current performance limita-
+tions, 3) it is unlikely that increasing dataset
+sizes will result in significant improvements
+(at least in traditional i.i.d. setting), 4) it is un-
+likely that novel statistical estimation methods
+will result in significant improvements. The
+current performance wall is mostly a conse-
+quence of Zipf?s law, and this should be taken
+into account when designing a statistical ma-
+chine translation system. A few possible re-
+search directions are discussed as a result of
+this investigation, most notably the integra-
+tion of linguistic rules into the model inference
+phase, and the development of active learning
+procedures.
+1 

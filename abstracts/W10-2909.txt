@@ -1,0 +1,30 @@
+
+Modern unsupervised POS taggers usually
+apply an optimization procedure to a non-
+convex function, and tend to converge to
+local maxima that are sensitive to start-
+ing conditions. The quality of the tag-
+ging induced by such algorithms is thus
+highly variable, and researchers report av-
+erage results over several random initial-
+izations. Consequently, applications are
+not guaranteed to use an induced tagging
+of the quality reported for the algorithm.
+In this paper we address this issue using
+an unsupervised test for intrinsic cluster-
+ing quality. We run a base tagger with
+different random initializations, and select
+the best tagging using the quality test. As
+a base tagger, we modify a leading un-
+supervised POS tagger (Clark, 2003) to
+constrain the distributions of word types
+across clusters to be Zipfian, allowing us
+to utilize a perplexity-based quality test.
+We show that the correlation between our
+quality test and gold standard-based tag-
+ging quality measures is high. Our re-
+sults are better in most evaluation mea-
+sures than all results reported in the liter-
+ature for this task, and are always better
+than the Clark average results.
+1 

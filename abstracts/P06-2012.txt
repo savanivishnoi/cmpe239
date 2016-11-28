@@ -1,0 +1,15 @@
+
+This paper presents an unsupervised learn-
+ing approach to disambiguate various rela-
+tions between name entities by use of vari-
+ous lexical and syntactic features from the
+contexts. It works by calculating eigen-
+vectors of an adjacency graph?s Laplacian
+to recover a submanifold of data from a
+high dimensionality space and then per-
+forming cluster number estimation on the
+eigenvectors. Experiment results on ACE
+corpora show that this spectral cluster-
+ing based approach outperforms the other
+clustering methods.
+1 

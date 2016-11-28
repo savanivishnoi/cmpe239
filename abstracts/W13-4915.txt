@@ -1,0 +1,22 @@
+
+This paper presents our preliminary conclu-
+sions as part of an ongoing effort to construct a
+new dependency representation framework for
+Turkish. We aim for this new framework to ac-
+commodate the highly agglutinative morphol-
+ogy of Turkish as well as to allow the annota-
+tion of unedited web data, and shape our deci-
+sions around these considerations. In this pa-
+per, we firstly describe a novel syntactic repre-
+sentation for morphosyntactic sub-word units
+(namely inflectional groups (IGs) in Turkish)
+which allows inter-IG relations to be discerned
+with perfect accuracy without having to hide
+lexical information. Secondly, we investigate
+alternative annotation schemes for coordina-
+tion structures and present a better scheme
+(nearly 11% increase in recall scores) than the
+one in Turkish Treebank (Oflazer et al, 2003)
+for both parsing accuracies and compatibility
+for colloquial language.
+1 

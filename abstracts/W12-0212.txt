@@ -1,0 +1,23 @@
+
+The paper reports several studies about
+quantifying language similarity via pho-
+netic alignment of core vocabulary items
+(taken from Wichman?s Automated Simi-
+larity Judgement Program data base). It
+turns out that weighted alignment accord-
+ing to the Needleman-Wunsch algorithm
+yields best results.
+For visualization and data exploration pur-
+poses, we used an implementation of the
+Fruchterman-Reingold algorithm, a version
+of force directed graph layout. This soft-
+ware projects large amounts of data points
+to a two- or three-dimensional structure in
+such a way that groups of mutually similar
+items form spatial clusters.
+The exploratory studies conducted along
+these ways lead to suggestive results that
+provide evidence for historical relation-
+ships beyond the traditionally recognized
+language families.
+1 

@@ -1,0 +1,22 @@
+
+Recently, numerous statistical machine trans-
+lation models which can utilize various kinds
+of translation rules are proposed. In these
+models, not only the conventional syntactic
+rules but also the non-syntactic rules can be
+applied. Even the pure phrase rules are in-
+cludes in some of these models. Although the
+better performances are reported over the con-
+ventional phrase model and syntax model, the
+mixture of diversified rules still leaves much
+room for study. In this paper, we present a
+refined rule classification system. Based on
+this classification system, the rules are classi-
+fied according to different standards, such as
+lexicalization level and generalization. Espe-
+cially, we refresh the concepts of the structure
+reordering rules and the discontiguous phrase
+rules. This novel classification system may
+supports the SMT research community with
+some helpful references.
+1 

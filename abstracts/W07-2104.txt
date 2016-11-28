@@ -1,0 +1,11 @@
+
+In this paper we describe our participation in
+the SemEval 2007 Web People Search task.
+Our main aim in participating was to adapt
+language modeling tools for the task, and to
+experiment with various document represen-
+tations. Our main finding is that single pass
+clustering, using title, snippet and body to
+represent documents, is the most effective
+setting.
+1 

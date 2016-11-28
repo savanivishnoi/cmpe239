@@ -1,0 +1,22 @@
+
+This paper examines the influence of fea-
+tures based on clusters of co-occurrences
+for supervised Word Sense Disambigua-
+tion and Lexical Substitution. Co-
+occurrence cluster features are derived
+from clustering the local neighborhood of
+a target word in a co-occurrence graph
+based on a corpus in a completely un-
+supervised fashion. Clusters can be as-
+signed in context and are used as features
+in a supervised WSD system. Experi-
+ments fitting a strong baseline system with
+these additional features are conducted on
+two datasets, showing improvements. Co-
+occurrence features are a simple way to
+mimic Topic Signatures (Mart??nez et al,
+2008) without needing to construct re-
+sources manually. Further, a system is de-
+scribed that produces lexical substitutions
+in context with very high precision.
+1 

@@ -1,0 +1,22 @@
+
+Mapping documents into an interlingual rep-
+resentation can help bridge the language bar-
+rier of a cross-lingual corpus. Previous ap-
+proaches use aligned documents as training
+data to learn an interlingual representation,
+making them sensitive to the domain of the
+training data. In this paper, we learn an in-
+terlingual representation in an unsupervised
+manner using only a bilingual dictionary. We
+first use the bilingual dictionary to find candi-
+date document alignments and then use them
+to find an interlingual representation. Since
+the candidate alignments are noisy, we de-
+velop a robust learning algorithm to learn
+the interlingual representation. We show that
+bilingual dictionaries generalize to different
+domains better: our approach gives better per-
+formance than either a word by word transla-
+tion method or Canonical Correlation Analy-
+sis (CCA) trained on a different domain.
+1 

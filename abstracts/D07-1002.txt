@@ -1,0 +1,16 @@
+
+Shallow semantic parsing, the automatic
+identification and labeling of sentential con-
+stituents, has recently received much atten-
+tion. Our work examines whether seman-
+tic role information is beneficial to question
+answering. We introduce a general frame-
+work for answer extraction which exploits
+semantic role annotations in the FrameNet
+paradigm. We view semantic role assign-
+ment as an optimization problem in a bipar-
+tite graph and answer extraction as an in-
+stance of graph matching. Experimental re-
+sults on the TREC datasets demonstrate im-
+provements over state-of-the-art models.
+1 

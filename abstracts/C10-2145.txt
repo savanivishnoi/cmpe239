@@ -1,0 +1,28 @@
+
+This paper proposes a novel topic model,
+Citation-Author-Topic (CAT) model that
+addresses a semantic search task we define
+as expert search ? given a research area as
+a query, it returns names of experts in this
+area. For example, Michael Collins would
+be one of the top names retrieved given the
+query Syntactic Parsing.
+Our contribution in this paper is two-fold.
+First, we model the cited author informa-
+tion together with words and paper au-
+thors. Such extra contextual information
+directly models linkage among authors
+and enhances the author-topic association,
+thus produces more coherent author-topic
+distribution. Second, we provide a prelim-
+inary solution to the task of expert search
+when the learning repository contains ex-
+clusively research related documents au-
+thored by the experts. When compared
+with a previous proposed model (Johri
+et al, 2010), the proposed model pro-
+duces high quality author topic linkage
+and achieves over 33% error reduction
+evaluated by the standard MAP measure-
+ment.
+1 

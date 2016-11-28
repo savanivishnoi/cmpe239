@@ -1,0 +1,13 @@
+ 
+We describe the generation of communicative ac- 
+tions in an implemented embodied conversational 
+agent. Our agent plans each utterance so that mul- 
+tiple communicative goals may be realized oppor- 
+tunistically by a composite action including not only 
+speech but also coverbal gesture that fits the con- 
+text and the ongoing speech in ways representative 
+of natural human conversation. We accomplish this 
+by reasoning from a grammar which describes ges- 
+ture declaratively in terms of its discourse function, 
+semantics and synchrony with speech. 
+1 

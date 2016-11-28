@@ -1,0 +1,19 @@
+
+We investigate the optimal LM treatment of
+abundant filled pauses (FP) in spontaneous
+monologues of a professional dictation task.
+Questions addressed here are (1) how to deal
+with FP in the LM history and (2) to which ex-
+tent can the LM distinguish between positions
+with high and low FP likelihood. Our results
+differ partly from observations reported on di-
+alogues. Discarding FP from all LM histories
+clearly improves the performance. Local per-
+plexities, entropies and word rankings at po-
+sitions following FP suggest that most FP in-
+dicate hesitations rather than restarts. Proper
+prediction of FP allows to distinguish FP from
+word positions by a doubled FP probability.
+Recognition experiments confirm the improve-
+ments found in our perplexity studies.
+1 

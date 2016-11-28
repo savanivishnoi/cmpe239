@@ -1,0 +1,22 @@
+
+For a robot working in an open environment,
+a task-oriented language capability will not
+be sufficient. In order to adapt to the en-
+vironment, such a robot will have to learn
+language dynamically. We developed a Sys-
+tem for Noun Concepts Acquisition from ut-
+terances about Images, SINCA in short. It is
+a language acquisition system without knowl-
+edge of grammar and vocabulary, which learns
+noun concepts from user utterances. We
+recorded a video of a child?s daily life to
+collect dialogue data that was spoken to and
+around him. The child is a member of a fam-
+ily consisting of the parents and his sister. We
+evaluated the performance of SINCA using
+the collected data. In this paper, we describe
+the algorithms of SINCA and an evaluation
+experiment. We work on Japanese language
+acquisition, however our method can easily be
+adapted to other languages.
+1 

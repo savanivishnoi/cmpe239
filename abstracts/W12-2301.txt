@@ -1,0 +1,18 @@
+
+Most tools and resources developed for nat-
+ural language processing of Arabic are de-
+signed for Modern Standard Arabic (MSA)
+and perform terribly on Arabic dialects, such
+as Egyptian Arabic. Egyptian Arabic differs
+from MSA phonologically, morphologically
+and lexically and has no standardized orthog-
+raphy. We present a linguistically accurate,
+large-scale morphological analyzer for Egyp-
+tian Arabic. The analyzer extends an existing
+resource, the Egyptian Colloquial Arabic Lex-
+icon, and follows the part-of-speech guide-
+lines used by the Linguistic Data Consortium
+for Egyptian Arabic. It accepts multiple or-
+thographic variants and normalizes them to a
+conventional orthography.
+1 

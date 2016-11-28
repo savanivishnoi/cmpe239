@@ -1,0 +1,56 @@
+
+In this paper, we describe a first prototype of
+a pattern-based analyzer developed in the
+context of a speech-to-speech translation
+project using a pivot-based approach (the
+pivot is called IF). The chosen situation
+involves a French client talking to an Italian
+travel agent (both in their own language) to
+organize a stay in the Trentino area.
+An IF consists of a dialogue act, and a list,
+possibly empty, of argument values. The
+analyzer applies a "phrase spotting"
+mechanism on the output of the speech
+recognition module. It finds well-formed
+phrases corresponding to argument values.
+A dialogue act is then built according to the
+instantiated arguments and some other
+features of the input.
+The current version of the prototype has
+been involved in an evaluation campaign on
+an unseen corpus of four dialogues
+consisting of 235 speech turns. The results
+are given and commented in the last part of
+the paper. We think they pave the way for
+future enhancements to both the coverage
+and the development methodology.
+R?sum?
+Dans cet article, nous d?crivons la premi?re
+version d'un analyseur fond? sur des patrons
+dans le contexte d'un projet de traduction de
+parole utilisant une technique de traduction
+par pivot (le pivot est appel? IF). Dans la
+situation choisie, un client fran?ais parle
+avec un agent italien (chacun dans sa langue
+maternelle) pour organiser un s?jour dans la
+r?gion du Trentin en Italie.
+Une IF se compose d'un acte de dialogue et
+d'une liste, ?ventuellement vide, de valeurs
+d'arguments. L'analyseur met en ?uvre un
+m?canisme de reconnaissance de syntagmes
+sur la sortie du module de reconnaissance de
+la parole. Cela permet de trouver des
+syntagmes bien form?s qui correspondent ?
+des valeurs d'arguments. L'acte de parole est
+alors construit en utilisant les arguments
+instanci?s ainsi que d'autres caract?ristiques
+de l'entr?e.
+Cette version du prototype a ?t? mis en
+?uvre lors d'une ?valuation sur un corpus de
+quatre dialogues, non utilis?s pour le
+d?veloppement, compos? de 235 tours de
+parole du client. Les r?sultats sont donn?s
+dans la derni?re section de cet article. Nous
+pensons qu'ils ouvrent la voix pour de
+futures am?liorations de la couverture ainsi
+que de la m?thodologie de d?veloppement.

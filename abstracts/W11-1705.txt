@@ -1,0 +1,15 @@
+
+We propose a novel method to construct se-
+mantic orientation lexicons using large data
+and a thesaurus. To deal with large data, we
+use Count-Min sketch to store the approxi-
+mate counts of all word pairs in a bounded
+space of 8GB. We use a thesaurus (like Roget)
+to constrain near-synonymous words to have
+the same polarity. This framework can easily
+scale to any language with a thesaurus and a
+unzipped corpus size ? 50 GB (12 billion to-
+kens). We evaluate these lexicons intrinsically
+and extrinsically, and they perform compara-
+ble when compared to other existing lexicons.
+1 

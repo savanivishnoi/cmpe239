@@ -1,0 +1,20 @@
+
+The context in which language is used pro-
+vides a strong signal for learning to recover
+its meaning. In this paper, we show it can be
+used within a grounded CCG semantic parsing
+approach that learns a joint model of mean-
+ing and context for interpreting and executing
+natural language instructions, using various
+types of weak supervision. The joint nature
+provides crucial benefits by allowing situated
+cues, such as the set of visible objects, to di-
+rectly influence learning. It also enables algo-
+rithms that learn while executing instructions,
+for example by trying to replicate human ac-
+tions. Experiments on a benchmark naviga-
+tional dataset demonstrate strong performance
+under differing forms of supervision, includ-
+ing correctly executing 60% more instruction
+sets relative to the previous state of the art.
+1 

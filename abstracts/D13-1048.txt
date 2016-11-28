@@ -1,0 +1,21 @@
+
+Reordering poses one of the greatest chal-
+lenges in Statistical Machine Translation re-
+search as the key contextual information may
+well be beyond the confine of translation units.
+We present the ?Anchor Graph? (AG) model
+where we use a graph structure to model
+global contextual information that is crucial
+for reordering. The key ingredient of our AG
+model is the edges that capture the relation-
+ship between the reordering around a set of
+selected translation units, which we refer to as
+anchors. As the edges link anchors that may
+span multiple translation units at decoding
+time, our AG model effectively encodes global
+contextual information that is previously ab-
+sent. We integrate our proposed model into a
+state-of-the-art translation system and demon-
+strate the efficacy of our proposal in a large-
+scale Chinese-to-English translation task.
+1 

@@ -1,0 +1,25 @@
+
+We present a model for detecting user dis-
+engagement during spoken dialogue interac-
+tions. Intrinsic evaluation of our model (i.e.,
+with respect to a gold standard) yields results
+on par with prior work. However, since our
+goal is immediate implementation in a sys-
+tem that already detects and adapts to user un-
+certainty, we go further than prior work and
+present an extrinsic evaluation of our model
+(i.e., with respect to the real-world task). Cor-
+relation analyses show crucially that our au-
+tomatic disengagement labels correlate with
+system performance in the same way as the
+gold standard (manual) labels, while regres-
+sion analyses show that detecting user disen-
+gagement adds value over and above detecting
+only user uncertainty when modeling perfor-
+mance. Our results suggest that automatically
+detecting and adapting to user disengagement
+has the potential to significantly improve per-
+formance even in the presence of noise, when
+compared with only adapting to one affective
+state or ignoring affect entirely.
+1 

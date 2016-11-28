@@ -1,0 +1,19 @@
+ 
+In this paper, we describe the development 
+and performance of the supervised system 
+UMCC_DLSI-(SA). This system uses corpora 
+where phrases are annotated as Positive, 
+Negative, Objective, and Neutral, to achieve 
+new sentiment resources involving word 
+dictionaries with their associated polarity. As 
+a result, new sentiment inventories are 
+obtained and applied in conjunction with 
+detected informal patterns, to tackle the 
+challenges posted in Task 2b of the Semeval-
+2013 competition. Assessing the effectiveness 
+of our application in sentiment classification, 
+we obtained a 69% F-Measure for neutral and 
+an average of 43% F-Measure for positive 
+and negative using Tweets and SMS 
+messages. 
+1 

@@ -1,0 +1,19 @@
+
+Synonyms extraction is a difficult task to
+achieve and evaluate. Some studies have
+tried to exploit general dictionaries for
+that purpose, seeing them as graphs where
+words are related by the definition they ap-
+pear in, in a complex network of an ar-
+guably semantic nature. The advantage
+of using a general dictionary lies in the
+coverage, and the availability of such re-
+sources, in general and also in specialised
+domains. We present here a method ex-
+ploiting such a graph structure to compute
+a distance between words. This distance
+is used to isolate candidate synonyms for
+a given word. We present an evaluation of
+the relevance of the candidates on a sam-
+ple of the lexicon.
+1 

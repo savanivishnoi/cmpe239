@@ -1,0 +1,22 @@
+ 
+This paper describes a system for managing: dialogue 
+in a natural anguage interface. The proposed approach 
+uses a dialogue manager as the overall control mecha- 
+nism. The dialogue manager accesses domain independ- 
+ent resources for interpretation, generation and back- 
+ground system access. It also uses information from do- 
+main dependent knowledge sources, which are custom- 
+ized for various applications. 
+Instead of using complex plan-based reasoning, the 
+dialogue manager uses information about possible inter- 
+action structures and information from the specific dia- 
+logue situation to manage the dialogue. This is 
+motivated from the analysis of a series of experiments 
+where users interacted with a simulated natural language 
+interface. The dialogue manager integrates information 
+about segment types and moves into a hierarchical dia- 
+logue tree. The dialogue tree is accessed through ascore- 
+board which uses exchangeable access functions. The 
+control is distributed and the dialogue is directed from 
+action plans in the nodes in the dialogue tree. 
+1 

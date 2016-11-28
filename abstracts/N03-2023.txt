@@ -1,0 +1,20 @@
+
+A pseudoword is a composite comprised of two
+or more words chosen at random; the individual
+occurrences of the original words within a text
+are replaced by their conflation. Pseudowords
+are a useful mechanism for evaluating the im-
+pact of word sense ambiguity in many NLP
+applications. However, the standard method
+for constructing pseudowords has some draw-
+backs. Because the constituent words are cho-
+sen at random, the word contexts that surround
+pseudowords do not necessarily reflect the con-
+texts that real ambiguous words occur in. This
+in turn leads to an optimistic upper bound on
+algorithm performance. To address these draw-
+backs, we propose the use of lexical categories
+to create more realistic pseudowords, and eval-
+uate the results of different variations of this
+idea against the standard approach.
+1 

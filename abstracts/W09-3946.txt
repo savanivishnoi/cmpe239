@@ -1,0 +1,23 @@
+
+We address an issue of out-of-grammar
+(OOG) utterances in spoken dialogue sys-
+tems by generating help messages for
+novice users. Help generation for OOG
+utterances is a challenging problem be-
+cause language understanding (LU) re-
+sults based on automatic speech recogni-
+tion (ASR) results for such utterances are
+always erroneous as important words are
+often misrecognized or missed from such
+utterances. We first develop grammar ver-
+ification for OOG utterances on the ba-
+sis of a Weighted Finite-State Transducer
+(WFST). It robustly identifies a grammar
+rule that a user intends to utter, even when
+some important words are missed from the
+ASR result. We then adopt a ranking algo-
+rithm, RankBoost, whose features include
+the grammar verification results and the
+utterance history representing the user?s
+experience.
+1 

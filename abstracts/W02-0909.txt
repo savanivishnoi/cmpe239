@@ -1,0 +1,21 @@
+
+We extend a lexical knowledge-base of
+near-synonym differences with knowl-
+edge about their collocational behaviour.
+This type of knowledge is useful in the
+process of lexical choice between near-
+synonyms. We acquire collocations for
+the near-synonyms of interest from a cor-
+pus (only collocations with the appropri-
+ate sense and part-of-speech). For each
+word that collocates with a near-synonym
+we use a differential test to learn whether
+the word forms a less-preferred collo-
+cation or an anti-collocation with other
+near-synonyms in the same cluster. For
+this task we use a much larger corpus
+(the Web). We also look at associations
+(longer-distance co-occurrences) as a pos-
+sible source of learning more about nu-
+ances that the near-synonyms may carry.
+1 

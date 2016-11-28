@@ -1,0 +1,21 @@
+
+The classification problem derived from
+information extraction (IE) has an imbal-
+anced training set. This is particularly
+true when learning from smaller datasets
+which often have a few positive training
+examples and many negative ones. This
+paper takes two popular IE algorithms ?
+SVM and Perceptron ? and demonstrates
+how the introduction of an uneven margins
+parameter can improve the results on im-
+balanced training data in IE. Our experi-
+ments demonstrate that the uneven margin
+was indeed helpful, especially when learn-
+ing from few examples. Essentially, the
+smaller the training set is, the more bene-
+ficial the uneven margin can be. We also
+compare our systems to other state-of-the-
+art algorithms on several benchmarking
+corpora for IE.
+1 

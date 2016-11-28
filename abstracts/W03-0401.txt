@@ -1,0 +1,18 @@
+
+This paper presents a new approach to syntac-
+tic disambiguation based on lexicalized gram-
+mars. While existing disambiguation mod-
+els decompose the probability of parsing re-
+sults into that of primitive dependencies of two
+words, our model selects the most probable
+parsing result from a set of candidates allowed
+by a lexicalized grammar. Since parsing re-
+sults given by the lexicalized grammar cannot
+be decomposed into independent sub-events,
+we apply a maximum entropy model for fea-
+ture forests, which allows probabilistic model-
+ing without the independence assumption. Our
+approach provides a general method of produc-
+ing a consistent probabilistic model of parsing
+results given by lexicalized grammars.
+1 

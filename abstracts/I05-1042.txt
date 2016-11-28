@@ -1,0 +1,17 @@
+. In this paper, we present an empirical study that utilizes
+morph-syntactical information to improve translation quality. With three
+kinds of language pairs matched according to morph-syntactical similar-
+ity or difference, we investigate the effects of various morpho-syntactical
+information, such as base form, part-of-speech, and the relative positional
+information of a word in a statistical machine translation framework.
+We learn not only translation models but also word-based/class-based
+language models by manipulating morphological and relative positional
+information. And we integrate the models into a log-linear model. Ex-
+periments on multilingual translations showed that such morphological
+information as part-of-speech and base form are effective for improving
+performance in morphologically rich language pairs and that the relative
+positional features in a word group are useful for reordering the local
+word orders. Moreover, the use of a class-based n-gram language model
+improves performance by alleviating the data sparseness problem in a
+word-based language model.
+1 

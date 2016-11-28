@@ -1,0 +1,21 @@
+
+This paper proposes a simple framework
+for building ?virtual networking agents?;
+programs that can communicate with users
+and collect information through the inter-
+net. These virtual agents can also commu-
+nicate with each other to share information
+that one agent does not have. The frame-
+work - ?YouBot? - provides basic functions
+such as protocol handling, authentication,
+and data storage. The behavior of the vir-
+tual agents is defined by a task proces-
+sor (?TP?) which can be written in a light-
+weight language such as JavaScript. It is
+very easy to add new functions to a virtual
+agent. The last part of this paper discusses
+the micro-blog system ?twitter? and other
+web services as information sources that a
+virtual agent can utilise to make its behav-
+ior more suited to the user.
+1 

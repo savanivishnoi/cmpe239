@@ -1,0 +1,20 @@
+
+We propose an open-domain question an-
+swering system using Thai Wikipedia as
+the knowledge base. Two types of in-
+formation are used for answering a ques-
+tion: (1) structured information extracted
+and stored in the form of Resource De-
+scription Framework (RDF), and (2) un-
+structured texts stored as a search index.
+For the structured information, SPARQL
+transformed query is applied to retrieve a
+short answer from the RDF base. For the
+unstructured information, keyword-based
+query is used to retrieve the shortest text
+span containing the questions?s key terms.
+From the experimental results, the system
+which integrates both approaches could
+achieve an average MRR of 0.47 based on
+215 test questions.
+1 

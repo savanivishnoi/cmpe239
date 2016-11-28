@@ -1,0 +1,36 @@
+
+Developing sophisticated NLP pipelines
+composed of multiple processing tools
+and components available through differ-
+ent providers may pose a challenge in
+terms of their interoperability. The Un-
+structured Information Management Ar-
+chitecture (UIMA) is an industry stan-
+dard whose aim is to ensure such in-
+teroperability by defining common data
+structures and interfaces. The architec-
+ture has been gaining attention from in-
+dustry and academia alike, resulting in a
+large volume of UIMA-compliant process-
+ing components. In this paper, we demon-
+strate Argo, a Web-based workbench for
+the development and processing of NLP
+pipelines/workflows. The workbench is
+based upon UIMA, and thus has the poten-
+tial of using many of the existing UIMA
+resources. We present features, and show
+examples, of facilitating the distributed de-
+velopment of components and the analysis
+of processing results. The latter includes
+annotation visualisers and editors, as well
+as serialisation to RDF format, which en-
+ables flexible querying in addition to data
+manipulation thanks to the semantic query
+language SPARQL. The distributed devel-
+opment feature allows users to seamlessly
+connect their tools to workflows running
+in Argo, and thus take advantage of both
+the available library of components (with-
+out the need of installing them locally) and
+the analytical tools.
+1 

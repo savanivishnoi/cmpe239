@@ -1,0 +1,30 @@
+
+The task of word sense disambiguation is to assign
+a sense label to a word in a passage. We report our
+algorithms and experiments for the two tasks that
+we participated in viz. the task of WSD of Word-
+Net glosses and the task of WSD of English lexical
+sample. For both the tasks, we explore a method of
+sense disambiguation through a process of ?compar-
+ing? the current context for a word against a reposi-
+tory of contextual clues or glosses for each sense of
+each word. We compile these glosses in two differ-
+ent ways for the two tasks. For the first task, these
+glosses are all compiled using WordNet and are of
+various types viz. hypernymy glosses, holonymy
+mixture, descriptive glosses and some hybrid mix-
+tures of these glosses. The ?comparison? could be
+done in a variety of ways that could include/exclude
+stemming, expansion of one gloss type with another
+gloss type, etc. The results show that the system
+does best when stemming is used and glosses are
+expanded. However, it appears that the evidence for
+word-senses ,accumulated through WordNet, in the
+form of glosses, are quite sparse. Generating dense
+glosses for all WordNet senses requires a massive
+sense tagged corpus - which is currently unavail-
+able. Hence, as part of the English lexical sample
+task, we try the same approach on densely popu-
+lated glosses accumulated from the training data for
+this task.
+1 

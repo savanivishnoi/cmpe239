@@ -1,0 +1,31 @@
+
+One of the difficulties in using Folk-
+sonomies in computational systems is tag
+ambiguity: tags with multiple meanings.
+This paper presents a novel method for
+building Folksonomy tag ontologies in
+which the nodes are disambiguated. Our
+method utilizes a clustering algorithm
+called DSCBC, which was originally de-
+veloped in Natural Language Processing
+(NLP), to derive committees of tags, each
+of which corresponds to one meaning or
+domain. In this work, we use Wikipedia
+as the external knowledge source for the
+domains of the tags. Using the commit-
+tees, an ambiguous tag is identified as one
+which belongs to more than one commit-
+tee. Then we apply a hierarchical agglom-
+erative clustering algorithm to build an on-
+tology of tags. The nodes in the derived
+ontology are disambiguated in that an am-
+biguous tag appears in several nodes in
+the ontology, each of which corresponds
+to one meaning of the tag. We evaluate the
+derived ontology for its ontological den-
+sity (how close similar tags are placed),
+and its usefulness in applications, in par-
+ticular for a personalized tag retrieval task.
+The results showed marked improvements
+over other approaches.
+1 

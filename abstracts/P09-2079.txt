@@ -1,0 +1,14 @@
+
+We explore how features based on syntac-
+tic dependency relations can be utilized to
+improve performance on opinion mining.
+Using a transformation of dependency re-
+lation triples, we convert them into ?com-
+posite back-off features? that generalize
+better than the regular lexicalized depen-
+dency relation features. Experiments com-
+paring our approach with several other ap-
+proaches that generalize dependency fea-
+tures or ngrams demonstrate the utility of
+composite back-off features.
+1 

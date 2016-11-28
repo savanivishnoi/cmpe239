@@ -1,0 +1,19 @@
+
+In this paper we compare the performance
+of two methods for speech translation.
+One is a statistical dependency transduc-
+tion model using head transducers, the
+other a case-based transduction model in-
+volving a lexical similarity measure. Ex-
+amples of translated utterance transcrip-
+tions are used in training both models,
+though the case-based model also uses se-
+mantic labels classifying the source utter-
+ances. The main conclusion is that while
+the two methods provide similar transla-
+tion accuracy under the experimental con-
+ditions and accuracy metric used, the sta-
+tistical dependency transduction method
+is significantly faster at computing trans-
+lations.
+1 

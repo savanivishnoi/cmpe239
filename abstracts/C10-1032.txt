@@ -1,0 +1,14 @@
+
+The integration of facts derived from information extraction
+systems into existing knowledge bases requires a system to
+disambiguate entity mentions in the text. This is challeng-
+ing due to issues such as non-uniform variations in entity
+names, mention ambiguity, and entities absent from a knowl-
+edge base. We present a state of the art system for entity dis-
+ambiguation that not only addresses these challenges but also
+scales to knowledge bases with several million entries using
+very little resources. Further, our approach achieves perfor-
+mance of up to 95% on entities mentioned from newswire
+and 80% on a public test set that was designed to include
+challenging queries.
+1 

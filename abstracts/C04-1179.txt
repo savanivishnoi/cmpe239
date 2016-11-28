@@ -1,0 +1,15 @@
+ 
+As part of its description of lexico-semantic 
+predicate frames or conceptual structures, the 
+FrameNet project defines a set of semantic 
+roles specific to the core predicate of a 
+sentence.  Recently, researchers have tried to 
+automatically produce semantic interpretations 
+of sentences using this information.  Building 
+on prior work, we describe a new method to 
+perform such interpretations.  We define 
+sentence segmentation first and show how 
+Maximum Entropy re-ranking helps achieve a 
+level of 76.2% F-score (answer among top-
+five candidates) or 61.5% (correct answer). 
+1 

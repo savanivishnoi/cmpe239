@@ -1,0 +1,21 @@
+
+Letter-substitution ciphers encode a docu-
+ment from a known or hypothesized lan-
+guage into an unknown writing system or
+an unknown encoding of a known writing
+system. It is a problem that can occur in
+a number of practical applications, such as
+in the problem of determining the encod-
+ings of electronic documents in which the
+language is known, but the encoding stan-
+dard is not. It has also been used in rela-
+tion to OCR applications. In this paper, we
+introduce an exact method for decipher-
+ing messages using a generalization of the
+Viterbi algorithm. We test this model on a
+set of ciphers developed from various web
+sites, and find that our algorithm has the
+potential to be a viable, practical method
+for efficiently solving decipherment prob-
+lems.
+1 

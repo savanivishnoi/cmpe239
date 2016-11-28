@@ -1,0 +1,19 @@
+
+This paper presents an unsupervised batch
+learner for the quantity-insensitive stress
+systems described in Gordon (2002). Un-
+like previous stress learning models, the
+learner presented here is neither cue based
+(Dresher and Kaye, 1990), nor reliant on
+a priori Optimality-theoretic constraints
+(Tesar, 1998). Instead our learner ex-
+ploits a property called neighborhood-
+distinctness, which is shared by all of the
+target patterns. Some consequences of this
+approach include a natural explanation
+for the occurrence of binary and ternary
+rhythmic patterns, the lack of higher n-ary
+rhythms, and the fact that, in these sys-
+tems, stress always falls within a certain
+window of word edges.
+1 

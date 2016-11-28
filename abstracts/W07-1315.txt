@@ -1,0 +1,29 @@
+ 
+Paradigms provide an inherent 
+organizational structure to natural language 
+morphology. ParaMor, our minimally 
+supervised morphology induction 
+algorithm, retrusses the word forms of raw 
+text corpora back onto their paradigmatic 
+skeletons; performing on par with state-of-
+the-art minimally supervised morphology 
+induction algorithms at morphological 
+analysis of English and German. ParaMor 
+consists of two phases. Our algorithm first 
+constructs sets of affixes closely mimicking 
+the paradigms of a language. And with 
+these structures in hand, ParaMor then 
+annotates word forms with morpheme 
+boundaries. To set ParaMor?s few free 
+parameters we analyze a training corpus of 
+Spanish. Without adjusting parameters, we 
+induce the morphological structure of 
+English and German. Adopting the 
+evaluation methodology of Morpho 
+Challenge 2007 (Kurimo et al, 2007), we 
+compare ParaMor?s morphological 
+analyses with Morfessor (Creutz, 2006), a 
+modern minimally supervised morphology 
+induction system. ParaMor consistently 
+achieves competitive F1 measures. 
+1 

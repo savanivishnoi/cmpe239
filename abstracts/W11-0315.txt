@@ -1,0 +1,17 @@
+
+Finding the right representation for words is
+critical for building accurate NLP systems
+when domain-specific labeled data for the
+task is scarce. This paper investigates lan-
+guage model representations, in which lan-
+guage models trained on unlabeled corpora
+are used to generate real-valued feature vec-
+tors for words. We investigate ngram mod-
+els and probabilistic graphical models, includ-
+ing a novel lattice-structured Markov Random
+Field. Experiments indicate that language
+model representations outperform traditional
+representations, and that graphical model rep-
+resentations outperform ngram models, espe-
+cially on sparse and polysemous words.
+1 

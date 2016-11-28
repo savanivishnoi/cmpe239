@@ -1,0 +1,14 @@
+
+We present a supervised sentiment detection
+system that classifies the polarity of subjec-
+tive phrases as positive, negative, or neutral. It
+is tailored towards online genres, specifically
+Twitter, through the inclusion of dictionaries
+developed to capture vocabulary used in on-
+line conversations (e.g., slang and emoticons)
+as well as stylistic features common to social
+media. We show how to incorporate these
+new features within a state of the art system
+and evaluate it on subtask A in SemEval-2013
+Task 2: Sentiment Analysis in Twitter.
+1 

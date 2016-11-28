@@ -1,0 +1,19 @@
+
+Word alignment has an exponentially large
+search space, which often makes exact infer-
+ence infeasible. Recent studies have shown
+that inversion transduction grammars are rea-
+sonable constraints for word alignment, and
+that the constrained space could be efficiently
+searched using synchronous parsing algo-
+rithms. However, spurious ambiguity may oc-
+cur in synchronous parsing and cause prob-
+lems in both search efficiency and accuracy. In
+this paper, we conduct a detailed study of the
+causes of spurious ambiguity and how it ef-
+fects parsing and discriminative learning. We
+also propose a variant of the grammar which
+eliminates those ambiguities. Our grammar
+shows advantages over previous grammars in
+both synthetic and real-world experiments.
+1 

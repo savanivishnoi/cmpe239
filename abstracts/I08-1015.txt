@@ -1,0 +1,17 @@
+
+Document clustering and classification is
+usually done by representing the documents
+using a bag of words scheme. This scheme
+ignores many of the linguistic and semantic
+features contained in text documents. We
+propose here an alternative representation
+for documents using Lexical Chains. We
+compare the performance of the new repre-
+sentation against the old one on a cluster-
+ing task. We show that Lexical Chain based
+features give better results than the Bag of
+Words based features, while achieving al-
+most 30% reduction in the dimensionality of
+the feature vectors resulting in faster execu-
+tion of the algorithms.
+1 

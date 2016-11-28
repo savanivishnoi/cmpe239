@@ -1,0 +1,25 @@
+
+This paper presents the first use of a com-
+putational model of natural logic?a sys-
+tem of logical inference which operates
+over natural language?for textual infer-
+ence. Most current approaches to the PAS-
+CAL RTE textual inference task achieve ro-
+bustness by sacrificing semantic precision;
+while broadly effective, they are easily con-
+founded by ubiquitous inferences involving
+monotonicity. At the other extreme, systems
+which rely on first-order logic and theorem
+proving are precise, but excessively brittle.
+This work aims at a middle way. Our system
+finds a low-cost edit sequence which trans-
+forms the premise into the hypothesis; learns
+to classify entailment relations across atomic
+edits; and composes atomic entailments into
+a top-level entailment judgment. We pro-
+vide the first reported results for any system
+on the FraCaS test suite. We also evaluate
+on RTE3 data, and show that hybridizing an
+existing RTE system with our natural logic
+system yields significant performance gains.
+1 

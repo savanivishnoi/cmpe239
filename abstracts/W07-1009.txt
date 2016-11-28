@@ -1,0 +1,12 @@
+
+Although recent named entity (NE) annotation ef-
+forts involve the markup of nested entities, there has
+been limited focus on recognising such nested struc-
+tures. This paper introduces and compares three
+techniques for modelling and recognising nested
+entities by means of a conventional sequence tag-
+ger. The methods are tested and evaluated on two
+biomedical data sets that contain entity nesting. All
+methods yield an improvement over the baseline tag-
+ger that is only trained on flat annotation.
+1 

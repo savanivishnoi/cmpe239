@@ -1,0 +1,16 @@
+
+The standard PCFG approach to parsing is
+quite successful on certain domains, but is
+relatively inflexible in the type of feature
+information we can include in its prob-
+abilistic model. In this work, we dis-
+cuss preliminary work in developing a new
+probabilistic parsing model that allows us
+to easily incorporate many different types
+of features, including crosslingual infor-
+mation. We show how this model can
+be used to build a successful parser for a
+small handmade gold-standard corpus of
+188 sentences (in 3 languages) from the
+Europarl corpus.
+1 

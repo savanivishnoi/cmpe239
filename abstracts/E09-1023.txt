@@ -1,0 +1,16 @@
+
+Building on work detecting errors in de-
+pendency annotation, we set out to correct
+local dependency errors. To do this, we
+outline the properties of annotation errors
+that make the task challenging and their
+existence problematic for learning. For
+the task, we define a feature-based model
+that explicitly accounts for non-relations
+between words, and then use ambiguities
+from one model to constrain a second,
+more relaxed model. In this way, we are
+successfully able to correct many errors,
+in a way which is potentially applicable to
+dependency parsing more generally.
+1 

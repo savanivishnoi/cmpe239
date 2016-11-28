@@ -1,0 +1,21 @@
+
+The acquisition of grammar from a 
+corpus is a challenging task in the 
+preparation of a knowledge bank. In 
+this paper, we discuss the extraction of 
+Chinese grammar oriented to a re-
+stricted corpus. First, probabilistic con-
+text-free grammars (PCFG) are 
+extracted automatically from the Penn 
+Chinese Treebank and are regarded as 
+the baseline rules. Then a corpus-
+oriented grammar is developed by add-
+ing specific information including head 
+information from the restricted corpus. 
+Then, we describe the peculiarities and 
+ambiguities, particularly between the 
+phrases ?PP? and ?VP? in the extracted 
+grammar. Finally, the parsing results of 
+the utterances are used to evaluate the 
+extracted grammar.  
+1 

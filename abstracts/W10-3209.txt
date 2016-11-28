@@ -1,0 +1,28 @@
+
+Opinion mining and sentiment analy-
+sis has recently gained increasing atten-
+tion among the NLP community. Opin-
+ion mining is considered a domain-
+dependent task. Constructing lexicons
+for different domains is labor intensive.
+In this paper, we propose a framework
+for constructing Thai language resource
+for feature-based opinion mining. The
+feature-based opinion mining essentially
+relies on the use of two main lexicons,
+features and polar words. Our approach
+for extracting features and polar words
+from opinionated texts is based on syn-
+tactic pattern analysis. The evaluation
+is performed with a case study on ho-
+tel reviews. The proposed method has
+shown to be very effective in most cases.
+However, in some cases, the extraction
+is not quite straightforward. The rea-
+sons are due to, firstly, the use of conver-
+sational language in written opinionated
+texts and, secondly, the language seman-
+tic. We provide discussion with possible
+solutions on pattern extraction for some
+of the challenging cases.
+1 

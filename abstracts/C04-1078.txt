@@ -1,0 +1,28 @@
+ 
+Current rule induction techniques based on hard 
+matching (i.e., strict slot-by-slot matching) tend to 
+fare poorly in extracting information from natural 
+language texts, which often exhibit great 
+variations. The reason is that hard matching 
+techniques result in relatively high precision but 
+low recall. To tackle this problem, we take 
+advantage of the newly proposed soft pattern rules 
+which offer high recall through the use of 
+probabilistic matching. We propose a 
+bootstrapping framework in which soft and hard 
+matching pattern rules are combined in a cascading 
+manner to realize a weakly supervised rule 
+induction scheme. The system starts with a small 
+set of hand-tagged instances. At each iteration, we 
+first generate soft pattern rules and utilize them to 
+tag new training instances automatically. We then 
+apply hard pattern rule induction on the overall 
+tagged data to generate more precise rules, which 
+are used to tag the data again. The process can be 
+repeated until satisfactory results are obtained. Our 
+experimental results show that our bootstrapping 
+scheme with two cascaded learners approaches the 
+performance of a fully supervised information 
+extraction system while using much fewer hand-
+tagged instances. 
+1 

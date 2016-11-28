@@ -1,0 +1,20 @@
+
+The inclusion of morphological features pro-
+vides very useful information that helps to en-
+hance the results when parsing morphologi-
+cally rich languages. MaltOptimizer is a tool,
+that given a data set, searches for the opti-
+mal parameters, parsing algorithm and opti-
+mal feature set achieving the best results that
+it can find for parsers trained with MaltParser.
+In this paper, we present an extension of Mal-
+tOptimizer that explores, one by one and in
+combination, the features that are geared to-
+wards morphology. From our experiments
+in the context of the Shared Task on Parsing
+Morphologically Rich Languages, we extract
+an in-depth study that shows which features
+are actually useful for transition-based pars-
+ing and we provide competitive results, in a
+fast and simple way.
+1 

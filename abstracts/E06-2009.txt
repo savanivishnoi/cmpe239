@@ -1,0 +1,18 @@
+
+We demonstrate a multimodal dialogue system
+using reinforcement learning for in-car sce-
+narios, developed at Edinburgh University and
+Cambridge University for the TALK project1.
+This prototype is the first ?Information State
+Update? (ISU) dialogue system to exhibit rein-
+forcement learning of dialogue strategies, and
+also has a fragmentary clarification feature.
+This paper describes the main components and
+functionality of the system, as well as the pur-
+poses and future use of the system, and surveys
+the research issues involved in its construction.
+Evaluation of this system (i.e. comparing the
+baseline system with handcoded vs. learnt dia-
+logue policies) is ongoing, and the demonstra-
+tion will show both.
+1 

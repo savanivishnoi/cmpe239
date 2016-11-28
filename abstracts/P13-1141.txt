@@ -1,0 +1,23 @@
+
+Words often gain new senses in new do-
+mains. Being able to automatically iden-
+tify, from a corpus of monolingual text,
+which word tokens are being used in a pre-
+viously unseen sense has applications to
+machine translation and other tasks sensi-
+tive to lexical semantics. We define a task,
+SENSESPOTTING, in which we build sys-
+tems to spot tokens that have new senses
+in new domain text. Instead of difficult
+and expensive annotation, we build a gold-
+standard by leveraging cheaply available
+parallel corpora, targeting our approach to
+the problem of domain adaptation for ma-
+chine translation. Our system is able to
+achieve F-measures of as much as 80%,
+when applied to word types it has never
+seen before. Our approach is based on
+a large set of novel features that capture
+varied aspects of how words change when
+used in new domains.
+1 

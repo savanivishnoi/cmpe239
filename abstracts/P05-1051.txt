@@ -1,0 +1,18 @@
+ 
+Information extraction systems incorpo-
+rate multiple stages of linguistic analysis.  
+Although errors are typically compounded 
+from stage to stage, it is possible to re-
+duce the errors in one stage by harnessing 
+the results of the other stages.  We dem-
+onstrate this by using the results of 
+coreference analysis and relation extrac-
+tion to reduce the errors produced by a 
+Chinese name tagger.  We use an N-best 
+approach to generate multiple hypotheses 
+and have them re-ranked by subsequent 
+stages of processing.  We obtained 
+thereby a reduction of 24% in spurious 
+and incorrect name tags, and a reduction 
+of 14% in missed tags. 
+1 

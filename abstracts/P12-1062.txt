@@ -1,0 +1,19 @@
+
+In recent years, error mining approaches were
+developed to help identify the most likely
+sources of parsing failures in parsing sys-
+tems using handcrafted grammars and lexi-
+cons. However the techniques they use to enu-
+merate and count n-grams builds on the se-
+quential nature of a text corpus and do not eas-
+ily extend to structured data. In this paper, we
+propose an algorithm for mining trees and ap-
+ply it to detect the most likely sources of gen-
+eration failure. We show that this tree mining
+algorithm permits identifying not only errors
+in the generation system (grammar, lexicon)
+but also mismatches between the structures
+contained in the input and the input structures
+expected by our generator as well as a few id-
+iosyncrasies/error in the input data.
+1 

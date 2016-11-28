@@ -1,0 +1,21 @@
+
+In this paper, we present a unified model for
+the automatic induction of word senses from
+text, and the subsequent disambiguation of
+particular word instances using the automati-
+cally extracted sense inventory. The induction
+step and the disambiguation step are based on
+the same principle: words and contexts are
+mapped to a limited number of topical dimen-
+sions in a latent semantic word space. The in-
+tuition is that a particular sense is associated
+with a particular topic, so that different senses
+can be discriminated through their association
+with particular topical dimensions; in a similar
+vein, a particular instance of a word can be dis-
+ambiguated by determining its most important
+topical dimensions. The model is evaluated on
+the SEMEVAL-2010 word sense induction and
+disambiguation task, on which it reaches state-
+of-the-art results.
+1 

@@ -1,0 +1,14 @@
+. Creation titles, i.e. titles of literary and/or artistic works, comprise 
+over 7% of named entities in Chinese documents. They are the fourth large sort 
+of named entities in Chinese other than personal names, location names, and 
+organization names. However, they are rarely mentioned and studied before. 
+Chinese title recognition is challenging for the following reasons. There are few 
+internal features and nearly no restrictions in the naming style of titles. Their 
+lengths and structures are varied. The worst of all, they are generally composed 
+of common words, so that they look like common fragments of sentences. In 
+this paper, we integrate punctuation rules, lexicon, and na?ve Bayesian models 
+to recognize creation titles in Chinese documents. This pioneer study shows a 
+precision of 0.510 and a recall of 0.685 being achieved. The promising results 
+can be integrated into Chinese segmentation, used to retrieve relevant informa-
+tion for specific titles, and so on. 
+1   

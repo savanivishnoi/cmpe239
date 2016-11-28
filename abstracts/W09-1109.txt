@@ -1,0 +1,15 @@
+
+Vector space models of word meaning typi-
+cally represent the meaning of a word as a vec-
+tor computed by summing over all its corpus
+occurrences. Words close to this point in space
+can be assumed to be similar to it in meaning.
+But how far around this point does the region
+of similar meaning extend? In this paper we
+discuss two models that represent word mean-
+ing as regions in vector space. Both represen-
+tations can be computed from traditional point
+representations in vector space. We find that
+both models perform at over 95% F-score on
+a token classification task.
+1 

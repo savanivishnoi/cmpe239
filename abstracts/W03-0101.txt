@@ -1,0 +1,21 @@
+
+Here we present work on using spatial knowl-
+edge in conjunction with information extrac-
+tion (IE). Considerable volume of location data
+was imported in a knowledge base (KB) with
+entities of general importance used for seman-
+tic annotation, indexing, and retrieval of text.
+The Semantic Web knowledge representation
+standards are used, namely RDF(S). An exten-
+sive upper-level ontology with more than two
+hundred classes is designed. With respect to the
+locations, the goal was to include the most im-
+portant categories considering public and tasks
+not specially related to geography or related ar-
+eas. The locations data is derived from num-
+ber of publicly available resources and com-
+bined to assure best performance for domain-
+independent named-entity recognition in text.
+An evaluation and comparison to high perfor-
+mance IE application is given.
+1 

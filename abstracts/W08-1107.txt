@@ -1,0 +1,14 @@
+
+In this paper, we propose to reinterpret the
+problem of generating referring expressions
+(GRE) as the problem of computing a formula
+in a description logic that is only satisfied by
+the referent. This view offers a new unifying
+perspective under which existing GRE algo-
+rithms can be compared. We also show that
+by applying existing algorithms for computing
+simulation classes in description logic, we can
+obtain extremely efficient algorithms for rela-
+tional referring expressions without any dan-
+ger of running into infinite regress.
+1 

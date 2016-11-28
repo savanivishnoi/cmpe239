@@ -1,0 +1,15 @@
+
+We propose an unsupervised segmen-
+tation method based on an assumption
+about language data: that the increas-
+ing point of entropy of successive char-
+acters is the location of a word bound-
+ary. A large-scale experiment was con-
+ducted by using 200 MB of unseg-
+mented training data and 1 MB of test
+data, and precision of 90% was attained
+with recall being around 80%. More-
+over, we found that the precision was
+stable at around 90% independently of
+the learning data size.
+1 

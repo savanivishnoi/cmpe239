@@ -1,0 +1,23 @@
+
+This paper introduces a graph-based semi-
+supervised joint model of Chinese word
+segmentation and part-of-speech tagging.
+The proposed approach is based on a
+graph-based label propagation technique.
+One constructs a nearest-neighbor simi-
+larity graph over all trigrams of labeled
+and unlabeled data for propagating syn-
+tactic information, i.e., label distribution-
+s. The derived label distributions are re-
+garded as virtual evidences to regular-
+ize the learning of linear conditional ran-
+dom fields (CRFs) on unlabeled data. An
+inductive character-based joint model is
+obtained eventually. Empirical results on
+Chinese tree bank (CTB-7) and Microsoft
+Research corpora (MSR) reveal that the
+proposed model can yield better result-
+s than the supervised baselines and other
+competitive semi-supervised CRFs in this
+task.
+1 

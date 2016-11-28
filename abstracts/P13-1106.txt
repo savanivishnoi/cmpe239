@@ -1,0 +1,30 @@
+
+Translated bi-texts contain complemen-
+tary language cues, and previous work
+on Named Entity Recognition (NER)
+has demonstrated improvements in perfor-
+mance over monolingual taggers by pro-
+moting agreement of tagging decisions be-
+tween the two languages. However, most
+previous approaches to bilingual tagging
+assume word alignments are given as fixed
+input, which can cause cascading errors.
+We observe that NER label information
+can be used to correct alignment mis-
+takes, and present a graphical model that
+performs bilingual NER tagging jointly
+with word alignment, by combining two
+monolingual tagging models with two uni-
+directional alignment models. We intro-
+duce additional cross-lingual edge factors
+that encourage agreements between tag-
+ging and alignment decisions. We design
+a dual decomposition inference algorithm
+to perform joint decoding over the com-
+bined alignment and NER output space.
+Experiments on the OntoNotes dataset
+demonstrate that our method yields signif-
+icant improvements in both NER and word
+alignment over state-of-the-art monolin-
+gual baselines.
+1 

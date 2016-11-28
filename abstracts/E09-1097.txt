@@ -1,0 +1,23 @@
+
+Abstract-like text summarisation requires
+a means of producing novel summary sen-
+tences. In order to improve the grammati-
+cality of the generated sentence, we model
+a global (sentence) level syntactic struc-
+ture. We couch statistical sentence genera-
+tion as a spanning tree problem in order to
+search for the best dependency tree span-
+ning a set of chosen words. We also intro-
+duce a new search algorithm for this task
+that models argument satisfaction to im-
+prove the linguistic validity of the gener-
+ated tree. We treat the allocation of modi-
+fiers to heads as a weighted bipartite graph
+matching (or assignment) problem, a well
+studied problem in graph theory. Using
+BLEU to measure performance on a string
+regeneration task, we found an improve-
+ment, illustrating the benefit of the span-
+ning tree approach armed with an argu-
+ment satisfaction model.
+1 

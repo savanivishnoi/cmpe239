@@ -1,0 +1,17 @@
+
+In this paper, we propose a novel Rhetorical
+Structure Index (RSI) to measure the struc-
+tural importance of a word or a phrase. Un-
+like TF-IDF and other content-driven mea-
+surements, RSI identifies words or phrases
+that are structural cues in an unstructured doc-
+ument. We show structurally motivated fea-
+tures with high RSI values are more useful
+than content-driven features for applications
+such as segmenting unstructured lecture tran-
+scripts into meaningful segments. Experi-
+ments show that using RSI significantly im-
+proves the segmentation accuracy compared
+to TF-IDF, a traditional content-based feature
+weighting scheme.
+1 

@@ -1,0 +1,27 @@
+
+We investigate the task of unsupervised
+constituency parsing from bilingual par-
+allel corpora. Our goal is to use bilin-
+gual cues to learn improved parsing mod-
+els for each language and to evaluate these
+models on held-out monolingual test data.
+We formulate a generative Bayesian model
+which seeks to explain the observed par-
+allel data through a combination of bilin-
+gual and monolingual parameters. To this
+end, we adapt a formalism known as un-
+ordered tree alignment to our probabilistic
+setting. Using this formalism, our model
+loosely binds parallel trees while allow-
+ing language-specific syntactic structure.
+We perform inference under this model us-
+ing Markov Chain Monte Carlo and dy-
+namic programming. Applying this model
+to three parallel corpora (Korean-English,
+Urdu-English, and Chinese-English) we
+find substantial performance gains over
+the CCM model, a strong monolingual
+baseline. On average, across a variety of
+testing scenarios, our model achieves an
+8.8 absolute gain in F-measure. 1
+1 

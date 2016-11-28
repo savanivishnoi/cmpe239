@@ -1,0 +1,19 @@
+ 
+Corpus-based statistical-oriented Chinese word classif ication can be 
+regarded as a fundamental step for automatic or non-automatic, mono- 
+lingual natural processing system. Word classif ication can solve the 
+problems of data sparseness and have far fewer parameters. So far, 
+much r:,la~v~ work about word classification has been done. All the 
+work is based on some similarity metrics. We use average mutual 
+information as global similarity metric to do classification. The 
+clustering process is top-down splitting and the binary tree is 
+growin~ with splitting. In natural lan~lage, the effect of left 
+neighbors and right neighbors of a word are asymmetric. To utilize 
+this directional information, we induce the left-right binary and 
+right-left binary tree to represent this property. The probabil ity is 
+also introduced in our algorithm to merge the resulting classes from 
+left-right and right-left binary tree. Also, we use the resulting 
+classes to do experiments on word class-based language model. Some 
+classes results and perplexity of word class-based language model are 
+presented. 
+1. 

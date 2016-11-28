@@ -1,0 +1,27 @@
+
+Rating-scale evaluations are common in
+NLP, but are problematic for a range of
+reasons, e.g. they can be unintuitive for
+evaluators, inter-evaluator agreement and
+self-consistency tend to be low, and the
+parametric statistics commonly applied to
+the results are not generally considered
+appropriate for ordinal data. In this pa-
+per, we compare rating scales with an al-
+ternative evaluation paradigm, preference-
+strength judgement experiments (PJEs),
+where evaluators have the simpler task of
+deciding which of two texts is better in
+terms of a given quality criterion. We
+present three pairs of evaluation experi-
+ments assessing text fluency and clarity
+for different data sets, where one of each
+pair of experiments is a rating-scale ex-
+periment, and the other is a PJE. We find
+the PJE versions of the experiments have
+better evaluator self-consistency and inter-
+evaluator agreement, and a larger propor-
+tion of variation accounted for by system
+differences, resulting in a larger number of
+significant differences being found.
+1 

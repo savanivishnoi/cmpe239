@@ -1,0 +1,17 @@
+
+We formally derive a mathematical model
+for evaluating the effect of context rele-
+vance in language production. The model
+is based on the principle that distant con-
+textual cues tend to gradually lose their
+relevance for predicting upcoming linguis-
+tic signals. We evaluate our model against
+a hypothesis of efficient communication
+(Genzel and Charniak?s Constant Entropy
+Rate hypothesis). We show that the devel-
+opment of entropy throughout discourses
+is described significantly better by a model
+with cue relevance decay than by previ-
+ous models that do not consider context ef-
+fects.
+1 

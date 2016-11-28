@@ -1,0 +1,23 @@
+
+We present a method for recognizing se-
+mantic role arguments using a kernel on
+weighted marked ordered labeled trees
+(the WMOLT kernel). We extend the
+kernels on marked ordered labeled trees
+(Kazama and Torisawa, 2005) so that the
+mark can be weighted according to its im-
+portance. We improve the accuracy by
+giving more weights on subtrees that con-
+tain the predicate and the argument nodes
+with this ability. Although Kazama and
+Torisawa (2005) presented fast training
+with tree kernels, the slow classification
+during runtime remained to be solved. In
+this paper, we give a solution that uses an
+efficient DP updating procedure applica-
+ble in argument recognition. We demon-
+strate that the WMOLT kernel improves
+the accuracy, and our speed-up method
+makes the recognition more than 40 times
+faster than the naive classification.
+1 

@@ -1,0 +1,25 @@
+
+This paper describes a Web-based editor 
+called  CoBaLT  (Corpus-Based  Lexicon 
+Tool),  developed  to  construct  corpus-
+based computational lexica and to correct 
+word-level  annotations  and transcription 
+errors in corpora. The paper describes the 
+tool as well as our experience in using it 
+to  annotate  a  reference  corpus  and 
+compile  a  large  lexicon  of  historical 
+Slovene.  The  annotations  used  in  our 
+project  are  modern-day  word  form 
+equivalent,  lemma,  part-of-speech  tag 
+and optional gloss. The CoBaLT interface 
+is  word  form  oriented  and  compact.  It 
+enables  wildcard  word  searching  and 
+sorting  according  to  several  criteria, 
+which makes the editing process flexible 
+and  efficient.  The  tool  accepts  pre-
+annotated corpora in TEI P5 format and 
+is able to export the corpus and lexicon in 
+TEI P5 as well. The tool is implemented 
+using  the  LAMP  architecture  and  is 
+freely available for research purposes.
+1 

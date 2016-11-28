@@ -1,0 +1,14 @@
+
+We present a novel method for creating A? esti-
+mates for structured search problems. In our ap-
+proach, we project a complex model onto multiple
+simpler models for which exact inference is effi-
+cient. We use an optimization framework to es-
+timate parameters for these projections in a way
+which bounds the true costs. Similar to Klein and
+Manning (2003), we then combine completion es-
+timates from the simpler models to guide search
+in the original complex model. We apply our ap-
+proach to bitext parsing and lexicalized parsing,
+demonstrating its effectiveness in these domains.
+1 

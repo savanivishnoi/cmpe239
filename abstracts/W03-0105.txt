@@ -1,0 +1,19 @@
+
+The task of named entity annotation of unseen
+text has recently been successfully automated
+with near-human performance.
+But the full task involves more than annotation,
+i.e. identifying the scope of each (continuous)
+text span and its class (such as place name). It
+also involves grounding the named entity (i.e.
+establishing its denotation with respect to the
+world or a model). The latter aspect has so far
+been neglected.
+In this paper, we show how geo-spatial named
+entities can be grounded using geographic co-
+ordinates, and how the results can be visual-
+ized using off-the-shelf software. We use this
+to compare a ?textual surrogate? of a newspa-
+per story, with a ?visual surrogate? based on
+geographic coordinates.
+1 

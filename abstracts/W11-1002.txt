@@ -1,0 +1,28 @@
+
+We argue that failing to capture the degree of
+contribution of each semantic frame in a sen-
+tence explains puzzling results in recent work
+on the MEANT family of semantic MT eval-
+uation metrics, which have disturbingly in-
+dicated that dissociating semantic roles and
+fillers from their predicates actually improves
+correlation with human adequacy judgments
+even though, intuitively, properly segregat-
+ing event frames should more accurately re-
+flect the preservation of meaning. Our anal-
+ysis finds that both properly structured and
+flattened representations fail to adequately ac-
+count for the contribution of each seman-
+tic frame to the overall sentence. We then
+show that the correlation of HMEANT, the hu-
+man variant of MEANT, can be greatly im-
+proved by introducing a simple length-based
+weighting scheme that approximates the de-
+gree of contribution of each semantic frame
+to the overall sentence. The new results
+also show that, without flattening the struc-
+ture of semantic frames, weighting the degree
+of each frame?s contribution gives HMEANT
+higher correlations than the previously best-
+performing flattened model, as well as HTER.
+1 

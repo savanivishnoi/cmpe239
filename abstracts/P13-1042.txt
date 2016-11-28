@@ -1,0 +1,18 @@
+
+Supervised training procedures for seman-
+tic parsers produce high-quality semantic
+parsers, but they have difficulty scaling
+to large databases because of the sheer
+number of logical constants for which
+they must see labeled training data. We
+present a technique for developing seman-
+tic parsers for large databases based on
+a reduction to standard supervised train-
+ing algorithms, schema matching, and pat-
+tern learning. Leveraging techniques from
+each of these areas, we develop a semantic
+parser for Freebase that is capable of pars-
+ing questions with an F1 that improves by
+0.42 over a purely-supervised learning al-
+gorithm.
+1 

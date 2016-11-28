@@ -1,0 +1,33 @@
+ 
+Electronic dictionaries covering all natural 
+language levels are very relevant for the hu-
+man use as well as for the automatic 
+processing use, namely those constructed 
+with respect to international standards. Such 
+dictionaries are characterized by a complex 
+structure and an important access time when 
+using a querying system. However, the need 
+of a user is generally limited to a part of such 
+a dictionary according to his domain and ex-
+pertise level which corresponds to a specia-
+lized dictionary. Given the importance of 
+managing a unified dictionary and consider-
+ing the personalized needs of users, we pro-
+pose an approach for generating personalized 
+views starting from a normalized dictionary 
+with respect to Lexical Markup Framework 
+LMF-ISO 24613 norm. This approach pro-
+vides the re-use of already defined views for 
+a community of users by managing their pro-
+files information and promoting the materia-
+lization of the generated views. It is com-
+posed of four main steps: (i) the projection of 
+data categories controlled by a set of con-
+straints (related to the user?s profiles), (ii) the 
+selection of values with consistency check-
+ing, (iii) the automatic generation of the 
+query?s model and finally, (iv) the refinement 
+of the view. The proposed approach was con-
+solidated by carrying out an experiment on an 
+LMF normalized Arabic dictionary. 
+1 

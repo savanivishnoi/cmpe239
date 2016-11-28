@@ -1,0 +1,22 @@
+ 
+We present a data-driven variant of the LR 
+algorithm for dependency parsing, and ex-
+tend it with a best-first search for probabil-
+istic generalized LR dependency parsing.  
+Parser actions are determined by a classifi-
+er, based on features that represent the cur-
+rent state of the parser.  We apply this pars-
+ing framework to both tracks of the CoNLL 
+2007 shared task, in each case taking ad-
+vantage of multiple models trained with 
+different learners.  In the multilingual track, 
+we train three LR models for each of the 
+ten languages, and combine the analyses 
+obtained with each individual model with a 
+maximum spanning tree voting scheme.  In 
+the domain adaptation track, we use two 
+models to parse unlabeled data in the target 
+domain to supplement the labeled out-of-
+domain training set, in a scheme similar to 
+one iteration of co-training. 
+1 

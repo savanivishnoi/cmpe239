@@ -1,0 +1,24 @@
+
+This paper presents an active learning-like
+framework for reducing the human effort for
+making named entity annotations in a corpus.
+In this framework, the annotation work is per-
+formed as an iterative and interactive process
+between the human annotator and a proba-
+bilistic named entity tagger. At each itera-
+tion, sentences that are most likely to con-
+tain named entities of the target category are
+selected by the probabilistic tagger and pre-
+sented to the annotator. This iterative anno-
+tation process is repeated until the estimated
+coverage reaches the desired level. Unlike ac-
+tive learning approaches, our framework pro-
+duces a named entity corpus that is free from
+the sampling bias introduced by the active
+strategy. We evaluated our framework by
+simulating the annotation process using two
+named entity corpora and show that our ap-
+proach could drastically reduce the number
+of sentences to be annotated when applied to
+sparse named entities.
+1 

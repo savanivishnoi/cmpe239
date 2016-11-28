@@ -1,0 +1,15 @@
+
+This paper presents a dependency-
+constrained hierarchical machine transla-
+tion model that uses Moses open-source
+toolkit for rule extraction and decoding.
+Experiments are carried out for the
+German-English language pair in both di-
+rections for projective and non-projective
+dependencies. We examine effects on
+SCFG size and automatic evaluation
+results when constraints are applied with
+respect to projective or non-projective
+dependency structures and on the source
+or target language side.
+1 

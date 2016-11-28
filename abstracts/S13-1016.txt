@@ -1,0 +1,31 @@
+
+This paper deals with knowledge-based text
+processing which aims at an intuitive notion
+of textual similarity. Entities and relations rel-
+evant for a particular domain are identified and
+disambiguated by means of semi-supervised
+machine learning techniques and resulting an-
+notations are applied for computing typed-
+similarity of individual texts.
+The work described in this paper particularly
+shows effects of the mentioned processes in
+the context of the *SEM 2013 pilot task on
+typed-similarity, a part of the Semantic Tex-
+tual Similarity shared task. The goal is to
+evaluate the degree of semantic similarity be-
+tween semi-structured records. As the evalu-
+ation dataset has been taken from Europeana
+? a collection of records on European cultural
+heritage objects ? we focus on computing a se-
+mantic distance on field author which has the
+highest potential to benefit from the domain
+knowledge.
+Specific features that are employed in our sys-
+tem BUT-TYPED are briefly introduced to-
+gether with a discussion on their efficient ac-
+quisition. Support Vector Regression is then
+used to combine the features and to provide a
+final similarity score. The system ranked third
+on the attribute author among 15 submitted
+runs in the typed-similarity task.
+1 

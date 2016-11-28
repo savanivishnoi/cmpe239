@@ -1,0 +1,20 @@
+
+Previous work using topic model for statis-
+tical machine translation (SMT) explore top-
+ic information at the word level. Howev-
+er, SMT has been advanced from word-based
+paradigm to phrase/rule-based paradigm. We
+therefore propose a topic similarity model to
+exploit topic information at the synchronous
+rule level for hierarchical phrase-based trans-
+lation. We associate each synchronous rule
+with a topic distribution, and select desirable
+rules according to the similarity of their top-
+ic distributions with given documents. We
+show that our model significantly improves
+the translation performance over the baseline
+on NIST Chinese-to-English translation ex-
+periments. Our model also achieves a better
+performance and a faster speed than previous
+approaches that work at the word level.
+1 

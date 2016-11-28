@@ -1,0 +1,29 @@
+
+In this paper, we describe an integrated
+approach to entity mention detection that
+yields a monolithic, almost language in-
+dependent system. It is optimal in the
+sense that all categorical constraints are si-
+multaneously considered. The system is
+compact and easy to develop and main-
+tain, since only a single set of features and
+classifiers are needed to be designed and
+optimized. It is implemented using one-
+versus-all support vector machine (SVM)
+classifiers and a number of feature extrac-
+tors at several linguistic levels. SVMs
+are well known for their ability to han-
+dle a large set of overlapping features with
+theoretically sound generalization proper-
+ties. Data sparsity might be an impor-
+tant issue as a result of a large number
+of classes and relatively moderate train-
+ing data size. However, we report re-
+sults that the integrated system performs
+as good as a pipelined system that decom-
+poses the problem into a few smaller sub-
+tasks. We conduct all our experiments us-
+ing ACE 2004 data, evaluate the systems
+using ACE metrics and report competitive
+performance.
+1 

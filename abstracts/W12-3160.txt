@@ -1,0 +1,22 @@
+
+The introduction of large-margin based dis-
+criminative methods for optimizing statistical
+machine translation systems in recent years
+has allowed exploration into many new types
+of features for the translation process. By
+removing the limitation on the number of
+parameters which can be optimized, these
+methods have allowed integrating millions of
+sparse features. However, these methods have
+not yet met with wide-spread adoption. This
+may be partly due to the perceived complex-
+ity of implementation, and partly due to the
+lack of standard methodology for applying
+these methods to MT. This papers aims to shed
+light on large-margin learning for MT, explic-
+itly presenting the simple passive-aggressive
+algorithm which underlies many previous ap-
+proaches, with direct application to MT, and
+empirically comparing several widespread op-
+timization strategies.
+1 

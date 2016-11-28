@@ -1,0 +1,30 @@
+
+In this paper, we present an approach to
+statistical machine translation that com-
+bines the power of a discriminative model
+(for training a model for Machine Transla-
+tion), and the standard beam-search based
+decoding technique (for the translation of
+an input sentence). A discriminative ap-
+proach for learning lexical selection and
+reordering utilizes a large set of feature
+functions (thereby providing the power to
+incorporate greater contextual and linguis-
+tic information), which leads to an effec-
+tive training of these models. This model
+is then used by the standard state-of-art
+Moses decoder (Koehn et al, 2007) for the
+translation of an input sentence.
+We conducted our experiments on
+Spanish-English language pair. We used
+maximum entropy model in our exper-
+iments. We show that the performance
+of our approach (using simple lexical
+features) is comparable to that of the
+state-of-art statistical MT system (Koehn
+et al, 2007). When additional syntactic
+features (POS tags in this paper) are used,
+there is a boost in the performance which
+is likely to improve when richer syntactic
+features are incorporated in the model.
+1 

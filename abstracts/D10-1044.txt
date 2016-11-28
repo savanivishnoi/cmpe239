@@ -1,0 +1,16 @@
+
+We describe a new approach to SMT adapta-
+tion that weights out-of-domain phrase pairs
+according to their relevance to the target do-
+main, determined by both how similar to it
+they appear to be, and whether they belong to
+general language or not. This extends previ-
+ous work on discriminative weighting by us-
+ing a finer granularity, focusing on the prop-
+erties of instances rather than corpus com-
+ponents, and using a simpler training proce-
+dure. We incorporate instance weighting into
+a mixture-model framework, and find that it
+yields consistent improvements over a wide
+range of baselines.
+1 

@@ -1,0 +1,17 @@
+
+Combining information extraction sys-
+tems yields significantly higher quality re-
+sources than each system in isolation. In
+this paper, we generalize such a mixing of
+sources and features in a framework called
+Ensemble Semantics. We show very large
+gains in entity extraction by combining
+state-of-the-art distributional and pattern-
+based systems with a large set of fea-
+tures from a webcrawl, query logs, and
+Wikipedia. Experimental results on a web-
+scale extraction of actors, athletes and mu-
+sicians show significantly higher mean av-
+erage precision scores (29% gain) com-
+pared with the current state of the art.
+1 

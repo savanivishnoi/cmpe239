@@ -1,0 +1,22 @@
+
+We present an exploration of generative prob-
+abilistic models for multi-document summa-
+rization. Beginning with a simple word fre-
+quency based model (Nenkova and Vander-
+wende, 2005), we construct a sequence of
+models each injecting more structure into the
+representation of document set content and ex-
+hibiting ROUGE gains along the way. Our
+final model, HIERSUM, utilizes a hierarchi-
+cal LDA-style model (Blei et al, 2004) to
+represent content specificity as a hierarchy of
+topic vocabulary distributions. At the task
+of producing generic DUC-style summaries,
+HIERSUM yields state-of-the-art ROUGE per-
+formance and in pairwise user evaluation
+strongly outperforms Toutanova et al (2007)?s
+state-of-the-art discriminative system. We
+also explore HIERSUM?s capacity to produce
+multiple ?topical summaries? in order to facil-
+itate content discovery and navigation.
+1 

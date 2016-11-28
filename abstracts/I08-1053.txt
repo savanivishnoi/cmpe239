@@ -1,0 +1,14 @@
+
+This paper presents an approach to the
+translation of compound words without the
+need for bilingual training text, by mod-
+eling the mapping of literal component
+word glosses (e.g. ?iron-path?) into flu-
+ent English (e.g. ?railway?) across mul-
+tiple languages. Performance is improved
+by adding component-sequence and learned-
+morphology models along with context sim-
+ilarity from monolingual text and optional
+combination with traditional bilingual-text-
+based translation discovery.
+1 

@@ -1,0 +1,23 @@
+
+We investigate using the PARADISE
+framework to develop predictive models
+of system performance in our spoken di-
+alogue tutoring system. We represent per-
+formance with two metrics: user satis-
+faction and student learning. We train
+and test predictive models of these met-
+rics in our tutoring system corpora. We
+predict user satisfaction with 2 parameter
+types: 1) system-generic, and 2) tutoring-
+specific. To predict student learning, we
+also use a third type: 3) user affect. Al-
+hough generic parameters are useful pre-
+dictors of user satisfaction in other PAR-
+ADISE applications, overall our parame-
+ters produce less useful user satisfaction
+models in our system. However, generic
+and tutoring-specific parameters do pro-
+duce useful models of student learning in
+our system. User affect parameters can in-
+crease the usefulness of these models.
+1 

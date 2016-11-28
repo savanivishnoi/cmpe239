@@ -1,0 +1,16 @@
+
+We introduce a scheme for optimally al-
+locating a variable number of bits per
+LSH hyperplane. Previous approaches as-
+sign a constant number of bits per hyper-
+plane. This neglects the fact that a subset
+of hyperplanes may be more informative
+than others. Our method, dubbed Variable
+Bit Quantisation (VBQ), provides a data-
+driven non-uniform bit allocation across
+hyperplanes. Despite only using a fraction
+of the available hyperplanes, VBQ outper-
+forms uniform quantisation by up to 168%
+for retrieval across standard text and image
+datasets.
+1 

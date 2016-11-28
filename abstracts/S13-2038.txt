@@ -1,0 +1,13 @@
+
+In this paper, we describe the UKP Lab sys-
+tem participating in the Semeval-2013 task
+?Word Sense Induction and Disambiguation
+within an End-User Application?. Our ap-
+proach uses preprocessing, co-occurrence ex-
+traction, graph clustering, and a state-of-the-
+art word sense disambiguation system. We
+developed a configurable pipeline which can
+be used to integrate and evaluate other com-
+ponents for the various steps of the complex
+task.
+1 

@@ -1,0 +1,20 @@
+
+In this paper, we describe our sys-
+tem for Chinese personal name dis-
+ambiguation task in the first CIPS-
+SIGHAN joint conference on Chinese
+Language Processing(CLP2010). We
+use a pipeline approach, in which pre-
+processing, unrelated documents dis-
+carding, Chinese personal name exten-
+sion and document clustering are per-
+formed separately. Chinese personal
+name extension is the most important
+part of the system. It uses two addi-
+tional dictionaries to extract full per-
+sonal names in Chinese text. And then
+document clustering is performed un-
+der different personal names. Exper-
+imental results show that our system
+can achieve good performances.
+1 

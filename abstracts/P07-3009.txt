@@ -1,0 +1,22 @@
+
+We investigate a family of update methods
+for online machine learning algorithms for
+cost-sensitive multiclass and structured clas-
+sification problems. The update rules are
+based on multinomial logistic models. The
+most interesting question for such an ap-
+proach is how to integrate the cost function
+into the learning paradigm. We propose a
+number of solutions to this problem.
+To demonstrate the applicability of the al-
+gorithms, we evaluated them on a number
+of classification tasks related to incremental
+dependency parsing. These tasks were con-
+ventional multiclass classification, hiearchi-
+cal classification, and a structured classifica-
+tion task: complete labeled dependency tree
+prediction. The performance figures of the
+logistic algorithms range from slightly lower
+to slightly higher than margin-based online
+algorithms.
+1 

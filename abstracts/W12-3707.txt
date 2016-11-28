@@ -1,0 +1,21 @@
+ 
+Current sentiment analysis systems rely on 
+static (context independent) sentiment 
+lexica with proximity based fixed-point 
+prior polarities. However, sentiment-
+orientation changes with context and these 
+lexical resources give no indication of 
+which value to pick at what context. The 
+general trend is to pick the highest one, but 
+which that is may vary at context. To 
+overcome the problems of the present 
+proximity-based static sentiment lexicon 
+techniques, the paper proposes a new way 
+to represent sentiment knowledge in a 
+Vector Space Model. This model can store 
+dynamic prior polarity with varying 
+contextual information. The representation 
+of the sentiment knowledge in the 
+Conceptual Spaces of distributional 
+Semantics is termed Sentimantics. 
+1  

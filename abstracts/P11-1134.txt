@@ -1,0 +1,24 @@
+
+This paper explores the use of bilingual par-
+allel corpora as a source of lexical knowl-
+edge for cross-lingual textual entailment. We
+claim that, in spite of the inherent difficul-
+ties of the task, phrase tables extracted from
+parallel data allow to capture both lexical re-
+lations between single words, and contextual
+information useful for inference. We experi-
+ment with a phrasal matching method in or-
+der to: i) build a system portable across lan-
+guages, and ii) evaluate the contribution of
+lexical knowledge in isolation, without inter-
+action with other inference mechanisms. Re-
+sults achieved on an English-Spanish corpus
+obtained from the RTE3 dataset support our
+claim, with an overall accuracy above average
+scores reported by RTE participants on mono-
+lingual data. Finally, we show that using par-
+allel corpora to extract paraphrase tables re-
+veals their potential also in the monolingual
+setting, improving the results achieved with
+other sources of lexical knowledge.
+1 

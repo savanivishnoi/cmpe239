@@ -1,0 +1,33 @@
+. 
+In this paper we present an unsupervised 
+learning algorithm for incremental concept 
+formation, based on an augmented version 
+of COBWEB. The algorithm is applied to 
+the task of acquiring a verb taxonomy 
+through the systematic observation of verb 
+usages in corpora. 
+Using a Machine Learning methodology for 
+a Natural language problem required 
+adjustments on both sides. In fact, concept 
+formation algorithms assume the input 
+information as being stable, unambiguous 
+and complete. At the opposite, linguistic 
+data are ambiguous, incomplete, and 
+possibly erroneous. 
+A NL processor is used to extract semi- 
+automatically from corpora the thematic 
+roles of verbs and derive a feature-vector 
+representation f verb instances. In order 
+to account for multiple instances of the 
+same verb, the measure of category utility, 
+defined in COBWEB, has been augmented 
+with the notion of memory inertia. Memory 
+inertia models the influence that previously 
+classified instances of a given verb have on 
+the classification of subsequent instances of 
+the same verb. Finally, a method is defined 
+to identify the basic-level classes of an 
+acquired hierarchy, i.e. those bringing the 
+most predictive information about their 
+members. 
+1. 

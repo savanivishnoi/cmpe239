@@ -1,0 +1,17 @@
+
+This paper describes an on-going research for a
+practical question answering system for a home
+agent robot. Because the main concern of the QA
+system for the home robot is the precision, rather
+than coverage (No answer is better than wrong an-
+swers), our approach is try to achieve high accuracy
+in QA. We restrict the question domains and extract
+answers from the pre-selected, semi-structured doc-
+uments on the Internet. A named entity tagger and a
+dependency parser are used to analyze the question
+accurately. User profiling and inference rules are
+used to infer hidden information that is required for
+finding a precise answer. Testing with a small set of
+queries on weather domain, the QA system showed
+90.9% of precision and 75.0% of recall.
+1 

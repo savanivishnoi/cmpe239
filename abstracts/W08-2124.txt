@@ -1,0 +1,24 @@
+
+This paper describes a system that jointly
+parses syntactic and semantic dependen-
+cies, presented at the CoNLL-2008 shared
+task (Surdeanu et al, 2008). It combines
+online Peceptron learning (Collins, 2002)
+with a parsing model based on the Eisner
+algorithm (Eisner, 1996), extended so as
+to jointly assign syntactic and semantic la-
+bels. Overall results are 78.11 global F
+1
+,
+85.84 LAS, 70.35 semantic F
+1
+. Official re-
+sults for the shared task (63.29 global F
+1
+;
+71.95 LAS; 54.52 semantic F
+1
+) were sig-
+nificantly lower due to bugs present at sub-
+mission time.
+1 

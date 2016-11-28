@@ -1,0 +1,25 @@
+ 
+We introduce a method for learning to 
+describe the attendant contexts of a given 
+query for language learning. In our 
+approach, we display phraseological 
+information in the form of a summary of 
+general patterns as well as lexical bundles 
+anchored at the query. The method 
+involves syntactical analyses and inverted 
+file construction. At run-time, grammatical 
+constructions and their lexical 
+instantiations characterizing the usage of 
+the given query are generated and 
+displayed, aimed at improving learners? 
+deep vocabulary knowledge. We present a 
+prototype system, GRASP, that applies the 
+proposed method for enhanced collocation 
+learning. Preliminary experiments show 
+that language learners benefit more from 
+GRASP than conventional dictionary 
+lookup. In addition, the information 
+produced by GRASP is potentially useful 
+information for automatic or manual 
+editing process. 
+1 

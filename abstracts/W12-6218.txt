@@ -1,0 +1,23 @@
+
+This work complements a parallel paper of
+a new finite-state dependency parser archi-
+tecture (Yli-Jyra?, 2012) by a proposal for
+a linguistically elaborated morphology-syntax
+interface and its finite-state implementation.
+The proposed interface extends Gaifman?s
+(1965) classical dependency rule formalism
+by separating lexical word forms and morpho-
+logical categories from syntactic categories.
+The separation lets the linguist take advantage
+of the morphological features in order to re-
+duce the number of dependency rules and to
+make them lexically selective. In addition,
+the relative functional specificity of parse trees
+gives rise to a measure of parse quality. By fil-
+tering worse parses out from the parse forest
+using finite-state techniques, the best parses
+are saved. Finally, we present a synthesis of
+strict grammar parsing and robust text pars-
+ing by connecting fragmental parses into trees
+with additional linear successor links.
+1 

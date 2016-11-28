@@ -1,0 +1,27 @@
+
+We participated in the SemEval-2007
+coarse-grained English all-words task
+and fine-grained English all-words task.
+We used a supervised learning approach
+with SVM as the learning algorithm. The
+knowledge sources used include local col-
+locations, parts-of-speech, and surrounding
+words. We gathered training examples
+from English-Chinese parallel corpora,
+SEMCOR, and DSO corpus. While the
+fine-grained sense inventory of WordNet
+was used to train our system employed for
+the fine-grained English all-words task, our
+system employed for the coarse-grained
+English all-words task was trained with the
+coarse-grained sense inventory released by
+the task organizers. Our scores (for both
+recall and precision) are 0.825 and 0.587
+for the coarse-grained English all-words
+task and fine-grained English all-words task
+respectively. These scores put our systems
+in the first place for the coarse-grained
+English all-words task1 and the second
+place for the fine-grained English all-words
+task.
+1 

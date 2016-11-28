@@ -1,0 +1,17 @@
+
+We present virtual human dialogue mod-
+els which primarily operate on the surface
+text level and can be extended to incor-
+porate additional information state annota-
+tions such as topics or results from simpler
+models. We compare these models with
+previously proposed models as well as two
+human-level upper baselines. The mod-
+els are evaluated by collecting appropri-
+ateness judgments from human judges for
+responses generated for a set of fixed dia-
+logue contexts. Our results show that the
+best performing models achieve close to
+human-level performance and require only
+surface text dialogue transcripts to train.
+1 

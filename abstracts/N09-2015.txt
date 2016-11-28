@@ -1,0 +1,22 @@
+
+Semi-supervised speaker clustering refers to
+the use of our prior knowledge of speakers
+in general to assist the unsupervised speaker
+clustering process. In the form of an in-
+dependent training set, the prior knowledge
+helps us learn a speaker-discriminative fea-
+ture transformation, a universal speaker prior
+model, and a discriminative speaker subspace,
+or equivalently a speaker-discriminative dis-
+tance metric. The directional scattering pat-
+terns of Gaussian mixture model mean su-
+pervectors motivate us to perform discrimi-
+nant analysis on the unit hypersphere rather
+than in the Euclidean space, which leads to
+a novel dimensionality reduction technique
+called spherical discriminant analysis (SDA).
+Our experiment results show that in the
+SDA subspace, speaker clustering yields su-
+perior performance than that in other reduced-
+dimensional subspaces (e.g., PCA and LDA).
+1 

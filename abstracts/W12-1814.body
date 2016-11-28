@@ -1,0 +1,18 @@
+
+We describe the 2012 release of our ?Incremen-
+tal Processing Toolkit? (INPROTK)1, which
+combines a powerful and extensible architec-
+ture for incremental processing with compo-
+nents for incremental speech recognition and,
+new to this release, incremental speech syn-
+thesis. These components work fairly domain-
+independently; we also provide example imple-
+mentations of higher-level components such as
+natural language understanding and dialogue
+management that are somewhat more tied to a
+particular domain. We offer this release of the
+toolkit to foster research in this new and excit-
+ing area, which promises to help increase the
+naturalness of behaviours that can be modelled
+in such systems.
+1 

@@ -1,0 +1,21 @@
+
+Attempts to profile authors according to their
+characteristics extracted from textual data, in-
+cluding native language, have drawn attention
+in recent years, via various machine learn-
+ing approaches utilising mostly lexical fea-
+tures. Drawing on the idea of contrastive
+analysis, which postulates that syntactic er-
+rors in a text are to some extent influenced by
+the native language of an author, this paper
+explores the usefulness of syntactic features
+for native language identification. We take
+two types of parse substructure as features?
+horizontal slices of trees, and the more gen-
+eral feature schemas from discriminative parse
+reranking?and show that using this kind of
+syntactic feature results in an accuracy score
+in classification of seven native languages of
+around 80%, an error reduction of more than
+30%.
+1 

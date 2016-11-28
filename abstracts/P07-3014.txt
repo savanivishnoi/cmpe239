@@ -1,0 +1,18 @@
+ 
+This paper investigates the use of machine 
+learning algorithms to label modifier-noun 
+compounds with a semantic relation. The 
+attributes used as input to the learning algo-
+rithms are the web frequencies for phrases 
+containing the modifier, noun, and a prepo-
+sitional joining term. We compare and 
+evaluate different algorithms and different 
+joining phrases on Nastase and Szpako-
+wicz?s (2003) dataset of 600 modifier-noun 
+compounds. We find that by using a Sup-
+port Vector Machine classifier we can ob-
+tain better performance on this dataset than 
+a current state-of-the-art system; even with 
+a relatively small set of prepositional join-
+ing terms. 
+1 

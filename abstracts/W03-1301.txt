@@ -1,0 +1,29 @@
+ 
+Machine-learning based entity extraction re-
+quires a large corpus of annotated training to 
+achieve acceptable results.  However, the cost 
+of expert annotation of relevant data, coupled 
+with issues of inter-annotator variability, 
+makes it expensive and time-consuming to 
+create the necessary corpora. We report here 
+on a simple method for the automatic creation 
+of large quantities of imperfect training data 
+for a biological entity (gene or protein) extrac-
+tion system. We used resources available in 
+the FlyBase model organism database; these 
+resources include a curated lists of genes and 
+the articles from which the entries were 
+drawn, together a synonym lexicon.  We ap-
+plied simple pattern matching to identify gene 
+names in the associated abstracts and filtered 
+these entities using the list of curated entries 
+for the article.  This process created a data set 
+that could be used to train a simple Hidden 
+Markov Model (HMM) entity tagger. The re-
+sults from the HMM tagger were comparable 
+to those reported by other groups (F-measure 
+of 0.75). This method has the advantage of be-
+ing rapidly transferable to new domains that 
+have similar existing resources. 
+1 
+                                                          

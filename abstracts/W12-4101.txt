@@ -1,0 +1,16 @@
+ 
+Relational clustering has received much 
+attention from researchers in the last decade. In 
+this paper we present a parametric method that 
+employs a combination of both hard and soft 
+clustering. Based on the corresponding Markov 
+chain of an affinity matrix, we simulate a 
+probability distribution on the states by 
+defining a conditional probability for each 
+subpopulation of states. This probabilistic 
+model would enable us to use expectation 
+maximization for parameter estimation. The 
+effectiveness of the proposed approach is 
+demonstrated on several real datasets against 
+spectral clustering methods.  
+1 

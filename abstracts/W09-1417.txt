@@ -1,0 +1,21 @@
+ 
+This paper reports on a system developed for 
+the BioNLP'09 shared task on detection and 
+characterisation of biomedical events. Event 
+triggers and types were recognised using a 
+conditional random field classifier and a set of 
+rules, while event participants were identified 
+using a rule-based system that relied on rela-
+tive distances between candidate entities and 
+the trigger in the associated parse tree. The re-
+sults on previously unseen test data were en-
+couraging: for non-regulatory events, the F-
+score was almost 50% (with precision above 
+60%), with the overall F-score of around 30% 
+(49% precision). The performance on more 
+complex regulatory events was poor  
+(F-measure of 7%). Among the 24 teams 
+submitting the test results, our results were 
+ranked 12th for the overall F-score and 8th for 
+the F-score of non-regulation events. 
+1 

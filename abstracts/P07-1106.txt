@@ -1,0 +1,21 @@
+
+Standard approaches to Chinese word seg-
+mentation treat the problem as a tagging
+task, assigning labels to the characters in
+the sequence indicating whether the char-
+acter marks a word boundary. Discrimina-
+tively trained models based on local char-
+acter features are used to make the tagging
+decisions, with Viterbi decoding finding the
+highest scoring segmentation. In this paper
+we propose an alternative, word-based seg-
+mentor, which uses features based on com-
+plete words and word sequences. The gener-
+alized perceptron algorithm is used for dis-
+criminative training, and we use a beam-
+search decoder. Closed tests on the first and
+second SIGHAN bakeoffs show that our sys-
+tem is competitive with the best in the litera-
+ture, achieving the highest reported F-scores
+for a number of corpora.
+1 

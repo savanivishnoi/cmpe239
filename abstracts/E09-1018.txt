@@ -1,0 +1,15 @@
+
+We present an algorithm for pronoun-
+anaphora (in English) that uses Expecta-
+tion Maximization (EM) to learn virtually
+all of its parameters in an unsupervised
+fashion. While EM frequently fails to find
+good models for the tasks to which it is
+set, in this case it works quite well. We
+have compared it to several systems avail-
+able on the web (all we have found so far).
+Our program significantly outperforms all
+of them. The algorithm is fast and robust,
+and has been made publically available for
+downloading.
+1 

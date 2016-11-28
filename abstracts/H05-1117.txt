@@ -1,0 +1,21 @@
+
+Following recent developments in the au-
+tomatic evaluation of machine translation
+and document summarization, we present
+a similar approach, implemented in a mea-
+sure called POURPRE, for automatically
+evaluating answers to definition questions.
+Until now, the only way to assess the cor-
+rectness of answers to such questions in-
+volves manual determination of whether
+an information nugget appears in a sys-
+tem?s response. The lack of automatic
+methods for scoring system output is an
+impediment to progress in the field, which
+we address with this work. Experiments
+with the TREC 2003 and TREC 2004 QA
+tracks indicate that rankings produced by
+our metric correlate highly with official
+rankings, and that POURPRE outperforms
+direct application of existing metrics.
+1 

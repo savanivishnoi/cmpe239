@@ -1,0 +1,20 @@
+ 
+The amount of information in medical 
+publications continues to increase at a 
+tremendous rate. Systematic reviews help 
+to process this growing body of informa-
+tion. They are fundamental tools for evi-
+dence-based medicine. In this paper, we 
+show that automatic text classification can 
+be useful in building systematic reviews 
+for medical topics to speed up the review-
+ing process. We propose a per-question 
+classification method that uses an ensem-
+ble of classifiers that exploit the particular 
+protocol of a systematic review. We also 
+show that when integrating the classifier 
+in the human workflow of building a re-
+view the per-question method is superior 
+to the global method. We test several 
+evaluation measures on a real dataset. 
+1 

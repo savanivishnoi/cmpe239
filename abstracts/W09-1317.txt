@@ -1,0 +1,24 @@
+
+An important task in information retrieval is to
+identify sentences that contain important relation-
+ships between key concepts. In this work, we
+propose a novel approach to automatically extract
+sentence patterns that contain interactions involv-
+ing concepts of molecular biology. A pattern is
+defined in this work as a sequence of specialized
+Part-of-Speech (POS) tags that capture the struc-
+ture of key sentences in the scientific literature.
+Each candidate sentence for the classification task
+is encoded as a POS array and then aligned to
+a collection of pre-extracted patterns. The qual-
+ity of the alignment is expressed as a pairwise
+alignment score. The most innovative component
+of this work is the use of a Genetic Algorithm
+(GA) to maximize the classification performance
+of the alignment scoring scheme. The system
+achieves an F-score of 0.834 in identifying sen-
+tences which describe interactions between bio-
+logical entities. This performance is mostly af-
+fected by the quality of the preprocessing steps
+such as term identification and POS tagging.
+1 

@@ -1,0 +1,17 @@
+ 
+We propose a parser for constraint- 
+logic grammars implementing HPSG 
+that combines the advantages of dy- 
+namic bottom-up and advanced top- 
+down control. The parser allows the 
+user to apply magic compilation to spe- 
+cific constraints in a grammar which as 
+a result can be processed dynamically 
+in a bottom-up and goal-directed fash- 
+ion. State of the art top-down process- 
+ing techniques are used to deal with the 
+remaining constraints. We discuss vari- 
+ous aspects concerning the implementa- 
+tion of the parser as part of a grammar 
+development system. 
+1 

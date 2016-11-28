@@ -1,0 +1,19 @@
+
+This work proposes a new segmentation
+evaluation metric, named boundary simi-
+larity (B), an inter-coder agreement coef-
+ficient adaptation, and a confusion-matrix
+for segmentation that are all based upon an
+adaptation of the boundary edit distance in
+Fournier and Inkpen (2012). Existing seg-
+mentation metrics such as Pk, WindowD-
+iff, and Segmentation Similarity (S) are
+all able to award partial credit for near
+misses between boundaries, but are biased
+towards segmentations containing few or
+tightly clustered boundaries. Despite S?s
+improvements, its normalization also pro-
+duces cosmetically high values that over-
+estimate agreement & performance, lead-
+ing this work to propose a solution.
+1 

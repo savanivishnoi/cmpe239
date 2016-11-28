@@ -1,0 +1,23 @@
+
+Recent literature in computational termi-
+nology has shown an increasing interest in
+identifying various semantic relationships
+between terms. In this paper, we pro-
+pose an original strategy to find specific
+noun-verb combinations in a specialized cor-
+pus. We focus on verbs that convey a
+meaning of realization. To acquire these
+noun-verb pairs, we use asares, a machine
+learning technique that automatically in-
+fers extraction patterns from examples and
+counter-examples of realization noun-verb
+pairs. The patterns are then applied to the
+corpus to retrieve new pairs. Results, mea-
+sured with a large test set, show that our
+acquisition technique outperforms classical
+statistical methods used for collocation ac-
+quisition. Moreover, the inferred patterns
+yield interesting clues on which structures
+are more likely to convey the target seman-
+tic link.
+1 

@@ -1,0 +1,13 @@
+ 
+We propose a novel MLN-based method 
+that collectively conducts SRL on 
+groups of news sentences. Our method is 
+built upon a baseline SRL, which uses 
+no parsers and leverages redundancy. 
+We evaluate our method on a manually 
+labeled news corpus and demonstrate 
+that news redundancy significantly im-
+proves the performance of the baseline, 
+e.g., it improves the F-score from 
+64.13% to 67.66%.  * 
+1 

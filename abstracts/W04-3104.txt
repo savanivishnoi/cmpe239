@@ -1,0 +1,27 @@
+ 
+One of the routine tasks for model organ-
+ism database curators is to identify and 
+associate research articles to database en-
+tries. Such task can be considered as text 
+categorization which has been studied in 
+the general English domain. The task can 
+be decomposed into two text categoriza-
+tion subtasks: i) finding relevant articles 
+associating with specific model organ-
+isms, and ii) routing the articles to spe-
+cific entries or specific areas. In this 
+paper, we investigated the first subtask 
+and designed a study using existing refer-
+ence information available at four well-
+known model organism databases and 
+investigated the problem of identifying 
+relevant articles for these organisms. We 
+used features obtained from abstract text 
+and titles. Additionally, we studied the de-
+termination power of other MEDLINE ci-
+tation fields (e.g., Authors, 
+MeshHeadings, Journals). Furthermore, 
+we compared three supervised machine 
+learning techniques on predicting to 
+which organism the article belongs.  
+1 

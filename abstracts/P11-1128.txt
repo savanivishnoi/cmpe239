@@ -1,0 +1,17 @@
+
+We introduce synchronous tree adjoining
+grammars (TAG) into tree-to-string transla-
+tion, which converts a source tree to a target
+string. Without reconstructing TAG deriva-
+tions explicitly, our rule extraction algo-
+rithm directly learns tree-to-string rules from
+aligned Treebank-style trees. As tree-to-string
+translation casts decoding as a tree parsing
+problem rather than parsing, the decoder still
+runs fast when adjoining is included. Less
+than 2 times slower, the adjoining tree-to-
+string system improves translation quality by
++0.7 BLEU over the baseline system only al-
+lowing for tree substitution on NIST Chinese-
+English test sets.
+1 

@@ -1,0 +1,23 @@
+
+We consider the task of automatically
+extracting post-translational modification
+events from biomedical scientific publica-
+tions. Building on the success of event
+extraction for phosphorylation events in
+the BioNLP?09 shared task, we extend the
+event annotation approach to four major
+new post-transitional modification event
+types. We present a new targeted corpus of
+157 PubMed abstracts annotated for over
+1000 proteins and 400 post-translational
+modification events identifying the modi-
+fied proteins and sites. Experiments with
+a state-of-the-art event extraction system
+show that the events can be extracted with
+52% precision and 36% recall (42% F-
+score), suggesting remaining challenges
+in the extraction of the events. The an-
+notated corpus is freely available in the
+BioNLP?09 shared task format at the GE-
+NIA project homepage.1
+1 

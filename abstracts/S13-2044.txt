@@ -1,0 +1,17 @@
+
+Many NLP applications require information
+about locations of objects referenced in text,
+or relations between them in space. For ex-
+ample, the phrase a book on the desk contains
+information about the location of the object
+book, as trajector, with respect to another ob-
+ject desk, as landmark. Spatial Role Label-
+ing (SpRL) is an evaluation task in the infor-
+mation extraction domain which sets a goal
+to automatically process text and identify ob-
+jects of spatial scenes and relations between
+them. This paper describes the task in Se-
+mantic Evaluations 2013, annotation schema,
+corpora, participants, methods and results ob-
+tained by the participants.
+1 

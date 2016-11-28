@@ -1,0 +1,20 @@
+
+Event related potentials (ERP) corresponding
+to stimuli in electroencephalography (EEG)
+can be used to detect the intent of a per-
+son for brain computer interfaces (BCI). This
+paradigm is widely used to build letter-by-
+letter text input systems using BCI. Neverthe-
+less using a BCI-typewriter depending only on
+EEG responses will not be sufficiently accu-
+rate for single-trial operation in general, and
+existing systems utilize many-trial schemes to
+achieve accuracy at the cost of speed. Hence
+incorporation of a language model based prior
+or additional evidence is vital to improve accu-
+racy and speed. In this demonstration we will
+present a BCI system for typing that integrates
+a stochastic language model with ERP classifi-
+cation to achieve speedups, via the rapid serial
+visual presentation (RSVP) paradigm.
+1 

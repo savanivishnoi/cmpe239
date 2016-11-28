@@ -1,0 +1,22 @@
+
+In email conversational analysis, it is of-
+ten useful to trace the the intents behind
+each message exchange. In this paper,
+we consider classification of email mes-
+sages as to whether or not they contain
+certain intents or email-acts, such as ?pro-
+pose a meeting? or ?commit to a task?.
+We demonstrate that exploiting the con-
+textual information in the messages can
+noticeably improve email-act classifica-
+tion. More specifically, we describe a
+combination of n-gram sequence features
+with careful message preprocessing that is
+highly effective for this task. Compared
+to a previous study (Cohen et al, 2004),
+this representation reduces the classifica-
+tion error rates by 26.4% on average. Fi-
+nally, we introduce Ciranda: a new open
+source toolkit for email speech act predic-
+tion.
+1 

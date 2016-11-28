@@ -1,0 +1,18 @@
+
+When creating a new resource, prepro-
+cessing the source texts before annotation
+is both ubiquitous and obvious. How the
+preprocessing affects the annotation effort
+for various tasks is for the most part an
+open question, however. In this paper,
+we study the effects of preprocessing on
+the annotation of dependency corpora and
+how annotation speed varies as a function
+of the quality of three different parsers and
+compare with the speed obtained when
+starting from a least-processed baseline.
+We also present preliminary results con-
+cerning the effects on agreement based on
+a small subset of sentences that have been
+doubly-annotated.1
+1 

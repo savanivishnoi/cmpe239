@@ -1,0 +1,15 @@
+ 
+We describe a system, UNN-WePS for 
+identifying individuals from web pages us-
+ing data from Semeval Task 13. Our sys-
+tem is based on using co-presence of per-
+son names to form seed clusters. These are 
+then extended with pages that are deemed 
+conceptually similar based on a lexical 
+chaining analysis computed using Roget?s 
+thesaurus. Finally, a single link hierarchical 
+agglomerative clustering algorithm merges 
+the enhanced clusters for individual entity 
+recognition. UNN-WePS achieved an aver-
+age purity of 0.6, and inverse purity of 0.73. 
+1 

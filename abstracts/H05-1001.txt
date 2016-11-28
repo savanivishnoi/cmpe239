@@ -1,0 +1,17 @@
+
+We propose an approach to summarization
+exploiting both lexical information and
+the output of an automatic anaphoric re-
+solver, and using Singular Value Decom-
+position (SVD) to identify the main terms.
+We demonstrate that adding anaphoric
+information results in significant perfor-
+mance improvements over a previously
+developed system, in which only lexical
+terms are used as the input to SVD. How-
+ever, we also show that how anaphoric in-
+formation is used is crucial: whereas using
+this information to add new terms does re-
+sult in improved performance, simple sub-
+stitution makes the performance worse.
+1 

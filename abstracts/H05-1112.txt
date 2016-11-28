@@ -1,0 +1,19 @@
+
+This paper addresses the automatic clas-
+sification of the semantic relations ex-
+pressed by the English genitives. A learn-
+ing model is introduced based on the sta-
+tistical analysis of the distribution of gen-
+itives? semantic relations on a large cor-
+pus. The semantic and contextual fea-
+tures of the genitive?s noun phrase con-
+stituents play a key role in the identifica-
+tion of the semantic relation. The algo-
+rithm was tested on a corpus of approx-
+imately 2,000 sentences and achieved an
+accuracy of 79% , far better than 44% ac-
+curacy obtained with C5.0, or 43% ob-
+tained with a Naive Bayes algorithm, or
+27% accuracy with a Support Vector Ma-
+chines learner on the same corpus.
+1 

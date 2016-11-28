@@ -1,0 +1,13 @@
+. In this paper, we first discuss a problem of developing a
+knowledge base by using natural language documents: wrong informa-
+tion in natural language documents. It is almost inevitable that natural
+language documents, especially web documents, contain wrong informa-
+tion. As a result, it is important to investigate a method of detecting
+and correcting wrong information in natural language documents when
+we develop a knowledge base by using them. In this paper, we report a
+method of detecting wrong information in mails posted to a mailing list
+and developing a knowledge base by using these mails. Then, we describe
+a QA system which can answer how type questions based on the knowl-
+edge base and show that question and answer mails posted to a mailing
+list can be used as a knowledge base for a QA system.
+1 

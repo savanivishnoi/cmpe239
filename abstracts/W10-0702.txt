@@ -1,0 +1,18 @@
+
+This paper explores the task of building an ac-
+curate prepositional phrase attachment corpus
+for new genres while avoiding a large invest-
+ment in terms of time and money by crowd-
+sourcing judgments. We develop and present
+a system to extract prepositional phrases and
+their potential attachments from ungrammati-
+cal and informal sentences and pose the subse-
+quent disambiguation tasks as multiple choice
+questions to workers from Amazon?s Mechan-
+ical Turk service. Our analysis shows that
+this two-step approach is capable of producing
+reliable annotations on informal and poten-
+tially noisy blog text, and this semi-automated
+strategy holds promise for similar annotation
+projects in new genres.
+1 

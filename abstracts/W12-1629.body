@@ -1,0 +1,15 @@
+
+Addressee identification is an element of all
+language-based interactions, and is critical for
+turn-taking. We examine the particular prob-
+lem of identifying when each child playing an
+interactive game in a small group is speak-
+ing to an animated character. After analyzing
+child and adult behavior, we explore a family
+of machine learning models to integrate au-
+dio and visual features with temporal group
+interactions and limited, task-independent lan-
+guage. The best model performs identification
+about 20% better than the model that uses the
+audio-visual features of the child alone.
+1 

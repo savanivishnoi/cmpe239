@@ -1,0 +1,16 @@
+
+In this paper, we propose a semantic role label-
+ing method using a maximum entropy model,
+which enables not only to exploit rich features
+but also to alleviate the data sparseness prob-
+lem in a well-founded model. For applying the
+maximum entropy model to semantic role la-
+beling, we take a incremental approach as fol-
+lows: firstly, the semantic roles are assigned to
+the arguments in the immediate clause includ-
+ing a predicate, and then, the semantic roles are
+assigned to the arguments in the upper clauses
+by using previously assigned labels. The exper-
+imental result shows that the proposed method
+has about 64.76% (F1-measure) on the test set.
+1 

@@ -1,0 +1,24 @@
+
+Native Language Identification, or NLI, is the
+task of automatically classifying the L1 of a
+writer based solely on his or her essay writ-
+ten in another language. This problem area
+has seen a spike in interest in recent years
+as it can have an impact on educational ap-
+plications tailored towards non-native speak-
+ers of a language, as well as authorship pro-
+filing. While there has been a growing body
+of work in NLI, it has been difficult to com-
+pare methodologies because of the different
+approaches to pre-processing the data, differ-
+ent sets of languages identified, and different
+splits of the data used. In this shared task, the
+first ever for Native Language Identification,
+we sought to address the above issues by pro-
+viding a large corpus designed specifically for
+NLI, in addition to providing an environment
+for systems to be directly compared. In this
+paper, we report the results of the shared task.
+A total of 29 teams from around the world
+competed across three different sub-tasks.
+1 

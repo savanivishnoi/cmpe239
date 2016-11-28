@@ -1,0 +1,16 @@
+ 
+Using the formalism of generalized phrase structure 
+grammar (GF~SG) in an NL system (e.g. for machine translation 
+(MT)) is promising since the modular structure of the 
+formalism is very well suited to meet some particular needs of 
+MT. However, it seems impossible to implement GPSG in its 
+1985 version straightforwardly. This would involve a vast 
+overgeneration f structures as well as processes to filter out 
+everything but the admissible tree(s). We therefore argue for a 
+constructive rsion of GPSG where information is gathered in 
+subsequent s eps to produce syntactic structures. As a result, 
+we consider it necessary to incorporate procedural spects into 
+the formalism in order to use it as a linguistic basis for NL 
+parsing and generation. The paper discusses the major 
+implications of such a modified view of GPSG. 1 
+1 

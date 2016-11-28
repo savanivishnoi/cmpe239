@@ -1,0 +1,17 @@
+ 
+We describe a method of word segmentation i
+Japanese in which a broad-coverage parser selects 
+the best word sequence while producing a syntactic 
+analysis. This technique is substantially different 
+from traditional statistics- or heuristics-based 
+models which attempt o select the best word 
+sequence before handing it to the syntactic 
+component. By breaking up the task of finding the 
+best word sequence into the identification of words 
+(in the word-breaking component) and the selection 
+of the best sequence (a by-product of parsing), we 
+have been able to simplify the task of each 
+component and achieve high accuracy over a wide 
+varicty of data. Word-breaking accuracy of our 
+system is currently around 97-98%. 
+1. 

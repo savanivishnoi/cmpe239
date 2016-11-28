@@ -1,0 +1,12 @@
+
+This paper describes an indexing substrate for typed
+feature structures (ISTFS), which is an efficient re-
+trieval engine for typed feature structures. Given a
+set of typed feature structures, the ISTFS efficiently
+retrieves its subset whose elements are unifiable or
+in a subsumption relation with a query feature struc-
+ture. The efficiency of the ISTFS is achieved by
+calculating a unifiability checking table prior to re-
+trieval and finding the best index paths dynami-
+cally.
+1 

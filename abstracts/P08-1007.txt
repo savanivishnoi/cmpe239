@@ -1,0 +1,21 @@
+
+We propose an automatic machine translation
+(MT) evaluation metric that calculates a sim-
+ilarity score (based on precision and recall)
+of a pair of sentences. Unlike most metrics,
+we compute a similarity score between items
+across the two sentences. We then find a maxi-
+mum weight matching between the items such
+that each item in one sentence is mapped to
+at most one item in the other sentence. This
+general framework allows us to use arbitrary
+similarity functions between items, and to in-
+corporate different information in our com-
+parison, such as n-grams, dependency rela-
+tions, etc. When evaluated on data from the
+ACL-07 MT workshop, our proposed metric
+achieves higher correlation with human judge-
+ments than all 11 automatic MT evaluation
+metrics that were evaluated during the work-
+shop.
+1 

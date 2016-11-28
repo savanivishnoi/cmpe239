@@ -1,0 +1,7 @@
+
+This paper introduces the Alligator theorem prover for Dependent Type Systems (dts).
+We start with highlighting a number of properties of dts that make them specifically suited
+for computational semantics. We then briefly introduce dts and our implementation. The
+paper concludes with an example of a dts proof that illustrates the suitability of dts for
+modelling anaphora resolution.
+1 

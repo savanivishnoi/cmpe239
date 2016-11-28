@@ -1,0 +1,20 @@
+
+This paper describes a general and effective
+domain selection framework for multi-domain
+spoken dialogue systems that employ dis-
+tributed domain experts. The framework con-
+sists of two processes: deciding if the current
+domain continues and estimating the probabil-
+ities for selecting other domains. If the current
+domain does not continue, the domain with
+the highest activation probability is selected.
+Since those processes for each domain expert
+can be designed independently from other ex-
+perts and can use a large variety of informa-
+tion, the framework achieves both extensibil-
+ity and robustness against speech recognition
+errors. The results of an experiment using
+a corpus of dialogues between humans and
+a multi-domain dialogue system demonstrate
+the viability of the proposed framework.
+1 

@@ -1,0 +1,24 @@
+
+The need for associating, or ground-
+ing, protein names in the literature with
+the entries of proteome databases such
+as Swiss-Prot is well-recognized. The
+protein names in the biomedical litera-
+ture show a high degree of morpholog-
+ical and syntactic variations, and vari-
+ous anaphoric expressions including null
+anaphors. We present a biomedical
+anaphora resolution system, BioAR, in or-
+der to address the variations of protein
+names and to further associate them with
+Swiss-Prot entries as the actual entities in
+the world. The system shows the per-
+formance of 59.5%  75.0% precision and
+40.7%  56.3% recall, depending on the
+specific types of anaphoric expressions.
+We apply BioAR to the protein names
+in the biological interactions as extracted
+by our biomedical information extraction
+system, or BioIE, in order to construct
+protein pathways automatically.
+1 

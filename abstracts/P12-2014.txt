@@ -1,0 +1,24 @@
+
+We investigate the problem of ordering med-
+ical events in unstructured clinical narratives
+by learning to rank them based on their time
+of occurrence. We represent each medical
+event as a time duration, with a correspond-
+ing start and stop, and learn to rank the
+starts/stops based on their proximity to the ad-
+mission date. Such a representation allows us
+to learn all of Allen?s temporal relations be-
+tween medical events. Interestingly, we ob-
+serve that this methodology performs better
+than a classification-based approach for this
+domain, but worse on the relationships found
+in the Timebank corpus. This finding has im-
+portant implications for styles of data repre-
+sentation and resources used for temporal re-
+lation learning: clinical narratives may have
+different language attributes corresponding to
+temporal ordering relative to Timebank, im-
+plying that the field may need to look at a
+wider range of domains to fully understand the
+nature of temporal ordering.
+1 

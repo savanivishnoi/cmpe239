@@ -1,0 +1,23 @@
+
+We present novel kernels based on struc-
+tured and unstructured features for rerank-
+ing the N-best hypotheses of conditional
+random fields (CRFs) applied to entity ex-
+traction. The former features are gener-
+ated by a polynomial kernel encoding en-
+tity features whereas tree kernels are used
+to model dependencies amongst tagged
+candidate examples. The experiments on
+two standard corpora in two languages,
+i.e. the Italian EVALITA 2009 and the En-
+glish CoNLL 2003 datasets, show a large
+improvement on CRFs in F-measure, i.e.
+from 80.34% to 84.33% and from 84.86%
+to 88.16%, respectively. Our analysis re-
+veals that both kernels provide a compara-
+ble improvement over the CRFs baseline.
+Additionally, their combination improves
+CRFs much more than the sum of the indi-
+vidual contributions, suggesting an inter-
+esting kernel synergy.
+1 

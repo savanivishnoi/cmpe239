@@ -1,0 +1,20 @@
+
+A metaphor is a figure of speech that refers
+to one concept in terms of another, as in ?He
+is such a sweet person?. Metaphors are ubiq-
+uitous and they present NLP with a range
+of challenges for WSD, IE, etc. Identifying
+metaphors is thus an important step in lan-
+guage understanding. However, since almost
+any word can serve as a metaphor, they are
+impossible to list. To identify metaphorical
+use, we assume that it results in unusual se-
+mantic patterns between the metaphor and its
+dependencies. To identify these cases, we use
+SVMs with tree-kernels on a balanced corpus
+of 3872 instances, created by bootstrapping
+from available metaphor lists.1 We outper-
+form two baselines, a sequential and a vector-
+based approach, and achieve an F1-score of
+0.75.
+1 

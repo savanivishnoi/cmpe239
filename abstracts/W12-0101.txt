@@ -1,0 +1,21 @@
+
+This paper describes the experimental com-
+bination of traditional Natural Language
+Processing (NLP) technology with the Se-
+mantic Web building stack in order to ex-
+tend the expert knowledge required for a
+Machine Translation (MT) task. Therefore,
+we first give a short introduction in the state
+of the art of MT and the Semantic Web
+and discuss the problem of disambiguation
+being one of the common challenges in
+MT which can only be solved using world
+knowledge during the disambiguation pro-
+cess. In the following, we construct a sam-
+ple sentence which demonstrates the need
+for world knowledge and design a proto-
+typical program as a successful solution for
+the outlined translation problem. We con-
+clude with a critical view on the developed
+approach.
+1 

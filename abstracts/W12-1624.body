@@ -1,0 +1,24 @@
+
+Many modern spoken dialog systems use
+probabilistic graphical models to update their
+belief over the concepts under discussion, in-
+creasing robustness in the face of noisy input.
+However, such models are ill-suited to prob-
+abilistic reasoning about spatial relationships
+between entities. In particular, a car naviga-
+tion system that infers users? intended desti-
+nation using nearby landmarks as descriptions
+must be able to use distance measures as a fac-
+tor in inference. In this paper, we describe
+a belief tracking system for a location iden-
+tification task that combines a semantic belief
+tracker for categorical concepts based on the
+DPOT framework (Raux and Ma, 2011) with
+a kernel density estimator that incorporates
+landmark evidence from multiple turns and
+landmark hypotheses, into a posterior proba-
+bility over candidate locations. We evaluate
+our approach on a corpus of destination set-
+ting dialogs and show that it significantly out-
+performs a deterministic baseline.
+1 

@@ -1,0 +1,15 @@
+
+This paper introduces a novel generation
+system that composes humanlike descrip-
+tions of images from computer vision de-
+tections. By leveraging syntactically in-
+formed word co-occurrence statistics, the
+generator filters and constrains the noisy
+detections output from a vision system to
+generate syntactic trees that detail what
+the computer vision system sees. Results
+show that the generation system outper-
+forms state-of-the-art systems, automati-
+cally generating some of the most natural
+image descriptions to date.
+1 

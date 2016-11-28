@@ -1,0 +1,18 @@
+
+We compare several  state of the art dependency 
+parsers  with  our  own  parser  based  on  a  linear 
+classification  technique.  Our  primary  goal  is 
+therefore to use syntactic information only, in or-
+der to keep the comparison of the parsers as fair 
+as possible. We demonstrate, that despite the in-
+ferior result using the standard evaluation metrics 
+for  parsers  like  UAS  or  LAS  on  standard  test 
+data,  our  system  achieves  comparable  results 
+when used in an application, such as the SemEv-
+al-2 #12 evaluation exercise PETE. Our submis-
+sion achieved the 4th position out of 19 participat-
+ing systems. However, since it only uses a linear 
+classifier  it  works 17-20 times faster  than other 
+state of the parsers, as for instance MaltParser or 
+Stanford Parser.
+1 

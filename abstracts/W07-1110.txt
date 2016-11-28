@@ -1,0 +1,17 @@
+
+This paper discusses the semantic interpre-
+tation of compound nominalizations in Chi-
+nese. We propose four coarse-grained se-
+mantic roles of the noun modifier and use a
+Maximum Entropy Model to label such re-
+lations in a compound nominalization. The
+feature functions used for the model are
+web-based statistics acquired via role related
+paraphrase patterns, which are formed by a
+set of word instances of prepositions, sup-
+port verbs, feature nouns and aspect mark-
+ers. By applying a sub-linear transformation
+and discretization of the raw statistics, a rate
+of approximately 77% is obtained for classi-
+fication of the four semantic relations.
+1 

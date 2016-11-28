@@ -1,0 +1,13 @@
+ 
+In this article, we present MetaMorpho, a rule 
+based machine translation system that was 
+used to create MorphoLogic?s submission to 
+the WMT08 shared Hungarian to English 
+translation task. The architecture of Meta-
+Morpho does not fit easily into traditional 
+categories of rule based systems: the building 
+blocks of its grammar are pairs of rules that 
+describe source and target language structures 
+in a parallel fashion and translated structures 
+are created while parsing the input.  
+1 

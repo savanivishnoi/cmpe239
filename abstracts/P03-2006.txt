@@ -1,0 +1,17 @@
+
+We describe an algorithm for recover-
+ing non-local dependencies in syntac-
+tic dependency structures. The pattern-
+matching approach proposed by John-
+son (2002) for a similar task for phrase
+structure trees is extended with machine
+learning techniques. The algorithm is es-
+sentially a classifier that predicts a non-
+local dependency given a connected frag-
+ment of a dependency structure and a
+set of structural features for this frag-
+ment. Evaluating the algorithm on the
+Penn Treebank shows an improvement of
+both precision and recall, compared to the
+results presented in (Johnson, 2002).
+1 

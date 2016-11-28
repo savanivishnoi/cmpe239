@@ -1,0 +1,13 @@
+
+Modern Question/Answering systems rely on
+expected answer types for processing ques-
+tions. The answer type is a semantic cate-
+gory provided by Named Entity recognizer or
+by semantic hierarchies. We argue in this pa-
+per that Q/A systems should take advantage
+of the topic information by exploiting several
+models of question and answer categorization.
+The matching of the question category with the
+answer category allows the system to filter out
+many incorrect answers.
+1 

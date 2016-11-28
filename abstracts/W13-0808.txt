@@ -1,0 +1,18 @@
+
+We propose synchronous linear context-free
+rewriting systems as an extension to syn-
+chronous context-free grammars in which syn-
+chronized non-terminals span k ? 1 continu-
+ous blocks on each side of the bitext. Such
+discontinuous constituents are required for in-
+ducing certain alignment configurations that
+occur relatively frequently in manually an-
+notated parallel corpora and that cannot be
+generated with less expressive grammar for-
+malisms. As part of our investigations con-
+cerning the minimal k that is required for in-
+ducing manual alignments, we present a hier-
+archical aligner in form of a deduction system.
+We find that by restricting k to 2 on both sides,
+100% of the data can be covered.
+1 

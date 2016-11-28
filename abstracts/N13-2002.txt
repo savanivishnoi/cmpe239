@@ -1,0 +1,24 @@
+
+Annotated corpora play a significant role in
+many NLP applications. However, annota-
+tion by humans is time-consuming and costly.
+In this paper, a high recall predictor based
+on a cost-sensitive learner is proposed as a
+method to semi-automate the annotation of
+unbalanced classes. We demonstrate the ef-
+fectiveness of our approach in the context of
+one form of unbalanced task: annotation of
+transcribed human-human dialogues for pres-
+ence/absence of uncertainty. In two data
+sets, our cost-matrix based method of uncer-
+tainty annotation achieved high levels of re-
+call while maintaining acceptable levels of ac-
+curacy. The method is able to reduce human
+annotation effort by about 80% without a sig-
+nificant loss in data quality, as demonstrated
+by an extrinsic evaluation showing that results
+originally achieved using manually-obtained
+uncertainty annotations can be replicated us-
+ing semi-automatically obtained uncertainty
+annotations.
+1 

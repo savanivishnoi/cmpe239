@@ -1,0 +1,26 @@
+ 
+The Probabilistic Context-Free Grammar 
+(PCFG) model is widely used for parsing 
+natural languages, including Modern 
+Chinese. But for Classical Chinese, the 
+computer processing is just commencing. 
+Our previous study on the part-of-speech 
+(POS) tagging of Classical Chinese is a 
+pioneering work in this area. Now in this 
+paper, we move on to the PCFG parsing of 
+Classical Chinese texts. We continue to 
+use the same tagset and corpus as our 
+previous study, and apply the 
+bigram-based forward-backward algorithm 
+to obtain the context-dependent 
+probabilities. Then for the PCFG model, 
+we restrict the rewriting rules to be 
+binary/unary rules, which will simplify our 
+programming. A small-sized rule-set was 
+developed that could account for the 
+grammatical phenomena occurred in the 
+corpus. The restriction of texts lies in the 
+limitation on the amount of proper nouns 
+and difficult characters.  In our 
+preliminary experiments, the parser gives 
+a promising accuracy of 82.3%. 

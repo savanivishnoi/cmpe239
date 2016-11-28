@@ -1,0 +1,21 @@
+
+ 
+We  introduce  a  new  family  of  geometric 
+models  of  meaning,  inspired  by  principles 
+from  semiotics  and  information  theory, 
+based on what we call Expectation Vectors. 
+We present theoretical arguments in support 
+of  these  representations  over  traditional 
+context-feature  vectors:  primarily that  they 
+provide  a  more  intuitive  representation  of 
+meaning,  and  detach  vector  representation 
+from  the  specific  context  features  thereby 
+allowing  arbitrarily  sophisticated  language 
+models  to  be  leveraged.  We  present  a 
+preliminary  evaluation  of  an  expectation 
+vector  based  word  sense  disambiguation 
+system  using  the  SemEval-2007  task  2 
+dataset,  with  very  encouraging  results, 
+particularly with respect to ambiguous verbs.
+ 
+1 

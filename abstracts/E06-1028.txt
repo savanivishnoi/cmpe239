@@ -1,0 +1,17 @@
+
+In this paper, we present an automated,
+quantitative, knowledge-poor method to
+evaluate the randomness of a collection
+of documents (corpus), with respect to a
+number of biased partitions. The method
+is based on the comparison of the word
+frequency distribution of the target corpus
+to word frequency distributions from cor-
+pora built in deliberately biased ways. We
+apply the method to the task of building a
+corpus via queries to Google. Our results
+indicate that this approach can be used,
+reliably, to discriminate biased and unbi-
+ased document collections and to choose
+the most appropriate query terms.
+1 

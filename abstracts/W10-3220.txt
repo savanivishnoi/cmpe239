@@ -1,0 +1,30 @@
+ 
+ 
+We develop a grammar for Urdu in 
+Grammatical Framework (GF). GF is a 
+programming language for defining 
+multilingual grammar applications. GF 
+resource grammar library currently 
+supports 16 languages. These grammars 
+follow an Interlingua approach and 
+consist of morphology and syntax 
+modules that cover a wide range of 
+features of a language. In this paper we 
+explore different syntactic features of the 
+Urdu language, and show how to fit them 
+in the multilingual framework of GF. We 
+also discuss how we cover some of the 
+distinguishing features of Urdu such as, 
+ergativity in verb agreement (see Sec 
+4.2).  The main purpose of GF resource 
+grammar library is to provide an easy 
+way to write natural language 
+applications without knowing the details 
+of syntax, morphology and lexicon. To 
+demonstrate it, we use Urdu resource 
+grammar to add support for Urdu in the 
+work reported in (Angelov and Ranta, 
+2010) which is an implementation of 
+Attempto (Attempto 2008) in GF.  
+ 
+1. 

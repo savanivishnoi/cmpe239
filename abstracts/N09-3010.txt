@@ -1,0 +1,19 @@
+
+We demonstrate that a supervised annotation
+learning approach using structured features
+derived from tokens and prior annotations per-
+forms better than a bag of words approach.
+We present a general graph representation for
+automatically deriving these features from la-
+beled data. Automatic feature selection based
+on class association scores requires a large
+amount of labeled data and direct voting can
+be difficult and error-prone for structured fea-
+tures, even for language specialists. We show
+that highlighted rationales from the user can
+be used for indirect feature voting and same
+performance can be achieved with less labeled
+data.We present our results on two annotation
+learning tasks for opinion mining from prod-
+uct and movie reviews.
+1 

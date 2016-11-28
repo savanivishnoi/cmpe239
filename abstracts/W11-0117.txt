@@ -1,0 +1,13 @@
+
+This paper proposes a framework for representing cross-lingual/interlingual lexical semantic cor-
+respondences that are expected to be recovered through a series of on-demand/on-the-fly invocations
+of a lexical semantic matching process. One of the central notions of the proposed framework is a
+pseudo synset, which is introduced to represent a cross-lingual/multilingual lexical concept, jointly
+denoted by word senses in more than one language. Another important ingredient of the proposed
+framework is a framework for semantifying bilingual lexical resource entries. This is a necessary
+substep when associating and representing corresponding lexical concepts in different languages
+by using bilingual lexical resources. Based on these devices, this paper further discusses possible
+extensions to the ISO standard lexical markup framework (LMF). These extensions would enable re-
+covered correspondences to be organized as a dynamic secondary language resource, while keeping
+the existing primary language resources intact.
+1 

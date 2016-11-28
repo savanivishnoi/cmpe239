@@ -1,0 +1,38 @@
+s, pages 6?7,
+Vancouver, October 2005.
+Demonstrating an Interactive Semantic Role Labeling System
+Vasin Punyakanok Dan Roth Mark Sammons
+Department of Computer Science
+University of Illinois at Urbana-Champaign
+Urbana, IL 61801, USA
+{punyakan,danr,mssammon}@uiuc.edu
+Wen-tau Yih
+Microsoft Research
+Redmond, WA 98052, USA
+scottyih@microsoft.com
+Abstract
+Semantic Role Labeling (SRL) is the task
+of performing a shallow semantic analy-
+sis of text (i.e., Who did What to Whom,
+When, Where, How). This is a cru-
+cial step toward deeper understanding of
+text and has many immediate applications.
+Preprocessed information on text, mostly
+syntactic, has been shown to be impor-
+tant for SRL. Current research focuses on
+improving the performance assuming that
+this lower level information is given with-
+out any attention to the overall efficiency
+of the final system, although minimizing
+execution time is a necessity in order to
+support real world applications. The goal
+of our demonstration is to present an inter-
+active SRL system that can be used both
+as a research and an educational tool. Its
+architecture is based on the state-of-the-
+art system (the top system in the 2005
+CoNLL shared task), modified to process
+raw text through the addition of lower
+level processors, while achieving effective
+real time performance.
+1 

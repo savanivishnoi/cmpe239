@@ -1,0 +1,34 @@
+ 
+In this paper, we present a semi-
+automatic approach for annotating se-
+mantic information in biomedical texts. 
+The information is used to construct  
+a biomedical proposition bank called 
+BioProp. Like PropBank in the newswire 
+domain, BioProp contains annotations of 
+predicate argument structures and seman-
+tic roles in a treebank schema. To con-
+struct BioProp, a semantic role labeling 
+(SRL) system trained on PropBank is 
+used to annotate BioProp. Incorrect tag-
+ging results are then corrected by human 
+annotators. To suit the needs in the bio-
+medical domain, we modify the Prop-
+Bank annotation guidelines and charac-
+terize semantic roles as components of 
+biological events. The method can sub-
+stantially reduce annotation efforts, and 
+we introduce a measure of an upper 
+bound for the saving of annotation efforts. 
+Thus far, the method has been applied 
+experimentally to a 4,389-sentence tree-
+bank corpus for the construction of Bio-
+Prop. Inter-annotator agreement meas-
+ured by kappa statistic reaches .95 for 
+combined decision of role identification 
+and classification when all argument la-
+bels are considered. In addition, we show 
+that, when trained on BioProp, our bio-
+medical SRL system called BIOSMILE 
+achieves an F-score of 87%. 
+1 

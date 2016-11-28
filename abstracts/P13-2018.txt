@@ -1,0 +1,17 @@
+
+Aspects of Chinese syntax result in a dis-
+tinctive mix of parsing challenges. How-
+ever, the contribution of individual sources
+of error to overall difficulty is not well un-
+derstood. We conduct  a  comprehensive
+automatic analysis of error types made by
+Chinese parsers, covering a broad range of
+error types for large sets of sentences, en-
+abling the first empirical ranking of Chi-
+nese error types by their performance im-
+pact. We also investigate which error types
+are resolved by using gold part-of-speech
+tags, showing that improving Chinese tag-
+ging  only  addresses  certain  error  types,
+leaving substantial outstanding challenges.
+1 

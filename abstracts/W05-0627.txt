@@ -1,0 +1,17 @@
+
+A maximum entropy classifier is used in
+our semantic role labeling system, which
+takes syntactic constituents as the labeling
+units. The maximum entropy classifier is
+trained to identify and classify the predi-
+cates? semantic arguments together. Only
+the constituents with the largest probabil-
+ity among embedding ones are kept. Af-
+ter predicting all arguments which have
+matching constituents in full parsing trees,
+a simple rule-based post-processing is ap-
+plied to correct the arguments which have
+no matching constituents in these trees.
+Some useful features and their combina-
+tions are evaluated.
+1 

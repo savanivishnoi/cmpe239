@@ -1,0 +1,19 @@
+
+Factoring a Synchronous Context-Free
+Grammar into an equivalent grammar with
+a smaller number of nonterminals in each
+rule enables synchronous parsing algo-
+rithms of lower complexity. The prob-
+lem can be formalized as searching for the
+tree-decomposition of a given permutation
+with the minimal branching factor. In this
+paper, by modifying the algorithm of Uno
+and Yagiura (2000) for the closely related
+problem of finding all common intervals
+of two permutations, we achieve a linear
+time algorithm for the permutation factor-
+ization problem. We also use the algo-
+rithm to analyze the maximum SCFG rule
+length needed to cover hand-aligned data
+from various language pairs.
+1 

@@ -1,0 +1,23 @@
+
+This paper presents a method that as-
+sists in maintaining a rule-based
+named-entity recognition and classifi-
+cation system. The underlying idea is to
+use a separate system, constructed with
+the use of machine learning, to monitor
+the performance of the rule-based sys-
+tem. The training data for the second
+system is generated with the use of the
+rule-based system, thus avoiding the
+need for manual tagging. The dis-
+agreement of the two systems acts as a
+signal for updating the rule-based sys-
+tem. The generality of the approach is
+illustrated by applying it to large cor-
+pora in two different languages: Greek
+and French. The results are very en-
+couraging, showing that this alternative
+use of machine learning can assist sig-
+nificantly in the maintenance of rule-
+based systems.
+1 

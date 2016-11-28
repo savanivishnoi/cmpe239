@@ -1,0 +1,21 @@
+ 
+In this paper, we propose a hybrid ap-
+proach to chunking Chinese base noun 
+phrases (base NPs), which combines 
+SVM (Support Vector Machine) model 
+and CRF (Conditional Random Field) 
+model. In order to compare the result 
+respectively from two chunkers, we use 
+the discriminative post-processing 
+method, whose measure criterion is the 
+conditional probability generated from 
+the CRF chunker. With respect to the 
+special structures of Chinese base NP 
+and complete analyses of the first two 
+results, we also customize some appro-
+priate grammar rules to avoid ambigui-
+ties and prune errors. According to our 
+overall experiments, the method 
+achieves a higher accuracy in the final 
+results. 
+1 

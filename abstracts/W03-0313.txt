@@ -1,0 +1,21 @@
+
+The term translation spotting (TS) refers to
+the task of identifying the target-language (TL)
+words that correspond to a given set of source-
+language (SL) words in a pair of text segments
+known to be mutual translations. This arti-
+cle examines this task within the context of a
+sub-sentential translation-memory system, i.e.
+a translation support tool capable of proposing
+translations for portions of a SL sentence, ex-
+tracted from an archive of existing translations.
+Different methods are proposed, based on a sta-
+tistical translation model. These methods take
+advantage of certain characteristics of the ap-
+plication, to produce TL segments submitted
+to constraints of contiguity and composition-
+ality. Experiments show that imposing these
+constraints allows important gains in accuracy,
+with regard to the most probable alignments
+predicted by the model.
+1 

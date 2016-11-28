@@ -1,0 +1,26 @@
+
+To be able to answer the question What
+causes tumors to shrink?, one would re-
+quire a large cause-effect relation repos-
+itory. Many efforts have been payed on
+is-a and part-of relation leaning, however
+few have focused on cause-effect learn-
+ing. This paper describes an automated
+bootstrapping procedure which can learn
+and produce with minimal effort a cause-
+effect term repository. To filter out the
+erroneously extracted information, we in-
+corporate graph-based methods. To evalu-
+ate the performance of the acquired cause-
+effect terms, we conduct three evaluations:
+(1) human-based, (2) comparison with ex-
+isting knowledge bases and (3) applica-
+tion driven (SemEval-1 Task 4) in which
+the goal is to identify the relation between
+pairs of nominals. The results show that
+the extractions at rank 1500 are 89% ac-
+curate, they comprise 61% from the terms
+used in the SemEval-1 Task 4 dataset and
+can be used in the future to produce addi-
+tional training examples for the same task.
+1 

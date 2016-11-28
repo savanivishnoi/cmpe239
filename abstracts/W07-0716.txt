@@ -1,0 +1,19 @@
+
+Most state-of-the-art statistical machine
+translation systems use log-linear models,
+which are defined in terms of hypothesis fea-
+tures and weights for those features. It is
+standard to tune the feature weights in or-
+der to maximize a translation quality met-
+ric, using held-out test sentences and their
+corresponding reference translations. How-
+ever, obtaining reference translations is ex-
+pensive. In this paper, we introduce a new
+full-sentence paraphrase technique, based
+on English-to-English decoding with an MT
+system, and we demonstrate that the result-
+ing paraphrases can be used to drastically re-
+duce the number of human reference transla-
+tions needed for parameter tuning, without a
+significant decrease in translation quality.
+1 

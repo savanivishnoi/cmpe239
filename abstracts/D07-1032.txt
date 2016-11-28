@@ -1,0 +1,18 @@
+
+This paper describes a probabilistic model
+for coordination disambiguation integrated
+into syntactic and case structure analy-
+sis. Our model probabilistically assesses
+the parallelism of a candidate coordinate
+structure using syntactic/semantic similari-
+ties and cooccurrence statistics. We inte-
+grate these probabilities into the framework
+of fully-lexicalized parsing based on large-
+scale case frames. This approach simulta-
+neously addresses two tasks of coordination
+disambiguation: the detection of coordinate
+conjunctions and the scope disambiguation
+of coordinate structures. Experimental re-
+sults on web sentences indicate the effective-
+ness of our approach.
+1 

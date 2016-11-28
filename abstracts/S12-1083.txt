@@ -1,0 +1,25 @@
+ 
+This article presents the experiments car-
+ried out at Jadavpur University as part of 
+the participation in Semantic Textual Si-
+milarity (STS) of Task 6 @ Semantic 
+Evaluation Exercises (SemEval-2012). 
+Task-6 of SemEval- 2012 focused on se-
+mantic relations of text pair. Task-6 pro-
+vides five different text pair files to 
+compare different semantic relations and 
+judge these relations through a similarity 
+and confidence score. Similarity score is 
+one kind of multi way classification in the 
+form of grade between 0 to 5. We have 
+submitted one run for the STS task. Our 
+system has two basic modules - one deals 
+with lexical relations and another deals 
+with dependency based syntactic relations 
+of the text pair. Similarity score given to a 
+pair is the average of the scores of the 
+above-mentioned modules. The scores 
+from each module are identified using rule 
+based techniques. The Pearson Correlation 
+of our system in the task is 0.3880. 
+1 

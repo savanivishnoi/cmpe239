@@ -1,0 +1,22 @@
+ 
+We introduce a new approach to named 
+entity classification which we term a Pri-
+ority Model. We also describe the con-
+struction of a semantic database called 
+SemCat consisting of a large number of 
+semantically categorized names relevant 
+to biomedicine. We used SemCat as train-
+ing data to investigate name classification 
+techniques. We generated a statistical lan-
+guage model and probabilistic context-
+free grammars for gene and protein name 
+classification, and compared the results 
+with the new model.  For all three meth-
+ods, we used a variable order Markov 
+model to predict the nature of strings not 
+represented in the training data.  The Pri-
+ority Model achieves an F-measure of 
+0.958-0.960, consistently higher than the 
+statistical language model and probabilis-
+tic context-free grammar.   
+1 

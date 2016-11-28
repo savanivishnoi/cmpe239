@@ -1,0 +1,14 @@
+ Schema for Representing Semantic Roles and
+Modelling the Syntax-Semantics Interface
+Voula Gotsoulia
+University of Essex
+vghotsoulia@yahoo.co.uk
+Abstract
+This paper presents a novel approach to semantic role annotation implementing an entailment-
+based view of the concept of semantic role. I propose to represent arguments of predicates with
+grammatically relevant primitive properties entailed by the semantics of predicates. Such meaning
+components generalise over a range of semantic relations which humans tend to express systemati-
+cally through language. In a preliminary study, I show that we can model linguistic knowledge at a
+general, principled syntax-semantics interface by incorporating a layer of skeletal, entailment-based
+representation of word meaning in large-scale corpus annotation.
+1 

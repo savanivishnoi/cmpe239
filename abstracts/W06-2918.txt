@@ -1,0 +1,23 @@
+
+Much work on information extraction has
+successfully used gazetteers to recognise
+uncommon entities that cannot be reliably
+identified from local context alone. Ap-
+proaches to such tasks often involve the
+use of maximum entropy-style models,
+where gazetteers usually appear as highly
+informative features in the model. Al-
+though such features can improve model
+accuracy, they can also introduce hidden
+negative effects. In this paper we de-
+scribe and analyse these effects and sug-
+gest ways in which they may be overcome.
+In particular, we show that by quarantin-
+ing gazetteer features and training them
+in a separate model, then decoding using
+a logarithmic opinion pool (Smith et al,
+2005), we may achieve much higher accu-
+racy. Finally, we suggest ways in which
+other features with gazetteer feature-like
+behaviour may be identified.
+1 

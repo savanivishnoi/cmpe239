@@ -1,0 +1,35 @@
+
+In this paper, we evaluate the results of
+the Antwerp University word sense dis-
+ambiguation system in the English all
+words task of SENSEVAL-2. In this ap-
+proach, specialized memory-based word-
+experts were trained per word-POS com-
+bination. Through optimization by cross-
+validation of the individual component
+classifiers and the voting scheme for com-
+bining them, the best possible word-expert
+was determined. In the competition, this
+word-expert architecture resulted in accu-
+racies of 63.6% (fine-grained) and 64.5%
+(coarse-grained) on the SENSEVAL-2 test
+data.
+In order to better understand these re-
+sults, we investigated whether classifiers
+trained on different information sources
+performed differently on the different
+part-of-speech categories. Furthermore,
+the results were evaluated in terms of the
+available number of training items, the
+number of senses, and the sense distribu-
+tions in the data set. We conclude that
+there is no information source which is
+optimal over all word-experts. Selecting
+the optimal classifier/voter for each sin-
+gle word-expert, however, leads to major
+accuracy improvements. We furthermore
+show that accuracies do not so much de-
+pend on the available number of training
+items, but largely on polysemy and sense
+distributions.
+1 

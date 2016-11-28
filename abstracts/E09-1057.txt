@@ -1,0 +1,26 @@
+
+We present a language-pair independent
+terminology extraction module that is
+based on a sub-sentential alignment sys-
+tem that links linguistically motivated
+phrases in parallel texts. Statistical filters
+are applied on the bilingual list of candi-
+date terms that is extracted from the align-
+ment output.
+We compare the performance of both
+the alignment and terminology extrac-
+tion module for three different language
+pairs (French-English, French-Italian and
+French-Dutch) and highlight language-
+pair specific problems (e.g. different com-
+pounding strategy in French and Dutch).
+Comparisons with standard terminology
+extraction programs show an improvement
+of up to 20% for bilingual terminology ex-
+traction and competitive results (85% to
+90% accuracy) for monolingual terminol-
+ogy extraction, and reveal that the linguis-
+tically based alignment module is particu-
+larly well suited for the extraction of com-
+plex multiword terms.
+1 

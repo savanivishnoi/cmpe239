@@ -1,0 +1,21 @@
+
+In this paper we investigate the automatic
+acquisition of Arabic Multiword Expres-
+sions (MWE). We propose three com-
+plementary approaches to extract MWEs
+from available data resources. The first
+approach relies on the correspondence
+asymmetries between Arabic Wikipedia
+titles and titles in 21 different languages.
+The second approach collects English
+MWEs from Princeton WordNet 3.0,
+translates the collection into Arabic us-
+ing Google Translate, and utilizes differ-
+ent search engines to validate the output.
+The third uses lexical association mea-
+sures to extract MWEs from a large unan-
+notated corpus. We experimentally ex-
+plore the feasibility of each approach and
+measure the quality and coverage of the
+output against gold standards.
+1 

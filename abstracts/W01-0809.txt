@@ -1,0 +1,27 @@
+
+This paper presents the implementation
+of the Vietnamese generation module
+in ITS3, a multilingual machine
+translation (MT) system based on the
+Government & Binding (GB) theory.
+Despite well-designed generic
+mechanisms of the system, it turned out
+that the task of generating Vietnamese
+posed non-trivial problems. We
+therefore had to deviate from the
+generic code and make new design and
+implementation in many important
+cases. By developing corresponding
+bilingual lexicons, we obtained
+prototypes of French-Vietnamese and
+English-Vietnamese MT, the former
+being the first known prototype of this
+kind. Our experience suggests that in a
+principle-based generation system, the
+parameterized modules, which contain
+language-specific and lexicalized
+properties, deserve more attention, and
+the generic mechanisms should be
+flexible enough to facilitate the
+integration of these modules.
+1 

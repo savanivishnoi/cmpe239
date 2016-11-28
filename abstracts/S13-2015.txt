@@ -1,0 +1,16 @@
+
+In this paper, we present a system, UTTime,
+which we submitted to TempEval-3 for Task
+C: Annotating temporal relations. The sys-
+tem uses logistic regression classifiers and ex-
+ploits features extracted from a deep syntactic
+parser, including paths between event words in
+phrase structure trees and their path lengths,
+and paths between event words in predicate-
+argument structures and their subgraphs. UT-
+Time achieved an F1 score of 34.9 based
+on the graphed-based evaluation for Task C
+(ranked 2nd) and 56.45 for Task C-relation-
+only (ranked 1st) in the TempEval-3 evalua-
+tion.
+1 

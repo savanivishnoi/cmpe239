@@ -1,0 +1,14 @@
+
+This paper presents a novel algorithm
+for efficiently generating paraphrases from
+disjunctive logical forms. The algorithm
+is couched in the framework of Combina-
+tory Categorial Grammar (CCG) and has
+been implemented as an extension to the
+OpenCCG surface realizer. The algorithm
+makes use of packed representations sim-
+ilar to those initially proposed by Shem-
+tov (1997), generalizing the approach in a
+more straightforward way than in the algo-
+rithm ultimately adopted therein.
+1 

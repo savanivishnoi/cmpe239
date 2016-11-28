@@ -1,0 +1,17 @@
+
+We explore the idea of creating a subjectiv-
+ity classifier that uses lists of subjective nouns
+learned by bootstrapping algorithms. The goal
+of our research is to develop a system that
+can distinguish subjective sentences from ob-
+jective sentences. First, we use two bootstrap-
+ping algorithms that exploit extraction patterns
+to learn sets of subjective nouns. Then we
+train a Naive Bayes classifier using the subjec-
+tive nouns, discourse features, and subjectivity
+clues identified in prior research. The boot-
+strapping algorithms learned over 1000 subjec-
+tive nouns, and the subjectivity classifier per-
+formed well, achieving 77% recall with 81%
+precision.
+1 

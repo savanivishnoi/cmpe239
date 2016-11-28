@@ -1,0 +1,25 @@
+
+Maximum Entropy Principle has been
+used successfully in various NLP tasks. In
+this paper we propose a forward transla-
+tion model consisting of a set of maxi-
+mum entropy classifiers: a separate clas-
+sifier is trained for each (sufficiently fre-
+quent) source-side lemma. In this way
+the estimates of translation probabilities
+can be sensitive to a large number of fea-
+tures derived from the source sentence (in-
+cluding non-local features, features mak-
+ing use of sentence syntactic structure,
+etc.). When integrated into English-to-
+Czech dependency-based translation sce-
+nario implemented in the TectoMT frame-
+work, the new translation model signif-
+icantly outperforms the baseline model
+(MLE) in terms of BLEU. The perfor-
+mance is further boosted in a configuration
+inspired by Hidden Tree Markov Mod-
+els which combines the maximum entropy
+translation model with the target-language
+dependency tree model.
+1 

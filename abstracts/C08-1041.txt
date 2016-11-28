@@ -1,0 +1,15 @@
+
+This paper proposes a novel lexicalized ap-
+proach for rule selection for syntax-based
+statistical machine translation (SMT). We
+build maximum entropy (MaxEnt) mod-
+els which combine rich context informa-
+tion for selecting translation rules dur-
+ing decoding. We successfully integrate
+the MaxEnt-based rule selection models
+into the state-of-the-art syntax-based SMT
+model. Experiments show that our lexical-
+ized approach for rule selection achieves
+statistically significant improvements over
+the state-of-the-art SMT system.
+1 

@@ -1,0 +1,23 @@
+
+In current dependency parsing models, con-
+ventional features (i.e. base features) defined
+over surface words and part-of-speech tags
+in a relatively high-dimensional feature space
+may suffer from the data sparseness problem
+and thus exhibit less discriminative power on
+unseen data. In this paper, we propose a
+novel semi-supervised approach to address-
+ing the problem by transforming the base fea-
+tures into high-level features (i.e. meta fea-
+tures) with the help of a large amount of au-
+tomatically parsed data. The meta features are
+used together with base features in our final
+parser. Our studies indicate that our proposed
+approach is very effective in processing un-
+seen data and features. Experiments on Chi-
+nese and English data sets show that the fi-
+nal parser achieves the best-reported accuracy
+on the Chinese data and comparable accuracy
+with the best known parsers on the English
+data.
+1 

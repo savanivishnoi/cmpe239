@@ -1,0 +1,18 @@
+
+We present BAYESUM (for ?Bayesian
+summarization?), a model for sentence ex-
+traction in query-focused summarization.
+BAYESUM leverages the common case in
+which multiple documents are relevant to a
+single query. Using these documents as re-
+inforcement for query terms, BAYESUM is
+not afflicted by the paucity of information
+in short queries. We show that approxi-
+mate inference in BAYESUM is possible
+on large data sets and results in a state-
+of-the-art summarization system. Further-
+more, we show how BAYESUM can be
+understood as a justified query expansion
+technique in the language modeling for IR
+framework.
+1 

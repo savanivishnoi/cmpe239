@@ -1,0 +1,16 @@
+
+Natural-Language Generation from flat
+semantics is an NP-complete problem.
+This makes it necessary to develop al-
+gorithms that run with reasonable effi-
+ciency in practice despite the high worst-
+case complexity. We show how to con-
+vert TAG generation problems into de-
+pendency parsing problems, which is use-
+ful because optimizations in recent de-
+pendency parsers based on constraint pro-
+gramming tackle exactly the combina-
+torics that make generation hard. Indeed,
+initial experiments display promising run-
+times.
+1 

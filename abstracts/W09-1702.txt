@@ -1,0 +1,15 @@
+
+This paper demonstrates one efficient tech-
+nique in extracting bilingual word pairs from
+non-parallel but comparable corpora. Instead
+of using the common approach of taking high
+frequency words to build up the initial bilin-
+gual lexicon, we show contextually relevant
+terms that co-occur with cognate pairs can be
+efficiently utilized to build a bilingual dictio-
+nary. The result shows that our models using
+this technique have significant improvement
+over baseline models especially when highest-
+ranked translation candidate per word is con-
+sidered.
+1 

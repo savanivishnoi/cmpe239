@@ -1,0 +1,14 @@
+
+We consider the task of generating transliter-
+ated word forms. To allow for a wide range of
+interacting features, we use a conditional ran-
+dom field (CRF) sequence labeling model. We
+then present two innovations: a training objec-
+tive that optimizes toward any of a set of possi-
+ble correct labels (since more than one translit-
+eration is often possible for a particular in-
+put), and a k-best reranking stage to incorpo-
+rate nonlocal features. This paper presents re-
+sults on the Arabic-English transliteration task
+of the NEWS 2012 workshop.
+1 

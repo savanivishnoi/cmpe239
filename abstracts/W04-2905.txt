@@ -1,0 +1,13 @@
+
+In this paper we highlight the problems that
+arise due to variations of spellings of names
+that occur in text, as a result of which links be-
+tween two pieces of text where the same name
+is spelt differently may be missed. The problem
+is particularly pronounced in the case of ASR
+text. We propose the use of approximate string
+matching techniques to normalize names in or-
+der to overcome the problem. We show how we
+could achieve an improvement if we could tag
+names with reasonable accuracy in ASR.
+1 

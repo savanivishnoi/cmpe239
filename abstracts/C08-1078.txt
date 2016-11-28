@@ -1,0 +1,26 @@
+
+The ability to correctly classify sentences
+that describe events is an important task for
+many natural language applications such
+as Question Answering (QA) and Sum-
+marisation. In this paper, we treat event
+detection as a sentence level text classifi-
+cation problem. We compare the perfor-
+mance of two approaches to this task: a
+Support Vector Machine (SVM) classifier
+and a Language Modeling (LM) approach.
+We also investigate a rule based method
+that uses hand crafted lists of terms derived
+from WordNet. These terms are strongly
+associated with a given event type, and can
+be used to identify sentences describing in-
+stances of that type. We use two datasets in
+our experiments, and evaluate each tech-
+nique on six distinct event types. Our re-
+sults indicate that the SVM consistently
+outperform the LM technique for this task.
+More interestingly, we discover that the
+manual rule based classification system is
+a very powerful baseline that outperforms
+the SVM on three of the six event types.
+1 

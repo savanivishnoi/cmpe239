@@ -1,0 +1,19 @@
+ Alignment
+Hal Daume? III and Daniel Marcu
+Information Sciences Institute
+University of Southern California
+4676 Admiralty Way, Suite 1001
+Marina del Rey, CA 90292
+{hdaume,marcu}@isi.edu
+Abstract
+We describe a model for creating word-to-word and
+phrase-to-phrase alignments between documents
+and their human written abstracts. Such alignments
+are critical for the development of statistical sum-
+marization systems that can be trained on large cor-
+pora of document/abstract pairs. Our model, which
+is based on a novel Phrase-Based HMM, outper-
+forms both the Cut & Paste alignment model (Jing,
+2002) and models developed in the context of ma-
+chine translation (Brown et al, 1993).
+1 

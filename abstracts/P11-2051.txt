@@ -1,0 +1,17 @@
+
+We present an approach of expanding paral-
+lel corpora for machine translation. By uti-
+lizing Semantic role labeling (SRL) on one
+side of the language pair, we extract SRL sub-
+stitution rules from existing parallel corpus.
+The rules are then used for generating new
+sentence pairs. An SVM classifier is built to
+filter the generated sentence pairs. The fil-
+tered corpus is used for training phrase-based
+translation models, which can be used directly
+in translation tasks or combined with base-
+line models. Experimental results on Chinese-
+English machine translation tasks show an av-
+erage improvement of 0.45 BLEU and 1.22
+TER points across 5 different NIST test sets.
+1 

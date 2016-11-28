@@ -1,0 +1,16 @@
+
+This paper describes T ?UB?ITAK-B?ILGEM
+statistical machine translation (SMT) sys-
+tems submitted to the Eighth Work-
+shop on Statistical Machine Transla-
+tion (WMT) shared translation task for
+German-English language pair in both di-
+rections. We implement phrase-based
+SMT systems with standard parameters.
+We present the results of using a big tun-
+ing data and the effect of averaging tun-
+ing weights of different seeds. Addition-
+ally, we performed a linguistically moti-
+vated compound splitting in the German-
+to-English SMT system.
+1 

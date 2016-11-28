@@ -1,0 +1,26 @@
+
+Semantic relationships between words
+comprised by thesauri are essential fea-
+tures for IR, text mining and informa-
+tion extraction systems. This paper in-
+troduces a new approach to identifica-
+tion of semantic relations such as syn-
+onymy by a lexical graph. The graph
+is generated from a text corpus by em-
+bedding syntactically parsed sentences
+in the graph structure. The vertices
+of the graph are lexical items (words),
+their connection follows the syntactic
+structure of a sentence. The struc-
+ture of the graph and distances be-
+tween vertices can be utilized to define
+metrics for identification of semantic
+relations. The approach has been eval-
+uated on a test set of 200 German syn-
+onym sets. Influence of size of the text
+corpus, word generality and frequency
+has been investigated. Conducted ex-
+periments for synonyms demonstrate
+that the presented methods can be ex-
+tended to other semantic relations.
+1 

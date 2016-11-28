@@ -1,0 +1,21 @@
+
+Typical statistical machine translation sys-
+tems are trained with static parallel corpora.
+Here we account for scenarios with a continu-
+ous incoming stream of parallel training data.
+Such scenarios include daily governmental
+proceedings, sustained output from transla-
+tion agencies, or crowd-sourced translations.
+We show incorporating recent sentence pairs
+from the stream improves performance com-
+pared with a static baseline. Since frequent
+batch retraining is computationally demand-
+ing we introduce a fast incremental alternative
+using an online version of the EM algorithm.
+To bound our memory requirements we use
+a novel data-structure and associated training
+regime. When compared to frequent batch re-
+training, our online time and space-bounded
+model achieves the same performance with
+significantly less computational overhead.
+1 

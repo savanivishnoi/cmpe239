@@ -1,0 +1,23 @@
+
+Document revision histories are a useful
+and abundant source of data for natural
+language processing, but selecting relevant
+data for the task at hand is not trivial.
+In this paper we introduce a scalable ap-
+proach for automatically distinguishing be-
+tween factual and fluency edits in document
+revision histories. The approach is based
+on supervised machine learning using lan-
+guage model probabilities, string similar-
+ity measured over different representations
+of user edits, comparison of part-of-speech
+tags and named entities, and a set of adap-
+tive features extracted from large amounts
+of unlabeled user edits. Applied to con-
+tiguous edit segments, our method achieves
+statistically significant improvements over
+a simple yet effective edit-distance base-
+line. It reaches high classification accuracy
+(88%) and is shown to generalize to addi-
+tional sets of unseen data.
+1 

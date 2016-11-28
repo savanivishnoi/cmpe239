@@ -1,0 +1,22 @@
+
+Many natural language applications, like
+machine translation and information extrac-
+tion, are required to operate on text with
+spelling errors. Those spelling mistakes
+have to be corrected automatically to avoid
+deteriorating the performance of such ap-
+plications. In this work, we introduce a
+novel approach for automatic correction of
+spelling mistakes by deploying finite state
+automata to propose candidates corrections
+within a specified edit distance from the mis-
+spelled word. After choosing candidate cor-
+rections, a language model is used to assign
+scores the candidate corrections and choose
+best correction in the given context. The
+proposed approach is language independent
+and requires only a dictionary and text data
+for building a language model. The ap-
+proach have been tested on both Arabic and
+English text and achieved accuracy of 89%.
+1 

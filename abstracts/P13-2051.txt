@@ -1,0 +1,17 @@
+
+Automatic acquisition of inference rules
+for predicates is widely addressed by com-
+puting distributional similarity scores be-
+tween vectors of argument words. In
+this scheme, prior work typically refrained
+from learning rules for low frequency
+predicates associated with very sparse ar-
+gument vectors due to expected low reli-
+ability. To improve the learning of such
+rules in an unsupervised way, we propose
+to lexically expand sparse argument word
+vectors with semantically similar words.
+Our evaluation shows that lexical expan-
+sion significantly improves performance
+in comparison to state-of-the-art baselines.
+1 

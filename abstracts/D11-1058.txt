@@ -1,0 +1,28 @@
+
+In this paper, we describe a novel approach to
+cascaded learning and inference on sequences.
+We propose a weakly joint learning model
+on cascaded inference on sequences, called
+multilayer sequence labeling. In this model,
+inference on sequences is modeled as cas-
+caded decision. However, the decision on a
+sequence labeling sequel to other decisions
+utilizes the features on the preceding results
+as marginalized by the probabilistic models
+on them. It is not novel itself, but our idea
+central to this paper is that the probabilis-
+tic models on succeeding labeling are viewed
+as indirectly depending on the probabilistic
+models on preceding analyses. We also pro-
+pose two types of efficient dynamic program-
+ming which are required in the gradient-based
+optimization of an objective function. One
+of the dynamic programming algorithms re-
+sembles back propagation algorithm for mul-
+tilayer feed-forward neural networks. The
+other is a generalized version of the forward-
+backward algorithm. We also report experi-
+ments of cascaded part-of-speech tagging and
+chunking of English sentences and show ef-
+fectiveness of the proposed method.
+1 

@@ -1,0 +1,24 @@
+
+The linguistic features of material in Cul-
+tural Heritage (CH) archives may be in var-
+ious languages requiring a facility for ef-
+fective multilingual search. The specialised
+language often associated with CH content
+introduces problems for automatic transla-
+tion to support search applications. The
+MultiMatch project is focused on enabling
+users to interact with CH content across
+different media types and languages. We
+present results from a MultiMatch study ex-
+ploring various translation techniques for
+the CH domain. Our experiments ex-
+amine translation techniques for the En-
+glish language CLEF 2006 Cross-Language
+Speech Retrieval (CL-SR) task using Span-
+ish, French and German queries. Re-
+sults compare effectiveness of our query
+translation against a monolingual baseline
+and show improvement when combining a
+domain-specific translation lexicon with a
+standard machine translation system.
+1 

@@ -1,0 +1,19 @@
+
+We provide a model that extends the split-
+merge framework of Petrov et al (2006) to
+jointly learn latent annotations and Tree Sub-
+stitution Grammars (TSGs). We then conduct
+a variety of experiments with this model, first
+inducing grammars on a portion of the Penn
+Treebank and the Korean Treebank 2.0, and
+next experimenting with grammar refinement
+from a single nonterminal and from the Uni-
+versal Part of Speech tagset. We present quali-
+tative analysis showing promising signs across
+all experiments that our combined approach
+successfully provides for greater flexibility
+in grammar induction within the structured
+guidance provided by the treebank, leveraging
+the complementary natures of these two ap-
+proaches.
+1 

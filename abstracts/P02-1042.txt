@@ -1,0 +1,20 @@
+
+This paper describes a wide-coverage sta-
+tistical parser that uses Combinatory Cat-
+egorial Grammar (CCG) to derive de-
+pendency structures. The parser differs
+from most existing wide-coverage tree-
+bank parsers in capturing the long-range
+dependencies inherent in constructions
+such as coordination, extraction, raising
+and control, as well as the standard local
+predicate-argument dependencies. A set
+of dependency structures used for train-
+ing and testing the parser is obtained from
+a treebank of CCG normal-form deriva-
+tions, which have been derived (semi-) au-
+tomatically from the Penn Treebank. The
+parser correctly recovers over 80% of la-
+belled dependencies, and around 90% of
+unlabelled dependencies.
+1 

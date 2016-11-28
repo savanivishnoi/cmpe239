@@ -1,0 +1,25 @@
+
+There has been a recent surge of interest in
+semantic machine translation, which stan-
+dard automatic metrics struggle to evalu-
+ate. A family of measures called MEANT
+has been proposed which uses semantic
+role labels (SRL) to overcome this prob-
+lem. The human variant, HMEANT, has
+largely been evaluated using correlation
+with human contrastive evaluations, the
+standard human evaluation metric for the
+WMT shared tasks. In this paper we claim
+that for a human metric to be useful, it
+needs to be evaluated on intrinsic proper-
+ties. It needs to be reliable; it needs to
+work across different language pairs; and
+it needs to be lightweight. Most impor-
+tantly, however, a human metric must be
+discerning. We conclude that HMEANT
+is a step in the right direction, but has
+some serious flaws. The reliance on verbs
+as heads of frames, and the assumption
+that annotators need minimal guidelines
+are particularly problematic.
+1 

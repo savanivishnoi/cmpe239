@@ -1,0 +1,17 @@
+
+Phrase-based statistical machine transla-
+tion systems depend heavily on the knowl-
+edge represented in their phrase transla-
+tion tables. However, the phrase pairs
+included in these tables are typically se-
+lected using simple heuristics that poten-
+tially leave much room for improvement.
+In this paper, we present a technique for
+selecting the phrase pairs to include in
+phrase translation tables based on their es-
+timated quality according to a translation
+model. This method not only reduces the
+size of the phrase translation table, but
+also improves translation quality as mea-
+sured by the BLEU metric.
+1 

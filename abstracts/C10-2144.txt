@@ -1,0 +1,19 @@
+
+We present a general methodology for ex-
+tracting multi-word expressions (of vari-
+ous types), along with their translations,
+from small parallel corpora. We auto-
+matically align the parallel corpus and fo-
+cus on misalignments; these typically in-
+dicate expressions in the source language
+that are translated to the target in a non-
+compositional way. We then use a large
+monolingual corpus to rank and filter the
+results. Evaluation of the quality of the ex-
+traction algorithm reveals significant im-
+provements over na??ve alignment-based
+methods. External evaluation shows an
+improvement in the performance of ma-
+chine translation that uses the extracted
+dictionary.
+1 

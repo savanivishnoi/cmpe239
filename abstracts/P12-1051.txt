@@ -1,0 +1,19 @@
+
+Many semantic parsing models use tree trans-
+formations to map between natural language
+and meaning representation. However, while
+tree transformations are central to several
+state-of-the-art approaches, little use has been
+made of the rich literature on tree automata.
+This paper makes the connection concrete
+with a tree transducer based semantic parsing
+model and suggests that other models can be
+interpreted in a similar framework, increasing
+the generality of their contributions. In par-
+ticular, this paper further introduces a varia-
+tional Bayesian inference algorithm that is ap-
+plicable to a wide class of tree transducers,
+producing state-of-the-art semantic parsing re-
+sults while remaining applicable to any do-
+main employing probabilistic tree transducers.
+1 

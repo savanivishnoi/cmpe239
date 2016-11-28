@@ -1,0 +1,16 @@
+
+Lexicons of word difficulty are useful for var-
+ious educational applications, including read-
+ability classification and text simplification. In
+this work, we explore automatic creation of
+these lexicons using methods which go beyond
+simple term frequency, but without relying on
+age-graded texts. In particular, we derive infor-
+mation for each word type from the readability
+of the web documents they appear in and the
+words they co-occur with, linearly combining
+these various features. We show the efficacy of
+this approach by comparing our lexicon with an
+existing coarse-grained, low-coverage resource
+and a new crowdsourced annotation.
+1 

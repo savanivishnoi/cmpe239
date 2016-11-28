@@ -1,0 +1,16 @@
+
+Natural Language Generation (NLG) systems
+often use a pipeline architecture for sequen-
+tial decision making. Recent studies how-
+ever have shown that treating NLG decisions
+jointly rather than in isolation can improve the
+overall performance of systems. We present
+a joint learning framework based on Hierar-
+chical Reinforcement Learning (HRL) which
+uses graphical models for surface realisation.
+Our focus will be on a comparison of Bayesian
+Networks and HMMs in terms of user satis-
+faction and naturalness. While the former per-
+form best in isolation, the latter present a scal-
+able alternative within joint systems.
+1 

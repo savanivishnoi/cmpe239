@@ -1,0 +1,18 @@
+
+This paper describes a method for checking
+the acceptability of paraphrases in context.
+We use the Google n-gram data and a CCG
+parser to certify the paraphrasing grammati-
+cality and fluency. We collect a corpus of hu-
+man judgements to evaluate our system. The
+ultimate goal of our work is to integrate text
+paraphrasing into a Linguistic Steganography
+system, by using paraphrases to hide informa-
+tion in a cover text. We propose automati-
+cally generated paraphrases as a new and use-
+ful source of transformations for Linguistic
+Steganography, and show that our method for
+checking paraphrases is effective at maintain-
+ing a high level of imperceptibility, which is
+crucial for effective steganography.
+1 

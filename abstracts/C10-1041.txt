@@ -1,0 +1,18 @@
+ 
+This paper makes three significant extensions to a 
+noisy channel speller designed for standard writ-
+ten text to target the challenging domain of search 
+queries. First, the noisy channel model is sub-
+sumed by a more general ranker, which allows a 
+variety of features to be easily incorporated. Se-
+cond, a distributed infrastructure is proposed for 
+training and applying Web scale n-gram language 
+models. Third, a new phrase-based error model is 
+presented. This model places a probability distri-
+bution over transformations between multi-word 
+phrases, and is estimated using large amounts of 
+query-correction pairs derived from search logs. 
+Experiments show that each of these extensions 
+leads to significant improvements over the state-
+of-the-art baseline methods. 
+1 

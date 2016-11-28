@@ -1,0 +1,15 @@
+ 
+Context sensitive rewrite rules have been 
+widely used in several areas of natural 
+language processing, including syntax, 
+morphology, phonology and speech pro- 
+cessing. Kaplan and Kay, Karttunen, 
+and Mohri & Sproat have given vari- 
+ous algorithms to compile such rewrite 
+rules into finite-state transducers. The 
+present paper extends this work by al- 
+lowing a limited form of backreferencing 
+in such rules. The explicit use of backref- 
+erencing leads to more elegant and gen- 
+eral solutions. 
+1 

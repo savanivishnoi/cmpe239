@@ -1,0 +1,30 @@
+
+Microblogging websites such as Twitter
+offer a wealth of insight into a popu-
+lation?s current mood. Automated ap-
+proaches to identify general sentiment to-
+ward a particular topic often perform two
+steps: Topic Identification and Sentiment
+Analysis. Topic Identification first identi-
+fies tweets that are relevant to a desired
+topic (e.g., a politician or event), and Sen-
+timent Analysis extracts each tweet?s atti-
+tude toward the topic. Many techniques for
+Topic Identification simply involve select-
+ing tweets using a keyword search. Here,
+we present an approach that instead uses
+distant supervision to train a classifier on
+the tweets returned by the search. We show
+that distant supervision leads to improved
+performance in the Topic Identification task
+as well in the downstream Sentiment Anal-
+ysis stage. We then use a system that incor-
+porates distant supervision into both stages
+to analyze the sentiment toward President
+Obama expressed in a dataset of tweets.
+Our results better correlate with Gallup?s
+Presidential Job Approval polls than pre-
+vious work. Finally, we discover a sur-
+prising baseline that outperforms previous
+work without a Topic Identification stage.
+1 

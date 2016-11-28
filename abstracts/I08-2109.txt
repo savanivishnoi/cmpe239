@@ -1,0 +1,14 @@
+
+Grammar-driven convolution tree kernel
+(GTK) has shown promising results for se-
+mantic role labeling (SRL). However, the
+time complexity of computing the GTK is
+exponential in theory. In order to speed
+up the computing process, we design two
+fast grammar-driven convolution tree kernel
+(FGTK) algorithms, which can compute the
+GTK in polynomial time. Experimental re-
+sults on the CoNLL-2005 SRL data show
+that our two FGTK algorithms are much
+faster than the GTK.
+1 

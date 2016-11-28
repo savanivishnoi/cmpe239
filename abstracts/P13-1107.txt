@@ -1,0 +1,21 @@
+
+In some societies, internet users have to
+create information morphs (e.g. ?Peace
+West King? to refer to ?Bo Xilai?) to avoid
+active censorship or achieve other com-
+munication goals. In this paper we aim
+to solve a new problem of resolving en-
+tity morphs to their real targets. We ex-
+ploit temporal constraints to collect cross-
+source comparable corpora relevant to any
+given morph query and identify target can-
+didates. Then we propose various novel
+similarity measurements including surface
+features, meta-path based semantic fea-
+tures and social correlation features and
+combine them in a learning-to-rank frame-
+work. Experimental results on Chinese
+Sina Weibo data demonstrate that our ap-
+proach is promising and significantly out-
+performs baseline methods1.
+1 

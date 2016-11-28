@@ -1,0 +1,23 @@
+
+Neurosemantics aims to learn the mapping
+between concepts and the neural activity
+which they elicit during neuroimaging ex-
+periments. Different approaches have been
+used to represent individual concepts, but
+current state-of-the-art techniques require
+extensive manual intervention to scale to
+arbitrary words and domains. To over-
+come this challenge, we initiate a system-
+atic comparison of automatically-derived
+corpus representations, based on various
+types of textual co-occurrence. We find
+that dependency parse-based features are
+the most effective, achieving accuracies
+similar to the leading semi-manual ap-
+proaches and higher than any published
+for a corpus-based model. We also find
+that simple word features enriched with
+directional information provide a close-to-
+optimal solution at much lower computa-
+tional cost.
+1 

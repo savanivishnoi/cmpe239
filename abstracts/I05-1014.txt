@@ -1,0 +1,9 @@
+. We give a detailed account of an algorithm for efficient tactical gener-
+ation from underspecified logical-form semantics, using a wide-coverage gram-
+mar and a corpus of real-world target utterances. Some earlier claims about chart
+realization are critically reviewed and corrected in the light of a series of practical
+experiments. As well as a set of algorithmic refinements, we present two novel
+techniques: the integration of subsumption-based local ambiguity factoring, and
+a procedure to selectively unpack the generation forest according to a probability
+distribution given by a conditional, discriminative model.
+1 

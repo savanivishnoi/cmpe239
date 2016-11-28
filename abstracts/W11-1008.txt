@@ -1,0 +1,17 @@
+
+We show that reifying the rules from hyper-
+edge weights to first-class graph nodes au-
+tomatically gives us rule expectations in any
+kind of grammar expressible as a deductive
+system, without any explicit algorithm for cal-
+culating rule expectations (such as the inside-
+outside algorithm). This gives us expecta-
+tion maximization training for any grammar
+class with a parsing algorithm that can be
+stated as a deductive system, for free. Having
+such a framework in place accelerates turn-
+over time for experimenting with new gram-
+mar classes and parsing algorithms?to imple-
+ment a grammar learner, only the parse forest
+construction has to be implemented.
+1 

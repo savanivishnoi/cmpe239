@@ -1,0 +1,21 @@
+
+We describe a substitution-based system for
+hybrid machine translation (MT) that has been
+extended with machine learning components
+controlling its phrase selection. The approach
+is based on a rule-based MT (RBMT) system
+which creates template translations. Based
+on the rule-based generation parse tree and
+target-to-target algnments, we identify the set
+of ?interesting? translation candidates from
+one or more translation engines which could
+be substituted into our translation templates.
+The substitution process is either controlled by
+the output from a binary classifier trained on
+feature vectors from the different MT engines,
+or it is depending on weights for the decision
+factors, which have been tuned using MERT.
+We are able to observe improvements in terms
+of BLEU scores over a baseline version of the
+hybrid system.
+1 

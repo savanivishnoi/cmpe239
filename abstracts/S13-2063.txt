@@ -1,0 +1,21 @@
+
+This paper describes our system for participat-
+ing SemEval2013 Task2-B (Kozareva et al,
+2013): Sentiment Analysis in Twitter. Given
+a message, our system classifies whether the
+message is positive, negative or neutral senti-
+ment. It uses a co-occurrence rate model. The
+training data are constrained to the data pro-
+vided by the task organizers (No other tweet
+data are used). We consider 9 types of fea-
+tures and use a subset of them in our submitted
+system. To see the contribution of each type of
+features, we do experimental study on features
+by leaving one type of features out each time.
+Results suggest that unigrams are the most im-
+portant features, bigrams and POS tags seem
+not helpful, and stopwords should be retained
+to achieve the best results. The overall results
+of our system are promising regarding the con-
+strained features and data we use.
+1 

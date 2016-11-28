@@ -1,0 +1,19 @@
+
+This paper investigates techniques to au-
+tomatically construct training data from
+social Q&A collections such as Yahoo!
+Answer to support a machine learning-
+based complex QA system1. We extract
+cue expressions for each type of question
+from collected training data and build
+question-type-specific classifiers to im-
+prove complex QA system. Experiments
+on 10 types of complex Chinese ques-
+tions verify that it is effective to mine
+knowledge from social Q&A collections
+for answering complex questions, for in-
+stance, the F3 improvement of our sys-
+tem over the baseline and translation-
+based model reaches 7.9% and 5.1%, re-
+spectively.
+1 

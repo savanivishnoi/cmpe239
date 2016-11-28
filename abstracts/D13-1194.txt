@@ -1,0 +1,24 @@
+
+This short paper presents a pilot study in-
+vestigating the training of a standard Seman-
+tic Role Labeling (SRL) system on product
+reviews for the new task of detecting com-
+parisons. An (opinionated) comparison con-
+sists of a comparative ?predicate? and up to
+three ?arguments?: the entity evaluated posi-
+tively, the entity evaluated negatively, and the
+aspect under which the comparison is made.
+In user-generated product reviews, the ?predi-
+cate? and ?arguments? are expressed in highly
+heterogeneous ways; but since the elements
+are textually annotated in existing datasets,
+SRL is technically applicable. We address the
+interesting question how well training an out-
+of-the-box SRL model works for English data.
+We observe that even without any feature en-
+gineering or other major adaptions to our task,
+the system outperforms a reasonable heuristic
+baseline in all steps (predicate identification,
+argument identification and argument classifi-
+cation) and in three different datasets.
+1 

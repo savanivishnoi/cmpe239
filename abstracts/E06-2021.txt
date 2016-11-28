@@ -1,0 +1,29 @@
+
+This paper deals with the problem
+of recognizing and extracting acronym-
+definition pairs in Swedish medical texts.
+This project applies a rule-based method
+to solve the acronym recognition task and
+compares and evaluates the results of dif-
+ferent machine learning algorithms on the
+same task. The method proposed is based
+on the approach that acronym-definition
+pairs follow a set of patterns and other
+regularities that can be usefully applied
+for the acronym identification task. Su-
+pervised machine learning was applied to
+monitor the performance of the rule-based
+method, using Memory Based Learning
+(MBL). The rule-based algorithm was
+evaluated on a hand tagged acronym cor-
+pus and performance was measured using
+standard measures recall, precision and f-
+score. The results show that performance
+could further improve by increasing the
+training set and modifying the input set-
+tings for the machine learning algorithms.
+An analysis of the errors produced indi-
+cates that further improvement of the rule-
+based method requires the use of syntactic
+information and textual pre-processing.
+1 

@@ -1,0 +1,15 @@
+. This paper suggests a methodology which is aimed to extract the 
+terminologically relevant collocations for translation purposes. Our basic idea is 
+to use a hybrid method which combines the statistical method and linguistic 
+rules. The extraction system used in our work operated at three steps: (1) 
+Tokenization and POS tagging of the corpus; (2) Extraction of multi-word units 
+using statistical measure; (3) Linguistic filtering to make use of syntactic 
+patterns and stop-word list. As a result, hybrid method using linguistic filters 
+proved to be a suitable method for selecting terminological collocations, it has 
+considerably improved the precision of the extraction which is much higher 
+than that of purely statistical method. In our test, hybrid method combining 
+?Log-likelihood ratio? and ?linguistic rules? had the best performance in the 
+extraction. We believe that terminological collocations and phrases extracted in 
+this way, could be used effectively either to supplement existing terminological 
+collections or to be used in addition to traditional reference works. 
+1   

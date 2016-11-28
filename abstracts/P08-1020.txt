@@ -1,0 +1,24 @@
+
+Previous work on statistical language gen-
+eration has primarily focused on grammat-
+icality and naturalness, scoring generation
+possibilities according to a language model
+or user feedback. More recent work has
+investigated data-driven techniques for con-
+trolling linguistic style without overgenera-
+tion, by reproducing variation dimensions ex-
+tracted from corpora. Another line of work
+has produced handcrafted rule-based systems
+to control specific stylistic dimensions, such
+as politeness and personality. This paper
+describes a novel approach that automati-
+cally learns to produce recognisable varia-
+tion along a meaningful stylistic dimension?
+personality?without the computational cost
+incurred by overgeneration techniques. We
+present the first evaluation of a data-driven
+generation method that projects multiple per-
+sonality traits simultaneously and on a contin-
+uous scale. We compare our performance to a
+rule-based generator in the same domain.
+1 

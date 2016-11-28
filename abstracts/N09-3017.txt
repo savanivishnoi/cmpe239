@@ -1,0 +1,15 @@
+
+In this paper, we present a supervised classifi-
+cation approach for disambiguation of prepo-
+sition senses. We use the SemEval 2007
+Preposition Sense Disambiguation datasets to
+evaluate our system and compare its results to
+those of the systems participating in the work-
+shop. We derived linguistically motivated fea-
+tures from both sides of the preposition. In-
+stead of restricting these to a fixed window
+size, we utilized the phrase structure. Testing
+with five different classifiers, we can report an
+increased accuracy that outperforms the best
+system in the SemEval task.
+1 

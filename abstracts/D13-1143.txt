@@ -1,0 +1,21 @@
+
+Sentence completion is a challenging seman-
+tic modeling task in which models must
+choose the most appropriate word from a
+given set to complete a sentence. Although
+a variety of language models have been ap-
+plied to this task in previous work, none of the
+existing approaches incorporate syntactic in-
+formation. In this paper we propose to tackle
+this task using a pair of simple language mod-
+els in which the probability of a sentence is
+estimated as the probability of the lexicalisa-
+tion of a given syntactic dependency tree. We
+apply our approach to the Microsoft Research
+Sentence Completion Challenge and show that
+it improves on n-gram language models by 8.7
+percentage points, achieving the highest accu-
+racy reported to date apart from neural lan-
+guage models that are more complex and ex-
+pensive to train.
+1 

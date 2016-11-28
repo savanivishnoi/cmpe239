@@ -1,0 +1,21 @@
+
+The lack of internal information of Chinese
+synthetic words has become a crucial prob-
+lem for Chinese morphological analysis sys-
+tems which will face various needs of seg-
+mentation standards for upper NLP applica-
+tions in the future. In this paper, we first
+categorize Chinese synthetic words into sev-
+eral types according to their inside semantic
+and syntactic structure, and then propose a
+method to represent these inside information
+of word by applying a tree-based structure.
+Then we try to automatically identify the in-
+ner morphological structure of 3-character
+synthetic words by using a large corpus and
+try to add syntactic tags to their internal
+structure. We believe that this tree-based
+word internal information could be useful
+in specifying a Chinese synthetic word seg-
+mentation standard.
+1 

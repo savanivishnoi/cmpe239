@@ -1,0 +1,18 @@
+
+This  paper  describes  the  architecture  of  an 
+encoding system which aim is to be implemented 
+as  a  coding  help  at  the  Cliniques  universtaires  
+Saint-Luc,  a  hospital  in  Brussels.  This  paper 
+focuses  on  machine  learning  methods,  more 
+specifically, on the appropriate set of attributes to 
+be chosen in order to optimize the results of these 
+methods.  A  series  of  four  experiments  was 
+conducted  on  a  baseline  method:  Na?ve  Bayes 
+with varying sets of attributes. These experiments 
+showed that a first step consisting in the extraction 
+of   information  to  be  coded  (such  as  diseases, 
+procedures,  aggravating factors, etc.) is essential. 
+It  also demonstrated the importance of stemming 
+features.  Restraining  the  classes  to  categories 
+resulted in a recall of  81.1 %.
+1 

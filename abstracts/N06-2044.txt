@@ -1,0 +1,18 @@
+
+We report on a novel approach to gener-
+ating strategies for spoken dialogue sys-
+tems. We present a series of experiments
+that illustrate how an evolutionary rein-
+forcement learning algorithm can produce
+strategies that are both optimal and easily
+inspectable by human developers. Our ex-
+perimental strategies achieve a mean per-
+formance of 98.9% with respect to a pre-
+defined evaluation metric. Our approach
+also produces a dramatic reduction in
+strategy size when compared with conven-
+tional reinforcement learning techniques
+(87% in one experiment). We conclude
+that this algorithm can be used to evolve
+optimal inspectable dialogue strategies.
+1 

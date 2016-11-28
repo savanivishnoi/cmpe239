@@ -1,0 +1,25 @@
+ Model of Incremental Dialogue Processing
+David Schlangen
+Department of Linguistics
+University of Potsdam, Germany
+das@ling.uni-potsdam.de
+Gabriel Skantze?
+Dept. of Speech, Music and Hearing
+KTH, Stockholm, Sweden
+gabriel@speech.kth.se
+Abstract
+We present a general model and concep-
+tual framework for specifying architec-
+tures for incremental processing in dia-
+logue systems, in particular with respect
+to the topology of the network of modules
+that make up the system, the way informa-
+tion flows through this network, how in-
+formation increments are ?packaged?, and
+how these increments are processed by the
+modules. This model enables the precise
+specification of incremental systems and
+hence facilitates detailed comparisons be-
+tween systems, as well as giving guidance
+on designing new systems.
+1 

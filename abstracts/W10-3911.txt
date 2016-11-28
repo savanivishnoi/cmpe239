@@ -1,0 +1,30 @@
+ 
+The rapid spread of electronic health 
+records raised an interest to large-scale 
+information extraction from clinical 
+texts. Considering such a background, 
+we are developing a method that can 
+extract adverse drug event and effect 
+(adverse?effect) relations from massive 
+clinical records. Adverse?effect rela-
+tions share some features with relations 
+proposed in previous relation extrac-
+tion studies, but they also have unique 
+characteristics. Adverse?effect rela-
+tions are usually uncertain. Not even 
+medical experts can usually determine 
+whether a symptom that arises after a 
+medication represents an adverse?
+effect relation or not. We propose a 
+method to extract adverse?effect rela-
+tions using a machine-learning tech-
+nique with dependency features. We 
+performed experiments to extract ad-
+verse?effect relations from 2,577 clini-
+cal texts, and obtained F1-score of 
+37.54 with an optimal parameters and 
+F1-score of 34.90 with automatically 
+tuned parameters. The results also 
+show that dependency features increase 
+the extraction F1-score by 3.59.  
+1 

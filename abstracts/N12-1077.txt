@@ -1,0 +1,15 @@
+
+Noticing that different information sources of-
+ten provide complementary coverage of word
+sense and meaning, we propose a simple and
+yet effective strategy for measuring lexical se-
+mantics. Our model consists of a committee
+of vector space models built on a text cor-
+pus, Web search results and thesauruses, and
+measures the semantic word relatedness us-
+ing the averaged cosine similarity scores. De-
+spite its simplicity, our system correlates with
+human judgements better or similarly com-
+pared to existing methods on several bench-
+mark datasets, including WordSim353.
+1 

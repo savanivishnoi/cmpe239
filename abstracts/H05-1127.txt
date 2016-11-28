@@ -1,0 +1,22 @@
+
+This paper describes an application of re-
+inforcement learning to determine a dia-
+log policy for a complex collaborative task
+where policies for both the system and a
+proxy for a user of the system are learned
+simultaneously. With this approach a use-
+ful dialog policy is learned without the
+drawbacks of other approaches that re-
+quire significant human interaction. The
+specific task that the agents were trained
+on was chosen for its complexity and re-
+quirement that both conversants bring task
+knowledge to the interaction, thus ensur-
+ing its collaborative nature. The results of
+our experiment show that you can use re-
+inforcement learning to create an effective
+dialog policy, which employs a mixed ini-
+tiative strategy, without the drawbacks of
+large amounts of data or significant human
+input.
+1 

@@ -1,0 +1,15 @@
+
+In this paper, we describe our system for the
+SemEval-2013 Task 2, Sentiment Analysis in
+Twitter. We formed features that take into ac-
+count the context of the expression and take a
+supervised approach towards subjectivity and
+polarity classification. Experiments were per-
+formed on the features to find out whether
+they were more suited for subjectivity or po-
+larity Classification. We tested our model for
+sentiment polarity classification on Twitter as
+well as SMS chat expressions, analyzed their
+F-measure scores and drew some interesting
+conclusions from them.
+1 

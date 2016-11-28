@@ -1,0 +1,29 @@
+ 
+Voice over IP and the open source technologies are 
+becoming popular choices for organizations. 
+However, while accessing the VoiceXML gateways 
+these systems fail to attract the global users 
+economically. The objective of this paper is to 
+demonstrate how an existing web application can be 
+modified using VoiceXML to enable non-visual 
+access from any phone. Moreover, we unleash a way 
+for linking an existing PSTN-based phone line to a 
+VoiceXML gateway even though the voice service 
+provider (VSP) does not provide a local 
+geographical number to global customers to access 
+the application. In addition, we introduce an 
+economical way for small sized businesses to 
+overcome the high cost of setting up and using a 
+commercial VoiceXML gateway. The method is 
+based on Asterisk server. In order to elucidate the 
+entire process, we present a sample Package 
+Tracking System application, which is based on an 
+existing website and provides the same functionality 
+as the website does. We also present an online 
+demonstration, which provides global access to 
+commercial voice platforms (i.e. Voxeo, Tellme 
+Studio, Bevocal and DemandVoice). This paper also 
+discusses various scenarios in which spoken 
+interaction can play a significant role. 
+ 
+1    

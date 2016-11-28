@@ -1,0 +1,15 @@
+
+Natural language questions have become pop-
+ular in web search. However, various ques-
+tions can be formulated to convey the same
+information need, which poses a great chal-
+lenge to search systems. In this paper, we au-
+tomatically mined 5w1h question reformula-
+tion patterns from large scale search log data.
+The question reformulations generated from
+these patterns are further incorporated into the
+retrieval model. Experiments show that us-
+ing question reformulation patterns can sig-
+nificantly improve the search performance of
+natural language questions.
+1 

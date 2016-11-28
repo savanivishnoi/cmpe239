@@ -1,0 +1,13 @@
+
+This paper investigates the problem of boot-
+strapping a statistical dialogue manager with-
+out access to training data and proposes a new
+probabilistic agenda-based method for simu-
+lating user behaviour. In experiments with a
+statistical POMDP dialogue system, the simu-
+lator was realistic enough to successfully test
+the prototype system and train a dialogue pol-
+icy. An extensive study with human subjects
+showed that the learned policy was highly com-
+petitive, with task completion rates above 90%.
+1 Background and 

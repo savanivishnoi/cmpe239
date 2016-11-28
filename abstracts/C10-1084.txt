@@ -1,0 +1,13 @@
+
+We propose an unsupervised approach uti-
+lizing only raw corpora to enhance mor-
+phological alignment involving highly in-
+flected languages. Our method focuses on
+closed-class morphemes, modeling their
+influence on nearby words. Our language-
+independent model recovers important
+links missing in the IBM Model 4 align-
+ment and demonstrates improved end-to-
+end translations for English-Finnish and
+English-Hungarian.
+1 

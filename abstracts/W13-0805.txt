@@ -1,0 +1,29 @@
+ion
+Levels for Statistical Machine Translation
+Teresa Herrmann, Jan Niehues, Alex Waibel
+Institute for Anthropomatics
+Karlsruhe Institute of Technology
+Karlsruhe, Germany
+{teresa.herrmann,jan.niehues,alexander.waibel}@kit.edu
+Abstract
+We describe a novel approach to combin-
+ing lexicalized, POS-based and syntactic tree-
+based word reordering in a phrase-based ma-
+chine translation system. Our results show
+that each of the presented reordering meth-
+ods leads to improved translation quality on its
+own. The strengths however can be combined
+to achieve further improvements. We present
+experiments on German-English and German-
+French translation. We report improvements
+of 0.7 BLEU points by adding tree-based and
+lexicalized reordering. Up to 1.1 BLEU points
+can be gained by POS and tree-based reorder-
+ing over a baseline with lexicalized reorder-
+ing. A human analysis, comparing subjec-
+tive translation quality as well as a detailed er-
+ror analysis show the impact of our presented
+tree-based rules in terms of improved sentence
+quality and reduction of errors related to miss-
+ing verbs and verb positions.
+1 

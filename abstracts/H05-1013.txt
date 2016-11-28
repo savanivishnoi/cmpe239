@@ -1,0 +1,21 @@
+
+Entity detection and tracking (EDT) is
+the task of identifying textual mentions
+of real-world entities in documents, ex-
+tending the named entity detection and
+coreference resolution task by consider-
+ing mentions other than names (pronouns,
+definite descriptions, etc.). Like NE tag-
+ging and coreference resolution, most so-
+lutions to the EDT task separate out the
+mention detection aspect from the corefer-
+ence aspect. By doing so, these solutions
+are limited to using only local features for
+learning. In contrast, by modeling both
+aspects of the EDT task simultaneously,
+we are able to learn using highly com-
+plex, non-local features. We develop a
+new joint EDT model and explore the util-
+ity of many features, demonstrating their
+effectiveness on this task.
+1 

@@ -1,0 +1,20 @@
+
+The paper presents a data-driven approach to infor-
+mation extraction (viewed as template lling) using
+the structured language model (SLM) as a statistical
+parser. The task of template lling is cast as con-
+strained parsing using the SLM. The model is auto-
+matically trained from a set of sentences annotated
+with frame/slot labels and spans. Training pro-
+ceeds in stages: rst a constrained syntactic parser
+is trained such that the parses on training data meet
+the specied semantic spans, then the non-terminal
+labels are enriched to contain semantic information
+and nally a constrained syntactic+semantic parser
+is trained on the parse trees resulting from the pre-
+vious stage. Despite the small amount of training
+data used, the model is shown to outperform the
+slot level accuracy of a simple semantic grammar
+authored manually for the MiPad | personal infor-
+mation management | task.
+1 

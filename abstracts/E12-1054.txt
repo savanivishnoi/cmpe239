@@ -1,0 +1,21 @@
+
+We evaluate measures of contextual fitness
+on the task of detecting real-word spelling
+errors. For that purpose, we extract nat-
+urally occurring errors and their contexts
+from the Wikipedia revision history. We
+show that such natural errors are better
+suited for evaluation than the previously
+used artificially created errors. In partic-
+ular, the precision of statistical methods
+has been largely over-estimated, while the
+precision of knowledge-based approaches
+has been under-estimated. Additionally, we
+show that knowledge-based approaches can
+be improved by using semantic relatedness
+measures that make use of knowledge be-
+yond classical taxonomic relations. Finally,
+we show that statistical and knowledge-
+based methods can be combined for in-
+creased performance.
+1 

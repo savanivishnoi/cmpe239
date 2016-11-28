@@ -1,0 +1,14 @@
+
+We develop a novel generative model of con-
+versation that jointly captures both the top-
+ical content and the speech act type asso-
+ciated with each utterance. Our model ex-
+presses both token emission and state tran-
+sition probabilities as log-linear functions of
+separate components corresponding to topics
+and speech acts (and their interactions). We
+apply this model to a dataset comprising anno-
+tated patient-physician visits and show that the
+proposed joint approach outperforms a base-
+line univariate model.
+1 

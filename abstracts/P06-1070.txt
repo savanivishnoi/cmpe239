@@ -1,0 +1,23 @@
+
+Cross-language Text Categorization is the
+task of assigning semantic classes to docu-
+ments written in a target language (e.g. En-
+glish) while the system is trained using la-
+beled documents in a source language (e.g.
+Italian).
+In this work we present many solutions ac-
+cording to the availability of bilingual re-
+sources, and we show that it is possible
+to deal with the problem even when no
+such resources are accessible. The core
+technique relies on the automatic acquisi-
+tion of Multilingual Domain Models from
+comparable corpora.
+Experiments show the effectiveness of our
+approach, providing a low cost solution for
+the Cross Language Text Categorization
+task. In particular, when bilingual dictio-
+naries are available the performance of the
+categorization gets close to that of mono-
+lingual text categorization.
+1 

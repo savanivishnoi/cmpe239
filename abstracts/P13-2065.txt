@@ -1,0 +1,22 @@
+
+Current translation models are mainly de-
+signed for languages with limited mor-
+phology, which are not readily applicable
+to agglutinative languages as the differ-
+ence in the way lexical forms are gener-
+ated. In this paper, we propose a nov-
+el approach for translating agglutinative
+languages by treating stems and affixes
+differently. We employ stem as the atomic
+translation unit to alleviate data spare-
+ness. In addition, we associate each stem-
+granularity translation rule with a distri-
+bution of related affixes, and select desir-
+able rules according to the similarity of
+their affix distributions with given spans to
+be translated. Experimental results show
+that our approach significantly improves
+the translation performance on tasks of
+translating from three Turkic languages to
+Chinese.
+1 

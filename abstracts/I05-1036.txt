@@ -1,0 +1,9 @@
+. This paper studies the problem of mining relational data
+hidden in natural language text. In particular, it approaches the relation
+classification problem with the strategy of transductive learning. Dif-
+ferent algorithms are presented and empirically evaluated on the ACE
+corpus. We show that transductive learners exploiting various lexical and
+syntactic features can achieve promising classification performance. More
+importantly, transductive learning performance can be significantly im-
+proved by using an induced similarity function.
+1 

@@ -1,0 +1,17 @@
+
+We present two novel paraphrase tests for
+automatically predicting the inherent se-
+mantic relation of a given compound nom-
+inalisation as one of subject, direct object,
+or prepositional object. We compare these
+to the usual verb?argument paraphrase test
+using corpus statistics, and frequencies ob-
+tained by scraping the Google search en-
+gine interface. We also implemented a
+more robust statistical measure than max-
+imum likelihood estimation ? the con-
+fidence interval. A significant reduction
+in data sparseness was achieved, but this
+alone is insufficient to provide a substan-
+tial performance improvement.
+1 

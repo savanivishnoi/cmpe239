@@ -1,0 +1,18 @@
+
+We address the task of computing vector space
+representations for the meaning of word oc-
+currences, which can vary widely according to
+context. This task is a crucial step towards a
+robust, vector-based compositional account of
+sentence meaning. We argue that existing mod-
+els for this task do not take syntactic structure
+sufficiently into account.
+We present a novel structured vector space
+model that addresses these issues by incorpo-
+rating the selectional preferences for words?
+argument positions. This makes it possible to
+integrate syntax into the computation of word
+meaning in context. In addition, the model per-
+forms at and above the state of the art for mod-
+eling the contextual adequacy of paraphrases.
+1 

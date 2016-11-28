@@ -1,0 +1,11 @@
+
+We present a new approach to dialogue man-
+agement based on the use of multiple, inter-
+connected policies. Instead of capturing the
+complexity of the interaction in a single large
+policy, the dialogue manager operates with a
+collection of small local policies combined
+concurrently and hierarchically. The meta-
+control of these policies relies on an activation
+vector updated before and after each turn.
+1 

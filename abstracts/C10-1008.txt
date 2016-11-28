@@ -1,0 +1,16 @@
+
+This paper considers the problem of
+document-level multi-way sentiment de-
+tection, proposing a hierarchical classifier
+algorithm that accounts for the inter-class
+similarity of tagged sentiment-bearing
+texts. This type of classifier also pro-
+vides a natural mechanism for reducing
+the feature space of the problem. Our re-
+sults show that this approach improves on
+state-of-the-art predictive performance for
+movie reviews with three-star and four-
+star ratings, while simultaneously reduc-
+ing training times and memory require-
+ments.
+1 

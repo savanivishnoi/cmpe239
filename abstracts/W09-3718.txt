@@ -1,0 +1,11 @@
+
+This paper proposes an extension of Dependency Tree Semantics (DTS),
+an underspecified logic originally proposed in [20], that uniformily im-
+plements constraints on Nested Quantification, Island Constraints and
+logical Redundancy. Unfortunately, this extension makes the complex-
+ity exponential in the number of NPs, in the worst cases. Nevertheless,
+we conducted an experiment on the Turin University Treebank [6], a
+Treebank of italian sentences annotated in a syntactic dependency for-
+mat, whose results seem to indicate that these cases are very rare in
+real sentences.
+1 

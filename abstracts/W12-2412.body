@@ -1,0 +1,27 @@
+
+Event extraction is a major focus of re-
+cent work in biomedical information extrac-
+tion. Despite substantial advances, many chal-
+lenges still remain for reliable automatic ex-
+traction of events from text. We introduce a
+new biomedical event extraction resource con-
+sisting of analyses automatically created by
+systems participating in the recent BioNLP
+Shared Task (ST) 2011. In providing for the
+first time the outputs of a broad set of state-of-
+the-art event extraction systems, this resource
+opens many new opportunities for studying
+aspects of event extraction, from the identifi-
+cation of common errors to the study of ef-
+fective approaches to combining the strengths
+of systems. We demonstrate these opportuni-
+ties through a multi-system analysis on three
+BioNLP ST 2011 main tasks, focusing on
+events that none of the systems can success-
+fully extract. We further argue for new per-
+spectives to the performance evaluation of do-
+main event extraction systems, considering a
+document-level, ?off-the-page? representation
+and evaluation to complement the mention-
+level evaluations pursued in most recent work.
+1 

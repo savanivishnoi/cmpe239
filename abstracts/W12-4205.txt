@@ -1,0 +1,22 @@
+
+In this paper, we present two dependency
+parser training methods appropriate for pars-
+ing outputs of statistical machine transla-
+tion (SMT), which pose problems to standard
+parsers due to their frequent ungrammatical-
+ity. We adapt the MST parser by exploiting
+additional features from the source language,
+and by introducing artificial grammatical er-
+rors in the parser training data, so that the
+training sentences resemble SMT output.
+We evaluate the modified parser on DEP-
+FIX, a system that improves English-Czech
+SMT outputs using automatic rule-based cor-
+rections of grammatical mistakes which re-
+quires parsed SMT output sentences as its in-
+put. Both parser modifications led to im-
+provements in BLEU score; their combina-
+tion was evaluated manually, showing a sta-
+tistically significant improvement of the trans-
+lation quality.
+1 

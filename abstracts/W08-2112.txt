@@ -1,0 +1,14 @@
+
+We present an incremental Bayesian model for
+the unsupervised learning of syntactic cate-
+gories from raw text. The model draws infor-
+mation from the distributional cues of words
+within an utterance, while explicitly bootstrap-
+ping its development on its own partially-
+learned knowledge of syntactic categories.
+Testing our model on actual child-directed
+data, we demonstrate that it is robust to noise,
+learns reasonable categories, manages lexical
+ambiguity, and in general shows learning be-
+haviours similar to those observed in children.
+1 

@@ -1,0 +1,23 @@
+
+Recent times have seen a tremendous growth
+in mobile based data services that allow peo-
+ple to use Short Message Service (SMS) to
+access these data services. In a multilin-
+gual society it is essential that data services
+that were developed for a specific language
+be made accessible through other local lan-
+guages also. In this paper, we present a ser-
+vice that allows a user to query a Frequently-
+Asked-Questions (FAQ) database built in a lo-
+cal language (Hindi) using Noisy SMS En-
+glish queries. The inherent noise in the SMS
+queries, along with the language mismatch
+makes this a challenging problem. We handle
+these two problems by formulating the query
+similarity over FAQ questions as a combina-
+torial search problem where the search space
+consists of combinations of dictionary varia-
+tions of the noisy query and its top-N transla-
+tions. We demonstrate the effectiveness of our
+approach on a real-life dataset.
+1 

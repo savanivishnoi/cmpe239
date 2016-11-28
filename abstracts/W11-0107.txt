@@ -1,0 +1,10 @@
+
+Abduction is a method for finding the best explanation for observations. Arguably
+the most advanced approach to abduction, especially for natural language processing, is
+weighted abduction, which uses logical formulas with costs to guide inference. But it
+has no clear probabilistic semantics. In this paper we propose an approach that imple-
+ments weighted abduction in Markov logic, which uses weighted first-order formulas to
+represent probabilistic knowledge, pointing toward a sound probabilistic semantics for
+weighted abduction. Application to a series of challenge problems shows the power and
+coverage of our approach.
+1 

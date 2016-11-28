@@ -1,0 +1,20 @@
+ 
+This article attempts to determine what ele- 
+ments of linguistic theory are used in statisti- 
+cal language learning, and why the extracted 
+language models look like they do. The study 
+indicates that some linguistic elements, uch as 
+the notion of a word, are simply too useful to 
+be ignored. The second most important factor 
+seems to be features inherited from the origi- 
+nal task for which the technique was used, for 
+example using hidden Markov models for part- 
+of-speech tagging, rather than speech recogni- 
+tion. The two remaining important factors are 
+properties of the runtime processing scheme 
+employing the extracted language model, and 
+the properties of the available corpus resources 
+to which the statistical learning techniques are 
+applied. Deliberate attempts to include lin- 
+guistic theory seem to end up in a fifth place. 
+1 

@@ -1,0 +1,15 @@
+ 
+We discuss combining knowledge-based (or 
+rule-based) and statistical part-of-speech 
+taggers. We use two mature taggers, 
+ENGCG and Xerox Tagger, to indepen- 
+dently tag the same text and combine the 
+results to produce a fully disambiguated 
+text. In a 27000 word test sample taken 
+from a previously unseen corpus we achieve 
+98.5 % accuracy. This paper presents the 
+data in detail. We describe the problems 
+we encountered in the course of combining 
+the two taggers and discuss the problem of 
+evaluating taggers. 
+1 

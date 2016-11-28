@@ -1,0 +1,22 @@
+
+In this paper, we describe our experiments on
+statistical word sense disambiguation (WSD)
+using two systems based on different ap-
+proaches: Na??ve Bayes on word tokens and Max-
+imum Entropy on local syntactic and seman-
+tic features. In the first approach, we consider
+a context window and a sub-window within it
+around the word to disambiguate. Within the
+outside window, only content words are con-
+sidered, but within the sub-window, all words
+are taken into account. Both window sizes are
+tuned by the system for each word to disam-
+biguate and accuracies of 75% and 67% were re-
+spectively obtained for coarse and fine grained
+evaluations. In the second system, sense res-
+olution is done using an approximate syntac-
+tic structure as well as semantics of neighbor-
+ing nouns as features to a Maximum Entropy
+learner. Accuracies of 70% and 63% were ob-
+tained for coarse and fine grained evaluations.
+1 

@@ -1,0 +1,20 @@
+
+We present a system for deciding whether
+a given sentence can be inferred from
+text. Each sentence is represented as a
+directed graph (extracted from a depen-
+dency parser) in which the nodes repre-
+sent words or phrases, and the links repre-
+sent syntactic and semantic relationships.
+We develop a learned graph matching ap-
+proach to approximate entailment using
+the amount of the sentence?s semantic
+content which is contained in the text. We
+present results on the Recognizing Textual
+Entailment dataset (Dagan et al, 2005),
+and show that our approach outperforms
+Bag-Of-Words and TF-IDF models. In ad-
+dition, we explore common sources of er-
+rors in our approach and how to remedy
+them.
+1 

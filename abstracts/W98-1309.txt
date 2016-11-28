@@ -1,0 +1,18 @@
+. We describe aconstraint-based morphological disambiguation system in which 
+individual constraint rules vote on matching morphological parses followed by its im- 
+plementation using finite state transducers. Voting constraint rules have a number of 
+desirable properties: The outcome of the disambiguation is independent of the order of 
+application of the local contextual constraint rules. Thus the rule developer is relieved 
+from worrying about conflicting rule sequencing. The approach can also combine statis- 
+tically and manually obtained constraints, and incorporate negative constraints hat rule 
+out certain patterns. The transducer implementation has a number of desirable proper- 
+ties compared to other finite state tagging and light parsing approaches, implemented 
+with automata intersection. The most important of these is that since constraints do 
+not remove parses there is no risk of an overzealous constraint "killing a sentence ~ by 
+removing all parses of a token during intersection. After a description of our approach 
+we present preliminary results from tagging the Wall Street Journal Corpus with this 
+approach. With about 400 statistically derived constraints and about 570 manual con- 
+straints, we can attain an accuracy of 97.82% on the training corpus and 97.29% on the 
+test corpus. We then describe a finite state implementation f our approach and discuss 
+various related issues. 
+1 

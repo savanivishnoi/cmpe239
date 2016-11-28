@@ -1,0 +1,15 @@
+ 
+We propose a dynamic programming 
+algorithm for calculaing the similarity 
+between two segmeuts of words of the same 
+language. The similarity is considered as a 
+vector whose coordinates refer to the levels 
+of analysis of the segments. This algorithm 
+is extremely efficient for retrieving the best 
+example in Translation Memory systems. 
+The calculus being constructive, it also gives 
+the correspondences between the words of 
+the two segments. This allows the extension 
+of Translation Memory systems towards 
+Example-based Machiue Translation. 
+\]

@@ -1,0 +1,21 @@
+ 
+The problem of automatically classifying the 
+gender of a blog author has important appli-
+cations in many commercial domains. Exist-
+ing systems mainly use features such as 
+words, word classes, and POS (part-of-
+speech) n-grams, for classification learning. 
+In this paper, we propose two new techniques 
+to improve the current result. The first tech-
+nique introduces a new class of features 
+which are variable length POS sequence pat-
+terns mined from the training data using a se-
+quence pattern mining algorithm. The second 
+technique is a new feature selection method 
+which is based on an ensemble of several fea-
+ture selection criteria and approaches. Empir-
+ical evaluation using a real-life blog data set 
+shows that these two techniques improve the 
+classification accuracy of the current state-of-
+the-art methods significantly.  
+1 

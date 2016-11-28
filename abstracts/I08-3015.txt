@@ -1,0 +1,25 @@
+ 
+ 
+A good POS tagger is a critical component 
+of a machine translation system and other 
+related NLP applications where an 
+appropriate POS tag will be assigned to 
+individual words in a collection of texts. 
+There is not enough POS tagged corpus 
+available in Manipuri language ruling out 
+machine learning approaches for a POS 
+tagger in the language. A morphology 
+driven Manipuri POS tagger that uses three 
+dictionaries containing root words, prefixes 
+and suffixes has been designed and 
+implemented using the affix information 
+irrespective of the context of the words. We 
+have tested the current POS tagger on 3784 
+sentences containing 10917 unique words. 
+The POS tagger demonstrated an accuracy 
+of 69%. Among the incorrectly tagged 31% 
+words, 23% were unknown words (includes 
+9% named entities) and 8% known words 
+were wrongly tagged.  
+ 
+1 

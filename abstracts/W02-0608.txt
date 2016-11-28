@@ -1,0 +1,16 @@
+
+We present a phonological probabilistic context-
+free grammar, which describes the word and syl-
+lable structure of German words. The grammar
+is trained on a large corpus by a simple super-
+vised method, and evaluated on a syllabification
+task achieving 96.88% word accuracy on word to-
+kens, and 90.33% on word types. We added rules
+for English phonemes to the grammar, and trained
+the enriched grammar on an English corpus. Both
+grammars are evaluated qualitatively showing that
+probabilistic context-free grammars can contribute
+linguistic knowledge to phonology. Our formal ap-
+proach is multilingual, while the training data is
+language-dependent.
+1 

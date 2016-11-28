@@ -1,0 +1,16 @@
+
+Document representation has a large im-
+pact on the performance of document re-
+trieval and clustering algorithms. We
+propose a hybrid document indexing
+scheme that combines the traditional bag-
+of-words representation with spectral em-
+bedding. This method accounts for the
+specifics of the document collection and
+also uses semantic similarity information
+based on a large scale statistical analysis.
+Clustering experiments showed improve-
+ments over the traditional tf-idf represen-
+tation and over the spectral methods based
+solely on the document collection.
+1 

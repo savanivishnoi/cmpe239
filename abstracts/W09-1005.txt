@@ -1,0 +1,21 @@
+
+GREAT is a finite-state toolkit which is
+devoted to Machine Translation and that
+learns structured models from bilingual
+data. The training procedure is based on
+grammatical inference techniques to ob-
+tain stochastic transducers that model both
+the structure of the languages and the re-
+lationship between them. The inference
+of grammars from natural language causes
+the models to become larger when a less
+restrictive task is involved; even more if
+a bilingual modelling is being considered.
+GREAT has been successful to implement
+the GIATI learning methodology, using
+different scalability issues to be able to
+deal with corpora of high volume of data.
+This is reported with experiments on the
+EuroParl corpus, which is a state-of-the-
+art task in Statistical Machine Translation.
+1 

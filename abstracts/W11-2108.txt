@@ -1,0 +1,16 @@
+
+SemPOS is an automatic metric of machine
+translation quality for Czech and English fo-
+cused on content words. It correlates well
+with human judgments but it is computation-
+ally costly and hard to adapt to other lan-
+guages because it relies on a deep-syntactic
+analysis of the system output and the refer-
+ence. To remedy this, we attempt at approxi-
+mating SemPOS using only tagger output and
+a few heuristics. At a little expense in corre-
+lation to human judgments, we can evaluate
+MT systems much faster. Additionally, we de-
+scribe our submission to the Tunable Metrics
+Task in WMT11.
+1 

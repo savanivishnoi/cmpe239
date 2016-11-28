@@ -1,0 +1,28 @@
+
+In this paper we describe Travatar, a
+forest-to-string machine translation (MT)
+engine based on tree transducers. It pro-
+vides an open-source C++ implementation
+for the entire forest-to-string MT pipeline,
+including rule extraction, tuning, decod-
+ing, and evaluation. There are a number
+of options for model training, and tuning
+includes advanced options such as hyper-
+graph MERT, and training of sparse fea-
+tures through online learning. The train-
+ing pipeline is modeled after that of the
+popular Moses decoder, so users famil-
+iar with Moses should be able to get
+started quickly. We perform a valida-
+tion experiment of the decoder on English-
+Japanese machine translation, and find that
+it is possible to achieve greater accuracy
+than translation using phrase-based and
+hierarchical-phrase-based translation. As
+auxiliary results, we also compare differ-
+ent syntactic parsers and alignment tech-
+niques that we tested in the process of de-
+veloping the decoder.
+Travatar is available under the LGPL at
+http://phontron.com/travatar
+1 

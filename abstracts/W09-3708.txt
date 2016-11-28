@@ -1,0 +1,13 @@
+
+Understanding mental states in narratives is an important aspect
+of human language comprehension. By ?mental states? we refer to
+beliefs, states of knowledge, points of view, and suppositions, all of
+which may change over time. In this paper, we propose an approach
+for automatically extracting and understanding multiple mental states
+in stories. Our model consists of two parts: (1) a parser that takes
+an English sentence and translates it to some semantic operations; (2)
+a mental-state inference engine that reads in the semantic operations
+and produces a situation model that represents the meaning of the
+sentence. We present the performance of the system on a corpus of
+children stories containing both fictional and non-fictional texts.
+1 

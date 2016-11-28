@@ -1,0 +1,21 @@
+ 
+Complex categories are caracteristic of unification grammars as for 
+example GPSG \[Shieber86a\]. They are sets of pairs of feature.s and 
+values. The unification, which can be applied to two or more 
+categories, is the essential operation. 
+The papers of \[Shieber85\], \[Barton85\] and \[Ristad86\] deal with the 
+influence of complex categories on the efficiency of the parsing 
+algorithm. This is one problem from using complex categories, 
+another one arises when using a constructive version of GPSG (see 
+\[Busemann/Hanensehild88\] in thisvolume). Namely that the appli- 
+cation of admissibility conditions, e.g. LP statements and FCRs 1, to 
+a local tree t is prevented because particular feature values of eat- 
+egories in t are not yet specified, but they will be instantiated later 
+somewhere else in the complete tree. Similar problems are described 
+? in \[Karttunen86\] for D-PATR. 
+This work describes the latter problem and will present a solution 
+working with computation, evaluation and propagation of 
+constraints within local trees (depth 1). The constraint evaluation 
+will reject local trees if the constraints of the subtrees of the 
+daughters are violated. 
+1 

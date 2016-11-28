@@ -1,0 +1,24 @@
+
+Visually and phonologically similar cha-
+racters are major contributing factors for 
+errors in Chinese text. By defining ap-
+propriate similarity measures that consid-
+er extended Cangjie codes, we can identi-
+fy visually similar characters within a 
+fraction of a second. Relying on the pro-
+nunciation information noted for individ-
+ual characters in Chinese lexicons, we 
+can compute a list of characters that are 
+phonologically similar to a given charac-
+ter. We collected 621 incorrect Chinese 
+words reported on the Internet, and ana-
+lyzed the causes of these errors. 83% of 
+these errors were related to phonological 
+similarity, and 48% of them were related 
+to visual similarity between the involved 
+characters. Generating the lists of phono-
+logically and visually similar characters, 
+our programs were able to contain more 
+than 90% of the incorrect characters in 
+the reported errors. 
+1 

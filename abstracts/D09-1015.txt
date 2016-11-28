@@ -1,0 +1,23 @@
+
+Many named entities contain other named
+entities inside them. Despite this fact, the
+field of named entity recognition has al-
+most entirely ignored nested named en-
+tity recognition, but due to technological,
+rather than ideological reasons. In this pa-
+per, we present a new technique for rec-
+ognizing nested named entities, by using
+a discriminative constituency parser. To
+train the model, we transform each sen-
+tence into a tree, with constituents for each
+named entity (and no other syntactic struc-
+ture). We present results on both news-
+paper and biomedical corpora which con-
+tain nested named entities. In three out
+of four sets of experiments, our model
+outperforms a standard semi-CRF on the
+more traditional top-level entities. At the
+same time, we improve the overall F-score
+by up to 30% over the flat model, which is
+unable to recover any nested entities.
+1 

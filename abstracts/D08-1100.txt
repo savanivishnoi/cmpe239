@@ -1,0 +1,31 @@
+ 
+We describe an approach for acquiring the 
+domain-specific dialog knowledge required to 
+configure a task-oriented dialog system that 
+uses human-human interaction data. The key 
+aspects of this problem are the design of a di-
+alog information representation and a learning 
+approach that supports capture of domain in-
+formation from in-domain dialogs. To 
+represent a dialog for a learning purpose, we 
+based our representation, the form-based di-
+alog structure representation, on an observa-
+ble structure. We show that this representation 
+is sufficient for modeling phenomena that oc-
+cur regularly in several dissimilar task-
+oriented domains, including information-
+access and problem-solving. With the goal of 
+ultimately reducing human annotation effort, 
+we examine the use of unsupervised learning 
+techniques in acquiring the components of the 
+form-based representation (i.e. task, subtask, 
+and concept). These techniques include statis-
+tical word clustering based on mutual infor-
+mation and Kullback-Liebler distance, 
+TextTiling, HMM-based segmentation, and 
+bisecting K-mean document clustering. With 
+some modifications to make these algorithms 
+more suitable for inferring the structure of a 
+spoken dialog, the unsupervised learning algo-
+rithms show promise. 
+1 

@@ -1,0 +1,24 @@
+
+We introduce a word segmentation ap-
+proach to languages where word bound-
+aries are not orthographically marked,
+with application to Phrase-Based Statis-
+tical Machine Translation (PB-SMT). In-
+stead of using manually segmented mono-
+lingual domain-specific corpora to train
+segmenters, we make use of bilingual cor-
+pora and statistical word alignment tech-
+niques. First of all, our approach is
+adapted for the specific translation task at
+hand by taking the corresponding source
+(target) language into account. Secondly,
+this approach does not rely on manu-
+ally segmented training data so that it
+can be automatically adapted for differ-
+ent domains. We evaluate the perfor-
+mance of our segmentation approach on
+PB-SMT tasks from two domains and
+demonstrate that our approach scores con-
+sistently among the best results across dif-
+ferent data conditions.
+1 

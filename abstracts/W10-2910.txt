@@ -1,0 +1,21 @@
+
+We demonstrate that relational features
+derived from dependency-syntactic and
+semantic role structures are useful for the
+task of detecting opinionated expressions
+in natural-language text, significantly im-
+proving over conventional models based
+on sequence labeling with local features.
+These features allow us to model the way
+opinionated expressions interact in a sen-
+tence over arbitrary distances.
+While the relational features make the pre-
+diction task more computationally expen-
+sive, we show that it can be tackled effec-
+tively by using a reranker. We evaluate
+a number of machine learning approaches
+for the reranker, and the best model re-
+sults in a 10-point absolute improvement
+in soft recall on the MPQA corpus, while
+decreasing precision only slightly.
+1 

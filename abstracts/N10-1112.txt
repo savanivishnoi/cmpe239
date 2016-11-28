@@ -1,0 +1,18 @@
+
+We describe a method of incorporating task-
+specific cost functions into standard condi-
+tional log-likelihood (CLL) training of linear
+structured prediction models. Recently intro-
+duced in the speech recognition community,
+we describe the method generally for struc-
+tured models, highlight connections to CLL
+and max-margin learning for structured pre-
+diction (Taskar et al, 2003), and show that
+the method optimizes a bound on risk. The
+approach is simple, efficient, and easy to im-
+plement, requiring very little change to an
+existing CLL implementation. We present
+experimental results comparing with several
+commonly-used methods for training struc-
+tured predictors for named-entity recognition.
+1 

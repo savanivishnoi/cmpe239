@@ -1,0 +1,20 @@
+
+We present two systems that select the
+most appropriate Spanish substitutes for
+a marked word in an English test sen-
+tence. These systems were official en-
+tries to the SemEval-2010 Cross-Lingual
+Lexical Substitution task. The first sys-
+tem, SWAT-E, finds Spanish substitutions
+by first finding English substitutions in
+the English sentence and then translating
+these substitutions into Spanish using an
+English-Spanish dictionary. The second
+system, SWAT-S, translates each English
+sentence into Spanish and then finds the
+Spanish substitutions in the Spanish sen-
+tence. Both systems exceeded the base-
+line and all other participating systems by
+a wide margin using one of the two official
+scoring metrics.
+1 

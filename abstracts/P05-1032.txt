@@ -1,0 +1,15 @@
+
+In this paper we describe a novel data
+structure for phrase-based statistical ma-
+chine translation which allows for the re-
+trieval of arbitrarily long phrases while si-
+multaneously using less memory than is
+required by current decoder implementa-
+tions. We detail the computational com-
+plexity and average retrieval times for
+looking up phrase translations in our suf-
+fix array-based data structure. We show
+how sampling can be used to reduce the
+retrieval time by orders of magnitude with
+no loss in translation quality.
+1 

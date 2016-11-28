@@ -1,0 +1,25 @@
+ 
+The goal of text categorization is to classify 
+documents into a certain number of pre- 
+defined categories. The previous works in 
+this area have used a large number of 
+labeled training doculnents for supervised 
+learning. One problem is that it is difficult to 
+create the labeled training documents. While 
+it is easy to collect the unlabeled ocuments, 
+it is not so easy to manually categorize them 
+for creating traiuing documents. In this 
+paper, we propose an unsupervised learning 
+method to overcome these difficulties. The 
+proposed lnethod divides the documents into 
+sentences, and categorizes each sentence 
+using keyword lists of each category and 
+sentence simihuity measure. And then, it 
+uses the categorized sentences for refining. 
+The proposed method shows a similar 
+degree of performance, compared with the 
+traditional supervised learning inethods. 
+Therefore, this method can be used in areas 
+where low-cost ext categorization is needed. 
+It also can be used for creating training 
+documents. 

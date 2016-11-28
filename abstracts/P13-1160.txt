@@ -1,0 +1,23 @@
+
+We propose a joint model for unsuper-
+vised induction of sentiment, aspect and
+discourse information and show that by in-
+corporating a notion of latent discourse re-
+lations in the model, we improve the pre-
+diction accuracy for aspect and sentiment
+polarity on the sub-sentential level. We
+deviate from the traditional view of dis-
+course, as we induce types of discourse re-
+lations and associated discourse cues rel-
+evant to the considered opinion analysis
+task; consequently, the induced discourse
+relations play the role of opinion and as-
+pect shifters. The quantitative analysis that
+we conducted indicated that the integra-
+tion of a discourse model increased the
+prediction accuracy results with respect to
+the discourse-agnostic approach and the
+qualitative analysis suggests that the in-
+duced representations encode a meaning-
+ful discourse structure.
+1 

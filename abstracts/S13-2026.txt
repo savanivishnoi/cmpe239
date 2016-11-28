@@ -1,0 +1,13 @@
+
+This paper describes the system submitted
+by the MELODI team for the SemEval-2013
+Task 4: Free Paraphrases of Noun Compounds
+(Hendrickx et al, 2013). Our approach com-
+bines the strength of an unsupervised distri-
+butional word space model with a supervised
+maximum-entropy classification model; the
+distributional model yields a feature represen-
+tation for a particular compound noun, which
+is subsequently used by the classifier to induce
+a number of appropriate paraphrases.
+1 

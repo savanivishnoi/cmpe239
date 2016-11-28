@@ -1,0 +1,19 @@
+
+Discriminative reranking is one method
+for constructing high-performance statis-
+tical parsers (Collins, 2000). A discrim-
+inative reranker requires a source of can-
+didate parses for each sentence. This pa-
+per describes a simple yet novel method
+for constructing sets of 50-best parses
+based on a coarse-to-fine generative parser
+(Charniak, 2000). This method gener-
+ates 50-best lists that are of substantially
+higher quality than previously obtainable.
+We used these parses as the input to a
+MaxEnt reranker (Johnson et al, 1999;
+Riezler et al, 2002) that selects the best
+parse from the set of parses for each sen-
+tence, obtaining an f-score of 91.0% on
+sentences of length 100 or less.
+1 

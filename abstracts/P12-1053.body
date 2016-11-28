@@ -1,0 +1,16 @@
+
+Recently, it was shown (KUHLMANN, SATTA:
+Tree-adjoining grammars are not closed un-
+der strong lexicalization. Comput. Linguist.,
+2012) that finitely ambiguous tree adjoining
+grammars cannot be transformed into a nor-
+mal form (preserving the generated tree lan-
+guage), in which each production contains a
+lexical symbol. A more powerful model, the
+simple context-free tree grammar, admits such
+a normal form. It can be effectively con-
+structed and the maximal rank of the non-
+terminals only increases by 1. Thus, simple
+context-free tree grammars strongly lexicalize
+tree adjoining grammars and themselves.
+1 

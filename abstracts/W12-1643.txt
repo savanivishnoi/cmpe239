@@ -1,0 +1,21 @@
+
+We present work on understanding natural lan-
+guage in a situated domain, that is, language
+that possibly refers to visually present enti-
+ties, in an incremental, word-by-word fashion.
+Such type of understanding is required in con-
+versational systems that need to act immedi-
+ately on language input, such as multi-modal
+systems or dialogue systems for robots. We
+explore a set of models specified as Markov
+Logic Networks, and show that a model that
+has access to information about the visual con-
+text of an utterance, its discourse context, as
+well as the linguistic structure of the utter-
+ance performs best. We explore its incremen-
+tal properties, and also its use in a joint pars-
+ing and understanding module. We conclude
+that MLNs offer a promising framework for
+specifying such models in a general, possibly
+domain-independent way.
+1 

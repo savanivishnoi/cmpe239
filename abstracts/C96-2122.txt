@@ -1,0 +1,12 @@
+ 
+The paper is a first attempt to fill a gap in the 
+dependency literature, by providing a 
+mathematical result on the complexity of 
+recognition with a dependency grammar. The 
+paper describes an improved Earley-type 
+recognizer with a complexity O(IGl2n3). The 
+improvement is due to a precompilation f the 
+dependency rules into parse tables, that determine 
+the conditions of applicability of two primary 
+actions, predict and scan, used in recognition. 
+1 

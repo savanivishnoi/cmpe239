@@ -1,0 +1,26 @@
+
+This paper presents our approach used for
+cross-lingual textual entailment task (task 8)
+organized within SemEval 2013. Cross-
+lingual textual entailment (CLTE) tries to de-
+tect the entailment relationship between two
+text fragments in different languages. We
+solved this problem in three steps. Firstly,
+we use a off-the-shelf machine translation
+(MT) tool to convert the two input texts into
+the same language. Then after performing a
+text preprocessing, we extract multiple feature
+types with respect to surface text and gram-
+mar. We also propose novel feature types
+regarding to sentence difference and seman-
+tic similarity based on our observations in the
+preliminary experiments. Finally, we adopt a
+multiclass SVM algorithm for classification.
+The results on the cross-lingual data collec-
+tions provided by SemEval 2013 show that (1)
+we can build portable and effective systems
+across languages using MT and multiple ef-
+fective features; (2) our systems achieve the
+best results among the participants on two test
+datasets, i.e., FRA-ENG and DEU-ENG.
+1 

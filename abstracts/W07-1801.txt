@@ -1,0 +1,14 @@
+
+This paper describes how grammar-based
+language models for speech recognition sys-
+tems can be generated from Grammatical
+Framework (GF) grammars. Context-free
+grammars and finite-state models can be
+generated in several formats: GSL, SRGS,
+JSGF, and HTK SLF. In addition, semantic
+interpretation code can be embedded in the
+generated context-free grammars. This en-
+ables rapid development of portable, multi-
+lingual and easily modifiable speech recog-
+nition applications.
+1 

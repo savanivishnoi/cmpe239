@@ -1,0 +1,14 @@
+ 
+There exist several methods of calculating a similar- 
+ity curve, or a sequence of similarity values, repre- 
+senting the lexical cohesion of successive text con- 
+stituents, e.g., paragraphs. Methods for deciding 
+the locations of fragment boundaries are, however, 
+scarce. We propose a fragmentation method based 
+on dynamic programming. The method is theoret- 
+ically sound and guaranteed to provide an optimal 
+splitting on the basis of a similarity curve, a pre- 
+ferred fragment length, and a cost function defined. 
+The method is especially useful when control on 
+fragment size is of importance. 
+1 

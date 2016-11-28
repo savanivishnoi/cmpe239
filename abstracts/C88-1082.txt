@@ -1,0 +1,22 @@
+ 
+This paper proposes an efficient l inguistic 
+processing strategy for speech recognition and 
+understanding using a dependency structure grammar. 
+The strategy includes parsing and phrase prediction 
+algorithms. After speech processing and phrase 
+recognition based on phoneme recognition, the parser 
+extracts the sentence with the best likelihood taking 
+account of the phonetic l ikelihood of phrase 
+candidates and the linguistic likelihood of the 
+semantic inter-phrase dependency relationships. A 
+fast parsing algorithm using breadth-first search is 
+also proposed. The predictor pre-selects the p}~.ase 
+candidates using transition rules combined with a 
+dependency structure to reduce the amount of phonetic 
+processing. The proposed linguistic processor has 
+been tested through speech recognition experiments. 
+The experimental results show that it greatly 
+increases the accuracy of speech recognitions, and 
+the breadth-first parsing algorithm and predictor 
+increase processing speed. 
+1. 

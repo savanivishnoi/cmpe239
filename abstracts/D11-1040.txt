@@ -1,0 +1,26 @@
+
+We investigate an important and challeng-
+ing problem in summary generation, i.e.,
+Evolutionary Trans-Temporal Summarization
+(ETTS), which generates news timelines from
+massive data on the Internet. ETTS greatly
+facilitates fast news browsing and knowl-
+edge comprehension, and hence is a neces-
+sity. Given the collection of time-stamped web
+documents related to the evolving news, ETTS
+aims to return news evolution along the time-
+line, consisting of individual but correlated
+summaries on each date. Existing summariza-
+tion algorithms fail to utilize trans-temporal
+characteristics among these component sum-
+maries. We propose to model trans-temporal
+correlations among component summaries for
+timelines, using inter-date and intra-date sen-
+tence dependencies, and present a novel com-
+bination. We develop experimental systems to
+compare 5 rival algorithms on 6 instinctively
+different datasets which amount to 10251 doc-
+uments. Evaluation results in ROUGE metrics
+indicate the effectiveness of the proposed ap-
+proach based on trans-temporal information.
+1 

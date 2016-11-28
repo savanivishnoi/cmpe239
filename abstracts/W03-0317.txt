@@ -1,0 +1,19 @@
+ 
+This paper presents a framework for extract-
+ing English and Chinese transliterated word 
+pairs from parallel texts. The approach is 
+based on the statistical machine transliteration 
+model to exploit the phonetic similarities be-
+tween English words and corresponding Chi-
+nese transliterations. For a given proper noun 
+in English, the proposed method extracts the 
+corresponding transliterated word from the 
+aligned text in Chinese. Under the proposed 
+approach, the parameters of the model are 
+automatically learned from a bilingual proper 
+name list. Experimental results show that the 
+average rates of word and character precision 
+are 86.0% and 94.4%, respectively. The rates 
+can be further improved with the addition of 
+simple linguistic processing. 
+1 

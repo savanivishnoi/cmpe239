@@ -1,0 +1,25 @@
+ 
+In this paper, we explore a CLIR-based  
+approach to construct large-scale Chi-
+nese-English comparable corpora, which 
+is valuable for translation knowledge 
+mining. The initial source and target 
+document sets are crawled from news 
+website and standardized uniformly. 
+Keywords are extracted from the source 
+document firstly, and then the extracted 
+keywords are translated and combined as 
+query words through certain criteria to 
+retrieve against the index created using 
+target document set. Meanwhile, the 
+mapping correlations between source and 
+target documents are developed accord-
+ing to the value of similarity calculated 
+by the retrieval tool. Two methods are 
+evaluated to filter the comparable docu-
+ment pairs so as to ensure the quality of 
+the comparable corpora. Experimental re-
+sults indicate that our approach is effec-
+tive on the construction of Chinese-
+English comparable corpora. 
+1 

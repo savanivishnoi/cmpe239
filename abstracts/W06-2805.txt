@@ -1,0 +1,23 @@
+ 
+We present results of our experiments 
+with the application of machine learning 
+on binary blog classification, i.e. deter-
+mining whether a given web page is a 
+blog page. We have gathered a corpus in 
+excess of half a million blog or blog-like 
+pages and pre-classified them using a 
+simple baseline. We investigate which 
+algorithms attain the best results for our 
+classification problem and experiment 
+with resampling techniques, with the aim 
+of utilising our large dataset to improve 
+upon our baseline. We show that the ap-
+plication of off-the-shelf machine learn-
+ing technology to perform binary blog 
+classification offers substantial improve-
+ment over our baseline. Further gains can 
+sometimes be achieved using resampling 
+techniques, but these improvements are 
+relatively small compared to the initial 
+gain. 
+1 

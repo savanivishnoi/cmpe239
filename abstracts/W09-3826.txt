@@ -1,0 +1,16 @@
+
+In this paper, we propose that grammar er-
+ror detection be disambiguated in generat-
+ing the connected parse(s) of optimal merit
+for the full input utterance, in overcom-
+ing the cheapest error. The detected er-
+ror(s) are described as violated grammat-
+ical constraints in a framework for Model-
+Theoretic Syntax (MTS). We present a
+parsing algorithm for MTS, which only re-
+lies on a grammar of well-formedness, in
+that the process does not require any extra-
+grammatical resources, additional rules
+for constraint relaxation or error handling,
+or any recovery process.
+1 

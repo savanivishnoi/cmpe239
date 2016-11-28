@@ -1,0 +1,20 @@
+
+Probabilistic topic models are a popular tool
+for the unsupervised analysis of text, providing
+both a predictive model of future text and a la-
+tent topic representation of the corpus. Recent
+studies have found that while there are sugges-
+tive connections between topic models and the
+way humans interpret data, these two often dis-
+agree. In this paper, we explore this disagree-
+ment from the perspective of the learning pro-
+cess rather than the output. We present a novel
+task, tag-and-cluster, which asks subjects to
+simultaneously annotate documents and cluster
+those annotations. We use these annotations
+as a novel approach for constructing a topic
+model, grounded in human interpretations of
+documents. We demonstrate that these topic
+models have features which distinguish them
+from traditional topic models.
+1 

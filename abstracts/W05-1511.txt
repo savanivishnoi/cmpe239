@@ -1,0 +1,20 @@
+
+We investigated the performance efficacy
+of beam search parsing and deep parsing
+techniques in probabilistic HPSG parsing
+using the Penn treebank. We first tested
+the beam thresholding and iterative pars-
+ing developed for PCFG parsing with an
+HPSG. Next, we tested three techniques
+originally developed for deep parsing: quick
+check, large constituent inhibition, and hy-
+brid parsing with a CFG chunk parser. The
+contributions of the large constituent inhi-
+bition and global thresholding were not sig-
+nificant, while the quick check and chunk
+parser greatly contributed to total parsing
+performance. The precision, recall and av-
+erage parsing time for the Penn treebank
+(Section 23) were 87.85%, 86.85%, and 360
+ms, respectively.
+1 

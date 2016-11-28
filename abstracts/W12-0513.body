@@ -1,0 +1,18 @@
+
+Many tasks in natural language process-
+ing require that sentences be classified from
+a set of discrete interpretations. In these
+cases, there appear to be great benefits in
+using hybrid systems which apply multiple
+analyses to the test cases. In this paper, we
+examine a general principle for building hy-
+brid systems, based on combining the re-
+sults of several, high precision heuristics.
+By generalising the results of systems for
+sentiment analysis and ambiguity recogni-
+tion, we argue that if correctly combined,
+multiple techniques classify better than sin-
+gle techniques. More importantly, the com-
+bined techniques can be used in tasks where
+no single classification is appropriate.
+1 

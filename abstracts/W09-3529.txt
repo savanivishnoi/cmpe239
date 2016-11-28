@@ -1,0 +1,22 @@
+ 
+We propose an English-Chinese name transli-
+teration system using a maximum N-gram 
+Hidden Markov Model. To handle special 
+challenges with alphabet-based and character-
+based language pair, we apply a two-phase 
+transliteration model by building two HMM 
+models, one between English and Chinese Pi-
+nyin and another between Chinese Pinyin and 
+Chinese characters. Our model improves tradi-
+tional HMM by assigning the longest prior 
+translation sequence of syllables the largest 
+weight. In our non-standard runs, we use a 
+Web-mining module to boost the performance 
+by adding online popularity information of 
+candidate translations. The entire model does 
+not rely on any dictionaries and the probability 
+tables are derived merely from training corpus. 
+In participation of NEWS 2009 experiment, 
+our model achieved 0.462 Top-1 accuracy and 
+0.764 Mean F-score. 
+1 

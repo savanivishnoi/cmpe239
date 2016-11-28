@@ -1,0 +1,20 @@
+ 
+We propose an intention analysis system 
+for instant messaging applications.  The 
+system adopts Yahoo! directory as category 
+trees, and classifies each dialogue into one 
+of the categories of the directory. Two 
+weighting schemes in information retrieval, 
+i.e., tf and tf-idf, are considered in our ex-
+periments.  In addition, we also expand 
+Yahoo! directory with the accompanying 
+HTML files and explore different features 
+such as nouns, verbs, hypernym, hyponym, 
+etc.  Experiments show that category trees 
+expanded with snippets together with noun 
+features under tf scheme achieves a best F-
+score, 0.86, when only 37.46% of utter-
+ances are processed on the average.  This 
+methodology is employed to recommend 
+advertisements relevant to the dialogue. 
+1 

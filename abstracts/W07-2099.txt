@@ -1,0 +1,16 @@
+
+We describe two systems participating of the
+English Lexical Sample task in SemEval-
+2007. The systems make use of Inductive
+Logic Programming for supervised learning
+in two different ways: (a) to build Word
+Sense Disambiguation (WSD) models from
+a rich set of background knowledge sources;
+and (b) to build interesting features from
+the same knowledge sources, which are then
+used by a standard model-builder for WSD,
+namely, Support Vector Machines. Both sys-
+tems achieved comparable accuracy (0.851
+and 0.857), which outperforms considerably
+the most frequent sense baseline (0.787).
+1 

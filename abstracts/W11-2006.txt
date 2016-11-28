@@ -1,0 +1,24 @@
+
+We present a dialogue collection and enrich-
+ment framework that is designed to explore
+the learning and evaluation of dialogue poli-
+cies for simple conversational characters us-
+ing textual training data. To facilitate learning
+and evaluation, our framework enriches a col-
+lection of role-play dialogues with additional
+training data, including paraphrases of user ut-
+terances, and multiple independent judgments
+by external referees about the best policy re-
+sponse for the character at each point. As
+a case study, we use this framework to train
+a policy for a limited domain tactical ques-
+tioning character, reaching promising perfor-
+mance. We also introduce an automatic policy
+evaluation metric that recognizes the validity
+of multiple conversational responses at each
+point in a dialogue. We use this metric to ex-
+plore the variability in human opinion about
+optimal policy decisions, and to automatically
+evaluate several learned policies in our exam-
+ple domain.
+1 

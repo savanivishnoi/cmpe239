@@ -1,0 +1,21 @@
+
+One of the reasons nonparametric Bayesian
+inference is attracting attention in computa-
+tional linguistics is because it provides a prin-
+cipled way of learning the units of generaliza-
+tion together with their probabilities. Adaptor
+grammars are a framework for defining a va-
+riety of hierarchical nonparametric Bayesian
+models. This paper investigates some of
+the choices that arise in formulating adap-
+tor grammars and associated inference proce-
+dures, and shows that they can have a dra-
+matic impact on performance in an unsuper-
+vised word segmentation task. With appro-
+priate adaptor grammars and inference proce-
+dures we achieve an 87% word token f-score
+on the standard Brent version of the Bernstein-
+Ratner corpus, which is an error reduction of
+over 35% over the best previously reported re-
+sults for this corpus.
+1 

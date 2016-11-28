@@ -1,0 +1,30 @@
+
+Metaphor is an important way of convey-
+ing the affect of people, hence understand-
+ing how people use metaphors to convey
+affect is important for the communication
+between individuals and increases cohe-
+sion if the perceived affect of the con-
+crete example is the same for the two in-
+dividuals. Therefore, building computa-
+tional models that can automatically iden-
+tify the affect in metaphor-rich texts like
+?The team captain is a rock.?, ?Time is
+money.?, ?My lawyer is a shark.? is an
+important challenging problem, which has
+been of great interest to the research com-
+munity.
+To solve this task, we have collected
+and manually annotated the affect of
+metaphor-rich texts for four languages.
+We present novel algorithms that integrate
+triggers for cognitive, affective, perceptual
+and social processes with stylistic and lex-
+ical information. By running evaluations
+on datasets in English, Spanish, Russian
+and Farsi, we show that the developed af-
+fect polarity and valence prediction tech-
+nology of metaphor-rich texts is portable
+and works equally well for different lan-
+guages.
+1 

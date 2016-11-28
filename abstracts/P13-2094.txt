@@ -1,0 +1,17 @@
+ 
+The task of review rating prediction can be 
+well addressed by using regression algorithms 
+if there is a reliable training set of reviews 
+with human ratings. In this paper, we aim to 
+investigate  a more challenging task of cross-
+language review rating prediction, which 
+makes use of only rated reviews in a source 
+language (e.g. English) to predict the rating 
+scores of unrated reviews in a target language 
+(e.g. German). We propose a new co-
+regression algorithm to address this task by 
+leveraging unlabeled reviews.  Evaluation re-
+sults on several datasets show that our pro-
+posed co-regression algorithm can consistently 
+improve the prediction results. 
+1 

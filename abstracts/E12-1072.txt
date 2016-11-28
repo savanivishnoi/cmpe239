@@ -1,0 +1,23 @@
+
+In pro-drop languages, the detection of
+explicit subjects, zero subjects and non-
+referential impersonal constructions is cru-
+cial for anaphora and co-reference resolu-
+tion. While the identification of explicit
+and zero subjects has attracted the atten-
+tion of researchers in the past, the auto-
+matic identification of impersonal construc-
+tions in Spanish has not been addressed yet
+and this work is the first such study. In
+this paper we present a corpus to under-
+pin research on the automatic detection of
+these linguistic phenomena in Spanish and
+a novel machine learning-based methodol-
+ogy for their computational treatment. This
+study also provides an analysis of the fea-
+tures, discusses performance across two
+different genres and offers error analysis.
+The evaluation results show that our system
+performs better in detecting explicit sub-
+jects than alternative systems.
+1 

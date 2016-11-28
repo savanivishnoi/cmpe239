@@ -1,0 +1,23 @@
+
+This paper proposes a data-driven method
+for concept-to-text generation, the task of
+automatically producing textual output from
+non-linguistic input. A key insight in our ap-
+proach is to reduce the tasks of content se-
+lection (?what to say?) and surface realization
+(?how to say?) into a common parsing prob-
+lem. We define a probabilistic context-free
+grammar that describes the structure of the in-
+put (a corpus of database records and text de-
+scribing some of them) and represent it com-
+pactly as a weighted hypergraph. The hyper-
+graph structure encodes exponentially many
+derivations, which we rerank discriminatively
+using local and global features. We propose a
+novel decoding algorithm for finding the best
+scoring derivation and generating in this set-
+ting. Experimental evaluation on the ATIS do-
+main shows that our model outperforms a
+competitive discriminative system both using
+BLEU and in a judgment elicitation study.
+1 

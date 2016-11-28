@@ -1,0 +1,14 @@
+ 
+This paper describes differents methods and tricks in 
+connection with our program which has been entered in 
+the Loebner Prize competition that will happen on 
+Sunday 11 January 1998, at the PowerHouse Museum 
+in Sydney. Of course, this isn't exhaustive, there are 
+other possible techniques but we aim to give the main 
+ideas. We'll speak about the main modules of our 
+program : Spelling correction, Different uses of 
+WordNet, and Generation of comments. Our module 
+used for spelling correction was developed on the basis 
+of works by Brill \[1\], Brill and Marcus \[2\], Golding 
+\[3\], Golding and Schabes \[4\], and Powers \[5\]. 
+1. 

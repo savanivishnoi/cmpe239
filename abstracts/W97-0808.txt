@@ -1,0 +1,31 @@
+ 
+The selectional preferences of verbal predicates are 
+an important component of lexical information use- 
+ful for a number of NLP tasks including disambiglia- 
+tion of word senses. Approaches to selectional pref- 
+erence acquisition without word sense disambigua- 
+tion are reported to be prone to errors arising from 
+erroneous word senses. Large scale automatic se- 
+mantic tagging of texts in sufficient quantity for 
+preference acquisition has received little attention as 
+most research in word sense disambiguation has con- 
+centrated on quality word sense disambiguation f
+a handful of target words. The work described here 
+concentrates on adapting semantic tagging methods 
+that do not require a massive overhead of manual 
+semantic tagging and that strike a reasonable com- 
+promise between accuracy and cost so that large 
+amounts of text can be tagged relatively quickly. 
+The results of some of these adaptations are de- 
+scribed here along with a comparison of the selec- 
+tional preferences acquired with and without one of 
+these methods. Results of a bootstrapping approach 
+are also outlined in which the preferences obtained 
+are used for coarse grained sense disambiguation a d 
+then the partially disambiguated data is fed back 
+into the preference acquisition system. 1 
+1This work was supported by CEC Telematics Appli- 
+cations Programme project LE1-2111 "SPARKLE: Shal- 
+low PARsing and Knowledge xtraction for Language 
+Engineering". 
+1 

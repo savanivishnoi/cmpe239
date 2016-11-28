@@ -1,0 +1,20 @@
+
+This paper presents a real-world applica-
+tion for assisting medical diagnosis and
+drug prescription, which relies on the
+exclusive use of machine learning tech-
+niques. We have automatically processed
+an extensive biomedical literature to train
+a categorization algorithm in order to pro-
+vide it with the capability of matching
+symptoms to MeSH descriptors. To in-
+teract with the classifier, we have devel-
+oped a multilingual web interface so that
+professionals in medicine can easily get
+some help in their decisions about di-
+agnoses (lookfordiagnosis.com) and pre-
+scriptions (lookfortherapy.com). We also
+demonstrate the effectiveness of this ap-
+proach with a test set containing several
+hundreds of real clinical histories.
+1 

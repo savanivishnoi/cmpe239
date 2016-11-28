@@ -1,0 +1,25 @@
+
+The Hidden Markov Model (HMM) for
+part-of-speech (POS) tagging is typi-
+cally based on tag trigrams. As such
+it models local context but not global
+context, leaving long-distance syntactic
+relations unrepresented. Using n-gram
+models for n > 3 in order to incorporate
+global context is problematic as the tag
+sequences corresponding to higher order
+models will become increasingly rare in
+training data, leading to incorrect esti-
+mations of their probabilities.
+The trigram HMM can be extended with
+global contextual information, without
+making the model infeasible, by incor-
+porating the context separately from the
+POS tags. The new information incor-
+porated in the model is acquired through
+the use of a wide-coverage parser. The
+model is trained and tested on Dutch text
+from two different sources, showing an
+increase in tagging accuracy compared
+to tagging using the standard model.
+1 

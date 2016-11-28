@@ -1,0 +1,32 @@
+
+This paper reports experiments for the
+CoNLL-2010 shared task on learning to
+detect hedges and their scope in natu-
+ral language text. We have addressed
+the experimental tasks as supervised lin-
+ear maximum margin prediction prob-
+lems. For sentence level hedge detection
+in the biological domain we use an L1-
+regularised binary support vector machine,
+while for sentence level weasel detection
+in the Wikipedia domain, we use an L2-
+regularised approach. We model the in-
+sentence uncertainty cue and scope de-
+tection task as an L2-regularised approxi-
+mate maximum margin sequence labelling
+problem, using the BIO-encoding. In ad-
+dition to surface level features, we use a
+variety of linguistic features based on a
+functional dependency analysis. A greedy
+forward selection strategy is used in ex-
+ploring the large set of potential features.
+Our official results for Task 1 for the bio-
+logical domain are 85.2 F1-score, for the
+Wikipedia set 55.4 F1-score. For Task 2,
+our official results are 2.1 for the entire
+task with a score of 62.5 for cue detec-
+tion. After resolving errors and final bugs,
+our final results are for Task 1, biologi-
+cal: 86.0, Wikipedia: 58.2; Task 2, scopes:
+39.6 and cues: 78.5.
+1 

@@ -1,0 +1,19 @@
+
+Because English is a low morphology lan-
+guage, current statistical parsers tend to
+ignore morphology and accept some level
+of redundancy. This paper investigates
+how costly such redundancy is for a lex-
+icalised grammar such as CCG.
+We use morphological analysis to split
+verb inflectional suffixes into separate to-
+kens, so that they can receive their own
+lexical categories. We find that this im-
+proves accuracy when the splits are based
+on correct POS tags, but that errors in gold
+standard or automatically assigned POS
+tags are costly for the system. This shows
+that the parser can benefit from morpho-
+logical analysis, so long as the analysis is
+correct.
+1 

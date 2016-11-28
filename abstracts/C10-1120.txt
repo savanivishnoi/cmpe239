@@ -1,0 +1,18 @@
+
+Martins et al (2008) presented what to
+the best of our knowledge still ranks as
+the best overall result on the CONLL-
+X Shared Task datasets. The paper
+shows how triads of stacked dependency
+parsers described in Martins et al (2008)
+can label unlabeled data for each other in
+a way similar to co-training and produce
+end parsers that are significantly better
+than any of the stacked input parsers.
+We evaluate our system on five datasets
+from the CONLL-X Shared Task and ob-
+tain 10?20% error reductions, incl. the
+best reported results on four of them.
+We compare our approach to other semi-
+supervised learning algorithms.
+1 

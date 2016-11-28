@@ -1,0 +1,15 @@
+ 
+This paper introduces a new dialogue man-
+agement framework for goal-directed conver-
+sations. A declarative specification defines the 
+domain-specific elements and guides the di-
+alogue manager, which communicates with the 
+knowledge sources to complete the specified 
+goal. The user is viewed as another knowledge 
+source. The dialogue manager finds the next 
+action by a mixture of rule-based reasoning 
+and a simple statistical model. Implementation 
+in the flight-reservation domain demonstrates 
+that the framework enables the developer to 
+easily build a conversational dialogue system.  
+1 

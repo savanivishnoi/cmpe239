@@ -1,0 +1,23 @@
+
+In this paper we describe our system used to
+participate in the Student-Response-Analysis
+task-7 at SemEval 2013. This system is based
+on text overlap through the soft cardinality and
+a new mechanism for weight propagation. Al-
+though there are several official performance
+measures, taking into account the overall ac-
+curacy throughout the two availabe data sets
+(Beetle and SciEntsBank), our system ranked
+first in the 2 way classification task and sec-
+ond in the others. Furthermore, our sys-
+tem performs particularly well with ?unseen-
+domains? instances, which was the more chal-
+lenging test set. This paper also describes an-
+other system that integrates this method with
+the lexical-overlap baseline provided by the
+task organizers obtaining better results than
+the best official results. We concluded that the
+soft cardinality method is a very competitive
+baseline for the automatic evaluation of stu-
+dent responses.
+1 

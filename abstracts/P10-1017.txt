@@ -1,0 +1,18 @@
+
+We present a simple yet powerful hier-
+archical search algorithm for automatic
+word alignment. Our algorithm induces
+a forest of alignments from which we
+can efficiently extract a ranked k-best list.
+We score a given alignment within the
+forest with a flexible, linear discrimina-
+tive model incorporating hundreds of fea-
+tures, and trained on a relatively small
+amount of annotated data. We report re-
+sults on Arabic-English word alignment
+and translation tasks. Our model out-
+performs a GIZA++ Model-4 baseline by
+6.3 points in F-measure, yielding a 1.1
+BLEU score increase over a state-of-the-art
+syntax-based machine translation system.
+1 

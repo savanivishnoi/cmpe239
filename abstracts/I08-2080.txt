@@ -1,0 +1,17 @@
+
+This paper presents an approach that uses
+structural information for Japanese named
+entity recognition (NER). Our NER system
+is based on Support Vector Machine (SVM),
+and utilizes four types of structural informa-
+tion: cache features, coreference relations,
+syntactic features and caseframe features,
+which are obtained from structural analyses.
+We evaluated our approach on CRL NE data
+and obtained a higher F-measure than exist-
+ing approaches that do not use structural in-
+formation. We also conducted experiments
+on IREX NE data and an NE-annotated web
+corpus and confirmed that structural infor-
+mation improves the performance of NER.
+1 

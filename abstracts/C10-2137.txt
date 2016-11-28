@@ -1,0 +1,16 @@
+ 
+We present a simple algorithm for 
+clustering semantic patterns based on 
+distributional similarity and use cluster 
+memberships to guide semi-supervised 
+pattern discovery. We apply this 
+approach to the task of relation 
+extraction. The evaluation results 
+demonstrate that our novel 
+bootstrapping procedure significantly 
+outperforms a standard bootstrapping. 
+Most importantly, our algorithm can 
+effectively prevent semantic drift and 
+provide semi-supervised learning with a 
+natural stopping criterion. 
+1 

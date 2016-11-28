@@ -1,0 +1,16 @@
+
+We propose a language-independent word
+normalization method exemplified on
+modernizing historical Slovene words.
+Our method relies on character-based sta-
+tistical machine translation and uses only
+shallow knowledge. We present the rel-
+evant lexicons and two experiments. In
+one, we use a lexicon of historical word?
+contemporary word pairs and a list of con-
+temporary words; in the other, we only
+use a list of historical words and one of
+contemporary ones. We show that both
+methods produce significantly better re-
+sults than the baseline.
+1 

@@ -1,0 +1,22 @@
+ 
+This paper describes a categorization mod-
+ule for improving the performance of a 
+Spanish into Spanish Sign Language (LSE) 
+translation system. This categorization 
+module replaces Spanish words with asso-
+ciated tags. When implementing this mod-
+ule, several alternatives for dealing with 
+non-relevant words have been studied. Non-
+relevant words are Spanish words not rele-
+vant in the translation process. The catego-
+rization module has been incorporated into 
+a phrase-based system and a Statistical Fi-
+nite State Transducer (SFST). The evalua-
+tion results reveal that the BLEU has 
+increased from 69.11% to 78.79% for the 
+phrase-based system and from 69.84% to 
+75.59% for the SFST. 
+Keywords: Source language categoriza-
+tion, Speech into Sign Language transla-
+tion. Lengua de Signos Espa?ola (LSE). 
+1 

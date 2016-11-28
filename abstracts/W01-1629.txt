@@ -1,0 +1,15 @@
+
+This paper proposes a new dialogue
+control method for spoken dialogue
+systems. The method configures a
+dialogue plan so as to minimize the
+estimated number of turns to com-
+plete the dialogue. The number of
+turns is estimated depending on the
+current speech recognition accuracy
+and probability distribution of the
+true user?s request. The proposed
+method reduces the number of turns
+to complete the task at almost any
+recognition accuracy.
+1 

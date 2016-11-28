@@ -1,0 +1,15 @@
+ 
+We present a set of experiments on depend-
+ency parsing of the Basque Dependency Tree-
+bank (BDT). The present work has examined 
+several directions that try to explore the rich 
+set of morphosyntactic features in the BDT: i) 
+experimenting the impact of morphological 
+features, ii) application of dependency tree 
+transformations, iii) application of a two-stage 
+parsing scheme (stacking), and iv) combina-
+tions of the individual experiments. All the 
+tests were conducted using MaltParser (Nivre 
+et al, 2007a), a freely available and state of 
+the art dependency parser generator. 
+1 

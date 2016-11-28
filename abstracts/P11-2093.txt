@@ -1,0 +1,14 @@
+
+We present a pointwise approach to Japanese
+morphological analysis (MA) that ignores
+structure information during learning and tag-
+ging. Despite the lack of structure, it is able to
+outperform the current state-of-the-art struc-
+tured approach for Japanese MA, and achieves
+accuracy similar to that of structured predic-
+tors using the same feature set. We also
+find that the method is both robust to out-
+of-domain data, and can be easily adapted
+through the use of a combination of partial an-
+notation and active learning.
+1 

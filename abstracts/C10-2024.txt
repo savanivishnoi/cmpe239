@@ -1,0 +1,26 @@
+
+Traditionally Sanskrit is written without
+blank, sentences can make thousands of
+characters without any separation. A crit-
+ical edition takes into account all the dif-
+ferent known versions of the same text in
+order to show the differences between any
+two distinct versions, in term of words
+missing, changed or omitted. This pa-
+per describes the Sanskrit characteristics
+that make text comparisons different from
+other languages, and will present different
+methods of comparison of Sanskrit texts
+which can be used for the elaboration of
+computer assisted critical edition of San-
+skrit texts. It describes two sets of meth-
+ods used to obtain the alignments needed.
+The first set is using the L.C.S., the sec-
+ond one the global alignment algorithm.
+One of the methods of the second set uses
+a classical technique in the field of artifi-
+cial intelligence, the A* algorithm to ob-
+tain the suitable alignment. We conclude
+by comparing our different results in term
+of adequacy as well as complexity.
+1 

@@ -1,0 +1,27 @@
+
+The rising influence of user-generated online
+reviews (Cone, 2011) has led to growing in-
+centive for businesses to solicit and manufac-
+ture DECEPTIVE OPINION SPAM?fictitious
+reviews that have been deliberately written to
+sound authentic and deceive the reader. Re-
+cently, Ott et al (2011) have introduced an
+opinion spam dataset containing gold standard
+deceptive positive hotel reviews. However, the
+complementary problem of negative deceptive
+opinion spam, intended to slander competitive
+offerings, remains largely unstudied. Follow-
+ing an approach similar to Ott et al (2011), in
+this work we create and study the first dataset
+of deceptive opinion spam with negative sen-
+timent reviews. Based on this dataset, we find
+that standard n-gram text categorization tech-
+niques can detect negative deceptive opinion
+spam with performance far surpassing that of
+human judges. Finally, in conjunction with
+the aforementioned positive review dataset,
+we consider the possible interactions between
+sentiment and deception, and present initial
+results that encourage further exploration of
+this relationship.
+1 

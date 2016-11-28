@@ -1,0 +1,18 @@
+ 
+This paper, submitted as an entry for the 
+NERSSEAL-2008 shared task, describes a 
+system build for Named Entity Recognition 
+for South and South East Asian Languages.  
+Our paper combines machine learning 
+techniques with language specific heuris-
+tics to model the problem of NER for In-
+dian languages. The system has been tested 
+on five languages: Telugu, Hindi, Bengali, 
+Urdu and Oriya. It uses CRF (Conditional 
+Random Fields) based machine learning, 
+followed by post processing which in-
+volves using some heuristics or rules. The 
+system is specifically tuned for Hindi and 
+Telugu, we also report the results for the 
+other four languages. 
+1 

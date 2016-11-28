@@ -1,0 +1,28 @@
+ 
+This paper describes a proposal for 
+Portuguese possessive pronominal anaphor 
+(PPA) resolution, a problem little considered 
+so far. Particularly, we address the problem 
+of Portuguese 3rd person intrasentential 
+PPAs seu/sua/seus/suas (his/her/their/its, for 
+human and non-human subjects in English), 
+which constitute 30% of pronominal 
+occurrences in our corpus (Brazilian laws 
+about environment protection). Considering 
+some differences between PPAs and other 
+kinds of anaphors, such as personal or 
+demonstrative pronouns, we define three 
+knowledge sources (KSs) for PPA resolution: 
+surface patterns (taking in account factors 
+such as syntactic parallelism), possessive 
+relationship rules and sentence centering. 
+These knowledge sources are organized in a 
+blackboard architecture for PPA resolution, 
+which provides both knowledge and 
+procedure distribution among autonomous 
+entities (reflexive agents), each of them 
+specialized in a particular aspect of the 
+problem solving. The proposal has been 
+implemented and its results are discussed at 
+the end of the work. 
+1. 

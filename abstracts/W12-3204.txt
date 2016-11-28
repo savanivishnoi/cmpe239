@@ -1,0 +1,24 @@
+
+Studies of gender balance in academic com-
+puter science are typically based on statistics
+on enrollment and graduation. Going beyond
+these coarse measures of gender participation,
+we conduct a fine-grained study of gender
+in the field of Natural Language Processing.
+We use topic models (Latent Dirichlet Allo-
+cation) to explore the research topics of men
+and women in the ACL Anthology Network.
+We find that women publish more on dialog,
+discourse, and sentiment, while men publish
+more than women in parsing, formal seman-
+tics, and finite state models. To conduct our
+study we labeled the gender of authors in the
+ACL Anthology mostly manually, creating a
+useful resource for other gender studies. Fi-
+nally, our study of historical patterns in fe-
+male participation shows that the proportion
+of women authors in computational linguis-
+tics has been continuously increasing, with
+approximately a 50% increase in the three
+decades since 1980.
+1 

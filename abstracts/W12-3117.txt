@@ -1,0 +1,24 @@
+
+This paper describes the features and the ma-
+chine learning methods used by Dublin City
+University (DCU) and SYMANTEC for the
+WMT 2012 quality estimation task. Two sets
+of features are proposed: one constrained, i.e.
+respecting the data limitation suggested by the
+workshop organisers, and one unconstrained,
+i.e. using data or tools trained on data that was
+not provided by the workshop organisers. In
+total, more than 300 features were extracted
+and used to train classifiers in order to predict
+the translation quality of unseen data. In this
+paper, we focus on a subset of our feature set
+that we consider to be relatively novel: fea-
+tures based on a topic model built using the
+Latent Dirichlet Allocation approach, and fea-
+tures based on source and target language syn-
+tax extracted using part-of-speech (POS) tag-
+gers and parsers. We evaluate nine feature
+combinations using four classification-based
+and four regression-based machine learning
+techniques.
+1 

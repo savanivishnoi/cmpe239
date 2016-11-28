@@ -1,0 +1,12 @@
+
+We further work on detecting errors in post-
+positional particle usage by learners of Korean
+by improving the training data and develop-
+ing a complete pipeline of particle selection.
+We improve the data by filtering non-Korean
+data and sampling instances to better match
+the particle distribution. Our evaluation shows
+that, while the data selection is effective, there
+is much work to be done with preprocessing
+and system optimization.
+1 

@@ -1,0 +1,22 @@
+
+We address a text regression problem: given a
+piece of text, predict a real-world continuous
+quantity associated with the text?s meaning. In
+this work, the text is an SEC-mandated finan-
+cial report published annually by a publicly-
+traded company, and the quantity to be pre-
+dicted is volatility of stock returns, an empiri-
+cal measure of financial risk. We apply well-
+known regression techniques to a large cor-
+pus of freely available financial reports, con-
+structing regression models of volatility for
+the period following a report. Our models ri-
+val past volatility (a strong baseline) in pre-
+dicting the target variable, and a single model
+that uses both can significantly outperform
+past volatility. Interestingly, our approach is
+more accurate for reports after the passage of
+the Sarbanes-Oxley Act of 2002, giving some
+evidence for the success of that legislation in
+making financial reports more informative.
+1 

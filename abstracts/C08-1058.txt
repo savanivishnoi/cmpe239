@@ -1,0 +1,40 @@
+ 
+In this paper, we work on extending a 
+Chinese thesaurus with words distinctly 
+used in various Chinese communities.  
+The acquisition and classification of such 
+region-specific lexical items is an impor-
+tant step toward the larger goal of con-
+structing a Pan-Chinese lexical resource.  
+In particular, we extend a previous study 
+in three respects: (1) to improve auto-
+matic classification by removing dupli-
+cated words from the thesaurus, (2) to 
+experiment with classifying words at the 
+subclass level and semantic head level, 
+and (3) to further investigate the possible 
+effects of data heterogeneity between the 
+region-specific words and words in the 
+thesaurus on classification performance.  
+Automatic classification was based on 
+the similarity between a target word and 
+individual categories of words in the the-
+saurus, measured by the cosine function.  
+Experiments were done on 120 target 
+words from four regions.  The automatic 
+classification results were evaluated 
+against a gold standard obtained from 
+human judgements.  In general accuracy 
+reached 80% or more with the top 10 (out 
+of 80+) and top 100 (out of 1,300+) can-
+didates considered at the subclass level 
+and semantic head level respectively, 
+provided that the appropriate data sources 
+were used. 
+                                                 
+? 2008. Licensed under the Creative Commons Attri-
+bution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+ 
+1 

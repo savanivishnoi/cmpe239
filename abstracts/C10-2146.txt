@@ -1,0 +1,25 @@
+
+We present a web-based algorithm for the
+task of POS tagging of unknown words
+(words appearing only a small number
+of times in the training data of a super-
+vised POS tagger). When a sentence s
+containing an unknown word u is to be
+tagged by a trained POS tagger, our algo-
+rithm collects from the web contexts that
+are partially similar to the context of u in
+s, which are then used to compute new
+tag assignment probabilities for u. Our
+algorithm enables fast multi-domain un-
+known word tagging, since, unlike pre-
+vious work, it does not require a corpus
+from the new domain. We integrate our
+algorithm into the MXPOST POS tagger
+(Ratnaparkhi, 1996) and experiment with
+three languages (English, German and
+Chinese) in seven in-domain and domain
+adaptation scenarios. Our algorithm pro-
+vides an error reduction of up to 15.63%
+(English), 18.09% (German) and 13.57%
+(Chinese) over the original tagger.
+1 

@@ -1,0 +1,10 @@
+
+We present a normalisation framework for linguistic representations and illustrate its use
+by normalising the Stanford Dependency graphs (SDs) produced by the Stanford parser into
+Labelled Stanford Dependency graphs (LSDs). The normalised representations are evaluated
+both on a testsuite of constructed examples and on free text. The resulting representations
+improve on standard Predicate/Argument structures produced by SRL by combining role la-
+belling with the semantically oriented features of SDs. Furthermore, the proposed normalisa-
+tion framework opens the way to stronger normalisation processes which should be useful in
+reducing the burden on inference.
+1 

@@ -1,0 +1,20 @@
+ 
+This paper describes our system about 
+detecting hedges and their scope in natural 
+language texts for our participation in CoNLL-
+2010 shared tasks. We formalize these two 
+tasks as sequence labeling problems, and 
+implement them using conditional random 
+fields (CRFs) model. In the first task, we use a 
+greedy forward procedure to select features for 
+the classifier. These features include part-of-
+speech tag, word form, lemma, chunk tag of 
+tokens in the sentence. In the second task, our 
+system exploits rich syntactic features about 
+dependency structures and phrase structures, 
+which achieves a better performance than only 
+using the flat sequence features. Our system 
+achieves the third score in biological data set 
+for the first task, and achieves 0.5265 F1 score 
+for the second task. 
+1 

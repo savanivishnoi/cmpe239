@@ -1,0 +1,21 @@
+
+This paper presents an unsupervised rela-
+tion extraction method for discovering and
+enhancing relations in which a specified
+concept in Wikipedia participates. Using
+respective characteristics of Wikipedia ar-
+ticles and Web corpus, we develop a clus-
+tering approach based on combinations of
+patterns: dependency patterns from depen-
+dency analysis of texts in Wikipedia, and
+surface patterns generated from highly re-
+dundant information related to the Web.
+Evaluations of the proposed approach on
+two different domains demonstrate the su-
+periority of the pattern combination over
+existing approaches. Fundamentally, our
+method demonstrates how deep linguistic
+patterns contribute complementarily with
+Web surface patterns to the generation of
+various relations.
+1 

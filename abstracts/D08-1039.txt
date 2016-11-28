@@ -1,0 +1,17 @@
+
+This paper describes a lexical trigger model
+for statistical machine translation. We present
+various methods using triplets incorporating
+long-distance dependencies that can go be-
+yond the local context of phrases or n-gram
+based language models. We evaluate the pre-
+sented methods on two translation tasks in a
+reranking framework and compare it to the re-
+lated IBM model 1. We show slightly im-
+proved translation quality in terms of BLEU
+and TER and address various constraints to
+speed up the training based on Expectation-
+Maximization and to lower the overall num-
+ber of triplets without loss in translation per-
+formance.
+1 

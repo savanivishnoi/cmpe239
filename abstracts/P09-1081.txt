@@ -1,0 +1,31 @@
+
+We present a graph-based semi-supervised
+learning for the question-answering (QA)
+task for ranking candidate sentences. Us-
+ing textual entailment analysis, we obtain
+entailment scores between a natural lan-
+guage question posed by the user and the
+candidate sentences returned from search
+engine. The textual entailment between
+two sentences is assessed via features rep-
+resenting high-level attributes of the en-
+tailment problem such as sentence struc-
+ture matching, question-type named-entity
+matching based on a question-classifier,
+etc. We implement a semi-supervised
+learning (SSL) approach to demonstrate
+that utilization of more unlabeled data
+points can improve the answer-ranking
+task of QA. We create a graph for labeled
+and unlabeled data using match-scores of
+textual entailment features as similarity
+weights between data points. We apply
+a summarization method on the graph to
+make the computations feasible on large
+datasets. With a new representation of
+graph-based SSL on QA datasets using
+only a handful of features, and under lim-
+ited amounts of labeled data, we show im-
+provement in generalization performance
+over state-of-the-art QA models.
+1 

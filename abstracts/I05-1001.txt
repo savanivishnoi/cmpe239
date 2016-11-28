@@ -1,0 +1,11 @@
+. Traditional text categorization is usually a topic-based task, but a 
+subtle demand on information retrieval is to distinguish between positive and 
+negative view on text topic. In this paper, a new method is explored to solve 
+this problem. Firstly, a batch of Concerned Concepts in the researched domain 
+is predefined. Secondly, the special knowledge representing the positive or 
+negative context of these concepts within sentences is built up. At last, an 
+evaluating function based on the knowledge is defined for sentiment classifica-
+tion of free text. We introduce some linguistic knowledge in these procedures to 
+make our method effective. As a result, the new method proves better compared 
+with SVM when experimenting on Chinese texts about a certain topic. 
+1   

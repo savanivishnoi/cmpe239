@@ -1,0 +1,17 @@
+
+Transliteration of given parallel name en-
+tities can be formulated as a phrase-based
+statistical machine translation (SMT) pro-
+cess, via its routine procedure compris-
+ing training, optimization and decoding.
+In this paper, we present our approach to
+transliterating name entities using the log-
+linear phrase-based SMT on character se-
+quences. Our proposed work improves the
+translation by using bidirectional models,
+plus some heuristic guidance integrated in
+the decoding process. Our evaluated re-
+sults indicate that this approach performs
+well in all standard runs in the NEWS2009
+Machine Transliteration Shared Task.
+1 

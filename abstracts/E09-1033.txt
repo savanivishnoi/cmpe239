@@ -1,0 +1,15 @@
+
+Many different types of features have
+been shown to improve accuracy in parse
+reranking. A class of features that thus far
+has not been considered is based on a pro-
+jection of the syntactic structure of a trans-
+lation of the text to be parsed. The intu-
+ition for using this type of bitext projec-
+tion feature is that ambiguous structures
+in one language often correspond to un-
+ambiguous structures in another. We show
+that reranking based on bitext projection
+features increases parsing accuracy signif-
+icantly.
+1 

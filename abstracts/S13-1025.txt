@@ -1,0 +1,22 @@
+ 
+We present a system submitted in the Semantic 
+Textual Similarity (STS) task at the Second 
+Joint Conference on Lexical and Computa-
+tional Semantics (*SEM 2013). Given two 
+short text fragments, the goal of the system is 
+to determine their semantic similarity. Our sys-
+tem makes use of three different measures of 
+text similarity: word n-gram overlap, character 
+n-gram overlap and semantic overlap. Using 
+these measures as features, it trains a support 
+vector regression model on SemEval STS 2012 
+data. This model is then applied on the STS 
+2013 data to compute textual similarities. Two 
+different selections of training data result in 
+very different performance levels: while a cor-
+relation of 0.4135 with gold standards was ob-
+served in the official evaluation (ranked 63rd 
+among all systems) for one selection, the other 
+resulted in a correlation of 0.5352 (that would 
+rank 21st).  
+1 

@@ -1,0 +1,24 @@
+
+We  present  in  this  paper  the  systems  we 
+participated  with  in  the  Semantic  Textual 
+Similarity  task  at  SEM  2013.  The  Semantic 
+Textual Similarity Core task  (STS)  computes the 
+degree  of  semantic  equivalence  between  two 
+sentences  where  the  participant  systems  will  be 
+compared to the manual scores, which range from 
+5  (semantic  equivalence)  to  0  (no  relation).  We 
+combined  multiple  text  similarity  measures  of 
+varying complexity.  The experiments illustrate the 
+different  effect  of  four  feature  types  including 
+direct  lexical  matching,  idf-weighted  lexical 
+matching,  modified BLEU N-gram matching and 
+named entities matching. Our team submitted three 
+runs  during  the  task  evaluation  period  and  they 
+ranked  number  11,  15  and  19  among  the  90 
+participating  systems  according  to  the  official 
+Mean Pearson correlation metric for the task. We 
+also  report  an  unofficial  run  with  mean  Pearson 
+correlation  of  0.59221  on  STS2013  test  dataset, 
+ranking  as  the  3rd  best  system  among  the  90 
+participating systems.
+1 

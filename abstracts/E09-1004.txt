@@ -1,0 +1,21 @@
+
+We present a classifier to predict con-
+textual polarity of subjective phrases in
+a sentence. Our approach features lexi-
+cal scoring derived from the Dictionary of
+Affect in Language (DAL) and extended
+through WordNet, allowing us to automat-
+ically score the vast majority of words in
+our input avoiding the need for manual la-
+beling. We augment lexical scoring with
+n-gram analysis to capture the effect of
+context. We combine DAL scores with
+syntactic constituents and then extract n-
+grams of constituents from all sentences.
+We also use the polarity of all syntactic
+constituents within the sentence as fea-
+tures. Our results show significant im-
+provement over a majority class baseline
+as well as a more difficult baseline consist-
+ing of lexical n-grams.
+1 

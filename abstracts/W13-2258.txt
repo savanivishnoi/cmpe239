@@ -1,0 +1,28 @@
+
+We introduce a lexicalized reordering
+model for hierarchical phrase-based ma-
+chine translation. The model scores mono-
+tone, swap, and discontinuous phrase ori-
+entations in the manner of the one pre-
+sented by Tillmann (2004). While this
+type of lexicalized reordering model is a
+valuable and widely-used component of
+standard phrase-based statistical machine
+translation systems (Koehn et al, 2007), it
+is however commonly not employed in hi-
+erarchical decoders.
+We describe how phrase orientation prob-
+abilities can be extracted from word-
+aligned training data for use with hierar-
+chical phrase inventories, and show how
+orientations can be scored in hierarchi-
+cal decoding. The model is empirically
+evaluated on the NIST Chinese?English
+translation task. We achieve a signifi-
+cant improvement of +1.2 %BLEU over
+a typical hierarchical baseline setup and
+an improvement of +0.7 %BLEU over a
+syntax-augmented hierarchical setup. On
+a French?German translation task, we
+obtain a gain of up to +0.4 %BLEU.
+1 

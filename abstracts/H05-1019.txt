@@ -1,0 +1,17 @@
+
+In order to promote the study of auto-
+matic summarization and translation, we
+need an accurate automatic evaluation
+method that is close to human evalua-
+tion. In this paper, we present an eval-
+uation method that is based on convolu-
+tion kernels that measure the similarities
+between texts considering their substruc-
+tures. We conducted an experiment us-
+ing automatic summarization evaluation
+data developed for Text Summarization
+Challenge 3 (TSC-3). A comparison with
+conventional techniques shows that our
+method correlates more closely with hu-
+man evaluations and is more robust.
+1 

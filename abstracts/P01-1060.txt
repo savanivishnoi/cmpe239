@@ -1,0 +1,19 @@
+
+In a headed tree, each terminal word
+can be uniquely labeled with a gov-
+erning word and grammatical relation.
+This labeling is a summary of a syn-
+tactic analysis which eliminates detail,
+reflects aspects of semantics, and for
+some grammatical relations (such as
+subject of finite verb) is nearly un-
+controversial. We define a notion
+of expected governor markup, which
+sums vectors indexed by governors and
+scaled by probabilistic tree weights.
+The quantity is computed in a parse for-
+est representation of the set of tree anal-
+yses for a given sentence, using vector
+sums and scaling by inside probability
+and flow.
+1 

@@ -1,0 +1,22 @@
+
+Although vast amounts of information
+are available electronically today, no ef-
+fective information access mechanism ex-
+ists to provide humans with convenient
+information access. A general, open-
+domain question answering system is a
+solution to this problem. We propose an
+architecture for a collaborative question
+answering system that contains four pri-
+mary components: an annotations sys-
+tem for storing knowledge, a ternary ex-
+pression representation of language, a
+transformational rule system for han-
+dling some complexities of language, and
+a collaborative mechanism by which or-
+dinary users can contribute new knowl-
+edge by teaching the system new infor-
+mation. We have developed a initial pro-
+totype, called Webnotator, with which to
+test these ideas.
+1 

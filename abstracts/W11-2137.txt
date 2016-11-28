@@ -1,0 +1,21 @@
+
+We present the results we obtain using our
+RegMT system, which uses transductive re-
+gression techniques to learn mappings be-
+tween source and target features of given par-
+allel corpora and use these mappings to gen-
+erate machine translation outputs. Our train-
+ing instance selection methods perform fea-
+ture decay for proper selection of training in-
+stances, which plays an important role to learn
+correct feature mappings. RegMT uses L2
+regularized regression as well as L1 regular-
+ized regression for sparse regression estima-
+tion of target features. We present transla-
+tion results using our training instance selec-
+tion methods, translation results using graph
+decoding, system combination results with
+RegMT, and performance evaluation with the
+F1 measure over target features as a metric for
+evaluating translation quality.
+1 

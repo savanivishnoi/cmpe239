@@ -1,0 +1,32 @@
+ 
+Ngram models are simple in language 
+modeling and have been successfully used in 
+speech recognition and other tasks. However, 
+they can only capture the short distance 
+context dependency within an n-words 
+window where currently the largest practical n 
+for a natural language is three while much of 
+the context dependency in a natural language 
+occurs beyond a three words window. In order 
+to incorporate this kind of long distance 
+context dependency in the ngram model of our 
+Mandarin speech recognition system, this 
+paper proposes a novel MI-Ngram modeling 
+approach. This new MI-Ngram model consists 
+of two components: a normal ngram model 
+and a novel MI model. The ngram model 
+captures the short distance context dependency 
+within an n-words window while the MI 
+model captures the context dependency 
+between the word pairs over a long distance 
+by using the concept of mutual information. 
+That is, the MI-Ngram model incorporates the 
+word occurrences beyond the scope of the 
+normal ngram model. It is found that MI-
+Ngram modeling has much better performance 
+than the normal word ngram modeling. 
+Experimentation shows that about 20% of 
+errors can be corrected by using a MI-Trigram 
+model compared with the pure word trigram 
+model.   
+1 

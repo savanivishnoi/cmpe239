@@ -1,0 +1,19 @@
+
+The amount of data produced in user-
+generated content continues to grow at a stag-
+gering rate. However, the text found in these
+media can deviate wildly from the standard
+rules of orthography, syntax and even seman-
+tics and present significant problems to down-
+stream applications which make use of this
+noisy data. In this paper we present a novel
+unsupervised method for extracting domain-
+specific lexical variants given a large volume
+of text. We demonstrate the utility of this
+method by applying it to normalize text mes-
+sages found in the online social media service,
+Twitter, into their most likely standard English
+versions. Our method yields a 20% reduction
+in word error rate over an existing state-of-the-
+art approach.
+1 

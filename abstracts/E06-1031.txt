@@ -1,0 +1,26 @@
+
+Most state-of-the-art evaluation measures
+for machine translation assign high costs
+to movements of word blocks. In many
+cases though such movements still result
+in correct or almost correct sentences. In
+this paper, we will present a new eval-
+uation measure which explicitly models
+block reordering as an edit operation.
+Our measure can be exactly calculated in
+quadratic time.
+Furthermore, we will show how some
+evaluation measures can be improved
+by the introduction of word-dependent
+substitution costs. The correlation of the
+new measure with human judgment has
+been investigated systematically on two
+different language pairs. The experimental
+results will show that it significantly
+outperforms state-of-the-art approaches in
+sentence-level correlation. Results from
+experiments with word dependent substi-
+tution costs will demonstrate an additional
+increase of correlation between automatic
+evaluation measures and human judgment.
+1 

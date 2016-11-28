@@ -1,0 +1,14 @@
+
+Pure statistical parsing systems achieves
+high in-domain accuracy but performs
+poorly out-domain. In this paper, we
+propose two different approaches to pro-
+duce syntactic dependency structures us-
+ing a large-scale hand-crafted HPSG gram-
+mar. The dependency backbone of an
+HPSG analysis is used to provide general
+linguistic insights which, when combined
+with state-of-the-art statistical dependency
+parsing models, achieves performance im-
+provements on out-domain tests.?
+1 

@@ -1,0 +1,10 @@
+
+This paper describes our system as used in
+the RTE3 task. The system maps premise and
+hypothesis pairs into an abstract knowledge
+representation (AKR) and then performs en-
+tailment and contradiction detection (ECD)
+on the resulting AKRs. Two versions of ECD
+were used in RTE3, one with strict ECD and
+one with looser ECD.
+1 

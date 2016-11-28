@@ -1,0 +1,20 @@
+
+Randomised techniques allow very big
+language models to be represented suc-
+cinctly. However, being batch-based
+they are unsuitable for modelling an un-
+bounded stream of language whilst main-
+taining a constant error rate. We present a
+novel randomised language model which
+uses an online perfect hash function
+to efficiently deal with unbounded text
+streams. Translation experiments over
+a text stream show that our online ran-
+domised model matches the performance
+of batch-based LMs without incurring the
+computational overhead associated with
+full retraining. This opens up the possibil-
+ity of randomised language models which
+continuously adapt to the massive volumes
+of texts published on the Web each day.
+1 

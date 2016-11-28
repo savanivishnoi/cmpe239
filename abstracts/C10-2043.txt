@@ -1,0 +1,23 @@
+
+In this paper, we propose a novel frame-
+work to enrich Translation Memory (TM)
+systems with Statistical Machine Trans-
+lation (SMT) outputs using ranking. In
+order to offer the human translators mul-
+tiple choices, instead of only using the
+top SMT output and top TM hit, we
+merge the N-best output from the SMT
+system and the k-best hits with highest
+fuzzy match scores from the TM sys-
+tem. The merged list is then ranked ac-
+cording to the prospective post-editing ef-
+fort and provided to the translators to aid
+their work. Experiments show that our
+ranked output achieve 0.8747 precision at
+top 1 and 0.8134 precision at top 5. Our
+framework facilitates a tight integration
+between SMT and TM, where full advan-
+tage is taken of TM while high quality
+SMT output is availed of to improve the
+productivity of human translators.
+1 

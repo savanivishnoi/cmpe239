@@ -1,0 +1,30 @@
+
+Recent research has shown progress in
+achieving high-quality, very fine-grained
+type classification in hierarchical tax-
+onomies. Within such a multi-level type
+hierarchy with several hundreds of types at
+different levels, many entities naturally be-
+long to multiple types. In order to achieve
+high-precision in type classification, cur-
+rent approaches are either limited to certain
+domains or require time consuming multi-
+stage computations. As a consequence, ex-
+isting systems are incapable of performing
+ad-hoc type classification on arbitrary input
+texts. In this demo, we present a novel Web-
+based tool that is able to perform domain
+independent entity type classification under
+real time conditions. Thanks to its efficient
+implementation and compacted feature rep-
+resentation, the system is able to process
+text inputs on-the-fly while still achieving
+equally high precision as leading state-of-
+the-art implementations. Our system offers
+an online interface where natural-language
+text can be inserted, which returns seman-
+tic type labels for entity mentions. Further
+more, the user interface allows users to ex-
+plore the assigned types by visualizing and
+navigating along the type-hierarchy.
+1 

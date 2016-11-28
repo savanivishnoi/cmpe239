@@ -1,0 +1,27 @@
+
+We propose a method for the task of iden-
+tifying the general positions of users in
+online debates, i.e., support or oppose the
+main topic of an online debate, by ex-
+ploiting local information in their remarks
+within the debate. An online debate is
+a forum where each user post an opin-
+ion on a particular topic while other users
+state their positions by posting their re-
+marks within the debate. The supporting
+or opposing remarks are made by directly
+replying to the opinion, or indirectly to
+other remarks (to express local agreement
+or disagreement), which makes the task of
+identifying users? general positions diffi-
+cult. A prior study has shown that a link-
+based method, which completely ignores
+the content of the remarks, can achieve
+higher accuracy for the identification task
+than methods based solely on the contents
+of the remarks. In this paper, we show
+that utilizing the textual content of the
+remarks into the link-based method can
+yield higher accuracy in the identification
+task.
+1 

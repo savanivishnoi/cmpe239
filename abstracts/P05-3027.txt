@@ -1,0 +1,14 @@
+
+SenseClusters is a freely available system
+that identifies similar contexts in text. It
+relies on lexical features to build first and
+second order representations of contexts,
+which are then clustered using unsuper-
+vised methods. It was originally devel-
+oped to discriminate among contexts cen-
+tered around a given target word, but can
+now be applied more generally. It also
+supports methods that create descriptive
+and discriminating labels for the discov-
+ered clusters.
+1 

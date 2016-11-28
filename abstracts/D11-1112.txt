@@ -1,0 +1,14 @@
+
+The notion of infix probability has been intro-
+duced in the literature as a generalization of
+the notion of prefix (or initial substring) prob-
+ability, motivated by applications in speech
+recognition and word error correction. For the
+case where a probabilistic context-free gram-
+mar is used as language model, methods for
+the computation of infix probabilities have
+been presented in the literature, based on vari-
+ous simplifying assumptions. Here we present
+a solution that applies to the problem in its full
+generality.
+1 

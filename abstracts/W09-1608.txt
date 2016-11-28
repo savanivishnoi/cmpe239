@@ -1,0 +1,18 @@
+ 
+We propose an efficient text summarization 
+technique that involves two basic opera-
+tions. The first operation involves finding 
+coherent chunks in the document and the 
+second operation involves ranking the text 
+in the individual coherent chunks and pick-
+ing the sentences that rank above a given 
+threshold. The coherent chunks are formed 
+by exploiting the lexical relationship be-
+tween adjacent sentences in the document. 
+Occurrence of words through repetition or 
+relatedness by sense relation plays a major 
+role in forming a cohesive tie. The pro-
+posed text ranking approach is based on a 
+graph theoretic ranking model applied to 
+text summarization task. 
+1 

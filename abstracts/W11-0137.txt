@@ -1,0 +1,8 @@
+
+Question classifiers are used within Question Answering to predict the expected answer type
+for a given question. This paper describes the first steps towards applying a similar methodology to
+identifying question classes in dialogue contexts, beginning with a study of questions drawn from the
+Enron email corpus. Human-annotated data is used as a gold standard for assessing the output from
+an existing, open-source question classifier (QA-SYS). Problem areas are identified and potential
+solutions discussed.
+1 

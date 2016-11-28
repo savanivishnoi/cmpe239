@@ -1,0 +1,19 @@
+
+Recent work has shown that the integration of
+visual information into text-based models can
+substantially improve model predictions, but
+so far only visual information extracted from
+static images has been used. In this paper, we
+consider the problem of grounding sentences
+describing actions in visual information ex-
+tracted from videos. We present a general
+purpose corpus that aligns high quality videos
+with multiple natural language descriptions of
+the actions portrayed in the videos, together
+with an annotation of how similar the action
+descriptions are to each other. Experimental
+results demonstrate that a text-based model of
+similarity between actions improves substan-
+tially when combined with visual information
+from videos depicting the described actions.
+1 

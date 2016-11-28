@@ -1,0 +1,16 @@
+
+We present an unsupervised word seg-
+mentation model for machine translation.
+The model uses existing monolingual seg-
+mentation techniques and models the joint
+distribution over source sentence segmen-
+tations and alignments to the target sen-
+tence. During inference, the monolin-
+gual segmentation model and the bilin-
+gual word alignment model are coupled
+so that the alignments to the target sen-
+tence guide the segmentation of the source
+sentence. The experiments show improve-
+ments on Arabic-English and Chinese-
+English translation tasks.
+1 

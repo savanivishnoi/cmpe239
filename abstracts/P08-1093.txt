@@ -1,0 +1,16 @@
+
+In this paper, we present a study of a novel
+summarization problem, i.e., summarizing the
+impact of a scientific publication. Given a pa-
+per and its citation context, we study how to
+extract sentences that can represent the most
+influential content of the paper. We propose
+language modeling methods for solving this
+problem, and study how to incorporate fea-
+tures such as authority and proximity to ac-
+curately estimate the impact language model.
+Experiment results on a SIGIR publication
+collection show that the proposed methods
+are effective for generating impact-based sum-
+maries.
+1 

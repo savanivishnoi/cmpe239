@@ -1,0 +1,25 @@
+ 
+This paper presents HCAMiner, a system 
+focusing on detecting how concepts are 
+linked across multiple documents. A tra-
+ditional search involving, for example, 
+two person names will attempt to find 
+documents mentioning both these indi-
+viduals. This research focuses on a dif-
+ferent interpretation of such a query: 
+what is the best concept chain across 
+multiple documents that connects these 
+individuals? A new robust framework is 
+presented, based on (i) generating con-
+cept association graphs, a hybrid content 
+representation, (ii) performing concept 
+chain queries (CCQ) to discover candi-
+date chains, and (iii) subsequently rank-
+ing chains according to the significance 
+of relationships suggested. These func-
+tionalities are implemented using an in-
+teractive visualization paradigm which 
+assists users for a better understanding 
+and interpretation of discovered relation-
+ships. 
+1 

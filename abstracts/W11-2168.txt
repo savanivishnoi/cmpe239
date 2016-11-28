@@ -1,0 +1,18 @@
+
+A major weakness of extant statistical ma-
+chine translation (SMT) systems is their lack
+of a proper training procedure. Phrase extrac-
+tion and scoring processes rely on a chain of
+crude heuristics, a situation judged problem-
+atic by many. In this paper, we recast the ma-
+chine translation problem in the familiar terms
+of a sequence labeling task, thereby enabling
+the use of enriched feature sets and exact train-
+ing and inference procedures. The tractabil-
+ity of the whole enterprise is achieved through
+an efficient implementation of the conditional
+random fields (CRFs) model using a weighted
+finite-state transducers library. This approach
+is experimentally contrasted with several con-
+ventional phrase-based systems.
+1 

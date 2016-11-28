@@ -1,0 +1,16 @@
+
+We present a dependency-driven parser that
+parses both dependency structures and con-
+stituent structures. Constituency representa-
+tions are automatically transformed into de-
+pendency representations with complex arc la-
+bels, which makes it possible to recover the
+constituent structure with both constituent la-
+bels and grammatical functions. We report a
+labeled attachment score close to 90% for de-
+pendency versions of the TIGER and Tu?Ba-
+D/Z treebanks. Moreover, the parser is able to
+recover both constituent labels and grammat-
+ical functions with an F-Score over 75% for
+Tu?Ba-D/Z and over 65% for TIGER.
+1 

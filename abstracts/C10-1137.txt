@@ -1,0 +1,25 @@
+ 
+Nocuous ambiguity occurs when a lin-
+guistic expression is interpreted differ-
+ently by different readers in a given con-
+text. We present an approach to auto-
+matically identify nocuous ambiguity 
+that is likely to lead to misunderstand-
+ings among readers. Our model is built 
+on a machine learning architecture. It 
+learns from a set of heuristics each of 
+which predicts a factor that may lead a 
+reader to favor a particular interpretation. 
+An ambiguity threshold indicates the ex-
+tent to which ambiguity can be tolerated 
+in the application domain. Collections of 
+human judgments are used to train heu-
+ristics and set ambiguity thresholds, and 
+for evaluation. We report results from 
+applying the methodology to coordina-
+tion and anaphora ambiguity. Results 
+show that the method can identify nocu-
+ous ambiguity in text, and may be wid-
+ened to cover further types of ambiguity. 
+We discuss approaches to evaluation. 
+1 

@@ -1,0 +1,18 @@
+ 
+In this paper, a language tagging tem-
+plate named POC-NLW (position of a 
+character within an n-length word) is pre-
+sented. Based on this template, a two-
+stage statistical model for Chinese word 
+segmentation is constructed. In this 
+method, the basic word segmentation is 
+based on n-gram language model, and a 
+Hidden Markov tagger based on the 
+POC-NLW template is used to imple-
+ment the out-of-vocabulary (OOV) word 
+identification. The system participated in 
+the MSRA_Close and UPUC_Close 
+word segmentation tracks at SIGHAN 
+Bakeoff 2006. Results returned by this 
+bakeoff are reported here. 
+1 

@@ -1,0 +1,21 @@
+
+We present an improved approach for
+learning dependency parsers from tree-
+bank data. Our technique is based on two
+ideas for improving large margin train-
+ing in the context of dependency parsing.
+First, we incorporate local constraints that
+enforce the correctness of each individ-
+ual link, rather than just scoring the global
+parse tree. Second, to cope with sparse
+data, we smooth the lexical parameters ac-
+cording to their underlying word similar-
+ities using Laplacian Regularization. To
+demonstrate the benefits of our approach,
+we consider the problem of parsing Chi-
+nese treebank data using only lexical fea-
+tures, that is, without part-of-speech tags
+or grammatical categories. We achieve
+state of the art performance, improving
+upon current large margin approaches.
+1 

@@ -1,0 +1,26 @@
+
+As the web evolves, increasing quantities of
+structured information is embedded in web
+pages in disparate formats. For example, a
+digital camera?s description may include its
+price and megapixels whereas a professor?s
+description may include her name, univer-
+sity, and research interests. Both types of
+pages may include additional ambiguous in-
+formation. General search engines (GSEs)
+do not support queries over these types of
+data because they ignore the web document
+semantics. Conversely, describing requi-
+site semantics through structured queries into
+databases populated by information extraction
+(IE) techniques are expensive and not easily
+adaptable to new domains. This paper de-
+scribes a methodology for rapidly develop-
+ing search engines capable of answering struc-
+tured queries over unstructured corpora by uti-
+lizing machine learning to avoid explicit IE.
+We empirically show that with minimum ad-
+ditional human effort, our system outperforms
+a GSE with respect to structured queries with
+clear object semantics.
+1 

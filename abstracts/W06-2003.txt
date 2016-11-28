@@ -1,0 +1,15 @@
+ 
+We introduce the problem of explicit 
+modeling of form relationships between 
+words in different languages, focusing 
+here on languages having an alphabetic 
+writing system and affixal morphology. 
+We present an algorithm that learns the 
+cross-language correspondence between 
+affixes and letter sequences. The algo-
+rithm does not assume prior knowledge 
+of affixes in any of the languages, using 
+only a simple single letter correspon-
+dence as seed. Results are given for the 
+English-Spanish language pair. 
+1 

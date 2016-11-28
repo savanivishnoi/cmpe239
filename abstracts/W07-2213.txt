@@ -1,0 +1,17 @@
+
+In this paper, we present a method which, in
+practice, allows to use parsers for languages
+defined by very large context-free grammars
+(over a million symbol occurrences). The
+idea is to split the parsing process in two
+passes. A first pass computes a sub-grammar
+which is a specialized part of the large gram-
+mar selected by the input text and various
+filtering strategies. The second pass is a tra-
+ditional parser which works with the sub-
+grammar and the input text. This approach
+is validated by practical experiments per-
+formed on a Earley-like parser running on
+a test set with two large context-free gram-
+mars.
+1 

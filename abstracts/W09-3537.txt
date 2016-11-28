@@ -1,0 +1,17 @@
+ 
+Although direct orthographic mapping has 
+been shown to outperform phoneme-based 
+methods in English-to-Chinese (E2C) translit-
+eration, it is observed that phonological con-
+text plays an important role in resolving gra-
+phemic ambiguity.  In this paper, we investi-
+gate the use of surface graphemic features to 
+approximate local phonological context for 
+E2C.  In the absence of an explicit phonemic 
+representation of the English source names, 
+experiments show that the previous and next 
+character of a given English segment could ef-
+fectively capture the local context affecting its 
+expected pronunciation, and thus its rendition 
+in Chinese. 
+1 

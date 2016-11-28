@@ -1,0 +1,27 @@
+ 
+Query-oriented update summarization is 
+an emerging summarization task very 
+recently. It brings new challenges to the 
+sentence ranking algorithms that require 
+not only to locate the important and 
+query-relevant information, but also to 
+capture the new information when 
+document collections evolve. In this 
+paper, we propose a novel graph based 
+sentence ranking algorithm, namely PNR2, 
+for update summarization. Inspired by the 
+intuition that ?a sentence receives a 
+positive influence from the sentences that 
+correlate to it in the same collection, 
+whereas a sentence receives a negative 
+influence from the sentences that 
+correlates to it in the different (perhaps 
+previously read) collection?, PNR2 
+models both the positive and the negative 
+mutual reinforcement in the ranking 
+process. Automatic evaluation on the 
+DUC 2007 data set pilot task 
+demonstrates the effectiveness of the 
+algorithm.  
+ 
+1 

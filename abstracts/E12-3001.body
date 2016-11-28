@@ -1,0 +1,27 @@
+
+Machine Translation is a well?established
+field, yet the majority of current systems
+translate sentences in isolation, losing valu-
+able contextual information from previ-
+ously translated sentences in the discourse.
+One important type of contextual informa-
+tion concerns who or what a coreferring
+pronoun corefers to (i.e., its antecedent).
+Languages differ significantly in how they
+achieve coreference, and awareness of an-
+tecedents is important in choosing the cor-
+rect pronoun. Disregarding a pronoun?s an-
+tecedent in translation can lead to inappro-
+priate coreferring forms in the target text,
+seriously degrading a reader?s ability to un-
+derstand it.
+This work assesses the extent to which
+source-language annotation of coreferring
+pronouns can improve English?Czech Sta-
+tistical Machine Translation (SMT). As
+with previous attempts that use this method,
+the results show little improvement. This
+paper attempts to explain why and to pro-
+vide insight into the factors affecting per-
+formance.
+1 

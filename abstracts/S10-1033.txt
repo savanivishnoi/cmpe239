@@ -1,0 +1,16 @@
+
+In this paper we present a chunk based
+keyphrase extraction method for scientific
+articles. Different from most previous sys-
+tems, supervised machine learning algo-
+rithms are not used in our system. Instead,
+document structure information is used to
+remove unimportant contents; Chunk ex-
+traction and filtering is used to reduce the
+quantity of candidates; Keywords are used
+to filter the candidates before generating
+final keyphrases. Our experimental results
+on test data show that the method works
+better than the baseline systems and is
+comparable with other known algorithms.
+1 

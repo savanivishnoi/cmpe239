@@ -1,0 +1,22 @@
+
+Translating compounds is an important prob-
+lem in machine translation. Since many com-
+pounds have not been observed during train-
+ing, they pose a challenge for translation sys-
+tems. Previous decompounding methods have
+often been restricted to a small set of lan-
+guages as they cannot deal with more complex
+compound forming processes. We present a
+novel and unsupervised method to learn the
+compound parts and morphological operations
+needed to split compounds into their com-
+pound parts. The method uses a bilingual
+corpus to learn the morphological operations
+required to split a compound into its parts.
+Furthermore, monolingual corpora are used to
+learn and filter the set of compound part can-
+didates. We evaluate our method within a ma-
+chine translation task and show significant im-
+provements for various languages to show the
+versatility of the approach.
+1 

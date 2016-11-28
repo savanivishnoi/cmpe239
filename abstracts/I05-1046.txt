@@ -1,0 +1,10 @@
+. Converting questions to effective queries is crucial to open-domain 
+question answering systems. In this paper, we present a web-based 
+unsupervised learning approach for transforming a given natural-language 
+question to an effective query. The method involves querying a search engine 
+for Web passages that contain the answer to the question, extracting patterns 
+that characterize fine-grained classification for answers, and linking these 
+patterns with n-grams in answer passages. Independent evaluation on a set of 
+questions shows that the proposed approach outperforms a naive keyword-
+based approach in terms of mean reciprocal rank and human effort. 
+1   

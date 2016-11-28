@@ -1,0 +1,22 @@
+
+We propose an architecture for expressing
+various linguistically-motivated features that
+help identify multi-word expressions in nat-
+ural language texts. The architecture com-
+bines various linguistically-motivated clas-
+sification features in a Bayesian Network.
+We introduce novel ways for computing
+many of these features, and manually de-
+fine linguistically-motivated interrelationships
+among them, which the Bayesian network
+models. Our methodology is almost en-
+tirely unsupervised and completely language-
+independent; it relies on few language re-
+sources and is thus suitable for a large num-
+ber of languages. Furthermore, unlike much
+recent work, our approach can identify ex-
+pressions of various types and syntactic con-
+structions. We demonstrate a significant im-
+provement in identification accuracy, com-
+pared with less sophisticated baselines.
+1 

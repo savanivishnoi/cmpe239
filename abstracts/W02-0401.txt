@@ -1,0 +1,20 @@
+
+A maximum entropy classier can be used
+to extract sentences from documents. Ex-
+periments using technical documents show
+that such a classier tends to treat features
+in a categorical manner. This results in per-
+formance that is worse than when extract-
+ing sentences using a naive Bayes classier.
+Addition of an optimised prior to the max-
+imum entropy classier improves perfor-
+mance over and above that of naive Bayes
+(even when naive Bayes is also extended
+with a similar prior). Further experiments
+show that, should we have at our disposal
+extremely informative features, then max-
+imum entropy is able to yield excellent re-
+sults. Naive Bayes, in contrast, cannot ex-
+ploit these features and so fundamentally
+limits sentence extraction performance.
+1 

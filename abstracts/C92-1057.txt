@@ -1,0 +1,26 @@
+ 
+An arbitrary definite clause grammar can be transforaled 
+into a so-called Generalized Greibach Normal Form 
+(GGNF), a generalization f the classical Greibach Nor- 
+mat Form (GNF) for context-free grammars. 
+The normalized efinite clause grammar is declara- 
+tively equivalent to the original definite clause grammar, 
+that is, it assigns the same analyses to the same strings. 
+Offline-parsability of the original grammar is reflected in 
+an elementary textual property of the transformed gram- 
+mar. When this property holds, a direct (top-down) Pro- 
+log implementation f the normalized grammar solves 
+the parsing problem: all solutions are enumerated on 
+backtracking and execution terminates. 
+When specialized to the simpler case of context-free 
+grammars, the GGNF provides a variant to file GNF, 
+where the transformed context-free grammar not only 
+generates the same strings as the original grammar, but 
+also preserves their degrees of ambiguity (this last prop- 
+erty does not hold for the GNF). 
+The GGNF seems to be the first normal form result 
+for DCGs. It provides an explicit factorization of the 
+potential sources of uudeeidability for the parsing prob- 
+lem, and offers valuable insights on the computational 
+structure of unification grammars in general. 
+1 

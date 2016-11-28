@@ -1,0 +1,19 @@
+
+An intelligent thesaurus assists a writer
+with alternative choices of words and or-
+ders them by their suitability in the writ-
+ing context. In this paper we focus on
+methods for automatically choosing near-
+synonyms by their semantic coherence
+with the context. Our statistical method
+uses the Web as a corpus to compute
+mutual information scores. Evaluation
+experiments show that this method per-
+forms better than a previous method on
+the same task. We also propose and evalu-
+ate two more methods, one that uses anti-
+collocations, and one that uses supervised
+learning. To asses the difficulty of the
+task, we present results obtained by hu-
+man judges.
+1 

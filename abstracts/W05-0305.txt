@@ -1,0 +1,20 @@
+
+The annotations of the Penn Discourse
+Treebank (PDTB) include (1) discourse
+connectives and their arguments, and (2)
+attribution of each argument of each con-
+nective and of the relation it denotes. Be-
+cause the PDTB covers the same text as
+the Penn TreeBank WSJ corpus, syntac-
+tic and discourse annotation can be com-
+pared. This has revealed significant dif-
+ferences between syntactic structure and
+discourse structure, in terms of the argu-
+ments of connectives, due in large part to
+attribution. We describe these differences,
+an algorithm for detecting them, and fi-
+nally some experimental results. These re-
+sults have implications for automating dis-
+course annotation based on syntactic an-
+notation.
+1 

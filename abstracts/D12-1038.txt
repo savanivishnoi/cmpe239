@@ -1,0 +1,24 @@
+
+In this paper we first describe the technol-
+ogy of automatic annotation transformation,
+which is based on the annotation adaptation
+algorithm (Jiang et al2009). It can auto-
+matically transform a human-annotated cor-
+pus from one annotation guideline to another.
+We then propose two optimization strategies,
+iterative training and predict-self reestimation,
+to further improve the accuracy of annota-
+tion guideline transformation. Experiments on
+Chinese word segmentation show that, the it-
+erative training strategy together with predict-
+self reestimation brings significant improve-
+ment over the simple annotation transforma-
+tion baseline, and leads to classifiers with sig-
+nificantly higher accuracy and several times
+faster processing than annotation adaptation
+does. On the Penn Chinese Treebank 5.0,
+it achieves an F-measure of 98.43%, signif-
+icantly outperforms previous works although
+using a single classifier with only local fea-
+tures.
+1 

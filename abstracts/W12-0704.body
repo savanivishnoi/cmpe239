@@ -1,0 +1,23 @@
+
+Clustered word classes have been used in
+connection with statistical machine transla-
+tion, for instance for improving word align-
+ments. In this work we investigate if clus-
+tered word classes can be used in a pre-
+ordering strategy, where the source lan-
+guage is reordered prior to training and
+translation. Part-of-speech tagging has pre-
+viously been successfully used for learn-
+ing reordering rules that can be applied
+before training and translation. We show
+that we can use word clusters for learn-
+ing rules, and significantly improve on a
+baseline with only slightly worse perfor-
+mance than for standard POS-tags on an
+English?German translation task. We also
+show the usefulness of the approach for
+the less-resourced language Haitian Creole,
+for translation into English, where the sug-
+gested approach is significantly better than
+the baseline.
+1 

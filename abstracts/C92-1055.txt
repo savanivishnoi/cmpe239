@@ -1,0 +1,21 @@
+ 
+In this paper, a discrimination and robusmess 
+oriented adaptive learning procedure is proposed to 
+deal with the task of syntactic ambiguity resolution. 
+Owing to the problem of insufficient training data 
+and approximation error introduced by the language 
+model, traditional statistical approaches, which re- 
+solve ambiguities by indirectly and implicitly using 
+maximum likelihood method, fail to achieve high 
+performance in real applications. The proposed 
+method remedies these problems by adjusting the 
+parameters to maximize the accuracy rate directly. 
+To make the proposed algorithm robust, the possi- 
+ble variations between the training corpus and the 
+real tasks are als0 taken into consideration by en- 
+larging the separation margin between the correct 
+candidate and its competing members. Significant 
+improvement has been observed in the test. The 
+accuracy rate of syntactic disambiguation is raised 
+from 46.0% to 60.62% by using this novel approach. 
+1. 

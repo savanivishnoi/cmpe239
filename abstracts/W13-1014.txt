@@ -1,0 +1,25 @@
+
+A challenging topic in Portuguese language
+processing is the multifunctional and ambigu-
+ous use of the clitic pronoun se, which impacts
+NLP tasks such as syntactic parsing, semantic
+role labeling and machine translation. Aiming
+to give a step forward towards the automatic
+disambiguation of se, our study focuses on the
+identification of pronominal verbs, which cor-
+respond to one of the six uses of se as a clitic
+pronoun, when se is considered a CONSTITU-
+TIVE PARTICLE of the verb lemma to which
+it is bound, as a multiword unit. Our strategy
+to identify such verbs is to analyze the results
+of a corpus search and to rule out all the other
+possible uses of se. This process evidenced
+the features needed in a computational lexicon
+to automatically perform the disambiguation
+task. The availability of the resulting lexicon
+of pronominal verbs on the web enables their
+inclusion in broader lexical resources, such as
+the Portuguese versions of Wordnet, Propbank
+and VerbNet. Moreover, it will allow the revi-
+sion of parsers and dictionaries already in use.
+1 

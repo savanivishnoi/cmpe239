@@ -1,0 +1,18 @@
+
+In a context where information retrieval is
+extended to spoken ?documents? includ-
+ing conversations, it will be important to
+provide users with the ability to seek in-
+formational content, rather than socially
+motivated small talk that appears in many
+conversational sources. In this paper we
+present a preliminary study aimed at auto-
+matically identifying ?irrelevance? in the
+domain of telephone conversations. We
+apply a standard machine learning algo-
+rithm to build a classifier that detects off-
+topic sections with better-than-chance ac-
+curacy and that begins to provide insight
+into the relative importance of features for
+identifying utterances as on topic or not.
+1 

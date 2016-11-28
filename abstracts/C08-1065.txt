@@ -1,0 +1,27 @@
+
+Most studies in statistical or machine
+learning based authorship attribution focus
+on two or a few authors. This leads to
+an overestimation of the importance of the
+features extracted from the training data
+and found to be discriminating for these
+small sets of authors. Most studies also
+use sizes of training data that are unreal-
+istic for situations in which stylometry is
+applied (e.g., forensics), and thereby over-
+estimate the accuracy of their approach in
+these situations. A more realistic interpre-
+tation of the task is as an authorship ver-
+ification problem that we approximate by
+pooling data from many different authors
+as negative examples. In this paper, we
+show, on the basis of a new corpus with
+145 authors, what the effect is of many
+authors on feature selection and learning,
+and show robustness of a memory-based
+learning approach in doing authorship at-
+tribution and verification with many au-
+thors and limited training data when com-
+pared to eager learning methods such as
+SVMs and maximum entropy learning.
+1 

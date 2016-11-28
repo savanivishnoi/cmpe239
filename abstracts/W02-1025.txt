@@ -1,0 +1,18 @@
+
+While recent retrieval techniques do not
+limit the number of index terms, out-of-
+vocabulary (OOV) words are crucial in
+speech recognition. Aiming at retrieving
+information with spoken queries, we fill
+the gap between speech recognition and
+text retrieval in terms of the vocabulary
+size. Given a spoken query, we gener-
+ate a transcription and detect OOV words
+through speech recognition. We then cor-
+respond detected OOV words to terms in-
+dexed in a target collection to complete the
+transcription, and search the collection for
+documents relevant to the completed tran-
+scription. We show the effectiveness of
+our method by way of experiments.
+1 

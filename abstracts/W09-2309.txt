@@ -1,0 +1,26 @@
+
+This paper presents a reordering model us-
+ing syntactic information of a source tree for
+phrase-based statistical machine translation.
+The proposed model is an extension of IST-
+ITG (imposing source tree on inversion trans-
+duction grammar) constraints. In the pro-
+posed method, the target-side word order is
+obtained by rotating nodes of the source-side
+parse-tree. We modeled the node rotation,
+monotone or swap, using word alignments
+based on a training parallel corpus and source-
+side parse-trees. The model efficiently sup-
+presses erroneous target word orderings, espe-
+cially global orderings. Furthermore, the pro-
+posed method conducts a probabilistic evalu-
+ation of target word reorderings. In English-
+to-Japanese and English-to-Chinese transla-
+tion experiments, the proposed method re-
+sulted in a 0.49-point improvement (29.31 to
+29.80) and a 0.33-point improvement (18.60
+to 18.93) in word BLEU-4 compared with
+IST-ITG constraints, respectively. This indi-
+cates the validity of the proposed reordering
+model.
+1 

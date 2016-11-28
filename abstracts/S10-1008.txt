@@ -1,0 +1,21 @@
+
+We describe the SemEval-2010 shared
+task on ?Linking Events and Their Partic-
+ipants in Discourse?. This task is an ex-
+tension to the classical semantic role label-
+ing task. While semantic role labeling is
+traditionally viewed as a sentence-internal
+task, local semantic argument structures
+clearly interact with each other in a larger
+context, e.g., by sharing references to spe-
+cific discourse entities or events. In the
+shared task we looked at one particular as-
+pect of cross-sentence links between ar-
+gument structures, namely linking locally
+uninstantiated roles to their co-referents
+in the wider discourse context (if such
+co-referents exist). This task is poten-
+tially beneficial for a number of NLP ap-
+plications, such as information extraction,
+question answering or text summarization.
+1 

@@ -1,0 +1,13 @@
+
+In this paper we describe Mephisto, our
+system for Task 9 of the SemEval-2 work-
+shop. Our approach to this task is to de-
+velop a machine learning classifier which
+determines for each verb pair describing
+a noun compound which verb should be
+ranked higher. These classifications are
+then combined into one ranking. Our clas-
+sifier uses features from the Google N-
+gram Corpus, WordNet and the provided
+training data.
+1 

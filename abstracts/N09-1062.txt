@@ -1,0 +1,15 @@
+
+Tree substitution grammars (TSGs) are a com-
+pelling alternative to context-free grammars
+for modelling syntax. However, many popu-
+lar techniques for estimating weighted TSGs
+(under the moniker of Data Oriented Parsing)
+suffer from the problems of inconsistency and
+over-fitting. We present a theoretically princi-
+pled model which solves these problems us-
+ing a Bayesian non-parametric formulation.
+Our model learns compact and simple gram-
+mars, uncovering latent linguistic structures
+(e.g., verb subcategorisation), and in doing so
+far out-performs a standard PCFG.
+1 

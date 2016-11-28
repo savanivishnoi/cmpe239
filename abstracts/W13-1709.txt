@@ -1,0 +1,31 @@
+ 
+This paper presents and evaluates approaches 
+to automatically score the content correctness 
+of spoken responses in a new language test for 
+teachers of English as a foreign language who 
+are non-native speakers of English. Most ex-
+isting tests of English spoken proficiency elic-
+it responses that are either very constrained 
+(e.g., reading a passage aloud) or are of a pre-
+dominantly spontaneous nature (e.g., stating 
+an opinion on an issue). However, the assess-
+ment discussed in this paper focuses on essen-
+tial speaking skills that English teachers need 
+in order to be effective communicators in their 
+classrooms and elicits mostly responses that 
+fall in between these extremes and are moder-
+ately predictable. In order to automatically 
+score the content accuracy of these spoken re-
+sponses, we propose three categories of robust 
+features, inspired from flexible text matching, 
+n-grams, as well as string edit distance met-
+rics. The experimental results indicate that 
+even based on speech recognizer output, most 
+of the feature correlations with human expert 
+rater scores are in the range of r = 0.4 to r = 
+0.5, and further, that a scoring model for pre-
+dicting human rater proficiency scores that in-
+cludes our content features can significantly 
+outperform a baseline without these features 
+(r = 0.56 vs. r = 0.33).  
+1 

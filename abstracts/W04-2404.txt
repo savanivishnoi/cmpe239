@@ -1,0 +1,18 @@
+
+The success of supervised learning approaches
+to word sense disambiguation is largely de-
+pendent on the features used to represent the
+context in which an ambiguous word occurs.
+Previous work has reached mixed conclusions;
+some suggest that combinations of syntactic
+and lexical features will perform most effec-
+tively. However, others have shown that sim-
+ple lexical features perform well on their own.
+This paper evaluates the effect of using differ-
+ent lexical and syntactic features both individu-
+ally and in combination. We show that it is pos-
+sible for a very simple ensemble that utilizes a
+single lexical feature and a sequence of part of
+speech features to result in disambiguation ac-
+curacy that is near state of the art.
+1 

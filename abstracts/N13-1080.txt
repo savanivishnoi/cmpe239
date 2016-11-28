@@ -1,0 +1,17 @@
+
+Multi-Domain learning assumes that a sin-
+gle metadata attribute is used in order to di-
+vide the data into so-called domains. How-
+ever, real-world datasets often have multi-
+ple metadata attributes that can divide the
+data into domains. It is not always apparent
+which single attribute will lead to the best do-
+mains, and more than one attribute might im-
+pact classification. We propose extensions to
+two multi-domain learning techniques for our
+multi-attribute setting, enabling them to si-
+multaneously learn from several metadata at-
+tributes. Experimentally, they outperform the
+multi-domain learning baseline, even when it
+selects the single ?best? attribute.
+1 

@@ -1,0 +1,18 @@
+
+Because the real world evolves over time, nu-
+merous relations between entities written in
+presently available texts are already obsolete
+or will potentially evolve in the future. This
+study aims at resolving the intricacy in con-
+sistently compiling relations extracted from
+text, and presents a method for identifying
+constancy and uniqueness of the relations in
+the context of supervised learning. We ex-
+ploit massive time-series web texts to induce
+features on the basis of time-series frequency
+and linguistic cues. Experimental results con-
+firmed that the time-series frequency distribu-
+tions contributed much to the recall of con-
+stancy identification and the precision of the
+uniqueness identification.
+1 

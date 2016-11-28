@@ -1,0 +1,18 @@
+
+This paper describes the Nara Institute
+of Science and Technology (NAIST) er-
+ror correction system in the CoNLL 2013
+Shared Task. We constructed three sys-
+tems: a system based on the Treelet Lan-
+guage Model for verb form and subject-
+verb agreement errors; a classifier trained
+on both learner and native corpora for
+noun number errors; a statistical machine
+translation (SMT)-based model for prepo-
+sition and determiner errors. As for
+subject-verb agreement errors, we show
+that the Treelet Language Model-based
+approach can correct errors in which the
+target verb is distant from its subject. Our
+system ranked fourth on the official run.
+1 

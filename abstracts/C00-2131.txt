@@ -1,0 +1,14 @@
+ 
+In this paper, we describe a system and meth- 
+ods for finding structural correspondences from the 
+paired dependency structures of a source sentence 
+and its translation in a target language. The sys- 
+tem we have developed finds word correspondences 
+first, then finds phrasal correspon(tences based on 
+word correspondences. We have also developed a
+GUI system with which a user can check and cor- 
+rect tile correspondences retrieved by the system. 
+These structural correspondences will be used as 
+raw translation I)atterns in a corpus-based transla- 
+tion system. 
+1 

@@ -1,0 +1,23 @@
+
+The paper describes a tagger for Old Czech
+(1200-1500 AD), a fusional language with
+rich morphology. The practical restrictions
+(no native speakers, limited corpora and lex-
+icons, limited funding) make Old Czech an
+ideal candidate for a resource-light cross-
+lingual method that we have been developing
+(e.g. Hana et al, 2004; Feldman and Hana,
+2010).
+We use a traditional supervised tagger. How-
+ever, instead of spending years of effort to cre-
+ate a large annotated corpus of Old Czech, we
+approximate it by a corpus of Modern Czech.
+We perform a series of simple transformations
+to make a modern text look more like a text
+in Old Czech and vice versa. We also use a
+resource-light morphological analyzer to pro-
+vide candidate tags. The results are worse
+than the results of traditional taggers, but the
+amount of language-specific work needed is
+minimal.
+1 

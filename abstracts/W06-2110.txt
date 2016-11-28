@@ -1,0 +1,15 @@
+
+This paper presents a method for identify-
+ing token instances of verb particle con-
+structions (VPCs) automatically, based on
+the output of the RASP parser. The pro-
+posed method pools together instances of
+VPCs and verb-PPs from the parser out-
+put and uses the sentential context of each
+such instance to differentiate VPCs from
+verb-PPs. We show our technique to per-
+form at an F-score of 97.4% at identifying
+VPCs in Wall Street Journal and Brown
+Corpus data taken from the Penn Tree-
+bank.
+1 

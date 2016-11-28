@@ -1,0 +1,40 @@
+ 
+This paper presents a constraint-based multi-
+agent strategy to coreference resolution of 
+general noun phrases in unrestricted English 
+text. For a given anaphor and all the preceding 
+referring expressions as the antecedent 
+candidates, a common constraint agent is first 
+presented to filter out invalid antecedent 
+candidates using various kinds of general 
+knowledge.  Then, according to the type of the 
+anaphor, a special constraint agent is proposed to 
+filter out more invalid antecedent candidates 
+using constraints which are derived from various 
+kinds of special knowledge. Finally, a simple 
+preference agent is used to choose an antecedent 
+for the anaphor form the remaining antecedent 
+candidates, based on the proximity principle. 
+One interesting observation is that the most 
+recent antecedent of an anaphor in the 
+coreferential chain is sometimes indirectly 
+linked to the anaphor via some other antecedents 
+in the chain.  In this case, we find that the most 
+recent antecedent always contains little 
+information to directly determine the coreference 
+relationship with the anaphor. Therefore, for a 
+given anaphor, the corresponding special 
+constraint agent can always safely filter out these 
+less informative antecedent candidates. In this 
+way, rather than finding the most recent 
+antecedent for an anaphor, our system tries to 
+find the most direct and informative antecedent. 
+Evaluation shows that our system achieves 
+Precision / Recall / F-measures of 84.7% / 
+65.8% / 73.9 and 82.8% / 55.7% / 66.5 on MUC-
+6 and MUC-7 English coreference tasks 
+respectively. This means that our system 
+achieves significantly better precision rates by 
+about 8 percent over the best-reported systems 
+while keeping recall rates.   
+1 

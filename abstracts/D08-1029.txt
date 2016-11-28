@@ -1,0 +1,33 @@
+ 
+This paper describes a language-independent, 
+scalable system for both challenges of cross-
+document co-reference: name variation and 
+entity disambiguation. We provide system re-
+sults from the ACE 2008 evaluation in both 
+English and Arabic. Our English system?s ac-
+curacy is 8.4% relative better than an exact 
+match baseline (and 14.2% relative better over 
+entities mentioned in more than one docu-
+ment). Unlike previous evaluations, ACE 
+2008 evaluated both name variation and entity 
+disambiguation over naturally occurring 
+named mentions.  An information extraction 
+engine finds document entities in text. We de-
+scribe how our architecture designed for the 
+10K document ACE task is scalable to an 
+even larger corpus.  Our cross-document ap-
+proach uses the names of entities to find an 
+initial set of document entities that could refer 
+to the same real world entity and then uses an 
+agglomerative clustering algorithm to disam-
+biguate the potentially co-referent document 
+entities. We analyze how different aspects of 
+our system affect performance using ablation 
+studies over the English evaluation set. In ad-
+dition to evaluating cross-document co-
+reference performance, we used the results of 
+the cross-document system to improve the ac-
+curacy of within-document extraction, and 
+measured the impact in the ACE 2008 within-
+document evaluation.  
+1 

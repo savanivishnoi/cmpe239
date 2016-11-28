@@ -1,0 +1,14 @@
+
+For sentence compression, we propose new se-
+mantic constraints to directly capture the relations
+between a predicate and its arguments, whereas
+the existing approaches have focused on relatively
+shallow linguistic properties, such as lexical and
+syntactic information. These constraints are based
+on semantic roles and superior to the constraints
+of syntactic dependencies. Our empirical eval-
+uation on the Written News Compression Cor-
+pus (Clarke and Lapata, 2008) demonstrates that
+our system achieves results comparable to other
+state-of-the-art techniques.
+1 

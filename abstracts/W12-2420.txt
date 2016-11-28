@@ -1,0 +1,19 @@
+
+This paper presents a machine learning ap-
+proach that selects and, more generally, ranks
+sentences containing clear relations between
+genes and terms that are related to them. This
+is treated as a binary classification task, where
+preference judgments are used to learn how to
+choose a sentence from a pair of sentences.
+Features to capture how the relationship is de-
+scribed textually, as well as how central the
+relationship is in the sentence, are used in the
+learning process. Simplification of complex
+sentences into simple structures is also applied
+for the extraction of the features. We show that
+such simplification improves the results by up
+to 13%. We conducted three different evalu-
+ations and we found that the system signifi-
+cantly outperforms the baselines.
+1 

@@ -1,0 +1,12 @@
+
+We present an algorithmic framework for
+learning multiple related tasks. Our frame-
+work exploits a form of prior knowledge that
+relates the output spaces of these tasks. We
+present PAC learning results that analyze the
+conditions under which such learning is pos-
+sible. We present results on learning a shal-
+low parser and named-entity recognition sys-
+tem that exploits our framework, showing con-
+sistent improvements over baseline methods.
+1 

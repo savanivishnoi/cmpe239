@@ -1,0 +1,26 @@
+ 
+Term Extraction (TE) is an important com-
+ponent of many NLP applications. In gen-
+eral, terms are extracted for a given text 
+collection based on global context and fre-
+quency analysis on words/phrases associa-
+tion. These extracted terms represent effec-
+tively the text content of the collection for 
+knowledge elicitation tasks. However, they 
+fail to dictate the local contextual informa-
+tion for each document effectively. In this 
+paper, we refine the state-of-the-art C/NC-
+Value term weighting method by consider-
+ing both termhood and unithood measures, 
+and use the former extracted terms to direct 
+the local term extraction for each document. 
+We performed the experiments on Straits 
+Times year 2006 corpus and evaluated our 
+performance using Wikipedia termbank.  
+The experiments showed that our model 
+outperforms C/NC-Value method for global 
+term extraction by 24.4% based on term 
+ranking. The precision for local term ex-
+traction improves by 12% when compared 
+to pure linguistic based extraction method. 
+1 

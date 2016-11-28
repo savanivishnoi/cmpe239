@@ -1,0 +1,23 @@
+
+In this paper, we propose a novel self-
+training strategy for parsing which is 
+based on Treebank conversion (SSPTC). 
+In SSPTC, we make full use of the 
+strong points of Treebank conversion 
+and self-training, and offset their 
+weaknesses with each other. To provide 
+good parse selection strategies which are 
+needed in self-training, we score the 
+automatically generated parse trees with 
+parse trees in source Treebank as a 
+reference. To maintain the constituency 
+between source Treebank and conversion 
+Treebank which is needed in Treebank 
+conversion, we get the conversion trees 
+with the help of self-training. In our 
+experiments, SSPTC strategy is utilized 
+to parse Tsinghua Chinese Treebank 
+with the help of Penn Chinese Treebank. 
+The results significantly outperform the 
+baseline parser. 
+1 

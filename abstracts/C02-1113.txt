@@ -1,0 +1,15 @@
+
+We present an engine for text adventures ? computer
+games with which the player interacts using natu-
+ral language. The system employs current meth-
+ods from computational linguistics and an efficient
+inference system for description logic to make the
+interaction more natural. The inference system is
+especially useful in the linguistic modules dealing
+with reference resolution and generation and we
+show how we use it to rank different readings in
+the case of referential and syntactic ambiguities. It
+turns out that the player?s utterances are naturally
+restricted in the game scenario, which simplifies the
+language processing task.
+1 

@@ -1,0 +1,24 @@
+
+Markov order-1 conditional random fields
+(CRFs) and semi-Markov CRFs are two
+popular models for sequence segmenta-
+tion and labeling. Both models have ad-
+vantages in terms of the type of features
+they most naturally represent. We pro-
+pose a hybrid model that is capable of rep-
+resenting both types of features, and de-
+scribe efficient algorithms for its training
+and inference. We demonstrate that our
+hybrid model achieves error reductions of
+18% and 25% over a standard order-1 CRF
+and a semi-Markov CRF (resp.) on the
+task of Chinese word segmentation. We
+also propose the use of a powerful fea-
+ture for the semi-Markov CRF: the log
+conditional odds that a given token se-
+quence constitutes a chunk according to
+a generative model, which reduces error
+by an additional 13%. Our best system
+achieves 96.8% F-measure, the highest re-
+ported score on this test set.
+1 

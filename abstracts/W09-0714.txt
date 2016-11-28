@@ -1,0 +1,27 @@
+ 
+This paper investigates the possibilities that 
+cross-linguistic similarities and dissimilarities 
+between related languages offer in terms of 
+bootstrapping a morphological analyser. In 
+this case an existing Zulu morphological ana-
+lyser prototype (ZulMorph) serves as basis 
+for a Xhosa analyser. The investigation is 
+structured around the morphotactics and the 
+morphophonological alternations of the lan-
+guages involved. Special attention is given to 
+the so-called ?open? class, which represents 
+the word root lexicons for specifically nouns 
+and verbs. The acquisition and coverage of 
+these lexicons prove to be crucial for the suc-
+cess of the analysers under development.  
+The bootstrapped morphological analyser is 
+applied to parallel test corpora and the results 
+are discussed. A variety of cross-linguistic ef-
+fects is illustrated with examples from the 
+corpora. It is found that bootstrapping mor-
+phological analysers for languages that ex-
+hibit significant structural and lexical simi-
+larities may be fruitfully exploited for devel-
+oping analysers for lesser-resourced lan-
+guages. 
+1  

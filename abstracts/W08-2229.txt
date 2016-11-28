@@ -1,0 +1,15 @@
+
+Temporal expressions that refer to a part of a calendar area in terms of
+common calendar divisions are studied. Our claim is that such a ?cal-
+endar expression" (CE) can be described by a succession of operators
+operating on a calendar base (CB). These operators are categorized: a
+pointing operator that transform a CB into a CE; a focalizing/shifting op-
+erator that reduces or shifts the CE into another CE, and finally a zoning
+operator that provides the wanted CE from this last CE. Relying on these
+operators, a set of annotations is presented which are used to automat-
+ically annotate biographic texts. A software application, plugged in the
+platformNavitext, is described that builds a calendar view of a biographic
+text.
+365
+366 Battistelli, Couto, Minel, and Schwer
+1 

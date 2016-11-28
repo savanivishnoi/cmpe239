@@ -1,0 +1,53 @@
+
+We introduce the proceedings from the
+workshop ?Computing and Historical Pho-
+nology: 9th Meeting of the ACL Special In-
+terest Group for Computational Morphology
+and Phonology?.
+1 Background
+Historical phonology is the study of how the sounds
+and sound systems of a language evolve, and in-
+cludes research issues concerning the triggering of
+sound changes; their temporal and geographic prop-
+agation (including lexical diffusion); the regular-
+ity/irregularity of sound change, and its interaction
+with morphological change; the role of borrowing
+and analogy in sound change; the interaction of
+sound change with the phonemic system (poten-
+tially promoting certain changes, but also neutral-
+izing phonemic distinctions); and the detection of
+these phenomena in historical documents.
+There is a substantial and growing body of work
+applying computational techniques of various sorts
+to problems in historical phonology. We mention a
+few here to give the flavor of the sort of work we
+hoped to attract for presentation in a coherent SIG-
+MORPHON workshop. Kessler (2001) estimates
+the likelihood of chance phonemic correspondences
+using permutation statistics; Kondrak (2002) devel-
+ops algorithms to detect cognates and sound corre-
+spondences; McMahon and McMahon (2005) and
+also Nakhleh, Ringe and Warnow (2005) apply phy-
+logenetic techniques to comparative reconstruction;
+and Ellison and Kirby (2006) suggest means of de-
+tecting relationships which do not depend on word
+by word comparisons. But we likewise wished to
+draw on the creativity of the computational linguis-
+tics (CL) community to see which other important
+problems in historical phonology might also be ad-
+dressed computationally (see below).
+There has recently been a good deal of computa-
+tional work in historical linguistics involving phylo-
+genetic inference, i.e., the inference to the genealog-
+ical tree which best explains the historical develop-
+ments (Gray and Atkinson, 2003; Dunn et al, 2005).
+While the application of phylogenetic analysis has
+not universally been welcomed with open philolog-
+ical arms (Holm, 2007), it has attracted a good deal
+of attention, some of which we hoped to engage. We
+take no stand on these controversies here, but note
+that computing may be employed in historical lin-
+guistics, and in particular in historical phonology in
+a more versatile way, its uses extending well beyond
+phylogenetic inference.
+2 

@@ -1,0 +1,18 @@
+
+The role of search queries, as available within
+query sessions or in isolation from one an-
+other, in examined in the context of ranking
+the class labels (e.g., brazilian cities, busi-
+ness centers, hilly sites) extracted from Web
+documents for various instances (e.g., rio de
+janeiro). The co-occurrence of a class la-
+bel and an instance, in the same query or
+within the same query session, is used to re-
+inforce the estimated relevance of the class la-
+bel for the instance. Experiments over eval-
+uation sets of instances associated with Web
+search queries illustrate the higher quality of
+the query-based, re-ranked class labels, rel-
+ative to ranking baselines using document-
+based counts.
+1 

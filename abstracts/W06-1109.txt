@@ -1,0 +1,32 @@
+
+To determine how close two language
+models (e.g., n-grams models) are, we
+can use several distance measures. If we
+can represent the models as distributions,
+then the similarity is basically the simi-
+larity of distributions. And a number of
+measures are based on information theo-
+retic approach. In this paper we present
+some experiments on using such similar-
+ity measures for an old Natural Language
+Processing (NLP) problem. One of the
+measures considered is perhaps a novel
+one, which we have called mutual cross
+entropy. Other measures are either well
+known or based on well known measures,
+but the results obtained with them vis-a-
+vis one-another might help in gaining an
+insight into how similarity measures work
+in practice.
+The first step in processing a text is to
+identify the language and encoding of its
+contents. This is a practical problem since
+for many languages, there are no uni-
+versally followed text encoding standards.
+The method we have used in this paper
+for language and encoding identification
+uses pruned character n-grams, alone as
+well augmented with word n-grams. This
+method seems to give results comparable
+to other methods.
+1 

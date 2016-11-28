@@ -1,0 +1,22 @@
+
+We describe a system for extracting com-
+plex events among genes and proteins from
+biomedical literature, developed in context of
+the BioNLP?09 Shared Task on Event Extrac-
+tion. For each event, its text trigger, class, and
+arguments are extracted. In contrast to the pre-
+vailing approaches in the domain, events can
+be arguments of other events, resulting in a
+nested structure that better captures the under-
+lying biological statements. We divide the task
+into independent steps which we approach as
+machine learning problems. We define a wide
+array of features and in particular make ex-
+tensive use of dependency parse graphs. A
+rule-based post-processing step is used to re-
+fine the output in accordance with the restric-
+tions of the extraction task. In the shared task
+evaluation, the system achieved an F-score of
+51.95% on the primary task, the best perfor-
+mance among the participants.
+1 

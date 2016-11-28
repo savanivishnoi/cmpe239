@@ -1,0 +1,17 @@
+
+We generalize the task of finding question
+paraphrases in a question repository to a
+novel formulation in which known ques-
+tions are ranked based on their utility to
+a new, reference question. We manually
+annotate a dataset of 60 groups of ques-
+tions with a partial order relation reflect-
+ing the relative utility of questions inside
+each group, and use it to evaluate mean-
+ing and structure aware utility functions.
+Experimental evaluation demonstrates the
+importance of using structural informa-
+tion in estimating the relative usefulness
+of questions, holding the promise of in-
+creased usability for social QA sites.
+1 

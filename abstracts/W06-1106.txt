@@ -1,0 +1,16 @@
+
+We design and test a sentence com-
+parison method using the framework
+of Robust Minimal Recursion Seman-
+tics which allows us to utilise the deep
+parse information produced by Jacy, a
+Japanese HPSG based parser and the
+lexical information available in our on-
+tology. Our method was used for both
+paraphrase detection and also for an-
+swer sentence selection for question an-
+swering. In both tasks, results showed
+an improvement over Bag-of-Words, as
+well as providing extra information use-
+ful to the applications.
+1 

@@ -1,0 +1,20 @@
+ 
+Name tagging is a critical early stage in 
+many natural language processing pipe-
+lines. In this paper we analyze the types 
+of errors produced by a tagger, distin-
+guishing name classification and various 
+types of name identification errors.  We 
+present a joint inference model to im-
+prove Chinese name tagging by incorpo-
+rating feedback from subsequent stages in 
+an information extraction pipeline: name 
+structure parsing, cross-document 
+coreference, semantic relation extraction 
+and event extraction. We show through 
+examples and performance measurement 
+how different stages can correct different 
+types of errors.  The resulting accuracy 
+approaches that of individual human an-
+notators.   
+1 

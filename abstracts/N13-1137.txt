@@ -1,0 +1,21 @@
+
+We introduce a novel algorithm for generat-
+ing referring expressions, informed by human
+and computer vision and designed to refer to
+visible objects. Our method separates abso-
+lute properties like color from relative proper-
+ties like size to stochastically generate a di-
+verse set of outputs. Expressions generated
+using this method are often overspecified and
+may be underspecified, akin to expressions
+produced by people. We call such expressions
+identifying descriptions. The algorithm out-
+performs the well-known Incremental Algo-
+rithm (Dale and Reiter, 1995) and the Graph-
+Based Algorithm (Krahmer et al, 2003; Vi-
+ethen et al, 2008) across a variety of images
+in two domains. We additionally motivate
+an evaluation method for referring expression
+generation that takes the proposed algorithm?s
+non-determinism into account.
+1 

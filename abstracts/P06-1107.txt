@@ -1,0 +1,16 @@
+
+In this paper we investigate a novel
+method to detect asymmetric entailment
+relations between verbs. Our starting point
+is the idea that some point-wise verb selec-
+tional preferences carry relevant seman-
+tic information. Experiments using Word-
+Net as a gold standard show promising re-
+sults. Where applicable, our method, used
+in combination with other approaches, sig-
+nificantly increases the performance of en-
+tailment detection. A combined approach
+including our model improves the AROC
+of 5% absolute points with respect to stan-
+dard models.
+1 

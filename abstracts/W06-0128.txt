@@ -1,0 +1,18 @@
+ 
+Most of the Chinese word segmentation 
+systems utilizes monolingual dictionary 
+and are used for monolingual processing.  
+For the tasks of machine translation (MT) 
+and cross-language information retrieval 
+(CLIR), another translation dictionary 
+may be used to transfer the words of 
+documents from the source languages to 
+target languages.  The inconsistencies re-
+sulting from the two types of dictionaries 
+(segmentation dictionary and transfer 
+dictionary) may produce some problems 
+for MT and CLIR.  This paper shows the 
+effectiveness of the external resources 
+(bilingual dictionary and word list) for 
+Chinese word segmentations. 
+1 

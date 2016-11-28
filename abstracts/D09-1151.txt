@@ -1,0 +1,17 @@
+
+This paper proposes a probabilistic model
+for associative anaphora resolution in
+Japanese. Associative anaphora is a
+type of bridging anaphora, in which the
+anaphor and its antecedent are not coref-
+erent. Our model regards associative
+anaphora as a kind of zero anaphora and
+resolves it in the same manner as zero
+anaphora resolution using automatically
+acquired lexical knowledge. Experimen-
+tal results show that our model resolves
+associative anaphora with good perfor-
+mance and the performance is improved
+by resolving it simultaneously with zero
+anaphora.
+1 

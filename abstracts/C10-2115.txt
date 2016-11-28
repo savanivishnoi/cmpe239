@@ -1,0 +1,18 @@
+
+We present an evaluation framework for
+plagiarism detection.1 The framework
+provides performance measures that ad-
+dress the specifics of plagiarism detec-
+tion, and the PAN-PC-10 corpus, which
+contains 64 558 artificial and 4 000 sim-
+ulated plagiarism cases, the latter gener-
+ated via Amazon?s Mechanical Turk. We
+discuss the construction principles behind
+the measures and the corpus, and we com-
+pare the quality of our corpus to exist-
+ing corpora. Our analysis gives empirical
+evidence that the construction of tailored
+training corpora for plagiarism detection
+can be automated, and hence be done on a
+large scale.
+1 

@@ -1,0 +1,20 @@
+
+We report results on predicting the sense
+of implicit discourse relations between ad-
+jacent sentences in text. Our investigation
+concentrates on the association between
+discourse relations and properties of the
+referring expressions that appear in the re-
+lated sentences. The properties of inter-
+est include coreference information, gram-
+matical role, information status and syn-
+tactic form of referring expressions. Pre-
+dicting the sense of implicit discourse re-
+lations based on these features is consid-
+erably better than a random baseline and
+several of the most discriminative features
+conform with linguistic intuitions. How-
+ever, these features do not perform as well
+as lexical features traditionally used for
+sense prediction.
+1 

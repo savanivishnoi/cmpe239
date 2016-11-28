@@ -1,0 +1,30 @@
+
+Early primary children?s literature poses some
+interesting challenges for automated readabil-
+ity assessment: for example, teachers often
+use fine-grained reading leveling systems for
+determining appropriate books for children to
+read (many current systems approach read-
+ability assessment at a coarser whole grade
+level). In previous work (Ma et al., 2012),
+we suggested that the fine-grained assess-
+ment task can be approached using a ranking
+methodology, and incorporating features that
+correspond to the visual layout of the page
+improves performance. However, the previ-
+ous methodology for using ?found? text (e.g.,
+scanning in a book from the library) requires
+human annotation of the text regions and cor-
+rection of the OCR text. In this work, we ask
+whether the annotation process can be auto-
+mated, and also experiment with richer syntac-
+tic features found in the literature that can be
+automatically derived from either the human-
+corrected or raw OCR text. We find that auto-
+mated visual and text feature extraction work
+reasonably well and can allow for scaling to
+larger datasets, but that in our particular exper-
+iments the use of syntactic features adds little
+to the performance of the system, contrary to
+previous findings.
+1 

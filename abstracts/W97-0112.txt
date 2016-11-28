@@ -1,0 +1,28 @@
+ 
+! 
+Faced with growing volume and accessibi l i ty of electronic textual 
+information, information retrieval, and, in general, automatic 
+documentat ion require updated terminological resources that are ever 
+more voluminous. A current problem is the automated construction of 
+these resources (e.g., terminologies, thesauri, glossaries, etd~ ~) from 
+a corpus. Various linguistic and statistical methods to handle this 
+problem are coming to light. One problem that has been less studied is 
+that of updating these resources, in particular, of classifying a term 
+extracted from a corpus in a subject field, discipl ine or branch of an 
+exist ing thesaurus. This is the first step in posit ioning a term 
+extracted from a corpus in the structure of a thesaurus (generic 
+relations, synonymy relations ..). This is an important problem in 
+certain disciplines in which knowledge, and, in particular, vocabulary 
+is not very stable over time, especial ly because of neologisms. 
+This experiment compares different models for representing a term 
+from a corpus for its automatic classif ication in the subject fields 
+of a thesaurus. The classif ication method used is linear 
+discr iminatory analysis, based on a learning sample. The models 
+evaluated here are: a term/document model where each term is a vector 
+in document vector space, two term/term models where each term is a 
+vector in term space, and the coordinates are either the co- 
+occurrence, or the mutual information between terms. The most 
+effective model is the one based on mutual information between terms, 
+which typifies the fact that two terms often appear together in the 
+corpus, but rarely apar t . .  
+I. 

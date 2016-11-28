@@ -1,0 +1,19 @@
+
+For embodied agents to engage in realis-
+tic multiparty conversation, they must stand
+in appropriate places with respect to other
+agents and the environment. When these
+factors change, for example when an agent
+joins a conversation, the agents must dynam-
+ically move to a new location and/or orien-
+tation to accommodate. This paper presents
+an algorithm for simulating the movement
+of agents based on observed human behav-
+ior using techniques developed for pedes-
+trian movement in crowd simulations. We
+extend a previous group conversation simu-
+lation to include an agent motion algorithm.
+We examine several test cases and show how
+the simulation generates results that mirror
+real-life conversation settings.
+1 

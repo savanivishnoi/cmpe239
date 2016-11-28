@@ -1,0 +1,21 @@
+
+We present a supervised learning approach to
+cross-lingual textual entailment that explores
+statistical word alignment models to predict
+entailment relations between sentences writ-
+ten in different languages. Our approach
+is language independent, and was used to
+participate in the CLTE task (Task#8) or-
+ganized within Semeval 2013 (Negri et al,
+2013). The four runs submitted, one for
+each language combination covered by the test
+data (i.e. Spanish/English, German/English,
+French/English and Italian/English), achieved
+encouraging results. In terms of accuracy,
+performance ranges from 38.8% (for Ger-
+man/English) to 43.2% (for Italian/English).
+On the Italian/English and Spanish/English
+test sets our systems ranked second among
+five participants, close to the top results (re-
+spectively 43.4% and 45.4%).
+1 

@@ -1,0 +1,22 @@
+
+We present a new language pair agnostic ap-
+proach to inducing bilingual vector spaces
+from non-parallel data without any other re-
+source in a bootstrapping fashion. The pa-
+per systematically introduces and describes all
+key elements of the bootstrapping procedure:
+(1) starting point or seed lexicon, (2) the confi-
+dence estimation and selection of new dimen-
+sions of the space, and (3) convergence. We
+test the quality of the induced bilingual vec-
+tor spaces, and analyze the influence of the
+different components of the bootstrapping ap-
+proach in the task of bilingual lexicon extrac-
+tion (BLE) for two language pairs. Results re-
+veal that, contrary to conclusions from prior
+work, the seeding of the bootstrapping pro-
+cess has a heavy impact on the quality of the
+learned lexicons. We also show that our ap-
+proach outperforms the best performing fully
+corpus-based BLE methods on these test sets.
+1 

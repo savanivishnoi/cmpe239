@@ -1,0 +1,20 @@
+
+We present and evaluate a randomized local
+search procedure for selecting sentences to in-
+clude in a multidocument summary. The search
+favors the inclusion of adjacent sentences while
+penalizing the selection of repetitive material,
+in order to improve intelligibility without un-
+duly affecting informativeness. Sentence simi-
+larity is determined using both surface-oriented
+measures and semantic groups obtained from
+merging the output templates of an information
+extraction subsystem. In a comparative evalu-
+ation against two DUC-like baselines and three
+simpler versions of our system, we found that
+our randomized local search method provided
+substantial improvements in both content and
+intelligibility, while the use of the IE groups also
+appeared to contribute a small further improve-
+ment in content.
+1 

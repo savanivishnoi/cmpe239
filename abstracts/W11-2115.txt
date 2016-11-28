@@ -1,0 +1,17 @@
+
+This paper describes the development op-
+erated into MANY for the 2011 WMT
+system combination evaluation campaign.
+Hypotheses from French/English and En-
+glish/French MT systems were combined
+with a new version of MANY, an open
+source system combination software based
+on confusion networks decoding currently
+developed at LIUM. MANY has been up-
+dated in order to optimize decoder pa-
+rameters with MERT, which proves to
+find better weights. The system combi-
+nation yielded significant improvements in
+BLEU score when applied on system com-
+bination data from two languages.
+1 

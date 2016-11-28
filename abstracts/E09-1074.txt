@@ -1,0 +1,20 @@
+
+Current approaches to the prediction of
+associations rely on just one type of in-
+formation, generally taking the form of
+either word space models or collocation
+measures. At the moment, it is an open
+question how these approaches compare
+to one another. In this paper, we will
+investigate the performance of these two
+types of models and that of a new ap-
+proach based on compounding. The best
+single predictor is the log-likelihood ratio,
+followed closely by the document-based
+word space model. We will show, how-
+ever, that an ensemble method that com-
+bines these two best approaches with the
+compounding algorithm achieves an in-
+crease in performance of almost 30% over
+the current state of the art.
+1 

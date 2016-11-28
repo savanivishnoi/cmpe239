@@ -1,0 +1,17 @@
+
+Assigning arguments of verbs to different semantic classes (?semantic
+typing?), or alternatively, checking the ?selectional restrictions? of predi-
+cates, is a fundamental component of many natural language processing
+tasks. However, a common experience has been that general purpose se-
+mantic classes, such as those encoded in resources like WordNet, or hand-
+crafted subject-specific ontologies, are seldom quite right when it comes
+to analysing texts from a particular domain. In this paper we describe a
+method of automatically deriving fine-grained, domain-specific semantic
+classes of arguments while simultaneously clustering verbs into semanti-
+cally meaningful groups: the first step in verb sense induction. We show
+that in a small pilot study on new examples from the same domain we are
+able to achieve almost perfect recall and reasonably high precision in the
+semantic typing of verb arguments in these texts.
+139
+140 Liakata and Pulman
+1 

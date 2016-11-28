@@ -1,0 +1,20 @@
+
+We present an approach for extracting molec-
+ular events from literature based on a deep
+parser, using in a query language for parse
+trees. Detected events range from gene ex-
+pression to protein localization, and cover a
+multitude of different entity types, including
+genes/proteins, binding sites, and locations.
+Furthermore, our approach is capable of rec-
+ognizing negation and the speculative char-
+acter of extracted statements. We first parse
+documents using Link Grammar (BioLG) and
+store the parse trees in a database. Events are
+extracted using a newly developed query lan-
+guage with traverses the BioLG linkages be-
+tween trigger terms, arguments, and events.
+The concrete queries are learnt from an an-
+notated corpus. On BioNLP Shared Task data,
+we achieve an overall F1-measure of 29.6%.
+1 

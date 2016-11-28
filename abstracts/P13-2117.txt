@@ -1,0 +1,27 @@
+
+Distant supervision has attracted recent in-
+terest for training information extraction
+systems because it does not require any
+human annotation but rather employs ex-
+isting knowledge bases to heuristically la-
+bel a training corpus. However, previous
+work has failed to address the problem
+of false negative training examples misla-
+beled due to the incompleteness of knowl-
+edge bases. To tackle this problem, we
+propose a simple yet novel framework that
+combines a passage retrieval model using
+coarse features into a state-of-the-art rela-
+tion extractor using multi-instance learn-
+ing with fine features. We adapt the in-
+formation retrieval technique of pseudo-
+relevance feedback to expand knowledge
+bases, assuming entity pairs in top-ranked
+passages are more likely to express a rela-
+tion. Our proposed technique significantly
+improves the quality of distantly super-
+vised relation extraction, boosting recall
+from 47.7% to 61.2% with a consistently
+high level of precision of around 93% in
+the experiments.
+1 

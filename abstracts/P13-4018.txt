@@ -1,0 +1,15 @@
+
+In this paper we present a demonstra-
+tion of a multilingual generalization of
+Word-Class Lattices (WCLs), a super-
+vised lattice-based model used to identify
+textual definitions and extract hypernyms
+from them. Lattices are learned from a
+dataset of automatically-annotated defini-
+tions from Wikipedia. We release a Java
+API for the programmatic use of multilin-
+gual WCLs in three languages (English,
+French and Italian), as well as a Web ap-
+plication for definition and hypernym ex-
+traction from user-provided sentences.
+1 

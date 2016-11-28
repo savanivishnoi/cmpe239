@@ -1,0 +1,28 @@
+
+In this paper we investigate the use of lin-
+guistic knowledge in passage retrieval as
+part of an open-domain question answer-
+ing system. We use annotation produced
+by a deep syntactic dependency parser for
+Dutch, Alpino, to extract various kinds of
+linguistic features and syntactic units to
+be included in a multi-layer index. Sim-
+ilar annotation is produced for natural lan-
+guage questions to be answered by the
+system. From this we extract query terms
+to be sent to the enriched retrieval index.
+We use a genetic algorithm to optimize the
+selection of features and syntactic units
+to be included in a query. This algo-
+rithm is also used to optimize further pa-
+rameters such as keyword weights. The
+system is trained on questions from the
+competition on Dutch question answering
+within the Cross-Language Evaluation Fo-
+rum (CLEF). We could show an improve-
+ment of about 15% in mean total recip-
+rocal rank compared to traditional infor-
+mation retrieval using plain text keywords
+(including stemming and stop word re-
+moval).
+1 

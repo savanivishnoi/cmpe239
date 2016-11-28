@@ -1,0 +1,8 @@
+ 
+This paper eports a handful of experiments designed to test the 
+feasibility of applying well-known partial parsing techniques to the 
+problem of automatic data base update from an open-ended source 
+of messages, and the feasiblity of automatically learning semantic 
+knowledge from annotated examples. The challenges arise from 
+the incompleteness of any lexicon, sentences that average over 20 
+words in length, and the lack of a complete semantics. 

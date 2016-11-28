@@ -1,0 +1,18 @@
+
+We present a constituent parsing-based
+reordering technique that improves the
+performance of the state-of-the-art Eng-
+lish-to-Japanese phrase translation sys-
+tem that includes distortion models by
+4.76 BLEU points. The phrase transla-
+tion model with reordering applied at the
+pre-processing stage outperforms a syn-
+tax-based translation system that incor-
+porates a phrase translation model, a hi-
+erarchical phrase-based translation
+model and a tree-to-string grammar. We
+also show that combining constituent re-
+ordering and  the syntax model improves
+the translation quality by additional  0.84
+BLEU points.
+1 

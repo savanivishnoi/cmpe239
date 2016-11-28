@@ -1,0 +1,12 @@
+
+In this paper, we investigate the use of tempo-
+ral information for improving extractive sum-
+marization of historical articles. Our method
+clusters sentences based on their timestamps
+and temporal similarity. Each resulting clus-
+ter is assigned an importance score which
+can then be used as a weight in traditional
+sentence ranking techniques. Temporal im-
+portance weighting offers consistent improve-
+ments over baseline systems.
+1 

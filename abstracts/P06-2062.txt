@@ -1,0 +1,17 @@
+
+A resource grammar is a standard library
+for the GF grammar formalism. It raises
+the abstraction level of writing domain-
+specific grammars by taking care of the
+general grammatical rules of a language.
+GF resource grammars have been built in
+parallel for eleven languages and share a
+common interface, which simplifies multi-
+lingual applications. We reflect on our ex-
+perience with the Russian resource gram-
+mar trying to answer the questions: how
+well Russian fits into the common inter-
+face and where the line between language-
+independent and language-specific should
+be drawn.
+1 

@@ -1,0 +1,15 @@
+
+This paper presents an efficient inference algo-
+rithm of conditional random fields (CRFs) for
+large-scale data. Our key idea is to decompose
+the output label state into an active set and an
+inactive set in which most unsupported tran-
+sitions become a constant. Our method uni-
+fies two previous methods for efficient infer-
+ence of CRFs, and also derives a simple but
+robust special case that performs faster than
+exact inference when the active sets are suffi-
+ciently small. We demonstrate that our method
+achieves dramatic speedup on six standard nat-
+ural language processing problems.
+1 

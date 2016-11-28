@@ -1,0 +1,21 @@
+
+We propose a machine learning based
+method of sentiment classification of sen-
+tences using word-level polarity. The polari-
+ties of words in a sentence are not always the
+same as that of the sentence, because there
+can be polarity-shifters such as negation ex-
+pressions. The proposed method models
+the polarity-shifters. Our model can be
+trained in two different ways: word-wise and
+sentence-wise learning. In sentence-wise
+learning, the model can be trained so that the
+prediction of sentence polarities should be
+accurate. The model can also be combined
+with features used in previous work such
+as bag-of-words and n-grams. We empiri-
+cally show that our method almost always
+improves the performance of sentiment clas-
+sification of sentences especially when we
+have only small amount of training data.
+1 

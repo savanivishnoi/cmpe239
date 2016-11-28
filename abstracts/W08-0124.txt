@@ -1,0 +1,16 @@
+
+An important task in automatic conversation
+understanding is the inference of social struc-
+ture governing participant behavior. We ex-
+plore the dependence between several social
+dimensions, including assigned role, gender,
+and seniority, and a set of low-level features
+descriptive of talkspurt deployment in a mul-
+tiparticipant context. Experiments conducted
+on two large, publicly available meeting cor-
+pora suggest that our features are quite useful
+in predicting these dimensions, excepting gen-
+der. The classification experiments we present
+exhibit a relative error rate reduction of 37% to
+67% compared to choosing the majority class.
+1 

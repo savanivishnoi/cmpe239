@@ -1,0 +1,22 @@
+
+Multi-category bootstrapping algorithms were
+developed to reduce semantic drift. By ex-
+tracting multiple semantic lexicons simultane-
+ously, a category?s search space may be re-
+stricted. The best results have been achieved
+through reliance on manually crafted negative
+categories. Unfortunately, identifying these
+categories is non-trivial, and their use shifts
+the unsupervised bootstrapping paradigm to-
+wards a supervised framework.
+We present NEG-FINDER, the first approach
+for discovering negative categories automat-
+ically. NEG-FINDER exploits unsupervised
+term clustering to generate multiple nega-
+tive categories during bootstrapping. Our al-
+gorithm effectively removes the necessity of
+manual intervention and formulation of nega-
+tive categories, with performance closely ap-
+proaching that obtained using negative cate-
+gories defined by a domain expert.
+1 

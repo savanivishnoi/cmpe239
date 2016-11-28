@@ -1,0 +1,19 @@
+
+We study the use of Confidence Measures
+(CM) for erroneous constituent discrimi-
+nation in an Interactive Predictive Parsing
+(IPP) framework. The IPP framework al-
+lows to build interactive tree annotation
+systems that can help human correctors
+in constructing error-free parse trees with
+little effort (compared to manually post-
+editing the trees obtained from an auto-
+matic parser). We show that CMs can
+help in detecting erroneous constituents
+more quickly through all the IPP process.
+We present two methods for precalculat-
+ing the confidence threshold (globally and
+per-interaction), and observe that CMs re-
+main highly discriminant as the IPP pro-
+cess advances.
+1 

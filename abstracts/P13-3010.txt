@@ -1,0 +1,33 @@
+
+Electronic health records (EHRs) contain
+important clinical information about pa-
+tients. Some of these data are in the form
+of free text and require preprocessing to be
+able to used in automated systems. Effi-
+cient and effective use of this data could
+be vital to the speed and quality of health
+care. As a case study, we analyzed clas-
+sification of CT imaging reports into bi-
+nary categories. In addition to regular
+text classification, we utilized topic mod-
+eling of the entire dataset in various ways.
+Topic modeling of the corpora provides in-
+terpretable themes that exist in these re-
+ports. Representing reports according to
+their topic distributions is more compact
+than bag-of-words representation and can
+be processed faster than raw text in sub-
+sequent automated processes. A binary
+topic model was also built as an unsuper-
+vised classification approach with the as-
+sumption that each topic corresponds to a
+class. And, finally an aggregate topic clas-
+sifier was built where reports are classified
+based on a single discriminative topic that
+is determined from the training dataset.
+Our proposed topic based classifier system
+is shown to be competitive with existing
+text classification techniques and provides
+a more efficient and interpretable repre-
+sentation.
+1 

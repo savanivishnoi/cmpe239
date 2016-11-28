@@ -1,0 +1,19 @@
+
+Indirect negative evidence is clearly an im-
+portant way for learners to constrain over-
+generalisation, and yet a good learning
+theoretic analysis has yet to be provided
+for this, whether in a PAC or a proba-
+bilistic identification in the limit frame-
+work. In this paper we suggest a theoreti-
+cal analysis of indirect negative evidence
+that allows the presence of ungrammati-
+cal strings in the input and also accounts
+for the relationship between grammatical-
+ity/acceptability and probability. Given
+independently justified assumptions about
+lower bounds on the probabilities of gram-
+matical strings, we establish that a limited
+number of membership queries of some
+strings can be probabilistically simulated.
+1 

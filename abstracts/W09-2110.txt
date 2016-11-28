@@ -1,0 +1,24 @@
+
+In this paper, we investigate a novel approach 
+to correcting grammatical  and lexical  errors 
+in texts written by second language authors. 
+Contrary to previous approaches which tend 
+to use unilingual models of the user's second 
+language (L2), this new approach uses a sim-
+ple  roundtrip  Machine  Translation  method 
+which  leverages  information about  both the 
+author?s first (L1) and second languages. We 
+compare  the  repair  rate  of  this  roundtrip 
+translation approach to that of an existing ap-
+proach based on a unilingual L2 model with 
+shallow  syntactic  pruning,  on  a  series  of 
+preposition choice errors. We find no statisti-
+cally significant  difference between the two 
+approaches,  but find that a hybrid combina-
+tion of both does perform significantly better 
+than either one in isolation. Finally, we illus-
+trate how the translation approach has the po-
+tential  of  repairing  very  complex  errors 
+which would be hard to treat without leverag-
+ing knowledge of the author's L1.
+1 

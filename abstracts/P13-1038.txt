@@ -1,0 +1,24 @@
+
+This paper presents novel methods for
+modeling numerical common sense: the
+ability to infer whether a given number
+(e.g., three billion) is large, small, or nor-
+mal for a given context (e.g., number of
+people facing a water shortage). We first
+discuss the necessity of numerical com-
+mon sense in solving textual entailment
+problems. We explore two approaches for
+acquiring numerical common sense. Both
+approaches start with extracting numeri-
+cal expressions and their context from the
+Web. One approach estimates the distribu-
+tion of numbers co-occurring within a con-
+text and examines whether a given value is
+large, small, or normal, based on the distri-
+bution. Another approach utilizes textual
+patterns with which speakers explicitly ex-
+presses their judgment about the value of
+a numerical expression. Experimental re-
+sults demonstrate the effectiveness of both
+approaches.
+1 

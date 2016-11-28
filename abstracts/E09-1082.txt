@@ -1,0 +1,17 @@
+
+Multi-source statistical machine transla-
+tion is the process of generating a single
+translation from multiple inputs. Previous
+work has focused primarily on selecting
+from potential outputs of separate transla-
+tion systems, and solely on multi-parallel
+corpora and test sets. We demonstrate how
+multi-source translation can be adapted for
+multiple monolingual inputs. We also ex-
+amine different approaches to dealing with
+multiple sources, including consensus de-
+coding, and we present a novel method
+of input combination to generate lattices
+for multi-source translation within a single
+translation model.
+1 

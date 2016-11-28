@@ -1,0 +1,25 @@
+
+Generalized Vector Space Models
+(GVSM) extend the standard Vector
+Space Model (VSM) by embedding addi-
+tional types of information, besides terms,
+in the representation of documents. An
+interesting type of information that can
+be used in such models is semantic infor-
+mation from word thesauri like WordNet.
+Previous attempts to construct GVSM
+reported contradicting results. The most
+challenging problem is to incorporate the
+semantic information in a theoretically
+sound and rigorous manner and to modify
+the standard interpretation of the VSM.
+In this paper we present a new GVSM
+model that exploits WordNet?s semantic
+information. The model is based on a new
+measure of semantic relatedness between
+terms. Experimental study conducted
+in three TREC collections reveals that
+semantic information can boost text
+retrieval performance with the use of the
+proposed GVSM.
+1 

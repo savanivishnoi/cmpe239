@@ -1,0 +1,16 @@
+ 
+This paper describes a fully incremental dia-
+logue system that can engage in dialogues 
+in a simple domain, number dictation. Be-
+cause it uses incremental speech recognition 
+and prosodic analysis, the system can give 
+rapid feedback as the user is speaking, with 
+a very short latency of around 200ms.  Be-
+cause it uses incremental speech synthesis 
+and self-monitoring, the system can react to 
+feedback from the user as the system is 
+speaking. A comparative evaluation shows 
+that na?ve users preferred this system over a 
+non-incremental version, and that it was 
+perceived as more human-like. 1 
+1 

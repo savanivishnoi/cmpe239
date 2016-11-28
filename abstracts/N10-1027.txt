@@ -1,0 +1,15 @@
+
+Language identification is the task of identify-
+ing the language a given document is written
+in. This paper describes a detailed examina-
+tion of what models perform best under dif-
+ferent conditions, based on experiments across
+three separate datasets and a range of tokeni-
+sation strategies. We demonstrate that the task
+becomes increasingly difficult as we increase
+the number of languages, reduce the amount
+of training data and reduce the length of docu-
+ments. We also show that it is possible to per-
+form language identification without having to
+perform explicit character encoding detection.
+1 

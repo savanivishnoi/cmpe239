@@ -1,0 +1,18 @@
+
+This paper proposes a word spacing model using
+a hidden Markov model (HMM) for rening Ko-
+rean raw text corpora. Previous statistical ap-
+proaches for automatic word spacing have used
+models that make use of inaccurate probabilities
+because they do not consider the previous spac-
+ing state. We consider word spacing problem as
+a classication problem such as Part-of-Speech
+(POS) tagging and have experimented with var-
+ious models considering extended context. Ex-
+perimental result shows that the performance
+of the model becomes better as the more con-
+text considered. In case of the same number
+of parameters are used with other method, it
+is proved that our model is more eective by
+showing the better results.
+1 

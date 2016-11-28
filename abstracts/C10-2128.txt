@@ -1,0 +1,29 @@
+
+This paper presents a survey of research
+in controlled natural languages that can be
+used as high-level knowledge representa-
+tion languages. Over the past 10 years
+or so, a number of machine-oriented con-
+trolled natural languages have emerged
+that can be used as high-level interface
+languages to various kinds of knowledge
+systems. These languages are relevant to
+the area of computational linguistics since
+they have two very interesting properties:
+firstly, they look informal like natural lan-
+guages and are therefore easier to write
+and understand by humans than formal
+languages; secondly, they are precisely
+defined subsets of natural languages and
+can be translated automatically (and often
+deterministically) into a formal target lan-
+guage and then be used for automated rea-
+soning. We present and compare the most
+mature of these novel languages, show
+how they can balance the disadvantages
+of natural languages and formal languages
+for knowledge representation, and discuss
+how domain specialists can be supported
+writing specifications in controlled natural
+language.
+1 

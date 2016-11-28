@@ -1,0 +1,22 @@
+
+We show that Nakatsu & White?s (2010)
+proposed enhancements to the SPaRKy
+Restaurant Corpus (SRC; Walker et al,
+2007) for better expressing contrast do in-
+deed make it possible to generate better
+texts, including ones that make effective
+and varied use of contrastive connectives
+and discourse adverbials. After first pre-
+senting a validation experiment for natu-
+ralness ratings of SRC texts gathered using
+Amazon?s Mechanical Turk, we present
+an initial experiment suggesting that such
+ratings can be used to train a realization
+ranker that enables higher-rated texts to be
+selected when the ranker is trained on a
+sample of generated restaurant recommen-
+dations with the contrast enhancements
+than without them. We conclude with a
+discussion of possible ways of improving
+the ranker in future work.
+1 

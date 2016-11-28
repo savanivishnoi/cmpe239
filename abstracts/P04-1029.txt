@@ -1,0 +1,20 @@
+
+This paper introduces an indexing method based on
+static analysis of grammar rules and type signatures
+for typed feature structure grammars (TFSGs). The
+static analysis tries to predict at compile-time which
+feature paths will cause unification failure during
+parsing at run-time. To support the static analysis,
+we introduce a new classification of the instances
+of variables used in TFSGs, based on what type of
+structure sharing they create. The indexing actions
+that can be performed during parsing are also enu-
+merated. Non-statistical indexing has the advan-
+tage of not requiring training, and, as the evalua-
+tion using large-scale HPSGs demonstrates, the im-
+provements are comparable with those of statistical
+optimizations. Such statistical optimizations rely
+on data collected during training, and their perfor-
+mance does not always compensate for the training
+costs.
+1 

@@ -1,0 +1,20 @@
+
+We describe a mechanism which receives
+as input a segmented argument composed
+of NL sentences, and generates an inter-
+pretation. Our mechanism relies on the
+Minimum Message Length Principle for
+the selection of an interpretation among
+candidate options. This enables our mech-
+anism to cope with noisy input in terms
+of wording, beliefs and argument struc-
+ture; and reduces its reliance on a partic-
+ular knowledge representation. The per-
+formance of our system was evaluated by
+distorting automatically generated argu-
+ments, and passing them to the system
+for interpretation. In 75% of the cases,
+the interpretations produced by the system
+matched precisely or almost-precisely the
+representation of the original arguments.
+1 

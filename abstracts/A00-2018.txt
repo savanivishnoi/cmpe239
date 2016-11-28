@@ -1,0 +1,21 @@
+ 
+We present a new parser for parsing down to 
+Penn tree-bank style parse trees that achieves 
+90.1% average precision/recall for sentences of 
+length 40 and less, and 89.5% for sentences of 
+length 100 and less when trMned and tested on 
+the previously established \[5,9,10,15,17\] "stan- 
+dard" sections of the Wall Street Journal tree- 
+bank. This represents a 13% decrease in er- 
+ror rate over the best single-parser results on 
+this corpus \[9\]. The major technical innova- 
+tion is tire use of a "ma~ximum-entropy-inspired" 
+model for conditioning and smoothing that let 
+us successfully to test and combine many differ- 
+ent conditioning events. We also present some 
+partial results showing the effects of different 
+conditioning information, including a surpris- 
+ing 2% improvement due to guessing the lexical 
+head's pre-terminal before guessing the lexical 
+head. 
+1 

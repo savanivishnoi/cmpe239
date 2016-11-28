@@ -1,0 +1,21 @@
+
+Beam search incremental parsers are ac-
+curate, but not as fast as they could be.
+We demonstrate that, contrary to popu-
+lar belief, most current implementations
+of beam parsers in fact run in O(n2),
+rather than linear time, because each state-
+transition is actually implemented as an
+O(n) operation. We present an improved
+implementation, based on Tree Structured
+Stack (TSS), in which a transition is per-
+formed in O(1), resulting in a real linear-
+time algorithm, which is verified empiri-
+cally. We further improve parsing speed
+by sharing feature-extraction and dot-
+product across beam items. Practically,
+our methods combined offer a speedup of
+?2x over strong baselines on Penn Tree-
+bank sentences, and are orders of magni-
+tude faster on much longer sentences.
+1 

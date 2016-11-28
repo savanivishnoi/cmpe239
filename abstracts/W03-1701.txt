@@ -1,0 +1,17 @@
+ 
+This paper proposes an unsupervised 
+training approach to resolving overlap-
+ping ambiguities in Chinese word seg-
+mentation. We present an ensemble of 
+adapted Na?ve Bayesian classifiers that 
+can be trained using an unlabelled Chi-
+nese text corpus. These classifiers differ 
+in that they use context words within 
+windows of different sizes as features. 
+The performance of our approach is 
+evaluated on a manually annotated test set. 
+Experimental results show that the pro-
+posed approach achieves an accuracy of 
+94.3%, rivaling the rule-based and super-
+vised training methods. 
+1 

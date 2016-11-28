@@ -1,0 +1,27 @@
+ 
+This paper is to introduce our participation in 
+the WMT13 shared tasks on Quality Estima-
+tion for machine translation without using ref-
+erence translations. We submitted the results 
+for Task 1.1 (sentence-level quality estima-
+tion), Task 1.2 (system selection) and Task 2 
+(word-level quality estimation). In Task 1.1, 
+we used an enhanced version of BLEU metric 
+without using reference translations to evalu-
+ate the translation quality. In Task 1.2, we uti-
+lized a probability model Na?ve Bayes (NB) as 
+a classification algorithm with the features 
+borrowed from the traditional evaluation met-
+rics. In Task 2, to take the contextual infor-
+mation into account, we employed a discrimi-
+native undirected probabilistic graphical mod-
+el Conditional random field (CRF), in addition 
+to the NB algorithm. The training experiments 
+on the past WMT corpora showed that the de-
+signed methods of this paper yielded promis-
+ing results especially the statistical models of 
+CRF and NB. The official results show that 
+our CRF model achieved the highest F-score 
+0.8297 in binary classification of Task 2. 
+ 
+1 

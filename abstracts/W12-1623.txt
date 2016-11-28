@@ -1,0 +1,13 @@
+
+This paper presents a discriminative reranking
+model for the discourse segmentation task, the
+first step in a discourse parsing system. Our
+model exploits subtree features to rerank N-
+best outputs of a base segmenter, which uses
+syntactic and lexical features in a CRF frame-
+work. Experimental results on the RST Dis-
+course Treebank corpus show that our model
+outperforms existing discourse segmenters in
+both settings that use gold standard Penn Tree-
+bank parse trees and Stanford parse trees.
+1 

@@ -1,0 +1,22 @@
+
+In this paper, we study direct transfer meth-
+ods for multilingual named entity recognition.
+Specifically, we extend the method recently
+proposed by Ta?ckstro?m et al (2012), which is
+based on cross-lingual word cluster features.
+First, we show that by using multiple source
+languages, combined with self-training for tar-
+get language adaptation, we can achieve sig-
+nificant improvements compared to using only
+single source direct transfer. Second, we in-
+vestigate how the direct transfer system fares
+against a supervised target language system
+and conclude that between 8,000 and 16,000
+word tokens need to be annotated in each tar-
+get language to match the best direct transfer
+system. Finally, we show that we can signif-
+icantly improve target language performance,
+even after annotating up to 64,000 tokens in
+the target language, by simply concatenating
+source and target language annotations.
+1 

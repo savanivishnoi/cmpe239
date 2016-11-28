@@ -1,0 +1,23 @@
+
+BBN submitted system combination out-
+puts for Czech-English, German-English,
+Spanish-English, French-English, and All-
+English language pairs. All combinations
+were based on confusion network decod-
+ing. An incremental hypothesis alignment
+algorithm with flexible matching was used
+to build the networks. The bi-gram de-
+coding weights for the single source lan-
+guage translations were tuned directly to
+maximize the BLEU score of the decod-
+ing output. Approximate expected BLEU
+was used as the objective function in gra-
+dient based optimization of the combina-
+tion weights for a 44 system multi-source
+language combination (All-English). The
+system combination gained around 0.4-
+2.0 BLEU points over the best individual
+systems on the single source conditions.
+On the multi-source condition, the system
+combination gained 6.6 BLEU points.
+1 

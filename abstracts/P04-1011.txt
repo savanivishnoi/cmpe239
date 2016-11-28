@@ -1,0 +1,15 @@
+
+A challenging problem for spoken dialog sys-
+tems is the design of utterance generation mod-
+ules that are fast, flexible and general, yet pro-
+duce high quality output in particular domains.
+A promising approach is trainable generation,
+which uses general-purpose linguistic knowledge
+automatically adapted to the application do-
+main. This paper presents a trainable sentence
+planner for the MATCH dialog system. We
+show that trainable sentence planning can pro-
+duce output comparable to that of MATCH?s
+template-based generator even for quite com-
+plex information presentations.
+1 

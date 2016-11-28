@@ -1,0 +1,19 @@
+
+This paper presents a way to perform
+speaker adaptation for automatic speech
+recognition using the stream weights in a
+multi-stream setup, which included acous-
+tic models for ?Articulatory Features?
+such as ROUNDED or VOICED. We
+present supervised speaker adaptation ex-
+periments on a spontaneous speech task
+and compare the above stream-based ap-
+proach to conventional approaches, in
+which the models, and not stream com-
+bination weights, are being adapted. In
+the approach we present, stream weights
+model the importance of features such as
+VOICED for word discrimination, which
+offers a descriptive interpretation of the
+adaptation parameters.
+1 

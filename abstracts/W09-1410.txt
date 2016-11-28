@@ -1,0 +1,13 @@
+
+This work describes a system for the tasks
+of identifying events in biomedical text and
+marking those that are speculative or negated.
+The architecture of the system relies on
+both Machine Learning (ML) approaches and
+hand-coded precision grammars. We submit-
+ted the output of our approach to the event ex-
+traction shared task at BioNLP 2009, where
+our methods suffered from low recall, al-
+though we were one of the few teams to pro-
+vide answers for task 3.
+1 

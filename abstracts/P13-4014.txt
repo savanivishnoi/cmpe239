@@ -1,0 +1,15 @@
+
+We describe QUEST, an open source
+framework for machine translation quality
+estimation. The framework allows the ex-
+traction of several quality indicators from
+source segments, their translations, exter-
+nal resources (corpora, language models,
+topic models, etc.), as well as language
+tools (parsers, part-of-speech tags, etc.). It
+also provides machine learning algorithms
+to build quality estimation models. We
+benchmark the framework on a number of
+datasets and discuss the efficacy of fea-
+tures and algorithms.
+1 

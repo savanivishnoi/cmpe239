@@ -1,0 +1,17 @@
+
+This paper addresses the issue of extract-
+ing contexts and answers of questions
+from post discussion of online forums.
+We propose a novel and unified model by
+customizing the structural Support Vector
+Machine method. Our customization has
+several attractive properties: (1) it gives a
+comprehensive graphical representation of
+thread discussion. (2) It designs special
+inference algorithms instead of general-
+purpose ones. (3) It can be readily ex-
+tended to different task preferences by
+varying loss functions. Experimental re-
+sults on a real data set show that our meth-
+ods are both promising and flexible.
+1 

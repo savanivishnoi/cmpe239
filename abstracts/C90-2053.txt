@@ -1,0 +1,126 @@
+  
+Tomita's parsing algorithm 
+\[~Ibmita 86\], which adapted the LR parsing al- 
+gorithm to context fl'ee grammars, makes use 
+of a breadth-first strategy to handle LR table 
+conflicts. As the breadth-first strategy is com- 
+patible with parallel processing, we can easily 
+develop a parallel generalized LR parser b~ed 
+on Tomita's algorithm \[Tanaka 89\]. However, 
+there is a problem in that this algorithm syn- 
+chronizes parsing processes on each shift a,:- 
+tion for the same input word to merge many 
+st~ks :into Graph Structured Stacks (GSS). In 
+other words, a process that has completed a 
+shift action must wait until all other processes 
+have ended theirs --- a strategy that reduces 
+parallel performance. We have developed a 
+new parallel parsing algorithm that does not 
+need to wait for shift actions before merging 
+many stacks, using stream communication of a 
+concurrent logic programming language called 
+GIIC \[Ueda 85\]. Thus we obtain a parallel 
+generalized LR parser implemented in GHC. 
+1 In t roduct ion  
+To provide an efficient parser tbr natural an- 
+guage sentences, a parallel parsing algorithm 
+is desirable. As Tomita's algorithm is com- 
+patible with parallel processing, we can eas- 
+ily develop a parallel generalized LR parser 
+\[Tanaka 89\]. However, with respect o the per- 
+formance of the parallel parsing, one of the 
+defects of Tomita's algorithm is that it forces 
+many parsing processes to synchronize on each 
+shift action for the same input word. A pars- 
+ing process that has completed a shift action 
+must wait until all other processes have con> 
+pleted their shift actions as well; such a syn- 
+chronization strategy reduces the performance 
+of parallel parsing. 
+In this paper, we will present a new parallel 
+parsing algorithm which is a natural extension 
+of Tomita's \[Tolnita 86\]. Our algorithm can 
+achieve greater performance in parallel pars- 
+ing for natural anguage sentences. 
+There are two major differences between 
+Tomita's algorithm and ours. Initially, the 
+new algorithm does not make parsing pro- 
+cesses wait for shift actions to merge many 
+stacks with the same top state. The process 
+that has finished a 'shift N' action first can 
+proceed to the next actions until a reduce ac- 
+tion needs to pop the element 'N' from the 
+stack. If some other parsing processes carry 
+out the same 'shift N' actions, their stacks will 
+be merged into the position in which the first 
+process has placed an element by the 'shift N' 
+action. 
+Secondly, to avoid duplications of parsing 
+processes the new algorithm employs rl~ree 
+Structured Stacks (TSS) instead of Graph 
+Structured Stacks (GSS). The reason why we 
+do not use GSS is because it is rather compli- 
+cated to implement the GSS data structure in 
+the framework of a parallel ogic prograrnming 
+language ,inch as GltC. The merge operation 
+of the stacks is realized by a GttC stream com- 
+munication mechanism. 
+In section 2 we explain generalized LR pars- 
+ing, in section 3 give a brief introduction to 
+GtIC, and in section 4 decribe our new parallel 
+generalized LR parsing algotihm. In section 5 
+we compare tile parallel parsing performance 
+of our algorithm with Tornita's. 
+1 305  
+~L 
+2 Generalized LR Parsing Al- 
+gorithm 
+The execution of the generalized LR algorithm 
+is controlled by an LR parsing table generated 
+from predetermined grammar ules. Figure 1 
+shows an ambiguous English grammar struc- 
+ture, and Figure 2 an LR parsing table gener- 
+ated from Figure 1. 
+Action table entries are determined by a 
+parser's; state (the row of the table) and a 
+look-ahead preterminal (the column of the ta- 
+ble) of an input sentence. There are two kinds 
+of stack operations: shift and reduce opera- 
+tions. Some entries in the LR table contain 
+more than two operations and are thus in con- 
+flict. In such cases, a parser must conduct 
+more than two operations simultaneously. 
+The symbol 'sh N' in some entries indicates 
+that the generalized LR parser has to push a 
+look-ahead preterminal on the LR stack and 
+go to 'state N'. The symbol 're N' means that 
+the generalized LR parser has to reduce from 
+the top of the stack the number of elements 
+equivalent to that of the right-hand side of the 
+rule numbered 'N'. The symbol 'ace' means 
+that the generalized LR parser has success- 
+Nlly completed parsing. If an entry contains 
+no operation, the generalized LR parser will 
+detect an error. 
+The right-hand table entry indicates which 
+state the parser should enter after a reduce op- 
+eration. The LR ta.ble shown in Figure 2 has 
+two conflicts at state 11 (row no. 11) and ste~te 
+(1) S -+ NP, VP. 
+(2) S ~ S, PP. 
+(3) NP --. NP, PP. 
+(4) NP ~ det, noun. 
+(5) NP --* pron. 
+(6) VP --+ v, NP. 
+(7) PP --+ p, NP. 
+Fig.l: An Ambiguous English Grammar 
+12 for the 'p' column. Each of the conflicting 
+two entries contains ashift and a reduce opera- 
+tion and is called a shift-reduce conflict. When 
+parser encounters a conflict, it cannot deter- 
+mine which operation should be carried out 
+first. In our parser, conflicts will be resolved 
+using a parallel processing technique such that 
+the order of the operations in conflict is; of no 
+concern. 
+3 Brief 

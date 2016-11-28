@@ -1,0 +1,14 @@
+ 
+Meaning shifting phenomena such as metonymy have recently attracted increasing interest 
+of researchers. Though these phenomena have been addressed by a variety of computa- 
+tional methods, the impacts of cardinalities of metonymically related items have been 
+widely ignored in all of them. Motivated by this lack of analysis, we have developed a
+method for representing expectations and knowledge about the cardinalities of metonymi- 
+cally related entities and for exploiting this information to build logical forms expressing 
+metonymic relations, the entities related, and their cardinalities as precisely as possible. The 
+representation f lexically motivated knowledge is realized as an enhancement to Puste- 
+jovsky's Generative Lexicon, and the process of building logical forms takes into account 
+overwriting of default information and mismatch of cardinality requirements. Our method 
+enables a precise attachment of sentence complements, and it provides better prerequisites 
+for reference resolution in the context of metonymic expressions than previous approaches. 
+1 

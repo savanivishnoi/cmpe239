@@ -1,0 +1,16 @@
+
+We propose a novel approach for develop-
+ing a two-stage document-level discourse
+parser. Our parser builds a discourse tree
+by applying an optimal parsing algorithm
+to probabilities inferred from two Con-
+ditional Random Fields: one for intra-
+sentential parsing and the other for multi-
+sentential parsing. We present two ap-
+proaches to combine these two stages of
+discourse parsing effectively. A set of
+empirical evaluations over two different
+datasets demonstrates that our discourse
+parser significantly outperforms the state-
+of-the-art, often by a wide margin.
+1 

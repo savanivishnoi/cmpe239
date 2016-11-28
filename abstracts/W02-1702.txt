@@ -1,0 +1,20 @@
+ 
+Content selection is a key factor of any 
+successful document generation system. 
+This paper shows how a content selection 
+algorithm has been implemented using an 
+efficient combination of XML/XSL 
+technology and the framework of RST for 
+discourse modeling. The system generates 
+multilingual documents adapted to user 
+profiles in a learning environment for the 
+web.  This CourseViewGenerator applies 
+simplified RST schemes to the elaboration 
+of a master document in XML from which 
+content segments are chosen to suit the 
+user's needs. The personalisation of the 
+document is achieved through the 
+application of a sequence of filtering levels 
+of text selection based on the user aspects 
+given as input. These cascading filters are 
+implemented in XSL. 

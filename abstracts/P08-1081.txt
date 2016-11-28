@@ -1,0 +1,16 @@
+
+Online forum discussions often contain vast
+amounts of questions that are the focuses of
+discussions. Extracting contexts and answers
+together with the questions will yield not only
+a coherent forum summary but also a valu-
+able QA knowledge base. In this paper, we
+propose a general framework based on Con-
+ditional Random Fields (CRFs) to detect the
+contexts and answers of questions from forum
+threads. We improve the basic framework by
+Skip-chain CRFs and 2D CRFs to better ac-
+commodate the features of forums for better
+performance. Experimental results show that
+our techniques are very promising.
+1 

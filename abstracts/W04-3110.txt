@@ -1,0 +1,20 @@
+
+In this paper we discuss the design, implemen-
+tation, and use of Termino, a large scale termi-
+nological resource for text processing. Dealing
+with terminology is a difficult but unavoidable
+task for language processing applications, such
+as Information Extraction in technical domains.
+Complex, heterogeneous information must be
+stored about large numbers of terms. At the
+same time term recognition must be performed
+in realistic times. Termino attempts to recon-
+cile this tension by maintaining a flexible, ex-
+tensible relational database for storing termino-
+logical information and compiling finite state
+machines from this database to do term look-
+up. While Termino has been developed for
+biomedical applications, its general design al-
+lows it to be used for term processing in any
+domain.
+1 

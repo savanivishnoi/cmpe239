@@ -1,0 +1,25 @@
+ 
+This paper presents comparative experimen-
+tal results on four techniques of language 
+model adaptation, including a maximum a 
+posteriori (MAP) method and three dis-
+criminative training methods, the boosting 
+algorithm, the average perceptron and the 
+minimum sample risk method, on the task of 
+Japanese Kana-Kanji conversion. We evalu-
+ate these techniques beyond simply using 
+the character error rate (CER): the CER re-
+sults are interpreted using a metric of do-
+main similarity between background and 
+adaptation domains, and are further evalu-
+ated by correlating them with a novel metric 
+for measuring the side effects of adapted 
+models. Using these metrics, we show that 
+the discriminative methods are superior to a 
+MAP-based method not only in terms of 
+achieving larger CER reduction, but also of 
+being more robust against the similarity of 
+background and adaptation domains, and 
+achieve larger CER reduction with fewer 
+side effects.  
+1 

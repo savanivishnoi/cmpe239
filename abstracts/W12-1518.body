@@ -1,0 +1,19 @@
+
+A useful enhancement of an NLG system for
+verbalising ontologies would be a module ca-
+pable of explaining undesired entailments of
+the axioms encoded by the developer. This
+task raises interesting issues of content plan-
+ning. One approach, useful as a baseline, is
+simply to list the subset of axioms relevant
+to inferring the entailment; however, in many
+cases it will still not be obvious, even to OWL
+experts, why the entailment follows. We sug-
+gest an approach in which further statements
+are added in order to construct a proof tree,
+with every step based on a relatively simple
+deduction rule of known difficulty; we also de-
+scribe an empirical study through which the
+difficulty of these simple deduction patterns
+has been measured.
+1 

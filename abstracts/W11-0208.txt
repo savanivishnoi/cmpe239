@@ -1,0 +1,22 @@
+
+Named Entity Recognition (NER) is an im-
+portant first step for BioNLP tasks, e.g., gene
+normalization and event extraction. Employ-
+ing supervised machine learning techniques
+for achieving high performance recent NER
+systems require a manually annotated corpus
+in which every mention of the desired seman-
+tic types in a text is annotated. However, great
+amounts of human effort is necessary to build
+and maintain an annotated corpus. This study
+explores a method to build a high-performance
+NER without a manually annotated corpus,
+but using a comprehensible lexical database
+that stores numerous expressions of seman-
+tic types and with huge amount of unanno-
+tated texts. We underscore the effectiveness of
+our approach by comparing the performance
+of NERs trained on an automatically acquired
+training data and on a manually annotated cor-
+pus.
+1 

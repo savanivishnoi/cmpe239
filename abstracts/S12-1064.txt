@@ -1,0 +1,15 @@
+
+We describe the Heidelberg University system
+for the Cross-lingual Textual Entailment task
+at SemEval-2012. The system relies on fea-
+tures extracted with statistical machine trans-
+lation methods and tools, combining mono-
+lingual and cross-lingual word alignments
+as well as standard textual entailment dis-
+tance and bag-of-words features in a statisti-
+cal learning framework. We learn separate bi-
+nary classifiers for each entailment direction
+and combine them to obtain four entailment
+relations. Our system yielded the best overall
+score for three out of four language pairs.
+1 

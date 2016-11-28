@@ -1,0 +1,26 @@
+
+Many Semantic Role Labeling (SRL)
+combination strategies have been pro-
+posed and tested on English SRL task.
+But little is known about how much Chi-
+nese SRL can benefit from system combi-
+nation. And existing combination strate-
+gies trust each individual system?s output
+with the same confidence when merging
+them into a pool of candidates. In our ap-
+proach, we assign different weights to dif-
+ferent system outputs, and add a weighted
+merging stage to the conventional SRL
+combination architecture. We also pro-
+pose a method to obtain an appropriate
+weight for each system?s output by min-
+imizing some error function on the devel-
+opment set. We have evaluated our strat-
+egy on Chinese Proposition Bank data set.
+With our minimum error weighting strat-
+egy, the F1 score of the combined result
+achieves 80.45%, which is 1.12% higher
+than baseline combination method?s re-
+sult, and 4.90% higher than the best in-
+dividual system?s result.
+1 

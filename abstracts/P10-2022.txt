@@ -1,0 +1,30 @@
+
+Bag-of-words approaches to information
+retrieval (IR) are effective but assume in-
+dependence between words. The Hy-
+perspace Analogue to Language (HAL)
+is a cognitively motivated and validated
+semantic space model that captures sta-
+tistical dependencies between words by
+considering their co-occurrences in a sur-
+rounding window of text. HAL has been
+successfully applied to query expansion in
+IR, but has several limitations, including
+high processing cost and use of distribu-
+tional statistics that do not exploit syn-
+tax. In this paper, we pursue two methods
+for incorporating syntactic-semantic infor-
+mation from textual ?events? into HAL.
+We build the HAL space directly from
+events to investigate whether processing
+costs can be reduced through more careful
+definition of word co-occurrence, and im-
+prove the quality of the pseudo-relevance
+feedback by applying event information
+as a constraint during HAL construction.
+Both methods significantly improve per-
+formance results in comparison with orig-
+inal HAL, and interpolation of HAL and
+relevance model expansion outperforms
+either method alone.
+1 

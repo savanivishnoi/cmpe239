@@ -1,0 +1,21 @@
+
+The optimal combination of language model
+(LM) and language understanding model
+(LUM) varies depending on available training
+data and utterances to be handled. Usually, a
+lot of effort and time are needed to find the op-
+timal combination. Instead, we have designed
+and developed a new framework that uses
+multiple LMs and LUMs to improve speech
+understanding accuracy under various situa-
+tions. As one implementation of the frame-
+work, we have developed a method for select-
+ing the most appropriate speech understand-
+ing result from several candidates. We use
+two LMs and three LUMs, and thus obtain six
+combinations of them. We empirically show
+that our method improves speech understand-
+ing accuracy. The performance of the oracle
+selection suggests further potential improve-
+ments in our system.
+1 

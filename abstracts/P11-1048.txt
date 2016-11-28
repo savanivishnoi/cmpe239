@@ -1,0 +1,21 @@
+
+Via an oracle experiment, we show that the
+upper bound on accuracy of a CCG parser
+is significantly lowered when its search space
+is pruned using a supertagger, though the su-
+pertagger also prunes many bad parses. In-
+spired by this analysis, we design a single
+model with both supertagging and parsing fea-
+tures, rather than separating them into dis-
+tinct models chained together in a pipeline.
+To overcome the resulting increase in com-
+plexity, we experiment with both belief prop-
+agation and dual decomposition approaches to
+inference, the first empirical comparison of
+these algorithms that we are aware of on a
+structured natural language processing prob-
+lem. On CCGbank we achieve a labelled de-
+pendency F-measure of 88.8% on gold POS
+tags, and 86.7% on automatic part-of-speeoch
+tags, the best reported results for this task.
+1 

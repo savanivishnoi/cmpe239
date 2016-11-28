@@ -1,0 +1,20 @@
+
+Previous work on bilingual lexicon extrac-
+tion from comparable corpora aimed at
+finding a good representation for the usage
+patterns of source and target words and at
+comparing these patterns efficiently. In
+this paper, we try to work it out in an-
+other way: improving the quality of the
+comparable corpus from which the bilin-
+gual lexicon has to be extracted. To do
+so, we propose a measure of comparabil-
+ity and a strategy to improve the qual-
+ity of a given corpus through an iterative
+construction process. Our approach, be-
+ing general, can be used with any existing
+bilingual lexicon extraction method. We
+show here that it leads to a significant im-
+provement over standard bilingual lexicon
+extraction methods.
+1 

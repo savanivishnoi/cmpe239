@@ -1,0 +1,18 @@
+
+This paper describes our use of phrase-
+based statistical machine translation (PB-
+SMT) for the automatic correction of er-
+rors in learner text in our submission to
+the CoNLL 2013 Shared Task on Gram-
+matical Error Correction. Since the lim-
+ited training data provided for the task
+was insufficient for training an effective
+SMT system, we also explored alternative
+ways of generating pairs of incorrect and
+correct sentences automatically from other
+existing learner corpora. Our approach
+does not yield particularly high perfor-
+mance but reveals many problems that re-
+quire careful attention when building SMT
+systems for error correction.
+1 

@@ -1,0 +1,15 @@
+
+Nilsson and Nivre (2009) introduced a tree-
+based model of persons? eye movements in
+reading. The individual variation between
+readers reportedly made application across
+readers impossible. While a tree-based model
+seems plausible for eye movements, we show
+that competitive results can be obtained with
+a linear CRF model. Increasing the inductive
+bias also makes learning across readers pos-
+sible. In fact we observe next-to-no perfor-
+mance drop when evaluating models trained
+on gaze records of multiple readers on new
+readers.
+1 

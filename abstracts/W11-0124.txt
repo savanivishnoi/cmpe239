@@ -1,0 +1,10 @@
+
+This paper presents a discourse processing framework based on weighted abduction. We elabo-
+rate on ideas described in Hobbs et al (1993) and implement the abductive inference procedure in a
+system called Mini-TACITUS. Particular attention is paid to constructing a large and reliable knowl-
+edge base for supporting inferences. For this purpose we exploit such lexical-semantic resources as
+WordNet and FrameNet. We test the proposed procedure and the obtained knowledge base on the
+Recognizing Textual Entailment task using the data sets from the RTE-2 challenge for evaluation. In
+addition, we provide an evaluation of the semantic role labeling produced by the system taking the
+Frame-Annotated Corpus for Textual Entailment as a gold standard.
+1 

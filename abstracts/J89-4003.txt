@@ -1,0 +1,595 @@
+ Family of Languages), which in 
+some circles invests the class with a certain respectabil- 
+ity. This is because such closure properties determine 
+much of the character of well-known language classes, 
+such as context-free languages and finite-state lan- 
+guages. (A Full AFL is any class of languages that 
+contains at least one nonempty language and that is 
+closed under union, A-free concatenation f two lan- 
+guages, homomorphism, inverse homomorphism, and 
+intersection with any finite-state language. See Salomaa 
+1973, for more details.) 
+The notion of a finite-state transduction is important 
+when analyzing pushdown machines. If a finite-state 
+control reads a string of input while pushing some string 
+onto the stack (without any popping), then the string in 
+the stack is a finite-state ransduction fthe input string. 
+Unfortunately, the concept of a finite-state transduction 
+is fading out of the popular textbooks. We will therefore 
+give a brief informal definition of the concept. 
+Definition. A finite-state transducer is a nondetermin- 
+istic finite-state machine with output. That is, it is a 
+finite-state machine that reads its input in a single 
+left-to-right pass. In one move it does all of the follow- 
+ing: either read a symbol or move without consuming 
+any input (called moving on the empty input) and then, 
+on the basis of this symbol or the empty input, as well 
+as the state of the finite-state machine, it changes tate 
+and outputs astring of symbols. (If, on first reading, you 
+ignore moving on the empty string, the definition is very 
+easy to understand. Moving on the empty string simply 
+allows the transducer toproduce output without reading 
+any input.) There is a designated start state and a set of 
+designated accepting states. 
+In a computation of a finite-state transducer there is 
+an output string consisting of the concatenation f the 
+individual strings output, but not all output strings are 
+considered valid. The computation begins in the start 
+state and is considered valid if and only if the compu- 
+tation ends in one of a designated set of accepting 
+states. A string y is said to be a finite-state transduction 
+of the string x via the finite-state transducer T provided 
+that there is a valid computation of T with input x and 
+output y. 
+To motivate the following definition, consider chang- 
+ing a language so that plurals are marked by reduplica- 
+tion. For example, in English "papers" would change 
+to "paperpaper." A sentence such as "Writers need 
+pens to survive" would change to "Writerwriter need 
+penpen to survive." This change of English can be 
+obtained by first replacing all plural nouns with a special 
+symbol (a in the definition) and then performing a 
+reduplication substitution as described in the definition. 
+If the change were other than an exact copy, it would 
+still satisfy the definition provided that a finite-state 
+machine could compute the approximate copy. This 
+operation allows us to take a language and introduce 
+reduplication i place of any suitably easily recognized 
+class of words and so obtain a language that uses 
+reduplication tomark that class. The following theorem 
+says that RPDA languages are closed under these sorts 
+of operations. 
+Definition. Let L be a language, a a symbol, and T a 
+finite-state transduction. Define the language L' to 
+Computational Linguistics, Volume 15, Number 4, December 1989 255 
+Walter J. Savitch A Formal ldodd for Context-Free Languages Augmented with Reduplication 
+consist of all strings w that can be written in the form 
+Xo Yo xl Yl ""Xn -1 Yn - I  Xn where 
+(i) each xi contains no a, s 
+(ii) Xo axl a ""Xn - I  ax ,  E L ,  and 
+(iii) each Yi is of the form vv' where v' is a finite-state 
+transduction of v via T. 
+A language L' ,  obtained in this way, is called a redupli- 
+cation substitution of the language L via T by substituting 
+reduplication strings for a. More simply, L' is called a 
+reduplication substitution of L provided there is some 
+symbol a and some such finite-state transduction T such 
+that L'  can be obtained from L in this way. 
+Theorem 5. If L' is a reduplication substitution of a 
+context-free language, then L' is an RPDA language. 
+Among other things, Theorem 5 says that if you add 
+reduplication to a context-free language in a very simple 
+way, then you always obtain an RPDA language. In 
+Section 8, we will prove a result that is stronger than 
+Theorem 5 and so we will not present a proof here. 
+6 NoNRPDA LANGUAGES 
+To prove that certain languages cannot be accepted by 
+any RPDA, we will need a technical lemma. Despite the 
+messy notation, it is very intuitive and fairly straight- 
+forward to prove. It says that if the stack marker ~ is 
+used to check arbitrarily long reduplications, then these 
+reduplications can be pumped up (and down). For 
+example, suppose an RPDA accepts a string of the form 
+usst  and does so by pushing $,  then s onto the stack, 
+and then matching the second s by a check-copy move. 
+It must then be true that, if s is long enough, then s can 
+be written in the form s I s 2 s 3 and for all i > 0, the RPDA 
+can do a similar pushing and checking of sls2gs3 to 
+accept USIS2 i S 3 S 1 S2 i s3t. 
+Pumping Lemma 1. For every RPDA M, there is a 
+constant k such that the following holds. If length(s) > 
+k and 
+(Pl, rst, ~ \[3) F* (P2, st, s n $ fl ) F (P3, t, ~), 
+where the indicated string $/3 is never disturbed, then 
+r and s may be decomposed into r = r~ rE r3 and s = 
+s~ s2 s3, such that s2 is nonempty and for all i - O, (pl, 
+r I rE i r 3 s I Sz i S 3 t, $ /3) F* (P2, S1 Sz i S3 t, (S I $2 i S3) R ~? /3) 
+I- (P3, t, /3). 
+Proof. Without loss of generality, we will assume that 
+M pushes at most one symbol onto the stack during 
+each move. Let k be the product of the number of states 
+in M and the number of stack symbols of M. Consider 
+the subcomputation 
+(191, rst, $/3) F* (P2, st, s R ~ /3) 
+Let s = a~a 2 ... a m where the a i are single symbols and 
+m > k. Let q~, q2 . . . . .  qm be the state of M after it places 
+this occurrence of ai onto the stack so that, after this 
+point, ag is never removed from the stack until after this 
+subcomputation. Since m > k, there must be i < j such 
+that a i = aj and qg = qj . Set 
+$2 : a i  + 1 a i  + 2 . . .  a j  
+and then define s 1 and s 3 by the equation s = sl s,2 s3. 
+Define r z to be the portion of input consumed while 
+pushing s2 onto the stack, and then define r~ and r 3 by 
+the equation r = r 1 r z r 3. It is then straightforward to 
+show that the conclusion of the lemma holds.\[\] 
+Our second pumping lemma for RPDAs draws the 
+same conclusion as a weak form of the pumping lemma 
+for context-free languages. Since the pumping lemma 
+for context-free languages will be used in the proof of 
+the second pumping lemma for RPDAs, we reproduce 
+the context-free version for reference. 
+Weak Pumping Lemma for CFLs. If L is a context- 
+free language, then there is a constant k, depending on 
+L, :such that the following holds: If z E L and length (z) 
+> k, then z can be written in the form z = uvwxy where 
+either v or x is nonempty and uv g wx i y E L for all i -> 0. 
+The following version of the pumping lemma for 
+RPDAs makes the ident ical  conclusion as the above 
+pumping lemma for context-free languages. 
+\]Pumping Lemma 2. If L is an RPDA language, then 
+there is a constant k, depending on L, such that the 
+following holds: If z E L and length (z) > k, then z can 
+be written in the form z = uvwxy,  where either v or x is 
+nonempty and lgV i WX i y E L for all i -> 0. 
+Proof. Let M be an RPDA accepting L and let k be as 
+in the Pumping Lemma 1. We decompose L into two 
+languages o that L = L 1 U L 2. Define L 1 to be the set 
+of all strings z in L such that the Pumping Lemma 1 
+applies to at least one accepting computation on z. In 
+other words, z is in LI if and only if there is a 
+computation of M of the form 
+(qo', Z, Zo) F* (Pl, rst, $ fl) F* (P2, st, s n $ \[3) F 
+(P3., t, /3) F* (pf, A, T) 
+where qo is the start state, pf is an accepting state, and 
+length(s) > k. By Pumping Lemma 1, it follows that the 
+conclusion of Pumping Lemma 2 applies to all strings in 
+L 1. (In this case we can even conclude that x-is always 
+nonempty. However, we will not be able to make such 
+a conclusion for strings in L2.) 
+L 2 is defined as the set of all strings accepted by a 
+particular ordinary PDA M 2 that simulates many of the 
+computations of the RPDA M. Define M2 to mimic the 
+computation of M but to buffer the top k + 1 symbols of 
+the stack in its finite-state control, and make the follow- 
+ing modifications to ensure that it is an ordinary PDA: if 
+M2 has to mimic a check-copy move that matches k or 
+fewer symbols above the marker $,  it does so using the 
+stack buffer in its finite-state control. If M2 ever needs 
+to mimic a check-copy move that matches more than k 
+stack symbols above the $,  it aborts the computation i
+a nonaccepting state. M 2 can tell if it needs to abort a 
+computation by checking the finite stack buffer in its 
+finite-state control. If the buffer contains k + 1 symbols 
+but no marker $,  and if M would do a check-copy 
+move, then ME aborts its computation. 
+By definition, L = L~ U L 2 . (The sets L~ and L 2 need 
+256 Computational Linguistics, Volume 15, Number 4, December 1989 
+Waiter J. Savitch A Formal Model for Context-Free Languages Augmented with Reduplication 
+not be disjoint, since M may be nondeterministic, and 
+hence, a given string may have two different accepting 
+computations. However, this does not affect the argu- 
+ment.) Because it is accepted by an ordinary PDA, L 2 is 
+a context-free language, and the Pumping Lemma for 
+context-free languages holds for it and some different k. 
+Hence, by redefining k to be the maximum of the ks for 
+LI and L2, we can conclude that the Pumping Lemma 2 
+holds for L = L~ U L2 and this redefined k.\[~ 
+The next theorem and its proof using the pumping 
+lemma illustrates the fact that RPDAs, like context-free 
+grammars, can, in some sense, check only "two things 
+at a time." 
+Theorem 6. L = {a nb ncn ln_>0} isnotanRPDA 
+language. 
+Proof. Suppose L is an RPDA language. We will 
+derive a contradiction. By Pumping Lemma 2, there is a 
+value of n and strings u, v, w, x, and y such that a n b n c n 
+= uvwxy with either v or x nonempty and such that uv i 
+wx i y E L for all i > 0. A straightforward analysis of the 
+possible cases leads to the conclusion that uv 2 wx 2 y is 
+not in L, which is the desired contradiction.if\] 
+Since it is known that the language L in Theorem 6 is 
+a TAG language, and since the TAG languages are 
+included in the indexed languages, we obtain the follow- 
+ing corollaries. The second corollary is the promised 
+completion of the proof of Theorem 2. 
+Corollary. There is a TAG language that is not an 
+RPDA language. 
+Corollary. There is an indexed language that is not an 
+RPDA language. 
+There are many versions of the pumping lemma for 
+context-free languages. (See Ogden 1968; Harrison 
+1978; Hopcroft and Ullman 1979.) Most versions make 
+the additional conclusion that length(vwx)  <- k. Often 
+one can prove that a language is not context-free 
+without using this additional conclusion about the 
+length of vwx.  In other words, we can often prove that 
+a language is not context-free by using only the weak 
+form of the pumping lemma given above. One such 
+language is the one given in Theorem 6. If you review 
+the proof of Theorem 6, then you will see that all we 
+needed was the Pumping Lemma 2. Moreover, that 
+pumping lemma has the identical conclusion as that of 
+the Weak Pumping Lemma for context-free languages. 
+This leads us to the following informal metatheorem: 
+Metatheorem. If L can be proven to not be context- 
+free via the Weak Pumping Lemma for CFLs, then L is 
+not an RPDA language. 
+This is not an official theorem since the phrase "via 
+the Weak Pumping Lemma" is not mathematically 
+precise. However, the metatheorem is quite clear and 
+quite clearly valid in an informal sense. It can be made 
+precise, but that excursion into formal logic is beyond 
+the scope of this paper. 
+To see the limits of this metatheorem, note that the 
+language { ww I w ~ {a, b} *} is an RPDA language, and 
+so to prove that it is not a context-free language, we 
+should need more than the Weak Pumping Lemma. 
+Indeed, one cannot get a contradiction by assuming 
+only that the Weak Pumping Lemma applies to this 
+language. A proof that this language is not context-free 
+must use some additional fact about context-free lan- 
+guages, such as the fact that we can assume that 
+length(vwx)  <_ k, where vwx is as described in the 
+pumping lemma. 
+The metatheorem is another indication that the 
+RPDA languages are only a small extension of the 
+context-free languages. If it is easy to prove that a 
+language is not context-free (i.e., if the language is 
+"very noncontext-free"), then the language is not an 
+RPDA language ither. 
+7 A CONSTRUCTION MISSED BY THE MODEL 
+As we have already noted, both Dutch and Swiss- 
+German contain constructions consisting of a string of 
+nouns followed by an equal (or approximately equal) 
+number of verbs. Hence these languages contain sub- 
+strings of the form 
+N l N 2 . . .N n V ,  V 2 ...V,, 
+In the case of Swiss-German, additional agreement 
+rules suffice to show that these constructions are be- 
+yond the reach of context-free grammar, although not 
+beyond the reach of RPDAs. (See the discussion of 
+Shieber 1985 earlier in this paper.) Because Dutch lacks 
+the strong agreement rule present in Swiss German, the 
+same proof does not apply to Dutch. Manaster-Ramer 
+(1987) describes an extension of this construction within 
+Dutch and argues that this extension takes Dutch be- 
+yond the weak generative capacity of context-free 
+grammar. Although we are admittedly oversimplifying 
+the data, the heart of his formal argument is that two 
+such strings of verbs may be conjoined. Hence, Dutch 
+contains ubstrings that approximate he form 
+Nl  N2 ...Nn VI V2 ...Vn en ( 'and' )  V i V2 ""Vo 
+The Dutch data support only the slightly weaker claim 
+that the number of nouns is less than or equal to the 
+number of verbs. Hence, Manaster-Ramer's argument 
+is, in essence, that Dutch contains a construction simi- 
+lar to the following formal anguage: 
+g = {a i l~c J l i~ j}  
+He uses this observation to argue, via the Pumping 
+Lemma for Context-Free Languages, that Dutch is not 
+a context-free language. A careful reading of his argu- 
+ment reveals that, with minor alterations, the argument 
+can be made to work using only the Weak Pumping 
+Lemma. Hence by the metatheorem presented here (or 
+a careful review of his proof), it follows that his argu- 
+ment generalizes to show that the language L is not an 
+RPDA language. Hence, if one accepts his data, the 
+same argument shows that Dutch is not an RPDA 
+language. 
+Computational Linguistics, Volume 15, Number 4, December 1989 257 
+Walter J. Savitch A Formal Mode~ for Context-Free Languages Augmented with Reduplication 
+The RPDA model could be extended to take account 
+of this and similar natural language constructions 
+missed by the model. One possibility is simply to allow 
+the RPDA to check an arbitrary number of input strings 
+to see if they are finite-state transductions of the string 
+above the marker $. There are a number of ways to do 
+this. However, it seems preferable to keep the model 
+clean until we have a clearer idea of what constructions, 
+other than reduplication, place natural language beyond 
+the reach of context-free grammar. The RPDA model, 
+as it stands, captures the notion of context-free gram- 
+mar plus reduplication, and that constitutes one good 
+approximation to natural anguage string sets. 
+8 REDUPLICATION GRAMMARS 
+Although we do not have a grammar characterization f 
+RPDA languages, we do have a grammar class that is an 
+extension of context-free grammar and that is adequate 
+for a large subclass of the RPDA languages. The model 
+consists of a context-free grammar, with the addition 
+that the right-hand side of rewrite rules may contain a 
+location for an unboundedly ong reduplication string of 
+terminal symbols (as well as the usual terminal and 
+nonterminal symbols). 
+Definition. A reduplication context-free grammar 
+(RCFG) is a grammar consisting of terminal, nontermi- 
+nal, and start symbols as in an ordinary context-free 
+grammar, but instead of a finite set of productions, it
+has a finite set of rule schemata of the following form: 
+(A --~ ct, T) where A is a nonterminal symbol, a is a 
+string of terminal and/or nonterminal symbols, and 
+where T is a finite-state transducer. (Thus, A ~ a is an 
+ordinary context-free rule, but it will be interpreted 
+differently than normal.) 
+The production set associated with the schema (A --~ 
+a, T) is the set of all context-free rules of the form: A --* 
+ww'ct, where w is a string of terminal symbols, and w' is 
+obtained from w by applying the finite-state transduc- 
+tion T to the string w. 
+The next step relation f f  for derivations i defined as 
+follows: 
+a ~ /3 if there is some context-free rule in some 
+production set of some rule schema of the grammar 
+such that a ~ /3 via this rule in the usual manner for 
+context-free r write rules. As usual, ~ is the reflexive- 
+transitive closure of ~ .  
+The language generated by an RCFG, G, is defined 
+and denoted in the usual way: L(G) = { w L w a string of 
+terminal symbols and S ~ w}, where S is the start 
+symbol. 
+Notice that an RCFG is a special form of infinite 
+context-free grammar. It consists of a context-free 
+grammar with a possibly infinite set of rewrite rules, 
+namely the union of the finitely many production sets 
+associated with the schemata. However, there are very 
+severe restrictions on which infinite sets of productions 
+are allowed. Also notice that RCFGs generalize con- 
+text-free grammars. If we take T to be the transduction 
+that accepts only the empty string as input and output, 
+then the set of productions associated with the schema 
+(A -~ ct, I) consists of the single context-free production 
+A -~ a. In particular, every context-free grammar is 
+(except for notational detail) an RCFG. 
+Recall that a context-free grammar in Greibach Nor- 
+mal Form is one in which each production is of the form 
+A --~ act 
+where a is a terminal symbol and ct is a string consisting 
+entirely of nonterminals. It is well known that every 
+context-free language can be (weakly) generated by a 
+context-free grammar in Greibach Normal Form. The 
+schemata described in the definition of RCFGs have 
+some similarity to context-free rules in Greibach Nor- 
+mal Form, except hat they start with a reduplication 
+string, rather than a single terminal symbol, and the 
+remaining string may contain terminal symbols. Also 
+the leading reduplication string may turn out to be the 
+empty string. Thus, these are very far from being in 
+Greibach Normal Form. Yet, as the proof of the next 
+result shows, the analogy to Greibach Normal Form can 
+sometimes be productive. 
+Theorem 7. If L is a reduplication substitution of a 
+context-free language, then there is an RCFG G such 
+that L = L(G). 
+Proof. Let G' be a context-free grammar, T a finite- 
+state transduction and a a symbol such that L is 
+obtained from L(G') via T by substituting reduplication 
+strings for a. Without loss of generality, we can assume 
+that G' is in Greibach Normal Form. The RCFG G 
+promised in the theorem will be obtained by modifying 
+G'. To obtain G from G' we replace ach G' rule of the 
+form 
+A --~ aA 1 A 2 ...A n, 
+where a is the symbol used for the reduplication substi- 
+tution, by the schema 
+(A --~ Al A2 ""An, T) 
+The remaining rules of G' are left unchanged except for 
+the technicality of adding a finite-state transduction that 
+accepts only the empty string as input and output, and 
+so leaves the rule unchanged for purposes of generation. 
+A routine induction then shows that the resulting RCFG 
+G is such that L(G) = L.\[3 
+Parsing with an RCFG does not require the full 
+power of an RPDA, but only requires the restricted type 
+of R\]PDA that is described next. 
+Definition. A simple RPDA is an RPDA such that, in 
+any computation: 
+(i) there is at most one occurrence of the marker $ in 
+the stack at any one time, and 
+(ii) as long as the marker symbol $ is in the stack, the 
+RPDA never removes a symbol from the stack. 
+More formally, an RPDA M is a simple RPDA 
+provided that the following condition holds: if the 
+instruction (p, push a, A) E 8(q, a, Z) can ever be used 
+258 Computational Linguistics, Volume 15, Number 4, December 1989 
+Walter J. Savitch A Formal Model for Context-Free Languages Augmented with Reduplication 
+when $ is in the stack, then a = /3 Z for some/3 and 
+does not occur in a. 
+Like Theorem 1, the following equivalence for simple 
+RPDAs is trivial to prove by adapting the proof of the 
+same result for ordinary PDAs. 
+Theorem 8. A language L is accepted by some simple 
+RPDA by final state if and only if it is accepted by some 
+(typically different) simple RPDA by empty store. 
+The next theorem says that RCFGs are equivalent to 
+simple RPDAs. 
+Theorem 9. For any language L, L is generated by 
+some RCFG if and only if L is accepted by some simple 
+RPDA. 
+Proof. Suppose that G is an RCFG such that L = 
+L(G). We can construct a simple RPDA that accepts 
+L(G). All we need do is adapt the standard nondeter- 
+ministic top-down algorithm for accepting a context- 
+free language by empty store on an ordinary PDA. We 
+then obtain a simple RPDA that accepts L(G) by empty 
+store. The details follow. 
+The RPDA starts with the start nonterminal in the 
+stack and proceeds to construct a leftmost derivation in 
+the stack. If a nonterminal A is on the top of the stack, 
+then it nondeterministically chooses a schema ( A ---> a, 
+T) and does all of the following: 
+1. Pops A and pushes a. (As usual, the symbols of a go 
+in so the leftmost one is on the top of the stack.) 
+2. Pushes the marker symbol $ onto the stack. 
+3. Nondeterministically advances the input head past 
+some string w while simultaneously computing a 
+string w' such that w' is a finite-state transduction of 
+w via T. The string w' is pushed onto the stack as it 
+is produced. 
+4. Executes a check-copy move to verify that w' is an 
+initial segment of the remaining input, thereby also 
+using up the input w'. 
+If the top symbol is a terminal and there is no ~ in the 
+stack, then it simply matches the stack symbol to the 
+input symbol, consuming both the stack symbol and the 
+input symbol. 
+A routine induction shows that the RPDA accepts 
+exactly the language L = L(G). 
+Conversely, suppose that M is a simple RPDA such 
+that L(M) = L. Without loss of generality, we will 
+assume that M always pushes at least one symbol on the 
+stack after pushing the marker symbols $,  that every 
+marker symbol $ on the stack is eventually used in a 
+copy-check move, and that the marker symbol ~ is not 
+left in the stack at the end of any accepting computa- 
+tion. We reprogram M to obtain an ordinary PDA M' 
+that accepts a different but related language L' .  M'  is 
+defined as follows: M' has all the input symbols of M 
+plus one new symbol, denoted <q, p>,  for each pair of 
+M states (q, p). Intuitively, a new symbol <q, p> is 
+used to stand in for a reduplication string that M would 
+process starting in state q and ending up in state p after 
+a successful check-copy move. M' mimics M step by 
+step as long as M would not have the marker $ in the 
+stack and as long as the input is not one of the new 
+symbols <q, p>.  I fM'  reads a new symbol <q, p>,  and 
+M' is simulating M in the state q, then M' guesses an 
+input symbol a of M and simulates M on input a. If M 
+would consume the input symbol a without pushing the 
+marker ~ on the stack, then M' aborts its computation. 
+If M would eventually push the marker $ on the stack 
+while scanning (and possibly consuming) a, then M' 
+continues to simulate M, guessing additional input sym- 
+bols for M until it needs to simulate M performing a
+check-copy move. At this point it assumes that the 
+check-copy move succeeds. If that simulated check- 
+copy move leaves the simulated M in the simulated state 
+p, then M' consumes <q, p> and continues the simu- 
+lation of M. If any of these conditions are not met, then 
+M' simply aborts its computation. 
+Remember that, intuitively, a new symbol <q, p> is 
+used to stand in for a reduplication string that M would 
+process starting in state q and ending up in state p after 
+a successful check-copy move. For any state q in which 
+M would push ~ on the stack, M will go on to push a 
+finite-state transduction of the input onto the stack until 
+it wants to execute a check-copy move. Let T(q, p) be 
+that finite-state transducer with start state q and the 
+single accepting state p such that T simulates M starting 
+in state q and pushing symbols on the stack and such 
+that M accepts if and only if it ends the simulation in a 
+state that allows a check-copy move that will leave M in 
+state p. (Aside from start and accepting state, all the 
+T(q, p) are essentially the same transducer.) Now, M' 
+accepts ome context-free language L' with the follow- 
+ing property: 
+(A) Suppose x o < ql, Pl > Xl < q2, P2 > X2 "'" 
+< q., q. > X. is such that each x; contains no new 
+symbols and suppose that the strings u i and 
+v; (i <-- n) are such that each vi is a finite-state 
+transduction of ui by T (qi, Pi). Under these as- 
+sumptions, x 0 < q~, p~ > x~ < q2, P2 > X2""< q,,, qn 
+> x. E L' = L (M') if and only i fx  0 ul vl xl u2 v2 
+? ..u, v, x~ E L(M) 
+Finally let G' be a context-free grammar in Greibach 
+Normal Form for the context-free language L'. Con- 
+struct an RCFG, G, as follows: 
+(i) For each rule of G' of the form A ~ < q, p > A l 
+A 2 ... A n add the following schema to G: 
+(A ~ A l A 2 ... An, T(q, p)) 
+(ii) For all other rules of G' simply add the rule to G 
+unchanged (except for cosmetic hanges in notation to 
+make them look like schemata). 
+By (A) and a routine induction it follows that L(G) = 
+L(M).O 
+Theorem 9 makes simple RPDAs sound better be- 
+haved than regular RPDAs and if there were no evi- 
+dence to the contrary, the weaker model would be 
+preferred. However, the fact that natural anguages can 
+Computational Linguistics, Volume 15, Number 4, December 1989 259 
+Walter J. Savitch A Formal Model for Context-Free Languages Augmented with Reduplication 
+have complicated phrase structures embedded within a 
+reduplication construction indicates that simple RPDAs 
+may not be adequate for natural language syntax. If one 
+assumes a language like English but with syntactic 
+gender, strong agreement rules, and a well-behaved use 
+of respectively, then one can easily see why one might 
+want more power than that provided by a simple RPDA. 
+An example of a kind of sentence that seems beyond the 
+reach of simple RPDAs is the following: 
+Tom, who has had three wives, Sally, who has had 
+seven husbands, Mary, who lost John, Hank, and 
+Sammy to cancer, heart disease, and stroke, respec- 
+tively, and Frank, who had only one wife and lost her 
+last January, are a widower, widow, widow, and 
+widower, respectively. 
+The natural way to handle these sorts of sentences with 
+an RPDA is to have two markers + in the stack at once, 
+and we conjecture that a single marker will not suffice. 
+English does not have the syntactic gender and 
+strong agreement rules that would allow us to prove, via 
+this construction, that English is not context-free. We 
+merely put it forth as an example of a potential natural 
+language situation. 
+9 SUMMARY 
+We have seen that the RPDA model is very similar to 
+the PDA characterization of context-free languages. 
+Thus from an automata theoretic point of view, RPDA 
+languages are very much like context-free languages. 
+We have seen that both classes have similar closure 
+properties, and so they are similar from an algebraic 
+point of view as well. Moreover, the context-free lan- 
+guages and the RPDA languages have similar pumping 
+lemmas that exclude many of the same unnatural lan- 
+guage sets and even exclude them for the same reasons. 
+Hence, the class of RPDAs are only mildly stronger 
+than context-free grammars. However, the model is 
+sufficiently strong to handle the many reduplication 
+constructions that are found in natural language and that 
+seem to place natural language outside of the class of 
+context-free languages. The RPDA languages do not, as 
+yet, have a grammar characterization similar to that of 
+context-free grammar, but the RCFG grammars are 
+context-free like grammars that do capture at least a 
+large subclass of the RPDA languages. 
+ACKNOWLEDGMENTS 
+This research was supported in part by NSF grant DCR-8604031. Bill 
+Chen and Alexis Manaster-Ramer provided a number of useful 
+discussions on this material. A preliminary version of this work was 
+presented at the Workshop on Mathematical Theories of Language, 
+LSA Summer Institute, Stanford University, Summer 1987. Com- 
+ments of the workshop participants, particularly those of Aravind 
+Joshi, K. Vijay-Shanker, and David Weir, helped shape the current 
+version of this work. A number of remarks by two anonymous 
+referees also help in the preparation of the final draft of this paper. I
+express my thanks to all these individuals for their help in this work. 
+REFERENCES 
+Aho, Alfred V. 1968 Indexed Grammars--an Extension to Context 
+Free Grammars. Journal of the Association for Computing Ma- 
+chinery 15: 647-671. 
+Aho, Alfred V. 1969 Nested-Stack Automata. Journal of the Associ- 
+ation for Computing Machinery 16: 383-406. 
+Bar-HiUel, Y. and Shamir, E. 1964 Finite State Languages: Formal 
+Representations and Adequacy Problems. In: Bar-Hillel, Y. (ed.), 
+Language and Information. Addison-Wesley, Reading, MA: 87-98. 
+Bre, snan, J.; Kaplan, R. M.; Peters, S. and Zaenen, A. 1982 Cross- 
+Serial Dependencies in Dutch. Linguistic Inquiry 13: 613-635. 
+Culy, Christopher 1985 The Complexity of the Vocabulary of Bam- 
+bara. Linguistics and Philosophy 8: 345-351. 
+Gazdar, Gerald 1985 Applicability of Indexed Grammars to Natural 
+Languages, Report No. CSLI-85-34. Center for the Study of 
+Language and Information. Palo Alto, CA. 
+Gazdar, Gerald and Pullum, Geoffrey K. 1985 Computationally Rel- 
+evant Properties of Natural Languages and their Grammars. New 
+Generation Computing 3: 273-306. 
+Harrison, Michael A. 1978 

@@ -1,0 +1,28 @@
+ 
+It is a challenging task to identify sentiment 
+polarity of Chinese reviews because the re-
+sources for Chinese sentiment analysis are 
+limited. Instead of leveraging only monolin-
+gual Chinese knowledge, this study proposes a 
+novel approach to leverage reliable English 
+resources to improve Chinese sentiment 
+analysis. Rather than simply projecting Eng-
+lish resources onto Chinese resources, our ap-
+proach first translates Chinese reviews into 
+English reviews by machine translation ser-
+vices, and then identifies the sentiment polar-
+ity of English reviews by directly leveraging 
+English resources. Furthermore, our approach 
+performs sentiment analysis for both Chinese 
+reviews and English reviews, and then uses 
+ensemble methods to combine the individual 
+analysis results. Experimental results on a 
+dataset of 886 Chinese product reviews dem-
+onstrate the effectiveness of the proposed ap-
+proach. The individual analysis of the 
+translated English reviews outperforms the in-
+dividual analysis of the original Chinese re-
+views, and the combination of the individual 
+analysis results further improves the perform-
+ance.  
+1 

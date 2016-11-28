@@ -1,0 +1,9 @@
+ 
+We present an approach to parallel natural 
+language parsing which is based on a con- 
+current, object-oriented model of computa- 
+tion. A depth-first, yet incomplete pars- 
+ing algorithm for a dependency grammar is 
+specified and several restrictions on the de- 
+gree of its parallelization are discussed. 
+1 

@@ -1,0 +1,25 @@
+
+The large combined search space of joint word
+segmentation and Part-of-Speech (POS) tag-
+ging makes efficient decoding very hard. As a
+result, effective high order features represent-
+ing rich contexts are inconvenient to use. In
+this work, we propose a novel stacked sub-
+word model for this task, concerning both ef-
+ficiency and effectiveness. Our solution is
+a two step process. First, one word-based
+segmenter, one character-based segmenter and
+one local character classifier are trained to pro-
+duce coarse segmentation and POS informa-
+tion. Second, the outputs of the three pre-
+dictors are merged into sub-word sequences,
+which are further bracketed and labeled with
+POS tags by a fine-grained sub-word tag-
+ger. The coarse-to-fine search scheme is effi-
+cient, while in the sub-word tagging step rich
+contextual features can be approximately de-
+rived. Evaluation on the Penn Chinese Tree-
+bank shows that our model yields improve-
+ments over the best system reported in the lit-
+erature.
+1 

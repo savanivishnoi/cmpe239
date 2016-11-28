@@ -1,0 +1,21 @@
+
+Probabilistic synchronous context-free
+grammar (PSCFG) translation models
+define weighted transduction rules that
+represent translation and reordering oper-
+ations via nonterminal symbols. In this
+work, we investigate the source of the im-
+provements in translation quality reported
+when using two PSCFG translation mod-
+els (hierarchical and syntax-augmented),
+when extending a state-of-the-art phrase-
+based baseline that serves as the lexical
+support for both PSCFG models. We
+isolate the impact on translation quality
+for several important design decisions in
+each model. We perform this comparison
+on three NIST language translation tasks;
+Chinese-to-English, Arabic-to-English
+and Urdu-to-English, each representing
+unique challenges.
+1 

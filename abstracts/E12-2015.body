@@ -1,0 +1,23 @@
+
+Named Entity Extraction is a mature task
+in the NLP field that has yielded numerous
+services gaining popularity in the Seman-
+tic Web community for extracting knowl-
+edge from web documents. These services
+are generally organized as pipelines, using
+dedicated APIs and different taxonomy for
+extracting, classifying and disambiguating
+named entities. Integrating one of these
+services in a particular application requires
+to implement an appropriate driver. Fur-
+thermore, the results of these services are
+not comparable due to different formats.
+This prevents the comparison of the perfor-
+mance of these services as well as their pos-
+sible combination. We address this problem
+by proposing NERD, a framework which
+unifies 10 popular named entity extractors
+available on the web, and the NERD on-
+tology which provides a rich set of axioms
+aligning the taxonomies of these tools.
+1 

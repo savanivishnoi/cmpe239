@@ -1,0 +1,22 @@
+
+In this paper, we present a solution to one
+aspect of the decipherment task: the pre-
+diction of consonants and vowels for an
+unknown language and alphabet. Adopt-
+ing a classical Bayesian perspective, we
+performs posterior inference over hun-
+dreds of languages, leveraging knowledge
+of known languages and alphabets to un-
+cover general linguistic patterns of typo-
+logically coherent language clusters. We
+achieve average accuracy in the unsuper-
+vised consonant/vowel prediction task of
+99% across 503 languages. We further
+show that our methodology can be used
+to predict more fine-grained phonetic dis-
+tinctions. On a three-way classification
+task between vowels, nasals, and non-
+nasal consonants, our model yields unsu-
+pervised accuracy of 89% across the same
+set of languages.
+1 

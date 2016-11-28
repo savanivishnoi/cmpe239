@@ -1,0 +1,21 @@
+  
+Ambiguity is very high for location names. For 
+example, there are 23 cities named ?Buffalo? in the 
+U.S.  Based on our previous work, this paper presents 
+a refined hybrid approach to geographic references 
+using our information extraction engine InfoXtract. 
+The InfoXtract location normalization module 
+consists of local pattern matching and discourse 
+co-occurrence analysis as well as default senses.  
+Multiple knowledge sources are used in a number of 
+ways: (i) pattern matching driven by local context, 
+(ii) maximum spanning tree search for discourse 
+analysis, and (iii) applying default sense heuristics 
+and extracting default senses from the web. The 
+results are benchmarked with 96% accuracy on our 
+test collections that consist of both news articles and 
+tourist guides. The performance contribution for each 
+component of the module is also benchmarked and 
+discussed. 
+ 
+1 

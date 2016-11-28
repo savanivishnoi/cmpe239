@@ -1,0 +1,51 @@
+ 
+A consultant system's main task is to provided helpful advice 
+to the user. Consultant systems hould not only find solutions 
+to user problems, but should also inform the user of potential 
+problems with these solutions. Expressing such potential 
+caveats is a difficult process due to the many potential plan 
+failures for each particular plan in a particular planning situa- 
+tion. A commonsense planner, called KIP, Knowledge Inten- 
+sive Planner, is described. KIP is the planner for the UNIX 
+Consultant system. KIP detect potential plan failures using a 
+new knowledge structure termed a concern. Concerns allow 
+KIP to detects plan failures due to unsatisfied conditions or 
+goal conflict. KIP's concern algorithm also is able to provide 
+information to the expression mechanism regarding potential 
+plan failures. Concern information ispassed to the expression 
+mechanism when KIP's selected plan might not work. In this 
+case, KIP passes information regarding both the suggested 
+plan and the potential caveats in that plan to the expression 
+mechanism. This is an efficient approach since KIP must 
+make such decisions in the context of its planning process. A 
+concern's declarative structure makes it easier to express than 
+procedural descriptions of plan failures used by earlier sys- 
+tems. 
+Marc Luria 
+Computer Science Department 
+Technion, Israel Institute of Technology 
+Halfa 
+Israel 
+(a2) Let me know if the door is locked. 
+(a3) Be careful walking down the stairs. 
+(a4) Make sure to turn off the basement light. 
+In (al), the mother has provided the child with information 
+about the location of his shoe. The mother has also implied 
+the use of a plan: Walk down to the basement and get your 
+shoes. However, there are a number of problems inherent in 
+this plan. The mother might also inform her child of these 
+problems. The first problem, (a2), is that one of the condi- 
+tions necessary to execute the plan might be unsatisfied. The 
+door to the basement might be locked. If it is locked addition- 
+al steps in the plan will be necessary. The second problem, 
+(a3), is that executing the walk-down-the-stairs plan might 
+result in a fall. The mother knows that this outcome is likely, 
+due to her experience of the child's previous attempts at the 
+walk-down-the-stairs plan. The mother wishes to prevent the 
+child from falling, since this is a potentially dangerous and 
+frightening experience for the child. The third problem, (a4), 
+is that the child might forget to turn off the light in the base- 
+ment. This would threaten the mothers's goal of preventing 
+the basement light from burning out. 
+However, the same parent might not add: 
+I. 

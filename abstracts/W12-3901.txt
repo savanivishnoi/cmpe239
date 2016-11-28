@@ -1,0 +1,29 @@
+ 
+The current paper presents a language-
+independent methodology, which facilitates 
+the creation of machine translation (MT) 
+systems for various language pairs. This 
+methodology is implemented in the 
+PRESEMT hybrid MT system. PRESEMT 
+has the lowest possible requirements on 
+specialised resources and tools, given that 
+for many languages (especially less widely 
+used ones) only limited linguistic resources 
+are available. In PRESEMT, the main 
+translation process comprises two phases. 
+The first one, Structure selection, 
+determines the overall structure of a target 
+language (TL) sentence, drawing on 
+syntactic information from a small 
+bilingual corpus. The second phase, 
+Translation equivalent selection, relies on 
+models extracted solely from monolingual 
+corpora to implement translation 
+disambiguation, determine intra-phrase 
+word order and handle functional words. 
+This paper proposes extracting information 
+for disambiguation from the monolingual 
+corpus. Experimental results indicate that 
+such information substantially contributes 
+in improving translation quality. 
+1 

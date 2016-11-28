@@ -1,0 +1,20 @@
+
+Hierarchical phrase-based models pro-
+vide a powerful mechanism to capture
+non-local phrase reorderings for statis-
+tical machine translation (SMT). How-
+ever, many phrase reorderings are arbi-
+trary because the models are weak on de-
+termining phrase boundaries for pattern-
+matching. This paper presents a novel
+approach to learn phrase boundaries di-
+rectly from word-aligned corpus without
+using any syntactical information. We use
+phrase boundaries, which indicate the be-
+ginning/ending of phrase reordering, as
+soft constraints for decoding. Experi-
+mental results and analysis show that the
+approach yields significant improvements
+over the baseline on large-scale Chinese-
+to-English translation.
+1 

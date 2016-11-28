@@ -1,0 +1,18 @@
+
+A variety of information extraction techniques
+rely on the fact that instances of the same
+relation are ?distributionally similar,? in that
+they tend to appear in similar textual con-
+texts. We demonstrate that extraction accu-
+racy depends heavily on the accuracy of the
+language model utilized to estimate distribu-
+tional similarity. An unsupervised model se-
+lection technique based on this observation is
+shown to reduce extraction and type-checking
+error by 26% over previous results, in experi-
+ments with Hidden Markov Models. The re-
+sults suggest that optimizing statistical lan-
+guage models over unlabeled data is a promis-
+ing direction for improving weakly supervised
+and unsupervised information extraction.
+1 

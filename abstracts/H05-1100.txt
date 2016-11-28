@@ -1,0 +1,20 @@
+
+We present two methods for incorporat-
+ing detailed features in a Spanish parser,
+building on a baseline model that is a lex-
+icalized PCFG. The first method exploits
+Spanish morphology, and achieves an F1
+constituency score of 83.6%. This is an
+improvement over 81.2% accuracy for the
+baseline, which makes little or no use of
+morphological information. The second
+model uses a reranking approach to add
+arbitrary global features of parse trees to
+the morphological model. The reranking
+model reaches 85.1% F1 accuracy on the
+Spanish parsing task. The resulting model
+for Spanish parsing combines an approach
+that specifically targets morphological in-
+formation with an approach that makes
+use of general structural features.
+1 

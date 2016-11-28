@@ -1,0 +1,19 @@
+
+In this paper we present a semantic archi-
+tecture that was employed for processing
+two different SemEval 2007 tasks: Task
+4 (Classification of Semantic Relations be-
+tween Nominals) and Task 8 (Metonymy
+Resolution). The architecture uses multi-
+ple forms of syntactic, lexical, and semantic
+information to inform a classification-based
+approach that generates a different model for
+each machine learning algorithm that imple-
+ments the classification. We used decision
+trees, decision rules, logistic regression and
+lazy classifiers. A voting module selects the
+best performing module for each task evalu-
+ated in SemEval 2007. The paper details the
+results obtained when using the semantic ar-
+chitecture.
+1 

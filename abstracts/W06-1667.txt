@@ -1,0 +1,22 @@
+
+We present an unsupervised learning ap-
+proach to disambiguate various relations
+between name entities by use of various
+lexical and syntactic features from the
+contexts. It works by calculating eigen-
+vectors of an adjacency graph?s Lapla-
+cian to recover a submanifold of data
+from a high dimensionality space and
+then performing cluster number estima-
+tion on the eigenvectors. This method
+can address two difficulties encoutered
+in Hasegawa et al (2004)?s hierarchical
+clustering: no consideration of manifold
+structure in data, and requirement to pro-
+vide cluster number by users. Experiment
+results on ACE corpora show that this
+spectral clustering based approach outper-
+forms Hasegawa et al (2004)?s hierarchi-
+cal clustering method and a plain k-means
+clustering method.
+1 

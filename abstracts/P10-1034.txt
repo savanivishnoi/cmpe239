@@ -1,0 +1,20 @@
+
+Tree-to-string translation rules are widely
+used in linguistically syntax-based statis-
+tical machine translation systems. In this
+paper, we propose to use deep syntac-
+tic information for obtaining fine-grained
+translation rules. A head-driven phrase
+structure grammar (HPSG) parser is used
+to obtain the deep syntactic information,
+which includes a fine-grained description
+of the syntactic property and a semantic
+representation of a sentence. We extract
+fine-grained rules from aligned HPSG
+tree/forest-string pairs and use them in
+our tree-to-string and string-to-tree sys-
+tems. Extensive experiments on large-
+scale bidirectional Japanese-English trans-
+lations testified the effectiveness of our ap-
+proach.
+1 

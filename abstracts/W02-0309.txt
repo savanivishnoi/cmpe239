@@ -1,0 +1,16 @@
+
+Document retrieval in languages with
+a rich and complex morphology ? par-
+ticularly in terms of derivation and
+(single-word) composition ? suffers from
+serious performance degradation with the
+stemming-only query-term-to-text-word
+matching paradigm. We propose an
+alternative approach in which morpholog-
+ically complex word forms are segmented
+into relevant subwords (such as stems,
+named entities, acronyms), and subwords
+constitute the basic unit for indexing and
+retrieval. We evaluate our approach on a
+large biomedical document collection.
+1 

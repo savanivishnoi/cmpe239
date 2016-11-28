@@ -1,0 +1,16 @@
+
+In this paper, we empirically demonstrate
+what we call the domain restriction hy-
+pothesis, claiming that semantically re-
+lated terms extracted from a corpus tend
+to be semantically coherent. We apply
+this hypothesis to define a post-processing
+module for the output of Espresso, a state
+of the art relation extraction system, show-
+ing that irrelevant and erroneous relations
+can be filtered out by our module, in-
+creasing the precision of the final output.
+Results are confirmed by both quantita-
+tive and qualitative analyses, showing that
+very high precision can be reached.
+1 

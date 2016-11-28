@@ -1,0 +1,25 @@
+
+Conditional Random Fields (CRFs) are
+a widely-used approach for supervised
+sequence labelling, notably due to their
+ability to handle large description spaces
+and to integrate structural dependency be-
+tween labels. Even for the simple linear-
+chain model, taking structure into account
+implies a number of parameters and a
+computational effort that grows quadrati-
+cally with the cardinality of the label set.
+In this paper, we address the issue of train-
+ing very large CRFs, containing up to hun-
+dreds output labels and several billion fea-
+tures. Efficiency stems here from the spar-
+sity induced by the use of a `1 penalty
+term. Based on our own implementa-
+tion, we compare three recent proposals
+for implementing this regularization strat-
+egy. Our experiments demonstrate that
+very large CRFs can be trained efficiently
+and that very large models are able to im-
+prove the accuracy, while delivering com-
+pact parameter sets.
+1 

@@ -1,0 +1,21 @@
+
+We present a novel approach for extracting
+a minimal synchronous context-free grammar
+(SCFG) for Hiero-style statistical machine
+translation using a non-parametric Bayesian
+framework. Our approach is designed to ex-
+tract rules that are licensed by the word align-
+ments and heuristically extracted phrase pairs.
+Our Bayesian model limits the number of
+SCFG rules extracted, by sampling from the
+space of all possible hierarchical rules; addi-
+tionally our informed prior based on the lex-
+ical alignment probabilities biases the gram-
+mar to extract high quality rules leading to im-
+proved generalization and the automatic iden-
+tification of commonly re-used rules. We
+show that our Bayesian model is able to ex-
+tract minimal set of hierarchical phrase rules
+without impacting the translation quality as
+measured by the BLEU score.
+1 

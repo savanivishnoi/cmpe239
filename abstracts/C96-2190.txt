@@ -1,0 +1,21 @@
+ 
+Prepositional phrase attachment is a ma- 
+jor cause of stru(:tural alnbiguity in nat- 
+ural language. Recent work has been 
+dependent on corpus-based approaches 
+to deal with this problem. However, 
+corpus-based approaches suffer from the 
+sparse-data problem. To cope with this 
+problem, we introduce a hybrid method 
+of integrating corpus-based approach 
+with knowledge-based techniques, using 
+a wide-variety of information that comes 
+from annotated corpora and a machine- 
+readable dictionary. When the occur- 
+rence frequency on the corpora is low, we 
+use preference rules to determine PP at- 
+tachment based on clues from conceptual 
+information. An experiment has proven 
+that our hybrid method is both effective 
+and applicable in practice. 
+1 

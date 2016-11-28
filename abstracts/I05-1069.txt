@@ -1,0 +1,8 @@
+. Recently, researchers have applied text- and web-mining algorithms 
+to mine semantic resources. The result is often a noisy graph of relations be-
+tween words. We propose a mathematically rigorous refinement framework, 
+which uses path-based analysis, updating the likelihood of a relation between a 
+pair of nodes using evidence provided by multiple indirect paths between the 
+nodes. Evaluation on refining temporal verb relations in a semantic resource 
+called VERBOCEAN showed a 16.1% error reduction after refinement. 
+1   

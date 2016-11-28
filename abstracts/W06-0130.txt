@@ -1,0 +1,17 @@
+ 
+This paper describes the work on Chinese 
+named entity recognition performed by 
+Yahoo team at the third International 
+Chinese Language Processing Bakeoff. 
+We used two conditional probabilistic 
+models for this task, including condi-
+tional random fields (CRFs) and maxi-
+mum entropy models. In particular, we 
+trained two conditional random field rec-
+ognizers and one maximum entropy rec-
+ognizer for identifying names of people, 
+places, and organizations in un-
+segmented Chinese texts. Our best per-
+formance is 86.2% F-score on MSRA 
+dataset, and 88.53% on CITYU dataset. 
+1 

@@ -1,0 +1,14 @@
+
+We report on work in progress on using
+very simple statistics in an unsupervised
+fashion to re-rank search engine results
+when review-oriented queries are issued;
+the goal is to bring opinionated or subjec-
+tive results to the top of the results list. We
+find that our proposed technique performs
+comparably to methods that rely on sophis-
+ticated pre-encoded linguistic knowledge,
+and that both substantially improve the ini-
+tial results produced by the Yahoo! search
+engine.
+1 

@@ -1,0 +1,24 @@
+
+Stanford Dependencies (SD) provide a
+functional characterization of the gram-
+matical relations in syntactic parse-trees.
+The SD representation is useful for parser
+evaluation, for downstream applications,
+and, ultimately, for natural language un-
+derstanding, however, the design of SD fo-
+cuses on structurally-marked relations and
+under-represents morphosyntactic realiza-
+tion patterns observed in Morphologically
+Rich Languages (MRLs). We present a
+novel extension of SD, called Unified-SD
+(U-SD), which unifies the annotation of
+structurally- and morphologically-marked
+relations via an inheritance hierarchy. We
+create a new resource composed of U-SD-
+annotated constituency and dependency
+treebanks for the MRL Modern Hebrew,
+and present two systems that can automat-
+ically predict U-SD annotations, for gold
+segmented input as well as raw texts, with
+high baseline accuracy.
+1 

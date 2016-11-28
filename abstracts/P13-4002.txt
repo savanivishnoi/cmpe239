@@ -1,0 +1,19 @@
+
+We implement a city-level geolocation
+prediction system for Twitter users. The
+system infers a user?s location based on
+both tweet text and user-declared metadata
+using a stacking approach. We demon-
+strate that the stacking method substan-
+tially outperforms benchmark methods,
+achieving 49% accuracy on a benchmark
+dataset. We further evaluate our method
+on a recent crawl of Twitter data to in-
+vestigate the impact of temporal factors
+on model generalisation. Our results sug-
+gest that user-declared location metadata
+is more sensitive to temporal change than
+the text of Twitter messages. We also de-
+scribe two ways of accessing/demoing our
+system.
+1 

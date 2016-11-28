@@ -1,0 +1,29 @@
+
+We explore a hybrid approach for Chinese
+definitional question answering by com-
+bining deep linguistic analysis with sur-
+face pattern learning. We answer four
+questions in this study: 1) How helpful are
+linguistic analysis and pattern learning? 2)
+What kind of questions can be answered
+by pattern matching? 3) How much an-
+notation is required for a pattern-based
+system to achieve good performance? 4)
+What linguistic features are most useful?
+Extensive experiments are conducted on
+biographical questions and other defini-
+tional questions. Major findings include:
+1) linguistic analysis and pattern learning
+are complementary; both are required to
+make a good definitional QA system; 2)
+pattern matching is very effective in an-
+swering biographical questions while less
+effective for other definitional questions;
+3) only a small amount of annotation is
+required for a pattern learning system to
+achieve good performance on biographi-
+cal questions; 4) the most useful linguistic
+features are copulas and appositives; re-
+lations also play an important role; only
+some propositions convey vital facts.
+1 

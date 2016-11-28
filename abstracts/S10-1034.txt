@@ -1,0 +1,16 @@
+
+Likey is an unsupervised statistical ap-
+proach for keyphrase extraction. The
+method is language-independent and the
+only language-dependent component is
+the reference corpus with which the doc-
+uments to be analyzed are compared.
+In this study, we have also used an-
+other language-dependent component: an
+English-specific Porter stemmer as a pre-
+processing step. In our experiments
+of keyphrase extraction from scientific
+articles, the Likey method outperforms
+both supervised and unsupervised baseline
+methods.
+1 

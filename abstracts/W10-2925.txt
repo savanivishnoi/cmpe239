@@ -1,0 +1,22 @@
+
+Recent speed-ups for training large-scale
+models like those found in statistical NLP
+exploit distributed computing (either on
+multicore or ?cloud? architectures) and
+rapidly converging online learning algo-
+rithms. Here we aim to combine the two.
+We focus on distributed, ?mini-batch?
+learners that make frequent updates asyn-
+chronously (Nedic et al, 2001; Langford
+et al, 2009). We generalize existing asyn-
+chronous algorithms and experiment ex-
+tensively with structured prediction prob-
+lems from NLP, including discriminative,
+unsupervised, and non-convex learning
+scenarios. Our results show asynchronous
+learning can provide substantial speed-
+ups compared to distributed and single-
+processor mini-batch algorithms with no
+signs of error arising from the approximate
+nature of the technique.
+1 

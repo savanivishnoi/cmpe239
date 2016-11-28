@@ -1,0 +1,13 @@
+
+PanLex is a lemmatic translation re-
+source which combines a large number of
+translation dictionaries and other translin-
+gual lexical resources. It currently covers
+1353 language varieties and 12M expres-
+sions, but aims to cover all languages and
+up to 350M expressions. This paper de-
+scribes the resource and current applica-
+tions of it, as well as lextract, a new
+effort to expand the coverage of PanLex
+via semi-automatic dictionary scraping.
+1 

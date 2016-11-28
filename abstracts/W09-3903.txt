@@ -1,0 +1,19 @@
+
+In this paper, we describe the development
+of a meeting assistant agent that helps
+remote meeting participants by notifying
+them when they are being addressed. We
+present experiments that have been con-
+ducted to develop machine classifiers to
+decide whether ?you are being addressed?
+where ?you? refers to a fixed (remote) par-
+ticipant in a meeting. The experimental re-
+sults back up the choices made regarding
+the selection of data, features, and classifi-
+cation methods. We discuss variations of
+the addressee classification problem that
+have been considered in the literature and
+how suitable they are for addressee detec-
+tion in a system that plays a role in a live
+meeting.
+1 

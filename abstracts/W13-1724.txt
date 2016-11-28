@@ -1,0 +1,20 @@
+
+This paper reports on our work in the NLI 
+shared task 2013 on Native Language Identi-
+fication. The task is to automatically detect 
+the native language of the TOEFL essays au-
+thors in a set of given test documents in Eng-
+lish. The task was solved by a system that 
+used the PPM compression algorithm based 
+on an n-gram statistical model. We submitted 
+four runs; word-based PPMC algorithm with 
+normalization and without, character-based 
+PPMC algorithm with normalization and 
+without. The worst result was obtained on 
+training and testing data during the evaluation 
+procedure using the character-based PPM 
+method and normalization: accuracy = 31.9%; 
+the best one was macroaverage F-measure =
+0.708 with the word-based PPMC algorithm 
+without normalization.
+1 

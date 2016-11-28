@@ -1,0 +1,25 @@
+ 
+The present article provides a compre-
+hensive review of the work carried out 
+on developing PRESEMT, a hybrid lan-
+guage-independent machine translation 
+(MT) methodology. This methodology 
+has been designed to facilitate rapid 
+creation of MT systems for uncon-
+strained language pairs, setting the low-
+est possible requirements on specialised 
+resources and tools. Given the limited 
+availability of resources for many lan-
+guages, only a very small bilingual cor-
+pus is required, while language model-
+ling is performed by sampling a large 
+target language (TL) monolingual cor-
+pus. The article summarises implementa-
+tion decisions, using the Greek-English 
+language pair as a test case. Evaluation 
+results are reported, for both objective 
+and subjective metrics. Finally, main er-
+ror sources are identified and directions 
+are described to improve this hybrid MT 
+methodology. 
+1 

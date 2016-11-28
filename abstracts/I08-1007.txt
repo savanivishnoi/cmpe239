@@ -1,0 +1,28 @@
+
+Orthographic variance is a fundamental
+problem for many natural language process-
+ing applications. The Japanese language, in
+particular, contains many orthographic vari-
+ants for two main reasons: (1) transliterated
+words allow many possible spelling varia-
+tions, and (2) many characters in Japanese
+nouns can be omitted or substituted. Pre-
+vious studies have mainly focused on the
+former problem; in contrast, this study has
+addressed both problems using the same
+framework. First, we automatically col-
+lected both positive examples (sets of equiv-
+alent term pairs) and negative examples (sets
+of inequivalent term pairs). Then, by using
+both sets of examples, a support vector ma-
+chine based classifier determined whether
+two terms (t1 and t2) were equivalent. To
+boost accuracy, we added a transliterated
+probability P (t1|s)P (t2|s), which is the
+probability that both terms (t1 and t2) were
+transliterated from the same source term (s),
+to the machine learning features. Exper-
+imental results yielded high levels of ac-
+curacy, demonstrating the feasibility of the
+proposed approach.
+1 

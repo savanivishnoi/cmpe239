@@ -1,0 +1,28 @@
+
+Two of the main corpora available for
+training discourse relation classifiers are
+the RST Discourse Treebank (RST-DT)
+and the Penn Discourse Treebank (PDTB),
+which are both based on the Wall Street
+Journal corpus. Most recent work us-
+ing discourse relation classifiers have em-
+ployed fully-supervised methods on these
+corpora. However, certain discourse rela-
+tions have little labeled data, causing low
+classification performance for their asso-
+ciated classes. In this paper, we attempt
+to tackle this problem by employing a
+semi-supervised method for discourse re-
+lation classification. The proposed method
+is based on the analysis of feature co-
+occurrences in unlabeled data. This in-
+formation is then used as a basis to ex-
+tend the feature vectors during training.
+The proposed method is evaluated on both
+RST-DT and PDTB, where it significantly
+outperformed baseline classifiers. We be-
+lieve that the proposed method is a first
+step towards improving classification per-
+formance, particularly for discourse rela-
+tions lacking annotated data.
+1 

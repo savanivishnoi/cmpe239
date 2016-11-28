@@ -1,0 +1,22 @@
+
+Despite an increasing amount of research
+on biomedical named entity recognition,
+there has been not enough work done on
+disease mention recognition. Difficulty of
+obtaining adequate corpora is one of the
+key reasons which hindered this particu-
+lar research. Previous studies argue that
+correct identification of disease mentions
+is the key issue for further improvement
+of the disease-centric knowledge extrac-
+tion tasks. In this paper, we present a ma-
+chine learning based approach that uses
+a feature set tailored for disease mention
+recognition and outperforms the state-of-
+the-art results. The paper also discusses
+why a feature set for the well studied
+gene/protein mention recognition task is
+not necessarily equally effective for other
+biomedical semantic types such as dis-
+eases.
+1 

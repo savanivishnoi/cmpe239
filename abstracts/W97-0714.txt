@@ -1,0 +1,21 @@
+  
+SimSum (Slmulatxon of Summariz- 
+ing) simulates 20 real-world worlang 
+steps of expert summarizers It pre- 
+sents an empmcally founded cogm- 
+Uve model of summarizing that oper- 
+aUonahzes the discourse processing 
+model developed by van Dijk and 
+Kmtsch (1983) The observed strate- 
+.gles of expert summarizers have 
+g~ven se to cooperating object-on- 
+ented agents commumcatlng through 
+dedicated blackboards Each agent ~s 
+implemented asa CLOS object with 
+an assigned actor at the mulUmedm 
+user. interface The interface ~s real- 
+ized with Macromed\]a D~rector 
+CommumcaUon between CLOS and 
+Macromecha Director Is medmted by 
+Apple Events 
+1 

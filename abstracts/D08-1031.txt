@@ -1,0 +1,24 @@
+
+In recent years there has been substantial work
+on the important problem of coreference res-
+olution, most of which has concentrated on
+the development of new models and algo-
+rithmic techniques. These works often show
+that complex models improve over a weak
+pairwise baseline. However, less attention
+has been given to the importance of selecting
+strong features to support learning a corefer-
+ence model.
+This paper describes a rather simple pair-
+wise classification model for coreference res-
+olution, developed with a well-designed set
+of features. We show that this produces a
+state-of-the-art system that outperforms sys-
+tems built with complex models. We suggest
+that our system can be used as a baseline for
+the development of more complex models ?
+which may have less impact when a more ro-
+bust set of features is used. The paper also
+presents an ablation study and discusses the
+relative contributions of various features.
+1 

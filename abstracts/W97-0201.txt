@@ -1,0 +1,31 @@
+  
+Recent advances in large-scale, broad cov- 
+erage part-of-speech tagging and syntactic 
+parsing have been achieved in no small part 
+due to the availability of large amounts of 
+online, human-annotated corpora. In this 
+paper, I argue that a large, human sense- 
+tagged corpus is also critical as well as ne- 
+cessary to achieve broad coverage, high ac- 
+curacy word sense disambiguation, where 
+the sense distinction is at the level of a 
+good desk-top dictionary such as WORD- 
+NET. Using the sense-tagged corpus of 
+192,800 word occurrences reported in (Ng 
+and Lee, 1996), I examine the effect of the 
+number of training examples on the accur- 
+acy of an exemplar-based classifier versus 
+the base-line, most-frequent-sense classi- 
+tier. I also estimate the amount of hu- 
+man sense-tagged corpus and the manual 
+annotation effort needed to build a large- 
+scale, broad coverage word sense disambig- 
+uation program which can significantly out- 
+perform the most-frequent-sense classifier. 
+Finally, I suggest hat intelligent example 
+selection techniques may significantly re- 
+duce the amount of sense-tagged corpus 
+needed and offer this research problem as a 
+fruitful area for word sense disambiguation 
+research. 
+1 

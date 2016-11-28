@@ -1,0 +1,22 @@
+
+Evidence Based Medicine (EBM) is the prac-
+tice of using the knowledge gained from the
+best medical evidence to make decisions in
+the effective care of patients. This medi-
+cal evidence is extracted from medical docu-
+ments such as research papers. The increas-
+ing number of available medical documents
+has imposed a challenge to identify the ap-
+propriate evidence and to access the quality
+of the evidence. In this paper, we present
+an approach for the automatic grading of ev-
+idence using the dataset provided by the 2011
+Australian Language Technology Association
+(ALTA) shared task competition. With the
+feature sets extracted from publication types,
+Medical Subject Headings (MeSH), title, and
+body of the abstracts, we obtain a 73.77%
+grading accuracy with a stacking based ap-
+proach, a considerable improvement over pre-
+vious work.
+1 

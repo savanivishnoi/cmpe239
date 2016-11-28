@@ -1,0 +1,20 @@
+
+We compare and contrast two different models for
+detecting sentence-like units in continuous speech.
+The first approach uses hidden Markov sequence
+models based on N-grams and maximum likeli-
+hood estimation, and employs model interpolation
+to combine different representations of the data.
+The second approach models the posterior proba-
+bilities of the target classes; it is discriminative and
+integrates multiple knowledge sources in the max-
+imum entropy (maxent) framework. Both models
+combine lexical, syntactic, and prosodic informa-
+tion. We develop a technique for integrating pre-
+trained probability models into the maxent frame-
+work, and show that this approach can improve
+on an HMM-based state-of-the-art system for the
+sentence-boundary detection task. An even more
+substantial improvement is obtained by combining
+the posterior probabilities of the two systems.
+1 

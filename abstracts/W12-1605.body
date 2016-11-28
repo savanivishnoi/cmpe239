@@ -1,0 +1,18 @@
+
+We present a token-level decision summariza-
+tion framework that utilizes the latent topic
+structures of utterances to identify ?summary-
+worthy? words. Concretely, a series of
+unsupervised topic models is explored and
+experimental results show that fine-grained
+topic models, which discover topics at the
+utterance-level rather than the document-level,
+can better identify the gist of the decision-
+making process. Moreover, our proposed
+token-level summarization approach, which
+is able to remove redundancies within utter-
+ances, outperforms existing utterance ranking
+based summarization methods. Finally, con-
+text information is also investigated to add ad-
+ditional relevant information to the summary.
+1 

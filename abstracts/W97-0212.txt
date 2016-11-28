@@ -1,0 +1,13 @@
+ 
+This paper describes a working sense 
+tagger, which attempts to automatically 
+link each word in a text corpus to its 
+corresponding sense in a machine- 
+readable dictionary. It uses information 
+automatically extracted from the MRD to 
+find matches between the dictionary and 
+the Corpus sentences, and combines 
+different ypes of information by simple 
+additive scores with manually set 
+weightings. 
+1. 

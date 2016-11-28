@@ -1,0 +1,23 @@
+ 
+This paper presents a novel feature-
+based semantic role labeling (SRL) 
+method which uses both constituent 
+and dependency syntactic views. Com-
+paring to the traditional SRL method 
+relying on only one syntactic view, the 
+method has a much richer set of syn-
+tactic features. First we select several 
+important constituent-based and de-
+pendency-based features from existing 
+studies as basic features. Then, we pro-
+pose a statistical method to select dis-
+criminative combined features which 
+are composed by the basic features. 
+SRL is achieved by using the SVM 
+classifier with both the basic features 
+and the combined features. Experimen-
+tal results on Chinese Proposition Bank 
+(CPB) show that the method outper-
+forms the traditional constituent-based 
+or dependency-based SRL methods. 
+1 

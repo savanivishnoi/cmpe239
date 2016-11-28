@@ -1,0 +1,23 @@
+ 
+We describe an automatic process for learn- 
+ing word units in Japanese. Since the 
+Japanese orthography has no spaces de- 
+limiting words, the first step in building a 
+Japanese speech recognition system is to 
+define the units that will be recognized. 
+Our method applies a compound-finding 
+algorithm, previously used to find word se- 
+quences in English, to learning syllable se- 
+quences in Japanese. We report that we 
+were able not only to extract meaningful 
+units, eliminating the need for possibly in- 
+consistent manual segmentation, but also 
+to decrease perplexity using this automatic 
+procedure, which relies on a statistical, not 
+syntactic, measure of relevance. Our al- 
+gorithm also uncovers the kinds of envi- 
+ronments that help the recognizer predict 
+phonological alternations, which are often 
+hidden by morphologically-motivated tok- 
+enization. 
+1 

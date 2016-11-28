@@ -1,0 +1,17 @@
+ 
+We describe a number of experiments 
+that demonstrate the usefulness of 
+prosodic information for a processing 
+module which parses spoken utterances 
+with a feature-based grammar employing 
+empty categories. We show that by re- 
+quiring certain prosodic properties from 
+those positions in the input, where the 
+presence of an empty category has to be 
+hypothesized, a derivation can be accom- 
+plished more efficiently. The approach 
+has been implemented in the machine 
+translation project VEItBMOBII, and re- 
+sults in a significant reduction of the 
+work-load for the parser t. 
+1 

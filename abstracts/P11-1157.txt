@@ -1,0 +1,24 @@
+
+It is well known that parsing accuracy suf-
+fers when a model is applied to out-of-domain
+data. It is also known that the most benefi-
+cial data to parse a given domain is data that
+matches the domain (Sekine, 1997; Gildea,
+2001). Hence, an important task is to select
+appropriate domains. However, most previ-
+ous work on domain adaptation relied on the
+implicit assumption that domains are some-
+how given. As more and more data becomes
+available, automatic ways to select data that is
+beneficial for a new (unknown) target domain
+are becoming attractive. This paper evaluates
+various ways to automatically acquire related
+training data for a given test set. The results
+show that an unsupervised technique based on
+topic models is effective ? it outperforms ran-
+dom data selection on both languages exam-
+ined, English and Dutch. Moreover, the tech-
+nique works better than manually assigned la-
+bels gathered from meta-data that is available
+for English.
+1 

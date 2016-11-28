@@ -1,0 +1,22 @@
+ 
+Thesauruses are useful resources for NLP; 
+however, manual construction of thesau-
+rus is time consuming and suffers low 
+coverage. Automatic thesaurus construc-
+tion is developed to solve the problem. 
+Conventional way to automatically con-
+struct thesaurus is by finding similar 
+words based on context vector models 
+and then organizing similar words into 
+thesaurus structure. But the context vec-
+tor methods suffer from the problems of 
+vast feature dimensions and data sparse-
+ness. Latent Semantic Index (LSI) was 
+commonly used to overcome the prob-
+lems. In this paper, we propose a feature 
+clustering method to overcome the same 
+problems. The experimental results show 
+that it performs better than the LSI mod-
+els and do enhance contextual informa-
+tion for infrequent words. 
+1 

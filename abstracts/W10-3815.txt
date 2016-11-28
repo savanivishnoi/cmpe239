@@ -1,0 +1,29 @@
+
+Hierarchical Models increase the re-
+ordering capabilities of MT systems
+by introducing non-terminal symbols to
+phrases that map source language (SL)
+words/phrases to the correct position
+in the target language (TL) translation.
+Building translations via discontiguous
+TL phrases increases the difficulty of lan-
+guage modeling, however, introducing the
+need for heuristic techniques such as cube
+pruning (Chiang, 2005), for example.
+An additional possibility to aid language
+modeling in hierarchical systems is to use
+a language model that models fluency of
+words not using their local context in the
+string, as in traditional language models,
+but instead using the deeper context of
+a word. In this paper, we explore the
+potential of deep syntax language mod-
+els providing an interesting comparison
+with the traditional string-based language
+model. We include an experimental evalu-
+ation that compares the two kinds of mod-
+els independently of any MT system to in-
+vestigate the possible potential of integrat-
+ing a deep syntax language model into Hi-
+erarchical SMT systems.
+1 

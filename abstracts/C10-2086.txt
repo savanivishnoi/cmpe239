@@ -1,0 +1,16 @@
+ 
+Phrase-based statistical MT (SMT) is a 
+milestone in MT. However, the transla-
+tion model in the phrase based SMT is 
+structure free which greatly limits its 
+reordering capacity. To address this is-
+sue, we propose a non-lexical head-
+modifier based reordering model on 
+word level by utilizing constituent based 
+parse tree in source side. Our experi-
+mental results on the NIST Chinese-
+English benchmarking data show that, 
+with a very small size model, our me-
+thod significantly outperforms the base-
+line by 1.48% bleu score. 
+1 

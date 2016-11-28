@@ -1,0 +1,12 @@
+ 
+This paper presents a new approach to 
+partial parsing of context-free structures. 
+The approach is based on Markov Mod- 
+els. Each layer of the resulting structure 
+is represented byits own Markov Model, 
+and output of a lower layer is passed as 
+input to the next higher layer. An em- 
+pirical evaluation of the method yields 
+very good results for NP/PP chunking of 
+German ewspaper texts. 
+1 

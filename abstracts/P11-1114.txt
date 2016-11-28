@@ -1,0 +1,17 @@
+
+The goal of our research is to improve
+event extraction by learning to identify sec-
+ondary role filler contexts in the absence
+of event keywords. We propose a multi-
+layered event extraction architecture that pro-
+gressively ?zooms in? on relevant informa-
+tion. Our extraction model includes a docu-
+ment genre classifier to recognize event nar-
+ratives, two types of sentence classifiers, and
+noun phrase classifiers to extract role fillers.
+These modules are organized as a pipeline to
+gradually zero in on event-related information.
+We present results on the MUC-4 event ex-
+traction data set and show that this model per-
+forms better than previous systems.
+1 

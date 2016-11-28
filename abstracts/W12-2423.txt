@@ -1,0 +1,25 @@
+ 
+Gene name identification is a fundamental 
+step to solve more complicated text mining 
+problems such as gene normalization and pro-
+tein-protein interactions. However, state-of-
+the-art name identification methods are not 
+yet sufficient for use in a fully automated sys-
+tem. In this regard, a relaxed task, 
+gene/protein sentence identification, may 
+serve more effectively for manually searching 
+and browsing biomedical literature. In this pa-
+per, we set up a new task, gene/protein sen-
+tence classification and propose an ensemble 
+approach for addressing this problem. Well-
+known named entity tools use similar gold-
+standard sets for training and testing, which 
+results in relatively poor performance for un-
+known sets. We here explore how to combine 
+diverse high-precision gene identifiers for 
+more robust performance. The experimental 
+results show that the proposed approach out-
+performs BANNER as a stand-alone classifier 
+for newly annotated sets as well as previous 
+gold-standard sets. 
+1 

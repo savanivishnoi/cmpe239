@@ -1,0 +1,16 @@
+ 
+This paper describes a novel approach pre-
+sented to the BioNLP?11 Shared Task on 
+GENIA event extraction. The approach con-
+sists of three steps. First, a dictionary is auto-
+matically constructed based on training 
+datasets which is then used to detect candidate 
+triggers and determine their event types. Sec-
+ond, we apply a set of heuristic algorithms 
+which use syntactic patterns and candidate 
+triggers detected in the first step to extract 
+biological events. Finally, a post-processing is 
+used to resolve regulatory events. We 
+achieved an F-score of 43.94% using the 
+online evaluation system. 
+1 

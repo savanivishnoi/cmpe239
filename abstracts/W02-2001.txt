@@ -1,0 +1,14 @@
+
+This paper proposes a series of techniques for ex-
+tracting English verb?particle constructions from
+raw text corpora. We initially propose three basic
+methods, based on tagger output, chunker output
+and a chunk grammar, respectively, with the chunk
+grammar method optionally combining with an at-
+tachment resolution module to determine the syn-
+tactic structure of verb?preposition pairs in ambigu-
+ous constructs. We then combine the three methods
+together into a single classifier, and add in a number
+of extra lexical and frequentistic features, producing
+a final F-score of 0.865 over the WSJ.
+1 

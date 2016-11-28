@@ -1,0 +1,22 @@
+
+This paper explores interoperability for
+data represented using the Graph Anno-
+tation Framework (GrAF) (Ide and Sud-
+erman, 2007) and the data formats uti-
+lized by two general-purpose annotation
+systems: the General Architecture for Text
+Engineering (GATE) (Cunningham, 2002)
+and the Unstructured Information Man-
+agement Architecture (UIMA). GrAF is
+intended to serve as a ?pivot? to enable
+interoperability among different formats,
+and both GATE and UIMA are at least im-
+plicitly designed with an eye toward inter-
+operability with other formats and tools.
+We describe the steps required to per-
+form a round-trip rendering from GrAF to
+GATE and GrAF to UIMA CAS and back
+again, and outline the commonalities as
+well as the differences and gaps that came
+to light in the process.
+1 

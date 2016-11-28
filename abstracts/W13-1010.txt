@@ -1,0 +1,19 @@
+ 
+This paper presents a supervised machine 
+learning approach that uses a machine learn-
+ing algorithm called Random Forest for rec-
+ognition of Bengali noun-noun compounds as 
+multiword expression (MWE) from Bengali 
+corpus. Our proposed approach to MWE rec-
+ognition has two steps: (1) extraction of can-
+didate multi-word expressions using Chunk 
+information and various heuristic rules and (2) 
+training the machine learning algorithm to 
+recognize a candidate multi-word expression 
+as Multi-word expression or not. A variety of 
+association measures, syntactic and linguistic 
+clues are used as features for identifying 
+MWEs. The proposed system is tested on a 
+Bengali corpus for identifying noun-noun 
+compound MWEs from the corpus. 
+1 

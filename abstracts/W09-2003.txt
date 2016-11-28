@@ -1,0 +1,12 @@
+
+An eggcorn is a type of linguistic error where
+a word is substituted with one that is seman-
+tically plausible ? that is, the substitution is
+a semantic reanalysis of what may be a rare,
+archaic, or otherwise opaque term. We build
+a system that, given the original word and its
+eggcorn form, finds a semantic path between
+the two. Based on these paths, we derive a ty-
+pology that reflects the different classes of se-
+mantic reinterpretation underlying eggcorns.
+1 

@@ -1,0 +1,19 @@
+
+This paper proposes a method of speech inten-
+tion understanding based on dialogue examples.
+The method uses a spoken dialogue corpus with
+intention tags to regard the intention of each in-
+put utterance as that of the sentence to which it
+is the most similar in the corpus. The degree of
+similarity is calculated according to the degree
+of correspondence in morphemes and dependen-
+cies between sentences, and it is weighted by
+the dialogue context information. An exper-
+iment on inference of utterance intentions us-
+ing a large-scale in-car spoken dialogue corpus
+of CIAIR has shown 68.9% accuracy. Further-
+more, we have developed a prototype system of
+in-car spoken dialogue processing for a restau-
+rant retrieval task based on our method, and
+confirmed the feasiblity of the system.
+1 

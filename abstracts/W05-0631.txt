@@ -1,0 +1,18 @@
+ 
+We describe a system for the CoNLL-
+2005 shared task of Semantic Role Label-
+ing.  The system implements a two-layer 
+architecture to first identify the arguments 
+and then to label them for each predicate.  
+The components are implemented as 
+SVM classifiers using libSVM.   Features 
+were adapted and tuned for the system, 
+including a reduced set for the identifier 
+classifier.  Experiments were conducted to 
+find kernel parameters for the Radial Ba-
+sis Function (RBF) kernel.  An algorithm 
+was defined to combine the results of the 
+argument labeling classifier according to 
+the constraints of the argument labeling 
+problem. 
+1 

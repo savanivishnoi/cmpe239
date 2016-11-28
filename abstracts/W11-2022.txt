@@ -1,0 +1,19 @@
+
+Many discourse connectives can signal several
+types of relations between sentences. Their
+automatic disambiguation, i.e. the labeling of
+the correct sense of each occurrence, is impor-
+tant for discourse parsing, but could also be
+helpful to machine translation. We describe
+new approaches for improving the accuracy
+of manual annotation of three discourse con-
+nectives (two English, one French) by using
+parallel corpora. An appropriate set of labels
+for each connective can be found using infor-
+mation from their translations. Our results for
+automatic disambiguation are state-of-the-art,
+at up to 85% accuracy using surface features.
+Using feature analysis, contextual features are
+shown to be useful across languages and con-
+nectives.
+1 

@@ -1,0 +1,18 @@
+ 
+In this paper we present a novel method 
+for deriving paraphrases during automatic 
+MT evaluation using only the source and 
+reference texts, which are necessary for 
+the evaluation, and word and phrase 
+alignment software. Using target language 
+paraphrases produced through word and 
+phrase alignment a number of alternative 
+reference sentences are constructed auto-
+matically for each candidate translation. 
+The method produces lexical and low-
+level syntactic paraphrases that are rele-
+vant to the domain in hand, does not use 
+external knowledge resources, and can be 
+combined with a variety of automatic MT 
+evaluation system. 
+1 

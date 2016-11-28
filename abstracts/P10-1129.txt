@@ -1,0 +1,21 @@
+
+In this paper, we address the task of
+mapping high-level instructions to se-
+quences of commands in an external en-
+vironment. Processing these instructions
+is challenging?they posit goals to be
+achieved without specifying the steps re-
+quired to complete them. We describe
+a method that fills in missing informa-
+tion using an automatically derived envi-
+ronment model that encodes states, tran-
+sitions, and commands that cause these
+transitions to happen. We present an ef-
+ficient approximate approach for learning
+this environment model as part of a policy-
+gradient reinforcement learning algorithm
+for text interpretation. This design enables
+learning for mapping high-level instruc-
+tions, which previous statistical methods
+cannot handle.1
+1 

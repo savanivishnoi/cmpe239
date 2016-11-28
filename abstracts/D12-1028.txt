@@ -1,0 +1,13 @@
+
+The possibility of deleting a word from a sen-
+tence without violating its syntactic correct-
+ness belongs to traditionally known manifes-
+tations of syntactic dependency. We introduce
+a novel unsupervised parsing approach that is
+based on a new n-gram reducibility measure.
+We perform experiments across 18 languages
+available in CoNLL data and we show that
+our approach achieves better accuracy for the
+majority of the languages then previously re-
+ported results.
+1 

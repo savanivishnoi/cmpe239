@@ -1,0 +1,15 @@
+
+The manual design of grammars for accurate natu-
+ral language analysis is an iterative process; while
+modelling decisions usually determine parser be-
+haviour, evidence from analysing more or differ-
+ent input can suggest unforeseen regularities, which
+leads to a reformulation of rules, or even to a differ-
+ent model of previously analysed phenomena. We
+describe an implementation of Weighted Constraint
+Dependency Grammar that supports the grammar
+writer by providing display, automatic analysis, and
+diagnosis of dependency analyses and allows the di-
+rect exploration of alternative analyses and their sta-
+tus under the current grammar.
+1 

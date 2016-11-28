@@ -1,0 +1,18 @@
+
+This paper describes our system about mul-
+tilingual syntactic and semantic dependency
+parsing for our participation in the joint task
+of CoNLL-2009 shared tasks. Our system
+uses rich features and incorporates various in-
+tegration technologies. The system is evalu-
+ated on in-domain and out-of-domain evalu-
+ation data of closed challenge of joint task.
+For in-domain evaluation, our system ranks
+the second for the average macro labeled F1 of
+all seven languages, 82.52% (only about 0.1%
+worse than the best system), and the first for
+English with macro labeled F1 87.69%. And
+for out-of-domain evaluation, our system also
+achieves the second for average score of all
+three languages.
+1 

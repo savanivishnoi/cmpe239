@@ -1,0 +1,21 @@
+
+In distributional semantics studies, there
+is a growing attention in compositionally
+determining the distributional meaning of
+word sequences. Yet, compositional dis-
+tributional models depend on a large set
+of parameters that have not been explored.
+In this paper we propose a novel approach
+to estimate parameters for a class of com-
+positional distributional models: the addi-
+tive models. Our approach leverages on
+two main ideas. Firstly, a novel idea for
+extracting compositional distributional se-
+mantics examples. Secondly, an estima-
+tion method based on regression models
+for multiple dependent variables. Experi-
+ments demonstrate that our approach out-
+performs existing methods for determin-
+ing a good model for compositional dis-
+tributional semantics.
+1 

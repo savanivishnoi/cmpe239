@@ -1,0 +1,16 @@
+
+We introduce LABR, the largest sentiment
+analysis dataset to-date for the Arabic lan-
+guage. It consists of over 63,000 book
+reviews, each rated on a scale of 1 to 5
+stars. We investigate the properties of the
+the dataset, and present its statistics. We
+explore using the dataset for two tasks:
+sentiment polarity classification and rat-
+ing classification. We provide standard
+splits of the dataset into training and test-
+ing, for both polarity and rating classifica-
+tion, in both balanced and unbalanced set-
+tings. We run baseline experiments on the
+dataset to establish a benchmark.
+1 

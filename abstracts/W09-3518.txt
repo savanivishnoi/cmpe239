@@ -1,0 +1,12 @@
+
+We propose a framework for translit-
+eration which uses (i) a word-origin
+detection engine (pre-processing) (ii) a
+CRF based transliteration engine and (iii)
+a re-ranking model based on lexicon-
+lookup (post-processing). The results
+obtained for English-Hindi and English-
+Kannada transliteration show that the pre-
+processing and post-processing modules
+improve the top-1 accuracy by 7.1%.
+1 

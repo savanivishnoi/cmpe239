@@ -1,0 +1,17 @@
+
+We present a novel two-stage technique for de-
+tecting speech disfluencies based on Integer
+Linear Programming (ILP). In the first stage
+we use state-of-the-art models for speech dis-
+fluency detection, in particular, hidden-event
+language models, maximum entropy models
+and conditional random fields. During testing
+each model proposes possible disfluency la-
+bels which are then assessed in the presence of
+local and global constraints using ILP. Our ex-
+perimental results show that by using ILP we
+can improve the performance of our models
+with negligible cost in processing time. The
+less training data is available the larger the im-
+provement due to ILP.
+1 

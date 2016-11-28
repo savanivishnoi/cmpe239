@@ -1,0 +1,14 @@
+ 
+In this paper, we present our supervised 
+learning approach to coreference resolution 
+in ConLL corpus. The system relies on a 
+maximum entropy-based classifier for pairs 
+of mentions, and adopts a rich linguisitical- 
+ly motivated feature set, which mostly has 
+been introduced by Soon et al(2001), and 
+experiment with alternaive resolution proc- 
+ess, preprocessing tools,and classifiers. We 
+optimize the system?s performance for M- 
+UC (Vilain et al 1995), BCUB (Bagga and 
+Baldwin, 1998) and CEAF (Luo, 2005) .  
+1. 

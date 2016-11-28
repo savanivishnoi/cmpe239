@@ -1,0 +1,14 @@
+ 
+We propose a method to split and translate 
+input sentences for speech translation in order 
+to overcome the long sentence problem. This 
+approach is based on three criteria used to 
+judge the goodness of translation  results. 
+The criteria utilize the output of an MT sys-
+tem only and assumes neither a particular lan-
+guage nor a particular MT approach. In an 
+experiment with an EBMT system, in which 
+prior methods cannot work or work badly, the 
+proposed split-and-translate method achieves 
+much better results in translation  quality. 
+1 

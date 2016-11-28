@@ -1,0 +1,18 @@
+
+This paper defines a normal form for MCFGs
+that includes strongly equivalent representa-
+tions of many MG variants, and presents
+an incremental priority-queue-based TD rec-
+ognizer for these MCFGs. After introduc-
+ing MGs with overt phrasal movement, head
+movement and simple adjunction are added
+without change in the recognizer. The MG
+representation can be used directly, so that
+even rather sophisticated analyses of properly
+non-CF languages can be defined very suc-
+cinctly. As with the similar stack-based CF-
+methods, finite memory suffices for the recog-
+nition of infinite languages, and a fully con-
+nected left context for probabilistic analysis is
+available at every point.
+1 

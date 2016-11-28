@@ -1,0 +1,20 @@
+
+Multivariate analysis allows decoding of sin-
+gle trial data in individual subjects. Since dif-
+ferent models are obtained for each subject it
+becomes hard to perform an analysis on the
+group level. We introduce a new algorithm for
+Bayesian multi-task learning which imposes a
+coupling between single-subject models. Us-
+ing the CMU fMRI dataset it is shown that the
+algorithm can be used for concept classifica-
+tion based on the average activation of regions
+in the AAL atlas. Concepts which were most
+easily classified correspond to the categories
+shelter, manipulation and eating, which is in
+accordance with the literature. The multi-task
+learning algorithm is shown to find regions of
+interest that are common to all subjects which
+therefore facilitates interpretation of the ob-
+tained models.
+1 

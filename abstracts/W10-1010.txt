@@ -1,0 +1,30 @@
+
+We investigated using structural events, e.g.,
+clause and disfluency structure, from tran-
+scriptions of spontaneous non-native speech,
+to compute features for measuring speaking
+proficiency. Using a set of transcribed au-
+dio files collected from the TOEFL Practice
+Test Online (TPO), we conducted a sophisti-
+cated annotation of structural events, includ-
+ing clause boundaries and types, as well as
+disfluencies. Based on words and the anno-
+tated structural events, we extracted features
+related to syntactic complexity, e.g., the mean
+length of clause (MLC) and dependent clause
+frequency (DEPC), and a feature related to
+disfluencies, the interruption point frequency
+per clause (IPC). Among these features, the
+IPC shows the highest correlation with holis-
+tic scores (r = ?0.344). Furthermore, we in-
+creased the correlation with human scores by
+normalizing IPC by (1) MLC (r = ?0.386),
+(2) DEPC (r = ?0.429), and (3) both (r =
+?0.462). In this research, the features derived
+from structural events of speech transcriptions
+are found to predict holistic scores measuring
+speaking proficiency. This suggests that struc-
+tural events estimated on speech word strings
+provide a potential way for assessing non-
+native speech.
+1 

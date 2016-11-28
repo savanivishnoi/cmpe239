@@ -1,0 +1,28 @@
+
+Traditionally, statistical machine translation
+systems have relied on parallel bi-lingual data
+to train a translation model. While bi-lingual
+parallel data are expensive to generate, mono-
+lingual data are relatively common. Yet mono-
+lingual data have been under-utilized, having
+been used primarily for training a language
+model in the target language. This paper de-
+scribes a novel method for utilizing monolin-
+gual target data to improve the performance
+of a statistical machine translation system on
+news stories. The method exploits the exis-
+tence of comparable text?multiple texts in
+the target language that discuss the same or
+similar stories as found in the source language
+document. For every source document that is
+to be translated, a large monolingual data set
+in the target language is searched for docu-
+ments that might be comparable to the source
+documents. These documents are then used
+to adapt the MT system to increase the prob-
+ability of generating texts that resemble the
+comparable document. Experimental results
+obtained by adapting both the language and
+translation models show substantial gains over
+the baseline system.
+1 

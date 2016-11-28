@@ -1,0 +1,33 @@
+
+This paper presents a method for identifying
+non-English speech, with the aim of support-
+ing an automated speech proficiency scoring
+system for non-native speakers.
+The method uses a popular technique from the
+language identification domain, a single phone
+recognizer followed by multiple language-
+dependent language models. This method
+determines the language of a speech sample
+based on the phonotactic differences among
+languages.
+The method is intended for use with non-
+native English speakers. Therefore, the
+method must be able to distinguish non-
+English responses from non-native speakers?
+English responses. This makes the task more
+challenging, as the frequent pronunciation er-
+rors of non-native speakers may weaken the
+phonetic and phonotactic distinction between
+English responses and non-English responses.
+In order to address this issue, the speaking
+rate measure was used to complement the
+language identification based features in the
+model.
+The accuracy of the method was 98%, and
+there was 45% relative error reduction over
+a system based on the conventional language
+identification technique. The model using
+both feature sets furthermore demonstrated an
+improvement in accuracy for speakers at all
+English proficiency levels.
+1 

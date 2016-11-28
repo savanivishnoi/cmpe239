@@ -1,0 +1,14 @@
+ 
+This paper describes a method for ?boot-
+strapping? a Reinforcement Learning-
+based dialog manager using a Wizard-of-
+Oz trial.  The state space and action set 
+are discovered through the annotation, 
+and an initial policy is generated using a 
+Supervised Learning algorithm.  The 
+method is tested and shown to create an 
+initial policy which performs significantly 
+better and with less effort than a hand-
+crafted policy, and can be generated using 
+a small number of dialogs. 
+1 

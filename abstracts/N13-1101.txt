@@ -1,0 +1,24 @@
+ 
+This study focuses on modeling discourse co-
+herence in the context of automated assess-
+ment of spontaneous speech from non-native 
+speakers. Discourse coherence has always 
+been used as a key metric in human scoring 
+rubrics for various assessments of spoken lan-
+guage. However, very little research has been 
+done to assess a speaker's coherence in auto-
+mated speech scoring systems. To address 
+this, we present a corpus of spoken responses 
+that has been annotated for discourse coher-
+ence quality. Then, we investigate the use of 
+several features originally developed for es-
+says to model coherence in spoken responses. 
+An analysis on the annotated corpus shows 
+that the prediction accuracy for human holistic 
+scores of an automated speech scoring system 
+can be improved by around 10% relative after 
+the addition of the coherence features.  Fur-
+ther experiments indicate that a weighted F-
+Measure of 73% can be achieved for the au-
+tomated prediction of the coherence scores. 
+1 

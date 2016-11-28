@@ -1,0 +1,23 @@
+
+Keyphrases are widely used as a brief
+summary of documents. Since man-
+ual assignment is time-consuming, vari-
+ous unsupervised ranking methods based
+on importance scores are proposed for
+keyphrase extraction. In practice, the
+keyphrases of a document should not only
+be statistically important in the docu-
+ment, but also have a good coverage of
+the document. Based on this observa-
+tion, we propose an unsupervised method
+for keyphrase extraction. Firstly, the
+method finds exemplar terms by leverag-
+ing clustering techniques, which guaran-
+tees the document to be semantically cov-
+ered by these exemplar terms. Then the
+keyphrases are extracted from the doc-
+ument using the exemplar terms. Our
+method outperforms sate-of-the-art graph-
+based ranking methods (TextRank) by
+9.5% in F1-measure.
+1 

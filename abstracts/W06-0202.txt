@@ -1,0 +1,22 @@
+
+Several recently reported techniques for
+the automatic acquisition of Information
+Extraction (IE) systems have used depen-
+dency trees as the basis of their extrac-
+tion pattern representation. These ap-
+proaches have used a variety of pattern
+models (schemes for representing IE pat-
+terns based on particular parts of the de-
+pendency analysis). An appropriate model
+should be expressive enough to represent
+the information which is to be extracted
+from text without being overly compli-
+cated. Four previously reported pattern
+models are evaluated using existing IE
+evaluation corpora and three dependency
+parsers. It was found that one model,
+linked chains, could represent around 95%
+of the information of interest without gen-
+erating an unwieldy number of possible
+patterns.
+1 

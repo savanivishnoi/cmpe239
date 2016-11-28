@@ -1,0 +1,26 @@
+
+Biomedical literature contains vital informa-
+tion for the analysis and interpretation of ex-
+periments in the biological sciences. Hu-
+man reasoning is the primary method for ex-
+tracting, synthesizing, and interpreting the re-
+sults contained in the literature, yet the rate at
+which publications are produced is exponen-
+tial. With the advent of digital, full-text pub-
+lication and increasing computational power,
+automated techniques for knowledge discov-
+ery and synthesis are being developed to assist
+humans in making sense of growing literature
+databases.
+We investigate the use of ontological informa-
+tion provided by the Medical Subject Head-
+ings (MeSH) project to discover groupings
+within a collection of medical literature stored
+in PubMed. Vector representations of docu-
+ments based on MeSH terms are presented. Re-
+sults of agglomerative hierachical clustering on
+two collections of biomedical literature, the Rat
+Genome Database and Tourette?s Syndrome re-
+lated research, suggest novel and understand-
+able groupings are obtainable.
+1 

@@ -1,0 +1,25 @@
+
+ 
+We introduce a new type of lexical struc-
+ture called 
+ 
+lexical system
+ 
+, an interopera-
+ble model that can feed both monolingual
+and multilingual language resources. We
+begin with a formal characterization of
+lexical systems as ?pure? directed graphs,
+solely made up of nodes corresponding to
+lexical entities and links. To illustrate our
+approach, we present data borrowed from
+a lexical system that has been generated
+from the French DiCo database. We later
+explain how the compilation of the origi-
+nal dictionary-like database into a net-like
+one has been made possible. Finally, we
+discuss the potential of the proposed lexi-
+cal structure for designing multilingual
+lexical resources.
+ 
+1 

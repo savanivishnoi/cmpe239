@@ -1,0 +1,13 @@
+
+In this paper, we give a treatment to the prob-
+lem of bilingual part-of-speech induction with
+parallel data. We demonstrate that na??ve op-
+timization of log-likelihood with joint MRFs
+suffers from a severe problem of local max-
+ima, and suggest an alternative ? using con-
+trastive estimation for estimation of the pa-
+rameters. Our experiments show that estimat-
+ing the parameters this way, using overlapping
+features with joint MRFs performs better than
+previous work on the 1984 dataset.
+1 

@@ -1,0 +1,20 @@
+
+This paper presents our approach to the 2013
+Native Language Identification shared task,
+which is based on machine learning methods
+that work at the character level. More pre-
+cisely, we used several string kernels and a
+kernel based on Local Rank Distance (LRD).
+Actually, our best system was a kernel combi-
+nation of string kernel and LRD. While string
+kernels have been used before in text analysis
+tasks, LRD is a distance measure designed to
+work on DNA sequences. In this work, LRD is
+applied with success in native language iden-
+tification.
+Finally, the Unibuc team ranked third in the
+closed NLI Shared Task. This result is more
+impressive if we consider that our approach
+is language independent and linguistic theory
+neutral.
+1 

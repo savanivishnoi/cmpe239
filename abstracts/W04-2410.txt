@@ -1,0 +1,21 @@
+
+Probabilistic models have been effective in re-
+solving prepositional phrase attachment am-
+biguity, but sparse data remains a significant
+problem. We propose a solution based on
+similarity-based smoothing, where the proba-
+bility of new PPs is estimated with informa-
+tion from similar examples generated using a
+thesaurus. Three thesauruses are compared on
+this task: two existing generic thesauruses and
+a new specialist PP thesaurus tailored for this
+problem. We also compare three smoothing
+techniques for prepositional phrases. We find
+that the similarity scores provided by the the-
+saurus tend to weight distant neighbours too
+highly, and describe a better score based on the
+rank of a word in the list of similar words. Our
+smoothing methods are applied to an existing
+PP attachment model and we obtain significant
+improvements over the baseline.
+1 

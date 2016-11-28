@@ -1,0 +1,19 @@
+
+Multiword expressions (MWE), a known nui-
+sance for both linguistics and NLP, blur the
+lines between syntax and semantics. Previous
+work onMWE identification has relied primar-
+ily on surface statistics, which perform poorly
+for longer MWEs and cannot model discontin-
+uous expressions. To address these problems,
+we show that even the simplest parsing mod-
+els can effectively identify MWEs of arbitrary
+length, and that Tree Substitution Grammars
+achieve the best results. Our experiments show
+a 36.4% F1 absolute improvement for French
+over an n-gram surface statistics baseline, cur-
+rently the predominant method for MWE iden-
+tification. Our models are useful for several
+NLP tasks in which MWE pre-grouping has
+improved accuracy.
+1 

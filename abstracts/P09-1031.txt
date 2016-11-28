@@ -1,0 +1,21 @@
+ 
+This paper presents a novel metric-based 
+framework for the task of automatic taxonomy 
+induction. The framework incrementally clus-
+ters terms based on ontology metric, a score 
+indicating semantic distance; and transforms 
+the task into a multi-criteria optimization 
+based on minimization of taxonomy structures 
+and modeling of term abstractness. It com-
+bines the strengths of both lexico-syntactic 
+patterns and clustering through incorporating 
+heterogeneous features. The flexible design of 
+the framework allows a further study on which 
+features are the best for the task under various 
+conditions. The experiments not only show 
+that our system achieves higher F1-measure 
+than other state-of-the-art systems, but also re-
+veal the interaction between features and vari-
+ous types of relations, as well as the interac-
+tion between features and term abstractness.  
+1 

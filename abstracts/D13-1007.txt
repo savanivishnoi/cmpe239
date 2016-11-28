@@ -1,0 +1,21 @@
+
+We present a unified unsupervised statistical
+model for text normalization. The relation-
+ship between standard and non-standard to-
+kens is characterized by a log-linear model,
+permitting arbitrary features. The weights
+of these features are trained in a maximum-
+likelihood framework, employing a novel se-
+quential Monte Carlo training algorithm to
+overcome the large label space, which would
+be impractical for traditional dynamic pro-
+gramming solutions. This model is im-
+plemented in a normalization system called
+UNLOL, which achieves the best known re-
+sults on two normalization datasets, outper-
+forming more complex systems. We use the
+output of UNLOL to automatically normalize
+a large corpus of social media text, revealing a
+set of coherent orthographic styles that under-
+lie online language variation.
+1 

@@ -1,0 +1,16 @@
+
+To generate natural language feedback for an
+intelligent tutoring system, we developed a
+simple planning model with a distinguishing
+feature: its plan operators are derived auto-
+matically, on the basis of the association rules
+mined from our tutorial dialog corpus. Auto-
+matically mined rules are also used for real-
+ization. We evaluated 5 different versions of
+a system that tutors on an abstract sequence
+learning task. The version that uses our plan-
+ning framework is significantly more effective
+than the other four versions. We compared this
+version to the human tutors we employed in
+our tutorial dialogs, with intriguing results.
+1 

@@ -1,0 +1,14 @@
+ 
+This paper presents the word sense disam-
+biguation system of Peking University 
+which was designed for the SemEval-2007 
+competition. The system participated in the 
+Web track of task 11 ?English Lexical 
+Sample Task via English-Chinese Parallel 
+Text?. The system is a hybrid model by 
+combining two supervised learning algo-
+rithms SVM and ME. And the method of 
+entropy-based feature chosen was experi-
+mented. We obtained precision (and recall) 
+of 81.5%. 
+1 

@@ -1,0 +1,14 @@
+
+This paper describes an annotation system
+for Sa?mi language corpora, which consists
+of structured, running texts. The annotation
+of the texts is fully automatic, starting from
+the original documents in different formats.
+The texts are first extracted from the origi-
+nal documents preserving the original struc-
+tural markup. The markup is enhanced by a
+document-specific XSLT script which con-
+tains document-specific formatting instruc-
+tions. The overall maintenance is achieved
+by system-wide XSLT scripts.
+1 

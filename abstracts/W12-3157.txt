@@ -1,0 +1,24 @@
+
+In statistical machine translation, word lattices
+are used to represent the ambiguities in the
+preprocessing of the source sentence, such as
+word segmentation for Chinese or morpholog-
+ical analysis for German. Several approaches
+have been proposed to define the probability
+of different paths through the lattice with ex-
+ternal tools like word segmenters, or by apply-
+ing indicator features. We introduce a novel
+lattice design, which explicitly distinguishes
+between different preprocessing alternatives
+for the source sentence. It allows us to make
+use of specific features for each preprocess-
+ing type and to lexicalize the choice of lattice
+path directly in the phrase translation model.
+We argue that forced alignment training can
+be used to learn lattice path and phrase trans-
+lation model simultaneously. On the news-
+commentary portion of the German?English
+WMT 2011 task we can show moderate im-
+provements of up to 0.6% BLEU over a state-
+of-the-art baseline system.
+1 

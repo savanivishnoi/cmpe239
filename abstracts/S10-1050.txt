@@ -1,0 +1,15 @@
+
+This paper describes our approach to the
+automatic identification of semantic rela-
+tions between nominals in English sen-
+tences. The basic idea of our strategy
+is to develop machine-learning classifiers
+which: (1) make use of class-independent
+features and classifier; (2) make use of
+a simple and effective feature set without
+high computational cost; (3) make no use
+of external annotated or unannotated cor-
+pus at all. At SemEval 2010 Task 8 our
+system achieved an F-measure of 75.43%
+and a accuracy of 70.22%.
+1 

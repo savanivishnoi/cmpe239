@@ -1,0 +1,17 @@
+
+Statistical natural language generation
+from abstract meaning representations
+presupposes large corpora consisting of
+text?meaning pairs. Even though such
+corpora exist nowadays, or could be con-
+structed using robust semantic parsing, the
+simple alignment between text and mean-
+ing representation is too coarse for de-
+veloping robust (statistical) NLG systems.
+By reformatting semantic representations
+as graphs, fine-grained alignment can be
+obtained. Given a precise alignment at the
+word level, the complete surface form of
+a meaning representations can be deduced
+using a simple declarative rule.
+1 

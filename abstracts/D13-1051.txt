@@ -1,0 +1,31 @@
+
+This paper proposes a multi-objective opti-
+mization framework which supports heteroge-
+neous information sources to improve align-
+ment in machine translation system combi-
+nation techniques. In this area, most of
+techniques usually utilize confusion networks
+(CN) as their central data structure to com-
+pact an exponential number of an potential hy-
+potheses, and because better hypothesis align-
+ment may benefit constructing better quality
+confusion networks, it is natural to add more
+useful information to improve alignment re-
+sults. However, these information may be het-
+erogeneous, so the widely-used Viterbi algo-
+rithm for searching the best alignment may
+not apply here. In the multi-objective opti-
+mization framework, each information source
+is viewed as an independent objective, and
+a new goal of improving all objectives can
+be searched by mature algorithms. The so-
+lutions from this framework, termed Pareto
+optimal solutions, are then combined to con-
+struct confusion networks. Experiments on
+two Chinese-to-English translation datasets
+show significant improvements, 0.97 and 1.06
+BLEU points over a strong Indirected Hidden
+Markov Model-based (IHMM) system, and
+4.75 and 3.53 points over the best single ma-
+chine translation systems.
+1 

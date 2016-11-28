@@ -1,0 +1,26 @@
+
+BBN submitted system combination outputs
+for Czech-English, German-English, Spanish-
+English, and French-English language pairs.
+All combinations were based on confusion
+network decoding. The confusion networks
+were built using incremental hypothesis align-
+ment algorithm with flexible matching. A
+novel bi-gram count feature, which can penal-
+ize bi-grams not present in the input hypothe-
+ses corresponding to a source sentence, was
+introduced in addition to the usual decoder
+features. The system combination weights
+were tuned using a graph based expected
+BLEU as the objective function while incre-
+mentally expanding the networks to bi-gram
+and 5-gram contexts. The expected BLEU
+tuning described in this paper naturally gen-
+eralizes to hypergraphs and can be used to
+optimize thousands of weights. The com-
+bination gained about 0.5-4.0 BLEU points
+over the best individual systems on the official
+WMT11 language pairs. A 39 system multi-
+source combination achieved an 11.1 BLEU
+point gain.
+1 

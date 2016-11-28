@@ -1,0 +1,23 @@
+
+Sets of lexical items sharing a significant
+aspect of their meaning (concepts) are fun-
+damental in linguistics and NLP. Manual
+concept compilation is labor intensive, er-
+ror prone and subjective. We present a
+web-based concept extension algorithm.
+Given a set of terms specifying a concept
+in some language, we translate them to
+a wide range of intermediate languages,
+disambiguate the translations using web
+counts, and discover additional concept
+terms using symmetric patterns. We then
+translate the discovered terms back into
+the original language, score them, and ex-
+tend the original concept by adding back-
+translations having high scores. We eval-
+uate our method in 3 source languages and
+45 intermediate languages, using both hu-
+man judgments and WordNet. In all cases,
+our cross-lingual algorithm significantly
+improves high quality concept extension.
+1 

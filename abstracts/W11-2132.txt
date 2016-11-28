@@ -1,0 +1,19 @@
+
+Most of the freely available parallel data to
+train the translation model of a statistical ma-
+chine translation system comes from very spe-
+cific sources (European parliament, United
+Nations, etc). Therefore, there is increasing
+interest in methods to perform an adaptation
+of the translation model. A popular approach
+is based on unsupervised training, also called
+self-enhancing. Both only use monolingual
+data to adapt the translation model. In this pa-
+per we extend the previous work and provide
+new insight in the existing methods. We report
+results on the translation between French and
+English. Improvements of up to 0.5 BLEU
+were observed with respect to a very com-
+petitive baseline trained on more than 280M
+words of human translated parallel data.
+1 

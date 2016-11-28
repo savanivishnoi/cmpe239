@@ -1,0 +1,21 @@
+
+Social scientists are increasingly using the
+vast amount of text available on social me-
+dia to measure variation in happiness and
+other psychological states. Such studies count
+words deemed to be indicators of happiness
+and track how the word frequencies change
+across locations or time. This word count ap-
+proach is simple and scalable, yet often picks
+up false signals, as words can appear in differ-
+ent contexts and take on different meanings.
+We characterize the types of errors that occur
+using the word count approach, and find lex-
+ical ambiguity to be the most prevalent. We
+then show that one can reduce error with a
+simple refinement to such lexica by automat-
+ically eliminating highly ambiguous words.
+The resulting refined lexica improve precision
+as measured by human judgments of word oc-
+currences in Facebook posts.
+1 

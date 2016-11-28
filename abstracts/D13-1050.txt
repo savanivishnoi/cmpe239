@@ -1,0 +1,20 @@
+ 
+This paper proposes a novel approach that uti-
+lizes a machine learning method to improve 
+pivot-based statistical machine translation 
+(SMT). For language pairs with few bilingual 
+data, a possible solution in pivot-based SMT 
+using another language as a "bridge" to gen-
+erate source-target translation. However, one 
+of the weaknesses is that some useful source-
+target translations cannot be generated if the 
+corresponding source phrase and target phrase 
+connect to different pivot phrases. To allevi-
+ate the problem, we utilize Markov random 
+walks to connect possible translation phrases 
+between source and target language. Experi-
+mental results on European Parliament data, 
+spoken language data and web data show that 
+our method leads to significant improvements 
+on all the tasks over the baseline system. 
+1 

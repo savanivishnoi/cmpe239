@@ -1,0 +1,16 @@
+
+Selecting important information while account-
+ing for repetitions is a hard task for both sum-
+marization and question answering. We pro-
+pose a formal model that represents a collec-
+tion of documents in a two-dimensional space
+of textual and conceptual units with an asso-
+ciated mapping between these two dimensions.
+This representation is then used to describe the
+task of selecting textual units for a summary or
+answer as a formal optimization task. We pro-
+vide approximation algorithms and empirically
+validate the performance of the proposed model
+when used with two very different sets of fea-
+tures, words and atomic events.
+1 

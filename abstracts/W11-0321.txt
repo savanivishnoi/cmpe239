@@ -1,0 +1,18 @@
+
+The problem of authorship attribution ? at-
+tributing texts to their original authors ? has
+been an active research area since the end of
+the 19th century, attracting increased interest
+in the last decade. Most of the work on au-
+thorship attribution focuses on scenarios with
+only a few candidate authors, but recently con-
+sidered cases with tens to thousands of can-
+didate authors were found to be much more
+challenging. In this paper, we propose ways
+of employing Latent Dirichlet Allocation in
+authorship attribution. We show that our ap-
+proach yields state-of-the-art performance for
+both a few and many candidate authors, in
+cases where these authors wrote enough texts
+to be modelled effectively.
+1 

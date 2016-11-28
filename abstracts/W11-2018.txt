@@ -1,0 +1,24 @@
+
+Detecting levels of interest from speakers
+is a new problem in Spoken Dialog Under-
+standing with significant impact on real world
+business applications. Previous work has fo-
+cused on the analysis of traditional acous-
+tic signals and shallow lexical features. In
+this paper, we present a novel hierarchical fu-
+sion learning model that takes feedback from
+previous multistream predictions of promi-
+nent seed samples into account and uses a
+mean cosine similarity measure to learn rules
+that improve reclassification. Our method is
+domain-independent and can be adapted to
+other speech and language processing areas
+where domain adaptation is expensive to per-
+form. Incorporating Discriminative Term Fre-
+quency and Inverse Document Frequency (D-
+TFIDF), lexical affect scoring, and low and
+high level prosodic and acoustic features, our
+experiments outperform the published results
+of all systems participating in the 2010 Inter-
+speech Paralinguistic Affect Subchallenge.
+1 

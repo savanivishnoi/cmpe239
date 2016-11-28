@@ -1,0 +1,18 @@
+
+Dominance links were introduced in
+grammars to model long distance scram-
+bling phenomena, motivating the defi-
+nition of multiset-valued linear indexed
+grammars (MLIGs) by Rambow (1994b),
+and inspiring quite a few recent for-
+malisms. It turns out that MLIGs have
+since been rediscovered and reused in a
+variety of contexts, and that the complex-
+ity of their emptiness problem has become
+the key to several open questions in com-
+puter science. We survey complexity re-
+sults and open issues on MLIGs and re-
+lated formalisms, and provide new com-
+plexity bounds for some linguistically mo-
+tivated restrictions.
+1 

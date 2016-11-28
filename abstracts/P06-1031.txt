@@ -1,0 +1,17 @@
+
+This paper proposes a method for detect-
+ing errors in article usage and singular plu-
+ral usage based on the mass count distinc-
+tion. First, it learns decision lists from
+training data generated automatically to
+distinguish mass and count nouns. Then,
+in order to improve its performance, it is
+augmented by feedback that is obtained
+from the writing of learners. Finally, it de-
+tects errors by applying rules to the mass
+count distinction. Experiments show that
+it achieves a recall of 0.71 and a preci-
+sion of 0.72 and outperforms other meth-
+ods used for comparison when augmented
+by feedback.
+1 

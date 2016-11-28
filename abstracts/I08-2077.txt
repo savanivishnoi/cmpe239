@@ -1,0 +1,22 @@
+
+This paper reports about the development of
+a Named Entity Recognition (NER) system
+for Bengali using the statistical Conditional
+Random Fields (CRFs). The system makes
+use of the different contextual information
+of the words along with the variety of fea-
+tures that are helpful in predicting the var-
+ious named entity (NE) classes. A portion
+of the partially NE tagged Bengali news cor-
+pus, developed from the archive of a lead-
+ing Bengali newspaper available in the web,
+has been used to develop the system. The
+training set consists of 150K words and has
+been manually annotated with a NE tagset
+of seventeen tags. Experimental results of
+the 10-fold cross validation test show the ef-
+fectiveness of the proposed CRF based NER
+system with an overall average Recall, Pre-
+cision and F-Score values of 93.8%, 87.8%
+and 90.7%, respectively.
+1 

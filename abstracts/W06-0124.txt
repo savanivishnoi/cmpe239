@@ -1,0 +1,23 @@
+
+We report an experiment in which a high-
+performance boosting based NER model
+originally designed for multiple European
+languages is instead applied to the Chi-
+nese named entity recognition task of the
+third SIGHAN Chinese language process-
+ing bakeoff. Using a simple character-
+based model along with a set of features
+that are easily obtained from the Chi-
+nese input strings, the system described
+employs boosting, a promising and the-
+oretically well-founded machine learning
+method to combine a set of weak classi-
+fiers together into a final system. Even
+though we did no other Chinese-specific
+tuning, and used only one-third of the
+MSRA and CityU corpora to train the
+system, reasonable results are obtained.
+Our evaluation results show that 75.07 and
+80.51 overall F-measures were obtained
+on MSRA and CityU test sets respectively.
+1 

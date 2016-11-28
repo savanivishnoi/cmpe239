@@ -1,0 +1,28 @@
+ 
+The blogosphere is a huge collaboratively 
+constructed resource containing diverse 
+and rich information. This diversity and 
+richness presents a significant research 
+challenge to the Information Retrieval 
+community. This paper addresses this 
+challenge by proposing a method for 
+identification of ?topic clusters? within 
+the blogosphere where topic clusters 
+represent the concept of grouping togeth-
+er blogs sharing a common interest i.e. 
+topic, the algorithm takes into account 
+both the hyperlinked social network of 
+blogs along with the content in the blog 
+posts. Additionally we use various forms 
+and parts-of-speech of the topic to pro-
+vide a broader coverage of the blogos-
+phere. The next step of the method is to 
+assign topic-specific ranks to each blog 
+in the cluster using a metric called ?Topic 
+Discussion Rank,? that helps in identify-
+ing the most influential blog for a specif-
+ic topic. We also perform an experimen-
+tal evaluation of our method on real blog 
+data and show that the proposed method 
+reaches a high level of accuracy. 
+1 

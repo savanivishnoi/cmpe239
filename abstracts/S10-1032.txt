@@ -1,0 +1,13 @@
+
+This paper describes the design of a sys-
+tem for extracting keyphrases from a sin-
+gle document The principle of the algo-
+rithm is to cluster sentences of the doc-
+uments in order to highlight parts of text
+that are semantically related. The clusters
+of sentences, that reflect the themes of the
+document, are then analyzed to find the
+main topics of the text. Finally, the most
+important words, or groups of words, from
+these topics are proposed as keyphrases.
+1 

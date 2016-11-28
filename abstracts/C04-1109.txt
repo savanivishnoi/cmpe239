@@ -1,0 +1,21 @@
+ 
+Most traditional information extraction 
+approaches are generative models that assume 
+events exist in text in certain patterns and these 
+patterns can be regenerated in various ways. 
+These assumptions limited the syntactic clues 
+being considered for finding an event and 
+confined these approaches to a particular 
+syntactic level. This paper presents a 
+discriminative framework based on kernel SVMs 
+that takes into account different levels of 
+syntactic information and automatically 
+identifies the appropriate clues. Kernels are used 
+to represent certain levels of syntactic structure 
+and can be combined in principled ways as input 
+for an SVM. We will show that by combining a 
+low level sequence kernel with a high level 
+kernel on a GLARF dependency graph, the new 
+approach outperformed a good rule-based 
+system on slot filler detection for MUC-6. 
+1 

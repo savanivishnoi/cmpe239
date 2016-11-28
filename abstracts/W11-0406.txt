@@ -1,0 +1,30 @@
+
+BiasML is a novel annotation scheme with
+the purpose of identifying the presence as
+well as nuances of biased language within
+the subset of Wikipedia articles dedicated
+to service providers. Whereas Wikipedia
+currently uses only manual flagging to de-
+tect possible bias, our scheme provides
+a foundation for the automating of bias
+flagging by improving upon the methodol-
+ogy of annotation schemes in classic sen-
+timent analysis. We also address chal-
+lenges unique to the task of identifying
+biased writing within the specific context
+of Wikipedia?s neutrality policy. We per-
+form a detailed analysis of inter-annotator
+agreement, which shows that although the
+agreement scores for intra-sentential tags
+were relatively low, the agreement scores
+on the sentence and entry levels were
+encouraging (74.8% and 66.7%, respec-
+tively). Based on an analysis of our first
+implementation of our scheme, we suggest
+possible improvements to our guidelines, in
+hope that further rounds of annotation af-
+ter incorporating them could provide ap-
+propriate data for use within a machine
+learning framework for automated detec-
+tion of bias within Wikipedia.
+1 

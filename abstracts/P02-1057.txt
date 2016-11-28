@@ -1,0 +1,21 @@
+
+We present a document compression sys-
+tem that uses a hierarchical noisy-channel
+model of text production. Our compres-
+sion system first automatically derives the
+syntactic structure of each sentence and
+the overall discourse structure of the text
+given as input. The system then uses a sta-
+tistical hierarchical model of text produc-
+tion in order to drop non-important syn-
+tactic and discourse constituents so as to
+generate coherent, grammatical document
+compressions of arbitrary length. The sys-
+tem outperforms both a baseline and a
+sentence-based compression system that
+operates by simplifying sequentially all
+sentences in a text. Our results support
+the claim that discourse knowledge plays
+an important role in document summariza-
+tion.
+1 

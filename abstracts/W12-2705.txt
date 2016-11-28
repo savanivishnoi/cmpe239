@@ -1,0 +1,20 @@
+
+Modeling of foreign entity names is an im-
+portant unsolved problem in morpheme-based
+modeling that is common in morphologically
+rich languages. In this paper we present an
+unsupervised vocabulary adaptation method
+for morph-based speech recognition. Foreign
+word candidates are detected automatically
+from in-domain text through the use of letter
+n-gram perplexity. Over-segmented foreign
+entity names are restored to their base forms in
+the morph-segmented in-domain text for eas-
+ier and more reliable modeling and recogni-
+tion. The adapted pronunciation rules are fi-
+nally generated with a trainable grapheme-to-
+phoneme converter. In ASR performance the
+unsupervised method almost matches the abil-
+ity of supervised adaptation in correctly rec-
+ognizing foreign entity names.
+1 

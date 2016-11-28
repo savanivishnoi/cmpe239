@@ -1,0 +1,15 @@
+
+We present a novel unsupervised approach to
+detecting the compositionality of multi-word
+expressions. We compute the compositional-
+ity of a phrase through substituting the con-
+stituent words with their ?neighbours? in a se-
+mantic vector space and averaging over the
+distance between the original phrase and the
+substituted neighbour phrases. Several meth-
+ods of obtaining neighbours are presented.
+The results are compared to existing super-
+vised results and achieve state-of-the-art per-
+formance on a verb-object dataset of human
+compositionality ratings.
+1 

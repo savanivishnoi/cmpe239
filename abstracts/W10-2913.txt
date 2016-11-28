@@ -1,0 +1,27 @@
+
+Prior work on training the IBM-3 transla-
+tion model is based on suboptimal meth-
+ods for computing Viterbi alignments. In
+this paper, we present the first method
+guaranteed to produce globally optimal
+alignments. This not only results in im-
+proved alignments, it also gives us the op-
+portunity to evaluate the quality of stan-
+dard hillclimbing methods. Indeed, hill-
+climbing works reasonably well in prac-
+tice but still fails to find the global opti-
+mum for between 2% and 12% of all sen-
+tence pairs and the probabilities can be
+several tens of orders of magnitude away
+from the Viterbi alignment.
+By reformulating the alignment problem
+as an Integer Linear Program, we can
+use standard machinery from global opti-
+mization theory to compute the solutions.
+We use the well-known branch-and-cut
+method, but also show how it can be cus-
+tomized to the specific problem discussed
+in this paper. In fact, a large number of
+alignments can be excluded from the start
+without losing global optimality.
+1 

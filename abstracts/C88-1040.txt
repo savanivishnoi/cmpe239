@@ -1,0 +1,14 @@
+ 
+This paper describes a technique for enabling a speech 
+understanding system to deal with sentences for which 
+some monosyllabic words are not recognized. Such words 
+are supposed to act as mere syntactic markers within the 
+system linguistic domain. This result is achieved by com- 
+bining a modified caseframe approach to linguistic knowl- 
+edge representation with a parsing strategy able to inte- 
+grate expectations from the language model and predic- 
+tions from words. Experimental results show that the 
+proposed technique permits to greatly increase the quota 
+of corrupted sentences correctly understandable without 
+sensibly decreasing parsing efficiency. 
+1 

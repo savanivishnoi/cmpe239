@@ -1,0 +1,19 @@
+
+Decision trees have been applied to a vari-
+ety of NLP tasks, including language mod-
+eling, for their ability to handle a variety of
+attributes and sparse context space. More-
+over, forests (collections of decision trees)
+have been shown to substantially outperform
+individual decision trees. In this work, we in-
+vestigate methods for combining trees in a for-
+est, as well as methods for diversifying trees
+for the task of syntactic language modeling.
+We show that our tree interpolation technique
+outperforms the standard method used in the
+literature, and that, on this particular task, re-
+stricting tree contexts in a principled way pro-
+duces smaller and better forests, with the best
+achieving an 8% relative reduction in Word
+Error Rate over an n-gram baseline.
+1 

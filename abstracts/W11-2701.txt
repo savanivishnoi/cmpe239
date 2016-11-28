@@ -1,0 +1,24 @@
+ive
+Generate-and-Rank Sentence Compressor
+Dimitrios Galanis? and Ion Androutsopoulos?+
+?Department of Informatics, Athens University of Economics and Business, Greece
++Digital Curation Unit ? IMIS, Research Center ?Athena?, Greece
+Abstract
+Sentence compression has attracted much in-
+terest in recent years, but most sentence com-
+pressors are extractive, i.e., they only delete
+words. There is a lack of appropriate datasets
+to train and evaluate abstractive sentence com-
+pressors, i.e., methods that apart from delet-
+ing words can also rephrase expressions. We
+present a new dataset that contains candi-
+date extractive and abstractive compressions
+of source sentences. The candidate compres-
+sions are annotated with human judgements
+for grammaticality and meaning preservation.
+We discuss how the dataset was created, and
+how it can be used in generate-and-rank ab-
+stractive sentence compressors. We also re-
+port experimental results with a novel abstrac-
+tive sentence compressor that uses the dataset.
+1 

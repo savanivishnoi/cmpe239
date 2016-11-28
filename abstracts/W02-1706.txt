@@ -1,0 +1,18 @@
+
+We describe the use of a suite of highly flexible
+XML-based NLP tools in a project for processing and
+interpreting text in the medical domain. The main
+aim of the paper is to demonstrate the central role
+that XML mark-up and XML NLP tools have played
+in the analysis process and to describe the resultant
+annotated corpus of MEDLINE abstracts. In addition
+to the XML tools, we have succeeded in integrating
+a variety of non-XML ?off the shelf? NLP tools into
+our pipelines, so that their output is added into the
+mark-up. We demonstrate the utility of the anno-
+tations that result in two ways. First, we investigate
+how they can be used to improve parse coverage of a
+hand-crafted grammar that generates logical forms.
+And second, we investigate how they contribute to
+automatic lexical semantic acquisition processes.
+1 

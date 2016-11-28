@@ -1,0 +1,23 @@
+
+At present, most biomedical Information
+Retrieval and Extraction tools process ab-
+stracts rather than full-text articles. The in-
+creasing availability of full text will allow
+more knowledge to be extracted with greater
+reliability. To investigate the challenges of
+full-text processing, we manually annotated
+a corpus of cited articles from a Molecular
+Interaction Map (Kohn, 1999).
+Our analysis demonstrates the necessity of
+full-text processing; identifies the article
+sections where interactions are most com-
+monly stated; and quantifies both the amount
+of external knowledge required and the pro-
+portion of interactions requiring multiple or
+deeper inference steps. Further, it identi-
+fies a range of NLP tools required, including:
+identifying synonyms, and resolving coref-
+erence and negated expressions. This is im-
+portant guidance for researchers engineering
+biomedical text processing systems.
+1 

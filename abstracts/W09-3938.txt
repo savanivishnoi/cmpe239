@@ -1,0 +1,21 @@
+
+In real-world applications, modelling di-
+alogue as a POMDP requires the use of
+a summary space for the dialogue state
+representation to ensure tractability. Sub-
+optimal estimation of the value func-
+tion governing the selection of system re-
+sponses can then be obtained using a grid-
+based approach on the belief space. In
+this work, the Monte-Carlo control tech-
+nique is extended so as to reduce training
+over-fitting and to improve robustness to
+semantic noise in the user input. This tech-
+nique uses a database of belief vector pro-
+totypes to choose the optimal system ac-
+tion. A locally weighted k-nearest neigh-
+bor scheme is introduced to smooth the de-
+cision process by interpolating the value
+function, resulting in higher user simula-
+tion performance.
+1 

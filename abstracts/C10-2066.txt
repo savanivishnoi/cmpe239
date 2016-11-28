@@ -1,0 +1,27 @@
+
+The optimal choice of speech understand-
+ing method depends on the amount of
+training data available in rapid prototyp-
+ing. A statistical method is ultimately
+chosen, but it is not clear at which point
+in the increase in training data a statisti-
+cal method become effective. Our frame-
+work combines multiple automatic speech
+recognition (ASR) and language under-
+standing (LU) modules to provide a set
+of speech understanding results and se-
+lects the best result among them. The
+issue is how to allocate training data to
+statistical modules and the selection mod-
+ule in order to avoid overfitting in training
+and obtain better performance. This paper
+presents an automatic training data alloca-
+tion method that is based on the change
+in the coefficients of the logistic regres-
+sion functions used in the selection mod-
+ule. Experimental evaluation showed that
+our allocation method outperformed base-
+line methods that use a single ASR mod-
+ule and a single LU module at every point
+while training data increase.
+1 

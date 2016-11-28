@@ -1,0 +1,19 @@
+
+The performance of machine translation sys-
+tems varies greatly depending on the source
+and target languages involved. Determining
+the contribution of different characteristics of
+language pairs on system performance is key
+to knowing what aspects of machine transla-
+tion to improve and which are irrelevant. This
+paper investigates the effect of different ex-
+planatory variables on the performance of a
+phrase-based system for 110 European lan-
+guage pairs. We show that three factors are
+strong predictors of performance in isolation:
+the amount of reordering, the morphological
+complexity of the target language and the his-
+torical relatedness of the two languages. To-
+gether, these factors contribute 75% to the
+variability of the performance of the system.
+1 

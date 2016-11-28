@@ -1,0 +1,24 @@
+
+A critical, yet not very well studied problem
+in medical applications is the issue of accu-
+rately labeling patient records according to
+diagnoses and procedures that patients have
+undergone. This labeling problem, known as
+coding, consists of assigning standard medi-
+cal codes (ICD9 and CPT) to patient records.
+Each patient record can have several corre-
+sponding labels/codes, many of which are
+correlated to specific diseases. The cur-
+rent, most frequent coding approach involves
+manual labeling, which requires considerable
+human effort and is cumbersome for large
+patient databases. In this paper we view
+medical coding as a multi-label classification
+problem, where we treat each code as a label
+for patient records. Due to government regu-
+lations concerning patient medical data, pre-
+vious studies in automatic coding have been
+quite limited. In this paper, we compare two
+efficient algorithms for diagnosis coding on a
+large patient dataset.
+1 

@@ -1,0 +1,16 @@
+ 
+In this paper we discuss recent results from our efforts 
+to make SPHINX, the CMU continuous-speech speaker- 
+independent recognition system, robust to changes in the 
+environment. To deal with differences in noise level and 
+spectral tilt between close-talking and desk-top 
+microphones, we describe two novel methods based on ad- 
+ditive corrections in the cepstral domain. In the first algo- 
+rithm, an additive correction is imposed that depends on 
+the instantaneous SNR of the signal. In the second tech- 
+nique, EM techniques are used to best match the cepstral 
+vectors of the input utterances tothe ensemble of codebook 
+entries representing a standard acoustical mbience. Use of 
+these algorithms dramatically improves recognition ac- 
+curacy when the system is tested on a microphone other 
+than the one on which it was trained. 

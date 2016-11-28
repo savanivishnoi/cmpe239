@@ -1,0 +1,14 @@
+ 
+This paper presents two word segmenta-
+tion (WS) systems and a named entity 
+recognition (NER) system in France 
+Telecom R&D Beijing. The one system 
+of WS is for open tracks based on n-
+gram language model and another one is 
+for closed tracks based on maximum en-
+tropy approach. The NER system uses a 
+hybrid algorithm based on Class-based 
+language model and rule-based knowl-
+edge. These systems are all augmented 
+with a set of post-processors.  
+1 

@@ -1,0 +1,17 @@
+
+A single word may have multiple un-
+specified meanings in a corpus. Word
+sense induction aims to discover these dif-
+ferent meanings through word use, and
+knowledge-lean algorithms attempt this
+without using external lexical resources.
+We propose a new method for identify-
+ing the different senses that uses a flexi-
+ble clustering strategy to automatically de-
+termine the number of senses, rather than
+predefining it. We demonstrate the effec-
+tiveness using the SemEval-2 WSI task,
+achieving competitive scores on both the
+V-Measure and Recall metrics, depending
+on the parameter configuration.
+1 

@@ -1,0 +1,15 @@
+
+We perform Noun Phrase Bracketing by using a lo-
+cal, maximum entropy-based tagging model, which
+produces bracketing hypotheses. These hypothe-
+ses are subsequently fed into a reranking frame-
+work based on support vector machines. We solve
+the problem of hierarchical structure in our tag-
+ging model by modeling underspecified tags, which
+are fully determined only at decoding time. The
+tagging model performs comparably to competing
+approaches and the subsequent reranking increases
+our system?s performance from an f-score of 81.7 to
+86.1, surpassing the best reported results to date of
+83.8.
+1 

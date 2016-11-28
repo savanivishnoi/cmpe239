@@ -1,0 +1,15 @@
+
+We consider the problem of training logis-
+tic regression models for binary classifi-
+cation in information extraction and infor-
+mation retrieval tasks. Fitting probabilis-
+tic models for use with such tasks should
+take into account the demands of the task-
+specific utility function, in this case the
+well-known F-measure, which combines
+recall and precision into a global measure
+of utility. We develop a training proce-
+dure based on empirical risk minimiza-
+tion / utility maximization and evaluate it
+on a simple extraction task.
+1 

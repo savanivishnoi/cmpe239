@@ -1,0 +1,24 @@
+
+Conventional wisdom dictates that syn-
+chronous context-free grammars (SCFGs)
+must be converted to Chomsky Normal Form
+(CNF) to ensure cubic time decoding. For ar-
+bitrary SCFGs, this is typically accomplished
+via the synchronous binarization technique of
+(Zhang et al, 2006). A drawback to this ap-
+proach is that it inflates the constant factors as-
+sociated with decoding, and thus the practical
+running time. (DeNero et al, 2009) tackle this
+problem by defining a superset of CNF called
+Lexical Normal Form (LNF), which also sup-
+ports cubic time decoding under certain im-
+plicit assumptions. In this paper, we make
+these assumptions explicit, and in doing so,
+show that LNF can be further expanded to
+a broader class of grammars (called ?scope-
+3?) that also supports cubic-time decoding.
+By simply pruning non-scope-3 rules from a
+GHKM-extracted grammar, we obtain better
+translation performance than synchronous bi-
+narization.
+1 

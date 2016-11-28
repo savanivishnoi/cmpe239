@@ -1,0 +1,28 @@
+
+This paper investigates semi-supervised learn-
+ing of Gaussian mixture models using an uni-
+fied objective function taking both labeled and
+unlabeled data into account. Two methods
+are compared in this work ? the hybrid dis-
+criminative/generative method and the purely
+generative method. They differ in the crite-
+rion type on labeled data; the hybrid method
+uses the class posterior probabilities and the
+purely generative method uses the data like-
+lihood. We conducted experiments on the
+TIMIT database and a standard synthetic data
+set from UCI Machine Learning repository.
+The results show that the two methods be-
+have similarly in various conditions. For both
+methods, unlabeled data improve training on
+models of higher complexity in which the su-
+pervised method performs poorly. In addition,
+there is a trend that more unlabeled data re-
+sults in more improvement in classification ac-
+curacy over the supervised model. We also
+provided experimental observations on the rel-
+ative weights of labeled and unlabeled parts
+of the training objective and suggested a criti-
+cal value which could be useful for selecting a
+good weighing factor.
+1 

@@ -1,0 +1,29 @@
+
+Instruction giving can be used in several
+applications, ranging from trainers in sim-
+ulated worlds to non player characters for
+virtual games. In this paper we present a
+novel algorithm for rapidly prototyping virtual
+instruction-giving agents from human-human
+corpora without manual annotation. Automat-
+ically prototyping full-fledged dialogue sys-
+tems from corpora is far from being a reality
+nowadays. Our approach is restricted in that
+only the virtual instructor can perform speech
+acts while the user responses are limited to
+physical actions in the virtual worlds.
+We have defined an algorithm that, given a
+task-based corpus situated in a virtual world,
+which contains human instructor?s speech acts
+and the user?s responses as physical actions,
+generates a virtual instructor that robustly
+helps a user achieve a given task in the vir-
+tual world. We explain how this algorithm
+can be used for generating a virtual instructor
+for a game-like, task-oriented virtual world.
+We evaluate the virtual instructor with human
+users using task-oriented as well as user satis-
+faction metrics. We compare our results with
+both human and rule-based virtual instructors
+hand-coded for the same task.
+1 

@@ -1,0 +1,22 @@
+
+Translation memories provide assis-
+tance to human translators in produc-
+tion settings, and are sometimes used
+as first-pass machine translation in as-
+similation settings because they pro-
+duce highly fluent output very rapidly.
+In this paper, we describe and eval-
+uate a simple whole-segment transla-
+tion memory, placing it as a new lower
+bound in the well-populated space of
+machine translation systems. The re-
+sult is a new way to gauge how far ma-
+chine translation has progressed com-
+pared to an easily understood baseline
+system.
+The evaluation also sheds light on the
+evaluation metric and gives evidence
+showing that gaming translation with
+perfect fluency does not fool bleu the
+way it fools people.
+1 

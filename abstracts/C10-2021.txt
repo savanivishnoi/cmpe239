@@ -1,0 +1,21 @@
+
+This paper studies two methods for train-
+ing hierarchical MT rules independently
+of word alignments. Bilingual chart pars-
+ing and EM algorithm are used to train bi-
+text correspondences. The first method,
+rule arithmetic, constructs new rules as
+combinations of existing and reliable rules
+used in the bilingual chart, significantly
+improving the translation accuracy on the
+German-English and Farsi-English trans-
+lation task. The second method is pro-
+posed to construct additional rules directly
+from the chart using inside and outside
+probabilities to determine the span of the
+rule and its non-terminals. The paper also
+presents evidence that the rule arithmetic
+can recover from alignment errors, and
+that it can learn rules that are difficult to
+learn from bilingual alignments.
+1 

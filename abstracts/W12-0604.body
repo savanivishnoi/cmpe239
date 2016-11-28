@@ -1,0 +1,20 @@
+
+Classifying blog posts by topics is useful
+for applications such as search and market-
+ing. However, topic classification is time
+consuming and error prone, especially in an
+open domain such as the blogosphere. The
+state-of-the-art relies on supervised meth-
+ods, requiring considerable training effort,
+that use the whole corpus vocabulary as fea-
+tures, demanding considerable memory to
+process. We show an effective alternative
+whereby distant supervision is used to ob-
+tain training data: we use Wikipedia arti-
+cles labelled with Freebase domains. We
+address the memory requirements by using
+only named entities as features. We test our
+classifier on a sample of blog posts, and re-
+port up to 0.69 accuracy for multi-class la-
+belling and 0.9 for binary classification.
+1 

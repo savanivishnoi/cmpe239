@@ -1,0 +1,32 @@
+
+Edges of graphs that model real data can be
+seen as judgements whether pairs of objects
+are in relation with each other or not. So,
+one can evaluate the similarity of two graphs
+with a measure of agreement between judges
+classifying pairs of vertices into two cate-
+gories (connected or not connected). When
+applied to synonymy networks, such measures
+demonstrate a surprisingly low agreement be-
+tween various resources of the same language.
+This seems to suggest that the judgements
+on synonymy of lexemes of the same lexi-
+con radically differ from one dictionary ed-
+itor to another. In fact, even a strong dis-
+agreement between edges does not necessarily
+mean that graphs model a completely differ-
+ent reality: although their edges seem to dis-
+agree, synonymy resources may, at a coarser
+grain level, outline similar semantics. To in-
+vestigate this hypothesis, we relied on shared
+common properties of real world data net-
+works to look at the graphs at a more global
+level by using random walks. They enabled
+us to reveal a much better agreement between
+dense zones than between edges of synonymy
+graphs. These results suggest that although
+synonymy resources may disagree at the level
+of judgements on single pairs of words, they
+may nevertheless convey an essentially simi-
+lar semantic information.
+1 

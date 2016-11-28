@@ -1,0 +1,33 @@
+
+In spoken communications, correction ut-
+terances, which are utterances correct-
+ing other participants utterances and be-
+haviors, play crucial roles, and detecting
+them is one of the key issues. Previ-
+ously, much work has been done on au-
+tomatic detection of correction utterances
+in human-human and human-computer di-
+alogs, but they mostly dealt with the cor-
+rection of erroneous utterances. How-
+ever, in many real situations, especially in
+communications between humans and mo-
+bile robots, the misunderstandings man-
+ifest themselves not only through utter-
+ances but also through physical actions
+performed by the participants. In this pa-
+per, we focus on action corrections and
+propose a classification of such utterances
+into Omission, Commission, and Degree
+corrections. We present the results of our
+analysis of correction utterances in dialogs
+between two humans who were engaging
+in a kind of on-line computer game, where
+one participant plays the role of the re-
+mote manager of a convenience store, and
+the other plays the role of a robot store
+clerk. We analyze the linguistic content,
+prosody as well as the timing of correction
+utterances and found that all features were
+significantly correlated with action correc-
+tions.
+1 

@@ -1,0 +1,18 @@
+
+In this paper, we propose a novel ap-
+proach for Cross-Lingual Question Answer-
+ing (CLQA). In the proposed method, the
+statistical machine translation (SMT) is
+deeply incorporated into the question an-
+swering process, instead of using it as the
+pre-processing of the mono-lingual QA pro-
+cess as in the previous work. The proposed
+method can be considered as exploiting the
+SMT-based passage retrieval for CLQA task.
+We applied our method to the English-to-
+Japanese CLQA system and evaluated the
+performance by using NTCIR CLQA 1 and
+2 test collections. The result showed that the
+proposed method outperformed the previous
+pre-translation approach.
+1 

@@ -1,0 +1,25 @@
+ 
+This paper proposes a unified 
+Transformation Based Learning (TBL, 
+Brill, 1995) framework for Chinese 
+Entity Detection and Tracking (EDT). 
+It consists of two sub models: a 
+mention detection model and an entity 
+tracking/coreference model. The first 
+sub-model is used to adapt existing 
+Chinese word segmentation and Named 
+Entity (NE) recognition results to a 
+specific EDT standard to find all the 
+mentions. The second sub-model is 
+used to find the coreference relation 
+between the mentions. In addition, a 
+feedback technique is proposed to 
+further improve the performance of the 
+system. We evaluated our methods on 
+the Automatic Content Extraction 
+(ACE, NIST, 2003) Chinese EDT 
+corpus. Results show that it 
+outperforms the baseline, and achieves 
+comparable performance with the state-
+of-the-art methods. 
+1 

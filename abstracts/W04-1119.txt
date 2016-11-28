@@ -1,0 +1,22 @@
+1 
+This paper presents a semi-supervised ap-
+proach to reduce human effort in building an 
+annotated Chinese corpus. One of the disad-
+vantages of many statistical Chinese named 
+entity recognition systems is that training data 
+may be in short supply, and manually building 
+annotated corpus is expensive. In the proposed 
+approach, we construct an 80M hand-
+annotated corpus in three steps: (1) 
+Automatically annotate training corpus; (2) 
+Manually refine small subsets of the automati-
+cally annotated corpus; (3) Combine small 
+subsets and whole corpus in a bootstrapping 
+process. Our approach is tested on a state-of-
+the-art Chinese word segmentation system 
+(Gao et al, 2003, 2004). Experiments show 
+that only a small subset of hand-annotated 
+corpus is sufficient to achieve a satisfying per-
+formance of the named entity component in 
+this system.  
+1 

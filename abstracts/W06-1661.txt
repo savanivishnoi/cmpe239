@@ -1,0 +1,17 @@
+
+In this paper we describe and evaluate
+several statistical models for the task of
+realization ranking, i.e. the problem of
+discriminating between competing surface
+realizations generated for a given input se-
+mantics. Three models (and several vari-
+ants) are trained and tested: an n-gram
+language model, a discriminative maxi-
+mum entropy model using structural in-
+formation (and incorporating the language
+model as a separate feature), and finally an
+SVM ranker trained on the same feature
+set. The resulting hybrid tactical generator
+is part of a larger, semantic transfer MT
+system.
+1 

@@ -1,0 +1,22 @@
+ 
+This work introduces a new unsupervised 
+approach to multilingual word sense 
+disambiguation. Its main purpose is to 
+automatically choose the intended sense 
+(meaning) of a word in a particular context for 
+different languages. It does so by selecting the 
+correct Babel synset for the word and the 
+various Wiki Page titles that mention the 
+word. BabelNet contains all the output 
+information that our system needs, in its Babel 
+synset. Through Babel synset, we find all the 
+possible Synsets for the word in WordNet. 
+Using these Synsets, we apply the 
+disambiguation method Ppr+Freq to find what 
+we need. To facilitate the work with WordNet, 
+we use the ISR-WN which offers the 
+integration of different resources to WordNet. 
+Our system, recognized as the best in the 
+competition, obtains results around 69% of 
+Recall. 
+1 

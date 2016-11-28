@@ -1,0 +1,30 @@
+ 
+The evaluative character of a word is called its 
+semantic orientation (SO). A positive SO 
+indicates desirability (e.g. Good, Honest) and 
+a negative SO indicates undesirability (e.g., 
+Bad, Ugly). This paper presents a method, 
+based on Turney (2003), for inferring the SO 
+of a word from its statistical association with 
+strongly-polarized words and morphemes in 
+Chinese. It is noted that morphemes are much 
+less numerous than words, and that also a 
+small number of fundamental morphemes may 
+be used in the modified system to great 
+advantage. The algorithm was tested on 1,249 
+words (604 positive and 645 negative) in a 
+corpus of 34 million words, and was run with 
+20 and 40 polarized words respectively, giving 
+a high precision (79.96% to 81.05%), but a 
+low recall (45.56% to 59.57%). The algorithm 
+was then run with 20 polarized morphemes, or 
+single characters, in the same corpus, giving a 
+high precision of 80.23% and a high recall of 
+85.03%. We concluded that morphemes in 
+Chinese, as in any language, constitute a dis-
+tinct sub-lexical unit which, though small in 
+number, has greater linguistic significance 
+than words, as seen by the significant en-
+hancement of results with a much smaller 
+corpus than that required by Turney. 
+1. 

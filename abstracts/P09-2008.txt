@@ -1,0 +1,34 @@
+
+Most NLP applications work under the as-
+sumption that a user input is error-free;
+thus, word segmentation (WS) for written
+languages that use word boundary mark-
+ers (WBMs), such as spaces, has been re-
+garded as a trivial issue. However, noisy
+real-world texts, such as blogs, e-mails,
+and SMS, may contain spacing errors that
+require correction before further process-
+ing may take place. For the Korean lan-
+guage, many researchers have adopted a
+traditional WS approach, which eliminates
+all spaces in the user input and re-inserts
+proper word boundaries. Unfortunately,
+such an approach often exacerbates the
+word spacing quality for user input, which
+has few or no spacing errors; such is the
+case, because a perfect WS model does
+not exist. In this paper, we propose a
+novel WS method that takes into consider-
+ation the initial word spacing information
+of the user input. Our method generates
+a better output than the original user in-
+put, even if the user input has few spacing
+errors. Moreover, the proposed method
+significantly outperforms a state-of-the-art
+Korean WS model when the user input ini-
+tially contains less than 10% spacing er-
+rors, and performs comparably for cases
+containing more spacing errors. We be-
+lieve that the proposed method will be a
+very practical pre-processing module.
+1 

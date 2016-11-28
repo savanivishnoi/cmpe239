@@ -1,0 +1,25 @@
+
+Learning by Reading (LbR) aims at enabling
+machines to acquire knowledge from and rea-
+son about textual input. This requires knowl-
+edge about the domain structure (such as en-
+tities, classes, and actions) in order to do in-
+ference. We present a method to infer this im-
+plicit knowledge from unlabeled text. Unlike
+previous approaches, we use automatically ex-
+tracted classes with a probability distribution
+over entities to allow for context-sensitive la-
+beling. From a corpus of 1.4m sentences, we
+learn about 250k simple propositions about
+American football in the form of predicate-
+argument structures like ?quarterbacks throw
+passes to receivers?. Using several statisti-
+cal measures, we show that our model is able
+to generalize and explain the data statistically
+significantly better than various baseline ap-
+proaches. Human subjects judged up to 96.6%
+of the resulting propositions to be sensible.
+The classes and probabilistic model can be
+used in textual enrichment to improve the per-
+formance of LbR end-to-end systems.
+1 

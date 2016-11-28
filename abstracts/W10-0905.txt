@@ -1,0 +1,14 @@
+
+This paper presents preliminary work to ex-
+tract script-like structures, called events and
+event sets, from collections of web docu-
+ments. Our approach, contrary to existing
+methods, is topic-driven in the sense that event
+sets are extracted for a specified topic. We
+introduce an iterative system architecture and
+present methods to reduce noise problems
+with web corpora. Preliminary results show
+that LSA-based event relatedness yields bet-
+ter event sets from web corpora than previous
+methods.
+1 

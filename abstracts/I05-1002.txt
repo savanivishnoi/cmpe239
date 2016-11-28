@@ -1,0 +1,12 @@
+. This paper explores two linguistically motivated restrictions on the
+set of words used for topic tracking on newspaper articles: named entities and
+headline words. We assume that named entities is one of the linguistic features
+for topic tracking, since both topic and event are related to a specific place and
+time in a story. The basic idea to use headline words for the tracking task is that
+headline is a compact representation of the original story, which helps people to
+quickly understand the most important information contained in a story. Head-
+line words are automatically generated using headline generation technique. The
+method was tested on the Mainichi Shimbun Newspaper in Japanese, and the re-
+sults of topic tracking show that the system works well even for a small number
+of positive training data.
+1 

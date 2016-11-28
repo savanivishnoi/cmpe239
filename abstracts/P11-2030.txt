@@ -1,0 +1,15 @@
+
+We cast the word alignment problem as max-
+imizing a submodular function under matroid
+constraints. Our framework is able to express
+complex interactions between alignment com-
+ponents while remaining computationally ef-
+ficient, thanks to the power and generality of
+submodular functions. We show that submod-
+ularity naturally arises when modeling word
+fertility. Experiments on the English-French
+Hansards alignment task show that our ap-
+proach achieves lower alignment error rates
+compared to conventional matching based ap-
+proaches.
+1 

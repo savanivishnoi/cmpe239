@@ -1,0 +1,15 @@
+
+This paper describes the system implemented
+by Fundacio? Barcelona Media (FBM) for clas-
+sifying the polarity of opinion expressions in
+tweets and SMSs, and which is supported by
+a UIMA pipeline for rich linguistic and sen-
+timent annotations. FBM participated in the
+SEMEVAL 2013 Task 2 on polarity classifi-
+cation. It ranked 5th in Task A (constrained
+track) using an ensemble system combining
+ML algorithms with dictionary-based heuris-
+tics, and 7th (Task B, constrained) using an
+SVM classifier with features derived from the
+linguistic annotations and some heuristics.
+1 

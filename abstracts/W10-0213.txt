@@ -1,0 +1,19 @@
+
+We investigate the effect of text summarisa-
+tion in the problem of rating-inference ? the
+task of associating a fine-grained numerical
+rating to an opinionated document. We set-up
+a comparison framework to study the effect of
+different summarisation algorithms of various
+compression rates in this task and compare the
+classification accuracy of summaries and doc-
+uments for associating documents to classes.
+We make use of SVM algorithms to associate
+numerical ratings to opinionated documents.
+The algorithms are informed by linguistic and
+sentiment-based features computed from full
+documents and summaries. Preliminary re-
+sults show that some types of summaries could
+be as effective or better as full documents in
+this problem.
+1 

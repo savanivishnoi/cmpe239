@@ -1,0 +1,23 @@
+ 
+This paper presents a method for search-
+ing the web for sentences expressing 
+opinions. To retrieve an appropriate 
+number of opinions that users may want 
+to read, declaratively subjective clues are 
+used to judge whether a sentence ex-
+presses an opinion. We collected declara-
+tively subjective clues in opinion-
+expressing sentences from Japanese web 
+pages retrieved with opinion search que-
+ries. These clues were expanded with the 
+semantic categories of the words in the 
+sentences and were used as feature pa-
+rameters in a Support Vector Machine to 
+classify the sentences. Our experimental 
+results using retrieved web pages on 
+various topics showed that the opinion 
+expressing sentences identified by the 
+proposed method are congruent with sen-
+tences judged by humans to express 
+opinions. 
+1 

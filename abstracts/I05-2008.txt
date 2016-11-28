@@ -1,0 +1,22 @@
+ 
+This paper describes a system which 
+solves language tests for second grade 
+students (7 years old). In Japan, there 
+are materials for students to measure 
+understanding of what they studied, 
+just like SAT for high school students 
+in US. We use textbooks for the stu-
+dents as the target material of this study. 
+Questions in the materials are classified 
+into four types: questions about Chi-
+nese character (Kanji), about word 
+knowledge, reading comprehension, 
+and composition. This program doesn?t 
+resolve the composition and some other 
+questions which are not easy to be im-
+plemented in text forms. We built a 
+subsystem for each finer type of ques-
+tions. As a result, we achieved 55% - 
+83% accuracy in answering questions 
+in unseen materials. 
+1 

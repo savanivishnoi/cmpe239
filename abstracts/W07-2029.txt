@@ -1,0 +1,15 @@
+
+This paper summarizes FBK-irst participa-
+tion at the lexical substitution task of the
+SEMEVAL competition. We submitted two
+different systems, both exploiting synonym
+lists extracted from dictionaries. For each
+word to be substituted, the systems rank the
+associated synonym list according to a simi-
+larity metric based on Latent Semantic Anal-
+ysis and to the occurrences in the Web 1T
+5-gram corpus, respectively. In particular,
+the latter system achieves the state-of-the-art
+performance, largely surpassing the baseline
+proposed by the organizers.
+1 

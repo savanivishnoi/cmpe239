@@ -1,0 +1,14 @@
+ 
+We describe a method for acquiring semantic 
+cooccurrence r strictions for tuples of syntacti- 
+cally related words (e.g. verb-object pairs) from 
+text corpora utomatically. This method uses the 
+notion of semantic similarity to assign a sense 
+from a dictionary database (e.g. WordNet) to 
+ambiguous words occurring in a syntactic de- 
+pendency. Semantic similarity is also used to 
+merge disambiguated word tuples into classes of 
+cooccurrence r strictions. This encoding makes 
+it possible to reduce subsequent disambiguation 
+events to simple table lookups. 
+1 

@@ -1,0 +1,26 @@
+
+This paper describes the retrieval of cor-
+rect semantic boundaries for predicate-
+argument structures annotated by depen-
+dency structure. Unlike phrase structure,
+in which arguments are annotated at the
+phrase level, dependency structure does
+not have phrases so the argument labels are
+associated with head words instead: the
+subtree of each head word is assumed to
+include the same set of words as the an-
+notated phrase does in phrase structure.
+However, at least in English, retrieving
+such subtrees does not always guarantee
+retrieval of the correct phrase boundaries.
+In this paper, we present heuristics that
+retrieve correct phrase boundaries for se-
+mantic arguments, called semantic bound-
+aries, from dependency trees. By apply-
+ing heuristics, we achieved an F1-score
+of 99.54% for correct representation of
+semantic boundaries. Furthermore, error
+analysis showed that some of the errors
+could also be considered correct, depend-
+ing on the interpretation of the annotation.
+1 

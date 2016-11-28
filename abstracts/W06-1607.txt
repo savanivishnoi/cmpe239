@@ -1,0 +1,11 @@
+
+We discuss different strategies for smooth-
+ing the phrasetable in Statistical MT, and
+give results over a range of translation set-
+tings. We show that any type of smooth-
+ing is a better idea than the relative-
+frequency estimates that are often used.
+The best smoothing techniques yield con-
+sistent gains of approximately 1% (abso-
+lute) according to the BLEU metric.
+1 

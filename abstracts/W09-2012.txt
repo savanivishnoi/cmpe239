@@ -1,0 +1,15 @@
+
+We demonstrate that subjective creativity in
+sentence-writing can in part be predicted us-
+ing computable quantities studied in Com-
+puter Science and Cognitive Psychology. We
+introduce a task in which a writer is asked to
+compose a sentence given a keyword. The
+sentence is then assigned a subjective creativ-
+ity score by human judges. We build a linear
+regression model which, given the keyword
+and the sentence, predicts the creativity score.
+The model employs features on statistical lan-
+guage models from a large corpus, psycholog-
+ical word norms, and WordNet.
+1 

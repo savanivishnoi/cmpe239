@@ -1,0 +1,17 @@
+
+Mining retrospective events from text streams
+has been an important research topic. Classic
+text representation model (i.e., vector space
+model) cannot model temporal aspects of doc-
+uments. To address it, we proposed a novel
+burst-based text representation model, de-
+noted as BurstVSM. BurstVSM corresponds
+dimensions to bursty features instead of terms,
+which can capture semantic and temporal in-
+formation. Meanwhile, it significantly reduces
+the number of non-zero entries in the repre-
+sentation. We test it via scalable event de-
+tection, and experiments in a 10-year news
+archive show that our methods are both effec-
+tive and efficient.
+1 

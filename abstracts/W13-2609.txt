@@ -1,0 +1,21 @@
+ 
+An increasing body of empirical evidence 
+suggests that concreteness is a fundamental 
+dimension of semantic representation. By im-
+plementing both a vector space model and a 
+Latent Dirichlet Allocation (LDA) Model, we 
+explore the extent to which concreteness is re-
+flected in the distributional patterns in corpora.  
+In one experiment, we show that that vector 
+space models can be tailored to better model 
+semantic domains of particular degrees of 
+concreteness.   In a second experiment, we 
+show that the quality of the representations of 
+abstract words in LDA models can be im-
+proved by supplementing the training data 
+with information on the physical properties of 
+concrete concepts.  We conclude by discussing 
+the implications for computational systems 
+and also for how concrete and abstract con-
+cepts are represented in the mind 
+1 

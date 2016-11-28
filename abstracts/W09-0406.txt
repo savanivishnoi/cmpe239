@@ -1,0 +1,17 @@
+
+This paper describes the CMU entry for
+the system combination shared task at
+WMT?09. Our combination method is hy-
+pothesis selection, which uses information
+from n-best lists from several MT systems.
+The sentence level features are indepen-
+dent from the MT systems involved. To
+compensate for various n-best list sizes in
+the workshop shared task including first-
+best-only entries, we normalize one of our
+high-impact features for varying sub-list
+size. We combined restricted data track
+entries in French - English, German - En-
+glish and Hungarian - English using pro-
+vided data only.
+1 

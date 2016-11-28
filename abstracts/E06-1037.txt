@@ -1,0 +1,21 @@
+
+Given the growing complexity of tasks
+that spoken dialogue systems are trying to
+handle, Reinforcement Learning (RL) has
+been increasingly used as a way of au-
+tomatically learning the best policy for a
+system to make. While most work has
+focused on generating better policies for
+a dialogue manager, very little work has
+been done in using RL to construct a better
+dialogue state. This paper presents a RL
+approach for determining what dialogue
+features are important to a spoken dia-
+logue tutoring system. Our experiments
+show that incorporating dialogue factors
+such as dialogue acts, emotion, repeated
+concepts and performance play a signifi-
+cant role in tutoring and should be taken
+into account when designing dialogue sys-
+tems.
+1 

@@ -1,0 +1,20 @@
+
+This paper presents a new paradigm for
+translation from inflectionally rich lan-
+guages that was used in the University
+of Maryland statistical machine transla-
+tion system for the WMT07 Shared Task.
+The system is based on a hierarchical
+phrase-based decoder that has been aug-
+mented to translate ambiguous input given
+in the form of a confusion network (CN),
+a weighted finite state representation of a
+set of strings. By treating morphologi-
+cally derived forms of the input sequence
+as possible, albeit more ?costly? paths that
+the decoder may select, we find that sig-
+nificant gains (10% BLEU relative) can
+be attained when translating from Czech,
+a language with considerable inflectional
+complexity, into English.
+1 

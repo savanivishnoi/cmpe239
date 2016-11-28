@@ -1,0 +1,29 @@
+
+We present a method for inference in hi-
+erarchical phrase-based translation, where
+both optimisation and sampling are per-
+formed in a common exact inference
+framework related to adaptive rejection
+sampling. We also present a first imple-
+mentation of that method along with ex-
+perimental results shedding light on some
+fundamental issues. In hierarchical transla-
+tion, inference needs to be performed over
+a high-complexity distribution defined by
+the intersection of a translation hypergraph
+and a target language model. We replace
+this intractable distribution by a sequence
+of tractable upper-bounds for which exact
+optimisers and samplers are easy to obtain.
+Our experiments show that exact inference
+is then feasible using only a fraction of the
+time and space that would be required by
+the full intersection, without recourse to
+pruning techniques that only provide ap-
+proximate solutions. While the current im-
+plementation is limited in the size of inputs
+it can handle in reasonable time, our exper-
+iments provide insights towards obtaining
+future speedups, while staying in the same
+general framework.
+1 

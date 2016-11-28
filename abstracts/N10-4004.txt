@@ -1,0 +1,34 @@
+s, pages 7?8,
+Los Angeles, California, June 2010. c?2010 Association for Computational Linguistics
+Recent Advances in Dependency Parsing
+Qin Iris Wang, AT&T Interactive
+Yue Zhang, Oxford
+   Data-driven (statistical) approaches have been playing an
+increasingly prominent role in parsing since the 1990s. In recent
+years, there has been a growing interest in dependency-based as
+opposed to constituency-based approaches to syntactic parsing, with
+application to a wide range of research areas and different languages.
+Graph-based and transition-based methods are the two dominant
+data-driven approaches to dependency parsing. In a graph-based model,
+it defines a space of candidate dependency trees for a given sentence.
+Each candidate tree is scored via a local or global scoring function.
+The parser (usually uses dynamic programming) outputs the
+highest-scored tree. In contrast, in a transition-based model, it
+defines a transition system for mapping a sentence to its dependency
+tree.  It induces a model for predicting the next state transition,
+given the transition history. Given the induced model, the output
+parse tree is built deterministically upon the construction of the
+optimal transition sequence.
+   Both Graph-based and transition-based approaches have been used to
+achieve state-of-the-art dependency parsing results for a wide range
+of languages. Some researchers have used the combination of the two
+models and it shows the performance of the combined model is
+significantly better than the individual models. Another recent trend
+is to apply online training to shift-reduce parsing in the
+transition-based models. In this tutorial, we first introduce the two
+main-stream data-driven dependency parsing models--- graph-based and
+transition-based models. After comparing the differences between them,
+we show how these two models can be combined in various ways to
+achieve better results.
+Outline
+Part A: 

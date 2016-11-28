@@ -1,0 +1,27 @@
+
+Most existing systems for Chinese Seman-
+tic Role Labeling (SRL) make use of full
+syntactic parses. In this paper, we evalu-
+ate SRL methods that take partial parses as
+inputs. We first extend the study on Chi-
+nese shallow parsing presented in (Chen
+et al, 2006) by raising a set of addi-
+tional features. On the basis of our shal-
+low parser, we implement SRL systems
+which cast SRL as the classification of
+syntactic chunks with IOB2 representation
+for semantic roles (i.e. semantic chunks).
+Two labeling strategies are presented: 1)
+directly tagging semantic chunks in one-
+stage, and 2) identifying argument bound-
+aries as a chunking task and labeling their
+semantic types as a classification task. For
+both methods, we present encouraging re-
+sults, achieving significant improvements
+over the best reported SRL performance
+in the literature. Additionally, we put
+forward a rule-based algorithm to auto-
+matically acquire Chinese verb formation,
+which is empirically shown to enhance
+SRL.
+1 

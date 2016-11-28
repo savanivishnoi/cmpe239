@@ -1,0 +1,28 @@
+
+Automated summarization methods can
+be defined as ?language-independent,? if
+they are not based on any language-
+specific knowledge. Such methods can
+be used for multilingual summarization
+defined by Mani (2001) as ?processing
+several languages, with summary in the
+same language as input.? In this pa-
+per, we introduce MUSE, a language-
+independent approach for extractive sum-
+marization based on the linear optimiza-
+tion of several sentence ranking measures
+using a genetic algorithm. We tested our
+methodology on two languages?English
+and Hebrew?and evaluated its perfor-
+mance with ROUGE-1 Recall vs. state-
+of-the-art extractive summarization ap-
+proaches. Our results show that MUSE
+performs better than the best known multi-
+lingual approach (TextRank1) in both lan-
+guages. Moreover, our experimental re-
+sults on a bilingual (English and Hebrew)
+document collection suggest that MUSE
+does not need to be retrained on each lan-
+guage and the same model can be used
+across at least two different languages.
+1 

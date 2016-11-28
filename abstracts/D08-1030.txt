@@ -1,0 +1,21 @@
+
+The Named Entity Recognition (NER) task
+has been garnering significant attention in
+NLP as it helps improve the performance
+of many natural language processing applica-
+tions. In this paper, we investigate the im-
+pact of using different sets of features in two
+discriminative machine learning frameworks,
+namely, Support Vector Machines and Condi-
+tional Random Fields using Arabic data. We
+explore lexical, contextual and morphological
+features on eight standardized data-sets of dif-
+ferent genres. We measure the impact of the
+different features in isolation, rank them ac-
+cording to their impact for each named entity
+class and incrementally combine them in or-
+der to infer the optimal machine learning ap-
+proach and feature set. Our system yields a
+performance of F?=1-measure=83.5 on ACE
+2003 Broadcast News data.
+1 

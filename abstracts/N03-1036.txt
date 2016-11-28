@@ -1,0 +1,21 @@
+
+This paper describes an unsupervised algo-
+rithm for placing unknown words into a taxon-
+omy and evaluates its accuracy on a large and
+varied sample of words. The algorithm works
+by first using a large corpus to find semantic
+neighbors of the unknown word, which we ac-
+complish by combining latent semantic analy-
+sis with part-of-speech information. We then
+place the unknown word in the part of the tax-
+onomy where these neighbors are most concen-
+trated, using a class-labelling algorithm devel-
+oped especially for this task. This method is
+used to reconstruct parts of the existing Word-
+Net database, obtaining results for common
+nouns, proper nouns and verbs. We evaluate
+the contribution made by part-of-speech tag-
+ging and show that automatic filtering using the
+class-labelling algorithm gives a fourfold im-
+provement in accuracy.
+1 

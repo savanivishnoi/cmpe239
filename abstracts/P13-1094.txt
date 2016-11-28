@@ -1,0 +1,25 @@
+
+A number of different notions, including
+subjectivity, have been proposed for dis-
+tinguishing parts of documents that con-
+vey sentiment from those that do not. We
+propose a new concept, sentiment rele-
+vance, to make this distinction and argue
+that it better reflects the requirements of
+sentiment analysis systems. We demon-
+strate experimentally that sentiment rele-
+vance and subjectivity are related, but dif-
+ferent. Since no large amount of labeled
+training data for our new notion of sen-
+timent relevance is available, we investi-
+gate two semi-supervised methods for cre-
+ating sentiment relevance classifiers: a dis-
+tant supervision approach that leverages
+structured information about the domain
+of the reviews; and transfer learning on
+feature representations based on lexical
+taxonomies that enables knowledge trans-
+fer. We show that both methods learn sen-
+timent relevance classifiers that perform
+well.
+1 

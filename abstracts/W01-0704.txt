@@ -1,0 +1,35 @@
+
+This paper describes a Natural Lan-
+guage Learning method that extracts
+knowledge in the form of semantic pat-
+terns with ontology elements associated
+to syntactic components in the text. The
+method combines the use of EuroWord-
+Net?s ontological concepts and the cor-
+rect sense of each word assigned by
+a Word Sense Disambiguation(WSD)
+module to extract three sets of pat-
+terns: subject-verb, verb-direct object
+and verb-indirect object. These sets de-
+fine the semantic behaviour of the main
+textual elements based on their syntac-
+tic role. On the one hand, it is shown
+that Maximum Entropy models applied
+to WSD tasks provide good results. The
+evaluation of the WSD module has re-
+vealed a accuracy rate of 64% in a pre-
+liminary test. On the other hand, we ex-
+plain how an adequate set of semantic
+or ontological patterns can improve the
+success rate of NLP tasks such us pro-
+noun resolution. We have implemented
+both modules in C++ and although the
+evaluation has been performed for En-
+glish, their general features allow the
+treatment of other languages like Span-
+ish.
+
+This paper has been partially supported by the Spanish
+Government (CICYT) project number TIC2000-0664-C02-
+02.
+1 

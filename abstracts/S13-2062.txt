@@ -1,0 +1,14 @@
+ 
+We present two systems developed at the Uni-
+versity of Ottawa for the SemEval 2013 Task 2. 
+The first system (for Task A) classifies the po-
+larity / sentiment orientation of one target word 
+in a Twitter message. The second system (for 
+Task B) classifies the polarity of whole Twitter 
+messages. Our two systems are very simple, 
+based on supervised classifiers with bag-of-
+words feature representation, enriched with in-
+formation from several sources. We present a 
+few additional results, besides results of the 
+submitted runs. 
+1 

@@ -1,0 +1,16 @@
+
+In this paper, we describe our system
+which participated in the SemEval 2010
+task of disambiguating sentiment ambigu-
+ous adjectives for Chinese. Our system
+uses text messages from Twitter, a popu-
+lar microblogging platform, for building a
+dataset of emotional texts. Using the built
+dataset, the system classifies the meaning
+of adjectives into positive or negative sen-
+timent polarity according to the given con-
+text. Our approach is fully automatic. It
+does not require any additional hand-built
+language resources and it is language in-
+dependent.
+1 

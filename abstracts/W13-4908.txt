@@ -1,0 +1,15 @@
+
+This paper presents a dependency parsing
+system, presented as BASQUE TEAM at
+the SPMRL?2013 Shared Task, based on
+the analysis of each morphological feature
+of the languages. Once the specific rel-
+evance of each morphological feature is
+calculated, this system uses the most sig-
+nificant of them to create a series of ana-
+lyzers using two freely available and state
+of the art dependency parsers, MaltParser
+and Mate. Finally, the system will com-
+bine previously achieved parses using a
+voting approach.
+1 

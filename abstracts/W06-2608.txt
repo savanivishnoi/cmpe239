@@ -1,0 +1,28 @@
+
+In this paper we present a family of ker-
+nel functions, named Syntagmatic Ker-
+nels, which can be used to model syn-
+tagmatic relations. Syntagmatic relations
+hold among words that are typically collo-
+cated in a sequential order, and thus they
+can be acquired by analyzing word se-
+quences. In particular, Syntagmatic Ker-
+nels are defined by applying a Word Se-
+quence Kernel to the local contexts of the
+words to be analyzed. In addition, this
+approach allows us to define a semi su-
+pervised learning schema where external
+lexical knowledge is plugged into the su-
+pervised learning process. Lexical knowl-
+edge is acquired from both unlabeled data
+and hand-made lexical resources, such as
+WordNet. We evaluated the syntagmatic
+kernel on two standard Word Sense Dis-
+ambiguation tasks (i.e. English and Ital-
+ian lexical-sample tasks of Senseval-3),
+where the syntagmatic information plays
+a crucial role. We compared the Syntag-
+matic Kernel with the standard approach,
+showing promising improvements in per-
+formance.
+1 

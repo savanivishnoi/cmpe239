@@ -1,0 +1,20 @@
+ 
+Relation extraction is a fundamental 
+task in information extraction that 
+identifies the semantic relationships 
+between two entities in the text. In this 
+paper, a novel model based on Deep 
+Belief Network (DBN) is first 
+presented to detect and classify the 
+relations among Chinese entities. The 
+experiments conducted on the 
+Automatic Content Extraction (ACE) 
+2004 dataset demonstrate that the 
+proposed approach is effective in 
+handling high dimensional feature 
+space including character N-grams, 
+entity types and the position 
+information. It outperforms the state-
+of-the-art learning models such as 
+SVM or BP neutral network. 
+1 

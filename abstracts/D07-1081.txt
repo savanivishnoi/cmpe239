@@ -1,0 +1,31 @@
+
+In text categorization, term selection is an
+important step for the sake of both cate-
+gorization accuracy and computational ef-
+ficiency. Different dimensionalities are ex-
+pected under different practical resource re-
+strictions of time or space. Traditionally
+in text categorization, the same scoring or
+ranking criterion is adopted for all target
+dimensionalities, which considers both the
+discriminability and the coverage of a term,
+such as ?2 or IG. In this paper, the poor ac-
+curacy at a low dimensionality is imputed to
+the small average vector length of the docu-
+ments. Scalable term selection is proposed
+to optimize the term set at a given dimen-
+sionality according to an expected average
+vector length. Discriminability and cover-
+age are separately measured; by adjusting
+the ratio of their weights in a combined cri-
+terion, the expected average vector length
+can be reached, which means a good com-
+promise between the specificity and the ex-
+haustivity of the term subset. Experiments
+show that the accuracy is considerably im-
+proved at lower dimensionalities, and larger
+term subsets have the possibility to lower
+the average vector length for a lower com-
+putational cost. The interesting observations
+might inspire further investigations.
+1 

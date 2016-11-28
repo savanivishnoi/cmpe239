@@ -1,0 +1,23 @@
+ 
+This paper studies three techniques that 
+improve the quality of N-best hypotheses 
+through additional regeneration process. 
+Unlike the multi-system consensus ap-
+proach where multiple translation sys-
+tems are used, our improvement is 
+achieved through the expansion of the N-
+best hypotheses from a single system. We 
+explore three different methods to im-
+plement the regeneration process: re-
+decoding, n-gram expansion, and confu-
+sion network-based regeneration. Ex-
+periments on Chinese-to-English NIST 
+and IWSLT tasks show that all three 
+methods obtain consistent improvements. 
+Moreover, the combination of the three 
+strategies achieves further improvements 
+and outperforms the baseline by 0.81 
+BLEU-score on IWSLT?06, 0.57 on 
+NIST?03, 0.61 on NIST?05 test set re-
+spectively. 
+1 

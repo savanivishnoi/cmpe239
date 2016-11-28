@@ -1,0 +1,14 @@
+  
+This paper proposes a two-level model that integrates tense and aspect information, 
+based on theories by both Hornstein (in the spirit of Reichenbach) and Allen, with 
+lexicai-semantic nformation based on an extended version of $ackendoff's theory 
+that includes a verb classification system proposed by Dowty and Vendler. The 
+model is intended to be extensible to realms outside of the temporal domain (e.g., 
+the spatial domain). The integration of tense and aspect with lexical-semantics 
+is especially critical in machine translation because of the lexical selection process 
+during generation: there is often a number of lexical connective and tense/aspect 
+possibilities that may be produced from a lexical semantic representation, which, 
+as defined in the model presented here, is largely underspecified. The use of tense 
+and aspect information allows the choice of target-language t rms to be more finely 
+tuned and the combination of event structures to be more carefully constrained. 
+1 

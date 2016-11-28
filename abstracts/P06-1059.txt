@@ -1,0 +1,26 @@
+
+This paper presents techniques to apply
+semi-CRFs to Named Entity Recognition
+tasks with a tractable computational cost.
+Our framework can handle an NER task
+that has long named entities and many
+labels which increase the computational
+cost. To reduce the computational cost,
+we propose two techniques: the first is the
+use of feature forests, which enables us to
+pack feature-equivalent states, and the sec-
+ond is the introduction of a filtering pro-
+cess which significantly reduces the num-
+ber of candidate states. This framework
+allows us to use a rich set of features ex-
+tracted from the chunk-based representa-
+tion that can capture informative charac-
+teristics of entities. We also introduce a
+simple trick to transfer information about
+distant entities by embedding label infor-
+mation into non-entity labels. Experimen-
+tal results show that our model achieves an
+F-score of 71.48% on the JNLPBA 2004
+shared task without using any external re-
+sources or post-processing techniques.
+1 

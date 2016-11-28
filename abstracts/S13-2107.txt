@@ -1,0 +1,16 @@
+
+A drug-drug interaction (DDI) occurs when
+one drug affects the level or activity of another
+drug. Semeval 2013 DDI Extraction challenge
+is going to be held with the aim of identify-
+ing the state of the art relation extraction algo-
+rithms. In this paper we firstly review some of
+the existing approaches in relation extraction
+generally and biomedical relations especially.
+And secondly we will explain our SVM based
+approaches that use lexical, morphosyntactic
+and parse tree features. Our combination of
+sequence and tree kernels have shown promis-
+ing performance with a best result of 0.54 F1
+macroaverage on the test dataset.
+1 

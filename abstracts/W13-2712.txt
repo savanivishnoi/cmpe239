@@ -1,0 +1,16 @@
+ 
+We present current work dealing with the in-
+tegration of a multilingual thesaurus for so-
+cial sciences in a NLP framework for sup-
+porting Knowledge-Driven Information Ex-
+traction in the field of social sciences.  We 
+describe the various steps that lead to a run-
+ning IE system: lexicalization of the labels of 
+the thesaurus and semi-automatic generation 
+of domain specific IE grammars, with their 
+subsequent implementation in a finite state 
+engine. Finally, we outline the actual field of 
+application of the IE system: analysis of so-
+cial media for recognition of relevant topics 
+in the context of elections.   
+1 

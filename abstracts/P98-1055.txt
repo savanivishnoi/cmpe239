@@ -1,0 +1,36 @@
+ 
+This paper presents a practical foreign 
+language writing support ool which makes it 
+much easier to utilize dictionary and example 
+sentence resources. Like a Kana-Kanji 
+conversion front-end processor used to input 
+Japanese language text, this tool is also 
+implemented as a front-end processor and 
+can be combined with a wide variety of 
+applications. A morphological analyzer 
+automatically extracts key words from text as 
+it is being input into the tool, and these words 
+are used to locate information relevant to the 
+input text. This information is then 
+automatically displayed to the user. With this 
+tool, users can concentrate better on their 
+writing because much less interruption of 
+their work is required for the consulting of 
+dictionaries or for the retrieval of reference 
+sentences. Retrieval and display may be 
+conducted in any of three ways: 1) relevant 
+information is retrieved and displayed 
+automatically; 2) information is retrieved 
+automatically but displayed only on user 
+command; 3) information is both retrieved 
+and displayed only on user command. The 
+extent o which the retrieval and display of 
+information proceeds automatically depends 
+on the type of information being referenced; 
+this element of the design adds to system 
+efficiency. Further, by combining this tool 
+with a stepped-level interactive machine 
+translation function, we have created a PC 
+support ool to help Japanese people write in 
+English. 
+1. 

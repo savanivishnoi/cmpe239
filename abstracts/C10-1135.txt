@@ -1,0 +1,26 @@
+
+As tokenization is usually ambiguous for
+many natural languages such as Chinese
+and Korean, tokenization errors might po-
+tentially introduce translation mistakes for
+translation systems that rely on 1-best to-
+kenizations. While using lattices to of-
+fer more alternatives to translation sys-
+tems have elegantly alleviated this prob-
+lem, we take a further step to tokenize
+and translate jointly. Taking a sequence
+of atomic units that can be combined to
+form words in different ways as input, our
+joint decoder produces a tokenization on
+the source side and a translation on the
+target side simultaneously. By integrat-
+ing tokenization and translation features
+in a discriminative framework, our joint
+decoder outperforms the baseline trans-
+lation systems using 1-best tokenizations
+and lattices significantly on both Chinese-
+English and Korean-Chinese tasks. In-
+terestingly, as a tokenizer, our joint de-
+coder achieves significant improvements
+over monolingual Chinese tokenizers.
+1 

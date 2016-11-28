@@ -1,0 +1,17 @@
+
+In this paper, we present our approach to
+SemEval-2013 Task 9.2. It is a feature rich
+classification using LIBSVM for Drug-Drug
+Interactions detection in the BioMedical do-
+main. The features are extracted considering
+morphosyntactic, lexical and semantic con-
+cepts. Tools like openDMAP and TEES are
+used to extract semantic concepts from the
+corpus. The best F-score that we got for Drug-
+Drug Interaction (DDI) detection is 50% and
+61% and the best F-score for DDI detection
+and classification is 34% and 48% for test and
+development data respectively.
+Keywords: text mining, event extraction, ma-
+chine learning, feature extraction.
+1 

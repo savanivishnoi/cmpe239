@@ -1,0 +1,16 @@
+
+We apply a baseline approach to the
+CoNLL-2010 shared task data sets on
+hedge detection. Weights have been as-
+signed to cue words marked in the train-
+ing data based on their occurrences in
+certain and uncertain sentences. New
+sentences received scores that correspond
+with those of their best scoring cue word,
+if present. The best acceptance scores for
+uncertain sentences were determined us-
+ing 10-fold cross validation on the training
+data. This approach performed reasonably
+on the shared task?s biological (F=82.0)
+and Wikipedia (F=62.8) data sets.
+1 

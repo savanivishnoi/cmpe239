@@ -1,0 +1,22 @@
+
+The growing availability of multilingual resources,
+like EuroWordnet, has recently inspired the develop-
+ment of large scale linguistic technologies, e.g. mul-
+tilingual IE and Q&A, that were considered infeasi-
+ble until a few years ago. In this paper a system
+for categorisation and automatic authoring of news
+streams in different languages is presented. In our
+system, a knowledge-based approach to Information
+Extraction is adopted as a support for hyperlinking.
+Authoring across documents in different languages
+is triggered by Named Entities and event recogni-
+tion. The matching of events in texts is carried out
+by discourse processing driven by a large scale world
+model. This kind of multilingual analysis relies on a
+lexical knowledge base of nouns(i.e. the EuroWord-
+net Base Concepts) shared among English, Spanish
+and Italian lexicons. The impact of the design choices
+on the language independence and the possibilities it
+opens for automatic learning of the event hierarchy
+will be discussed.
+1 

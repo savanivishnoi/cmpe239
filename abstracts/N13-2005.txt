@@ -1,0 +1,19 @@
+
+Revealing an anonymous author?s traits from
+text is a well-researched area. In this paper we
+aim to identify the native language and lan-
+guage family of a non-native English author,
+given his/her English writings. We extract fea-
+tures from the text based on prior work, and
+extend or modify it to construct different fea-
+ture sets, and use support vector machines for
+classification. We show that native language
+identification accuracy can be improved by up
+to 6.43% for a 9-class task, depending on the
+feature set, by introducing a novel method to
+incorporate language family information. In
+addition we show that introducing grammar-
+based features improves accuracy of both na-
+tive language and language family identifica-
+tion.
+1 

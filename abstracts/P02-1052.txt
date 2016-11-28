@@ -1,0 +1,19 @@
+
+We describe an approach to improve the
+bilingual cooccurrence dictionary that is
+used for word alignment, and evaluate the
+improved dictionary using a version of
+the Competitive Linking algorithm. We
+demonstrate a problem faced by the Com-
+petitive Linking algorithm and present an
+approach to ameliorate it. In particular, we
+rebuild the bilingual dictionary by cluster-
+ing similar words in a language and as-
+signing them a higher cooccurrence score
+with a given word in the other language
+than each single word would have other-
+wise. Experimental results show a signifi-
+cant improvement in precision and recall
+for word alignment when the improved
+dicitonary is used.
+1 

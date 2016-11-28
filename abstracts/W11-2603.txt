@@ -1,0 +1,32 @@
+
+Small, manually assembled corpora may be avail-
+able for less dominant languages and dialects,
+but producing web-scale resources remains a chal-
+lenge. Even when considerable quantities of text
+are present on the web, finding this text, and distin-
+guishing it from related languages in the same region
+can be difficult. For example less dominant vari-
+ants of English (e.g. New Zealander, Singaporean,
+Canadian, Irish, South African) may be found under
+their respective national domains, but will be par-
+tially mixed with Englishes of the British and US
+varieties, perhaps through syndication of journalism,
+or the local reuse of text by multinational compa-
+nies. Less formal dialectal usage may be scattered
+more widely over the internet through mechanisms
+such as wiki or blog authoring. Here we automati-
+cally construct a corpus of Hiberno-English (English
+as spoken in Ireland) using a variety of methods: fil-
+tering by national domain, filtering by orthographic
+conventions, and bootstrapping from a set of Ireland-
+specific terms (slang, place names, organisations).
+We evaluate the national specificity of the resulting
+corpora by measuring the incidence of topical terms,
+and several grammatical constructions that are par-
+ticular to Hiberno-English. The results show that
+domain filtering is very effective for isolating text
+that is topic-specific, and orthographic classification
+can exclude some non-Irish texts, but that selected
+seeds are necessary to extract considerable quanti-
+ties of more informal, dialectal text.
+1 

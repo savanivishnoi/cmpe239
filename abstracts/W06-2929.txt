@@ -1,0 +1,14 @@
+
+We describe our entry in the CoNLL-X shared task.
+The system consists of three phases: a probabilistic
+vine parser (Eisner and N. Smith, 2005) that pro-
+duces unlabeled dependency trees, a probabilistic
+relation-labeling model, and a discriminative mini-
+mum risk reranker (D. Smith and Eisner, 2006). The
+system is designed for fast training and decoding and
+for high precision. We describe sources of cross-
+lingual error and ways to ameliorate them. We then
+provide a detailed error analysis of parses produced
+for sentences in German (much training data) and
+Arabic (little training data).
+1 

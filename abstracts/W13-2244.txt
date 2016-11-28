@@ -1,0 +1,21 @@
+
+This paper describes the TALP-UPC par-
+ticipation in the WMT?13 Shared Task
+on Quality Estimation (QE). Our partic-
+ipation is reduced to task 1.2 on System
+Selection. We used a broad set of fea-
+tures (86 for German-to-English and 97
+for English-to-Spanish) ranging from stan-
+dard QE features to features based on
+pseudo-references and semantic similarity.
+We approached system selection by means
+of pairwise ranking decisions. For that,
+we learned Random Forest classifiers es-
+pecially tailored for the problem. Evalua-
+tion at development time showed consider-
+ably good results in a cross-validation ex-
+periment, with Kendall?s ? values around
+0.30. The results on the test set dropped
+significantly, raising different discussions
+to be taken into account.
+1 

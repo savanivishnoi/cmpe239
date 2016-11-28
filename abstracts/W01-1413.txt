@@ -1,0 +1,17 @@
+
+We present a system for extracting an
+English translation of a given Japanese
+technical term by collecting and scor-
+ing translation candidates from the web.
+We first show that there are a lot of par-
+tially bilingual documents in the web
+that could be useful for term translation,
+discovered by using a commercial tech-
+nical term dictionary and an Internet
+search engine. We then present an al-
+gorithm for obtaining translation candi-
+dates based on the distance of Japanese
+and English terms in web documents,
+and report the results of a preliminary
+experiment.
+1 

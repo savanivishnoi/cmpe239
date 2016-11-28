@@ -1,0 +1,24 @@
+
+This paper presents a method for bootstrapping a
+fine-grained, broad-coverage part-of-speech (POS)
+tagger in a new language using only one person-
+day of data acquisition effort. It requires only three
+resources, which are currently readily available in
+60-100 world languages: (1) an online or hard-copy
+pocket-sized bilingual dictionary, (2) a basic library
+reference grammar, and (3) access to an existing
+monolingual text corpus in the language. The al-
+gorithm begins by inducing initial lexical POS dis-
+tributions from English translations in a bilingual
+dictionary without POS tags. It handles irregular,
+regular and semi-regular morphology through a ro-
+bust generative model using weighted Levenshtein
+alignments. Unsupervised induction of grammatical
+gender is performed via global modeling of context-
+window feature agreement. Using a combination of
+these and other evidence sources, interactive train-
+ing of context and lexical prior models are accom-
+plished for fine-grained POS tag spaces. Experi-
+ments show high accuracy, fine-grained tag resolu-
+tion with minimal new human effort.
+1 

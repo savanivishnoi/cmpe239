@@ -1,0 +1,18 @@
+
+This paper describes a new automatic method
+for Japanese predicate argument structure
+analysis. The method learns relevant features
+to assign case roles to the argument of the tar-
+get predicate using the features of the words
+located closest to the target predicate under
+various constraints such as dependency types,
+words, semantic categories, parts of speech,
+functional words and predicate voices. We
+constructed decision lists in which these fea-
+tures were sorted by their learned weights. Us-
+ing our method, we integrated the tasks of se-
+mantic role labeling and zero-pronoun iden-
+tification, and achieved a 17% improvement
+compared with a baseline method in a sen-
+tence level performance analysis.
+1 

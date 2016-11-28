@@ -1,0 +1,18 @@
+
+In this paper, we present a unigram segmen-
+tation model for statistical machine transla-
+tion where the segmentation units are blocks:
+pairs of phrases without internal structure. The
+segmentation model uses a novel orientation
+component to handle swapping of neighbor
+blocks. During training, we collect block un-
+igram counts with orientation: we count how
+often a block occurs to the left or to the right of
+some predecessor block. The orientation model
+is shown to improve translation performance
+over two models: 1) no block re-ordering is
+used, and 2) the block swapping is controlled
+only by a language model. We show exper-
+imental results on a standard Arabic-English
+translation task.
+1 

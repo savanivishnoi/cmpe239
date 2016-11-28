@@ -1,0 +1,17 @@
+
+Word sense disambiguation aims to identify
+which meaning of a word is present in a given
+usage. Gathering word sense annotations is a
+laborious and difficult task. Several methods
+have been proposed to gather sense annota-
+tions using large numbers of untrained anno-
+tators, with mixed results. We propose three
+new annotation methodologies for gathering
+word senses where untrained annotators are
+allowed to use multiple labels and weight the
+senses. Our findings show that given the ap-
+propriate annotation task, untrained workers
+can obtain at least as high agreement as anno-
+tators in a controlled setting, and in aggregate
+generate equally as good of a sense labeling.
+1 

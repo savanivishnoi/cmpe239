@@ -1,0 +1,20 @@
+ 
+This paper reports the present results of a 
+research on unsupervised Persian mor-
+pheme discovery. In this paper we pre-
+sent a method for discovering the mor-
+phemes of Persian language through 
+automatic analysis of corpora. We util-
+ized a Minimum Description Length 
+(MDL) based algorithm with some im-
+provements and applied it to Persian cor-
+pus. Our improvements include enhanc-
+ing the cost function using some heuris-
+tics, preventing the split of high fre-
+quency chunks, exploiting penalty for 
+first and last letters and distinguishing 
+pre-parts and post-parts. Our improved 
+approach has raised the precision, recall 
+and f-measure of discovery by respec-
+tively %32, %17 and %23. 
+1 

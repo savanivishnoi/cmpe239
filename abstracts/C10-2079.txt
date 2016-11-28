@@ -1,0 +1,35 @@
+
+The potential benefit of integrating con-
+textual information for recommendation
+has received much research attention re-
+cently, especially with the ever-increasing
+interest in mobile-based recommendation
+services. However, context based recom-
+mendation research is limited due to the
+lack of standard evaluation data with con-
+textual information and reliable technol-
+ogy for extracting such information. As
+a result, there are no widely accepted con-
+clusions on how, when and whether con-
+text helps. Additionally, a system of-
+ten suffers from the so called cold start
+problem due to the lack of data for train-
+ing the initial context based recommenda-
+tion model. This paper proposes a novel
+solution to address these problems with
+automated information extraction tech-
+niques. We also compare several ap-
+proaches for utilizing context based on
+a new data set collected using the pro-
+posed solution. The experimental results
+demonstrate that 1) IE-based techniques
+can help create a large scale context data
+with decent quality from online reviews,
+at least for restaurant recommendations;
+2) context helps recommender systems
+rank items, however, does not help pre-
+dict user ratings; 3) simply using context
+to filter items hurts recommendation per-
+formance, while a new probabilistic latent
+relational model we proposed helps.
+1 

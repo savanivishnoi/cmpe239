@@ -1,0 +1,25 @@
+
+Statistical approaches to automatic text sum-
+marization based on term frequency continue
+to perform on par with more complex sum-
+marization methods. To compute useful fre-
+quency statistics, however, the semantically
+important words must be separated from the
+low-content function words. The standard ap-
+proach of using an a priori stopword list tends
+to result in both undercoverage, where syn-
+tactical words are seen as semantically rele-
+vant, and overcoverage, where words related
+to content are ignored. We present a genera-
+tive probabilistic modeling approach to build-
+ing content distributions for use with statisti-
+cal multi-document summarization where the
+syntax words are learned directly from the
+data with a Hidden Markov Model and are
+thereby deemphasized in the term frequency
+statistics. This approach is compared to both a
+stopword-list and POS-tagging approach and
+our method demonstrates improved coverage
+on the DUC 2006 and TAC 2010 datasets us-
+ing the ROUGE metric.
+1 

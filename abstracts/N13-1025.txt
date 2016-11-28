@@ -1,0 +1,25 @@
+
+We introduce a new large-scale discrimina-
+tive learning algorithm for machine translation
+that is capable of learning parameters in mod-
+els with extremely sparse features. To ensure
+their reliable estimation and to prevent over-
+fitting, we use a two-phase learning algorithm.
+First, the contribution of individual sparse fea-
+tures is estimated using large amounts of par-
+allel data. Second, a small development cor-
+pus is used to determine the relative contri-
+butions of the sparse features and standard
+dense features. Not only does this two-phase
+learning approach prevent overfitting, the sec-
+ond pass optimizes corpus-level BLEU of the
+Viterbi translation of the decoder. We demon-
+strate significant improvements using sparse
+rule indicator features in three different trans-
+lation tasks. To our knowledge, this is the
+first large-scale discriminative training algo-
+rithm capable of showing improvements over
+the MERT baseline with only rule indicator
+features in addition to the standard MERT fea-
+tures.
+1 

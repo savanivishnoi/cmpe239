@@ -1,0 +1,16 @@
+
+This article introduces an unsupervised word
+sense disambiguation algorithm that is in-
+spired by the lexical attraction models of
+Yuret (1998). It is based on the assump-
+tion that the meanings of the words that
+form a sentence can be best assigned by con-
+structing an interpretation of the whole sen-
+tence. This interpretation is facilitated by
+a dependency-like context specification of
+a content word within the sentence. Thus,
+finding the context words of a target word
+is a matter of finding a pseudo-syntactic de-
+pendency analysis of the sentence, called a
+linkage.
+1 

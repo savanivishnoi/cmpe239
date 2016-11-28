@@ -1,0 +1,15 @@
+
+NLP tasks are often domain specific, yet sys-
+tems can learn behaviors across multiple do-
+mains. We develop a new multi-domain online
+learning framework based on parameter com-
+bination from multiple classifiers. Our algo-
+rithms draw from multi-task learning and do-
+main adaptation to adapt multiple source do-
+main classifiers to a new target domain, learn
+across multiple similar domains, and learn
+across a large number of disparate domains.
+We evaluate our algorithms on two popular
+NLP domain adaptation tasks: sentiment clas-
+sification and spam filtering.
+1 

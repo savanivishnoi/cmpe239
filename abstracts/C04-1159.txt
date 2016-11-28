@@ -1,0 +1,22 @@
+
+This paper describes a project to detect dependen-
+cies between Japanese phrasal units called bunsetsus,
+and sentence boundaries in a spontaneous speech
+corpus. In monologues, the biggest problem with de-
+pendency structure analysis is that sentence bound-
+aries are ambiguous. In this paper, we propose
+two methods for improving the accuracy of sentence
+boundary detection in spontaneous Japanese speech:
+One is based on statistical machine translation us-
+ing dependency information and the other is based
+on text chunking using SVM. An F-measure of 84.9
+was achieved for the accuracy of sentence bound-
+ary detection by using the proposed methods. The
+accuracy of dependency structure analysis was also
+improved from 75.2% to 77.2% by using automat-
+ically detected sentence boundaries. The accuracy
+of dependency structure analysis and that of sen-
+tence boundary detection were also improved by in-
+teractively using both automatically detected depen-
+dency structures and sentence boundaries.
+1 

@@ -1,0 +1,41 @@
+ 
+We describe the use of clinical data 
+present in the medical record to 
+determine the relevance of research 
+evidence from literature databases. 
+We studied the effect of using 
+automated knowledge approaches as 
+compared to physician?s selection of 
+articles, when using a traditional 
+information retrieval system. Three 
+methods were evaluated. The first 
+method identified terms and their 
+semantics and relationships in the 
+patient?s record to build a map of the 
+record, which was represented in 
+conceptual graph notation. This 
+approach was applied to data in an 
+individual?s medical record and used 
+to score citations retrieved using a 
+graph matching algorithm. The 
+second method identified associations 
+between terms in the medical record, 
+assigning them semantic types and 
+weights based on the co-occurrence of 
+these associations in citations of 
+biomedical literature. The method was 
+applied to data in an individual?s  
+medical record and used to score 
+citations. The last method combined 
+the first two. The results showed that 
+physicians agreed better with each 
+other than with the automated 
+methods. However, we found a 
+significant positive relation between 
+physicians? selection of abstracts and 
+two of the methods. We believe the 
+results encourage the use of clinical 
+data to determine the relevance of 
+medical literature to the care of 
+individual patients.  
+1 

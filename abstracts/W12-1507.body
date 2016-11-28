@@ -1,0 +1,21 @@
+
+While in Computer Science, grammar engi-
+neering has led to the development of various
+tools for checking grammar coherence, com-
+pletion, under- and over-generation, in Natu-
+ral Langage Processing, most approaches de-
+veloped to improve a grammar have focused
+on detecting under-generation and to a much
+lesser extent, over-generation. We argue that
+generation can be exploited to address other
+issues that are relevant to grammar engineer-
+ing such as in particular, detecting grammar
+incompleteness, identifying sources of over-
+generation and analysing the linguistic cover-
+age of the grammar. We present an algorithm
+that implements these functionalities and we
+report on experiments using this algorithm to
+analyse a Feature-Based Lexicalised Tree Ad-
+joining Grammar consisting of roughly 1500
+elementary trees.
+1 

@@ -1,0 +1,28 @@
+
+Lexical resources such as WordNet and
+VerbNet are widely used in a multitude
+of NLP tasks, as are annotated corpora
+such as treebanks. Often, the resources
+are used as-is, without question or exam-
+ination. This practice risks missing sig-
+nificant performance gains and even entire
+techniques.
+This paper addresses the importance of
+resource quality through the lens of a
+challenging NLP task: detecting selec-
+tional preference violations. We present
+DAVID, a simple, lexical resource-based
+preference violation detector. With as-
+is lexical resources, DAVID achieves an
+F1-measure of just 28.27%. When the
+resource entries and parser outputs for
+a small sample are corrected, however,
+the F1-measure on that sample jumps
+from 40% to 61.54%, and performance
+on other examples rises, suggesting that
+the algorithm becomes practical given re-
+fined resources. More broadly, this pa-
+per shows that resource quality matters
+tremendously, sometimes even more than
+algorithmic improvements.
+1 

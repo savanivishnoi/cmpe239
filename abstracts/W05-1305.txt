@@ -1,0 +1,23 @@
+
+We present a database of annotated
+biomedical text corpora merged into a
+portable data structure with uniform con-
+ventions. MedTag combines three cor-
+pora, MedPost, ABGene and GENETAG,
+within a common relational database data
+model. The GENETAG corpus has been
+modified to reflect new definitions of
+genes and proteins. The MedPost cor-
+pus has been updated to include 1,000
+additional sentences from the clinical
+medicine domain. All data have been up-
+dated with original MEDLINE text ex-
+cerpts, PubMed identifiers, and tokeniza-
+tion independence to facilitate data accu-
+racy, consistency and usability.
+The data are available in flat files along
+with software to facilitate loading the
+data into a relational SQL database
+from ftp://ftp.ncbi.nlm.nih.gov/pub/lsmith
+/MedTag/medtag.tar.gz.
+1 

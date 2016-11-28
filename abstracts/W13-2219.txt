@@ -1,0 +1,17 @@
+
+This paper describes OmnifluentTM Trans-
+late ? a state-of-the-art hybrid MT sys-
+tem capable of high-quality, high-speed
+translations of text and speech. The sys-
+tem participated in the English-to-French
+and Russian-to-English WMT evaluation
+tasks with competitive results. The
+features which contributed the most to
+high translation quality were training data
+sub-sampling methods, document-specific
+models, as well as rule-based morpholog-
+ical normalization for Russian. The latter
+improved the baseline Russian-to-English
+BLEU score from 30.1 to 31.3% on a held-
+out test set.
+1 

@@ -1,0 +1,19 @@
+ 
+This paper describes the name entity transli-
+teration system which we conducted for the 
+?NEWS2009 Machine Transliteration Shared 
+Task? (Li et al2009). We get the translitera-
+tion in Chinese from an English name with 
+three steps. We syllabify the English name 
+into a sequence of syllables by some rules, 
+and generate the most probable Pinyin se-
+quence with the mapping model of English 
+syllables to Pinyin (EP model), then we con-
+vert the Pinyin sequence into a Chinese cha-
+racter sequence with the mapping model of 
+Pinyin to characters (PC model). And we get 
+the final Chinese character sequence. Our 
+system achieves an ACC of 0.498 and a 
+Mean F-score of 0.786 in the official evalua-
+tion result. 
+1 

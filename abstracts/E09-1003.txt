@@ -1,0 +1,18 @@
+
+We present a simple and effective method
+for extracting parallel sentences from
+comparable corpora. We employ a sta-
+tistical machine translation (SMT) system
+built from small amounts of parallel texts
+to translate the source side of the non-
+parallel corpus. The target side texts are
+used, along with other corpora, in the lan-
+guage model of this SMT system. We
+then use information retrieval techniques
+and simple filters to create French/English
+parallel data from a comparable news cor-
+pora. We evaluate the quality of the ex-
+tracted data by showing that it signifi-
+cantly improves the performance of an
+SMT systems.
+1 

@@ -1,0 +1,14 @@
+
+We show that phrase structures in Penn Tree-
+bank style parses are not optimal for syntax-
+based machine translation. We exploit a se-
+ries of binarization methods to restructure
+the Penn Treebank style trees such that syn-
+tactified phrases smaller than Penn Treebank
+constituents can be acquired and exploited in
+translation. We find that by employing the
+EM algorithm for determining the binariza-
+tion of a parse tree among a set of alternative
+binarizations gives us the best translation re-
+sult.
+1 

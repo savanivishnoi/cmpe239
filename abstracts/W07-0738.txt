@@ -1,0 +1,22 @@
+
+Evaluation results recently reported by
+Callison-Burch et al (2006) and Koehn and
+Monz (2006), revealed that, in certain cases,
+the BLEU metric may not be a reliable MT
+quality indicator. This happens, for in-
+stance, when the systems under evaluation
+are based on different paradigms, and there-
+fore, do not share the same lexicon. The
+reason is that, while MT quality aspects are
+diverse, BLEU limits its scope to the lex-
+ical dimension. In this work, we suggest
+using metrics which take into account lin-
+guistic features at more abstract levels. We
+provide experimental results showing that
+metrics based on deeper linguistic informa-
+tion (syntactic/shallow-semantic) are able to
+produce more reliable system rankings than
+metrics based on lexical matching alone,
+specially when the systems under evaluation
+are of a different nature.
+1 

@@ -1,0 +1,23 @@
+
+We introduce tiered clustering, a mixture
+model capable of accounting for varying de-
+grees of shared (context-independent) fea-
+ture structure, and demonstrate its applicabil-
+ity to inferring distributed representations of
+word meaning. Common tasks in lexical se-
+mantics such as word relatedness or selec-
+tional preference can benefit from modeling
+such structure: Polysemous word usage is of-
+ten governed by some common background
+metaphoric usage (e.g. the senses of line or
+run), and likewise modeling the selectional
+preference of verbs relies on identifying com-
+monalities shared by their typical arguments.
+Tiered clustering can also be viewed as a form
+of soft feature selection, where features that do
+not contribute meaningfully to the clustering
+can be excluded. We demonstrate the applica-
+bility of tiered clustering, highlighting partic-
+ular cases where modeling shared structure is
+beneficial and where it can be detrimental.
+1 

@@ -1,0 +1,15 @@
+
+In the paper we describe a dependency
+parser that uses exact search and global
+learning (Crammer et al, 2006) to produce
+labelled dependency trees. Our system inte-
+grates the task of learning tree structure and
+learning labels in one step, using the same
+set of features for both tasks. During la-
+bel prediction, the system automatically se-
+lects for each feature an appropriate level
+of smoothing. We report on several exper-
+iments that we conducted with our system.
+In the shared task evaluation, it scored better
+than average.
+1 

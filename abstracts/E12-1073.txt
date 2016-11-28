@@ -1,0 +1,25 @@
+
+The task of paraphrase acquisition from re-
+lated sentences can be tackled by a variety
+of techniques making use of various types
+of knowledge. In this work, we make the
+hypothesis that their performance can be
+increased if candidate paraphrases can be
+validated using information that character-
+izes paraphrases independently of the set of
+techniques that proposed them. We imple-
+ment this as a bi-class classification prob-
+lem (i.e. paraphrase vs. not paraphrase),
+allowing any paraphrase acquisition tech-
+nique to be easily integrated into the com-
+bination system. We report experiments on
+two languages, English and French, with
+5 individual techniques on parallel mono-
+lingual parallel corpora obtained via multi-
+ple translation, and a large set of classifi-
+cation features including surface to contex-
+tual similarity measures. Relative improve-
+ments in F-measure close to 18% are ob-
+tained on both languages over the best per-
+forming techniques.
+1 

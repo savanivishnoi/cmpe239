@@ -1,0 +1,14 @@
+
+We present a system to translate natural language sentences to formulas in a formal or a knowl-
+edge representation language. Our system uses two inverse ?-calculus operators and using them can
+take as input the semantic representation of some words, phrases and sentences and from that de-
+rive the semantic representation of other words and phrases. Our inverse ? operator works on many
+formal languages including first order logic, database query languages and answer set programming.
+Our system uses a syntactic combinatorial categorial parser to parse natural language sentences and
+also to construct the semantic meaning of the sentences as directed by their parsing. The same parser
+is used for both. In addition to the inverse ?-calculus operators, our system uses a notion of gener-
+alization to learn semantic representation of words from the semantic representation of other words
+that are of the same category. Together with this, we use an existing statistical learning approach to
+assign weights to deal with multiple meanings of words. Our system produces improved results on
+standard corpora on natural language interfaces for robot command and control and database queries.
+1 

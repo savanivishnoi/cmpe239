@@ -1,0 +1,25 @@
+
+The pervasive ambiguity of language al-
+lows sentences that differ in just one lexi-
+cal item to have rather different inference
+patterns. This would be no problem if the
+different lexical items fell into clearly de-
+finable and easy to represent classes. But
+this is not the case. To draw the correct
+inferences we need to look how the refer-
+ents of the lexical items in the sentence (or
+broader context) interact in the described
+situation. Given that the knowledge our
+systems have of the represented situation
+will typically be incomplete, the classifica-
+tions we come up with can only be prob-
+abilistic. We illustrate this problem with
+an investigation of various inference pat-
+terns associated with predications of the
+form ?Verb from X to Y?, especially ?go
+from X to Y?. We characterize the vari-
+ous readings and make an initial proposal
+about how to create the lexical classes that
+will allow us to draw the correct inferences
+in the different cases.
+1 

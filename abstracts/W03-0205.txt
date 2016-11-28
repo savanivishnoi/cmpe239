@@ -1,0 +1,27 @@
+
+This paper describes preliminary work in ex-
+ploring the relative effectiveness of speech ver-
+sus text based tutoring. Most current tuto-
+rial dialogue systems are text based (Evens et
+al., 2001; Rose and Aleven, 2002; Zinn et
+al., 2002; Aleven et al, 2001; VanLehn et al,
+2002). However, prior studies have shown con-
+siderable benefits of tutoring through spoken
+interactions (Lemke, 1990; Chi et al, 1994;
+Hausmann and Chi, 2002). Thus, we are cur-
+rently developing a speech based dialogue sys-
+tem that uses a text based system for tutoring
+conceptual physics (VanLehn et al, 2002) as
+its ?back-end?. In order to explore the relative
+effectiveness between these two input modal-
+ities in our task domain, we have started by
+collecting parallel human-human tutoring cor-
+pora both for text based and speech based tu-
+toring. In both cases, students interact with the
+tutor through a web interface. We present here
+a comparison between the two on a number
+of features of dialogue that have been demon-
+strated to correlate reliably with learning gains
+with students interacting with the tutor using
+the text based interface (Rose? et al, submitted).
+1 

@@ -1,0 +1,13 @@
+
+While most work on parsing with PCFGs
+has focused on local correlations between
+tree configurations, we attempt to model
+non-local correlations using a finite mix-
+ture of PCFGs. A mixture grammar fit
+with the EM algorithm shows improve-
+ment over a single PCFG, both in parsing
+accuracy and in test data likelihood. We
+argue that this improvement comes from
+the learning of specialized grammars that
+capture non-local correlations.
+1 

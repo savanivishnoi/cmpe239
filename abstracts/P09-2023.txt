@@ -1,0 +1,21 @@
+
+Modeling of individual users is a promis-
+ing way of improving the performance of
+spoken dialogue systems deployed for the
+general public and utilized repeatedly. We
+define ?implicitly-supervised? ASR accu-
+racy per user on the basis of responses
+following the system?s explicit confirma-
+tions. We combine the estimated ASR ac-
+curacy with the user?s barge-in rate, which
+represents how well the user is accus-
+tomed to using the system, to predict in-
+terpretation errors in barge-in utterances.
+Experimental results showed that the es-
+timated ASR accuracy improved predic-
+tion performance. Since this ASR accu-
+racy and the barge-in rate are obtainable
+at runtime, they improve prediction perfor-
+mance without the need for manual label-
+ing.
+1 

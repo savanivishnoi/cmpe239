@@ -1,0 +1,19 @@
+
+Hyperedge replacement grammar (HRG)
+is a formalism for generating and trans-
+forming graphs that has potential appli-
+cations in natural language understand-
+ing and generation. A recognition al-
+gorithm due to Lautemann is known to
+be polynomial-time for graphs that are
+connected and of bounded degree. We
+present a more precise characterization of
+the algorithm?s complexity, an optimiza-
+tion analogous to binarization of context-
+free grammars, and some important im-
+plementation details, resulting in an algo-
+rithm that is practical for natural-language
+applications. The algorithm is part of Boli-
+nas, a new software toolkit for HRG pro-
+cessing.
+1 

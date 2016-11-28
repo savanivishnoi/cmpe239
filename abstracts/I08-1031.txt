@@ -1,0 +1,20 @@
+
+We propose a new method of selecting hy-
+potheses for machine transliteration. We
+generate a set of Chinese, Japanese, and Ko-
+rean transliteration hypotheses for a given
+English word. We then use the set of translit-
+eration hypotheses as a guide to finding rel-
+evant Web pages and mining contextual in-
+formation for the transliteration hypotheses
+from the Web page. Finally, we use the
+mined information for machine-learning al-
+gorithms including support vector machines
+and maximum entropy model designed to
+select the correct transliteration hypothesis.
+In our experiments, our proposed method
+based on Web mining consistently outper-
+formed systems based on simple Web counts
+used in previous work, regardless of the lan-
+guage.
+1 

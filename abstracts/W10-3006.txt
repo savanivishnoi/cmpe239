@@ -1,0 +1,16 @@
+
+In this paper we describe the machine
+learning systems that we submitted to the
+CoNLL-2010 Shared Task on Learning to
+Detect Hedges and Their Scope in Nat-
+ural Language Text. Task 1 on detect-
+ing uncertain information was performed
+by an SVM-based system to process the
+Wikipedia data and by a memory-based
+system to process the biological data.
+Task 2 on resolving in-sentence scopes of
+hedge cues, was performed by a memory-
+based system that relies on information
+from syntactic dependencies. This system
+scored the highest F1 (57.32) of Task 2.
+1 

@@ -1,0 +1,15 @@
+
+In this paper, we describe a method of automatic
+sentence alignment for building extracts from ab-
+stracts in automatic summarization research. Our
+method is based on two steps. First, we introduce
+the ?dependency tree path? (DTP). Next, we calcu-
+late the similarity between DTPs based on the ESK
+(Extended String Subsequence Kernel), which con-
+siders sequential patterns. By using these proce-
+dures, we can derive one-to-many or many-to-one
+correspondences among sentences. Experiments us-
+ing different similarity measures show that DTP
+consistently improves the alignment accuracy and
+that ESK gives the best performance.
+1 

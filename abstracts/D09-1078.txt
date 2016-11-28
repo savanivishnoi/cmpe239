@@ -1,0 +1,21 @@
+
+The recent availability of large corpora
+for training N-gram language models has
+shown the utility of models of higher or-
+der than just trigrams. In this paper, we
+investigate methods to control the increase
+in model size resulting from applying stan-
+dard methods at higher orders. We in-
+troduce significance-based N-gram selec-
+tion, which not only reduces model size,
+but also improves perplexity for several
+smoothing methods, including Katz back-
+off and absolute discounting. We also
+show that, when combined with a new
+smoothing method and a novel variant of
+weighted-difference pruning, our selection
+method performs better in the trade-off be-
+tween model size and perplexity than the
+best pruning method we found for modi-
+fied Kneser-Ney smoothing.
+1 

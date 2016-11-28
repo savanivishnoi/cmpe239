@@ -1,0 +1,25 @@
+
+In a language generation system, a
+content planner embodies one or more
+?plans? that are usually hand?crafted,
+sometimes through manual analysis of
+target text. In this paper, we present a
+system that we developed to automati-
+cally learn elements of a plan and the
+ordering constraints among them. As
+training data, we use semantically an-
+notated transcripts of domain experts
+performing the task our system is de-
+signed to mimic. Given the large degree
+of variation in the spoken language of
+the transcripts, we developed a novel al-
+gorithm to find parallels between tran-
+scripts based on techniques used in
+computational genomics. Our proposed
+methodology was evaluated two?fold:
+the learning and generalization capabil-
+ities were quantitatively evaluated us-
+ing cross validation obtaining a level of
+accuracy of 89%. A qualitative evalua-
+tion is also provided.
+1 

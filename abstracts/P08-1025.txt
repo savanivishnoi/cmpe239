@@ -1,0 +1,17 @@
+
+We take a multi-pass approach to ma-
+chine translation decoding when using syn-
+chronous context-free grammars as the trans-
+lation model and n-gram language models:
+the first pass uses a bigram language model,
+and the resulting parse forest is used in the
+second pass to guide search with a trigram lan-
+guage model. The trigram pass closes most
+of the performance gap between a bigram de-
+coder and a much slower trigram decoder, but
+takes time that is insignificant in comparison
+to the bigram pass. An additional fast de-
+coding pass maximizing the expected count
+of correct translation hypotheses increases the
+BLEU score significantly.
+1 

@@ -1,0 +1,16 @@
+
+This paper describes our system for the Se-
+meval 2012 Sentence Textual Similarity task.
+The system is based on a combination of few
+simple vector space-based methods for word
+meaning similarity. Evaluation results show
+that a simple combination of these unsuper-
+vised data-driven methods can be quite suc-
+cessful. The simple vector space components
+achieve high performance on short sentences;
+on longer, more complex sentences, they are
+outperformed by a surprisingly competitive
+word overlap baseline, but they still bring im-
+provements over this baseline when incorpo-
+rated into a mixture model.
+1 

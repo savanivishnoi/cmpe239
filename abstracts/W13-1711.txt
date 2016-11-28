@@ -1,0 +1,15 @@
+
+This paper describes the system developed
+for the NLI 2013 Shared Task, requiring
+to identify a writer?s native language by
+some text written in English. I explore the
+given manually annotated data using word
+features such as the length, endings and
+character trigrams. Furthermore, I em-
+ploy k-NN classification. Modified TFIDF
+is used to generate a stop-word list auto-
+matically. The distance between two docu-
+ments is calculated combining n-grams of
+word lengths and endings, and character
+trigrams.
+1 

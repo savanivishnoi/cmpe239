@@ -1,0 +1,20 @@
+
+This article discusses the detection of dis-
+course markers (DM) in dialog transcriptions,
+by human annotators and by automated
+means. After a theoretical discussion of the
+definition of DMs and their relevance to natu-
+ral language processing, we focus on the role
+of like as a DM. Results from experiments
+with human annotators show that detection of
+DMs is a difficult but reliable task, which re-
+quires prosodic information from soundtracks.
+Then, several types of features are defined for
+automatic disambiguation of like: colloca-
+tions, part-of-speech tags and duration-based
+features. Decision-tree learning shows that for
+like, nearly 70% precision can be reached,
+with near 100% recall, mainly using colloca-
+tion filters. Similar results hold for well, with
+about 91% precision at 100% recall.
+1 

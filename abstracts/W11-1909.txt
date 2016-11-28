@@ -1,0 +1,18 @@
+
+The paper presents a system for the CoNLL-
+2011 share task of coreference resolution. The
+system composes of two components: one for
+mentions detection and another one for their
+coreference resolution. For mentions detec-
+tion, we adopted a number of heuristic rules
+from syntactic parse tree perspective. For
+coreference resolution, we apply SVM by ex-
+ploiting multiple syntactic and semantic fea-
+tures. The experiments on the CoNLL-2011
+corpus show that our rule-based mention iden-
+tification system obtains a recall of 87.69%,
+and the best result of the SVM-based corefer-
+ence resolution system is an average F-score
+50.92% of the MUC, B-CUBED and CEAFE
+metrics.
+1 

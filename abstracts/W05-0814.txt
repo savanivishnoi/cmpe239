@@ -1,0 +1,13 @@
+
+We discuss results on the shared task of
+Romanian-English word alignment. The
+baseline technique is that of symmetrizing
+two word alignments automatically gener-
+ated using IBM Model 4. A simple vo-
+cabulary reduction technique results in an
+improvement in performance. We also
+report on a new alignment model and a
+new training algorithm based on alternat-
+ing maximization of likelihood with mini-
+mization of error rate.
+1 

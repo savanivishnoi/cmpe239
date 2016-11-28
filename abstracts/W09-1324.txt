@@ -1,0 +1,19 @@
+ 
+With the rapidly growing use of electronic 
+health records, the possibility of large-scale 
+clinical information extraction has drawn 
+much attention. It is not, however, easy to ex-
+tract information because these reports are 
+written in natural language. To address this 
+problem, this paper presents a system that 
+converts a medical text into a table structure. 
+This system?s core technologies are (1) medi-
+cal event recognition modules and (2) a nega-
+tive event identification module that judges 
+whether an event actually occurred or not. 
+Regarding the latter module, this paper also 
+proposes an SVM-based classifier using syn-
+tactic information. Experimental results dem-
+onstrate empirically that syntactic information 
+can contribute to the method?s accuracy. 
+1 

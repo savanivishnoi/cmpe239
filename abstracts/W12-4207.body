@@ -1,0 +1,21 @@
+
+In Statistical Machine Translation, reorder-
+ing rules have proved useful in extracting
+bilingual phrases and in decoding during
+translation between languages that are struc-
+turally different. Linguistically motivated
+rules have been incorporated into Chinese-
+to-English (Wang et al., 2007) and English-
+to-Japanese (Isozaki et al., 2010b) transla-
+tion with significant gains to the statistical
+translation system. Here, we carry out a lin-
+guistic analysis of the Chinese-to-Japanese
+translation problem and propose one of the
+first reordering rules for this language pair.
+Experimental results show substantially im-
+provements (from 20.70 to 23.17 BLEU)
+when head-finalization rules based on HPSG
+parses are used, and further gains (to 24.14
+BLEU) were obtained using more refined
+rules.
+1 

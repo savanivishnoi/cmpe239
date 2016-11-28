@@ -1,0 +1,24 @@
+
+Distributional approaches to grammar in-
+duction are typically inefficient, enumer-
+ating large numbers of candidate con-
+stituents. In this paper, we describe a
+simplified model of distributional analy-
+sis which uses heuristics to reduce the
+number of candidate constituents under
+consideration. We apply this model to
+a large corpus of over 400000 words of
+written English, and evaluate the results
+using EVALB. We show that the perfor-
+mance of this approach is limited, provid-
+ing a detailed analysis of learned structure
+and a comparison with actual constituent-
+context distributions. This motivates a
+more structured approach, using a process
+of attachment to form constituents from
+their distributional components. Our find-
+ings suggest that distributional methods
+do not generalize enough to learn syntax
+effectively from raw text, but that attach-
+ment methods are more successful.
+1 

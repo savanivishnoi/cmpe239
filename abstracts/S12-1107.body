@@ -1,0 +1,22 @@
+
+There are relatively few entailment heuristics
+that exploit the directional nature of the entail-
+ment relation. Cross-Lingual Text Entailment
+(CLTE), besides introducing the extra dimen-
+sion of cross-linguality, also requires to de-
+termine the exact direction of the entailment
+relation, to provide content synchronization
+(Negri et al., 2012). Our system uses sim-
+ple dictionary lookup combined with heuris-
+tic conditions to determine the possible di-
+rections of entailment between the two texts
+written in different languages. The key mem-
+bers of the conditions were derived from (Cor-
+ley and Mihalcea, 2005) formula initially for
+text similarity, while the entailment condition
+used as a starting point was that from (Tatar
+et al., 2009). We show the results obtained
+by our implementation of this simple and fast
+approach at the CLTE task from the SemEval-
+2012 challenge.
+1 

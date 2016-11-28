@@ -1,0 +1,21 @@
+
+We investigate why weights from generative mod-
+els underperform heuristic estimates in phrase-
+based machine translation. We first propose a sim-
+ple generative, phrase-based model and verify that
+its estimates are inferior to those given by surface
+statistics. The performance gap stems primarily
+from the addition of a hidden segmentation vari-
+able, which increases the capacity for overfitting
+during maximum likelihood training with EM. In
+particular, while word level models benefit greatly
+from re-estimation, phrase-level models do not: the
+crucial difference is that distinct word alignments
+cannot all be correct, while distinct segmentations
+can. Alternate segmentations rather than alternate
+alignments compete, resulting in increased deter-
+minization of the phrase table, decreased general-
+ization, and decreased final BLEU score. We also
+show that interpolation of the two methods can re-
+sult in a modest increase in BLEU score.
+1 

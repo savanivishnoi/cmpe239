@@ -1,0 +1,20 @@
+
+In this paper, we present a novel ap-
+proach for Hindi Named Entity Identifica-
+tion (NEI) in a large corpus. The key idea
+is to harness the global distributional char-
+acteristics of the words in the corpus. We
+show that combining the global distribu-
+tional characteristics along with the local
+context information improves the NEI per-
+formance over statistical baseline systems
+that employ only local context. The im-
+provement is very significant (about 10%)
+in scenarios where the test and train cor-
+pus belong to different genres. We also
+propose a novel measure for NEI based
+on term informativeness and show that it
+is competitive with the best measure and
+better than other well known information
+measures.
+1 

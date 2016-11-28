@@ -1,0 +1,21 @@
+
+This paper investigates automatic identi-
+fication of Information Structure (IS) in
+texts. The experiments use the Prague
+Dependency Treebank which is annotated
+with IS following the Praguian approach
+of Topic Focus Articulation. We auto-
+matically detect t(opic) and f(ocus), us-
+ing node attributes from the treebank as
+basic features and derived features in-
+spired by the annotation guidelines. We
+present the performance of decision trees
+(C4.5), maximum entropy, and rule in-
+duction (RIPPER) classifiers on all tec-
+togrammatical nodes. We compare the re-
+sults against a baseline system that always
+assigns f(ocus) and against a rule-based
+system. The best system achieves an ac-
+curacy of 90.69%, which is a 44.73% im-
+provement over the baseline (62.66%).
+1 

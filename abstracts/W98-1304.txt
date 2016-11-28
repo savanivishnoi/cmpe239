@@ -1,0 +1,8 @@
+ .  Recent approaches to statistical parsing include those that estimate an approxi- 
+mation of a stochastic, lexicalised gr~mm~x directly from a treebank and others that rebuild 
+trees with a number of trse-coustructing operators, which are applied in order according 
+to a stochastic model when parsing a sentence. In this paper we take an ehtirely di~erent 
+approach to statistical parsing, as we propose a method for parsing using a Hidden Markov 
+Model. We describe the stochastic model and the tree construction procedure, and we report 
+results on the Wall Street Journal Corpus. 
+1 

@@ -1,0 +1,14 @@
+
+We present TESLA-M and TESLA, two
+novel automatic machine translation eval-
+uation metrics with state-of-the-art perfor-
+mances. TESLA-M builds on the suc-
+cess of METEOR and MaxSim, but em-
+ploys a more expressive linear program-
+ming framework. TESLA further exploits
+parallel texts to build a shallow seman-
+tic representation. We evaluate both on
+the WMT 2009 shared evaluation task and
+show that they outperform all participating
+systems in most tasks.
+1 

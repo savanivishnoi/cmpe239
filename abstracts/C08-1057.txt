@@ -1,0 +1,17 @@
+
+We conduct large-scale experiments to in-
+vestigate optimal features for classification
+of verbs in biomedical texts. We intro-
+duce a range of feature sets and associated
+extraction techniques, and evaluate them
+thoroughly using a robust method new to
+the task: cost-based framework for pair-
+wise clustering. Our best results compare
+favourably with earlier ones. Interestingly,
+they are obtained with sophisticated fea-
+ture sets which include lexical and seman-
+tic information about selectional prefer-
+ences of verbs. The latter are acquired au-
+tomatically from corpus data using a fully
+unsupervised method.
+1 

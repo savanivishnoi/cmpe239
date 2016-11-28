@@ -1,0 +1,16 @@
+
+In this work, we study the effectiveness of
+state-of-the-art, sophisticated supervised
+learning algorithms for dialogue act mod-
+eling across a comprehensive set of differ-
+ent spoken and written conversations in-
+cluding: emails, forums, meetings, and
+phone conversations. To this aim, we com-
+pare the results of SVM-multiclass and
+two structured predictors namely SVM-
+hmm and CRF algorithms. Extensive em-
+pirical results, across different conversa-
+tional modalities, demonstrate the effec-
+tiveness of our SVM-hmm model for di-
+alogue act recognition in conversations.
+1 

@@ -1,0 +1,33 @@
+
+In human?computer interaction sys-
+tems using natural language, the
+recognition of the topic from user?s
+utterances is an important task. We
+examine two different perspectives
+to the problem of topic analysis
+needed for carrying out a success-
+ful dialogue. First, we apply self-
+organized document maps for mod-
+eling the broader subject of dis-
+course based on the occurrence of
+content words in the dialogue con-
+text. On a Finnish corpus of 57
+dialogues the method is shown to
+work well for recognizing subjects of
+longer dialogue segments, whereas
+for individual utterances the sub-
+ject recognition history should per-
+haps be taken into account. Sec-
+ond, we attempt to identify topically
+relevant words in the utterances
+and thus locate the old information
+(?topic words?) and new information
+(?focus words?). For this we define a
+probabilistic model and compare dif-
+ferent methods for model parameter
+estimation on a corpus of 189 dia-
+logues. Moreover, the utilization of
+information regarding the position
+of the word in the utterance is found
+to improve the results.
+1 

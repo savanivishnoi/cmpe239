@@ -1,0 +1,21 @@
+
+We present a novel approach to natural lan-
+guage generation (NLG) that applies hierar-
+chical reinforcement learning to text genera-
+tion in the wayfinding domain. Our approach
+aims to optimise the integration of NLG tasks
+that are inherently different in nature, such
+as decisions of content selection, text struc-
+ture, user modelling, referring expression gen-
+eration (REG), and surface realisation. It
+also aims to capture existing interdependen-
+cies between these areas. We apply hierar-
+chical reinforcement learning to learn a gen-
+eration policy that captures these interdepen-
+dencies, and that can be transferred to other
+NLG tasks. Our experimental results?in a
+simulated environment?show that the learnt
+wayfinding policy outperforms a baseline pol-
+icy that takes reasonable actions but without
+optimization.
+1 

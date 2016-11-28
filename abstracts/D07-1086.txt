@@ -1,0 +1,23 @@
+
+Query segmentation is the process of tak-
+ing a user?s search-engine query and di-
+viding the tokens into individual phrases
+or semantic units. Identification of these
+query segments can potentially improve
+both document-retrieval precision, by first
+returning pages which contain the exact
+query segments, and document-retrieval re-
+call, by allowing query expansion or substi-
+tution via the segmented units. We train and
+evaluate a machine-learned query segmenta-
+tion system that achieves 86% segmentation-
+decision accuracy on a gold standard set of
+segmented noun phrase queries, well above
+recently published approaches. Key en-
+ablers of this high performance are features
+derived from previous natural language pro-
+cessing work in noun compound bracketing.
+For example, token association features be-
+yond simple N-gram counts provide power-
+ful indicators of segmentation.
+1 

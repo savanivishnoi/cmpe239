@@ -1,0 +1,27 @@
+ 
+A dialogue based Question Answering 
+(QA) system for Railway information in 
+Telugu has been described. Telugu is an 
+important language in India belonging to 
+the Dravidian family. The main compo-
+nent of our QA system is the Dialogue 
+Manager (DM), to handle the dialogues 
+between user and system. It is necessary 
+in generating dialogue for clarifying par-
+tially understood questions, resolving 
+Anaphora and Co-reference problems. 
+Besides, different modules have been de-
+veloped for processing the query and its 
+translation into formal database query 
+language statement(s). Based on the re-
+sult from the database, a natural language 
+answer is generated. The empirical re-
+sults obtained on the current system are 
+encouraging. Testing with a set of ques-
+tions in Railway domain, the QA system 
+showed 96.34% of precision and 83.96% 
+of dialogue success rate. Such a question 
+answering system can be effectively util-
+ized when integrated with a speech input 
+and speech output system. 
+1 

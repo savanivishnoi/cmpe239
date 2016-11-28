@@ -1,0 +1,19 @@
+
+We present an approach to pronunciation mod-
+eling in which the evolution of multiple lin-
+guistic feature streams is explicitly represented.
+This differs from phone-based models in that
+pronunciation variation is viewed as the result
+of feature asynchrony and changes in feature
+values, rather than phone substitutions, inser-
+tions, and deletions. We have implemented a
+flexible feature-based pronunciation model us-
+ing dynamic Bayesian networks. In this paper,
+we describe our approach and report on a pilot
+experiment using phonetic transcriptions of ut-
+terances from the Switchboard corpus. The ex-
+perimental results, as well as the model?s quali-
+tative behavior, suggest that this is a promising
+way of accounting for the types of pronuncia-
+tion variation often seen in spontaneous speech.
+1 

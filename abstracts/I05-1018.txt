@@ -1,0 +1,11 @@
+. This paper describes a method of adapting a domain-inde-
+pendent HPSG parser to a biomedical domain. Without modifying the
+grammar and the probabilistic model of the original HPSG parser, we
+develop a log-linear model with additional features on a treebank of the
+biomedical domain. Since the treebank of the target domain is limited, we
+need to exploit an original disambiguation model that was trained on a
+larger treebank. Our model incorporates the original model as a reference
+probabilistic distribution. The experimental results for our model trained
+with a small amount of a treebank demonstrated an improvement in
+parsing accuracy.
+1 

@@ -1,0 +1,19 @@
+
+A standard architecture for an NLG system has
+been defined in (Reiter and Dale, 2000). Their
+work describes the modularization of an NLG
+system and the tasks of each module. How-
+ever, they do not indicate what kind of tools can
+be used by each module. Nevertheless, we be-
+lieve that certain tools widely used by the AI or
+NLU community are appropriate for NLG tasks.
+This paper presents a complete integrated NLG
+system which uses a Description logic for the
+content determination module, Segmented Dis-
+course Representation Theory for the document
+structuring module and a lexicalized formalism
+for the tactical component. The NLG system,
+which takes into account a user model, is illus-
+trated with a generator which produces texts
+explaining the steps taken by a proof assistant.
+1 

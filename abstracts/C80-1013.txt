@@ -1,0 +1,15 @@
+ 
+This paper attempts to systematize natural 
+language analysis process by (I) use of a 
+partitioned semantic network formalism as the 
+meaning representation and (2) stepwise 
+translation based on Montague Grammar. The 
+meaning representation is obtained in two steps. 
+The first step translates natural language into 
+logical expression. The second step interprets 
+logical expression to generate network 
+structure. We have implemented set of programs 
+which performs the stepwise translation. 
+Experiments are in progress for machine 
+translation and question answering. 
+i. 

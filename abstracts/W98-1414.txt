@@ -1,0 +1,16 @@
+ 
+Manfred Stede t
+Technische Universit~t Berlin 
+Projektgruppe KIT 
+In text, discourse markers ignal the kind of coherence r lation holding between adjacent text 
+spans; for example, because, since; and for this reason are different markers for causal relations. 
+For  any but the most simple applications of text generation, marker Selection is an important 
+aspect of producing cohesive text. However, present systems use markers in fairly simplistic ways 
+andcannot make use of the full potential of markers that language offers for a given relation. 
+? To improve this situation, we propose a specialized lexicon for discourse markers, which holds 
+the relevant constraints and preferences a sociated with the markers, and which can be used by 
+a text generator to make an informed choice among alternative ways of expressing a relation 
+in the given context, we demonstrate how .the lexicon can be employed in the generation 
+? process and propose to perform discourse marker choice in the sentence planning stage, where 
+the interactions with other generation? decisions can be accounted for. 
+1 

@@ -1,0 +1,24 @@
+
+The extension to new languages is a well
+known bottleneck for rule-based systems.
+Considerable human effort, which typi-
+cally consists in re-writing from scratch
+huge amounts of rules, is in fact required
+to transfer the knowledge available to the
+system from one language to a new one.
+Provided sufficient annotated data, ma-
+chine learning algorithms allow to mini-
+mize the costs of such knowledge trans-
+fer but, up to date, proved to be ineffec-
+tive for some specific tasks. Among these,
+the recognition and normalization of tem-
+poral expressions still remains out of their
+reach. Focusing on this task, and still ad-
+hering to the rule-based framework, this
+paper presents a bunch of experiments on
+the automatic porting to Italian of a system
+originally developed for Spanish. Differ-
+ent automatic rule translation strategies are
+evaluated and discussed, providing a com-
+prehensive overview of the challenge.
+1 

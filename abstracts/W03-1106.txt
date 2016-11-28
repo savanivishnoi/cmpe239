@@ -1,0 +1,25 @@
+
+We present a simple approach for Asian
+language text classification without word
+segmentation, based on statistical  -gram
+language modeling. In particular, we ex-
+amine Chinese and Japanese text classi-
+fication. With character  -gram models,
+our approach avoids word segmentation.
+However, unlike traditional ad hoc  -gram
+models, the statistical language model-
+ing based approach has strong informa-
+tion theoretic basis and avoids explicit fea-
+ture selection procedure which potentially
+loses significantly amount of useful infor-
+mation. We systematically study the key
+factors in language modeling and their in-
+fluence on classification. Experiments on
+Chinese TREC and Japanese NTCIR topic
+detection show that the simple approach
+can achieve better performance compared
+to traditional approaches while avoiding
+word segmentation, which demonstrates
+its superiority in Asian language text clas-
+sification.
+1 

@@ -1,0 +1,16 @@
+
+We present a nonparametric Bayesian model
+of tree structures based on the hierarchical
+Dirichlet process (HDP). Our HDP-PCFG
+model allows the complexity of the grammar
+to grow as more training data is available.
+In addition to presenting a fully Bayesian
+model for the PCFG, we also develop an ef-
+ficient variational inference procedure. On
+synthetic data, we recover the correct gram-
+mar without having to specify its complex-
+ity in advance. We also show that our tech-
+niques can be applied to full-scale parsing
+applications by demonstrating its effective-
+ness in learning state-split grammars.
+1 

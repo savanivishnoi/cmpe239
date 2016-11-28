@@ -1,0 +1,25 @@
+
+In this paper, we explore a novel bilin-
+gual word alignment approach based on
+DNN (Deep Neural Network), which has
+been proven to be very effective in var-
+ious machine learning tasks (Collobert
+et al, 2011). We describe in detail
+how we adapt and extend the CD-DNN-
+HMM (Dahl et al, 2012) method intro-
+duced in speech recognition to the HMM-
+based word alignment model, in which
+bilingual word embedding is discrimina-
+tively learnt to capture lexical translation
+information, and surrounding words are
+leveraged to model context information
+in bilingual sentences. While being ca-
+pable to model the rich bilingual corre-
+spondence, our method generates a very
+compact model with much fewer parame-
+ters. Experiments on a large scale English-
+Chinese word alignment task show that the
+proposed method outperforms the HMM
+and IBM model 4 baselines by 2 points in
+F-score.
+1 

@@ -1,0 +1,20 @@
+. We implement a variant of the algorithm described by
+Yarowsky and Ngai in [21] to induce an HMM POS tagger for an ar-
+bitrary target language using only an existing POS tagger for a source
+language and an unannotated parallel corpus between the source and tar-
+get languages. We extend this work by projecting from multiple source
+languages onto a single target language. We hypothesize that systematic
+transfer errors from differing source languages will cancel out, improving
+the quality of bootstrapped resources in the target language. Our exper-
+iments confirm the hypothesis. Each experiment compares three cases:
+(a) source data comes from a single language A, (b) source data comes
+from a single language B, and (c) source data comes from both A and B,
+but half as much from each. Apart from the source language, other condi-
+tions are held constant in all three cases ? including the total amount of
+source data used. The null hypothesis is that performance in the mixed
+case would be an average of performance in the single-language cases,
+but in fact, mixed-case performance always exceeds the maximum of
+the single-language cases. We observed this effect in all six experiments
+we ran, involving three different source-language pairs and two different
+target languages.
+1 

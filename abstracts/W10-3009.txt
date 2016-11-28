@@ -1,0 +1,42 @@
+
+RelHunter is a Machine Learning based
+method for the extraction of structured in-
+formation from text. Here, we apply Rel-
+Hunter to the Hedge Detection task, pro-
+posed as the CoNLL-2010 Shared Task1.
+RelHunter?s key design idea is to model
+the target structures as a relation over enti-
+ties. The method decomposes the original
+task into three subtasks: (i) Entity Iden-
+tification; (ii) Candidate Relation Gener-
+ation; and (iii) Relation Recognition. In
+the Hedge Detection task, we define three
+types of entities: cue chunk, start scope
+token and end scope token. Hence, the
+Entity Identification subtask is further de-
+composed into three token classification
+subtasks, one for each entity type. In
+the Candidate Relation Generation sub-
+task, we apply a simple procedure to gen-
+erate a ternary candidate relation. Each in-
+stance in this relation represents a hedge
+candidate composed by a cue chunk, a
+start scope token and an end scope to-
+ken. For the Relation Recognition sub-
+task, we use a binary classifier to discrim-
+inate between true and false candidates.
+The four classifiers are trained with the
+Entropy Guided Transformation Learning
+algorithm. When compared to the other
+hedge detection systems of the CoNLL
+shared task, our scheme shows a competi-
+tive performance. The F -score of our sys-
+tem is 54.05 on the evaluation corpus.
+? This work is partially funded by CNPq and FAPERJ
+grants 557.128/2009-9 and E-26/170028/2008.
+? Holds a CNPq doctoral fellowship and has financial
+support from IFG, Brazil.
+?Holds a CAPES doctoral fellowship.
+?Holds a CNPq research fellowship.
+1Closed Task 2: detection of hedge cues and their scopes.
+1 

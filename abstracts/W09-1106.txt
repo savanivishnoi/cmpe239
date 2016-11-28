@@ -1,0 +1,18 @@
+
+The combination of Support Vector Machines
+with very high dimensional kernels, such as
+string or tree kernels, suffers from two ma-
+jor drawbacks: first, the implicit representa-
+tion of feature spaces does not allow us to un-
+derstand which features actually triggered the
+generalization; second, the resulting compu-
+tational burden may in some cases render un-
+feasible to use large data sets for training. We
+propose an approach based on feature space
+reverse engineering to tackle both problems.
+Our experiments with Tree Kernels on a Se-
+mantic Role Labeling data set show that the
+proposed approach can drastically reduce the
+computational footprint while yielding almost
+unaffected accuracy.
+1 

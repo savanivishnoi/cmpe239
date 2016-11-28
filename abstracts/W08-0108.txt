@@ -1,0 +1,24 @@
+ 
+Grammar-based approaches to spoken lan-
+guage understanding are utilized to a great ex-
+tent in industry, particularly when developers 
+are confronted with data sparsity. In order to 
+ensure wide grammar coverage, developers 
+typically modify their grammars in an itera-
+tive process of deploying the application, col-
+lecting and transcribing user utterances, and 
+adjusting the grammar. In this paper, we ex-
+plore enhancing this iterative process by leve-
+raging active learning with back-off 
+grammars. Because the back-off grammars 
+expand coverage of user utterances, develop-
+ers have a safety net for deploying applica-
+tions earlier. Furthermore, the statistics related 
+to the back-off can be used for active learning, 
+thus reducing the effort and cost of data tran-
+scription. In experiments conducted on a 
+commercially deployed application, the ap-
+proach achieved levels of semantic accuracy 
+comparable to transcribing all failed utter-
+ances with 87% less transcriptions. 
+1 

@@ -1,0 +1,23 @@
+ 
+Medical concepts in clinical reports can be 
+found with a high degree of variability of ex-
+pression. Normalizing medical concepts to 
+standardized vocabularies is a common way 
+of accounting for this variability. One of the 
+challenges in medical concept normalization 
+is the difficulty in comparing two concepts 
+which are orthographically different in repre-
+sentation but are identical in meaning. In this 
+work we describe a method to compare medi-
+cal phrases by utilizing the information found 
+in syntactic dependencies. We collected a 
+large corpus of radiology reports from our 
+university medical center. A shallow semantic 
+parser was used to identify anatomical phras-
+es. We performed a series of transformations 
+to convert the anatomical phrase into a norma-
+lized syntactic dependency representation. 
+The new representation provides an easy in-
+tuitive way of comparing the phrases for the 
+purpose of concept normalization. 
+1 

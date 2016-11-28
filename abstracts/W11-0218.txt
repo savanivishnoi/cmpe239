@@ -1,0 +1,31 @@
+
+In this study we investigate the merits of
+fast approximate string matching to address
+challenges relating to spelling variants and to
+utilise large-scale lexical resources for seman-
+tic class disambiguation. We integrate string
+matching results into machine learning-based
+disambiguation through the use of a novel set
+of features that represent the distance of a
+given textual span to the closest match in each
+of a collection of lexical resources. We col-
+lect lexical resources for a multitude of se-
+mantic categories from a variety of biomedi-
+cal domain sources. The combined resources,
+containing more than twenty million lexical
+items, are queried using a recently proposed
+fast and efficient approximate string match-
+ing algorithm that allows us to query large
+resources without severely impacting system
+performance. We evaluate our results on six
+corpora representing a variety of disambigua-
+tion tasks. While the integration of approxi-
+mate string matching features is shown to sub-
+stantially improve performance on one corpus,
+results are modest or negative for others. We
+suggest possible explanations and future re-
+search directions. Our lexical resources and
+implementation are made freely available for
+research purposes at: http://github.com/ninjin/
+simsem
+1 

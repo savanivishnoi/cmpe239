@@ -1,0 +1,16 @@
+
+This paper describes a method for lan-
+guage independent extractive summariza-
+tion that relies on iterative graph-based
+ranking algorithms. Through evalua-
+tions performed on a single-document
+summarization task for English and Por-
+tuguese, we show that the method per-
+forms equally well regardless of the lan-
+guage. Moreover, we show how a meta-
+summarizer relying on a layered appli-
+cation of techniques for single-document
+summarization can be turned into an ef-
+fective method for multi-document sum-
+marization.
+1 

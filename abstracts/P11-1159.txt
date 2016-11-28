@@ -1,0 +1,16 @@
+
+We explore the contribution of morphologi-
+cal features ? both lexical and inflectional ?
+to dependency parsing of Arabic, a morpho-
+logically rich language. Using controlled ex-
+periments, we find that definiteness, person,
+number, gender, and the undiacritzed lemma
+are most helpful for parsing on automatically
+tagged input. We further contrast the contri-
+bution of form-based and functional features,
+and show that functional gender and number
+(e.g., ?broken plurals?) and the related ratio-
+nality feature improve over form-based fea-
+tures. It is the first time functional morpho-
+logical features are used for Arabic NLP.
+1 

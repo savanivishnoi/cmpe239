@@ -1,0 +1,24 @@
+ 
+Key phrases are usually among the most 
+information-bearing linguistic structures. 
+Translating them correctly will improve 
+many natural language processing appli-
+cations. We propose a new framework to 
+mine key phrase translations from web 
+corpora. We submit a source phrase to a 
+search engine as a query, then expand 
+queries by adding the translations of 
+topic-relevant hint words from the re-
+turned snippets. We retrieve mixed-
+language web pages based on the ex-
+panded queries.  Finally, we extract the 
+key phrase translation from the second-
+round returned web page snippets with 
+phonetic, semantic and frequency-
+distance features. We achieve 46% phrase 
+translation accuracy when using top 10 re-
+turned snippets, and 80% accuracy with 
+165 snippets. Both results are signifi-
+cantly better than several existing meth-
+ods. 
+1 

@@ -1,0 +1,22 @@
+
+We describe the design of a comparable cor-
+pus that spans all of the world?s languages and
+facilitates large-scale cross-linguistic process-
+ing. This Universal Corpus consists of text
+collections aligned at the document and sen-
+tence level, multilingual wordlists, and a small
+set of morphological, lexical, and syntactic an-
+notations. The design encompasses submis-
+sion, storage, and access. Submission pre-
+serves the integrity of the work, allows asyn-
+chronous updates, and facilitates scholarly ci-
+tation. Storage employs a cloud-hosted file-
+store containing normalized source data to-
+gether with a database of texts and annota-
+tions. Access is permitted to the filestore, the
+database, and an application programming in-
+terface. All aspects of the Universal Corpus
+are open, and we invite community participa-
+tion in its design and implementation, and in
+supplying and using its data.
+1 

@@ -1,0 +1,39 @@
+ 
+This paper aims to introduce a new pars-
+ing strategy for large dictionary (thesauri) 
+parsing, called Dictionary Sense Segmen-
+tation & Dependency (DSSD), devoted to 
+obtain the sense tree, i.e. the hierarchy of 
+the defined meanings, for a dictionary en-
+try. The real novelty of the proposed ap-
+proach is that, contrary to dictionary 
+?standard? parsing, DSSD looks for and 
+succeeds to separate the two essential 
+processes within a dictionary entry pars-
+ing: sense tree construction and sense 
+definition parsing. The key tools to ac-
+complish the task of (autonomous) sense 
+tree building consist in defining the dic-
+tionary sense marker classes, establishing 
+a tree-like hierarchy of these classes, and 
+using a proper searching procedure of 
+sense markers within the DSSD parsing 
+algorithm. A similar but more general 
+approach, using the same techniques and 
+data structures for (Romanian) free text 
+parsing is SCD (Segmentation-Cohesion-
+Dependency) (Curteanu; 1988, 2006), 
+which DSSD is inspired from. A DSSD-
+based parser is implemented in Java, 
+building currently 91% correct sense 
+trees from DTLR (Dic?ionarul Tezaur al 
+                                                 
+? 2008. Licensed under the Creative Commons Attri-
+bution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+Limbii Rom?ne ? Romanian Language 
+Thesaurus) entries, with significant re-
+sources to improve and enlarge the 
+DTLR lexical semantics analysis. 
+1 

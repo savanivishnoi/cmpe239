@@ -1,0 +1,18 @@
+
+In present Statistical Machine Translation
+(SMT) systems, alignment is trained in a
+previous stage as the translation model.
+Consequently, alignment model parame-
+ters are not tuned in function of the trans-
+lation task, but only indirectly. In this
+paper, we propose a novel framework for
+discriminative training of alignment mod-
+els with automated translation metrics as
+maximization criterion. In this approach,
+alignments are optimized for the transla-
+tion task. In addition, no link labels at the
+word level are needed. This framework
+is evaluated in terms of automatic trans-
+lation evaluation metrics, and an improve-
+ment of translation quality is observed.
+1 

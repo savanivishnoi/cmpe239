@@ -1,0 +1,23 @@
+
+In statistical machine translation, estimat-
+ing word-to-word alignment probabilities
+for the translation model can be difficult
+due to the problem of sparse data: most
+words in a given corpus occur at most a
+handful of times. With a highly inflected
+language such as Czech, this problem can
+be particularly severe. In addition, much
+of the morphological variation seen in Czech
+words is not reflected in either the morphol-
+ogy or syntax of a language like English. In
+this work, we show that using morphologi-
+cal analysis to modify the Czech input can
+improve a Czech-English machine transla-
+tion system. We investigate several differ-
+ent methods of incorporating morphological
+information, and show that a system that
+combines these methods yields the best re-
+sults. Our final system achieves a BLEU
+score of .333, as compared to .270 for the
+baseline word-to-word system.
+1 

@@ -1,0 +1,25 @@
+
+In this paper a novel solution to auto-
+matic and unsupervised word sense induc-
+tion (WSI) is introduced. It represents an
+instantiation of the ?one sense per colloca-
+tion? observation (Gale et al, 1992). Like
+most existing approaches it utilizes clus-
+tering of word co-occurrences. This ap-
+proach differs from other approaches to
+WSI in that it enhances the effect of the
+one sense per collocation observation by
+using triplets of words instead of pairs.
+The combination with a two-step cluster-
+ing process using sentence co-occurrences
+as features allows for accurate results. Ad-
+ditionally, a novel and likewise automatic
+and unsupervised evaluation method in-
+spired by Schu?tze?s (1992) idea of evalu-
+ation of word sense disambiguation algo-
+rithms is employed. Offering advantages
+like reproducability and independency of
+a given biased gold standard it also en-
+ables automatic parameter optimization of
+the WSI algorithm.
+1 

@@ -1,0 +1,15 @@
+
+We consider the search for a maximum
+likelihood assignment of hidden deriva-
+tions and grammar weights for a proba-
+bilistic context-free grammar, the problem
+approximately solved by ?Viterbi train-
+ing.? We show that solving and even ap-
+proximating Viterbi training for PCFGs is
+NP-hard. We motivate the use of uniform-
+at-random initialization for Viterbi EM as
+an optimal initializer in absence of further
+information about the correct model pa-
+rameters, providing an approximate bound
+on the log-likelihood.
+1 

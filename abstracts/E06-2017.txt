@@ -1,0 +1,17 @@
+
+Term translation probabilities proved an
+effective method of semantic smoothing in
+the language modelling approach to infor-
+mation retrieval tasks. In this paper, we
+use Generalized Latent Semantic Analysis
+to compute semantically motivated term
+and document vectors. The normalized
+cosine similarity between the term vec-
+tors is used as term translation probabil-
+ity in the language modelling framework.
+Our experiments demonstrate that GLSA-
+based term translation probabilities cap-
+ture semantic relations between terms and
+improve performance on document classi-
+fication.
+1 

@@ -1,0 +1,28 @@
+
+Classical coreference systems encode various
+syntactic, discourse, and semantic phenomena
+explicitly, using heterogenous features com-
+puted from hand-crafted heuristics. In con-
+trast, we present a state-of-the-art coreference
+system that captures such phenomena implic-
+itly, with a small number of homogeneous
+feature templates examining shallow proper-
+ties of mentions. Surprisingly, our features
+are actually more effective than the corre-
+sponding hand-engineered ones at modeling
+these key linguistic phenomena, allowing us
+to win ?easy victories? without crafted heuris-
+tics. These features are successful on syntax
+and discourse; however, they do not model
+semantic compatibility well, nor do we see
+gains from experiments with shallow seman-
+tic features from the literature, suggesting that
+this approach to semantics is an ?uphill bat-
+tle.? Nonetheless, our final system1 outper-
+forms the Stanford system (Lee et al (2011),
+the winner of the CoNLL 2011 shared task)
+by 3.5% absolute on the CoNLL metric and
+outperforms the IMS system (Bjo?rkelund and
+Farkas (2012), the best publicly available En-
+glish coreference system) by 1.9% absolute.
+1 

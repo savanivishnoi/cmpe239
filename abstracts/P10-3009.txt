@@ -1,0 +1,17 @@
+ 
+Motivated by Google Sets, we study the prob-
+lem of growing related words from a single 
+seed word by leveraging user behaviors hiding 
+in user records of Chinese input method. Our 
+proposed method is motivated by the observa-
+tion that the more frequently two words co-
+occur in user records, the more related they are. 
+First, we utilize user behaviors to generate 
+candidate words. Then, we utilize search en-
+gine to enrich candidate words with adequate 
+semantic features. Finally, we reorder candi-
+date words according to their semantic rela-
+tedness to the seed word. Experimental results 
+on a Chinese input method dataset show that 
+our method gains better performance. 
+1 

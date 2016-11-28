@@ -1,0 +1,22 @@
+
+We consider semi-supervised learning of
+information extraction methods, especially
+for extracting instances of noun categories
+(e.g., ?athlete,? ?team?) and relations (e.g.,
+?playsForTeam(athlete,team)?). Semi-
+supervised approaches using a small number
+of labeled examples together with many un-
+labeled examples are often unreliable as they
+frequently produce an internally consistent,
+but nevertheless incorrect set of extractions.
+We propose that this problem can be over-
+come by simultaneously learning classifiers
+for many different categories and relations
+in the presence of an ontology defining
+constraints that couple the training of these
+classifiers. Experimental results show that
+simultaneously learning a coupled collection
+of classifiers for 30 categories and relations
+results in much more accurate extractions
+than training classifiers individually.
+1 

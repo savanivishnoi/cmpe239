@@ -1,0 +1,22 @@
+
+Experimenting with different mathematical
+objects for text representation is an important
+step of building text classification models. In
+order to be efficient, such objects of a for-
+mal model, like vectors, have to reasonably re-
+produce language-related phenomena such as
+word meaning inherent in index terms. We in-
+troduce an algorithm for sense-based seman-
+tic ordering of index terms which approxi-
+mates Cruse?s description of a sense spectrum.
+Following semantic ordering, text classifica-
+tion by support vector machines can benefit
+from semantic smoothing kernels that regard
+semantic relations among index terms while
+computing document similarity. Adding ex-
+pansion terms to the vector representation can
+also improve effectiveness. This paper pro-
+poses a new kernel which discounts less im-
+portant expansion terms based on lexical re-
+latedness.
+1 

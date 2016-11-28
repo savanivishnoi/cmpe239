@@ -1,0 +1,16 @@
+
+In this paper we present a novel approach to map
+textual entities such as words, phrases, sentences,
+paragraphs or arbitrary text fragments onto artificial
+structures which we call ?Text Sense Representation
+Trees? (TSR trees). These TSR trees represent an
+abstract notion of the meaning of the respective text,
+subjective to an abstract ?common? understanding
+within the World Wide Web. TSR Trees can be
+used to support text and language processing sys-
+tems such as text categorizers, classifiers, automatic
+summarizers and applications of the Semantic Web.
+We will explain how to construct the TSR tree struc-
+tures and how to use them properly; furthermore we
+describe some preliminary evaluation results.
+1 

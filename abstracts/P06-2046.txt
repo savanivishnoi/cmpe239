@@ -1,0 +1,19 @@
+
+Recognizing idioms in a sentence is im-
+portant to sentence understanding. This
+paper discusses the lexical knowledge of
+idioms for idiom recognition. The chal-
+lenges are that idioms can be ambiguous
+between literal and idiomatic meanings,
+and that they can be ?transformed? when
+expressed in a sentence. However, there
+has been little research on Japanese idiom
+recognition with its ambiguity and trans-
+formations taken into account. We pro-
+pose a set of lexical knowledge for idiom
+recognition. We evaluated the knowledge
+by measuring the performance of an idiom
+recognizer that exploits the knowledge. As
+a result, more than 90% of the idioms in a
+corpus are recognized with 90% accuracy.
+1 

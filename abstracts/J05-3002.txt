@@ -1,0 +1,182 @@
+ing Concepts and Methods.
+Academic Press, New York.
+Brown, Peter F., Stephen Della Pietra,
+Vincent Della Pietra, and Robert Mercer.
+1993. The mathematics of statistical
+machine translation: Parameter
+estimation. Computational Linguistics,
+19(2):263?311.
+Carbonell, Jaime and Jade Goldstein. 1998.
+The use of MMR, diversity-based
+reranking for reordering documents
+and producing summaries. In
+Proceedings of SIGIR, pages 335?336,
+Melbourne, Australia.
+Chandrasekar, Raman, Christine Doran, and
+Srinivas Bangalore. 1996. Motivations and
+methods for text simplification. In
+International Conference on Computational
+Linguistics (COLING 1996),
+pages 1041?1044, Copenhagen, Denmark.
+Chu-Carroll, Jennifer, Krzysztof Czuba, John
+Prager, and Abraham Ittycheriah. 2003. In
+question answering: Two heads are better
+than one. In Proceedings of HLT-NAACL,
+pages 24?31, Edmonton, Alberta.
+Clarke, Charles, Gordon Cormack, and
+Thomas Lynam. 2001. Exploiting
+redundancy in question answering. In
+Proceedings of SIGIR, pages 358?365, New
+Orleans, LA.
+Clarkson, Philip and R. Rosenfeld. 1997.
+Statistical language modeling using the
+CMU-Cambridge toolkit. In Proceedings
+ESCA Eurospeech, volume 5,
+pages 2707?2710, Rhodes, Greece.
+Collins, Michael. 2003. Head-driven
+statistical models for natural language
+parsing. Computational Linguistics,
+29(4):589?637.
+Daume, Hal, Kevin Knight, Irene
+Langkilde-Geary, Daniel Marcu, and Kenji
+Yamada. 2002. The importance of
+lexicalized syntax models for natural
+language generation tasks. In Proceedings of
+INLG, pages 9?16, Arden House,
+Harriman, NJ.
+Dumais, Susan, Michele Banko, Eric Brill,
+Jimmy Lin, and Andrew Ng. 2002. Web
+question answering: Is more always
+better? In Proceedings of SIGIR,
+pages 291?298, Tampere, Finland.
+Durbin, Richard, Sean Eddy, Anders Krogh,
+and Graeme Mitchison. 1998.
+Biological Sequence Analysis. Cambridge
+University Press.
+Elhadad, Michael, Yael Netzer, Regina
+Barzilay, and Kathleen McKeown. 2001.
+Ordering circumstantials for
+multi-document summarization.
+In Proceedings of BISFAI,
+Ramat Gan, Israel.
+Elhadad, Michael and Jacques Robin. 1996.
+An overview of surge: A reusable
+comprehensive syntactic realization
+component. Technical Report 96?03,
+325
+Computational Linguistics Volume 31, Number 3
+Department of Mathematics and
+Computer Science, Ben Gurion University,
+Beer Sheva, Israel.
+Farach, Martin, Teresa Przytycka, and Mikkel
+Thorup. 1995. On the agreement of many
+trees. Information Processing Letters,
+55(6):297?301.
+Finden, C. R. and A. D. Gordon. 1985.
+Obtaining common pruned trees. Journal of
+Classification, 2:255?276.
+Grefenstette, Gregory. 1998. Producing
+intelligent telegraphic text reduction to
+provide an audio scanning service for the
+blind. In Proceedings of the AAAI Spring
+Workshop on Intelligent Text Summarization,
+pages 111?115, Palo Alto, CA.
+Gusfield, Dan. 1997. Algorithms on
+strings, trees and sequences. Cambridge
+University Press.
+Hatzivassiloglou, Vasileios, Judith Klavans,
+and Eleazar Eskin. 1999. Detecting text
+similarity over short passages: Exploring
+linguistic feature combinations via
+machine learning. In Proceedings of the Joint
+SIGDAT Conference on Empirical Methods in
+Natural Language Processing and Very Large
+Corpora, College Park, MD.
+Hatzivassiloglou, Vasileios and Kathleen
+McKeown. 1993. Towards the automatic
+identification of adjectival scales:
+Clustering adjectives according to
+meaning. In Proceedings of the ACL,
+pages 172?182, Columbus, OH.
+Jing, Hongyang and Kathleen McKeown.
+2000. Cut and paste based summarization.
+In Proceedings of the First Conference
+of the North American Chapter of the
+Association of Computational Linguistics,
+pages 178?185, Seattle.
+Knight, Kevin and Vasileios
+Hatzivassiloglou. 1995. Two-level,
+many-path generation. In Proceedings of the
+ACL, pages 252?260, Cambridge, MA.
+Knight, Kevin and Daniel Marcu. 2002.
+Summarization beyond sentence
+extraction: A probabilistic approach to
+sentence compression. Artificial Intelligence
+Journal, 139(1):91?107.
+Lacatusu, V. Finley, Steven J. Maiorano, and
+Sanda M. Harabagiu. 2004.
+Multi-document summarization using
+multi-sequence alignment. In International
+Conference on Language Resources and
+Evaluation, Lisbon, Portugal.
+Langkilde, Irene and Kevin Knight. 1998.
+Generation that exploits corpus-based
+statistical knowledge. In Proceedings
+of the ACL/COLING, pages 704?710,
+Montreal, Quebec.
+Lin, Chin-Yew and Eduard H. Hovy. 2002.
+From single to multi-document
+summarization: A prototype system and
+its evaluation. In Proceedings of the ACL,
+pages 457?464, Philadelphia, PA.
+Lin, Chin-Yew and Eduard H. Hovy. 2003.
+Automatic evaluation of summaries using
+n-gram co-occurrence statistics. In
+Proceedings of HLT-NAACL, pages 150?157,
+Edmonton, Alberta.
+Mani, Inderjeet and Eric Bloedorn. 1997.
+Multi-document summarization by graph
+search and matching. In Proceedings of the
+Fifteenth National Conference on Artificial
+Intelligence (AAAI-97), pages 622?628,
+Providence, RI. AAAI.
+Mani, Inderjeet, Barbara Gates, and Eric
+Bloedorn. 1999. Improving summaries by
+revising them. In Proceedings of the ACL,
+pages 558?565, College Park, MD.
+Marcu, Daniel and Laurie Gerber. 2001. An
+inquiry into the nature of multidocument
+abstracts, extracts, and their evaluation. In
+Proceedings of the NAACL Workshop on
+Automatic Summarization, pages 2?11,
+Pittsburgh, PA.
+McKeown, Kathleen R., Regina Barzilay,
+David Evans, Vasileios Hatzivassiloglou,
+Judith Klavans, Ani Nenkova,
+Carl Sable, Barry Schiffman, and
+Sergey Sigelman. 2002. Tracking and
+summarizing news on a daily
+basis with Columbia?s Newsblaster.
+In Proceedings of the Human Language
+Technology Conference (HLT-02),
+pages 280?285, San Diego, CA.
+McKeown, Kathleen R., Regina Barzilay,
+David Evans, Vasileios Hatzivassiloglou,
+Min Yen Kan, Barry Schiffman, and
+Simone Teufel. 2001. Columbia
+multi-document summarization:
+Approach and evaluation. In Proceedings
+of the Document Understanding Conference
+(DUC01), New Orleans, LA.
+Melcuk, Igor. 1988. Dependency Syntax: Theory
+and Practice. Albany: State University of
+New York Press.
+Meyers, Adam, Roman Yangarber, and
+Ralph Grishman. 1996. Alignment
+of shared forests for bilingual corpora.
+In International Conference on Computational
+Linguistics (COLING 1996), pages 460?465,
+Copenhagen, Denmark.
+Miller, George A., Richard Beckwith,
+Christiane Fellbaum, Derek Gross, and
+Katherine J. Miller. 1990. 

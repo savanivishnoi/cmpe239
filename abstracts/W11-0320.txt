@@ -1,0 +1,20 @@
+
+This paper makes two contributions to the
+area of single-word based word alignment for
+bilingual sentence pairs. Firstly, it integrates
+the ? seemingly rather different ? works of
+(Bodrumlu et al, 2009) and the standard prob-
+abilistic ones into a single framework.
+Secondly, we present two algorithms to opti-
+mize the arising task. The first is an iterative
+scheme similar to Viterbi training, able to han-
+dle large tasks. The second is based on the in-
+exact solution of an integer program. While it
+can handle only small corpora, it allows more
+insight into the quality of the model and the
+performance of the iterative scheme.
+Finally, we present an alternative way to
+handle prior dictionary knowledge and dis-
+cuss connections to computing IBM-3 Viterbi
+alignments.
+1 

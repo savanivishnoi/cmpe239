@@ -1,0 +1,29 @@
+
+Several recent discourse parsers have em-
+ployed fully-supervised machine learning ap-
+proaches. These methods require human an-
+notators to beforehand create an extensive
+training corpus, which is a time-consuming
+and costly process. On the other hand, un-
+labeled data is abundant and cheap to col-
+lect. In this paper, we propose a novel
+semi-supervised method for discourse rela-
+tion classification based on the analysis of co-
+occurring features in unlabeled data, which is
+then taken into account for extending the fea-
+ture vectors given to a classifier. Our exper-
+imental results on the RST Discourse Tree-
+bank corpus and Penn Discourse Treebank in-
+dicate that the proposed method brings a sig-
+nificant improvement in classification accu-
+racy and macro-average F-score when small
+training datasets are used. For instance, with
+training sets of c.a. 1000 labeled instances, the
+proposed method brings improvements in ac-
+curacy and macro-average F-score up to 50%
+compared to a baseline classifier. We believe
+that the proposed method is a first step towards
+detecting low-occurrence relations, which is
+useful for domains with a lack of annotated
+data.
+1 

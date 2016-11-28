@@ -1,0 +1,26 @@
+ Data Types: 
+A Unifying Approach 
+Christoph BEIERLE and Udo PLETAT 
+IBM Deutschland GmbH 
+Science and Technology - LILOG 
+P.O. Box 80 08 80 
+7000 Stuttgart 80, West Germany 
+(electronic mail on EARN/BITNET: 
+BEIERLE at DS#LILOG, PLETAT at DS#LILOG) 
+Abstract :  
+Feature graphs appearing in unification--based grammar formalisms and 
+algebraic specif icat ions of abstract data types (ADTs) are both used 
+for def in ing a col lect ion of objects together with functions between 
+these object sets. Start ing from this observat ion we define an 
+algebraic semantics for feature graphs by assigning an algebraic 
+speci f icat ion to each feature graph. This opens the rich world of 
+semantical foundations for abstract data types to the area of 
+feature graphs and thus to uni f icat ion grammar formalisms. Using 
+results from ADT theory we define a sim~le and fast syntactic 
+decis ion procedure test ing the usual consistency condit ions on 
+feature graphs like constant consistency, constant/complex 
+consistency and acycl ic i ty on the algebraic speci f icat ion assigned 
+to a feature graph. With this machinery at hand feature graph 
+uni f icat ion becomes union of feature graph specif icat ions fol lowed 
+by the consistency test. 
+1. 

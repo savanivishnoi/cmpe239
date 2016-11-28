@@ -1,0 +1,23 @@
+
+VerbNet (VN) is a major large-scale En-
+glish verb lexicon. Mapping verb instances
+to their VN classes has been proven use-
+ful for several NLP tasks. However, verbs
+are polysemous with respect to their VN
+classes. We introduce a novel supervised
+learning model for mapping verb instances
+to VN classes, using rich syntactic features
+and class membership constraints. We
+evaluate the algorithm in both in-domain
+and corpus adaptation scenarios. In both
+cases, we use the manually tagged Sem-
+link WSJ corpus as training data. For in-
+domain (testing on Semlink WSJ data), we
+achieve 95.9% accuracy, 35.1% error re-
+duction (ER) over a strong baseline. For
+adaptation, we test on the GENIA corpus
+and achieve 72.4% accuracy with 10.7%
+ER. This is the first large-scale experimen-
+tation with automatic algorithms for this
+task.
+1 

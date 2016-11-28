@@ -1,0 +1,20 @@
+
+The performance of nearest neighbor methods
+is degraded by the presence of hubs, i.e., ob-
+jects in the dataset that are similar to many
+other objects. In this paper, we show that the
+classical method of centering, the transforma-
+tion that shifts the origin of the space to the
+data centroid, provides an effective way to re-
+duce hubs. We show analytically why hubs
+emerge and why they are suppressed by cen-
+tering, under a simple probabilistic model of
+data. To further reduce hubs, we also move
+the origin more aggressively towards hubs,
+through weighted centering. Our experimental
+results show that (weighted) centering is effec-
+tive for natural language data; it improves the
+performance of the k-nearest neighbor classi-
+fiers considerably in word sense disambigua-
+tion and document classification tasks.
+1 

@@ -1,0 +1,11 @@
+
+We present a class-based language model that
+clusters rare words of similar morphology
+together. The model improves the predic-
+tion of words after histories containing out-
+of-vocabulary words. The morphological fea-
+tures used are obtained without the use of la-
+beled data. The perplexity improvement com-
+pared to a state of the art Kneser-Ney model is
+4% overall and 81% on unknown histories.
+1 

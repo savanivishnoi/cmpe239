@@ -1,0 +1,13 @@
+
+We discuss the advantages of lexical-
+ized tree-adjoining grammar as an al-
+ternative to lexicalized PCFG for sta-
+tistical parsing, describing the induction
+of a probabilistic LTAG model from the
+Penn Treebank and evaluating its pars-
+ing performance. We nd that this in-
+duction method is an improvement over
+the EM-based method of (Hwa, 1998),
+and that the induced model yields re-
+sults comparable to lexicalized PCFG.
+1 

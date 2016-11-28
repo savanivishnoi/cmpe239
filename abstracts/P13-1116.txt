@@ -1,0 +1,16 @@
+
+This paper presents a novel deterministic
+algorithm for implicit Semantic Role La-
+beling. The system exploits a very sim-
+ple but relevant discursive property, the ar-
+gument coherence over different instances
+of a predicate. The algorithm solves the
+implicit arguments sequentially, exploit-
+ing not only explicit but also the implicit
+arguments previously solved. In addition,
+we empirically demonstrate that the algo-
+rithm obtains very competitive and robust
+performances with respect to supervised
+approaches that require large amounts of
+costly training data.
+1 

@@ -1,0 +1,16 @@
+
+This paper proposes an annotating
+scheme that encodes honorifics
+(respectful words). Honorifics are used
+extensively in Japanese, reflecting the
+social relationship (e.g. social ranks and
+age) of the referents. This referential
+information is vital for resolving zero
+pronouns and improving machine
+translation outputs. Annotating honorifics
+is a complex task that involves
+identifying a predicate with honorifics,
+assigning ranks to referents of the
+predicate, calibrating the ranks, and
+connecting referents with their predicates.
+1 

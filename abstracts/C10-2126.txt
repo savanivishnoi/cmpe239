@@ -1,0 +1,36 @@
+
+We present a technique for identifying the
+sources and targets of opinions without
+actually identifying the opinions them-
+selves. We are able to use an informa-
+tion extraction approach that treats opin-
+ion mining as relation mining; we iden-
+tify instances of a binary ?expresses-an-
+opinion-about? relation. We find that
+we can classify source-target pairs as be-
+longing to the relation at a performance
+level significantly higher than two relevant
+baselines.
+This technique is particularly suited to
+emerging approaches in corpus-based so-
+cial science which focus on aggregating
+interactions between sources to determine
+their effects on socio-economically sig-
+nificant targets. Our application is the
+analysis of information technology (IT)
+innovations. This is an example of a
+more general problem where opinion is
+expressed using either sub- or supersets
+of expressive words found in newswire.
+We present an annotation scheme and an
+SVM-based technique that uses the lo-
+cal context as well as the corpus-wide
+frequency of a source-target pair as data
+to determine membership in ?expresses-
+an-opinion-about?. While the presence
+of conventional subjectivity keywords ap-
+pears significant in the success of this
+technique, we are able to find the most
+domain-relevant keywords without sacri-
+ficing recall.
+1 

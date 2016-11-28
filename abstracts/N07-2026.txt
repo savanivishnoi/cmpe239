@@ -1,0 +1,19 @@
+ 
+Speaker name recognition plays an important 
+role in many spoken language applications, 
+such as rich transcription, information extrac-
+tion, question answering, and opinion mining. 
+In this paper, we developed an SVM-based 
+classification framework to determine the 
+speaker names for those included speech seg-
+ments in broadcast news speech, called sound-
+bites. We evaluated a variety of features with 
+different feature selection strategies. Experi-
+ments on Mandarin broadcast news speech 
+show that using our proposed approach, the 
+soundbite speaker name recognition (SSNR) 
+accuracy is 68.9% on our blind test set, an ab-
+solute 10% improvement compared to a base-
+line system, which chooses the person name 
+closest to the soundbite. 
+1 

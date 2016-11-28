@@ -1,0 +1,16 @@
+ 
+This paper describes a pipelined approach for 
+CoNLL-09 shared task on joint learning of 
+syntactic and semantic dependencies. In the 
+system, we handle syntactic dependency pars-
+ing with a transition-based approach and util-
+ize MaltParser as the base model. For SRL, 
+we utilize a Maximum Entropy model to iden-
+tify predicate senses and classify arguments. 
+Experimental results show that the average 
+performance of our system for all languages 
+achieves 67.81% of macro F1 Score, 78.01% 
+of syntactic accuracy, 56.69% of semantic la-
+beled F1, 71.66% of macro precision and 
+64.66% of micro recall. 
+1 

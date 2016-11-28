@@ -1,0 +1,24 @@
+ 
+This paper discusses a new approach to 
+training of transliteration model from 
+unlabeled data for transliteration extraction. 
+We start with an inquiry into the 
+formulation of transliteration model by 
+considering different transliteration 
+strategies as a multi-view problem, where 
+each view exploits a natural division of 
+transliteration features, such as phoneme-
+based, grapheme-based or hybrid features. 
+Then we introduce a multi-view Co-
+training algorithm, which leverages 
+compatible and partially uncorrelated 
+information across different views to 
+effectively boost the model from unlabeled 
+data. Applying this algorithm to 
+transliteration extraction, the results show 
+that it not only circumvents the need of data 
+labeling, but also achieves performance 
+close to that of supervised learning, where 
+manual labeling is required for all training 
+samples. 
+1 

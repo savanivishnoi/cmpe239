@@ -1,0 +1,9 @@
+
+We consider the problem of distinguishing polysemous from homonymous nouns. This distinction
+is often taken for granted, but is seldom operationalized in the shape of an empirical model. We
+present a first step towards such a model, based on WordNet augmented with ontological classes
+provided by CoreLex. This model provides a polysemy index for each noun which (a), accurately
+distinguishes between polysemy and homonymy; (b), supports the analysis that polysemy can be
+grounded in the frequency of the meaning shifts shown by nouns; and (c), improves a regression
+model that predicts when the ?one-sense-per-discourse? hypothesis fails.
+1 

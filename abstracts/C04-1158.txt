@@ -1,0 +1,29 @@
+
+Adequate confirmation for keywords is in-
+dispensable in spoken dialogue systems
+to eliminate misunderstandings caused by
+speech recognition errors. Spoken lan-
+guage also inherently includes out-of-
+domain phrases and redundant expressions
+such as disfluency, which do not contribute
+to task achievement. It is necessary to
+appropriately make confirmation for im-
+portant portions. However, a set of key-
+words necessary to achieve the tasks can-
+not be predefined in retrieval for a large-
+scale knowledge base unlike conventional
+database query tasks. In this paper, we
+describe two statistical measures for iden-
+tifying portions to be confirmed. A rele-
+vance score represents the matching degree
+with the target knowledge base. A sig-
+nificance score detects portions that conse-
+quently affect the retrieval results. These
+measures are defined based on information
+that is automatically derived from the tar-
+get knowledge base. An experimental eval-
+uation shows that our method improved the
+success rate of retrieval by generating con-
+firmation more efficiently than using a con-
+ventional confidence measure.
+1 

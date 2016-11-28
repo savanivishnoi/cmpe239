@@ -1,0 +1,17 @@
+
+We present experiments using a new unsu-
+pervised approach to automatic text sim-
+plification, which builds on sampling and
+ranking via a loss function informed by
+readability research. The main idea is
+that a loss function can distinguish good
+simplification candidates among randomly
+sampled sub-sentences of the input sen-
+tence. Our approach is rated as equally
+grammatical and beginner reader appro-
+priate as a supervised SMT-based baseline
+system by native speakers, but our setup
+performs more radical changes that better
+resembles the variation observed in human
+generated simplifications.
+1 

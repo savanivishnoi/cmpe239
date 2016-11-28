@@ -1,0 +1,22 @@
+ 
+The interpretation of a multiple-domain 
+text corpus as a single ontology leads to 
+misconceptions. This is because some 
+concepts may be syntactically equal; 
+though, they are semantically lopsided in 
+different domains. Also, the occurrences 
+of a domain concept in a large multiple-
+domain corpus may not gauge correctly 
+the concept significance. This paper 
+tackles the mentioned problems and pro-
+poses a novel ontology builder to extract 
+separate domain specific ontologies from 
+such a corpus. The builder contribution is 
+to sustain each domain specific concepts 
+and relations to get precise answers for 
+user questions. We extend a single ontol-
+ogy builder named Text2Onto to apply 
+our thought. We fruitfully enhance it to 
+answer, more precisely, questions on a 
+subset of AQUAINT corpus. 
+1 

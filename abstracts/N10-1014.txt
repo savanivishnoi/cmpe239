@@ -1,0 +1,16 @@
+
+Syntactic machine translation systems cur-
+rently use word alignments to infer syntactic
+correspondences between the source and tar-
+get languages. Instead, we propose an un-
+supervised ITG alignment model that directly
+aligns syntactic structures. Our model aligns
+spans in a source sentence to nodes in a target
+parse tree. We show that our model produces
+syntactically consistent analyses where possi-
+ble, while being robust in the face of syntactic
+divergence. Alignment quality and end-to-end
+translation experiments demonstrate that this
+consistency yields higher quality alignments
+than our baseline.
+1 

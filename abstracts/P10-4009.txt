@@ -1,0 +1,21 @@
+
+In the EMIME project we have studied un-
+supervised cross-lingual speaker adapta-
+tion. We have employed an HMM statisti-
+cal framework for both speech recognition
+and synthesis which provides transfor-
+mation mechanisms to adapt the synthe-
+sized voice in TTS (text-to-speech) using
+the recognized voice in ASR (automatic
+speech recognition). An important ap-
+plication for this research is personalised
+speech-to-speech translation that will use
+the voice of the speaker in the input lan-
+guage to utter the translated sentences in
+the output language. In mobile environ-
+ments this enhances the users? interaction
+across language barriers by making the
+output speech sound more like the origi-
+nal speaker?s way of speaking, even if she
+or he could not speak the output language.
+1 

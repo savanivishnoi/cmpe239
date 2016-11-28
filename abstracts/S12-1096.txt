@@ -1,0 +1,24 @@
+
+This paper describes Stanford University?s
+submission to SemEval 2012 Semantic Tex-
+tual Similarity (STS) shared evaluation task.
+Our proposed metric computes probabilistic
+edit distance as predictions of semantic sim-
+ilarity. We learn weighted edit distance in
+a probabilistic finite state machine (pFSM)
+model, where state transitions correspond to
+edit operations. While standard edit dis-
+tance models cannot capture long-distance
+word swapping or cross alignments, we rectify
+these shortcomings using a novel pushdown
+automaton extension of the pFSM model. Our
+models are trained in a regression framework,
+and can easily incorporate a rich set of lin-
+guistic features. The performance of our edit
+distance based models is contrasted with an
+adaptation of the Stanford textual entailment
+system to the STS task. Our results show that
+the most advanced edit distance model, pPDA,
+outperforms our entailment system on all but
+one of the genres included in the STS task.
+1 

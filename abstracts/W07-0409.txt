@@ -1,0 +1,22 @@
+
+The purpose of this work is to explore
+the integration of morphosyntactic infor-
+mation into the translation model itself, by
+enriching words with their morphosyntac-
+tic categories. We investigate word dis-
+ambiguation using morphosyntactic cate-
+gories, n-best hypotheses reranking, and
+the combination of both methods with
+word or morphosyntactic n-gram lan-
+guage model reranking. Experiments
+are carried out on the English-to-Spanish
+translation task. Using the morphosyn-
+tactic language model alone does not
+results in any improvement in perfor-
+mance. However, combining morphosyn-
+tactic word disambiguation with a word
+based 4-gram language model results in a
+relative improvement in the BLEU score
+of 2.3% on the development set and 1.9%
+on the test set.
+1 

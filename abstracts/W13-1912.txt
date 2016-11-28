@@ -1,0 +1,17 @@
+
+Sentence types typical to Swedish clini-
+cal text were extracted by comparing sen-
+tence part-of-speech tag sequences in clin-
+ical and in standard Swedish text. Parsings
+by a syntactic dependency parser, trained
+on standard Swedish, were manually ana-
+lysed for the 33 sentence types most typ-
+ical to clinical text. This analysis re-
+sulted in the identification of eight error
+types, and for two of these error types, pre-
+processing rules were constructed to im-
+prove the performance of the parser. For
+all but one of the ten sentence types af-
+fected by these two rules, the parsing was
+improved by pre-processing.
+1 

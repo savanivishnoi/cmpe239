@@ -1,0 +1,16 @@
+
+We address a core aspect of the multilingual
+content synchronization task: the identifica-
+tion of novel, more informative or semanti-
+cally equivalent pieces of information in two
+documents about the same topic. This can be
+seen as an application-oriented variant of tex-
+tual entailment recognition where: i) T and
+H are in different languages, and ii) entail-
+ment relations between T and H have to be
+checked in both directions. Using a combi-
+nation of lexical, syntactic, and semantic fea-
+tures to train a cross-lingual textual entailment
+system, we report promising results on differ-
+ent datasets.
+1 

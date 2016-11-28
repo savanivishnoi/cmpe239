@@ -1,0 +1,18 @@
+
+This paper proposes a novel method that ex-
+ploits multiple resources to improve statisti-
+cal machine translation (SMT) based para-
+phrasing. In detail, a phrasal paraphrase ta-
+ble and a feature function are derived from
+each resource, which are then combined in a
+log-linear SMT model for sentence-level para-
+phrase generation. Experimental results show
+that the SMT-based paraphrasing model can
+be enhanced using multiple resources. The
+phrase-level and sentence-level precision of
+the generated paraphrases are above 60% and
+55%, respectively. In addition, the contribu-
+tion of each resource is evaluated, which indi-
+cates that all the exploited resources are useful
+for generating paraphrases of high quality.
+1 

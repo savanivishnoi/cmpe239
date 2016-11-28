@@ -1,0 +1,19 @@
+
+Several discourse annotated corpora now ex-
+ist for NLP. But they use different, not eas-
+ily comparable annotation schemes: are the
+structures these schemes describe incompati-
+ble, incomparable, or do they share interpre-
+tations? In this paper, we relate three types
+of discourse annotation used in corpora or dis-
+course parsing: (i) RST, (ii) SDRT, and (iii)
+dependency tree structures. We offer a com-
+mon language in which their structures can be
+defined and furnished a range of interpreta-
+tions. We define translations between RST and
+DT preserving these interpretations, and intro-
+duce a similarity measure for discourse repre-
+sentations in these frameworks. This will en-
+able researchers to exploit different types of
+discourse annotated data for automated tasks.
+1 

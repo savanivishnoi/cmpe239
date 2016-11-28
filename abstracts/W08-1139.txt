@@ -1,0 +1,12 @@
+ 
+This paper presents a Prefix Tree based model 
+of Generation of Referring Expression (RE). 
+Our algorithm PTBSGRE works in two phas-
+es. First, an encoded prefix tree is constructed 
+describing the domain structure. Subsequent-
+ly, RE is generated using that structure. We 
+evaluated our system using Dice, MASI, Ac-
+curacy, Minimality and Uniqueness scoring 
+method using standard TEVAl tool and the re-
+sult is encouraging. 
+1 

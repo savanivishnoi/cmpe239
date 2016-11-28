@@ -1,0 +1,30 @@
+ 
+The selection of features is critical in pro-
+viding discriminative information for clas-
+sifiers in Word Sense Disambiguation 
+(WSD). Uninformative features will de-
+grade the performance of classifiers. Based 
+on the strong evidence that an ambiguous 
+word expresses a unique sense in a given 
+collocation, this paper reports our experi-
+ments on automatic WSD using collocation 
+as local features based on the corpus ex-
+tracted from People?s Daily News (PDN) 
+as well as the standard SENSEVAL-3 data 
+set. Using the Na?ve Bayes classifier as our 
+core algorithm, we have implemented a 
+classifier using a feature set combining 
+both local collocation features and topical 
+features. The average precision on the 
+PDN corpus has 3.2% improvement com-
+pared to 81.5% of the baseline system 
+where collocation features are not consid-
+ered. For the SENSEVAL-3 data, we have 
+reached the precision rate of 37.6% by in-
+tegrating collocation features into 
+contextual features, to achieve 37% im-
+provement  over  26.7% of precision in the 
+baseline system. Our experiments have 
+shown that collocation features can be used 
+to reduce the size of human tagged corpus. 
+1 

@@ -1,0 +1,26 @@
+
+Models of the acquisition of word segmen-
+tation are typically evaluated using phonem-
+ically transcribed corpora. Accordingly, they
+implicitly assume that children know how to
+undo phonetic variation when they learn to ex-
+tract words from speech. Moreover, whereas
+models of language acquisition should per-
+form similarly across languages, evaluation
+is often limited to English samples. Us-
+ing child-directed corpora of English, French
+and Japanese, we evaluate the performance
+of state-of-the-art statistical models given in-
+puts where phonetic variation has not been re-
+duced. To do so, we measure segmentation
+robustness across different levels of segmen-
+tal variation, simulating systematic allophonic
+variation or errors in phoneme recognition.
+We show that these models do not resist an in-
+crease in such variations and do not generalize
+to typologically different languages. From the
+perspective of early language acquisition, the
+results strengthen the hypothesis according to
+which phonological knowledge is acquired in
+large part before the construction of a lexicon.
+1 

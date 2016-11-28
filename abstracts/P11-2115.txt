@@ -1,0 +1,16 @@
+
+Surface realisation decisions in language gen-
+eration can be sensitive to a language model,
+but also to decisions of content selection. We
+therefore propose the joint optimisation of
+content selection and surface realisation using
+Hierarchical Reinforcement Learning (HRL).
+To this end, we suggest a novel reward func-
+tion that is induced from human data and is
+especially suited for surface realisation. It is
+based on a generation space in the form of
+a Hidden Markov Model (HMM). Results in
+terms of task success and human-likeness sug-
+gest that our unified approach performs better
+than greedy or random baselines.
+1 

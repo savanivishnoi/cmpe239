@@ -1,0 +1,28 @@
+
+We present a method for translating se-
+mantic relationships between languages
+where relationships are defined as pattern
+clusters. Given a pattern set which rep-
+resents a semantic relationship, we use
+the web to extract sample term pairs of
+this relationship. We automatically trans-
+late the obtained term pairs using multi-
+lingual dictionaries and disambiguate the
+translated pairs using web counts. Finally
+we discover the set of most relevant tar-
+get language patterns for the given rela-
+tionship. The obtained pattern set can be
+utilized for extraction of new relationship
+examples for the target language.
+We evaluate our method on 11 diverse tar-
+get languages. To assess the quality of
+the discovered relationships, we use an au-
+tomatically generated cross-lingual SAT
+analogy test, WordNet relationships, and
+concept-specific relationships, achieving
+high precision. The proposed framework
+allows fully automated cross-lingual rela-
+tionship mining and construction of mul-
+tilingual pattern dictionaries without rely-
+ing on parallel corpora.
+1 

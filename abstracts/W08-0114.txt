@@ -1,0 +1,16 @@
+
+This paper presents a novel framework for
+building symbol-level control modules of an-
+imated agents and robots having a spoken di-
+alogue interface. It features distributed mod-
+ules called experts each of which is special-
+ized to perform certain kinds of tasks. A com-
+mon interface that all experts must support is
+specified, and any kind of expert can be incor-
+porated if it has the interface. Several modules
+running in parallel coordinate the experts by
+accessing them through the interface, so that
+the whole system can achieve flexible control,
+such as interruption handling and parallel task
+execution.
+1 

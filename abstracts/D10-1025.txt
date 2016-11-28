@@ -1,0 +1,27 @@
+
+Representing documents by vectors that are
+independent of language enhances machine
+translation and multilingual text categoriza-
+tion. We use discriminative training to create
+a projection of documents from multiple lan-
+guages into a single translingual vector space.
+We explore two variants to create these pro-
+jections: Oriented Principal Component Anal-
+ysis (OPCA) and Coupled Probabilistic Latent
+Semantic Analysis (CPLSA). Both of these
+variants start with a basic model of docu-
+ments (PCA and PLSA). Each model is then
+made discriminative by encouraging compa-
+rable document pairs to have similar vector
+representations. We evaluate these algorithms
+on two tasks: parallel document retrieval
+for Wikipedia and Europarl documents, and
+cross-lingual text classification on Reuters.
+The two discriminative variants, OPCA and
+CPLSA, significantly outperform their corre-
+sponding baselines. The largest differences in
+performance are observed on the task of re-
+trieval when the documents are only compa-
+rable and not parallel. The OPCA method is
+shown to perform best.
+1 

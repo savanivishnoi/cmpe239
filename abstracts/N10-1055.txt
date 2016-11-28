@@ -1,0 +1,16 @@
+
+Understanding query ambiguity in web search
+remains an important open problem. In this
+paper we reexamine query ambiguity by ana-
+lyzing the result clickthrough data. Previously
+proposed clickthrough-based metrics of query
+ambiguity tend to conflate informational and
+ambiguous queries. To distinguish between
+these query classes, we introduce novel met-
+rics based on the entropy of the click distri-
+butions of individual searchers. Our exper-
+iments over a clickthrough log of commer-
+cial search engine demonstrate the benefits of
+our approach for distinguishing informational
+from truly ambiguous queries.
+1 

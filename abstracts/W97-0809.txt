@@ -1,0 +1,21 @@
+ 
+This paper presents a method for en- 
+abling users to specialize an information 
+extraction system to satisfy their particular 
+needs. The method allows the user to man- 
+ually demonstrate the creation of seman- 
+tic nodes and transitions while scanning a
+sample text article using a graphical user 
+interface. On the basis of such examples, 
+the system creates rules that translate text 
+to semantic nets; then it generalizes these 
+rules so that they can apply to a broad class 
+of text instead of only the training articles. 
+Finally, the generalized rules are used to 
+scan large numbers of articles to extract 
+the particular information targeted by the 
+user. This paper concentrates on our de- 
+sign of the generalization mechanism which 
+self modifies to precisely match the user's 
+specification. 
+1 

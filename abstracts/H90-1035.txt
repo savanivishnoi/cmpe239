@@ -1,0 +1,36 @@
+ 
+For large-vocabulary continuous speech recognition, 
+the goal of training is to model phonemes with enough 
+precision so that from the models one could reconstruct a 
+sequence of acoustic parameters that accurately represents he 
+spectral characteristics of any naturally-occurring sentence, 
+including all coarticuladon effects that arise either between 
+phonemes in a word or across word boundaries. The aim at 
+Dragon Systems is to collect and process enough training 
+data to accomplish this goal for all of natural spoken 
+English rather than for any one restricted task. 
+The basic unit that must be trained is the "phoneme in 
+context" (PIC), a sequence of three phonemes accompanied 
+by a code for prepausal lengthening. At present, syllable 
+and word boundaries are ignored in defining PICs. 
+More than 16,000 training tokens, half isolated words 
+and half short phrases, were phonemically abeled by a semi- 
+. automatic procedure using hidden Markov models. To model 
+a phoneme in a specific context, a weighted average is 
+constructed from training data involving the desired context 
+and acoustically similar contexts. 
+For use in HMM continuous-speech recognition, each 
+PIC is converted to a Markov model that is a concatenation 
+of one to six node models. No phoneme, in all its contexts, 
+requires more than 64 distinct nodes, and the total number of 
+node models ("phonemic segments") required to construct all 
+PICs is only slightly more than 2000. As a result, the entire 
+set of PICs can be adapted to a new speaker on the basis of a 
+couple of thousand isolated words or a few hundred sentences 
+of connected speech. 
+The advantage of this approach to training is that it is 
+not task-specific. From a single training database, Dragon 
+Systems has constructed models for use in a 30,000-word 
+isolated-word recognizer, for connected digits, and for two 
+different thousand-word continuous-speech tasks. 
+1. 

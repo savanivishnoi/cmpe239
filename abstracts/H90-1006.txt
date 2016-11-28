@@ -1,0 +1,19 @@
+ 
+We describe the modification of a grammar to take ad- 
+vantage of prosodic information automatically extracted 
+from speech. The work includes (1) the development 
+of an integer "break index" representation f prosodic 
+phrase boundary information, (2) the automatic detec- 
+tion of prosodic phrase breaks using a hidden Markov 
+model on relative duration of phonetic segments, and 
+(3) the integration of the prosodic phrase break informa- 
+tion in SRI's Spoken Language System to rule out alter- 
+native parses in otherwise syntactically ambiguous sen- 
+tences. Initial experiments using ambiguous sentences 
+read by radio announcers achieved good results in both 
+detection and parsing. Automatically detected phrase 
+break indices had a correlation greater than 0.86 with 
+hand-labeled data for speaker-dependent models; and, 
+in a subset of sentences with preposition ambiguities, 
+the number of parses was reduced by 25% with a simple 
+grammar modification. 

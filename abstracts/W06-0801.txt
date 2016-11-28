@@ -1,0 +1,31 @@
+ 
+Our research aim here is to build a CLIR 
+system that works for a language pair 
+with poor resources where the source 
+language (e.g. Indonesian) has limited 
+language resources. Our Indonesian-
+Japanese CLIR system employs the 
+existing Japanese IR system, and we 
+focus our research on the Indonesian-
+Japanese query translation. There are two 
+problems in our limited resource query 
+translation: the OOV problem and the 
+translation ambiguity. The OOV problem 
+is handled using target language?s 
+resources (English-Japanese dictionary 
+and Japanese proper name dictionary). 
+The translation ambiguity is handled 
+using a Japanese monolingual corpus in 
+our translation filtering. We select the 
+final translation set using the mutual 
+information score and the TF?IDF score. 
+The result on NTCIR 3 (NII-NACSIS 
+Test Collection for IR Systems) Web 
+Retrieval Task shows that the translation 
+method achieved a higher IR score than 
+the transitive machine translation (using 
+Kataku (Indonesian-English) and 
+Babelfish/ Excite (English-Japanese) 
+engine) result. The best result achieved 
+about 49% of the monolingual retrieval. 
+1 

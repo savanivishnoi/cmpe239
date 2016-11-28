@@ -1,0 +1,29 @@
+
+Multiword Expressions (MWEs) are one
+of the stumbling blocks for more precise
+Natural Language Processing (NLP) sys-
+tems. Particularly, the lack of coverage
+of MWEs in resources can impact nega-
+tively on the performance of tasks and ap-
+plications, and can lead to loss of informa-
+tion or communication errors. This is es-
+pecially problematic in technical domains,
+where a significant portion of the vocab-
+ulary is composed of MWEs. This pa-
+per investigates the use of a statistically-
+driven alignment-based approach to the
+identification of MWEs in technical cor-
+pora. We look at the use of several sources
+of data, including parallel corpora, using
+English and Portuguese data from a corpus
+of Pediatrics, and examining how a sec-
+ond language can provide relevant cues for
+this tasks. We report results obtained by
+a combination of statistical measures and
+linguistic information, and compare these
+to the reported in the literature. Such an
+approach to the (semi-)automatic identifi-
+cation of MWEs can considerably speed
+up lexicographic work, providing a more
+targeted list of MWE candidates.
+1 

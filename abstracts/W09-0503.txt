@@ -1,0 +1,18 @@
+
+In this paper, we describe the use of lexi-
+cal and semantic features for topic classi-
+fication in dictated medical reports. First,
+we employ SVM classification to assign
+whole reports to coarse work-type cate-
+gories. Afterwards, text segments and
+their topic are identified in the output
+of automatic speech recognition. This
+is done by assigning work-type-specific
+topic labels to each word based on fea-
+tures extracted from a sliding context win-
+dow, again using SVM classification uti-
+lizing semantic features. Classifier stack-
+ing is then used for a posteriori error cor-
+rection, yielding a further improvement in
+classification accuracy.
+1 

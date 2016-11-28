@@ -1,0 +1,13 @@
+
+This paper summarizes our approach to the
+Semeval 2007 shared task on ?Classifica-
+tion of Semantic Relations between Nom-
+inals?. Our overall strategy is to develop
+machine-learning classifiers making use of
+a few easily computable and effective fea-
+tures, selected independently for each clas-
+sifier in wrapper experiments. We train two
+types of classifiers for each of the seven re-
+lations: with and without WordNet informa-
+tion.
+1 

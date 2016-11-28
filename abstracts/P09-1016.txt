@@ -1,0 +1,22 @@
+
+This paper studies transliteration align-
+ment, its evaluation metrics and applica-
+tions. We propose a new evaluation met-
+ric, alignment entropy, grounded on the
+information theory, to evaluate the align-
+ment quality without the need for the gold
+standard reference and compare the metric
+with F -score. We study the use of phono-
+logical features and affinity statistics for
+transliteration alignment at phoneme and
+grapheme levels. The experiments show
+that better alignment consistently leads to
+more accurate transliteration. In transliter-
+ation modeling application, we achieve a
+mean reciprocal rate (MRR) of 0.773 on
+Xinhua personal name corpus, a signifi-
+cant improvement over other reported re-
+sults on the same corpus. In transliteration
+validation application, we achieve 4.48%
+equal error rate on a large LDC corpus.
+1 

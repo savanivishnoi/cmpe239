@@ -1,0 +1,33 @@
+
+The linguistically transparentMEANT and
+UMEANT metrics are tunable, simple
+yet highly effective, fully automatic ap-
+proximation to the human HMEANT MT
+evaluation metric which measures seman-
+tic frame similarity between MT output
+and reference translations. In this pa-
+per, we describe HKUST?s submission
+to the WMT 2013 metrics evaluation
+task, MEANT and UMEANT. MEANT
+is optimized by tuning a small number
+of weights?one for each semantic role
+label?so as to maximize correlation with
+human adequacy judgment on a devel-
+opment set. UMEANT is an unsuper-
+vised version where weights for each se-
+mantic role label are estimated via an in-
+expensive unsupervised approach, as op-
+posed to MEANT?s supervised method re-
+lying on more expensive grid search. In
+this paper, we present a battery of exper-
+iments for optimizing MEANT on differ-
+ent development sets to determine the set
+of weights that maximize MEANT?s accu-
+racy and stability. Evaluated on test sets
+from the WMT 2012/2011 metrics evalua-
+tion, bothMEANT and UMEANT achieve
+competitive correlations with human judg-
+ments using nothing more than a monolin-
+gual corpus and an automatic shallow se-
+mantic parser.
+1 

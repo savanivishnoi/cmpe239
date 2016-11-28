@@ -1,0 +1,12 @@
+
+Segmentation of utterances and annotation
+as dialogue acts can be helpful for sev-
+eral modules of dialogue systems. In this
+work, we study a statistical machine learn-
+ing model to perform these tasks simulta-
+neously using lexical features and incorpo-
+rating deterministic syntactic restrictions.
+There is a slight improvement in both seg-
+mentation and labelling due to these re-
+strictions.
+1 

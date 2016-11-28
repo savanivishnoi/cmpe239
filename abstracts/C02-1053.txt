@@ -1,0 +1,20 @@
+
+Extracting sentences that contain important in-
+formation from a document is a form of text
+summarization. The technique is the key to the
+automatic generation of summaries similar to
+those written by humans. To achieve such ex-
+traction, it is important to be able to integrate
+heterogeneous pieces of information. One ap-
+proach, parameter tuning by machine learning,
+has been attracting a lot of attention. This pa-
+per proposes a method of sentence extraction
+based on Support Vector Machines (SVMs). To
+confirm the method?s performance, we conduct
+experiments that compare our method to three
+existing methods. Results on the Text Summa-
+rization Challenge (TSC) corpus show that our
+method offers the highest accuracy. Moreover,
+we clarify the different features effective for ex-
+tracting different document genres.
+1 

@@ -1,0 +1,21 @@
+ 
+Recognizing the emotive meaning of text 
+can add another dimension to the under-
+standing of text. We study the task of 
+automatically categorizing sentences in a 
+text into Ekman?s six basic emotion cate-
+gories. We experiment with corpus-based 
+features as well as features derived from 
+two emotion lexicons. One lexicon is 
+automatically built using the classification 
+system of Roget?s Thesaurus, while the 
+other consists of words extracted from 
+WordNet-Affect. Experiments on the data 
+obtained from blogs show that a combina-
+tion of corpus-based unigram features with 
+emotion-related features provides superior 
+classification performance. We achieve F-
+measure values that outperform the rule-
+based baseline method for all emotion 
+classes. 
+1 

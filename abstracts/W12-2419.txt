@@ -1,0 +1,19 @@
+
+Block-LDA is a topic modeling approach to
+perform data fusion between entity-annotated
+text documents and graphs with entity-entity
+links. We evaluate Block-LDA in the yeast bi-
+ology domain by jointly modeling PubMed R?
+articles and yeast protein-protein interaction
+networks. The topic coherence of the emer-
+gent topics and the ability of the model to re-
+trieve relevant scientific articles and proteins
+related to the topic are compared to that of a
+text-only approach that does not make use of
+the protein-protein interaction matrix. Eval-
+uation of the results by biologists show that
+the joint modeling results in better topic co-
+herence and improves retrieval performance in
+the task of identifying top related papers and
+proteins.
+1 

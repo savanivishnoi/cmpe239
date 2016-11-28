@@ -1,0 +1,14 @@
+
+The task of automatically acquiring semanti-
+cally related words have led people to study
+distributional similarity. The distributional
+hypothesis states that words that are simi-
+lar share similar contexts. In this paper we
+present a technique that aims at improving
+the performance of a syntax-based distribu-
+tional method by augmenting the original in-
+put of the system (syntactic co-occurrences)
+with the output of the system (nearest neigh-
+bours). This technique is based on the idea of
+the transitivity of similarity.
+1 

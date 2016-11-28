@@ -1,0 +1,23 @@
+ 
+Due to grammatical similarities, even a 
+one-to-one mapping between Korean and 
+Japanese words (or morphemes) can usually 
+result in a high quality Korean-to-Japanese 
+machine translation. However, multi-word 
+translation units (MWTU) such as idioms, 
+compound words, etc., need an n-to-m 
+mapping, and their component words often 
+do not appear adjacently, resulting in a 
+discontinuous MWTU. During translation, 
+the MWTU should be treated as one lexical 
+item rather than a phrase. In this paper, we 
+define the types of MWTUs and propose 
+their representation a d recognition method 
+depending on their characteristics in 
+Korean-to-Japanese MT system. In an 
+experimental evaluation, the proposed 
+method turned out to be very effective in 
+handling MWTUs, showing an average 
+recognition accuracy of 98.4% and a fast 
+recognition time. 
+1 

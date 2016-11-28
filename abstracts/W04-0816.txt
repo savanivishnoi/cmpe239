@@ -1,0 +1,20 @@
+
+This paper describes the exemplar based ap-
+proach presented by UNED at Senseval-3. In-
+stead of representing contexts as bags of terms
+and defining a similarity measure between con-
+texts, we propose to represent terms as bags
+of contexts and define a similarity measure be-
+tween terms. Thus, words, lemmas and senses
+are represented in the same space (the context
+space), and similarity measures can be defined
+between them. New contexts are transformed
+into this representation in order to calculate
+their similarity to the candidate senses. We
+show how standard similarity measures obtain
+better results in this framework. A new similar-
+ity measure in the context space is proposed for
+selecting the senses and performing disambigua-
+tion. Results of this approach at Senseval-3 are
+here reported.
+1 

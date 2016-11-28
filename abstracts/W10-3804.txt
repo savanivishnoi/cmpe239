@@ -1,0 +1,21 @@
+ 
+A typical phrase-based machine transla-
+tion (PBMT) system uses phrase pairs 
+extracted from word-aligned parallel 
+corpora. All phrase pairs that are consis-
+tent with word alignments are collected. 
+The resulting phrase table is very large 
+and includes many non-syntactic phrases 
+which may not be necessary. We propose 
+to filter the phrase table based on source 
+language syntactic constraints. Rather 
+than filter out all non-syntactic phrases, 
+we only apply syntactic constraints when 
+there is phrase segmentation ambiguity 
+arising from unaligned words. Our 
+method is very simple and yields a 
+24.38% phrase pair reduction and a 0.52 
+BLEU point improvement when com-
+pared to a baseline PBMT system with 
+full-size tables. 
+1 

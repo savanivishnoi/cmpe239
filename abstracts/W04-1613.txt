@@ -1,0 +1,23 @@
+ 
+Urdu is spoken by more than 100 million 
+people across a score countries and is the 
+national language of Pakistan (http://www. 
+ethnologue.com).  There is a great need for 
+developing a text-to-speech system for Urdu 
+because this population has low literacy rate 
+and therefore speech interface would greatly 
+assist in providing them access to information.  
+One of the significant parts of a text-to-speech 
+system is a natural language processor which 
+takes textual input and converts it into an 
+annotated phonetic string.  To enable this, it is 
+necessary to develop models which map 
+textual input onto phonetic content.  These 
+models may be very complex for various 
+languages having unpredictable behaviour 
+(e.g. English), but Urdu shows a relatively 
+regular behaviour and thus Urdu pronunciation 
+may be modelled from Urdu text by defining 
+fairly regular rules.  These rules have been 
+identified and explained in this paper. 
+1 

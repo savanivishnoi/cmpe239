@@ -1,0 +1,19 @@
+
+We describe a method for assigning English
+tense and aspect in a system that realizes sur-
+face text for symbolically encoded narratives. Our
+testbed is an encoding interface in which proposi-
+tions that are attached to a timeline must be real-
+ized from several temporal viewpoints. This in-
+volves a mapping from a semantic encoding of
+time to a set of tense/aspect permutations. The
+encoding tool realizes each permutation to give
+a readable, precise description of the narrative so
+that users can check whether they have correctly
+encoded actions and statives in the formal repre-
+sentation. Our method selects tenses and aspects
+for individual event intervals as well as subinter-
+vals (with multiple reference points), quoted and
+unquoted speech (which reassign the temporal fo-
+cus), and modal events such as conditionals.
+1 

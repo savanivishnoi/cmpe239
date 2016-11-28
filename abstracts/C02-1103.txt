@@ -1,0 +1,27 @@
+
+Automatic text categorization is a problem
+of automatically assigning text documents to
+predefined categories. In order to classify
+text documents, we must extract good
+features from them. In previous research, a
+text document is commonly represented by
+the term frequency and the inverted
+document frequency of each feature. Since
+there is a difference between important
+sentences and unimportant sentences in a
+document, the features from more important
+sentences should be considered more than
+other features. In this paper, we measure the
+importance of sentences using text
+summarization techniques. Then a document
+is represented as a vector of features with
+different weights according to the
+importance of each sentence. To verify our
+new method, we conducted experiments on
+two language newsgroup data sets: one
+written by English and the other written by
+Korean. Four kinds of classifiers were used
+in our experiments: Na?ve Bayes, Rocchio,
+k-NN, and SVM. We observed that our new
+method made a significant improvement in
+all classifiers and both data sets.

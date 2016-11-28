@@ -1,0 +1,26 @@
+
+In this paper, we show how to construct a
+transfer dictionary automatically. Dictionary
+construction, one of the most difficult tasks
+in developing a machine translation system, is
+expensive. To avoid this problem, we investi-
+gate how we build a dictionary using existing
+linguistic resources. Our algorithm can be ap-
+plied to any language pairs, but for the present
+we focus on building a Korean-to-Japanese
+dictionary using English as a pivot. We
+attempt three ways of automatic construction
+to corroborate the effect of the directionality
+of dictionaries. First, we introduce ?one-time
+look up?method using a Korean-to-English and
+a Japanese-to-English dictionary. Second, we
+show a method using ?overlapping constraint?
+with a Korean-to-English dictionary and an
+English-to-Japanese dictionary. Third, we con-
+sider another alternative method rarely used
+for building a dictionary: an English-to-Korean
+dictionary and English-to-Japanese dictionary.
+We found that the first method is the most
+effective and the best result can be obtained
+from combining the three methods.
+1 

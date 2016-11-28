@@ -1,0 +1,20 @@
+
+This paper addresses context matching in tex-
+tual inference. We formulate the task under
+the Contextual Preferences framework which
+broadly captures contextual aspects of infer-
+ence. We propose a generic classification-
+based scheme under this framework which co-
+herently attends to context matching in infer-
+ence and may be employed in any inference-
+based task. As a test bed for our scheme we use
+the Name-based Text Categorization (TC) task.
+We define an integration of Contextual Prefer-
+ences into the TC setting and present a concrete
+self-supervised model which instantiates the
+generic scheme and is applied to address con-
+text matching in the TC task. Experiments on
+standard TC datasets show that our approach
+outperforms the state of the art in context mod-
+eling for Name-based TC.
+1 

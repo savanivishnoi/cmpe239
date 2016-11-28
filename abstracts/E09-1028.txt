@@ -1,0 +1,25 @@
+
+Mobile voice-enabled search is emerging
+as one of the most popular applications
+abetted by the exponential growth in the
+number of mobile devices. The automatic
+speech recognition (ASR) output of the
+voice query is parsed into several fields.
+Search is then performed on a text corpus
+or a database. In order to improve the ro-
+bustness of the query parser to noise in the
+ASR output, in this paper, we investigate
+two different methods to query parsing.
+Both methods exploit multiple hypotheses
+from ASR, in the form of word confusion
+networks, in order to achieve tighter cou-
+pling between ASR and query parsing and
+improved accuracy of the query parser. We
+also investigate the results of this improve-
+ment on search accuracy. Word confusion-
+network based query parsing outperforms
+ASR 1-best based query-parsing by 2.7%
+absolute and the search performance im-
+proves by 1.8% absolute on one of our data
+sets.
+1 

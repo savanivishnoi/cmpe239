@@ -1,0 +1,10 @@
+ 
+This paper describes experience with the 
+developed of tools for CL education using Java. 
+Some are standalone Java applets and others are 
+clients which connect to a parsing server using a 
+LISP-based backend. The principal benefits are 
+platform independence and reusability rather 
+than world-wide web access, although intranet 
+technology reduces the need for special purpose 
+labs. 

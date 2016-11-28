@@ -1,0 +1,21 @@
+
+In this paper, we present an efficient query
+selection algorithm for the retrieval of web
+text data to augment a statistical language
+model (LM). The number of retrieved rel-
+evant documents is optimized with respect
+to the number of queries submitted.
+The querying scheme is applied in the do-
+main of SMS text messages. Continuous
+speech recognition experiments are con-
+ducted on three languages: English, Span-
+ish, and French. The web data is utilized
+for augmenting in-domain LMs in general
+and for adapting the LMs to a user-specific
+vocabulary. Word error rate reductions
+of up to 6.6 % (in LM augmentation) and
+26.0 % (in LM adaptation) are obtained in
+setups, where the size of the web mixture
+LM is limited to the size of the baseline
+in-domain LM.
+1 

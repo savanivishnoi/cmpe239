@@ -1,0 +1,14 @@
+
+A corpus-based technique is described to
+improve the efficiency of wide-coverage
+high-accuracy parsers. By keeping track
+of the derivation steps which lead to the
+best parse for a very large collection of
+sentences, the parser learns which parse
+steps can be filtered without significant
+loss in parsing accuracy, but with an im-
+portant increase in parsing efficiency. An
+interesting characteristic of our approach
+is that it is self-learning, in the sense that
+it uses unannotated corpora.
+1 

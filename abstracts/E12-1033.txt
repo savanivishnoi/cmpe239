@@ -1,0 +1,22 @@
+
+In this paper, we compare three different
+generalization methods for in-domain and
+cross-domain opinion holder extraction be-
+ing simple unsupervised word clustering,
+an induction method inspired by distant
+supervision and the usage of lexical re-
+sources. The generalization methods are
+incorporated into diverse classifiers. We
+show that generalization causes significant
+improvements and that the impact of im-
+provement depends on the type of classifier
+and on how much training and test data dif-
+fer from each other. We also address the
+less common case of opinion holders being
+realized in patient position and suggest ap-
+proaches including a novel (linguistically-
+informed) extraction method how to detect
+those opinion holders without labeled train-
+ing data as standard datasets contain too
+few instances of this type.
+1 

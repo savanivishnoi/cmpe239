@@ -1,0 +1,16 @@
+
+This paper proposes a novel method to extract
+named entities including unfamiliar words
+which do not occur or occur few times in a
+training corpus using a large unannotated cor-
+pus. The proposed method consists of two
+steps. The first step is to assign the most simi-
+lar and familiar word to each unfamiliar word
+based on their context vectors calculated from
+a large unannotated corpus. After that, tra-
+ditional machine learning approaches are em-
+ployed as the second step. The experiments of
+extracting Japanese named entities from IREX
+corpus and NHK corpus show the effective-
+ness of the proposed method.
+1 

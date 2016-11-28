@@ -1,0 +1,12 @@
+
+Dynamic Programming (DP) is an important class of algorithms
+widely used in many areas of speech and language processing. Recently
+there have been a series of work trying to formalize many instances of
+DP algorithms under algebraic and graph-theoretic frameworks. This
+tutorial surveys two such frameworks, namely semirings and directed
+hypergraphs, and draws connections between them. We formalize two
+particular types of DP algorithms under each of these frameworks: the
+Viterbi-style topological algorithms and the Dijkstra-style best-first
+algorithms. Wherever relevant, we also discuss typical applications of
+these algorithms in Natural Language Processing.
+1 

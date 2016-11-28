@@ -1,0 +1,32 @@
+
+The extraction of protein-protein interactions
+(PPIs) reported in scientific publications is one
+of the most studied topics in Text Mining in
+the Life Sciences, as such algorithms can sub-
+stantially decrease the effort for databases cu-
+rators. The currently best methods for this
+task are based on analyzing the dependency
+tree (DT) representation of sentences. Many
+approaches exploit only topological features
+and thus do not yet fully exploit the informa-
+tion contained in DTs. We show that incor-
+porating the grammatical information encoded
+in the types of the dependencies in DTs no-
+ticeably improves extraction performance by
+using a pattern matching approach. We au-
+tomatically infer a large set of linguistic pat-
+terns using only information about interact-
+ing proteins. Patterns are then refined based
+on shallow linguistic features and the seman-
+tics of dependency types. Together, these lead
+to a total improvement of 17.2 percent points
+in F1, as evaluated on five publicly available
+PPI corpora. More than half of that improve-
+ment is gained by properly handling depen-
+dency types. Our method provides a general
+framework for building task-specific relation-
+ship extraction methods that do not require an-
+notated training data. Furthermore, our obser-
+vations offer methods to improve upon rela-
+tion extraction approaches.
+1 

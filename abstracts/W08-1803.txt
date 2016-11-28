@@ -1,0 +1,24 @@
+
+Passage retrieval is used in QA to fil-
+ter large document collections in order
+to find text units relevant for answering
+given questions. In our QA system we ap-
+ply standard IR techniques and index-time
+passaging in the retrieval component. In
+this paper we investigate several ways of
+dividing documents into passages. In par-
+ticular we look at semantically motivated
+approaches (using coreference chains and
+discourse clues) compared with simple
+window-based techniques. We evaluate
+retrieval performance and the overall QA
+performance in order to study the impact
+of the different segmentation approaches.
+From our experiments we can conclude
+that the simple techniques using fixed-
+sized windows clearly outperform the se-
+mantically motivated approaches, which
+indicates that uniformity in size seems to
+be more important than semantic coher-
+ence in our setup.
+1 

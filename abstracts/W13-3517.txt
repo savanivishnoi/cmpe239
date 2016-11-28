@@ -1,0 +1,27 @@
+
+Coreference resolution systems can benefit
+greatly from inclusion of global context,
+and a number of recent approaches have
+demonstrated improvements when precom-
+puting an alignment to external knowledge
+sources. However, since alignment itself
+is a challenging task and is often noisy, ex-
+isting systems either align conservatively,
+resulting in very few links, or combine the
+attributes of multiple candidates, leading
+to a conflation of entities. Our approach
+instead performs joint inference between
+within-document coreference and entity
+linking, maintaining ranked lists of candi-
+date entities that are dynamically merged
+and reranked during inference. Further, we
+incorporate a large set of surface string vari-
+ations for each entity by using anchor texts
+from the web that link to the entity. These
+forms of global context enables our system
+to improve classifier-based coreference by
+1.09 B3 F1 points, and improve over the
+previous state-of-art by 0.41 points, thus
+introducing a new state-of-art result on the
+ACE 2004 data.
+1 

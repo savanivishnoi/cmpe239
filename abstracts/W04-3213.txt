@@ -1,0 +1,15 @@
+
+We present an unsupervised method for labelling
+the arguments of verbs with their semantic roles.
+Our bootstrapping algorithm makes initial unam-
+biguous role assignments, and then iteratively up-
+dates the probability model on which future assign-
+ments are based. A novel aspect of our approach
+is the use of verb, slot, and noun class informa-
+tion as the basis for backing off in our probability
+model. We achieve 50?65% reduction in the error
+rate over an informed baseline, indicating the po-
+tential of our approach for a task that has heretofore
+relied on large amounts of manually generated train-
+ing data.
+1 

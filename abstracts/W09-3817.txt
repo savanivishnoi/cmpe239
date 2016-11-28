@@ -1,0 +1,20 @@
+
+We present a method for dependency and
+case structure analysis that captures the
+consistency between intra-clause relations
+(i.e., case structures or predicate-argument
+structures) and inter-clause relations. We
+assess intra-clause relations on the basis
+of case frames and inter-clause relations
+on the basis of transition knowledge be-
+tween case frames. Both knowledge bases
+are automatically acquired from a mas-
+sive amount of parses of a Web corpus.
+The significance of this study is that the
+proposed method selects the best depen-
+dency and case structure that are con-
+sistent within each clause and between
+clauses. We confirm that this method con-
+tributes to the improvement of dependency
+parsing of Japanese.
+1 

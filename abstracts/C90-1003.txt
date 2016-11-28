@@ -1,0 +1,28 @@
+ion and Anaphora 
+Mark Johnson 
+Brown University 
+Martin Kay 
+Xerox Pale Alto Research Center and Stanford University 
+Abstract 
+This paper describes a way of expressing syn- 
+tactic rules that ~kssociate semantic formulae 
+with strings, but in a manner thai is inde- 
+pendent of the syntactic details of these for- 
+mulac. In particular we show how the same 
+rules construct predicate argument formulae 
+in the style of Montague grammar\[131, rap_ 
+resentations reminiscent of situation seman- 
+tics(Barwise and Perry 121) and of the event 
+logic of Davidson \[5\], or representations in- 
+spired by the discourse representations pro- 
+posed by Kamp \[191. The idea is that seman- 
+tic representations are specilied indirectly us- 
+ing semantic onstruction operators, which en- 
+force an abstraction barrier between the gram- 
+mar and the semantic representations them- 
+selves. First we present a simple grammar 
+which is compatible with the three different 
+sets of constructors for the three formalisms. 
+We then extend the grammar to provide one 
+treatment that accounts for quantilier aising in 
+the three different semantic formalisms 

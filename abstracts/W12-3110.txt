@@ -1,0 +1,19 @@
+
+This paper describes a study on the contribu-
+tion of linguistically-informed features to the
+task of quality estimation for machine trans-
+lation at sentence level. A standard regression
+algorithm is used to build models using a com-
+bination of linguistic and non-linguistic fea-
+tures extracted from the input text and its ma-
+chine translation. Experiments with English-
+Spanish translations show that linguistic fea-
+tures, although informative on their own, are
+not yet able to outperform shallower features
+based on statistics from the input text, its
+translation and additional corpora. However,
+further analysis suggests that linguistic infor-
+mation is actually useful but needs to be care-
+fully combined with other features in order to
+produce better results.
+1 

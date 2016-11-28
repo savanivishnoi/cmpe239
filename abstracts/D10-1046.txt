@@ -1,0 +1,26 @@
+
+In situated dialogue humans often utter lin-
+guistic expressions that refer to extralinguistic
+entities in the environment. Correctly resolv-
+ing these references is critical yet challeng-
+ing for artificial agents partly due to their lim-
+ited speech recognition and language under-
+standing capabilities. Motivated by psycholin-
+guistic studies demonstrating a tight link be-
+tween language production and human eye
+gaze, we have developed approaches that in-
+tegrate naturally occurring human eye gaze
+with speech recognition hypotheses to resolve
+exophoric references in situated dialogue in
+a virtual world. In addition to incorporat-
+ing eye gaze with the best recognized spo-
+ken hypothesis, we developed an algorithm to
+also handle multiple hypotheses modeled as
+word confusion networks. Our empirical re-
+sults demonstrate that incorporating eye gaze
+with recognition hypotheses consistently out-
+performs the results obtained from processing
+recognition hypotheses alone. Incorporating
+eye gaze with word confusion networks fur-
+ther improves performance.
+1 

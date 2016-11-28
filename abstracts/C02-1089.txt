@@ -1,0 +1,37 @@
+  
+Syllable-to-word (STW) conversion is important 
+in Chinese phonetic input methods and speech 
+recognition. There are two major problems in 
+the STW conversion: (1) resolving the ambigu-
+ity caused by homonyms; (2) determining the 
+word segmentation. This paper describes a 
+noun-verb event-frame (NVEF) word identifier 
+that can be used to solve these problems effec-
+tively. Our approach includes (a) an NVEF 
+word-pair identifier and (b) other word identifi-
+ers for the non-NVEF portion.  
+Our experiment showed that the NVEF 
+word-pair identifier is able to achieve a 99.66% 
+STW accuracy for the NVEF related portion, 
+and by combining with other identifiers for the 
+non-NVEF portion, the overall STW accuracy is 
+96.50%.  
+The result of this study indicates that the NVEF 
+knowledge is very powerful for the STW con-
+version. In fact, numerous cases requiring dis-
+ambiguation in natural language processing fall 
+into such ?chicken-and-egg? situation. The 
+NVEF knowledge can be employed as a general 
+tool in such systems for disambiguating the 
+NVEF related portion independently (thus 
+breaking the chicken-and-egg situation) and 
+using that as a good fundamental basis to treat 
+the remaining portion. This shows that the 
+NVEF knowledge is likely to be important for 
+general NLP. To further expand its coverage, we 
+shall extend the study of NVEF to that of other 
+co-occurrence restrictions such as noun-noun 
+pairs, noun-adjective pairs and verb-adverb pairs. 
+We believe the STW accuracy can be further 
+improved with the additional knowledge. 
+1. 

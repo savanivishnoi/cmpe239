@@ -1,0 +1,22 @@
+
+The R2D2 systems for the English All-Words and
+Lexical Sample tasks at SENSEVAL-3 are based on
+several supervised and unsupervised methods com-
+bined by means of a voting procedure. Main goal
+was to take advantage of training data when avail-
+able, and getting maximum coverage with the help
+of methods that not need such learning examples.
+The results reported in this paper show that super-
+vised and unsupervised methods working in par-
+allel, and a simple sequence of preferences when
+comparing the answers of such methods, is a feasi-
+ble method. . .
+The whole system is, in fact, a cascade of deci-
+sions of what label to assign to a concrete instance
+based on the agreement of pairs of systems, when
+it is possible, or selecting the available answer from
+one of them. In this way, supervised are preferred to
+unsupervised methods, but these last ones are able
+to tag such words that not have available training
+data.
+1 

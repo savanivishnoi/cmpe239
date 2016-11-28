@@ -1,0 +1,24 @@
+ 
+The lack of readily-available large cor-
+pora of aligned monolingual sentence 
+pairs is a major obstacle to the devel-
+opment of Statistical Machine Transla-
+tion-based paraphrase models. In this 
+paper, we describe the use of annotated 
+datasets and Support Vector Machines 
+to induce larger monolingual para-
+phrase corpora from a comparable cor-
+pus of news clusters found on the 
+World Wide Web.  Features include: 
+morphological variants; WordNet 
+synonyms and hypernyms; log-
+likelihood-based word pairings dy-
+namically obtained from baseline sen-
+tence alignments; and formal string 
+features such as word-based edit dis-
+tance. Use of this technique dramati-
+cally reduces the Alignment Error Rate 
+of the extracted corpora over heuristic 
+methods based on position of the sen-
+tences in the text.  
+1 

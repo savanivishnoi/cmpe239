@@ -1,0 +1,14 @@
+
+We explore how to improve machine trans-
+lation systems by adding more translation
+data in situations where we already have
+substantial resources. The main challenge
+is how to buck the trend of diminishing re-
+turns that is commonly encountered. We
+present an active learning-style data solic-
+itation algorithm to meet this challenge.
+We test it, gathering annotations via Ama-
+zon Mechanical Turk, and find that we get
+an order of magnitude increase in perfor-
+mance rates of improvement.
+1 

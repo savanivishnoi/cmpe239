@@ -1,0 +1,15 @@
+
+In this paper, we propose a dependency
+based statistical system that uses discrim-
+inative techniques to train its parameters.
+We conducted experiments on an English-
+Hindi parallel corpora. The use of syntax
+(dependency tree) allows us to address the
+large word-reorderings between English
+and Hindi. And, discriminative training
+allows us to use rich feature sets, includ-
+ing linguistic features that are useful in the
+machine translation task. We present re-
+sults of the experimental implementation
+of the system in this paper.
+1 

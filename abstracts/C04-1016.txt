@@ -1,0 +1,21 @@
+ 
+In this paper we report on the results of an 
+experiment in designing resource-light metrics that 
+predict the potential translation complexity of a 
+text or a corpus of homogenous texts for state-of-
+the-art MT systems. We show that the best 
+prediction of translation complexity is given by the 
+average number of syllables per word (ASW). The 
+translation complexity metrics based on this 
+parameter are used to normalise automated MT 
+evaluation scores such as BLEU, which otherwise 
+are variable across texts of different types. The 
+suggested approach makes a fairer comparison 
+between the MT systems evaluated on different 
+corpora. The translation complexity metric was 
+integrated into two automated MT evaluation 
+packages ? BLEU and the Weighted N-gram 
+model. The extended MT evaluation tools are 
+available from the first author?s web site: 
+http://www.comp.leeds.ac.uk/bogdan/evalMT.html 
+1 

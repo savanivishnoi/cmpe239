@@ -1,0 +1,22 @@
+
+This paper presents a method for adapting
+a language generator to the strengths and
+weaknesses of a synthetic voice, thereby
+improving the naturalness of synthetic
+speech in a spoken language dialogue sys-
+tem. The method trains a discriminative
+reranker to select paraphrases that are pre-
+dicted to sound natural when synthesized.
+The ranker is trained on realizer and syn-
+thesizer features in supervised fashion, us-
+ing human judgements of synthetic voice
+quality on a sample of the paraphrases rep-
+resentative of the generator?s capability.
+Results from a cross-validation study indi-
+cate that discriminative paraphrase rerank-
+ing can achieve substantial improvements
+in naturalness on average, ameliorating the
+problem of highly variable synthesis qual-
+ity typically encountered with today?s unit
+selection synthesizers.
+1 

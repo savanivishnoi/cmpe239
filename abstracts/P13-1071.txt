@@ -1,0 +1,24 @@
+
+With the increasing amount of user gener-
+ated reference texts in the web, automatic
+quality assessment has become a key chal-
+lenge. However, only a small amount
+of annotated data is available for training
+quality assessment systems. Wikipedia
+contains a large amount of texts anno-
+tated with cleanup templates which iden-
+tify quality flaws. We show that the dis-
+tribution of these labels is topically bi-
+ased, since they cannot be applied freely
+to any arbitrary article. We argue that it
+is necessary to consider the topical restric-
+tions of each label in order to avoid a sam-
+pling bias that results in a skewed classifier
+and overly optimistic evaluation results.
+We factor out the topic bias by extracting
+reliable training instances from the revi-
+sion history which have a topic distribu-
+tion similar to the labeled articles. This ap-
+proach better reflects the situation a classi-
+fier would face in a real-life application.
+1 

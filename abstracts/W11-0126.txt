@@ -1,0 +1,11 @@
+
+We use data from a virtual world game for automated learning of words and grammatical con-
+structions and their meanings. The language data are an integral part of the social interaction in the
+game and consist of chat dialogue, which is only constrained by the cultural context, as set by the
+nature of the provided virtual environment. Building on previous work, where we extracted a vocab-
+ulary for concrete objects in the game by making use of the non-linguistic context, we now target
+NP/DP grammar, in particular determiners. We assume that we have captured the meanings of a set
+of determiners if we can predict which determiner will be used in a particular context. To this end we
+train a classifier that predicts the choice of a determiner on the basis of features from the linguistic
+and non-linguistic context.
+1 

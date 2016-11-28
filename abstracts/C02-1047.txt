@@ -1,0 +1,18 @@
+
+We describe a mechanism for the interpretation of
+arguments, which can cope with noisy conditions
+in terms of wording, beliefs and argument struc-
+ture. This is achieved through the application of
+the Minimum Message Length Principle to evalu-
+ate candidate interpretations. Our system receives
+as input a quasi-Natural Language argument, where
+propositions are presented in English, and gener-
+ates an interpretation of the argument in the form
+of a Bayesian network (BN). Performance was eval-
+uated by distorting the system?s arguments (gener-
+ated from a BN) and feeding them to the system for
+interpretation. In 75% of the cases, the interpreta-
+tions produced by the system matched precisely or
+almost-precisely the representation of the original
+arguments.
+1 

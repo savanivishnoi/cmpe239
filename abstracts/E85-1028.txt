@@ -1,0 +1,27 @@
+ 
+The paper describes a progrmn which has been 
+constructed to produce English strings from a 
+case-labellea depenaency representation. The 
+program uses an especially single and uniform 
+control structure with a well defined separation 
+of the different knowledge sources used during 
+ge~,eration. Furthermore, the majority of t/le 
+syst~n's knowledge is expressed in a declarative 
+form, so in priciple the generator ' s knowledge 
+bases could be used for purposes other than 
+gex,eration. The ge~erator uses a two-pass control 
+structure, the first translating from the 
+s~nantically orientated case-labelled dependency 
+structures into surface syntactic trees and the 
+second translating from these trees into English 
+str i~/s. 
+The generator is very flexible: it can be run in 
+such a way as to produce all the possible 
+syntactically legitimate variations on a giveJ, 
+utterance, and has built in facilities to do some 
+synon~s substitution. It has been used in a 
+nu, ber of application domains: notably as a part of 
+a free text retrieval system and as part of a 
+natural language front end to a relational database 
+system. 
+i. 

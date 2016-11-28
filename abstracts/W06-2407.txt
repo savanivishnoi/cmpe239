@@ -1,0 +1,24 @@
+
+Light verb constructions (LVCs), such as
+?make a call? in English, can be said
+to be complex predicates in which the
+verb plays only a functional role. LVCs
+pose challenges for natural language un-
+derstanding, as their semantics differ from
+usual predicate structures. We extend the
+existing corpus-based measures for iden-
+tifying LVCs between verb-object pairs
+in English, by proposing using new fea-
+tures that use mutual information and as-
+sess other syntactic properties. Our work
+also incorporates both existing and new
+LVC features into a machine learning ap-
+proach. We experimentally show that us-
+ing the proposed framework incorporat-
+ing all features outperforms previous work
+by 17%. As machine learning techniques
+model the trends found in training data,
+we believe the proposed LVC detection
+framework and statistical features is easily
+extendable to other languages.
+1 

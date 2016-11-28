@@ -1,0 +1,14 @@
+
+We demonstrate the value of using con-
+text in a new-information detection sys-
+tem that achieved the highest precision
+scores at the Text Retrieval Conference?s
+Novelty Track in 2004. In order to de-
+termine whether information within a sen-
+tence has been seen in material read pre-
+viously, our system integrates information
+about the context of the sentence with
+novel words and named entities within the
+sentence, and uses a specialized learning
+algorithm to tune the system parameters.
+1 

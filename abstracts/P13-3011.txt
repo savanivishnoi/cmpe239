@@ -1,0 +1,22 @@
+
+For expanding a corpus of clinical text, an-
+notated for named entities, a method that
+combines pre-tagging with a version of ac-
+tive learning is proposed. In order to fa-
+cilitate annotation and to avoid bias, two
+alternative automatic pre-taggings are pre-
+sented to the annotator, without reveal-
+ing which of them is given a higher con-
+fidence by the pre-tagging system. The
+task of the annotator is to select the cor-
+rect version among these two alternatives.
+To minimise the instances in which none
+of the presented pre-taggings is correct,
+the texts presented to the annotator are ac-
+tively selected from a pool of unlabelled
+text, with the selection criterion that one
+of the presented pre-taggings should have
+a high probability of being correct, while
+still being useful for improving the result
+of an automatic classifier.
+1 

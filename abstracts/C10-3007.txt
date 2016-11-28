@@ -1,0 +1,30 @@
+ 
+Online learning calls for instant assess-
+ment and feedback. YanFa is a system 
+developed to score online English-
+Chinese translation exercises with intel-
+ligent feedback for Chinese non-English 
+majors. With the aid of HowNet and 
+Cilin?Chinese Synonym Set (Extended 
+Version), the system adopts the hybrid 
+approach to scoring student translation 
+semantically. It compares student trans-
+lation with model translation by Syno-
+nym Matching, Sentence-pattern Match-
+ing and Word Similarity Calculating re-
+spectively. The experiment results show 
+that the correlation ratio between the 
+scores given by the system and by hu-
+man raters is 0.58, which indicates that 
+the algorithm is able to fulfill the task of 
+automated scoring. YanFa is also able to 
+provide feedback on syntactic mistakes 
+made by students through interacting 
+with them. It asks students to analyze 
+the English sentence elements. Then it 
+compares the student analyses with 
+those of the parser and points out the 
+parts which might lead to their wrong 
+understanding as well as their wrong 
+translating. 
+1 

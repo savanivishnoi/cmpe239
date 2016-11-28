@@ -1,0 +1,18 @@
+
+This paper extends previous work on ex-
+tracting parallel sentence pairs from com-
+parable data (Munteanu and Marcu, 2005).
+For a given source sentence S, a max-
+imum entropy (ME) classifier is applied
+to a large set of candidate target transla-
+tions . A beam-search algorithm is used
+to abandon target sentences as non-parallel
+early on during classification if they fall
+outside the beam. This way, our novel
+algorithm avoids any document-level pre-
+filtering step. The algorithm increases the
+number of extracted parallel sentence pairs
+significantly, which leads to a BLEU im-
+provement of about 1 % on our Spanish-
+English data.
+1 

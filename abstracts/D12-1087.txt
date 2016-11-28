@@ -1,0 +1,20 @@
+
+We apply two new automated semantic eval-
+uations to three distinct latent topic models.
+Both metrics have been shown to align with
+human evaluations and provide a balance be-
+tween internal measures of information gain
+and comparisons to human ratings of coher-
+ent topics. We improve upon the measures
+by introducing new aggregate measures that
+allows for comparing complete topic models.
+We further compare the automated measures
+to other metrics for topic models, compar-
+ison to manually crafted semantic tests and
+document classification. Our experiments re-
+veal that LDA and LSA each have different
+strengths; LDA best learns descriptive topics
+while LSA is best at creating a compact se-
+mantic representation of documents and words
+in a corpus.
+1 

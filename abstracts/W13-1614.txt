@@ -1,0 +1,17 @@
+
+We describe TWITA, the first corpus of Italian
+tweets, which is created via a completely au-
+tomatic procedure, portable to any other lan-
+guage. We experiment with sentiment anal-
+ysis on two datasets from TWITA: a generic
+collection and a topic-specific collection. The
+only resource we use is a polarity lexicon,
+which we obtain by automatically matching
+three existing resources thereby creating the
+first polarity database for Italian. We observe
+that albeit shallow, our simple system captures
+polarity distinctions matching reasonably well
+the classification done by human judges, with
+differences in performance across polarity val-
+ues and on the two sets.
+1 

@@ -1,0 +1,19 @@
+ 
+Selectional preference learning 
+methods have usually focused on word-
+to-class relations, e.g., a verb selects as 
+its subject a given nominal class. This 
+papers extends previous statistical 
+models to class-to-class preferences, 
+and presents a model that learns 
+selectional preferences for classes of 
+verbs. The motivation is twofold: 
+different senses of a verb may have 
+different preferences, and some classes 
+of verbs can share preferences. The 
+model is tested on a word sense 
+disambiguation task which uses 
+subject-verb and object-verb 
+relationships extracted from a small 
+sense-disambiguated corpus.  
+1 

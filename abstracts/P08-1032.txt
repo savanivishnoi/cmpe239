@@ -1,0 +1,18 @@
+
+The availability of databases of images labeled
+with keywords is necessary for developing and
+evaluating image annotation models. Dataset
+collection is however a costly and time con-
+suming task. In this paper we exploit the vast
+resource of images available on the web. We
+create a database of pictures that are natu-
+rally embedded into news articles and propose
+to use their captions as a proxy for annota-
+tion keywords. Experimental results show that
+an image annotation model can be developed
+on this dataset alne without the overhead of
+manual annotation. We also demonstrate that
+the news article associated with the picture
+can be used to boost image annotation perfor-
+mance.
+1 

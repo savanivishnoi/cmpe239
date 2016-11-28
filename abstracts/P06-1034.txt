@@ -1,0 +1,26 @@
+
+Spoken language generation for dialogue
+systems requires a dictionary of mappings
+between semantic representations of con-
+cepts the system wants to express and re-
+alizations of those concepts. Dictionary
+creation is a costly process; it is currently
+done by hand for each dialogue domain.
+We propose a novel unsupervised method
+for learning such mappings from user re-
+views in the target domain, and test it on
+restaurant reviews. We test the hypothesis
+that user reviews that provide individual
+ratings for distinguished attributes of the
+domain entity make it possible to map re-
+view sentences to their semantic represen-
+tation with high precision. Experimental
+analyses show that the mappings learned
+cover most of the domain ontology, and
+provide good linguistic variation. A sub-
+jective user evaluation shows that the con-
+sistency between the semantic representa-
+tions and the learned realizations is high
+and that the naturalness of the realizations
+is higher than a hand-crafted baseline.
+1 

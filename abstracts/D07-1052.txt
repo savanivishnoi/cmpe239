@@ -1,0 +1,17 @@
+
+We investigate methods to improve the re-
+call in coreference resolution by also trying
+to resolve those definite descriptions where
+no earlier mention of the referent shares the
+same lexical head (coreferent bridging). The
+problem, which is notably harder than iden-
+tifying coreference relations among men-
+tions which have the same lexical head, has
+been tackled with several rather different ap-
+proaches, and we attempt to provide a mean-
+ingful classification along with a quantita-
+tive comparison. Based on the different mer-
+its of the methods, we discuss possibilities to
+improve them and show how they can be ef-
+fectively combined.
+1 

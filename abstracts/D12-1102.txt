@@ -1,0 +1,24 @@
+
+This paper deals with the problem of predict-
+ing structures in the context of NLP. Typically,
+in structured prediction, an inference proce-
+dure is applied to each example independently
+of the others. In this paper, we seek to op-
+timize the time complexity of inference over
+entire datasets, rather than individual exam-
+ples. By considering the general inference
+representation provided by integer linear pro-
+grams, we propose three exact inference the-
+orems which allow us to re-use earlier solu-
+tions for certain instances, thereby completely
+avoiding possibly expensive calls to the infer-
+ence procedure. We also identify several ap-
+proximation schemes which can provide fur-
+ther speedup. We instantiate these ideas to the
+structured prediction task of semantic role la-
+beling and show that we can achieve a speedup
+of over 2.5 using our approach while retain-
+ing the guarantees of exactness and a further
+speedup of over 3 using approximations that
+do not degrade performance.
+1 

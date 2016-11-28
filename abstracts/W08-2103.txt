@@ -1,0 +1,31 @@
+
+Combination of features contributes to a
+significant improvement in accuracy on
+tasks such as part-of-speech (POS) tag-
+ging and text chunking, compared with us-
+ing atomic features. However, selecting
+combination of features on learning with
+large-scale and feature-rich training data
+requires long training time. We propose a
+fast boosting-based algorithm for learning
+rules represented by combination of fea-
+tures. Our algorithm constructs a set of
+rules by repeating the process to select sev-
+eral rules from a small proportion of can-
+didate rules. The candidate rules are gen-
+erated from a subset of all the features with
+a technique similar to beam search. Then
+we propose POS tagging and text chunk-
+ing based on our learning algorithm. Our
+tagger and chunker use candidate POS tags
+or chunk tags of each word collected from
+automatically tagged data. We evaluate
+our methods with English POS tagging and
+text chunking. The experimental results
+show that the training time of our algo-
+rithm are about 50 times faster than Sup-
+port Vector Machines with polynomial ker-
+nel on the average while maintaining state-
+of-the-art accuracy and faster classification
+speed.
+1 

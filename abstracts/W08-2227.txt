@@ -1,0 +1,15 @@
+
+We describe a graphical logical form as a semantic representation for text
+understanding. This representation was designed to bridge the gap be-
+tween highly expressive "deep" representations of logical forms and more
+shallow semantic encodings such as word senses and semantic relations.
+It preserves rich semantic content while allowing for compact ambigu-
+ity encoding and viable partial representations. We describe our system
+for semantic text processing, which has the TRIPS parser at the core,
+augmented with statistical preprocessing techniques and online lexical
+lookup. We also present an evaluation metric for the representation and
+use it to evaluate the performance of the TRIPS parser on the common
+task paragraphs.
+343
+344 Allen, Swift, and de Beaumont
+1 

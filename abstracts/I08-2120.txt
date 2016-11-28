@@ -1,0 +1,21 @@
+ 
+Parallel corpora are a crucial resource in 
+research fields such as cross-lingual infor-
+mation retrieval and statistical machine 
+translation, but only a few parallel corpora 
+with high quality are publicly available 
+nowadays. In this paper, we try to solve the 
+problem by developing a system that can 
+automatically mine high quality parallel 
+corpora from the World Wide Web. The 
+system contains a three-step process. The 
+system uses a web spider to crawl certain 
+hosts at first. Then candidate parallel web 
+page pairs are prepared from the 
+downloaded page set. At last, each candi-
+date pair is examined based on multiple 
+standards. We develop novel strategies for 
+the implementation of the system, which 
+are then proved to be rather effective by the 
+experiments towards a multilingual website. 
+1 

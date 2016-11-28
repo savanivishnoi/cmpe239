@@ -1,0 +1,28 @@
+
+This paper describes a novel Bayesian ap-
+proach to unsupervised topic segmentation.
+Unsupervised systems for this task are driven
+by lexical cohesion: the tendency of well-
+formed segments to induce a compact and
+consistent lexical distribution. We show that
+lexical cohesion can be placed in a Bayesian
+context by modeling the words in each topic
+segment as draws from a multinomial lan-
+guage model associated with the segment;
+maximizing the observation likelihood in such
+a model yields a lexically-cohesive segmenta-
+tion. This contrasts with previous approaches,
+which relied on hand-crafted cohesion met-
+rics. The Bayesian framework provides a prin-
+cipled way to incorporate additional features
+such as cue phrases, a powerful indicator of
+discourse structure that has not been previ-
+ously used in unsupervised segmentation sys-
+tems. Our model yields consistent improve-
+ments over an array of state-of-the-art systems
+on both text and speech datasets. We also
+show that both an entropy-based analysis and
+a well-known previous technique can be de-
+rived as special cases of the Bayesian frame-
+work.1
+1 

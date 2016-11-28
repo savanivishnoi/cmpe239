@@ -1,0 +1,27 @@
+
+We show how punctuation can be used to im-
+prove unsupervised dependency parsing. Our
+linguistic analysis confirms the strong connec-
+tion between English punctuation and phrase
+boundaries in the Penn Treebank. However,
+approaches that naively include punctuation
+marks in the grammar (as if they were words)
+do not perform well with Klein and Manning?s
+Dependency Model with Valence (DMV). In-
+stead, we split a sentence at punctuation and
+impose parsing restrictions over its fragments.
+Our grammar inducer is trained on the Wall
+Street Journal (WSJ) and achieves 59.5% ac-
+curacy out-of-domain (Brown sentences with
+100 or fewer words), more than 6% higher
+than the previous best results. Further evalu-
+ation, using the 2006/7 CoNLL sets, reveals
+that punctuation aids grammar induction in
+17 of 18 languages, for an overall average
+net gain of 1.3%. Some of this improvement
+is from training, but more than half is from
+parsing with induced constraints, in inference.
+Punctuation-aware decoding works with exist-
+ing (even already-trained) parsing models and
+always increased accuracy in our experiments.
+1 

@@ -1,0 +1,19 @@
+ 
+The Lincoln robust HMM recognizer has been con- 
+verted from a single Ganssian or Gaussian mixture pdf 
+per state to tied mixtures in which a single set of Gaus- 
+sians is shared between all states. There were some 
+initial difficulties caused by the use of mixture pruning 
+\[12\] but these were cured by using observation pruning. 
+Fixed weight smoothing of the mixture weights allowed 
+the use of word-boundary-context-dependent triphone 
+models for both speaker-dependent (SD) and speaker- 
+independent (SI) recognition. A second-differential ob- 
+servation stream further improved SI performance but 
+not SD performance. The overall recognition perfor- 
+mance for both SI and SD training is equivalent o 
+the best reported according to the October 89 Resource 
+Management test set. A new form of phonetic context 
+model, the semiphone, is also introduced. This new 
+model significantly reduces the number of states required 
+to model a vocabulary. 

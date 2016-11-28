@@ -1,0 +1,24 @@
+
+In this paper, we present a two-stage ap-
+proach to acquire Japanese unknown mor-
+phemes from text with full POS tags as-
+signed to them. We first acquire unknown
+morphemes only making a morphology-
+level distinction, and then apply semantic
+classification to acquired nouns. One ad-
+vantage of this approach is that, at the sec-
+ond stage, we can exploit syntactic clues
+in addition to morphological ones because
+as a result of the first stage acquisition, we
+can rely on automatic parsing. Japanese
+semantic classification poses an interest-
+ing challenge: proper nouns need to be
+distinguished from common nouns. It
+is because Japanese has no orthographic
+distinction between common and proper
+nouns and no apparent morphosyntactic
+distinction between them. We explore
+lexico-syntactic clues that are extracted
+from automatically parsed text and inves-
+tigate their effects.
+1 

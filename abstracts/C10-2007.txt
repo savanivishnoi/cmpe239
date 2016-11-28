@@ -1,0 +1,20 @@
+
+Query expansion consists in extending
+user queries with related terms in order
+to solve the lexical gap problem in Infor-
+mation Retrieval and Question Answer-
+ing. The main difficulty lies in identi-
+fying relevant expansion terms in order
+to prevent query drift. We propose to
+use definition clusters built from a com-
+bination of English lexical resources for
+query expansion. We apply the technique
+of pseudo relevance feedback to obtain
+expansion terms from definition clusters.
+We show that this expansion method out-
+performs both local feedback, based on
+the document collection, and expansion
+with WordNet synonyms, for the task of
+document retrieval in Question Answer-
+ing.
+1 

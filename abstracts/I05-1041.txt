@@ -1,0 +1,10 @@
+. This paper proposes an approach to improve statistical word align-
+ment with ensemble methods. Two ensemble methods are investigated: bagging 
+and cross-validation committees. On these two methods, both weighted voting 
+and unweighted voting are compared under the word alignment task. In addi-
+tion, we analyze the effect of different sizes of training sets on the bagging 
+method. Experimental results indicate that both bagging and cross-validation 
+committees improve the word alignment results regardless of weighted voting 
+or unweighted voting. Weighted voting performs consistently better than un-
+weighted voting on different sizes of training sets. 
+1   

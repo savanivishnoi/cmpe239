@@ -1,0 +1,19 @@
+ 
+Asian languages are far from most west-
+ern-style in their non-separate word se-
+quence especially Chinese. The 
+preliminary step of Asian-like language 
+processing is to find the word boundaries 
+between words. In this paper, we present 
+a general purpose model for both Chinese 
+word segmentation and named entity rec-
+ognition. This model was built on the 
+word sequence classification with prob-
+ability model, i.e., conditional random 
+fields (CRF). We used a simple feature set 
+for CRF which achieves satisfactory clas-
+sification result on the two tasks. Our 
+model achieved 91.00 in F rate in UPUC-
+Treebank data, and 78.71 for NER task. 
+ 
+1 

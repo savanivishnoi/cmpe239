@@ -1,0 +1,15 @@
+
+This paper presents an extension of Chi-
+ang?s hierarchical phrase-based (HPB) model,
+called Head-Driven HPB (HD-HPB), which
+incorporates head information in translation
+rules to better capture syntax-driven infor-
+mation, as well as improved reordering be-
+tween any two neighboring non-terminals at
+any stage of a derivation to explore a larger
+reordering search space. Experiments on
+Chinese-English translation on four NIST MT
+test sets show that the HD-HPB model signifi-
+cantly outperforms Chiang?s model with aver-
+age gains of 1.91 points absolute in BLEU.
+1 

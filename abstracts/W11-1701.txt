@@ -1,0 +1,25 @@
+
+A growing body of work has highlighted the
+challenges of identifying the stance a speaker
+holds towards a particular topic, a task that in-
+volves identifying a holistic subjective dispo-
+sition. We examine stance classification on
+a corpus of 4873 posts across 14 topics on
+ConvinceMe.net, ranging from the playful to
+the ideological. We show that ideological de-
+bates feature a greater share of rebuttal posts,
+and that rebuttal posts are significantly harder
+to classify for stance, for both humans and
+trained classifiers. We also demonstrate that
+the number of subjective expressions varies
+across debates, a fact correlated with the per-
+formance of systems sensitive to sentiment-
+bearing terms. We present results for iden-
+tifing rebuttals with 63% accuracy, and for
+identifying stance on a per topic basis that
+range from 54% to 69%, as compared to un-
+igram baselines that vary between 49% and
+60%. Our results suggest that methods that
+take into account the dialogic context of such
+posts might be fruitful.
+1 

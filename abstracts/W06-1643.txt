@@ -1,0 +1,16 @@
+
+We describe a probabilistic approach to content se-
+lection for meeting summarization. We use skip-
+chain Conditional Random Fields (CRF) to model
+non-local pragmatic dependencies between paired
+utterances such as QUESTION-ANSWER that typi-
+cally appear together in summaries, and show that
+these models outperform linear-chain CRFs and
+Bayesian models in the task. We also discuss dif-
+ferent approaches for ranking all utterances in a se-
+quence using CRFs. Our best performing system
+achieves 91.3% of human performance when evalu-
+ated with the Pyramid evaluation metric, which rep-
+resents a 3.9% absolute increase compared to our
+most competitive non-sequential classifier.
+1 

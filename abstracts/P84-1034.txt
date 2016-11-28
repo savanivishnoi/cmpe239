@@ -1,0 +1,332 @@
+ 
+Concept) 
+in+N8 (N8ffiMeans) NS+de/NS+niyoru 
+? No rules. +de/+no 
+? A kind of +wo-kite/ 
+idiom \[7\] to +wo-kita 
+be retrieved +wo-kakete/ 
+directly from +wo-kaketa 
+a lexicon. 
+English Examples 
+in California 
+in Spring 
+in two days 
+in my opinion 
+in Z-method 
+(speak) in English 
+in uniform 
+in spectacles 
+(i0) To get back to the previous findings (I) 
+and (2), the heuristic approach was also found to 
+be effective in segmenting the input English 
+sentence into a sequence of phrasal elements, and 
+in structuring them into a tree-llke dependency 
+diagram (cf. Figure 2). 
+(Ii) A practical machine translation should be 
+considered from a kind of heuristic viewpoint 
+rather than from a purely rigid analytical 
+linguistic viewpoint. One persuasive reason for 
+this is the fact that humans, even foreign 
+language learners, can translate fairly difficult 
+English sentences without going into the details 
+of parsing problems. 
+IV SEMANTICS DIRECTED APPROACH: 
+A PROTOTYPE JAPANESE-ENGLISH 
+MACHINE TRANSLATION SYSTEM 
+The pro to type  model system for  Japanese- 
+Eng l i sh  t rans la t ion  i s  const ruc ted  as a semant ics  
+d i rec ted  processor  us ing  a conceptua l  dependency 
+diagram as the internal representation. 
+Noteworthy findings through operational 
+experience and efforts to improve on the 
+prototype model are as follows: 
+163 
+(I) Considering some of the characteristics of 
+the Japanese language, such as flexible word 
+ordering and ambiguous usage of function words, 
+it is not advantageous to adopt a syntax directed 
+representation for the internal base of language 
+transformation. 
+For example, the following five Japanese 
+sentences have almost the same meaning except for 
+word ordering and a subtle nuance. Lowercase 
+letters represent function words. 
+Boku wa Fude de Tegami wo Kaku. 
+(11 (brush)(with)(letter) (write) 
+Boku wa tegami wo Fude de Kaku. 
+Fude de Boku wa Tegami wo Kaku. 
+Tegami wa Boku wa Fude de Kaku. 
+Boku wa Tegami wa Fude de Kaku. 
+(2) Therefore we have decided to adopt the 
+conceptual dependency diagram (CDD) as a compact 
+and powerful semantics directed internal 
+representation. 
+Our idea of the CDD is similar to the 
+well-known dependency grammar defined by Hays 
+\[4\] and Robinson \[9\] \[i0\], except for the 
+augmented case markers which play essentially 
+semantic roles. 
+(31 The conceptual dependency diagram for 
+Japanese sentences is composed of predicate 
+phrase nodes (PPNs in abbreviationl and nominal 
+phrase nodes (NTNs in abbreviation). Each PPN 
+governs a few NPNs as its dependants. Even among 
+PPNs there exist some governor-dependant 
+relationships. 
+Examples of formal CDD description are: 
+PPN (NPNI, NPN2, ... N-PNnl, 
+Kaku (Boku, Te~ami, Fude), 
+Write (I, Letter, Brus--~'~, 
+where the underlined word "~' represents the m 
+concept code corresponding to the superficial 
+word "a", and the augmented case markers are 
+omitted. 
+In the avove description, the order of 
+dependants NI, N2, ..., Nn are to be neglected. 
+For example, 
+PPN (NPNn, ..., NPN2, NPNI) 
+is identical to the above first formula. This 
+convention may be different from the one defined 
+by Hays \[4\]. Our convention was introduced to 
+cope with the above-mentioned flexible word 
+ordering in Japanese sentences. 
+(4) The aforementioned dependency relationships 
+can be represented as a linking topology, where 
+each link has one governor node and one dependant 
+node as its top and bottom terminal point (Figure 
+4). 
+(5) The links are labeled with case markers. 
+Our case marker system is obtained by augmenting 
+the traditional case markers such as Fillmore's 
+\[3\] from the standpoint of machine translation. 
+For the PPN-NPN link, its label usually 
+represents agent, object, goal, location, topic, 
+etc. For the PPN-PPN link, its label is usually 
+represent causality, temporality, 
+restrictiveness, etc. (cf. Figure 4). 
+PPN' 
+PPN ~'C4  --~ Kaku Write __  -~ . J  /T0\ /T0  
+NPN I NPN 2 NPN 3 8oku Tegaml Fude I Letter Brush 
+* CI: case markar 
+Figure 4 Examples of a Conceptual Dependency 
+Diagram (CDD) 
+(6)  As for  the  to ta l  number of  case  markers ,  our 
+cur rent  conc lus ion  i s  that  the number of  
+compulsory  case  markers  to represent  p red icat ive  
+dominance shou ld  be smal l ,  say around 20; and 
+that  the  number of  opt iona l  case  markers  to 
+represent adjective or adverbial modification 
+should be large, say from 50 to 70 (Table 6). 
+(7) The reason for the large number of optional 
+case markers is that the detailed classification 
+of optional cases is very useful for making an 
+appropriate selection of prepositions and 
+participles (Table 7). 
+(g) Each NPN is to be labeled with some properly 
+selected semantic features which are under the 
+control of a thesaurus type lexicon. Semantic 
+features are effective to disambiguate 
+predicative dependency so as to produce an 
+appropriate English verb phrase. 
+(9) The essential difference between a Japanese 
+sentence and the equivalent English sentence can 
+be grasped as the difference in the mode of PPN 
+selections, taken from the viewpoint of 
+conceptual dependency diagram (Figure 51. Once 
+an appropriate PPN selection is made, it will be 
+rather simple and mechanical to determine the 
+rest of the dependency topology. 
+(I0) Thus the essential task of Japanese-English 
+translation can be reduced to the task of 
+constructing the rules for transforming the 
+dependency topology by changing PPNs, while 
+preserving the meaning of the original dependency 
+topology (cf. Figure 5). 
+(Ill All the aforementioned findings have 
+something to do with the semantic directed 
+approach. Once the English oriented conceptual 
+dependency diagram is obtained, the rest of the 
+translation process is rather syntactic. That 
+is, the phrase structure generation can easily be 
+handled with somewhat traditional syntax directed 
+processors. 
+164 
+(12) As is well known, the Japanese language has 
+a very high degree of complexity and ambiguity 
+mainly caused by frequent ellipsis and functional 
+multiplicity, which creates serious obstacles for 
+the achievement of a totally automatic treatment 
+of "raw" Japanese sentences. 
+(ex i) "Sakana wa Taberu." 
+(fish) (eat) 
+has at least two different interpretations: 
+? "\[Sombody\] can eat a fish." 
+. "The fish may eat \[something\]." 
+Table 6 Case Markers for CDD (subset only) 
+Predicative A Agent 
+Dominance 0 Object 
+(Compulsory) C Complement 
+R Recipient 
+AC Agent in Causative 
+T Theme, Topic (Mental Subject )  
+P Par tner  
+Q Quote 
+RI Range of Interest 
+RQ Range of Qualification 
+RM Range of Mention 
+I Instrument 
+E Element 
+Adverbial CT Goal in Abstract Collection 
+Modification CF Source in Abstract Collection 
+(Optional) TP Point in Time 
+Adjective ET Embedding Sentence Type Modifier 
+Modification whose gapping is Theme 
+(Optional) EA whose gapping is Agent 
+EO whose gapping is Object 
+Link and ~" ilnking through "AND" 
+Conjunction BT Conjunction through "BUT" 
+(Optional) . . . . . . . . .  
+(ex 2) "Kawaii Ningyou wo Motteiru Onnanoko." 
+(lovely) (doll) (carry) (girl) 
+has also two different interpretations: 
+"The lovel~ ~irl who carries a doll with 
+her." 
+"The girl who carries a lovel\[ doll with 
+her." 
+(13) Thus we have judged that  some sub- Japanese  
+language should  be const ructed  so as to res t r i c t  
+the input  Japanese  sentences  w i th in  a range of  
+clear tractable structures. The essential 
+restrictions given by the sub-language should be 
+concerned with the usage of function words and 
+sentential embeddings. 
+Table 7 Detailed Classification of Optional Case 
+Markers for Modification (subset only) 
+Phase Code Most-Likely Prepositions or Participles 
+F 
+T 
+D 
+P 
+I 
+O 
+V 
+U 
+S 
+B 
+A 
+AL 
+H 
+AB 
+SE 
+WI 
+?.. 
+from 
+to, till 
+during 
+at 
+in, inside 
+out, outside 
+over, above 
+under, below 
+bes ide 
+before, in front of 
+after, behind 
+along 
+through 
+over, superior to 
+apart from 
+within 
+. Case Marker E Body Code + Phase Code 
+? Body Code ~ T (=Time)IS (=Space)IC (=Collection) 
+? Kasoukioku-~usesu-Hou nlyorl, Dalyouryou-Deitasetto 
+eno Kourltsu no Yol Nyushutsuryoku ga Kanou nl Naru. 
+~ Analysls 
+~ 4)' 
+J i 
+\] II i l  oon I 
+,Ival.o r ??IUf7 
+~itasetto I I T  J 
+". . . . . . .  ~ /~ A 5)" 
+Naru (-Become)-type CDD 
+Transformation 
+> 
+" The virtual storage access method enables the efficient 
+input-output processing to a large capacity data set. 
+~ Generatlon 
+4) 
+I enable I 
+access method processing 
+/ 3) \ 5) 
+Suru (=Make)-type CDD 
+Figure 5 Difference between Japanese and English Grasped Through CDD 
+165 
+(IA) A sub-language approach will not fetter the 
+users, if a Japanese-Engllsh translation system 
+is used as an English sentence composing aid for 
+Japanese people. 
+V CONCLUSION 
+We have found that there are some proper 
+approaches to the treatment of syntax and 
+semantics from the viewpoint of machine 
+translation. Our conclusions are as follows: 
+(i) In order to construct a practical 
+English-Japanese machine translation system, it 
+is advantageous to take the syntax directed 
+approach, in which a syntactic role system plays 
+a central role, together with phrase structure 
+type internal representation (which we call HPM). 
+(2) In English-Japanese machine translation, 
+syntax should be treated in a heuristic manner 
+based on actual human translation methods. 
+Semantics plays an assistant role in 
+disambiguating the dependency among phrases. 
+(3) In English-Japanese machine translation, an 
+output Japanese sentence can be obtained directly 
+from the internal phrase structure representation 
+(HPM) which is essentially a structured set of 
+syntactic roles. Output sentences from the above 
+are, of course, a kind of literal translation of 
+stilted style, but no doubt they are 
+understandable enough for practical use. 
+(4) In order to construct a practical 
+Japanese-English machine translation system, it 
+is advantageous to take the approach in which 
+semantics plays a central role together with 
+conceptual dependency type internal 
+representation (which we call CDD). 
+(5) In Japanese-English machine translation, 
+augmented case markers play a powerful semantic 
+ro le. 
+(6) In Japanese-English machine translation, the 
+essential part of language transformation between 
+Japanese and English can be performed in terms of 
+changing dependency diagrams (CDD) which involves 
+predicate replacements. 
+One further problem concerns establishing a 
+practical method of compensating a machine 
+translation system for its mistakes or 
+limitations caused by the intractable 
+complexities inherent to natural languages. This 
+problem may be solved through the concept of 
+sublanguage, pre-editing and post-editing to 
+modify source/target languages. The sub-Japanese 
+language approach in particular seems to be 
+effective for Japanese-English machine 
+translaton. One of our current interests is in a 
+proper treatment of syntax and semantics in the 
+sublanguage approach. 
+ACKNOWLEDGEMENTS 
+We would like to thank Prof. M. Nagao of Kyoto 
+University and Prof. H. Tanaka of Tokyo Institute 
+of Technology, for their kind and stimulative 
+discussion on various aspects of machine 
+translation. Thanks are also due to Dr. J. 
+Kawasaki, Dr. T. Mitsumaki and Dr. S. Mitsumori 
+of 5DL Hitachi Ltd. for their constant 
+encouragement to this work, and Mr. F. Yamano and 
+Mr. A. Hirai for their enthusiastic assistance in 
+programming. 
+REFERENCES 
+\[i\] Chomsky, N., Aspects of the Theory of Syntax 
+(MIT Press, Cambridge, MA, 1965). 
+\[2\] Dowty, D.R. et. al., 

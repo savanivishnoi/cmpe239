@@ -1,0 +1,24 @@
+
+Nowadays, there are large amounts of data
+available to train statistical machine trans-
+lation systems. However, it is not clear
+whether all the training data actually help
+or not. A system trained on a subset of such
+huge bilingual corpora might outperform
+the use of all the bilingual data. This paper
+studies such issues by analysing two train-
+ing data selection techniques: one based
+on approximating the probability of an in-
+domain corpus; and another based on in-
+frequent n-gram occurrence. Experimental
+results not only report significant improve-
+ments over random sentence selection but
+also an improvement over a system trained
+with the whole available data. Surprisingly,
+the improvements are obtained with just a
+small fraction of the data that accounts for
+less than 0.5% of the sentences. After-
+wards, we show that a much larger room for
+improvement exists, although this is done
+under non-realistic conditions.
+1 

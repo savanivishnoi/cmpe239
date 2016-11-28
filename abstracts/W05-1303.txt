@@ -1,0 +1,21 @@
+ 
+Gene and protein named-entity recognition (NER) and 
+normalization is often treated as a two-step process. 
+While the first step, NER, has received considerable 
+attention over the last few years, normalization has 
+received much less attention. We have built a dictionary 
+based gene and protein NER and normalization system 
+that requires no supervised training and no human 
+intervention to build the dictionaries from online 
+genomics resources. We have tested our system on the 
+Genia corpus and the BioCreative Task 1B mouse and 
+yeast corpora and achieved a level of performance 
+comparable to state-of-the-art systems that require 
+supervised learning and manual dictionary creation. Our 
+technique should also work for organisms following 
+similar naming conventions as mouse, such as human. 
+Further evaluation and improvement of gene/protein 
+NER and normalization systems is somewhat hampered 
+by the lack of larger test collections and collections for 
+additional organisms, such as human. 
+1 

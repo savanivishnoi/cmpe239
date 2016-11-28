@@ -1,0 +1,18 @@
+
+One of the major problems of K-means is
+that one must use dense vectors for its cen-
+troids, and therefore it is infeasible to store
+such huge vectors in memory when the feature
+space is high-dimensional. We address this is-
+sue by using feature hashing (Weinberger et
+al., 2009), a dimension-reduction technique,
+which can reduce the size of dense vectors
+while retaining sparsity of sparse vectors. Our
+analysis gives theoretical motivation and jus-
+tification for applying feature hashing to K-
+means, by showing how much will the objec-
+tive ofK-means be (additively) distorted. Fur-
+thermore, to empirically verify our method,
+we experimented on a document clustering
+task.
+1 

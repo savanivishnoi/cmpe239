@@ -1,0 +1,33 @@
+
+Semitic languages pose a problem to
+Natural Language Processing since
+most of the vowels are omitted from
+written prose, resulting in consider-
+able ambiguity at the word level.
+However, while reading text, native
+speakers can generally vocalize each
+word based on their familiarity with
+the lexicon and the context of the
+word. Methods for vowel restoration
+in previous work involving morpho-
+logical analysis concentrated on a sin-
+gle language and relied on a parsed
+corpus that is difficult to create for
+many Semitic languages. We show
+that Hidden Markov Models are a use-
+ful tool for the task of vowel restora-
+tion in Semitic languages. Our tech-
+nique is simple to implement, does
+not require any language specific
+knowledge to be embedded in the
+model and generalizes well to both
+Hebrew and Arabic. Using a publicly
+available version of the Bible and the
+Qur?an as corpora, we achieve a suc-
+cess rate of 86% for restoring the ex-
+act vowel pattern in Arabic and 81%
+in Hebrew. For Hebrew, we also re-
+port on 87% success rate for restoring
+the correct phonetic value of the
+words.
+1 

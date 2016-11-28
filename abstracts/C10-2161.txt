@@ -1,0 +1,19 @@
+
+We present the first known empirical results
+on sequence labeling based on maximum mar-
+gin Markov networks (M3N ), which incorpo-
+rate both kernel methods to efficiently deal with
+high-dimensional feature spaces, and probabilistic
+graphical models to capture correlations in struc-
+tured data. We provide an efficient algorithm, the
+stochastic gradient descent (SGD), to speedup the
+training procedure of M3N . Using official dataset
+for noun phrase (NP) chunking as a case study,
+the resulting optimizer converges to the same qual-
+ity of solution over an order of magnitude faster
+than the structured sequential minimal optimization
+(structured SMO). Our model compares favorably
+with current state-of-the-art sequence labeling ap-
+proaches. More importantly, our model can be eas-
+ily applied to other sequence labeling tasks.
+1 

@@ -1,0 +1,21 @@
+ 
+We present a set of discourse structure relations 
+that are easy to code, and develop criteria for an 
+appropriate data structure for representing these 
+relations.  Discourse structure here refers to 
+informational relations that hold between sentences 
+in a discourse (cf. Hobbs, 1985).  We evaluated 
+whether trees are a descriptively adequate data 
+structure for representing coherence.  Trees are 
+widely assumed as a data structure for representing 
+coherence but we found that more powerful data 
+structures are needed: In coherence structures of 
+naturally occurring texts, we found many different 
+kinds of crossed dependencies, as well as many 
+nodes with multiple parents.  The claims are 
+supported by statistical results from a database of 
+135 texts from the Wall Street Journal and the AP 
+Newswire that were hand-annotated with 
+coherence relations, based on the annotation 
+schema presented in this paper. 
+1 

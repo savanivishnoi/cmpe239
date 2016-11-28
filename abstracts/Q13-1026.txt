@@ -1,0 +1,30 @@
+
+Grounded language learning, the task of map-
+ping from natural language to a representation
+of meaning, has attracted more and more in-
+terest in recent years. In most work on this
+topic, however, utterances in a conversation
+are treated independently and discourse struc-
+ture information is largely ignored. In the
+context of language acquisition, this indepen-
+dence assumption discards cues that are im-
+portant to the learner, e.g., the fact that con-
+secutive utterances are likely to share the same
+referent (Frank et al, 2013). The current pa-
+per describes an approach to the problem of
+simultaneously modeling grounded language
+at the sentence and discourse levels. We com-
+bine ideas from parsing and grammar induc-
+tion to produce a parser that can handle long
+input strings with thousands of tokens, creat-
+ing parse trees that represent full discourses.
+By casting grounded language learning as a
+grammatical inference task, we use our parser
+to extend the work of Johnson et al (2012),
+investigating the importance of discourse con-
+tinuity in children?s language acquisition and
+its interaction with social cues. Our model
+boosts performance in a language acquisition
+task and yields good discourse segmentations
+compared with human annotators.
+1 

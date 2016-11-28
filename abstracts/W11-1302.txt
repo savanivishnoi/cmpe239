@@ -1,0 +1,18 @@
+
+Stemming from distributed representation the-
+ories, we investigate the interaction between
+distributed structure and distributional mean-
+ing. We propose a pure distributed tree (DT)
+and distributional distributed tree (DDT). DTs
+and DDTs are exploited for defining dis-
+tributed tree kernels (DTKs) and distributional
+distributed tree kernels (DDTKs). We com-
+pare DTKs and DDTKs in two tasks: approx-
+imating tree kernels TK (Collins and Duffy,
+2002); performing textual entailment recog-
+nition (RTE). Results show that DTKs corre-
+late with TKs and perform in RTE better than
+DDTKs. Then, including distributional vec-
+tors in distributed structures is a very difficult
+task.
+1 

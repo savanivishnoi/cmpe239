@@ -1,0 +1,23 @@
+
+As natural language understanding re-
+search advances towards deeper knowledge
+modeling, the tasks become more and more
+complex: we are interested in more nu-
+anced word characteristics, more linguistic
+properties, deeper semantic and syntactic
+features. One such example, explored in
+this article, is the mention detection and
+recognition task in the Automatic Content
+Extraction project, with the goal of iden-
+tifying named, nominal or pronominal ref-
+erences to real-world entities?mentions?
+and labeling them with three types of in-
+formation: entity type, entity subtype and
+mention type. In this article, we investi-
+gate three methods of assigning these re-
+lated tags and compare them on several
+data sets. A system based on the methods
+presented in this article participated and
+ranked very competitively in the ACE?04
+evaluation.
+1 

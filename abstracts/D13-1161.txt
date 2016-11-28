@@ -1,0 +1,26 @@
+
+We consider the challenge of learning seman-
+tic parsers that scale to large, open-domain
+problems, such as question answering with
+Freebase. In such settings, the sentences cover
+a wide variety of topics and include many
+phrases whose meaning is difficult to rep-
+resent in a fixed target ontology. For ex-
+ample, even simple phrases such as ?daugh-
+ter? and ?number of people living in? can-
+not be directly represented in Freebase, whose
+ontology instead encodes facts about gen-
+der, parenthood, and population. In this pa-
+per, we introduce a new semantic parsing ap-
+proach that learns to resolve such ontologi-
+cal mismatches. The parser is learned from
+question-answer pairs, uses a probabilistic
+CCG to build linguistically motivated logical-
+form meaning representations, and includes
+an ontology matching model that adapts the
+output logical forms for each target ontology.
+Experiments demonstrate state-of-the-art per-
+formance on two benchmark semantic parsing
+datasets, including a nine point accuracy im-
+provement on a recent Freebase QA corpus.
+1 

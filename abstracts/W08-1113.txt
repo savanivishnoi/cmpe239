@@ -1,0 +1,27 @@
+
+When evaluating a generation system, if a cor-
+pus of target outputs is available, a common
+and simple strategy is to compare the system
+output against the corpus contents. However,
+cross-validation metrics that test whether the
+system makes exactly the same choices as the
+corpus on each item have recently been shown
+not to correlate well with human judgements
+of quality. An alternative evaluation strategy
+is to compute intrinsic, task-specific proper-
+ties of the generated output; this requires more
+domain-specific metrics, but can often pro-
+duce a better assessment of the output. In this
+paper, a range of metrics using both of these
+techniques are used to evaluate three meth-
+ods for selecting the facial displays of an em-
+bodied conversational agent, and the predic-
+tions of the metrics are compared with human
+judgements of the same generated output. The
+corpus-reproduction metrics show no relation-
+ship with the human judgements, while the
+intrinsic metrics that capture the number and
+variety of facial displays show a significant
+correlation with the preferences of the human
+users.
+1 

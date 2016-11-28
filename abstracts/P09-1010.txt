@@ -1,0 +1,21 @@
+
+In this paper, we present a reinforce-
+ment learning approach for mapping nat-
+ural language instructions to sequences of
+executable actions. We assume access to
+a reward function that defines the qual-
+ity of the executed actions. During train-
+ing, the learner repeatedly constructs ac-
+tion sequences for a set of documents, ex-
+ecutes those actions, and observes the re-
+sulting reward. We use a policy gradient
+algorithm to estimate the parameters of a
+log-linear model for action selection. We
+apply our method to interpret instructions
+in two domains ? Windows troubleshoot-
+ing guides and game tutorials. Our results
+demonstrate that this method can rival su-
+pervised learning techniques while requir-
+ing few or no annotated training exam-
+ples.1
+1 

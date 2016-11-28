@@ -1,0 +1,4 @@
+
+Often, there is a need to use the knowledge from multiple ontologies. This is particularly the case within the context of medical imag-ing, where a single ontology is not enough to provide the complementary knowledge aboutanatomy, radiology and diseases that is re-quired by the related applications. Conse-quently, semantic integration of these differ-ent but related types of medical knowledge that is present in disparate domain ontologies becomes necessary. Medical ontology align-ment addresses this need by identifying the semantically equivalent concepts across mul-tiple medical ontologies. The resulting alignments can then be used to annotate the medical images and related patient text data. A corresponding semantic search engine that operates on these annotations (i.e. align-ments) instead of simple keywords can, in this way, deliver the clinical users a coherent 
+set of medical image and patient text data.
+1 

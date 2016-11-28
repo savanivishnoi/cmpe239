@@ -1,0 +1,20 @@
+
+N -gram language models are a major resource
+bottleneck in machine translation. In this pa-
+per, we present several language model imple-
+mentations that are both highly compact and
+fast to query. Our fastest implementation is
+as fast as the widely used SRILM while re-
+quiring only 25% of the storage. Our most
+compact representation can store all 4 billion
+n-grams and associated counts for the Google
+n-gram corpus in 23 bits per n-gram, the most
+compact lossless representation to date, and
+even more compact than recent lossy compres-
+sion techniques. We also discuss techniques
+for improving query speed during decoding,
+including a simple but novel language model
+caching technique that improves the query
+speed of our language models (and SRILM)
+by up to 300%.
+1 

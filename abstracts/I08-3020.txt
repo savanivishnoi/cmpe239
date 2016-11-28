@@ -1,0 +1,27 @@
+
+Speech-to-speech machine translation is in
+some ways the peak of natural language pro-
+cessing, in that it deals directly with our
+original, oral mode of communication (as
+opposed to derived written language). As
+such, it presents challenges that are not to be
+taken lightly. Although existing technology
+covers each of the steps in the process, from
+speech recognition to synthesis, deriving a
+model of translation that is effective in the
+domain of spoken language is an interesting
+and challenging task. If we could teach our
+algorithms to learn as children acquire lan-
+guage, the result would be useful both for
+language technology and cognitive science.
+We propose several potential approaches, an
+implementation of a multi-path model that
+translates recognized morphemes alongside
+words, and a web-interface to test our speech
+translation tool as trained for Finnish to En-
+glish. We also discuss current approaches to
+machine translation and the problems they
+face in adapting simultaneously to morpho-
+logically rich languages and to the spoken
+modality.
+1 

@@ -1,0 +1,24 @@
+
+Extractive summarization techniques
+cannot generate document summaries
+shorter than a single sentence, some-
+thing that is often required. An ideal
+summarization system would under-
+stand each document and generate an
+appropriate summary directly from the
+results of that understanding. A more
+practical approach to this problem re-
+sults in the use of an approximation:
+viewing summarization as a problem
+analogous to statistical machine trans-
+lation. The issue then becomes one of
+generating a target document in a more
+concise language from a source docu-
+ment in a more verbose language. This
+paper presents results on experiments
+using this approach, in which statisti-
+cal models of the term selection and
+term ordering are jointly applied to pro-
+duce summaries in a style learned from
+a training corpus.
+1 

@@ -1,0 +1,16 @@
+
+In this paper, we propose a practical ap-
+proach for extracting the most relevant
+paragraphs from the original document
+to form a summary for Thai text. The
+idea of our approach is to exploit both
+the local and global properties of para-
+graphs. The local property can be consid-
+ered as clusters of significant words within
+each paragraph, while the global property
+can be though of as relations of all para-
+graphs in a document. These two proper-
+ties are combined for ranking and extract-
+ing summaries. Experimental results on
+real-world data sets are encouraging.
+1 

@@ -1,0 +1,15 @@
+
+This paper presents a data-driven language 
+independent word segmentation system that 
+has been trained for Chinese corpus at the 
+second Chinese word segmentation bakeoff. 
+The system consists of a base segmentation 
+algorithm and the refining procedures for 
+the undecided character sequences. It does 
+not use any lexicon and the base 
+segmentation is simply done by character 
+bigram and HMM-model is applied for the 
+remaining character sequences. As a final 
+step, high-frequency character trigram 
+modifies the error-prone parts of the text.T1T
+1 

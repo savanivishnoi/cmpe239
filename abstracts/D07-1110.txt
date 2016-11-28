@@ -1,0 +1,27 @@
+
+This paper focuses on the evaluation of meth-
+ods for the automatic acquisition of Multiword
+Expressions (MWEs) for robust grammar engi-
+neering. First we investigate the hypothesis that
+MWEs can be detected by the distinct statistical
+properties of their component words, regardless
+of their type, comparing 3 statistical measures:
+mutual information (MI), ?2 and permutation
+entropy (PE). Our overall conclusion is that at
+least two measures, MI and PE, seem to differen-
+tiate MWEs from non-MWEs. We then investi-
+gate the influence of the size and quality of differ-
+ent corpora, using the BNC and the Web search
+engines Google and Yahoo. We conclude that, in
+terms of language usage, web generated corpora
+are fairly similar to more carefully built corpora,
+like the BNC, indicating that the lack of con-
+trol and balance of these corpora are probably
+compensated by their size. Finally, we show a
+qualitative evaluation of the results of automat-
+ically adding extracted MWEs to existing lin-
+guistic resources. We argue that such a process
+improves qualitatively, if a more compositional
+approach to grammar/lexicon automated exten-
+sion is adopted.
+1 

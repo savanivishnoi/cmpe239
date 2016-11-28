@@ -1,0 +1,13 @@
+
+This paper describes our WMT submis-
+sions CU-BOJAR and CU-DEPFIX, the lat-
+ter dubbed ?CHIMERA? because it com-
+bines on three diverse approaches: Tec-
+toMT, a system with transfer at the deep
+syntactic level of representation, factored
+phrase-based translation using Moses, and
+finally automatic rule-based correction of
+frequent grammatical and meaning errors.
+We do not use any off-the-shelf system-
+combination method.
+1 

@@ -1,0 +1,18 @@
+
+We integrate semantic information at two
+stages of the translation process of a state-of-
+the-art SMT system. A Word Sense Disam-
+biguation (WSD) classifier produces a proba-
+bility distribution over the translation candi-
+dates of source words which is exploited in
+two ways. First, the probabilities serve to
+rerank a list of n-best translations produced by
+the system. Second, the WSD predictions are
+used to build a supplementary language model
+for each sentence, aimed to favor translations
+that seem more adequate in this specific sen-
+tential context. Both approaches lead to sig-
+nificant improvements in translation perfor-
+mance, highlighting the usefulness of source
+side disambiguation for SMT.
+1 

@@ -1,0 +1,21 @@
+
+We investigate the use of error classification
+results for automatic evaluation of machine
+translation output. Five basic error classes are
+taken into account: morphological errors, syn-
+tactic (reordering) errors, missing words, ex-
+tra words and lexical errors. In addition, lin-
+ear combinations of these categories are in-
+vestigated. Correlations between the class er-
+ror rates and human judgments are calculated
+on the data of the third, fourth, fifth and sixth
+shared tasks of the Statistical Machine Trans-
+lation Workshop. Machine translation outputs
+in five different European languages are used:
+English, Spanish, French, German and Czech.
+The results show that the following combina-
+tions are the most promising: the sum of all
+class error rates, the weighted sum optimised
+for translation into English and the weighted
+sum optimised for translation from English.
+1 

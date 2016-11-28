@@ -1,0 +1,15 @@
+
+This work represents an initial attempt to
+move beyond ?single-shot? summarization to
+interactive summarization. We present an ex-
+tension to the classic Maximal Marginal Rel-
+evance (MMR) algorithm that places a user
+?in the loop? to assist in candidate selec-
+tion. Experiments in the complex interac-
+tive Question Answering (ciQA) task at TREC
+2007 show that interactively-constructed re-
+sponses are significantly higher in quality than
+automatically-generated ones. This novel al-
+gorithm provides a starting point for future
+work on interactive summarization.
+1 

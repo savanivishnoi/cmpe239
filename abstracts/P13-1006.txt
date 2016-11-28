@@ -1,0 +1,23 @@
+
+We present a method that learns repre-
+sentations for word meanings from short
+video clips paired with sentences. Un-
+like prior work on learning language from
+symbolic input, our input consists of video
+of people interacting with multiple com-
+plex objects in outdoor environments. Un-
+like prior computer-vision approaches that
+learn from videos with verb labels or im-
+ages with noun labels, our labels are sen-
+tences containing nouns, verbs, preposi-
+tions, adjectives, and adverbs. The cor-
+respondence between words and concepts
+in the video is learned in an unsupervised
+fashion, even when the video depicts si-
+multaneous events described by multiple
+sentences or when different aspects of a
+single event are described with multiple
+sentences. The learned word meanings
+can be subsequently used to automatically
+generate description of new video.
+1 

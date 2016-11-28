@@ -1,0 +1,20 @@
+
+We propose a novel technique of learning how to
+transform the source parse trees to improve the trans-
+lation qualities of syntax-based translation mod-
+els using synchronous context-free grammars. We
+transform the source tree phrasal structure into a
+set of simpler structures, expose such decisions to
+the decoding process, and find the least expensive
+transformation operation to better model word re-
+ordering. In particular, we integrate synchronous bi-
+narizations, verb regrouping, removal of redundant
+parse nodes, and incorporate a few important fea-
+tures such as translation boundaries. We learn the
+structural preferences from the data in a generative
+framework. The syntax-based translation system in-
+tegrating the proposed techniques outperforms the
+best Arabic-English unconstrained system in NIST-
+08 evaluations by 1.3 absolute BLEU, which is sta-
+tistically significant.
+1 

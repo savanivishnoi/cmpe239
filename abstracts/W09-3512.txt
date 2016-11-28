@@ -1,0 +1,25 @@
+
+We address the issues of transliteration be-
+tween Indian languages and English, es-
+pecially for named entities. We use an
+EM algorithm to learn the alignment be-
+tween the languages. We find that there
+are lot of ambiguities in the rules map-
+ping the characters in the source language
+to the corresponding characters in the tar-
+get language. Some of these ambiguities
+can be handled by capturing context by
+learning multi-character based alignments
+and use of character n-gram models. We
+observed that a word in the source script
+may have actually originated from differ-
+ent languages. Instead of learning one
+model for the language pair, we propose
+that one may use multiple models and a
+classifier to decide which model to use. A
+contribution of this work is that the models
+and classifiers are learned in a completely
+unsupervised manner. Using our system
+we were able to get quite accurate translit-
+eration models.
+1 

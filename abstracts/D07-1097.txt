@@ -1,0 +1,18 @@
+
+We describe a two-stage optimization of the
+MaltParser system for the ten languages in
+the multilingual track of the CoNLL 2007
+shared task on dependency parsing. The
+first stage consists in tuning a single-parser
+system for each language by optimizing pa-
+rameters of the parsing algorithm, the fea-
+ture model, and the learning algorithm. The
+second stage consists in building an ensem-
+ble system that combines six different pars-
+ing strategies, extrapolating from the opti-
+mal parameters settings for each language.
+When evaluated on the official test sets, the
+ensemble system significantly outperforms
+the single-parser system and achieves the
+highest average labeled attachment score.
+1 

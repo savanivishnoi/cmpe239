@@ -1,0 +1,21 @@
+
+When linear classifiers cannot successfully
+classify data, we often add combination fea-
+tures, which are products of several original
+features. The searching for effective combi-
+nation features, namely feature engineering,
+requires domain-specific knowledge and hard
+work. We present herein an efficient algorithm
+for learning an L1 regularized logistic regres-
+sion model with combination features. We
+propose to use the grafting algorithm with ef-
+ficient computation of gradients. This enables
+us to find optimal weights efficiently without
+enumerating all combination features. By us-
+ing L1 regularization, the result we obtain is
+very compact and achieves very efficient in-
+ference. In experiments with NLP tasks, we
+show that the proposed method can extract ef-
+fective combination features, and achieve high
+performance with very few features.
+1 

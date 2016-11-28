@@ -1,0 +1,20 @@
+
+Syntax based reordering has been shown
+to be an effective way of handling word
+order differences between source and
+target languages in Statistical Machine
+Translation (SMT) systems. We present
+a simple, automatic method to learn rules
+that reorder source sentences to more
+closely match the target language word or-
+der using only a source side parse tree and
+automatically generated alignments. The
+resulting rules are applied to source lan-
+guage inputs as a pre-processing step and
+demonstrate significant improvements in
+SMT systems across a variety of lan-
+guages pairs including English to Hindi,
+English to Spanish and English to French
+as measured on a variety of internal test
+sets as well as a public test set.
+1 

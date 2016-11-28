@@ -1,0 +1,18 @@
+
+We constructed a system for answering non-
+factoid Japanese questions. We used var-
+ious methods of passage retrieval for the
+system. We extracted paragraphs based on
+terms from an input question and output
+them as the preferred answers. We classified
+the non-factoid questions into six categories.
+We used a particular method for each cate-
+gory. For example, we increased the scores
+of paragraphs including the word ?reason?
+for questions including the word ?why.? We
+participated at NTCIR-6 QAC-4, where our
+system obtained the most correct answers
+out of all the eight participating teams. The
+rate of accuracy was 0.77, which indicates
+that our methods were effective.
+1 

@@ -1,0 +1,14 @@
+
+We propose a method for modelling how dialogue
+moves influence and are influenced by the agents?
+preferences. We extract constraints on preferences
+and dependencies among them, even when they are
+expressed indirectly, by exploiting discourse struc-
+ture. Our method relies on a study of 20 dia-
+logues chosen at random from the Verbmobil cor-
+pus. We then test the algorithms predictions against
+the judgements of naive annotators on 3 random un-
+seen dialogues. The average annotator-algorithm
+agreement and the average inter-annotator agree-
+ment show that our method is reliable.
+1 

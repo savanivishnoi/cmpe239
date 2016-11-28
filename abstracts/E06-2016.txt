@@ -1,0 +1,20 @@
+
+GOD (General Ontology Discovery) is an
+unsupervised system to extract semantic
+relations among domain specific entities
+and concepts from texts. Operationally,
+it acts as a search engine returning a set
+of true predicates regarding the query in-
+stead of the usual ranked list of relevant
+documents. Our approach relies on two
+basic assumptions: (i) paradigmatic rela-
+tions can be established only among terms
+in the same Semantic Domain an (ii) they
+can be inferred from texts by analyzing the
+Subject-Verb-Object patterns where two
+domain specific terms co-occur. A quali-
+tative analysis of the system output shows
+that GOD provide true, informative and
+meaningful relations in a very efficient
+way.
+1 

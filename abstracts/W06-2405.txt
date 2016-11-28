@@ -1,0 +1,22 @@
+
+For NLP applications that require some
+sort of semantic interpretation it would be
+helpful to know what expressions exhibit
+an idiomatic meaning and what expres-
+sions exhibit a literal meaning. We invest-
+igate whether automatic word-alignment
+in existing parallel corpora facilitates
+the classification of candidate expressions
+along a continuum ranging from literal and
+transparent expressions to idiomatic and
+opaque expressions. Our method relies on
+two criteria: (i) meaning predictability that
+is measured as semantic entropy and (ii),
+the overlap between the meaning of an ex-
+pression and the meaning of its compon-
+ent words. We approximate the mentioned
+overlap as the proportion of default align-
+ments. We obtain a significant improve-
+ment over the baseline with both meas-
+ures.
+1 

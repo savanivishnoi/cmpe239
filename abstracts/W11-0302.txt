@@ -1,0 +1,18 @@
+ 
+We use an automatic pipeline of word 
+tokenization, stemming, POS tagging, and 
+vocalization to perform real-world Arabic 
+dependency parsing. In spite of the high 
+accuracy on the modules, the very few errors in 
+tokenization, which reaches an accuracy of 
+99.34%, lead to a drop of more than 10% in 
+parsing, indicating that no high quality 
+dependency parsing of Arabic, and possibly 
+other morphologically rich languages, can be 
+reached without (semi-)perfect tokenization. The 
+other module components, stemming, 
+vocalization, and part of speech tagging, do not 
+have the same profound effect on the 
+dependency parsing process. 
+ 
+1. 

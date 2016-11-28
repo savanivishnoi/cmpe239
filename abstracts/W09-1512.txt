@@ -1,0 +1,14 @@
+
+Integrating rules and statistical systems is a
+challenge often faced by natural language pro-
+cessing system builders. A common sub-
+class is integrating high precision rules with a
+Markov statistical sequence classifier. In this
+paper we suggest that using such rules to con-
+strain the sequence classifier decoder results
+in superior accuracy and efficiency. In a case
+study of a named entity tagging system, we
+provide evidence that this method of combina-
+tion does prove efficient than other methods.
+The accuracy was the same.
+1 

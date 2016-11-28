@@ -1,0 +1,23 @@
+
+This paper presents a technique for 
+transliteration based directly on techniques 
+developed for phrase-based statistical 
+machine translation. The focus of our work 
+is in providing a transliteration system that 
+could be used to translate unknown words 
+in a speech-to-speech machine translation 
+system. Therefore the system must  be able 
+to generate arbitrary sequence of characters 
+in the target language, rather than words 
+chosen from a pre-determined vocabulary. 
+We evalauted our method automatically 
+relative to a set of human-annotated 
+reference transliterations as well as by 
+assessing it  for correctness using human 
+evaluators. Our experimental results 
+demonstrate that for both transliteration 
+and back-transliteration the system is able 
+to produce correct, or phonetically 
+e q u i v a l e n t t o c o r r e c t o u t p u t  i n 
+approximately 80% of cases. 
+1 

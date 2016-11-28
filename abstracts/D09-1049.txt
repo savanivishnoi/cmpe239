@@ -1,0 +1,28 @@
+
+Much NLP research on Multi-Word Ex-
+pressions (MWEs) focuses on the discov-
+ery of new expressions, as opposed to the
+identification in texts of known expres-
+sions. However, MWE identification is
+not trivial because many expressions al-
+low variation in form and differ in the
+range of variations they allow. We show
+that simple rule-based baselines do not
+perform identification satisfactorily, and
+present a supervised learning method for
+identification that uses sentence surface
+features based on expressions? canonical
+form. To evaluate the method, we have
+annotated 3350 sentences from the British
+National Corpus, containing potential uses
+of 24 verbal MWEs. The method achieves
+an F-score of 94.86%, compared with
+80.70% for the leading rule-based base-
+line. Our method is easily applicable to
+any expression type. Experiments in pre-
+vious research have been limited to the
+compositional/non-compositional distinc-
+tion, while we also test on sentences in
+which the words comprising the MWE ap-
+pear but not as an expression.
+1 

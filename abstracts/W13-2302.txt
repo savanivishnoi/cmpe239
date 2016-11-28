@@ -1,0 +1,13 @@
+
+This paper presents a method for part-of-
+speech tagging of historical data and eval-
+uates it on texts from different corpora
+of historical German (15th?18th century).
+Spelling normalization is used to prepro-
+cess the texts before applying a POS tag-
+ger trained on modern German corpora.
+Using only 250 manually normalized to-
+kens as training data, the tagging accuracy
+of a manuscript from the 15th century can
+be raised from 28.65% to 74.89%.
+1 

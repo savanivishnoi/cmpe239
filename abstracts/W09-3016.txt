@@ -1,0 +1,29 @@
+
+NLP systems that deal with large collec-
+tions of text require significant computa-
+tional resources, both in terms of space
+and processing time. Moreover, these sys-
+tems typically add new layers of linguis-
+tic information with references to another
+layer. The spreading of these layered an-
+notations across different files makes them
+more difficult to process and access the
+data. As the amount of input increases, so
+does the difficulty to process it. One ap-
+proach is to use distributed parallel com-
+puting for solving these larger problems
+and save time.
+We propose a framework that simplifies
+the integration of independently existing
+NLP tools to build language-independent
+NLP systems capable of creating layered
+annotations. Moreover, it allows the devel-
+opment of scalable NLP systems, that exe-
+cutes NLP tools in parallel, while offering
+an easy-to-use programming environment
+and a transparent handling of distributed
+computing problems. With this framework
+the execution time was decreased to 40
+times less than the original one on a cluster
+with 80 cores.
+1 

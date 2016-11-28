@@ -1,0 +1,27 @@
+
+Generating Temporal Expressions (TE) that
+are easy to understand, unambiguous, and rea-
+sonably short is a challenge for humans and
+Spoken Dialogue Systems. Rather than devel-
+oping hand-written decision rules, we adopt a
+data-driven approach by collecting user feed-
+back on a variety of possible TEs in terms
+of task success, ambiguity, and user prefer-
+ence. The data collected in this work is freely
+available to the research community. These
+data were then used to train a simulated user
+and a reinforcement learning policy that learns
+an adaptive Temporal Expression generation
+strategy for a variety of contexts. We evalu-
+ate our learned policy both in simulation and
+with real users and show that this data-driven
+adaptive policy is a significant improvement
+over a rule-based adaptive policy, leading to
+a 24% increase in perceived task completion,
+while showing a small increase in actual task
+completion, and a 16% decrease in call dura-
+tion. This means that dialogues are more ef-
+ficient and that users are also more confident
+about the appointment that they have agreed
+with the system.
+1 

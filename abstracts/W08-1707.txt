@@ -1,0 +1,23 @@
+
+In complex grammar-based systems, even
+small changes may have an unforeseeable
+impact on overall system performance. Re-
+gression testing of the system and its com-
+ponents becomes crucial for the grammar
+engineers developing the system. As part
+of this regression testing, the testsuites
+themselves must be designed to accurately
+assess coverage and progress and to help
+rapidly identify problems. We describe
+a system of passage-query pairs divided
+into three types of phenomenon-based test-
+suites (sanity, query, basic correct). These
+allow for rapid development and for spe-
+cific coverage assessment. In addition,
+real-world testsuites allow for overall per-
+formance and coverage assessment. These
+testsuites are used in conjunction with the
+more traditional representation-based re-
+gression testsuites used by grammar engi-
+neers.
+1 

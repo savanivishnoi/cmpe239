@@ -1,0 +1,20 @@
+ 
+We take the first steps towards augmenting a lexical 
+resource, VerbNet, with probabilistic information 
+about coercive constructions. We focus on CAUSED-
+MOTION as an example construction occurring with 
+verbs for which it is a typical usage or for which it 
+must be interpreted as extending the event semantics 
+through coercion, which occurs productively and adds 
+substantially to the relational semantics of a verb. 
+However, through annotation we find that VerbNet 
+fails to accurately capture all usages of the 
+construction. We use unsupervised methods to 
+estimate  probabilistic measures from corpus data for 
+predicting usage of the construction across verb 
+classes in the lexicon and evaluate against VerbNet. 
+We discuss how these methods will form the basis for 
+enhancements for VerbNet supporting more accurate 
+analysis of the relational semantics of a verb across 
+productive usages. 
+1 

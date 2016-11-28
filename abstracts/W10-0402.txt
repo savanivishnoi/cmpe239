@@ -1,0 +1,26 @@
+
+Scientific authors urgently need help in man-
+aging the fast increasing number of publica-
+tions. We describe and demonstrate a tool
+that supports authors in browsing graphically
+through electronically available publications,
+thus allowing them to quickly adapt to new
+domains and publish faster. Navigation is as-
+sisted by means of typed citation graphs, i.e.
+we use methods and resources from compu-
+tational linguistics to compute the kind of ci-
+tation that is made from one paper to another
+(refutation, use, confirmation etc.). To verify
+the computed citation type, the user can in-
+spect the highlighted citation sentence in the
+original PDF document. While our classi-
+fication methods used to generate a realistic
+test data set are relatively simple and could
+be combined with other proposed approaches,
+we put a strong focus on usability and quick
+navigation in the potentially huge graphs. In
+the outlook, we argue that our tool could be
+made part of a community approach to over-
+come the sparseness and correctness dilemma
+in citation classification.
+1 

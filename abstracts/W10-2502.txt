@@ -1,0 +1,10 @@
+
+Synchronous tree insertion grammars
+(STIG) are formal models for syntax-
+based machine translation. We formal-
+ize a decoder for probabilistic STIG; the
+decoder transforms every source-language
+string into a target-language tree and cal-
+culates the probability of this transforma-
+tion.
+1 

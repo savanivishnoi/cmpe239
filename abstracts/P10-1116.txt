@@ -1,0 +1,21 @@
+
+This paper presents a probabilistic model
+for sense disambiguation which chooses
+the best sense based on the conditional
+probability of sense paraphrases given a
+context. We use a topic model to decom-
+pose this conditional probability into two
+conditional probabilities with latent vari-
+ables. We propose three different instanti-
+ations of the model for solving sense dis-
+ambiguation problems with different de-
+grees of resource availability. The pro-
+posed models are tested on three different
+tasks: coarse-grained word sense disam-
+biguation, fine-grained word sense disam-
+biguation, and detection of literal vs. non-
+literal usages of potentially idiomatic ex-
+pressions. In all three cases, we outper-
+form state-of-the-art systems either quan-
+titatively or statistically significantly.
+1 

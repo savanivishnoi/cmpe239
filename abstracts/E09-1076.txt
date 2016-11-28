@@ -1,0 +1,20 @@
+
+An important part of question answering
+is ensuring a candidate answer is plausi-
+ble as a response. We present a flexible
+approach based on discriminative prefer-
+ence ranking to determine which of a set
+of candidate answers are appropriate. Dis-
+criminative methods provide superior per-
+formance while at the same time allow the
+flexibility of adding new and diverse fea-
+tures. Experimental results on a set of fo-
+cused What ...? and Which ...? questions
+show that our learned preference ranking
+methods perform better than alternative
+solutions to the task of answer typing. A
+gain of almost 0.2 in MRR for both the
+first appropriate and first correct answers
+is observed along with an increase in pre-
+cision over the entire range of recall.
+1 

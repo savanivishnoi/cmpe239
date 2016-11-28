@@ -1,0 +1,21 @@
+ 
+A readability formula is obtained that can be used by com- 
+puter programs for style checking of Japanese texts and need not 
+syntactic or semantic information. The formula is derived as a 
+linear combination of tile surface characteristics of the text that are 
+related to its readability: (1) the average number of characters per 
+sentence, (2) for each type of characters (Roman alphabets, kanzis, 
+hiraganas, katakanas), relative frequencies of rims (maximal 
+swings) that ,:onsists only of that type of characters, (3) the average 
+number of characters per each type of runs, and (4) tooten 
+(comma) to kuten (period) ratio. 
+To find the proper weighting, principal component analysis 
+(PCA) was appliedto these characteristics taken from 77 sample 
+texts. 
+We have found a component which is related to the readabil- 
+ity. Its scores match to the empirical knowledges of reading ease. 
+We have also obtained experimental confirmation that the com- 
+ponent is an adequate measure for stylistic ease of reading, by the 
+cloze procedure and by the examination on the average lime taken 
+to fill out one blank of the cloze texts. 
+1o 

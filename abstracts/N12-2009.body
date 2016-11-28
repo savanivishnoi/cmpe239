@@ -1,0 +1,17 @@
+
+Statistical natural language processing (NLP) builds
+models of language based on statistical features ex-
+tracted from the input text. We investigate deep
+learning methods for unsupervised feature learning
+for NLP tasks. Recent results indicate that features
+learned using deep learning methods are not a sil-
+ver bullet and do not always lead to improved re-
+sults. In this work we hypothesise that this is the
+result of a disjoint training protocol which results
+in mismatched word representations and classifiers.
+We also hypothesise that modelling long-range de-
+pendencies in the input and (separately) in the out-
+put layers would further improve performance. We
+suggest methods for overcoming these limitations,
+which will form part of our final thesis work.
+1 

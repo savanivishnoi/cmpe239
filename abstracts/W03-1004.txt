@@ -1,0 +1,18 @@
+
+We address the problem of sentence align-
+ment for monolingual corpora, a phe-
+nomenon distinct from alignment in par-
+allel corpora. Aligning large compara-
+ble corpora automatically would provide
+a valuable resource for learning of text-to-
+text rewriting rules. We incorporate con-
+text into the search for an optimal align-
+ment in two complementary ways: learn-
+ing rules for matching paragraphs using
+topic structure and further refining the
+matching through local alignment to find
+good sentence pairs. Evaluation shows
+that our alignment method outperforms
+state-of-the-art systems developed for the
+same task.
+1 

@@ -1,0 +1,24 @@
+
+Active learning and domain adaptation are
+both important tools for reducing labeling
+effort to learn a good supervised model in
+a target domain. In this paper, we inves-
+tigate the problem of online active learn-
+ing within a new active domain adapta-
+tion setting: there are insufficient labeled
+data in both source and target domains,
+but it is cheaper to query labels in the
+source domain than in the target domain.
+Given a total budget, we develop two cost-
+sensitive online active learning methods, a
+multi-view uncertainty-based method and
+a multi-view disagreement-based method,
+to query the most informative instances
+from the two domains, aiming to learn a
+good prediction model in the target do-
+main. Empirical studies on the tasks of
+cross-domain sentiment classification of
+Amazon product reviews demonstrate the
+efficacy of the proposed methods on re-
+ducing labeling cost.
+1 

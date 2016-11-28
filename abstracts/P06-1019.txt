@@ -1,0 +1,17 @@
+
+This work provides the essential founda-
+tions for modular construction of (typed)
+unification grammars for natural lan-
+guages. Much of the information in such
+grammars is encoded in the signature, and
+hence the key is facilitating a modularized
+development of type signatures. We intro-
+duce a definition of signature modules and
+show how two modules combine. Our def-
+initions are motivated by the actual needs
+of grammar developers obtained through a
+careful examination of large scale gram-
+mars. We show that our definitions meet
+these needs by conforming to a detailed set
+of desiderata.
+1 

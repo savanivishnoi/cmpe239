@@ -1,0 +1,26 @@
+ 
+In this paper, an augmented chart data structure 
+with efficient word lattice parsing scheme in speech 
+recognition applications i proposed. The augmented 
+chart and the associated parsing, algorithm can 
+represent and parse very efficiently a lattice of word 
+hypotheses produced in speech recognition with high 
+degree of lexical ambiguity .without changing the 
+fundamental principles of chart parsing. Every word 
+!attice can be mapped to the augmented chart with the 
+ordering and connection relation among word 
+hypotheses being well preserved in the augmented 
+chart. A jump edge is defined to link edges 
+representing word hypotheses physically separated but 
+practically possible to be connected. Preliminary 
+experimental results show that with the augmented 
+chart parsing all possible constituents of the input 
+word lattice can be constructed and no constituent 
+needs to be built more than once. This will reduce the 
+computation complexity significantly especially when 
+serious lexical ambiguity exists in the input word 
+lattice as in many speech recognition problems. This 
+augmented chart parsing is thus a very useful and 
+efficient approach to language processing problems in 
+speech recognition applications. 
+1. 

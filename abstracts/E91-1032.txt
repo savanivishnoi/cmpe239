@@ -1,0 +1,15 @@
+ 
+This paper describes a computational model of human 
+sentence processing based on the principles and pa- 
+rameters paradigm of current linguistic theory. The 
+syntactic processing model posits four modules, re- 
+covering phrase structure, long-distance dependencies, 
+coreference, and thematic structure. These four mod- 
+ules are implemented as recta-interpreters over their 
+relevant components of the grammar, permitting vari- 
+ation in the deductive strategies employed by each 
+module. These four interpreters are also 'coroutined' 
+via the freeze directive of constraint logic program- 
+ruing to achieve incremental interpretation across the 
+modules. 
+1 

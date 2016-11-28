@@ -1,0 +1,14 @@
+ 
+This paper describes the architecture of 
+UAIC1?s Summarization system participating 
+at MultiLing ? 2013. The architecture includes 
+language independent text processing mod-
+ules, but also modules that are adapted for one 
+language or another. In our experiments, the 
+languages under consideration are Bulgarian, 
+German, Greek, English, and Romanian. Our 
+method exploits the cohesion and coherence 
+properties of texts to build discourse struc-
+tures. The output of the parsing process is used 
+to extract general summaries. 
+1 

@@ -1,0 +1,35 @@
+
+For the metonymy resolution task at
+SemEval-2007, the use of a memory-based
+learner to train classifiers for the identifica-
+tion of metonymic location names is inves-
+tigated. Metonymy is resolved on different
+levels of granularity, differentiating between
+literal and non-literal readings on the coarse
+level; literal, metonymic, and mixed read-
+ings on the medium level; and a number of
+classes covering regular cases of metonymy
+on a fine level. Different kinds of context
+are employed to obtain different features:
+1) a sequence of n1 synset IDs represent-
+ing subordination information for nouns and
+for verbs, 2) n2 prepositions, articles, modal,
+and main verbs in the same sentence, and 3)
+properties of n3 tokens in a context window
+to the left and to the right of the location
+name.
+Different classifiers were trained on the
+Mascara data set to determine which values
+for the context sizes n1, n2, and n3 yield
+the highest accuracy (n1 = 4, n2 = 3,
+and n3 = 7, determined with the leave-one-
+out method). Results from these classifiers
+served as features for a combined classifier.
+In the training phase, the combined classifier
+achieved a considerably higher precision for
+the Mascara data. In the SemEval submis-
+sion, an accuracy of 79.8% on the coarse,
+79.5% on the medium, and 78.5% on the
+fine level is achieved (the baseline accuracy
+is 79.4%).
+1 

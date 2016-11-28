@@ -1,0 +1,16 @@
+ 
+Although there have been many research pro-
+jects to extract protein pathways, most such infor-
+mation still exists only in the scientific literature, 
+usually written in natural languages and defying 
+data mining efforts. We present a novel and robust 
+approach for extracting protein-protein interactions 
+from the literature. Our method uses a dynamic 
+programming algorithm to compute distinguishing 
+patterns by aligning relevant sentences and key 
+verbs that describe protein interactions. A match-
+ing algorithm is designed to extract the interactions 
+between proteins. Equipped only with a protein 
+name dictionary, our system achieves a recall rate 
+of about 80.0% and a precision rate of about 80.5%.  
+1 

@@ -1,0 +1,23 @@
+
+We develop a method to detect erroneous
+interpretation results of user utterances
+by exploiting utterance histories of indi-
+vidual users in spoken dialogue systems
+that were deployed for the general pub-
+lic and repeatedly utilized. More specifi-
+cally, we classify barge-in utterances into
+correctly and erroneously interpreted ones
+by using features of individual users? utter-
+ance histories such as their barge-in rates
+and estimated automatic speech recogni-
+tion (ASR) accuracies. Online detection
+is enabled by making these features ob-
+tainable without any manual annotation
+or labeling. We experimentally compare
+classification accuracies for several cases
+when an ASR confidence measure is used
+alone or in combination with the features
+based on the user?s utterance history. The
+error reduction rate was 15% when the ut-
+terance history was used.
+1 

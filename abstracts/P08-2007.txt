@@ -1,0 +1,13 @@
+
+Many phrase alignment models operate over
+the combinatorial space of bijective phrase
+alignments. We prove that finding an optimal
+alignment in this space is NP-hard, while com-
+puting alignment expectations is #P-hard. On
+the other hand, we show that the problem of
+finding an optimal alignment can be cast as
+an integer linear program, which provides a
+simple, declarative approach to Viterbi infer-
+ence for phrase alignment models that is em-
+pirically quite efficient.
+1 

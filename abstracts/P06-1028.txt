@@ -1,0 +1,18 @@
+
+This paper proposes a framework for train-
+ing Conditional Random Fields (CRFs)
+to optimize multivariate evaluation mea-
+sures, including non-linear measures such
+as F-score. Our proposed framework is
+derived from an error minimization ap-
+proach that provides a simple solution for
+directly optimizing any evaluation mea-
+sure. Specifically focusing on sequential
+segmentation tasks, i.e. text chunking and
+named entity recognition, we introduce a
+loss function that closely reflects the tar-
+get evaluation measure for these tasks,
+namely, segmentation F-score. Our ex-
+periments show that our method performs
+better than standard CRF training.
+1 

@@ -1,0 +1,15 @@
+
+Broad-coverage corpora annotated with
+semantic role, or argument structure, in-
+formation are becoming available for the
+rst time. Statistical systems have been
+trained to automatically label seman-
+tic roles from the output of statistical
+parsers on unannotated text. In this pa-
+per, we quantify the eect of parser accu-
+racy on these systems' performance, and
+examine the question of whether a at-
+ter \chunked" representation of the in-
+put can be as eective for the purposes
+of semantic role identication.
+1 

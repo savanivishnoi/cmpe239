@@ -1,0 +1,23 @@
+
+Existing works indicate that the absence
+of explicit discourse connectives makes
+it difficult to recognize implicit discourse
+relations. In this paper we attempt to
+overcome this difficulty for implicit rela-
+tion recognition by automatically insert-
+ing discourse connectives between argu-
+ments with the use of a language model.
+Then we propose two algorithms to lever-
+age the information of these predicted
+connectives. One is to use these pre-
+dicted implicit connectives as additional
+features in a supervised model. The other
+is to perform implicit relation recognition
+based only on these predicted connectives.
+Results on Penn Discourse Treebank 2.0
+show that predicted discourse connectives
+help implicit relation recognition and the
+first algorithm can achieve an absolute av-
+erage f-score improvement of 3% over a
+state of the art baseline system.
+1 

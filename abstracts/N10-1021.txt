@@ -1,0 +1,20 @@
+
+With the recent rise in popularity and size of
+social media, there is a growing need for sys-
+tems that can extract useful information from
+this amount of data. We address the prob-
+lem of detecting new events from a stream of
+Twitter posts. To make event detection feasi-
+ble on web-scale corpora, we present an algo-
+rithm based on locality-sensitive hashing which
+is able overcome the limitations of traditional
+approaches, while maintaining competitive re-
+sults. In particular, a comparison with a state-
+of-the-art system on the first story detection
+task shows that we achieve over an order of
+magnitude speedup in processing time, while
+retaining comparable performance. Event de-
+tection experiments on a collection of 160 mil-
+lion Twitter posts show that celebrity deaths
+are the fastest spreading news on Twitter.
+1 

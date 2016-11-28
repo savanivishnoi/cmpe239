@@ -1,0 +1,17 @@
+
+We deal with syntactic identification of oc-
+currences of multiword expression (MWE)
+from an existing dictionary in a text corpus.
+The MWEs we identify can be of arbitrary
+length and can be interrupted in the surface
+sentence. We analyse and compare three ap-
+proaches based on linguistic analysis at a vary-
+ing level, ranging from surface word order to
+deep syntax. The evaluation is conducted us-
+ing two corpora: the Prague Dependency Tree-
+bank and Czech National Corpus. We use the
+dictionary of multiword expressions SemLex,
+that was compiled by annotating the Prague
+Dependency Treebank and includes deep syn-
+tactic dependency trees of all MWEs.
+1 

@@ -1,0 +1,19 @@
+
+We developed an approach to predict the pro-
+ficiency level of Estonian language learners
+based on the CEFR guidelines. We performed
+learner classification by studying morpho-
+syntactic variation and lexical richness in texts
+produced by learners of Estonian as a sec-
+ond language. We show that our features
+which exploit the rich morphology of Esto-
+nian by focusing on the nominal case and ver-
+bal mood are useful predictors for this task.
+We also show that re-formulating the classifi-
+cation problem as a multi-stage cascaded clas-
+sification improves the classification accuracy.
+Finally, we also studied the effect of training
+data size on classification accuracy and found
+that more training data is beneficial in only
+some of the cases.
+1 

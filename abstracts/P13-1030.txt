@@ -1,0 +1,20 @@
+
+We propose a new variant of Tree-
+Adjoining Grammar that allows adjunc-
+tion of full wrapping trees but still bears
+only context-free expressivity. We provide
+a transformation to context-free form, and
+a further reduction in probabilistic model
+size through factorization and pooling of
+parameters. This collapsed context-free
+form is used to implement efficient gram-
+mar estimation and parsing algorithms.
+We perform parsing experiments the Penn
+Treebank and draw comparisons to Tree-
+Substitution Grammars and between dif-
+ferent variations in probabilistic model de-
+sign. Examination of the most probable
+derivations reveals examples of the lin-
+guistically relevant structure that our vari-
+ant makes possible.
+1 

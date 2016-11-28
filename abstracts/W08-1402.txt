@@ -1,0 +1,20 @@
+ 
+We report on research on matching 
+names in different scripts across languag-
+es. We explore two trainable approaches 
+based on comparing pronunciations. The 
+first, a cross-lingual approach, uses an 
+automatic name-matching program that 
+exploits rules based on phonological 
+comparisons of the two languages carried 
+out by humans. The second, monolingual 
+approach, relies only on automatic com-
+parison of the phonological representa-
+tions of each pair. Alignments produced 
+by each approach are fed to a machine 
+learning algorithm. Results show that the 
+monolingual approach results in ma-
+chine-learning based comparison of per-
+son-names in English and Chinese at an 
+accuracy of over 97.0 F-measure. 
+1 

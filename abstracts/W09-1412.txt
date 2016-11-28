@@ -1,0 +1,15 @@
+
+We describe the system of the PIKB team
+for BioNLP?09 Shared Task 1, which targets
+tunable domain-independent event extraction.
+Our approach is based on a three-stage clas-
+sification: (1) trigger word tagging, (2) sim-
+ple event extraction, and (3) complex event
+extraction. We use the MIRA framework for
+all three stages, which allows us to trade pre-
+cision for increased recall by appropriately
+changing the loss function during training. We
+report results for three systems focusing on re-
+call (R = 28.88%), precision (P = 65.58%),
+and F1-measure (F1 = 33.57%), respectively.
+1 

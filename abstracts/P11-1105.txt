@@ -1,0 +1,19 @@
+
+We present a novel machine translation model
+which models translation by a linear sequence
+of operations. In contrast to the ?N-gram?
+model, this sequence includes not only trans-
+lation but also reordering operations. Key
+ideas of our model are (i) a new reordering
+approach which better restricts the position to
+which a word or phrase can be moved, and
+is able to handle short and long distance re-
+orderings in a unified way, and (ii) a joint
+sequence model for the translation and re-
+ordering probabilities which is more flexi-
+ble than standard phrase-based MT. We ob-
+serve statistically significant improvements in
+BLEU over Moses for German-to-English and
+Spanish-to-English tasks, and comparable re-
+sults for a French-to-English task.
+1 

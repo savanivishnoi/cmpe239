@@ -1,0 +1,19 @@
+
+We present a technique that opens up
+grammar-based generation to a wider range
+of practical applications by dramatically re-
+ducing the development costs and linguis-
+tic expertise that are required. Our method
+infers the grammatical resources needed for
+generation from a set of declarative exam-
+ples that link surface expressions directly to
+the application?s available semantic represen-
+tations. The same examples further serve to
+optimize a run-time search strategy that gener-
+ates the best output that can be found within an
+application-specific time frame. Our method
+offers substantially lower development costs
+than hand-crafted grammars for application-
+specific NLG, while maintaining high output
+quality and diversity.
+1 

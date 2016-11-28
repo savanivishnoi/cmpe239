@@ -1,0 +1,20 @@
+
+The quality of Arabic-English statistical ma-
+chine translation often suffers as a result of
+standard phrase-based SMT systems? inabil-
+ity to perform long-range re-orderings, specif-
+ically those needed to translate VSO-ordered
+Arabic sentences. This problem is further ex-
+acerbated by the low performance of Arabic
+parsers on subject and subject span detection.
+In this paper, we present two parse ?fuzzi-
+fication? techniques which allow the transla-
+tion system to select among a range of pos-
+sible S?V re-orderings. With this approach,
+we demonstrate a 0.3-point improvement in
+BLEU score (69% of the maximum possible
+using gold parses), and a corresponding im-
+provement in the percentage of syntactically
+well-formed subjects under a manual evalua-
+tion.
+1 

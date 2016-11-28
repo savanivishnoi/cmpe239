@@ -1,0 +1,44 @@
+ 
+This paper reports about the development 
+of a Named Entity Recognition (NER) sys-
+tem for South and South East Asian lan-
+guages, particularly for Bengali, Hindi, Te-
+lugu, Oriya and Urdu as part of the 
+IJCNLP-08 NER Shared Task
+1
+. We have 
+used the statistical Conditional Random 
+Fields (CRFs). The system makes use of 
+the different contextual information of the 
+words along with the variety of features 
+that are helpful in predicting the various 
+named entity (NE) classes. The system uses 
+both the language independent as well as 
+language dependent features. The language 
+independent features are applicable for all 
+the languages. The language dependent 
+features have been used for Bengali and 
+Hindi only. One of the difficult tasks of 
+IJCNLP-08 NER Shared task was to iden-
+tify the nested named entities (NEs) though 
+only the type of the maximal NEs were 
+given. To identify nested NEs, we have 
+used rules that are applicable for all the 
+five languages. In addition to these rules, 
+gazetteer lists have been used for Bengali 
+and Hindi. The system has been trained 
+with Bengali (122,467 tokens), Hindi 
+(502,974 tokens), Telugu (64,026 tokens), 
+Oriya (93,173 tokens) and Urdu (35,447 
+tokens) data. The system has been tested 
+with the 30,505 tokens of Bengali, 38,708 
+tokens of Hindi, 6,356 tokens of Telugu, 
+                                                
+1
+http://ltrc.iiit.ac.in/ner-ssea-08  
+24,640 tokens of Oriya and 3,782 tokens of 
+Urdu. Evaluation results have demonstrated 
+the highest maximal F-measure of 53.36%, 
+nested F-measure of 53.46% and lexical F-
+measure of 59.39% for Bengali.   
+1 

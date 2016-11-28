@@ -1,0 +1,37 @@
+ 
+An ontology can be seen as a representa-
+tion of concepts in a specific domain. Ac-
+cordingly, ontology construction can be re-
+garded as the process of organizing these 
+concepts. If the terms which are used to la-
+bel the concepts are classified before build-
+ing an ontology, the work of ontology con-
+struction can proceed much more easily. 
+Part-of-speech (PoS) tags usually carry 
+some linguistic information of terms, so 
+PoS tagging can be seen as a kind of pre-
+liminary classification to help constructing 
+concept nodes in ontology because features 
+or attributes related to concepts of different 
+PoS types may be different. This paper pre-
+sents a simple approach to tag domain 
+terms for the convenience of ontology con-
+struction, referred to as Term PoS (TPoS) 
+Tagging. The proposed approach makes 
+use of segmentation and tagging results 
+from a general PoS tagging software to pre-
+dict tags for extracted domain specific 
+terms. This approach needs no training and 
+no context information. The experimental 
+results show that the proposed approach 
+achieves a precision of 95.41% for ex-
+tracted terms and can be easily applied to 
+different domains. Comparing with some 
+existing approaches, our approach shows 
+that for some specific tasks, simple method 
+can obtain very good performance and is 
+thus a better choice. 
+Keywords: ontology construction, part-of-
+speech (PoS) tagging, Term PoS (TPoS) 
+tagging. 
+1 

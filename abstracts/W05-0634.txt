@@ -1,0 +1,23 @@
+
+This paper describes a semantic role la-
+beling system that uses features derived
+from different syntactic views, and com-
+bines them within a phrase-based chunk-
+ing paradigm. For an input sentence, syn-
+tactic constituent structure parses are gen-
+erated by a Charniak parser and a Collins
+parser. Semantic role labels are assigned
+to the constituents of each parse using
+Support Vector Machine classifiers. The
+resulting semantic role labels are con-
+verted to an IOB representation. These
+IOB representations are used as additional
+features, along with flat syntactic chunks,
+by a chunking SVM classifier that pro-
+duces the final SRL output. This strategy
+for combining features from three differ-
+ent syntactic views gives a significant im-
+provement in performance over roles pro-
+duced by using any one of the syntactic
+views individually.
+1 

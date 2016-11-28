@@ -1,0 +1,33 @@
+
+We present a novel scheme to apply fac-
+tored phrase-based SMT to a language pair
+with very disparate morphological struc-
+tures. Our approach relies on syntac-
+tic analysis on the source side (English)
+and then encodes a wide variety of local
+and non-local syntactic structures as com-
+plex structural tags which appear as ad-
+ditional factors in the training data. On
+the target side (Turkish), we only per-
+form morphological analysis and disam-
+biguation but treat the complete complex
+morphological tag as a factor, instead of
+separating morphemes. We incrementally
+explore capturing various syntactic sub-
+structures as complex tags on the En-
+glish side, and evaluate how our transla-
+tions improve in BLEU scores. Our max-
+imal set of source and target side trans-
+formations, coupled with some additional
+techniques, provide an 39% relative im-
+provement from a baseline 17.08 to 23.78
+BLEU, all averaged over 10 training and
+test sets. Now that the syntactic analy-
+sis on the English side is available, we
+also experiment with more long distance
+constituent reordering to bring the English
+constituent order close to Turkish, but find
+that these transformations do not provide
+any additional consistent tangible gains
+when averaged over the 10 sets.
+1 

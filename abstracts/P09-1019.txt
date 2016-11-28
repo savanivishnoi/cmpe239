@@ -1,0 +1,24 @@
+
+Minimum Error Rate Training (MERT)
+and Minimum Bayes-Risk (MBR) decod-
+ing are used in most current state-of-the-
+art Statistical Machine Translation (SMT)
+systems. The algorithms were originally
+developed to work with N -best lists of
+translations, and recently extended to lat-
+tices that encode many more hypotheses
+than typical N -best lists. We here extend
+lattice-based MERT and MBR algorithms
+to work with hypergraphs that encode a
+vast number of translations produced by
+MT systems based on Synchronous Con-
+text Free Grammars. These algorithms
+are more efficient than the lattice-based
+versions presented earlier. We show how
+MERT can be employed to optimize pa-
+rameters for MBR decoding. Our exper-
+iments show speedups from MERT and
+MBR as well as performance improve-
+ments from MBR decoding on several lan-
+guage pairs.
+1 

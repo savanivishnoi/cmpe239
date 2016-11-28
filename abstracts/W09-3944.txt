@@ -1,0 +1,16 @@
+
+This paper examines the resolution of the
+second person English pronoun you in
+multi-party dialogue. Following previous
+work, we attempt to classify instances as
+generic or referential, and in the latter case
+identify the singular or plural addressee.
+We show that accuracy and robustness can
+be improved by use of simple lexical fea-
+tures, capturing the intuition that different
+uses and addressees are associated with
+different vocabularies; and we show that
+there is an advantage to treating referen-
+tiality and addressee identification as sep-
+arate (but connected) problems.
+1 

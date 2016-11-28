@@ -1,0 +1,21 @@
+
+Training efficient statistical approaches for
+natural language understanding generally re-
+quires data with segmental semantic annota-
+tions. Unfortunately, building such resources
+is costly. In this paper, we propose an ap-
+proach that produces annotations in an unsu-
+pervised way. The first step is an implementa-
+tion of latent Dirichlet alocation that produces
+a set of topics with probabilities for each topic
+to be associated with a word in a sentence.
+This knowledge is then used as a bootstrap to
+infer a segmentation of a word sentence into
+topics using either integer linear optimisation
+or stochastic word alignment models (IBM
+models) to produce the final semantic anno-
+tation. The relation between automatically-
+derived topics and task-dependent concepts is
+evaluated on a spoken dialogue task with an
+available reference annotation.
+1 

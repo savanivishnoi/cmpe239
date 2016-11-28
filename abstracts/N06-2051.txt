@@ -1,0 +1,19 @@
+
+Statistical machine translation (SMT) is
+based on the ability to effectively learn
+word and phrase relationships from par-
+allel corpora, a process which is consid-
+erably more difficult when the extent of
+morphological expression differs signifi-
+cantly across the source and target lan-
+guages. We present techniques that se-
+lect appropriate word segmentations in
+the morphologically rich source language
+based on contextual relationships in the
+target language. Our results take ad-
+vantage of existing word level morpho-
+logical analysis components to improve
+translation quality above state-of-the-art
+on a limited-data Arabic to English speech
+translation task.
+1 

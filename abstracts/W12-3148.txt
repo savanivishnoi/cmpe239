@@ -1,0 +1,18 @@
+
+We provide a few insights on data selection for
+machine translation. We evaluate the quality
+of the new CzEng 1.0, a parallel data source
+used in WMT12. We describe a simple tech-
+nique for reducing out-of-vocabulary rate af-
+ter phrase extraction. We discuss the bene-
+fits of tuning towards multiple reference trans-
+lations for English-Czech language pair. We
+introduce a novel approach to data selection
+by full-text indexing and search: we select
+sentences similar to the test set from a large
+monolingual corpus and explore several op-
+tions of incorporating them in a machine trans-
+lation system. We show that this method can
+improve translation quality. Finally, we de-
+scribe our submitted system CU-TAMCH-BOJ.
+1 

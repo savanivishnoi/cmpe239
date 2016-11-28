@@ -1,0 +1,28 @@
+
+In this paper, we propose a new context-
+dependent SMT model that is tightly cou-
+pled with a language model. It is de-
+signed to decrease the translation ambi-
+guities and efficiently search for an opti-
+mal hypothesis by reducing the hypothe-
+sis search space. It works through recipro-
+cal incorporation between source and tar-
+get context: a source word is determined
+by the context of previous and correspond-
+ing target words and the next target word
+is predicted by the pair consisting of the
+previous target word and its correspond-
+ing source word. In order to alleviate
+the data sparseness in chunk-based trans-
+lation, we take a stepwise back-off trans-
+lation strategy. Moreover, in order to ob-
+tain more semantically plausible transla-
+tion results, we use bilingual verb-noun
+collocations; these are automatically ex-
+tracted by using chunk alignment and a
+monolingual dependency parser. As a case
+study, we experimented on the language
+pair of Japanese and Korean. As a result,
+we could not only reduce the search space
+but also improve the performance.
+1 

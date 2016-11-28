@@ -1,0 +1,12 @@
+ 
+Given the lack of word delimiters in written 
+Japanese, word segmentation is generally consid- 
+ered a crucial first step in processing Japanese texts. 
+Typical Japanese segmentation algorithms rely ei- 
+ther on a lexicon and grammar or on pre-segmented 
+data. In contrast, we introduce a novel statistical 
+method utilizing unsegmented training data, with 
+performance on kanji sequences comparable to and 
+sometimes surpassing that of morphological nalyz- 
+ers over a variety of error metrics. 
+I 

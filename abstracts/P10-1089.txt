@@ -1,0 +1,19 @@
+
+In this paper, we systematically assess the
+value of using web-scale N-gram data in
+state-of-the-art supervised NLP classifiers.
+We compare classifiers that include or ex-
+clude features for the counts of various
+N-grams, where the counts are obtained
+from a web-scale auxiliary corpus. We
+show that including N-gram count features
+can advance the state-of-the-art accuracy
+on standard data sets for adjective order-
+ing, spelling correction, noun compound
+bracketing, and verb part-of-speech dis-
+ambiguation. More importantly, when op-
+erating on new domains, or when labeled
+training data is not plentiful, we show that
+using web-scale N-gram features is essen-
+tial for achieving robust performance.
+1 

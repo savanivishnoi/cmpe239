@@ -1,0 +1,26 @@
+ 
+Natural language processing modules such as 
+part-of-speech taggers, named-entity recog-
+nizers and syntactic parsers are commonly 
+evaluated in isolation, under the assumption 
+that artificial evaluation metrics for individual 
+parts are predictive of practical performance 
+of more complex language technology sys-
+tems that perform practical tasks. Although 
+this is an important issue in the design and en-
+gineering of systems that use natural language 
+input, it is often unclear how the accuracy of 
+an end-user application is affected by parame-
+ters that affect individual NLP modules.  We 
+explore this issue in the context of a specific 
+task by examining the relationship between 
+the accuracy of a syntactic parser and the 
+overall performance of an information extrac-
+tion system for biomedical text that includes 
+the parser as one of its components.  We 
+present an empirical investigation of the rela-
+tionship between factors that affect the accu-
+racy of syntactic analysis, and how the 
+difference in parse accuracy affects the overall 
+system.   
+1 

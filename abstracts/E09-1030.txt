@@ -1,0 +1,22 @@
+
+This paper presents a conditional ran-
+dom field-based approach for identifying
+speaker-produced disfluencies (i.e. if and
+where they occur) in spontaneous speech
+transcripts. We emphasize false start re-
+gions, which are often missed in cur-
+rent disfluency identification approaches
+as they lack lexical or structural similar-
+ity to the speech immediately following.
+We find that combining lexical, syntac-
+tic, and language model-related features
+with the output of a state-of-the-art disflu-
+ency identification system improves over-
+all word-level identification of these and
+other errors. Improvements are reinforced
+under a stricter evaluation metric requiring
+exact matches between cleaned sentences
+annotator-produced reconstructions, and
+altogether show promise for general re-
+construction efforts.
+1 

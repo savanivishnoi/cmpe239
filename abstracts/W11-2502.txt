@@ -1,0 +1,19 @@
+
+Unsupervised methods of semantic relations
+extraction rely on a similarity measure be-
+tween lexical units. Similarity measures differ
+both in kinds of information they use and in
+the ways how this information is transformed
+into a similarity score. This paper is making
+a step further in the evaluation of the avail-
+able similarity measures within the context
+of semantic relation extraction. We compare
+21 baseline measures ? 8 knowledge-based, 4
+corpus-based, and 9 web-based metrics with
+the BLESS dataset. Our results show that
+existing similarity measures provide signifi-
+cantly different results, both in general per-
+formances and in relation distributions. We
+conclude that the results suggest developing a
+combined similarity measure.
+1 

@@ -1,0 +1,15 @@
+
+This paper presents an extensive evalua-
+tion of five different alignments and in-
+vestigates their impact on the correspond-
+ing MT system output. We introduce
+new measures for intrinsic evaluations and
+examine the distribution of phrases and
+untranslated words during decoding to
+identify which characteristics of different
+alignments affect translation. We show
+that precision-oriented alignments yield
+better MT output (translating more words
+and using longer phrases) than recall-
+oriented alignments.
+1 

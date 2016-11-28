@@ -1,0 +1,13 @@
+ 
+The stack decoder is an attractive algorithm for con- 
+trolling the acoustic and language model matching in a 
+continuous speech recognizer. It implements a best-first 
+tree search of the language to find the best match to 
+both the language model and the observed speech. This 
+paper describes a method for performing the optimal A* 
+search which guarantees tofind the most likely path (rec- 
+ognized sentence) while extending the minimum number 
+of stack entries. A tree search, however, is exponential 
+in the number of words. A second algorithm is presented 
+which linearizes the search at the cost of approximating 
+some of the path likelihoods. 

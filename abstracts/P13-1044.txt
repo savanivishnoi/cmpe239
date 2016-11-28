@@ -1,0 +1,32 @@
+
+Many models in NLP involve latent vari-
+ables, such as unknown parses, tags, or
+alignments. Finding the optimal model pa-
+rameters is then usually a difficult noncon-
+vex optimization problem. The usual prac-
+tice is to settle for local optimization meth-
+ods such as EM or gradient ascent.
+We explore how one might instead search
+for a global optimum in parameter space,
+using branch-and-bound. Our method
+would eventually find the global maxi-
+mum (up to a user-specified ) if run for
+long enough, but at any point can return
+a suboptimal solution together with an up-
+per bound on the global maximum.
+As an illustrative case, we study a gener-
+ative model for dependency parsing. We
+search for the maximum-likelihood model
+parameters and corpus parse, subject to
+posterior constraints. We show how to for-
+mulate this as a mixed integer quadratic
+programming problem with nonlinear con-
+straints. We use the Reformulation Lin-
+earization Technique to produce convex
+relaxations during branch-and-bound. Al-
+though these techniques do not yet pro-
+vide a practical solution to our instance
+of this NP-hard problem, they sometimes
+find better solutions than Viterbi EM with
+random restarts, in the same time.
+1 

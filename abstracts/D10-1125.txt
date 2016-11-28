@@ -1,0 +1,17 @@
+
+This paper introduces algorithms for non-
+projective parsing based on dual decomposi-
+tion. We focus on parsing algorithms for non-
+projective head automata, a generalization of
+head-automata models to non-projective struc-
+tures. The dual decomposition algorithms are
+simple and efficient, relying on standard dy-
+namic programming and minimum spanning
+tree algorithms. They provably solve an LP
+relaxation of the non-projective parsing prob-
+lem. Empirically the LP relaxation is very of-
+ten tight: for many languages, exact solutions
+are achieved on over 98% of test sentences.
+The accuracy of our models is higher than pre-
+vious work on a broad range of datasets.
+1 

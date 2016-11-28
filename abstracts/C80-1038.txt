@@ -1,0 +1,21 @@
+ 
+This paper describes a newly developed lin- 
+guistic error correction system, which can cor- 
+rect errors and rejections of Japanese sentences 
+by using linguistic knowledge. 
+Conventional optical character readers 
+(OCR) need human assistance to correct their 
+recognition errors and rejections. An operator 
+must teach the OCR correct answers whenever an 
+illegible character pattern occurs. If this 
+error correction operation is mechanized, the 
+throughput of the OCR will increase. 
+This linguistic error correction system of- 
+fers means of automated error correction by an- 
+alysing sentences of the OCR outputs linguisti- 
+cally. This system grammatically selects legal 
+letters from the candidates which can not be 
+decided uniquely by pattern recognition only, 
+and recommends grammatically and semantically 
+meaningful letters for the illegible letter. 
+i. 

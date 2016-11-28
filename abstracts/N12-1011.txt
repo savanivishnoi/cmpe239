@@ -1,0 +1,25 @@
+
+Most previous research on automated speech
+scoring has focused on restricted, predictable
+speech. For automated scoring of unrestricted
+spontaneous speech, speech proficiency has
+been evaluated primarily on aspects of pro-
+nunciation, fluency, vocabulary and language
+usage but not on aspects of content and topi-
+cality. In this paper, we explore features repre-
+senting the accuracy of the content of a spoken
+response. Content features are generated us-
+ing three similarity measures, including a lex-
+ical matching method (Vector Space Model)
+and two semantic similarity measures (Latent
+Semantic Analysis and Pointwise Mutual In-
+formation). All of the features exhibit moder-
+ately high correlations with human proficiency
+scores on human speech transcriptions. The
+correlations decrease somewhat due to recog-
+nition errors when evaluated on the output of
+an automatic speech recognition system; how-
+ever, the additional use of word confidence
+scores can achieve correlations at a similar
+level as for human transcriptions.
+1 

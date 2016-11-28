@@ -1,0 +1,15 @@
+
+In this paper we describe the system with
+which we participated in the CoNLL-2011
+Shared Task on modelling coreference. Our
+system is based on a cluster-ranking model
+proposed by Rahman and Ng (2009), with
+novel semantic features based on recent re-
+search on narrative event schema (Chambers
+and Jurafsky, 2009). We demonstrate some
+improvements over the baseline when using
+schema information, although the effect var-
+ied between the metrics used. We also explore
+the impact of various features on our system?s
+performance.
+1 

@@ -1,0 +1,14 @@
+ 
+This paper describes the conversion of a Hid- 
+den Markov Model into a finite state trans- 
+ducer that closely approximates the behavior 
+of the stochastic model. In some cases the 
+transducer is equivalent o the HMM. This 
+conversion is especially advantageous forpart- 
+of-speech tagging because the resulting trans- 
+ducer can be composed with other transducers 
+that encode correction rules for the most fre- 
+quent tagging errors. The speed of tagging is 
+also improved. The described methods have 
+been implemented and successfully tested. 
+1 

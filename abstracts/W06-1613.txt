@@ -1,0 +1,19 @@
+
+Citation function is defined as the author?s
+reason for citing a given paper (e.g. ac-
+knowledgement of the use of the cited
+method). The automatic recognition of the
+rhetorical function of citations in scientific
+text has many applications, from improve-
+ment of impact factor calculations to text
+summarisation and more informative ci-
+tation indexers. We show that our anno-
+tation scheme for citation function is re-
+liable, and present a supervised machine
+learning framework to automatically clas-
+sify citation function, using both shallow
+and linguistically-inspired features. We
+find, amongst other things, a strong re-
+lationship between citation function and
+sentiment classification.
+1 

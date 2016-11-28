@@ -1,0 +1,24 @@
+
+Tree-based translation models, which ex-
+ploit the linguistic syntax of source lan-
+guage, usually separate decoding into two
+steps: parsing and translation. Although
+this separation makes tree-based decoding
+simple and efficient, its translation perfor-
+mance is usually limited by the number
+of parse trees offered by parser. Alter-
+natively, we propose to parse and trans-
+late jointly by casting tree-based transla-
+tion as parsing. Given a source-language
+sentence, our joint decoder produces a
+parse tree on the source side and a transla-
+tion on the target side simultaneously. By
+combining translation and parsing mod-
+els in a discriminative framework, our ap-
+proach significantly outperforms a forest-
+based tree-to-string system by 1.1 ab-
+solute BLEU points on the NIST 2005
+Chinese-English test set. As a parser,
+our joint decoder achieves an F1 score of
+80.6% on the Penn Chinese Treebank.
+1 

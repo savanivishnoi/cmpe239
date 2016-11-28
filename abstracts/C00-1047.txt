@@ -1,0 +1,29 @@
+ 
+This paper introduces a scheme, which we call 
+the baseline method, to define a measure of term 
+representativeness and measures defined by using 
+the scheme. The representativeness of a term is 
+measured by a normalized characteristic value 
+defined for a set of all documents that contain the 
+term. Normalization is done by comparing the 
+original characteristic value with the 
+characteristic value defined for a randomly 
+chosen document set of the same size. The latter 
+value is estimated by a baseline function obtained 
+by random sampling and logarithmic linear 
+approximation. We found that the distance 
+between the word distribution in a document set 
+and the word distribution in a whole corpus is an 
+effective characteristic value to use for the 
+baseline method. Measures defined by the 
+baseline method have several advantages 
+including that they can be used to compare the 
+representativeness of two terms with very 
+different frequencies, and that they have 
+well-defined threshold values of being 
+representative. In addition, the baseline function 
+for a corpus is robust against differences in 
+corpora; that is, it can be used for normalization 
+in a different corpus that has a different size or is 
+in a different domain. 
+1 

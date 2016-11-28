@@ -1,0 +1,17 @@
+
+We investigate auxiliary distribu-
+tions (Johnson and Riezler, 2000) for
+domain adaptation of a supervised parsing
+system of Dutch. To overcome the limited
+target domain training data, we exploit an
+original and larger out-of-domain model
+as auxiliary distribution. However, our
+empirical results exhibit that the auxiliary
+distribution does not help: even when very
+little target training data is available the
+incorporation of the out-of-domain model
+does not contribute to parsing accuracy on
+the target domain; instead, better results
+are achieved either without adaptation or
+by simple model combination.
+1 

@@ -1,0 +1,22 @@
+
+Unsupervised parsing is a difficult task that
+infants readily perform. Progress has been
+made on this task using text-based models, but
+few computational approaches have considered
+how infants might benefit from acoustic cues.
+This paper explores the hypothesis that word
+duration can help with learning syntax. We de-
+scribe how duration information can be incor-
+porated into an unsupervised Bayesian depen-
+dency parser whose only other source of infor-
+mation is the words themselves (without punc-
+tuation or parts of speech). Our results, evalu-
+ated on both adult-directed and child-directed
+utterances, show that using word duration can
+improve parse quality relative to words-only
+baselines. These results support the idea that
+acoustic cues provide useful evidence about
+syntactic structure for language-learning in-
+fants, and motivate the use of word duration
+cues in NLP tasks with speech.
+1 

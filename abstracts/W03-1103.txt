@@ -1,0 +1,17 @@
+ 
+In this work, we apply a clustering tech-
+nique to integrate the contents of items 
+into the item-based collaborative filtering 
+framework. The group rating information 
+that is obtained from the clustering result 
+provides a way to introduce content in-
+formation into collaborative recommenda-
+tion and solves the cold start problem. 
+Extensive experiments have been con-
+ducted on MovieLens data to analyze the 
+characteristics of our technique. The re-
+sults show that our approach contributes 
+to the improvement of prediction quality 
+of the item-based collaborative filtering, 
+especially for the cold start problem. 
+1 

@@ -1,0 +1,16 @@
+
+In the perspective of annotating a text with
+respect to an ontology, we have partici-
+pated in the subtask 1 of the BB BioNLP-
+ST whose aim is to detect, in the text,
+Bacteria Habitats and associate to them
+one or several categories from the Onto-
+Biotope ontology provided for the task.
+We have used a rule-based machine learn-
+ing algorithm (WHISK) combined with a
+rule-based automatic ontology projection
+method and a rote learning technique. The
+combination of these three sources of rules
+leads to good results with a SER measure
+close to the winner and a best F-measure.
+1 

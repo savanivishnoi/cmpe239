@@ -1,0 +1,14 @@
+
+In this paper, we present the methods
+we used to extract bacteria and biotopes
+names and then to identify the relation
+between those entities while participating
+to the BioNLP?13 Bacteria and Biotopes
+Shared Task. We used machine-learning
+based approaches for this task, namely
+a CRF to extract bacteria and biotopes
+names and a simple matching algorithm to
+predict the relations. We achieved poor re-
+sults: an SER of 0.66 in sub-task 1, and a
+0.06 F-measure in both sub-tasks 2 and 3.
+1 

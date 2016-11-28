@@ -1,0 +1,29 @@
+ 
+In this paper a system for Named Entity 
+Recognition and Classification in Croatian 
+language is described. The system is com-
+posed of the module for sentence segmen-
+tation, inflectional lexicon of common 
+words, inflectional lexicon of names and 
+regular local grammars for automatic rec-
+ognition of numerical and temporal expres-
+sions. After the first step (sentence segmen-
+tation), the system attaches to each token 
+its full morphosyntactic description and 
+appropriate lemma and additional tags for 
+potential categories for names without dis-
+ambiguation. The third step (the core of the 
+system) is the application of a set of rules 
+for recognition and classification of named 
+entities in already annotated texts. Rules 
+based on described strategies (like internal 
+and external evidence) are applied in cas-
+cade of transducers in defined order. Al-
+though there are other classification sys-
+tems for NEs, the results of our system are 
+annotated NEs which are following MUC-7 
+specification. System is applied on infor-
+mative and noninformative texts and results 
+are compared. F-measure of the system ap-
+plied on informative texts yields over 90%. 
+1 

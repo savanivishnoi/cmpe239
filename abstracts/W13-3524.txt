@@ -1,0 +1,19 @@
+
+In this paper, we address the problem of
+identifying relevant product aspects in a
+collection of online customer reviews. Be-
+ing able to detect such aspects represents
+an important subtask of aspect-based re-
+view mining systems, which aim at auto-
+matically generating structured summaries
+of customer opinions. We cast the task as
+a terminology extraction problem and ex-
+amine the utility of varying term acquisi-
+tion heuristics, filtering techniques, vari-
+ant aggregation methods, and relevance
+measures. We evaluate the different ap-
+proaches on two distinct datasets (hotel
+and camera reviews). For the best config-
+uration, we find significant improvements
+over a state-of-the-art baseline method.
+1 

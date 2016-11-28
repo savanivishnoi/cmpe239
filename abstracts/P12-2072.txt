@@ -1,0 +1,16 @@
+
+We present a novel approach to the task of
+word lemmatisation. We formalise lemmati-
+sation as a category tagging task, by describ-
+ing how a word-to-lemma transformation rule
+can be encoded in a single label and how a
+set of such labels can be inferred for a specific
+language. In this way, a lemmatisation sys-
+tem can be trained and tested using any super-
+vised tagging model. In contrast to previous
+approaches, the proposed technique allows us
+to easily integrate relevant contextual informa-
+tion. We test our approach on eight languages
+reaching a new state-of-the-art level for the
+lemmatisation task.
+1 

@@ -1,0 +1,26 @@
+
+Stemming is an important analysis step in
+a number of areas such as natural lan-
+guage processing (NLP), information re-
+trieval (IR), machine translation(MT) and
+text classification. In this paper we present
+the development of a stemmer for Amharic
+that reduces words to their citation forms.
+Amharic is a Semitic language with rich and
+complex morphology. The application of
+such a stemmer is in dictionary based cross
+language IR, where there is a need in the
+translation step, to look up terms in a ma-
+chine readable dictionary (MRD). We apply
+a rule based approach supplemented by oc-
+currence statistics of words in a MRD and
+in a 3.1M words news corpus. The main
+purpose of the statistical supplements is to
+resolve ambiguity between alternative seg-
+mentations. The stemmer is evaluated on
+Amharic text from two domains, news arti-
+cles and a classic fiction text. It is shown to
+have an accuracy of 60% for the old fash-
+ioned fiction text and 75% for the news arti-
+cles.
+1 

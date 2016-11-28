@@ -1,0 +1,18 @@
+
+A central problem for NLP is grammar in-
+duction: the development of unsupervised
+learning algorithms for syntax. In this pa-
+per we present a lattice-theoretic represen-
+tation for natural language syntax, called
+Distributional Lattice Grammars. These
+representations are objective or empiri-
+cist, based on a generalisation of distribu-
+tional learning, and are capable of repre-
+senting all regular languages, some but not
+all context-free languages and some non-
+context-free languages. We present a sim-
+ple algorithm for learning these grammars
+together with a complete self-contained
+proof of the correctness and efficiency of
+the algorithm.
+1 

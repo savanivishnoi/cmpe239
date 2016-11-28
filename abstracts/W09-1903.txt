@@ -1,0 +1,18 @@
+
+We present an empirical investigation of the
+annotation cost estimation task for active
+learning in a multi-annotator environment. We
+present our analysis from two perspectives:
+selecting examples to be presented to the user
+for annotation; and evaluating selective sam-
+pling strategies when actual annotation cost
+is not available. We present our results on a
+movie review classification task with rationale
+annotations. We demonstrate that a combina-
+tion of instance, annotator and annotation task
+characteristics are important for developing an
+accurate estimator, and argue that both corre-
+lation coefficient and root mean square error
+should be used for evaluating annotation cost
+estimators.
+1 

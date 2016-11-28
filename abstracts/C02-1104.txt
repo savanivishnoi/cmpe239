@@ -1,0 +1,14 @@
+  
+We present in this paper a technique allowing to 
+choose the parsing granularity within the same 
+approach relying on a constraint-based formalism. 
+Its main advantage lies in the fact that the same 
+linguistic resources are used whatever the 
+granularity. Such a method is useful in particular 
+for systems such as text-to-speech that usually need 
+a simple bracketing, but in some cases requires a 
+precise syntactic structure. We illustrate this 
+method in comparing the results for three different 
+granularity levels and give some figures about 
+their respective performance in parsing a tagged 
+corpus. 

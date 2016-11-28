@@ -1,0 +1,17 @@
+
+In this paper we investigate the task of auto-
+matic generation of slide presentations from
+academic papers, focusing initially on slide
+to paper alignment. We compare and eval-
+uate four different alignment systems which
+utilize various combinations of methods used
+widely in other alignment and question an-
+swering approaches, such as TF-IDF term
+weighting and query expansion. Our best
+aligner achieves an accuracy of 75% and our
+findings show that for this application, av-
+erage TF-IDF scoring performs more poorly
+than a simpler method based on the number of
+matched terms, and query expansion degrades
+aligner performance.
+1 

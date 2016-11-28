@@ -1,0 +1,21 @@
+
+This paper discusses an approach to mod-
+eling monolingual and bilingual dictio-
+naries in the description logic species of
+the OWL Web Ontology Language (OWL
+DL). The central idea is that the model
+of a bilingual dictionary is a combination
+of the models of two monolingual dictio-
+naries, in addition to an abstract transla-
+tion model. The paper addresses the ad-
+vantages of using OWL DL for the design
+of monolingual and bilingual dictionaries
+and proposes a generalized architecture for
+that purpose. Moreover, mechanisms for
+querying and checking the consistency of
+such models are presented, and it is con-
+cluded that DL provides means which are
+capable of adequately meeting the require-
+ments on the design of multilingual dictio-
+naries.
+1 

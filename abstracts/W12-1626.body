@@ -1,0 +1,22 @@
+
+This paper proposes the use of unsuper-
+vised approaches to improve components of
+partition-based belief tracking systems. The
+proposed method adopts a dynamic Bayesian
+network to learn the user action model directly
+from a machine-transcribed dialog corpus. It
+also addresses confidence score calibration to
+improve the observation model in a unsuper-
+vised manner using dialog-level grounding in-
+formation. To verify the effectiveness of the
+proposed method, we applied it to the Let?s Go
+domain (Raux et al., 2005). Overall system
+performance for several comparative models
+were measured. The results show that the pro-
+posed method can learn an effective user ac-
+tion model without human intervention. In
+addition, the calibrated confidence score was
+verified by demonstrating the positive influ-
+ence on the user action model learning process
+and on overall system performance.
+1 

@@ -1,0 +1,21 @@
+
+Broad-coverage semantic annotations for
+training statistical learners are only available
+for a handful of languages. Previous ap-
+proaches to cross-lingual transfer of seman-
+tic annotations have addressed this problem
+with encouraging results on a small scale. In
+this paper, we scale up previous efforts by us-
+ing an automatic approach to semantic anno-
+tation that does not rely on a semantic on-
+tology for the target language. Moreover,
+we improve the quality of the transferred se-
+mantic annotations by using a joint syntactic-
+semantic parser that learns the correlations be-
+tween syntax and semantics of the target lan-
+guage and smooths out the errors from auto-
+matic transfer. We reach a labelled F-measure
+for predicates and arguments of only 4% and
+9% points, respectively, lower than the upper
+bound from manual annotations.
+1 

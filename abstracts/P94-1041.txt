@@ -1,0 +1,13 @@
+ 
+Interactive spoken dialog provides many new challenges for 
+spoken language systems. One of the most critical is the 
+prevalence of speech repairs. This paper presents an al- 
+gorithm that detects and corrects peech repairs based on 
+finding the repair pattern. The repair pattern is built by find- 
+ing word matches and word replacements, and identifying 
+fragments and editing terms. Rather than using a set of pre- 
+built templates, we build the pattern on the fly. In a fair test, 
+our method, when combined with a statistical model to filter 
+possible repairs, was successful at detecting and correcting 
+80% of the repairs, without using prosodic information or a 
+parser. 

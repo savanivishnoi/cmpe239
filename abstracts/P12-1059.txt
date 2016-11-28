@@ -1,0 +1,20 @@
+
+We predict entity type distributions in Web
+search queries via probabilistic inference in
+graphical models that capture how entity-
+bearing queries are generated. We jointly
+model the interplay between latent user in-
+tents that govern queries and unobserved en-
+tity types, leveraging observed signals from
+query formulations and document clicks. We
+apply the models to resolve entity types in new
+queries and to assign prior type distributions
+over an existing knowledge base. Our mod-
+els are efficiently trained using maximum like-
+lihood estimation over millions of real-world
+Web search queries. We show that modeling
+user intent significantly improves entity type
+resolution for head queries over the state of the
+art, on several metrics, without degradation in
+tail query performance.
+1 

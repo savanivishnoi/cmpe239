@@ -1,0 +1,13 @@
+ 
+Three nontrivial problems of Thai morphological processing are word boundary ambiguity, 
+tagging ambiguity and implicit spelling errors. These problems cause a lot of difficulty to the parser due 
+to the alternative or erroneous chain of word. This work attempts to provide a computational solution, 
+called Word Filtering, to those linguistic phenomena. The filtering process calculates the probabilities 
+of all possible chains of tagged words using a Markov Model. The most likely sequence of tagged word is 
+the one that maximizes the chain probabilities. However, it may be an erroneous chain which has an 
+implicit spelling error. Therefore, the Word Filtering, also, includes the scanning process that detect and 
+correct hese errors. Both filtering and scanning process use a statistical data infonuation collected ~om 
+the hand-ta.~ed corpus. 
+The experiment has shown that word filtering can eliminate most of the alternative word 
+sequences. Moreover: this tcelmique is fairly good at the implicit error correction. 
+1. 

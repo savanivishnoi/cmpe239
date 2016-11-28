@@ -1,0 +1,15 @@
+
+Previous work on paraphrase extraction and
+application has relied on either parallel
+datasets, or on distributional similarity met-
+rics over large text corpora. Our approach
+combines these two orthogonal sources of in-
+formation and directly integrates them into
+our paraphrasing system?s log-linear model.
+We compare different distributional similar-
+ity feature-sets and show significant improve-
+ments in grammaticality and meaning reten-
+tion on the example text-to-text generation
+task of sentence compression, achieving state-
+of-the-art quality.
+1 

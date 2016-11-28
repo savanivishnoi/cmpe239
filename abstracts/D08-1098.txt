@@ -1,0 +1,33 @@
+ 
+An increasingly popular method for 
+finding information online is via the 
+Community Question Answering 
+(CQA) portals such as Yahoo! An-
+swers, Naver, and Baidu Knows. 
+Searching the CQA archives, and rank-
+ing, filtering, and evaluating the sub-
+mitted answers requires intelligent 
+processing of the questions and an-
+swers posed by the users. One impor-
+tant task is automatically detecting the 
+question?s subjectivity orientation: 
+namely, whether a user is searching for 
+subjective or objective information. 
+Unfortunately, real user questions are 
+often vague, ill-posed, poorly stated. 
+Furthermore, there has been little la-
+beled training data available for real 
+user questions. To address these prob-
+lems, we present CoCQA, a co-training 
+system that exploits the association be-
+tween the questions and contributed 
+answers for question analysis tasks. 
+The co-training approach allows 
+CoCQA to use the effectively unlim-
+ited amounts of unlabeled data readily 
+available in CQA archives. In this pa-
+per we study the effectiveness of 
+CoCQA for the question subjectivity 
+classification task by experimenting 
+over thousands of real users? questions.
+1 

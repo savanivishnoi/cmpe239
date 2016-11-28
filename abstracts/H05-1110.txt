@@ -1,0 +1,14 @@
+
+Dictionaries and word translation models
+are used by a variety of systems, espe-
+cially in machine translation. We build
+a multilingual dictionary induction system
+for a family of related resource-poor lan-
+guages. We assume only the presence
+of a single medium-length multitext (the
+Bible). The techniques rely upon lexical
+and syntactic similarity of languages as
+well as on the fact that building dictionar-
+ies for several pairs of languages provides
+information about other pairs.
+1 

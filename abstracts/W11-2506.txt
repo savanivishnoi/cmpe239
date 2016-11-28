@@ -1,0 +1,19 @@
+
+We present a distributional vector space model
+that incorporates Latent Dirichlet Allocation
+in order to capture the semantic relation hold-
+ing between adjectives and nouns along inter-
+pretable dimensions of meaning: The meaning
+of adjective-noun phrases is characterized in
+terms of ontological attributes that are promi-
+nent in their compositional semantics. The
+model is evaluated in a similarity prediction
+task based on paired adjective-noun phrases
+from the Mitchell and Lapata (2010) bench-
+mark data. Comparing our model against a
+high-dimensional latent word space, we ob-
+serve qualitative differences that shed light
+on different aspects of similarity conveyed
+by both models and suggest integrating their
+complementary strengths.
+1 

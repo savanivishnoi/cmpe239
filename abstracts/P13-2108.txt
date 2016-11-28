@@ -1,0 +1,15 @@
+
+Higher-order dependency features are
+known to improve dependency parser ac-
+curacy. We investigate the incorporation
+of such features into a cube decoding
+phrase-structure parser. We find consid-
+erable gains in accuracy on the range of
+standard metrics. What is especially in-
+teresting is that we find strong, statisti-
+cally significant gains on dependency re-
+covery on out-of-domain tests (Brown vs.
+WSJ). This suggests that higher-order de-
+pendency features are not simply over-
+fitting the training material.
+1 

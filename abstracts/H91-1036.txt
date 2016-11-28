@@ -1,0 +1,11 @@
+ 
+This paper describes a series of experiments aimed at 
+producing a bottom-up arser that will produce partial 
+parses suitable for use in robust interpretation and still 
+be reasonably efficient. In the course of these experi- 
+ments, we improved parse times by a factor of 18 over 
+our first attempt, ending with a system that was twice 
+as fast as our previous parser, which relied on strong 
+top-down constraints. The major algorithmic variations 
+we tried are described along with the corresponding per- 
+formance results. 

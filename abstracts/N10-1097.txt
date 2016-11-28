@@ -1,0 +1,18 @@
+ 
+In this paper we investigate how to identify 
+initiation-response pairs in asynchronous, 
+multi-threaded, multi-party conversations.  
+We formulate the task of identifying initia-
+tion-response pairs as a pairwise ranking 
+problem. A novel variant of Latent Semantic 
+Analysis (LSA) is proposed to overcome a li-
+mitation of standard LSA models, namely that 
+uncommon words, which are critical for sig-
+naling initiation-response links, tend to be 
+deemphasized as it is the more frequent terms 
+that end up closer to the latent factors selected 
+through singular value decomposition. We 
+present experimental results demonstrating 
+significantly better performance of the novel 
+variant of LSA over standard LSA.  
+1 

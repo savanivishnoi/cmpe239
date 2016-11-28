@@ -1,0 +1,22 @@
+
+This paper proposes the use of global fea-
+tures for Chinese word segmentation. These
+global features are combined with local fea-
+tures using the averaged perceptron algo-
+rithm over N-best candidate word segmenta-
+tions. The N-best candidates are produced
+using a conditional random field (CRF)
+character-based tagger for word segmenta-
+tion. Our experiments show that by adding
+global features, performance is significantly
+improved compared to the character-based
+CRF tagger. Performance is also improved
+compared to using only local features. Our
+system obtains an F-score of 0.9355 on the
+CityU corpus, 0.9263 on the CKIP corpus,
+0.9512 on the SXU corpus, 0.9296 on the
+NCC corpus and 0.9501 on the CTB cor-
+pus. All results are for the closed track in
+the fourth SIGHAN Chinese Word Segmen-
+tation Bakeoff.
+1 

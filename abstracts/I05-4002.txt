@@ -1,0 +1,21 @@
+
+Parsing is one of the important
+processes for natural language process-
+ing and, in general, a large-scale CFG
+is used to parse a wide variety of
+sentences. For many languages, a
+CFG is derived from a large-scale
+syntactically annotated corpus, and
+many parsing algorithms using CFGs
+have been proposed. However, we
+could not apply them to Japanese since
+a Japanese syntactically annotated
+corpus has not been available as of yet.
+In order to solve the problem, we have
+been building a large-scale Japanese
+syntactically annotated corpus. In this
+paper, we show the evaluation results
+of a CFG derived from our corpus
+and compare it with results of some
+Japanese dependency analyzers.
+1 

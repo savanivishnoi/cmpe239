@@ -1,0 +1,25 @@
+
+Academic collaboration has often been at
+the forefront of scientific progress, whether
+amongst prominent established researchers, or
+between students and advisors. We suggest a
+theory of the different types of academic col-
+laboration, and use topic models to computa-
+tionally identify these in Computational Lin-
+guistics literature. A set of author-specific
+topics are learnt over the ACL corpus, which
+ranges from 1965 to 2009. The models are
+trained on a per year basis, whereby only pa-
+pers published up until a given year are used
+to learn that year?s author topics. To determine
+the collaborative properties of papers, we use,
+as a metric, a function of the cosine similarity
+score between a paper?s term vector and each
+author?s topic signature in the year preceding
+the paper?s publication. We apply this metric
+to examine questions on the nature of collabo-
+rations in Computational Linguistics research,
+finding that significant variations exist in the
+way people collaborate within different sub-
+fields.
+1 

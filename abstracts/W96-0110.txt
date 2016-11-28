@@ -1,0 +1,17 @@
+ 
+In this paper, an integrated score function is proposed to resolve the ambiguity of deep- 
+structure, which includes the cases of constituents and the senses of words. With the integrated 
+score function, different knowledge sources, including part-of-speech, syntax and semantics, are 
+integrated in a uniform formulation. Based on this formulation, different models for case 
+identification and word-sense disambiguation are derived. In the baseline system, the values of 
+parameters are estimated by using the maximum likelihood estimation method. The accuracy rates 
+of 56.3% for parse tree, 77.5% for case and 86.2% for word sense are obtained when the baseline 
+system is tested on a corpus of 800 sentences. Afterwards, to reduce the estimation error caused by 
+the maximum likelihood estimation, the Good-Turing's smoothing method is applied. In addition, a
+robust discriminative l arning algorithm is also derived to minimize the testing set error rate. By 
+applying these algorithms, the accuracy rates of 77% for parse tree, 88,9% for case, and 88.6% for 
+sense are obtained. Compared with the baseline system; 17.4% error reduction rate for sense 
+discrimination, 50.7% for case identification, and 47.4% for parsing accuracy are obtained. These 
+results clearly demonstrate the superiority of the proposed models for deep-structure 
+disambiguation. 
+I 

@@ -1,0 +1,19 @@
+
+An appealing methodology for natural lan-
+guage generation in dialogue systems is to
+train the system to match a target corpus.
+We show how users can provide such a
+corpus as a natural side effect of interact-
+ing with a prototype system, when the sys-
+tem uses mixed-initiative interaction and a
+reversible architecture to cover a domain
+familiar to users. We experiment with
+integrated problems of sentence planning
+and realization in a referential communi-
+cation task. Our model learns general and
+context-sensitive patterns to choose de-
+scriptive content, vocabulary, syntax and
+function words, and improves string match
+with user utterances to 85.8% from a hand-
+crafted baseline of 54.4%.
+1 

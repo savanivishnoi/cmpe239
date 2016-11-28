@@ -1,0 +1,20 @@
+
+This paper summarizes the results of a
+large-scale evaluation study of bag-of-
+words distributional models on behavioral
+data from three semantic priming experi-
+ments. The tasks at issue are (i) identifi-
+cation of consistent primes based on their
+semantic relatedness to the target and (ii)
+correlation of semantic relatedness with
+latency times. We also provide an evalu-
+ation of the impact of specific model pa-
+rameters on the prediction of priming. To
+the best of our knowledge, this is the first
+systematic evaluation of a wide range of
+DSM parameters in all possible combina-
+tions. An important result of the study
+is that neighbor rank performs better than
+distance measures in predicting semantic
+priming.
+1 

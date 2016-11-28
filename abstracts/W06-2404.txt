@@ -1,0 +1,16 @@
+
+The Japanese language has various types
+of compound functional expressions,
+which are very important for recogniz-
+ing the syntactic structures of Japanese
+sentences and for understanding their
+semantic contents. In this paper, we
+formalize the task of identifying Japanese
+compound functional expressions in a
+text as a chunking problem. We apply a
+machine learning technique to this task,
+where we employ that of Support Vector
+Machines (SVMs). We show that the pro-
+posed method significantly outperforms
+existing Japanese text processing tools.
+1 

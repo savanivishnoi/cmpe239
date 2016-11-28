@@ -1,0 +1,21 @@
+
+This paper presents a system which adopts
+a standard sequence labeling technique for
+hedge detection and scope finding. For
+the first task, hedge detection, we formu-
+late it as a hedge labeling problem, while
+for the second task, we use a two-step la-
+beling strategy, one for hedge cue label-
+ing and the other for scope finding. In par-
+ticular, various kinds of syntactic features
+are systemically exploited and effectively
+integrated using a large-scale normalized
+feature selection method. Evaluation on
+the CoNLL-2010 shared task shows that
+our system achieves stable and competi-
+tive results for all the closed tasks. Fur-
+thermore, post-deadline experiments show
+that the performance can be much further
+improved using a sufficient feature selec-
+tion.
+1 

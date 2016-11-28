@@ -1,0 +1,21 @@
+
+The background for this paper is the aim
+to build robotic assistants that can ?natu-
+rally? interact with humans. One prereq-
+uisite for this is that the robot can cor-
+rectly identify objects or places a user
+refers to, and produce comprehensible ref-
+erences itself. As robots typically act
+in environments that are larger than what
+is immediately perceivable, the problem
+arises how to identify the appropriate con-
+text, against which to resolve or produce
+a referring expression (RE). Existing al-
+gorithms for generating REs generally by-
+pass this problem by assuming a given
+context. In this paper, we explicitly ad-
+dress this problem, proposing a method for
+context determination in large-scale space.
+We show how it can be applied both for re-
+solving and producing REs.
+1 

@@ -1,0 +1,21 @@
+ 
+A general-purpose text annotation tool 
+called Knowtator is introduced.  Knowtator 
+facilitates the manual creation of annotated 
+corpora that can be used for evaluating or 
+training a variety of natural language proc-
+essing systems.  Building on the strengths 
+of the widely used Prot?g? knowledge rep-
+resentation system, Knowtator has been 
+developed as a Prot?g? plug-in that lever-
+ages Prot?g??s knowledge representation 
+capabilities to specify annotation schemas.  
+Knowtator?s unique advantage over other 
+annotation tools is the ease with which 
+complex annotation schemas (e.g. schemas 
+which have constrained relationships be-
+tween annotation types) can be defined and 
+incorporated into use.  Knowtator is avail-
+able under the Mozilla Public License 1.1 
+at http://bionlp.sourceforge.net/Knowtator.   
+1 

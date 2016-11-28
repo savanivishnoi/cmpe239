@@ -1,0 +1,19 @@
+ 
+The segmentation of Chinese texts is a key 
+process in Chinese information processing. 
+The difficulties in segmentation are the 
+process of ambiguous character string and 
+unknown Chinese words. In order to obtain 
+the correct result, the first is identification of 
+all possible candidates of Chinese words in a 
+text. In this paper, a data structure 
+Chinese-character-net is put forward, then, 
+based on this character-net, a new algorithm 
+is presented to obtain all possible candidate 
+of Chinese words in a text. This paper gives 
+the experiment result. Finally the 
+characteristics of the algorithm are analysed. 
+Keywords: segmentation, connection, 
+character-net, ambiguity, unknown words.
+ 
+1 

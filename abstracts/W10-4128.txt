@@ -1,0 +1,26 @@
+ 
+This paper presents a Chinese word 
+segmentation system for CIPS-SIGHAN 
+2010 Chinese language processing task. 
+Firstly, based on Conditional Random 
+Field (CRF) model, with local features 
+and global features, the character-based 
+tagging model is designed. Secondly, 
+Hidden Markov Models (HMM) is used 
+to revise the substrings with low marginal 
+probability by CRF. Finally, confidence 
+measure is used to regenerate the result 
+and simple rules to deal with the strings 
+within letters and numbers. As is well 
+known that character-based approach has 
+outstanding capability of discovering 
+out-of-vocabulary (OOV) word, but ex-
+ternal information of word lost. HMM 
+makes use of word information to in-
+crease in-vocabulary (IV) recall. We par-
+ticipate in the simplified Chinese word 
+segmentation both closed and open test 
+on all four corpora, which belong to dif-
+ferent domains. Our system achieves bet-
+ter performance. 
+1 

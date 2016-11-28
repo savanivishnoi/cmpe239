@@ -1,0 +1,12 @@
+
+Automatic acquisition of paraphrase knowledge
+for content words is proposed. Using only a
+non-parallel text corpus, we compute the para-
+phrasability metrics between two words from
+their similarity in context. We then filter words
+such as proper nouns from external knowledge.
+Finally, we use a heuristic in further filtering to
+improve the accuracy of the automatic acqui-
+sition. In this paper, we report the results of
+acquisition experiments.
+1 

@@ -1,0 +1,15 @@
+
+In this paper, we propose a novel string-to-
+dependency algorithm for statistical machine
+translation. With this new framework, we em-
+ploy a target dependency language model dur-
+ing decoding to exploit long distance word
+relations, which are unavailable with a tra-
+ditional n-gram language model. Our ex-
+periments show that the string-to-dependency
+decoder achieves 1.48 point improvement in
+BLEU and 2.53 point improvement in TER
+compared to a standard hierarchical string-to-
+string system on the NIST 04 Chinese-English
+evaluation set.
+1 

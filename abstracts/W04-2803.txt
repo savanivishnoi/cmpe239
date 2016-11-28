@@ -1,0 +1,19 @@
+
+In this paper we present an evaluation of
+Carmel-Tools, a novel behavior oriented ap-
+proach to authoring and maintaining do-
+main specific knowledge sources for ro-
+bust sentence-level language understanding.
+Carmel-Tools provides a layer of abstraction
+between the author and the knowledge sources,
+freeing up the author to focus on the desired
+language processing behavior that is desired in
+the target system rather than the linguistic de-
+tails of the knowledge sources that would make
+this behavior possible. Furthermore, Carmel-
+Tools offers greater flexibility in output rep-
+resentation than the context-free rewrite rules
+produced by previous semantic authoring tools,
+allowing authors to design their own predicate
+language representations.
+1 

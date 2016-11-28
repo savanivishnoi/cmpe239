@@ -1,0 +1,16 @@
+
+This paper reports the example-based
+segmentation system for our participa-
+tion in the second Chinese Word Seg-
+mentation Bakeoff (CWSB-2), present-
+ing its basic ideas, technical details and
+evaluation. It is a preliminary imple-
+mentation. CWSB-2 valuation shows
+that it performs very well in identify-
+ing known words. Its unknown word
+detection module also illustrates great
+potential. However, proper facilities for
+identifying time expressions, numbers
+and other types of unknown words are
+needed for improvement.
+1 

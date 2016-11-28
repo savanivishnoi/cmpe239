@@ -1,0 +1,33 @@
+ion in Referring Expression Generation and its Relation
+with the Construction of the Contrast Set
+Raquel Herva?s
+Facultad de Informa?tica
+Universidad Complutense de Madrid
+Madrid, Spain
+raquelhb@fdi.ucm.es
+Pablo Gerva?s
+Facultad de Informa?tica
+Universidad Complutense de Madrid
+Madrid, Spain
+pgervas@sip.ucm.es
+Abstract
+Referring Expression Generation (REG) is the
+task that deals with references to entities ap-
+pearing in a spoken or written discourse. If
+these referents are organized in terms of a tax-
+onomy, there are two problems when estab-
+lishing a reference that would distinguish an
+intended referent from its possible distractors.
+The first one is the choice of the set of possible
+distractrors or contrast set in the given situa-
+tion. The second is to identify at what level of
+the taxonomy to phrase the reference so that
+it unambiguously picks out only the intended
+referent, leaving all possible distractors in dif-
+ferent branches of the taxonomy. We discuss
+the use of ontologies to deal with the REG
+task, paying special attention to the choice of
+the the contrast set and to the use of the in-
+formation of the ontology to select the most
+appropriate type to be used for the referent.
+1 

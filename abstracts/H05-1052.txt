@@ -1,0 +1,12 @@
+
+This paper introduces a graph-based algo-
+rithm for sequence data labeling, using ran-
+dom walks on graphs encoding label de-
+pendencies. The algorithm is illustrated
+and tested in the context of an unsuper-
+vised word sense disambiguation problem,
+and shown to significantly outperform the
+accuracy achieved through individual label
+assignment, as measured on standard sense-
+annotated data sets.
+1 

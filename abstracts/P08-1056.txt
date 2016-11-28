@@ -1,0 +1,21 @@
+
+Statistical machine learning methods are em-
+ployed to train a Named Entity Recognizer
+from annotated data. Methods like Maxi-
+mum Entropy and Conditional Random Fields
+make use of features for the training purpose.
+These methods tend to overfit when the avail-
+able training corpus is limited especially if the
+number of features is large or the number of
+values for a feature is large. To overcome
+this we proposed two techniques for feature
+reduction based on word clustering and se-
+lection. A number of word similarity mea-
+sures are proposed for clustering words for
+the Named Entity Recognition task. A few
+corpus based statistical measures are used for
+important word selection. The feature reduc-
+tion techniques lead to a substantial perfor-
+mance improvement over baseline Maximum
+Entropy technique.
+1 

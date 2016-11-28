@@ -1,0 +1,18 @@
+
+This paper describes a system to solve
+the joint learning of syntactic and seman-
+tic dependencies. An directed graphical
+model is put forward to integrate depen-
+dency relation classification and semantic
+role labeling. We present a bilayer di-
+rected graph to express probabilistic re-
+lationships between syntactic and seman-
+tic relations. Maximum Entropy Markov
+Models are implemented to estimate con-
+ditional probability distribution and to do
+inference. The submitted model yields
+76.28% macro-average F1 performance,
+for the joint task, 85.75% syntactic depen-
+dencies LAS and 66.61% semantic depen-
+dencies F1.
+1 

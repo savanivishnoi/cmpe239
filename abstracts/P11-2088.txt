@@ -1,0 +1,19 @@
+
+Identifying peer-review helpfulness is an im-
+portant task for improving the quality of feed-
+back that students receive from their peers. As
+a first step towards enhancing existing peer-
+review systems with new functionality based
+on helpfulness detection, we examine whether
+standard product review analysis techniques
+also apply to our new context of peer reviews.
+In addition, we investigate the utility of in-
+corporating additional specialized features tai-
+lored to peer review. Our preliminary results
+show that the structural features, review uni-
+grams and meta-data combined are useful in
+modeling the helpfulness of both peer reviews
+and product reviews, while peer-review spe-
+cific auxiliary features can further improve
+helpfulness prediction.
+1 

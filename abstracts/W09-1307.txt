@@ -1,0 +1,23 @@
+
+Text mining for biomedicine requires a sig-
+nificant amount of domain knowledge. Much
+of this information is contained in biomedical
+ontologies. Developers of text mining appli-
+cations often look for appropriate ontologies
+that can be integrated into their systems, rather
+than develop new ontologies from scratch.
+However, there is often a lack of documen-
+tation of the qualities of the ontologies. A
+number of methodologies for evaluating on-
+tologies have been developed, but it is diffi-
+cult for users by using these methods to se-
+lect an ontology. In this paper, we propose
+a framework for selecting the most appropri-
+ate ontology for a particular text mining appli-
+cation. The framework comprises three com-
+ponents, each of which considers different as-
+pects of requirements of text mining applica-
+tions on ontologies. We also present an ex-
+periment based on the framework choosing an
+ontology for a gene normalization system.
+1 

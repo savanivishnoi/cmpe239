@@ -1,0 +1,12 @@
+
+This paper proposes a method for evaluating the
+validity of partial parse trees constructed in incre-
+mental parsing. Our method is based on stochastic
+incremental parsing, and it incrementally evaluates
+the validity for each partial parse tree on a word-
+by-word basis. In our method, incremental parser
+returns partial parse trees at the point where the va-
+lidity for the partial parse tree becomes greater than
+a threshold. Our technique is effective for improv-
+ing the accuracy of incremental parsing.
+1 

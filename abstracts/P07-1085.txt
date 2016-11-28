@@ -1,0 +1,28 @@
+ 
+Language model (LM) adaptation is im-
+portant for both speech and language 
+processing. It is often achieved by com-
+bining a generic LM with a topic-specific 
+model that is more relevant to the target 
+document.  Unlike previous work on un-
+supervised LM adaptation, this paper in-
+vestigates how effectively using named 
+entity (NE) information, instead of con-
+sidering all the words, helps LM adapta-
+tion. We evaluate two latent topic analysis 
+approaches in this paper, namely, cluster-
+ing and Latent Dirichlet Allocation 
+(LDA). In addition, a new dynamically 
+adapted weighting scheme for topic mix-
+ture models is proposed based on LDA 
+topic analysis. Our experimental results 
+show that the NE-driven LM adaptation 
+framework outperforms the baseline ge-
+neric LM. The best result is obtained us-
+ing the LDA-based approach by 
+expanding the named entities with syntac-
+tically filtered words, together with using 
+a large number of topics, which yields a 
+perplexity reduction of 14.23% compared 
+to the baseline generic LM. 
+1 

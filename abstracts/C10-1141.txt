@@ -1,0 +1,24 @@
+ 
+Near-synonyms are useful knowledge re-
+sources for many natural language applica-
+tions such as query expansion for information 
+retrieval (IR) and paraphrasing for text gen-
+eration. However, near-synonyms are not nec-
+essarily interchangeable in contexts due to 
+their specific usage and syntactic constraints. 
+Accordingly, it is worth to develop algorithms 
+to verify whether near-synonyms do match the 
+given contexts. In this paper, we consider the 
+near-synonym substitution task as a classifica-
+tion task, where a classifier is trained for each 
+near-synonym set to classify test examples 
+into one of the near-synonyms in the set. We 
+also propose the use of discriminative training 
+to improve classifiers by distinguishing posi-
+tive and negative features for each near-
+synonym. Experimental results show that the 
+proposed method achieves higher accuracy 
+than both pointwise mutual information (PMI) 
+and n-gram-based methods that have been 
+used in previous studies. 
+1 

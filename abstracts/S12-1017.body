@@ -1,0 +1,16 @@
+
+We study the task of automatically disam-
+biguating word combinations such as jump
+the gun which are ambiguous between a lit-
+eral and MWE interpretation, focusing on the
+utility of type-level features from an MWE
+lexicon for the disambiguation task. To
+this end we combine gold-standard idiomatic-
+ity of tokens in the OpenMWE corpus with
+MWE-type-level information drawn from the
+recently-published JDMWE lexicon. We find
+that constituent modifiability in an MWE-type
+is more predictive of the idiomaticity of its
+tokens than other constituent characteristics
+such as semantic class or part of speech.
+1 

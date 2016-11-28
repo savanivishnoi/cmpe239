@@ -1,0 +1,25 @@
+
+Current NER approaches include:
+dictionary-based, rule-based, or ma-
+chine learning. Since there is no
+consolidated nomenclature for most
+biomedical NEs, most NER systems
+relying on limited dictionaries or rules
+do not perform satisfactorily. In this
+paper, we apply Maximum Entropy
+(ME) to construct our NER framework.
+We represent shallow linguistic infor-
+mation as linguistic features in our ME
+model. On the GENIA 3.02 corpus, our
+system achieves satisfactory F-scores
+of 74.3% in protein and 70.0% overall
+without using any dictionary. Our
+system performs significantly better
+than dictionary-based systems. Using
+partial match criteria, our system
+achieves an F-score of 81.3%. Using
+appropriate domain knowledge to
+modify the boundaries, our system has
+the potential to achieve an F-score of
+over 80%.
+1 

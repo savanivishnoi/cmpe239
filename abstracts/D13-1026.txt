@@ -1,0 +1,22 @@
+
+Traditional synchronous grammar induction
+estimates parameters by maximizing likeli-
+hood, which only has a loose relation to trans-
+lation quality. Alternatively, we propose a
+max-margin estimation approach to discrim-
+inatively inducing synchronous grammars for
+machine translation, which directly optimizes
+translation quality measured by BLEU. In
+the max-margin estimation of parameters, we
+only need to calculate Viterbi translations.
+This further facilitates the incorporation of
+various non-local features that are defined on
+the target side. We test the effectiveness of our
+max-margin estimation framework on a com-
+petitive hierarchical phrase-based system. Ex-
+periments show that our max-margin method
+significantly outperforms the traditional two-
+step pipeline for synchronous rule extraction
+by 1.3 BLEU points and is also better than pre-
+vious max-likelihood estimation method.
+1 

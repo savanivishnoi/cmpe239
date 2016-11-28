@@ -1,0 +1,13 @@
+
+This paper introduces a new, reversible
+method for converting syntactic structures
+with discontinuous constituents into tradi-
+tional syntax trees. The method is applied
+to the Tiger Corpus of German and results
+for PCFG parsing requiring such context-
+free trees are provided. A labeled depen-
+dency evaluation shows that the new conver-
+sion method leads to better results by pre-
+serving local relationships and introducing
+fewer inconsistencies into the training data.
+1 

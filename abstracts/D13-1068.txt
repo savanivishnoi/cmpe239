@@ -1,0 +1,24 @@
+
+Recently, much research focuses on event s-
+toryline generation, which aims to produce a
+concise, global and temporal event summary
+from a collection of articles. Generally, each
+event contains multiple sub-events and the sto-
+ryline should be composed by the componen-
+t summaries of all the sub-events. However,
+different sub-events have different part-whole
+relationship with the major event, which is
+important to correspond to users? interests
+but seldom considered in previous work. To
+distinguish different types of sub-events, we
+propose a mixture-event-aspect model which
+models different sub-events into local and
+global aspects. Combining these local/global
+aspects with summarization requirements to-
+gether, we utilize an optimization method to
+generate the component summaries along the
+timeline. We develop experimental systems on
+6 distinctively different datasets. Evaluation
+and comparison results indicate the effective-
+ness of our proposed method.
+1 

@@ -1,0 +1,18 @@
+
+We propose a new unsupervised method
+for topic detection that automatically iden-
+tifies the different facets of an event. We
+use pointwise Kullback-Leibler divergence
+along with the Jaccard coefficient to build
+a topic graph which represents the com-
+munity structure of the different facets.
+The problem is formulated as a weighted
+set cover problem with dynamically vary-
+ing weights. The algorithm is domain-
+independent and generates a representa-
+tive set of informative and discriminative
+phrases that cover the entire event. We
+evaluate this algorithm on a large collec-
+tion of blog postings about different news
+events and report promising results.
+1 

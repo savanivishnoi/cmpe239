@@ -1,0 +1,18 @@
+
+Over the past decade, several underspec-
+ification frameworks have been proposed
+that efficiently solve a big subset of scope-
+underspecified semantic representations
+within the realm of the most popular
+constraint-based formalisms. However, there
+exists a family of coherent natural language
+sentences whose underspecified representa-
+tion does not belong to this subset. It has
+remained an open question whether there ex-
+ists a tractable superset of these frameworks,
+covering this family. In this paper, we show
+that the answer to this question is yes. We
+define a superset of the previous frameworks,
+which is solvable by similar algorithms with
+the same time and space complexity.
+1 

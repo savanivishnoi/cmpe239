@@ -1,0 +1,15 @@
+
+Using the technique of ?semantic mirror-
+ing? a graph is obtained that represents
+words and their translations from a paral-
+lel corpus or a bilingual lexicon. The con-
+nectedness of the graph holds information
+about the different meanings of words that
+occur in the translations. Spectral graph
+theory is used to partition the graph, which
+leads to a grouping of the words according
+to different senses. We also report results
+from an evaluation using a small sample of
+seed words from a lexicon of Swedish and
+English adjectives.
+1 

@@ -1,0 +1,24 @@
+
+In the present paper, we propose the ef-
+fective usage of function words to generate
+generalized translation rules for forest-based
+translation. Given aligned forest-string pairs,
+we extract composed tree-to-string translation
+rules that account for multiple interpretations
+of both aligned and unaligned target func-
+tion words. In order to constrain the ex-
+haustive attachments of function words, we
+limit to bind them to the nearby syntactic
+chunks yielded by a target dependency parser.
+Therefore, the proposed approach can not
+only capture source-tree-to-target-chunk cor-
+respondences but can also use forest structures
+that compactly encode an exponential num-
+ber of parse trees to properly generate target
+function words during decoding. Extensive
+experiments involving large-scale English-to-
+Japanese translation revealed a significant im-
+provement of 1.8 points in BLEU score, as
+compared with a strong forest-to-string base-
+line system.
+1 

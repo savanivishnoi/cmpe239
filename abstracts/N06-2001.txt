@@ -1,0 +1,15 @@
+
+We present a new type of neural proba-
+bilistic language model that learns a map-
+ping from both words and explicit word
+features into a continuous space that is
+then used for word prediction. Addi-
+tionally, we investigate several ways of
+deriving continuous word representations
+for unknown words from those of known
+words. The resulting model significantly
+reduces perplexity on sparse-data tasks
+when compared to standard backoff mod-
+els, standard neural language models, and
+factored language models.
+1 

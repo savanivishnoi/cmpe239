@@ -1,0 +1,19 @@
+ 
+We use robust and fast Finite-State Machines 
+(FSMs) to solve scriptural translation prob-
+lems. We describe a phonetico-morphotactic 
+pivot UIT (universal intermediate transcrip-
+tion), based on the common phonetic reposito-
+ry of Indo-Pak languages. It is also extendable 
+to other language groups. We describe a finite-
+state scriptural translation model based on fi-
+nite-state transducers and UIT. We report its 
+performance on Hindi, Urdu, Punjabi and Se-
+raiki corpora. For evaluation, we design two 
+classification scales based on the word and 
+sentence accuracies for translation system 
+classifications. We also show that subjective 
+evaluations are vital for real life usage of a 
+translation system in addition to objective 
+evaluations. 
+1 

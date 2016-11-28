@@ -1,0 +1,25 @@
+
+We investigate translation modeling based on
+exponential estimates which generalize essen-
+tial components of standard translation mod-
+els. In application to a hierarchical phrase-
+based system the simplest generalization al-
+lows its models of lexical selection and re-
+ordering to be conditioned on arbitrary at-
+tributes of the source sentence and its anno-
+tation. Viewing these estimates as approxi-
+mations of sentence-level probabilities moti-
+vates further elaborations that seek to exploit
+general syntactic and morphological patterns.
+Dimensionality control with `1 regularizers
+makes it possible to negotiate the tradeoff be-
+tween translation quality and decoding speed.
+Putting together and extending several recent
+advances in phrase-based translation we ar-
+rive at a flexible modeling framework that al-
+lows efficient leveraging of monolingual re-
+sources and tools. Experiments with features
+derived from the output of Chinese and Arabic
+parsers and an Arabic lemmatizer show signif-
+icant improvements over a strong baseline.
+1 

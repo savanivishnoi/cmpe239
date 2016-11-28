@@ -1,0 +1,21 @@
+
+This paper presents an unsupervised re-
+lation extraction algorithm, which in-
+duces relations between entity pairs by
+grouping them into a ?natural? num-
+ber of clusters based on the similarity
+of their contexts. Stability-based crite-
+rion is used to automatically estimate
+the number of clusters. For removing
+noisy feature words in clustering proce-
+dure, feature selection is conducted by
+optimizing a trace based criterion sub-
+ject to some constraint in an unsuper-
+vised manner. After relation clustering
+procedure, we employ a discriminative
+category matching (DCM) to find typi-
+cal and discriminative words to repre-
+sent different relations. Experimental
+results show the effectiveness of our al-
+gorithm.
+1 

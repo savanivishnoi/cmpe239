@@ -1,0 +1,25 @@
+
+The automatic acquisition of feature-based
+conceptual representations from text corpora
+can be challenging, given the unconstrained
+nature of human-generated features. We
+examine large-scale extraction of concept-
+relation-feature triples and the utility of syn-
+tactic, semantic, and encyclopedic informa-
+tion in guiding this complex task. Meth-
+ods traditionally employed do not investi-
+gate the full range of triples occurring in
+human-generated norms (e.g. flute produce
+sound), rather targeting concept-feature pairs
+(e.g. flute ? sound) or triples involving specific
+relations (e.g. is-a, part-of ). We introduce
+a novel method that extracts candidate triples
+(e.g. deer have antlers, flute produce sound)
+from parsed data and re-ranks them using se-
+mantic information. We apply this technique
+to Wikipedia and the British National Corpus
+and assess its accuracy in a variety of ways.
+Our work demonstrates the utility of external
+knowledge in guiding feature extraction, and
+suggests a number of avenues for future work.
+1 

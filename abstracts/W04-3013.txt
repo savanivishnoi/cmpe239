@@ -1,0 +1,26 @@
+ 
+We present a method of inferring aspects of a 
+person?s context by capturing conversation 
+topics and using prior knowledge of human 
+behavior. This paper claims that topic-spotting 
+performance can be improved by using a large 
+database of common sense knowledge. We 
+describe two systems we built to infer context 
+from noisy transcriptions of spoken conversa-
+tions using common sense, and detail some 
+preliminary results. The GISTER system uses 
+OMCSNet, a commonsense semantic net-
+work, to infer the most likely topics under dis-
+cussion in a conversation stream. The 
+OVERHEAR system is built on top of 
+GISTER, and distinguishes between aspects 
+of the conversation that refer to past, present, 
+and future events by using LifeNet, a prob-
+abilistic graphical model of human behavior, 
+to help infer the events that occurred in each 
+of those three time periods. We conclude by 
+discussing some of the future directions we 
+may take this work. 
+1 
+2 
+2.1 

@@ -1,0 +1,13 @@
+
+This paper examines two problems in
+document-level sentiment analysis: (1) de-
+termining whether a given document is a
+review or not, and (2) classifying the po-
+larity of a review as positive or negative.
+We first demonstrate that review identifi-
+cation can be performed with high accu-
+racy using only unigrams as features. We
+then examine the role of four types of sim-
+ple linguistic knowledge sources in a po-
+larity classification system.
+1 

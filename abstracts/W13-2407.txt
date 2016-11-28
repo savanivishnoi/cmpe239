@@ -1,0 +1,14 @@
+
+We describe GPKEX, a keyphrase extrac-
+tion method based on genetic programming.
+We represent keyphrase scoring measures
+as syntax trees and evolve them to pro-
+duce rankings for keyphrase candidates ex-
+tracted from text. We apply and evalu-
+ate GPKEX on Croatian newspaper arti-
+cles. We show that GPKEX can evolve
+simple and interpretable keyphrase scoring
+measures that perform comparably to more
+complex machine learning methods previ-
+ously developed for Croatian.
+1 

@@ -1,0 +1,24 @@
+ 
+We present a strictly lexical parsing 
+model where all the parameters are based 
+on the words. This model does not rely 
+on part-of-speech tags or grammatical 
+categories. It maximizes the conditional 
+probability of the parse tree given the 
+sentence. This is in contrast with most 
+previous models that compute the joint 
+probability of the parse tree and the sen-
+tence. Although the maximization of 
+joint and conditional probabilities are 
+theoretically equivalent, the conditional 
+model allows us to use distributional 
+word similarity to generalize the ob-
+served frequency counts in the training 
+corpus. Our experiments with the Chi-
+nese Treebank show that the accuracy of 
+the conditional model is 13.6% higher 
+than the joint model and that the strictly 
+lexicalized conditional model outper-
+forms the corresponding unlexicalized 
+model based on part-of-speech tags. 
+1 

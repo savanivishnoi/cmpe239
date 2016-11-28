@@ -1,0 +1,17 @@
+
+In this paper, we present a new ranking
+scheme, collaborative ranking (CR). In con-
+trast to traditional non-collaborative ranking
+scheme which solely relies on the strengths
+of isolated queries and one stand-alone rank-
+ing algorithm, the new scheme integrates the
+strengths from multiple collaborators of a
+query and the strengths from multiple ranking
+algorithms. We elaborate three specific forms
+of collaborative ranking, namely, micro col-
+laborative ranking (MiCR), macro collabora-
+tive ranking (MaCR) and micro-macro collab-
+orative ranking (MiMaCR). Experiments on
+entity linking task show that our proposed
+scheme is indeed effective and promising.
+1 

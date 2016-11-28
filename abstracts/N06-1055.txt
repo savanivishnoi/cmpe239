@@ -1,0 +1,30 @@
+
+Recent work on semantic role labeling
+(SRL) has focused almost exclusively on
+the analysis of the predicate-argument
+structure of verbs, largely due to the lack
+of human-annotated resources for other
+types of predicates that can serve as train-
+ing and test data for the semantic role
+labeling systems. However, it is well-
+known that verbs are not the only type
+of predicates that can take arguments.
+Most notably, nouns that are nominalized
+forms of verbs and relational nouns gen-
+erally are also considered to have their
+own predicate-argument structure. In this
+paper we report results of SRL experi-
+ments on nominalized predicates in Chi-
+nese, using a newly completed corpus,
+the Chinese Nombank. We also dis-
+cuss the impact of using publicly avail-
+able manually annotated verb data to im-
+prove the SRL accuracy of nouns, exploit-
+ing a widely-held assumption that verbs
+and their nominalizations share the same
+predicate-argument structure. Finally, we
+discuss the results of applying reranking
+techniques to improve SRL accuracy for
+nominalized predicates, which showed in-
+significant improvement.
+1 

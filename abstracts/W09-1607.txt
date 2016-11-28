@@ -1,0 +1,19 @@
+
+In this paper, we describe a sentence po-
+sition based summarizer that is built based
+on a sentence position policy, created from
+the evaluation testbed of recent summariza-
+tion tasks at Document Understanding Con-
+ferences (DUC). We show that the summa-
+rizer thus built is able to outperform most sys-
+tems participating in task focused summariza-
+tion evaluations at Text Analysis Conferences
+(TAC) 2008. Our experiments also show that
+such a method would perform better at pro-
+ducing short summaries (upto 100 words) than
+longer summaries. Further, we discuss the
+baselines traditionally used for summarization
+evaluation and suggest the revival of an old
+baseline to suit the current summarization task
+at TAC: the Update Summarization task.
+1 

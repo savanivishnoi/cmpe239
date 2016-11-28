@@ -1,0 +1,20 @@
+
+This paper introduces GAF, a grounded an-
+notation framework to represent events in a
+formal context that can represent information
+from both textual and extra-textual sources.
+GAF makes a clear distinction between men-
+tions of events in text and their formal rep-
+resentation as instances in a semantic layer.
+Instances are represented by RDF compliant
+URIs that are shared across different research
+disciplines. This allows us to complete textual
+information with external sources and facili-
+tates reasoning. The semantic layer can inte-
+grate any linguistic information and is com-
+patible with previous event representations in
+NLP. Through a use case on earthquakes in
+Southeast Asia, we demonstrate GAF flexibil-
+ity and ability to reason over events with the
+aid of extra-linguistic resources.
+1 

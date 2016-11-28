@@ -1,0 +1,20 @@
+
+In this paper we present how the auto-
+matic extraction of events from text can
+be used to both classify narrative texts ac-
+cording to plot quality and produce advice
+in an interactive learning environment in-
+tended to help students with story writing.
+We focus on the story rewriting task, in
+which an exemplar story is read to the stu-
+dents and the students rewrite the story in
+their own words. The system automati-
+cally extracts events from the raw text, for-
+malized as a sequence of temporally or-
+dered predicate-arguments. These events
+are given to a machine-learner that pro-
+duces a coarse-grained rating of the story.
+The results of the machine-learner and the
+extracted events are then used to generate
+fine-grained advice for the students.
+1 

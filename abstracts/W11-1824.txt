@@ -1,0 +1,15 @@
+
+This paper presents our approach (referred to
+as BioEvent) for protein-level complex event
+extraction, developed for the GENIA task
+(Kim et al, 2011b) of the BioNLP Shared
+Task 2011 (Kim et al, 2011a). We devel-
+oped a double layered machine learning ap-
+proach which utilizes a state-of-the-art mini-
+mized feature set for each of the event types.
+We improved the best performing system
+of BioNLP 2009 overall, and ranked first
+amongst 15 teams in finding ?Localization?
+events in 201112. BioEvent is available at
+http://bioevent.sourceforge.net/
+1 

@@ -1,0 +1,18 @@
+
+In this paper, we propose the use of fine-
+grained information such as opinions and
+suggestions extracted from users? reviews
+about products, in order to improve a rec-
+ommendation system. While typical rec-
+ommender systems compare a user profile
+with some reference characteristics to rate
+unseen items, they rarely make use of the
+content of reviews users have done on a
+given product. In this paper, we show how
+we applied an opinion extraction system to
+extract opinions but also suggestions from
+the content of the reviews, use the results to
+compare other products with the reviewed
+one, and eventually recommend a better
+product to the user.
+1 

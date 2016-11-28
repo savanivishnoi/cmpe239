@@ -1,0 +1,24 @@
+
+In this paper we present a corpus-based ap-
+proach to automatic identification of false
+friends for Slovene and Croatian, a pair
+of closely related languages. By taking
+advantage of the lexical overlap between
+the two languages, we focus on measuring
+the difference in meaning between iden-
+tically spelled words by using frequency
+and distributional information. We ana-
+lyze the impact of corpora of different ori-
+gin and size together with different associ-
+ation and similarity measures and compare
+them to a simple frequency-based base-
+line. With the best performing setting
+we obtain very good average precision of
+0.973 and 0.883 on different gold stan-
+dards. The presented approach works on
+non-parallel datasets, is knowledge-lean
+and language-independent, which makes it
+attractive for natural language processing
+tasks that often lack the lexical resources
+and cannot afford to build them by hand.
+1 

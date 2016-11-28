@@ -1,0 +1,20 @@
+ 
+Automatically acquiring synonymous words 
+(synonyms) from corpora is a challenging task. 
+For this task, methods that use only one kind 
+of resources are inadequate because of low 
+precision or low recall. To improve the per-
+formance of synonym extraction, we propose 
+a method to extract synonyms with multiple 
+resources including a monolingual dictionary, 
+a bilingual corpus, and a large monolingual 
+corpus. This approach uses an ensemble to 
+combine the synonyms extracted by individ-
+ual extractors which use the three resources. 
+Experimental results prove that the three re-
+sources are complementary to each other on 
+synonym extraction, and that the ensemble 
+method we used is very effective to improve 
+both precisions and recalls of extracted 
+synonyms. 
+1 

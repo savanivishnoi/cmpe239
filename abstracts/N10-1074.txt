@@ -1,0 +1,19 @@
+
+Most work on language acquisition treats
+word segmentation?the identification of lin-
+guistic segments from continuous speech?
+and word learning?the mapping of those seg-
+ments to meanings?as separate problems.
+These two abilities develop in parallel, how-
+ever, raising the question of whether they
+might interact. To explore the question, we
+present a new Bayesian segmentation model
+that incorporates aspects of word learning and
+compare it to a model that ignores word mean-
+ings. The model that learns word meanings
+proposes more adult-like segmentations for
+the meaning-bearing words. This result sug-
+gests that the non-linguistic context may sup-
+ply important information for learning word
+segmentations as well as word meanings.
+1 

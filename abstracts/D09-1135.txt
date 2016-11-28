@@ -1,0 +1,29 @@
+
+This paper proposes a novel method to
+refine the grammars in parsing by utiliz-
+ing semantic knowledge from HowNet.
+Based on the hierarchical state-split ap-
+proach, which can refine grammars au-
+tomatically in a data-driven manner, this
+study introduces semantic knowledge into
+the splitting process at two steps. Firstly,
+each part-of-speech node will be anno-
+tated with a semantic tag of its termi-
+nal word. These new tags generated in
+this step are semantic-related, which can
+provide a good start for splitting. Sec-
+ondly, a knowledge-based criterion is used
+to supervise the hierarchical splitting of
+these semantic-related tags, which can al-
+leviate overfitting. The experiments are
+carried out on both Chinese and English
+Penn Treebank show that the refined gram-
+mars with semantic knowledge can im-
+prove parsing performance significantly.
+Especially with respect to Chinese, our
+parser achieves an F
+1
+score of 87.5%,
+which is the best published result we are
+aware of.
+1 

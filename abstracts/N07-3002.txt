@@ -1,0 +1,22 @@
+
+My research is focused on developing ma-
+chine learning algorithms for inferring de-
+pendency parsers from language data. By
+investigating several approaches I have
+developed a unifying perspective that al-
+lows me to share advances between both
+probabilistic and non-probabilistic meth-
+ods. First, I describe a generative tech-
+nique that uses a strictly lexicalised pars-
+ing model, where all the parameters are
+based on words and do not use any part-
+of-speech (POS) tags nor grammatical cat-
+egories. Then, I incorporate two ideas
+from probabilistic parsing?word similar-
+ity smoothing and local estimation?to
+improve the large margin approach. Fi-
+nally, I present a simpler and more ef-
+ficient approach to training dependency
+parsers by applying a boosting-like proce-
+dure to standard training methods.
+1 

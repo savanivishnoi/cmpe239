@@ -1,0 +1,24 @@
+
+Automatic estimation of word significance
+oriented for speech-based Information Re-
+trieval (IR) is addressed. Since the sig-
+nificance of words differs in IR, automatic
+speech recognition (ASR) performance has
+been evaluated based on weighted word er-
+ror rate (WWER), which gives a weight
+on errors from the viewpoint of IR, instead
+of word error rate (WER), which treats all
+words uniformly. A decoding strategy that
+minimizes WWER based on a Minimum
+Bayes-Risk framework has been shown, and
+the reduction of errors on both ASR and IR
+has been reported. In this paper, we propose
+an automatic estimation method for word
+significance (weights) based on its influence
+on IR. Specifically, weights are estimated so
+that evaluation measures of ASR and IR are
+equivalent. We apply the proposed method
+to a speech-based information retrieval sys-
+tem, which is a typical IR system, and show
+that the method works well.
+1 

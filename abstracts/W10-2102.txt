@@ -1,0 +1,30 @@
+ 
+ 
+Evidentiality is the linguistic representation of 
+the nature of evidence for a statement. In 
+other words, it is the linguistically encoded 
+evidence for the trustworthiness of a state-
+ment. In this paper, we aim to explore how 
+linguistically encoded information of eviden-
+tiality can contribute to the prediction of 
+trustworthiness in natural language processing 
+(NLP). We propose to incorporate evidential-
+ity into a framework of machine learning 
+based text classification. We first construct a 
+taxonomy of evidentials. Then experiments 
+involving collaborative question answering 
+(CQA) are designed and implemented using 
+this taxonomy. The experimental results con-
+firm that evidentiality is an important clue for 
+text trustworthiness detection. With the bi-
+narized vector setting, evidential based text 
+representation model has considerably per-
+formaned better than both the bag-of-word 
+model and the content word based model. 
+Most crucially, we show that the best trust-
+worthiness detection result is achieved when 
+evidentiality is incorporated in a linguistically 
+sophisticated model where their meanings are 
+interpreted in both semantic and pragmatic 
+terms. 
+1 

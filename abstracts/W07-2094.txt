@@ -1,0 +1,17 @@
+ 
+For the Affective Text task at SemEval-
+2007, University Paris 7?s system first 
+evaluates emotion and valence on all words 
+of a news headline (using enriched versions 
+of SentiWordNet and a subset of WordNet-
+Affect). We use a parser to find the head 
+word, considering that it has a major im-
+portance. We also detect contrasts (be-
+tween positive and negative words) that 
+shift valence. Our knowledge-based system 
+achieves high accuracy on emotion and va-
+lence annotation. These results show that 
+working with linguistic techniques and a 
+broad-coverage lexicon is a viable ap-
+proach to sentiment analysis of headlines. 
+1 

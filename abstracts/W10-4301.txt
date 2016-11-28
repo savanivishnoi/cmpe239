@@ -1,0 +1,17 @@
+ 
+We present a first step towards a model of 
+speech generation for incremental dialogue 
+systems. The model allows a dialogue system 
+to incrementally interpret spoken input, while 
+simultaneously planning, realising and self-
+monitoring the system response. The model 
+has been implemented in a general dialogue 
+system framework. Using this framework, we 
+have implemented a specific application and 
+tested it in a Wizard-of-Oz setting, comparing 
+it with a non-incremental version of the same 
+system. The results show that the incremental 
+version, while producing longer utterances, 
+has a shorter response time and is perceived 
+as more efficient by the users. 
+1 

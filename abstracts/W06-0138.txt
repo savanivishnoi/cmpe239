@@ -1,0 +1,20 @@
+
+Chinese word segmentation and Part-of-
+Speech (POS) tagging have been com-
+monly considered as two separated tasks.
+In this paper, we present a system that
+performs Chinese word segmentation and
+POS tagging simultaneously. We train a
+segmenter and a tagger model separately
+based on linear-chain Conditional Ran-
+dom Fields (CRF), using lexical, morpho-
+logical and semantic features. We propose
+an approximated joint decoding method
+by reranking the N-best segmenter out-
+put, based POS tagging information. Ex-
+perimental results on SIGHAN Bakeoff
+dataset and Penn Chinese Treebank show
+that our reranking method significantly
+improve both segmentation and POS tag-
+ging accuracies.
+1 

@@ -1,0 +1,23 @@
+
+The paper describes our participation in
+the Multi-document summarization task of
+Multiling-2013. The community initiative
+was born as a pilot task for the Text Analy-
+sis Conference in 2011. This year the cor-
+pus was extended by new three languages
+and another five topics, covering in total
+15 topics in 10 languages. Our summariser
+is based on latent semantic analysis and it
+is in principle language independent. Its
+results on the Multiling-2011 corpus were
+promising. The generated summaries were
+ranked first in several languages based on
+various metrics. The summariser with mi-
+nor changes was run on the updated 2013
+corpus. Although we do not have the man-
+ual evaluation results yet the ROUGE-2
+score indicates good results again. The
+summariser produced best summaries in 6
+from 10 considered languages according
+to the ROUGE-2 metric.
+1 

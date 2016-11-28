@@ -1,0 +1,17 @@
+
+This paper presents two procedures for ex-
+tracting transfer rules from parallel corpora
+for use in a rule-based Japanese-English MT
+system. First a ?shallow? method where
+the parallel corpus is lemmatized before it is
+aligned by a phrase aligner, and then a ?deep?
+method where the parallel corpus is parsed by
+deep parsers before the resulting predicates
+are aligned by phrase aligners. In both pro-
+cedures, the phrase tables produced by the
+phrase aligners are used to extract semantic
+transfer rules. The procedures were employed
+on a 10 million word Japanese English paral-
+lel corpus and 190,000 semantic transfer rules
+were extracted.
+1 

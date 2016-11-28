@@ -1,0 +1,23 @@
+ 
+Sentence retrieval plays a very important 
+role in question answering system. In this 
+paper, we present a novel cluster-based 
+language model for sentence retrieval in 
+Chinese question answering which is mo-
+tivated in part by sentence clustering and 
+language model. Sentence clustering is 
+used to group sentences into clusters. 
+Language model is used to properly rep-
+resent sentences, which is combined with 
+sentences model, cluster/topic model and 
+collection model. For sentence clustering, 
+we propose two approaches that are One-
+Sentence-Multi-Topics and One-
+Sentence-One-Topic respectively. From 
+the experimental results on 807 Chinese 
+testing questions, we can conclude that 
+the proposed cluster-based language 
+model outperforms over the standard lan-
+guage model for sentence retrieval in 
+Chinese question answering. 
+1 

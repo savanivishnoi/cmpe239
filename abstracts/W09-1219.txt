@@ -1,0 +1,11 @@
+ 
+We describe our CoNLL 2009 Shared Task 
+system in the present paper. The system in-
+cludes three cascaded components: a genera-
+tive dependency parser, a classifier for 
+syntactic dependency labels and a semantic 
+classifier. The experimental results show that 
+the labeled macro F1 scores of our system on 
+the joint task range from 43.50% (Chinese) to 
+57.95% (Czech), with an average of 51.07%. 
+1 

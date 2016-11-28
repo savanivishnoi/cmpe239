@@ -1,0 +1,15 @@
+
+The novel kernel regression model for SMT
+only demonstrated encouraging results on
+small-scale toy data sets in previous works due
+to the complexities of kernel methods. It is
+the first time results based on the real-world
+data from the shared translation task will be
+reported at ACL 2008 Workshop on Statisti-
+cal Machine Translation. This paper presents
+the key modules of our system, including the
+kernel ridge regression model, retrieval-based
+sparse approximation, the decoding algorithm,
+as well as language modeling issues under this
+framework.
+1 

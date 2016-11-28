@@ -1,0 +1,25 @@
+
+In this year?s Semantic Textual Similarity
+evaluation, we explore the contribution of
+models that provide soft similarity scores
+across spans of multiple words, over the pre-
+vious year?s system. To this end, we ex-
+plored the use of neural probabilistic language
+models and a TF-IDF weighted variant of Ex-
+plicit Semantic Analysis. The neural language
+model systems used vector representations of
+individual words, where these vectors were
+derived by training them against the context
+of words encountered, and thus reflect the dis-
+tributional characteristics of their usage. To
+generate a similarity score between spans, we
+experimented with using tiled vectors and Re-
+stricted Boltzmann Machines to identify simi-
+lar encodings. We find that these soft similar-
+ity methods generally outperformed our previ-
+ous year?s systems, albeit they did not perform
+as well in the overall rankings. A simple anal-
+ysis of the soft similarity resources over two
+word phrases is provided, and future areas of
+improvement are described.
+1 

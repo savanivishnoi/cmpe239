@@ -1,0 +1,21 @@
+
+Our goal is to automatically detect the
+functional roles that meeting participants
+play, as well as the expertise they bring to
+meetings. To perform this task, we build
+decision tree classifiers that use a combi-
+nation of simple speech features (speech
+lengths and spoken keywords) extracted
+from the participants? speech in meetings.
+We show that this algorithm results in a
+role detection accuracy of 83% on unseen
+test data, where the random baseline is
+33.3%. We also introduce a simple aggre-
+gation mechanism that combines evidence
+of the participants? expertise from multi-
+ple meetings. We show that this aggre-
+gation mechanism improves the role de-
+tection accuracy from 66.7% (when ag-
+gregating over a single meeting) to 83%
+(when aggregating over 5 meetings).
+1 

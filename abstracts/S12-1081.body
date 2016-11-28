@@ -1,0 +1,32 @@
+
+In this paper we present our systems for the
+STS task. Our systems are all based on a
+simple process of identifying the components
+that correspond between two sentences. Cur-
+rently we use words (that is word forms), lem-
+mas, distributional similar words and gram-
+matical relations identified with a dependency
+parser. We submitted three systems. All sys-
+tems only use open class words. Our first sys-
+tem (alignheuristic) tries to obtain a map-
+ping between every open class token using all
+the above sources of information. Our second
+system (wordsim) uses a different algorithm
+and unlike alignheuristic, it does not use
+the dependency information. The third sys-
+tem (average) simply takes the average of
+the scores for each item from the other two
+systems to take advantage of the merits of
+both systems. For this reason we only pro-
+vide a brief description of that. The results
+are promising, with Pearson?s coefficients on
+each individual dataset ranging from .3765
+to .7761 for our relatively simple heuristics
+based systems that do not require training on
+different datasets. We provide some analy-
+sis of the results and also provide results for
+our data using Spearman?s, which as a non-
+parametric measure which we argue is better
+able to reflect the merits of the different sys-
+tems (average is ranked between the others).
+1 

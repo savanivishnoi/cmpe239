@@ -1,0 +1,16 @@
+
+Existing algorithms for the Generation
+of Referring Expressions tend to gen-
+erate distinguishing descriptions at the
+semantic level, disregarding the ways
+in which surface issues can affect their
+quality. This paper considers how these
+algorithms should deal with surface am-
+biguity, focussing on structural ambi-
+guity. We propose that not all ambigu-
+ity is worth avoiding, and suggest some
+ways forward that attempt to avoid un-
+wanted interpretations. We sketch the
+design of an algorithm motivated by our
+experimental findings.
+1 

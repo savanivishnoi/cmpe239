@@ -1,0 +1,24 @@
+
+NLP systems for tasks such as question
+answering and information extraction typ-
+ically rely on statistical parsers. But the ef-
+ficacy of such parsers can be surprisingly
+low, particularly for sentences drawn from
+heterogeneous corpora such as the Web.
+We have observed that incorrect parses of-
+ten result in wildly implausible semantic
+interpretations of sentences, which can be
+detected automatically using semantic in-
+formation obtained from the Web.
+Based on this observation, we introduce
+Web-based semantic filtering?a novel,
+domain-independent method for automat-
+ically detecting and discarding incorrect
+parses. We measure the effectiveness of
+our filtering system, called WOODWARD,
+on two test collections. On a set of TREC
+questions, it reduces error by 67%. On
+a set of more complex Penn Treebank
+sentences, the reduction in error rate was
+20%.
+1 

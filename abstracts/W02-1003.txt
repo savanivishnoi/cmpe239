@@ -1,0 +1,16 @@
+
+We demonstrate a problem with the stan-
+dard technique for learning probabilistic
+decision lists. We describe a simple, in-
+cremental algorithm that avoids this prob-
+lem, and show how to implement it effi-
+ciently. We also show a variation that adds
+thresholding to the standard sorting algo-
+rithm for decision lists, leading to similar
+improvements. Experimental results show
+that the new algorithm produces substan-
+tially lower error rates and entropy, while
+simultaneously learning lists that are over
+an order of magnitude smaller than those
+produced by the standard algorithm.
+1 

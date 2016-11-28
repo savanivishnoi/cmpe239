@@ -1,0 +1,33 @@
+
+We report on a series of experiments
+with probabilistic context-free grammars
+predicting English and German syllable
+structure. The treebank-trained grammars
+are evaluated on a syllabification task. The
+grammar used by Mu?ller (2002) serves
+as point of comparison. As she evalu-
+ates the grammar only for German, we re-
+implement the grammar and experiment
+with additional phonotactic features. Us-
+ing bi-grams within the syllable, we can
+model the dependency from the previous
+consonant in the onset and coda. A 10-
+fold cross validation procedure shows that
+syllabification can be improved by incor-
+porating this type of phonotactic knowl-
+edge. Compared to the grammar of Mu?ller
+(2002), syllable boundary accuracy in-
+creases from 95.8% to 97.2% for En-
+glish, and from 95.9% to 97.2% for Ger-
+man. Moreover, our experiments with
+different syllable structures point out that
+there are dependencies between the on-
+set on the nucleus for German but not
+for English. The analysis of one of our
+phonotactic grammars shows that inter-
+esting phonotactic constraints are learned.
+For instance, unvoiced consonants are the
+most likely first consonants and liquids
+and glides are preferred as second conso-
+nants in two-consonantal onsets.
+1 

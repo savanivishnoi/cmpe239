@@ -1,0 +1,18 @@
+
+Probabilistic Latent Semantic Analysis
+(PLSA) is an information retrieval tech-
+nique proposed to improve the problems
+found in Latent Semantic Analysis (LSA).
+We have applied both LSA and PLSA in
+our system for grading essays written in
+Finnish, called Automatic Essay Assessor
+(AEA). We report the results comparing
+PLSA and LSA with three essay sets from
+various subjects. The methods were found
+to be almost equal in the accuracy mea-
+sured by Spearman correlation between
+the grades given by the system and a hu-
+man. Furthermore, we propose methods
+for improving the usage of PLSA in essay
+grading.
+1 

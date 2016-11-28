@@ -1,0 +1,22 @@
+
+Distant supervision for relation extraction
+(RE) ? gathering training data by aligning a
+database of facts with text ? is an efficient ap-
+proach to scale RE to thousands of different
+relations. However, this introduces a challeng-
+ing learning scenario where the relation ex-
+pressed by a pair of entities found in a sen-
+tence is unknown. For example, a sentence
+containing Balzac and France may express
+BornIn or Died, an unknown relation, or no re-
+lation at all. Because of this, traditional super-
+vised learning, which assumes that each ex-
+ample is explicitly mapped to a label, is not
+appropriate. We propose a novel approach
+to multi-instance multi-label learning for RE,
+which jointly models all the instances of a pair
+of entities in text and all their labels using
+a graphical model with latent variables. Our
+model performs competitively on two difficult
+domains.
+1 

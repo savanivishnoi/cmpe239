@@ -1,0 +1,16 @@
+ 
+This paper presents a method for auto-
+matic classification of semantic relations 
+between nominals using Sequential 
+Minimal Optimization. We participated 
+in the four categories of SEMEVAL task 
+4 (A: No Query, No Wordnet; B: Word-
+Net, No Query; C: Query, No WordNet; 
+D: WordNet and Query) and for all train-
+ing datasets. Best scores were achieved 
+in category B using a set of feature vec-
+tors including lexical file numbers of 
+nominals obtained from WordNet and a 
+new feature WordNet Vector designed 
+for the task1. 
+1 

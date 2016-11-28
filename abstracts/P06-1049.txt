@@ -1,0 +1,20 @@
+
+Ordering information is a difficult but
+important task for applications generat-
+ing natural-language text. We present
+a bottom-up approach to arranging sen-
+tences extracted for multi-document sum-
+marization. To capture the association and
+order of two textual segments (eg, sen-
+tences), we define four criteria, chronol-
+ogy, topical-closeness, precedence, and
+succession. These criteria are integrated
+into a criterion by a supervised learning
+approach. We repeatedly concatenate two
+textual segments into one segment based
+on the criterion until we obtain the overall
+segment with all sentences arranged. Our
+experimental results show a significant im-
+provement over existing sentence ordering
+strategies.
+1 

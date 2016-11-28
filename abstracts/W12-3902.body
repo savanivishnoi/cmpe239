@@ -1,0 +1,29 @@
+
+Recognition of Named Entities (NEs) is a dif-
+ficult process in Indian languages like Hindi,
+Telugu, etc., where sufficient gazetteers and
+annotated corpora are not available compared
+to English language. This paper details a novel
+clustering and co-occurrence based approach
+to map English NEs with their equivalent rep-
+resentations from different languages recog-
+nized in a language-independent way. We
+have substituted the required language specific
+resources by the richly structured multilin-
+gual content of Wikipedia. The approach in-
+cludes clustering of highly similar Wikipedia
+articles. Then the NEs in an English article
+are mapped with other language terms in in-
+terlinked articles based on co-occurrence fre-
+quencies. The cluster information and the
+term co-occurrences are considered in ex-
+tracting the NEs from non-English languages.
+Hence, the English Wikipedia is used to boot-
+strap the NEs for other languages. Through
+this approach, we have availed the structured,
+semi-structured and multilingual content of
+the Wikipedia to a massive extent. Experi-
+mental results suggest that the proposed ap-
+proach yields promising results in rates of pre-
+cision and recall.
+1 

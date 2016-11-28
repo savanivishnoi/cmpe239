@@ -1,0 +1,25 @@
+
+We describe an approach to tagging a monolin-
+gual dictionary with linguistic features. In par-
+ticular, we annotate the dictionary entries with
+parts of speech, number, and tense information.
+The algorithm uses a bilingual corpus as well
+as a statistical lexicon to find candidate train-
+ing examples for specific feature values (e.g.
+plural). Then a similarity measure in the space
+defined by the training data serves to define a
+classifier for unseen data. We report evaluation
+results for a French dictionary, while the ap-
+proach is general enough to be applied to any
+language pair.
+In a further step, we show that the proposed
+framework can be used to assign linguistic
+roles to extracted morphemes, e.g. noun plu-
+ral markers. While the morphemes can be
+extracted using any algorithm, we present a
+simple algorithm for doing so. The emphasis
+hereby is not on the algorithm itself, but on the
+power of the framework to assign roles, which
+are ultimately indispensable for tasks such as
+Machine Translation.
+1 

@@ -1,0 +1,14 @@
+
+We investigate the combination of several
+sources of information for the purpose of sub-
+jectivity recognition and polarity classification
+in meetings. We focus on features from two
+modalities, transcribed words and acoustics,
+and we compare the performance of three dif-
+ferent textual representations: words, charac-
+ters, and phonemes. Our experiments show
+that character-level features outperform word-
+level features for these tasks, and that a care-
+ful fusion of all features yields the best perfor-
+mance. 1
+1 

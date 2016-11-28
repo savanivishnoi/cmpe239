@@ -1,0 +1,18 @@
+
+This work models Word Sense Disam-
+biguation (WSD) problem as a Dis-
+tributed Constraint Optimization Problem
+(DCOP). To model WSD as a DCOP,
+we view information from various knowl-
+edge sources as constraints. DCOP al-
+gorithms have the remarkable property to
+jointly maximize over a wide range of util-
+ity functions associated with these con-
+straints. We show how utility functions
+can be designed for various knowledge
+sources. For the purpose of evaluation,
+we modelled all words WSD as a simple
+DCOP problem. The results are competi-
+tive with state-of-art knowledge based sys-
+tems.
+1 

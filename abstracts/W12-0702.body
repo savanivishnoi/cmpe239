@@ -1,0 +1,19 @@
+
+Building shallow semantic representations
+from text corpora is the first step to perform
+more complex tasks such as text entailment,
+enrichment of knowledge bases, or ques-
+tion answering. Open Information Extrac-
+tion (OIE) is a recent unsupervised strategy
+to extract billions of basic assertions from
+massive corpora, which can be considered
+as being a shallow semantic representation
+of those corpora. In this paper, we propose
+a new multilingual OIE system based on ro-
+bust and fast rule-based dependency pars-
+ing. It permits to extract more precise as-
+sertions (verb-based triples) from text than
+state of the art OIE systems, keeping a cru-
+cial property of those systems: scaling to
+Web-size document collections.
+1 

@@ -1,0 +1,25 @@
+
+Natural Language Processing systems are
+large-scale softwares, whose development in-
+volves many man-years of work, in terms of
+both coding and resource development. Given
+a dictionary of 110k lemmas, a few hundred
+syntactic analysis rules, 20k ngrams matrices
+and other resources, what will be the impact
+on a syntactic analyzer of adding a new pos-
+sible category to a given verb? What will be
+the consequences of a new syntactic rules ad-
+dition? Any modification may imply, besides
+what was expected, unforeseeable side-effects
+and the complexity of the system makes it dif-
+ficult to guess the overall impact of even small
+changes. We present here a framework de-
+signed to effectively and iteratively improve
+the accuracy of our linguistic analyzer LIMA
+by iterative refinements of its linguistic re-
+sources. These improvements are continu-
+ously assessed by evaluating the analyzer per-
+formance against a reference corpus. Our first
+results show that this framework is really help-
+ful towards this goal.
+1 

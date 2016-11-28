@@ -1,0 +1,18 @@
+
+We present a coreference resolver called
+BABAR that uses contextual role knowledge to
+evaluate possible antecedents for an anaphor.
+BABAR uses information extraction patterns
+to identify contextual roles and creates four
+contextual role knowledge sources using unsu-
+pervised learning. These knowledge sources
+determine whether the contexts surrounding
+an anaphor and antecedent are compatible.
+BABAR applies a Dempster-Shafer probabilis-
+tic model to make resolutions based on ev-
+idence from the contextual role knowledge
+sources as well as general knowledge sources.
+Experiments in two domains showed that the
+contextual role knowledge improved corefer-
+ence performance, especially on pronouns.
+1 

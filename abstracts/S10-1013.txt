@@ -1,0 +1,24 @@
+
+Domain portability and adaptation of NLP
+components and Word Sense Disambigua-
+tion systems present new challenges. The
+difficulties found by supervised systems to
+adapt might change the way we assess the
+strengths and weaknesses of supervised
+and knowledge-based WSD systems. Un-
+fortunately, all existing evaluation datasets
+for specific domains are lexical-sample
+corpora. This task presented all-words
+datasets on the environment domain for
+WSD in four languages (Chinese, Dutch,
+English, Italian). 11 teams participated,
+with supervised and knowledge-based sys-
+tems, mainly in the English dataset. The
+results show that in all languages the par-
+ticipants where able to beat the most fre-
+quent sense heuristic as estimated from
+general corpora. The most successful ap-
+proaches used some sort of supervision in
+the form of hand-tagged examples from
+the domain.
+1 

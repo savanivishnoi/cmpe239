@@ -1,0 +1,32 @@
+
+This paper describes the augmented three-
+pass system combination framework of
+the Dublin City University (DCU) MT
+group for the WMT 2010 system combi-
+nation task. The basic three-pass frame-
+work includes building individual confu-
+sion networks (CNs), a super network, and
+a modified Minimum Bayes-risk (mCon-
+MBR) decoder. The augmented parts for
+WMT2010 tasks include 1) a rescoring
+component which is used to re-rank the
+N -best lists generated from the individual
+CNs and the super network, 2) a new hy-
+pothesis alignment metric ? TERp ? that
+is used to carry out English-targeted hy-
+pothesis alignment, and 3) more differ-
+ent backbone-based CNs which are em-
+ployed to increase the diversity of the
+mConMBR decoding phase. We took
+part in the combination tasks of English-
+to-Czech and French-to-English. Exper-
+imental results show that our proposed
+combination framework achieved 2.17 ab-
+solute points (13.36 relative points) and
+1.52 absolute points (5.37 relative points)
+in terms of BLEU score on English-to-
+Czech and French-to-English tasks re-
+spectively than the best single system. We
+also achieved better performance on hu-
+man evaluation.
+1 

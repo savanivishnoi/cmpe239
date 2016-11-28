@@ -1,0 +1,14 @@
+
+This paper describes our work with the data
+distributed for the WMT?12 Confidence Es-
+timation shared task. Our contribution is
+twofold: i) we first present an analysis of
+the data which highlights the difficulty of
+the task and motivates our approach; ii) we
+show that using non-linear models, namely ran-
+dom forests, with a simple and limited feature
+set, succeeds in modeling the complex deci-
+sions required to assess translation quality and
+achieves results that are on a par with the sec-
+ond best results of the shared task.
+1 

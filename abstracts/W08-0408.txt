@@ -1,0 +1,24 @@
+  
+This paper presents a method to integrate 
+multiple reordering strategies in 
+phrase-based statistical machine 
+translation.  Recently there has been much 
+research effort in reordering problems in 
+machine translation.   State-of-the-art 
+decoders incorporate sophisticated local 
+reordering strategies, but there is little 
+research on a unified approach to 
+incorporate various kinds of reordering 
+methods.  We present a phrase-based 
+decoder which easily allows multiple 
+reordering schemes.  We show how to use 
+this framework to perform distance-based 
+reordering and HIERO-style (Chiang 
+2005) hierarchical reordering.  We also 
+present two novel syntax-based reordering 
+methods, one built on part-of-speech tags 
+and the other based on parse trees.  We will 
+give experimental results using these 
+relatively easy to implement methods on 
+standard tests.    
+1 

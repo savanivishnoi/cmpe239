@@ -1,0 +1,25 @@
+
+Previous attempts in extracting parallel
+data from Wikipedia were restricted by the
+monotonicity constraint of the alignment
+algorithm used for matching possible can-
+didates. This paper proposes a method for
+exploiting Wikipedia articles without wor-
+rying about the position of the sentences in
+the text. The algorithm ranks the candidate
+sentence pairs by means of a customized
+metric, which combines different similar-
+ity criteria. Moreover, we limit the search
+space to a specific topical domain, since
+our final goal is to use the extracted data
+in a domain-specific Statistical Machine
+Translation (SMT) setting. The precision
+estimates show that the extracted sentence
+pairs are clearly semantically equivalent.
+The SMT experiments, however, show that
+the extracted data is not refined enough to
+improve a strong in-domain SMT system.
+Nevertheless, it is good enough to boost
+the performance of an out-of-domain sys-
+tem trained on sizable amounts of data.
+1 

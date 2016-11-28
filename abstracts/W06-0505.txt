@@ -1,0 +1,15 @@
+
+In this paper we develop an automatic
+classifier for a very large set of labels, the
+WordNet synsets. We employ Conditional
+Random Fields (CRFs) because of their
+flexibility to include a wide variety of non-
+independent features. Training CRFs on a
+big number of labels proved a problem be-
+cause of the large training cost. By tak-
+ing into account the hypernym/hyponym
+relation between synsets in WordNet, we
+reduced the complexity of training from
+O(TM2NG) to O(T (logM)2NG) with
+only a limited loss in accuracy.
+1 

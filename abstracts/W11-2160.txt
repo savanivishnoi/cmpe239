@@ -1,0 +1,14 @@
+
+We present progress on Joshua, an open-
+source decoder for hierarchical and syntax-
+based machine translation. The main fo-
+cus is describing Thrax, a flexible, open
+source synchronous context-free grammar ex-
+tractor. Thrax extracts both hierarchical (Chi-
+ang, 2007) and syntax-augmented machine
+translation (Zollmann and Venugopal, 2006)
+grammars. It is built on Apache Hadoop for
+efficient distributed performance, and can eas-
+ily be extended with support for new gram-
+mars, feature functions, and output formats.
+1 

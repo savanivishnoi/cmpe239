@@ -1,0 +1,19 @@
+ 
+Structured syntactic knowledge is important 
+for phrase reordering. This paper proposes us-
+ing convolution tree kernel over source parse 
+tree to model structured syntactic knowledge 
+for BTG-based phrase reordering in the con-
+text of statistical machine translation. Our 
+study reveals that the structured syntactic fea-
+tures over the source phrases are very effective 
+for BTG constraint-based phrase reordering 
+and those features can be well captured by the 
+tree kernel. We further combine the structured 
+features and other commonly-used linear fea-
+tures into a composite kernel. Experimental re-
+sults on the NIST MT-2005 Chinese-English 
+translation tasks show that our proposed 
+phrase reordering model statistically signifi-
+cantly outperforms the baseline methods. 
+1 

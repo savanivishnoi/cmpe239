@@ -1,0 +1,22 @@
+
+We present a flexible formulation of semi-
+supervised learning for structured mod-
+els, which seamlessly incorporates graph-
+based and more general supervision by ex-
+tending the posterior regularization (PR)
+framework. Our extension allows for any
+regularizer that is a convex, differentiable
+function of the appropriate marginals. We
+show that surprisingly, non-linearity of
+such regularization does not increase the
+complexity of learning, provided we use
+multiplicative updates of the structured ex-
+ponentiated gradient algorithm. We il-
+lustrate the extended framework by learn-
+ing conditional random fields (CRFs) with
+quadratic penalties arising from a graph
+Laplacian. On sequential prediction tasks
+of handwriting recognition and part-of-
+speech (POS) tagging, our method makes
+significant gains over strong baselines.
+1 

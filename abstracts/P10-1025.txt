@@ -1,0 +1,19 @@
+
+Current Semantic Role Labeling technolo-
+gies are based on inductive algorithms
+trained over large scale repositories of
+annotated examples. Frame-based sys-
+tems currently make use of the FrameNet
+database but fail to show suitable general-
+ization capabilities in out-of-domain sce-
+narios. In this paper, a state-of-art system
+for frame-based SRL is extended through
+the encapsulation of a distributional model
+of semantic similarity. The resulting argu-
+ment classification model promotes a sim-
+pler feature space that limits the potential
+overfitting effects. The large scale em-
+pirical study here discussed confirms that
+state-of-art accuracy can be obtained for
+out-of-domain evaluations.
+1 

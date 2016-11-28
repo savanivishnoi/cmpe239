@@ -1,0 +1,19 @@
+
+The most accurate unsupervised word seg-
+mentation systems that are currently avail-
+able (Brent, 1999; Venkataraman, 2001;
+Goldwater, 2007) use a simple unigram
+model of phonotactics. While this sim-
+plifies some of the calculations, it over-
+looks cues that infant language acquisition
+researchers have shown to be useful for
+segmentation (Mattys et al, 1999; Mattys
+and Jusczyk, 2001). Here we explore the
+utility of using bigram and trigram phono-
+tactic models by enhancing Brent?s (1999)
+MBDP-1 algorithm. The results show
+the improved MBDP-Phon model outper-
+forms other unsupervised word segmenta-
+tion systems (e.g., Brent, 1999; Venkatara-
+man, 2001; Goldwater, 2007).
+1 

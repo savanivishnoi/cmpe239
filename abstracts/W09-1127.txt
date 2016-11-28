@@ -1,0 +1,32 @@
+
+Many applications in the context of natural
+language processing or information retrieval
+may be largely improved if they were able to
+fully exploit the rich semantic information an-
+notated in high-quality, publicly available re-
+sources such as the FrameNet and the Word-
+Net databases. Nevertheless, the practical use
+of similar resources is often biased by the
+limited coverage of semantic phenomena that
+they provide.
+A natural solution to this problem would be to
+automatically establish anchors between these
+resources that would allow us 1) to jointly use
+the encoded information, thus possibly over-
+coming limitations of the individual corpora,
+and 2) to extend each resource coverage by ex-
+ploiting the information encoded in the others.
+In this paper, we present a supervised learn-
+ing framework for the mapping of FrameNet
+lexical units onto WordNet synsets based on
+a reduced set of novel and semantically rich
+features. The automatically learnt mapping,
+which we call MapNet, can be used 1) to ex-
+tend frame sets in the English FrameNet, 2)
+to populate frame sets in the Italian FrameNet
+via MultiWordNet and 3) to add frame labels
+to the MultiSemCor corpus. Our evaluation on
+these tasks shows that the proposed approach
+is viable and can result in accurate automatic
+annotations.
+1 

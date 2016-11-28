@@ -1,0 +1,16 @@
+
+It is often assumed that ?grounded? learning
+tasks are beyond the scope of grammatical in-
+ference techniques. In this paper, we show
+that the grounded task of learning a seman-
+tic parser from ambiguous training data as dis-
+cussed in Kim and Mooney (2010) can be re-
+duced to a Probabilistic Context-Free Gram-
+mar learning task in a way that gives state
+of the art results. We further show that ad-
+ditionally letting our model learn the lan-
+guage?s canonical word order improves its
+performance and leads to the highest seman-
+tic parsing f-scores previously reported in the
+literature.1
+1 

@@ -1,0 +1,16 @@
+ 
+This paper describes experiments in Machine 
+Learning for text classification using a new 
+representation of text based on WordNet 
+hypernyms. Six binary classification tasks of 
+varying difficulty are defined, and the Ripper 
+system is used to produce discrimination rules 
+for each task using the new hypernym density 
+representation. Rules are also produced with the 
+commonly used bag-of-words representation, 
+incorporating no knowledge from WordNet. 
+Experiments how that for some of the more 
+difficult tasks the hypernym density 
+representation leads to significantly more 
+accurate and more comprehensible rules. 
+1. 

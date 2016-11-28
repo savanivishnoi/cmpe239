@@ -1,0 +1,15 @@
+
+The  Microsoft  Research  translation  system  is  a
+syntactically  informed  phrasal  SMT  system  that
+uses  a  phrase  translation  model  based  on
+dependency treelets and a global reordering model
+based  on  the  source  dependency  tree.  These
+models  are  combined  with  several  other
+knowledge  sources  in  a  log-linear  manner.  The
+weights of the individual components in the log-
+linear model  are set  by an automatic  parameter-
+tuning method.  We give a brief  overview of the
+components  of  the  system  and  discuss  our
+experience with the Europarl data translating from
+English to Spanish.
+1. 

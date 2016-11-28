@@ -1,0 +1,19 @@
+
+Hierarchical A? (HA?) uses of a hierarchy
+of coarse grammars to speed up parsing
+without sacrificing optimality. HA? pri-
+oritizes search in refined grammars using
+Viterbi outside costs computed in coarser
+grammars. We present Bridge Hierarchi-
+cal A? (BHA?), a modified Hierarchial A?
+algorithm which computes a novel outside
+cost called a bridge outside cost. These
+bridge costs mix finer outside scores with
+coarser inside scores, and thus consti-
+tute tighter heuristics than entirely coarse
+scores. We show that BHA? substan-
+tially outperforms HA? when the hierar-
+chy contains only very coarse grammars,
+while achieving comparable performance
+on more refined hierarchies.
+1 

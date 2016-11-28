@@ -1,0 +1,17 @@
+. This paper introduces a new 
+technology for collocation extraction in Chinese. 
+Sketch Engine (Kilgarriff et al, 2004) has 
+proven to be a very effective tool for automatic 
+description of lexical information, including 
+collocation extraction, based on large-scale 
+corpus. The original work of Sketch Engine was 
+based on BNC. We extend Sketch Engine to 
+Chinese based on Gigaword corpus from LDC. 
+We discuss the available functions of the 
+prototype Chinese Sketch Engine (CSE) as well 
+as the robustness of language-independent 
+adaptation of Sketch Engine. We conclude by 
+discussing how Chinese-specific linguistic 
+information can be incorporated to improve the 
+CSE prototype.  
+1. 

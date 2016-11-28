@@ -1,0 +1,20 @@
+ 
+Wikipedia is the largest organized knowledge 
+repository on the Web, increasingly employed 
+by natural language processing and search tools. 
+In this paper, we investigate the task of labeling 
+Wikipedia pages with standard named entity 
+tags, which can be used further by a range of in-
+formation extraction and language processing 
+tools. To train the classifiers, we manually anno-
+tated a small set of Wikipedia pages and then ex-
+trapolated the annotations using the Wikipedia 
+category information to a much larger training 
+set. We employed several distinct features for 
+each page: bag-of-words, page structure, ab-
+stract, titles, and entity mentions. We report high 
+accuracies for several of the classifiers built. As 
+a result of this work, a Web service that classi-
+fies any Wikipedia page has been made available 
+to the academic community. 
+1 

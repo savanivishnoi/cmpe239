@@ -1,0 +1,26 @@
+ 
+Unsupervised learning of grammar is a 
+problem that can be important in many 
+areas ranging from text preprocessing 
+for information retrieval and 
+classification to machine translation. 
+We describe an MDL based grammar 
+of a language that contains morphology 
+and lexical categories. We use an 
+unsupervised learner of morphology to 
+bootstrap the acquisition of lexical 
+categories and use these two learning 
+processes iteratively to help and 
+constrain each other. To be able to do 
+so, we need to make our existing 
+morphological analysis less fine 
+grained. We present an algorithm for 
+collapsing morphological classes 
+(signatures) by using syntactic context. 
+Our experiments demonstrate that this 
+collapse preserves the relation between 
+morphology and lexical categories 
+within new signatures, and thereby 
+minimizes the description length of the 
+model. 
+1 

@@ -1,0 +1,24 @@
+ 
+Many dialog state tracking algorithms have 
+been limited to generative modeling due to the 
+influence of the Partially Observable Markov 
+Decision Process framework. Recent analyses, 
+however, raised fundamental questions on the 
+effectiveness of the generative formulation. In 
+this paper, we present a structured 
+discriminative model for dialog state tracking 
+as an alternative. Unlike generative models, 
+the proposed method affords the incorporation 
+of features without having to consider 
+dependencies between observations. It also 
+provides a flexible mechanism for imposing 
+relational constraints. To verify the 
+effectiveness of the proposed method, we 
+applied it to the Let?s Go domain (Raux et al, 
+2005). The results show that the proposed 
+model is superior to the baseline and 
+generative model-based systems in accuracy, 
+discrimination, and robustness to mismatches 
+between training and test datasets.  
+ 
+1 

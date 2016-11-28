@@ -1,0 +1,26 @@
+ 
+Parallel Named Entity pairs are important 
+resources in several NLP tasks, such as, 
+CLIR and MT systems.  Further, such pairs 
+may also be used for training transliteration 
+systems, if they are transliterations of each 
+other.  In this paper, we profile the perfor-
+mance of a mining methodology in mining 
+parallel named entity transliteration pairs in  
+English and an Indian language, Tamil,   
+leveraging linguistic tools in English, and 
+article-aligned comparable corpora in  the 
+two languages.  We adopt a methodology 
+parallel to that of [Klementiev and Roth, 
+2006], but we focus instead on mining    
+parallel named entity transliteration pairs,   
+using a well-trained linear classifier to 
+identify transliteration pairs.  We profile 
+the performance at several operating para-
+meters of our algorithm and present the   
+results that show the potential of the       
+approach in mining transliterations pairs; in 
+addition, we uncover a host of issues that 
+need to be resolved, for effective mining of  
+parallel named entity transliteration pairs. 
+1 

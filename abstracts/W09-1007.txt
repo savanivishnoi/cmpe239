@@ -1,0 +1,22 @@
+
+The problem of identifying and correcting
+confusibles, i.e. context-sensitive spelling
+errors, in text is typically tackled using
+specifically trained machine learning clas-
+sifiers. For each different set of con-
+fusibles, a specific classifier is trained and
+tuned.
+In this research, we investigate a more
+generic approach to context-sensitive con-
+fusible correction. Instead of using spe-
+cific classifiers, we use one generic clas-
+sifier based on a language model. This
+measures the likelihood of sentences with
+different possible solutions of a confusible
+in place. The advantage of this approach
+is that all confusible sets are handled by
+a single model. Preliminary results show
+that the performance of the generic clas-
+sifier approach is only slightly worse that
+that of the specific classifier approach.
+1 

@@ -1,0 +1,17 @@
+
+We examine evaluation methods for systems
+that automatically annotate images using co-
+occurring text. We compare previous datasets
+for this task using a series of baseline mea-
+sures inspired by those used in information re-
+trieval, computer vision, and extractive sum-
+marization. Some of our baselines match or
+exceed the best published scores for those
+datasets. These results illuminate incorrect as-
+sumptions and improper practices regarding
+preprocessing, evaluation metrics, and the col-
+lection of gold image annotations. We con-
+clude with a list of recommended practices for
+future research combining language and vi-
+sion processing techniques.
+1 

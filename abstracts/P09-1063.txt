@@ -1,0 +1,20 @@
+
+Current tree-to-tree models suffer from
+parsing errors as they usually use only 1-
+best parses for rule extraction and decod-
+ing. We instead propose a forest-based
+tree-to-tree model that uses packed forests.
+The model is based on a probabilis-
+tic synchronous tree substitution gram-
+mar (STSG), which can be learned from
+aligned forest pairs automatically. The de-
+coder finds ways of decomposing trees in
+the source forest into elementary trees us-
+ing the source projection of STSG while
+building target forest in parallel. Compa-
+rable to the state-of-the-art phrase-based
+system Moses, using packed forests in
+tree-to-tree translation results in a signif-
+icant absolute improvement of 3.6 BLEU
+points over using 1-best trees.
+1 

@@ -1,0 +1,29 @@
+
+An attempt was made to semi-automatically ob-
+tain ?lexical units? (LUs) for Japanese from
+the English LUs defined in the semantic frame
+database provided by Berkeley FrameNet (BFN)
+using an English-Japanese bilingual corpus.
+This task was a prerequisite to building a com-
+plete database of semantic frames for Japanese.
+In the task, a Japanese word is first translated
+into an English word or phrase, E. E is one
+of the lexical units that evoked a particular se-
+mantic frame, F , in the BFN database. When
+other lexical units of F are translated back into
+Japanese, this defines a candidate set of F for
+the lexical units of F in Japanese. The via-
+bility of the proposed method was tested on a
+Japanese verb (X-ga Y -wo) osou (roughly mean-
+ing ?X attack(s) Y ,? ?X hit(s) Y ,? ?X surprise(s)
+Y ? in English, showing that it is a relatively pol-
+ysemous word). The resulting translation was
+compared to semantic descriptions provided by
+IPAL and Nihongo Goi-Taikei (A Japanese Lex-
+icon), two well-known language resources for
+Japanese, and also by the Frame Oriented Con-
+cept Analysis of Language (FOCAL). The com-
+parison revealed that FOCAL, BFN, Goi Taikei,
+and IPAL provided finer-grained descriptions in
+this specific order.
+1 

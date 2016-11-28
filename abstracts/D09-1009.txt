@@ -1,0 +1,18 @@
+
+Methods that learn from prior informa-
+tion about input features such as general-
+ized expectation (GE) have been used to
+train accurate models with very little ef-
+fort. In this paper, we propose an ac-
+tive learning approach in which the ma-
+chine solicits ?labels? on features rather
+than instances. In both simulated and real
+user experiments on two sequence label-
+ing tasks we show that our active learning
+method outperforms passive learning with
+features as well as traditional active learn-
+ing with instances. Preliminary experi-
+ments suggest that novel interfaces which
+intelligently solicit labels on multiple fea-
+tures facilitate more efficient annotation.
+1 

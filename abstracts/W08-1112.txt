@@ -1,0 +1,21 @@
+
+We describe three PCFG-based models for
+Chinese sentence realisation from Lexical-
+Functional Grammar (LFG) f-structures. Both
+the lexicalised model and the history-based
+model improve on the accuracy of a simple
+wide-coverage PCFG model by adding lexical
+and contextual information to weaken inap-
+propriate independence assumptions implicit
+in the PCFG models. In addition, we pro-
+vide techniques for lexical smoothing and rule
+smoothing to increase the generation cover-
+age. Trained on 15,663 automatically LFG f-
+structure annotated sentences of the Penn Chi-
+nese treebank and tested on 500 sentences ran-
+domly selected from the treebank test set, the
+lexicalised model achieves a BLEU score of
+0.7265 at 100% coverage, while the history-
+based model achieves a BLEU score of 0.7245
+also at 100% coverage.
+1 

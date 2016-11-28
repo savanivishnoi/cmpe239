@@ -1,0 +1,15 @@
+
+We propose a method to generate large-scale
+encyclopedic knowledge, which is valuable
+for much NLP research, based on the Web.
+We first search the Web for pages contain-
+ing a term in question. Then we use lin-
+guistic patterns and HTML structures to ex-
+tract text fragments describing the term. Fi-
+nally, we organize extracted term descrip-
+tions based on word senses and domains. In
+addition, we apply an automatically gener-
+ated encyclopedia to a question answering
+system targeting the Japanese Information-
+Technology Engineers Examination.
+1 

@@ -1,0 +1,18 @@
+
+We discuss work-in-progress on a hybrid ap-
+proach to the generation of spatial descriptions,
+using the maps of the Map Task dialogue cor-
+pus as domain models. We treat spatial de-
+scriptions as referring expressions that distin-
+guish particular points on the maps from all
+other points (potential ?distractors?). Our ap-
+proach is based on rule-based overgeneration
+of spatial descriptions combined with ranking
+which currently is based on explicit goodness
+criteria but will ultimately be corpus-based.
+Ranking for content determination tasks such
+as referring expression generation raises a num-
+ber of deep and vexing questions about the role
+of corpora in NLG, the kind of knowledge they
+can provide and how it is used.
+1 

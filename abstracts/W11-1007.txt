@@ -1,0 +1,17 @@
+
+In this paper we propose several novel ap-
+proaches to improve phrase reordering for
+statistical machine translation in the frame-
+work of maximum-entropy-based modeling.
+A smoothed prior probability is introduced to
+take into account the distortion effect in the
+priors. In addition to that we propose multi-
+ple novel distortion features based on syntac-
+tic parsing. A new metric is also introduced to
+measure the effect of distortion in the transla-
+tion hypotheses. We show that both smoothed
+priors and syntax-based features help to sig-
+nificantly improve the reordering and hence
+the translation performance on a large-scale
+Chinese-to-English machine translation task.
+1 

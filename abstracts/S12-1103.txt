@@ -1,0 +1,33 @@
+ 
+This article presents the experiments car-
+ried out at Jadavpur University as part of 
+the participation in Cross-lingual Textual 
+Entailment for Content Synchronization 
+(CLTE) of task 8 @ Semantic Evaluation 
+Exercises (SemEval-2012). The work ex-
+plores cross-lingual textual entailment as a 
+relation between two texts in different lan-
+guages and proposes different measures 
+for entailment decision in a four way clas-
+sification tasks (forward, backward, bidi-
+rectional and no-entailment). We set up 
+different heuristics and measures for eva-
+luating the entailment between two texts 
+based on lexical relations. Experiments 
+have been carried out with both the text 
+and hypothesis converted to the same lan-
+guage using the Microsoft Bing translation 
+system. The entailment system considers 
+Named Entity, Noun Chunks, Part of 
+speech, N-Gram and some text similarity 
+measures of the text pair to decide the en-
+tailment judgments. Rules have been de-
+veloped to encounter the multi way 
+entailment issue. Our system decides on 
+the entailment judgment after comparing 
+the entailment scores for the text pairs. 
+Four different rules have been developed 
+for the four different classes of entailment. 
+The best run is submitted for Italian ? 
+English language with accuracy 0.326. 
+1 

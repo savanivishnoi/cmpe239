@@ -1,0 +1,11 @@
+
+This paper describes a machine learning ap-
+proach to classifying n-best speech recogni-
+tion hypotheses as either correctly or incor-
+rectly recognised. The learners are trained on
+a combination of acoustic confidence features
+and move evaluation scores in a chess-playing
+scenario. The results show significant improve-
+ments over sharp baselines that use confidence
+rejection thresholds for classification.
+1 

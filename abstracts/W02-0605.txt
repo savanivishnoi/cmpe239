@@ -1,0 +1,30 @@
+ 
+This paper describes the results of 
+some experiments exploring statistical 
+methods to infer syntactic categories 
+from a raw corpus in an unsupervised 
+fashion. It shares certain points in 
+common with Brown et at (1992) and 
+work that has grown out of that: it 
+employs statistical techniques to 
+derive categories based on what 
+words occur adjacent to a given word. 
+However, we use an eigenvector 
+decomposition of a nearest-neighbor 
+graph to produce a two-dimensional 
+rendering of the words of a corpus in 
+which words of the same syntactic 
+category tend to form clusters and 
+neighborhoods. We exploit this 
+technique for extending the value of 
+automatic learning of morphology. In 
+particular, we look at the suffixes 
+derived from a corpus by 
+unsupervised learning of morphology, 
+and we ask which of these suffixes 
+have a consistent syntactic function 
+(e.g., in English, -ed is primarily a 
+mark of verbal past tense, does but ?s 
+marks both noun plurals and 3rd 
+person present on verbs). 
+1 

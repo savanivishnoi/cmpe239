@@ -1,0 +1,29 @@
+
+Determining whether a textual phrase denotes
+a functional relation (i.e., a relation that maps
+each domain element to a unique range el-
+ement) is useful for numerous NLP tasks
+such as synonym resolution and contradic-
+tion detection. Previous work on this prob-
+lem has relied on either counting methods or
+lexico-syntactic patterns. However, determin-
+ing whether a relation is functional, by ana-
+lyzing mentions of the relation in a corpus,
+is challenging due to ambiguity, synonymy,
+anaphora, and other linguistic phenomena.
+We present the LEIBNIZ system that over-
+comes these challenges by exploiting the syn-
+ergy between the Web corpus and freely-
+available knowledge resources such as Free-
+base. It first computes multiple typed function-
+ality scores, representing functionality of the
+relation phrase when its arguments are con-
+strained to specific types. It then aggregates
+these scores to predict the global functionality
+for the phrase. LEIBNIZ outperforms previ-
+ous work, increasing area under the precision-
+recall curve from 0.61 to 0.88. We utilize
+LEIBNIZ to generate the first public reposi-
+tory of automatically-identified functional re-
+lations.
+1 

@@ -1,0 +1,19 @@
+ 
+Two methods using comparable corpora to se-
+lect translation equivalents appropriate to a do-
+main were devised and evaluated. The first 
+method ranks translation equivalents of a target 
+word according to similarity of their contexts to 
+that of the target word. The second method 
+ranks translation equivalents according to the 
+ratio of associated words that suggest them. An 
+experiment using the EDR bilingual dictionary 
+together with Wall Street Journal and Nihon 
+Keizai Shimbun corpora proved that the method 
+using the ratio of associated words outperforms 
+the method based on contextual similarity. 
+Namely, in a quantitative evaluation using 
+pseudo words, the maximum F-measure of the 
+former method was 86%, while that of the latter 
+method was 82%. 
+1 

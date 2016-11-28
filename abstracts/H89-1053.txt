@@ -1,0 +1,11 @@
+ 
+In this paper we describe a method for automatically discovering subsets of contextual factors which, 
+taken together, axe useful for predicting the realizations, or pronunciations, of English words for contin- 
+uous speech recognition. A decision tree is used for organizing contextual descriptions of phonological 
+variation. This representation enables us to categorize different realizations according to the context in 
+which they appear in the corpus. In addition, this organization permits us to consider simplifications 
+such as pruning and branch clustering, leading to parsimonious descriptions that better predict allo- 
+phones in these contexts. We created trees to examine the working assumption that preceding phoneme 
+and following phoneme provide important contexts, as exemplified by the use of triphones in hidden 
+Maxkov models; our results were in general accordance with the assumption. However, we found that 
+other contexts also play a significant role in phoneme realizations. 

@@ -1,0 +1,30 @@
+
+Sentiment classification refers to the task
+of automatically identifying whether a
+given piece of text expresses positive or
+negative opinion towards a subject at hand.
+The proliferation of user-generated web
+content such as blogs, discussion forums
+and online review sites has made it possi-
+ble to perform large-scale mining of pub-
+lic opinion. Sentiment modeling is thus
+becoming a critical component of market
+intelligence and social media technologies
+that aim to tap into the collective wis-
+dom of crowds. In this paper, we consider
+the problem of learning high-quality senti-
+ment models with minimal manual super-
+vision. We propose a novel approach to
+learn from lexical prior knowledge in the
+form of domain-independent sentiment-
+laden terms, in conjunction with domain-
+dependent unlabeled data and a few la-
+beled documents. Our model is based on a
+constrained non-negative tri-factorization
+of the term-document matrix which can
+be implemented using simple update rules.
+Extensive experimental studies demon-
+strate the effectiveness of our approach on
+a variety of real-world sentiment predic-
+tion tasks.
+1 

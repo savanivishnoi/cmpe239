@@ -1,0 +1,24 @@
+
+Most previous work on trainable language
+generation has focused on two paradigms:
+(a) using a statistical model to rank a
+set of generated utterances, or (b) using
+statistics to inform the generation deci-
+sion process. Both approaches rely on
+the existence of a handcrafted generator,
+which limits their scalability to new do-
+mains. This paper presents BAGEL, a sta-
+tistical language generator which uses dy-
+namic Bayesian networks to learn from
+semantically-aligned data produced by 42
+untrained annotators. A human evalua-
+tion shows that BAGEL can generate nat-
+ural and informative utterances from un-
+seen inputs in the information presentation
+domain. Additionally, generation perfor-
+mance on sparse datasets is improved sig-
+nificantly by using certainty-based active
+learning, yielding ratings close to the hu-
+man gold standard with a fraction of the
+data.
+1 

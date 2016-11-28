@@ -1,0 +1,19 @@
+
+Generating referring expressions has received
+considerable attention in Natural Language
+Generation. In recent years we start seeing
+deployments of referring expression genera-
+tors moving away from limited domains with
+custom-made ontologies. In this work, we ex-
+plore the feasibility of using large scale noisy
+ontologies (folksonomies) for open domain
+referring expression generation, an important
+task for summarization by re-generation. Our
+experiments on a fully annotated anaphora
+resolution training set and a larger, volunteer-
+submitted news corpus show that existing al-
+gorithms are efficient enough to deal with
+large scale ontologies but need to be extended
+to deal with undefined values and some mea-
+sure for information salience.
+1 

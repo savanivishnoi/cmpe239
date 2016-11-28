@@ -1,0 +1,19 @@
+ 
+In this paper we present two approaches to 
+automatically extract cross-lingual predi-
+cate clusters, based on bilingual parallel 
+corpora and cross-lingual information ex-
+traction. We demonstrate how these clus-
+ters can be used to improve the NIST 
+Automatic Content Extraction (ACE) event 
+extraction task1. We propose a new induc-
+tive learning framework to automatically 
+augment background data for low-
+confidence events and then conduct global 
+inference. Without using any additional 
+data or accessing the baseline algorithms 
+this approach obtained significant im-
+provement over a state-of-the-art bilingual 
+(English and Chinese) event extraction sys-
+tem. 
+1 

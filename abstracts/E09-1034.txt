@@ -1,0 +1,16 @@
+
+We present parsing algorithms for vari-
+ous mildly non-projective dependency for-
+malisms. In particular, algorithms are pre-
+sented for: all well-nested structures of
+gap degree at most 1, with the same com-
+plexity as the best existing parsers for con-
+stituency formalisms of equivalent genera-
+tive power; all well-nested structures with
+gap degree bounded by any constant k;
+and a new class of structures with gap de-
+gree up to k that includes some ill-nested
+structures. The third case includes all the
+gap degree k structures in a number of de-
+pendency treebanks.
+1 

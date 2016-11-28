@@ -1,0 +1,15 @@
+
+This paper presents a novel method for
+aligning etymological data, which mod-
+els context-sensitive rules governing sound
+change, and utilizes phonetic features of the
+sounds. The goal is, for a given corpus of
+cognate sets, to find the best alignment at
+the sound level. We introduce an imputa-
+tion procedure to compare the goodness of
+the resulting models, as well as the good-
+ness of the data sets. We present evalu-
+ations to demonstrate that the new model
+yields improvements in performance, com-
+pared to previously reported models.
+1 

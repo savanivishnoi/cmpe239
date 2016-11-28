@@ -1,0 +1,19 @@
+
+In a meeting, it is often desirable to extract
+keywords from each utterance as soon as it is
+spoken. Thus, this paper proposes a just-in-
+time keyword extraction from meeting tran-
+scripts. The proposed method considers two
+major factors that make it different from key-
+word extraction from normal texts. The first
+factor is the temporal history of preceding ut-
+terances that grants higher importance to re-
+cent utterances than old ones, and the sec-
+ond is topic relevance that forces only the pre-
+ceding utterances relevant to the current utter-
+ance to be considered in keyword extraction.
+Our experiments on two data sets in English
+and Korean show that the consideration of the
+factors results in performance improvement in
+keyword extraction from meeting transcripts.
+1 

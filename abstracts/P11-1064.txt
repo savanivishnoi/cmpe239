@@ -1,0 +1,21 @@
+
+We present an unsupervised model for joint
+phrase alignment and extraction using non-
+parametric Bayesian methods and inversion
+transduction grammars (ITGs). The key con-
+tribution is that phrases of many granulari-
+ties are included directly in the model through
+the use of a novel formulation that memorizes
+phrases generated not only by terminal, but
+also non-terminal symbols. This allows for
+a completely probabilistic model that is able
+to create a phrase table that achieves com-
+petitive accuracy on phrase-based machine
+translation tasks directly from unaligned sen-
+tence pairs. Experiments on several language
+pairs demonstrate that the proposed model
+matches the accuracy of traditional two-step
+word alignment/phrase extraction approach
+while reducing the phrase table to a fraction
+of the original size.
+1 

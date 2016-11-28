@@ -1,0 +1,33 @@
+
+Community question answering (CQA)
+has become an increasingly popular re-
+search topic. In this paper, we focus on the
+problem of question retrieval. Question
+retrieval in CQA can automatically find
+the most relevant and recent questions that
+have been solved by other users. However,
+the word ambiguity and word mismatch
+problems bring about new challenges for
+question retrieval in CQA. State-of-the-art
+approaches address these issues by implic-
+itly expanding the queried questions with
+additional words or phrases using mono-
+lingual translation models. While use-
+ful, the effectiveness of these models is
+highly dependent on the availability of
+quality parallel monolingual corpora (e.g.,
+question-answer pairs) in the absence of
+which they are troubled by noise issue.
+In this work, we propose an alternative
+way to address the word ambiguity and
+word mismatch problems by taking advan-
+tage of potentially rich semantic informa-
+tion drawn from other languages. Our pro-
+posed method employs statistical machine
+translation to improve question retrieval
+and enriches the question representation
+with the translated words from other lan-
+guages via matrix factorization. Experi-
+ments conducted on a real CQA data show
+that our proposed approach is promising.
+1 

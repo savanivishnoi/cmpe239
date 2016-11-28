@@ -1,0 +1,25 @@
+
+Readability of a summary is usually graded
+manually on five aspects of readability: gram-
+maticality, coherence and structure, focus,
+referential clarity and non-redundancy. In the
+context of automated metrics for evaluation
+of summary quality, content evaluations have
+been presented through the last decade and
+continue to evolve, however a careful exami-
+nation of readability aspects of summary qual-
+ity has not been as exhaustive. In this paper
+we explore alternative evaluation metrics for
+?grammaticality? and ?coherence and struc-
+ture? that are able to strongly correlate with
+manual ratings. Our results establish that our
+methods are able to perform pair-wise rank-
+ing of summaries based on grammaticality, as
+strongly as ROUGE is able to distinguish for
+content evaluations. We observed that none
+of the five aspects of readability are indepen-
+dent of each other, and hence by addressing
+the individual criterion of evaluation we aim to
+achieve automated appreciation of readability
+of summaries.
+1 

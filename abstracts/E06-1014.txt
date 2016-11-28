@@ -1,0 +1,19 @@
+
+Probabilistic Latent Semantic Analysis
+(PLSA) models have been shown to pro-
+vide a better model for capturing poly-
+semy and synonymy than Latent Seman-
+tic Analysis (LSA). However, the param-
+eters of a PLSA model are trained using
+the Expectation Maximization (EM) algo-
+rithm, and as a result, the trained model
+is dependent on the initialization values so
+that performance can be highly variable.
+In this paper we present a method for using
+LSA analysis to initialize a PLSA model.
+We also investigated the performance of
+our method for the tasks of text segmenta-
+tion and retrieval on personal-size corpora,
+and present results demonstrating the effi-
+cacy of our proposed approach.
+1 

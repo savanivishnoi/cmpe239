@@ -1,0 +1,13 @@
+ 
+In this paper, we will describe a search tool 
+for a huge set of ngrams. The tool supports 
+queries with an arbitrary number of wild-
+cards. It takes a fraction of a second for a 
+search, and can provide the fillers of the 
+wildcards. The system runs on a single 
+Linux PC with reasonable size memory (less 
+than 4GB) and disk space (less than 400GB). 
+This system can be a very useful tool for 
+linguistic knowledge discovery and other 
+NLP tasks. 
+1 

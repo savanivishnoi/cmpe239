@@ -1,0 +1,16 @@
+
+We present a biparsing algorithm for
+Stochastic Bracketing Inversion Transduc-
+tion Grammars that runs in O(bn3) time
+instead of O(n6). Transduction gram-
+mars learned via an EM estimation proce-
+dure based on this biparsing algorithm are
+evaluated directly on the translation task,
+by building a phrase-based statistical MT
+system on top of the alignments dictated
+by Viterbi parses under the induced bi-
+grammars. Translation quality at different
+levels of pruning are compared, showing
+improvements over a conventional word
+aligner even at heavy pruning levels.
+1 

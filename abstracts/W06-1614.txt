@@ -1,0 +1,22 @@
+
+This paper presents a comparative study
+of probabilistic treebank parsing of Ger-
+man, using the Negra and Tu?Ba-D/Z tree-
+banks. Experiments with the Stanford
+parser, which uses a factored PCFG and
+dependency model, show that, contrary to
+previous claims for other parsers, lexical-
+ization of PCFG models boosts parsing
+performance for both treebanks. The ex-
+periments also show that there is a big
+difference in parsing performance, when
+trained on the Negra and on the Tu?Ba-
+D/Z treebanks. Parser performance for the
+models trained on Tu?Ba-D/Z are compara-
+ble to parsing results for English with the
+Stanford parser, when trained on the Penn
+treebank. This comparison at least sug-
+gests that German is not harder to parse
+than its West-Germanic neighbor language
+English.
+1 

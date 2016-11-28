@@ -1,0 +1,14 @@
+ 
+This paper presents our system participated on 
+SemEval-2012 task: Chinese Semantic De-
+pendency Parsing. Our system extends the 
+second-order MST model by adding two 
+third-order features. The two third-order fea-
+tures are grand-sibling and tri-sibling. In the 
+decoding phase, we keep the k best results for 
+each span. After using the selected third-order 
+features, our system presently achieves LAS 
+of 61.58% ignoring punctuation tokens which 
+is 0.15% higher than the result of purely 
+second-order model on the test dataset. 
+1 

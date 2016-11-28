@@ -1,0 +1,23 @@
+
+In this paper, we propose a graph kernel
+based approach for the automated extraction
+of protein-protein interactions (PPI) from sci-
+entific literature. In contrast to earlier ap-
+proaches to PPI extraction, the introduced all-
+dependency-paths kernel has the capability
+to consider full, general dependency graphs.
+We evaluate the proposed method across five
+publicly available PPI corpora providing the
+most comprehensive evaluation done for a ma-
+chine learning based PPI-extraction system.
+Our method is shown to achieve state-of-the-
+art performance with respect to comparable
+evaluations, achieving 56.4 F-score and 84.8
+AUC on the AImed corpus. Further, we iden-
+tify several pitfalls that can make evaluations
+of PPI-extraction systems incomparable, or
+even invalid. These include incorrect cross-
+validation strategies and problems related to
+comparing F-score results achieved on differ-
+ent evaluation resources.
+1 

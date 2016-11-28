@@ -1,0 +1,19 @@
+
+We applied hierarchical clustering using
+Rank distance, previously used in compu-
+tational stylometry, on literary texts written
+by Mateiu Caragiale and a number of dif-
+ferent authors who attempted to imperson-
+ate Caragiale after his death, or simply to
+mimic his style. Their pastiches were con-
+sistently clustered opposite to the original
+work, thereby confirming the performance
+of the method and proposing an extension
+of the method from simple authorship attri-
+bution to the more complicated problem of
+pastiche detection.
+The novelty of our work is the use of fre-
+quency rankings of stopwords as features,
+showing that this idea yields good results
+for pastiche detection.
+1 

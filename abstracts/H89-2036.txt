@@ -1,0 +1,9 @@
+ 
+The problem of extending the lexicon of words in an automatic speech recognition system is com- 
+monly referred to as the the new word problem. When encountered in the context of an embedded speech 
+recognition system this problem can be be divided into the following sub-problems. First, identify the 
+presence of a new word. Second, acquire a phonetic transcription of the new word. Third, acquire the 
+orthographic transcription (spelling) of the new word. In this paper we present the results of a preliminary 
+study that employs a novel approach to the problem of acquiring the orthographic transcription through 
+the use of an n-gram language model of english spelling and a quad-letter labeling of acoustic models that 
+when taken together potentially produce an acoustic to spelling transcription of any spoken input. 

@@ -1,0 +1,22 @@
+ 
+This article proposes a hybrid statistical and 
+structural semantic model for multi-stage 
+spoken language understanding (SLU). The 
+first stage of this SLU utilizes a weighted fi-
+nite-state transducer (WFST)-based parser, 
+which encodes the regular grammar of con-
+cepts to be extracted. The proposed method 
+improves the regular grammar model by in-
+corporating a well-known n-gram semantic 
+tagger. This hybrid model thus enhances the 
+syntax of n-gram outputs while providing 
+robustness against speech-recognition errors. 
+With applications to a Thai hotel reservation 
+domain, it is shown to outperform both indi-
+vidual models at every stage of the SLU sys-
+tem. Under the probabilistic WFST 
+framework, the use of N-best hypotheses 
+from the speech recognizer instead of the 1-
+best can further improve performance requir-
+ing only a small additional processing time. 
+1 

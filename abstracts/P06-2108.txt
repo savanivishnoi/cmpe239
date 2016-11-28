@@ -1,0 +1,21 @@
+ 
+This paper presents a word support 
+model (WSM). The WSM can effec-
+tively perform homophone selection 
+and syllable-word segmentation to im-
+prove Chinese input systems. The ex-
+perimental results show that: (1) the 
+WSM is able to achieve tonal (sylla-
+bles input with four tones) and tone-
+less (syllables input without four tones) 
+syllable-to-word (STW) accuracies of 
+99% and 92%, respectively, among the 
+converted words; and (2) while apply-
+ing the WSM as an adaptation proc-
+essing, together with the Microsoft 
+Input Method Editor 2003 (MSIME) 
+and an optimized bigram model, the 
+average tonal and toneless STW im-
+provements are 37% and 35%, respec-
+tively. 
+1 

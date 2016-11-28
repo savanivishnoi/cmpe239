@@ -1,0 +1,18 @@
+
+Our system for the CoNLL 2008 shared
+task uses a set of individual parsers, a set of
+stand-alone semantic role labellers, and a
+joint system for parsing and semantic role
+labelling, all blended together. The system
+achieved a macro averaged labelled F
+1
+-
+score of 79.79 (WSJ 80.92, Brown 70.49)
+for the overall task. The labelled attach-
+ment score for syntactic dependencies was
+86.63 (WSJ 87.36, Brown 80.77) and the
+labelled F
+1
+-score for semantic dependen-
+cies was 72.94 (WSJ 74.47, Brown 60.18).
+1 

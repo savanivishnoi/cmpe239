@@ -1,0 +1,79 @@
+ 
+We describe xperiments hat show that 
+the concepts of rhetorical nalysts and nu- 
+cleanty can be used effectively for deter- 
+numng the most nnportant umts m a text 
+We show how these concepts can be xm- 
+plemented and we discuss results that we 
+obtained with a chscourse-based summa- 
+nzatmn program 
+1 Motivation 
+The evaluaUon of automatic summarizers has always 
+been a thorny problem most papers on summanzaUon 
+describe the approach that they use and give some "con- 
+vmcmg" samples of the output In very few cases, the 
+dtrect output of a suramanzatton program Is compared 
+wtth a human-made summary or evaluated wtth the help 
+of human subjects, usually, the results are modest Un- 
+fortunately, evaluatmg the results of a pamcular tmple- 
+mentaUon does not enable one to detenmne what part of 
+the fmlure is due to the tmplementatton ttself and what 
+part to Rs underlying assumpttons The posmon that we 
+take m tins paper is that, m order to bmld htgh-quahty 
+summarization programs, one needs to evaluate not only 
+a representatave set of automattcally generated outputs (a 
+htghly chfficult problem by Rself), but also the adequacy 
+of the assumptaons that these programs use That way, 
+one ts able to dtsungmsh t e problems that pertmn to a 
+parttcular implementation from those that pertmn to the 
+underlying theoretical framework and explore new ways 
+to improve ach 
+With few excepttons, automaUc approaches tosumma- 
+nzatmn have primarily addressed possthle ways to deter- 
+rmne the most mportant parts of a text (see Patce (!990) 
+for an excellent overview) Deterrmnmg the salient parts 
+IS constdered to be achievable because one or more of 
+the following assumpuons hold 0) important sentences 
+m a text contmn words that are used frequently (Luhn, 
+1958, Edmundson, 1968), (n) tmportant sentences con- 
+tam words that are used m the Utle and secuon head- 
+mgs (Edmundson, 1968), On) important sentences are 
+located at the begmmng or end of paragraphs (Baxen- 
+dale, 1958), 0v) tmportant sentences are located at posl- 
+Uons m a text hat are genre dependent-- these posluons 
+can be detenmned automatically, through trmnmg tech- 
+tuques (Lm and Hovy, 1997), (v) important sentences use 
+bq?us words uch as "greatest'~ and "stgmficant" ormdt- 
+cater phrases uch as "the mmn aim of thispaper" and 
+"the purpose of tb~s aruclo", wlule nonqmportant sen- 
+tences use stigma words such as "hardly" and "tmpossl- 
+ble" (Edmundson, 1968, Rush, Salvador, and Zamora, 
+1971), (v0 important sentences and concepts are the 
+lughest connected enttUes m elaborate semantuc struc- 
+tures (Skorochodko, 1971, Lm, 1995, Barzday and E1- 
+hadad, 1997), and (vn) tmportant and nonqmportant sen- 
+tences are derivable from a &scourse representaUon f
+the text (Sparck Jones, 1993, One; Surmta, and Mnke, 
+1994) 
+In deterrmnmg the words that occur most frequently m 
+a text or the sentences that use words that occur m the 
+headings of secttons, computers are accurate tools How- 
+ever, m determmmgthe concepts that are semanucally 
+related or the dtscourse structure of a text, computers 
+are no longer so accurate, rather, they are highly depen- 
+dent on the coverage of the hngmsuc resources that they 
+use and the qualRy of the algorithms that they Imple- 
+ment Although ~t ~s plausible that elaborate cohesion- 
+and coherence-based structures can be used effecuvely 
+m summanzauon, we beheve that before bmldmg sum-. 
+manzzat~on programs, we should deterrmne the extent o 
+winch these assumpUons hold 
+In tins paper, we describe xperiments that show that 
+? the concepts of rbetoncal analysts and nucleanty can be 
+used effecUvely for deterrmmng the most important umts 
+m a text We show how these concepts were implemented 
+and discuss results that we obtained with a ?hscourse- 
+based summanzauon program 
+2 From discourse trees to summaries 
+an empirical view 
+2.1 

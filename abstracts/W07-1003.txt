@@ -1,0 +1,24 @@
+
+This paper investigates the roles of named
+entities (NE?s) in annotated biomedical text
+classification. In the annotation schema of
+BioCaster, a text mining system for pub-
+lic health protection, important concepts that
+reflect information about infectious diseases
+were conceptually analyzed with a formal
+ontological methodology. Concepts were
+classified as Types, while others were iden-
+tified as being Roles. Types are specified
+as NE classes and Roles are integrated into
+NEs as attributes. We focus on the Roles
+of NEs by extracting and using them in
+different ways as features in the classifier.
+Experimental results show that: 1) Roles
+for each NE greatly helped improve perfor-
+mance of the system, 2) combining informa-
+tion about NE classes with their Roles con-
+tribute significantly to the improvement of
+performance. We discuss in detail the effect
+of each Role on the accuracy of text classifi-
+cation.
+1 

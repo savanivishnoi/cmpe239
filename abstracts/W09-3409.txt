@@ -1,0 +1,20 @@
+
+We present for the first time a compu-
+tational model for the reduplication of
+the Vietnamese language. Reduplication
+is a popular phenomenon of Vietnamese
+in which reduplicative words are created
+by the combination of multiple syllables
+whose phonics are similar. We first give
+a systematical study of Vietnamese redu-
+plicative words, bringing into focus clear
+principles for the formation of a large class
+of bi-syllabic reduplicative words. We then
+make use of optimal finite-state devices,
+in particular minimal sequential string-to
+string transducers to build a computational
+model for very efficient recognition and
+production of those words. Finally, sev-
+eral nice applications of this computa-
+tional model are discussed.
+1 

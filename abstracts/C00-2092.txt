@@ -1,0 +1,23 @@
+ 
+In this allicle, we present a statistical approach to 
+machine translation that is based on Data-Oriented 
+Parsing: l)ata-Oriented Translation (DOT). In DOT, 
+we use linked subtree lmirs for creating a derivation 
+of a source sentence. Each linked subhee pair has a 
+certain probability, and consists of two trees: one 
+in the source language and one in the target lan- 
+guage. When a derbation has been formed with 
+these subtree pairs, we can create a translation from 
+this deriwition. Since there are typically many dif- 
+ferent derivations of tile same sentence in the source 
+language, there can be as many dilTemnt ranslations 
+for it. The probability of a translation can be calcu- 
+lated as the total probability of all tile derivations 
+that form this translation. We give the computa- 
+tional aspects for Ibis model, show tlmt we can con- 
+vert each subtree imir into a productive rewrite rule, 
+and that tile most probable translation can be com- 
+imted by means of Monte Carlo disambiguation. H- 
+nally, we discuss some pilot experiments with the 
+Verbmobil COl\]mS. 
+1 

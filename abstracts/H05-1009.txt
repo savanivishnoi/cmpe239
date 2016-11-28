@@ -1,0 +1,16 @@
+
+This paper presents a novel approach to
+combining different word alignments. We
+view word alignment as a pattern classifi-
+cation problem, where alignment combi-
+nation is treated as a classifier ensemble,
+and alignment links are adorned with lin-
+guistic features. A neural network model
+is used to learn word alignments from the
+individual alignment systems. We show
+that our alignment combination approach
+yields a significant 20-34% relative er-
+ror reduction over the best-known align-
+ment combination technique on English-
+Spanish and English-Chinese data.
+1 

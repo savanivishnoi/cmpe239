@@ -1,0 +1,16 @@
+
+This paper presents Illinois-Coref, a system
+for coreference resolution that participated
+in the CoNLL-2011 shared task. We in-
+vestigate two inference methods, Best-Link
+and All-Link, along with their corresponding,
+pairwise and structured, learning protocols.
+Within these, we provide a flexible architec-
+ture for incorporating linguistically-motivated
+constraints, several of which we developed
+and integrated. We compare and evaluate the
+inference approaches and the contribution of
+constraints, analyze the mistakes of the sys-
+tem, and discuss the challenges of resolving
+coreference for the OntoNotes-4.0 data set.
+1 

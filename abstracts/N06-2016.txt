@@ -1,0 +1,18 @@
+ 
+Cross-language retrieval of spontaneous 
+speech combines the challenges of working 
+with noisy automated transcription and lan-
+guage translation. The CLEF 2005 Cross-
+Language Speech Retrieval (CL-SR) task 
+provides a standard test collection to inves-
+tigate these challenges. We show that we 
+can improve retrieval performance: by care-
+ful selection of the term weighting scheme; 
+by decomposing automated transcripts into 
+phonetic substrings to help ameliorate tran-
+scription errors; and by combining auto-
+matic transcriptions with manually-assigned 
+metadata. We further show that topic trans-
+lation with online machine translation re-
+sources yields effective CL-SR. 
+1 

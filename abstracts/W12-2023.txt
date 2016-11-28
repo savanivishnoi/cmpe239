@@ -1,0 +1,3 @@
+ 
+This paper reports on our work in the HOO 2012 shared task. The task is to automatically detect, recognize and correct the errors in the use of prepositions and determiners in a set of given test documents in English. For that, we have developed a hybrid system of an n-gram statistical model along with some rule-based techniques. The system has been trained on the HOO shared task?s training datasets and run on the test set given. We have submitted one run, which has demonstrated an F-score of 7.1, 6.46 and 2.58 for detection, recognition and correction respectively before revision and F-score of 8.22, 7.59 and 3.16 for detec-tion, recognition and correction respectively after revision. 
+1 

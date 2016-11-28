@@ -1,0 +1,23 @@
+
+Machine summaries can be improved by
+using knowledge about the cognitive sta-
+tus of news article referents. In this paper,
+we present an approach to automatically
+acquiring distinctions in cognitive status
+using machine learning over the forms of
+referring expressions appearing in the in-
+put. We focus on modeling references to
+people, both because news often revolve
+around people and because existing natu-
+ral language tools for named entity iden-
+tification are reliable. We examine two
+specific distinctions?whether a person in
+the news can be assumed to be known to a
+target audience (hearer-old vs hearer-new)
+and whether a person is a major charac-
+ter in the news story. We report on ma-
+chine learning experiments that show that
+these distinctions can be learned with high
+accuracy, and validate our approach using
+human subjects.
+1 

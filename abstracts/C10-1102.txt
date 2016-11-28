@@ -1,0 +1,21 @@
+
+In practical applications, decoding speed
+is very important. Modern structured
+learning technique adopts template based
+method to extract millions of features.
+Complicated templates bring about abun-
+dant features which lead to higher accu-
+racy but more feature extraction time. We
+propose Two Dimensional Trie (2D Trie),
+a novel efficient feature indexing structure
+which takes advantage of relationship be-
+tween templates: feature strings generated
+by a template are prefixes of the features
+from its extended templates. We apply
+our technique to Maximum Spanning Tree
+dependency parsing. Experimental results
+on Chinese Tree Bank corpus show that
+our 2D Trie is about 5 times faster than
+traditional Trie structure, making parsing
+speed 4.3 times faster.
+1 

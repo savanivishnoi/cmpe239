@@ -1,0 +1,28 @@
+
+Decision rules that explicitly account for
+non-probabilistic evaluation metrics in
+machine translation typically require spe-
+cial training, often to estimate parame-
+ters in exponential models that govern the
+search space and the selection of candi-
+date translations. While the traditional
+Maximum A Posteriori (MAP) decision
+rule can be optimized as a piecewise lin-
+ear function in a greedy search of the pa-
+rameter space, the Minimum Bayes Risk
+(MBR) decision rule is not well suited to
+this technique, a condition that makes past
+results difficult to compare. We present a
+novel training approach for non-tractable
+decision rules, allowing us to compare and
+evaluate these and other decision rules on
+a large scale translation task, taking ad-
+vantage of the high dimensional parame-
+ter space available to the phrase based
+Pharaoh decoder. This comparison is
+timely, and important, as decoders evolve
+to represent more complex search space
+decisions and are evaluated against in-
+novative evaluation metrics of translation
+quality.
+1 

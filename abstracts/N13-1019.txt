@@ -1,0 +1,16 @@
+
+We present a new hierarchical Bayesian model
+for unsupervised topic segmentation. This new
+model integrates a point-wise boundary sam-
+pling algorithm used in Bayesian segmenta-
+tion into a structured topic model that can cap-
+ture a simple hierarchical topic structure latent
+in documents. We develop an MCMC infer-
+ence algorithm to split/merge segment(s). Ex-
+perimental results show that our model out-
+performs previous unsupervised segmentation
+methods using only lexical information on
+Choi?s datasets and two meeting transcripts
+and has performance comparable to those pre-
+vious methods on two written datasets.
+1 

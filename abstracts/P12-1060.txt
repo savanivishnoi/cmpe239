@@ -1,0 +1,27 @@
+
+The amount of labeled sentiment data in En-
+glish is much larger than that in other lan-
+guages. Such a disproportion arouse interest
+in cross-lingual sentiment classification, which
+aims to conduct sentiment classification in the
+target language (e.g. Chinese) using labeled
+data in the source language (e.g. English).
+Most existing work relies on machine trans-
+lation engines to directly adapt labeled data
+from the source language to the target lan-
+guage. This approach suffers from the limited
+coverage of vocabulary in the machine transla-
+tion results. In this paper, we propose a gen-
+erative cross-lingual mixture model (CLMM)
+to leverage unlabeled bilingual parallel data.
+By fitting parameters to maximize the likeli-
+hood of the bilingual parallel data, the pro-
+posed model learns previously unseen senti-
+ment words from the large bilingual parallel
+data and improves vocabulary coverage signifi-
+cantly. Experiments on multiple data sets show
+that CLMM is consistently effective in two set-
+tings: (1) labeled data in the target language are
+unavailable; and (2) labeled data in the target
+language are also available.
+1 

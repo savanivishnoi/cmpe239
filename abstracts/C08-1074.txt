@@ -1,0 +1,18 @@
+
+Och?s (2003) minimum error rate training
+(MERT) procedure is the most commonly
+used method for training feature weights in
+statistical machine translation (SMT) mod-
+els. The use of multiple randomized start-
+ing points in MERT is a well-established
+practice, although there seems to be no
+published systematic study of its bene-
+fits. We compare several ways of perform-
+ing random restarts with MERT. We find
+that all of our random restart methods out-
+perform MERT without random restarts,
+and we develop some refinements of ran-
+dom restarts that are superior to the most
+common approach with regard to resulting
+model quality and training time.
+1 

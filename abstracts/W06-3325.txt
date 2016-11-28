@@ -1,0 +1,19 @@
+ 
+In modern biology, digitization of biosys-
+tematics publications is an important task. 
+Extraction of taxonomic names from such 
+documents is one of its major issues. This 
+is because these names identify the various 
+genera and species. This article reports on 
+our experiences with learning techniques 
+for this particular task. We say why estab-
+lished Named-Entity Recognition tech-
+niques are somewhat difficult to use in our 
+context. One reason is that we have only 
+very little training data available. Our ex-
+periments show that a combining approach 
+that relies on regular expressions, heuris-
+tics, and word-level language recognition 
+achieves very high precision and recall and 
+allows to cope with those difficulties. 
+1 

@@ -1,0 +1,21 @@
+ 
+Translation of named entities (NEs), 
+such as person names, organization names 
+and location names is crucial for cross lin-
+gual information retrieval, machine trans-
+lation, and many other natural language 
+processing applications. Newly named en-
+tities are introduced on daily basis in 
+newswire and this greatly complicates the 
+translation task. Also, while some names 
+can be translated, others must be transliter-
+ated, and, still, others are mixed. In this 
+paper we introduce an integrated approach 
+for named entity translation deploying 
+phrase-based translation, word-based trans-
+lation, and transliteration modules into a 
+single framework.  While Arabic based, 
+the approach introduced here is a unified 
+approach that can be applied to NE transla-
+tion for any language pair. 
+1 

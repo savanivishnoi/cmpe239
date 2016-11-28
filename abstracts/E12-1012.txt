@@ -1,0 +1,25 @@
+
+This work proposes to adapt an existing
+general SMT model for the task of translat-
+ing queries that are subsequently going to
+be used to retrieve information from a tar-
+get language collection. In the scenario that
+we focus on access to the document collec-
+tion itself is not available and changes to
+the IR model are not possible. We propose
+two ways to achieve the adaptation effect
+and both of them are aimed at tuning pa-
+rameter weights on a set of parallel queries.
+The first approach is via a standard tuning
+procedure optimizing for BLEU score and
+the second one is via a reranking approach
+optimizing for MAP score. We also extend
+the second approach by using syntax-based
+features. Our experiments show improve-
+ments of 1-2.5 in terms of MAP score over
+the retrieval with the non-adapted transla-
+tion. We show that these improvements are
+due both to the integration of the adapta-
+tion and syntax-features for the query trans-
+lation task.
+1 

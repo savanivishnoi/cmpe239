@@ -1,0 +1,22 @@
+
+Summarization, like other natural language
+processing tasks, is tackled with a range
+of different techniques - particularly ma-
+chine learning approaches, where human
+intuition goes into attribute selection and
+the choice and tuning of the learning algo-
+rithm. Such techniques tend to apply dif-
+ferently in different contexts, so in this pa-
+per we describe a hybrid approach in which
+a number of different summarization tech-
+niques are combined in a rule-based sys-
+tem using manual knowledge acquisition,
+where human intuition, supported by data,
+specifies not only attributes and algorithms,
+but the contexts where these are best used.
+We apply this approach to automatic sum-
+marization of legal case reports. We show
+how a preliminary knowledge base, com-
+posed of only 23 rules, already outperforms
+competitive baselines.
+1 

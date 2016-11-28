@@ -1,0 +1,20 @@
+
+Recent work in computer vision has aimed
+to associate image regions with keywords
+describing the depicted entities, but ac-
+tual image ?understanding? would also re-
+quire identifying their attributes, relations
+and activities. Since this information can-
+not be conveyed by simple keywords, we
+have collected a corpus of ?action? photos
+each associated with five descriptive cap-
+tions. In order to obtain a consistent se-
+mantic representation for each image, we
+need to first identify which NPs refer to
+the same entities. We present three hierar-
+chical Bayesian models for cross-caption
+coreference resolution. We have also cre-
+ated a simple ontology of entity classes
+that appear in images and evaluate how
+well these can be recovered.
+1 

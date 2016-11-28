@@ -1,0 +1,22 @@
+
+We propose a new phrase-based translation
+model and decoding algorithm that enables
+us to evaluate and compare several, previ-
+ously proposed phrase-based translation mod-
+els. Within our framework, we carry out a
+large number of experiments to understand bet-
+ter and explain why phrase-based models out-
+perform word-based models. Our empirical re-
+sults, which hold for all examined language
+pairs, suggest that the highest levels of perfor-
+mance can be obtained through relatively sim-
+ple means: heuristic learning of phrase trans-
+lations from word-based alignments and lexi-
+cal weighting of phrase translations. Surpris-
+ingly, learning phrases longer than three words
+and learning phrases from high-accuracy word-
+level alignment models does not have a strong
+impact on performance. Learning only syntac-
+tically motivated phrases degrades the perfor-
+mance of our systems.
+1 

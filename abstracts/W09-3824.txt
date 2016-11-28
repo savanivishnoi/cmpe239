@@ -1,0 +1,28 @@
+
+This paper presents preliminary investiga-
+tions on the statistical parsing of French by
+bringing a complete evaluation on French
+data of the main probabilistic lexicalized
+and unlexicalized parsers first designed
+on the Penn Treebank. We adapted the
+parsers on the two existing treebanks of
+French (Abeill? et al, 2003; Schluter and
+van Genabith, 2007). To our knowledge,
+mostly all of the results reported here are
+state-of-the-art for the constituent parsing
+of French on every available treebank. Re-
+garding the algorithms, the comparisons
+show that lexicalized parsing models are
+outperformed by the unlexicalized Berke-
+ley parser. Regarding the treebanks, we
+observe that, depending on the parsing
+model, a tag set with specific features
+has direct influence over evaluation re-
+sults. We show that the adapted lexical-
+ized parsers do not share the same sensi-
+tivity towards the amount of lexical ma-
+terial used for training, thus questioning
+the relevance of using only one lexicalized
+model to study the usefulness of lexical-
+ization for the parsing of French.
+1 

@@ -1,0 +1,13 @@
+
+Intervals and the events that occur in them
+are encoded as strings, elaborating on a con-
+ception of events as ?intervals cum descrip-
+tion.? Notions of satisfaction in interval
+temporal logics are formulated in terms of
+strings, and the possibility of computing these
+via finite-state machines/transducers is inves-
+tigated. This opens up temporal semantics to
+finite-state methods, with entailments that are
+decidable insofar as these can be reduced to
+inclusions between regular languages.
+1 

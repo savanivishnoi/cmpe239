@@ -1,0 +1,26 @@
+
+In this paper, we describe our system for the
+2009 CoNLL shared task for joint parsing of
+syntactic and semantic dependency structures
+of multiple languages. Our system combines
+and implements efficient parsing techniques to
+get a high accuracy as well as very good pars-
+ing and training time. For the applications
+of syntactic and semantic parsing, the pars-
+ing time and memory footprint are very im-
+portant. We think that also the development of
+systems can profit from this since one can per-
+form more experiments in the given time. For
+the subtask of syntactic dependency parsing,
+we could reach the second place with an ac-
+curacy in average of 85.68 which is only 0.09
+points behind the first ranked system. For this
+task, our system has the highest accuracy for
+English with 89.88, German with 87.48 and
+the out-of-domain data in average with 78.79.
+The semantic role labeler works not as well as
+our parser and we reached therefore the fourth
+place (ranked by the macro F1 score) in the
+joint task for syntactic and semantic depen-
+dency parsing.
+1 

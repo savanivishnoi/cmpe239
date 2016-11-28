@@ -1,0 +1,22 @@
+ 
+This paper presents a direct word reordering 
+model with novel syntax-based features for sta-
+tistical machine translation.  Reordering models 
+address the problem of reordering source lan-
+guage into the word order of the target language.  
+IBM Models 3 through 5 have reordering com-
+ponents that use surface word information but 
+very  little context information to determine the 
+traversal order of the source sentence.  Since the 
+late 1990s, phrase-based machine translation 
+solves much of the local reorderings by using 
+phrasal translations.  The problem of long-
+distance reordering has become a central re-
+search topic in modeling distortions.  We present 
+a syntax driven maximum entropy reordering 
+model that directly predicts the source traversal 
+order and is able to model arbitrarily long dis-
+tance word movement.  We show that this model 
+significantly improves machine translation qual-
+ity. 
+1    

@@ -1,0 +1,14 @@
+
+We present a syntactic and lexically based
+discourse segmenter (SLSeg) that is de-
+signed to avoid the common problem of
+over-segmenting text. Segmentation is the
+first step in a discourse parser, a system
+that constructs discourse trees from el-
+ementary discourse units. We compare
+SLSeg to a probabilistic segmenter, show-
+ing that a conservative approach increases
+precision at the expense of recall, while re-
+taining a high F-score across both formal
+and informal texts.
+1 

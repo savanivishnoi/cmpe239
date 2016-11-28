@@ -1,0 +1,23 @@
+
+We address the problem of analyzing mul-
+tiple related opinions in a text. For in-
+stance, in a restaurant review such opin-
+ions may include food, ambience and ser-
+vice. We formulate this task as a multiple
+aspect ranking problem, where the goal is
+to produce a set of numerical scores, one
+for each aspect. We present an algorithm
+that jointly learns ranking models for in-
+dividual aspects by modeling the depen-
+dencies between assigned ranks. This al-
+gorithm guides the prediction of individ-
+ual rankers by analyzing meta-relations
+between opinions, such as agreement and
+contrast. We prove that our agreement-
+based joint model is more expressive than
+individual ranking models. Our empirical
+results further confirm the strength of the
+model: the algorithm provides significant
+improvement over both individual rankers
+and a state-of-the-art joint ranking model.
+1 

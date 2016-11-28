@@ -1,0 +1,26 @@
+
+Passage retrieval is a crucial first step of au-
+tomatic Question Answering (QA). While ex-
+isting passage retrieval algorithms are effec-
+tive at selecting document passages most sim-
+ilar to the question, or those that contain
+the expected answer types, they do not take
+into account which parts of the document the
+searchers actually found useful. We propose,
+to the best of our knowledge, the first success-
+ful attempt to incorporate searcher examina-
+tion data into passage retrieval for question an-
+swering. Specifically, we exploit detailed ex-
+amination data, such as mouse cursor move-
+ments and scrolling, to infer the parts of the
+document the searcher found interesting, and
+then incorporate this signal into passage re-
+trieval for QA. Our extensive experiments and
+analysis demonstrate that our method signif-
+icantly improves passage retrieval, compared
+to using textual features alone. As an addi-
+tional contribution, we make available to the
+research community the code and the search
+behavior data used in this study, with the hope
+of encouraging further research in this area.
+1 

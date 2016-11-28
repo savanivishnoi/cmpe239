@@ -1,0 +1,24 @@
+
+We present an empirical study on construct-
+ing a Japanese constituent parser, which can
+output function labels to deal with more de-
+tailed syntactic information. Japanese syn-
+tactic parse trees are usually represented as
+unlabeled dependency structure between bun-
+setsu chunks, however, such expression is in-
+sufficient to uncover the syntactic information
+about distinction between complements and
+adjuncts and coordination structure, which is
+required for practical applications such as syn-
+tactic reordering of machine translation. We
+describe a preliminary effort on constructing
+a Japanese constituent parser by a Penn Tree-
+bank style treebank semi-automatically made
+from a dependency-based corpus. The eval-
+uations show the parser trained on the tree-
+bank has comparable bracketing accuracy as
+conventional bunsetsu-based parsers, and can
+output such function labels as the grammatical
+role of the argument and the type of adnominal
+phrases.
+1 

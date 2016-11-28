@@ -1,0 +1,14 @@
+
+We present a novel unsupervised sentence fu-
+sion method which we apply to a corpus of bi-
+ographies in German. Given a group of related
+sentences, we align their dependency trees and
+build a dependency graph. Using integer lin-
+ear programming we compress this graph to
+a new tree, which we then linearize. We use
+GermaNet and Wikipedia for checking seman-
+tic compatibility of co-arguments. In an eval-
+uation with human judges our method out-
+performs the fusion approach of Barzilay &
+McKeown (2005) with respect to readability.
+1 

@@ -1,0 +1,28 @@
+
+As linguistic models incorporate more subtle
+nuances of language and its structure, stan-
+dard inference techniques can fall behind. Of-
+ten, such models are tightly coupled such that
+they defy clever dynamic programming tricks.
+However, Sequential Monte Carlo (SMC) ap-
+proaches, i.e. particle filters, are well suited
+to approximating such models, resolving their
+multi-modal nature at the cost of generating
+additional samples. We implement two par-
+ticle filters, which jointly sample either sen-
+tences or word types, and incorporate them
+into a Gibbs sampler for part-of-speech (PoS)
+inference. We analyze the behavior of the par-
+ticle filters, and compare them to a block sen-
+tence sampler, a local token sampler, and a
+heuristic sampler, which constrains inference
+to a single PoS per word type. Our findings
+show that particle filters can closely approx-
+imate a difficult or even intractable sampler
+quickly. However, we found that high poste-
+rior likelihood do not necessarily correspond
+to better Many-to-One accuracy. The results
+suggest that the approach has potential and
+more advanced particle filters are likely to lead
+to stronger performance.
+1 

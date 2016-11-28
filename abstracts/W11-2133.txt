@@ -1,0 +1,23 @@
+
+This work presents a simplified approach to
+bilingual topic modeling for language model
+adaptation by combining text in the source
+and target language into very short documents
+and performing Probabilistic Latent Semantic
+Analysis (PLSA) during model training. Dur-
+ing inference, documents containing only the
+source language can be used to infer a full
+topic-word distribution on all words in the tar-
+get language?s vocabulary, from which we per-
+form Minimum Discrimination Information
+(MDI) adaptation on a background language
+model (LM). We apply our approach on the
+English-French IWSLT 2010 TED Talk exer-
+cise, and report a 15% reduction in perplexity
+and relative BLEU and NIST improvements
+of 3% and 2.4%, respectively over a baseline
+only using a 5-gram background LM over the
+entire translation task. Our topic modeling ap-
+proach is simpler to construct than its counter-
+parts.
+1 

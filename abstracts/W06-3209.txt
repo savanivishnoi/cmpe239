@@ -1,0 +1,21 @@
+ 
+This paper introduces the probabilistic 
+paradigm, a probabilistic, declarative 
+model of morphological structure. We de-
+scribe an algorithm that recursively ap-
+plies Latent Dirichlet Allocation with an 
+orthogonality constraint to discover mor-
+phological paradigms as the latent classes 
+within a suffix-stem matrix. We apply the 
+algorithm to data preprocessed in several 
+different ways, and show that when suf-
+fixes are distinguished for part of speech 
+and allomorphs  or gender/conjugational 
+variants are merged, the model is able to 
+correctly learn morphological paradigms 
+for English and Spanish. We compare our 
+system with Linguistica (Goldsmith 
+2001), and discuss the advantages of the 
+probabilistic paradigm over Linguistica?s 
+signature representation. 
+1 

@@ -1,0 +1,25 @@
+
+This paper presents an efficient approach
+to finding more bilingual webpage pairs
+with high credibility via link analysis, us-
+ing little prior knowledge or heuristics.
+It extends from a previous algorithm that
+takes the number of bilingual URL pairs
+that a key (i.e., a URL pairing pattern) can
+match as the objective function to search
+for the best set of keys yielding the greatest
+number of webpage pairs within targeted
+bilingual websites. Enhanced algorithms
+are proposed to match more bilingual web-
+pages following the credibility based on
+statistical analysis of the link relationship
+of the seed websites available. With about
+12,800 seed websites as test set, the en-
+hanced algorithms improve precision over
+baseline by more than 5%, from 94.06%
+to 99.40%, and hence find above 20%
+more true bilingual URL pairs, illustrating
+that significantly more bilingual webpages
+with high credibility can be mined with the
+help of the link analysis.
+1 

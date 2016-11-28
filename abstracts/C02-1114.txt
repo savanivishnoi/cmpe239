@@ -1,0 +1,16 @@
+
+This paper presents an unsupervised method for
+assembling semantic knowledge from a part-of-
+speech tagged corpus using graph algorithms.
+The graph model is built by linking pairs of
+words which participate in particular syntactic
+relationships. We focus on the symmetric rela-
+tionship between pairs of nouns which occur to-
+gether in lists. An incremental cluster-building
+algorithm using this part of the graph achieves
+82% accuracy at a lexical acquisition task, eval-
+uated against WordNet classes. The model nat-
+urally realises domain and corpus specific am-
+biguities as distinct components in the graph
+surrounding an ambiguous word.
+1 

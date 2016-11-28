@@ -1,0 +1,16 @@
+
+This  paper  reports  on  a  simple  system  for 
+resolving the scope of negation in the closed 
+track of  the *SEM 2012 Shared Task.   Cue 
+detection  is  performed  using  regular 
+expression  rules  extracted  from  the  training 
+data.  Both  scope  tokens  and  negated  event 
+tokens  are  resolved  using  a  Conditional 
+Random  Field  (CRF)  sequence  tagger  ? 
+namely  the  SimpleTagger  library  in  the 
+MALLET machine learning toolkit.  The full 
+negation  F1 score  obtained  for  the  task 
+evaluation is 48.09% (P=74.02%, R=35.61%) 
+which ranks this system fourth among the six 
+submitted for the closed track.
+1 

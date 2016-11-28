@@ -1,0 +1,16 @@
+ 
+The goal of the on-going project de-
+scribed in this paper is evaluation of the 
+utility of Latent Semantic Analysis (LSA) 
+for unsupervised word sense discrimina-
+tion. The hypothesis is that LSA can be 
+used to compute context vectors for am-
+biguous words that can be clustered to-
+gether ? with each cluster corresponding 
+to a different sense of the word. In this 
+paper we report first experimental result 
+on tightness, separation and purity of 
+sense-based clusters as a function of vec-
+tor space dimensionality and using differ-
+ent distance metrics. 
+1 

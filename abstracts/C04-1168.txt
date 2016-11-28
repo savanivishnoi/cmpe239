@@ -1,0 +1,20 @@
+
+Based upon a statistically trained speech
+translation system, in this study, we try
+to combine distinctive features derived from
+the two modules: speech recognition and
+statistical machine translation, in a log-
+linear model. The translation hypotheses
+are then rescored and translation perfor-
+mance is improved. The standard trans-
+lation evaluation metrics, including BLEU,
+NIST, multiple reference word error rate
+and its position independent counterpart,
+were optimized to solve the weights of the
+features in the log-linear model. The exper-
+imental results have shown significant im-
+provement over the baseline IBM model 4
+in all automatic translation evaluation met-
+rics. The largest was for BLEU, by 7.9%
+absolute.
+1 

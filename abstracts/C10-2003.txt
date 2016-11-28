@@ -1,0 +1,27 @@
+
+Machine-learned ranking techniques au-
+tomatically learn a complex document
+ranking function given training data.
+These techniques have demonstrated the
+effectiveness and flexibility required of a
+commercial web search. However, man-
+ually labeled training data (with multiple
+absolute grades) has become the bottle-
+neck for training a quality ranking func-
+tion, particularly for a new domain. In
+this paper, we explore the adaptation of
+machine-learned ranking models across
+a set of geographically diverse markets
+with the market-specific pairwise prefer-
+ence data, which can be easily obtained
+from clickthrough logs. We propose
+a novel adaptation algorithm, Pairwise-
+Trada, which is able to adapt ranking
+models that are trained with multi-grade
+labeled training data to the target mar-
+ket using the target-market-specific pair-
+wise preference data. We present results
+demonstrating the efficacy of our tech-
+nique on a set of commercial search en-
+gine data.
+1 

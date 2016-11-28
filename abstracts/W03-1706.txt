@@ -1,0 +1,18 @@
+ 
+ 
+The length of a constituent (number of 
+syllables in a word or number of words in a 
+phrase), or rhythm, plays an important role 
+in Chinese syntax. This paper systematically 
+surveys the distribution of rhythm in 
+constructions in Chinese from the statistical 
+data acquired from a shallow tree bank. 
+Based on our survey, we then used the 
+rhythm feature in a practical shallow parsing 
+task by using rhythm as a statistical feature 
+to augment a PCFG model. Our results show 
+that using the probabilistic rhythm feature 
+significantly improves the performance of 
+our shallow parser. 
+ 
+1 

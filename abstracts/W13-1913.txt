@@ -1,0 +1,33 @@
+
+MEDLINE/PubMed contains structured
+abstracts that can provide argumentative
+labels. Selection of abstract sentences
+based on the argumentative label has
+shown to improve the performance of in-
+formation retrieval tasks. These abstracts
+make up less than one quarter of all the
+abstracts in MEDLINE/PubMed, so it is
+worthwhile to learn how to automatically
+label the non-structured ones.
+We have compared several machine learn-
+ing algorithms trained on structured ab-
+stracts to identify argumentative labels.
+We have performed an intrinsic evalua-
+tion on predicting argumentative labels for
+non-structured abstracts and an extrinsic
+evaluation to predict argumentative labels
+on abstracts relevant to Gene Reference
+Into Function (GeneRIF) indexing.
+Intrinsic evaluation shows that argumen-
+tative labels can be assigned effectively
+to structured abstracts. Algorithms that
+model the argumentative structure seem
+to perform better than other algorithms.
+Extrinsic results show that assigning ar-
+gumentative labels to non-structured ab-
+stracts improves the performance on
+GeneRIF indexing. On the other hand, the
+algorithms that model the argumentative
+structure of the abstracts obtain lower per-
+formance in the extrinsic evaluation.
+1 

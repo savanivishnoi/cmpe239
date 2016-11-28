@@ -1,0 +1,20 @@
+
+Given the increasing amount of conversa-
+tion data, techniques to automatically ac-
+quire information about conversation par-
+ticipants have become more important.
+Towards this goal, we investigate the prob-
+lem of conversation entailment, a task
+that determines whether a given conversa-
+tion discourse entails a hypothesis about
+the participants. This paper describes
+the challenges related to conversation en-
+tailment based on our collected data and
+presents a probabilistic framework that in-
+corporates conversation context in entail-
+ment prediction. Our preliminary exper-
+imental results have shown that conver-
+sation context, in particular dialogue act,
+plays an important role in conversation en-
+tailment.
+1 

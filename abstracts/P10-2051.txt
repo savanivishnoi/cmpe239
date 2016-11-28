@@ -1,0 +1,26 @@
+
+This paper presents a joint optimization
+method of a two-step conditional random
+field (CRF) model for machine transliter-
+ation and a fast decoding algorithm for
+the proposed method. Our method lies in
+the category of direct orthographical map-
+ping (DOM) between two languages with-
+out using any intermediate phonemic map-
+ping. In the two-step CRF model, the first
+CRF segments an input word into chunks
+and the second one converts each chunk
+into one unit in the target language. In this
+paper, we propose a method to jointly op-
+timize the two-step CRFs and also a fast
+algorithm to realize it. Our experiments
+show that the proposed method outper-
+forms the well-known joint source channel
+model (JSCM) and our proposed fast al-
+gorithm decreases the decoding time sig-
+nificantly. Furthermore, combination of
+the proposed method and the JSCM gives
+further improvement, which outperforms
+state-of-the-art results in terms of top-1 ac-
+curacy.
+1 

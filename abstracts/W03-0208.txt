@@ -1,0 +1,28 @@
+
+Latent semantic analysis (LSA) has been used
+in several intelligent tutoring systems(ITS?s)
+for assessing students? learning by evaluat-
+ing their answers to questions in the tutoring
+domain. It is based on word-document co-
+occurrence statistics in the training corpus and
+a dimensionality reduction technique. How-
+ever, it doesn?t consider the word-order or
+syntactic information, which can improve the
+knowledge representation and therefore lead to
+better performance of an ITS. We present here
+an approach called Syntactically Enhanced
+LSA (SELSA) which generalizes LSA by con-
+sidering a word along with its syntactic neigh-
+borhood given by the part-of-speech tag of its
+preceding word, as a unit of knowledge repre-
+sentation. The experimental results on Auto-
+Tutor task to evaluate students? answers to ba-
+sic computer science questions by SELSA and
+its comparison with LSA are presented in terms
+of several cognitive measures. SELSA is able
+to correctly evaluate a few more answers than
+LSA but is having less correlation with human
+evaluators than LSA has. It also provides bet-
+ter discrimination of syntactic-semantic knowl-
+edge representation than LSA.
+1 

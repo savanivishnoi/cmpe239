@@ -1,0 +1,25 @@
+
+This paper demonstrates a new method for
+leveraging free-text annotations to infer se-
+mantic properties of documents. Free-text an-
+notations are becoming increasingly abundant,
+due to the recent dramatic growth in semi-
+structured, user-generated online content. An
+example of such content is product reviews,
+which are often annotated by their authors
+with pros/cons keyphrases such as ?a real bar-
+gain? or ?good value.? To exploit such noisy
+annotations, we simultaneously find a hid-
+den paraphrase structure of the keyphrases, a
+model of the document texts, and the underly-
+ing semantic properties that link the two. This
+allows us to predict properties of unannotated
+documents. Our approach is implemented as
+a hierarchical Bayesian model with joint in-
+ference, which increases the robustness of the
+keyphrase clustering and encourages the doc-
+ument model to correlate with semantically
+meaningful properties. We perform several
+evaluations of our model, and find that it sub-
+stantially outperforms alternative approaches.
+1 

@@ -1,0 +1,36 @@
+ 
+This paper presents a morphological lexicon for English 
+that handle more than 317000 inflected forms derived 
+from over 90000 stems. The lexicon is available in two 
+formats. The first can be used by an implementation f 
+a two-level processor for morphological nalysis (Kart- 
+tunen and Wittenhurg, 1983; Antworth, 1990). The 
+second, derived from the first one for efficiency rea- 
+sons, consists of a disk-based atabase using a UNIX 
+hash table facility (Seltzer and Yigit, 1991). We also 
+built an X Window tool to facilitate the maintenance 
+and browsing of the lexicon. The package is ready to 
+be integrated into an natural anguage application such 
+as a parser through hooks written in Lisp and C. 
+To our knowledge, this package is the only available 
+free English morphological nalyzer with very wide cov- 
+erage. 
+attributes. To improve performance, we used PC- 
+KIMMO as a generator on our lexicons to build a disk- 
+based hashed database with a UNIX database facility 
+(Seltzer and Yigit, 1991). Both formats, PC-KIMMO 
+and database, are now available for distribution. We 
+also provide an X Window tool for the database to fa- 
+cilitate maintenance and access. Each format contains 
+the morphological information for over 317000 English 
+words. The morphological database for English runs 
+under UNIX; PC-KIMMO runs under UNIX and on a 
+PC. 
+This package can be easily embedded into a natural 
+language parser; hooks for accessing the morphological 
+database from a parser are provided for both Lucid 
+Common Lisp and C. This morphological database is 
+currently being used in a graphical workbench (XTAG) 
+for the development of tree-adjoining rammars and 
+their parsers (Paroubek et al, 1992). 
+1 

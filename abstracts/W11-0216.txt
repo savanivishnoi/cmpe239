@@ -1,0 +1,18 @@
+
+Kernel methods are considered the most ef-
+fective techniques for various relation extrac-
+tion (RE) tasks as they provide higher accu-
+racy than other approaches. In this paper,
+we introduce new dependency tree (DT) ker-
+nels for RE by improving on previously pro-
+posed dependency tree structures. These are
+further enhanced to design more effective ap-
+proaches that we call mildly extended depen-
+dency tree (MEDT) kernels. The empirical re-
+sults on the protein-protein interaction (PPI)
+extraction task on the AIMed corpus show that
+tree kernels based on our proposed DT struc-
+tures achieve higher accuracy than previously
+proposed DT and phrase structure tree (PST)
+kernels.
+1 

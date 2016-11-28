@@ -1,0 +1,15 @@
+
+In this paper we describe an unsuper-
+vised WordNet-based Word Sense Disam-
+biguation system, which participated (as
+UMND1) in the SemEval-2007 Coarse-
+grained English Lexical Sample task. The
+system disambiguates a target word by using
+WordNet-based measures of semantic relat-
+edness to find the sense of the word that
+is semantically most strongly related to the
+senses of the words in the context of the tar-
+get word. We briefly describe this system,
+the configuration options used for the task,
+and present some analysis of the results.
+1 

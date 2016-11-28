@@ -1,0 +1,19 @@
+ 
+Semantic Role Labeling (SRL) as a 
+Shallow Semantic Parsing causes more 
+and more attention recently. The shortage 
+of manually tagged data is one of main 
+obstacles to supervised learning, which is 
+even serious in SRL. Transductive SVM 
+(TSVM) is a novel semi-supervised learn-
+ing method special to small mount of 
+tagged data. In this paper, we introduce an 
+application of TSVM in Chinese SRL. To 
+improve the performance of TSVM, some 
+heuristics have been designed from the 
+semantic perspective. The experiment re-
+sults on Chinese Propbank showed that 
+TSVM outperforms SVM in small tagged 
+data, and after using heuristics, it performs 
+further better. 
+1 

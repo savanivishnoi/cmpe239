@@ -1,0 +1,27 @@
+
+A wide range of parser and/or grammar
+evaluation methods have been reported
+in the literature. However, in most cases
+these evaluations take the parsers in-
+dependently (intrinsic evaluations), and
+only in a few cases has the effect
+of different parsers in real applications
+been measured (extrinsic evaluations).
+This paper compares two evaluations
+of the Link Grammar parser and the
+Conexor Functional Dependency Gram-
+mar parser. The parsing systems, de-
+spite both being dependency-based, re-
+turn different types of dependencies,
+making a direct comparison impossi-
+ble. In the intrinsic evaluation, the accu-
+racy of the parsers is compared indepen-
+dently by converting the dependencies
+into grammatical relations and using the
+methodology of Carroll et al (1998) for
+parser comparison. In the extrinsic eval-
+uation, the parsers? impact in a practi-
+cal application is compared within the
+context of answer extraction. The dif-
+ferences in the results are significant.
+1 

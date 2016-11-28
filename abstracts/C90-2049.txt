@@ -1,0 +1,21 @@
+ 
+To resolve structural ambiguities in syntactic analysis of 
+natural anguage, which are caused by prepositional phrase 
+attachment, relative clause attachment, and so on, we de- 
+veloped an experimental system called tile Dependency An- 
+al!lzcr. The system uses instances of dependency structures 
+extracted froth a terminology dictionary as a knowledge 
+ba.~e. Structural (attachment) ambiguity is represented 
+by showing that a word has several words as c;tndidate 
+modiliees. Tim system resolves uch ambiguity as follows. 
+First, it searches the knowledge base for modification re- 
+lationships (dependencies) between the word and each of 
+its possible modifiees, then assigns an order of preference 
+to these relationships, and finally seieets the most prefer- 
+able deper.dency. The knowledge base can be constructed 
+semi-automatically, since the source of knowledge xists in 
+the form of texts, and these sentences can be analyzed by 
+the parser and transformed into dependency structures by 
+the system. We are realizing knowledge bootstrapping by 
+adding the outputs of the system to its knowledge base. 
+1 

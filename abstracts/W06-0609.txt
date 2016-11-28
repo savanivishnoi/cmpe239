@@ -1,0 +1,20 @@
+ 
+The PropBank primarily adds semantic 
+role labels to the syntactic constituents in 
+the parsed trees of the Treebank. The 
+goal is for automatic semantic role label-
+ing to be able to use the domain of local-
+ity of a predicate in order to find its ar-
+guments. In principle, this is exactly what 
+is wanted, but in practice the PropBank 
+annotators often make choices that do not 
+actually conform to the Treebank parses. 
+As a result, the syntactic features ex-
+tracted by automatic semantic role label-
+ing systems are often inconsistent and 
+contradictory. This paper discusses in de-
+tail the types of mismatches between the 
+syntactic bracketing and the semantic 
+role labeling that can be found, and our 
+plans for reconciling them. 
+1 

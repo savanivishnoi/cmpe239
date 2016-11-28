@@ -1,0 +1,21 @@
+
+We develop a model of preposition definitions
+in a machine-readable dictionary using the
+theory of labeled directed graphs and analyze
+the resulting digraphs to determine a primitive
+set of preposition senses. We characterize
+these primitives and show how they can be
+used to develop an inheritance hierarchy for
+prepositions, representing the definitions by a
+type and slots for its arguments. By analyzing
+the definitions, we develop criteria for
+disambiguating among the highly polysemous
+primitives. We show how these criteria can be
+used in developing the inheritance hierarchy
+and how they may be used in assigning theta
+roles to the objects of transitive verbs. Finally,
+we describe the use of the disambiguation
+criteria to parse and represent the meaning of
+the prepositions as used in encyclopedia
+articles.
+1??????????????

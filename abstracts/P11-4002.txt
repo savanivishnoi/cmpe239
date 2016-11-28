@@ -1,0 +1,23 @@
+
+We describe a novel application for structured
+search in scientific digital libraries. The ACL
+Anthology Searchbench is meant to become a
+publicly available research tool to query the
+content of the ACL Anthology. The applica-
+tion provides search in both its bibliographic
+metadata and semantically analyzed full tex-
+tual content. By combining these two features,
+very efficient and focused queries are possi-
+ble. At the same time, the application serves
+as a showcase for the recent progress in nat-
+ural language processing (NLP) research and
+language technology. The system currently
+indexes the textual content of 7,500 anthol-
+ogy papers from 2002?2009 with predicate-
+argument-like semantic structures. It also
+provides useful search filters based on bib-
+liographic metadata. It will be extended to
+provide the full anthology content and en-
+hanced functionality based on further NLP
+techniques.
+1 

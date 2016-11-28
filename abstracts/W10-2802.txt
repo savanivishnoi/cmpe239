@@ -1,0 +1,27 @@
+
+This work focuses on the empirical inves-
+tigation of distributional models for the
+automatic acquisition of frame inspired
+predicate words. While several seman-
+tic spaces, both word-based and syntax-
+based, are employed, the impact of ge-
+ometric representation based on dimen-
+sionality reduction techniques is inves-
+tigated. Data statistics are accordingly
+studied along two orthogonal perspectives:
+Latent Semantic Analysis exploits global
+properties while Locality Preserving Pro-
+jection emphasizes the role of local reg-
+ularities. This latter is employed by em-
+bedding prior FrameNet-derived knowl-
+edge in the corresponding non-euclidean
+transformation. The empirical investiga-
+tion here reported sheds some light on the
+role played by these spaces as complex
+kernels for supervised (i.e. Support Vector
+Machine) algorithms: their use configures,
+as a novel way to semi-supervised lexical
+learning, a highly appealing research di-
+rection for knowledge rich scenarios like
+FrameNet-based semantic parsing.
+1 

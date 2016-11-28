@@ -1,0 +1,22 @@
+
+We present the first full-scale event extrac-
+tion experiment covering the titles and ab-
+stracts of all PubMed citations. Extraction
+is performed using a pipeline composed
+of state-of-the-art methods: the BANNER
+named entity recognizer, the McClosky-
+Charniak domain-adapted parser, and the
+Turku Event Extraction System. We an-
+alyze the statistical properties of the re-
+sulting dataset and present evaluations of
+the core event extraction as well as nega-
+tion and speculation detection components
+of the system. Further, we study in de-
+tail the set of extracted events relevant
+to the apoptosis pathway to gain insight
+into the biological relevance of the result.
+The dataset, consisting of 19.2 million oc-
+currences of 4.5 million unique events,
+is freely available for use in research at
+http://bionlp.utu.fi/.
+1 

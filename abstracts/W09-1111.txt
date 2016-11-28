@@ -1,0 +1,18 @@
+
+In this paper we address the problem of
+identifying reciprocal relationships in English.
+In particular we introduce an algorithm that
+semi-automatically discovers patterns encod-
+ing reciprocity based on a set of simple but
+effective pronoun templates. Using a set of
+most frequently occurring patterns, we extract
+pairs of reciprocal pattern instances by search-
+ing the web. Then we apply two unsuper-
+vised clustering procedures to form meaning-
+ful clusters of such reciprocal instances. The
+pattern discovery procedure yields an accu-
+racy of 97%, while the clustering procedures
+indicate accuracies of 91% and 82%. More-
+over, the resulting set of 10,882 reciprocal in-
+stances represent a broad-coverage resource.
+1 

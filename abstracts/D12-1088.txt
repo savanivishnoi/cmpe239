@@ -1,0 +1,26 @@
+
+Phrase-based machine translation models
+have shown to yield better translations than
+Word-based models, since phrase pairs en-
+code the contextual information that is needed
+for a more accurate translation. However,
+many phrase pairs do not encode any rele-
+vant context, which means that the transla-
+tion event encoded in that phrase pair is led
+by smaller translation events that are indepen-
+dent from each other, and can be found on
+smaller phrase pairs, with little or no loss in
+translation accuracy. In this work, we pro-
+pose a relative entropy model for translation
+models, that measures how likely a phrase pair
+encodes a translation event that is derivable
+using smaller translation events with similar
+probabilities. This model is then applied to
+phrase table pruning. Tests show that con-
+siderable amounts of phrase pairs can be ex-
+cluded, without much impact on the transla-
+tion quality. In fact, we show that better trans-
+lations can be obtained using our pruned mod-
+els, due to the compression of the search space
+during decoding.
+1 

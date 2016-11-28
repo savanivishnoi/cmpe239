@@ -1,0 +1,12 @@
+
+Semantic change has mostly been studied by historical linguists and typically at the scale of centuries.
+Here we study semantic change at a finer-grained level, the decade, making use of recent newspaper cor-
+pora. We detect semantic change candidates by observing context shifts which can be triggered by topic
+salience or may be independent from it. To discriminate these phenomena with accuracy, we combine
+variation filters with a series of indices which enable building a coherent and flexible semantic change
+detection model. The indices include widely adaptable tools such as frequency counts, co-occurrence
+patterns and networks, ranks, as well as model-specific items such as a variability and cohesion mea-
+sure and graphical representations. The research uses ACOM, a co-occurrence based geometrical model,
+which is an extension of the Semantic Atlas. Compared to other models of semantic representation, it
+allows for extremely detailed analysis and provides insight as to how connotational drift processes unfold.
+1 

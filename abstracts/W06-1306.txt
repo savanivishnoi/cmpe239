@@ -1,0 +1,28 @@
+
+In this paper we present an approach to
+dialogue management that supports the
+generation of multifunctional utterances.
+It is based on the multidimensional dia-
+logue act taxonomy and associated con-
+text model as developed in Dynamic Inter-
+pretation Theory (DIT). The multidimen-
+sional organisation of the taxonomy re-
+flects that there are various aspects that di-
+alogue participants have to deal with si-
+multaneously during a dialogue. Besides
+performing some underlying task, a par-
+ticipant also has to pay attention to vari-
+ous aspects of the communication process
+itself, including social conventions.
+Therefore, a multi-agent approach is pro-
+posed, in which for each of the dimensions
+in the taxonomy a specialised dialogue act
+agent is designed, dedicated to the gener-
+ation of dialogue acts from that particular
+dimension. These dialogue act agents op-
+erate in parallel on the information state of
+the system. For a simplified version of the
+taxonomy, a dialogue manager has been
+implemented and integrated into an inter-
+active QA system.
+1 

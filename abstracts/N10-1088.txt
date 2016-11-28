@@ -1,0 +1,20 @@
+
+Like most natural language disambiguation
+tasks, word sense disambiguation (WSD) re-
+quires world knowledge for accurate predic-
+tions. Several proxies for this knowledge
+have been investigated, including labeled cor-
+pora, user-contributed knowledge, and ma-
+chine readable dictionaries, but each of these
+proxies requires significant manual effort to
+create, and they do not cover all of the ambigu-
+ous terms in a language. We investigate the
+task of automatically extracting world knowl-
+edge, in the form of glosses, from an unlabeled
+corpus. We demonstrate how to use these
+glosses to automatically label a training cor-
+pus to build a statistical WSD system that uses
+no manually-labeled data, with experimental
+results approaching that of a supervised SVM-
+based classifier.
+1 

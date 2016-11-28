@@ -1,0 +1,19 @@
+
+Current work on automatic opinion min-
+ing has ignored opinion targets expressed
+by anaphorical pronouns, thereby missing
+a significant number of opinion targets. In
+this paper we empirically evaluate whether
+using an off-the-shelf anaphora resolution
+algorithm can improve the performance of
+a baseline opinion mining system. We
+present an analysis based on two different
+anaphora resolution systems. Our exper-
+iments on a movie review corpus demon-
+strate, that an unsupervised anaphora reso-
+lution algorithm significantly improves the
+opinion target extraction. We furthermore
+suggest domain and task specific exten-
+sions to an off-the-shelf algorithm which
+in turn yield significant improvements.
+1 

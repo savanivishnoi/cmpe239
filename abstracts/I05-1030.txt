@@ -1,0 +1,10 @@
+. When acquiring synonyms from large corpora, it is important to deal
+not only with such surface information as the context of the words but also their
+latent semantics. This paper describes how to utilize a latent semantic model PLSI
+to acquire synonyms automatically from large corpora. PLSI has been shown
+to achieve a better performance than conventional methods such as tf?idf and
+LSI, making it applicable to automatic thesaurus construction. Also, various PLSI
+techniques have been shown to be effective including: (1) use of Skew Divergence
+as a distance/similarity measure; (2) removal of words with low frequencies, and
+(3) multiple executions of PLSI and integration of the results.
+1 

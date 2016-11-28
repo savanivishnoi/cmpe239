@@ -1,0 +1,21 @@
+
+A hybrid convolution tree kernel is pro-
+posed in this paper to effectively model
+syntactic structures for semantic role la-
+beling (SRL). The hybrid kernel consists
+of two individual convolution kernels: a
+Path kernel, which captures predicate-
+argument link features, and a Constituent
+Structure kernel, which captures the syn-
+tactic structure features of arguments.
+Evaluation on the datasets of CoNLL-
+2005 SRL shared task shows that the
+novel hybrid convolution tree kernel out-
+performs the previous tree kernels. We
+also combine our new hybrid tree ker-
+nel based method with the standard rich
+flat feature based method. The experi-
+mental results show that the combinational
+method can get better performance than
+each of them individually.
+1 

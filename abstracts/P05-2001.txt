@@ -1,0 +1,18 @@
+
+This paper describes a hybrid model that
+combines a rule-based model with two
+statistical models for the task of POS
+guessing of Chinese unknown words. The
+rule-based model is sensitive to the type,
+length, and internal structure of unknown
+words, and the two statistical models uti-
+lize contextual information and the like-
+lihood for a character to appear in a par-
+ticular position of words of a particular
+length and POS category. By combining
+models that use different sources of infor-
+mation, the hybrid model achieves a pre-
+cision of 89%, a significant improvement
+over the best result reported in previous
+studies, which was 69%.
+1 

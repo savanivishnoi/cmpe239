@@ -1,0 +1,35 @@
+
+Fluent dialogue requires that speak-
+ers successfully negotiate and signal
+turn-taking. While many cues to turn
+change have been proposed, especially
+in multi-modal frameworks, here we fo-
+cus on the use of prosodic cues to these
+functions. In particular, we consider
+the use of prosodic cues in a tone lan-
+guage, Mandarin Chinese, where varia-
+tions in pitch height and slope addition-
+ally serve to determine word meaning.
+Within a corpus of spontaneous Chi-
+nese dialogues, we find that turn-unit fi-
+nal syllables are significantly lower in
+average pitch and intensity than turn-
+unit initial syllables in both smooth
+turn changes and segments ended by
+speaker overlap. Interruptions are char-
+acterized by significant prosodic dif-
+ferences from smooth turn initiations.
+Furthermore, we demonstrate that these
+contrasts correspond to an overall low-
+ering across all tones in final posi-
+tion, which largely preserves the rela-
+tive heights of the lexical tones. In clas-
+sification tasks, we contrast the use of
+text and prosodic features. Finally, we
+demonstrate that, on balanced training
+and test sets, we can distinguish turn-
+unit final words from other words at
+? 93% accuracy and interruptions from
+smooth turn unit initiations at 62% ac-
+curacy.
+1 

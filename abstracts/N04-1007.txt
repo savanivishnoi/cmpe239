@@ -1,0 +1,15 @@
+
+Definition questions represent a largely unex-
+plored area of question answering?they are
+different from factoid questions in that the
+goal is to return as many relevant ?nuggets?
+of information about a concept as possible.
+We describe a multi-strategy approach to an-
+swering such questions using a database con-
+structed offline with surface patterns, a Web-
+based dictionary, and an off-the-shelf docu-
+ment retriever. Results are presented from
+component-level evaluation and from an end-
+to-end evaluation of our implemented system
+at the TREC 2003 Question Answering Track.
+1 

@@ -1,0 +1,23 @@
+ 
+This paper presents an algorithm for selecting an 
+appropriate classifier word for a noun. In Thai 
+language, it frequently happens that there is fluctuation 
+in the choice of classifier for a given concrete noun, 
+both from the point of view of the whole speech 
+community and individual speakers. Basically, there is 
+no exact rule for classifier selection. As far as we can 
+do in the rule~based approach is to give a default rule 
+to pick up a corresponding classifier of each noun. 
+Registration of classifier for each noun is limited to the 
+type of unit classifier because other types ,are open due 
+to the meaning of representation. We propose a 
+corpus-based method (Biber,1993; Nagao,1993; 
+Smadja,1993) which generates Noun Classifier 
+Associations (NCA) to overcome the problems in 
+classifier assignment and semantic construction of 
+noun phrase. The NCA is created statistically from a 
+large corpus and recomposed under concept hierarchy 
+constraints and frequency of occurrences. 
+Keywords: Thai language, classifier, corpus-based 
+method, Noun Classifier Associations (NCA) 
+1. 

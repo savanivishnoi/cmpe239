@@ -1,0 +1,17 @@
+
+Coreference resolution is a well known clus-
+tering task in Natural Language Processing. In
+this paper, we describe the Latent Left Linking
+model (L3M), a novel, principled, and linguis-
+tically motivated latent structured prediction
+approach to coreference resolution. We show
+that L3M admits efficient inference and can be
+augmented with knowledge-based constraints;
+we also present a fast stochastic gradient based
+learning. Experiments on ACE and Ontonotes
+data show that L3M and its constrained ver-
+sion, CL3M, are more accurate than several
+state-of-the-art approaches as well as some
+structured prediction models proposed in the
+literature.
+1 

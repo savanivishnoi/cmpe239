@@ -1,0 +1,16 @@
+. Machine transliteration is an automatic method to generate characters 
+or words in one alphabetical system for the corresponding characters in another 
+alphabetical system. There has been increasing concern on machine translitera-
+tion as an assistant of machine translation and information retrieval. Three ma-
+chine transliteration models, including ?grapheme-based model?, ?phoneme-
+based model?, and ?hybrid model?, have been proposed. However, there are 
+few works trying to make use of correspondence between source grapheme and 
+phoneme, although the correspondence plays an important role in machine 
+transliteration. Furthermore there are few works, which dynamically handle 
+source grapheme and phoneme. In this paper, we propose a new transliteration 
+model based on an ensemble of grapheme and phoneme. Our model makes use 
+of the correspondence and dynamically uses source grapheme and phoneme. 
+Our method shows better performance than the previous works about 15~23% 
+in English-to-Korean transliteration and about 15~43% in English-to-Japanese 
+transliteration. 
+1   

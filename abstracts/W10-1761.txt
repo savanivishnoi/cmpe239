@@ -1,0 +1,14 @@
+
+We present a new translation model
+that include undecorated hierarchical-style
+phrase rules, decorated source-syntax
+rules, and partially decorated rules.
+Results show an increase in translation
+performance of up to 0.8% BLEU for
+German?English translation when trained
+on the news-commentary corpus, using
+syntactic annotation from a source lan-
+guage parser. We also experimented with
+annotation from shallow taggers and found
+this increased performance by 0.5% BLEU.
+1 

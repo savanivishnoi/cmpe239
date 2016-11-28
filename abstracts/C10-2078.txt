@@ -1,0 +1,19 @@
+
+We investigate the effectiveness of differ-
+ent linguistic cues for distinguishing lit-
+eral and non-literal usages of potentially
+idiomatic expressions. We focus specif-
+ically on features that generalize across
+different target expressions. While id-
+ioms on the whole are frequent, instances
+of each particular expression can be rela-
+tively infrequent and it will often not be
+feasible to extract and annotate a suffi-
+cient number of examples for each expres-
+sion one might want to disambiguate. We
+experimented with a number of different
+features and found that features encoding
+lexical cohesion as well as some syntac-
+tic features can generalize well across id-
+ioms.
+1 

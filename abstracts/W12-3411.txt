@@ -1,0 +1,33 @@
+
+Korean is a morphologically rich language in
+which grammatical functions are marked by
+inflections and affixes, and they can indicate
+grammatical relations such as subject, object,
+predicate, etc. A Korean sentence could be
+thought as a sequence of eojeols. An eo-
+jeol is a word or its variant word form ag-
+glutinated with grammatical affixes, and eo-
+jeols are separated by white space as in En-
+glish written texts. Korean treebanks (Choi
+et al, 1994; Han et al, 2002; Korean Lan-
+guage Institute, 2012) use eojeol as their fun-
+damental unit of analysis, thus representing
+an eojeol as a prepreterminal phrase inside
+the constituent tree. This eojeol-based an-
+notating schema introduces various complex-
+ity to train the parser, for example an en-
+tity represented by a sequence of nouns will
+be annotated as two or more different noun
+phrases, depending on the number of spaces
+used. In this paper, we propose methods to
+transform eojeol-based Korean treebanks into
+entity-based Korean treebanks. The methods
+are applied to Sejong treebank, which is the
+largest constituent treebank in Korean, and the
+transformed treebank is used to train and test
+various probabilistic CFG parsers. The experi-
+mental result shows that the proposed transfor-
+mation methods reduce ambiguity in the train-
+ing corpus, increasing the overall F1 score up
+to about 9 %.
+1 

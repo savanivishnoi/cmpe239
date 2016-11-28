@@ -1,0 +1,17 @@
+
+This paper presents our preliminary work on
+adaptation of parsing technology toward natu-
+ral language query processing for biomedical
+domain. We built a small treebank of natu-
+ral language queries, and tested a state-of-the-
+art parser, the results of which revealed that
+a parser trained on Wall-Street-Journal arti-
+cles and Medline abstracts did not work well
+on query sentences. We then experimented
+an adaptive learning technique, to seek the
+chance to improve the parsing performance on
+query sentences. Despite the small scale of the
+experiments, the results are encouraging, en-
+lightening the direction for effective improve-
+ment.
+1 

@@ -1,0 +1,12 @@
+
+In this paper we describe our machine learning
+approach to the generation of referring expres-
+sions. As our algorithm we use memory-based
+learning. Our results show that in case of pre-
+dicting the TYPE of the expression, having one
+general classifier gives the best results. On the
+contrary, when predicting the full set of prop-
+erties of an expression, a combined set of spe-
+cialized classifiers for each subdomain gives
+the best performance.
+1 

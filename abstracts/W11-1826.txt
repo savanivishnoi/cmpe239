@@ -1,0 +1,28 @@
+
+We participated in the BioNLP Shared Task 2011,
+addressing the GENIA event extraction (GE) and
+the Epigenetics and Post-translational Modifica-
+tions (EPI) tasks. A graph-based approach is
+employed to automatically learn rules for detect-
+ing biological events in the life-science literature.
+The event rules are learned by identifying the
+key contextual dependencies from full syntactic
+parsing of annotated text. Event recognition is
+performed by searching for an isomorphism be-
+tween event rules and the dependency graphs of
+sentences in the input texts. While we explored
+methods such as performance-based rule rank-
+ing to improve precision, we merged rules across
+multiple event types in order to increase recall.
+We achieved a 41.13% F-score in detecting events
+of nine types in the Task 1 of the GE task, and a
+52.67% F-score in identifying events across fif-
+teen types in the core task of the EPI task. Our
+performance on both tasks is comparable to the
+state-of-the-art systems. Our approach does not
+require any external domain-specific resources.
+The consistent performance on the two tasks sup-
+ports the claim that the method generalizes well
+to extract events from different domains where
+training data is available.
+1 

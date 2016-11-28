@@ -1,0 +1,19 @@
+
+This paper presents a data-driven model
+of eye movement control in reading that
+builds on earlier work using machine
+learning methods to model saccade behav-
+ior. We extend previous work by model-
+ing the time course of eye movements, in
+addition to where the eyes move. In this
+model, the initiation of eye movements is
+delayed as a function of on-line process-
+ing difficulty, and the decision of where to
+move the eyes is guided by past reading
+experience, approximated using machine
+learning methods. In benchmarking the
+model against held-out previously unseen
+data, we show that it can predict gaze dura-
+tions and skipping probabilities with good
+accuracy.
+1 

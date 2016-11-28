@@ -1,0 +1,18 @@
+
+This paper describes our system to carry
+out the joint parsing of syntactic and se-
+mantic dependencies for our participation
+in the shared task of CoNLL-2008. We il-
+lustrate that both syntactic parsing and se-
+mantic parsing can be transformed into a
+word-pair classification problem and im-
+plemented as a single-stage system with
+the aid of maximum entropy modeling.
+Our system ranks the fourth in the closed
+track for the task with the following per-
+formance on the WSJ+Brown test set:
+81.44% labeled macro F1 for the overall
+task, 86.66% labeled attachment for syn-
+tactic dependencies, and 76.16% labeled
+F1 for semantic dependencies.
+1 

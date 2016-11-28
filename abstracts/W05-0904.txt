@@ -1,0 +1,15 @@
+
+Automatic evaluation of machine transla-
+tion, based on computing n-gram similar-
+ity between system output and human ref-
+erence translations, has revolutionized the
+development of MT systems. We explore
+the use of syntactic information, includ-
+ing constituent labels and head-modifier
+dependencies, in computing similarity be-
+tween output and reference. Our results
+show that adding syntactic information
+to the evaluation metric improves both
+sentence-level and corpus-level correla-
+tion with human judgments.
+1 

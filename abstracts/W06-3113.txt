@@ -1,0 +1,22 @@
+
+State of the art in statistical machine trans-
+lation is currently represented by phrase-
+based models, which typically incorpo-
+rate a large number of probabilities of
+phrase-pairs and word n-grams. In this
+work, we investigate data compression
+methods for efficiently encoding n-gram
+and phrase-pair probabilities, that are usu-
+ally encoded in 32-bit floating point num-
+bers. We measured the impact of com-
+pression on translation quality through a
+phrase-based decoder trained on two dis-
+tinct tasks: the translation of European
+Parliament speeches from Spanish to En-
+glish, and the translation of news agencies
+from Chinese to English. We show that
+with a very simple quantization scheme all
+probabilities can be encoded in just 4 bits
+with a relative loss in BLEU score on the
+two tasks by 1.0% and 1.6%, respectively.
+1 

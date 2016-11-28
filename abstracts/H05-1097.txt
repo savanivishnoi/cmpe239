@@ -1,0 +1,22 @@
+
+In word sense disambiguation, a system attempts to
+determine the sense of a word from contextual fea-
+tures. Major barriers to building a high-performing
+word sense disambiguation system include the dif-
+ficulty of labeling data for this task and of pre-
+dicting fine-grained sense distinctions. These is-
+sues stem partly from the fact that the task is be-
+ing treated in isolation from possible uses of au-
+tomatically disambiguated data. In this paper, we
+consider the related task of word translation, where
+we wish to determine the correct translation of a
+word from context. We can use parallel language
+corpora as a large supply of partially labeled data
+for this task. We present algorithms for solving the
+word translation problem and demonstrate a signif-
+icant improvement over a baseline system. We then
+show that the word-translation system can be used
+to improve performance on a simplified machine-
+translation task and can effectively and accurately
+prune the set of candidate translations for a word.
+1 

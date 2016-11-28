@@ -1,0 +1,21 @@
+
+This paper introduces dual decomposition as a
+framework for deriving inference algorithms
+for NLP problems. The approach relies on
+standard dynamic-programming algorithms as
+oracle solvers for sub-problems, together with
+a simple method for forcing agreement be-
+tween the different oracles. The approach
+provably solves a linear programming (LP) re-
+laxation of the global inference problem. It
+leads to algorithms that are simple, in that they
+use existing decoding algorithms; efficient, in
+that they avoid exact algorithms for the full
+model; and often exact, in that empirically
+they often recover the correct solution in spite
+of using an LP relaxation. We give experimen-
+tal results on two problems: 1) the combina-
+tion of two lexicalized parsing models; and
+2) the combination of a lexicalized parsing
+model and a trigram part-of-speech tagger.
+1 

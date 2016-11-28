@@ -1,0 +1,29 @@
+
+Vector-space word representations have
+been very successful in recent years at im-
+proving performance across a variety of
+NLP tasks. However, common to most
+existing work, words are regarded as in-
+dependent entities without any explicit re-
+lationship among morphologically related
+words being modeled. As a result, rare and
+complex words are often poorly estimated,
+and all unknown words are represented
+in a rather crude way using only one or
+a few vectors. This paper addresses this
+shortcoming by proposing a novel model
+that is capable of building representations
+for morphologically complex words from
+their morphemes. We combine recursive
+neural networks (RNNs), where each mor-
+pheme is a basic unit, with neural language
+models (NLMs) to consider contextual
+information in learning morphologically-
+aware word representations. Our learned
+models outperform existing word repre-
+sentations by a good margin on word sim-
+ilarity tasks across many datasets, includ-
+ing a new dataset we introduce focused on
+rare words to complement existing ones in
+an interesting way.
+1 

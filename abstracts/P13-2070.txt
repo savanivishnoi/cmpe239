@@ -1,0 +1,26 @@
+
+Machine Transliteration is an essential
+task for many NLP applications. Howev-
+er, names and loan words typically orig-
+inate from various languages, obey dif-
+ferent transliteration rules, and therefore
+may benefit from being modeled inde-
+pendently. Recently, transliteration mod-
+els based on Bayesian learning have over-
+come issues with over-fitting allowing for
+many-to-many alignment in the training of
+transliteration models. We propose a nov-
+el coupled Dirichlet process mixture mod-
+el (cDPMM) that simultaneously clusters
+and bilingually aligns transliteration data
+within a single unified model. The un-
+ified model decomposes into two class-
+es of non-parametric Bayesian component
+models: a Dirichlet process mixture mod-
+el for clustering, and a set of multino-
+mial Dirichlet process models that perf-
+orm bilingual alignment independently for
+each cluster. The experimental results
+show that our method considerably outper-
+forms conventional alignment models.
+1 

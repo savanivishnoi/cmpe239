@@ -1,0 +1,14 @@
+ 
+The MLWFA (Multilingual Weather Forecasts Assistant) system will be demonstrated. It is 
+developed to generate the multilingual text of the weather forecasts automatically. The raw data 
+from the weather observation can be used to generate the weather element chart. According to the 
+weather change trend, the forecasters can directly modify the value Of the element on the chart, 
+such as the center .point value, the isoline and the isocircle. After ?that, the modified data are 
+stored as the input for the system. The system can select a schema depending on the input or the 
+requirement from the users. The schema library can be conveniently maintained, such as the 
+schema modification or extension. Through optimizing and mapping the schema ?tree, the 
+microplanner constructs the brief and coherent internal text structure for the surface generator. 
+After the processing of the generator, the muitilingual ?weather forecasts used for the broadcast 
+program are generated. 
+Keywords:  Multilingual Generation, Weather Forecast Assistant. 
+. ,  1 

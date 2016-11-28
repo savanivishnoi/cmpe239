@@ -1,0 +1,23 @@
+ 
+This paper presents work on the task of con-
+structing an example base1 from a given bi-
+lingual corpus based on the annotation 
+schema of Translation Corresponding Tree 
+(TCT). Each TCT describes a translation ex-
+ample (a pair of bilingual sentences). It repre-
+sents the syntactic structure of source 
+language sentence, and more importantly is 
+the facility to specify the correspondences be-
+tween string (both the source and target sen-
+tences) and the representation tree. 
+Furthermore, syntax transformation clues are 
+also encapsulated at each node in the TCT 
+representation to capture the differentiation of 
+grammatical structure between the source and 
+target languages. With this annotation 
+schema, translation examples are effectively 
+represented and organized in the bilingual 
+knowledge database that we need for the Por-
+tuguese to Chinese machine translation sys-
+tem. 
+1 

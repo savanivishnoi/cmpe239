@@ -1,0 +1,26 @@
+
+Chinese word segmentation (CWS) is a
+necessary step in Chinese-English statisti-
+cal machine translation (SMT) and its per-
+formance has an impact on the results of
+SMT. However, there are many settings in-
+volved in creating a CWS system such as
+various specifications and CWS methods.
+This paper investigates the effect of these
+settings to SMT. We tested dictionary-
+based and CRF-based approaches and
+found there was no significant difference
+between the two in the qualty of the result-
+ing translations. We also found the corre-
+lation between the CWS F-score and SMT
+BLEU score was very weak. This paper
+also proposes two methods of combining
+advantages of different specifications: a
+simple concatenation of training data and
+a feature interpolation approach in which
+the same types of features of translation
+models from various CWS schemes are
+linearly interpolated. We found these ap-
+proaches were very effective in improving
+quality of translations.
+1 

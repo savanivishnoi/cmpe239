@@ -1,0 +1,19 @@
+
+In this paper, we described our Chinese
+word segmentation system for the 3rd
+SIGHAN Chinese Language Processing
+Bakeoff Word Segmentation Task. Our
+system deal with the Chinese character se-
+quence by using the Maximum Entropy
+model, which is fully automatically gen-
+erated from the training data by analyz-
+ing the character sequences from the train-
+ing corpus. We analyze its performance
+on both closed and open tracks on Mi-
+crosoft Research (MSRA) and University
+of Pennsylvania and University of Col-
+orado (UPUC) corpus. It is shown that we
+can get the results just acceptable without
+using dictionary. The conclusion is also
+presented.
+1 

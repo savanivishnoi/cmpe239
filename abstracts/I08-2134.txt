@@ -1,0 +1,25 @@
+
+This paper exploits unlabeled text data
+to improve new word identification and
+Chinese word segmentation performance.
+Our contributions are twofold. First,
+for new words that lack semantic trans-
+parency, such as person, location, or
+transliteration names, we calculate as-
+sociation metrics of adjacent character
+segments on unlabeled data and encode
+this information as features. Second, we
+construct an internal dictionary by using
+an initial model to extract words from
+both the unlabeled training and test set
+to maintain balanced coverage on the
+training and test set. In comparison
+to the baseline model which only uses
+n-gram features, our approach increases
+new word recall up to 6.0%. Addition-
+ally, our approaches reduce segmenta-
+tion errors up to 32.3%. Our system
+achieves state-of-the-art performance for
+both the closed and open tasks of the
+2006 SIGHAN bakeoff.
+1 

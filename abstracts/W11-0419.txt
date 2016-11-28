@@ -1,0 +1,20 @@
+
+In this paper, we discuss some of the chal-
+lenges of adequately applying a specification
+language to an annotation task, as embodied
+in a specific guideline. In particular, we dis-
+cuss some issues with TimeML motivated by
+error analysis on annotated TLINKs in Time-
+Bank. We introduce a document level in-
+formation structure we call a narrative con-
+tainer (NC), designed to increase informative-
+ness and accuracy of temporal relation identi-
+fication. The narrative container is the default
+interval containing the events being discussed
+in the text, when no explicit temporal anchor
+is given. By exploiting this notion in the cre-
+ation of a new temporal annotation over Time-
+Bank, we were able to reduce inconsistencies
+and increase informativeness when compared
+to existing TLINKs in TimeBank.
+1 

@@ -1,0 +1,17 @@
+ 
+This paper is an outline of a statistical learn- 
+ing algorithm for information extraction sys- 
+tems. It is based on a lexicaUy intensive anal- 
+ysis of a small number of texts that belong 
+to one domain and provides a robust lemma- 
+tisation of the word forms and the collection 
+of the most important syntagmatic dependen- 
+cies in weighted regular expressions. The lexi- 
+cal and syntactical knowledge is collected in a 
+very compact knowledge base that enables the 
+analysis of correct and partly incorrect texts 
+or messages, which due to transmission er- 
+rors, spelling or grammatical mistakes other- 
+wise would have been rejected by conventional 
+systems. 
+1 

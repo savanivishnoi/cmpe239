@@ -1,0 +1,29 @@
+
+Memory-based learning (MBL) has
+enjoyed considerable success in
+corpus-based natural language process-
+ing (NLP) tasks and is thus a reliable
+method of getting a high-level of per-
+formance when building corpus-based
+NLP systems. However there is a
+bottleneck in MBL whereby any novel
+testing item has to be compared against
+all the training items in memory base.
+For this reason there has been some
+interest in various forms of memory
+editing whereby some method of
+selecting a subset of the memory base
+is employed to reduce the number of
+comparisons. This paper investigates
+the use of a modified self-organising
+map (SOM) to select a subset of the
+memory items for comparison. This
+method involves reducing the number
+of comparisons to a value proportional
+to the square root of the number of
+training items. The method is tested on
+the identification of base noun-phrases
+in the Wall Street Journal corpus,
+using sections 15 to 18 for training and
+section 20 for testing.
+1 

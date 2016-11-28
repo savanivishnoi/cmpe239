@@ -1,0 +1,23 @@
+
+We explore the application of memory-
+based learning to morphological analy-
+sis and part-of-speech tagging of written
+Arabic, based on data from the Arabic
+Treebank. Morphological analysis ? the
+construction of all possible analyses of
+isolated unvoweled wordforms ? is per-
+formed as a letter-by-letter operation pre-
+diction task, where the operation encodes
+segmentation, part-of-speech, character
+changes, and vocalization. Part-of-speech
+tagging is carried out by a bi-modular tag-
+ger that has a subtagger for known words
+and one for unknown words. We report on
+the performance of the morphological an-
+alyzer and part-of-speech tagger. We ob-
+serve that the tagger, which has an accu-
+racy of 91.9% on new data, can be used to
+select the appropriate morphological anal-
+ysis of words in context at a precision of
+64.0 and a recall of 89.7.
+1 

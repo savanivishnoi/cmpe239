@@ -1,0 +1,22 @@
+
+The correct identification of metonymies
+is not normally a problem for most peo-
+ple. For computers, things are different,
+however. In Natural Language Processing,
+metonymy recognition is therefore usu-
+ally addressed with complex algorithms
+that rely on hundreds of labelled train-
+ing examples. This paper investigates two
+approaches to metonymy recognition that
+dispense with this complexity, albeit in
+different ways. The first, an unsuper-
+vised approach to Word Sense Discrimi-
+nation, does not require any labelled train-
+ing instances. The second, Memory-Based
+Learning, replaces the complexity of cur-
+rent algorithms by a ?lazy? learning phase.
+While the first approach is often able to
+identify a metonymical and a literal clus-
+ter in the data, it is the second in particular
+that produces state-of-the-art results.
+1 

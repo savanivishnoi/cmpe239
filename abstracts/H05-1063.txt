@@ -1,0 +1,18 @@
+ 
+We have studied how context specific web 
+corpus can be automatically created and 
+mined for discovering semantic similarity 
+relationships between terms (words or 
+phrases) from a given collection of 
+documents (target collection). These 
+relationships between terms can be used to 
+adjust the standard vectors space 
+representation so as to improve the 
+accuracy of similarity computation between 
+text documents in the target collection. Our 
+experiments with a standard test collection 
+(Reuters) have revealed the reduction of 
+similarity errors by up to 50%, twice as 
+much as the improvement by using other 
+known techniques.  
+1 

@@ -1,0 +1,30 @@
+ 
+Generally speaking, statistical machine 
+translation systems would be able to attain 
+better performance with more training sets. 
+Unfortunately, well-organized training sets 
+are rarely available in the real world. Con-
+sequently, it is necessary to focus on modi-
+fying the training set to obtain high 
+accuracy for an SMT system. If the SMT 
+system trained the translation model, the 
+translation pair would have a low probabil-
+ity when there are many variations for tar-
+get sentences from a single source sentence. 
+If we decreased the number of variations 
+for the translation pair, we could construct 
+a superior translation model. This paper de-
+scribes the effects of modification on the 
+training corpus when consideration is given 
+to synonymous sentence groups. We at-
+tempt three types of modification: com-
+pression of the training set, replacement of 
+source and target sentences with a selected 
+sentence from the synonymous sentence 
+group, and replacement of the sentence on 
+only one side with the selected sentence 
+from the synonymous sentence group. As a 
+result, we achieve improved performance 
+with the replacement of source-side sen-
+tences. 
+1 

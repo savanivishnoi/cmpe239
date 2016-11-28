@@ -1,0 +1,22 @@
+ 
+The Clarity project is devoted to automatic de- 
+tection and classification of discourse structures in 
+casual, non-task-oriented conversation using shal- 
+low, corpus-based methods of analysis. For the 
+Clarity project, we have tagged speech acts and 
+dialogue games in the Call Home Spanish corpus. 
+We have done preliminary cross-level experiments 
+on the relationship of word and speech act n-grams 
+to dialogue games. Our results show that the la- 
+bel of a game cannot be predicted from n-grams 
+of words it contains. We get better than base- 
+line results for predicting the label of a game from 
+the sequence of speech acts it contains, but only 
+when the speech acts are hand tagged, and not 
+when they are automatically detected. Our fu- 
+ture research will focus on finding linguistic cues 
+that are more predictive of game labels. The au- 
+tomatic classification of speech acts and games is 
+carried out in a multi-level architecture that in- 
+tegrates classification at multiple discourse levels 
+instead of performing them sequentially. 

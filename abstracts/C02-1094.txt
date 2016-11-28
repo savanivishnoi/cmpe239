@@ -1,0 +1,20 @@
+
+The mapping between syntactic structure and
+prosodic structure is a widely discussed topic in
+linguistics. In this work we use insights gained
+from research on syntax-to-prosody mapping in or-
+der to develop a computational model which assigns
+prosodic structure to unrestricted text. The result-
+ing structure is intended to help a text-to-speech
+(TTS) system to predict phrase breaks. In addition
+to linguistic constraints, the model also incorporates
+a performance-oriented parameter which approxi-
+mates the effect of speaking rate. The model is rule-
+based rather than probabilistic, and does not require
+training. We present the model and implementa-
+tions for both English and German, and give eval-
+uation results for both implementations. We then
+examine how far the approach can account for the
+different break patterns which are associated with
+slow, normal and fast speech rates.
+1 

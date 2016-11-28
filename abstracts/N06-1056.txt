@@ -1,0 +1,20 @@
+
+We present a novel statistical approach to
+semantic parsing, WASP, for construct-
+ing a complete, formal meaning represen-
+tation of a sentence. A semantic parser
+is learned given a set of sentences anno-
+tated with their correct meaning represen-
+tations. The main innovation of WASP
+is its use of state-of-the-art statistical ma-
+chine translation techniques. A word
+alignment model is used for lexical acqui-
+sition, and the parsing model itself can be
+seen as a syntax-based translation model.
+We show that WASP performs favorably
+in terms of both accuracy and coverage
+compared to existing learning methods re-
+quiring similar amount of supervision, and
+shows better robustness to variations in
+task complexity and word order.
+1 

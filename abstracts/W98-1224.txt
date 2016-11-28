@@ -1,0 +1,25 @@
+  
+Memory-based learning, keeping full memory 
+ofleaxning material, appeaxs a viable approach 
+to learning N-~ tasks, and is often superior 
+in genera~sation accuracy to eager learning 
+approaches that abstract from learning mate- 
+riaL Here we investigate three pa~'tial memory- 
+based learning approaches which remove from 
+memory specific task instance types estimated 
+to be exceptional. The three approaches ach 
+implement one heuristic function for estimat- 
+ing exceptiona\]ity of instance types: (i) typi- 
+catty, (ii) class prediction strength, and (fii) 
+friencfly-neighbourhood size. Experiments are 
+performed with the memory-based l arning al- 
+gorithm IBI-IG trained on English word pro- 
+nunciatlon. We find that removing instance 
+types with low prediction strength (il) is the 
+only tested method which does not seriously 
+harm generallsation accuracy. We conclude 
+that keeping full memory of types rather than 
+tokens, and excluding minority ambiguities ap- 
+pear to be the only performance-preserving op- 
+timi~tions of memory-based leaxning. 
+1 

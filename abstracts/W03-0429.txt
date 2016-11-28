@@ -1,0 +1,14 @@
+
+We present an approach to named entity recog-
+nition that uses support vector machines to cap-
+ture transition probabilities in a lattice. The
+support vector machines are trained with hun-
+dreds of thousands of features drawn from the
+CoNLL-2003 Shared Task training data. Mar-
+gin outputs are converted to estimated prob-
+abilities using a simple static function. Per-
+formance is evaluated using the CoNLL-2003
+Shared Task test set; Test B results were F?=1
+= 84.67 for English, and F?=1 = 69.96 for Ger-
+man.
+1 

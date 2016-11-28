@@ -1,0 +1,17 @@
+
+LTP (Language Technology Platform) is
+an integrated Chinese processing platform
+which includes a suite of high perfor-
+mance natural language processing (NLP)
+modules and relevant corpora. Espe-
+cially for the syntactic and semantic pars-
+ing modules, we achieved good results
+in some relevant evaluations, such as
+CoNLL and SemEval. Based on XML in-
+ternal data representation, users can easily
+use these modules and corpora by invok-
+ing DLL (Dynamic Link Library) or Web
+service APIs (Application Program Inter-
+face), and view the processing results di-
+rectly by the visualization tool.
+1 

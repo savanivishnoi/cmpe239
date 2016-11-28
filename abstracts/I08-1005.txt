@@ -1,0 +1,19 @@
+ 
+This paper proposes a semi-supervised learn-
+ing method for relation extraction. Given a 
+small amount of labeled data and a large 
+amount of unlabeled data, it first bootstraps a 
+moderate number of weighted support vectors 
+via SVM through a co-training procedure with 
+random feature projection and then applies a 
+label propagation (LP) algorithm via the boot-
+strapped support vectors. Evaluation on the 
+ACE RDC 2003 corpus shows that our method 
+outperforms the normal LP algorithm via all 
+the available labeled data without SVM boot-
+strapping. Moreover, our method can largely 
+reduce the computational burden. This sug-
+gests that our proposed method can integrate 
+the advantages of both SVM bootstrapping 
+and label propagation.  
+1 

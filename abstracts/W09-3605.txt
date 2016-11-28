@@ -1,0 +1,23 @@
+ 
+The evaluation of scientific performance is 
+gaining importance in all research disciplines. 
+The basic process of the evaluation is peer 
+reviewing, which is a time-consuming activ-
+ity. In order to facilitate and speed up peer 
+reviewing processes we have developed an 
+exploratory NLP system in the field of educa-
+tional sciences. The system highlights key 
+sentences, which are supposed to reflect the 
+most important threads of the article The 
+highlighted sentences offer guidance on  the 
+content-level while structural elements ? the 
+title, abstract, keywords, section headings ? 
+give an orientation about the design of the ar-
+gumentation in the article. The system is im-
+plemented using a discourse analysis module 
+called concept matching applied on top of the 
+Xerox Incremental Parser, a rule-based de-
+pendency parser. The first results are promis-
+ing and indicate the directions for the future 
+development of the system.  
+1 

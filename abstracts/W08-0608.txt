@@ -1,0 +1,22 @@
+
+Chemical named entities represent an impor-
+tant facet of biomedical text. We have de-
+veloped a system to use character-based n-
+grams, Maximum Entropy Markov Models
+and rescoring to recognise chemical names
+and other such entities, and to make confi-
+dence estimates for the extracted entities. An
+adjustable threshold allows the system to be
+tuned to high precision or high recall. At a
+threshold set for balanced precision and recall,
+we were able to extract named entities at an
+F score of 80.7% from chemistry papers and
+83.2% from PubMed abstracts. Furthermore,
+we were able to achieve 57.6% and 60.3% re-
+call at 95% precision, and 58.9% and 49.1%
+precision at 90% recall. These results show
+that chemical named entities can be extracted
+with good performance, and that the proper-
+ties of the extraction can be tuned to suit the
+demands of the task.
+1 

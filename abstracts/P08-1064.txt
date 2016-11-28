@@ -1,0 +1,21 @@
+ 
+This paper presents a translation model that is 
+based on tree sequence alignment, where a tree 
+sequence refers to a single sequence of sub-
+trees that covers a phrase. The model leverages 
+on the strengths of both phrase-based and lin-
+guistically syntax-based method. It automati-
+cally learns aligned tree sequence pairs with 
+mapping probabilities from word-aligned bi-
+parsed parallel texts. Compared with previous 
+models, it not only captures non-syntactic 
+phrases and discontinuous phrases with lin-
+guistically structured features, but also sup-
+ports multi-level structure reordering of tree 
+typology with larger span. This gives our 
+model stronger expressive power than other re-
+ported models. Experimental results on the 
+NIST MT-2005 Chinese-English translation 
+task show that our method statistically signifi-
+cantly outperforms the baseline systems.  
+1 

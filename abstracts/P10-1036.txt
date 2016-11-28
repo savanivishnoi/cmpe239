@@ -1,0 +1,22 @@
+
+We propose a novel self-training method
+for a parser which uses a lexicalised gram-
+mar and supertagger, focusing on increas-
+ing the speed of the parser rather than
+its accuracy. The idea is to train the su-
+pertagger on large amounts of parser out-
+put, so that the supertagger can learn to
+supply the supertags that the parser will
+eventually choose as part of the highest-
+scoring derivation. Since the supertag-
+ger supplies fewer supertags overall, the
+parsing speed is increased. We demon-
+strate the effectiveness of the method us-
+ing a CCG supertagger and parser, obtain-
+ing significant speed increases on newspa-
+per text with no loss in accuracy. We also
+show that the method can be used to adapt
+the CCG parser to new domains, obtain-
+ing accuracy and speed improvements for
+Wikipedia and biomedical text.
+1 

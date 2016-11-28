@@ -1,0 +1,19 @@
+
+This paper presents a technique for discover-
+ing translationally equivalent texts. It is com-
+prised of the application of a matching algo-
+rithm at two different levels of analysis and a
+well-founded similarity score. This approach
+can be applied to any multilingual corpus us-
+ing any kind of translation lexicon; it is there-
+fore adaptable to varying levels of multilingual
+resource availability. Experimental results are
+shown on two tasks: a search for matching
+thirty-word segments in a corpus where some
+segments are mutual translations, and classifi-
+cation of candidate pairs of web pages that may
+or may not be translations of each other. The
+latter results compare competitively with pre-
+vious, document-structure-based approaches to
+the same problem.
+1 

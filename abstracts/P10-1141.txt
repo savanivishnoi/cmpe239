@@ -1,0 +1,17 @@
+
+Most sentiment analysis approaches use as
+baseline a support vector machines (SVM)
+classifier with binary unigram weights.
+In this paper, we explore whether more
+sophisticated feature weighting schemes
+from Information Retrieval can enhance
+classification accuracy. We show that vari-
+ants of the classic tf.idf scheme adapted
+to sentiment analysis provide significant
+increases in accuracy, especially when us-
+ing a sublinear function for term frequency
+weights and document frequency smooth-
+ing. The techniques are tested on a wide
+selection of data sets and produce the best
+accuracy to our knowledge.
+1 

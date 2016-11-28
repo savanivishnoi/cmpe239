@@ -1,0 +1,16 @@
+
+This paper demonstrates a novel distributed
+architecture to facilitate the acquisition of
+Language Resources. We build a factory
+that automates the stages involved in the ac-
+quisition, production, updating and mainte-
+nance of these resources. The factory is de-
+signed as a platform where functionalities
+are deployed as web services, which can
+be combined in complex acquisition chains
+using workflows. We show a case study,
+which acquires a Translation Memory for a
+given pair of languages and a domain using
+web services for crawling, sentence align-
+ment and conversion to TMX.
+1 

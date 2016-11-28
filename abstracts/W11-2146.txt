@@ -1,0 +1,16 @@
+
+This paper describes the statistical machine
+translation system submitted to the WMT11
+Featured Translation Task, which involves
+translating Haitian Creole SMS messages into
+English. In our experiments we try to ad-
+dress the issue of noise in the training data,
+as well as the lack of parallel training data.
+Spelling normalization is applied to reduce
+out-of-vocabulary words in the corpus. Us-
+ing Semantic Role Labeling rules we expand
+the available training corpus. Additionally we
+investigate extracting parallel sentences from
+comparable data to enhance the available par-
+allel data.
+1 

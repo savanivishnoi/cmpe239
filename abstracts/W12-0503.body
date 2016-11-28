@@ -1,0 +1,33 @@
+
+Dependency parsing has made many ad-
+vancements in recent years, in particu-
+lar for English. There are a few de-
+pendency parsers that achieve compara-
+ble accuracy scores with each other but
+with very different types of errors. This
+paper examines creating a new depen-
+dency structure through ensemble learn-
+ing using a hybrid of the outputs of var-
+ious parsers. We combine all tree out-
+puts into a weighted edge graph, using 4
+weighting mechanisms. The weighted edge
+graph is the input into our ensemble sys-
+tem and is a hybrid of very different parsing
+techniques (constituent parsers, transition-
+based dependency parsers, and a graph-
+based parser). From this graph we take a
+maximum spanning tree. We examine the
+new dependency structure in terms of accu-
+racy and errors on individual part-of-speech
+values.
+The results indicate that using a greater
+number of more varied parsers will improve
+accuracy results. The combined ensemble
+system, using 5 parsers based on 3 different
+parsing techniques, achieves an accuracy
+score of 92.58%, beating all single parsers
+on the Wall Street Journal section 23 test
+set. Additionally, the ensemble system re-
+duces the average relative error on selected
+POS tags by 9.82%.
+1 

@@ -1,0 +1,20 @@
+
+Our approach to dependency parsing is
+based on the linear model of McDonald
+et al(McDonald et al, 2005b). Instead of
+solving the linear model using the Max-
+imum Spanning Tree algorithm we pro-
+pose an incremental Integer Linear Pro-
+gramming formulation of the problem that
+allows us to enforce linguistic constraints.
+Our results show only marginal improve-
+ments over the non-constrained parser. In
+addition to the fact that many parses did
+not violate any constraints in the first place
+this can be attributed to three reasons: 1)
+the next best solution that fulfils the con-
+straints yields equal or less accuracy, 2)
+noisy POS tags and 3) occasionally our
+inference algorithm was too slow and de-
+coding timed out.
+1 

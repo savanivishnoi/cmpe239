@@ -1,0 +1,18 @@
+
+We introduce a novel mechanism for
+incorporating articulatory dynamics into
+speech recognition with the theory of task
+dynamics. This system reranks sentence-
+level hypotheses by the likelihoods of
+their hypothetical articulatory realizations
+which are derived from relationships
+learned with aligned acoustic/articulatory
+data. Experiments compare this with two
+baseline systems, namely an acoustic hid-
+den Markov model and a dynamic Bayes
+network augmented with discretized rep-
+resentations of the vocal tract. Our sys-
+tem based on task dynamics reduces word-
+error rates significantly by 10.2% relative
+to the best baseline models.
+1 

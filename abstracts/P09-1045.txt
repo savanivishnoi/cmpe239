@@ -1,0 +1,18 @@
+
+Iterative bootstrapping algorithms are typ-
+ically compared using a single set of hand-
+picked seeds. However, we demonstrate
+that performance varies greatly depend-
+ing on these seeds, and favourable seeds
+for one algorithm can perform very poorly
+with others, making comparisons unreli-
+able. We exploit this wide variation with
+bagging, sampling from automatically ex-
+tracted seeds to reduce semantic drift.
+However, semantic drift still occurs in
+later iterations. We propose an integrated
+distributional similarity filter to identify
+and censor potential semantic drifts, en-
+suring over 10% higher precision when ex-
+tracting large semantic lexicons.
+1 

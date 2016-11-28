@@ -1,0 +1,19 @@
+ 
+This paper proposes a new approach to 
+phrase rescoring for statistical machine 
+translation (SMT).  A set of novel fea-
+tures capturing the translingual equiva-
+lence between a source and a target 
+phrase pair are introduced. These features 
+are combined with linear regression 
+model and neural network to predict the 
+quality score of the phrase translation 
+pair. These phrase scores are used to dis-
+criminatively rescore the baseline MT 
+system?s phrase library: boost good 
+phrase translations while prune bad ones. 
+This approach not only significantly im-
+proves machine translation quality, but 
+also reduces the model size by a consid-
+erable margin. 
+1 

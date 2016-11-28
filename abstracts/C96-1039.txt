@@ -1,0 +1,22 @@
+ 
+Various strategies are proposed to identify 
+and classify three types of proper nouns in 
+Chinese texts. Clues from character, 
+sentence and paragraph levels are employed 
+to resolve Chinese personal names. 
+Character, Syllable and Frequency 
+Conditions are presented to treat 
+transliterated personal names, To deal with 
+organization ames, keywords, prefix, word 
+association and parts-of-speech are applied. 
+For fair evaluation, large scale test data are 
+selected from six sections of a newspaper. 
+The precision and the recall for these three 
+types are (88.04%, 92.56%), (50.62%, 
+71.93%) and (61.79%, 54.50%), respectively. 
+When the former two types are regarded as a 
+category, the performance becomes (81.46%, 
+91.22%). Compared with other approaches, 
+our approach as better performance and our 
+classification is automatic. 
+1. 

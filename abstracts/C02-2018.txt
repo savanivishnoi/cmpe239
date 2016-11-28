@@ -1,0 +1,12 @@
+
+We report about the current state of development of a
+document suite and its applications. This collection of
+tools for the flexible and robust processing of documents
+in German is based on the use of XML as unifying for-
+malism for encoding input and output data as well as
+process information. It is organized in modules with
+limited responsibilities that can easily be combined into
+pipelines to solve complex tasks. Strong emphasis is laid
+on a number of techniques to deal with lexical and con-
+ceptual gaps that are typical when starting a new appli-
+cation.

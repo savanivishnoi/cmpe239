@@ -1,0 +1,28 @@
+
+We estimate the parameters of a phrase-
+based statistical machine translation sys-
+tem from monolingual corpora instead of a
+bilingual parallel corpus. We extend exist-
+ing research on bilingual lexicon induction
+to estimate both lexical and phrasal trans-
+lation probabilities for MT-scale phrase-
+tables. We propose a novel algorithm to es-
+timate reordering probabilities from mono-
+lingual data. We report translation results
+for an end-to-end translation system us-
+ing these monolingual features alone. Our
+method only requires monolingual corpora
+in source and target languages, a small
+bilingual dictionary, and a small bitext for
+tuning feature weights. In this paper, we ex-
+amine an idealization where a phrase-table
+is given. We examine the degradation in
+translation performance when bilingually
+estimated translation probabilities are re-
+moved and show that 80%+ of the loss can
+be recovered with monolingually estimated
+features alone. We further show that our
+monolingual features add 1.5 BLEU points
+when combined with standard bilingually
+estimated phrase table features.
+1 

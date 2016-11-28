@@ -1,0 +1,10 @@
+
+We approach the typed-similarity task using
+a range of heuristics that rely on information
+from the appropriate metadata fields for each
+type of similarity. In addition we train a linear
+regressor for each type of similarity. The re-
+sults indicate that the linear regression is key
+for good performance. Our best system was
+ranked third in the task.
+1 

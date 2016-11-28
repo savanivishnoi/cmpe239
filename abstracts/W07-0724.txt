@@ -1,0 +1,13 @@
+
+We present the PORTAGE statistical
+machine translation system which par-
+ticipated in the shared task of the ACL
+2007 Second Workshop on Statistical
+Machine Translation. The focus of this
+description is on improvements which
+were incorporated into the system over
+the last year. These include adapted lan-
+guage models, phrase table pruning, an
+IBM1-based decoder feature, and rescor-
+ing with posterior probabilities.
+1 

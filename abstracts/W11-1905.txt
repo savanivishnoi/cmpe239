@@ -1,0 +1,20 @@
+
+In this paper, we describe a coreference solver
+based on the extensive use of lexical fea-
+tures and features extracted from dependency
+graphs of the sentences. The solver uses Soon
+et al (2001)?s classical resolution algorithm
+based on a pairwise classification of the men-
+tions.
+We applied this solver to the closed track of
+the CoNLL 2011 shared task (Pradhan et al,
+2011). We carried out a systematic optimiza-
+tion of the feature set using cross-validation
+that led us to retain 24 features. Using this set,
+we reached a MUC score of 58.61 on the test
+set of the shared task. We analyzed the impact
+of the features on the development set and we
+show the importance of lexicalization as well
+as of properties related to dependency links in
+coreference resolution.
+1 

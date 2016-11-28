@@ -1,0 +1,25 @@
+ 
+We consider the problem of 1  identifying 
+product features and opinion words in a 
+unified process from Chinese customer re-
+views when only a much small seed set of 
+opinion words is available. In particular, 
+we consider a problem setting motivated by 
+the task of identifying product features 
+with opinion words and learning opinion 
+words through features alternately and it-
+eratively. In customer reviews, opinion 
+words usually have a close relationship 
+with product features, and the association 
+between them is measured by a revised 
+formula of mutual information in this paper. 
+A bootstrapping iterative learning strategy 
+is proposed to alternately both of them. A 
+linguistic rule is adopted to identify low-
+frequent features and opinion words. Fur-
+thermore, a mapping function from opinion 
+words to features is proposed to identify 
+implicit features in sentence. Empirical re-
+sults on three kinds of product reviews in-
+dicate the effectiveness of our method. 
+1 

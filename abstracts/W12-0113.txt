@@ -1,0 +1,36 @@
+ 
+The processing of parallel corpus plays 
+very crucial role for improving the over-
+all performance in Phrase Based Statisti-
+cal Machine Translation systems (PB-
+SMT). In this paper the automatic align-
+ments   of different kind of chunks have 
+been studied that boosts up the word 
+alignment as well as the machine transla-
+tion quality. Single-tokenization of 
+Noun-noun MWEs, phrasal preposition 
+(source side only) and reduplicated 
+phrases (target side only) and the align-
+ment of named entities and complex 
+predicates provide the best SMT model 
+for bootstrapping. Automatic bootstrap-
+ping on the alignment of various chunks 
+makes significant gains over the previous 
+best English-Bengali PB-SMT system. 
+The source chunks are translated into the 
+target language using the PB-SMT sys-
+tem and the translated chunks are com-
+pared with the original target chunk. The 
+aligned chunks increase the size of the 
+parallel corpus. The processes are run in 
+a bootstrapping manner until all the 
+source chunks have been aligned with the 
+target chunks or no new chunk alignment 
+is identified by the bootstrapping process. 
+The proposed system achieves significant 
+improvements (2.25 BLEU over the best 
+System and 8.63 BLEU points absolute 
+over the baseline system, 98.74% relative 
+improvement over the baseline system) 
+on an English- Bengali translation task.  
+1 

@@ -1,0 +1,24 @@
+
+This paper describes a new method for un-
+supervised grammar induction based on
+the automatic extraction of certain pat-
+terns in the texts. Our starting hypoth-
+esis is that there exist some classes of
+words that function as separators, mark-
+ing the beginning or the end of new con-
+stituents. Among these separators we dis-
+tinguish those which trigger new levels in
+the parse tree. If we are able to detect these
+separators we can follow a very simple
+procedure to identify the constituents of a
+sentence by taking the classes of words be-
+tween separators. This paper is devoted to
+describe the process that we have followed
+to automatically identify the set of sepa-
+rators from a corpus only annotated with
+Part-of-Speech (POS) tags. The proposed
+approach has allowed us to improve the re-
+sults of previous proposals when parsing
+sentences from the Wall Street Journal cor-
+pus.
+1 

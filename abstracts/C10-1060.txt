@@ -1,0 +1,24 @@
+
+Adaptor grammars are a framework for
+expressing and performing inference over
+a variety of non-parametric linguistic
+models. These models currently provide
+state-of-the-art performance on unsuper-
+vised word segmentation from phonemic
+representations of child-directed unseg-
+mented English utterances. This paper in-
+vestigates the applicability of these mod-
+els to unsupervised word segmentation of
+Mandarin. We investigate a wide vari-
+ety of different segmentation models, and
+show that the best segmentation accuracy
+is obtained frommodels that capture inter-
+word ?collocational? dependencies. Sur-
+prisingly, enhancing the models to exploit
+syllable structure regularities and to cap-
+ture tone information does improve over-
+all word segmentation accuracy, perhaps
+because the information these elements
+convey is redundant when compared to the
+inter-word dependencies.
+1 

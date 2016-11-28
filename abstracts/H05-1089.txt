@@ -1,0 +1,21 @@
+
+We should not have to look at the en-
+tire corpus (e.g., the Web) to know if two
+words are associated or not.1 A powerful
+sampling technique called Sketches was
+originally introduced to remove duplicate
+Web pages. We generalize sketches to
+estimate contingency tables and associa-
+tions, using a maximum likelihood esti-
+mator to find the most likely contingency
+table given the sample, the margins (doc-
+ument frequencies) and the size of the
+collection. Not unsurprisingly, computa-
+tional work and statistical accuracy (vari-
+ance or errors) depend on sampling rate,
+as will be shown both theoretically and
+empirically. Sampling methods become
+more and more important with larger and
+larger collections. At Web scale, sampling
+rates as low as 10?4 may suffice.
+1 

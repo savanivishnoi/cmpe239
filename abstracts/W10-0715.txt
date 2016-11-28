@@ -1,0 +1,21 @@
+
+We propose a framework for improving out-
+put quality of machine translation systems, by
+operating on the level of grammar rule fea-
+tures. Our framework aims to give a boost to
+grammar rules that appear in the derivations
+of translation candidates that are deemed to
+be of good quality, hence making those rules
+more preferable by the system. To that end, we
+ask human annotators on Amazon Mechanical
+Turk to compare translation candidates, and
+then interpret their preferences of one candi-
+date over another as an implicit preference for
+one derivation over another, and therefore as
+an implicit preference for one or more gram-
+mar rules. Our framework also allows us to
+generalize these preferences to grammar rules
+corresponding to a previously unseen test set,
+namely rules for which no candidates have
+been judged.
+1 

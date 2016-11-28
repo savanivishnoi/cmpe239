@@ -1,0 +1,21 @@
+
+In this paper, we use the information re-
+dundancy in multilingual input to correct
+errors in machine translation and thus im-
+prove the quality of multilingual sum-
+maries. We consider the case of multi-
+document summarization, where the input
+documents are in Arabic, and the output
+summary is in English. Typically, infor-
+mation that makes it to a summary appears
+in many different lexical-syntactic forms
+in the input documents. Further, the use of
+multiple machine translation systems pro-
+vides yet more redundancy, yielding dif-
+ferent ways to realize that information in
+English. We demonstrate how errors in the
+machine translations of the input Arabic
+documents can be corrected by identify-
+ing and generating from such redundancy,
+focusing on noun phrases.
+1 

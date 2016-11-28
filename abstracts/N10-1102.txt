@@ -1,0 +1,16 @@
+
+The task of identifying the language of text
+or utterances has a number of applications in
+natural language processing. Language iden-
+tification has traditionally been approached
+with character-level language models. How-
+ever, the language model approach crucially
+depends on the length of the text in ques-
+tion. In this paper, we consider the problem
+of language identification of names. We show
+that an approach based on SVMs with n-gram
+counts as features performs much better than
+language models. We also experiment with
+applying the method to pre-process transliter-
+ation data for the training of separate models.
+1 

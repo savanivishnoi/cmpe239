@@ -1,0 +1,29 @@
+
+This paper explores the close relationship be-
+tween question answering and machine read-
+ing, and how the active use of reasoning to 
+answer (and in the process, disambiguate) 
+questions can also be applied to reading de-
+clarative texts, where a substantial proportion 
+of the text?s contents is already known to (rep-
+resented in) the system. In question answer-
+ing, a question may be ambiguous, and it may 
+only be in the process of trying to answer it 
+that the "right" way to disambiguate it be-
+comes apparent. Similarly in machine reading, 
+a text may be ambiguous, and may require 
+some process to relate it to what is already 
+known. Our conjecture in this paper is that 
+these two processes are similar, and that we 
+can modify a question answering tool to help 
+"read" new text that augments existing system 
+knowledge. Specifically, interpreting a new 
+text T can be recast as trying to answer, or 
+partially answer, the question "Is it true that 
+T?", resulting in both appropriate disambigua-
+tion and connection of T to existing knowl-
+edge. Some preliminary investigation suggests 
+this might be useful for proposing knowledge 
+base extensions, extracted from text, to a 
+knowledge engineer. 
+1 

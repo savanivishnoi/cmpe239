@@ -1,0 +1,19 @@
+
+Conventional approaches to Chinese word
+segmentation treat the problem as a character-
+based tagging task. Recently, semi-Markov
+models have been applied to the problem, in-
+corporating features based on complete words.
+In this paper, we propose an alternative, a
+latent variable model, which uses hybrid in-
+formation based on both word sequences and
+character sequences. We argue that the use of
+latent variables can help capture long range
+dependencies and improve the recall on seg-
+menting long words, e.g., named-entities. Ex-
+perimental results show that this is indeed the
+case. With this improvement, evaluations on
+the data of the second SIGHAN CWS bakeoff
+show that our system is competitive with the
+best ones in the literature.
+1 

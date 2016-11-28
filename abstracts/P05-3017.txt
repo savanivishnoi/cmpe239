@@ -1,0 +1,12 @@
+
+We demonstrate a system for flexible
+querying against text that has been anno-
+tated with the results of NLP processing.
+The system supports self-overlapping and
+parallel layers, integration of syntactic and
+ontological hierarchies, flexibility in the
+format of returned results, and tight inte-
+gration with SQL. We present a query lan-
+guage and its use on examples taken from
+the NLP literature.
+1 

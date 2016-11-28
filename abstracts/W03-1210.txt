@@ -1,0 +1,16 @@
+
+Causation relations are a pervasive fea-
+ture of human language. Despite this, the
+automatic acquisition of causal informa-
+tion in text has proved to be a difficult
+task in NLP. This paper provides a method
+for the automatic detection and extraction
+of causal relations. We also present an
+inductive learning approach to the auto-
+matic discovery of lexical and semantic
+constraints necessary in the disambigua-
+tion of causal relations that are then used
+in question answering. We devised a clas-
+sification of causal questions and tested
+the procedure on a QA system.
+1 

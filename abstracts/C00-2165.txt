@@ -1,0 +1,19 @@
+ 
+While large POS(part-of-speech) annotated 
+corpora play an important role in natural 
+language processing, the annotated corpus 
+requires very high accuracy and consistency. 
+To build such an accurate and consistent 
+corpus, we often use a manual tagging 
+method. But the manual tagging is very 
+labor intensive and expensive. Furthernaore, 
+it is not easy to get consistent results from 
+the humari experts. In this paper, we present 
+an efficient tool lbr building large accurate 
+and consistent corpora with minimal human 
+labor. The proposed tool supports semi- 
+automatic tagging. Using disambiguation 
+rules acquired from human experts, it 
+minimizes the human intervention in both 
+the manual tagging and post-editing steps. 
+1. 

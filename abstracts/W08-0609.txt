@@ -1,0 +1,38 @@
+
+When term ambiguity and variability are very
+high, dictionary-based Named Entity Recogni-
+tion (NER) is not an ideal solution even though
+large-scale terminological resources are avail-
+able. Many researches on statistical NER have
+tried to cope with these problems. However,
+it is not straightforward how to exploit exist-
+ing and additional Named Entity (NE) dictio-
+naries in statistical NER. Presumably, addi-
+tion of NEs to an NE dictionary leads to bet-
+ter performance. However, in reality, the re-
+training of NER models is required to achieve
+this. We have established a novel way to im-
+prove the NER performance by addition of
+NEs to an NE dictionary without retraining.
+We chose protein name recognition as a case
+study because it most suffers the problems re-
+lated to heavy term variation and ambiguity.
+In our approach, first, known NEs are identi-
+fied in parallel with Part-of-Speech (POS) tag-
+ging based on a general word dictionary and
+an NE dictionary. Then, statistical NER is
+trained on the tagger outputs with correct NE
+labels attached. We evaluated performance of
+our NER on the standard JNLPBA-2004 data
+set. The F-score on the test set has been im-
+proved from 73.14 to 73.78 after adding the
+protein names appearing in the training data to
+the POS tagger dictionary without any model
+retraining. The performance further increased
+to 78.72 after enriching the tagging dictionary
+with test set protein names. Our approach
+has demonstrated high performance in pro-
+tein name recognition, which indicates how
+to make the most of known NEs in statistical
+NER.
+1 

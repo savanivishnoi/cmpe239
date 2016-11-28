@@ -1,0 +1,22 @@
+
+We propose a technique for improving
+the quality of phrase-based translation
+systems by creating synthetic translation
+options?phrasal translations that are gen-
+erated by auxiliary translation and post-
+editing processes?to augment the de-
+fault phrase inventory learned from par-
+allel data. We apply our technique to
+the problem of producing English deter-
+miners when translating from Russian and
+Czech, languages that lack definiteness
+morphemes. Our approach augments the
+English side of the phrase table using a
+classifier to predict where English arti-
+cles might plausibly be added or removed,
+and then we decode as usual. Doing
+so, we obtain significant improvements in
+quality relative to a standard phrase-based
+baseline and to a to post-editing complete
+translations with the classifier.
+1 

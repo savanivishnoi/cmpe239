@@ -1,0 +1,18 @@
+
+We present a simple semi-supervised learning
+algorithm for named entity recognition (NER)
+using conditional random fields (CRFs). The
+algorithm is based on exploiting evidence that
+is independent from the features used for a
+classifier, which provides high-precision la-
+bels to unlabeled data. Such independent ev-
+idence is used to automatically extract high-
+accuracy and non-redundant data, leading to a
+much improved classifier at the next iteration.
+We show that our algorithm achieves an aver-
+age improvement of 12 in recall and 4 in pre-
+cision compared to the supervised algorithm.
+We also show that our algorithm achieves high
+accuracy when the training and test sets are
+from different domains.
+1 

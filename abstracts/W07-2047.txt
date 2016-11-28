@@ -1,0 +1,22 @@
+
+This document describes the Word Sense Disam-
+biguation system used by Language Computer Cor-
+poration at English Coarse Grained All Word Task
+at SemEval 2007. The system is based on two su-
+pervised machine learning algorithms: Maximum
+Entropy and Support Vector Machines. These algo-
+rithms were trained on a corpus created from Sem-
+Cor, Senseval 2 and 3 all words and lexical sample
+corpora and Open Mind Word Expert 1.0 corpus.
+We used topical, syntactic and semantic features.
+Some semantic features were created using WordNet
+glosses with semantic relations tagged manually and
+automatically as part of eXtended WordNet project.
+We also tried to create more training instances from
+the disambiguated WordNet glosses found in XWN
+project (XWN, 2003). For words for which we could
+not build a sense classifier, we used First Sense in
+WordNet as a back-off strategy in order to have cov-
+erage of 100%. The precision and recall of the over-
+all system is 81.446% placing it in the top 5 systems.
+1 

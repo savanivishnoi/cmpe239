@@ -1,0 +1,20 @@
+
+This paper presents the results of the PASCAL
+Challenge on Grammar Induction, a compe-
+tition in which competitors sought to predict
+part-of-speech and dependency syntax from
+text. Although many previous competitions
+have featured dependency grammars or parts-
+of-speech, these were invariably framed as
+supervised learning and/or domain adaption.
+This is the first challenge to evaluate unsuper-
+vised induction systems, a sub-field of syntax
+which is rapidly becoming very popular. Our
+challenge made use of a 10 different treebanks
+annotated in a range of different linguistic for-
+malisms and covering 9 languages. We pro-
+vide an overview of the approaches taken by
+the participants, and evaluate their results on
+each dataset using a range of different evalua-
+tion metrics.
+1 

@@ -1,0 +1,21 @@
+
+The Viterbi algorithm is the conventional
+decoding algorithm most widely adopted
+for sequence labeling. Viterbi decoding
+is, however, prohibitively slow when the
+label set is large, because its time com-
+plexity is quadratic in the number of la-
+bels. This paper proposes an exact decod-
+ing algorithm that overcomes this prob-
+lem. A novel property of our algorithm is
+that it efficiently reduces the labels to be
+decoded, while still allowing us to check
+the optimality of the solution. Experi-
+ments on three tasks (POS tagging, joint
+POS tagging and chunking, and supertag-
+ging) show that the new algorithm is sev-
+eral orders of magnitude faster than the
+basic Viterbi and a state-of-the-art algo-
+rithm, CARPEDIEM (Esposito and Radi-
+cioni, 2009).
+1 

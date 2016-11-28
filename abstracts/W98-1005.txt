@@ -1,0 +1,9 @@
+ 
+It is challenging to translate names and technical terms from English into Arabic. Translation is 
+usually done phonetically: different alphabets and sound inventories force various compromises. 
+For example, Peter Streams may come out as hr..~ ~ bytr szrymz. This process is called 
+transliteration. We address here the reverse problem: given a foreign name or loanword in Arabic 
+text, we want to recover the original in Roman script. For example, an input like .~..A~ 
+bytr strymz should yield an output like Peter Streams. Arabic presents special challenges due 
+to unwritten vowels and phonetic-context effects. We present results and examples of use in an 
+Arabic-to-English machine translator. 

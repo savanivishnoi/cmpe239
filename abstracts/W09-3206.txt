@@ -1,0 +1,25 @@
+
+Computing semantic relatedness of natural
+language texts is a key component of tasks
+such as information retrieval and sum-
+marization, and often depends on knowl-
+edge of a broad range of real-world con-
+cepts and relationships. We address this
+knowledge integration issue by comput-
+ing semantic relatedness using person-
+alized PageRank (random walks) on a
+graph derived from Wikipedia. This pa-
+per evaluates methods for building the
+graph, including link selection strategies,
+and two methods for representing input
+texts as distributions over the graph nodes:
+one based on a dictionary lookup, the
+other based on Explicit Semantic Analy-
+sis. We evaluate our techniques on stan-
+dard word relatedness and text similarity
+datasets, finding that they capture similar-
+ity information complementary to existing
+Wikipedia-based relatedness measures, re-
+sulting in small improvements on a state-
+of-the-art measure.
+1 

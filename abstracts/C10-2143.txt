@@ -1,0 +1,26 @@
+
+Active Learning (AL) is a selective sam-
+pling strategy which has been shown to
+be particularly cost-efficient by drastically
+reducing the amount of training data to be
+manually annotated. For the annotation
+of natural language data, cost efficiency
+is usually measured in terms of the num-
+ber of tokens to be considered. This mea-
+sure, assuming uniform costs for all to-
+kens involved, is, from a linguistic per-
+spective at least, intrinsically inadequate
+and should be replaced by a more ade-
+quate cost indicator, viz. the time it takes
+to manually label selected annotation ex-
+amples. We here propose three differ-
+ent approaches to incorporate costs into
+the AL selection mechanism and evaluate
+them on the MUC7T corpus, an extension
+of the MUC7 newspaper corpus that con-
+tains such annotation time information.
+Our experiments reveal that using a cost-
+sensitive version of semi-supervised AL,
+up to 54% of true annotation time can be
+saved compared to random selection.
+1 

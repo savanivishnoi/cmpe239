@@ -1,0 +1,17 @@
+
+Exploiting unannotated natural language data is hard
+largely because unsupervised parameter estimation is
+hard. We describe deterministic annealing (Rose et al,
+1990) as an appealing alternative to the Expectation-
+Maximization algorithm (Dempster et al, 1977). Seek-
+ing to avoid search error, DA begins by globally maxi-
+mizing an easy concave function and maintains a local
+maximum as it gradually morphs the function into the
+desired non-concave likelihood function. Applying DA
+to parsing and tagging models is shown to be straight-
+forward; significant improvements over EM are shown
+on a part-of-speech tagging task. We describe a vari-
+ant, skewed DA, which can incorporate a good initializer
+when it is available, and show significant improvements
+over EM on a grammar induction task.
+1 

@@ -1,0 +1,20 @@
+
+This paper shows that discriminative
+reranking with an averaged perceptron
+model yields substantial improvements in
+realization quality with CCG. The paper
+confirms the utility of including language
+model log probabilities as features in the
+model, which prior work on discrimina-
+tive training with log linear models for
+HPSG realization had called into question.
+The perceptron model allows the combina-
+tion of multiple n-gram models to be opti-
+mized and then augmented with both syn-
+tactic features and discriminative n-gram
+features. The full model yields a state-
+of-the-art BLEU score of 0.8506 on Sec-
+tion 23 of the CCGbank, to our knowledge
+the best score reported to date using a re-
+versible, corpus-engineered grammar.
+1 

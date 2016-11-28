@@ -1,0 +1,30 @@
+
+Sentiment analysis often relies on a se-
+mantic orientation lexicon of positive and
+negative words. A number of approaches
+have been proposed for creating such lex-
+icons, but they tend to be computation-
+ally expensive, and usually rely on signifi-
+cant manual annotation and large corpora.
+Most of these methods use WordNet. In
+contrast, we propose a simple approach to
+generate a high-coverage semantic orien-
+tation lexicon, which includes both indi-
+vidual words and multi-word expressions,
+using only a Roget-like thesaurus and a
+handful of affixes. Further, the lexicon
+has properties that support the Polyanna
+Hypothesis. Using the General Inquirer
+as gold standard, we show that our lexi-
+con has 14 percentage points more correct
+entries than the leading WordNet-based
+high-coverage lexicon (SentiWordNet). In
+an extrinsic evaluation, we obtain signifi-
+cantly higher performance in determining
+phrase polarity using our thesaurus-based
+lexicon than with any other. Additionally,
+we explore the use of visualization tech-
+niques to gain insight into the our algo-
+rithm beyond the evaluations mentioned
+above.
+1 

@@ -1,0 +1,16 @@
+
+Languages with rich inflectional morphology
+pose a difficult challenge for statistical ma-
+chine translation. To address the problem of
+morphologically inconsistent output, we add
+unification-based constraints to the target-side
+of a string-to-tree model. By integrating con-
+straint evaluation into the decoding process,
+implausible hypotheses can be penalised or
+filtered out during search. We use a sim-
+ple heuristic process to extract agreement con-
+straints for German and test our approach on
+an English-German system trained on WMT
+data, achieving a small improvement in trans-
+lation accuracy as measured by BLEU.
+1 

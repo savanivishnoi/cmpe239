@@ -1,0 +1,31 @@
+
+It is well known that standardising the
+annotation of language resources signifi-
+cantly raises their potential, as it enables
+re-use and spurs the development of com-
+mon technologies. Despite the fact that
+increasingly complex linguistic informa-
+tion is being added to biomedical texts,
+no standard solutions have so far been
+proposed for their encoding. This pa-
+per describes a standardised XML tagset
+(DTD) for annotated biomedical corpora
+and other resources, which is based on
+the Text Encoding Initiative Guidelines
+P4, a general and parameterisable stan-
+dard for encoding language resources. We
+ground the discussion in the encoding of
+the GENIA corpus, which currently con-
+tains 2,000 abstracts taken from the MED-
+LINE database, and has almost 100,000
+hand-annotated terms marked for seman-
+tic class from the accompanying ontol-
+ogy. The paper introduces GENIA and
+TEI and implements a TEI parametrisa-
+tion and conversion for the GENIA cor-
+pus. A number of aspects of biomedi-
+cal language are discussed, such as com-
+plex tokenisation, prevalence of contrac-
+tions and complex terms, and the linkage
+and encoding of ontologies.
+1 

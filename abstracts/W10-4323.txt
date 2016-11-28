@@ -1,0 +1,22 @@
+
+This paper presents an agenda-based user
+simulator which has been extended to be
+trainable on real data with the aim of more
+closely modelling the complex rational be-
+haviour exhibited by real users. The train-
+able part is formed by a set of random de-
+cision points that may be encountered dur-
+ing the process of receiving a system act
+and responding with a user act. A sample-
+based method is presented for using real
+user data to estimate the parameters that
+control these decisions. Evaluation results
+are given both in terms of statistics of gen-
+erated user behaviour and the quality of
+policies trained with different simulators.
+Compared to a handcrafted simulator, the
+trained system provides a much better fit
+to corpus data and evaluations suggest that
+this better fit should result in improved di-
+alogue performance.
+1 

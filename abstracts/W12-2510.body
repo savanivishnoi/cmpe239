@@ -1,0 +1,21 @@
+
+Readers suffering from information overload
+have often turned to collections of pithy and
+famous quotations. While research on large-
+scale analysis of text reuse has found effective
+methods for detecting widely disseminated
+and famous quotations, this paper explores the
+complementary problem of detecting, from
+internal evidence alone, which phrases are
+quotable. These quotable phrases are mem-
+orable and succinct statements that people are
+likely to find useful outside of their original
+context. We evaluate quotable phrase extrac-
+tion using a large digital library and demon-
+strate that an integration of lexical and shallow
+syntactic features results in a reliable extrac-
+tion process. A study using a reddit commu-
+nity of quote enthusiasts as well as a simple
+corpus analysis further demonstrate the prac-
+tical applications of our work.
+1 

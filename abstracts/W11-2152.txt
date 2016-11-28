@@ -1,0 +1,11 @@
+
+This paper describes an experiment in which
+we try to automatically correct mistakes in
+grammatical agreement in English to Czech
+MT outputs. We perform several rule-based
+corrections on sentences parsed to dependency
+trees. We prove that it is possible to improve
+the MT quality of majority of the systems par-
+ticipating in WMT shared task. We made both
+automatic (BLEU) and manual evaluations.
+1 

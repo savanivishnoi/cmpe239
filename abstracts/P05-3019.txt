@@ -1,0 +1,15 @@
+
+We have previously introduced a method
+of word sense disambiguation that com-
+putes the intended sense of a target word,
+using WordNet-based measures of seman-
+tic relatedness (Patwardhan et al, 2003).
+SenseRelate::TargetWord is a Perl pack-
+age that implements this algorithm. The
+disambiguation process is carried out by
+selecting that sense of the target word
+which is most related to the context words.
+Relatedness between word senses is mea-
+sured using the WordNet::Similarity Perl
+modules.
+1 

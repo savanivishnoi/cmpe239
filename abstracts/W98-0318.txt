@@ -1,0 +1,23 @@
+ 
+In spite of their important quantitative role, 
+discourse particles have so far been ne- 
+glected in automatic speech processing for 
+two reasons: Firstly it is not clear what 
+they may contribute to the aims of auto- 
+matic speech processing, and secondly their 
+functions seem to vary so much that it 
+seems difficult to identify the information 
+relevant o such aims. The approach pre- 
+sented here therefore attempts to provide au- 
+tomatic means to distinguishing the different 
+readings of discourse particles and to filter- 
+ing out the information which can be use- 
+ful for speech understanding systems, em- 
+ploying positional information and their role 
+within a dialogue model of the respective do- 
+main, two types of information which are es- 
+pecially easy to obtain. First results indicate 
+that discourse particles can indeed be auto- 
+matically disambiguated on the basis of the 
+model proposed. 
+1 

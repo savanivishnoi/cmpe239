@@ -1,0 +1,18 @@
+. This paper describes an automatic summarization approach
+that constructs a summary by extracting the significant sentences. The
+approach takes advantage of the cooccurrence relationships between
+terms only in the document. The techniques used are principal compo-
+nent analysis (PCA) to extract the significant terms and singular value
+decompostion (SVD) to find out the significant sentences. The PCA can
+quantify both the term frequency and term-term relationship in the doc-
+ument by the eigenvalue-eigenvector pairs. And the sentence-term matrix
+can be decomposed into the proper dimensional sentence-concentrated
+and term-concentrated marices which are used for the Euclidean dis-
+tances between the sentence and term vectors and also removed the noise
+of variability in term usage by the SVD. Experimental results on Korean
+newspaper articles show that the proposed method is to be preferred
+over random selection of sentences or only PCA when summarization is
+the goal.
+keywords: Text summarization; Principal component analysis; Singular
+value decomposition.
+1 

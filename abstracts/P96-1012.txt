@@ -1,0 +1,20 @@
+ 
+In this paper 1 we present a new pars- 
+ing algorithm for linear indexed grammars 
+(LIGs) in the same spirit as the one de- 
+scribed in (Vijay-Shanker and Weir, 1993) 
+for tree adjoining grammars. For a LIG L 
+and an input string x of length n, we build 
+a non ambiguous context-free grammar 
+whose sentences are all (and exclusively) 
+valid derivation sequences in L which lead 
+to x. We show that this grammar can 
+be built in (9(n 6) time and that individ- 
+ual parses can be extracted in linear time 
+with the size of the extracted parse tree. 
+Though this O(n 6) upper bound does not 
+improve over previous results, the average 
+case behaves much better. Moreover, prac- 
+tical parsing times can be decreased by 
+some statically performed computations. 
+1 

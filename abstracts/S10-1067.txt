@@ -1,0 +1,18 @@
+ 
+This paper describes the PKU_HIT system 
+on event detection in the SemEval-2010 
+Task. We construct three modules for the 
+three sub-tasks of this evaluation. For 
+target verb WSD, we build a Na?ve 
+Bayesian classifier which uses additional 
+training instances expanded from an 
+untagged Chinese corpus automatically. 
+For sentence SRL and event detection, we 
+use a feature-based machine learning 
+method which makes combined use of 
+both constituent-based and dependency-
+based features. Experimental results show 
+that the Macro Accuracy of the WSD 
+module reaches 83.81% and F-Score of 
+the SRL module is 55.71%. 
+1 

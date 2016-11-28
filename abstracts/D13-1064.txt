@@ -1,0 +1,19 @@
+
+Creating a language-independent meaning
+representation would benefit many cross-
+lingual NLP tasks. We introduce the first un-
+supervised approach to this problem, learn-
+ing clusters of semantically equivalent English
+and French relations between referring expres-
+sions, based on their named-entity arguments
+in large monolingual corpora. The clusters
+can be used as language-independent semantic
+relations, by mapping clustered expressions
+in different languages onto the same relation.
+Our approach needs no parallel text for train-
+ing, but outperforms a baseline that uses ma-
+chine translation on a cross-lingual question
+answering task. We also show how to use the
+semantics to improve the accuracy of machine
+translation, by using it in a simple reranker.
+1 

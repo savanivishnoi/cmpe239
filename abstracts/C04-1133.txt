@@ -1,0 +1,22 @@
+
+In this paper, we introduce a model for sense as-
+signment which relies on assigning senses to the
+contexts within which words appear, rather than to
+the words themselves. We argue that word senses
+as such are not directly encoded in the lexicon
+of the language. Rather, each word is associated
+with one or more stereotypical syntagmatic pat-
+terns, which we call selection contexts. Each selec-
+tion context is associated with a meaning, which
+can be expressed in any of various formal or com-
+putational manifestations. We present a formalism
+for encoding contexts that help to determine the
+semantic contribution of a word in an utterance.
+Further, we develop a methodology through which
+such stereotypical contexts for words and phrases
+can be identified from very large corpora, and sub-
+sequently structured in a selection context dictio-
+nary, encoding both stereotypical syntactic and se-
+mantic information. We present some preliminary
+results.
+1 

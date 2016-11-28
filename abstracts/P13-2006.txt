@@ -1,0 +1,19 @@
+
+We propose a novel entity disambigua-
+tion model, based on Deep Neural Net-
+work (DNN). Instead of utilizing simple
+similarity measures and their disjoint com-
+binations, our method directly optimizes
+document and entity representations for a
+given similarity measure. Stacked Denois-
+ing Auto-encoders are first employed to
+learn an initial document representation in
+an unsupervised pre-training stage. A su-
+pervised fine-tuning stage follows to opti-
+mize the representation towards the simi-
+larity measure. Experiment results show
+that our method achieves state-of-the-art
+performance on two public datasets with-
+out any manually designed features, even
+beating complex collective approaches.
+1 

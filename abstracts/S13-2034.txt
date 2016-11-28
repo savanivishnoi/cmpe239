@@ -1,0 +1,18 @@
+
+This paper describes the NRC submission to
+the Spanish Cross-Lingual Word Sense Dis-
+ambiguation task at SemEval-2013. Since this
+word sense disambiguation task uses Spanish
+translations of English words as gold annota-
+tion, it can be cast as a machine translation
+problem. We therefore submitted the output of
+a standard phrase-based system as a baseline,
+and investigated ways to improve its sense dis-
+ambiguation performance. Using only local
+context information and no linguistic analy-
+sis beyond lemmatization, our machine trans-
+lation system surprisingly yields top precision
+score based on the best predictions. However,
+its top 5 predictions are weaker than those
+from other systems.
+1 

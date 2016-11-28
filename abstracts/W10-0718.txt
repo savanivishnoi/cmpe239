@@ -1,0 +1,22 @@
+
+One of the major bottlenecks in the develop-
+ment of data-driven AI Systems is the cost of
+reliable human annotations. The recent ad-
+vent of several crowdsourcing platforms such
+as Amazon?s Mechanical Turk, allowing re-
+questers the access to affordable and rapid re-
+sults of a global workforce, greatly facilitates
+the creation of massive training data. Most
+of the available studies on the effectiveness of
+crowdsourcing report on English data. We use
+Mechanical Turk annotations to train an Opin-
+ion Mining System to classify Spanish con-
+sumer comments. We design three different
+Human Intelligence Task (HIT) strategies and
+report high inter-annotator agreement between
+non-experts and expert annotators. We evalu-
+ate the advantages/drawbacks of each HIT de-
+sign and show that, in our case, the use of
+non-expert annotations is a viable and cost-
+effective alternative to expert annotations.
+1 

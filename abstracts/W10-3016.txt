@@ -1,0 +1,24 @@
+
+This paper describes the approach to
+hedge detection we developed, in order to
+participate in the shared task at CoNLL-
+2010. A supervised learning approach is
+employed in our implementation. Hedge
+cue annotations in the training data are
+used as the seed to build a reliable hedge
+cue set. Maximum Entropy (MaxEnt)
+model is used as the learning technique to
+determine uncertainty. By making use of
+Apache Lucene, we are able to do fuzzy
+string match to extract hedge cues, and
+to incorporate part-of-speech (POS) tags
+in hedge cues. Not only can our system
+determine the certainty of the sentence,
+but is also able to find all the contained
+hedges. Our system was ranked third on
+the Wikipedia dataset. In later experi-
+ments with different parameters, we fur-
+ther improved our results, with a 0.612
+F-score on the Wikipedia dataset, and a
+0.802 F-score on the biological dataset.
+1 

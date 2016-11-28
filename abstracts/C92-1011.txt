@@ -1,0 +1,17 @@
+ 
+Analysis of a corpus of queries to a statistical database 
+has shown considerable variation in the location and 
+order of modifiers in complex noun phrases. Never- 
+theless, restrictions can be defined on nominal mod- 
+ification because of certain correspondences between 
+nominal modifiers and the role they fulfill in a statisti- 
+cal database, notably that the names of database tables 
+and columns, and values of columns, are all determined 
+by the modifiers. These restrictions are described. In- 
+corporating these restrictions into Head-Driven Phrase 
+Structure Grammar (HPSG) has caused us to examine 
+the treatment ofnominal modification i HPSG. A new 
+treatment is proposed and an implementation within an 
+HPSG based natural language front-end to a statistical 
+database isdescribed. 
+1 

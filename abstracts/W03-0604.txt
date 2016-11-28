@@ -1,0 +1,29 @@
+
+We present on-going work on the topic of learn-
+ing translation models between image data and
+text (English) captions. Most approaches to
+this problem assume a one-to-one or a flat, one-
+to-many mapping between a segmented image
+region and a word. However, this assump-
+tion is very restrictive from the computer vi-
+sion standpoint, and fails to account for two
+important properties of image segmentation: 1)
+objects often consist of multiple parts, each
+captured by an individual region; and 2) indi-
+vidual regions are often over-segmented into
+multiple subregions. Moreover, this assump-
+tion also fails to capture the structural rela-
+tions among words, e.g., part/whole relations.
+We outline a general framework that accommo-
+dates a many-to-many mapping between im-
+age regions and words, allowing for struc-
+tured descriptions on both sides. In this paper,
+we describe our extensions to the probabilis-
+tic translation model of Brown et al (1993) (as
+in Duygulu et al (2002)) that enable the cre-
+ation of structured models of image objects.
+We demonstrate our work in progress, in which
+a set of annotated images is used to derive a set
+of labeled, structured descriptions in the pres-
+ence of oversegmentation.
+1 

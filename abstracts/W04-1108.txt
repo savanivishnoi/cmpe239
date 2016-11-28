@@ -1,0 +1,22 @@
+ 
+The input of network is the key problem for 
+Chinese Word sense disambiguation utilizing 
+the Neural Network. This paper presents an 
+input model of Neural Network that calculates 
+the Mutual Information between contextual 
+words and ambiguous word by using statistical 
+method and taking the contextual words to 
+certain number beside the ambiguous word 
+according to (-M, +N). The experiment adopts 
+triple-layer BP Neural Network model and 
+proves how the size of training set and the 
+value of M and N affect the performance of 
+Neural Network model. The experimental 
+objects are six pseudowords owning three 
+word-senses constructed according to certain 
+principles. Tested accuracy of our approach on 
+a close-corpus reaches 90.31%,, and 89.62% on 
+a open-corpus. The experiment proves that the 
+Neural Network model has good performance 
+on Word sense disambiguation. 
+1 

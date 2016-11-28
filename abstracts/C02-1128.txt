@@ -1,0 +1,18 @@
+
+We present a principled approach to the problem of con-
+necting a controlled document authoring system with a
+knowledge base. We start by describing closed-world au-
+thoring situations, in which the knowledge base is used
+for constraining the possible documents and orienting the
+user?s selections. Then we move to open-world author-
+ing situations in which, additionally, choices made dur-
+ing authoring are echoed back to the knowledge base. In
+this way the information implicitly encoded in a docu-
+ment becomes explicit in the knowledge base and can be
+re-exploited for simplifying the authoring of new doc-
+uments. We show how a Datalog KB is sufficient for
+the closed-world situation, while a Description Logic KB
+is better-adapted to the more complex open-world situ-
+ation. All along, we pay special attention to logically
+sound solutions and to decidability issues in the different
+processes.

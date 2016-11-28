@@ -1,0 +1,32 @@
+
+Kernel based methods dominate the current
+trend for various relation extraction tasks
+including protein-protein interaction (PPI)
+extraction. PPI information is critical in un-
+derstanding biological processes. Despite
+considerable efforts, previously reported
+PPI extraction results show that none of the
+approaches already known in the literature
+is consistently better than other approaches
+when evaluated on different benchmark PPI
+corpora. In this paper, we propose a
+novel hybrid kernel that combines (auto-
+matically collected) dependency patterns,
+trigger words, negative cues, walk fea-
+tures and regular expression patterns along
+with tree kernel and shallow linguistic ker-
+nel. The proposed kernel outperforms the
+exiting state-of-the-art approaches on the
+BioInfer corpus, the largest PPI benchmark
+corpus available. On the other four smaller
+benchmark corpora, it performs either bet-
+ter or almost as good as the existing ap-
+proaches. Moreover, empirical results show
+that the proposed hybrid kernel attains con-
+siderably higher precision than the existing
+approaches, which indicates its capability
+of learning more accurate models. This also
+demonstrates that the different types of in-
+formation that we use are able to comple-
+ment each other for relation extraction.
+1 

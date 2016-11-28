@@ -1,0 +1,15 @@
+
+In this paper, a generic system that gener-
+ates parsers from parsing schemata is ap-
+plied to the particular case of the XTAG
+English grammar. In order to be able to
+generate XTAG parsers, some transforma-
+tions are made to the grammar, and TAG
+parsing schemata are extended with fea-
+ture structure unification support and a
+simple tree filtering mechanism. The gen-
+erated implementations allow us to study
+the performance of different TAG parsers
+when working with a large-scale, wide-
+coverage grammar.
+1 

@@ -1,0 +1,18 @@
+ 
+This paper presents a mixed deterministic 
+model for coreference resolution in the 
+CoNLL-2012 shared task. We separate the 
+two main stages of our model, mention 
+detection and coreference resolution, into 
+several sub-tasks which are solved by 
+machine learning method and  
+deterministic rules based on multi-filters, 
+such as lexical, syntactic, semantic, gender 
+and number information. We participate in 
+the closed track for English and Chinese, 
+and also submit an open result for Chinese 
+using tools to generate the required features. 
+Finally, we reach the average F1 scores 
+58.68, 60.69 and 61.02 on the English 
+closed task, Chinese closed and open tasks.  
+1 

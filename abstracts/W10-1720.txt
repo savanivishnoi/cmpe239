@@ -1,0 +1,17 @@
+
+This paper describes the DCU machine
+translation system in the evaluation cam-
+paign of the Joint Fifth Workshop on Sta-
+tistical Machine Translation and Metrics
+in ACL-2010. We describe the modular
+design of our multi-engine machine trans-
+lation (MT) system with particular focus
+on the components used in this partici-
+pation. We participated in the English?
+Spanish and English?Czech translation
+tasks, in which we employed our multi-
+engine architecture to translate. We also
+participated in the system combination
+task which was carried out by the MBR
+decoder and confusion network decoder.
+1 

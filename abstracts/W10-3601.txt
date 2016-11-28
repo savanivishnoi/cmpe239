@@ -1,0 +1,18 @@
+
+Automatic  word  segmentation  errors, 
+for  languages  having  a  writing  system 
+without word boundaries, negatively af-
+fect the performance of language mod-
+els.  As a solution, the use of  multiple, 
+instead of unique, segmentation has re-
+cently  been  proposed.  This  approach 
+boosts  N-gram  counts  and  generates 
+new  N-grams.  However,  it  also  pro-
+duces bad N-grams that  affect the lan-
+guage models' performance. In this pa-
+per, we study more deeply the contribu-
+tion  of  our  multiple  segmentation  ap-
+proach  and experiment on an efficient 
+solution to minimize the effect of adding 
+bad N-grams.
+1 

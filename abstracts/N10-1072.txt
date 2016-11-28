@@ -1,0 +1,26 @@
+
+This paper address the problem of entity link-
+ing. Specifically, given an entity mentioned in
+unstructured texts, the task is to link this entity
+with an entry stored in the existing knowledge
+base. This is an important task for informa-
+tion extraction. It can serve as a convenient
+gateway to encyclopedic information, and can
+greatly improve the web users? experience.
+Previous learning based solutions mainly fo-
+cus on classification framework. However, it?s
+more suitable to consider it as a ranking prob-
+lem. In this paper, we propose a learning to
+rank algorithm for entity linking. It effectively
+utilizes the relationship information among
+the candidates when ranking. The experi-
+ment results on the TAC 20091 dataset demon-
+strate the effectiveness of our proposed frame-
+work. The proposed method achieves 18.5%
+improvement in terms of accuracy over the
+classification models for those entities which
+have corresponding entries in the Knowledge
+Base. The overall performance of the system
+is also better than that of the state-of-the-art
+methods.
+1 

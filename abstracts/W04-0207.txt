@@ -1,0 +1,25 @@
+
+Most research on automated categorization of doc-
+uments has concentrated on the assignment of one
+or many categories to a whole text. However, new
+applications, e.g. in the area of the Semantic Web,
+require a richer and more fine-grained annotation
+of documents, such as detailed thematic informa-
+tion about the parts of a document. Hence we in-
+vestigate the automatic categorization of text seg-
+ments of scientific articles with XML markup into
+16 topic types from a text type structure schema. A
+corpus of 47 linguistic articles was provided with
+XML markup on different annotation layers repre-
+senting text type structure, logical document struc-
+ture, and grammatical categories. Six different fea-
+ture extraction strategies were applied to this corpus
+and combined in various parametrizations in differ-
+ent classifiers. The aim was to explore the contribu-
+tion of each type of information, in particular the
+logical structure features, to the classification ac-
+curacy. The results suggest that some of the topic
+types of our hierarchy are successfully learnable,
+while the features from the logical structure layer
+had no particular impact on the results.
+1 

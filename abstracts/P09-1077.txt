@@ -1,0 +1,22 @@
+
+We present a series of experiments on au-
+tomatically identifying the sense of im-
+plicit discourse relations, i.e. relations
+that are not marked with a discourse con-
+nective such as ?but? or ?because?. We
+work with a corpus of implicit relations
+present in newspaper text and report re-
+sults on a test set that is representative
+of the naturally occurring distribution of
+senses. We use several linguistically in-
+formed features, including polarity tags,
+Levin verb classes, length of verb phrases,
+modality, context, and lexical features. In
+addition, we revisit past approaches using
+lexical pairs from unannotated text as fea-
+tures, explain some of their shortcomings
+and propose modifications. Our best com-
+bination of features outperforms the base-
+line from data intensive approaches by 4%
+for comparison and 16% for contingency.
+1 

@@ -1,0 +1,20 @@
+
+The problem of identifying good features
+for improving conventional language mod-
+els like trigrams is presented as a classifica-
+tion task in this paper. The idea is to use
+various syntactic and semantic features ex-
+tracted from a language for classifying be-
+tween real-world articles and articles gener-
+ated by sampling a trigram language model.
+In doing so, a good accuracy obtained on the
+classification task implies that the extracted
+features capture those aspects of the lan-
+guage that a trigram model may not. Such
+features can be used to improve the exist-
+ing trigram language models. We describe
+the results of our experiments on the classi-
+fication task performed on a Broadcast News
+Corpus and discuss their effects on language
+modeling in general.
+1 

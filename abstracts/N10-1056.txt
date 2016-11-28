@@ -1,0 +1,16 @@
+
+We report on work in progress on extract-
+ing lexical simplifications (e.g., ?collaborate?
+? ?work together?), focusing on utilizing
+edit histories in Simple English Wikipedia for
+this task. We consider two main approaches:
+(1) deriving simplification probabilities via an
+edit model that accounts for a mixture of dif-
+ferent operations, and (2) using metadata to
+focus on edits that are more likely to be sim-
+plification operations. We find our methods
+to outperform a reasonable baseline and yield
+many high-quality lexical simplifications not
+included in an independently-created manu-
+ally prepared list.
+1 

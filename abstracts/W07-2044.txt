@@ -1,0 +1,22 @@
+
+Data sparsity is one of the main factors that
+make word sense disambiguation (WSD)
+difficult. To overcome this problem we need
+to find effective ways to use resources other
+than sense labeled data. In this paper I de-
+scribe a WSD system that uses a statistical
+language model based on a large unanno-
+tated corpus. The model is used to evalu-
+ate the likelihood of various substitutes for a
+word in a given context. These likelihoods
+are then used to determine the best sense for
+the word in novel contexts. The resulting
+system participated in three tasks in the Se-
+mEval 2007 workshop. The WSD of prepo-
+sitions task proved to be challenging for the
+system, possibly illustrating some of its lim-
+itations: e.g. not all words have good sub-
+stitutes. The system achieved promising re-
+sults for the English lexical sample and En-
+glish lexical substitution tasks.
+1 

@@ -1,0 +1,29 @@
+ 
+Event Anaphora Resolution is an important 
+task for cascaded event template extraction 
+and other NLP study. In this paper, we provide 
+a first systematic study of resolving pronouns 
+to their event verb antecedents for general 
+purpose. First, we explore various positional, 
+lexical and syntactic features useful for the 
+event pronoun resolution. We further explore 
+tree kernel to model structural information 
+embedded in syntactic parses. A composite 
+kernel is then used to combine the above di-
+verse information. In addition, we employed a 
+twin-candidate based preferences learning 
+model to capture the pair wise candidates? pre-
+ference knowledge. Besides we also look into 
+the incorporation of the negative training in-
+stances with anaphoric pronouns whose ante-
+cedents are not verbs. Although these negative 
+training instances are not used in previous 
+study on anaphora resolution, our study shows 
+that they are very useful for the final resolu-
+tion through random sampling strategy. Our 
+experiments demonstrate that it?s meaningful 
+to keep certain training data as development 
+data to help SVM select a more accurate hyper 
+plane which provides significant improvement 
+over the default setting with all training data. 
+1 

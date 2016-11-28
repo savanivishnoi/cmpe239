@@ -1,0 +1,17 @@
+ 
+With the emergence ofhigh-performance speaker-independent sys- 
+tems, a great barrier to man-machine interface has been overcome. 
+This work describes our next step to improve the usability of speech 
+recognizers---the use of vocabulary-independent (VI) models. If 
+successful, VI models are trained once and for all. They will 
+completely eliminate task-specific training, and will enable rapid 
+configuration of speech recognizers for new vocabularies. Our initial 
+results using generalized triphones a VIi models how that with more 
+training data and more detailed modeling, the error rate of VI models 
+can be reduced substantially. For example, the error rates for VI 
+models with 5,000, 10,000 and 15,000 training sentences are 23.9%, 
+15.2% and 13.3% respectively. Moreover, if task-specific training 
+data were available, we can interpolate them with VI models. Our 
+prelimenary results show that this interpolation can lead to an 18% 
+error rate reduction over task-specific models. 
+1. 

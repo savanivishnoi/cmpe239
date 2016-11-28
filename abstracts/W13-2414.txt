@@ -1,0 +1,15 @@
+
+In the paper we discuss the problem of low
+recall for the named entity (NE) recogni-
+tion task for Polish. We discuss to what
+extent the recall of NE recognition can be
+improved by reducing the space of NE cat-
+egories. We also present several exten-
+sions to the binary model which give an
+improvement of the recall. The extensions
+include: new features, application of ex-
+ternal knowledge and post-processing. For
+the partial evaluation the final model ob-
+tained 90.02% recall with 91.30% preci-
+sion on the corpus of economic news.
+1 

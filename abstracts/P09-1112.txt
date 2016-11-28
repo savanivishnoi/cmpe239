@@ -1,0 +1,17 @@
+
+This paper investigates the class of Tree-
+Tuple MCTAG with Shared Nodes, TT-
+MCTAG for short, an extension of Tree
+Adjoining Grammars that has been pro-
+posed for natural language processing, in
+particular for dealing with discontinuities
+and word order variation in languages such
+as German. It has been shown that the uni-
+versal recognition problem for this formal-
+ism is NP-hard, but so far it was not known
+whether the class of languages generated
+by TT-MCTAG is included in PTIME. We
+provide a positive answer to this ques-
+tion, using a new characterization of TT-
+MCTAG.
+1 

@@ -1,0 +1,20 @@
+ 
+The CL Research system for SemEval-2 Task 
+10 for linking events and their participants in 
+discourse is an exploration of the use of a spe-
+cially created FrameNet dictionary that cap-
+tures all FrameNet information about frames, 
+lexical units, and frame-to-frame relations.  
+This system is embedded in a specially de-
+signed interface, the Linguistic Task Analyzer. 
+The implementation of this system was quite 
+minimal at the time of submission, allowing 
+only an initial completion of the role recogni-
+tion and labeling task, with recall of 0.112, 
+precision of 0.670, and F-score of 0.192. We 
+describe the design of the system and the con-
+tinuing efforts to determine how much of this 
+task can be performed with the available lexi-
+cal resources. Changes since the official sub-
+mission have improved the F-score to 0.266. 
+1 

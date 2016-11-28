@@ -1,0 +1,21 @@
+
+We study a novel shallow information ex-
+traction problem that involves extracting
+sentences of a given set of topic cate-
+gories from medical forum data. Given
+a corpus of medical forum documents,
+our goal is to extract two related types
+of sentences that describe a biomedical
+case (i.e., medical problem descriptions
+and medical treatment descriptions). Such
+an extraction task directly generates med-
+ical case descriptions that can be useful
+in many applications. We solve the prob-
+lem using two popular machine learning
+methods Support Vector Machines (SVM)
+and Conditional Random Fields (CRF).
+We propose novel features to improve the
+accuracy of extraction. Experiment results
+show that we can obtain an accuracy of up
+to 75%.
+1 

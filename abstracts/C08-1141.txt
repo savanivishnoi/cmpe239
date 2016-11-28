@@ -1,0 +1,20 @@
+ 
+We present a diagnostic evaluation plat-
+form which provides multi-factored eval-
+uation based on automatically con-
+structed check-points. A check-point is a 
+linguistically motivated unit (e.g. an am-
+biguous word, a noun phrase, a verb~obj 
+collocation, a prepositional phrase etc.), 
+which are pre-defined in a linguistic tax-
+onomy. We present a method that auto-
+matically extracts check-points from pa-
+rallel sentences. By means of check-
+points, our method can monitor a MT 
+system in translating important linguistic 
+phenomena to provide diagnostic evalua-
+tion. The effectiveness of our approach 
+for diagnostic evaluation is verified 
+through experiments on various types of 
+MT systems. 
+1 

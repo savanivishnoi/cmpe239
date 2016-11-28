@@ -1,0 +1,24 @@
+ 
+In the biological domain, extracting newly 
+discovered functional features from the 
+massive literature is a major challenging issue.  
+To automatically annotate Gene References 
+into Function (GeneRIF) in a new literature is 
+the main goal of this paper.  We tried to find 
+GRIF words in a training corpus, and then 
+applied these informative words to annotate the 
+GeneRIFs in abstracts with several different 
+weighting schemes.  The experiments showed 
+that the Classic Dice score is at most 50.18%, 
+when the weighting schemes proposed in the 
+paper (Hou et al, 2003) were adopted.  In 
+contrast, after employing Support Vector 
+Machines (SVMs) and the definition of classes 
+proposed by Jelier et al (2003), the score 
+greatly improved to 56.86% for Classic Dice 
+(CD).  Adopting the same features, SVMs 
+demonstrated advantage over the Na?ve Bayes 
+Classifier.  Finally, the combination of the 
+former two models attained a score of 59.51% 
+for CD. 
+1 

@@ -1,0 +1,17 @@
+
+This paper presents a Constraint Grammar-
+inspired machine learner and parser,  Ling?
+Pars, that assigns dependencies to morpho?
+logically annotated treebanks in a function-
+centred way. The system not only bases at?
+tachment probabilities for PoS, case, mood, 
+lemma on those features' function probabili?
+ties, but also uses topological features like 
+function/PoS  n-grams,  barrier  tags  and 
+daughter-sequences.  In  the  CoNLL shared 
+task, performance was below average on at?
+tachment  scores,  but  a  relatively  higher 
+score for  function tags/deprels  in  isolation 
+suggests that the system's strengths were not 
+fully exploited in the current architecture.
+1 

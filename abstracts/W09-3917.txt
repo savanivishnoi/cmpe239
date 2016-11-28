@@ -1,0 +1,21 @@
+
+Our aim is to build listening agents that
+can attentively listen to the user and sat-
+isfy his/her desire to speak and have him-
+self/herself heard. This paper investigates
+the characteristics of such listening-oriented
+dialogues so that such a listening process
+can be achieved by automated dialogue sys-
+tems. We collected both listening-oriented
+dialogues and casual conversation, and ana-
+lyzed them by comparing the frequency of
+dialogue acts, as well as the dialogue flows
+using HiddenMarkovModels (HMMs). The
+analysis revealed that listening-oriented dia-
+logues and casual conversation have charac-
+teristically different dialogue flows and that
+it is important for listening agents to self-
+disclose before asking questions and to utter
+more questions and acknowledgment than in
+casual conversation to be good listeners.
+1 

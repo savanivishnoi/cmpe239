@@ -1,0 +1,25 @@
+ 
+Prototypes of two direct audio/tactile access 
+methods are demonstrated that allow people 
+with print disabilities to "see" diagrams, maps, 
+charts, and other graphically-displayed 
+information. All methods require that labels or 
+other identifying information be available for 
+each important object in a figure. In web 
+applications, this additional information is
+accessed by exercising a link associated with an 
+object. People with severe visual disabilities 
+may need a tactile image mounted on a touch 
+screen to access object-related information. It is 
+expected that recently-introduced force 
+feedback "haptic mice" may soon provide asy 
+haptic access to the objects as well. The critical 
+factor that ensures accessibility is availability of 
+information about all important objects, since 
+there is currently no way to transform any but 
+the simplest purely visual graphic information 
+into audio or tactile/haptic information that is 
+easily understandable. These requirements, 
+which also ensure good searchability, should 
+influence development of future data structures 
+and visualization displays. 

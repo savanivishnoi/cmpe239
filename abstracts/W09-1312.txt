@@ -1,0 +1,18 @@
+ 
+In this paper we present an extractive system that au-
+tomatically generates gene summaries from the biomed-
+ical literature. The proposed text summarization system 
+selects and ranks sentences from multiple MEDLINE 
+abstracts by exploiting gene-specific information and 
+similarity relationships between sentences. We evaluate 
+our system on a large dataset of 7,294 human genes and 
+187,628 MEDLINE abstracts using Recall-Oriented 
+Understudy for Gisting Evaluation (ROUGE), a widely 
+used automatic evaluation metric in the text summariza-
+tion community. Two baseline methods are used for 
+comparison. Experimental results show that our system 
+significantly outperforms the other two methods with 
+regard to all ROUGE metrics. A demo website of our 
+system is freely accessible at 
+http://60.195.250.72/onbires/summary.jsp.  
+1 

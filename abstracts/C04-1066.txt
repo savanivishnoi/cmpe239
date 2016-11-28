@@ -1,0 +1,13 @@
+
+We introduce a character-based chunking for un-
+known word identification in Japanese text. A major
+advantage of our method is an ability to detect low
+frequency unknown words of unrestricted character
+type patterns. The method is built upon SVM-based
+chunking, by use of character n-gram and surround-
+ing context of n-best word segmentation candidates
+from statistical morphological analysis as features.
+It is applied to newspapers and patent texts, achiev-
+ing 95% precision and 55-70% recall for newspa-
+pers and more than 85% precision for patent texts.
+1 

@@ -1,0 +1,10 @@
+
+While shortest paths in WordNet are known to correlate well with
+semantic similarity, an is-a hierarchy is less suited for estimating se-
+mantic relatedness. We demonstrate this by comparing two free scale
+networks ( ConceptNet and Wikipedia) to WordNet. Using the Finkelstein-
+353 dataset we show that a shortest path metric run on Wikipedia
+attains a better correlation than WordNet-based metrics. Concept-
+Net attains a good correlation as well, but suffers from a low concept
+coverage.
+1 

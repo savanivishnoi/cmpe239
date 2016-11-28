@@ -1,0 +1,30 @@
+
+Our research investigates the translation of on-
+tology labels, which has applications in mul-
+tilingual knowledge access. Ontologies are
+often defined only in one language, mostly
+English. To enable knowledge access across
+languages, such monolingual ontologies need
+to be translated into other languages. The
+primary challenge in ontology label trans-
+lation is the lack of context, which makes
+this task rather different than document trans-
+lation. The core objective therefore, is to
+provide statistical machine translation (SMT)
+systems with additional context information.
+In our approach, we first extend standard SMT
+by enhancing a translation model with context
+information that keeps track of surrounding
+words for each translation. We compute a se-
+mantic similarity between the phrase pair con-
+text vector from the parallel corpus and a vec-
+tor of noun phrases that occur in surrounding
+ontology labels. We applied our approach to
+the translation of a financial ontology, translat-
+ing from English to German, using Europarl as
+parallel corpus. This experiment showed that
+our approach can provide a slight improve-
+ment over standard SMT for this task, with-
+out exploiting any additional domain-specific
+resources.
+1 

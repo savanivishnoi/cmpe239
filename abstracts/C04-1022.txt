@@ -1,0 +1,17 @@
+
+Statistical language modeling remains a challeng-
+ing task, in particular for morphologically rich lan-
+guages. Recently, new approaches based on factored
+language models have been developed to address
+this problem. These models provide principled ways
+of including additional conditioning variables other
+than the preceding words, such as morphological or
+syntactic features. However, the number of possible
+choices for model parameters creates a large space of
+models that cannot be searched exhaustively. This
+paper presents an entirely data-driven model selec-
+tion procedure based on genetic search, which is
+shown to outperform both knowledge-based and ran-
+dom selection procedures on two different language
+modeling tasks (Arabic and Turkish).
+1 

@@ -1,0 +1,11 @@
+
+We describe an approach to text planning that uses
+the XSLT template-processing engine to create log-
+ical forms for an external surface realizer. Using a
+realizer that can process logical forms with embed-
+ded alternatives provides a substitute for backtrack-
+ing in the text-planning process. This allows the text
+planner to combine the strengths of the AI-planning
+and template-based traditions in natural language
+generation.
+1 

@@ -1,0 +1,16 @@
+
+This paper describes a multi-word expression pro-
+cessor for preprocessing Turkish text for various
+language engineering applications. In addition to
+the fairly standard set of lexicalized collocations
+and multi-word expressions such as named-entities,
+Turkish uses a quite wide range of semi-lexicalized
+and non-lexicalized collocations. After an overview
+of relevant aspects of Turkish, we present a descrip-
+tion of the multi-word expressions we handle. We
+then summarize the computational setting in which
+we employ a series of components for tokenization,
+morphological analysis, and multi-word expression
+extraction. We finally present results from runs over
+a large corpus and a small gold-standard corpus.
+1 

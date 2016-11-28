@@ -1,0 +1,18 @@
+
+Psycholinguistic studies of metaphor process-
+ing must control their stimuli not just for
+word frequency but also for the frequency
+with which a term is used metaphorically.
+Thus, we consider the task of metaphor fre-
+quency estimation, which predicts how often
+target words will be used metaphorically. We
+develop metaphor classifiers which represent
+metaphorical domains through Latent Dirich-
+let Allocation, and apply these classifiers to
+the target words, aggregating their decisions to
+estimate the metaphorical frequencies. Train-
+ing on only 400 sentences, our models are able
+to achieve 61.3% accuracy on metaphor clas-
+sification and 77.8% accuracy on HIGH vs.
+LOW metaphorical frequency estimation.
+1 

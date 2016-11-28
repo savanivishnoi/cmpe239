@@ -1,0 +1,14 @@
+
+We apply Support Vector Machines (SVMs) to
+identify English base phrases (chunks). SVMs
+are known to achieve high generalization perfor-
+mance even with input data of high dimensional
+feature spaces. Furthermore, by the Kernel princi-
+ple, SVMs can carry out training with smaller com-
+putational overhead independent of their dimen-
+sionality. We apply weighted voting of 8 SVMs-
+based systems trained with distinct chunk repre-
+sentations. Experimental results show that our ap-
+proach achieves higher accuracy than previous ap-
+proaches.
+1 

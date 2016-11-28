@@ -1,0 +1,20 @@
+
+Natural Language Interfaces to Databases
+(NLIs) can benefit from the advances in statis-
+tical parsing over the last fifteen years or so.
+However, statistical parsers require training on
+a massive, labeled corpus, and manually cre-
+ating such a corpus for each database is pro-
+hibitively expensive. To address this quandary,
+this paper reports on the PRECISE NLI, which
+uses a statistical parser as a ?plug in?. The pa-
+per shows how a strong semantic model cou-
+pled with ?light re-training? enables PRECISE
+to overcome parser errors, and correctly map
+from parsed questions to the corresponding
+SQL queries. We discuss the issues in using
+statistical parsers to build database-independent
+NLIs, and report on experimental results with
+the benchmark ATIS data set where PRECISE
+achieves 94% accuracy.
+1 

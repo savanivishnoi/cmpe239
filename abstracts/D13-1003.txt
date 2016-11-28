@@ -1,0 +1,16 @@
+
+Distant supervision is a scheme to generate
+noisy training data for relation extraction by
+aligning entities of a knowledge base with
+text. In this work we combine the output of
+a discriminative at-least-one learner with that
+of a generative hierarchical topic model to re-
+duce the noise in distant supervision data. The
+combination significantly increases the rank-
+ing quality of extracted facts and achieves
+state-of-the-art extraction performance in an
+end-to-end setting. A simple linear interpo-
+lation of the model scores performs better
+than a parameter-free scheme based on non-
+dominated sorting.
+1 

@@ -1,0 +1,23 @@
+
+Syntactic machine translation systems extract
+rules from bilingual, word-aligned, syntacti-
+cally parsed text, but current systems for pars-
+ing and word alignment are at best cascaded
+and at worst totally independent of one an-
+other. This work presents a unified joint model
+for simultaneous parsing and word alignment.
+To flexibly model syntactic divergence, we de-
+velop a discriminative log-linear model over
+two parse trees and an ITG derivation which
+is encouraged but not forced to synchronize
+with the parses. Our model gives absolute
+improvements of 3.3 F1 for English pars-
+ing, 2.1 F1 for Chinese parsing, and 5.5 F1
+for word alignment over each task?s indepen-
+dent baseline, giving the best reported results
+for both Chinese-English word alignment and
+joint parsing on the parallel portion of the Chi-
+nese treebank. We also show an improvement
+of 1.2 BLEU in downstream MT evaluation
+over basic HMM alignments.
+1 

@@ -1,0 +1,14 @@
+
+We present two regression models for the prediction
+of pairwise preference judgments among MT hy-
+potheses. Both models are based on feature sets that
+are motivated by textual entailment and incorporate
+lexical similarity as well as local syntactic features
+and specific semantic phenomena. One model pre-
+dicts absolute scores; the other one direct pairwise
+judgments. We find that both models are compet-
+itive with regression models built over the scores
+of established MT evaluation metrics. Further data
+analysis clarifies the complementary behavior of the
+two feature sets.
+1 

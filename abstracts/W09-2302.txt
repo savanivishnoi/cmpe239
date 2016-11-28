@@ -1,0 +1,21 @@
+
+When aligning very different language pairs,
+the most important needs are the use of struc-
+tural information and the capability of gen-
+erating one-to-many or many-to-many corre-
+spondences. In this paper, we propose a
+novel phrase alignment method which models
+word or phrase dependency relations in depen-
+dency tree structures of source and target lan-
+guages. The dependency relation model is a
+kind of tree-based reordering model, and can
+handle non-local reorderings which sequen-
+tial word-based models often cannot handle
+properly. The model is also capable of esti-
+mating phrase correspondences automatically
+without any heuristic rules. Experimental re-
+sults of alignment show that our model could
+achieve F-measure 1.7 points higher than the
+conventional word alignment model with sym-
+metrization algorithms.
+1 

@@ -1,0 +1,21 @@
+
+The empirical adequacy of synchronous
+context-free grammars of rank two (2-SCFGs)
+(Satta and Peserico, 2005), used in syntax-
+based machine translation systems such as
+Wu (1997), Zhang et al (2006) and Chi-
+ang (2007), in terms of what alignments they
+induce, has been discussed in Wu (1997) and
+Wellington et al (2006), but with a one-sided
+focus on so-called ?inside-out alignments?.
+Other alignment configurations that cannot be
+induced by 2-SCFGs are identified in this pa-
+per, and their frequencies across a wide col-
+lection of hand-aligned parallel corpora are
+examined. Empirical lower bounds on two
+measures of alignment error rate, i.e. the one
+introduced in Och and Ney (2000) and one
+where only complete translation units are con-
+sidered, are derived for 2-SCFGs and related
+formalisms.
+1 

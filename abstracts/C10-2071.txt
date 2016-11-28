@@ -1,0 +1,18 @@
+ 
+Statistical word alignment often suffers 
+from data sparseness. Part-of-speeches 
+are often incorporated in NLP tasks to 
+reduce data sparseness. In this paper, 
+we attempt to mitigate such problem by 
+reflecting alignment tendency between 
+part-of-speeches to statistical word 
+alignment. Because our approach does 
+not rely on any language-dependent 
+knowledge, it is very simple and purely 
+statistic to be applied to any language 
+pairs. End-to-end evaluation shows that 
+the proposed method can improve not 
+only the quality of statistical word 
+alignment but the performance of sta-
+tistical machine translation. 
+1 

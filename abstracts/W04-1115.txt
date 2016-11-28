@@ -1,0 +1,38 @@
+
+Automatic topic segmentation, separation of a dis-
+course stream into its constituent stories or topics,
+is a necessary preprocessing step for applications
+such as information retrieval, anaphora resolution,
+and summarization. While significant progress has
+been made in this area for text sources and for En-
+glish audio sources, little work has been done in
+automatic, acoustic feature-based segmentation of
+other languages. In this paper, we consider exploit-
+ing both prosodic and text-based features for topic
+segmentation of Mandarin Chinese. As a tone lan-
+guage, Mandarin presents special challenges for ap-
+plicability of intonation-based techniques, since the
+pitch contour is also used to establish lexical iden-
+tity. We demonstrate that intonational cues such as
+reduction in pitch and intensity at topic boundaries
+and increase in duration and pause still provide sig-
+nificant contrasts in Mandarin Chinese. We build
+a decision tree classifier that, based only on word
+and local context prosodic information without ref-
+erence to term similarity, cue phrase, or sentence-
+level information, achieves boundary classification
+accuracy of 84.6-95.6% on a balanced test set. We
+contrast these results with classification using text-
+based features, exploiting both text similarity and
+n-gram cues, to achieve accuracies between 77-
+95.6%, if silence features are used. Finally we in-
+tegrate prosody, text, and silence features using a
+voting strategy to combine decision tree classifiers
+for each feature subset individually and all subsets
+jointly. This voted decision tree classifier yields
+an overall classification accuracy of 96.85%, with
+2.8% miss and 3.15% false alarm rates on a repre-
+sentative corpus sample, demonstrating synergistic
+combination of prosodic and text features for topic
+segmentation.
+1 

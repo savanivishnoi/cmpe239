@@ -1,0 +1,13 @@
+
+We propose an unsupervised Expectation
+Maximization approach to pronoun reso-
+lution. The system learns from a fixed
+list of potential antecedents for each pro-
+noun. We show that unsupervised learn-
+ing is possible in this context, as the per-
+formance of our system is comparable to
+supervised methods. Our results indicate
+that a probabilistic gender/number model,
+determined automatically from unlabeled
+text, is a powerful feature for this task.
+1 

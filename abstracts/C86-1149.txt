@@ -1,0 +1,16 @@
+  
+Building on the well-established premise that reliable machine 
+translation requires a significant degree of. text comprehension, 
+this paper presents a recent advance in multi-lingual knowledge- 
+based machine translation (KBMT). Unlike previous approaches, 
+the current method provides for separate syntactic and semantic 
+knowledge sources that are integrated dynamically for parsing 
+and generation. Such a separation enables the system to have 
+syntactic grammars, language specific but domain general, and 
+semantic knowledge bases, domain specific but language general. 
+Subsequently, grammars and domain knowledge are precompiled 
+automatically in any desired combination to produce very efficient 
+and very thorough real-time parsers. A pilot implementation of our 
+KBMT architecture using functional grammars and entity-oriented 
+semantics demonstrates the feasibility of the new approach? 
+1. 

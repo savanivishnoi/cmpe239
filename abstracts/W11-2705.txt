@@ -1,0 +1,22 @@
+
+Linguistic patterns reflect the regularities of
+Natural Language and their applicability is
+acknowledged in several Natural Language
+Processing tasks. Particularly, in the task of
+Question Generation, many systems depend
+on patterns to generate questions from text.
+The approach we follow relies on patterns
+that convey lexical, syntactic and semantic in-
+formation, automatically learned from large-
+scale corpora.
+In this paper we discuss the impact of varying
+several parameters during pattern learning and
+matching in the Question Generation task. In
+particular, we introduce semantics (by means
+of named entities) in our lexico-syntactic pat-
+terns. We evaluate and compare the number
+and quality of the learned patterns and the
+matched text segments. Also, we detail the
+influence of the patterns in the generation of
+natural language questions.
+1 

@@ -1,0 +1,20 @@
+
+This paper presents the experiments con-
+ducted by the Machine Translation group
+at DCU and Prompsit Language Engineer-
+ing for the WMT13 translation task. Three
+language pairs are considered: Spanish-
+English and French-English in both direc-
+tions and German-English in that direc-
+tion. For the Spanish-English pair, the use
+of linguistic information to select paral-
+lel data is investigated. For the French-
+English pair, the usefulness of the small in-
+domain parallel corpus is evaluated, com-
+pared to an out-of-domain parallel data
+sub-sampling method. Finally, for the
+German-English system, we describe our
+work in addressing the long distance re-
+ordering problem and a system combina-
+tion strategy.
+1 

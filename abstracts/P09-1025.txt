@@ -1,0 +1,21 @@
+
+Computational story telling has sparked
+great interest in artificial intelligence,
+partly because of its relevance to educa-
+tional and gaming applications. Tradition-
+ally, story generators rely on a large repos-
+itory of background knowledge contain-
+ing information about the story plot and
+its characters. This information is detailed
+and usually hand crafted. In this paper we
+propose a data-driven approach for gen-
+erating short children?s stories that does
+not require extensive manual involvement.
+We create an end-to-end system that real-
+izes the various components of the gen-
+eration pipeline stochastically. Our system
+follows a generate-and-and-rank approach
+where the space of multiple candidate sto-
+ries is pruned by considering whether they
+are plausible, interesting, and coherent.
+1 

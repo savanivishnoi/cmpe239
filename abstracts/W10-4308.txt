@@ -1,0 +1,15 @@
+
+We describe work done at three sites on
+designing conversational agents capable of
+incremental processing. We focus on the
+?middleware? layer in these systems, which
+takes care of passing around and maintain-
+ing incremental information between the
+modules of such agents. All implementa-
+tions are based on the abstract model of
+incremental dialogue processing proposed
+by Schlangen and Skantze (2009), and the
+paper shows what different instantiations
+of the model can look like given specific
+requirements and application areas.
+1 

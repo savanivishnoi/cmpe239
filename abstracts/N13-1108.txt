@@ -1,0 +1,20 @@
+
+In natural language question answering (QA)
+systems, questions often contain terms and
+phrases that are critically important for re-
+trieving or finding answers from documents.
+We present a learnable system that can ex-
+tract and rank these terms and phrases (dubbed
+mandatory matching phrases or MMPs), and
+demonstrate their utility in a QA system on In-
+ternet discussion forum data sets. The system
+relies on deep syntactic and semantic analysis
+of questions only and is independent of rele-
+vant documents. Our proposed model can pre-
+dict MMPs with high accuracy. When used in
+a QA system features derived from the MMP
+model improve performance significantly over
+a state-of-the-art baseline. The final QA sys-
+tem was the best performing system in the
+DARPA BOLT-IR evaluation.
+1 

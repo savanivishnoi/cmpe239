@@ -1,0 +1,22 @@
+
+In this paper, we examine several methods
+for including dynamic, contextually-sensitive
+binary codes within indirect selection typing
+methods using a grid with fixed symbol posi-
+tions. Using Huffman codes derived from a
+character n-gram model, we investigate both
+synchronous (fixed latency highlighting) and
+asynchronous (self-paced using long versus
+short press) scanning. Additionally, we look
+at methods that allow for scanning past a tar-
+get and returning to it versus methods that re-
+move unselected items from consideration. Fi-
+nally, we investigate a novel method for dis-
+playing the binary codes for each symbol to
+the user, rather than using cell highlighting, as
+the means for identifying the required input
+sequence for the target symbol. We demon-
+strate that dynamic coding methods for fixed
+position grids can be tailored for very diverse
+user requirements.
+1 

@@ -1,0 +1,25 @@
+ 
+In this paper, we present a method for 
+modeling joint information when gene-
+rating n-best lists. We apply the method 
+to a novel task of characterizing the simi-
+larity of a group of terms where only a 
+small set of many possible semantic 
+properties may be displayed to a user. 
+We demonstrate that considering the re-
+sults jointly, by accounting for the infor-
+mation overlap between results, generates 
+better n-best lists than considering them 
+independently. We propose an informa-
+tion theoretic objective function for mod-
+eling the joint information in an n-best 
+list and show empirical evidence that 
+humans prefer the result sets produced by 
+our joint model. Our results show with 
+95% confidence that the n-best lists gen-
+erated by our joint ranking model are 
+significantly different from a baseline in-
+dependent model 50.0% ? 3.1% of the 
+time, out of which they are preferred 
+76.6% ? 5.2% of the time. 
+1 

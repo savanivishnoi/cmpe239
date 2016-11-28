@@ -1,0 +1,28 @@
+
+Classifying and identifying semantic re-
+lations between facts and opinions on
+the Web is of utmost importance for or-
+ganizing information on the Web, how-
+ever, this requires consideration of a
+broader set of semantic relations than are
+typically handled in Recognizing Tex-
+tual Entailment (RTE), Cross-document
+Structure Theory (CST), and similar
+tasks. In this paper, we describe the con-
+struction and evaluation of a system that
+identifies and classifies semantic rela-
+tions in Internet data. Our system targets
+a set of semantic relations that have been
+inspired by CST but that have been gen-
+eralized and broadened to facilitate ap-
+plication to mixed fact and opinion data
+from the Internet. Our system identi-
+fies these semantic relations in Japanese
+Web texts using a combination of lexical,
+syntactic, and semantic information and
+evaluate our system against gold stan-
+dard data that was manually constructed
+for this task. We will release all gold
+standard data used in training and eval-
+uation of our system this summer.
+1 

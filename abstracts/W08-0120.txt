@@ -1,0 +1,19 @@
+ 
+This paper proposes a probabilistic framework 
+for spoken dialog management using dialog 
+examples. To overcome the complexity prob-
+lems of the classic partially observable Mar-
+kov decision processes (POMDPs) based 
+dialog manager, we use a frame-based belief 
+state representation that reduces the complexi-
+ty of belief update. We also used dialog ex-
+amples to maintain a reasonable number of 
+system actions to reduce the complexity of the 
+optimizing policy. We developed weather in-
+formation and car navigation dialog system 
+that employed a frame-based probabilistic 
+framework. This framework enables people to 
+develop a spoken dialog system using a prob-
+abilistic approach without complexity prob-
+lem of POMDP. 
+1 

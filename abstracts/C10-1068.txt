@@ -1,0 +1,20 @@
+
+This paper proposes a dependency-driven 
+scheme to dynamically determine the syn-
+tactic parse tree structure for tree ker-
+nel-based anaphoricity determination in 
+coreference resolution. Given a full syntactic 
+parse tree, it keeps the nodes and the paths 
+related with current mention based on con-
+stituent dependencies from both syntactic 
+and semantic perspectives, while removing 
+the noisy information, eventually leading to 
+a dependency-driven dynamic syntactic 
+parse tree (D-DSPT). Evaluation on the ACE 
+2003 corpus shows that the D-DSPT out-
+performs all previous parse tree structures on 
+anaphoricity determination, and that apply-
+ing our anaphoricity determination module 
+in coreference resolution achieves the so far 
+best performance. 
+1 

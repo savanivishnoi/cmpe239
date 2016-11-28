@@ -1,0 +1,28 @@
+
+We present first results using paraphrase as well as
+textual entailment data to test the language univer-
+sal constraint posited by Wu?s (1995, 1997) Inver-
+sion Transduction Grammar (ITG) hypothesis. In
+machine translation and alignment, the ITG Hypoth-
+esis provides a strong inductive bias, and has been
+shown empirically across numerous language pairs
+and corpora to yield both efficiency and accuracy
+gains for various language acquisition tasks. Mono-
+lingual paraphrase and textual entailment recogni-
+tion datasets, however, potentially facilitate closer
+tests of certain aspects of the hypothesis than bilin-
+gual parallel corpora, which simultaneously exhibit
+many irrelevant dimensions of cross-lingual varia-
+tion. We investigate this using simple generic Brack-
+eting ITGs containing no language-specific linguis-
+tic knowledge. Experimental results on the MSR
+Paraphrase Corpus show that, even in the absence
+of any thesaurus to accommodate lexical variation
+between the paraphrases, an uninterpolated aver-
+age precision of at least 76% is obtainable from
+the Bracketing ITG?s structure matching bias alone.
+This is consistent with experimental results on the
+Pascal Recognising Textual Entailment Challenge
+Corpus, which show surpisingly strong results for a
+number of the task subsets.
+1 

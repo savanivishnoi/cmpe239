@@ -1,0 +1,29 @@
+
+It is practically impossible to build a
+word-based lexicon for speech recogni-
+tion in agglutinative languages that would
+cover all the relevant words. The prob-
+lem is that words are generally built by
+concatenating several prefixes and suffixes
+to the word roots. Together with com-
+pounding and inflections this leads to mil-
+lions of different, but still frequent word
+forms. Due to inflections, ambiguity and
+other phenomena, it is also not trivial to
+automatically split the words into mean-
+ingful parts. Rule-based morphological
+analyzers can perform this splitting, but
+due to the handcrafted rules, they also suf-
+fer from an out-of-vocabulary problem. In
+this paper we apply a recently proposed
+fully automatic and rather language and
+vocabulary independent way to build sub-
+word lexica for three different agglutina-
+tive languages. We demonstrate the lan-
+guage portability as well by building a
+successful large vocabulary speech recog-
+nizer for each language and show superior
+recognition performance compared to the
+corresponding word-based reference sys-
+tems.
+1 

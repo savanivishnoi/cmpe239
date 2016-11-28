@@ -1,0 +1,18 @@
+
+Natural language processing (NLP) programs are
+confronted with various diculties in processing
+HTML and XML documents, and have the po-
+tential to produce better results if linguistic infor-
+mation is annotated in the source texts. We have
+therefore developed the Linguistic Annotation Lan-
+guage (or LAL), which is an XML-compliant tag set
+for assisting natural language processing programs,
+and NLP tools such as parsers and machine trans-
+lation programs which can accept LAL-annotated
+input. In addition, we have developed a LAL-
+annotation editor which allows users to annotate
+documents graphically without seeing tags. Fur-
+ther, we have conducted an experiment to check
+the translation quality improvement by using LAL
+annotation.
+1 

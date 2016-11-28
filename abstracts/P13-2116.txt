@@ -1,0 +1,22 @@
+
+Tabular information in text documents
+contains a wealth of information, and
+so tables are a natural candidate for in-
+formation extraction. There are many
+cues buried in both a table and its sur-
+rounding text that allow us to under-
+stand the meaning of the data in a ta-
+ble. We study how natural-language
+tools, such as part-of-speech tagging,
+dependency paths, and named-entity
+recognition, can be used to improve the
+quality of relation extraction from ta-
+bles. In three domains we show that (1)
+a model that performs joint probabilis-
+tic inference across tabular and natural
+language features achieves an F1 score
+that is twice as high as either a pure-
+table or pure-text system, and (2) us-
+ing only shallower features or non-joint
+inference results in lower quality.
+1 

@@ -1,0 +1,20 @@
+ 
+This paper studies the problem of identifying 
+users who use multiple userids to post in so-
+cial media. Since multiple userids may belong 
+to the same author, it is hard to directly apply 
+supervised learning to solve the problem. This 
+paper proposes a new method, which still uses 
+supervised learning but does not require train-
+ing documents from the involved userids. In-
+stead, it uses documents from other userids 
+for classifier building. The classifier can be 
+applied to documents of the involved userids. 
+This is possible because we transform the 
+document space to a similarity space and 
+learning is performed in this new space. Our 
+evaluation is done in the online review do-
+main. The experimental results using a large 
+number of userids and their reviews show that 
+the proposed method is highly effective. 
+1 

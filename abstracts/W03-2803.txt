@@ -1,0 +1,26 @@
+
+We present new statistical methods for
+evaluating information extraction sys-
+tems. The methods were developed
+to evaluate a system used by polit-
+ical scientists to extract event infor-
+mation from news leads about inter-
+national politics. The nature of this
+data presents two problems for evalu-
+ators: 1) the frequency distribution of
+event types in international event data
+is strongly skewed, so a random sample
+of newsleads will typically fail to con-
+tain any low frequency events. 2) Man-
+ual information extraction necessary to
+create evaluation sets is costly, and most
+effort is wasted coding high frequency
+categories .
+We present an evaluation scheme that
+overcomes these problems with consid-
+erably less manual effort than traditional
+methods, and also allows us to interpret
+an information extraction system as an
+estimator (in the statistical sense) and to
+estimate its bias.
+1 

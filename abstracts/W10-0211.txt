@@ -1,0 +1,17 @@
+
+We investigate techniques for generating al-
+ternative output sentences with varying sen-
+timent, using (an approximation to) the
+Valentino method, based on SentiWordNet, of
+Guerini et al We extend this method by filter-
+ing out unacceptable candidate sentences, us-
+ing bigrams sourced from different corpora to
+determine whether lexical substitutions are ap-
+propriate in the given context. We also com-
+pare the generated candidates against human
+judgements of whether the desired sentiment
+shift has occurred: our results suggest limi-
+tations with the overall knowledge-based ap-
+proach, and we propose potential directions
+for improvement.
+1 

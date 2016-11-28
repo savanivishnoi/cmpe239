@@ -1,0 +1,22 @@
+
+The third PASCAL Recognizing Textual En-
+tailment Challenge (RTE-3) contained an op-
+tional task that extended the main entailment
+task by requiring a system to make three-way
+entailment decisions (entails, contradicts, nei-
+ther) and to justify its response. Contradic-
+tion was rare in the RTE-3 test set, occurring
+in only about 10% of the cases, and systems
+found accurately detecting it difficult. Subse-
+quent analysis of the results shows a test set
+must contain many more entailment pairs for
+the three-way decision task than the traditional
+two-way task to have equal confidence in sys-
+tem comparisons. Each of six human judges
+representing eventual end users rated the qual-
+ity of a justification by assigning ?understand-
+ability? and ?correctness? scores. Ratings of
+the same justification across judges differed
+significantly, signaling the need for a better
+characterization of the justification task.
+1 

@@ -1,0 +1,23 @@
+
+OCR (Optical Character Recognition) scan-
+ners do not always produce 100% accuracy
+in recognizing text documents, leading to
+spelling errors that make the texts hard to
+process further. This paper presents an in-
+vestigation for the task of spell checking
+for OCR-scanned text documents. First, we
+conduct a detailed analysis on characteris-
+tics of spelling errors given by an OCR
+scanner. Then, we propose a fully auto-
+matic approach combining both error detec-
+tion and correction phases within a unique
+scheme. The scheme is designed in an un-
+supervised & data-driven manner, suitable
+for resource-poor languages. Based on the
+evaluation on real dataset in Vietnamese
+language, our approach gives an acceptable
+performance (detection accuracy 86%, cor-
+rection accuracy 71%). In addition, we also
+give a result analysis to show how accurate
+our approach can achieve.
+1 

@@ -1,0 +1,17 @@
+
+The inherent robustness of a system might be an
+important prerequisite for an incremental pars-
+ing model to the effect that grammaticality re-
+quirements on full sentences may be suspended
+or allowed to be violated transiently. How-
+ever, we present additional means that allow the
+grammarian to model prefix-analyses by alter-
+ing a grammar for non-incremental parsing in a
+controlled way. This is done by introducing un-
+derspecified dependency edges that model the
+expected relation between already seen and yet
+unseen words during parsing. Thus the basic
+framework of weighted constraint dependency
+parsing is extended by the notion of dynamic
+dependency parsing.
+1 

@@ -1,0 +1,15 @@
+
+In many computational linguistic scenarios,
+training labels are subjectives making it nec-
+essary to acquire the opinions of multiple an-
+notators/experts, which is referred to as ?wis-
+dom of crowds?. In this paper, we propose a
+new approach for modeling wisdom of crowds
+based on the Latent Mixture of Discrimina-
+tive Experts (LMDE) model that can automat-
+ically learn the prototypical patterns and hid-
+den dynamic among different experts. Experi-
+ments show improvement over state-of-the-art
+approaches on the task of listener backchannel
+prediction in dyadic conversations.
+1 

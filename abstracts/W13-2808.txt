@@ -1,0 +1,25 @@
+
+Phrase-based statistical machine transla-
+tion systems can generate translations of
+reasonable quality in the case of language
+pairs with similar structure and word or-
+der. However, if the languages are more
+distant from a grammatical point of view,
+the quality of translations is much behind
+the expectations, since the baseline trans-
+lation system cannot cope with long dis-
+tance reordering of words and the mapping
+of word internal grammatical structures.
+In our paper, we present a method that tries
+to overcome these problems in the case of
+English-Hungarian translation by apply-
+ing reordering rules prior to the translation
+process and by creating morpheme-based
+and factored models. Although automatic
+evaluation scores do not reliably reflect the
+improvement in all cases, human evalua-
+tion of our systems shows that readabil-
+ity and accuracy of the translations were
+improved both by reordering and applying
+richer models.
+1 

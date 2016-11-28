@@ -1,0 +1,22 @@
+
+Most works on relation extraction assume
+considerable human effort for making an
+annotated corpus or for knowledge engi-
+neering. Generic patterns employed in
+KnowItAll achieve unsupervised, high-
+precision extraction, but often result in low
+recall. This paper compares two boot-
+strapping methods to expand recall that
+start with automatically extracted seeds
+by KnowItAll. The first method is string
+pattern learning, which learns string con-
+texts adjacent to a seed tuple. The second
+method learns less restrictive patterns that
+include bags of words and relation-specific
+named entity tags. Both methods improve
+the recall of the generic pattern method. In
+particular, the less restrictive pattern learn-
+ing method can achieve a 250% increase
+in recall at 0.87 precision, compared to the
+generic pattern method.
+1 

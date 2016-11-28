@@ -1,0 +1,21 @@
+
+Social Network Service (SNS) and personal
+blogs have become the most popular platform
+for online communication and sharing infor-
+mation. However because most modern com-
+puter keyboards are Latin-based, Asian lan-
+guage speakers (such as Chinese) has to rely
+on a input system which accepts Romanisation
+of the characters and convert them into charac-
+ters or words in that language. In Chinese this
+form of Romanisation (usually called Pinyin)
+is highly ambiguous, word misuses often oc-
+cur because the user choose a wrong candi-
+date or deliverately substitute the word with
+another character string that has the identical
+Romanisation to convey certain semantics, or
+to achieve a sarcasm effect. In this paper we
+aim to develop a system that can automati-
+cally identify such word misuse, and suggest
+the correct word to be used.
+1 

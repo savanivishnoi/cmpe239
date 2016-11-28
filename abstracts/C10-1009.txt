@@ -1,0 +1,14 @@
+
+A novel and robust approach to improv-
+ing statistical machine translation fluency
+is developed within a minimum Bayes-
+risk decoding framework. By segment-
+ing translation lattices according to con-
+fidence measures over the maximum like-
+lihood translation hypothesis we are able
+to focus on regions with potential transla-
+tion errors. Hypothesis space constraints
+based on monolingual coverage are ap-
+plied to the low confidence regions to im-
+prove overall translation fluency.
+1 

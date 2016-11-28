@@ -1,0 +1,28 @@
+ 
+Opinion mining is a growing research 
+area both at the natural language proc-
+essing and the information retrieval 
+communities.  Companies, politicians, 
+as well as customers need powerful 
+tools to track opinions, sentiments, 
+judgments and beliefs that people may 
+express in blogs, reviews, audios and 
+videos data regarding a prod-
+uct/service/person/organisation/etc. This 
+work describes our contribution to fea-
+ture based opinion mining where opin-
+ions expressed towards each feature of 
+an object or a product are extracted and 
+summarized. The state of the art has 
+shown that the hierarchical organization 
+of features is a key step. In this context, 
+our goal is to study the role of a domain 
+ontology to structure and extract object 
+features as well as to produce a compre-
+hensive summary. This paper presents 
+the developed system and the experi-
+ments we carried out on a case study: 
+French restaurant reviews. Our results 
+show that our approach outperforms 
+standard baselines. 
+1 

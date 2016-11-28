@@ -1,0 +1,8 @@
+ 
+This paper presents a procedure to automaticafly learn German 
+prepositional subcategofization frames fzom text corpora. It is based 
+on shallow parsing techniques employed to identify high-accuracy cues 
+for prepositional frames, the EM algorithm to solve the PP attachment 
+problem implicit in the task, and a method to rank the evidence for 
+subcategorization provided by the collected data. 
+1 

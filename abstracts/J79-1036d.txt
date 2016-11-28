@@ -1,0 +1,529 @@
+ only) . . . . . . . . .  67 
+Grammatical Compression in Notes and Records: Analysis 
+and Cornputdtion Barbara B .  Anderson, Irwin D. J .  Bross, and 
+Naomi Sager . . . . . . . . . . . . . . . . . . . . . . .  68 
+American Journal of Computational Linguistics Microfiche 36 : 4 
+DAV.ID KLAPPHOLZ AND ABE LOCKMAN 
+Department of Elec t r i ca l  E n g i n e e r i n g  
+and Computer Science 
+Columbla Vniversi t y  
+N e w  Yorh, New York 1 0 0 2 7  
+ABSTRACT 
+With the exception of pranomial reference, little, has been written 
+(in the field of computational linguistics) about the phenomenon of reference 
+in  natural language. This paper investigates the power and use of 
+reference in natural language. and the problems involved in its resolution. 
+An algorithm is sketched for accomplishing reference resolution using 
+a notion of cross-sentential focus, a mechanism fo r  hypothesizing all  
+possible contextual references, and a judgment mechanism for  dis - 
+~r i rn ina t i  ng among the hypotheses. 
+The reference resolution problem 
+The present work began as an attempt to develop a set  of 
+algorithms and/or heurietics to enable a primitive-based, inference - 
+driven model of a natural language user (Schank 1972 Rieger 1974) to 
+properly resolve pronomial references acmee eentence bmndaries. The 
+authors quickly realized, however, that the problem of pronomial reference 
+resolution is only a .small aspect of a problem which might be termed 
+nominal reference resolution, itself but a 8-11 aspect of the problem 'of 
+the coherence of d text, (or conversation) i, em the manner in which it 
+llmeansu more than the logicd conjunction of the meaningp of its in- 
+dividual constituent aentences, 
+Examples of tqe f i rs t  problem, i. e. pronomial reference resohtion 
+a r e  given in sentence sequences 1-4 below. 
+1. Yesterday some boys from our village chased a pack of wild dogs; 
+the largest one fell into a ditch. 
+2. The wild dogs which forage just outside our village suffer from a 
+strange bone-wealeining disealte. Yesterday some boys from our 
+village chased a pack of wild dogs* the largeat one broke a leg and 
+fell into a ditch. 
+3. Yesterday John chased Bill half a block; he was soon out of breath. 
+4. My friend Bill has an extremely severe case of asthma. Yesterday 
+John chased Bill half a block; he was soon out of breath. 
+The ~ r o b l e m  in utterance (text, conversation etc. ) excerpts of the 
+above type is #hat of determining the referents of W e  various occurrences 
+of the pronouns I '  one, I '  and "heN 
+For the moment we simply note that usually preferred referents 
+of the two occurreqces of llonell a r e  I1boyl1 and I l d ~ g ~ ~ ,  (examples 1 and 
+2 respectively) and those of the two occurrehces of "hew a re  I1Johnl1 
+and Bill (exampies 3 and 4 respectively. ) 
+The more general p r ~ b l e m  of nominal reference resolution is 
+exhibited in ?he following annotated excerpt from a recent newpaper 
+article (N. Y. Times 7/15/75, byline Arnold Lubasch); subscripted 
+bracketing of the excerpt is intended only to enable later reference to 
+specific parts of the text. 
+1 [Some of the tnajor provisions of [the state's Fair  Campaign 2 \ were declared unconstitutional here yesterday oy [a special 3 
+Federal court] that assailed [the restiictions on election campaigning] 3 4 
+as  "repugnant to the right of freedom of speech. " 
+5  h he three-judge court, ] whi* was convened to consider a 5 
+constitutional challenge by three State As sembly candidates last  year 
+threw out [ [the ' code' s] prohibition against attacking any political 6 7 7 
+candidate's xa ce, sex, - religion or ethnic background] 6 
+*[It]* also overtuned [ [ [ the codets]ll ban lo  on any 9 10 11 
+misrepresentation of a candidate1 a party affiliation, position on political 
+issues and personal qualifications, including the use af llcharacter 
+defamationr1 and scurrilous attacks. I l l 9  
+Accordbg to [the caurt1s]12 38-page decision, written by 12 
+13  [Judge Henry F. Werber] with &he concurrence of [Judges Leonard 13 14 
+P. hdoore, and Mark A. Con~tan t ing]~~ .  15[ 16[the provisions b a ~ h g  116 
+misrepresentation Irca st a substantial chill on the expres sion of 
+protected speech that a r e  unconstitutionally overbroad and vague. l 1  
+If newpaper reporters had a bit more sympathy for those of u s  
+concerned with natu-1 language poocessing, the above excerpt might 
+have read as  follows: 
+The state has a Fair Campaign Code. 
+Some of the major provisions of the state's Fair  Campagin Code 
+a r e  provisions which restrict something. 
+Some of the things restricted by some of the major provisions of 
+the state's Fair  Campaign Code which restrict  something a r e  activities 
+having to do with election campaigning. 
+Same of the activities having to do with election campaigning which 
+a r e  restricted by some of the major ,provisions of the state's Fair  
+Campaign Code whioh restrict something are attacking a political 
+candidate's race, sex, religions or  ethnic background and misrepresent- 
+ing a) candidate1 s party affiliation, position on political is sue s . . . 
+Last year three state assembly canddiates filed a constihtional 
+challenge to some of the major provisions of the state's Fair  Campaign 
+Code which restrict  something. 
+Y esterday a special Federal court declared unconstitutional thou of the 
+major provisione of the state's Fair  Campaign Code which restrict  . 
+something . . , 
+The p& is that in order for  a machine or a human to validly 
+claim to have Ilunder~tood~~ the original excerpt& helshelit  must be able 
+at  the very least to dekonstrate that he/she/it  has established the 
+following relationships between various items occurring in the excerpt. 
+(Iqtegers ap rbsen t  subscripted bracketed regments of the original excerpt. ) 
+(f)  The identity of 2 ,  7, and 11 
+(ii) The identity of 3, 5, 8, and 12 
+(iii) The fact that 4, 6, 9, and 15 a re  elements, subsets or  p a f b  of 1 
+(iv) The fact that 13 and 14 a re  members of 3 
+and on and on and on. (I. em a closer analysis of the original excerpt 
+reveals many more relationships which must be established before 
+llundeirstandingu may be clamed. ) 
+It people sctually wrotelspoke in the style of the somewhat 
+facetious paraphrase of the original excerpt, the nominal reference 
+problem would be reduced to one of matching lexcial patterns and 
+recognising a few syntactic cues; to state the obvious, the necessity for 
+more* succinct linguistic communication has forced the development of 
+elliptical devices which shia  the burden of nominal reference resolution 
+from syntactic analysis to an analysis of the Hsemanticsll of sentences 
+in context. More specifically, nominal references cannot in general be 
+resolved without the use of general semantic infarmation a s  well as  
+specific world knowledge. 
+While the fact that syntactic a-lysis alone i s  insufficient for 
+understmding is  anything but novel, the question of the magnitude of the 
+nominal reference problem and of its solution1 s crucial dependence upon 
+local context seems to have been little commented upon. (Clark (1975) 
+discussee the problem from a viewpoint different from that of this paper, ) 
+The reader who remains unconvinced by the examples above that 
+local context (and specific world knowledge relating to local context) 
+must play a crucial role in reference resolution i s  asked to consider the 
+two sentence sequences 5a, 6, and 5b, 6. 
+5. a. The founding fathers had a difficult time agreeing on how the 
+basic laws governing our country should be framed. 
+b. Those foolish people a t  the country club have spent an incredible 
+amount of time arguing about club rules. 
+6. The second article of the constitution, for example, was argued 
+about for months before agreement was reached. 
+In sentence sequence 5a, 6, Itthe second articlett  clearly refers to 
+the second article of the constitution of the United States, while in 
+sentence sequence 5b, 6, the reference i s  to the second article of the 
+constitution of the country club. In each case the only factor involved 
+in resolving the reference is the semantic content of i ts  10-1 aontext- 
+in this case the meaning of the sentende preceding the one in which tke 
+reference occurs. 
+Since the lexical item Itthe constitutiontt appears in the example 
+just considered, a word- concerning such proper-noun-like objects is in 
+order. In any language ?here a re  lexical Items and phrases such as 
+those appearing in 7 below, which, in the absence of compelling 
+alternative, have standard default ref erentsf for example the standard 
+default referents of the items in 7 a r e  the corresponding items in 8 
+7. a. The constitution 
+b. The founding fathers 
+c. Wall Street 
+d. The establishment 
+e. The presiaent 
+f. Madison Avenue 
+8. a. The constitution of the U. S. 
+b. The flhnding fathers of the U. S. 
+C. The U. S. business. community (or that par t  of it residing in 
+New Yotk City. ) 
+d. Those people who have the power to influence the course of events 
+in the nation etc. etc. 
+e. The president of the U. S. 
+f. The advertising industry. 
+In order for textual occurrm-ce of such proper-noun-like objects to be 
+properly handled, their standard default referents must be listed in the 
+lexicon. This is not to say that occurrences of proper-noun-like objects 
+cannot be references to objects occurring previously in the text; rather 
+-
+it is the case that their default options must also be considered a s  
+possible referents. 
+As  final examples of the reference resolution problem let  us  con- 
+sider sentence sequences 9 and 10 below. 
+9. The president was shot while riding in a motorcade down one of the 
+major boulevards of Dallas yesterday; it caused a panic on Wall 
+Street. 
+10. John was invited to tea at the Quimbyls last  Saturday; he would have 
+loveq to go, but he knew held be busy then. 
+In example 9, while t&e first sentence of the eequence contains a 
+number of noun objects (president, motorcade, boulevards, Dallas) 
+which a r e  potential referents for the occurrence of r l i t l l  in the second 
+sentence, none of the these is in fact, the proper referent; rather, the 
+proper referent of I f i t l t  i s  the event (or fact) that "The president was 
+shot while . . . . I t  
+In example 10 we have an instance of an  adverbial reference 
+("thenf1) which must be recognized a s  referring to flyesterday" rather 
+than bo some non adverbial object occurring in the f i r s t  sentence of 
+that example, 
+Sketch of a Solution 
+F r s m  the point of view of computer implementation, the problem 
+of nominal reference resolution is one of creating tokens for noun 
+objects mentioned in a text, and discovering and encoding the relations, 
+alluded to in the text, which hold between them and various other tokens 
+in memory. 
+This problem, though certainly not i t  s magnitude or  ramifications, 
+was noticed by Rieger (1974) in his poineering implementation of a 
+primitive-based model of a natural language user. Riegerls system, 
+however, suffers from the incredible inefficiency r esuIting f rom its  need 
+to search all  of memory in order to attempt any reference resolution; 
+in addition it will often miss a quite obvious referent entirely, and, in 
+fact, resolves non-pronomial references only accidentally i f  at all. 
+Before presenting a sketch of a proposed solution to the nominal 
+reference resolution problem, it would be well to detail more precisely 
+the overall language processing enviornment within which it i s  meint  to 
+operate and of which it is a most necessary part. 
+First,  we adsume that a relatively small set, S, of semantic 
+primitives and $ logical-calculus -like language, L, for expressing 
+ltmeaningsll a r e  available. The set  S and language L must satisfy the 
+following two conditions. 
+(i) The predicate, function, and constant eymbols of L a r e  members of 
+S .  
+(ii) There is a one-to-o* mapping f rom meanings of (natural language) 
+sentences to formulas of L. 
+While a set of prki i t ives  and a meaning representation language 
+even demonstably close to satisfying the above conditions have yet to be 
+produced, we will, in examples to follow, make use of meaning represen 
+tations; the only claim we will make for them is that the functibns 
+served by their constituent constructs must be served by the elements 
+of any adequate system. 
+In addition to a meaning representation scheme we will assume en 
+encoding of world knowledge of the sort  which a lltypicallt adult might 
+possess, again with the same obvious caveat. 
+While the question of translation from natural language sentence8 
+to'meaning representations will not be touched upon here ,  we will 
+sasume sentence -by- sentence translation of the sort  exhibited in various 
+examples to follow. 
+The solution  PO the reference resolution problem res ts  in recog- 
+nizing the fact that reference is an elliptical device, and +that the 
+human under stander of. natural language cannot recapture that which was 
+elided once he is too far from it in the text; in fact, he cannot resolve 
+a reference to a p i n t  in the text more than a few-sentences back with- 
+out going back and pondering i t  (if he can do so at all). We should note 
+that this i s  true even ih the case in which the referent doesn't 
+actually appear in the text, but appears only in an inference f rom some 
+statement made in the text. In this latter case - a case which we will 
+discuss only a t  the very end of this paper the reference is not resolvable 
+(and would not therefore have Been made by the c ~ e a t o r  of the text in the 
+first place). unless the statement from which the inference is made 
+appears shortly before in the text . Though we cannot say precisely 
+how far back i s  meant by. "shortly before, " it is certainly no more than 
+a few sentences. Fbr a given sentence, S, appearing in a text we will 
+refer to the gequence of sentences preceding S by no more than the 
+intended distance as the focus of S. 
+In terms of computer implementation, we will, in the processing of 
+a text (which we conc-eive of as proceeding sentence-by-sentence), 
+maintain the following focus sets. 
+%bje CJ' 
+(i) The noun-object focus - the set of tokens of a noun meaning re -  
+presentation~ of the focus of S (where S is the bentence currently. 
+being processed) 
+(ii) The event focus - a  set aontaining, for every sentence W in the 
+focus of S, the object EVENT(F), where F i s  the meaninq 
+representation of W, and EVENT i s  a function which maps the 
+meaning of a formula, F, into a noun-like object whose meaning 
+is "the event (or fact) that F" 
+(iii) The time focus - a set containing taken8 for all time references 
+(e. g, yesterday, five olclock, etc. ) occurring in the meaninq 
+representation of the focus of S. 
+The reader may question our inclusion of every object appearing 
+in the meaning xepresentation of the focus of S in one of the above focus 
+sets, i. e. in the set  of potential referents. In fact, however, it seems 
+to be the case that any object (of one of the above-mentioned types) 
+occurring in the meaning representation of the focus of S may be the 
+referent of an object occurring later  in the meaning representation of S. 
+Sonsidex, for example, the sentence sequences formed by taking each of 
+he sentences af 12 below, - in turn - as an immediate continuation of a text 
+zontaining sentence 1 1 below. 
+11. Stan argued with his s i s ter  Fran in an attempt to convince her that 
+she should bring Mary, whom he would like to get to knpw, on their 
+planned t r ip  to the San Diego Zoo tomor~ow. 
+12. a. - He was really insistent. 
+b. - She was hard to convince. 
+C. - It was useless. 
+d. He thinks - she's the prettiest one of all  Frads friends. 
+e. The prospect really excites him. 
+f. He arguecl that - f t  wouldn't tie Mary up for m o r e  than half a day. 
+g. - It's ?he best one in the country, you know. 
+h. - She thruught - it was a twr ib le  idea. 
+i. She happened to be busy then, but expressed a n  interest in coming 
+along ahother the. 
+Ea& of the mderlined items in sentences 12a-12i references some 
+object in senten- 11. (For the sake of clarity we present in 13 below 
+the referents a s  we understand them, ) 
+13, a, Stan 
+b. Fran 
+c. The attempt (to convince , . . 
+d. Mary 
+em EVENT \Stan will get to know Mary) 
+f. The trip 
+g. The San Diego Zoo 
+h. Both --- @he a& it a r e  ambiuous; if - she is taken to be "Fran, l1  then 
+it refers to EXENT (Fran will bring Mary ,. .); i f  - she is taken 
+to be "Maryll), then - it refers  to EVENT (Mary will come.. . ) 
+The point i s ,  of course, that any item in (the meaning representa- 
+tion of) a sentence, S, may be referenced by some item in (the mean- 
+ing repr eeentation of) a latter sentence. 
+On the other side of the coin the question of identifying potential re-  
+-
+ferences is just a s  important a s  that of identifying the seb of all  
+possible referents for an object which is known to reference something. 
+If we were' concerned only with pronomial referenee reaolution, the 
+problem would have a simple solution; every pronoun is a reference. 
+For  nominal items other than pronouns the problem is far less simple; 
+if a noun occurs in a text just how do we know if there i s  a previously 
+occurring nominal item to which it refers? As much a s  we would like 
+there to be algorithmically testable criteria, i. e. recognizable syntactic 
+and/or semantic cues, for making the decision, there seem to be none. 
+Thus, the mechanism we propose considers every token appearing 
+in the translation of a sentence as a possible reference. 
+At present, we hypothesize the existence of a small set, R, of 
+relations which a re  suffvient to account for all  instances of nominal 
+reference. Included in this set a r e ,  a t  the very least, the relations 
+identity, member of, subset of, and part of. Noje that although this 
+list of relations im quite small, it suffices to handle all  the examples of 
+reference presented thus far (i. e. those occurring in sentence sequences 
+1-6 and 9-12 as well as those occurring in the excerpted newpaper 
+article above). 
+Al l  of the above observations taken together lead to the following 
+sketch of an algorithm for reference resolution. 
+I. #AS each new sentence, S, is transrated into its meaning representation, 
+the various focus sets (noun-object, event, time) a r e  updated. 
+11. A set, H, is formed containing all tuples of t&e form (N1, N2, P )  such 
+'that N1 is a nominal item occurring in(the meaning representation 
+of S, Nz is an object occurring in the focus set (noun-object, 
+event, or time) appropriate to N1 , and i s  a member of R; H 
+is the set  of all current refewnce hypotheses arising-from S. 
+III. A lljudgment mechanism, " discussed below, is invoked to determine 
+the liklihoods of the correctness of the various members of H. 
+It i s  clear that following step II any further processing of reference 
+hypotheses requires that all members of H be considered relahive to one 
+avther, since the correctness or  incorrectness of one may depend 
+crucially upon that of others. In the general case not all hypotheses will 
+turn out to be correct, and in fact some may contradict o thers  - for 
+instance in the case of two hypothesis-triples with identical f i r s t  and 
+second elements and different third elements. 
+Once it  has been created, the set  H is submitted to a "judgment 
+mechanismft whose task it i s  to choose some of the hypotheses a s  valid 
+and others a s  invalid. The judgement mechanism must clearly have 
+access to the world knowledge stored in memory, and must be capable of 
+performing inferencing of a sort which produces decisions a s  to the 
+relative Eklihoods of the various hypotheses. 
+Before giving example8 of just how such a judgment mechanism 
+might work, we should make it clear that our sense of I1inferencing1l is very 
+different from Riegerls (1974). In Riegerls sense inferencing is un- 
+directed, while ours is directed toward the goal of val idat i~g hypotheses. 
+There is, in addition, another sense in which the sor t  of inferencing to 
+be done by the judgment mechanism is directed. The fact that the rgasons 
+for validating or  throwing out a particular reference hypothesis (on the 
+part  of human natural language users) involve the information coweyed in 
+local context as well a s  world knowledge relating to items contained in 
+that information (and world knowledge relating to items contained in world 
+knowledge relating to items contained in that information, ctc. ) constitutes 
+a good guess as to the particular pieces of world kncrwledge and the rules 
+of inference which must be involved in judging that hypothesis. 
+Ekamples of reference resolation 
+14 and 15 below contain components of possible meaning repfek 
+sentations of the two sentencel of sentence sequence 1 at the beginning 
+of this paper. 
+14. C 1 : CHASED (xl, q) 
+C2: TIME (cis YESTERDAY) 
+C3: SUBSET ( x  [BOYS]) 
+C4: SUBSET (x~ ,  [DOGS]) 
+C5: GREATER (SIZE(xl),l) 
+C6: GREATER (SIZE (IS,), 1) 
+15, C7: FALL INTO (yI, y2) 
+C8: TIME (C7, PAST) 
+C9: MEMBER (y,, [DITCH]) 
+?30: MEMBER(yl,y3) 
+C11: LARGEST (yl, y3) 
+'The meaning reprecentations proposed for the two sentences a r e  
+C1A%hGhGAC5AC& and G7hCshCo A C ~ O A C ~ ~  respectively. Note that we are 
+not claiming that the predicates CHASED, and FALL INTO and the constants 
+YESTERDAY, BOY, DOG, PAST and DITCH a r e  a t  the leve3. of semantic 
+primitives; rather, the above analyses a r e  at just the level which we need 
+to illustate the operation of the reference resolution mechanism. Further - 
+more, the symbols YESTERDAY, BOY, DOG, PAST and DITCH ahould 
+be taken a s  pointers to the definitions of the appropriate items encoded 
+in memory in whatever fashion. The brackethg in the notation [A], where 
+A is a pointer to a definition, is meant to be a function which takes A 
+into an object whose meaning ie  the class of items satisfying the meaning 
+pointed to by A. 
+Once the translation of the f irs t  sentence of sequence 1 into its 
+meaning representation has been completed - on the assumption that that 
+sentence is at the beginning of the text being processed - the various 
+focus sem will contain the followkg: 
+no.- object focus: [xl, xz) ; event fbcps.: [(cfic21\~/\chcd\~~ ) 3  ; 
+time focus [YESTERDAY ] . 
+After the second sentence i s  translated the set, H, of reference - 
+triple hypotheses presented to the judgment mechanism will then be the 
+following : 
+i s  a member of 
+is a sqbget of 
+i s ~ p a r t  of 
+Note that no member of the event focus occurrs in H because the 
+translation of the second sentence contains no term of the form EVENT(y); for  
+s i m p l i c a e  omit the question of time referencing. 
+All of the relations between y2 and xl or rt can be ruled out 
+pn the basis of SUBSET (x,, [DOC]) SUBSET (xl. [BOY]), MEMBER 
+Or,, [DITCH]) and of the world knowledge to the effect that boysldogs 
+cannot be identical to, members of, eubsets of or parts of ditches (of 
+course in some weird fairy tale setting one of these might be possible 
+and shouldn't be thrown out; but in such a case local context would 
+inform us of the "weirdrr situation and the appropriate one wouldn't be 
+thrown out. ) 
+The hypothesis that or  y3 i s  a part of either xl or xz can be 
+20  
+ruled out on the basis of SUBSET (q, [BOY]) and SUBSET (x,, [DOG]), 
+which tell us that q and x2 a r e  sets  of objects, and the world 
+knowledge that sets  don't have "partsi1 in the sense of the "part of1! 
+relation. 
+Identify between yl and either XI or  x2 can be ruled out on the 
+basis of MEMBER (yl , y3) which tells us that yl i s  an ihdividual and 
+SUBSET (x1, [BOY]), SUBSET (x2, [DOG]), GREATER (SIZE (x,), l), 
+and GREATER (SIZE (xz), 11, which tell us that xl and x2 are sets  
+containing more than one object. (Remember that we're not doing 
+axiomatic se t  theory in which there a r e  no lgindividuals in our sense 
+and in which the sor t  of ll-iindividualll which is dealt with can be a subset 
+of some set. ) 
+Fmally, the "member of" relation between y3 and either xl or x2 
+can be ruled out pn the basie of MEMBER (yl, y3) which requires thpt 
+y3 be a set, SUBSET (xl, [BOY]), SUBSET (x ,  [DOG]), GREATER 
+(SIZE (xl), I), and GREATER (SIZE (x2), 1), which tell  us that x1 and x2 
+a r e  sets containing more thad one element each, and the fact that sets  
+are not members of sets. (Again, we're not dealing with set theory; if 
+in fact, we were - talking about axiomatic set  theory in English, then 
+local context would contain that information, and aiff erent inferences 
+would come into play. ) 
+This leaves us with the following hypotheses : 
+is identical to 
+' {is a subset o f j  [ : j  
+y, is a member of { :g 
+But some of these hypotheses are consistent with one another: in fact 
+the hypotheses 
+i e  identical to 
+X. i = l , 2  
+1 is  a subset of 
+-C 3 
+imply the hypotheses 
+yl is  a member of x. i = l , 2  
+1 
+respectively because of MEMBER (yl, y,). At any rate, the judgment 
+mechanism assumes at this point that either yl is a member of xl or 
+yl i s  a member of x2. The readear is asked to recall at this point 
+that in presenting the usually preferred referents for references in 
+sentence sequences 1-4 the claim was made that in sentence sequence 1, 
+the usually preferred referent for "onefr is  lfboys." The reason for this 
+claim is  the authort s observation. that, when such a pronomial refercnce 
+occurs a s  the surface subject of a sentence, in the absence of semantic 
+content which discrminates among the various possible referents, most 
+people seem to take the eurface subject of the last sentence in the focus 
+a s  the inbnded referent. The reason for this human judgment is probably 
+that the readerlhearer takes the surface subject to b e  the "topicll of a 
+sentence. If this observation is correct, the judgment mechanism should, 
+in the current example, simply choose "one of the boysr1 (yl is a member 
+of xl) as  the proper referent. If this observation i s  incorrect, the judgment 
+mechaaism should judge that there is ambiguity in the reference 'lone 
+Sentence sequence 2 at  the beginning of this paper would be handled 
+in precisely the same manner a s  sentence sequence 1 up to the point at 
+which 11y3 is a member of xl1I and "y, i s  a member of x," were the r e -  
+maining hypotheses. The knowledge that Ifthe dogsLt refer red to suffer 
+from a strange bone -weakening diaease would bhen cause the judgment 
+mechaniam to strengthen the likelihood that tlonell refers to "dogs, thus 
+causing Ityl is a member of x," to be the preferred judgment. 
+Sentence sequence16 below contains an example of EVENT reference. 
+16. The presidnet was shot yesterday. It caused a panic on Wall Street. 
+Omitting all  other details of the translation into meaning representation we 
+simply note that the primitive -level predicate into which cause" is tranq- 
+lated requires an object of the form EVENT (F) as its subject (i. e. if we 
+say something like "John caused a stir" what we mean is that John did 
+something and the event (or fact) that he did that caused a stir.) Thus, 
+when the 2nd sentence is handled, the only possible referents for will 
+be the objects contained in the EVENT focus, namely just EVENT (the 
+president was shot yesterrlay). The judgment mechanism thus must s k p l y  
+decide if the event (or fact) that the president was shot yesterday was likely 
+to have caused a panic on Wall Street, a judgment which, with adequate 
+world knowledge, should certainly be confirmed. 
+Sentence sequence 17 is a very similar case. 
+17. The president was shot yesterday. Bill told me all about it. It 
+caused a panic on Wall Street. 
+In order to resolve the reference 'lit" in the last sentence of 17, the 
+judgment mechanism would have to decide on the relative likelihoods of 
+i and ii below 
+(i) The event (or fact) that the president was shot yesterday caused a 
+panic on Wall Street. 
+(ii) The event (ok fact) that Bill told me about the president being shot 
+yesterday cauaed a panic on Wall Street. 
+Again, with the availability of reasonable world knowledge about such 
+things a s  presidents, their being shot and panics, the judgment mechanism 
+should be able to choose the proper referent for "it1I 
+While a fully detailed specification of the judgment mechanism must 
+await further investigation, the above examples should illustrate, at least 
+in part, the manner in which we conceive of i ts  operation. 
+Conclusions 
+The phenomenon with which we have been dealing is one example of 
+what we would like to call the llcreativefl aspect of language use; more 
+specifically, reference of the sort  we have described - and attempted to 
+handle - is an elliptical device necessary for effective communication; 
+moreover, it is a device which exhibits the ability of language to "change 
+the ground rulestf in a very flexible and fluid manner in response to 
+context. 
+At this point we must admit that there is an even more creative 
+type of reference than the sort we have dealt with. 18 below is an 
+example of this type of reference. 
+18. Last week I caught a cold while vieiting my mother in Chicago; as 
+ueual , the chicken eoup had too much pepper in it. 
+The interesting reference in the above example i s  ILchickeh soup. There 
+i s  no item in the first  sentence to which it is directly related; on the 
+other hand, few people have any trouble resolving it by interpolating 
+between the two sentences of example 18 the idea expressed in sentence 19 
+below: 
+1,q. When I get sick my mother makes me chicken soup. 
+If sentence 19 were available, our reference resolution mechanism would 
+easily come up with an identity relation between the two occurrences 
+of I t  chicken eoup Obviously, for our proposed mechanism to resolve 
+this reference, some sort  of inferencing must f i rs t  work on the 1st 
+sentence of 18 to produce the meaning of 19 a s  an inference. Thus it is 
+clear that reference resolution and general inferencing must be inter - 
+leaved. 
+The mechanism proposed abave does not handle the entire problem. 
+It does, however, seem to be a minimal model of reference resoIdtion 
+(minimal in the sense that at least this much must be going on). In 
+addition, it provides for that control over the use of general inferencing 
+which is required to avoid a combinatbrial explosion (BOOM). 
+References 
+Clark, H. H. (1975), I1Bridging1I, Conference on Theoretical Is sues in 
+Natural Language Processing, 10 -13 June 1975, Cambridge, Mass. 
+Rieger, C. J. (1974), Conceptual Memory: A Theory and Computer 
+Program for Processing the Meaning Content of Natural Language Utterences, 
+Ph.D. Thesis. Stanford University. 1974. 
+Schaak, R. (1972), I1Conceptual Dependency: A Theory of Natural Language 
+Under standing, Cognitive psycho lo^ 3(4), 1972. 
+American Journal of Computational Linguistics Miaofiche 36 : 26 
+How DOES A SYSTEM KNOW WHEN TO STOP INFERENCING?* 
+The Moore School  o f  E l e c t r i c a l  Engineer ing  
+U n i v e r s i t y  o f  Pennsy lvania ,  P h i l a d e l p h i a  19174 
+Abstract The problem of constmining the set of hfemtces added t o  a set of 
+beliefs is considered. One method, based on finding a minimal unifying 
+structure, is frresented and discussed. The method is meant t o  pnxride 
+internal criteria for  inference cut-off. 
+I. 

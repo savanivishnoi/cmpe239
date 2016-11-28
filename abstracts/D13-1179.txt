@@ -1,0 +1,23 @@
+
+Cross-lingual topic modelling has applications
+in machine translation, word sense disam-
+biguation and terminology alignment. Multi-
+lingual extensions of approaches based on la-
+tent (LSI), generative (LDA, PLSI) as well as
+explicit (ESA) topic modelling can induce an
+interlingual topic space allowing documents
+in different languages to be mapped into the
+same space and thus to be compared across
+languages. In this paper, we present a novel
+approach that combines latent and explicit
+topic modelling approaches in the sense that
+it builds on a set of explicitly defined top-
+ics, but then computes latent relations between
+these. Thus, the method combines the ben-
+efits of both explicit and latent topic mod-
+elling approaches. We show that on a cross-
+lingual mate retrieval task, our model signif-
+icantly outperforms LDA, LSI, and ESA, as
+well as a baseline that translates every word in
+a document into the target language.
+1 

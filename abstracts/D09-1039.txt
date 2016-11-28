@@ -1,0 +1,14 @@
+
+In this work we present a novel technique
+to rescore fragments in the Data-Oriented
+Translation model based on their contri-
+bution to translation accuracy. We de-
+scribe three new rescoring methods, and
+present the initial results of a pilot experi-
+ment on a small subset of the Europarl cor-
+pus. This work is a proof-of-concept, and
+is the first step in directly optimizing trans-
+lation decisions solely on the hypothesized
+accuracy of potential translations resulting
+from those decisions.
+1 

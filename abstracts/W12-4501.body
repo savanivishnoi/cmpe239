@@ -1,0 +1,38 @@
+
+The CoNLL-2012 shared task involved pre-
+dicting coreference in English, Chinese, and
+Arabic, using the final version, v5.0, of the
+OntoNotes corpus. It was a follow-on to the
+English-only task organized in 2011. Un-
+til the creation of the OntoNotes corpus, re-
+sources in this sub-field of language process-
+ing were limited to noun phrase coreference,
+often on a restricted set of entities, such as
+the ACE entities. OntoNotes provides a large-
+scale corpus of general anaphoric coreference
+not restricted to noun phrases or to a spec-
+ified set of entity types, and covers multi-
+ple languages. OntoNotes also provides ad-
+ditional layers of integrated annotation, cap-
+turing additional shallow semantic structure.
+This paper describes the OntoNotes annota-
+tion (coreference and other layers) and then
+describes the parameters of the shared task in-
+cluding the format, pre-processing informa-
+tion, evaluation criteria, and presents and dis-
+cusses the results achieved by the participat-
+ing systems. The task of coreference has
+had a complex evaluation history. Potentially
+many evaluation conditions, have, in the past,
+made it difficult to judge the improvement in
+new algorithms over previously reported re-
+sults. Having a standard test set and stan-
+dard evaluation parameters, all based on a re-
+source that provides multiple integrated anno-
+tation layers (syntactic parses, semantic roles,
+word senses, named entities and coreference)
+and in multiple languages could support joint
+modeling and help ground and energize on-
+going research in the task of entity and event
+coreference.
+1 

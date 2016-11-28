@@ -1,0 +1,12 @@
+
+The results of experiments on the appli-
+cation of a variety of distance measures
+to a question-answering task are reported.
+Variants of tree-distance are considered,
+including whole-vs-sub tree, node weight-
+ing, wild cards and lexical emphasis. We
+derive string-distance as a special case
+of tree-distance and show that a particu-
+lar parameterisation of tree-distance out-
+performs the string-distance measure.
+1 

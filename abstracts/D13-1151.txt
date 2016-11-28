@@ -1,0 +1,17 @@
+ 
+The identification of pseudepigraphic texts ? 
+texts not written by the authors to which they 
+are attributed ? has important historical, fo-
+rensic and commercial applications. We in-
+troduce an unsupervised technique for identi-
+fying pseudepigrapha. The idea is to identify 
+textual outliers in a corpus based on the pair-
+wise similarities of all documents in the cor-
+pus. The crucial point is that document simi-
+larity not be measured in any of the standard 
+ways but rather be based on the output of a re-
+cently introduced algorithm for authorship ve-
+rification. The proposed method strongly 
+outperforms existing techniques in systematic 
+experiments on a blog corpus. 
+1 

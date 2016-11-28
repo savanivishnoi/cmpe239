@@ -1,0 +1,21 @@
+
+Information published in online stock invest-
+ment message boards, and more recently in
+stock microblogs, is considered highly valu-
+able by many investors. Previous work fo-
+cused on aggregation of sentiment from all
+users. However, in this work we show that it
+is beneficial to distinguish expert users from
+non-experts. We propose a general framework
+for identifying expert investors, and use it as a
+basis for several models that predict stock rise
+from stock microblogging messages (stock
+tweets). In particular, we present two methods
+that combine expert identification and per-user
+unsupervised learning. These methods were
+shown to achieve relatively high precision in
+predicting stock rise, and significantly outper-
+form our baseline. In addition, our work pro-
+vides an in-depth analysis of the content and
+potential usefulness of stock tweets.
+1 

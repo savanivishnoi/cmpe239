@@ -1,0 +1,18 @@
+
+Modelling dialogue as a Partially Observ-
+able Markov Decision Process (POMDP)
+enables a dialogue policy robust to speech
+understanding errors to be learnt. How-
+ever, a major challenge in POMDP pol-
+icy learning is to maintain tractability, so
+the use of approximation is inevitable.
+We propose applying Gaussian Processes
+in Reinforcement learning of optimal
+POMDP dialogue policies, in order (1) to
+make the learning process faster and (2) to
+obtain an estimate of the uncertainty of the
+approximation. We first demonstrate the
+idea on a simple voice mail dialogue task
+and then apply this method to a real-world
+tourist information dialogue task.
+1 

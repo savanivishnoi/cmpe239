@@ -1,0 +1,29 @@
+
+This study presents a method to automat-
+ically acquire paraphrases using bilingual
+corpora, which utilizes the bilingual de-
+pendency relations obtained by projecting
+a monolingual dependency parse onto the
+other language sentence based on statisti-
+cal alignment techniques. Since the para-
+phrasing method is capable of clearly disam-
+biguating the sense of an original phrase us-
+ing the bilingual context of dependency re-
+lation, it would be possible to obtain inter-
+changeable paraphrases under a given con-
+text. Also, we provide an advanced method
+to acquire generalized translation knowl-
+edge using the extracted paraphrases. We
+applied the method to acquire the gener-
+alized translation knowledge for Korean-
+English translation. Through experiments
+with parallel corpora of a Korean and En-
+glish language pairs, we show that our para-
+phrasing method effectively extracts para-
+phrases with high precision, 94.3% and
+84.6% respectively for Korean and English,
+and the translation knowledge extracted
+from the bilingual corpora could be general-
+ized successfully using the paraphrases with
+the 12.5% compression ratio.
+1 

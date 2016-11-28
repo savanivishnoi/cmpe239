@@ -1,0 +1,15 @@
+
+As part of our work on automatically build-
+ing knowledge structures from text, we apply
+machine learning to determine which clauses
+from multiple narratives describing similar sit-
+uations should be grouped together as descrip-
+tions of the same type of occurrence. Our
+approach to the problem uses textual similar-
+ity and context from other clauses. Besides
+training data, our system uses only a partial
+parser as outside knowledge. We present re-
+sults evaluating the cohesiveness of the aggre-
+gated clauses and a brief overview of how this
+work fits into our overall system.
+1 

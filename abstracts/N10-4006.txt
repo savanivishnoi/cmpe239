@@ -1,0 +1,47 @@
+s, pages 15?18,
+Los Angeles, California, June 2010. c?2010 Association for Computational Linguistics
+Distributional Semantic Models
+Stefan Evert, University of Osnabr?ck
+1. DESCRIPTION
+Distributional semantic models (DSM) -- also known as "word space" or "distributional 
+similarity" models -- are based on the assumption that the meaning of a word can (at 
+least to a certain extent) be inferred from its usage, i.e. its distribution in text.  Therefore, 
+these models dynamically build semantic representations -- in the form of high-
+dimensional vector spaces -- through a statistical analysis of the contexts in which 
+words occur.  DSMs are a promising technique for solving the lexical acquisition 
+bottleneck by unsupervised learning, and their distributed representation provides a 
+cognitively plausible, robust and flexible architecture for the organisation and processing 
+of semantic information.
+Since the seminal papers of Landauer & Dumais (1997) and Sch?tze (1998), DSMs 
+have been an active area of research in computational linguistics.  Amongst many other 
+tasks, they have been applied to solving the TOEFL synonym test (Landauer & Dumais 
+1997, Rapp 2004), automatic thesaurus construction (Lin 1998), identification of 
+translation equivalents (Rapp 1999), word sense induction and discrimination (Sch?tze 
+1998), POS induction (Sch?tze 1995), identification of analogical relations (Turney 
+2006), PP attachment disambiguation (Pantel & Lin 2000), semantic classification 
+(Versley 2008), as well as the prediction of fMRI (Mitchell et al 2008) and EEG (Murphy 
+et al 2009) data.  Recent years have seen renewed and rapidly growing interest in 
+distributional approaches, as shown by the series of workshops on DSM held at Context 
+2007 [1], ESSLLI 2008 [2], EACL 2009 [3], CogSci 2009 [4], NAACL-HLT 2010 [5], ACL 
+2010 [6] and ESSLLI 2010 [7].
+The proposed tutorial aims to 
+- introduce the most common DSM architectures and their parameters, as well as 
+prototypical applications;
+- equip participants with the mathematical techniques needed for the implementation of 
+DSMs, in particular those of matrix algebra;
+- illustrate visualisation techniques and mathematical arguments that help in 
+understanding the high-dimensional DSM vector spaces and making sense of key 
+operations such as SVD dimensionality reduction; and
+- provide an overview of current research on DSMs, available software, evaluation tasks 
+and future trends.
+The tutorial is targeted both at participants who are new to the field and need a 
+comprehensive overview of DSM techniques and applications, and at experienced 
+scientists who want to get up to speed on current directions in DSM research.
+15
+An implementation of all methods presented in the tutorial will be provided as 
+supplementary material, using the open-source statistical programming language R [8].  
+This implementation, which is based on the code and data sets available at [9], is 
+intended as a "toy laboratory" for participants, but can also form a sound basis for 
+practical applications and further DSM research.
+2. TUTORIAL OUTLINE
+1) 

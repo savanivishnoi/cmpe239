@@ -1,0 +1,15 @@
+
+It has been suggested that some forms of speech
+disuencies, most notable interjections and par-
+entheticals, tend to occur disproportionally at
+major clause boundaries [6] and thus might
+serve to aid parsers in establishing these bound-
+aries. We have tested a current statistical parser
+[1] on Switchboard text with and without inter-
+jections and parentheticals and found that the
+parser performed better when not faced with
+these extra phenomena. This suggest that for
+current parsers, at least, interjection and paren-
+thetical placement does not help in the parsing
+process.
+1 

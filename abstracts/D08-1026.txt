@@ -1,0 +1,22 @@
+
+One major bottleneck in conversational sys-
+tems is their incapability in interpreting un-
+expected user language inputs such as out-of-
+vocabulary words. To overcome this problem,
+conversational systems must be able to learn
+new words automatically during human ma-
+chine conversation. Motivated by psycholin-
+guistic findings on eye gaze and human lan-
+guage processing, we are developing tech-
+niques to incorporate human eye gaze for au-
+tomatic word acquisition in multimodal con-
+versational systems. This paper investigates
+the use of temporal alignment between speech
+and eye gaze and the use of domain knowl-
+edge in word acquisition. Our experiment re-
+sults indicate that eye gaze provides a poten-
+tial channel for automatically acquiring new
+words. The use of extra temporal and domain
+knowledge can significantly improve acquisi-
+tion performance.
+1 

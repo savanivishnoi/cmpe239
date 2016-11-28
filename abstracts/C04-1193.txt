@@ -1,0 +1,14 @@
+
+In this paper we describe the extraction of
+thesaurus information from parsed dictio-
+nary definition sentences. The main data
+for our experiments comes from Lexeed,
+a Japanese semantic dictionary, and the
+Hinoki treebank built on it. The dictio-
+nary is parsed using a head-driven phrase
+structure grammar of Japanese. Knowledge
+is extracted from the semantic representa-
+tion (Minimal Recursion Semantics). This
+makes the extraction process language inde-
+pendent.
+1 

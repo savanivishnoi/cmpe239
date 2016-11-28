@@ -1,0 +1,17 @@
+
+We present Wikulu1, a system focusing on
+supporting wiki users with their everyday
+tasks by means of an intelligent interface.
+Wikulu is implemented as an extensible archi-
+tecture which transparently integrates natural
+language processing (NLP) techniques with
+wikis. It is designed to be deployed with any
+wiki platform, and the current prototype inte-
+grates a wide range of NLP algorithms such
+as keyphrase extraction, link discovery, text
+segmentation, summarization, or text similar-
+ity. Additionally, we show how Wikulu can
+be applied for visually analyzing the results
+of NLP algorithms, educational purposes, and
+enabling semantic wikis.
+1 

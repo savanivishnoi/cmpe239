@@ -1,0 +1,21 @@
+
+Pairwise coreference resolution models must
+merge pairwise coreference decisions to gen-
+erate final outputs. Traditional merging meth-
+ods adopt different strategies such as the best-
+first method and enforcing the transitivity con-
+straint, but most of these methods are used
+independently of the pairwise learning meth-
+ods as an isolated inference procedure at the
+end. We propose a joint learning model which
+combines pairwise classification and mention
+clustering with Markov logic. Experimen-
+tal results show that our joint learning sys-
+tem outperforms independent learning sys-
+tems. Our system gives a better performance
+than all the learning-based systems from the
+CoNLL-2011 shared task on the same dataset.
+Compared with the best system from CoNLL-
+2011, which employs a rule-based method,
+our system shows competitive performance.
+1 

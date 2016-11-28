@@ -1,0 +1,21 @@
+: 
+This paper presents a syntactic description of a fragment of 
+German that has been worked out within the machine 
+translation project Eurotra. It represents he syntactic part of the 
+German module of this multilingual translation system. The 
+linguistic tool for the following analyses is the so-called CAT- 
+framework. 
+In the first two sections of this paper an introduction of the 
+formalism and a linguistic characterization f tile framework is 
+given. The CAT formalism as a whole is a theory of machine 
+translation, the syntactic analysis part which is the subject of 
+this paper is an LFG-like mapping of a constituent structure 
+onto a functional structure. 
+A third section develops principles for a phrase structure and a 
+functional structure for German and the mapping of phrase 
+structure onto functional structure. 
+In a fourth section a treatment of unbounded movement 
+phenomena is sketched. As the CAT-framework does not 
+provide any global mechanisms I try to give a local treatment of 
+this problem. 
+O. 

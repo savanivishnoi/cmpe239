@@ -1,0 +1,18 @@
+
+In spoken dialogue systems, Partially Observ-
+able Markov Decision Processes (POMDPs)
+provide a formal framework for making di-
+alogue management decisions under uncer-
+tainty, but efficiency and interpretability con-
+siderations mean that most current statistical
+dialogue managers are only MDPs. These
+MDP systems encode uncertainty explicitly in
+a single state representation. We formalise
+such MDP states in terms of distributions
+over POMDP states, and propose a new di-
+alogue system architecture (Mixture Model
+POMDPs) which uses mixtures of these dis-
+tributions to efficiently represent uncertainty.
+We also provide initial evaluation results (with
+real users) for this architecture.
+1 

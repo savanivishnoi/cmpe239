@@ -1,0 +1,19 @@
+ 
+This paper presents the Chinese word 
+sense Induction system of Leshan 
+Teachers? College. The system 
+participates in the Chinese word sense 
+Induction of task 4 in Back offs 
+organized by the Chinese Information 
+Processing Society of China (CIPS) and 
+SIGHAN. The system extracts neighbor 
+words and their POSs centered in the 
+target words and selected the best one of 
+four cluster algorithms: Simple KMeans, 
+EM, Farthest First and Hierarchical 
+Cluster based on training data. We 
+obtained the F-Score of 60.5% on the 
+training data otherwise the F-Score is 
+57.89% on the test data provided by 
+organizers. 
+1. 

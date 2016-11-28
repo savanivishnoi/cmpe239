@@ -1,0 +1,16 @@
+
+This paper presents a methodology for a
+quantitative and qualitative evaluation of
+Textual Entailment systems. We take ad-
+vantage of the decomposition of Text Hy-
+pothesis pairs into monothematic pairs,
+i.e. pairs where only one linguistic phe-
+nomenon at a time is responsible for en-
+tailment judgment, and propose to run TE
+systems over such datasets. We show
+that several behaviours of a system can
+be explained in terms of the correlation
+between the accuracy on monothematic
+pairs and the accuracy on the correspond-
+ing original pairs.
+1 

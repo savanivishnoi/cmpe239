@@ -1,0 +1,23 @@
+ 
+Many reordering approaches have been 
+proposed for the statistical machine 
+translation (SMT) system. However, the 
+information about the type of source 
+sentence is ignored in the previous 
+works. In this paper, we propose a group 
+of novel reordering models based on the 
+source sentence type for Chinese-to-
+English translation. In our approach, an 
+SVM-based classifier is employed to 
+classify the given Chinese sentences into 
+three types: special interrogative sen-
+tences, other interrogative sentences, and 
+non-question sentences. The different 
+reordering models are developed ori-
+ented to the different sentence types. 
+Our experiments show that the novel re-
+ordering models have obtained an im-
+provement of more than 2.65% in BLEU 
+for a phrase-based spoken language 
+translation system.  
+1 

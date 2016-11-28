@@ -1,0 +1,21 @@
+
+Automatic tools for analyzing student online 
+discussions are highly desirable for providing 
+better assistance and promoting discussion 
+participation. This paper presents an approach 
+for identifying student discussions with unre-
+solved issues or unanswered questions. In or-
+der to handle highly incoherent data, we 
+perform several data processing steps. We 
+then apply a two-phase classification algo-
+rithm. First, we classify ?speech acts? of indi-
+vidual messages to identify the roles that the 
+messages play, such as question, issue raising, 
+and answers. We then use the resulting speech 
+acts as features for classifying discussion 
+threads with unanswered questions or unre-
+solved issues. We performed a preliminary 
+analysis of the classifiers and the system 
+shows an average F score of 0.76 in discus-
+sion thread classification. 
+1 

@@ -1,0 +1,21 @@
+
+We present a novel approach to the trans-
+lation of the English personal pronoun it
+to Czech. We conduct a linguistic analysis
+on how the distinct categories of it are usu-
+ally mapped to their Czech counterparts.
+Armed with these observations, we design
+a discriminative translation model of it,
+which is then integrated into the TectoMT
+deep syntax MT framework. Features in
+the model take advantage of rich syntac-
+tic annotation TectoMT is based on, exter-
+nal tools for anaphoricity resolution, lex-
+ical co-occurrence frequencies measured
+on a large parallel corpus and gold coref-
+erence annotation. Even though the new
+model for it exhibits no improvement in
+terms of BLEU, manual evaluation shows
+that it outperforms the original solution in
+8.5% sentences containing it.
+1 

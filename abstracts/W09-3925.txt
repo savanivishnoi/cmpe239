@@ -1,0 +1,25 @@
+ 
+Nowadays, most commercial and research 
+dialogue applications for call centers are 
+created using sophisticated and fully-
+feature development platforms. Surpris-
+ingly, most of them lack of some kind of 
+acceleration strategy based on an automatic 
+analysis of the contents or structure of the 
+backend database. This paper describes our 
+efforts to incorporate this kind of informa-
+tion which continues the work done in 
+(D?Haro et al 2006). Our main proposed 
+strategies are: the generation of automatic 
+state proposals for defining the dialogue 
+flow network, the automatic selection of 
+slots to be requested using mixed-initiative, 
+the semi-automatic generation of SQL 
+statements, and the quick generation of the 
+data model of the application and the con-
+nection with the database fields. Subjective 
+and objective evaluations demonstrate the 
+advantages of using the accelerations and 
+their high acceptance, both in our current 
+proposals and in previous work. 
+1 

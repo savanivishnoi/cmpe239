@@ -1,0 +1,18 @@
+ 
+We propose a new formally syntax-based 
+method for statistical machine translation. 
+Transductions between parsing trees are 
+transformed into a problem of sequence 
+tagging, which is then tackled by a search-
+based structured prediction method. This 
+allows us to automatically acquire transla-
+tion knowledge from a parallel corpus 
+without the need of complex linguistic 
+parsing. This method can achieve compa-
+rable results with phrase-based method 
+(like Pharaoh), however, only about ten 
+percent number of translation table is used. 
+Experiments show that the structured pre-
+diction approach for SMT is promising for 
+its strong ability at combining words. 
+1 

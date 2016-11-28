@@ -1,0 +1,11 @@
+
+This paper describes our system for the task
+of extracting frame semantic structures in
+SemEval?2007. The system architecture
+uses two types of learning models in each
+part of the task: Support Vector Machines
+(SVM) and Maximum Entropy (ME). De-
+signed as a pipeline of classifiers, the seman-
+tic parsing system obtained competitive pre-
+cision scores on the test data.
+1 

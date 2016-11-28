@@ -1,0 +1,13 @@
+
+This paper describes the development of
+several machine translation systems for
+the 2009 WMT shared task evaluation.
+We only consider the translation between
+French and English. We describe a sta-
+tistical system based on the Moses de-
+coder and a statistical post-editing sys-
+tem using SYSTRAN?s rule-based system.
+We also investigated techniques to auto-
+matically extract additional bilingual texts
+from comparable corpora.
+1 

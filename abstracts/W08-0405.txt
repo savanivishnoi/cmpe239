@@ -1,0 +1,16 @@
+
+The paper presents an extension of a dynamic
+programming (DP) decoder for phrase-based
+SMT (Koehn, 2004; Och and Ney, 2004) that
+tightly integrates POS-based re-order rules
+(Crego and Marino, 2006) into a left-to-right
+beam-search algorithm, rather than handling
+them in a pre-processing or re-order graph
+generation step. The novel decoding algo-
+rithm can handle tens of thousands of rules
+efficiently. An improvement over a standard
+phrase-based decoder is shown on an Arabic-
+English translation task with respect to trans-
+lation accuracy and speed for large re-order
+window sizes.
+1 

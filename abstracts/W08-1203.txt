@@ -1,0 +1,25 @@
+
+Many interesting phenomena in conversa-
+tion can only be annotated as a subjec-
+tive task, requiring interpretative judge-
+ments from annotators. This leads to
+data which is annotated with lower lev-
+els of agreement not only due to errors in
+the annotation, but also due to the differ-
+ences in how annotators interpret conver-
+sations. This paper constitutes an attempt
+to find out how subjective annotations with
+a low level of agreement can profitably
+be used for machine learning purposes.
+We analyse the (dis)agreements between
+annotators for two different cases in a
+multimodal annotated corpus and explic-
+itly relate the results to the way machine-
+learning algorithms perform on the anno-
+tated data. Finally we present two new
+concepts, namely ?subjective entity? clas-
+sifiers resp. ?consensus objective? classi-
+fiers, and give recommendations for using
+subjective data in machine-learning appli-
+cations.
+1 

@@ -1,0 +1,19 @@
+
+Arabic handwriting recognition (HR) is a
+challenging problem due to Arabic?s con-
+nected letter forms, consonantal diacritics and
+rich morphology. In this paper we isolate
+the task of identification of erroneous words
+in HR from the task of producing corrections
+for these words. We consider a variety of
+linguistic (morphological and syntactic) and
+non-linguistic features to automatically iden-
+tify these errors. Our best approach achieves
+a roughly ?15% absolute increase in F-score
+over a simple but reasonable baseline. A de-
+tailed error analysis shows that linguistic fea-
+tures, such as lemma (i.e., citation form) mod-
+els, help improve HR-error detection precisely
+where we expect them to: semantically inco-
+herent error words.
+1 

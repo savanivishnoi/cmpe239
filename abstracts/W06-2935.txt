@@ -1,0 +1,13 @@
+
+Unlexicalized probabilistic context-free
+parsing is a general and flexible approach
+that sometimes reaches competitive re-
+sults in multilingual dependency parsing
+even if a minimum of language-specific
+information is supplied. Furthermore, in-
+tegrating parser results (good at long de-
+pendencies) and tagger results (good at
+short range dependencies, and more easily
+adaptable to treebank peculiarities) gives
+competitive results in all languages.
+1 

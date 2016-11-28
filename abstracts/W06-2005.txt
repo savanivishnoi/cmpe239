@@ -1,0 +1,22 @@
+
+We describe a knowledge and resource
+light system for an automatic morpholog-
+ical analysis and tagging of Brazilian Por-
+tuguese.1 We avoid the use of labor in-
+tensive resources; particularly, large anno-
+tated corpora and lexicons. Instead, we
+use (i) an annotated corpus of Peninsular
+Spanish, a language related to Portuguese,
+(ii) an unannotated corpus of Portuguese,
+(iii) a description of Portuguese morphol-
+ogy on the level of a basic grammar book.
+We extend the similar work that we have
+done (Hana et al, 2004; Feldman et al,
+2006) by proposing an alternative algo-
+rithm for cognate transfer that effectively
+projects the Spanish emission probabili-
+ties into Portuguese. Our experiments use
+minimal new human effort and show 21%
+error reduction over even emissions on a
+fine-grained tagset.
+1 

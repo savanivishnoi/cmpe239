@@ -1,0 +1,18 @@
+
+In this paper, we propose a new method
+for semantic class induction. First, we in-
+troduce a generative model of sentences,
+based on dependency trees and which
+takes into account homonymy. Our model
+can thus be seen as a generalization of
+Brown clustering. Second, we describe
+an efficient algorithm to perform inference
+and learning in this model. Third, we
+apply our proposed method on two large
+datasets (108 tokens, 105 words types),
+and demonstrate that classes induced by
+our algorithm improve performance over
+Brown clustering on the task of semi-
+supervised supersense tagging and named
+entity recognition.
+1 

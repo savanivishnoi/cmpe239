@@ -1,0 +1,18 @@
+ 
+Spec is a critical issue for automatic chunking. 
+This paper proposes a solution of Chinese 
+chunking with another type of spec, which is 
+not derived from a complete syntactic tree but 
+only based on the un-bracketed, POS tagged 
+corpus. With this spec, a chunked data is built 
+and HMM is used to build the chunker. TBL-
+based error correction is used to further 
+improve chunking performance. The average 
+chunk length is about 1.38 tokens, F measure 
+of chunking achieves 91.13%, labeling 
+accuracy alone achieves 99.80% and the ratio 
+of crossing brackets is 2.87%. We also find 
+that the hardest point of Chinese chunking is 
+to identify the chunking boundary inside 
+noun-noun sequences1.  
+1 

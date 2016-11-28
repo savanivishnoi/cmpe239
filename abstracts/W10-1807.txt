@@ -1,0 +1,21 @@
+
+This article details a series of carefully de-
+signed experiments aiming at evaluating
+the influence of automatic pre-annotation
+on the manual part-of-speech annotation
+of a corpus, both from the quality and the
+time points of view, with a specific atten-
+tion drawn to biases. For this purpose, we
+manually annotated parts of the Penn Tree-
+bank corpus (Marcus et al, 1993) under
+various experimental setups, either from
+scratch or using various pre-annotations.
+These experiments confirm and detail the
+gain in quality observed before (Marcus et
+al., 1993; Dandapat et al, 2009; Rehbein
+et al, 2009), while showing that biases do
+appear and should be taken into account.
+They finally demonstrate that even a not
+so accurate tagger can help improving an-
+notation speed.
+1 

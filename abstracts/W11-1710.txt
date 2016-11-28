@@ -1,0 +1,28 @@
+ 
+This paper reports the development of Jap-
+anese WordNet Affect from the English 
+WordNet Affect lists with the help of Eng-
+lish SentiWordNet and Japanese WordNet. 
+Expanding the available synsets of the 
+English WordNet Affect using SentiWord-
+Net, we have performed the translation of 
+the expanded lists into Japanese based on 
+the synsetIDs in the Japanese WordNet. A 
+baseline system for emotion analysis of 
+Japanese sentences has been developed 
+based on the Japanese WordNet Affect. The 
+incorporation of morphology improves the 
+performance of the system. Overall, the 
+system achieves average precision, recall 
+and F-scores of 32.76%, 53% and 40.49% 
+respectively on 89 sentences of the Japa-
+nese judgment corpus and 83.52%, 49.58% 
+and 62.22% on 1000 translated Japanese 
+sentences of the SemEval 2007 affect sens-
+ing test corpus. Different experimental out-
+comes and morphological analysis suggest 
+that irrespective of the google translation 
+error, the performance of the system could 
+be improved by enhancing the Japanese 
+WordNet Affect in terms of coverage.  
+1 

@@ -1,0 +1,24 @@
+
+Soft cardinality has been shown to be a very
+strong text-overlapping baseline for the task of
+measuring semantic textual similarity (STS),
+obtaining 3rd place in SemEval-2012. At
+*SEM-2013 shared task, beside the plain text-
+overlapping approach, we tested within soft
+cardinality two distributional word-similarity
+functions derived from the ukWack corpus.
+Unfortunately, we combined these measures
+with other features using regression, obtain-
+ing positions 18th, 22nd and 23rd among the
+90 participants systems in the official rank-
+ing. Already after the release of the gold stan-
+dard annotations of the test data, we observed
+that using only the similarity measures with-
+out combining them with other features would
+have obtained positions 6th, 7th and 8th; more-
+over, an arithmetic average of these similarity
+measures would have been 4th(mean=0.5747).
+This paper describes both the 3 systems as
+they were submitted and the similarity mea-
+sures that would obtained those better results.
+1 

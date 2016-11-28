@@ -1,0 +1,25 @@
+
+The development of compositional distribu-
+tional models of semantics reconciling the em-
+pirical aspects of distributional semantics with
+the compositional aspects of formal seman-
+tics is a popular topic in the contemporary lit-
+erature. This paper seeks to bring this rec-
+onciliation one step further by showing how
+the mathematical constructs commonly used
+in compositional distributional models, such
+as tensors and matrices, can be used to sim-
+ulate different aspects of predicate logic.
+This paper discusses how the canonical iso-
+morphism between tensors and multilinear
+maps can be exploited to simulate a full-blown
+quantifier-free predicate calculus using ten-
+sors. It provides tensor interpretations of the
+set of logical connectives required to model
+propositional calculi. It suggests a variant
+of these tensor calculi capable of modelling
+quantifiers, using few non-linear operations.
+It finally discusses the relation between these
+variants, and how this relation should consti-
+tute the subject of future work.
+1 

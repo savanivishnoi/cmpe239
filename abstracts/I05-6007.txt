@@ -1,0 +1,19 @@
+
+We present a system that automati-
+cally identifies Attribution, an intra-
+sentential relation in the RST Tree-
+bank. The system uses uses syntactic
+information from Penn Treebank parse
+trees. It identifies Attributions as struc-
+tures in which a verb takes an SBAR
+complement, and achieves a f-score of
+.92. This supports our claim that the
+Attribution relation should be elimi-
+nated from a discourse treebank, since
+it represents information that is already
+present in the Penn Treebank, in a dif-
+ferent form. More generally, we sug-
+gest that intra-sentential relations in the
+RST Treebank might all be eliminable
+in this way.
+1 

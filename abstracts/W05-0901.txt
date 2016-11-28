@@ -1,0 +1,19 @@
+
+This paper demonstrates the usefulness of sum-
+maries in an extrinsic task of relevance judgment
+based on a new method for measuring agree-
+ment, Relevance-Prediction, which compares sub-
+jects? judgments on summaries with their own judg-
+ments on full text documents. We demonstrate that,
+because this measure is more reliable than previ-
+ous gold-standard measures, we are able to make
+stronger statistical statements about the benefits of
+summarization. We found positive correlations be-
+tween ROUGE scores and two different summary
+types, where only weak or negative correlations
+were found using other agreement measures. How-
+ever, we show that ROUGE may be sensitive to the
+choice of summarization style. We discuss the im-
+portance of these results and the implications for fu-
+ture summarization evaluations.
+1 

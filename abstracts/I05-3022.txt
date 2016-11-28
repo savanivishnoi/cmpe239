@@ -1,0 +1,19 @@
+
+This paper presents a word segmenta-
+tion system in France Telecom R&D 
+Beijing, which uses a unified approach 
+to word breaking and OOV identifica-
+tion. The output can be customized to 
+meet different segmentation standards 
+through the application of an ordered 
+list of transformation. The system par-
+ticipated in all the tracks of the seg-
+mentation bakeoff -- PK-open, PK-
+closed, AS-open, AS-closed, HK-open, 
+HK-closed, MSR-open and MSR-
+closed -- and achieved the state-of-the-
+art performance in MSR-open, MSR-
+close and PK-open tracks. Analysis of 
+the results shows that each component 
+of the system contributed to the scores. 
+1 

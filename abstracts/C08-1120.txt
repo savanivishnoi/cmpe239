@@ -1,0 +1,20 @@
+
+In this paper, we extend an existing para-
+graph retrieval approach to why-question
+answering. The starting-point is a system
+that retrieves a relevant answer for 73%
+of the test questions. However, in 41%
+of these cases, the highest ranked relevant
+answer is not ranked in the top-10. We
+aim to improve the ranking by adding a re-
+ranking module. For re-ranking we con-
+sider 31 features pertaining to the syntactic
+structure of the question and the candidate
+answer. We find a significant improvement
+over the baseline for both success@10 and
+MRR@150. The most important features
+for re-ranking are the baseline score, the
+presence of cue words, the question?s main
+verb, and the relation between question fo-
+cus and document title.
+1 

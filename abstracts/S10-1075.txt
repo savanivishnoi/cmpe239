@@ -1,0 +1,22 @@
+
+We describe the University of Sheffield
+system used in the TempEval-2 challenge,
+USFD2. The challenge requires the au-
+tomatic identification of temporal entities
+and relations in text.
+USFD2 identifies and anchors temporal
+expressions, and also attempts two of the
+four temporal relation assignment tasks.
+A rule-based system picks out and an-
+chors temporal expressions, and a max-
+imum entropy classifier assigns temporal
+link labels, based on features that include
+descriptions of associated temporal signal
+words. USFD2 identified temporal expres-
+sions successfully, and correctly classified
+their type in 90% of cases. Determin-
+ing the relation between an event and time
+expression in the same sentence was per-
+formed at 63% accuracy, the second high-
+est score in this part of the challenge.
+1 

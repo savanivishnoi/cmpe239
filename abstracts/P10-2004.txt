@@ -1,0 +1,13 @@
+ 
+Source language parse trees offer very useful 
+but imperfect reordering constraints for statis-
+tical machine translation. A lot of effort has 
+been made for soft applications of syntactic 
+constraints. We alternatively propose the se-
+lective use of syntactic constraints. A classifier 
+is built automatically to decide whether a node 
+in the parse trees should be used as a reorder-
+ing constraint or not. Using this information 
+yields a 0.8 BLEU point improvement over a 
+full constraint-based system. 
+1 

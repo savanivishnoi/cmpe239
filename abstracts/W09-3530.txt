@@ -1,0 +1,22 @@
+
+We report on our efforts as part of the
+shared task on the NEWS 2009 Machine
+Transliteration Shared Task. We applied
+an orthographic perceptron character edit
+model that we have used previously for
+name transliteration, enhancing it in two
+ways: by ranking possible transliterations
+according to the sum of their scores ac-
+cording to two models, one trained to gen-
+erate left-to-right, and one right-to-left;
+and by constraining generated strings to
+be consistent with character bigrams ob-
+served in the respective language?s train-
+ing data. Our poor showing in the of-
+ficial evaluation was due to a bug in
+the script used to produce competition-
+compliant output. Subsequent evaluation
+shows that our approach yielded compara-
+tively strong performance on all alphabetic
+language pairs we attempted.
+1 

@@ -1,0 +1,16 @@
+
+This paper describes an algorithm for
+propagating verb arguments along lexi-
+cal chains consisting of WordNet rela-
+tions. The algorithm creates verb argu-
+ment structures using VerbNet syntactic
+patterns. In order to increase the cover-
+age, a larger set of verb senses were auto-
+matically associated with the existing pat-
+terns from VerbNet. The algorithm is used
+in an in-house Question Answering sys-
+tem for re-ranking the set of candidate an-
+swers. Tests on factoid questions from
+TREC 2004 indicate that the algorithm im-
+proved the system performance by 2.4%.
+1 

@@ -1,0 +1,16 @@
+
+Many studies in natural language process-
+ing are concerned with how to generate
+definite descriptions that evoke a discourse
+entity already introduced in the context.
+A solution to this problem has been ini-
+tially proposed by Dale (1989) in terms
+of distinguishing descriptions and distin-
+guishable entities. In this paper, we give
+a formal definition of the terms ?distin-
+guishable entity? in non trivial cases and
+we show that its properties lead us to the
+definition of a distance between entities.
+Then, we give a polynomial algorithm to
+compute distinguishing descriptions.
+1 

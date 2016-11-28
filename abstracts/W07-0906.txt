@@ -1,0 +1,26 @@
+
+This article presents a method to extract and
+query Cultural Heritage (CH) textual dig-
+ital resources. The extraction and query-
+ing phases are linked by a common on-
+tological representation (CIDOC-CRM). A
+transport format (RDF) allows the ontol-
+ogy to be queried in a suitable query lan-
+guage (SPARQL), on top of which an inter-
+face makes it possible to formulate queries
+in Natural Language (NL). The extraction
+phase exploits the propositional nature of
+the ontology. The query interface is based
+on the Generate and Select principle, where
+potentially suitable queries are generated to
+match the user input, only for the most se-
+mantically similar candidate to be selected.
+In the process we evaluate data extracted
+from the description of a medieval city
+(Wolfenbu?ttel), transform and develop two
+methods of computing similarity between
+sentences based on WordNet. Experiments
+are described that compare the pros and
+cons of the similarity measures and evaluate
+them.
+1 

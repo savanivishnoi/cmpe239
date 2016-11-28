@@ -1,0 +1,23 @@
+ 
+Gene names and symbols are important 
+biomedical entities, but are highly 
+ambiguous. This ambiguity affects the 
+performance of both information extraction 
+and information retrieval systems in the 
+biomedical domain. Existing knowledge 
+sources contain different types of 
+information about genes and could be used 
+to disambiguate gene symbols. In this 
+paper, we applied an information retrieval 
+(IR) based method for human gene symbol 
+disambiguation and studied different 
+methods to combine various types of 
+information from available knowledge 
+sources. Results showed that a combination 
+of evidence usually improved performance. 
+The combination method using coefficients 
+obtained from a logistic regression model 
+reached the highest precision of 92.2% on a 
+testing set of ambiguous human gene 
+symbols.         
+1 

@@ -1,0 +1,19 @@
+
+The paper addresses the issue of how to increase
+adaptivity in response generation for a spoken
+dialogue system. Realization strategies for dia-
+logue responses depend on communicative con-
+dence levels and interaction management goals.
+We rst describe a Java/XML-based generator
+which produces dierent realizations of system
+responses based on agendas specied by the di-
+alogue manager. We then discuss how greater
+adaptivity can be achieved by using a set of dis-
+tinct generator agents, each of which is special-
+ized in its realization strategy (e.g. highly ellip-
+tical or highly explicit). This allows a simpler
+design of each generator agent, while increas-
+ing the overall system adaptivity to meet the
+requirements for exible cooperation in incre-
+mental and immediate interactive situations.
+1 

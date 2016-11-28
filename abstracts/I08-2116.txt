@@ -1,0 +1,24 @@
+
+Text categorization is a fundamental task in
+natural language processing, and is gener-
+ally defined as a multi-label categorization
+problem, where each text document is as-
+signed to one or more categories. We fo-
+cus on providing good statistical classifiers
+with a generalization ability for multi-label
+categorization and present a classifier de-
+sign method based on model combination
+and F
+1
+-score maximization. In our formu-
+lation, we first design multiple models for
+binary classification per category. Then,
+we combine these models to maximize the
+F
+1
+-score of a training dataset. Our experi-
+mental results confirmed that our proposed
+method was useful especially for datasets
+where there were many combinations of cat-
+egory labels.
+1 

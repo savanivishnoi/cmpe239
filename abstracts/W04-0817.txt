@@ -1,0 +1,10 @@
+
+We describe a system for semantic role assignment
+built as part of the Senseval III task, based on an
+off-the-shelf parser and Maxent and Memory-Based
+learners. We focus on generalisation using several
+similarity measures to increase the amount of train-
+ing data available and on the use of EM-based clus-
+tering to improve role assignment. Our final score
+is Precision=73.6%, Recall=59.4% (F=65.7).
+1 

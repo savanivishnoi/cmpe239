@@ -1,0 +1,10 @@
+
+This paper proposes a uniform frame-
+work for the development of parsing and
+translation algorithms for weighted ex-
+tended (top-down) tree transducers and in-
+put strings. The asymptotic time complex-
+ity of these algorithms can be improved
+in practice by exploiting an algorithm for
+rule factorization in the above transducers.
+1 

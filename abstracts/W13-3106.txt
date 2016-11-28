@@ -1,0 +1,15 @@
+
+In this paper we present a linear model for
+the problem of text summarization, where
+a summary preserves the information cov-
+erage as much as possible in comparison
+to the original document set. We reduce
+the problem of finding the best summary
+to the problem of finding the point on a
+convex polytope closest to the given hy-
+perplane, and solve it efficiently with the
+help of fractional linear programming. We
+supply here an overview of our system, ti-
+tled POLY2, that participated in the Multi-
+Ling contest at ACL 2013.
+1 

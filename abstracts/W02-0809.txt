@@ -1,0 +1,26 @@
+
+We describe a new version of the Dutch
+word sense disambiguation system trained
+and tested on a corrected version of the
+SENSEVAL-2 data. The system is an en-
+semble of word experts; each word expert
+is a memory-based classifier of which the
+parameters are automatically determined
+through cross-validation on training ma-
+terial. The original best-performing sys-
+tem, which used only local context fea-
+tures for disambiguation, is further refined
+by performing additional parallel cross-
+validation experiments for optimizing al-
+gorithmic parameters and the amount of
+local context available to each of the word
+experts? memory-based kernels. This pro-
+cedure produces an accuracy of 84.8%
+on test material, improving on a base-
+line score of 77.2% and the previous
+SENSEVAL-2 score of 84.2%. We show
+that cross-validation overfits; had the lo-
+cal context been held constant at two left
+and right neighbouring words, the system
+would have scored 85.0%.
+1 

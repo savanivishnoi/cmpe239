@@ -1,0 +1,16 @@
+
+We describe a new interactive annotation
+scheme between a human annotator who
+carries out simplified annotations on CFG
+trees, and a statistical parser that converts
+the human annotations automatically into a
+richly annotated HPSG treebank. In order
+to check the proposed scheme?s effectiveness,
+we performed automatic pseudo-annotations
+that emulate the system?s idealized behavior
+and measured the performance of the parser
+trained on those annotations. In addition,
+we implemented a prototype system and con-
+ducted manual annotation experiments on a
+small test set.
+1 

@@ -1,0 +1,22 @@
+ 
+In this paper we propose a competition 
+learning approach to coreference resolu-
+tion. Traditionally, supervised machine 
+learning approaches adopt the single-
+candidate model. Nevertheless the prefer-
+ence relationship between the antecedent 
+candidates cannot be determined accu-
+rately in this model. By contrast, our ap-
+proach adopts a twin-candidate learning 
+model. Such a model can present the 
+competition criterion for antecedent can-
+didates reliably, and ensure that the most 
+preferred candidate is selected. Further-
+more, our approach applies a candidate 
+filter to reduce the computational cost and 
+data noises during training and resolution. 
+The experimental results on MUC-6 and 
+MUC-7 data set show that our approach 
+can outperform those based on the single-
+candidate model.  
+1 

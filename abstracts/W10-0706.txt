@@ -1,0 +1,21 @@
+
+Mechanical Turk is useful for generating
+complex speech resources like conversational
+speech transcription. In this work, we ex-
+plore the next step of eliciting narrations of
+Wikipedia articles to improve accessibility for
+low-literacy users. This task proves a use-
+ful test-bed to implement qualitative vetting
+of workers based on difficult to define metrics
+like narrative quality. Working with the Me-
+chanical Turk API, we collected sample nar-
+rations, had other Turkers rate these samples
+and then granted access to full narration HITs
+depending on aggregate quality. While narrat-
+ing full articles proved too onerous a task to
+be viable, using other Turkers to perform vet-
+ting was very successful. Elicitation is possi-
+ble on Mechanical Turk, but it should conform
+to suggested best practices of simple tasks that
+can be completed in a streamlined workflow.
+1 

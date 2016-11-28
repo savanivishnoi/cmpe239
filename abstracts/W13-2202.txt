@@ -1,0 +1,18 @@
+
+This paper presents the results of the
+WMT13 Metrics Shared Task. We asked
+participants of this task to score the
+outputs of the MT systems involved in
+WMT13 Shared Translation Task. We
+collected scores of 16 metrics from 8 re-
+search groups. In addition to that we com-
+puted scores of 5 standard metrics such as
+BLEU, WER, PER as baselines. Collected
+scores were evaluated in terms of system
+level correlation (how well each metric?s
+scores correlate with WMT13 official hu-
+man scores) and in terms of segment level
+correlation (how often a metric agrees with
+humans in comparing two translations of a
+particular sentence).
+1 

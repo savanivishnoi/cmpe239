@@ -1,0 +1,20 @@
+
+Fact collections are mostly built using
+semi-supervised relation extraction tech-
+niques and wisdom of the crowds meth-
+ods, rendering them inherently noisy. In
+this paper, we propose to validate the re-
+sulting facts by leveraging global con-
+straints inherent in large fact collections,
+observing that correct facts will tend to
+match their arguments with other facts
+more often than with incorrect ones. We
+model this intuition as a graph-ranking
+problem over a fact graph and explore
+novel random walk algorithms. We
+present an empirical study, over a large set
+of facts extracted from a 500 million doc-
+ument webcrawl, validating the model and
+showing that it improves fact quality over
+state-of-the-art methods.
+1 

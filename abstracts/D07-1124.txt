@@ -1,0 +1,21 @@
+
+Deterministic parsing has emerged as an ef-
+fective alternative for complex parsing algo-
+rithms which search the entire search space
+to get the best probable parse tree. In this pa-
+per, we present an online large margin based
+training framework for deterministic pars-
+ing using Nivre?s Shift-Reduce parsing al-
+gorithm. Online training facilitates the use
+of high dimensional features without cre-
+ating memory bottlenecks unlike the popu-
+lar SVMs. We participated in the CoNLL
+Shared Task-2007 and evaluated our system
+for ten languages. We got an average multi-
+lingual labeled attachment score of 74.54 %
+(with 65.50% being the average and 80.32%
+the highest) and an average multilingual un-
+labeled attachment score of 80.30% (with
+71.13% being the average and 86.55% the
+highest).
+1 

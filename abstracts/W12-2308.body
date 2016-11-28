@@ -1,0 +1,26 @@
+
+We show that a class of cases that has been
+previously studied in terms of learning of
+abstract phonological underlying representa-
+tions (URs) can be handled by a learner that
+chooses URs from a contextually conditioned
+distribution over observed surface representa-
+tions. We implement such a learner in a Max-
+imum Entropy version of Optimality Theory,
+in which UR learning is an instance of semi-
+supervised learning. Our objective function
+incorporates a term aimed to ensure general-
+ization, independently required for phonotac-
+tic learning in Optimality Theory, and does
+not have a bias for single URs for morphemes.
+This learner is successful on a test language
+provided by Tesar (2006) as a challenge for
+UR learning. We also provide successful re-
+sults on learning of a toy case modeled on
+French vowel alternations, which have also
+been previously analyzed in terms of abstract
+URs. This case includes lexically conditioned
+variation, an aspect of the data that cannot be
+handled by abstract URs, showing that in this
+respect our approach is more general.
+1 

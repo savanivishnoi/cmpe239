@@ -1,0 +1,12 @@
+ 
+In this paper we describe and evaluate a Ques-
+tion Answering system that goes beyond an-
+swering factoid questions. We focus on FAQ-
+like questions and answers, and build our sys-
+tem around a noisy-channel architecture which 
+exploits both a language model for answers 
+and a transformation model for an-
+swer/question terms, trained on a corpus of 1 
+million question/answer pairs collected from 
+the Web. 
+1 

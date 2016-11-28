@@ -1,0 +1,16 @@
+ 
+We propose a method of revising lead sentences in 
+a news broadcast. Unlike many other methods pro-
+posed so far, this method does not use the corefer-
+ence relation of noun phrases (NPs) but rather, 
+insertion and substitution of the phrases modifying 
+the same head chunk in lead and other sentences. 
+The method borrows an idea from the sentence 
+fusion methods and is more general than those 
+using NP coreferencing as ours includes them. We 
+show in experiments the method was able to find 
+semantically appropriate revisions thus demon-
+strating its basic feasibility. We also show that that 
+parsing errors mainly degraded the sentential com-
+pleteness such as grammaticality and redundancy.  
+1 

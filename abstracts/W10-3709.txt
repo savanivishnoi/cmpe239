@@ -1,0 +1,27 @@
+ 
+In order to accomplish the deep semantic 
+understanding of a language, it is essen-
+tial to analyze the meaning of predicate 
+phrases, a content word plus functional 
+expressions. In agglutinating languages 
+such as Japanese, however, sentential 
+predicates are multi-morpheme expres-
+sions and all the functional expressions 
+including those unnecessary to the mean-
+ing of the predicate are merged into one 
+phrase. This triggers an increase in sur-
+face forms, which is problematic for 
+NLP systems. We solve this by introduc-
+ing simplified surface forms of predi-
+cates that retain only the crucial meaning 
+of the functional expressions. We con-
+struct paraphrasing rules based on syn-
+tactic and semantic theories in linguistics. 
+The results of experiments show that our 
+system achieves the high accuracy of 
+77% while reducing the differences in 
+surface forms by 44%, which is quite 
+close to the performance of manually 
+simplified predicates. 
+ 
+1 

@@ -1,0 +1,17 @@
+
+Both entity and relation extraction can
+benefit from being performed jointly, al-
+lowing each task to correct the errors of
+the other. We present a new method for
+joint entity and relation extraction using
+a graph we call a ?card-pyramid.? This
+graph compactly encodes all possible en-
+tities and relations in a sentence, reducing
+the task of their joint extraction to jointly
+labeling its nodes. We give an efficient la-
+beling algorithm that is analogous to pars-
+ing using dynamic programming. Exper-
+imental results show improved results for
+our joint extraction method compared to a
+pipelined approach.
+1 

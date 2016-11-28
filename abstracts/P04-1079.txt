@@ -1,0 +1,20 @@
+ 
+We present the results of an experiment 
+on extending the automatic method of 
+Machine Translation evaluation BLUE 
+with statistical weights for lexical items, 
+such as tf.idf scores. We show that this 
+extension gives additional information 
+about evaluated texts; in particular it al-
+lows us to measure translation Adequacy, 
+which, for statistical MT systems, is often 
+overestimated by the baseline BLEU 
+method. The proposed model uses a sin-
+gle human reference translation, which 
+increases the usability of the proposed 
+method for practical purposes. The model 
+suggests a linguistic interpretation which 
+relates frequency weights and human in-
+tuition about translation Adequacy and 
+Fluency. 
+1. 

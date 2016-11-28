@@ -1,0 +1,23 @@
+
+In this paper we present a statistical translit-
+eration technique that is language indepen-
+dent. This technique uses Hidden Markov
+Model (HMM) alignment and Conditional
+Random Fields (CRF), a discriminative
+model. HMM alignment maximizes the
+probability of the observed (source, target)
+word pairs using the expectation maximiza-
+tion algorithm and then the character level
+alignments (n-gram) are set to maximum
+posterior predictions of the model. CRF
+has efficient training and decoding processes
+which is conditioned on both source and
+target languages and produces globally op-
+timal solutions. We apply this technique
+for Hindi-English transliteration task. The
+results show that our technique perfoms
+better than the existing transliteration sys-
+tem which uses HMM alignment and con-
+ditional probabilities derived from counting
+the alignments.
+1 

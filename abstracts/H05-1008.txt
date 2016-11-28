@@ -1,0 +1,21 @@
+
+The accuracy of event extraction is lim-
+ited by a number of complicating factors,
+with errors compounded at all sages in-
+side the Information Extraction pipeline.
+In this paper, we present methods for re-
+covering automatically from errors com-
+mitted in the pipeline processing. Recov-
+ery is achieved via post-processing facts
+aggregated over a large collection of doc-
+uments, and suggesting corrections based
+on evidence external to the document. A
+further improvement is derived from prop-
+agating multiple, locally non-best slot fills
+through the pipeline. Evaluation shows
+that the global analysis is over 10 times
+more likely to suggest valid corrections to
+the local-only analysis than it is to suggest
+erroneous ones. This yields a substantial
+overall gain, with no supervised training.
+1 

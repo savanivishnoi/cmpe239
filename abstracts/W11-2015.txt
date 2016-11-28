@@ -1,0 +1,15 @@
+
+We present the novel task of predicting tem-
+poral features of continuations of user input,
+while that input is still ongoing. We show that
+the remaining duration of an ongoing word, as
+well as the duration of the next can be predicted
+reasonably well, and we put this information to
+use in a system that synchronously completes
+a user?s speech. While we focus on collabo-
+rative completions, the techniques presented
+here may also be useful for the alignment of
+back-channels and immediate turn-taking in an
+incremental SDS, or to synchronously monitor
+the user?s speech fluency for other reasons.
+1 

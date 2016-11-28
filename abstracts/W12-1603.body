@@ -1,0 +1,31 @@
+
+One challenge of implementing spoken di-
+alogue systems for long-term interaction is
+how to adapt the dialogue as user and sys-
+tem become more familiar. We believe this
+challenge includes evoking and signaling as-
+pects of long-term relationships such as rap-
+port. For tutoring systems, this may addi-
+tionally require knowing how relationships are
+signaled among non-adult users. We therefore
+investigate conversational strategies used by
+teenagers in peer tutoring dialogues, and how
+these strategies function differently among
+friends or strangers. In particular, we use an-
+notated and automatically extracted linguis-
+tic devices to predict impoliteness and posi-
+tivity in the next turn. To take into account
+the sparse nature of these features in real data
+we use models including Lasso, ridge estima-
+tor, and elastic net. We evaluate the predictive
+power of our models under various settings,
+and compare our sparse models with stan-
+dard non-sparse solutions. Our experiments
+demonstrate that our models are more ac-
+curate than non-sparse models quantitatively,
+and that teens use unexpected kinds of lan-
+guage to do relationship work such as signal-
+ing rapport, but friends and strangers, tutors
+and tutees, carry out this work in quite differ-
+ent ways from one another.
+1 

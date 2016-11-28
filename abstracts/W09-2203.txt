@@ -1,0 +1,25 @@
+
+We address two critical issues involved in ap-
+plying semi-supervised learning (SSL) to a
+real-world task: parameter tuning and choos-
+ing which (if any) SSL algorithm is best suited
+for the task at hand. To gain a better un-
+derstanding of these issues, we carry out a
+medium-scale empirical study comparing su-
+pervised learning (SL) to two popular SSL al-
+gorithms on eight natural language processing
+tasks under three performance metrics. We
+simulate how a practitioner would go about
+tackling a new problem, including parameter
+tuning using cross validation (CV). We show
+that, under such realistic conditions, each of
+the SSL algorithms can be worse than SL on
+some datasets. However, we also show that
+CV can select SL/SSL to achieve ?agnostic
+SSL,? whose performance is almost always no
+worse than SL. While CV is often dismissed as
+unreliable for SSL due to the small amount of
+labeled data, we show that it is in fact effective
+for accuracy even when the labeled dataset
+size is as small as 10.
+1 

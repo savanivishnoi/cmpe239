@@ -1,0 +1,22 @@
+
+This paper describes a system which gen-
+erates animations for cooking actions in
+recipes, to help people understand recipes
+written in Japanese. The major goal of this
+research is to increase the scalability of the
+system, i.e., to develop a system which can
+handle various kinds of cooking actions.
+We designed and compiled the lexicon of
+cooking actions required for the animation
+generation system. The lexicon includes
+the action plan used for animation genera-
+tion, and the information about ingredients
+upon which the cooking action is taken.
+Preliminary evaluation shows that our lex-
+icon contains most of the cooking actions
+that appear in Japanese recipes. We also
+discuss how to handle linguistic expres-
+sions in recipes, which are not included
+in the lexicon, in order to generate anima-
+tions for them.
+1 

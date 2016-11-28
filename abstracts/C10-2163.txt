@@ -1,0 +1,14 @@
+
+This paper is a case study on cross-lingual
+induction of lexical resources for deep,
+broad-coverage syntactic analysis of Ger-
+man. We use a parallel corpus to in-
+duce a classifier for German participles
+which can predict their syntactic category.
+By means of this classifier, we induce a
+resource of adverbial participles from a
+huge monolingual corpus of German. We
+integrate the resource into a German LFG
+grammar and show that it improves pars-
+ing coverage while maintaining accuracy.
+1 

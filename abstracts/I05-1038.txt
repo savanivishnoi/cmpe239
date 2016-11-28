@@ -1,0 +1,9 @@
+. Conventional QA systems cannot answer to the questions
+composed of two or more sentences. Therefore, we aim to construct a
+QA system that can answer such multiple-sentence questions. As the first
+stage, we propose a method for classifying multiple-sentence questions
+into question types. Specifically, we first extract the core sentence from
+a given question text. We use the core sentence and its question focus in
+question classification. The result of experiments shows that the proposed
+method improves F-measure by 8.8% and accuracy by 4.4%.
+1 

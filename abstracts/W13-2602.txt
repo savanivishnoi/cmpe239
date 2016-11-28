@@ -1,0 +1,25 @@
+
+Computational work in the past decade
+has produced several models accounting
+for phonetic category learning from distri-
+butional and lexical cues. However, there
+have been no computational proposals for
+how people might use another powerful
+learning mechanism: generalization from
+learned to analogous distinctions (e.g.,
+from /b/?/p/ to /g/?/k/). Here, we present
+a new simple model of generalization in
+phonetic category learning, formalized in
+a hierarchical Bayesian framework. The
+model captures our proposal that linguis-
+tic knowledge includes the possibility that
+category types in a language (such as
+voiced and voiceless) can be shared across
+sound classes (such as labial and velar),
+thus naturally leading to generalization.
+We present two sets of simulations that
+reproduce key features of human perfor-
+mance in behavioral experiments, and we
+discuss the model?s implications and di-
+rections for future research.
+1 

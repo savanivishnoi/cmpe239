@@ -1,0 +1,22 @@
+
+Dictionary-based protein name recogni-
+tion is the first step for practical infor-
+mation extraction from biomedical doc-
+uments because it provides ID informa-
+tion of recognized terms unlike machine
+learning based approaches. However, dic-
+tionary based approaches have two se-
+rious problems: (1) a large number of
+false recognitions mainly caused by short
+names. (2) low recall due to spelling vari-
+ation. In this paper, we tackle the for-
+mer problem by using a machine learning
+method to filter out false positives. We
+also present an approximate string search-
+ing method to alleviate the latter prob-
+lem. Experimental results using the GE-
+NIA corpus show that the filtering using
+a naive Bayes classifier greatly improves
+precision with slight loss of recall, result-
+ing in a much better F-score.
+1 

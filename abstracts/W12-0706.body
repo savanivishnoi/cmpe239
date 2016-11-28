@@ -1,0 +1,17 @@
+ 
+We introduce Conflict-Driven Co-Clustering, 
+a novel algorithm for data co-clustering, and 
+apply it to the problem of inducing parts-of-
+speech in a corpus of child-directed spoken 
+English. Co-clustering is preferable to 
+unidimensional clustering as it takes into 
+account both item and context ambiguity. We 
+show that the categorization performance of 
+the algorithm is comparable with the co-
+clustering algorithm of Leibbrandt and 
+Powers (2008), but out-performs that 
+algorithm in robustly pruning less-useful 
+clusters and merging them into categories 
+strongly corresponding to the three main open 
+classes of English. 
+1 

@@ -1,0 +1,29 @@
+
+We present a method of creating disjunctive
+logical forms (DLFs) from aligned sentences
+for grammar-based paraphrase generation us-
+ing the OpenCCG broad coverage surface re-
+alizer. The method takes as input word-level
+alignments of two sentences that are para-
+phrases and projects these alignments onto the
+logical forms that result from automatically
+parsing these sentences. The projected align-
+ments are then converted into phrasal edits
+for producing DLFs in both directions, where
+the disjunctions represent alternative choices
+at the level of semantic dependencies. The re-
+sulting DLFs are fed into the OpenCCG re-
+alizer for n-best realization, using a pruning
+strategy that encourages lexical diversity. Af-
+ter merging, the approach yields an n-best list
+of paraphrases that contain grammatical alter-
+natives to each original sentence, as well as
+paraphrases that mix and match content from
+the pair. A preliminary error analysis suggests
+that the approach could benefit from taking the
+word order in the original sentences into ac-
+count. We conclude with a discussion of plans
+for future work, highlighting the method?s po-
+tential use in enhancing automatic MT evalu-
+ation.
+1 

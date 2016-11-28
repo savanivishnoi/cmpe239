@@ -1,0 +1,16 @@
+
+We demonstrate an original and success-
+ful approach for both resolving and gen-
+erating definite anaphora. We propose
+and evaluate unsupervised models for ex-
+tracting hypernym relations by mining co-
+occurrence data of definite NPs and po-
+tential antecedents in an unlabeled cor-
+pus. The algorithm outperforms a stan-
+dard WordNet-based approach to resolv-
+ing and generating definite anaphora. It
+also substantially outperforms recent re-
+lated work using pattern-based extraction
+of such hypernym relations for corefer-
+ence resolution.
+1 

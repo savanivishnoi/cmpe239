@@ -1,0 +1,13 @@
+
+We investigate the impact of the precision/recall
+trade-off of information extraction on the per-
+formance of an offline corpus-based question
+answering (QA) system. One of our findings is
+that, because of the robust final answer selection
+mechanism of the QA system, recall is more im-
+portant. We show that the recall of the extrac-
+tion component can be improved using syntac-
+tic parsing instead of more common surface text
+patterns, substantially increasing the number of
+factoid questions answered by the QA system.
+1 

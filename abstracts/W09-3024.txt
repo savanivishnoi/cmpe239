@@ -1,0 +1,20 @@
+
+We present a new method for automated
+discovery of inconsistencies in a complex
+manually annotated corpora. The pro-
+posed technique is based on Apriori al-
+gorithm for mining association rules from
+datasets. By setting appropriate parame-
+ters to the algorithm, we were able to au-
+tomatically infer highly reliable rules of
+annotation and subsequently we searched
+for records for which the inferred rules
+were violated. We show that the viola-
+tions found by this simple technique are
+often caused by an annotation error. We
+present an evaluation of this technique on
+a hand-annotated corpus PDT 2.0, present
+the error analysis and show that in the first
+100 detected nodes 20 of them contained
+an annotation error.
+1 

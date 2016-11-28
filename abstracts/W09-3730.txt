@@ -1,0 +1,14 @@
+
+On a pilot corpus of Dutch medical encyclopedia texts, we focus
+on the mechanism of taxonomic inference that involves the extraction
+of co-hyponym terms, and the taxonomic or domain-specific lexico-
+semantic relation in the form of a textual hypothesis, which coordinates
+these. An initial set of inference elements can be acquired by syntactic
+and semantic alignment, additionally driven by document structure.
+From the terms and the related hypothesis we can harvest lexical pat-
+terns, which are linked to annotated domain concepts. The aim of the
+process is to learn inference patterns and apply the system to short
+as well as unstructured documents where fewer or no discourse-level
+cues are available, in order to acquire new co-hyponyms linked to their
+coordinating term via a specified relation.
+1 

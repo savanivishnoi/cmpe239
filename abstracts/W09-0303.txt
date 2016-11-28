@@ -1,0 +1,22 @@
+
+In this study we apply and evaluate an
+iterative pairwise alignment program for
+producing multiple sequence alignments,
+ALPHAMALIG (Alonso et al, 2004), us-
+ing as material the phonetic transcriptions
+of words used in Bulgarian dialectological
+research. To evaluate the quality of the
+multiple alignment, we propose two new
+methods based on comparing each column
+in the obtained alignments with the cor-
+responding column in a set of gold stan-
+dard alignments. Our results show that the
+alignments produced by ALPHAMALIG
+correspond well with the gold standard
+alignments, making this algorithm suitable
+for the automatic generation of multiple
+string alignments. Multiple string align-
+ment is particularly interesting for histor-
+ical reconstruction based on sound corre-
+spondences.
+1 

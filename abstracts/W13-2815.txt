@@ -1,0 +1,20 @@
+
+We present initial work on an inex-
+pensive approach for building large-
+vocabulary lexical selection modules for
+hybrid RBMT systems by framing lexi-
+cal selection as a sequence labeling prob-
+lem. We submit that Maximum Entropy
+Markov Models (MEMMs) are a sensible
+formalism for this problem, due to their
+ability to take into account many features
+of the source text, and show how we can
+build a combination MEMM/HMM sys-
+tem that allows MT system implemen-
+tors flexibility regarding which words have
+their lexical choices modeled with classi-
+fiers. We present initial results showing
+successful use of this system both in trans-
+lating English to Spanish and Spanish to
+Guarani.
+1 

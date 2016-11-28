@@ -1,0 +1,15 @@
+ 
+This paper presents a set of experiments per-
+formed on parsing the Basque Dependency 
+Treebank. We have applied feature propaga-
+tion to dependency parsing, experimenting the 
+propagation of several morphosyntactic fea-
+ture values. In the experiments we have used 
+the output of a parser to enrich the input of a 
+second parser. Both parsers have been gener-
+ated by Maltparser, a freely data-driven de-
+pendency parser generator. The transforma-
+tions, combined with the pseudoprojective 
+graph transformation, obtain a LAS of 77.12% 
+improving the best reported results for Basque. 
+1 

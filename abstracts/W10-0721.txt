@@ -1,0 +1,28 @@
+
+Crowd-sourcing approaches such as Ama-
+zon?s Mechanical Turk (MTurk) make it pos-
+sible to annotate or collect large amounts of
+linguistic data at a relatively low cost and high
+speed. However, MTurk offers only limited
+control over who is allowed to particpate in
+a particular task. This is particularly prob-
+lematic for tasks requiring free-form text en-
+try. Unlike multiple-choice tasks there is no
+correct answer, and therefore control items
+for which the correct answer is known can-
+not be used. Furthermore, MTurk has no ef-
+fective built-in mechanism to guarantee work-
+ers are proficient English writers. We de-
+scribe our experience in creating corpora of
+images annotated with multiple one-sentence
+descriptions on MTurk and explore the effec-
+tiveness of different quality control strategies
+for collecting linguistic data using Mechani-
+cal MTurk. We find that the use of a qualifi-
+cation test provides the highest improvement
+of quality, whereas refining the annotations
+through follow-up tasks works rather poorly.
+Using our best setup, we construct two image
+corpora, totaling more than 40,000 descriptive
+captions for 9000 images.
+1 

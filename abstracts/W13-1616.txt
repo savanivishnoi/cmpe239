@@ -1,0 +1,25 @@
+ 
+Sentiment analysis means to extract opinion 
+of users from review documents. Sentiment 
+classification using Machine Learning (ML) 
+methods faces the problem of high dimen-
+sionality of feature vector. Therefore, a fea-
+ture selection method is required to eliminate 
+the irrelevant and noisy features from the 
+feature vector for efficient working of ML 
+algorithms. Rough Set Theory based feature 
+selection method finds the optimal feature 
+subset by eliminating the redundant features. 
+In this paper, Rough Set Theory (RST) based 
+feature selection method is applied for sen-
+timent classification. A Hybrid feature selec-
+tion method based on RST and Information 
+Gain (IG) is proposed for sentiment classifi-
+cation. Proposed methods are evaluated on 
+four standard datasets viz. Movie review, 
+product (book, DVD and electronics) review 
+dataset. Experimental results show that Hy-
+brid feature selection method outperforms 
+than other feature selection methods for sen-
+timent classification. 
+1 

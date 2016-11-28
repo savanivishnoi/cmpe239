@@ -1,0 +1,18 @@
+
+In this paper we use statistical dependency
+parsing techniques to detect NULL or Empty
+categories in the Hindi sentences. We have
+currently worked on Hindi dependency tree-
+bank which is released as part of COLING-
+MTPIL 2012 Workshop. Earlier Rule based
+approaches are employed to detect Empty
+heads for Hindi language but statistical learn-
+ing for automatic prediction is not explored.
+In this approach we used a technique of in-
+troducing complex labels into the data to pre-
+dict Empty categories in sentences. We have
+also discussed about shortcomings and diffi-
+culties in this approach and evaluated the per-
+formance of this approach on different Empty
+categories.
+1 

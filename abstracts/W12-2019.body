@@ -1,0 +1,23 @@
+
+We investigate the problem of readability as-
+sessment using a range of lexical and syntac-
+tic features and study their impact on predict-
+ing the grade level of texts. As empirical ba-
+sis, we combined two web-based text sources,
+Weekly Reader and BBC Bitesize, targeting
+different age groups, to cover a broad range
+of school grades. On the conceptual side, we
+explore the use of lexical and syntactic mea-
+sures originally designed to measure language
+development in the production of second lan-
+guage learners. We show that the develop-
+mental measures from Second Language Ac-
+quisition (SLA) research when combined with
+traditional readability features such as word
+length and sentence length provide a good
+indication of text readability across different
+grades. The resulting classifiers significantly
+outperform the previous approaches on read-
+ability classification, reaching a classification
+accuracy of 93.3%.
+1 

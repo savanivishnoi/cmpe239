@@ -1,0 +1,18 @@
+ 
+This paper proposes a multi-label ap-
+proach to detect emotion causes. The 
+multi-label model not only detects mul-
+ti-clause causes, but also captures the 
+long-distance information to facilitate 
+emotion cause detection. In addition, 
+based on the linguistic analysis, we cre-
+ate two sets of linguistic patterns during 
+feature extraction. Both manually gener-
+alized patterns and automatically gener-
+alized patterns are designed to extract 
+general cause expressions or specific 
+constructions for emotion causes. Ex-
+periments show that our system 
+achieves a performance much higher 
+than a baseline model.   
+1 

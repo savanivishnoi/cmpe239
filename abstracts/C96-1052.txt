@@ -1,0 +1,25 @@
+ 
+This paper presents a comtmtational 
+model of incremental utterance produc- 
+tion in task-oriented ialogues. This 
+model incrementally produces utter- 
+antes to propose the solution of a given 
+problem, while simultaneously solving 
+the problem in a stepwise manner. Even 
+when the solution has been partially de- 
+termined, this model starts utterances 
+to satisfy time constraints where pauses 
+in mid-utterance must not exceed a cer- 
+tain length. The results of an analysis 
+of discourse structure in a dialogue cor- 
+pus are presented and the fine structure 
+of discourse that contributes to the in- 
+cremental strategy of utterance produc- 
+tion is described. This model utilizes 
+such a discourse structure to incremen- 
+tally produce utterances constituting a
+discourse. Pragmatic onstraints are ex- 
+ploited to guarantee the relevance of dis- 
+courses, which are evaluated by an utter- 
+ance simulation experiment. 
+1 

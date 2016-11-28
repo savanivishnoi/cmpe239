@@ -1,0 +1,15 @@
+
+Surface realisers divide into those used in
+generation (NLG geared realisers) and those
+mirroring the parsing process (Reversible re-
+alisers). While the first rely on grammars not
+easily usable for parsing, it is unclear how
+the second type of realisers could be param-
+eterised to yield from among the set of pos-
+sible paraphrases, the paraphrase appropri-
+ate to a given generation context. In this pa-
+per, we present a surface realiser which com-
+bines a reversible grammar (used for pars-
+ing and doing semantic construction) with a
+symbolic means of selecting paraphrases.
+1 

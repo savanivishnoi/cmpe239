@@ -1,0 +1,11 @@
+
+We apply the Stat-XFER statistical transfer
+machine translation framework to the task of
+translating from French and German into En-
+glish. We introduce statistical methods within
+our framework that allow for the principled
+extraction of syntax-based transfer rules from
+parallel corpora given word alignments and
+constituency parses. Performance is evaluated
+on test sets from the 2007 WMT shared task.
+1 

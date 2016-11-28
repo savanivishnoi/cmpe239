@@ -1,0 +1,14 @@
+
+This article describes a machine translation
+system based on an automatic post-editing
+strategy: initially translate the input text into
+the target-language using a rule-based MT
+system, then automatically post-edit the out-
+put using a statistical phrase-based system.
+An implementation of this approach based
+on the SYSTRAN and PORTAGE MT sys-
+tems was used in the shared task of the Sec-
+ond Workshop on Statistical Machine Trans-
+lation. Experimental results on the test data
+of the previous campaign are presented.
+1 

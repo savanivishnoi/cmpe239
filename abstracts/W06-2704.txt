@@ -1,0 +1,23 @@
+
+The NITE Query Language (NQL) has
+been used successfully for analysis of a
+number of heavily cross-annotated data
+sets, and users especially value its ele-
+gance and flexibility. However, when us-
+ing the current implementation, many of
+the more complicated queries that users
+have formulated must be run in batch
+mode. For a re-implementation, we re-
+quire the query processor to be capable
+of handling large amounts of data at once,
+and work quickly enough for on-line data
+analysis even when used on complete cor-
+pora. Early results suggest that the most
+promising implementation strategy is one
+that involves the use of XQuery on a mul-
+tiple file data representation that uses the
+structure of individual XML files to mirror
+tree structures in the data, with redundancy
+where a data node has multiple parents in
+the underlying data object model.
+1 

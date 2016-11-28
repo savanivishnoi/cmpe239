@@ -1,0 +1,16 @@
+
+This paper shows that training a lexicalized
+parser on a lemmatized morphologically-rich
+treebank such as the French Treebank slightly
+improves parsing results. We also show that
+lemmatizing a similar in size subset of the En-
+glish Penn Treebank has almost no effect on
+parsing performance with gold lemmas and
+leads to a small drop of performance when au-
+tomatically assigned lemmas and POS tags are
+used. This highlights two facts: (i) lemmati-
+zation helps to reduce lexicon data-sparseness
+issues for French, (ii) it also makes the pars-
+ing process sensitive to correct assignment of
+POS tags to unknown words.
+1 

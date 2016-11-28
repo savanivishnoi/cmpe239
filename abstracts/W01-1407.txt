@@ -1,0 +1,23 @@
+
+In statistical machine translation, cor-
+respondences between the words in
+the source and the target language are
+learned from bilingual corpora on the
+basis of so called alignment models.
+Existing statistical systems for MT of-
+ten treat different derivatives of the
+same lemma as if they were indepen-
+dent of each other. In this paper we
+argue that a better exploitation of the
+bilingual training data can be achieved
+by explicitly taking into account the in-
+terdependencies of the different deriva-
+tives. We do this along two direc-
+tions: Usage of hierarchical lexicon
+models and the introduction of equiv-
+alence classes in order to ignore in-
+formation not relevant for the trans-
+lation task. The improvement of the
+translation results is demonstrated on a
+German-English corpus.
+1 

@@ -1,0 +1,14 @@
+
+For a spoken dialog system to make good
+use of a speech recognition N-Best list, it is
+essential to know how much trust to place
+in each entry. This paper presents a method
+for assigning a probability of correctness to
+each of the items on the N-Best list, and to
+the hypothesis that the correct answer is not
+on the list. We find that both multinomial lo-
+gistic regression and support vector machine
+models yields meaningful, useful probabili-
+ties across different tasks and operating con-
+ditions.
+1 

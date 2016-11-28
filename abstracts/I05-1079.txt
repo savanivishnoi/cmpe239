@@ -1,0 +1,10 @@
+. Lexical Conceptual Structure (LCS) represents verbs as semantic
+structures with a limited number of semantic predicates. This paper attempts to
+exploit how LCS can be used to explain the regularities underlying lexical and
+syntactic paraphrases, such as verb alternation, compound word decomposition,
+and lexical derivation. We propose a paraphrase generation model which trans-
+forms LCSs of verbs, and then conduct an empirical experiment taking the para-
+phrasing of Japanese light-verb constructions as an example. Experimental results
+justify that syntactic and semantic properties of verbs encoded in LCS are useful
+to semantically constrain the syntactic transformation in paraphrase generation.
+1 

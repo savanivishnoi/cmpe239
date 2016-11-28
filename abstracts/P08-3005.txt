@@ -1,0 +1,18 @@
+ 
+Machine learning methods have been exten-
+sively employed in developing MT evaluation 
+metrics and several studies show that it can 
+help to achieve a better correlation with hu-
+man assessments. Adopting the regression 
+SVM framework, this paper discusses the lin-
+guistic motivated feature formulation strategy. 
+We argue that ?blind? combination of avail-
+able features does not yield a general metrics 
+with high correlation rate with human assess-
+ments. Instead, certain simple intuitive fea-
+tures serve better in establishing the 
+regression SVM evaluation model. With six 
+features selected, we show evidences to sup-
+port our view through a few experiments in 
+this paper. 
+1 

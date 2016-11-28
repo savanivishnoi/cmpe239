@@ -1,0 +1,19 @@
+
+Word alignment is an important preprocessing step
+for machine translation. The project aims at incorpo-
+rating manual alignments from Amazon Mechanical
+Turk (MTurk) to help improve word alignment qual-
+ity. As a global crowdsourcing service, MTurk can
+provide flexible and abundant labor force and there-
+fore reduce the cost of obtaining labels. An easy-
+to-use interface is developed to simplify the labeling
+process. We compare the alignment results by Turk-
+ers to that by experts, and incorporate the alignments
+in a semi-supervised word alignment tool to improve
+the quality of the labels. We also compared two pric-
+ing strategies for word alignment task. Experimental
+results show high precision of the alignments pro-
+vided by Turkers and the semi-supervised approach
+achieved 0.5% absolute reduction on alignment error
+rate.
+1 

@@ -1,0 +1,12 @@
+ 
+Most of the studies in the framework of Lambek 
+calculus have considered the parsing process and 
+ignored the generation process. This paper wants 
+to rely on the close link between Lambek calculus 
+and linear logic to present a method for the genera- 
+tion process with semantic proof nets. We express 
+the process as a proof search procedure based on a 
+graph calculus and the solutions appear as a matrix 
+computation preserving the decidability properties, 
+and we characterize a polynomial time case. 
+1 

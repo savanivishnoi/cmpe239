@@ -1,0 +1,12 @@
+
+We present the results of several machine learning tasks that exploit explicit spatial language
+to classify rhetorical relations and the spatial information of narrative events. Three corpora are
+annotated with figure and ground (granularity) relationships, mereotopologically classified verbs
+and prepositions, and frames of reference. For rhetorical relations, Na??ve Bayesian models achieve
+84.90% and 57.87% accuracy in classifying NARRATION and BACKGROUND / ELABORATION re-
+lations respectively (16% and 23% above baseline). For the spatial information of narrative events,
+K* models achieve 55.68% average accuracy (12% above baseline) for all spatial information types.
+This result is boosted to 71.85% (28% above baseline) when inertial spatial reference and text se-
+quence information are considered. Overall, spatial information is shown to be central to narrative
+discourse structure and prediction tasks.
+1 

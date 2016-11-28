@@ -1,0 +1,24 @@
+
+Markov logic is a highly expressive language
+recently introduced to specify the connec-
+tivity of a Markov network using first-order
+logic. While Markov logic is capable of
+constructing arbitrary first-order formulae
+over the data, the complexity of these for-
+mulae is often limited in practice because
+of the size and connectivity of the result-
+ing network. In this paper, we present ap-
+proximate inference and estimation meth-
+ods that incrementally instantiate portions
+of the network as needed to enable first-
+order existential and universal quantifiers
+in Markov logic networks. When applied
+to the problem of identity uncertainty, this
+approach results in a conditional probabilis-
+tic model that can reason about objects,
+combining the expressivity of recently in-
+troduced BLOG models with the predic-
+tive power of conditional training. We vali-
+date our algorithms on the tasks of citation
+matching and author disambiguation.
+1 

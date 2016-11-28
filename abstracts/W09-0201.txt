@@ -1,0 +1,13 @@
+
+We propose an approach to corpus-based
+semantics, inspired by cognitive science,
+in which different semantic tasks are tack-
+led using the same underlying reposi-
+tory of distributional information, col-
+lected once and for all from the source
+corpus. Task-specific semantic spaces are
+then built on demand from the repository.
+A straightforward implementation of our
+proposal achieves state-of-the-art perfor-
+mance on a number of unrelated tasks.
+1 

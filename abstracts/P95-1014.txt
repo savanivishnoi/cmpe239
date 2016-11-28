@@ -1,0 +1,14 @@
+ 
+Some linguistic constraints cannot be effec- 
+tively resolved during parsing at the loca- 
+tion in which they are most naturally intro- 
+duced. This paper shows how constraints 
+can be propagated in a memoizing parser 
+(such as a chart parser) in much the same 
+way that variable bindings are, providing a 
+general treatment of constraint coroutining 
+in memoization. Prolog code for a sim- 
+ple application of our technique to Bouma 
+and van Noord's (1994) categorial gram- 
+mar analysis of Dutch is provided. 
+1 

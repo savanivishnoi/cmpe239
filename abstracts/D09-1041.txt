@@ -1,0 +1,12 @@
+
+This work introduces a model free approach to
+sentence compression, which grew out of ideas
+from Nomoto (2008), and examines how it com-
+pares to a state-of-art model intensive approach
+known as Tree-to-Tree Transducer, or T3 (Cohn
+and Lapata, 2008). It is found that a model free
+approach significantly outperforms T3 on the par-
+ticular data we created from the Internet. We also
+discuss what might have caused T3?s poor perfor-
+mance.
+1 

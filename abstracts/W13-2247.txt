@@ -1,0 +1,24 @@
+
+In this paper we present the system we
+submitted to the WMT13 shared task on
+Quality Estimation. We participated in
+the Task 1.1. Each translated sentence
+is given a score between 0 and 1. The
+score is obtained by using several numeri-
+cal or boolean features calculated accord-
+ing to the source and target sentences. We
+perform a linear regression of the feature
+space against scores in the range [0..1]. To
+this end, we use a Support Vector Machine
+with 66 features. In this paper, we propose
+to increase the size of the training corpus.
+For that, we use the post-edited and refer-
+ence corpora during the training step. We
+assign a score to each sentence of these
+corpora. Then, we tune these scores on a
+development corpus. This leads to an im-
+provement of 10.5% on the development
+corpus, in terms of Mean Average Error,
+but achieves only a slight improvement on
+the test corpus.
+1 

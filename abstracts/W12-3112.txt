@@ -1,0 +1,15 @@
+
+This paper describes Uppsala University?s
+submissions to the Quality Estimation (QE)
+shared task at WMT 2012. We present a QE
+system based on Support Vector Machine re-
+gression, using a number of explicitly defined
+features extracted from the Machine Transla-
+tion input, output and models in combination
+with tree kernels over constituency and de-
+pendency parse trees for the input and output
+sentences. We confirm earlier results suggest-
+ing that tree kernels can be a useful tool for
+QE system construction especially in the early
+stages of system design.
+1 

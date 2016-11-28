@@ -1,0 +1,15 @@
+
+In this paper we present a method for
+greatly reducing parse times in LFG pars-
+ing, while at the same time maintaining
+parse accuracy. We evaluate the method-
+ology on data from English, German and
+Norwegian and show that the same pat-
+terns hold across languages. We achieve
+a speedup of 67% on the English data and
+49% on the German data. On a small
+amount of data for Norwegian, we achieve
+a speedup of 40%, although with more
+training data we expect this figure to in-
+crease.
+1 

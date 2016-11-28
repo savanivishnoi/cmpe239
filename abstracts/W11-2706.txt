@@ -1,0 +1,27 @@
+
+This paper shows that using linguis-
+tically motivated features for English
+that-complementizer choice in an averaged
+perceptron model for classification can
+improve upon the prediction accuracy of a
+state-of-the-art realization ranking model.
+We report results on a binary classification
+task for predicting the presence/absence of a
+that-complementizer using features adapted
+from Jaeger?s (2010) investigation of the
+uniform information density principle in the
+context of that-mentioning. Our experiments
+confirm the efficacy of the features based
+on Jaeger?s work, including information
+density?based features. The experiments also
+show that the improvements in prediction
+accuracy apply to cases in which the presence
+of a that-complementizer arguably makes a
+substantial difference to fluency or intelli-
+giblity. Our ultimate goal is to improve the
+performance of a ranking model for surface
+realization, and to this end we conclude with
+a discussion of how we plan to combine the
+local complementizer-choice features with
+those in the global ranking model.
+1 

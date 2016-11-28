@@ -1,0 +1,20 @@
+
+This paper reports on experiments in the cre-
+ation of a bi-lingual Textual Entailment cor-
+pus, using non-experts? workforce under strict
+cost and time limitations ($100, 10 days). To
+this aim workers have been hired for transla-
+tion and validation tasks, through the Crowd-
+Flower channel to Amazon Mechanical Turk.
+As a result, an accurate and reliable corpus of
+426 English/Spanish entailment pairs has been
+produced in a more cost-effective way com-
+pared to other methods for the acquisition of
+translations based on crowdsourcing. Focus-
+ing on two orthogonal dimensions (i.e. relia-
+bility of annotations made by non experts, and
+overall corpus creation costs), we summarize
+the methodology we adopted, the achieved re-
+sults, the main problems encountered, and the
+lessons learned.
+1 

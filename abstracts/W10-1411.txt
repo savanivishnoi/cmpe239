@@ -1,0 +1,16 @@
+ 
+This paper analyzes the relative importance of 
+different linguistic features for data-driven 
+dependency parsing of Hindi, using a feature 
+pool derived from two state-of-the-art parsers.  
+The analysis shows that the greatest gain in 
+accuracy comes from the addition of morpho-
+syntactic features related to case, tense, aspect 
+and modality. Combining features from the 
+two parsers, we achieve a labeled attachment 
+score of 76.5%, which is 2 percentage points 
+better than the previous state of the art. We fi-
+nally provide a detailed error analysis and 
+suggest possible improvements to the parsing 
+scheme. 
+1 

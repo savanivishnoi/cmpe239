@@ -1,0 +1,17 @@
+
+In this paper we present our experiments with
+active learning to improve the performance
+of our probabilistic anaphora resolution sys-
+tem. We have adopted entropy-based uncer-
+tainty measures to select new instances to be
+added to our training data. The actively se-
+lected instances, however, were not more suc-
+cessful in improving the performance of the
+system than the same amount of randomly se-
+lected instances. The uncertainty measures
+we used behave differently from each other
+when selecting new instances, but none of
+them achieved remarkable performance. Fur-
+ther studies on active sample selection for
+anaphora resolution are necessary.
+1 

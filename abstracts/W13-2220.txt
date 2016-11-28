@@ -1,0 +1,14 @@
+
+We propose a pre-reordering scheme to
+improve the quality of machine translation
+by permuting the words of a source sen-
+tence to a target-like order. This is accom-
+plished as a transition-based system that
+walks on the dependency parse tree of the
+sentence and emits words in target-like or-
+der, driven by a classifier trained on a par-
+allel corpus. Our system is capable of gen-
+erating arbitrary permutations up to flexi-
+ble constraints determined by the choice of
+the classifier algorithm and input features.
+1 

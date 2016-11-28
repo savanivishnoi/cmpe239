@@ -1,0 +1,19 @@
+
+We provide an in-depth analysis of the in-
+tegration of an Arabic-to-English translit-
+eration system into a general-purpose 
+phrase-based statistical machine translation 
+system. We study the integration from dif-
+ferent aspects and evaluate the improve-
+ment that can be attributed to the integra-
+tion using the BLEU metric. Our experi-
+ments show that a transliteration module 
+can help significantly in the situation where 
+the test data is rich with previously unseen 
+named entities. We obtain 70% and 53% of 
+the theoretical maximum improvement we 
+could achieve, as measured by an oracle on 
+development and test sets respectively for 
+OOV words (out of vocabulary source 
+words not appearing in the phrase table).
+1 

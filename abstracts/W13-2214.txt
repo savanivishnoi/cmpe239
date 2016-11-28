@@ -1,0 +1,14 @@
+
+We present the system we developed to
+provide efficient large-scale feature-rich
+discriminative training for machine trans-
+lation. We describe how we integrate with
+MapReduce using Hadoop streaming to
+allow arbitrarily scaling the tuning set and
+utilizing a sparse feature set. We report our
+findings on German-English and Russian-
+English translation, and discuss benefits,
+as well as obstacles, to tuning on larger
+development sets drawn from the parallel
+training data.
+1 

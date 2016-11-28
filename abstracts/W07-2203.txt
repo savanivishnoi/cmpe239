@@ -1,0 +1,22 @@
+
+We compare the accuracy of a statisti-
+cal parse ranking model trained from a
+fully-annotated portion of the Susanne
+treebank with one trained from unla-
+beled partially-bracketed sentences de-
+rived from this treebank and from the
+Penn Treebank. We demonstrate that
+confidence-based semi-supervised tech-
+niques similar to self-training outperform
+expectation maximization when both are
+constrained by partial bracketing. Both
+methods based on partially-bracketed
+training data outperform the fully su-
+pervised technique, and both can, in
+principle, be applied to any statistical
+parser whose output is consistent with
+such partial-bracketing. We also explore
+tuning the model to a different domain
+and the effect of in-domain data in the
+semi-supervised training processes.
+1 

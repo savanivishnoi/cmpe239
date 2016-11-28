@@ -1,0 +1,22 @@
+
+Recent work has shown how a parallel
+corpus can be leveraged to build syntac-
+tic parser for a target language by project-
+ing automatic source parse onto the target
+sentence using word alignments. The pro-
+jected target dependency parses are not al-
+ways fully connected to be useful for train-
+ing traditional dependency parsers. In this
+paper, we present a greedy non-directional
+parsing algorithm which doesn?t need a
+fully connected parse and can learn from
+partial parses by utilizing available struc-
+tural and syntactic information in them.
+Our parser achieved statistically signifi-
+cant improvements over a baseline system
+that trains on only fully connected parses
+for Bulgarian, Spanish and Hindi. It also
+gave a significant improvement over pre-
+viously reported results for Bulgarian and
+set a benchmark for Hindi.
+1 

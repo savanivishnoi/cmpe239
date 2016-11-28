@@ -1,0 +1,20 @@
+
+This paper presents an approach to depen-
+dency parsing which can utilize any stan-
+dard machine learning (classification) al-
+gorithm. A decision list learner was used
+in this work. The training data provided
+in the form of a treebank is converted to a
+format in which each instance represents
+information about one word pair, and the
+classification indicates the existence, di-
+rection, and type of the link between the
+words of the pair. Several distinct mod-
+els are built to identify the links between
+word pairs at different distances. These
+models are applied sequentially to give the
+dependency parse of a sentence, favoring
+shorter links. An analysis of the errors,
+attribute selection, and comparison of dif-
+ferent languages is presented.
+1 

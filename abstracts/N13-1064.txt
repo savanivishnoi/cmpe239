@@ -1,0 +1,23 @@
+
+In the field of Intelligent User Interfaces, Spo-
+ken Dialogue Systems (SDSs) play a key role
+as speech represents a true intuitive means
+of human communication. Deriving informa-
+tion about its quality can help rendering SDSs
+more user-adaptive. Work on automatic esti-
+mation of subjective quality usually relies on
+statistical models. To create those, manual
+data annotation is required, which may be per-
+formed by actual users or by experts. Here,
+both variants have their advantages and draw-
+backs. In this paper, we analyze the relation-
+ship between user and expert ratings by in-
+vestigating models which combine the advan-
+tages of both types of ratings. We explore two
+novel approaches using statistical classifica-
+tion methods and evaluate those with a pre-
+existing corpus providing user and expert rat-
+ings. After analyzing the results, we eventu-
+ally recommend to use expert ratings instead
+of user ratings in general.
+1 

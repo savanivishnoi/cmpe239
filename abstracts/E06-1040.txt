@@ -1,0 +1,27 @@
+
+We consider the evaluation problem in
+Natural Language Generation (NLG) and
+present results for evaluating several NLG
+systems with similar functionality, includ-
+ing a knowledge-based generator and sev-
+eral statistical systems. We compare eval-
+uation results for these systems by human
+domain experts, human non-experts, and
+several automatic evaluation metrics, in-
+cluding NIST, BLEU, and ROUGE. We
+find that NIST scores correlate best (>
+0.8) with human judgments, but that all
+automatic metrics we examined are bi-
+ased in favour of generators that select on
+the basis of frequency alone. We con-
+clude that automatic evaluation of NLG
+systems has considerable potential, in par-
+ticular where high-quality reference texts
+and only a small number of human evalua-
+tors are available. However, in general it is
+probably best for automatic evaluations to
+be supported by human-based evaluations,
+or at least by studies that demonstrate that
+a particular metric correlates well with hu-
+man judgments in a given domain.
+1 

@@ -1,0 +1,17 @@
+ 
+We have participated in three open tracks 
+of Chinese word segmentation and 
+named entity recognition tasks of 
+SIGHAN Bakeoff3. We take a 
+probabilistic feature based Maximum 
+Entropy (ME) model as our basic frame 
+to combine multiple sources of 
+knowledge. Our named entity recognizer 
+achieved the highest F measure for 
+MSRA, and word segmenter achieved the 
+medium F measure for MSRA. We find 
+effective combining of the external 
+multi-knowledge is crucial to improve 
+performance of word segmentation and 
+named entity recognition. 
+1 

@@ -1,0 +1,21 @@
+ 
+Native language identification (NLI) is the 
+task to determine the native language of the 
+author based on an essay written in a second 
+language.  NLI is often treated as a classifica-
+tion problem.  In this paper, we use the 
+TOEFL11 data set which consists of more 
+data, in terms of the amount of essays and 
+languages, and less biased across prompts, i.e., 
+topics, of essays.  We demonstrate that even 
+using word level n-grams as features, and sup-
+port vector machine (SVM) as a classifier can 
+yield nearly 80% accuracy. We observe that 
+the accuracy of a binary-based word level n-
+gram representation (~80%) is much better 
+than the performance of a frequency-based 
+word level n-gram representation (~20%).  
+Notably, comparable results can be achieved 
+without removing punctuation marks, suggest-
+ing a very simple baseline system for NLI. 
+1 

@@ -1,0 +1,23 @@
+
+Most NLP tools are applied to text that is dif-
+ferent from the kind of text they were eval-
+uated on. Common evaluation practice pre-
+scribes significance testing across data points
+in available test data, but typically we only
+have a single test sample. This short paper
+argues that in order to assess the robustness
+of NLP tools we need to evaluate them on
+diverse samples, and we consider the prob-
+lem of finding the most appropriate way to es-
+timate the true effect size across datasets of
+our systems over their baselines. We apply
+meta-analysis and show experimentally ? by
+comparing estimated error reduction over ob-
+served error reduction on held-out datasets ?
+that this method is significantly more predic-
+tive of success than the usual practice of using
+macro- or micro-averages. Finally, we present
+a new parametric meta-analysis based on non-
+standard assumptions that seems superior to
+standard parametric meta-analysis.
+1 

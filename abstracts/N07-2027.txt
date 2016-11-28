@@ -1,0 +1,15 @@
+
+We describe our linguistic rule-based tag-
+ger IceTagger, and compare its tagging ac-
+curacy to the TnT tagger, a state-of-the-
+art statistical tagger, when tagging Ice-
+landic, a morphologically complex lan-
+guage. Evaluation shows that the average
+tagging accuracy is 91.54% and 90.44%,
+obtained by IceTagger and TnT, respec-
+tively. When tag profile gaps in the lex-
+icon, used by the TnT tagger, are filled
+with tags produced by our morphological
+analyser IceMorphy, TnT?s tagging accu-
+racy increases to 91.18%.
+1 

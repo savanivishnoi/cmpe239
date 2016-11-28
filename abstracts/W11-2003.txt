@@ -1,0 +1,16 @@
+
+We investigate how to jointly explain the per-
+formance and behavioral differences of two
+spoken dialogue systems. The Join Evalu-
+ation and Differences Identification (JEDI),
+finds differences between systems relevant
+to performance by formulating the problem
+as a multi-task feature selection question.
+JEDI provides evidence on the usefulness of
+a recent method, `1/`p-regularized regres-
+sion (Obozinski et al, 2007). We evaluate
+against manually annotated success criteria
+from real users interacting with five different
+spoken user interfaces that give bus schedule
+information.
+1 

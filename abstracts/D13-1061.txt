@@ -1,0 +1,19 @@
+
+This study explores the feasibility of perform-
+ing Chinese word segmentation (CWS) and
+POS tagging by deep learning. We try to avoid
+task-specific feature engineering, and use deep
+layers of neural networks to discover relevant
+features to the tasks. We leverage large-scale
+unlabeled data to improve internal representa-
+tion of Chinese characters, and use these im-
+proved representations to enhance supervised
+word segmentation and POS tagging models.
+Our networks achieved close to state-of-the-
+art performance with minimal computational
+cost. We also describe a perceptron-style al-
+gorithm for training the neural networks, as
+an alternative to maximum-likelihood method,
+to speed up the training process and make the
+learning algorithm easier to be implemented.
+1 

@@ -1,0 +1,18 @@
+
+A discourse typically involves numerous en-
+tities, but few are mentioned more than once.
+Distinguishing discourse entities that die out
+after just one mention (singletons) from those
+that lead longer lives (coreferent) would ben-
+efit NLP applications such as coreference res-
+olution, protagonist identification, topic mod-
+eling, and discourse coherence. We build a lo-
+gistic regression model for predicting the sin-
+gleton/coreferent distinction, drawing on lin-
+guistic insights about how discourse entity
+lifespans are affected by syntactic and seman-
+tic features. The model is effective in its own
+right (78% accuracy), and incorporating it into
+a state-of-the-art coreference resolution sys-
+tem yields a significant improvement.
+1 

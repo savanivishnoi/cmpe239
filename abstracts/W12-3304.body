@@ -1,0 +1,20 @@
+
+This paper describes a query classification
+system for a specialized domain. We take as
+a case study queries asked to a search engine
+of an art, cultural and history library and clas-
+sify them against the library cataloguing cate-
+gories. We show how click-through links, i.e.,
+the links that a user clicks after submitting a
+query, can be exploited for extracting informa-
+tion useful to enrich the query as well as for
+creating the training set for a machine learn-
+ing based classifier. Moreover, we show how
+Topic Model can be exploited to further enrich
+the query with hidden topics induced from the
+library meta-data. The experimental evalua-
+tions show that this system considerably out-
+performs a matching and ranking classifica-
+tion approach, where queries (and categories)
+were also enriched with similar information.
+1 

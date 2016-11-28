@@ -1,0 +1,22 @@
+
+We present a comparative study on Ma-
+chine Translation Evaluation according to
+two different criteria: Human Likeness
+and Human Acceptability. We provide
+empirical evidence that there is a relation-
+ship between these two kinds of evalu-
+ation: Human Likeness implies Human
+Acceptability but the reverse is not true.
+From the point of view of automatic eval-
+uation this implies that metrics based on
+Human Likeness are more reliable for sys-
+tem tuning.
+Our results also show that current evalua-
+tion metrics are not always able to distin-
+guish between automatic and human trans-
+lations. In order to improve the descrip-
+tive power of current metrics we propose
+the use of additional syntax-based met-
+rics, and metric combinations inside the
+QARLA Framework.
+1 

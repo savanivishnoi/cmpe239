@@ -1,0 +1,19 @@
+
+In past Evaluations for Machine Translation of
+European Languages, it could be shown that
+the translation performance of SMT systems
+can be increased by integrating a bilingual lan-
+guage model into a phrase-based SMT system.
+In the bilingual language model, target words
+with their aligned source words build the to-
+kens of an n-gram based language model. We
+analyzed the effect of bilingual language mod-
+els and show where they could help to bet-
+ter model the translation process. We could
+show improvements of translation quality on
+German-to-English and Arabic-to-English. In
+addition, for the Arabic-to-English task, train-
+ing an extra bilingual language model on the
+POS tags instead of the surface word forms
+led to further improvements.
+1 

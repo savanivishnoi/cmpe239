@@ -1,0 +1,18 @@
+
+Spoken and multimodal dialogue systems typ-
+ically make use of confidence scores to choose
+among (or reject) a speech recognizer?s N-
+best hypotheses for a particular utterance. We
+argue that it is beneficial to instead choose
+among a list of candidate system responses.
+We propose a novel method in which a con-
+fidence score for each response is derived
+from a classifier trained on acoustic and lex-
+ical features emitted by the recognizer, as
+well as features culled from the generation of
+the candidate response itself. Our response-
+based method yields statistically significant
+improvements in F-measure over a baseline in
+which hypotheses are chosen based on recog-
+nition confidence scores only.
+1 

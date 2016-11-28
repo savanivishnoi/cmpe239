@@ -1,0 +1,20 @@
+
+This paper describes an approach to uti-
+lizing term weights for sentiment analysis
+tasks and shows how various term weight-
+ing schemes improve the performance of
+sentiment analysis systems. Previously,
+sentiment analysis was mostly studied un-
+der data-driven and lexicon-based frame-
+works. Such work generally exploits tex-
+tual features for fact-based analysis tasks
+or lexical indicators from a sentiment lexi-
+con. We propose to model term weighting
+into a sentiment analysis system utilizing
+collection statistics, contextual and topic-
+related characteristics as well as opinion-
+related properties. Experiments carried
+out on various datasets show that our
+approach effectively improves previous
+methods.
+1 

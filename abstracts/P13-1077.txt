@@ -1,0 +1,23 @@
+
+Modern phrase-based machine translation
+systems make extensive use of word-
+based translation models for inducing
+alignments from parallel corpora. This
+is problematic, as the systems are inca-
+pable of accurately modelling many trans-
+lation phenomena that do not decompose
+into word-for-word translation. This pa-
+per presents a novel method for induc-
+ing phrase-based translation units directly
+from parallel data, which we frame as
+learning an inverse transduction grammar
+(ITG) using a recursive Bayesian prior.
+Overall this leads to a model which learns
+translations of entire sentences, while also
+learning their decomposition into smaller
+units (phrase-pairs) recursively, terminat-
+ing at word translations. Our experiments
+on Arabic, Urdu and Farsi to English
+demonstrate improvements over competi-
+tive baseline systems.
+1 

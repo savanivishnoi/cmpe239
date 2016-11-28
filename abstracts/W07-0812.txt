@@ -1,0 +1,30 @@
+
+Base Phrase Chunking (BPC) or shallow
+syntactic parsing is proving to be a task of
+interest to many natural language processing
+applications. In this paper, A BPC system
+is introduced that improves over state of the
+art performance in BPC using a new part of
+speech tag (POS) set. The new POS tag set,
+ERTS, reflects some of the morphological
+features specific to Modern Standard Ara-
+bic. ERTS explicitly encodes definiteness,
+number and gender information increasing
+the number of tags from 25 in the standard
+LDC reduced tag set to 75 tags. For the BPC
+task, we introduce a more language specific
+set of definitions for the base phrase anno-
+tations. We employ a support vector ma-
+chine approach for both the POS tagging and
+the BPC processes. The POS tagging per-
+formance using this enriched tag set, ERTS,
+is at 96.13% accuracy. In the BPC exper-
+iments, we vary the feature set alng two
+factors: the POS tag set and a set of explic-
+itly encoded morphological features. Us-
+ing the ERTS POS tagset, BPC achieves the
+highest overall F?=1 of 96.33% on 10 dif-
+ferent chunk types outperforming the use of
+the standard POS tag set even when explicit
+morphological features are present.
+1 

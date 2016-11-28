@@ -1,0 +1,19 @@
+
+The paper is concerned with automatic
+classification of new lexical items into
+synonymic sets on the basis of their co-
+occurrence data obtained from a corpus. Our
+goal is to examine the impact that different
+types of linguistic preprocessing of the co-
+occurrence material have on the classification
+accuracy. The paper comparatively studies
+several preprocessing techniques frequently
+used for this and similar tasks and makes
+conclusions about their relative merits. We
+find that a carefully chosen preprocessing
+procedure achieves a relative effectiveness
+improvement of up to 88% depending on the
+classification method in comparison to the
+window-based context delineation, along with
+using much smaller feature space.
+1 

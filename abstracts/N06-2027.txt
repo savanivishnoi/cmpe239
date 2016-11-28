@@ -1,0 +1,21 @@
+
+Natural language generation (NLG) refers
+to the process of producing text in a spo-
+ken language, starting from an internal
+knowledge representation structure. Aug-
+mentative and Alternative Communica-
+tion (AAC) deals with the development
+of devices and tools to enable basic con-
+versation for language-impaired people.
+We present an applied prototype of an
+AAC-NLG system generating written out-
+put in English and Hebrew from a se-
+quence of Bliss symbols. The system does
+not ?translate? the symbols sequence, but
+instead, it dynamically changes the com-
+munication board as the choice of sym-
+bols proceeds according to the syntactic
+and semantic content of selected symbols,
+generating utterances in natural language
+through a process of semantic authoring.
+1 

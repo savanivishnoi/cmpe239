@@ -1,0 +1,15 @@
+ 
+Common wisdom has it that tile bias of stochastic 
+grammars in favor of shorter deriwttions of a sentence 
+is hamfful and should be redressed. We show that the 
+common wisdom is wrong for stochastic grammars 
+that use elementary trees instead o1' conlext-l 'ree 
+rules, such as Stochastic Tree-Substitution Grammars 
+used by Data-Oriented Parsing models. For such 
+grammars a non-probabi l ist ic metric based on tile 
+shortest derivation outperforms a probabilistic metric 
+on the ATIS and OVIS corpora, while it obtains 
+competitive results on the Wall Street Journal (WSJ) 
+corpus. This paper also contains the first publislmd 
+experiments with DOP on the WSJ. 
+1. 

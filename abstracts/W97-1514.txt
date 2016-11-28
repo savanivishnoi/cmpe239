@@ -1,0 +1,32 @@
+ 
+In order to help computational linguists, 
+we have conceived and developed a lin- 
+guistic software engineering environment, 
+whose goal is to set up reusable and evo- 
+lutive toolkits for natural language pro- 
+cessing. This environment is based on a 
+set of natural anguage processing compo- 
+nents, at the morphologic, syntactic and 
+semantic levels. These components are 
+generic and evolutive, and can be used 
+separately or with specific problem solv- 
+ing units in global strategies built for man- 
+machine communication (according to the 
+general model developed in the Language 
+and Cognition group: Caramel). All these 
+tools are complemented with graphic in- 
+terfaces, allowing users outside the field of 
+Computer Science to use them very eas- 
+ily. In this paper, we will present first the 
+syntactic analysis, based on a chart parser 
+that uses a LFG grammar for French, and 
+the semantic analysis, based on conceptual 
+graphs. Then we will show how these two 
+analyses collaborate to produce semantic 
+representations and sentences. Before con- 
+cluding, we will show how these modules 
+are used through a distributed architecture 
+based on CORBA (distributed Smalltalk) 
+implementing the CARAMEL multi-agent 
+architecture. 
+1 

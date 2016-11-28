@@ -1,0 +1,26 @@
+
+Most of the known stochastic sentence
+generators use syntactically annotated
+corpora, performing the projection to
+the surface in one stage. However,
+in full-fledged text generation, sentence
+realization usually starts from semantic
+(predicate-argument) structures. To be
+able to deal with semantic structures,
+stochastic generators require semantically
+annotated, or, even better, multilevel an-
+notated corpora. Only then can they
+deal with such crucial generation issues as
+sentence planning, linearization and mor-
+phologization. Multilevel annotated cor-
+pora are increasingly available for multi-
+ple languages. We take advantage of them
+and propose a multilingual deep stochastic
+sentence realizer that mirrors the state-of-
+the-art research in semantic parsing. The
+realizer uses an SVM learning algorithm.
+For each pair of adjacent levels of anno-
+tation, a separate decoder is defined. So
+far, we evaluated the realizer for Chinese,
+English, German, and Spanish.
+1 

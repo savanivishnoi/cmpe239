@@ -1,0 +1,21 @@
+
+This paper is concerned with the problem
+of heterogeneous dependency parsing. In
+this paper, we present a novel joint infer-
+ence scheme, which is able to leverage
+the consensus information between het-
+erogeneous treebanks in the parsing phase.
+Different from stacked learning meth-
+ods (Nivre and McDonald, 2008; Martins
+et al, 2008), which process the depen-
+dency parsing in a pipelined way (e.g., a
+second level uses the first level outputs), in
+our method, multiple dependency parsing
+models are coordinated to exchange con-
+sensus information. We conduct experi-
+ments on Chinese Dependency Treebank
+(CDT) and Penn Chinese Treebank (CTB),
+experimental results show that joint infer-
+ence can bring significant improvements
+to all state-of-the-art dependency parsers.
+1 

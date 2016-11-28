@@ -1,0 +1,27 @@
+
+Ve?ronis (2004) has recently proposed
+an innovative unsupervised algorithm for
+word sense disambiguation based on
+small-world graphs called HyperLex. This
+paper explores two sides of the algorithm.
+First, we extend Ve?ronis? work by opti-
+mizing the free parameters (on a set of
+words which is different to the target set).
+Second, given that the empirical compar-
+ison among unsupervised systems (and
+with respect to supervised systems) is sel-
+dom made, we used hand-tagged corpora
+to map the induced senses to a standard
+lexicon (WordNet) and a publicly avail-
+able gold standard (Senseval 3 English
+Lexical Sample). Our results for nouns
+show that thanks to the optimization of
+parameters and the mapping method, Hy-
+perLex obtains results close to supervised
+systems using the same kind of bag-of-
+words features. Given the information
+loss inherent in any mapping step and the
+fact that the parameters were tuned for an-
+other set of words, these are very interest-
+ing results.
+1 

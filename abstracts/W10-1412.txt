@@ -1,0 +1,15 @@
+
+We investigate the performance of an easy-
+first, non-directional dependency parser on the
+Hebrew Dependency treebank. We show that
+with a basic feature set the greedy parser?s ac-
+curacy is on a par with that of a first-order
+globally optimized MST parser. The addition
+of morphological-agreement feature improves
+the parsing accuracy, making it on-par with a
+second-order globally optimized MST parser.
+The improvement due to the morphological
+agreement information is persistent both when
+gold-standard and automatically-induced mor-
+phological information is used.
+1 

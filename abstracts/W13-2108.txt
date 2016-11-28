@@ -1,0 +1,21 @@
+
+When they introduced the Graph-Based
+Algorithm (GBA) for referring expression
+generation, Krahmer et al (2003) flaunted
+the natural way in which it deals with re-
+lations between objects; but this feature
+has never been tested empirically. We fill
+this gap in this paper, exploring referring
+expression generation from the perspec-
+tive of the GBA and focusing in particu-
+lar on generating human-like expressions
+in visual scenes with spatial relations. We
+compare the original GBA against a variant
+that we introduce to better reflect human
+reference, and find that although the orig-
+inal GBA performs reasonably well, our
+new algorithm offers an even better match
+to human data (77.91% Dice). Further, it
+can be extended to capture speaker vari-
+ation, reaching an 82.83% Dice overlap
+with human-produced expressions.1 

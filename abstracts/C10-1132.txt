@@ -1,0 +1,24 @@
+ 
+The character-based tagging approach 
+is a dominant technique for Chinese 
+word segmentation, and both discrimi-
+native and generative models can be 
+adopted in that framework. However, 
+generative and discriminative charac-
+ter-based approaches are significantly 
+different and complement each other. 
+A simple joint model combining the 
+character-based generative model and 
+the discriminative one is thus proposed 
+in this paper to take advantage of both 
+approaches. Experiments on the Sec-
+ond SIGHAN Bakeoff show that this 
+joint approach achieves 21% relative 
+error reduction over the discriminative 
+model and 14% over the generative one. 
+In addition, closed tests also show that 
+the proposed joint model outperforms 
+all the existing approaches reported in 
+the literature and achieves the best F-
+score in four out of five corpora. 
+1 

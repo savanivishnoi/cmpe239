@@ -1,0 +1,24 @@
+ 
+We introduce a new model of selectional 
+preference induction. Unlike previous ap- 
+proaches, we provide a stochastic genera- 
+tion model for the words that appear as 
+arguments of a predicate. More specifi- 
+cally, we define a hidden Markov model 
+with the general shape of a given seman- 
+tic class hierarchy. This model has a num- 
+ber of attractive features, among them that 
+selectional preference can be seen as dis- 
+tributions over words. Initial results are 
+promising. However, unsupervised param- 
+eter estimation has proven problematic. A
+central problem is word sense ambiguity in 
+the training corpora. We describe attempts 
+to modify the forward-backward algorithm, 
+an EM algorithm, to handle such disam- 
+biguation. Although these attempts were 
+unsuccessful at improving performance, we 
+believe they give insight into the nature of 
+the bottlenecks and into the behavior of the 
+EM algorithm. 
+1 

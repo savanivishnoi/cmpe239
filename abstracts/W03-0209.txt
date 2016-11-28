@@ -1,0 +1,26 @@
+
+To date, traditional NLP parsers have
+not been widely successful in TESOL-
+oriented applications, particularly in scor-
+ing written compositions. Re-engineering
+such applications to provide the neces-
+sary robustness for handling ungrammat-
+ical English has proven a formidable ob-
+stacle. We discuss the use of a non-
+traditional parser for rating compositions
+that attenuates some of these difficulties.
+Its dependency-based shallow parsing ap-
+proach provides significant robustness in
+the face of language learners? ungrammat-
+ical compositions. This paper discusses
+how a corpus of L2 essays for English was
+rated using the parser, and how the auto-
+matic evaulations compared to those ob-
+tained by manual methods. The types of
+modifications that were made to the sys-
+tem are discussed. Limitations to the cur-
+rent system are described, future plans for
+developing the system are sketched, and
+further applications beyond English essay
+rating are mentioned.
+1 

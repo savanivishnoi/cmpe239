@@ -1,0 +1,22 @@
+
+Coreference resolution is a classic NLP 
+problem and has been studied extensively by 
+many researchers. Most existing studies, 
+however, are generic in the sense that they 
+are not focused on any specific text. In the 
+past few years, opinion mining became a 
+popular topic of research because of a wide 
+range of applications. However, limited 
+work has been done on coreference resolu-
+tion in opinionated text. In this paper, we 
+deal with object and attribute coreference 
+resolution. Such coreference resolutions are 
+important because without solving it a great 
+deal of opinion information will be lost, and 
+opinions may be assigned to wrong entities. 
+We show that some important features re-
+lated to opinions can be exploited to perform 
+the task more accurately. Experimental re-
+sults using blog posts demonstrate the effec-
+tiveness of the technique.
+1 

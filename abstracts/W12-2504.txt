@@ -1,0 +1,19 @@
+
+The identification of stylistic inconsistency is a
+challenging task relevant to a number of gen-
+res, including literature. In this work, we
+carry out stylistic segmentation of a well-known
+poem, The Waste Land by T.S. Eliot, which
+is traditionally analyzed in terms of numerous
+voices which appear throughout the text. Our
+method, adapted from work in topic segmen-
+tation and plagiarism detection, predicts breaks
+based on a curve of stylistic change which com-
+bines information from a diverse set of features,
+most notably co-occurrence in larger corpora via
+reduced-dimensionality vectors. We show that
+this extrinsic information is more useful than
+(within-text) distributional features. We achieve
+well above baseline performance on both artifi-
+cial mixed-style texts and The Waste Land itself.
+1 

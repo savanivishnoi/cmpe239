@@ -1,0 +1,17 @@
+
+We define the problem of recognizing entailed re-
+lations ? given an open set of relations, find all oc-
+currences of the relations of interest in a given doc-
+ument set ? and pose it as a challenge to scalable
+information extraction and retrieval. Existing ap-
+proaches to relation recognition do not address well
+problems with an open set of relations and a need
+for high recall: supervised methods are not eas-
+ily scaled, while unsupervised and semi-supervised
+methods address a limited aspect of the problem, as
+they are restricted to frequent, explicit, highly lo-
+calized patterns. We argue that textual entailment
+(TE) is necessary to solve such problems, propose
+a scalable TE architecture, and provide preliminary
+results on an Entailed Relation Recognition task.
+1 

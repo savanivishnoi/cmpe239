@@ -1,0 +1,16 @@
+
+In this paper we present an approach to the ac-
+quisition of geographical gazetteers. Instead of
+creating these resources manually, we propose
+to extract gazetteers from the World Wide Web,
+using Data Mining techniques.
+The bootstrapping approach, investigated in
+our study, allows us to create new gazetteers
+using only a small seed dataset (1260 words).
+In addition to gazetteers, the system pro-
+duces classifiers. They can be used online to
+determine a class (CITY, ISLAND, RIVER,
+MOUNTAIN, REGION, COUNTRY) of any
+geographical name. Our classifiers perform
+with the average accuracy of 86.5%.
+1 

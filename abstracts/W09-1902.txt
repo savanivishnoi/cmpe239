@@ -1,0 +1,18 @@
+
+Active learning is an effective method for cre-
+ating training sets cheaply, but it is a biased
+sampling process and fails to explore large
+regions of the instance space in many appli-
+cations. This can result in a missed cluster
+effect, which signficantly lowers recall and
+slows down learning for infrequent classes.
+We show that missed clusters can be avoided
+in sequence classification tasks by using sen-
+tences as natural multi-instance units for label-
+ing. Co-selection of other tokens within sen-
+tences provides an implicit exploratory com-
+ponent since we found for the task of named
+entity recognition on two corpora that en-
+tity classes co-occur with sufficient frequency
+within sentences.
+1 

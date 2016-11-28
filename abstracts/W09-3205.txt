@@ -1,0 +1,16 @@
+
+This paper presents a method for classify-
+ing Japanese polysemous verbs using an
+algorithm to identify overlapping nodes
+with more than one cluster. The algo-
+rithm is a graph-based unsupervised clus-
+tering algorithm, which combines a gener-
+alized modularity function, spectral map-
+ping, and fuzzy clustering technique. The
+modularity function for measuring cluster
+structure is calculated based on the fre-
+quency distributions over verb frames with
+selectional preferences. Evaluations are
+made on two sets of verbs including pol-
+ysemies.
+1 

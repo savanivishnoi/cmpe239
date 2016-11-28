@@ -1,0 +1,24 @@
+
+Given multiple translations of the same
+source sentence, how to combine them to
+produce a translation that is better than any
+single system output? We propose a hier-
+archical system combination framework for
+machine translation. This framework inte-
+grates multiple MT systems? output at the
+word-, phrase- and sentence- levels. By
+boosting common word and phrase trans-
+lation pairs, pruning unused phrases, and
+exploring decoding paths adopted by other
+MT systems, this framework achieves bet-
+ter translation quality with much less re-
+decoding time. The full sentence translation
+hypotheses from multiple systems are addi-
+tionally selected based on N-gram language
+models trained on word/word-POS mixed
+stream, which further improves the transla-
+tion quality. We consistently observed sig-
+nificant improvements on several test sets in
+multiple languages covering different gen-
+res.
+1 

@@ -1,0 +1,18 @@
+
+Kneser-Ney (1995) smoothing and its vari-
+ants are generally recognized as having
+the best perplexity of any known method
+for estimating N-gram language models.
+Kneser-Ney smoothing, however, requires
+nonstandard N-gram counts for the lower-
+order models used to smooth the highest-
+order model. For some applications, this
+makes Kneser-Ney smoothing inappropri-
+ate or inconvenient. In this paper, we in-
+troduce a new smoothing method based on
+ordinary counts that outperforms all of the
+previous ordinary-count methods we have
+tested, with the new method eliminating
+most of the gap between Kneser-Ney and
+those methods.
+1 

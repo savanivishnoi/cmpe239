@@ -1,0 +1,35 @@
+ 
+Named Entity Recognition (NER) aims to 
+classify each word of a document into prede-
+fined target named entity classes and is nowa-
+days considered to be fundamental for many 
+Natural Language Processing (NLP) tasks 
+such as information retrieval, machine transla-
+tion, information extraction, question answer-
+ing systems and others. This paper reports 
+about the development of a NER system for 
+Bengali using Support Vector Machine 
+(SVM). Though this state of the art machine 
+learning method has been widely applied to 
+NER in several well-studied languages, this is 
+our first attempt to use this method to Indian 
+languages (ILs) and particularly for Bengali. 
+The system makes use of the different contex-
+tual information of the words along with the 
+variety of features that are helpful in predicting 
+the various named entity (NE) classes. A por-
+tion of a partially NE tagged Bengali news 
+corpus, developed from the archive of a lead-
+ing Bengali newspaper available in the web, 
+has been used to develop the SVM-based NER 
+system. The training set consists of approxi-
+mately 150K words and has been manually 
+annotated with the sixteen NE tags. Experi-
+mental results of the 10-fold cross validation 
+test show the effectiveness of the proposed 
+SVM based NER system with the overall av-
+erage Recall, Precision and F-Score of 94.3%, 
+89.4% and 91.8%, respectively. It has been 
+shown that this system outperforms other ex-
+isting Bengali NER systems. 
+1 

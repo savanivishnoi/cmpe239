@@ -1,0 +1,34 @@
+ 
+This paper presents the HITSZ_CITYU 
+system in the CIPS-SIGHAN bakeoff 
+2010 Task 3, Chinese person name dis-
+ambiguation. This system incorporates 
+person name string recognition, person 
+identity string recognition and an agglo-
+merative hierarchical clustering for 
+grouping the documents to each identical 
+person. Firstly, for the given name index 
+string, three segmentors are applied to 
+segment the sentences having the index 
+string into Chinese words, respectively. 
+Their outputs are compared and analyzed. 
+An unsupervised clustering is applied 
+here to help the personal name recogni-
+tion. The document set is then divided 
+into subsets according to each recog-
+nized person name string. Next, the sys-
+tem identifies/extracts the person identity 
+string from the sentences based on lex-
+icon and heuristic rules. By incorporat-
+ing the recognized person identity string, 
+person name, organization name and 
+contextual content words as features, an 
+agglomerative hierarchical clustering is 
+applied to group the similar documents 
+in the document subsets to obtain the fi-
+nal person name disambiguation results. 
+Evaluations show that the proposed sys-
+tem, which incorporates extraction and 
+clustering technique, achieves encourag-
+ing recall and good overall performance. 
+1 

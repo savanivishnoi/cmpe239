@@ -1,0 +1,28 @@
+
+Broad-coverage annotated treebanks nec-
+essary to train parsers do not exist for
+many resource-poor languages. The wide
+availability of parallel text and accurate
+parsers in English has opened up the pos-
+sibility of grammar induction through par-
+tial transfer across bitext. We consider
+generative and discriminative models for
+dependency grammar induction that use
+word-level alignments and a source lan-
+guage parser (English) to constrain the
+space of possible target trees. Unlike
+previous approaches, our framework does
+not require full projected parses, allowing
+partial, approximate transfer through lin-
+ear expectation constraints on the space
+of distributions over trees. We consider
+several types of constraints that range
+from generic dependency conservation to
+language-specific annotation rules for aux-
+iliary verb analysis. We evaluate our ap-
+proach on Bulgarian and Spanish CoNLL
+shared task data and show that we con-
+sistently outperform unsupervised meth-
+ods and can outperform supervised learn-
+ing for limited training data.
+1 

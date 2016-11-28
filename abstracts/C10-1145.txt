@@ -1,0 +1,31 @@
+
+Entity linking refers entity mentions in a 
+document to their representations in a 
+knowledge base (KB). In this paper, we 
+propose to use additional information 
+sources from Wikipedia to find more 
+name variations for entity linking task. In 
+addition, as manually creating a training 
+corpus for entity linking is labor-
+intensive and costly, we present a novel 
+method to automatically generate a large 
+scale corpus annotation for ambiguous 
+mentions leveraging on their unambi-
+guous synonyms in the document collec-
+tion. Then, a binary classifier is trained 
+to filter out KB entities that are not simi-
+lar to current mentions. This classifier 
+not only can effectively reduce the am-
+biguities to the existing entities in KB, 
+but also be very useful to highlight the 
+new entities to KB for the further popu-
+lation. Furthermore, we also leverage on 
+the Wikipedia documents to provide ad-
+ditional information which is not availa-
+ble in our generated corpus through a 
+domain adaption approach which pro-
+vides further performance improve-
+ments.  The experiment results show that 
+our proposed method outperforms the 
+state-of-the-art approaches. 
+1 

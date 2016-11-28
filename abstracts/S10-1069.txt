@@ -1,0 +1,20 @@
+
+This paper describes the SCHWA system
+entered by the University of Sydney in Se-
+mEval 2010 Task 12 ? Parser Evaluation
+using Textual Entailments (Yuret et al,
+2010). Our system achieved an overall ac-
+curacy of 70% in the task evaluation.
+We used the C&C parser to build CCG de-
+pendency parses of the truth and hypothe-
+sis sentences. We then used partial match
+heuristics to determine whether the sys-
+tem should predict entailment. Heuristics
+were used because the dependencies gen-
+erated by the parser are construction spe-
+cific, making full compatibility unlikely.
+We also manually annotated the develop-
+ment set with CCG analyses, establishing
+an upper bound for our entailment system
+of 87%.
+1 

@@ -1,0 +1,16 @@
+
+We investigate the use of web search queries 
+for detecting errors in non-native writing. Dis-
+tinguishing a correct sequence of words from 
+a sequence with a learner error is a baseline 
+task that any error detection and correction 
+system needs to address. Using a large corpus 
+of error-annotated learner data, we investigate 
+whether web search result counts can be used 
+to distinguish correct from incorrect usage. In 
+this investigation, we compare a variety of 
+query formulation strategies and a number of 
+web resources, including two major search 
+engine APIs and a large web-based n-gram 
+corpus. 
+1 

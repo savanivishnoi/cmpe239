@@ -1,0 +1,18 @@
+ 
+This paper presents a Chinese word 
+segmentation system submitted to the 
+closed training evaluations of CIPS-
+SIGHAN-2010 bakeoff. The system uses 
+a conditional random field model with 
+one simple feature called term contri-
+buted boundaries (TCB) in addition to 
+the ?BI? character-based tagging ap-
+proach. TCB can be extracted from unla-
+beled corpora automatically, and seg-
+mentation variations of different do-
+mains are expected to be reflected impli-
+citly. The experiment result shows that 
+TCB does improve ?BI? tagging domain-
+independently about 1% of the F1 meas-
+ure score. 
+1 

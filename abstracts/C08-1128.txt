@@ -1,0 +1,18 @@
+
+Words in Chinese text are not naturally
+separated by delimiters, which poses a
+challenge to standard machine translation
+(MT) systems. In MT, the widely used
+approach is to apply a Chinese word seg-
+menter trained from manually annotated
+data, using a fixed lexicon. Such word
+segmentation is not necessarily optimal
+for translation. We propose a Bayesian
+semi-supervised Chinese word segmenta-
+tion model which uses both monolingual
+and bilingual information to derive a seg-
+mentation suitable for MT. Experiments
+show that our method improves a state-of-
+the-art MT system in a small and a large
+data environment.
+1 

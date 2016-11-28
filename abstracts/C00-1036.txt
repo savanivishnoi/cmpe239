@@ -1,0 +1,24 @@
+ 
+Typical al)proaches to XML authoring view a XML doc- 
+urnent as a mixture of structure (the tags) and surlhce 
+(texl between the tags). We advoeale a radical approach 
+where the surface disappears from lhe XML documenl 
+altogether to be handled exclusively by rendering mech- 
+anisms. This move is based on the view that the author's 
+choices when authoring XML docutnciHs are best seen 
+as language-i~eutral semantic decisions, that lhe SlftlC- 
+lure can then be viewed as inlerlingual content, and that 
+the textual oulpul  should be derived from this co)lien\[ by 
+language-sl~ecific realization mechanisms, lhus assimi- 
+lating XML aufllol'ing lo Mullilingual Document Amhof  
+ing. However, slandard XMI, tools have imporlant lhni- 
+tations when used for such a ptu'pose: (1) they are weak 
+at propagating semanlic dependencies belween dil'ferenl 
+parts of the st,'ucture, and, (2) current XMI. rendering 
+tools are ill-suited for handling the grammatical combi- 
+nation of lextual units. We present two relalcd proposals 
+for overcoming these limitalions: one (GI:) origitmting 
+in the Iradilion of malhemalical proof edilors and con- 
+slruct ivc type lhcery,  the other  (IG), a special i?at ion o f  
+l)elinite Clause (_\]ranllllars strongly inspired by (iF. 
+1 

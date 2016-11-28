@@ -1,0 +1,20 @@
+
+We propose a method for annotating post-
+to-post discourse structure in online user
+forum data, in the hopes of improving
+troubleshooting-oriented information ac-
+cess. We introduce the tasks of: (1) post
+classification, based on a novel dialogue
+act tag set; and (2) link classification. We
+also introduce three feature sets (structural
+features, post context features and seman-
+tic features) and experiment with three dis-
+criminative learners (maximum entropy,
+SVM-HMM and CRF).We achieve above-
+baseline results for both dialogue act and
+link classification, with interesting diver-
+gences in which feature sets perform well
+over the two sub-tasks, and go on to per-
+form preliminary investigation of the inter-
+action between post tagging and linking.
+1 

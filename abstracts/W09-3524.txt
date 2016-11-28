@@ -1,0 +1,19 @@
+
+This paper presents a hybrid approach to
+English-Korean name transliteration. The
+base system is built on MOSES with en-
+abled factored translation features. We
+expand the base system by combining
+with various transliteration methods in-
+cluding a Web-based n-best re-ranking, a
+dictionary-based method, and a rule-based
+method. Our standard run and best non-
+standard run achieve 45.1 and 78.5, re-
+spectively, in top-1 accuracy. Experimen-
+tal results show that expanding training
+data size significantly contributes to the
+performance. Also we discover that the
+Web-based re-ranking method can be suc-
+cessfully applied to the English-Korean
+transliteration.
+1 

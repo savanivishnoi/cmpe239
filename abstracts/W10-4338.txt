@@ -1,0 +1,17 @@
+
+Statistical user simulation is a promis-
+ing methodology to train and evaluate the
+performance of (spoken) dialog systems.
+We work with a modular architecture for
+data-driven simulation where the ?inten-
+tional? component of user simulation in-
+cludes a User Model representing user-
+specific features. We train a dialog sim-
+ulator that combines traits of human be-
+havior such as cooperativeness and con-
+text with domain-related aspects via the
+Expectation-Maximization algorithm. We
+show that cooperativeness provides a finer
+representation of the dialog context which
+directly affects task completion rate.
+1 

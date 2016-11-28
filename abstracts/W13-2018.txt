@@ -1,0 +1,17 @@
+
+We describe our system to extract genia
+events that was developed for the BioNLP
+2013 Shared Task. Our system uses a su-
+pervised information extraction platform
+based on Support Vector Machines (SVM)
+and separates the process of event clas-
+sification into multiple stages. For each
+event type the SVM parameters are ad-
+justed and feature selection carried out.
+We find that this optimisation improves
+the performance of our approach. Overall
+our system achieved the highest precision
+score of all systems and was ranked 6th
+of 10 participating systems on F-measure
+(strict matching).
+1 

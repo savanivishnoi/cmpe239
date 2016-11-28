@@ -1,0 +1,17 @@
+
+We report on our experience with building a
+statistical MT system from scratch, includ-
+ing the creation of a small parallel Tamil-
+English corpus, and the results of a task-
+based pilot evaluation of statistical MT sys-
+tems trained on sets of ca. 1300 and ca.
+5000 parallel sentences of Tamil and English
+data. Our results show that even with appar-
+ently incomprehensible system output, hu-
+mans without any knowledge of Tamil can
+achieve performance rates as high as 86%
+accuracy for topic identification, 93% recall
+for document retrieval, and 64% recall on
+question answering (plus an additional 14%
+partially correct answers).
+1 

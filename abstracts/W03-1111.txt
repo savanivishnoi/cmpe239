@@ -1,0 +1,18 @@
+
+In this paper, we focus on performing
+LSI on very low SVD dimensions. The
+results show that there is a nearly linear
+surface in the local query region. Using
+low-dimensional LSI on local query re-
+gion we can capture such a linear surface,
+obtain much better performance than
+VSM and come comparably to global
+LSI. The surprisingly small requirements
+of the SVD dimension resolve the com-
+putation restrictions. Moreover, on the
+condition that several relevant sample
+documents are available, application of
+low-dimensional LSI to these documents
+yielded comparable IR performance to
+local RF but in a different manner.
+1 

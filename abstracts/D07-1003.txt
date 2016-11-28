@@ -1,0 +1,23 @@
+
+This paper presents a syntax-driven ap-
+proach to question answering, specifically
+the answer-sentence selection problem for
+short-answer questions. Rather than us-
+ing syntactic features to augment exist-
+ing statistical classifiers (as in previous
+work), we build on the idea that ques-
+tions and their (correct) answers relate to
+each other via loose but predictable syntac-
+tic transformations. We propose a prob-
+abilistic quasi-synchronous grammar, in-
+spired by one proposed for machine trans-
+lation (D. Smith and Eisner, 2006), and pa-
+rameterized by mixtures of a robust non-
+lexical syntax/alignment model with a(n
+optional) lexical-semantics-driven log-linear
+model. Our model learns soft alignments as
+a hidden variable in discriminative training.
+Experimental results using the TREC dataset
+are shown to significantly outperform strong
+state-of-the-art baselines.
+1 

@@ -1,0 +1,33 @@
+ 
+A language-independent framework for syntac- 
+tic finlte-state parsing is discussed. The article 
+presents a framework, a formalism, a compiler 
+and a parser for grammars written in this for- 
+realism. As a substantial example, fragments 
+from a nontrivial finite-state grammar of Eng- 
+lish are discussed. 
+The linguistic framework of the present 
+approach is based on a surface syntactic tag- 
+ging scheme by F. Karlsson. This representa- 
+tion is slightly less powerful than phrase 
+structure tree notation, letUng some ambigu- 
+ous constructions be described more concisely. 
+The finite-state rule compiler implements what 
+was briefly sketched by Koskenniemi (1990). It 
+is based on the calculus of finite-state 
+machines. The compiler transforms rules into 
+rule-automata. The run-time parser exploits 
+one of certain alternative strategies in perform- 
+ing the effective intersection of the rule autom- 
+ata and the sentence automaton. 
+Fragments of a fairly comprehensive finite-state 
+granmmr of English axe presented here, includ- 
+ing samples from non-finite constructions as a 
+demonstration of the capacity of the present 
+formalism, which goes far beyond plain disam- 
+blguation or part of speech tagging. The 
+grammar itself is directly related to a parser 
+and tagging system for English created as a 
+part of project SIMPR I using Karlsson's CG 
+(Constraint Grammar) formalism. 
+1. 

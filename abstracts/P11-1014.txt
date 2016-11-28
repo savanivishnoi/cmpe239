@@ -1,0 +1,23 @@
+
+We describe a sentiment classification method
+that is applicable when we do not have any la-
+beled data for a target domain but have some
+labeled data for multiple other domains, des-
+ignated as the source domains. We automat-
+ically create a sentiment sensitive thesaurus
+using both labeled and unlabeled data from
+multiple source domains to find the associa-
+tion between words that express similar senti-
+ments in different domains. The created the-
+saurus is then used to expand feature vectors
+to train a binary classifier. Unlike previous
+cross-domain sentiment classification meth-
+ods, our method can efficiently learn from
+multiple source domains. Our method signif-
+icantly outperforms numerous baselines and
+returns results that are better than or com-
+parable to previous cross-domain sentiment
+classification methods on a benchmark dataset
+containing Amazon user reviews for different
+types of products.
+1 

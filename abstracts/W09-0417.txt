@@ -1,0 +1,14 @@
+
+This paper describes our Statistical Ma-
+chine Translation systems for the WMT09
+(en:fr) shared task. For this evaluation, we
+have developed four systems, using two
+different MT Toolkits: our primary sub-
+mission, in both directions, is based on
+Moses, boosted with contextual informa-
+tion on phrases, and is contrasted with a
+conventional Moses-based system. Addi-
+tional contrasts are based on the Ncode
+toolkit, one of which uses (part of) the En-
+glish/French GigaWord parallel corpus.
+1 

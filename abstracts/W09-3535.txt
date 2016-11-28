@@ -1,0 +1,29 @@
+ 
+We present two techniques to reduce ma-
+chine learning cost, i.e., cost of manually 
+annotating unlabeled data, for adapting 
+existing CRF-based named entity recog-
+nition (NER) systems to new texts or 
+domains. We introduce the tag posterior 
+probability as the tag confidence measure 
+of an individual NE tag determined by 
+the base model. Dubious tags are auto-
+matically detected as recognition errors, 
+and regarded as targets of manual correc-
+tion. Compared to entire sentence poste-
+rior probability, tag posterior probability 
+has the advantage of minimizing system 
+cost by focusing on those parts of the 
+sentence that require manual correction. 
+Using the tag confidence measure, the 
+first technique, known as active learning, 
+asks the editor to assign correct NE tags 
+only to those parts that the base model 
+could not assign tags confidently. Active 
+learning reduces the learning cost by 
+66%, compared to the conventional 
+method. As the second technique, we 
+propose bootstrapping NER, which semi-
+automatically corrects dubious tags and 
+updates its model.  
+1 

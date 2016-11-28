@@ -1,0 +1,18 @@
+
+SenseClusters is a freely?available open?
+source system that served as the Univer-
+sity of Minnesota, Duluth entry in the
+SENSEVAL-4 sense induction task. For this
+task SenseClusters was configured to con-
+struct representations of the instances to be
+clustered using the centroid of word co-
+occurrence vectors that replace the words
+in an instance. These instances are then
+clustered using k?means where the number
+of clusters is discovered automatically using
+the Adapted Gap Statistic. In these experi-
+ments SenseClusters did not use any infor-
+mation outside of the raw untagged text that
+was to be clustered, and no tuning of the sys-
+tem was performed using external corpora.
+1 

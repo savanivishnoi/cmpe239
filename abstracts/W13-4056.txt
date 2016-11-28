@@ -1,0 +1,19 @@
+
+We present two dialogue systems for lan-
+guage learning which both restrict the di-
+alog to a specific domain thereby pro-
+moting robustness and the learning of a
+given vocabulary. The systems vary in how
+much they constrain the learner?s answer :
+one system places no other constrain on
+the learner than that provided by the re-
+stricted domain and the dialog context ; the
+other provides the learner with an exercise
+whose solution is the expected answer.
+The first system uses supervised learning
+for simulating a human tutor whilst the
+second one uses natural language gener-
+ation techniques to produce grammar ex-
+ercises which guide the learner toward the
+expected answer.
+1 

@@ -1,0 +1,19 @@
+
+In this paper we apply lightly-supervised
+training to a hierarchical phrase-based statis-
+tical machine translation system. We employ
+bitexts that have been built by automatically
+translating large amounts of monolingual data
+as additional parallel training corpora. We ex-
+plore different ways of using this additional
+data to improve our system.
+Our results show that integrating a second
+translation model with only non-hierarchical
+phrases extracted from the automatically gen-
+erated bitexts is a reasonable approach. The
+translation performance matches the result we
+achieve with a joint extraction on all train-
+ing bitexts while the system is kept smaller
+due to a considerably lower overall number of
+phrases.
+1 

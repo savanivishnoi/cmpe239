@@ -1,0 +1,17 @@
+ 
+This paper presents a maximum entropy 
+method for the disambiguation of word 
+senses as defined in HowNet. With the 
+release of this bilingual (Chinese and 
+English) knowledge base in 1999, a corpus 
+of 30,000 words was sense tagged and 
+released in January 2002. Concepts 
+meanings in HowNet are constructed by a 
+closed set of sememes, the smallest meaning 
+units, which can be treated as semantic tags. 
+The maximum entropy model treats 
+semantic tags like parts-of-speech tags and 
+achieves an overall accuracy of 89.39%, 
+outperforming a baseline system, which 
+picks the most frequent sense.  
+1. 

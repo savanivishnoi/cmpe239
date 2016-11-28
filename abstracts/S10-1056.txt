@@ -1,0 +1,19 @@
+
+This paper describes our system for the
+classification of argument coercion for
+SemEval-2010 Task 7. We present two ap-
+proaches to classifying an argument?s se-
+mantic class, which is then compared to
+the predicate?s expected semantic class to
+detect coercions. The first approach is
+based on learning the members of an arbi-
+trary semantic class using WordNet?s hy-
+pernymy structure. The second approach
+leverages automatically extracted seman-
+tic parse information from a large corpus
+to identify similar arguments by the pred-
+icates that select them. We show the re-
+sults these approaches obtain on the task
+as well as how they can improve a tradi-
+tional feature-based approach.
+1 

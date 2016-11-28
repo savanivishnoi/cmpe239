@@ -1,0 +1,20 @@
+
+We supplement WordNet entries with infor-
+mation on the subjectivity of its word senses.
+Supervised classifiers that operate on word
+sense definitions in the same way that text
+classifiers operate on web or newspaper texts
+need large amounts of training data. The re-
+sulting data sparseness problem is aggravated
+by the fact that dictionary definitions are very
+short. We propose a semi-supervised mini-
+mum cut framework that makes use of both
+WordNet definitions and its relation structure.
+The experimental results show that it outper-
+forms supervised minimum cut as well as stan-
+dard supervised, non-graph classification, re-
+ducing the error rate by 40%. In addition, the
+semi-supervised approach achieves the same
+results as the supervised framework with less
+than 20% of the training data.
+1 

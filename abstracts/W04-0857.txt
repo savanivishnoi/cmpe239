@@ -1,0 +1,14 @@
+
+This paper describes the four entries from the Uni-
+versity of Utah in the semantic role labeling task
+of SENSEVAL-3. All the entries took a statisti-
+cal machine learning approach, using the subset
+of the FrameNet corpus provided by SENSEVAL-3
+as training data. Our approach was to develop a
+model of natural language generation from seman-
+tics, and train the model using maximum likelihood
+and smoothing. Our models performed satisfacto-
+rily in the competition, and can flexibly handle vary-
+ing permutations of provided versus inferred infor-
+mation.
+1 

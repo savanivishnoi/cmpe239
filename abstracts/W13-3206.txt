@@ -1,0 +1,19 @@
+
+In recent years, there has been widespread
+interest in compositional distributional
+semantic models (cDSMs), that derive
+meaning representations for phrases from
+their parts. We present an evaluation of al-
+ternative cDSMs under truly comparable
+conditions. In particular, we extend the
+idea of Baroni and Zamparelli (2010) and
+Guevara (2010) to use corpus-extracted
+examples of the target phrases for param-
+eter estimation to the other models pro-
+posed in the literature, so that all models
+can be tested under the same training con-
+ditions. The linguistically motivated func-
+tional model of Baroni and Zamparelli
+(2010) and Coecke et al (2010) emerges
+as the winner in all our tests.
+1 

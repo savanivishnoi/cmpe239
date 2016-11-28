@@ -1,0 +1,12 @@
+
+We describe a method for augmenting
+unification-based deep parsing with statis-
+tical methods. We extend and adapt the
+Bikel parser, which uses head-driven lex-
+ical statistics, to dialogue. We show that
+our augmented parser produces signifi-
+cantly fewer constituents than the baseline
+system and achieves comparable brack-
+eting accuracy, even yielding slight im-
+provements for longer sentences.
+1 

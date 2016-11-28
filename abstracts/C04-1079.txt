@@ -1,0 +1,20 @@
+ 
+The tedious task of responding to a backlog of 
+email is one which is familiar to many researchers.  
+As a subset of email management, we address the 
+problem of constructing a summary of email 
+discussions.  Specifically, we examine ongoing 
+discussions which will ultimately culminate in a 
+consensus in a decision-making process.  Our 
+summary provides a snapshot of the current state-
+of-affairs of the discussion and facilitates a speedy 
+response from the user, who might be the 
+bottleneck in some matter being resolved.  We 
+present a method which uses the structure of the 
+thread dialogue and word vector techniques to 
+determine which sentence in the thread should be 
+extracted as the main issue.   Our solution 
+successfully identifies the sentence containing the 
+issue of the thread being discussed, potentially 
+more informative than subject line.   
+1 

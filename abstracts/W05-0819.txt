@@ -1,0 +1,25 @@
+ 
+ 
+In this paper, we describe a word 
+alignment algorithm for English-Hindi 
+parallel data. The system was developed 
+to participate in the shared task on word 
+alignment for languages with scarce 
+resources at the ACL 2005 workshop, on 
+?Building and using parallel texts: data 
+driven machine translation and beyond?.  
+Our word alignment algorithm is based on 
+a hybrid method which performs local 
+word grouping on Hindi sentences and 
+uses other methods such as dictionary 
+lookup, transliteration similarity, expected 
+English words and nearest aligned 
+neighbours. We trained our system on the 
+training data provided to obtain a list of 
+named entities and cognates and to collect 
+rules for local word grouping in Hindi 
+sentences. The system scored 77.03% 
+precision and 60.68% recall on the shared 
+task unseen test data. 
+ 
+1 

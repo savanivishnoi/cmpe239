@@ -1,0 +1,21 @@
+ 
+A number of research and software development 
+groups have developed name identification 
+technology, but few have addressed the issue of 
+cross-document coreference, or identifying the 
+same named entities across documents. In a 
+collection of documents, where there are 
+multiple discourse contexts, there exists a many- 
+to-many correspondence b tween names and 
+entities, making it a challenge to automatically 
+map them correctly. Recently, Bagga and 
+Baldwin proposed a method for determining 
+whether two names refer to the same entity by 
+measuring the similarity between the document 
+contexts in which they appear. Inspired by their 
+approach, we have revisited our current cross- 
+document coreference heuristics that make 
+relatively simple decisions based on matching 
+strings and entity types. We have devised an 
+improved and promising algorithm, which we 
+discuss in this paper. 

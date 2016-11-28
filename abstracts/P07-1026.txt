@@ -1,0 +1,28 @@
+ 
+Convolution tree kernel has shown promis-
+ing results in semantic role classification. 
+However, it only carries out hard matching, 
+which may lead to over-fitting and less ac-
+curate similarity measure. To remove the 
+constraint, this paper proposes a grammar-
+driven convolution tree kernel for semantic 
+role classification by introducing more lin-
+guistic knowledge into the standard tree 
+kernel. The proposed grammar-driven tree 
+kernel displays two advantages over the pre-
+vious one: 1) grammar-driven approximate 
+substructure matching and 2) grammar-
+driven approximate tree node matching. The 
+two improvements enable the grammar-
+driven tree kernel explore more linguistically 
+motivated structure features than the previ-
+ous one. Experiments on the CoNLL-2005 
+SRL shared task show that the grammar-
+driven tree kernel significantly outperforms 
+the previous non-grammar-driven one in 
+SRL. Moreover, we present a composite 
+kernel to integrate feature-based and tree 
+kernel-based methods. Experimental results 
+show that the composite kernel outperforms 
+the previously best-reported methods. 
+1 

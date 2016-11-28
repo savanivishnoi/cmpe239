@@ -1,0 +1,23 @@
+
+This paper describes the UPC participation in
+the WMT 12 evaluation campaign. All sys-
+tems presented are based on standard phrase-
+based Moses systems. Variations adopted sev-
+eral improvement techniques such as mor-
+phology simplification and generation and do-
+main adaptation. The morphology simpli-
+fication overcomes the data sparsity prob-
+lem when translating into morphologically-
+rich languages such as Spanish by translat-
+ing first to a morphology-simplified language
+and secondly leave the morphology gener-
+ation to an independent classification task.
+The domain adaptation approach improves the
+SMT system by adding new translation units
+learned from MT-output and reference align-
+ment. Results depict an improvement on TER,
+METEOR, NIST and BLEU scores compared
+to our baseline system, obtaining on the of-
+ficial test set more benefits from the domain
+adaptation approach than from the morpho-
+logical generalization method.1 

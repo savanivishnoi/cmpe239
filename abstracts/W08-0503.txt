@@ -1,0 +1,28 @@
+
+Experiments in natural language processing
+and machine learning typically involve run-
+ning a complicated network of programs to
+create, process, and evaluate data. Re-
+searchers often write one or more UNIX shell
+scripts to ?glue? together these various pieces,
+but such scripts are suboptimal for several rea-
+sons. Without significant additional work, a
+script does not handle recovering from fail-
+ures, it requires keeping track of complicated
+filenames, and it does not support running pro-
+cesses in parallel. In this paper, we present
+zymake as a solution to all these problems.
+zymake scripts look like shell scripts, but
+have semantics similar to makefiles. Using
+zymake improves repeatability and scalabil-
+ity of running experiments, and provides a
+clean, simple interface for assembling compo-
+nents. A zymake script also serves as doc-
+umentation for the complete workflow. We
+present a zymake script for a published set
+of NLP experiments, and demonstrate that it
+is superior to alternative solutions, including
+shell scripts and makefiles, while being far
+simpler to use than scientific grid computing
+systems.
+1 

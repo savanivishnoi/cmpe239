@@ -1,0 +1,10 @@
+. This paper  proposes a two-step method for Chinese text categoriza-
+tion (TC). In the first step, a Na?ve Bayesian classifier is used to fix the fuzzy 
+area between two categories, and, in the second step, the classifier with more 
+subtle and powerful features is used to deal with documents in the fuzzy area, 
+which are thought of being unreliable in the first step. The preliminary experi-
+ment validated the soundness of this method. Then, the method is extended 
+from two-class TC to multi-class TC. In this two-step framework, we try to fur-
+ther improve the classifier by taking the dependences among features into con-
+sideration in the second step, resulting in a Causality Na?ve Bayesian Classifier. 
+1   

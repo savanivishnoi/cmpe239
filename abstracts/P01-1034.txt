@@ -1,0 +1,19 @@
+
+We describe the use of XML tokenisa-
+tion, tagging and mark-up tools to pre-
+pare a corpus for parsing. Our tech-
+niques are generally applicable but here
+we focus on parsing Medline abstracts
+with the ANLT wide-coverage grammar.
+Hand-crafted grammars inevitably lack
+coverage but many coverage failures
+are due to inadequacies of their lexi-
+cons. We describe a method of gain-
+ing a degree of robustness by interfac-
+ing POS tag information with the exist-
+ing lexicon. We also show that XML
+tools provide a sophisticated approach
+to pre-processing, helping to ameliorate
+the ?messiness? in real language data
+and improve parse performance.
+1 

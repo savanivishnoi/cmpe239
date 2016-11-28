@@ -1,0 +1,16 @@
+
+Nowadays, most of the statistical translation sys-
+tems are based on phrases (i.e. groups of words).
+In this paper we study different improvements to
+the standard phrase-based translation system. We
+describe a modified method for the phrase extrac-
+tion which deals with larger phrases while keeping
+a reasonable number of phrases. We also propose
+additional features which lead to a clear improve-
+ment in the performance of the translation. We
+present results with the EuroParl task in the direc-
+tion Spanish to English and results from the evalu-
+ation of the shared task ?Exploiting Parallel Texts
+for Statistical Machine Translation? (ACL Work-
+shop on Parallel Texts 2005).
+1 

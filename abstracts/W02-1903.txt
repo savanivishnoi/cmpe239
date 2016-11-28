@@ -1,0 +1,15 @@
+  
+We propose a fast and reliable 
+Question-answering (QA) system in Korean, 
+which uses a predictive answer indexer based on 
+2-pass scoring method. The indexing process is 
+as follows. The predictive answer indexer first 
+extracts all answer candidates in a document. 
+Then, using 2-pass scoring method, it gives 
+scores to the adjacent content words that are 
+closely related with each answer candidate. Next, 
+it stores the weighted content words with each 
+candidate into a database. Using this technique, 
+along with a complementary analysis of 
+questions, the proposed QA system saves 
+response time and enhances the precision. 

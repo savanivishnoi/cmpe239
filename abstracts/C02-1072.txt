@@ -1,0 +1,26 @@
+
+We present a comparative evaluation of two
+data-driven models used in translation selec-
+tion of English-Korean machine translation. La-
+tent semantic analysis(LSA) and probabilistic
+latent semantic analysis (PLSA) are applied for
+the purpose of implementation of data-driven
+models in particular. These models are able to
+represent complex semantic structures of given
+contexts, like text passages. Grammatical rela-
+tionships, stored in dictionaries, are utilized in
+translation selection essentially. We have used
+k-nearest neighbor (k-NN) learning to select an
+appropriate translation of the unseen instances
+in the dictionary. The distance of instances in
+k-NN is computed by estimating the similar-
+ity measured by LSA and PLSA. For experi-
+ments, we used TREC data(AP news in 1988)
+for constructing latent semantic spaces of two
+models and Wall Street Journal corpus for eval-
+uating the translation accuracy in each model.
+PLSA selected relatively more accurate transla-
+tions than LSA in the experiment, irrespective
+of the value of k and the types of grammatical
+relationship.
+1 

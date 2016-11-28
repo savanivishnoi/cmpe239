@@ -1,0 +1,17 @@
+
+This paper discusses local alignment ker-
+nels in the context of the relation extrac-
+tion task. We define a local alignment
+kernel based on the Smith-Waterman mea-
+sure as a sequence similarity metric and
+proceed with a range of possibilities for
+computing a similarity between elements
+of sequences. We propose to use distri-
+butional similarity measures on elements
+and by doing so we are able to incorporate
+extra information from the unlabeled data
+into a learning task. Our experiments sug-
+gest that a LA kernel provides promising
+results on some biomedical corpora largely
+outperforming a baseline.
+1 

@@ -1,0 +1,19 @@
+
+Parallel data in the domain of interest is the
+key resource when training a statistical ma-
+chine translation (SMT) system for a specific
+purpose. Since ad-hoc manual translation can
+represent a significant investment in time and
+money, a prior assesment of the amount of
+training data required to achieve a satisfac-
+tory accuracy level can be very useful. In this
+work, we show how to predict what the learn-
+ing curve would look like if we were to manu-
+ally translate increasing amounts of data.
+We consider two scenarios, 1) Monolingual
+samples in the source and target languages are
+available and 2) An additional small amount
+of parallel corpus is also available. We pro-
+pose methods for predicting learning curves in
+both these scenarios.
+1 

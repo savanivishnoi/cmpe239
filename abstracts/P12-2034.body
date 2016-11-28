@@ -1,0 +1,19 @@
+
+Most previous studies in computerized de-
+ception detection have relied only on shal-
+low lexico-syntactic patterns. This pa-
+per investigates syntactic stylometry for
+deception detection, adding a somewhat
+unconventional angle to prior literature.
+Over four different datasets spanning from
+the product review to the essay domain,
+we demonstrate that features driven from
+Context Free Grammar (CFG) parse trees
+consistently improve the detection perfor-
+mance over several baselines that are based
+only on shallow lexico-syntactic features.
+Our results improve the best published re-
+sult on the hotel review data (Ott et al.,
+2011) reaching 91.2% accuracy with 14%
+error reduction.
+1 

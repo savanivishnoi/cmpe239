@@ -1,0 +1,17 @@
+
+While modeling entailment at the lexical-level
+is a prominent task, addressed by most textual
+entailment systems, it has been approached
+mostly by heuristic methods, neglecting some
+of its important aspects. We present a prob-
+abilistic approach for this task which cov-
+ers aspects such as differentiating various re-
+sources by their reliability levels, considering
+the length of the entailed sentence, the num-
+ber of its covered terms and the existence of
+multiple evidence for the entailment of a term.
+The impact of our model components is vali-
+dated by evaluations, which also show that its
+performance is in line with the best published
+entailment systems.
+1 

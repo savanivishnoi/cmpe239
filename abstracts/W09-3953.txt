@@ -1,0 +1,11 @@
+
+We present a dialogue annotation scheme
+for both spoken and written interaction,
+and use it in a telephone transaction cor-
+pus and an email corpus. We train classi-
+fiers, comparing regular SVM and struc-
+tured SVM against a heuristic baseline.
+We provide a novel application of struc-
+tured SVM to predicting relations between
+instance pairs.
+1 

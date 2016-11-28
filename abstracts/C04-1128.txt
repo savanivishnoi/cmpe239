@@ -1,0 +1,17 @@
+
+While sentence extraction as an approach to
+summarization has been shown to work in docu-
+ments of certain genres, because of the conver-
+sational nature of email communication where
+utterances are made in relation to one made
+previously, sentence extraction may not capture
+the necessary segments of dialogue that would
+make a summary coherent. In this paper, we
+present our work on the detection of question-
+answer pairs in an email conversation for the
+task of email summarization. We show that var-
+ious features based on the structure of email-
+threads can be used to improve upon lexical
+similarity of discourse segments for question-
+answer pairing.
+1 

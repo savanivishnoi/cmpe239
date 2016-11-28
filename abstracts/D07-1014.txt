@@ -1,0 +1,23 @@
+
+A notable gap in research on statistical de-
+pendency parsing is a proper conditional
+probability distribution over nonprojective
+dependency trees for a given sentence. We
+exploit the Matrix Tree Theorem (Tutte,
+1984) to derive an algorithm that efficiently
+sums the scores of all nonprojective trees
+in a sentence, permitting the definition of
+a conditional log-linear model over trees.
+While discriminative methods, such as those
+presented in McDonald et al (2005b), ob-
+tain very high accuracy on standard de-
+pendency parsing tasks and can be trained
+and applied without marginalization, ?sum-
+ming trees? permits some alternative tech-
+niques of interest. Using the summing al-
+gorithm, we present competitive experimen-
+tal results on four nonprojective languages,
+for maximum conditional likelihood estima-
+tion, minimum Bayes-risk parsing, and hid-
+den variable training.
+1 

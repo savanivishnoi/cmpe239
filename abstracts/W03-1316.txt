@@ -1,0 +1,21 @@
+ 
+In this paper we discuss the performance 
+of a text-based classification approach by 
+comparing different types of features. We 
+consider the automatic classification of 
+gene names from the molecular biology 
+literature, by using a support-vector ma-
+chine method. Classification features 
+range from words, lemmas and stems, to 
+automatically extracted terms. Also, sim-
+ple co-occurrences of genes within docu-
+ments are considered. The preliminary 
+experiments performed on a set of 3,000 
+S. cerevisiae gene names and 53,000 
+Medline abstracts have shown that using 
+domain-specific terms can improve the 
+performance compared to the standard 
+bag-of-words approach, in particular for 
+genes classified with higher confidence, 
+and for under-represented classes.  
+1 

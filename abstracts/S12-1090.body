@@ -1,0 +1,20 @@
+ 
+This paper describes the specifications and 
+results of UMCC_DLSI system, which 
+participated in the first Semantic Textual 
+Similarity task (STS) of SemEval-2012. Our 
+supervised system uses different kinds of 
+semantic and lexical features to train classifiers 
+and it uses a voting process to select the correct 
+option. Related to the different features we can 
+highlight the resource ISR-WN1 used to extract 
+semantic relations among words and the use of 
+different algorithms to establish semantic and 
+lexical similarities. In order to establish which 
+features are the most appropriate to improve 
+STS results we participated with three runs 
+using different set of features. Our best 
+approach reached the position 18 of 89 runs, 
+obtaining a general correlation coefficient up to 
+0.72. 
+1. 

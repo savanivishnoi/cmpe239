@@ -1,0 +1,18 @@
+
+We present a distantly supervised system for
+extracting the temporal bounds of fluents (re-
+lations which only hold during certain times,
+such as attends school). Unlike previous
+pipelined approaches, our model does not as-
+sume independence between each fluent or
+even between named entities with known con-
+nections (parent, spouse, employer, etc.). In-
+stead, we model what makes timelines of flu-
+ents consistent by learning cross-fluent con-
+straints, potentially spanning entities as well.
+For example, our model learns that someone
+is unlikely to start a job at age two or to marry
+someone who hasn?t been born yet. Our sys-
+tem achieves a 36% error reduction over a
+pipelined baseline.
+1 

@@ -1,0 +1,22 @@
+
+We describe a learning-based system that
+creates draft reports based on observation
+of people preparing such reports in a tar-
+get domain (conference replanning). The
+reports (or briefings) are based on a mix
+of text and event data. The latter consist
+of task creation and completion actions,
+collected from a wide variety of sources
+within the target environment. The report
+drafting system is part of a larger learning-
+based cognitive assistant system that im-
+proves the quality of its assistance based
+on an opportunity to learn from observa-
+tion. The system can learn to accurately
+predict the briefing assembly behavior and
+shows significant performance improve-
+ments relative to a non-learning system,
+demonstrating that it?s possible to create
+meaningful verbal descriptions of activity
+from event streams.
+1 

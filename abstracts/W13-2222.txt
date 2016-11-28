@@ -1,0 +1,29 @@
+
+This paper describes shallow
+semantically-informed Hierarchical
+Phrase-based SMT (HPBSMT) and
+Phrase-Based SMT (PBSMT) systems
+developed at Dublin City University
+for participation in the translation task
+between EN-ES and ES-EN at the Work-
+shop on Statistical Machine Translation
+(WMT 13). The system uses PBSMT
+and HPBSMT decoders with multiple
+LMs, but will run only one decoding
+path decided before starting translation.
+Therefore the paper does not present a
+multi-engine system combination. We
+investigate three types of shallow seman-
+tics: (i) Quality Estimation (QE) score,
+(ii) genre ID, and (iii) context ID derived
+from context-dependent language models.
+Our results show that the improvement is
+0.8 points absolute (BLEU) for EN-ES
+and 0.7 points for ES-EN compared to
+the standard PBSMT system (single best
+system). It is important to note that we
+developed this method when the standard
+(confusion network-based) system com-
+bination is ineffective such as in the case
+when the input is only two.
+1 

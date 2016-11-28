@@ -1,0 +1,23 @@
+
+We present a stochastic parsing system
+consisting of a Lexical-Functional Gram-
+mar (LFG), a constraint-based parser and
+a stochastic disambiguation model. We re-
+port on the results of applying this sys-
+tem to parsing the UPenn Wall Street
+Journal (WSJ) treebank. The model com-
+bines full and partial parsing techniques
+to reach full grammar coverage on unseen
+data. The treebank annotations are used
+to provide partially labeled data for dis-
+criminative statistical estimation using ex-
+ponential models. Disambiguation perfor-
+mance is evaluated by measuring matches
+of predicate-argument relations on two
+distinct test sets. On a gold standard of
+manually annotated f-structures for a sub-
+set of the WSJ treebank, this evaluation
+reaches 79% F-score. An evaluation on a
+gold standard of dependency relations for
+Brown corpus data achieves 76% F-score.
+1 

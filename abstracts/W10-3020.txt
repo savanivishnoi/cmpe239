@@ -1,0 +1,18 @@
+
+We present a sequential labeling approach
+to hedge cue detection submitted to the bi-
+ological portion of task 1 for the CoNLL-
+2010 shared task. Our main approach is
+as follows. We make use of partial syntac-
+tic information together with features ob-
+tained from the unlabeled corpus, and con-
+vert the task into one of sequential BIO-
+tagging. If a cue is found, a sentence is
+classified as uncertain and certain other-
+wise. To examine a large number of fea-
+ture combinations, we employ a genetic al-
+gorithm. While some features obtained by
+this method are difficult to interpret, they
+were shown to improve the performance of
+the final system.
+1 

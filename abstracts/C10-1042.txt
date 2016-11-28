@@ -1,0 +1,16 @@
+
+Surface realisation with grammars inte-
+grating flat semantics is known to be NP
+complete. In this paper, we present a new
+algorithm for surface realisation based on
+Feature Based Tree Adjoining Grammar
+(FTAG) which draws on the observation
+that an FTAG can be translated into a Reg-
+ular Tree Grammar describing its deriva-
+tion trees. We carry out an extensive test-
+ing of several variants of this algorithm
+using an automatically produced testsuite
+and compare the results obtained with
+those obtained using GenI, another FTAG
+based surface realiser.
+1 

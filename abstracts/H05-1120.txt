@@ -1,0 +1,14 @@
+
+Applying the noisy channel model to
+search query spelling correction requires
+an error model and a language model.
+Typically, the error model relies on a
+weighted string edit distance measure.
+The weights can be learned from pairs
+of misspelled words and their corrections.
+This paper investigates using the Expec-
+tation Maximization algorithm to learn
+edit distance weights directly from search
+query logs, without relying on a corpus of
+paired words.
+1 

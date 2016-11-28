@@ -1,0 +1,16 @@
+
+Language models can be formalized as log-
+linear regression models where the input fea-
+tures represent previously observed contexts
+up to a certain length m. The complexity
+of existing algorithms to learn the parameters
+by maximum likelihood scale linearly in nd,
+where n is the length of the training corpus
+and d is the number of observed features. We
+present a model that grows logarithmically
+in d, making it possible to efficiently leverage
+longer contexts. We account for the sequen-
+tial structure of natural language using tree-
+structured penalized objectives to avoid over-
+fitting and achieve better generalization.
+1 

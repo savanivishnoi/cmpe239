@@ -1,0 +1,14 @@
+
+We show that existing methods for training
+preposition error correction systems, whether
+using well-edited text or error-annotated cor-
+pora, do not generalize across very differ-
+ent test sets. We present a new, large error-
+annotated corpus and use it to train systems
+that generalize across three different test sets,
+each from a different domain and with differ-
+ent error characteristics. This new corpus is
+automatically extracted from Wikipedia revi-
+sions and contains over one million instances
+of preposition corrections.
+1 

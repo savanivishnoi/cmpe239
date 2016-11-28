@@ -1,0 +1,22 @@
+
+Self-training has been shown capable of
+improving on state-of-the-art parser per-
+formance (McClosky et al, 2006) despite
+the conventional wisdom on the matter and
+several studies to the contrary (Charniak,
+1997; Steedman et al, 2003). However, it
+has remained unclear when and why self-
+training is helpful. In this paper, we test
+four hypotheses (namely, presence of a
+phase transition, impact of search errors,
+value of non-generative reranker features,
+and effects of unknown words). From
+these experiments, we gain a better un-
+derstanding of why self-training works for
+parsing. Since improvements from self-
+training are correlated with unknown bi-
+grams and biheads but not unknown words,
+the benefit of self-training appears most in-
+fluenced by seeing known words in new
+combinations.
+1 

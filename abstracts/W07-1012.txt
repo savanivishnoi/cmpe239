@@ -1,0 +1,18 @@
+
+The vast number of published medical doc-
+uments is considered a vital source for rela-
+tionship discovery. This paper presents a sta-
+tistical unsupervised system, called BioNoc-
+ulars, for extracting protein-protein interac-
+tions from biomedical text. BioNoculars
+uses graph-based mutual reinforcement to
+make use of redundancy in data to construct
+extraction patterns in a domain independent
+fashion. The system was tested using MED-
+LINE abstract for which the protein-protein
+interactions that they contain are listed in the
+database of interacting proteins and protein-
+protein interactions (DIPPPI). The system
+reports an F-Measure of 0.55 on test MED-
+LINE abstracts.
+1 

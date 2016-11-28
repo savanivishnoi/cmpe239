@@ -1,0 +1,30 @@
+
+Probabilistic phrase-based synchronous
+grammars are now considered promis-
+ing devices for statistical machine transla-
+tion because they can express reordering
+phenomena between pairs of languages.
+Learning these hierarchical, probabilistic
+devices from parallel corpora constitutes a
+major challenge, because of multiple la-
+tent model variables as well as the risk
+of data overfitting. This paper presents
+an effective method for learning a family
+of particular interest to MT, binary Syn-
+chronous Context-Free Grammars with in-
+verted/monotone orientation (a.k.a. Bi-
+nary ITG). A second contribution con-
+cerns devising a lexicalized phrase re-
+ordering mechanism that has complimen-
+tary strengths to Chiang?s model. The
+latter conditions reordering decisions on
+the surrounding lexical context of phrases,
+whereas our mechanism works with the
+lexical content of phrase pairs (akin to
+standard phrase-based systems). Surpris-
+ingly, our experiments on French-English
+data show that our learning method ap-
+plied to far simpler models exhibits per-
+formance indistinguishable from the Hiero
+system.
+1 

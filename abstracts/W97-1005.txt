@@ -1,0 +1,27 @@
+ 
+Statistical classification methods usually 
+rely on a single best model to make ac- 
+curate predictions. Such a model aims to 
+maximize accuracy by balancing precision 
+and recall. The Model Switching method 
+as presented in this paper performs with 
+higher predictive accuracy and 100% recall 
+by using a set of decomposable models in- 
+stead of a single one. 
+The implemented system, MS1, is tested 
+on a case study, predicting Prepositional 
+Phrase Attachment (PPA). The results 
+show that iV is more accurate than other 
+statistical techniques that select single 
+models for classification and competitive 
+with other successful NLP approaches in 
+PPA disambiguation. The Model Switch- 
+ing method may be preferable to other 
+methods because of its generality (i.e., wide 
+range of applicability), and its competitive 
+accuracy in prediction. It may also be used 
+as an analytical tool to investigate the na- 
+ture of the domain and the characteristics 
+of the data with the help of generated mod- 
+els. 
+1 

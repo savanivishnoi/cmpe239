@@ -1,0 +1,16 @@
+
+This paper presents an effective dependency
+parsing approach of incorporating short de-
+pendency information from unlabeled data.
+The unlabeled data is automatically parsed
+by a deterministic dependency parser, which
+can provide relatively high performance for
+short dependencies between words. We then
+train another parser which uses the informa-
+tion on short dependency relations extracted
+from the output of the first parser. Our pro-
+posed approach achieves an unlabeled at-
+tachment score of 86.52, an absolute 1.24%
+improvement over the baseline system on
+the data set of Chinese Treebank.
+1 

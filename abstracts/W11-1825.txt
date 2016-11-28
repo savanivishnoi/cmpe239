@@ -1,0 +1,23 @@
+ 
+We describe the system from the Natural 
+Language Processing group at Microsoft 
+Research for the BioNLP 2011 Shared 
+Task. The task focuses on event extraction, 
+identifying structured and potentially 
+nested events from unannotated text. Our 
+approach follows a pipeline, first 
+decorating text with syntactic information, 
+then identifying the trigger words of 
+complex events, and finally identifying the 
+arguments of those events. The resulting 
+system depends heavily on lexical and 
+syntactic features. Therefore, we explored 
+methods of maintaining ambiguities and 
+improving the syntactic representations, 
+making the lexical information less brittle 
+through clustering, and of exploring novel 
+feature combinations and feature reduction. 
+The system ranked 4th in the GENIA task 
+with an F-measure of 51.5%, and 3rd in the 
+EPI task with an F-measure of 64.9%. 
+1 

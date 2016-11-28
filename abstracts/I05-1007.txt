@@ -1,0 +1,11 @@
+. We build a class-based selection preference sub-model to in-
+corporate external semantic knowledge from two Chinese electronic se-
+mantic dictionaries. This sub-model is combined with modifier-head gen-
+eration sub-model. After being optimized on the held out data by the
+EM algorithm, our improved parser achieves 79.4% (F1 measure), as well
+as a 4.4% relative decrease in error rate on the Penn Chinese Treebank
+(CTB). Further analysis of performance improvement indicates that se-
+mantic knowledge is helpful for nominal compounds, coordination, and
+NV tagging disambiguation, as well as alleviating the sparseness of in-
+formation available in treebank.
+1 

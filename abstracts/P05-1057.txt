@@ -1,0 +1,17 @@
+
+We present a framework for word align-
+ment based on log-linear models. All
+knowledge sources are treated as feature
+functions, which depend on the source
+langauge sentence, the target language
+sentence and possible additional vari-
+ables. Log-linear models allow statis-
+tical alignment models to be easily ex-
+tended by incorporating syntactic infor-
+mation. In this paper, we use IBM Model
+3 alignment probabilities, POS correspon-
+dence, and bilingual dictionary cover-
+age as features. Our experiments show
+that log-linear models significantly out-
+perform IBM translation models.
+1 

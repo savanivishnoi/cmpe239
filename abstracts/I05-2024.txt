@@ -1,0 +1,24 @@
+
+We present a neural-network based self-
+organizing approach that enables vi-
+sualization of the information retrieval
+while at the same time improving its
+precision. In computer experiments,
+two-dimensional documentary maps in
+which queries and documents were
+mapped in topological order accord-
+ing to their similarities were created.
+The ranking of the results retrieved us-
+ing the maps was better than that of
+the results obtained using a conven-
+tional TFIDF method. Furthermore, the
+precision of the proposed method was
+much higher than that of the conven-
+tional TFIDF method when the process
+was focused on retrieving highly rel-
+evant documents, suggesting that the
+proposed method might be especially
+suited to information retrieval tasks in
+which precision is more critical than re-
+call.
+1 

@@ -1,0 +1,19 @@
+ 
+In this paper, we present an algorithm for ex-
+tracting translations of any given multiword 
+expression from parallel corpora. Given a 
+multiword expression to be translated, the 
+method involves extracting a short list of tar-
+get candidate words from parallel corpora 
+based on scores of normalized frequency, 
+generating possible translations and filtering 
+out common subsequences, and selecting the 
+top-n possible translations using the Dice 
+coefficient. Experiments show that our ap-
+proach outperforms the word alignment-
+based and other naive association-based me-
+thods. We also demonstrate that adopting the 
+extracted translations can significantly im-
+prove the performance of the Moses machine 
+translation system. 
+1 

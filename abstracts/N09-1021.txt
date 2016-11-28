@@ -1,0 +1,23 @@
+
+This paper introduces a new approach to rank-
+ing speech utterances by a system?s confi-
+dence that they contain a spoken word. Multi-
+ple alternate pronunciations, or degradations,
+of a query word?s phoneme sequence are hy-
+pothesized and incorporated into the ranking
+function. We consider two methods for hy-
+pothesizing these degradations, the best of
+which is constructed using factored phrase-
+based statistical machine translation. We show
+that this approach is able to significantly im-
+prove upon a state-of-the-art baseline tech-
+nique in an evaluation on held-out speech.
+We evaluate our systems using three differ-
+ent methods for indexing the speech utter-
+ances (using phoneme, phoneme multigram,
+and word recognition), and find that degrada-
+tion modeling shows particular promise for lo-
+cating out-of-vocabulary words when the un-
+derlying indexing system is constructed with
+standard word-based speech recognition.
+1 

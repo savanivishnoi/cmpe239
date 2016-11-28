@@ -1,0 +1,16 @@
+
+We study subjective language in social
+media and create Twitter-specific lexi-
+cons via bootstrapping sentiment-bearing
+terms from multilingual Twitter streams.
+Starting with a domain-independent, high-
+precision sentiment lexicon and a large
+pool of unlabeled data, we bootstrap
+Twitter-specific sentiment lexicons, us-
+ing a small amount of labeled data to
+guide the process. Our experiments on
+English, Spanish and Russian show that
+the resulting lexicons are effective for
+sentiment classification for many under-
+explored languages in social media.
+1 

@@ -1,0 +1,15 @@
+
+The DIPPER architecture is a collection
+of software agents for prototyping spoken
+dialogue systems. Implemented on top
+of the Open Agent Architecture (OAA),
+it comprises agents for speech input and
+output, dialogue management, and fur-
+ther supporting agents. We define a for-
+mal syntax and semantics for the DIP-
+PER information state update language.
+The language is independent of particular
+programming languages, and incorporates
+procedural attachments for access to ex-
+ternal resources using OAA.
+1 

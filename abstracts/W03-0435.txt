@@ -1,0 +1,15 @@
+
+We used the memory-based learner Timbl
+(Daelemans et al, 2002) to find names in En-
+glish and German newspaper text. A first sys-
+tem used only the training data, and a number
+of gazetteers. The results show that gazetteers
+are not beneficial in the English case, while
+they are for the German data. Type-token gen-
+eralization was applied, but also reduced per-
+formance. The second system used gazetteers
+derived from the unannotated corpus, as well as
+the ratio of capitalized versus uncapitalized use
+of each word. These strategies gave an increase
+in performance.
+1 

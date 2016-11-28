@@ -1,0 +1,38 @@
+
+creativeness / a pleasing field / of bloom
+Word associations are an important element
+of linguistic creativity. Traditional lexical
+knowledge bases such as WordNet formalize
+a limited set of systematic relations among
+words, such as synonymy, polysemy and hy-
+pernymy. Such relations maintain their sys-
+tematicity when composed into lexical chains.
+We claim that such relations cannot explain
+the type of lexical associations common in
+poetic text. We explore in this paper the
+usage of Word Association Norms (WANs)
+as an alternative lexical knowledge source
+to analyze linguistic computational creativity.
+We specifically investigate the Haiku poetic
+genre, which is characterized by heavy re-
+liance on lexical associations. We first com-
+pare the density of WAN-based word asso-
+ciations in a corpus of English Haiku po-
+ems to that of WordNet-based associations as
+well as in other non-poetic genres. These
+experiments confirm our hypothesis that the
+non-systematic lexical associations captured
+in WANs play an important role in poetic text.
+We then present Gaiku, a system to automat-
+ically generate Haikus from a seed word and
+using WAN-associations. Human evaluation
+indicate that generated Haikus are of lesser
+quality than human Haikus, but a high propor-
+tion of generated Haikus can confuse human
+readers, and a few of them trigger intriguing
+reactions.
+? Supported by Deutsche Telekom Laboratories at Ben-
+Gurion University of the Negev.
+? Supported by the Lynn and William Frankel Center for
+Computer Sciences.
+1 

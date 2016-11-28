@@ -1,0 +1,23 @@
+
+An emerging task in text understanding
+and generation is to categorize information
+as fact or opinion and to further attribute
+it to the appropriate source. Corpus an-
+notation schemes aim to encode such dis-
+tinctions for NLP applications concerned
+with such tasks, such as information ex-
+traction, question answering, summariza-
+tion, and generation. We describe an anno-
+tation scheme for marking the attribution
+of abstract objects such as propositions,
+facts and eventualities associated with dis-
+course relations and their arguments an-
+notated in the Penn Discourse TreeBank.
+The scheme aims to capture the source and
+degrees of factuality of the abstract ob-
+jects. Key aspects of the scheme are anno-
+tation of the text spans signalling the attri-
+bution, and annotation of features record-
+ing the source, type, scopal polarity, and
+determinacy of attribution.
+1 

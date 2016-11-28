@@ -1,0 +1,12 @@
+
+The appropriateness of paraphrases for words de-
+pends often on context: ?grab? can replace ?catch?
+in ?catch a ball?, but not in ?catch a cold?. Struc-
+tured Vector Space (SVS) (Erk and Pad?, 2008) is
+a model that computes word meaning in context
+in order to assess the appropriateness of such para-
+phrases. This paper investigates ?best-practice? pa-
+rameter settings for SVS, and it presents a method to
+obtain large datasets for paraphrase assessment from
+corpora with WSD annotation.
+1 

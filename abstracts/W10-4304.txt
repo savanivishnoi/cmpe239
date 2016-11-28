@@ -1,0 +1,28 @@
+
+This paper proposes a novel approach
+for predicting user satisfaction transitions
+during a dialogue only from the ratings
+given to entire dialogues, with the aim
+of reducing the cost of creating refer-
+ence ratings for utterances/dialogue-acts
+that have been necessary in conventional
+approaches. In our approach, we first
+train hidden Markov models (HMMs) of
+dialogue-act sequences associated with
+each overall rating. Then, we combine
+such rating-related HMMs into a single
+HMM to decode a sequence of dialogue-
+acts into state sequences representing to
+which overall rating each dialogue-act is
+most related, which leads to our rating pre-
+dictions. Experimental results in two di-
+alogue domains show that our approach
+can make reasonable predictions; it signif-
+icantly outperforms a baseline and nears
+the upper bound of a supervised approach
+in some evaluation criteria. We also
+show that introducing states that represent
+dialogue-act sequences that occur com-
+monly in all ratings into an HMM signifi-
+cantly improves prediction accuracy.
+1 

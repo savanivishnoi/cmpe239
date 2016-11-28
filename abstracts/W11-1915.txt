@@ -1,0 +1,14 @@
+
+This paper presents the coreference resolution
+system Poly-co submitted to the closed track
+of the CoNLL-2011 Shared Task. Our sys-
+tem integrates a multilayer perceptron classi-
+fier in a pipeline approach. We describe the
+heuristic used to select the pairs of corefer-
+ence candidates that are feeded to the network
+for training, and our feature selection method.
+The features used in our approach are based on
+similarity and identity measures, filtering in-
+formations, like gender and number, and other
+syntactic information.
+1 

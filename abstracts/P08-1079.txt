@@ -1,0 +1,22 @@
+
+We present a novel framework for the dis-
+covery and representation of general semantic
+relationships that hold between lexical items.
+We propose that each such relationship can be
+identified with a cluster of patterns that cap-
+tures this relationship. We give a fully unsu-
+pervised algorithm for pattern cluster discov-
+ery, which searches, clusters and merges high-
+frequency words-based patterns around ran-
+domly selected hook words. Pattern clusters
+can be used to extract instances of the corre-
+sponding relationships. To assess the quality
+of discovered relationships, we use the pattern
+clusters to automatically generate SAT anal-
+ogy questions. We also compare to a set of
+known relationships, achieving very good re-
+sults in both methods. The evaluation (done
+in both English and Russian) substantiates the
+premise that our pattern clusters indeed reflect
+relationships perceived by humans.
+1 

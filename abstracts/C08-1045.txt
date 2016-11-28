@@ -1,0 +1,21 @@
+
+To realize high quality machine transla-
+tion, we proposed a Non-Compositional
+Language Model, and developed a sen-
+tence pattern dictionary of 226,800 pat-
+tern pairs for Japanese compound and
+complex sentences consisting of 2 or 3
+clauses. In pattern generation from a par-
+allel corpus, Compositional Constituents
+that could be generalized were 74% of
+independent words, 24% of phrases and
+only 15% of clauses. This means that
+in Japanese-to-English MT, most of the
+translation results as shown in the parallel
+corpus could not be obtained by methods
+based on Compositional Semantics. This
+dictionary achieved a syntactic coverage of
+98% and a semantic coverage of 78%. It
+will substantially improve translation qual-
+ity.
+1 

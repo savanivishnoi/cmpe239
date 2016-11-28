@@ -1,0 +1,21 @@
+
+Recent work on automatically predicting the predominant sense of a word
+has proven to be promising (McCarthy et al, 2004). It can be applied (as a
+first sense heuristic) to Word Sense Disambiguation (WSD) tasks, without
+needing expensive hand-annotated data sets. Due to the big skew in the
+sense distribution of many words (Yarowsky and Florian, 2002), the First
+Sense heuristic for WSD is often hard to beat. However, the local context
+of an ambiguous word can give important clues to which of its senses was
+intended. The sense ranking method proposed by McCarthy et al (2004)
+uses a distributional similarity thesaurus. The k nearest neighbours in the
+thesaurus are used to establish the predominant sense of a word. In this
+paper we report on a first investigation on how to use the grammatical
+relations the target word is involved with, in order to select a subset of
+the neighbours from the automatically created thesaurus, to take the local
+context into account. This unsupervised method is quantitatively evalu-
+ated on SemCor. We found a slight improvement in precision over using
+the predicted first sense. Finally, we discuss strengths and weaknesses of
+the method and suggest ways to improve the results in the future.
+129
+130 Koeling and McCarthy
+1 

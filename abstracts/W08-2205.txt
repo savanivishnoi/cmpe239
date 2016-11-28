@@ -1,0 +1,18 @@
+
+One of the big challenges in understanding text, i.e., constructing an over-
+all coherent representation of the text, is that much information needed
+in that representation is unstated (implicit). Thus, in order to ?fill in
+the gaps? and create an overall representation, language processing sys-
+tems need a large amount of world knowledge, and creating those knowl-
+edge resources remains a fundamental challenge. In our current work,
+we are seeking to augment WordNet as a knowledge resource for lan-
+guage understanding in several ways: adding in formal versions of its
+word sense definitions (glosses); classifying the morphosemantic links
+between nouns and verbs; encoding a small number of ?core theories?
+about WordNet?s most commonly used terms; and adding in simple rep-
+resentations of scripts. Although this is still work in progress, we describe
+our experiences so far with what we hope will be a significantly improved
+resource for the deep understanding of language.
+45
+46 Clark, Fellbaum, Hobbs, Harrison, Murray, and Thompson
+1 

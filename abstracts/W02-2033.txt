@@ -1,0 +1,24 @@
+
+Words differ in the subcategorisation frames in
+which they occur, and there is a strong cor-
+relation between the semantic arguments of a
+given word and its subcategorisation frame, so
+that all its arguments should be included in its
+subcategorisation frame. One problem is posed
+by the ambiguity between locative prepositional
+phrases as arguments of a verb or adjuncts.
+As the semantics for the verb is the same in
+both cases, it is difficult to differentiate them,
+and to learn the appropriate subcategorisation
+frame. We propose an approach that uses se-
+mantically motivated preposition selection and
+frequency information to determine if a locative
+PP is an argument or an adjunct. In order to
+test this approach, we perform an experiment
+using a computational learning system that re-
+ceives as input utterances annotated with log-
+ical forms. The results obtained indicate that
+the learner successfully distinguishes between
+arguments (obligatory and optional) and ad-
+juncts.
+1 

@@ -1,0 +1,29 @@
+
+Using keyword overlaps to identify pla-
+giarism can result in many false negatives
+and positives: substitution of synonyms
+for each other reduces the similarity be-
+tween works, making it difficult to rec-
+ognize plagiarism; overlap in ambiguous
+keywords can falsely inflate the similar-
+ity of works that are in fact different in
+content. Plagiarism detection based on
+verbatim similarity of works can be ren-
+dered ineffective when works are para-
+phrased even in superficial and immate-
+rial ways. Considering linguistic informa-
+tion related to creative aspects of writing
+can improve identification of plagiarism
+by adding a crucial dimension to evalu-
+ation of similarity: documents that share
+linguistic elements in addition to content
+are more likely to be copied from each
+other. In this paper, we present a set of
+low-level syntactic structures that capture
+creative aspects of writing and show that
+information about linguistic similarities
+of works improves recognition of plagia-
+rism (over tfidf-weighted keywords alone)
+when combined with similarity measure-
+ments based on tfidf-weighted keywords.
+1 

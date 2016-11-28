@@ -1,0 +1,14 @@
+
+We present a novel approach to automati-
+cally annotate images using associated text.
+We detect and classify all entities (persons
+and objects) in the text after which we de-
+termine the salience (the importance of an
+entity in a text) and visualness (the extent to
+which an entity can be perceived visually)
+of these entities. We combine these mea-
+sures to compute the probability that an en-
+tity is present in the image. The suitability
+of our approach was successfully tested on
+100 image-text pairs of Yahoo! News.
+1 

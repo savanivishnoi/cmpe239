@@ -1,0 +1,21 @@
+
+Taxonomies, such as Library of Congress Subject
+Headings and Open Directory Project, are widely
+used to support browsing-style information access
+in document collections. We call them browsing
+taxonomies. Most existing browsing taxonomies
+are manually constructed thus they could not eas-
+ily adapt to arbitrary document collections. In this
+paper, we investigate both automatic and interactive
+techniques to derive taxonomies from scratch for ar-
+bitrary document collections. Particular, we focus
+on encoding user feedback in taxonomy construc-
+tion process to handle task-specification rising from
+a given document collection. We also addresses the
+problem of path inconsistency due to local relation
+recognition in existing taxonomy construction algo-
+rithms. The user studies strongly suggest that the
+proposed approach successfully resolve task specifi-
+cation and path inconsistency in taxonomy construc-
+tion.
+1 

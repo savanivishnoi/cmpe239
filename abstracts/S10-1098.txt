@@ -1,0 +1,19 @@
+ 
+ 
+In this paper, we describe the system we de-
+veloped for the SemEval-2010 task of disam-
+biguating sentiment ambiguous adjectives 
+(hereinafter referred to SAA). Our system cre-
+ated a new word library named SAA-Oriented 
+Library consisting of positive words, negative 
+words, negative words related to SAA, posi-
+tive words related to SAA, and inverse words, 
+etc. Based on the syntactic parsing, we ana-
+lyzed the relationship between SAA and the 
+keywords and handled other special processes 
+by extracting such words in the relevant sen-
+tences to disambiguate sentiment ambiguous 
+adjectives. Our micro average accuracy is 
+0.942, which puts our system in the first place. 
+ 
+1 

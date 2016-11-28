@@ -1,0 +1,20 @@
+
+This paper presents an approach to the
+question whether it is possible to construct
+a parser based on ideas from case-based
+reasoning. Such a parser would employ
+a partial analysis of the input sentence
+to select a (nearly) complete syntax tree
+and then adapt this tree to the input sen-
+tence. The experiments performed on Ger-
+man data from the Tu?ba-D/Z treebank and
+the KaRoPars partial parser show that a
+wide range of levels of generality can be
+reached, depending on which types of in-
+formation are used to determine the simi-
+larity between input sentence and training
+sentences. The results are such that it is
+possible to construct a case-based parser.
+The optimal setting out of those presented
+here need to be determined empirically.
+1 

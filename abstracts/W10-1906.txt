@@ -1,0 +1,24 @@
+ 
+Based on linguistic generalizations, we 
+enhanced an existing semantic processor, 
+SemRep, for effective interpretation of a 
+wide range of patterns used to express 
+arguments of nominalization in clinically 
+oriented biomedical text. Nominaliza-
+tions are pervasive in the scientific litera-
+ture, yet few text mining systems ade-
+quately address them, thus missing a 
+wealth of information. We evaluated the 
+system by assessing the algorithm inde-
+pendently and by determining its contri-
+bution to SemRep generally. The first 
+evaluation demonstrated the strength of 
+the method through an F-score of 0.646 
+(P=0.743, R=0.569), which is more than 
+20 points higher than the baseline. The 
+second evaluation showed that overall 
+SemRep results were increased to F-score 
+0.689 (P=0.745, R=0.640), approximate-
+ly 25 points better than processing with-
+out nominalizations. 
+1 

@@ -1,0 +1,23 @@
+
+This paper describes LIMSI?s submissions to
+the Sixth Workshop on Statistical Machine
+Translation. We report results for the French-
+English and German-English shared transla-
+tion tasks in both directions. Our systems
+use n-code, an open source Statistical Ma-
+chine Translation system based on bilingual
+n-grams. For the French-English task, we fo-
+cussed on finding efficient ways to take ad-
+vantage of the large and heterogeneous train-
+ing parallel data. In particular, using a sim-
+ple filtering strategy helped to improve both
+processing time and translation quality. To
+translate from English to French and Ger-
+man, we also investigated the use of the
+SOUL language model in Machine Trans-
+lation and showed significant improvements
+with a 10-gram SOUL model. We also briefly
+report experiments with several alternatives to
+the standard n-best MERT procedure, leading
+to a significant speed-up.
+1 

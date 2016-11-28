@@ -1,0 +1,17 @@
+
+Pivoting on bilingual parallel corpora is a
+popular approach for paraphrase acquisi-
+tion. Although such pivoted paraphrase
+collections have been successfully used to
+improve the performance of several dif-
+ferent NLP applications, it is still difficult
+to get an intrinsic estimate of the qual-
+ity and coverage of the paraphrases con-
+tained in these collections. We present
+ParaQuery, a tool that helps a user inter-
+actively explore and characterize a given
+pivoted paraphrase collection, analyze its
+utility for a particular domain, and com-
+pare it to other popular lexical similarity
+resources ? all within a single interface.
+1 

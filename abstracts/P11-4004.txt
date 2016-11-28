@@ -1,0 +1,19 @@
+
+We present a mobile touchable application for
+online topic graph extraction and exploration
+of web content. The system has been imple-
+mented for operation on an iPad. The topic
+graph is constructed from N web snippets
+which are determined by a standard search en-
+gine. We consider the extraction of a topic
+graph as a specific empirical collocation ex-
+traction task where collocations are extracted
+between chunks. Our measure of association
+strength is based on the pointwise mutual in-
+formation between chunk pairs which explic-
+itly takes their distance into account. An ini-
+tial user evaluation shows that this system is
+especially helpful for finding new interesting
+information on topics about which the user has
+only a vague idea or even no idea at all.
+1 

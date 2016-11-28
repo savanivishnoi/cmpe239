@@ -1,0 +1,26 @@
+ 
+This paper focuses on the Web-based 
+English-Chinese OOV term translation 
+pattern, and emphasizes particularly on 
+the translation selection strategy based 
+on the fusion of multiple features and 
+the ranking mechanism based on Rank-
+ing Support Vector Machine (Ranking 
+SVM). By utilizing the CoNLL2003 
+corpus for the English Named Entity 
+Recognition (NER) task and selected 
+new terms, the experiments based on 
+different data sources show the consis-
+tent results. Our OOV term translation 
+model can ?filter? the most possible 
+translation candidates with better abili-
+ty. From the experimental results for 
+combining our OOV term translation 
+model with English-Chinese Cross-
+Language Information Retrieval (CLIR) 
+on the data sets of Text Retrieval Eval-
+uation Conference (TREC), it can be 
+found that the obvious performance 
+improvement for both query translation 
+and retrieval can also be obtained. 
+1 

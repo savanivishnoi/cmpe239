@@ -1,0 +1,27 @@
+ 
+Part of Speech (POS) tagging and Named Ent-
+ity (NE) tagging have become important com-
+ponents of effective text analysis. In this 
+paper, we propose a bootstrapped model that 
+involves four levels of text processing for Ur-
+du. We show that increasing the training data 
+for POS learning by applying bootstrapping 
+techniques improves NE tagging results. Our 
+model overcomes the limitation imposed by 
+the availability of limited ground truth data 
+required for training a learning model. Both 
+our POS tagging and NE tagging models are 
+based on the Conditional Random Field 
+(CRF) learning approach. To further enhance 
+the performance, grammar rules and lexicon 
+lookups are applied on the final output to cor-
+rect any spurious tag assignments. We also 
+propose a model for word boundary segmen-
+tation where a bigram HMM model is trained 
+for character transitions among all positions in 
+each word. The generated words are further 
+processed using a probabilistic language mod-
+el. All models use a hybrid approach that 
+combines statistical models with hand crafted 
+grammar rules. 
+1 

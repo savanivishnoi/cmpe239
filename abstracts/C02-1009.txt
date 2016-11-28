@@ -1,0 +1,25 @@
+
+Most current sentence alignment approaches adopt
+sentence length and cognate as the alignment features;
+and they are mostly trained and tested in the docu-
+ments with the same style. Since the length distribu-
+tion, alignment-type distribution (used by length-based
+approaches) and cognate frequency vary significantly
+across texts with different styles, the length-based ap-
+proaches fail to achieve similar performance when tested
+in corpora of different styles. The experiments show that
+the performance in F -measure could drop from 98.2%
+to 85.6% when a length-based approach is trained by a
+technical manual and then tested on a general magazine.
+Since a large percentage of content words in the source
+text would be translated into the corresponding trans-
+lation duals to preserve the meaning in the target text,
+transfer lexicons are usually regarded as more reliable
+cues for aligning sentences when the alignment task is
+performed by human. To enhance the robustness, a
+robust statistical model based on both transfer lexicons
+and sentence lengths are proposed in this paper. Af-
+ter integrating the transfer lexicons into the model, a
+60% F -measure error reduction (from 14.4% to 5.8%) is
+observed.
+1 

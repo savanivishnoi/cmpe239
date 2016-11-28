@@ -1,0 +1,17 @@
+
+We propose a methodology for investigat-
+ing how well NLP systems handle mean-
+ing preserving syntactic variations. We
+start by presenting a method for the semi
+automated creation of a benchmark where
+entailment is mediated solely by meaning
+preserving syntactic variations. We then
+use this benchmark to compare a seman-
+tic role labeller and two grammar based
+RTE systems. We argue that the proposed
+methodology (i) supports a modular eval-
+uation of the ability of NLP systems to
+handle the syntax/semantic interface and
+(ii) permits focused error mining and er-
+ror analysis.
+1 

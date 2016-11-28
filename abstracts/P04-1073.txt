@@ -1,0 +1,15 @@
+ 
+QA-by-Dossier-with-Constraints is a new ap-
+proach to Question Answering whereby candi-
+date answers? confidences are adjusted by 
+asking auxiliary questions whose answers con-
+strain the original answers.  These constraints 
+emerge naturally from the domain of interest, 
+and enable application of real-world knowledge 
+to QA.  We show that our approach signifi-
+cantly improves system performance (75% rela-
+tive improvement in F-measure on select 
+question types) and can create a ?dossier? of in-
+formation about the subject matter in the origi-
+nal question. 
+1 

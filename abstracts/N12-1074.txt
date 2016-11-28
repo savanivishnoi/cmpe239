@@ -1,0 +1,20 @@
+
+Microblogging networks serve as vehicles for
+reaching and influencing users. Predicting
+whether a message will elicit a user response
+opens the possibility of maximizing the viral-
+ity, reach and effectiveness of messages and
+ad campaigns on these networks. We propose
+a discriminative model for predicting the like-
+lihood of a response or a retweet on the Twit-
+ter network. The approach uses features de-
+rived from various sources, such as the lan-
+guage used in the tweet, the user?s social net-
+work and history. The feature design process
+leverages aggregate statistics over the entire
+social network to balance sparsity and infor-
+mativeness. We use real-world tweets to train
+models and empirically show that they are ca-
+pable of generating accurate predictions for a
+large number of tweets.
+1 

@@ -1,0 +1,19 @@
+
+The UOW submissions to the Semantic Tex-
+tual Similarity task at SemEval-2012 use a
+supervised machine learning algorithm along
+with features based on lexical, syntactic and
+semantic similarity metrics to predict the se-
+mantic equivalence between a pair of sen-
+tences. The lexical metrics are based on word-
+overlap. A shallow syntactic metric is based
+on the overlap of base-phrase labels. The
+semantically informed metrics are based on
+the preservation of named entities and on the
+alignment of verb predicates and the overlap
+of argument roles using inexact matching. Our
+submissions outperformed the official base-
+line, with our best system ranked above aver-
+age, but the contribution of the semantic met-
+rics was not conclusive.
+1 

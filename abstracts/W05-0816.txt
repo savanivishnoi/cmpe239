@@ -1,0 +1,21 @@
+
+Several algorithms are available for sen-
+tence alignment, but there is a lack of
+systematic evaluation and comparison of
+these algorithms under different condi-
+tions. In most cases, the factors which
+can significantly affect the performance
+of a sentence alignment algorithm have
+not been considered while evaluating. We
+have used a method for evaluation that
+can give a better estimate about a sen-
+tence alignment algorithm?s performance,
+so that the best one can be selected. We
+have compared four approaches using this
+method. These have mostly been tried
+on European language pairs. We have
+evaluated manually-checked and validated
+English-Hindi aligned parallel corpora un-
+der different conditions. We also suggest
+some guidelines on actual alignment.
+1 

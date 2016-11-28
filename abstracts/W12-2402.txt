@@ -1,0 +1,29 @@
+
+We describe an open information extraction
+system for biomedical text based on NELL
+(the Never-Ending Language Learner) (Carl-
+son et al, 2010), a system designed for ex-
+traction from Web text. NELL uses a cou-
+pled semi-supervised bootstrapping approach
+to learn new facts from text, given an initial
+ontology and a small number of ?seeds? for
+each ontology category. In contrast to previ-
+ous applications of NELL, in our task the ini-
+tial ontology and seeds are automatically de-
+rived from existing resources. We show that
+NELL?s bootstrapping algorithm is suscepti-
+ble to ambiguous seeds, which are frequent in
+the biomedical domain. Using NELL to ex-
+tract facts from biomedical text quickly leads
+to semantic drift. To address this problem, we
+introduce a method for assessing seed qual-
+ity, based on a larger corpus of data derived
+from the Web. In our method, seed quality
+is assessed at each iteration of the bootstrap-
+ping process. Experimental results show sig-
+nificant improvements over NELL?s original
+bootstrapping algorithm on two types of tasks:
+learning terms from biomedical categories,
+and named-entity recognition for biomedical
+entities using a learned lexicon.
+1 

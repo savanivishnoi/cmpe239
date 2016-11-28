@@ -1,0 +1,25 @@
+
+Lexical mismatch is a problem that con-
+founds automatic question answering sys-
+tems. While existing lexical ontologies such
+as WordNet have been successfully used to
+match verbal synonyms (e.g., beat and de-
+feat) and common nouns (tennis is-a sport),
+their coverage of proper nouns is less ex-
+tensive. Question answering depends sub-
+stantially on processing named entities, and
+thus it would be of significant benefit if
+lexical ontologies could be enhanced with
+additional hypernymic (i.e., is-a) relations
+that include proper nouns, such as Edward
+Teach is-a pirate. We demonstrate how a re-
+cently developed statistical approach to min-
+ing such relations can be tailored to iden-
+tify named entity hyponyms, and how as a
+result, superior question answering perfor-
+mance can be obtained. We ranked candi-
+date hyponyms on 75 categories of named
+entities and attained 53% mean average pre-
+cision. On TREC QA data our method pro-
+duces a 9% improvement in performance.
+1 

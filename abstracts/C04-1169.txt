@@ -1,0 +1,22 @@
+
+In the development of machine learning sys-
+tems for identification of reference chains,
+hand-annotated corpora play a crucial role.
+This paper concerns the question of how
+predicative NPs should be annotated w.r.t.
+coreference in corpora for such systems.
+This question highlights the tension that
+sometimes appears in the development of
+corpora between linguistic considerations
+and the aim for perfection on the one
+hand and practical applications and the aim
+for efficiency on the other. Many current
+projects that seek to identify coreferential
+links automatically, assume an annotation
+strategy which instructs the annotator to
+mark a predicative NP as coreferential with
+its subject if it is part of a positive sentence.
+This paper argues that such a representa-
+tion is not linguistically plausible, and that
+it will fail to generate an optimal result.
+1 

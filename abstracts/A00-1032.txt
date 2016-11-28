@@ -1,0 +1,14 @@
+ 
+This paper proposes a framework of language inde- 
+pendent morphological nalysis and mainly concen- 
+trate on tokenization, the first process of morpholog- 
+ical analysis. Although tokenization is usually not 
+regarded as a difficult task in most segmented lan- 
+guages uch as English, there are a number of prob- 
+lems in achieving precise treatment oflexical entries. 
+We first introduce the concept of morpho-fragments, 
+which are intermediate units between characters and 
+lexical entries. We describe our approach to resolve 
+problems arising in tokenization so as to attain a 
+language independent morphological nalyzer. 
+1 

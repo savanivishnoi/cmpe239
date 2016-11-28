@@ -1,0 +1,19 @@
+
+In this paper we report the results of a pi-
+lot study of basing readability prediction
+on training data annotated with reading
+time. Although reading time is known to
+be a good metric for predicting readabil-
+ity, previous work has mainly focused on
+annotating the training data with subjec-
+tive readability scores usually on a 1 to
+5 scale. Instead of the subjective assess-
+ments of complexity, we use the more ob-
+jective measure of reading time. We create
+and evaluate a predictor using the binary
+classification problem; the predictor iden-
+tifies the better of two documents correctly
+with 68.55% accuracy. We also report a
+comparison of predictors based on reading
+time and on readability scores.
+1 

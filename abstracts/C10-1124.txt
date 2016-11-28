@@ -1,0 +1,14 @@
+
+A distributed system is described that re-
+liably mines parallel text from large cor-
+pora. The approach can be regarded
+as cross-language near-duplicate detec-
+tion, enabled by an initial, low-quality
+batch translation. In contrast to other ap-
+proaches which require specialized meta-
+data, the system uses only the textual con-
+tent of the documents. Results are pre-
+sented for a corpus of over two billion web
+pages and for a large collection of digi-
+tized public-domain books.
+1 

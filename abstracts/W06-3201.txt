@@ -1,0 +1,34 @@
+ 
+This paper presents a fully automated lin-
+guistic approach to measuring distance 
+between phonemes across languages. In 
+this approach, a phoneme is represented 
+by a feature matrix where feature catego-
+ries are fixed, hierarchically related and 
+binary-valued; feature categorization ex-
+plicitly addresses allophonic variation and 
+feature values are weighted based on their 
+relative prominence derived from lexical 
+frequency measurements. The relative 
+weight of feature values is factored into 
+phonetic distance calculation. Two pho-
+nological distances are statistically de-
+rived from lexical frequency 
+measurements. The phonetic distance is 
+combined with the phonological distances 
+to produce a single metric that quantifies 
+cross-language phoneme distance. 
+The performances of target-language 
+phoneme HMMs constructed solely with 
+source language HMMs, first selected by 
+the combined phonetic and phonological 
+metric and then by a data-driven, acous-
+tics distance-based method, are compared 
+in context-independent automatic speech 
+recognition (ASR) experiments. Results 
+show that this approach consistently per-
+forms equivalently to the acoustics-based 
+approach, confirming its effectiveness in  
+estimating cross-language similarity be-
+tween phonemes in an ASR environment. 
+1 

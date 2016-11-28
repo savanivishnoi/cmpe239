@@ -1,0 +1,22 @@
+
+In this paper, we apply the annota-
+tion scheme design methodology defined
+in (Bunt, 2010) and demonstrate its use
+for generating a mapping from an exist-
+ing annotation scheme to a representa-
+tion in GrAF format. The most impor-
+tant features of this methodology are (1)
+the distinction of the abstract and con-
+crete syntax of an annotation language;
+(2) the specification of a formal seman-
+tics for the abstract syntax; and (3) the
+formalization of the relation between ab-
+stract and concrete syntax, which guar-
+antees that any concrete syntax inherits
+the semantics of the abstract syntax, and
+thus guarantees meaning-preserving map-
+pings between representation formats. By
+way of illustration, we apply this map-
+ping strategy to annotations from ISO-
+TimeML, PropBank, and FrameNet.
+1 

@@ -1,0 +1,24 @@
+ 
+It is shown that basic language processes such 
+as the production of free word associations and 
+the generation of synonyms can be simulated 
+using statistical models that analyze the distri-
+bution of words in large text corpora. Accord-
+ing to the law of association by contiguity, the 
+acquisition of word associations can be ex-
+plained by Hebbian learning. The free word as-
+sociations as produced by subjects on presenta-
+tion of single stimulus words can thus be pre-
+dicted by applying first-order statistics to the 
+frequencies of word co-occurrences as observed 
+in texts. The generation of synonyms can also 
+be conducted on co-occurrence data but re-
+quires second-order statistics. The reason is that 
+synonyms rarely occur together but appear in 
+similar lexical neighborhoods. Both approaches 
+are systematically compared and are validated 
+on empirical data. It turns out that for both 
+tasks the performance of the statistical system is 
+comparable to the performance of human sub-
+jects. 
+1 

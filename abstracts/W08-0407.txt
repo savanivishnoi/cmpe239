@@ -1,0 +1,20 @@
+
+We describe experiments on discriminating
+English to French phrase-based translations
+through the use of syntactic ?coupling? fea-
+tures. Using a robust rule-based dependency
+parser, we parse both the English source and
+the French translation candidates from the n-
+best list returned by our phrase-based system;
+we compute for each candidate a number of
+coupling features, that is, values that depend
+on the amount of alignment between edges in
+the source and target structures, and discrim-
+inatively train the weights of these coupling
+features. We compare different feature combi-
+nations. Although the improvements in terms
+of automatic measures such as Bleu and Nist
+are inconclusive, an initial human assessment
+of the results appears to show certain qualita-
+tive improvements.
+1 

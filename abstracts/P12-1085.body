@@ -1,0 +1,17 @@
+
+Large e-commerce enterprises feature mil-
+lions of items entered daily by a large vari-
+ety of sellers. While some sellers provide
+rich, structured descriptions of their items, a
+vast majority of them provide unstructured
+natural language descriptions. In the paper
+we present a 2 steps method for structuring
+items into descriptive properties. The first step
+consists in unsupervised property discovery
+and extraction. The second step involves su-
+pervised property synonym discovery using a
+maximum entropy based clustering algorithm.
+We evaluate our method on a year worth of e-
+commerce data and show that it achieves ex-
+cellent precision with good recall.
+1 

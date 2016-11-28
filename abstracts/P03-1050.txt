@@ -1,0 +1,27 @@
+
+This paper presents an unsupervised learn-
+ing approach to building a non-English
+(Arabic) stemmer. The stemming model
+is based on statistical machine translation
+and it uses an English stemmer and a small
+(10K sentences) parallel corpus as its sole
+training resources. No parallel text is
+needed after the training phase. Mono-
+lingual, unannotated text can be used to
+further improve the stemmer by allow-
+ing it to adapt to a desired domain or
+genre. Examples and results will be given
+for Arabic , but the approach is applica-
+ble to any language that needs affix re-
+moval. Our resource-frugal approach re-
+sults in 87.5% agreement with a state of
+the art, proprietary Arabic stemmer built
+using rules, affix lists, and human anno-
+tated text, in addition to an unsupervised
+component. Task-based evaluation using
+Arabic information retrieval indicates an
+improvement of 22-38% in average pre-
+cision over unstemmed text, and 96% of
+the performance of the proprietary stem-
+mer above.
+1 

@@ -1,0 +1,27 @@
+ion Summarization for Managing the Biomedical  
+Research Literature 
+ 
+ 
+Marcelo Fiszman Thomas C. Rindflesch Halil Kilicoglu 
+Lister Hill National Center for Biomedical Communications 
+National Library of Medicine 
+Bethesda, MD 20894 
+{fiszman|tcr|halil}@nlm.nih.gov 
+ 
+ 
+Abstract 
+We explore a semantic abstraction approach 
+to automatic summarization in the biomedical 
+domain. The approach relies on a semantic 
+processor that functions as the source inter-
+preter and produces a list of predications. A 
+transformation stage then generalizes and 
+condenses this list, ultimately generating a 
+conceptual condensate for a disorder input 
+topic. The final condensate is displayed in 
+graphical form. We provide a set of principles 
+for the transformation stage and describe the 
+application of this approach to multidocument 
+input. Finally, we examine the characteristics 
+and quality of the condensates produced. 
+1 

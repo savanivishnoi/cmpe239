@@ -1,0 +1,14 @@
+
+This paper presents a novel approach to
+the task of semantic role labelling for event
+nominalisations, which make up a consider-
+able fraction of predicates in running text,
+but are underrepresented in terms of train-
+ing data and difficult to model. We propose
+to address this situation by data expansion.
+We construct a model for nominal role la-
+belling solely from verbal training data. The
+best quality results from salvaging gram-
+matical features where applicable, and gen-
+eralising over lexical heads otherwise.
+1 

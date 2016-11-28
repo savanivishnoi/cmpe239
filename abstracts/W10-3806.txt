@@ -1,0 +1,25 @@
+
+With the steadily increasing demand for 
+high-quality translation, the localisation 
+industry is constantly searching for tech-
+nologies that would increase translator 
+throughput, with the current focus on the 
+use of high-quality Statistical Machine 
+Translation (SMT) as a supplement to the 
+established Translation Memory (TM) 
+technology. In this paper we present a 
+novel modular approach that utilises 
+state-of-the-art sub-tree alignment to pick 
+out pre-translated segments from a TM 
+match and seed with them an SMT sys-
+tem to produce a final translation. We 
+show that the presented system can out-
+perform pure SMT when a good TM 
+match is found. It can also be used in a 
+Computer-Aided Translation (CAT) envi-
+ronment to present almost perfect transla-
+tions to the human user with markup 
+highlighting the segments of the transla-
+tion that need to be checked manually for 
+correctness.
+1. 

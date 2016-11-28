@@ -1,0 +1,20 @@
+
+Conditional random fields and other graphi-
+cal models have achieved state of the art re-
+sults in a variety of tasks such as coreference,
+relation extraction, data integration, and pars-
+ing. Increasingly, practitioners are using mod-
+els with more complex structure?higher tree-
+width, larger fan-out, more features, and more
+data?rendering even approximate inference
+methods such as MCMC inefficient. In this
+paper we propose an alternative MCMC sam-
+pling scheme in which transition probabilities
+are approximated by sampling from the set
+of relevant factors. We demonstrate that our
+method converges more quickly than a tradi-
+tional MCMC sampler for both marginal and
+MAP inference. In an author coreference task
+with over 5 million mentions, we achieve a 13
+times speedup over regular MCMC inference.
+1 

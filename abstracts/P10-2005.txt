@@ -1,0 +1,20 @@
+
+We present a novel method to improve
+word alignment quality and eventually the
+translation performance by producing and
+combining complementary word align-
+ments for low-resource languages. Instead
+of focusing on the improvement of a single
+set of word alignments, we generate mul-
+tiple sets of diversified alignments based
+on different motivations, such as linguis-
+tic knowledge, morphology and heuris-
+tics. We demonstrate this approach on an
+English-to-Pashto translation task by com-
+bining the alignments obtained from syn-
+tactic reordering, stemming, and partial
+words. The combined alignment outper-
+forms the baseline alignment, with signif-
+icantly higher F-scores and better transla-
+tion performance.
+1 

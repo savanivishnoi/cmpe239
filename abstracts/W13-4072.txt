@@ -1,0 +1,18 @@
+
+We describe our experience with engineer-
+ing the dialog state tracker for the first
+Dialog State Tracking Challenge (DSTC).
+Dialog trackers are one of the essential
+components of dialog systems which are
+used to infer the true user goal from the
+speech processing results. We explain the
+main parts of our tracker: the observation
+model, the belief refinement model, and
+the belief transformation model. We also
+report experimental results on a number
+of approaches to the models, and compare
+the overall performance of our tracker to
+other submitted trackers. An extended ver-
+sion of this paper is available as a technical
+report (Kim et al, 2013).
+1 

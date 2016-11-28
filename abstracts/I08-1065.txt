@@ -1,0 +1,17 @@
+
+Aiming at acquiring semantic relations be-
+tween events from a large corpus, this paper
+proposes several extensions to a state-of-the-
+art method originally designed for entity re-
+lation extraction, reporting on the present re-
+sults of our experiments on a Japanese Web
+corpus. The results show that (a) there are
+indeed specific cooccurrence patterns use-
+ful for event relation acquisition, (b) the
+use of cooccurrence samples involving ver-
+bal nouns has positive impacts on both re-
+call and precision, and (c) over five thou-
+sand relation instances are acquired from a
+500M-sentence Web corpus with a precision
+of about 66% for action-effect relations.
+1 

@@ -1,0 +1,13 @@
+
+This paper investigates stacking and voting
+methods for combining strong classifiers like
+boosting, SVM, and TBL, on the named-entity
+recognition task. We demonstrate several ef-
+fective approaches, culminating in a model that
+achieves error rate reductions on the develop-
+ment and test sets of 63.6% and 55.0% (En-
+glish) and 47.0% and 51.7% (German) over the
+CoNLL-2003 standard baseline respectively,
+and 19.7% over a strong AdaBoost baseline
+model from CoNLL-2002.
+1 

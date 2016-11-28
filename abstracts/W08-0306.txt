@@ -1,0 +1,13 @@
+
+Word alignments that violate syntactic cor-
+respondences interfere with the extraction
+of string-to-tree transducer rules for syntax-
+based machine translation. We present an
+algorithm for identifying and deleting incor-
+rect word alignment links, using features of
+the extracted rules. We obtain gains in both
+alignment quality and translation quality in
+Chinese-English and Arabic-English transla-
+tion experiments relative to a GIZA++ union
+baseline.
+1 

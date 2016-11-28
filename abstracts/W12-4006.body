@@ -1,0 +1,18 @@
+
+Recent work on Textual Entailment has shown
+a crucial role of knowledge to support entail-
+ment inferences. However, it has also been
+demonstrated that currently available entail-
+ment rules are still far from being optimal. We
+propose a methodology for the automatic ac-
+quisition of large scale context-rich entailment
+rules from Wikipedia revisions, taking advan-
+tage of the syntactic structure of entailment
+pairs to define the more appropriate linguis-
+tic constraints for the rule to be successfully
+applicable. We report on rule acquisition ex-
+periments on Wikipedia, showing that it en-
+ables the creation of an innovative (i.e. ac-
+quired rules are not present in other available
+resources) and good quality rule repository.
+1 

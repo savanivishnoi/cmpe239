@@ -1,0 +1,25 @@
+
+We propose a novel algorithm for inducing seman-
+tic taxonomies. Previous algorithms for taxonomy
+induction have typically focused on independent
+classifiers for discovering new single relationships
+based on hand-constructed or automatically discov-
+ered textual patterns. By contrast, our algorithm
+flexibly incorporates evidence from multiple clas-
+sifiers over heterogenous relationships to optimize
+the entire structure of the taxonomy, using knowl-
+edge of a word?s coordinate terms to help in deter-
+mining its hypernyms, and vice versa. We apply our
+algorithm on the problem of sense-disambiguated
+noun hyponym acquisition, where we combine the
+predictions of hypernym and coordinate term clas-
+sifiers with the knowledge in a preexisting seman-
+tic taxonomy (WordNet 2.1). We add 10, 000 novel
+synsets to WordNet 2.1 at 84% precision, a rela-
+tive error reduction of 70% over a non-joint algo-
+rithm using the same component classifiers. Fi-
+nally, we show that a taxonomy built using our al-
+gorithm shows a 23% relative F-score improvement
+over WordNet 2.1 on an independent testset of hy-
+pernym pairs.
+1 

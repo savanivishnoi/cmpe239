@@ -1,0 +1,25 @@
+
+We introduce BLANC, a family of dy-
+namic, trainable evaluation metrics for ma-
+chine translation. Flexible, parametrized
+models can be learned from past data and
+automatically optimized to correlate well
+with human judgments for different cri-
+teria (e.g. adequacy, fluency) using dif-
+ferent correlation measures. Towards this
+end, we discuss ACS (all common skip-
+ngrams), a practical algorithm with train-
+able parameters that estimates reference-
+candidate translation overlap by comput-
+ing a weighted sum of all common skip-
+ngrams in polynomial time. We show that
+the BLEU and ROUGE metric families are
+special cases of BLANC, and we compare
+correlations with human judgments across
+these three metric families. We analyze the
+algorithmic complexity of ACS and argue
+that it is more powerful in modeling both
+local meaning and sentence-level structure,
+while offering the same practicality as the
+established algorithms it generalizes.
+1 

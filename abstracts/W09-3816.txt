@@ -1,0 +1,19 @@
+
+We present an asymmetric approach to
+a run-time combination of two parsers
+where one component serves as a predic-
+tor to the other one. Predictions are inte-
+grated by means of weighted constraints
+and therefore are subject to preferential
+decisions. Previously, the same architec-
+ture has been successfully used with pre-
+dictors providing partial or inferior infor-
+mation about the parsing problem. It has
+now been applied to a situation where the
+predictor produces exactly the same type
+of information at a fully competitive qual-
+ity level. Results show that the combined
+system outperforms its individual compo-
+nents, even though their performance in
+isolation is already fairly high.
+1 

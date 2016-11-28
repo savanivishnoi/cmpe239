@@ -1,0 +1,15 @@
+ 
+This paper describes MIMIC, an adaptive mixed initia- 
+tive spoken dialogue system that provides movie show- 
+time information. MIMIC improves upon previous 
+dialogue systems in two respects. First, it employs 
+initiative-oriented strategy adaptation to automatically 
+adapt response generation strategies based on the cumu- 
+lative effect of information dynamically extracted from 
+user utterances during the dialogue. Second, MIMIC's 
+dialogue management architecture decouples its initia- 
+tive module from the goal and response strategy selec- 
+tion processes, providing ageneral framework for devel- 
+oping spoken dialogue systems with different adaptation 
+behavior. 
+1 

@@ -1,0 +1,27 @@
+
+Anaphora resolution is one of the most
+important research topics in Natural Lan-
+guage Processing. In English, overt pro-
+nouns such as she and definite noun
+phrases such as the company are anaphors
+that refer to preceding entities (an-
+tecedents). In Japanese, anaphors are of-
+ten omitted, and these omissions are called
+zero pronouns. There are two major ap-
+proaches to zero pronoun resolution: the
+heuristic approach and the machine learn-
+ing approach. Since we have to take var-
+ious factors into consideration, it is diffi-
+cult to find a good combination of heuris-
+tic rules. Therefore, the machine learn-
+ing approach is attractive, but it requires
+a large amount of training data. In this
+paper, we propose a method that com-
+bines ranking rules and machine learning.
+The ranking rules are simple and effective,
+while machine learning can take more fac-
+tors into account. From the results of our
+experiments, this combination gives better
+performance than either of the two previ-
+ous approaches.
+1 

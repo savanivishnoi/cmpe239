@@ -1,0 +1,22 @@
+
+Our goal is to extract answers from pre-
+retrieved sentences for Question Answering
+(QA). We construct a linear-chain Conditional
+Random Field based on pairs of questions
+and their possible answer sentences, learning
+the association between questions and answer
+types. This casts answer extraction as an an-
+swer sequence tagging problem for the first
+time, where knowledge of shared structure be-
+tween question and source sentence is incor-
+porated through features based on Tree Edit
+Distance (TED). Our model is free of man-
+ually created question and answer templates,
+fast to run (processing 200 QA pairs per sec-
+ond excluding parsing time), and yields an F1
+of 63.3% on a new public dataset based on
+prior TREC QA evaluations. The developed
+system is open-source, and includes an imple-
+mentation of the TED model that is state of the
+art in the task of ranking QA pairs.
+1 

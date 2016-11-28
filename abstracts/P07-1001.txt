@@ -1,0 +1,14 @@
+
+We present a general framework to incor-
+porate prior knowledge such as heuristics
+or linguistic features in statistical generative
+word alignment models. Prior knowledge
+plays a role of probabilistic soft constraints
+between bilingual word pairs that shall be
+used to guide word alignment model train-
+ing. We investigate knowledge that can be
+derived automatically from entropy princi-
+ple and bilingual latent semantic analysis
+and show how they can be applied to im-
+prove translation performance.
+1 

@@ -1,0 +1,20 @@
+
+We introduce several ideas that improve the
+performance of supervised information ex-
+traction systems with a pipeline architecture,
+when they are customized for new domains.
+We show that: (a) a combination of a se-
+quence tagger with a rule-based approach for
+entity mention extraction yields better perfor-
+mance for both entity and relation mention
+extraction; (b) improving the identification of
+syntactic heads of entity mentions helps rela-
+tion extraction; and (c) a deterministic infer-
+ence engine captures some of the joint domain
+structure, even when introduced as a post-
+processing step to a pipeline system. All in all,
+our contributions yield a 20% relative increase
+in F1 score in a domain significantly differ-
+ent from the domains used during the devel-
+opment of our information extraction system.
+1 

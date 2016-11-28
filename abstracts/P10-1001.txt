@@ -1,0 +1,14 @@
+
+We present algorithms for higher-order de-
+pendency parsing that are ?third-order?
+in the sense that they can evaluate sub-
+structures containing three dependencies,
+and ?efficient? in the sense that they re-
+quire only O(n4) time. Importantly, our
+new parsers can utilize both sibling-style
+and grandchild-style interactions. We
+evaluate our parsers on the Penn Tree-
+bank and Prague Dependency Treebank,
+achieving unlabeled attachment scores of
+93.04% and 87.38%, respectively.
+1 

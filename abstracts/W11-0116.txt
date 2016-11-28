@@ -1,0 +1,13 @@
+
+We present the first approach to learning the durations of events without annotated training data,
+employing web query patterns to infer duration distributions. For example, we learn that ?war?
+lasts years or decades, while ?look? lasts seconds or minutes. Learning aspectual information is an
+important goal for computational semantics and duration information may help enable rich document
+understanding. We first describe and improve a supervised baseline that relies on event duration
+annotations. We then show how web queries for linguistic patterns can help learn the duration of
+events without labeled data, producing fine-grained duration judgments that surpass the supervised
+system. We evaluate on the TimeBank duration corpus, and also investigate how an event?s participants
+(arguments) effect its duration using a corpus collected through Amazon?s Mechanical Turk. We make
+available a new database of events and their duration distributions for use in research involving the
+temporal and aspectual properties of events.
+1 

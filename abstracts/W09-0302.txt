@@ -1,0 +1,24 @@
+
+In this paper we describe an authoring
+environment for the creation of cultural-
+domain ontologies and the associated lin-
+guistic and profile annotations, for dy-
+namically generating adaptable natural-
+language descriptions of the cultural ob-
+jects in the ontology. Adaptation is
+achieved at the expense of considerable
+authoring effort, since it relies on pro-
+viding numerical parameters for each on-
+tological entity. To assist the authoring
+process, we provide an intelligent author-
+ing back-end that completes manually au-
+thored models by inferring missing values.
+This intelligent authoring support facility,
+combined with immediate previews, can
+considerably reduce the effort required to
+create a fully functional model as the au-
+thor can iterate through cycles of provid-
+ing information, previewing the generated
+text, and only elaborating the model where
+the text is unsatisfactory.
+1 

@@ -1,0 +1,14 @@
+
+In  this  paper,  we  described  the  PNNL 
+Word Sense Disambiguation system as ap-
+plied  to  the  English  all-word  task  in  Se-
+mEval 2007. We use a supervised learning 
+approach,  employing  a  large  number  of 
+features and using Information Gain for di-
+mension  reduction.  The  rich  feature  set 
+combined with a Maximum Entropy classi-
+fier  produces results  that  are significantly 
+better than baseline and are the highest F-
+score  for  the  fined-grained  English  all-
+words subtask of SemEval.
+1 

@@ -1,0 +1,26 @@
+
+We design a new co-occurrence based
+word association measure by incorpo-
+rating the concept of significant co-
+occurrence in the popular word associ-
+ation measure Pointwise Mutual Infor-
+mation (PMI). By extensive experiments
+with a large number of publicly available
+datasets we show that the newly intro-
+duced measure performs better than other
+co-occurrence based measures and de-
+spite being resource-light, compares well
+with the best known resource-heavy dis-
+tributional similarity and knowledge based
+word association measures. We investi-
+gate the source of this performance im-
+provement and find that of the two types
+of significant co-occurrence - corpus-level
+and document-level, the concept of cor-
+pus level significance combined with the
+use of document counts in place of word
+counts is responsible for all the perfor-
+mance gains observed. The concept of
+document level significance is not helpful
+for PMI adaptation.
+1 

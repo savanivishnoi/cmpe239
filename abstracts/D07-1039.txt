@@ -1,0 +1,37 @@
+
+In this paper we explore the use of se-
+lectional preferences for detecting non-
+compositional verb-object combinations. To
+characterise the arguments in a given gram-
+matical relationship we experiment with
+three models of selectional preference. Two
+use WordNet and one uses the entries from
+a distributional thesaurus as classes for rep-
+resentation. In previous work on selectional
+preference acquisition, the classes used for
+representation are selected according to the
+coverage of argument tokens rather than be-
+ing selected according to the coverage of
+argument types. In our distributional the-
+saurus models and one of the methods us-
+ing WordNet we select classes for represent-
+ing the preferences by virtue of the number
+of argument types that they cover, and then
+only tokens under these classes which are
+representative of the argument head data are
+used to estimate the probability distribution
+for the selectional preference model. We
+demonstrate a highly significant correlation
+between measures which use these ?type-
+based? selectional preferences and composi-
+tionality judgements from a data set used in
+previous research. The type-based models
+perform better than the models which use to-
+kens for selecting the classes. Furthermore,
+the models which use the automatically ac-
+quired thesaurus entries produced the best
+results. The correlation for the thesaurus
+models is stronger than any of the individ-
+ual features used in previous research on the
+same dataset.
+1 

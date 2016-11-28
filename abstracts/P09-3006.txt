@@ -1,0 +1,116 @@
+
+Dependency parsers show syntactic re-
+lations between words using a directed
+graph, but comparing dependency parsers
+is difficult because of differences in the-
+oretical models. We describe a system
+to convert dependency models to a struc-
+tural grammar used in grammar educa-
+tion. Doing so highlights features that are
+potentially overlooked in the dependency
+graph, as well as exposing potential weak-
+nesses and limitations in parsing models.
+Our system performs automated analysis
+of dependency relations and uses them to
+populate a data structure we designed to
+emulate sentence diagrams. This is done
+by mapping dependency relations between
+words to the relative positions of those
+words in a sentence diagram. Using an
+original metric for judging the accuracy of
+sentence diagrams, we achieve precision
+of 85%. Multiple causes for errors are pre-
+sented as potential areas for improvement
+in dependency parsers.
+1 Dependency parsing
+Dependencies are generally considered a strong
+metric of accuracy in parse trees, as described in
+(Lin, 1995). In a dependency parse, words are
+connected to each other through relations, with a
+head word (the governor) being modified by a de-
+pendent word. By converting parse trees to de-
+pendency representations before judging accuracy,
+more detailed syntactic information can be discov-
+ered. Recently, however, a number of dependency
+parsers have been developed that have very differ-
+ent theories of a correct model of dependencies.
+Dependency parsers define syntactic relations
+between words in a sentence. This can be done
+either through spanning tree search as in (McDon-
+ald et al, 2005), which is computationally expen-
+sive, or through analysis of another modeling sys-
+tem, such as a phrase structure parse tree, which
+can introduce errors from the long pipeline. To
+the best of our knowledge, the first use of de-
+pendency relations as an evaluation tool for parse
+trees was in (Lin, 1995), which described a pro-
+cess for determining heads in phrase structures
+and assigning modifiers to those heads appropri-
+ately. Because of different ways to describe rela-
+tions between negations, conjunctions, and other
+grammatical structures, it was immediately clear
+that comparing different models would be diffi-
+cult. Research into this area of evaluation pro-
+duced several new dependency parsers, each us-
+ing different theories of what constitutes a cor-
+rect parse. In addition, attempts to model multi-
+ple parse trees in a single dependency relation sys-
+tem were often stymied by problems such as dif-
+ferences in tokenization systems. These problems
+are discussed by (Lin, 1998) in greater detail. An
+attempt to reconcile differences between parsers
+was described in (Marneffe et al, 2006). In this
+paper, a dependency parser (from herein referred
+to as the Stanford parser) was developed and com-
+pared to two other systems: MINIPAR, described
+in (Lin, 1998), and the Link parser of (Sleator and
+Temperley, 1993), which uses a radically differ-
+ent approach but produces a similar, if much more
+fine-grained, result.
+Comparing dependency parsers is difficult. The
+main problem is that there is no clear way to com-
+pare models which mark dependencies differently.
+For instance, when clauses are linked by a con-
+junction, the Link parser considers the conjunction
+related to the subject of a clause, while the Stan-
+ford parser links the conjunction to the verb of a
+clause. In (Marneffe et al, 2006), a simple com-
+parison was used to alleviate this problem, which
+was based only on the presence of dependencies,
+without semantic information. This solution loses
+45
+information and is still subject to many problems
+in representational differences. Another problem
+with this approach is that they only used ten sen-
+tences for comparison, randomly selected from the
+Brown corpus. This sparse data set is not necessar-
+ily congruous with the overall accuracy of these
+parsers.
+In this paper, we propose a novel solution to
+the difficulty of converting between dependency
+models. The options that have previously been
+presented for comparing dependency models are
+either too specific to be accurate (relying on an-
+notation schemes that are not adequately parallel
+for comparison) or too coarse to be useful (such
+as merely checking for the existence of depen-
+dencies). By using a model of language which
+is not as fine-grained as the models used by de-
+pendency parsers, but still contains some semantic
+information beyond unlabelled relations, a com-
+promise can be made. We show that using linear
+diagramming models can do this with acceptable
+error rates, and hope that future work can use this
+to compare multiple dependency models.
+Section 2 describes structural grammar, its his-
+tory, and its usefulness as a representation of syn-
+tax. Section 3 describes our algorithm for conver-
+sion from dependency graphs to a structural rep-
+resentation. Section 4 describes the process we
+used for developing and testing the accuracy of
+this algorithm, and Section 5 discusses our results
+and a variety of features, as well as limitations and
+weaknesses, that we have found in the dependency
+representation of (Marneffe et al, 2006) as a result
+of this conversion.
+2 

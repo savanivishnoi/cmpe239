@@ -1,0 +1,20 @@
+
+Multi-word expressions (MWE) have seen much at-
+tention from the NLP community. In this paper, we
+investigate their impact on the recognition of tex-
+tual entailment (RTE). Using the manual Microsoft
+Research annotations, we first manually count and
+classify MWEs in RTE data. We find few, most
+of which are arguably unlikely to cause processing
+problems. We then consider the impact of MWEs on
+a current RTE system. We are unable to confirm that
+entailment recognition suffers from wrongly aligned
+MWEs. In addition, MWE alignment is difficult
+to improve, since MWEs are poorly represented in
+state-of-the-art paraphrase resources, the only avail-
+able sources for multi-word similarities. We con-
+clude that RTE should concentrate on other phe-
+nomena impacting entailment, and that paraphrase
+knowledge is best understood as capturing general
+lexico-syntactic variation.
+1 

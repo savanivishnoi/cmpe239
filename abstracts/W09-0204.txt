@@ -1,0 +1,13 @@
+
+This paper discusses a new convolu-
+tion tree kernel by introducing local
+alignments. The main idea of the new
+kernel is to allow some syntactic al-
+ternations during each match between
+subtrees. In this paper, we give an
+algorithm to calculate the composite
+kernel. The experiment results show
+promising improvements on two tasks:
+semantic role labeling and question
+classification.
+1 

@@ -1,0 +1,28 @@
+ 
+This paper describes an algorithm for performing rapid 
+match on continuous speech that makes it possible to rec- 
+ognize sentences from an 842 word vocabulary on a desk- 
+top 33 megahertz 80486 computer in near eal time. This 
+algorithm relies on a combination of smoothing and linear 
+segmentation together with the notion of word start groups. 
+It appears that the total computation required grows more 
+slowly than linearly with the vocabulary size, so that larger 
+vocabularies appear feasible, with only moderately enhanced 
+hardware. The rapid match algorithm described here is 
+closely related to the one that is used in DragonDictate, 
+Dragon's commercial 30,000 word discrete utterance recog- 
+nizer. 
+rapid match module to obtain a short list of plausible xten- 
+sions. 
+The key ideas that the algorithm relies on are linear 
+segmentation, smoothing, acoustic lustering, and word start 
+groupings. In subsequent sections we shall elaborate on 
+these ideas and explain their role in rapid match. We shall 
+then report on some empirical results, having to do with a 
+particular task that Dragon has chosen to use for develop- 
+ment purposes: the dictation of mammography reports, us- 
+ing a vocabulary of 842 words. 
+Other apid match algorithms that are quite different in 
+character have also been described in the literature \[2\], \[3\], 
+and \[4\]. 
+1. 

@@ -1,0 +1,15 @@
+
+Word sense disambiguation (WSD) is an inter-
+mediate task within information retrieval and
+information extraction, attempting to select
+the proper sense of ambiguous words. Due to
+the scarcity of training data, semi-supervised
+learning, which profits from seed annotated
+examples and a large set of unlabeled data,
+are worth researching. We present preliminary
+results of two semi-supervised learning algo-
+rithms on biomedical word sense disambigua-
+tion. Both methods add relevant unlabeled ex-
+amples to the training set, and optimal param-
+eters are similar for each ambiguous word.
+1 

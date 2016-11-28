@@ -1,0 +1,23 @@
+ 
+  We present an automatic semantic roles labeling 
+system for structured trees of Chinese sentences. It 
+adopts dependency decision making and 
+example-based approaches. The training data and 
+extracted examples are from the Sinica Treebank, 
+which is a Chinese Treebank with semantic role 
+assigned for each constituent. It used 74 abstract 
+semantic roles including thematic roles, such as 
+?agent?; ?theme?, ?instrument?, and secondary roles of 
+?location?, ?time?, ?manner? and roles for nominal 
+modifiers. The design of role assignment algorithm is 
+based on the different decision features, such as 
+head-argument/modifier, case makers, sentence 
+structures etc. It labels semantic roles of parsed 
+sentences. Therefore the practical performance of the 
+system depends on a good parser which labels the 
+right structures of sentences. The system achieves 
+92.71% accuracy in labeling the semantic roles for 
+pre-structure- bracketed texts which is considerably 
+higher than the simple method using probabilistic 
+model of head-modifier relations. 
+1. 

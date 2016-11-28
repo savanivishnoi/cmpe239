@@ -1,0 +1,18 @@
+ 
+We present computational models that allow 
+spoken dialog systems to handle multi-
+participant engagement in open, dynamic envi-
+ronments, where multiple people may enter and 
+leave conversations, and interact with the sys-
+tem and with others in a natural manner. The 
+models for managing the engagement process 
+include components for (1) sensing the en-
+gagement state, actions and intentions of mul-
+tiple agents in the scene, (2) making engage-
+ment decisions (i.e. whom to engage with, and 
+when) and (3) rendering these decisions in a set 
+of coordinated low-level behaviors in an embo-
+died conversational agent. We review results 
+from a study of interactions "in the wild" with a 
+system that implements such a model.  
+1 

@@ -1,0 +1,21 @@
+
+This paper describes our submission,
+cmu-heafield-combo, to the WMT
+2010 machine translation system combi-
+nation task. Using constrained resources,
+we participated in all nine language pairs,
+namely translating English to and from
+Czech, French, German, and Spanish as
+well as combining English translations
+from multiple languages. Combination
+proceeds by aligning all pairs of system
+outputs then navigating the aligned out-
+puts from left to right where each path is
+a candidate combination. Candidate com-
+binations are scored by their length, agree-
+ment with the underlying systems, and a
+language model. On tuning data, improve-
+ment in BLEU over the best system de-
+pends on the language pair and ranges
+from 0.89% to 5.57% with mean 2.37%.
+1 

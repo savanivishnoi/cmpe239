@@ -1,0 +1,18 @@
+ 
+User-supplied reviews are widely and 
+increasingly used to enhance e-
+commerce and other websites. Because 
+reviews can be numerous and varying in 
+quality, it is important to assess how 
+helpful each review is. While review 
+helpfulness is currently assessed manu-
+ally, in this paper we consider the task 
+of automatically assessing it. Experi-
+ments using SVM regression on a vari-
+ety of features over Amazon.com 
+product reviews show promising results, 
+with rank correlations of up to 0.66. We 
+found that the most useful features in-
+clude the length of the review, its uni-
+grams, and its product rating. 
+1 

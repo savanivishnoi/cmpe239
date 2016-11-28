@@ -1,0 +1,22 @@
+
+We propose a new integrated approach based on
+Markov logic networks (MLNs), an effective com-
+bination of probabilistic graphical models and first-
+order logic for statistical relational learning, to ex-
+tracting relations between entities in encyclopedic
+articles from Wikipedia. The MLNs model en-
+tity relations in a unified undirected graph col-
+lectively using multiple features, including contex-
+tual, morphological, syntactic, semantic as well as
+Wikipedia characteristic features which can cap-
+ture the essential characteristics of relation extrac-
+tion task. This model makes simultaneous statisti-
+cal judgments about the relations for a set of related
+entities. More importantly, implicit relations can
+also be identified easily. Our experimental results
+showed that, this integrated probabilistic and logic
+model significantly outperforms the current state-
+of-the-art probabilistic model, Conditional Random
+Fields (CRFs), for relation extraction from encyclo-
+pedic articles.
+1 

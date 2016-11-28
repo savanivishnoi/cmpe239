@@ -1,0 +1,21 @@
+
+This paper presents a Function Word cen-
+tered, Syntax-based (FWS) solution to ad-
+dress phrase ordering in the context of
+statistical machine translation (SMT). Mo-
+tivated by the observation that function
+words often encode grammatical relation-
+ship among phrases within a sentence, we
+propose a probabilistic synchronous gram-
+mar to model the ordering of function words
+and their left and right arguments. We im-
+prove phrase ordering performance by lexi-
+calizing the resulting rules in a small number
+of cases corresponding to function words.
+The experiments show that the FWS ap-
+proach consistently outperforms the base-
+line system in ordering function words? ar-
+guments and improving translation quality
+in both perfect and noisy word alignment
+scenarios.
+1 

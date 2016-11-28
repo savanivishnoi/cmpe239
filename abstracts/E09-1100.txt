@@ -1,0 +1,26 @@
+
+We investigate the possibility of exploit-
+ing character-based dependency for Chi-
+nese information processing. As Chinese
+text is made up of character sequences
+rather than word sequences, word in Chi-
+nese is not so natural a concept as in En-
+glish, nor is word easy to be defined with-
+out argument for such a language. There-
+fore we propose a character-level depen-
+dency scheme to represent primary lin-
+guistic relationships within a Chinese sen-
+tence. The usefulness of character depen-
+dencies are verified through two special-
+ized dependency parsing tasks. The first
+is to handle trivial character dependencies
+that are equally transformed from tradi-
+tional word boundaries. The second fur-
+thermore considers the case that annotated
+internal character dependencies inside a
+word are involved. Both of these results
+from character-level dependency parsing
+are positive. This study provides an alter-
+native way to formularize basic character-
+and word-level representation for Chinese.
+1 

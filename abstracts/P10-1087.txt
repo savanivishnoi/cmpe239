@@ -1,0 +1,18 @@
+
+Wikipedia articles in different languages
+are connected by interwiki links that are
+increasingly being recognized as a valu-
+able source of cross-lingual information.
+Unfortunately, large numbers of links are
+imprecise or simply wrong. In this pa-
+per, techniques to detect such problems are
+identified. We formalize their removal as
+an optimization task based on graph re-
+pair operations. We then present an al-
+gorithm with provable properties that uses
+linear programming and a region growing
+technique to tackle this challenge. This
+allows us to transform Wikipedia into a
+much more consistent multilingual regis-
+ter of the world?s entities and concepts.
+1 

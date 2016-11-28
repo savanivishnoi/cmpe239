@@ -1,0 +1,17 @@
+
+We have developed a discourse level
+tagging tool for spoken dialogue cor-
+pus using machine learning meth-
+ods. As discourse level informa-
+tion, we focused on dialogue act, rel-
+evance and discourse segment. In
+dialogue act tagging, we have im-
+plemented a transformation-based
+learning procedure and resulted in
+70% accuracy in open test. In
+relevance and discourse segment
+tagging, we have implemented a
+decision-tree based learning proce-
+dure and resulted in about 75% and
+72% accuracy respectively.
+1 

@@ -1,0 +1,30 @@
+ 
+Through tile alignment of definitions fronl 
+two or more dilTerent sources, it is 
+possible to retrieve pairs of words that can 
+be used indistinguishably in the same 
+sentence without changing tile meaning of 
+the concept. As lexicographic work 
+exploits common defining schemes, such 
+as genus and dilTerentia, a concept is 
+simihu'ly defined by different dictionaries. 
+The dilTerence in words used between two 
+lexicographic sources lets us extend lhe 
+lexical knowledge base, so that clustering 
+is available through merging two or more 
+dictionaries into a single database and 
+then using an approlwiate alignment 
+techlaique. Since aligmnent starts from thc 
+same entry of two dictionaries, clustering 
+is l~lster than any other technique. 
+Tile algorithm introduced here is analogy- 
+based, and starts from calculating the 
+Levenshtein distance, which is a variation 
+o1' the edit distance, and allows us to align 
+the definitions. As a measure of similarity, 
+the concept el' longest collocation couple 
+is introduced, which is the basis of 
+clustering similar words. The process 
+iterates, replacing similar pairs of words 
+in tile definitions until no new clusters are 
+found. 

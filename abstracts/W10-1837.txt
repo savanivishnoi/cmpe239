@@ -1,0 +1,28 @@
+
+Building training data is labor-intensive
+and presents a major obstacle to advanc-
+ing machine learning technologies such as
+machine translators, named entity recog-
+nizers (NER), part-of-speech taggers, etc.
+Training data are often specialized for a
+particular language or Natural Language
+Processing (NLP) task. Knowledge cap-
+tured by a specific set of training data is
+not easily transferable, even to the same
+NLP task in another language. Emerging
+technologies, such as social networks and
+serious games, offer a unique opportunity
+to change how we construct training data.
+While collaborative games have been used
+in information retrieval, it is an open is-
+sue whether users can contribute accurate
+annotations in a collaborative game con-
+text for a problem that requires an exact
+answer, such as games that would create
+named entity recognition training data. We
+present PackPlay, a collaborative game
+framework that empirically shows players?
+ability to mimic annotation accuracy and
+thoroughness seen in gold standard anno-
+tated corpora.
+1 

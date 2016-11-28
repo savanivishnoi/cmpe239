@@ -1,0 +1,14 @@
+ 
+We have developed a word sense 
+disambiguation algorithm, following Cheng and 
+Wilensky (1997), to disambiguate among 
+WordNet synsets. This algorithm is to be used in 
+a cross-language information retrieval system, 
+CINDOR, which indexes queries and documents 
+in a language-neutral concept representation 
+based on WordNet synsets. Our goal is to 
+improve retrieval precision through word sense 
+disambiguation. An evaluation against human 
+disambiguation judgements suggests promise for 
+our approach. 
+1 

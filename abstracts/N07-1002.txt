@@ -1,0 +1,23 @@
+
+The immense prosodic variation of natural con-
+versational speech makes it challenging to pre-
+dict which words are prosodically prominent in
+this genre. In this paper, we examine a new fea-
+ture, accent ratio, which captures how likely it is
+that a word will be realized as prominent or not.
+We compare this feature with traditional accent-
+prediction features (based on part of speech and
+N -grams) as well as with several linguistically mo-
+tivated and manually labeled information structure
+features, such as whether a word is given, new, or
+contrastive. Our results show that the linguistic fea-
+tures do not lead to significant improvements, while
+accent ratio alone can yield prediction performance
+almost as good as the combination of any other sub-
+set of features. Moreover, this feature is useful even
+across genres; an accent-ratio classifier trained only
+on conversational speech predicts prominence with
+high accuracy in broadcast news. Our results sug-
+gest that carefully chosen lexicalized features can
+outperform less fine-grained features.
+1 

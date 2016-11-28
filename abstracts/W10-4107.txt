@@ -1,0 +1,19 @@
+ 
+The main drawback of previous Chinese cha-
+racter error detection systems is the high false 
+alarm rate. To solve this problem, we propose 
+a system that combines a statistic method and 
+template matching to detect Chinese character 
+errors. Error types include pronunciation-
+related errors and form-related errors. Possible 
+errors of a character can be collected to form a 
+confusion set. Our system automatically gene-
+rates templates with the help of a dictionary 
+and confusion sets. The templates can be used 
+to detect and correct errors in essays. In this 
+paper, we compare three methods proposed in 
+previous works. The experiment results show 
+that our system can reduce the false alarm sig-
+nificantly and give the best performance on f-
+score. 
+1 

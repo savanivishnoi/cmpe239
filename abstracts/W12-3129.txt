@@ -1,0 +1,33 @@
+
+We introduce the first fully automatic, fully seman-
+tic frame based MT evaluation metric, MEANT,
+that outperforms all other commonly used auto-
+matic metrics in correlating with human judgment
+on translation adequacy. Recent work on HMEANT,
+which is a human metric, indicates that machine
+translation can be better evaluated via semantic
+frames than other evaluation paradigms, requiring
+only minimal effort from monolingual humans to an-
+notate and align semantic frames in the reference and
+machine translations. We propose a surprisingly ef-
+fective Occam?s razor automation of HMEANT that
+combines standard shallow semantic parsing with
+a simple maximum weighted bipartite matching al-
+gorithm for aligning semantic frames. The match-
+ing criterion is based on lexical similarity scoring
+of the semantic role fillers through a simple con-
+text vector model which can readily be trained us-
+ing any publicly available large monolingual cor-
+pus. Sentence level correlation analysis, following
+standard NIST MetricsMATR protocol, shows that
+this fully automated version of HMEANT achieves
+significantly higher Kendall correlation with hu-
+man adequacy judgments than BLEU, NIST, ME-
+TEOR, PER, CDER, WER, or TER. Furthermore,
+we demonstrate that performing the semantic frame
+alignment automatically actually tends to be just as
+good as performing it manually. Despite its high
+performance, fully automated MEANT is still able
+to preserve HMEANT?s virtues of simplicity, repre-
+sentational transparency, and inexpensiveness.
+1 

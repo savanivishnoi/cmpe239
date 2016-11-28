@@ -1,0 +1,18 @@
+
+Shortage of manually sense-tagged data is
+an obstacle to supervised word sense dis-
+ambiguation methods. In this paper we in-
+vestigate a label propagation based semi-
+supervised learning algorithm for WSD,
+which combines labeled and unlabeled
+data in learning process to fully realize
+a global consistency assumption: simi-
+lar examples should have similar labels.
+Our experimental results on benchmark
+corpora indicate that it consistently out-
+performs SVM when only very few la-
+beled examples are available, and its per-
+formance is also better than monolingual
+bootstrapping, and comparable to bilin-
+gual bootstrapping.
+1 

@@ -1,0 +1,22 @@
+
+We propose a multiple-document summa-
+rization system with user interaction. Our
+system extracts keywords from sets of docu-
+ments to be summarized and shows the key-
+words to a user on the screen. Among them,
+the user selects some keywords reflecting
+his/her needs. Our system controls the pro-
+duced summary by using these selected key-
+words. For evaluation of our method, we
+participated in TSC3 of NTCIR4 workshop
+by letting our system select 12 best key-
+words regarding scoring by the system. Our
+participated system attained the best per-
+formance in content evaluation among sys-
+tems not using sets of questions. Moreover,
+we evaluated effectiveness of user interac-
+tion in our system. With user interaction,
+our system attained both higher coverage
+and precision than that without user inter-
+action.
+1 

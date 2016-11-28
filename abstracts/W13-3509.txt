@@ -1,0 +1,18 @@
+
+This paper proposes passage reranking
+models that (i) do not require manual fea-
+ture engineering and (ii) greatly preserve
+accuracy, when changing application do-
+main. Their main characteristic is the
+use of relational semantic structures rep-
+resenting questions and their answer pas-
+sages. The relations are established us-
+ing information from automatic classifiers,
+i.e., question category (QC) and focus
+classifiers (FC) and Named Entity Recog-
+nizers (NER). This way (i) effective struc-
+tural relational patterns can be automati-
+cally learned with kernel machines; and
+(ii) structures are more invariant w.r.t. dif-
+ferent domains, thus fostering adaptability.
+1 

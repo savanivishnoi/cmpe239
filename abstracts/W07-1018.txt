@@ -1,0 +1,21 @@
+ 
+We propose a methodology using 
+underspecified semantic interpretation to 
+process comparative constructions in 
+MEDLINE citations, concentrating on two 
+structures that are prevalent in the research 
+literature reporting on clinical trials for 
+drug therapies. The method exploits an 
+existing semantic processor, SemRep, 
+which constructs predications based on the 
+Unified Medical Language System. Results 
+of a preliminary evaluation were recall of 
+70%, precision of 96%, and F-score of 
+81%. We discuss the generalization of the 
+methodology to other entities such as 
+therapeutic and diagnostic procedures. The 
+available structures in computable format 
+are potentially useful for interpreting 
+outcome statements in MEDLINE 
+citations. 
+1 

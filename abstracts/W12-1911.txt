@@ -1,0 +1,9 @@
+
+This paper describes a system for unsuper-
+vised dependency parsing based on Gibbs
+sampling algorithm. The novel approach in-
+troduces a fertility model and reducibility
+model, which assumes that dependent words
+can be removed from a sentence without vio-
+lating its syntactic correctness.
+1 

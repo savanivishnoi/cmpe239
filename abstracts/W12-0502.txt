@@ -1,0 +1,16 @@
+
+This paper describes several novel hybrid
+semantic similarity measures. We study
+various combinations of 16 baseline mea-
+sures based on WordNet, Web as a cor-
+pus, corpora, dictionaries, and encyclope-
+dia. The hybrid measures rely on 8 com-
+bination methods and 3 measure selection
+techniques and are evaluated on (a) the task
+of predicting semantic similarity scores and
+(b) the task of predicting semantic relation
+between two terms. Our results show that
+hybrid measures outperform single mea-
+sures by a wide margin, achieving a correla-
+tion up to 0.890 and MAP(20) up to 0.995.
+1 

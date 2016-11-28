@@ -1,0 +1,21 @@
+
+We describe a new self-learning framework
+for parser lexicalisation that requires only a
+plain-text corpus of in-domain text. The
+method first creates augmented versions of de-
+pendency graphs by applying a series of mod-
+ifications designed to directly capture higher-
+order lexical path dependencies. Scores are
+assigned to each edge in the graph using statis-
+tics from an automatically parsed background
+corpus. As bilexical dependencies are sparse,
+a novel directed distributional word similar-
+ity measure is used to smooth edge score es-
+timates. Edge scores are then combined into
+graph scores and used for reranking the top-
+n analyses found by the unlexicalised parser.
+The approach achieves significant improve-
+ments on WSJ and biomedical text over the
+unlexicalised baseline parser, which is origi-
+nally trained on a subset of the Brown corpus.
+1 

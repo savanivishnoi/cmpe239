@@ -1,0 +1,24 @@
+
+Marking up search queries with linguistic an-
+notations such as part-of-speech tags, cap-
+italization, and segmentation, is an impor-
+tant part of query processing and understand-
+ing in information retrieval systems. Due
+to their brevity and idiosyncratic structure,
+search queries pose a challenge to existing
+NLP tools. To address this challenge, we
+propose a probabilistic approach for perform-
+ing joint query annotation. First, we derive
+a robust set of unsupervised independent an-
+notations, using queries and pseudo-relevance
+feedback. Then, we stack additional classi-
+fiers on the independent annotations, and ex-
+ploit the dependencies between them to fur-
+ther improve the accuracy, even with a very
+limited amount of available training data. We
+evaluate our method using a range of queries
+extracted from a web search log. Experimen-
+tal results verify the effectiveness of our ap-
+proach for both short keyword queries, and
+verbose natural language queries.
+1 

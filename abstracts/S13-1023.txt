@@ -1,0 +1,13 @@
+
+This paper describes the system used by the
+LIPN team in the Semantic Textual Similarity
+task at *SEM 2013. It uses a support vector re-
+gression model, combining different text sim-
+ilarity measures that constitute the features.
+These measures include simple distances like
+Levenshtein edit distance, cosine, Named En-
+tities overlap and more complex distances like
+Explicit Semantic Analysis, WordNet-based
+similarity, IR-based similarity, and a similar-
+ity measure based on syntactic dependencies.
+1 

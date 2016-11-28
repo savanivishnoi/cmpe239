@@ -1,0 +1,23 @@
+  
+This paper presents an extended GLR 
+parsing algorithm with grammar PCFG* that 
+is based on Tomita?s GLR parsing algorithm 
+and extends it further. We also define a new 
+grammar?PCFG* that is based on PCFG 
+and assigns not only probability but also 
+frequency associated with each rule. So our 
+syntactic parsing system is implemented 
+based on rule-based approach and statistics 
+approach. Furthermore our experiments are 
+executed in two fields: Chinese base noun 
+phrase identification and full syntactic 
+parsing. And the results of these two fields 
+are compared from three ways. The 
+experiments prove that the extended GLR 
+parsing algorithm with PCFG* is an 
+efficient parsing method and a 
+straightforward way to combine statistical 
+property with rules. The experiment results 
+of these two fields are presented in this 
+paper. 
+1. 

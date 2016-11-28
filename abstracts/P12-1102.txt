@@ -1,0 +1,18 @@
+
+The problem addressed in this paper is to seg-
+ment a given multilingual document into seg-
+ments for each language and then identify the
+language of each segment. The problem was
+motivated by an attempt to collect a large
+amount of linguistic data for non-major lan-
+guages from the web. The problem is formu-
+lated in terms of obtaining the minimum de-
+scription length of a text, and the proposed so-
+lution finds the segments and their languages
+through dynamic programming. Empirical re-
+sults demonstrating the potential of this ap-
+proach are presented for experiments using
+texts taken from the Universal Declaration of
+Human Rights and Wikipedia, covering more
+than 200 languages.
+1 

@@ -1,0 +1,21 @@
+
+We propose a minimally supervised method
+for multilingual paraphrase extraction from
+definition sentences on the Web. Hashimoto
+et al (2011) extracted paraphrases from
+Japanese definition sentences on the Web, as-
+suming that definition sentences defining the
+same concept tend to contain paraphrases.
+However, their method requires manually an-
+notated data and is language dependent. We
+extend their framework and develop a mini-
+mally supervised method applicable to multi-
+ple languages. Our experiments show that our
+method is comparable to Hashimoto et al?s
+for Japanese and outperforms previous unsu-
+pervised methods for English, Japanese, and
+Chinese, and that our method extracts 10,000
+paraphrases with 92% precision for English,
+82.5% precision for Japanese, and 82% preci-
+sion for Chinese.
+1 

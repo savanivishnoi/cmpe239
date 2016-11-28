@@ -1,0 +1,27 @@
+
+We demonstrate a conversational interface
+that assists pedestrian users in navigat-
+ing within urban environments and acquir-
+ing tourist information by combining spo-
+ken dialogue system, question-answering
+(QA), and geographic information sys-
+tem (GIS) technologies. In contrast to
+existing mobile applications which treat
+these problems independently, our An-
+droid agent addresses the problem of navi-
+gation and touristic question-answering in
+an integrated fashion using a shared dia-
+logue context with multiple interleaved di-
+alogue threads. In this paper, we present
+the architecture and features of our lat-
+est system, extended from an earlier ver-
+sion which was built and evaluated with
+real users (Janarthanam et al, 2013). The
+new features include navigation based on
+visible landmarks, navigation adapted to
+the user?s previous route knowledge, and
+tourist information pushing based on vis-
+ible and proximal points-of-interest. The
+system also uses social media to infer
+?popularity? of geographical entities.
+1 

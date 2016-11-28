@@ -1,0 +1,13 @@
+
+We revisit the idea of history-based pars-
+ing, and present a history-based parsing
+framework that strives to be simple, gen-
+eral, and flexible. We also provide a de-
+coder for this probability model that is
+linear-space, optimal, and anytime. A
+parser based on this framework, when
+evaluated on Section 23 of the Penn Tree-
+bank, compares favorably with other state-
+of-the-art approaches, in terms of both ac-
+curacy and speed.
+1 

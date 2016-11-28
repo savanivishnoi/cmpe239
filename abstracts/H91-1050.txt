@@ -1,0 +1,23 @@
+ 
+This paper eports recent efforts to improve the performance 
+of CMU's robust vocabulary-independent (VI) speech recog- 
+nition systems on the DARPA speaker-independent r source 
+management task. The improvements are evaluated on 320 
+sentences that randomly selected from the DARPA June 88, 
+February 89 and October 89 test sets. Our first improvement 
+involves more detailed acoustic modeling. We incorporated 
+more dynamic features computed from the LPC cepstra nd 
+reduced error by 15% over the baseline system. Our second 
+improvement comes from a larger training database. With 
+more training data, our third improvement comes from a more 
+detailed subword modeling. We incorporated the word bound- 
+ary context into our VI subword modeling and it resulted in a 
+30% error eduction. Finally, we used decision-tree allophone 
+clustering to find more suitable models for the subword units 
+not covered in the training set and further educed error by 
+17%. All the techniques combined reduced the VI error rate 
+on the resource management task from 11.1% to 5.4% (and 
+from 15.4% to 7.4% when training and testing were under dif- 
+ferent recording environment). This vocabulary-independent 
+performance has exceeded our vocabulary-dependent p rfor- 
+mance. 

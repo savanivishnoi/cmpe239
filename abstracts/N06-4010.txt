@@ -1,0 +1,33 @@
+
+In this paper we describe the web and
+mobile-phone interfaces to our multi-
+language factoid question answering (QA)
+system together with a prototype speech
+interface to our English-language QA sys-
+tem. Using a statistical, data-driven ap-
+proach to factoid question answering has
+allowed us to develop QA systems in five
+languages in a matter of months. In the
+web-based system, which is accessible
+at http://asked.jp, we have com-
+bined the QA system output with standard
+search-engine-like results by integrating it
+with an open-source web search engine.
+The prototype speech interface is based
+around a VoiceXML application running
+on the Voxeo developer platform. Recog-
+nition of the user?s question is performed
+on a separate speech recognition server
+dedicated to recognizing questions. An
+adapted version of the Sphinx-4 recog-
+nizer is used for this purpose. Once the
+question has been recognized correctly it
+is passed to the QA system and the re-
+sulting answers read back to the user by
+speech synthesis. Our approach is mod-
+ular and makes extensive use of open-
+source software. Consequently, each com-
+ponent can be easily and independently
+improved and easily extended to other lan-
+guages.
+1 

@@ -1,0 +1,24 @@
+
+Document-level sentiment analysis can bene-
+fit from fine-grained subjectivity, so that sen-
+timent polarity judgments are based on the
+relevant parts of the document. While fine-
+grained subjectivity annotations are rarely
+available, encouraging results have been ob-
+tained by modeling subjectivity as a latent
+variable. However, latent variable models
+fail to capitalize on our linguistic knowledge
+about discourse structure. We present a new
+method for injecting linguistic knowledge into
+latent variable subjectivity modeling, using
+discourse connectors. Connector-augmented
+transition features allow the latent variable
+model to learn the relevance of discourse con-
+nectors for subjectivity transitions, without
+subjectivity annotations. This yields signif-
+icantly improved performance on document-
+level sentiment analysis in English and Span-
+ish. We also describe a simple heuristic for
+automatically identifying connectors when no
+predefined list is available.
+1 

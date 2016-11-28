@@ -1,0 +1,28 @@
+
+We present a novel answer summarization
+method for community Question Answering
+services (cQAs) to address the problem of ?in-
+complete answer?, i.e., the ?best answer? of a
+complex multi-sentence question misses valu-
+able information that is contained in other an-
+swers. In order to automatically generate a
+novel and non-redundant community answer
+summary, we segment the complex original
+multi-sentence question into several sub ques-
+tions and then propose a general Conditional
+Random Field (CRF) based answer summary
+method with group L1 regularization. Vari-
+ous textual and non-textual QA features are
+explored. Specifically, we explore four differ-
+ent types of contextual factors, namely, the in-
+formation novelty and non-redundancy mod-
+eling for local and non-local sentence inter-
+actions under question segmentation. To fur-
+ther unleash the potential of the abundant cQA
+features, we introduce the group L1 regu-
+larization for feature learning. Experimental
+results on a Yahoo! Answers dataset show
+that our proposed method significantly outper-
+forms state-of-the-art methods on cQA sum-
+marization task.
+1 

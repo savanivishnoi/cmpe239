@@ -1,0 +1,31 @@
+
+Despite their flat, semantics-free structure, on-
+tology identifiers are often given names or la-
+bels corresponding to natural language words
+or phrases which are very dense with informa-
+tion as to their intended referents. We argue
+that by taking advantage of this information
+density, NLG systems applied to ontologies
+can guide the choice and construction of sen-
+tences to express useful ontological informa-
+tion, solely through the verbalisations of iden-
+tifier names, and that by doing so, they can re-
+place the extremely fussy and repetitive texts
+produced by ontology verbalisers with shorter
+and simpler texts which are clearer and eas-
+ier for human readers to understand. We spec-
+ify which axioms in an ontology are ?defin-
+ing axioms? for linguistically-complex identi-
+fiers and analyse a large corpus of OWL on-
+tologies to identify common patterns among
+all defining axioms. By generating texts from
+ontologies, and selectively including or omit-
+ting these defining axioms, we show by sur-
+veys that human readers are typically capable
+of inferring information implicitly encoded in
+identifier phrases, and that texts which do not
+make such ?obvious? information explicit are
+preferred by readers and yet communicate the
+same information as the longer texts in which
+such information is spelled out explicitly.
+1 

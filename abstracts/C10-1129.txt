@@ -1,0 +1,22 @@
+ 
+Discriminating vandalism edits from 
+non-vandalism edits in Wikipedia is a 
+challenging task, as ill-intentioned edits 
+can include a variety of content and be 
+expressed in many different forms and 
+styles. Previous studies are limited to 
+rule-based methods and learning based 
+on lexical features, lacking in linguistic 
+analysis. In this paper, we propose a 
+novel Web-based shallow syntactic-
+semantic modeling method, which utiliz-
+es Web search results as resource and 
+trains topic-specific n-tag and syntactic 
+n-gram language models to detect van-
+dalism. By combining basic task-specific 
+and lexical features, we have achieved 
+high F-measures using logistic boosting 
+and logistic model trees classifiers, sur-
+passing the results reported by major 
+Wikipedia vandalism detection systems.  
+1 

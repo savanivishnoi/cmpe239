@@ -1,0 +1,22 @@
+
+We present an architecture for the integra-
+tion of shallow and deep NLP components
+which is aimed at flexible combination
+of different language technologies for a
+range of practical current and future appli-
+cations. In particular, we describe the inte-
+gration of a high-level HPSG parsing sys-
+tem with different high-performance shal-
+low components, ranging from named en-
+tity recognition to chunk parsing and shal-
+low clause recognition. The NLP com-
+ponents enrich a representation of natu-
+ral language text with layers of new XML
+meta-information using a single shared
+data structure, called the text chart. We de-
+scribe details of the integration methods,
+and show how information extraction and
+language checking applications for real-
+world German text benefit from a deep
+grammatical analysis.
+1 

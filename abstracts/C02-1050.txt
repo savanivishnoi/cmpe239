@@ -1,0 +1,16 @@
+
+This paper describes the right-to-left decoding
+method, which translates an input string by gen-
+erating in right-to-left direction. In addition, pre-
+sented is the bidirectional decoding method, that
+can take both of the advantages of left-to-right and
+right-to-left decoding method by generating output
+in both ways and by merging hypothesized partial
+outputs of two directions. The experimental results
+on Japanese and English translation showed that
+the right-to-left was better for Englith-to-Japanese
+translation, while the left-to-right was suitable for
+Japanese-to-English translation. It was also ob-
+served that the bidirectional method was better for
+English-to-Japanese translation.
+1 

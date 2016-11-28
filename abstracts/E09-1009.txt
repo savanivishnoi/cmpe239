@@ -1,0 +1,12 @@
+
+Parallel Multiple Context-Free Grammar
+(PMCFG) is an extension of context-free
+grammar for which the recognition problem is
+still solvable in polynomial time. We describe
+a new parsing algorithm that has the advantage
+to be incremental and to support PMCFG
+directly rather than the weaker MCFG formal-
+ism. The algorithm is also top-down which
+allows it to be used for grammar based word
+prediction.
+1 

@@ -1,0 +1,17 @@
+
+It has long been observed that monolingual text
+exhibits a tendency toward ?one sense per dis-
+course,? and it has been argued that a related
+?one translation per discourse? constraint is op-
+erative in bilingual contexts as well. In this pa-
+per, we introduce a novel method using forced
+decoding to confirm the validity of this con-
+straint, and we demonstrate that it can be ex-
+ploited in order to improve machine translation
+quality. Three ways of incorporating such a
+preference into a hierarchical phrase-based MT
+model are proposed, and the approach where all
+three are combined yields the greatest improve-
+ments  for  both  Arabic-English  and  Chinese-
+English translation experiments.
+1 

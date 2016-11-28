@@ -1,0 +1,13 @@
+
+We introduce two simple improvements to the
+lexical weighting features of Koehn, Och, and
+Marcu  (2003)  for  machine  translation: one
+which  smooths  the  probability  of  translating
+word f to word e by simplifying English mor-
+phology, and one which conditions it  on the
+kind of training data that f and e co-occurred
+in. These new variations lead to improvements
+of up to +0.8 BLEU, with an average improve-
+ment of +0.6 BLEU across two language pairs,
+two genres, and two translation systems.
+1 

@@ -1,0 +1,22 @@
+
+In Arabic-to-English phrase-based statis-
+tical machine translation, a large number
+of syntactic disfluencies are due to wrong
+long-range reordering of the verb in VSO
+sentences, where the verb is anticipated
+with respect to the English word order.
+In this paper, we propose a chunk-based
+reordering technique to automatically de-
+tect and displace clause-initial verbs in the
+Arabic side of a word-aligned parallel cor-
+pus. This method is applied to preprocess
+the training data, and to collect statistics
+about verb movements. From this anal-
+ysis, specific verb reordering lattices are
+then built on the test sentences before de-
+coding them. The application of our re-
+ordering methods on the training and test
+sets results in consistent BLEU score im-
+provements on the NIST-MT 2009 Arabic-
+English benchmark.
+1 

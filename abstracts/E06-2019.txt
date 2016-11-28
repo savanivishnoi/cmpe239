@@ -1,0 +1,16 @@
+
+In this paper, we propose an approach 
+for identifying curatable articles from a 
+large document set.  This system 
+considers three parts of an article (title 
+and abstract, MeSH terms, and captions) 
+as its three individual representations 
+and utilizes two domain-specific 
+resources (UMLS and a tumor name list) 
+to reveal the deep knowledge contained 
+in the article.  An SVM classifier is 
+trained and cross-validation is employed 
+to find the best combination of 
+representations.  The experimental 
+results show overall high performance. 
+1 

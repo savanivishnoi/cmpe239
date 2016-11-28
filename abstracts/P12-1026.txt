@@ -1,0 +1,19 @@
+
+From the perspective of structural linguistics,
+we explore paradigmatic and syntagmatic lex-
+ical relations for Chinese POS tagging, an im-
+portant and challenging task for Chinese lan-
+guage processing. Paradigmatic lexical rela-
+tions are explicitly captured by word cluster-
+ing on large-scale unlabeled data and are used
+to design new features to enhance a discrim-
+inative tagger. Syntagmatic lexical relations
+are implicitly captured by constituent pars-
+ing and are utilized via system combination.
+Experiments on the Penn Chinese Treebank
+demonstrate the importance of both paradig-
+matic and syntagmatic relations. Our linguis-
+tically motivated approaches yield a relative
+error reduction of 18% in total over a state-
+of-the-art baseline.
+1 

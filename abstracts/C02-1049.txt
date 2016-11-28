@@ -1,0 +1,27 @@
+  
+There is no blank to mark word boundaries in 
+Chinese text. As a result, identifying words is 
+difficult, because of segmentation ambiguities 
+and occurrences of unknown words. 
+Conventionally unknown words were extracted 
+by statistical methods because statistical 
+methods are simple and efficient. However the 
+statistical methods without using linguistic 
+knowledge suffer the drawbacks of low 
+precision and low recall, since character strings 
+with statistical significance might be phrases or 
+partial phrases instead of words and low 
+frequency new words are hardly identifiable by 
+statistical methods. In addition to statistical 
+information, we try to use as much information 
+as possible, such as morphology, syntax, 
+semantics, and world knowledge. The 
+identification system fully utilizes the context 
+and content information of unknown words in 
+the steps of detection process, extraction process, 
+and verification process. A practical unknown 
+word extraction system was implemented which 
+online identifies new words, including low 
+frequency new words, with high precision and 
+high recall rates. 
+1 

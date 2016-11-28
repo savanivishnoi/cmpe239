@@ -1,0 +1,25 @@
+
+We describe a new method for the repre-
+sentation of NLP structures within rerank-
+ing approaches. We make use of a condi-
+tional log?linear model, with hidden vari-
+ables representing the assignment of lexi-
+cal items to word clusters or word senses.
+The model learns to automatically make
+these assignments based on a discrimina-
+tive training criterion. Training and de-
+coding with the model requires summing
+over an exponential number of hidden?
+variable assignments: the required sum-
+mations can be computed efficiently and
+exactly using dynamic programming. As
+a case study, we apply the model to
+parse reranking. The model gives an F?
+measure improvement of ? 1.25% be-
+yond the base parser, and an ? 0.25%
+improvement beyond the Collins (2000)
+reranker. Although our experiments are
+focused on parsing, the techniques de-
+scribed generalize naturally to NLP struc-
+tures other than parse trees.
+1 

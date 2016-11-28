@@ -1,0 +1,20 @@
+ 
+This paper presents our system, TJP, which 
+participated in SemEval 2013 Task 2 part A: 
+Contextual Polarity Disambiguation. The goal 
+of this task is to predict whether marked con-
+texts are positive, neutral or negative. Howev-
+er, only the scores of positive and negative 
+class will be used to calculate the evaluation 
+result using F-score. We chose to work as 
+?constrained?, which used only the provided 
+training and development data without addi-
+tional sentiment annotated resources. Our ap-
+proach considered unigram, bigram and 
+trigram using Na?ve Bayes training model 
+with the objective of establishing a simple-
+approach baseline. Our system achieved F-
+score 81.23% and F-score 78.16% in the re-
+sults for SMS messages and Tweets respec-
+tively. 
+1 

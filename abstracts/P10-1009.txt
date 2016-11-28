@@ -1,0 +1,20 @@
+ 
+In this paper, we formulate extractive 
+summarization as a risk minimization 
+problem and propose a unified probabilis-
+tic framework that naturally combines su-
+pervised and unsupervised summarization 
+models to inherit their individual merits as 
+well as to overcome their inherent limita-
+tions. In addition, the introduction of vari-
+ous loss functions also provides the sum-
+marization framework with a flexible but 
+systematic way to render the redundancy 
+and coherence relationships among sen-
+tences and between sentences and the 
+whole document, respectively. Experi-
+ments on speech summarization show that 
+the methods deduced from our framework 
+are very competitive with existing summa-
+rization approaches. 
+1 

@@ -1,0 +1,31 @@
+ 
+In this paper, we report on our experi-
+ment to extract Chinese multiword ex-
+pressions from corpus resources as part 
+of a larger research effort to improve a 
+machine translation (MT) system. For ex-
+isting MT systems, the issue of multi-
+word expression (MWE) identification 
+and accurate interpretation from source to 
+target language remains an unsolved 
+problem. Our initial test on the Chinese-
+to-English translation functions of 
+Systran and CCID?s Huan-Yu-Tong MT 
+systems reveal that, where MWEs are in-
+volved, MT tools suffer in terms of both 
+comprehensibility and adequacy of the 
+translated texts. For MT systems to be-
+come of further practical use, they need 
+to be enhanced with MWE processing 
+capability. As part of our study towards 
+this goal, we test and evaluate a statistical 
+tool, which was developed for English, 
+for identifying and extracting Chinese 
+MWEs. In our evaluation, the tool 
+achieved precisions ranging from 61.16% 
+to 93.96% for different types of MWEs.  
+Such results demonstrate that it is feasi-
+ble to automatically identify many Chi-
+nese MWEs using our tool, although it 
+needs further improvement. 
+1 

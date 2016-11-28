@@ -1,0 +1,18 @@
+  
+Automatic transliteration problem 1s to 
+transcribe foreign words in one's own alphabet. 
+Machine generated transliteration can be useful 
+in various applications uch as indexing in an 
+information retrieval system and pronunciation 
+synthesis in a text-to-speech system. In this 
+paper we present a model for statistical English- 
+to-Korean transliteration that generates 
+transliteration candidates with probability. The 
+model is designed to utilize various information 
+sources by extending a conventional Markov 
+window. Also, an efficient and accurate method 
+for alignment and syllabification of 
+pronunciation units is described. The 
+experimental results show a recall of 0.939 for 
+trained words and 0.875 for untrained words 
+when the best 10 candidates are considered. 

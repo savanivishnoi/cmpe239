@@ -1,0 +1,27 @@
+
+We present a suggestive finding regarding
+the loss of associative texture in the pro-
+cess of machine translation, using com-
+parisons between (a) original and back-
+translated texts, (b) reference and system
+translations, and (c) better and worse MT
+systems. We represent the amount of as-
+sociation in a text using word association
+profile ? a distribution of pointwise mu-
+tual information between all pairs of con-
+tent word types in a text. We use the av-
+erage of the distribution, which we term
+lexical tightness, as a single measure of
+the amount of association in a text. We
+show that the lexical tightness of human-
+composed texts is higher than that of the
+machine translated materials; human ref-
+erences are tighter than machine trans-
+lations, and better MT systems produce
+lexically tighter translations. While the
+phenomenon of the loss of associative tex-
+ture has been theoretically predicted by
+translation scholars, we present a measure
+capable of quantifying the extent of this
+phenomenon.
+1 

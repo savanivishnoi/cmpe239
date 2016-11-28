@@ -1,0 +1,25 @@
+ 
+This paper presents a new method of using 
+confidence vector as an intermediate input 
+feature for the multi-stage based speech 
+recognition. The multi-stage based speech 
+recognition is a method to reduce the com-
+putational complexity of the decoding pro-
+cedure and thus accomplish faster speech 
+recognition. In the multi-stage speech rec-
+ognition, however, the error of previous 
+stage is transferred to the next stage. This 
+tends to cause the deterioration of the over-
+all performance. We focus on improving 
+the accuracy by introducing confidence 
+vector instead of phoneme which typically 
+used as an intermediate feature between the 
+acoustic decoder and the lexical decoder, 
+the first two stages in the multi-stage 
+speech recognition. The experimental re-
+sults show up to 16.4% error reduction 
+rate(ERR) of word accuracy for  220k Ko-
+rean Point-of-Interest (POI) domain and 
+29.6% ERR of word accuracy for hotel res-
+ervation dialog domain.  
+1 

@@ -1,0 +1,20 @@
+
+This paper addresses two problems that
+commonly arise in parsing with precision-
+oriented, rule-based models of grammar:
+lack of speed and lack of robustness. First,
+we show how we can reduce parsing times
+by restricting the number of tasks the
+parser will carry out, based on a gener-
+ative model of rule applications. Sec-
+ond, we show that a combination of search
+space restriction and radically overgen-
+erating robustness rules lead to a more
+robust parser, with only a small penalty
+in precision. Applying both the robust-
+ness rules and a fragment fallback strat-
+egy showed better recall than just giving
+fragment analyses, with equal precision.
+Results are reported on a medium-sized
+HPSG grammar for German. 1
+1 

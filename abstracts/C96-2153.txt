@@ -1,0 +1,14 @@
+ 
+The paper describes a system which uses 
+packed parser output directly to build 
+semantic representations. More specifi- 
+cally, the system takes as input Packed 
+Shared Forests in the sense of Tomita 
+(l_bmita, 1985) and produces packed 
+Underspeeified Discourse Representation 
+Structures. The algorithm visits every 
+node in the Parse Forest only a bounded 
+number of times, so that a significant in- 
+crease in efficiency is registered for am- 
+biguous sentences. 
+1 

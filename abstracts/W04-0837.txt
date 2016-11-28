@@ -1,0 +1,22 @@
+
+In word sense disambiguation (WSD), the heuristic
+of choosing the most common sense is extremely
+powerful because the distribution of the senses of a
+word is often skewed. The first (or predominant)
+sense heuristic assumes the availability of hand-
+tagged data. Whilst there are hand-tagged corpora
+available for some languages, these are relatively
+small in size and many word forms either do not
+occur, or occur infrequently. In this paper we in-
+vestigate the performance of an unsupervised first
+sense heuristic where predominant senses are ac-
+quired automatically from raw text. We evaluate on
+both the SENSEVAL-2 and SENSEVAL-3 English all-
+words data. For accurate WSD the first sense heuris-
+tic should be used only as a back-off, where the evi-
+dence from the context is not strong enough. In this
+paper however, we examine the performance of the
+automatically acquired first sense in isolation since
+it turned out that the first sense taken from SemCor
+outperformed many systems in SENSEVAL-2.
+1 

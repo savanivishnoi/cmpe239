@@ -1,0 +1,20 @@
+
+Information overload is a well-known prob-
+lem which can be particularly detrimental to
+learners. In this paper, we propose a method
+to support learners in the information seek-
+ing process which consists in answering their
+questions by retrieving question paraphrases
+and their corresponding answers from social
+Q&A sites. Given the novelty of this kind of
+data, it is crucial to get a better understand-
+ing of how questions in social Q&A sites can
+be automatically analysed and retrieved. We
+discuss and evaluate several pre-processing
+strategies and question similarity metrics, us-
+ing a new question paraphrase corpus col-
+lected from the WikiAnswers Q&A site. The
+results show that viable performance levels of
+more than 80% accuracy can be obtained for
+the task of question paraphrase retrieval.
+1 

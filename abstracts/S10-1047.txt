@@ -1,0 +1,17 @@
+
+We present an approach for semantic re-
+lation extraction between nominals that
+combines semantic information with shal-
+low syntactic processing. We propose to
+use the ResearchCyc knowledge base as
+a source of semantic information about
+nominals. Each source of information
+is represented by a specific kernel func-
+tion. The experiments were carried out
+using support vector machines as a clas-
+sifier. The system achieves an overall F
+1
+of 77.62% on the ?Multi-Way Classifica-
+tion of Semantic Relations Between Pairs
+of Nominals? task at SemEval-2010.
+1 

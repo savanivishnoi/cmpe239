@@ -1,0 +1,17 @@
+
+Hierarchical or nested annotation of lin-
+guistic data often co-exists with simpler
+non-hierarchical or flat counterparts, a
+classic example being that of annotations
+used for parsing and chunking. In this
+work, we propose a general strategy for
+comparing across these two schemes of
+annotation using the concept of entailment
+that formalizes a correspondence between
+them. We use crowdsourcing to obtain
+query and sentence chunking and show
+that entailment can not only be used as
+an effective evaluation metric to assess the
+quality of annotations, but it can also be
+employed to filter out noisy annotations.
+1 

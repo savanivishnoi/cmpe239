@@ -1,0 +1,22 @@
+ 
+This paper describes a novel Arabic Reading 
+Enhancement Tool (ARET) for classroom use, 
+which has been built using corpus-based Natu-
+ral Language Processing in combination with 
+expert linguistic annotation. The NLP tech-
+niques include a widely used morphological 
+analyzer for Modern Standard Arabic to pro-
+vide word-level grammatical details, and a rela-
+tional database index of corpus texts to provide 
+word concordances. ARET also makes use of a 
+commercial Arabic text-to-speech (TTS) sys-
+tem to add a speech layer (with male and fe-
+male voices) to the Al-Kitaab language 
+textbook resources. The system generates test 
+questions and distractors, offering teachers and 
+students an interesting computer-aided lan-
+guage learning tool. We describe the back-
+ground and the motivation behind the building 
+of ARET, presenting the various components 
+and the method used to build the tools. 
+1 

@@ -1,0 +1,13 @@
+ 
+The more Chinese language materials come 
+out, the more we have to focus on the ?same 
+personal name? problem. In our personal 
+name disambiguation system, the hierarchical 
+agglomerative clustering is applied, and 
+named entity is used as feature for document 
+similarity calculation. We propose a two-stage 
+strategy in which the first stage involves word 
+segmentation and named entity recognition 
+(NER) for feature extraction, and the second 
+stage focuses on clustering.  
+1 

@@ -1,0 +1,18 @@
+
+This paper presents an alternative algo-
+rithm based on the singular value decom-
+position (SVD) that creates vector rep-
+resentation for linguistic units with re-
+duced dimensionality. The work was mo-
+tivated by an application aimed to repre-
+sent text segments for further processing
+in a multi-document summarization sys-
+tem. The algorithm tries to compensate
+for SVD?s bias towards dominant-topic
+documents. Our experiments on measur-
+ing document similarities have shown that
+the algorithm achieves higher average pre-
+cision with lower number of dimensions
+than the baseline algorithms - the SVD
+and the vector space model.
+1 

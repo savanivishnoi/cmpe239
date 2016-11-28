@@ -1,0 +1,20 @@
+
+We present a scalable joint language
+model designed to utilize fine-grain syn-
+tactic tags. We discuss challenges such
+a design faces and describe our solutions
+that scale well to large tagsets and cor-
+pora. We advocate the use of relatively
+simple tags that do not require deep lin-
+guistic knowledge of the language but pro-
+vide more structural information than POS
+tags and can be derived from automati-
+cally generated parse trees ? a combina-
+tion of properties that allows easy adop-
+tion of this model for new languages. We
+propose two fine-grain tagsets and evalu-
+ate our model using these tags, as well as
+POS tags and SuperARV tags in a speech
+recognition task and discuss future direc-
+tions.
+1 

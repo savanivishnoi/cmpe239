@@ -1,0 +1,25 @@
+
+The granularity of word senses in current
+general purpose sense inventories is of-
+ten too fine-grained, with narrow sense
+distinctions that are irrelevant for many
+NLP applications. This has particularly
+been a problem with WordNet which is
+widely used for word sense disambigua-
+tion (WSD). There have been several at-
+tempts to group WordNet senses given a
+number of different information sources
+in order to reduce granularity. We pro-
+pose relating senses as a matter of de-
+gree to permit a softer notion of relation-
+ships between senses compared to fixed
+groupings so that granularity can be var-
+ied according to the needs of the applica-
+tion. We compare two such approaches
+with a gold-standard produced by humans
+for this work. We also contrast this gold-
+standard and another used in previous re-
+search with the automatic methods for re-
+lating senses for use with back-off meth-
+ods for WSD.
+1 

@@ -1,0 +1,18 @@
+
+Although traditionally seen as a language-
+independent task, collocation extraction
+relies nowadays more and more on the
+linguistic preprocessing of texts (e.g.,
+lemmatization, POS tagging, chunking or
+parsing) prior to the application of sta-
+tistical measures. This paper provides
+a language-oriented review of the exist-
+ing extraction work. It points out sev-
+eral language-specific issues related to ex-
+traction and proposes a strategy for cop-
+ing with them. It then describes a hybrid
+extraction system based on a multilingual
+parser. Finally, it presents a case-study on
+the performance of an association measure
+across a number of languages.
+1 

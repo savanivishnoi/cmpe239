@@ -1,0 +1,23 @@
+
+Moderate-sized rule-based spoken language
+models for recognition and understanding are
+easy to develop and provide the ability to
+rapidly prototype conversational applications.
+However, scalability of such systems is a bot-
+tleneck due to the heavy cost of authoring and
+maintenance of rule sets and inevitable brittle-
+ness due to lack of coverage in the rule sets.
+In contrast, data-driven approaches are robust
+and the procedure for model building is usu-
+ally simple. However, the lack of data in a par-
+ticular application domain limits the ability to
+build data-driven models. In this paper, we ad-
+dress the issue of combining data-driven and
+grammar-based models for rapid prototyping
+of robust speech recognition and understanding
+models for a multimodal conversational sys-
+tem. We also present methods that reuse data
+from different domains and investigate the lim-
+its of such models in the context of a particular
+application domain.
+1 

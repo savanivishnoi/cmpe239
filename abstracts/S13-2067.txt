@@ -1,0 +1,15 @@
+
+This paper briefly reports our submissions
+to the two subtasks of Semantic Analysis in
+Twitter task in SemEval 2013 (Task 2), i.e.,
+the Contextual Polarity Disambiguation task
+(an expression-level task) and the Message
+Polarity Classification task (a message-level
+task). We extract features from surface infor-
+mation of tweets, i.e., content features, Micro-
+blogging features, emoticons, punctuation and
+sentiment lexicon, and adopt SVM to build
+classifier. For subtask A, our system on twit-
+ter data ranks 2 on unconstrained rank and on
+SMS data ranks 1 on unconstrained rank.
+1 

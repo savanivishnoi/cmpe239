@@ -1,0 +1,23 @@
+ 
+This paper presents a machine learning 
+approach based on an SVM classifier 
+coupled with preprocessing rules for cross-
+document named entity normalization.  The 
+classifier uses lexical, orthographic, 
+phonetic, and morphological features.  The 
+process involves disambiguating different 
+entities with shared name mentions and 
+normalizing identical entities with different 
+name mentions.  In evaluating the quality of 
+the clusters, the reported approach achieves 
+a cluster F-measure of 0.93.  The approach 
+is significantly better than the two baseline 
+approaches in which none of the entities are 
+normalized or entities with exact name 
+mentions are normalized.  The two baseline 
+approaches achieve cluster F-measures of 
+0.62 and 0.74 respectively.  The classifier 
+properly normalizes the vast majority of 
+entities that are misnormalized by the 
+baseline system. 
+1. 

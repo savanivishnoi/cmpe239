@@ -1,0 +1,30 @@
+  
+This paper describes the Speech 
+Application Language Tags, or SALT, an 
+XML based spoken dialog standard for 
+multimodal or speech-only applications. A 
+key premise in SALT design is that 
+speech-enabled user interface shares a lot 
+of the design principles and computational 
+requirements with the graphical user 
+interface (GUI). As a result, it is logical to 
+introduce into speech the object-oriented, 
+event-driven model that is known to be 
+flexible and powerful enough in meeting 
+the requirements for realizing 
+sophisticated GUIs. By reusing this rich 
+infrastructure, dialog designers are 
+relieved from having to develop the 
+underlying computing infrastructure and 
+can focus more on the core user interface 
+design issues than on the computer and 
+software engineering details. The paper 
+focuses the discussion on the Web-based 
+distributed computing environment and 
+elaborates how SALT can be used to 
+implement multimodal dialog systems. 
+How advanced dialog effects (e.g., 
+cross-modality reference resolution, 
+implicit confirmation, multimedia 
+synchronization) can be realized in SALT 
+is also discussed. 

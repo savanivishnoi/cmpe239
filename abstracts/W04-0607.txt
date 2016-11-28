@@ -1,0 +1,13 @@
+
+This paper reports on an ongoing project that com-
+bines NLP with semantic web technologies to sup-
+port a content-based storage and retrieval of medical
+pathology reports. We describe the NLP component
+of the project (a robust parser) and the background
+knowledge component (a domain ontology repre-
+sented in OWL), and how they work together during
+extraction of domain specific information from nat-
+ural language reports. The system provides a good
+example of how NLP techniques can be used to pop-
+ulate the Semantic Web.
+1 

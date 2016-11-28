@@ -1,0 +1,33 @@
+
+We discuss data-driven morphological
+segmentation, in which word forms are
+segmented into morphs, the surface forms
+of morphemes. Our focus is on a low-
+resource learning setting, in which only a
+small amount of annotated word forms are
+available for model training, while unan-
+notated word forms are available in abun-
+dance. The current state-of-art methods
+1) exploit both the annotated and unan-
+notated data in a semi-supervised man-
+ner, and 2) learn morph lexicons and sub-
+sequently uncover segmentations by gen-
+erating the most likely morph sequences.
+In contrast, we discuss 1) employing only
+the annotated data in a supervised man-
+ner, while entirely ignoring the unanno-
+tated data, and 2) directly learning to pre-
+dict morph boundaries given their local
+sub-string contexts instead of learning the
+morph lexicons. Specifically, we em-
+ploy conditional random fields, a popular
+discriminative log-linear model for seg-
+mentation. We present experiments on
+two data sets comprising five diverse lan-
+guages. We show that the fully super-
+vised boundary prediction approach out-
+performs the state-of-art semi-supervised
+morph lexicon approaches on all lan-
+guages when using the same annotated
+data sets.
+1 

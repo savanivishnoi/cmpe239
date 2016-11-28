@@ -1,0 +1,24 @@
+
+Supervised NLP tools and on-line services
+are often used on data that is very dif-
+ferent from the manually annotated data
+used during development. The perfor-
+mance loss observed in such cross-domain
+applications is often attributed to covari-
+ate shifts, with out-of-vocabulary effects
+as an important subclass. Many discrim-
+inative learning algorithms are sensitive to
+such shifts because highly indicative fea-
+tures may swamp other indicative features.
+Regularized and adversarial learning algo-
+rithms have been proposed to be more ro-
+bust against covariate shifts. We present
+a new perceptron learning algorithm us-
+ing antagonistic adversaries and compare
+it to previous proposals on 12 multilin-
+gual cross-domain part-of-speech tagging
+datasets. While previous approaches do
+not improve on our supervised baseline,
+our approach is better across the board
+with an average 4% error reduction.
+1 

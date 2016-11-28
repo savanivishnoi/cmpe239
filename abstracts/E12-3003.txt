@@ -1,0 +1,22 @@
+
+Adaptive Dialogue Systems are rapidly be-
+coming part of our everyday lives. As they
+progress and adopt new technologies they
+become more intelligent and able to adapt
+better and faster to their environment. Re-
+search in this field is currently focused on
+how to achieve adaptation, and particularly
+on applying Reinforcement Learning (RL)
+techniques, so a comparative study of the
+related methods, such as this, is necessary.
+In this work we compare several standard
+and state of the art online RL algorithms
+that are used to train the dialogue manager
+in a dynamic environment, aiming to aid re-
+searchers / developers choose the appropri-
+ate RL algorithm for their system. This is
+the first work, to the best of our knowledge,
+to evaluate online RL algorithms on the di-
+alogue problem and in a dynamic environ-
+ment.
+1 

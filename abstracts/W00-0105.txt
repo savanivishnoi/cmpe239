@@ -1,0 +1,29 @@
+ 
+Word Sense Disambiguation (WSD) is a 
+central task in the area of Natural 
+Language Processing. In the past few years 
+several context-based probabilistic and 
+machine learning methods for WSD have 
+been presented in literature. However, an 
+important area of research that has not 
+been given the attention it deserves is a 
+formal analysis of the parameters affecting 
+the performance of the learning task faced 
+by these systems. Usually performance is 
+estimated by measuring precision and 
+recall of a specific algorithm for specific 
+test sets and environmental conditions. 
+Therefore, a comparison among different 
+learning systems and an objective 
+estimation of the difficulty of the learning 
+task is extremely difficult. 
+In this paper we propose, in the framework 
+of Computational Learning theory, a 
+formal analysis of the relations between 
+accuracy of a context-based WSD system, 
+the complexity of the context 
+representation scheme, and the 
+environmental conditions (e.g. the 
+complexity of language domain and 
+concept inventory ) . 
+1 

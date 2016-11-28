@@ -1,0 +1,26 @@
+
+Evaluation of machine translation output
+is an important but difficult task. Over the
+last years, a variety of automatic evalua-
+tion measures have been studied, some of
+them like Word Error Rate (WER), Posi-
+tion Independent Word Error Rate (PER)
+and BLEU and NIST scores have become
+widely used tools for comparing different
+systems as well as for evaluating improve-
+ments within one system. However, these
+measures do not give any details about
+the nature of translation errors. Therefore
+some analysis of the generated output is
+needed in order to identify the main prob-
+lems and to focus the research efforts. On
+the other hand, human evaluation is a time
+consuming and expensive task. In this
+paper, we investigate methods for using
+of morpho-syntactic information for auto-
+matic evaluation: standard error measures
+WER and PER are calculated on distinct
+word classes and forms in order to get a
+better idea about the nature of translation
+errors and possibilities for improvements.
+1 

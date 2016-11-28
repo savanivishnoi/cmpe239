@@ -1,0 +1,24 @@
+
+This paper presents a bidirectional in-
+ference algorithm for sequence label-
+ing problems such as part-of-speech tag-
+ging, named entity recognition and text
+chunking. The algorithm can enumerate
+all possible decomposition structures and
+find the highest probability sequence to-
+gether with the corresponding decomposi-
+tion structure in polynomial time. We also
+present an efficient decoding algorithm
+based on the easiest-first strategy, which
+gives comparably good performance to
+full bidirectional inference with signifi-
+cantly lower computational cost. Exper-
+imental results of part-of-speech tagging
+and text chunking show that the proposed
+bidirectional inference methods consis-
+tently outperform unidirectional inference
+methods and bidirectional MEMMs give
+comparable performance to that achieved
+by state-of-the-art learning algorithms in-
+cluding kernel support vector machines.
+1 

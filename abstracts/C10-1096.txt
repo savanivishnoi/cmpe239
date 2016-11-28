@@ -1,0 +1,25 @@
+
+This paper presents a simple and effi-
+cient algorithm for approximate dictio-
+nary matching designed for similarity
+measures such as cosine, Dice, Jaccard,
+and overlap coefficients. We propose this
+algorithm, called CPMerge, for the ? -
+overlap join of inverted lists. First we
+show that this task is solvable exactly by
+a ? -overlap join. Given inverted lists re-
+trieved for a query, the algorithm collects
+fewer candidate strings and prunes un-
+likely candidates to efficiently find strings
+that satisfy the constraint of the ? -overlap
+join. We conducted experiments of ap-
+proximate dictionary matching on three
+large-scale datasets that include person
+names, biomedical names, and general
+English words. The algorithm exhib-
+ited scalable performance on the datasets.
+For example, it retrieved strings in 1.1
+ms from the string collection of Google
+Web1T unigrams (with cosine similarity
+and threshold 0.7).
+1 

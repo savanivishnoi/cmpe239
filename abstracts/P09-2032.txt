@@ -1,0 +1,20 @@
+
+Recently, various synchronous grammars
+are proposed for syntax-based machine
+translation, e.g. synchronous context-free
+grammar and synchronous tree (sequence)
+substitution grammar, either purely for-
+mal or linguistically motivated. Aim-
+ing at combining the strengths of differ-
+ent grammars, we describes a synthetic
+synchronous grammar (SSG), which ten-
+tatively in this paper, integrates a syn-
+chronous context-free grammar (SCFG)
+and a synchronous tree sequence substitu-
+tion grammar (STSSG) for statistical ma-
+chine translation. The experimental re-
+sults on NIST MT05 Chinese-to-English
+test set show that the SSG based transla-
+tion system achieves significant improve-
+ment over three baseline systems.
+1 

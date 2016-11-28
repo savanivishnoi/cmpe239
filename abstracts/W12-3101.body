@@ -1,0 +1,24 @@
+
+Human assessment is often considered the
+gold standard in evaluation of translation sys-
+tems. But in order for the evaluation to
+be meaningful, the rankings obtained from
+human assessment must be consistent and
+repeatable. Recent analysis by Bojar et
+al. (2011) raised several concerns about the
+rankings derived from human assessments of
+English-Czech translation systems in the 2010
+Workshop on Machine Translation. We extend
+their analysis to all of the ranking tasks from
+2010 and 2011, and show through an exten-
+sion of their reasoning that the ranking is nat-
+urally cast as an instance of finding the mini-
+mum feedback arc set in a tournament, a well-
+known NP-complete problem. All instances
+of this problem in the workshop data are ef-
+ficiently solvable, but in some cases the rank-
+ings it produces are surprisingly different from
+the ones previously published. This leads to
+strong caveats and recommendations for both
+producers and consumers of these rankings.
+1 

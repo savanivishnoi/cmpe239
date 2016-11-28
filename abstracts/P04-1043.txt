@@ -1,0 +1,16 @@
+
+In this paper we have designed and experi-
+mented novel convolution kernels for automatic
+classification of predicate arguments. Their
+main property is the ability to process struc-
+tured representations. Support Vector Ma-
+chines (SVMs), using a combination of such ker-
+nels and the flat feature kernel, classify Prop-
+Bank predicate arguments with accuracy higher
+than the current argument classification state-
+of-the-art.
+Additionally, experiments on FrameNet data
+have shown that SVMs are appealing for the
+classification of semantic roles even if the pro-
+posed kernels do not produce any improvement.
+1 

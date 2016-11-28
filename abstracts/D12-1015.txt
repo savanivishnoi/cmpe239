@@ -1,0 +1,21 @@
+
+This paper focuses on the task of colloca-
+tion polarity disambiguation. The collocation
+refers to a binary tuple of a polarity word and
+a target (such as ?long, battery life? or ?long,
+startup?), in which the sentiment orientation of
+the polarity word (?long?) changes along with
+different targets (?battery life? or ?startup?).
+To disambiguate a collocation?s polarity, pre-
+vious work always turned to investigate the
+polarities of its surrounding contexts, and then
+assigned the majority polarity to the collo-
+cation. However, these contexts are limited,
+thus the resulting polarity is insufficient to be
+reliable. We therefore propose an unsuper-
+vised three-component framework to expand
+some pseudo contexts from web, to help dis-
+ambiguate a collocation?s polarity.Without us-
+ing any additional labeled data, experiments
+show that our method is effective.
+1 

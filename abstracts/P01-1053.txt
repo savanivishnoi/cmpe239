@@ -1,0 +1,14 @@
+
+An approach to automatic detection of
+syllable boundaries is presented. We
+demonstrate the use of several manu-
+ally constructed grammars trained with
+a novel algorithm combining the advan-
+tages of treebank and bracketed corpora
+training. We investigate the effect of
+the training corpus size on the perfor-
+mance of our system. The evaluation
+shows that a hand-written grammar per-
+forms better on finding syllable bound-
+aries than does a treebank grammar.
+1 

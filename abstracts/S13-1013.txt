@@ -1,0 +1,26 @@
+
+This paper describes a system for automat-
+ically measuring the semantic similarity be-
+tween two texts, which was the aim of the
+2013 Semantic Textual Similarity (STS) task
+(Agirre et al, 2013). For the 2012 STS task,
+Heilman and Madnani (2012) submitted the
+PERP system, which performed competitively
+in relation to other submissions. However,
+approaches including word and n-gram fea-
+tures also performed well (Ba?r et al, 2012;
+S?aric? et al, 2012), and the 2013 STS task fo-
+cused more on predicting similarity for text
+pairs from new domains. Therefore, for the
+three variations of our system that we were al-
+lowed to submit, we used stacking (Wolpert,
+1992) to combine PERP with word and n-
+gram features and applied the domain adapta-
+tion approach outlined by Daume III (2007)
+to facilitate generalization to new domains.
+Our submissions performed well at most sub-
+tasks, particularly at measuring the similarity
+of news headlines, where one of our submis-
+sions ranked 2nd among 89 from 34 teams, but
+there is still room for improvement.
+1 

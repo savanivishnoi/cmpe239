@@ -1,0 +1,9 @@
+ 
+This paper describes a method for converting a 
+task-dependent grammar into a word predictor of a 
+speech understanding system, Since tile word 
+prediction is a top-down operation, left  recursive 
+rules induces an in f in i te  looping. We have solved 
+this problem by applying an algorithm for bottom-up 
+parsing, 
+1. 

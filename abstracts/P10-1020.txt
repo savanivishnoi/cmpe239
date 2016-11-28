@@ -1,0 +1,23 @@
+
+One goal of natural language generation is
+to produce coherent text that presents in-
+formation in a logical order. In this pa-
+per, we show that topological fields, which
+model high-level clausal structure, are an
+important component of local coherence
+in German. First, we show in a sen-
+tence ordering experiment that topologi-
+cal field information improves the entity
+grid model of Barzilay and Lapata (2008)
+more than grammatical role and simple
+clausal order information do, particularly
+when manual annotations of this informa-
+tion are not available. Then, we incor-
+porate the model enhanced with topolog-
+ical fields into a natural language gen-
+eration system that generates constituent
+orders for German text, and show that
+the added coherence component improves
+performance slightly, though not statisti-
+cally significantly.
+1 

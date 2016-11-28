@@ -1,0 +1,24 @@
+
+Fully unsupervised pattern-based methods
+for discovery of word categories have been
+proven to be useful in several languages.
+The majority of these methods rely on the
+existence of function words as separate
+text units. However, in morphology-rich
+languages, in particular Semitic languages
+such as Hebrew and Arabic, the equiva-
+lents of such function words are usually
+written as morphemes attached as prefixes
+to other words. As a result, they are missed
+by word-based pattern discovery methods,
+causing many useful patterns to be unde-
+tected and a drastic deterioration in per-
+formance. To enable high quality lexical
+category acquisition, we propose a sim-
+ple unsupervised word segmentation algo-
+rithm that separates these morphemes. We
+study the performance of the algorithm for
+Hebrew and Arabic, and show that it in-
+deed improves a state-of-art unsupervised
+concept acquisition algorithm in Hebrew.
+1 

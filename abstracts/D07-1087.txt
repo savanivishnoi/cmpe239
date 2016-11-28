@@ -1,0 +1,20 @@
+
+We present two machine learning ap-
+proaches to information extraction from
+semi-structured documents that can be used
+if no annotated training data are available,
+but there does exist a database filled with
+information derived from the type of docu-
+ments to be processed. One approach em-
+ploys standard supervised learning for infor-
+mation extraction by artificially constructing
+labelled training data from the contents of
+the database. The second approach com-
+bines unsupervised Hidden Markov mod-
+elling with language models. Empirical
+evaluation of both systems suggests that it is
+possible to bootstrap a field segmenter from
+a database alone. The combination of Hid-
+den Markov and language modelling was
+found to perform best at this task.
+1 

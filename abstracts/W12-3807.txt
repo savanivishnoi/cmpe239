@@ -1,0 +1,19 @@
+
+We explore training an automatic modality
+tagger. Modality is the attitude that a speaker
+might have toward an event or state. One of
+the main hurdles for training a linguistic tag-
+ger is gathering training data. This is par-
+ticularly problematic for training a tagger for
+modality because modality triggers are sparse
+for the overwhelming majority of sentences.
+We investigate an approach to automatically
+training a modality tagger where we first gath-
+ered sentences based on a high-recall simple
+rule-based modality tagger and then provided
+these sentences to Mechanical Turk annotators
+for further annotation. We used the resulting
+set of training data to train a precise modality
+tagger using a multi-class SVM that delivers
+good performance.
+1 

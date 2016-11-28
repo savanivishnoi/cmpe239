@@ -1,0 +1,16 @@
+
+In this paper, we highlight the problems of
+polysemy in word space models of compo-
+sitionality detection. Most models represent
+each word as a single prototype-based vec-
+tor without addressing polysemy. We propose
+an exemplar-based model which is designed
+to handle polysemy. This model is tested for
+compositionality detection and it is found to
+outperform existing prototype-based models.
+We have participated in the shared task (Bie-
+mann and Giesbrecht, 2011) and our best per-
+forming exemplar-model is ranked first in two
+types of evaluations and second in two other
+evaluations.
+1 

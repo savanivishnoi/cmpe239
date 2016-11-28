@@ -1,0 +1,22 @@
+
+Generating coherent discourse is an important
+aspect in natural language generation. Our
+aim is to learn factors that constitute coherent
+discourse from data, with a focus on how to re-
+alize predicate-argument structures in a model
+that exceeds the sentence level. We present
+an important subtask for this overall goal, in
+which we align predicates across compara-
+ble texts, admitting partial argument struc-
+ture correspondence. The contribution of this
+work is two-fold: We first construct a large
+corpus resource of comparable texts, includ-
+ing an evaluation set with manual predicate
+alignments. Secondly, we present a novel ap-
+proach for aligning predicates across compa-
+rable texts using graph-based clustering with
+Mincuts. Our method significantly outper-
+forms other alignment techniques when ap-
+plied to this novel alignment task, by a margin
+of at least 6.5 percentage points in F1-score.
+1 

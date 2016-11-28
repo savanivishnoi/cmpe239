@@ -1,0 +1,18 @@
+ 
+In this paper, we address the problem of min-
+ing transliterations of Named Entities (NEs) 
+from large comparable corpora. We leverage 
+the empirical fact that multilingual news ar-
+ticles with similar news content are rich in 
+Named Entity Transliteration Equivalents 
+(NETEs). Our mining algorithm, MINT, uses 
+a cross-language document similarity model to 
+align multilingual news articles and then 
+mines NETEs from the aligned articles using a 
+transliteration similarity model. We show that 
+our approach is highly effective on 6 different 
+comparable corpora between English and 4 
+languages from 3 different language families. 
+Furthermore, it performs substantially better 
+than a state-of-the-art competitor.   
+1 

@@ -1,0 +1,18 @@
+
+Automated conversion has allowed the de-
+velopment of wide-coverage corpora for a
+variety of grammar formalisms without the
+expense of manual annotation. Analysing
+new languages also tests formalisms, ex-
+posing their strengths and weaknesses.
+We present Chinese CCGbank, a 760,000
+word corpus annotated with Combinatory
+Categorial Grammar (CCG) derivations, in-
+duced automatically from the Penn Chi-
+nese Treebank (PCTB). We design parsimo-
+nious CCG analyses for a range of Chinese
+syntactic constructions, and transform the
+PCTB trees to produce them. Our process
+yields a corpus of 27,759 derivations, cov-
+ering 98.1% of the PCTB.
+1 

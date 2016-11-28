@@ -1,0 +1,20 @@
+
+The challenges of Named Entities Recogni-
+tion (NER) for tweets lie in the insufficient
+information in a tweet and the unavailabil-
+ity of training data. We propose to com-
+bine a K-Nearest Neighbors (KNN) classi-
+fier with a linear Conditional Random Fields
+(CRF) model under a semi-supervised learn-
+ing framework to tackle these challenges. The
+KNN based classifier conducts pre-labeling to
+collect global coarse evidence across tweets
+while the CRF model conducts sequential la-
+beling to capture fine-grained information en-
+coded in a tweet. The semi-supervised learn-
+ing plus the gazetteers alleviate the lack of
+training data. Extensive experiments show the
+advantages of our method over the baselines
+as well as the effectiveness of KNN and semi-
+supervised learning.
+1 

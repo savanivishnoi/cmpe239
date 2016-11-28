@@ -1,0 +1,22 @@
+
+Entropy Guided Transformation Learning
+(ETL) is a new machine learning strategy
+that combines the advantages of decision
+trees (DT) and Transformation Based Learn-
+ing (TBL). In this work, we apply the ETL
+framework to four phrase chunking tasks: Por-
+tuguese noun phrase chunking, English base
+noun phrase chunking, English text chunking
+and Hindi text chunking. In all four tasks,
+ETL shows better results than Decision Trees
+and also than TBL with hand-crafted tem-
+plates. ETL provides a new training strat-
+egy that accelerates transformation learning.
+For the English text chunking task this corre-
+sponds to a factor of five speedup. For Por-
+tuguese noun phrase chunking, ETL shows the
+best reported results for the task. For the other
+three linguistic tasks, ETL shows state-of-the-
+art competitive results and maintains the ad-
+vantages of using a rule based system.
+1 

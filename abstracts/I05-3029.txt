@@ -1,0 +1,27 @@
+
+We used a production segmentation 
+system, which draws heavily on a large 
+dictionary derived from processing a 
+large amount (over 150 million Chinese 
+characters) of synchronous textual data 
+gathered from various Chinese speech 
+communities, including Beijing, Hong 
+Kong, Taipei, and others. We run this 
+system in two tracks in the Second In-
+ternational Chinese Word Segmenta-
+tion Bakeoff, with Backward Maximal 
+Matching (right-to-left) as the primary 
+mechanism. We also explored the use 
+of a number of supplementary features 
+offered by the large dictionary in post-
+processing, in an attempt to resolve 
+ambiguities and detect unknown words. 
+While the results might not have 
+reached their fullest potential, they 
+nevertheless reinforced the importance 
+and usefulness of a large dictionary as a 
+basis for segmentation, and the impli-
+cation of following a uniform standard 
+on the segmentation performance on 
+data from various sources. 
+1 

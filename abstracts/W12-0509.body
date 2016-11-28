@@ -1,0 +1,13 @@
+ 
+This article reports some initial results from the collaborative work on converting SWBD-DAMSL annotation scheme used in the 
+Switchboard Dialogue Act Corpus to ISO DA annotation framework, as part of our on-going research on the interoperability of 
+standardized linguistic annotations. A qualitative assessment of the conversion between the two annotation schemes was performed to 
+verify the applicability of the new ISO standard using authentic transcribed speech. The results show that in addition to a major part of 
+the SWBD-DAMSL tag set that can be converted to the ISO DA scheme automatically, some problematic SWBD-DAMSL tags still 
+need to be handled manually. We shall report the evaluation of such an application based on the preliminary results from automatic 
+mapping via machine learning techniques. The paper will also describe a user-friendly graphical interface that was designed for manual 
+manipulation. The paper concludes with discussions and suggestions for future work. 
+ 
+ 
+ 
+1. 

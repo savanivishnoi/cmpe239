@@ -1,0 +1,17 @@
+
+This paper introduces multi-level associa-
+tion graphs (MLAGs), a new graph-based
+framework for information retrieval (IR).
+The goal of that framework is twofold:
+First, it is meant to be a meta model of
+IR, i.e. it subsumes various IR models
+under one common representation. Sec-
+ond, it allows to model different forms of
+search, such as feedback, associative re-
+trieval and browsing at the same time. It
+is shown how the new integrated model
+gives insights and stimulates new ideas for
+IR algorithms. One of these new ideas is
+presented and evaluated, yielding promis-
+ing experimental results.
+1 

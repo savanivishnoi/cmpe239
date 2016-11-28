@@ -1,0 +1,26 @@
+
+We present a semi-supervised (bootstrapping)
+approach to the extraction of time expression
+mentions in large unlabelled corpora. Because
+the only supervision is in the form of seed
+examples, it becomes necessary to resort to
+heuristics to rank and filter out spurious pat-
+terns and candidate time expressions. The
+application of bootstrapping to time expres-
+sion recognition is, to the best of our knowl-
+edge, novel. In this paper, we describe one
+such architecture for bootstrapping Informa-
+tion Extraction (IE) patterns ?suited to the
+extraction of entities, as opposed to events or
+relations? and summarize our experimental
+findings. These point out to the fact that a
+pattern set with a good increase in recall with
+respect to the seeds is achievable within our
+framework while, on the other side, the de-
+crease in precision in successive iterations is
+succesfully controlled through the use of rank-
+ing and selection heuristics. Experiments are
+still underway to achieve the best use of these
+heuristics and other parameters of the boot-
+strapping algorithm.
+1 

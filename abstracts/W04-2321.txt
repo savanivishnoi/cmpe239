@@ -1,0 +1,21 @@
+
+This paper describes an interpretation and deci-
+sion strategy that minimizes interpretation er-
+rors and perform dialogue actions which may
+not depend on the hypothesized concepts only,
+but also on confidence of what has been rec-
+ognized. The concepts introduced here are ap-
+plied in a system which integrates language
+and interpretation models into Stochastic Finite
+State Transducers (SFST). Furthermore, acous-
+tic, linguistic and semantic confidence mea-
+sures on the hypothesized word sequences are
+made available to the dialogue strategy. By
+evaluating predicates related to these confi-
+dence measures, a decision tree automatically
+learn a decision strategy for rescoring a n-best
+list of candidates representing a user?s utter-
+ance. The different actions that can be then per-
+formed are chosen according to the confidence
+scores given by the tree.
+1 

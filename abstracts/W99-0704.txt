@@ -1,0 +1,18 @@
+ 
+Constructive induction transforms the representation f 
+instances in order to produce a more accurate model of 
+the concept o be learned. For this purpose, a vari- 
+ety of operators has been proposed in the literature, 
+including a Cartesian product operator forming pair- 
+wise higher-order attributes. We study the effect of 
+the Cartesian product operator on memory-based lan- 
+guage learning, and demonstrate its effect on general- 
+ization accuracy and data compression for a number of 
+linguistic classification tasks, using k-nearest neighbor 
+learning algorithms. These results are compared to a 
+baseline approach of backward sequential elimination 
+of attributes. It is demonstrated that neither approach 
+consistently outperforms the other, and that attribute 
+elimination can be used to derive compact representa- 
+tions for memory-based language learning without no- 
+ticeable loss of generalization accuracy. 

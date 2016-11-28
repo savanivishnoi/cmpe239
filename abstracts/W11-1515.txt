@@ -1,0 +1,23 @@
+
+While the study of the connection between
+discourse patterns and personal identification
+is decades old, the study of these patterns us-
+ing language technologies is relatively recent.
+In that more recent tradition we frame author
+age prediction from text as a regression prob-
+lem. We explore the same task using three
+very different genres of data simultaneously:
+blogs, telephone conversations, and online fo-
+rum posts. We employ a technique from do-
+main adaptation that allows us to train a joint
+model involving all three corpora together as
+well as separately and analyze differences in
+predictive features across joint and corpus-
+specific aspects of the model. Effective fea-
+tures include both stylistic ones (such as POS
+patterns) as well as content oriented ones. Us-
+ing a linear regression model based on shallow
+text features, we obtain correlations up to 0.74
+and mean absolute errors between 4.1 and 6.8
+years.
+1 

@@ -1,0 +1,16 @@
+
+Extracting tree transducer rules for syntac-
+tic MT systems can be hindered by word
+alignment errors that violate syntactic corre-
+spondences. We propose a novel model for
+unsupervised word alignment which explic-
+itly takes into account target language con-
+stituent structure, while retaining the robust-
+ness and efficiency of the HMM alignment
+model. Our model?s predictions improve the
+yield of a tree transducer extraction system,
+without sacrificing alignment quality. We
+also discuss the impact of various posterior-
+based methods of reconciling bidirectional
+alignments.
+1 

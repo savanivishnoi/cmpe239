@@ -1,0 +1,20 @@
+ 
+Spelling recognition is an approach to enhance a 
+speech recognizer?s ability to cope with incorrectly 
+recognized words and out-of-vocabulary words. 
+This paper presents a general framework for Thai 
+speech recognition enhanced with spelling 
+recognition. In order to implement Thai spelling 
+recognition, Thai alphabets and their spelling 
+methods are analyzed. Based on hidden Markov 
+models, we propose a method to construct a Thai 
+spelling recognition system by using an existing 
+continuous speech corpus. To compensate the 
+difference between spelling utterances and 
+continuous speech utterances, the adjustment of 
+utterance speed is taken into account. Assigning 
+different numbers of states for syllables with 
+different durations is helpful to improve the 
+recognition accuracy. Our system achieves up to 
+79.38% accuracy. 
+1 

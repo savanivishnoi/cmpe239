@@ -1,0 +1,18 @@
+ 
+This paper 1  presents an empirical ap-
+proach to mining parallel corpora. Con-
+ventional approaches use a readily 
+available collection of comparable, non-
+parallel corpora to extract parallel sen-
+tences. This paper attempts the much 
+more challenging task of directly search-
+ing for high-quality sentence pairs from 
+the Web. We tackle the problem by 
+formulating good search query using 
+?Learning to Rank? and by filtering 
+noisy document pairs using IBM Model 
+1 alignment. End-to-end evaluation 
+shows that the proposed approach sig-
+nificantly improves the performance of 
+statistical machine translation. 
+1 

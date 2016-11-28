@@ -1,0 +1,26 @@
+
+This paper presents a multi-layered Question An-
+swering (Q.A.) architecture suitable for enhanc-
+ing current Q.A. capabilities with the possibility of
+processing complex questions. That is, questions
+whose answer needs to be gathered from pieces
+of factual information scattered in different docu-
+ments. Specifically, we have designed a layer ori-
+ented to process the different types of temporal
+questions. Complex temporal questions are first de-
+composed into simpler ones, according to the tem-
+poral relationships expressed in the original ques-
+tion.
+In the same way, the answers of each simple ques-
+tion are re-composed, fulfilling the temporal restric-
+tions of the original complex question.
+Using this architecture, a Temporal Q.A. system
+has been developed.
+In this paper, we focus on explaining the first part
+of the process: the decomposition of the complex
+questions. Furthermore, it has been evaluated with
+the TERQAS question corpus of 112 temporal ques-
+tions. For the task of question splitting our system
+has performed, in terms of precision and recall, 85%
+and 71%, respectively.
+1 

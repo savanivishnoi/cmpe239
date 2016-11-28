@@ -1,0 +1,21 @@
+
+In spoken dialog systems, statistical state
+tracking aims to improve robustness to
+speech recognition errors by tracking a
+posterior distribution over hidden dialog
+states. Current approaches based on gener-
+ative or discriminative models have differ-
+ent but important shortcomings that limit
+their accuracy. In this paper we discuss
+these limitations and introduce a new ap-
+proach for discriminative state tracking
+that overcomes them by leveraging the
+problem structure. An offline evaluation
+with dialog data collected from real users
+shows improvements in both state track-
+ing accuracy and the quality of the pos-
+terior probabilities. Features that encode
+speech recognition error patterns are par-
+ticularly helpful, and training requires rel-
+atively few dialogs.
+1 

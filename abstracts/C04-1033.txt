@@ -1,0 +1,18 @@
+
+Traditionally, coreference resolution is done
+by mining the reference relationships be-
+tween NP pairs. However, an individual NP
+usually lacks adequate description informa-
+tion of its referred entity. In this paper,
+we propose a supervised learning-based ap-
+proach which does coreference resolution by
+exploring the relationships between NPs and
+coreferential clusters. Compared with indi-
+vidual NPs, coreferential clusters could pro-
+vide richer information of the entities for bet-
+ter rules learning and reference determina-
+tion. The evaluation done on MEDLINE
+data set shows that our approach outper-
+forms the baseline NP-NP based approach
+in both recall and precision.
+1 

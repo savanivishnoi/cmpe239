@@ -1,0 +1,17 @@
+
+We explored a simple, fast and effective
+learning algorithm, the uneven margins
+Perceptron, for Chinese word segmen-
+tation. We adopted the character-based
+classification framework and trans-
+formed the task into several binary clas-
+sification problems. We participated
+the close and open tests for all the four
+corpora. For the open test we only used
+the utf-8 code knowledge for discrimi-
+nation among Latin characters, Arabic
+numbers and all other characters. Our
+system performed well on the as, cityu
+and msr corpora but was clearly worse
+than the best result on the pku corpus.
+1 

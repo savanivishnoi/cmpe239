@@ -1,0 +1,15 @@
+
+We introduce a new, linguistically grounded
+measure of collocativity based on the property
+of limited modifiability and test it on German
+PP-verb combinations. We show that our mea-
+sure not only significantly outperforms the stan-
+dard lexical association measures typically em-
+ployed for collocation extraction, but also yields
+a valuable by-product for the creation of col-
+location databases, viz. possible structural and
+lexical attributes. Our approach is language-,
+structure-, and domain-independent because it
+only requires some shallow syntactic analysis
+(e.g., a POS-tagger and a phrase chunker).
+1 

@@ -1,0 +1,16 @@
+
+This paper investigates the impact of mis-
+spelled words in statistical machine transla-
+tion and proposes an extension of the transla-
+tion engine for handling misspellings. The en-
+hanced system decodes a word-based confu-
+sion network representing spelling variations
+of the input text.
+We present extensive experimental results on
+two translation tasks of increasing complex-
+ity which show how misspellings of different
+types do affect performance of a statistical ma-
+chine translation decoder and to what extent
+our enhanced system is able to recover from
+such errors.
+1 

@@ -1,0 +1,26 @@
+ 
+This paper describes the design and func- 
+tioning of the English generation phase in 
+JETS, a limited transfer, Japanese-English 
+machine translation system that is loosely 
+based on the linguistic framework of relational 
+grammar. To facilitate the development of 
+relational-grammar-based generators, we have 
+built an NL-and-application-independent gen- 
+erator shell and relational grammar rule- 
+writing language. The implemented generator, 
+GENIE, maps abstract canonical structures, 
+representing the basic predicate-argument 
+structures of sentences, into well-formed 
+English sentences via a two-stage plan-and-ex- 
+ecute design. This modularity permits the 
+independent development of a very general, 
+deterministic execution grammar that is driven 
+by a set of planning rules sensitive to lexical, 
+syntactic and stylistic constraints. Processing 
+in GENIE is category-driven, i.e., grammatical 
+rules are distributed over a part-of-speech 
+hierarchy and, using an inheritance mech- 
+anism, are invoked only ff appropriate for the 
+category being processed. 
+1- 

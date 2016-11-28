@@ -1,0 +1,21 @@
+ 
+Sentiment analysis is one of the recent, 
+highly dynamic fields in Natural Language 
+Processing. Most existing approaches are 
+based on word-level analysis of texts and 
+are able to detect only explicit expressions 
+of sentiment.  In this paper, we present an 
+approach towards automatically detecting 
+emotions (as underlying components of 
+sentiment) from contexts in which no clues 
+of sentiment appear, based on 
+commonsense knowledge. The resource we 
+built towards this aim ? EmotiNet - is a 
+knowledge base of concepts with 
+associated affective value. Preliminary 
+evaluations show that this approach is 
+appropriate for the task of implicit emotion 
+detection, thus improving the performance 
+of sentiment detection and classification in 
+text. 
+1 

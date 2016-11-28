@@ -1,0 +1,22 @@
+ 
+This paper presents a Unicode based 
+Chinese word segmentor. It can handle 
+Chinese text in Simplified, Traditional, or 
+mixed mode. The system uses the strategy 
+of divide-and-conquer to handle the 
+recognition of personal names, numbers, 
+time and numerical values, etc in the pre-
+processing stage. The segmentor further 
+uses tagging information to work on 
+disambiguation. Adopting a modular 
+design approach, different functional parts 
+are separately implemented using 
+different modules and each module 
+tackles one problem at a time providing 
+more flexibility and extensibility. Results 
+show that with added pre-processing 
+modules and accessorial modules, the 
+accuracy of the segmentor is increased 
+and the system is easily adaptive to 
+different applications. 
+1 

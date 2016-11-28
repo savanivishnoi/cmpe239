@@ -1,0 +1,21 @@
+
+We consider morphology learning in a
+semi-supervised setting, where a small
+set of linguistic gold standard analyses is
+available. We extend Morfessor Base-
+line, which is a method for unsupervised
+morphological segmentation, to this task.
+We show that known linguistic segmenta-
+tions can be exploited by adding them into
+the data likelihood function and optimiz-
+ing separate weights for unlabeled and la-
+beled data. Experiments on English and
+Finnish are presented with varying amount
+of labeled data. Results of the linguis-
+tic evaluation of Morpho Challenge im-
+prove rapidly already with small amounts
+of labeled data, surpassing the state-of-
+the-art unsupervised methods at 1000 la-
+beled words for English and at 100 labeled
+words for Finnish.
+1 

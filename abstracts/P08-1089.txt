@@ -1,0 +1,27 @@
+
+Paraphrase patterns are useful in paraphrase
+recognition and generation. In this paper, we
+present a pivot approach for extracting para-
+phrase patterns from bilingual parallel cor-
+pora, whereby the English paraphrase patterns
+are extracted using the sentences in a for-
+eign language as pivots. We propose a log-
+linear model to compute the paraphrase likeli-
+hood of two patterns and exploit feature func-
+tions based on maximum likelihood estima-
+tion (MLE) and lexical weighting (LW). Us-
+ing the presented method, we extract over
+1,000,000 pairs of paraphrase patterns from
+2M bilingual sentence pairs, the precision
+of which exceeds 67%. The evaluation re-
+sults show that: (1) The pivot approach is
+effective in extracting paraphrase patterns,
+which significantly outperforms the conven-
+tional method DIRT. Especially, the log-linear
+model with the proposed feature functions
+achieves high performance. (2) The coverage
+of the extracted paraphrase patterns is high,
+which is above 84%. (3) The extracted para-
+phrase patterns can be classified into 5 types,
+which are useful in various applications.
+1 

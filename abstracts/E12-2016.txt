@@ -1,0 +1,17 @@
+
+This demo presents Information Extraction
+from discharge letters in Bulgarian lan-
+guage. The Patient history section is au-
+tomatically split into episodes (clauses be-
+tween two temporal markers); then drugs,
+diagnoses and conditions are recognised
+within the episodes with accuracy higher
+than 90%. The temporal markers, which re-
+fer to absolute or relative moments of time,
+are identified with precision 87% and re-
+call 68%. The direction of time for the
+episode starting point: backwards or for-
+ward (with respect to certain moment ori-
+enting the episode) is recognised with pre-
+cision 74.4%.
+1 

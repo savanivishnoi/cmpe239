@@ -1,0 +1,228 @@
+s might be easier to annotate than the rest of a paper, but this does not
+necessarily make it possible to define a gold standard solely by looking at the ab-
+stracts. As foreshadowed in section 2.5, abstracts do not contain all types of rhetorical
+information. AIM and OWN sentences make up 74% of the sentences in abstracts, and
+only 5% of all CONTRAST sentences and 3% of all BASIS sentences occur in the abstract.
+Abstracts in our corpus are also not structurally homogeneous. When we inspected
+the rhetorical structure of abstracts in terms of sequences of rhetorical zones, we found
+a high level of variation. Even though the sequence AIM?OWN is very common (con-
+tained in 73% of all abstracts), the 80 abstracts still contain 40 different rhetorical
+sequences, 28 of which are unique. This heterogeneity is in stark contrast to the sys-
+tematic structures Liddy (1991) found to be produced by professional abstractors. Both
+observations, the lack of certain rhetorical types in the abstracts and their rhetorical
+heterogeneity, reassure us in our decision not to use human-written abstracts as a gold
+standard.
+3.3 Annotation of Relevance
+We collected two different kinds of relevance gold standards for the documents in our
+development corpus: abstract-similar document sentences and additional manually
+selected sentences.
+In order to establish alignment between summary and document sentences, we
+used a semiautomatic method that relies on a simple surface similarity measure (long-
+est common subsequence of content words, i.e., excluding words on a stop list). As in
+Kupiec, Pedersen, and Chen?s experiment, final alignment was decided by a human
+judge, and the criterion was semantic similarity of the two sentences. The following
+sentence pair illustrates a direct match:
+Summary: In understanding a reference, an agent determines his
+confidence in its adequacy as a means of identifying the referent.
+Document: An agent understands a reference once he is confident
+in the adequacy of its (inferred) plan as a means of identifying the
+referent.
+424
+Computational Linguistics Volume 28, Number 4
+Of the 346 abstract sentences contained in the 80 documents, 156 (45%) could be
+aligned this way. Because of this low agreement and because certain rhetorical types
+are not present in the abstracts, we decided not to rely on abstract alignment as our
+only gold standard. Instead, we used manually selected sentences as an alternative
+gold standard, which is more informative, but also more subjective.
+We wrote eight pages of guidelines that describe relevance criteria (e.g., our defi-
+nition prescribes that neutral descriptions of other work be selected only if the other
+work is an essential part of the solution presented, whereas all statements of criti-
+cism are to be included). The first author annotated all documents in the development
+corpus for relevance using the rhetorical zones and abstract similarity as aides in the
+relevance decision, and also skim-reading the whole paper before making the decision.
+This resulted in 5 to 28 sentences per paper and a total of 1,183 sentences.
+Implicitly, rhetorical classification of the extracted sentences was already given as
+each of these sentences already had a rhetorical status assigned to it. However, the
+rhetorical scheme we used for this task is slightly different. We excluded TEXTUAL, as
+this category was designed for document uses other than summarization. If a selected
+sentence had the rhetorical class TEXTUAL, it was reclassified into one of the other
+six categories. Figure 8 shows the resulting category distribution among these 1,183
+sentences, which is far more evenly distributed than the one covering all sentences (cf.
+Figure 7). CONTRAST and OWN are the two most frequent categories.
+We did not verify the relevance annotation with human experiments. We accept
+that the set of sentences chosen by the human annotator is only one possible gold
+standard. What is more important is that humans can agree on the rhetorical status of
+the relevant sentences. Liddy observed that agreement on rhetorical status was easier
+for professional abstractors than sentence selection: Although they did not necessarily
+agree on which individual sentences should go into an abstract, they did agree on the
+rhetorical information types that make up a good abstract.
+We asked our trained annotators to classify a set of 200 sentences, randomly
+sampled from the 1,183 sentences selected by the first author, into the six rhetori-
+cal categories. The sentences were presented in order of occurrence in the document,
+but without any context in terms of surrounding sentences. We measured stability at
+K = .9, .86, .83 (N = 100, k = 2) and reproducibility at K = .84 (N = 200, k = 3). These
+results are reassuring: They show that the rhetorical status for important sentences can
+be particularly well determined, better than rhetorical status for all sentences in the
+document (for which reproducibility was K = .71; cf. section 3.2.2).
+Figure 8
+Distribution of rhetorical categories (relevant sentences).
+425
+Teufel and Moens Summarizing Scientific Articles
+4. The System
+We now describe an automatic system that can perform extraction and classification
+of rhetorical status on unseen text (cf. also a prior version of the system reported
+in Teufel and Moens [2000] and Teufel [1999]). We decided to use machine learning
+to perform this extraction and classification, based on a variety of sentential features
+similar to the ones reported in the sentence extraction literature. Human annotation is
+used as training material such that the associations between these sentential features
+and the target sentences can be learned. It is also used as gold standard for intrinsic
+system evaluation.
+A simpler machine learning approach using only word frequency information
+and no other features, as typically used in tasks like text classification, could have
+been employed (and indeed Nanba and Okumura [1999] do so for classifying citation
+contexts). To test if such a simple approach would be enough, we performed a text
+categorization experiment, using the Rainbow implementation of a na??ve Bayes term
+frequency times inverse document frequency (TF*IDF) method (McCallum 1997) and
+considering each sentence as a ?document.? The result was a classification performance
+of K = .30; the classifier nearly always chooses OWN and OTHER segments. The rare but
+important categories AIM, BACKGROUND, CONTRAST, and BASIS could be retrieved only
+with low precision and recall. Therefore, text classification methods do not provide a
+solution to our problem. This is not surprising, given that the definition of our task has
+little to do with the distribution of ?content-bearing? words and phrases, much less so
+than the related task of topic segmentation (Morris and Hirst 1991; Hearst 1997; Choi
+2000), or Saggion and Lapalme?s (2000) approach to the summarization of scientific
+articles, which relies on scientific concepts and their relations. Instead, we predict that
+other indicators apart from the simple words contained in the sentence could provide
+strong evidence for the modeling of rhetorical status. Also, the relatively small amount
+of training material we have at our disposal requires a machine learning method that
+makes optimal use of as many different kinds of features as possible. We predicted that
+this would increase precision and recall on the categories in which we are interested.
+The text classification experiment is still useful as it provides a nontrivial baseline for
+comparison with our intrinsic system evaluation presented in section 5.
+4.1 Classifiers
+We use a na??ve Bayesian model as in Kupiec, Pedersen, and Chen?s (1995) experiment
+(cf. Figure 9). Sentential features are collected for each sentence (Table 4 gives an
+overview of the features we used). Learning is supervised: In the training phase,
+associations between these features and human-provided target categories are learned.
+The target categories are the seven categories in the rhetorical annotation experiment
+and relevant/nonrelevant in the relevance selection experiment. In the testing phase,
+the trained model provides the probability of each target category for each sentence
+of unseen text, on the basis of the sentential features identified for the sentence.
+4.2 Features
+Some of the features in our feature pool are unique to our approach, for instance, the
+metadiscourse features. Others are borrowed from the text extraction literature (Paice
+1990) or related tasks and adapted to the problem of determining rhetorical status.
+Absolute location of a sentence. In the news domain, sentence location is the single
+most important feature for sentence selection (Brandow, Mitze, and Rau 1995); in our
+domain, location information, although less dominant, can still give a useful indication.
+Rhetorical zones appear in typical positions in the article, as scientific argumentation
+426
+Computational Linguistics Volume 28, Number 4
+P(C | F0, . . . , Fn?1) ? P(C)
+?n?1
+j=0 P(Fj | C)
+?n?1
+j=0 P(Fj)
+P(C | F0, . . . , Fn?1): Probability that a sentence has target category C, given its feature val-
+ues F0, . . . , Fn?1;
+P(C): (Overall) probability of category C;
+P(Fj | C): Probability of feature-value pair Fj, given that the sentence is of target
+category C;
+P(Fj): Probability of feature value Fj;
+Figure 9
+Na??ve Bayesian classifier.
+Table 4
+Overview of feature pool.
+Type Name Feature Description Feature Values
+Absolute
+location
+1. Loc Position of sentence in relation to 10
+segments
+A-J
+Explicit
+structure
+2. Section
+Struct
+Relative and absolute position of
+sentence within section (e.g., first
+sentence in section or somewhere in
+second third)
+7 values
+3. Para
+Struct
+Relative position of sentence within a
+paragraph
+Initial, Medial, Final
+4. Headline Type of headline of current section 15 prototypical headlines
+or Non-prototypical
+Sentence
+length
+5. Length Is the sentence longer than a certain
+threshold, measured in words?
+Yes or No
+Content
+features
+6. Title Does the sentence contain words also
+occurring in the title or headlines?
+Yes or No
+7. TF*IDF Does the sentence contain ?significant
+terms? as determined by the TF*IDF
+measure?
+Yes or No
+Verb syntax 8. Voice Voice (of first finite verb in sentence) Active or Passive or
+NoVerb
+9. Tense Tense (of first finite verb in sentence) 9 simple and complex
+tenses or NoVerb
+10. Modal Is the first finite verb modified by
+modal auxiliary?
+Modal or NoModal or
+NoVerb
+Citations 11. Cit Does the sentence contain a citation or
+the name of an author contained in the
+reference list? If it contains a citation,
+is it a self-citation? Whereabouts in the
+sentence does the citation occur?
+{Citation (self), Citation
+(other), Author Name,
+or None} ? {Beginning,
+Middle, End}
+History 12. History Most probable previous category 7 Target Categories +
+?BEGIN?
+Meta-
+discourse
+13. Formulaic Type of formulaic expression occur-
+ring in sentence
+18 Types of Formulaic
+Expressions + 9 Agent
+Types or None
+14. Agent Type of agent 9 Agent Types or None
+15. SegAgent Type of agent 9 Agent Types or None
+16. Action Type of action, with or without
+negation
+27 Action Types or None
+427
+Teufel and Moens Summarizing Scientific Articles
+follows certain patterns (Swales 1990). For example, limitations of the author?s own
+method can be expected to be found toward the end of the article, whereas limitations
+of other researchers? work are often discussed in the introduction. We observed that the
+size of rhetorical zones depends on location, with smaller rhetorical zones occurring
+toward the beginning and the end of the article. We model this by assigning location
+values in the following fashion: The article is divided into 20 equal parts, counting
+sentences. Sentences occurring in parts 1, 2, 3, 4, 19, and 20 receive the values A, B, C,
+D, I, and J, respectively. Parts 5 and 6 are pooled, and sentences occurring in them are
+given the value E; the same procedure is applied to parts 15 and 16 (value G) and 17
+and 18 (value H). The remaining sentences in the middle (parts 7?14) all receive the
+value F (cf. Figure 10).
+Section structure. Sections can have an internal structuring; for instance, sentences
+toward the beginning of a section often have a summarizing function. The section
+location feature divides each section into three parts and assigns seven values: first
+sentence, last sentence, second or third sentence, second-last or third-last sentence, or
+else either somewhere in the first, second, or last third of the section.
+Paragraph structure. In many genres, paragraphs also have internal structure (Wiebe
+1994), with high-level or summarizing sentences occurring more often at the periphery
+of paragraphs. In this feature, sentences are distinguished into those leading or ending
+a paragraph and all others.
+Headlines. Prototypical headlines can be an important predictor of the rhetorical
+status of sentences occurring in the given section; however, not all texts in our collec-
+tion use such headlines. Whenever a prototypical headline is recognized (using a set
+of regular expressions), it is classified into one of the following 15 classes: 

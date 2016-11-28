@@ -1,0 +1,23 @@
+
+With the increasing use of research paper
+search engines, such as CiteSeer, for both lit-
+erature search and hiring decisions, the accu-
+racy of such systems is of paramount impor-
+tance. This paper employs Conditional Ran-
+dom Fields (CRFs) for the task of extracting
+various common fields from the headers and
+citation of research papers. The basic the-
+ory of CRFs is becoming well-understood, but
+best-practices for applying them to real-world
+data requires additional exploration. This paper
+makes an empirical exploration of several fac-
+tors, including variations on Gaussian, expo-
+nential and hyperbolic-L1 priors for improved
+regularization, and several classes of features
+and Markov order. On a standard benchmark
+data set, we achieve new state-of-the-art perfor-
+mance, reducing error in average F1 by 36%,
+and word error rate by 78% in comparison with
+the previous best SVM results. Accuracy com-
+pares even more favorably against HMMs.
+1 

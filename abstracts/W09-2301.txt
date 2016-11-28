@@ -1,0 +1,28 @@
+
+A key concern in building syntax-based ma-
+chine translation systems is how to improve
+coverage by incorporating more traditional
+phrase-based SMT phrase pairs that do not
+correspond to syntactic constituents. At the
+same time, it is desirable to include as much
+syntactic information in the system as pos-
+sible in order to carry out linguistically mo-
+tivated reordering, for example. We apply
+an extended and modified version of the ap-
+proach of Tinsley et al (2007), extracting
+syntax-based phrase pairs from a large parallel
+parsed corpus, combining them with PBSMT
+phrases, and performing joint decoding in a
+syntax-based MT framework without loss of
+translation quality. This effectively addresses
+the low coverage of purely syntactic MT with-
+out discarding syntactic information. Further,
+we show the potential for improved transla-
+tion results with the inclusion of a syntactic
+grammar. We also introduce a new syntax-
+prioritized technique for combining syntactic
+and non-syntactic phrases that reduces overall
+phrase table size and decoding time by 61%,
+with only a minimal drop in automatic trans-
+lation metric scores.
+1 

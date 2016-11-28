@@ -1,0 +1,17 @@
+
+We ran both Brill?s rule-based tagger and TNT,
+a statistical tagger, with a default German
+newspaper-language model on a medical text
+corpus. Supplied with limited lexicon re-
+sources, TNT outperforms the Brill tagger with
+state-of-the-art performance figures (close to
+97% accuracy). We then trained TNT on a large
+annotated medical text corpus, with a slightly
+extended tagset that captures certain medical
+language particularities, and achieved 98% tag-
+ging accuracy. Hence, statistical off-the-shelf
+POS taggers cannot only be immediately reused
+for medical NLP, but they also ? when trained
+on medical corpora ? achieve a higher perfor-
+mance level than for the newspaper genre.
+1 

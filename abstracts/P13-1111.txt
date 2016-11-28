@@ -1,0 +1,20 @@
+ 
+Predicate-argument structure (PAS) has been 
+demonstrated to be very effective in improving 
+SMT performance. However, since a source-
+side PAS might correspond to multiple differ-
+ent target-side PASs, there usually exist many 
+PAS ambiguities during translation. In this pa-
+per, we group PAS ambiguities into two types: 
+role ambiguity and gap ambiguity. Then we 
+propose two novel methods to handle the two 
+PAS ambiguities for SMT accordingly: 1) in-
+side context integration; 2) a novel maximum 
+entropy PAS disambiguation (MEPD) model. 
+In this way, we incorporate rich context in-
+formation of PAS for disambiguation. Then 
+we integrate the two methods into a PAS-
+based translation framework. Experiments 
+show that our approach helps to achieve sig-
+nificant improvements on translation quality. 
+1 

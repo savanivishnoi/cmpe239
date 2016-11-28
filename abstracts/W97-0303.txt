@@ -1,0 +1,22 @@
+ 
+Although Minimum Distance Parsing 
+(MDP) offers a theoretically attractive so- 
+lution to the problem of extragrammat- 
+icality, it is often computationally infea- 
+sible in large scale practical applications. 
+In this paper we present an alternative ap- 
+proach where the labor is distributed be- 
+tween a more restrictive partial parser and 
+a repair module. Though two stage ap- 
+proaches have grown in popularity in re- 
+cent years because of their efficiency, they 
+have done so at the cost of requiring hand 
+coded repair heuristics (Ehrlich and Han- 
+rieder, 1996; Danieli and Gerbino, 1995). 
+In contrast, our two stage approach does 
+not require any hand coded knowledge 
+sources dedicated to repair, thus making 
+it possible to achieve a similar run time 
+advantage over MDP without losing the 
+quality of domain independence. 
+1 

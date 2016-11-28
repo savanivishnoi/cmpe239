@@ -1,0 +1,20 @@
+
+Latent-variable PCFGs (L-PCFGs) are a
+highly successful model for natural language
+parsing. Recent work (Cohen et al, 2012)
+has introduced a spectral algorithm for param-
+eter estimation of L-PCFGs, which?unlike
+the EM algorithm?is guaranteed to give con-
+sistent parameter estimates (it has PAC-style
+guarantees of sample complexity). This paper
+describes experiments using the spectral algo-
+rithm. We show that the algorithm provides
+models with the same accuracy as EM, but is
+an order of magnitude more efficient. We de-
+scribe a number of key steps used to obtain
+this level of performance; these should be rel-
+evant to other work on the application of spec-
+tral learning algorithms. We view our results
+as strong empirical evidence for the viability
+of spectral methods as an alternative to EM.
+1 

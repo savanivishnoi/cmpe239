@@ -1,0 +1,22 @@
+
+Implicit arguments are a discourse-level phe-
+nomenon that has not been extensively stud-
+ied in semantic processing. One reason for
+this lies in the scarce amount of annotated data
+sets available. We argue that more data of
+this kind would be helpful to improve exist-
+ing approaches to linking implicit arguments
+in discourse and to enable more in-depth stud-
+ies of the phenomenon itself. In this paper, we
+present a range of studies that empirically val-
+idate this claim. Our contributions are three-
+fold: we present a heuristic approach to auto-
+matically identify implicit arguments and their
+antecedents by exploiting comparable texts;
+we show how the induced data can be used as
+training data for improving existing argument
+linking models; finally, we present a novel ap-
+proach to modeling local coherence that ex-
+tends previous approaches by taking into ac-
+count non-explicit entity references.
+1 

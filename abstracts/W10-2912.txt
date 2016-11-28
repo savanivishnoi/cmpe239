@@ -1,0 +1,21 @@
+
+In this paper we present a cognitively plau-
+sible approach to word segmentation that
+segments in an online fashion using only
+local information and a lexicon of pre-
+viously segmented words. Unlike popu-
+lar statistical optimization techniques, the
+learner uses structural information of the
+input syllables rather than distributional
+cues to segment words. We develop a
+memory model for the learner that like a
+child learner does not recall previously hy-
+pothesized words perfectly. The learner at-
+tains an F-score of 86.69% in ideal condi-
+tions and 85.05% when word recall is un-
+reliable and stress in the input is reduced.
+These results demonstrate the power that a
+simple learner can have when paired with
+appropriate structural constraints on its hy-
+potheses.
+1 

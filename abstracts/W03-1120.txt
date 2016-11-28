@@ -1,0 +1,22 @@
+
+Since the Web consists of documents in
+various domains or genres, the method
+for Cross-Language Information Retrieval
+(CLIR) of Web documents should be in-
+dependent of a particular domain. In this
+paper, we propose a CLIR method which
+employs a Web directory provided in mul-
+tiple language versions (such as Yahoo!).
+In the proposed method, feature terms are
+first extracted from Web documents for
+each category in the source and the tar-
+get languages. Then, one or more corre-
+sponding categories in another language
+are determined beforehand by comparing
+similarities between categories across lan-
+guages. Using these category pairs, we in-
+tend to resolve ambiguities of simple dic-
+tionary translation by narrowing the cat-
+egories to be retrieved in the target lan-
+guage.
+1 

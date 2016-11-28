@@ -1,0 +1,22 @@
+  
+This paper proposes machine learning 
+techniques, which help disambiguate word 
+meaning. These methods focus on considering 
+the relationship between a word and its 
+surroundings, described as context information 
+in the paper. Context information is produced 
+from rule-based translation such as part-of-
+speech tags, semantic concept, case relations and 
+so on. To automatically extract the context 
+information, we apply machine learning 
+algorithms which are C4.5, C4.5rule and 
+RIPPER. In this paper, we test on ParSit, which 
+is an interlingual-based machine translation for 
+English to Thai. To evaluate our approach, an 
+verb-to-be is selected because it has increased in 
+frequency and it is quite difficult to be translated 
+into Thai by using only linguistic rules. The 
+result shows that the accuracy of C4.5, C4.5rule 
+and RIPPER are 77.7%, 73.1% and 76.1% 
+respectively whereas ParSit give accuracy only 
+48%.  

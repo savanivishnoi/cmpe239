@@ -1,0 +1,33 @@
+ Anaphora in Texts and
+Dialogues
+Costanza Navarretta
+Center for Sprogteknologi, University of Copenhagen
+Njalsgade 80
+2300 Copenhagen S
+costanza@cst.dk
+Abstract
+This paper describes an extension of the
+dar-algorithm (Navarretta, 2004) for re-
+solving intersentential pronominal anaphors
+referring to individual and abstract enti-
+ties in texts and dialogues. In dar indi-
+vidual entities are resolved combining mod-
+els which identify high degree of salience
+with high degree of givenness (topicality)
+of entities in the hearer?s cognitive model,
+e.g. (Grosz et al, 1995), with Hajic?ova? et
+al.?s (1990) salience account which assigns
+the highest degree of salience to entities
+in the focal part of an utterance in Infor-
+mation Structure terms, which often intro-
+duce new information in discourse. Anaph-
+ors referring to abstract entities are resolved
+with an extension of the algorithm pre-
+sented by Eckert and Strube (2000). The
+extended dar-algorithm accounts for differ-
+ences in the resolution mechanisms of differ-
+ent types of Danish pronouns. Manual tests
+of the algorithm show that dar performs
+better than other resolution algorithms on
+the same data.
+1 

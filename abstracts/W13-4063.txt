@@ -1,0 +1,19 @@
+
+Barge-in enables the user to provide input
+during system speech, facilitating a more
+natural and efficient interaction. Stan-
+dard methods generally focus on single-
+stage barge-in detection, applying the di-
+alogue policy irrespective of the barge-in
+context. Unfortunately, this approach per-
+forms poorly when used in challenging
+environments. We propose and evaluate
+a barge-in processing method that uses a
+prediction strategy to continuously decide
+whether to pause, continue, or resume the
+prompt. This model has greater task suc-
+cess and efficiency than the standard ap-
+proach when evaluated in a public spoken
+dialogue system.
+Index Terms: spoken dialogue systems, barge-in
+1 

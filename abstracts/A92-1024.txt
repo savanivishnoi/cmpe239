@@ -1,0 +1,25 @@
+ 
+While complete understanding of arbitrary input text 
+remains in the future, it is currently possible to construct 
+natural anguage processing systems that provide a partial 
+understanding of text with limited accuracy. Moreover, 
+such systems can provide cost-effective solutions to 
+commercially-significant business problems. This paper 
+describes one such system: JASPER. JASPER is a fact 
+extraction system recently developed and deployed by 
+Carnegie Group for Reuters Ltd. JASPER uses a 
+template-driven approach, partial understanding 
+techniques, and heuristic procedures to extract certain key 
+pieces of information from a limited range of text. 
+We believe that many significant business problems can 
+be solved by fact extraction applications which involve 
+locating and extracting specific, predefined types of 
+information from a limited range of text. The information 
+extracted by such systems can be used in a variety of 
+ways, such as filling in values in a database, generating 
+summaries of the input text, serving as a part of the 
+knowledge in an expert system, or feeding into another 
+program which bases decisions on it. We expect to 
+develop many such applications in the future using similar 
+techniques. 
+1. 

@@ -1,0 +1,19 @@
+
+XARA is a rule-based PropBank labeler for
+Alpino XML files, written in Java. I used
+XARA in my research on semantic role la-
+beling in a Dutch corpus to bootstrap a
+dependency treebank with semantic roles.
+Rules in XARA are based on XPath expres-
+sions, which makes it a versatile tool that is
+applicable to other treebanks as well.
+In addition to automatic role annotation,
+XARA is able to extract training instances
+(sets of features) from an XML based tree-
+bank. Such an instance base can be used to
+train machine learning algorithms for auto-
+matic semantic role labeling (SRL). In my
+semantic role labeling research, I used the
+Tilburg Memory Learner (TiMBL) for this
+purpose.
+1 

@@ -1,0 +1,23 @@
+
+Textual records of business-oriented conver-
+sations between customers and agents need
+to be analyzed properly to acquire useful
+business insights that improve productivity.
+For such an analysis, it is critical to iden-
+tify appropriate textual segments and ex-
+pressions to focus on, especially when the
+textual data consists of complete transcripts,
+which are often lengthy and redundant. In
+this paper, we propose a method to iden-
+tify important segments from the conversa-
+tions by looking for changes in the accuracy
+of a categorizer designed to separate differ-
+ent business outcomes. We extract effective
+expressions from the important segments to
+define various viewpoints. In text mining a
+viewpoint defines the important associations
+between key entities and it is crucial that the
+correct viewpoints are identified. We show
+the effectiveness of the method by using real
+datasets from a car rental service center.
+1 

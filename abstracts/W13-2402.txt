@@ -1,0 +1,32 @@
+
+Despite many methods that effectively
+solve sentiment classification task for such
+widely used languages as English, there
+is no clear answer which methods are
+the most suitable for the languages that
+are substantially different. In this paper
+we attempt to solve Internet comments
+sentiment classification task for Lithua-
+nian, using two classification approaches ?
+knowledge-based and supervised machine
+learning. We explore an influence of senti-
+ment word dictionaries based on the differ-
+ent parts-of-speech (adjectives, adverbs,
+nouns, and verbs) for knowledge-based
+method; different feature types (bag-of-
+words, lemmas, word n-grams, character
+n-grams) for machine learning methods;
+and pre-processing techniques (emoticons
+replacement with sentiment words, dia-
+critics replacement, etc.) for both ap-
+proaches. Despite that supervised ma-
+chine learning methods (Support Vec-
+tor Machine and Na??ve Bayes Multino-
+mial) significantly outperform proposed
+knowledge-based method all obtained re-
+sults are above baseline. The best accu-
+racy 0.679 was achieved with Na??ve Bayes
+Multinomial and token unigrams plus bi-
+grams, when pre-processing involved dia-
+critics replacement.
+1 

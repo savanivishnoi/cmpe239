@@ -1,0 +1,27 @@
+
+In addition to a high accuracy, short pars-
+ing and training times are the most impor-
+tant properties of a parser. However, pars-
+ing and training times are still relatively
+long. To determine why, we analyzed the
+time usage of a dependency parser. We il-
+lustrate that the mapping of the features
+onto their weights in the support vector
+machine is the major factor in time com-
+plexity. To resolve this problem, we im-
+plemented the passive-aggressive percep-
+tron algorithm as a Hash Kernel. The
+Hash Kernel substantially improves the
+parsing times and takes into account the
+features of negative examples built dur-
+ing the training. This has lead to a higher
+accuracy. We could further increase the
+parsing and training speed with a paral-
+lel feature extraction and a parallel parsing
+algorithm. We are convinced that the Hash
+Kernel and the parallelization can be ap-
+plied successful to other NLP applications
+as well such as transition based depen-
+dency parsers, phrase structrue parsers,
+and machine translation.
+1 

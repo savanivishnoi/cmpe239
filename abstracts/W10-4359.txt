@@ -1,0 +1,33 @@
+
+A central problem in Interactive Ques-
+tion Answering (IQA) is how to answer
+Follow-Up Questions (FU Qs), possibly
+by taking advantage of information from
+the dialogue context. We assume that FU
+Qs can be classified into specific types
+which determine if and how the correct
+answer relates to the preceding dialogue.
+The main goal of this paper is to propose
+an empirically motivated typology of FU
+Qs, which we then apply in a practical
+IQA setting. We adopt a supervised ma-
+chine learning framework that ranks an-
+swer candidates to FU Qs. Both the an-
+swer ranking and the classification of FU
+Qs is done in this framework, based on a
+host of measures that include shallow and
+deep inter-utterance relations, automati-
+cally collected dialogue management meta
+information, and human annotation. We
+use Principal Component Analysis (PCA)
+to integrate these measures. As a result,
+we confirm earlier findings about the ben-
+efit of distinguishing between topic shift
+and topic continuation FU Qs. We then
+present a typology of FU Qs that is more
+fine-grained, extracted from the PCA and
+based on real dialogue data. Since all our
+measures are automatically computable,
+our results are relevant for IQA systems
+dealing with naturally occurring FU Qs.
+1 

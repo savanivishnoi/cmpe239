@@ -1,0 +1,14 @@
+
+The evaluation of whole-sentence seman-
+tic structures plays an important role in
+semantic parsing and large-scale seman-
+tic structure annotation. However, there is
+no widely-used metric to evaluate whole-
+sentence semantic structures. In this pa-
+per, we present smatch, a metric that cal-
+culates the degree of overlap between two
+semantic feature structures. We give an
+efficient algorithm to compute the metric
+and show the results of an inter-annotator
+agreement study.
+1 

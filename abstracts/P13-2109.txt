@@ -1,0 +1,13 @@
+
+We present fast, accurate, direct non-
+projective dependency parsers with third-
+order features. Our approach uses AD3,
+an accelerated dual decomposition algo-
+rithm which we extend to handle special-
+ized head automata and sequential head
+bigram models. Experiments in fourteen
+languages yield parsing speeds competi-
+tive to projective parsers, with state-of-
+the-art accuracies for the largest datasets
+(English, Czech, and German).
+1 

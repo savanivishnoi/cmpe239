@@ -1,0 +1,22 @@
+
+As research on biomedical text mining is
+shifting focus from simple binary relations
+to more expressive event representations,
+extraction performance drops due to the
+increase in complexity. Recently intro-
+duced data sets specifically targeting static
+relations between named entities and do-
+main terms have been suggested to enable
+a better representation of the biological
+processes underlying annotated events and
+opportunities for addressing their com-
+plexity. In this paper, we present the first
+study of integrating these static relations
+with event data with the aim of enhanc-
+ing event extraction performance. While
+obtaining promising results, we will argue
+that an event extraction framework will
+benefit most from this new data when tak-
+ing intrinsic differences between various
+event types into account.
+1 

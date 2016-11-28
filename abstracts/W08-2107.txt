@@ -1,0 +1,22 @@
+
+This paper investigates, in a first stage,
+some methods for the automatic acquisi-
+tion of verb-particle constructions (VPCs)
+taking into account their statistical prop-
+erties and some regular patterns found in
+productive combinations of verbs and par-
+ticles. Given the limited coverage pro-
+vided by lexical resources, such as dictio-
+naries, and the constantly growing number
+of VPCs, possible ways of automatically
+identifying them are crucial for any NLP
+task that requires some degree of semantic
+interpretation. In a second stage we also
+study whether the combination of statis-
+tical and linguistic properties can provide
+some indication of the degree of idiomatic-
+ity of a given VPC. The results obtained
+show that such combination can success-
+fully be used to detect VPCs and distin-
+guish idiomatic from compositional cases.
+1 

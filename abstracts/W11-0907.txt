@@ -1,0 +1,19 @@
+
+Automatically-derived grammars, such as the
+split-and-merge model, have proven helpful
+in parsing (Petrov et al, 2006). As such
+grammars are refined, latent information is
+recovered which may be usable for linguis-
+tic tasks besides parsing. In this paper, we
+present and examine a new method of seman-
+tic relation classification: using automatically-
+derived grammar rule clusters as a robust
+knowledge source for semantic relation clas-
+sification. We examine performance of this
+feature group on the SemEval 2010 Relation
+Classification corpus, and find that it improves
+performance over both more coarse-grained
+and more fine-grained syntactic and colloca-
+tional features in semantic relation classifica-
+tion.
+1 

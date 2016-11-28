@@ -1,0 +1,21 @@
+ 
+Current graph-based approaches to auto-
+matic text summarization, such as Le-
+xRank and TextRank, assume a static 
+graph which does not model how the in-
+put texts emerge. A suitable evolutionary 
+text graph model may impart a better un-
+derstanding of the texts and improve the 
+summarization process. We propose a 
+timestamped graph (TSG) model that is 
+motivated by human writing and reading 
+processes, and show how text units in this 
+model emerge over time. In our model, 
+the graphs used by LexRank and Tex-
+tRank are specific instances of our time-
+stamped graph with particular parameter 
+settings. We apply timestamped graphs on 
+the standard DUC multi-document text 
+summarization task and achieve compara-
+ble results to the state of the art.  
+1 

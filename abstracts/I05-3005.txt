@@ -1,0 +1,26 @@
+
+Part-of-speech tagging, like any supervised statistical 
+NLP task, is more difficult when test sets are very 
+different from training sets, for example when tag-
+ging across genres or language varieties. We exam-
+ined the problem of POS tagging of different 
+varieties of Mandarin Chinese (PRC-Mainland, PRC-
+Hong Kong, and Taiwan). An analytic study first 
+showed that unknown words were a major source of 
+difficulty in cross-variety tagging. Unknown words 
+in English tend to be proper nouns. By contrast, we 
+found that Mandarin unknown words were mostly 
+common nouns and verbs. We showed these results 
+are caused by the high frequency of morphological 
+compounding in Mandarin; in this sense Mandarin is 
+more like German than English. Based on this analy-
+sis, we propose a variety of new morphological un-
+known-word features for POS tagging, extending 
+earlier work by others on unknown-word tagging in 
+English and German. Our features were implemented 
+in a maximum entropy Markov model. Our system 
+achieves state-of-the-art performance in Mandarin 
+tagging, including improving unknown-word tagging 
+performance on unseen varieties in Chinese Treebank 
+5.0 from 61% to 80% correct. 
+1 

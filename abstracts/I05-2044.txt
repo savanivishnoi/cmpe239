@@ -1,0 +1,22 @@
+ 
+In the Chinese language, a verb may 
+have its dependents on its left, right or on 
+both sides. The ambiguity resolution of 
+right-side dependencies is essential for de-
+pendency parsing of sentences with two or 
+more verbs. Previous works on shift-
+reduce dependency parsers may not guar-
+antee the connectivity of a dependency tree 
+due to their weakness at resolving the 
+right-side dependencies. This paper pro-
+poses a two-phase shift-reduce dependency 
+parser based on SVM learning. The left-
+side dependents and right-side nominal de-
+pendents are detected in Phase I, and right-
+side verbal dependents are decided in 
+Phase II. In experimental evaluation, our 
+proposed method outperforms previous 
+shift-reduce dependency parsers for the 
+Chine language, showing improvement of 
+dependency accuracy by 10.08%.  
+1 

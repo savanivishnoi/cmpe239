@@ -1,0 +1,16 @@
+
+We present a joint morphological-lexical language 
+model (JMLLM) for use in statistical machine trans-
+lation (SMT) of language pairs where one or both of 
+the languages are morphologically rich. The pro-
+posed JMLLM takes advantage of the rich morphol-
+ogy to reduce the Out-Of-Vocabulary (OOV) rate, 
+while keeping the predictive power of the whole 
+words. It also allows incorporation of additional 
+available semantic, syntactic and linguistic informa-
+tion about the morphemes and words into the lan-
+guage model. Preliminary experiments with an
+English to Dialectal-Arabic SMT system demon-
+strate improved translation performance over trigram 
+based baseline language model.
+1 

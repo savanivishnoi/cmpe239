@@ -1,0 +1,21 @@
+ 
+ 
+We propose Bilingual Tree Kernels (BTKs) to 
+capture the structural similarities across a pair of 
+syntactic translational equivalences and apply 
+BTKs to sub-tree alignment along with some 
+plain features. Our study reveals that the struc-
+tural features embedded in a bilingual parse tree 
+pair are very effective for sub-tree alignment 
+and the bilingual tree kernels can well capture 
+such features. The experimental results show 
+that our approach achieves a significant im-
+provement on both gold standard tree bank and 
+automatically parsed tree pairs against a heuris-
+tic similarity based method. We further apply 
+the sub-tree alignment in machine translation 
+with two methods. It is suggested that the sub-
+tree alignment benefits both phrase and syntax 
+based systems by relaxing the constraint of the 
+word alignment. 
+1 

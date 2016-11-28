@@ -1,0 +1,16 @@
+ 
+This paper presents a new approach to 
+automatic word categorization which im- 
+proves both the efficiency of the algorithm 
+and the quality of the formed clusters. The 
+unigram and the bigram statistics of a cor- 
+pus of about two million words are used 
+with an efficient distance function to mea- 
+sure the similarities of words, and a greedy 
+algorithm to put the words into clusters. 
+The notions of fuzzy clustering like cluster 
+prototypes, degree of membership are used 
+to form up the clusters. The algorithm is of 
+unsupervised type and the number of clus- 
+ters are determined at run-time. 
+1 

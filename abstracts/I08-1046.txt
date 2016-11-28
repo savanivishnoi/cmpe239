@@ -1,0 +1,25 @@
+
+We propose a method that incorporates
+paraphrase information from the Web to
+boost the performance of a supervised re-
+lation extraction system. Contextual infor-
+mation is extracted from the Web using a
+semi-supervised process, and summarized
+by skip-bigram overlap measures over the
+entire extract. This allows the capture of lo-
+cal contextual information as well as more
+distant associations. We observe a statisti-
+cally significant boost in relation extraction
+performance.
+We investigate two extensions, thematic
+clustering and hypernym expansion. In tan-
+dem with thematic clustering to reduce noise
+in our paraphrase extraction, we attempt to
+increase the coverage of our search for para-
+phrases using hypernym expansion.
+Evaluation of our method on the ACE 2004
+corpus shows that it out-performs the base-
+line SVM-based supervised learning algo-
+rithm across almost all major ACE relation
+types, by a margin of up to 31%.
+1 

@@ -1,0 +1,20 @@
+
+In this paper, we propose a novel method
+for automatic segmentation of a Sanskrit
+string into different words. The input for
+our segmentizer is a Sanskrit string either
+encoded as a Unicode string or as a Ro-
+man transliterated string and the output is
+a set of possible splits with weights associ-
+ated with each of them. We followed two
+different approaches to segment a Sanskrit
+text using sandhi1 rules extracted from a
+parallel corpus of manually sandhi split
+text. While the first approach augments
+the finite state transducer used to analyze
+Sanskrit morphology and traverse it to seg-
+ment a word, the second approach gener-
+ates all possible segmentations and vali-
+dates each constituent using a morph an-
+alyzer.
+1 

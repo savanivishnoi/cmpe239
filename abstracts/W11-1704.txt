@@ -1,0 +1,17 @@
+
+The paper presents a semi-automatic approach
+to creating sentiment dictionaries in many lan-
+guages. We first produced high-level gold-
+standard sentiment dictionaries for two lan-
+guages and then translated them automatically
+into third languages. Those words that can
+be found in both target language word lists
+are likely to be useful because their word
+senses are likely to be similar to that of the
+two source languages. These dictionaries can
+be further corrected, extended and improved.
+In this paper, we present results that verify
+our triangulation hypothesis, by evaluating tri-
+angulated lists and comparing them to non-
+triangulated machine-translated word lists.
+1 

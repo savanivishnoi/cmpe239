@@ -1,0 +1,22 @@
+
+We present a discriminative model that di-
+rectly predicts which set of phrasal transla-
+tion rules should be extracted from a sen-
+tence pair. Our model scores extraction
+sets: nested collections of all the overlap-
+ping phrase pairs consistent with an under-
+lying word alignment. Extraction set mod-
+els provide two principle advantages over
+word-factored alignment models. First,
+we can incorporate features on phrase
+pairs, in addition to word links. Second,
+we can optimize for an extraction-based
+loss function that relates directly to the
+end task of generating translations. Our
+model gives improvements in alignment
+quality relative to state-of-the-art unsuper-
+vised and supervised baselines, as well
+as providing up to a 1.4 improvement in
+BLEU score in Chinese-to-English trans-
+lation experiments.
+1 

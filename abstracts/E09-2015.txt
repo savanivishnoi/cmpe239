@@ -1,0 +1,17 @@
+
+GF is a grammar formalism that has a
+powerful type system and module system,
+permitting a high level of abstraction and
+division of labour in grammar writing. GF
+is suited both for expert linguists, who
+appreciate its capacity of generalizations
+and conciseness, and for beginners, who
+benefit from its static type checker and,
+in particular, the GF Resource Grammar
+Library, which currently covers 12 lan-
+guages. GF has a notion of multilingual
+grammars, enabling code sharing, linguis-
+tic generalizations, rapid development of
+translation systems, and painless porting
+of applications to new languages.
+1 

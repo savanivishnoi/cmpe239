@@ -1,0 +1,16 @@
+
+Surface realization in statistical natural lan-
+guage generation is based on the idea that when
+there are many ways to say the same thing, the
+most frequent option based on corpus counts
+is the best. Based on data from English and
+Finnish, we argue instead that all options are
+not equivalent, and the most frequent one can
+be incoherent in some contexts. A statistical
+NLG system where word order choice is based
+only on frequency counts of forms cannot cap-
+ture the contextually-appropriate use of word
+order. We describe an alternative method for
+word order selection and show how it outper-
+forms a frequency-only approach.
+1 

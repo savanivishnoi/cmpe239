@@ -1,0 +1,21 @@
+
+Automatic image annotation is an attrac-
+tive approach for enabling convenient ac-
+cess to images found in a variety of docu-
+ments. Since image captions and relevant
+discussions found in the text can be useful
+for summarizing the content of images, it
+is also possible that this text can be used to
+generate salient indexing terms. Unfortu-
+nately, this problem is generally domain-
+specific because indexing terms that are
+useful in one domain can be ineffective
+in others. Thus, we present a supervised
+machine learning approach to image an-
+notation utilizing non-lexical features1 ex-
+tracted from image-related text to select
+useful terms. We apply this approach to
+several subdomains of the biomedical sci-
+ences and show that we are able to reduce
+the number of ineffective indexing terms.
+1 

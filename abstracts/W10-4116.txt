@@ -1,0 +1,26 @@
+
+This paper presents a weakly-supervised
+method for Chinese sentiment analysis
+by incorporating lexical prior knowledge
+obtained from English sentiment lexi-
+cons through machine translation. A
+mechanism is introduced to incorpo-
+rate the prior information about polarity-
+bearing words obtained from existing
+sentiment lexicons into latent Dirichlet
+allocation (LDA) where sentiment labels
+are considered as topics. Experiments
+on Chinese product reviews on mobile
+phones, digital cameras, MP3 players,
+and monitors demonstrate the feasibil-
+ity and effectiveness of the proposed ap-
+proach and show that the weakly su-
+pervised LDA model performs as well
+as supervised classifiers such as Naive
+Bayes and Support vector Machines with
+an average of 83% accuracy achieved
+over a total of 5484 review documents.
+Moreover, the LDA model is able to
+extract highly domain-salient polarity
+words from text.
+1 

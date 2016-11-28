@@ -1,0 +1,22 @@
+
+Discriminative methods have shown significant
+improvements over traditional generative meth-
+ods in many machine learning applications, but
+there has been difficulty in extending them to
+natural language parsing. One problem is that
+much of the work on discriminative methods
+conflates changes to the learning method with
+changes to the parameterization of the problem.
+We show how a parser can be trained with a dis-
+criminative learning method while still param-
+eterizing the problem according to a generative
+probability model. We present three methods
+for training a neural network to estimate the
+probabilities for a statistical parser, one gen-
+erative, one discriminative, and one where the
+probability model is generative but the training
+criteria is discriminative. The latter model out-
+performs the previous two, achieving state-of-
+the-art levels of performance (90.1% F-measure
+on constituents).
+1 

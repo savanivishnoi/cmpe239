@@ -1,0 +1,16 @@
+
+We describe an architecture that allows
+to combine statistical machine translation
+(SMT) with rule-based machine translation
+(RBMT) in a multi-engine setup. We use a
+variant of standard SMT technology to align
+translations from one or more RBMT sys-
+tems with the source text. We incorporate
+phrases extracted from these alignments into
+the phrase table of the SMT system and use
+the open-source decoder Moses to find good
+combinations of phrases from SMT training
+data with the phrases derived from RBMT.
+First experiments based on this hybrid archi-
+tecture achieve promising results.
+1 

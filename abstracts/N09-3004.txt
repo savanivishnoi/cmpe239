@@ -1,0 +1,17 @@
+
+In this paper, we present five models for sentence
+realisation from a bag-of-words containing mini-
+mal syntactic information. It has a large variety
+of applications ranging from Machine Translation
+to Dialogue systems. Our models employ simple
+and efficient techniques based on n-gram Language
+modeling.
+We evaluated the models by comparing the syn-
+thesized sentences with reference sentences using
+the standard BLEU metric(Papineni et al, 2001).
+We obtained higher results (BLEU score of 0.8156)
+when compared to the state-of-art results. In fu-
+ture, we plan to incorporate our sentence realiser in
+Machine Translation and observe its effect on the
+translation accuracies.
+1 

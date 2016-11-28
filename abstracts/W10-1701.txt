@@ -1,0 +1,27 @@
+
+We present a word alignment framework
+that can incorporate partial manual align-
+ments. The core of the approach is a
+novel semi-supervised algorithm extend-
+ing the widely used IBM Models with
+a constrained EM algorithm. The par-
+tial manual alignments can be obtained
+by human labelling or automatically by
+high-precision-low-recall heuristics. We
+demonstrate the usages of both methods
+by selecting alignment links from manu-
+ally aligned corpus and apply links gen-
+erated from bilingual dictionary on unla-
+belled data. For the first method, we con-
+duct controlled experiments on Chinese-
+English and Arabic-English translation
+tasks to compare the quality of word align-
+ment, and to measure effects of two differ-
+ent methods in selecting alignment links
+from manually aligned corpus. For the
+second method, we experimented with
+moderate-scale Chinese-English transla-
+tion task. The experiment results show an
+average improvement of 0.33 BLEU point
+across 8 test sets.
+1 

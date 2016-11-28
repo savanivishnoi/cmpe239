@@ -1,0 +1,25 @@
+
+We study two approaches to the marking of
+extra-propositional aspects of statements in
+text: the task-independent cue-and-scope rep-
+resentation considered in the CoNLL-2010
+Shared Task, and the tagged-event representa-
+tion applied in several recent event extraction
+tasks. Building on shared task resources and
+the analyses from state-of-the-art systems rep-
+resenting the two broad lines of research, we
+identify specific points of mismatch between
+the two perspectives and propose ways of ad-
+dressing them. We demonstrate the feasibility
+of our approach by constructing a method that
+uses cue-and-scope analyses together with a
+small set of features motivated by data anal-
+ysis to predict event negation and speculation.
+Evaluation on BioNLP Shared Task 2011 data
+indicates the method to outperform the nega-
+tion/speculation components of state-of-the-
+art event extraction systems.
+The system and resources introduced in this
+work are publicly available for research pur-
+poses at: https://github.com/ninjin/eepura
+1 

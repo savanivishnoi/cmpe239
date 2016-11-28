@@ -1,0 +1,34 @@
+
+Parse-tree paths are commonly used to incor-
+porate information from syntactic parses into
+NLP systems. These systems typically treat
+the paths as atomic (or nearly atomic) features;
+these features are quite sparse due to the im-
+mense variety of syntactic expression. In this
+paper, we propose a general method for learn-
+ing how to iteratively simplify a sentence, thus
+decomposing complicated syntax into small,
+easy-to-process pieces. Our method applies
+a series of hand-written transformation rules
+corresponding to basic syntactic patterns ?
+for example, one rule ?depassivizes? a sen-
+tence. The model is parameterized by learned
+weights specifying preferences for some rules
+over others. After applying all possible trans-
+formations to a sentence, we are left with a
+set of candidate simplified sentences. We ap-
+ply our simplification system to semantic role
+labeling (SRL). As we do not have labeled ex-
+amples of correct simplifications, we use la-
+beled training data for the SRL task to jointly
+learn both the weights of the simplification
+model and of an SRL model, treating the sim-
+plification as a hidden variable. By extracting
+and labeling simplified sentences, this com-
+bined simplification/SRL system better gener-
+alizes across syntactic variation. It achieves
+a statistically significant 1.2% F1 measure in-
+crease over a strong baseline on the Conll-
+2005 SRL task, attaining near-state-of-the-art
+performance.
+1 

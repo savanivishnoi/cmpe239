@@ -1,0 +1,23 @@
+
+We present a Hebrew to English transliter-
+ation method in the context of a machine
+translation system. Our method uses ma-
+chine learning to determine which terms
+are to be transliterated rather than trans-
+lated. The training corpus for this purpose
+includes only positive examples, acquired
+semi-automatically. Our classifier reduces
+more than 38% of the errors made by a
+baseline method. The identified terms are
+then transliterated. We present an SMT-
+based transliteration model trained with a
+parallel corpus extracted from Wikipedia
+using a fairly simple method which re-
+quires minimal knowledge. The correct re-
+sult is produced in more than 76% of the
+cases, and in 92% of the instances it is one
+of the top-5 results. We also demonstrate a
+small improvement in the performance of
+a Hebrew-to-English MT system that uses
+our transliteration module.
+1 

@@ -1,0 +1,17 @@
+ 
+The paper describes a data driven dependency 
+parsing approach which uses clausal informa-
+tion of a sentence to improve the parser per-
+formance. The clausal information is added 
+automatically during the parsing process. We 
+demonstrate the experiments on Hindi, a lan-
+guage with relatively rich case marking sys-
+tem and free-word-order. All the experiments 
+are done using a modified version of 
+MSTParser. We did all the experiments on the 
+ICON 2009 parsing contest data. We achieved 
+an improvement of 0.87% and 0.77% in unla-
+beled attachment and labeled attachment accu-
+racies respectively over the baseline parsing 
+accuracies. 
+1 

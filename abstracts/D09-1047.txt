@@ -1,0 +1,17 @@
+
+The sense of a preposition is related to the
+semantics of its dominating prepositional
+phrase. Knowing the sense of a prepo-
+sition could help to correctly classify the
+semantic role of the dominating preposi-
+tional phrase and vice versa. In this pa-
+per, we propose a joint probabilistic model
+for word sense disambiguation of preposi-
+tions and semantic role labeling of prepo-
+sitional phrases. Our experiments on the
+PropBank corpus show that jointly learn-
+ing the word sense and the semantic role
+leads to an improvement over state-of-the-
+art individual classifier models on the two
+tasks.
+1 

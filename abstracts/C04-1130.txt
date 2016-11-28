@@ -1,0 +1,25 @@
+ 
+ 
+Classifier combination is a promising way 
+to improve performance of word sense 
+disambiguation. We propose a new 
+combinational method in this paper. We first 
+construct a series of Na?ve Bayesian 
+classifiers along a sequence of orderly 
+varying sized windows of context, and 
+perform sense selection for both training 
+samples and test samples using these 
+classifiers. We thus get a sense selection 
+trajectory along the sequence of context 
+windows for each sample. Then we make use 
+of these trajectories to make final 
+k-nearest-neighbors-based sense selection for 
+test samples. This method aims to lower the 
+uncertainty brought by classifiers using 
+different context windows and make more 
+robust utilization of context while perform 
+well. Experiments show that our approach 
+outperforms some other algorithms on both 
+robustness and performance. 
+ 
+1  

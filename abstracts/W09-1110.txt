@@ -1,0 +1,23 @@
+
+Specifying an appropriate feature space is an
+important aspect of achieving good perfor-
+mance when designing systems based upon
+learned classifiers. Effectively incorporat-
+ing information regarding semantically related
+words into the feature space is known to pro-
+duce robust, accurate classifiers and is one ap-
+parent motivation for efforts to automatically
+generate such resources. However, naive in-
+corporation of this semantic information may
+result in poor performance due to increased
+ambiguity. To overcome this limitation, we
+introduce the interactive feature space con-
+struction protocol, where the learner identi-
+fies inadequate regions of the feature space
+and in coordination with a domain expert adds
+descriptiveness through existing semantic re-
+sources. We demonstrate effectiveness on an
+entity and relation extraction system includ-
+ing both performance improvements and ro-
+bustness to reductions in annotated data.
+1 

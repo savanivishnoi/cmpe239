@@ -1,0 +1,20 @@
+
+Sequential modeling has been widely used in
+a variety of important applications including
+named entity recognition and shallow pars-
+ing. However, as more and more real time
+large-scale tagging applications arise, decod-
+ing speed has become a bottleneck for exist-
+ing sequential tagging algorithms. In this pa-
+per we propose 1-best A*, 1-best iterative A*,
+k-best A* and k-best iterative Viterbi A* al-
+gorithms for sequential decoding. We show
+the efficiency of these proposed algorithms for
+five NLP tagging tasks. In particular, we show
+that iterative Viterbi A* decoding can be sev-
+eral times or orders of magnitude faster than
+the state-of-the-art algorithm for tagging tasks
+with a large number of labels. This algorithm
+makes real-time large-scale tagging applica-
+tions with thousands of labels feasible.
+1 

@@ -1,0 +1,21 @@
+
+This paper presents a novel method for ac-
+quiring a set of query patterns to retrieve
+documents containing important informa-
+tion about an entity. Given an existing
+Wikipedia category that contains the tar-
+get entity, we extract and select a small
+set of query patterns by presuming that
+formulating search queries with these pat-
+terns optimizes the overall precision and
+coverage of the returned Web informa-
+tion. We model this optimization prob-
+lem as a weighted maximum satisfiabil-
+ity (weighted Max-SAT) problem. The
+experimental results demonstrate that the
+proposed method outperforms other meth-
+ods based on statistical measures such as
+frequency and point-wise mutual informa-
+tion (PMI), which are widely used in rela-
+tion extraction.
+1 

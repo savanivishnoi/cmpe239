@@ -1,0 +1,26 @@
+
+The trend toward the growing multi-
+linguality of the Internet requires text
+summarization techniques that work
+equally well in multiple languages. Only
+some of the automated summarization
+methods proposed in the literature, how-
+ever, can be defined as ?language-
+independent?, as they are not based on
+any morphological analysis of the sum-
+marized text. In this paper, we per-
+form an in-depth comparative analysis of
+language-independent sentence scoring
+methods for extractive single-document
+summarization. We evaluate 15 pub-
+lished summarization methods proposed
+in the literature and 16 methods intro-
+duced in (Litvak et al, 2010). The eval-
+uation is performed on English and He-
+brew corpora. The results suggest that
+the performance ranking of the com-
+pared methods is quite similar in both
+languages. The top ten bilingual scoring
+methods include six methods introduced
+in (Litvak et al, 2010).
+1 

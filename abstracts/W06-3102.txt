@@ -1,0 +1,33 @@
+
+This paper presents some very prelimi-
+nary results for and problems in develop-
+ing a statistical machine translation sys-
+tem from English to Turkish. Starting with
+a baseline word model trained from about
+20K aligned sentences, we explore various
+ways of exploiting morphological struc-
+ture to improve upon the baseline sys-
+tem. As Turkish is a language with com-
+plex agglutinative word structures, we ex-
+periment with morphologically segmented
+and disambiguated versions of the parallel
+texts in order to also uncover relations be-
+tween morphemes and function words in
+one language with morphemes and func-
+tions words in the other, in addition to re-
+lations between open class content words.
+Morphological segmentation on the Turk-
+ish side also conflates the statistics from
+allomorphs so that sparseness can be al-
+leviated to a certain extent. We find
+that this approach coupled with a simple
+grouping of most frequent morphemes and
+function words on both sides improve the
+BLEU score from the baseline of 0.0752
+to 0.0913 with the small training data. We
+close with a discussion on why one should
+not expect distortion parameters to model
+word-local morpheme ordering and that a
+new approach to handling complex mor-
+photactics is needed.
+1 

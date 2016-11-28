@@ -1,0 +1,16 @@
+
+Significant research efforts have been devoted to
+speech summarization, including automatic ap-
+proaches and evaluation metrics. However, a fun-
+damental problem about what summaries are for the
+speech data and whether humans agree with each
+other remains unclear. This paper performs an anal-
+ysis of human annotated extractive summaries us-
+ing the ICSI meeting corpus with an aim to examine
+their consistency and the factors impacting human
+agreement. In addition to using Kappa statistics and
+ROUGE scores, we also proposed a sentence dis-
+tance score and divergence distance as a quantitative
+measure. This study is expected to help better define
+the speech summarization problem.
+1 

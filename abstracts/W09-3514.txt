@@ -1,0 +1,21 @@
+
+We interpret the problem of transliterat-
+ing English named entities into Hindi or
+Japanese Katakana as a variant of the
+letter-to-phoneme (L2P) subtask of text-
+to-speech processing. Therefore, we apply
+a re-implementation of a state-of-the-art,
+discriminative L2P system (Jiampojamarn
+et al, 2008) to the problem, without fur-
+ther modification. In doing so, we hope
+to provide a baseline for the NEWS 2009
+Machine Transliteration Shared Task (Li
+et al, 2009), indicating how much can be
+achieved without transliteration-specific
+technology. This paper briefly sum-
+marizes the original work and our re-
+implementation. We also describe a bug
+in our submitted implementation, and pro-
+vide updated results on the development
+and test sets.
+1 

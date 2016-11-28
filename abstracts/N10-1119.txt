@@ -1,0 +1,26 @@
+
+We examine the viability of building large
+polarity lexicons semi-automatically from the
+web. We begin by describing a graph propa-
+gation framework inspired by previous work
+on constructing polarity lexicons from lexi-
+cal graphs (Kim and Hovy, 2004; Hu and
+Liu, 2004; Esuli and Sabastiani, 2009; Blair-
+Goldensohn et al, 2008; Rao and Ravichan-
+dran, 2009). We then apply this technique
+to build an English lexicon that is signifi-
+cantly larger than those previously studied.
+Crucially, this web-derived lexicon does not
+require WordNet, part-of-speech taggers, or
+other language-dependent resources typical of
+sentiment analysis systems. As a result, the
+lexicon is not limited to specific word classes
+? e.g., adjectives that occur in WordNet ?
+and in fact contains slang, misspellings, multi-
+word expressions, etc. We evaluate a lexicon
+derived from English documents, both qual-
+itatively and quantitatively, and show that it
+provides superior performance to previously
+studied lexicons, including one derived from
+WordNet.
+1 

@@ -1,0 +1,25 @@
+ 
+Alignment methods based on byte-length 
+comparisons of alignment blocks have been 
+remarkably successful for aligning good 
+translations from legislative transcriptions. 
+For noisy translations in which the parallel 
+text of a document has significant structural 
+differences, byte-alignment methods often 
+do not perform well. The Pan American 
+Health Organization (PAHO) corpus is a 
+series of articles that were first translated by 
+machine methods and then improved by pro- 
+fessional translators. Many of the Spanish 
+PAHO texts do not share formatting conven- 
+tions with the corresponding English docu- 
+ments, refer to tables in stylistically different 
+ways and contain extraneous information. A
+method based on a dynamic programming 
+framework, but using a decision criterion 
+derived from a combination of byte-length 
+ratio measures, hard matching of numbers, 
+string comparisons and n-gram co-occur- 
+rence matching substantially improves the 
+performance of the alignment process. 
+1 

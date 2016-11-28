@@ -1,0 +1,17 @@
+
+The paper describes the overall design of a 
+new two stage constraint based hybrid ap-
+proach to dependency parsing. We define 
+the  two  stages  and  show  how  different 
+grammatical construct are parsed at appro-
+priate stages. This division leads to selec-
+tive identification and resolution of specif-
+ic dependency relations at the two stages. 
+Furthermore,  we  show  how  the  use  of 
+hard constraints and soft constraints helps 
+us  build  an  efficient  and  robust  hybrid 
+parser.  Finally,  we  evaluate  the  imple-
+mented parser on Hindi and compare the 
+results with that of two data driven depen-
+dency parsers.
+1 

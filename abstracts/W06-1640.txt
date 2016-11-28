@@ -1,0 +1,15 @@
+
+Combining fine-grained opinion informa-
+tion to produce opinion summaries is im-
+portant for sentiment analysis applica-
+tions. Toward that end, we tackle the
+problem of source coreference resolution
+? linking together source mentions that re-
+fer to the same entity. The partially super-
+vised nature of the problem leads us to de-
+fine and approach it as the novel problem
+of partially supervised clustering. We pro-
+pose and evaluate a new algorithm for the
+task of source coreference resolution that
+outperforms competitive baselines.
+1 

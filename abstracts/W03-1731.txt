@@ -1,0 +1,46 @@
+  
+This paper introduces a Chinese word 
+tokenization system through HMM-based 
+chunking. Experiments show that such a 
+system can well deal with the unknown word 
+problem in Chinese word tokenization. 
+The second term in (2-1) is the mutual 
+information between T  and . In order to 
+simplify the computation of this term, we assume 
+mutual information independence (2-2): 
+n
+1
+nG1
+?
+=
+= n
+i
+n
+i
+nn GtMIGTMI
+1
+111 ),(),(  or 
+?
+=
+=?
+n
+i
+nn
+nn
+GPTP
+GTP
+111
+11 log
+)()(
+),(
+log ? ni
+n
+i
+GPtP
+GtP
+1
+1
+)()(
+),(
+    
+1  

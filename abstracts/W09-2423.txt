@@ -1,0 +1,16 @@
+
+We present GLARF, a framework for repre-
+senting three linguistic levels and systems for
+generating this representation. We focus on a
+logical level, like LFG?s F-structure, but com-
+patible with Penn Treebanks. While less fine-
+grained than typical semantic role labeling ap-
+proaches, our logical structure has several ad-
+vantages: (1) it includes all words in all sen-
+tences, regardless of part of speech or seman-
+tic domain; and (2) it is easier to produce ac-
+curately. Our systems achieve 90% for En-
+glish/Japanese News and 74.5% for Chinese
+News ? these F-scores are nearly the same as
+those achieved for treebank-based parsing.
+1 

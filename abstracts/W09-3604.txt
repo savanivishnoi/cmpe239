@@ -1,0 +1,38 @@
+ 
+Classifying research papers into patent classi-
+fication systems enables an exhaustive and ef-
+fective invalidity search, prior art search, and 
+technical trend analysis. However, it is very 
+costly to classify research papers manually. 
+Therefore, we have studied automatic classifi-
+cation of research papers into a patent classifi-
+cation system. To classify research papers into 
+patent classification systems, the differences in 
+terms used in research papers and patents 
+should be taken into account. This is because 
+the terms used in patents are often more ab-
+stract or creative than those used in research 
+papers in order to widen the scope of the 
+claims. It is also necessary to do exhaustive 
+searches and analyses that focus on classifica-
+tion of research papers written in various lan-
+guages. To solve these problems, we propose 
+some classification methods using two ma-
+chine translation models. When translating 
+English research papers into Japanese, the per-
+formance of a translation model for patents is 
+inferior to that for research papers due to the 
+differences in terms used in research papers 
+and patents. However, the model for patents is 
+thought to be useful for our task because trans-
+lation results by patent translation models tend 
+to contain more patent terms than those for re-
+search papers. To confirm the effectiveness of 
+our methods, we conducted some experiments 
+using the data of the Patent Mining Task in the 
+NTCIR-7 Workshop. From the experimental 
+results, we found that our method using trans-
+lation models for both research papers and pa-
+tents was more effective than using a single 
+translation model. 
+1 

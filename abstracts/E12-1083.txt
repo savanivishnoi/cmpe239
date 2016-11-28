@@ -1,0 +1,22 @@
+
+Patent translation is a complex problem due
+to the highly specialized technical vocab-
+ulary and the peculiar textual structure of
+patent documents. In this paper we analyze
+patents along the orthogonal dimensions of
+topic and textual structure. We view differ-
+ent patent classes and different patent text
+sections such as title, abstract, and claims,
+as separate translation tasks, and investi-
+gate the influence of such tasks on machine
+translation performance. We study multi-
+task learning techniques that exploit com-
+monalities between tasks by mixtures of
+translation models or by multi-task meta-
+parameter tuning. We find small but sig-
+nificant gains over task-specific training
+by techniques that model commonalities
+through shared parameters. A by-product
+of our work is a parallel patent corpus of 23
+million German-English sentence pairs.
+1 

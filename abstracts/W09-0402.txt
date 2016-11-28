@@ -1,0 +1,23 @@
+
+We explored novel automatic evaluation
+measures for machine translation output
+oriented to the syntactic structure of the
+sentence: the BLEU score on the detailed
+Part-of-Speech (POS) tags as well as the
+precision, recall and F-measure obtained
+on POS n-grams. We also introduced F-
+measure based on both word and POS n-
+grams. Correlations between the new met-
+rics and human judgments were calcu-
+lated on the data of the first, second and
+third shared task of the Statistical Machine
+Translation Workshop. Machine transla-
+tion outputs in four different European
+languages were taken into account: En-
+glish, Spanish, French and German. The
+results show that the new measures cor-
+relate very well with the human judge-
+ments and that they are competitive with
+the widely used BLEU, METEOR and TER
+metrics.
+1 

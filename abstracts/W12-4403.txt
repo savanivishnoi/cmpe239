@@ -1,0 +1,25 @@
+
+We present a new approach to named-entity
+recognition that jointly learns to identify
+named-entities in parallel text. The sys-
+tem generates seed candidates through local,
+cross-language edit likelihood and then boot-
+straps to make broad predictions across both
+languages, optimizing combined contextual,
+word-shape and alignment models. It is com-
+pletely unsupervised, with no manually la-
+beled items, no external resources, only us-
+ing parallel text that does not need to be eas-
+ily alignable. The results are strong, with
+F > 0.85 for purely unsupervised named-
+entity recognition across languages, compared
+to just F = 0.35 on the same data for su-
+pervised cross-domain named-entity recogni-
+tion within a language. A combination of un-
+supervised and supervised methods increases
+the accuracy to F = 0.88. We conclude that
+we have found a viable new strategy for unsu-
+pervised named-entity recognition across low-
+resource languages and for domain-adaptation
+within high-resource languages.
+1 

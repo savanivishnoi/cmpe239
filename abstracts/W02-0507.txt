@@ -1,0 +1,38 @@
+ 
+ 
+We describe the design and 
+implementation of a question answering 
+(QA) system called QARAB. It is a 
+system that takes natural language 
+questions expressed in the Arabic 
+language and attempts to provide short 
+answers. The system?s primary source 
+of knowledge is a collection of Arabic 
+newspaper text extracted from Al-Raya, 
+a newspaper published in Qatar. During 
+the last few years the information 
+retrieval community has attacked this 
+problem for English using standard IR 
+techniques with only mediocre success. 
+We are tackling this problem for Arabic 
+using traditional Information Retrieval 
+(IR) techniques coupled with a 
+sophisticated Natural Language 
+Processing (NLP) approach. To identify 
+the answer, we adopt a keyword 
+matching strategy along with matching 
+simple structures extracted from both 
+the question and the candidate 
+documents selected by the IR system. 
+To achieve this goal, we use an existing 
+tagger to identify proper names and 
+other crucial lexical items and build 
+lexical entries for them on the fly.  We 
+also carry out an analysis of Arabic 
+question forms and attempt a better 
+understanding of what kinds of answers 
+users find satisfactory.  The paucity of 
+studies of real users has limited results 
+in earlier research. 
+ 
+1 

@@ -1,0 +1,15 @@
+ 
+Imbalanced training sets, where one class is 
+heavily underrepresented compared to the oth-
+ers, have a bad effect on the classification of 
+rare class instances. We apply One-sided Sam-
+pling for the first time to a lexical acquisition 
+task (learning verb complements from Modern 
+Greek corpora) to remove redundant and mis-
+leading training examples of verb non-
+dependents and thereby balance our training 
+set. We experiment with well-known learning 
+algorithms to classify new examples. Perform-
+ance improves up to 22% in recall and 15% in 
+precision after balancing the dataset1. 
+1 

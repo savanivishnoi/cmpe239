@@ -1,0 +1,26 @@
+ 
+Chinese Word Segmentation(WS), Name 
+Entity Recognition(NER) and Part-Of-
+Speech(POS) are three important Chinese 
+Corpus annotation tasks. With the great 
+improvement in these annotations on some 
+corpus, now, the robustness, a capability of 
+keeping good performances for a system by 
+automatically fitting the different corpus 
+and standards, become a focal problem. 
+This paper introduces the work on 
+robustness of WS and POS annotation 
+systems from Beijing University of Posts 
+and Telecommunications(BUPT), and two 
+NER systems. The WS system combines a 
+basic WS tagger with an adaptor used to fit 
+a specific standard given. POS taggers are 
+built for different standards under a two 
+step frame, both steps use ME but with 
+incremental features. A multiple 
+knowledge source system and a less 
+knowledge Conditional Random Field 
+(CRF) based systems are used for NER. 
+Experiments show that our WS and POS 
+systems are robust. 
+1 

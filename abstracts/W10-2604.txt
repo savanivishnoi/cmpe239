@@ -1,0 +1,24 @@
+
+Most supervised language processing sys-
+tems show a significant drop-off in per-
+formance when they are tested on text
+that comes from a domain significantly
+different from the domain of the training
+data. Sequence labeling systems like part-
+of-speech taggers are typically trained on
+newswire text, and in tests their error
+rate on, for example, biomedical data can
+triple, or worse. We investigate techniques
+for building open-domain sequence label-
+ing systems that approach the ideal of a
+system whose accuracy is high and con-
+stant across domains. In particular, we in-
+vestigate unsupervised techniques for rep-
+resentation learning that provide new fea-
+tures which are stable across domains, in
+that they are predictive in both the train-
+ing and out-of-domain test data. In exper-
+iments, our novel techniques reduce error
+by as much as 29% relative to the previous
+state of the art on out-of-domain text.
+1 

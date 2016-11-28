@@ -1,0 +1,22 @@
+
+We compare two approaches to the problem
+of Textual Entailment: SLIM, a composi-
+tional approach modeling the task based on
+identifying relations in the entailment pair,
+and BoLI, a lexical matching algorithm.
+SLIM?s framework incorporates a range of
+resources that solve local entailment prob-
+lems. A search-based inference procedure
+unifies these resources, permitting them to
+interact flexibly. BoLI uses WordNet and
+other lexical similarity resources to detect
+correspondence between related words in
+the Hypothesis and the Text. In this pa-
+per we describe both systems in some detail
+and evaluate their performance on the 3rd
+PASCAL RTE Challenge. While the lex-
+ical method outperforms the relation-based
+approach, we argue that the relation-based
+model offers better long-term prospects for
+entailment recognition.
+1 

@@ -1,0 +1,25 @@
+ 
+Statistical classification techniques for 
+natural-language call routing systems 
+have matured to the point where it is pos-
+sible to distinguish between several hun-
+dreds of semantic categories with an 
+accuracy that is sufficient for commercial 
+deployments. For category sets of this 
+size, the problem of maintaining consis-
+tency among manually tagged utterances 
+becomes limiting, as lack of consistency 
+in the training data will degrade perform-
+ance of the classifier. It is thus essential 
+that the set of categories be structured in a 
+way that alleviates this problem, and en-
+ables consistency to be preserved as the 
+domain keeps changing. In this paper, we 
+describe our experiences of using a two-
+level multi-slot semantics as a way of 
+meeting this problem. Furthermore, we 
+explore the ramifications of the approach 
+with respect to classification, evaluation 
+and dialogue design for call routing sys-
+tems. 
+1 

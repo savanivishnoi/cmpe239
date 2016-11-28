@@ -1,0 +1,20 @@
+
+Speech interfaces to question-answering
+systems offer significant potential for find-
+ing information with phones and mo-
+bile networked devices. We describe a
+demonstration of spoken question answer-
+ing using a commercial dictation engine
+whose language models we have cus-
+tomized to questions, a Web-based text-
+prediction interface allowing quick cor-
+rection of errors, and an open-domain
+question-answering system, AnswerBus,
+which is freely available on the Web. We
+describe a small evaluation of the effect
+of recognition errors on the precision of
+the answers returned and make some con-
+crete recommendations for modifying a
+question-answering system for improving
+robustness to spoken input.
+1 

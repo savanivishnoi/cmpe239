@@ -1,0 +1,21 @@
+ 
+As unlexicalized parsing lacks word to-
+ken information, it is important to inves-
+tigate novel parsing features to improve 
+the accuracy. This paper studies a set of 
+tree topological (TT) features. They 
+quantitatively describe the tree shape 
+dominated by each non-terminal node. 
+The features are useful in capturing lin-
+guistic notions such as grammatical 
+weight and syntactic branching, which 
+are factors important to syntactic proc-
+essing but overlooked in the parsing lit-
+erature. By using an ensemble classifier-
+based model, TT features can signifi-
+cantly improve the parsing accuracy of 
+our unlexicalized parser. Further, the 
+ease of estimating TT feature values 
+makes them easy to be incorporated into 
+virtually any mainstream parsers.  
+1 

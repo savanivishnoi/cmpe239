@@ -1,0 +1,22 @@
+
+The numeral system of Arabic is rich in its
+morphosyntactic variety yet suffers from the
+lack of a good computational resource that
+describes it in a reusable way. This implies
+that applications that require the use of rules
+of the Arabic numeral system have to either
+reimplement them each time, which implies
+wasted resources, or use simplified, impre-
+cise rules that result in low quality appli-
+cations. A solution has been devised with
+Grammatical Framework (GF) to use lan-
+guage constructs and grammars as libraries
+that can be written once and reused in vari-
+ous applications. In this paper, we describe
+our implementation of the Arabic numeral
+system, as an example of a bigger imple-
+mentation of a grammar library for Arabic.
+We show that users can reuse our system
+by accessing a simple language-independent
+API rule.
+1 

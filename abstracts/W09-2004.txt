@@ -1,0 +1,3 @@
+ 
+Computational models can be built to capture the syntactic structures and semantic patterns of human punning riddles. This model is then used as rules by a computer to generate its own puns. This paper presents T-PEG, a sys-tem that utilizes phonetic and semantic lin-guistic resources to automatically extract word relationships in puns and store the knowledge in template form. Given a set of training ex-amples, it is able to extract 69.2% usable tem-plates, resulting in computer-generated puns that received an average score of 2.13 as com-pared to 2.70 for human-generated puns from user feedback. 
+1 

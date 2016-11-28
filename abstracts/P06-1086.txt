@@ -1,0 +1,14 @@
+
+We present MAGEAD, a morphological
+analyzer and generator for the Arabic lan-
+guage family. Our work is novel in that
+it explicitly addresses the need for pro-
+cessing the morphology of the dialects.
+MAGEAD performs an on-line analysis to
+or generation from a root+pattern+features
+representation, it has separate phonologi-
+cal and orthographic representations, and
+it allows for combining morphemes from
+different dialects. We present a detailed
+evaluation of MAGEAD.
+1 

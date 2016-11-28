@@ -1,0 +1,20 @@
+ 
+Recognizing speech act types in Twitter is of 
+much theoretical interest and practical use. 
+Our previous research did not adequately 
+address the deficiency of training data for this 
+multi-class learning task. In this work, we set 
+out by assuming only a small seed training set 
+and experiment with two semi-supervised 
+learning schemes, transductive SVM and 
+graph-based label propagation, which can 
+leverage the knowledge about unlabeled data. 
+The efficacy of semi-supervised learning is 
+established by our extensive experiments, 
+which also show that transductive SVM is 
+more suitable than graph-based label 
+propagation for our task. The empirical 
+findings and detailed evidences can 
+contribute to scalable speech act recognition 
+in Twitter. 
+1. 

@@ -1,0 +1,17 @@
+
+We propose a method of constructing an
+example-based machine translation (EBMT)
+system that exploits a content-aligned bilingual
+corpus. First, the sentences and phrases in the
+corpus are aligned across the two languages,
+and the pairs with high translation confidence
+are selected and stored in the translation mem-
+ory. Then, for a given input sentences, the
+system searches for fitting examples based on
+both the monolingual similarity and the transla-
+tion confidence of the pair, and the obtained re-
+sults are then combined to generate the transla-
+tion. Our experiments on translation selection
+showed the accuracy of 85% demonstrating the
+basic feasibility of our approach.
+1 

@@ -1,0 +1,17 @@
+
+Decoding algorithms for syntax based ma-
+chine translation suffer from high compu-
+tational complexity, a consequence of in-
+tersecting a language model with a con-
+text free grammar. Left-to-right decoding,
+which generates the target string in order,
+can improve decoding efficiency by simpli-
+fying the language model evaluation. This
+paper presents a novel left to right decod-
+ing algorithm for tree-to-string translation, us-
+ing a bottom-up parsing strategy and dynamic
+future cost estimation for each partial trans-
+lation. Our method outperforms previously
+published tree-to-string decoders, including a
+competing left-to-right method.
+1 

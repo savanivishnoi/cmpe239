@@ -1,0 +1,22 @@
+
+In this paper we address the issue of au-
+tomatically assigning information status to
+discourse entities. Using an annotated cor-
+pus of conversational English and exploit-
+ing morpho-syntactic and lexical features,
+we train a decision tree to classify entities
+introduced by noun phrases as old, medi-
+ated, or new. We compare its performance
+with hand-crafted rules that are mainly
+based on morpho-syntactic features and
+closely relate to the guidelines that had
+been used for the manual annotation. The
+decision tree model achieves an overall ac-
+curacy of 79.5%, significantly outperform-
+ing the hand-crafted algorithm (64.4%).
+We also experiment with binary classifica-
+tions by collapsing in turn two of the three
+target classes into one and retraining the
+model. The highest accuracy achieved on
+binary classification is 93.1%.
+1 

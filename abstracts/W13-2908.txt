@@ -1,0 +1,22 @@
+
+The task of identifying complex words
+(CWs) is important for lexical simpli-
+fication, however it is often carried out
+with no evaluation of success. There is
+no basis for comparison of current tech-
+niques and, prior to this work, there
+has been no standard corpus or eval-
+uation technique for the CW identi-
+fication task. This paper addresses
+these shortcomings with a new cor-
+pus for evaluating a system?s perfor-
+mance in identifying CWs. Simple
+Wikipedia edit histories were mined for
+instances of single word lexical simpli-
+fications. The corpus contains 731 sen-
+tences, each with one annotated CW.
+This paper describes the method used
+to produce the CW corpus and presents
+the results of evaluation, showing its
+validity.
+1 

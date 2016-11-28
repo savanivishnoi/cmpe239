@@ -1,0 +1,19 @@
+
+We investigate the problem of learn-
+ing a part-of-speech (POS) lexicon for a
+resource-poor language, dialectal Arabic.
+Developing a high-quality lexicon is often
+the first step towards building a POS tag-
+ger, which is in turn the front-end to many
+NLP systems. We frame the lexicon ac-
+quisition problem as a transductive learn-
+ing problem, and perform comparisons
+on three transductive algorithms: Trans-
+ductive SVMs, Spectral Graph Transduc-
+ers, and a novel Transductive Clustering
+method. We demonstrate that lexicon
+learning is an important task in resource-
+poor domains and leads to significant im-
+provements in tagging accuracy for dialec-
+tal Arabic.
+1 

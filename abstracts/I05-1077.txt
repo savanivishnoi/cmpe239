@@ -1,0 +1,10 @@
+. The current work applies Conditional Random Fields to the problem 
+of temporal reference mapping from Chinese text to English text. The learning 
+algorithm utilizes a moderate number of linguistic features that are easy and in-
+expensive to obtain. We train a tense classifier upon a small amount of manu-
+ally labeled data. The evaluation results are promising according to standard 
+measures as well as in comparison with a pilot tense annotation experiment in-
+volving human judges. Our study exhibits potential value for full-scale machine 
+translation systems and other natural language processing tasks in a cross-
+lingual scenario. 
+1   

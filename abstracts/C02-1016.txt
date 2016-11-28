@@ -1,0 +1,16 @@
+
+I present a novel approach to the determination
+of recurrent sound correspondences in bilingual
+wordlists. The idea is to relate correspondences be-
+tween sounds in wordlists to translational equiva-
+lences between words in bitexts (bilingual corpora).
+My method induces models of sound correspon-
+dence that are similar to models developed for sta-
+tistical machine translation. The experiments show
+that the method is able to determine recurrent sound
+correspondences in bilingual wordlists in which less
+than 30% of the pairs are cognates. By employ-
+ing the discovered correspondences, the method can
+identify cognates with higher accuracy than the pre-
+viously reported algorithms.
+1 

@@ -1,0 +1,30 @@
+
+Extracting semantic relations between enti-
+ties from natural language text is an impor-
+tant step towards automatic knowledge ex-
+traction from large text collections and the
+Web. The state-of-the-art approach to rela-
+tion extraction employs Support Vector Ma-
+chines (SVM) and kernel methods for classi-
+fication. Despite the diversity of kernels and
+the near exhaustive trial-and-error on ker-
+nel combination, there lacks a clear under-
+standing of how these kernels relate to each
+other and why some are superior than oth-
+ers. In this paper, we provide an analysis of
+the relative strength and weakness of several
+kernels through systematic experimentation.
+We show that relation extraction can bene-
+fit from increasing the feature space through
+convolution kernel and introducing bias to-
+wards more syntactically meaningful feature
+space. Based on our analysis, we propose
+a new convolution dependency path kernel
+that combines the above two benefits. Our
+experimental results on the standard ACE
+2003 datasets demonstrate that our new ker-
+nel gives consistent and significantly better
+performance than baseline methods, obtain-
+ing very competitive results to the state-of-
+the-art performance.
+1 

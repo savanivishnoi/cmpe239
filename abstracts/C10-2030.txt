@@ -1,0 +1,35 @@
+
+Due to the lack of annotated data sets, 
+there are few studies on machine learning 
+based approaches to extract named enti-
+ties (NEs) in clinical text. The 2009 i2b2 
+NLP challenge is a task to extract six 
+types of medication related NEs, includ-
+ing medication names, dosage, mode, 
+frequency, duration, and reason from 
+hospital discharge summaries. Several 
+machine learning based systems have 
+been developed and showed good per-
+formance in the challenge. Those systems 
+often involve two steps: 1) recognition of 
+medication related entities; and 2) deter-
+mination of the relation between a medi-
+cation name and its modifiers (e.g., do-
+sage). A few machine learning algo-
+rithms including Conditional Random 
+Field (CRF) and Maximum Entropy have 
+been applied to the Named Entity Recog-
+nition (NER) task at the first step. In this 
+study, we developed a Support Vector 
+Machine (SVM) based method to recog-
+nize medication related entities. In addi-
+tion, we systematically investigated vari-
+ous types of features for NER in clinical 
+text. Evaluation on 268 manually anno-
+tated discharge summaries from i2b2 
+challenge showed that the SVM-based 
+NER system achieved the best F-score of 
+90.05% (93.20% Precision, 87.12% Re-
+call), when semantic features generated 
+from a rule-based system were included.
+1 

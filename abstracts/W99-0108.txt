@@ -1,0 +1,19 @@
+ 
+In order to produce coherent text. natural lan- 
+guage generation systems must have the ability 
+to generate pronouns in the appropriate places. 
+In the past, pronoun usage was primarily inves- 
+tigated with respect to the accessibility of ref- 
+erents. We.argue that generating appropriate 
+referring expressions requires looking at fac- 
+tors beyond accessibility. Also important are 
+sentence boundaries, distance from last men- 
+tion, discourse structure and ambiguity. We 
+present an algorithm for generating appropri- 
+ate anaphoric expressions which takes the tent+ 
+poral structure of texts and knowledge about 
+ambiguous contexts into account. We back up 
+our hypotheses with some empirical results in- 
+dicating that our algorithm chooses the right 
+referring expression i 85% of the cases. 
+1 

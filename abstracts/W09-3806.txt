@@ -1,0 +1,33 @@
+
+Most cellular telephones use numeric key-
+pads, where texting is supported by dic-
+tionaries and frequency models. Given a
+key sequence, the entry system recognizes
+the matching words and proposes a rank-
+ordered list of candidates. The ranking
+quality is instrumental to an effective en-
+try.
+This paper describes a new method to en-
+hance entry that combines syntax and lan-
+guage models. We first investigate com-
+ponents to improve the ranking step: lan-
+guage models and semantic relatedness.
+We then introduce a novel syntactic model
+to capture the word context, optimize
+ranking, and then reduce the number of
+keystrokes per character (KSPC) needed
+to write a text. We finally combine this
+model with the other components and we
+discuss the results.
+We show that our syntax-based model
+reaches an error reduction in KSPC of
+12.4% on a Swedish corpus over a base-
+line using word frequencies. We also show
+that bigrams are superior to all the other
+models. However, bigrams have a mem-
+ory footprint that is unfit for most devices.
+Nonetheless, bigrams can be further im-
+proved by the addition of syntactic mod-
+els with an error reduction that reaches
+29.4%.
+1 

@@ -1,0 +1,21 @@
+ 
+In this paper, we study the problem of 
+"learning new compositions of words from 
+given ones with a specific syntactic struc- 
+ture, e.g., A-N or V-N structures. We first 
+cluster words according to the given com- 
+positions, then construct a cluster-based 
+compositional frame for each word cluster, 
+which contains both new and given compo- 
+sitions relevant with the words in the clus- 
+ter. In contrast o other methods, we don't 
+pre-define the number of clusters, and for- 
+malize the problem of clustering words as 
+a non-linear optimization one, in which we 
+specify the environments ofwords based on 
+word clusters to be determined, rather than 
+their neighboring words. To solve the prob- 
+lem, we make use of a kind of cooperative 
+evolution strategy to design an evolution- 
+ary algorithm. 
+1 

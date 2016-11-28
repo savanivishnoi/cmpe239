@@ -1,0 +1,290 @@
+  
+This paper presents a study of military applications of 
+advanced speech processing technology which includes 
+three major elements: (1) review and assessment of cur- 
+rent efforts in military applications of speech technol- 
+ogy; (2) identification of opportunities for future mili- 
+tary applications of advanced speech technology; and (3) 
+identification of problem areas where research in speech 
+processing is needed to meet application requirements, 
+and of current research thrusts which appear promising. 
+The relationship of this study to previous assessments of 
+military applications of speech technology is discussed, 
+and substantial recent progress is noted. Current efforts 
+in military applications of speech technology which are 
+highlighted include: (1) narrowband (2400 b/s) and very 
+low-rate (50-1200 b/s) secure voice communication; (2) 
+voice/data integration in computer networks; (3) speech 
+recognition in fighter aircraft, military helicopters, bat- 
+tle management, and air traffic control training systems; 
+and (4) noise and interference r moval for human listen- 
+ers. Opportunities for advanced applications are identi- 
+fied by means of descriptions of several generic systems 
+which would be possible with advances in speech tech- 
+nology and in system integration. These generic systems 
+include: (1) integrated multi-rate voice/data commu- 
+nications terminal; (2) interactive speech enhancement 
+system; (3) voice-controlled pilot's associate system; (4) 
+advanced air traffic control training systems; (5) battle 
+management command and control support system with 
+spoken natural language interface; and (6) spoken lan- 
+guage translation system. In identifying problem areas 
+and research efforts to meet application requirements, 
+it is observed that some of the most promising research 
+involves the integration of speech algorithm techniques 
+including speech coding, speech recognition, and speaker 
+recognition. 
+1 Int roduct ion  and Summary  
+This paper is the result of a study of military appli- 
+cations of advanced speech processing technology which 
+has been undertaken with the following goals: (1) to 
+*This work was sponsored by the Department of the Air Force 
+and the Defense Advanced Research Projects Agency. 
+review and assess a representative sampling of current 
+efforts in military applications of advanced speech pro- 
+cessing technology; (2) to identify opportunities for new 
+military applications, or further development of current 
+applications; and (3) to identify areas where improve- 
+ments to speech processing technology are needed to 
+address military problems. The intention is to outline 
+a fairly broad range of applications, opportunities and 
+speech technology areas; however, the coverage is not 
+intended to be fully comprehensive, nor to be very de- 
+tailed in any particular area. Numerous references are 
+provided, on other survey articles, on specific applica- 
+tions and technologies, and on pertinent research efforts. 
+An historical point of reference for this paper is the 
+1977 paper by Beek, Neuburg, and Hodge \[10\], which 
+assessed speech recognition and speech processing tech- 
+nology for military applications. A great deal has been 
+accomplished since 1977 both in speech technology and 
+in applications, but the generic application areas iden- 
+tified in that earlier paper generally remain as relevant 
+now as they were in 1977. 
+The organization of this paper is as follows. A 
+framework for the paper is first developed by outlining 
+key speech technology areas and key categories of mili- 
+tary applications, and identifying which technologies are 
+needed for each category of application. Several previ- 
+ous assessments of military applications of speech tech- 
+nology are then reviewed, and the relationship of this 
+study to those assessments is discussed. A representative 
+sampling of current work in the key military application 
+areas is then summarized and assessed. A set of oppor- 
+tunities for advanced applications are then identified and 
+described; the approach is to describe several generic sys- 
+tems which would be possible with advances in speech 
+technology and in system integration. This description 
+Of application opportunities i  followed by a brief outline 
+of areas where improvements are needed in speech tech- 
+nology to meet the challenges of military applications, 
+and notes several major technology development efforts 
+which are in progress. Finally, conclusions and areas for 
+further study are discussed. 
+433 
+2 Framework of Speech Tech- 
+nologies and Military Applica- 
+tion Areas 
+An outline of speech technology areas which are of im- 
+portance for military (and non-military) applications i
+presented in Table 1. All these areas are subjects for on- 
+going research and development. Summaries of the tech- 
+nology are presented in a variety of textbooks and sum- 
+mary papers, and ongoing developments are presented 
+at the annual ICASSP conferences and in other forums. 
+Although the terms used in Table 1 are generally well 
+known, they will be defined, as needed, later in this pa- 
+per in the context of discussions of particular applica- 
+tions. 
+Table 1: Speech Technology Areas for Mi l i tary 
+Applications 
+1. Speech Recognition 
+1.1 Isolated Word Recognition (IWR) 
+1.2 Continuous Speech Recognition (CSR) 
+1.3 Key-Word Recognition (KWR) 
+1.4 Speech Understanding (SU) 
+2. Speaker Recognition 
+2.1 Speaker Verification (SV) 
+2.2 Speaker Identification (SI) 
+2.3 Language Identification (LI) 
+ing communication between people and computers. In 
+the latter area, speech recognition and synthesis gener- 
+ally would serve as a part of a larger system designed to 
+provide a natural user interface between a person and a 
+computer. Tables 1 and 2 together serve as a framework 
+for the remainder of this paper. 
+Table 2: Military Speech Application Areas 
+1. Speech Communications (Speech Coding, Speech 
+Enhancement) 
+1.1 Secure Communications 
+1.2 Bandwidth Reduction 
+2. Speech Recognition Systems for Command and 
+Control (C 2) (IWR, CSR, KWR, SU, Synthesis) 
+2.1 Avionics 
+2.2 Battle Management 
+2.3 Resource and Data Base Management 
+2.4 Interface to Computer and Communication 
+Systems 
+3. Speech Recognition Systems for Training (IWR, 
+CSR, SU, Synthesis) 
+4. Processing of Degraded Speech (Enhancement) 
+5. Security Access Control (SV) 
+3. Speech Coding and Digitization 
+3.1 Waveform Coding 
+3.2 Source Coding Using Analysis/Synthesis 
+3.3 Vector Quantization (VQ) 
+3.4 Multiplexing 
+4. Speech Enhancement 
+4.1 Noise Reduction 
+4.2 Interference Reduction 
+4.3 Speech Transformations (Rate and Pitch) 
+4.4 Distortion Compensation 
+5. Speech Synthesis 
+5.1 Synthesis from Coded Speech 
+5.2 Synthesis from Text 
+Table 2 outlines a number of key military speech appli- 
+cation areas which will be addressed in more detail in this 
+paper, and identifies the speech technology areas which 
+are utilized for each application area. The areas in Ta- 
+ble 2 generally divide into applications involving speech 
+communication between people, and applications involv- 
+3 Relationship to Previous As- 
+sessments of Military Applica- 
+tions of Speech Technology 
+3.1 Beek ,  Neuburg ,  and  Hodge (197"7) 
+This paper \[10\] provided a comprehensive r view of the 
+state-of-the-art of speech technology and military appli- 
+cations as of 1977. It serves as a useful reference point for 
+the present paper. The authors grouped potential mil- 
+itary applications into four major categories: (1) secu- 
+rity (including access control and surveillance); (2) com- 
+mand and control; (3) data transmission and communi- 
+cation; and (4) processing distorted speech. Other than 
+the training application (which was mentioned briefly in 
+the Beek, et al, paper), these categories cover all the 
+application areas listed in Table 2. 
+Most of the applications cited in the 1977 review were 
+in the research and development stage, and a daunt- 
+ing list of unsolved problems was cited. Much progress 
+has been made since 1977 in speech technology (both 
+algorithms, and hardware implementations of these al- 
+gorithms) and in applications. The following areas of 
+progress are worthy of particular note: 
+1. Digital Narrowband Communicat ion Sys- 
+434 
+terns - -  The Linear Predictive Coding (LPC) al- 
+gorithm was relatively new in 1977. Improvements 
+in technology and the coding algorithm have now 
+led to widespread eployment of digital narrowband 
+secure voice, especially by means of the STU-III 
+(secure terminal unit) family of equipment at 2.4 
+kb/s. In addition, significant progress has been 
+made in developing practical coders for lower rates 
+using Vector Quantization (i.e., pattern matching) 
+techniques. 
+2. Automat ic  Speech Recognit ion - -  Major ad- 
+vances both in CSR and IWR have been made 
+largely through the widescale development of 
+statistically-based Hidden Markov Model (HMM) 
+techniques, as well as through the development and 
+application of dynamic time warping (DTW) recog- 
+nition techniques. ItMM techniques which were pio- 
+neered prior to 1977, have in recent years been fur- 
+ther developed at a large number of laboratories, 
+with significant advances both in recognition per- 
+formance and in efficiency of implementation. A
+sampling of basic references on DTW and tIMM is 
+provided by \[6,21,59,60,113\]. \[94\] provides a good 
+overview of speech recognition technology, and has 
+many useful references. A comprehensive bibliog- 
+raphy on speech recognition has recently been pub- 
+lished \[53\]. 
+3. Noise and Interference Reduct ion - -  Work in 
+application of digital speech processing to noise and 
+interference reduction was relatively new in 1977, 
+and has progressed significantly since that time 
+\[89\]. Hardware systems for speech enhancement 
+have been developed \[28,153\] and have been shown 
+to improve both speech readability and ASR perfor- 
+mance under certain conditions of noise and inter- 
+ference. 
+3.2 Woodard  and  Cupp les  (1983)  
+This paper \[159\] did not attempt a comprehensive r - 
+view of the state-of-the-art, but instead described se- 
+lected military applications in three areas: (1) voice in- 
+put for command and control; (2) message sorting by 
+voice; and (3) very-low-bit-rate voice communications. 
+Current and future applications in the first and third 
+areas will be discussed in some detail in the following 
+discussions. For a general discussion of message sorting 
+and surveillance, the reader is referred to \[159\]. 
+3 .3 Other  Rev iews  o f  M i l i ta ry  App l i ca -  
+t ions  o f  Speech  Techno logy  
+The 1984 National Research Council report by Flana- 
+gan, et al, \[38\] contains an excellent review of speech 
+recognition system applications to data base manage- 
+ment, command and control of weapons ystems, and 
+training; a categorization of applications i included, as 
+well as a number of specific case studies. Beek and 
+Vonusa (1983) \[14\] provide a general review of military 
+applications of speech technology, with substantial up- 
+dates from the 1977 Beck, et al, paper referred to above. 
+An early, but comprehensive, assessment of potential 
+military applications of speech understanding systems, 
+is provided by Turn, et al, in 1974 \[143\]. The book by 
+Lea \[68\] contains useful discussions on both military and 
+non-military applications of speech recognition. Other 
+applications overviews are presented in \[11,12,13\]. Tay- 
+lor (1986) \[140\] provides a more updated review of avion- 
+ics applications of speech technology. The Proceedings 
+of Military Speech Technology Conferences (1986-1989) 
+contain a substantial number of useful summaries of spe- 
+cific work in a variety of applications areas. A recent 
+update on military applications of audio processing and 
+speech recognition is provided in \[29\]. 
+3.4 The  NATO Research  Study  Group 
+on  Speech  Process ing  
+The North Atlantic Treaty Organization (NATO) Re- 
+search Study Group on Speech Processing (RSG10) \[87\], 
+originally formed in 1977, has as one of its major con- 
+tinuing objectives the identification and analysis of po- 
+tential military applications of advanced technology. In 
+fact the preparation of this paper has been motivated 
+by the author's association with RSG10 since 1986 as 
+a "technical specialist" in the speech area; much useful 
+information for the paper has been provided by other 
+RSG10 members, or learned during RSG10 site visits to 
+various laboratories in the member NATO countries. 
+The RSG10 group has frequently been involved in the 
+past in activities aimed at disseminating information 
+about speech technology, and military applications in 
+particular, to a wider community. For example, in 1983 
+the group participated in a NATO Advisory Group for 
+Aerospace Research and Development (AGARD) lecture 
+series on speech processing \[2\] which included a number 
+of important papers on military applications of speech 
+recognition \[14,20\]. A similar lecture series was con- 
+ducted in 1990, and the papers in that series \[3\] represent 
+an up-to-date overview of a number of important opics 
+in speech analysis/synthesis and recognition systems for 
+military applications. 
+In another project, RSG10 established in 1983 a work- 
+ing group to look at the human factors aspects of voice 
+input/output systems, which are clearly critical to mili- 
+tary (or non-military) applications. A workshop on this 
+subject ook place in 1986, resulting in a comprehensive 
+book \[141\] with papers representative of the state-of-the- 
+art in research and applications in the area of multimodal 
+person/machine dialogs including voice. 
+In addition to its work in assessing speech technology 
+and opportunities for military applications, RSG10 has 
+continued to initiate and conduct avariety of cooperative 
+international projects \[87\], particularly in the areas of 
+speech recognition in adverse nvironments, peech data 
+base collection, speech recognition performance assess- 
+ment, and human factors issues in speech input/output 
+435 
+systems. 
+4 Current Work in Development 
+of Military Applications of 
+Speech Technology 

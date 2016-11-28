@@ -1,0 +1,30 @@
+ 
+The correct interpretation of biomedical texts 
+by text mining systems requires the recogni-
+tion of a range of types of high-level informa-
+tion (or meta-knowledge) about the text. Ex-
+amples include expressions of negation and 
+speculation, as well as pragmatic/rhetorical in-
+tent (e.g. whether the information expressed 
+represents a hypothesis, generally accepted 
+knowledge, new experimental knowledge, 
+etc.) Although such types of information have 
+previously been annotated at the text-span 
+level (most commonly sentences), annotation 
+at the level of the event is currently quite 
+sparse. In this paper, we focus on the evalua-
+tion of the multi-dimensional annotation 
+scheme that we have developed specifically 
+for enriching bio-events with meta-knowledge 
+information. Our annotation scheme is in-
+tended to be general enough to allow integra-
+tion with different types of bio-event annota-
+tion, whilst being detailed enough to capture 
+important subtleties in the nature of the meta-
+knowledge expressed in the text. To our 
+knowledge, our scheme is unique within the 
+field with regards to the diversity of meta-
+knowledge aspects annotated for each event, 
+whilst the evaluation results have confirmed 
+its feasibility and soundness.  
+1 

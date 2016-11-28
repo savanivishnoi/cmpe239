@@ -1,0 +1,26 @@
+ 
+One of the main problems of many 
+commercial Machine Translation (MT) and 
+experimental systems is that they do not carry 
+out a correct pronominal naphora generation. 
+As mentioned in Mitkov (1996), solving the 
+anaphora nd extracting the antecedent are 
+key issues in a correct translation. 
+In this paper, we propose an Interlingual 
+mechanism that we have called lnterlingual 
+Slot Structure (ISS) based on Slot Structure 
+(SS) presented in Ferrfindez et al (1997). The 
+SS stores the lexical, syntactic, morphologic 
+and semantic information of every constituent 
+of the grammar. The mechanism 1SS allows us 
+to translate pronouns between different 
+languages. In this paper, we have proposed 
+and evaluated ISS for the translation between 
+Spanish and English languages. We have 
+compared pronominal anaphora resolution 
+both in English and Spanish to accomplish a 
+study of the existing discrepancies between 
+two languages. 
+This mechanism could be added to a MT 
+system such as an additional module to solve 
+anaphora generation problem. 

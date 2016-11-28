@@ -1,0 +1,19 @@
+
+It is known that context words tend to be self-
+triggers, that is, the probability of a content
+word to appear more than once in a document,
+given that it already appears once, is signifi-
+cantly higher than the probability of the first oc-
+currence. We look at self-triggerability across
+hyperlinks on the Web. We show that the prob-
+ability of a word  to appear in a Web docu-
+ment 	
+ depends on the presence of  in doc-
+uments pointing to 	
+ . In Document Model-
+ing, we will propose the use of a correction fac-
+tor,  , which indicates how much more likely
+a word is to appear in a document given that
+another document containing the same word is
+linked to it.
+1 

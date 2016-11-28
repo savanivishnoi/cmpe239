@@ -1,0 +1,27 @@
+
+CCG, one of the most prominent grammar
+frameworks, efficiently deals with deletion
+under coordination in natural languages.
+However, when we expand our attention
+to more analytic languages whose degree
+of pro-dropping is more free, CCG?s de-
+composition rule for dealing with gapping
+becomes incapable of parsing some pat-
+terns of intra-sentential ellipses in serial
+verb construction. Moreover, the decom-
+position rule might also lead us to over-
+generation problem. In this paper the
+composition rule is replaced by the use
+of memory mechanism, calledCCG-MM.
+Fillers can be memorized and gaps can be
+induced from an input sentence in func-
+tional application rules, while fillers and
+gaps are associated in coordination and se-
+rialization. Multimodal slashes, which al-
+low or ban memory operations, are utilized
+for ease of resource management. As a
+result, CCG-MM is more powerful than
+canonical CCG, but its generative power
+can be bounded by partially linear indexed
+grammar.
+1 

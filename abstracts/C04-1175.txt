@@ -1,0 +1,28 @@
+
+Word segmentation is an important part of
+many applications, including information
+retrieval, information filtering, document
+analysis, and text summarization. In Thai
+language, the process is complicated since
+words are written continuously, and their
+structures are not well-defined. A recognized
+effective approach to word segmentation is
+Longest Matching, a method based on
+dictionary. Nevertheless, this method suffers
+from character-level and syllable-level
+ambiguities in determining word boundaries.
+This paper proposes a technique to Thai word
+segmentation using a two-step approach. First,
+text is segmented, using an application of
+Prediction by Partial Matching, into syllables
+whose structures are more well-defined. This
+reduces the earlier type of ambiguity. Then,
+the syllables are combined into words by an
+application of a syllable-level longest
+matching method together with a logistic
+regression model which takes into account
+contextual information. The experimental
+results show the syllable segmentation
+accuracy of more than 96.65% and the overall
+word segmentation accuracy of 97%.
+1 

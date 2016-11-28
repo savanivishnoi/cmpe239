@@ -1,0 +1,20 @@
+
+This paper proposes a method to analyze
+Japanese anaphora, in which zero pronouns
+(omitted obligatory cases) are used to refer to
+preceding entities (antecedents). Unlike the
+case of general coreference resolution, zero pro-
+nouns have to be detected prior to resolution
+because they are not expressed in discourse.
+Our method integrates two probability param-
+eters to perform zero pronoun detection and
+resolution in a single framework. The first pa-
+rameter quantifies the degree to which a given
+case is a zero pronoun. The second parame-
+ter quantifies the degree to which a given entity
+is the antecedent for a detected zero pronoun.
+To compute these parameters efficiently, we use
+corpora with/without annotations of anaphoric
+relations. We show the effectiveness of our
+method by way of experiments.
+1 

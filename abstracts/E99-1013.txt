@@ -1,0 +1,29 @@
+ 
+This paper proposes a method to over- 
+come the drawbacks of WordNet when 
+applied to information retrieval by com- 
+plementing it with Roget's thesaurus and 
+corpus-derived thesauri. Words and rela- 
+tions which are not included in WordNet 
+can be found in the corpus-derived the- 
+sauri. Effects of polysemy can be min- 
+imized with weighting method consider- 
+ing all query terms and all of the the- 
+sauri. Experimental results show that 
+our method enhances information re- 
+trieval performance significantly. 
+Department of Computer Science 
+Tokyo Institute of Technology 
+2-12-1 Oookayama Meguro-Ku 
+Tokyo 152-8522 Japan 
+{rila,take,tanaka}@cs.titech.ac.jp 
+expansion (Voorhees, 1994; Smeaton and Berrut, 
+1995), computing lexical cohesion (Stairmand, 
+1997), word sense disambiguation (Voorhees, 
+1993), and so on, but the results have not been 
+very successful. 
+Previously, we conducted query expansion ex- 
+periments using WordNet (Mandala et al, to ap- 
+pear 1999) and found limitations, which can be 
+summarized as follows : 
+1 

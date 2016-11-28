@@ -1,0 +1,18 @@
+
+We decribe the submissions made by the Na-
+tional Research Council Canada to the Native
+Language Identification (NLI) shared task.
+Our submissions rely on a Support Vector Ma-
+chine classifier, various feature spaces using
+a variety of lexical, spelling, and syntactic
+features, and on a simple model combination
+strategy relying on a majority vote between
+classifiers. Somewhat surprisingly, a clas-
+sifier relying on purely lexical features per-
+formed very well and proved difficult to out-
+perform significantly using various combina-
+tions of feature spaces. However, the com-
+bination of multiple predictors allowed to ex-
+ploit their different strengths and provided a
+significant boost in performance.
+1 

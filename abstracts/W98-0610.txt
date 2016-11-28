@@ -1,0 +1,25 @@
+ 
+This paper discusses 'head clustering', a novel, 
+linguistically-motivated method for representing 
+the aboutness of a document. First, a list of 
+candidate significant topics consisting all simplex 
+NPs is extracted from the document. Next, these 
+NPs are clustered by head. Finally, a significance 
+measure is obtained by ranking frequency of 
+heads: those NPs with heads that occur with 
+greater frequency in the document are more 
+significant than NPs whose head occurs less 
+frequently. An important strength of this technique 
+is that it is  in principle domain-general. 
+Furthermore, the output can be filtered in a variety 
+of ways, both for automatic processing and for 
+presentation tousers. 
+In order to evaluate the head clustering 
+method, an experiment was conducted in which 
+judges were asked to rate three lists as to whether 
+they conveyed a sense of the content of the article. 
+The judges agreed that the list of simplex NPs 
+with repeated heads was more helpful in 
+representing the content of the full document than 
+a list of keywords with a frequency of greater than 
+one or than a list of repeated word sequences. 

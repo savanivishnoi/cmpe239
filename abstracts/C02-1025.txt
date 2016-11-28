@@ -1,0 +1,16 @@
+
+This paper presents a maximum entropy-based
+named entity recognizer (NER). It differs from pre-
+vious machine learning-based NERs in that it uses
+information from the whole document to classify
+each word, with just one classifier. Previous work
+that involves the gathering of information from the
+whole document often uses a secondary classifier,
+which corrects the mistakes of a primary sentence-
+based classifier. In this paper, we show that the
+maximum entropy framework is able to make use
+of global information directly, and achieves perfor-
+mance that is comparable to the best previous ma-
+chine learning-based NERs on MUC-6 and MUC-7
+test data.
+1 

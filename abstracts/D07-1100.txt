@@ -1,0 +1,14 @@
+
+In this paper, we describe a two-stage multi-
+lingual dependency parser used for the mul-
+tilingual track of the CoNLL 2007 shared
+task. The system consists of two compo-
+nents: an unlabeled dependency parser us-
+ing Gibbs sampling which can incorporate
+sentence-level (global) features as well as
+token-level (local) features, and a depen-
+dency relation labeling module based on
+Support Vector Machines. Experimental re-
+sults show that the global features are useful
+in all the languages.
+1 

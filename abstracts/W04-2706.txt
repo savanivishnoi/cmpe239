@@ -1,0 +1,39 @@
+
+The requirements of the depth and precision
+of annotation vary for different intended uses
+of the corpus but it has been commonly ac-
+cepted nowadays that the standard annotations
+of surface structure are only the first steps in
+a more ambitious research program, aiming at
+a creation of advanced resources for most dif-
+ferent systems of natural language processing
+and for testing and further enrichment of lin-
+guistic and computational theories. Among
+the several possible directions in which we be-
+lieve the standard annotation systems should
+go (and in some cases already attempt to go)
+beyond the POS tagging or shallow syntactic
+annotations, the following four are character-
+ized in the present contribution: (i) predicate-
+argument representation of the underlying syn-
+tactic relations as basically corresponding to a
+rooted tree that can be univocally linearized,
+(ii) the inclusion of the information structure
+using very simple means (the left-to-right or-
+der of the nodes and three attribute values),
+(iii) relating this underlying structure (render-
+ing the ?linguistic meaning,? i.e. the semanti-
+cally relevant counterparts of the grammatical
+means of expression) to certain central aspects
+of referential semantics (reference assignment
+and coreferential relations), and (iv) handling
+of word sense disambiguation. The first three
+issues are documented in the present paper on
+the basis of our experience with the devel-
+opment of the structure and scenario of the
+Prague Dependency Treebank which provides
+for syntactico-semantic annotation of large text
+segments from the Czech National Corpus and
+which is based on a solid theoretical frame-
+work.
+1 

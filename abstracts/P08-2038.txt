@@ -1,0 +1,15 @@
+
+In this paper, we propose a linguistically anno-
+tated reordering model for BTG-based statis-
+tical machine translation. The model incorpo-
+rates linguistic knowledge to predict orders for
+both syntactic and non-syntactic phrases. The
+linguistic knowledge is automatically learned
+from source-side parse trees through an an-
+notation algorithm. We empirically demon-
+strate that the proposed model leads to a sig-
+nificant improvement of 1.55% in the BLEU
+score over the baseline reordering model on
+the NIST MT-05 Chinese-to-English transla-
+tion task.
+1 

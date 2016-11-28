@@ -1,0 +1,23 @@
+ 
+We employ Maximum Entropy model to con-
+duct sub-tree alignment between bilingual 
+phrasal structure trees. Various lexical and 
+structural knowledge is explored to measure the 
+syntactic similarity across Chinese-English bi-
+lingual tree pairs. In the experiment, we evalu-
+ate the sub-tree alignment using both gold 
+standard tree bank and the automatically parsed 
+corpus with manually annotated sub-tree align-
+ment. Compared with a heuristic similarity 
+based method, the proposed method significant-
+ly improves the performance with only limited 
+sub-tree aligned data. To examine its effective-
+ness for multilingual applications, we further at-
+tempt different approaches to apply the sub-tree 
+alignment in both phrase and syntax based SMT 
+systems. We then compare the performance 
+with that of the widely used word alignment. 
+Experimental results on benchmark data show 
+that sub-tree alignment benefits both systems by 
+relaxing the constraint of the word alignment. 
+1 

@@ -1,0 +1,25 @@
+
+Language understanding (LU) modules for
+spoken dialogue systems in the early phases
+of their development need to be (i) easy
+to construct and (ii) robust against vari-
+ous expressions. Conventional methods of
+LU are not suitable for new domains, be-
+cause they take a great deal of effort to
+make rules or transcribe and annotate a suf-
+ficient corpus for training. In our method,
+the weightings of the Weighted Finite State
+Transducer (WFST) are designed on two
+levels and simpler than those for conven-
+tional WFST-based methods. Therefore,
+our method needs much fewer training data,
+which enables rapid prototyping of LU mod-
+ules. We evaluated our method in two dif-
+ferent domains. The results revealed that our
+method outperformed baseline methods with
+less than one hundred utterances as training
+data, which can be reasonably prepared for
+new domains. This shows that our method
+is appropriate for rapid prototyping of LU
+modules.
+1 

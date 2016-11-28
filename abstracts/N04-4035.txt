@@ -1,0 +1,27 @@
+
+Automatic topic segmentation, separation of
+a discourse stream into its constituent sto-
+ries or topics, is a necessary preprocessing
+step for applications such as information re-
+trieval, anaphora resolution, and summariza-
+tion. While significant progress has been made
+in this area for text sources and for English au-
+dio sources, little work has been done in au-
+tomatic, acoustic feature-based segmentation
+of other languages. In this paper, we focus
+on prosody-based topic segmentation of Man-
+darin Chinese. As a tone language, Man-
+darin presents special challenges for applica-
+bility of intonation-based techniques, since the
+pitch contour is also used to establish lexical
+identity. We demonstrate that intonational cues
+such as reduction in pitch and intensity at topic
+boundaries and increase in duration and pause
+still provide significant contrasts in Mandarin
+Chinese. We also build a decision tree classi-
+fier that, based only on word and local context
+prosodic information without reference to term
+similarity, cue phrase, or sentence-level infor-
+mation, achieves boundary classification accu-
+racy of 89-95.8% on a large standard test set.
+1 

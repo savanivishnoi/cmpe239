@@ -1,0 +1,19 @@
+
+Most NLP systems use tokenization as part
+of preprocessing. Generally, tokenizers are
+based on simple heuristics and do not recog-
+nize multi-word units (MWUs) like hot dog
+or black hole unless a precompiled list of
+MWUs is available. In this paper, we propose
+a new cascaded model for detecting MWUs
+of arbitrary length for tokenization, focusing
+on noun phrases in the physics domain. We
+adopt a classification approach because ? un-
+like other work on MWUs ? tokenization re-
+quires a completely automatic approach. We
+achieve an accuracy of 68% for recognizing
+non-compositional MWUs and show that our
+MWU recognizer improves retrieval perfor-
+mance when used as part of an information re-
+trieval system.
+1 

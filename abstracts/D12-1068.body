@@ -1,0 +1,22 @@
+
+We propose an adaptive ensemble method to
+adapt coreference resolution across domains.
+This method has three features: (1) it can op-
+timize for any user-specified objective mea-
+sure; (2) it can make document-specific pre-
+diction rather than rely on a fixed base model
+or a fixed set of base models; (3) it can auto-
+matically adjust the active ensemble members
+during prediction. With simplification, this
+method can be used in the traditional within-
+domain case, while still retaining the above
+features. To the best of our knowledge, this
+work is the first to both (i) develop a domain
+adaptation algorithm for the coreference reso-
+lution problem and (ii) have the above features
+as an ensemble method. Empirically, we show
+the benefits of (i) on the six domains of the
+ACE 2005 data set in domain adaptation set-
+ting, and of (ii) on both the MUC-6 and the
+ACE 2005 data sets in within-domain setting.
+1 

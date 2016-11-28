@@ -1,0 +1,20 @@
+
+We propose an unsupervised, iterative
+method for detecting downward-entailing
+operators (DEOs), which are important for
+deducing entailment relations between sen-
+tences. Like the distillation algorithm of
+Danescu-Niculescu-Mizil et al. (2009), the
+initialization of our method depends on the
+correlation between DEOs and negative po-
+larity items (NPIs). However, our method
+trusts the initialization more and aggres-
+sively separates likely DEOs from spuri-
+ous distractors and other words, unlike dis-
+tillation, which we show to be equivalent
+to one iteration of EM prior re-estimation.
+Our method is also amenable to a bootstrap-
+ping method that co-learns DEOs and NPIs,
+and achieves the best results in identifying
+DEOs in two corpora.
+1 

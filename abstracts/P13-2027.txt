@@ -1,0 +1,17 @@
+
+The current topic modeling approaches for
+Information Retrieval do not allow to ex-
+plicitly model query-oriented latent top-
+ics. More, the semantic coherence of the
+topics has never been considered in this
+field. We propose a model-based feedback
+approach that learns Latent Dirichlet Al-
+location topic models on the top-ranked
+pseudo-relevant feedback, and we mea-
+sure the semantic coherence of those top-
+ics. We perform a first experimental eval-
+uation using two major TREC test collec-
+tions. Results show that retrieval perfor-
+mances tend to be better when using topics
+with higher semantic coherence.
+1 

@@ -1,0 +1,21 @@
+
+While the resolution of term ambiguity is
+important for information extraction (IE)
+systems, the cost of resolving each in-
+stance of an entity can be prohibitively
+expensive on large datasets. To combat
+this, this work looks at ambiguity detec-
+tion at the term, rather than the instance,
+level. By making a judgment about the
+general ambiguity of a term, a system is
+able to handle ambiguous and unambigu-
+ous cases differently, improving through-
+put and quality. To address the term
+ambiguity detection problem, we employ
+a model that combines data from lan-
+guage models, ontologies, and topic mod-
+eling. Results over a dataset of entities
+from four product domains show that the
+proposed approach achieves significantly
+above baseline F-measure of 0.96.
+1 

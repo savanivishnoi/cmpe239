@@ -1,0 +1,23 @@
+
+Arabic presents an interesting challenge to
+natural language processing, being a highly
+inflected and agglutinative language. In
+particular, this paper presents an in-depth
+investigation of the entity detection and
+recognition (EDR) task for Arabic. We
+start by highlighting why segmentation is
+a necessary prerequisite for EDR, continue
+by presenting a finite-state statistical seg-
+menter, and then examine how the result-
+ing segments can be better included into
+a mention detection system and an entity
+recognition system; both systems are statis-
+tical, build around the maximum entropy
+principle. Experiments on a clearly stated
+partition of the ACE 2004 data show that
+stem-based features can significantly im-
+prove the performance of the EDT system
+by 2 absolute F-measure points. The sys-
+tem presented here had a competitive per-
+formance in the ACE 2004 evaluation.
+1 

@@ -1,0 +1,21 @@
+
+While words in documents are generally
+treated as discrete entities, they can be
+embedded in a Euclidean space which
+reflects an a priori notion of similarity
+between them. In such a case, a text
+document can be viewed as a bag-of-
+embedded-words (BoEW): a set of real-
+valued vectors. We propose a novel
+document representation based on such
+continuous word embeddings. It con-
+sists in non-linearly mapping the word-
+embeddings in a higher-dimensional space
+and in aggregating them into a document-
+level representation. We report retrieval
+and clustering experiments in the case
+where the word-embeddings are computed
+from standard topic models showing sig-
+nificant improvements with respect to the
+original topic models.
+1 

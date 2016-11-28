@@ -1,0 +1,25 @@
+ 
+In this paper, we employ the centering the-
+ory in pronoun resolution from the seman-
+tic perspective. First, diverse semantic role 
+features with regard to different predicates 
+in a sentence are explored. Moreover, given 
+a pronominal anaphor, its relative ranking 
+among all the pronouns in a sentence, ac-
+cording to relevant semantic role informa-
+tion and its surface position, is incorporated. 
+In particular, the use of both the semantic 
+role features and the relative pronominal 
+ranking feature in pronoun resolution is 
+guided by extending the centering theory 
+from the grammatical level to the semantic 
+level in tracking the local discourse focus. 
+Finally, detailed pronominal subcategory 
+features are incorporated to enhance the 
+discriminative power of both the semantic 
+role features and the relative pronominal 
+ranking feature. Experimental results on the 
+ACE 2003 corpus show that the centering-
+motivated features contribute much to pro-
+noun resolution.  
+1 

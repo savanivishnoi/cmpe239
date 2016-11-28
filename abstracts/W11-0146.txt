@@ -1,0 +1,14 @@
+
+The MultiModal Interface Language formalism (MMIL) has been selected as the High Level
+Semantic (HLS) formalism for annotating the French MEDIA dialogue corpus. This corpus is com-
+posed of human-machine dialogues in the domain of hotel reservation and tourist information. Utter-
+ances in dialogues have been previously annotated with a concept-value flat semantics for studying
+and evaluating spoken language understanding modules in dialogue systems. We are now interested
+in investigating the use of more complex representations to improve the understanding capability.
+The MMIL intermediate language is a high level semantic formalism that bears relevant linguistic
+information, from syntax up to discourse. This representation should increase the expressivity of
+the current annotation though at the expense of the annotation process complexity. In this paper we
+present our first attempt in defining the annotation guidelines for the HLS annotation of the MEDIA
+corpus and its effect on the annotation process itself, revealed by annotators? disagreements due to
+the different levels of hierarchy and the granularity of the features defined in MMIL.
+1 

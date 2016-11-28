@@ -1,0 +1,23 @@
+
+We describe a set of paraphrase patterns
+for questions which we derived from a
+corpus of questions, and report the result
+of using them in the automatic recogni-
+tion of question paraphrases. The aim
+of our paraphrase patterns is to factor out
+different syntactic variations of interroga-
+tive words, since the interrogative part of
+a question adds a syntactic superstructure
+on the sentence part (i.e., the rest of the
+question), thereby making it difficult for
+an automatic system to analyze the ques-
+tion. The patterns we derived are rules
+which map surface syntactic structures to
+semantic case frames, which serve as the
+canonical representation of questions. We
+also describe the process in which we
+acquired question paraphrases, which we
+used as the test data. The results obtained
+by using the patterns in paraphrase recog-
+nition were quite promising.
+1 

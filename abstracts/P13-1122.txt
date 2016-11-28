@@ -1,0 +1,20 @@
+
+This paper presents HEADY: a novel, ab-
+stractive approach for headline generation
+from news collections. From a web-scale
+corpus of English news, we mine syntac-
+tic patterns that a Noisy-OR model gener-
+alizes into event descriptions. At inference
+time, we query the model with the patterns
+observed in an unseen news collection,
+identify the event that better captures the
+gist of the collection and retrieve the most
+appropriate pattern to generate a head-
+line. HEADY improves over a state-of-the-
+art open-domain title abstraction method,
+bridging half of the gap that separates
+it from extractive methods using human-
+generated titles in manual evaluations, and
+performs comparably to human-generated
+headlines as evaluated with ROUGE.
+1 

@@ -1,0 +1,13 @@
+
+We present a method for training a statistical model for mapping natural language sentences to
+semantic expressions. The semantics are expressions of an underspecified logical form that has prop-
+erties making it particularly suitable for statistical mapping from text. An encoding of the semantic
+expressions into dependency trees with automatically generated labels allows application of exist-
+ing methods for statistical dependency parsing to the mapping task (without the need for separate
+traditional dependency labels or parts of speech). The encoding also results in a natural per-word
+semantic-mapping accuracy measure. We report on the results of training and testing statistical mod-
+els for mapping sentences of the Penn Treebank into the semantic expressions, for which per-word
+semantic mapping accuracy ranges between 79% and 86% depending on the experimental condi-
+tions. The particular choice of algorithms used also means that our trained mapping is deterministic
+(in the sense of deterministic parsing), paving the way for large-scale text-to-semantic mapping.
+1 

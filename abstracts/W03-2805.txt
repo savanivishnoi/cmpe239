@@ -1,0 +1,24 @@
+
+In this paper we attempt to apply the
+IBM algorithm, BLEU, to the output of
+four different summarizers in order to
+perform an intrinsic evaluation of their
+output. The objective of this experiment
+is to explore whether a metric, originally
+developed for the evaluation of machine
+translation output, could be used for as-
+sessing another type of output reliably.
+Changing the type of text to be evalu-
+ated by BLEU into automatically gener-
+ated extracts and setting the conditions
+and parameters of the evaluation exper-
+iment according to the idiosyncrasies
+of the task, we put the feasibility of
+porting BLEU in different Natural Lan-
+guage Processing research areas under
+test. Furthermore, some important con-
+clusions relevant to the resources needed
+for evaluating summaries have come up
+as a side-effect of running the whole ex-
+periment.
+1 

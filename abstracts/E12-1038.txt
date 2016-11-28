@@ -1,0 +1,19 @@
+ 
+We present the PONG method to compute 
+selectional preferences using part-of-speech 
+(POS) N-grams.  From a corpus labeled with 
+grammatical dependencies, PONG learns the 
+distribution of word relations for each POS 
+N-gram.  From the much larger but unlabeled 
+Google N-grams corpus, PONG learns the 
+distribution of POS N-grams for a given pair 
+of words.  We derive the probability that one 
+word has a given grammatical relation to the 
+other. PONG estimates this probability by 
+combining both distributions, whether or not 
+either word occurs in the labeled corpus.  
+PONG achieves higher average precision on 
+16 relations than a state-of-the-art baseline in 
+a pseudo-disambiguation task, but lower 
+coverage and recall. 
+1 

@@ -1,0 +1,33 @@
+
+Electronic Health Records (EHRs) contain
+a large amount of free text documentation
+which is potentially very useful for Infor-
+mation Retrieval and Text Mining appli-
+cations. We have, in an initial annotation
+trial, annotated 6 739 sentences randomly
+extracted from a corpus of Swedish EHRs
+for sentence level (un)certainty, and token
+level speculative keywords and negations.
+This set is split into different clinical prac-
+tices and analyzed by means of descrip-
+tive statistics and pairwise Inter-Annotator
+Agreement (IAA) measured by F
+1
+-score.
+We identify geriatrics as a clinical prac-
+tice with a low average amount of uncer-
+tain sentences and a high average IAA,
+and neurology with a high average amount
+of uncertain sentences. Speculative words
+are often n-grams, and uncertain sentences
+longer than average. The results of this
+analysis is to be used in the creation of a
+new annotated corpus where we will refine
+and further develop the initial annotation
+guidelines and introduce more levels of di-
+mensionality. Once we have finalized our
+guidelines and refined the annotations we
+plan to release the corpus for further re-
+search, after ensuring that no identifiable
+information is included.
+1 

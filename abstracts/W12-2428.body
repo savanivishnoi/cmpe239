@@ -1,0 +1,22 @@
+ 
+A preliminary work on symptom name recog-
+nition from free-text clinical records (FCRs) 
+of traditional Chinese medicine (TCM) is de-
+picted in this paper. This problem is viewed as 
+labeling each character in FCRs of TCM with 
+a pre-defined tag (?B-SYC?, ?I-SYC? or ?O-
+SYC?) to indicate the character?s role (a be-
+ginning, inside or outside part of a symptom 
+name). The task is handled by Conditional 
+Random Fields (CRFs) based on two types of 
+features. The symptom name recognition F-
+Measure can reach up to 62.829% with recog-
+nition rate 93.403% and recognition error rate 
+52.665% under our experiment settings. The 
+feasibility and effectiveness of the methods 
+and reasonable features are verified, and sev-
+eral interesting and helpful results are shown. 
+A detailed analysis for recognizing symptom 
+names from FCRs of TCM is presented 
+through analyzing labeling results of CRFs. 
+1 

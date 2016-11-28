@@ -1,0 +1,17 @@
+
+Both coarse-to-fine and A? parsing use simple
+grammars to guide search in complex ones.
+We compare the two approaches in a com-
+mon, agenda-based framework, demonstrat-
+ing the tradeoffs and relative strengths of each
+method. Overall, coarse-to-fine is much faster
+for moderate levels of search errors, but be-
+low a certain threshold A? is superior. In addi-
+tion, we present the first experiments on hier-
+archical A? parsing, in which computation of
+heuristics is itself guided by meta-heuristics.
+Multi-level hierarchies are helpful in both ap-
+proaches, but are more effective in the coarse-
+to-fine case because of accumulated slack in
+A? heuristics.
+1 

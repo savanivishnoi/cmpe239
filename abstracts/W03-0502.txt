@@ -1,0 +1,23 @@
+ 
+The production of accurate and complete 
+multiple-document summaries is challenged by 
+the complexity of judging the usefulness of 
+information to the user.  Our aim is to determine 
+whether identifying sub-events in a news topic 
+could help us capture essential information to 
+produce better summaries. In our first experiment, 
+we asked human judges to determine the relative 
+utility of sentences as they related to the sub-
+events of a larger topic. We used this data to 
+create summaries by three different methods, and 
+we then compared these summaries with three 
+automatically created summaries.  In our second 
+experiment, we show how the results of our first 
+experiment can be applied to a cluster-based 
+automatic summarization system. Through both 
+experiments, we examine the use of inter-judge 
+agreement and a relative utility metric that 
+accounts for the complexity of determining 
+sentence quality in relation to a topic. 
+ 
+1. 

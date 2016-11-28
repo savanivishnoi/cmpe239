@@ -1,0 +1,26 @@
+ 
+ 
+Unsupervised Data-Oriented Parsing models 
+(U-DOP) represent a class of structure 
+bootstrapping models that have achieved 
+some of the best unsupervised parsing results 
+in the literature. While U-DOP was 
+originally proposed as an engineering 
+approach to language learning (Bod 2005, 
+2006a), it turns out that the model has a 
+number of properties that may also be of 
+linguistic and cognitive interest. In this paper 
+we will focus on the original U-DOP model 
+proposed in Bod (2005) which computes the 
+most probable tree from among the shortest 
+derivations of sentences. We will show that 
+this U-DOP model can learn both rule-based 
+and exemplar-based aspects of language, 
+ranging from agreement and movement 
+phenomena to discontiguous contructions, 
+provided that productive units of arbitrary 
+size are allowed. We argue that our results 
+suggest a rapprochement between nativism 
+and empiricism. 
+ 
+1  

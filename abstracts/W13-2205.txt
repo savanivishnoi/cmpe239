@@ -1,0 +1,16 @@
+
+We describe the CMU systems submit-
+ted to the 2013 WMT shared task in ma-
+chine translation. We participated in three
+language pairs, French?English, Russian?
+English, and English?Russian. Our
+particular innovations include: a label-
+coarsening scheme for syntactic tree-to-
+tree translation and the use of specialized
+modules to create ?synthetic translation
+options? that can both generalize beyond
+what is directly observed in the parallel
+training data and use rich source language
+context to decide how a phrase should
+translate in context.
+1 

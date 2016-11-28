@@ -1,0 +1,23 @@
+ 
+In this paper, we present a new string pat-
+tern matching-based passage ranking al-
+gorithm for extending traditional text-
+based QA toward videoQA. Users interact 
+with our videoQA system through natural 
+language questions, while our system re-
+turns passage fragments with correspond-
+ing video clips as answers. We collect 
+75.6 hours videos and 253 Chinese ques-
+tions for evaluation. The experimental re-
+sults showed that our method 
+outperformed six top-performed ranking 
+models. It is 10.16% better than the sec-
+ond best method (language model) in rela-
+tively MRR score and 6.12% in precision 
+rate. Besides, we also show that the use of 
+a trained Chinese word segmentation tool 
+did decrease the overall videoQA per-
+formance where most ranking algorithms 
+dropped at least 10% in relatively MRR, 
+precision, and answer pattern recall rates. 
+1 

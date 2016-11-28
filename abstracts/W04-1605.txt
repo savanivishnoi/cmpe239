@@ -1,0 +1,21 @@
+
+Performing root-based searching, concordancing,
+and grammar checking in Arabic requires an
+efficient method for matching stems with roots and
+vice versa. Such mapping is complicated by the
+hundreds of manifestations of the same root. An
+algorithm based on the generation method used by
+native speakers is proposed here to provide a map-
+ping from roots to stems. Verb roots are classified
+by the types of their radicals and the stems they
+generate. Roots are moulded with morphosemantic
+and morphosyntactic patterns to generate stems
+modified for tense, voice, and mode, and affixed
+for different subject number, gender, and person.
+The surface forms of applicable morphophonemic
+transformations are then derived using finite state
+machines. This paper defines what is meant by
+?stem?, describes a stem generation engine that the
+authors developed, and outlines how a generated
+stem database is compiled for all Arabic verbs.
+1 

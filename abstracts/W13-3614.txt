@@ -1,0 +1,21 @@
+
+We describe the ?TILB? team entry for
+the CONLL-2013 Shared Task. Our sys-
+tem consists of five memory-based classi-
+fiers that generate correction suggestions
+for center positions in small text windows
+of two words to the left and to the right.
+Trained on the Google Web 1T corpus, the
+first two classifiers determine the presence
+of a determiner or a preposition between
+all words in a text. The second pair of clas-
+sifiers determine which is the most likely
+correction of an occurring determiner or
+preposition. The fifth classifier is a general
+word predictor which is used to suggest
+noun and verb form corrections. We re-
+port on the scores attained and errors cor-
+rected and missed. We point out a num-
+ber of obvious improvements to boost the
+scores obtained by the system.
+1 

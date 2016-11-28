@@ -1,0 +1,22 @@
+
+Supervised estimation methods are widely seen
+as being superior to semi and fully unsuper-
+vised methods. However, supervised methods
+crucially rely upon training sets that need to
+be manually annotated. This can be very ex-
+pensive, especially when skilled annotators are
+required. Active learning (AL) promises to
+help reduce this annotation cost. Within the
+complex domain of HPSG parse selection, we
+show that ideas from ensemble learning can
+help further reduce the cost of annotation. Our
+main results show that at times, an ensemble
+model trained with randomly sampled exam-
+ples can outperform a single model trained us-
+ing AL. However, converting the single-model
+AL method into an ensemble-based AL method
+shows that even this much stronger baseline
+model can be improved upon. Our best results
+show a  reduction in annotation cost com-
+pared with single-model random sampling.
+1 

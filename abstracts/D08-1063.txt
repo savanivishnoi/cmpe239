@@ -1,0 +1,30 @@
+
+While significant effort has been put into an-
+notating linguistic resources for several lan-
+guages, there are still many left that have
+only small amounts of such resources. This
+paper investigates a method of propagat-
+ing information (specifically mention detec-
+tion information) into such low resource
+languages from richer ones. Experiments
+run on three language pairs (Arabic-English,
+Chinese-English, and Spanish-English) show
+that one can achieve relatively decent perfor-
+mance by propagating information from a lan-
+guage with richer resources such as English
+into a foreign language alone (no resources
+or models in the foreign language). Fur-
+thermore, while examining the performance
+using various degrees of linguistic informa-
+tion in a statistical framework, results show
+that propagated features from English help
+improve the source-language system perfor-
+mance even when used in conjunction with all
+feature types built from the source language.
+The experiments also show that using propa-
+gated features in conjunction with lexically-
+derived features only (as can be obtained di-
+rectly from a mention annotated corpus) yields
+similar performance to using feature types de-
+rived from many linguistic resources.
+1 

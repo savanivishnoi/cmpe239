@@ -1,0 +1,18 @@
+
+Systems based on synchronous grammars
+and tree transducers promise to improve
+the quality of statistical machine transla-
+tion output, but are often very computa-
+tionally intensive. The complexity is ex-
+ponential in the size of individual gram-
+mar rules due to arbitrary re-orderings be-
+tween the two languages, and rules ex-
+tracted from parallel corpora can be quite
+large. We devise a linear-time algorithm
+for factoring syntactic re-orderings by bi-
+narizing synchronous rules when possible
+and show that the resulting rule set signif-
+icantly improves the speed and accuracy
+of a state-of-the-art syntax-based machine
+translation system.
+1 

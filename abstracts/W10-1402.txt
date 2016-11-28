@@ -1,0 +1,20 @@
+
+We explore the contribution of different lexi-
+cal and inflectional morphological features to
+dependency parsing of Arabic, a morpholog-
+ically rich language. We experiment with all
+leading POS tagsets for Arabic, and introduce
+a few new sets. We show that training the
+parser using a simple regular expressive ex-
+tension of an impoverished POS tagset with
+high prediction accuracy does better than us-
+ing a highly informative POS tagset with only
+medium prediction accuracy, although the lat-
+ter performs best on gold input. Using con-
+trolled experiments, we find that definiteness
+(or determiner presence), the so-called phi-
+features (person, number, gender), and undi-
+acritzed lemma are most helpful for Arabic
+parsing on predicted input, while case and
+state are most helpful on gold.
+1 

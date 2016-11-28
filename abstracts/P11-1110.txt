@@ -1,0 +1,23 @@
+
+We analyze collective discourse, a collective
+human behavior in content generation, and
+show that it exhibits diversity, a property of
+general collective systems. Using extensive
+analysis, we propose a novel paradigm for de-
+signing summary generation systems that re-
+flect the diversity of perspectives seen in real-
+life collective summarization. We analyze 50
+sets of summaries written by human about the
+same story or artifact and investigate the diver-
+sity of perspectives across these summaries.
+We show how different summaries use vari-
+ous phrasal information units (i.e., nuggets) to
+express the same atomic semantic units, called
+factoids. Finally, we present a ranker that em-
+ploys distributional similarities to build a net-
+work of words, and captures the diversity of
+perspectives by detecting communities in this
+network. Our experiments show how our sys-
+tem outperforms a wide range of other docu-
+ment ranking systems that leverage diversity.
+1 

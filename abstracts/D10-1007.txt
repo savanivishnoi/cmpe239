@@ -1,0 +1,19 @@
+
+This paper presents a two-stage approach to
+summarizing multiple contrastive viewpoints
+in opinionated text. In the first stage, we
+use an unsupervised probabilistic approach to
+model and extract multiple viewpoints in text.
+We experiment with a variety of lexical and
+syntactic features, yielding significant perfor-
+mance gains over bag-of-words feature sets.
+In the second stage, we introduce Compara-
+tive LexRank, a novel random walk formula-
+tion to score sentences and pairs of sentences
+from opposite viewpoints based on both their
+representativeness of the collection as well as
+their contrastiveness with each other. Exper-
+imental results show that the proposed ap-
+proach can generate informative summaries of
+viewpoints in opinionated text.
+1 

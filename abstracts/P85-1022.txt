@@ -1,0 +1,28 @@
+ 
+In the new Head-driven Phrase Structure Grammar 
+(HPSG) language processing system that is currently under 
+development at Hewlett-Packard Laboratories, the 
+Montagovian semantics of the earlier GPSG system (see 
+\[Gawron et al 19821) is replaced by a radically different 
+approach with a number of distinct advantages. In place 
+of the lambda calculus and standard first-order logic, our 
+medium of conceptual representation is a new logical for- 
+realism called NFLT (Neo-Fregean Language of Thought); 
+compositional semantics is effected, not by schematic 
+lambda expressions, but by LISP procedures that operate 
+on NFLT expressions to produce new expressions. NFLT 
+has a number of features that make it well-suited {'or nat- 
+ural language translations, including predicates of variable 
+arity in which explicitly marked situational roles supercede 
+order-coded argument positions, sortally restricted quan- 
+tification, a compositional (but nonextensional) semantics 
+that handles causal contexts, and a princip\[ed conceptual 
+raising mechanism that we expect o lead to a computation- 
+ally tractable account of propositional attitudes. The use 
+of semantically compositional LiSP procedures in place of 
+lambda-schemas llows us to produce fully reduced trans- 
+lations on the fly, with no need for post-processing. This 
+approach should simplify the task of using semantic infor- 
+mation (such as sortal incompatibilities) to eliminate bad 
+parse paths. 
+I. 

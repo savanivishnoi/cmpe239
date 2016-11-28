@@ -1,0 +1,23 @@
+
+It is commonly believed that word segmentation ac-
+curacy is monotonically related to retrieval perfor-
+mance in Chinese information retrieval. In this pa-
+per we show that, for Chinese, the relationship be-
+tween segmentation and retrieval performance is in
+fact nonmonotonic; that is, at around 70% word
+segmentation accuracy an over-segmentation phe-
+nomenon begins to occur which leads to a reduction
+in information retrieval performance. We demon-
+strate this effect by presenting an empirical inves-
+tigation of information retrieval on Chinese TREC
+data, using a wide variety of word segmentation al-
+gorithms with word segmentation accuracies ranging
+from 44% to 95%. It appears that the main reason
+for the drop in retrieval performance is that correct
+compounds and collocations are preserved by accu-
+rate segmenters, while they are broken up by less
+accurate (but reasonable) segmenters, to a surpris-
+ing advantage. This suggests that words themselves
+might be too broad a notion to conveniently capture
+the general semantic meaning of Chinese text.
+1 

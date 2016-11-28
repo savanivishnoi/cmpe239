@@ -1,0 +1,15 @@
+
+In the Recognizing Textual Entailment (RTE) task, sentence pairs are classified into one of three se-
+mantic relations: ENTAILMENT, CONTRADICTION or UNKNOWN. While we find some sentence pairs
+hold full entailments or contradictions, there are a number of pairs that partially entail or contradict one
+another depending on a specific situation. These partial contradiction sentence pairs contain useful infor-
+mation for opinion mining and other such tasks, but it is difficult for Internet users to access this knowledge
+because current frameworks do not differentiate between full contradictions and partial contradictions. In
+this paper, under current approaches to semantic relation recognition, we define a new semantic relation
+known as CONFINEMENT in order to recognize this useful information. This information is classified as
+either CONTRADICTION or ENTAILMENT. We provide a series of semantic templates to recognize CON-
+FINEMENT relations in Web texts, and then implement a system for recognizing CONFINEMENT between
+sentence pairs. We show that our proposed system can obtains a F-score of 61% for recognizing CON-
+FINEMENT in Japanese-language Web texts, and it outperforms a baseline which does not use a manually
+compiled list of lexico-syntactic patterns to instantiate the semantic templates.
+1 

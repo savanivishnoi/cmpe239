@@ -1,0 +1,24 @@
+ 
+Thesauri and ontologies provide impor-
+tant value in facilitating access to digital 
+archives by representing underlying prin-
+ciples of organization.  Translation of 
+such resources into multiple languages is 
+an important component for providing 
+multilingual access.  However, the speci-
+ficity of vocabulary terms in most on-
+tologies precludes fully-automated ma-
+chine translation using general-domain 
+lexical resources.  In this paper, we pre-
+sent an efficient process for leveraging 
+human translations when constructing 
+domain-specific lexical resources.  We 
+evaluate the effectiveness of this process 
+by producing a probabilistic phrase dic-
+tionary and translating a thesaurus of 
+56,000 concepts used to catalogue a large 
+archive of oral histories.  Our experi-
+ments demonstrate a cost-effective tech-
+nique for accurate machine translation of 
+large ontologies. 
+1 

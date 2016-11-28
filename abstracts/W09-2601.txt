@@ -1,0 +1,21 @@
+
+LTAG-spinal is a novel variant of tradi-
+tional Lexicalized Tree Adjoining Gram-
+mar (LTAG) introduced by (Shen, 2006).
+The LTAG-spinal Treebank (Shen et al,
+2008) combines elementary trees ex-
+tracted from the Penn Treebank with Prop-
+bank annotation. In this paper, we present
+a semantic role labeling (SRL) system
+based on this new resource and provide an
+experimental comparison with CCGBank
+and a state-of-the-art SRL system based
+on Treebank phrase-structure trees. Deep
+linguistic information such as predicate-
+argument relationships that are either im-
+plicit or absent from the original Penn
+Treebank are made explicit and accessible
+in the LTAG-spinal Treebank, which we
+show to be a useful resource for semantic
+role labeling.
+1 

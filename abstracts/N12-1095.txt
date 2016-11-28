@@ -1,0 +1,19 @@
+
+We propose an unsupervised method for clus-
+tering the translations of a word, such that
+the translations in each cluster share a com-
+mon semantic sense. Words are assigned to
+clusters based on their usage distribution in
+large monolingual and parallel corpora using
+the softK-Means algorithm. In addition to de-
+scribing our approach, we formalize the task
+of translation sense clustering and describe a
+procedure that leverages WordNet for evalu-
+ation. By comparing our induced clusters to
+reference clusters generated from WordNet,
+we demonstrate that our method effectively
+identifies sense-based translation clusters and
+benefits from both monolingual and parallel
+corpora. Finally, we describe a method for an-
+notating clusters with usage examples.
+1 

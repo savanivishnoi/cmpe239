@@ -1,0 +1,25 @@
+ 
+In this paper, we present an election predic-
+tion system (Crystal) based on web users? 
+opinions posted on an election prediction 
+website. Given a prediction message, Crys-
+tal first identifies which party the message 
+predicts to win and then aggregates predic-
+tion analysis results of a large amount of 
+opinions to project the election results. We 
+collect past election prediction messages 
+from the Web and automatically build a 
+gold standard. We focus on capturing lexi-
+cal patterns that people frequently use 
+when they express their predictive opinions 
+about a coming election. To predict elec-
+tion results, we apply SVM-based super-
+vised learning. To improve performance, 
+we propose a novel technique which gener-
+alizes n-gram feature patterns. Experimen-
+tal results show that Crystal significantly 
+outperforms several baselines as well as a 
+non-generalized n-gram approach. Crystal 
+predicts future elections with 81.68% accu-
+racy. 
+1 

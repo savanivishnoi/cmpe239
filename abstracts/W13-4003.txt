@@ -1,0 +1,19 @@
+
+This work proposes a generative model
+to infer latent semantic structures on top
+of manual speech transcriptions in a spo-
+ken dialog reservation task. The proposed
+model is akin to a standard semantic role
+labeling system, except that it is unsuper-
+vised, it does not rely on any syntactic in-
+formation and it exploits concepts derived
+from a domain-specific ontology. The
+semantic structure is obtained with un-
+supervised Bayesian inference, using the
+Metropolis-Hastings sampling algorithm.
+It is evaluated both in terms of attachment
+accuracy and purity-collocation for clus-
+tering, and compared with strong baselines
+on the French MEDIA spoken-dialog cor-
+pus.
+1 

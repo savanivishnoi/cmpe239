@@ -1,0 +1,16 @@
+
+Multiword expressions (MWEs) have
+been proved useful for many natural lan-
+guage processing tasks. However, how to
+use them to improve performance of statis-
+tical machine translation (SMT) is not well
+studied. This paper presents a simple yet
+effective strategy to extract domain bilin-
+gual multiword expressions. In addition,
+we implement three methods to integrate
+bilingual MWEs to Moses, the state-of-
+the-art phrase-based machine translation
+system. Experiments show that bilingual
+MWEs could improve translation perfor-
+mance significantly.
+1 

@@ -1,0 +1,21 @@
+
+Wikipedia?s article contents and its cate-
+gory hierarchy are widely used to produce
+semantic resources which improve perfor-
+mance on tasks like text classification and
+keyword extraction. The reverse ? using
+text classification methods for predicting
+the categories of Wikipedia articles ? has
+attracted less attention so far. We propose
+to ?return the favor? and use text classi-
+fiers to improve Wikipedia. This could
+support the emergence of a virtuous circle
+between the wisdom of the crowds and ma-
+chine learning/NLP methods.
+We define the categorization of Wikipedia
+articles as a multi-label classification task,
+describe two solutions to the task, and per-
+form experiments that show that our ap-
+proach is feasible despite the high number
+of labels.
+1 

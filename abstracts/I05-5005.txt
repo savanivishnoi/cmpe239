@@ -1,0 +1,17 @@
+
+We present a natural language gener-
+ator that produces a range of medi-
+cal reports on the clinical histories of
+cancer patients, and discuss the prob-
+lem of conceptual restatement in gen-
+erating various textual views of the
+same conceptual content. We focus on
+two features of our system: the de-
+mand for ?loose paraphrases? between
+the various reports on a given patient,
+with a high degree of semantic overlap
+but some necessary amount of distinc-
+tive content; and the requirement for
+paraphrasing at primarily the discourse
+level.
+1 

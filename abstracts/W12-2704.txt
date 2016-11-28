@@ -1,0 +1,26 @@
+
+In this paper, we describe a new, publicly
+available corpus intended to stimulate re-
+search into language modeling techniques
+which are sensitive to overall sentence coher-
+ence. The task uses the Scholastic Aptitude
+Test?s sentence completion format. The test
+set consists of 1040 sentences, each of which
+is missing a content word. The goal is to select
+the correct replacement from amongst five al-
+ternates. In general, all of the options are syn-
+tactically valid, and reasonable with respect to
+local N-gram statistics. The set was gener-
+ated by using an N-gram language model to
+generate a long list of likely words, given the
+immediate context. These options were then
+hand-groomed, to identify four decoys which
+are globally incoherent, yet syntactically cor-
+rect. To ensure the right to public distribution,
+all the data is derived from out-of-copyright
+materials from Project Gutenberg. The test
+sentences were derived from five of Conan
+Doyle?s Sherlock Holmes novels, and we pro-
+vide a large set of Nineteenth and early Twen-
+tieth Century texts as training material.
+1 

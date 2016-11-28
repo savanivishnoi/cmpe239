@@ -1,0 +1,14 @@
+
+In this paper, we present a novel way of tack-
+ling the monolingual alignment problem on
+pairs of sentential paraphrases by means of
+edit rate computation. In order to inform the
+edit rate, information in the form of subsenten-
+tial paraphrases is provided by a range of tech-
+niques built for different purposes. We show
+that the tunable TER-PLUS metric from Ma-
+chine Translation evaluation can achieve good
+performance on this task and that it can effec-
+tively exploit information coming from com-
+plementary sources.
+1 

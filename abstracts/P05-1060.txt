@@ -1,0 +1,14 @@
+
+In this paper, we examine the task of extracting a
+set of biographic facts about target individuals from
+a collection of Web pages. We automatically anno-
+tate training text with positive and negative exam-
+ples of fact extractions and train Rote, Na??ve Bayes,
+and Conditional Random Field extraction models
+for fact extraction from individual Web pages. We
+then propose and evaluate methods for fusing the
+extracted information across documents to return a
+consensus answer. A novel cross-field bootstrapping
+method leverages data interdependencies to yield
+improved performance.
+1 

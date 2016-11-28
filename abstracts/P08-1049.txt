@@ -1,0 +1,25 @@
+
+Chinese abbreviations are widely used in
+modern Chinese texts. Compared with
+English abbreviations (which are mostly
+acronyms and truncations), the formation of
+Chinese abbreviations is much more complex.
+Due to the richness of Chinese abbreviations,
+many of them may not appear in available par-
+allel corpora, in which case current machine
+translation systems simply treat them as un-
+known words and leave them untranslated. In
+this paper, we present a novel unsupervised
+method that automatically extracts the relation
+between a full-form phrase and its abbrevia-
+tion from monolingual corpora, and induces
+translation entries for the abbreviation by us-
+ing its full-form as a bridge. Our method does
+not require any additional annotated data other
+than the data that a regular translation system
+uses. We integrate our method into a state-of-
+the-art baseline translation system and show
+that it consistently improves the performance
+of the baseline system on various NIST MT
+test sets.
+1 

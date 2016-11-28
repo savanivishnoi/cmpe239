@@ -1,0 +1,20 @@
+
+Word Sense Disambiguation remains one of
+the most complex problems facing compu-
+tational linguists to date. In this paper we
+present modification to the graph based state
+of the art algorithm In-Degree. Our modifi-
+cations entail augmenting the basic Lesk sim-
+ilarity measure with more relations based on
+the structure of WordNet, adding SemCor ex-
+amples to the basic WordNet lexical resource
+and finally instead of using the LCH similarity
+measure for computing verb verb similarity in
+the In-Degree algorithm, we use JCN. We re-
+port results on three standard data sets using
+three different versions of WordNet. We re-
+port the highest performing monolingual un-
+supervised results to date on the Senseval 2 all
+words data set. Our system yields a perfor-
+mance of 62.7% using WordNet 1.7.1.
+1 

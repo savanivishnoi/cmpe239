@@ -1,0 +1,13 @@
+
+We introduce a method for solving substi-
+tution ciphers using low-order letter n-gram
+models. This method enforces global con-
+straints using integer programming, and it
+guarantees that no decipherment key is over-
+looked. We carry out extensive empirical ex-
+periments showing how decipherment accu-
+racy varies as a function of cipher length and
+n-gram order. We also make an empirical in-
+vestigation of Shannon?s (1949) theory of un-
+certainty in decipherment.
+1 

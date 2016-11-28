@@ -1,0 +1,24 @@
+
+This paper describes a novel probabilistic ap-
+proach for generating natural language sen-
+tences from their underlying semantics in the
+form of typed lambda calculus. The approach
+is built on top of a novel reduction-based
+weighted synchronous context free grammar
+formalism, which facilitates the transforma-
+tion process from typed lambda calculus into
+natural language sentences. Sentences can
+then be generated based on such grammar
+rules with a log-linear model. To acquire such
+grammar rules automatically in an unsuper-
+vised manner, we also propose a novel ap-
+proach with a generative model, which maps
+from sub-expressions of logical forms to word
+sequences in natural language sentences. Ex-
+periments on benchmark datasets for both En-
+glish and Chinese generation tasks yield sig-
+nificant improvements over results obtained
+by two state-of-the-art machine translation
+models, in terms of both automatic metrics
+and human evaluation.
+1 

@@ -1,0 +1,16 @@
+
+We present an approach for detecting salient
+(important) dates in texts in order to auto-
+matically build event timelines from a search
+query (e.g. the name of an event or person,
+etc.). This work was carried out on a corpus
+of newswire texts in English provided by the
+Agence France Presse (AFP). In order to ex-
+tract salient dates that warrant inclusion in an
+event timeline, we first recognize and normal-
+ize temporal expressions in texts and then use
+a machine-learning approach to extract salient
+dates that relate to a particular topic. We fo-
+cused only on extracting the dates and not the
+events to which they are related.
+1 

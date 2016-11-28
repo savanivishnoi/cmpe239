@@ -1,0 +1,20 @@
+
+We propose a supervised word sense
+disambiguation (WSD) method using
+tree-structured conditional random fields
+(TCRFs). By applying TCRFs to a
+sentence described as a dependency tree
+structure, we conduct WSD as a labeling
+problem on tree structures. To incorpo-
+rate dependencies between word senses,
+we introduce a set of features on tree
+edges, in combination with coarse-grained
+tagsets, and show that these contribute
+to an improvement in WSD accuracy.
+We also show that the tree-structured
+model outperforms the linear-chain model.
+Experiments on the SENSEVAL-3 data
+set show that our TCRF model performs
+comparably with state-of-the-art WSD
+systems.
+1 

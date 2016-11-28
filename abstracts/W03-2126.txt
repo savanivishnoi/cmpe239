@@ -1,0 +1,23 @@
+
+This paper presents results of using be-
+lief functions to rank the list of candi-
+date information provided in a noisy di-
+alogue input. The information under con-
+sideration is the intended task to be per-
+formed and the information provided for
+the completion of the task. As an exam-
+ple, we use the task of information ac-
+cess in a multi-domain dialogue system.
+Currently, the system contains knowledge
+of ten different domains. Callers calling
+in are greeted with an open-ended ?How
+may I help you?? prompt (Thomson and
+Wisowaty, 1999; Chu-Carroll and Carpen-
+ter, 1999; Gorin et al, 1997). After re-
+ceiving a reply from the caller, we extract
+word evidences from the recognized utter-
+ances. By using transferable belief model
+(TBM), we in turn determine the task that
+the caller intends to perform as well as any
+information provided.
+1 

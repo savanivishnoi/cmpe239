@@ -1,0 +1,19 @@
+
+In this paper we present a novel approach
+(SDSM) that incorporates structure in dis-
+tributional semantics. SDSM represents
+meaning as relation specific distributions
+over syntactic neighborhoods. We em-
+pirically show that the model can effec-
+tively represent the semantics of single
+words and provides significant advantages
+when dealing with phrasal units that in-
+volve word composition. In particular, we
+demonstrate that our model outperforms
+both state-of-the-art window-based word
+embeddings as well as simple approaches
+for composing distributional semantic rep-
+resentations on an artificial task of verb
+sense disambiguation and a real-world ap-
+plication of judging event coreference.
+1 

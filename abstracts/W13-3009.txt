@@ -1,0 +1,19 @@
+
+In this paper we investigate the theoretical
+causes of the disparity between the theo-
+retical and practical running times for the
+A? algorithm proposed in Corlett and Penn
+(2010) for deciphering letter-substitution
+ciphers. We argue that the difference seen
+is due to the relatively low entropies of the
+probability distributions of character tran-
+sitions seen in natural language, and we
+develop a principled way of incorporat-
+ing entropy into our complexity analysis.
+Specifically, we find that the low entropy
+of natural languages can allow us, with
+high probability, to bound the depth of the
+heuristic values expanded in the search.
+This leads to a novel probabilistic bound
+on search depth in these tasks.
+1 

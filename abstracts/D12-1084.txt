@@ -1,0 +1,17 @@
+
+Previous work on paraphrase extraction us-
+ing parallel or comparable corpora has gener-
+ally not considered the documents? discourse
+structure as a useful information source. We
+propose a novel method for collecting para-
+phrases relying on the sequential event or-
+der in the discourse, using multiple sequence
+alignment with a semantic similarity measure.
+We show that adding discourse information
+boosts the performance of sentence-level para-
+phrase acquisition, which consequently gives
+a tremendous advantage for extracting phrase-
+level paraphrase fragments from matched sen-
+tences. Our system beats an informed baseline
+by a margin of 50%.
+1 

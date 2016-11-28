@@ -1,0 +1,15 @@
+ 
+This paper provides a description of the Hong 
+Kong Polytechnic University (PolyU) System 
+that participated in the task #5 of SemEval-2, 
+i.e., the Automatic Keyphrase Extraction from 
+Scientific Articles task. We followed a novel 
+framework to develop our keyphrase 
+extraction system, motivated by differentiating 
+the roles of the words in a keyphrase. We first 
+identified the core words which are defined as 
+the most essential words in the article, and 
+then expanded the identified core words to the 
+target keyphrases by a word expansion 
+approach.  
+1 

@@ -1,0 +1,24 @@
+
+In incremental spoken dialogue systems, par-
+tial hypotheses about what was said are re-
+quired even while the utterance is still ongo-
+ing. We define measures for evaluating the
+quality of incremental ASR components with
+respect to the relative correctness of the par-
+tial hypotheses compared to hypotheses that
+can optimize over the complete input, the tim-
+ing of hypothesis formation relative to the por-
+tion of the input they are about, and hypothesis
+stability, defined as the number of times they
+are revised. We show that simple incremen-
+tal post-processing can improve stability dra-
+matically, at the cost of timeliness (from 90%
+of edits of hypotheses being spurious down to
+10% at a lag of 320ms). The measures are
+not independent, and we show how system de-
+signers can find a desired operating point for
+their ASR. To our knowledge, we are the first
+to suggest and examine a variety of measures
+for assessing incremental ASR and improve
+performance on this basis.
+1 

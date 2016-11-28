@@ -1,0 +1,21 @@
+
+In the context of a hybrid French-to-
+English SMT system for translating on-
+line forum posts, we present two meth-
+ods for addressing the common problem
+of homophone confusions in colloquial
+written language. The first is based on
+hand-coded rules; the second on weighted
+graphs derived from a large-scale pro-
+nunciation resource, with weights trained
+from a small bicorpus of domain language.
+With automatic evaluation, the weighted
+graph method yields an improvement of
+about +0.63 BLEU points, while the rule-
+based method scores about the same as the
+baseline. On contrastive manual evalua-
+tion, both methods give highly significant
+improvements (p < 0.0001) and score
+about equally when compared against each
+other.
+1 

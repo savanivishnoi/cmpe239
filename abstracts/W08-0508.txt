@@ -1,0 +1,27 @@
+
+In this paper we describe a natural language
+generation system which takes as its input a
+set of assertions encoded as a semantic graph
+and outputs a data structure connecting the se-
+mantic graph to a text which expresses those
+assertions, encoded as a TAG syntactic tree.
+The scope of the system is restricted to con-
+trolled natural language, and this allows the
+generator to work within a tightly restricted
+domain of locality. We can exploit this fea-
+ture of the system to ensure fast and efficient
+generation, and also to make the generator re-
+liable by providing a rapid algorithm which
+can exhaustively test at compile time the com-
+pleteness of the linguistic resources with re-
+spect to the range of potential meanings. The
+system can be exported for deployment with
+a minimal build of the semantic and linguistic
+resources that is verified to ensure that no run-
+time errors will result from missing resources.
+The framework is targeted at using natural lan-
+guage generation technology to build semantic
+web applications where machine-readable in-
+formation can be automatically expressed in
+natural language on demand.
+1 

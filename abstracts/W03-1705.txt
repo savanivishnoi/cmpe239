@@ -1,0 +1,25 @@
+ 
+Statistical methods for extracting Chinese 
+unknown words usually suffer a problem 
+that superfluous character strings with 
+strong statistical associations are extracted 
+as well. To solve this problem, this paper 
+proposes to use a set of general morpho-
+logical rules to broaden the coverage and 
+on the other hand, the rules are appended 
+with different linguistic and statistical 
+constraints to increase the precision of the 
+representation. To disambiguate rule ap-
+plications and reduce the complexity of 
+the rule matching, a bottom-up merging 
+algorithm for extraction is proposed, 
+which merges possible morphemes recur-
+sively by consulting above the general 
+rules and dynamically decides which rule 
+should be applied first according to the 
+priorities of the rules. Effects of different 
+priority strategies are compared in our ex-
+periment, and experimental results show 
+that the performance of proposed method 
+is very promising. 
+1 

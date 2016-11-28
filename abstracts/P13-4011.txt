@@ -1,0 +1,25 @@
+
+In this paper we describe a platform for
+embodied conversational agents with tu-
+toring goals, which takes as input written
+and spoken questions and outputs answers
+in both forms. The platform is devel-
+oped within a game environment, and cur-
+rently allows speech recognition and syn-
+thesis in Portuguese, English and Spanish.
+In this paper we focus on its understand-
+ing component that supports in-domain in-
+teractions, and also small talk. Most in-
+domain interactions are answered using
+different similarity metrics, which com-
+pare the perceived utterances with ques-
+tions/sentences in the agent?s knowledge
+base; small-talk capabilities are mainly
+due to AIML, a language largely used by
+the chatbots? community. In this paper
+we also introduce EDGAR, the butler of
+MONSERRATE, which was developed in
+the aforementioned platform, and that an-
+swers tourists? questions about MONSER-
+RATE.
+1 

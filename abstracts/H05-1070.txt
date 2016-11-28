@@ -1,0 +1,15 @@
+
+MONA is an automata toolkit provid-
+ing a compiler for compiling formulae of
+monadic second order logic on strings or
+trees into string automata or tree automata.
+In this paper, we evaluate the option of
+using MONA as a treebank query tool.
+Unfortunately, we find that MONA is not
+an option. There are several reasons why
+the main being unsustainable query an-
+swer times. If the treebank contains larger
+trees with more than 100 nodes, then even
+the processing of simple queries may take
+hours.
+1 

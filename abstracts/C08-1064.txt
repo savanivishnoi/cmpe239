@@ -1,0 +1,14 @@
+
+Translation model size is growing at a pace
+that outstrips improvements in computing
+power, and this hinders research on many
+interesting models. We show how an al-
+gorithmic scaling technique can be used
+to easily handle very large models. Us-
+ing this technique, we explore several large
+model variants and show an improvement
+1.4 BLEU on the NIST 2006 Chinese-
+English task. This opens the door for work
+on a variety of models that are much less
+constrained by computational limitations.
+1 

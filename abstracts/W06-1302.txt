@@ -1,0 +1,31 @@
+
+We developed a multi-domain spoken dia-
+logue system that can handle user requests
+across multiple domains. Such systems
+need to satisfy two requirements: extensi-
+bility and robustness against speech recog-
+nition errors. Extensibility is required to
+allow for the modification and addition
+of domains independent of other domains.
+Robustness against speech recognition er-
+rors is required because such errors are
+inevitable in speech recognition. How-
+ever, the systems should still behave ap-
+propriately, even when their inputs are er-
+roneous. Our system was constructed on
+an extensible architecture and is equipped
+with a robust and extensible domain selec-
+tion method. Domain selection was based
+on three choices: (I) the previous domain,
+(II) the domain in which the speech recog-
+nition result can be accepted with the high-
+est recognition score, and (III) other do-
+mains. With the third choice we newly
+introduced, our system can prevent dia-
+logues from continuously being stuck in
+an erroneous domain. Our experimental
+results, obtained with 10 subjects, showed
+that our method reduced the domain selec-
+tion errors by 18.3%, compared to a con-
+ventional method.
+1 

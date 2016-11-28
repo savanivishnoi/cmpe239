@@ -1,0 +1,8 @@
+. This paper presents a study of Sinhala syllable structure and an algo-
+rithm for identifying syllables in Sinhala words. After a thorough study of the 
+Syllable structure and linguistic rules for syllabification of Sinhala words and a 
+survey of the relevant literature, a set of rules was identified and implemented 
+as a simple, easy-to-implement algorithm. The algorithm was tested using 
+30,000 distinct words obtained from a corpus and compared with the same 
+words manually syllabified. The algorithm performs with 99.95 % accuracy. 
+1   

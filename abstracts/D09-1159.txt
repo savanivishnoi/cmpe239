@@ -1,0 +1,17 @@
+
+In this paper, we present a novel approach
+for mining opinions from product reviews,
+where it converts opinion mining task to
+identify product features, expressions of
+opinions and relations between them. By
+taking advantage of the observation that a
+lot of product features are phrases, a con-
+cept of phrase dependency parsing is in-
+troduced, which extends traditional depen-
+dency parsing to phrase level. This con-
+cept is then implemented for extracting re-
+lations between product features and ex-
+pressions of opinions. Experimental eval-
+uations show that the mining task can ben-
+efit from phrase dependency parsing.
+1 

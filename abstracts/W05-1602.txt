@@ -1,0 +1,43 @@
+
+We present an authoring system for logical forms
+encoded as conceptual graphs (CG). The system
+belongs to the family of WYSIWYM (What You
+See Is What You Mean) text generation systems:
+logical forms are entered interactively and the cor-
+responding linguistic realization of the expressions
+is generated in several languages. The system
+maintains a model of the discourse context corre-
+sponding to the authored documents.
+The system helps users author documents formu-
+lated in the CG format. In a first stage, a domain-
+specific ontology is acquired by learning from ex-
+ample texts in the domain. The ontology acquisi-
+tion module builds a typed hierarchy of concepts
+and relations derived from the WordNet and Verb-
+net.
+The user can then edit a specific document, by en-
+tering utterances in sequence, and maintaining a
+representation of the context. While the user en-
+ters data, the system performs the standard steps
+of text generation on the basis of the authored log-
+ical forms: reference planning, aggregation, lexi-
+cal choice and syntactic realization ? in several lan-
+guages (we have implemented English and Hebrew
+- and are exploring an implementation using the
+Bliss graphical language). The feedback in natural
+language is produced in real-time for every single
+modification performed by the author.
+We perform a cost-benefit analysis of the applica-
+tion of NLG techniques in the context of authoring
+cooking recipes in English and Hebrew. By com-
+bining existing large-scale knowledge resources
+(WordNet, Verbnet, the SURGE and HUGG real-
+ization grammars) and techniques from modern in-
+tegrated software development environment (such
+as the Eclipse IDE), we obtain an efficient tool for
+the generation of logical forms, in domains where
+content is not available in the form of databases.
+?Research supported by the Israel Ministry of Science - Knowl-
+edge Center for Hebrew Computational Linguistics and by the
+Frankel Fund
+1 

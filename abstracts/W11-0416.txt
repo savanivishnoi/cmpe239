@@ -1,0 +1,10 @@
+
+MAE and MAI are lightweight annotation and
+adjudication tools for corpus creation. DTDs
+are used to define the annotation tags and at-
+tributes, including extent tags, link tags, and
+non-consuming tags. Both programs are writ-
+ten in Java and use a stand-alone SQLite
+database for storage and retrieval of annota-
+tion data. Output is in stand-off XML.
+1 

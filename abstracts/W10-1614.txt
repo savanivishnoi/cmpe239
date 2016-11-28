@@ -1,0 +1,28 @@
+
+Most embedded systems for the avionics in-
+dustry are considered safety critical systems;
+as a result, strict software development stan-
+dards exist to ensure critical software is built
+with the highest quality possible. One of such
+standards, DO-178B, establishes a number
+of properties that software requirements must
+satisfy including: accuracy, non-ambiguity
+and verifiability. From a language perspec-
+tive, it is possible to automate the analysis of
+software requirements to determine whether
+or not they satisfy some quality properties.
+This work suggests a bounded definition for
+three properties (accuracy, non-ambiguity and
+verifiability) considering the main character-
+istics that software requirements must exhibit
+to satisfy those objectives. A software proto-
+type that combines natural language process-
+ing (NLP) techniques and specialized dictio-
+naries was built to examine software require-
+ments written in English with the goal of iden-
+tifying whether or not they satisfy the de-
+sired properties. Preliminary results are pre-
+sented showing how the tool effectively iden-
+tifies critical issues that are normally ignored
+by human reviewers.
+1 

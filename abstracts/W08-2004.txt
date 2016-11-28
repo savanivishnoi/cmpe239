@@ -1,0 +1,14 @@
+
+In this paper, we provide a statistical ma-
+chine learning representation of textual en-
+tailment via syntactic graphs constituted
+by tree pairs. We show that the natural way
+of representing the syntactic relations be-
+tween text and hypothesis consists in the
+huge feature space of all possible syntac-
+tic tree fragment pairs, which can only be
+managed using kernel methods. Experi-
+ments with Support Vector Machines and
+our new kernels for paired trees show the
+validity of our interpretation.
+1 

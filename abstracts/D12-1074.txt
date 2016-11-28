@@ -1,0 +1,27 @@
+
+Many NLP tasks make predictions that are in-
+herently coupled to syntactic relations, but for
+many languages the resources required to pro-
+vide such syntactic annotations are unavail-
+able. For others it is unclear exactly how
+much of the syntactic annotations can be ef-
+fectively leveraged with current models, and
+what structures in the syntactic trees are most
+relevant to the current task.
+We propose a novel method which avoids
+the need for any syntactically annotated data
+when predicting a related NLP task. Our
+method couples latent syntactic representa-
+tions, constrained to form valid dependency
+graphs or constituency parses, with the predic-
+tion task via specialized factors in a Markov
+random field. At both training and test time we
+marginalize over this hidden structure, learn-
+ing the optimal latent representations for the
+problem. Results show that this approach pro-
+vides significant gains over a syntactically un-
+informed baseline, outperforming models that
+observe syntax on an English relation extrac-
+tion task, and performing comparably to them
+in semantic role labeling.
+1 

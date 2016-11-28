@@ -1,0 +1,13 @@
+
+This paper proposes an automatic method
+of detecting grammar elements that de-
+crease readability in a Japanese sentence.
+The method consists of two components:
+(1) the check list of the grammar elements
+that should be detected; and (2) the de-
+tector, which is a search program of the
+grammar elements from a sentence. By
+defining a readability level for every gram-
+mar element, we can find which part of the
+sentence is difficult to read.
+1 

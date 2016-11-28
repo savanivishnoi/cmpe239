@@ -1,0 +1,15 @@
+
+This paper explores the problem of detecting
+sentence-level forum authority claims in on-
+line discussions. Using a maximum entropy
+model, we explore a variety of strategies for
+extracting lexical features in a sparse train-
+ing scenario, comparing knowledge- and data-
+driven methods (and combinations). The aug-
+mentation of lexical features with parse con-
+text is also investigated. We find that cer-
+tain markup features perform remarkably well
+alone, but are outperformed by data-driven
+selection of lexical features augmented with
+parse context.
+1 

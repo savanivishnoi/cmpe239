@@ -1,0 +1,20 @@
+
+Automatic recognition of Arabic dialectal speech is
+a challenging task because Arabic dialects are es-
+sentially spoken varieties. Only few dialectal re-
+sources are available to date; moreover, most avail-
+able acoustic data collections are transcribed with-
+out diacritics. Such a transcription omits essen-
+tial pronunciation information about a word, such
+as short vowels. In this paper we investigate var-
+ious procedures that enable us to use such train-
+ing data by automatically inserting the missing dia-
+critics into the transcription. These procedures use
+acoustic information in combination with different
+levels of morphological and contextual constraints.
+We evaluate their performance against manually dia-
+critized transcriptions. In addition, we demonstrate
+the effect of their accuracy on the recognition perfor-
+mance of acoustic models trained on automatically
+diacritized training data.
+1 

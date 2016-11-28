@@ -1,0 +1,17 @@
+
+Statistical machine translation systems are
+usually trained on large amounts of bilin-
+gual text and monolingual text in the tar-
+get language. In this paper we explore the
+use of transductive semi-supervised meth-
+ods for the effective use of monolingual data
+from the source language in order to im-
+prove translation quality. We propose sev-
+eral algorithms with this aim, and present the
+strengths and weaknesses of each one. We
+present detailed experimental evaluations on
+the French?English EuroParl data set and on
+data from the NIST Chinese?English large-
+data track. We show a significant improve-
+ment in translation quality on both tasks.
+1 

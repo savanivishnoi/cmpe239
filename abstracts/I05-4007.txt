@@ -1,0 +1,21 @@
+
+Parallel wordnets built upon 
+correspondences between different 
+languages can play a crucial role in 
+multilingual knowledge processing. Since 
+there is no homomorphism between pairs of 
+monolingual wordnets, we must rely on 
+lexical semantic relation (LSR) mappings to 
+ensure conceptual cohesion. In this paper, 
+we propose and implement a model for 
+bootstrapping parallel wordnets based on 
+one monolingual wordnet and a set of 
+cross-lingual lexical semantic relations. In 
+particular, we propose a set of inference 
+rules to predict Chinese wordnet structure 
+based on English wordnet and 
+English-Chinese translation relations. We 
+show that this model of parallel wordnet 
+building is effective and achieves higher 
+precision in LSR prediction. 
+1 

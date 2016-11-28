@@ -1,0 +1,25 @@
+
+When digitizing a print bilingual dictionary,
+whether via optical character recognition or
+manual entry, it is inevitable that errors are
+introduced into the electronic version that is
+created. We investigate automating the pro-
+cess of detecting errors in an XML repre-
+sentation of a digitized print dictionary us-
+ing a hybrid approach that combines rule-
+based, feature-based, and language model-
+based methods. We investigate combin-
+ing methods and show that using random
+forests is a promising approach. We find
+that in isolation, unsupervised methods ri-
+val the performance of supervised methods.
+Random forests typically require training
+data so we investigate how we can apply
+random forests to combine individual base
+methods that are themselves unsupervised
+without requiring large amounts of training
+data. Experiments reveal empirically that
+a relatively small amount of data is suffi-
+cient and can potentially be further reduced
+through specific selection criteria.
+1 

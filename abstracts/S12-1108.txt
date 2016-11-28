@@ -1,0 +1,18 @@
+ 
+In this paper, we present our system descrip-
+tion in task of Cross-lingual Textual Entail-
+ment. The goal of this task is to detect 
+entailment relations between two sentences 
+written in different languages. To accomplish 
+this goal, we first translate sentences written 
+in foreign languages into English. Then, we 
+use EDITS1, an open source package, to rec-
+ognize entailment relations. Since EDITS only 
+draws monodirectional relations while the task 
+requires bidirectional prediction, thus we ex-
+change the hypothesis and test to detect en-
+tailment in another direction. Experimental 
+results show that our method achieves promis-
+ing results but not perfect results compared to 
+other participants. 
+1 

@@ -1,0 +1,21 @@
+
+Sentence fusion is a text-to-text (revision-like) gen-
+eration task which takes related sentences as input
+and merges these into a single output sentence. In
+this paper we describe our ongoing work on de-
+veloping a sentence fusion module for Dutch. We
+propose a generalized version of alignment which
+not only indicates which words and phrases should
+be aligned but also labels these in terms of a small
+set of primitive semantic relations, indicating how
+words and phrases from the two input sentences re-
+late to each other. It is shown that human label-
+ers can perform this task with a high agreement (F-
+score of .95). We then describe and evaluate our
+adaptation of an existing automatic alignment al-
+gorithm, and use the resulting alignments, plus the
+semantic labels, in a generalized fusion and gen-
+eration algorithm. A small-scale evaluation study
+reveals that most of the resulting sentences are ad-
+equate to good.
+1 

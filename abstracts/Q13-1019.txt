@@ -1,0 +1,26 @@
+
+This paper introduces the problem of predict-
+ing semantic relations expressed by preposi-
+tions and develops statistical learning models
+for predicting the relations, their arguments
+and the semantic types of the arguments. We
+define an inventory of 32 relations, build-
+ing on the word sense disambiguation task
+for prepositions and collapsing related senses
+across prepositions. Given a preposition in
+a sentence, our computational task to jointly
+model the preposition relation and its argu-
+ments along with their semantic types, as a
+way to support the relation prediction. The an-
+notated data, however, only provides labels for
+the relation label, and not the arguments and
+types. We address this by presenting two mod-
+els for preposition relation labeling. Our gen-
+eralization of latent structure SVM gives close
+to 90% accuracy on relation labeling. Further,
+by jointly predicting the relation, arguments,
+and their types along with preposition sense,
+we show that we can not only improve the re-
+lation accuracy, but also significantly improve
+sense prediction accuracy.
+1 

@@ -1,0 +1,15 @@
+
+We present a new part-of-speech tagger that
+demonstrates the following ideas: (i) explicit
+use of both preceding and following tag con-
+texts via a dependency network representa-
+tion, (ii) broad use of lexical features, includ-
+ing jointly conditioning on multiple consecu-
+tive words, (iii) effective use of priors in con-
+ditional loglinear models, and (iv) fine-grained
+modeling of unknown word features. Using
+these ideas together, the resulting tagger gives
+a 97.24% accuracy on the Penn Treebank WSJ,
+an error reduction of 4.4% on the best previous
+single automatically learned tagging result.
+1 

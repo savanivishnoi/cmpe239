@@ -1,0 +1,18 @@
+
+Automatic summaries of text generated through
+sentence or word extraction has been evaluated by
+comparing them with manual summaries generated
+by humans by using numerical evaluation measures
+based on precision or accuracy. Although sentence
+extraction has previously been evaluated based only
+on precision of a single sentence, sentence concate-
+nations in the summaries should be evaluated as
+well. We have evaluated the appropriateness of sen-
+tence concatenations in summaries by using eval-
+uation measures used for evaluating word concate-
+nations in summaries through word extraction. We
+determined that measures considering sentence con-
+catenation much better reflect the human judgment
+rather than those based only on the precision of a
+single sentence.
+1 

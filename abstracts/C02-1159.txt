@@ -1,0 +1,22 @@
+ 
+With the rapid growth of real world 
+applications for NLP systems, there 
+is a genuine demand for a general 
+toolkit from which programmers 
+with no linguistic knowledge can 
+build specific NLP systems. Such a 
+toolkit should have a parser that is 
+general enough to be used across 
+domains, and yet accurate enough for 
+each specific application. In this 
+paper, we describe a parser that 
+extends a broad-coverage parser, 
+Minipar (Lin, 2001), with an 
+adaptable shallow parser so as to 
+achieve both generality and accuracy 
+in handling domain specific NL 
+problems. We test this parser on our 
+corpus and the results show that the 
+accuracy is significantly higher than 
+a system that uses Minipar alone. 
+1 

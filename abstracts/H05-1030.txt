@@ -1,0 +1,13 @@
+
+We identify a set of prosodic cues for parsing con-
+versational speech and show how such features can
+be effectively incorporated into a statistical parsing
+model. On the Switchboard corpus of conversa-
+tional speech, the system achieves improved parse
+accuracy over a state-of-the-art system which uses
+only lexical and syntactic features. Since removal
+of edit regions is known to improve downstream
+parse accuracy, we explore alternatives for edit de-
+tection and show that PCFGs are not competitive
+with more specialized techniques.
+1 

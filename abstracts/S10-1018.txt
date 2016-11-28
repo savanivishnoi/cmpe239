@@ -1,0 +1,19 @@
+
+This paper presents SUCRE, a new soft-
+ware tool for coreference resolution and
+its feature engineering. It is able to sep-
+arately do noun, pronoun and full coref-
+erence resolution. SUCRE introduces a
+new approach to the feature engineering
+of coreference resolution based on a rela-
+tional database model and a regular feature
+definition language. SUCRE successfully
+participated in SemEval-2010 Task 1 on
+Coreference Resolution in Multiple Lan-
+guages (Recasens et al, 2010) for gold
+and regular closed annotation tracks of six
+languages. It obtained the best results in
+several categories, including the regular
+closed annotation tracks of English and
+German.
+1 

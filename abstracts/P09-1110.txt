@@ -1,0 +1,19 @@
+
+We consider the problem of learning
+context-dependent mappings from sen-
+tences to logical form. The training ex-
+amples are sequences of sentences anno-
+tated with lambda-calculus meaning rep-
+resentations. We develop an algorithm that
+maintains explicit, lambda-calculus repre-
+sentations of salient discourse entities and
+uses a context-dependent analysis pipeline
+to recover logical forms. The method uses
+a hidden-variable variant of the percep-
+tion algorithm to learn a linear model used
+to select the best analysis. Experiments
+on context-dependent utterances from the
+ATIS corpus show that the method recov-
+ers fully correct logical forms with 83.7%
+accuracy.
+1 

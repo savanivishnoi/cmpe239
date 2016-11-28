@@ -1,0 +1,13 @@
+
+We describe improvements made over the
+past year to Joshua, an open-source trans-
+lation system for parsing-based machine
+translation. The main contributions this
+past year are significant improvements in
+both speed and usability of the grammar
+extraction and decoding steps. We have
+also rewritten the decoder to use a sparse
+feature representation, enabling training of
+large numbers of features with discrimina-
+tive training methods.
+1 

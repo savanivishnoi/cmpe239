@@ -1,0 +1,16 @@
+
+This paper presents a first-order logic learn-
+ing approach to determine rhetorical relations
+between discourse segments. Beyond lin-
+guistic cues and lexical information, our ap-
+proach exploits compositional semantics and
+segment discourse structure data. We report
+a statistically significant improvement in clas-
+sifying relations over attribute-value learn-
+ing paradigms such as Decision Trees, RIP-
+PER and Naive Bayes. For discourse pars-
+ing, our modified shift-reduce parsing model
+that uses our relation classifier significantly
+outperforms a right-branching majority-class
+baseline.
+1 

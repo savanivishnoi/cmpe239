@@ -1,0 +1,22 @@
+
+In this work we study the effectiveness of
+speaker adaptation for dialogue act recogni-
+tion in multiparty meetings. First, we analyze
+idiosyncracy in dialogue verbal acts by quali-
+tatively studying the differences and conflicts
+among speakers and by quantitively compar-
+ing speaker-specific models. Based on these
+observations, we propose a new approach for
+dialogue act recognition based on reweighted
+domain adaptation which effectively balance
+the influence of speaker specific and other
+speakers? data. Our experiments on a real-
+world meeting dataset show that with even
+only 200 speaker-specific annotated dialogue
+acts, the performances on dialogue act recog-
+nition are significantly improved when com-
+pared to several baseline algorithms. To our
+knowledge, this work is the first 1 to tackle this
+promising research direction of speaker adap-
+tation for dialogue act recogntion.
+1 

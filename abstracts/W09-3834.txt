@@ -1,0 +1,17 @@
+
+This paper discusses the performance
+difference of wide-coverage parsers on
+small-domain speech transcripts. Two
+parsers (C&C CCG and RASP) are tested
+on the speech transcripts of two different
+domains (parent-child language, and pic-
+ture descriptions).
+The performance difference between
+the domain-independent parsers and
+two domain-trained parsers (MSTParser
+and MEGRASP) is substantial, with a
+difference of at least 30 percent point
+in accuracy. Despite this gap, some of
+the grammatical relations can still be
+recovered reliably.
+1 

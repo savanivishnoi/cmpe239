@@ -1,0 +1,21 @@
+
+Events described in textual narratives do not
+always occur in neat, chronological order but
+occur, for example, during or overlapping
+each other or as simultaneous events. Summa-
+rizations of narratives, however, benefit from
+a simpler, linear ordering of events. This pa-
+per describes an approach for modeling events
+in text as event intervals and for generating
+linear orders of event intervals, useful for the
+summarization of events or as the basis for
+question answering systems. Linear orders are
+derived through reducing the set of thirteen
+possible event interval relations to a set of
+only before or equal relations. The mapping
+of event interval relations into before/after se-
+quences requires the support of additional
+constraints in order to preserve the original
+semantics of the events presented in the text
+and to derive plausible orders of events.
+1 

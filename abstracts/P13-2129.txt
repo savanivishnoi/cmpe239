@@ -1,0 +1,20 @@
+
+Although diathesis alternations have been
+used as features for manual verb clas-
+sification, and there is recent work on
+incorporating such features in computa-
+tional models of human language acquisi-
+tion, work on large scale verb classifica-
+tion has yet to examine the potential for
+using diathesis alternations as input fea-
+tures to the clustering process. This pa-
+per proposes a method for approximating
+diathesis alternation behaviour in corpus
+data and shows, using a state-of-the-art
+verb clustering system, that features based
+on alternation approximation outperform
+those based on independent subcategoriza-
+tion frames. Our alternation-based ap-
+proach is particularly adept at leveraging
+information from less frequent data.
+1 

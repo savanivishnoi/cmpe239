@@ -1,0 +1,22 @@
+
+Automated annotation of social behavior
+in conversation is necessary for large-scale
+analysis of real-world conversational data.
+Important behavioral categories, though,
+are often sparse and often appear only
+in specific subsections of a conversation.
+This makes supervised machine learning
+difficult, through a combination of noisy
+features and unbalanced class distribu-
+tions. We propose within-instance con-
+tent selection, using cue features to selec-
+tively suppress sections of text and bias-
+ing the remaining representation towards
+minority classes. We show the effective-
+ness of this technique in automated anno-
+tation of empowerment language in online
+support group chatrooms. Our technique
+is significantly more accurate than multi-
+ple baselines, especially when prioritizing
+high precision.
+1 

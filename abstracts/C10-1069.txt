@@ -1,0 +1,34 @@
+ 
+This paper describes how to cluster to-
+gether the phrases of a phrase-based sta-
+tistical machine translation (SMT) sys-
+tem, using information in the phrase table 
+itself. The clustering is symmetric and 
+recursive: it is applied both to source-
+language and target-language phrases, 
+and the clustering in one language helps 
+determine the clustering in the other. The 
+phrase clusters have many possible uses. 
+This paper looks at one of these uses: 
+smoothing the conditional translation 
+model (TM) probabilities employed by 
+the SMT system. We incorporated 
+phrase-cluster-derived probability esti-
+mates into a baseline loglinear feature 
+combination that included relative fre-
+quency and lexically-weighted condition-
+al probability estimates. In Chinese-
+English (C-E) and French-English (F-E) 
+learning curve experiments, we obtained 
+a gain over the baseline in 29 of 30 tests, 
+with a maximum gain of 0.55 BLEU 
+points (though most gains were fairly 
+small). The largest gains came with me-
+dium (200-400K sentence pairs) rather 
+than with small (less than 100K sentence 
+pairs) amounts of training data, contrary 
+to what one would expect from the pa-
+raphrasing literature. We have only be-
+gun to explore the original smoothing 
+approach described here.  
+1 

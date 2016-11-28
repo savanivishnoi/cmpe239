@@ -1,0 +1,21 @@
+
+This article shows how the automatic dis-
+ambiguation of discourse connectives can
+improve Statistical Machine Translation
+(SMT) from English to French. Connec-
+tives are firstly disambiguated in terms of
+the discourse relation they signal between
+segments. Several classifiers trained using
+syntactic and semantic features reach state-
+of-the-art performance, with F1 scores of
+0.6 to 0.8 over thirteen ambiguous English
+connectives. Labeled connectives are then
+used into SMT systems either by mod-
+ifying their phrase table, or by training
+them on labeled corpora. The best modi-
+fied SMT systems improve the translation
+of connectives without degrading BLEU
+scores. A threshold-based SMT system us-
+ing only high-confidence labels improves
+BLEU scores by 0.2?0.4 points.
+1 

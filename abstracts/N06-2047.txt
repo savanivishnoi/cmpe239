@@ -1,0 +1,20 @@
+
+Automatic reading comprehension (RC)
+systems can analyze a given passage and
+generate/extract answers in response to
+questions about the passage. The RC
+passages are often constrained in their
+lengths and the target answer sentence
+usually occurs very few times. In order
+to generate/extract a specific precise an-
+swer, this paper proposes the integration
+of two types of ?deep? linguistic features,
+namely word dependencies and grammati-
+cal relations, in a maximum entropy (ME)
+framework to handle the RC task. The
+proposed approach achieves 44.7% and
+73.2% HumSent accuracy on the Reme-
+dia and ChungHwa corpora respectively.
+This result is competitive with other re-
+sults reported thus far.
+1 

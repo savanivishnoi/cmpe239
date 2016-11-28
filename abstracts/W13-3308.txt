@@ -1,0 +1,17 @@
+
+We present an approach to feature weight
+optimization for document-level decoding.
+This is an essential task for enabling future
+development of discourse-level statistical
+machine translation, as it allows easy inte-
+gration of discourse features in the decod-
+ing process. We extend the framework of
+sentence-level feature weight optimization
+to the document-level. We show experi-
+mentally that we can get competitive and
+relatively stable results when using a stan-
+dard set of features, and that this frame-
+work also allows us to optimize document-
+level features, which can be used to model
+discourse phenomena.
+1 

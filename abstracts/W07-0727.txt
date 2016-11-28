@@ -1,0 +1,17 @@
+
+In this paper we describe the Interactive Sys-
+tems Laboratories (ISL) phrase-based ma-
+chine translation system used in the shared
+task ?Machine Translation for European
+Languages? of the ACL 2007 Workshop on
+Statistical Machine Translation. We present
+results for a system combination of the
+ISL syntax-augmented MT system and the
+ISL phrase-based system by combining and
+rescoring the n-best lists of the two systems.
+We also investigate the combination of two
+of our phrase-based systems translating from
+different source languages, namely Spanish
+and German, into their common target lan-
+guage, English.
+1 

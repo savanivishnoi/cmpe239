@@ -1,0 +1,20 @@
+
+There are lexical, syntactic, semantic and
+discourse variations amongst the languages
+used in various biomedical subdomains. It
+is important to recognise such differences
+and understand that biomedical tools that
+work well on some subdomains may not
+work as well on others. We report here
+on the semantic variations that occur in
+the sublanguages of two biomedical subdo-
+mains, i.e. cell biology and pharmacology,
+at the level of named entity information. By
+building a classifier using ratios of named
+entities as features, we show that named en-
+tity information can discriminate between
+documents from each subdomain. More
+specifically, our classifier can distinguish
+between documents belonging to each sub-
+domain with an accuracy of 91.1% F-score.
+1 

@@ -1,0 +1,19 @@
+
+In this paper we describe our 
+participation in the SIGHAN 2010 Task-
+3 (Person Name Disambiguation) and 
+detail our approaches. Person Name 
+Disambiguation is typically viewed as an 
+unsupervised clustering problem where 
+the aim is to partition a name?s contexts 
+into different clusters, each representing 
+a real world people. The key point of 
+Clustering is the similarity measure of 
+context, which depends upon the features 
+selection and representation. Two 
+clustering algorithms, HAC and 
+DBSCAN, are investigated in our system. 
+The experiments show that the topic 
+features learned by LDA outperforms
+token features and more robust.
+1 

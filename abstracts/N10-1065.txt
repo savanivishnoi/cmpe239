@@ -1,0 +1,24 @@
+
+Most state of the art approaches for machine
+transliteration are data driven and require sig-
+nificant parallel names corpora between lan-
+guages. As a result, developing translitera-
+tion functionality among n languages could
+be a resource intensive task requiring paral-
+lel names corpora in the order of nC2. In this
+paper, we explore ways of reducing this high
+resource requirement by leveraging the avail-
+able parallel data between subsets of the n lan-
+guages, transitively. We propose, and show
+empirically, that reasonable quality transliter-
+ation engines may be developed between two
+languages, X and Y , even when no direct par-
+allel names data exists between them, but only
+transitively through language Z . Such sys-
+tems alleviate the need for O(nC2) corpora,
+significantly. In addition we show that the per-
+formance of such transitive transliteration sys-
+tems is in par with direct transliteration sys-
+tems, in practical applications, such as CLIR
+systems.
+1 

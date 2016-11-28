@@ -1,0 +1,22 @@
+
+The part-whole relation is of special im-
+portance in biomedicine: structure and
+process are organised along partitive axes.
+Anatomy, for example, is rich in part-
+whole relations. This paper reports pre-
+liminary experiments on part-whole ex-
+traction from a corpus of anatomy defi-
+nitions, using a fully automatic iterative
+algorithm to learn simple lexico-syntactic
+patterns from multiword terms. The ex-
+periments show that meronyms can be ex-
+tracted using these patterns. A failure
+analysis points out factors that could con-
+tribute to improvements in both precision
+and recall, including pattern generalisa-
+tion, pattern pruning, and term match-
+ing. The analysis gives insights into the
+relationship between domain terminology
+and lexical relations, and into evaluation
+strategies for relation learning.
+1 

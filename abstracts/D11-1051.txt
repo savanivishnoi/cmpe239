@@ -1,0 +1,20 @@
+
+In this paper, we propose a novel topic
+model based on incorporating dictionary
+definitions. Traditional topic models treat
+words as surface strings without assuming
+predefined knowledge about word mean-
+ing. They infer topics only by observing
+surface word co-occurrence. However, the
+co-occurred words may not be semanti-
+cally related in a manner that is relevant
+for topic coherence. Exploiting dictionary
+definitions explicitly in our model yields
+a better understanding of word semantics
+leading to better text modeling. We exploit
+WordNet as a lexical resource for sense
+definitions. We show that explicitly mod-
+eling word definitions helps improve per-
+formance significantly over the baseline
+for a text categorization task.
+1 

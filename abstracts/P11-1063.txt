@@ -1,0 +1,23 @@
+
+This paper describes a novel technique for in-
+corporating syntactic knowledge into phrase-
+based machine translation through incremen-
+tal syntactic parsing. Bottom-up and top-
+down parsers typically require a completed
+string as input. This requirement makes it dif-
+ficult to incorporate them into phrase-based
+translation, which generates partial hypothe-
+sized translations from left-to-right. Incre-
+mental syntactic language models score sen-
+tences in a similar left-to-right fashion, and are
+therefore a good mechanism for incorporat-
+ing syntax into phrase-based translation. We
+give a formal definition of one such linear-
+time syntactic language model, detail its re-
+lation to phrase-based decoding, and integrate
+the model with the Moses phrase-based trans-
+lation system. We present empirical results
+on a constrained Urdu-English translation task
+that demonstrate a significant BLEU score im-
+provement and a large decrease in perplexity.
+1 

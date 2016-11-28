@@ -1,0 +1,26 @@
+ 
+Social tagging systems, which allow users to 
+freely annotate online resources with tags, 
+become popular in the Web 2.0 era. In order to 
+ease the annotation process, research on social 
+tag recommendation has drawn much attention 
+in recent years. Modeling the social tagging 
+behavior could better reflect the nature of this 
+issue and improve the result of recommendation. 
+In this paper, we proposed a novel approach for 
+bringing the associative ability to model the 
+social tagging behavior and then to enhance the 
+performance of automatic tag recommendation. 
+To simulate human tagging process, our 
+approach ranks the candidate tags on a 
+weighted digraph built by the semantic 
+relationships among meaningful words in the 
+summary and the corresponding tags for a 
+given resource. The semantic relationships are 
+learnt via a word alignment model in statistical 
+machine translation on large datasets. 
+Experiments on real world datasets demonstrate 
+that our method is effective, robust and 
+language-independent compared with the state-
+of-the-art methods. 
+1 

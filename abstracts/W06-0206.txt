@@ -1,0 +1,15 @@
+ 
+We present two semi-supervised learning 
+techniques to improve a state-of-the-art 
+multi-lingual name tagger. For English 
+and Chinese, the overall system obtains 
+1.7% - 2.1% improvement in F-measure, 
+representing a 13.5% - 17.4% relative re-
+duction in the spurious, missing, and in-
+correct tags. We also conclude that 
+simply relying upon large corpora is not 
+in itself sufficient: we must pay attention 
+to unlabeled data selection too. We de-
+scribe effective measures to automatically 
+select documents and sentences. 
+1 

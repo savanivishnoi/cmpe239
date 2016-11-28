@@ -1,0 +1,27 @@
+
+In this paper we compare and contrast
+two approaches to Machine Translation
+(MT): the CMU-UKA Syntax Augmented
+Machine Translation system (SAMT) and
+UPC-TALP N-gram-based Statistical Ma-
+chine Translation (SMT). SAMT is a hier-
+archical syntax-driven translation system
+underlain by a phrase-based model and a
+target part parse tree. In N-gram-based
+SMT, the translation process is based on
+bilingual units related to word-to-word
+alignment and statistical modeling of the
+bilingual context following a maximum-
+entropy framework. We provide a step-
+by-step comparison of the systems and re-
+port results in terms of automatic evalu-
+ation metrics and required computational
+resources for a smaller Arabic-to-English
+translation task (1.5M tokens in the train-
+ing corpus). Human error analysis clari-
+fies advantages and disadvantages of the
+systems under consideration. Finally, we
+combine the output of both systems to
+yield significant improvements in transla-
+tion quality.
+1 

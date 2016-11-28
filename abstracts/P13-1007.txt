@@ -1,0 +1,21 @@
+
+Recent work on statistical quantifier scope
+disambiguation (QSD) has improved upon
+earlier work by scoping an arbitrary num-
+ber and type of noun phrases. No corpus-
+based method, however, has yet addressed
+QSD when incorporating the implicit uni-
+versal of plurals and/or operators such as
+negation. In this paper we report early,
+though promising, results for automatic
+QSD when handling both phenomena. We
+also present a general model for learning
+to build partial orders from a set of pair-
+wise preferences. We give an n log n algo-
+rithm for finding a guaranteed approxima-
+tion of the optimal solution, which works
+very well in practice. Finally, we signifi-
+cantly improve the performance of the pre-
+vious model using a rich set of automati-
+cally generated features.
+1 

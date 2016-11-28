@@ -1,0 +1,24 @@
+ 
+This paper proposes a new approach to 
+segmentation of utterances into sentences 
+using a new linguistic model based upon 
+Maximum-entropy-weighted Bi-
+directional N-grams. The usual N-gram 
+algorithm searches for sentence bounda-
+ries in a text from left to right only. Thus 
+a candidate sentence boundary in the text 
+is evaluated mainly with respect to its left 
+context, without fully considering its right 
+context. Using this approach, utterances 
+are often divided into incomplete sen-
+tences or fragments. In order to make use 
+of both the right and left contexts of can-
+didate sentence boundaries, we propose a 
+new linguistic modeling approach based 
+on Maximum-entropy-weighted Bi-
+directional N-grams. Experimental results 
+indicate that the new approach signifi-
+cantly outperforms the usual N-gram al-
+gorithm for segmenting both Chinese and 
+English utterances. 
+1 

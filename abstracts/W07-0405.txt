@@ -1,0 +1,14 @@
+
+Binarization is essential for achieving
+polynomial time complexities in pars-
+ing and syntax-based machine transla-
+tion. This paper presents a new binariza-
+tion scheme, target-side binarization, and
+compares it with source-side and syn-
+chronous binarizations on both string-
+based and tree-based systems using syn-
+chronous grammars. In particular, we
+demonstrate the effectiveness of target-
+side binarization on a large-scale tree-to-
+string translation system.
+1 

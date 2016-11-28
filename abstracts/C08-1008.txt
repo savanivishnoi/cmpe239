@@ -1,0 +1,20 @@
+
+Much previous work has investigated weak
+supervision with HMMs and tag dictionar-
+ies for part-of-speech tagging, but there
+have been no similar investigations for the
+harder problem of supertagging. Here, I
+show that weak supervision for supertag-
+ging does work, but that it is subject to
+severe performance degradation when the
+tag dictionary is highly ambiguous. I show
+that lexical category complexity and infor-
+mation about how supertags may combine
+syntactically can be used to initialize the
+transition distributions of a first-order Hid-
+den Markov Model for weakly supervised
+learning. This initialization proves more
+effective than starting with uniform tran-
+sitions, especially when the tag dictionary
+is highly ambiguous.
+1 

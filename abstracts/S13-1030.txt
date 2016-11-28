@@ -1,0 +1,20 @@
+
+In this paper we present our systems for cal-
+culating the degree of semantic similarity be-
+tween two texts that we submitted to the Se-
+mantic Textual Similarity task at SemEval-
+2013. Our systems predict similarity using
+a regression over features based on the fol-
+lowing sources of information: string similar-
+ity, topic distributions of the texts based on
+latent Dirichlet alocation, and similarity be-
+tween the documents returned by an informa-
+tion retrieval engine when the target texts are
+used as queries. We also explore methods for
+integrating predictions using different training
+datasets and feature sets. Our best system was
+ranked 17th out of 89 participating systems.
+In our post-task analysis, we identify simple
+changes to our system that further improve our
+results.
+1 

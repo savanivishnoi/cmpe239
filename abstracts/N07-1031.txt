@@ -1,0 +1,18 @@
+
+We describe Castanet, an algorithm for auto-
+matically generating hierarchical faceted meta-
+data from textual descriptions of items, to be in-
+corporated into browsing and navigation inter-
+faces for large information collections. From
+an existing lexical database (such as WordNet),
+Castanet carves out a structure that reflects
+the contents of the target information collec-
+tion; moderate manual modifications improve
+the outcome. The algorithm is simple yet ef-
+fective: a study conducted with 34 information
+architects finds that Castanet achieves higher
+quality results than other automated category
+creation algorithms, and 85% of the study par-
+ticipants said they would like to use the system
+for their work.
+1 

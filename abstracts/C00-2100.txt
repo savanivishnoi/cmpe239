@@ -1,0 +1,13 @@
+ 
+We present some novel nmchine learning techniques 
+for the identilication of subcategorization infornm- 
+tion for verbs in Czech. We compare three different 
+statistical techniques applied to this problem. We 
+show how the learning algorithm can be used to dis- 
+cover previously unknown subcategorization frames 
+from the Czech Prague 1)ependency Treebank. The 
+algorithm can then be used to label dependents of 
+a verb in the Czech treebank as either arguments 
+or adjuncts. Using our techniques, we are able to 
+achieve 88% precision on unseen parsed text. 
+1 

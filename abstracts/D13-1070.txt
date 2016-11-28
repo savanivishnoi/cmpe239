@@ -1,0 +1,28 @@
+
+We present a method which exploits auto-
+matically generated scientific discourse an-
+notations to create a content model for the
+summarisation of scientific articles. Full pa-
+pers are first automatically annotated using the
+CoreSC scheme, which captures 11 content-
+based concepts such as Hypothesis, Result,
+Conclusion etc at the sentence level. A content
+model which follows the sequence of CoreSC
+categories observed in abstracts is used to pro-
+vide the skeleton of the summary, making a
+distinction between dependent and indepen-
+dent categories. Summary creation is also
+guided by the distribution of CoreSC cate-
+gories found in the full articles, in order to
+adequately represent the article content. Fi-
+nally, we demonstrate the usefulness of the
+summaries by evaluating them in a complex
+question answering task. Results are very en-
+couraging as summaries of papers from auto-
+matically obtained CoreSCs enable experts to
+answer 66% of complex content-related ques-
+tions designed on the basis of paper abstracts.
+The questions were answered with a precision
+of 75%, where the upper bound for human
+summaries (abstracts) was 95%.
+1 

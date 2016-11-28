@@ -1,0 +1,24 @@
+
+We study how two graph algorithms ap-
+ply to topic-driven summarization in the
+scope of Document Understanding Con-
+ferences. The DUC 2005 and 2006 tasks
+were to summarize into 250 words a col-
+lection of documents on a topic consist-
+ing of a few statements or questions.
+Our algorithms select sentences for ex-
+traction. We measure their performance
+on the DUC 2005 test data, using the Sum-
+mary Content Units made available after
+the challenge. One algorithm matches a
+graph representing the entire topic against
+each sentence in the collection. The
+other algorithm checks, for pairs of open-
+class words in the topic, whether they can
+be connected in the syntactic graph of
+each sentence. Matching performs bet-
+ter than connecting words, but a combi-
+nation of both methods works best. They
+also both favour longer sentences, which
+makes summaries more fluent.
+1 

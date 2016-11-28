@@ -1,0 +1,23 @@
+
+We address Question Answering (QA) for biograph-
+ical questions, i.e., questions asking for biographi-
+cal facts about persons. The domain of biographical
+documents differs from other restricted domains in
+that the available collections of biographies are in-
+herently incomplete: a major challenge is to answer
+questions about persons for whom biographical in-
+formation is not present in biography collections.
+We present BioGrapher, a biographical QA system
+that addresses this problem by machine learning al-
+gorithms for biography classification. BioGrapher
+first attempts to answer a question by searching in
+a given collection of biographies, using techniques
+tailored for the restricted nature of the domain. If
+a biography is not found, BioGrapher attempts to
+find an answer on the web: it retrieves documents
+using a web search engine, filters these using the bi-
+ography classifier, and then extracts answers from
+documents classified as biographies. Our empirical
+results show that biographical classification, prior to
+answer extraction, improves the results.
+1 

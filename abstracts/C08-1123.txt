@@ -1,0 +1,15 @@
+
+We present recent work in the area of
+Cross-Domain Dialogue Act tagging. Our
+experiments investigate the use of a sim-
+ple dialogue act classifier based on purely
+intra-utterance features - principally in-
+volving word n-gram cue phrases. We ap-
+ply automatically extracted cues from one
+corpus to a new annotated data set, to de-
+termine the portability and generality of
+the cues we learn. We show that our auto-
+matically acquired cues are general enough
+to serve as a cross-domain classification
+mechanism.
+1 

@@ -1,0 +1,22 @@
+
+Lexical gaps between queries and questions
+(documents) have been a major issue in ques-
+tion retrieval on large online question and
+answer (Q&A) collections. Previous stud-
+ies address the issue by implicitly expanding
+queries with the help of translation models
+pre-constructed using statistical techniques.
+However, since it is possible for unimpor-
+tant words (e.g., non-topical words, common
+words) to be included in the translation mod-
+els, a lack of noise control on the models can
+cause degradation of retrieval performance.
+This paper investigates a number of empirical
+methods for eliminating unimportant words in
+order to construct compact translation mod-
+els for retrieval purposes. Experiments con-
+ducted on a real world Q&A collection show
+that substantial improvements in retrieval per-
+formance can be achieved by using compact
+translation models.
+1 

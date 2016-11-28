@@ -1,0 +1,16 @@
+
+We present a very efficient statistical in-
+cremental parser for LTAG-spinal, a vari-
+ant of LTAG. The parser supports the
+full adjoining operation, dynamic predi-
+cate coordination, and non-projective de-
+pendencies, with a formalism of provably
+stronger generative capacity as compared
+to CFG. Using gold standard POS tags as
+input, on section 23 of the PTB, the parser
+achieves an f-score of 89.3% for syntactic
+dependency defined on LTAG derivation
+trees, which are deeper than the dependen-
+cies extracted from PTB alone with head
+rules (for example, in Magerman?s style).
+1 

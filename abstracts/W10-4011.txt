@@ -1,0 +1,23 @@
+
+Multilingual Pseudo-Relevance Feedback
+(MultiPRF) is a framework to improve
+the PRF of a source language by taking
+the help of another language called as-
+sisting language. In this paper, we ex-
+tend the MultiPRF framework to include
+multiple assisting languages. We consider
+three different configurations to incorpo-
+rate multiple assisting languages - a) Par-
+allel - all assisting languages combined
+simultaneously b) Serial - assisting lan-
+guages combined in sequence one after
+another and c) Selective - dynamically se-
+lecting the best feedback model for each
+query. We study their effect on MultiPRF
+performance. Results using multiple as-
+sisting languages are mixed and it helps in
+boosting MultiPRF accuracy only in some
+cases. We also observe that MultiPRF be-
+comes more robust with increase in num-
+ber of assisting languages.
+1 

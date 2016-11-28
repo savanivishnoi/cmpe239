@@ -1,0 +1,11 @@
+
+Term selection methods typically employ a statistical measure to
+filter or weight terms. Term expansion for IR may also depend on
+statistics, or use some other, non-metric method based on a lexical
+resource. At the same time, a wide range of semantic similarity mea-
+sures have been developed to support natural language processing tasks
+such as word sense disambiguation. This paper combines the two ap-
+proaches and proposes an algorithm that provides a semantic order of
+terms based on a semantic relatedness measure. This semantic order
+can be exploited by term weighting and term expansion methods.
+1 

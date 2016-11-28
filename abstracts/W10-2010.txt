@@ -1,0 +1,17 @@
+
+The amount of cognitive effort required to
+process a word has been argued to depend
+on the word?s effect on the uncertainty
+about the incoming sentence, as quanti-
+fied by the entropy over sentence probabil-
+ities. The current paper tests this hypoth-
+esis more thoroughly than has been done
+before by using recurrent neural networks
+for entropy-reduction estimation. A com-
+parison between these estimates and word-
+reading times shows that entropy reduc-
+tion is positively related to processing ef-
+fort, confirming the entropy-reduction hy-
+pothesis. This effect is independent from
+the effect of surprisal.
+1 

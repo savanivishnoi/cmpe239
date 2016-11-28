@@ -1,0 +1,23 @@
+
+We propose a new framework for N-best
+reranking on sparse feature sets. The idea
+is to reformulate the reranking problem as
+a Multitask Learning problem, where each
+N-best list corresponds to a distinct task.
+This is motivated by the observation that
+N-best lists often show significant differ-
+ences in feature distributions. Training a
+single reranker directly on this heteroge-
+nous data can be difficult.
+Our proposed meta-algorithm solves this
+challenge by using multitask learning
+(such as ?1/?2 regularization) to discover
+common feature representations across N-
+best lists. This meta-algorithm is simple to
+implement, and its modular approach al-
+lows one to plug-in different learning algo-
+rithms from existing literature. As a proof
+of concept, we show statistically signifi-
+cant improvements on a machine transla-
+tion system involving millions of features.
+1 

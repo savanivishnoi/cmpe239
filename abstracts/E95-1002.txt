@@ -1,0 +1,25 @@
+ 
+The paper presents a constraint based semantic 
+formalism for HPSG. The syntax-semantics inter- 
+face directly implements yntactic conditions on 
+quantifier scoping and distributivity. 1 The con- 
+struction of semantic representations is guided" by 
+general principles governing the interaction bet- 
+ween syntax and semantics. Each of these princip- 
+les acts as a constraint o narrow down the set 
+of possible interpretations of a sentence. Meanings 
+of ambiguous entences are represented by single 
+partial representations ( o-called U(nderspecified) 
+D(iscourse) R(epresentation) S(tructure)s) to which 
+further constraints can be added monotonically to 
+gain more information about the content of a sent- 
+ence. There is no need to build up a large number 
+of alternative representations of the sentence which 
+are then filtered by subsequent discourse and world 
+knowledge. The advantage of UDRSs is not only that 
+they allow for monotonic incremental interpretation 
+but also that they are equipped with truth condi- 
+tions and a proof theory that allows for inferences 
+to be drawn directly on structures where quantifier 
+scope is not resolved. 
+1 

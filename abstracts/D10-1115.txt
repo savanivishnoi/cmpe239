@@ -1,0 +1,20 @@
+
+We propose an approach to adjective-noun
+composition (AN) for corpus-based distribu-
+tional semantics that, building on insights
+from theoretical linguistics, represents nouns
+as vectors and adjectives as data-induced (lin-
+ear) functions (encoded as matrices) over
+nominal vectors. Our model significantly out-
+performs the rivals on the task of reconstruct-
+ing AN vectors not seen in training. A small
+post-hoc analysis further suggests that, when
+the model-generated AN vector is not simi-
+lar to the corpus-observed AN vector, this is
+due to anomalies in the latter. We show more-
+over that our approach provides two novel
+ways to represent adjective meanings, alter-
+native to its representation via corpus-based
+co-occurrence vectors, both outperforming the
+latter in an adjective clustering task.
+1 

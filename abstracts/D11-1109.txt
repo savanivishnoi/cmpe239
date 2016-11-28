@@ -1,0 +1,27 @@
+
+Part-of-speech (POS) is an indispensable fea-
+ture in dependency parsing. Current research
+usually models POS tagging and dependency
+parsing independently. This may suffer from
+error propagation problem. Our experiments
+show that parsing accuracy drops by about
+6% when using automatic POS tags instead
+of gold ones. To solve this issue, this pa-
+per proposes a solution by jointly optimiz-
+ing POS tagging and dependency parsing in a
+unique model. We design several joint models
+and their corresponding decoding algorithms
+to incorporate different feature sets. We fur-
+ther present an effective pruning strategy to re-
+duce the search space of candidate POS tags,
+leading to significant improvement of parsing
+speed. Experimental results on Chinese Penn
+Treebank 5 show that our joint models sig-
+nificantly improve the state-of-the-art parsing
+accuracy by about 1.5%. Detailed analysis
+shows that the joint method is able to choose
+such POS tags that are more helpful and dis-
+criminative from parsing viewpoint. This is
+the fundamental reason of parsing accuracy
+improvement.
+1 

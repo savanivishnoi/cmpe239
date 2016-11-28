@@ -1,0 +1,22 @@
+
+This paper proposes unsupervised word
+sense disambiguation based on automati-
+cally constructed case frames and its in-
+corporation into our zero pronoun resolu-
+tion system. The word sense disambigua-
+tion is applied to verbs and nouns. We
+consider that case frames define verb senses
+and semantic features in a thesaurus define
+noun senses, respectively, and perform sense
+disambiguation by selecting them based on
+case analysis. In addition, according to the
+one sense per discourse heuristic, the word
+sense disambiguation results are cached and
+applied globally to the subsequent words.
+We integrated this global word sense disam-
+biguation into our zero pronoun resolution
+system, and conducted experiments of zero
+pronoun resolution on two different domain
+corpora. Both of the experimental results
+indicated the effectiveness of our approach.
+1 

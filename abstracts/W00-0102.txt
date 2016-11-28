@@ -1,0 +1,23 @@
+ 
+We propose a method for dealing with 
+semantic complexities occurring in 
+information retrieval systems on the basis of 
+linguistic observations. Our method follows 
+from an analysis indicating that long runs of 
+content words appear in a stopped ocument 
+cluster, and our observation that these long 
+runs predominately originate from the 
+prepositional phrase and subject 
+complement positions and as such, may be 
+useful predictors of semantic coherence. 
+From this linguistic basis, we test three 
+statistical hypotheses over a small collection 
+of documents from different genre. By 
+coordinating thesaurus emantic ategories 
+(SEMCATs) of the long run words to the 
+semantic categories of paragraphs, we 
+conclude that for paragraphs containing both 
+long runs and short runs, the SEMCAT 
+weight of long runs of content words is a 
+strong predictor of the semantic oherence 
+of the paragraph. 

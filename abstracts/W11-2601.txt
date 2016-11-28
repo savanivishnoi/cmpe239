@@ -1,0 +1,31 @@
+
+Recent research on multilingual statistical ma-
+chine translation (SMT) focuses on the usage
+of pivot languages in order to overcome re-
+source limitations for certain language pairs.
+This paper proposes a new method to translate
+a dialect language into a foreign language by
+integrating transliteration approaches based
+on Bayesian co-segmentation (BCS) models
+with pivot-based SMT approaches. The ad-
+vantages of the proposed method with respect
+to standard SMT approaches are three fold:
+(1) it uses a standard language as the pivot lan-
+guage and acquires knowledge about the re-
+lation between dialects and the standard lan-
+guage automatically, (2) it reduces the transla-
+tion task complexity by using monotone de-
+coding techniques, (3) it reduces the num-
+ber of features in the log-linear model that
+have to be estimated from bilingual data. Ex-
+perimental results translating four Japanese
+dialects (Kumamoto, Kyoto, Okinawa, Os-
+aka) into four Indo-European languages (En-
+glish, German, Russian, Hindi) and two Asian
+languages (Chinese, Korean) revealed that
+the proposed method improves the translation
+quality of dialect translation tasks and outper-
+forms standard pivot translation approaches
+concatenating SMT engines for the majority
+of the investigated language pairs.
+1 

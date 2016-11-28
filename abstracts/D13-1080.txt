@@ -1,0 +1,17 @@
+
+Automatically constructed Knowledge Bases
+(KBs) are often incomplete and there is a gen-
+uine need to improve their coverage. Path
+Ranking Algorithm (PRA) is a recently pro-
+posed method which aims to improve KB cov-
+erage by performing inference directly over
+the KB graph. For the first time, we demon-
+strate that addition of edges labeled with la-
+tent features mined from a large dependency
+parsed corpus of 500 million Web documents
+can significantly outperform previous PRA-
+based approaches on the KB inference task.
+We present extensive experimental results val-
+idating this finding. The resources presented
+in this paper are publicly available.
+1 

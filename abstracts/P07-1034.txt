@@ -1,0 +1,20 @@
+
+Domain adaptation is an important problem
+in natural language processing (NLP) due to
+the lack of labeled data in novel domains. In
+this paper, we study the domain adaptation
+problem from the instance weighting per-
+spective. We formally analyze and charac-
+terize the domain adaptation problem from
+a distributional view, and show that there
+are two distinct needs for adaptation, cor-
+responding to the different distributions of
+instances and classification functions in the
+source and the target domains. We then
+propose a general instance weighting frame-
+work for domain adaptation. Our empir-
+ical results on three NLP tasks show that
+incorporating and exploiting more informa-
+tion from the target domain through instance
+weighting is effective.
+1 

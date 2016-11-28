@@ -1,0 +1,23 @@
+
+Many emerging applications require doc-
+uments to be repeatedly updated. Such
+documents include newsfeeds, webpages,
+and shared community resources such as
+Wikipedia. In this paper we address the
+task of inserting new information into exist-
+ing texts. In particular, we wish to deter-
+mine the best location in a text for a given
+piece of new information. For this process
+to succeed, the insertion algorithm should
+be informed by the existing document struc-
+ture. Lengthy real-world texts are often hier-
+archically organized into chapters, sections,
+and paragraphs. We present an online rank-
+ing model which exploits this hierarchical
+structure ? representationally in its features
+and algorithmically in its learning proce-
+dure. When tested on a corpus of Wikipedia
+articles, our hierarchically informed model
+predicts the correct insertion paragraph more
+accurately than baseline methods.
+1 

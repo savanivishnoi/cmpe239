@@ -1,0 +1,22 @@
+
+We describe a machine learning system based
+on large margin structure perceptron for unre-
+stricted coreference resolution that introduces
+two key modeling techniques: latent corefer-
+ence trees and entropy guided feature induc-
+tion. The proposed latent tree modeling turns
+the learning problem computationally feasi-
+ble. Additionally, using an automatic feature
+induction method, we are able to efficiently
+build nonlinear models and, hence, achieve
+high performances with a linear learning algo-
+rithm. Our system is evaluated on the CoNLL-
+2012 Shared Task closed track, which com-
+prises three languages: Arabic, Chinese and
+English. We apply the same system to all lan-
+guages, except for minor adaptations on some
+language dependent features, like static lists
+of pronouns. Our system achieves an offi-
+cial score of 58.69, the best one among all the
+competitors.
+1 

@@ -1,0 +1,24 @@
+
+This paper presents example-based machine
+translation (MT) based on syntactic trans-
+fer, which selects the best translation by us-
+ing models of statistical machine translation.
+Example-based MT sometimes generates in-
+valid translations because it selects similar ex-
+amples to the input sentence based only on
+source language similarity. The method pro-
+posed in this paper selects the best transla-
+tion by using a language model and a trans-
+lation model in the same manner as statisti-
+cal MT, and it can improve MT quality over
+that of ?pure? example-based MT. A feature
+of this method is that the statistical models
+are applied after word re-ordering is achieved
+by syntactic transfer. This implies that MT
+quality is maintained even when we only ap-
+ply a lexicon model as the translation model.
+In addition, translation speed is improved by
+bottom-up generation, which utilizes the tree
+structure that is output from the syntactic
+transfer.
+1 

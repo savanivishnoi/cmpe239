@@ -1,0 +1,23 @@
+
+We present a method of evaluating the imme-
+diate performance impact of user state mis-
+classifications in spoken dialogue systems.
+We illustrate the method with a tutoring sys-
+tem that adapts to student uncertainty over and
+above correctness. First we define a rank-
+ing of user states representing local perfor-
+mance. Second, we compare user state trajec-
+tories when the first state is accurately clas-
+sified versus misclassified. Trajectories are
+quantified using a previously proposed met-
+ric representing the likelihood of transitioning
+from one user state to another. Comparison of
+the two sets of trajectories shows whether user
+state misclassifications change the likelihood
+of subsequent higher or lower ranked states,
+relative to accurate classification. Our tutoring
+system results illustrate the case where user
+state misclassification increases the likelihood
+of negative performance trajectories as com-
+pared to accurate classification.
+1 

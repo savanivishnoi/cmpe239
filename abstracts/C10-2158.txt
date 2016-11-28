@@ -1,0 +1,17 @@
+
+Empty categories represent an impor-
+tant source of information in syntactic
+parses annotated in the generative linguis-
+tic tradition, but empty category recovery
+has only started to receive serious atten-
+tion until very recently, after substantial
+progress in statistical parsing. This paper
+describes a unified framework in recover-
+ing empty categories in the Chinese Tree-
+bank. Our results show that given skele-
+tal gold standard parses, the empty cate-
+gories can be detected with very high ac-
+curacy. We report very promising results
+for empty category recovery for automatic
+parses as well.
+1 

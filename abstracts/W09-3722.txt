@@ -1,0 +1,17 @@
+
+In this paper a multiclassifier based approach is presented for a
+word sense disambiguation (WSD) problem. A vector representation
+is used for training and testing cases and the Singular Value Decom-
+position (SVD) technique is applied to reduce the dimension of the
+representation. The approach we present consists in creating a set of
+k-NN classifiers and combining the predictions generated in order to
+give a final word sense prediction for each case to be classified. The
+combination is done by applying a Bayesian voting scheme. The ap-
+proach has been applied to a database of 100 words made available by
+the lexical sample WSD subtask of SemEval-2007 (task 17) organizers.
+Each of the words was considered an independent classification prob-
+lem. A methodological parameter tuning phase was applied in order to
+optimize parameter setting for each word. Results achieved are among
+the best and make the approach encouraging to apply to other WSD
+tasks.
+1 

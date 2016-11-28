@@ -1,0 +1,22 @@
+
+We propose two internal methods for ac-
+centing unknown words, which both learn
+on a reference set of accented words the
+contexts of occurrence of the various ac-
+cented forms of a given letter. One method
+is adapted from POS tagging, the other is
+based on finite state transducers.
+We show experimental results for letter
+e on the French version of the Medical
+Subject Headings thesaurus. With the
+best training set, the tagging method ob-
+tains a precision-recall breakeven point
+of 84.24.4% and the transducer method
+83.84.5% (with a baseline at 64%) for
+the unknown words that contain this let-
+ter. A consensus combination of both in-
+creases precision to 92.03.7% with a re-
+call of 75%. We perform an error analysis
+and discuss further steps that might help
+improve over the current performance.
+1 

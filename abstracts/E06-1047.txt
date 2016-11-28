@@ -1,0 +1,18 @@
+
+The Arabic language is a collection of
+spoken dialects with important phonolog-
+ical, morphological, lexical, and syntac-
+tic differences, along with a standard writ-
+ten language, Modern Standard Arabic
+(MSA). Since the spoken dialects are not
+officially written, it is very costly to obtain
+adequate corpora to use for training dialect
+NLP tools such as parsers. In this paper,
+we address the problem of parsing tran-
+scribed spoken Levantine Arabic (LA).We
+do not assume the existence of any anno-
+tated LA corpus (except for development
+and testing), nor of a parallel corpus LA-
+MSA. Instead, we use explicit knowledge
+about the relation between LA and MSA.
+1 

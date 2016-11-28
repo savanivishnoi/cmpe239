@@ -1,0 +1,27 @@
+
+In this paper, a new language model, the
+Multi-Class Composite N-gram, is pro-
+posed to avoid a data sparseness prob-
+lem for spoken language in that it is
+difficult to collect training data. The
+Multi-Class Composite N-gram main-
+tains an accurate word prediction ca-
+pability and reliability for sparse data
+with a compact model size based on
+multiple word clusters, called Multi-
+Classes. In the Multi-Class, the statisti-
+cal connectivity at each position of the
+N-grams is regarded as word attributes,
+and one word cluster each is created to
+represent the positional attributes. Fur-
+thermore, by introducing higher order
+word N-grams through the grouping of
+frequent word successions, Multi-Class
+N-grams are extended to Multi-Class
+Composite N-grams. In experiments,
+the Multi-Class Composite N-grams re-
+sult in 9.5% lower perplexity and a 16%
+lower word error rate in speech recogni-
+tion with a 40% smaller parameter size
+than conventional word 3-grams.
+1 

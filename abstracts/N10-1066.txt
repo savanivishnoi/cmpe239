@@ -1,0 +1,23 @@
+
+This paper proposes a general learning frame-
+work for a class of problems that require learn-
+ing over latent intermediate representations.
+Many natural language processing (NLP) de-
+cision problems are defined over an expressive
+intermediate representation that is not explicit
+in the input, leaving the algorithm with both
+the task of recovering a good intermediate rep-
+resentation and learning to classify correctly.
+Most current systems separate the learning
+problem into two stages by solving the first
+step of recovering the intermediate representa-
+tion heuristically and using it to learn the final
+classifier. This paper develops a novel joint
+learning algorithm for both tasks, that uses the
+final prediction to guide the selection of the
+best intermediate representation. We evalu-
+ate our algorithm on three different NLP tasks
+? transliteration, paraphrase identification and
+textual entailment ? and show that our joint
+method significantly improves performance.
+1 

@@ -1,0 +1,18 @@
+
+In this paper, we report experiments that
+explore learning of syntactic and seman-
+tic representations. First, we extend a
+state-of-the-art statistical parser to pro-
+duce a richly annotated tree that identi-
+fies and labels nodes with semantic role la-
+bels as well as syntactic labels. Secondly,
+we explore rule-based and learning tech-
+niques to extract predicate-argument struc-
+tures from this enriched output. The learn-
+ing method is competitive with previous
+single-system proposals for semantic role
+labelling, yields the best reported preci-
+sion, and produces a rich output. In com-
+bination with other high recall systems it
+yields an F-measure of 81%.
+1 

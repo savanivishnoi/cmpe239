@@ -1,0 +1,22 @@
+
+The dictionary look-up of unknown words is partic-
+ularly difficult in Japanese due to the complicated
+writing system. We propose a system which allows
+learners of Japanese to look up words according to
+their expected, but not necessarily correct, reading.
+This is an improvement over previous systems which
+provide no handling of incorrect readings. In prepro-
+cessing, we calculate the possible readings each kanji
+character can take and different types of phonolog-
+ical and conjugational changes that can occur, and
+associate a probability with each. Using these prob-
+abilities and corpus-based frequencies we calculate a
+plausibility measure for each generated reading given
+a dictionary entry, based on the naive Bayes model.
+In response to a reading input, we calculate the plau-
+sibility of each dictionary entry corresponding to the
+reading and display a list of candidates for the user
+to choose from. We have implemented our system
+in a web-based environment and are currently eval-
+uating its usefulness to learners of Japanese.
+1 

@@ -1,0 +1,28 @@
+
+Most icon-based augmentative and alternative
+communication (AAC) devices require users
+to formulate messages in syntactic order in
+order to produce syntactic utterances. Re-
+liance on syntactic ordering, however, may
+not be appropriate for individuals with lim-
+ited or emerging literacy skills. Some of these
+users may benefit from unordered message
+formulation accompanied by automatic mes-
+sage expansion to generate syntactically cor-
+rect messages. Facilitating communication via
+unordered message formulation, however, re-
+quires new methods of prediction. This pa-
+per describes a novel approach to word predic-
+tion using semantic grams, or ?sem-grams,?
+which provide relational information about
+message components regardless of word or-
+der. Performance of four word-level predic-
+tion algorithms, two based on sem-grams and
+two based on n-grams, were compared on a
+corpus of informal blogs. Results showed
+that sem-grams yield accurate word predic-
+tion, but lack prediction coverage. Hybrid
+methods that combine n-gram and sem-gram
+approaches may be viable for unordered pre-
+diction in AAC.
+1 

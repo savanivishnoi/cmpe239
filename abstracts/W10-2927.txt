@@ -1,0 +1,23 @@
+
+We propose the notion of a structural bias
+inherent in a parsing system with respect
+to the language it is aiming to parse. This
+structural bias characterizes the behaviour
+of a parsing system in terms of structures
+it tends to under- and over- produce. We
+propose a Boosting-based method for un-
+covering some of the structural bias inher-
+ent in parsing systems. We then apply
+our method to four English dependency
+parsers (an Arc-Eager and Arc-Standard
+transition-based parsers, and first- and
+second-order graph-based parsers). We
+show that all four parsers are biased with
+respect to the kind of annotation they are
+trained to parse. We present a detailed
+analysis of the biases that highlights spe-
+cific differences and commonalities be-
+tween the parsing systems, and improves
+our understanding of their strengths and
+weaknesses.
+1 

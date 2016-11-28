@@ -1,0 +1,21 @@
+
+Finding allowable places in words to insert
+hyphens is an important practical prob-
+lem. The algorithm that is used most of-
+ten nowadays has remained essentially un-
+changed for 25 years. This method is the
+TEX hyphenation algorithm of Knuth and
+Liang. We present here a hyphenation
+method that is clearly more accurate. The
+new method is an application of condi-
+tional random fields. We create new train-
+ing sets for English and Dutch from the
+CELEX European lexical resource, and
+achieve error rates for English of less than
+0.1% for correctly allowed hyphens, and
+less than 0.01% for Dutch. Experiments
+show that both the Knuth/Liang method
+and a leading current commercial alterna-
+tive have error rates several times higher
+for both languages.
+1 

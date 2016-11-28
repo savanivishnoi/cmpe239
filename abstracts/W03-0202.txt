@@ -1,0 +1,23 @@
+
+Automatic classification of short textual an-
+swers by students to questions about topics in
+physics, computing, etc., is an attractive ap-
+proach to diagnostic assessment of learning.
+We present a language for expressing rules that
+can classify text based on the presence and rel-
+ative positions of words, lists of synonyms and
+other abstractions of a single word. We also
+describe a system, based on Mitchell?s version
+spaces algorithm, that learns rules in this lan-
+guage. These rules can be used to catego-
+rize student responses to short-answer ques-
+tions. The system is trained on written re-
+sponses captured by an online assessment sys-
+tem that poses multiple choice questions and
+asks the student to justify their answers with
+textual explanations of their reasoning. Several
+experiments are described that examine the ef-
+fects of the use of negative data and tagging
+students explanations with their answer to the
+original multiple choice question.
+1 

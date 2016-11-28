@@ -1,0 +1,16 @@
+
+This paper discusses ensembles of simple but het-
+erogeneous classifiers for word-sense disambigua-
+tion, examining the Stanford-CS224N system en-
+tered in the SENSEVAL-2 English lexical sample
+task. First-order classifiers are combined by a
+second-order classifier, which variously uses ma-
+jority voting, weighted voting, or a maximum en-
+tropy model. While individual first-order classifiers
+perform comparably to middle-scoring teams? sys-
+tems, the combination achieves high performance.
+We discuss trade-offs and empirical performance.
+Finally, we present an analysis of the combination,
+examining how ensemble performance depends on
+error independence and task difficulty.
+1 

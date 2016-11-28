@@ -1,0 +1,12 @@
+
+We propose to model multiword expres-
+sions as dependency subgraphs, and re-
+alize this idea in the grammar formal-
+ism of Extensible Dependency Gram-
+mar (XDG). We extend XDG to lexi-
+calize dependency subgraphs, and show
+how to compile them into simple lexical
+entries, amenable to parsing and gener-
+ation with the existing XDG constraint
+solver.
+1 

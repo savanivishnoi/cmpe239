@@ -1,0 +1,11 @@
+
+We examine some of the frequently disre-
+garded subtleties of tokenization in Penn Tree-
+bank style, and present a new rule-based pre-
+processing toolkit that not only reproduces the
+Treebank tokenization with unmatched accu-
+racy, but also maintains exact stand-off point-
+ers to the original text and allows flexible con-
+figuration to diverse use cases (e.g. to genre-
+or domain-specific idiosyncrasies).
+1 

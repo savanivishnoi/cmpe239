@@ -1,0 +1,30 @@
+ 
+Chinese abbreviations are widely used in 
+the modern Chinese texts. They are a 
+special form of unknown words, including 
+many named entities. This results in 
+difficulty for correct Chinese processing. 
+In this study, the Chinese abbreviation 
+problem is regarded as an error recovery 
+problem in which the suspect root words 
+are the ?errors? to be recovered from a set 
+of candidates. Such a problem is mapped
+to an HMM-based generation model for 
+both abbreviation identification and root
+word recovery, and is integrated as part of
+a unified word segmentation model when 
+the input extends to a complete sentence. 
+Two major experiments are conducted to 
+test the abbreviation models. In the first 
+experiment, an attempt is made to guess 
+the abbreviations of the root words. An 
+accuracy rate of 72% is observed. In 
+contrast, a second experiment is 
+conducted to guess the root words from 
+abbreviations. Some submodels could 
+achieve as high as 51% accuracy with the 
+simple HMM-based model. Some 
+quantitative observations against heuristic 
+abbreviation knowledge about Chinese 
+are also observed. 
+1 

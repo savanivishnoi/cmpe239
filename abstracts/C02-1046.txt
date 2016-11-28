@@ -1,0 +1,16 @@
+
+A word has many senses, and each sense can
+be mapped into many target words. Therefore,
+to select the appropriate translation with a cor-
+rect sense, the sense of a source word should be
+disambiguated before selecting a target word.
+Based on this observation, we propose a hybrid
+method for translation selection that combines
+disambiguation of a source word sense and se-
+lection of a target word. Knowledge for transla-
+tion selection is extracted from a bilingual dic-
+tionary and target language corpora. Dividing
+translation selection into the two sub-problems,
+we can make knowledge acquisition straightfor-
+ward and select more appropriate target words.
+1 

@@ -1,0 +1,17 @@
+
+We describe a cross-lingual method for the in-
+duction of selectional preferences for resource-
+poor languages, where no accurate monolin-
+gual models are available. The method uses
+bilingual vector spaces to ?translate? foreign
+language predicate-argument structures into
+a resource-rich language like English. The
+only prerequisite for constructing the bilin-
+gual vector space is a large unparsed corpus
+in the resource-poor language, although the
+model can profit from (even noisy) syntactic
+knowledge. Our experiments show that the
+cross-lingual predictions correlate well with
+human ratings, clearly outperforming monolin-
+gual baseline models.
+1 

@@ -1,0 +1,15 @@
+
+The current state-of-the-art in statistical
+machine translation (SMT) suffers from is-
+sues of sparsity and inadequate modeling
+power when translating into morphologi-
+cally rich languages. We model both in-
+flection and word-formation for the task
+of translating into German. We translate
+from English words to an underspecified
+German representation and then use linear-
+chain CRFs to predict the fully specified
+German representation. We show that im-
+proved modeling of inflection and word-
+formation leads to improved SMT.
+1 

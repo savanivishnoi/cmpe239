@@ -1,0 +1,19 @@
+
+Paraphrase recognition is a critical step for nat-
+ural language interpretation. Accordingly, many
+NLP applications would benefit from high coverage
+knowledge bases of paraphrases. However, the scal-
+ability of state-of-the-art paraphrase acquisition ap-
+proaches is still limited. We present a fully unsuper-
+vised learning algorithm for Web-based extraction
+of entailment relations, an extended model of para-
+phrases. We focus on increased scalability and gen-
+erality with respect to prior work, eventually aiming
+at a full scale knowledge base. Our current imple-
+mentation of the algorithm takes as its input a verb
+lexicon and for each verb searches the Web for re-
+lated syntactic entailment templates. Experiments
+show promising results with respect to the ultimate
+goal, achieving much better scalability than prior
+Web-based methods.
+1 

@@ -1,0 +1,17 @@
+ 
+This paper describes semi-automatic construc-
+tion of Thai WordNet and the applied method 
+for Asian wordNet. Based on the Princeton 
+WordNet, we develop a method in generating 
+a WordNet by using an existing bi-lingual dic-
+tionary. We align the PWN synset to a bi-
+lingual dictionary through the English equiva-
+lent and its part-of-speech (POS), automati-
+cally. Manual translation is also employed af-
+ter the alignment. We also develop a web-
+based collaborative workbench, called KUI 
+(Knowledge Unifying Initiator), for revising 
+the result of synset assignment and provide a 
+framework to create Asian WordNet via the 
+linkage through PWN synset.     
+1 

@@ -1,0 +1,80 @@
+
+In this article we want to demonstrate that
+annotation of multiword expressions in the
+Prague Dependency Treebank is a well de-
+fined task, that it is useful as well as feasible,
+and that we can achieve good consistency of
+such annotations in terms of inter-annotator
+agreement. We show a way to measure agree-
+ment for this type of annotation. We also ar-
+gue that some automatic pre-annotation is
+possible and it does not damage the results.
+1 Motivation
+Various projects involving lexico-semantic annota-
+tion have been ongoing for many years. Among those
+there are the projects of word sense annotation, usu-
+ally for creating training data for word sense disam-
+biguation. However majority of these projects have
+only annotated very limited number of word senses
+(cf. Kilgarriff (1998)). Even among those that aim
+towards ?all words? word-sense annotation, multi-
+word expressions (MWE) are not annotated adequa-
+tely (see (Mihalcea, 1998) or (Hajic? et al, 2004)),
+because for their successful annotation a method-
+ology allowing identification of new MWEs during
+annotation is required. Existing dictionaries that in-
+clude MWEs concentrate only on the most frequent
+ones, but we argue that there are many more MWEs
+that can only be identified (and added to the dictio-
+nary) by annotation.
+There are various projects for identification of na-
+med entities (for an overview see (?evc??kov? et al,
+2007)). We explain below (mainly in Section 2) why
+we consider named entities to be concerned with lex-
+ical meaning. At this place we just wish to recall that
+these projects only select some specific parts of text
+and provide information only for these. They do not
+aim for full lexico-semantic annotation of texts.
+There is also another group of projects that have to
+tackle the problem of lexical meaning, namely tree-
+banking projects that aim to develop a deeper layer
+of annotation in adition to a surface syntactic layer.
+This deeper layer is generally agreed to concern lex-
+ical meaning. Therefore the units of this layer cannot
+be words anymore, they should be lexias.
+Lexia is defined by Filipec and C?erm?k (1986)
+as equivalent to a ?monosemic lexeme? of (Filipec,
+1994) or a ?lexical unit? of (Cruse, 1986): ?a pair
+of a single sense and a basic form (plus its derived
+forms) with relatively stable semantic properties?.
+We work with the Prague Dependency Treebank
+(PDT, see Hajic? (2005)), which has in addition to
+the morphemic and the surface syntactic layers also
+the tectogrammatical layer. The latter has been con-
+strued as the layer of the (literal) meaning of the sen-
+tence and thus should be composed of lexias (lexical
+units) and the relations between their occurrences.1
+On the tectogrammatical layer only the autose-
+mantic words form nodes in a tree (t-nodes). Synse-
+mantic (function) words are represented by various
+attributes of t-nodes. Each t-node has a lemma: an at-
+tribute whose value is the node?s basic lexical form.
+Currently t-nodes, and consequently their t-lemmas,
+are still visibly derived from the morphological di-
+vision of text into tokens. This preliminary handling
+1With a few exceptions, such as personal pronouns (that co-
+refer to other lexias) or coordination heads.
+793
+has always been considered unsatisfactory in FGD.2
+There is a clear goal to distinguish t-lemmas through
+their senses, but this process has not been completed
+so far.
+Our project aims at improving the current state
+of t-lemmas. Our goal is to assign each t-node a
+t-lemma that would correspond to a lexia, i.e. that
+would really distinguish the t-node?s lexical mean-
+ings. To achieve this goal, in the first phase of the
+project, which we report on in this paper, we iden-
+tify multiword expressions and create a lexicon of
+the corresponding lexias.
+2 

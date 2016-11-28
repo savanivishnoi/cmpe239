@@ -1,0 +1,23 @@
+
+This paper explores the use of the homo-
+topy method for training a semi-supervised
+Hidden Markov Model (HMM) used for
+sequence labeling. We provide a novel
+polynomial-time algorithm to trace the lo-
+cal maximum of the likelihood function
+for HMMs from full weight on the la-
+beled data to full weight on the unla-
+beled data. We present an experimental
+analysis of different techniques for choos-
+ing the best balance between labeled and
+unlabeled data based on the characteris-
+tics observed along this path. Further-
+more, experimental results on the field seg-
+mentation task in information extraction
+show that the Homotopy-based method
+significantly outperforms EM-based semi-
+supervised learning, and provides a more
+accurate alternative to the use of held-out
+data to pick the best balance for combin-
+ing labeled and unlabeled data.
+1 

@@ -1,0 +1,16 @@
+
+In this paper we investigate the benefit
+of stochastic predictor components for the
+parsing quality which can be obtained with
+a rule-based dependency grammar. By in-
+cluding a chunker, a supertagger, a PP at-
+tacher, and a fast probabilistic parser we
+were able to improve upon the baseline by
+3.2%, bringing the overall labelled accu-
+racy to 91.1% on the German NEGRA cor-
+pus. We attribute the successful integra-
+tion to the ability of the underlying gram-
+mar model to combine uncertain evidence
+in a soft manner, thus avoiding the prob-
+lem of error propagation.
+1 

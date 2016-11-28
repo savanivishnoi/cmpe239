@@ -1,0 +1,17 @@
+
+In opinion mining of product reviews, one of-
+ten wants to produce a summary of opinions 
+based on product features/attributes. Howev-
+er, for the same feature, people can express it 
+with different words and phrases. To produce 
+a meaningful summary, these words and 
+phrases, which are domain synonyms, need to 
+be grouped under the same feature group. 
+This paper proposes a constrained semi-
+supervised learning method to solve the prob-
+lem. Experimental results using reviews from 
+five different domains show that the proposed 
+method is competent for the task. It outper-
+forms the original EM and the state-of-the-art 
+existing methods by a large margin. 
+1 

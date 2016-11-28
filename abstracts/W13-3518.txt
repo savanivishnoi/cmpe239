@@ -1,0 +1,18 @@
+
+Previous incremental parsers have used
+monotonic state transitions. However,
+transitions can be made to revise previous
+decisions quite naturally, based on further
+information.
+We show that a simple adjustment to the
+Arc-Eager transition system to relax its
+monotonicity constraints can improve ac-
+curacy, so long as the training data in-
+cludes examples of mistakes for the non-
+monotonic transitions to repair. We eval-
+uate the change in the context of a state-
+of-the-art system, and obtain a statistically
+significant improvement (p < 0.001) on
+the English evaluation and 5/10 of the
+CoNLL languages.
+1 

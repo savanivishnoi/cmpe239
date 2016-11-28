@@ -1,0 +1,23 @@
+
+We present an analysis of several pub-
+licly available automatic speech recogniz-
+ers (ASRs) in terms of their suitability for
+use in different types of dialogue systems.
+We focus in particular on cloud based
+ASRs that recently have become available
+to the community. We include features
+of ASR systems and desiderata and re-
+quirements for different dialogue systems,
+taking into account the dialogue genre,
+type of user, and other features. We then
+present speech recognition results for six
+different dialogue systems. The most in-
+teresting result is that different ASR sys-
+tems perform best on the data sets. We
+also show that there is an improvement
+over a previous generation of recognizers
+on some of these data sets. We also inves-
+tigate language understanding (NLU) on
+the ASR output, and explore the relation-
+ship between ASR and NLU performance.
+1 

@@ -1,0 +1,24 @@
+
+Emotion words have been well used as the
+most obvious choice as feature in the task
+of textual emotion recognition and auto-
+matic emotion lexicon construction. In
+this work, we explore features for rec-
+ognizing word emotion. Based on Ren-
+CECps (an annotated emotion corpus) and
+MaxEnt (Maximum entropy) model, sev-
+eral contextual features and their com-
+bination have been experimented. Then
+PLSA (probabilistic latent semantic anal-
+ysis) is used to get semantic feature by
+clustering words and sentences. The ex-
+perimental results demonstrate the effec-
+tiveness of using semantic feature for
+word emotion recognition. After that,
+?word emotion components? is proposed
+to describe the combined basic emotions
+in a word. A significant performance
+improvement over contextual and seman-
+tic features was observed after adding
+word emotion components as feature.
+1 

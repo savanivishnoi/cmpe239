@@ -1,0 +1,25 @@
+
+Many tasks in NLP stand to benefit from
+robust measures of semantic similarity for
+units above the level of individual words.
+Rich semantic resources such as WordNet
+provide local semantic information at the
+lexical level. However, effectively com-
+bining this information to compute scores
+for phrases or sentences is an open prob-
+lem. Our algorithm aggregates local re-
+latedness information via a random walk
+over a graph constructed from an underly-
+ing lexical resource. The stationary dis-
+tribution of the graph walk forms a ?se-
+mantic signature? that can be compared
+to another such distribution to get a relat-
+edness score for texts. On a paraphrase
+recognition task, the algorithm achieves an
+18.5% relative reduction in error rate over
+a vector-space baseline. We also show that
+the graph walk similarity between texts
+has complementary value as a feature for
+recognizing textual entailment, improving
+on a competitive baseline system.
+1 

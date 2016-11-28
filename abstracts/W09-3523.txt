@@ -1,0 +1,18 @@
+ 
+This paper presents English?Hindi translit-
+eration in the NEWS 2009 Machine Translit-
+eration Shared Task adding source context 
+modeling into state-of-the-art log-linear 
+phrase-based statistical machine translation 
+(PB-SMT). Source context features enable us 
+to exploit source similarity in addition to tar-
+get similarity, as modelled by the language 
+model. We use a memory-based classification 
+framework that enables efficient estimation of 
+these features while avoiding data sparseness 
+problems.We carried out experiments both at 
+character and transliteration unit (TU) level. 
+Position-dependent source context features 
+produce significant improvements in terms of 
+all evaluation metrics. 
+1 

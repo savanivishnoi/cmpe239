@@ -1,0 +1,19 @@
+
+This paper presents an evaluation
+method employing a latent variable
+model for paraphrases with their con-
+texts. We assume that the context of a
+sentence is indicated by a latent vari-
+able of the model as a topic and that
+the likelihood of each variable can be
+inferred. A paraphrase is evaluated
+for whether its sentences are used in
+the same context. Experimental re-
+sults showed that the proposed method
+achieves almost 60% accuracy and that
+there is not a large performance differ-
+ence between the two models. The re-
+sults also revealed an upper bound of
+accuracy of 77% with the method when
+using only topic information.
+1 

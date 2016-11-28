@@ -1,0 +1,22 @@
+
+We describe two systems participating
+in Semeval-2010?s Cross-Lingual Lexical
+Substitution task: USPwlv and WLVusp.
+Both systems are based on two main com-
+ponents: (i) a dictionary to provide a num-
+ber of possible translations for each source
+word, and (ii) a contextual model to select
+the best translation according to the con-
+text where the source word occurs. These
+components and the way they are inte-
+grated are different in the two systems:
+they exploit corpus-based and linguistic
+resources, and supervised and unsuper-
+vised learning methods. Among the 14
+participants in the subtask to identify the
+best translation, our systems were ranked
+2nd and 4th in terms of recall, 3rd and 4th
+in terms of precision. Both systems out-
+performed the baselines in all subtasks ac-
+cording to all metrics used.
+1 

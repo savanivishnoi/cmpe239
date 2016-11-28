@@ -1,0 +1,11 @@
+
+Term recognition and clustering are key topics in automatic knowledge acquisition and text mining. In
+this paper we present a novel approach to the automatic discovery of term similarities, which serves as
+a basis for both classification and clustering of domain-specific concepts represented by terms. The
+method is based on automatic extraction of significant patterns in which terms tend to appear. The
+approach is domain independent: it needs no manual description of domain-specific features and it is
+based on knowledge-poor processing of specific term features. However, automatically collected
+patterns are domain specific and identify significant contexts in which terms are used. Beside features
+that represent contextual patterns, we use lexical and functional similarities between terms to define a
+combined similarity measure. The approach has been tested and evaluated in the domain of molecular
+biology, and preliminary results are presented.

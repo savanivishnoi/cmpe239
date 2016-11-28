@@ -1,0 +1,19 @@
+
+Previous work has shown that Chinese word seg-
+mentation is useful for machine translation to En-
+glish, yet the way different segmentation strategies
+affect MT is still poorly understood. In this pa-
+per, we demonstrate that optimizing segmentation
+for an existing segmentation standard does not al-
+ways yield better MT performance. We find that
+other factors such as segmentation consistency and
+granularity of Chinese ?words? can be more impor-
+tant for machine translation. Based on these find-
+ings, we implement methods inside a conditional
+random field segmenter that directly optimize seg-
+mentation granularity with respect to the MT task,
+providing an improvement of 0.73 BLEU. We also
+show that improving segmentation consistency us-
+ing external lexicon and proper noun features yields
+a 0.32 BLEU increase.
+1 

@@ -1,0 +1,27 @@
+
+Call centers handle customer queries from various
+domains such as computer sales and support, mo-
+bile phones, car rental, etc. Each such domain
+generally has a domain model which is essential
+to handle customer complaints. These models
+contain common problem categories, typical cus-
+tomer issues and their solutions, greeting styles.
+Currently these models are manually created over
+time. Towards this, we propose an unsupervised
+technique to generate domain models automati-
+cally from call transcriptions. We use a state of
+the art Automatic Speech Recognition system to
+transcribe the calls between agents and customers,
+which still results in high word error rates (40%)
+and show that even from these noisy transcrip-
+tions of calls we can automatically build a domain
+model. The domain model is comprised of pri-
+marily a topic taxonomy where every node is char-
+acterized by topic(s), typical Questions-Answers
+(Q&As), typical actions and call statistics. We
+show how such a domain model can be used for
+topic identification of unseen calls. We also pro-
+pose applications for aiding agents while handling
+calls and for agent monitoring based on the do-
+main model.
+1 

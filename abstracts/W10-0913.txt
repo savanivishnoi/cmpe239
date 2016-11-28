@@ -1,0 +1,22 @@
+ 
+ This paper describes a hybrid approach for 
+unsupervised and unrestricted relation discov-
+ery between entities using output from linguis-
+tic analysis and semantic typing information 
+from a knowledge base. We use Factz (en-
+coded as subject, predicate and object triples) 
+produced by Powerset as a result of linguistic 
+analysis. A particular relation may be ex-
+pressed in a variety of ways in text and hence 
+have multiple facts associated with it. We 
+present an unsupervised approach for collaps-
+ing multiple facts which represent the same 
+kind of semantic relation between entities.  
+Then a label is selected for the relation based 
+on the input facts and entropy based label 
+ranking of context words.  Finally, we demon-
+strate relation discovery between entities at 
+different levels of abstraction by leveraging 
+semantic typing information from a know-
+ledge base.     
+1 

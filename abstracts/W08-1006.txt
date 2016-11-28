@@ -1,0 +1,21 @@
+
+Previous work on German parsing has pro-
+vided confusing and conflicting results con-
+cerning the difficulty of the task and whether
+techniques that are useful for English, such
+as lexicalization, are effective for German.
+This paper aims to provide some understand-
+ing and solid baseline numbers for the task.
+We examine the performance of three tech-
+niques on three treebanks (Negra, Tiger, and
+Tu?Ba-D/Z): (i) Markovization, (ii) lexicaliza-
+tion, and (iii) state splitting. We additionally
+explore parsing with the inclusion of gram-
+matical function information. Explicit gram-
+matical functions are important to German
+language understanding, but they are numer-
+ous, and na??vely incorporating them into a
+parser which assumes a small phrasal category
+inventory causes large performance reductions
+due to increasing sparsity.
+1 

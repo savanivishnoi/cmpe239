@@ -1,0 +1,17 @@
+ 
+In this paper we present a biomedical event 
+extraction system for the BioNLP 2013 event 
+extraction task. Our system consists of two 
+phases. In the learning phase, a dictionary and 
+patterns are generated automatically from 
+annotated events. In the extraction phase, the 
+dictionary and obtained patterns are applied to 
+extract events from input text. When evaluated 
+on the GENIA event extraction task of the 
+BioNLP 2013 shared task, the system obtained 
+the best results on strict matching and the third 
+best on approximate span and recursive 
+matching, with F-scores of 48.92 and 50.68, 
+respectively. Moreover, it has excellent 
+performance in terms of speed. 
+1 

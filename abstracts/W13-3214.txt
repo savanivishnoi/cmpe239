@@ -1,0 +1,27 @@
+
+The compositionality of meaning extends
+beyond the single sentence. Just as words
+combine to form the meaning of sen-
+tences, so do sentences combine to form
+the meaning of paragraphs, dialogues and
+general discourse. We introduce both a
+sentence model and a discourse model cor-
+responding to the two levels of composi-
+tionality. The sentence model adopts con-
+volution as the central operation for com-
+posing semantic vectors and is based on
+a novel hierarchical convolutional neural
+network. The discourse model extends the
+sentence model and is based on a recur-
+rent neural network that is conditioned in
+a novel way both on the current sentence
+and on the current speaker. The discourse
+model is able to capture both the sequen-
+tiality of sentences and the interaction be-
+tween different speakers. Without feature
+engineering or pretraining and with simple
+greedy decoding, the discourse model cou-
+pled to the sentence model obtains state of
+the art performance on a dialogue act clas-
+sification experiment.
+1 

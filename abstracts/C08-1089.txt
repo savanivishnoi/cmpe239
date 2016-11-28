@@ -1,0 +1,24 @@
+ 
+This paper proposes a method for auto-
+matic POS (part-of-speech) guessing of 
+Chinese unknown words. It contains two 
+models. The first model uses a machine-
+learning method to predict the POS of 
+unknown words based on their internal 
+component features. The credibility of 
+the results of the first model is then 
+measured. For low-credibility words, the 
+second model is used to revise the first 
+model?s results based on the global con-
+text information of those words. The ex-
+periments show that the first model 
+achieves 93.40% precision for all words 
+and 86.60% for disyllabic words, which 
+is a significant improvement over the 
+best results reported in previous studies, 
+which were 89% precision for all words 
+and 74% for disyllabic words. Further, 
+the second model improves the results by 
+0.80% precision for all words and 1.30% 
+for disyllabic words. ? 
+1 

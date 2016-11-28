@@ -1,0 +1,13 @@
+ 
+This paper describes classification of typed 
+student utterances within AutoTutor, an intel-
+ligent tutoring system.  Utterances are classi-
+fied to one of 18 categories, including 16 
+question categories.  The classifier presented 
+uses part of speech tagging, cascaded finite 
+state transducers, and simple disambiguation 
+rules. Shallow NLP is well suited to the task: 
+session log file analysis reveals significant 
+classification of eleven question categories, 
+frozen expressions, and assertions.  
+1 

@@ -1,0 +1,17 @@
+
+When a machine learning-based named
+entity recognition system is employed in
+a new domain, its performance usually de-
+grades. In this paper, we provide an em-
+pirical study on the impact of training data
+size and domain information on the per-
+formance stability of named entity recog-
+nition models. We present an informative
+sample selection method for building high
+quality and stable named entity recogni-
+tion models across domains. Experimen-
+tal results show that the performance of
+the named entity recognition model is en-
+hanced significantly after being trained
+with these informative samples.
+1 

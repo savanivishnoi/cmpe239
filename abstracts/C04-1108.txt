@@ -1,0 +1,18 @@
+
+It is necessary to find a proper arrangement of sen-
+tences in order to generate a well-organized sum-
+mary from multiple documents. In this paper we de-
+scribe an approach to coherent sentence ordering for
+summarizing newspaper articles. Since there is no
+guarantee that chronological ordering of extracted
+sentences, which is widely used by conventional sum-
+marization system, arranges each sentence behind
+presupposed information of the sentence, we improve
+chronological ordering by resolving antecedent sen-
+tences of arranged sentences. Combining the re-
+finement algorithm with topical segmentation and
+chronological ordering, we address our experiment to
+test the effectiveness of the proposed method. The
+results reveal that the proposed method improves
+chronological sentence ordering.
+1 

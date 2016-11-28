@@ -1,0 +1,16 @@
+
+This paper describes our system participat-
+ing in the CoNLL-2012 shared task: Mod-
+eling Multilingual Unrestricted Coreference
+in Ontonotes. Maximum entropy models are
+used for our system as classifiers to deter-
+mine the coreference relationship between ev-
+ery two mentions (usually noun phrases and
+pronouns) in each document. We exploit rich
+lexical, syntactic and semantic features for the
+system, and the final features are selected us-
+ing a greedy forward and backward strategy
+from an initial feature set. Our system partici-
+pated in the closed track for both English and
+Chinese languages.
+1 

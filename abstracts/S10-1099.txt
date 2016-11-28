@@ -1,0 +1,32 @@
+ 
+ 
+The task of extracting the opinion expressed in 
+text is challenging due to different reasons. 
+One of them is that the same word (in particu-
+lar, adjectives) can have different polarities 
+depending on the context. This paper presents 
+the experiments carried out by the OpAL team 
+for the participation in the SemEval 2010 Task 
+18 ? Disambiguation of Sentiment Ambiguous 
+Adjectives. Our approach is based on three dif-
+ferent strategies: a) the evaluation of the polar-
+ity of the whole context using an opinion min-
+ing system; b) the assessment of the polarity of 
+the local context, given by the combinations 
+between the closest nouns and the adjective to 
+be classified; c) rules aiming at refining the lo-
+cal semantics through the spotting of modifi-
+ers. The final decision for classification is tak-
+en according to the output of the majority of 
+these three approaches.  The method used 
+yielded good results, the OpAL system run 
+ranking fifth among 16 in micro accuracy and 
+sixth in macro accuracy.   
+1 Credits  
+This research has been supported by Ministerio 
+de Ciencia e Innovaci?n - Spanish Government 
+(grant no. TIN2009-13391-C04-01), and Consel-
+leria d'Educaci?n-Generalitat Valenciana (grant 
+no. PROMETEO/2009/119 and ACOMP/2010/ 
+288).  
+2 

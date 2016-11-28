@@ -1,0 +1,20 @@
+
+The goal of this study is to evaluate an ?off-
+the-shelf? POS-tagger for modern German on
+historical data from the Early Modern period
+(1650-1800). With no specialised tagger avail-
+able for this particular stage of the language,
+our findings will be of particular interest to
+smaller, humanities-based projects wishing to
+add POS annotations to their historical data
+but which lack the means or resources to train
+a POS tagger themselves. Our study assesses
+the effects of spelling variation on the perfor-
+mance of the tagger, and investigates to what
+extent tagger performance can be improved by
+using ?normalised? input, where spelling vari-
+ants in the corpus are standardised to a mod-
+ern form. Our findings show that adding such
+a normalisation layer improves tagger perfor-
+mance considerably.
+1 

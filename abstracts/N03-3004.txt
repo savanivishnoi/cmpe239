@@ -1,0 +1,16 @@
+
+This paper presents an unsupervised method
+for discriminating among the senses of a given
+target word based on the context in which it oc-
+curs. Instances of a word that occur in similar
+contexts are grouped together via McQuitty?s
+Similarity Analysis, an agglomerative cluster-
+ing algorithm. The context in which a target
+word occurs is represented by surface lexical
+features such as unigrams, bigrams, and sec-
+ond order co-occurrences. This paper summa-
+rizes our approach, and describes the results of
+a preliminary evaluation we have carried out
+using data from the SENSEVAL-2 English lexi-
+cal sample and the line corpus.
+1 

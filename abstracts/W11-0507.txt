@@ -1,0 +1,20 @@
+
+Unsupervised approaches to multi-document
+summarization consist of two steps: find-
+ing a content model of the documents to be
+summarized, and then generating a summary
+that best represents the most salient informa-
+tion of the documents. In this paper, we
+present a sentence selection objective for ex-
+tractive summarization in which sentences are
+penalized for containing content that is spe-
+cific to the documents they were extracted
+from. We modify an existing system, HIER-
+SUM (Haghighi & Vanderwende, 2009), to use
+our objective, which significantly outperforms
+the original HIERSUM in pairwise user eval-
+uation. Additionally, our ROUGE scores ad-
+vance the current state-of-the-art for both su-
+pervised and unsupervised systems with sta-
+tistical significance.
+1 

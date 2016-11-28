@@ -1,0 +1,12 @@
+
+We introduce a novel method to jointly parse
+and detect disfluencies in spoken utterances.
+Our model can use arbitrary features for pars-
+ing sentences and adapt itself with out-of-
+domain data. We show that our method, based
+on transition-based parsing, performs at a high
+level of accuracy for both the parsing and
+disfluency detection tasks. Additionally, our
+method is the fastest for the joint task, running
+in linear time.
+1 

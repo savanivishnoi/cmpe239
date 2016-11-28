@@ -1,0 +1,27 @@
+
+Amazon Mechanical Turk (MTurk) is a mar-
+ketplace for so-called ?human intelligence
+tasks? (HITs), or tasks that are easy for hu-
+mans but currently difficult for automated pro-
+cesses. Providers upload tasks to MTurk
+which workers then complete. Natural lan-
+guage annotation is one such human intelli-
+gence task. In this paper, we investigate us-
+ing MTurk to collect annotations for Subjec-
+tivity Word Sense Disambiguation (SWSD),
+a coarse-grained word sense disambiguation
+task. We investigate whether we can use
+MTurk to acquire good annotations with re-
+spect to gold-standard data, whether we can
+filter out low-quality workers (spammers), and
+whether there is a learning effect associated
+with repeatedly completing the same kind of
+task. While our results with respect to spam-
+mers are inconclusive, we are able to ob-
+tain high-quality annotations for the SWSD
+task. These results suggest a greater role for
+MTurk with respect to constructing a large
+scale SWSD system in the future, promising
+substantial improvement in subjectivity and
+sentiment analysis.
+1 

@@ -1,0 +1,18 @@
+ 
+This paper is about the modification of KMP 
+(Knuth, Morris and Pratt) algorithm for string 
+searching of Chinese text. The difficulty is searching 
+through a text string of single- and multi-byte 
+characters. We showed that proper decoding of the 
+input as sequences of characters instead of bytes is 
+necessary. The standard KMP algorithm can easily be 
+modified for Chinese string searching but at the 
+worst-case time-complexity of O(3n) in terms of the 
+number of comparisons. The finite-automaton 
+implementation can achieve worst-case time 
+complexity of O(2n) but constructing the transition 
+table depends on the size of the alphabet, Z, which is 
+large for Chinese (for Big-5, Z > 13,000). A mapping 
+technique reduces the size the alphabet to at most IPI 
+where P is the pattern string. 
+1. 

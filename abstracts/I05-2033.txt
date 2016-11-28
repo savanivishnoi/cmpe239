@@ -1,0 +1,21 @@
+
+In this paper we will briefly survey
+the key results achieved so far in
+Hungarian POS tagging and show
+how classifier combination tech-
+niques can aid the POS taggers.
+Methods are evaluated on a manu-
+ally annotated corpus containing 1.2
+million words. POS tagger tests
+were performed on single-domain,
+multiple domain and cross-domain
+test settings, and, to improve the ac-
+curacy of the taggers, various com-
+bination rules were implemented.
+The results indicate that combina-
+tion schemas (like the Boosting al-
+gorithm) are promising tools which
+can significantly degrade the classi-
+fication errors, and produce a more
+effective tagger application.
+1 

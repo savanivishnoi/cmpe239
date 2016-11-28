@@ -1,0 +1,21 @@
+
+The GREC-NEG Task at Generation Chal-
+lenges 2009 required participating sys-
+tems to select coreference chains for all
+people entities mentioned in short en-
+cyclopaedic texts about people collected
+from Wikipedia. Three teams submitted
+six systems in total, and we additionally
+created four baseline systems. Systems
+were tested automatically using a range of
+existing intrinsic metrics. We also eval-
+uated systems extrinsically by applying
+coreference resolution tools to the outputs
+and measuring the success of the tools.
+In addition, systems were tested in an in-
+trinsic evaluation involving human judges.
+This report describes the GREC-NEG Task
+and the evaluation methods applied, gives
+brief descriptions of the participating sys-
+tems, and presents the evaluation results.
+1 

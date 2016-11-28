@@ -1,0 +1,22 @@
+ 
+One of the major problems one is faced 
+with when decomposing words into their 
+constituent parts is ambiguity: the gen- 
+eration of multiple analyses for one input 
+word, many of which are implausible. In 
+order to deal with ambiguity, the MOR- 
+phological PArser MORPA is provided 
+with a probabilistic ontext-free grammar 
+(PCFG), i.e. it combines a "conventional" 
+context-free morphological grammar to fil- 
+ter out ungrammatical segmentations with 
+a probability-based scoring function which 
+determines the likelihood of each success- 
+ful parse. Consequently, remaining analy- 
+ses can be ordered along a scale of plausi- 
+bility. Test performance data will show that 
+a PCFG yields good results in morphologi- 
+cal parsing. MORPA is a fully implemented 
+parser developed for use in a text-to-speech 
+conversion system. 
+1 

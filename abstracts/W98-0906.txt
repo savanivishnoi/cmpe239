@@ -1,0 +1,61 @@
+ 
+Loanword phonology seeks to model the 
+process by which foreign words are 'nativised' 
+or incorporated into the phonological system 
+of the 'borrowing' language. We can conceive 
+of this as a parsing of the phonetic input 
+provided by the foreign word forms, in 
+accordance with phonological output 
+constraints of the borrowing language. 
+Following Silverman (1992) we conceive 
+loanword formation as fundamentally a two- 
+stage process: the first of which yields a 
+parsing of the phonetic input into segmentally 
+organised phonetic feature bundles, 
+interpretable as segmental targets in the 
+borrowing language. In the second stage of 
+processing, these segmental targets are parsed 
+into phonological structures ( yllables, mora, 
+feet...etc) compatible with the word-prosody 
+of the borrowing language. 
+Japanese borrowings from English provide a 
+good test-bed for models of loanword 
+formation, because examples are abundant 
+and, while the segmental mapping from 
+English to Japanese is relatively 
+straightforward, their respective word-level 
+prosodies are strikingly different, providing 
+ample opportunity to observe prosodic re- 
+structuring in loanword formation. 
+to construct 'symbolic' or 'analytical' parsing 
+algorithms for this task, either with or without 
+reference to a framework of learnability 
+theory. This approach came under strong 
+challenge from 'empirical' Connectionist 
+models of language processing in the 1980's. 
+The debate between these competing 
+paradigms, or the search for some suitable 
+'hybrid', continues. It may be argued that 
+loanword formation provides a more 
+restrictive, and hence better controlled, 
+environment for studying parsing mechanisms 
+than other natural language processing tasks, 
+which involve a host of lexical, 
+morphological, syntactic or pragmatic 
+influences. 
+In this paper, we report he results obtained 
+from a feed-forward neural network, trained 
+on an 1100 word corpus of American English 
+loanwords "borrowed' into Japanese, post- 
+WWII. We make preliminary comparisons 
+with an analytical constraint-based approach 
+to modeling loanword formation. 
+An intended application for the NN parser, 
+was to devise an English-Japanese proper or 
+place-name translator, which would map an 
+English phoneme sequence into Katakana 
+(e.g.: Brisbane/brIzbOn/=> 7" ,J z" ~," :, ). 
+The theoretical aim of this study is to 
+investigate he learning mechanisms required 
+for phonological parsing in loanword 
+formation. Phonologists have typically sought 

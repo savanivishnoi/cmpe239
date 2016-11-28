@@ -1,0 +1,21 @@
+
+We present a systematic analysis of exist-
+ing multi-domain learning approaches with re-
+spect to two questions. First, many multi-
+domain learning algorithms resemble ensem-
+ble learning algorithms. (1) Are multi-domain
+learning improvements the result of ensemble
+learning effects? Second, these algorithms are
+traditionally evaluated in a balanced class la-
+bel setting, although in practice many multi-
+domain settings have domain-specific class
+label biases. When multi-domain learning
+is applied to these settings, (2) are multi-
+domain methods improving because they cap-
+ture domain-specific class biases? An under-
+standing of these two issues presents a clearer
+idea about where the field has had success in
+multi-domain learning, and it suggests some
+important open questions for improving be-
+yond the current state of the art.
+1 

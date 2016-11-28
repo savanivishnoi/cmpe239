@@ -1,0 +1,19 @@
+
+Binarization of n-ary rules is critical for the effi-
+ciency of syntactic machine translation decoding.
+Because the target side of a rule will generally
+reorder the source side, it is complex (and some-
+times impossible) to find synchronous rule bina-
+rizations. However, we show that synchronous
+binarizations are not necessary in a two-stage de-
+coder. Instead, the grammar can be binarized one
+way for the parsing stage, then rebinarized in a
+different way for the reranking stage. Each indi-
+vidual binarization considers only one monolin-
+gual projection of the grammar, entirely avoid-
+ing the constraints of synchronous binarization
+and allowing binarizations that are separately op-
+timized for each stage. Compared to n-ary for-
+est reranking, even simple target-side binariza-
+tion schemes improve overall decoding accuracy.
+1 

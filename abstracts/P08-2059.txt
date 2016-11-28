@@ -1,0 +1,13 @@
+
+Active learning is a machine learning ap-
+proach to achieving high-accuracy with a
+small amount of labels by letting the learn-
+ing algorithm choose instances to be labeled.
+Most of previous approaches based on dis-
+criminative learning use the margin for choos-
+ing instances. We present a method for in-
+corporating confidence into the margin by us-
+ing a newly introduced online learning algo-
+rithm and show empirically that confidence
+improves active learning.
+1 

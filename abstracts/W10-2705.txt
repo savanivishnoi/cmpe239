@@ -1,0 +1,19 @@
+
+A technology demonstrator is one thing
+but having people use a technology is an-
+other, and the result reported here is that
+people often ignore our lovingly crafted
+handiwork. The SERA project - Social
+Engagement with Robots and Agents -
+was set up to look explicitly at what hap-
+pens when a robot companion is put in
+someone?s home. Even if things worked
+perfectly, there are times when a compan-
+ion?s human is simply not engaged. As a
+result we have separated our ?dialog man-
+ager? into two parts: the dialog manager
+itself that determines what to say next, and
+an ?interaction manager? that determines
+when to say it. This paper details the de-
+sign of this SALT-E architecture.
+1 

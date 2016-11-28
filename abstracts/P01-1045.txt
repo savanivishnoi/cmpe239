@@ -1,0 +1,29 @@
+
+Chunk parsing has focused on the
+recognition of partial constituent struc-
+tures at the level of individual chunks.
+Little attention has been paid to the
+question of how such partial analyses
+can be combined into larger structures
+for complete utterances. Such larger
+structures are not only desirable for a
+deeper syntactic analysis. They also
+constitute a necessary prerequisite for
+assigning function-argument structure.
+The present paper offers a similarity-
+based algorithm for assigning func-
+tional labels such as subject, object,
+head, complement, etc. to complete
+syntactic structures on the basis of pre-
+chunked input.
+The evaluation of the algorithm has
+concentrated on measuring the quality
+of functional labels. It was performed
+on a German and an English treebank
+using two different annotation schemes
+at the level of function-argument struc-
+ture. The results of 89.73 % cor-
+rect functional labels for German and
+90.40 % for English validate the general
+approach.
+1 

@@ -1,0 +1,23 @@
+
+We introduce a social media text normal-
+ization system that can be deployed as a
+preprocessing step for Machine Transla-
+tion and various NLP applications to han-
+dle social media text. The proposed sys-
+tem is based on unsupervised learning of
+the normalization equivalences from unla-
+beled text. The proposed approach uses
+Random Walks on a contextual similarity
+bipartite graph constructed from n-gram
+sequences on large unlabeled text corpus.
+We show that the proposed approach has a
+very high precision of (92.43) and a rea-
+sonable recall of (56.4). When used as
+a preprocessing step for a state-of-the-art
+machine translation system, the translation
+quality on social media text improved by
+6%. The proposed approach is domain and
+language independent and can be deployed
+as a preprocessing step for any NLP appli-
+cation to handle social media text.
+1 

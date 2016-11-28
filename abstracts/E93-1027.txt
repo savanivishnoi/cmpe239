@@ -1,0 +1,17 @@
+ 
+A semi-automatic procedure of linguistic 
+knowledge acquisition is proposed, which 
+combines corpus-based techniques with the 
+conventional rule-based approach. The 
+rule-based component generates all the pos- 
+sible hypotheses of defects which the ex- 
+isting linguistic knowledge might contain, 
+when it fails to parse a sentence. The 
+rule-based component does not try to iden- 
+tify the defects, but generates a set of hy- 
+potheses and the corpus-based component 
+chooses the plausible ones among them. 
+The procedure will be used for adapting or 
+re-using existing linguistic resources for new 
+application domains. 
+1 

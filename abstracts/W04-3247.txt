@@ -1,0 +1,20 @@
+
+Multidocument extractive summarization relies on
+the concept of sentence centrality to identify the
+most important sentences in a document. Central-
+ity is typically defined in terms of the presence of
+particular important words or in terms of similarity
+to a centroid pseudo-sentence. We are now consid-
+ering an approach for computing sentence impor-
+tance based on the concept of eigenvector centrality
+(prestige) that we call LexPageRank. In this model,
+a sentence connectivity matrix is constructed based
+on cosine similarity. If the cosine similarity be-
+tween two sentences exceeds a particular predefined
+threshold, a corresponding edge is added to the con-
+nectivity matrix. We provide an evaluation of our
+method on DUC 2004 data. The results show that
+our approach outperforms centroid-based summa-
+rization and is quite successful compared to other
+summarization systems.
+1 

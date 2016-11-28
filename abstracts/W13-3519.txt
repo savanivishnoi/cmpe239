@@ -1,0 +1,15 @@
+
+This paper presents a collapsed variational
+Bayesian inference algorithm for PCFGs
+that has the advantages of two dominant
+Bayesian training algorithms for PCFGs,
+namely variational Bayesian inference and
+Markov chain Monte Carlo. In three kinds
+of experiments, we illustrate that our al-
+gorithm achieves close performance to the
+Hastings sampling algorithm while using
+an order of magnitude less training time;
+and outperforms the standard variational
+Bayesian inference and the EM algorithms
+with similar training time.
+1 

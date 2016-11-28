@@ -1,0 +1,15 @@
+
+Hindi is an Indian language which is rela-
+tively rich in morphology. A few morpholog-
+ical analyzers of this language have been de-
+veloped. However, they give only inflectional
+analysis of the language. In this paper, we
+present our Hindi derivational morphological
+analyzer. Our algorithm upgrades an existing
+inflectional analyzer to a derivational analyzer
+and primarily achieves two goals. First, it suc-
+cessfully incorporates derivational analysis in
+the inflectional analyzer. Second, it also in-
+creases the coverage of the inflectional analy-
+sis of the existing inflectional analyzer.
+1 

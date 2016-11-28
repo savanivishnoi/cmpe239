@@ -1,0 +1,19 @@
+
+We present FireCite, a Mozilla Firefox
+browser extension that helps scholars as-
+sess and manage scholarly references on
+the web by automatically detecting and
+parsing such reference strings in real-time.
+FireCite has two main components: 1)
+a reference string recognizer that has a
+high recall of 96%, and 2) a reference
+string parser that can process HTML web
+pages with an overall F1 of .878 and plain-
+text reference strings with an overall F1
+of .97. In our preliminary evaluation, we
+presented our FireCite prototype to four
+academics in separate unstructured inter-
+views. Their positive feedback gives evi-
+dence to the desirability of FireCite?s cita-
+tion management capabilities.
+1 

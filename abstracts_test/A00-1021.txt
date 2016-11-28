@@ -1,0 +1,15 @@
+ 
+In this paper, we describe a system to rank sus- 
+pected answers to natural language questions. 
+We process both corpus and query using a new 
+technique, predictive annotation, which aug- 
+ments phrases in texts with labels anticipating 
+their being targets of certain kinds of questions. 
+Given a natural anguage question, our IR sys- 
+tem returns a set of matching passages, which 
+we then rank using a linear function of seven 
+predictor variables. We provide an evaluation of 
+the techniques based on results from the TREC 
+Q&A evaluation in which our system partici- 
+pated. 
+1 

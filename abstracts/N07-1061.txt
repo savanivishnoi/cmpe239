@@ -1,0 +1,30 @@
+
+We compare two pivot strategies for
+phrase-based statistical machine transla-
+tion (SMT), namely phrase translation
+and sentence translation. The phrase
+translation strategy means that we di-
+rectly construct a phrase translation ta-
+ble (phrase-table) of the source and tar-
+get language pair from two phrase-tables;
+one constructed from the source language
+and English and one constructed from En-
+glish and the target language. We then use
+that phrase-table in a phrase-based SMT
+system. The sentence translation strat-
+egy means that we first translate a source
+language sentence into n English sen-
+tences and then translate these n sentences
+into target language sentences separately.
+Then, we select the highest scoring sen-
+tence from these target sentences. We con-
+ducted controlled experiments using the
+Europarl corpus to evaluate the perfor-
+mance of these pivot strategies as com-
+pared to directly trained SMT systems.
+The phrase translation strategy signifi-
+cantly outperformed the sentence transla-
+tion strategy. Its relative performance was
+0.92 to 0.97 compared to directly trained
+SMT systems.
+1 

@@ -1,0 +1,26 @@
+
+In order for robots to effectively understand
+natural language commands, they must be able
+to acquire a large vocabulary of meaning rep-
+resentations that can be mapped to perceptual
+features in the external world. Previous ap-
+proaches to learning these grounded meaning
+representations require detailed annotations at
+training time. In this paper, we present an
+approach which is capable of jointly learning
+a policy for following natural language com-
+mands such as ?Pick up the tire pallet,? as well
+as a mapping between specific phrases in the
+language and aspects of the external world;
+for example the mapping between the words
+?the tire pallet? and a specific object in the
+environment. We assume the action policy
+takes a parametric form that factors based on
+the structure of the language, based on the G3
+framework and use stochastic gradient ascent
+to optimize policy parameters. Our prelimi-
+nary evaluation demonstrates the effectiveness
+of the model on a corpus of ?pick up? com-
+mands given to a robotic forklift by untrained
+users.
+1 

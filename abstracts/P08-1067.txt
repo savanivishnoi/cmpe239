@@ -1,0 +1,16 @@
+
+Conventional n-best reranking techniques of-
+ten suffer from the limited scope of the n-
+best list, which rules out many potentially
+good alternatives. We instead propose forest
+reranking, a method that reranks a packed for-
+est of exponentially many parses. Since ex-
+act inference is intractable with non-local fea-
+tures, we present an approximate algorithm in-
+spired by forest rescoring that makes discrim-
+inative training practical over the whole Tree-
+bank. Our final result, an F-score of 91.7, out-
+performs both 50-best and 100-best reranking
+baselines, and is better than any previously re-
+ported systems trained on the Treebank.
+1 

@@ -1,0 +1,21 @@
+
+We describe the FAUST entry to the BioNLP
+2011 shared task on biomolecular event ex-
+traction. The FAUST system explores sev-
+eral stacking models for combination using
+as base models the UMass dual decomposi-
+tion (Riedel and McCallum, 2011) and Stan-
+ford event parsing (McClosky et al, 2011b)
+approaches. We show that using stacking is
+a straightforward way to improving perfor-
+mance for event extraction and find that it is
+most effective when using a small set of stack-
+ing features and the base models use slightly
+different representations of the input data. The
+FAUST system obtained 1st place in three out
+of four tasks: 1st place in Genia Task 1 (56.0%
+f-score) and Task 2 (53.9%), 2nd place in the
+Epigenetics and Post-translational Modifica-
+tions track (35.0%), and 1st place in the In-
+fectious Diseases track (55.6%).
+1 

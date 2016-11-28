@@ -1,0 +1,27 @@
+
+In this paper, we examined click patterns
+produced by users of Yahoo! search engine
+when prompting definition questions. Reg-
+ularities across these click patterns are then
+utilized for constructing a large and hetero-
+geneous training corpus for answer rank-
+ing. In a nutshell, answers are extracted
+from clicked web-snippets originating from
+any class of web-site, including Knowledge
+Bases (KBs). On the other hand, non-
+answers are acquired from redundant pieces
+of text across web-snippets.
+The effectiveness of this corpus was as-
+sessed via training two state-of-the-art
+models, wherewith answers to unseen
+queries were distinguished. These test-
+ing queries were also submitted by search
+engine users, and their answer candidates
+were taken from their respective returned
+web-snippets. This corpus helped both
+techniques to finish with an accuracy higher
+than 70%, and to predict over 85% of the
+answers clicked by users. In particular, our
+results underline the importance of non-KB
+training data.
+1 

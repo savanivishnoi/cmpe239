@@ -1,0 +1,15 @@
+
+Head splitting techniques have been success-
+fully exploited to improve the asymptotic
+runtime of parsing algorithms for project-
+ive dependency trees, under the arc-factored
+model. In this article we extend these tech-
+niques to a class of non-projective dependency
+trees, called well-nested dependency trees with
+block-degree at most 2, which has been previ-
+ously investigated in the literature. We define a
+structural property that allows head splitting for
+these trees, and present two algorithms that im-
+prove over the runtime of existing algorithms
+at no significant loss in coverage.
+1 

@@ -1,0 +1,30 @@
+
+Multilingual sentiment analysis attracts in-
+creased attention as the massive growth
+of multilingual web contents. This con-
+ducts to study opinions across different
+languages by comparing the underlying
+messages written by different people hav-
+ing different opinions. In this paper, we
+propose Sentiment based Comparability
+Measures (SCM) to compare opinions in
+multilingual comparable articles without
+translating source/target into the same lan-
+guage. This will allow media trackers
+(journalists) to automatically detect public
+opinion split across huge multilingual web
+contents. To develop SCM, we need either
+to get or to build parallel sentiment cor-
+pora. Because this kind of corpora are not
+available, we decided to build them. For
+that, we propose a new method to automat-
+ically label parallel corpora with sentiment
+classes. Then we use the extracted parallel
+sentiment corpora to develop multilingual
+sentiment analysis system. Experimental
+results show that, the proposed measure
+can capture differences in terms of opin-
+ions. The results also show that compara-
+ble articles variate in their objectivity and
+positivity.
+1 

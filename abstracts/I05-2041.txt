@@ -1,0 +1,18 @@
+
+In this paper, we propose a tree annota-
+tion tool using a parser in order to build
+a treebank. For the purpose of mini-
+mizing manual effort without any mod-
+ification of the parser, it performs two-
+phase parsing for the intra-structure of
+each segment and the inter-structure af-
+ter segmenting a sentence. Experimen-
+tal results show that it can reduce man-
+ual effort about 24.5% as compared
+with a tree annotation tool without seg-
+mentation because an annotation?s in-
+tervention related to cancellation and
+reconstruction remarkably decrease al-
+though it requires the annotator to seg-
+ment some long sentence.
+1 

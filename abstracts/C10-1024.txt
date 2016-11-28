@@ -1,0 +1,22 @@
+ 
+It has been known that a combination of 
+multiple kernels and addition of various 
+resources are the best options for im-
+proving effectiveness of kernel-based 
+PPI extraction methods. These supple-
+ments, however, involve extensive ker-
+nel adaptation and feature selection 
+processes, which attenuate the original 
+benefits of the kernel methods. This pa-
+per shows that we are able to achieve 
+the best performance among the state-
+of-the-art methods by using only a sin-
+gle kernel, convolution parse tree kernel. 
+In-depth analyses of the kernel reveal 
+that the keys to the improvement are the 
+tree pruning method and consideration 
+of tree kernel decay factors. It is note-
+worthy that we obtained the perfor-
+mance without having to use any addi-
+tional features, kernels or corpora. 
+1 

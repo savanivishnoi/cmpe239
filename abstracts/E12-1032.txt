@@ -1,0 +1,17 @@
+
+We extend the original entity-based coher-
+ence model (Barzilay and Lapata, 2008)
+by learning from more fine-grained coher-
+ence preferences in training data. We asso-
+ciate multiple ranks with the set of permuta-
+tions originating from the same source doc-
+ument, as opposed to the original pairwise
+rankings. We also study the effect of the
+permutations used in training, and the effect
+of the coreference component used in en-
+tity extraction. With no additional manual
+annotations required, our extended model
+is able to outperform the original model on
+two tasks: sentence ordering and summary
+coherence rating.
+1 

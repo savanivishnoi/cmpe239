@@ -1,0 +1,18 @@
+
+We report on the SUM project which applies
+automatic summarisation techniques to the le-
+gal domain. We pursue a methodology based
+on Teufel and Moens (2002) where sentences
+are classified according to their argumentative
+role. We describe some experiments with judg-
+ments of the House of Lords where we have
+performed automatic linguistic annotation of a
+small sample set in order to explore correla-
+tions between linguistic features and argumen-
+tative roles. We use state-of-the-art NLP tech-
+niques to perform the linguistic annotation us-
+ing XML-based tools and a combination of rule-
+based and statistical methods. We focus here
+on the predictive capacity of tense and aspect
+features for a classifier.
+1 

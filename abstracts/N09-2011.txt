@@ -1,0 +1,16 @@
+
+Detailed image annotation necessary for reli-
+able image retrieval involves not only annotat-
+ing the image as a single artifact, but also an-
+notating specific objects or regions within the
+image. Such detailed annotation is a costly en-
+deavor and the available annotated image data
+are quite limited. This paper explores the fea-
+sibility of using image captions from scientific
+journals for the purpose of automatically an-
+notating image regions. Salient image clues,
+such as an object location within the image or
+an object color, together with the associated
+explicit object mention, are extracted and clas-
+sified using rule-based and SVM learners.
+1 

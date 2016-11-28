@@ -1,0 +1,14 @@
+
+We describe our submission to the domain
+adaptation track of the CoNLL07 shared
+task in the open class for systems using ex-
+ternal resources. Our main finding was that
+it was very difficult to map from the annota-
+tion scheme used to prepare training and de-
+velopment data to one that could be used to
+effectively train and adapt the RASP system
+unlexicalized parse ranking model. Never-
+theless, we were able to demonstrate a sig-
+nificant improvement in performance utiliz-
+ing bootstrapping over the PBIOTB data.
+1 

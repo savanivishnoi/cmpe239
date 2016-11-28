@@ -1,0 +1,16 @@
+
+This paper reports on some experiments
+aiming at tuning a rule-based NER sys-
+tem designed for detecting names in Pol-
+ish online news to the processing of tar-
+geted Twitter streams. In particular, one
+explores whether the performance of the
+baseline NER system can be improved
+through the incremental application of
+knowledge-poor methods for name match-
+ing and guessing. We study various set-
+tings and combinations of the methods and
+present evaluation results on five corpora
+gathered from Twitter, centred around ma-
+jor events and known individuals.
+1 

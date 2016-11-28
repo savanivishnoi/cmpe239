@@ -1,0 +1,19 @@
+ 
+This paper describes the Chinese Word 
+Segmenter for our participation in CIPS-
+SIGHAN-2010 bake-off task of Chinese 
+word segmentation. We formalize the tasks 
+as sequence tagging problems, and 
+implemented them using conditional random 
+fields (CRFs) model. The system contains two 
+modules: multiple preprocessor and basic 
+segmenter. The basic segmenter is designed as 
+a problem of character-based tagging, and 
+using named entity recognition and chunk 
+recognition based on boundary to preprocess. 
+We participated in the open training on 
+Simplified Chinese Text and Traditional 
+Chinese Text, and our system achieved one 
+Rank#5 and four Rank#2 best in all four 
+domain corpus. 
+1 

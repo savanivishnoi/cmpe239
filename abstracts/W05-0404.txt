@@ -1,0 +1,22 @@
+
+In this paper, we introduce a new data
+representation format for language pro-
+cessing, the syntactic and semantic graphs
+(SSGs), and show its use for call classifi-
+cation in spoken dialog systems. For each
+sentence or utterance, these graphs in-
+clude lexical information (words), syntac-
+tic information (such as the part of speech
+tags of the words and the syntactic parse of
+the utterance), and semantic information
+(such as the named entities and seman-
+tic role labels). In our experiments, we
+used written language as the training data
+while computing SSGs and tested on spo-
+ken language. In spite of this mismatch,
+we have shown that this is a very promis-
+ing approach for classifying complex ex-
+amples, and by using SSGs it is possible
+to reduce the call classification error rate
+by 4.74% relative.
+1 

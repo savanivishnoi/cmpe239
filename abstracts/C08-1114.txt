@@ -1,0 +1,25 @@
+
+Recognizing analogies, synonyms, anto-
+nyms, and associations appear to be four
+distinct tasks, requiring distinct NLP al-
+gorithms. In the past, the four tasks have
+been treated independently, using a wide
+variety of algorithms. These four seman-
+tic classes, however, are a tiny sample of
+the full range of semantic phenomena, and
+we cannot afford to create ad hoc algo-
+rithms for each semantic phenomenon; we
+need to seek a unified approach. We pro-
+pose to subsume a broad range of phenom-
+ena under analogies. To limit the scope of
+this paper, we restrict our attention to the
+subsumption of synonyms, antonyms, and
+associations. We introduce a supervised
+corpus-based machine learning algorithm
+for classifying analogous word pairs, and
+we show that it can solve multiple-choice
+SAT analogy questions, TOEFL synonym
+questions, ESL synonym-antonym ques-
+tions, and similar-associated-both ques-
+tions from cognitive psychology.
+1 

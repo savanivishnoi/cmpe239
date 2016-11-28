@@ -1,0 +1,20 @@
+
+Semantic relatedness is a very important fac-
+tor for the coreference resolution task. To
+obtain this semantic information, corpus-
+based approaches commonly leverage pat-
+terns that can express a specific semantic
+relation. The patterns, however, are de-
+signed manually and thus are not necessar-
+ily the most effective ones in terms of ac-
+curacy and breadth. To deal with this prob-
+lem, in this paper we propose an approach
+that can automatically find the effective pat-
+terns for coreference resolution. We explore
+how to automatically discover and evaluate
+patterns, and how to exploit the patterns to
+obtain the semantic relatedness information.
+The evaluation on ACE data set shows that
+the pattern based semantic information is
+helpful for coreference resolution.
+1 

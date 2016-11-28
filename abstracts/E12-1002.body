@@ -1,0 +1,19 @@
+
+We describe a novel method that extracts
+paraphrases from a bitext, for both the
+source and target languages. In order
+to reduce the search space, we decom-
+pose the phrase-table into sub-phrase-tables
+and construct separate clusters for source
+and target phrases. We convert the clus-
+ters into graphs, add smoothing/syntactic-
+information-carrier vertices, and compute
+the similarity between phrases with a ran-
+dom walk-based measure, the commute
+time. The resulting phrase-paraphrase
+probabilities are built upon the conversion
+of the commute times into artificial co-
+occurrence counts with a novel technique.
+The co-occurrence count distribution be-
+longs to the power-law family.
+1 

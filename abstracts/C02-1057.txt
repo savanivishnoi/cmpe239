@@ -1,0 +1,18 @@
+  
+To help developing a localization oriented 
+EBMT system, an automatic machine 
+translation evaluation method is 
+implemented which adopts edit distance, 
+cosine correlation and Dice coefficient as 
+criteria. Experiment shows that the 
+evaluation method distinguishes well 
+between ?good? translations and ?bad? ones. 
+To prove that the method is consistent with 
+human evaluation, 6 MT systems are scored 
+and compared. Theoretical analysis is made 
+to validate the experimental results. 
+Correlation coefficient and significance tests 
+at 0.01 level are made to ensure the 
+reliability of the results. Linear regression 
+equations are calculated to map the 
+automatic scoring results to human scorings. 

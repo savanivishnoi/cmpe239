@@ -1,0 +1,21 @@
+ 
+This paper describes our syllable-based phrase 
+transliteration system for the NEWS 2012 
+shared task on English-Chinese track and its 
+back. Grapheme-based Transliteration maps the 
+character(s) in the source side to the target 
+character(s) directly. However, character-based 
+segmentation on English side will cause 
+ambiguity in alignment step. In this paper we 
+utilize Phrase-based model to solve machine 
+transliteration with the mapping between 
+Chinese characters and English syllables rather 
+than English characters. Two heuristic rule-
+based syllable segmentation algorithms are 
+applied. This transliteration model also 
+incorporates three phonetic features to enhance 
+discriminative ability for phrase. The primary 
+system achieved 0.330 on Chinese-English and 
+0.177 on English-Chinese in terms of top-1 
+accuracy. 
+1 

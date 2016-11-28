@@ -1,0 +1,21 @@
+
+This paper describes the JHU system
+combination scheme that was used in
+the WMT 2010 submission. The in-
+cremental alignment scheme of (Karakos
+et.al, 2008) was used for confusion net-
+work generation. The system order
+in the alignment of each sentence was
+learned using SVMs, following the work
+of (Karakos et.al, 2010). Additionally,
+web-scale n-grams from the Google cor-
+pus were used to build language models
+that improved the quality of the combi-
+nation output. Experiments in Spanish-
+English, French-English, German-English
+and Czech-English language pairs were
+conducted, and the results show approxi-
+mately 1 BLEU point and 2 TER points
+improvement over the best individual sys-
+tem.
+1 

@@ -1,0 +1,19 @@
+
+We present a system for extracting biomedical
+events (detailed descriptions of biomolecular
+interactions) from research articles. This sys-
+tem was developed for the BioNLP?11 Shared
+Task and extends our BioNLP?09 Shared Task
+winning Turku Event Extraction System. It
+uses support vector machines to first detect
+event-defining words, followed by detection
+of their relationships. The theme of the
+BioNLP?11 Shared Task is generalization, ex-
+tending event extraction to varied biomedical
+domains. Our current system successfully pre-
+dicts events for every domain case introduced
+in the BioNLP?11 Shared Task, being the only
+system to participate in all eight tasks and all
+of their subtasks, with best performance in
+four tasks.
+1 

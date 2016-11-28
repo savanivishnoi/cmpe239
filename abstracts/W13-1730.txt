@@ -1,0 +1,19 @@
+
+Our goal is to predict the first language (L1)
+of English essays?s authors with the help of
+the TOEFL11 corpus where L1, prompts (top-
+ics) and proficiency levels are provided. Thus
+we approach this task as a classification task
+employing machine learning methods. Out
+of key concepts of machine learning, we fo-
+cus on feature engineering. We design fea-
+tures across all the L1 languages not making
+use of knowledge of prompt and proficiency
+level. During system development, we experi-
+mented with various techniques for feature fil-
+tering and combination optimized with respect
+to the notion of mutual information and infor-
+mation gain. We trained four different SVM
+models and combined them through majority
+voting achieving accuracy 72.5%.
+1 

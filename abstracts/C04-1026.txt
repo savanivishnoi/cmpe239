@@ -1,0 +1,14 @@
+
+We propose a syntax-semantics interface that
+realises the mapping between syntax and se-
+mantics as a relation and does not make func-
+tionality assumptions in either direction. This
+interface is stated in terms of Extensible De-
+pendency Grammar (XDG), a grammar formal-
+ism we newly specify. XDG?s constraint-based
+parser supports the concurrent flow of informa-
+tion between any two levels of linguistic rep-
+resentation, even when only partial analyses are
+available. This generalises the concept of under-
+specification.
+1 

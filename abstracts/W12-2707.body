@@ -1,0 +1,20 @@
+
+Statistical language models used in deployed
+systems for speech recognition, machine
+translation and other human language tech-
+nologies are almost exclusively n-gram mod-
+els. They are regarded as linguistically na??ve,
+but estimating them from any amount of text,
+large or small, is straightforward. Further-
+more, they have doggedly matched or out-
+performed numerous competing proposals for
+syntactically well-motivated models. This un-
+usual resilience of n-grams, as well as their
+weaknesses, are examined here. It is demon-
+strated that n-grams are good word-predictors,
+even linguistically speaking, in a large major-
+ity of word-positions, and it is suggested that
+to improve over n-grams, one must explore
+syntax-aware (or other) language models that
+focus on positions where n-grams are weak.
+1 

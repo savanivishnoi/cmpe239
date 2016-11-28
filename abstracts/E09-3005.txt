@@ -1,0 +1,19 @@
+
+The paper presents an application of
+Structural Correspondence Learning
+(SCL) (Blitzer et al, 2006) for domain
+adaptation of a stochastic attribute-value
+grammar (SAVG). So far, SCL has
+been applied successfully in NLP for
+Part-of-Speech tagging and Sentiment
+Analysis (Blitzer et al, 2006; Blitzer
+et al, 2007). An attempt was made
+in the CoNLL 2007 shared task to ap-
+ply SCL to non-projective dependency
+parsing (Shimizu and Nakagawa, 2007),
+however, without any clear conclusions.
+We report on our exploration of applying
+SCL to adapt a syntactic disambiguation
+model and show promising initial results
+on Wikipedia domains.
+1 

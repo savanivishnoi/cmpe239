@@ -1,0 +1,27 @@
+ 
+Achieving guideline-based targets in patients 
+with diabetes is crucial for improving clinical 
+outcomes and preventing long-term complica-
+tions. Using electronic heath records (EHRs) to 
+identify high-risk patients for further interven-
+tion by screening large populations is limited be-
+cause many EHRs store clinical information as 
+dictated and transcribed free text notes that are 
+not amenable to statistical analysis.  This paper 
+presents the process of extracting elements 
+needed for generating a diabetes report card from 
+free text notes written in English. Numerical 
+measurements, representing lab values and phys-
+ical examinations results are extracted from free 
+text documents and then stored in a structured 
+database. Extracting diagnosis information and 
+medication lists are work in progress. The com-
+plete dataset for this project is comprised of 
+81,932 documents from 30,459 patients collected 
+over a period of 5 years. The patient population 
+is considered high risk for diabetes as they have 
+existing cardiovascular complications. Experi-
+mental results validate our method, demonstrat-
+ing high precision (88.8-100%).    
+ 
+1 

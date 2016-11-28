@@ -1,0 +1,18 @@
+
+The BioNLP Shared Task 2013 is organ-
+ised to further advance the field of in-
+formation extraction in biomedical texts.
+This paper describes our entry in the Gene
+Regulation Network in Bacteria (GRN)
+part, for which our system finished in sec-
+ond place (out of five). To tackle this re-
+lation extraction task, we employ a basic
+Support Vector Machine framework. We
+discuss our findings in constructing local
+and contextual features, that augment our
+precision with as much as 7.5%. We touch
+upon the interaction type hierarchy inher-
+ent in the problem, and the importance of
+the evaluation procedure to encourage ex-
+ploration of that structure.
+1 

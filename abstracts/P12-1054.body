@@ -1,0 +1,29 @@
+
+As one of the most popular micro-blogging
+services, Twitter attracts millions of users,
+producing millions of tweets daily. Shared in-
+formation through this service spreads faster
+than would have been possible with tradi-
+tional sources, however the proliferation of
+user-generation content poses challenges to
+browsing and finding valuable information. In
+this paper we propose a graph-theoretic model
+for tweet recommendation that presents users
+with items they may have an interest in. Our
+model ranks tweets and their authors simulta-
+neously using several networks: the social net-
+work connecting the users, the network con-
+necting the tweets, and a third network that
+ties the two together. Tweet and author entities
+are ranked following a co-ranking algorithm
+based on the intuition that that there is a mu-
+tually reinforcing relationship between tweets
+and their authors that could be reflected in the
+rankings. We show that this framework can be
+parametrized to take into account user prefer-
+ences, the popularity of tweets and their au-
+thors, and diversity. Experimental evaluation
+on a large dataset shows that our model out-
+performs competitive approaches by a large
+margin.
+1 

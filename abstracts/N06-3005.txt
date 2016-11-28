@@ -1,0 +1,22 @@
+
+In this paper we investigate the problem of
+identifying the perspective from which a
+document was written. By perspective we
+mean a point of view, for example, from
+the perspective of Democrats or Repub-
+licans. Can computers learn to identify
+the perspective of a document? Further-
+more, can computers identify which sen-
+tences in a document strongly convey a
+particular perspective? We develop sta-
+tistical models to capture how perspec-
+tives are expressed at the document and
+sentence levels, and evaluate the proposed
+models on a collection of articles on the
+Israeli-Palestinian conflict. The results
+show that the statistical models can suc-
+cessfully learn how perspectives are re-
+flected in word usage and identify the per-
+spective of a document with very high ac-
+curacy.
+1 

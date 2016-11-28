@@ -1,0 +1,20 @@
+
+Unlike open-domain factoid questions,
+clinical information needs arise within the
+rich context of patient treatment. This en-
+vironment establishes a number of con-
+straints on the design of systems aimed
+at physicians in real-world settings. In
+this paper, we describe a clinical ques-
+tion answering system that focuses on a
+class of commonly-occurring questions:
+?What is the best drug treatment for X??,
+where X can be any disease. To evalu-
+ate our system, we built a test collection
+consisting of thirty randomly-selected dis-
+eases from an existing secondary source.
+Both an automatic and a manual evalua-
+tion demonstrate that our system compares
+favorably to PubMed, the search system
+most commonly-used by physicians today.
+1 

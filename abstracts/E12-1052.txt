@@ -1,0 +1,23 @@
+
+We present a model of semantic processing
+of spoken language that (a) is robust against
+ill-formed input, such as can be expected
+from automatic speech recognisers, (b) re-
+spects both syntactic and pragmatic con-
+straints in the computation of most likely
+interpretations, (c) uses a principled, ex-
+pressive semantic representation formalism
+(RMRS) with a well-defined model the-
+ory, and (d) works continuously (produc-
+ing meaning representations on a word-
+by-word basis, rather than only for full
+utterances) and incrementally (computing
+only the additional contribution by the new
+word, rather than re-computing for the
+whole utterance-so-far).
+We show that the joint satisfaction of syn-
+tactic and pragmatic constraints improves
+the performance of the NLU component
+(around 10% absolute, over a syntax-only
+baseline).
+1 

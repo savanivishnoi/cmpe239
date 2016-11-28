@@ -1,0 +1,27 @@
+
+Wikification, commonly referred to as Disam-
+biguation to Wikipedia (D2W), is the task of
+identifying concepts and entities in text and
+disambiguating them into the most specific
+corresponding Wikipedia pages. Previous ap-
+proaches to D2W focused on the use of lo-
+cal and global statistics over the given text,
+Wikipedia articles and its link structures, to
+evaluate context compatibility among a list of
+probable candidates. However, these meth-
+ods fail (often, embarrassingly), when some
+level of text understanding is needed to sup-
+port Wikification. In this paper we introduce
+a novel approach to Wikification by incorpo-
+rating, along with statistical methods, richer
+relational analysis of the text. We provide an
+extensible, efficient and modular Integer Lin-
+ear Programming (ILP) formulation of Wik-
+ification that incorporates the entity-relation
+inference problem, and show that the ability
+to identify relations in text helps both candi-
+date generation and ranking Wikipedia titles
+considerably. Our results show significant im-
+provements in both Wikification and the TAC
+Entity Linking task.
+1 

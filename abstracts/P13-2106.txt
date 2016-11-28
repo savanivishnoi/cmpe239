@@ -1,0 +1,21 @@
+
+In the line of research extending statis-
+tical parsing to more expressive gram-
+mar formalisms, we demonstrate for the
+first time the use of tree-adjoining gram-
+mars (TAG). We present a Bayesian non-
+parametric model for estimating a proba-
+bilistic TAG from a parsed corpus, along
+with novel block sampling methods and
+approximation transformations for TAG
+that allow efficient parsing. Our work
+shows performance improvements on the
+Penn Treebank and finds more compact
+yet linguistically rich representations of
+the data, but more importantly provides
+techniques in grammar transformation and
+statistical inference that make practical
+the use of these more expressive systems,
+thereby enabling further experimentation
+along these lines.
+1 

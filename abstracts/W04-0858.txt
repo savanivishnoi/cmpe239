@@ -1,0 +1,18 @@
+
+This paper describes the National Research Coun-
+cil (NRC) Word Sense Disambiguation (WSD) sys-
+tem, as applied to the English Lexical Sample (ELS)
+task in Senseval-3. The NRC system approach-
+es WSD as a classical supervised machine learn-
+ing problem, using familiar tools such as the Weka
+machine learning software and Brill?s rule-based
+part-of-speech tagger. Head words are represent-
+ed as feature vectors with several hundred features.
+Approximately half of the features are syntactic and
+the other half are semantic. The main novelty in the
+system is the method for generating the semantic
+features, based on word co-occurrence probabilities.
+The probabilities are estimated using the Waterloo
+MultiText System with a corpus of about one ter-
+abyte of unlabeled text, collected by a web crawler.
+1 

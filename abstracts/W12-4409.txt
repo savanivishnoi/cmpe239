@@ -1,0 +1,19 @@
+
+We developed a machine transliteration sys-
+tem combining mpaligner (an improvement of
+m2m-aligner), DirecTL+, and some Japanese-
+specific heuristics for the purpose of NEWS
+2012. Our results show that mpaligner
+is greatly better than m2m-aligner, and the
+Japanese-specific heuristics are effective for
+JnJk and EnJa tasks. While m2m-aligner is
+not good at long alignment, mpaligner per-
+forms well at longer alignment without any
+length limit. In JnJk and EnJa tasks, it is cru-
+cial to handle long alignment. An experimen-
+tal result revealed that de-romanization, which
+is reverse operation of romanization, is crucial
+for JnJk task. In EnJa task, it is shown that
+mora is the best alignment unit for Japanese
+language.
+1 

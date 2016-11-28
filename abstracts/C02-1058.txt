@@ -1,0 +1,27 @@
+
+An unsupervised method for word sense disam-
+biguation using a bilingual comparable corpus was
+developed.  First, it extracts statistically significant
+pairs of related words from the corpus of each lan-
+guage.  Then, aligning pairs of related words
+translingually, it calculates the correlation between
+the senses of a first-language polysemous word and
+the words related to the polysemous word, which
+can be regarded as clues for determining the most
+suitable sense.  Finally, for each instance of the
+polysemous word, it selects the sense that maxi-
+mizes the score, i.e., the sum of the correlations
+between each sense and the clues appearing in the
+context of the instance.  To overcome both the
+problem of ambiguity in the translingual alignment
+of pairs of related words and that of disparity of
+topical coverage between corpora of different lan-
+guages, an algorithm for calculating the correlation
+between senses and clues iteratively was devised.
+An experiment using Wall Street Journal and Ni-
+hon Keizai Shimbun corpora showed that the new
+method has promising performance; namely, the
+applicability and precision of its sense selection are
+88.5% and 77.7%, respectively, averaged over 60
+test polysemous words.
+1 

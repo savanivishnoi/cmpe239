@@ -1,0 +1,35 @@
+
+Zulu is an indigenous language of South
+Africa, and one of the eleven official
+languages of that country. It is spoken
+by about 11 million speakers. Although
+it is similar in size to some Western
+languages, e.g. Swedish, it is consid-
+erably under-resourced. This paper
+presents a new open-source morphologi-
+cal corpus for Zulu named Ukwabelana
+corpus. We describe the agglutinating
+morphology of Zulu with its multiple
+prefixation and suffixation, and also
+introduce our labeling scheme. Further,
+the annotation process is described and
+all single resources are explained. These
+comprise a list of 10,000 labeled and
+100,000 unlabeled word types, 3,000
+part-of-speech (POS) tagged and 30,000
+raw sentences as well as a morphological
+Zulu grammar, and a parsing algorithm
+which hypothesizes possible word roots
+and enumerates parses that conform to the
+Zulu grammar. We also provide a POS
+tagger which assigns the grammatical
+category to a morphologically analyzed
+word type. As it is hoped that the corpus
+and all resources will be of benefit to
+any person doing research on Zulu or on
+computer-aided analysis of languages,
+they will be made available in the public
+domain from http://www.cs.bris.
+ac.uk/Research/MachineLearning/
+Morphology/Resources/.
+1 

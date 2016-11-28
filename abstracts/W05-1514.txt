@@ -1,0 +1,20 @@
+
+Chunk parsing is conceptually appealing
+but its performance has not been satis-
+factory for practical use. In this pa-
+per we show that chunk parsing can
+perform significantly better than previ-
+ously reported by using a simple sliding-
+window method and maximum entropy
+classifiers for phrase recognition in each
+level of chunking. Experimental results
+with the Penn Treebank corpus show that
+our chunk parser can give high-precision
+parsing outputs with very high speed (14
+msec/sentence). We also present a pars-
+ing method for searching the best parse by
+considering the probabilities output by the
+maximum entropy classifiers, and show
+that the search method can further im-
+prove the parsing accuracy.
+1 

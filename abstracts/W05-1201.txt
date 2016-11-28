@@ -1,0 +1,22 @@
+
+This paper addresses the classification of
+semantic relations between pairs of sen-
+tences extracted from a Dutch parallel cor-
+pus at the word, phrase and sentence level.
+We first investigate the performance of hu-
+man annotators on the task of manually
+aligning dependency analyses of the re-
+spective sentences and of assigning one
+of five semantic relations to the aligned
+phrases (equals, generalizes, specifies, re-
+states and intersects). Results indicate that
+humans can perform this task well, with
+an F-score of .98 on alignment and an F-
+score of .95 on semantic relations (after
+correction). We then describe and evalu-
+ate a combined alignment and classifica-
+tion algorithm, which achieves an F-score
+on alignment of .85 (using EuroWordNet)
+and an F-score of .80 on semantic relation
+classification.
+1 

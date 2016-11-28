@@ -1,0 +1,33 @@
+s of Meeting Conversations: a User
+Study
+Gabriel Murray
+gabrielm@cs.ubc.ca
+Giuseppe Carenini
+carenini@cs.ubc.ca
+Department of Computer Science, University of British Columbia
+Vancouver, Canada
+Raymond Ng
+rng@cs.ubc.ca
+Abstract
+In this paper we present a complete sys-
+tem for automatically generating natural
+language abstracts of meeting conversa-
+tions. This system is comprised of com-
+ponents relating to interpretation of the
+meeting documents according to a meet-
+ing ontology, transformation or content
+selection from that source representation
+to a summary representation, and gener-
+ation of new summary text. In a forma-
+tive user study, we compare this approach
+to gold-standard human abstracts and ex-
+tracts to gauge the usefulness of the dif-
+ferent summary types for browsing meet-
+ing conversations. We find that our auto-
+matically generated summaries are ranked
+significantly higher than human-selected
+extracts on coherence and usability crite-
+ria. More generally, users demonstrate a
+strong preference for abstract-style sum-
+maries over extracts.
+1 

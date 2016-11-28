@@ -1,0 +1,21 @@
+
+This contribution addresses generation of
+natural language descriptions for human ac-
+tions, behaviour and their relations with
+other objects observed in video streams.
+The work starts with implementation of
+conventional image processing techniques
+to extract high level features from video.
+These features are converted into natural
+language descriptions using context free
+grammar. Although feature extraction pro-
+cesses are erroneous at various levels, we
+explore approaches to putting them to-
+gether to produce a coherent description.
+Evaluation is made by calculating ROUGE
+scores between human annotated and ma-
+chine generated descriptions. Further we
+introduce a task based evaluation by human
+subjects which provides qualitative evalua-
+tion of generated descriptions.
+1 

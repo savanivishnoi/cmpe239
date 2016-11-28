@@ -1,0 +1,25 @@
+
+A person may have multiple name aliases
+on the Web. Identifying aliases of a name
+is important for various tasks such as in-
+formation retrieval, sentiment analysis and
+name disambiguation. We introduce the no-
+tion of a word co-occurrence graph to rep-
+resent the mutual relations between words
+that appear in anchor texts. Words in an-
+chor texts are represented as nodes in the
+co-occurrence graph and an edge is formed
+between nodes which link to the same url.
+For a given personal name, its neighboring
+nodes in the graph are considered as can-
+didates of its aliases. We formalize alias
+identification as a problem of ranking nodes
+in this graph with respect to a given name.
+We integrate various ranking scores through
+support vector machines to leverage a robust
+ranking function and use it to extract aliases
+for a given name. Experimental results on a
+dataset of Japanese celebrities show that the
+proposed method outperforms all baselines,
+displaying a MRR score of 0.562.
+1 

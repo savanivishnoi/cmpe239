@@ -1,0 +1,20 @@
+
+Relation extraction is the task of recog-
+nizing semantic relations among entities.
+Given a particular sentence supervised ap-
+proaches to Relation Extraction employed
+feature or kernel functions which usu-
+ally have a single sentence in their scope.
+The overall aim of this paper is to pro-
+pose methods for using knowledge and re-
+sources that are external to the target sen-
+tence, as a way to improve relation ex-
+traction. We demonstrate this by exploit-
+ing background knowledge such as rela-
+tionships among the target relations, as
+well as by considering how target rela-
+tions relate to some existing knowledge
+resources. Our methods are general and
+we suggest that some of them could be ap-
+plied to other NLP tasks.
+1 

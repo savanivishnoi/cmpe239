@@ -1,0 +1,12 @@
+. This paper presents our recent work on period disambigua-
+tion, the kernel problem in sentence boundary identification, with the
+maximum entropy (Maxent) model. A number of experiments are con-
+ducted on PTB-II WSJ corpus for the investigation of how context
+window, feature space and lexical information such as abbreviated and
+sentence-initial words affect the learning performance. Such lexical in-
+formation can be automatically acquired from a training corpus by a
+learner. Our experimental results show that extending the feature space
+to integrate these two kinds of lexical information can eliminate 93.52%
+of the remaining errors from the baseline Maxent model, achieving an
+F-score of 99.8227%.
+1 

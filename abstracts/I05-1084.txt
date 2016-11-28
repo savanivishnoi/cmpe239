@@ -1,0 +1,13 @@
+. Linguistic information can help improve evaluation of simi-
+larity between documents; however, the kind of linguistic information to
+be used depends on the task. In this paper, we show that distributions
+of syntactic structures capture the way works are written and accurately
+identify individual books more than 76% of the time. In comparison,
+baseline features, e.g., tfidf-weighted keywords, function words, etc., give
+an accuracy of at most 66%. However, testing the same features on au-
+thorship attribution shows that distributions of syntactic structures are
+less successful than function words on this task; syntactic structures vary
+even among the works of the same author whereas features such as func-
+tion words are distributed more similarly among the works of an author
+and can more effectively capture authorship.
+1 

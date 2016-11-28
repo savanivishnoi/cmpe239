@@ -1,0 +1,20 @@
+ 
+Previous works tend to compute the 
+similarity between two sentences based 
+on the comparison of their nearest 
+meanings. However, the nearest 
+meanings do not always represent their 
+actual meanings. This paper presents a 
+method which computes the similarity 
+between two sentences based on a com-
+parison of their actual meanings. This is 
+achieved by transforming an existing 
+most-outstanding corpus-based measure 
+into a knowledge-based measure, which 
+is then integrated with word sense dis-
+ambiguation. The experimental results 
+on a standard data set show that the pro-
+posed method outperforms the baseline 
+and the improvement achieved is statisti-
+cally significant at 0.025 levels. 
+1 

@@ -1,0 +1,21 @@
+
+Answer validation is a component of question
+answering system, which selects reliable answer
+from answer candidates extracted by certain
+methods. In this paper, we propose an approach
+of answer validation based on the strengths of
+lexical association between the keywords ex-
+tracted from a question sentence and each an-
+swer candidate. The proposed answer valida-
+tion process is decomposed into two steps: the
+first is to extract appropriate keywords from a
+question sentence using word features and the
+strength of lexical association, while the second
+is to estimate the strength of the association
+between the keywords and an answer candidate
+based on the hits of search engines. In the re-
+sult of experimental evaluation, we show that a
+good proportion (79%) of a multiple-choice quiz
+?Who wants to be a millionaire? can be solved
+by the proposed method.
+1 

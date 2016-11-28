@@ -1,0 +1,21 @@
+
+This paper presents a reordering algorithm for
+generating multiple stories from different per-
+spectives based on a single baseball game. We
+take a description of a game and a neutral sum-
+mary, reorder the content of the neutral sum-
+mary based on event features, and produce two
+summaries that the users rated as showing per-
+spectives of each of the two teams. We de-
+scribe the results from an initial user survey
+that revealed the power of reordering on the
+users? perception of perspective. Then we de-
+scribe our reordering algorithm which was de-
+rived from analyzing the corpus of local news-
+paper articles of teams involved in the games
+as well as a neutral corpus for the respective
+games. The resulting reordering algorithm is
+successful at turning a neutral article into two
+different summary articles that express the two
+teams? perspectives.
+1 

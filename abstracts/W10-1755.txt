@@ -1,0 +1,16 @@
+ 
+This paper describes the latest version of the 
+ATEC metric for automatic MT evaluation, 
+with parameters optimized for word choice 
+and word order, the two fundamental features 
+of language that the metric relies on. The 
+former is assessed by matching at various 
+linguistic levels and weighting the informa-
+tiveness of both matched and unmatched 
+words. The latter is quantified in term of 
+word position and information flow. We also 
+discuss those aspects of language not yet 
+covered by other existing evaluation metrics 
+but carefully considered in the formulation of 
+our metric.  
+1 

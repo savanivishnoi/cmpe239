@@ -1,0 +1,22 @@
+
+In this paper we present a novel discrimi-
+native mixture model for statistical machine
+translation (SMT). We model the feature space
+with a log-linear combination of multiple mix-
+ture components. Each component contains a
+large set of features trained in a maximum-
+entropy framework. All features within the
+same mixture component are tied and share
+the same mixture weights, where the mixture
+weights are trained discriminatively to max-
+imize the translation performance. This ap-
+proach aims at bridging the gap between the
+maximum-likelihood training and the discrim-
+inative training for SMT. It is shown that the
+feature space can be partitioned in a vari-
+ety of ways, such as based on feature types,
+word alignments, or domains, for various ap-
+plications. The proposed approach improves
+the translation performance significantly on a
+large-scale Arabic-to-English MT task.
+1 

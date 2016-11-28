@@ -1,0 +1,17 @@
+
+This paper reports on progress applying
+partially observable Markov decision pro-
+cesses (POMDPs) to a commercial dia-
+log domain: troubleshooting. In the trou-
+bleshooting domain, a spoken dialog sys-
+tem helps a user to fix a product such as
+a failed DSL connection. Past work has
+argued that a POMDP is a principled ap-
+proach to building spoken dialog systems
+in the simpler slot-filling domain; this pa-
+per explains how the POMDPs formula-
+tion can be extended to the more complex
+troubleshooting domain. Results from di-
+alog simulation verify that a POMDP out-
+performs a handcrafted baseline.
+1 

@@ -1,0 +1,25 @@
+ 
+Many parsing techniques including pa-
+rameter estimation assume the use of a 
+packed parse forest for efficient and ac-
+curate parsing.  However, they have sev-
+eral inherent problems deriving from the 
+restriction of locality in the packed parse 
+forest.  Deterministic parsing is one of 
+solutions that can achieve simple and fast 
+parsing without the mechanisms of the 
+packed parse forest by accurately choos-
+ing search paths.  We propose (i) deter-
+ministic shift-reduce parsing for unifica-
+tion-based grammars, and (ii) best-first 
+shift-reduce parsing with beam threshold-
+ing for unification-based grammars.  De-
+terministic parsing cannot simply be ap-
+plied to unification-based grammar pars-
+ing, which often fails because of its hard 
+constraints.  Therefore, it is developed by 
+using default unification, which almost 
+always succeeds in unification by over-
+writing inconsistent constraints in gram-
+mars. 
+1 

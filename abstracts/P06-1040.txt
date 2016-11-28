@@ -1,0 +1,31 @@
+ 
+We present an unsupervised learning al-
+gorithm that mines large text corpora for 
+patterns that express implicit semantic re-
+lations. For a given input word pair 
+YX :  with some unspecified semantic 
+relations, the corresponding output list of 
+patterns mPP ,,1   is ranked according 
+to how well each pattern iP  expresses the 
+relations between X  and Y . For exam-
+ple, given ostrich=X  and bird=Y , the 
+two highest ranking output patterns are 
+?X is the largest Y? and ?Y such as the 
+X?. The output patterns are intended to 
+be useful for finding further pairs with 
+the same relations, to support the con-
+struction of lexicons, ontologies, and se-
+mantic networks. The patterns are sorted 
+by pertinence, where the pertinence of a 
+pattern iP  for a word pair YX :  is the 
+expected relational similarity between the 
+given pair and typical pairs for iP . The 
+algorithm is empirically evaluated on two 
+tasks, solving multiple-choice SAT word 
+analogy questions and classifying seman-
+tic relations in noun-modifier pairs. On 
+both tasks, the algorithm achieves state-
+of-the-art results, performing signifi-
+cantly better than several alternative pat-
+tern ranking algorithms, based on tf-idf.  
+1 

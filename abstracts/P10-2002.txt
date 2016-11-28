@@ -1,0 +1,21 @@
+
+In hierarchical phrase-based SMT sys-
+tems, statistical models are integrated to
+guide the hierarchical rule selection for
+better translation performance. Previous
+work mainly focused on the selection of
+either the source side of a hierarchical rule
+or the target side of a hierarchical rule
+rather than considering both of them si-
+multaneously. This paper presents a joint
+model to predict the selection of hierar-
+chical rules. The proposed model is esti-
+mated based on four sub-models where the
+rich context knowledge from both source
+and target sides is leveraged. Our method
+can be easily incorporated into the prac-
+tical SMT systems with the log-linear
+model framework. The experimental re-
+sults show that our method can yield sig-
+nificant improvements in performance.
+1 

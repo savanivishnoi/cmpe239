@@ -1,0 +1,19 @@
+
+In this paper, we explore the use of automatic
+syntactic simplification for improving content
+selection in multi-document summarization. In
+particular, we show how simplifying parenthet-
+icals by removing relative clauses and apposi-
+tives results in improved sentence clustering, by
+forcing clustering based on central rather than
+background information. We argue that the in-
+clusion of parenthetical information in a sum-
+mary is a reference-generation task rather than a
+content-selection one, and implement a baseline
+reference rewriting module. We perform our
+evaluations on the test sets from the 2003 and
+2004 Document Understanding Conference and
+report that simplifying parentheticals results in
+significant improvement on the automated eval-
+uation metric Rouge.
+1 

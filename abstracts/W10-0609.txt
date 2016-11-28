@@ -1,0 +1,23 @@
+
+We present a series of methods for deriv-
+ing conceptual representations from corpora
+and investigate the usefulness of the fMRI
+data and machine learning methodology of
+Mitchell et al (2008) as a basis for evaluat-
+ing the different models. Within this frame-
+work, the quality of a semantic model is quan-
+tified by its ability to predict the fMRI ac-
+tivation associated with conceptual stimuli.
+Mitchell et al used a manually-acquired set of
+verbs as the basis for their semantic model; in
+this paper, we also consider automatically ac-
+quired feature-norm-like semantic representa-
+tions. These models make different assump-
+tions about the kinds of information avail-
+able in corpora that is relevant to represent-
+ing conceptual knowledge. Our results in-
+dicate that automatically-acquired representa-
+tions can make equally powerful predictions
+about the brain activity associated with the
+stimuli.
+1 

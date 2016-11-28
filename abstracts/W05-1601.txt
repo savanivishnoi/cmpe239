@@ -1,0 +1,20 @@
+
+Statistical NLG has largely meant n-gram mod-
+elling which has the considerable advantages of
+lending robustness to NLG systems, and of making
+automatic adaptation to new domains from raw cor-
+pora possible. On the downside, n-gram models are
+expensive to use as selection mechanisms and have
+a built-in bias towards shorter realisations. This pa-
+per looks at treebank-training of generators, an al-
+ternative method for building statistical models for
+NLG from raw corpora, and two different ways of
+using treebank-trained models during generation.
+Results show that the treebank-trained generators
+achieve improvements similar to a 2-gram gener-
+ator over a baseline of random selection. How-
+ever, the treebank-trained generators achieve this
+at a much lower cost than the 2-gram generator,
+and without its strong preference for shorter real-
+isations.
+1 

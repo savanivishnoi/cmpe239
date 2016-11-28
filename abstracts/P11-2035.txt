@@ -1,0 +1,23 @@
+
+Graph-based dependency parsing can be sped
+up significantly if implausible arcs are elim-
+inated from the search-space before parsing
+begins. State-of-the-art methods for arc fil-
+tering use separate classifiers to make point-
+wise decisions about the tree; they label tokens
+with roles such as root, leaf, or attaches-to-
+the-left, and then filter arcs accordingly. Be-
+cause these classifiers overlap substantially in
+their filtering consequences, we propose to
+train them jointly, so that each classifier can
+focus on the gaps of the others. We inte-
+grate the various pointwise decisions as latent
+variables in a single arc-level SVM classifier.
+This novel framework allows us to combine
+nine pointwise filters, and adjust their sensi-
+tivity using a shared threshold based on arc
+length. Our system filters 32% more arcs than
+the independently-trained classifiers, without
+reducing filtering speed. This leads to faster
+parsing with no reduction in accuracy.
+1 

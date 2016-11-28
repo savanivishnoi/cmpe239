@@ -1,0 +1,18 @@
+
+This paper describes a method to automat-
+ically create and maintain gazetteers for
+Named Entity Recognition (NER). This
+method extracts the necessary information
+from linguistic resources. Our approach is
+based on the analysis of an on-line ency-
+clopedia entries by using a noun hierarchy
+and optionally a PoS tagger. An impor-
+tant motivation is to reach a high level of
+language independence. This restricts the
+techniques that can be used but makes the
+method useful for languages with few re-
+sources. The evaluation carried out proves
+that this approach can be successfully used
+to build NER gazetteers for location (F
+78%) and person (F 68%) categories.
+1 

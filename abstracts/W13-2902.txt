@@ -1,0 +1,15 @@
+
+In this paper we report our experiments
+in creating a parallel corpus using Ger-
+man/Simple German documents from the
+web. We require parallel data to build a
+statistical machine translation (SMT) sys-
+tem that translates from German into Sim-
+ple German. Parallel data for SMT sys-
+tems needs to be aligned at the sentence
+level. We applied an existing monolingual
+sentence alignment algorithm. We show
+the limits of the algorithm with respect to
+the language and domain of our data and
+suggest ways of circumventing them.
+1 

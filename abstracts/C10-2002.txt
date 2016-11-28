@@ -1,0 +1,22 @@
+
+The use of semantic information to im-
+prove IR is a long-standing goal. This pa-
+per presents a novel Document Expansion
+method based on a WordNet-based system
+to find related concepts and words. Ex-
+pansion words are indexed separately, and
+when combined with the regular index,
+they improve the results in three datasets
+over a state-of-the-art IR engine. Consid-
+ering that many IR systems are not robust
+in the sense that they need careful fine-
+tuning and optimization of their parame-
+ters, we explored some parameter settings.
+The results show that our method is spe-
+cially effective for realistic, non-optimal
+settings, adding robustness to the IR en-
+gine. We also explored the effect of doc-
+ument length, and show that our method
+is specially successful with shorter docu-
+ments.
+1 

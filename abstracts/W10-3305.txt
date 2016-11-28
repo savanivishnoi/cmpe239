@@ -1,0 +1,22 @@
+
+Current approaches of hypernymy ac-
+quisition are mostly based on syntactic
+or surface representations and extract
+hypernymy relations between surface
+word forms and not word readings.
+In this paper we present a purely se-
+mantic approach for hypernymy ex-
+traction based on semantic networks
+(SNs). This approach employs a set
+of patterns
+sub0(a1, a2) ? premise where the
+premise part of a pattern is given by a
+SN. Furthermore this paper describes
+how the patterns can be derived by
+relational statistical learning following
+the Minimum Description Length prin-
+ciple (MDL). The evaluation demon-
+strates the usefulness of the learned
+patterns and also of the entire hyper-
+nymy extraction system.
+1 

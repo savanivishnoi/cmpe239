@@ -1,0 +1,13 @@
+ 
+We present a comparison of two approaches for 
+Arabic-Chinese machine translation using Eng-
+lish as a pivot language: sentence pivoting and 
+phrase-table pivoting. Our results show that 
+using English as a pivot in either approach out-
+performs direct translation from Arabic to Chi-
+nese.  Our best result is the phrase-pivot system 
+which scores higher than direct translation by 
+1.1 BLEU points. An error analysis of our best 
+system shows that we successfully handle many 
+complex Arabic-Chinese syntactic variations. 
+1 

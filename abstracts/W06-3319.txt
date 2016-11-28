@@ -1,0 +1,16 @@
+
+We propose a novel approach to the iden-
+tification of biomedical terms in research
+publications using the Perceptron HMM
+algorithm. Each important term is iden-
+tified and classified into a biomedical con-
+cept class. Our proposed system achieves
+a 68.6% F-measure based on 2,000 train-
+ing Medline abstracts and 404 unseen
+testing Medline abstracts. The system
+achieves performance that is close to the
+state-of-the-art using only a small feature
+set. The Perceptron HMM algorithm pro-
+vides an easy way to incorporate many po-
+tentially interdependent features.
+1 

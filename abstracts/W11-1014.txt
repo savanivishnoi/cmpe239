@@ -1,0 +1,26 @@
+ 
+A semantic feature for statistical machine trans-
+lation, based on Latent Semantic Indexing, is 
+proposed and evaluated. The objective of the 
+proposed feature is to account for the degree of 
+similarity between a given input sentence and 
+each individual sentence in the training dataset. 
+This similarity is computed in a reduced vector-
+space constructed by means of the Latent Se-
+mantic Indexing decomposition. The computed 
+similarity values are used as an additional fea-
+ture in the log-linear model combination ap-
+proach to statistical machine translation. In our 
+implementation, the proposed feature is dy-
+namically adjusted for each translation unit in 
+the translation table according to the current in-
+put sentence to be translated. This model aims 
+at favoring those translation units that were ex-
+tracted from training sentences that are seman-
+tically related to the current input sentence 
+being translated. Experimental results on a 
+Spanish-to-English translation task on the Bible 
+corpus demonstrate a significant improvement 
+on translation quality with respect to a baseline 
+system. 
+1 

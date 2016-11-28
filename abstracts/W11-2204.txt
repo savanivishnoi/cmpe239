@@ -1,0 +1,24 @@
+
+The unsupervised Data Oriented Parsing
+(uDOP) approach has been repeatedly re-
+ported to achieve state of the art perfor-
+mance in experiments on parsing of dif-
+ferent corpora. At the same time the ap-
+proach is demanding both in computation
+time and memory. This paper describes an
+approach which decreases these demands.
+First the problem is translated into the
+generation of probabilistic bottom up tree
+automata (pBTA). Then it is explained
+how solving two standard problems for
+these automata results in a reduction in
+the size of the grammar. The reduction of
+the grammar size by using efficient algo-
+rithms for pBTAs is the main contribution
+of this paper. Experiments suggest that
+this leads to a reduction in grammar size
+by a factor of 2. This paper also suggests
+some extensions of the original uDOP al-
+gorithm that are made possible or aided by
+the use of tree automata.
+1 

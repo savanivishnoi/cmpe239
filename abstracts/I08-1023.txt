@@ -1,0 +1,24 @@
+ 
+The web is growing at a rapid speed and it is 
+almost impossible for a web crawler to 
+download all new pages. Pages reporting 
+breaking news should be stored into search 
+engine index as soon as they are published, 
+while others whose content is not 
+time-related can be left for later crawls. We 
+collected and analyzed into users? page-view 
+data of 75,112,357 pages for 60 days. Using 
+this data, we found that a large proportion of 
+temporal pages are published by a small 
+number of web sites providing news services, 
+which should be crawled repeatedly with 
+small intervals. Such temporal web sites of 
+high freshness requirements can be 
+identified by our algorithm based on user 
+behavior analysis in page view data. 51.6% 
+of all temporal pages can be picked up with 
+a small overhead of untemporal pages. With 
+this method, web crawlers can focus on 
+these web sites and download pages from 
+them with high priority. 
+1 

@@ -1,0 +1,19 @@
+
+This paper deals with the task of find-
+ing generally applicable substitutions for a
+given input term. We show that the output
+of a distributional similarity system base-
+line can be filtered to obtain terms that are
+not simply similar but frequently substi-
+tutable. Our filter relies on the fact that
+when two terms are in a common entail-
+ment relation, it should be possible to sub-
+stitute one for the other in their most fre-
+quent surface contexts. Using the Google
+5-gram corpus to find such characteris-
+tic contexts, we show that for the given
+task, our filter improves the precision of a
+distributional similarity system from 41%
+to 56% on a test set comprising common
+transitive verbs.
+1 

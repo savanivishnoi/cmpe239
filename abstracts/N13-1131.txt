@@ -1,0 +1,13 @@
+
+In this paper we consider the problem of label-
+ing the languages of words in mixed-language
+documents. This problem is approached in a
+weakly supervised fashion, as a sequence la-
+beling problem with monolingual text sam-
+ples for training data. Among the approaches
+evaluated, a conditional random field model
+trained with generalized expectation criteria
+was the most accurate and performed consis-
+tently as the amount of training data was var-
+ied.
+1 

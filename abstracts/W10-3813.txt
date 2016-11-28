@@ -1,0 +1,26 @@
+
+In this paper, we extend the HMM word-
+to-phrase alignment model with syntac-
+tic dependency constraints. The syn-
+tactic dependencies between multiple
+words in one language are introduced
+into the model in a bid to produce co-
+herent alignments. Our experimental re-
+sults on a variety of Chinese?English
+data show that our syntactically con-
+strained model can lead to as much as
+a 3.24% relative improvement in BLEU
+score over current HMM word-to-phrase
+alignment models on a Phrase-Based
+Statistical Machine Translation system
+when the training data is small, and
+a comparable performance compared to
+IBM model 4 on a Hiero-style system
+with larger training data. An intrin-
+sic alignment quality evaluation shows
+that our alignment model with depen-
+dency constraints leads to improvements
+in both precision (by 1.74% relative) and
+recall (by 1.75% relative) over the model
+without dependency information.
+1 

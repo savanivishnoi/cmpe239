@@ -1,0 +1,29 @@
+
+In this paper, we describe our system submit-
+ted for the semantic textual similarity (STS)
+task at SemEval 2012. We implemented two
+approaches to calculate the degree of simi-
+larity between two sentences. First approach
+combines corpus-based semantic relatedness
+measure over the whole sentence with the
+knowledge-based semantic similarity scores
+obtained for the words falling under the same
+syntactic roles in both the sentences. We fed
+all these scores as features to machine learn-
+ing models to obtain a single score giving the
+degree of similarity of the sentences. Lin-
+ear Regression and Bagging models were used
+for this purpose. We used Explicit Semantic
+Analysis (ESA) as the corpus-based seman-
+tic relatedness measure. For the knowledge-
+based semantic similarity between words, a
+modified WordNet based Lin measure was
+used. Second approach uses a bipartite based
+method over the WordNet based Lin measure,
+without any modification. This paper shows
+a significant improvement in calculating the
+semantic similarity between sentences by the
+fusion of the knowledge-based similarity mea-
+sure and the corpus-based relatedness measure
+against corpus based measure taken alone.
+1 

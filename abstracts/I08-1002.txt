@@ -1,0 +1,21 @@
+
+This paper reports our empirical evaluation
+and comparison of several popular good-
+ness measures for unsupervised segmenta-
+tion of Chinese texts using Bakeoff-3 data
+sets with a unified framework. Assuming no
+prior knowledge about Chinese, this frame-
+work relies on a goodness measure to iden-
+tify word candidates from unlabeled texts
+and then applies a generalized decoding al-
+gorithm to find the optimal segmentation
+of a sentence into such candidates with the
+greatest sum of goodness scores. Exper-
+iments show that description length gain
+outperforms other measures because of its
+strength for identifying short words. Further
+performance improvement is also reported,
+achieved by proper candidate pruning and
+by assemble segmentation to integrate the
+strengths of individual measures.
+1 

@@ -1,0 +1,27 @@
+
+A great deal of information on the Web is
+represented in both textual and structured
+form. The structured form is machine-
+readable and can be used to augment the
+textual data. We call this augmentation
+? the annotation of texts with relations
+that are included in the structured data ?
+self-annotation. In this paper, we intro-
+duce self-annotation as a new supervised
+learning approach for developing and im-
+plementing a system that extracts fine-
+grained relations between entities. The
+main benefit of self-annotation is that it
+does not require manual labeling. The in-
+put of the learned model is a represen-
+tation of the free text, its output struc-
+tured relations. Thus, the model, once
+learned, can be applied to any arbitrary
+free text. We describe the challenges for
+the self-annotation process and give re-
+sults for a sample relation extraction sys-
+tem. To deal with the challenge of fine-
+grained relations, we implement and eval-
+uate both shallow and deep linguistic anal-
+ysis, focusing on German.
+1 

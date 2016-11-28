@@ -1,0 +1,22 @@
+
+Bloggers, professional reviewers, and con-
+sumers continuously create opinion?rich web
+reviews about products and services, with the
+result that textual reviews are now abundant on
+the web and often convey a useful overall rat-
+ing (number of stars). However, an overall rat-
+ing cannot express the multiple or conflicting
+opinions that might be contained in the text,
+or explicitly rate the different aspects of the
+evaluated entity. This work addresses the task
+of automatically predicting ratings, for given
+aspects of a textual review, by assigning a nu-
+merical score to each evaluated aspect in the
+reviews. We handle this task as both a re-
+gression and a classification modeling prob-
+lem and explore several combinations of syn-
+tactic and semantic features. Our results sug-
+gest that classification techniques perform bet-
+ter than ranking modeling when handling eval-
+uative text.
+1 

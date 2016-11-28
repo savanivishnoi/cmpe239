@@ -1,0 +1,22 @@
+
+The applicability of many current information ex-
+traction techniques is severely limited by the need
+for supervised training data. We demonstrate that
+for certain field structured extraction tasks, such
+as classified advertisements and bibliographic ci-
+tations, small amounts of prior knowledge can be
+used to learn effective models in a primarily unsu-
+pervised fashion. Although hidden Markov models
+(HMMs) provide a suitable generative model for
+field structured text, general unsupervised HMM
+learning fails to learn useful structure in either of
+our domains. However, one can dramatically im-
+prove the quality of the learned structure by ex-
+ploiting simple prior knowledge of the desired so-
+lutions. In both domains, we found that unsuper-
+vised methods can attain accuracies with 400 un-
+labeled examples comparable to those attained by
+supervised methods on 50 labeled examples, and
+that semi-supervised methods can make good use
+of small amounts of labeled data.
+1 

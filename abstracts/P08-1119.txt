@@ -1,0 +1,22 @@
+
+We present a novel approach to weakly super-
+vised semantic class learning from the web,
+using a single powerful hyponym pattern com-
+bined with graph structures, which capture
+two properties associated with pattern-based
+extractions: popularity and productivity. In-
+tuitively, a candidate is popular if it was dis-
+covered many times by other instances in the
+hyponym pattern. A candidate is productive
+if it frequently leads to the discovery of other
+instances. Together, these two measures cap-
+ture not only frequency of occurrence, but also
+cross-checking that the candidate occurs both
+near the class name and near other class mem-
+bers. We developed two algorithms that begin
+with just a class name and one seed instance
+and then automatically generate a ranked list
+of new class instances. We conducted exper-
+iments on four semantic classes and consis-
+tently achieved high accuracies.
+1 

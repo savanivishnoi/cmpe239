@@ -1,0 +1,23 @@
+
+We address a dialogue framework that narrows
+down the users query results obtained by an in
+formation retrieval system The followup dia
+logue to constrain query results is signicant es
+pecially with the speech interfaces such as tele
+phones because a lot of query results cannot be
+presented to the user The proposed dialogue
+framework generates guiding questions based on
+an information theoretic criterion to eliminate
+retrieved candidates by a spontaneous query
+without assuming a semantic slot structure We
+rst describe its concept on general information
+query tasks and then deal with a query task
+on the appliance manual where structured task
+knowledge is available A hierarchical conrma
+tion strategy is proposed by making use of a tree
+structure of the manual and then three cost
+functions for selecting optimal question nodes
+are compared Experimental evaluation demon
+strates that the proposed system helps users
+nd their intended items more eciently
+ 

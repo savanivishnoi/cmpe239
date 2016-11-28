@@ -1,0 +1,20 @@
+
+This paper describes the construction of lan-
+guage choice models for the microplanning of
+discourse relations in a Natural Language
+Generation system that attempts to generate
+appropriate texts for users with varying levels
+of literacy. The models consist of constraint
+satisfaction problem graphs that have been de-
+rived from the results of a corpus analysis.
+The corpus that the models are based on was
+written for good readers. We adapted the
+models for poor readers by allowing certain
+constraints to be tightened, based on psycho-
+linguistic evidence.  We describe how the de-
+sign of microplanner is evolving. We discuss
+the compromises involved in generating more
+readable textual output and implications of
+our design for NLG architectures. Finally we
+describe plans for future work.
+1  

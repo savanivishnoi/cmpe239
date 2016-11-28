@@ -1,0 +1,21 @@
+
+We compare the performance of three
+statistical parsing architectures on the
+problem of deriving typed dependency
+structures for French. The architectures
+are based on PCFGs with latent vari-
+ables, graph-based dependency parsing
+and transition-based dependency parsing,
+respectively. We also study the in?u-
+ence of three types of lexical informa-
+tion: lemmas, morphological features,
+and word clusters. The results show that
+all three systems achieve competitive per-
+formance, with a best labeled attachment
+score over 88%. All three parsers bene?t
+from the use of automatically derived lem-
+mas, while morphological features seem
+to be less important. Word clusters have a
+positive effect primarily on the latent vari-
+able parser.
+1 

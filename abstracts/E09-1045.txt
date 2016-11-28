@@ -1,0 +1,25 @@
+
+As empirically demonstrated by the last
+SensEval exercises, assigning the appro-
+priate meaning to words in context has re-
+sisted all attempts to be successfully ad-
+dressed. One possible reason could be the
+use of inappropriate set of meanings. In
+fact, WordNet has been used as a de-facto
+standard repository of meanings. How-
+ever, to our knowledge, the meanings rep-
+resented by WordNet have been only used
+for WSD at a very fine-grained sense level
+or at a very coarse-grained class level. We
+suspect that selecting the appropriate level
+of abstraction could be on between both
+levels. We use a very simple method for
+deriving a small set of appropriate mean-
+ings using basic structural properties of
+WordNet. We also empirically demon-
+strate that this automatically derived set of
+meanings groups senses into an adequate
+level of abstraction in order to perform
+class-based Word Sense Disambiguation,
+allowing accuracy figures over 80%.
+1 

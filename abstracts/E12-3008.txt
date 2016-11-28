@@ -1,0 +1,14 @@
+
+In this work I address the challenge of aug-
+menting n-gram language models accord-
+ing to prior linguistic intuitions. I argue
+that the family of hierarchical Pitman-Yor
+language models is an attractive vehicle
+through which to address the problem, and
+demonstrate the approach by proposing a
+model for German compounds. In an em-
+pirical evaluation, the model outperforms
+the Kneser-Ney model in terms of perplex-
+ity, and achieves preliminary improvements
+in English-German translation.
+1 

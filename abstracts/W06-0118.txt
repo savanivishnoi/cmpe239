@@ -1,0 +1,17 @@
+
+This paper describes a Chinese word seg-
+mentation system that is based on ma-
+jority voting among three models: a for-
+ward maximum matching model, a con-
+ditional random field (CRF) model us-
+ing maximum subword-based tagging, and
+a CRF model using minimum subword-
+based tagging. In addition, it contains a
+post-processing component to deal with
+inconsistencies. Testing on the closed
+track of CityU, MSRA and UPUC corpora
+in the third SIGHAN Chinese Word Seg-
+mentation Bakeoff, the system achieves a
+F-score of 0.961, 0.953 and 0.919, respec-
+tively.
+1 

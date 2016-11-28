@@ -1,0 +1,25 @@
+
+Supervised approaches to NLP tasks rely
+on high-quality data annotations, which
+typically result from expensive manual la-
+belling procedures. For some tasks, how-
+ever, the subjectivity of human judgements
+might reduce the usefulness of the an-
+notation for real-world applications. In
+Machine Translation (MT) Quality Esti-
+mation (QE), for instance, using human-
+annotated data to train a binary classifier
+that discriminates between good (useful
+for a post-editor) and bad translations is
+not trivial. Focusing on this binary task,
+we show that subjective human judge-
+ments can be effectively replaced with an
+automatic annotation procedure. To this
+aim, we compare binary classifiers trained
+on different data: the human-annotated
+dataset from the 7th Workshop on Statis-
+tical Machine Translation (WMT-12), and
+an automatically labelled version of the
+same corpus. Our results show that human
+labels are less suitable for the task.
+1 

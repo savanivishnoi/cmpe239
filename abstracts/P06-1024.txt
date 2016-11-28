@@ -1,0 +1,34 @@
+
+We explore the use of restricted dialogue
+contexts in reinforcement learning (RL)
+of effective dialogue strategies for infor-
+mation seeking spoken dialogue systems
+(e.g. COMMUNICATOR (Walker et al,
+2001)). The contexts we use are richer
+than previous research in this area, e.g.
+(Levin and Pieraccini, 1997; Scheffler and
+Young, 2001; Singh et al, 2002; Pietquin,
+2004), which use only slot-based infor-
+mation, but are much less complex than
+the full dialogue ?Information States? ex-
+plored in (Henderson et al, 2005), for
+which tractabe learning is an issue. We
+explore how incrementally adding richer
+features allows learning of more effective
+dialogue strategies. We use 2 user simu-
+lations learned from COMMUNICATOR
+data (Walker et al, 2001; Georgila et al,
+2005b) to explore the effects of differ-
+ent features on learned dialogue strategies.
+Our results show that adding the dialogue
+moves of the last system and user turns
+increases the average reward of the auto-
+matically learned strategies by 65.9% over
+the original (hand-coded) COMMUNI-
+CATOR systems, and by 7.8% over a base-
+line RL policy that uses only slot-status
+features. We show that the learned strate-
+gies exhibit an emergent ?focus switch-
+ing? strategy and effective use of the ?give
+help? action.
+1 

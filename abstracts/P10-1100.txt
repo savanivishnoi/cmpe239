@@ -1,0 +1,14 @@
+
+We describe a novel approach to unsuper-
+vised learning of the events that make up
+a script, along with constraints on their
+temporal ordering. We collect natural-
+language descriptions of script-specific
+event sequences from volunteers over the
+Internet. Then we compute a graph rep-
+resentation of the script?s temporal struc-
+ture using a multiple sequence alignment
+algorithm. The evaluation of our system
+shows that we outperform two informed
+baselines.
+1 

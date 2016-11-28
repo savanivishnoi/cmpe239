@@ -1,0 +1,27 @@
+ 
+This paper explores the research issue and 
+methodology of a query focused multi-
+document summarizer. Considering its pos-
+sible application area is Web, the computa-
+tion is clearly divided into offline and 
+online tasks. At initial preprocessing stage 
+an offline document graph is constructed, 
+where the nodes are basically paragraphs of 
+the documents and edge scores are defined 
+as the correlation measure between the 
+nodes. At query time, given a set of key-
+words, each node is assigned a query de-
+pendent score, the initial graph is expanded 
+and keyword search is performed over the 
+graph to find a spanning tree identifying 
+relevant nodes satisfying the keywords. 
+Paragraph ordering of the output summary 
+is taken care of so that the output looks co-
+herent. Although all the examples, shown 
+in this paper are based on English language, 
+we show that our system is useful in gener-
+ating query dependent summarization for 
+non- English languages also. We also pre-
+sent the evaluation of the system. 
+ 
+1 

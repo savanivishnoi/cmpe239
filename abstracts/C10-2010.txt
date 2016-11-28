@@ -1,0 +1,15 @@
+
+We address the problem of unsupervised
+and language-pair independent alignment
+of symmetrical and asymmetrical parallel
+corpora. Asymmetrical parallel corpora
+contain a large proportion of 1-to-0/0-to-1
+and 1-to-many/many-to-1 sentence corre-
+spondences. We have developed a novel
+approach which is fast and allows us to
+achieve high accuracy in terms of F1 for
+the alignment of both asymmetrical and
+symmetrical parallel corpora. The source
+code of our aligner and the test sets are
+freely available.
+1 

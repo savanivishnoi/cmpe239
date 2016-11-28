@@ -1,0 +1,16 @@
+
+A new model for statistical translation is
+presented. A novel feature of this model
+is that the alignments it produces are hier-
+archically arranged. The generative pro-
+cess begins by splitting the input sen-
+tence in two parts. Each of the parts is
+translated by a recursive application of
+the model and the resulting translation
+are then concatenated. If the sentence
+is small enough, a simpler model (in our
+case IBM?s model 1) is applied.
+The training of the model is explained. Fi-
+nally, the model is evaluated using the cor-
+pora from a large vocabulary shared task.
+1 

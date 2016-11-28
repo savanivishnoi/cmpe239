@@ -1,0 +1,20 @@
+
+We present an approach to statistical
+machine translation that combines ideas
+from phrase-based SMT and traditional
+grammar-based MT. Our system incor-
+porates the concept of multi-word trans-
+lation units into transfer of dependency
+structure snippets, and models and trains
+statistical components according to state-
+of-the-art SMT systems. Compliant with
+classical transfer-based MT, target depen-
+dency structure snippets are input to a
+grammar-based generator. An experimen-
+tal evaluation shows that the incorpora-
+tion of a grammar-based generator into an
+SMT framework provides improved gram-
+maticality while achieving state-of-the-art
+quality on in-coverage examples, suggest-
+ing a possible hybrid framework.
+1 

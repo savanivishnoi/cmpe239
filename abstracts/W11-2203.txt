@@ -1,0 +1,24 @@
+
+Cross-Lingual Lexical Substitution (CLLS) is
+the task that aims at providing for a target
+word in context, several alternative substitute
+words in another language. The proposed
+sets of translations may come from external
+resources or be extracted from textual data.
+In this paper, we apply for the first time an
+unsupervised cross-lingual WSD method to
+this task. The method exploits the results of
+a cross-lingual word sense induction method
+that identifies the senses of words by cluster-
+ing their translations according to their seman-
+tic similarity. We evaluate the impact of using
+clustering information for CLLS by applying
+the WSD method to the SemEval-2010 CLLS
+data set. Our system performs better on the
+?out-of-ten? measure than the systems that par-
+ticipated in the SemEval task, and is ranked
+medium on the other measures. We analyze
+the results of this evaluation and discuss av-
+enues for a better overall integration of unsu-
+pervised sense clustering in this setting.
+1 

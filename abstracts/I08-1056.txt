@@ -1,0 +1,22 @@
+
+Document retrieval is a critical component
+of question answering (QA), yet little work
+has been done towards statistical modeling
+of queries and towards automatic generation
+of high quality query content for QA. This
+paper introduces a new, cluster-based query
+expansion method that learns queries known
+to be successful when applied to similar
+questions. We show that cluster-based ex-
+pansion improves the retrieval performance
+of a statistical question answering system
+when used in addition to existing query ex-
+pansion methods. This paper presents exper-
+iments with several feature selection meth-
+ods used individually and in combination.
+We show that documents retrieved using the
+cluster-based approach are inherently differ-
+ent than documents retrieved using existing
+methods and provide a higher data diversity
+to answers extractors.
+1 

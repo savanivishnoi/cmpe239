@@ -1,0 +1,19 @@
+
+During the course of first language acquisi-
+tion, children produce linguistic forms that do
+not conform to adult grammar. In this paper,
+we introduce a data set and approach for sys-
+tematically modeling this child-adult grammar
+divergence. Our corpus consists of child sen-
+tences with corrected adult forms. We bridge
+the gap between these forms with a discrim-
+inatively reranked noisy channel model that
+translates child sentences into equivalent adult
+utterances. Our method outperforms MT and
+ESL baselines, reducing child error by 20%.
+Our model allows us to chart specific aspects
+of grammar development in longitudinal stud-
+ies of children, and investigate the hypothesis
+that children share a common developmental
+path in language acquisition.
+1 

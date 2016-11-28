@@ -1,0 +1,29 @@
+ 
+This paper introduces a grammar formalism 
+specifically designed for syntax-based sta-
+tistical machine translation. The synchro-
+nous grammar formalism we propose in 
+this paper takes into consideration the per-
+vasive structure divergence between lan-
+guages, which many other synchronous 
+grammars are unable to model. A Depend-
+ency Insertion Grammars (DIG) is a gen-
+erative grammar formalism that captures 
+word order phenomena within the depend-
+ency representation. Synchronous Depend-
+ency Insertion Grammars (SDIG) is the 
+synchronous version of DIG which aims at 
+capturing structural divergences across the 
+languages. While both DIG and SDIG have 
+comparatively simpler mathematical forms, 
+we prove that DIG nevertheless has a gen-
+eration capacity weakly equivalent to that 
+of CFG. By making a comparison to TAG 
+and Synchronous TAG, we show how such 
+formalisms are linguistically motivated. We 
+then introduce a probabilistic extension of 
+SDIG. We finally evaluated our current im-
+plementation of a simplified version of 
+SDIG for syntax based statistical machine 
+translation. 
+1 

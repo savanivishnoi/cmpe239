@@ -1,0 +1,13 @@
+
+This paper addresses the documentation of
+large-scale grammars.1 We argue that grammar
+implementation differs from ordinary software
+programs: the concept of modules, as known
+from software engineering, cannot be trans-
+ferred directly to grammar implementations,
+due to grammar-specific properties. These
+properties also put special constraints on the
+form of grammar documentation. To fulfill
+these constraints, we propose an XML-based,
+grammar-specific documentation technique.
+1 

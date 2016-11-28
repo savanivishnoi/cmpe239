@@ -1,0 +1,27 @@
+
+Plagiarism, the unacknowledged reuse of
+text, does not end at language boundaries.
+Cross-language plagiarism occurs if a text
+is translated from a fragment written in a
+different language and no proper citation
+is provided. Regardless of the change of
+language, the contents and, in particular,
+the ideas remain the same. Whereas dif-
+ferent methods for the detection of mono-
+lingual plagiarism have been developed,
+less attention has been paid to the cross-
+language case.
+In this paper we compare two recently
+proposed cross-language plagiarism de-
+tection methods (CL-CNG, based on char-
+acter n-grams and CL-ASA, based on sta-
+tistical translation), to a novel approach
+to this problem, based on machine trans-
+lation and monolingual similarity analy-
+sis (T+MA). We explore the effectiveness
+of the three approaches for less related
+languages. CL-CNG shows not be ap-
+propriate for this kind of language pairs,
+whereas T+MA performs better than the
+previously proposed models.
+1 

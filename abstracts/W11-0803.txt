@@ -1,0 +1,23 @@
+ 
+One of the key issues in both natural lan-
+guage understanding and generation is the 
+appropriate processing of Multiword Ex-
+pressions (MWEs). MWE can be defined 
+as a semantic issue of a phrase where the 
+meaning of the phrase may not be obtained 
+from its constituents in a straightforward 
+manner. This paper presents an approach of 
+identifying bigram noun-noun MWEs from 
+a medium-size Bengali corpus by cluster-
+ing the semantically related nouns and in-
+corporating a vector space model for 
+similarity measurement. Additional inclu-
+sion of the English WordNet::Similarity 
+module also improves the results consider-
+ably. The present approach also contributes 
+to locate clusters of the synonymous noun 
+words present in a document. Experimental 
+results draw a satisfactory conclusion after 
+analyzing the Precision, Recall and F-score 
+values.  
+1 

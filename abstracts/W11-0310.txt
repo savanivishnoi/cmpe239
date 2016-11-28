@@ -1,0 +1,21 @@
+
+Sociolinguistic theories (e.g., Lakoff (1973))
+postulate that women?s language styles differ
+from that of men. In this paper, we explore
+statistical techniques that can learn to iden-
+tify the gender of authors in modern English
+text, such as web blogs and scientific papers.
+Although recent work has shown the efficacy
+of statistical approaches to gender attribution,
+we conjecture that the reported performance
+might be overly optimistic due to non-stylistic
+factors such as topic bias in gender that can
+make the gender detection task easier. Our
+work is the first that consciously avoids gender
+bias in topics, thereby providing stronger evi-
+dence to gender-specific styles in language be-
+yond topic. In addition, our comparative study
+provides new insights into robustness of var-
+ious stylometric techniques across topic and
+genre.
+1 

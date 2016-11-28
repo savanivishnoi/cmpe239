@@ -1,0 +1,18 @@
+
+We develop a system for predicting the level of
+language learners, using only a small amount
+of targeted language data. In particular, we
+focus on learners of Hebrew and predict level
+based on restricted placement exam exercises.
+As with many language teaching situations, a
+major problem is data sparsity, which we ac-
+count for in our feature selection, learning al-
+gorithm, and in the setup. Specifically, we de-
+fine a two-phase classification process, isolat-
+ing individual errors and linguistic construc-
+tions which are then aggregated into a second
+phase; such a two-step process allows for easy
+integration of other exercises and features in
+the future. The aggregation of information
+also allows us to smooth over sparse features.
+1 

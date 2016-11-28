@@ -1,0 +1,18 @@
+
+This paper introduces a novel evaluation
+framework for question series and em-
+ploys it to explore the effectiveness of QA
+and IR systems at addressing users? infor-
+mation needs. The framework is based on
+the notion of recall curves, which char-
+acterize the amount of relevant informa-
+tion contained within a fixed-length text
+segment. Although it is widely assumed
+that QA technology provides more effi-
+cient access to information than IR sys-
+tems, our experiments show that a simple
+IR baseline is quite competitive. These re-
+sults help us better understand the role of
+NLP technology in QA systems and sug-
+gest directions for future research.
+1 

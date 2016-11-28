@@ -1,0 +1,22 @@
+
+Question detection serves great purposes
+in the cQA question retrieval task. While
+detecting questions in standard language
+data corpus is relatively easy, it becomes
+a great challenge for online content. On-
+line questions are usually long and infor-
+mal, and standard features such as ques-
+tion mark or 5W1H words are likely to be
+absent. In this paper, we explore ques-
+tion characteristics in cQA services, and
+propose an automated approach to detect
+question sentences based on lexical and
+syntactic features. Our model is capable
+of handling informal online languages.
+The empirical evaluation results further
+demonstrate that our model significantly
+outperforms traditional methods in de-
+tecting online question sentences, and it
+considerably boosts the question retrieval
+performance in cQA.
+1 

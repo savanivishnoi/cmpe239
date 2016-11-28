@@ -1,0 +1,19 @@
+
+To cluster textual sequence types (discourse
+types/modes) in French texts, K-means
+algorithm with high-dimensional embed-
+dings and fuzzy clustering algorithm were
+applied on clauses whose POS (part-of-
+speech) n-gram profiles were previously ex-
+tracted. Uni-, bi- and trigrams were used
+on four 19th century French short stories by
+Maupassant. For high-dimensional embed-
+dings, power transformations on the chi-
+squared distances between clauses were ex-
+plored. Preliminary results show that high-
+dimensional embeddings improve the qual-
+ity of clustering, contrasting the use of bi-
+and trigrams whose performance is disap-
+pointing, possibly because of feature space
+sparsity.
+1 

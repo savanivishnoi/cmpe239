@@ -1,0 +1,32 @@
+ 
+Using abundant Web resources to mine 
+Chinese term translations can be applied 
+in many fields such as reading/writing as-
+sistant, machine translation and cross-
+language information retrieval. In mining 
+English translations of Chinese terms, 
+how to obtain effective Web pages and 
+evaluate translation candidates are two 
+challenging issues. In this paper, the ap-
+proach based on semantic prediction is 
+first proposed to obtain effective Web 
+pages. The proposed method predicts 
+possible English meanings according to 
+each constituent unit of Chinese term, and 
+expands these English items using 
+semantically relevant knowledge for 
+searching. The refined related terms are 
+extracted from top retrieved documents 
+through feedback learning to construct a 
+new query expansion for acquiring more 
+effective Web pages. For obtaining a cor-
+rect translation list, a translation 
+evaluation method in the weighted sum of 
+multi-features is presented to rank these 
+candidates estimated from effective Web 
+pages. Experimental results demonstrate 
+that the proposed method has good per-
+formance in Chinese-English term trans-
+lation acquisition, and achieves 82.9% 
+accuracy. 
+1 

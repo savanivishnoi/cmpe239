@@ -1,0 +1,22 @@
+
+French researchers are required to fre-
+quently translate into French the descrip-
+tion of their work published in English. At
+the same time, the need for French people
+to access articles in English, or to interna-
+tional researchers to access theses or pa-
+pers in French, is incorrectly resolved via
+the use of generic translation tools. We
+propose the demonstration of an end-to-end
+tool integrated in the HAL open archive for
+enabling efficient translation for scientific
+texts. This tool can give translation sugges-
+tions adapted to the scientific domain, im-
+proving by more than 10 points the BLEU
+score of a generic system. It also provides
+a post-edition service which captures user
+post-editing data that can be used to incre-
+mentally improve the translations engines.
+Thus it is helpful for users which need to
+translate or to access scientific texts.
+1 

@@ -1,0 +1,19 @@
+ 
+In this paper we present first results from 
+a comparative study. Its aim is to test 
+the feasibility of different inductive learn- 
+ing techniques to perform the automatic 
+acquisition of linguistic knowledge within a 
+natural anguage database interface. In our 
+interface architecture the machine learn- 
+ing module replaces an elaborate semantic 
+analysis component. The learning module 
+learns the correct mapping of a user's input 
+to the corresponding database command 
+based on a collection of past input data. 
+We use an existing interface to a produc- 
+tion planning and control system as evalu- 
+ation and compare the results achieved by 
+different instance-based and model-based 
+learning algorithms. 
+1 

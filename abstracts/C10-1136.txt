@@ -1,0 +1,27 @@
+
+For sentiment analysis, lexicons play an
+important role in many related tasks. In
+this paper, aiming to build Chinese emo-
+tion lexicons for public use, we adopted a
+graph-based algorithm which ranks words
+according to a few seed emotion words.
+The ranking algorithm exploits the simi-
+larity between words, and uses multiple
+similarity metrics which can be derived
+from dictionaries, unlabeled corpora or
+heuristic rules. To evaluate the adopted
+algorithm and resources, two independent
+judges were asked to label the top words
+of ranking list.
+It is observed that noise is almost un-
+avoidable due to imprecise similarity met-
+rics between words. So, to guarantee
+the quality of emotion lexicons, we use
+an iterative feedback to combine man-
+ual labeling and the automatic ranking al-
+gorithm above. We also compared our
+newly constructed Chinese emotion lexi-
+cons (happiness, anger, sadness, fear and
+surprise) with existing counterparts, and
+related analysis is offered.
+1 

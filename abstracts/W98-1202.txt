@@ -1,0 +1,20 @@
+ 
+We present preliminary results of experiments with two 
+types of recurrent neural networks for a natural language 
+learning task. The neural networks, Elman networks and 
+Recurrent Cascade Correlation (RCC), were trained on 
+the text of a first-year primary school reader. The 
+networks performed a one-step-look-ahead task, i.e. they 
+had to predict he lexical category of the next following 
+word. Elman networks with 9 hidden units gave the best 
+training results (72% correct) but scored only 63% when 
+tested for generalisation using a "leave-one-sentence-out" 
+cross-validation technique. An RCC network could learn 
+99.6% of the training set by adding up to 42 hidden units 
+but achieved best generalisation (63%) with only four 
+hidden units. Results are presented showing network 
+learning in relation to bi-, t'i-, 4- and 5-gram 
+performance. Greatest prediction uncertainty (measured 
+as the entropy of the output units) occurred, not at the 
+sentence boundaries but when the first verb was the input. 
+1. 

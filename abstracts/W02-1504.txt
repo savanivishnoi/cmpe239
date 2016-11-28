@@ -1,0 +1,19 @@
+ 
+We propose that machine translation (MT) is a 
+useful application for evaluating and deriving 
+the development of NL components, 
+especially in a wide-coverage analysis system. 
+Given the architecture of our MT system, 
+which is a transfer system based on linguistic 
+modules, correct analysis is expected to be a 
+prerequisite for correct translation, suggesting 
+a correlation between the two, given relatively 
+mature transfer and generation components.  
+We show through error analysis that there is 
+indeed a strong correlation between the quality 
+of the translated output and the subjectively 
+determined goodness of the analysis.  We use 
+this correlation as a guide for development of 
+a coordinated parallel analysis effort in 7 
+languages. 
+1  

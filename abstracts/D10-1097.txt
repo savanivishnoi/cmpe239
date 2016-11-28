@@ -1,0 +1,20 @@
+
+The research question treated in this paper
+is centered on the idea of exploiting rich re-
+sources of one language to enhance the per-
+formance of a mention detection system of an-
+other one. We successfully achieve this goal
+by projecting information from one language
+to another via a parallel corpus. We exam-
+ine the potential improvement using various
+degrees of linguistic information in a statisti-
+cal framework and we show that the proposed
+technique is effective even when the target
+language model has access to a significantly
+rich feature set. Experimental results show
+up to 2.4F improvement in performance when
+the system has access to information obtained
+by projecting mentions from a resource-rich-
+language mention detection system via a par-
+allel corpus.
+1 

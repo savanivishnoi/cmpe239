@@ -1,0 +1,20 @@
+
+We describe the design and implementation of
+a system for data exploration over dependency
+parses and derived semantic representations
+in a large-scale NLP-based search system at
+powerset.com. Because of the distributed
+nature of the document repository and the pro-
+cessing infrastructure, and also the complex
+representations of the corpus data, standard
+text analysis tools such as grep or awk or
+language modeling toolkits are not applicable.
+This paper explores the challenges of extract-
+ing statistical information and of building lan-
+guage models in such a distributed NLP envi-
+ronment, and introduces a corpus analysis sys-
+tem, Oceanography, that simplifies the writ-
+ing of analysis code and transparently takes
+advantage of existing distributed processing
+infrastructure.
+1 

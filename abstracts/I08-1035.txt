@@ -1,0 +1,17 @@
+
+An approach to solving the problem of au-
+tomatic briefing generation from non-textual
+events can be segmenting the task into two
+major steps, namely, extraction of briefing
+templates and learning aggregators that col-
+late information from events and automati-
+cally fill up the templates. In this paper, we
+describe two novel unsupervised approaches
+for extracting briefing templates from hu-
+man written reports. Since the problem is
+non-standard, we define our own criteria for
+evaluating the approaches and demonstrate
+that both approaches are effective in extract-
+ing domain relevant templates with promis-
+ing accuracies.
+1 

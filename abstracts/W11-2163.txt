@@ -1,0 +1,13 @@
+
+We describe our experiments with hier-
+archical phrase-based machine translation
+for the WMT 2011 Shared Task. We
+trained a system for all 8 translation di-
+rections between English on one side and
+Czech, German, Spanish or French on
+the other side, though we focused slightly
+more on the English-to-Czech direction.
+We provide a detailed description of our
+configuration and data so the results are
+replicable.
+1 

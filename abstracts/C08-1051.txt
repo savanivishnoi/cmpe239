@@ -1,0 +1,16 @@
+
+Word clustering is a conventional and im-
+portant NLP task, and the literature has
+suggested two kinds of approaches to this
+problem. One is based on the distribu-
+tional similarity and the other relies on
+the co-occurrence of two words in lexico-
+syntactic patterns. Although the two meth-
+ods have been discussed separately, it is
+promising to combine them since they are
+complementary with each other. This pa-
+per proposes to integrate them using hid-
+den Markov random fields and demon-
+strates its effectiveness through experi-
+ments.
+1 

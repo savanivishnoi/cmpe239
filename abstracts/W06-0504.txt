@@ -1,0 +1,19 @@
+
+In this paper we propose and investigate
+Ontology Population from Textual Mentions
+(OPTM), a sub-task of Ontology Population
+from text where we assume that mentions for
+several kinds of entities (e.g. PERSON,
+O R G A N I Z A T I O N , LO C A T I O N , GEO-
+POLITICAL_ ENTITY) are already extracted
+from a document collection. On the one
+hand, OPTM simplifies the general Ontology
+Population task, limiting the input textual
+material; on the other hand, it introduces
+challenging extensions to Ontology Popula-
+tion restricted to named entities, being open
+to a wider spectrum of linguistic phenomena.
+We describe a manually created benchmark
+for OPTM and discuss several factors which
+determine the difficulty of the task.
+1 

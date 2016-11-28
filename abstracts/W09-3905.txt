@@ -1,0 +1,20 @@
+
+In this paper we do two things: a) we dis-
+cuss in general terms the task of incre-
+mental reference resolution (IRR), in par-
+ticular resolution of exophoric reference,
+and specify metrics for measuring the per-
+formance of dialogue system components
+tackling this task, and b) we present a sim-
+ple Bayesian filtering model of IRR that
+performs reasonably well just using words
+directly (no structure information and no
+hand-coded semantics): it picks the right
+referent out of 12 for around 50% of real-
+world dialogue utterances in our test cor-
+pus. It is also able to learn to interpret not
+only words but also hesitations, just as hu-
+mans have shown to do in similar situa-
+tions, namely as markers of references to
+hard-to-describe entities.
+1 

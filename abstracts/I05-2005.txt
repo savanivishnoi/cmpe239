@@ -1,0 +1,20 @@
+ 
+A problem associated with current P2P (peer-to-peer) 
+systems is that the consistency between copied contents 
+is not guaranteed. Additionally, the limitation of full-
+text search capability in most of the popular P2P 
+systems hinders the scalability of P2P-based content 
+sharing systems. We proposed a new P2P content 
+sharing system in which the consistency of contents in 
+the network is maintained after updates or modifications 
+have been made to the contents. Links to the 
+downloaded contents are maintained on a server. As a 
+result, the updates and modifications to the contents can 
+be instantly detected and hence get reflected in future 
+P2P downloads. Natural language processing including 
+morphological analysis is performed distributedly by the 
+P2P clients and the update of the inverted index on the 
+server is conducted concurrently to provide an efficient 
+full-text search. The scheme and a preliminary 
+experimental result have been mentioned 
+1   

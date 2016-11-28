@@ -1,0 +1,22 @@
+
+Sentence compression techniques often
+assemble output sentences using frag-
+ments of lexical sequences such as n-
+grams or units of syntactic structure such
+as edges from a dependency tree repre-
+sentation. We present a novel approach
+for discriminative sentence compression
+that unifies these notions and jointly pro-
+duces sequential and syntactic represen-
+tations for output text, leveraging a com-
+pact integer linear programming formula-
+tion to maintain structural integrity. Our
+supervised models permit rich features
+over heterogeneous linguistic structures
+and generalize over previous state-of-the-
+art approaches. Experiments on corpora
+featuring human-generated compressions
+demonstrate a 13-15% relative gain in 4-
+gram accuracy over a well-studied lan-
+guage model-based compression system.
+1 

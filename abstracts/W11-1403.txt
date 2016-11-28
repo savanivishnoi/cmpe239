@@ -1,0 +1,22 @@
+
+This paper presents Genpex, a system for au-
+tomatic generation of narrative probability ex-
+ercises. Generation of exercises in Genpex is
+done in two steps. First, the system creates
+a specification of a solvable probability prob-
+lem, based on input from the user (a researcher
+or test developer) who selects a specific ques-
+tion type and a narrative context for the prob-
+lem. Then, a text expressing the probability
+problem is generated. The user can tune the
+generated text by setting the values of some
+linguistic variation parameters. By varying
+the mathematical content of the exercise, its
+narrative context and the linguistic parameter
+settings, many different exercises can be pro-
+duced. Here we focus on the natural language
+generation part of Genpex. After describing
+how the system works, we briefly present our
+first evaluation results, and discuss some as-
+pects requiring further investigation.
+1 

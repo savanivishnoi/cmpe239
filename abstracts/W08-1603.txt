@@ -1,0 +1,20 @@
+
+This research aims to automatically ex-
+tract Know-Why from documents on the 
+website to contribute knowledge sources 
+to support the question-answering sys-
+tem, especially What-Question, for dis-
+ease treatment.  This paper is concerned 
+about extracting Know-Why based on 
+multiple EDUs (Elementary Discourse 
+Units). There are two problems in ex-
+tracting Know-Why: an identification 
+problem and an effect boundary determi-
+nation problem.  We propose using Na?ve 
+Bayes with three verb features, a causa-
+tive-verb-phrase concept set, a supporting 
+causative verb set, and the effect-verb-
+phrase concept set.  The Know-Why ex-
+traction results show the success rate of 
+85.5% precision and 79.8% recall. 
+1 

@@ -1,0 +1,18 @@
+
+We present procedures which pool lexical
+information estimated from unlabeled data
+via the Inside-Outside algorithm, with lex-
+ical information from a treebank PCFG.
+The procedures produce substantial im-
+provements (up to 31.6% error reduction)
+on the task of determining subcategoriza-
+tion frames of novel verbs, relative to a
+smoothed Penn Treebank-trained PCFG.
+Even with relatively small quantities of
+unlabeled training data, the re-estimated
+models show promising improvements in
+labeled bracketing f-scores on Wall Street
+Journal parsing, and substantial benefit
+in acquiring the subcategorization prefer-
+ences of low-frequency verbs.
+1 

@@ -1,0 +1,19 @@
+
+In this paper we describe our participating sys-
+tem for the dependency induction track of the
+PASCAL Challenge on Grammar Induction.
+Our system incorporates two types of induc-
+tive biases: the sparsity bias and the unambi-
+guity bias. The sparsity bias favors a gram-
+mar with fewer grammar rules. The unambi-
+guity bias favors a grammar that leads to un-
+ambiguous parses, which is motivated by the
+observation that natural language is remark-
+ably unambiguous in the sense that the num-
+ber of plausible parses of a natural language
+sentence is very small. We introduce our ap-
+proach to combining these two types of biases
+and discuss the system implementation. Our
+experiments show that both types of inductive
+biases are beneficial to grammar induction.
+1 

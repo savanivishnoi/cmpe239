@@ -1,0 +1,18 @@
+ 
+The paper describes a parser for Catego- 
+rial Grammar which provides fully word 
+by word incremental interpretation. The 
+parser does not require fragments of sen- 
+tences to form constituents, and thereby 
+avoids problems of spurious ambiguity. 
+The paper includes a brief discussion of 
+the relationship between basic Catego- 
+rial Grammar and other formalisms uch 
+as HPSG, Dependency Grammar and 
+the Lambek Calculus. It also includes 
+a discussion of some of the issues which 
+arise when parsing lexicalised grammars, 
+and the possibilities for using statistical 
+techniques for tuning to particular lan- 
+guages. 
+1 

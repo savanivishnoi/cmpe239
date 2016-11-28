@@ -1,0 +1,17 @@
+
+This paper presents a novel application of
+Alternating Structure Optimization (ASO)
+to the task of Semantic Role Labeling (SRL)
+of noun predicates in NomBank. ASO is
+a recently proposed linear multi-task learn-
+ing algorithm, which extracts the common
+structures of multiple tasks to improve accu-
+racy, via the use of auxiliary problems. In
+this paper, we explore a number of different
+auxiliary problems, and we are able to sig-
+nificantly improve the accuracy of the Nom-
+Bank SRL task using this approach. To our
+knowledge, our proposed approach achieves
+the highest accuracy published to date on the
+English NomBank SRL task.
+1 

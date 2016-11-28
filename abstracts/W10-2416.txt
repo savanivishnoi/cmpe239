@@ -1,0 +1,17 @@
+ 
+Identifying named entities is essential in 
+understanding plain texts. Moreover, the 
+categories of the named entities are indicative 
+of their roles in the texts. In this paper, we 
+propose a novel approach, Deep Belief Nets 
+(DBN), for the Chinese entity mention 
+categorization problem. DBN has very strong 
+representation power and it is able to 
+elaborately self-train for discovering 
+complicated feature combinations. The 
+experiments conducted on the Automatic 
+Context Extraction (ACE) 2004 data set 
+demonstrate the effectiveness of DBN. It 
+outperforms the state-of-the-art learning 
+models such as SVM or BP neural network. 
+1 

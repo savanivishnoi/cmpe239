@@ -1,0 +1,22 @@
+
+Consumers increasingly rate, review and re-
+search products online (Jansen, 2010; Litvin
+et al, 2008). Consequently, websites con-
+taining consumer reviews are becoming tar-
+gets of opinion spam. While recent work
+has focused primarily on manually identifi-
+able instances of opinion spam, in this work
+we study deceptive opinion spam?fictitious
+opinions that have been deliberately written to
+sound authentic. Integrating work from psy-
+chology and computational linguistics, we de-
+velop and compare three approaches to detect-
+ing deceptive opinion spam, and ultimately
+develop a classifier that is nearly 90% accurate
+on our gold-standard opinion spam dataset.
+Based on feature analysis of our learned mod-
+els, we additionally make several theoretical
+contributions, including revealing a relation-
+ship between deceptive opinions and imagina-
+tive writing.
+1 

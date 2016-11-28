@@ -1,0 +1,27 @@
+
+This paper presents an evaluation of an auto-
+mated quality assurance technique for a type
+of semantic representation known as a pred-
+icate argument structure. These representa-
+tions are crucial to the development of an im-
+portant class of corpus known as a proposi-
+tion bank. Previous work (Cohen and Hunter,
+2006) proposed and tested an analytical tech-
+nique based on a simple discovery proce-
+dure inspired by classic structural linguistic
+methodology. Cohen and Hunter applied the
+technique manually to a small set of repre-
+sentations. Here we test the feasibility of au-
+tomating the technique, as well as the ability
+of the technique to scale to a set of seman-
+tic representations and to a corpus many times
+larger than that used by Cohen and Hunter.
+We conclude that the technique is completely
+automatable, uncovers missing sense distinc-
+tions and other bad semantic representations,
+and does scale well, performing at an accu-
+racy of 69% for identifying bad representa-
+tions. We also report on the implications of
+our findings for the correctness of the seman-
+tic representations in PropBank.
+1 

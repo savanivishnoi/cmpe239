@@ -1,0 +1,21 @@
+
+Our work addresses the problem of predict-
+ing whether an essay is off-topic to a given
+prompt or question without any previously-
+seen essays as training data. Prior work has
+used similarity between essay vocabulary and
+prompt words to estimate the degree of on-
+topic content. In our corpus of opinion es-
+says, prompts are very short, and using sim-
+ilarity with such prompts to detect off-topic
+essays yields error rates of about 10%. We
+propose two methods to enable better compar-
+ison of prompt and essay text. We automat-
+ically expand short prompts before compari-
+son, with words likely to appear in an essay
+to that prompt. We also apply spelling correc-
+tion to the essay texts. Both methods reduce
+the error rates during off-topic essay detection
+and turn out to be complementary, leading to
+even better performance when used in unison.
+1 

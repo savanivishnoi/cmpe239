@@ -1,0 +1,16 @@
+
+Combination methods are an effective way
+of improving system performance. This
+paper examines the benefits of system
+combination for unsupervised WSD. We
+investigate several voting- and arbiter-
+based combination strategies over a di-
+verse pool of unsupervised WSD systems.
+Our combination methods rely on predom-
+inant senses which are derived automati-
+cally from raw text. Experiments using the
+SemCor and Senseval-3 data sets demon-
+strate that our ensembles yield signifi-
+cantly better results when compared with
+state-of-the-art.
+1 

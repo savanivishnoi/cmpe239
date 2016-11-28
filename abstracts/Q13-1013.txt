@@ -1,0 +1,17 @@
+
+In this paper, we present Dijkstra-WSA, a
+novel graph-based algorithm for word sense
+alignment. We evaluate it on four different
+pairs of lexical-semantic resources with dif-
+ferent characteristics (WordNet-OmegaWiki,
+WordNet-Wiktionary, GermaNet-Wiktionary
+and WordNet-Wikipedia) and show that it
+achieves competitive performance on 3 out
+of 4 datasets. Dijkstra-WSA outperforms the
+state of the art on every dataset if it is com-
+bined with a back-off based on gloss similar-
+ity. We also demonstrate that Dijkstra-WSA
+is not only flexibly applicable to different re-
+sources but also highly parameterizable to op-
+timize for precision or recall.
+1 

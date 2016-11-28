@@ -1,0 +1,20 @@
+ 
+Near-perfect automatic accent assignment is at- 
+tainable for citation-style speech, but better com- 
+putational models are needed to predict accent 
+in extended, spontaneous discourses. This paper 
+presents an empirically motivated theory of the dis- 
+course focusing nature of accent in spontaneous 
+speech. Hypotheses based on this theory lead to a 
+new approach to accent prediction, in which pat- 
+terns of deviation from citation form accentuation, 
+defined at the constituent or noun phrase level, 
+are atttomatically earned from an annotated cor- 
+pus. Machine learning experiments on 1031 noun 
+phrases from eighteen spontaneous direction-giving 
+monologues how that accent assignment can be 
+significantly improved by up to 4%-6% relative to 
+a hypothetical baseline system that wotdd produce 
+only citation-form accentuation, giving error rate 
+reductions of 11%-25%. 
+1 

@@ -1,0 +1,31 @@
+
+This paper describes a method for script independent
+word spotting in multilingual handwritten and machine
+printed documents. The system accepts a query in the
+form of text from the user and returns a ranked list of word
+images from document image corpus based on similarity
+with the query word. The system is divided into two main
+components. The first component known as Indexer, per-
+forms indexing of all word images present in the document
+image corpus. This is achieved by extracting Moment
+Based features from word images and storing them as in-
+dex. A template is generated for keyword spotting which
+stores the mapping of a keyword string to its correspond-
+ing word image which is used for generating query fea-
+ture vector. The second component, Similarity Matcher,
+returns a ranked list of word images which are most sim-
+ilar to the query based on a cosine similarity metric. A
+manual Relevance feedback is applied based on Rocchio?s
+formula, which re-formulates the query vector to return
+an improved ranked listing of word images. The perfor-
+mance of the system is seen to be superior on printed text
+than on handwritten text. Experiments are reported on
+documents of three different languages: English, Hindi
+and Sanskrit. For handwritten English, an average pre-
+cision of 67% was obtained for 30 query words. For ma-
+chine printed Hindi, an average precision of 71% was ob-
+tained for 75 query words and for Sanskrit, an average
+precision of 87% with 100 queries was obtained.
+Figure 1: A Sample English Document - Spotted Query
+word shown in the bounding box.
+1 

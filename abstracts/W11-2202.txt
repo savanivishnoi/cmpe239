@@ -1,0 +1,15 @@
+
+We present a nonparametric Bayesian ap-
+proach to extract a structured database of enti-
+ties from text. Neither the number of entities
+nor the fields that characterize each entity are
+provided in advance; the only supervision is
+a set of five prototype examples. Our method
+jointly accomplishes three tasks: (i) identify-
+ing a set of canonical entities, (ii) inferring a
+schema for the fields that describe each entity,
+and (iii) matching entities to their references in
+raw text. Empirical evaluation shows that the
+approach learns an accurate database of enti-
+ties and a sensible model of name structure.
+1 

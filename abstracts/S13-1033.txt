@@ -1,0 +1,16 @@
+ 
+This paper presents three methods to evaluate 
+the Semantic Textual Similarity (STS). The 
+first two methods do not require labeled train-
+ing data; instead, they automatically extract 
+semantic knowledge in the form of word asso-
+ciations from a given reference corpus. Two 
+kinds of word associations are considered: co-
+occurrence statistics and the similarity of 
+word contexts. The third method was done in 
+collaboration with groups from the Universi-
+ties of Paris 13, Matanzas and Alicante. It 
+uses several word similarity measures as fea-
+tures in order to construct an accurate predic-
+tion model for the STS. 
+1 

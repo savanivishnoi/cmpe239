@@ -1,0 +1,19 @@
+
+In this paper, we describe a syntactic and
+semantic dependency parsing system sub-
+mitted to the shared task of CoNLL 2008.
+The proposed system consists of five mod-
+ules: syntactic dependency parser, predi-
+cate identifier, local semantic role labeler,
+global role sequence candidate generator,
+and role sequence selector. The syntac-
+tic dependency parser is based on Malt
+Parser and the sequence candidate gen-
+erator is based on CKY style algorithm.
+The remaining three modules are imple-
+mented by using maximum entropy classi-
+fiers. The proposed system achieves 76.90
+of labeled F1 for the overall task, 84.82 of
+labeled attachment, and 68.71 of labeled
+F1 on the WSJ+Brown test set.
+1 

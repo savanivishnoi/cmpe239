@@ -1,0 +1,19 @@
+
+The task of aligning corresponding phrases
+across two related sentences is an important
+component of approaches for natural language
+problems such as textual inference, paraphrase
+detection and text-to-text generation. In this
+work, we examine a state-of-the-art struc-
+tured prediction model for the alignment task
+which uses a phrase-based representation and
+is forced to decode alignments using an ap-
+proximate search approach. We propose in-
+stead a straightforward exact decoding tech-
+nique based on integer linear programming
+that yields order-of-magnitude improvements
+in decoding speed. This ILP-based decoding
+strategy permits us to consider syntactically-
+informed constraints on alignments which sig-
+nificantly increase the precision of the model.
+1 

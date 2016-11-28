@@ -1,0 +1,18 @@
+
+This paper describes how named entity (NE)
+classes can be used to improve broad cover-
+age surface realization with the OpenCCG re-
+alizer. Our experiments indicate that collaps-
+ing certain multi-word NEs and interpolating
+a language model where NEs are replaced by
+their class labels yields the largest quality in-
+crease, with 4-grams adding a small additional
+boost. Substantial further benefit is obtained
+by including class information in the hyper-
+tagging (supertagging for realization) compo-
+nent of the system, yielding a state-of-the-
+art BLEU score of 0.8173 on Section 23 of
+the CCGbank. A targeted manual evaluation
+confirms that the BLEU score increase corre-
+sponds to a significant rise in fluency.
+1 

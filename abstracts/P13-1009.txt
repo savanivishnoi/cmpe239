@@ -1,0 +1,24 @@
+
+Temporal resolution systems are tradition-
+ally tuned to a particular language, re-
+quiring significant human effort to trans-
+late them to new languages. We present
+a language independent semantic parser
+for learning the interpretation of tempo-
+ral phrases given only a corpus of utter-
+ances and the times they reference. We
+make use of a latent parse that encodes
+a language-flexible representation of time,
+and extract rich features over both the
+parse and associated temporal semantics.
+The parameters of the model are learned
+using a weakly supervised bootstrapping
+approach, without the need for manually
+tuned parameters or any other language
+expertise. We achieve state-of-the-art ac-
+curacy on all languages in the TempEval-
+2 temporal normalization task, reporting
+a 4% improvement in both English and
+Spanish accuracy, and to our knowledge
+the first results for four other languages.
+1 

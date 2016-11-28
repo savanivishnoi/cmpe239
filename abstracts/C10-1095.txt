@@ -1,0 +1,21 @@
+
+This paper proposes a co-training style
+algorithm called Co-STAR that acquires
+hyponymy relations simultaneously from
+structured and unstructured text. In Co-
+STAR, two independent processes for hy-
+ponymy relation acquisition ? one han-
+dling structured text and the other han-
+dling unstructured text ? collaborate by re-
+peatedly exchanging the knowledge they
+acquired about hyponymy relations. Un-
+like conventional co-training, the two pro-
+cesses in Co-STAR are applied to dif-
+ferent source texts and training data.
+We show the effectiveness of this al-
+gorithm through experiments on large-
+scale hyponymy-relation acquisition from
+Japanese Wikipedia and Web texts. We
+also show that Co-STAR is robust against
+noisy training data.
+1 

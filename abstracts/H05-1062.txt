@@ -1,0 +1,28 @@
+
+Traditional approaches to Information Ex-
+traction (IE) from speech input simply
+consist in applying text based methods to
+the output of an Automatic Speech Recog-
+nition (ASR) system. If it gives satis-
+faction with low Word Error Rate (WER)
+transcripts, we believe that a tighter inte-
+gration of the IE and ASR modules can
+increase the IE performance in more dif-
+ficult conditions. More specifically this
+paper focuses on the robust extraction of
+Named Entities from speech input where
+a temporal mismatch between training and
+test corpora occurs. We describe a Named
+Entity Recognition (NER) system, de-
+veloped within the French Rich Broad-
+cast News Transcription program ESTER,
+which is specifically optimized to pro-
+cess ASR transcripts and can be integrated
+into the search process of the ASR mod-
+ules. Finally we show how some meta-
+data information can be collected in or-
+der to adapt NER and ASR models to new
+conditions and how they can be used in a
+task of Named Entity indexation of spoken
+archives.
+1 

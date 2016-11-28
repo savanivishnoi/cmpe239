@@ -1,0 +1,16 @@
+
+In this work we propose a transla-
+tion model for monolingual sentence
+retrieval. We propose four methods
+for constructing a parallel corpus. Of
+the four methods proposed, a lexi-
+con learned from a bilingual Arabic-
+English corpus aligned at the sentence
+level performs best, significantly im-
+proving results over the query likeli-
+hood baseline. Further, we demon-
+strate that smoothing from the local
+context of the sentence improves re-
+trieval over the query likelihood base-
+line.
+1 

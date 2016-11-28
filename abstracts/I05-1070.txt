@@ -1,0 +1,12 @@
+. This paper reports on a study of semantic role tagging in Chinese, in 
+the absence of a parser.  We investigated the effect of using only lexical infor-
+mation in statistical training; and proposed to identify the relevant headwords in 
+a sentence as a first step to partially locate the corresponding constituents to be 
+labelled.  Experiments were done on a textbook corpus and a news corpus, rep-
+resenting simple data and complex data respectively.  Results suggested that in 
+Chinese, simple lexical features are useful enough when constituent boundaries 
+are known, while parse information might be more important for complicated 
+sentences than simple ones. Several ways to improve the headword identifica-
+tion results were suggested, and we also plan to explore some class-based tech-
+niques for the task, with reference to existing semantic lexicons. 
+1   

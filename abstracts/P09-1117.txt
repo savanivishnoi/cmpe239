@@ -1,0 +1,19 @@
+
+While Active Learning (AL) has already
+been shown to markedly reduce the anno-
+tation efforts for many sequence labeling
+tasks compared to random selection, AL
+remains unconcerned about the internal
+structure of the selected sequences (typ-
+ically, sentences). We propose a semi-
+supervised AL approach for sequence la-
+beling where only highly uncertain sub-
+sequences are presented to human anno-
+tators, while all others in the selected se-
+quences are automatically labeled. For the
+task of entity recognition, our experiments
+reveal that this approach reduces annota-
+tion efforts in terms of manually labeled
+tokens by up to 60 % compared to the stan-
+dard, fully supervised AL scheme.
+1 

@@ -1,0 +1,20 @@
+
+We study substitute vectors to solve the
+part-of-speech ambiguity problem in an
+unsupervised setting. Part-of-speech tag-
+ging is a crucial preliminary process in
+many natural language processing applica-
+tions. Because many words in natural lan-
+guages have more than one part-of-speech
+tag, resolving part-of-speech ambiguity is
+an important task. We claim that part-
+of-speech ambiguity can be solved using
+substitute vectors. A substitute vector is
+constructed with possible substitutes of a
+target word. This study is built on pre-
+vious work which has proven that word
+substitutes are very fruitful for part-of-
+speech induction. Experiments show that
+our methodology works for words with
+high ambiguity.
+1 

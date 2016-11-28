@@ -1,0 +1,18 @@
+
+In this paper, we present an integrated
+model of the two central tasks of dialog
+management: interpreting user actions and
+generating system actions. We model the
+interpretation task as a classi?cation prob-
+lem and the generation task as a predic-
+tion problem. These two tasks are inter-
+leaved in an incremental parsing-based di-
+alog model. We compare three alterna-
+tive parsing methods for this dialog model
+using a corpus of human-human spoken
+dialog from a catalog ordering domain
+that has been annotated for dialog acts
+and task/subtask information. We contrast
+the amount of context provided by each
+method and its impact on performance.
+1 

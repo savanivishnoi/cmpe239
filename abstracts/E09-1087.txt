@@ -1,0 +1,19 @@
+
+This paper describes POS tagging exper-
+iments with semi-supervised training as
+an extension to the (supervised) averaged
+perceptron algorithm, first introduced for
+this task by (Collins, 2002). Experiments
+with an iterative training on standard-sized
+supervised (manually annotated) dataset
+(106 tokens) combined with a relatively
+modest (in the order of 108 tokens) un-
+supervised (plain) data in a bagging-like
+fashion showed significant improvement
+of the POS classification task on typo-
+logically different languages, yielding bet-
+ter than state-of-the-art results for English
+and Czech (4.12 % and 4.86 % relative er-
+ror reduction, respectively; absolute accu-
+racies being 97.44 % and 95.89 %).
+1 

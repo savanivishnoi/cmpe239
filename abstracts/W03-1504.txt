@@ -1,0 +1,17 @@
+
+This work studies Named Entity Classi-
+fication (NEC) for Catalan without mak-
+ing use of large annotated resources of
+this language. Two views are explored
+and compared, namely exploiting solely
+the Catalan resources, and a direct training
+of bilingual classification models (Span-
+ish and Catalan), given that a large col-
+lection of annotated examples is available
+for Spanish. The empirical results ob-
+tained on real data point out that multi-
+lingual models clearly outperform mono-
+lingual ones, and that the resulting Cata-
+lan NEC models are easier to improve by
+bootstrapping on unlabelled data.
+1 

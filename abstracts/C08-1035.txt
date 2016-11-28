@@ -1,0 +1,31 @@
+ 
+The use of topical features is abundant in 
+Natural Language Processing (NLP), a 
+major example being in dictionary-based 
+Word Sense Disambiguation (WSD). Yet 
+previous research does not attempt to 
+measure the level of topic cohesion in 
+documents, despite assertions of its ef-
+fects. This paper introduces a quantitative 
+measure of Topic Homogeneity using a 
+range of NLP resources and not requiring 
+prior knowledge of correct senses. Eval-
+uation is performed firstly by using the 
+WordNet::Domains package to create 
+word-sets with varying levels of homo-
+geneity and comparing our results with 
+those expected. Additionally, to evaluate 
+each measure?s potential value, the ho-
+mogeneity results are correlated against 
+those of 3 co-occurrence/dictionary-
+based WSD techniques, tested on 1040 
+Semcor and SENSEVAL sub-documents. 
+Many low-moderate correlations are 
+found to exist with several in the mod-
+erate range (above .40). These correla-
+tions surpass polysemy and sense-
+entropy, the 2 most cited factors affecting 
+WSD. Finally, a combined homogeneity 
+measure achieves correlations of up to 
+.52. 
+1 

@@ -1,0 +1,21 @@
+ 
+We studied contrast and variability in 
+a corpus of gene names to identify 
+potential heuristics for use in 
+performing entity identification in the 
+molecular biology domain.  Based on 
+our findings, we developed heuristics 
+for mapping weakly matching gene 
+names to their official gene names.  
+We then tested these heuristics against 
+a large body of Medline abstracts, and 
+found that using these heuristics can 
+increase recall, with varying levels of 
+precision.  Our findings also 
+underscored the importance of good 
+information retrieval and of the ability 
+to disambiguate between genes, 
+proteins, RNA, and a variety of other 
+referents for performing entity 
+identification with high precision. 
+1 

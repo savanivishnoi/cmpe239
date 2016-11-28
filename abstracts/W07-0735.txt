@@ -1,0 +1,12 @@
+
+This paper describes experiments with
+English-to-Czech phrase-based machine
+translation. Additional annotation of input
+and output tokens (multiple factors) is used
+to explicitly model morphology. We vary
+the translation scenario (the setup of multi-
+ple factors) and the amount of information
+in the morphological tags. Experimental
+results demonstrate significant improvement
+of translation quality in terms of BLEU.
+1 

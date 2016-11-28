@@ -1,0 +1,14 @@
+
+We relate the problem of finding the best
+application of a Synchronous Context-
+Free Grammar (SCFG) rule during pars-
+ing to a Markov Random Field. This
+representation allows us to use the the-
+ory of expander graphs to show that the
+complexity of SCFG parsing of an input
+sentence of length N is ?(N cn), for a
+grammar with maximum rule length n and
+some constant c. This improves on the
+previous best result of ?(N c
+?n).
+1 

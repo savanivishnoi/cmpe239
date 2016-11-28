@@ -1,0 +1,17 @@
+
+In this paper we present an SMT-based ap-
+proach to Question Answering (QA). QA
+is the task of extracting exact answers in
+response to natural language questions. In
+our approach, the answer is a translation of
+the question obtained with an SMT system.
+We use the n-best translations of a given
+question to find similar sentences in the
+document collection that contain the real
+answer. Although it is not the first time that
+SMT inspires a QA system, it is the first
+approach that uses a full Machine Transla-
+tion system for generating answers. Our ap-
+proach is validated with the datasets of the
+TREC QA evaluation.
+1 

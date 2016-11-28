@@ -1,0 +1,16 @@
+ 
+We present several statistical models of syntactic 
+constituent order for sentence realization. We 
+compare several models, including simple joint 
+models inspired by existing statistical parsing 
+models, and several novel conditional models. The 
+conditional models leverage a large set of linguistic 
+features without manual feature selection. We apply 
+and evaluate the models in sentence realization for 
+French and German and find that a particular 
+conditional model outperforms all others. We 
+employ a version of that model in an evaluation on 
+unordered trees from the Penn TreeBank. We offer 
+this result on standard data as a reference-point for 
+evaluations of ordering in sentence realization. 
+1 

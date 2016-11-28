@@ -1,0 +1,20 @@
+ 
+This paper presents a semi-automatic technique for 
+developing broad-coverage finite-state morphological 
+analyzers for any language. It consists of three 
+components-elicitation of linguistic information from 
+humans, a machine learning bootstrapping scheme and 
+a testing environment. The three components are ap- 
+plied iteratively until a threshold of output quality is 
+attained. The initial application of this technique is 
+for morphology of low-density languages in the context 
+of the Expedition project at NMSU CRL. This elicit- 
+build-test echnique compiles lexical and inflectional 
+information elicited from a human into a finite state 
+transducer lexicon and combines this with a sequence 
+of morphographemic rewrite rules that is induced us- 
+ing transformation-based learning from the elicited ex- 
+amples. The resulting morphological nalyzer is then 
+tested against a test suite, and any corrections are fed 
+back into the learning procedure that builds an im- 
+proved analyzer. 

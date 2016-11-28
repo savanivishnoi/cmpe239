@@ -1,0 +1,21 @@
+
+We describe the system developed by the
+team of the National University of Singa-
+pore for English to Spanish machine trans-
+lation of News Commentary text for the
+WMT09 Shared Translation Task. Our
+approach is based on domain adaptation,
+combining a small in-domain News Com-
+mentary bi-text and a large out-of-domain
+one from the Europarl corpus, from which
+we built and combined two separate phrase
+tables. We further combined two language
+models (in-domain and out-of-domain),
+and we experimented with cognates, im-
+proved tokenization and recasing, achiev-
+ing the highest lowercased NIST score of
+6.963 and the second best lowercased Bleu
+score of 24.91% for training without us-
+ing additional external data for English-to-
+Spanish translation at the shared task.
+1 

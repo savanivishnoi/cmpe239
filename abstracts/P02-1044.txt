@@ -1,0 +1,25 @@
+ 
+This paper proposes a new method for 
+word translation disambiguation using 
+a machine learning technique called 
+?Bilingual Bootstrapping?. Bilingual 
+Bootstrapping makes use of  in 
+learning a small number of classified 
+data and a large number of unclassified 
+data in the source and the target 
+languages in translation. It constructs 
+classifiers in the two languages in 
+parallel and repeatedly boosts the 
+performances of the classifiers by 
+further classifying data in each of the 
+two languages and by exchanging 
+between the two languages 
+information regarding the classified 
+data. Experimental results indicate that 
+word translation disambiguation based 
+on Bilingual Bootstrapping 
+consistently and significantly 
+outperforms the existing methods 
+based on ?Monolingual 
+Bootstrapping?. 
+1 

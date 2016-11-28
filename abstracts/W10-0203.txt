@@ -1,0 +1,17 @@
+
+We present a system called AESOP that au-
+tomatically produces affect states associated
+with characters in a story. This research repre-
+sents a first step toward the automatic genera-
+tion of plot unit structures from text. AESOP
+incorporates several existing sentiment analy-
+sis tools and lexicons to evaluate the effective-
+ness of current sentiment technology on this
+task. AESOP also includes two novel compo-
+nents: a method for acquiring patient polar-
+ity verbs, which impart negative affect on their
+patients, and affect projection rules to propa-
+gate affect tags from surrounding words onto
+the characters in the story. We evaluate AE-
+SOP on a small collection of fables.
+1 

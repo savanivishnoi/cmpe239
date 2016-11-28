@@ -1,0 +1,31 @@
+
+This paper proposes a novel approach to the
+problem of training classifiers to detect and
+correct grammar and usage errors in text by
+selectively introducing mistakes into the train-
+ing data. When training a classifier, we would
+like the distribution of examples seen in train-
+ing to be as similar as possible to the one seen
+in testing. In error correction problems, such
+as correcting mistakes made by second lan-
+guage learners, a system is generally trained
+on correct data, since annotating data for train-
+ing is expensive. Error generation methods
+avoid expensive data annotation and create
+training data that resemble non-native data
+with errors.
+We apply error generation methods and train
+classifiers for detecting and correcting arti-
+cle errors in essays written by non-native En-
+glish speakers; we show that training on data
+that contain errors produces higher accuracy
+when compared to a system that is trained on
+clean native data. We propose several train-
+ing paradigms with error generation and show
+that each such paradigm is superior to training
+a classifier on native data. We also show that
+the most successful error generation methods
+are those that use knowledge about the arti-
+cle distribution and error patterns observed in
+non-native text.
+1 

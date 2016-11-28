@@ -1,0 +1,15 @@
+
+Phrasal segmentation models define a
+mapping from the words of a sentence
+to sequences of translatable phrases. We
+discuss the estimation of these models
+from large quantities of monolingual train-
+ing text and describe their realization as
+weighted finite state transducers for incor-
+poration into phrase-based statistical ma-
+chine translation systems. Results are re-
+ported on the NIST Arabic-English trans-
+lation tasks showing significant comple-
+mentary gains in BLEU score with large
+5-gram and 6-gram language models.
+1 

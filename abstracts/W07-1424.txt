@@ -1,0 +1,22 @@
+
+We describe a preliminary version of Mu-
+taphrase, a system that generates para-
+phrases of semantically labeled input sen-
+tences using the semantics and syntax en-
+coded in FrameNet, a freely available lexico-
+semantic database. The algorithm generates
+a large number of paraphrases with a wide
+range of syntactic and semantic distances
+from the input. For example, given the in-
+put ?I like eating cheese?, the system out-
+puts the syntactically distant ?Eating cheese
+is liked by me?, the semantically distant ?I
+fear sipping juice?, and thousands of other
+sentences. The wide range of generated
+paraphrases makes the algorithm ideal for a
+range of statistical machine learning prob-
+lems such as machine translation and lan-
+guage modeling as well as other semantics-
+dependent tasks such as query and language
+generation.
+1 

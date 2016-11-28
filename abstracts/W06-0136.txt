@@ -1,0 +1,22 @@
+ 
+This paper describes an n-gram based 
+reinforcement approach to the closed 
+track of word segmentation in the third 
+Chinese word segmentation bakeoff. 
+Character n-gram features of unigram, 
+bigram, and trigram are extracted from 
+the training corpus and its frequencies are 
+counted. We investigated a step-by-step 
+methodology by using the n-gram statis-
+tics. In the first step, relatively definite 
+segmentations are fixed by the tight 
+threshold value. The remaining tags are 
+decided by considering the left or right 
+space tags that are already fixed in the 
+first step. Definite and loose segmenta-
+tion are performed simply based on the 
+bigram and trigram statistics. In order to 
+overcome the data sparseness problem of 
+bigram data, unigram is used for the 
+smoothing. 
+1 

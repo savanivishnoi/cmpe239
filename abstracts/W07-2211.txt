@@ -1,0 +1,24 @@
+ 
+Despite the popularity of stochastic parsers, 
+symbolic parsing still has some advantages, 
+but is not practical without an effective 
+mechanism for selecting among alternative 
+analyses. This paper describes the symbolic 
+preference system of a hybrid parser that 
+combines a shallow parser with an overlay 
+parser that builds on the chunks.  The hy-
+brid currently equals or exceeds most sto-
+chastic parsers in speed and is approaching 
+them in accuracy. The preference system is 
+novel in using a simple, three-valued scor-
+ing method (-1, 0, or +1) for assigning 
+preferences to constituents viewed in the 
+context of their containing constituents.  
+The approach addresses problems associ-
+ated with earlier preference systems, and 
+has considerably facilitated development. It 
+is ultimately based on viewing preference 
+scoring as an engineering mechanism, and 
+only indirectly related to cognitive princi-
+ples or corpus-based frequencies.  
+1 

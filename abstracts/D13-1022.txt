@@ -1,0 +1,17 @@
+
+Beam search is a fast and empirically effective
+method for translation decoding, but it lacks
+formal guarantees about search error. We de-
+velop a new decoding algorithm that combines
+the speed of beam search with the optimal cer-
+tificate property of Lagrangian relaxation, and
+apply it to phrase- and syntax-based transla-
+tion decoding. The new method is efficient,
+utilizes standard MT algorithms, and returns
+an exact solution on the majority of transla-
+tion examples in our test data. The algorithm
+is 3.5 times faster than an optimized incremen-
+tal constraint-based decoder for phrase-based
+translation and 4 times faster for syntax-based
+translation.
+1 

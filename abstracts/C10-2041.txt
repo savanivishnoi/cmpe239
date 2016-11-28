@@ -1,0 +1,30 @@
+
+Humans are very good at judging the
+strength of relationships between two
+terms, a task which, if it can be au-
+tomated, would be useful in a range
+of applications. Systems attempting to
+solve this problem automatically have
+traditionally either used relative po-
+sitioning in lexical resources such as
+WordNet, or distributional relation-
+ships in large corpora. This paper pro-
+poses a new approach, whereby rela-
+tionships are derived from natural lan-
+guage text by using existing nlp tools,
+then integrated into a large scale se-
+mantic network. Spreading activation
+is then used on this network in order
+to judge the strengths of all relation-
+ships connecting the terms. In com-
+parisons with human measurements,
+this approach was able to obtain re-
+sults on par with the best purpose built
+systems, using only a relatively small
+corpus extracted from the web. This
+is particularly impressive, as the net-
+work creation system is a general tool
+for information collection and integra-
+tion, and is not specifically designed for
+tasks of this type.
+1 

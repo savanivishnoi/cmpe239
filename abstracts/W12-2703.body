@@ -1,0 +1,21 @@
+
+In recent years, neural network language mod-
+els (NNLMs) have shown success in both
+peplexity and word error rate (WER) com-
+pared to conventional n-gram language mod-
+els. Most NNLMs are trained with one hid-
+den layer. Deep neural networks (DNNs) with
+more hidden layers have been shown to cap-
+ture higher-level discriminative information
+about input features, and thus produce better
+networks. Motivated by the success of DNNs
+in acoustic modeling, we explore deep neural
+network language models (DNN LMs) in this
+paper. Results on a Wall Street Journal (WSJ)
+task demonstrate that DNN LMs offer im-
+provements over a single hidden layer NNLM.
+Furthermore, our preliminary results are com-
+petitive with a model M language model, con-
+sidered to be one of the current state-of-the-art
+techniques for language modeling.
+1 

@@ -1,0 +1,16 @@
+
+We present an unsupervised, nonparamet-
+ric Bayesian approach to coreference reso-
+lution which models both global entity iden-
+tity across a corpus as well as the sequen-
+tial anaphoric structure within each docu-
+ment. While most existing coreference work
+is driven by pairwise decisions, our model
+is fully generative, producing each mention
+from a combination of global entity proper-
+ties and local attentional state. Despite be-
+ing unsupervised, our system achieves a 70.3
+MUC F1 measure on the MUC-6 test set,
+broadly in the range of some recent super-
+vised results.
+1 

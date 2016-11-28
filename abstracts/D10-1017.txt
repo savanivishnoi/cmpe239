@@ -1,0 +1,18 @@
+
+We describe a new scalable algorithm for
+semi-supervised training of conditional ran-
+dom fields (CRF) and its application to part-
+of-speech (POS) tagging. The algorithm uses
+a similarity graph to encourage similar n-
+grams to have similar POS tags. We demon-
+strate the efficacy of our approach on a do-
+main adaptation task, where we assume that
+we have access to large amounts of unlabeled
+data from the target domain, but no additional
+labeled data. The similarity graph is used dur-
+ing training to smooth the state posteriors on
+the target domain. Standard inference can be
+used at test time. Our approach is able to scale
+to very large problems and yields significantly
+improved target domain accuracy.
+1 

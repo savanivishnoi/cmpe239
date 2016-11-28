@@ -1,0 +1,24 @@
+ 
+This paper presents an algorithm for learn- 
+ing the probabilities of optional phonolog- 
+ical rules from corpora. The algorithm is 
+based on using a speech recognition sys- 
+tem to discover the surface pronunciations 
+of words in spe.ech corpora; using an auto- 
+matic system obviates expensive phonetic 
+labeling by hand. We describe the details 
+of our algorithm and show the probabili- 
+ties the system has learned for ten common 
+phonological rules which model reductions 
+and coarticulation effects. These probabili- 
+ties were derived from a corpus of 7203 sen- 
+tences of read speech from the Wall Street 
+Journal, and are shown to be a reason- 
+ably close match to probabilities from pho- 
+netically hand-transcribed data (TIMIT). 
+Finally, we analyze the probability differ- 
+ences between rule use in male versus fe- 
+male speech, and suggest hat the differ- 
+ences are caused by differing average rates 
+of speech. 
+1 

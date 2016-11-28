@@ -1,0 +1,19 @@
+
+In this paper, we present an innovative chart
+mining technique for improving parse cover-
+age based on partial parse outputs from preci-
+sion grammars. The general approach of min-
+ing features from partial analyses is applica-
+ble to a range of lexical acquisition tasks, and
+is particularly suited to domain-specific lexi-
+cal tuning and lexical acquisition using low-
+coverage grammars. As an illustration of the
+functionality of our proposed technique, we
+develop a lexical acquisition model for En-
+glish verb particle constructions which oper-
+ates over unlexicalised features mined from
+a partial parsing chart. The proposed tech-
+nique is shown to outperform a state-of-the-art
+parser over the target task, despite being based
+on relatively simplistic features.
+1 

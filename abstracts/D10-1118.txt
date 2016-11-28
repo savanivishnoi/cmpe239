@@ -1,0 +1,19 @@
+
+We reveal a previously unnoticed connection
+between dependency parsing and statistical
+machine translation (SMT), by formulating
+the dependency parsing task as a problem of
+word alignment. Furthermore, we show that
+two well known models for these respective
+tasks (DMV and the IBM models) share com-
+mon modeling assumptions. This motivates us
+to develop an alignment-based framework for
+unsupervised dependency parsing. The frame-
+work (which will be made publicly available)
+is flexible, modular and easy to extend. Us-
+ing this framework, we implement several al-
+gorithms based on the IBM alignment mod-
+els, which prove surprisingly effective on the
+dependency parsing task, and demonstrate the
+potential of the alignment-based approach.
+1 

@@ -1,0 +1,16 @@
+ 
+Chart parsing is directional in the sense that it works 
+from the starting point (usually the beginning of the 
+sentence) extending its activity usually in a rightward 
+manner. We shall introduce the concept of a chart that 
+works outward from islands and makes sense of as much 
+of the sentence as it is actually possible, and after that will 
+lead to predictions of missing fragments. So, for any place 
+where the easily identifiable fragments occur in the 
+sentence, the process will extend to both the left and the 
+right of the islands, until possibly completely missing 
+fragments are reached. At that point, by virtue of the fact 
+that both a left and a right context were found, heuristics 
+can be introduced that predict he nature of the missing 
+fragments. 
+1. 

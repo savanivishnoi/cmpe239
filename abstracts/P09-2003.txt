@@ -1,0 +1,14 @@
+
+We present a CYK and an Earley-style
+algorithm for parsing Range Concatena-
+tion Grammar (RCG), using the deduc-
+tive parsing framework. The characteris-
+tic property of the Earley parser is that we
+use a technique of range boundary con-
+straint propagation to compute the yields
+of non-terminals as late as possible. Ex-
+periments show that, compared to previ-
+ous approaches, the constraint propagation
+helps to considerably decrease the number
+of items in the chart.
+1 

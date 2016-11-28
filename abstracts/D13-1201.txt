@@ -1,0 +1,26 @@
+
+Minimum Error Rate Training (MERT) re-
+mains one of the preferred methods for tun-
+ing linear parameters in machine translation
+systems, yet it faces significant issues. First,
+MERT is an unregularized learner and is there-
+fore prone to overfitting. Second, it is com-
+monly used on a noisy, non-convex loss func-
+tion that becomes more difficult to optimize
+as the number of parameters increases. To ad-
+dress these issues, we study the addition of
+a regularization term to the MERT objective
+function. Since standard regularizers such as
+`2 are inapplicable to MERT due to the scale
+invariance of its objective function, we turn to
+two regularizers?`0 and a modification of `2?
+and present methods for efficiently integrating
+them during search. To improve search in large
+parameter spaces, we also present a new direc-
+tion finding algorithm that uses the gradient of
+expected BLEU to orient MERT?s exact line
+searches. Experiments with up to 3600 features
+show that these extensions of MERT yield re-
+sults comparable to PRO, a learner often used
+with large feature sets.
+1 

@@ -1,0 +1,19 @@
+
+Several results in the word segmentation liter-
+ature suggest that description length provides
+a useful estimate of segmentation quality in
+fully unsupervised settings. However, since
+the space of potential segmentations grows ex-
+ponentially with the length of the corpus, no
+tractable algorithm follows directly from the
+Minimum Description Length (MDL) princi-
+ple. Therefore, it is necessary to generate
+a set of candidate segmentations and select
+between them according to the MDL princi-
+ple. We evaluate several algorithms for gen-
+erating these candidate segmentations on a
+range of natural language corpora, and show
+that the Bootstrapped Voting Experts algo-
+rithm consistently outperforms other methods
+when paired with MDL.
+1 

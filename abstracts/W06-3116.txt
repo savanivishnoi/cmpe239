@@ -1,0 +1,14 @@
+
+We present here the translation system we
+used in this year?s WMT shared task. The
+main objective of our participation was
+to test RAMSES, an open source phrase-
+based decoder. For that purpose, we used
+the baseline system made available by the
+organizers of the shared task1 to build the
+necessary models. We then carried out a
+pair-to-pair comparison of RAMSES with
+PHARAOH on the six different translation
+directions that we were asked to perform.
+We present this comparison in this paper.
+1 

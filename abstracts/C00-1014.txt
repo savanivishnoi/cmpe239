@@ -1,0 +1,17 @@
+ 
+In this paper, we present a solution to the prob- 
+lem of generating Japanese nmneral classifiers us- 
+ing semantic lasses from an ontology. Most nouns 
+must take a numeral classifier when they are quan- 
+tiffed in languages uch as Chinese, Japanese, Ko- 
+rean, Malay and Thai. In order to select an appro- 
+priate classifier, we propose an algorithm which as- 
+sociates classifiers with semantic lasses and uses 
+inheritance to list only those classifiers which have 
+to be listed. It generates sortal classifiers with au ac- 
+curacy of 81%. We reuse the ontology provided by 
+Goi-Taikei - -  a Japanese lexicon, and show that it 
+is a reasonable choice for this task, requiring infor- 
+mation to be entered for less than 6% of individual 
+nouns .  
+1 

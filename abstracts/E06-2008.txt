@@ -1,0 +1,23 @@
+
+Many current sentence generators lack
+the ability to compute elliptical versions
+of coordinated clauses in accordance with
+the rules for Gapping, Forward and
+Backward Conjunction Reduction, and
+SGF (Subject Gap in clauses with Fi-
+nite/Fronted verb). We describe a module
+(implemented in JAVA, with German
+and Dutch as target languages) that takes
+non-elliptical coordinated clauses as in-
+put and returns all reduced versions li-
+censed by coordinative ellipsis. It is
+loosely based on a new psycholinguistic
+theory of coordinative ellipsis proposed
+by Kempen. In this theory, coordinative
+ellipsis is not supposed to result from the
+application of declarative grammar rules
+for clause formation but from a proce-
+dural component that interacts with the
+sentence generator and may block the
+overt expression of certain constituents.
+1 

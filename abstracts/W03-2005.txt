@@ -1,0 +1,17 @@
+
+In cross-database retrieval, the domain
+of queries diers from that of the re-
+trieval target in the distribution of
+term occurrences. This causes incor-
+rect term weighting in the retrieval sys-
+tem which assigns to each term a re-
+trieval weight based on the distribu-
+tion of term occurrences. To resolve
+the problem, we propose \term distil-
+lation", a framework for query term
+selection in cross-database retrieval.
+The experiments using the NTCIR-3
+patent retrieval test collection demon-
+strate that term distillation is eective
+for cross-database retrieval.
+1 

@@ -1,0 +1,15 @@
+
+This paper proposes a novel method to compile sta-
+tistical models for machine translation to achieve
+efficient decoding. In our method, each statistical
+submodel is represented by a weighted finite-state
+transducer (WFST), and all of the submodels are ex-
+panded into a composition model beforehand. Fur-
+thermore, the ambiguity of the composition model
+is reduced by the statistics of hypotheses while de-
+coding. The experimental results show that the pro-
+posed model representation drastically improves the
+efficiency of decoding compared to the dynamic
+composition of the submodels, which corresponds
+to conventional approaches.
+1 

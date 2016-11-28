@@ -1,0 +1,14 @@
+ 
+In this paper, we study the use of so-called 
+word trigger pairs to improve an existing 
+language model, which is typically a tri- 
+gram model in combination with a cache 
+component. A word trigger pair is de- 
+fined as a long-distance word pair. We 
+present two methods to select the most 
+significant single word trigger pairs. The 
+selected trigger pairs are used in a com- 
+bined model where the interpolation pa- 
+rameters and trigger interaction parame- 
+ters are trained by the EM algorithm. 
+1 

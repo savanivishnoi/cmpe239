@@ -1,0 +1,27 @@
+
+This paper presents a semi-supervised
+Chinese word segmentation (CWS) ap-
+proach that co-regularizes character-based
+and word-based models. Similarly to
+multi-view learning, the ?segmentation
+agreements? between the two differen-
+t types of view are used to overcome the
+scarcity of the label information on unla-
+beled data. The proposed approach train-
+s a character-based and word-based mod-
+el on labeled data, respectively, as the ini-
+tial models. Then, the two models are con-
+stantly updated using unlabeled examples,
+where the learning objective is maximiz-
+ing their segmentation agreements. The a-
+greements are regarded as a set of valuable
+constraints for regularizing the learning of
+both models on unlabeled data. The seg-
+mentation for an input sentence is decod-
+ed by using a joint scoring function com-
+bining the two induced models. The e-
+valuation on the Chinese tree bank reveals
+that our model results in better gains over
+the state-of-the-art semi-supervised mod-
+els reported in the literature.
+1 

@@ -1,0 +1,14 @@
+
+We propose semantic role features for a
+Tree-to-String transducer to model the re-
+ordering/deletion of source-side semantic
+roles. These semantic features, as well as
+the Tree-to-String templates, are trained
+based on a conditional log-linear model
+and are shown to significantly outperform
+systems trained based on Max-Likelihood
+and EM. We also show significant im-
+provement in sentence fluency by using
+the semantic role features in the log-linear
+model, based on manual evaluation.
+1 

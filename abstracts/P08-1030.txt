@@ -1,0 +1,19 @@
+ 
+We apply the hypothesis of ?One Sense Per 
+Discourse? (Yarowsky, 1995) to information 
+extraction (IE), and extend the scope of ?dis-
+course? from one single document to a cluster 
+of topically-related documents. We employ a 
+similar approach to propagate consistent event 
+arguments across sentences and documents. 
+Combining global evidence from related doc-
+uments with local decisions, we design a sim-
+ple scheme to conduct cross-document 
+inference for improving the ACE event ex-
+traction task1. Without using any additional 
+labeled data this new approach obtained 7.6% 
+higher F-Measure in trigger labeling and 6% 
+higher F-Measure in argument labeling over a 
+state-of-the-art IE system which extracts 
+events independently for each sentence. 
+1 

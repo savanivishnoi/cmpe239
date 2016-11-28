@@ -1,0 +1,13 @@
+
+We describe a method for disambiguating Chi-
+nese commas that is central to Chinese sen-
+tence segmentation. Chinese sentence seg-
+mentation is viewed as the detection of loosely
+coordinated clauses separated by commas.
+Trained and tested on data derived from the
+Chinese Treebank, our model achieves a clas-
+sification accuracy of close to 90% overall,
+which translates to an F1 score of 70% for
+detecting commas that signal sentence bound-
+aries.
+1 

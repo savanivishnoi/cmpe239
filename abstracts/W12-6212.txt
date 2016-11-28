@@ -1,0 +1,13 @@
+
+This paper presents the current status of de-
+velopment of a finite state transducer gram-
+mar for the verbal-chain transfer module in
+Matxin, a Rule Based Machine Translation
+system between Spanish and Basque. Due to
+the distance between Spanish and Basque, the
+verbal-chain transfer is a very complex mod-
+ule in the overall system. The grammar is
+compiled with foma, an open-source finite-
+state toolkit, and yields a translation execution
+time of 2000 verb chains/second.
+1 

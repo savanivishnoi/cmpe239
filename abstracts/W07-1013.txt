@@ -1,0 +1,23 @@
+
+This paper reports on a shared task involving
+the assignment of ICD-9-CM codes to radi-
+ology reports. Two features distinguished
+this task from previous shared tasks in the
+biomedical domain. One is that it resulted in
+the first freely distributable corpus of fully
+anonymized clinical text. This resource is
+permanently available and will (we hope) fa-
+cilitate future research. The other key fea-
+ture of the task is that it required catego-
+rization with respect to a large and commer-
+cially significant set of labels. The number
+of participants was larger than in any pre-
+vious biomedical challenge task. We de-
+scribe the data production process and the
+evaluation measures, and give a preliminary
+analysis of the results. Many systems per-
+formed at levels approaching the inter-coder
+agreement, suggesting that human-like per-
+formance on this task is within the reach of
+currently available technologies.
+1 

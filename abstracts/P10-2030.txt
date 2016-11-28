@@ -1,0 +1,19 @@
+
+Maintaining high annotation consistency
+in large corpora is crucial for statistical
+learning; however, such work is hard,
+especially for tasks containing semantic
+elements. This paper describes predi-
+cate argument structure analysis using?
+transformation-based learning. An advan-
+tage of transformation-based learning is
+the readability of learned rules. A dis-
+advantage is that the rule extraction pro-
+cedure is time-consuming. We present
+incremental-based, transformation-based
+learning for semantic processing tasks. As
+an example, we deal with Japanese pred-
+icate argument analysis and show some
+tendencies of annotators for constructing
+a corpus with our method.
+1 

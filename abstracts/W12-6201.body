@@ -1,0 +1,20 @@
+
+We inspect the viability of finite-state spell-
+checking and contextless correction of non-
+word errors in three languages with a large de-
+gree of morphological variety. Overviewing
+previous work, we conduct large-scale tests
+involving three languages ? English, Finnish
+and Greenlandic ? and a variety of error mod-
+els and algorithms, including proposed im-
+provements of our own. Special reference
+is made to on-line three-way composition of
+the input, the error model and the language
+model. Tests are run on real-world text ac-
+quired from freely available sources. We show
+that the finite-state approaches discussed are
+sufficiently fast for high-quality correction,
+even for Greenlandic which, due to its mor-
+phological complexity, is a difficult task for
+non-finite-state approaches.
+1 

@@ -1,0 +1,19 @@
+ 
+This paper will present an enhanced 
+probabilistic model for Chinese word 
+segmentation and part-of-speech (POS) 
+tagging. The model introduces the information 
+of Chinese word length as one of its features 
+to reach a more accurate result. And in 
+addition, the model also achieves the 
+integration of segmentation and POS tagging. 
+After presenting the model, this paper will 
+give a brief discussion on how to solve the 
+problems in statistics and how to further 
+integrate Chinese Named Entity Recognition 
+into the model. Finally, some figures of 
+experiments and comparisons will be reported, 
+which shows that the accuracy of word 
+segmentation is 97.09%, and the accuracy of 
+POS tagging is 98.77%. 
+1 

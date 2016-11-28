@@ -1,0 +1,17 @@
+
+This paper presents our recent work
+for participation in the First Interna-
+tional Chinese Word Segmentation Bake-
+off (ICWSB-1). It is based on a general-
+purpose ngram model for word segmen-
+tation and a case-based learning approach
+to disambiguation. This system excels
+in identifying in-vocabulary (IV) words,
+achieving a recall of around 96-98%.
+Here we present our strategies for lan-
+guage model training and disambiguation
+rule learning, analyze the system?s perfor-
+mance, and discuss areas for further im-
+provement, e.g., out-of-vocabulary (OOV)
+word discovery.
+1 

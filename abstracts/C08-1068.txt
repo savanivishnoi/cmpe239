@@ -1,0 +1,16 @@
+ 
+Finite-state Transducers (FST) can be 
+very efficient to implement inter-dialectal 
+transliteration. We illustrate this on the 
+Hindi and Urdu language pair. FSTs can 
+also be used for translation between sur-
+face-close languages. We introduce UIT 
+(universal intermediate transcription) for 
+the same pair on the basis of their com-
+mon phonetic repository in such a way 
+that it can be extended to other languages 
+like Arabic, Chinese, English, French, etc. 
+We describe a transliteration model based 
+on FST and UIT, and evaluate it on Hindi 
+and Urdu corpora. 
+1 

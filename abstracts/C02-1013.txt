@@ -1,0 +1,13 @@
+
+A parsing system returning analyses in the form of
+sets of grammatical relations can obtain high pre-
+cision if it hypothesises a particular relation only
+when it is certain that the relation is correct. We
+operationalise this technique?in a statistical parser
+using a manually-developed wide-coverage gram-
+mar of English?by only returning relations that
+form part of all analyses licensed by the grammar.
+We observe an increase in precision from 75% to
+over 90% (at the cost of a reduction in recall) on a
+test corpus of naturally-occurring text.
+1 

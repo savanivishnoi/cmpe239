@@ -1,0 +1,18 @@
+
+Text summarization is one of the oldest prob-
+lems in natural language processing. Popu-
+lar approaches rely on extracting relevant sen-
+tences from the original documents. As a side
+effect, sentences that are too long but partly
+relevant are doomed to either not appear in the
+final summary, or prevent inclusion of other
+relevant sentences. Sentence compression is a
+recent framework that aims to select the short-
+est subsequence of words that yields an infor-
+mative and grammatical sentence. This work
+proposes a one-step approach for document
+summarization that jointly performs sentence
+extraction and compression by solving an in-
+teger linear program. We report favorable ex-
+perimental results on newswire data.
+1 

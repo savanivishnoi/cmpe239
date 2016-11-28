@@ -1,0 +1,18 @@
+
+Compound splitting is an important prob-
+lem in many NLP applications which must
+be solved in order to address issues of data
+sparsity. Previous work has shown that lin-
+guistic approaches for German compound
+splitting produce a correct splitting more
+often, but corpus-driven approaches work
+best for phrase-based statistical machine
+translation from German to English, a
+worrisome contradiction. We address this
+situation by combining linguistic analysis
+with corpus-driven statistics and obtain-
+ing better results in terms of both produc-
+ing splittings according to a gold standard
+and statistical machine translation perfor-
+mance.
+1 

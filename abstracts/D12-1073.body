@@ -1,0 +1,29 @@
+
+Supervised hierarchical topic modeling and
+unsupervised hierarchical topic modeling are
+usually used to obtain hierarchical topics, such
+as hLLDA and hLDA. Supervised hierarchi-
+cal topic modeling makes heavy use of the in-
+formation from observed hierarchical labels,
+but cannot explore new topics; while unsu-
+pervised hierarchical topic modeling is able
+to detect automatically new topics in the data
+space, but does not make use of any informa-
+tion from hierarchical labels. In this paper, we
+propose a semi-supervised hierarchical topic
+model which aims to explore new topics auto-
+matically in the data space while incorporating
+the information from observed hierarchical la-
+bels into the modeling process, called Semi-
+Supervised Hierarchical Latent Dirichlet Al-
+location (SSHLDA). We also prove that hLDA
+and hLLDA are special cases of SSHLDA.We
+conduct experiments on Yahoo! Answers and
+ODP datasets, and assess the performance in
+terms of perplexity and clustering. The ex-
+perimental results show that predictive ability
+of SSHLDA is better than that of baselines,
+and SSHLDA can also achieve significant im-
+provement over baselines for clustering on the
+FScore measure.
+1 

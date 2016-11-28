@@ -1,0 +1,18 @@
+
+The problem to replace a word with a syn-
+onym that fits well in its sentential context
+is known as the lexical substitution task. In
+this paper, we tackle this task as a supervised
+ranking problem. Given a dataset of target
+words, their sentential contexts and the poten-
+tial substitutions for the target words, the goal
+is to train a model that accurately ranks the
+candidate substitutions based on their contex-
+tual fitness. As a key contribution, we cus-
+tomize and evaluate several learning-to-rank
+models to the lexical substitution task, includ-
+ing classification-based and regression-based
+approaches. On two datasets widely used for
+lexical substitution, our best models signifi-
+cantly advance the state-of-the-art.
+1 

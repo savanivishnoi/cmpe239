@@ -1,0 +1,30 @@
+
+We present the Global Health Monitor, an 
+online Web-based system for 
+detecting and mapping infectious disease 
+outbreaks that appear in news 
+stories. The system analyzes English news 
+stories from news feed providers, 
+classifies them for topical relevance and 
+plots them onto a Google map using 
+geo-coding information, helping public 
+health workers to monitor the spread 
+of diseases in a geo-temporal context. The 
+background knowledge for the 
+system is contained in the BioCaster ontol-
+ogy (BCO) (Collier et al, 2007a) 
+which includes both information on infec-
+tious diseases as well as 
+geographical locations with their lati-
+tudes/longitudes. The system consists 
+of four main stages: topic classification, 
+named entity recognition (NER), 
+disease/location detection and visualiza-
+tion. Evaluation of the system shows 
+that it achieved high accuracy on a gold 
+standard corpus. The system is now 
+in practical use. Running on a cluster-
+computer, it monitors more than 1500 
+news feeds 24/7, updating the map every 
+hour.
+1 

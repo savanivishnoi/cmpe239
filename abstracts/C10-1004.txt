@@ -1,0 +1,19 @@
+
+While subjectivity related research in
+other languages has increased, most of the
+work focuses on single languages. This
+paper explores the integration of features
+originating from multiple languages into
+a machine learning approach to subjectiv-
+ity analysis, and aims to show that this
+enriched feature set provides for more ef-
+fective modeling for the source as well
+as the target languages. We show not
+only that we are able to achieve over
+75% macro accuracy in all of the six lan-
+guages we experiment with, but also that
+by using features drawn from multiple
+languages we can construct high-precision
+meta-classifiers with a precision of over
+83%.
+1 

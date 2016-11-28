@@ -1,0 +1,28 @@
+
+Large amount of parallel corpora is re-
+quired for building Statistical Machine
+Translation (SMT) systems. We describe
+the TransDoop system for gathering trans-
+lations to create parallel corpora from on-
+line crowd workforce who have familiar-
+ity with multiple languages but are not
+expert translators. Our system uses a
+Map-Reduce-like approach to translation
+crowdsourcing where sentence translation
+is decomposed into the following smaller
+tasks: (a) translation of constituent phrases
+of the sentence; (b) validation of qual-
+ity of the phrase translations; and (c)
+composition of complete sentence trans-
+lations from phrase translations. Trans-
+Doop incorporates quality control mech-
+anisms and easy-to-use worker user in-
+terfaces designed to address issues with
+translation crowdsourcing. We have eval-
+uated the crowd?s output using the ME-
+TEOR metric. For a complex domain like
+judicial proceedings, the higher scores ob-
+tained by the map-reduce based approach
+compared to complete sentence translation
+establishes the efficacy of our work.
+1 

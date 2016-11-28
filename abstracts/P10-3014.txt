@@ -1,0 +1,12 @@
+ 
+ ?Tree SRL system? is a Semantic Role Label-
+ling supervised system based on a tree-distance 
+algorithm and a simple k-NN implementation. 
+The novelty of the system lies in comparing the 
+sentences as tree structures with multiple rela-
+tions instead of extracting vectors of features 
+for each relation and classifying them. The sys-
+tem was tested with the English CoNLL-2009 
+shared task data set where 79% accuracy was 
+obtained. 
+1 

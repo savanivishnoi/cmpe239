@@ -1,0 +1,12 @@
+
+We propose a complete probabilistic discrim-
+inative framework for performing sentence-
+level discourse analysis. Our framework com-
+prises a discourse segmenter, based on a bi-
+nary classifier, and a discourse parser, which
+applies an optimal CKY-like parsing algo-
+rithm to probabilities inferred from a Dynamic
+Conditional Random Field. We show on two
+corpora that our approach outperforms the
+state-of-the-art, often by a wide margin.
+1 

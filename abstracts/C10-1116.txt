@@ -1,0 +1,33 @@
+
+We present a novel Evaluation Metric
+for Morphological Analysis (EMMA)
+that is both linguistically appealing and
+empirically sound. EMMA uses a graph-
+based assignment algorithm, optimized
+via integer linear programming, to match
+morphemes of predicted word analyses
+to the analyses of a morphologically rich
+answer key. This is necessary especially
+for unsupervised morphology analysis
+systems which do not have access to
+linguistically motivated morpheme labels.
+Across 3 languages, EMMA scores of
+14 systems have a substantially greater
+positive correlation with mean average
+precision in an information retrieval
+(IR) task than do scores from the metric
+currently used by the Morpho Challenge
+(MC) competition series. We compute
+EMMA and MC metric scores for 93
+separate system-language pairs from
+the 2007, 2008, and 2009 MC compe-
+titions, demonstrating that EMMA is
+not susceptible to two types of gaming
+that have plagued recent MC competi-
+tions: Ambiguity Hijacking and Shared
+Morpheme Padding. The EMMA eval-
+uation script is publicly available from
+http://www.cs.bris.ac.uk/
+Research/MachineLearning/
+Morphology/Resources/.
+1 

@@ -1,0 +1,23 @@
+ 
+Dependency cohesion refers to the 
+observation that phrases dominated by 
+disjoint dependency subtrees in the source 
+language generally do not overlap in the 
+target language. It has been verified to be a 
+useful constraint for word alignment. 
+However, previous work either treats this 
+as a hard constraint or uses it as a feature in 
+discriminative models, which is ineffective 
+for large-scale tasks. In this paper, we take 
+dependency cohesion as a soft constraint, 
+and integrate it into a generative model for 
+large-scale word alignment experiments. 
+We also propose an approximate EM 
+algorithm and a Gibbs sampling algorithm 
+to estimate model parameters in an 
+unsupervised manner. Experiments on 
+large-scale Chinese-English translation 
+tasks demonstrate that our model achieves 
+improvements in both alignment quality 
+and translation quality. 
+1 

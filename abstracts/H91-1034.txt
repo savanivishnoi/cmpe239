@@ -1,0 +1,13 @@
+ 
+In this paper, we describe the Template Matcher, a sys- 
+tem built at SRI to provide robust natural-language 
+interpretation in the Air Travel Information System 
+(ATIS) domain. The system appears to be robust to 
+both speech recognition errors and unanticipated or dif- 
+ficult locutions used by speakers. We explain the mo- 
+tivation for the Template Matcher, describe in general 
+terms how it works in comparison with similar systems, 
+and examine its performance. We discuss some limita- 
+tions of this approach, and sketch a plan for integrating 
+the Template Matcher with an analytic parser, which we 
+believe will combine the advantages of both. 

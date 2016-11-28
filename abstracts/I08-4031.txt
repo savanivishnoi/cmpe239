@@ -1,0 +1,20 @@
+ 
+Chinese Named entity recognition is one of 
+the most important tasks in NLP. Two 
+kinds of Challenges we confront are how to 
+improve the performance in one corpus and 
+keep its performance in another different 
+corpus. We use a combination of statistical 
+models, i.e. a language model to recognize 
+person names and two CRFs models to 
+recognize Location names and 
+Organization names respectively. We also 
+incorporate an efficient heuristic named 
+entity list searching process into the 
+framework of statistical model in order to 
+improve both the performance and the 
+adaptability of the statistical NER system. 
+We participate in the NER tests on open 
+tracks of MSRA. The testing results show 
+that our system can performs well. 
+1 

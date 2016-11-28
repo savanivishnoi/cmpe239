@@ -1,0 +1,21 @@
+
+This paper describes two new features of
+the BRIDJE system for cross-language
+information access. The first feature is
+the partial disambiguation function of
+the Bi-directional Retriever, which can
+be used for search request translation in
+cross-language IR. Its advantage over a
+?black-box? machine translation approach
+is consistent across five test collections
+and across two language permutations:
+English-Japanese and Japanese-English.
+The second new feature is the Information
+Distiller, which performs interactive
+summarisation of retrieved documents
+based on Semantic Role Analysis. Our
+examples illustrate the usefulness of
+this feature, and our evaluation results
+show that the precision of Semantic Role
+Analysis is very high.
+1 

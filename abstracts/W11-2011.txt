@@ -1,0 +1,15 @@
+
+Natural language generators are faced with a
+multitude of different decisions during their
+generation process. We address the joint opti-
+misation of navigation strategies and referring
+expressions in a situated setting with respect to
+task success and human-likeness. To this end,
+we present a novel, comprehensive framework
+that combines supervised learning, Hierarchi-
+cal Reinforcement Learning and a hierarchical
+Information State. A human evaluation shows
+that our learnt instructions are rated similar
+to human instructions, and significantly better
+than the supervised learning baseline.
+1 

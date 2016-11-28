@@ -1,0 +1,21 @@
+
+Context is used in many NLP systems as
+an indicator of a term?s syntactic and se-
+mantic function. The accuracy of the sys-
+tem is dependent on the quality and quan-
+tity of contextual information available to
+describe each term. However, the quan-
+tity variable is no longer fixed by lim-
+ited corpus resources. Given fixed train-
+ing time and computational resources, it
+makes sense for systems to invest time
+in extracting high quality contextual in-
+formation from a fixed corpus. However,
+with an effectively limitless quantity of
+text available, extraction rate and repre-
+sentation size need to be considered. We
+use thesaurus extraction with a range of
+context extracting tools to demonstrate the
+interaction between context quantity, time
+and size on a corpus of 300 million words.
+1 

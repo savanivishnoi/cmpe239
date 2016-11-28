@@ -1,0 +1,31 @@
+
+Chiang?s hierarchical phrase-based (HPB)
+translation model advances the state-of-the-art
+in statistical machine translation by expanding
+conventional phrases to hierarchical phrases
+? phrases that contain sub-phrases. How-
+ever, the original HPB model is prone to over-
+generation due to lack of linguistic knowl-
+edge: the grammar may suggest more deriva-
+tions than appropriate, many of which may
+lead to ungrammatical translations. On the
+other hand, limitations of glue grammar rules
+in the original HPB model may actually pre-
+vent systems from considering some reason-
+able derivations. This paper presents a sim-
+ple but effective translation model, called the
+Head-Driven HPB (HD-HPB) model, which
+incorporates head information in translation
+rules to better capture syntax-driven informa-
+tion in a derivation. In addition, unlike the
+original glue rules, the HD-HPB model allows
+improved reordering between any two neigh-
+boring non-terminals to explore a larger re-
+ordering search space. An extensive set of ex-
+periments on Chinese-English translation on
+four NIST MT test sets, using both a small
+and a large training set, show that our HD-
+HPB model consistently and statistically sig-
+nificantly outperforms Chiang?s model as well
+as a source side SAMT-style model.
+1 

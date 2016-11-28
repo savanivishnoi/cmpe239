@@ -1,0 +1,16 @@
+
+In bootstrapping (seed set expansion), select-
+ing good seeds and creating stop lists are two
+effective ways to reduce semantic drift, but
+these methods generally need human super-
+vision. In this paper, we propose a graph-
+based approach to helping editors choose ef-
+fective seeds and stop list instances, appli-
+cable to Pantel and Pennacchiotti?s Espresso
+bootstrapping algorithm. The idea is to select
+seeds and create a stop list using the rankings
+of instances and patterns computed by Klein-
+berg?s HITS algorithm. Experimental results
+on a variation of the lexical sample task show
+the effectiveness of our method.
+1 

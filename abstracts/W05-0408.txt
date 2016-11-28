@@ -1,0 +1,25 @@
+ 
+We describe an extension to the technique 
+for the automatic identification and label-
+ing of sentiment terms described in Tur-
+ney (2002) and Turney and Littman 
+(2002). Their basic assumption is that 
+sentiment terms of similar orientation 
+tend to co-occur at the document level. 
+We add a second assumption, namely that 
+sentiment terms of opposite orientation 
+tend not to co-occur at the sentence level. 
+This additional assumption allows us to 
+identify sentiment-bearing terms very re-
+liably. We then use these newly identified 
+terms in various scenarios for the senti-
+ment classification of sentences. We show 
+that our approach outperforms Turney?s 
+original approach. Combining our ap-
+proach with a Naive Bayes bootstrapping 
+method yields a further small improve-
+ment of classifier performance. We finally 
+compare our results to precision and recall 
+figures that can be obtained on the same 
+data set with labeled data. 
+1 

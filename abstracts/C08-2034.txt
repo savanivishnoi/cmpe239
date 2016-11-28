@@ -1,0 +1,23 @@
+ 
+Data-driven learning based on shift reduce pars-
+ing algorithms has emerged dependency parsing 
+and shown excellent performance to many Tree-
+banks. In this paper, we investigate the extension 
+of those methods while considerably improved 
+the runtime and training time efficiency via L2-
+SVMs. We also present several properties and 
+constraints to enhance the parser completeness in 
+runtime. We further integrate root-level and bot-
+tom-level syntactic information by using sequen-
+tial taggers. The experimental results show the 
+positive effect of the root-level and bottom-level 
+features that improve our parser from 81.17% to 
+81.41% and 81.16% to 81.57% labeled attach-
+ment scores with modified Yamada?s and Nivre?s 
+method, respectively on the Chinese Treebank. In 
+comparison to well-known parsers, such as Malt-
+Parser (80.74%) and MSTParser (78.08%), our 
+methods produce not only better accuracy, but 
+also drastically reduced testing time in 0.07 and 
+0.11, respectively. 
+1 

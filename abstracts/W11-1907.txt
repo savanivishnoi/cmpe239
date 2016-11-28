@@ -1,0 +1,15 @@
+
+We present our end-to-end coreference res-
+olution system, COPA, which implements a
+global decision via hypergraph partitioning.
+In constrast to almost all previous approaches,
+we do not rely on separate classification and
+clustering steps, but perform coreference res-
+olution globally in one step. COPA represents
+each document as a hypergraph and partitions
+it with a spectral clustering algorithm. Various
+types of relational features can be easily incor-
+porated in this framwork. COPA has partici-
+pated in the open setting of the CoNLL shared
+task on modeling unrestricted coreference.
+1 

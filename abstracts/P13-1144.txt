@@ -1,0 +1,18 @@
+
+Toponym resolvers identify the specific lo-
+cations referred to by ambiguous place-
+names in text. Most resolvers are based on
+heuristics using spatial relationships be-
+tween multiple toponyms in a document,
+or metadata such as population. This pa-
+per shows that text-driven disambiguation
+for toponyms is far more effective. We ex-
+ploit document-level geotags to indirectly
+generate training instances for text classi-
+fiers for toponym resolution, and show that
+textual cues can be straightforwardly in-
+tegrated with other commonly used ones.
+Results are given for both 19th century
+texts pertaining to the American Civil War
+and 20th century newswire articles.
+1 

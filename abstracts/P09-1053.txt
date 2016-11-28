@@ -1,0 +1,21 @@
+
+We present a novel approach to decid-
+ing whether two sentences hold a para-
+phrase relationship. We employ a gen-
+erative model that generates a paraphrase
+of a given sentence, and we use proba-
+bilistic inference to reason about whether
+two sentences share the paraphrase rela-
+tionship. The model cleanly incorporates
+both syntax and lexical semantics using
+quasi-synchronous dependency grammars
+(Smith and Eisner, 2006). Furthermore,
+using a product of experts (Hinton, 2002),
+we combine the model with a comple-
+mentary logistic regression model based
+on state-of-the-art lexical overlap features.
+We evaluate our models on the task of
+distinguishing true paraphrase pairs from
+false ones on a standard corpus, giving
+competitive state-of-the-art performance.
+1 

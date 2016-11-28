@@ -1,0 +1,20 @@
+
+The goal of semantic dependency parsing is to
+build dependency structure and label seman-
+tic relation between a head and its modifier.
+To attain this goal, we concentrate on obtain-
+ing better dependency structure to predict bet-
+ter semantic relations, and propose a method
+to combine the results of three state-of-the-art
+dependency parsers. Unfortunately, we made
+a mistake when we generate the final output
+that results in a lower score of 56.31% in term
+of Labeled Attachment Score (LAS), reported
+by organizers. After giving golden testing set,
+we fix the bug and rerun the evaluation script,
+this time we obtain the score of 62.8% which
+is consistent with the results on developing set.
+We will report detailed experimental results
+with correct program as a comparison stan-
+dard for further research.
+1 

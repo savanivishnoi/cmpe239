@@ -1,0 +1,23 @@
+
+This paper investigates the combined use of
+pause duration and pitch reset for automatic
+story segmentation in Mandarin broadcast
+news. Analysis shows that story boundaries
+cannot be clearly discriminated from utterance
+boundaries by speaker-normalized pitch reset
+due to its large variations across different syl-
+lable tone pairs. Instead, speaker- and tone-
+normalized pitch reset can provide a clear sep-
+aration between utterance and story bound-
+aries. Experiments using decision trees for
+story boundary detection reinforce that raw and
+speaker-normalized pitch resets are not effec-
+tive for Mandarin Chinese story segmentation.
+Speaker- and tone-normalized pitch reset is a
+good story boundary indicator. When it is com-
+bined with pause duration, a high F-measure
+of 86.7% is achieved. Analysis of the decision
+tree uncovered four major heuristics that show
+how speakers jointly utilize pause duration and
+pitch reset to separate speech into stories.
+1 

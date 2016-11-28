@@ -1,0 +1,15 @@
+
+This paper describes the CTB Coreference An-
+notation Guidelines for annotating pronominal
+anaphoric expressions in the Penn Chinese Tree-
+bank. The goals of the annotation are: to pro-
+vide training data for learning-based pronoun
+resolution tools, and to provide a \gold" stan-
+dard to be used in the evaluation of pronoun
+resolution algorithms. The choices that were
+made concerning the coindexing of pronominal
+anaphors and their antecedents are discussed, as
+are some questions that arose in trying to cat-
+egorize those pronominal expressions that did
+not refer to specic nominal entities in the text.
+1 

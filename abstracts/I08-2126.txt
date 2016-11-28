@@ -1,0 +1,28 @@
+
+This paper describes a method for extract-
+ing a large set of hyponymy relations from
+Wikipedia. The Wikipedia is much more con-
+sistently structured than generic HTML doc-
+uments, and we can extract a large number of
+hyponymy relations with simple methods. In
+this work, we managed to extract more than
+1.4 ? 10
+6 hyponymy relations with 75.3%
+precision from the Japanese version of the
+Wikipedia. To the best of our knowledge, this
+is the largest machine-readable thesaurus for
+Japanese. The main contribution of this paper
+is a method for hyponymy acquisition from
+hierarchical layouts in Wikipedia. By us-
+ing a machine learning technique and pattern
+matching, we were able to extract more than
+6.3 ? 10
+5 relations from hierarchical layouts
+in the Japanese Wikipedia, and their precision
+was 76.4%. The remaining hyponymy rela-
+tions were acquired by existing methods for
+extracting relations from definition sentences
+and category pages. This means that extrac-
+tion from the hierarchical layouts almost dou-
+bled the number of relations extracted.
+1 

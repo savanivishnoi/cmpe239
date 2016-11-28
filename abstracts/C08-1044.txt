@@ -1,0 +1,21 @@
+ 
+As Chinese text is written without word 
+boundaries, effectively recognizing Chi-
+nese words is like recognizing colloca-
+tions in English, substituting characters 
+for words and words for collocations. 
+However, existing topical models that in-
+volve collocations have a common limi-
+tation. Instead of directly assigning a top-
+ic to a collocation, they take the topic of 
+a word within the collocation as the topic 
+of the whole collocation. This is unsatis-
+factory for topical modeling of Chinese 
+documents. Thus, we propose a topical 
+word-character model (TWC), which al-
+lows two distinct types of topics: word 
+topic and character topic. We evaluated 
+TWC both qualitatively and 
+quantitatively to show that it is a power-
+ful and a promising topic model.  
+1 

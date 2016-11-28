@@ -1,0 +1,28 @@
+
+We present a novel unsupervised approach to
+the problem of multi-document summariza-
+tion of scientific articles, in which the doc-
+ument collection is a list of papers cited to-
+gether within the same source article, other-
+wise known as a co-citation. At the heart of
+the approach is a topic based clustering of
+fragments extracted from each co-cited arti-
+cle and relevance ranking using a query gen-
+erated from the context surrounding the co-
+cited list of papers. This analysis enables the
+generation of an overview of common themes
+from the co-cited papers that relate to the con-
+text in which the co-citation was found. We
+present a system called SciSumm that em-
+bodies this approach and apply it to the 2008
+ACL Anthology. We evaluate this summa-
+rization system for relevant content selection
+using gold standard summaries prepared on
+principle based guidelines. Evaluation with
+gold standard summaries demonstrates that
+our system performs better in content selec-
+tion than an existing summarization system
+(MEAD). We present a detailed summary of
+our findings and discuss possible directions
+for future research.
+1 

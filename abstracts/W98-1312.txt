@@ -1,0 +1,8 @@
+: \[Morphology, Morphotactics, Finite State, Separated Dependencies\] 
+This paper examines dependencies between separated (non-adjacent) morphemes in natural- 
+language words and a variety of ways to constrain them in finite-state morphology. Methods 
+include running separate constraining transducers at runtime, composing in constraints at 
+compile time, feature unification, and the use of FLAG DIACRITICS. Examples are provided 
+from Modern Standard Arabic. In choosing a practical solution, developers must iveigh the 
+size, performance and flexibility of the overall system. 
+1 

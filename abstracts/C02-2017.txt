@@ -1,0 +1,26 @@
+
+We describe a parser for robust and flexible inter-
+pretation of user utterances in a multi-modal sys-
+tem for web search in newspaper databases. Users
+can speak or type, and they can navigate and follow
+links using mouse clicks. Spoken or written queries
+may combine search expressions with browser com-
+mands and search space restrictions. In interpreting
+input queries, the system has to be fault-tolerant to
+account for spontanous speech phenomena as well
+as typing or speech recognition errors which often
+distort the meaning of the utterance and are difficult
+to detect and correct. Our parser integrates shallow
+parsing techniques with knowledge-based text re-
+trieval to allow for robust processing and coordina-
+tion of input modes. Parsing relies on a two-layered
+approach: typical meta-expressions like those con-
+cerning search, newspaper types and dates are iden-
+tified and excluded from the search string to be sent
+to the search engine. The search terms which are
+left after preprocessing are then grouped according
+to co-occurrence statistics which have been derived
+from a newspaper corpus. These co-occurrence
+statistics concern typical noun phrases as they ap-
+pear in newspaper texts.
+1 

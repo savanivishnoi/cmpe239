@@ -1,0 +1,21 @@
+ 
+This paper presents a method for con-
+structing a large-scale Person Ontology 
+with category hierarchy from Wikipe-
+dia. We first extract Wikipedia category 
+labels which represent person (hereafter, 
+Wikipedia Person Category, WPC) by 
+using a machine learning classifier. We 
+then construct a WPC hierarchy by de-
+tecting is-a relations in the Wikipedia 
+category network. We then extract the 
+titles of Wikipedia articles which 
+represent person (hereafter, Wikipedia 
+person instance, WPI). Experiments 
+show that the accuracy of WPC extrac-
+tion is 99.3% precision and 98.4% re-
+call, while that of WPI extraction is 
+98.2% and 98.6%, respectively. The ac-
+curacies are significantly higher than 
+the previous methods. 
+1  

@@ -1,0 +1,22 @@
+ 
+"l\]fis paper reports on a new statistical approach to 
+machine aided translation of terminology bank. The text 
+in the bank is hyphenated and then dissected into roots of 
+1 to 3 syllables. Both hyphenation and dissection are 
+done with a set of initial probabilities of syllables and 
+roots. The probabilities are repeatedly revised using an 
+EM algorithm. Alter each iteration of hyphenation or 
+dissectioh, the resulting syllables and roots are counted 
+subsequently to yield more precise estimation of 
+probability. The set of roots rapidly converges to a set of 
+most likely roots. Preliminary experhuents have shown 
+promising results. From a terminology bank of more than 
+4,000 terms, the algorithm extracts 223 general and 
+chemical roots, of which 91% are actually roots. The 
+algoritlun dissects a word into roots with aromld 86% hit 
+rate. The set of roots and their "hand-translation are then 
+used iu a compositional translation of the terminology 
+bank. One can expect he translation of terminology bank 
+using this approach to be more cost-effective, consistent, 
+and with a better closure. 
+1. 

@@ -1,0 +1,17 @@
+
+Automatic summarization evaluation is critical to
+the development of summarization systems. While
+ROUGE has been shown to correlate well with hu-
+man evaluation for content match in text summa-
+rization, there are many characteristics in multiparty
+meeting domain, which may pose potential prob-
+lems to ROUGE. In this paper, we carefully exam-
+ine how well the ROUGE scores correlate with hu-
+man evaluation for extractive meeting summariza-
+tion. Our experiments show that generally the cor-
+relation is rather low, but a significantly better cor-
+relation can be obtained by accounting for several
+unique meeting characteristics, such as disfluencies
+and speaker information, especially when evaluating
+system-generated summaries.
+1 

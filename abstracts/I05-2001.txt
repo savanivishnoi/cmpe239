@@ -1,0 +1,17 @@
+
+Ensuring consistency of Part-of-Speech
+(POS) tagging plays an important role
+in constructing high-quality Chinese
+corpora. After analyzing the POS tag-
+ging of multi-category words in large-
+scale corpora, we propose a novel con-
+sistency check method of POS tagging
+in this paper. Our method builds a
+vector model of the context of multi-
+category words, and uses the k-NN al-
+gorithm to classify context vectors con-
+structed from POS tagging sequences
+and judge their consistency. The ex-
+perimental results indicate that the pro-
+posed method is feasible and effective.
+1 

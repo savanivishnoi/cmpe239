@@ -1,0 +1,24 @@
+ 
+In this paper we explore the possibility of 
+using cross lingual projections that help 
+to automatically induce role-semantic 
+annotations in the PropBank paradigm 
+for Urdu, a resource poor language. This 
+technique provides annotation projections 
+based on word alignments. It is relatively 
+inexpensive and has the potential to re-
+duce human effort involved in creating 
+semantic role resources. The projection 
+model exploits lexical as well as syntac-
+tic information on an English-Urdu paral-
+lel corpus. We show that our method ge-
+nerates reasonably good annotations with 
+an accuracy of 92% on short structured 
+sentences. Using the automatically gen-
+erated annotated corpus, we conduct pre-
+liminary experiments to create a semantic 
+role labeler for Urdu. The results of the 
+labeler though modest, are promising and 
+indicate the potential of our technique to 
+generate large scale annotations for Urdu.  
+1 

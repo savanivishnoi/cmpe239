@@ -1,0 +1,20 @@
+
+This paper describes the characteristic features
+of dependency structures of Japanese spoken
+language by investigating a spoken dialogue cor-
+pus, and proposes a stochastic approach to de-
+pendency parsing. The method can robustly
+cope with inversion phenomena and bunsetsus
+which don?t have the head bunsetsu by relax-
+ing the syntactic dependency constraints. The
+method acquires in advance the probabilities
+of dependencies from a spoken dialogue corpus
+tagged with dependency structures, and pro-
+vides the most plausible dependency structure
+for each utterance on the basis of the probabili-
+ties. An experiment on dependency parsing for
+driver?s utterances in CIAIR in-car spoken dia-
+logue corpus has been made. The experimental
+result has shown our method to be effective for
+robust parsing of spoken language.
+1 

@@ -1,0 +1,15 @@
+
+We provide a general algorithmic schema
+for translation rule extraction and show that
+several popular extraction methods (includ-
+ing phrase pair extraction, hierarchical phrase
+pair extraction, and GHKM extraction) can be
+viewed as specific instances of this schema.
+This work is primarily intended as a survey of
+the dominant extraction paradigms, in which
+we make explicit the close relationship be-
+tween these approaches, and establish a lan-
+guage for future hybridizations. This facili-
+tates a generic and extensible implementation
+of alignment-based extraction methods.
+1 

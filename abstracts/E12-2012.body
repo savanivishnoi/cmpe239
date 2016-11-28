@@ -1,0 +1,27 @@
+
+Data-driven systems for natural language
+processing have the advantage that they can
+easily be ported to any language or domain
+for which appropriate training data can be
+found. However, many data-driven systems
+require careful tuning in order to achieve
+optimal performance, which may require
+specialized knowledge of the system. We
+present MaltOptimizer, a tool developed to
+facilitate optimization of parsers developed
+using MaltParser, a data-driven dependency
+parser generator. MaltOptimizer performs
+an analysis of the training data and guides
+the user through a three-phase optimization
+process, but it can also be used to perform
+completely automatic optimization. Exper-
+iments show that MaltOptimizer can im-
+prove parsing accuracy by up to 9 percent
+absolute (labeled attachment score) com-
+pared to default settings. During the demo
+session, we will run MaltOptimizer on dif-
+ferent data sets (user-supplied if possible)
+and show how the user can interact with the
+system and track the improvement in pars-
+ing accuracy.
+1 

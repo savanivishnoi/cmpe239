@@ -1,0 +1,31 @@
+
+Each year the Conference on Com-
+putational Natural Language Learning
+(CoNLL)1 features a shared task, in which
+participants train and test their systems on
+exactly the same data sets, in order to bet-
+ter compare systems. The tenth CoNLL
+(CoNLL-X) saw a shared task on Multi-
+lingual Dependency Parsing. In this pa-
+per, we describe how treebanks for 13 lan-
+guages were converted into the same de-
+pendency format and how parsing perfor-
+mance was measured. We also give an
+overview of the parsing approaches that
+participants took and the results that they
+achieved. Finally, we try to draw gen-
+eral conclusions about multi-lingual pars-
+ing: What makes a particular language,
+treebank or annotation scheme easier or
+harder to parse and which phenomena are
+challenging for any dependency parser?
+Acknowledgement
+Many thanks to Amit Dubey and Yuval Kry-
+molowski, the other two organizers of the shared
+task, for discussions, converting treebanks, writing
+software and helping with the papers.2
+1see http://ilps.science.uva.nl/?erikt/signll/conll/
+2Thanks also to Alexander Yeh for additional help with the
+paper reviews. His work was made possible by the MITRE Cor-
+poration?s Sponsored Research Program.
+1 

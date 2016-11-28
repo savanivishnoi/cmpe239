@@ -1,0 +1,41 @@
+
+This paper proposes a novel method for
+building a bilingual lexicon through a pivot
+language by using phrase-based statisti-
+cal machine translation (SMT). Given two
+bilingual lexicons between language pairs
+L
+f
+?L
+p
+and L
+p
+?L
+e
+, we assume these lexi-
+cons as parallel corpora. Then, we merge
+the extracted two phrase tables into one
+phrase table between L
+f
+and L
+e
+. Fi-
+nally, we construct a phrase-based SMT
+system for translating the terms in the lex-
+icon L
+f
+?L
+p
+into terms of L
+e
+and, ob-
+tain a new lexicon L
+f
+?L
+e
+. In our experi-
+ments with Chinese-English and Japanese-
+English lexicons, our system could cover
+72.8% of Chinese terms and drastically im-
+prove the utilization ratio.
+1 

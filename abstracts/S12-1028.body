@@ -1,0 +1,18 @@
+
+We present an ensemble-based framework
+for semantic lexicon induction that incorpo-
+rates three diverse approaches for semantic
+class identification. Our architecture brings
+together previous bootstrapping methods for
+pattern-based semantic lexicon induction and
+contextual semantic tagging, and incorpo-
+rates a novel approach for inducing semantic
+classes from coreference chains. The three
+methods are embedded in a bootstrapping ar-
+chitecture where they produce independent
+hypotheses, consensus words are added to the
+lexicon, and the process repeats. Our results
+show that the ensemble outperforms individ-
+ual methods in terms of both lexicon quality
+and instance-based semantic tagging.
+1 

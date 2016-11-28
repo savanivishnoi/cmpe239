@@ -1,0 +1,22 @@
+
+This paper describes the LIGM-Alpage sys-
+tem for the SPMRL 2013 Shared Task. We
+only participated to the French part of the de-
+pendency parsing track, focusing on the real-
+istic setting where the system is informed nei-
+ther with gold tagging and morphology nor
+(more importantly) with gold grouping of to-
+kens into multi-word expressions (MWEs).
+While the realistic scenario of predicting both
+MWEs and syntax has already been investi-
+gated for constituency parsing, the SPMRL
+2013 shared task datasets offer the possibil-
+ity to investigate it in the dependency frame-
+work. We obtain the best results for French,
+both for overall parsing and for MWE recog-
+nition, using a reparsing architecture that com-
+bines several parsers, with both pipeline archi-
+tecture (MWE recognition followed by pars-
+ing), and joint architecture (MWE recognition
+performed by the parser).
+1 

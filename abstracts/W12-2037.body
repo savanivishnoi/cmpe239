@@ -1,0 +1,24 @@
+
+The growth of open-access technical publica-
+tions and other open-domain textual informa-
+tion sources means that there is an increas-
+ing amount of online technical material that
+is in principle available to all, but in prac-
+tice, incomprehensible to most. We propose
+to address the task of helping readers com-
+prehend complex technical material, by us-
+ing statistical methods to model the ?prereq-
+uisite structure? of a corpus ? i.e., the se-
+mantic impact of documents on an individual
+reader?s state of knowledge. Experimental re-
+sults using Wikipedia as the corpus suggest
+that this task can be approached by crowd-
+sourcing the production of ground-truth labels
+regarding prerequisite structure, and then gen-
+eralizing these labels using a learned classifier
+which combines signals of various sorts. The
+features that we consider relate pairs of pages
+by analyzing not only textual features of the
+pages, but also how the containing corpora is
+connected and created.
+1 

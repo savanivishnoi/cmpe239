@@ -1,0 +1,15 @@
+
+We present a novel disambiguation method for
+unification-based grammars (UBGs). In contrast to other
+methods, our approach obviates the need for probability
+models on the UBG side in that it shifts the responsibil-
+ity to simpler context-free models, indirectly obtained
+from the UBG. Our approach has three advantages:
+(i) training can be effectively done in practice, (ii)
+parsing and disambiguation of context-free readings
+requires only cubic time, and (iii) involved probability
+distributions are mathematically clean. In an experiment
+for a mid-size UBG, we show that our novel approach is
+feasible. Using unsupervised training, we achieve 88%
+accuracy on an exact-match task.
+1 

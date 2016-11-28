@@ -1,0 +1,18 @@
+ 
+In this paper, we describe a voting 
+mechanism for accurate named entity 
+(NE) translation in English?Chinese 
+question answering (QA). This mecha-
+nism involves translations from three 
+different sources: machine translation, 
+online encyclopaedia, and web docu-
+ments. The translation with the highest 
+number of votes is selected. We evalu-
+ated this approach using test collection, 
+topics and assessment results from the 
+NTCIR-8 evaluation forum. This 
+mechanism achieved 95% accuracy in 
+NEs translation and 0.3756 MAP in 
+English?Chinese cross-lingual infor-
+mation retrieval of QA.  
+1  

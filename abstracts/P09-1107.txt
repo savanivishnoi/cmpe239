@@ -1,0 +1,28 @@
+
+Inspired by the incremental TER align-
+ment, we re-designed the Indirect HMM
+(IHMM) alignment, which is one of the
+best hypothesis alignment methods for
+conventional MT system combination, in
+an incremental manner. One crucial prob-
+lem of incremental alignment is to align a
+hypothesis to a confusion network (CN).
+Our incremental IHMM alignment is im-
+plemented in three different ways: 1) treat
+CN spans as HMM states and define state
+transition as distortion over covered n-
+grams between two spans; 2) treat CN
+spans as HMM states and define state tran-
+sition as distortion over words in compo-
+nent translations in the CN; and 3) use
+a consensus decoding algorithm over one
+hypothesis and multiple IHMMs, each of
+which corresponds to a component trans-
+lation in the CN. All these three ap-
+proaches of incremental alignment based
+on IHMM are shown to be superior to both
+incremental TER alignment and conven-
+tional IHMM alignment in the setting of
+the Chinese-to-English track of the 2008
+NIST Open MT evaluation.
+1 

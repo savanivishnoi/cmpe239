@@ -1,0 +1,29 @@
+
+Traditional relation extraction predicts rela-
+tions within some fixed and finite target
+schema. Machine learning approaches to this
+task require either manual annotation or, in
+the case of distant supervision, existing struc-
+tured sources of the same schema. The need
+for existing datasets can be avoided by us-
+ing a universal schema: the union of all in-
+volved schemas (surface form predicates as in
+OpenIE, and relations in the schemas of pre-
+existing databases). This schema has an al-
+most unlimited set of relations (due to surface
+forms), and supports integration with existing
+structured data (through the relation types of
+existing databases). To populate a database of
+such schema we present matrix factorization
+models that learn latent feature vectors for en-
+tity tuples and relations. We show that such
+latent models achieve substantially higher ac-
+curacy than a traditional classification ap-
+proach. More importantly, by operating simul-
+taneously on relations observed in text and in
+pre-existing structured DBs such as Freebase,
+we are able to reason about unstructured and
+structured data in mutually-supporting ways.
+By doing so our approach outperforms state-
+of-the-art distant supervision.
+1 

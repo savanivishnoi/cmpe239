@@ -1,0 +1,20 @@
+
+Under a lexicalist approach to semantics, a verb
+completely encodes its syntactic and semantic
+structures, along with the relevant syntax-to-
+semantics mapping; polysemy is typically at-
+tributed to the existence of different lexical en-
+tries. A lexicon organized in this fashion con-
+tains much redundant information and is un-
+able to capture cross-categorial morphological
+derivations. The solution is to spread the ?se-
+mantic load? of lexical entries to other mor-
+phemes not typically taken to bear semantic
+content. This approach follows current trends
+in linguistic theory, and more perspicuously ac-
+counts for alternations in argument structure.
+I demonstrate how such a framework can be
+computationally realized with a feature-based,
+agenda-driven chart parser for the Minimalist
+Program.
+1 

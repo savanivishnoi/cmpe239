@@ -1,0 +1,21 @@
+
+We present and evaluate two state-of-the art
+dialogue systems developed to support dialog
+with French speaking virtual characters in the
+context of a serious game: one hybrid statis-
+tical/symbolic and one purely statistical. We
+conducted a quantitative evaluation where we
+compare the accuracy of the interpreter and
+of the dialog manager used by each system; a
+user based evaluation based on 22 subjects us-
+ing both the statistical and the hybrid system;
+and a corpus based evaluation where we exam-
+ine such criteria as dialog coherence, dialog
+success, interpretation and generation errors in
+the corpus of Human-System interactions col-
+lected during the user-based evaluation. We
+show that although the statistical approach is
+slightly more robust, the hybrid strategy seems
+to be better at guiding the player through the
+game.
+1 

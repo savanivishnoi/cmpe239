@@ -1,0 +1,24 @@
+ 
+Complex predicate is a noun, a verb, an ad-
+jective or an adverb followed by a light verb 
+that behaves as a single unit of verb. Com-
+plex predicates (CPs) are abundantly used in 
+Hindi and other languages of Indo Aryan 
+family.  Detecting and interpreting CPs con-
+stitute an important and somewhat a diffi-
+cult task. The linguistic and statistical 
+methods have yielded limited success in 
+mining this data. In this paper, we present a 
+simple method for detecting CPs of all kinds 
+using a Hindi-English parallel corpus. A CP 
+is hypothesized by detecting absence of the 
+conventional meaning of the light verb in 
+the aligned English sentence. This simple 
+strategy exploits the fact that CP is a multi-
+word expression with a meaning that is dis-
+tinct from the meaning of the light verb. Al-
+though there are several shortcomings in the 
+methodology, this empirical method surpri-
+singly yields mining of CPs with an average 
+precision of 89% and a recall of 90%.   
+1 

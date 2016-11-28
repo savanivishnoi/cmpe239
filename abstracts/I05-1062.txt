@@ -1,0 +1,11 @@
+. This article presents a method of extracting bilingual lexica
+composed of single-word terms (SWTs) and multi-word terms (MWTs)
+from comparable corpora of a technical domain. First, this method ex-
+tracts MWTs in each language, and then uses statistical methods to
+align single words and MWTs by exploiting the term contexts. After ex-
+plaining the difficulties involved in aligning MWTs and specifying our
+approach, we show the adopted process for bilingual terminology ex-
+traction and the resources used in our experiments. Finally, we evaluate
+our approach and demonstrate its significance, particularly in relation to
+non-compositional MWT alignment.
+1 

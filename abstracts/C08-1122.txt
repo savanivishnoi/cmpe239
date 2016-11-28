@@ -1,0 +1,25 @@
+ 
+Previous methods usually conduct the 
+keyphrase extraction task for single docu-
+ments separately without interactions for 
+each document, under the assumption 
+that the documents are considered inde-
+pendent of each other. This paper pro-
+poses a novel approach named Col-
+labRank to collaborative single-document 
+keyphrase extraction by making use of 
+mutual influences of multiple documents 
+within a cluster context. CollabRank is 
+implemented by first employing the clus-
+tering algorithm to obtain appropriate 
+document clusters, and then using the 
+graph-based ranking algorithm for col-
+laborative single-document keyphrase ex-
+traction within each cluster. Experimental 
+results demonstrate the encouraging per-
+formance of the proposed approach. Dif-
+ferent clustering algorithms have been 
+investigated and we find that the system 
+performance relies positively on the qual-
+ity of document clusters. 
+1 

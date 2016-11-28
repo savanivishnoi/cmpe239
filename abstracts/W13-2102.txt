@@ -1,0 +1,29 @@
+
+The increasing amount of machine-
+readable data available in the context
+of the Semantic Web creates a need
+for methods that transform such data
+into human-comprehensible text. In
+this paper we develop and evaluate a
+Natural Language Generation (NLG)
+system that converts RDF data into
+natural language text based on an on-
+tology and an associated ontology lex-
+icon. While it follows a classical NLG
+pipeline, it diverges from most cur-
+rent NLG systems in that it exploits
+an ontology lexicon in order to capture
+context-specific lexicalisations of ontol-
+ogy concepts, and combines the use of
+such a lexicon with the choice of lexical
+items and syntactic structures based on
+statistical information extracted from a
+domain-specific corpus. We apply the
+developed approach to the cooking do-
+main, providing both an ontology and
+an ontology lexicon in lemon format.
+Finally, we evaluate fluency and ade-
+quacy of the generated recipes with re-
+spect to two target audiences: cooking
+novices and advanced cooks.
+1 

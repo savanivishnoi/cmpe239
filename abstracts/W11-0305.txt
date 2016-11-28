@@ -1,0 +1,24 @@
+
+During language acquisition, children learn
+to segment speech into phonemes, syllables,
+morphemes, and words. We examine word
+segmentation specifically, and explore the
+possibility that children might have general-
+purpose chunking mechanisms to perform
+word segmentation. The Voting Experts (VE)
+and Bootstrapped Voting Experts (BVE) algo-
+rithms serve as computational models of this
+chunking ability. VE finds chunks by search-
+ing for a particular information-theoretic sig-
+nature: low internal entropy and high bound-
+ary entropy. BVE adds to VE the abil-
+ity to incorporate information about word
+boundaries previously found by the algorithm
+into future segmentations. We evaluate the
+general chunking model on phonemically-
+encoded corpora of child-directed speech, and
+show that it is consistent with empirical results
+in the developmental literature. We argue that
+it offers a parsimonious alternative to special-
+purpose linguistic models.
+1 

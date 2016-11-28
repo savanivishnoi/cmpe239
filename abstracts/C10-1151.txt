@@ -1,0 +1,23 @@
+
+There often exist multiple corpora for the
+same natural language processing (NLP)
+tasks. However, such corpora are gen-
+erally used independently due to distinc-
+tions in annotation standards. For the pur-
+pose of full use of readily available hu-
+man annotations, it is significant to simul-
+taneously utilize multiple corpora of dif-
+ferent annotation standards. In this pa-
+per, we focus on the challenge of con-
+stituent syntactic parsing with treebanks
+of different annotations and propose a col-
+laborative decoding (or co-decoding) ap-
+proach to improve parsing accuracy by
+leveraging bracket structure consensus be-
+tween multiple parsing decoders trained
+on individual treebanks. Experimental re-
+sults show the effectiveness of the pro-
+posed approach, which outperforms state-
+of-the-art baselines, especially on long
+sentences.
+1 

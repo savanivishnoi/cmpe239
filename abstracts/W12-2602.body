@@ -1,0 +1,39 @@
+ive Community Detection
+Gabriel Murray
+Computer Information Systems
+University of the Fraser Valley
+gabriel.murray@ufv.ca
+Giuseppe Carenini
+Computer Science
+University of British Columbia
+carenini@cs.ubc.ca
+Raymond Ng
+Computer Science
+University of British Columbia
+rng@cs.ubc.ca
+Abstract
+Numerous NLP tasks rely on clustering or
+community detection algorithms. For many
+of these tasks, the solutions are disjoint, and
+the relevant evaluation metrics assume non-
+overlapping clusters. In contrast, the relatively
+recent task of abstractive community detection
+(ACD) results in overlapping clusters of sen-
+tences. ACD is a sub-task of an abstractive
+summarization system and represents a two-
+step process. In the first step, we classify sen-
+tence pairs according to whether the sentences
+should be realized by a common abstractive
+sentence. This results in an undirected graph
+with sentences as nodes and predicted abstrac-
+tive links as edges. The second step is to
+identify communities within the graph, where
+each community corresponds to an abstrac-
+tive sentence to be generated. In this paper,
+we describe how the Omega Index, a met-
+ric for comparing non-disjoint clustering so-
+lutions, can be used as a summarization eval-
+uation metric for this task. We use the Omega
+Index to compare and contrast several commu-
+nity detection algorithms.
+1 

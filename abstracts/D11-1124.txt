@@ -1,0 +1,30 @@
+
+Most traditional summarization methods treat
+their outputs as static and plain texts, which
+fail to capture user interests during summa-
+rization because the generated summaries are
+the same for different users. However, users
+have individual preferences on a particular
+source document collection and obviously a
+universal summary for all users might not al-
+ways be satisfactory. Hence we investigate
+an important and challenging problem in sum-
+mary generation, i.e., Interactive Personalized
+Summarization (IPS), which generates sum-
+maries in an interactive and personalized man-
+ner. Given the source documents, IPS captures
+user interests by enabling interactive clicks
+and incorporates personalization by model-
+ing captured reader preference. We develop
+experimental systems to compare 5 rival al-
+gorithms on 4 instinctively different datasets
+which amount to 5197 documents. Evalua-
+tion results in ROUGE metrics indicate the
+comparable performance between IPS and the
+best competing system but IPS produces sum-
+maries with much more user satisfaction ac-
+cording to evaluator ratings. Besides, low
+ROUGE consistency among these user pre-
+ferred summaries indicates the existence of
+personalization.
+1 

@@ -1,0 +1,19 @@
+
+This paper describes the two systems for
+determining the semantic similarity of short
+texts submitted to the SemEval 2012 Task 6.
+Most of the research on semantic similarity
+of textual content focuses on large documents.
+However, a fair amount of information is con-
+densed into short text snippets such as social
+media posts, image captions, and scientific ab-
+stracts. We predict the human ratings of sen-
+tence similarity using a support vector regres-
+sion model with multiple features measuring
+word-overlap similarity and syntax similarity.
+Out of 89 systems submitted, our two systems
+ranked in the top 5, for the three overall eval-
+uation metrics used (overall Pearson ? 2nd
+and 3rd, normalized Pearson ? 1st and 3rd,
+weighted mean ? 2nd and 5th).
+1 

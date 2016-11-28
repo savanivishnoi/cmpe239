@@ -1,0 +1,21 @@
+
+Prepositions are hard to translate, because
+their meaning is often vague, and the choice
+of the correct preposition is often arbitrary.
+At the same time, making the correct choice
+is often critical to the coherence of the out-
+put text. In the context of statistical ma-
+chine translation, this difficulty is enhanced
+due to the possible long distance between
+the preposition and the head it modifies, as
+opposed to the local nature of standard lan-
+guage models. In this work we use mono-
+lingual language resources to determine the
+set of prepositions that are most likely to
+occur with each verb. We use this informa-
+tion in a transfer-based Arabic-to-Hebrew
+statistical machine translation system. We
+show that incorporating linguistic knowl-
+edge on the distribution of prepositions sig-
+nificantly improves the translation quality.
+1 

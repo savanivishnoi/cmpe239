@@ -1,0 +1,16 @@
+
+This paper considers the problem of auto-
+matic assessment of local coherence. We
+present a novel entity-based representa-
+tion of discourse which is inspired by Cen-
+tering Theory and can be computed au-
+tomatically from raw text. We view co-
+herence assessment as a ranking learning
+problem and show that the proposed dis-
+course representation supports the effec-
+tive learning of a ranking function. Our
+experiments demonstrate that the induced
+model achieves significantly higher ac-
+curacy than a state-of-the-art coherence
+model.
+1 

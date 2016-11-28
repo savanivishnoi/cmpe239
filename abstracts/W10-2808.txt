@@ -1,0 +1,20 @@
+
+In this paper, we propose a memory, space,
+and time efficient framework to scale dis-
+tributional similarity to the web. We
+exploit sketch techniques, especially the
+Count-Min sketch, which approximates
+the frequency of an item in the corpus
+without explicitly storing the item itself.
+These methods use hashing to deal with
+massive amounts of the streaming text. We
+store all item counts computed from 90
+GB of web data in just 2 billion coun-
+ters (8 GB main memory) of CM sketch.
+Our method returns semantic similarity
+between word pairs in O(K) time and
+can compute similarity between any word
+pairs that are stored in the sketch. In our
+experiments, we show that our framework
+is as effective as using the exact counts.
+1 

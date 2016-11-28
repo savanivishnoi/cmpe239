@@ -1,0 +1,15 @@
+
+Most existing algorithms for learning latent-
+variable models?such as EM and existing
+Gibbs samplers?are token-based, meaning
+that they update the variables associated with
+one sentence at a time. The incremental na-
+ture of these methods makes them suscepti-
+ble to local optima/slow mixing. In this paper,
+we introduce a type-based sampler, which up-
+dates a block of variables, identified by a type,
+which spans multiple sentences. We show im-
+provements on part-of-speech induction, word
+segmentation, and learning tree-substitution
+grammars.
+1 

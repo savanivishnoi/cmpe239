@@ -1,0 +1,21 @@
+ 
+In this paper, a method is presented to 
+recognize multilingual Wikipedia named entity 
+articles. This method classifies multilingual 
+Wikipedia articles using a variety of structured 
+and unstructured features and is aided by 
+cross-language links and features in 
+Wikipedia.  Adding multilingual features helps 
+boost classification accuracy and is shown to 
+effectively classify multilingual pages in a 
+language independent way.  Classification is 
+done using Support Vectors Machine (SVM) 
+classifier at first, and then the threshold of 
+SVM is adjusted in order to improve the recall 
+scores of classification. Threshold adjustment 
+is performed using beta-gamma threshold 
+adjustment algorithm which is a post learning 
+step that shifts the hyperplane of SVM. This 
+approach boosted recall with minimal effect on 
+precision. 
+1 

@@ -1,0 +1,24 @@
+
+Semantic relatedness, or its inverse, seman-
+tic distance, measures the degree of close-
+ness between two pieces of text determined by
+their meaning. Related work typically mea-
+sures semantics based on a sparse knowledge
+base such as WordNet1 or CYC that requires
+intensive manual efforts to build and main-
+tain. Other work is based on the Brown cor-
+pus, or more recently, Wikipedia. Wikipedia-
+based measures, however, typically do not
+take into account the rapid growth of that re-
+source, which exponentially increases the time
+to prepare and query the knowledge base. Fur-
+thermore, the generalized knowledge domain
+may be difficult to adapt to a specific domain.
+To address these problems, this paper pro-
+poses a domain-specific semantic relatedness
+measure based on part of Wikipedia that ana-
+lyzes course descriptions to suggest whether a
+course can be transferred from one institution
+to another. We show that our results perform
+well when compared to previous work.
+1 

@@ -1,0 +1,22 @@
+
+The standard pipeline approach to se-
+mantic processing, in which sentences
+are morphologically and syntactically
+resolved to a single tree before they
+are interpreted, is a poor fit for ap-
+plications such as natural language in-
+terfaces. This is because the environ-
+ment information, in the form of the ob-
+jects and events in the application?s run-
+time environment, cannot be used to in-
+form parsing decisions unless the in-
+put sentence is semantically analyzed,
+but this does not occur until after pars-
+ing in the single-tree semantic architec-
+ture. This paper describes the compu-
+tational properties of an alternative ar-
+chitecture, in which semantic analysis
+is performed on all possible interpre-
+tations during parsing, in polynomial
+time.
+1 

@@ -1,0 +1,19 @@
+
+Lattice decoding in statistical machine
+translation (SMT) is useful in speech
+translation and in the translation of Ger-
+man because it can handle input ambigu-
+ities such as speech recognition ambigui-
+ties and German word segmentation ambi-
+guities. We show that lattice decoding is
+also useful for handling input variations.
+Given an input sentence, we build a lattice
+which represents paraphrases of the input
+sentence. We call this a paraphrase lattice.
+Then, we give the paraphrase lattice as an
+input to the lattice decoder. The decoder
+selects the best path for decoding. Us-
+ing these paraphrase lattices as inputs, we
+obtained significant gains in BLEU scores
+for IWSLT and Europarl datasets.
+1 

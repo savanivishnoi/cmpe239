@@ -1,0 +1,14 @@
+
+We describe a mechanism for the generation of
+lexical paraphrases of queries posed to an Inter-
+net resource. These paraphrases are generated us-
+ing WordNet and part-of-speech information to pro-
+pose synonyms for the content words in the queries.
+Statistical information, obtained from a corpus, is
+then used to rank the paraphrases. We evaluated
+our mechanism using 404 queries whose answers
+reside in the LA Times subset of the TREC-9 cor-
+pus. There was a 14% improvement in perfor-
+mance when paraphrases were used for document
+retrieval.
+1 

@@ -1,0 +1,29 @@
+
+Creating large amounts of manually annotated
+training data for statistical parsers imposes
+heavy cognitive load on the human annota-
+tor and is thus costly and error prone. It
+is hence of high importance to decrease the
+human efforts involved in creating training
+data without harming parser performance. For
+constituency parsers, these efforts are tradi-
+tionally evaluated using the total number of
+constituents (TC) measure, assuming uniform
+cost for each annotated item. In this paper, we
+introduce novel measures that quantify aspects
+of the cognitive efforts of the human annota-
+tor that are not reflected by the TC measure,
+and show that they are well established in the
+psycholinguistic literature. We present a novel
+parameter based sample selection approach
+for creating good samples in terms of these
+measures. We describe methods for global op-
+timisation of lexical parameters of the sam-
+ple based on a novel optimisation problem, the
+constrained multiset multicover problem, and
+for cluster-based sampling according to syn-
+tactic parameters. Our methods outperform
+previously suggested methods in terms of the
+new measures, while maintaining similar TC
+performance.
+1 

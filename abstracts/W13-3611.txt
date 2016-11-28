@@ -1,0 +1,19 @@
+
+We describe our grammar correction sys-
+tem for the CoNLL-2013 shared task.
+Our system corrects three of the five er-
+ror types specified for the shared task -
+noun-number, determiner and subject-verb
+agreement errors. For noun-number and
+determiner correction, we apply a classi-
+fication approach using rich lexical and
+syntactic features. For subject-verb agree-
+ment correction, we propose a new rule-
+based system which utilizes dependency
+parse information and a set of conditional
+rules to ensure agreement of the verb
+group with its subject. Our system ob-
+tained an F-score of 11.03 on the official
+test set using the M2 evaluation method
+(the official evaluation method).
+1 

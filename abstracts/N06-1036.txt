@@ -1,0 +1,26 @@
+
+Dialog act (DA) tags are useful for many
+applications in natural language process-
+ing and automatic speech recognition. In
+this work, we introduce hidden backoff
+models (HBMs) where a large generalized
+backoff model is trained, using an embed-
+ded expectation-maximization (EM) pro-
+cedure, on data that is partially observed.
+We use HBMs as word models condi-
+tioned on both DAs and (hidden) DA-
+segments. Experimental results on the
+ICSI meeting recorder dialog act corpus
+show that our procedure can strictly in-
+crease likelihood on training data and can
+effectively reduce errors on test data. In
+the best case, test error can be reduced by
+6.1% relative to our baseline, an improve-
+ment on previously reported models that
+also use prosody. We also compare with
+our own prosody-based model, and show
+that our HBM is competitive even without
+the use of prosody. We have not yet suc-
+ceeded, however, in combining the bene-
+fits of both prosody and the HBM.
+1 

@@ -1,0 +1,13 @@
+
+There are several approaches that
+model information extraction as a to-
+ken classification task, using various
+tagging strategies to combine multiple
+tokens. We describe the tagging strate-
+gies that can be found in the litera-
+ture and evaluate their relative perfor-
+mances. We also introduce a new strat-
+egy, called Begin/After tagging or BIA,
+and show that it is competitive to the
+best other strategies.
+1 

@@ -1,0 +1,32 @@
+
+As the amount of cultural data avail-
+able on the Semantic Web is expand-
+ing, the demand of accessing this
+data in multiple languages is increas-
+ing. Previous work on multilingual
+access to cultural heritage informa-
+tion has shown that at least two dif-
+ferent problems must be dealt with
+when mapping from ontologies to nat-
+ural language: (1) mapping multilin-
+gual metadata to interoperable knowl-
+edge sources; (2) assigning multilin-
+gual knowledge to cultural data. This
+paper presents our effort to deal with
+these problems. We describe our expe-
+riences with processing museum data
+extracted from two distinct sources,
+harmonizing this data and making its
+content accessible in natural language.
+We extend prior work in two ways.
+First, we present a grammar-based sys-
+tem that is designed to generate co-
+herent texts from Semantic Web on-
+tologies in 15 languages. Second, we
+describe how this multilingual system
+is exploited to form queries using the
+standard query language SPARQL. The
+generation and retrieval system builds
+on W3C standards and is available for
+further research.
+1 

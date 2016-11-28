@@ -1,0 +1,17 @@
+
+We describe an information-theoretic
+argument-interpretation mechanism em-
+bedded in an interactive system. Our
+mechanism receives as input an argument
+entered through a web interface. It gener-
+ates candidate interpretations in terms of
+its underlying knowledge representation ?
+a Bayesian network, and applies the Mini-
+mum Message Length principle to select
+the best candidate. The results of our
+preliminary evaluations are encouraging,
+with the system generally producing plau-
+sible interpretations of users? arguments.
+Keywords: Minimum message length, discourse in-
+terpretation, Bayesian networks.
+1 

@@ -1,0 +1,19 @@
+
+This paper compares two different ways
+of estimating statistical language mod-
+els. Many statistical NLP tagging and
+parsing models are estimated by max-
+imizing the (joint) likelihood of the
+fully-observed training data. How-
+ever, since these applications only re-
+quire the conditional probability distri-
+butions, these distributions can in prin-
+ciple be learnt by maximizing the con-
+ditional likelihood of the training data.
+Perhaps somewhat surprisingly, models
+estimated by maximizing the joint were
+superior to models estimated by max-
+imizing the conditional, even though
+some of the latter models intuitively
+had access to ?more information?.
+1 

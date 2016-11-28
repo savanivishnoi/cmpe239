@@ -1,0 +1,23 @@
+
+Widely accepted resources for semantic
+parsing, such as PropBank and FrameNet,
+are not perfect as a semantic role label-
+ing framework. Their semantic roles are
+not strictly defined; therefore, their mean-
+ings and semantic characteristics are un-
+clear. In addition, it is presupposed that
+a single semantic role is assigned to each
+syntactic argument. This is not necessarily
+true when we consider internal structures of
+verb semantics. We propose a new frame-
+work for semantic role annotation which
+solves these problems by extending the the-
+ory of lexical conceptual structure (LCS).
+By comparing our framework with that of
+existing resources, including VerbNet and
+FrameNet, we demonstrate that our ex-
+tended LCS framework can give a formal
+definition of semantic role labels, and that
+multiple roles of arguments can be repre-
+sented strictly and naturally.
+1 

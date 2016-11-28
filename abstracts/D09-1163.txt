@@ -1,0 +1,28 @@
+ 
+ 
+The problem of re-ranking initial retrieval re-
+sults exploring the intrinsic structure of docu-
+ments is widely researched in information re-
+trieval (IR) and has attracted a considerable 
+amount of time and study. However, one of 
+the drawbacks is that those algorithms treat 
+queries and documents separately.  Further-
+more, most of the approaches are predomi-
+nantly built upon graph-based methods, which 
+may ignore some hidden information among 
+the retrieval set.   
+This paper proposes a novel document re-
+ranking method based on Latent Dirichlet Al-
+location (LDA) which exploits the implicit 
+structure of the documents with respect to 
+original queries. Rather than relying on graph-
+based techniques to identify the internal struc-
+ture, the approach tries to find the latent struc-
+ture of ?topics? or ?concepts? in the initial re-
+trieval set. Then we compute the distance be-
+tween queries and initial retrieval results based 
+on latent semantic information deduced. Em-
+pirical results demonstrate that the method can 
+comfortably achieve significant improvement 
+over various baseline systems.  
+1 

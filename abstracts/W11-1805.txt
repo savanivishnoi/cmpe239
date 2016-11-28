@@ -1,0 +1,19 @@
+s and Full Papers using
+Search-based Structured Prediction
+Andreas Vlachos and Mark Craven
+Department of Biostatistics and Medical Informatics
+University of Wisconsin-Madison
+{vlachos,craven}@biostat.wisc.edu
+Abstract
+In this paper we describe our approach to
+the BioNLP 2011 shared task on biomedical
+event extraction from abstracts and full pa-
+pers. We employ a joint inference system de-
+veloped using the search-based structured pre-
+diction framework and show that it improves
+on a pipeline using the same features and it is
+better able to handle the domain shift from ab-
+stracts to full papers. In addition, we report on
+experiments using a simple domain adaptation
+method.
+1 

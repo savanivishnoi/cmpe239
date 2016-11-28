@@ -1,0 +1,23 @@
+
+Machine translation of a source language
+sentence involves selecting appropriate
+target language words and ordering the se-
+lected words to form a well-formed tar-
+get language sentence. Most of the pre-
+vious work on statistical machine transla-
+tion relies on (local) associations of target
+words/phrases with source words/phrases
+for lexical selection. In contrast, in this
+paper, we present a novel approach to lex-
+ical selection where the target words are
+associated with the entire source sentence
+(global) without the need for local asso-
+ciations. This technique is used by three
+models (Bag?of?words model, sequential
+model and hierarchical model) which pre-
+dict the target language words given a
+source sentence and then order the words
+appropriately. We show that a hierarchi-
+cal model performs best when compared
+to the other two models.
+1 

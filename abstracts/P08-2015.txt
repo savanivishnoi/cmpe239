@@ -1,0 +1,13 @@
+
+We present four techniques for online han-
+dling of Out-of-Vocabulary words in Phrase-
+based Statistical Machine Translation. The
+techniques use spelling expansion, morpho-
+logical expansion, dictionary term expansion
+and proper name transliteration to reuse or
+extend a phrase table. We compare the per-
+formance of these techniques and combine
+them. Our results show a consistent improve-
+ment over a state-of-the-art baseline in terms
+of BLEU and a manual error analysis.
+1 

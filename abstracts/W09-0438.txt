@@ -1,0 +1,19 @@
+
+In this paper we present a novel translit-
+eration technique which is based on deep
+belief networks. Common approaches
+use finite state machines or other meth-
+ods similar to conventional machine trans-
+lation. Instead of using conventional NLP
+techniques, the approach presented here
+builds on deep belief networks, a tech-
+nique which was shown to work well for
+other machine learning problems. We
+show that deep belief networks have cer-
+tain properties which are very interesting
+for transliteration and possibly also for
+translation and that a combination with
+conventional techniques leads to an im-
+provement over both components on an
+Arabic-English transliteration task.
+1 

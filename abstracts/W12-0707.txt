@@ -1,0 +1,16 @@
+
+Dependency Parsing domain adaptation
+involves adapting a dependency parser,
+trained on an annotated corpus from a given
+domain (e.g., newspaper articles), to work
+on a different target domain (e.g., legal doc-
+uments), given only an unannotated corpus
+from the target domain.
+We present a shift/reduce dependency
+parser that can handle unlabeled sentences
+in its training set using a transductive SVM
+as its action selection classifier.
+We illustrate the the experiments we per-
+formed with this parser on a domain adap-
+tation task for the Italian language.
+1 

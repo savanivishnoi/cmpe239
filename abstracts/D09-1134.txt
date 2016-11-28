@@ -1,0 +1,21 @@
+
+Virtual evidence (VE), first introduced
+by (Pearl, 1988), provides a convenient
+way of incorporating prior knowledge into
+Bayesian networks. This work general-
+izes the use of VE to undirected graph-
+ical models and, in particular, to condi-
+tional random fields (CRFs). We show
+that VE can be naturally encoded into a
+CRF model as potential functions. More
+importantly, we propose a novel semi-
+supervised machine learning objective for
+estimating a CRF model integrated with
+VE. The objective can be optimized us-
+ing the Expectation-Maximization algo-
+rithm while maintaining the discriminative
+nature of CRFs. When evaluated on the
+CLASSIFIEDS data, our approach signif-
+icantly outperforms the best known solu-
+tions reported on this task.
+1 

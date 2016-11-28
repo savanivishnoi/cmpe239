@@ -1,0 +1,18 @@
+
+We present a model which integrates
+dependency parsing with reinforcement
+learning based on Markov decision pro-
+cess. At each time step, a transition is
+picked up to construct the dependency tree
+in terms of the long-run reward. The op-
+timal policy for choosing transitions can
+be found with the SARSA algorithm. In
+SARSA, an approximation of the state-
+action function can be obtained by calcu-
+lating the negative free energies for the
+Restricted Boltzmann Machine. The ex-
+perimental results on CoNLL-X multilin-
+gual data show that the proposed model
+achieves comparable results with the cur-
+rent state-of-the-art methods.
+1 

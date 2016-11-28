@@ -1,0 +1,22 @@
+
+We explore a rule system and a machine learn-
+ing (ML) approach to automatically harvest
+information on gene regulation events (GREs)
+from biological documents in two different
+evaluation scenarios ? one uses self-supplied
+corpora in a clean lab setting, while the other
+incorporates a standard reference database of
+curated GREs from REGULONDB, real-life
+data generated independently from our work.
+In the lab condition, we test how feasible
+the automatic extraction of GREs really is
+and achieve F-scores, under different, not di-
+rectly comparable test conditions though, for
+the rule and the ML systems which amount
+to 34% and 44%, respectively. In the REGU-
+LONDB condition, we investigate how robust
+both methodologies are by comparing them
+with this routinely used database. Here, the
+best F-scores for the rule and the ML systems
+amount to 34% and 19%, respectively.
+1 

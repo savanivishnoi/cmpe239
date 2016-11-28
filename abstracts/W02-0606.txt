@@ -1,0 +1,24 @@
+
+We present an algorithm that takes an
+unannotated corpus as its input, and re-
+turns a ranked list of probable morpho-
+logically related pairs as its output. The
+algorithm tries to discover morphologi-
+cally related pairs by looking for pairs
+that are both orthographically and seman-
+tically similar, where orthographic simi-
+larity is measured in terms of minimum
+edit distance, and semantic similarity is
+measured in terms of mutual information.
+The procedure does not rely on a mor-
+pheme concatenation model, nor on dis-
+tributional properties of word substrings
+(such as affix frequency). Experiments
+with German and English input give en-
+couraging results, both in terms of pre-
+cision (proportion of good pairs found at
+various cutoff points of the ranked list),
+and in terms of a qualitative analysis of
+the types of morphological patterns dis-
+covered by the algorithm.
+1 

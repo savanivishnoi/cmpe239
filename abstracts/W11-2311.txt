@@ -1,0 +1,31 @@
+
+This paper describes a machine translation
+system that offers many deaf and hearing-
+impaired people the chance to access pub-
+lished information in Arabic by translating
+text into their first language, Arabic Sign Lan-
+guage (ArSL). The system was created under
+the close guidance of a team that included
+three deaf native signers and one ArSL in-
+terpreter. We discuss problems inherent in
+the design and development of such transla-
+tion systems and review previous ArSL ma-
+chine translation systems, which all too often
+demonstrate a lack of collaboration between
+engineers and the deaf community. We de-
+scribe and explain in detail both the adapted
+translation approach chosen for the proposed
+system and the ArSL corpus that we collected
+for this purpose. The corpus has 203 signed
+sentences (with 710 distinct signs) with con-
+tent restricted to the domain of instructional
+language as typically used in deaf education.
+Evaluation shows that the system produces
+translated sign sentences outputs with an av-
+erage word error rate of 46.7% and an average
+position error rate of 29.4% using leave-one-
+out cross validation. The most frequent source
+of errors is missing signs in the corpus; this
+could be addressed in future by collecting
+more corpus material.
+1 

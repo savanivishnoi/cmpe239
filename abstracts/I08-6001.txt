@@ -1,0 +1,29 @@
+ 
+We explore the effects of language related-
+ness within a multilingual information re-
+trieval (IR) framework which can be de-
+ployed to virtually any language, focusing 
+specifically on Indo-European versus Se-
+mitic languages. The Semitic languages 
+present unique challenges to IR for a num-
+ber of reasons, so we set out to answer the 
+question of whether cross-language IR for 
+Semitic languages can be boosted by ma-
+nipulation of the training data (which, in 
+our framework, includes multilingual paral-
+lel text, some of which is morphologically 
+analyzed). We attempted three measures to 
+achieve this: first, the inclusion of geneti-
+cally related (i.e., other Semitic) languages 
+in the training data; second, the inclusion 
+of non-related languages sharing the same 
+script, and third, the inclusion of morpho-
+logical analysis for Semitic languages. We 
+find that language relatedness is a definite 
+factor in boosting IR precision; script simi-
+larity can probably be ruled out as a factor; 
+and morphological analysis can be helpful, 
+but ? perhaps paradoxically ? not necessar-
+ily to the languages which are subjected to 
+morphological analysis. 
+1 

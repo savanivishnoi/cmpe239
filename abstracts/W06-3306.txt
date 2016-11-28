@@ -1,0 +1,27 @@
+
+The identification of genes in biomedi-
+cal text typically consists of two stages:
+identifying gene mentions and normaliza-
+tion of gene names. We have created an
+automated process that takes the output
+of named entity recognition (NER) sys-
+tems designed to identify genes and nor-
+malizes them to standard referents. The
+system identifies human gene synonyms
+from online databases to generate an ex-
+tensive synonym lexicon. The lexicon is
+then compared to a list of candidate gene
+mentions using various string transforma-
+tions that can be applied and chained in
+a flexible order, followed by exact string
+matching or approximate string matching.
+Using a gold standard of MEDLINE ab-
+stracts manually tagged and normalized
+for mentions of human genes, a com-
+bined tagging and normalization system
+achieved 0.669 F-measure (0.718 preci-
+sion and 0.626 recall) at the mention level,
+and 0.901 F-measure (0.957 precision and
+0.857 recall) at the document level for
+documents used for tagger training.
+1 

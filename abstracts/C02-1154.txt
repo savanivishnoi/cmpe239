@@ -1,0 +1,16 @@
+
+We present an algorithm, Nomen, for learning
+generalized names in text. Examples of these
+are names of diseases and infectious agents, such
+as bacteria and viruses. These names exhibit
+certain properties that make their identica-
+tion more complex than that of regular proper
+names. Nomen uses a novel form of bootstrap-
+ping to grow sets of textual instances and of
+their contextual patterns. The algorithm makes
+use of competing evidence to boost the learning
+of several categories of names simultaneously.
+We present results of the algorithm on a large
+corpus. We also investigate the relative merits
+of several evaluation strategies.
+1 

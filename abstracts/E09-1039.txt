@@ -1,0 +1,24 @@
+ 
+ 
+In this paper, we describe experiments con-
+ducted on identifying a person using a novel 
+unique correlated corpus of text and audio 
+samples of the person?s communication in six 
+genres.  The text samples include essays, 
+emails, blogs, and chat.  Audio samples were 
+collected from individual interviews and group 
+discussions and then transcribed to text.  For 
+each genre, samples were collected for six top-
+ics.  We show that we can identify the com-
+municant with an accuracy of 71% for six fold 
+cross validation using an average of 22,000 
+words per individual across the six genres.  
+For person identification in a particular genre 
+(train on five genres, test on one), an average 
+accuracy of 82% is achieved.  For identifica-
+tion from topics (train on five topics, test on 
+one), an average accuracy of 94% is achieved.  
+We also report results on identifying a per-
+son?s communication in a genre using text ge-
+nres only as well as audio genres only.  
+1 

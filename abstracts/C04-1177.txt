@@ -1,0 +1,24 @@
+
+In this paper we show that an unsupervised method for
+ranking word senses automatically can be used to iden-
+tify infrequently occurring senses. We demonstrate this
+using a ranking of noun senses derived from the BNC
+and evaluating on the sense-tagged text available in both
+SemCor and the SENSEVAL-2 English all-words task.
+We show that the method does well at identifying senses
+that do not occur in a corpus, and that those that are erro-
+neously filtered but do occur typically have a lower fre-
+quency than the other senses. This method should be
+useful for word sense disambiguation systems, allowing
+effort to be concentrated on more frequent senses; it may
+also be useful for other tasks such as lexical acquisition.
+Whilst the results on balanced corpora are promising, our
+chief motivation for the method is for application to do-
+main specific text. For text within a particular domain
+many senses from a generic inventory will be rare, and
+possibly redundant. Since a large domain specific cor-
+pus of sense annotated data is not available, we evaluate
+our method on domain-specific corpora and demonstrate
+that sense types identified for removal are predominantly
+senses from outside the domain.
+1 

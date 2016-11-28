@@ -1,0 +1,23 @@
+
+Dialogue systems are one of the most chal-
+lenging applications of Natural Language
+Processing. In recent years, some statis-
+tical dialogue models have been proposed
+to cope with the dialogue problem. The
+evaluation of these models is usually per-
+formed by using them as annotation mod-
+els. Many of the works on annotation
+use information such as the complete se-
+quence of dialogue turns or the correct
+segmentation of the dialogue. This in-
+formation is not usually available for dia-
+logue systems. In this work, we propose a
+statistical model that uses only the infor-
+mation that is usually available and per-
+forms the segmentation and annotation at
+the same time. The results of this model
+reveal the great influence that the availabil-
+ity of a correct segmentation has in ob-
+taining an accurate annotation of the dia-
+logues.
+1 

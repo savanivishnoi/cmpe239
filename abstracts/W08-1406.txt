@@ -1,0 +1,27 @@
+
+Speech-to-text summarization systems
+usually take as input the output of an
+automatic speech recognition (ASR)
+system that is affected by issues like
+speech recognition errors, disfluencies, or
+difficulties in the accurate identification
+of sentence boundaries. We propose the
+inclusion of related, solid background
+information to cope with the difficulties
+of summarizing spoken language and the
+use of multi-document summarization
+techniques in single document speech-
+to-text summarization. In this work, we
+explore the possibilities offered by pho-
+netic information to select the background
+information and conduct a perceptual
+evaluation to better assess the relevance of
+the inclusion of that information. Results
+show that summaries generated using
+this approach are considerably better than
+those produced by an up-to-date latent
+semantic analysis (LSA) summarization
+method and suggest that humans prefer
+summaries restricted to the information
+conveyed in the input source.
+1 

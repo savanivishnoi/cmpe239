@@ -1,0 +1,16 @@
+
+This paper presents a classifier-combination
+experimental framework for named entity
+recognition in which four diverse classi-
+fiers (robust linear classifier, maximum en-
+tropy, transformation-based learning, and hid-
+den Markov model) are combined under differ-
+ent conditions. When no gazetteer or other ad-
+ditional training resources are used, the com-
+bined system attains a performance of 91.6F
+on the English development data; integrat-
+ing name, location and person gazetteers, and
+named entity systems trained on additional,
+more general, data reduces the F-measure error
+by a factor of 15 to 21% on the English data.
+1 

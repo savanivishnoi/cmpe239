@@ -1,0 +1,25 @@
+ 
+Several computational simulations of how 
+children solve the word segmentation problem 
+have been proposed, but most have been 
+applied only to a limited number of languages. 
+One model with some experimental support 
+uses distributional statistics of sound sequence 
+predictability (Saffran et al 1996).  However, 
+the experimental design does not fully specify 
+how predictability is best measured or 
+modeled in a simulation.  Saffran et al (1996) 
+assume transitional probability, but Brent 
+(1999a) claims mutual information (MI) is 
+more appropriate.  Both assume predictability 
+is measured locally, relative to neighboring 
+segment-pairs. 
+This paper replicates Brent?s (1999a) mutual-
+information model on a corpus of child-
+directed speech in Modern Greek, and 
+introduces a variant model using a global 
+threshold. Brent?s finding regarding the 
+superiority of MI is confirmed; the relative 
+performance of local comparisons and global 
+thresholds depends on the evaluation metric. 
+1 

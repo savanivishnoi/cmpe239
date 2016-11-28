@@ -1,0 +1,17 @@
+
+In this paper, we define a new type of
+summary for sentiment analysis: a single-
+sentence summary that consists of a sup-
+porting sentence that conveys the overall
+sentiment of a review as well as a convinc-
+ing reason for this sentiment. We present a
+system for extracting supporting sentences
+from online product reviews, based on a
+simple and unsupervised method. We de-
+sign a novel comparative evaluation method
+for summarization, using a crowdsourcing
+service. The evaluation shows that our
+sentence extraction method performs better
+than a baseline of taking the sentence with
+the strongest sentiment.
+1 

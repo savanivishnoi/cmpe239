@@ -1,0 +1,23 @@
+
+This paper presents a new algorithm for lin-
+ear text segmentation. It is an adaptation of
+Affinity Propagation, a state-of-the-art clus-
+tering algorithm in the framework of factor
+graphs. Affinity Propagation for Segmenta-
+tion, or APS, receives a set of pairwise simi-
+larities between data points and produces seg-
+ment boundaries and segment centres ? data
+points which best describe all other data points
+within the segment. APS iteratively passes
+messages in a cyclic factor graph, until conver-
+gence. Each iteration works with information
+on all available similarities, resulting in high-
+quality results. APS scales linearly for realistic
+segmentation tasks. We derive the algorithm
+from the original Affinity Propagation formu-
+lation, and evaluate its performance on topi-
+cal text segmentation in comparison with two
+state-of-the art segmenters. The results sug-
+gest that APS performs on par with or outper-
+forms these two very competitive baselines.
+1 

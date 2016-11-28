@@ -1,0 +1,19 @@
+
+This paper presents the evaluation setting
+for the SemEval-2010 Word Sense Induction
+(WSI) task. The setting of the SemEval-2007
+WSI task consists of two evaluation schemes,
+i.e. unsupervised evaluation and supervised
+evaluation. The first one evaluates WSI meth-
+ods in a similar fashion to Information Re-
+trieval exercises using F-Score. However,
+F-Score suffers from the matching problem
+which does not allow: (1) the assessment of
+the entire membership of clusters, and (2) the
+evaluation of all clusters in a given solution. In
+this paper, we present the use of V-measure as
+a measure of objectively assessing WSI meth-
+ods in an unsupervised setting, and we also
+suggest a small modification on the supervised
+evaluation.
+1 

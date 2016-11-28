@@ -1,0 +1,14 @@
+
+In lexicalized phrase-structure or dependency parses, a word?s
+modifiers tend to fall near it in the string. We show that a crude
+way to use dependency length as a parsing feature can sub-
+stantially improve parsing speed and accuracy in English and
+Chinese, with more mixed results on German. We then show
+similar improvements by imposing hard bounds on dependency
+length and (additionally) modeling the resulting sequence of
+parse fragments. This simple ?vine grammar? formalism has
+only finite-state power, but a context-free parameterization with
+some extra parameters for stringing fragments together. We ex-
+hibit a linear-time chart parsing algorithm with a low grammar
+constant.
+1 

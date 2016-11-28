@@ -1,0 +1,15 @@
+ 
+This paper describes a heuristic approach to 
+automatically identifying which senses of a machine- 
+readable dictionary (MRD) headword are 
+semantically related versus those which correspond 
+to fundamentally different senses of the word. The 
+inclusion of this information in a lexical database 
+profoundly alters the nature of sense disambiguation: 
+the appropriate "sense" of a polysemous word may 
+now correspond to some set  of  related senses. Our 
+technique offers benefits both for on-line semantic 
+processing and for the challenging task of mapping 
+word senses across multiple MRDs in creating a 
+merged lexical database. 
+1. 

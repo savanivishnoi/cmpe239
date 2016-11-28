@@ -1,0 +1,22 @@
+
+We explore unsupervised approaches to rela-
+tion extraction between two named entities;
+for instance, the semantic bornIn relation be-
+tween a person and location entity. Con-
+cretely, we propose a series of generative
+probabilistic models, broadly similar to topic
+models, each which generates a corpus of ob-
+served triples of entity mention pairs and the
+surface syntactic dependency path between
+them. The output of each model is a cluster-
+ing of observed relation tuples and their as-
+sociated textual expressions to underlying se-
+mantic relation types. Our proposed models
+exploit entity type constraints within a relation
+as well as features on the dependency path be-
+tween entity mentions. We examine effective-
+ness of our approach via multiple evaluations
+and demonstrate 12% error reduction in preci-
+sion over a state-of-the-art weakly supervised
+baseline.
+1 

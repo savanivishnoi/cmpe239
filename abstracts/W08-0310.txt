@@ -1,0 +1,13 @@
+
+This paper describes our statistical machine
+translation systems based on the Moses toolkit
+for the WMT08 shared task. We address the
+Europarl and News conditions for the follow-
+ing language pairs: English with French, Ger-
+man and Spanish. For Europarl, n-best rescor-
+ing is performed using an enhanced n-gram
+or a neuronal language model; for the News
+condition, language models incorporate extra
+training data. We also report unconvincing re-
+sults of experiments with factored models.
+1 

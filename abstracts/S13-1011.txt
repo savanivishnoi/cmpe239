@@ -1,0 +1,16 @@
+
+This paper describes methods that were sub-
+mitted as part of the *SEM shared task on
+Semantic Textual Similarity. Multiple kernels
+provide different views of syntactic structure,
+from both tree and dependency parses. The
+kernels are then combined with simple lex-
+ical features using Gaussian process regres-
+sion, which is trained on different subsets of
+training data for each run. We found that the
+simplest combination has the highest consis-
+tency across the different data sets, while in-
+troduction of more training data and models
+requires training and test data with matching
+qualities.
+1 

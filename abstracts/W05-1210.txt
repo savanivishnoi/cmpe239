@@ -1,0 +1,20 @@
+
+In this paper we define two intermediate
+models of textual entailment, which corre-
+spond to lexical and lexical-syntactic lev-
+els of representation. We manually anno-
+tated a sample from the RTE dataset ac-
+cording to each model, compared the out-
+come for the two models, and explored
+how well they approximate the notion of
+entailment. We show that the lexical-
+syntactic model outperforms the lexical
+model, mainly due to a much lower rate
+of false-positives, but both models fail to
+achieve high recall. Our analysis also
+shows that paraphrases stand out as a
+dominant contributor to the entailment
+task. We suggest that our models and an-
+notation methods can serve as an evalua-
+tion scheme for entailment at these levels.
+1 

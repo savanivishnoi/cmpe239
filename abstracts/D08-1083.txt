@@ -1,0 +1,28 @@
+
+Determining the polarity of a sentiment-
+bearing expression requires more than a sim-
+ple bag-of-words approach. In particular,
+words or constituents within the expression
+can interact with each other to yield a particu-
+lar overall polarity. In this paper, we view such
+subsentential interactions in light of composi-
+tional semantics, and present a novel learning-
+based approach that incorporates structural in-
+ference motivated by compositional seman-
+tics into the learning procedure. Our exper-
+iments show that (1) simple heuristics based
+on compositional semantics can perform bet-
+ter than learning-based methods that do not in-
+corporate compositional semantics (accuracy
+of 89.7% vs. 89.1%), but (2) a method that
+integrates compositional semantics into learn-
+ing performs better than all other alterna-
+tives (90.7%). We also find that ?content-
+word negators?, not widely employed in pre-
+vious work, play an important role in de-
+termining expression-level polarity. Finally,
+in contrast to conventional wisdom, we find
+that expression-level classification accuracy
+uniformly decreases as additional, potentially
+disambiguating, context is considered.
+1 

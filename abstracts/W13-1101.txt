@@ -1,0 +1,15 @@
+
+We explore improving parsing social media
+and other web data by altering the input data,
+namely by normalizing web text, and by revis-
+ing output parses. We find that text normal-
+ization improves performance, though spell
+checking has more of a mixed impact. We also
+find that a very simple tree reviser based on
+grammar comparisons performs slightly but
+significantly better than the baseline and well
+outperforms a machine learning model. The
+results also demonstrate that, more than the
+size of the training data, the goodness of fit
+of the data has a great impact on the parser.
+1 

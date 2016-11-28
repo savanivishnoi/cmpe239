@@ -1,0 +1,22 @@
+
+We introduce a new approach to semantics
+which combines the benefits of distributional
+and formal logical semantics. Distributional
+models have been successful in modelling the
+meanings of content words, but logical se-
+mantics is necessary to adequately represent
+many function words. We follow formal se-
+mantics in mapping language to logical rep-
+resentations, but differ in that the relational
+constants used are induced by offline distri-
+butional clustering at the level of predicate-
+argument structure. Our clustering algorithm
+is highly scalable, allowing us to run on cor-
+pora the size of Gigaword. Different senses of
+a word are disambiguated based on their in-
+duced types. We outperform a variety of ex-
+isting approaches on a wide-coverage question
+answering task, and demonstrate the ability to
+make complex multi-sentence inferences in-
+volving quantifiers on the FraCaS suite.
+1 

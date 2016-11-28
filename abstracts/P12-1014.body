@@ -1,0 +1,27 @@
+
+Comprehending action preconditions and ef-
+fects is an essential step in modeling the dy-
+namics of the world. In this paper, we ex-
+press the semantics of precondition relations
+extracted from text in terms of planning oper-
+ations. The challenge of modeling this con-
+nection is to ground language at the level of
+relations. This type of grounding enables us to
+create high-level plans based on language ab-
+stractions. Our model jointly learns to predict
+precondition relations from text and to per-
+form high-level planning guided by those rela-
+tions. We implement this idea in the reinforce-
+ment learning framework using feedback au-
+tomatically obtained from plan execution at-
+tempts. When applied to a complex virtual
+world and text describing that world, our rela-
+tion extraction technique performs on par with
+a supervised baseline, yielding an F-measure
+of 66% compared to the baseline?s 65%. Ad-
+ditionally, we show that a high-level planner
+utilizing these extracted relations significantly
+outperforms a strong, text unaware baseline
+? successfully completing 80% of planning
+tasks as compared to 69% for the baseline.1
+1 

@@ -1,0 +1,12 @@
+
+This paper describes the development of
+French?English and English?French statisti-
+cal machine translation systems for the 2012
+WMT shared task evaluation. We developed
+phrase-based systems based on the Moses de-
+coder, trained on the provided data only. Ad-
+ditionally, new features this year included im-
+proved language and translation model adap-
+tation using the cross-entropy score for the
+corpus selection.
+1 

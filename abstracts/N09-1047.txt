@@ -1,0 +1,17 @@
+
+Statistical machine translation (SMT) mod-
+els need large bilingual corpora for train-
+ing, which are unavailable for some language
+pairs. This paper provides the first serious ex-
+perimental study of active learning for SMT.
+We use active learning to improve the qual-
+ity of a phrase-based SMT system, and show
+significant improvements in translation com-
+pared to a random sentence selection baseline,
+when test and training data are taken from the
+same or different domains. Experimental re-
+sults are shown in a simulated setting using
+three language pairs, and in a realistic situa-
+tion for Bangla-English, a language pair with
+limited translation resources.
+1 

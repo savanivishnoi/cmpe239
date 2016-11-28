@@ -1,0 +1,24 @@
+
+In this paper we explore the computational
+modelling of compositionality in distri-
+butional models of semantics. In par-
+ticular, we model the semantic composi-
+tion of pairs of adjacent English Adjec-
+tives and Nouns from the British National
+Corpus. We build a vector-based seman-
+tic space from a lemmatised version of
+the BNC, where the most frequent A-N
+lemma pairs are treated as single tokens.
+We then extrapolate three different mod-
+els of compositionality: a simple additive
+model, a pointwise-multiplicative model
+and a Partial Least Squares Regression
+(PLSR) model. We propose two evalu-
+ation methods for the implemented mod-
+els. Our study leads to the conclusion that
+regression-based models of composition-
+ality generally out-perform additive and
+multiplicative approaches, and also show a
+number of advantages that make them very
+promising for future research.
+1 

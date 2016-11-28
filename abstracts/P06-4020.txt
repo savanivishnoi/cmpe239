@@ -1,0 +1,16 @@
+
+We describe the new release of the RASP
+(robust accurate statistical parsing) sys-
+tem, designed for syntactic annotation of
+free text. The new version includes a
+revised and more semantically-motivated
+output representation, an enhanced gram-
+mar and part-of-speech tagger lexicon, and
+a more flexible and semi-supervised train-
+ing method for the structural parse ranking
+model. We evaluate the released version
+on the WSJ using a relational evaluation
+scheme, and describe how the new release
+allows users to enhance performance using
+(in-domain) lexical information.
+1 

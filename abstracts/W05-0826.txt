@@ -1,0 +1,19 @@
+
+We describe the Spanish-to-English LDV-
+COMBO system for the Shared Task 2:
+?Exploiting Parallel Texts for Statistical
+Machine Translation? of the ACL-2005
+Workshop on ?Building and Using Par-
+allel Texts: Data-Driven Machine Trans-
+lation and Beyond?. Our approach ex-
+plores the possibility of working with
+alignments at different levels of abstrac-
+tion, using different degrees of linguistic
+annotation. Several phrase-based trans-
+lation models are built out from these
+alignments. Their combination significa-
+tively outperforms any of them in isola-
+tion. Moreover, we have built a word-
+based translation model based on Word-
+Net which is used for unknown words.
+1 

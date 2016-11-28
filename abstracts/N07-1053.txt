@@ -1,0 +1,14 @@
+
+A new architecture for identifying and in-
+terpreting temporal expressions is intro-
+duced, in which the large set of com-
+plex hand-crafted rules standard in sys-
+tems for this task is replaced by a series
+of machine learned classifiers and a much
+smaller set of context-independent seman-
+tic composition rules. Experiments with
+the TERN 2004 data set demonstrate that
+overall system performance is comparable
+to the state-of-the-art, and that normaliza-
+tion performance is particularly good.
+1 

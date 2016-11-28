@@ -1,0 +1,25 @@
+
+Learning to group words into phrases with-
+out supervision is a hard task for NLP sys-
+tems, but infants routinely accomplish it. We
+hypothesize that infants use acoustic cues to
+prosody, which NLP systems typically ignore.
+To evaluate the utility of prosodic information
+for phrase discovery, we present an HMM-
+based unsupervised chunker that learns from
+only transcribed words and raw acoustic cor-
+relates to prosody. Unlike previous work on
+unsupervised parsing and chunking, we use
+neither gold standard part-of-speech tags nor
+punctuation in the input. Evaluated on the
+Switchboard corpus, our model outperforms
+several baselines that exploit either lexical or
+prosodic information alone, and, despite pro-
+ducing a flat structure, performs competitively
+with a state-of-the-art unsupervised lexical-
+ized parser, with a substantial advantage in
+precision. Our results support the hypothesis
+that acoustic-prosodic cues provide useful ev-
+idence about syntactic phrases for language-
+learning infants.
+1 

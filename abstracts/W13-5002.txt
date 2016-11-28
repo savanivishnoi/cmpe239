@@ -1,0 +1,20 @@
+
+We introduce an interactive visualization com-
+ponent for the JoBimText project. JoBim-
+Text is an open source platform for large-scale
+distributional semantics based on graph rep-
+resentations. First we describe the underly-
+ing technology for computing a distributional
+thesaurus on words using bipartite graphs of
+words and context features, and contextualiz-
+ing the list of semantically similar words to-
+wards a given sentential context using graph-
+based ranking. Then we demonstrate the ca-
+pabilities of this contextualized text expan-
+sion technology in an interactive visualization.
+The visualization can be used as a semantic
+parser providing contextualized expansions of
+words in text as well as disambiguation to
+word senses induced by graph clustering, and
+is provided as an open source tool.
+1 

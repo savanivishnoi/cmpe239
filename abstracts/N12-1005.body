@@ -1,0 +1,21 @@
+
+The use of conventional maximum likelihood
+estimates hinders the performance of existing
+phrase-based translation models. For lack of
+sufficient training data, most models only con-
+sider a small amount of context. As a par-
+tial remedy, we explore here several contin-
+uous space translation models, where transla-
+tion probabilities are estimated using a con-
+tinuous representation of translation units in
+lieu of standard discrete representations. In
+order to handle a large set of translation units,
+these representations and the associated esti-
+mates are jointly computed using a multi-layer
+neural network with a SOUL architecture. In
+small scale and large scale English to French
+experiments, we show that the resulting mod-
+els can effectively be trained and used on top
+of a n-gram translation system, delivering sig-
+nificant improvements in performance.
+1 

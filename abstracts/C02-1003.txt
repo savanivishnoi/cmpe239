@@ -1,0 +1,20 @@
+  
+This paper proposes a new method for 
+automatic acquisition of Chinese bracketing 
+knowledge from English-Chinese sentence- 
+aligned bilingual corpora. Bilingual sentence 
+pairs are first aligned in syntactic structure by 
+combining English parse trees with a 
+statistical bilingual language model. Chinese 
+bracketing knowledge is then extracted 
+automatically. The preliminary experiments 
+show automatically learned knowledge 
+accords well with manually annotated 
+brackets. The proposed method is 
+particularly useful to acquire bracketing 
+knowledge for a less studied language that 
+lacks tools and resources found in a second 
+language more studied. Although this paper 
+discusses experiments with Chinese and 
+English, the method is also applicable to 
+other language pairs. 

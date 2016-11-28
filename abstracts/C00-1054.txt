@@ -1,0 +1,24 @@
+ 
+Multimodal interfaces require effective parsing and 
+nn(lerstanding of utterances whose content is dis- 
+tributed across multiple input modes. Johnston 1998 
+presents an approach in which strategies lbr mul- 
+timodal integration are stated declaratively using a 
+unification-based grammar that is used by a mnlti- 
+dilnensional chart parser to compose inputs. This 
+approach is highly expressive and supports a broad 
+class of interfaces, but offers only limited potential 
+for lnutual compensation among the input modes, is 
+subject o signilicant concerns in terms o1' COml)uta- 
+tional complexity, and complicates selection among 
+alternative multimodal interpretations of the input. 
+In tiffs papeh we l)resent an alternative approacla 
+in which multimodal lmrsing and understanding are 
+achieved using a weighted finite-state device which 
+takes speech and gesture streams as inputs and out- 
+puts their joint interpretation. This approach is sig- 
+nificantly more efficienl, enables tight-coupling of 
+multimodal understanding with speech recognition, 
+and provides a general probabilistic fralnework for 
+multimodal ambiguity resolution. 
+1 

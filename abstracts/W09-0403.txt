@@ -1,0 +1,16 @@
+
+This paper describes a simple evaluation
+metric for MT which attempts to overcome
+the well-known deficits of the standard
+BLEU metric from a slightly different an-
+gle. It employes Levenshtein?s edit dis-
+tance for establishing alignment between
+the MT output and the reference transla-
+tion in order to reflect the morphological
+properties of highly inflected languages. It
+also incorporates a very simple measure
+expressing the differences in the word or-
+der. The paper also includes evaluation on
+the data from the previous SMT workshop
+for several language pairs.
+1 

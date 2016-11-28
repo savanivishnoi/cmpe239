@@ -1,0 +1,13 @@
+
+This paper is an overview of the SwatCS
+system submitted to SemEval-2013 Task 2A:
+Contextual Polarity Disambiguation. The sen-
+timent of individual phrases within a tweet
+are labeled using a combination of classifiers
+trained on a range of lexical features. The
+classifiers are combined by estimating the ac-
+curacy of the classifiers on each tweet. Perfor-
+mance is measured when using only the pro-
+vided training data, and separately when in-
+cluding external data.
+1 

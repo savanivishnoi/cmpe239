@@ -1,0 +1,32 @@
+
+In state-of-the-art approaches to information
+extraction (IE), dependency graphs constitute
+the fundamental data structure for syntactic
+structuring and subsequent knowledge elicita-
+tion from natural language documents. The
+top-performing systems in the BioNLP 2009
+Shared Task on Event Extraction all shared the
+idea to use dependency structures generated
+by a variety of parsers ? either directly or
+in some converted manner ? and optionally
+modified their output to fit the special needs
+of IE. As there are systematic differences be-
+tween various dependency representations be-
+ing used in this competition, we scrutinize on
+different encoding styles for dependency in-
+formation and their possible impact on solv-
+ing several IE tasks. After assessing more
+or less established dependency representations
+such as the Stanford and CoNLL-X dependen-
+cies, we will then focus on trimming opera-
+tions that pave the way to more effective IE.
+Our evaluation study covers data from a num-
+ber of constituency- and dependency-based
+parsers and provides experimental evidence
+which dependency representations are partic-
+ularly beneficial for the event extraction task.
+Based on empirical findings from our study
+we were able to achieve the performance of
+57.2% F-score on the development data set of
+the BioNLP Shared Task 2009.
+1 

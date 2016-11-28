@@ -1,0 +1,16 @@
+
+We present a new word-alignment ap-
+proach that learns errors made by ex-
+isting word alignment systems and cor-
+rects them. By adapting transformation-
+based learning to the problem of word
+alignment, we project new alignment links
+from already existing links, using features
+such as POS tags. We show that our align-
+ment link projection approach yields a sig-
+nificantly lower alignment error rate than
+that of the best performing alignment sys-
+tem (22.6% relative reduction on English-
+Spanish data and 23.2% relative reduction
+on English-Chinese data).
+1 

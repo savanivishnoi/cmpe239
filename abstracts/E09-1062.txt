@@ -1,0 +1,22 @@
+
+We address the task of automatically pre-
+dicting if summarization system perfor-
+mance will be good or bad based on fea-
+tures derived directly from either single- or
+multi-document inputs. Our labelled cor-
+pus for the task is composed of data from
+large scale evaluations completed over the
+span of several years. The variation of data
+between years allows for a comprehensive
+analysis of the robustness of features, but
+poses a challenge for building a combined
+corpus which can be used for training and
+testing. Still, we find that the problem can
+be mitigated by appropriately normalizing
+for differences within each year. We ex-
+amine different formulations of the classi-
+fication task which considerably influence
+performance. The best results are 84%
+prediction accuracy for single- and 74%
+for multi-document summarization.
+1 

@@ -1,0 +1,17 @@
+
+We present a method for lexical simplifica-
+tion. Simplification rules are learned from a
+comparable corpus, and the rules are applied
+in a context-aware fashion to input sentences.
+Our method is unsupervised. Furthermore, it
+does not require any alignment or correspon-
+dence among the complex and simple corpora.
+We evaluate the simplification according to
+three criteria: preservation of grammaticality,
+preservation of meaning, and degree of sim-
+plification. Results show that our method out-
+performs an established simplification base-
+line for both meaning preservation and sim-
+plification, while maintaining a high level of
+grammaticality.
+1 

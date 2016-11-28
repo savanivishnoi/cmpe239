@@ -1,0 +1,15 @@
+ 
+This paper describes aheuristic-based approach to 
+word-sense disambiguation. The heuristics that are 
+applied to disambiguate a word depend on its part of 
+speech, and on its relationship to neighboring salient 
+words in the text. Parts of speech are found through a 
+tagger, and related neighboring words are identified by a 
+phrase xtractor operating on the tagged text. To suggest 
+possible senses, each heuristic draws on semantic rela- 
+tions extracted from a Webster's dictionary and the 
+semantic thesaurus WordNet. For a given word, all 
+applicable heuristics are tried, and those senses that are 
+rejected by all heuristics are discarded. In all, the disam- 
+biguator uses 39 heuristics based on 12 relationships. 
+1 

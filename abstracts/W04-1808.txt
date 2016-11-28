@@ -1,0 +1,20 @@
+
+Discovering synonyms and other related words
+among the words in a document collection can
+be seen as a clustering problem, where we ex-
+pect the words in a cluster to be closely related
+to one another. The intuition is that words oc-
+curring in similar contexts tend to convey simi-
+lar meaning.
+We introduce a way to use translation dictio-
+naries for several languages to evaluate the rate
+of synonymy found in the word clusters. We also
+apply the information radius to calculating sim-
+ilarities between words using a full dependency
+syntactic feature space, and introduce a method
+for similarity recalculation during clustering as
+a fast approximation of the high-dimensional
+feature space. Finally, we show that 69-79% of
+the words in the clusters we discover are useful
+for thesaurus construction.
+1 

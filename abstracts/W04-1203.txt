@@ -1,0 +1,16 @@
+
+In this paper, we present an evaluation of the
+Link Grammar parser on a corpus consisting
+of sentences describing protein-protein interac-
+tions. We introduce the notion of an interac-
+tion subgraph, which is the subgraph of a de-
+pendency graph expressing a protein-protein in-
+teraction. We measure the performance of the
+parser for recovery of dependencies, fully correct
+linkages and interaction subgraphs. We analyze
+the causes of parser failure and report specific
+causes of error, and identify potential modifica-
+tions to the grammar to address the identified
+issues. We also report and discuss the effect of
+an extension to the dictionary of the parser.
+1 

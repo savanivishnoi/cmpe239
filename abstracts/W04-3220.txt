@@ -1,0 +1,16 @@
+
+We propose a general model for joint inference in corre-
+lated natural language processing tasks when fully anno-
+tated training data is not available, and apply this model
+to the dual tasks of word sense disambiguation and verb
+subcategorization frame determination. The model uses
+the EM algorithm to simultaneously complete partially
+annotated training sets and learn a generative probabilis-
+tic model over multiple annotations. When applied to the
+word sense and verb subcategorization frame determina-
+tion tasks, the model learns sharp joint probability dis-
+tributions which correspond to linguistic intuitions about
+the correlations of the variables. Use of the joint model
+leads to error reductions over competitive independent
+models on these tasks.
+1 

@@ -1,0 +1,21 @@
+
+We report evaluation results for our sum-
+marization system and analyze the result-
+ing summarization data for three differ-
+ent types of corpora. To develop a ro-
+bust summarization system, we have cre-
+ated a system based on sentence extraction
+and applied it to summarize Japanese and
+English newspaper articles, obtained some
+of the top results at two evaluation work-
+shops. We have also created sentence ex-
+traction data from Japanese lectures and
+evaluated our system with these data. In
+addition to the evaluation results, we an-
+alyze the relationships between key sen-
+tences and the features used in sentence
+extraction. We find that discrete combi-
+nations of features match distributions of
+key sentences better than sequential com-
+binations.
+1 

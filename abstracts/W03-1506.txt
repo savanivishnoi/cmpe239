@@ -1,0 +1,19 @@
+ 
+We introduce a multi-language 
+named-entity recognition system based on 
+HMM. Japanese, Chinese, Korean and 
+English versions have already been 
+implemented. In principle, it can analyze 
+any other language if we have training 
+data of the target language. This system 
+has a common analytical engine and it can 
+handle any language simply by changing 
+the lexical analysis rules and statistical 
+language model. In this paper, we 
+describe the architecture and accuracy of 
+the named-entity system, and report 
+preliminary experiments on automatic 
+bilingual named-entity dictionary 
+construction using the Japanese and 
+English named-entity recognizer. 
+1.  

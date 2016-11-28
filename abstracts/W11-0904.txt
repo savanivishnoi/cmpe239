@@ -1,0 +1,32 @@
+ 
+In this paper, we have identified event and sen-
+timent expressions at word level from the sen-
+tences of TempEval-2010 corpus and evaluated 
+their association in terms of lexical equivalence 
+and co-reference. A hybrid approach that con-
+sists of Conditional Random Field (CRF) based 
+machine learning framework in conjunction 
+with several rule based strategies has been 
+adopted for event identification within the 
+TimeML framework. The strategies are based 
+on semantic role labeling, WordNet relations 
+and some handcrafted rules. The sentiment ex-
+pressions are identified simply based on the 
+cues that are available in the sentiment lexicons 
+such as Subjectivity Wordlist, SentiWordNet 
+and WordNet Affect. The identification of lexi-
+cal equivalence between event and sentiment 
+expressions based on the part-of-speech (POS) 
+categories is straightforward. The emotional 
+verbs from VerbNet have also been employed 
+to improve the coverage of lexical equivalence. 
+On the other hand, the association of sentiment 
+and event has been analyzed using the notion of 
+co-reference. The parsed dependency relations 
+along with basic rhetoric knowledge help to 
+identify the co-reference between event and 
+sentiment expressions. Manual evaluation on 
+the 171 sentences of TempEval-2010 dataset 
+yields the precision, recall and F-Score values 
+of 61.25%, 70.29% and 65.23% respectively.  
+1 

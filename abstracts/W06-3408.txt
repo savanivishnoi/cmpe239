@@ -1,0 +1,22 @@
+ 
+We present a system for analyzing conver-
+sational data. The system includes state-of-
+the-art natural language processing compo-
+nents that have been modified to accom-
+modate the unique nature of conversational 
+data. In addition, we leverage the added 
+richness of conversational data by analyz-
+ing various aspects of the participants and 
+their relationships to each other. Our tool 
+provides users with the ability to easily 
+identify topics or persons of interest, in-
+cluding who talked to whom, when, entities 
+that were discussed, etc. Using this tool, 
+one can also isolate more complex net-
+works of information: individuals who may 
+have discussed the same topics but never 
+talked to each other. The tool includes a UI 
+that plots information over time, and a se-
+mantic graph that highlights relationships 
+of interest.  
+1 

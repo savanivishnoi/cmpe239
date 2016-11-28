@@ -1,0 +1,29 @@
+
+We introduce referential translation ma-
+chines (RTM) for quality estimation of
+translation outputs. RTMs are a computa-
+tional model for identifying the translation
+acts between any two data sets with re-
+spect to a reference corpus selected in the
+same domain, which can be used for esti-
+mating the quality of translation outputs,
+judging the semantic similarity between
+text, and evaluating the quality of student
+answers. RTMs achieve top performance
+in automatic, accurate, and language inde-
+pendent prediction of sentence-level and
+word-level statistical machine translation
+(SMT) quality. RTMs remove the need to
+access any SMT system specific informa-
+tion or prior knowledge of the training data
+or models used when generating the trans-
+lations. We develop novel techniques for
+solving all subtasks in the WMT13 qual-
+ity estimation (QE) task (QET 2013) based
+on individual RTM models. Our results
+achieve improvements over last year?s QE
+task results (QET 2012), as well as our
+previous results, provide new features and
+techniques for QE, and rank 1st or 2nd in
+all of the subtasks.
+1 

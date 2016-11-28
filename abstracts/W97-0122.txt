@@ -1,0 +1,12 @@
+ 
+How similar are two corpora? A measure of corpus similarity would be very useful for 
+lexicography and language engineering. Word frequency lists are cheap and easy to generate 
+so a measure based on them would be of use as a quick guide in many circumstances; for 
+example, to judge how a newly available corpus related to existing resources, or how easy it 
+might be to port an NLP  system designed to work with one text type to work with another. 
+We show that corpus similarity can only be interpreted in the light of corpus homogeneity. 
+The paper presents a measure, based on the XX 2 statistic, for measuring both corpus imilarity 
+and corpus homogeneity. The measure is compared with a rank-based measure and shown 
+to outperform it. Some results are presented. A method for evaluating the accuracy of the 
+measure is introduced and some results of using the measure are presented. 
+1 

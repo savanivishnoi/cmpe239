@@ -1,0 +1,23 @@
+
+Confusion networks are a simple representa-
+tion of multiple speech recognition or transla-
+tion hypotheses in a machine translation sys-
+tem. A typical operation on a confusion net-
+work is to find the path which minimizes or
+maximizes a certain evaluation metric. In this
+article, we show that this problem is gener-
+ally NP-hard for the popular BLEU metric,
+as well as for smaller variants of BLEU. This
+also holds for more complex representations
+like generic word graphs. In addition, we give
+an efficient polynomial-time algorithm to cal-
+culate unigram BLEU on confusion networks,
+but show that even small generalizations of
+this data structure render the problem to be
+NP-hard again.
+Since finding the optimal solution is thus not
+always feasible, we introduce an approximat-
+ing algorithm based on a multi-stack decoder,
+which finds a (not necessarily optimal) solu-
+tion for n-gram BLEU in polynomial time.
+1 

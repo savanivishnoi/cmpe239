@@ -1,0 +1,22 @@
+ 
+This paper presents the HIT_CITYU systems 
+in Semeval-2 Task 18, namely, disambiguat-
+ing sentiment ambiguous adjectives. The base-
+line system (HITSZ_CITYU_3) incorporates 
+bi-gram and n-gram collocations of sentiment 
+adjectives, and other context words as features 
+in a one-class Support Vector Machine (SVM) 
+classifier. To enhance the baseline system, col-
+location set expansion and characteristics 
+learning based on word similarity and semi-
+supervised learning are investigated, respec-
+tively. The final system (HITSZ_CITYU_1/2) 
+combines collocations, context words and 
+neighboring sentence sentiment in a two-class 
+SVM classifier to determine the polarity of 
+sentiment adjectives. The final systems 
+achieved 0.957 and 0.953 (ranked 1st and 2nd) 
+macro accuracy, and 0.936 and 0.933 (ranked 
+2nd and 3rd) micro accuracy, respectively.  
+ 
+1 

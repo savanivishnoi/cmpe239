@@ -1,0 +1,14 @@
+ 
+This paper presents a robust client/server implemen- 
+tation of a word sense disambiguator for English. 
+This system associates a word with its meaning in 
+a given context using dictionaries as tagged corpora 
+in order to extract semantic disambiguation rules. 
+Semantic rules are used as input of a semantic appli- 
+cation program which encodes a linguistic strategy 
+in order to select he best disambiguation rule for 
+the word to be disambiguated. The semantic dis- 
+ambiguation rule application program is part of the 
+client/server a chitecture enabling the processing of 
+large corpora. 
+1 

@@ -1,0 +1,11 @@
+
+Binarization of grammars is crucial for im-
+proving the complexity and performance
+of parsing and translation. We present a
+versatile binarization algorithm that can
+be tailored to a number of grammar for-
+malisms by simply varying a formal pa-
+rameter. We apply our algorithm to bi-
+narizing tree-to-string transducers used in
+syntax-based machine translation.
+1 

@@ -1,0 +1,20 @@
+
+This paper makes two contributions. First, we
+describe the Hindi Proposition Bank that con-
+tains annotations of predicate argument struc-
+tures of verb predicates. Unlike PropBanks
+in most other languages, the Hind PropBank
+is annotated on top of dependency structure,
+the Hindi Dependency Treebank. We explore
+the similarities between dependency and pred-
+icate argument structures, so the PropBank an-
+notation can be faster and more accurate. Sec-
+ond, we present a probabilistic rule-based sys-
+tem that maps syntactic dependents to seman-
+tic arguments. With simple rules, we classify
+about 47% of the entire PropBank arguments
+with over 90% confidence. These preliminary
+results are promising; they show how well
+these two frameworks are correlated. This can
+also be used to speed up our annotations.
+1 

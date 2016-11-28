@@ -1,0 +1,29 @@
+ 
+This paper presents an automatic map-
+ping method among large-scale hetero-
+geneous language resources: Sejong 
+Semantic Classes (SJSC) and KorLex. 
+KorLex is a large-scale Korean Word-
+Net, but  it lacks specific syntactic & 
+semantic information. Sejong Electron-
+ic Dictionary (SJD), of which semantic 
+segmentation depends on SJSC, has 
+much lower lexical coverage than 
+KorLex, but shows refined syntactic & 
+semantic information. The goal of this 
+study is to build a rich language re-
+source for improving Korean semanti-
+co-syntactic parsing technology. There-
+fore, we consider integration of them 
+and propose automatic mapping me-
+thod with three approaches: 1) Infor-
+mation of Monosemy/Polysemy of 
+Word senses (IMPW), 2) Instances be-
+tween Nouns of SJD and Word senses 
+of KorLex (INW), and 3) Semantically 
+Related words between Nouns of SJD 
+and Synsets of KorLex (SRNS). We 
+obtain good performance using com-
+bined three approaches: recall 0.837, 
+precision 0.717, and F1 0.773. 
+1 

@@ -1,0 +1,18 @@
+ 
+Multi-word terms are traditionally identified using 
+statistical techniques or, more recently, using hybrid 
+techniques combining statistics with shallow linguis- 
+tic information. Al)proaches to word sense disam- 
+biguation and machine translation have taken ad- 
+vantage of contextual information in a more mean- 
+ingflfl way, but terminology has rarely followed suit. 
+We present an approach to term recognition which 
+identifies salient parts of the context and measures 
+their strength of association to relevant candidate 
+terms. The resulting list of ranked terms is shown 
+to improve on that produced by traditional method- 
+s, in terms of precision and distribution, while the 
+information acquired in the process can also be used 
+for a variety of other applications, such as disam- 
+biguation, lexical tuning and term clustering. 
+1 

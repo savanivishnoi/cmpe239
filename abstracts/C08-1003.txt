@@ -1,0 +1,21 @@
+
+In this paper we explore robustness and
+domain adaptation issues for Word Sense
+Disambiguation (WSD) using Singular
+Value Decomposition (SVD) and unlabeled
+data. We focus on the semi-supervised do-
+main adaptation scenario, where we train
+on the source corpus and test on the tar-
+get corpus, and try to improve results us-
+ing unlabeled data. Our method yields
+up to 16.3% error reduction compared to
+state-of-the-art systems, being the first to
+report successful semi-supervised domain
+adaptation. Surprisingly the improvement
+comes from the use of unlabeled data from
+the source corpus, and not from the target
+corpora, meaning that we get robustness
+rather than domain adaptation. In addition,
+we study the behavior of our system on the
+target domain.
+1 

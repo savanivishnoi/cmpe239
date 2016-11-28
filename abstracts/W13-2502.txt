@@ -1,0 +1,27 @@
+ 
+This paper presents a simple and effective 
+method for automatic bilingual lexicon extrac-
+tion from less-known language pairs. To do 
+this, we bring in a bridge language named the 
+pivot language and adopt information retrieval 
+techniques combined with natural language 
+processing techniques. Moreover, we use a 
+freely available word aligner: Anymalign 
+(Lardilleux et al, 2011) for constructing con-
+text vectors. Unlike the previous works, we 
+obtain context vectors via a pivot language. 
+Therefore, we do not require to translate con-
+text vectors by using a seed dictionary and im-
+prove the accuracy of low frequency word 
+alignments that is weakness of statistical mod-
+el by using Anymalign. In this paper, experi-
+ments have been conducted on two different 
+language pairs that are bi-directional Korean-
+Spanish and Korean-French, respectively. The 
+experimental results have demonstrated that 
+our method for high-frequency words shows at 
+least 76.3 and up to 87.2% and for the low-
+frequency words at least 43.3% and up to 48.9% 
+within the top 20 ranking candidates, respec-
+tively. 
+1 

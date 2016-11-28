@@ -1,0 +1,29 @@
+
+Recently proposed deterministic classifier-
+based parsers (Nivre and Scholz, 2004;
+Sagae and Lavie, 2005; Yamada and Mat-
+sumoto, 2003) offer attractive alternatives
+to generative statistical parsers. Determin-
+istic parsers are fast, efficient, and sim-
+ple to implement, but generally less ac-
+curate than optimal (or nearly optimal)
+statistical parsers. We present a statis-
+tical shift-reduce parser that bridges the
+gap between deterministic and probabilis-
+tic parsers. The parsing model is essen-
+tially the same as one previously used
+for deterministic parsing, but the parser
+performs a best-first search instead of a
+greedy search. Using the standard sec-
+tions of the WSJ corpus of the Penn Tree-
+bank for training and testing, our parser
+has 88.1% precision and 87.8% recall (us-
+ing automatically assigned part-of-speech
+tags). Perhaps more interestingly, the pars-
+ing model is significantly different from
+the generative models used by other well-
+known accurate parsers, allowing for a
+simple combination that produces preci-
+sion and recall of 90.9% and 90.7%, re-
+spectively.
+1 

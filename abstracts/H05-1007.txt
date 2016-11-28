@@ -1,0 +1,21 @@
+ 
+Browsing through large volumes of spoken 
+audio is known to be a challenging task for 
+end users. One way to alleviate this prob-
+lem is to allow users to gist a spoken audio 
+document by glancing over a transcript 
+generated through Automatic Speech Rec-
+ognition. Unfortunately, such transcripts 
+typically contain many recognition errors 
+which are highly distracting and make gist-
+ing more difficult. In this paper we present 
+an approach that detects recognition errors 
+by identifying words which are semantic 
+outliers with respect to other words in the 
+transcript. We describe several variants of 
+this approach. We investigate a wide range 
+of evaluation measures and we show that 
+we can significantly reduce the number of 
+errors in content words, with the trade-off 
+of losing some good content words.  
+1 

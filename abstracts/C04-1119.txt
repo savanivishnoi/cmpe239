@@ -1,0 +1,20 @@
+ 
+This paper proposes a method of automatic 
+back transliteration of proper nouns, in which 
+a Japanese transliterated-word is restored to 
+the original English word. The English words 
+are created from a sequence of letters; thus 
+our method can create new English words that 
+are not registered in dictionaries or English 
+word lists. When a katakana character is con-
+verted into English letters, there are various 
+candidates of alphabetic characters. To ensure 
+adequate conversion, the proposed method 
+uses a target English context to calculate the 
+probability of an English character or string 
+corresponding to a Japanese katakana charac-
+ter or string. We confirmed the effectiveness 
+of using the target English context by an ex-
+periment of personal-name back translitera-
+tion.  
+1 

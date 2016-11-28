@@ -1,0 +1,20 @@
+ 
+The tree sequence based translation model al-
+lows the violation of syntactic boundaries in a 
+rule to capture non-syntactic phrases, where a 
+tree sequence is a contiguous sequence of sub-
+trees. This paper goes further to present a trans-
+lation model based on non-contiguous tree se-
+quence alignment, where a non-contiguous tree 
+sequence is a sequence of sub-trees and gaps. 
+Compared with the contiguous tree sequence-
+based model, the proposed model can well han-
+dle non-contiguous phrases with any large gaps 
+by means of non-contiguous tree sequence 
+alignment. An algorithm targeting the non-
+contiguous constituent decoding is also proposed. 
+Experimental results on the NIST MT-05 Chi-
+nese-English translation task show that the pro-
+posed model statistically significantly outper-
+forms the baseline systems. 
+1 

@@ -1,0 +1,21 @@
+
+Metonymy recognition is generally ap-
+proached with complex algorithms that
+rely heavily on the manual annotation of
+training and test data. This paper will re-
+lieve this complexity in two ways. First,
+it will show that the results of the cur-
+rent learning algorithms can be replicated
+by the ?lazy? algorithm of Memory-Based
+Learning. This approach simply stores all
+training instances to its memory and clas-
+sifies a test instance by comparing it to all
+training examples. Second, this paper will
+argue that the number of labelled training
+examples that is currently used in the lit-
+erature can be reduced drastically. This
+finding can help relieve the knowledge ac-
+quisition bottleneck in metonymy recog-
+nition, and allow the algorithms to be ap-
+plied on a wider scale.
+1 

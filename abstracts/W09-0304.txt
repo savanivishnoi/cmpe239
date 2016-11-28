@@ -1,0 +1,23 @@
+
+Pairwise string alignment (PSA) is an im-
+portant general technique for obtaining a
+measure of similarity between two strings,
+used e.g., in dialectology, historical lin-
+guistics, transliteration, and in evaluating
+name distinctiveness. The current study
+focuses on evaluating different PSA meth-
+ods at the alignment level instead of via
+the distances it induces. About 3.5 million
+pairwise alignments of Bulgarian phonetic
+dialect data are used to compare four al-
+gorithms with a manually corrected gold
+standard. The algorithms evaluated in-
+clude three variants of the Levenshtein al-
+gorithm as well as the Pair Hidden Markov
+Model. Our results show that while all
+algorithms perform very well and align
+around 95% of all alignments correctly,
+there are specific qualitative differences in
+the (mis)alignments of the different algo-
+rithms.
+1 

@@ -1,0 +1,19 @@
+
+This paper presents a method for the auto-
+matic generation of a table-of-contents. This
+type of summary could serve as an effec-
+tive navigation tool for accessing informa-
+tion in long texts, such as books. To gen-
+erate a coherent table-of-contents, we need
+to capture both global dependencies across
+different titles in the table and local con-
+straints within sections. Our algorithm ef-
+fectively handles these complex dependen-
+cies by factoring the model into local and
+global components, and incrementally con-
+structing the model?s output. The results of
+automatic evaluation and manual assessment
+confirm the benefits of this design: our sys-
+tem is consistently ranked higher than non-
+hierarchical baselines.
+1 

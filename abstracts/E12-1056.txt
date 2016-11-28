@@ -1,0 +1,20 @@
+
+This paper describes Subcat-LMF, an ISO-
+LMF compliant lexicon representation for-
+mat featuring a uniform representation
+of subcategorization frames (SCFs) for
+the two languages English and German.
+Subcat-LMF is able to represent SCFs at a
+very fine-grained level. We utilized Subcat-
+LMF to standardize lexicons with large-
+scale SCF information: the English Verb-
+Net and two German lexicons, i.e., a subset
+of IMSlex and GermaNet verbs. To evalu-
+ate our LMF-model, we performed a cross-
+lingual comparison of SCF coverage and
+overlap for the standardized versions of the
+English and German lexicons. The Subcat-
+LMF DTD, the conversion tools and the
+standardized versions of VerbNet and IMS-
+lex subset are publicly available.1
+1 

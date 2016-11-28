@@ -1,0 +1,22 @@
+
+Even though open-domain conversational
+dialogue systems are required in many
+fields, their development is complicated
+because of the flexibility and variety of
+user utterances. To address this flexibil-
+ity, previous research on conversational di-
+alogue systems has selected system utter-
+ances from web articles based on surface
+cohesion and shallow semantic coherence;
+however, the generated utterances some-
+times contain irrelevant sentences with re-
+spect to the input user utterance. We pro-
+pose a template-based approach that fills
+templates with the most salient words in
+a user utterance and with related words
+that are extracted using web-scale depen-
+dency structures gathered from Twitter.
+Our open-domain conversational dialogue
+system outperforms retrieval-based con-
+ventional systems in chat experiments.
+1 

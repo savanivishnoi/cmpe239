@@ -1,0 +1,27 @@
+
+For a given concrete noun concept, humans
+are usually able to cite properties (e.g., ele-
+phant is animal, car has wheels) of that con-
+cept; cognitive psychologists have theorised
+that such properties are fundamental to un-
+derstanding the abstract mental representation
+of concepts in the brain. Consequently, the
+ability to automatically extract such properties
+would be of enormous benefit to the field of
+experimental psychology. This paper investi-
+gates the use of semi-supervised learning and
+support vector machines to automatically ex-
+tract concept-relation-feature triples from two
+large corpora (Wikipedia and UKWAC) for
+concrete noun concepts. Previous approaches
+have relied on manually-generated rules and
+hand-crafted resources such as WordNet; our
+method requires neither yet achieves bet-
+ter performance than these prior approaches,
+measured both by comparison with a property
+norm-derived gold standard as well as direct
+human evaluation. Our technique performs
+particularly well on extracting features rele-
+vant to a given concept, and suggests a number
+of promising areas for future focus.
+1 

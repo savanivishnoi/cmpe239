@@ -1,0 +1,21 @@
+
+Word Sense Disambiguation aims to label the
+sense of a word that best applies in a given
+context. Graded word sense disambiguation
+relaxes the single label assumption, allow-
+ing for multiple sense labels with varying de-
+grees of applicability. Training multi-label
+classifiers for such a task requires substan-
+tial amounts of annotated data, which is cur-
+rently not available. We consider an alter-
+nate method of annotating graded senses using
+Word Sense Induction, which automatically
+learns the senses and their features from cor-
+pus properties. Our work proposes three ob-
+jective to evaluate performance on the graded
+sense annotation task, and two new methods
+for mapping between sense inventories using
+parallel graded sense annotations. We demon-
+strate that sense induction offers significant
+promise for accurate graded sense annotation.
+1 

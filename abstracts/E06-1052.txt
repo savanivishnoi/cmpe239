@@ -1,0 +1,20 @@
+
+Unsupervised paraphrase acquisition has
+been an active research field in recent
+years, but its effective coverage and per-
+formance have rarely been evaluated. We
+propose a generic paraphrase-based ap-
+proach for Relation Extraction (RE), aim-
+ing at a dual goal: obtaining an applicative
+evaluation scheme for paraphrase acquisi-
+tion and obtaining a generic and largely
+unsupervised configuration for RE.We an-
+alyze the potential of our approach and
+evaluate an implemented prototype of it
+using an RE dataset. Our findings reveal a
+high potential for unsupervised paraphrase
+acquisition. We also identify the need for
+novel robust models for matching para-
+phrases in texts, which should address syn-
+tactic complexity and variability.
+1 

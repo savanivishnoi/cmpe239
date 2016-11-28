@@ -1,0 +1,14 @@
+
+This paper proposes a method of correct-
+ing annotation errors in a treebank. By us-
+ing a synchronous grammar, the method
+transforms parse trees containing annota-
+tion errors into the ones whose errors are
+corrected. The synchronous grammar is
+automatically induced from the treebank.
+We report an experimental result of apply-
+ing our method to the Penn Treebank. The
+result demonstrates that our method cor-
+rects syntactic annotation errors with high
+precision.
+1 

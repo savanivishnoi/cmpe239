@@ -1,0 +1,20 @@
+
+Similarity measures for text have histor-
+ically been an important tool for solving
+information retrieval problems. In this pa-
+per we consider extended similarity met-
+rics for documents and other objects em-
+bedded in graphs, facilitated via a lazy
+graph walk. We provide a detailed in-
+stantiation of this framework for email
+data, where content, social networks and
+a timeline are integrated in a structural
+graph. The suggested framework is evalu-
+ated for the task of disambiguating names
+in email documents. We show that rerank-
+ing schemes based on the graph-walk sim-
+ilarity measures often outperform base-
+line methods, and that further improve-
+ments can be obtained by use of appropri-
+ate learning methods.
+1 

@@ -1,0 +1,17 @@
+
+The Semantic Textual Similarity (STS)
+task aims to exam the degree of semantic
+equivalence between sentences (Agirre et
+al., 2012). This paper presents the work
+of the Hong Kong Polytechnic University
+(PolyUCOMP) team which has participated
+in the STS core and typed tasks of SemEval-
+2013. For the STS core task, the PolyUCOMP
+system disambiguates words senses using
+contexts and then determine sentence
+similarity by counting the number of senses
+they shared. For the STS typed task, the string
+kernel (Lodhi et al, 2002) is used to compute
+similarity between two entities to avoid string
+variations in entities.
+1 

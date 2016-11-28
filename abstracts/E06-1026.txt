@@ -1,0 +1,17 @@
+
+We propose models for semantic orienta-
+tions of phrases as well as classification
+methods based on the models. Although
+each phrase consists of multiple words, the
+semantic orientation of the phrase is not a
+mere sum of the orientations of the com-
+ponent words. Some words can invert the
+orientation. In order to capture the prop-
+erty of such phrases, we introduce latent
+variables into the models. Through exper-
+iments, we show that the proposed latent
+variable models work well in the classifi-
+cation of semantic orientations of phrases
+and achieved nearly 82% classification ac-
+curacy.
+1 

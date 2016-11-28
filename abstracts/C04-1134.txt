@@ -1,0 +1,30 @@
+ 
+We present a novel automatic approach to 
+constructing a bilingual semantic network?the 
+BiFrameNet, to enhance statistical and 
+transfer-based machine translation systems. 
+BiFrameNet is a frame semantic representation, 
+and contains semantic structure transfers 
+between English and Chinese. The English 
+FrameNet and the Chinese HowNet provide us 
+with two different views of the semantic 
+distribution of lexicon by linguists. We propose 
+to induce the mapping between the English 
+lexical entries in FrameNet to Chinese word 
+senses in HowNet, furnishing a bilingual 
+semantic lexicon which simulates the ?concept 
+lexicon? supposedly used by human translators, 
+and which can thus be beneficial to machine 
+translation systems.  BiFrameNet alo contains 
+bilingual example sentences that have the same 
+semantic roles. We automatically induce 
+Chinese example sentences and their semantic 
+roles, based on semantic structure alignment 
+from the first stage of our work, as well as 
+shallow syntactic structure. In addition to its 
+utility for machine-aided and machine 
+translations, our work is also related to the 
+spatial models proposed by cognitive scientists 
+in the framework of artifactual simulations of 
+the translation process. 
+1. 

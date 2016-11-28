@@ -1,0 +1,27 @@
+
+This paper reports an initial study that aims
+to assess the viability of a state-of-the-art
+multi-document summarizer for automatic
+captioning of geo-referenced images. The
+automatic captioning procedure requires
+summarizing multiple web documents that
+contain information related to images? lo-
+cation. We use SUMMA (Saggion and
+Gaizauskas, 2005) to generate generic and
+query-based multi-document summaries
+and evaluate them using ROUGE evalua-
+tion metrics (Lin, 2004) relative to human
+generated summaries. Results show that,
+even though query-based summaries per-
+form better than generic ones, they are still
+not selecting the information that human
+participants do. In particular, the areas
+of interest that human summaries display
+(history, travel information, etc.) are not
+contained in the query-based summaries.
+For our future work in automatic image
+captioning this result suggests that devel-
+oping the query-based summarizer further
+and biasing it to account for user-specific
+requirements will prove worthwhile.
+1 

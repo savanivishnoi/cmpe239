@@ -1,0 +1,20 @@
+ 
+Reordering is pre-processing stage for Statisti-
+cal Machine Translation (SMT) system where 
+the words of the source sentence are re-
+ordered as per the syntax of the target lan-
+guage. We are proposing a rich set of rules for 
+better reordering. The idea is to facilitate the 
+training process by better alignments and par-
+allel phrase extraction for a phrase based SMT 
+system.  Reordering also helps the decoding 
+process and hence improving the machine 
+translation quality. We have observed signifi-
+cant improvements in the translation quality 
+by using our approach over the baseline SMT. 
+We have used BLEU, NIST, multi-reference 
+word error rate, multi-reference position inde-
+pendent error rate for judging the improve-
+ments. We have exploited open source SMT 
+toolkit MOSES to develop the system.   
+1 

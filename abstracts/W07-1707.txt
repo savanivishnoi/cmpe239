@@ -1,0 +1,19 @@
+
+This paper describes a study on performance
+of existing unsupervised algorithms of text
+documents topical segmentation when ap-
+plied to Polish plain text documents. For
+performance measurement five existing top-
+ical segmentation algorithms were selected,
+three different Polish test collections were
+created and seven approaches to text pre-
+processing were implemented. Based on
+quantitative results (Pk and WindowDiff
+metrics) use of specific algorithm was rec-
+ommended and impact of pre-processing
+strategies was assessed. Thanks to use of
+standardized metrics and application of pre-
+viously described methodology for test col-
+lection development, comparative results for
+Polish and English were also obtained.
+1 

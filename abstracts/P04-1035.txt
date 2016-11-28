@@ -1,0 +1,13 @@
+
+Sentiment analysis seeks to identify the view-
+point(s) underlying a text span; an example appli-
+cation is classifying a movie review as ?thumbs up?
+or ?thumbs down?. To determine this sentiment po-
+larity, we propose a novel machine-learning method
+that applies text-categorization techniques to just
+the subjective portions of the document. Extracting
+these portions can be implemented using efficient
+techniques for finding minimum cuts in graphs; this
+greatly facilitates incorporation of cross-sentence
+contextual constraints.
+1 

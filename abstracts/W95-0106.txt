@@ -1,0 +1,11 @@
+ 
+We describe two new strategies to automatic bracketing of parallel corpora, with particular appli- 
+cation to languages where prior grammar resources are scarce: (1) coarse bilingual grammars, and (2) 
+unsupervised training of such grammars via EM (expectation-maximization). Both methods build upon a 
+formalism we recently introduced called stochastic inversion transduction grammars. The first approach 
+borrows acoarse monolingual grammar into our bilingual formalism, in order to transfer knowledge of 
+one language's constraints to the task of bracketing the texts in both languages. The second approach 
+generalizes the inside-outside algorithm to adjust he grammar parameters so as to improve the likelihood 
+of a training corpus. Preliminary experiments on parallel English-Chinese text are supportive of these 
+strategies. 
+1 

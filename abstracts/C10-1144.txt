@@ -1,0 +1,24 @@
+
+Supertagging is an important technique
+for deep syntactic analysis. A super-
+tagger is usually trained independently
+of the parser using a sequence labeling
+method. This presents an inconsistent
+training objective between the supertagger
+and the parser. In this paper, we pro-
+pose a forest-guided supertagger training
+method to alleviate this problem by incor-
+porating global grammar constraints into
+the supertagging process using a CFG-
+filter. It also provides an approach to
+make the supertagger and the parser more
+tightly integrated. The experiment shows
+that using the forest-guided trained super-
+tagger, the parser got an absolute 0.68%
+improvement from baseline in F-score
+for predicate-argument relation recogni-
+tion accuracy and achieved a competi-
+tive result of 89.31% with a faster pars-
+ing speed, compared to a state-of-the-art
+HPSG parser.
+1 

@@ -1,0 +1,29 @@
+
+The present paper is concerned with sta-
+tistical parsing of constituent structures
+in German. The paper presents four ex-
+periments that aim at improving parsing
+performance of coordinate structure: 1)
+reranking the n-best parses of a PCFG
+parser, 2) enriching the input to a PCFG
+parser by gold scopes for any conjunct, 3)
+reranking the parser output for all possi-
+ble scopes for conjuncts that are permissi-
+ble with regard to clause structure. Exper-
+iment 4 reranks a combination of parses
+from experiments 1 and 3.
+The experiments presented show that n-
+best parsing combined with reranking im-
+proves results by a large margin. Provid-
+ing the parser with different scope possi-
+bilities and reranking the resulting parses
+results in an increase in F-score from
+69.76 for the baseline to 74.69. While the
+F-score is similar to the one of the first ex-
+periment (n-best parsing and reranking),
+the first experiment results in higher re-
+call (75.48% vs. 73.69%) and the third one
+in higher precision (75.43% vs. 73.26%).
+Combining the two methods results in the
+best result with an F-score of 76.69.
+1 

@@ -1,0 +1,16 @@
+
+Word alignment methods can gain valu-
+able guidance by ensuring that their align-
+ments maintain cohesion with respect to
+the phrases specified by a monolingual de-
+pendency tree. However, this hard con-
+straint can also rule out correct alignments,
+and its utility decreases as alignment mod-
+els become more complex. We use a pub-
+licly available structured output SVM to
+create a max-margin syntactic aligner with
+a soft cohesion constraint. The resulting
+aligner is the first, to our knowledge, to use
+a discriminative learning method to train
+an ITG bitext parser.
+1 

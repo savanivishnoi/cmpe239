@@ -1,0 +1,18 @@
+ 
+In order to realize their full potential, multimodal systems 
+need to support not just input from multiple modes, but 
+also synchronized integration of modes. Johnston et al
+(1997) model this integration using a unification opera- 
+tion over typed feature structures. This is an effective so- 
+lution for a broad class of systems, but limits multimodal 
+utterances to combinations of a single spoken phrase with 
+a single gesture. We show how the unification-based ap- 
+proach can be scaled up to provide a full multimodal 
+grammar formalism. In conjunction with a multidimen- 
+sional chart parser, this approach supports integration of 
+multiple lements distributed across the spatial, temporal, 
+and acoustic dimensions of multimodal interaction. In- 
+tegration strategies are stated in a high level unification- 
+based rule formalism supporting rapid prototyping and it- 
+erative development of multimodal systems. 
+1 

@@ -1,0 +1,19 @@
+
+A serious bottleneck of comparative parser
+evaluation is the fact that different parsers
+subscribe to different formal frameworks
+and theoretical assumptions. Converting
+outputs from one framework to another is
+less than optimal as it easily introduces
+noise into the process. Here we present a
+principled protocol for evaluating parsing
+results across frameworks based on func-
+tion trees, tree generalization and edit dis-
+tance metrics. This extends a previously
+proposed framework for cross-theory eval-
+uation and allows us to compare a wider
+class of parsers. We demonstrate the useful-
+ness and language independence of our pro-
+cedure by evaluating constituency and de-
+pendency parsers on English and Swedish.
+1 

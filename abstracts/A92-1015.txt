@@ -1,0 +1,17 @@
+ 
+This paper presents a system which detects and 
+corrects morpho-syntactic errors in Dutch texts. It 
+includes aspelling corrector and a shift-reduce 
+parser for Augmented Context-free Grammars. 
+The spelling corrector isbased on trigram and 
+triphone analysis. The parser is an extension of 
+the well-known Tomita algorithm (Tomita, 1986). 
+The parser interacts with the spelling corrector 
+and handles certain types of structural errors. 
+Both modules have been integrated with a 
+compound analyzer and a dictionary of 275,000 
+word forms into a program for stand-alone 
+proof-reading ofDutch texts on a large scale. The 
+system is in its final testing phase and will be 
+commercially available as from 1992. 
+1. 

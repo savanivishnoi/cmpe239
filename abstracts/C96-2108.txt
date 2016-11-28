@@ -1,0 +1,24 @@
+ 
+The verb subcategorization frame information 
+plays a major role of disambiguations in many 
+NLP applications. Japanese, however, imposes 
+difficulties of subcategorizing in part because it 
+allows arbitrary ellipses of case elements. We 
+propose a new type of verb subcategorization 
+frame code set that combines the verb's surface 
+case set and the deep case set, as a solution to the 
+difficulties of empirical researches on Japanese. 
+The lexicon developed by this design has 
+comprehensive information on the correspond- 
+ences between the surface case frame and the 
+deep case frame, and yet restrains the potential 
+combinatorial explosion of the number of verb 
+subcategorization frames by carefully identifying 
+superficially different frames with an idea of 
+alternative case markers and semantic roles, and 
+by introducing the notion of surface case frame 
+permutations. The number of different surface/ 
+deep case mapping types is 250, after we 
+completed the new subcategorization frame code 
+development for 30,000 verbs and adjectives. 
+1. 

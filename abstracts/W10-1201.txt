@@ -1,0 +1,16 @@
+
+We present an exploration of generative mod-
+eling for the question answering (QA) task to
+rank candidate passages. We investigate La-
+tent Dirichlet Allocation (LDA) models to ob-
+tain ranking scores based on a novel similar-
+ity measure between a natural language ques-
+tion posed by the user and a candidate passage.
+We construct two models each one introducing
+deeper evaluations on latent characteristics of
+passages together with given question. With
+the new representation of topical structures on
+QA datasets, using a limited amount of world
+knowledge, we show improvements on perfor-
+mance of a QA ranking system.
+1 

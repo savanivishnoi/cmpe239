@@ -1,0 +1,28 @@
+ 
+In this paper, we propose an 
+unsupervised approach to automatically 
+synthesize Wikipedia articles in 
+multiple languages. Taking an existing 
+high-quality version of any entry as 
+content guideline, we extract keywords 
+from it and use the translated keywords 
+to query the monolingual web of the 
+target language. Candidate excerpts or 
+sentences are selected based on an 
+iterative ranking function and 
+eventually synthesized into a complete 
+article that resembles the reference 
+version closely. 16 English and Chinese 
+articles across 5 domains are evaluated 
+to show that our algorithm is domain-
+independent. Both subjective 
+evaluations by native Chinese readers 
+and ROUGE-L scores computed with 
+respect to standard reference articles 
+demonstrate that synthesized articles 
+outperform existing Chinese versions or 
+MT texts in both content richness and 
+readability. In practice our method can 
+generate prototype texts for Wikipedia 
+that facilitate later human authoring. 
+1 

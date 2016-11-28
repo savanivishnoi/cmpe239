@@ -1,0 +1,19 @@
+
+This paper describes the JHU system combi-
+nation scheme used in WMT-11. The JHU
+system combination is based on confusion
+network alignment, and inherited the frame-
+work developed by (Karakos et al, 2008).
+We improved our core system combination al-
+gorithm by making use of TER-plus, which
+was originally designed for string alignment,
+for alignment of confusion networks. Exper-
+imental results on French-English, German-
+English, Czech-English and Spanish-English
+combination tasks show significant improve-
+ments on BLEU and TER by up to 2 points on
+average, compared to the best individual sys-
+tem output, and improvements compared with
+the results produced by ITG which we used in
+WMT-10.
+1 

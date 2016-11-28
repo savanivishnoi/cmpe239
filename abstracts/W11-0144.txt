@@ -1,0 +1,8 @@
+
+This paper describes recent work on the DynDial project? towards incremental semantic inter-
+pretation in dialogue. We outline our domain-general grammar-based approach, using a variant of
+Dynamic Syntax integrated with Type Theory with Records and a Davidsonian event-based seman-
+tics. We describe a Java-based implementation of the parser, used within the Jindigo framework to
+produce an incremental dialogue system capable of handling inherently incremental phenomena such
+as split utterances, adjuncts, and mid-sentence clarification requests or backchannels.
+1 

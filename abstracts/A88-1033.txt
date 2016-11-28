@@ -1,0 +1,13 @@
+ 
+The disambiguation of sentences i a combinatorial 
+problem. This paper describes a method for treating 
+it as such, directly, by adapting standard combinatorial 
+search optimizations. Traditional disambiguation heu- 
+ristics are applied but, instead of being embedded in 
+individual decision procedures for specific types of 
+ambiguities, they contribute to numerical weights that 
+are considered by a single global optimizer. The result 
+is increased power and simpler code. The method is 
+being implemented for a machine translation projecl, 
+but could be adapted to any natural language system. 
+1. 

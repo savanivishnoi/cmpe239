@@ -1,0 +1,19 @@
+
+This paper describes a method of discrim-
+inating ambiguous names that relies upon
+features found in corpora of a more abun-
+dant language. In particular, we discrim-
+inate ambiguous names in Bulgarian, Ro-
+manian, and Spanish corpora using infor-
+mation derived from much larger quan-
+tities of English data. We also mix to-
+gether occurrences of the ambiguous name
+found in English with the occurrences of
+the name in the language in which we are
+trying to discriminate. We refer to this as
+a language salad, and find that it often re-
+sults in even better performance than when
+only using English or the language itself
+as the source of information for discrimi-
+nation.
+1 

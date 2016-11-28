@@ -1,0 +1,23 @@
+
+We present a simple but very effective ap-
+proach to identifying high-quality data in
+noisy data sets for structured problems like
+parsing, by greedily exploiting partial struc-
+tures. We analyze our approach in an anno-
+tation projection framework for dependency
+trees, and show how dependency parsers from
+two different paradigms (graph-based and
+transition-based) can be trained on the result-
+ing tree fragments. We train parsers for Dutch
+to evaluate our method and to investigate
+to which degree graph-based and transition-
+based parsers can benefit from incomplete
+training data. We find that partial correspon-
+dence projection gives rise to parsers that out-
+perform parsers trained on aggressively fil-
+tered data sets, and achieve unlabeled attach-
+ment scores that are only 5% behind the aver-
+age UAS for Dutch in the CoNLL-X Shared
+Task on supervised parsing (Buchholz and
+Marsi, 2006).
+1 

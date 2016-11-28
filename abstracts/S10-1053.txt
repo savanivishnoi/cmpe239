@@ -1,0 +1,21 @@
+
+This paper describes the Cross-Lingual
+Word Sense Disambiguation system UvT-
+WSD1, developed at Tilburg University,
+for participation in two SemEval-2 tasks:
+the Cross-Lingual Word Sense Disam-
+biguation task and the Cross-Lingual Lex-
+ical Substitution task. The UvT-WSD1
+system makes use of k-nearest neighbour
+classifiers, in the form of single-word ex-
+perts for each target word to be disam-
+biguated. These classifiers can be con-
+structed using a variety of local and global
+context features, and these are mapped
+onto the translations, i.e. the senses,
+of the words. The system works for a
+given language-pair, either English-Dutch
+or English-Spanish in the current imple-
+mentation, and takes a word-aligned par-
+allel corpus as its input.
+1 

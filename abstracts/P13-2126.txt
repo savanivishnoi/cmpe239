@@ -1,0 +1,26 @@
+
+We present results from our study of which
+uses syntactically and semantically moti-
+vated information to group segments of
+sentences into unbreakable units for the
+purpose of typesetting those sentences in
+a region of a fixed width, using an other-
+wise standard dynamic programming line
+breaking algorithm, to minimize ragged-
+ness. In addition to a rule-based base-
+line segmenter, we use a very modest size
+text, manually annotated with positions of
+breaks, to train a maximum entropy clas-
+sifier, relying on an extensive set of lexi-
+cal and syntactic features, which can then
+predict whether or not to break after a cer-
+tain word position in a sentence. We also
+use a simple genetic algorithm to search
+for a subset of the features optimizing F1,
+to arrive at a set of features that deliv-
+ers 89.2% Precision, 90.2% Recall (89.7%
+F1) on a test set, improving the rule-based
+baseline by about 11 points and the classi-
+fier trained on all features by about 1 point
+in F1.
+1 

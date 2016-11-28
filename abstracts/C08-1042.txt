@@ -1,0 +1,13 @@
+
+This paper explores the relationship be-
+tween various measures of unsupervised
+part-of-speech tag induction and the per-
+formance of both supervised and unsuper-
+vised parsing models trained on induced
+tags. We find that no standard tagging
+metrics correlate well with unsupervised
+parsing performance, and several metrics
+grounded in information theory have no
+strong relationship with even supervised
+parsing performance.
+1 

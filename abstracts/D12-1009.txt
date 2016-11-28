@@ -1,0 +1,19 @@
+
+Recent work has explored the use of hidden
+Markov models for unsupervised discourse
+and conversation modeling, where each seg-
+ment or block of text such as a message in a
+conversation is associated with a hidden state
+in a sequence. We extend this approach to al-
+low each block of text to be a mixture of mul-
+tiple classes. Under our model, the probability
+of a class in a text block is a log-linear func-
+tion of the classes in the previous block. We
+show that this model performs well at predic-
+tive tasks on two conversation data sets, im-
+proving thread reconstruction accuracy by up
+to 15 percentage points over a standard HMM.
+Additionally, we show quantitatively that the
+induced word clusters correspond to speech
+acts more closely than baseline models.
+1 

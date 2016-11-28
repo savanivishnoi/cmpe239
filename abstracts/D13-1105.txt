@@ -1,0 +1,14 @@
+
+We present a method for automatically learn-
+ing inflectional classes and associated lem-
+mas from morphologically annotated corpora.
+The method consists of a core language-
+independent algorithm, which can be opti-
+mized for specific languages. The method is
+demonstrated on Egyptian Arabic and Ger-
+man, two morphologically rich languages.
+Our best method for Egyptian Arabic pro-
+vides an error reduction of 55.6% over a sim-
+ple baseline; our best method for German
+achieves a 66.7% error reduction.
+1 

@@ -1,0 +1,41 @@
+
+There exist various different discourse an-
+notation schemes that vary both in the
+perspectives of discourse structure consid-
+ered and the granularity of textual units
+that are annotated. Comparison and inte-
+gration of multiple schemes have the po-
+tential to provide enhanced information.
+However, the differing formats of cor-
+pora and tools that contain or produce
+such schemes can be a barrier to their
+integration. U-Compare is a graphical,
+UIMA-based workflow construction plat-
+form for combining interoperable natu-
+ral language processing (NLP) resources,
+without the need for programming skills.
+In this paper, we present an extension
+of U-Compare that allows the easy com-
+parison, integration and visualisation of
+resources that contain or output annota-
+tions based on multiple discourse anno-
+tation schemes. The extension works by
+allowing the construction of parallel sub-
+workflows for each scheme within a single
+U-Compare workflow. The different types
+of discourse annotations produced by each
+sub-workflow can be either merged or vi-
+sualised side-by-side for comparison. We
+demonstrate this new functionality by us-
+ing it to compare annotations belonging
+to two different approaches to discourse
+analysis, namely discourse relations and
+functional discourse annotations. Integrat-
+ing these different annotation types within
+an interoperable environment allows us to
+study the correlations between different
+types of discourse and report on the new
+insights that this allows us to discover.
+?The authors have contributed equally to the development
+of this work and production of the manuscript.
+1 

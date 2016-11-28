@@ -1,0 +1,18 @@
+
+We describe FSS-TimEx, a module for the
+recognition and normalization of temporal ex-
+pressions we submitted to Task A and B of
+the TempEval-3 challenge. FSS-TimEx was
+developed as part of a multilingual event ex-
+traction system, Nexus, which runs on top of
+the EMM news processing engine. It consists
+of finite-state rule cascades, using minimalis-
+tic text processing stages and simple heuris-
+tics to model the relations between events and
+temporal expressions. Although FSS-TimEx
+is already deployed within an IE application
+in the medical domain, we found it useful to
+customize its output to the TimeML standard
+in order to have an independent performance
+measure and guide further developments.
+1 

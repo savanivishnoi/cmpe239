@@ -1,0 +1,23 @@
+
+This paper addresses the task of fine-
+grained opinion extraction ? the identi-
+fication of opinion-related entities: the
+opinion expressions, the opinion hold-
+ers, and the targets of the opinions, and
+the relations between opinion expressions
+and their targets and holders. Most ex-
+isting approaches tackle the extraction
+of opinion entities and opinion relations
+in a pipelined manner, where the inter-
+dependencies among different extraction
+stages are not captured. We propose a joint
+inference model that leverages knowledge
+from predictors that optimize subtasks
+of opinion extraction, and seeks a glob-
+ally optimal solution. Experimental re-
+sults demonstrate that our joint inference
+approach significantly outperforms tradi-
+tional pipeline methods and baselines that
+tackle subtasks in isolation for the problem
+of opinion extraction.
+1 

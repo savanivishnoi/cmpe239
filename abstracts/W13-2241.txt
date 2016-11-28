@@ -1,0 +1,27 @@
+
+We describe the results of our submissions
+to the WMT13 Shared Task on Quality
+Estimation (subtasks 1.1 and 1.3). Our
+submissions use the framework of Gaus-
+sian Processes to investigate lightweight
+approaches for this problem. We focus on
+two approaches, one based on feature se-
+lection and another based on active learn-
+ing. Using only 25 (out of 160) fea-
+tures, our model resulting from feature
+selection ranked 1st place in the scoring
+variant of subtask 1.1 and 3rd place in
+the ranking variant of the subtask, while
+the active learning model reached 2nd
+place in the scoring variant using only
+?25% of the available instances for train-
+ing. These results give evidence that
+Gaussian Processes achieve the state of
+the art performance as a modelling ap-
+proach for translation quality estimation,
+and that carefully selecting features and
+instances for the problem can further im-
+prove or at least maintain the same per-
+formance levels while making the problem
+less resource-intensive.
+1 

@@ -1,0 +1,21 @@
+
+This paper compares several translation rep-
+resentations for a synchronous context-free
+grammar parse including CFGs/hypergraphs,
+finite-state automata (FSA), and pushdown
+automata (PDA). The representation choice is
+shown to determine the form and complex-
+ity of target LM intersection and shortest-path
+algorithms that follow. Intersection, shortest
+path, FSA expansion and RTN replacement al-
+gorithms are presented for PDAs. Chinese-to-
+English translation experiments using HiFST
+and HiPDT, FSA and PDA-based decoders,
+are presented using admissible (or exact)
+search, possible for HiFST with compact
+SCFG rulesets and HiPDT with compact LMs.
+For large rulesets with large LMs, we intro-
+duce a two-pass search strategy which we then
+analyze in terms of search errors and transla-
+tion performance.
+1 

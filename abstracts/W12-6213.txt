@@ -1,0 +1,18 @@
+
+In this paper we describe a conversion of
+the Buckwalter Morphological Analyzer for
+Arabic, originally written as a Perl-script,
+into a pure finite-state morphological ana-
+lyzer. Representing a morphological ana-
+lyzer as a finite-state transducer (FST) con-
+fers many advantages over running a procedu-
+ral affix-matching algorithm. Apart from ap-
+plication speed, an FST representation imme-
+diately offers various possibilities to flexibly
+modify a grammar. In the case of Arabic, this
+is illustrated through the addition of the abil-
+ity to correctly parse partially vocalized forms
+without overgeneration, something not possi-
+ble in the original analyzer, as well as to serve
+both as an analyzer and a generator.
+1 

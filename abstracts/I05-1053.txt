@@ -1,0 +1,9 @@
+. We propose a phrase-based context-dependent joint probability 
+model for Named Entity (NE) translation. Our proposed model consists of a 
+lexical mapping model and a permutation model. Target phrases are generated 
+by the context-dependent lexical mapping model, and word reordering is per-
+formed by the permutation model at the phrase level. We also present a two-
+step search to decode the best result from the models. Our proposed model is 
+evaluated on the LDC Chinese-English NE translation corpus. The experiment 
+results show that our proposed model is high effective for NE translation.  
+1   

@@ -1,0 +1,20 @@
+
+In this paper, we present a semantic role la-
+beler (or chunker) that groups syntactic chunks
+(i.e. base phrases) into the arguments of a pred-
+icate. This is accomplished by casting the se-
+mantic labeling as the classification of syntactic
+chunks (e.g. NP-chunk, PP-chunk) into one of
+several classes such as the beginning of an ar-
+gument (B-ARG), inside an argument (I-ARG)
+and outside an argument (O). This amounts to
+tagging syntactic chunks with semantic labels
+using the IOB representation. The chunker is
+realized using support vector machines as one-
+versus-all classifiers. We describe the represen-
+tation of data and information used to accom-
+plish the task. We participate in the ?closed
+challenge? of the CoNLL-2004 shared task and
+report results on both development and test
+sets.
+1 

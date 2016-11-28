@@ -1,0 +1,21 @@
+
+In this paper, a Maximum Entropy Markov
+Model (MEMM) for dialog state tracking
+is proposed to efficiently handle user goal
+evolvement in two steps. The system first
+predicts the occurrence of a user goal change
+based on linguistic features and dialog context
+for each dialog turn, and then the proposed
+model could utilize this user goal change in-
+formation to infer the most probable dialog
+state sequence which underlies the evolve-
+ment of user goal during the dialog. It is
+believed that with the suggested various do-
+main independent feature functions, the pro-
+posed model could better exploit not only the
+intra-dependencies within long ASR N-best
+lists but also the inter-dependencies of the ob-
+servations across dialog turns, which leads to
+more efficient and accurate dialog state infer-
+ence.
+1 

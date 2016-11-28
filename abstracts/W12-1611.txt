@@ -1,0 +1,16 @@
+
+We use Reinforcement Learning (RL) to learn
+question-answering dialogue policies for a
+real-world application. We analyze a corpus
+of interactions of museum visitors with two
+virtual characters that serve as guides at the
+Museum of Science in Boston, in order to
+build a realistic model of user behavior when
+interacting with these characters. A simulated
+user is built based on this model and used
+for learning the dialogue policy of the virtual
+characters using RL. Our learned policy out-
+performs two baselines (including the original
+dialogue policy that was used for collecting
+the corpus) in a simulation setting.
+1 

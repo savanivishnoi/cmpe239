@@ -1,0 +1,18 @@
+
+The paper describes a method for identifying
+and translating multiword expressions using a
+bi-directional dictionary. While a dictionary-
+based approach suffers from limited recall,
+precision is high; hence it is best employed
+alongside an approach with complementing
+properties, such as an n-gram language model.
+We evaluate the method on data from the
+English-German translation part of the cross-
+lingual word sense disambiguation task in the
+2010 semantic evaluation exercise (SemEval).
+The output of a baseline disambiguation sys-
+tem based on n-grams was substantially im-
+proved by matching the target words and their
+immediate contexts against compound and
+collocational words in a dictionary.
+1 

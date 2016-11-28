@@ -1,0 +1,26 @@
+
+Existing spoken dialogue systems are typ-
+ically designed to operate in a static and
+well-defined domain, and are not well
+suited to tasks in which the concepts and
+values change dynamically. To handle dy-
+namically changing domains, techniques
+will be needed to transfer and reuse ex-
+isting dialogue policies and rapidly adapt
+them using a small number of dialogues in
+the new domain. As a first step in this di-
+rection, this paper addresses the problem
+of automatically extending a dialogue sys-
+tem to include a new previously unseen
+concept (or slot) which can be then used
+as a search constraint in an information
+query. The paper shows that in the con-
+text of Gaussian process POMDP optimi-
+sation, a domain can be extended through
+a simple expansion of the kernel and then
+rapidly adapted. As well as being much
+quicker, adaptation rather than retraining
+from scratch is shown to avoid subjecting
+users to unacceptably poor performance
+during the learning stage.
+1 

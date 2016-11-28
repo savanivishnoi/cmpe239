@@ -1,0 +1,11 @@
+
+We describe and evaluate several methods for
+estimating the confidence in the per-edge cor-
+rectness of a predicted dependency parse. We
+show empirically that the confidence is asso-
+ciated with the probability that an edge is se-
+lected correctly and that it can be used to de-
+tect incorrect edges very efficiently. We eval-
+uate our methods on parsing text in 14 lan-
+guages.
+1 

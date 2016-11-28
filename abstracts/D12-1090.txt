@@ -1,0 +1,21 @@
+
+Accurate and robust metrics for automatic eval-
+uation are key to the development of statistical
+machine translation (MT) systems. We first
+introduce a new regression model that uses a
+probabilistic finite state machine (pFSM) to
+compute weighted edit distance as predictions
+of translation quality. We also propose a novel
+pushdown automaton extension of the pFSM
+model for modeling word swapping and cross
+alignments that cannot be captured by stan-
+dard edit distance models. Our models can eas-
+ily incorporate a rich set of linguistic features,
+and automatically learn their weights, elimi-
+nating the need for ad-hoc parameter tuning.
+Our methods achieve state-of-the-art correla-
+tion with human judgments on two different
+prediction tasks across a diverse set of standard
+evaluations (NIST OpenMT06,08; WMT06-
+08).
+1 

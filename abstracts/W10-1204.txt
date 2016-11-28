@@ -1,0 +1,16 @@
+
+We investigate a graph-based semi-supervised
+learning approach for labeling semantic com-
+ponents of questions such as topic, focus,
+event, etc., for question understanding task.
+We focus on graph construction to handle
+learning with dense/sparse graphs and present
+Relaxed Linear Neighborhoods method, in
+which each node is linearly constructed from
+varying sizes of its neighbors based on the
+density/sparsity of its surrounding. With the
+new graph representation, we show perfor-
+mance improvements on syntactic and real
+datasets, primarily due to the use of unlabeled
+data and relaxed graph construction.
+1 

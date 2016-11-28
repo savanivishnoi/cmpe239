@@ -1,0 +1,17 @@
+
+We show that na??ve modeling of morphosyn-
+tactic agreement in a Constituency-Based
+(CB) statistical parsing model is worse than
+none, whereas a linguistically adequate way
+of modeling inflectional morphology in CB
+parsing leads to improved performance. In
+particular, we show that an extension of the
+Relational-Realizational (RR) model that in-
+corporates agreement features is superior to
+CB models that treat morphosyntax as state-
+splits (SP), and that the RR model benefits
+more from inflectional features. We focus on
+parsing Hebrew and report the best result to
+date, F184.13 for parsing off of gold-tagged
+text, 5% error reduction from previous results.
+1 

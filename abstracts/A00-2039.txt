@@ -1,0 +1,13 @@
+ 
+Reduplication, a central instance of prosodic mor- 
+phology, is particularly challenging for state-of- 
+the-art computational morphology, since it involves 
+copying of some part of a phonological string. In 
+this paper I advocate a finite-state method that com- 
+bines enriched lexical representations via intersec- 
+tion to implement the copying. The proposal in- 
+cludes a resource-conscious variant of automata and 
+can benefit from the existence of lazy algorithms. 
+Finally, the implementation f a complex case from 
+Koasati s presented. 
+1 

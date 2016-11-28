@@ -1,0 +1,18 @@
+
+We introduce an approach to optimize a ma-
+chine translation (MT) system on multiple
+metrics simultaneously. Different metrics
+(e.g. BLEU, TER) focus on different aspects
+of translation quality; our multi-objective ap-
+proach leverages these diverse aspects to im-
+prove overall quality.
+Our approach is based on the theory of Pareto
+Optimality. It is simple to implement on top of
+existing single-objective optimization meth-
+ods (e.g. MERT, PRO) and outperforms ad
+hoc alternatives based on linear-combination
+of metrics. We also discuss the issue of metric
+tunability and show that our Pareto approach
+is more effective in incorporating new metrics
+from MT evaluation for MT optimization.
+1 

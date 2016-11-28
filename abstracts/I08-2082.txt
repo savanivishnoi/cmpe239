@@ -1,0 +1,17 @@
+
+We describe an algorithm that relies on
+web frequency counts to identify and correct
+writing errors made by non-native writers of
+English. Evaluation of the system on a real-
+world ESL corpus showed very promising
+performance on the very difficult problem of
+critiquing English determiner use: 62% pre-
+cision and 41% recall, with a false flag rate
+of only 2% (compared to a random-guessing
+baseline of 5% precision, 7% recall, and
+more than 80% false flag rate). Performance
+on collocation errors was less good, sug-
+gesting that a web-based approach should be
+combined with local linguistic resources to
+achieve both effectiveness and efficiency.
+1 

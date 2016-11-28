@@ -1,0 +1,24 @@
+
+Wikipedia infoboxes are a valuable source
+of structured knowledge for global knowl-
+edge sharing. However, infobox infor-
+mation is very incomplete and imbal-
+anced among the Wikipedias in differen-
+t languages. It is a promising but chal-
+lenging problem to utilize the rich struc-
+tured knowledge from a source language
+Wikipedia to help complete the missing in-
+foboxes for a target language.
+In this paper, we formulate the prob-
+lem of cross-lingual knowledge extraction
+from multilingual Wikipedia sources, and
+present a novel framework, called Wiki-
+CiKE, to solve this problem. An instance-
+based transfer learning method is utilized
+to overcome the problems of topic drift
+and translation errors. Our experimen-
+tal results demonstrate that WikiCiKE out-
+performs the monolingual knowledge ex-
+traction method and the translation-based
+method.
+1 

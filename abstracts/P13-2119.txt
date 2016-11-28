@@ -1,0 +1,28 @@
+
+Data selection is an effective approach
+to domain adaptation in statistical ma-
+chine translation. The idea is to use lan-
+guage models trained on small in-domain
+text to select similar sentences from large
+general-domain corpora, which are then
+incorporated into the training data. Sub-
+stantial gains have been demonstrated in
+previous works, which employ standard n-
+gram language models. Here, we explore
+the use of neural language models for data
+selection. We hypothesize that the con-
+tinuous vector representation of words in
+neural language models makes them more
+effective than n-grams for modeling un-
+known word contexts, which are prevalent
+in general-domain text. In a comprehen-
+sive evaluation of 4 language pairs (En-
+glish to German, French, Russian, Span-
+ish), we found that neural language mod-
+els are indeed viable tools for data se-
+lection: while the improvements are var-
+ied (i.e. 0.1 to 1.7 gains in BLEU), they
+are fast to train on small in-domain data
+and can sometimes substantially outper-
+form conventional n-grams.
+1 

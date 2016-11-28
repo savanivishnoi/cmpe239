@@ -1,0 +1,16 @@
+
+We investigate systems that identify opinion
+expressions and assigns polarities to the ex-
+tracted expressions. In particular, we demon-
+strate the benefit of integrating opinion ex-
+traction and polarity classification into a joint
+model using features reflecting the global po-
+larity structure. The model is trained using
+large-margin structured prediction methods.
+The system is evaluated on the MPQA opinion
+corpus, where we compare it to the only previ-
+ously published end-to-end system for opinion
+expression extraction and polarity classifica-
+tion. The results show an improvement of be-
+tween 10 and 15 absolute points in F-measure.
+1 

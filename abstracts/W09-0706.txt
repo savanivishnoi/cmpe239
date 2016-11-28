@@ -1,0 +1,23 @@
+
+A major obstacle to part-of-speech
+(=POS) tagging of Northern Sotho
+(Bantu, S 32) are ambiguous function
+words. Many are highly polysemous and
+very frequent in texts, and their local
+context is not always distinctive.
+With certain taggers, this issue leads to
+comparatively poor results (between 88
+and 92 % accuracy), especially when
+sizeable tagsets (over 100 tags) are used.
+We use the RF-tagger (Schmid and Laws,
+2008), which is particularly designed for
+the annotation of fine-grained tagsets (e.g.
+including agreement information), and
+we restructure the 141 tags of the tagset
+proposed by Taljard et al (2008) in a way
+to fit the RF tagger. This leads to over
+94 % accuracy. Error analysis in addition
+shows which types of phenomena cause
+trouble in the POS-tagging of Northern
+Sotho.
+1 

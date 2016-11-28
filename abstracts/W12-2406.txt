@@ -1,0 +1,22 @@
+
+We present an algorithm for extracting abbre-
+viation definitions from biomedical text. Our
+approach is based on an alignment HMM,
+matching abbreviations and their definitions.
+We report 98% precision and 93% recall on
+a standard data set, and 95% precision and
+91% recall on an additional test set. Our re-
+sults show an improvement over previously re-
+ported methods and our model has several ad-
+vantages. Our model: (1) is simpler and faster
+than a comparable alignment-based abbrevia-
+tion extractor; (2) is naturally generalizable to
+specific types of abbreviations, e.g., abbrevia-
+tions of chemical formulas; (3) is trained on a
+set of unlabeled examples; and (4) associates a
+probability with each predicted definition. Us-
+ing the abbreviation alignment model we were
+able to extract over 1.4 million abbreviations
+from a corpus of 200K full-text PubMed pa-
+pers, including 455,844 unique definitions.
+1 

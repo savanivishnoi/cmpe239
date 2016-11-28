@@ -1,0 +1,13 @@
+
+We present Joshua 4.0, the newest version
+of our open-source decoder for parsing-based
+statistical machine translation. The main con-
+tributions in this release are the introduction
+of a compact grammar representation based
+on packed tries, and the integration of our
+implementation of pairwise ranking optimiza-
+tion, J-PRO. We further present the exten-
+sion of the Thrax SCFG grammar extractor
+to pivot-based extraction of syntactically in-
+formed sentential paraphrases.
+1 

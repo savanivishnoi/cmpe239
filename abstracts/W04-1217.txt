@@ -1,0 +1,10 @@
+
+We describe a machine learning system for the
+recognition of names in biomedical texts. The sys-
+tem makes extensive use of local and syntactic fea-
+tures within the text, as well as external resources
+including the web and gazetteers. It achieves an F-
+score of 70% on the Coling 2004 NLPBA/BioNLP
+shared task of identifying five biomedical named en-
+tities in the GENIA corpus.
+1 

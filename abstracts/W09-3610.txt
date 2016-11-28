@@ -1,0 +1,20 @@
+
+Scholars of Classics cite ancient texts by
+using abridged citations called canonical
+references. In the scholarly digital library,
+canonical references create a complex tex-
+tile of links between ancient and modern
+sources reflecting the deep hypertextual
+nature of texts in this field. This paper
+aims to demonstrate the suitability of Con-
+ditional Random Fields (CRF) for extract-
+ing this particular kind of reference from
+unstructured texts in order to enhance the
+capabilities of navigating and aggregating
+scholarly electronic resources. In partic-
+ular, we developed a parser which recog-
+nizes word level n-grams of a text as be-
+ing canonical references by using a CRF
+model trained with both positive and neg-
+ative examples.
+1 

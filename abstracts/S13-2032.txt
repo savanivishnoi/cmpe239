@@ -1,0 +1,12 @@
+
+We describe the LIMSI system for the
+SemEval-2013 Cross-lingual Word Sense Dis-
+ambiguation (CLWSD) task. Word senses are
+represented by means of translation clusters
+in different languages built by a cross-lingual
+Word Sense Induction (WSI) method. Our
+CLWSD classifier exploits the WSI output for
+selecting appropriate translations for target
+words in context. We present the design of the
+system and the obtained results.
+1 

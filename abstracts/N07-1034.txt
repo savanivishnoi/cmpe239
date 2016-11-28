@@ -1,0 +1,21 @@
+
+Reinforcement learning gives a way to
+learn under what circumstances to per-
+form which actions. However, this ap-
+proach lacks a formal framework for spec-
+ifying hand-crafted restrictions, for speci-
+fying the effects of the system actions, or
+for specifying the user simulation. The in-
+formation state approach, in contrast, al-
+lows system and user behavior to be spec-
+ified as update rules, with preconditions
+and effects. This approach can be used
+to specify complex dialogue behavior in
+a systematic way. We propose combining
+these two approaches, thus allowing a for-
+mal specification of the dialogue behavior,
+and allowing hand-crafted preconditions,
+with remaining ones determined via rein-
+forcement learning so as to minimize dia-
+logue cost.
+1 

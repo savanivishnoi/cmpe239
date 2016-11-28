@@ -1,0 +1,22 @@
+
+Most compositional-distributional models
+of meaning are based on ambiguous vec-
+tor representations, where all the senses
+of a word are fused into the same vec-
+tor. This paper provides evidence that the
+addition of a vector disambiguation step
+prior to the actual composition would be
+beneficial to the whole process, produc-
+ing better composite representations. Fur-
+thermore, we relate this issue with the
+current evaluation practice, showing that
+disambiguation-based tasks cannot reli-
+ably assess the quality of composition. Us-
+ing a word sense disambiguation scheme
+based on the generic procedure of Sch?tze
+(1998), we first provide a proof of con-
+cept for the necessity of separating dis-
+ambiguation from composition. Then we
+demonstrate the benefits of an ?unambigu-
+ous? system on a composition-only task.
+1 

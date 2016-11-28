@@ -1,0 +1,19 @@
+
+In this paper we focus on how to improve
+pronoun resolution using the statistics-
+based semantic compatibility information.
+We investigate two unexplored issues that
+influence the effectiveness of such in-
+formation: statistics source and learning
+framework. Specifically, we for the first
+time propose to utilize the web and the
+twin-candidate model, in addition to the
+previous combination of the corpus and
+the single-candidate model, to compute
+and apply the semantic information. Our
+study shows that the semantic compatibil-
+ity obtained from the web can be effec-
+tively incorporated in the twin-candidate
+learning model and significantly improve
+the resolution of neutral pronouns.
+1 

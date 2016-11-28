@@ -1,0 +1,20 @@
+
+Twitter is a micro blogging website, where
+users can post messages in very short text
+called Tweets. Tweets contain user opin-
+ion and sentiment towards an object or per-
+son. This sentiment information is very use-
+ful in various aspects for business and gov-
+ernments. In this paper, we present a method
+which performs the task of tweet sentiment
+identification using a corpus of pre-annotated
+tweets. We present a sentiment scoring func-
+tion which uses prior information to classify
+(binary classification ) and weight various sen-
+timent bearing words/phrases in tweets. Us-
+ing this scoring function we achieve classifi-
+cation accuracy of 87% on Stanford Dataset
+and 88% on Mejaj dataset. Using supervised
+machine learning approach, we achieve classi-
+fication accuracy of 88% on Stanford dataset.
+1 

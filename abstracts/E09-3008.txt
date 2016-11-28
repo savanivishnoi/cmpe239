@@ -1,0 +1,20 @@
+
+In this article, compound processing for
+translation into German in a factored sta-
+tistical MT system is investigated. Com-
+pounds are handled by splitting them prior
+to training, and merging the parts after
+translation. I have explored eight merging
+strategies using different combinations of
+external knowledge sources, such as word
+lists, and internal sources that are carried
+through the translation process, such as
+symbols or parts-of-speech. I show that
+for merging to be successful, some internal
+knowledge source is needed. I also show
+that an extra sequence model for part-of-
+speech is useful in order to improve the
+order of compound parts in the output.
+The best merging results are achieved by a
+matching scheme for part-of-speech tags.
+1 

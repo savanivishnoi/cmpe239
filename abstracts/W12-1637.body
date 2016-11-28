@@ -1,0 +1,15 @@
+
+This paper presents an analysis of how the
+level of performance achievable by an NLU
+module can affect the optimal modular design
+of a dialogue system. We present an evalua-
+tion that shows how NLU accuracy levels im-
+pact the overall performance of a system that
+includes an NLU module and a rule-based di-
+alogue policy. We contrast these performance
+levels with the performance of a direct classifi-
+cation design that omits a separate NLU mod-
+ule. We conclude with a discussion of the po-
+tential for a hybrid architecture incorporating
+the strengths of both approaches.
+1 

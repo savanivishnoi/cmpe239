@@ -1,0 +1,21 @@
+
+We propose a data-driven approach to en-
+hance translation extraction from compa-
+rable corpora. Instead of resorting to an
+external dictionary, we translate source
+vector features by using a cross-lingual
+Word Sense Disambiguation method. The
+candidate senses for a feature correspond
+to sense clusters of its translations in a
+parallel corpus and the context used for
+disambiguation consists of the vector that
+contains the feature. The translations
+found in the disambiguation output con-
+vey the sense of the features in the source
+vector, while the use of translation clusters
+permits to expand their translation with
+several variants. As a consequence, the
+translated vectors are less noisy and richer,
+and allow for the extraction of higher qual-
+ity lexicons compared to simpler methods.
+1 

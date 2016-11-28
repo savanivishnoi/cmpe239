@@ -1,0 +1,20 @@
+
+Most existing techniques for combining
+multiple alignment tables can combine
+only two alignment tables at a time, and
+are based on heuristics (Och and Ney,
+2003), (Koehn et al, 2003). In this pa-
+per, we propose a novel mathematical for-
+mulation for combining an arbitrary num-
+ber of alignment tables using their power
+mean. The method frames the combi-
+nation task as an optimization problem,
+and finds the optimal alignment lying be-
+tween the intersection and union of multi-
+ple alignment tables by optimizing the pa-
+rameter p: the affinely extended real num-
+ber defining the order of the power mean
+function. The combination approach pro-
+duces better alignment tables in terms of
+both F-measure and BLEU scores.
+1 

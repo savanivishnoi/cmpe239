@@ -1,0 +1,22 @@
+
+We propose an unsupervised method to au-
+tomatically extract domain-specific prefixes
+and suffixes from biological corpora based
+on the use of PATRICIA tree. The method is
+evaluated by integrating the extracted affixes
+into an existing learning-based biological
+term annotation system. The system based
+on our method achieves comparable experi-
+mental results to the original system in locat-
+ing biological terms and exact term match-
+ing annotation. However, our method im-
+proves the system efficiency by significantly
+reducing the feature set size. Additionally,
+the method achieves a better performance
+with a small training data set. Since the af-
+fix extraction process is unsupervised, it is
+assumed that the method can be generalized
+to extract domain-specific affixes from other
+domains, thus assisting in domain-specific
+concept recognition.
+1 

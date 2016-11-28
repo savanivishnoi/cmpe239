@@ -1,0 +1,18 @@
+
+Data-driven techniques have been used
+for many computational linguistics tasks.
+Models derived from data are generally
+more robust than hand-crafted systems
+since they better reflect the distribution
+of the phenomena being modeled. With
+the availability of large corpora of spo-
+ken dialog, dialog management is now
+reaping the benefits of data-driven tech-
+niques. In this paper, we compare two ap-
+proaches to modeling subtask structure in
+dialog: a chunk-based model of subdialog
+sequences, and a parse-based, or hierarchi-
+cal, model. We evaluate these models us-
+ing customer agent dialogs from a catalog
+service domain.
+1 

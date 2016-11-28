@@ -1,0 +1,21 @@
+
+In modern machine translation practice, a sta-
+tistical phrasal or hierarchical translation sys-
+tem usually relies on a huge set of trans-
+lation rules extracted from bi-lingual train-
+ing data. This approach not only results in
+space and efficiency issues, but also suffers
+from the sparse data problem. In this paper,
+we propose to use factorized grammars, an
+idea widely accepted in the field of linguis-
+tic grammar construction, to generalize trans-
+lation rules, so as to solve these two prob-
+lems. We designed a method to take advantage
+of the XTAG English Grammar to facilitate
+the extraction of factorized rules. We experi-
+mented on various setups of low-resource lan-
+guage translation, and showed consistent sig-
+nificant improvement in BLEU over state-of-
+the-art string-to-dependency baseline systems
+with 200K words of bi-lingual training data.
+1 

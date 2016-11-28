@@ -1,0 +1,19 @@
+
+Resolving anaphora is an important step
+in the identification of named entities such
+as genes and proteins in biomedical sci-
+entific articles. The goal of this work
+is to resolve associative and coreferential
+anaphoric expressions making use of the
+rich domain resources (such as databases
+and ontologies) available for the biomed-
+ical area, instead of annotated training
+data. The results are comparable to ex-
+tant state-of-the-art supervised methods in
+the same domain. The system is integrated
+into an interactive tool designed to assist
+FlyBase curators by aiding the identifica-
+tion of the salient entities in a given paper
+as a first step in the aggregation of infor-
+mation about them.
+1 

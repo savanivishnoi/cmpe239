@@ -1,0 +1,23 @@
+
+This research explores the idea of inducing
+domain-specific semantic class taggers us-
+ing only a domain-specific text collection
+and seed words. The learning process be-
+gins by inducing a classifier that only has
+access to contextual features, forcing it to
+generalize beyond the seeds. The contex-
+tual classifier then labels new instances,
+to expand and diversify the training set.
+Next, a cross-category bootstrapping pro-
+cess simultaneously trains a suite of clas-
+sifiers for multiple semantic classes. The
+positive instances for one class are used as
+negative instances for the others in an it-
+erative bootstrapping cycle. We also ex-
+plore a one-semantic-class-per-discourse
+heuristic, and use the classifiers to dynam-
+ically create semantic features. We eval-
+uate our approach by inducing six seman-
+tic taggers from a collection of veterinary
+medicine message board posts.
+1 

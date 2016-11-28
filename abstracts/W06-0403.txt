@@ -1,0 +1,19 @@
+
+The constraint-oriented approaches to lan-
+guage processing step back from the gen-
+erative theory and make it possible, in the-
+ory, to deal with all types of linguistic re-
+lationships (e.g. dependency, linear prece-
+dence or immediate dominance) with the
+same importance when parsing an input
+utterance. Yet in practice, all implemented
+constraint-oriented parsing strategies still
+need to discriminate between ?important?
+and ?not-so-important? types of relations
+during the parsing process.
+In this paper we introduce a new
+constraint-oriented parsing strategy based
+on Property Grammars, which overcomes
+this drawback and grants the same impor-
+tance to all types of relations.
+1 

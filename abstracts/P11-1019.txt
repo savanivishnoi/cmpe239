@@ -1,0 +1,22 @@
+
+We demonstrate how supervised discrimina-
+tive machine learning techniques can be used
+to automate the assessment of ?English as a
+Second or Other Language? (ESOL) examina-
+tion scripts. In particular, we use rank prefer-
+ence learning to explicitly model the grade re-
+lationships between scripts. A number of dif-
+ferent features are extracted and ablation tests
+are used to investigate their contribution to
+overall performance. A comparison between
+regression and rank preference models further
+supports our method. Experimental results on
+the first publically available dataset show that
+our system can achieve levels of performance
+close to the upper bound for the task, as de-
+fined by the agreement between human exam-
+iners on the same corpus. Finally, using a set
+of ?outlier? texts, we test the validity of our
+model and identify cases where the model?s
+scores diverge from that of a human examiner.
+1 

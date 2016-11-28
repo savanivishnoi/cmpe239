@@ -1,0 +1,21 @@
+ 
+In this paper, we introduce our counseling dia-
+log system. Our system interacts with users by 
+recognizing what the users say, predicting the 
+context, and following the users? feelings. For 
+this interaction, our system follows three basic 
+counseling techniques: paraphrasing, asking 
+open questions, and reflecting feelings. To fol-
+low counseling techniques, we extracted 
+5W1H information and user emotions from 
+user utterances, and we generated system ut-
+terances while using the counseling techniques. 
+We used the conditional random field algo-
+rithm to extract 5W1H information, and con-
+structed our counseling algorithm using a dia-
+log strategy that was based on counseling 
+techniques. A total of 16 adults tested our sys-
+tem and rated it with a higher score as an in-
+teractive communicator compared with the 
+baseline system. 
+1 

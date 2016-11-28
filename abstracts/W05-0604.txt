@@ -1,0 +1,20 @@
+
+Recent work on the problem of detect-
+ing synonymy through corpus analysis has
+used the Test of English as a Foreign Lan-
+guage (TOEFL) as a benchmark. How-
+ever, this test involves as few as 80 ques-
+tions, prompting questions regarding the
+statistical significance of reported results.
+We overcome this limitation by generating
+a TOEFL-like test using WordNet, con-
+taining thousands of questions and com-
+posed only of words occurring with suf-
+ficient corpus frequency to support sound
+distributional comparisons. Experiments
+with this test lead us to a similarity mea-
+sure which significantly outperforms the
+best proposed to date. Analysis suggests
+that a strength of this measure is its rela-
+tive robustness against polysemy.
+1 

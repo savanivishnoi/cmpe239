@@ -1,0 +1,18 @@
+
+This paper describes the importation of
+Manually Annotated Sub-Corpus (MASC)
+data and annotations into the linguistic
+database ANNIS, which allows users to vi-
+sualize and query linguistically-annotated
+corpora. We outline the process of
+mapping MASC?s GrAF representation to
+ANNIS?s internal format relANNIS and
+demonstrate how the system provides ac-
+cess to multiple annotation layers in the
+corpus. This access provides information
+about inter-layer relations and dependen-
+cies that have been previously difficult to
+explore, and which are highly valuable for
+continued development of language pro-
+cessing applications.
+1 

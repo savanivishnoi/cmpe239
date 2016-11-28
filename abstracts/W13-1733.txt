@@ -1,0 +1,11 @@
+
+This paper describes LIMSI?s participation to
+the first shared task on Native Language Iden-
+tification. Our submission uses a Maximum
+Entropy classifier, using as features character
+and chunk n-grams, spelling and grammati-
+cal mistakes, and lexical preferences. Perfor-
+mance was slightly improved by using a two-
+step classifier to better distinguish otherwise
+easily confused native languages.
+1 

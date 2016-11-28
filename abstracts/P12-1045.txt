@@ -1,0 +1,26 @@
+
+Learning a semantic lexicon is often an impor-
+tant first step in building a system that learns
+to interpret the meaning of natural language.
+It is especially important in language ground-
+ing where the training data usually consist of
+language paired with an ambiguous perceptual
+context. Recent work by Chen and Mooney
+(2011) introduced a lexicon learning method
+that deals with ambiguous relational data by
+taking intersections of graphs. While the al-
+gorithm produced good lexicons for the task of
+learning to interpret navigation instructions, it
+only works in batch settings and does not scale
+well to large datasets. In this paper we intro-
+duce a new online algorithm that is an order
+of magnitude faster and surpasses the state-
+of-the-art results. We show that by changing
+the grammar of the formal meaning represen-
+tation language and training on additional data
+collected from Amazon?s Mechanical Turk we
+can further improve the results. We also in-
+clude experimental results on a Chinese trans-
+lation of the training data to demonstrate the
+generality of our approach.
+1 

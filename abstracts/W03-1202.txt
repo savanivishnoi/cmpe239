@@ -1,0 +1,22 @@
+  
+We explore the problem of single 
+sentence summarisation.  In the news 
+domain, such a summary might 
+resemble a headline.  The headline 
+generation system we present uses 
+Singular Value Decomposition (SVD) to 
+guide the generation of a headline 
+towards the theme that best represents 
+the document to be summarised.   In 
+doing so, the intuition is that the 
+generated summary will more accurately 
+reflect the content of the source 
+document.  This paper presents SVD as 
+an alternative method to determine if a 
+word is a suitable candidate for 
+inclusion in the headline.  The results of 
+a recall based evaluation comparing 
+three different strategies to word 
+selection, indicate that thematic 
+information does help improve recall. 
+1 

@@ -1,0 +1,12 @@
+
+WordsEye is a system for automatically converting natural language text into 3D scenes repre-
+senting the meaning of that text. At the core of WordsEye is the Scenario-Based Lexical Knowledge
+Resource (SBLR), a unified knowledge base and representational system for expressing lexical and
+real-world knowledge needed to depict scenes from text. To enrich a portion of the SBLR, we need to
+fill out some contextual information about its objects, including information about their typical parts,
+typical locations and typical objects located near them. This paper explores our proposed method-
+ology to achieve this goal. First we try to collect some semantic information by using Amazon?s
+Mechanical Turk (AMT). Then, we manually filter and classify the collected data and finally, we
+compare the manual results with the output of some automatic filtration techniques which use several
+WordNet similarity and corpus association measures.
+1 

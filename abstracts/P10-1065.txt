@@ -1,0 +1,25 @@
+ 
+We observe that (1) how a given named en-
+tity (NE) is translated (i.e., either semanti-
+cally or phonetically) depends greatly on its 
+associated entity type, and (2) entities within 
+an aligned pair should share the same type. 
+Also, (3) those initially detected NEs are an-
+chors, whose information should be used to 
+give certainty scores when selecting candi-
+dates. From this basis, an integrated model is 
+thus proposed in this paper to jointly identify 
+and align bilingual named entities between 
+Chinese and English. It adopts a new map-
+ping type ratio feature (which is the propor-
+tion of NE internal tokens that are semanti-
+cally translated), enforces an entity type con-
+sistency constraint, and utilizes additional 
+monolingual candidate certainty factors 
+(based on those NE anchors). The experi-
+ments show that this novel approach has sub-
+stantially raised the type-sensitive F-score of 
+identified NE-pairs from 68.4% to 81.7% 
+(42.1% F-score imperfection reduction) in 
+our Chinese-English NE alignment task.  
+1 

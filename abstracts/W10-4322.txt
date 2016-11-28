@@ -1,0 +1,18 @@
+
+Spoken dialogue management strategy op-
+timization by means of Reinforcement
+Learning (RL) is now part of the state of
+the art. Yet, there is still a clear mis-
+match between the complexity implied by
+the required naturalness of dialogue sys-
+tems and the inability of standard RL al-
+gorithms to scale up. Another issue is the
+sparsity of the data available for training in
+the dialogue domain which can not ensure
+convergence of most of RL algorithms.
+In this paper, we propose to combine a
+sample-efficient generalization framework
+for RL with a feature selection algorithm
+for the learning of an optimal spoken dia-
+logue management strategy.
+1 

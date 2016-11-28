@@ -1,0 +1,21 @@
+
+Even the entire Web corpus does not explic-
+itly answer all questions, yet inference can un-
+cover many implicit answers. But where do
+inference rules come from?
+This paper investigates the problem of learn-
+ing inference rules from Web text in an un-
+supervised, domain-independent manner. The
+SHERLOCK system, described herein, is a
+first-order learner that acquires over 30,000
+Horn clauses from Web text. SHERLOCK em-
+bodies several innovations, including a novel
+rule scoring function based on Statistical Rel-
+evance (Salmon et al, 1971) which is effec-
+tive on ambiguous, noisy and incomplete Web
+extractions. Our experiments show that in-
+ference over the learned rules discovers three
+times as many facts (at precision 0.8) as the
+TEXTRUNNER system which merely extracts
+facts explicitly stated in Web text.
+1 

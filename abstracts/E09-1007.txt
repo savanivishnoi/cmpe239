@@ -1,0 +1,17 @@
+
+We propose a system which builds, in a
+semi-supervised manner, a resource that
+aims at helping a NER system to anno-
+tate corpus-specific named entities. This
+system is based on a distributional ap-
+proach which uses syntactic dependen-
+cies for measuring similarities between
+named entities. The specificity of the
+presented method however, is to combine
+a clique-based approach and a clustering
+technique that amounts to a soft clustering
+method. Our experiments show that the
+resource constructed by using this clique-
+based clustering system allows to improve
+different NER systems.
+1 

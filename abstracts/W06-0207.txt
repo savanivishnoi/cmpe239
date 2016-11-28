@@ -1,0 +1,19 @@
+ 
+An unsupervised learning method, based 
+on corpus linguistics and special lan-
+guage terminology, is described that can 
+extract time-varying information from 
+text streams.  The method is shown to be 
+?language-independent? in that its use 
+leads to sets of regular-expressions that 
+can be used to extract the information in 
+typologically distinct languages like Eng-
+lish and Arabic.  The method uses the in-
+formation related to the distribution of N-
+grams, for automatically extracting 
+?meaning bearing? patterns of usage in a 
+training corpus. The analysis of an Eng-
+lish news wire corpus (1,720,142 tokens) 
+and Arabic news wire corpus (1,720,154 
+tokens) show encouraging results. 
+1 

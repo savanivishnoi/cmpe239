@@ -1,0 +1,16 @@
+ 
+This paper presents our work for partici-
+pation in the Third International Chinese 
+Word Segmentation Bakeoff. We apply 
+several processing approaches according 
+to the corresponding sub-tasks, which are 
+exhibited in real natural language. In our 
+system, Trigram model with smoothing 
+algorithm is the core module in word 
+segmentation, and Maximum Entropy 
+model is the basic model in Named En-
+tity Recognition task. The experiment 
+indicates that this system achieves F-
+measure 96.8% in MSRA open test in the 
+third SIGHAN-2006 bakeoff. 
+1 

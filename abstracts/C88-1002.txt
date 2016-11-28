@@ -1,0 +1,22 @@
+ 
+We present he first sizable grammar written for TAG. 
+We present he linguistic coverage of our grammar, and 
+explain the linguistic reasons which lead us to choose the 
+particular epresentations. We show that TAG formal- 
+ism provides sufficient constraints for handling most of 
+the linguistic phenomena, with minimal inguistic stipula- 
+tions. We first state the basic structures needed for pars- 
+ing French, with a particular emphasis on TAG's extended 
+domain of locality that enables us to state complex sub- 
+categorizaeion phenomena in a natural way. We then give 
+a detailed analysis of sentential complements, because it 
+has lead us to introduce substitution in the formalism, 
+and because TAG makes interesting predictions. We dis- 
+cuss the different linguistic phenomena corresponding to
+adjunction and to substitution respectively. We then movc 
+on to support verb constructions, which are represented in 
+a TAG in a simpler way than the usual double analysis. 
+It is the first time support verb constructions are handled 
+in a parser. We lastly give an overview of the treatment 
+of adverbs, and suggest a treatment of idioms which make 
+them fall into the same representations as 'free' structures. 

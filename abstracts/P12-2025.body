@@ -1,0 +1,13 @@
+
+We present a system for cross-lingual parse
+disambiguation, exploiting the assumption
+that the meaning of a sentence remains un-
+changed during translation and the fact that
+different languages have different ambiguities.
+We simultaneously reduce ambiguity in multi-
+ple languages in a fully automatic way. Eval-
+uation shows that the system reliably discards
+dispreferred parses from the raw parser output,
+which results in a pre-selection that can speed
+up manual treebanking.
+1 

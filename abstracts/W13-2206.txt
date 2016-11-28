@@ -1,0 +1,30 @@
+
+We use feature decay algorithms (FDA)
+for fast deployment of accurate statistical
+machine translation systems taking only
+about half a day for each translation direc-
+tion. We develop parallel FDA for solving
+computational scalability problems caused
+by the abundance of training data for SMT
+models and LM models and still achieve
+SMT performance that is on par with us-
+ing all of the training data or better. Par-
+allel FDA runs separate FDA models on
+randomized subsets of the training data
+and combines the instance selections later.
+Parallel FDA can also be used for selecting
+the LM corpus based on the training set
+selected by parallel FDA. The high qual-
+ity of the selected training data allows us
+to obtain very accurate translation outputs
+close to the top performing SMT systems.
+The relevancy of the selected LM corpus
+can reach up to 86% reduction in the num-
+ber of OOV tokens and up to 74% reduc-
+tion in the perplexity. We perform SMT
+experiments in all language pairs in the
+WMT13 translation task and obtain SMT
+performance close to the top systems us-
+ing significantly less resources for training
+and development.
+1 

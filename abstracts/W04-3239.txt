@@ -1,0 +1,19 @@
+
+The focus of research in text classification has ex-
+panded from simple topic identification to more
+challenging tasks such as opinion/modality identi-
+fication. Unfortunately, the latter goals exceed the
+ability of the traditional bag-of-word representation
+approach, and a richer, more structural representa-
+tion is required. Accordingly, learning algorithms
+must be created that can handle the structures ob-
+served in texts. In this paper, we propose a Boosting
+algorithm that captures sub-structures embedded in
+texts. The proposal consists of i) decision stumps
+that use subtrees as features and ii) the Boosting al-
+gorithm which employs the subtree-based decision
+stumps as weak learners. We also discuss the rela-
+tion between our algorithm and SVMs with tree ker-
+nel. Two experiments on opinion/modality classifi-
+cation confirm that subtree features are important.
+1 

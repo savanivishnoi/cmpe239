@@ -1,0 +1,13 @@
+
+We present a new approach to learning a
+semantic parser (a system that maps natu-
+ral language sentences into logical form).
+Unlike previous methods, it exploits an ex-
+isting syntactic parser to produce disam-
+biguated parse trees that drive the compo-
+sitional semantic interpretation. The re-
+sulting system produces improved results
+on standard corpora on natural language
+interfaces for database querying and sim-
+ulated robot control.
+1 

@@ -1,0 +1,26 @@
+ 
+We propose to use user simulation for testing 
+during the development of a sophisticated dia-
+log system. While the limited behaviors of the 
+state-of-the-art user simulation may not cover 
+important aspects in the dialog system testing, 
+our proposed approach extends the functional-
+ity of the simulation so that it can be used at 
+least for the early stage testing before the sys-
+tem reaches stable performance for evaluation 
+involving human users. The proposed ap-
+proach includes a set of evaluation measures 
+that can be computed automatically from the 
+interaction logs between the user simulator 
+and the dialog system. We first validate these 
+measures on human user dialogs using user 
+satisfaction scores. We also build a regression 
+model to estimate the user satisfaction scores 
+using these evaluation measures. Then, we 
+apply the evaluation measures on a simulated 
+dialog corpus trained from the real user cor-
+pus. We show that the user satisfaction scores 
+estimated from the simulated corpus are not 
+statistically different from the real users? satis-
+faction scores.  
+1 

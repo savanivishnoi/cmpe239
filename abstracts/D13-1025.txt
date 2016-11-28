@@ -1,0 +1,18 @@
+
+Current automatic machine translation sys-
+tems are not able to generate error-free trans-
+lations and human intervention is often re-
+quired to correct their output. Alternatively,
+an interactive framework that integrates the
+human knowledge into the translation pro-
+cess has been presented in previous works.
+Here, we describe a new interactive ma-
+chine translation approach that is able to work
+with phrase-based and hierarchical translation
+models, and integrates error-correction all in
+a unified statistical framework. In our experi-
+ments, our approach outperforms previous in-
+teractive translation systems, and achieves es-
+timated effort reductions of as much as 48%
+relative over a traditional post-edition system.
+1 

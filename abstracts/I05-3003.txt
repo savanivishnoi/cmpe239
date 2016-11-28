@@ -1,0 +1,24 @@
+
+We present a method for improving 
+dependency structure analysis of Chi-
+nese. Our bottom-up deterministic ana-
+lyzer adopt Nivre?s algorithm (Nivre 
+and Scholz, 2004). Support Vector Ma-
+chines (SVMs) are utilized to deter-
+mine the word dependency relations. 
+We find that there are two problems in 
+our analyzer and propose two methods 
+to solve them. One problem is that 
+some operations cannot be solved only 
+using local feature. We utilize the 
+global features to solve this. The other 
+problem is that this bottom-up analyzer 
+doesn?t use top-down information. We 
+supply the top-down information by 
+constructing SVMs based root node 
+finder to solve this problem. Experi-
+mental evaluation on the Penn Chinese 
+Treebank Corpus shows that the pro-
+posed extensions improve the parsing 
+accuracy significantly. 
+1 

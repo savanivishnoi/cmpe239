@@ -1,0 +1,15 @@
+
+We evaluate several heuristic solvers for corre-
+lation clustering, the NP-hard problem of par-
+titioning a dataset given pairwise affinities be-
+tween all points. We experiment on two prac-
+tical tasks, document clustering and chat dis-
+entanglement, to which ILP does not scale.
+On these datasets, we show that the cluster-
+ing objective often, but not always, correlates
+with external metrics, and that local search al-
+ways improves over greedy solutions. We use
+semi-definite programming (SDP) to provide a
+tighter bound, showing that simple algorithms
+are already close to optimality.
+1 

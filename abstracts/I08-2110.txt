@@ -1,0 +1,18 @@
+
+This paper proposes a flexible matching
+method that can assimilate the expressive
+divergence. First, broad-coverage syn-
+onymous expressions are automatically ex-
+tracted from an ordinary dictionary, and
+among them, those whose distributional
+similarity in a Web corpus is high are used
+for the flexible matching. Then, to overcome
+the combinatorial explosion problem in the
+combination of expressive divergence, an ID
+is assigned to each synonymous group, and
+SYNGRAPH data structure is introduced to
+pack the expressive divergence. We con-
+firmed the effectiveness of our method on
+experiments of machine translation and in-
+formation retrieval.
+1 

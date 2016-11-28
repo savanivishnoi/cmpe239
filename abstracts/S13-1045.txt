@@ -1,0 +1,19 @@
+
+Existing semantic parsing research has
+steadily improved accuracy on a few domains
+and their corresponding databases. This paper
+introduces FreeParser, a system that trains on
+one domain and one set of predicate and con-
+stant symbols, and then can parse sentences
+for any new domain, including sentences that
+refer to symbols never seen during training.
+FreeParser uses a domain-independent archi-
+tecture to automatically identify sentences
+relevant to each new database symbol, which
+it uses to supplement its manually-annotated
+training data from the training domain. In
+cross-domain experiments involving 23
+domains, FreeParser can parse sentences for
+which it has seen comparable unannotated
+sentences with an F1 of 0.71.
+1 

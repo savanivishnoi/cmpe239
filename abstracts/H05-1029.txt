@@ -1,0 +1,17 @@
+ 
+We describe the error handling architect-
+ture underlying the RavenClaw dialog 
+management framework. The architecture 
+provides a robust basis for current and fu-
+ture research in error detection and recov-
+ery. Several objectives were pursued in its 
+development: task-independence, ease-of-
+use, adaptability and scalability. We de-
+scribe the key aspects of architectural de-
+sign which confer these properties, and 
+discuss the deployment of this architect-
+ture in a number of spoken dialog systems 
+spanning several domains and interaction 
+types. Finally, we outline current research 
+projects supported by this architecture. 
+1 

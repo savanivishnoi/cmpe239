@@ -1,0 +1,15 @@
+
+This paper presents an empirical work
+for Vietnamese NP chunking task. We
+show how to build an annotation corpus of
+NP chunking and how discriminative se-
+quence models are trained using the cor-
+pus. Experiment results using 5 fold cross
+validation test show that discriminative se-
+quence learning are well suitable for Viet-
+namese chunking. In addition, by em-
+pirical experiments we show that the part
+of speech information contribute signifi-
+cantly to the performance of there learning
+models.
+1 

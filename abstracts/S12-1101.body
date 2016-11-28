@@ -1,0 +1,16 @@
+
+We present the Penn system for SemEval-
+2012 Task 6, computing the degree of seman-
+tic equivalence between two sentences. We
+explore the contributions of different vector
+models for computing sentence and word sim-
+ilarity: Collobert and Weston embeddings as
+well as two novel approaches, namely eigen-
+words and selectors. These embeddings pro-
+vide different measures of distributional simi-
+larity between words, and their contexts. We
+used regression to combine the different simi-
+larity measures, and found that each provides
+partially independent predictive signal above
+baseline models.
+1 

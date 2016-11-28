@@ -1,0 +1,12 @@
+
+The Semantic Textual Similarity (STS) task
+examines semantic similarity at a sentence-
+level. We explored three representations of
+semantics (implicit or explicit): named enti-
+ties, semantic vectors, and structured vectorial
+semantics. From a DKPro baseline, we also
+performed feature selection and used source-
+specific linear regression models to combine
+our features. Our systems placed 5th, 6th, and
+8th among 90 submitted systems.
+1 

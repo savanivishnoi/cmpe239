@@ -1,0 +1,14 @@
+
+We investigate a language model that com-
+bines morphological and shape features with
+a Kneser-Ney model and test it in a large
+crosslingual study of European languages.
+Even though the model is generic and we use
+the same architecture and features for all lan-
+guages, the model achieves reductions in per-
+plexity for all 21 languages represented in the
+Europarl corpus, ranging from 3% to 11%. We
+show that almost all of this perplexity reduc-
+tion can be achieved by identifying suffixes by
+frequency.
+1 

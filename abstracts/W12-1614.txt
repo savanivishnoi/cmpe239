@@ -1,0 +1,19 @@
+
+We provide a systematic study of previously
+proposed features for implicit discourse re-
+lation identification, identifying new feature
+combinations that optimize F1-score. The re-
+sulting classifiers achieve the best F1-scores
+to date for the four top-level discourse rela-
+tion classes of the Penn Discourse Tree Bank:
+COMPARISON, CONTINGENCY, EXPAN-
+SION, and TEMPORAL. We further identify
+factors for feature extraction that can have a
+major impact on performance and determine
+that some features originally proposed for the
+task no longer provide performance gains in
+light of more powerful, recently discovered
+features. Our results constitute a new set of
+baselines for future studies of implicit dis-
+course relation identification.
+1 

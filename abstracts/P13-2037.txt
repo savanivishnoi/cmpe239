@@ -1,0 +1,28 @@
+
+In this paper, we investigate the appli-
+cation of recurrent neural network lan-
+guage models (RNNLM) and factored
+language models (FLM) to the task of
+language modeling for Code-Switching
+speech. We present a way to integrate part-
+of-speech tags (POS) and language in-
+formation (LID) into these models which
+leads to significant improvements in terms
+of perplexity. Furthermore, a comparison
+between RNNLMs and FLMs and a de-
+tailed analysis of perplexities on the dif-
+ferent backoff levels are performed. Fi-
+nally, we show that recurrent neural net-
+works and factored language models can
+be combined using linear interpolation to
+achieve the best performance. The final
+combined language model provides 37.8%
+relative improvement in terms of perplex-
+ity on the SEAME development set and
+a relative improvement of 32.7% on the
+evaluation set compared to the traditional
+n-gram language model.
+Index Terms: multilingual speech processing,
+code switching, language modeling, recurrent
+neural networks, factored language models
+1 

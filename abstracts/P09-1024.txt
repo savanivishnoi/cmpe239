@@ -1,0 +1,21 @@
+
+In this paper, we investigate an ap-
+proach for creating a comprehensive tex-
+tual overview of a subject composed of in-
+formation drawn from the Internet. We use
+the high-level structure of human-authored
+texts to automatically induce a domain-
+specific template for the topic structure of
+a new overview. The algorithmic innova-
+tion of our work is a method to learn topic-
+specific extractors for content selection
+jointly for the entire template. We aug-
+ment the standard perceptron algorithm
+with a global integer linear programming
+formulation to optimize both local fit of
+information into each topic and global co-
+herence across the entire overview. The
+results of our evaluation confirm the bene-
+fits of incorporating structural information
+into the content selection process.
+1 

@@ -1,0 +1,12 @@
+. Corpus-based stochastic language models have achieved significant 
+success in speech recognition, but construction of a corpus pertaining to a 
+specific application is a difficult task. This paper introduces a Case-Based 
+Reasoning system to generate natural language corpora. In comparison to 
+traditional natural language generation approaches, this system overcomes the 
+inflexibility of template-based methods while avoiding the linguistic 
+sophistication of rule-based packages. The evaluation of the system indicates 
+our approach is effective in generating users? specifications or queries as 98% 
+of the generated sentences are grammatically correct. The study result also 
+shows that the language model derived from the generated corpus can 
+significantly outperform a general language model or a dictation grammar.  
+1   

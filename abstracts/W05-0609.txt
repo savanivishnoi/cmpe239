@@ -1,0 +1,20 @@
+
+Clustering is an optimization procedure that
+partitions a set of elements to optimize some
+criteria, based on a fixed distance metric de-
+fined between the elements. Clustering ap-
+proaches have been widely applied in natural
+language processing and it has been shown re-
+peatedly that their success depends on defin-
+ing a good distance metric, one that is appro-
+priate for the task and the clustering algorithm
+used. This paper develops a framework in
+which clustering is viewed as a learning task,
+and proposes a way to train a distance metric
+that is appropriate for the chosen clustering al-
+gorithm in the context of the given task. Ex-
+periments in the context of the entity identifi-
+cation problem exhibit significant performance
+improvements over state-of-the-art clustering
+approaches developed for this problem.
+1 

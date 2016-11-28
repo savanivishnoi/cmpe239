@@ -1,0 +1,22 @@
+
+We address the task of unsupervised topic
+segmentation of speech data operating over
+raw acoustic information. In contrast to ex-
+isting algorithms for topic segmentation of
+speech, our approach does not require in-
+put transcripts. Our method predicts topic
+changes by analyzing the distribution of re-
+occurring acoustic patterns in the speech sig-
+nal corresponding to a single speaker. The
+algorithm robustly handles noise inherent in
+acoustic matching by intelligently aggregat-
+ing information about the similarity profile
+from multiple local comparisons. Our ex-
+periments show that audio-based segmen-
+tation compares favorably with transcript-
+based segmentation computed over noisy
+transcripts. These results demonstrate the
+desirability of our method for applications
+where a speech recognizer is not available,
+or its output has a high word error rate.
+1 

@@ -1,0 +1,19 @@
+
+This paper addressees the problem of eliminat-
+ing unsatisfactory outputs from machine trans-
+lation (MT) systems. The authors intend to
+eliminate unsatisfactory MT outputs by using
+confidence measures. Confidence measures for
+MT outputs include the rank-sum-based confi-
+dence measure (RSCM) for statistical machine
+translation (SMT) systems. RSCM can be ap-
+plied to non-SMT systems but does not always
+work well on them. This paper proposes an
+alternative RSCM that adopts a mixture of the
+N-best lists from multiple MT systems instead
+of a single-system?s N-best list in the exist-
+ing RSCM. In most cases, the proposed RSCM
+proved to work better than the existing RSCM
+on two non-SMT systems and to work as well
+as the existing RSCM on an SMT system.
+1 

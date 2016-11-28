@@ -1,0 +1,20 @@
+
+We describe the English Lexical Simplifica-
+tion task at SemEval-2012. This is the first
+time such a shared task has been organized
+and its goal is to provide a framework for the
+evaluation of systems for lexical simplification
+and foster research on context-aware lexical
+simplification approaches. The task requires
+that annotators and systems rank a number of
+alternative substitutes ? all deemed adequate ?
+for a target word in context, according to how
+?simple? these substitutes are. The notion of
+simplicity is biased towards non-native speak-
+ers of English. Out of nine participating sys-
+tems, the best scoring ones combine context-
+dependent and context-independent informa-
+tion, with the strongest individual contribution
+given by the frequency of the substitute re-
+gardless of its context.
+1 

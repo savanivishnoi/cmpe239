@@ -1,0 +1,36 @@
+
+As text data becomes plentiful, unsuper-
+vised methods for Word Sense Disam-
+biguation (WSD) become more viable. A 
+problem encountered in applying WSD 
+methods is finding the exact number of 
+senses an ambiguity has in a training cor-
+pus collected in an automated manner. 
+That number is not known a priori; rather 
+it needs to be determined based on the 
+data itself. We address that problem us-
+ing cluster stopping methods. Such tech-
+niques have not previously applied to 
+WSD. We implement the methods of 
+Calinski and Harabasz (1975) and Harti-
+gan (1975) and our adaptation of the Gap 
+statistic (Tibshirani, Walter and Hastie, 
+2001). For evaluation, we use the WSD 
+Test Set from the National Library of 
+Medicine, whose sense inventory is the 
+Unified Medical Language System. The 
+best accuracy for selecting the correct 
+number of clusters is 0.60 with the C&H 
+method. Our error analysis shows that the 
+cluster stopping methods make finer-
+grained sense distinctions by creating ad-
+ditional clusters. The highest F-scores 
+(82.89), indicative of the quality of clus-
+ter membership assignment, are compa-
+rable to the baseline majority sense 
+(82.63) and point to a path towards accu-
+racy improvement via additional cluster 
+pruning. The importance and significance 
+of the current work is in applying cluster 
+stopping rules to WSD. 
+1 

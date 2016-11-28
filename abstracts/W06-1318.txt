@@ -1,0 +1,27 @@
+
+We present a first analysis of inter-
+annotator agreement for the DIT++ tagset
+of dialogue acts, a comprehensive, lay-
+ered, multidimensional set of 86 tags.
+Within a dimension or a layer, subsets of
+tags are often hierarchically organised. We
+argue that especially for such highly struc-
+tured annotation schemes the well-known
+kappa statistic is not an adequate measure
+of inter-annotator agreement. Instead, we
+propose a statistic that takes the structural
+properties of the tagset into account, and
+we discuss the application of this statistic
+in an annotation experiment. The exper-
+iment shows promising agreement scores
+for most dimensions in the tagset and pro-
+vides useful insights into the usability of
+the annotation scheme, but also indicates
+that several additional factors influence
+annotator agreement. We finally suggest
+that the proposed approach for measuring
+agreement per dimension can be a good
+basis for measuring annotator agreement
+over the dimensions of a multidimensional
+annotation scheme.
+1 

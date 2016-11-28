@@ -1,0 +1,26 @@
+
+Supervised and semi-supervised sense dis-
+ambiguation methods will mis-tag the in-
+stances of a target word if the senses of
+these instances are not defined in sense in-
+ventories or there are no tagged instances
+for these senses in training data. Here we
+used a model order identification method
+to avoid the misclassification of the in-
+stances with undefined senses by discov-
+ering new senses from mixed data (tagged
+and untagged corpora). This algorithm
+tries to obtain a natural partition of the
+mixed data by maximizing a stability cri-
+terion defined on the classification result
+from an extended label propagation al-
+gorithm over all the possible values of
+the number of senses (or sense number,
+model order). Experimental results on
+SENSEVAL-3 data indicate that it outper-
+forms SVM, a one-class partially super-
+vised classification algorithm, and a clus-
+tering based model order identification al-
+gorithm when the tagged data is incom-
+plete.
+1 

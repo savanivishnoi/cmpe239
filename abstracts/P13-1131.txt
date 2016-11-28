@@ -1,0 +1,19 @@
+
+Automatic acquisition of inference rules
+for predicates has been commonly ad-
+dressed by computing distributional simi-
+larity between vectors of argument words,
+operating at the word space level. A re-
+cent line of work, which addresses context
+sensitivity of rules, represented contexts in
+a latent topic space and computed similar-
+ity over topic vectors. We propose a novel
+two-level model, which computes simi-
+larities between word-level vectors that
+are biased by topic-level context repre-
+sentations. Evaluations on a naturally-
+distributed dataset show that our model
+significantly outperforms prior word-level
+and topic-level models. We also release a
+first context-sensitive inference rule set.
+1 

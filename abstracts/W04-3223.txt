@@ -1,0 +1,21 @@
+
+We present an approach to bounded constraint-
+relaxation for entropy maximization that corre-
+sponds to using a double-exponential prior or `1 reg-
+ularizer in likelihood maximization for log-linear
+models. We show that a combined incremental fea-
+ture selection and regularization method can be es-
+tablished for maximum entropy modeling by a nat-
+ural incorporation of the regularizer into gradient-
+based feature selection, following Perkins et al
+(2003). This provides an efficient alternative to stan-
+dard `1 regularization on the full feature set, and
+a mathematical justification for thresholding tech-
+niques used in likelihood-based feature selection.
+Also, we motivate an extension to n-best feature
+selection for linguistic features sets with moderate
+redundancy, and present experimental results show-
+ing its advantage over `0, 1-best `1, `2 regularization
+and over standard incremental feature selection for
+the task of maximum-entropy parsing.1
+1 

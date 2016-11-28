@@ -1,0 +1,15 @@
+
+This paper discusses a modular and open-
+source focused crawler (ILSP-FC) for the
+automatic acquisition of domain-specific
+monolingual and bilingual corpora from
+the Web. Besides describing the main
+modules integrated in the crawler (dealing
+with page fetching, normalization, clean-
+ing, text classification, de-duplication and
+document pair detection), we evaluate sev-
+eral of the system functionalities in an ex-
+periment for the acquisition of pairs of par-
+allel documents in German and Italian for
+the "Health & Safety at work" domain.
+1 

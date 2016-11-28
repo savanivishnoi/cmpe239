@@ -1,0 +1,14 @@
+
+This paper presents TIPSem, a system to
+extract temporal information from natural
+language texts for English and Spanish.
+TIPSem, learns CRF models from training
+data. Although the used features include
+different language analysis levels, the ap-
+proach is focused on semantic informa-
+tion. For Spanish, TIPSem achieved the
+best F1 score in all the tasks. For English,
+it obtained the best F1 in tasks B (events)
+and D (event-dct links); and was among
+the best systems in the rest.
+1 

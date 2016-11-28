@@ -1,0 +1,25 @@
+ 
+In this paper, we discuss how to utilize 
+the co-occurrence of answers in building 
+an automatic question answering system 
+that answers a series of questions on a 
+specific topic in a batch mode. Experi-
+ments show that the answers to the many 
+of the questions in the series usually have 
+a high degree of co-occurrence in rele-
+vant document passages. This feature 
+sometimes can?t be easily utilized in an 
+automatic QA system which processes 
+questions independently. However it can 
+be utilized in a QA system that processes 
+questions in a batch mode. We have used 
+our pervious TREC QA system as base-
+line and augmented it with new answer 
+clustering and co-occurrence maximiza-
+tion components to build the batch QA 
+system. The experiment results show that 
+the QA system running under the batch 
+mode get significant performance im-
+provement over our baseline TREC QA 
+system.   
+1 

@@ -1,0 +1,39 @@
+
+Our field has seen significant improve-
+ments in the quality of machine translation
+systems over the past several years. The
+single biggest factor in this improvement
+has been the accumulation of ever larger
+stores of data. However, we now find our-
+selves the victims of our own success, in
+that it has become increasingly difficult to
+train on such large sets of data, due to
+limitations in memory, processing power,
+and ultimately, speed (i.e., data to mod-
+els takes an inordinate amount of time).
+Some teams have dealt with this by focus-
+ing on data cleaning to arrive at smaller
+data sets (Denkowski et al, 2012a; Rarrick
+et al, 2011), ?domain adaptation? to ar-
+rive at data more suited to the task at hand
+(Moore and Lewis, 2010; Axelrod et al,
+2011), or by specifically focusing on data
+reduction by keeping only as much data as
+is needed for building models e.g., (Eck
+et al, 2005). This paper focuses on tech-
+niques related to the latter efforts. We have
+developed a very simple n-gram counting
+method that reduces the size of data sets
+dramatically, as much as 90%, and is ap-
+plicable independent of specific dev and
+test data. At the same time it reduces
+model sizes, improves training times, and,
+because it attempts to preserve contexts for
+all n-grams in a corpus, the cost in quality
+is minimal (as measured by BLEU ). Fur-
+ther, unlike other methods created specif-
+ically for data reduction that have similar
+effects on the data, our method scales to
+very large data, up to tens to hundreds of
+millions of parallel sentences.
+1 

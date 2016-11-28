@@ -1,0 +1,27 @@
+
+Pictorial communication systems convert
+natural language text into pictures to as-
+sist people with limited literacy. We define
+a novel and challenging problem: picture
+layout optimization. Given an input sen-
+tence, we seek the optimal way to lay out
+word icons such that the resulting picture
+best conveys the meaning of the input sen-
+tence. To this end, we propose a family
+of intuitive ?ABC? layouts, which organize
+icons in three groups. We formalize layout
+optimization as a sequence labeling prob-
+lem, employing conditional random fields
+as our machine learning method. Enabled
+by novel applications of semantic role la-
+beling and syntactic parsing, our trained
+model makes layout predictions that agree
+well with human annotators. In addition,
+we conduct a user study to compare our
+ABC layout versus the standard linear lay-
+out. The study shows that our semantically
+enhanced layout is preferred by non-native
+speakers, suggesting it has the potential to
+be useful for people with other forms of
+limited literacy, too.
+1 

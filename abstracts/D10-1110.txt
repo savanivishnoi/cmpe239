@@ -1,0 +1,30 @@
+
+Recurrent event queries (REQ) constitute a
+special class of search queries occurring at
+regular, predictable time intervals. The fresh-
+ness of documents ranked for such queries is
+generally of critical importance. REQ forms a
+significant volume, as much as 6% of query
+traffic received by search engines. In this
+work, we develop an improved REQ classi-
+fier that could provide significant improve-
+ments in addressing this problem. We ana-
+lyze REQ queries, and develop novel features
+from multiple sources, and evaluate them us-
+ing machine learning techniques. From histor-
+ical query logs, we develop features utilizing
+query frequency, click information, and user
+intent dynamics within a search session. We
+also develop temporal features by time series
+analysis from query frequency. Other gener-
+ated features include word matching with re-
+current event seed words and time sensitiv-
+ity of search result set. We use Naive Bayes,
+SVM and decision tree based logistic regres-
+sion model to train REQ classifier. The re-
+sults on test data show that our models outper-
+formed baseline approach significantly. Ex-
+periments on a commercial Web search en-
+gine also show significant gains in overall rel-
+evance, and thus overall user experience.
+1 

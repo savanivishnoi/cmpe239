@@ -1,0 +1,23 @@
+
+We present a novel vector space model for se-
+mantic co-compositionality. Inspired by Gen-
+erative Lexicon Theory (Pustejovsky, 1995),
+our goal is a compositional model where
+both predicate and argument are allowed to
+modify each others? meaning representations
+while generating the overall semantics. This
+readily addresses some major challenges with
+current vector space models, notably the pol-
+ysemy issue and the use of one represen-
+tation per word type. We implement co-
+compositionality using prototype projections
+on predicates/arguments and show that this
+is effective in adapting their word represen-
+tations. We further cast the model as a
+neural network and propose an unsupervised
+algorithm to jointly train word representations
+with co-compositionality. The model achieves
+the best result to date (? = 0.47) on the
+semantic similarity task of transitive verbs
+(Grefenstette and Sadrzadeh, 2011).
+1 

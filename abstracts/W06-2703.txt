@@ -1,0 +1,34 @@
+
+In this paper we discuss technical issues
+arising from the interdependence between
+tokenisation and XML-based annotation
+tools, in particular those which use stand-
+off annotation in the form of pointers to
+word tokens. It is common practice for an
+XML-based annotation tool to use word to-
+kens as the target units for annotating such
+things as named entities because it pro-
+vides appropriate units for stand-off an-
+notation. Furthermore, these units can be
+easily selected, swept out or snapped to
+by the annotators and certain classes of
+annotation mistakes can be prevented by
+building a tool that does not permit selec-
+tion of a substring which does not entirely
+span one or more XML elements. There
+is a downside to this method of annota-
+tion, however, in that it assumes that for
+any given data set, in whatever domain,
+the optimal tokenisation is known before
+any annotation is performed. If mistakes
+are made in the initial tokenisation and the
+word boundaries conflict with the annota-
+tors? desired actions, then either the anno-
+tation is inaccurate or expensive retokeni-
+sation and reannotation will be required.
+Here we describe the methods we have
+developed to address this problem. We
+also describe experiments which explore
+the effects of different granularities of to-
+kenisation on NER tagger performance.
+1 

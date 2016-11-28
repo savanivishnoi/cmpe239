@@ -1,0 +1,8 @@
+. In this article we present he realization of a generic finite-state system. 
+The system has been used to create concrete lexical tools for word form analysis, word 
+form generation, creation and derivation history, and spenchecking. It will also be used 
+to create a finite-state transducer for the recognition of phrases. Producing a finite- 
+state component with the generic system requires little e~ort. We will first emphasize 
+its meaning and its architecture from a design point of view; then we will present some 
+lexical finite-state ools created with it. 
+1 

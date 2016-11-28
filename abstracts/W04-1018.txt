@@ -1,0 +1,23 @@
+ 
+Automatic summarization is an active research 
+area in natural language processing. This paper has 
+proposed a special method that produces text 
+summary by detecting thematic areas in Chinese 
+document. The specificity of the method is that the 
+produced summary can both cover many different 
+themes and reduce its redundancy obviously at the 
+same time. In this method, the detection of latent 
+thematic areas is realized by adopting K-medoids 
+clustering method as well as a novel clustering 
+analysis method, which can be used to determine 
+automatically K, the number of clusters.. In 
+addition, a novel parameter, which is known as 
+representation entropy, is used for summarization 
+redundancy evaluation. Experimental results 
+indicate a clear superiority of the proposed method  
+over the traditional non-thematic-area-detection 
+method under the proposed evaluation scheme 
+when dealing with different genres of text 
+documents with free style and flexible theme 
+distribution. 
+1 

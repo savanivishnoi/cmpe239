@@ -1,0 +1,27 @@
+
+Mining parallel data from comparable corpora
+is a promising approach for overcoming the
+data sparseness in statistical machine trans-
+lation and other NLP applications. Even if
+two comparable documents have few or no
+parallel sentence pairs, there is still poten-
+tial for parallelism in the sub-sentential level.
+The ability to detect these phrases creates a
+valuable resource, especially for low-resource
+languages. In this paper we explore three
+phrase alignment approaches to detect paral-
+lel phrase pairs embedded in comparable sen-
+tences: the standard phrase extraction algo-
+rithm, which relies on the Viterbi path; a
+phrase extraction approach that does not rely
+on the Viterbi path, but uses only lexical fea-
+tures; and a binary classifier that detects par-
+allel phrase pairs when presented with a large
+collection of phrase pair candidates. We eval-
+uate the effectiveness of these approaches in
+detecting alignments for phrase pairs that have
+a known alignment in comparable sentence
+pairs. The results show that the Non-Viterbi
+alignment approach outperforms the other two
+approaches on F1 measure.
+1 

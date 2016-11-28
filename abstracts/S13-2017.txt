@@ -1,0 +1,15 @@
+
+In this paper we present our system for the
+SemEval 2013 Task 5a on semantic similar-
+ity of words and compositional phrases. Our
+system uses a dependency-based vector space
+model, in combination with a technique called
+latent vector weighting. The system computes
+the similarity between a particular noun in-
+stance and the head noun of a particular noun
+phrase, which was weighted according to the
+semantics of the modifier. The system is en-
+tirely unsupervised; one single parameter, the
+similarity threshold, was tuned using the train-
+ing data.
+1 

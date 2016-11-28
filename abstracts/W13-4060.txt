@@ -1,0 +1,17 @@
+
+We demonstrate a robotic agent in a 3D
+virtual environment that understands hu-
+man navigational instructions. Such an
+agent needs to select actions based on not
+only instructions but also situations. It
+is also expected to immediately react to
+the instructions. Our agent incrementally
+understands spoken instructions and im-
+mediately controls a mobile robot based
+on the incremental understanding results
+and situation information such as the lo-
+cations of obstacles and moving history. It
+can be used as an experimental system for
+collecting human-robot interactions in dy-
+namically changing situations.
+1 

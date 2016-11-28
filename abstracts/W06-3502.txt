@@ -1,0 +1,15 @@
+
+In this paper we discuss issues related to
+speeding up parsing with wide-coverage
+unification grammars. We demonstrate
+that state-of-the-art optimisation tech-
+niques based on backbone parsing before
+unification do not provide a general so-
+lution, because they depend on specific
+properties of the grammar formalism that
+do not hold for all unification based gram-
+mars. As an alternative, we describe an
+optimisation technique that combines am-
+biguity packing at the constituent structure
+level with pruning based on local features.
+1 

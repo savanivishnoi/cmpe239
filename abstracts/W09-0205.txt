@@ -1,0 +1,12 @@
+
+We introduce a way to represent word pairs
+instantiating arbitrary semantic relations that
+keeps track of the contexts in which the words
+in the pair occur both together and indepen-
+dently. The resulting features are of sufficient
+generality to allow us, with the help of a stan-
+dard supervised machine learning algorithm,
+to tackle a variety of unrelated semantic tasks
+with good results and almost no task-specific
+tailoring.
+1 

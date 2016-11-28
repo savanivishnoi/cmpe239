@@ -1,0 +1,15 @@
+
+We are developing corpus-based techniques for iden-
+tifying semantic relations at an intermediate level of
+description (more specific than those used in case
+frames, but more general than those used in tra-
+ditional knowledge representation systems). In this
+paper we describe a classification algorithm for iden-
+tifying relationships between two-word noun com-
+pounds. We find that a very simple approach using
+a machine learning algorithm and a domain-specific
+lexical hierarchy successfully generalizes from train-
+ing instances, performing better on previously un-
+seen words than a baseline consisting of training on
+the words themselves.
+1 

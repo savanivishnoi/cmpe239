@@ -1,0 +1,15 @@
+
+Using finite-state automata for the text analysis
+component in a text-to-speech system is problem-
+atic in several respects: the rewrite rules from which
+the automata are compiled are difficult to write and
+maintain, and the resulting automata can become
+very large and therefore inefficient. Converting the
+knowledge represented explicitly in rewrite rules
+into a more efficient format is difficult. We take an
+indirect route, learning an efficient decision tree rep-
+resentation from data and tapping information con-
+tained in existing rewrite rules, which increases per-
+formance compared to learning exclusively from a
+pronunciation lexicon.
+1 

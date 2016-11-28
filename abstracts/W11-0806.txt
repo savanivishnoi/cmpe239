@@ -1,0 +1,24 @@
+
+Multi-word expressions (MWEs) account for
+a large portion of the language used in day-
+to-day interactions. A formal system that is
+flexible enough to model these large and often
+syntactically-rich non-compositional chunks as
+single units in naturally occurring text could
+considerably simplify large-scale semantic an-
+notation projects, in which it would be un-
+desirable to have to develop internal compo-
+sitional analyses of common technical expres-
+sions that have specific idiosyncratic meanings.
+This paper will first define a notion of functor-
+argument decomposition on phrase structure
+trees analogous to graph coloring, in which the
+tree is cast as a graph, and the elementary
+structures of a grammar formalism are colors.
+The paper then presents a formal argument
+that tree-rewriting systems, a class of grammar
+formalism that includes Tree Adjoining Gram-
+mars, are able to produce a proper superset
+of the functor-argument decompositions that
+string-rewriting systems can produce.
+1 

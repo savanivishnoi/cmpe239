@@ -1,0 +1,30 @@
+
+This paper investigates the usefulness of
+sentence-internal prosodic cues in syntac-
+tic parsing of transcribed speech. Intu-
+itively, prosodic cues would seem to pro-
+vide much the same information in speech
+as punctuation does in text, so we tried to
+incorporate them into our parser in much
+the same way as punctuation is. We com-
+pared the accuracy of a statistical parser
+on the LDC Switchboard treebank corpus
+of transcribed sentence-segmented speech
+using various combinations of punctua-
+tion and sentence-internal prosodic infor-
+mation (duration, pausing, and f0 cues).
+With no prosodic or punctuation informa-
+tion the parser?s accuracy (as measured by
+F-score) is 86.9%, and adding punctuation
+increases its F-score to 88.2%. However,
+all of the ways we have tried of adding
+prosodic information decrease the parser?s
+F-score to between 84.8% to 86.8%, de-
+pending on exactly which prosodic infor-
+mation is added. This suggests that for
+sentence-internal prosodic information to
+improve speech transcript parsing, either
+different prosodic cues will have to used
+or they will have be exploited in the parser
+in a way different to that used currently.
+1 

@@ -1,0 +1,22 @@
+
+Technical terms in text often appear as noun
+compounds, a frequently occurring yet highly
+ambiguous construction whose interpretation
+relies on extra-syntactic information. Several
+statistical methods for disambiguating com-
+pounds have been reported in the literature, of-
+ten with quite impressive results. However, a
+striking feature of all these approaches is that
+they rely on the existence of previously seen un-
+ambiguous compounds, meaning they are prone
+to the problem of sparse data. This difficulty
+has been overcome somewhat through the use
+of hand-crafted knowledge resources to collect
+statistics on ?concepts? rather than noun to-
+kens, but domain-independence has been sacri-
+ficed by doing so. We report here on work inves-
+tigating the application of Latent Semantic In-
+dexing to provide a robust domain-independent
+source of the extra-syntactic knowledge neces-
+sary for noun compound disambiguation.
+1 

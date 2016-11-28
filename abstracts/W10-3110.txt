@@ -1,0 +1,22 @@
+
+Automatic detection of linguistic negation
+in free text is a critical need for many text
+processing applications, including senti-
+ment analysis. This paper presents a nega-
+tion detection system based on a condi-
+tional random field modeled using fea-
+tures from an English dependency parser.
+The scope of negation detection is limited
+to explicit rather than implied negations
+within single sentences. A new negation
+corpus is presented that was constructed
+for the domain of English product reviews
+obtained from the open web, and the pro-
+posed negation extraction system is eval-
+uated against the reviews corpus as well
+as the standard BioScope negation corpus,
+achieving 80.0% and 75.5% F1 scores, re-
+spectively. The impact of accurate nega-
+tion detection on a state-of-the-art senti-
+ment analysis system is also reported.
+1 

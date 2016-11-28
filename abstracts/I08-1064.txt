@@ -1,0 +1,18 @@
+
+We present a cross-lingual projection frame-
+work for temporal annotations. Auto-
+matically obtained TimeML annotations in
+the English portion of a parallel corpus
+are transferred to the German translation
+along a word alignment. Direct projection
+augmented with shallow heuristic knowl-
+edge outperforms the uninformed baseline
+by 6.64% F
+1
+-measure for events, and by
+17.93% for time expressions. Subsequent
+training of statistical classifiers on the (im-
+perfect) projected annotations significantly
+boosts precision by up to 31% to 83.95% and
+89.52%, respectively.
+1 

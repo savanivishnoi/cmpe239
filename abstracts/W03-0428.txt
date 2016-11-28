@@ -1,0 +1,15 @@
+
+We discuss two named-entity recognition mod-
+els which use characters and character  -grams
+either exclusively or as an important part of
+their data representation. The first model
+is a character-level HMM with minimal con-
+text information, and the second model is a
+maximum-entropy conditional markov model
+with substantially richer context features. Our
+best model achieves an overall F  of 86.07%
+on the English test data (92.31% on the devel-
+opment data). This number represents a 25%
+error reduction over the same model without
+word-internal (substring) features.
+1 

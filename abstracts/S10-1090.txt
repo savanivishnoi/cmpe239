@@ -1,0 +1,28 @@
+
+This paper summarizes our participation
+in task #17 of SemEval?2 (All?words
+WSD on a specific domain) using a su-
+pervised class-based Word Sense Disam-
+biguation system. Basically, we use Sup-
+port Vector Machines (SVM) as learning
+algorithm and a set of simple features to
+build three different models. Each model
+considers a different training corpus: Sem-
+Cor (SC), examples from monosemous
+words extracted automatically from back-
+ground data (BG), and both SC and
+BG (SCBG). Our system explodes the
+monosemous words appearing as mem-
+bers of a particular WordNet semantic
+class to automatically acquire class-based
+annotated examples from the domain text.
+We use the class-based examples gathered
+from the domain corpus to adapt our tra-
+ditional system trained on SemCor. The
+evaluation reveal that the best results are
+achieved training with SemCor and the
+background examples from monosemous
+words, obtaining results above the first
+sense baseline and the fifth best position
+in the competition rank.
+1 

@@ -1,0 +1,22 @@
+
+We describe MSR-MT, a large-scale
+hybrid machine translation system
+under development for several
+language pairs. This system?s ability to
+acquire its primary translation
+knowledge automatically by parsing a
+bilingual corpus of hundreds of
+thousands of sentence pairs and
+aligning resulting logical forms
+demonstrates true promise for
+overcoming the so-called MT
+customization bottleneck. Trained on
+English and Spanish technical prose, a
+blind evaluation shows that MSR-MT?s
+integration of rule-based parsers,
+example based processing, and
+statistical techniques produces
+translations whose quality exceeds that
+of uncustomized commercial MT
+systems in this domain.
+1 

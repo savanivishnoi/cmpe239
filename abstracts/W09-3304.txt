@@ -1,0 +1,13 @@
+
+This paper presents our work on using
+the graph structure of Wiktionary for syn-
+onym detection. We implement seman-
+tic relatedness metrics using both a direct
+measure of information flow on the graph
+and a comparison of the list of vertices
+found to be ?close? to a given vertex. Our
+algorithms, evaluated on ESL 50, TOEFL
+80 and RDWP 300 data sets, perform bet-
+ter than or comparable to existing seman-
+tic relatedness measures.
+1 

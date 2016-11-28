@@ -1,0 +1,17 @@
+ 
+It is widely accepted that tagging text with se- 
+mantic information would improve the quality of 
+lexical learning in corpus-based NLP methods. 
+However available on-line taxonomies are 
+rather entangled and introduce an unnecessary 
+level of ambiguity. The noise produced by the re- 
+dundant number of tags often overrides the ad- 
+vantage of semantic tagging. In this paper we 
+propose an automatic method to select from 
+WordNet a subset of domain-appropriate cate- 
+gories that effectively reduce the overambiguity 
+of WordNet, and help at identifying and cate- 
+gorise relevant language patterns in a more com- 
+pact way. The method is evaluated against a 
+manually tagged corpus, SEMCOR. 
+1 

@@ -1,0 +1,18 @@
+
+Constituency parsing with rich grammars re-
+mains a computational challenge. Graph-
+ics Processing Units (GPUs) have previously
+been used to accelerate CKY chart evalua-
+tion, but gains over CPU parsers were mod-
+est. In this paper, we describe a collection of
+new techniques that enable chart evaluation at
+close to the GPU?s practical maximum speed
+(a Teraflop), or around a half-trillion rule eval-
+uations per second. Net parser performance
+on a 4-GPU system is over 1 thousand length-
+30 sentences/second (1 trillion rules/sec), and
+400 general sentences/second for the Berkeley
+Parser Grammar. The techniques we introduce
+include grammar compilation, recursive sym-
+bol blocking, and cache-sharing.
+1 

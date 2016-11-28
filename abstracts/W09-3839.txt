@@ -1,0 +1,15 @@
+
+We propose a framework for dependency
+parsing based on a combination of dis-
+criminative and generative models. We
+use a discriminative model to obtain a k-
+best list of candidate parses, and subse-
+quently rerank those candidates using a
+generative model. We show how this ap-
+proach allows us to evaluate a variety of
+generative models, without needing differ-
+ent parser implementations. Moreover, we
+present empirical results that show a small
+improvement over state-of-the-art depen-
+dency parsing of English sentences.
+1 

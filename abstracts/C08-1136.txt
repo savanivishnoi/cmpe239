@@ -1,0 +1,16 @@
+
+We generalize Uno and Yagiura?s algo-
+rithm for finding all common intervals of
+two permutations to the setting of two
+sequences with many-to-many alignment
+links across the two sides. We show how
+to maximally decompose a word-aligned
+sentence pair in linear time, which can be
+used to generate all possible phrase pairs
+or a Synchronous Context-Free Grammar
+(SCFG) with the simplest rules possible.
+We also use the algorithm to precisely
+analyze the maximum SCFG rule length
+needed to cover hand-aligned data from
+various language pairs.
+1 

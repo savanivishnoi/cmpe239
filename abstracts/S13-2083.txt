@@ -1,0 +1,25 @@
+
+This paper describes the specifications and re-
+sults of SSA-UO, unsupervised system, pre-
+sented in SemEval 2013 for Sentiment Analy-
+sis in Twitter (Task 2) (Wilson et al, 2013).
+The proposal system includes three phases:
+data preprocessing, contextual word polarity
+detection and message classification. The
+preprocessing phase comprises treatment of
+emoticon, slang terms, lemmatization and
+POS-tagging. Word polarity detection is car-
+ried out taking into account the sentiment as-
+sociated with the context in which it appears.
+For this, we use a new contextual sentiment
+classification method based on coarse-grained
+word sense disambiguation, using WordNet
+(Miller, 1995) and a coarse-grained sense in-
+ventory (sentiment inventory) built up from
+SentiWordNet (Baccianella et al, 2010). Fi-
+nally, the overall sentiment is determined us-
+ing a rule-based classifier. As it may be ob-
+served, the results obtained for Twitter and
+SMS sentiment classification are good consid-
+ering that our proposal is unsupervised.
+1 

@@ -1,0 +1,12 @@
+ 
+A high-level language lor the description of inflectional 
+morphology is presented, in which the organization of 
+word lormation rules into an ii~herilance hierarchy of 
+paradigms allows lo ra  natural encoding of the kinds of 
+nfles typically pre~uted in grammar txroks. We show 
+how tim language, composed of orthographic rides, word 
+formation rules, and paradigm inheritance, can be com- 
+piled into a run-time data structure for efficient morpho- 
+logical analysis and generation with a dynamic secondary 
+storage lexicon. 
+1 

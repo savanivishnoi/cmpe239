@@ -1,0 +1,24 @@
+
+Syntactic reordering approaches are an ef-
+fective method for handling word-order dif-
+ferences between source and target lan-
+guages in statistical machine translation
+(SMT) systems. This paper introduces a re-
+ordering approach for translation from Chi-
+nese to English. We describe a set of syntac-
+tic reordering rules that exploit systematic
+differences between Chinese and English
+word order. The resulting system is used
+as a preprocessor for both training and test
+sentences, transforming Chinese sentences
+to be much closer to English in terms of their
+word order. We evaluated the reordering
+approach within the MOSES phrase-based
+SMT system (Koehn et al, 2007). The
+reordering approach improved the BLEU
+score for the MOSES system from 28.52 to
+30.86 on the NIST 2006 evaluation data. We
+also conducted a series of experiments to an-
+alyze the accuracy and impact of different
+types of reordering rules.
+1 

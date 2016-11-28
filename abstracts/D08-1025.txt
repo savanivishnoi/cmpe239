@@ -1,0 +1,37 @@
+
+Language comprehension, as with all other
+cases of the extraction of meaningful struc-
+ture from perceptual input, takes places un-
+der noisy conditions. If human language
+comprehension is a rational process in the
+sense of making use of all available infor-
+mation sources, then we might expect uncer-
+tainty at the level of word-level input to af-
+fect sentence-level comprehension. However,
+nearly all contemporary models of sentence
+comprehension assume clean input?that is,
+that the input to the sentence-level com-
+prehension mechanism is a perfectly-formed,
+completely certain sequence of input tokens
+(words). This article presents a simple model
+of rational human sentence comprehension
+under noisy input, and uses the model to in-
+vestigate some outstanding problems in the
+psycholinguistic literature for theories of ra-
+tional human sentence comprehension. We
+argue that by explicitly accounting for input-
+level noise in sentence processing, our model
+provides solutions for these outstanding prob-
+lems and broadens the scope of theories of hu-
+man sentence comprehension as rational prob-
+abilistic inference.
+?Part of this work has benefited from presentation at the
+21st annual meeting of the CUNY Sentence Processing Confer-
+ence in Chapel Hill, NC, 14 March 2008, and at a seminar at the
+Center for Research on Language, UC San Diego. I am grateful
+to Klinton Bicknell, Andy Kehler, and three anonymous review-
+ers for comments and suggestions, Cyril Allauzen for guidance
+regarding the OpenFST library, and to Mark Johnson, Mark-
+Jan Nederhof, and Noah Smith for discussion of renormalizing
+weighted CFGs.
+1 

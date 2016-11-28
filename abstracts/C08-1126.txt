@@ -1,0 +1,19 @@
+
+This paper presents an approach for sub-
+stantially reducing the time needed to cal-
+culate the shortest paths between all con-
+cepts in a wordnet. The algorithm exploits
+the unique ?star-like? topology of word-
+nets to cut down on time-expensive calcu-
+lations performed by algorithms to solve
+the all-pairs shortest path problem in gen-
+eral graphs. The algorithm was applied to
+two wordnets of two different languages:
+Princeton WordNet (Fellbaum, 1998) for
+English, and GermaNet (Kunze and Lem-
+nitzer, 2002), the German language word-
+net. For both wordnets, the time needed
+for finding all shortest paths was brought
+down from several days to a matter of
+minutes.
+1 

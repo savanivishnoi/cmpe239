@@ -1,0 +1,24 @@
+
+This paper describes the CMU Let?s Go!! bus
+information system, an experimental system
+designed to study the use of spoken dialogue
+interfaces by non-native speakers. The differ-
+ences in performance of the speech recogni-
+tion and language understanding modules of
+the system when confronted with native and
+non-native spontaneous speech are analyzed.
+Focus is placed on the linguistic mismatch be-
+tween the user input and the system?s expecta-
+tions, and on its implications in terms of lan-
+guage modeling and parsing performance. The
+effect of including non-native data when build-
+ing the speech recognition and language under-
+standing modules is discussed. In order to close
+the gap between non-native and native input, a
+method is proposed to automatically generate
+confirmation prompts that are both close to the
+user?s input and covered by the system?s lan-
+guage model and grammar, in order to help the
+user acquire idiomatic expressions appropriate
+to the task.
+1 

@@ -1,0 +1,18 @@
+
+In this paper we propose a completely un-
+supervised method for open-domain en-
+tity extraction and clustering over query
+logs. The underlying hypothesis is that
+classes defined by mining search user activ-
+ity may significantly differ from those typ-
+ically considered over web documents, in
+that they better model the user space, i.e.
+users? perception and interests. We show
+that our method outperforms state of the art
+(semi-)supervised systems based either on
+web documents or on query logs (16% gain
+on the clustering task). We also report evi-
+dence that our method successfully supports
+a real world application, namely keyword
+generation for sponsored search.
+1 

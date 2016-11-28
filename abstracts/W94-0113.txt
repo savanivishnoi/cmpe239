@@ -1,0 +1,14 @@
+ 
+W~ describe an implementation of a hybrid statisti- 
+cal/symbolic approach to repairing parser failures in a 
+speech-to-speech translation system. I We describe a 
+rnodale which takes as input a fragmented parse and ree- 
+turas a repaired meaning representation. It negotiates 
+with the speaker about what the complete meaning of 
+the utterance is by generating hypotheses about how 
+to fit. the fragments of the partial parse together into 
+a colwrcnt meaning representation. By drawing upon 
+both statistical and symbolic information, it constrains 
+its rcpair hypotheses to those which are both likely and 
+meaningful. Because it updates its statistical model 
+during use, it improves its performance over time. 

@@ -1,0 +1,11 @@
+
+The work described here aims to create
+a wordnet automatically from a semantic
+network based on terms. So, a cluster-
+ing procedure is ran over a synonymy net-
+work, in order to obtain synsets. Then, the
+term arguments of each relational triple
+are assigned to the latter, originating a
+wordnet. Experiments towards our goal
+are reported and their results validated.
+1 

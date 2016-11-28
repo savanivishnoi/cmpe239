@@ -1,0 +1,22 @@
+
+This paper explores the role of informa-
+tion retrieval in answering ?relationship?
+questions, a new class complex informa-
+tion needs formally introduced in TREC
+2005. Since information retrieval is of-
+ten an integral component of many ques-
+tion answering strategies, it is important
+to understand the impact of different term-
+based techniques. Within a framework of
+sentence retrieval, we examine three fac-
+tors that contribute to question answer-
+ing performance: the use of different re-
+trieval engines, relevance (both at the doc-
+ument and sentence level), and redun-
+dancy. Results point out the limitations
+of purely term-based methods to this chal-
+lenging task. Nevertheless, IR-based tech-
+niques provide a strong baseline on top
+of which more sophisticated language pro-
+cessing techniques can be deployed.
+1 

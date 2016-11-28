@@ -1,0 +1,36 @@
+
+We present the first known empirical test of
+an increasingly common speculative claim,
+by evaluating a representative Chinese-to-
+English SMT model directly on word sense
+disambiguation performance, using standard
+WSD evaluation methodology and datasets
+from the Senseval-3 Chinese lexical sam-
+ple task. Much effort has been put in de-
+signing and evaluating dedicated word sense
+disambiguation (WSD) models, in particu-
+lar with the Senseval series of workshops.
+At the same time, the recent improvements
+in the BLEU scores of statistical machine
+translation (SMT) suggests that SMT mod-
+els are good at predicting the right transla-
+tion of the words in source language sen-
+tences. Surprisingly however, the WSD ac-
+curacy of SMT models has never been eval-
+uated and compared with that of the dedi-
+cated WSD models. We present controlled
+experiments showing the WSD accuracy of
+current typical SMT models to be signifi-
+cantly lower than that of all the dedicated
+WSD models considered. This tends to sup-
+port the view that despite recent speculative
+claims to the contrary, current SMT models
+do have limitations in comparison with ded-
+icated WSD models, and that SMT should
+benefit from the better predictions made by
+the WSD models.
+1The authors would like to thank the Hong Kong Re-
+search Grants Council (RGC) for supporting this research
+in part through grants RGC6083/99E, RGC6256/00E, and
+DAG03/04.EG09.
+1 

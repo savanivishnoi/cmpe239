@@ -1,0 +1,22 @@
+
+We tackle two major issues in automatic
+keyphrase extraction using scientific arti-
+cles: candidate selection and feature engi-
+neering. To develop an efficient candidate
+selection method, we analyze the nature
+and variation of keyphrases and then se-
+lect candidates using regular expressions.
+Secondly, we re-examine the existing fea-
+tures broadly used for the supervised ap-
+proach, exploring different ways to en-
+hance their performance. While most
+other approaches are supervised, we also
+study the optimal features for unsuper-
+vised keyphrase extraction. Our research
+has shown that effective candidate selec-
+tion leads to better performance as evalua-
+tion accounts for candidate coverage. Our
+work also attests that many of existing fea-
+tures are also usable in unsupervised ex-
+traction.
+1 

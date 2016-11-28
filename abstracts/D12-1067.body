@@ -1,0 +1,27 @@
+
+Graph-based dependency parsers suffer from
+the sheer number of higher order edges they
+need to (a) score and (b) consider during opti-
+mization. Here we show that when working
+with LP relaxations, large fractions of these
+edges can be pruned before they are fully
+scored?without any loss of optimality guar-
+antees and, hence, accuracy. This is achieved
+by iteratively parsing with a subset of higher-
+order edges, adding higher-order edges that
+may improve the score of the current solu-
+tion, and adding higher-order edges that are
+implied by the current best first order edges.
+This amounts to delayed column and row gen-
+eration in the LP relaxation and is guaranteed
+to provide the optimal LP solution. For second
+order grandparent models, our method consid-
+ers, or scores, no more than 6?13% of the sec-
+ond order edges of the full model. This yields
+up to an eightfold parsing speedup, while pro-
+viding the same empirical accuracy and cer-
+tificates of optimality as working with the full
+LP relaxation. We also provide a tighter LP
+formulation for grandparent models that leads
+to a smaller integrality gap and higher speed.
+1 

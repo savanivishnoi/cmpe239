@@ -1,0 +1,12 @@
+
+In this work, we explore the use of SVMs
+and CRFs in the problem of predicting cer-
+tainty in sentences. We consider this as a
+task of tagging uncertainty cues in context,
+for which we used lexical, wordlist-based
+and deep-syntactic features. Results show
+that the syntactic context of the tokens in
+conjunction with the wordlist-based fea-
+tures turned out to be useful in predicting
+uncertainty cues.
+1 

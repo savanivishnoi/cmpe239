@@ -1,0 +1,14 @@
+ 
+This paper proposes a parser based ful ly upon the 
+conneet:i.oni.st modeL(ca\]led "CM parser" hereafter). In 
+order to realize L~ile CM purser, we use Sigma-Pi- 
+Units to implement ~ constraint of grammatical 
+category order or word order, and a copy mechanism of 
+suh~parse trees. Further more, we suppose there exist 
+weak suppressive connection lisks between every pair 
+of CM units. By these suppressive links, our CM 
+parser explains why garden path sentences and/or 
+deeply nested sentences are hard to recognize. Our CM 
+parser also explains the preference principles for 
+syntact:\[cally ambJ guotls sentences. 
+I. 

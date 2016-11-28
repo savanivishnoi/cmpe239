@@ -1,0 +1,23 @@
+
+There is considerable interest in interdis-
+ciplinary combinations of automatic speech
+recognition (ASR), machine learning, natu-
+ral language processing, text classification and
+information retrieval. Many of these boxes,
+especially ASR, are often based on consid-
+erable linguistic resources. We would like
+to be able to process spoken documents with
+few (if any) resources. Moreover, connect-
+ing black boxes in series tends to multiply er-
+rors, especially when the key terms are out-of-
+vocabulary (OOV). The proposed alternative
+applies text processing directly to the speech
+without a dependency on ASR. The method
+finds long (? 1 sec) repetitions in speech,
+and clusters them into pseudo-terms (roughly
+phrases). Document clustering and classi-
+fication work surprisingly well on pseudo-
+terms; performance on a Switchboard task ap-
+proaches a baseline using gold standard man-
+ual transcriptions.
+1 

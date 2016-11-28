@@ -1,0 +1,19 @@
+
+This paper investigates improving supervised
+word segmentation accuracy with unlabeled
+data. Both large-scale in-domain data and
+small-scale document text are considered. We
+present a unified solution to include features
+derived from unlabeled data to a discrimina-
+tive learning model. For the large-scale data,
+we derive string statistics from Gigaword to
+assist a character-based segmenter. In addi-
+tion, we introduce the idea about transductive,
+document-level segmentation, which is de-
+signed to improve the system recall for out-of-
+vocabulary (OOV) words which appear more
+than once inside a document. Novel features1
+result in relative error reductions of 13.8% and
+15.4% in terms of F-score and the recall of
+OOV words respectively.
+1 

@@ -1,0 +1,16 @@
+
+This paper addresses two previously unresolved is-
+sues in the automatic evaluation of Text Structuring
+(TS) in Natural Language Generation (NLG). First,
+we describe how to verify the generality of an exist-
+ing collection of sentence orderings defined by one
+domain expert using data provided by additional
+experts. Second, a general evaluation methodol-
+ogy is outlined which investigates the previously
+unaddressed possibility that there may exist many
+optimal solutions for TS in the employed domain.
+This methodology is implemented in a set of ex-
+periments which identify the most promising can-
+didate for TS among several metrics of coherence
+previously suggested in the literature.1
+1 

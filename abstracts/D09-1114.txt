@@ -1,0 +1,21 @@
+ 
+Recently system combination has been shown 
+to be an effective way to improve translation 
+quality over single machine translation sys-
+tems. In this paper, we present a simple and ef-
+fective method to systematically derive an en-
+semble of SMT systems from one baseline li-
+near SMT model for use in system combina-
+tion. Each system in the resulting ensemble is 
+based on a feature set derived from the fea-
+tures of the baseline model (typically a subset 
+of it). We will discuss the principles to deter-
+mine the feature sets for derived systems, and 
+present in detail the system combination mod-
+el used in our work. Evaluation is performed 
+on the data sets for NIST 2004 and NIST 2005 
+Chinese-to-English machine translation tasks. 
+Experimental results show that our method can 
+bring significant improvements to baseline 
+systems with state-of-the-art performance. 
+1 

@@ -1,0 +1,11 @@
+
+It is a widely accepted belief in natural lan-
+guage processing research that naturally oc-
+curring data is the best (and perhaps the only
+appropriate) data for testing text mining sys-
+tems. This paper compares code coverage us-
+ing a suite of functional tests and using a large
+corpus and finds that higher class, line, and
+branch coverage is achieved with structured
+tests than with even a very large corpus.
+1 

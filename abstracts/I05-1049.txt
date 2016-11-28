@@ -1,0 +1,15 @@
+. Recognition of Multi-word Expressions (MWEs) and their
+relative compositionality are crucial to Natural Language Processing.
+Various statistical techniques have been proposed to recognize MWEs.
+In this paper, we integrate all the existing statistical features and in-
+vestigate a range of classifiers for their suitability for recognizing the
+non-compositional Verb-Noun (V-N) collocations. In the task of ranking
+the V-N collocations based on their relative compositionality, we show
+that the correlation between the ranks computed by the classifier and hu-
+man ranking is significantly better than the correlation between ranking
+of individual features and human ranking. We also show that the prop-
+erties ?Distributed frequency of object? (as defined in [27]) and ?Nearest
+Mutual Information? (as adapted from [18]) contribute greatly to the
+recognition of the non-compositional MWEs of the V-N type and to the
+ranking of the V-N collocations based on their relative compositionality.
+1 

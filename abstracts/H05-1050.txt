@@ -1,0 +1,12 @@
+
+?Bootstrapping? methods for learning require a small amount
+of supervision to seed the learning process. We show that it
+is sometimes possible to eliminate this last bit of supervision,
+by trying many candidate seeds and selecting the one with the
+most plausible outcome. We discuss such ?strapping? methods
+in general, and exhibit a particular method for strapping word-
+sense classifiers for ambiguous words. Our experiments on the
+Canadian Hansards show that our unsupervised technique is sig-
+nificantly more effective than picking seeds by hand (Yarowsky,
+1995), which in turn is known to rival supervised methods.
+1 

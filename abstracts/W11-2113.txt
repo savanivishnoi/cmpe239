@@ -1,0 +1,25 @@
+
+Automatic evaluation metrics are fundamen-
+tally important for Machine Translation, al-
+lowing comparison of systems performance
+and efficient training. Current evaluation met-
+rics fall into two classes: heuristic approaches,
+like BLEU, and those using supervised learn-
+ing trained on human judgement data. While
+many trained metrics provide a better match
+against human judgements, this comes at the
+cost of including lots of features, leading to
+unwieldy, non-portable and slow metrics. In
+this paper, we introduce a new trained met-
+ric, ROSE, which only uses simple features
+that are easy portable and quick to compute.
+In addition, ROSE is sentence-based, as op-
+posed to document-based, allowing it to be
+used in a wider range of settings. Results show
+that ROSE performs well on many tasks, such
+as ranking system and syntactic constituents,
+with results competitive to BLEU. Moreover,
+this still holds when ROSE is trained on hu-
+man judgements of translations into a different
+language compared with that use in testing.
+1 

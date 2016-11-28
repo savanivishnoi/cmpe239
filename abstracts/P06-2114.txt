@@ -1,0 +1,17 @@
+ 
+This paper describes an architecture to 
+convert Sinhala Unicode text into pho-
+nemic specification of pronunciation. The 
+study was mainly focused on disambigu-
+ating schwa-/\/ and /a/ vowel epenthesis 
+for consonants, which is one of the sig-
+nificant problems found in Sinhala. This 
+problem has been addressed by formulat-
+ing a set of rules. The proposed set of 
+rules was tested using 30,000 distinct 
+words obtained from a corpus and com-
+pared with the same words manually 
+transcribed to phonemes by an expert. 
+The Grapheme-to-Phoneme (G2P) con-
+version model achieves 98 % accuracy. 
+1 

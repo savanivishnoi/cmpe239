@@ -1,0 +1,17 @@
+ 
+ROUGE stands for Recall-Oriented Understudy for 
+Gisting Evaluation. It includes measures to auto-
+matically determine the quality of a summary by 
+comparing it to other (ideal) summaries created by 
+humans. The measures count the number of over-
+lapping units such as n-gram, word sequences, and 
+word pairs between the computer-generated sum-
+mary to be evaluated and the ideal summaries cre-
+ated by humans. This paper introduces four different 
+ROUGE measures: ROUGE-N, ROUGE-L, ROUGE-W, 
+and ROUGE-S included in the ROUGE summariza-
+tion evaluation package and their evaluations. Three 
+of them have been used in the Document Under-
+standing Conference (DUC) 2004, a large-scale 
+summarization evaluation sponsored by NIST. 
+1 

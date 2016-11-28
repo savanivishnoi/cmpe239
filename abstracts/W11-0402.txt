@@ -1,0 +1,23 @@
+
+This paper describes the modeling of
+the morphosyntactic annotations of the
+MULTEXT-East corpora and lexicons as
+an OWL/DL ontology. Formalizing anno-
+tation schemes in OWL/DL has the advan-
+tages of enabling formally specifying in-
+terrelationships between the various fea-
+tures and making logical inferences based
+on the relationships between them. We
+show that this approach provides us with
+a top-down perspective on a large set of
+morphosyntactic specifications for multi-
+ple languages, and that this perspective
+helps to identify and to resolve concep-
+tual problems in the original specifications.
+Furthermore, the ontological modeling al-
+lows us to link the MULTEXT-East spe-
+cifications with repositories of annotation
+terminology such as the General Ontol-
+ogy of Linguistics Descriptions or the ISO
+TC37/SC4 Data Category Registry.
+1 

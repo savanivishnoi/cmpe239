@@ -1,0 +1,13 @@
+
+This paper addresses the problem of learning
+phrase patterns for unsupervised speaker role
+classification. Phrase patterns are automati-
+cally extracted from large corpora, and redun-
+dant patterns are removed via a graph prun-
+ing algorithm. In experiments on English and
+Mandarin talk shows, the use of phrase pat-
+terns results in an increase of role classifi-
+cation accuracy over n-gram lexical features,
+and more compact phrase pattern lists are ob-
+tained due to the redundancy removal.
+1 

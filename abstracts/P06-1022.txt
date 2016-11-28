@@ -1,0 +1,26 @@
+
+Spoken monologues feature greater sen-
+tence length and structural complexity
+than do spoken dialogues. To achieve high
+parsing performance for spoken mono-
+logues, it could prove effective to sim-
+plify the structure by dividing a sentence
+into suitable language units. This paper
+proposes a method for dependency pars-
+ing of Japanese monologues based on sen-
+tence segmentation. In this method, the
+dependency parsing is executed in two
+stages: at the clause level and the sen-
+tence level. First, the dependencies within
+a clause are identified by dividing a sen-
+tence into clauses and executing stochastic
+dependency parsing for each clause. Next,
+the dependencies over clause boundaries
+are identified stochastically, and the de-
+pendency structure of the entire sentence
+is thus completed. An experiment using
+a spoken monologue corpus shows this
+method to be effective for efficient depen-
+dency parsing of Japanese monologue sen-
+tences.
+1 

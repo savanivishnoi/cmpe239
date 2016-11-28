@@ -1,0 +1,21 @@
+
+The paper proposes and empirically moti-
+vates an integration of supervised learning
+with unsupervised learning to deal with
+human biases in summarization. In par-
+ticular, we explore the use of probabilistic
+decision tree within the clustering frame-
+work to account for the variation as well
+as regularity in human created summaries.
+The corpus of human created extracts is
+created from a newspaper corpus and used
+as a test set. We build probabilistic de-
+cision trees of different flavors and in-
+tegrate each of them with the clustering
+framework. Experiments with the cor-
+pus demonstrate that the mixture of the
+two paradigms generally gives a signif-
+icant boost in performance compared to
+cases where either of the two is considered
+alone.
+1 

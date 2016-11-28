@@ -1,0 +1,28 @@
+
+Building natural language spoken dialog sys-
+tems requires large amounts of human tran-
+scribed and labeled speech utterances to reach
+useful operational service performances. Fur-
+thermore, the design of such complex systems
+consists of several manual steps. The User
+Experience (UE) expert analyzes and defines
+by hand the system core functionalities: the
+system semantic scope (call-types) and the di-
+alog manager strategy which will drive the
+human-machine interaction. This approach is
+extensive and error prone since it involves sev-
+eral non-trivial design decisions that can only
+be evaluated after the actual system deploy-
+ment. Moreover, scalability is compromised by
+time, costs and the high level of UE know-how
+needed to reach a consistent design. We pro-
+pose a novel approach for bootstrapping spo-
+ken dialog systems based on reuse of existing
+transcribed and labeled data, common reusable
+dialog templates and patterns, generic language
+and understanding models, and a consistent de-
+sign process. We demonstrate that our ap-
+proach reduces design and development time
+while providing an effective system without
+any application specific data.
+1 

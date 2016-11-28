@@ -1,0 +1,12 @@
+
+This paper describes the systems with which
+we participated in the task Sentiment Analysis
+in Twitter of SEMEVAL 2013 and specifically
+the Message Polarity Classification. We used
+a 2-stage pipeline approach employing a lin-
+ear SVM classifier at each stage and several
+features including BOW features, POS based
+features and lexicon based features. We have
+also experimented with Naive Bayes classi-
+fiers trained with BOW features.
+1 

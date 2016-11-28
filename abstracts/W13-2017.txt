@@ -1,0 +1,14 @@
+
+In this paper we propose a system which uses 
+hybrid methods that combine both rule-based 
+and machine learning (ML)-based approaches 
+to solve GENIA Event Extraction of BioNLP 
+Shared Task 2013. We apply UIMA1 Frame-
+work to support coding. There are three main 
+stages in model: Pre-processing, trigger detec-
+tion and biomedical  event  detection.  We use 
+dictionary and support vector machine classifi-
+er to detect event triggers.  Event detection is 
+applied on syntactic patterns which are com-
+bined with features extracted for classification.
+1 

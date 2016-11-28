@@ -1,0 +1,15 @@
+
+In this paper we investigate the impact of
+morphological features on the task of au-
+tomatically extending a dictionary. We
+approach the problem as a pattern clas-
+sification task and compare the perfor-
+mance of several models in classifying
+nouns that are unknown to a broad cov-
+erage dictionary. We used a boosting clas-
+sifier to compare the performance of mod-
+els that use different sets of features. We
+show how adding simple morphological
+features to a model greatly improves the
+classification performance.
+1 

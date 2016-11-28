@@ -1,0 +1,17 @@
+ 
+This paper presents a Chinese word segmen-
+tation system which can adapt to different 
+domains and standards. We first present a sta-
+tistical framework where domain-specific 
+words are identified in a unified approach to 
+word segmentation based on linear models. 
+We explore several features and describe how 
+to create training data by sampling. We then 
+describe a transformation-based learning 
+method used to adapt our system to different 
+word segmentation standards. Evaluation of 
+the proposed system on five test sets with dif-
+ferent standards shows that the system 
+achieves state- of-the-art performance on all of 
+them. 
+1 

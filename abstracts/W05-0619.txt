@@ -1,0 +1,18 @@
+
+We report on an active learning experi-
+ment for named entity recognition in the
+astronomy domain. Active learning has
+been shown to reduce the amount of la-
+belled data required to train a supervised
+learner by selectively sampling more in-
+formative data points for human annota-
+tion. We inspect double annotation data
+from the same domain and quantify poten-
+tial problems concerning annotators? per-
+formance. For data selectively sampled
+according to different selection metrics,
+we find lower inter-annotator agreement
+and higher per token annotation times.
+However, overall results confirm the util-
+ity of active learning.
+1 

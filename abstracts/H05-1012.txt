@@ -1,0 +1,17 @@
+
+This paper presents a maximum entropy
+word alignment algorithm for Arabic-
+English based on supervised training data.
+We demonstrate that it is feasible to cre-
+ate training material for problems in ma-
+chine translation and that a mixture of su-
+pervised and unsupervised methods yields
+superior performance. The probabilistic
+model used in the alignment directly mod-
+els the link decisions. Significant improve-
+ment over traditional word alignment tech-
+niques is shown as well as improvement on
+several machine translation tests. Perfor-
+mance of the algorithm is contrasted with
+human annotation performance.
+1 

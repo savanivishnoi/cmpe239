@@ -1,0 +1,38 @@
+ 
+Rapid advances in the biomedical field have 
+resulted in the accumulation of numerous ex-
+perimental results, mainly in text form. To ex-
+tract knowledge from biomedical papers, or 
+use the information they contain to interpret 
+experimental results, requires improved tech-
+niques for retrieving information from the 
+biomedical literature. In many cases, since the 
+information is required in gene units, recogni-
+tion of the named entity is the first step in 
+gathering and using knowledge encoded in 
+these papers. Dictionary-based searching is 
+useful for retrieving biological information in 
+gene units. However, since many genes in the 
+biomedical literature are written using am-
+biguous names, such as family names, we 
+need a way of constructing dictionaries. In our 
+laboratory, we have developed a gene name 
+dictionary:GENA and a family name diction-
+ary. The latter contains ambiguous hierarchi-
+cal gene names to compensate GENA. In 
+addition, to address the problem of trivial 
+gene name variations and polysemy, heuristics 
+were used to search gene/protein/family 
+names in MEDLINE abstracts. Using these 
+algorithms to match dictionary and 
+gene/protein/family names, about 95, 91, and 
+89% of protein/gene/family names in abstracts 
+on Saccharomyces cerevisiae, Drosophila 
+melanogaster, and Homo sapiens were de-
+tected with a precision of 96, 92, and 94%, in 
+respective organisms. The effect of our 
+gene/protein/family recognition method on 
+protein-interaction and protein-function ex-
+traction using these dictionaries is also dis-
+cussed.  
+1 

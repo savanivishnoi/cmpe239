@@ -1,0 +1,26 @@
+
+Automatically assessing the fidelity of a
+retelling to the original narrative ? a task of
+growing clinical importance ? is challenging,
+given extensive paraphrasing during retelling
+along with cascading automatic speech recog-
+nition (ASR) errors. We present a word tag-
+ging approach using conditional random fields
+(CRFs) that allows a diversity of features
+to be considered during inference, including
+some capturing acoustic confusions encoded
+in word confusion networks. We evaluate the
+approach under several scenarios, including
+both supervised and unsupervised training, the
+latter achieved by training on the output of
+a baseline automatic word-alignment model.
+We also adapt the ASR models to the domain,
+and evaluate the impact of error rate on per-
+formance. We find strong robustness to ASR
+errors, even using just the 1-best system out-
+put. A hybrid approach making use of both au-
+tomatic alignment and CRFs trained tagging
+models achieves the best performance, yield-
+ing strong improvements over using either ap-
+proach alone.
+1 

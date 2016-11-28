@@ -1,0 +1,23 @@
+ 
+Terminological variation is an integral part of the 
+linguistic ability to realise a concept in many ways, 
+but it is typically considered an obstacle to 
+automatic term recognition (ATR) and term 
+management. We present a method that integrates 
+term variation in a hybrid ATR approach, in which 
+term candidates are recognised by a set of 
+linguistic filters and termhood assignment is based 
+on joint frequency of occurrence of all term 
+variants. We evaluate the effectiveness of 
+incorporating specific types of term variation by 
+comparing it to the performance of a baseline 
+method that treats term variants as separate terms. 
+We show that ATR precision is enhanced by 
+considering joint termhoods of all term variants, 
+while recall benefits by the introduction of new 
+candidates through consideration of different 
+variation types. On a biomedical test corpus we 
+show that precision can be increased by 20?70% 
+for the top ranked terms, while recall improves 
+generally by 2?25%. 
+1 

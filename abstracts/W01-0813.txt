@@ -1,0 +1,16 @@
+
+The task of creating indicative sum-
+maries that help a searcher decide
+whether to read a particular document
+is a difficult task. This paper exam-
+ines the indicative summarization task
+from a generation perspective, by first
+analyzing its required content via pub-
+lished guidelines and corpus analysis.
+We show how these summaries can be
+factored into a set of document features,
+and how an implemented content plan-
+ner uses the topicality document fea-
+ture to create indicative multidocument
+query-based summaries.
+1 

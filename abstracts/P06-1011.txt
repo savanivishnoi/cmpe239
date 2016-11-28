@@ -1,0 +1,18 @@
+
+We present a novel method for extract-
+ing parallel sub-sentential fragments from
+comparable, non-parallel bilingual cor-
+pora. By analyzing potentially similar
+sentence pairs using a signal processing-
+inspired approach, we detect which seg-
+ments of the source sentence are translated
+into segments in the target sentence, and
+which are not. This method enables us
+to extract useful machine translation train-
+ing data even from very non-parallel cor-
+pora, which contain no parallel sentence
+pairs. We evaluate the quality of the ex-
+tracted data by showing that it improves
+the performance of a state-of-the-art sta-
+tistical machine translation system.
+1 

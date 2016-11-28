@@ -1,0 +1,17 @@
+
+This paper describes the second of two sys-
+tems submitted from the University of Oslo
+(UiO) to the 2012 *SEM Shared Task on re-
+solving negation. The system combines SVM
+cue classification with CRF sequence labeling
+of events and scopes. Models for scopes and
+events are created using lexical and syntactic
+features, together with a fine-grained set of la-
+bels that capture the scopal behavior of certain
+tokens. Following labeling, negated tokens are
+assigned to their respective cues using simple
+post-processing heuristics. The system was
+ranked first in the open track and third in the
+closed track, and was one of the top perform-
+ers in the scope resolution sub-task overall.
+1 

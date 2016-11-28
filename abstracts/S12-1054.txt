@@ -1,0 +1,24 @@
+
+Our system breaks down the problem of rank-
+ing a list of lexical substitutions according to
+how simple they are in a given context into a
+series of pairwise comparisons between can-
+didates. For this we learn a binary classifier.
+As only very little training data is provided,
+we describe a procedure for generating artifi-
+cial unlabeled data from Wordnet and a corpus
+and approach the classification task as a semi-
+supervised machine learning problem. We use
+a co-training procedure that lets each classi-
+fier increase the other classifier?s training set
+with selected instances from an unlabeled data
+set. Our features include n-gram probabilities
+of candidate and context in a web corpus, dis-
+tributional differences of candidate in a cor-
+pus of ?easy? sentences and a corpus of normal
+sentences, syntactic complexity of documents
+that are similar to the given context, candidate
+length, and letter-wise recognizability of can-
+didate as measured by a trigram character lan-
+guage model.
+1 

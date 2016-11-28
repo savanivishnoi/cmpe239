@@ -1,0 +1,20 @@
+
+Dependency-based representations of natu-
+ral language syntax require a fine balance
+between structural flexibility and computa-
+tional complexity. In previous work, several
+constraints have been proposed to identify
+classes of dependency structures that are well-
+balanced in this sense; the best-known but
+also most restrictive of these is projectivity.
+Most constraints are formulated on fully spec-
+ified structures, which makes them hard to in-
+tegrate into models where structures are com-
+posed from lexical information. In this paper,
+we show how two empirically relevant relax-
+ations of projectivity can be lexicalized, and
+how combining the resulting lexicons with a
+regular means of syntactic composition gives
+rise to a hierarchy of mildly context-sensitive
+dependency languages.
+1 

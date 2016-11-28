@@ -1,0 +1,21 @@
+ 
+The multimodal presentation dashboard al-
+lows users to control and browse presenta-
+tion content such as slides and diagrams 
+through a multimodal interface that sup-
+ports speech and pen input. In addition to 
+control commands (e.g. ?take me to slide 
+10?), the system allows multimodal search 
+over content collections. For example, if 
+the user says ?get me a slide about internet 
+telephony,? the system will present a 
+ranked series of candidate slides that they 
+can then select among using voice, pen, or 
+a wireless remote. As presentations are 
+loaded, their content is analyzed and lan-
+guage and understanding models are built 
+dynamically. This approach frees the user 
+from the constraints of linear order allow-
+ing for a more dynamic and responsive 
+presentation style. 
+1 

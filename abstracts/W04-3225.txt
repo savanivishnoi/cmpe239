@@ -1,0 +1,14 @@
+
+We describe experiments carried out with adaptive
+language and translation models in the context of an
+interactive computer-assisted translation program.
+We developed cache-based language models which
+were then extended to the bilingual case for a cache-
+based translation model. We present the improve-
+ments we obtained in two contexts: in a theoretical
+setting, we achieved a drop in perplexity for the new
+models and, in a more practical situation simulat-
+ing a user working with the system, we showed that
+fewer keystrokes would be needed to enter a trans-
+lation.
+1 

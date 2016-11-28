@@ -1,0 +1,20 @@
+
+With the popularity of the Internet at a phe-
+nomenal rate, an ever-increasing number of
+documents in languages other than English
+are available in the Internet. Cross lan-
+guage text categorization has attracted more
+and more attention for the organization of
+these heterogeneous document collections.
+In this paper, we focus on how to con-
+duct effective cross language text catego-
+rization. To this end, we propose a cross
+language naive Bayes algorithm. The pre-
+liminary experiments on collected document
+collections show the effectiveness of the pro-
+posed method and verify the feasibility of
+achieving performance close to monolingual
+text categorization, using a bilingual lexicon
+alone. Also, our algorithm is more efficient
+than our baselines.
+1 

@@ -1,0 +1,22 @@
+
+We here propose a new method which sets
+apart domain-specific terminology from
+common non-specific noun phrases. It
+is based on the observation that termino-
+logical multi-word groups reveal a con-
+siderably lesser degree of distributional
+variation than non-specific noun phrases.
+We define a measure for the observable
+amount of paradigmatic modifiability of
+terms and, subsequently, test it on bigram,
+trigram and quadgram noun phrases ex-
+tracted from a 104-million-word biomedi-
+cal text corpus. Using a community-wide
+curated biomedical terminology system as
+an evaluation gold standard, we show that
+our algorithm significantly outperforms
+a variety of standard term identification
+measures. We also provide empirical ev-
+idence that our methodolgy is essentially
+domain- and corpus-size-independent.
+1 

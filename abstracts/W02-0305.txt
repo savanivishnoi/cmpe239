@@ -1,0 +1,13 @@
+ 
+This paper describes the basic philosophy 
+and implementation of MPLUS (M+), a 
+robust medical text analysis tool that uses a 
+semantic model based on Bayesian 
+Networks (BNs).  BNs provide a concise 
+and useful formalism for representing 
+semantic patterns in medical text, and for 
+recognizing and reasoning over those 
+patterns. BNs are noise-tolerant, and 
+facilitate the training of M+. 
+1 
+2 

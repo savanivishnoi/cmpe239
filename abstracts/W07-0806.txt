@@ -1,0 +1,16 @@
+ 
+We describe the adaptation for Arabic of 
+the grammar-based MedSLT medical 
+speech system. The system supports simple 
+medical diagnosis questions about head-
+aches using vocabulary of 322 words. We 
+show that the MedSLT architecture based 
+on motivated general grammars produces 
+very good results, with a limited effort. 
+Based on the grammars for other languages 
+covered by the system, it is in fact very 
+easy to develop an Arabic grammar and to 
+specialize it efficiently for the different 
+system tasks. In this paper, we focus on 
+generation. 
+1 

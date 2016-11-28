@@ -1,0 +1,15 @@
+
+In this paper we explore the applicability of
+existing coreference resolution systems to a
+biomedical genre: radiology reports. Analysis
+revealed that, due to the idiosyncrasies of the
+domain, both the formulation of the problem
+of coreference resolution and its solution need
+significant domain adaptation work. We refor-
+mulated the task and developed an unsuper-
+vised algorithm based on heuristics for coref-
+erence resolution in radiology reports. The
+algorithm is shown to perform well on a test
+dataset of 150 manually annotated radiology
+reports.
+1 

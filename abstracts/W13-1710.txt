@@ -1,0 +1,13 @@
+
+We present a system for automatically iden-
+tifying the native language of a writer. We
+experiment with a large set of features and
+train them on a corpus of 9,900 essays writ-
+ten in English by speakers of 11 different lan-
+guages. our system achieved an accuracy of
+43% on the test data, improved to 63% with
+improved feature normalization. In this paper,
+we present the features used in our system, de-
+scribe our experiments and provide an analysis
+of our results.
+1 

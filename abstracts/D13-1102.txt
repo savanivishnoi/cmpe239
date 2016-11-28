@@ -1,0 +1,24 @@
+
+Web search users frequently modify their
+queries in hope of receiving better results.
+This process is referred to as ?Query Refor-
+mulation?. Previous research has mainly fo-
+cused on proposing query reformulations in
+the form of suggested queries for users. Some
+research has studied the problem of predicting
+whether the current query is a reformulation
+of the previous query or not. However, this
+work has been limited to bag-of-words models
+where the main signals being used are word
+overlap, character level edit distance and word
+level edit distance. In this work, we show
+that relying solely on surface level text sim-
+ilarity results in many false positives where
+queries with different intents yet similar top-
+ics are mistakenly predicted as query reformu-
+lations. We propose a new representation for
+Web search queries based on identifying the
+concepts in queries and show that we can sig-
+nificantly improve query reformulation perfor-
+mance using features of query concepts.
+1 

@@ -1,0 +1,18 @@
+
+This paper describes the system we devel-
+oped to improve German-English transla-
+tion of News text for the shared task of
+the Fifth Workshop on Statistical Machine
+Translation. Working within cdec, an
+open source modular framework for ma-
+chine translation, we explore the benefits
+of several modifications to our hierarchical
+phrase-based model, including segmenta-
+tion lattices, minimum Bayes Risk de-
+coding, grammar extraction methods, and
+varying language models. Furthermore,
+we analyze decoder speed and memory
+performance across our set of models and
+show there is an important trade-off that
+needs to be made.
+1 

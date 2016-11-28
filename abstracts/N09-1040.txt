@@ -1,0 +1,19 @@
+
+This paper presents a novel unsupervised
+method for hierarchical topic segmentation.
+Lexical cohesion ? the workhorse of unsu-
+pervised linear segmentation ? is treated as
+a multi-scale phenomenon, and formalized
+in a Bayesian setting. Each word token is
+modeled as a draw from a pyramid of la-
+tent topic models, where the structure of the
+pyramid is constrained to induce a hierarchi-
+cal segmentation. Inference takes the form
+of a coordinate-ascent algorithm, iterating be-
+tween two steps: a novel dynamic program
+for obtaining the globally-optimal hierarchi-
+cal segmentation, and collapsed variational
+Bayesian inference over the hidden variables.
+The resulting system is fast and accurate, and
+compares well against heuristic alternatives.
+1 

@@ -1,0 +1,23 @@
+
+We present a system description of the
+WINGNUS team work
+1
+for the SemEval-
+2010 task #5 Automatic Keyphrase Ex-
+traction from Scientific Articles. A key
+feature of our system is that it utilizes an
+inferred document logical structure in our
+candidate identification process, to limit
+the number of phrases in the candidate list,
+while maintaining its coverage of impor-
+tant phrases. Our top performing system
+achieves an F
+1
+of 25.22% for the com-
+bined keyphrases (author and reader as-
+signed) in the final test data. We note that
+the method we report here is novel and or-
+thogonal from other systems, so it can be
+combined with other techniques to poten-
+tially achieve higher performance.
+1 

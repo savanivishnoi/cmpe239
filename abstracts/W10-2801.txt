@@ -1,0 +1,15 @@
+
+Dimensionality reduction has been shown
+to improve processing and information ex-
+traction from high dimensional data. Word
+space algorithms typically employ lin-
+ear reduction techniques that assume the
+space is Euclidean. We investigate the ef-
+fects of extracting nonlinear structure in
+the word space using Locality Preserv-
+ing Projections, a reduction algorithm that
+performs manifold learning. We apply
+this reduction to two common word space
+models and show improved performance
+over the original models on benchmarks.
+1 

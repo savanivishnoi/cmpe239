@@ -1,0 +1,21 @@
+
+Recent work in designing spoken dialogue
+systems has focused on using Reinforce-
+ment Learning to automatically learn the
+best action for a system to take at any
+point in the dialogue to maximize dia-
+logue success. While policy development
+is very important, choosing the best fea-
+tures to model the user state is equally im-
+portant since it impacts the actions a sys-
+tem should make. In this paper, we com-
+pare the relative utility of adding three fea-
+tures to a model of user state in the do-
+main of a spoken dialogue tutoring sys-
+tem. In addition, we also look at the ef-
+fects of these features on what type of a
+question a tutoring system should ask at
+any state and compare it with our previ-
+ous work on using feedback as the system
+action.
+1 

@@ -1,0 +1,35 @@
+
+Assisting in foreign language learning is one of
+the major areas in which natural language pro-
+cessing technology can contribute. This paper
+proposes a computerized method of measuring
+communicative skill in English as a foreign lan-
+guage. The proposed method consists of two
+parts. The first part involves a test sentence
+selection part to achieve precise measurement
+with a small test set. The second part is the ac-
+tual measurement, which has three steps. Step
+one asks proficiency-known human subjects to
+translate Japanese sentences into English. Step
+two gauges the match between the translations
+of the subjects and correct translations based
+on the n-gram overlap or the edit distance be-
+tween translations. Step three learns the rela-
+tionship between proficiency and match. By re-
+gression it finds a straight-line fitting for the
+scatter plot representing the proficiency and
+matches of the subjects. Then, it estimates pro-
+ficiency of proficiency-unknown users by using
+the line and the match. Based on this approach,
+we conducted experiments on estimating the
+Test of English for International Communica-
+tion (TOEIC) score. We collected two sets of
+data consisting of English sentences translated
+from Japanese. The first set consists of 330 sen-
+tences, each translated to English by 29 subjects
+with varied English proficiency. The second set
+consists of 510 sentences translated in a similar
+manner by a separate group of 18 subjects. We
+found that the estimated scores correlated with
+the actual scores.
+1 

@@ -1,0 +1,18 @@
+
+We propose a novel algorithm for senti-
+ment summarization that takes account of
+informativeness and readability, simulta-
+neously. Our algorithm generates a sum-
+mary by selecting and ordering sentences
+taken from multiple review texts according
+to two scores that represent the informa-
+tiveness and readability of the sentence or-
+der. The informativeness score is defined
+by the number of sentiment expressions
+and the readability score is learned from
+the target corpus. We evaluate our method
+by summarizing reviews on restaurants.
+Our method outperforms an existing al-
+gorithm as indicated by its ROUGE score
+and human readability experiments.
+1 

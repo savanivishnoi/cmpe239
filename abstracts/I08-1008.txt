@@ -1,0 +1,21 @@
+ 
+Name origin recognition is to identify the 
+source language of a personal or location 
+name.  Some early work used either rule-
+based or statistical methods with single 
+knowledge source. In this paper, we cast the 
+name origin recognition as a multi-class 
+classification problem and approach the 
+problem using Maximum Entropy method. 
+In doing so, we investigate the use of differ-
+ent features, including phonetic rules, n-
+gram statistics and character position infor-
+mation for name origin recognition. Ex-
+periments on a publicly available personal 
+name database show that the proposed ap-
+proach achieves an overall accuracy of 
+98.44% for names written in English and 
+98.10% for names written in Chinese, which 
+are significantly and consistently better than 
+those in reported work.  
+1 

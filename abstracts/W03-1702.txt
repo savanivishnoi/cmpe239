@@ -1,0 +1,25 @@
+ 
+We present an unsupervised learning 
+strategy for word sense disambiguation 
+(WSD) that exploits multiple linguistic 
+resources including a parallel corpus, a bi-
+lingual machine readable dictionary, and a 
+thesaurus. The approach is based on Class 
+Based Sense Definition Model (CBSDM) 
+that generates the glosses and translations 
+for a class of word senses. The model can 
+be applied to resolve sense ambiguity for 
+words in a parallel corpus. That sense 
+tagging procedure, in effect, produces a 
+semantic bilingual concordance, which 
+can be used to train WSD systems for the 
+two languages involved. Experimental re-
+sults show that CBSDM trained on 
+Longman Dictionary of Contemporary 
+English, English-Chinese Edition 
+(LDOCE E-C) and Longman Lexicon of 
+Contemporary English (LLOCE) is very 
+effectively in turning a Chinese-English 
+parallel corpus into sense tagged data for 
+development of WSD systems. 
+1. 

@@ -1,0 +1,14 @@
+
+The Penn Discourse TreeBank (PDTB) is a new re-
+source built on top of the Penn Wall Street Journal
+corpus, in which discourse connectives are anno-
+tated along with their arguments. Its use of stand-
+off annotation allows integration with a stand-off
+version of the Penn TreeBank (syntactic structure)
+and PropBank (verbs and their arguments), which
+adds value for both linguistic discovery and dis-
+course modeling. Here we describe the PDTB and
+some experiments in linguistic discovery based on
+the PDTB alone, as well as on the linked PTB and
+PDTB corpora.
+1 

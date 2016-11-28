@@ -1,0 +1,14 @@
+  
+The translation choice and transfer modules 
+in an English Chinese machine translation 
+system are introduced. The translation 
+choice is realized on basis of a grammar tree 
+and takes the context as a word bag, with the 
+lexicon and POS tag information as context 
+features. The Bayes minimal error 
+probability is taken as the evaluation 
+function of the candidate translation. The 
+rule-based transfer and generation module 
+takes the parsing tree as the input and 
+operates on the information of POS tag, 
+semantics or even the lexicon. 

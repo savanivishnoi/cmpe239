@@ -1,0 +1,17 @@
+
+We present a generative distributional model for the
+unsupervised induction of natural language syntax
+which explicitly models constituent yields and con-
+texts. Parameter search with EM produces higher
+quality analyses than previously exhibited by un-
+supervised systems, giving the best published un-
+supervised parsing results on the ATIS corpus. Ex-
+periments on Penn treebank sentences of compara-
+ble length show an even higher F1 of 71% on non-
+trivial brackets. We compare distributionally in-
+duced and actual part-of-speech tags as input data,
+and examine extensions to the basic model. We dis-
+cuss errors made by the system, compare the sys-
+tem to previous models, and discuss upper bounds,
+lower bounds, and stability for this task.
+1 

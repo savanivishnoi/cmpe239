@@ -1,0 +1,18 @@
+
+We present an implemented model of story
+understanding and apply it to the understand-
+ing of a children?s story. We argue that un-
+derstanding a story consists of building multi-
+representation models of the story and that
+story models are efficiently constructed using
+a satisfiability solver. We present a computer
+program that contains multiple representations
+of commonsense knowledge, takes a narrative
+as input, transforms the narrative and represen-
+tations of commonsense knowledge into a sat-
+isfiability problem, runs a satisfiability solver,
+and produces models of the story as output.
+The narrative, models, and representations are
+expressed in the language of Shanahan?s event
+calculus.
+1 

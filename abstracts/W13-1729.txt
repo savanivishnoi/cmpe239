@@ -1,0 +1,23 @@
+
+This paper describes our approaches to Na-
+tive Language Identification (NLI) for the NLI
+shared task 2013. NLI as a sub area of au-
+thor profiling focuses on identifying the first
+language of an author given a text in his sec-
+ond language. Researchers have reported sev-
+eral sets of features that have achieved rel-
+atively good performance in this task. The
+type of features used in such works are: lex-
+ical, syntactic and stylistic features, depen-
+dency parsers, psycholinguistic features and
+grammatical errors. In our approaches, we se-
+lected lexical and syntactic features based on
+n-grams of characters, words, Penn TreeBank
+(PTB) and Universal Parts Of Speech (POS)
+tagsets, and perplexity values of character of
+n-grams to build four different models. We
+also combine all the four models using an en-
+semble based approach to get the final result.
+We evaluated our approach over a set of 11 na-
+tive languages reaching 75% accuracy.
+1 

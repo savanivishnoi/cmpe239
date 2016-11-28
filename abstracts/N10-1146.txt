@@ -1,0 +1,20 @@
+
+In this paper, we describe an approach based
+on off-the-shelf parsers and semantic re-
+sources for the Recognizing Textual Entail-
+ment (RTE) challenge that can be generally
+applied to any domain. Syntax is exploited
+by means of tree kernels whereas lexical se-
+mantics is derived from heterogeneous re-
+sources, e.g. WordNet or distributional se-
+mantics through Wikipedia. The joint syn-
+tactic/semantic model is realized by means of
+tree kernels, which can exploit lexical related-
+ness to match syntactically similar structures,
+i.e. whose lexical compounds are related. The
+comparative experiments across different RTE
+challenges and traditional systems show that
+our approach consistently and meaningfully
+achieves high accuracy, without requiring any
+adaptation or tuning.
+1 

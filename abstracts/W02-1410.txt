@@ -1,0 +1,19 @@
+
+Question terminology is a set of terms which ap
+pear in keywords idioms and xed expressions
+commonly observed in questions This paper
+investigates ways to automatically extract ques
+tion terminology from a corpus of questions and
+represent them for the purpose of classifying by
+question type Our key interest is to see whether
+or not semantic features can enhance the repre
+sentation of strongly lexical nature of question
+sentences We compare two feature sets one
+with lexical features only and another with a
+mixture of lexical and semantic features For
+evaluation we measure the classication accu
+racy made by two machine learning algorithms
+C and PEBLS by using a procedure called
+domain crossvalidation which eectively mea
+sures the domain transferability of features
+ 

@@ -1,0 +1,17 @@
+
+We investigate the task of detecting reli-
+able statements about food-health relation-
+ships from natural language texts. For that
+purpose, we created a specially annotated
+web corpus from forum entries discussing the
+healthiness of certain food items. We ex-
+amine a set of task-specific features (mostly)
+based on linguistic insights that are instrumen-
+tal in finding utterances that are commonly
+perceived as reliable. These features are in-
+corporated in a supervised classifier and com-
+pared against standard features that are widely
+used for various tasks in natural language pro-
+cessing, such as bag of words, part-of speech
+and syntactic parse information.
+1 

@@ -1,0 +1,10 @@
+. This paper presents a definition question answering approach, which 
+is capable of mining textual definitions from large collections of documents. In 
+order to automatically identify definition sentences from a large collection of 
+documents, we utilize the existing definitions in the Web knowledge bases in-
+stead of hand-crafted rules or annotated corpus. Effective methods are adopted to 
+make full use of Web knowledge bases, and they promise high quality response 
+to definition questions. We applied our system in the TREC 2004 definition 
+question-answering task and achieved an encouraging performance with the F-
+measure score of 0.404, which was ranked second among all the submitted runs. 
+1   

@@ -1,0 +1,14 @@
+
+We improve the quality of paraphrases ex-
+tracted from parallel corpora by requiring that
+phrases and their paraphrases be the same syn-
+tactic type. This is achieved by parsing the En-
+glish side of a parallel corpus and altering the
+phrase extraction algorithm to extract phrase
+labels alongside bilingual phrase pairs. In or-
+der to retain broad coverage of non-constituent
+phrases, complex syntactic labels are intro-
+duced. A manual evaluation indicates a 19%
+absolute improvement in paraphrase quality
+over the baseline method.
+1 

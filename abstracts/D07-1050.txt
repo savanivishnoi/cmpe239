@@ -1,0 +1,14 @@
+
+We present results that show that incorporat-
+ing lexical and structural semantic informa-
+tion is effective for word sense disambigua-
+tion. We evaluated the method by using pre-
+cise information from a large treebank and
+an ontology automatically created from dic-
+tionary sentences. Exploiting rich semantic
+and structural information improves preci-
+sion 2?3%. The most gains are seen with
+verbs, with an improvement of 5.7% over a
+model using only bag of words and n-gram
+features.
+1 

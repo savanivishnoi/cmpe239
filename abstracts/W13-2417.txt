@@ -1,0 +1,28 @@
+
+We propose a method for cross-language
+identification of semantic relations based
+on word similarity measurement and mor-
+phosemantic relations in WordNet. We
+transfer these relations to pairs of deriva-
+tionally unrelated words and train a model
+for automatic classification of new in-
+stances of (morpho)semantic relations in
+context based on the existing ones and
+the general semantic classes of collocated
+verb and noun senses. Our experiments
+are based on Bulgarian-English parallel
+and comparable texts but the method is to
+a great extent language-independent and
+particularly suited to less-resourced lan-
+guages, since it does not need parsed or se-
+mantically annotated data. The application
+of the method leads to an increase in the
+number of discovered semantic relations
+by 58.35% and performs relatively consis-
+tently, with a small decrease in precision
+between the baseline (based on morphose-
+mantic relations identified in wordnet) ?
+0.774, and the extended method (based on
+the data obtained through machine learn-
+ing) ? 0.721.
+1 

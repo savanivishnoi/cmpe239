@@ -1,0 +1,18 @@
+
+An alignment method based on the Viterbi
+algorithm is proposed to find mappings be-
+tween word images of a given handwrit-
+ten document and their respective (ASCII)
+words on its transcription. The approach
+takes advantage of the underlying segmen-
+tation made by Viterbi decoding in hand-
+written text recognition based on Hidden
+Markov Models (HMMs). Two HMMs
+modelling schemes are evaluated: one using
+78-HMMs (one HMM per character class)
+and other using a unique HMM to model all
+the characters and another to model blank
+spaces. According to various metrics used
+to measure the quality of the alignments, en-
+couraging results are obtained.
+1 

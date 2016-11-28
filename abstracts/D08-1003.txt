@@ -1,0 +1,19 @@
+
+Regular expressions have served as the dom-
+inant workhorse of practical information ex-
+traction for several years. However, there has
+been little work on reducing the manual ef-
+fort involved in building high-quality, com-
+plex regular expressions for information ex-
+traction tasks. In this paper, we propose Re-
+LIE, a novel transformation-based algorithm
+for learning such complex regular expressions.
+We evaluate the performance of our algorithm
+on multiple datasets and compare it against the
+CRF algorithm. We show that ReLIE, in ad-
+dition to being an order of magnitude faster,
+outperforms CRF under conditions of limited
+training data and cross-domain data. Finally,
+we show how the accuracy of CRF can be im-
+proved by using features extracted by ReLIE.
+1 

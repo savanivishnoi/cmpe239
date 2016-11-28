@@ -1,0 +1,26 @@
+
+We introduce GenNext, an NLG system
+designed specifically to adapt quickly and
+easily to different domains. Given a do-
+main corpus of historical texts, GenNext
+allows the user to generate a template bank
+organized by semantic concept via derived
+discourse representation structures in con-
+junction with general and domain-specific
+entity tags. Based on various features
+collected from the training corpus, the
+system statistically learns template rep-
+resentations and document structure and
+produces well?formed texts (as evaluated
+by crowdsourced and expert evaluations).
+In addition to domain adaptation, Gen-
+Next?s hybrid approach significantly re-
+duces complexity as compared to tradi-
+tional NLG systems by relying on tem-
+plates (consolidating micro-planning and
+surface realization) and minimizing the
+need for domain experts. In this descrip-
+tion, we provide details of GenNext?s the-
+oretical perspective, architecture and eval-
+uations of output.
+1 

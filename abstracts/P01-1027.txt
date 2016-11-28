@@ -1,0 +1,23 @@
+
+Typically, the lexicon models used in
+statistical machine translation systems
+do not include any kind of linguistic
+or contextual information, which often
+leads to problems in performing a cor-
+rect word sense disambiguation. One
+way to deal with this problem within
+the statistical framework is to use max-
+imum entropy methods. In this paper,
+we present how to use this type of in-
+formation within a statistical machine
+translation system. We show that it is
+possible to significantly decrease train-
+ing and test corpus perplexity of the
+translation models. In addition, we per-
+form a rescoring of  -Best lists us-
+ing our maximum entropy model and
+thereby yield an improvement in trans-
+lation quality. Experimental results are
+presented on the so-called ?Verbmobil
+Task?.
+1 

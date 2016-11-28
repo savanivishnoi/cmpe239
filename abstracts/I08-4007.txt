@@ -1,0 +1,30 @@
+
+Dependency parsing has gained attention in
+natural language understanding because the
+representation of dependency tree is simple,
+compact and direct such that robust partial
+understanding and task portability can be
+achieved more easily. However, many de-
+pendency parsers make hard decisions with
+local information while selecting among
+the next parse states. As a consequence,
+though the obtained dependency trees are
+good in some sense, the N-best output is
+not guaranteed to be globally optimal in
+general.
+In this paper, a stochastic dependency pars-
+ing scheme based on A* admissible search
+is formally presented. By well representing
+the parse state and appropriately designing
+the cost and heuristic functions, depend-
+ency parsing can be modeled as an A*
+search problem, and solved with a generic
+algorithm of state space search. When
+evaluated on the Chinese Tree Bank, this
+parser can obtain 85.99% dependency ac-
+curacy at 68.39% sentence accuracy, and
+14.62% node ratio for dynamic heuristic.
+This parser can output N-best dependency
+trees, and integrate the semantic processing
+into the search process easily.
+1 

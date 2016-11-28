@@ -1,0 +1,15 @@
+
+We consider the task of summarizing a
+cluster of related sentences with a short
+sentence which we call multi-sentence
+compression and present a simple ap-
+proach based on shortest paths in word
+graphs. The advantage and the novelty of
+the proposed method is that it is syntax-
+lean and requires little more than a tok-
+enizer and a tagger. Despite its simplic-
+ity, it is capable of generating grammati-
+cal and informative summaries as our ex-
+periments with English and Spanish data
+demonstrate.
+1 

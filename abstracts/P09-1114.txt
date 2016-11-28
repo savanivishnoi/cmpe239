@@ -1,0 +1,26 @@
+
+Creating labeled training data for rela-
+tion extraction is expensive. In this pa-
+per, we study relation extraction in a spe-
+cial weakly-supervised setting when we
+have only a few seed instances of the tar-
+get relation type we want to extract but
+we also have a large amount of labeled
+instances of other relation types. Ob-
+serving that different relation types can
+share certain common structures, we pro-
+pose to use a multi-task learning method
+coupled with human guidance to address
+this weakly-supervised relation extraction
+problem. The proposed framework mod-
+els the commonality among different re-
+lation types through a shared weight vec-
+tor, enables knowledge learned from the
+auxiliary relation types to be transferred
+to the target relation type, and allows easy
+control of the tradeoff between precision
+and recall. Empirical evaluation on the
+ACE 2004 data set shows that the pro-
+posed method substantially improves over
+two baseline methods.
+1 

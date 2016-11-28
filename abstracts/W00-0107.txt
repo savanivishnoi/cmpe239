@@ -1,0 +1,22 @@
+ 
+This paper will describe a way to organize the salient 
+objects, their attributes, and relationships between 
+the objects in a given domain. This organization 
+allows us to assign an information value to each col- 
+lection, and to the domain as a whole, which cor- 
+responds to the number of things to "talk about" 
+in the domain. This number gives a measure of se- 
+mantic complexity; that is, it will correspond to the 
+number of objects, attributes, and relationships in 
+the domain, but not to the level of syntactic diver- 
+sity allowed when conveying these meanings. 
+Defining a measure of semantic omplexity for a 
+dialog system domain will give an insight towards 
+making a complexity measurement standard. With 
+such a standard, natural anguage programmers can 
+measure the feasibility of making a natural lan- 
+guage interface, compare different language proces- 
+sors' ability to handle more and more complex do- 
+mains, and quantify the abilities of the current state 
+of the art in natural anguage processors. 
+1 

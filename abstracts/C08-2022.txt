@@ -1,0 +1,20 @@
+
+We present a corpus study of local dis-
+course relations based on the Penn Dis-
+course Tree Bank, a large manually anno-
+tated corpus of explicitly or implicitly re-
+alized relations. We show that while there
+is a large degree of ambiguity in temporal
+explicit discourse connectives, overall con-
+nectives are mostly unambiguous and al-
+low high-accuracy prediction of discourse
+relation type. We achieve 93.09% accu-
+racy in classifying the explicit relations
+and 74.74% accuracy overall. In addition,
+we show that some pairs of relations oc-
+cur together in text more often than ex-
+pected by chance. This finding suggests
+that global sequence classification of the
+relations in text can lead to better results,
+especially for implicit relations.
+1 

@@ -1,0 +1,20 @@
+
+Previous works on question classification are
+based on complex natural language process-
+ing techniques: named entity extractors,
+parsers, chunkers, etc. While these ap-
+proaches have proven to be effective they
+have the disadvantage of being targeted to a
+particular language. We present here a sim-
+ple approach that exploits lexical features
+and the Internet to train a classifier, namely
+a Support Vector Machine. The main fea-
+ture of this method is that it can be applied
+to different languages without requiring ma-
+jor modifications. Experimental results of
+this method on English, Italian and Span-
+ish show that this approach can be a prac-
+tical tool for question answering systems,
+reaching a classification accuracy as high as
+88.92%.
+1 

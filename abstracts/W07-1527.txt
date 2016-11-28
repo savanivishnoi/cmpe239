@@ -1,0 +1,20 @@
+
+This paper presents observations on our ex-
+perience with an annotation scheme that was
+used in the training of a state-of-the-art noun
+phrase semantic interpretation system. The
+system relies on cross-linguistic evidence
+from a set of five Romance languages: Span-
+ish, Italian, French, Portuguese, and Roma-
+nian. Given a training set of English noun
+phrases in context along with their transla-
+tions in the five Romance languages, our
+algorithm automatically learns a classifica-
+tion function that is later on applied to un-
+seen test instances for semantic interpreta-
+tion. As training and test data we used two
+text collections of different genre: Europarl
+and CLUVI. The training data was annotated
+with contextual features based on two state-
+of-the-art classification tag sets.
+1 

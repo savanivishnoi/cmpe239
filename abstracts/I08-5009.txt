@@ -1,0 +1,14 @@
+ 
+In this paper, we present a domain focused 
+Tamil Named Entity Recognizer for 
+tourism domain. This method takes care of 
+morphological inflections of named entities 
+(NE). It handles nested tagging of named 
+entities with a hierarchical tagset 
+containing 106 tags. The tagset is designed 
+with focus to tourism domain. We have 
+experimented building Conditional 
+Random Field (CRF) models by training 
+the noun phrases of the training data and it 
+gives encouraging results. 
+1 

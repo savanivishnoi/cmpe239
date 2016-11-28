@@ -1,0 +1,15 @@
+
+We use directed graphical models (DGMs)
+to automatically detect decision discus-
+sions in multi-party dialogue. Our ap-
+proach distinguishes between different di-
+alogue act (DA) types based on their role
+in the formulation of a decision. DGMs
+enable us to model dependencies, includ-
+ing sequential ones. We summarize deci-
+sions by extracting suitable phrases from
+DAs that concern the issue under discus-
+sion and its resolution. Here we use a
+semantic-similarity metric to improve re-
+sults on both manual and ASR transcripts.
+1 

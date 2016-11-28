@@ -1,0 +1,20 @@
+
+In this work we describe the modeling and
+prediction of Interaction Quality (IQ) in Spo-
+ken Dialogue Systems (SDS) using Support
+Vector Machines. The model can be employed
+to estimate the quality of the ongoing inter-
+action at arbitrary points in a spoken human-
+computer interaction. We show that the use
+of 52 completely automatic features character-
+izing the system-user exchange significantly
+outperforms state-of-the-art approaches. The
+model is evaluated on publically available data
+from the CMU Let?s Go Bus Information sys-
+tem. It reaches a performance of 61.6% un-
+weighted average recall when discriminating
+between 5 classes (good to very poor). It can
+be further shown that incorporating knowl-
+edge about the user?s emotional state does
+hardly improve the performance.
+1 

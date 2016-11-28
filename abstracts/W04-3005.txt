@@ -1,0 +1,25 @@
+
+Our motivation is to perform call routing of utterances
+without recourse to transcriptions of the training data,
+which are very expensive to obtain.  We therefore use
+phonetic recognition of utterances and search for
+salient phonetic sequences within the decodings.  An
+important issue in phonetic recognition is the language
+model.  It has been demonstrated [1] that the use of an
+iterative language model gives benefits in speech
+recognition performance that are translated to
+improvements in utterance classification. However, an
+all-purpose language model sometimes produces
+decodings that are ambiguous, in that they apparently
+contain key phonetic sequences from several different
+routes, or non-informative, in that they apparently
+contain no useful phonetic sequences. This paper
+describes a method that uses multiple language models
+to detect useful information in such utterances.  The
+outputs from recognizers that use these multiple models
+are examined by post-processing HMMs that decide
+whether putative sequences are present or not.  It is
+found that using multiple language models increases
+performance significantly by classifying utterances that
+a single language model is unable to discriminate.
+1. 

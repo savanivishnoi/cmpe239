@@ -1,0 +1,19 @@
+ 
+This paper describes a computational, declarative 
+approach to prosodic morphology that uses invio- 
+lable constraints o denote small finite candidate sets 
+which are filtered by a restrictive incremental opti- 
+mization mechanism. The new approach is illustrated 
+with an implemented fragment of Modern Hebrew 
+verbs couched in MicroCUF, an expressive con- 
+straint logic formalism. For generation and parsing 
+of word forms, I propose anovel off-line technique to 
+eliminate run-time optimization. It produces a finite- 
+state oracle that efficiently restricts the constraint in- 
+terpreter's search space. As a byproduct, unknown 
+words can be analyzed without special mechanisms. 
+Unlike pure finite-state transducer approaches, this 
+hybrid setup allows for more expressivity in con- 
+straints to specify e.g. token identity for reduplica- 
+tion or arithmetic constraints for phonetics. 
+1 

@@ -1,0 +1,31 @@
+
+Deriving the polarity and strength of opinions
+is an important research topic, attracting sig-
+nificant attention over the last few years. In
+this work, to measure the strength and po-
+larity of an opinion, we consider the eco-
+nomic context in which the opinion is eval-
+uated, instead of using human annotators or
+linguistic resources. We rely on the fact that
+text in on-line systems influences the behav-
+ior of humans and this effect can be observed
+using some easy-to-measure economic vari-
+ables, such as revenues or product prices. By
+reversing the logic, we infer the semantic ori-
+entation and strength of an opinion by tracing
+the changes in the associated economic vari-
+able. In effect, we use econometrics to iden-
+tify the ?economic value of text? and assign a
+?dollar value? to each opinion phrase, measur-
+ing sentiment effectively and without the need
+for manual labeling. We argue that by inter-
+preting opinions using econometrics, we have
+the first objective, quantifiable, and context-
+sensitive evaluation of opinions. We make the
+discussion concrete by presenting results on
+the reputation system of Amazon.com. We
+show that user feedback affects the pricing
+power of merchants and by measuring their
+pricing power we can infer the polarity and
+strength of the underlying feedback postings.
+1 

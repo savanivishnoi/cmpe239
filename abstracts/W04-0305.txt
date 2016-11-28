@@ -1,0 +1,29 @@
+
+To support incremental interpretation, any
+model of human sentence processing must not
+only process the sentence incrementally, it must
+to some degree restrict the number of analyses
+which it produces for any sentence prefix. De-
+terministic parsing takes the extreme position
+that there can only be one analysis for any sen-
+tence prefix. Experiments with an incremen-
+tal statistical parser show that performance is
+severely degraded when the search for the most
+probable parse is pruned to only the most prob-
+able analysis after each prefix. One method
+which has been extensively used to address the
+difficulty of deterministic parsing is lookahead,
+where information about a bounded number
+of subsequent words is used to decide which
+analyses to pursue. We simulate the effects of
+lookahead by summing probabilities over pos-
+sible parses for the lookahead words and using
+this sum to choose which parse to pursue. We
+find that a large improvement is achieved with
+one word lookahead, but that more lookahead
+results in relatively small additional improve-
+ments. This suggests that one word lookahead
+is sufficient, but that other modifications to our
+left-corner parsing model could make determin-
+istic parsing more effective.
+1 

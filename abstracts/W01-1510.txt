@@ -1,0 +1,17 @@
+
+This paper describes the RenTAL sys-
+tem, which enables sharing resources
+in LTAG and HPSG formalisms by a
+method of grammar conversion from
+an FB-LTAG grammar to a strongly
+equivalent HPSG-style grammar. The
+system is applied to the latest version
+of the XTAG English grammar. Ex-
+perimental results show that the ob-
+tained HPSG-style grammar success-
+fully worked with an HPSG parser, and
+achieved a drastic speed-up against an
+LTAG parser. This system enables to
+share not only grammars and lexicons
+but also parsing techniques.
+1 

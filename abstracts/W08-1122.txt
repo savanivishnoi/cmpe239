@@ -1,0 +1,18 @@
+
+While the effect of domain variation on Penn-
+treebank-trained probabilistic parsers has been
+investigated in previous work, we study its ef-
+fect on a Penn-Treebank-trained probabilistic
+generator. We show that applying the gener-
+ator to data from the British National Corpus
+results in a performance drop (from a BLEU
+score of 0.66 on the standard WSJ test set to a
+BLEU score of 0.54 on our BNC test set). We
+develop a generator retraining method where
+the domain-specific training data is automat-
+ically produced using state-of-the-art parser
+output. The retraining method recovers a sub-
+stantial portion of the performance drop, re-
+sulting in a generator which achieves a BLEU
+score of 0.61 on our BNC test data.
+1 

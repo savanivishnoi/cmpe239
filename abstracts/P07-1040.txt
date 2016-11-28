@@ -1,0 +1,24 @@
+
+Recently, confusion network decoding has
+been applied in machine translation system
+combination. Due to errors in the hypoth-
+esis alignment, decoding may result in un-
+grammatical combination outputs. This pa-
+per describes an improved confusion net-
+work based method to combine outputs from
+multiple MT systems. In this approach, ar-
+bitrary features may be added log-linearly
+into the objective function, thus allowing
+language model expansion and re-scoring.
+Also, a novel method to automatically se-
+lect the hypothesis which other hypotheses
+are aligned against is proposed. A generic
+weight tuning algorithm may be used to op-
+timize various automatic evaluation metrics
+including TER, BLEU and METEOR. The
+experiments using the 2005 Arabic to En-
+glish and Chinese to English NIST MT eval-
+uation tasks show significant improvements
+in BLEU scores compared to earlier confu-
+sion network decoding based methods.
+1 

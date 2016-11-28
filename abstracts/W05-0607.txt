@@ -1,0 +1,17 @@
+
+This paper proposes a model for term re-
+occurrence in a text collection based on
+the gaps between successive occurrences
+of a term. These gaps are modeled using
+a mixture of exponential distributions. Pa-
+rameter estimation is based on a Bayesian
+framework that allows us to fit a flexi-
+ble model. The model provides measures
+of a term?s re-occurrence rate and within-
+document burstiness. The model works
+for all kinds of terms, be it rare content
+word, medium frequency term or frequent
+function word. A measure is proposed to
+account for the term?s importance based
+on its distribution pattern in the corpus.
+1 

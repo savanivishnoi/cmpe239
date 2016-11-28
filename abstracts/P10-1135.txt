@@ -1,0 +1,19 @@
+
+An important relation in information ex-
+traction is the part-whole relation. On-
+tological studies mention several types of
+this relation. In this paper, we show
+that the traditional practice of initializ-
+ing minimally-supervised algorithms with
+a single set that mixes seeds of different
+types fails to capture the wide variety of
+part-whole patterns and tuples. The re-
+sults obtained with mixed seeds ultimately
+converge to one of the part-whole relation
+types. We also demonstrate that all the
+different types of part-whole relations can
+still be discovered, regardless of the type
+characterized by the initializing seeds. We
+performed our experiments with a state-of-
+the-art information extraction algorithm.
+1 

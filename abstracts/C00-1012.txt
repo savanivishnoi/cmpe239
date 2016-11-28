@@ -1,0 +1,24 @@
+ 
+We argue that in general, the analysis of lexical co- 
+hesion factors in a document can drive a summarizer, 
+as well as enable other content characterization tasks. 
+More narrowly, this paper focuses on how one particular 
+cohesion factol~simple l xical repetition--can enhance 
+an existing sentence xtraction summarizer, by enabling 
+strategies for overcoming some particularly jarring end- 
+user effects in the summaries, typically due to coher- 
+ence degradation, readability deterioration, and topical 
+under-representation. Lexical repetition is instrumental 
+to, among other things, the topical make-up of a text, and 
+in our framework a lexical repetition-based model of dis- 
+course segmentation, capable of detecting topic shifts, is 
+integrated with a linguistically-aware summarizer utiliz- 
+ing notions of salience and dynamically-adjustable sum- 
+mary size. We show that even by leveraging lexical rep- 
+etition alone, summaries are of comparable, and under 
+certain conditions bette~, quality than the ones delivered 
+by a state-of-the-art summarizer. This is encouraging for 
+a broad research platform focusing on the recognition 
+and use of cohesive devices in text for a range of content 
+characterisation a d document management tasks. 
+1 

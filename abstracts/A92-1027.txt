@@ -1,0 +1,25 @@
+ In the rest of this section we will look at some of the 
+We present an efficient algorithm for chart-based 
+phrase structure parsing of natural anguage that is tai- 
+lored to the problem of extracting specific information 
+from unrestricted texts where many of the words are un- 
+known and much of the text is irrelevant to the task. 
+The parser gains algorithmic efficiency through areduc- 
+tion of its search space. As each new edge is added to 
+the chart, the algorithm checks only the topmost of the 
+edges adjacent to it, rather than all such edges as in con- 
+ventional treatments. The resulting spanning edges are 
+insured to be the correct ones by carefully controlling 
+the order in which edges are introduced so that every 
+final constituent covers the longest possible span. This 
+is facilitated through the use of phrase boundary heuris- 
+tics based on the placement of function words, and by 
+heuristic rules that permit certain kinds of phrases to be 
+deduced espite the presence of unknown words. A fur- 
+ther reduction in the search space is achieved by using 
+semantic rather than syntactic ategories on the terminal 
+and nonterminal edges, thereby reducing the amount of 
+ambiguity and thus the number of edges, since only 
+edges with a valid semantic interpretation are ever intro- 
+daced. 
+1. 

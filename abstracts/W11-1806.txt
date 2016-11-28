@@ -1,0 +1,24 @@
+
+We describe the Stanford entry to the BioNLP
+2011 shared task on biomolecular event ex-
+traction (Kim et al, 2011a). Our framework is
+based on the observation that event structures
+bear a close relation to dependency graphs.
+We show that if biomolecular events are cast
+as these pseudosyntactic structures, standard
+parsing tools (maximum-spanning tree parsers
+and parse rerankers) can be applied to per-
+form event extraction with minimum domain-
+specific tuning. The vast majority of our
+domain-specific knowledge comes from the
+conversion to and from dependency graphs.
+Our system performed competitively, obtain-
+ing 3rd place in the Infectious Diseases track
+(50.6% f-score), 5th place in Epigenetics and
+Post-translational Modifications (31.2%), and
+7th place in Genia (50.0%). Additionally, this
+system was part of the combined system in
+Riedel et al (2011) to produce the highest
+scoring system in three out of the four event
+extraction tasks.
+1 

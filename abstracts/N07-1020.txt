@@ -1,0 +1,20 @@
+ 
+This paper introduces an unsupervised 
+morphological segmentation algorithm 
+that shows robust performance for four 
+languages with different levels of mor-
+phological complexity. In particular, our 
+algorithm outperforms Goldsmith?s Lin-
+guistica and Creutz and Lagus?s Mor-
+phessor for English and Bengali, and 
+achieves performance that is comparable 
+to the best results for all three PASCAL 
+evaluation datasets. Improvements arise 
+from (1) the use of relative corpus fre-
+quency and suffix level similarity for de-
+tecting incorrect morpheme attachments 
+and (2) the induction of orthographic rules 
+and allomorphs for segmenting words 
+where roots exhibit spelling changes dur-
+ing morpheme attachments. 
+1 

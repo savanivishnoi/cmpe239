@@ -1,0 +1,23 @@
+
+Translation requires non-isomorphic
+transformation from the source to the
+target. However, non-isomorphism can
+be reduced by learning multi-word units
+(MWUs). We present a novel way of
+representating sentence structure based
+on MWUs, which are not necessarily
+continuous word sequences. Our pro-
+posed method builds a simpler structure
+of MWUs than words using words
+as vertices of a dependency structure.
+Unlike previous studies, we collect
+many alternative structures in a packed
+forest. As an application of our proposed
+method, we extract translation rules in
+form of a source MWU-forest to the
+target string, and verify the rule coverage
+empirically. As a consequence, we
+improve the rule coverage compare to a
+previous work, while retaining the linear
+asymptotic complexity.
+1 

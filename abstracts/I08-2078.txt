@@ -1,0 +1,15 @@
+
+We present an online cascaded approach to
+biomedical named entity recognition. This
+approach uses an online training method
+to substantially reduce the training time re-
+quired and a cascaded framework to relax
+the memory requirement. We conduct de-
+tailed experiments on the BioNLP dataset
+from the JNLPBA shared task and com-
+pare the results with other systems and pub-
+lished works. Our experimental results show
+that our approach achieves comparable per-
+formance with great reductions in time and
+space requirements.
+1 

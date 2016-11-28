@@ -1,0 +1,22 @@
+
+Information extraction (IE) systems are costly to
+build because they require development texts, pars-
+ing tools, and specialized dictionaries for each ap-
+plication domain and each natural language that
+needs to be processed. We present a novel
+method for rapidly creating IE systems for new lan-
+guages by exploiting existing IE systems via cross-
+language projection. Given an IE system for a
+source language (e.g., English), we can transfer its
+annotations to corresponding texts in a target lan-
+guage (e.g., French) and learn information extrac-
+tion rules for the new language automatically. In
+this paper, we explore several ways of realizing both
+the transfer and learning processes using off-the-
+shelf machine translation systems, induced word
+alignment, attribute projection, and transformation-
+based learning. We present a variety of experiments
+that show how an English IE system for a plane
+crash domain can be leveraged to automatically cre-
+ate a French IE system for the same domain.
+1 

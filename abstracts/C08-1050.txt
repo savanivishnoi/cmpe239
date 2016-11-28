@@ -1,0 +1,31 @@
+
+Almost all automatic semantic role label-
+ing (SRL) systems rely on a preliminary
+parsing step that derives a syntactic struc-
+ture from the sentence being analyzed.
+This makes the choice of syntactic repre-
+sentation an essential design decision. In
+this paper, we study the influence of syn-
+tactic representation on the performance
+of SRL systems. Specifically, we com-
+pare constituent-based and dependency-
+based representations for SRL of English
+in the FrameNet paradigm.
+Contrary to previous claims, our results
+demonstrate that the systems based on de-
+pendencies perform roughly as well as
+those based on constituents: For the ar-
+gument classification task, dependency-
+based systems perform slightly higher on
+average, while the opposite holds for the
+argument identification task. This is re-
+markable because dependency parsers are
+still in their infancy while constituent pars-
+ing is more mature. Furthermore, the re-
+sults show that dependency-based seman-
+tic role classifiers rely less on lexicalized
+features, which makes them more robust
+to domain changes and makes them learn
+more efficiently with respect to the amount
+of training data.
+1 

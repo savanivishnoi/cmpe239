@@ -1,0 +1,30 @@
+
+Having seen a news title ?Alba denies wedding
+reports?, how do we infer that it is primar-
+ily about Jessica Alba, rather than about wed-
+dings or reports? We probably realize that, in a
+randomly driven sentence, the word ?Alba? is
+less anticipated than ?wedding? or ?reports?,
+which adds value to the word ?Alba? if used.
+Such anticipation can be modeled as a ratio
+between an empirical probability of the word
+(in a given corpus) and its estimated proba-
+bility in general English. Aggregated over all
+words in a document, this ratio may be used
+as a measure of the document?s topicality. As-
+suming that the corpus consists of on-topic
+and off-topic documents (we call them the
+core and the noise), our goal is to determine
+which documents belong to the core. We pro-
+pose two unsupervised methods for doing this.
+First, we assume that words are sampled i.i.d.,
+and propose an information-theoretic frame-
+work for determining the core. Second, we
+relax the independence assumption and use
+a simple graphical model to rank documents
+according to their likelihood of belonging to
+the core. We discuss theoretical guarantees of
+the proposed methods and show their useful-
+ness for Web Mining and Topic Detection and
+Tracking (TDT).
+1 

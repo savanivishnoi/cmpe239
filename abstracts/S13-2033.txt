@@ -1,0 +1,22 @@
+
+We present our system WSD2 which partic-
+ipated in the Cross-Lingual Word-Sense Dis-
+ambiguation task for SemEval 2013 (Lefever
+and Hoste, 2013). The system closely resem-
+bles our winning system for the same task in
+SemEval 2010. It is based on k-nearest neigh-
+bour classifiers which map words with local
+and global context features onto their transla-
+tion, i.e. their cross-lingual sense. The sys-
+tem participated in the task for all five lan-
+guages and obtained winning scores for four
+of them when asked to predict the best trans-
+lation(s). We tested various configurations of
+our system, focusing on various levels of hy-
+perparameter optimisation and feature selec-
+tion. Our final results indicate that hyperpa-
+rameter optimisation did not lead to the best
+results, indicating overfitting by our optimisa-
+tion method in this aspect. Feature selection
+does have a modest positive impact.
+1 

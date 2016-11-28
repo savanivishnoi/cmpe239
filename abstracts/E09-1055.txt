@@ -1,0 +1,21 @@
+
+An open problem in dependency parsing
+is the accurate and efficient treatment of
+non-projective structures. We propose to
+attack this problem using chart-parsing
+algorithms developed for mildly context-
+sensitive grammar formalisms. In this pa-
+per, we provide two key tools for this ap-
+proach. First, we show how to reduce non-
+projective dependency parsing to parsing
+with Linear Context-Free Rewriting Sys-
+tems (LCFRS), by presenting a technique
+for extracting LCFRS from dependency
+treebanks. For efficient parsing, the ex-
+tracted grammars need to be transformed
+in order to minimize the number of nonter-
+minal symbols per production. Our second
+contribution is an algorithm that computes
+this transformation for a large, empirically
+relevant class of grammars.
+1 

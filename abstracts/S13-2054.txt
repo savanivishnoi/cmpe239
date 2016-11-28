@@ -1,0 +1,17 @@
+
+This paper describes the details of our system
+submitted to the SemEval-2013 shared task on
+sentiment analysis in Twitter. Our approach to
+predicting the sentiment of Tweets and SMS
+is based on supervised machine learning tech-
+niques and task-specific feature engineering.
+We used a linear classifier trained by stochas-
+tic gradient descent with hinge loss and elas-
+tic net regularization to make our predictions,
+which were ranked first or second in three of
+the four experimental conditions of the shared
+task. Furthermore, our system makes use of
+social media specific text preprocessing and
+linguistically motivated features, such as word
+stems, word clusters and negation handling.
+1 

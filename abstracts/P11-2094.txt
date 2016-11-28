@@ -1,0 +1,14 @@
+
+Machine transliteration is defined as auto-
+matic phonetic translation of names across
+languages. In this paper, we propose syn-
+chronous adaptor grammar, a novel nonpara-
+metric Bayesian learning approach, for ma-
+chine transliteration. This model provides
+a general framework without heuristic or re-
+striction to automatically learn syllable equiv-
+alents between languages. The proposed
+model outperforms the state-of-the-art EM-
+based model in the English to Chinese translit-
+eration task.
+1 

@@ -1,0 +1,20 @@
+
+The present paper proposes a method
+by which to translate outputs of a ro-
+bust HPSG parser into semantic rep-
+resentations of Typed Dynamic Logic
+(TDL), a dynamic plural semantics de-
+fined in typed lambda calculus. With
+its higher-order representations of con-
+texts, TDL analyzes and describes
+the inherently inter-sentential nature of
+quantification and anaphora in a strictly
+lexicalized and compositional manner.
+The present study shows that the pro-
+posed translation method successfully
+combines robustness and descriptive ad-
+equacy of contemporary semantics. The
+present implementation achieves high
+coverage, approximately 90%, for the
+real text of the Penn Treebank corpus.
+1 

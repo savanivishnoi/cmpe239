@@ -1,0 +1,17 @@
+
+Convolution kernels, such as sequence and tree ker-
+nels, are advantageous for both the concept and ac-
+curacy of many natural language processing (NLP)
+tasks. Experiments have, however, shown that the
+over-fitting problem often arises when these ker-
+nels are used in NLP tasks. This paper discusses
+this issue of convolution kernels, and then proposes
+a new approach based on statistical feature selec-
+tion that avoids this issue. To enable the proposed
+method to be executed efficiently, it is embedded
+into an original kernel calculation process by using
+sub-structure mining algorithms. Experiments are
+undertaken on real NLP tasks to confirm the prob-
+lem with a conventional method and to compare its
+performance with that of the proposed method.
+1 

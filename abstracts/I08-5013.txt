@@ -1,0 +1,22 @@
+
+Much work has already been done on 
+building named entity recognition systems. 
+However most of this work has been con-
+centrated on English and other European
+languages. Hence, building a named entity 
+recognition (NER) system for South Asian 
+Languages (SAL) is still an open problem
+because they exhibit characteristics differ-
+ent from English. This paper builds a 
+named entity recognizer which also identi-
+fies nested name entities for the Hindi lan-
+guage using machine learning algorithm, 
+trained on an annotated corpus. However,
+the algorithm is designed in such a manner 
+that it can easily be ported to other South
+Asian Languages provided the necessary 
+NLP tools like POS tagger and chunker are 
+available for that language. I compare re-
+sults of Hindi data with English data of 
+CONLL shared task of 2003.
+1 

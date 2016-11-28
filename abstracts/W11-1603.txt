@@ -1,0 +1,20 @@
+
+We present a method for the sentence-level
+alignment of short simplified text to the orig-
+inal text from which they were adapted. Our
+goal is to align a medium-sized corpus of par-
+allel text, consisting of short news texts in
+Spanish with their simplified counterpart. No
+training data is available for this task, so we
+have to rely on unsupervised learning. In con-
+trast to bilingual sentence alignment, in this
+task we can exploit the fact that the probability
+of sentence correspondence can be estimated
+from lexical similarity between sentences. We
+show that the algoithm employed performs
+better than a baseline which approaches the
+problem with a TF*IDF sentence similarity
+metric. The alignment algorithm is being used
+for the creation of a corpus for the study of
+text simplification in the Spanish language.
+1 

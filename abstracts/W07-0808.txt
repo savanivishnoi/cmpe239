@@ -1,0 +1,34 @@
+
+Computational linguistics methods are typ-
+ically first developed and tested in English.
+When applied to other languages, assump-
+tions from English data are often applied
+to the target language. One of the most
+common such assumptions is that a ?stan-
+dard? part-of-speech (POS) tagset can be
+used across languages with only slight vari-
+ations. We discuss in this paper a specific is-
+sue related to the definition of a POS tagset
+for Modern Hebrew, as an example to clar-
+ify the method through which such varia-
+tions can be defined. It is widely assumed
+that Hebrew has no syntactic category of
+modals. There is, however, an identified
+class of words which are modal-like in their
+semantics, and can be characterized through
+distinct syntactic and morphologic criteria.
+We have found wide disagreement among
+traditional dictionaries on the POS tag at-
+tributed to such words. We describe three
+main approaches when deciding how to tag
+such words in Hebrew. We illustrate the im-
+pact of selecting each of these approaches
+on agreement among human taggers, and on
+the accuracy of automatic POS taggers in-
+duced for each method. We finally recom-
+mend the use of a ?modal? tag in Hebrew
+and provide detailed guidelines for this tag.
+Our overall conclusion is that tagset defini-
+tion is a complex task which deserves appro-
+priate methodology.
+1 

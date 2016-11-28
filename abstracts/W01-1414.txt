@@ -1,0 +1,20 @@
+
+In the development of a machine
+translation system, one important issue
+is being able to adapt to a specific
+domain without requiring time-
+consuming lexical work. We have
+experimented with using a statistical
+word-alignment algorithm to derive
+word association pairs (French-English)
+that complement an existing multi-
+purpose bilingual dictionary. This word
+association information is added to the
+system at the time of the automatic
+creation of our translation pattern
+database, thereby making this database
+more domain specific. This technique
+significantly improves the overall
+quality of translation, as measured in an
+independent blind evaluation.
+1 

@@ -1,0 +1,22 @@
+
+We present three approaches to lexical chain-
+ing based on the LDA topic model and eval-
+uate them intrinsically on a manually anno-
+tated set of German documents. After motivat-
+ing the choice of statistical methods for lexi-
+cal chaining with their adaptability to different
+languages and subject domains, we describe
+our new two-level chain annotation scheme,
+which rooted in the concept of cohesive har-
+mony. Also, we propose a new measure
+for direct evaluation of lexical chains. Our
+three LDA-based approaches outperform two
+knowledge-based state-of-the art methods to
+lexical chaining by a large margin, which can
+be attributed to lacking coverage of the knowl-
+edge resource. Subsequent analysis shows that
+the three methods yield a different chaining
+behavior, which could be utilized in tasks that
+use lexical chaining as a component within
+NLP applications.
+1 

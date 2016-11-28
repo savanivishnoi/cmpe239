@@ -1,0 +1,19 @@
+ 
+Parsing a long sentence is very difficult, since long 
+sentences often have conjunctions which result in am- 
+biguities. If the conjunctive structures existing in a 
+long sentence can be analyzed correctly, ambiguities 
+can be reduced greatly and a sentence can be parsed 
+in a high successful rate. Since the prior part and 
+the posterior part of a conjunctive structure have a 
+similar structure very often, finding two similar series 
+of words is an essential point in solving this problem. 
+Similarities of all pairs of words are calculated and 
+then the two series of words which have the great- 
+est sum of similarities are found by a technique of 
+dynamic programming. We deal with not only con- 
+junctive noun phrases, but also conjunctive predica- 
+tive clauses created by "Renyoh chuushi-ho". We will 
+illustrate the effectiveness of this method by the anal- 
+ysis of 180 long Japanese sentences. 
+1 

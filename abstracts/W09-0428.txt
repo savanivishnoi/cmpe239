@@ -1,0 +1,16 @@
+ 
+In this article, we describe the machine 
+translation systems we used to create 
+MorphoLogic?s submissions to the 
+WMT09 shared Hungarian to English 
+and English to Hungarian shared transla-
+tion tasks. We used our rule based 
+MetaMorpho system to generate our pri-
+mary submission. In addition, we created 
+a hybrid system where the Moses de-
+coder is used to rank translations or as-
+semble partial translations created by 
+MetaMorpho. Our third system was a 
+purely statistical morpheme based system 
+for the Hungarian to English task. 
+1 

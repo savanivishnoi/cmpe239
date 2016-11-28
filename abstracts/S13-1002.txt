@@ -1,0 +1,14 @@
+
+We combine logical and distributional rep-
+resentations of natural language meaning by
+transforming distributional similarity judg-
+ments into weighted inference rules using
+Markov Logic Networks (MLNs). We show
+that this framework supports both judg-
+ing sentence similarity and recognizing tex-
+tual entailment by appropriately adapting the
+MLN implementation of logical connectives.
+We also show that distributional phrase simi-
+larity, used as textual inference rules created
+on the fly, improves its performance.
+1 

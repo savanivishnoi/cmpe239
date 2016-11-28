@@ -1,0 +1,25 @@
+ 
+This paper proposes a novel method for 
+phrase-based statistical machine translation 
+by using pivot language. To conduct trans-
+lation between languages Lf and Le with a 
+small bilingual corpus, we bring in a third 
+language Lp, which is named the pivot lan-
+guage. For Lf-Lp and Lp-Le, there exist 
+large bilingual corpora. Using only Lf-Lp 
+and Lp-Le bilingual corpora, we can build a 
+translation model for Lf-Le. The advantage 
+of this method lies in that we can perform 
+translation between Lf and Le even if there 
+is no bilingual corpus available for this 
+language pair. Using BLEU as a metric, 
+our pivot language method achieves an ab-
+solute improvement of 0.06 (22.13% rela-
+tive) as compared with the model directly 
+trained with 5,000 Lf-Le sentence pairs for 
+French-Spanish translation. Moreover, with 
+a small Lf-Le bilingual corpus available, 
+our method can further improve the transla-
+tion quality by using the additional Lf-Lp 
+and Lp-Le bilingual corpora. 
+1 

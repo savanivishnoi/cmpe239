@@ -1,0 +1,18 @@
+
+In this paper, we introduce a new parser,
+called SXLFG, based on the Lexical-
+Functional Grammars formalism (LFG).
+We describe the underlying context-free
+parser and how functional structures are
+efficiently computed on top of the CFG
+shared forest thanks to computation shar-
+ing, lazy evaluation, and compact data
+representation. We then present vari-
+ous error recovery techniques we imple-
+mented in order to build a robust parser.
+Finally, we offer concrete results when
+SXLFG is used with an existing gram-
+mar for French. We show that our parser
+is both efficient and robust, although the
+grammar is very ambiguous.
+1 

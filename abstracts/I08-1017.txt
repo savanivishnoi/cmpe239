@@ -1,0 +1,17 @@
+ 
+In this paper we propose a new approach 
+based on Sequence Segmentation Models 
+(SSM) to the extractive document summa-
+rization, in which summarizing is regarded 
+as a segment labeling problem. Comparing 
+with the previous work, the difference of 
+our approach is that the employed features 
+are obtained not only from the sentence 
+level, but also from the segment level. In 
+our approach, the semi-Markov CRF model 
+is employed for segment labeling. The pre-
+liminary experiments have shown that the 
+approach does outperform all other tradi-
+tional supervised and unsupervised ap-
+proaches to document summarization. 
+1 

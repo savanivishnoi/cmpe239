@@ -1,0 +1,14 @@
+
+We define the task of incremental or 0-
+lag utterance segmentation, that is, the task
+of segmenting an ongoing speech recog-
+nition stream into utterance units, and
+present first results. We use a combination
+of hidden event language model, features
+from an incremental parser, and acous-
+tic / prosodic features to train classifiers on
+real-world conversational data (from the
+Switchboard corpus). The best classifiers
+reach an F-score of around 56%, improv-
+ing over baseline and related work.
+1 

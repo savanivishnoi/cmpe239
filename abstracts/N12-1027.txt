@@ -1,0 +1,13 @@
+
+A tree transformation is sensible if the size of
+each output tree is uniformly bounded by a
+linear function in the size of the correspond-
+ing input tree. Every sensible tree transfor-
+mation computed by an arbitrary weighted ex-
+tended top-down tree transducer can also be
+computed by a weighted multi bottom-up tree
+transducer. This further motivates weighted
+multi bottom-up tree transducers as suitable
+translation models for syntax-based machine
+translation.
+1 

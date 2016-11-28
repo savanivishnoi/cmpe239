@@ -1,0 +1,25 @@
+
+Unsupervised part-of-speech (POS) tag-
+ging has recently been shown to greatly
+benefit from Bayesian approaches where
+HMM parameters are integrated out, lead-
+ing to significant increases in tagging ac-
+curacy. These improvements in unsuper-
+vised methods are important especially in
+specialized social media domains such as
+Twitter where little training data is avail-
+able. Here, we take the Bayesian approach
+one step further by integrating semantic in-
+formation from an LDA-like topic model
+with an HMM. Specifically, we present
+Part-of-Speech LDA (POSLDA), a syntac-
+tically and semantically consistent genera-
+tive probabilistic model. This model dis-
+covers POS specific topics from an unla-
+belled corpus. We show that this model
+consistently achieves improvements in un-
+supervised POS tagging and language mod-
+eling over the Bayesian HMM approach
+with varying amounts of side information
+in the noisy and esoteric domain of Twitter.
+1 

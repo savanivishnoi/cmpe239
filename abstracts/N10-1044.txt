@@ -1,0 +1,16 @@
+
+Sentence fusion enables summarization and
+question-answering systems to produce out-
+put by combining fully formed phrases from
+different sentences. Yet there is little data
+that can be used to develop and evaluate fu-
+sion techniques. In this paper, we present a
+methodology for collecting fusions of simi-
+lar sentence pairs using Amazon?s Mechani-
+cal Turk, selecting the input pairs in a semi-
+automated fashion. We evaluate the results
+using a novel technique for automatically se-
+lecting a representative sentence from multi-
+ple responses. Our approach allows for rapid
+construction of a high accuracy fusion corpus.
+1 

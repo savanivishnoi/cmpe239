@@ -1,0 +1,13 @@
+
+This paper presents a deterministic pars-
+ing algorithm for projective dependency
+grammar. In a bottom-up way the al-
+gorithm finds the local optimum dynam-
+ically. A constraint procedure is made
+to use more structure information. The
+algorithm parses sentences in linear time
+and labeling is integrated with the parsing.
+This parser achieves 63.29% labeled at-
+tachment score on the average in CoNLL-
+X Shared Task.
+1 

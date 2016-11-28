@@ -1,0 +1,22 @@
+
+There is high demand for automated tools that
+assign polarity to microblog content such as
+tweets (Twitter posts), but this is challenging
+due to the terseness and informality of tweets
+in addition to the wide variety and rapid evolu-
+tion of language in Twitter. It is thus impracti-
+cal to use standard supervised machine learn-
+ing techniques dependent on annotated train-
+ing examples. We do without such annota-
+tions by using label propagation to incorpo-
+rate labels from a maximum entropy classifier
+trained on noisy labels and knowledge about
+word types encoded in a lexicon, in combina-
+tion with the Twitter follower graph. Results
+on polarity classification for several datasets
+show that our label propagation approach ri-
+vals a model supervised with in-domain an-
+notated tweets, and it outperforms the nois-
+ily supervised classifier it exploits as well as
+a lexicon-based polarity ratio classifier.
+1 

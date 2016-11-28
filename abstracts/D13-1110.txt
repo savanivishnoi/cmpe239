@@ -1,0 +1,25 @@
+
+Left-to-right (LR) decoding (Watanabe et al,
+2006b) is a promising decoding algorithm for
+hierarchical phrase-based translation (Hiero).
+It generates the target sentence by extending
+the hypotheses only on the right edge. LR de-
+coding has complexity O(n2b) for input of n
+words and beam size b, compared toO(n3) for
+the CKY algorithm. It requires a single lan-
+guage model (LM) history for each target hy-
+pothesis rather than two LM histories per hy-
+pothesis as in CKY. In this paper we present an
+augmented LR decoding algorithm that builds
+on the original algorithm in (Watanabe et al,
+2006b). Unlike that algorithm, using experi-
+ments over multiple language pairs we show
+two new results: our LR decoding algorithm
+provides demonstrably more efficient decod-
+ing than CKY Hiero, four times faster; and by
+introducing new distortion and reordering fea-
+tures for LR decoding, it maintains the same
+translation quality (as in BLEU scores) ob-
+tained phrase-based and CKY Hiero with the
+same translation model.
+1 

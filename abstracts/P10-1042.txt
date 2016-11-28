@@ -1,0 +1,24 @@
+
+Existing works on sentiment analysis on
+product reviews suffer from the following
+limitations: (1) The knowledge of hierar-
+chical relationships of products attributes
+is not fully utilized. (2) Reviews or sen-
+tences mentioning several attributes asso-
+ciated with complicated sentiments are not
+dealt with very well. In this paper, we pro-
+pose a novel HL-SOT approach to label-
+ing a product?s attributes and their asso-
+ciated sentiments in product reviews by a
+Hierarchical Learning (HL) process with a
+defined Sentiment Ontology Tree (SOT).
+The empirical analysis against a human-
+labeled data set demonstrates promising
+and reasonable performance of the pro-
+posed HL-SOT approach. While this pa-
+per is mainly on sentiment analysis on re-
+views of one product, our proposed HL-
+SOT approach is easily generalized to la-
+beling a mix of reviews of more than one
+products.
+1 

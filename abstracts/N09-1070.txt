@@ -1,0 +1,26 @@
+
+This paper explores several unsupervised ap-
+proaches to automatic keyword extraction
+using meeting transcripts. In the TFIDF
+(term frequency, inverse document frequency)
+weighting framework, we incorporated part-
+of-speech (POS) information, word clustering,
+and sentence salience score. We also evalu-
+ated a graph-based approach that measures the
+importance of a word based on its connection
+with other sentences or words. The system
+performance is evaluated in different ways, in-
+cluding comparison to human annotated key-
+words using F-measure and a weighted score
+relative to the oracle system performance, as
+well as a novel alternative human evaluation.
+Our results have shown that the simple un-
+supervised TFIDF approach performs reason-
+ably well, and the additional information from
+POS and sentence score helps keyword ex-
+traction. However, the graph method is less
+effective for this domain. Experiments were
+also performed using speech recognition out-
+put and we observed degradation and different
+patterns compared to human transcripts.
+1 

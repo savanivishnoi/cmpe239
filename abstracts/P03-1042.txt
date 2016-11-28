@@ -1,0 +1,22 @@
+ 
+This paper proposes the use of uncertainty 
+reduction in machine learning methods 
+such as co-training and bilingual boot-
+strapping, which are referred to, in a gen-
+eral term, as ?collaborative bootstrapping?. 
+The paper indicates that uncertainty re-
+duction is an important factor for enhanc-
+ing the performance of collaborative 
+bootstrapping. It proposes a new measure 
+for representing the degree of uncertainty 
+correlation of the two classifiers in col-
+laborative bootstrapping and uses the 
+measure in analysis of collaborative boot-
+strapping. Furthermore, it proposes a new 
+algorithm of collaborative bootstrapping 
+on the basis of uncertainty reduction. Ex-
+perimental results have verified the cor-
+rectness of the analysis and have 
+demonstrated the significance of the new 
+algorithm. 
+1 

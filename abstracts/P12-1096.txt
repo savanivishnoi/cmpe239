@@ -1,0 +1,22 @@
+
+Long distance word reordering is a major
+challenge in statistical machine translation re-
+search. Previous work has shown using source
+syntactic trees is an effective way to tackle
+this problem between two languages with sub-
+stantial word order difference. In this work,
+we further extend this line of exploration and
+propose a novel but simple approach, which
+utilizes a ranking model based on word or-
+der precedence in the target language to repo-
+sition nodes in the syntactic parse tree of a
+source sentence. The ranking model is auto-
+matically derived from word aligned parallel
+data with a syntactic parser for source lan-
+guage based on both lexical and syntactical
+features. We evaluated our approach on large-
+scale Japanese-English and English-Japanese
+machine translation tasks, and show that it can
+significantly outperform the baseline phrase-
+based SMT system.
+1 

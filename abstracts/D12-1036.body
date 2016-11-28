@@ -1,0 +1,30 @@
+
+This paper proposes to generate appropriate
+answers for opinion questions about prod-
+ucts by exploiting the hierarchical organiza-
+tion of consumer reviews. The hierarchy orga-
+nizes product aspects as nodes following their
+parent-child relations. For each aspect, the re-
+views and corresponding opinions on this as-
+pect are stored. We develop a new framework
+for opinion Questions Answering, which en-
+ables accurate question analysis and effective
+answer generation by making use the hierar-
+chy. In particular, we first identify the (ex-
+plicit/implicit) product aspects asked in the
+questions and their sub-aspects by referring
+to the hierarchy. We then retrieve the corre-
+sponding review fragments relevant to the as-
+pects from the hierarchy. In order to gener-
+ate appropriate answers from the review frag-
+ments, we develop a multi-criteria optimiza-
+tion approach for answer generation by simul-
+taneously taking into account review salience,
+coherence, diversity, and parent-child rela-
+tions among the aspects. We conduct eval-
+uations on 11 popular products in four do-
+mains. The evaluated corpus contains 70,359
+consumer reviews and 220 questions on these
+products. Experimental results demonstrate
+the effectiveness of our approach.
+1 

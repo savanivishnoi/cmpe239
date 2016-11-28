@@ -1,0 +1,24 @@
+
+This paper examines unsupervised ap-
+proaches to part-of-speech (POS) tagging
+for morphologically-rich, resource-scarce
+languages, with an emphasis on Goldwa-
+ter and Griffiths?s (2007) fully-Bayesian
+approach originally developed for En-
+glish POS tagging. We argue that ex-
+isting unsupervised POS taggers unreal-
+istically assume as input a perfect POS
+lexicon, and consequently, we propose
+a weakly supervised fully-Bayesian ap-
+proach to POS tagging, which relaxes the
+unrealistic assumption by automatically
+acquiring the lexicon from a small amount
+of POS-tagged data. Since such relaxation
+comes at the expense of a drop in tag-
+ging accuracy, we propose two extensions
+to the Bayesian framework and demon-
+strate that they are effective in improv-
+ing a fully-Bayesian POS tagger for Ben-
+gali, our representative morphologically-
+rich, resource-scarce language.
+1 

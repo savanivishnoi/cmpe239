@@ -1,0 +1,38 @@
+
+Unstructured Information Management
+Architecture (UIMA) has been gaining
+popularity in annotating text corpora. The
+architecture defines common data struc-
+tures and interfaces to support interoper-
+ability of individual processing compo-
+nents working together in a UIMA appli-
+cation. The components exchange data by
+sharing common type systems?schemata
+of data type structures?which extend a
+generic, top-level type system built into
+UIMA. This flexibility in extending type
+systems has resulted in the development of
+repositories of components that share one
+or several type systems; however, compo-
+nents coming from different repositories,
+and thus not sharing type systems, remain
+incompatible. Commonly, this problem
+has been solved programmatically by im-
+plementing UIMA components that per-
+form the alignment of two type systems,
+an arduous task that is impractical with a
+growing number of type systems. We al-
+leviate this problem by introducing a con-
+version mechanism based on SPARQL, a
+query language for the data retrieval and
+manipulation of RDF graphs. We pro-
+vide a UIMA component that serialises
+data coming from a source component
+into RDF, executes a user-defined, type-
+conversion query, and deserialises the up-
+dated graph into a target component. The
+proposed solution encourages ad hoc con-
+versions, enables the usage of heteroge-
+neous components, and facilitates highly
+customised UIMA applications.
+1 

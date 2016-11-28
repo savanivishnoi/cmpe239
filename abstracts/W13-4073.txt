@@ -1,0 +1,21 @@
+
+While belief tracking is known to be im-
+portant in allowing statistical dialog sys-
+tems to manage dialogs in a highly robust
+manner, until recently little attention has
+been given to analysing the behaviour of
+belief tracking techniques. The Dialogue
+State Tracking Challenge has allowed for
+such an analysis, comparing multiple be-
+lief tracking approaches on a shared task.
+Recent success in using deep learning for
+speech research motivates the Deep Neu-
+ral Network approach presented here. The
+model parameters can be learnt by directly
+maximising the likelihood of the training
+data. The paper explores some aspects of
+the training, and the resulting tracker is
+found to perform competitively, particu-
+larly on a corpus of dialogs from a system
+not found in the training.
+1 

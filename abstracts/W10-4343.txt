@@ -1,0 +1,18 @@
+
+We build a model for speech disfluency
+detection based on conditional random
+fields (CRFs) using the Switchboard cor-
+pus. This model is then applied to a
+new domain without any adaptation. We
+show that a technique for detecting speech
+disfluencies based on Integer Linear Pro-
+gramming (ILP) (Georgila, 2009) signifi-
+cantly outperforms CRFs. In particular, in
+terms of F-score and NIST Error Rate the
+absolute improvement of ILP over CRFs
+exceeds 20% and 25% respectively. We
+conclude that ILP is an approach with
+great potential for speech disfluency detec-
+tion when there is a lack or shortage of in-
+domain data for training.
+1 

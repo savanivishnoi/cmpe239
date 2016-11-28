@@ -1,0 +1,11 @@
+
+Although they can be topologically different, two
+distinct transducers may actually recognize the
+same rational relation. Being able to test the equiv-
+alence of transducers allows to implement such op-
+erations as incremental minimization and iterative
+composition. This paper presents an algorithm for
+testing the equivalence of deterministic weighted
+finite-state transducers, and outlines an implemen-
+tation of its applications in a prototype weighted
+finite-state calculus tool.

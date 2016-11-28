@@ -1,0 +1,28 @@
+ 
+Traditional approaches to Relation Extraction 
+from text require manually defining the rela-
+tions to be extracted.  We propose here an ap-
+proach to automatically discovering relevant 
+relations, given a large text corpus plus an ini-
+tial ontology defining hundreds of noun cate-
+gories (e.g., Athlete, Musician, Instrument).  
+Our approach discovers frequently stated rela-
+tions between pairs of these categories, using a 
+two step process. For each pair of categories 
+(e.g., Musician and Instrument) it first co-
+clusters the text contexts that connect known 
+instances of the two categories, generating a 
+candidate relation for each resulting cluster.  It 
+then applies a trained classifier to determine 
+which of these candidate relations is semanti-
+cally valid. Our experiments apply this to a text 
+corpus containing approximately 200 million 
+web pages and an ontology containing 122 cat-
+egories from the NELL system [Carlson et al, 
+2010b], producing a set of 781 proposed can-
+didate relations, approximately half of which 
+are semantically valid.  We conclude this is a 
+useful approach to semi-automatic extension of 
+the ontology for large-scale information extrac-
+tion systems such as NELL. 
+1 

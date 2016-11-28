@@ -1,0 +1,20 @@
+
+We present results on the relation discov-
+ery task, which addresses some of the
+shortcomings of supervised relation ex-
+traction by applying minimally supervised
+methods. We describe a detailed experi-
+mental design that compares various con-
+figurations of conceptual representations
+and similarity measures across six differ-
+ent subsets of the ACE relation extraction
+data. Previous work on relation discovery
+used a semantic space based on a term-by-
+document matrix. We find that represen-
+tations based on term co-occurrence per-
+form significantly better. We also observe
+further improvements when reducing the
+dimensionality of the term co-occurrence
+matrix using probabilistic topic models,
+though these are not significant.
+1 

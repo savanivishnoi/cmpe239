@@ -1,0 +1,26 @@
+ 
+The statistical machine translation (SMT) sys-
+tem heavily depends on the sentence aligned 
+parallel corpus and the target language model. 
+This paper points out some of the core issues 
+on switching a language script and its reper-
+cussion in the phrase based statistical machine 
+translation system development. The present 
+task reports on the outcome of English-
+Manipuri language pair phrase based SMT 
+task on two aspects ? a) Manipuri using Ben-
+gali script, b) Manipuri using transliterated 
+Meetei Mayek script. Two independent views 
+on Bengali script based SMT and transliter-
+ated Meitei Mayek based SMT systems of the 
+training data and language models are pre-
+sented and compared. The impact of various 
+language models is commendable in such sce-
+nario. The BLEU and NIST score shows that 
+Bengali script based phrase based SMT 
+(PBSMT) outperforms over the Meetei Mayek 
+based English to Manipuri SMT system. 
+However, subjective evaluation shows slight 
+variation against the automatic scores. 
+ 
+1 

@@ -1,0 +1,16 @@
+
+Models of word alignment built as sequences
+of links have limited expressive power, but are
+easy to decode. Word aligners that model the
+alignment matrix can express arbitrary align-
+ments, but are difficult to decode. We pro-
+pose an alignment matrix model as a cor-
+rection algorithm to an underlying sequence-
+based aligner. Then a greedy decoding al-
+gorithm enables the full expressive power of
+the alignment matrix formulation. Improved
+alignment performance is shown for all nine
+language pairs tested. The improved align-
+ments also improved translation quality from
+Chinese to English and English to Italian.
+1 

@@ -1,0 +1,25 @@
+ 
+One of the problems for all speech input is the 
+necessity for the talker to be encumbered by a head. 
+mounted, hand-held, or fixed position microphone. An 
+intelfigent, electronically-aimed unidirectional micro- 
+phone would overcome this problem. Array tech- 
+niques hold the best promise to bring such a system to 
+practicality. The development of a robust algorithm to 
+determine the location of a talker is a fundamental is- 
+sue for a microphone-array s stem. Here, a two-step 
+talker-location algorithm is introduced. Step 1 is a 
+rather conventional filtered cross-correlation method; 
+the cross-correlation between some pair of micro- 
+phones is determined to high accuracy using a some- 
+what novel, fast interpolation on the sampled data. 
+Then, using the fact that the delays for a point source 
+should fit a hyperbola, a best hyperbolic fit is obtained 
+using nonlinear optimization. A method which fits the 
+hyperbola directly to peak-picked elays is shown to 
+be far less robust than an algorithm which fits the hy- 
+perbola in the cross-correlation space. An efficient, 
+global nonlinear optimization technique, Stochastic re- 
+gion Contraction (SRC) is shown to yield highly accu- 
+rate (>90%), and computationally efficient, results for 
+a normal ambient. 

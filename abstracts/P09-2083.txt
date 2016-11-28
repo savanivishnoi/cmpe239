@@ -1,0 +1,29 @@
+
+In this paper, we analyze the impact of
+different automatic annotation methods on
+the performance of supervised approaches
+to the complex question answering prob-
+lem (defined in the DUC-2007 main task).
+Huge amount of annotated or labeled
+data is a prerequisite for supervised train-
+ing. The task of labeling can be ac-
+complished either by humans or by com-
+puter programs. When humans are em-
+ployed, the whole process becomes time
+consuming and expensive. So, in order
+to produce a large set of labeled data we
+prefer the automatic annotation strategy.
+We apply five different automatic anno-
+tation techniques to produce labeled data
+using ROUGE similarity measure, Ba-
+sic Element (BE) overlap, syntactic sim-
+ilarity measure, semantic similarity mea-
+sure, and Extended String Subsequence
+Kernel (ESSK). The representative super-
+vised methods we use are Support Vec-
+tor Machines (SVM), Conditional Ran-
+dom Fields (CRF), Hidden Markov Mod-
+els (HMM), and Maximum Entropy (Max-
+Ent). Evaluation results are presented to
+show the impact.
+1 

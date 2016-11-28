@@ -1,0 +1,19 @@
+
+In automated speech assessment, adaptation of
+language models (LMs) to test questions is im-
+portant to achieve high recognition accuracy
+However, for large-scale language tests, the
+ordinary supervised training, which uses an
+expensive and time-consuming manual tran-
+scription process, is hard to utilize for LM
+adaptation. In this paper, several LM adap-
+tation methods that require either no manual
+transcription process or just a small amount of
+transcriptions have been evaluated. Our ex-
+periments suggest that these LM adaptation
+methods can allow us to obtain considerable
+recognition accuracy gain with no or low hu-
+man transcription cost.
+Index Terms: language model adaptation, unsuper-
+vised training, Web as a corpus
+1 

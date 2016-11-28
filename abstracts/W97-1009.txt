@@ -1,0 +1,29 @@
+ 
+Newly born infants are able to finely 
+discriminate almost all human speech 
+contrasts and their phonemic category 
+boundaries are initially identical, even for 
+phonemes outside their target language. A 
+connectionist model is described which ac- 
+counts for this ability. The approach taken 
+has been to develop a model of innately 
+guided learning in which an artificial neu- 
+ral network (ANN) is stored in a "genome" 
+which encodes its architecture and learn- 
+ing rules. The space of possible ANNs is 
+searched with a genetic algorithm for net- 
+works that can learn to discriminate hu- 
+man speech sounds. These networks per- 
+form equally well having been trained on 
+speech spectra from any human language 
+so far tested (English, Cantonese, Swahili, 
+Farsi, Czech, Hindi, Hungarian, Korean, 
+Polish, Russian, Slovak, Spanish, Ukranian 
+and Urdu). Training the feature detec- 
+tors requires exposure to just one minute 
+of speech in any of these languages. Cate- 
+gorisation of speech sounds based on the 
+network representations showed the hall- 
+marks of categorical perception, as found 
+in human infants and adults. 
+1 

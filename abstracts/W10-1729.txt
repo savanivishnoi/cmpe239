@@ -1,0 +1,22 @@
+
+This paper describes the Aalto submission
+for the German-to-English and the Czech-
+to-English translation tasks of the ACL
+2010 Joint Fifth Workshop on Statistical
+Machine Translation and MetricsMATR.
+Statistical machine translation has focused
+on using words, and longer phrases con-
+structed from words, as tokens in the sys-
+tem. In contrast, we apply different mor-
+phological decompositions of words using
+the unsupervised Morfessor algorithms.
+While translation models trained using the
+morphological decompositions did not im-
+prove the BLEU scores, we show that the
+Minimum Bayes Risk combination with
+a word-based translation model produces
+significant improvements for the German-
+to-English translation. However, we did
+not see improvements for the Czech-to-
+English translations.
+1 

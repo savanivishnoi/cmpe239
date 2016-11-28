@@ -1,0 +1,14 @@
+  
+This paper presents a method to resolve 
+word sense ambiguity in a 
+Korean-to-Japanese machine translation 
+system using neural networks. The 
+execution of our neural network model is 
+based on the concept codes of a thesaurus. 
+Most previous word sense disambiguation 
+approaches based on neural networks have 
+limitations due to their huge feature set size. 
+By contrast, we reduce the number of 
+features of the network to a practical size by 
+using concept codes as features rather than 
+the lexical words themselves. 

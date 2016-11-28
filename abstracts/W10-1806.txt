@@ -1,0 +1,33 @@
+
+Manual annotation of natural language to
+capture linguistic information is essen-
+tial for NLP tasks involving supervised
+machine learning of semantic knowledge.
+Judgements of meaning can be more or
+less subjective, in which case instead of
+a single correct label, the labels assigned
+might vary among annotators based on the
+annotators? knowledge, age, gender, intu-
+itions, background, and so on. We intro-
+duce a framework ?Anveshan,? where we
+investigate annotator behavior to find out-
+liers, cluster annotators by behavior, and
+identify confusable labels. We also in-
+vestigate the effectiveness of using trained
+annotators versus a larger number of un-
+trained annotators on a word sense annota-
+tion task. The annotation data comes from
+a word sense disambiguation task for pol-
+ysemous words, annotated by both trained
+annotators and untrained annotators from
+Amazon?s Mechanical turk. Our results
+show that Anveshan is effective in uncov-
+ering patterns in annotator behavior, and
+we also show that trained annotators are
+superior to a larger number of untrained
+annotators for this task.
+1 Credits
+This work was supported by a research supple-
+ment to the National Science Foundation CRI
+award 0708952.
+2 

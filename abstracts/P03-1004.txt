@@ -1,0 +1,26 @@
+
+Kernel-based learning (e.g., Support Vec-
+tor Machines) has been successfully ap-
+plied to many hard problems in Natural
+Language Processing (NLP). In NLP, al-
+though feature combinations are crucial to
+improving performance, they are heuris-
+tically selected. Kernel methods change
+this situation. The merit of the kernel
+methods is that effective feature combina-
+tion is implicitly expanded without loss
+of generality and increasing the compu-
+tational costs. Kernel-based text analysis
+shows an excellent performance in terms
+in accuracy; however, these methods are
+usually too slow to apply to large-scale
+text analysis. In this paper, we extend
+a Basket Mining algorithm to convert a
+kernel-based classifier into a simple and
+fast linear classifier. Experimental results
+on English BaseNP Chunking, Japanese
+Word Segmentation and Japanese Depen-
+dency Parsing show that our new classi-
+fiers are about 30 to 300 times faster than
+the standard kernel-based classifiers.
+1 

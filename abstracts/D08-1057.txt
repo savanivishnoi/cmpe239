@@ -1,0 +1,18 @@
+
+We examine the problem of content selection
+in statistical novel sentence generation. Our
+approach models the processes performed by
+professional editors when incorporating ma-
+terial from additional sentences to support
+some initially chosen key summary sentence,
+a process we refer to as Sentence Augmen-
+tation. We propose and evaluate a method
+called ?Seed and Grow? for selecting such
+auxiliary information. Additionally, we argue
+that this can be performed using schemata, as
+represented by word-pair co-occurrences, and
+demonstrate its use in statistical summary sen-
+tence generation. Evaluation results are sup-
+portive, indicating that a schemata model sig-
+nificantly improves over the baseline.
+1 

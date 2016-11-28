@@ -1,0 +1,19 @@
+
+We investigate novel approaches to re-
+sponsive overlap behaviors in dialogue
+systems, opening possibilities for systems
+to interrupt, acknowledge or complete a
+user?s utterance while it is still in progress.
+Our specific contributions are a method for
+determining when a system has reached a
+point of maximal understanding of an on-
+going user utterance, and a prototype im-
+plementation that shows how systems can
+use this ability to strategically initiate sys-
+tem completions of user utterances. More
+broadly, this framework facilitates the im-
+plementation of a range of overlap behav-
+iors that are common in human dialogue,
+but have been largely absent in dialogue
+systems.
+1 

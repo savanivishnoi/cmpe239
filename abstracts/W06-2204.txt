@@ -1,0 +1,27 @@
+
+The requirement for large labelled training
+corpora is widely recognized as a key bot-
+tleneck in the use of learning algorithms for
+information extraction. We present TPLEX,
+a semi-supervised learning algorithm for in-
+formation extraction that can acquire extrac-
+tion patterns from a small amount of labelled
+text in conjunction with a large amount of un-
+labelled text. Compared to previous work,
+TPLEX has two novel features. First, the al-
+gorithm does not require redundancy in the
+fragments to be extracted, but only redundancy
+of the extraction patterns themselves. Second,
+most bootstrapping methods identify the high-
+est quality fragments in the unlabelled data and
+then assume that they are as reliable as man-
+ually labelled data in subsequent iterations.
+In contrast, TPLEX?s scoring mechanism pre-
+vents errors from snowballing by recording
+the reliability of fragments extracted from un-
+labelled data. Our experiments with several
+benchmarks demonstrate that TPLEX is usu-
+ally competitive with various fully-supervised
+algorithms when very little labelled training
+data is available.
+1 

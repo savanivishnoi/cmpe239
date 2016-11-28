@@ -1,0 +1,16 @@
+ 
+This paper aims at understanding what hu-
+man think in textual entailment (TE) recogni-
+tion process and modeling their thinking pro-
+cess to deal with this problem. We first ana-
+lyze a labeled RTE-5 test set and find that the 
+negative entailment phenomena are very ef-
+fective features for TE recognition. Then, a 
+method is proposed to extract this kind of 
+phenomena from text-hypothesis pairs auto-
+matically. We evaluate the performance of 
+using the negative entailment phenomena on 
+both the English RTE-5 dataset and Chinese 
+NTCIR-9 RITE dataset, and conclude the 
+same findings. 
+1 

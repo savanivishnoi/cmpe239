@@ -1,0 +1,13 @@
+
+Most work on word sense disambiguation has
+assumed that word usages are best labeled
+with a single sense. However, contextual am-
+biguity or fine-grained senses can potentially
+enable multiple sense interpretations of a us-
+age. We present a new SemEval task for evalu-
+ating Word Sense Induction and Disambigua-
+tion systems in a setting where instances may
+be labeled with multiple senses, weighted by
+their applicability. Four teams submitted nine
+systems, which were evaluated in two settings.
+1 

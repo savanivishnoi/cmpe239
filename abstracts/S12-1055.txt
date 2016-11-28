@@ -1,0 +1,19 @@
+
+In this paper we present our approach for
+assigning degrees of relational similarity to
+pairs of words in the SemEval-2012 Task 2.
+To measure relational similarity we employed
+lexical patterns that can match against word
+pairs within a large corpus of 12 million docu-
+ments. Patterns are weighted by obtaining sta-
+tistically estimated lower bounds on their pre-
+cision for extracting word pairs from a given
+relation. Finally, word pairs are ranked based
+on a model predicting the probability that they
+belong to the relation of interest. This ap-
+proach achieved the best results on the Se-
+mEval 2012 Task 2, obtaining a Spearman cor-
+relation of 0.229 and an accuracy on reproduc-
+ing human answers to MaxDiff questions of
+39.4%.
+1 

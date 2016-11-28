@@ -1,0 +1,16 @@
+
+This paper presents a discriminative
+parser that does not use a generative
+model in any way, yet whose accu-
+racy still surpasses a generative base-
+line. The parser performs feature selec-
+tion incrementally during training, as op-
+posed to a priori, which enables it to
+work well with minimal linguistic clever-
+ness. The main challenge in building this
+parser was fitting the training data into
+memory. We introduce gradient sampling,
+which increased training speed 100-fold.
+Our implementation is freely available at
+http://nlp.cs.nyu.edu/parser/.
+1 

@@ -1,0 +1,11 @@
+
+This paper studies named entity trans-
+lation and proposes ?selective temporal-
+ity? as a new feature, as using temporal
+features may be harmful for translating
+?atemporal? entities. Our key contribution
+is building an automatic classifier to dis-
+tinguish temporal and atemporal entities
+then align them in separate procedures to
+boost translation accuracy by 6.1%.
+1 

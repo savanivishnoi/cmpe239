@@ -1,0 +1,18 @@
+
+We present an information extraction system
+that decouples the tasks of finding relevant
+regions of text and applying extraction pat-
+terns. We create a self-trained relevant sen-
+tence classifier to identify relevant regions,
+and use a semantic affinity measure to au-
+tomatically learn domain-relevant extraction
+patterns. We then distinguish primary pat-
+terns from secondary patterns and apply the
+patterns selectively in the relevant regions.
+The resulting IE system achieves good per-
+formance on the MUC-4 terrorism corpus
+and ProMed disease outbreak stories. This
+approach requires only a few seed extraction
+patterns and a collection of relevant and ir-
+relevant documents for training.
+1 

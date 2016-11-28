@@ -1,0 +1,18 @@
+
+This paper describes the system presented for
+the English-Spanish translation task by the
+collaboration between CEU-UCH and UPV
+for 2011 WMT. A comparison of indepen-
+dent phrase-based translation models interpo-
+lation for each available training corpora were
+tested, giving an improvement of 0.4 BLEU
+points over the baseline. Output N -best lists
+were rescored via a target Neural Network
+Language Model. An improvement of one
+BLEU point over the baseline was obtained
+adding the two features, giving 31.5 BLEU
+and 57.9 TER for the primary system, com-
+puted over lowercased and detokenized out-
+puts. The system was positioned second in the
+final ranking.
+1 

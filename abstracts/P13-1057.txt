@@ -1,0 +1,27 @@
+
+Developing natural language processing
+tools for low-resource languages often re-
+quires creating resources from scratch.
+While a variety of semi-supervised meth-
+ods exist for training from incomplete
+data, there are open questions regarding
+what types of training data should be used
+and how much is necessary. We dis-
+cuss a series of experiments designed to
+shed light on such questions in the con-
+text of part-of-speech tagging. We obtain
+timed annotations from linguists for the
+low-resource languages Kinyarwanda and
+Malagasy (as well as English) and eval-
+uate how the amounts of various kinds
+of data affect performance of a trained
+POS-tagger. Our results show that an-
+notation of word types is the most im-
+portant, provided a sufficiently capable
+semi-supervised learning infrastructure is
+in place to project type information onto
+a raw corpus. We also show that finite-
+state morphological analyzers are effective
+sources of type information when few la-
+beled examples are available.
+1 

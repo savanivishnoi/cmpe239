@@ -1,0 +1,20 @@
+
+In Semantic Role Labeling (SRL), argu-
+ments are usually limited in a syntax sub-
+tree. It is reasonable to label arguments lo-
+cally in such a sub-tree rather than a whole
+tree. To identify active region of argu-
+ments, this paper models Maximal Pro-
+jection (MP), which is a concept in D-
+structure from the projection principle of
+the Principle and Parameters theory. This
+paper makes a new definition of MP in S-
+structure and proposes two methods to pre-
+dict it: the anchor group approach and the
+single anchor approach. The anchor group
+approach achieves an accuracy of 87.75%
+and the single anchor approach achieves
+83.63%. Experimental results also indicate
+that the prediction of MP improves seman-
+tic role labeling.
+1 

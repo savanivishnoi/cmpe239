@@ -1,0 +1,20 @@
+
+This paper describes an effective approach
+to adapting an HPSG parser trained on the
+Penn Treebank to a biomedical domain. In
+this approach, we train probabilities of lex-
+ical entry assignments to words in a tar-
+get domain and then incorporate them into
+the original parser. Experimental results
+show that this method can obtain higher
+parsing accuracy than previous work on do-
+main adaptation for parsing the same data.
+Moreover, the results show that the combi-
+nation of the proposed method and the exist-
+ing method achieves parsing accuracy that is
+as high as that of an HPSG parser retrained
+from scratch, but with much lower training
+cost. We also evaluated our method in the
+Brown corpus to show the portability of our
+approach in another domain.
+1 

@@ -1,0 +1,14 @@
+
+Sentiment analysis systems can benefit
+from the translation of sentiment informa-
+tion. We present a novel, graph-based ap-
+proach using SimRank, a well-established
+graph-theoretic algorithm, to transfer sen-
+timent information from a source lan-
+guage to a target language. We evaluate
+this method in comparison with semantic
+orientation using pointwise mutual infor-
+mation (SO-PMI), an established unsuper-
+vised method for learning the sentiment of
+phrases.
+1 

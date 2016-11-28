@@ -1,0 +1,18 @@
+ 
+Natural language interfaces designed for 
+situationally embedded domains (e.g. 
+cars, videogames) must incorporate 
+knowledge about the users? context to 
+address the many ambiguities of situated 
+language use. We introduce a model of 
+situated language acquisition that operates 
+in two phases.  First, intentional context is 
+represented and inferred from user actions 
+using probabilistic context free grammars.  
+Then, utterances are mapped onto this 
+representation in a noisy channel 
+framework.  The acquisition model is 
+trained on unconstrained speech collected 
+from subjects playing an interactive game, 
+and tested on an understanding task. 
+1 

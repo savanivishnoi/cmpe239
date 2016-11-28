@@ -1,0 +1,22 @@
+ 
+This paper describes a data source and 
+methodology for producing customized test 
+suites for molecular biology entity 
+identification systems.  The data consists of: 
+(a) a set of gene names and symbols classified 
+by a taxonomy of features that are relevant to 
+the performance of entity identification 
+systems, and (b) a set of sentential 
+environments into which names and symbols 
+are inserted to create test data and the 
+associated gold standard.  We illustrate the 
+utility of test sets producible by this 
+methodology by applying it to five entity 
+identification systems and describing the error 
+patterns uncovered by it, and investigate 
+relationships between performance on a 
+customized test suite generated from this data 
+and the performance of a system on two 
+corpora. 
+ 
+1 

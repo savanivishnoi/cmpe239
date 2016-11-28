@@ -1,0 +1,41 @@
+  
+This paper introduces a context-sensitive 
+electronic dictionary that provides transla-
+tions for any piece of text displayed on a 
+computer screen, without requiring user in-
+teraction. This is achieved through a process 
+of three phases: text acquisition from the 
+screen, morpho-syntactic analysis of the 
+context of the selected word, and the dic-
+tionary lookup. As with other similar tools 
+available, this program usually works with 
+dictionaries adapted from one or more prin-
+ted dictionaries. To implement context sen-
+sitive features, however, traditional diction-
+ary entries need to be restructured. By split-
+ting up entries into smaller pieces and in-
+dexing them in a special way, the program is 
+able to display a restricted set of information 
+that is relevant to the context. Based on the 
+information in the dictionaries, the program 
+is able to recognize?even discontinu-
+ous?multiword expressions on the screen. 
+The program has three major features which 
+we believe make it unique for the time being, 
+and which the development focused on: lin-
+guistic flexibility (stemming, morphological 
+analysis and shallow parsing), open archi-
+tecture (three major architectural blocks, all 
+replaceable along public documented APIs), 
+and flexible user interface (replaceable dic-
+tionaries, direct user feedback). 
+In this paper, we assess the functional re-
+quirements of a context-sensitive dictionary 
+as a start; then we explain the program?s 
+three phases of operation, focusing on the 
+implementation of the lexicons and the con-
+text-sensitive features. We conclude the pa-
+per by comparing our tool to other similar 
+publicly available products, and summarize 
+plans for future development. 
+1 

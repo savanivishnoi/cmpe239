@@ -1,0 +1,16 @@
+
+We propose a joint inference algorithm for
+grammatical error correction. Different
+from most previous work where different
+error types are corrected independently,
+our proposed inference process considers
+all possible errors in a unied framework.
+We use integer linear programming (ILP)
+to model the inference process, which can
+easily incorporate both the power of exist-
+ing error classiers and prior knowledge
+on grammatical error correction. Exper-
+imental results on the Helping Our Own
+shared task show that our method is com-
+petitive with state-of-the-art systems.
+1 

@@ -1,0 +1,23 @@
+ 
+Our main motivation is to build general 
+and adaptable linguistic tools and we 
+have faced the problem of their 
+portability. We first make a quick de- 
+scription of the linguistic tools we have 
+at hand and we explain why linguistic 
+tools, unlike other software tools, present 
+pmticular portability problems. We then 
+discuss code portability and also data 
+portability and we describe the method 
+we have used for a French lexicon, 
+showing that portability leads to a more 
+"natural" computational lexicon. We 
+then propose the use of a command 
+language to interface the tools with more 
+complex applications and we show that 
+this technique facilitates integration of 
+tools from various sources, entails a 
+better exploitation of linguistic resources 
+and makes easier the distribution of tools 
+on several machines. 
+1. 

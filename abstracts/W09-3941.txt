@@ -1,0 +1,18 @@
+
+The freely available SPaRKy sentence
+planner uses hand-written weighted rules
+for sentence plan construction, and a user-
+or domain-specific second-stage ranker for
+sentence plan selection. However, coming
+up with sentence plan construction rules
+for a new domain can be difficult. In this
+paper, we automatically extract sentence
+plan construction rules from the RST-DT
+corpus. In our rules, we use only domain-
+independent features that are available to a
+sentence planner at runtime. We evaluate
+these rules, and outline ways in which they
+can be used for sentence planning. We
+have integrated them into a revised version
+of SPaRKy.
+1 

@@ -1,0 +1,27 @@
+
+We propose a Laplacian structured sparsity
+model to study computational branding ana-
+lytics. To do this, we collected customer re-
+views from Starbucks, Dunkin? Donuts, and
+other coffee shops across 38 major cities
+in the Midwest and Northeastern regions of
+USA. We study the brand related language
+use through these reviews, with focuses on
+the brand satisfaction and gender factors. In
+particular, we perform three tasks: auto-
+matic brand identification from raw text, joint
+brand-satisfaction prediction, and joint brand-
+gender-satisfaction prediction. This work ex-
+tends previous studies in text classification by
+incorporating the dependency and interaction
+among local features in the form of structured
+sparsity in a log-linear model. Our quantita-
+tive evaluation shows that our approach which
+combines the advantages of graphical model-
+ing and sparsity modeling techniques signifi-
+cantly outperforms various standard and state-
+of-the-art text classification algorithms. In ad-
+dition, qualitative analysis of our model re-
+veals important features of the language uses
+associated with the specific brands.
+1 

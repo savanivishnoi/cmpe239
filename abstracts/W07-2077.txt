@@ -1,0 +1,14 @@
+
+We present a sequential Semantic Role La-
+beling system that describes the tagging
+problem as a Maximum Entropy Markov
+Model. The system uses full syntactic in-
+formation to select BIO-tokens from input
+data, and classifies them sequentially us-
+ing state-of-the-art features, with the addi-
+tion of Selectional Preference features. The
+system presented achieves competitive per-
+formance in the CoNLL-2005 shared task
+dataset and it ranks first in the SRL subtask
+of the Semeval-2007 task 17.
+1 

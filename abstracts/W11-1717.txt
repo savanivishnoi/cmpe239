@@ -1,0 +1,18 @@
+
+The new trend in sentiment classification is
+to use semantic features for representation
+of documents. We propose a semantic space
+based on WordNet senses for a supervised
+document-level sentiment classifier. Not only
+does this show a better performance for sen-
+timent classification, it also opens opportuni-
+ties for building a robust sentiment classifier.
+We examine the possibility of using similar-
+ity metrics defined on WordNet to address the
+problem of not finding a sense in the training
+corpus. Using three popular similarity met-
+rics, we replace unknown synsets in the test
+set with a similar synset from the training set.
+An improvement of 6.2% is seen with respect
+to baseline using this approach.
+1 

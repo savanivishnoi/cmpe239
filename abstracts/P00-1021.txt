@@ -1,0 +1,28 @@
+
+We examine the benets of using multi-
+ple agents to produce explanations. In
+particular, we identify the ability to con-
+struct prior plans as a key issue con-
+straining the eectiveness of a single-
+agent approach. We describe an imple-
+mented system that uses multiple agents
+to tackle a problem for which prior plan-
+ning is particularly impractical: real-
+time soccer commentary. Our commen-
+tary system demonstrates a number of
+the advantages of decomposing an expla-
+nation task among several agents. Most
+notably, it shows how individual agents
+can benet from following dierent dis-
+course strategies. Further, it illustrates
+that discourse issues such as controlling
+interruption, abbreviation, and main-
+taining consistency can also be decom-
+posed: rather than considering them at
+the single level of one linear explana-
+tion they can also be tackled separately
+within each individual agent. We evalu-
+ate our system's output, and show that
+it closely compares to the speaking pat-
+terns of a human commentary team.
+1 

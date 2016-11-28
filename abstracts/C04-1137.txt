@@ -1,0 +1,22 @@
+
+This paper addresses the mitigation of medi-
+cal errors due to the confusion of sound-alike
+and look-alike drug names. Our approach
+involves application of two new methods?
+one based on orthographic similarity (?look-
+alike?) and the other based on phonetic sim-
+ilarity (?sound-alike?). We present a new
+recall-based evaluation methodology for deter-
+mining the effectiveness of different similar-
+ity measures on drug names. We show that
+the new orthographic measure (BI-SIM) outper-
+forms other commonly used measures of sim-
+ilarity on a set containing both look-alike and
+sound-alike pairs, and that the feature-based
+phonetic approach (ALINE) outperforms or-
+thographic approaches on a test set contain-
+ing solely sound-alike confusion pairs. How-
+ever, an approach that combines several differ-
+ent measures achieves the best results on both
+test sets.
+1 

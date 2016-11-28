@@ -1,0 +1,11 @@
+
+This paper describes our contribution to the
+CoNLL 2012 Shared Task.1 We present a
+novel decoding algorithm for coreference res-
+olution which is combined with a standard
+pair-wise coreference resolver in a stacking
+approach. The stacked decoders are evaluated
+on the three languages of the Shared Task. We
+obtain an official overall score of 58.25 which
+is the second highest in the Shared Task.
+1 

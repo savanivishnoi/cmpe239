@@ -1,0 +1,16 @@
+ 
+User modeling is an iml>ortant COlnponents of dia- 
+log systems. Most previous approaches are rule-based 
+methods, hi this paper, we proimse to represent user 
+models through Bayesian networks. Some advantages 
+of the Bayesian approach over the rule-based approach 
+are as follows. First, rules for updating user models are 
+not necessary because up<lating is directly performed 
+by the ewduation of the network base<l on probal>ility 
+theory; this provides us a more formal way of dealing 
+with uncertainties. Second, the Bayesian network pro: 
+rides more detailed information of users' knowledge, 
+because the degree of belief on each concept is pro- 
+vided in terms of prol~ability. We prove these advan- 
+tages through a prelinfinary experiment. 
+1 

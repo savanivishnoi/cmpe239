@@ -1,0 +1,24 @@
+
+Jointly parsing two languages has been
+shown to improve accuracies on either or
+both sides. However, its search space is
+much bigger than the monolingual case,
+forcing existing approaches to employ
+complicated modeling and crude approxi-
+mations. Here we propose a much simpler
+alternative, bilingually-constrained mono-
+lingual parsing, where a source-language
+parser learns to exploit reorderings as ad-
+ditional observation, but not bothering to
+build the target-side tree as well. We show
+specifically how to enhance a shift-reduce
+dependency parser with alignment fea-
+tures to resolve shift-reduce conflicts. Ex-
+periments on the bilingual portion of Chi-
+nese Treebank show that, with just 3 bilin-
+gual features, we can improve parsing ac-
+curacies by 0.6% (absolute) for both En-
+glish and Chinese over a state-of-the-art
+baseline, with negligible (?6%) efficiency
+overhead, thus much faster than biparsing.
+1 

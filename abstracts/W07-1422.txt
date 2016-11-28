@@ -1,0 +1,16 @@
+
+We present a new framework for textual en-
+tailment, which provides a modular integra-
+tion between knowledge-based exact infer-
+ence and cost-based approximate matching.
+Diverse types of knowledge are uniformly
+represented as entailment rules, which were
+acquired both manually and automatically.
+Our proof system operates directly on parse
+trees, and infers new trees by applying en-
+tailment rules, aiming to strictly generate the
+target hypothesis from the source text. In or-
+der to cope with inevitable knowledge gaps,
+a cost function is used to measure the re-
+maining ?distance? from the hypothesis.
+1 

@@ -1,0 +1,15 @@
+
+We present a new framework for classify-
+ing common nouns that extends named-
+entity classification. We used a fixed set
+of 26 semantic labels, which we called su-
+persenses. These are the labels used by
+lexicographers developing WordNet. This
+framework has a number of practical ad-
+vantages. We show how information con-
+tained in the dictionary can be used as ad-
+ditional training data that improves accu-
+racy in learning new nouns. We also de-
+fine a more realistic evaluation procedure
+than cross-validation.
+1 

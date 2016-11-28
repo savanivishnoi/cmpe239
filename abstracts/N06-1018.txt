@@ -1,0 +1,21 @@
+
+Recent years have seen increasing re-
+search on extracting and using temporal
+information in natural language applica-
+tions. However most of the works found
+in the literature have focused on identi-
+fying and understanding temporal expres-
+sions in newswire texts. In this paper
+we report our work on anchoring tempo-
+ral expressions in a novel genre, emails.
+The highly under-specified nature of these
+expressions fits well with our constraint-
+based representation of time, Time Cal-
+culus for Natural Language (TCNL). We
+have developed and evaluated a Tempo-
+ral Expression Anchoror (TEA), and the
+result shows that it performs significantly
+better than the baseline, and compares fa-
+vorably with some of the closely related
+work.
+1 

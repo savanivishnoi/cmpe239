@@ -1,0 +1,27 @@
+
+Sentence fluency is an important compo-
+nent of overall text readability but few
+studies in natural language processing
+have sought to understand the factors that
+define it. We report the results of an ini-
+tial study into the predictive power of sur-
+face syntactic statistics for the task; we use
+fluency assessments done for the purpose
+of evaluating machine translation. We
+find that these features are weakly but sig-
+nificantly correlated with fluency. Ma-
+chine and human translations can be dis-
+tinguished with accuracy over 80%. The
+performance of pairwise comparison of
+fluency is also very high?over 90% for a
+multi-layer perceptron classifier. We also
+test the hypothesis that the learned models
+capture general fluency properties applica-
+ble to human-written text. The results do
+not support this hypothesis: prediction ac-
+curacy on the new data is only 57%. This
+finding suggests that developing a dedi-
+cated, task-independent corpus of fluency
+judgments will be beneficial for further in-
+vestigations of the problem.
+1 

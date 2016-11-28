@@ -1,0 +1,20 @@
+ 
+For the implementation of the prosody predic-
+tion model, large scale annotated speech corpo-
+ra have been widely applied. Reliability among 
+transcribers, however, was too low for success-
+ful learning of an automatic prosodic prediction. 
+This paper reveals our observations on perfor-
+mance deterioration of the learning model due 
+to inconsistent tagging of prosodic breaks in the 
+established corpora. Then, we suggest a method 
+for consistent prosodic labeling among multiple 
+transcribers. As a result, we obtain a corpus 
+with consistent annotation of prosodic breaks. 
+The estimated pairwise agreement of annotation 
+of the main corpus is between 0.7477 and 
+0.7916, and the value of K is between 0.7057 
+and 0.7569. Considering the estimated K, anno-
+tation of the main corpus has reliable consisten-
+cy among multiple transcribers. 
+1 

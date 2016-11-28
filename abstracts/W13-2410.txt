@@ -1,0 +1,22 @@
+
+The present paper introduces approach to
+improve English-Russian sentence align-
+ment, based on POS-tagging of automat-
+ically aligned (by HunAlign) source and
+target texts. The initial hypothesis is
+tested on a corpus of bitexts. Sequences
+of POS tags for each sentence (exactly,
+nouns, adjectives, verbs and pronouns)
+are processed as ?words? and Damerau-
+Levenshtein distance between them is
+computed. This distance is then normal-
+ized by the length of the target sentence
+and is used as a threshold between sup-
+posedly mis-aligned and ?good? sentence
+pairs. The experimental results show pre-
+cision 0.81 and recall 0.8, which allows
+the method to be used as additional data
+source in parallel corpora alignment. At
+the same time, this leaves space for further
+improvement.
+1 

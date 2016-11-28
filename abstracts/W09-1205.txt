@@ -1,0 +1,20 @@
+
+Motivated by the large number of languages
+(seven) and the short development time (two
+months) of the 2009 CoNLL shared task, we
+exploited latent variables to avoid the costly
+process of hand-crafted feature engineering,
+allowing the latent variables to induce features
+from the data. We took a pre-existing gener-
+ative latent variable model of joint syntactic-
+semantic dependency parsing, developed for
+English, and applied it to six new languages
+with minimal adjustments. The parser?s ro-
+bustness across languages indicates that this
+parser has a very general feature set. The
+parser?s high performance indicates that its la-
+tent variables succeeded in inducing effective
+features. This system was ranked third overall
+with a macro averaged F1 score of 82.14%,
+only 0.5% worse than the best system.
+1 

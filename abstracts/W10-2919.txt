@@ -1,0 +1,23 @@
+ 
+In this paper, the authors present a new ap-
+proach to sentence level sentiment analysis. 
+The aim is to determine whether a sentence 
+expresses a positive, negative or neutral sen-
+timent, as well as its intensity. The method 
+performs WSD over the words in the sentence 
+in order to work with concepts rather than 
+terms, and makes use of the knowledge in an 
+affective lexicon to label these concepts with 
+emotional categories.  It also deals with the ef-
+fect of negations and quantifiers on polarity 
+and intensity analysis. An extensive evaluation 
+in two different domains is performed in order 
+to determine how the method behaves in 2-
+classes (positive and negative), 3-classes (posi-
+tive, negative and neutral) and 5-classes 
+(strongly negative, weakly negative, neutral, 
+weakly positive and strongly positive) classifi-
+cation tasks. The results obtained compare fa-
+vorably with those achieved by other systems 
+addressing similar evaluations. 
+1 

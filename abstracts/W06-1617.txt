@@ -1,0 +1,19 @@
+
+This paper describes our attempt at
+NomBank-based automatic Semantic Role
+Labeling (SRL). NomBank is a project at
+New York University to annotate the ar-
+gument structures for common nouns in
+the Penn Treebank II corpus. We treat
+the NomBank SRL task as a classifica-
+tion problem and explore the possibility
+of adapting features previously shown use-
+ful in PropBank-based SRL systems. Var-
+ious NomBank-specific features are ex-
+plored. On test section 23, our best sys-
+tem achieves F1 score of 72.73 (69.14)
+when correct (automatic) syntactic parse
+trees are used. To our knowledge, this
+is the first reported automatic NomBank
+SRL system.
+1 

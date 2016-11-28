@@ -1,0 +1,19 @@
+
+Inducing a grammar directly from text is
+one of the oldest and most challenging tasks
+in Computational Linguistics. Significant
+progress has been made for inducing depen-
+dency grammars, however the models em-
+ployed are overly simplistic, particularly in
+comparison to supervised parsing models. In
+this paper we present an approach to depen-
+dency grammar induction using tree substi-
+tution grammar which is capable of learn-
+ing large dependency fragments and thereby
+better modelling the text. We define a hi-
+erarchical non-parametric Pitman-Yor Process
+prior which biases towards a small grammar
+with simple productions. This approach sig-
+nificantly improves the state-of-the-art, when
+measured by head attachment accuracy.
+1 

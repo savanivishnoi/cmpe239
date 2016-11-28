@@ -1,0 +1,22 @@
+
+We describe the progress we have made in
+the past year on Joshua (Li et al, 2009a),
+an open source toolkit for parsing based
+machine translation. The new functional-
+ity includes: support for translation gram-
+mars with a rich set of syntactic nonter-
+minals, the ability for external modules to
+posit constraints on how spans in the in-
+put sentence should be translated, lattice
+parsing for dealing with input uncertainty,
+a semiring framework that provides a uni-
+fied way of doing various dynamic pro-
+gramming calculations, variational decod-
+ing for approximating the intractable MAP
+decoding, hypergraph-based discrimina-
+tive training for better feature engineering,
+a parallelized MERT module, document-
+level and tail-based MERT, visualization
+of the derivation trees, and a cleaner
+pipeline for MT experiments.
+1 

@@ -1,0 +1,21 @@
+
+?Grounded? language learning employs train-
+ing data in the form of sentences paired with
+relevant but ambiguous perceptual contexts.
+Bo?rschinger et al2011) introduced an ap-
+proach to grounded language learning based
+on unsupervised PCFG induction. Their ap-
+proach works well when each sentence po-
+tentially refers to one of a small set of pos-
+sible meanings, such as in the sportscasting
+task. However, it does not scale to prob-
+lems with a large set of potential meanings
+for each sentence, such as the navigation in-
+struction following task studied by Chen and
+Mooney (2011). This paper presents an en-
+hancement of the PCFG approach that scales
+to such problems with highly-ambiguous su-
+pervision. Experimental results on the naviga-
+tion task demonstrates the effectiveness of our
+approach.
+1 

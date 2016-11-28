@@ -1,0 +1,29 @@
+ 
+This paper presents the construction of a 
+manually annotated Chinese shallow Treebank, 
+named PolyU Treebank. Different from 
+traditional Chinese Treebank based on full 
+parsing, the PolyU Treebank is based on 
+shallow parsing in which only partial syntactical 
+structures are annotated. This Treebank can be 
+used to support shallow parser training, testing 
+and other natural language applications. 
+Phrase-based Grammar, proposed by Peking 
+University, is used to guide the design and 
+implementation of the PolyU Treebank. The 
+design principles include good resource sharing, 
+low structural complexity, sufficient syntactic 
+information and large data scale. The design 
+issues, including corpus material preparation, 
+standard for word segmentation and POS 
+tagging, and the guideline for phrase bracketing 
+and annotation, are presented in this paper. 
+Well-designed workflow and effective 
+semiautomatic and automatic annotation 
+checking are used to ensure annotation accuracy 
+and consistency. Currently, the PolyU Treebank 
+has completed the annotation of a 
+1-million-word corpus. The evaluation shows 
+that the accuracy of annotation is higher than 
+98%. 
+1 

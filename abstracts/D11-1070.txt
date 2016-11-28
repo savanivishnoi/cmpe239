@@ -1,0 +1,21 @@
+
+Information-oriented document labeling is a
+special document multi-labeling task where
+the target labels refer to a specific information
+instead of the topic of the whole document.
+These kind of tasks are usually solved by look-
+ing up indicator phrases and analyzing their
+local context to filter false positive matches.
+Here, we introduce an approach for machine
+learning local content shifters which detects
+irrelevant local contexts using just the origi-
+nal document-level training labels. We handle
+content shifters in general, instead of learn-
+ing a particular language phenomenon detec-
+tor (e.g. negation or hedging) and form a sin-
+gle system for document labeling and content
+shift detection. Our empirical results achieved
+24% error reduction ? compared to supervised
+baseline methods ? on three document label-
+ing tasks.
+1 

@@ -1,0 +1,19 @@
+
+Theories of human language acquisition as-
+sume that learning to understand sentences is
+a partially-supervised task (at best). Instead
+of using ?gold-standard? feedback, we train
+a simplified ?Baby? Semantic Role Labeling
+system by combining world knowledge and
+simple grammatical constraints to form a po-
+tentially noisy training signal. This combina-
+tion of knowledge sources is vital for learn-
+ing; a training signal derived from a single
+component leads the learner astray. When this
+largely unsupervised training approach is ap-
+plied to a corpus of child directed speech, the
+BabySRL learns shallow structural cues that
+allow it to mimic striking behaviors found in
+experiments with children and begin to cor-
+rectly identify agents in a sentence.
+1 

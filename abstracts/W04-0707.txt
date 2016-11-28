@@ -1,0 +1,22 @@
+
+Vieira and Poesio (2000) proposed an algorithm for
+definite description (DD) resolution that incorpo-
+rates a number of heuristics for detecting discourse-
+new descriptions. The inclusion of such detec-
+tors was motivated by the observation that more
+than 50% of definite descriptions (DDs) in an av-
+erage corpus are discourse new (Poesio and Vieira,
+1998), but whereas the inclusion of detectors for
+non-anaphoric pronouns in algorithms such as Lap-
+pin and Leass? (1994) leads to clear improvements
+in precision, the improvements in anaphoric DD res-
+olution (as opposed to classification) brought about
+by the detectors were rather small. In fact, Ng and
+Cardie (2002a) challenged the motivation for the
+inclusion of such detectors, reporting no improve-
+ments, or even worse performance. We re-examine
+the literature on the topic in detail, and propose a re-
+vised algorithm, taking advantage of the improved
+discourse-new detection techniques developed by
+Uryupina (2003).
+1 

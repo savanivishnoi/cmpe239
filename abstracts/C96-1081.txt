@@ -1,0 +1,18 @@
+ 
+Two problematic issues in most lexi- 
+con systems today are their size and re- 
+stricted domain of use. In this paper, we 
+introduce a new approach to lexical or- 
+ganization that leads to more compact 
+and flexible lexicons. The lexical en- 
+tries are conceptual/phonological fr mes 
+rather than word entries, and a num- 
+ber of expansion rules are used to gen- 
+erate entries of actual words from these 
+frames. A single frame supports not only 
+all forms of a word, but also words of dif- 
+ferent categories that are derived from 
+the same semantic basis. The whole 
+theory is now being implemented in the 
+TROLL lexicon project. 
+1 

@@ -1,0 +1,10 @@
+. We present a method of chunking in Korean texts using conditional 
+random fields (CRFs), a recently introduced probabilistic model for labeling 
+and segmenting sequence of data. In agglutinative languages such as Korean 
+and Japanese, a rule-based chunking method is predominantly used for its sim-
+plicity and efficiency. A hybrid of a rule-based and machine learning method 
+was also proposed to handle exceptional cases of the rules. In this paper, we 
+present how CRFs can be applied to the task of chunking in Korean texts. Ex-
+periments using the STEP 2000 dataset show that the proposed method signifi-
+cantly improves the performance as well as outperforms previous systems. 
+1   

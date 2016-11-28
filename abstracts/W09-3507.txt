@@ -1,0 +1,17 @@
+
+In this paper we present a statistical
+transliteration technique that is language
+independent. This technique uses statis-
+tical alignment models and Conditional
+Random Fields (CRF). Statistical align-
+ment models maximizes the probability of
+the observed (source, target) word pairs
+using the expectation maximization algo-
+rithm and then the character level align-
+ments are set to maximum posterior pre-
+dictions of the model. CRF has efficient
+training and decoding processes which is
+conditioned on both source and target lan-
+guages and produces globally optimal so-
+lution.
+1 

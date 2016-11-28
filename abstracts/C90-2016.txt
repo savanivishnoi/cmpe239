@@ -1,0 +1,30 @@
+: The paper deals with the integration of 
+intonation algorithms into a concept-to-speech 
+system for German 1). The algorithm for 
+computing the stress hierarchy of a sentence 
+introduced by Kiparski (1973) and the theory of 
+syntactic grouping for intonation patterns 
+developed by Bierwisch (1973) have been studied 
+extensively, but they have never been implemented 
+in a concept-to-speech system like the one 
+presented here. We describe the back end of this 
+concept-to-speech system: The surface generator 
+transfers a hierarchical dependency structure of a 
+sentence into a phoneme string by traversing it in a 
+recurs~ve-descent manner. Surface structures 
+unfold while generation proceeds,  which means 
+that at no point of the process does the full 
+syntactic tree structure xist. As they depend on 
+syntactic features, both the indices introduced by 
+the Kiparski (degrees of stress) and the Bierwisch 
+(indexed border markers) formalism have to be 
+inserted by the generator. This  implies some 
+changes to the original algorithms, which are 
+demonstrated in this paper. The generator has 
+been tested in the domain of an expert system that 
+helps to debug electronic ircuits. The synthesized 
+utterances of the test domain show significant 
+improvements over monotonous forms of speech 
+produced by systems not making use of intonation 
+information. 
+1. 

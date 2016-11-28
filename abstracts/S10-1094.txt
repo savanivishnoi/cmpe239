@@ -1,0 +1,30 @@
+
+We describe two approaches for All-words
+Word Sense Disambiguation on a Spe-
+cific Domain. The first approach is a
+knowledge based approach which extracts
+domain-specific largest connected com-
+ponents from the Wordnet graph by ex-
+ploiting the semantic relations between all
+candidate synsets appearing in a domain-
+specific untagged corpus. Given a test
+word, disambiguation is performed by
+considering only those candidate synsets
+that belong to the top-k largest connected
+components.
+The second approach is a weakly super-
+vised approach which relies on the ?One
+Sense Per Domain? heuristic and uses a
+few hand labeled examples for the most
+frequently appearing words in the target
+domain. Once the most frequent words
+have been disambiguated they can pro-
+vide strong clues for disambiguating other
+words in the sentence using an iterative
+disambiguation algorithm. Our weakly
+supervised system gave the best perfor-
+mance across all systems that participated
+in the task even when it used as few as 100
+hand labeled examples from the target do-
+main.
+1 

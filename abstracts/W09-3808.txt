@@ -1,0 +1,11 @@
+
+We present an Earley-style parser for
+simple range concatenation grammar, a
+formalism strongly equivalent to linear
+context-free rewriting systems. Further-
+more, we present different filters which
+reduce the number of items in the pars-
+ing chart. An implementation shows that
+parses can be obtained in a reasonable
+time.
+1 

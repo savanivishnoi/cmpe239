@@ -1,0 +1,19 @@
+
+While most dialectological research so far fo-
+cuses on phonetic and lexical phenomena, we
+use recent fieldwork in the domain of dia-
+lect syntax to guide the development of mul-
+tidialectal natural language processing tools.
+In particular, we develop a set of rules that
+transform Standard German sentence struc-
+tures into syntactically valid Swiss German
+sentence structures. These rules are sensitive
+to the dialect area, so that the dialects of more
+than 300 towns are covered. We evaluate the
+transformation rules on a Standard German
+treebank and obtain accuracy figures of 85%
+and above for most rules. We analyze the most
+frequent errors and discuss the benefit of these
+transformations for various natural language
+processing tasks.
+1 

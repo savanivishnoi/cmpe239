@@ -1,0 +1,18 @@
+
+A description of a system for measuring the
+compositionality of collocations within the
+framework of the shared task of the Distribu-
+tional Semantics and Compositionality work-
+shop (DISCo 2011) is presented. The system
+exploits the intuition that a highly composi-
+tional collocation would tend to have a consid-
+erable semantic overlap with its constituents
+(headword and modifier) whereas a colloca-
+tion with low compositionality would share
+little semantic content with its constituents.
+This intuition is operationalised via three con-
+figurations that exploit cosine similarity mea-
+sures to detect the semantic overlap between
+the collocation and its constituents. The sys-
+tem performs competitively in the task.
+1 

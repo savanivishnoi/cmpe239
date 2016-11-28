@@ -1,0 +1,21 @@
+
+Sentence compression is the task of pro-
+ducing a summary at the sentence level.
+This paper focuses on three aspects of
+this task which have not received de-
+tailed treatment in the literature: train-
+ing requirements, scalability, and auto-
+matic evaluation. We provide a novel com-
+parison between a supervised constituent-
+based and an weakly supervised word-
+based compression algorithm and exam-
+ine how these models port to different do-
+mains (written vs. spoken text). To achieve
+this, a human-authored compression cor-
+pus has been created and our study high-
+lights potential problems with the auto-
+matically gathered compression corpora
+currently used. Finally, we assess whether
+automatic evaluation measures can be
+used to determine compression quality.
+1 

@@ -1,0 +1,20 @@
+
+In this paper we describe the SemEval-
+2010 Cross-Lingual Lexical Substitution task,
+which is based on the English Lexical Substi-
+tution task run at SemEval-2007. In the En-
+glish version of the task, annotators and sys-
+tems had to find an alternative substitute word
+or phrase for a target word in context. In this
+paper we propose a task where the target word
+and contexts will be in English, but the substi-
+tutes will be in Spanish. In this paper we pro-
+vide background and motivation for the task
+and describe how the dataset will differ from
+a machine translation task and previous word
+sense disambiguation tasks based on parallel
+data. We describe the annotation process and
+how we anticipate scoring the system output.
+We finish with some ideas for participating
+systems.
+1 

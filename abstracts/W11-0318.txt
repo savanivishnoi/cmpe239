@@ -1,0 +1,25 @@
+
+The first step in graph-based semi-supervised
+classification is to construct a graph from in-
+put data. While the k-nearest neighbor graphs
+have been the de facto standard method of
+graph construction, this paper advocates using
+the less well-known mutual k-nearest neigh-
+bor graphs for high-dimensional natural lan-
+guage data. To compare the performance
+of these two graph construction methods, we
+run semi-supervised classification methods on
+both graphs in word sense disambiguation and
+document classification tasks. The experi-
+mental results show that the mutual k-nearest
+neighbor graphs, if combined with maximum
+spanning trees, consistently outperform the k-
+nearest neighbor graphs. We attribute better
+performance of the mutual k-nearest neigh-
+bor graph to its being more resistive to mak-
+ing hub vertices. The mutual k-nearest neigh-
+bor graphs also perform equally well or even
+better in comparison to the state-of-the-art
+b-matching graph construction, despite their
+lower computational complexity.
+1 

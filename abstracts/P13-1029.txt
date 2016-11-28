@@ -1,0 +1,26 @@
+
+In this paper, we consider the problem
+of cross-formalism transfer in parsing.
+We are interested in parsing constituency-
+based grammars such as HPSG and CCG
+using a small amount of data specific for
+the target formalism, and a large quan-
+tity of coarse CFG annotations from the
+Penn Treebank. While all of the target
+formalisms share a similar basic syntactic
+structure with Penn Treebank CFG, they
+also encode additional constraints and se-
+mantic features. To handle this appar-
+ent discrepancy, we design a probabilistic
+model that jointly generates CFG and tar-
+get formalism parses. The model includes
+features of both parses, allowing trans-
+fer between the formalisms, while pre-
+serving parsing efficiency. We evaluate
+our approach on three constituency-based
+grammars ? CCG, HPSG, and LFG, aug-
+mented with the Penn Treebank-1. Our ex-
+periments show that across all three for-
+malisms, the target parsers significantly
+benefit from the coarse annotations.1
+1 

@@ -1,0 +1,16 @@
+
+The goal of this task is to allow for com-
+parison across sense-induction and discrim-
+ination systems, and also to compare these
+systems to other supervised and knowledge-
+based systems. In total there were 6 partic-
+ipating systems. We reused the SemEval-
+2007 English lexical sample subtask of task
+17, and set up both clustering-style unsuper-
+vised evaluation (using OntoNotes senses as
+gold-standard) and a supervised evaluation
+(using the part of the dataset for mapping).
+We provide a comparison to the results of
+the systems participating in the lexical sam-
+ple subtask of task 17.
+1 

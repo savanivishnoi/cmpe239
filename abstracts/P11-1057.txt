@@ -1,0 +1,29 @@
+
+Recent work on bilingual Word Sense Disam-
+biguation (WSD) has shown that a resource
+deprived language (L1) can benefit from the
+annotation work done in a resource rich lan-
+guage (L2) via parameter projection. How-
+ever, this method assumes the presence of suf-
+ficient annotated data in one resource rich lan-
+guage which may not always be possible. In-
+stead, we focus on the situation where there
+are two resource deprived languages, both
+having a very small amount of seed annotated
+data and a large amount of untagged data. We
+then use bilingual bootstrapping, wherein, a
+model trained using the seed annotated data
+of L1 is used to annotate the untagged data of
+L2 and vice versa using parameter projection.
+The untagged instances of L1 and L2 which
+get annotated with high confidence are then
+added to the seed data of the respective lan-
+guages and the above process is repeated. Our
+experiments show that such a bilingual boot-
+strapping algorithm when evaluated on two
+different domains with small seed sizes using
+Hindi (L1) and Marathi (L2) as the language
+pair performs better than monolingual boot-
+strapping and significantly reduces annotation
+cost.
+1 

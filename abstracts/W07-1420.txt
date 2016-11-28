@@ -1,0 +1,17 @@
+
+This paper presents two systems for textual
+entailment, both employing decision trees
+as a supervised learning algorithm. The
+first one is based primarily on the con-
+cept of lexical overlap, considering a bag of
+words similarity overlap measure to form a
+mapping of terms in the hypothesis to the
+source text. The second system is a lexico-
+semantic matching between the text and the
+hypothesis that attempts an alignment be-
+tween chunks in the hypothesis and chunks
+in the text, and a representation of the text
+and hypothesis as two dependency graphs.
+Their performances are compared and their
+positive and negative aspects are analyzed.
+1 

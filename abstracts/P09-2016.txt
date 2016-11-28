@@ -1,0 +1,21 @@
+ 
+This paper proposes to solve the bottle-
+neck of finding training data for word 
+sense disambiguation (WSD) in the do-
+main of web queries, where a complete set 
+of ambiguous word senses are unknown. 
+In this paper, we present a combination of 
+active learning and semi-supervised learn-
+ing method to treat the case when positive 
+examples, which have an expected word 
+sense in web search result, are only given. 
+The novelty of our approach is to use 
+?pseudo negative examples? with reliable 
+confidence score estimated by a classifier 
+trained with positive and unlabeled exam-
+ples. We show experimentally that our 
+proposed method achieves close enough 
+WSD accuracy to the method with the 
+manually prepared negative examples in 
+several Japanese Web search data. 
+1 

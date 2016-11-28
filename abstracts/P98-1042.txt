@@ -1,0 +1,16 @@
+ 
+The task of aligning sentences in parallel corpora of 
+two languages has been well studied using pure sta- 
+tistical or linguistic models. We developed a linguis- 
+tic method based on lexical matching with a bilin- 
+gual dictionary and two statistical methods based 
+on sentence length ratios and sentence offset prob- 
+abilities. This paper seeks to further our knowl- 
+edge of the alignment ask by comparing the per- 
+formance of the alignment models when used sepa- 
+rately and together, i.e. as a hybrid system. Our 
+results show that for our English-Japanese corpus of 
+newspaper articles, the hybrid system using lexical 
+matching and sentence l ngth ratios outperforms the 
+pure methods. 
+1 

@@ -1,0 +1,17 @@
+
+The omnipresence of unknown words is a
+problem that any NLP component needs to ad-
+dress in some form. While there exist many
+established techniques for dealing with un-
+known words in the realm of POS-tagging, for
+example, guessing unknown words? semantic
+properties is a less-explored area with greater
+challenges. In this paper, we study the seman-
+tic field of sentiment and propose five methods
+for assigning prior sentiment polarities to un-
+known words based on known sentiment carri-
+ers. Tested on 2000 cases, the methods mirror
+human judgements closely in three- and two-
+way polarity classification tasks, and reach ac-
+curacies above 63% and 81%, respectively.
+1 

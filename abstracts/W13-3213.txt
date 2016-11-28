@@ -1,0 +1,28 @@
+
+We develop a recursive neural network (RNN)
+to extract answers to arbitrary natural language
+questions from supporting sentences, by train-
+ing on a crowdsourced data set (to be released
+upon presentation). The RNN defines feature
+representations at every node of the parse trees
+of questions and supporting sentences, when
+applied recursively, starting with token vectors
+from a neural probabilistic language model. In
+contrast to prior work, we fix neither the types
+of the questions nor the forms of the answers;
+the system classifies tokens to match a sub-
+string chosen by the question?s author.
+Our classifier decides to follow each parse tree
+node of a support sentence or not, by classify-
+ing its RNN embedding together with those of
+its siblings and the root node of the question,
+until reaching the tokens it selects as the an-
+swer. A novel co-training task for the RNN,
+on subtree recognition, boosts performance,
+along with a scheme to consistently handle
+words that are not well-represented in the lan-
+guage model. On our data set, we surpass an
+open source system epitomizing a classic ?pat-
+tern bootstrapping? approach to question an-
+swering.
+1 

@@ -1,0 +1,29 @@
+
+User generated content is characterized
+by short, noisy documents, with many
+spelling errors and unexpected language
+usage. To bridge the vocabulary gap be-
+tween the user?s information need and
+documents in a specific user generated
+content environment, the blogosphere, we
+apply a form of query expansion, i.e.,
+adding and reweighing query terms. Since
+the blogosphere is noisy, query expansion
+on the collection itself is rarely effective
+but external, edited collections are more
+suitable. We propose a generative model
+for expanding queries using external col-
+lections in which dependencies between
+queries, documents, and expansion doc-
+uments are explicitly modeled. Differ-
+ent instantiations of our model are dis-
+cussed and make different (in)dependence
+assumptions. Results using two exter-
+nal collections (news andWikipedia) show
+that external expansion for retrieval of user
+generated content is effective; besides,
+conditioning the external collection on the
+query is very beneficial, and making can-
+didate expansion terms dependent on just
+the document seems sufficient.
+1 

@@ -1,0 +1,16 @@
+
+This paper describes the UZH system that was
+used for the WMT 2011 system combination
+shared task submission. We participated in
+the system combination task for the translation
+directions DE?EN and EN?DE. The system
+uses Moses as a backbone, with the outputs
+of the 2?3 best individual systems being inte-
+grated through additional phrase tables. The
+system compares well to other system com-
+bination submissions, with no other submis-
+sion being significantly better. A BLEU-based
+comparison to the individual systems, how-
+ever, indicates that it achieves no significant
+gains over the best individual system.
+1 

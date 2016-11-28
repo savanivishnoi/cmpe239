@@ -1,0 +1,32 @@
+
+We present in this paper the development
+of a specialized comparable corpora com-
+pilation tool, for which quality would be
+close to a manually compiled corpus. The
+comparability is based on three levels: do-
+main, topic and type of discourse. Domain
+and topic can be filtered with the keywords
+used through web search. But the detec-
+tion of the type of discourse needs a wide
+linguistic analysis. The first step of our
+work is to automate the detection of the
+type of discourse that can be found in a
+scientific domain (science and popular sci-
+ence) in French and Japanese languages.
+First, a contrastive stylistic analysis of the
+two types of discourse is done on both lan-
+guages. This analysis leads to the creation
+of a reusable, generic and robust typology.
+Machine learning algorithms are then ap-
+plied to the typology, using shallow pars-
+ing. We obtain good results, with an av-
+erage precision of 80% and an average re-
+call of 70% that demonstrate the efficiency
+of this typology. This classification tool
+is then inserted in a corpus compilation
+tool which is a text collection treatment
+chain realized through IBM UIMA system.
+Starting from two specialized web docu-
+ments collection in French and Japanese,
+this tool creates the corresponding corpus.
+1 

@@ -1,0 +1,25 @@
+ 
+We propose a completely unsupervised 
+method for mining parallel sentences from 
+quasi-comparable bilingual texts which 
+have very different sizes, and which 
+include both in-topic and off-topic 
+documents. We discuss and analyze 
+different bilingual corpora with various 
+levels of comparability. We propose that 
+while better document matching leads to 
+better parallel sentence extraction, better 
+sentence matching also leads to better 
+document matching. Based on this, we use 
+multi-level bootstrapping to improve the 
+alignments between documents, sentences, 
+and bilingual word pairs, iteratively. Our 
+method is the first method that does not 
+rely on any supervised training data, such 
+as a sentence-aligned corpus, or temporal 
+information, such as the publishing date of 
+a news article.  It is validated by 
+experimental results that show a 23% 
+improvement over a method without 
+multilevel bootstrapping.   
+1 

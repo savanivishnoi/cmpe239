@@ -1,0 +1,24 @@
+
+This paper contributes an approach for
+expressing non-concatenative morphological
+phenomena, such as stem derivation in
+Semitic languages, in terms of a mildly
+context-sensitive grammar formalism. This
+offers a convenient level of modelling ab-
+straction while remaining computationally
+tractable. The nonparametric Bayesian frame-
+work of adaptor grammars is extended to this
+richer grammar formalism to propose a prob-
+abilistic model that can learn word segmenta-
+tion and morpheme lexicons, including ones
+with discontiguous strings as elements, from
+unannotated data. Our experiments on He-
+brew and three variants of Arabic data find
+that the additional expressiveness to capture
+roots and templates as atomic units improves
+the quality of concatenative segmentation and
+stem identification. We obtain 74% accuracy
+in identifying triliteral Hebrew roots, while
+performing morphological segmentation with
+an F1-score of 78.1.
+1 

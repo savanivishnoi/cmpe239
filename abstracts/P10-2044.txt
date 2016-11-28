@@ -1,0 +1,14 @@
+
+In this paper we demonstrate that there
+is a strong correlation between the Ques-
+tion Answering (QA) accuracy and the
+log-likelihood of the answer typing com-
+ponent of our statistical QA model. We
+exploit this observation in a clustering al-
+gorithm which optimizes QA accuracy by
+maximizing the log-likelihood of a set of
+question-and-answer pairs. Experimental
+results show that we achieve better QA ac-
+curacy using the resulting clusters than by
+using manually derived clusters.
+1 

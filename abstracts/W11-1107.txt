@@ -1,0 +1,31 @@
+
+A key problem in document classification and
+clustering is learning the similarity between
+documents. Traditional approaches include
+estimating similarity between feature vectors
+of documents where the vectors are computed
+using TF-IDF in the bag-of-words model.
+However, these approaches do not work well
+when either similar documents do not use the
+same vocabulary or the feature vectors are not
+estimated correctly.
+In this paper, we represent documents and
+keywords using multiple layers of connected
+graphs. We pose the problem of simultane-
+ously learning similarity between documents
+and keyword weights as an edge-weight regu-
+larization problem over the different layers of
+graphs. Unlike most feature weight learning
+algorithms, we propose an unsupervised algo-
+rithm in the proposed framework to simulta-
+neously optimize similarity and the keyword
+weights. We extrinsically evaluate the perfor-
+mance of the proposed similarity measure on
+two different tasks, clustering and classifica-
+tion. The proposed similarity measure out-
+performs the similarity measure proposed by
+(Muthukrishnan et al, 2010), a state-of-the-
+art classification algorithm (Zhou and Burges,
+2007) and three different baselines on a vari-
+ety of standard, large data sets.
+1 

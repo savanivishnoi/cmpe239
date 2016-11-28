@@ -1,0 +1,20 @@
+
+In most statistical machine translation sys-
+tems, the phrase/rule extraction algorithm uses
+alignments in the 1-best form, which might
+contain spurious alignment points. The usage
+of weighted alignment matrices that encode all
+possible alignments has been shown to gener-
+ate better phrase tables for phrase-based sys-
+tems. We propose two algorithms to generate
+the well known MSD reordering model using
+weighted alignment matrices. Experiments on
+the IWSLT 2010 evaluation datasets for two
+language pairs with different alignment algo-
+rithms show that our methods produce more
+accurate reordering models, as can be shown
+by an increase over the regular MSD models
+of 0.4 BLEU points in the BTEC French to
+English test set, and of 1.5 BLEU points in the
+DIALOG Chinese to English test set.
+1 

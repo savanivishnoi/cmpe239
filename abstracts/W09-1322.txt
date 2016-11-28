@@ -1,0 +1,33 @@
+ 
+Question answering is different from infor-
+mation retrieval in that it attempts to an-
+swer questions by providing summaries 
+from numerous retrieved documents rather 
+than by simply providing a list of docu-
+ments that requires users to do additional 
+work.  However, the quality of answers that 
+question answering provides has not been 
+investigated extensively, and the practical 
+approach to presenting question answers 
+still needs more study. In addition to fac-
+toid answering using phrases or entities, 
+most question answering systems use a sen-
+tence-based approach for generating an-
+swers. However, many sentences are often 
+only meaningful or understandable in their 
+context, and a passage-based presentation 
+can often provide richer, more coherent 
+context. However, passage-based presenta-
+tions may introduce additional noise that 
+places greater burden on users. In this 
+study, we performed a quantitative evalua-
+tion on the two kinds of presentation pro-
+duced by our online clinical question 
+answering system, AskHERMES 
+(http://www.AskHERMES.org). The over-
+all finding is that, although irrelevant con-
+text can hurt the quality of an answer, the 
+passage-based approach is generally more 
+effective in that it provides richer context 
+and matching across sentences. 
+1 

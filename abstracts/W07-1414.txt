@@ -1,0 +1,14 @@
+
+This paper addresses syntax-based para-
+phrasing methods for Recognizing Textual
+Entailment (RTE). In particular, we de-
+scribe a dependency-based paraphrasing al-
+gorithm, using the DIRT data set, and its
+application in the context of a straightfor-
+ward RTE system based on aligning depen-
+dency trees. We find a small positive effect
+of dependency-based paraphrasing on both
+the RTE3 development and test sets, but the
+added value of this type of paraphrasing de-
+serves further analysis.
+1 

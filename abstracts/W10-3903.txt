@@ -1,0 +1,28 @@
+
+In this paper, we investigate generating
+a set of query-focused summaries from
+search results. Since there may be many
+topics related to a given query in the
+search results, in order to summarize
+these results, they should first be clas-
+sified into topics, and then each topic
+should be summarized individually. In
+this summarization process, two types of
+redundancies need to be reduced. First,
+each topic summary should not contain
+any redundancy (we refer to this prob-
+lem as redundancy within a summary).
+Second, a topic summary should not be
+similar to any other topic summary (we
+refer to this problem as redundancy be-
+tween summaries). In this paper, we
+focus on the document clustering pro-
+cess and the reduction of redundancy be-
+tween summaries in the summarization
+process. We also propose a method using
+PLSI to summarize search results. Eval-
+uation results confirm that our method
+performs well in classifying search re-
+sults and reducing the redundancy be-
+tween summaries.
+1 

@@ -1,0 +1,24 @@
+
+The paper presents the Position Specific
+Posterior Lattice (PSPL), a novel lossy
+representation of automatic speech recog-
+nition lattices that naturally lends itself
+to efficient indexing and subsequent rele-
+vance ranking of spoken documents.
+In experiments performed on a collec-
+tion of lecture recordings ? MIT iCam-
+pus data ? the spoken document rank-
+ing accuracy was improved by 20% rela-
+tive over the commonly used baseline of
+indexing the 1-best output from an auto-
+matic speech recognizer.
+The inverted index built from PSPL lat-
+tices is compact ? about 20% of the size
+of 3-gram ASR lattices and 3% of the size
+of the uncompressed speech ? and it al-
+lows for extremely fast retrieval. Further-
+more, little degradation in performance is
+observed when pruning PSPL lattices, re-
+sulting in even smaller indexes ? 5% of
+the size of 3-gram ASR lattices.
+1 

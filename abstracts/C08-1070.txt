@@ -1,0 +1,15 @@
+
+In this paper we present a study on the
+interpretation of weekday names in texts.
+Our algorithm for assigning a date to a
+weekday name achieves 95.91% accuracy
+on a test data set based on the ACE
+2005 Training Corpus, outperforming pre-
+viously reported techniques run against
+this same data. We also provide the first
+detailed comparison of various approaches
+to the problem using this test data set, em-
+ploying re-implementations of key tech-
+niques from the literature and a range of
+additional heuristic-based approaches.
+1 

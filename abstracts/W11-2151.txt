@@ -1,0 +1,17 @@
+ 
+This paper describes the UPM system for 
+translation task at the EMNLP 2011 workshop 
+on statistical machine translation 
+(http://www.statmt.org/wmt11/), and it has 
+been used for both directions: Spanish-English 
+and English-Spanish. This system is based on 
+Moses with two new modules for pre and post 
+processing the sentences. The main 
+contribution is the method proposed (based on 
+the similarity with the source language test set) 
+for selecting the sentences for training the 
+models and adjusting the weights. With 
+system, we have obtained a 23.2 BLEU for 
+Spanish-English and 21.7 BLEU for English-
+Spanish. 
+1 

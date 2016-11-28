@@ -1,0 +1,33 @@
+ 
+The authors propose a model for analyz- 
+ing English sentences including coordinate 
+conjunctions such as "and", "or", "but" and 
+the equivalent words. Syntactic analysis 
+of the English coordinate sentences i one 
+of the most difficult problems for machine 
+translation (MT) systems. The problem 
+is selecting, from all possible candidates, 
+the correct syntactic structure formed by 
+an individual coordinate conjunction, i.e. 
+determining which constituents are coor- 
+dinated by the conjunction. Typically, so 
+many possible structures are produced that 
+MT systems cannot select he correct one, 
+even if the grammars allow to write the 
+rules in the simple notations. This pa- 
+per presents an English coordinate struc- 
+ture analysis model, which provides top- 
+down scope information of the correct syn- 
+tactic structure by taking advantage of the 
+symmetric patterns of the parallelism. The 
+model is based on a balance matching oper- 
+ation for two lists of the feature sets, which 
+provides four effects: the reduction of anal- 
+ysis cost, the improvement of word dis- 
+ambiguation, the interpretation f ellipses, 
+and robust analysis. This model was prac- 
+tically implemented and incorporated into 
+the English-Japanese MT system, and pro- 
+vided about 75% accuracy in the practical 
+translation use. 
+1 

@@ -1,0 +1,25 @@
+ 
+The purpose of this paper is to auto-
+matically generate Chinese chunk 
+bracketing by a bottom-to-top map-
+ping (BTM) model with a BTM data-
+set. The BTM model is designed as a 
+supporting model with parsers. We de-
+fine a word-layer matrix to generate 
+the BTM dataset from Chinese Tree-
+bank. Our model matches auto-learned 
+patterns and templates against seg-
+mented and POS-tagged Chinese sen-
+tences. A sentence that can be matched 
+with some patterns or templates is 
+called a matching sentence. The ex-
+perimental results have shown that the 
+chunk bracketing of the BTM model 
+on the matching sentences is high and 
+stable. By applying the BTM model to 
+the matching sentences and the N-
+gram model to the non-matching sen-
+tences, the experiment results show 
+the F-measure of an N-gram model 
+can be improved. 
+1 

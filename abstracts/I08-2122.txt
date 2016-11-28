@@ -1,0 +1,34 @@
+ 
+Recently, NLP researches have advanced 
+using F-scores, precisions, and recalls with 
+gold standard data as evaluation measures. 
+However, such evaluations cannot capture 
+the different behaviors of varying NLP 
+tools or the different behaviors of a NLP 
+tool that depends on the data and domain in 
+which it works. Because an increasing 
+number of tools are available nowadays, it 
+has become increasingly important to grasp 
+these behavioral differences, in order to 
+select a suitable set of tools, which forms a 
+complex workflow for a specific purpose. 
+In order to observe such differences, we 
+need to integrate available combinations of 
+tools into a workflow and to compare the 
+combinatorial results. Although generic 
+frameworks like UIMA (Unstructured 
+Information Management Architecture) 
+provide interoperability to solve this 
+problem, the solution they provide is only 
+partial. In order for truly interoperable 
+toolkits to become a reality, we also need 
+sharable and comparable type systems with 
+an automatic combinatorial comparison 
+generator, which would allow systematic 
+comparisons of available tools. In this 
+paper, we describe such an environment, 
+which we developed based on UIMA, and 
+we show its feasibility through an example 
+of a protein-protein interaction (PPI) 
+extraction system. 
+1 

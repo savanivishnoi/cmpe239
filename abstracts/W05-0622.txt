@@ -1,0 +1,20 @@
+
+In this paper we apply conditional
+random fields (CRFs) to the semantic
+role labelling task. We define a random
+field over the structure of each sentence?s
+syntactic parse tree. For each node
+of the tree, the model must predict a
+semantic role label, which is interpreted
+as the labelling for the corresponding
+syntactic constituent. We show how
+modelling the task as a tree labelling
+problem allows for the use of efficient
+CRF inference algorithms, while also
+increasing generalisation performance
+when compared to the equivalent
+maximum entropy classifier. We have
+participated in the CoNLL-2005 shared
+task closed challenge with full syntactic
+information.
+1 

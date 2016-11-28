@@ -1,0 +1,14 @@
+
+The source text provided to a machine translation
+system is typically only one of many ways the input
+sentence could have been expressed, and alternative
+forms of expression can often produce a better trans-
+lation. We introduce here error driven paraphras-
+ing of source sentences: instead of paraphrasing a
+source sentence exhaustively, we obtain paraphrases
+for only the parts that are predicted to be problematic
+for the translation system. We report on an Amazon
+Mechanical Turk study that explores this idea, and
+establishes via an oracle evaluation that it holds the
+potential to substantially improve translation quality.
+1 

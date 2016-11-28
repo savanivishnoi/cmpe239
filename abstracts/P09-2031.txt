@@ -1,0 +1,13 @@
+
+This paper presents an effective approach
+to discard most entries of the rule table for
+statistical machine translation. The rule ta-
+ble is filtered by monolingual key phrases,
+which are extracted from source text us-
+ing a technique based on term extraction.
+Experiments show that 78% of the rule ta-
+ble is reduced without worsening trans-
+lation performance. In most cases, our
+approach results in measurable improve-
+ments in BLEU score.
+1 

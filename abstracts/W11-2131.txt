@@ -1,0 +1,35 @@
+
+We present an empirical study of instance se-
+lection techniques for machine translation. In
+an active learning setting, instance selection
+minimizes the human effort by identifying
+the most informative sentences for transla-
+tion. In a transductive learning setting, se-
+lection of training instances relevant to the
+test set improves the final translation qual-
+ity. After reviewing the state of the art in
+the field, we generalize the main ideas in a
+class of instance selection algorithms that use
+feature decay. Feature decay algorithms in-
+crease diversity of the training set by devalu-
+ing features that are already included. We
+show that the feature decay rate has a very
+strong effect on the final translation quality
+whereas the initial feature values, inclusion
+of higher order features, or sentence length
+normalizations do not. We evaluate the best
+instance selection methods using a standard
+Moses baseline using the whole 1.6 million
+sentence English-German section of the Eu-
+roparl corpus. We show that selecting the
+best 3000 training sentences for a specific
+test sentence is sufficient to obtain a score
+within 1 BLEU of the baseline, using 5% of
+the training data is sufficient to exceed the
+baseline, and a? 2 BLEU improvement over
+the baseline is possible by optimally selected
+subset of the training data. In out-of-domain
+translation, we are able to reduce the train-
+ing set size to about 7% and achieve a similar
+performance with the baseline.
+1 

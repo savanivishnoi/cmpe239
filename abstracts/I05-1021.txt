@@ -1,0 +1,17 @@
+. This paper presents a method for acquiring synonyms from
+monolingual comparable text (MCT). MCT denotes a set of monolin-
+gual texts whose contents are similar and can be obtained automatically.
+Our acquisition method takes advantage of a characteristic of MCT that
+included words and their relations are confined. Our method uses con-
+textual information of surrounding one word on each side of the target
+words. To improve acquisition precision, prevention of outside appear-
+ance is used. This method has advantages in that it requires only part-of-
+speech information and it can acquire infrequent synonyms. We evaluated
+our method with two kinds of news article data: sentence-aligned par-
+allel texts and document-aligned comparable texts. When applying the
+former data, our method acquires synonym pairs with 70.0% precision.
+Re-evaluation of incorrect word pairs with source texts indicates that
+the method captures the appropriate parts of source texts with 89.5%
+precision. When applying the latter data, acquisition precision reaches
+76.0% in English and 76.3% in Japanese.
+1 

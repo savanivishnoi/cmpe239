@@ -1,0 +1,21 @@
+ 
+The purpose of this paper is to compare different 
+ways of adopting reason-maintenance techniques in 
+incremental parsing (and interpretation). A reason- 
+maintenance system supports incremental tbrmation 
+and revision of beliefs. By viewing the construction 
+of partial analyses of a text as analogous to form- 
+ing beliefs about the meanings of its parts, a rela- 
+tion between parsing and reason maintenance can be 
+conceived. In line with this, reason maintenance can 
+bc used for realizing a strong notion of incremental 
+parsing, allowing for revisions of previous analyses. 
+Moreover, an assumption-based reason-maintenance 
+system (ATMS) can be used to support eftieicnt com- 
+parisons of (competing) interpretations. The paper 
+argues for an approach which is an extension of chart 
+parsing, but which also can be seen as a system con- 
+sisting of an inference ngine (the parser proper) cou- 
+pled with a simplified ATMS. 
+Background 
+and 

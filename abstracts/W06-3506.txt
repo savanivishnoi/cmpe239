@@ -1,0 +1,26 @@
+
+Metaphors are ubiquitous in language and
+developing methods to identify and deal
+with metaphors is an open problem in
+Natural Language Processing (NLP). In
+this paper we describe results from us-
+ing a maximum entropy (ME) classifier
+to identify metaphors. Using the Wall
+Street Journal (WSJ) corpus, we anno-
+tated all the verbal targets associated with
+a set of frames which includes frames of
+spatial motion, manipulation, and health.
+One surprising finding was that over 90%
+of annotated targets from these frames
+are used metaphorically, underscoring the
+importance of processing figurative lan-
+guage. We then used this labeled data and
+each verbal target?s PropBank annotation
+to train a maximum entropy classifier to
+make this literal vs. metaphoric distinc-
+tion. Using the classifier, we reduce the
+final error in the test set by 5% over the
+verb-specific majority class baseline and
+31% over the corpus-wide majority class
+baseline.
+1 

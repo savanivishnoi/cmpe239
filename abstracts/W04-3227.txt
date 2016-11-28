@@ -1,0 +1,14 @@
+ 
+We propose to score phrase translation 
+pairs for statistical machine translation 
+using term weight based models.  These 
+models employ tf.idf to encode the 
+weights of content and non-content words 
+in phrase translation pairs.  The transla-
+tion probability is then modeled by simi-
+larity functions defined in a vector space.  
+Two similarity functions are compared.  
+Using these models in a statistical ma-
+chine translation task shows significant 
+improvements. 
+1 

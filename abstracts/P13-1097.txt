@@ -1,0 +1,19 @@
+ 
+Sentiment Similarity of word pairs reflects the 
+distance between the words regarding their 
+underlying sentiments. This paper aims to in-
+fer the sentiment similarity between word 
+pairs with respect to their senses. To achieve 
+this aim, we propose a probabilistic emotion-
+based approach that is built on a hidden emo-
+tional model. The model aims to predict a vec-
+tor of basic human emotions for each sense of 
+the words. The resultant emotional vectors are 
+then employed to infer the sentiment similarity 
+of word pairs. We apply the proposed ap-
+proach to address two main NLP tasks, name-
+ly, Indirect yes/no Question Answer Pairs in-
+ference and Sentiment Orientation prediction. 
+Extensive experiments demonstrate the effec-
+tiveness of the proposed approach. 
+1 

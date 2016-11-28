@@ -1,0 +1,17 @@
+
+This paper presents a model-based ap-
+proach to dialogue management that is
+guided by data-driven dialogue act predic-
+tion. The statistical prediction is based on
+stochastic context-free grammars that have
+been obtained by means of grammatical
+inference. The prediction performance of
+the method compares favourably to that of
+a heuristic baseline and to that of n-gram
+language models.
+The act prediction is explored both for
+dialogue acts without realised semantic
+content (consisting only of communicative
+functions) and for dialogue acts with re-
+alised semantic content.
+1 

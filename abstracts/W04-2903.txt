@@ -1,0 +1,28 @@
+ 
+ 
+This paper reports our on-going efforts to 
+exploit multiple features derived from an 
+audio stream using source material such as 
+broadcast news, teleconferences, and 
+meetings. These features are derived from 
+algorithms including automatic speech 
+recognition, automatic speech indexing, 
+speaker identification, prosodic and audio 
+feature extraction. We describe our research 
+prototype ? the Audio Hot Spotting System ? 
+that allows users to query and retrieve data 
+from multimedia sources utilizing these 
+multiple features.  The system aims to 
+accurately find segments of user interest, i.e., 
+audio hot spots within seconds of the actual 
+event.  In addition to spoken keywords, the 
+system also retrieves audio hot spots by 
+speaker identity, word spoken by a specific 
+speaker, a change of speech rate, and other 
+non-lexical features, including applause and 
+laughter.  Finally, we discuss our approach to 
+semantic, morphological, phonetic query 
+expansion to improve audio retrieval 
+performance and to access cross-lingual data. 
+ 
+1. 

@@ -1,0 +1,25 @@
+
+In this paper we describe the creation
+of a consensus corpus that was obtained
+through combining three individual an-
+notations of the same clinical corpus in
+Swedish. We used a few basic rules that
+were executed automatically to create the
+consensus. The corpus contains nega-
+tion words, speculative words, uncertain
+expressions and certain expressions. We
+evaluated the consensus using it for nega-
+tion and speculation cue detection. We
+used Stanford NER, which is based on the
+machine learning algorithm Conditional
+Random Fields for the training and detec-
+tion. For comparison we also used the
+clinical part of the BioScope Corpus and
+trained it with Stanford NER. For our clin-
+ical consensus corpus in Swedish we ob-
+tained a precision of 87.9 percent and a re-
+call of 91.7 percent for negation cues, and
+for English with the Bioscope Corpus we
+obtained a precision of 97.6 percent and a
+recall of 96.7 percent for negation cues.
+1 

@@ -1,0 +1,18 @@
+
+In this paper, we introduce a new framework
+for recognizing textual entailment which de-
+pends on extraction of the set of publicly-
+held beliefs ? known as discourse commit-
+ments ? that can be ascribed to the author of
+a text or a hypothesis. Once a set of commit-
+ments have been extracted from a t-h pair,
+the task of recognizing textual entailment is
+reduced to the identification of the commit-
+ments from a t which support the inference
+of the h. Promising results were achieved:
+our system correctly identified more than
+80% of examples from the RTE-3 Test Set
+correctly, without the need for additional
+sources of training data or other web-based
+resources.
+1 

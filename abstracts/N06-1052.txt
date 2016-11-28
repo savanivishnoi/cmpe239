@@ -1,0 +1,20 @@
+
+Language model information retrieval de-
+pends on accurate estimation of document
+models. In this paper, we propose a docu-
+ment expansion technique to deal with the
+problem of insufficient sampling of docu-
+ments. We construct a probabilistic neigh-
+borhood for each document, and expand
+the document with its neighborhood infor-
+mation. The expanded document provides
+a more accurate estimation of the docu-
+ment model, thus improves retrieval ac-
+curacy. Moreover, since document expan-
+sion and pseudo feedback exploit different
+corpus structures, they can be combined to
+further improve performance. The experi-
+ment results on several different data sets
+demonstrate the effectiveness of the pro-
+posed document expansion method.
+1 

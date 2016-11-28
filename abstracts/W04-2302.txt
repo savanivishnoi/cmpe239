@@ -1,0 +1,30 @@
+
+Until recently, surface generation in dialogue
+systems has served the purpose of simply pro-
+viding a backend to other areas of research.
+The generation component of such systems
+usually consists of templates and canned text,
+providing inflexible, unnatural output. To
+make matters worse, the resources are typi-
+cally specific to the domain in question and
+not portable to new tasks. In contrast, domain-
+independent generation systems typically re-
+quire large grammars, full lexicons, complex
+collocational information, and much more.
+Furthermore, these frameworks have primar-
+ily been applied to text applications and it is
+not clear that the same systems could perform
+well in a dialogue application. This paper
+explores the feasibility of adapting such sys-
+tems to create a domain-independent genera-
+tion component useful for dialogue systems. It
+utilizes the domain independent semantic form
+of The Rochester Interactive Planning System
+(TRIPS) with a domain independent stochas-
+tic surface generation module. We show that
+a written text language model can be used
+to predict dialogue utterances from an over-
+generated word forest. We also present results
+from a human oriented evaluation in an emer-
+gency planning domain.
+1 

@@ -1,0 +1,23 @@
+
+This paper presents the Chinese word seg-
+mentation systems developed by Speech
+and Hearing Research Group of Na-
+tional Laboratory on Machine Perception
+(NLMP) at Peking University, which were
+evaluated in the third International Chi-
+nese Word Segmentation Bakeoff held by
+SIGHAN. The Chinese character-based
+maximum entropy model, which switches
+the word segmentation task to a classi-
+fication task, is adopted in system de-
+veloping. To integrate more linguistics
+information, an n-gram language model
+as well as several post processing strate-
+gies are also employed. Both the closed
+and open tracks regarding to all four cor-
+pora MSRA, UPUC, CITYU, CKIP are
+involved in our systems? evaluation, and
+good performance are achieved. Espe-
+cially, in the closed track on MSRA, our
+system ranks 1st.
+1 

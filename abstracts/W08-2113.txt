@@ -1,0 +1,15 @@
+.  
+In this paper, we propose a new metho-
+dology based on directed graphs and the 
+TextRank algorithm to automatically in-
+duce general-specific noun relations from 
+web corpora frequency counts. Different 
+asymmetric association measures are im-
+plemented to build the graphs upon 
+which the TextRank algorithm is applied 
+and produces an ordered list of nouns 
+from the most general to the most specif-
+ic. Experiments are conducted based on 
+the WordNet noun hierarchy and assess 
+65.69% of correct word ordering.   
+1 

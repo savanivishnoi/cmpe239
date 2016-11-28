@@ -1,0 +1,27 @@
+
+Semantic role labeling is the process of
+annotating the predicate-argument struc-
+ture in text with semantic labels. In this
+paper we present a state-of-the-art base-
+line semantic role labeling system based
+on Support Vector Machine classifiers.
+We show improvements on this system
+by: i) adding new features including fea-
+tures extracted from dependency parses,
+ii) performing feature selection and cali-
+bration and iii) combining parses obtained
+from semantic parsers trained using dif-
+ferent syntactic views. Error analysis of
+the baseline system showed that approx-
+imately half of the argument identifica-
+tion errors resulted from parse errors in
+which there was no syntactic constituent
+that aligned with the correct argument. In
+order to address this problem, we com-
+bined semantic parses from a Minipar syn-
+tactic parse and from a chunked syntac-
+tic representation with our original base-
+line system which was based on Charniak
+parses. All of the reported techniques re-
+sulted in performance improvements.
+1 

@@ -1,0 +1,13 @@
+
+This paper discusses two problems that arise
+in the Generation of Referring Expressions:
+(a) numeric-valued attributes, such as size or
+location; (b) perspective-taking in reference.
+Both problems, it is argued, can be resolved
+if some structure is imposed on the available
+knowledge prior to content determination. We
+describe a clustering algorithm which is suffi-
+ciently general to be applied to these diverse
+problems, discuss its application, and evaluate
+its performance.
+1 

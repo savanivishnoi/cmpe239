@@ -1,0 +1,15 @@
+
+This paper describes the German-English
+translation system developed by the ARK re-
+search group at Carnegie Mellon University
+for the Sixth Workshop on Machine Trans-
+lation (WMT11). We present the results of
+several modeling and training improvements
+to our core hierarchical phrase-based trans-
+lation system, including: feature engineering
+to improve modeling of the derivation struc-
+ture of translations; better handing of OOVs;
+and using development set translations into
+other languages to create additional pseudo-
+references for training.
+1 

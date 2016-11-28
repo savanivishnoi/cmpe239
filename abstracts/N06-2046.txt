@@ -1,0 +1,20 @@
+
+This paper describes an affinity graph 
+based approach to multi-document sum-
+marization. We incorporate a diffusion 
+process to acquire semantic relationships 
+between sentences, and then compute in-
+formation richness of sentences by a 
+graph rank algorithm on differentiated in-
+tra-document links and inter-document 
+links between sentences. A greedy algo-
+rithm is employed to impose diversity 
+penalty on sentences and the sentences 
+with both high information richness and 
+high information novelty are chosen into 
+the summary. Experimental results on 
+task 2 of DUC 2002 and task 2 of DUC 
+2004 demonstrate that the proposed ap-
+proach outperforms existing state-of-the-
+art systems. 
+1 

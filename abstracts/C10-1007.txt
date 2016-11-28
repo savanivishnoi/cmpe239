@@ -1,0 +1,19 @@
+
+We propose a series of learned arc fil-
+ters to speed up graph-based dependency
+parsing. A cascade of filters identify im-
+plausible head-modifier pairs, with time
+complexity that is first linear, and then
+quadratic in the length of the sentence.
+The linear filters reliably predict, in con-
+text, words that are roots or leaves of de-
+pendency trees, and words that are likely
+to have heads on their left or right. We
+use this information to quickly prune arcs
+from the dependency graph. More than
+78% of total arcs are pruned while retain-
+ing 99.5% of the true dependencies. These
+filters improve the speed of two state-of-
+the-art dependency parsers, with low over-
+head and negligible loss in accuracy.
+1 

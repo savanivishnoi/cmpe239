@@ -1,0 +1,26 @@
+
+We have developed an automated Japanese
+essay scoring system called Jess. The sys-
+tem needs expert writings rather than ex-
+pert raters to build the evaluation model.
+By detecting statistical outliers of prede-
+termined aimed essay features compared
+with many professional writings for each
+prompt, our system can evaluate essays.
+The following three features are exam-
+ined: (1) rhetoric ? syntactic variety, or
+the use of various structures in the arrange-
+ment of phases, clauses, and sentences,
+(2) organization ? characteristics associ-
+ated with the orderly presentation of ideas,
+such as rhetorical features and linguistic
+cues, and (3) content ? vocabulary re-
+lated to the topic, such as relevant infor-
+mation and precise or specialized vocabu-
+lary. The final evaluation score is calcu-
+lated by deducting from a perfect score as-
+signed by a learning process using editori-
+als and columns from the Mainichi Daily
+News newspaper. A diagnosis for the es-
+say is also given.
+1 

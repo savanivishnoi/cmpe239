@@ -1,0 +1,23 @@
+
+Dependency parsers are almost ubiqui-
+tously evaluated on their accuracy scores,
+these scores say nothing of the complex-
+ity and usefulness of the resulting struc-
+tures. The structures may have more com-
+plexity due to their coordination structure
+or attachment rules. As dependency parses
+are basic structures in which other systems
+are built upon, it would seem more reason-
+able to judge these parsers down the NLP
+pipeline.
+We show results from 7 individual parsers,
+including dependency and constituent
+parsers, and 3 ensemble parsing tech-
+niques with their overall effect on a Ma-
+chine Translation system, Treex, for En-
+glish to Czech translation. We show that
+parsers? UAS scores are more correlated
+to the NIST evaluation metric than to the
+BLEU Metric, however we see increases
+in both metrics.
+1 

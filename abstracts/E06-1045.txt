@@ -1,0 +1,25 @@
+
+We describe an implementation of data-
+driven selection of emphatic facial dis-
+plays for an embodied conversational
+agent in a dialogue system. A corpus of
+sentences in the domain of the target dia-
+logue system was recorded, and the facial
+displays used by the speaker were anno-
+tated. The data from those recordings was
+used in a range of models for generating
+facial displays, each model making use of
+a different amount of context or choosing
+displays differently within a context. The
+models were evaluated in two ways: by
+cross-validation against the corpus, and by
+asking users to rate the output. The predic-
+tions of the cross-validation study differed
+from the actual user ratings. While the
+cross-validation gave the highest scores to
+models making a majority choice within a
+context, the user study showed a signifi-
+cant preference for models that produced
+more variation. This preference was espe-
+cially strong among the female subjects.
+1 

@@ -1,0 +1,25 @@
+
+Traditionally, automated triage of papers is
+performed using lexical (unigram, bigram,
+and sometimes trigram) features. This pa-
+per explores the use of information extrac-
+tion (IE) techniques to create richer linguistic
+features than traditional bag-of-words models.
+Our classifier includes lexico-syntactic pat-
+terns and more-complex features that repre-
+sent a pattern coupled with its extracted noun,
+represented both as a lexical term and as a
+semantic category. Our experimental results
+show that the IE-based features can improve
+performance over unigram and bigram fea-
+tures alone. We present intrinsic evaluation
+results of full-text document classification ex-
+periments to determine automatically whether
+a paper should be considered of interest to
+biologists at the Mouse Genome Informatics
+(MGI) system at the Jackson Laboratories. We
+also further discuss issues relating to design
+and deployment of our classifiers as an ap-
+plication to support scientific knowledge cu-
+ration at MGI.
+1 

@@ -1,0 +1,15 @@
+
+This paper compares a number of recently pro-
+posed models for computing context sensitive
+word similarity. We clarify the connections
+between these models, simplify their formula-
+tion and evaluate them in a unified setting. We
+show that the models are essentially equivalent
+if syntactic information is ignored, and that the
+substantial performance differences previously
+reported disappear to a large extent when these
+simplified variants are evaluated under identi-
+cal conditions. Furthermore, our reformulation
+allows for the design of a straightforward and
+fast implementation.
+1 

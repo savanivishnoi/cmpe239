@@ -1,0 +1,22 @@
+
+In this paper we propose and evaluate
+a technique to perform semi-supervised
+learning for Text Categorization. In
+particular we defined a kernel function,
+namely the Domain Kernel, that allowed
+us to plug ?external knowledge? into the
+supervised learning process. External
+knowledge is acquired from unlabeled
+data in a totally unsupervised way, and it
+is represented by means of Domain Mod-
+els.
+We evaluated the Domain Kernel in two
+standard benchmarks for Text Categoriza-
+tion with good results, and we compared
+its performance with a kernel function that
+exploits a standard bag-of-words feature
+representation. The learning curves show
+that the Domain Kernel allows us to re-
+duce drastically the amount of training
+data required for learning.
+1 

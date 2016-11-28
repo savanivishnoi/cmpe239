@@ -1,0 +1,24 @@
+
+A fundamental problem in text generation
+is word ordering. Word ordering is a com-
+putationally difficult problem, which can
+be constrained to some extent for particu-
+lar applications, for example by using syn-
+chronous grammars for statistical machine
+translation. There have been some recent
+attempts at the unconstrained problem of
+generating a sentence from a multi-set of
+input words (Wan et al 2009; Zhang and
+Clark, 2011). By using CCG and learn-
+ing guided search, Zhang and Clark re-
+ported the highest scores on this task. One
+limitation of their system is the absence
+of an N-gram language model, which has
+been used by text generation systems to
+improve fluency. We take the Zhang and
+Clark system as the baseline, and incor-
+porate an N-gram model by applying on-
+line large-margin training. Our system sig-
+nificantly improved on the baseline by 3.7
+BLEU points.
+1 

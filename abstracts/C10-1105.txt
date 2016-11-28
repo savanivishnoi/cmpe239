@@ -1,0 +1,21 @@
+
+Research in named entity recognition and
+mention detection has typically involved a
+fairly small number of semantic classes,
+which may not be adequate if seman-
+tic class information is intended to sup-
+port natural language applications. Moti-
+vated by this observation, we examine the
+under-studied problem of semantic sub-
+type induction, where the goal is to au-
+tomatically determine which of a set of
+92 fine-grained semantic classes a noun
+phrase belongs to. We seek to improve the
+standard supervised approach to this prob-
+lem using two techniques: hierarchical
+classification and collective classification.
+Experimental results demonstrate the ef-
+fectiveness of these techniques, whether
+or not they are applied in isolation or in
+combination with the standard approach.
+1 

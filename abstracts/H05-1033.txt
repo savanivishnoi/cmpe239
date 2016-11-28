@@ -1,0 +1,16 @@
+
+In this paper we consider the problem of
+analysing sentence-level discourse struc-
+ture. We introduce discourse chunking
+(i.e., the identification of intra-sentential
+nucleus and satellite spans) as an al-
+ternative to full-scale discourse parsing.
+Our experiments show that the proposed
+modelling approach yields results com-
+parable to state-of-the-art while exploit-
+ing knowledge-lean features and small
+amounts of discourse annotations. We also
+demonstrate how discourse chunking can
+be successfully applied to a sentence com-
+pression task.
+1 

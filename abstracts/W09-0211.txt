@@ -1,0 +1,21 @@
+
+Distributional similarity methods have
+proven to be a valuable tool for the in-
+duction of semantic similarity. Up till
+now, most algorithms use two-way co-
+occurrence data to compute the mean-
+ing of words. Co-occurrence frequencies,
+however, need not be pairwise. One can
+easily imagine situations where it is desir-
+able to investigate co-occurrence frequen-
+cies of three modes and beyond. This pa-
+per will investigate a tensor factorization
+method called non-negative tensor factor-
+ization to build a model of three-way co-
+occurrences. The approach is applied to
+the problem of selectional preference in-
+duction, and automatically evaluated in a
+pseudo-disambiguation task. The results
+show that non-negative tensor factoriza-
+tion is a promising tool for NLP.
+1 

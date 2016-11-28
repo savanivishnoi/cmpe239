@@ -1,0 +1,14 @@
+
+In this paper we propose a data intensive ap-
+proach for inferring sentence-internal tempo-
+ral relations, which relies on a simple prob-
+abilistic model and assumes no manual cod-
+ing. We explore various combinations of fea-
+tures, and evaluate performance against a gold-
+standard corpus and human subjects perform-
+ing the same task. The best model achieves
+70.7% accuracy in inferring the temporal rela-
+tion between two clauses and 97.4% accuracy
+in ordering them, assuming that the temporal
+relation is known.
+1 

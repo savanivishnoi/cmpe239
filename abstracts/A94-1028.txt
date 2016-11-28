@@ -1,0 +1,18 @@
+ 
+We report on the results of a series of experiments with 
+a prototype text retrieval system which uses relatively 
+advanced natural language processing techniques in 
+order to enhance the effectiveness of statistical docu- 
+ment retrieval. In this paper we show that large-scale 
+natural anguage processing (hundreds of millions of 
+words and more) is not only required for a better 
+retrieval, but it is also doable, given appropriate 
+resources. In particular, we demonstrate hat the use of 
+syntactic ompounds in the representation f database 
+documents as well as in the user queries, coupled with 
+an appropriate term weighting strategy, can consider- 
+ably improve the effectiveness of retrospective s arch. 
+The experiments reported here were conducted on TIP- 
+STER database in connection with the Text REtrieval 
+Conference series (TREC). 1 
+1 

@@ -1,0 +1,20 @@
+
+A fundamental problem in manual based
+gesture semantics reconstruction is the
+specification of preferred semantic con-
+cepts for gesture trajectories. This issue
+is complicated by problems human raters
+have annotating fast-paced three dimen-
+sional trajectories. Based on a detailed
+example of a gesticulated circular trajec-
+tory, we present a data-driven approach
+that covers parts of the semantic recon-
+struction by making use of motion captur-
+ing (mocap) technology. In our FA3ME
+framework we use a complex event pro-
+cessing approach to analyse and annotate
+multi-modal events. This framework pro-
+vides grounds for a detailed description of
+how to get at the semantic concept of cir-
+cularity observed in the data.
+1 

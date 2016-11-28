@@ -1,0 +1,22 @@
+
+The Bacteria Gene Renaming (RENAME)
+task is a supporting task in the BioNLP Shared
+Task 2011 (BioNLP-ST?11). The task con-
+sists in extracting gene renaming acts and gene
+synonymy reminders in scientific texts about
+bacteria. In this paper, we present in details
+our method in three main steps: 1) the doc-
+ument segmentation into sentences, 2) the re-
+moval of the sentences exempt of renaming act
+(false positives) using both a gene nomencla-
+ture and supervised machine learning (feature
+selection and SVM), 3) the linking of gene
+names by the target renaming relation in each
+sentence. Our system ranked third at the of-
+ficial test with 64.4% of F-measure. We also
+present here an effective post-competition im-
+provement: the representation as SVM fea-
+tures of regular expressions that detect com-
+binations of trigger words. This increases the
+F-measure to 73.1%.
+1 

@@ -1,0 +1,21 @@
+
+In this paper, we give a description of the ma-
+chine translation system developed at DCU
+that was used for our participation in the eval-
+uation campaign of the Third Workshop on
+Statistical Machine Translation at ACL 2008.
+We describe the modular design of our data-
+driven MT system with particular focus on
+the components used in this participation. We
+also describe some of the significant modules
+which were unused in this task.
+We participated in the EuroParl task for the
+following translation directions: Spanish?
+English and French?English, in which we em-
+ployed our hybrid EBMT-SMT architecture to
+translate. We also participated in the Czech?
+English News and News Commentary tasks
+which represented a previously untested lan-
+guage pair for our system. We report results
+on the provided development and test sets.
+1 

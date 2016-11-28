@@ -1,0 +1,19 @@
+
+Open-class semantic lexicon induction is of
+great interest for current knowledge harvest-
+ing algorithms. We propose a general frame-
+work that uses patterns in bootstrapping fash-
+ion to learn open-class semantic lexicons for
+different kinds of relations. These patterns re-
+quire seeds. To estimate the goodness (the po-
+tential yield) of new seeds, we introduce a re-
+gression model that considers the connectiv-
+ity behavior of the seed during bootstrapping.
+The generalized regression model is evaluated
+on six different kinds of relations with over
+10000 different seeds for English and Span-
+ish patterns. Our approach reaches robust per-
+formance of 90% correlation coefficient with
+15% error rate for any of the patterns when
+predicting the goodness of seeds.
+1 

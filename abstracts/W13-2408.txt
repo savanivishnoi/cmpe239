@@ -1,0 +1,24 @@
+
+We investigate state-of-the-art statistical
+models for lemmatization and morphosyn-
+tactic tagging of Croatian and Serbian.
+The models stem from a new manually
+annotated SETIMES.HR corpus of Croa-
+tian, based on the SETimes parallel cor-
+pus. We train models on Croatian text
+and evaluate them on samples of Croat-
+ian and Serbian from the SETimes corpus
+and the two Wikipedias. Lemmatization
+accuracy for the two languages reaches
+97.87% and 96.30%, while full morphosyn-
+tactic tagging accuracy using a 600-tag
+tagset peaks at 87.72% and 85.56%, respec-
+tively. Part of speech tagging accuracies
+reach 97.13% and 96.46%. Results indicate
+that more complex methods of Croatian-to-
+Serbian annotation projection are not re-
+quired on such dataset sizes for these par-
+ticular tasks. The SETIMES.HR corpus, its
+resulting models and test sets are all made
+freely available.
+1 

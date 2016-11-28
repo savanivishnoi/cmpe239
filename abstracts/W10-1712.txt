@@ -1,0 +1,28 @@
+
+This paper describes the 2010 phrase-based
+statistical machine translation system de-
+veloped at the TALP Research Center of
+the UPC
+1
+in cooperation with BMIC
+2
+and
+VMU
+3
+. In phrase-based SMT, the phrase
+table is the main tool in translation. It is
+created extracting phrases from an aligned
+parallel corpus and then computing trans-
+lation model scores with them. Performing
+a collocation segmentation over the source
+and target corpus before the alignment
+causes that different and larger phrases
+are extracted from the same original doc-
+uments. We performed this segmentation
+and used the union of this phrase set with
+the phrase set extracted from the non-
+segmented corpus to compute the phrase
+table. We present the configurations con-
+sidered and also report results obtained
+with internal and official test sets.
+1 

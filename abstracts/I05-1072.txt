@@ -1,0 +1,17 @@
+. Hidden Markov Model (Hmm) is one of the most popular language 
+models. To improve its predictive power, one of Hmm hypotheses, named 
+limited history hypothesis, is usually relaxed. Then Higher-order Hmm is built 
+up. But there are several severe problems hampering the applications of high-
+order Hmm, such as the problem of parameter space explosion, data sparseness 
+problem and system resource exhaustion problem. From another point of view, 
+this paper relaxes the other Hmm hypothesis, named stationary (time invariant) 
+hypothesis, makes use of time information and proposes a non-stationary Hmm 
+(NSHmm). This paper describes NSHmm in detail, including its definition, the 
+representation of time information, the algorithms and the parameter space and 
+so on. Moreover, to further reduce the parameter space for mobile applications, 
+this paper proposes a variant form of NSHmm (VNSHmm). Then NSHmm and 
+VNSHmm are applied to two sequence labeling tasks: pos tagging and pinyin-to-
+character conversion. Experiment results show that compared with Hmm, 
+NSHmm and VNSHmm can greatly reduce the error rate in both of the two 
+tasks, which proves that they have much more predictive power than Hmm does. 
+1   

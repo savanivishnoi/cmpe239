@@ -1,0 +1,12 @@
+ 
+In order to control the quality of internet-based 
+language corpora, we developed a method to 
+verify automatically that texts are of (near-) 
+native quality. For the LOCNESS and ICLE 
+corpora, the method is rather successful in 
+separating native and non-native learner texts. 
+The Equal Error Rate is about 10%. However, 
+for other domains, such as internet texts, 
+separate classifiers have to be trained on the 
+basis of suitable seed corpora. 
+1 

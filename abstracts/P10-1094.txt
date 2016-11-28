@@ -1,0 +1,27 @@
+ 
+ 
+Cross-language document summarization is a 
+task of producing a summary in one language 
+for a document set in a different language. Ex-
+isting methods simply use machine translation 
+for document translation or summary transla-
+tion. However, current machine translation 
+services are far from satisfactory, which re-
+sults in that the quality of the cross-language 
+summary is usually very poor, both in read-
+ability and content.  In this paper, we propose 
+to consider the translation quality of each sen-
+tence in the English-to-Chinese cross-language 
+summarization process. First, the translation 
+quality of each English sentence in the docu-
+ment set is predicted with the SVM regression 
+method, and then the quality score of each sen-
+tence is incorporated into the summarization 
+process. Finally, the English sentences with 
+high translation quality and high informative-
+ness are selected and translated to form the 
+Chinese summary. Experimental results dem-
+onstrate the effectiveness and usefulness of the 
+proposed approach.  
+ 
+1 

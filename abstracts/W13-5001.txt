@@ -1,0 +1,17 @@
+
+Traditional information retrieval models as-
+sume keyword-based queries and use unstruc-
+tured document representations. There is
+an abundance of event-centered texts (e.g.,
+breaking news) and event-oriented informa-
+tion needs that often involve structure that
+cannot be expressed using keywords. We
+present a novel retrieval model that uses a struc-
+tured event-based representation. We struc-
+ture queries and documents as graphs of event
+mentions and employ graph kernels to measure
+the query-document similarity. Experimental
+results on two event-oriented test collections
+show significant improvements over state-of-
+the-art keyword-based models.
+1 

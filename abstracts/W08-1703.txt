@@ -1,0 +1,25 @@
+
+This paper describes a more precise anal-
+ysis of punctuation for a bi-directional,
+broad coverage English grammar extracted
+from the CCGbank (Hockenmaier and
+Steedman, 2007). We discuss various ap-
+proaches which have been proposed in
+the literature to constrain overgeneration
+with punctuation, and illustrate how as-
+pects of Briscoe?s (1994) influential ap-
+proach, which relies on syntactic features
+to constrain the appearance of balanced
+and unbalanced commas and dashes to ap-
+propriate sentential contexts, is unattrac-
+tive for CCG. As an interim solution
+to constrain overgeneration, we propose
+a rule-based filter which bars illicit se-
+quences of punctuation and cases of im-
+properly unbalanced apposition. Using
+the OpenCCG toolkit, we demonstrate
+that our punctuation-augmented grammar
+yields substantial increases in surface re-
+alization coverage and quality, helping to
+achieve state-of-the-art BLEU scores.
+1 

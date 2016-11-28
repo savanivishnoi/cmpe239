@@ -1,0 +1,19 @@
+
+Traditional text similarity measures consider
+each term similar only to itself and do not
+model semantic relatedness of terms. We pro-
+pose a novel discriminative training method
+that projects the raw term vectors into a com-
+mon, low-dimensional vector space. Our ap-
+proach operates by finding the optimal matrix
+to minimize the loss of the pre-selected sim-
+ilarity function (e.g., cosine) of the projected
+vectors, and is able to efficiently handle a
+large number of training examples in the high-
+dimensional space. Evaluated on two very dif-
+ferent tasks, cross-lingual document retrieval
+and ad relevance measure, our method not
+only outperforms existing state-of-the-art ap-
+proaches, but also achieves high accuracy at
+low dimensions and is thus more efficient.
+1 

@@ -1,0 +1,24 @@
+
+We describe a discriminatively trained se-
+quence alignment model based on the av-
+eraged perceptron. In common with other
+approaches to sequence modeling using per-
+ceptrons, and in contrast with comparable
+generative models, this model permits and
+transparently exploits arbitrary features of
+input strings. The simplicity of perceptron
+training lends more versatility than compa-
+rable approaches, allowing the model to be
+applied to a variety of problem types for
+which a learned edit model might be useful.
+We enumerate some of these problem types,
+describe a training procedure for each, and
+evaluate the model?s performance on sev-
+eral problems. We show that the proposed
+model performs at least as well as an ap-
+proach based on statistical machine transla-
+tion on two problems of name translitera-
+tion, and provide evidence that the combina-
+tion of the two approaches promises further
+improvement.
+1 

@@ -1,0 +1,17 @@
+ 
+This paper describes the Chinese Word 
+Segmenter for the fourth International 
+Chinese Language Processing Bakeoff. 
+Base on Conditional Random Field (CRF) 
+model, a basic segmenter is designed as a 
+problem of character-based tagging.  To 
+further improve the performance of our 
+segmenter, we employ a word-based ap-
+proach to increase the in-vocabulary (IV) 
+word recall and a post-processing to in-
+crease the out-of-vocabulary (OOV) word 
+recall. We participate in the word segmen-
+tation closed test on all five corpora and 
+our system achieved four second best and 
+one the fifth in all the five corpora.  
+1 

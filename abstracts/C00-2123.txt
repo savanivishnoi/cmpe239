@@ -1,0 +1,14 @@
+ 
+In this paper, we describe a search procedure for sta- 
+tistical machine translation (MT) based on dynmnic 
+programming (DP). Starting from a DP-based solu- 
+tion to the traveling salesman problem, we present 
+a novel technique to restrict the possible word re- 
+ordering between source and target language in or- 
+der to achieve an efficient search algorithm. A search 
+restriction especially useful for tile translation di- 
+rection from German to English is presented. The 
+experimental tests are carried out on the Verbmo- 
+bil task (Germm>English, 8000-word vocabulary), 
+which is a limited-domain spoken-language task. 
+1 

@@ -1,0 +1,19 @@
+
+We propose a static relation extraction task to
+complement biomedical information extrac-
+tion approaches. We argue that static re-
+lations such as part-whole are implicitly in-
+volved in many common extraction settings,
+define a task setting making them explicit, and
+discuss their integration into previously pro-
+posed tasks and extraction methods. We fur-
+ther identify a specific static relation extrac-
+tion task motivated by the BioNLP?09 shared
+task on event extraction, introduce an anno-
+tated corpus for the task, and demonstrate the
+feasibility of the task by experiments showing
+that the defined relations can be reliably ex-
+tracted. The task setting and corpus can serve
+to support several forms of domain informa-
+tion extraction.
+1 

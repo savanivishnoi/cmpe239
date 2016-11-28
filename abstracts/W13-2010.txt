@@ -1,0 +1,30 @@
+
+We participated in the BioNLP 2013 shared
+tasks, addressing the GENIA (GE) and the Can-
+cer Genetics (CG) event extraction tasks. Our
+event extraction is based on the system we re-
+cently proposed for mining relations and events
+involving genes or proteins in the biomedical
+literature using a novel, approximate subgraph
+matching-based approach. In addition to han-
+dling the GE task involving 13 event types uni-
+formly related to molecular biology, we gener-
+alized our system to address the CG task tar-
+geting a challenging set of 40 event types re-
+lated to cancer biology with various arguments
+involving 18 kinds of biological entities. More-
+over, we attempted to integrate a distributional
+similarity model into our system to extend the
+graph matching scheme for more events. In ad-
+dition, we evaluated the impact of using paths of
+all possible lengths among event participants as
+key contextual dependencies to extract potential
+events as compared to using only the shortest
+paths within the framework of our system.
+We achieved a 46.38% F-score in the CG task
+and a 48.93% F-score in the GE task, ranking
+3rd and 4th respectively. The consistent perfor-
+mance confirms that our system generalizes well
+to various event extraction tasks and scales to
+handle a large number of event and entity types.
+1 

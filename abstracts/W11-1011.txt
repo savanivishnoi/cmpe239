@@ -1,0 +1,17 @@
+
+We consider SCFG-basedMT systems that get
+syntactic category labels from parsing both
+the source and target sides of parallel train-
+ing data. The resulting joint nonterminals of-
+ten lead to needlessly large label sets that are
+not optimized for an MT scenario. This pa-
+per presents a method of iteratively coarsening
+a label set for a particular language pair and
+training corpus. We apply this label collaps-
+ing on Chinese?English and French?English
+grammars, obtaining test-set improvements of
+up to 2.8 BLEU, 5.2 TER, and 0.9 METEOR
+on Chinese?English translation. An analysis
+of label collapsing?s effect on the grammar
+and the decoding process is also given.
+1 

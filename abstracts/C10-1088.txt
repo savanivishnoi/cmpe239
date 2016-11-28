@@ -1,0 +1,26 @@
+
+The detailed analyses of sentence struc-
+ture provided by parsers have been applied
+to address several information extraction
+tasks. In a recent bio-molecular event ex-
+traction task, state-of-the-art performance
+was achieved by systems building specif-
+ically on dependency representations of
+parser output. While intrinsic evalua-
+tions have shown significant advances in
+both general and domain-specific pars-
+ing, the question of how these translate
+into practical advantage is seldom con-
+sidered. In this paper, we analyze how
+event extraction performance is affected
+by parser and dependency representation,
+further considering the relation between
+intrinsic evaluation and performance at
+the extraction task. We find that good
+intrinsic evaluation results do not always
+imply good extraction performance, and
+that the types and structures of differ-
+ent dependency representations have spe-
+cific advantages and disadvantages for the
+event extraction task.
+1 

@@ -1,0 +1,14 @@
+ 
+While research on question answering has be-
+come popular in recent years, the problem of ef-
+ficiently locating a complete set of distinct 
+answers to list questions in huge corpora or the 
+Web is still far from being solved. This paper ex-
+ploits the wealth of freely available text and link 
+structures on the Web to seek complete answers 
+to list questions. We introduce our system, 
+FADA, which relies on question parsing, web 
+page classification/clustering, and content extrac-
+tion to find reliable distinct answers with high re-
+call.  
+1 

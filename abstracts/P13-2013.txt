@@ -1,0 +1,14 @@
+
+We present a reformulation of the word
+pair features typically used for the task
+of disambiguating implicit relations in the
+Penn Discourse Treebank. Our word pair
+features achieve significantly higher per-
+formance than the previous formulation
+when evaluated without additional fea-
+tures. In addition, we present results
+for a full system using additional features
+which achieves close to state of the art per-
+formance without resorting to gold syntac-
+tic parses or to context outside the relation.
+1 

@@ -1,0 +1,21 @@
+
+Subjectivity word sense disambiguation
+(SWSD) is automatically determining which
+word instances in a corpus are being used with
+subjective senses, and which are being used
+with objective senses. SWSD has been shown
+to improve the performance of contextual
+opinion analysis, but only on a small scale and
+using manually developed integration rules.
+In this paper, we scale up the integration of
+SWSD into contextual opinion analysis and
+still obtain improvements in performance,
+by successfully gathering data annotated by
+non-expert annotators. Further, by improving
+the method for integrating SWSD into con-
+textual opinion analysis, even greater benefits
+from SWSD are achieved than in previous
+work. We thus more firmly demonstrate the
+potential of SWSD to improve contextual
+opinion analysis.
+1 

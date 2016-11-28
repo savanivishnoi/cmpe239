@@ -1,0 +1,25 @@
+ 
+This paper studies the effects of training data 
+on binary text classification and postulates 
+that negative training data is not needed and 
+may even be harmful for the task. Traditional 
+binary classification involves building a clas-
+sifier using labeled positive and negative 
+training examples. The classifier is then ap-
+plied to classify test instances into positive 
+and negative classes. A fundamental assump-
+tion is that the training and test data are iden-
+tically distributed. However, this assumption 
+may not hold in practice. In this paper, we 
+study a particular problem where the positive 
+data is identically distributed but the negative 
+data may or may not be so. Many practical 
+text classification and retrieval applications fit 
+this model. We argue that in this setting nega-
+tive training data should not be used, and that 
+PU learning can be employed to solve the 
+problem. Empirical evaluation has been con-
+ducted to support our claim. This result is im-
+portant as it may fundamentally change the 
+current binary classification paradigm.  
+1 

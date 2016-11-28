@@ -1,0 +1,26 @@
+
+We propose a supervised lexical substitu-
+tion system that does not use separate clas-
+sifiers per word and is therefore applicable
+to any word in the vocabulary. Instead of
+learning word-specific substitution patterns, a
+global model for lexical substitution is trained
+on delexicalized (i.e., non lexical) features,
+which allows to exploit the power of super-
+vised methods while being able to general-
+ize beyond target words in the training set.
+This way, our approach remains technically
+straightforward, provides better performance
+and similar coverage in comparison to unsu-
+pervised approaches. Using features from lex-
+ical resources, as well as a variety of features
+computed from large corpora (n-gram counts,
+distributional similarity) and a ranking method
+based on the posterior probabilities obtained
+from a Maximum Entropy classifier, we im-
+prove over the state of the art in the LexSub
+Best-Precision metric and the Generalized Av-
+erage Precision measure. Robustness of our
+approach is demonstrated by evaluating it suc-
+cessfully on two different datasets.
+1 

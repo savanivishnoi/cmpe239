@@ -1,0 +1,21 @@
+
+In this paper, we describe how we created two
+state-of-the-art SVM classifiers, one to de-
+tect the sentiment of messages such as tweets
+and SMS (message-level task) and one to de-
+tect the sentiment of a term within a message
+(term-level task). Among submissions from
+44 teams in a competition, our submissions
+stood first in both tasks on tweets, obtaining
+an F-score of 69.02 in the message-level task
+and 88.93 in the term-level task. We imple-
+mented a variety of surface-form, semantic,
+and sentiment features. We also generated
+two large word?sentiment association lexi-
+cons, one from tweets with sentiment-word
+hashtags, and one from tweets with emoticons.
+In the message-level task, the lexicon-based
+features provided a gain of 5 F-score points
+over all others. Both of our systems can be
+replicated using freely available resources.1
+1 

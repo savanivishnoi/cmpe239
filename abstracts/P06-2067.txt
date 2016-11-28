@@ -1,0 +1,25 @@
+
+In this paper, we compare the per-
+formance of a state-of-the-art statistical
+parser (Bikel, 2004) in parsing written and
+spoken language and in generating sub-
+categorization cues from written and spo-
+ken language. Although Bikel?s parser
+achieves a higher accuracy for parsing
+written language, it achieves a higher ac-
+curacy when extracting subcategorization
+cues from spoken language. Our exper-
+iments also show that current technology
+for extracting subcategorization frames
+initially designed for written texts works
+equally well for spoken language. Addi-
+tionally, we explore the utility of punctu-
+ation in helping parsing and extraction of
+subcategorization cues. Our experiments
+show that punctuation is of little help in
+parsing spoken language and extracting
+subcategorization cues from spoken lan-
+guage. This indicates that there is no need
+to add punctuation in transcribing spoken
+corpora simply in order to help parsers.
+1 

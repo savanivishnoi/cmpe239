@@ -1,0 +1,17 @@
+
+This paper presents a chunking-based dis-
+criminative approach to full parsing. We
+convert the task of full parsing into a series
+of chunking tasks and apply a conditional
+random field (CRF) model to each level
+of chunking. The probability of an en-
+tire parse tree is computed as the product
+of the probabilities of individual chunk-
+ing results. The parsing is performed in a
+bottom-up manner and the best derivation
+is efficiently obtained by using a depth-
+first search algorithm. Experimental re-
+sults demonstrate that this simple parsing
+framework produces a fast and reasonably
+accurate parser.
+1 

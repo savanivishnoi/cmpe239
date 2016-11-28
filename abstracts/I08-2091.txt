@@ -1,0 +1,25 @@
+ 
+This paper explores an automatic WordNet 
+synset assignment to the bi-lingual diction-
+aries of languages having limited lexicon 
+information. Generally, a term in a bi-
+lingual dictionary is provided with very 
+limited information such as part-of-speech, 
+a set of synonyms, and a set of English 
+equivalents. This type of dictionary is 
+comparatively reliable and can be found in 
+an electronic form from various publishers. 
+In this paper, we propose an algorithm for 
+applying a set of criteria to assign a synset 
+with an appropriate degree of confidence to 
+the existing bi-lingual dictionary. We show 
+the efficiency in nominating the synset 
+candidate by using the most common lexi-
+cal information. The algorithm is evaluated 
+against the implementation of Thai-
+English, Indonesian-English, and Mongo-
+lian-English bi-lingual dictionaries. The 
+experiment also shows the effectiveness of 
+using the same type of dictionary from dif-
+ferent sources.  
+1 

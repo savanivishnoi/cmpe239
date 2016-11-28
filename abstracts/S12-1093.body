@@ -1,0 +1,18 @@
+
+In this paper we describe the three approaches
+we submitted to the Semantic Textual Similar-
+ity task of SemEval 2012. The first approach
+considers to calculate the semantic similar-
+ity by using the Jaccard coefficient with term
+expansion using synonyms. The second ap-
+proach uses the semantic similarity reported
+by Mihalcea in (Mihalcea et al., 2006). The
+third approach employs Random Indexing and
+Bag of Concepts based on context vectors. We
+consider that the first and third approaches ob-
+tained a comparable performance, meanwhile
+the second approach got a very poor behav-
+ior. The best ALL result was obtained with
+the third approach, with a Pearson correlation
+equal to 0.663.
+1 

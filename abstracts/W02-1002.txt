@@ -1,0 +1,16 @@
+
+This paper separates conditional parameter estima-
+tion, which consistently raises test set accuracy on
+statistical NLP tasks, from conditional model struc-
+tures, such as the conditional Markov model used
+for maximum-entropy tagging, which tend to lower
+accuracy. Error analysis on part-of-speech tagging
+shows that the actual tagging errors made by the
+conditionally structured model derive not only from
+label bias, but also from other ways in which the in-
+dependence assumptions of the conditional model
+structure are unsuited to linguistic sequences. The
+paper presents new word-sense disambiguation and
+POS tagging experiments, and integrates apparently
+conflicting reports from other recent work.
+1 

@@ -1,0 +1,21 @@
+ 
+This paper describes algorithms and software developed to characterise and detect generic 
+intelligent language-like features iu an input signal, using Natural Language Learning 
+techniques: looking for characteristic statistical "language-signatures" in test corpora. As a 
+first step towards such species-independent language-detection, we present a suite of 
+programs to analyse digital representations of a range of data, and use the results to 
+extrapolate whether or not there are language-like structures which distiuguish this data from 
+other sources, such as nmsic, images, and white noise. We assume that generic species- 
+independent commuuication can be detected by concentrating on localised patterns and 
+rhythms, identifying segments at the level of characters, words and phrases, without 
+necessarily having to "understand" the content. 
+We assume that a language-like signal will be encoded symbolically, i.e. some kind of 
+character-stream. Our language-detection algorithm for symbolic input uses a number of 
+statistical clues: data compression ratio, "chunking" to find character bit-length and 
+boundaries, and matching against a Zipfian type-token distribution for "letters" and "words". 
+We do not claim extensive (let alne exhaustive) empirical evidence that our language- 
+detection clues are "correct"; the only real test will come when the Search for Extra- 
+Terrestrial Intelligence finds true alien signals. If and when true SETI signals are found, the 
+first step to interpretation is to identify the language-like f atures, using techniques like the 
+above. Our current research goal is to apply Natural Language Learning techniques to the 
+identification of "higher-level" grammatical nd semantic structure in a linguistic signal. 

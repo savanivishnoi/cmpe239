@@ -1,0 +1,19 @@
+
+We extend our n-gram-based data-driven pre-
+diction approach from the Helping Our Own
+(HOO) 2011 Shared Task (Boyd and Meur-
+ers, 2011) to identify determiner and preposi-
+tion errors in non-native English essays from
+the Cambridge Learner Corpus FCE Dataset
+(Yannakoudakis et al., 2011) as part of the
+HOO 2012 Shared Task. Our system focuses
+on three error categories: missing determiner,
+incorrect determiner, and incorrect preposi-
+tion. Approximately two-thirds of the errors
+annotated in HOO 2012 training and test data
+fall into these three categories. To improve
+our approach, we developed a missing deter-
+miner detector and incorporated word cluster-
+ing (Brown et al., 1992) into the n-gram pre-
+diction approach.
+1 

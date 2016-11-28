@@ -1,0 +1,19 @@
+
+Argumentative discourse contains not only
+language expressing claims and evidence, but
+also language used to organize these claims
+and pieces of evidence. Differentiating be-
+tween the two may be useful for many appli-
+cations, such as those that focus on the content
+(e.g., relation extraction) of arguments and
+those that focus on the structure of arguments
+(e.g., automated essay scoring). We propose
+an automated approach to detecting high-level
+organizational elements in argumentative dis-
+course that combines a rule-based system and
+a probabilistic sequence model in a principled
+manner. We present quantitative results on a
+dataset of human-annotated persuasive essays,
+and qualitative analyses of performance on es-
+says and on political debates.
+1 

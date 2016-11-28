@@ -1,0 +1,22 @@
+
+The absence of a comprehensive database
+of locations where bacteria live is an im-
+portant obstacle for biologists to under-
+stand and study the interactions between
+bacteria and their habitats. This paper re-
+ports the results to a challenge, set forth by
+the Bacteria Biotopes Task of the BioNLP
+Shared Task 2013. Two systems are ex-
+plained: Sub-task 1 system for identifying
+habitat mentions in unstructured biomedi-
+cal text and normalizing them through the
+OntoBiotope ontology and Sub-task 2 sys-
+tem for extracting localization and part-
+of relations between bacteria and habitats.
+Both approaches rely on syntactic rules
+designed by considering the shallow lin-
+guistic analysis of the text. Sub-task 2
+system also makes use of discourse-based
+rules. The two systems achieve promising
+results on the shared task test data set.
+1 

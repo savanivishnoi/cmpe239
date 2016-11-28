@@ -1,0 +1,18 @@
+
+The task of Named Entity Recognition
+(NER) is to identify in text predefined
+units of information such as person names,
+organizations and locations. In this work,
+we address the problem of NER in Esto-
+nian using supervised learning approach.
+We explore common issues related to
+building a NER system such as the us-
+age of language-agnostic and language-
+specific features, the representation of
+named entity tags, the required corpus size
+and the need for linguistic tools. For
+system training and evaluation purposes,
+we create a gold standard NER corpus.
+On this corpus, our CRF-based system
+achieves an overall F1-score of 87%.
+1 

@@ -1,0 +1,16 @@
+. Mining terminology translation from a large amount of Web data can 
+be applied in many fields such as reading/writing assistant, machine translation 
+and cross-language information retrieval. How to find more comprehensive re-
+sults from the Web and obtain the boundary of candidate translations, and how 
+to remove irrelevant noises and rank the remained candidates are the challeng-
+ing issues. In this paper, after reviewing and analyzing all possible methods of 
+acquiring translations, a feasible statistics-based method is proposed to mine 
+terminology translation from the Web. In the proposed method, on the basis of 
+an analysis of different forms of term translation distributions, character-based 
+string frequency estimation is presented to construct term translation candidates 
+for exploring more translations and their boundaries, and then sort-based subset 
+deletion and mutual information methods are respectively proposed to deal with 
+subset redundancy information and prefix/suffix redundancy information 
+formed in the process of estimation. Extensive experiments on two test sets of 
+401 and 3511 English terms validate that our system has better performance.  
+1   

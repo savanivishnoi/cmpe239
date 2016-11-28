@@ -1,0 +1,22 @@
+
+We offer a simple, effective, and scalable
+method for statistical machine translation pa-
+rameter tuning based on the pairwise approach
+to ranking (Herbrich et al, 1999). Unlike
+the popular MERT algorithm (Och, 2003), our
+pairwise ranking optimization (PRO) method
+is not limited to a handful of parameters and
+can easily handle systems with thousands of
+features. Moreover, unlike recent approaches
+built upon the MIRA algorithm of Crammer
+and Singer (2003) (Watanabe et al, 2007; Chi-
+ang et al, 2008b), PRO is easy to imple-
+ment. It uses off-the-shelf linear binary classi-
+fier software and can be built on top of an ex-
+isting MERT framework in a matter of hours.
+We establish PRO?s scalability and effective-
+ness by comparing it to MERT and MIRA and
+demonstrate parity on both phrase-based and
+syntax-based systems in a variety of language
+pairs, using large scale data scenarios.
+1 

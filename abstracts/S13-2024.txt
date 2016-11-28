@@ -1,0 +1,14 @@
+
+This paper describes The University of Mel-
+bourne NLP group submission to the Cross-
+lingual Textual Entailment shared task, our
+first tentative attempt at the task. The ap-
+proach involves using parallel corpora and au-
+tomatic word alignment to align text fragment
+pairs, and statistics based on unaligned words
+as features to classify items as forward and
+backward before a compositional combination
+into the final four classes, as well as exper-
+iments with additional string similarity fea-
+tures.
+1 

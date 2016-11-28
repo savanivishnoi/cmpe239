@@ -1,0 +1,22 @@
+
+This paper describes an extremely lexi-
+calized probabilistic model for fast and
+accurate HPSG parsing. In this model,
+the probabilities of parse trees are de-
+fined with only the probabilities of select-
+ing lexical entries. The proposed model
+is very simple, and experiments revealed
+that the implemented parser runs around
+four times faster than the previous model
+and that the proposed model has a high
+accuracy comparable to that of the previ-
+ous model for probabilistic HPSG, which
+is defined over phrase structures. We
+also developed a hybrid of our probabilis-
+tic model and the conventional phrase-
+structure-based model. The hybrid model
+is not only significantly faster but also sig-
+nificantly more accurate by two points of
+precision and recall compared to the pre-
+vious model.
+1 

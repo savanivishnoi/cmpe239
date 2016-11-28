@@ -1,0 +1,21 @@
+ 
+In this paper, we propose an event-based ap-
+proach for Chinese sentence compression 
+without using any training corpus. We en-
+hance the linguistically-motivated heuristics 
+by exploiting event word significance and 
+event information density. This is shown to 
+improve the preservation of important infor-
+mation and the tolerance of POS and parsing 
+errors, which are more common in Chinese 
+than English. The heuristics are only required 
+to determine possibly removable constituents 
+instead of selecting specific constituents for 
+removal, and thus are easier to develop and 
+port to other languages and domains. The ex-
+perimental results show that around 72% of 
+our automatic compressions are grammatically 
+and semantically correct, preserving around 
+69% of the most important information on av-
+erage.  
+1 

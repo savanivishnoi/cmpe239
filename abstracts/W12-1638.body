@@ -1,0 +1,16 @@
+
+The goal of this paper is to present a first
+step toward integrating Incremental Speech
+Recognition (ISR) and Partially-Observable
+Markov Decision Process (POMDP) based di-
+alogue systems. The former provides sup-
+port for advanced turn-taking behavior while
+the other increases the semantic accuracy of
+speech recognition results. We present an In-
+cremental Interaction Manager that supports
+the use of ISR with strictly turn-based dia-
+logue managers. We then show that using
+a POMDP-based dialogue manager with ISR
+substantially improves the semantic accuracy
+of the incremental results.
+1 

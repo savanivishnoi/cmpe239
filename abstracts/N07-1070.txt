@@ -1,0 +1,31 @@
+
+Most research on semantic role labeling
+(SRL) has been focused on training and
+evaluating on the same corpus in order
+to develop the technology. This strategy,
+while appropriate for initiating research,
+can lead to over-training to the particular
+corpus. The work presented in this pa-
+per focuses on analyzing the robustness
+of an SRL system when trained on one
+genre of data and used to label a different
+genre. Our state-of-the-art semantic role
+labeling system, while performing well on
+WSJ test data, shows significant perfor-
+mance degradation when applied to data
+from the Brown corpus. We present a se-
+ries of experiments designed to investigate
+the source of this lack of portability. These
+experiments are based on comparisons of
+performance using PropBanked WSJ data
+and PropBanked Brown corpus data. Our
+results indicate that while syntactic parses
+and argument identification port relatively
+well to a new genre, argument classifica-
+tion does not. Our analysis of the reasons
+for this is presented and generally point
+to the nature of the more lexical/semantic
+features dominating the classification task
+and general structural features dominating
+the argument identification task.
+1 

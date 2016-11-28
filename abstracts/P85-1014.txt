@@ -1,0 +1,43 @@
+ 
+Conjunctions are particularly difficult to parse in tra- 
+ditional, phra.se-based gramniars. This paper shows how 
+a different representation, not b.xsed on tree structures, 
+markedly improves the parsing problem for conjunctions. 
+It modifies the union of phra.se marker model proposed by 
+GoodalI \[19811, where conjllnction is considered as tile lin- 
+earization of a three-dimensional union of a non-tree I),'med 
+phrase marker epresentation. A PItOLOG grantm~tr for con- 
+junctions using this new approach is given. It is far simpler 
+and more transparent than a recent phr~e-b~qed extra- 
+position parser conjunctions by Dahl and McCord \[1984\]. 
+Unlike the Dahl and McCor, I or ATN SYSCONJ appr~ach, 
+no special trail machinery i.~ needed for conjunction, be- 
+yond that required for analyzing simple sentences. While 
+oi contparable ?tficiency, the new ~tpproach unifies under a 
+single analysis a host of related constructions: respectively 
+sentences, right node raising, or gapping. Another ,'ulvan- 
+rage is that it is also completely reversible (without cuts), 
+and therefore can be used to generate sentences. 
+John and Mary went to tile pictures 
+Ylimplc constituent coordhmtion 
+Tile fox and tile hound lived in tile fox hole and 
+kennel respectively 
+CotJstit,wnt coordination "vith r.he 'resp~ctively' 
+reading 
+John and I like to program in Prolog and Hope 
+Simple constitmvR co~rdinatiou but c,~, have a col- 
+lective or n.sp,~'tively reading 
+John likes but I hate bananas 
+~)tl-c,mstitf~ent coordin,~tion 
+Bill designs cars and Jack aeroplanes 
+Gapping with 'resp,~ctively' reading 
+The fox. the honnd and the horse all went to market 
+Multiple c,mjunets 
+*John sang loudly and a carol 
+Violatiofl of coordination of likes 
+*Wire (lid Peter see and tile car? 
+V/o/atio/i of roisrdJ)l=lte str?/?'trlz'e constr.~int 
+*1 will catch Peter and John might the car 
+Gapping, hut componcztt ~cnlenccs c.ntain unlike 
+auxiliary verbs 
+?Tire president left before noon and at 2. Gorbachev 

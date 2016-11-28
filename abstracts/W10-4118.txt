@@ -1,0 +1,25 @@
+ 
+This paper reports on a treebanking 
+project where eight different modern 
+Chinese translations of the Bible are 
+syntactically analyzed.  The trees are 
+created through dynamic treebanking 
+which uses a parser to produce the 
+trees.   The trees have been going 
+through manual checking, but correc-
+tions are made not by editing the tree 
+files but by re-generating the trees with 
+an updated grammar and dictionary.  
+The accuracy of the treebank is high 
+due to the fact that the grammar and 
+dictionary are optimized for this specif-
+ic domain.  The tree structures essen-
+tially follow the guidelines of the Penn 
+Chinese Treebank.  The total number 
+of characters covered by the treebank is 
+7,872,420 characters. The data has 
+been used in Bible translation and Bi-
+ble search.  It should also prove useful 
+in the computational study of the Chi-
+nese language in general. 
+1 

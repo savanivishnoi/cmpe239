@@ -1,0 +1,9 @@
+. Temporal information is useful in many NLP applications, such as 
+information extraction, question answering and summarization. In this paper, 
+we present a temporal parser for extracting and normalizing temporal expres-
+sions from Chinese texts. An integrated temporal framework is proposed, which 
+includes basic temporal concepts and the classification of temporal expressions. 
+The identification of temporal expressions is fulfilled by powerful chart-parsing 
+based on grammar rules and constraint rules. We evaluated the system on a sub-
+stantial corpus and obtained promising results.  
+1   

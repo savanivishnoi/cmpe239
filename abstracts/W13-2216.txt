@@ -1,0 +1,19 @@
+
+We present two English-to-Czech systems
+that took part in the WMT 2013 shared
+task: TECTOMT and PHRASEFIX. The
+former is a deep-syntactic transfer-based
+system, the latter is a more-or-less stan-
+dard statistical post-editing (SPE) applied
+on top of TECTOMT. In a brief survey, we
+put SPE in context with other system com-
+bination techniques and evaluate SPE vs.
+another simple system combination tech-
+nique: using synthetic parallel data from
+TECTOMT to train a statistical MT sys-
+tem (SMT). We confirm that PHRASEFIX
+(SPE) improves the output of TECTOMT,
+and we use this to analyze errors in TEC-
+TOMT. However, we also show that ex-
+tending data for SMT is more effective.
+1 

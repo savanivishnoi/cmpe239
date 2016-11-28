@@ -1,0 +1,23 @@
+ 
+The identification of authorship falls into the 
+category of style classification, an interesting 
+sub-field of text categorization that deals with 
+properties of the form of linguistic expression 
+as opposed to the content of a text. Various fea-
+ture sets and classification methods have been 
+proposed in the literature, geared towards ab-
+stracting away from the content of a text, and 
+focusing on its stylistic properties. We demon-
+strate that in a realistically difficult authorship 
+attribution scenario, deep linguistic analysis 
+features such as context free production fre-
+quencies and semantic relationship frequencies 
+achieve significant error reduction over more 
+commonly used ?shallow? features such as 
+function word frequencies and part of speech 
+trigrams. Modern machine learning techniques 
+like support vector machines allow us to ex-
+plore large feature vectors, combining these dif-
+ferent feature sets to achieve high classification 
+accuracy in style-based tasks. 
+1 

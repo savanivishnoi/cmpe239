@@ -1,0 +1,22 @@
+
+We examine the task of strict sentence inter-
+section: a variant of sentence fusion in which
+the output must only contain the informa-
+tion present in all input sentences and nothing
+more. Our proposed approach involves align-
+ment and generalization over the input sen-
+tences to produce a generation lattice; we then
+compare a standard search-based approach for
+decoding an intersection from this lattice to an
+integer linear program that preserves aligned
+content while minimizing the disfluency in
+interleaving text segments. In addition, we
+introduce novel evaluation strategies for in-
+tersection problems that employ entailment-
+style judgments for determining the validity
+of system-generated intersections. Our experi-
+ments show that the proposed models produce
+valid intersections a majority of the time and
+that the segmented decoder yields advantages
+over the search-based approach.
+1 

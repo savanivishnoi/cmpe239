@@ -1,0 +1,25 @@
+
+During face-to-face conversation, people
+naturally integrate speech, gestures and
+higher level language interpretations to
+predict the right time to start talking or
+to give backchannel feedback. In this
+paper we introduce a new model called
+Latent Mixture of Discriminative Experts
+which addresses some of the key issues
+with multimodal language processing: (1)
+temporal synchrony/asynchrony between
+modalities, (2) micro dynamics and (3) in-
+tegration of different levels of interpreta-
+tion. We present an empirical evaluation
+on listener nonverbal feedback prediction
+(e.g., head nod), based on observable be-
+haviors of the speaker. We confirm the im-
+portance of combining four types of mul-
+timodal features: lexical, syntactic struc-
+ture, eye gaze, and prosody. We show
+that our Latent Mixture of Discriminative
+Experts model outperforms previous ap-
+proaches based on Conditional Random
+Fields (CRFs) and Latent-Dynamic CRFs.
+1 

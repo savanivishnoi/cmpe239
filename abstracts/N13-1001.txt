@@ -1,0 +1,24 @@
+
+N-gram-based models co-exist with their
+phrase-based counterparts as an alternative
+SMT framework. Both techniques have pros
+and cons. While the N-gram-based frame-
+work provides a better model that captures
+both source and target contexts and avoids
+spurious phrasal segmentation, the ability to
+memorize and produce larger translation units
+gives an edge to the phrase-based systems dur-
+ing decoding, in terms of better search per-
+formance and superior selection of transla-
+tion units. In this paper we combine N-gram-
+based modeling with phrase-based decoding,
+and obtain the benefits of both approaches.
+Our experiments show that using this combi-
+nation not only improves the search accuracy
+of the N-gram model but that it also improves
+the BLEU scores. Our system outperforms
+state-of-the-art phrase-based systems (Moses
+and Phrasal) and N-gram-based systems by
+a significant margin on German, French and
+Spanish to English translation tasks.
+1 

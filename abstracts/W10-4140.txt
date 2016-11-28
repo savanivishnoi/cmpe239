@@ -1,0 +1,12 @@
+ 
+We present a Chinese word segmentation 
+system which ran on the closed track of the 
+simplified Chinese Word Segmentation task 
+of CIPS-SIGHAN-CLP 2010 bakeoffs. Our 
+segmenter was built using a HMM. To fulfill 
+the cross-domain segmentation task, we use 
+semi-supervised machine learning method to 
+get the HMM model. Finally we get the 
+mean result of four domains: P=0.719, 
+R=0.72 
+1 

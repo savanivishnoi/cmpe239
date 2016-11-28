@@ -1,0 +1,22 @@
+
+Topic segmentation classically relies on one
+of two criteria, either finding areas with co-
+herent vocabulary use or detecting discontinu-
+ities. In this paper, we propose a segmenta-
+tion criterion combining both lexical cohesion
+and disruption, enabling a trade-off between
+the two. We provide the mathematical formu-
+lation of the criterion and an efficient graph
+based decoding algorithm for topic segmenta-
+tion. Experimental results on standard textual
+data sets and on a more challenging corpus
+of automatically transcribed broadcast news
+shows demonstrate the benefit of such a com-
+bination. Gains were observed in all condi-
+tions, with segments of either regular or vary-
+ing length and abrupt or smooth topic shifts.
+Long segments benefit more than short seg-
+ments. However the algorithm has proven ro-
+bust on automatic transcripts with short seg-
+ments and limited vocabulary reoccurrences.
+1 

@@ -1,0 +1,23 @@
+
+Frequently asked questions (FAQ) are an
+efficient way of communicating domain-
+specific information to the users. Unlike
+general purpose retrieval engines, FAQ re-
+trieval engines have to address the lexi-
+cal gap between the query and the usu-
+ally short answer. In this paper we de-
+scribe the design and evaluation of a FAQ
+retrieval engine for Croatian. We frame
+the task as a binary classification prob-
+lem, and train a model to classify each
+FAQ as either relevant or not relevant for
+a given query. We use a variety of se-
+mantic textual similarity features, includ-
+ing term overlap and vector space features.
+We train and evaluate on a FAQ test col-
+lection built specifically for this purpose.
+Our best-performing model reaches 0.47
+of mean reciprocal rank, i.e., on average
+ranks the relevant answer among the top
+two returned answers.
+1 

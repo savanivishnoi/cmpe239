@@ -1,0 +1,24 @@
+ 
+Adapting language models across styles 
+and topics, such as for lecture transcrip-
+tion, involves combining generic style 
+models with topic-specific content rele-
+vant to the target document.  In this 
+work, we investigate the use of the Hid-
+den Markov Model with Latent Dirichlet 
+Allocation (HMM-LDA) to obtain syn-
+tactic state and semantic topic assign-
+ments to word instances in the training 
+corpus.  From these context-dependent 
+labels, we construct style and topic mod-
+els that better model the target document, 
+and extend the traditional bag-of-words 
+topic models to n-grams.  Experiments 
+with static model interpolation yielded a 
+perplexity and relative word error rate 
+(WER) reduction of 7.1% and 2.1%, re-
+spectively, over an adapted trigram base-
+line.  Adaptive interpolation of mixture 
+components further reduced perplexity 
+by 9.5% and WER by a modest 0.3%. 
+1 

@@ -1,0 +1,15 @@
+
+We report results of experiments which
+build and refine models of rhetorical-
+semantic relations such as Cause and Con-
+trast. We adopt the approach of Marcu
+and Echihabi (2002), using a small set of
+patterns to build relation models, and ex-
+tend their work by refining the training
+and classification process using parame-
+ter optimization, topic segmentation and
+syntactic parsing. Using human-annotated
+and automatically-extracted test sets, we
+find that each of these techniques results in
+improved relation classification accuracy.
+1 

@@ -1,0 +1,23 @@
+ 
+This study aims to improve the 
+performance of identifying 
+grammatical functions between an 
+adnoun clause and a noun phrase in 
+Korean.  The key task is to determine 
+the relation between the two 
+constituents in terms of such 
+functional categories as subject, object, 
+adverbial, and appositive. The 
+problem is mainly caused by the fact 
+that functional morphemes, which are 
+considered to be crucial for identifying 
+the relation, are frequently omitted in 
+the noun phrases. To tackle this 
+problem, we propose to employ the 
+Support Vector Machines(SVM) in 
+determining the grammatical functions. 
+Through an experiment with a tagged 
+corpus for training SVMs, the 
+proposed model is found to be useful. 
+ 
+1 

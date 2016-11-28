@@ -1,0 +1,20 @@
+ 
+A relatively self-contained subtask of 
+natural language generation is sentence 
+realization: the process of generating a 
+grammatically correct sentence from an 
+abstract semantic / logical 
+representation.  We propose a method 
+where sentence realization is carried 
+out using a simplified (context free) 
+version of a large analysis grammar, 
+combined with a statistical language 
+model from the full (context sensitive) 
+version of the same grammar.  The 
+statistical model provides a measure of 
+the probability of syntactic 
+substructures, derived from the analysis 
+of a corpus with the full grammar, and 
+is used to guide both subsequent 
+analysis and generation. 
+1 

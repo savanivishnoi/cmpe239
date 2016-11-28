@@ -1,0 +1,88 @@
+s of Invited Talks
+Expressive Power and Complexity of Underspecified Representations . . . . . . . . . . . . . . . . . . 1
+Christian Ebert
+Knowledge Harvesting and Fusion from Small and Large Corpora . . . . . . . . . . . . . . . . . . . . . 3
+Patrick Pantel
+Bridging the gap between formal and computational semantics . . . . . . . . . . . . . . . . . . . . . . . . 5
+Stephen Pulman
+Regular Papers
+Anaphora Resolution and Minimal Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Ariel Cohen
+Extracting Formal Specifications from Natural Language Regulatory Documents . . . . . 17
+Nikhil Dinesh, Aravind Joshi, Insup Lee and Bonnie Webber
+How to change a person?s mind: Understanding the difference between the effects
+and consequences of speech acts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Debora Field and Allan Ramsay
+Towards a redundancy elimination algorithm for underspecified descriptions . . . . . . . . . . 37
+Alexander Koller and Stefan Thater
+Quantifiers in Dependency Tree Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+Leonardo Lesmo, Livio Robaldo, and Jelle Gerbrandy
+Controlled Language for Geographical Information System Queries . . . . . . . . . . . . . . . . . . . 57
+Sela Mador-Haim, Yoad Winter and Anthony Braun
+Computing relative polarity for textual inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+Rowan Nairn, Cleo Condoravdi, and Lauri Karttunen
+Using Answer Set Programming in an inference-based approach to
+Natural Language Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+Farid Nouioua and Pascal Nicolas
+A Bootstrapping Algorithm for Automatically Harvesting Semantic Relations . . . . . . . . 87
+Marco Pennacchiotti and Patrick Pantel
+Concepts across categories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+Hilke Reckman and Crit Cremers
+Multi-dimensional Temporal Logic for Events and States . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+Satoshi Tojo
+Considerations on the nature of metaphorical meaning arising from a computational
+treatment of metaphor interpretation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+A.M. Wallington, R. Agerri, J.A. Barnden, S.R. Glasbey, and M.G. Lee
+vii
+Short Papers
+Supporting temporal question answering: strategies for offline data collection . . . . . . . . 127
+David Ahn, Steven Schockaert, Martine De Cock, and Etienne Kerre
+Formal semantics of verbs for knowledge inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .133
+Igor Boyko
+Ingredients of a first-order account of bridging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+Philipp Cimiano
+A Computational Theory of Inference for Arithmetic Explanation . . . . . . . . . . . . . . . . . . . 145
+Albert Goldfain
+Towards a Logical Foundation of Semantic Networks - A Typology of
+Descriptive Means for Semantic Inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 151
+Hermann Helbig and Ingo Glo?ckner
+The Alligator theorem prover for dependent type systems:
+Description and proof samples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 157
+Paul Piwek
+viii
+Expressive Power and Complexity
+of Underspecified Representations
+Christian Ebert
+Fakulta?t fu?r Linguistik und Literaturwissenschaft
+Universita?t Bielefeld
+My talk will be about two requirements on Underspecified Representation Formalisms in
+the context of underspecification of scope. The requirement on partial disambiguation,
+stating that partially disambiguated ambiguities need to be represented, does not carry
+much content unless it has become clear, exactly what those ambiguities are. In line with
+Ko?nig and Reyle [1999], I will argue that all theoretically possible patterns of ambiguity,
+i.e. subsets of readings, can occur in natural language, in particular when underspeci-
+fied representations are assumed to represent patterns of ambiguity that arise through
+disambiguation by discourse or even by world knowledge. Therefore an underspecified
+representation formalism can only be regarded as expressively complete, if it provides rep-
+resentations for all potential subsets of readings. Taking a closer look at recent prominent
+approaches to scope underspecification, namely Hole Semantics [Bos, 2002], Minimal Re-
+cursion Semantics [Copestake et al, 1999], and Normal Dominance Constraints [Koller,
+2004], it turns out that none of these formalisms is expressively complete. Furthermore,
+these incompleteness results allow for a straightforward comparison of the discussed ap-
+proaches with respect to expressive power.
+The second requirement is the avoidance of combinatorial explosion. I will argue that
+the decisive process that determines the efficiency of an underspecification approach is
+the construction phase of the representations and not so much the check for satisfiability
+or enumeration of readings. Thus the desired avoidance of combinatorial explosion comes
+down to a requirement on a feasible construction procedure and hence to a requirement on
+the maximal ?size? of the representations, which can only be fulfilled if the involved repre-
+sentations are in some sense more compact than the mere listing of the available readings.
+Unfortunately it turns out that due to the rapid growth of the number of potential patterns
+of ambiguity, the two requirements of compactness and expressive completeness cannot be
+fulfilled at the same time. In other words, I will show that any underspecified representa-
+tion formalism must necessarily miss out on some of the potential patterns of ambiguity
+or run into the combinatorial explosion problem [Ebert, 2005].
+References
+Johan Bos. Underspecification and Resolution in Discourse Semantics. PhD thesis, Uni-
+versita?t des Saarlandes, 2002.
+Ann Copestake, Dan Flickinger, and Ivan A. Sag. Minimal Recursion Semantics ? An

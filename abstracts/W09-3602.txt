@@ -1,0 +1,26 @@
+* 
+ 
+Anchor text plays a special important role in 
+improving the performance of general Web 
+search, due to the fact that it is relatively ob-
+jective description for a Web page by poten-
+tially a large number of other Web pages. 
+Academic Search provides indexing and 
+search functionality for academic articles. It 
+may be desirable to utilize anchor text in aca-
+demic search as well to improve the search re-
+sults quality. The main challenge here is that 
+no explicit URLs and anchor text is available 
+for academic articles. In this paper we define 
+and automatically assign a pseudo-URL for 
+each academic article. And a machine learning 
+approach is adopted to extract pseudo-anchor 
+text for academic articles, by exploiting the ci-
+tation relationship between them. The ex-
+tracted pseudo-anchor text is then indexed and 
+involved in the relevance score computation of 
+academic articles. Experiments conducted on 
+0.9 million research papers show that our ap-
+proach is able to dramatically improve search 
+performance. 
+1 

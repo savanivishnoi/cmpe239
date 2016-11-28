@@ -1,0 +1,12 @@
+
+A machine translation model has been pro-
+posed where an input is translated through
+both source-language and target-language para-
+phrasing processes. We have implemented our
+prototype model for the Japanese-Chinese lan-
+guage pair. This paper describes our core idea
+of translation, where a source language para-
+phraser and a language transfer cooperates in
+translation by exchanging information about
+the source input.
+1 

@@ -1,0 +1,17 @@
+
+Building machine translation (MT) test sets is
+a relatively expensive task. As MT becomes
+increasingly desired for more and more lan-
+guage pairs and more and more domains, it
+becomes necessary to build test sets for each
+case. In this paper, we investigate using Ama-
+zon?s Mechanical Turk (MTurk) to make MT
+test sets cheaply. We find that MTurk can
+be used to make test sets much cheaper than
+professionally-produced test sets. More im-
+portantly, in experiments with multiple MT
+systems, we find that the MTurk-produced
+test sets yield essentially the same conclu-
+sions regarding system performance as the
+professionally-produced test sets yield.
+1 

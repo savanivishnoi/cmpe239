@@ -1,0 +1,23 @@
+ 
+At present most of corpora are annotated 
+mainly with syntactic knowledge. In this 
+paper, we attempt to build a large corpus 
+and annotate semantic knowledge with 
+dependency grammar. We believe that 
+words are the basic units of semantics, 
+and the structure and meaning of a 
+sentence consist mainly of a series of 
+semantic dependencies between 
+individual words. A 1,000,000-word-
+scale corpus annotated with semantic 
+dependency has been built. Compared 
+with syntactic knowledge, semantic 
+knowledge is more difficult to annotate, 
+for ambiguity problem is more serious. In 
+the paper, the strategy to improve 
+consistency is addressed, and congruence 
+is defined to measure the consistency of 
+tagged corpus.. Finally, we will compare 
+our corpus with other well-known 
+corpora. 
+1   

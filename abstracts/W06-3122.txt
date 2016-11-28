@@ -1,0 +1,14 @@
+
+Complex Language Models cannot be eas-
+ily integrated in the first pass decoding of
+a Statistical Machine Translation system ?
+the decoder queries the LM a very large
+number of times; the search process in the
+decoding builds the hypotheses incremen-
+tally and cannot make use of LMs that
+analyze the whole sentence. We present
+in this paper the Language Computer?s
+system for WMT06 that employs LM-
+powered reranking on hypotheses gener-
+ated by phrase-based SMT systems
+1 

@@ -1,0 +1,14 @@
+
+This paper proposes a method to extract foreign
+words, such as technical terms and proper nouns,
+from Korean corpora and produce a Japanese-
+Korean bilingual dictionary. Specific words have
+been imported into multiple countries simultane-
+ously, if they are influential across cultures. The
+pronunciation of a source word is similar in different
+languages. Our method extracts words in Korean
+corpora that are phonetically similar to Katakana
+words, which can easily be identified in Japanese cor-
+pora. We also show the effectiveness of our method
+by means of experiments.
+1 

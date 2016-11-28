@@ -1,0 +1,21 @@
+
+We propose a novel objective function for dis-
+criminatively tuning log-linear machine trans-
+lation models. Our objective explicitly op-
+timizes the BLEU score of expected n-gram
+counts, the same quantities that arise in forest-
+based consensus and minimum Bayes risk de-
+coding methods. Our continuous objective
+can be optimized using simple gradient as-
+cent. However, computing critical quantities
+in the gradient necessitates a novel dynamic
+program, which we also present here. As-
+suming BLEU as an evaluation measure, our
+objective function has two principle advan-
+tages over standard max BLEU tuning. First,
+it specifically optimizes model weights for
+downstream consensus decoding procedures.
+An unexpected second benefit is that it reduces
+overfitting, which can improve test set BLEU
+scores when using standard Viterbi decoding.
+1 

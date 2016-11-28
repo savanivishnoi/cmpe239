@@ -1,0 +1,24 @@
+
+We explore a range of features and ensembles
+for the task of Native Language Identification
+as part of the NLI Shared Task (Tetreault et al,
+2013). Starting with recurring word-based n-
+grams (Bykh and Meurers, 2012), we tested
+different linguistic abstractions such as part-
+of-speech, dependencies, and syntactic trees
+as features for NLI. We also experimented
+with features encoding morphological proper-
+ties, the nature of the realizations of particu-
+lar lemmas, and several measures of complex-
+ity developed for proficiency and readabil-
+ity classification (Vajjala and Meurers, 2012).
+Employing an ensemble classifier incorporat-
+ing all of our features we achieved an ac-
+curacy of 82.2% (rank 5) in the closed task
+and 83.5% (rank 1) in the open-2 task. In
+the open-1 task, the word-based recurring n-
+grams outperformed the ensemble, yielding
+38.5% (rank 2). Overall, across all three tasks,
+our best accuracy of 83.5% for the standard
+TOEFL11 test set came in second place.
+1 

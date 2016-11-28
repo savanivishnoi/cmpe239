@@ -1,0 +1,26 @@
+ 
+Character-based tagging method has 
+achieved great success in Chinese Word 
+Segmentation (CWS). This paper 
+proposes a new approach to improve the 
+CWS tagging accuracy by combining 
+Self-Organizing Map (SOM) with 
+structured support vector machine 
+(SVM) for utilization of enormous 
+unlabeled text corpus. First, character 
+N-grams are clustered and mapped into 
+a low-dimensional space by adopting 
+SOM algorithm. Two different maps are 
+built based on the N-gram?s preceding 
+and succeeding context respectively. 
+Then new features are extracted from 
+these maps and integrated into the 
+structured SVM methods for CWS. 
+Experimental results on Bakeoff-2005 
+database show that SOM-based features 
+can contribute more than 7% relative 
+error reduction, and the structured SVM 
+method for CWS proposed in this paper 
+also outperforms traditional conditional 
+random field (CRF) method. 
+1 

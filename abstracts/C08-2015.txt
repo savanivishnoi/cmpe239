@@ -1,0 +1,24 @@
+
+We propose an efficient dialogue manage-
+ment for an information navigation sys-
+tem based on a document knowledge base
+with a spoken dialogue interface. In order
+to perform robustly for fragmental speech
+input and erroneous output of an auto-
+matic speech recognition (ASR), the sys-
+tem should selectively use N-best hypothe-
+ses of ASR and contextual information.
+The system also has several choices in gen-
+erating responses or confirmations. In this
+work, we formulate the optimization of
+the choices based on a unified criterion:
+Bayes risk, which is defined based on re-
+ward for correct information presentation
+and penalty for redundant turns. We have
+evaluated this strategy with a spoken di-
+alogue system which also has question-
+answering capability. Effectiveness of the
+proposed framework was confirmed in the
+success rate of retrieval and the average
+number of turns.
+1 

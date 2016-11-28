@@ -1,0 +1,14 @@
+
+This paper presents the systems we developed
+while participating in the first task (English
+Lexical Simplification) of SemEval 2012. Our
+first system relies on n-grams frequencies
+computed from the Simple English Wikipedia
+version, ranking each substitution term by de-
+creasing frequency of use. We experimented
+with several other systems, based on term fre-
+quencies, or taking into account the context in
+which each substitution term occurs. On the
+evaluation corpus, we achieved a 0.465 score
+with the first system.
+1 

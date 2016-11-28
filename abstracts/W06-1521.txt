@@ -1,0 +1,24 @@
+ Categorial Grammar
+Sylvain Salvati
+National Institute of Informatics
+2-1-2 Hitotsubashi, Chiyoda-ku,
+Tokyo 101-8430, JAPAN
+salvati@nii.ac.jp
+Abstract
+This paper presents informally an Earley
+algorithm for TAG which behaves as the
+algorithm given by (Schabes and Joshi,
+1988). This algorithm is a specialization
+to TAG of a more general algorithm ded-
+icated to second order ACGs. As second
+order ACGs allows to encode Linear Con-
+text Free Rewriting Systems (LCFRS) (de
+Groote and Pogodalla, 2004), the presen-
+tation of this algorithm gives a rough pre-
+sentation of the formal tools which can
+be used to design efficient algorithms for
+LCFRS. Furthermore, as these tools allow
+to parse linear ?-terms, they can be used
+as a basis for developping algorithms for
+generation.
+1 

@@ -1,0 +1,18 @@
+ 
+The problem of part-of-speech induction 
+from text involves two aspects: Firstly, a 
+set of word classes is to be derived auto-
+matically. Secondly, each word of a vo-
+cabulary is to be assigned to one or sev-
+eral of these word classes. In this paper 
+we present a method that solves both 
+problems with good accuracy. Our ap-
+proach adopts a mixture of statistical me-
+thods that have been successfully applied 
+in word sense induction. Its main advan-
+tage over previous attempts is that it re-
+duces the syntactic space to only the most 
+important dimensions, thereby almost eli-
+minating the otherwise omnipresent prob-
+lem of data sparseness. 
+1 

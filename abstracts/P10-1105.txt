@@ -1,0 +1,23 @@
+
+A central problem in historical linguistics
+is the identification of historically related
+cognate words. We present a generative
+phylogenetic model for automatically in-
+ducing cognate group structure from un-
+aligned word lists. Our model represents
+the process of transformation and trans-
+mission from ancestor word to daughter
+word, as well as the alignment between
+the words lists of the observed languages.
+We also present a novel method for sim-
+plifying complex weighted automata cre-
+ated during inference to counteract the
+otherwise exponential growth of message
+sizes. On the task of identifying cognates
+in a dataset of Romance words, our model
+significantly outperforms a baseline ap-
+proach, increasing accuracy by as much as
+80%. Finally, we demonstrate that our au-
+tomatically induced groups can be used to
+successfully reconstruct ancestral words.
+1 

@@ -1,0 +1,12 @@
+
+This paper presents a finite-state approach
+to phrase-based statistical machine translation
+where a log-linear modelling framework is im-
+plemented by means of an on-the-fly com-
+position of weighted finite-state transducers.
+Moses, a well-known state-of-the-art system,
+is used as a machine translation reference in
+order to validate our results by comparison.
+Experiments on the TED corpus achieve a
+similar performance to that yielded by Moses.
+1 

@@ -1,0 +1,20 @@
+ 
+This work attempts to provide a robust Thai 
+morphological analyzer which can automatically 
+assign the correct part-of-speech tag to the correct 
+word with time and space efficiency. Instead of using 
+a corpus based approach which requires a large 
+amount of training data and validation data, a new 
+simple hybrid technique which incorporates heuristic, 
+syntactic and semantic knowledge is proposed. To 
+implement his technique, a three-stage approach is 
+adopted to the gradual refinement module. It consists 
+of preference based pruning, syntactic based pruning 
+and semantic based pruning. Each stage will 
+gradually weeds out word boundary ambiguities, tag 
+ambiguities and implicit spelling errors. Frdm the 
+result of the experiment, the proposed model can 
+work with time-efficiency and increase the accuracy 
+of word boundary segmentations, POS tagging as 
+well as implicit spelling error correction. 
+1. 

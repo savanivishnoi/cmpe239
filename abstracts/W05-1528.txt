@@ -1,0 +1,20 @@
+ 
+We describe a history-based generative 
+parsing model which uses a k-nearest 
+neighbour (k-NN) technique to estimate 
+the model?s parameters.  Taking the 
+output of a base n-best parser we use our 
+model to re-estimate the log probability of 
+each parse tree in the n-best list for 
+sentences from the Penn Wall Street 
+Journal treebank.  By further 
+decomposing the local probability 
+distributions of the base model, enriching 
+the set of conditioning features used to 
+estimate the model?s parameters, and 
+using k-NN as opposed to the Witten-Bell 
+estimation of the base model, we achieve 
+an f-score of 89.2%, representing a 4% 
+relative decrease in f-score error over the 
+1-best output of the base parser. 
+1 

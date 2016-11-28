@@ -1,0 +1,20 @@
+
+Various types of structural information -
+e.g., about the type of constructions in
+which binding constraints apply, or about
+the structure of names - play a central role
+in coreference resolution, often in combi-
+nation with lexical information (as in ex-
+pletive detection). Kernel functions ap-
+pear to be a promising candidate to capture
+structure-sensitive similarities and com-
+plex feature combinations, but care is re-
+quired to ensure they are exploited in the
+best possible fashion. In this paper we
+propose kernel functions for three subtasks
+of coreference resolution - binding con-
+straint detection, expletive identification,
+and aliasing - together with an architec-
+ture to integrate them within the standard
+framework for coreference resolution.
+1 

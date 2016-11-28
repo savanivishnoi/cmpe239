@@ -1,0 +1,27 @@
+
+Lexical chains provide a representation of the
+lexical cohesion structure of a text. In this pa-
+per, we propose two lexical chain based co-
+hesion models to incorporate lexical cohesion
+into document-level statistical machine trans-
+lation: 1) a count cohesion model that rewards
+a hypothesis whenever a chain word occurs in
+the hypothesis, 2) and a probability cohesion
+model that further takes chain word transla-
+tion probabilities into account. We compute
+lexical chains for each source document to be
+translated and generate target lexical chains
+based on the computed source chains via max-
+imum entropy classifiers. We then use the
+generated target chains to provide constraints
+for word selection in document-level machine
+translation through the two proposed lexical
+chain based cohesion models. We verify the
+effectiveness of the two models using a hier-
+archical phrase-based translation system. Ex-
+periments on large-scale training data show
+that they can substantially improve translation
+quality in terms of BLEU and that the prob-
+ability cohesion model outperforms previous
+models based on lexical cohesion devices.
+1 

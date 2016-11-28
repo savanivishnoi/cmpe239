@@ -1,0 +1,17 @@
+ 
+We describe a machine learning approach that 
+allows an open-world spoken dialog system to 
+learn to predict engagement intentions in situ, 
+from interaction. The proposed approach does 
+not require any developer supervision, and le-
+verages spatiotemporal and attentional features 
+automatically extracted from a visual analysis 
+of people coming into the proximity of the sys-
+tem to produce models that are attuned to the 
+characteristics of the environment the system is 
+placed in. Experimental results indicate that a 
+system using the proposed approach can learn 
+to recognize engagement intentions at low false 
+positive rates (e.g. 2-4%) up to 3-4 seconds 
+prior to the actual moment of engagement.  
+1 

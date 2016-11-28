@@ -1,0 +1,22 @@
+
+A challenge for search systems is to de-
+tect not only when an item is relevant to
+the user?s information need, but also when
+it contains something new which the user
+has not seen before. In the TREC novelty
+track, the task was to highlight sentences
+containing relevant and new information in
+a short, topical document stream. This
+is analogous to highlighting key parts of a
+document for another person to read, and
+this kind of output can be useful as input to
+a summarization system. Search topics in-
+volved both news events and reported opin-
+ions on hot-button subjects. When peo-
+ple performed this task, they tended to se-
+lect small blocks of consecutive sentences,
+whereas current systems identified many
+relevant and novel passages. We also found
+that opinions are much harder to track than
+events.
+1 

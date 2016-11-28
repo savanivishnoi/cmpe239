@@ -1,0 +1,18 @@
+
+We use a Phrase-Based Statistical Ma-
+chine Translation approach to Translitera-
+tion where the words are replaced by char-
+acters and sentences by words. We employ
+the standard SMT tools like GIZA++ for
+learning alignments and Moses for learn-
+ing the phrase tables and decoding. Be-
+sides tuning the standard SMT parame-
+ters, we focus on tuning the Character Se-
+quence Model (CSM) related parameters
+like order of the CSM, weight assigned to
+CSM during decoding and corpus used for
+CSM estimation. Our results show that
+paying sufficient attention to CSM pays
+off in terms of increased transliteration ac-
+curacies.
+1 

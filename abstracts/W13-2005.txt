@@ -1,0 +1,18 @@
+
+The Genia Event (GE) extraction task of
+the BioNLP Shared Task addresses the ex-
+traction of biomedical events from the nat-
+ural language text of the published litera-
+ture. In our submission, we modified an
+existing system for learning of event pat-
+terns via dependency parse subgraphs to
+utilise a more accurate parser and signifi-
+cantly more, but noisier, training data. We
+explore the impact of these two aspects of
+the system and conclude that the change in
+parser limits recall to an extent that cannot
+be offset by the large quantities of training
+data. However, our extensions of the sys-
+tem to extract modification events shows
+promise.
+1 

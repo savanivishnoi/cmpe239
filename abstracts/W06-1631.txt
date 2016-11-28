@@ -1,0 +1,19 @@
+
+The increasing flow of information be-
+tween languages has led to a rise in the fre-
+quency of non-native or loan words, where
+terms of one language appear transliter-
+ated in another. Dealing with such out
+of vocabulary words is essential for suc-
+cessful cross-lingual information retrieval.
+For example, techniques such as stemming
+should not be applied indiscriminately to
+all words in a collection, and so before any
+stemming, foreign words need to be iden-
+tified. In this paper, we investigate three
+approaches for the identification of foreign
+words in Arabic text: lexicons, language
+patterns, and n-grams and present that re-
+sults show that lexicon-based approaches
+outperform the other techniques.
+1 

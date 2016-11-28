@@ -1,0 +1,22 @@
+
+RWTH participated in the System Combi-
+nation task of the Sixth Workshop on Sta-
+tistical Machine Translation (WMT 2011).
+For three language pairs, we combined
+6 to 14 systems into a single consen-
+sus translation. A three-level meta-
+combination scheme combining six dif-
+ferent system combination setups with
+three different engines was applied on the
+French?English language pair. Depend-
+ing on the language pair, improvements
+versus the best single system are in the
+range of +1.9% and +2.5% abs. on
+BLEU, and between ?1.8% and ?2.4%
+abs. on TER. Novel techniques compared
+with RWTH?s submission to WMT 2010
+include two additional system combina-
+tion engines, an additional word alignment
+technique, meta combination, and addi-
+tional optimization techniques.
+1 

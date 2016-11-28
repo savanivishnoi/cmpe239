@@ -1,0 +1,19 @@
+
+We present a novel classifier-based deter-
+ministic parser for Chinese constituency
+parsing. Our parser computes parse trees
+from bottom up in one pass, and uses
+classifiers to make shift-reduce decisions.
+Trained and evaluated on the standard
+training and test sets, our best model (us-
+ing stacked classifiers) runs in linear time
+and has labeled precision and recall above
+88% using gold-standard part-of-speech
+tags, surpassing the best published re-
+sults. Our SVM parser is 2-13 times faster
+than state-of-the-art parsers, while produc-
+ing more accurate results. Our Maxent
+and DTree parsers run at speeds 40-270
+times faster than state-of-the-art parsers,
+but with 5-6% losses in accuracy.
+1 

@@ -1,0 +1,28 @@
+
+Cultural heritage, and other special domains,
+pose a particular problem for information
+retrieval: evaluation requires a dedicated
+test collection that takes the particular doc-
+uments and information requests into ac-
+count, but building such a test collection re-
+quires substantial human effort. This paper
+investigates methods of generating a docu-
+ment retrieval test collection from a search
+engine?s transaction log, based on submit-
+ted queries and user-click data. We test our
+methods on a museum?s search log file, and
+compare the quality of the generated test
+collections against a collection with manu-
+ally generated and judged known-item top-
+ics. Our main findings are the following.
+First, the test collection derived from a trans-
+action log corresponds well to the actual
+search experience of real users. Second,
+the ranking of systems based on the derived
+judgments corresponds well to the ranking
+based on the manual topics. Third, deriving
+pseudo-relevance judgments from a transac-
+tion log file is an attractive option in do-
+mains where dedicated test collections are
+not readily available.
+1 

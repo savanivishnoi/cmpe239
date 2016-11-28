@@ -1,0 +1,20 @@
+ 
+Keh- J iann Chen Sh ing- l luan  Liu 
+Institute of lnfl~rmation Science 
+Academia  Sinica 
+Chinese sentences are composed with string of 
+characters without blanks to mark words. However the 
+basic unit for sentence parsing and understanding is 
+word. Therefore the first step of processing Chinese 
+sentences i to identify the words. The difficulties of 
+identifying words include (l) the identification of com- 
+plex words, such as Determinative-Measure, redupli- 
+cations, derived words etc., (2) the identification of 
+proper names,(3) resolving the ambiguous segmenta- 
+tions. In this paper, we propose the possible solutions 
+for the above difficulties. We adopt a matching algo- 
+rithm with 6 different heuristic rules to resolve the am- 
+biguities and achieve an 99.77% of the success rate. 
+The statistical data supports that the maximal match- 
+ing algorithm is the most effective heuristics. 
+1. 

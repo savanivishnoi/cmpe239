@@ -1,0 +1,15 @@
+
+In this paper, we describe methods for
+building and evaluation of limited do-
+main question-answering characters. Sev-
+eral classification techniques are tested, in-
+cluding text classification using support
+vector machines, language-model based
+retrieval, and cross-language information
+retrieval techniques, with the latter having
+the highest success rate. We also evalu-
+ated the effect of speech recognition errors
+on performance with users, finding that re-
+trieval is robust until recognition reaches
+over 50% WER.
+1 

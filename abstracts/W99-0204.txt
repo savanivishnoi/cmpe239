@@ -1,0 +1,23 @@
+ 
+This paper discusses how to automatically gen- 
+erate slide shows. The reported presenta- 
+tion system inputs documents annotated with 
+the GDA tagset, an XML tagset which allows 
+machines to automatically infer the semantic 
+structure underlying the raw documents. The 
+system picks up important opics in the in- 
+put document on the basis of the semantic de- 
+pendencies and coreferences identified from the 
+tags. This topic selection depends also on inter- 
+actions with the audience, leading to dynamic 
+adaptation of the presentation. A slide is com- 
+posed for each topic by extracting relevant sen- 
+tences and paraphrasing them to an itemized 
+summary. Some heuristics are employed here 
+for paraphrasing and layout. Since the GDA 
+tagset is independent of the domain and style 
+of documents and applicable to diverse natu- 
+ral languages, the reported system is also do- 
+main/style independent and easy to adapt to 
+different languages. 
+1 

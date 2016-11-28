@@ -1,0 +1,23 @@
+
+Distributional similarity is a widely used
+concept to capture the semantic relatedness
+of words in various NLP tasks. However, ac-
+curate similarity calculation requires a large
+number of contexts, which leads to imprac-
+tically high computational complexity. To
+alleviate the problem, we have investigated
+the effectiveness of automatic context selec-
+tion by applying feature selection methods
+explored mainly for text categorization. Our
+experiments on synonym acquisition have
+shown that while keeping or sometimes in-
+creasing the performance, we can drastically
+reduce the unique contexts up to 10% of the
+original size. We have also extended the
+measures so that they cover context cate-
+gories. The result shows a considerable cor-
+relation between the measures and the per-
+formance, enabling the automatic selection
+of effective context categories for distribu-
+tional similarity.
+1 

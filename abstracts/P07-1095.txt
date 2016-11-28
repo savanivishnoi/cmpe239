@@ -1,0 +1,19 @@
+
+We describe a new loss function, due to Jeon
+and Lin (2006), for estimating structured
+log-linear models on arbitrary features. The
+loss function can be seen as a (generative) al-
+ternative to maximum likelihood estimation
+with an interesting information-theoretic in-
+terpretation, and it is statistically consis-
+tent. It is substantially faster than maximum
+(conditional) likelihood estimation of condi-
+tional random fields (Lafferty et al, 2001;
+an order of magnitude or more). We com-
+pare its performance and training time to an
+HMM, a CRF, an MEMM, and pseudolike-
+lihood on a shallow parsing task. These ex-
+periments help tease apart the contributions
+of rich features and discriminative training,
+which are shown to be more than additive.
+1 

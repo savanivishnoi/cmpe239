@@ -1,0 +1,17 @@
+
+In this paper we tackle the problem of au-
+tomatic caption generation for news im-
+ages. Our approach leverages the vast re-
+source of pictures available on the web
+and the fact that many of them are cap-
+tioned. Inspired by recent work in sum-
+marization, we propose extractive and ab-
+stractive caption generation models. They
+both operate over the output of a proba-
+bilistic image annotation model that pre-
+processes the pictures and suggests key-
+words to describe their content. Exper-
+imental results show that an abstractive
+model defined over phrases is superior to
+extractive methods.
+1 

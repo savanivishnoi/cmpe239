@@ -1,0 +1,21 @@
+
+Sentiment classification is the task of labeling a re-
+view document according to the polarity of its pre-
+vailing opinion (favorable or unfavorable). In ap-
+proaching this problem, a model builder often has
+three sources of information available: a small col-
+lection of labeled documents, a large collection of
+unlabeled documents, and human understanding of
+language. Ideally, a learning method will utilize all
+three sources. To accomplish this goal, we general-
+ize an existing procedure that uses the latter two.
+We extend this procedure by re-interpreting it
+as a Naive Bayes model for document sentiment.
+Viewed as such, it can also be seen to extract a
+pair of derived features that are linearly combined
+to predict sentiment. This perspective allows us to
+improve upon previous methods, primarily through
+two strategies: incorporating additional derived fea-
+tures into the model and, where possible, using la-
+beled data to estimate their relative influence.
+1 

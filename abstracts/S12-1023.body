@@ -1,0 +1,16 @@
+
+Many types of polysemy are not word specific,
+but are instances of general sense alternations
+such as ANIMAL-FOOD. Despite their perva-
+siveness, regular alternations have been mostly
+ignored in empirical computational semantics.
+This paper presents (a) a general framework
+which grounds sense alternations in corpus
+data, generalizes them above individual words,
+and allows the prediction of alternations for
+new words; and (b) a concrete unsupervised
+implementation of the framework, the Cen-
+troid Attribute Model. We evaluate this model
+against a set of 2,400 ambiguous words and
+demonstrate that it outperforms two baselines.
+1 

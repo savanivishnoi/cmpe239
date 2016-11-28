@@ -1,0 +1,17 @@
+
+In this paper, we describe our participation in
+the TempEval-3 challenge. With our multi-
+lingual temporal tagger HeidelTime, we ad-
+dressed task A, the extraction and normaliza-
+tion of temporal expressions for English and
+Spanish. Exploiting HeidelTime?s strict sep-
+aration between source code and language-
+dependent parts, we tuned HeidelTime?s ex-
+isting English resources and developed new
+Spanish resources. For both languages, we
+achieved the best results among all partici-
+pants for task A, the combination of extraction
+and normalization. Both the improved English
+and the new Spanish resources are publicly
+available with HeidelTime.
+1 

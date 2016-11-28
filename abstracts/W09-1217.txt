@@ -1,0 +1,20 @@
+
+A joint syntactic and semantic dependency
+parsing system submitted to the CoNLL-2009
+shared task is presented in this paper. The
+system is composed of three components: a
+syntactic dependency parser, a predicate clas-
+sifier and a semantic parser. The first-order
+MSTParser is used as our syntactic depen-
+dency pasrser. Projective and non-projective
+MSTParsers are compared with each other on
+seven languages. Predicate classification and
+semantic parsing are both recognized as clas-
+sification problem, and the Maximum Entropy
+Models are used for them in our system. For
+semantic parsing and predicate classifying, we
+focus on finding optimized features on multi-
+ple languages. The average Macro F1 Score
+of our system is 73.97 for joint task in closed
+challenge.
+1 

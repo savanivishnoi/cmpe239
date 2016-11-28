@@ -1,0 +1,20 @@
+
+Automatic evaluation metrics for Ma-
+chine Translation (MT) systems, such
+as BLEU or NIST, are now well estab-
+lished. Yet, they are scarcely used for
+the assessment of language pairs like
+English-Chinese or English-Japanese,
+because of the word segmentation prob-
+lem. This study establishes the equiv-
+alence between the standard use of
+BLEU in word n-grams and its appli-
+cation at the character level. The use
+of BLEU at the character level elimi-
+nates the word segmentation problem:
+it makes it possible to directly compare
+commercial systems outputting unseg-
+mented texts with, for instance, statisti-
+cal MT systems which usually segment
+their outputs.
+1 

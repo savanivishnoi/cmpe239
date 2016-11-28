@@ -1,0 +1,18 @@
+
+The information retrieval (IR) commu-
+nity has investigated many different tech-
+niques to retrieve passages from large col-
+lections of documents for question answer-
+ing (QA). In this paper, we specifically ex-
+amine and quantitatively compare the im-
+pact of passage retrieval for QA using slid-
+ing windows and disjoint windows. We
+consider two different data sets, the TREC
+2002?2003 QA data set, and 93 why-
+questions against INEX Wikipedia. We
+discovered that, compared to disjoint win-
+dows, using sliding windows results in im-
+proved performance of TREC-QA in terms
+of TDRR, and in improved performance of
+why-QA in terms of success@n and MRR.
+1 

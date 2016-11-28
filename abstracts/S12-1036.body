@@ -1,0 +1,17 @@
+
+This paper describes our participation in the
+closed track of the *SEM 2012 Shared Task
+of finding the scope of negation. To perform
+the task, we propose a system that has three
+components: negation cue detection, scope of
+negation detection, and negated event detec-
+tion. In the first phase, the system creates a
+lexicon of negation signals from the training
+data and uses the lexicon to identify the nega-
+tion cues. Then, it applies machine learning
+approaches to detect the scope and negated
+event for each negation cue identified in the
+first phase. Using a preliminary approach, our
+system achieves a reasonably good accuracy
+in identifying the scope of negation.
+1 

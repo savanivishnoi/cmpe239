@@ -1,0 +1,24 @@
+
+We use the NLP toolchain that is used to con-
+struct the Groningen Meaning Bank to address
+the task of detecting negation cue and scope,
+as defined in the shared task ?Resolving the
+Scope and Focus of Negation?. This toolchain
+applies the C&C tools for parsing, using the
+formalism of Combinatory Categorial Gram-
+mar, and applies Boxer to produce seman-
+tic representations in the form of Discourse
+Representation Structures (DRSs). For nega-
+tion cue detection, the DRSs are converted
+to flat, non-recursive structures, called Dis-
+course Representation Graphs (DRGs). DRGs
+simplify cue detection by means of edge la-
+bels representing relations. Scope detection
+is done by gathering the tokens that occur
+within the scope of a negated DRS. The re-
+sult is a system that is fairly reliable for cue
+detection and scope detection. Furthermore, it
+provides a fairly robust algorithm for detect-
+ing the negated event or property within the
+scope.
+1 

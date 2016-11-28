@@ -1,0 +1,21 @@
+
+This paper focuses on domain-specific senses
+and presents a method for assigning cate-
+gory/domain label to each sense of words in
+a dictionary. The method first identifies each
+sense of a word in the dictionary to its cor-
+responding category. We used a text classifi-
+cation technique to select appropriate senses
+for each domain. Then, senses were scored by
+computing the rank scores. We used Markov
+Random Walk (MRW) model. The method
+was tested on English and Japanese resources,
+WordNet 3.0 and EDR Japanese dictionary.
+For evaluation of the method, we compared
+English results with the Subject Field Codes
+(SFC) resources. We also compared each En-
+glish and Japanese results to the first sense
+heuristics in the WSD task. These results
+suggest that identification of domain-specific
+senses (IDSS) may actually be of benefit.
+1 

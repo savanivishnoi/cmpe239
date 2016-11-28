@@ -1,0 +1,13 @@
+
+In this paper, we extend an existing statis-
+tical parsing model to produce richer out-
+put parse trees, annotated with PropBank
+semantic role labels. Our results show
+that the model can be robustly extended to
+produce more complex output parse trees
+without any loss in performance and sug-
+gest that joint inference of syntactic and
+semantic representations is a viable alter-
+native to approaches based on a pipeline
+of local processing steps.
+1 

@@ -1,0 +1,23 @@
+
+This paper describes University of Leipzig?s
+approach to SemEval-2013 task 2B on Sen-
+timent Analysis in Twitter: message polar-
+ity classification. Our system is designed to
+function as a baseline, to see what we can
+accomplish with well-understood and purely
+data-driven lexical features, simple general-
+izations as well as standard machine learning
+techniques: We use one-against-one Support
+Vector Machines with asymmetric cost fac-
+tors and linear ?kernels? as classifiers, word
+uni- and bigrams as features and additionally
+model negation of word uni- and bigrams in
+word n-gram feature space. We consider gen-
+eralizations of URLs, user names, hash tags,
+repeated characters and expressions of laugh-
+ter. Our method ranks 23 out of all 48 partic-
+ipating systems, achieving an averaged (pos-
+itive, negative) F-Score of 0.5456 and an av-
+eraged (positive, negative, neutral) F-Score of
+0.595, which is above median and average.
+1 

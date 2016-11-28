@@ -1,0 +1,20 @@
+ 
+This paper describes the application of an 
+ensemble of indexing and classification 
+systems, which have been shown to be suc-
+cessful in information retrieval and classi-
+fication of medical literature, to a new task 
+of assigning ICD-9-CM codes to the clini-
+cal history and impression sections of radi-
+ology reports. The basic methods used are: 
+a modification of the NLM Medical Text 
+Indexer system, SVM, k-NN and a simple 
+pattern-matching method. The basic meth-
+ods are combined using a variant of stack-
+ing. Evaluated in the context of a Medical 
+NLP Challenge, fusion produced an F-
+score of 0.85 on the Challenge test set, 
+which is considerably above the mean 
+Challenge F-score of 0.77 for 44 participat-
+ing groups. 
+1 

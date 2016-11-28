@@ -1,0 +1,32 @@
+ 
+This paper deals with automatic classification of 
+Arabic web documents. Such a classification is very 
+useful for affording directory search functionality, 
+which has been used by many web portals and 
+search engines to cope with an ever-increasing 
+number of documents on the web. In this paper, 
+Naive Bayes (NB) which is a statistical machine 
+learning algorithm, is used to classify non-vocalized 
+Arabic web documents (after their words have been 
+transformed to the corresponding canonical form, 
+i.e., roots) to one of five pre-defined categories. 
+Cross validation experiments are used to evaluate 
+the NB categorizer. The data set used during these 
+experiments consists of 300 web documents per 
+category. The results of cross validation in the 
+leave-one-out experiment show that, using 2,000 
+terms/roots, the categorization accuracy varies from 
+one category to another with an average accuracy 
+over all categories of 68.78 %. Furthermore, the 
+best categorization performance by category during 
+cross validation experiments goes up to 92.8%. 
+Further tests carried out on a manually collected 
+evaluation set which consists of 10 documents from 
+each of the 5 categories, show that the overall 
+classification accuracy achieved over all categories 
+is 62%,  and that the best result by category  reaches 
+90%.   
+Keywords: Na?ve Bayes, Arabic document 
+categorization, cross validation, TF-IDF. 
+ 
+1 

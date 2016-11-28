@@ -1,0 +1,22 @@
+
+Online learning algorithms such as perceptron
+and MIRA have become popular for many
+NLP tasks thanks to their simpler architec-
+ture and faster convergence over batch learn-
+ing methods. However, while batch learning
+such as CRF is easily parallelizable, online
+learning is much harder to parallelize: previ-
+ous efforts often witness a decrease in the con-
+verged accuracy, and the speedup is typically
+very small (?3) even with many (10+) pro-
+cessors. We instead present a much simpler
+architecture based on ?mini-batches?, which
+is trivially parallelizable. We show that, un-
+like previous methods, minibatch learning (in
+serial mode) actually improves the converged
+accuracy for both perceptron and MIRA learn-
+ing, and when combined with simple paral-
+lelization, minibatch leads to very significant
+speedups (up to 9x on 12 processors) on state-
+of-the-art parsing and tagging systems.
+1 

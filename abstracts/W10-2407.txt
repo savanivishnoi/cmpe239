@@ -1,0 +1,20 @@
+ 
+This paper presents transliteration mining on the 
+ACL 2010 NEWS workshop shared translitera-
+tion mining task data.  Transliteration mining 
+was done using a generative transliteration model 
+applied on the source language and whose output 
+was constrained on the words in the target lan-
+guage.  A total of 30 runs were performed on 5 
+language pairs, with 6 runs for each language 
+pair.  In the presence of limited resources, the 
+runs explored the use of phonetic conflation and 
+iterative training of the transliteration model to 
+improve recall.  Using letter conflation improved 
+recall by as much as 48%, with improvements in 
+recall dwarfing drops in precision.  Using itera-
+tive training improved recall, but often at the cost 
+of significant drops in precision.  The best runs 
+typically used both letter conflation and iterative 
+learning. 
+1 

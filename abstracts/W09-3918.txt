@@ -1,0 +1,17 @@
+
+Most studies on speech-based emotion
+recognition are based on prosodic and
+acoustic features, only employing artifi-
+cial acted corpora where the results cannot
+be generalized to telephone-based speech
+applications. In contrast, we present an
+approach based on utterances from 1,911
+calls from a deployed telephone-based
+speech application, taking advantage of
+additional dialogue features, NLU features
+and ASR features that are incorporated
+into the emotion recognition process. De-
+pending on the task, non-acoustic features
+add 2.3% in classification accuracy com-
+pared to using only acoustic features.
+1 

@@ -1,0 +1,24 @@
+
+We present a joint system for named entity
+recognition (NER) and entity linking (EL),
+allowing for named entities mentions ex-
+tracted from textual data to be matched to
+uniquely identifiable entities. Our approach
+relies on combined NER modules which
+transfer the disambiguation step to the EL
+component, where referential knowledge
+about entities can be used to select a correct
+entity reading. Hybridation is a main fea-
+ture of our system, as we have performed
+experiments combining two types of NER,
+based respectively on symbolic and statis-
+tical techniques. Furthermore, the statisti-
+cal EL module relies on entity knowledge
+acquired over a large news corpus using a
+simple rule-base disambiguation tool. An
+implementation of our system is described,
+along with experiments and evaluation re-
+sults on French news wires. Linking ac-
+curacy reaches up to 87%, and the NER F-
+score up to 83%.
+1 

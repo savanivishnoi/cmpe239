@@ -1,0 +1,19 @@
+
+This paper describes cross-task flexible tran-
+sition models (CTF-TMs) and demonstrates
+their effectiveness for Arabic natural language
+processing (NLP). NLP pipelines often suffer
+from error propagation, as errors committed
+in lower-level tasks cascade through the re-
+mainder of the processing pipeline. By al-
+lowing a flexible order of operations across
+and within multiple NLP tasks, a CTF-TM can
+mitigate both cross-task and within-task error
+propagation. Our Arabic CTF-TM models to-
+kenization, affix detection, affix labeling, part-
+of-speech tagging, and dependency parsing,
+achieving state-of-the-art results. We present
+the details of our general framework, our Ara-
+bic CTF-TM, and the setup and results of our
+experiments.
+1 

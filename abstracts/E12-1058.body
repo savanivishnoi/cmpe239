@@ -1,0 +1,28 @@
+
+The search in patent databases is a risky
+business compared to the search in other
+domains. A single document that is relevant
+but overlooked during a patent search can
+turn into an expensive proposition. While
+recent research engages in specialized mod-
+els and algorithms to improve the effective-
+ness of patent retrieval, we bring another
+aspect into focus: the detection and ex-
+ploitation of patent inconsistencies. In par-
+ticular, we analyze spelling errors in the as-
+signee field of patents granted by the United
+States Patent & Trademark Office. We in-
+troduce technology in order to improve re-
+trieval effectiveness despite the presence of
+typographical ambiguities. In this regard,
+we (1) quantify spelling errors in terms of
+edit distance and phonological dissimilarity
+and (2) render error detection as a learn-
+ing problem that combines word dissimi-
+larities with patent meta-features. For the
+task of finding all patents of a company,
+our approach improves recall from 96.7%
+(when using a state-of-the-art patent search
+engine) to 99.5%, while precision is com-
+promised by only 3.7%.
+1 

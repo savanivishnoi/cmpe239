@@ -1,0 +1,16 @@
+
+We describe tree edit models for representing
+sequences of tree transformations involving
+complex reordering phenomena and demon-
+strate that they offer a simple, intuitive, and
+effective method for modeling pairs of seman-
+tically related sentences. To efficiently extract
+sequences of edits, we employ a tree kernel
+as a heuristic in a greedy search routine. We
+describe a logistic regression model that uses
+33 syntactic features of edit sequences to clas-
+sify the sentence pairs. The approach leads to
+competitive performance in recognizing tex-
+tual entailment, paraphrase identification, and
+answer selection for question answering.
+1 

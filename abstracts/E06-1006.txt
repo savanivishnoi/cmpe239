@@ -1,0 +1,12 @@
+
+We propose a backoff model for phrase-
+based machine translation that translates
+unseen word forms in foreign-language
+text by hierarchical morphological ab-
+stractions at the word and the phrase level.
+The model is evaluated on the Europarl
+corpus for German-English and Finnish-
+English translation and shows improve-
+ments over state-of-the-art phrase-based
+models.
+1 

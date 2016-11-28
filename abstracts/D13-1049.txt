@@ -1,0 +1,21 @@
+
+We present a simple and novel classifier-based
+preordering approach. Unlike existing pre-
+ordering models, we train feature-rich dis-
+criminative classifiers that directly predict the
+target-side word order. Our approach com-
+bines the strengths of lexical reordering and
+syntactic preordering models by performing
+long-distance reorderings using the structure
+of the parse tree, while utilizing a discrimina-
+tive model with a rich set of features, includ-
+ing lexical features. We present extensive ex-
+periments on 22 language pairs, including pre-
+ordering into English from 7 other languages.
+We obtain improvements of up to 1.4 BLEU
+on language pairs in the WMT 2010 shared
+task. For languages from different families the
+improvements often exceed 2 BLEU. Many of
+these gains are also significant in human eval-
+uations.
+1 

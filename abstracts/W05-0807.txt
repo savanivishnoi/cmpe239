@@ -1,0 +1,33 @@
+
+This paper presents an original approach
+to part-of-speech tagging of fine-grained
+features (such as case, aspect, and adjec-
+tive person/number) in languages such as
+English where these properties are gener-
+ally not morphologically marked.
+The goals of such rich lexical tagging
+in English are to provide additional fea-
+tures for word alignment models in bilin-
+gual corpora (for statistical machine trans-
+lation), and to provide an information
+source for part-of-speech tagger induction
+in new languages via tag projection across
+bilingual corpora.
+First, we present a classifier-combination
+approach to tagging English bitext with
+very fine-grained part-of-speech tags nec-
+essary for annotating morphologically
+richer languages such as Czech and
+French, combining the extracted fea-
+tures of three major English parsers,
+and achieve fine-grained-tag-level syntac-
+tic analysis accuracy higher than any indi-
+vidual parser.
+Second, we present experimental results
+for the cross-language projection of part-
+of-speech taggers in Czech and French via
+word-aligned bitext, achieving success-
+ful fine-grained part-of-speech tagging of
+these languages without any Czech or
+French training data of any kind.
+1 

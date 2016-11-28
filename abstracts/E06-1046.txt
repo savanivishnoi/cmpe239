@@ -1,0 +1,27 @@
+
+Multimodal grammars provide an expres-
+sive formalism for multimodal integra-
+tion and understanding. However, hand-
+crafted multimodal grammars can be brit-
+tle with respect to unexpected, erroneous,
+or disfluent inputs. Spoken language
+(speech-only) understanding systems have
+addressed this issue of lack of robustness
+of hand-crafted grammars by exploiting
+classification techniques to extract fillers
+of a frame representation. In this paper,
+we illustrate the limitations of such clas-
+sification approaches for multimodal in-
+tegration and understanding and present
+an approach based on edit machines that
+combine the expressiveness of multimodal
+grammars with the robustness of stochas-
+tic language models of speech recognition.
+We also present an approach where the
+edit operations are trained from data using
+a noisy channel model paradigm. We eval-
+uate and compare the performance of the
+hand-crafted and learned edit machines in
+the context of a multimodal conversational
+system (MATCH).
+1 

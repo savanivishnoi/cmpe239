@@ -1,0 +1,12 @@
+
+This paper describes the system MC-WSD pre-
+sented for the English Lexical Sample task. The
+system is based on a multicomponent architecture.
+It consists of one classifier with two components.
+One is trained on the data provided for the task. The
+second is trained on this data and, additionally, on
+an external training set extracted from the Wordnet
+glosses. The goal of the additional component is to
+lessen sparse data problems by exploiting the infor-
+mation encoded in the ontology.
+1 

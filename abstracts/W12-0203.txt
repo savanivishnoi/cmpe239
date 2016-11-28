@@ -1,0 +1,15 @@
+
+In statistical NLP, Semantic Vector Spaces
+(SVS) are the standard technique for the
+automatic modeling of lexical semantics.
+However, it is largely unclear how these
+black-box techniques exactly capture word
+meaning. To explore the way an SVS struc-
+tures the individual occurrences of words,
+we use a non-parametric MDS solution of
+a token-by-token similarity matrix. The
+MDS solution is visualized in an interac-
+tive plot with the Google Chart Tools. As
+a case study, we look at the occurrences of
+476 Dutch nouns grouped in 214 synsets.
+1 

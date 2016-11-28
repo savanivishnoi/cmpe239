@@ -1,0 +1,24 @@
+ 
+Chinese word segmentation is the initial 
+step for Chinese information processing. 
+The performance of Chinese word seg-
+mentation has been greatly improved by 
+character-based approaches in recent 
+years. This approach treats Chinese 
+word segmentation as a character-word-
+position-tagging problem. With the help 
+of powerful sequence tagging model, 
+character-based method quickly rose as 
+a mainstream technique in this field. 
+This paper presents our segmentation 
+system for evaluation of CIPS-SIGHAN 
+2010 in which method combining char-
+acter-based and subsequence-based tag-
+ging is applied and conditional random 
+fields (CRFs) is taken as sequence tag-
+ging model. We evaluated our system in 
+closed and open tracks on four corpuses, 
+namely Literary, Computer science, 
+Medicine and Finance, and reported our 
+evaluation results.  
+1 

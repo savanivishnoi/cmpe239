@@ -1,0 +1,22 @@
+
+We present a novel almost-unsupervised
+approach to the task of Word Sense Dis-
+ambiguation (WSD). We build sense ex-
+amples automatically, using large quanti-
+ties of Chinese text, and English-Chinese
+and Chinese-English bilingual dictionar-
+ies, taking advantage of the observation
+that mappings between words and mean-
+ings are often different in typologically
+distant languages. We train a classifier on
+the sense examples and test it on a gold
+standard English WSD dataset. The eval-
+uation gives results that exceed previous
+state-of-the-art results for comparable sys-
+tems. We also demonstrate that a little
+manual effort can improve the quality of
+sense examples, as measured by WSD ac-
+curacy. The performance of the classifier
+on WSD also improves as the number of
+training sense examples increases.
+1 

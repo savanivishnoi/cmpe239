@@ -1,0 +1,14 @@
+
+We provide two different methods for
+bounding search when parsing with freer
+word-order languages. Both of these can
+be thought of as exploiting alternative
+sources of constraints not commonly used
+in CFGs, in order to make up for the lack
+of more rigid word-order and the standard
+algorithms that use the assumption of rigid
+word-order implicitly. This work is pre-
+liminary in that it has not yet been evalu-
+ated on a large-scale grammar/corpus for a
+freer word-order language.
+1 

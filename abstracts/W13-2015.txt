@@ -1,0 +1,24 @@
+ 
+We describe a system for extracting biomedi-
+cal events among genes and proteins from 
+biomedical literature, using the corpus from 
+the BioNLP?13 Shared Task on Event Extrac-
+tion. The proposed system is characterized by 
+a wide array of features based on dependency 
+parse graphs and additional argument informa-
+tion in the second trigger detection. Based on 
+the Uturku system which is the best one in the 
+BioNLP?09 Shared Task, we improve the per-
+formance of biomedical event extraction by 
+reducing illegal events and false positives in 
+the second trigger detection and the second ar-
+gument detection. On the development set of 
+BioNLP?13, the system achieves an F-score of 
+50.96% on the primary task. On the test set of 
+BioNLP?13, it achieves an F-score of 47.56% 
+on the primary task obtaining the 5th place in 
+task 1, which is 1.78 percentage points higher 
+than the baseline (following the Uturku sys-
+tem), demonstrating that the proposed method 
+is efficient. 
+1 

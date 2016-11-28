@@ -1,0 +1,17 @@
+
+Common tasks involving orthographic
+words include spellchecking, stemming,
+morphological analysis, and morpho-
+logical synthesis. To enable signifi-
+cant reuse of the language-specific re-
+sources across all such tasks, we have
+extended the functionality of the open
+source spellchecker MySpell, yield-
+ing a generic word analysis library, the
+runtime layer of the hunmorph toolkit.
+We added an offline resource manage-
+ment component, hunlex, which com-
+plements the efficiency of our runtime
+layer with a high-level description lan-
+guage and a configurable precompiler.
+0 

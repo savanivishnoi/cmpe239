@@ -1,0 +1,27 @@
+
+Many errors in coreference resolution come
+from semantic mismatches due to inadequate
+world knowledge. Errors in named-entity
+linking (NEL), on the other hand, are of-
+ten caused by superficial modeling of entity
+context. This paper demonstrates that these
+two tasks are complementary. We introduce
+NECO, a new model for named entity linking
+and coreference resolution, which solves both
+problems jointly, reducing the errors made on
+each. NECO extends the Stanford determinis-
+tic coreference system by automatically link-
+ing mentions to Wikipedia and introducing
+new NEL-informed mention-merging sieves.
+Linking improves mention-detection and en-
+ables new semantic attributes to be incorpo-
+rated from Freebase, while coreference pro-
+vides better context modeling by propagat-
+ing named-entity links within mention clus-
+ters. Experiments show consistent improve-
+ments across a number of datasets and ex-
+perimental conditions, including over 11% re-
+duction in MUC coreference error and nearly
+21% reduction in F1 NEL error on ACE 2004
+newswire data.
+1 

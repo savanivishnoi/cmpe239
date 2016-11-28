@@ -1,0 +1,13 @@
+
+The Varro toolkit offers an intuitive mech-
+anism for extracting syntactically mo-
+tivated multi-word expressions (MWEs)
+from dependency treebanks by looking for
+recurring connected subtrees instead of
+subsequences in strings. This approach
+can find MWEs that are in varying orders
+and have words inserted into their compo-
+nents. This paper also proposes descrip-
+tion length gain as a statistical correlation
+measure well-suited to tree structures.
+1 

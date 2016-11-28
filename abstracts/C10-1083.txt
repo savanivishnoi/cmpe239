@@ -1,0 +1,22 @@
+
+We study the problem of integrating scat-
+tered online opinions. For this purpose,
+we propose to exploit structured ontology
+to obtain well-formed relevant aspects to
+a topic and use them to organize scattered
+opinions to generate a structured sum-
+mary. Particularly, we focus on two main
+challenges in implementing this idea, (1)
+how to select the most useful aspects from
+a large number of aspects in the ontology
+and (2) how to order the selected aspects
+to optimize the readability of the struc-
+tured summary. We propose and explore
+several methods for solving these chal-
+lenges. Experimental results on two dif-
+ferent data sets (US Presidents and Digital
+Cameras) show that the proposed methods
+are effective for selecting aspects that can
+represent the major opinions and for gen-
+erating coherent ordering of aspects.
+1 

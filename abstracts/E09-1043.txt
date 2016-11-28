@@ -1,0 +1,18 @@
+
+We extend the factored translation model
+(Koehn and Hoang, 2007) to allow trans-
+lations of longer phrases composed of fac-
+tors such as POS and morphological tags
+to act as templates for the selection and re-
+ordering of surface phrase translation. We
+also reintroduce the use of alignment in-
+formation within the decoder, which forms
+an integral part of decoding in the Align-
+ment Template System (Och, 2002), into
+phrase-based decoding.
+Results show an increase in transla-
+tion performance of up to 1.0% BLEU
+for out-of-domain French?English transla-
+tion. We also show how this method com-
+pares and relates to lexicalized reordering.
+1 

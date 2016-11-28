@@ -1,0 +1,14 @@
+
+Using labeled Twitter training data from
+SemEval-2013, we train both a subjectivity
+classifier and a polarity classifier separately,
+and then combine the two into a single hier-
+archical classifier. Using additional unlabeled
+data that is believed to contain sentiment, we
+allow the polarity classifier to continue learn-
+ing using self-training. The resulting system is
+capable of classifying a document as neutral,
+positive, or negative with an overall accuracy
+of 61.2% using our hierarchical Naive Bayes
+classifier.1
+1 

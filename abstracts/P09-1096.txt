@@ -1,0 +1,24 @@
+
+Short Messaging Service (SMS) is popu-
+larly used to provide information access to
+people on the move. This has resulted in
+the growth of SMS based Question An-
+swering (QA) services. However auto-
+matically handling SMS questions poses
+significant challenges due to the inherent
+noise in SMS questions. In this work we
+present an automatic FAQ-based question
+answering system for SMS users. We han-
+dle the noise in a SMS query by formu-
+lating the query similarity over FAQ ques-
+tions as a combinatorial search problem.
+The search space consists of combinations
+of all possible dictionary variations of to-
+kens in the noisy query. We present an ef-
+ficient search algorithm that does not re-
+quire any training data or SMS normaliza-
+tion and can handle semantic variations in
+question formulation. We demonstrate the
+effectiveness of our approach on two real-
+life datasets.
+1 

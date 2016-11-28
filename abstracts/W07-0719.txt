@@ -1,0 +1,18 @@
+
+In this work we revise the application
+of discriminative learning to the problem
+of phrase selection in Statistical Machine
+Translation. Inspired by common tech-
+niques used in Word Sense Disambiguation,
+we train classifiers based on local context
+to predict possible phrase translations. Our
+work extends that of Vickrey et al (2005) in
+two main aspects. First, we move from word
+translation to phrase translation. Second, we
+move from the ?blank-filling? task to the ?full
+translation? task. We report results on a set
+of highly frequent source phrases, obtaining
+a significant improvement, specially with re-
+spect to adequacy, according to a rigorous
+process of manual evaluation.
+1 

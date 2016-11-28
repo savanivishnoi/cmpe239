@@ -1,0 +1,28 @@
+
+Automatic assessment of the readability
+level (i.e., the relative linguistic complex-
+ity) of documents in a large number of
+languages is an important problem that
+can be applied to many real-world appli-
+cations, such as retrieving age-appropriate
+search engine results for kids, construct-
+ing automatic tutoring systems, and so on.
+Unfortunately, existing readability label-
+ing techniques have only been applied to
+a very small number of languages. In this
+paper, we present an extensible crosslin-
+guistic readability framework based on the
+use of parallel corpora to quickly create
+readability software for thousands of lan-
+guages, including languages for which no
+linguists are available to define readability
+rules or for which documents with read-
+ability labels are lacking to train readabil-
+ity models. To demonstrate our idea, we
+developed a system based on the proposed
+framework. This paper discusses the theo-
+retical and practical issues involved in de-
+signing such a system and presents the re-
+sults of an experiment conducted with the
+system.
+1 

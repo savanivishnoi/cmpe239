@@ -1,0 +1,18 @@
+ 
+Conditional Random Fields (CRFs) are the 
+state-of-the-art models for sequential labe-
+ling problems. A critical step is to select 
+optimal feature template subset before em-
+ploying CRFs, which is a tedious task. To 
+improve the efficiency of this step, we pro-
+pose a new method that adopts the maxi-
+mum entropy (ME) model and maximum 
+entropy Markov models (MEMMs) instead 
+of CRFs considering the homology be-
+tween ME, MEMMs, and CRFs. Moreover, 
+empirical studies on the efficiency and ef-
+fectiveness of the method are conducted in 
+the field of Chinese text chunking, whose 
+performance is ranked the first place in 
+task two of CIPS-ParsEval-2009. 
+1 

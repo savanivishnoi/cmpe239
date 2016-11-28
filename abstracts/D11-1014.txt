@@ -1,0 +1,22 @@
+
+We introduce a novel machine learning frame-
+work based on recursive autoencoders for
+sentence-level prediction of sentiment label
+distributions. Our method learns vector space
+representations for multi-word phrases. In
+sentiment prediction tasks these represen-
+tations outperform other state-of-the-art ap-
+proaches on commonly used datasets, such as
+movie reviews, without using any pre-defined
+sentiment lexica or polarity shifting rules. We
+also evaluate the model?s ability to predict
+sentiment distributions on a new dataset based
+on confessions from the experience project.
+The dataset consists of personal user stories
+annotated with multiple labels which, when
+aggregated, form a multinomial distribution
+that captures emotional reactions. Our al-
+gorithm can more accurately predict distri-
+butions over such labels compared to several
+competitive baselines.
+1 

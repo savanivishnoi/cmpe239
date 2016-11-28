@@ -1,0 +1,11 @@
+
+In this paper we present a system submitted to the
+CoNLL Shared Task 2009 performing the identifi-
+cation and labeling of syntactic and semantic depen-
+dencies in multiple languages. Dependencies are
+truly jointly learned, i.e. as if they were a single
+task. The system works in two phases: a classifica-
+tion phase in which three classifiers predict different
+types of information, and a ranking phase in which
+the output of the classifiers is combined.
+1 

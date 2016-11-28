@@ -1,0 +1,29 @@
+
+Ontologies and taxonomies are widely used to
+organize concepts providing the basis for ac-
+tivities such as indexing, and as background
+knowledge for NLP tasks. As such, trans-
+lation of these resources would prove use-
+ful to adapt these systems to new languages.
+However, we show that the nature of these
+resources is significantly different from the
+?free-text? paradigm used to train most sta-
+tistical machine translation systems. In par-
+ticular, we see significant differences in the
+linguistic nature of these resources and such
+resources have rich additional semantics. We
+demonstrate that as a result of these linguistic
+differences, standard SMT methods, in partic-
+ular evaluation metrics, can produce poor per-
+formance. We then look to the task of leverag-
+ing these semantics for translation, which we
+approach in three ways: by adapting the trans-
+lation system to the domain of the resource;
+by examining if semantics can help to predict
+the syntactic structure used in translation; and
+by evaluating if we can use existing translated
+taxonomies to disambiguate translations. We
+present some early results from these experi-
+ments, which shed light on the degree of suc-
+cess we may have with each approach.
+1 

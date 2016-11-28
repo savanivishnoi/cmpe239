@@ -1,0 +1,19 @@
+
+This paper describes our Statistical Ma-
+chine Translation systems for the WMT10
+evaluation, where LIMSI participated for
+two language pairs (French-English and
+German-English, in both directions). For
+German-English, we concentrated on nor-
+malizing the German side through a proper
+preprocessing, aimed at reducing the lex-
+ical redundancy and at splitting complex
+compounds. For French-English, we stud-
+ied two extensions of our in-house N -code
+decoder: firstly, the effect of integrating a
+new bilingual reordering model; second,
+the use of adaptation techniques for the
+translation model. For both set of exper-
+iments, we report the improvements ob-
+tained on the development and test data.
+1 

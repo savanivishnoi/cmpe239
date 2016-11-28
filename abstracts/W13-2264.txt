@@ -1,0 +1,24 @@
+
+The Discriminative Word Lexicon (DWL)
+is a maximum-entropy model that pre-
+dicts the target word probability given the
+source sentence words. We present two
+ways to extend a DWL to improve its abil-
+ity to model the word translation probabil-
+ity in a phrase-based machine translation
+(PBMT) system. While DWLs are able to
+model the global source information, they
+ignore the structure of the source and tar-
+get sentence. We propose to include this
+structure by modeling the source sentence
+as a bag-of-n-grams and features depend-
+ing on the surrounding target words. Fur-
+thermore, as the standard DWL does not
+get any feedback from the MT system, we
+change the DWL training process to ex-
+plicitly focus on addressing MT errors.
+By using these methods we are able to im-
+prove the translation performance by up
+to 0.8 BLEU points compared to a system
+that uses a standard DWL.
+1 

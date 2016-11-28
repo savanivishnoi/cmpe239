@@ -1,0 +1,21 @@
+ 
+This paper presents a word-pair (WP) 
+identifier that can be used to resolve 
+homonym/segmentation ambiguities 
+and perform syllable-to-word (STW) 
+conversion effectively for improving 
+Chinese input systems. The experi-
+ment results show the following: (1) 
+the WP identifier is able to achieve to-
+nal (syllables with four tones) and 
+toneless (syllables without four tones) 
+STW accuracies of 98.5% and 90.7%, 
+respectively, among the identified 
+word-pairs; (2) while applying the WP 
+identifier, together with the Microsoft 
+input method editor 2003 and an opti-
+mized bigram model, the tonal and 
+toneless STW improvements of the 
+two input systems are 27.5%/18.9% 
+and 22.1%/18.8%, respectively. 
+1 

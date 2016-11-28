@@ -1,0 +1,15 @@
+
+We present a statistical phrase-based transla-
+tion model that uses hierarchical phrases?
+phrases that contain subphrases. The model
+is formally a synchronous context-free gram-
+mar but is learned from a bitext without any
+syntactic information. Thus it can be seen as
+a shift to the formal machinery of syntax-
+based translation systems without any lin-
+guistic commitment. In our experiments us-
+ing BLEU as a metric, the hierarchical phrase-
+based model achieves a relative improve-
+ment of 7.5% over Pharaoh, a state-of-the-art
+phrase-based system.
+1 

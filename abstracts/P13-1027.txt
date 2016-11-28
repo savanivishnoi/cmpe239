@@ -1,0 +1,20 @@
+
+We present a corpus analysis of how Ital-
+ian connectives are translated into LIS, the
+Italian Sign Language. Since corpus re-
+sources are scarce, we propose an align-
+ment method between the syntactic trees
+of the Italian sentence and of its LIS trans-
+lation. This method, and clustering ap-
+plied to its outputs, highlight the differ-
+ent ways a connective can be rendered in
+LIS: with a corresponding sign, by affect-
+ing the location or shape of other signs, or
+being omitted altogether. We translate
+these findings into a computational model
+that will be integrated into the pipeline of
+an existing Italian-LIS rendering system.
+Initial experiments to learn the four possi-
+ble translations with Decision Trees give
+promising results.
+1 

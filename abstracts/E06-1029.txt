@@ -1,0 +1,21 @@
+ 
+We propose a method for compiling bi-
+lingual terminologies of multi-word 
+terms (MWTs) for given translation pairs 
+of seed terms. Traditional methods for bi-
+lingual terminology compilation exploit 
+parallel texts, while the more recent ones 
+have focused on comparable corpora. We 
+use bilingual corpora collected from the 
+web and tailor made for the seed terms. 
+For each language, we extract from the 
+corpus a set of MWTs pertaining to the 
+seed?s semantic domain, and use a com-
+positional method to align MWTs from 
+both sets. We increase the coverage of 
+our system by using thesauri and by ap-
+plying a bootstrap method. Experimental 
+results show high precision and indicate 
+promising prospects for future develop-
+ments.  
+1 

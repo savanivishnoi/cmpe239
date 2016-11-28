@@ -1,0 +1,14 @@
+
+We present the first results on parsing the
+SYNTAGRUS treebank of Russian with a
+data-driven dependency parser, achieving
+a labeled attachment score of over 82%
+and an unlabeled attachment score of 89%.
+A feature analysis shows that high parsing
+accuracy is crucially dependent on the use
+of both lexical and morphological features.
+We conjecture that the latter result can be
+generalized to richly inflected languages in
+general, provided that sufficient amounts
+of training data are available.
+1 

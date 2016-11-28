@@ -1,0 +1,36 @@
+ 
+The present work reports the develop-
+ment of Manipuri-English bidirectional 
+statistical machine translation systems. In 
+the English-Manipuri statistical machine 
+translation system, the role of the suffixes 
+and dependency relations on the source 
+side and case markers on the target side 
+are identified as important translation 
+factors. A parallel corpus of 10350 sen-
+tences from news domain is used for 
+training and the system is tested with 500 
+sentences. Using the proposed translation 
+factors, the output of the translation qual-
+ity is improved as indicated by baseline 
+BLEU score of 13.045 and factored 
+BLEU score of 16.873 respectively. Si-
+milarly, for the Manipuri English system, 
+the role of case markers and POS tags in-
+formation at the source side and suffixes 
+and dependency relations at the target 
+side are identified as useful translation 
+factors. The case markers and suffixes 
+are not only responsible to determine the 
+word classes but also to determine the 
+dependency relations. Using these trans-
+lation factors, the output of the transla-
+tion quality is improved as indicated by 
+baseline BLEU score of 13.452 and fac-
+tored BLEU score of 17.573 respectively. 
+Further, the subjective evaluation indi-
+cates the improvement in the fluency and 
+adequacy of both the factored SMT out-
+puts over the respective baseline systems. 
+ 
+1 

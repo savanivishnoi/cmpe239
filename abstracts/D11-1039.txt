@@ -1,0 +1,23 @@
+
+Conversations provide rich opportunities for
+interactive, continuous learning. When some-
+thing goes wrong, a system can ask for clari-
+fication, rewording, or otherwise redirect the
+interaction to achieve its goals. In this pa-
+per, we present an approach for using con-
+versational interactions of this type to induce
+semantic parsers. We demonstrate learning
+without any explicit annotation of the mean-
+ings of user utterances. Instead, we model
+meaning with latent variables, and introduce
+a loss function to measure how well potential
+meanings match the conversation. This loss
+drives the overall learning approach, which in-
+duces a weighted CCG grammar that could be
+used to automatically bootstrap the semantic
+analysis component in a complete dialog sys-
+tem. Experiments on DARPA Communica-
+tor conversational logs demonstrate effective
+learning, despite requiring no explicit mean-
+ing annotations.
+1 

@@ -1,0 +1,18 @@
+ 
+Givcn a grammar for a language, it is possible to 
+create finite state mechanisms that approximate 
+its recognition capacity. These simple automata 
+consider only short context information~ drawn 
+from local syntactic constraints which the 
+grammar hnposes. While it is short of providing 
+the strong generative capacity of the grammar, 
+such an approximation is useful for removing 
+most word tagging ambiguities, identifying many 
+cases of iU-fonncd input, and assisting efficiently 
+in othcr natural language processing tasks. Our 
+basic approach to the acquisition and usage of 
+local syntactic constraints was presented clse- 
+whcre; in this papcr we present some formal and 
+empiric-,d results pertaining to properties of the 
+approximating automata. 
+1. 

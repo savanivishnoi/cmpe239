@@ -1,0 +1,18 @@
+
+Active learning (AL) promises to reduce
+the cost of annotating labeled datasets for
+trainable human language technologies.
+Contrary to expectations, when creating
+labeled training material for HPSG parse
+selection and later reusing it with other
+models, gains from AL may be negligible
+or even negative. This has serious impli-
+cations for using AL, showing that addi-
+tional cost-saving strategies may need to
+be adopted. We explore one such strategy:
+using a model during annotation to auto-
+mate some of the decisions. Our best re-
+sults show an 80% reduction in annotation
+cost compared with labeling randomly se-
+lected data with a single model.
+1 

@@ -1,0 +1,28 @@
+
+This paper addresses a dialogue strategy
+to clarify and constrain the queries for
+speech-driven document retrieval systems.
+In spoken dialogue interfaces, users often
+make utterances before the query is com-
+pletely generated in their mind; thus input
+queries are often vague or fragmental. As
+a result, usually many items are matched.
+We propose an efficient dialogue frame-
+work, where the system dynamically se-
+lects an optimal question based on infor-
+mation gain (IG), which represents reduc-
+tion of matched items. A set of possible
+questions is prepared using various knowl-
+edge sources. As a bottom-up knowl-
+edge source, we extract a list of words
+that can take a number of objects and po-
+tentially causes ambiguity, using a depen-
+dency structure analysis of the document
+texts. This is complemented by top-down
+knowledge sources of metadata and hand-
+crafted questions. An experimental evalu-
+ation showed that the method significantly
+improved the success rate of retrieval, and
+all categories of the prepared questions
+contributed to the improvement.
+1 

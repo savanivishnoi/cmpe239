@@ -1,0 +1,22 @@
+
+We present a rule-based method to automati-
+cally create a large-coverage semantic lexicon
+of French adjectives by extracting paradig-
+matic relations from lexicographic definitions.
+Formalized adjectival resources are, indeed,
+scarce for French and they mostly focus on
+morphological and syntactic information. Our
+objective is, therefore, to contribute enriching
+the available set of resources by taking advan-
+tage of reliable lexicographic data and formal-
+izing it with the well-established lexical func-
+tions formalism. The resulting semantic lexi-
+con of French adjectives can be used in NLP
+tasks such as word sense disambiguation or
+machine translation. After presenting related
+work, we describe the extraction method and
+the formalization procedure of the data. Our
+method is then quantitatively and qualitatively
+evaluated. We discuss the results of the evalu-
+ation and conclude on some perspectives.
+1 

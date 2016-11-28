@@ -1,0 +1,19 @@
+
+We query Web Image search engines with
+words (e.g., spring) but need images that
+correspond to particular senses of the word
+(e.g., flexible coil). Querying with poly-
+semous words often yields unsatisfactory
+results from engines such as Google Im-
+ages. We build an image search engine,
+IDIOM, which improves the quality of re-
+turned images by focusing search on the
+desired sense. Our algorithm, instead of
+searching for the original query, searches
+for multiple, automatically chosen trans-
+lations of the sense in several languages.
+Experimental results show that IDIOM out-
+performs Google Images and other com-
+peting algorithms returning 22% more rel-
+evant images.
+1 

@@ -1,0 +1,16 @@
+
+Part-Of-Speech(POS) tagging is the essen-
+tial basis of Natural language process-
+ing(NLP). In this paper, we present an al-
+gorithm that combines a variety of context
+features, e.g. the POS tags of the words next
+to the word a that needs to be tagged and the
+context lexical information of a by Canoni-
+cal Belief Network to together determine the
+POS tag of a. Experiments on a Chinese cor-
+pus are conducted to compare our algorithm
+with the standard HMM-based POS tagging
+and the POS tagging software ICTCLAS3.0.
+The experimental results show that our algo-
+rithm is more effective.
+1 

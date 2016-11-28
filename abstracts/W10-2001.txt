@@ -1,0 +1,24 @@
+
+In this paper we investigate a new source of
+information for syntactic category acquisition:
+sentence type (question, declarative, impera-
+tive). Sentence type correlates strongly with
+intonation patterns in most languages; we hy-
+pothesize that these intonation patterns are a
+valuable signal to a language learner, indicat-
+ing different syntactic patterns. To test this hy-
+pothesis, we train a Bayesian Hidden Markov
+Model (and variants) on child-directed speech.
+We first show that simply training a separate
+model for each sentence type decreases perfor-
+mance due to sparse data. As an alternative, we
+propose two new models based on the BHMM
+in which sentence type is an observed variable
+which influences either emission or transition
+probabilities. Both models outperform a stan-
+dard BHMM on data from English, Cantonese,
+and Dutch. This suggests that sentence type
+information available from intonational cues
+may be helpful for syntactic acquisition cross-
+linguistically.
+1 

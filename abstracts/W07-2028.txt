@@ -1,0 +1,19 @@
+
+We present an approach for semantic rela-
+tion extraction between nominals that com-
+bines shallow and deep syntactic processing
+and semantic information using kernel meth-
+ods. Two information sources are consid-
+ered: (i) the whole sentence where the re-
+lation appears, and (ii) WordNet synsets and
+hypernymy relations of the candidate nom-
+inals. Each source of information is rep-
+resented by kernel functions. In particu-
+lar, five basic kernel functions are linearly
+combined and weighted under different con-
+ditions. The experiments were carried out
+using support vector machines as classifier.
+The system achieves an overall F1 of 71.8%
+on the Classification of Semantic Relations
+between Nominals task at SemEval-2007.
+1 

@@ -1,0 +1,15 @@
+
+We describe a set of experiments using au-
+tomatically labelled data to train supervised
+classifiers for multi-class emotion detection
+in Twitter messages with no manual inter-
+vention. By cross-validating between mod-
+els trained on different labellings for the
+same six basic emotion classes, and testing
+on manually labelled data, we conclude that
+the method is suitable for some emotions
+(happiness, sadness and anger) but less able
+to distinguish others; and that different la-
+belling conventions are more suitable for
+some emotions than others.
+1 

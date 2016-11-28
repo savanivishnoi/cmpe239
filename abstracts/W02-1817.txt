@@ -1,0 +1,20 @@
+ 
+This paper presents a unified solution, which 
+is based on the idea of ?roles tagging?, to the 
+complicated problems of Chinese unknown words 
+recognition. In our approach, an unknown word is 
+identified according to its component tokens and 
+context tokens. In order to capture the functions of 
+tokens, we use the concept of roles. Roles are 
+tagged through applying the Viterbi algorithm in 
+the fashion of a POS tagger. In the resulted most 
+probable roles sequence, all the eligible unknown 
+words are recognized through a maximum patterns 
+matching. We have got excellent precision and 
+recalling rates, especially for person names and 
+transliterations. The result and experiments in our 
+system ICTCLAS shows that our approach based 
+on roles tagging is simple yet effective. 
+Keywords: Chinese unknown words recognition, 
+roles tagging, word segmentation, Viterbi 
+algorithm. 

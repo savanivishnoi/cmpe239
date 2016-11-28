@@ -1,0 +1,22 @@
+ 
+The aim of this paper is to investigate 
+how much the effectiveness of a Ques-
+tion Answering (QA) system was af-
+fected by the performance of Machine 
+Translation (MT) based question transla-
+tion. Nearly 200 questions were selected 
+from TREC QA tracks and ran through a 
+question answering system. It was able to 
+answer 42.6% of the questions correctly 
+in a monolingual run. These questions 
+were then translated manually from Eng-
+lish into Arabic and back into English us-
+ing an MT system, and then re-applied to 
+the QA system. The system was able to 
+answer 10.2% of the translated questions. 
+An analysis of what sort of translation er-
+ror affected which questions was con-
+ducted, concluding that factoid type 
+questions are less prone to translation er-
+ror than others. 
+1 

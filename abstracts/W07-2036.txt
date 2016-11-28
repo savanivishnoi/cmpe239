@@ -1,0 +1,16 @@
+ 
+This paper describes the HIT system and its 
+participation in SemEval-2007 English 
+Lexical Substitution Task. Two main steps 
+are included in our method: candidate sub-
+stitute extraction and candidate scoring. In 
+the first step, candidate substitutes for each 
+target word in a given sentence are ex-
+tracted from WordNet. In the second step, 
+the extracted candidates are scored and 
+ranked using a web-based scoring method. 
+The substitute ranked first is selected as the 
+best substitute. For the multiword subtask, 
+a simple WordNet-based approach is em-
+ployed. 
+1 

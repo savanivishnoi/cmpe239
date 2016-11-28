@@ -1,0 +1,16 @@
+ 
+The dialogue strategies used by a spoken dialogue 
+system strongly influence performance and user sat- 
+isfaction. An ideal system would not use a single 
+fixed strategy, but would adapt o the circumstances 
+at hand. To do so, a system must be able to identify 
+dialogue properties that suggest adaptation. This 
+paper focuses on identifying situations where the 
+speech recognizer is performing poorly. We adopt 
+a machine learning approach to learn rules from 
+a dialogue corpus for identifying these situations. 
+Our results how a significant improvement over the 
+baseline and illustrate that both lower-level acoustic 
+features and higher-level dialogue features can af- 
+fect the performance of the learning algorithm. 
+1 

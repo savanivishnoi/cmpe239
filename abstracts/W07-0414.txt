@@ -1,0 +1,20 @@
+
+This paper describes a new method to
+compare reordering constraints for Statis-
+tical Machine Translation. We investi-
+gate the best possible (oracle) BLEU score
+achievable under different reordering con-
+straints. Using dynamic programming, we
+efficiently find a reordering that approxi-
+mates the highest attainable BLEU score
+given a reference and a set of reordering
+constraints. We present an empirical eval-
+uation of popular reordering constraints:
+local constraints, the IBM constraints,
+and the Inversion Transduction Grammar
+(ITG) constraints. We present results for a
+German-English translation task and show
+that reordering under the ITG constraints
+can improve over the baseline by more
+than 7.5 BLEU points.
+1 

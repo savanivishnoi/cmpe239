@@ -1,0 +1,8 @@
+
+The IDEX system is a prototype of an interactive dynamic Information Extraction (IE) system. A user of the system
+expresses an information request in the form of a topic description, which is used for an initial search in order to retrieve
+a relevant set of documents. On basis of this set of documents, unsupervised relation extraction and clustering is done by
+the system. The results of these operations can then be interactively inspected by the user. In this paper we describe the
+relation extraction and clustering components of the IDEX system. Preliminary evaluation results of these components are
+presented and an overview is given of possible enhancements to improve the relation extraction and clustering components.
+1. 

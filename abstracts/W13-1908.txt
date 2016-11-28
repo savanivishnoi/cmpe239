@@ -1,0 +1,25 @@
+
+Text mining methods for the biomedical
+domain have matured substantially and
+are currently being applied on a large
+scale to support a variety of applica-
+tions in systems biology, pathway cura-
+tion, data integration and gene summa-
+rization. Community-wide challenges in
+the BioNLP research field provide gold-
+standard datasets and rigorous evaluation
+criteria, allowing for a meaningful com-
+parison between techniques as well as
+measuring progress within the field. How-
+ever, such evaluations are typically con-
+ducted on relatively small training and
+test datasets. On a larger scale, sys-
+tematic erratic behaviour may occur that
+severely influences hundreds of thousands
+of predictions. In this work, we per-
+form a critical assessment of a large-scale
+text mining resource, identifying system-
+atic errors and determining their underly-
+ing causes through semi-automated analy-
+ses and manual evaluations1.
+1 

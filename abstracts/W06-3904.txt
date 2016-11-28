@@ -1,0 +1,9 @@
+
+This paper proposes an efficient algorithm for the redundancy elimination problem: Given
+an underspecified semantic representation (USR), compute an USR which has fewer read-
+ings, but still describes at least one representative of each semantic equivalence class of the
+original readings. The algorithm operates on underspecified chart representations which
+are derived from dominance graphs; it can be applied to the USRs computed by large-
+scale grammars. To our knowledge, it is the first redundancy elimination algorithm which
+maintains underspecification, rather than just enumerating non-redundant readings.
+1 

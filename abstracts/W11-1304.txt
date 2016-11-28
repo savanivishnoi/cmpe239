@@ -1,0 +1,21 @@
+
+This paper gives an overview of the shared
+task at the ACL-HLT 2011 DiSCo (Distribu-
+tional Semantics and Compositionality) work-
+shop. We describe in detail the motivation
+for the shared task, the acquisition of datasets,
+the evaluation methodology and the results
+of participating systems. The task of assign-
+ing a numerical score for a phrase accord-
+ing to its compositionality showed to be hard.
+Many groups reported features that intuitively
+should work, yet showed no correlation with
+the training data. The evaluation reveals that
+most systems outperform simple baselines, yet
+have difficulties in reliably assigning a compo-
+sitionality score that closely matches the gold
+standard. Overall, approaches based on word
+space models performed slightly better than
+methods relying solely on statistical associa-
+tion measures.
+1 

@@ -1,0 +1,23 @@
+
+The question ?how predictable is English??
+has long fascinated researchers. While prior
+work has focused on formal English typically
+used in news articles, we turn to texts gener-
+ated by users in online settings that are more
+informal in nature. We are motivated by a
+novel application scenario: given the difficulty
+of typing on mobile devices, can we help re-
+duce typing effort with message completion,
+especially in conversational settings? We pro-
+pose a method for automatic response comple-
+tion. Our approach models both the language
+used in responses and the specific context pro-
+vided by the original message. Our experi-
+mental results on a large-scale dataset show
+that both components help reduce typing ef-
+fort. We also perform an information-theoretic
+study in this setting and examine the entropy
+of user-generated content, especially in con-
+versational scenarios, to better understand pre-
+dictability of user generated English.
+1 

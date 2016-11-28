@@ -1,0 +1,15 @@
+
+This paper describes the Cambridge sub-
+mission to the SemEval-2010 Parser Eval-
+uation using Textual Entailment (PETE)
+task. We used a simple definition of en-
+tailment, parsing both T and H with the
+C&C parser and checking whether the core
+grammatical relations (subject and object)
+produced for H were a subset of those for
+T. This simple system achieved the top
+score for the task out of those systems sub-
+mitted. We analyze the errors made by the
+system and the potential role of the task in
+parser evaluation.
+1 

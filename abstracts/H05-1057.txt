@@ -1,0 +1,19 @@
+
+Many proper names are spelled inconsis-
+tently in speech recognizer output, posing
+a problem for applications where locating
+mentions of named entities is critical. We
+model the distortion in the spelling of a
+name due to the speech recognizer as the
+effect of a noisy channel. The models fol-
+low the framework of the IBM translation
+models. The model is trained using a par-
+allel text of closed caption and automatic
+speech recognition output. We also test a
+string edit distance based method. The ef-
+fectiveness of these models is evaluated on
+a name query retrieval task. Our methods
+result in a 60% improvement in F1. We
+also demonstrate why the problem has not
+been critical in TREC and TDT tasks.
+1 

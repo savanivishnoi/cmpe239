@@ -1,0 +1,21 @@
+
+In statistical machine translation, decod-
+ing without any reordering constraint is
+an NP-hard problem. Inversion Transduc-
+tion Grammars (ITGs) exploit linguistic
+structure and can well balance the needed
+flexibility against complexity constraints.
+Currently, translation models with ITG
+constraints usually employs the cube-time
+CYK algorithm. In this paper, we present
+a shift-reduce decoding algorithm that can
+generate ITG-legal translation from left to
+right in linear time. This algorithm runs
+in a reduce-eager style and is suited to
+phrase-based models. Using the state-of-
+the-art decoder Moses as the baseline, ex-
+periment results show that the shift-reduce
+algorithm can significantly improve both
+the accuracy and the speed on different
+test sets.
+1 

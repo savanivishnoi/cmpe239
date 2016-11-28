@@ -1,0 +1,20 @@
+
+This paper proposes a novel approach for ef-
+fectively utilizing unsupervised data in addi-
+tion to supervised data for supervised learn-
+ing. We use unsupervised data to gener-
+ate informative ?condensed feature represen-
+tations? from the original feature set used in
+supervised NLP systems. The main con-
+tribution of our method is that it can of-
+fer dense and low-dimensional feature spaces
+for NLP tasks while maintaining the state-of-
+the-art performance provided by the recently
+developed high-performance semi-supervised
+learning technique. Our method matches the
+results of current state-of-the-art systems with
+very few features, i.e., F-score 90.72 with
+344 features for CoNLL-2003 NER data, and
+UAS 93.55 with 12.5K features for depen-
+dency parsing data derived from PTB-III.
+1 

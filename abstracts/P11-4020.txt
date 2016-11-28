@@ -1,0 +1,25 @@
+
+In this demo, we present SciSumm, an inter-
+active multi-document summarization system
+for scientific articles. The document collec-
+tion to be summarized is a list of papers cited
+together within the same source article, oth-
+erwise known as a co-citation. At the heart
+of the approach is a topic based clustering of
+fragments extracted from each article based on
+queries generated from the context surround-
+ing the co-cited list of papers. This analy-
+sis enables the generation of an overview of
+common themes from the co-cited papers that
+relate to the context in which the co-citation
+was found. SciSumm is currently built over
+the 2008 ACL Anthology, however the gen-
+eralizable nature of the summarization tech-
+niques and the extensible architecture makes it
+possible to use the system with other corpora
+where a citation network is available. Evalu-
+ation results on the same corpus demonstrate
+that our system performs better than an exist-
+ing widely used multi-document summariza-
+tion system (MEAD).
+1 

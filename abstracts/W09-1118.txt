@@ -1,0 +1,13 @@
+
+As supervised machine learning methods are
+increasingly used in language technology, the
+need for high-quality annotated language data
+becomes imminent. Active learning (AL) is
+a means to alleviate the burden of annotation.
+This paper addresses the problem of knowing
+when to stop the AL process without having
+the human annotator make an explicit deci-
+sion on the matter. We propose and evaluate
+an intrinsic criterion for committee-based AL
+of named entity recognizers.
+1 

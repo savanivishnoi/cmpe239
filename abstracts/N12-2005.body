@@ -1,0 +1,16 @@
+
+This paper discusses a method for identifying
+diabetes symptoms and conditions in free text
+electronic health records in Bulgarian. The
+main challenge is to automatically recognise
+phrases and paraphrases for which no ?canon-
+ical forms? exist in any dictionary. The fo-
+cus is on extracting blood sugar level and
+body weight change which are some of the
+dominant factors when diagnosing diabetes.
+A combined machine-learning and rule-based
+approach is applied. The experiment is per-
+formed on 2031 sentences of diabetes case his-
+tory. The F-measure varies between 60 and
+96% in the separate processing phases.
+1 

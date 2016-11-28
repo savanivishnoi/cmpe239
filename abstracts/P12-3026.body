@@ -1,0 +1,16 @@
+
+We present UWN, a large multilingual lexi-
+cal knowledge base that describes the mean-
+ings and relationships of words in over 200
+languages. This paper explains how link pre-
+diction, information integration and taxonomy
+induction methods have been used to build
+UWN based on WordNet and extend it with
+millions of named entities from Wikipedia.
+We additionally introduce extensions to cover
+lexical relationships, frame-semantic knowl-
+edge, and language data. An online interface
+provides human access to the data, while a
+software API enables applications to look up
+over 16 million words and names.
+1 

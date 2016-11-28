@@ -1,0 +1,13 @@
+ 
+Many corpus-based machine translation 
+systems require parallel corpora. In this 
+paper, we present a word-for-word glossing 
+algorithm that requires only a source 
+language corpus. To gloss a word, we first 
+identify its similar words that occurred in 
+the same context in a large corpus. We then 
+determine the gloss by maximizing the 
+similarity between the set of contextually 
+similar words and the different ranslations 
+of the word in a bilingual thesaurus. 
+1. 

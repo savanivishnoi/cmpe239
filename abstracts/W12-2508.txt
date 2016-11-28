@@ -1,0 +1,16 @@
+
+We present a method of authorship attribution
+and stylometry that exploits hierarchical infor-
+mation in phrase-structures. Contrary to much
+previous work in stylometry, we focus on con-
+tent words rather than function words. Texts
+are parsed to obtain phrase-structures, and com-
+pared with texts to be analyzed. An efficient
+tree kernel method identifies common tree frag-
+ments among data of known authors and un-
+known texts. These fragments are then used to
+identify authors and characterize their styles.
+Our experiments show that the structural infor-
+mation from fragments provides complemen-
+tary information to the baseline trigram model.
+1 

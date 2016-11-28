@@ -1,0 +1,10 @@
+ 
+Chinese parsing has received more and 
+more attention, and in this paper, we use 
+toolkit to perform parsing on the data of 
+Tsinghua Chinese Treebank (TCT) used in 
+CIPS, and we use Conditional Random 
+Fields (CRFs) to train specific model for the 
+head recognition. At last, we compare 
+different results on different POS results. 
+1 

@@ -1,0 +1,17 @@
+
+We present two methods for learning the struc-
+ture of personal names from unlabeled data.
+The rst simply uses a few implicit constraints
+governing this structure to gain a toehold on the
+problem | e.g., descriptors come before rst
+names, which come before middle names, etc.
+The second model also uses possible coreference
+information. We found that coreference con-
+straints on names improve the performance of
+the model from 92.6% to 97.0%. We are in-
+terested in this problem in its own right, but
+also as a possible way to improve named entity
+recognition (by recognizing the structure of dif-
+ferent kinds of names) and as a way to improve
+noun-phrase coreference determination.
+1 

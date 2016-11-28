@@ -1,0 +1,13 @@
+
+In morphologically rich languages, should morphological and
+syntactic disambiguation be treated sequentially or as a sin-
+gle problem? We describe several efficient, probabilistically-
+interpretable ways to apply joint inference to morphological
+and syntactic disambiguation using lattice parsing. Joint infer-
+ence is shown to compare favorably to pipeline parsing methods
+across a variety of component models. State-of-the-art perfor-
+mance on Hebrew Treebank parsing is demonstrated using the
+new method. The benefits of joint inference are modest with
+the current component models, but appear to increase as com-
+ponents themselves improve.
+1 

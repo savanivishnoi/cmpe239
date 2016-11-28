@@ -1,0 +1,24 @@
+ 
+While the notion of a cooperative r sponse has been 
+the focus of considerable research in natural lan- 
+guage dialogue systems, there has been little empir- 
+ical work demonstrating how such responses lead 
+to more efficient, natural, or successful dialogues. 
+This paper presents an experimental evaluation of 
+two alternative response strategies in TOOT, a spo- 
+ken dialogue agent hat allows users to access train 
+schedules stored on the web via a telephone conver- 
+sation. We compare the performance of two ver- 
+sions of TOOT (literal and cooperative), by hav- 
+ing users carry out a set of tasks with each ver- 
+sion. By using hypothesis testing methods, we show 
+that a combination of response strategy, application 
+task, and task/strategy interactions account for var- 
+ious types of performance differences. By using 
+the PARADISE evaluation framework to estimate 
+an overall performance function, we identify inter- 
+dependencies that exist between speech recognition 
+and response strategy. Our results elaborate the con- 
+ditions under which TOOT' s cooperative rather than 
+literal strategy contributes to greater performance. 
+1 

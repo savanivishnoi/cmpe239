@@ -1,0 +1,1110 @@
+ Interpretation. The construction procedure as described thus
+far is extremely permissive, generating many DCS trees which are obviously wrong?
+for example, ?state; 11 :?>;
+2
+1 ?3???, which tries to compare a state with the number 3. There
+is nothing wrong with this expression syntactically: Its denotation will simply be empty
+(with respect to the world). But semantically, this DCS tree is anomalous.
+We cannot simply just discard DCS trees with empty denotations, because we
+would incorrectly rule out ?state; 11 :?border;
+2
+1 ?AK???. The difference here is that even
+though the denotation is empty in this world, it is possible that it might not be empty
+420
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+in a different world where history and geology took another turn, whereas it is simply
+impossible to compare cities and numbers.
+Now let us quickly flesh out this intuition before falling into a philosophical dis-
+cussion about possible worlds. Given a world w, we define an abstract world ?(w),
+to be described shortly. We compute the denotation of a DCS tree z with respect to
+this abstract world. If at any point in the computation we create an empty denotation,
+we judge z to be impossible and throw it away. The filtering function F is defined as
+follows:10
+F(Z) = {z ? Z : ?z? subtree of z , z??(w).A = ?} (50)
+Now we need to define the abstract world ?(w). The intuition is to map concrete
+values to abstract values: 3 :length becomes ? :length,Oregon :state becomes ? :state,
+and in general, primitive value x : t becomes ? : t. We perform abstraction on tuples
+componentwise, so that (Oregon :state, 3 :length) becomes (? :state, ? :length). Our
+abstraction of sets is slightly more complex: The empty set maps to the empty set, a set
+containing values all with the same abstract value a maps to {a}, and a set containing
+values with more than one abstract value maps to {MIXED}. Finally, a world maps each
+predicate onto a set of (concrete) tuples; the corresponding abstract world maps each
+predicate onto the set of abstract tuples. Formally, the abstraction function is defined as
+follows:
+?(x : t) = ? : t [primitive value] (51)
+?((v1, . . . , vn)) = (?(v1), . . . ,?(vn)) [tuple] (52)
+?(A) =
+?
+?
+?
+?
+?
+? if A = ?
+{?(x) : x ? A} if |{?(x) : x ? A}| = 1
+{MIXED} otherwise
+[set] (53)
+?(w) = ?p.{?(x) : x ? w(p)} [world] (54)
+As an example, the abstract world might look like this:
+?(w)(>) = {(? :number, ? :number, ? :number) (55)
+(? :length, ? :length, ? :length), . . . }
+?(w)(state) = {(? :state)} (56)
+?(w)(AK) = {(? :state)} (57)
+?(w)(border) = {(? :state, ? :state)} (58)
+Now returning to our motivating example at the beginning of this section, we see
+that the bad DCS tree has an empty abstract denotation ?state; 11 :?>;
+2
+1 ?3????(w) =
+???; ???. The good DCS tree has a non-empty abstract denotation: ?state; 11 :?border;
+2
+1 ?AK????(w) = ??{(? :state)}; ???, as desired.
+10 To further reduce the search space, F imposes a few additional constraints: for example, limiting the
+number of columns to 2, and only allowing trace predicates between arity 1 predicates.
+421
+Computational Linguistics Volume 39, Number 2
+Remarks. Computing denotations on an abstract world is called abstract interpretation
+(Cousot and Cousot 1977) and is a very powerful framework commonly used in the
+programming languages community. The idea is to obtain information about a program
+(in our case, a DCS tree) without running it concretely, but rather just by running it
+abstractly. It is closely related to type systems, but the type of abstractions one uses is
+often much richer than standard type systems.
+2.6.4 Comparison with CCG. We now compare our construction mechanism with CCG
+(see Figure 19 for an example). The main difference is that our lexical triggers contain
+less information than a lexical entry in a CCG. In CCG, the lexicon would have an entry
+such as
+major  N/N : ?f.?x.major(x) ? f (x) (59)
+which gives detailed information about how this word should interact with its context.
+In DCS construction, however, each lexical trigger only has the minimal amount of
+information:
+major  major (60)
+A lexical trigger specifies a pre-theoretic ?meaning? of a word which does not commit
+to any formalisms. One advantage of this minimality is that lexical triggers could be
+easily obtained from non-expert supervision: One would only have to associate words
+with database table names (predicates).
+In some sense, the DCS construction mechanism pushes the complexity out of the
+lexicon. In linguistics, this complexity usually would end up in the grammar, which
+would be undesirable. We do not have to respect this tradeoff, however, because the
+Figure 19
+Comparison between the construction mechanisms of CCG and DCS. There are three principal
+differences: First, in CCG, words are mapped onto lambda calculus expressions; in DCS, words
+are just mapped onto predicates. Second, in CCG, lambda calculus expressions are built by
+combining (e.g., via function application) two smaller expressions; in DCS, trees are combined
+by inserting relations (and possibly other predicates between them). Third, in CCG, all words
+map to logical expressions; in DCS, only a small subset of words (e.g., state and Texas) map to
+predicates; the rest participate in features for scoring DCS trees.
+422
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+construction mechanism only produces an overapproximation, which means it is possi-
+ble to have both a simple ?lexicon? and a simple ?grammar.?
+There is an important practical rationale for this design decision. During learning,
+we never just have one clean lexical entry per word. Rather, there are often many
+possible lexical entries (and to handle disfluent utterances or utterances in free word-
+order languages, we might actually need many of them [Kwiatkowski et al 2010]):
+major  N : ?x.major(x) (61)
+major  N/N : ?f.?x.major(x) ? f (x) (62)
+major  N\N : ?f.?x.major(x) ? f (x) (63)
+. . . (64)
+Now think of a DCS lexical trigger major  major as simply a compact representation for
+a set of CCG lexical entries. Furthermore, the choice of the lexical entry is made not
+at the initial lexical base case, but rather during the recursive construction by inserting
+relations between DCS subtrees. It is exactly at this point that the choice can be made,
+because after all, the choice is one that depends on context. The general principle is to
+compactly represent the indeterminacy until one can resolve it. Compactly representing
+a set of CCG lexical entries can also be done within the CCG framework by factoring
+lexical entries into a lexeme and a lexical template (Kwiatkowski et al 2011).
+Type raising is a combinator in CCG that traditionally converts x to ?f.f (x). In
+recent work, Zettlemoyer and Collins (2007) introduced more general type-changing
+combinators to allow conversion from one entity into a related entity in general (a
+kind of generalized metonymy). For example, in order to parse Boston flights, Boston
+is transformed to ?x.to(x, Boston). This type changing is analogous to inserting trace
+predicates in DCS, but there is an important distinction: Type changing is a unary
+operation and is unconstrained in that it changes logical forms into new ones without
+regard for how they will be used downstream. Inserting trace predicates is a binary
+operation that is constrained by the two predicates that it is mediating. In the example,
+to would only be inserted to combine Boston with flight. This is another instance of
+the general principle of delaying uncertain decisions until there is more information.
+3. Learning
+In Section 2, we defined DCS trees and a construction mechanism for producing a set
+of candidate DCS trees given an utterance. We now define a probability distribution
+over that set (Section 3.1) and an algorithm for estimating the parameters (Section 3.2).
+The number of candidate DCS trees grows exponentially, so we use beam search to
+control this growth. The final learning algorithm alternates between beam search and
+optimization of the parameters, leading to a natural bootstrapping procedure which
+integrates learning and search.
+3.1 Semantic Parsing Model
+The semantic parsing model specifies a conditional distribution over a set of candi-
+date DCS trees C(x) given an utterance x. This distribution depends on a function
+?(x, z) ? Rd, which takes a (x, z) pair and extracts a set of local features (see Section 3.1.1
+423
+Computational Linguistics Volume 39, Number 2
+for a full specification). Associated with this feature vector is a parameter vector ? ? Rd.
+The inner product between the two vectors, ?(x, z)?, yields a numerical score, which
+intuitively measures the compatibility of the utterance x with the DCS tree z. We expo-
+nentiate the score and normalize over C(x) to obtain a proper probability distribution:
+p(z | x;C,?) = exp{?(x, z)??A(?; x,C)} (65)
+A(?; x,C) = log
+?
+z?C(x)
+exp{?(x, z)?} (66)
+where A(?; x,C) is the log-partition function with respect to the candidate set function
+C(x).
+3.1.1 Features.We now define the feature vector ?(x, z) ? Rd, the core part of the seman-
+tic parsing model. Each component j = 1, . . . , d of this vector is a feature, and ?(x, z)j
+is the number of times that feature occurs in (x, z). Rather than working with indices,
+we treat features as symbols (e.g., TRIGGERPRED[states, state]). Each feature captures
+some property about (x, z) that abstracts away from the details of the specific instance
+and allows us to generalize to new instances that share common features.
+The features are organized into feature templates, where each feature template
+instantiates a set of features. Figure 20 shows all the feature templates for a concrete
+example. The feature templates are as follows:
+ PREDHIT contains the single feature PREDHIT, which fires for each
+predicate in z.
+ PRED contains features {PRED[?(p)] : p ? P}, each of which fires on
+?(p), the abstraction of predicate p, where
+?(p) =
+{
+? : t if p = x : t
+p otherwise
+(67)
+The purpose of the abstraction is to abstract away the details of concrete
+values such as TX = Texas :state.
+ PREDREL contains features {PREDREL[?(p),q] : p ? P ,q ? ({?,?}?
+R)?}. A feature fires when a node x has predicate p and is connected via
+some path q = (d1, r1), . . . , (dm, rm) to the lowest descendant node ywith
+the property that each node between x and y has a null predicate. Each
+(d, r) on the path represents an edge labeled with relation r connecting
+to a left (d =?) or right (d =?) child. If x has no children, then m = 0.
+The most common case is when m = 1, but m = 2 also occurs with the
+aggregate and execute relations (e.g., PREDREL[count,? 11? ?] fires
+for Figure 5(a)).
+ PREDRELPRED contains features {PREDRELPRED[?(p),q,?(p?)] : p, p? ?
+P ,q ? ({?,?}?R)?}, which are the same as PREDREL, except that we
+include both the predicate p of x and the predicate p? of the descendant
+node y. These features do not fire if m = 0.
+424
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Figure 20
+For each utterance?DCS tree pair (x, z), we define a feature vector ?(x, z), whose j-th component
+is the number of times a feature j occurs in (x, z). Each feature has an associated parameter ?j,
+which is estimated from data in Section 3.2. The inner product of the feature vector and
+parameter vector yields a compatibility score.
+ TRIGGERPRED contains features {TRIGGERPRED[s, p] : s ?W?, p ? P},
+whereW = {it,Texas, . . . } is the set of words. Each of these features fires
+when a span of the utterance with words s triggers the predicate p?more
+precisely, when a subtree ?p; e?i..j exists with s = xi+1..j. Note that these
+lexicalized features use the predicate p rather than the abstracted
+version ?(p).
+ TRACEPRED contains features {TRACEPRED[s, p, d] : s ?W?, p ? P , d ?
+{?,?}}, each of which fires when a trace predicate p has been inserted
+425
+Computational Linguistics Volume 39, Number 2
+over a word s. The situation is the following: Suppose we have a subtree
+a that ends at position k (there is a predicate in a that is triggered by a
+phrase with right endpoint k) and another subtree b that begins at k?.
+Recall that in the construction mechanism (46), we can insert a trace
+predicate p ? L(	) between the roots of a and b. Then, for every word
+xj between the spans of the two subtrees ( j = {k+ 1, . . . , k?}), the
+feature TRACEPRED[xj, p, d] fires (d =? if b dominates a and d =?
+if a dominates b).
+ TRACEREL contains features {TRACEREL[s, d, r] : s ?W?, d ? {?,?}, r ?
+R}, each of which fires when some trace predicate with parent relation r
+has been inserted over a word s.
+ TRACEPREDREL contains features {TRACEPREDREL[s, p, d, r] : s ?W?,
+p ? P , d ? {?,?}, r ? R}, each of which fires when a predicate p is
+connected via child relation r to some trace predicate over a word s.
+These features are simple generic patterns which can be applied for modeling
+essentially any distribution over sequences and labeled trees?there is nothing spe-
+cific to DCS at all. The first half of the feature templates (PREDHIT, PRED, PREDREL,
+PREDRELPRED) capture properties of the tree independent of the utterance, and
+are similar to those used for syntactic dependency parsing. The other feature tem-
+plates (TRIGGERPRED, TRACEPRED, TRACEREL, TRACEPREDREL) connect predicates
+in the DCS tree with words in the utterance, similar to those in a model of machine
+translation.
+3.2 Parameter Estimation
+We have now fully specified the details of the graphical model in Figure 2: Section 3.1
+described semantic parsing and Section 2 described semantic evaluation. Next, we focus
+on the inferential problem of estimating the parameters ? of the model from data.
+3.2.1 Objective Function.We assume that our learning algorithm is given a training data
+setD containing question?answer pairs (x, y). Because the logical forms are unobserved,
+we work with log p(y | x;C,?), the marginal log-likelihood of obtaining the correct
+answer y given an utterance x. This marginal log-likelihood sums over all z ? C(x) that
+evaluate to y:
+log p(y | x;C,?) = log p(z ? Cy(x) | x;C,?) (68)
+= A(?; x,Cy)?A(?, x,C), where (69)
+Cy(x)
+def
+= {z ? C(x) : zw = y} (70)
+Here, Cy(x) is the set of DCS trees z with denotation y.
+We call an example (x, y) ? D feasible if the candidate set of x contains a DCS
+tree that evaluates to y (Cy(x) = ?). Define an objective function O(?,C) containing
+two terms. The first term is the sum of the marginal log-likelihood over all feasible
+426
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+training examples. The second term is a quadratic penalty on the parameters ? with
+regularization parameter ?. Formally:
+O(?,C) def=
+?
+(x,y)?D
+Cy(x)=?
+log p(y | x;C,?)? ?
+2
+???22 (71)
+=
+?
+(x,y)?D
+Cy(x)=?
+(A(?; x,Cy)?A(?; x,C))? ?
+2
+???22
+We would like to maximize O(?,C). The log-partition function A(?; ?, ?) is convex,
+but O(?,C) is the difference of two log-partition functions and hence is not concave
+(nor convex). Thus we resort to gradient-based optimization. A standard result is that
+the derivative of the log-partition function is the expected feature vector (Wainwright
+and Jordan 2008). Using this, we obtain the gradient of our objective function:11
+?O(?,C)
+??
+=
+?
+(x,y)?D
+Cy(x)=?
+(
+Ep(z|x;Cy,?)[?(x, z)]? Ep(z|x;C,?)[?(x, z)]
+)
+? ?? (72)
+Updating the parameters in the direction of the gradient would move the parameters
+towards the DCS trees that yield the correct answer (Cy) and away from overall can-
+didate DCS trees (C). We can use any standard numerical optimization algorithm that
+requires only black-box access to a gradient. Section 4.3.4 will discuss the empirical
+ramifications of the choice of optimization algorithm.
+3.2.2 Algorithm. Given a candidate set function C(x), we can optimize Equation (71) to
+obtain estimates of the parameters ?. Ideally, we would use C(x) = ZL(x), the candidate
+sets from our construction mechanism in Section 2.6, but we quickly run into the prob-
+lem of computing Equation (72) efficiently. Note that ZL(x) (defined in Equation (44))
+grows exponentially with the length of x. This by itself is not a show-stopper. Our
+features (Section 3.1.1) decompose along the edges of the DCS tree, so it is possible
+to use dynamic programming12 to compute the second expectation Ep(z|x;ZL,?)[?(x, z)]
+of Equation (72). The problem is computing the first expectation Ep(z|x;ZyL ,?)
+[?(x, z)],
+which sums over the subset of candidate DCS trees z satisfying the constraint zw = y.
+Though this is a smaller set, there is no efficient dynamic program for this set because
+the constraint does not decompose along the structure of the DCS tree. Therefore, we
+need to approximate ZyL , and, in fact, we will approximate ZL as well so that the two
+expectations in Equation (72) are coherent.
+Recall that ZL(x) was built by recursively constructing a set of DCS trees Ci,j(x)
+for each span i..j. In our approximation, we simply use beam search, which truncates
+each Ci,j(x) to include the (at most) K DCS trees with the highest score ?(x, z)
+?. We
+11 Notation: Ep(x)[f (x)] =
+?
+x p(x)f (x).
+12 The state of the dynamic program would be the span i..j and the head predicate over that span.
+427
+Computational Linguistics Volume 39, Number 2
+let C?i,j,?(x) denote this approximation and define the set of candidate DCS trees with
+respect to the beam search:
+Z?L,?(x) = C?0,n,?(x) (73)
+We now have a chicken-and-egg problem: If we had good parameters ?, we
+could generate good candidate sets C(x) using beam search Z?L,?(x). If we had good
+candidate sets C(x), we could generate good parameters by optimizing our objective
+O(?,C) in Equation (71). This problem leads to a natural solution: simply alternate
+between the two steps (Figure 21). This procedure is not guaranteed to converge, due
+to the heuristic nature of the beam search, but we have found it to be convergent in
+practice.
+Finally, we use the trained model with parameters ? to answer new questions x by
+choosing the most likely answer y, summing out the latent logical form z:
+F?(x)
+def
+= argmax
+y
+p(y | x;?, Z?L,?) (74)
+= argmax
+y
+?
+z?Z?L,?(x)
+zw=y
+p(z | x;?, Z?L,?) (75)
+4. Experiments
+We have now completed the conceptual part of this article?using DCS trees to rep-
+resent logical forms (Section 2), and learning a probabilistic model over these trees
+(Section 3). In this section, we evaluate and study our approach empirically. Our
+main result is that our system can obtain comparable accuracies to state-of-the-art
+systems that require annotated logical forms. All the code and data are available at
+cs.stanford.edu/~pliang/software/.
+4.1 Experimental Set-up
+We first describe the data sets (Section 4.1.1) that we use to train and evaluate our
+system. We then mention various choices in the model and learning algorithm (Sec-
+tion 4.1.2). One of these choices is the lexical triggers, which are further discussed in
+Section 4.1.3.
+Figure 21
+The learning algorithm alternates between updating the candidate sets based on beam search
+and updating the parameters using standard numerical optimization.
+428
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+4.1.1 Data sets. We tested our methods on two standard data sets, referred to in this
+article as GEO and JOBS. These data sets were created by Ray Mooney?s group during
+the 1990s and have been used to evaluate semantic parsers for over a decade.
+U.S. Geography. The GEO data set, originally created by Zelle and Mooney (1996), con-
+tains 880 questions about U.S. geography and a database of facts encoded in Prolog. The
+questions in GEO ask about general properties (e.g., area, elevation, and population) of
+geographical entities (e.g., cities, states, rivers, andmountains). Across all the questions,
+there are 280 word types, and the length of an utterance ranges from 4 to 19 words,
+with an average of 8.5 words. The questions involve conjunctions, superlatives, and
+negation, but no generalized quantification. Each question is annotated with a logical
+form in Prolog, for example:
+Utterance: What is the highest point in Florida?
+Logical form: answer(A,highest(A,(place(A),loc(A,B),const(B,stateid(florida)))))
+Because our approach learns from answers, not logical forms, we evaluated the
+annotated logical forms on the provided database to obtain the correct answers.
+Recall that a world/database w maps each predicate p ? P to a set of tuples w(p).
+Some predicates contain the set of tuples explicitly (e.g., mountain); others can be
+derived (e.g., higher takes two entities x and y and returns true if elevation(x) >
+elevation(y)). Other predicates are higher-order (e.g., sum, highest) in that they take
+other predicates as arguments. We do not use the provided domain-specific higher-
+order predicates (e.g., highest), but rather provide domain-independent higher-order
+predicates (e.g., argmax) and the ordinary domain-specific predicates (e.g., elevation).
+This provides more compositionality and therefore better generalization. Similarly, we
+use more and elevation instead of higher. Altogether, P contains 43 predicates plus
+one predicate for each value (e.g., CA).
+Job Queries. The JOBS data set (Tang and Mooney 2001) contains 640 natural language
+queries about job postings. Most of the questions ask for jobs matching various criteria:
+job title, company, recruiter, location, salary, languages and platforms used, areas of
+expertise, required/desired degrees, and required/desired years of experience. Across
+all utterances, there are 388 word types, and the length of an utterance ranges from 2 to
+23 words, with an average of 9.8 words.
+The utterances are mostly based on conjunctions of criteria, with a sprinkling of
+negation and disjunction. Here is an example:
+Utterance: Are there any jobs using Java that are not with IBM?
+Logical form: answer(A,(job(A),language(A,?java?),?company(A,?IBM?)))
+The JOBS data set comes with a database, which we can use as the world w. When
+the logical forms are evaluated on this database, however, close to half of the answers
+are empty (no jobs match the requested criteria). Therefore, there is a large discrepancy
+between obtaining the correct logical form (which has been the focus of most work on
+semantic parsing) and obtaining the correct answer (our focus).
+To bring these two into better alignment, we generated a random database as
+follows: We created m = 100 jobs. For each job j, we go through each predicate p (e.g.,
+company) that takes two arguments, a job, and a target value. For each of the possible
+target values v, we add (j, v) to w(p) independently with probability ? = 0.8. For exam-
+ple, for p = company, j = job37, we might add (job37, IBM) to w(company). The result is
+429
+Computational Linguistics Volume 39, Number 2
+a database with a total of 23 predicates (which includes the domain-independent ones)
+in addition to the value predicates (e.g., IBM).
+The goal of using randomness is to ensure that two different logical forms will most
+likely yield different answers. For example, consider two logical forms:
+z1 = ?j.job( j) ? company( j, IBM), (76)
+z2 = ?j.job( j) ? language( j, Java). (77)
+Under the random construction, the denotation of z1 is S1, a random subset of the jobs,
+where each job is included in S1 independently with probability ?, and the denotation
+of z2 is S2, which has the same distribution as S1 but importantly is independent of S1.
+Therefore, the probability that S1 = S2 is [?
+2 + (1? ?)2]m, which is exponentially small
+in m. This construction yields a world that is not entirely ?realistic? (a job might have
+multiple employers), but it ensures that if we get the correct answer, we probably also
+obtain the correct logical form.
+4.1.2 Settings. There are a number of settings that control the tradeoffs between compu-
+tation, expressiveness, and generalization power of our model, shown here. For now,
+we will use generic settings chosen rather crudely; Section 4.3.4 will explore the effect
+of changing these settings.
+Lexical Triggers The lexical triggers L (Section 2.6.1) define the set of candidate DCS
+trees for each utterance. There is a tradeoff between expressiveness and computa-
+tional complexity: The more triggers we have, the more DCS trees we can consider
+for a given utterance, but then either the candidate sets become too large or beam
+search starts dropping the good DCS trees. Choosing lexical triggers is important
+and requires additional supervision (Section 4.1.3).
+Features Our probabilistic semantic parsing model is defined in terms of feature tem-
+plates (Section 3.1.1). Richer features increase expressiveness but also might lead
+to overfitting. By default, we include all the feature templates.
+Number of training examples (n) An important property of any learning algorithm is
+its sample complexity?how many training examples are required to obtain a
+certain level of accuracy? By default, all training examples are used.
+Number of training iterations (T) Our learning algorithm (Figure 21) alternates be-
+tween updating candidate sets and updating parameters for T iterations. We use
+T = 5 as the default value.
+Beam size (K) The computation of the candidate sets in Figure 21 is based on beam
+search where each intermediate state keeps at most K DCS trees. The default value
+is K = 100.
+Optimization algorithm To optimize the objective functionO(?,C) our default is to use
+the standard L-BFGS algorithm (Nocedal 1980) with a backtracking line search for
+choosing the step size.
+Regularization (?) The regularization parameter ? > 0 in the objective functionO(?,C)
+is another knob for controlling the tradeoff between fitting and overfitting. The
+default is ? = 0.01.
+4.1.3 Lexical Triggers. The lexical trigger set L (Section 2.6.1) is a set of entries (s, p), where
+s is a sequence of words and p is a predicate. We run experiments on two sets of lexical
+triggers: base triggers LB and augmented triggers LB+P.
+430
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Base Triggers. The base trigger set LB includes three types of entries:
+ Domain-independent triggers: For each domain-independent predicate
+(e.g., argmax), we manually specify a few words associated with that
+predicate (e.g., most). The full list is shown at the top of Figure 22.
+ Values: For each value x that appears in the world (specifically,
+x ? vj ? w(p) for some tuple v, index j, and predicate p), LB contains an
+entry (x, x) (e.g., (Boston,Boston :city)). Note that this rule implicitly
+specifies an infinite number of triggers.
+Regarding predicate names, we do not add entries such as (city, city),
+because we want our system to be language-independent. In Turkish,
+for instance, we would not have the luxury of lexicographical cues that
+associate citywith s?ehir. So we should think of the predicates as just
+symbols predicate1, predicate2, and so on. On the other hand, values
+in the database are generally proper nouns (e.g., city names) for which
+there are generally strong cross-linguistic lexicographic similarities.
+ Part-of-speech (POS) triggers:13 For each domain-specific predicate p,
+we specify a set of POS tags T. Implicitly, LB contains all pairs (x, p) where
+the word x has a POS tag t ? T. For example, for city, we would specify
+NN and NNS, which means that any word which is a singular or plural
+common noun triggers the predicate city. Note that city triggers city as
+desired, but state also triggers city.
+The POS triggers for GEO and JOBS domains are shown in the left side of
+Figure 22. Note that some predicates such as traverse and loc are
+not associated with any POS tags. Predicates corresponding to verbs and
+prepositions are not included as overt lexical triggers, but rather included
+as trace predicates L(	). In constructing the logical forms, nouns and
+adjectives serve as anchor points. Trace predicates can be inserted between
+these anchors. This strategy is more flexible than requiring each predicate
+to spring from some word.
+Augmented Triggers.We nowdefine the augmented trigger set LB+P, which containsmore
+domain-specific information than LB. Specifically, for each domain-specific predicate
+(e.g., city), we manually specify a single prototype word (e.g., city) associated with
+that predicate. Under LB+P, city would trigger only city because city is a prototype
+word, but townwould trigger all the NN predicates (city, state, country, etc.) because
+it is not a prototype word.
+Prototype triggers require only a modest amount of domain-specific supervision
+(see the right side of Figure 22 for the entire list for GEO and JOBS). In fact, as we?ll see
+in Section 4.2, prototype triggers are not absolutely required to obtain good accuracies,
+but they give an extra boost and also improve computational efficiency by reducing the
+set of candidate DCS trees.
+13 To perform POS tagging, we used the Berkeley Parser (Petrov et al 2006), trained on the WSJ Treebank
+(Marcus, Marcinkiewicz, and Santorini 1993) and the Question Treebank (Judge, Cahill, and v. Genabith
+2006)?thanks to Slav Petrov for providing the trained parser.
+431
+Computational Linguistics Volume 39, Number 2
+Figure 22
+Lexical triggers used in our experiments.
+Finally, to determine triggering, we stem all words using the Porter stemmer (Porter
+1980), so that mountains triggers the same predicates as mountain. We also decompose
+superlatives into two words (e.g., largest is mapped to most large), allowing us to con-
+struct the logical form more compositionally.
+4.2 Comparison with Other Systems
+We now compare our approach with existing methods. We used the same training-test
+splits as Zettlemoyer and Collins (2005) (600 training and 280 test examples for GEO,
+500 training and 140 test examples for JOBS). For development, we created five random
+splits of the training data. For each split, we put 70% of the examples into a development
+training set and the remaining 30% into a development test set. The actual test set was
+only used for obtaining final numbers.
+4.2.1 Systems that Learn from Question?Answer Pairs.We first compare our system (hence-
+forth, LJK11) with Clarke et al (2010) (henceforth, CGCR10), which is most similar to
+our work in that it also learns from question?answer pairs without using annotated
+logical forms. CGCR10 works with the FunQL language and casts semantic parsing as
+integer linear programming (ILP). In each iteration, the learning algorithm solves the
+432
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Table 2
+Results on GEO with 250 training and 250 test examples. Our system (LJK11 with base triggers
+and no logical forms) obtains higher test accuracy than CGCR10, even when CGCR10 is trained
+using logical forms.
+System Accuracy (%)
+CGCR10 w/answers (Clarke et al 2010) 73.2
+CGCR10 w/logical forms (Clarke et al 2010) 80.4
+LJK11 w/base triggers (Liang, Jordan, and Klein 2011) 84.0
+LJK11 w/augmented triggers (Liang, Jordan, and Klein 2011) 87.6
+ILP to predict the logical form for each training example. The examples with correct
+predictions are fed to a structural support vector machine (SVM) and the model param-
+eters are updated.
+Though similar in spirit, there are some important differences between CGCR10
+and our approach. They use ILP instead of beam search and structural SVM instead of
+log-linear models, but the main difference is which examples are used for learning. Our
+approach learns on any feasible example (Section 3.2.1), one where the candidate set
+contains a logical form that evaluates to the correct answer. CGCR10 uses a much more
+stringent criterion: The highest scoring logical formmust evaluate to the correct answer.
+Therefore, for their algorithm to progress, the model already must be non-trivially good
+before learning even starts. This is reflected in the amount of prior knowledge and
+initialization that CGCR10 uses before learning starts: WordNet features, syntactic parse
+trees, and a set of lexical triggers with 1.42 words per non-value predicate. Our system
+with base triggers requires only simple indicator features, POS tags, and 0.5 words per
+non-value predicate.
+CGCR10 created a version of GEO which contains 250 training and 250 test exam-
+ples. Table 2 compares the empirical results of this split. We see that our system (LJK11)
+with base triggers significantly outperforms CGCR10 (84% vs. 73.2%), and it even
+outperforms the version of CGCR10 that is trained using logical forms (84.0% vs. 80.4%).
+If we use augmented triggers, we widen the gap by another 3.6 percentage points.14
+4.2.2 State-of-the-Art Systems. We now compare our system (LJK11) with state-of-the-
+art systems, which all require annotated logical forms (except PRECISE). Here is a brief
+overview of the systems:
+ COCKTAIL (Tang and Mooney 2001) uses inductive logic programming to
+learn rules for driving the decisions of a shift-reduce semantic parser. It
+assumes that a lexicon (mapping from words to predicates) is provided.
+ PRECISE (Popescu, Etzioni, and Kautz 2003) does not use learning, but
+instead relies on matching words to strings in the database using various
+heuristics based on WordNet and the Charniak parser. Like our work, it
+also uses database type constraints to rule out spurious logical forms. One
+of the unique features of PRECISE is that it has 100% precision?it refuses
+to parse an utterance which it deems semantically intractable.
+14 Note that the numbers for LJK11 differ from those presented in Liang, Jordan, and Klein (2011), which
+reports results based on 10 different splits rather than the set-up used by CGCR10.
+433
+Computational Linguistics Volume 39, Number 2
+ SCISSOR (Ge and Mooney 2005) learns a generative probabilistic model
+that extends the Collins (1999) models with semantic labels, so
+that syntactic and semantic parsing can be done jointly.
+ SILT (Kate, Wong, and Mooney 2005) learns a set of transformation rules
+for mapping utterances to logical forms.
+ KRISP (Kate and Mooney 2006) uses SVMs with string kernels to drive the
+local decisions of a chart-based semantic parser.
+ WASP (Wong and Mooney 2006) uses log-linear synchronous grammars to
+transform utterances into logical forms, starting with word alignments
+obtained from the IBM models.
+ ?-WASP (Wong and Mooney 2007) extends WASP to work with logical
+forms that contain bound variables (lambda abstraction).
+ LNLZ08 (Lu et al 2008) learns a generative model over hybrid trees,
+which are logical forms augmented with natural language words.
+IBM model 1 is used to initialize the parameters, and a discriminative
+reranking step works on top of the generative model.
+ ZC05 (Zettlemoyer and Collins 2005) learns a discriminative log-linear
+model over CCG derivations. Starting with a manually constructed
+domain-independent lexicon, the training procedure grows the lexicon
+by adding lexical entries derived from associating parts of an utterance
+with parts of the annotated logical form.
+ ZC07 (Zettlemoyer and Collins 2007) extends ZC05 with extra
+(disharmonic) combinators to increase the expressive power of the model.
+ KZGS10 (Kwiatkowski et al 2010) uses a restricted higher-order
+unification procedure, which iteratively breaks up a logical form into
+smaller pieces. This approach gradually adds lexical entries of increasing
+generality, thus obviating the need for the manually specified templates
+used by ZC05 and ZC07 for growing the lexicon. IBM model 1 is used to
+initialize the parameters.
+ KZGS11 (Kwiatkowski et al 2011) extends KZGS10 by factoring lexical
+entries into a template plus a sequence of predicates that fill the slots of
+the template. This factorization improves generalization.
+With the exception of PRECISE, all other systems require annotated logical forms,
+whereas our system learns only from annotated answers. On the other hand, our system
+does rely on a fewmanually specified lexical triggers, whereasmany of the later systems
+essentially require no manually crafted lexica. For us, the lexical triggers play a crucial
+role in the initial stages of learning because they constrain the set of candidate DCS
+trees; otherwise we would face a hopelessly intractable search problem. The other
+systems induce lexica using unsupervised word alignment (Wong and Mooney 2006,
+2007; Kwiatkowski et al 2010, 2011) and/or on-line lexicon learning (Zettlemoyer and
+Collins 2005, 2007; Kwiatkowski et al 2010, 2011). Unfortunately, we cannot use these
+automatic techniques because they rely on having annotated logical forms.
+Table 3 shows the results for GEO. Semantic parsers are typically evaluated on
+the accuracy of the logical forms: precision (the accuracy on utterances which are
+434
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Table 3
+Results on GEO: Logical form accuracy (LF) and answer accuracy (Answer) of the various
+systems. The first group of systems are evaluated using 10-fold cross-validation on all 880
+examples; the second are evaluated on the 680+ 200 split of Zettlemoyer and Collins (2005).
+Our system (LJK11) with base triggers obtains comparable accuracy to past work, whereas
+with augmented triggers, our system obtains the highest overall accuracy.
+System LF (%) Answer (%)
+COCKTAIL (Tang and Mooney 2001) 79.4 ?
+PRECISE (Popescu, Etzioni, and Kautz 2003) 77.5 77.5
+SCISSOR (Ge and Mooney 2005) 72.3 ?
+SILT (Kate, Wong, and Mooney 2005) 54.1 ?
+KRISP (Kate and Mooney 2006) 71.7 ?
+WASP (Wong and Mooney 2006) 74.8 ?
+?-WASP (Wong and Mooney 2007) 86.6 ?
+LNLZ08 (Lu et al 2008) 81.8 ?
+ZC05 (Zettlemoyer and Collins 2005) 79.3 ?
+ZC07 (Zettlemoyer and Collins 2007) 86.1 ?
+KZGS10 (Kwiatkowski et al 2010) 88.2 88.9
+KZGS11 (Kwiatkowski et al 2010) 88.6 ?
+LJK11 w/base triggers (Liang, Jordan, and Klein 2011) ? 87.9
+LJK11 w/augmented triggers (Liang, Jordan, and Klein 2011) ? 91.4
+successfully parsed) and recall (the accuracy on all utterances). We only focus on recall
+(a lower bound on precision) and simply use the word accuracy to refer to recall.15 Our
+system is evaluated only on answer accuracy because our model marginalizes out the
+latent logical form. All other systems are evaluated on the accuracy of logical forms. To
+calibrate, we also evaluated KZGS10 on answer accuracy and found that it was quite
+similar to its logical form accuracy (88.9% vs. 88.2%).16 This does not imply that our
+system would necessarily have a high logical form accuracy because multiple logical
+forms can produce the same answer, and our system does not receive a training signal
+to tease them apart. Even with only base triggers, our system (LJK11) outperforms all
+but two of the systems, falling short of KZGS10 by only one percentage point (87.9% vs.
+88.9%).17 With augmented triggers, our system takes the lead (91.4% vs. 88.9%).
+Table 4 shows the results for JOBS. The two learning-based systems (COCKTAIL
+and ZC05) are actually outperformed by PRECISE, which is able to use strong database
+type constraints. By exploiting this information and doing learning, we obtain the best
+results.
+4.3 Empirical Properties
+In this section, we try to gain intuition into properties of our approach. All experiments
+in this section were performed on random development splits. Throughout this section,
+?accuracy? means development test accuracy.
+15 Our system produces a logical form for every utterance, and thus our precision is the same as our recall.
+16 The 88.2% corresponds to 87.9% in Kwiatkowski et al (2010). The difference is due to using a slightly
+newer version of the code.
+17 The 87.9% and 91.4% correspond to 88.6% and 91.1% in Liang, Jordan, and Klein (2011). These differences
+are due to minor differences in the code.
+435
+Computational Linguistics Volume 39, Number 2
+Table 4
+Results on JOBS: Both PRECISE and our system use database type constraints, which results in a
+decisive advantage over the other systems. In addition, LJK11 incorporates learning and
+therefore obtains the highest accuracies.
+System LF (%) Answer (%)
+COCKTAIL (Tang and Mooney 2001) 79.4 ?
+PRECISE (Popescu, Etzioni, and Kautz 2003) 88.0 88.0
+ZC05 (Zettlemoyer and Collins 2005) 79.3 ?
+LJK11 w/base triggers (Liang, Jordan, and Klein 2011) ? 90.7
+LJK11 w/augmented triggers (Liang, Jordan, and Klein 2011) ? 95.0
+4.3.1 Error Analysis. To understand the type of errors our system makes, we examined
+one of the development runs, which had 34 errors on the test set. We classified these
+errors into the following categories (the number of errors in each category is shown in
+parentheses):
+ Incorrect POS tags (8): GEO is out-of-domain for our POS tagger, so the
+tagger makes some basic errors that adversely affect the predicates that
+can be lexically triggered. For example, the questionWhat states border
+states . . . is tagged as WP VBZ NN NNS . . . , which means that the first states
+cannot trigger state. In another example, major river is tagged as NNP
+NNP, so these cannot trigger the appropriate predicates either, and thus
+the desired DCS tree cannot even be constructed.
+ Non-projectivity (3): The candidate DCS trees are defined by a projective
+construction mechanism (Section 2.6) that prohibits edges in the DCS
+tree from crossing. This means we cannot handle utterances such as
+largest city by area, because the desired DCS tree would have city
+dominating area dominating argmax. To construct this DCS tree,
+we could allow local reordering of the words.
+ Unseen words (2): We never saw at least or sea level at training time.
+The former has the correct lexical trigger, but not a sufficiently large
+feature weight (0) to encourage its use. For the latter, the problem is
+more structural: We have no lexical triggers for 0 :length, and only
+adding more lexical triggers can solve this problem.
+ Wrong lexical triggers (7): Sometimes the error is localized to a single
+lexical trigger. For example, the model incorrectly thinksMississippi
+is the state rather than the river, and that Rochester is the city in
+New York rather than the name, even though there are contextual
+cues to disambiguate in these cases.
+ Extra words (5): Sometimes, words trigger predicates that should be
+ignored. For example, for population density, the first word triggers
+population, which is used rather than density.
+ Over-smoothing of DCS tree (9): The first half of our features (Figure 20)
+are defined on the DCS tree alone; these produce a form of smoothing
+that encourages DCS trees to look alike regardless of the words. We found
+436
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+several instances where this essential tool for generalization went too
+far. For example, in state of Nevada, the trace predicate border is inserted
+between the two nouns, because it creates a structure more similar to
+that of the common question what states border Nevada?
+4.3.2 Visualization of Features.Having analyzed the behavior of our system for individual
+utterances, let us move from the token level to the type level and analyze the learned
+parameters of our model. We do not look at raw feature weights, because there are
+complex interactions between them not represented by examining individual weights.
+Instead, we look at expected feature counts, which we think are more interpretable.
+Consider a group of ?competing? features J, for example J = {TRIGGERPRED[city,
+p] : p ? P}. We define a distribution q(?) over J as follows:
+q( j) =
+Nj
+?
+j??J Nj?
+, where (78)
+Nj =
+?
+(x,y)?D
+Ep(z|x,Z?L,?,?)[?(x, z)]
+Think of q( j) as a marginal distribution (because all our features are positive) that
+represents the relative frequencies with which the features j ? J fire with respect to
+our training data set D and trained model p(z | x, Z?L,?,?). To appreciate the difference
+between what this distribution and raw feature weights capture, suppose we had two
+features, j1 and j2, which are identical (?(x, z)j1 ? ?(x, z)j2 ). The weights would be split
+across the two features, but the features would have the same marginal distribution
+(q(j1) = q(j2)). Figure 23 shows some of the feature distributions learned.
+4.3.3 Learning, Search, Bootstrapping. Recall from Section 3.2.1 that a training example
+is feasible (with respect to our beam search) if the resulting candidate set contains a
+DCS tree with the correct answer. Infeasible examples are skipped, but an example may
+become feasible in a later iteration. A natural question is how many training examples
+are feasible in each iteration. Figure 24 shows the answer: Initially, only around 30% of
+the training examples are feasible; this is not surprising given that all the parameters
+are zero, so our beam search is essentially unguided. Training on just these examples
+improves the parameters, however, and over the next few iterations, the number of
+feasible examples steadily increases to around 97%.
+In our algorithm, learning and search are deeply intertwined. Search is of course
+needed to learn, but learning also improves search. The general approach is similar in
+spirit to Searn (Daume, Langford, andMarcu 2009), althoughwe do not have any formal
+guarantees at this point.
+Our algorithm also has a bootstrapping flavor. The ?easy? examples are processed
+first, where easy is defined by the ability of beam search to generate the correct answer.
+This bootstrapping occurs quite naturally: Unlikemost bootstrapping algorithms, we do
+not have to set a confidence threshold for accepting new training examples, something
+that can be quite tricky to do. Instead, our threshold falls out of the discrete nature of
+the beam search.
+4.3.4 Effect of Various Settings. So far, we have used our approach with default settings
+(Section 4.1.2). How sensitive is the approach to these choices? Table 5 shows the impact
+of the feature templates. Figure 25 shows the effect of the number of training examples,
+437
+Computational Linguistics Volume 39, Number 2
+Figure 23
+Learned feature distributions. In a feature group (e.g., TRIGGERPRED[city, ?]), each feature is
+associated with the marginal probability that the feature fires according to Equation (78). Note
+that we have successfully learned that citymeans city, but incorrectly learned that sparsemeans
+elevation (due to the confounding fact that Alaska is the most sparse state and has the highest
+elevation).
+number of training iterations, beam size, and regularization parameter. The overall
+conclusion is that there are no big surprises: Our default settings could be improved
+on slightly, but these differences are often smaller than the variation across different
+development splits.
+We now consider the choice of optimization algorithm to update the parameters
+given candidate sets (see Figure 21). Thus far, we have been using L-BFGS (Nocedal
+1980), which is a batch algorithm. Each iteration, we construct the candidate
+Figure 24
+The fraction of feasible training examples increases steadily as the parameters, and thus the
+beam search improves. Each curve corresponds to a run on a different development split.
+438
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Table 5
+There are two classes of feature templates: lexical features (TRIGGERPRED,TRACE*) and
+non-lexical features (PREDREL,PREDRELPRED). The lexical features are relatively much more
+important for obtaining good accuracy (76.4% vs. 23.1%), but adding the non-lexical features
+makes a significant contribution as well (84.7% vs. 76.4%).
+Features Accuracy (%)
+PRED 13.4? 1.6
+PRED + PREDREL 18.4? 3.5
+PRED + PREDREL + PREDRELPRED 23.1? 5.0
+PRED + TRIGGERPRED 61.3? 1.1
+PRED + TRIGGERPRED + TRACE* 76.4? 2.3
+PRED + PREDREL + PREDRELPRED + TRIGGERPRED + TRACE* 84.7? 3.5
+sets C(t)(x) for all the training examples before solving the optimization problem
+argmax?O(?,C
+(t) ). We now consider an on-line algorithm, stochastic gradient descent
+(SGD) (Robbins and Monro 1951), which updates the parameters after computing
+the candidate set for each example. In particular, we iteratively scan through the
+training examples in a random order. For each example (x, y), we compute the
+candidate set using beam search. We then update the parameters in the direction of
+the gradient of the marginal log-likelihood for that example (see Equation (72)) with
+step size t??:
+?(t+1) ? ?(t) + t??
+(
+? log p(y | x; Z?L,?(t) ,?)
+??
+?
+?
+?
+?=?(t)
+)
+(79)
+The trickiest aspect of using SGD is selecting the correct step size: A small ? leads to
+quick progress but also instability; a large ? leads to the opposite. We let L-BFGS and
+SGD both take the same number of iterations (passes over the training set). Figure 26
+shows that a very small value of ? (less than 0.2) is best for our task, even though
+only values between 0.5 and 1 guarantee convergence. Our setting is slightly different
+because we are interleaving the SGD updates with beam search, which might also
+lead to unpredictable consequences. Furthermore, the non-convexity of the objective
+function exacerbates the unpredictability (Liang and Klein 2009). Nonetheless, with
+a proper ?, SGD converges much faster than L-BFGS and even to a slightly better
+solution.
+5. Discussion
+The work we have presented in this article addresses three important themes. The
+first theme is semantic representation (Section 5.1): How do we parametrize the mapping
+from utterances to their meanings? The second theme is program induction (Section 5.2):
+How do we efficiently search through the space of logical structures given a weak
+feedback signal? Finally, the last theme is grounded language (Section 5.3): Howdowe use
+constraints from the world to guide learning of language and conversely use language
+to interact with the world?
+439
+Computational Linguistics Volume 39, Number 2
+Figure 25
+(a) The learning curve shows test accuracy as the number of training examples increases; about
+300 examples suffices to get around 80% accuracy. (b) Although our algorithm is not guaranteed
+to converge, the test accuracy is fairly stable (with one exception) with more training
+iterations?hardly any overfitting occurs. (c) As the beam size increases, the accuracy increases
+monotonically, although the computational burden also increases. There is a small gain from our
+default setting of K = 100 to the more expensive K = 300. (d) The accuracy is relatively
+insensitive to the choice of the regularization parameter for a wide range of values. In fact, no
+regularization is also acceptable. This is probably because the features are simple, and the lexical
+triggers and beam search already provide some helpful biases.
+5.1 Semantic Representation
+Since the late nineteenth century, philosophers and linguists have worked on elucidat-
+ing the relationship between an utterance and its meaning. One of the pillars of formal
+semantics is Frege?s principle of compositionality, that the meaning of an utterance
+is built by composing the meaning of its parts. What these parts are and how they
+are composed is the main question. The dominant paradigm, which stems from the
+seminal work of Richard Montague (1973) in the early 1970s, states that parts are
+lambda calculus expressions that correspond to syntactic constituents, and composition
+is function application.
+440
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Figure 26
+(a) Given the same number of iterations, compared to default batch algorithm (L-BFGS),
+the on-line algorithm (stochastic gradient descent) is slightly better for aggressive step
+sizes (small ?) and worse for conservative step sizes (large ?). (b) The on-line algorithm
+(with an appropriate choice of ?) obtains a reasonable accuracy much faster than L-BFGS.
+Consider the compositionality principle from a statistical point of view, where we
+construe compositionality as factorization. Factorization, the way a statistical model
+breaks into features, is necessary for generalization: It enables us to learn from pre-
+viously seen examples and interpret new utterances. Projecting back to Frege?s orig-
+inal principle, the parts are the features (Section 3.1.1), and composition is the DCS
+construction mechanism (Section 2.6) driven by parameters learned from training
+examples.
+Taking the statistical view of compositionality, finding a good semantic represen-
+tation becomes designing a good statistical model. But statistical modeling must also
+deal with the additional issue of language acquisition or learning, which presents
+complications: In absorbing training examples, our learning algorithm must inevitably
+traverse through intermediate models that are wrong or incomplete. The algorithms
+must therefore tolerate this degradation, and do so in a computationally efficient way.
+For example, in the line of work on learning probabilistic CCGs (Zettlemoyer and
+Collins 2005, 2007; Kwiatkowski et al 2010), many candidate lexical entries must be
+entertained for each word even when polysemy does not actually exist (Section 2.6.4).
+To improve generalization, the lexicon can be further factorized (Kwiatkowski et al
+2011), but this is all done within the constraints of CCG. DCS represents a departure
+from this tradition, which replaces a heavily lexicalized constituency-based formalism
+with a lightly-lexicalized dependency-based formalism. We can think of DCS as a shift
+in linguistic coordinate systems, which makes certain factorizations or features more
+accessible. For example, we can define features on paths between predicates in a DCS
+tree which capture certain lexical patterns much more easily than in a lambda calculus
+expression or a CCG derivation.
+DCS has a family resemblance to a semantic representation called natural logic form
+(Alshawi, Chang, and Ringgaard 2011), which is also motivated by the benefits of work-
+ing with dependency-based logical forms. The goals and the detailed structure of the
+two semantic formalisms are different, however. Alshawi, Chang, and Ringgaard (2011)
+focus on parsing complex sentences in an open domain where a structured database
+or world does not exist. Whereas they do equip their logical forms with a full model-
+theoretic semantics, the logical forms are actually closer to dependency trees: Quantifier
+scope is left unspecified, and the predicates are simply the words.
+441
+Computational Linguistics Volume 39, Number 2
+Perhaps not immediately apparent is the fact that DCS draws an important idea
+from Discourse Representation Theory (DRT) (Kamp and Reyle 1993)?not from the
+treatment of anaphora and presupposition which it is known for, but something closer
+to its core. This is the idea of having a logical form where all variables are existentially
+quantified and constraints are combined via conjunction?a Discourse Representation
+Structure (DRS) in DRT, or a basic DCS tree with only join relations. Computationally,
+these logical structures conveniently encode CSPs. Linguistically, it appears that existen-
+tial quantifiers play an important role and should be treated specially (Kamp and Reyle
+1993). DCS takes this core and focuses on semantic compositionality and computation,
+whereas DRT focuses more on discourse and pragmatics.
+In addition to the statistical view of DCS as a semantic representation, it is use-
+ful to think about DCS from the perspective of programming language design. Two
+programming languages can be equally expressive, but what matters is how simple it
+is to express a desired type of computation in a given language. In some sense, we
+designed the DCS formal language to make it easy to represent computations expressed
+by natural language. An important part of DCS is themark?execute construct, a uniform
+framework for dealing with the divergence between syntactic and semantic scope. This
+construct allows us to build simple DCS tree structures and still handle the complexities
+of phenomena such as quantifier scope variation. Compared to lambda calculus, think
+of DCS as a higher-level programming language tailored to natural language, which
+results in simpler programs (DCS trees). Simpler programs are easier for us to work
+with and easier for an algorithm to learn.
+5.2 Program Induction
+Searching over the space of programs is challenging. This is the central computational
+challenge of program induction, that of inferring programs (logical forms) from their
+behavior (denotations). This problem has been tackled by different communities in
+various forms: program induction in AI, programming by demonstration in Human?
+Computer Interaction, and program synthesis in programming languages. The core
+computational difficulty is that the supervision signal?the behavior?is a complex
+function of the program that cannot be easily inverted. What program generated the
+output Arizona, Nevada, and Oregon?
+Perhaps somewhat counterintuitively, program induction is easier if we infer pro-
+grams for not a single task but for multiple tasks. The intuition is that when the tasks
+are related, the solution to one task can help another task, both computationally in
+navigating the program space and statistically in choosing the appropriate program if
+there are multiple feasible possibilities (Liang, Jordan, and Klein 2010). In our semantic
+parsing work, we want to infer a logical form for each utterance (task). Clearly the tasks
+are related because they use the same vocabulary to talk about the same domain.
+Natural language also makes program induction easier by providing side informa-
+tion (words) which can be used to guide the search. There have been several papers
+that induce programs in this setting: Eisenstein et al (2009) induce conjunctive for-
+mulae from natural language instructions, Piantadosi et al (2008) induce first-order
+logic formulae using CCG in a small domain assuming observed lexical semantics,
+and Clarke et al (2010) induce logical forms in semantic parsing. In the ideal case, the
+words would determine the program predicates, and the utterance would determine
+the entire program compositionally. But of course, this mapping is not given and must
+be learned.
+442
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+5.3 Grounded Language
+In recent years, there has been an increased interest in connecting language with the
+world.18 One of the primary issues in grounded language is alignment?figuring out
+what fragments of utterances refer to what aspects of the world. In fact, semantic
+parsers trained on examples of utterances and annotated logical form (those discussed
+in Section 4.2.2) need to solve the task of aligning words to predicates. Some can learn
+from utterances paired with a set of logical forms, one of which is correct (Kate and
+Mooney 2007; Chen and Mooney 2008). Liang, Jordan, and Klein (2009) tackle the even
+more difficult alignment problem of segmenting and aligning a discourse to a database
+of facts, where many parts on either side are irrelevant.
+If we know how the world relates to language, we can leverage structure in the
+world to guide the learning and interpretation of language.We saw that type constraints
+from the database/world reduce the set of candidate logical forms and lead to more
+accurate systems (Popescu, Etzioni, and Kautz 2003; Liang, Jordan, and Klein 2011).
+Even for syntactic parsing, information from the denotation of an utterance can be
+helpful (Schuler 2003).
+One of the exciting aspects about using the world for learning language is that
+it opens the door to many new types of supervision. We can obtain answers given a
+world, which are cheaper to obtain than logical forms (Clarke et al 2010; Liang, Jordan,
+and Klein 2011). Other researchers have also pushed in this direction in various ways:
+learning a semantic parser based on bootstrapping and estimating the confidence of its
+own predictions (Goldwasser et al 2011), learning a semantic parser from user interac-
+tions with a dialog system (Artzi and Zettlemoyer 2011), and learning to execute natural
+language instructions from just a reward signal using reinforcement learning (Branavan
+et al 2009; Branavan, Zettlemoyer, and Barzilay 2010; Branavan, Silver, and Barzilay
+2011). In general, supervision from the world is indirectly related to the learning task,
+but it is often much more plentiful and natural to obtain.
+The benefits can also flow from language to the world. For example, previous work
+learned to interpret language to troubleshoot aWindows machine (Branavan et al 2009;
+Branavan, Zettlemoyer, and Barzilay 2010), win a game of Civilization (Branavan, Silver,
+and Barzilay 2011), play a legal game of solitaire (Eisenstein et al 2009; Goldwasser and
+Roth 2011), and navigate a map by following directions (Vogel and Jurafsky 2010; Chen
+and Mooney 2011). Even when the objective in the world is defined independently of
+language (e.g., in Civilization), language can provide a useful bias towards the non-
+linguistic end goal.
+6. Conclusions
+The main conceptual contribution of this article is a new semantic formalism,
+dependency-based compositional semantics (DCS), and techniques to learn a semantic
+parser from question?answer pairs where the intermediate logical form (a DCS tree) is
+induced in an unsupervised manner. Our final question?answering system was able to
+match the accuracies of state-of-the-art systems that learn from annotated logical forms.
+There is currently a significant conceptual gap between our question?answering
+system (which can be construed as a natural language interface to a database) and
+18 Here, world need not refer to the physical world, but could be any virtual world. The point is that the
+world has non-trivial structure and exists extra-linguistically.
+443
+Computational Linguistics Volume 39, Number 2
+open-domain question?answering systems. The former focuses on understanding a
+question compositionally and computing the answer compositionally, whereas the lat-
+ter focuses on retrieving and ranking answers from a large unstructured textual corpus.
+The former has depth; the latter has breadth. Developing methods that can both model
+the semantic richness of language and scale up to an open-domain setting remains an
+open challenge.
+We believe that it is possible to push our approach in the open-domain direction.
+Neither DCS nor the learning algorithm is tied to having a clean rigid database, which
+could instead be a database generated from a noisy information extraction process. The
+key is to drive the learning with the desired behavior, the question?answer pairs. The
+latent variable is the logical form or program, which just tries to compute the desired
+answer by piecing together whatever information is available. Of course, there aremany
+open challenges ahead, but with the proper combination of linguistic, statistical, and
+computational insight, we hope to eventually build systems with both breadth and
+depth.
+Acknowledgments
+We thank Luke Zettlemoyer and Tom
+Kwiatkowski for providing us with data
+and answering questions, as well as the
+anonymous reviewers for their detailed
+feedback. P. L. was supported by an NSF
+Graduate Research Fellowship.
+References
+Alshawi, H., P. Chang, and M. Ringgaard.
+2011. Deterministic statistical mapping
+of sentences to underspecified
+semantics. In International Conference
+on Compositional Semantics (IWCS),
+pages 15?24, Oxford.
+Androutsopoulos, I., G. D. Ritchie, and
+P. Thanisch. 1995. Natural language
+interfaces to databases?an introduction.
+Journal of Natural Language Engineering,
+1:29?81.
+Artzi, Y. and L. Zettlemoyer. 2011.
+Bootstrapping semantic parsers from
+conversations. In Empirical Methods in
+Natural Language Processing (EMNLP),
+pages 421?432, Edinburgh.
+Baldridge, J. and G. M. Kruijff. 2002.
+Coupling CCG with hybrid logic
+dependency semantics. In Association
+for Computational Linguistics (ACL),
+pages 319?326, Philadelphia, PA.
+Barker, C. 2002. Continuations and the
+nature of quantification. Natural
+Language Semantics, 10:211?242.
+Bos, J. 2009. A controlled fragment of
+DRT. InWorkshop on Controlled Natural
+Language, pages 1?5.
+Bos, J., S. Clark, M. Steedman, J. R. Curran,
+and J. Hockenmaier. 2004. Wide-coverage
+semantic representations from a CCG
+parser. In International Conference on
+Computational Linguistics (COLING),
+pages 1240?1246, Geneva.
+Branavan, S., H. Chen, L. S. Zettlemoyer, and
+R. Barzilay. 2009. Reinforcement learning
+for mapping instructions to actions. In
+Association for Computational Linguistics and
+International Joint Conference on Natural
+Language Processing (ACL-IJCNLP),
+pages 82?90, Singapore.
+Branavan, S., D. Silver, and R. Barzilay. 2011.
+Learning to win by reading manuals in a
+Monte-Carlo framework. In Association
+for Computational Linguistics (ACL),
+pages 268?277.
+Branavan, S., L. Zettlemoyer, and R. Barzilay.
+2010. Reading between the lines: Learning
+to map high-level instructions to
+commands. In Association for Computational
+Linguistics (ACL), pages 1268?1277,
+Portland, OR.
+Carpenter, B. 1998. Type-Logical Semantics.
+MIT Press, Cambridge, MA.
+Chen, D. L. and R. J. Mooney. 2008. Learning
+to sportscast: A test of grounded language
+acquisition. In International Conference on
+Machine Learning (ICML), pages 128?135,
+Helsinki.
+Chen, D. L. and R. J. Mooney. 2011.
+Learning to interpret natural language
+navigation instructions from observations.
+In Association for the Advancement
+of Artificial Intelligence (AAAI),
+pages 128?135, Cambridge, MA.
+Clarke, J., D. Goldwasser, M. Chang,
+and D. Roth. 2010. Driving semantic
+parsing from the world?s response.
+In Computational Natural Language
+Learning (CoNLL), pages 18?27,
+Uppsala.
+444
+Liang, Jordan, and Klein Learning Dependency-Based Compositional Semantics
+Collins, M. 1999. Head-Driven Statistical
+Models for Natural Language Parsing.
+Ph.D. thesis, University of Pennsylvania.
+Cooper, R. 1975.Montague?s semantic theory
+and transformational syntax. Ph.D. thesis,
+University of Massachusetts at Amherst.
+Cousot, P. and R. Cousot. 1977. Abstract
+interpretation: A unified lattice model for
+static analysis of programs by construction
+or approximation of fixpoints. In Principles
+of Programming Languages (POPL),
+pages 238?252, Los Angeles, CA.
+Daume, H., J. Langford, and D. Marcu.
+2009. Search-based structured prediction.
+Machine Learning Journal (MLJ), 75:297?325.
+Dechter, R. 2003. Constraint Processing.
+Morgan Kaufmann.
+Eisenstein, J., J. Clarke, D. Goldwasser,
+and D. Roth. 2009. Reading to learn:
+Constructing features from semantic
+abstracts. In Empirical Methods in
+Natural Language Processing (EMNLP),
+pages 958?967, Singapore.
+Ge, R. and R. J. Mooney. 2005. A statistical
+semantic parser that integrates syntax
+and semantics. In Computational Natural
+Language Learning (CoNLL), pages 9?16,
+Ann Arbor, MI.
+Giordani, A. and A. Moschitti. 2009.
+Semantic mapping between natural
+language questions and SQL queries
+via syntactic pairing. In International
+Conference on Applications of Natural
+Language to Information Systems,
+pages 207?221, Saarbru?cken.
+Goldwasser, D., R. Reichart, J. Clarke,
+and D. Roth. 2011. Confidence driven
+unsupervised semantic parsing. In
+Association for Computational Linguistics
+(ACL), pages 1486?1495, Barcelona.
+Goldwasser, D. and D. Roth. 2011. Learning
+from natural instructions. In International
+Joint Conference on Artificial Intelligence
+(IJCAI), pages 1794?1800, Portland, OR.
+Heim, I. and A. Kratzer. 1998. Semantics in
+Generative Grammar. Wiley-Blackwell,
+Oxford.
+Judge, J., A. Cahill, and J. v. Genabith.
+2006. Question-bank: Creating a
+corpus of parse-annotated questions.
+In International Conference on Computational
+Linguistics and Association for Computational
+Linguistics (COLING/ACL), pages 497?504,
+Sydney.
+Kamp, H. and U. Reyle. 1993. From Discourse
+to Logic: An 

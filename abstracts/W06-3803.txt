@@ -1,0 +1,21 @@
+ 
+We discuss several feature sets for 
+novelty detection at the sentence level, 
+using the data and procedure established 
+in task 2 of the TREC 2004 novelty track. 
+In particular, we investigate feature sets 
+derived from graph representations of 
+sentences and sets of sentences. We show 
+that a highly connected graph produced 
+by using sentence-level term distances 
+and pointwise mutual information can 
+serve as a source to extract features for 
+novelty detection. We compare several 
+feature sets based on such a graph 
+representation. These feature sets allow us 
+to increase the accuracy of an initial 
+novelty classifier which is based on a bag-
+of-word representation and KL 
+divergence. The final result ties with the 
+best system at TREC 2004. 
+1 

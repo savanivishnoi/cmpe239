@@ -1,0 +1,20 @@
+
+This paper describes a robust linear classifica-
+tion system for Named Entity Recognition. A
+similar system has been applied to the CoNLL
+text chunking shared task with state of the art
+performance. By using different linguistic fea-
+tures, we can easily adapt this system to other
+token-based linguistic tagging problems. The
+main focus of the current paper is to investigate
+the impact of various local linguistic features
+for named entity recognition on the CoNLL-
+2003 (Tjong Kim Sang and De Meulder, 2003)
+shared task data. We show that the system per-
+formance can be enhanced significantly with
+some relative simple token-based features that
+are available for many languages. Although
+more sophisticated linguistic features will also
+be helpful, they provide much less improve-
+ment than might be expected.
+1 

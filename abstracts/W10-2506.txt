@@ -1,0 +1,19 @@
+
+We derive and implement an algorithm
+similar to (Huang and Chiang, 2005) for
+finding the n best derivations in a weighted
+hypergraph. We prove the correctness and
+termination of the algorithm and we show
+experimental results concerning its run-
+time. Our work is different from the afore-
+mentioned one in the following respects:
+we consider labeled hypergraphs, allowing
+for tree-based language models (Maletti
+and Satta, 2009); we specifically handle
+the case of cyclic hypergraphs; we admit
+structured weight domains, allowing for
+multiple features to be processed; we use
+the paradigm of functional programming
+together with lazy evaluation, achieving
+concise algorithmic descriptions.
+1 

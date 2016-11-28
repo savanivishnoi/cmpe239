@@ -1,0 +1,25 @@
+
+MIT?s Audio Notebook added great value to the
+note-taking process by retaining audio record-
+ings, e.g. during lectures or interviews. The key
+was to provide users ways to quickly and easily
+access portions of interest in a recording. Sev-
+eral non-speech-recognition based techniques
+were employed. In this paper we present a
+system to search directly the audio record-
+ings by key phrases. We have identified the
+user requirements as accurate ranking of phrase
+matches, domain independence, and reasonable
+response time. We address these requirements
+by a hybrid word/phoneme search in lattices,
+and a supporting indexing scheme. We will in-
+troduce the ranking criterion, a unified hybrid
+posterior-lattice representation, and the index-
+ing algorithm for hybrid lattices. We present
+results for five different recording sets, includ-
+ing meetings, telephone conversations, and in-
+terviews. Our results show an average search
+accuracy of 84%, which is dramatically better
+than a direct search in speech recognition tran-
+scripts (less than 40% search accuracy).
+1 

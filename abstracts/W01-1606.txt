@@ -1,0 +1,17 @@
+  
+The development of spoken dialogue 
+systems is often limited by the performance 
+of their speech recognition component. The 
+impact of speech recognition errors on 
+dialogue systems is often studied at the 
+global level of task completion. In this 
+paper, we carry an empirical study on the 
+consequences of speech recognition errors 
+on a fully-implemented dialogue prototype, 
+based on a speech acts formalisms. We 
+report the impact of speech recognition 
+errors on speech act identification and 
+discuss how standard control mechanisms 
+can participate to robustness by assisting the 
+user in repairing the consequences of speech 
+recognition errors.  

@@ -1,0 +1,28 @@
+
+We describe the systems submitted by SRI In-
+ternational and the University of the Basque
+Country for the Semantic Textual Similarity
+(STS) SemEval-2012 task. Our systems fo-
+cused on using a simple set of features, fea-
+turing a mix of semantic similarity resources,
+lexical match heuristics, and part of speech
+(POS) information. We also incorporate pre-
+cision focused scores over lexical and POS in-
+formation derived from the BLEU measure,
+and lexical and POS features computed over
+split-bigrams from the ROUGE-S measure.
+These were used to train support vector re-
+gressors over the pairs in the training data.
+From the three systems we submitted, two per-
+formed well in the overall ranking, with split-
+bigrams improving performance over pairs
+drawn from the MSR Research Video De-
+scription Corpus. Our third system maintained
+three separate regressors, each trained specif-
+ically for the STS dataset they were drawn
+from. It used a multinomial classifier to pre-
+dict which dataset regressor would be most ap-
+propriate to score a given pair, and used it to
+score that pair. This system underperformed,
+primarily due to errors in the dataset predictor.
+1 

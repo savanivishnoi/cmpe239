@@ -1,0 +1,16 @@
+ 
+The paper eports on a new approach to automatic 
+generation of back-of-book indexes for Chinese 
+books. Parsing on the level of complete sentential 
+analysis i  avoided because of the inefficiency and 
+unavailability ofa Chinese Grammar with enough 
+coverage. Instead, fundamental analysis particular 
+to Chinese text called word segmentation is 
+performed to break up characters into a sequence 
+of lexical units equivalent to words in English. 
+The sequence of words then goes through part-of- 
+speech tagging and noun phrase analysis. All these 
+analyses are done using a corpus-based statistical 
+algorithm. Experimental results have shown 
+satisfactory esults. 
+I. 

@@ -1,0 +1,19 @@
+
+Among the many proposals to promote al-
+ternatives to costly to create gold stan-
+dards, just recently the idea of a fully au-
+tomatically, and thus cheaply, to set up sil-
+ver standard has been launched. However,
+the current construction policy for such a
+silver standard requires crucial parameters
+(such as similarity thresholds and agree-
+ment cut-offs) to be set a priori, based on
+extensive testing though, at corpus com-
+pile time. Accordingly, such a corpus is
+static, once it is released. We here propose
+an alternative policy where silver stan-
+dards can be dynamically optimized and
+customized on demand (given a specific
+goal function) using a gold standard as an
+oracle.
+1 

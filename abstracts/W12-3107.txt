@@ -1,0 +1,20 @@
+
+This paper describes Stanford University?s sub-
+mission to the Shared Evaluation Task of WMT
+2012. Our proposed metric (SPEDE) com-
+putes probabilistic edit distance as predictions
+of translation quality. We learn weighted edit
+distance in a probabilistic finite state machine
+(pFSM) model, where state transitions corre-
+spond to edit operations. While standard edit
+distance models cannot capture long-distance
+word swapping or cross alignments, we rectify
+these shortcomings using a novel pushdown
+automaton extension of the pFSM model. Our
+models are trained in a regression framework,
+and can easily incorporate a rich set of linguis-
+tic features. Evaluated on two different pre-
+diction tasks across a diverse set of datasets,
+our methods achieve state-of-the-art correla-
+tion with human judgments.
+1 

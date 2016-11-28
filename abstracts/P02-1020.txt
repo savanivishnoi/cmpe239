@@ -1,0 +1,31 @@
+
+In this paper we present results from
+the METER (MEasuring TExt Reuse)
+project whose aim is to explore issues
+pertaining to text reuse and derivation,
+especially in the context of newspapers
+using newswire sources. Although the
+reuse of text by journalists has been
+studied in linguistics, we are not aware
+of any investigation using existing com-
+putational methods for this particular
+task. We investigate the classication
+of newspaper articles according to their
+degree of dependence upon, or deriva-
+tion from, a newswire source using a
+simple 3-level scheme designed by jour-
+nalists. Three approaches to measur-
+ing text similarity are considered: n-
+gram overlap, Greedy String Tiling,
+and sentence alignment. Measured
+against a manually annotated corpus of
+source and derived news text, we show
+that a combined classier with fea-
+tures automatically selected performs
+best overall for the ternary classica-
+tion achieving an average F
+1
+-measure
+score of 0.664 across all three cate-
+gories.
+1 

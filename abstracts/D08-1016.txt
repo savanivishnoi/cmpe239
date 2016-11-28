@@ -1,0 +1,14 @@
+
+We formulate dependency parsing as a graphical model
+with the novel ingredient of global constraints. We show
+how to apply loopy belief propagation (BP), a simple and
+effective tool for approximate learning and inference. As
+a parsing algorithm, BP is both asymptotically and em-
+pirically efficient. Even with second-order features or la-
+tent variables, which would make exact parsing consider-
+ably slower or NP-hard, BP needs only O(n3) time with
+a small constant factor. Furthermore, such features sig-
+nificantly improve parse accuracy over exact first-order
+methods. Incorporating additional features would in-
+crease the runtime additively rather than multiplicatively.
+1 

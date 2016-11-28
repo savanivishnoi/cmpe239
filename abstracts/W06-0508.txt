@@ -1,0 +1,20 @@
+ 
+We present an approach for extracting re-
+lations from texts that exploits linguistic 
+and empirical strategies, by means of a 
+pipeline method involving a parser, part-
+of-speech tagger, named entity recogni-
+tion system, pattern-based classification 
+and word sense disambiguation models, 
+and resources such as ontology, knowl-
+edge base and lexical databases. The rela-
+tions extracted can be used for various 
+tasks, including semantic web annotation 
+and ontology learning. We suggest that 
+the use of knowledge intensive strategies 
+to process the input text and corpus-
+based techniques to deal with unpredicted 
+cases and ambiguity problems allows to 
+accurately discover the relevant relations 
+between pairs of entities in that text. 
+1 

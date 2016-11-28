@@ -1,0 +1,12 @@
+
+We show that it is possible to learn to identify, with
+high accuracy, the native language of English test
+takers from the content of the essays they write.
+Our method uses standard text classification tech-
+niques based on multiclass logistic regression, com-
+bining individually weak indicators to predict the
+most probable native language from a set of 11 pos-
+sibilities. We describe the various features used for
+classification, as well as the settings of the classifier
+that yielded the highest accuracy.
+1 

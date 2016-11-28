@@ -1,0 +1,22 @@
+
+Word dependency is important in parsing tech-
+nology. Some applications such as Informa-
+tion Extraction from biological documents ben-
+efit from word dependency analysis even with-
+out phrase labels. Therefore, we expect an ac-
+curate dependency analyzer trainable without
+using phrase labels is useful. Although such
+an English word dependency analyzer was pro-
+posed by Yamada and Matsumoto, its accu-
+racy is lower than state-of-the-art phrase struc-
+ture parsers because of the lack of top-down in-
+formation given by phrase labels. This paper
+shows that the dependency analyzer can be im-
+proved by introducing a Root-Node Finder and
+a Prepositional-Phrase Attachment Resolver.
+Experimental results show that these modules
+based on Preference Learning give better scores
+than Collins? Model 3 parser for these subprob-
+lems. We expect this method is also applicable
+to phrase structure parsers.
+1 

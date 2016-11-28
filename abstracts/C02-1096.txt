@@ -1,0 +1,18 @@
+
+In word prediction systems for augmentative and al-
+ternative communication (AAC), productive word-
+formation processes such as compounding pose a
+serious problem. We present a model that predicts
+German nominal compounds by splitting them into
+their modifier and head components, instead of try-
+ing to predict them as a whole. The model is im-
+proved further by the use of class-based modifier-
+head bigrams constructed using semantic classes
+automatically extracted from a corpus. The eval-
+uation shows that the split compound model with
+class bigrams leads to an improvement in keystroke
+savings of more than 15% over a no split compound
+baseline model. We also present preliminary results
+obtained with a word prediction model integrating
+compound and simple word prediction.
+1 

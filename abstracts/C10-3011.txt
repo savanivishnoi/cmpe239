@@ -1,0 +1,16 @@
+
+Antelogue is a pronoun resolution prototype de-
+signed to be released as off-the-shelf software to
+be used autonomously or integrated with larger
+anaphora resolution or other NLP systems. It has
+modules to handle pronouns in both text and dia-
+logue. In Antelogue, the problem of pronoun reso-
+lution is addressed as a two-step process: a) acquir-
+ing information about properties of words and the
+entities they represent and b) determining an algo-
+rithm that utilizes these features to make resolution
+decisions. A hybrid approach is implemented that
+combines known statistical and machine learning
+techniques for feature acquisition and a symbolic
+algorithm for resolution.
+1 

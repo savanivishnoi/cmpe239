@@ -1,0 +1,14 @@
+. A new bilingual dictionary can be built using two existing
+bilingual dictionaries, such as Japanese-English and English-Chinese to
+build Japanese-Chinese dictionary. However, Japanese and Chinese are
+nearer languages than English, there should be a more direct way of
+doing this. Since a lot of Japanese words are composed of kanji, which
+are similar to hanzi in Chinese, we attempt to build a dictionary for kanji
+words by simple conversion from kanji to hanzi. Our survey shows that
+around 2/3 of the nouns and verbal nouns in Japanese are kanji words,
+and more than 1/3 of them can be translated into Chinese directly. The
+accuracy of conversion is 97%. Besides, we obtain translation candidates
+for 24% of the Japanese words using English as a pivot language with
+77% accuracy. By adding the kanji/hanzi conversion method, we increase
+the candidates by 9%, to 33%, with better quality candidates.
+1 

@@ -1,0 +1,19 @@
+
+Child language narratives are used for lan-
+guage analysis, measurement of language
+development, and the detection of lan-
+guage impairment. In this paper, we ex-
+plore the use of Latent Dirichlet Alloca-
+tion (LDA) for detecting topics from nar-
+ratives, and use the topics derived from
+LDA in two classification tasks: automatic
+prediction of coherence and language im-
+pairment. Our experiments show LDA is
+useful for detecting the topics that corre-
+spond to the narrative structure. We also
+observed improved performance for the
+automatic prediction of coherence and lan-
+guage impairment when we use features
+derived from the topic words provided by
+LDA.
+1 

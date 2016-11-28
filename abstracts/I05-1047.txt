@@ -1,0 +1,19 @@
+. This paper proposes a chunking strategy to detect unknown words in 
+Chinese word segmentation. First, a raw sentence is pre-segmented into a 
+sequence of word atoms 1  using a maximum matching algorithm. Then a 
+chunking model is applied to detect unknown words by chunking one or more 
+word atoms together according to the word formation patterns of the word 
+atoms. In this paper, a discriminative Markov model, named Mutual 
+Information Independence Model (MIIM), is adopted in chunking. Besides, a 
+maximum entropy model is applied to integrate various types of contexts and 
+resolve the data sparseness problem in MIIM. Moreover, an error-driven 
+learning approach is proposed to learn useful contexts in the maximum entropy 
+model. In this way, the number of contexts in the maximum entropy model can 
+be significantly reduced without performance decrease. This makes it possible 
+for further improving the performance by considering more various types of 
+contexts. Evaluation on the PK and CTB corpora in the First SIGHAN Chinese 
+word segmentation bakeoff shows that our chunking approach successfully 
+detects about 80% of unknown words on both of the corpora and outperforms 
+the best-reported systems by 8.1% and 7.1% in unknown word detection on 
+them respectively.  
+1   

@@ -1,0 +1,10 @@
+ 
+FarsiSum is an attempt to create an automatic 
+text summarization system for Persian. The 
+system is implemented as a HTTP 
+client/server application written in Perl. It uses 
+modules implemented in an existing 
+summarizer geared towards the Germanic 
+languages, a Persian stop-list in Unicode 
+format and a small set of heuristic rules. 
+1 

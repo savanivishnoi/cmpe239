@@ -1,0 +1,19 @@
+
+Recent studies suggest that machine learn-
+ing can be applied to develop good auto-
+matic evaluation metrics for machine trans-
+lated sentences. This paper further ana-
+lyzes aspects of learning that impact per-
+formance. We argue that previously pro-
+posed approaches of training a Human-
+Likeness classifier is not as well correlated
+with human judgments of translation qual-
+ity, but that regression-based learning pro-
+duces more reliable metrics. We demon-
+strate the feasibility of regression-based
+metrics through empirical analysis of learn-
+ing curves and generalization studies and
+show that they can achieve higher correla-
+tions with human judgments than standard
+automatic metrics.
+1 

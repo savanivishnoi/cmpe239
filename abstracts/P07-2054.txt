@@ -1,0 +1,15 @@
+
+In this paper we present several extensions of
+MARIE1, a freely available N -gram-based sta-
+tistical machine translation (SMT) decoder. The
+extensions mainly consist of the ability to ac-
+cept and generate word graphs and the intro-
+duction of two new N -gram models in the log-
+linear combination of feature functions the de-
+coder implements. Additionally, the decoder is
+enhanced with a caching strategy that reduces
+the number of N -gram calls improving the over-
+all search efficiency. Experiments are carried out
+over the Eurpoean Parliament Spanish-English
+translation task.
+1 

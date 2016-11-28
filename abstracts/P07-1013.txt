@@ -1,0 +1,20 @@
+
+Grapheme-to-phoneme conversion (g2p) is a
+core component of any text-to-speech sys-
+tem. We show that adding simple syllab-
+ification and stress assignment constraints,
+namely ?one nucleus per syllable? and ?one
+main stress per word?, to a joint n-gram
+model for g2p conversion leads to a dramatic
+improvement in conversion accuracy.
+Secondly, we assessed morphological pre-
+processing for g2p conversion. While mor-
+phological information has been incorpo-
+rated in some past systems, its contribution
+has never been quantitatively assessed for
+German. We compare the relevance of mor-
+phological preprocessing with respect to the
+morphological segmentation method, train-
+ing set size, the g2p conversion algorithm,
+and two languages, English and German.
+1 

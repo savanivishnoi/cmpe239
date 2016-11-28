@@ -1,0 +1,21 @@
+ 
+This paper presents a system to summarize 
+a Microblog post and its responses with the 
+goal to provide readers a more constructive 
+and concise set of information for efficient 
+digestion. We introduce a novel two-phase 
+summarization scheme. In the first phase, 
+the post plus its responses are classified in-
+to four categories based on the intention, 
+interrogation, sharing, discussion and chat. 
+For each type of post, in the second phase, 
+we exploit different strategies, including 
+opinion analysis, response pair identifica-
+tion, and response relevancy detection, to 
+summarize and highlight critical informa-
+tion to display. This system provides an al-
+ternative thinking about machine-
+summarization: by utilizing AI approaches, 
+computers are capable of constructing dee-
+per and more user-friendly abstraction. 
+1 

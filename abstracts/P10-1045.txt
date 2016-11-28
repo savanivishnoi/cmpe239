@@ -1,0 +1,15 @@
+
+This paper describes the application of
+so-called topic models to selectional pref-
+erence induction. Three models related
+to Latent Dirichlet Allocation, a proven
+method for modelling document-word co-
+occurrences, are presented and evaluated
+on datasets of human plausibility judge-
+ments. Compared to previously proposed
+techniques, these models perform very
+competitively, especially for infrequent
+predicate-argument combinations where
+they exceed the quality of Web-scale pre-
+dictions while using relatively little data.
+1 

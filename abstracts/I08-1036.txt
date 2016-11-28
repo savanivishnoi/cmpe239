@@ -1,0 +1,22 @@
+
+Searching and reading the Web is one of the
+principal methods used to seek out infor-
+mation to resolve problems about technol-
+ogy in general and digital devices in partic-
+ular. This paper addresses the problem of
+text mining in the digital devices domain. In
+particular, we address the task of detecting
+semantic relations between digital devices in
+the text of Web pages. We use a Na??ve Bayes
+model trained to maximize the margin and
+compare its performance with several other
+comparable methods. We construct a novel
+dataset which consists of segments of text
+extracted from the Web, where each segment
+contains pairs of devices. We also propose
+a novel, inexpensive and very effective way
+of getting people to label text data using a
+Web service, the Mechanical Turk. Our re-
+sults show that the maximum margin model
+consistently outperforms the other methods.
+1 

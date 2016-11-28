@@ -1,0 +1,16 @@
+
+We present a web service for natural language
+parsing, prediction, generation, and translation
+using grammars in Portable Grammar Format
+(PGF), the target format of the Grammatical
+Framework (GF) grammar compiler. The web
+service implementation is open source, works
+with any PGF grammar, and with any web
+server that supports FastCGI. The service ex-
+poses a simple interface which makes it pos-
+sible to use it for interactive natural language
+web applications. We describe the function-
+ality and interface of the web service, and
+demonstrate several applications built on top
+of it.
+1 

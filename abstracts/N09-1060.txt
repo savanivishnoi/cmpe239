@@ -1,0 +1,18 @@
+
+The idea that some words carry more semantic 
+content  than  others,  has  led  to  the  notion  of 
+term specificity,  or informativeness. Computa-
+tional  estimation of  this  quantity  is  important 
+for various applications such as information re-
+trieval. We propose a new method of comput-
+ing term specificity, based on modeling the rate 
+of learning of word meaning in Latent Semantic 
+Analysis  (LSA).  We analyze  the performance 
+of this method both qualitatively and quantitat-
+ively and  demonstrate  that  it  shows excellent 
+performance compared to existing methods on 
+a  broad  range  of  tests.  We  also  demonstrate 
+how it can be used to improve existing applica-
+tions  in  information  retrieval  and  summariza-
+tion.
+1 

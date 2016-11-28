@@ -1,0 +1,17 @@
+
+We present a simple architecture for parsing
+transcribed speech in which an edited-word de-
+tector rst removes such words from the sen-
+tence string, and then a standard statistical
+parser trained on transcribed speech parses the
+remaining words. The edit detector achieves a
+misclassication rate on edited words of 2.2%.
+(The NULL-model, which marks everything as
+not edited, has an error rate of 5.9%.) To evalu-
+ate our parsing results we introduce a new eval-
+uation metric, the purpose of which is to make
+evaluation of a parse tree relatively indierent
+to the exact tree position of EDITED nodes. By
+this metric the parser achieves 85.3% precision
+and 86.5% recall.
+1 

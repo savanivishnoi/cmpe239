@@ -1,0 +1,20 @@
+
+UCM-2 infers the words that are affected by
+negations by browsing dependency syntactic
+structures. It first makes use of an algo-
+rithm that detects negation cues, like no, not
+or nothing, and the words affected by them
+by traversing Minipar dependency structures.
+Second, the scope of these negation cues is
+computed by using a post-processing rule-
+based approach that takes into account the in-
+formation provided by the first algorithm and
+simple linguistic clause boundaries. An initial
+version of the system was developed to handle
+the annotations of the Bioscope corpus. For
+the present version, we have changed, omitted
+or extended the rules and the lexicon of cues
+(allowing prefix and suffix negation cues, such
+as impossible or meaningless), to make it suit-
+able for the present task.
+1 

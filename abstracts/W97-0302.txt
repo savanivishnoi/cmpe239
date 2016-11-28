@@ -1,0 +1,16 @@
+ 
+We present a variation on classic beam 
+thresholding techniques that is up to an or- 
+der of magnitude faster than the traditional 
+method, at the same performance l vel. We 
+also present a new thresholding technique, 
+global thresholding, which, combined with 
+the new beam thresholding, gives an ad- 
+ditional factor of two improvement, and a 
+novel technique, multiple pass parsing, that 
+can be combined with the others to yield 
+yet another 50% improvement. We use a 
+new search algorithm to simultaneously op- 
+timize the thresholding parameters of the 
+various algorithms. 
+1 

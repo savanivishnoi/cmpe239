@@ -1,0 +1,24 @@
+ 
+In this paper, we present a feature-based me-
+thod to align documents with similar content 
+across two sets of bilingual comparable cor-
+pora from daily news texts. We evaluate the 
+contribution of each individual feature and 
+investigate the incorporation of these diverse 
+statistical and heuristic features for the task of 
+bilingual document alignment. Experimental 
+results on the English-Chinese and English-
+Malay comparable news corpora show that 
+our proposed Discrete Fourier Transform-
+based term frequency distribution feature is 
+very effective. It contributes 4.1% and 8% to 
+performance improvement over Pearson?s 
+correlation method on the two comparable 
+corpora. In addition, when more heuristic and 
+statistical features as well as a bilingual dic-
+tionary are utilized, our method shows an ab-
+solute performance improvement of 23.2% 
+and 15.3% on the two sets of bilingual corpo-
+ra when comparing with a prior information 
+retrieval-based method.  
+1 

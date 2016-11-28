@@ -1,0 +1,11 @@
+
+This paper evaluates two semi-supervised
+techniques for the adaptation of a parse selec-
+tion model to Wikipedia domains. The tech-
+niques examined are Structural Correspon-
+dence Learning (SCL) (Blitzer et al, 2006)
+and Self-training (Abney, 2007; McClosky et
+al., 2006). A preliminary evaluation favors the
+use of SCL over the simpler self-training tech-
+niques.
+1 

@@ -1,0 +1,10 @@
+
+The basic mechanism of CLaRK for linguistic pro-
+cessing of text corpora is the cascade regular gram-
+mar processor. The main challenge to the grammars
+in question is how to apply them on XML encoding
+of the linguistic information. The system oers a so-
+lution using an XPath language for constructing the
+input word to the grammar and an XML encoding
+of the categories of the recognized words.
+1 

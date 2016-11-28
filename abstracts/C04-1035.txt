@@ -1,0 +1,17 @@
+
+This paper presents a machine learning approach
+to bare sluice disambiguation in dialogue. We ex-
+tract a set of heuristic principles from a corpus-based
+sample and formulate them as probabilistic Horn
+clauses. We then use the predicates of such clauses
+to create a set of domain independent features to an-
+notate an input dataset, and run two different ma-
+chine learning algorithms: SLIPPER, a rule-based
+learning algorithm, and TiMBL, a memory-based
+system. Both learners perform well, yielding simi-
+lar success rates of approx 90%. The results show
+that the features in terms of which we formulate our
+heuristic principles have significant predictive power,
+and that rules that closely resemble our Horn clauses
+can be learnt automatically from these features.
+1 

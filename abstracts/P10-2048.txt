@@ -1,0 +1,25 @@
+
+In this paper, we study the problem of
+using an annotated corpus in English for
+the same natural language processing task
+in another language. While various ma-
+chine translation systems are available, au-
+tomated translation is still far from per-
+fect. To minimize the noise introduced
+by translations, we propose to use only
+key ?reliable? parts from the translations
+and apply structural correspondence learn-
+ing (SCL) to find a low dimensional rep-
+resentation shared by the two languages.
+We perform experiments on an English-
+Chinese sentiment classification task and
+compare our results with a previous co-
+training approach. To alleviate the prob-
+lem of data sparseness, we create ex-
+tra pseudo-examples for SCL by making
+queries to a search engine. Experiments
+on real-world on-line review data demon-
+strate the two techniques can effectively
+improve the performance compared to pre-
+vious work.
+1 

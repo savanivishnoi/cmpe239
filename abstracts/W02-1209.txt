@@ -1,0 +1,36 @@
+ 
+Ideograph characters are often formed by some 
+smaller functional units, which we call character 
+components. These character components can be 
+ideograph radicals, ideographs proper, or some 
+pure components which must be used with 
+others to form characters. Decomposition of 
+ideographs can be used in many applications. It 
+is particularly important in the study of Chinese 
+character formation, phonetics and semantics.  
+However, the way a character is decomposed 
+depends on the definition of components as well 
+as the decomposition rules. The 12 Ideographic 
+Description Characters (IDCs) introduced in ISO 
+10646 are designed to describe characters using 
+components. The Hong Kong SAR Government 
+recently published two sets of glyph standards 
+for ISO10646 characters. The standards, being 
+the first of its kind, make use of character 
+decomposition to specify a character glyph using 
+its components. In this paper, we will first 
+introduce the IDCs and how they can be used 
+with components to describe two dimensional 
+ideograph characters in a linear fashion. Next we 
+will briefly discuss the basic references and 
+character decomposition rules. We will then 
+describe the data structure and algorithms to 
+decompose Chinese characters into components 
+and, vice versa. We have also implemented our 
+database and algorithms as an internet 
+application, called  the Chinese Character 
+Search System, available at website 
+http://www.iso10646hk.net/. With this tool, 
+people can easily search characters and 
+components in ISO 10646. 
+  

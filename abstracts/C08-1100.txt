@@ -1,0 +1,19 @@
+
+The distance or similarity metric plays an
+important role in many natural language
+processing (NLP) tasks. Previous stud-
+ies have demonstrated the effectiveness of
+a number of metrics such as the Jaccard
+coefficient, especially in synonym acqui-
+sition. While the existing metrics per-
+form quite well, to further improve perfor-
+mance, we propose the use of a supervised
+machine learning algorithm that fine-tunes
+them. Given the known instances of sim-
+ilar or dissimilar words, we estimated the
+parameters of the Mahalanobis distance.
+We compared a number of metrics in our
+experiments, and the results show that the
+proposed metric has a higher mean average
+precision than other metrics.
+1 

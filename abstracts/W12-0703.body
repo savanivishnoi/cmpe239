@@ -1,0 +1,31 @@
+
+Topic Models (TM) such as Latent Dirich-
+let Allocation (LDA) are increasingly used
+in Natural Language Processing applica-
+tions. At this, the model parameters and
+the influence of randomized sampling and
+inference are rarely examined ? usually,
+the recommendations from the original pa-
+pers are adopted. In this paper, we ex-
+amine the parameter space of LDA topic
+models with respect to the application of
+Text Segmentation (TS), specifically target-
+ing error rates and their variance across dif-
+ferent runs. We find that the recommended
+settings result in error rates far from opti-
+mal for our application. We show substan-
+tial variance in the results for different runs
+of model estimation and inference, and give
+recommendations for increasing the robust-
+ness and stability of topic models. Run-
+ning the inference step several times and se-
+lecting the last topic ID assigned per token,
+shows considerable improvements. Similar
+improvements are achieved with the mode
+method: We store all assigned topic IDs
+during each inference iteration step and se-
+lect the most frequent topic ID assigned to
+each word. These recommendations do not
+only apply to TS, but are generic enough to
+transfer to other applications.
+1 

@@ -1,0 +1,30 @@
+ 
+Traditionally, word sense disambiguation 
+(WSD) involves a different context model for 
+each individual word. This paper presents a 
+new approach to WSD using weakly 
+supervised learning. Statistical models are not 
+trained for the contexts of each individual 
+word, but for the similarities between context 
+pairs at category level. The insight is that the 
+correlation regularity between the sense 
+distinction and the context distinction can be 
+captured at category level, independent of 
+individual words. This approach only requires 
+a limited amount of existing annotated training 
+corpus in order to disambiguate the entire 
+vocabulary. A context clustering scheme is 
+developed within the Bayesian framework. A 
+maximum entropy model is then trained to 
+represent the generative probability 
+distribution of context similarities based on 
+heterogeneous features, including trigger 
+words and parsing structures. Statistical 
+annealing is applied to derive the final context 
+clusters by globally fitting the pairwise 
+context similarity distribution. Benchmarking 
+shows that this new approach significantly 
+outperforms the existing WSD systems in the 
+unsupervised category, and rivals supervised 
+WSD systems. 
+1 

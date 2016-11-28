@@ -1,0 +1,28 @@
+
+The theoretical study of the range
+concatenation grammar [RCG] formal-
+ism has revealed many attractive prop-
+erties which may be used in NLP.
+In particular, range concatenation lan-
+guages [RCL] can be parsed in poly-
+nomial time and many classical gram-
+matical formalisms can be translated
+into equivalent RCGs without increas-
+ing their worst-case parsing time com-
+plexity. For example, after transla-
+tion into an equivalent RCG, any tree
+adjoining grammar can be parsed in
+
+	
+time. In this paper, we study a
+parsing technique whose purpose is to
+improve the practical efficiency of RCL
+parsers. The non-deterministic parsing
+choices of the main parser for a lan-
+guage  are directed by a guide which
+uses the shared derivation forest output
+by a prior RCL parser for a suitable su-
+perset of  . The results of a practi-
+cal evaluation of this method on a wide
+coverage English grammar are given.
+1 

@@ -1,0 +1,20 @@
+
+In this paper, with a belief that a language
+model that embraces a larger context provides
+better prediction ability, we present two ex-
+tensions to standard n-gram language mod-
+els in statistical machine translation: a back-
+ward language model that augments the con-
+ventional forward language model, and a mu-
+tual information trigger model which captures
+long-distance dependencies that go beyond
+the scope of standard n-gram language mod-
+els. We integrate the two proposed models
+into phrase-based statistical machine transla-
+tion and conduct experiments on large-scale
+training data to investigate their effectiveness.
+Our experimental results show that both mod-
+els are able to significantly improve transla-
+tion quality and collectively achieve up to 1
+BLEU point over a competitive baseline.
+1 

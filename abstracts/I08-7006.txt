@@ -1,0 +1,36 @@
+
+In Myanmar language, sentences are
+clearly delimited by a unique sentence
+boundary marker but are written without
+necessarily pausing between words with
+spaces. It is therefore non-trivial to seg-
+ment sentences into words. Word tokeniz-
+ing plays a vital role in most Natural Lan-
+guage Processing applications. We observe
+that word boundaries generally align with
+syllable boundaries. Working directly with
+characters does not help. It is therefore
+useful to syllabify texts first. Syllabification
+is also a non-trivial task in Myanmar. We
+have collected 4550 syllables from avail-
+able sources . We have evaluated our syl-
+lable inventory on 2,728 sentences spread
+over 258 pages and observed a coverage of
+99.96%. In the second part, we build word
+lists from available sources such as dic-
+tionaries, through the application of mor-
+phological rules, and by generating syllable
+n-grams as possible words and manually
+checking. We have thus built list of 800,000
+words including inflected forms. We have
+tested our algorithm on a 5000 sentence
+test data set containing a total of (35049
+words) and manually checked for evaluat-
+ing the performance. The program recog-
+nized 34943 words of which 34633 words
+were correct, thus giving us a Recall of
+98.81%, a Precision of 99.11% and a F-
+Measure is 98.95%.
+Key Words:- Myanmar, Syllable, Words, Seg-
+mentation, Syllabification, Dictionary
+1 

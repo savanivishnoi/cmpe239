@@ -1,0 +1,16 @@
+ 
+In this paper we study the effectiveness of 
+applying sentence compression on an ex-
+traction based multi-document summari-
+zation system. Our results show that pure 
+syntactic-based compression does not im-
+prove system performance. Topic signa-
+ture-based reranking of compressed 
+sentences does not help much either.  
+However reranking using an oracle 
+showed a significant improvement re-
+mains possible.  
+Keywords: Text Summarization, Sentence 
+Extraction, Sentence Compression, 
+Evaluation. 
+1 

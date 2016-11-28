@@ -1,0 +1,18 @@
+
+Morphologically complex terms com-
+posed from Greek or Latin elements are
+frequent in scientific and technical texts.
+Word forming units are thus relevant cues
+for the identification of terms in domain-
+specific texts. This article describes a
+method for the automatic extraction of
+terms relying on the detection of classi-
+cal prefixes and word-initial combining
+forms. Word-forming units are identi-
+fied using a regular expression. The sys-
+tem then extracts terms by selecting words
+which either begin or coalesce with these
+elements. Next, terms are grouped in fam-
+ilies which are displayed as a weighted list
+in HTML format.
+1 

@@ -1,0 +1,17 @@
+
+This paper describes the UniTN/Essex sub-
+mission to the CoNLL-2012 Shared Task on
+the Multilingual Coreference Resolution. We
+have extended our CoNLL-2011 submission,
+based on BART, to cover two additional lan-
+guages, Arabic and Chinese. This paper fo-
+cuses on adapting BART to new languages,
+discussing the problems we have encountered
+and the solutions adopted. In particular, we
+propose a novel entity-mention detection algo-
+rithm that might help identify nominal men-
+tions in an unknown language. We also dis-
+cuss the impact of basic linguistic information
+on the overall performance level of our coref-
+erence resolution system.
+1 

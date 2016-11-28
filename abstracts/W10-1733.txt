@@ -1,0 +1,16 @@
+
+In this paper we focus on the incremental
+decoding for a statistical phrase-based ma-
+chine translation system. In incremental
+decoding, translations are generated incre-
+mentally for every word typed by a user,
+instead of waiting for the entire sentence
+as input. We introduce a novel modifi-
+cation to the beam-search decoding algo-
+rithm for phrase-based MT to address this
+issue, aimed at efficient computation of fu-
+ture costs and avoiding search errors. Our
+objective is to do a faster translation dur-
+ing incremental decoding without signifi-
+cant reduction in the translation quality.
+1 

@@ -1,0 +1,22 @@
+  
+In this paper, we describe the most recent 
+implementation and evaluation of the proper noun 
+categorization and standardization module of the DR- 
+LINK document detection system being developed at 
+Syracuse University, under the auspices of ARPA's 
+TIPSTER program. We also discuss the expansion of 
+group common nouns and group proper nouns to 
+enhance retrieval recall. Successful proper noun 
+boundary identification within the part of speech tagger 
+is essential for successful categorization. The proper 
+noun classification module is designed to assign a 
+category code to each proper noun entity, using 30 
+categories generated from corpus analysis. 
+Standardization f variant proper nouns occurs at three 
+levels of processing. Expansion of group proper nouns 
+and group common nouns is performed on queries. 
+Standardization and categorization is performed on 
+queries and documents. DR-LINK's overall precision 
+for proper noun categorization was 93%, based on 589 
+proper nouns occurring in the evaluation set. 
+1. 

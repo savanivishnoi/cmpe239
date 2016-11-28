@@ -1,0 +1,32 @@
+
+This paper contrasts the content and form
+of objective versus subjective texts. A col-
+lection of on-line newspaper news items
+serve as objective texts, while parliamen-
+tary speeches (debates) and blog posts form
+the basis of our subjective texts, all in
+Portuguese. The aim is to provide gen-
+eral linguistic patterns as used in objec-
+tive written media and subjective speeches
+and blog posts, to help construct domain-
+independent templates for information ex-
+traction and opinion mining. Our hybrid
+approach combines statistical data along
+with linguistic knowledge to filter out ir-
+relevant patterns. As resources for subjec-
+tive classification are still limited for Por-
+tuguese, we use a parallel corpus and tools
+developed for English to build our sub-
+jective spoken corpus, through annotations
+produced for English projected onto a par-
+allel corpus in Portuguese. A measure for
+the saliency of n-grams is used to extract
+relevant linguistic patterns deemed ?objec-
+tive? and ?subjective?. Perhaps unsurpris-
+ingly, our contrastive approach shows that,
+in Portuguese at least, subjective texts are
+characterized by markers such as descrip-
+tive, reactive and opinionated terms, while
+objective texts are characterized mainly by
+the absence of subjective markers.
+1 

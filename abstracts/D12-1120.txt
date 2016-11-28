@@ -1,0 +1,23 @@
+
+Representation learning is a promising tech-
+nique for discovering features that allow su-
+pervised classifiers to generalize from a source
+domain dataset to arbitrary new domains. We
+present a novel, formal statement of the rep-
+resentation learning task. We argue that be-
+cause the task is computationally intractable
+in general, it is important for a representa-
+tion learner to be able to incorporate expert
+knowledge during its search for helpful fea-
+tures. Leveraging the Posterior Regularization
+framework, we develop an architecture for in-
+corporating biases into representation learn-
+ing. We investigate three types of biases, and
+experiments on two domain adaptation tasks
+show that our biased learners identify signif-
+icantly better sets of features than unbiased
+learners, resulting in a relative reduction in er-
+ror of more than 16% for both tasks, with re-
+spect to existing state-of-the-art representation
+learning techniques.
+1 

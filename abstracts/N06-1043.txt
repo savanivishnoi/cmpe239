@@ -1,0 +1,18 @@
+
+We investigate the problem of training
+probabilistic context-free grammars on
+the basis of a distribution defined over
+an infinite set of trees, by minimizing
+the cross-entropy. This problem can be
+seen as a generalization of the well-known
+maximum likelihood estimator on (finite)
+tree banks. We prove an unexpected the-
+oretical property of grammars that are
+trained in this way, namely, we show
+that the derivational entropy of the gram-
+mar takes the same value as the cross-
+entropy between the input distribution and
+the grammar itself. We show that the re-
+sult also holds for the widely applied max-
+imum likelihood estimator on tree banks.
+1 

@@ -1,0 +1,21 @@
+
+In functional and logic programming,
+parsers can be built as modular executable
+specifications of grammars, using parser
+combinators and definite clause grammars
+respectively. These techniques are based on
+top-down backtracking search. Commonly
+used implementations are inefficient for
+ambiguous languages, cannot accommodate
+left-recursive grammars, and require expo-
+nential space to represent parse trees for
+highly ambiguous input. Memoization is
+known to improve efficiency, and work by
+other researchers has had some success in
+accommodating left recursion. This paper
+combines aspects of previous approaches
+and presents a method by which parsers can
+be built as modular and efficient executable
+specifications of ambiguous grammars
+containing unconstrained left recursion.
+1 

@@ -1,0 +1,19 @@
+ 
+In this paper we discuss an algorithm 
+for the assignment of pitch accent positions 
+in text-to-speech conversion. The algorithm is 
+closely modeled on current linoulstic accounts 
+of accent placement, and assumes a surface 
+syntactic analysis of the input. It comprises a 
+small number of heuristic rules for determining 
+which phrases of a sentence are to be focussed 
+upon; the exact location of a pitch accent 
+within a focussed phrase is determined m~inly 
+on the basis of the syntactic relations holding 
+between the elements of the phrase. A 
+perceptual evaluation experiment showed that 
+the algorithm proposed here leads to improved 
+subjective speech quality as compared to a 
+naive algorithm which accents all and only 
+content words. 
+1. 

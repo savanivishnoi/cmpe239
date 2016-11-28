@@ -1,0 +1,21 @@
+ 
+This paper presents a hybrid model for the 
+CoNLL-2013 shared task which focuses on the 
+problem of grammatical error correction. This 
+year?s task includes determiner, preposition, 
+noun number, verb form, and subject-verb 
+agreement errors which is more comprehen-
+sive than previous error correction tasks. We 
+correct these five types of errors in different 
+modules where either machine learning based 
+or rule-based methods are applied. Pre-
+processing and post-processing procedures are 
+employed to keep idiomatic phrases from be-
+ing corrected. We achieved precision of 
+35.65%, recall of 16.56%, F1 of 22.61% in the 
+official evaluation and precision of 41.75%, 
+recall of 20.29%, F1 of 27.3% in the revised 
+version. Some further comparisons employing 
+different strategies are made in our experi-
+ments.   
+1 

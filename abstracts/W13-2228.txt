@@ -1,0 +1,21 @@
+
+This paper describes QCRI-MES?s sub-
+mission on the English-Russian dataset to
+the Eighth Workshop on Statistical Ma-
+chine Translation. We generate improved
+word alignment of the training data by
+incorporating an unsupervised translitera-
+tion mining module to GIZA++ and build
+a phrase-based machine translation sys-
+tem. For tuning, we use a variation of PRO
+which provides better weights by optimiz-
+ing BLEU+1 at corpus-level. We translit-
+erate out-of-vocabulary words in a post-
+processing step by using a transliteration
+system built on the transliteration pairs
+extracted using an unsupervised translit-
+eration mining system. For the Russian
+to English translation direction, we apply
+linguistically motivated pre-processing on
+the Russian side of the data.
+1 

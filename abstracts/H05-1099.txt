@@ -1,0 +1,23 @@
+
+In this paper, we look at comparing high-
+accuracy context-free parsers with high-
+accuracy finite-state (shallow) parsers on
+several shallow parsing tasks. We
+show that previously reported compar-
+isons greatly under-estimated the perfor-
+mance of context-free parsers for these
+tasks. We also demonstrate that context-
+free parsers can train effectively on rel-
+atively little training data, and are more
+robust to domain shift for shallow pars-
+ing tasks than has been previously re-
+ported. Finally, we establish that combin-
+ing the output of context-free and finite-
+state parsers gives much higher results
+than the previous-best published results,
+on several common tasks. While the
+efficiency benefit of finite-state models
+is inarguable, the results presented here
+show that the corresponding cost in accu-
+racy is higher than previously thought.
+1 

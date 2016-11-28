@@ -1,0 +1,14 @@
+
+We present a machine learning approach for
+the task of ranking previously answered ques-
+tions in a question repository with respect to
+their relevance to a new, unanswered refer-
+ence question. The ranking model is trained
+on a collection of question groups manually
+annotated with a partial order relation reflect-
+ing the relative utility of questions inside each
+group. Based on a set of meaning and struc-
+ture aware features, the new ranking model is
+able to substantially outperformmore straight-
+forward, unsupervised similarity measures.
+1 

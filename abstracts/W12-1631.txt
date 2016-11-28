@@ -1,0 +1,12 @@
+
+We propose a dialog system that creates re-
+sponses based on a large-scale dialog corpus
+retrieved from Twitter and real-time crowd-
+sourcing. Instead of using complex dialog
+management, our system replies with the ut-
+terance from the database that is most simi-
+lar to the user input. We also propose a real-
+time crowdsourcing framework for handling
+the case in which there is no adequate re-
+sponse in the database.
+1 

@@ -1,0 +1,16 @@
+
+We use target-side monolingual data to ex-
+tend the vocabulary of the translation model
+in statistical machine translation. This method
+called ?reverse self-training? improves the de-
+coder?s ability to produce grammatically cor-
+rect translations into languages with morphol-
+ogy richer than the source language esp. in
+small-data setting. We empirically evalu-
+ate the gains for several pairs of European
+languages and discuss some approaches of
+the underlying back-off techniques needed to
+translate unseen forms of known words. We
+also provide a description of the systems we
+submitted to WMT11 Shared Task.
+1 

@@ -1,0 +1,29 @@
+
+This paper proposes a method for incre-
+mentally translating English spoken lan-
+guage into Japanese. To realize simulta-
+neous translation between languages with
+different word order, such as English and
+Japanese, our method utilizes the feature
+that the word order of a target language
+is flexible. To resolve the problem of
+generating a grammatically incorrect sen-
+tence, our method uses dependency struc-
+tures and Japanese dependency constraints
+to determine the word order of a transla-
+tion. Moreover, by considering the fact
+that the inversion of predicate expressions
+occurs more frequently in Japanese spo-
+ken language, our method takes advan-
+tage of a predicate inversion to resolve the
+problem that Japanese has the predicate at
+the end of a sentence. Furthermore, our
+method includes the function of canceling
+an inversion by restating a predicate when
+the translation is incomprehensible due to
+the inversion. We implement a prototype
+translation system and conduct an exper-
+iment with all 578 sentences in the ATIS
+corpus. The results indicate improvements
+in comparison to two other methods.
+1 

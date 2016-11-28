@@ -1,0 +1,17 @@
+. We present a new implication of Wu?s (1997) Inversion
+Transduction Grammar (ITG) Hypothesis, on the problem of retriev-
+ing truly parallel sentence translations from large collections of highly
+non-parallel documents. Our approach leverages a strong language uni-
+versal constraint posited by the ITG Hypothesis, that can serve as a
+strong inductive bias for various language learning problems, resulting
+in both efficiency and accuracy gains. The task we attack is highly prac-
+tical since non-parallel multilingual data exists in far greater quantities
+than parallel corpora, but parallel sentences are a much more useful re-
+source. Our aim here is to mine truly parallel sentences, as opposed to
+comparable sentence pairs or loose translations as in most previous work.
+The method we introduce exploits Bracketing ITGs to produce the first
+known results for this problem. Experiments show that it obtains large
+accuracy gains on this task compared to the expected performance of
+state-of-the-art models that were developed for the less stringent task of
+mining comparable sentence pairs.
+1 

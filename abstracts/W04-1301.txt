@@ -1,0 +1,25 @@
+
+Naturalistic theories of language acquisition assume
+learners to be endowed with some innate language
+knowledge. The purpose of this innate knowledge
+is to facilitate language acquisition by constrain-
+ing a learner?s hypothesis space. This paper dis-
+cusses a naturalistic learning system (a Categorial
+Grammar Learner (CGL)) that differs from previous
+learners (such as the Triggering Learning Algorithm
+(TLA) (Gibson and Wexler, 1994)) by employing a
+dynamic definition of the hypothesis-space which
+is driven by the Bayesian Incremental Parameter
+Setting algorithm (Briscoe, 1999). We compare
+the efficiency of the TLA with the CGL when ac-
+quiring an independently and identically distributed
+English-like language in noiseless conditions. We
+show that when convergence to the target gram-
+mar occurs (which is not guaranteed), the expected
+number of steps to convergence for the TLA is
+shorter than that for the CGL initialized with uni-
+form priors. However, the CGL converges more
+reliably than the TLA. We discuss the trade-off of
+efficiency against more reliable convergence to the
+target grammar.
+1 

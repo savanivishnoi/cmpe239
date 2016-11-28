@@ -1,0 +1,24 @@
+
+Children learn various levels of linguistic
+structure concurrently, yet most existing mod-
+els of language acquisition deal with only
+a single level of structure, implicitly assum-
+ing a sequential learning process. Developing
+models that learn multiple levels simultane-
+ously can provide important insights into how
+these levels might interact synergistically dur-
+ing learning. Here, we present a model that
+jointly induces syntactic categories and mor-
+phological segmentations by combining two
+well-known models for the individual tasks.
+We test on child-directed utterances in English
+and Spanish and compare to single-task base-
+lines. In the morphologically poorer language
+(English), the model improves morphological
+segmentation, while in the morphologically
+richer language (Spanish), it leads to better
+syntactic categorization. These results provide
+further evidence that joint learning is useful,
+but also suggest that the benefits may be dif-
+ferent for typologically different languages.
+1 

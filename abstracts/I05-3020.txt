@@ -1,0 +1,20 @@
+ 
+This paper describes a Chinese word 
+segmentor (CWS) based on backward 
+maximum matching (BMM) technique 
+for the 2nd Chinese Word Segmenta-
+tion Bakeoff in the Microsoft Research 
+(MSR) closed testing track. Our CWS 
+comprises of a context-based Chinese 
+unknown word identifier (UWI). All 
+the context-based knowledge for the 
+UWI is fully automatically generated 
+by the MSR training corpus. Accord-
+ing to the scored results of the MSR 
+closed testing track and our analysis, it 
+shows that our BMM-based CWS with 
+the context-based UWI is a simple and 
+effective system to achieve high Chi-
+nese word segmentation performance 
+of more than 95.5% F-measure. 
+1 

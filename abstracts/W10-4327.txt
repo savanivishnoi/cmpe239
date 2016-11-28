@@ -1,0 +1,26 @@
+
+We present analyses aimed at eliciting
+which specific aspects of discourse pro-
+vide the strongest indication for text im-
+portance. In the context of content selec-
+tion for single document summarization of
+news, we examine the benefits of both the
+graph structure of text provided by dis-
+course relations and the semantic sense
+of these relations. We find that structure
+information is the most robust indicator
+of importance. Semantic sense only pro-
+vides constraints on content selection but
+is not indicative of important content by it-
+self. However, sense features complement
+structure information and lead to improved
+performance. Further, both types of dis-
+course information prove complementary
+to non-discourse features. While our re-
+sults establish the usefulness of discourse
+features, we also find that lexical overlap
+provides a simple and cheap alternative
+to discourse for computing text structure
+with comparable performance for the task
+of content selection.
+1 

@@ -1,0 +1,22 @@
+
+Computing the similarity between entities
+is a core component of many NLP tasks
+such as measuring the semantic similarity
+of terms for generating a distributional the-
+saurus. In this paper, we study the problem
+of explaining post-hoc why a set of terms
+are similar. Given a set of terms, our task is
+to generate a small set of explanations that
+best characterizes the similarity of those
+terms. Our contributions include: 1) an
+information-theoretic objective function
+for quantifying the utility of an explana-
+tion set; 2) a survey of psycholinguistics
+and philosophy for evidence of different
+sources of explanations such as descriptive
+properties and prototypes; 3) computa-
+tional baseline models for automatically
+generating various types of explanations;
+and 4) a qualitative evaluation of our
+explanation generation engine.
+1 

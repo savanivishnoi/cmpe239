@@ -1,0 +1,20 @@
+
+Clustering is crucial for many NLP tasks and
+applications. However, evaluating the results
+of a clustering algorithm is hard. In this paper
+we focus on the evaluation setting in which a
+gold standard solution is available. We discuss
+two existing information theory based mea-
+sures, V and VI, and show that they are both
+hard to use when comparing the performance
+of different algorithms and different datasets.
+The V measure favors solutions having a large
+number of clusters, while the range of scores
+given by VI depends on the size of the dataset.
+We present a new measure, NVI, which nor-
+malizes VI to address the latter problem. We
+demonstrate the superiority of NVI in a large
+experiment involving an important NLP appli-
+cation, grammar induction, using real corpus
+data in English, German and Chinese.
+1 

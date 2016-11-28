@@ -1,0 +1,22 @@
+
+A set of words labelled with their prior emo-
+tion is an obvious place to start on the auto-
+matic discovery of the emotion of a sentence,
+but it is clear that context must also be con-
+sidered. No simple function of the labels on
+the individual words may capture the overall
+emotion of the sentence; words are interre-
+lated and they mutually influence their affect-
+related interpretation. We present a method
+which enables us to take the contextual emo-
+tion of a word and the syntactic structure of the
+sentence into account to classify sentences by
+emotion classes. We show that this promising
+method outperforms both a method based on
+a Bag-of-Words representation and a system
+based only on the prior emotions of words.
+The goal of this work is to distinguish auto-
+matically between prior and contextual emo-
+tion, with a focus on exploring features impor-
+tant for this task.
+1 

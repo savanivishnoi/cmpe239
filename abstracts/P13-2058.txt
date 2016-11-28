@@ -1,0 +1,15 @@
+
+We present an approach to mine com-
+parable data for parallel sentences us-
+ing translation-based cross-lingual infor-
+mation retrieval (CLIR). By iteratively al-
+ternating between the tasks of retrieval
+and translation, an initial general-domain
+model is allowed to adapt to in-domain
+data. Adaptation is done by training the
+translation system on a few thousand sen-
+tences retrieved in the step before. Our
+setup is time- and memory-efficient and of
+similar quality as CLIR-based adaptation
+on millions of parallel sentences.
+1 

@@ -1,0 +1,17 @@
+
+Entailment detection systems are generally
+designed to work either on single words, re-
+lations or full sentences. We propose a new
+task ? detecting entailment between depen-
+dency graph fragments of any type ? which
+relaxes these restrictions and leads to much
+wider entailment discovery. An unsupervised
+framework is described that uses intrinsic sim-
+ilarity, multi-level extrinsic similarity and the
+detection of negation and hedged language to
+assign a confidence score to entailment rela-
+tions between two fragments. The final system
+achieves 84.1% average precision on a data set
+of entailment examples from the biomedical
+domain.
+1 

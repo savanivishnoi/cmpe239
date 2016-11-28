@@ -1,0 +1,15 @@
+
+We introduce BLESS, a data set specifically
+designed for the evaluation of distributional
+semantic models. BLESS contains a set of tu-
+ples instantiating different, explicitly typed se-
+mantic relations, plus a number of controlled
+random tuples. It is thus possible to assess the
+ability of a model to detect truly related word
+pairs, as well as to perform in-depth analy-
+ses of the types of semantic relations that a
+model favors. We discuss the motivations for
+BLESS, describe its construction and struc-
+ture, and present examples of its usage in the
+evaluation of distributional semantic models.
+1 

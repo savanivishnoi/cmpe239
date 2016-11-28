@@ -1,0 +1,23 @@
+
+We present a novel scheme of spoken dialogue
+systems which uses the up-to-date informa-
+tion on the web. The scheme is based on in-
+formation extraction which is defined by the
+predicate-argument (P-A) structure and real-
+ized by semantic parsing. Based on the in-
+formation structure, the dialogue system can
+perform question answering and also proac-
+tive information presentation. Feasibility of
+this scheme is demonstrated with experiments
+using a domain of baseball news. In order to
+automatically select useful domain-dependent
+P-A templates, statistical measures are intro-
+duced, resulting to a completely unsupervised
+learning of the information structure given a
+corpus. Similarity measures of P-A structures
+are also introduced to select relevant infor-
+mation. An experimental evaluation shows
+that the proposed system can make more rel-
+evant responses compared with the conven-
+tional ?bag-of-words? scheme.
+1 

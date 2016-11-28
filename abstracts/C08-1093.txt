@@ -1,0 +1,15 @@
+
+User logs of search engines have recently
+been applied successfully to improve var-
+ious aspects of web search quality. In this
+paper, we will apply pairs of user queries
+and snippets of clicked results to train a
+machine translation model to bridge the
+?lexical gap? between query and document
+space. We show that the combination of
+a query-to-snippet translation model with
+a large n-gram language model trained
+on queries achieves improved contextual
+query expansion compared to a system
+based on term correlations.
+1 

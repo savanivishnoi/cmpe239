@@ -1,0 +1,3 @@
+ 
+This paper introduces ONYX, a sentence-level text analyzer that implements a number of innovative ideas in syntactic and semantic analysis. ONYX is being developed as part of a project that seeks to translate spoken dental examinations directly into chartable findings. ONYX integrates syntax and semantics to a high degree. It interprets sentences using a combination of probabilistic classifiers, graphical unification, and semantically anno-tated grammar rules. In this preliminary evaluation, ONYX shows inter-annotator agreement scores with humans of 86% for as-signing semantic types to relevant words, 80% for inferring relevant concepts from words, and 76% for identifying relations between concepts. 
+1 

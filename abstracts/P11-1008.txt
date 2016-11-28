@@ -1,0 +1,11 @@
+
+We describe an exact decoding algorithm for
+syntax-based statistical translation. The ap-
+proach uses Lagrangian relaxation to decom-
+pose the decoding problem into tractable sub-
+problems, thereby avoiding exhaustive dy-
+namic programming. The method recovers ex-
+act solutions, with certificates of optimality,
+on over 97% of test examples; it has compa-
+rable speed to state-of-the-art decoders.
+1 

@@ -1,0 +1,24 @@
+ 
+Japanese texts frequently suffer from the 
+homophone errors caused by the KANA-KANJI 
+conversion eeded to input the text. It is critical, 
+therefore, for Japanese revision support systems 
+to detect and to correct homophone errors. This 
+paper proposes a method for detecting and 
+correcting Japanese homophone errors in 
+compound nouns. This method can not only detect 
+Japanese homophone errors in compound nouns, 
+but also can find the correct candidates for the 
+detected errors automatically. Finding the correct 
+candidates i one superiority of this method over 
+existing methods. The basic idea of this method 
+is that a compound noun component places ome 
+restrictions on the semantic ategories of the 
+adjoining words. The method accurately 
+determines that a homophone is misused in a 
+compound noun if one or both of its neighbors i  
+not a member of the semantic set defined by the 
+homophone. Also, the method successfully 
+indicates the correct candidates for the detected 
+homophone errors. 
+1 

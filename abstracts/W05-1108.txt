@@ -1,0 +1,20 @@
+
+This paper introduces xfst2fsa, a compiler
+which translates grammars expressed in
+the syntax of the XFST finite-state tool-
+box to grammars in the language of the
+FSA Utilities package. Compilation to
+FSA facilitates the use of grammars de-
+veloped with the proprietary XFST tool-
+box on a publicly available platform. The
+paper describes the non-trivial issues of
+the compilation process, highlighting sev-
+eral shortcomings of some published algo-
+rithms, especially where replace rules are
+concerned. The compiler augments FSA
+with most of the operators supported by
+XFST. Furthermore, it provides a means
+for comparing the two systems on compa-
+rable grammars. The paper presents the
+results of such a comparison.
+1 

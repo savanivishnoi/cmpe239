@@ -1,0 +1,25 @@
+
+Weighted finite-state acceptors and transduc-
+ers (Pereira and Riley, 1997) are a critical
+technology for NLP and speech systems. They
+flexibly capture many kinds of stateful left-to-
+right substitution, simple transducers can be
+composed into more complex ones, and they
+are EM- trainable. They are unable to han-
+dle long-range syntactic movement, but tree
+acceptors and transducers address this weak-
+ness (Knight and Graehl, 2005). Tree au-
+tomata have been profitably used in syntax-
+based MT systems. Still, strings and trees are
+both weak at representing linguistic structure
+involving semantics and reference (?who did
+what to whom?). Feature structures provide
+an attractive, well-studied, standard format
+(Shieber, 1986; Rounds and Kasper, 1986),
+which we can view computationally as di-
+rected acyclic graphs. In this paper, we de-
+velop probabilistic acceptors and transducers
+for feature structures, demonstrate them on
+linguistic problems, and lay down a founda-
+tion for semantics-based MT.
+1 

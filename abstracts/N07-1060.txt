@@ -1,0 +1,30 @@
+
+Assessing learning progress is a critical
+step in language learning applications and
+experiments. In word learning, for exam-
+ple, one important type of assessment is
+a definition production test, in which sub-
+jects are asked to produce a short defini-
+tion of the word being learned. In current
+practice, each free response is manually
+scored according to how well its mean-
+ing matches the target definition. Manual
+scoring is not only time-consuming, but
+also limited in its flexibility and ability to
+detect partial learning effects.
+This study describes an effective auto-
+matic method for scoring free responses
+to definition production tests. The algo-
+rithm compares the text of the free re-
+sponse to the text of a reference definition
+using a statistical model of text semantic
+similarity that uses Markov chains on a
+graph of individual word relations. The
+model can take advantage of both corpus-
+and knowledge-based resources. Evalu-
+ated on a new corpus of human-judged
+free responses, our method achieved sig-
+nificant improvements over random and
+cosine baselines in both rank correlation
+and label error.
+1 

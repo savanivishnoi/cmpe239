@@ -1,0 +1,27 @@
+
+We propose a multilingual unsupervised Word
+Sense Disambiguation (WSD) task for a sample of
+English nouns. Instead of providing manually sense-
+tagged examples for each sense of a polysemous
+noun, our sense inventory is built up on the basis of
+the Europarl parallel corpus. The multilingual setup
+involves the translations of a given English polyse-
+mous noun in five supported languages, viz. Dutch,
+French, German, Spanish and Italian.
+The task targets the following goals: (a) the man-
+ual creation of a multilingual sense inventory for a
+lexical sample of English nouns and (b) the eval-
+uation of systems on their ability to disambiguate
+new occurrences of the selected polysemous nouns.
+For the creation of the hand-tagged gold standard,
+all translations of a given polysemous English noun
+are retrieved in the five languages and clustered by
+meaning. Systems can participate in 5 bilingual
+evaluation subtasks (English - Dutch, English - Ger-
+man, etc.) and in a multilingual subtask covering all
+language pairs.
+As WSD from cross-lingual evidence is gaining
+popularity, we believe it is important to create a mul-
+tilingual gold standard and run cross-lingual WSD
+benchmark tests.
+1 

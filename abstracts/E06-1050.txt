@@ -1,0 +1,17 @@
+
+All questions are implicitly associated
+with an expected answer type. Unlike
+previous approaches that require a prede-
+fined set of question types, we present
+a method for dynamically constructing
+a probability-based answer type model
+for each different question. Our model
+evaluates the appropriateness of a poten-
+tial answer by the probability that it fits
+into the question contexts. Evaluation
+is performed against manual and semi-
+automatic methods using a fixed set of an-
+swer labels. Results show our approach to
+be superior for those questions classified
+as having a miscellaneous answer type.
+1 

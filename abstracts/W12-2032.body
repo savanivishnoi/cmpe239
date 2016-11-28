@@ -1,0 +1,20 @@
+
+We describe the University of Illinois (UI) sys-
+tem that participated in the Helping Our Own
+(HOO) 2012 shared task, which focuses on
+correcting preposition and determiner errors
+made by non-native English speakers. The
+task consisted of three metrics: Detection,
+Recognition, and Correction, and measured
+performance before and after additional revi-
+sions to the test data were made. Out of 14
+teams that participated, our system scored first
+in Detection and Recognition and second in
+Correction before the revisions; and first in
+Detection and second in the other metrics af-
+ter revisions. We describe our underlying ap-
+proach, which relates to our previous work in
+this area, and propose an improvement to the
+earlier method, error inflation, which results
+in significant gains in performance.
+1 

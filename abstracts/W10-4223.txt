@@ -1,0 +1,19 @@
+
+In this paper we investigate the auto-
+matic generation and evaluation of senten-
+tial paraphrases. We describe a method
+for generating sentential paraphrases by
+using a large aligned monolingual cor-
+pus of news headlines acquired automat-
+ically from Google News and a stan-
+dard Phrase-Based Machine Translation
+(PBMT) framework. The output of this
+system is compared to a word substitu-
+tion baseline. Human judges prefer the
+PBMT paraphrasing system over the word
+substitution system. We demonstrate that
+BLEU correlates well with human judge-
+ments provided that the generated para-
+phrased sentence is sufficiently different
+from the source sentence.
+1 

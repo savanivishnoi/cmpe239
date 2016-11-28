@@ -1,0 +1,23 @@
+
+Morphological tokenization has been used
+in machine translation for morphologically
+complex languages to reduce lexical sparsity.
+Unfortunately, when translating into a mor-
+phologically complex language, recombining
+segmented tokens to generate original word
+forms is not a trivial task, due to morpho-
+logical, phonological and orthographic adjust-
+ments that occur during tokenization. We re-
+view a number of detokenization schemes for
+Arabic, such as rule-based and table-based ap-
+proaches and show their limitations. We then
+propose a novel detokenization scheme that
+uses a character-level discriminative string
+transducer to predict the original form of a
+segmented word. In a comparison to a state-
+of-the-art approach, we demonstrate slightly
+better detokenization error rates, without the
+need for any hand-crafted rules. We also
+demonstrate the effectiveness of our approach
+in an English-to-Arabic translation task.
+1 

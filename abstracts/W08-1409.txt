@@ -1,0 +1,19 @@
+
+In a large-scale project to list bibliograph-
+ical references to all of the ca 7 000 lan-
+guages of the world, the need arises to
+automatically annotated the bibliographi-
+cal entries with ISO-639-3 language iden-
+tifiers. The task can be seen as a special
+case of a more general Information Extrac-
+tion problem: to classify short text snip-
+pets in various languages into a large num-
+ber of classes. We will explore supervised
+and unsupervised approaches motivated by
+distributional characterists of the specific
+domain and availability of data sets. In
+all cases, we make use of a database with
+language names and identifiers. The sug-
+gested methods are rigorously evaluated on
+a fresh representative data set.
+1 

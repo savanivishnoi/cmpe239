@@ -1,0 +1,24 @@
+
+Bootstrapping has recently become the focus
+of much attention in natural language process-
+ing to reduce labeling cost. In bootstrapping,
+unlabeled instances can be harvested from the
+initial labeled ?seed? set. The selected seed set
+affects accuracy, but how to select a good seed
+set is not yet clear. Thus, an ?iterative seed-
+ing? framework is proposed for bootstrapping
+to reduce its labeling cost. Our framework
+iteratively selects the unlabeled instance that
+has the best ?goodness of seed? and labels the
+unlabeled instance in the seed set. Our frame-
+work deepens understanding of this seeding
+process in bootstrapping by deriving the dual
+problem. We propose a method called ex-
+pected model rotation (EMR) that works well
+on not well-separated data which frequently
+occur as realistic data. Experimental results
+show that EMR can select seed sets that pro-
+vide significantly higher mean reciprocal rank
+on realistic data than existing naive selection
+methods or random seed sets.
+1 

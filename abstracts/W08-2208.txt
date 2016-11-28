@@ -1,0 +1,13 @@
+
+Models of lexical semantics are core paradigms in most NLP applica-
+tions, such as dialogue, information extraction and document understand-
+ing. Unfortunately, the coverage of currently available resources (e.g.
+FrameNet) is still unsatisfactory. This paper presents a largely applicable
+approach for extending frame semantic resources, combining word sense
+information derived fromWordNet and corpus-based distributional infor-
+mation. We report a large scale evaluation over the English FrameNet,
+and results on extending FrameNet to the Italian language, as the basis of
+the development of a full FrameNet for Italian.
+85
+86 De Cao, Croce, Pennacchiotti, and Basili
+1 

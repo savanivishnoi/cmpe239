@@ -1,0 +1,9 @@
+ 
+This paper addresses the problem of large-scale acquisition of computational-semantic lexicons from 
+machine-readable resources. We describe semantic filters designed to reduce the number of incorrect 
+assignments (i.e., improve precision) made by a purely syntactic technique. We demonstrate hat 
+it is possible to use these filters to build broad-coverage lexicons with minimal effort, at a depth of 
+knowledge that lies at the syntax-semantics nterface. We report on our results of disambiguating 
+the verbs in the semantic filters by adding WordNet 1sense annotations. We then show the results 
+of our classification on unknown words and we evaluate these results. 
+1 

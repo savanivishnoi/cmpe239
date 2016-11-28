@@ -1,0 +1,19 @@
+? 
+This paper proposes to use monolingual 
+collocations to improve Statistical Ma-
+chine Translation (SMT). We make use 
+of the collocation probabilities, which are 
+estimated from monolingual corpora, in 
+two aspects, namely improving word 
+alignment for various kinds of SMT sys-
+tems and improving phrase table for 
+phrase-based SMT. The experimental re-
+sults show that our method improves the 
+performance of both word alignment and 
+translation quality significantly. As com-
+pared to baseline systems, we achieve ab-
+solute improvements of 2.40 BLEU score 
+on a phrase-based SMT system and 1.76 
+BLEU score on a parsing-based SMT 
+system. 
+1 

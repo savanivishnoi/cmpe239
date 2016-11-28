@@ -1,0 +1,23 @@
+
+An approach to recognizing sentiment 
+polarity in Chinese reviews based on 
+topic sentiment sentences is presented.
+Considering the features of Chinese re-
+views, we firstly identify the topic of a 
+review using an n-gram matching ap-
+proach. To extract candidate topic senti-
+ment sentences, we compute the seman-
+tic similarity between a given sentence 
+and the ascertained topic and meanwhile 
+determine whether the sentence is sub-
+jective. A certain number of these sen-
+tences are then selected as representa-
+tives according to their semantic simi-
+larity value with relation to the topic. 
+The average value of the representative 
+topic sentiment sentences is calculated 
+and taken as the sentiment polarity of a 
+review. Experiment results show that the 
+proposed method is feasible and can 
+achieve relatively high precision.
+1 

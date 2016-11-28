@@ -1,0 +1,18 @@
+
+Statistical machine translation systems are
+normally optimised for a chosen gain func-
+tion (metric) by using MERT to find the best
+model weights. This algorithm suffers from
+stability problems and cannot scale beyond
+20-30 features. We present an alternative al-
+gorithm for discriminative training of phrase-
+basedMT systems, SampleRank, which scales
+to hundreds of features, equals or beats MERT
+on both small and medium sized systems, and
+permits the use of sentence or document level
+features. SampleRank proceeds by repeatedly
+updating the model weights to ensure that the
+ranking of output sentences induced by the
+model is the same as that induced by the gain
+function.
+1 

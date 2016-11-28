@@ -1,0 +1,29 @@
+
+This paper evaluates a direct speech trans-
+lation Method with waveforms using the
+Inductive Learning method for short con-
+versation. The method is able to work
+without conventional speech recognition
+and speech synthesis because syntactic ex-
+pressions are not needed for translation in
+the proposed method. We focus only on
+acoustic characteristics of speech wave-
+forms of source and target languages with-
+out obtaining character strings from ut-
+terances. This speech translation method
+can be utilized for any language because
+the system has no processing dependent
+on an individual character of a specific
+language. Therefore, we can utilize the
+speech of a handicapped person who is
+not able to be treated by conventional
+speech recognition systems, because we
+do not need to segment the speech into
+phonemes, syllables, or words to realize
+speech translation. Our method is real-
+ized by learning translation rules that have
+acoustic correspondence between two lan-
+guages inductively. In this paper, we deal
+with a translation between Japanese and
+English.
+1 

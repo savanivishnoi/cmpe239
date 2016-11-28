@@ -1,0 +1,19 @@
+
+We present a new two-tier user simula-
+tion model for learning adaptive referring
+expression generation (REG) policies for
+spoken dialogue systems using reinforce-
+ment learning. Current user simulation
+models that are used for dialogue pol-
+icy learning do not simulate users with
+different levels of domain expertise and
+are not responsive to referring expres-
+sions used by the system. The two-
+tier model displays these features, that
+are crucial to learning an adaptive REG
+policy. We also show that the two-tier
+model simulates real user behaviour more
+closely than other baseline models, using
+the dialogue similarity measure
+based on Kullback-Leibler divergence.
+1 

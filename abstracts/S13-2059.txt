@@ -1,0 +1,14 @@
+
+In this paper, we describe our system that par-
+ticipated in SemEval-2013, Task 2.B (senti-
+ment analysis in Twitter). Our approach con-
+sists of adapting Naive Bayes probabilities in
+order to take into account prior knowledge
+(represented in the form of a sentiment lex-
+icon). We propose two different methods to
+efficiently incorporate prior knowledge. We
+show that our approach outperforms the clas-
+sical Naive Bayes method and shows compet-
+itive results with SVM while having less com-
+putational complexity.
+1 

@@ -1,0 +1,21 @@
+
+RWTH participated in the System Combi-
+nation task of the Fifth Workshop on Sta-
+tistical Machine Translation (WMT 2010).
+For 7 of the 8 language pairs, we com-
+bine 5 to 13 systems into a single con-
+sensus translation, using additional n-best
+reranking techniques in two of these lan-
+guage pairs. Depending on the language
+pair, improvements versus the best sin-
+gle system are in the range of +0.5 and
++1.7 on BLEU, and between ?0.4 and
+?2.3 on TER. Novel techniques compared
+with RWTH?s submission to WMT 2009
+include the utilization of n-best reranking
+techniques, a consensus true casing ap-
+proach, a different tuning algorithm, and
+the separate selection of input systems
+for CN construction, primary/skeleton hy-
+potheses, HypLM, and true casing.
+1 

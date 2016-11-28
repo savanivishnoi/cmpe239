@@ -1,0 +1,20 @@
+
+We describe our method for extracting
+keyphrases from scientific articles which
+we participate in the shared task of
+SemEval-2 Evaluation Exercise. Even
+though general-purpose term extractors
+along with linguistically-motivated analy-
+sis allow us to extract elaborated morpho-
+syntactic variation forms of terms, a na??ve
+statistic approach proposed in this paper
+is very simple and quite efficient for ex-
+tracting keyphrases especially from well-
+structured scientific articles. Based on
+the characteristics of keyphrases with sec-
+tion information, we obtain 18.34% for
+f-measure using top 15 candidates. We
+also show further improvement without
+any complications and we discuss this at
+the end of the paper.
+1 

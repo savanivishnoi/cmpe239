@@ -1,0 +1,33 @@
+
+Recent efforts in biomolecular event extrac-
+tion have mainly focused on core event types
+involving genes and proteins, such as gene
+expression, protein-protein interactions, and
+protein catabolism. The BioNLP?11 Shared
+Task extended the event extraction approach
+to sub-protein events and relations in the Epi-
+genetics and Post-translational Modifications
+(EPI) and Protein Relations (REL) tasks. In
+this study, we apply the Turku Event Ex-
+traction System, the best-performing system
+for these tasks, to all PubMed abstracts and
+all available PMC full-text articles, extract-
+ing 1.4M EPI events and 2.2M REL relations
+from 21M abstracts and 372K articles. We
+introduce several entity normalization algo-
+rithms for genes, proteins, protein complexes
+and protein components, aiming to uniquely
+identify these biological entities. This nor-
+malization effort allows direct mapping of
+the extracted events and relations with post-
+translational modifications from UniProt, epi-
+genetics from PubMeth, functional domains
+from InterPro and macromolecular structures
+from PDB. The extraction of such detailed
+protein information provides a unique text
+mining dataset, offering the opportunity to fur-
+ther deepen the information provided by ex-
+isting PubMed-scale event extraction efforts.
+The methods and data introduced in this study
+are freely available from bionlp.utu.fi.
+1 

@@ -1,0 +1,14 @@
+
+We propose a bootstrapping approach to
+training a memoriless stochastic transducer
+for the task of extracting transliterations
+from an English-Arabic bitext. The trans-
+ducer learns its similarity metric from the
+data in the bitext, and thus can func-
+tion directly on strings written in different
+writing scripts without any additional lan-
+guage knowledge. We show that this boot-
+strapped transducer performs as well or bet-
+ter than a model designed specifically to de-
+tect Arabic-English transliterations.
+1 

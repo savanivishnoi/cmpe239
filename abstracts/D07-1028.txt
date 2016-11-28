@@ -1,0 +1,17 @@
+
+We present a simple history-based model for
+sentence generation from LFG f-structures,
+which improves on the accuracy of previous
+models by breaking down PCFG indepen-
+dence assumptions so that more f-structure
+conditioning context is used in the predic-
+tion of grammar rule expansions. In addi-
+tion, we present work on experiments with
+named entities and other multi-word units,
+showing a statistically significant improve-
+ment of generation accuracy. Tested on sec-
+tion 23 of the Penn Wall Street Journal Tree-
+bank, the techniques described in this paper
+improve BLEU scores from 66.52 to 68.82,
+and coverage from 98.18% to 99.96%.
+1 

@@ -1,0 +1,27 @@
+
+We present a novel method to recognise
+semantic equivalents of biomedical terms
+in language pairs. We hypothesise that
+biomedical term are formed by seman-
+tically similar textual units across lan-
+guages. Based on this hypothesis, we
+employ a Random Forest (RF) classifier
+that is able to automatically mine higher
+order associations between textual units
+of the source and target language when
+trained on a corpus of both positive and
+negative examples. We apply our method
+on two language pairs: one that uses the
+same character set and another with a dif-
+ferent script, English-French and English-
+Chinese, respectively. We show that
+English-French pairs of terms are highly
+transliterated in contrast to the English-
+Chinese pairs. Nonetheless, our method
+performs robustly on both cases. We eval-
+uate RF against a state-of-the-art align-
+ment method, GIZA++, and we report a
+statistically significant improvement. Fi-
+nally, we compare RF against Support
+Vector Machines and analyse our results.
+1 

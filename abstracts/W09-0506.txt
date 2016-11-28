@@ -1,0 +1,22 @@
+
+Most dialog systems explicitly confirm
+user-provided task-relevant concepts.
+User responses to these system confirma-
+tions (e.g. corrections, topic changes) may
+be misrecognized because they contain
+unrequested task-related concepts. In this
+paper, we propose a concept-specific lan-
+guage model adaptation strategy where
+the language model (LM) is adapted to
+the concept type(s) actually present in
+the user?s post-confirmation utterance.
+We evaluate concept type classification
+and LM adaptation for post-confirmation
+utterances in the Let?s Go! dialog system.
+We achieve 93% accuracy on concept type
+classification using acoustic, lexical and
+dialog history features. We also show that
+the use of concept type classification for
+LM adaptation can lead to improvements
+in speech recognition performance.
+1 

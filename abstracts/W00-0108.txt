@@ -1,0 +1,27 @@
+ 
+Computational linguists have traditionally 
+sought to model language by finding 
+underlying parameters which govern 
+numerous examples. I describe a different 
+approach which argues that numerous 
+examples themselves, by virtue of their 
+many possible arrangements, provide the 
+only way to specify a sufficiently rich set of 
+"parameters". 
+Essentially I argue for a different 
+relationship between example and 
+parameter. With examples primary, and 
+parameterizafions of them secondary, the 
+real "productions". Rather than representing 
+a redundant complexity, examples hould 
+actually be seen as a simplification, a basis 
+for the numerous arrangements of their 
+"parameterizations". 
+Another way of looking at it is to say I argue 
+arrangements of examples, rather than 
+simply revealing underlying parameters, 
+represent in themselves an ignored resource 
+for the modelling of syntactic, and semantic, 
+complexity. 
+I have implemented a small, working, 
+"shallow parser" based on these ideas. 

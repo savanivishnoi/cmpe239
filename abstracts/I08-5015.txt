@@ -1,0 +1,17 @@
+
+Named Entity Recognition(NER) is the task
+of identifying and classifying tokens in a
+text document into predefined set of classes.
+In this paper we show our experiments
+with various feature combinations for Tel-
+ugu NER. We also observed that the prefix
+and suffix information helps a lot in find-
+ing the class of the token. We also show
+the effect of the training data on the perfor-
+mance of the system. The best performing
+model gave an F?=1 measure of 44.91. The
+language independent features gave an F?=1
+measure of 44.89 which is close to F?=1
+measure obtained even by including the lan-
+guage dependent features.
+1 

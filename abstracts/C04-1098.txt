@@ -1,0 +1,31 @@
+ 
+Language model based IR system proposed in 
+recent 5 years has introduced the language 
+model approach in the speech recognition 
+area into the IR community and improves the 
+performance of the IR system effectively. 
+However, the assumption that all the indexed 
+words are irrelative behind the method is not 
+the truth. Though statistical MT approach 
+alleviates the situation by taking the 
+synonymy factor into account, it never helps 
+to judge the different meanings of the same 
+word in varied context. In this paper we 
+propose the trigger language model based IR 
+system to resolve the problem. Firstly we 
+compute the mutual information of the words 
+from training corpus and then design the 
+algorithm to get the triggered words of the 
+query in order to fix down the topic of query 
+more clearly. We introduce the relative 
+parameters into the document language model 
+to form the trigger language model based IR 
+system. Experiments show that the 
+performance of trigger language model based 
+IR system has been improved greatly. The 
+precision of trigger language model increased 
+12% and recall increased nearly 10.8% 
+compared with Ponte language model 
+method. 
+ 
+1 

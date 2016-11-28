@@ -1,0 +1,14 @@
+
+The Duluth-WSI systems in SemEval-2
+built word co?occurrence matrices from
+the task test data to create a second order
+co?occurrence representation of those test
+instances. The senses of words were in-
+duced by clustering these instances, where
+the number of clusters was automatically
+predicted. The Duluth-Mix system was a
+variation of WSI that used the combina-
+tion of training and test data to create the
+co-occurrence matrix. The Duluth-R sys-
+tem was a series of random baselines.
+1 

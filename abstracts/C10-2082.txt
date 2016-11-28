@@ -1,0 +1,26 @@
+ 
+Tibetan word segmentation is essential 
+for Tibetan information processing. Peo-
+ple mainly use the basic machine match-
+ing method which is based on dictionary 
+to segment Tibetan words at present, 
+because there is no segmented Tibetan 
+corpus which can be used for training in 
+Tibetan word segmentation. But the 
+method based on dictionary is not fit to 
+Tibetan number identification. This pa-
+per studies the characteristics of Tibetan 
+numbers, and then, proposes a method 
+to identify Tibetan numbers based on 
+classification of number components. 
+The method first tags every number 
+component according to the class it be-
+longs to while segmenting, and then up-
+dates the tag series according to some 
+predefined rules. At last adjacent num-
+ber components are combined to form a 
+Tibetan number if they meet a certain 
+requirement. In the testing result from 
+7938K Tibetan corpus, the identification 
+accuracy is 99.21%. 
+1 

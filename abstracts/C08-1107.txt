@@ -1,0 +1,16 @@
+
+Most work on unsupervised entailment
+rule acquisition focused on rules between
+templates with two variables, ignoring
+unary rules - entailment rules between
+templates with a single variable. In this pa-
+per we investigate two approaches for un-
+supervised learning of such rules and com-
+pare the proposed methods with a binary
+rule learning method. The results show
+that the learned unary rule-sets outperform
+the binary rule-set. In addition, a novel
+directional similarity measure for learning
+entailment, termed Balanced-Inclusion, is
+the best performing measure.
+1 

@@ -1,0 +1,19 @@
+
+Semantic information is important for
+precise word sense disambiguation system
+and the kind of semantic analysis used in
+sophisticated natural language processing
+such as machine translation, question
+answering, etc. There are at least two
+kinds of semantic information: lexical
+semantics for words and phrases and
+structural semantics for phrases and
+sentences.
+We have built a Japanese corpus of over
+three million words with both lexical
+and structural semantic information. In
+this paper, we focus on our method of
+annotating the lexical semantics, that is
+building a word sense tagged corpus and
+its properties.
+1 

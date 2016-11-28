@@ -1,0 +1,20 @@
+
+We describe an effective constituent pro-
+jection strategy, where constituent pro-
+jection is performed on the basis of de-
+pendency projection. Especially, a novel
+measurement is proposed to evaluate the
+candidate projected constituents for a tar-
+get language sentence, and a PCFG-style
+parsing procedure is then used to search
+for the most probable projected con-
+stituent tree. Experiments show that, the
+parser trained on the projected treebank
+can significantly boost a state-of-the-art
+supervised parser. When integrated into a
+tree-based machine translation system, the
+projected parser leads to translation per-
+formance comparable with using a super-
+vised parser trained on thousands of anno-
+tated trees.
+1 

@@ -1,0 +1,20 @@
+
+The lack of large amounts of readily available, explicitly represented
+knowledge has long been recognized as a barrier to applications requir-
+ing semantic knowledge such as machine translation and question an-
+swering. This problem is analogous to that facing machine translation
+decades ago, where one proposed solution was to use human translators
+to post-edit automatically produced, low quality translations rather than
+expect a computer to independently create high-quality translations. This
+paper describes an attempt at implementing a semantic parser that takes
+unrestricted English text, uses publically available computational linguis-
+tics tools and lexical resources and as output produces semantic triples
+which can be used in a variety of tasks such as generating knowledge
+bases, providing raw material for question answering systems, or creating
+RDF structures. We describe the TEXTCAP system, detail the semantic
+triple representation it produces, illustrate step by step how TEXTCAP
+processes a short text, and use its results on unseen texts to discuss the
+amount of post-editing that might be realistically required.
+327
+328 Callaway
+1 

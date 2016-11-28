@@ -1,0 +1,18 @@
+ 
+Word category prediction is used to implement an 
+accurate word recognition system. Traditional statistical 
+approaches require considerable training data to estimate 
+the probabilities ofword sequences, and many parameters 
+to memorize probabilities. Tosolve this problem, NETgram, 
+which is the neural network for word category prediction, is
+proposed. Training results how that the perfornmnce of tim 
+NETgram is comparable to that of the statistical model 
+;although the NETgram requires fewer parameters than the 
+~;tatisticat model. Also the NETgram performs effectively 
+?or unknown data, i.e., the NETgram interpolates sparse 
+training data. Results of analyzing the hidden layer show 
+that the word categories are classified into linguistically 
+ti~ignificant groups. The results of applying the NETgram to 
+HMM English word recognition show that the NETgram 
+improves the word recognition rate fi'om 81.0% to 86.9%. 
+1. 

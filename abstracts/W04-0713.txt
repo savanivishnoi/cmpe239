@@ -1,0 +1,29 @@
+ Anaphora in
+Danish Texts and Dialogues
+Costanza Navarretta
+Center for Sprogteknologi
+Njalsgade 80,
+2300 Copenhagen S
+costanza@cst.dk
+Abstract
+This paper describes the dar-algorithm for re-
+solving intersentential pronominal anaphors re-
+ferring to individual and abstract entities in
+Danish texts and dialogues. Individual enti-
+ties are resolved combining models which iden-
+tify high degree of salience with high degree of
+givenness (topicality) of entities in the hearer?s
+cognitive model, e.g. (Grosz et al, 1995), with
+Hajic?ova? et al?s (1990) salience account which
+assigns the highest degree of salience to entities
+in the focal part of an utterance in Information
+Structure terms. These focal entities often in-
+troduce new information in discourse. Anaph-
+ors referring to abstract entities are resolved
+with an extension of the algorithm presented
+by Eckert and Strube (2000). Manual tests of
+the dar-algorithm and other well-known reso-
+lution algorithms on the same data show that
+dar performs significantly better on most types
+of anaphor.
+1 

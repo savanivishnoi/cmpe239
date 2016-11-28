@@ -1,0 +1,16 @@
+  
+To be unambiguous about a Chinese 
+geographic name represented in English text 
+as Pinyin, one needs to recover the name in 
+Chinese characters. We present our approach 
+to this back-transliteration problem based on 
+processes such as bilingual geographic name 
+lookup, name suggestion using place name 
+character and pair frequencies, and 
+confirmation via a collection of monolingual 
+names or the WWW. Evaluation shows that 
+about 48% to 72% of the correct names can 
+be recovered as the top candidate, and 82% to 
+86% within top ten, depending on the 
+processes employed.  
+1 

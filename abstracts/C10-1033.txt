@@ -1,0 +1,25 @@
+
+Syntactic reordering on the source-side
+is an effective way of handling word or-
+der differences. The { (DE) construc-
+tion is a flexible and ubiquitous syntac-
+tic structure in Chinese which is a ma-
+jor source of error in translation quality.
+In this paper, we propose a new classi-
+fier model ? discriminative latent vari-
+able model (DPLVM) ? to classify the
+DE construction to improve the accuracy
+of the classification and hence the transla-
+tion quality. We also propose a new fea-
+ture which can automatically learn the re-
+ordering rules to a certain extent. The ex-
+perimental results show that the MT sys-
+tems using the data reordered by our pro-
+posed model outperform the baseline sys-
+tems by 6.42% and 3.08% relative points
+in terms of the BLEU score on PB-SMT
+and hierarchical phrase-based MT respec-
+tively. In addition, we analyse the impact
+of DE annotation on word alignment and
+on the SMT phrase table.
+1 

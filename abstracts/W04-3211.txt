@@ -1,0 +1,18 @@
+
+We apply a novel variant of Random Forests
+(Breiman, 2001) to the shallow semantic parsing
+problem and show extremely promising results.
+The final system has a semantic role classification
+accuracy of 88.3% using PropBank gold-standard
+parses. These results are better than all others
+published except those of the Support Vector Ma-
+chine (SVM) approach implemented by Pradhan
+et al (2003) and Random Forests have numerous
+advantages over SVMs including simplicity, faster
+training and classification, easier multi-class classi-
+fication, and easier problem-specific customization.
+We also present new features which result in a 1.1%
+gain in classification accuracy and describe a tech-
+nique that results in a 97% reduction in the feature
+space with no significant degradation in accuracy.
+1 

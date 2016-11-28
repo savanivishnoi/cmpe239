@@ -1,0 +1,23 @@
+
+In this paper, we use Arabic natural lan-
+guage processing techniques to analyze
+Arabic debates. The goal is to identify
+how the participants in a discussion split
+into subgroups with contrasting opinions.
+The members of each subgroup share the
+same opinion with respect to the discus-
+sion topic and an opposing opinion to
+the members of other subgroups. We
+use opinion mining techniques to identify
+opinion expressions and determine their
+polarities and their targets. We opinion
+predictions to represent the discussion in
+one of two formal representations: signed
+attitude network or a space of attitude vec-
+tors. We identify opinion subgroups by
+partitioning the signed network represen-
+tation or by clustering the vector space
+representation. We evaluate the system us-
+ing a data set of labeled discussions and
+show that it achieves good results.
+1 

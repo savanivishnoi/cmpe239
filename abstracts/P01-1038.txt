@@ -1,0 +1,18 @@
+
+We present conditions under which
+verb phrases are elided based on a cor-
+pus of positive and negative examples.
+Factor that affect verb phrase ellipsis in-
+clude: the distance between antecedent
+and ellipsis site, the syntactic relation
+between antecedent and ellipsis site,
+and the presence or absence of adjuncts.
+Building on these results, we exam-
+ine where in the generation architec-
+ture a trainable algorithm for VP ellip-
+sis should be located. We show that
+the best performance is achieved when
+the trainable module is located after
+the realizer and has access to surface-
+oriented features (error rate of 7.5%).
+1 

@@ -1,0 +1,21 @@
+
+Sitting at the intersection between statis-
+tics and machine learning, Dynamic
+Bayesian Networks have been applied
+with much success in many domains, such
+as speech recognition, vision, and compu-
+tational biology. While Natural Language
+Processing increasingly relies on statisti-
+cal methods, we think they have yet to
+use Graphical Models to their full poten-
+tial. In this paper, we report on experi-
+ments in learning edit distance costs using
+Dynamic Bayesian Networks and present
+results on a pronunciation classification
+task. By exploiting the ability within the
+DBN framework to rapidly explore a large
+model space, we obtain a 40% reduc-
+tion in error rate compared to a previous
+transducer-based method of learning edit
+distance.
+1 

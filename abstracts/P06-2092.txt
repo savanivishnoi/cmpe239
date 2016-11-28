@@ -1,0 +1,25 @@
+
+We are presenting a new, hybrid align-
+ment architecture for aligning bilingual,
+linguistically annotated parallel corpora.
+It is able to align simultaneously at para-
+graph, sentence, phrase and word level,
+using statistical and heuristic cues, along
+with linguistics-based rules. The system
+currently aligns English and German texts,
+and the linguistic annotation used covers
+POS-tags, lemmas and syntactic constitu-
+tents. However, as the system is highly
+modular, we can easily adapt it to new lan-
+guage pairs and other types of annotation.
+The hybrid nature of the system allows
+experiments with a variety of alignment
+cues to find solutions to word alignment
+problems like the correct alignment of rare
+words and multiwords, or how to align
+despite syntactic differences between two
+languages.
+First performance tests are promising, and
+we are setting up a gold standard for a
+thorough evaluation of the system.
+1 

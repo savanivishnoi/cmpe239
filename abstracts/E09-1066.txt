@@ -1,0 +1,17 @@
+
+Automatic detection of general relations
+between short texts is a complex task that
+cannot be carried out only relying on lan-
+guage models and bag-of-words. There-
+fore, learning methods to exploit syntax
+and semantics are required. In this pa-
+per, we present a new kernel for the repre-
+sentation of shallow semantic information
+along with a comprehensive study on ker-
+nel methods for the exploitation of syntac-
+tic/semantic structures for short text pair
+categorization. Our experiments with Sup-
+port Vector Machines on question/answer
+classification show that our kernels can be
+used to greatly improve system accuracy.
+1 

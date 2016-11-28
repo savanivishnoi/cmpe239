@@ -1,0 +1,28 @@
+ 
+Existing named entity (NE) transliteration 
+approaches often exploit a general model to 
+transliterate NEs, regardless of their origins. 
+As a result, both a Chinese name and a 
+French name (assuming it is already trans-
+lated into Chinese) will be translated into 
+English using the same model, which often 
+leads to unsatisfactory performance. In this 
+paper we propose a cluster-specific NE 
+transliteration framework. We group name 
+origins into a smaller number of clusters, 
+then train transliteration and language mod-
+els for each cluster under a statistical ma-
+chine translation framework. Given a source 
+NE, we first select appropriate models by 
+classifying it into the most likely cluster, 
+then we transliterate this NE with the corre-
+sponding models. We also propose a phrase-
+based name transliteration model, which ef-
+fectively combines context information for 
+transliteration. Our experiments showed 
+substantial improvement on the translitera-
+tion accuracy over a state-of-the-art baseline 
+system, significantly reducing the 
+transliteration character error rate from 
+50.29% to 12.84%. 
+1 

@@ -1,0 +1,27 @@
+
+We present a novel algorithm for multilin-
+gual dependency parsing that uses annotations
+from a diverse set of source languages to parse
+a new unannotated language. Our motiva-
+tion is to broaden the advantages of multilin-
+gual learning to languages that exhibit signif-
+icant differences from existing resource-rich
+languages. The algorithm learns which as-
+pects of the source languages are relevant for
+the target language and ties model parame-
+ters accordingly. The model factorizes the
+process of generating a dependency tree into
+two steps: selection of syntactic dependents
+and their ordering. Being largely language-
+universal, the selection component is learned
+in a supervised fashion from all the training
+languages. In contrast, the ordering decisions
+are only influenced by languages with simi-
+lar properties. We systematically model this
+cross-lingual sharing using typological fea-
+tures. In our experiments, the model con-
+sistently outperforms a state-of-the-art multi-
+lingual parser. The largest improvement is
+achieved on the non Indo-European languages
+yielding a gain of 14.4%.1
+1 

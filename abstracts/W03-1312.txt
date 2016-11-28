@@ -1,0 +1,26 @@
+
+This paper addresses a very specific
+problem that happens to be  common in
+health science research. We present a
+machine learning based method for
+identifying patients diagnosed with
+congestive heart failure and other related
+conditions by automatically classifying
+clinical notes. This method relies on a
+Perceptron neural network classifier
+trained on comparable amounts of
+positive and negative samples of clinical
+notes previously categorized by human
+experts. The documents are represented as
+feature vectors where features are a mix
+of single words and concept mappings to
+MeSH and HICDA ontologies. The
+method is designed and implemented to
+support a particular epidemiological study
+but has broader implications for clinical
+research. In this paper, we describe the
+method and present experimental
+classification results based on
+classification accuracy and positive
+predictive value.
+1 

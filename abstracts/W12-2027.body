@@ -1,0 +1,21 @@
+
+Some grammatical error detection methods,
+including the ones currently used by the Edu-
+cational Testing Service?s e-rater system (At-
+tali and Burstein, 2006), are tuned for pre-
+cision because of the perceived high cost
+of false positives (i.e., marking fluent En-
+glish as ungrammatical). Precision, however,
+is not optimal for all tasks, particularly the
+HOO 2012 Shared Task on grammatical er-
+rors, which uses F-score for evaluation. In this
+paper, we extend e-rater?s preposition and de-
+terminer error detection modules with a large-
+scale n-gram method (Bergsma et al., 2009)
+that complements the existing rule-based and
+classifier-based methods. On the HOO 2012
+Shared Task, the hybrid method performed
+better than its component methods in terms of
+F-score, and it was competitive with submis-
+sions from other HOO 2012 participants.
+1 

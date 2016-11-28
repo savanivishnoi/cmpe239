@@ -1,0 +1,35 @@
+ 
+Setswana, a Bantu language in the Sotho 
+group, is one of the eleven official languages 
+of South Africa.  The language is character-
+ised by a disjunctive orthography, mainly af-
+fecting the important word category of verbs. 
+In particular, verbal prefixal morphemes are 
+usually written disjunctively, while suffixal 
+morphemes follow a conjunctive writing 
+style. Therefore, Setswana tokenisation can-
+not be based solely on whitespace, as is the 
+case in many alphabetic, segmented lan-
+guages, including the conjunctively written 
+Nguni group of South African Bantu lan-
+guages. This paper shows how a combination 
+of two tokeniser transducers and a finite-state 
+(rule-based) morphological analyser may be 
+combined to effectively solve the Setswana 
+tokenisation problem. The approach has the 
+important advantage of bringing the process-
+ing of Setswana beyond the morphological 
+analysis level in line with what is appropriate 
+for the Nguni languages. This means that the 
+challenge of the disjunctive orthography is 
+met at the tokenisation/morphological analy-
+sis level and does not in principle propagate 
+to subsequent levels of analysis such as POS 
+tagging and shallow parsing, etc. Indeed, the 
+approach ensures that an aspect such as or-
+thography does not obfuscate sound linguis-
+tics and, ultimately, proper semantic analysis, 
+which remains the ultimate aim of linguistic 
+analysis and therefore also computational lin-
+guistic analysis. 
+1 

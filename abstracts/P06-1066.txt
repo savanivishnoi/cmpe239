@@ -1,0 +1,18 @@
+
+We propose a novel reordering model for
+phrase-based statistical machine transla-
+tion (SMT) that uses a maximum entropy
+(MaxEnt) model to predicate reorderings
+of neighbor blocks (phrase pairs). The
+model provides content-dependent, hier-
+archical phrasal reordering with general-
+ization based on features automatically
+learned from a real-world bitext. We
+present an algorithm to extract all reorder-
+ing events of neighbor blocks from bilin-
+gual data. In our experiments on Chinese-
+to-English translation, this MaxEnt-based
+reordering model obtains significant im-
+provements in BLEU score on the NIST
+MT-05 and IWSLT-04 tasks.
+1 

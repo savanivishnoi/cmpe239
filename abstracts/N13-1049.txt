@@ -1,0 +1,20 @@
+
+In this paper, we study the problem of auto-
+matic enrichment of a morphologically under-
+specified treebank for Arabic, a morpholog-
+ically rich language. We show that we can
+map from a tagset of size six to one with 485
+tags at an accuracy rate of 94%-95%. We
+can also identify the unspecified lemmas in
+the treebank with an accuracy over 97%. Fur-
+thermore, we demonstrate that using our au-
+tomatic annotations improves the performance
+of a state-of-the-art Arabic morphological tag-
+ger. Our approach combines a variety of tech-
+niques from corpus-based statistical models to
+linguistic rules that target specific phenomena.
+These results suggest that the cost of treebank-
+ing can be reduced by designing underspec-
+ified treebanks that can be subsequently en-
+riched automatically.
+1 

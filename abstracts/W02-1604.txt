@@ -1,0 +1,31 @@
+ 
+Linguistic Representations 
+ 
+Chris Brockett, Takako Aikawa, Anthony Aue, Arul Menezes, Chris Quirk  
+and Hisami Suzuki 
+Natural Language Processing Group, Microsoft Research 
+One Microsoft Way 
+Redmond, WA 98052, USA 
+{chrisbkt,takakoa,anthaue,arulm,chrisq,hisamis}@microsoft.com 
+ 
+ 
+Abstract 
+This presentation describes an example- 
+based English-Japanese machine trans- 
+lation system in which an abstract 
+linguistic representation layer is used to 
+extract and store bilingual translation 
+knowledge, transfer patterns between 
+languages, and generate output strings. 
+Abstraction permits structural neutral-
+izations that facilitate learning of trans-
+lation examples across languages with 
+radically different surface structure charac-
+teristics, and allows MT development to 
+proceed within a largely language- 
+independent NLP architecture. Com-
+parative evaluation indicates that after 
+training in a domain the English-Japanese 
+system is statistically indistinguishable 
+from a non-customized commercially 
+available MT system in the same domain. 

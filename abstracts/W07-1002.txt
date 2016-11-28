@@ -1,0 +1,19 @@
+
+This paper demonstrates a method for de-
+termining the syntactic structure of medi-
+cal terms. We use a model-fitting method
+based on the Log Likelihood Ratio to clas-
+sify three-word medical terms as right or
+left-branching. We validate this method by
+computing the agreement between the clas-
+sification produced by the method and man-
+ually annotated classifications. The results
+show an agreement of 75% - 83%. This
+method may be used effectively to enable
+a wide range of applications that depend
+on the semantic interpretation of medical
+terms including automatic mapping of terms
+to standardized vocabularies and induction
+of terminologies from unstructured medical
+text.
+1 

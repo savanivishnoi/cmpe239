@@ -1,0 +1,16 @@
+
+This paper presents grammar error correction
+for Japanese particles that uses discrimina-
+tive sequence conversion, which corrects erro-
+neous particles by substitution, insertion, and
+deletion. The error correction task is hindered
+by the difficulty of collecting large error cor-
+pora. We tackle this problem by using pseudo-
+error sentences generated automatically. Fur-
+thermore, we apply domain adaptation, the
+pseudo-error sentences are from the source
+domain, and the real-error sentences are from
+the target domain. Experiments show that sta-
+ble improvement is achieved by using domain
+adaptation.
+1 

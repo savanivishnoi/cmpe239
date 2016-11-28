@@ -1,0 +1,22 @@
+
+This paper focuses on a subtask of natu-
+ral language generation (NLG), voice se-
+lection, which decides whether a clause is
+realised in the active or passive voice ac-
+cording to its contextual information. Au-
+tomatic voice selection is essential for re-
+alising more sophisticated MT and sum-
+marisation systems, because it impacts
+the readability of generated texts. How-
+ever, to the best of our knowledge, the
+NLG community has been less concerned
+with explicit voice selection. In this pa-
+per, we propose an automatic voice se-
+lection model based on various linguistic
+information, ranging from lexical to dis-
+course information. Our empirical evalua-
+tion using a manually annotated corpus in
+Japanese demonstrates that the proposed
+model achieved 0.758 in F-score, outper-
+forming the two baseline models.
+1 

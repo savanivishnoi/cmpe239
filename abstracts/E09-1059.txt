@@ -1,0 +1,20 @@
+
+We present the results of a large-scale,
+end-to-end human evaluation of various
+sentiment summarization models. The
+evaluation shows that users have a strong
+preference for summarizers that model
+sentiment over non-sentiment baselines,
+but have no broad overall preference be-
+tween any of the sentiment-based models.
+However, an analysis of the human judg-
+ments suggests that there are identifiable
+situations where one summarizer is gener-
+ally preferred over the others. We exploit
+this fact to build a new summarizer by
+training a ranking SVM model over the set
+of human preference judgments that were
+collected during the evaluation, which re-
+sults in a 30% relative reduction in error
+over the previous best summarizer.
+1 

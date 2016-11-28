@@ -1,0 +1,28 @@
+
+An important and well-studied problem is
+the production of semantic lexicons from
+a large corpus. In this paper, we present
+a system named ASIA (Automatic Set In-
+stance Acquirer), which takes in the name
+of a semantic class as input (e.g., ?car
+makers?) and automatically outputs its in-
+stances (e.g., ?ford?, ?nissan?, ?toyota?).
+ASIA is based on recent advances in web-
+based set expansion - the problem of find-
+ing all instances of a set given a small
+number of ?seed? instances. This ap-
+proach effectively exploits web resources
+and can be easily adapted to different
+languages. In brief, we use language-
+dependent hyponym patterns to find a
+noisy set of initial seeds, and then use a
+state-of-the-art language-independent set
+expansion system to expand these seeds.
+The proposed approach matches or outper-
+forms prior systems on several English-
+language benchmarks. It also shows ex-
+cellent performance on three dozen addi-
+tional benchmark problems from English,
+Chinese and Japanese, thus demonstrating
+language-independence.
+1 

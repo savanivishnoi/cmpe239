@@ -1,0 +1,22 @@
+
+The difficulties involved in spelling er-
+ror detection and correction in a lan-
+guage have been investigated in this work
+through the conceptualization of SpellNet
+? the weighted network of words, where
+edges indicate orthographic proximity be-
+tween two words. We construct SpellNets
+for three languages - Bengali, English and
+Hindi. Through appropriate mathemati-
+cal analysis and/or intuitive justification,
+we interpret the different topological met-
+rics of SpellNet from the perspective of
+the issues related to spell-checking. We
+make many interesting observations, the
+most significant among them being that
+the probability of making a real word error
+in a language is propotionate to the aver-
+age weighted degree of SpellNet, which is
+found to be highest for Hindi, followed by
+Bengali and English.
+1 

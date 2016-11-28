@@ -1,0 +1,12 @@
+ 
+We propose anovel context heterogeneity similarity measure between words and their translations 
+in helping to compile bilingual lexicon entries from a non-parallel English-Chinese corpus. Current 
+algorithms for bilingual exicon compilation rely on occurrence frequencies, length or positional statistics 
+derived from parallel texts. There is little correlation between such statistics of a word and its translation 
+in non-parallel corpora. On the other hand, we suggest that words with productive context in one language 
+translate to words with productive context in another language, and words with rigid context ranslate 
+into words With rigid context. Context heterogeneity measures how productive the context of a word is in 
+a given domain, independent of its absolute occurrence frequency in the text. Based on this information, 
+we derive statistics of bilingual word pairs from a non-parallel corpus. These statistics can be used to 
+bootstrap a bilingual dictionary compilation algorithm. 
+1 

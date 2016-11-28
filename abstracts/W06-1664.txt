@@ -1,0 +1,19 @@
+
+Word clustering is important for automatic
+thesaurus construction, text classification,
+and word sense disambiguation. Recently,
+several studies have reported using the
+web as a corpus. This paper proposes
+an unsupervised algorithm for word clus-
+tering based on a word similarity mea-
+sure by web counts. Each pair of words
+is queried to a search engine, which pro-
+duces a co-occurrence matrix. By calcu-
+lating the similarity of words, a word co-
+occurrence graph is obtained. A new kind
+of graph clustering algorithm called New-
+man clustering is applied for efficiently
+identifying word clusters. Evaluations are
+made on two sets of word groups derived
+from a web directory and WordNet.
+1 

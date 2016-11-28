@@ -1,0 +1,17 @@
+
+We approach the zero-anaphora resolu-
+tion problem by decomposing it into
+intra-sentential and inter-sentential zero-
+anaphora resolution. For the former prob-
+lem, syntactic patterns of the appearance
+of zero-pronouns and their antecedents are
+useful clues. Taking Japanese as a target
+language, we empirically demonstrate that
+incorporating rich syntactic pattern fea-
+tures in a state-of-the-art learning-based
+anaphora resolution model dramatically
+improves the accuracy of intra-sentential
+zero-anaphora, which consequently im-
+proves the overall performance of zero-
+anaphora resolution.
+1 

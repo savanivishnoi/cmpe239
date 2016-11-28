@@ -1,0 +1,16 @@
+
+Hierarchical phrase-based translation (Hiero,
+(Chiang, 2005)) provides an attractive frame-
+work within which both short- and long-
+distance reorderings can be addressed consis-
+tently and efciently. However, Hiero is gen-
+erally implemented with a constraint prevent-
+ing the creation of rules with adjacent nonter-
+minals, because such rules introduce compu-
+tational and modeling challenges. We intro-
+duce methods to address these challenges, and
+demonstrate that rules with adjacent nontermi-
+nals can improve Hiero's generalization power
+and lead to signicant performance gains in
+Chinese-English translation.
+1 

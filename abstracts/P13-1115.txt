@@ -1,0 +1,16 @@
+
+This paper presents an unsupervised ran-
+dom walk approach to alleviate data spar-
+sity for selectional preferences. Based on
+the measure of preferences between predi-
+cates and arguments, the model aggregates
+all the transitions from a given predicate to
+its nearby predicates, and propagates their
+argument preferences as the given predi-
+cate?s smoothed preferences. Experimen-
+tal results show that this approach out-
+performs several state-of-the-art method-
+s on the pseudo-disambiguation task, and
+it better correlates with human plausibility
+judgements.
+1 

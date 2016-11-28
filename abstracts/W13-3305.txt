@@ -1,0 +1,24 @@
+
+The correct translation of verb tenses en-
+sures that the temporal ordering of events
+in the source text is maintained in the tar-
+get text. This paper assesses the utility
+of automatically labeling English Simple
+Past verbs with a binary discursive fea-
+ture, narrative vs. non-narrative, for sta-
+tistical machine translation (SMT) into
+French. The narrativity feature, which
+helps deciding which of the French past
+tenses is a correct translation of the En-
+glish Simple Past, can be assigned with
+about 70% accuracy (F1). The narrativity
+feature improves SMT by about 0.2 BLEU
+points when a factored SMT system is
+trained and tested on automatically labeled
+English-French data. More importantly,
+manual evaluation shows that verb tense
+translation and verb choice are improved
+by respectively 9.7% and 3.4% (absolute),
+leading to an overall improvement of verb
+translation of 17% (relative).
+1 

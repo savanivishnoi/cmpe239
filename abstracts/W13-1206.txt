@@ -1,0 +1,25 @@
+ 
+Understanding the event structure of sentences 
+and whole documents is an important step in 
+being able to extract meaningful information 
+from the text. Our task is the identification of 
+phenotypes, specifically, pneumonia, from 
+clinical narratives. In this paper, we consider 
+the importance of identifying the change of 
+state for events, in particular, events that 
+measure and compare multiple states across 
+time. Change of state is important to the clini-
+cal diagnosis of pneumonia; in the example 
+?there are bibasilar opacities that are un-
+changed?, the presence of bibasilar opacities 
+alone may suggest pneumonia, but not when 
+they are unchanged, which suggests the need 
+to modify events with change of state infor-
+mation. Our corpus is comprised of chest X-
+ray reports, where we find many descriptions 
+of change of state comparing the volume and 
+density of the lungs and surrounding areas. 
+We propose an annotation schema to capture 
+this information as a tuple of <location, attrib-
+ute, value, change-of-state, time-reference>. 
+1 

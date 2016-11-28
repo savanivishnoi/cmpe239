@@ -1,0 +1,16 @@
+  
+A proposal to deal with tenses in the framework of 
+Discourse Representation Theory is presented, ms it 
+has been implemented for a fragment at the IMS for 
+the project LILOG. It is based on the theory of tenses 
+of H. Kamp and Ch. Rohrer. The system uses tile 
+tense and aspect information, the information about 
+the temporal discourse structure of tile preceding text 
+stored in a specific list of possible reference times, and 
+background knowledge. These types of information 
+interact in order to choose a suited temporal anchor 
+for the event of a new sentence. 
+With respect o extended texts, choosing the right 
+reference time for a new event is a problem which has 
+been largely neglected in the literature. 
+1 

@@ -1,0 +1,25 @@
+ 
+As the web content becomes more accessible 
+to the Vietnamese community across the 
+globe, there is a need to process Vietnamese 
+query texts properly to find relevant informa-
+tion. The recent deployment of a Vietnamese 
+translation tool on a well-known search en-
+gine justifies its importance in gaining popu-
+larity with the World Wide Web. There are 
+still problems in the translation and retrieval 
+of Vietnamese language as its word recogni-
+tion is not fully addressed. In this paper we 
+introduce a semi-supervised approach in 
+building a general scalable web corpus for 
+Vietnamese using search engine to facilitate 
+the word segmentation process. Moreover, 
+we also propose a segmentation algorithm 
+which recognizes effectively Out-Of-
+Vocabulary (OOV) words. The result indi-
+cates that our solution is scalable and can be 
+applied for real time translation program and 
+other linguistic applications.  This work is 
+here is a continuation of the work of Nguyen 
+D. (2008). 
+1 

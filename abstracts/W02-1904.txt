@@ -1,0 +1,24 @@
+ 
+This paper presents an approach to FAQ 
+mining via a list detection algorithm. List 
+detection is very important for data 
+collection since list has been widely used for 
+representing data and information on the 
+Web. By analyzing the rendering of FAQs 
+on the Web, we found a fact that all FAQs 
+are always fully/partially represented in a 
+list-like form. There are two ways to author 
+a list on the Web. One is to use some 
+specific tags, e.g. <li> tag for HTML. The 
+lists authored in this way can be easily 
+detected by parsing those special tags. 
+Another way uses other tags instead of the 
+special tags. Unfortunately, many lists are 
+authored in the second way. To detect lists, 
+therefore, we present an algorithm, which is 
+independent of Web languages. By 
+combining the algorithm with some domain 
+knowledge, we detect and collect FAQs 
+from the Web. The mining task achieved a 
+performance of 72.54% recall and 80.16% 
+precision rates. 

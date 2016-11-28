@@ -1,0 +1,26 @@
+
+PCFGs can grow exponentially as additional
+annotations are added to an initially simple
+base grammar. We present an approach where
+multiple annotations coexist, but in a factored
+manner that avoids this combinatorial explo-
+sion. Our method works with linguistically-
+motivated annotations, induced latent struc-
+ture, lexicalization, or any mix of the three.
+We use a structured expectation propagation
+algorithm that makes use of the factored struc-
+ture in two ways. First, by partitioning the fac-
+tors, it speeds up parsing exponentially over
+the unfactored approach. Second, it minimizes
+the redundancy of the factors during training,
+improving accuracy over an independent ap-
+proach. Using purely latent variable annota-
+tions, we can efficiently train and parse with
+up to 8 latent bits per symbol, achieving F1
+scores up to 88.4 on the Penn Treebank while
+using two orders of magnitudes fewer parame-
+ters compared to the na??ve approach. Combin-
+ing latent, lexicalized, and unlexicalized anno-
+tations, our best parser gets 89.4 F1 on all sen-
+tences from section 23 of the Penn Treebank.
+1 

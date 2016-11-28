@@ -1,0 +1,18 @@
+
+This paper presents the system we developed
+for the 2011 WMT Haitian Creole?English
+SMS featured translation task. Applying stan-
+dard statistical machine translation methods to
+noisy real-world SMS data in a low-density
+language setting such as Haitian Creole poses
+a unique set of challenges, which we attempt
+to address in this work. Along with techniques
+to better exploit the limited available train-
+ing data, we explore the benefits of several
+methods for alleviating the additional noise
+inherent in the SMS and transforming it to
+better suite the assumptions of our hierarchi-
+cal phrase-based model system. We show
+that these methods lead to significant improve-
+ments in BLEU score over the baseline.
+1 

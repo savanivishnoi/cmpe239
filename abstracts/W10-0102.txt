@@ -1,0 +1,22 @@
+
+Word alignment models form an important
+part of building statistical machine transla-
+tion systems. Semi-supervised word align-
+ment aims to improve the accuracy of auto-
+matic word alignment by incorporating full
+or partial alignments acquired from humans.
+Such dedicated elicitation effort is often ex-
+pensive and depends on availability of bilin-
+gual speakers for the language-pair. In this
+paper we study active learning query strate-
+gies to carefully identify highly uncertain or
+most informative alignment links that are pro-
+posed under an unsupervised word alignment
+model. Manual correction of such informative
+links can then be applied to create a labeled
+dataset used by a semi-supervised word align-
+ment model. Our experiments show that using
+active learning leads to maximal reduction of
+alignment error rates with reduced human ef-
+fort.
+1 

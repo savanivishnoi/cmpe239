@@ -1,0 +1,18 @@
+
+In this study we investigate using an unsu-
+pervised generative learning method for sub-
+jectivity detection in text across different do-
+mains. We create an initial training set using
+simple lexicon information, and then evaluate
+a calibrated EM (expectation-maximization)
+method to learn from unannotated data. We
+evaluate this unsupervised learning approach
+on three different domains: movie data, news
+resource, and meeting dialogues. We also per-
+form a thorough analysis to examine impact-
+ing factors on unsupervised learning, such as
+the size and self-labeling accuracy of the ini-
+tial training set. Our experiments and analysis
+show inherent differences across domains and
+performance gain from calibration in EM.
+1 

@@ -1,0 +1,23 @@
+
+The Semeval task 5 was an opportunity
+for experimenting with the key term ex-
+traction module of GROBID, a system for
+extracting and generating bibliographical
+information from technical and scientific
+documents. The tool first uses GROBID?s
+facilities for analyzing the structure of sci-
+entific articles, resulting in a first set of
+structural features. A second set of fea-
+tures captures content properties based on
+phraseness, informativeness and keyword-
+ness measures. Two knowledge bases,
+GRISP and Wikipedia, are then exploited
+for producing a last set of lexical/semantic
+features. Bagged decision trees appeared
+to be the most efficient machine learning
+algorithm for generating a list of ranked
+key term candidates. Finally a post rank-
+ing was realized based on statistics of co-
+usage of keywords in HAL, a large Open
+Access publication repository.
+1 

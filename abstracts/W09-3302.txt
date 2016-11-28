@@ -1,0 +1,19 @@
+
+Named entity recognition (NER) is used in
+many domains beyond the newswire text
+that comprises current gold-standard cor-
+pora. Recent work has used Wikipedia?s
+link structure to automatically generate
+near gold-standard annotations. Until now,
+these resources have only been evaluated
+on newswire corpora or themselves.
+We present the first NER evaluation on
+a Wikipedia gold standard (WG) corpus.
+Our analysis of cross-corpus performance
+on WG shows that Wikipedia text may
+be a harder NER domain than newswire.
+We find that an automatic annotation of
+Wikipedia has high agreement with WG
+and, when used as training data, outper-
+forms newswire models by up to 7.7%.
+1 

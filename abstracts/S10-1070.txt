@@ -1,0 +1,15 @@
+
+The system described in this paper has par-
+ticipated in the Tempeval 2 competition,
+specifically in the Task A, which aim is
+to determine the extent of the time expres-
+sions in a text as defined by the TimeML
+TIMEX3 tag, and the value of the fea-
+tures type and val. For this purpose, a
+combination of TERSEO system and the
+T2T3 Transducer was used. TERSEO sys-
+tem is able to annotate text with TIDES
+TIMEX2 tags, and T2T3 transducer per-
+forms the translation from this TIMEX2
+tags to TIMEX3 tags.
+1 

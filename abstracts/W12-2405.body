@@ -1,0 +1,32 @@
+
+The growth of digital clinical data has raised
+questions as to how best to leverage this data
+to aid the world of healthcare. Promising ap-
+plication areas include Information Retrieval
+and Question-Answering systems. Such sys-
+tems require an in-depth understanding of the
+texts that are processed. One aspect of this
+understanding is knowing if a medical con-
+dition outlined in a patient record is recent,
+or if it occurred in the past. As well as this,
+patient records often discuss other individu-
+als such as family members. This presents
+a second problem - determining if a medi-
+cal condition is experienced by the patient de-
+scribed in the report or some other individ-
+ual. In this paper, we investigate the suitabil-
+ity of a machine learning (ML) based system
+for resolving these tasks on a previously unex-
+plored collection of Patient History and Phys-
+ical Examination reports. Our results show
+that our novel Score-based feature approach
+outperforms the standard Linguistic and Con-
+textual features described in the related litera-
+ture. Specifically, near-perfect performance is
+achieved in resolving if a patient experienced
+a condition. While for the task of establish-
+ing when a patient experienced a condition,
+our ML system significantly outperforms the
+ConText system (87% versus 69% f-score, re-
+spectively).
+1 

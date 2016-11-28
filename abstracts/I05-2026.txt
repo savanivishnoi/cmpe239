@@ -1,0 +1,25 @@
+ 
+We present a system to determine 
+content similarity of documents. 
+Our goal is to identify pairs of book 
+chapters that are translations of the 
+same original chapter.  Achieving 
+this goal requires identification of 
+not only the different topics in the 
+documents but also of the particular 
+flow of these topics.   
+Our approach to content 
+similarity evaluation employs n-
+grams of lexical chains and 
+measures similarity using the 
+cosine of vectors of n-grams of 
+lexical chains, vectors of tf*idf-
+weighted keywords, and vectors of 
+unweighted lexical chains 
+(unigrams of lexical chains).  Our 
+results show that n-grams of 
+unordered lexical chains of length 
+four or more are particularly useful 
+for the recognition of content 
+similarity. 
+1   

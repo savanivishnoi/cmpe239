@@ -1,0 +1,18 @@
+
+We present a 5-way supervised system based
+on syntactic-semantic similarity features. The
+model deploys: Text overlap measures,
+WordNet-based lexical similarities, graph-
+based similarities, corpus-based similarities,
+syntactic structure overlap and predicate-
+argument overlap measures. These measures
+are applied to question, reference answer and
+student answer triplets. We take into account
+the negation in the syntactic and predicate-
+argument overlap measures. Our system uses
+the domain-specific data as one dataset to
+build a robust system. The results show that
+our system is above the median and mean on
+all the evaluation scenarios of the SemEval-
+2013 task #7.
+1 

@@ -1,0 +1,25 @@
+ 
+We present results of experiments with Elman recurrent 
+neural networks (Elman, 1990) trained on a natural 
+language processing task. The task was to learn sequences 
+of word categories in a text derived from a primary 
+school reader. The grammar induced by the network was 
+made xplicit by cluster analysis which revealed both the 
+representations formed uring learning and enabled the 
+construction ofstate-transition diagrams representing the 
+grammar. A network initialised with weights based on a 
+prior knowledge of the text's tatistics, learned slightly 
+faster than the original network. 
+In this paper we focus on the extraction of 
+grammatical rules from trained Artificial Neural 
+Networks and, in particular, Elman-type recurrent 
+networks (Elman, 1990). Unlike Giles & Omlin (1993 
+a,b) who used an ANN to simulate adeterministic Finite 
+State Automaton (FSA) representing a regular grammar, 
+we have extracted FSA's from a network trained on a 
+natural anguage corpus. The output of k-means cluster 
+analysis is converted to state-transition diagrams which 
+represent the grammar learned by the network. We 
+analyse the prediction and generalisation performance 
+of the grammar. 
+1. 

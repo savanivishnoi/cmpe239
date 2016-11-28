@@ -1,0 +1,32 @@
+
+We propose a collaborative framework for
+collecting Thai unknown words found on
+Web pages over the Internet. Our main
+goal is to design and construct a Web-
+based system which allows a group of in-
+terested users to participate in construct-
+ing a Thai unknown-word open dictionary.
+The proposed framework provides sup-
+porting algorithms and tools for automati-
+cally identifying and extracting unknown
+words from Web pages of given URLs.
+The system yields the result of unknown-
+word candidates which are presented to
+the users for verification. The approved
+unknown words could be combined with
+the set of existing words in the lexicon
+to improve the performance of many NLP
+tasks such as word segmentation, infor-
+mation retrieval and machine translation.
+Our framework includes word segmenta-
+tion and morphological analysis modules
+for handling the non-segmenting charac-
+teristic of Thai written language. To take
+advantage of large available text resource
+on the Web, our unknown-word boundary
+identification approach is based on the sta-
+tistical string pattern-matching algorithm.
+Keywords: Unknown words, open dictio-
+nary, word segmentation, morphological
+analysis, word-boundary detection.
+1 

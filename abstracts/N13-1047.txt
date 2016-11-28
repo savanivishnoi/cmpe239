@@ -1,0 +1,13 @@
+
+This paper describes an approach to improve
+summaries for a collection of Twitter posts cre-
+ated using the Phrase Reinforcement (PR) Al-
+gorithm (Sharifi et al, 2010a). The PR algo-
+rithm often generates summaries with excess
+text and noisy speech. We parse these sum-
+maries using a dependency parser and use the
+dependencies to eliminate some of the excess
+text and build better-formed summaries. We
+compare the results to those obtained using the
+PR Algorithm.
+1 

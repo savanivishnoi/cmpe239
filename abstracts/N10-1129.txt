@@ -1,0 +1,23 @@
+
+The distortion cost function used in Moses-
+style machine translation systems has two
+flaws. First, it does not estimate the future
+cost of known required moves, thus increas-
+ing search errors. Second, all distortion is
+penalized linearly, even when appropriate re-
+orderings are performed. Because the cost
+function does not effectively constrain search,
+translation quality decreases at higher dis-
+tortion limits, which are often needed when
+translating between languages of different ty-
+pologies such as Arabic and English. To ad-
+dress these problems, we introduce a method
+for estimating future linear distortion cost, and
+a new discriminative distortion model that pre-
+dicts word movement during translation. In
+combination, these extensions give a statis-
+tically significant improvement over a base-
+line distortion parameterization. When we
+triple the distortion limit, our model achieves
+a +2.32 BLEU average gain over Moses.
+1 

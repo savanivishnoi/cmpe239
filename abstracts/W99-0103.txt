@@ -1,0 +1,25 @@
+ 
+Anaphora in multi-modal dialogues have 
+different aspects compared to the 
+anaphora in language-only dialogues. 
+They often refer to the items signified by 
+a gesture or by visual means. In this paper, 
+we define two kinds of anaphora: screen 
+anaphora and referring anaphora, and 
+propose two general methods to resolve 
+these anaphora. One is a simple mapping 
+algorithm that can find items refetxed 
+with/without pointing estures on a screen. 
+The other is the centering algorithm with a 
+dual cache model, which Walker's 
+centering algorithm is extended to for a 
+multi-modal dialogue system. The 
+extended algorithm is appropriate to 
+resolve various anaphora in a multi-modal 
+dialogue .because it keeps utterances, 
+visual information and screen switching- 
+,.tim.e. In the experiments, the system. 
+Correctly resolved 384 anaphora out of 
+402 anaphom in 40 dialogues (0..54 
+anaphom per utterance) showing 95.5% 
+correctness. 

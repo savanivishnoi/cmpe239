@@ -1,0 +1,28 @@
+
+Transliteration has been usually recog-
+nized by spelling-based supervised models.
+However, a single model cannot deal with
+mixture of words with different origins,
+such as ?get? in ?piaget? and ?target?.
+Li et al. (2007) propose a class translit-
+eration method, which explicitly models
+the source language origins and switches
+them to address this issue. In contrast
+to their model which requires an explic-
+itly tagged training corpus with language
+origins, Hagiwara and Sekine (2011) have
+proposed the latent class transliteration
+model, which models language origins as
+latent classes and train the transliteration
+table via the EM algorithm. However, this
+model, which can be formulated as uni-
+gram mixture, is prone to overfitting since
+it is based on maximum likelihood estima-
+tion. We propose a novel latent seman-
+tic transliteration model based on Dirichlet
+mixture, where a Dirichlet mixture prior
+is introduced to mitigate the overfitting
+problem. We have shown that the pro-
+posed method considerably outperform the
+conventional transliteration models.
+1 

@@ -1,0 +1,24 @@
+
+Conventional speech recognition ap-
+proaches usually wait until the user
+has finished talking before returning a
+recognition hypothesis. This results in
+spoken dialogue systems that are unable
+to react while the user is still speaking.
+Incremental Speech Recognition (ISR),
+where partial phrase results are returned
+during user speech, has been used to
+create more reactive systems. However,
+ISR output is unstable and so prone to
+revision as more speech is decoded. This
+paper tackles the problem of stability
+in ISR. We first present a method that
+increases the stability and accuracy of
+ISR output, without adding delay. Given
+that some revisions are unavoidable,
+we next present a pair of methods for
+predicting the stability and accuracy of
+ISR results. Taken together, we believe
+these approaches give ISR more utility for
+real spoken dialogue systems.
+1 

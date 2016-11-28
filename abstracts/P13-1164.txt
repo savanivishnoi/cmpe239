@@ -1,0 +1,27 @@
+
+Procedural dialog systems can help users
+achieve a wide range of goals. However,
+such systems are challenging to build,
+currently requiring manual engineering of
+substantial domain-specific task knowl-
+edge and dialog management strategies. In
+this paper, we demonstrate that it is pos-
+sible to learn procedural dialog systems
+given only light supervision, of the type
+that can be provided by non-experts. We
+consider domains where the required task
+knowledge exists in textual form (e.g., in-
+structional web pages) and where system
+builders have access to statements of user
+intent (e.g., search query logs or dialog
+interactions). To learn from such tex-
+tual resources, we describe a novel ap-
+proach that first automatically extracts task
+knowledge from instructions, then learns a
+dialog manager over this task knowledge
+to provide assistance. Evaluation in a Mi-
+crosoft Office domain shows that the indi-
+vidual components are highly accurate and
+can be integrated into a dialog system that
+provides effective help to users.
+1 

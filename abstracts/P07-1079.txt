@@ -1,0 +1,16 @@
+
+We present a novel framework that com-
+bines strengths from surface syntactic pars-
+ing and deep syntactic parsing to increase
+deep parsing accuracy, specifically by com-
+bining dependency and HPSG parsing. We
+show that by using surface dependencies to
+constrain the application of wide-coverage
+HPSG rules, we can benefit from a num-
+ber of parsing techniques designed for high-
+accuracy dependency parsing, while actu-
+ally performing deep syntactic analysis. Our
+framework results in a 1.4% absolute im-
+provement over a state-of-the-art approach
+for wide coverage HPSG parsing.
+1 

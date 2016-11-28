@@ -1,0 +1,28 @@
+
+The extent to which the organization of nat-
+ural language grammars reflects a drive to
+minimize dependency length remains little
+explored. We present the first algorithm
+polynomial-time in sentence length for obtain-
+ing the minimal-length linearization of a de-
+pendency tree subject to constraints of mild
+context sensitivity. For the minimally context-
+sensitive case of gap-degree 1 dependency
+trees, we prove several properties of minimal-
+length linearizations which allow us to im-
+prove the efficiency of our algorithm to the
+point that it can be used on most naturally-
+occurring sentences. We use the algorithm
+to compare optimal, observed, and random
+sentence dependency length for both surface
+and deep dependencies in English and Ger-
+man. We find in both languages that anal-
+yses of surface and deep dependencies yield
+highly similar results, and that mild context-
+sensitivity affords very little reduction in min-
+imal dependency length over fully projective
+linearizations; but that observed linearizations
+in German are much closer to random and far-
+ther from minimal-length linearizations than
+in English.
+1 

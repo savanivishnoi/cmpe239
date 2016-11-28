@@ -1,0 +1,14 @@
+
+We present a method for disambiguating syn-
+tactic subjects from syntactic objects (a fre-
+quent ambiguity) in German sentences taken
+from an English-German bitext. We exploit
+the fact that subject and object are usually eas-
+ily determined in English. We show that a
+simple method disambiguates some subject-
+object ambiguities in German, while making
+few errors. We view this procedure as the first
+step in automatically acquiring (mostly) cor-
+rect labeled data. We also evaluate using it to
+improve a state of the art statistical parser.
+1 

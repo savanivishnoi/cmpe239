@@ -1,0 +1,36 @@
+
+We present and discuss experiments in sta-
+tistical parsing of French, where terminal
+forms used during training and parsing are
+replaced by more general symbols, particu-
+larly clusters of words obtained through un-
+supervised linear clustering. We build on the
+work of Candito and Crabb? (2009) who pro-
+posed to use clusters built over slightly coars-
+ened French inflected forms. We investigate
+the alternative method of building clusters
+over lemma/part-of-speech pairs, using a raw
+corpus automatically tagged and lemmatized.
+We find that both methods lead to compara-
+ble improvement over the baseline (we ob-
+tain F1=86.20% and F1=86.21% respectively,
+compared to a baseline of F1=84.10%). Yet,
+when we replace gold lemma/POS pairs with
+their corresponding cluster, we obtain an up-
+per bound (F1=87.80) that suggests room for
+improvement for this technique, should tag-
+ging/lemmatisation performance increase for
+French.
+We also analyze the improvement in perfor-
+mance for both techniques with respect to
+word frequency. We find that replacing word
+forms with clusters improves attachment per-
+formance for words that are originally either
+unknown or low-frequency, since these words
+are replaced by cluster symbols that tend to
+have higher frequencies. Furthermore, clus-
+tering also helps significantly for medium to
+high frequency words, suggesting that training
+on word clusters leads to better probability es-
+timates for these words.
+1 

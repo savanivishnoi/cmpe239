@@ -1,0 +1,21 @@
+
+Recent empirical experiments on surface realizers
+have shown that grammars for generation can be
+effectively evaluated using large corpora. Evalu-
+ation metrics are usually reported as single aver-
+ages across all possible types of errors and syntac-
+tic forms. But the causes of these errors are diverse,
+and the extent to which the accuracy of generation
+over individual syntactic phenomena is unknown.
+This article explores the types of errors, both com-
+putational and linguistic, inherent in the evaluation
+of a surface realizer when using large corpora. We
+analyze data from an earlier wide coverage exper-
+iment on the FUF/SURGE surface realizer with the
+Penn TreeBank in order to empirically classify the
+sources of errors and describe their frequency and
+distribution. This both provides a baseline for fu-
+ture evaluations and allows designers of NLG ap-
+plications needing off-the-shelf surface realizers to
+choose on a quantitative basis.
+1 

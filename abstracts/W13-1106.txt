@@ -1,0 +1,17 @@
+
+We perform a series of 3-class sentiment clas-
+sification experiments on a set of 2,624 tweets
+produced during the run-up to the Irish Gen-
+eral Elections in February 2011. Even though
+tweets that have been labelled as sarcastic
+have been omitted from this set, it still rep-
+resents a difficult test set and the highest
+accuracy we achieve is 61.6% using super-
+vised learning and a feature set consisting
+of subjectivity-lexicon-based scores, Twitter-
+specific features and the top 1,000 most dis-
+criminative words. This is superior to various
+naive unsupervised approaches which use sub-
+jectivity lexicons to compute an overall senti-
+ment score for a <tweet,political party> pair.
+1 

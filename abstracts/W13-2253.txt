@@ -1,0 +1,25 @@
+ 
+This paper is to describe our machine transla-
+tion evaluation systems used for participation 
+in the WMT13 shared Metrics Task. In the 
+Metrics task, we submitted two automatic MT 
+evaluation systems nLEPOR_baseline and 
+LEPOR_v3.1. nLEPOR_baseline is an n-gram 
+based language independent MT evaluation 
+metric employing the factors of modified sen-
+tence length penalty, position difference penal-
+ty, n-gram precision and n-gram recall. 
+nLEPOR_baseline measures the similarity of 
+the system output translations and the refer-
+ence translations only on word sequences. 
+LEPOR_v3.1 is a new version of LEPOR met-
+ric using the mathematical harmonic mean to 
+group the factors and employing some linguis-
+tic features, such as the part-of-speech infor-
+mation. The evaluation results of WMT13 
+show LEPOR_v3.1 yields the highest average-
+score 0.86 with human judgments at system-
+level using Pearson correlation criterion on 
+English-to-other (FR, DE, ES, CS, RU) lan-
+guage pairs. 
+1 

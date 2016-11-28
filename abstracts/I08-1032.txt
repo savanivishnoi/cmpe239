@@ -1,0 +1,15 @@
+
+In human translation, translators first make
+draft translations and then modify them.
+This paper analyses these modifications, in
+order to identify the features that trigger
+modification. Our goal is to construct a sys-
+tem that notifies (English-to-Japanese) vol-
+unteer translators of awkward translations.
+After manually classifying the basic modifi-
+cation patterns, we analysed the factors that
+trigger a change in verb voice from passive
+to active using SVM. An experimental re-
+sult shows good prospects for the automatic
+identification of candidates for modification.
+1 

@@ -1,0 +1,17 @@
+
+The LUNA corpus is a multi-lingual, multi-
+domain spoken dialogue corpus currently
+under development that will be used to de-
+velop a robust natural spoken language un-
+derstanding toolkit for multilingual dialogue
+services. The LUNA corpus will be an-
+notated at multiple levels to include an-
+notations of syntactic, semantic, and dis-
+course information; specialized annotation
+tools will be used for the annotation at each
+of these levels. In order to synchronize these
+multiple layers of annotation, the PAULA
+standoff exchange format will be used. In
+this paper, we present the corpus and its
+PAULA-based architecture.1
+1 

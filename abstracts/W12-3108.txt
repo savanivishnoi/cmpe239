@@ -1,0 +1,18 @@
+
+We describe a submission to the WMT12
+Quality Estimation task, including an exten-
+sive Machine Learning experimentation. Data
+were augmented with features from linguis-
+tic analysis and statistical features from the
+SMT search graph. Several Feature Selec-
+tion algorithms were employed. The Quality
+Estimation problem was addressed both as a
+regression task and as a discretised classifi-
+cation task, but the latter did not generalise
+well on the unseen testset. The most success-
+ful regression methods had an RMSE of 0.86
+and were trained with a feature set given by
+Correlation-based Feature Selection. Indica-
+tions that RMSE is not always sufficient for
+measuring performance were observed.
+1 

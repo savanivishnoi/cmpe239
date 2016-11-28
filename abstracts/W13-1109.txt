@@ -1,0 +1,22 @@
+
+While the automatic translation of tweets has
+already been investigated in different scenar-
+ios, we are not aware of any attempt to trans-
+late tweets created by government agencies.
+In this study, we report the experimental re-
+sults we obtained when translating 12 Twitter
+feeds published by agencies and organizations
+of the government of Canada, using a state-of-
+the art Statistical Machine Translation (SMT)
+engine as a black box translation device. We
+mine parallel web pages linked from the URLs
+contained in English-French pairs of tweets in
+order to create tuning and training material.
+For a Twitter feed that would have been other-
+wise difficult to translate, we report significant
+gains in translation quality using this strategy.
+Furthermore, we give a detailed account of the
+problems we still face, such as hashtag trans-
+lation as well as the generation of tweets of
+legal length.
+1 

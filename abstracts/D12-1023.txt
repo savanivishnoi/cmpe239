@@ -1,0 +1,25 @@
+
+Comprehension and corpus studies have found
+that the tendency to minimize dependency
+length has a strong influence on constituent or-
+dering choices. In this paper, we investigate
+dependency length minimization in the con-
+text of discriminative realization ranking, fo-
+cusing on its potential to eliminate egregious
+ordering errors as well as better match the dis-
+tributional characteristics of sentence order-
+ings in news text. We find that with a state-
+of-the-art, comprehensive realization rank-
+ing model, dependency length minimization
+yields statistically significant improvements
+in BLEU scores and significantly reduces
+the number of heavy/light ordering errors.
+Through distributional analyses, we also show
+that with simpler ranking models, dependency
+length minimization can go overboard, too of-
+ten sacrificing canonical word order to shorten
+dependencies, while richer models manage to
+better counterbalance the dependency length
+minimization preference against (sometimes)
+competing canonical word order preferences.
+1 

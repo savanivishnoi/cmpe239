@@ -1,0 +1,24 @@
+
+In this paper we present a scheme to se-
+lect relevant subsets of sentences from a
+large generic corpus such as text acquired
+from the web. A relative entropy (R.E)
+based criterion is used to incrementally se-
+lect sentences whose distribution matches
+the domain of interest. Experimental re-
+sults show that by using the proposed sub-
+set selection scheme we can get signif-
+icant performance improvement in both
+Word Error Rate (WER) and Perplexity
+(PPL) over the models built from the en-
+tire web-corpus by using just 10% of the
+data. In addition incremental data selec-
+tion enables us to achieve significant re-
+duction in the vocabulary size as well as
+number of n-grams in the adapted lan-
+guage model. To demonstrate the gains
+from our method we provide a compar-
+ative analysis with a number of methods
+proposed in recent language modeling lit-
+erature for cleaning up text.
+1 

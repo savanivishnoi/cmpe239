@@ -1,0 +1,31 @@
+
+Most of previous approaches to automatic
+prosodic event detection are based on su-
+pervised learning, relying on the avail-
+ability of a corpus that is annotated with
+the prosodic labels of interest in order to
+train the classification models. However,
+creating such resources is an expensive
+and time-consuming task. In this paper,
+we exploit semi-supervised learning with
+the co-training algorithm for automatic de-
+tection of coarse level representation of
+prosodic events such as pitch accents, in-
+tonational phrase boundaries, and break
+indices. We propose a confidence-based
+method to assign labels to unlabeled data
+and demonstrate improved results using
+this method compared to the widely used
+agreement-based method. In addition, we
+examine various informative sample selec-
+tion methods. In our experiments on the
+Boston University radio news corpus, us-
+ing only a small amount of the labeled data
+as the initial training set, our proposed la-
+beling method combined with most confi-
+dence sample selection can effectively use
+unlabeled data to improve performance
+and finally reach performance closer to
+that of the supervised method using all the
+training data.
+1 

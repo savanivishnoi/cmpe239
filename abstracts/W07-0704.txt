@@ -1,0 +1,22 @@
+
+We investigate different representational
+granularities for sub-lexical representation
+in statistical machine translation work from
+English to Turkish. We find that (i) rep-
+resenting both Turkish and English at the
+morpheme-level but with some selective
+morpheme-grouping on the Turkish side of
+the training data, (ii) augmenting the train-
+ing data with ?sentences? comprising only
+the content words of the original training
+data to bias root word alignment, (iii) re-
+ranking the n-best morpheme-sequence out-
+puts of the decoder with a word-based lan-
+guage model, and (iv) using model iteration
+all provide a non-trivial improvement over
+a fully word-based baseline. Despite our
+very limited training data, we improve from
+20.22 BLEU points for our simplest model
+to 25.08 BLEU points for an improvement
+of 4.86 points or 24% relative.
+1 

@@ -1,0 +1,22 @@
+
+In this paper we present the system we sub-
+mitted to the WMT12 shared task on Quality
+Estimation. Each translated sentence is given
+a score between 1 and 5. The score is ob-
+tained using several numerical or boolean fea-
+tures calculated according to the source and
+target sentences. We perform a linear regres-
+sion of the feature space against scores in the
+range [1:5]. To this end, we use a Support Vec-
+tor Machine. We experiment with two kernels:
+linear and radial basis function. In our submis-
+sion we use the features from the shared task
+baseline system and our own features. This
+leads to 66 features. To deal with this large
+number of features, we propose an in-house
+feature selection algorithm. Our results show
+that a lot of information is already present in
+baseline features, and that our feature selec-
+tion algorithm discards features which are lin-
+early correlated.
+1 

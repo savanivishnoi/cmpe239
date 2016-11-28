@@ -1,0 +1,23 @@
+
+This paper addresses the problem of learn-
+ing to map sentences to logical form, given
+training data consisting of natural language
+sentences paired with logical representations
+of their meaning. Previous approaches have
+been designed for particular natural languages
+or specific meaning representations; here we
+present a more general method. The approach
+induces a probabilistic CCG grammar that
+represents the meaning of individual words
+and defines how these meanings can be com-
+bined to analyze complete sentences. We
+use higher-order unification to define a hy-
+pothesis space containing all grammars con-
+sistent with the training data, and develop
+an online learning algorithm that efficiently
+searches this space while simultaneously es-
+timating the parameters of a log-linear parsing
+model. Experiments demonstrate high accu-
+racy on benchmark data sets in four languages
+with two different meaning representations.
+1 

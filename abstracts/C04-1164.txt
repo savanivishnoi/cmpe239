@@ -1,0 +1,23 @@
+ 
+In this paper we propose a novel approach for 
+ontology alignment and domain ontology extraction 
+from the existing knowledge bases, WordNet and 
+HowNet. These two knowledge bases are aligned to 
+construct a bilingual ontology based on the co-
+occurrence of the words in the sentence pairs of a 
+parallel corpus. The bilingual ontology has the merit 
+that it contains more structural and semantic 
+information coverage from these two 
+complementary knowledge bases. For domain-
+specific applications, the domain specific ontology 
+is further extracted from the bilingual ontology by 
+the island-driven algorithm and the domain-specific 
+corpus.  Finally, the domain-dependent 
+terminologies and some axioms between domain 
+terminologies are integrated into the ontology. For 
+ontology evaluation, experiments were conducted 
+by comparing the benchmark constructed by the 
+ontology engineers or experts. The experimental 
+results show that the proposed approach can extract 
+an aligned bilingual domain-specific ontology. 
+1 

@@ -1,0 +1,22 @@
+
+This paper proposes a new approach for text
+categorization, based on a feature projection
+technique. In our approach, training data are
+represented as the projections of training
+documents on each feature. The voting for a
+classification is processed on the basis of
+individual feature projections. The final
+classification of test documents is
+determined by a majority voting from the
+individual classifications of each feature.
+Our empirical results show that the proposed
+approach, Text Categorization using Feature
+Projections (TCFP), outperforms k-NN,
+Rocchio, and Na?ve Bayes. Most of all,
+TCFP is about one hundred times faster than
+k-NN. Since TCFP algorithm is very simple,
+its implementation and training process can
+be done very easily. For these reasons,
+TCFP can be a useful classifier in the areas,
+which need a fast and high-performance text
+categorization task.

@@ -1,0 +1,31 @@
+
+This paper describes the structure of the LTH
+coreference solver used in the closed track of
+the CoNLL 2012 shared task (Pradhan et al.,
+2012). The solver core is a mention classifier
+that uses Soon et al. (2001)?s algorithm and
+features extracted from the dependency graphs
+of the sentences.
+This system builds on Bjo?rkelund and Nugues
+(2011)?s solver that we extended so that it can
+be applied to the three languages of the task:
+English, Chinese, and Arabic. We designed
+a new mention detection module that removes
+pleonastic pronouns, prunes constituents, and
+recovers mentions when they do not match ex-
+actly a noun phrase. We carefully redesigned
+the features so that they reflect more com-
+plex linguistic phenomena as well as discourse
+properties. Finally, we introduced a minimal
+cluster model grounded in the first mention of
+an entity.
+We optimized the feature sets for the three lan-
+guages: We carried out an extensive evalua-
+tion of pairs of features and we complemented
+the single features with associations that im-
+proved the CoNLL score. We obtained the re-
+spective scores of 59.57, 56.62, and 48.25 on
+English, Chinese, and Arabic on the develop-
+ment set, 59.36, 56.85, and 49.43 on the test
+set, and the combined official score of 55.21.
+1 

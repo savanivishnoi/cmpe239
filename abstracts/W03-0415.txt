@@ -1,0 +1,16 @@
+
+In this paper we demonstrate methods of im-
+proving both the recall and the precision of au-
+tomatic methods for extraction of hyponymy
+(IS A) relations from free text. By applying la-
+tent semantic analysis (LSA) to filter extracted
+hyponymy relations we reduce the rate of er-
+ror of our initial pattern-based hyponymy ex-
+traction by 30%, achieving precision of 58%.
+Applying a graph-based model of noun-noun
+similarity learned automatically from coordi-
+nation patterns to previously extracted correct
+hyponymy relations, we achieve roughly a five-
+fold increase in the number of correct hy-
+ponymy relations extracted.
+1 

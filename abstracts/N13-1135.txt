@@ -1,0 +1,22 @@
+
+Twitter offers an unprecedented advantage on
+live reporting of the events happening around
+the world. However, summarizing the Twit-
+ter event has been a challenging task that was
+not fully explored in the past. In this paper,
+we propose a participant-based event summa-
+rization approach that ?zooms-in? the Twit-
+ter event streams to the participant level, de-
+tects the important sub-events associated with
+each participant using a novel mixture model
+that combines the ?burstiness? and ?cohesive-
+ness? properties of the event tweets, and gen-
+erates the event summaries progressively. We
+evaluate the proposed approach on different
+event types. Results show that the participant-
+based approach can effectively capture the
+sub-events that have otherwise been shadowed
+by the long-tail of other dominant sub-events,
+yielding summaries with considerably better
+coverage than the state-of-the-art.
+1 

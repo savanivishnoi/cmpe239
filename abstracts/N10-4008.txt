@@ -1,0 +1,43 @@
+s, pages 21?24,
+Los Angeles, California, June 2010. c?2010 Association for Computational Linguistics
+Textual Entailment 
+Mark Sammons, University of Illinois
+Idan Szpektor, Yahoo!
+V.G. Vinod Vydiswaran, University of Illinois
+The NLP and ML communities are rising to grander, larger-scale
+challenges such as Machine Reading, Learning by Reading, and Learning
+to Read, challenges requiring deeper and more integrated natural
+language understanding capabilities.
+The task of Recognizing Textual Entailment (RTE) requires automated
+systems to identify when two spans of text share a common meaning --
+for example, that ``Alphaville Inc.'s attempted acquisition of Bauhaus
+led to a jump in both companies' stock prices'' entails ``Bauahaus'
+stock rose'', but not ``Alphaville acquired Bauhaus''.  This general
+capability would be a solid proxy for Natural Language Understanding,
+and has direct relevance to the grand challenges named above.
+Moreover, it could be used to improve performance in a large range of
+Natural Language Processing tasks such as Information Extraction,
+Question Answering, Exhaustive Search, Machine Translation and many
+others.  The operational definition of Textual Entailment used by
+researchers in the field avoids commitment to any specific knowledge
+representation, inference method, or learning approach, thus
+encouraging application of a wide range of techniques to the problem.
+Techniques developed for RTE have now been successfully applied in the
+domains of Question Answering, Relation Extraction, and Machine
+translation, and RTE systems continue to improve their performance
+even as the corpora on which they are evaluated (provided first by
+PASCAL, and now by NIST TAC) have become progressively more
+challenging.  Over the sequence of RTE challenges from PASCAL and NIST
+TAC, the more successful systems seem to have converged in their
+overall approach.
+The goal of this tutorial is to introduce the task of Recognizing
+Textual Entailment to researchers from other areas of NLP.  We will
+identify and analyze common inference and learning approaches from a
+range of the more successful RTE systems, and investigate the role of
+knowledge resources.  We will examine successful applications of RTE
+techniques to Question Answering and Machine Translation, and identify
+key research challenges that must be overcome to continue improving
+RTE systems.
+21
+Tutorial Outline
+1. 

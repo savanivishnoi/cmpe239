@@ -1,0 +1,21 @@
+
+We report a high-performance Chinese NER
+system that incorporates Conditional Random
+Fields (CRFs) and first-order logic for the fourth
+SIGHAN Chinese language processing bake-
+off (SIGHAN-6). Using current state-of-the-
+art CRFs along with a set of well-engineered
+features for Chinese NER as the base model,
+we consider distinct linguistic characteristics in
+Chinese named entities by introducing various
+types of domain knowledge into Markov Logic
+Networks (MLNs), an effective combination of
+first-order logic and probabilistic graphical mod-
+els for validation and error correction of enti-
+ties. Our submitted results achieved consistently
+high performance, including the first place on the
+CityU open track and fourth place on the MSRA
+open track respectively, which show both the at-
+tractiveness and effectiveness of our proposed
+model.
+1 

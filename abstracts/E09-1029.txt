@@ -1,0 +1,20 @@
+
+The paper presents a multi-document sum-
+marization system which builds company-
+specific summaries from a collection of fi-
+nancial news such that the extracted sen-
+tences contain novel and relevant infor-
+mation about the corresponding organiza-
+tion. The user?s familiarity with the com-
+pany?s profile is assumed. The goal of
+such summaries is to provide information
+useful for the short-term trading of the cor-
+responding company, i.e., to facilitate the
+inference from news to stock price move-
+ment in the next day. We introduce a
+novel query (i.e., company name) expan-
+sion method and a simple unsupervized al-
+gorithm for sentence ranking. The sys-
+tem shows promising results in compari-
+son with a competitive baseline.
+1 

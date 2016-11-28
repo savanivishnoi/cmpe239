@@ -1,0 +1,16 @@
+
+This paper introduces a two-way Urdu?
+Roman transliterator based solely on a non-
+probabilistic finite state transducer that solves
+the encountered scriptural issues via a partic-
+ular architectural design in combination with
+a set of restrictions. In order to deal with the
+enormous amount of overgenerations caused
+by inherent properties of the Urdu script, the
+transliterator depends on a set of phonologi-
+cal and orthographic restrictions and a word
+list; additionally, a default component is im-
+plemented to allow for unknown entities to be
+transliterated, thus ensuring a large degree of
+flexibility in addition to robustness.
+1 

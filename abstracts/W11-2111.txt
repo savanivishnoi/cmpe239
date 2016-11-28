@@ -1,0 +1,21 @@
+
+We describe our submissions to the WMT11
+shared MT evaluation task: MTeRater and
+MTeRater-Plus. Both are machine-learned
+metrics that use features from e-rater R?, an au-
+tomated essay scoring engine designed to as-
+sess writing proficiency. Despite using only
+features from e-rater and without comparing
+to translations, MTeRater achieves a sentence-
+level correlation with human rankings equiva-
+lent to BLEU. Since MTeRater only assesses
+fluency, we build a meta-metric, MTeRater-
+Plus, that incorporates adequacy by combin-
+ing MTeRater with other MT evaluation met-
+rics and heuristics. This meta-metric has a
+higher correlation with human rankings than
+either MTeRater or individual MT metrics
+alone. However, we also find that e-rater fea-
+tures may not have significant impact on cor-
+relation in every case.
+1 

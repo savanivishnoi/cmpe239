@@ -1,0 +1,27 @@
+
+We show that Viterbi (or ?hard?) EM is
+well-suited to unsupervised grammar in-
+duction. It is more accurate than standard
+inside-outside re-estimation (classic EM),
+significantly faster, and simpler. Our ex-
+periments with Klein and Manning?s De-
+pendency Model with Valence (DMV) at-
+tain state-of-the-art performance ? 44.8%
+accuracy on Section 23 (all sentences) of
+the Wall Street Journal corpus ? without
+clever initialization; with a good initial-
+izer, Viterbi training improves to 47.9%.
+This generalizes to the Brown corpus,
+our held-out set, where accuracy reaches
+50.8% ? a 7.5% gain over previous best
+results. We find that classic EM learns bet-
+ter from short sentences but cannot cope
+with longer ones, where Viterbi thrives.
+However, we explain that both algorithms
+optimize the wrong objectives and prove
+that there are fundamental disconnects be-
+tween the likelihoods of sentences, best
+parses, and true parses, beyond the well-
+established discrepancies between likeli-
+hood, accuracy and extrinsic performance.
+1 

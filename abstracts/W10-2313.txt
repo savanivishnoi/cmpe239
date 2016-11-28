@@ -1,0 +1,24 @@
+
+Topological and dynamic features of com-
+plex networks have proven to be suitable
+for capturing text characteristics in recent
+years, with various applications in natu-
+ral language processing. In this article we
+show that texts with positive and negative
+opinions can be distinguished from each
+other when represented as complex net-
+works. The distinction was possible by
+obtaining several metrics of the networks,
+including the in-degree, out-degree, short-
+est paths, clustering coefficient, between-
+ness and global efficiency. For visu-
+alization, the obtained multidimensional
+dataset was projected into a 2-dimensional
+space with the canonical variable analysis.
+The distinction was quantified using ma-
+chine learning algorithms, which allowed
+an recall of 70% in the automatic dis-
+crimination for the negative opinions, even
+without attempts to optimize the pattern
+recognition process.
+1 

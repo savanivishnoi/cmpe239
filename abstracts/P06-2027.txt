@@ -1,0 +1,23 @@
+
+Recently, many Natural Language Processing
+(NLP) applications have improved the quality of
+their output by using various machine learning tech-
+niques to mine Information Extraction (IE) patterns
+for capturing information from the input text. Cur-
+rently, to mine IE patterns one should know in ad-
+vance the type of the information that should be
+captured by these patterns. In this work we pro-
+pose a novel methodology for corpus analysis based
+on cross-examination of several document collec-
+tions representing different instances of the same
+domain. We show that this methodology can be
+used for automatic domain template creation. As the
+problem of automatic domain template creation is
+rather new, there is no well-defined procedure for
+the evaluation of the domain template quality. Thus,
+we propose a methodology for identifying what in-
+formation should be present in the template. Using
+this information we evaluate the automatically cre-
+ated domain templates through the text snippets re-
+trieved according to the created templates.
+1 

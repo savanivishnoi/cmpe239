@@ -1,0 +1,18 @@
+ 
+We present an unsupervised and unrestricted 
+approach to discovering an infobox like on-
+tology by exploiting the inter-article links 
+within Wikipedia. It discovers new slots and 
+fillers that may not be available in the 
+Wikipedia infoboxes. Our results demonstrate 
+that there are certain types of properties that 
+are evident in the link structure of resources 
+like Wikipedia that can be predicted with high 
+accuracy using little or no linguistic analysis. 
+The discovered properties can be further used 
+to discover a class hierarchy. Our experiments 
+have focused on analyzing people in Wikipe-
+dia, but the techniques can be directly applied 
+to other types of entities in text resources that 
+are rich with hyperlinks.  
+1 

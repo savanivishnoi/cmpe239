@@ -1,0 +1,26 @@
+
+This paper presents a comparison of two
+similar dialogue analysis tasks: segment-
+ing real-life medical team meetings into
+patient case discussions, and segment-
+ing scenario-based meetings into topics.
+In contrast to other methods which use
+transcribed content and prosodic features
+(such as pitch, loudness etc), the method
+used in this comparison employs only the
+duration of the prosodic units themselves
+as the basis for dialogue representation. A
+concept of Vocalisation Horizon (VH) al-
+lows us to treat segmentation as a clas-
+sification task where each instance to be
+classified is represented by the duration
+of a talk spurt, pause or speech overlap
+event in the dialogue. We report on the re-
+sults this method yielded in segmentation
+of medical meetings, and on the implica-
+tions of the results of further experiments
+on a larger corpus, the Augmented Multi-
+party Meeting corpus, to our ongoing ef-
+forts to support data collection and infor-
+mation retrieval in medical team meetings.
+1 

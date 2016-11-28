@@ -1,0 +1,18 @@
+
+The names of named entities very often oc-
+cur as constituents of larger noun phrases
+which denote different types of entity. Un-
+derstanding the structure of the embedding
+phrase can be an enormously beneficial first
+step to enhancing whatever processing is in-
+tended to follow the named entity recogni-
+tion in the first place. In this paper, we
+examine the integration of general purpose
+linguistic processors together with domain
+specific named entity recognition in order to
+carry out the task of baseNP detection. We
+report a best F-score of 87.17% on this task.
+We also report an inter-annotator agreement
+score of 98.8 Kappa on the task of baseNP
+annotation of a new data set.
+1 

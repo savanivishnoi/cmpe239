@@ -1,0 +1,15 @@
+
+We present a machine learning frame-
+work for resolving other-anaphora. Be-
+sides morpho-syntactic, recency, and se-
+mantic features based on existing lexi-
+cal knowledge resources, our algorithm
+obtains additional semantic knowledge
+from the Web. We search the Web via
+lexico-syntactic patterns that are specific
+to other-anaphors. Incorporating this in-
+novative feature leads to an 11.4 percent-
+age point improvement in the classifier?s
+F -measure (25% improvement relative to
+results without this feature).
+1 

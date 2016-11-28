@@ -1,0 +1,26 @@
+
+The availability of substantial, in-domain
+parallel corpora is critical for the develop-
+ment of high-performance statistical ma-
+chine translation (SMT) systems. Such
+corpora, however, are expensive to pro-
+duce due to the labor intensive nature of
+manual translation. We propose to al-
+leviate this problem with a novel, semi-
+supervised, batch-mode active learning
+strategy that attempts to maximize in-
+domain coverage by selecting sentences,
+which represent a balance between domain
+match, translation difficulty, and batch di-
+versity. Simulation experiments on an
+English-to-Pashto translation task show
+that the proposed strategy not only outper-
+forms the random selection baseline, but
+also traditional active learning techniques
+based on dissimilarity to existing training
+data. Our approach achieves a relative im-
+provement of 45.9% in BLEU over the
+seed baseline, while the closest competitor
+gained only 24.8% with the same number
+of selected sentences.
+1 

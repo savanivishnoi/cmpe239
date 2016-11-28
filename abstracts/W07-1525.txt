@@ -1,0 +1,20 @@
+1
+This document outlines minimal design 
+principles underlying annotation of 
+coreference relations in PoCoS, a scheme 
+for cross-linguistic anaphoric annotation. 
+We identify language-independent princi-
+ples for markable identification which are 
+essential for comparability of annotations 
+produced for different languages. We fur-
+ther suggest a clear and motivated structure 
+of annotation stages, the separation of a 
+coarse-grained core and a family of more 
+elaborate extended schemes, and strategies 
+for the systematic treatment of ambiguity. 
+Explicit mark-up of ambiguities is a novel 
+feature. We implemented three instantia-
+tions of PoCoS for German, English and 
+Russian applied to corpora of newspaper 
+texts. 
+1 

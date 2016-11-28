@@ -1,0 +1,15 @@
+  
+In creating an English grammar 
+checking software product, we 
+implemented a large-coverage rammar 
+based on the dependency grammar 
+formalism. This implementation 
+required some adaptation of current 
+linguistic description to prevent serious 
+overgeneration f parse trees. Here, ? we 
+present one particular example, that of 
+preposition stranding and dangling 
+prepositions, where implementing an 
+alternative to existing linguistic analyses 
+is warranted to limit such over- 
+generation. 

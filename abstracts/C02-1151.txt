@@ -1,0 +1,20 @@
+
+This paper develops a method for recognizing rela-
+tions and entities in sentences, while taking mutual
+dependencies among them into account. E.g., the kill
+(Johns, Oswald) relation in: ?J. V. Oswald was
+murdered at JFK after his assassin,
+K. F. Johns...? depends on identifying Oswald
+and Johns as people, JFK being identified as a location,
+and the kill relation between Oswald and Johns; this, in
+turn, enforces that Oswald and Johns are people.
+In our framework, classifiers that identify entities and
+relations among them are first learned from local infor-
+mation in the sentence; this information, along with con-
+straints induced among entity types and relations, is used
+to perform global inference that accounts for the mutual
+dependencies among the entities.
+Our preliminary experimental results are promising
+and show that our global inference approach improves
+over learning relations and entities separately.
+1 

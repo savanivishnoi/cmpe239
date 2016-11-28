@@ -1,0 +1,31 @@
+
+Out-of-vocabulary (OOV) words present a
+significant challenge for Machine Trans-
+lation. For low-resource languages, lim-
+ited training data increases the frequency
+of OOV words and this degrades the qual-
+ity of the translations. Past approaches
+have suggested using stems or synonyms
+for OOV words. Unlike the previous
+methods, we show how to handle not just
+the OOV words but rare words as well
+in an Example-based Machine Transla-
+tion (EBMT) paradigm. Presence of OOV
+words and rare words in the input sentence
+prevents the system from finding longer
+phrasal matches and produces low qual-
+ity translations due to less reliable lan-
+guage model estimates. The proposed
+method requires only a monolingual cor-
+pus of the source language to find can-
+didate replacements. A new framework
+is introduced to score and rank the re-
+placements by efficiently combining fea-
+tures extracted for the candidate replace-
+ments. A lattice representation scheme al-
+lows the decoder to select from a beam
+of possible replacement candidates. The
+new framework gives statistically signif-
+icant improvements in English-Chinese
+and English-Haitian translation systems.
+1 

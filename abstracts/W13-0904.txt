@@ -1,0 +1,19 @@
+
+Metaphor is a pervasive feature of human lan-
+guage that enables us to conceptualize and
+communicate abstract concepts using more
+concrete terminology. Unfortunately, it is
+also a feature that serves to confound a com-
+puter?s ability to comprehend natural human
+language. We present a method to detect
+linguistic metaphors by inducing a domain-
+aware semantic signature for a given text and
+compare this signature against a large index
+of known metaphors. By training a suite of
+binary classifiers using the results of several
+semantic signature-based rankings of the in-
+dex, we are able to detect linguistic metaphors
+in unstructured text at a significantly higher
+precision as compared to several baseline ap-
+proaches.
+1 

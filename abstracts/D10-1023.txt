@@ -1,0 +1,16 @@
+
+Automated essay scoring is one of the most
+important educational applications of natural
+language processing. Recently, researchers
+have begun exploring methods of scoring es-
+says with respect to particular dimensions of
+quality such as coherence, technical errors,
+and relevance to prompt, but there is rela-
+tively little work on modeling organization.
+We present a new annotated corpus and pro-
+pose heuristic-based and learning-based ap-
+proaches to scoring essays along the organi-
+zation dimension, utilizing techniques that in-
+volve sequence alignment, alignment kernels,
+and string kernels.
+1 

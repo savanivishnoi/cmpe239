@@ -1,0 +1,14 @@
+
+We present the UMUS (Universite? du
+Maine/Universita?t Stuttgart) submission
+for the NEG task at GREC?10. We re-
+fined and tuned our 2009 system but we
+still rely on predicting generic labels and
+then choosing from the list of expressions
+that match those labels. We handled recur-
+sive expressions with care by generating
+specific labels for all the possible embed-
+dings. The resulting system performs at a
+type accuracy of 0.84 an a string accuracy
+of 0.81 on the development set.
+1 

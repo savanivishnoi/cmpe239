@@ -1,0 +1,20 @@
+
+In contrast to LFG and HPSG, there is to
+date no large scale Tree Adjoining Gram-
+mar (TAG) equiped with a compositional
+semantics. In this paper, we report on
+the integration of a unification-based se-
+mantics into a Feature-Based Lexicalised
+TAG for French consisting of around 6 000
+trees. We focus on verb semantics and
+show how factorisation can be used to sup-
+port a compact and principled encoding of
+the semantic information that needs to be
+associated with each of the verbal elemen-
+tary trees. The factorisation is made possi-
+ble by the use of XMG, a high-level linguis-
+tic formalism designed to specify and com-
+pile computational grammars and in partic-
+ular, grammars based on non-local trees or
+tree descriptions.
+1 

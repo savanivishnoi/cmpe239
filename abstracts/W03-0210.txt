@@ -1,0 +1,18 @@
+
+We present CarmelTC, a novel hybrid text clas-
+sification approach for analyzing essay answers
+to qualitative physics questions, which builds
+upon work presented in (Rose? et al, 2002a).
+CarmelTC learns to classify units of text based
+on features extracted from a syntactic analysis
+of that text as well as on a Naive Bayes clas-
+sification of that text. We explore the trade-
+offs between symbolic and ?bag of words? ap-
+proaches. Our goal has been to combine the
+strengths of both of these approaches while
+avoiding some of the weaknesses. Our evalu-
+ation demonstrates that the hybrid CarmelTC
+approach outperforms two ?bag of words? ap-
+proaches, namely LSA and a Naive Bayes, as
+well as a purely symbolic approach.
+1 

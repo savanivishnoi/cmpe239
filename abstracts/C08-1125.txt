@@ -1,0 +1,23 @@
+ tra
+Statistical machine translation systems 
+are usually trained on large amounts of 
+bilingual text and monolingual text. In 
+this paper, we propose a method to per-
+form domain adaptation for statistical 
+machine translation, where in-domain bi-
+lingual corpora do not exist. This method 
+first uses out-of-domain corpora to train a 
+baseline system and then uses in-domain 
+translation dictionaries and in-domain 
+monolingual corpora to improve the in-
+domain performance. We propose an al-
+gorithm to combine these different re-
+sources in a unified framework. Experi-
+mental results indicate that our method 
+achieves absolute improvements of 8.16 
+and 3.36 BLEU scores on Chinese to 
+English translation and English to French 
+translation respectively, as compared 
+with the baselines using only out-of-
+domain corpora. 
+1 

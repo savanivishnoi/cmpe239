@@ -1,0 +1,25 @@
+ 
+With the rapid growth of real 
+application domains for NLP systems, 
+there is a genuine demand for a general 
+toolkit from which programmers with no 
+linguistic knowledge can build specific 
+NLP systems. Such a toolkit should 
+provide an interface to accept sample 
+sentences and convert them into 
+semantic representations so as to allow 
+programmers to map them to domain 
+actions. In order to reduce the workload 
+of managing a large number of semantic 
+forms individually, the toolkit will 
+perform what we call semantic grouping 
+to organize the forms into meaningful 
+groups. In this paper, we present three 
+semantic grouping methods: similarity-
+based, verb-based and category-based 
+grouping, and their implementation in 
+the SLUI toolkit. We also discuss the 
+pros and cons of each method and how 
+they can be utilized according to the 
+different domain needs. 
+1 

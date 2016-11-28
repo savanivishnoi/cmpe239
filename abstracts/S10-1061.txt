@@ -1,0 +1,16 @@
+
+This paper describes our participation
+in the the SemEval-2010 Task #12,
+Parser Evaluation using Textual Entail-
+ment. Our system incorporated two depen-
+dency parsers, one semantic role labeler,
+and a deep parser based on hand-crafted
+grammars. The shortest path algorithm
+is applied on the graph representation of
+the parser outputs. Then, different types
+of features are extracted and the entail-
+ment recognition is casted into a machine-
+learning-based classification task. The
+best setting of the system achieves 66.78%
+of accuracy, which ranks the 3rd place.
+1 

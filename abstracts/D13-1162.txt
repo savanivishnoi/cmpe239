@@ -1,0 +1,18 @@
+
+The goal of our research is to distinguish vet-
+erinary message board posts that describe a
+case involving a specific patient from posts
+that ask a general question. We create a text
+classifier that incorporates automatically gen-
+erated attribute lists for veterinary patients to
+tackle this problem. Using a small amount of
+annotated data, we train an information extrac-
+tion (IE) system to identify veterinary patient
+attributes. We then apply the IE system to a
+large collection of unannotated texts to pro-
+duce a lexicon of veterinary patient attribute
+terms. Our experimental results show that us-
+ing the learned attribute lists to encode pa-
+tient information in the text classifier yields
+improved performance on this task.
+1 

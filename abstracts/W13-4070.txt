@@ -1,0 +1,15 @@
+
+In this paper, we describe two dialogue
+state tracking models competing in the
+2012 Dialogue State Tracking Challenge
+(DSTC). First, we detail a novel discrim-
+inative dialogue state tracker which di-
+rectly estimates slot-level beliefs using de-
+terministic state transition probability dis-
+tribution. Second, we present a gener-
+ative model employing a simple depen-
+dency structure to achieve fast inference.
+The models are evaluated on the DSTC
+data, and both significantly outperform the
+baseline DSTC tracker.
+1 

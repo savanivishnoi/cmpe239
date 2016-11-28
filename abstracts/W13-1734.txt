@@ -1,0 +1,12 @@
+
+This paper describes an effort to perform Na-
+tive Language Identification (NLI) using ma-
+chine learning on a large amount of lexical
+features. The features were collected from se-
+quences and collocations of bare word forms,
+suffixes and character n-grams amounting to
+a feature set of several hundred thousand fea-
+tures. These features were used to train a lin-
+ear Support Vector Machine (SVM) classifier
+for predicting the native language category.
+1 

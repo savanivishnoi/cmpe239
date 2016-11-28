@@ -1,0 +1,19 @@
+
+In this paper we present a novel ap-
+proach to modelling distributional seman-
+tics that represents meaning as distribu-
+tions over relations in syntactic neighbor-
+hoods. We argue that our model approxi-
+mates meaning in compositional configu-
+rations more effectively than standard dis-
+tributional vectors or bag-of-words mod-
+els. We test our hypothesis on the problem
+of judging event coreferentiality, which in-
+volves compositional interactions in the
+predicate-argument structure of sentences,
+and demonstrate that our model outper-
+forms both state-of-the-art window-based
+word embeddings as well as simple ap-
+proaches to compositional semantics pre-
+viously employed in the literature.
+1 

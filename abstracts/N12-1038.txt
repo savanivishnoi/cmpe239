@@ -1,0 +1,12 @@
+
+We introduce a new segmentation evaluation
+measure, WinPR, which resolves some of the
+limitations of WindowDiff. WinPR distin-
+guishes between false positive and false nega-
+tive errors; produces more intuitive measures,
+such as precision, recall, and F-measure; is in-
+sensitive to window size, which allows us to
+customize near miss sensitivity; and is based
+on counting errors not windows, but still pro-
+vides partial reward for near misses.
+1 

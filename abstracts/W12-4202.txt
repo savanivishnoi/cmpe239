@@ -1,0 +1,17 @@
+
+In this paper, we present our linguistically-
+enriched Bulgarian-to-English statistical ma-
+chine translation model, which takes a sta-
+tistical machine translation (SMT) system as
+backbone various linguistic features as fac-
+tors. The motivation is to take advantages of
+both the robustness of the SMT system and
+the rich linguistic knowledge from morpho-
+logical analysis as well as the hand-crafted
+grammar resources. The automatic evaluation
+has shown promising results and our extensive
+manual analysis confirms the high quality of
+the translation the system delivers. The whole
+framework is also extensible for incorporating
+information provided by different sources.
+1 

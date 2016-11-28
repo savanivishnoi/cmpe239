@@ -1,0 +1,19 @@
+
+A growing body of machine translation re-
+search aims to exploit lexical patterns (e.g., n-
+grams and phrase pairs) with gaps (Simard et
+al., 2005; Chiang, 2005; Xiong et al, 2011).
+Typically, these ?gappy patterns? are discov-
+ered using heuristics based on word align-
+ments or local statistics such as mutual infor-
+mation. In this paper, we develop generative
+models of monolingual and parallel text that
+build sentences using gappy patterns of arbi-
+trary length and with arbitrarily many gaps.
+We exploit Bayesian nonparametrics and col-
+lapsed Gibbs sampling to discover salient pat-
+terns in a corpus. We evaluate the patterns
+qualitatively and also add them as features to
+an MT system, reporting promising prelimi-
+nary results.
+1 

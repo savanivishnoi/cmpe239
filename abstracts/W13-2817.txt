@@ -1,0 +1,15 @@
+ 
+Resource limitation is challenging for cross-
+domain adaption. This paper employs patterns 
+identified from a monolingual in-domain cor-
+pus and patterns learned from the post-edited 
+translation results, and translation model as 
+well as language model learned from pseudo 
+bilingual corpora produced by a baseline MT 
+system. The adaptation from a government 
+document domain to a medical record 
+domain shows the rules mined from the 
+monolingual in-domain corpus are useful, 
+and the effect of using the selected pseudo 
+bilingual corpus is significant.   
+1 

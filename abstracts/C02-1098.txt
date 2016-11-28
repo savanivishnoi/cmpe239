@@ -1,0 +1,24 @@
+
+This paper presents techniques for multimedia
+annotation and their application to video sum-
+marization and translation. Our tool for anno-
+tation allows users to easily create annotation
+including voice transcripts, video scene descrip-
+tions, and visual/auditory object descriptions.
+The module for voice transcription is capable
+of multilingual spoken language identification
+and recognition. A video scene description con-
+sists of semi-automatically detected keyframes
+of each scene in a video clip and time codes of
+scenes. A visual object description is created
+by tracking and interactive naming of people
+and objects in video scenes. The text data in
+the multimedia annotation are syntactically and
+semantically structured using linguistic annota-
+tion. The proposed multimedia summarization
+works upon a multimodal document that con-
+sists of a video, keyframes of scenes, and tran-
+scripts of the scenes. The multimedia transla-
+tion automatically generates several versions of
+multimedia content in different languages.
+1 

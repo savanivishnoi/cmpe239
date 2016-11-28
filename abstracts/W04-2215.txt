@@ -1,0 +1,44 @@
+
+The PolyphraZ tool is being developed in the
+framework of the TraCorpEx project
+(Translation of Corpora of Examples), to
+manage parallel multilingual corpora through
+the web. Corpus files (monolingual or
+multilingual) are firstly converted to a
+standard coding (CXM.dtd, UTF8). Then, they
+are assembled (CPXM.dtd) to visualize them
+in parallel through the web. In a third stage,
+they are put in a Multilingual Polyphraz
+Memory (MPM). A "polyphrase" is a structure
+containing an original sentence and various
+proposals of equivalent sentences, in the same
+and other languages. An MPM stores one or
+more corpora of polyphrazes. The MPM part
+of PolyphraZ has 3 main web interfaces. One
+is a web-oriented translator workstation
+(TWS), where suggestions or translations
+come from the MPM itself, which functions as
+its own translation memory, and from calls to
+MT systems. Another serves to send sentences
+to MT systems with appropriate parameters,
+and to run various evaluation measures (NIST,
+BLEU, and distance computations) in order to
+propose to the translator a "best" proposal. A
+third interface is planned for giving feedbacks
+to the developers of the MT systems, in the
+form of lists of unknown or wrongly translated
+words, with suggestions for correct
+translations, and of parallel presentation of
+pairs of translations showing the "editing
+work" to be done to get one from the other.
+The first 2 stages are operational, and used for
+experimentation and MT evaluation on the
+CSTAR 5-lingual BTEC corpus and on the
+Japanese-English Tanaka corpus used as a
+source of examples in electronic dictionaries
+(JDict, Papillon). A main goal of this effort is
+to offer occasional and volunteer translators
+and posteditors access to a free TWS and to
+sharable translation memories put in the MPM
+format.
+1 

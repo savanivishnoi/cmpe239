@@ -1,0 +1,19 @@
+
+This paper describes a novel algorithm to dy-
+namically set endpointing thresholds based on
+a rich set of dialogue features to detect the end
+of user utterances in a dialogue system. By
+analyzing the relationship between silences in
+user?s speech to a spoken dialogue system and
+a wide range of automatically extracted fea-
+tures from discourse, semantics, prosody, tim-
+ing and speaker characteristics, we found that
+all features correlate with pause duration and
+with whether a silence indicates the end of the
+turn, with semantics and timing being the most
+informative. Based on these features, the pro-
+posed method reduces latency by up to 24%
+over a fixed threshold baseline. Offline evalu-
+ation results were confirmed by implementing
+the proposed algorithm in the Let?s Go system.
+1 

@@ -1,0 +1,17 @@
+
+We address the problem of construct-
+ing hybrid translation systems by inter-
+secting a Hiero-style hierarchical sys-
+tem with a phrase-based system and
+present formal techniques for doing so.
+We model the phrase-based component
+by introducing a variant of weighted
+finite-state automata, called ?-automata,
+provide a self-contained description
+of a general algorithm for intersect-
+ing weighted synchronous context-free
+grammars with finite-state automata, and
+extend these constructs to ?-automata.
+We end by briefly discussing complexity
+properties of the presented algorithms.
+1 

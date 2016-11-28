@@ -1,0 +1,21 @@
+
+The development of unsupervised learning
+methods for natural language processing tasks
+has become an important and popular area
+of research. The primary advantage of these
+methods is that they do not require annotated
+data to learn a model. However, this advan-
+tage makes them difficult to evaluate against
+a manually labeled gold standard. Using un-
+supervised part-of-speech tagging as our case
+study, we discuss the reasons that render this
+evaluation paradigm unsuitable for the evalu-
+ation of unsupervised learning methods. In-
+stead, we argue that the rarely used in-context
+evaluation is more appropriate and more infor-
+mative, as it takes into account the way these
+methods are likely to be applied. Finally, bear-
+ing the issue of evaluation in mind, we pro-
+pose directions for future work in unsuper-
+vised natural language processing.
+1 

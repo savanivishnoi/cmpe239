@@ -1,0 +1,64 @@
+ 
+The MiTAP prototype for SARS detection 
+uses human language technology for detect-
+ing, monitoring, and analyzing potential indi-
+cators of infectious disease outbreaks and 
+reasoning for issuing warnings and alerts. Mi-
+TAP focuses on providing timely, multi-
+lingual information access to analysts, domain 
+experts, and decision-makers worldwide. Data 
+sources are captured, filtered, translated, 
+summarized, and categorized by content. 
+Critical information is automatically extracted 
+and tagged to facilitate browsing, searching, 
+and scanning, and to provide key terms at a 
+glance. The processed articles are made avail-
+able through an easy-to-use news server and 
+cross-language information retrieval system 
+for access and analysis anywhere, any time. 
+Specialized newsgroups and customizable fil-
+ters or searches on incoming stories allow us-
+ers to create their own view into the data 
+while a variety of tools summarize, indicate 
+trends, and provide alerts to potentially rele-
+vant spikes of activity. 
+1 
+2 
+Background 
+Potentially catastrophic biological events that threaten 
+US national security are steadily increasing in fre-
+quency. These events pose immediate danger to ani-
+mals, plants, and humans. Current disease surveillance 
+systems are inadequate for detecting indicators early 
+enough to ensure the rapid response needed to combat 
+these biological events and corresponding public reac-
+tion. Recent examples of outbreaks include both the 
+HIV/AIDS and foot and mouth pandemics, the spread of 
+West Nile virus to and across the US, the escape of Rift 
+Valley Fever from Africa, SARS, and the translocation 
+of both mad cow disease (BSE) and monkey pox to the 
+United States.  
+Biological surveillance systems in the United States 
+rely most heavily on human medical data for signs of 
+epidemic activity. These systems span multiple organi-
+zations and agencies, are often not integrated, and have 
+no alerting capability. As a result, responders have an 
+insufficient amount of lead time to prepare for biologi-
+cal events or catastrophes. 
+Indications and Warnings (I&Ws) provide the poten-
+tial for early alert of impending biological events, per-
+haps weeks to months in advance. Sources of I&Ws 
+include transportation data, telecommunication traffic, 
+economic indices, Internet news, RSS feeds (RSS) in-
+cluding weblogs, commerce, agricultural surveillance, 
+weather, and other environmental data. Retrospective 
+analyses of major infectious disease outbreaks (e.g., 
+West Nile Virus and SARS) show that I&Ws were pre-
+sent weeks to months in advance, but these indicators 
+were missed because data sources were difficult to ob-
+tain and hard to integrate. As a result, the available in-
+formation was not utilized for appropriate national and 
+international response. This illuminates a critical need in 
+biodefense for an integrated system linking I&Ws for 
+biological events from multiple and disparate sources 
+with the response community. 

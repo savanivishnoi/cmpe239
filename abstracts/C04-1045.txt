@@ -1,0 +1,19 @@
+
+In this paper, we present an approach to
+include morpho-syntactic dependencies into
+the training of the statistical alignment
+models. Existing statistical translation sys-
+tems usually treat different derivations of
+the same base form as they were indepen-
+dent of each other. We propose a method
+which explicitly takes into account such in-
+terdependencies during the EM training of
+the statistical alignment models. The eval-
+uation is done by comparing the obtained
+Viterbi alignments with a manually anno-
+tated reference alignment. The improve-
+ments of the alignment quality compared
+to the, to our knowledge, best system are
+reported on the German-English Verbmobil
+corpus.
+1 

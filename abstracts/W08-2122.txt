@@ -1,0 +1,16 @@
+
+We propose a solution to the challenge
+of the CoNLL 2008 shared task that uses
+a generative history-based latent variable
+model to predict the most likely derivation
+of a synchronous dependency parser for
+both syntactic and semantic dependencies.
+The submitted model yields 79.1% macro-
+average F1 performance, for the joint task,
+86.9% syntactic dependencies LAS and
+71.0% semantic dependencies F1. A larger
+model trained after the deadline achieves
+80.5% macro-average F1, 87.6% syntac-
+tic dependencies LAS, and 73.1% seman-
+tic dependencies F1.
+1 

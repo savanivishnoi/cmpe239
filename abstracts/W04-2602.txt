@@ -1,0 +1,24 @@
+
+We describe work in progress aimed at devel-
+oping methods for automatically constructing a
+lexicon using only statistical data derived from
+analysis of corpora, a problem we call lexical
+optimization. Specifically, we use statistical
+methods alone to obtain information equivalent
+to syntactic categories, and to discover the se-
+mantically meaningful units of text, which may
+be multi-word units or polysemous terms-in-
+context. Our guiding principle is to employ a
+notion of ?meaningfulness? that can be quanti-
+fied information-theoretically, so that plausible
+variants of a lexicon can be judged relative to
+each other. We describe a technique of this na-
+ture called information theoretic co-clustering
+and give results of a series of experiments built
+around it that demonstrate the main ingredi-
+ents of lexical optimization. We conclude by
+describing our plans for further improvements,
+and for applying the same mathematical princi-
+ples to other problems in natural language pro-
+cessing.
+1 

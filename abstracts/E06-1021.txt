@@ -1,0 +1,16 @@
+
+Aligning sentences belonging to compa-
+rable monolingual corpora has been sug-
+gested as a first step towards training
+text rewriting algorithms, for tasks such
+as summarization or paraphrasing. We
+present here a new monolingual sen-
+tence alignment algorithm, combining a
+sentence-based TF*IDF score, turned into
+a probability distribution using logistic re-
+gression, with a global alignment dynamic
+programming algorithm. Our approach
+provides a simpler and more robust solu-
+tion achieving a substantial improvement
+in accuracy over existing systems.
+1 

@@ -1,0 +1,18 @@
+
+Coordination disambiguation remains a dif-
+ficult sub-problem in parsing despite the
+frequency and importance of coordination
+structures. We propose a method for disam-
+biguating coordination structures. In this
+method, dual decomposition is used as a
+framework to take advantage of both HPSG
+parsing and coordinate structure analysis
+with alignment-based local features. We
+evaluate the performance of the proposed
+method on the Genia corpus and the Wall
+Street Journal portion of the Penn Tree-
+bank. Results show it increases the per-
+centage of sentences in which coordination
+structures are detected correctly, compared
+with each of the two algorithms alone.
+1 

@@ -1,0 +1,13 @@
+ 
+This paper describes a word and phrase 
+alignment approach based on a depend-
+ency analysis of French/English parallel 
+corpora, referred to as alignment by ?syn-
+tax-based propagation.? Both corpora are 
+analysed with a deep and robust depend-
+ency parser. Starting with an anchor pair 
+consisting of two words that are transla-
+tions of one another within aligned sen-
+tences, the alignment link is propagated to 
+syntactically connected words. 
+1 

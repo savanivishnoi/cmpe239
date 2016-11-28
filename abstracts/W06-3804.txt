@@ -1,0 +1,14 @@
+ 
+In many information retrieval and selec-
+tion tasks it is valuable to score how much 
+a text is about a certain entity and to com-
+pute how much the text discusses the en-
+tity with respect to a certain viewpoint. In 
+this paper we are interested in giving an 
+aboutness score to a text, when the input 
+query is a person name and we want to 
+measure the aboutness with respect to the 
+biographical data of that person. We pre-
+sent a graph-based algorithm and compare 
+its results with other approaches. 
+1 

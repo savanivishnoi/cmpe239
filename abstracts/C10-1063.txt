@@ -1,0 +1,27 @@
+
+Sense annotation and lexicon building are
+costly affairs demanding prudent invest-
+ment of resources. Recent work on mul-
+tilingual WSD has shown that it is possi-
+ble to leverage the annotation work done
+for WSD of one language (SL) for another
+(TL), by projecting Wordnet and sense
+marked corpus parameters of SL to TL.
+However, this work does not take into ac-
+count the cost of manually cross-linking
+the words within aligned synsets. Further,
+it does not answer the question of ?Can
+better accuracy be achieved if a user is
+willing to pay additional money?? We
+propose a measure for cost-benefit analy-
+sis which measures the ?value for money?
+earned in terms of accuracy by invest-
+ing in annotation effort and lexicon build-
+ing. Two key ideas explored in this pa-
+per are (i) the use of probabilistic cross-
+linking model to reduce manual cross-
+linking effort and (ii) the use of selective
+sampling to inject a few training examples
+for hard-to-disambiguate words from the
+target language to boost the accuracy.
+1 

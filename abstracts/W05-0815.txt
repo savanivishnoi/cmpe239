@@ -1,0 +1,12 @@
+
+We present some experiments conducted
+within the context of one of the shared
+tasks of the ACL 2005 Workshop on
+Building and Using Parallel Texts. We
+have employed a new model for finding
+the alignments. This new model takes
+a recursive approach in order to find the
+alignments. As its computational costs are
+quite high, a method for splitting the train-
+ing sentences in smaller parts is used.
+1 

@@ -1,0 +1,19 @@
+
+This paper compares a range of methods
+for classifying words based on linguis-
+tic diagnostics, focusing on the task of
+learning countabilities for English nouns.
+We propose two basic approaches to
+feature representation: distribution-based
+representation, which simply looks at
+the distribution of features in the cor-
+pus data, and agreement-based represen-
+tation which analyses the level of token-
+wise agreement between multiple pre-
+processor systems. We additionally com-
+pare a single multiclass classifier archi-
+tecture with a suite of binary classifiers,
+and combine analyses from multiple pre-
+processors. Finally, we present and evalu-
+ate a feature selection method.
+1 

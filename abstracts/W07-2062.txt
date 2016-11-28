@@ -1,0 +1,13 @@
+
+We present a simple, two-steps supervised
+strategy for the identification and classifica-
+tion of thematic roles in natural language
+texts. We employ no external source of in-
+formation but automatic parse trees of the in-
+put sentences. We use a few attribute-value
+features and tree kernel functions applied to
+specialized structured features. The result-
+ing system has an F1 of 75.44 on the Se-
+mEval2007 closed task on semantic role la-
+beling.
+1 

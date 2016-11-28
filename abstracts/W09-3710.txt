@@ -1,0 +1,10 @@
+
+In this paper, we explore the application of inference rules for rec-
+ognizing textual entailment (RTE). We start with an automatically
+acquired collection and then propose methods to refine it and obtain
+more rules using a hand-crafted lexical resource. Following this, we
+derive a dependency-based representation from texts, which aims to
+provide a proper base for the inference rule application. The evalu-
+ation of our approach on the RTE data shows promising results on
+precision and the error analysis suggests future improvements.
+1 

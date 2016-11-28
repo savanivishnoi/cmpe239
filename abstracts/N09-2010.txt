@@ -1,0 +1,14 @@
+
+In this paper we present a novel approach to
+categorizing comments in online reviews as
+either a qualified claim or a bald claim. We ar-
+gue that this distinction is important based on
+a study of customer behavior in making pur-
+chasing decisions using online reviews. We
+present results of a supervised algorithm for
+learning this distinction. The two types of
+claims are expressed differently in language
+and we show that syntactic features capture
+this difference, yielding improvement over a
+bag-of-words baseline.
+1 

@@ -1,0 +1,18 @@
+
+Datasets that answer difficult clinical ques-
+tions are expensive in part due to the need for
+medical expertise and patient informed con-
+sent. We investigate the effect of small sample
+size on the performance of a text categoriza-
+tion algorithm. We show how to determine
+whether the dataset is large enough to train
+support vector machines. Since it is not pos-
+sible to cover all aspects of sample size cal-
+culation in one manuscript, we focus on how
+certain types of data relate to certain proper-
+ties of support vector machines. We show that
+normal vectors of decision hyperplanes can
+be used for assessing reliability and internal
+cross-validation can be used for assessing sta-
+bility of small sample data.
+1 

@@ -1,0 +1,27 @@
+
+We present the first evaluation of the utility of
+automatic evaluation metrics on surface real-
+izations of Penn Treebank data. Using outputs
+of the OpenCCG and XLE realizers, along
+with ranked WordNet synonym substitutions,
+we collected a corpus of generated surface re-
+alizations. These outputs were then rated and
+post-edited by human annotators. We eval-
+uated the realizations using seven automatic
+metrics, and analyzed correlations obtained
+between the human judgments and the auto-
+matic scores. In contrast to previous NLG
+meta-evaluations, we find that several of the
+metrics correlate moderately well with human
+judgments of both adequacy and fluency, with
+the TER family performing best overall. We
+also find that all of the metrics correctly pre-
+dict more than half of the significant system-
+level differences, though none are correct in
+all cases. We conclude with a discussion of the
+implications for the utility of such metrics in
+evaluating generation in the presence of varia-
+tion. A further result of our research is a cor-
+pus of post-edited realizations, which will be
+made available to the research community.
+1 

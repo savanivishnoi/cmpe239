@@ -1,0 +1,18 @@
+
+Information about the animacy of
+nouns is important for a wide range of
+tasks in NLP. In this paper, we present
+a method for determining the animacy
+of English nouns using WordNet and
+machine learning techniques. Our
+method firstly categorises the senses
+from WordNet using an annotated
+corpus and then uses this information
+in order to classify nouns for which
+the sense is not known. Our evaluation
+results show that the accuracy of the
+classification of a noun is around 97%
+and that animate entities are more
+difficult to identify than inanimate
+ones.
+1 

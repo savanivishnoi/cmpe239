@@ -1,0 +1,15 @@
+
+We seek to measure political candidates? ideo-
+logical positioning from their speeches. To ac-
+complish this, we infer ideological cues from
+a corpus of political writings annotated with
+known ideologies. We then represent the
+speeches of U.S. Presidential candidates as se-
+quences of cues and lags (filler distinguished
+only by its length in words). We apply a
+domain-informed Bayesian HMM to infer the
+proportions of ideologies each candidate uses
+in each campaign. The results are validated
+against a set of preregistered, domain expert-
+authored hypotheses.
+1 

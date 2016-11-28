@@ -1,0 +1,21 @@
+
+In this paper we compare different ap-
+proaches to extract definitions of four
+types using a combination of a rule-based
+grammar and machine learning. We col-
+lected a Dutch text corpus containing 549
+definitions and applied a grammar on it.
+Machine learning was then applied to im-
+prove the results obtained with the gram-
+mar. Two machine learning experiments
+were carried out. In the first experi-
+ment, a standard classifier and a classi-
+fier designed specifically to deal with im-
+balanced datasets are compared. The al-
+gorithm designed specifically to deal with
+imbalanced datasets for most types outper-
+forms the standard classifier. In the second
+experiment we show that classification re-
+sults improve when information on defini-
+tion structure is included.
+1 

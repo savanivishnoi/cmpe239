@@ -1,0 +1,17 @@
+
+This paper presents a set of Bayesian
+methods for automatically extending the
+WORDNET ontology with new concepts
+and annotating existing concepts with
+generic property fields, or attributes. We
+base our approach on Latent Dirichlet Al-
+location and evaluate along two dimen-
+sions: (1) the precision of the ranked
+lists of attributes, and (2) the quality of
+the attribute assignments to WORDNET
+concepts. In all cases we find that the
+principled LDA-based approaches outper-
+form previously proposed heuristic meth-
+ods, greatly improving the specificity of
+attributes at each concept.
+1 

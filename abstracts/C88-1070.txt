@@ -1,0 +1,20 @@
+ 
+The schema method is a framework for correcting 
+grammatically ill-formed input. In a natural language 
+processing system ill-formed input cannot be overlooked. A
+computer assisted instruction (CAD system, in particular, 
+needs to show the user's errors. This framework diagnoses 
+ill-formed input, corrects it and explains the error, if an 
+input is ill-~'ormed. The framework recognizes a sentence at 
+two steps: first parses weak grammar, and then strongly 
+filters the parsed sentence. When it is known what 
+sentences are passed by the filter, it can be used even if it is 
+imperfect. As the strong filter, a new method is used: an 
+interpretation schema and an interpretation rule. An 
+interpretation schema collects input information schemata 
+and then an interpretation rule judges whether the 
+collected schemata re correct or incorrect. This approach 
+overcomes the problem of relaxation control, the major 
+drawback of the previous yntactically-oriented methods, 
+and is also more efficient. 
+1? 

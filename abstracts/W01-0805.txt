@@ -1,0 +1,16 @@
+
+This paper describes a new approach
+to the generation of referring expres-
+sions. We propose to formalize a scene
+as a labeled directed graph and describe
+content selection as a subgraph con-
+struction problem. Cost functions are
+used to guide the search process and
+to give preference to some solutions
+over others. The resulting graph al-
+gorithm can be seen as a meta-algorithm
+in the sense that defining cost functions
+in different ways allows us to mimic ?
+and even improve? a number of well-
+known algorithms.
+1 

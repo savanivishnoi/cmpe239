@@ -1,0 +1,15 @@
+ 
+In the framework of contextual information 
+retrieval in the biomedical domain, this paper 
+reports on the automatic detection of disease 
+concepts in two genres of biomedical text: 
+sentences from the literature and PubMed user 
+queries. A statistical model and a Natural 
+Language Processing algorithm for disease 
+recognition were applied on both corpora. 
+While both methods show good performance 
+(F=77% vs. F=76%) on the sentence corpus, 
+results on the query corpus indicate that the 
+statistical model is more robust (F=74% vs. 
+F=70%).  
+1 

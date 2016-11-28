@@ -1,0 +1,21 @@
+
+Microblogging services such as Twitter have
+become popular media for real-time user-
+created news reporting. Such communica-
+tion often happens in parallel in different lan-
+guages, e.g., microblog posts related to the
+same events of the Arab spring were written
+in Arabic and in English. The goal of this
+paper is to exploit this parallelism in order
+to eliminate the main bottleneck in automatic
+Twitter translation, namely the lack of bilin-
+gual sentence pairs for training SMT systems.
+We show that translation-based cross-lingual
+information retrieval can retrieve microblog
+messages across languages that are similar
+enough to be used to train a standard phrase-
+based SMT pipeline. Our method outper-
+forms other approaches to domain adaptation
+for SMT such as language model adaptation,
+meta-parameter tuning, or self-translation.
+1 

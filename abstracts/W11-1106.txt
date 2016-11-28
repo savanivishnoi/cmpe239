@@ -1,0 +1,17 @@
+
+In this paper, we present GrawlTCQ, a new
+bootstrapping algorithm for building special-
+ized terminology, corpora and queries, based
+on a graph model. We model links be-
+tween documents, terms and queries, and use
+a random walk with restart algorithm to com-
+pute relevance propagation. We have evalu-
+ated GrawlTCQ on an AFP English corpus of
+57,441 news over 10 categories. For corpora
+building, GrawlTCQ outperforms the Boot-
+CaT tool, which is vastly used in the domain.
+For 1,000 documents retrieved, we improve
+mean precision by 25%. GrawlTCQ has also
+shown to be faster and more robust than Boot-
+CaT over iterations.
+1 

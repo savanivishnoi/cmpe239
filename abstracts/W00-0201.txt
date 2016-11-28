@@ -1,0 +1,46 @@
+ 
+In this paper we outline an interlingual- 
+based procedure for resolving reference 
+and suggest a practical approach to 
+implementing it. We assume a two-stage 
+language analysis system. First, a 
+syntactic analysis of an input text results 
+in a functional structure in which certain 
+cases of pronominal reference are 
+resolved. Second, the f-structure is 
+mapped onto an interlingual 
+representation. As part of this mapping, 
+the reference of the various f-structure 
+elements is resolved resulting in the 
+addition of information to certain 
+existing IL objects (coreference) or in 
+the creation of new IL objects which are 
+added to the domain of discourse (initial 
+reference). 
+For this effort, we adopt Text Meaning 
+Representation forour IL and rely on the 
+ONTOS ontology (Mahesh & Nirenburg, 
+1995) as a general knowledge base. 
+Since the central barrier to developing 
+such a system today is the 
+incompleteness of the knowledge base, 
+we outline a strategy starting with the 
+implementation f a series of form-based 
+resolution algorithms that are applied 
+directly to the referring expressions of 
+the input text. These are initially 
+supplemented by a knowledge-based 
+resolution procedure which, as the 
+knowledge base grows and the adequacy 
+of the f-structure and IL-representation 
+increases, takes on more and more of the 
+processing load. 
+We examine the operation of the form- 
+based algorithms on a sample Spanish 
+text and show their limitations. We then 
+demonstrate how an IL-based approach 
+can be used to resolve the problematic 
+cases of reference. This research effort is 
+part of the CREST project at the CRL 
+funded by DARPA 1. 
+1 

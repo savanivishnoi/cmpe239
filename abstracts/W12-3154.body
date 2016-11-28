@@ -1,0 +1,19 @@
+
+In statistical machine translation (SMT), it is
+known that performance declines when the
+training data is in a different domain from the
+test data. Nevertheless, it is frequently nec-
+essary to supplement scarce in-domain train-
+ing data with out-of-domain data. In this pa-
+per, we first try to relate the effect of the out-
+of-domain data on translation performance to
+measures of corpus similarity, then we sep-
+arately analyse the effect of adding the out-
+of-domain data at different parts of the train-
+ing pipeline (alignment, phrase extraction, and
+phrase scoring). Through experiments in 2 do-
+mains and 8 language pairs it is shown that
+the out-of-domain data improves coverage and
+translation of rare words, but may degrade the
+translation quality for more common words.
+1 

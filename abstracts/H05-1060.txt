@@ -1,0 +1,20 @@
+
+Finite-state approaches have been highly successful at describ-
+ing the morphological processes of many languages. Such
+approaches have largely focused on modeling the phone- or
+character-level processes that generate candidate lexical types,
+rather than tokens in context. For the full analysis of words
+in context, disambiguation is also required (Hakkani-Tu?r et al,
+2000; Hajic? et al, 2001). In this paper, we apply a novel
+source-channel model to the problem of morphological disam-
+biguation (segmentation into morphemes, lemmatization, and
+POS tagging) for concatenative, templatic, and inflectional lan-
+guages. The channel model exploits an existing morphological
+dictionary, constraining each word?s analysis to be linguistically
+valid. The source model is a factored, conditionally-estimated
+random field (Lafferty et al, 2001) that learns to disambiguate
+the full sentence by modeling local contexts. Compared with
+baseline state-of-the-art methods, our method achieves statisti-
+cally significant error rate reductions on Korean, Arabic, and
+Czech, for various training set sizes and accuracy measures.
+1 

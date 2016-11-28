@@ -1,0 +1,14 @@
+
+We propose several techniques for improv-
+ing statistical machine translation between
+closely-related languages with scarce re-
+sources. We use character-level translation
+trained on n-gram-character-aligned bitexts
+and tuned using word-level BLEU, which we
+further augment with character-based translit-
+eration at the word level and combine with
+a word-level translation model. The evalua-
+tion on Macedonian-Bulgarian movie subtitles
+shows an improvement of 2.84 BLEU points
+over a phrase-based word-level baseline.
+1 

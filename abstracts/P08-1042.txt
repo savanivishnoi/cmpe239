@@ -1,0 +1,16 @@
+
+We outline the problem of ad hoc rules in
+treebanks, rules used for specific construc-
+tions in one data set and unlikely to be used
+again. These include ungeneralizable rules,
+erroneous rules, rules for ungrammatical text,
+and rules which are not consistent with the rest
+of the annotation scheme. Based on a sim-
+ple notion of rule equivalence and on the idea
+of finding rules unlike any others, we develop
+two methods for detecting ad hoc rules in flat
+treebanks and show they are successful in de-
+tecting such rules. This is done by examin-
+ing evidence across the grammar and without
+making any reference to context.
+1 

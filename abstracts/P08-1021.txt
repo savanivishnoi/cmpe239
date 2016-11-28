@@ -1,0 +1,14 @@
+
+This paper proposes a method to correct En-
+glish verb form errors made by non-native
+speakers. A basic approach is template match-
+ing on parse trees. The proposed method im-
+proves on this approach in two ways. To
+improve recall, irregularities in parse trees
+caused by verb form errors are taken into ac-
+count; to improve precision, n-gram counts
+are utilized to filter proposed corrections.
+Evaluation on non-native corpora, represent-
+ing two genres and mother tongues, shows
+promising results.
+1 

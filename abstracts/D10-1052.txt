@@ -1,0 +1,23 @@
+
+We address the modeling, parameter estima-
+tion and search challenges that arise from the
+introduction of reordering models that capture
+non-local reordering in alignment modeling.
+In particular, we introduce several reordering
+models that utilize (pairs of) function words
+as contexts for alignment reordering. To ad-
+dress the parameter estimation challenge, we
+propose to estimate these reordering models
+from a relatively small amount of manually-
+aligned corpora. To address the search chal-
+lenge, we devise an iterative local search al-
+gorithm that stochastically explores reorder-
+ing possibilities. By capturing non-local re-
+ordering phenomena, our proposed alignment
+model bears a closer resemblance to state-
+of-the-art translation model. Empirical re-
+sults show significant improvements in align-
+ment quality as well as in translation perfor-
+mance over baselines in a large-scale Chinese-
+English translation task.
+1 

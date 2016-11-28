@@ -1,0 +1,13 @@
+
+We propose an algorithm to find the best path
+through an intersection of arbitrarily many
+weighted automata, without actually perform-
+ing the intersection. The algorithm is based on
+dual decomposition: the automata attempt to
+agree on a string by communicating about fea-
+tures of the string. We demonstrate the algo-
+rithm on the Steiner consensus string problem,
+both on synthetic data and on consensus de-
+coding for speech recognition. This involves
+implicitly intersecting up to 100 automata.
+1 

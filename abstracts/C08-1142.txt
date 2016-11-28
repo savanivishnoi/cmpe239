@@ -1,0 +1,23 @@
+ 
+In this paper, we address the issue of de-
+ciding when to stop active learning for 
+building a labeled training corpus. Firstly, 
+this paper presents a new stopping crite-
+rion, classification-change, which con-
+siders the potential ability of each unla-
+beled example on changing decision 
+boundaries. Secondly, a multi-criteria-
+based combination strategy is proposed 
+to solve the problem of predefining an 
+appropriate threshold for each confi-
+dence-based stopping criterion, such as 
+max-confidence, min-error, and overall-
+uncertainty. Finally, we examine the ef-
+fectiveness of these stopping criteria on 
+uncertainty sampling and heterogeneous 
+uncertainty sampling for active learning. 
+Experimental results show that these 
+stopping criteria work well on evaluation 
+data sets, and the combination strategies 
+outperform individual criteria. 
+1 

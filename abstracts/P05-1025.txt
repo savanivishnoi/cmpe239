@@ -1,0 +1,21 @@
+
+To facilitate the use of syntactic infor-
+mation in the study of child language
+acquisition, a coding scheme for Gram-
+matical Relations (GRs) in transcripts of
+parent-child dialogs has been proposed by
+Sagae, MacWhinney and Lavie (2004).
+We discuss the use of current NLP tech-
+niques to produce the GRs in this an-
+notation scheme. By using a statisti-
+cal parser (Charniak, 2000) and memory-
+based learning tools for classification
+(Daelemans et al, 2004), we obtain high
+precision and recall of several GRs. We
+demonstrate the usefulness of this ap-
+proach by performing automatic measure-
+ments of syntactic development with the
+Index of Productive Syntax (Scarborough,
+1990) at similar levels to what child lan-
+guage researchers compute manually.
+1 

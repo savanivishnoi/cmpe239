@@ -1,0 +1,18 @@
+
+This paper investigates bootstrapping for statis-
+tical parsers to reduce their reliance on manu-
+ally annotated training data. We consider both
+a mostly-unsupervised approach, co-training,
+in which two parsers are iteratively re-trained
+on each other?s output; and a semi-supervised
+approach, corrected co-training, in which a
+human corrects each parser?s output before
+adding it to the training data. The selection of
+labeled training examples is an integral part of
+both frameworks. We propose several selection
+methods based on the criteria of minimizing er-
+rors in the data and maximizing training util-
+ity. We show that incorporating the utility cri-
+terion into the selection method results in better
+parsers for both frameworks.
+1 

@@ -1,0 +1,14 @@
+
+We use automatically extracted acoustic
+features to detect speech which is gener-
+ated under stress, achieving 76.24% accu-
+racy with a binary logistic regression. Our
+data are task-oriented human-human dia-
+logues in which a time-limit is unexpect-
+edly introduced partway through. Anal-
+ysis suggests that we can detect approxi-
+mately when this event occurs. We also
+consider the importance of normalizing
+the acoustic features by speaker, and de-
+tecting stress in new speakers.
+1 

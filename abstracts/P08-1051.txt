@@ -1,0 +1,29 @@
+
+Question answering research has only recently
+started to spread from short factoid questions
+to more complex ones. One significant chal-
+lenge is the evaluation: manual evaluation is a
+difficult, time-consuming process and not ap-
+plicable within efficient development of sys-
+tems. Automatic evaluation requires a cor-
+pus of questions and answers, a definition of
+what is a correct answer, and a way to com-
+pare the correct answers to automatic answers
+produced by a system. For this purpose we
+present a Wikipedia-based corpus of Why-
+questions and corresponding answers and arti-
+cles. The corpus was built by a novel method:
+paid participants were contacted through a
+Web-interface, a procedure which allowed dy-
+namic, fast and inexpensive development of
+data collection methods. Each question in the
+corpus has several corresponding, partly over-
+lapping answers, which is an asset when es-
+timating the correctness of answers. In ad-
+dition, the corpus contains information re-
+lated to the corpus collection process. We be-
+lieve this additional information can be used to
+post-process the data, and to develop an auto-
+matic approval system for further data collec-
+tion projects conducted in a similar manner.
+1 

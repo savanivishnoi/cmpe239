@@ -1,0 +1,14 @@
+ 
+Electronic Essay Rater (e-rater) is a prototype automated essay scoring system built at Educational Testing Service 
+(ETS) that uses discourse marking, in addition to syntactic information and topical content vector analyses to 
+automatically assign essay scores. This paper gives a general description ore-rater as a whole, but its emphasis is on 
+the importance of discourse marking and argument partitioning for annotating the argument structure of an essay. 
+We show comparisons between two content vector analysis programs used to predict scores .  EsscQ/'Content and 
+ArgContent. EsscnContent assigns cores to essays by using a standard cosine correlation that treats the essay like a 
+"'bag of words." in that it does not consider word order. Ark, Content employs a novel content vector analysis 
+approach for score assignment based on the individual arguments in an essay. The average agreement between 
+ArgContent scores and human rater scores is 82%. as compared to 69% agreement between EssavContent and the 
+human raters. These results suggest hat discourse marking enriches e-rater's coring capability. When e-rater uses 
+its whole set of predictive features, agreement with human rater scores ranges from 87?,/o - 94% across the 15 sets of 
+essa5 responses used in this study 
+1. 

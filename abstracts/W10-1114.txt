@@ -1,0 +1,18 @@
+
+We explore the use of conditional random
+fields (CRFs) to automatically extract impor-
+tant metadata from clinical research articles.
+These metadata fields include formulaic meta-
+data about the authors, extracted from the title
+page, as well as free text fields concerning the
+study?s critical parameters, such as longitudi-
+nal variables and medical intervention meth-
+ods, extracted from the body text of the arti-
+cle. Extracting such information can help both
+readers conduct deep semantic search of arti-
+cles and policy makers and sociologists track
+macro level trends in research. Preliminary re-
+sults show an acceptable level of performance
+for formulaic metadata and a high precision
+for those found in the free text.
+1 

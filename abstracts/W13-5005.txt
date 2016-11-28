@@ -1,0 +1,17 @@
+
+In this work, we propose a graph-based
+approach to computing similarities between
+words in an unsupervised manner, and take ad-
+vantage of heterogeneous feature types in the
+process. The approach is based on the creation
+of two separate graphs, one for words and
+one for features of different types (alignment-
+based, orthographic, etc.). The graphs are con-
+nected through edges that link nodes in the
+feature graph to nodes in the word graph, the
+edge weights representing the importance of a
+particular feature for a particular word. High
+quality graphs are learned during training, and
+the proposed method outperforms experimen-
+tal baselines.
+1 

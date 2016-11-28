@@ -1,0 +1,27 @@
+ 
+This paper describes the representation of 
+Basque Multiword Lexical Units and the 
+automatic processing of Multiword 
+Expressions. After discussing and stating 
+which kind of multiword expressions we 
+consider to be processed at the current 
+stage of the work, we present the 
+representation schema of the 
+corresponding lexical units in a general-
+purpose lexical database. Due to its 
+expressive power, the schema can deal 
+not only with fixed expressions but also 
+with morphosyntactically flexible 
+constructions. It also allows us to 
+lemmatize word combinations as a unit 
+and yet to parse the components 
+individually if necessary. Moreover, we 
+describe HABIL, a tool for the automatic 
+processing of these expressions, and we 
+give some evaluation results. This work 
+must be placed in a general framework of 
+written Basque processing tools, which 
+currently ranges from the tokenization 
+and segmentation of single words up to 
+the syntactic tagging of general texts. 
+1 

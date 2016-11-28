@@ -1,0 +1,21 @@
+
+Terminology structuring aims to elicit semantic re-
+lations between the terms of a domain. We propose
+here to exploit definitions found in corpora to ob-
+tain such semantic relations. Definition typologies
+show that definitions can be introduced by differ-
+ent semantic relations, some of these relations be-
+ing likely to structure terminologies. Our aim is
+therefore to mine ?defining expressions? in domain-
+specific corpora, and to detect the semantic rela-
+tions they involve between their main terms. We
+use lexico-syntactic markers and patterns to detect
+at the same time both a definition and its main se-
+mantic relation. 46 markers and 74 patterns have
+been designed and tuned on a first corpus in the field
+of anthropology. We report on their evaluation on a
+second corpus in the field of dietetics, where they
+obtained 4% to 36% recall and from 61 to 66% pre-
+cision, and discuss the relative accuracy of different
+subclasses of markers for this task.
+1 

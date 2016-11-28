@@ -1,0 +1,25 @@
+
+Distance metric learning from high (thou-
+sands or more) dimensional data with hun-
+dreds or thousands of classes is intractable but
+in NLP and IR, high dimensionality is usu-
+ally required to represent data points, such
+as in modeling semantic similarity. This pa-
+per presents algorithms to scale up learning
+of a Mahalanobis distance metric from a large
+data graph in a high dimensional space. Our
+novel contributions include random projection
+that reduces dimensionality and a new objec-
+tive function that regularizes intra-class and
+inter-class distances to handle a large number
+of classes. We show that the new objective
+function is convex and can be efficiently op-
+timized by a stochastic-batch subgradient de-
+scent method. We applied our algorithm to
+two different domains; semantic similarity of
+documents collected from the Web, and phe-
+notype descriptions in genomic data. Exper-
+iments show that our algorithm can handle
+the high-dimensional big data and outperform
+competing approximations in both domains.
+1 

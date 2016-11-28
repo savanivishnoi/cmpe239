@@ -1,0 +1,20 @@
+
+Rather than creating and storing thou-
+sands of paraphrase examples, para-
+phrase templates have strong 
+representation capacity and can be used
+to generate many paraphrase examples.
+This paper describes a new template
+representation and generalization
+method. Combing a semantic diction-
+ary, it uses multiple semantic codes to
+represent a paraphrase template. Using
+an existing search engine to extend the
+word clusters and generalize the exam-
+ples.  We also design three metrics to
+measure our generalized templates. The 
+experimental results show that the rep-
+resentation method is reasonable and 
+the generalized templates have a higher 
+precision and coverage.
+1 

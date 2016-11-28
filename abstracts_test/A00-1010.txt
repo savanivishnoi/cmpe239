@@ -1,0 +1,14 @@
+ 
+We describe Talk'n'Travel, a spoken 
+dialogue language system for making air 
+travel plans over the telephone. 
+Talk'n'Travel is a fully conversational, 
+mixed-initiative system that allows the 
+user to specify the constraints on his travel 
+plan in arbitrary order, ask questions, etc., 
+in general spoken English. The system 
+operates according to a plan-based agenda 
+mechanism, rather than a finite state 
+network, and attempts to negotiate with 
+the user when not all of his constraints can 
+be met. 

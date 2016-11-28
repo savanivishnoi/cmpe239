@@ -1,0 +1,21 @@
+
+This paper describes the WSD system devel-
+oped for our participation to the SemEval-1.
+It combines various methods by means of a
+fuzzy Borda voting. The fuzzy Borda vote-
+counting scheme is one of the best known
+methods in the field of collective decision
+making. In our system the different disam-
+biguation methods are considered as experts
+that give a preference ranking for the senses
+a word can be assigned. Then the prefer-
+ences are evaluated using the fuzzy Borda
+scheme in order to select the best sense. The
+methods we considered are the sense fre-
+quency probability calculated over SemCor,
+the Conceptual Density calculated over both
+hyperonyms and meronyms hyerarchies in
+WordNet, the extended Lesk by Banerjee
+and Pedersen, and finally a method based on
+WordNet domains.
+1 

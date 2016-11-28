@@ -1,0 +1,26 @@
+
+For millions of people in less resourced re-
+gions of the world, text messages (SMS) pro-
+vide the only regular contact with their doc-
+tor. Classifying messages by medical labels
+supports rapid responses to emergencies, the
+early identification of epidemics and everyday
+administration, but challenges include text-
+brevity, rich morphology, phonological vari-
+ation, and limited training data. We present
+a novel system that addresses these, working
+with a clinic in rural Malawi and texts in the
+Chichewa language. We show that model-
+ing morphological and phonological variation
+leads to a substantial average gain of F=0.206
+and an error reduction of up to 63.8% for spe-
+cific labels, relative to a baseline system opti-
+mized over word-sequences. By comparison,
+there is no significant gain when applying the
+same system to the English translations of the
+same texts/labels, emphasizing the need for
+subword modeling in many languages. Lan-
+guage independent morphological models per-
+form as accurately as language specific mod-
+els, indicating a broad deployment potential.
+1 

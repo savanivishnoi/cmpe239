@@ -1,0 +1,24 @@
+
+This paper describes a parser which gen-
+erates parse trees with empty elements in
+which traces and fillers are co-indexed.
+The parser is an unlexicalized PCFG
+parser which is guaranteed to return the
+most probable parse. The grammar is
+extracted from a version of the PENN
+treebank which was automatically anno-
+tated with features in the style of Klein
+and Manning (2003). The annotation in-
+cludes GPSG-style slash features which
+link traces and fillers, and other features
+which improve the general parsing accu-
+racy. In an evaluation on the PENN tree-
+bank (Marcus et al, 1993), the parser
+outperformed other unlexicalized PCFG
+parsers in terms of labeled bracketing f-
+score. Its results for the empty cate-
+gory prediction task and the trace-filler co-
+indexation task exceed all previously re-
+ported results with 84.1% and 77.4% f-
+score, respectively.
+1 

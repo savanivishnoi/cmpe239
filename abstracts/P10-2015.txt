@@ -1,0 +1,12 @@
+
+This paper introduces mNCD, a method
+for automatic evaluation of machine trans-
+lations. The measure is based on nor-
+malized compression distance (NCD), a
+general information theoretic measure of
+string similarity, and flexible word match-
+ing provided by stemming and synonyms.
+The mNCD measure outperforms NCD in
+system-level correlation to human judg-
+ments in English.
+1 

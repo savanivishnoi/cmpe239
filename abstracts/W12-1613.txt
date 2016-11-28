@@ -1,0 +1,23 @@
+
+A robust system that understands route instructions
+should be able to process instructions generated nat-
+urally by humans. Also desirable would be the abil-
+ity to handle repairs and other modifications to exist-
+ing instructions. To this end, we collected a corpus
+of spoken instructions (and modified instructions)
+produced by subjects provided with an origin and
+a destination. We found that instructions could be
+classified into four categories, depending on their
+intent such as imperative, feedback, or meta com-
+ment. We asked a different set of subjects to fol-
+low these instructions to determine the usefulness
+and comprehensibility of individual instructions. Fi-
+nally, we constructed a semantic grammar and evalu-
+ated its coverage. To determine whether instruction-
+giving forms a predictable sub-language, we tested
+the grammar on three corpora collected by others
+and determined that this was largely the case. Our
+work suggests that predictable sub-languages may
+exist for well-defined tasks.
+Index Terms: Robot Navigation, Spoken Instructions
+1 

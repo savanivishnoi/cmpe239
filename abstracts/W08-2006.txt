@@ -1,0 +1,23 @@
+
+Several language processing tasks can be
+inherently represented by a weighted graph
+where the weights are interpreted as a
+measure of relatedness between two ver-
+tices. Measuring similarity between ar-
+bitary pairs of vertices is essential in solv-
+ing several language processing problems
+on these datasets. Random walk based
+measures perform better than other path
+based measures like shortest-path. We
+evaluate several random walk measures
+and propose a new measure based on com-
+mute time. We use the psuedo inverse
+of the Laplacian to derive estimates for
+commute times in graphs. Further, we
+show that this pseudo inverse based mea-
+sure could be improved by discarding the
+least significant eigenvectors, correspond-
+ing to the noise in the graph construction
+process, using singular value decomposi-
+tion.
+1 

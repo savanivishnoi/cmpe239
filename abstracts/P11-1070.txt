@@ -1,0 +1,20 @@
+
+Counts from large corpora (like the web) can
+be powerful syntactic cues. Past work has
+used web counts to help resolve isolated am-
+biguities, such as binary noun-verb PP attach-
+ments and noun compound bracketings. In
+this work, we first present a method for gener-
+ating web count features that address the full
+range of syntactic attachments. These fea-
+tures encode both surface evidence of lexi-
+cal affinities as well as paraphrase-based cues
+to syntactic structure. We then integrate our
+features into full-scale dependency and con-
+stituent parsers. We show relative error re-
+ductions of 7.0% over the second-order depen-
+dency parser of McDonald and Pereira (2006),
+9.2% over the constituent parser of Petrov et
+al. (2006), and 3.4% over a non-local con-
+stituent reranker.
+1 

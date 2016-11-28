@@ -1,0 +1,32 @@
+
+It is not clear a priori how well parsers
+trained on the Penn Treebank will parse
+significantly different corpora without
+retraining. We carried out a compet-
+itive evaluation of three leading tree-
+bank parsers on an annotated corpus
+from the human molecular biology do-
+main, and on an extract from the Penn
+Treebank for comparison, performing a
+detailed analysis of the kinds of errors
+each parser made, along with a quan-
+titative comparison of syntax usage be-
+tween the two corpora. Our results sug-
+gest that these tools are becoming some-
+what over-specialised on their training
+domain at the expense of portability, but
+also indicate that some of the errors en-
+countered are of doubtful importance for
+information extraction tasks.
+Furthermore, our inital experiments
+with unsupervised parse combination
+techniques showed that integrating the
+output of several parsers can ameliorate
+some of the performance problems they
+encounter on unfamiliar text, providing
+accuracy and coverage improvements,
+and a novel measure of trustworthiness.
+Supplementary materials are available
+at http://textmining.cryst.bbk.
+ac.uk/acl05/.
+1 

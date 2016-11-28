@@ -1,0 +1,10 @@
+
+We present a discrete optimization model based on
+a linear programming formulation as an alternative
+to the cascade of classiers implemented in many
+language processing systems. Since NLP tasks are
+correlated with one another, sequential processing
+does not guarantee optimal solutions. We apply our
+model in an NLG application and show that it per-
+forms better than a pipeline-based system.
+1 

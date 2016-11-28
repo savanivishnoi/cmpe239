@@ -1,0 +1,24 @@
+
+This paper presents an unsupervised
+Chinese Part-of-Speech (POS) tagging
+model based on the first-order HMM.
+Unlike the conventional HMM, the num-
+ber of hidden states is not fixed and will
+be increased to fit the training data. In
+favor of sparse distribution, the Dirich-
+let priors are introduced with variational
+inference method. To reduce the emis-
+sion variables, words are represented by
+their contexts and clustered based on the
+distributional similarities between con-
+texts. Experiment results show the out-
+put state sequence of HMM are highly
+correlated to the latent annotations of
+gold POS tags, in context of clustering
+similarity measures. The other exper-
+iments on a real application, unsuper-
+vised dependency parsing, reveal that the
+output sequence can replace the manu-
+ally annotated tags without loss of accu-
+racies.
+1 

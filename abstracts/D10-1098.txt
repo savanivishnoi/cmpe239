@@ -1,0 +1,29 @@
+
+Named-entity recognition (NER) is an impor-
+tant task required in a wide variety of ap-
+plications. While rule-based systems are ap-
+pealing due to their well-known ?explainabil-
+ity,? most, if not all, state-of-the-art results
+for NER tasks are based on machine learning
+techniques. Motivated by these results, we ex-
+plore the following natural question in this pa-
+per: Are rule-based systems still a viable ap-
+proach to named-entity recognition? Specif-
+ically, we have designed and implemented
+a high-level language NERL on top of Sys-
+temT, a general-purpose algebraic informa-
+tion extraction system. NERL is tuned to the
+needs of NER tasks and simplifies the pro-
+cess of building, understanding, and customiz-
+ing complex rule-based named-entity annota-
+tors. We show that these customized annota-
+tors match or outperform the best published
+results achieved with machine learning tech-
+niques. These results confirm that we can
+reap the benefits of rule-based extractors? ex-
+plainability without sacrificing accuracy. We
+conclude by discussing lessons learned while
+building and customizing complex rule-based
+annotators and outlining several research di-
+rections towards facilitating rule development.
+1 

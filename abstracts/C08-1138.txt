@@ -1,0 +1,21 @@
+ 
+This paper presents a general platform, 
+namely synchronous tree sequence sub-
+stitution grammar (STSSG), for the 
+grammar comparison study in Transla-
+tional Equivalence Modeling (TEM) and 
+Statistical Machine Translation (SMT). 
+Under the STSSG platform, we compare 
+the expressive abilities of various gram-
+mars through synchronous parsing and a 
+real translation platform on a variety of 
+Chinese-English bilingual corpora. Ex-
+perimental results show that the STSSG 
+is able to better explain the data in paral-
+lel corpora than other grammars. Our 
+study further finds that the complexity of 
+structure divergence is much higher than 
+suggested in literature, which imposes a 
+big challenge to syntactic transformation-
+based SMT. 
+1 

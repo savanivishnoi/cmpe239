@@ -1,0 +1,23 @@
+
+A key challenge for dialogue-based intelligent
+tutoring systems lies in selecting follow-up
+questions that are not only context relevant
+but also encourage self-expression and stimu-
+late learning. This paper presents an approach
+to ranking candidate questions for a given di-
+alogue context and introduces an evaluation
+framework for this task. We learn to rank us-
+ing judgments collected from expert human
+tutors, and we show that adding features de-
+rived from a rich, multi-layer dialogue act
+representation improves system performance
+over baseline lexical and syntactic features to
+a level in agreement with the judges. The ex-
+perimental results highlight the important fac-
+tors in modeling the questioning process. This
+work provides a framework for future work
+in automatic question generation and it rep-
+resents a step toward the larger goal of di-
+rectly learning tutorial dialogue policies di-
+rectly from human examples.
+1 

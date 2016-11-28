@@ -1,0 +1,20 @@
+
+We provide a detailed comparison of
+strategies for implementing medium-to-
+low frequency phenomena such as Ger-
+man adverbial participles in a broad-
+coverage, rule-based parsing system. We
+show that allowing for general adverb con-
+version of participles in the German LFG
+grammar seriously affects its overall per-
+formance, due to increased spurious am-
+biguity. As a solution, we present a
+corpus-based cross-lingual induction tech-
+nique that detects adverbially used par-
+ticiples in parallel text. In a grammar-
+based evaluation, we show that the auto-
+matically induced resource appropriately
+restricts the adverb conversion to a limited
+class of participles, and improves parsing
+quantitatively as well as qualitatively.
+1 

@@ -1,0 +1,443 @@
+Instance (13) 
+Interpretation (2)--Evaluation (3) 
+S-mmary (4) 
+Restatement (9)/Conclusion (7) 
+_Location (6) 
+. ~T ime (7) 
+Circumstance (4)E=---Means (4) 
+/ ~ Manner (2) 
+/ ~ Ins t rument  (1) 
+Enhancement ~Background (4) (3) (1 )~ ParallelEvent 
+~Solutionhood (1),,, Answer (1) 
+SeqTemporal (6) 
+Sequence (6 )<SeqSpat ia l  (I) 
+r SeqOrdinal (3) 
+VolCause (I) 
+C/RVo l~Vo lResu l t  (I) 
+Cause/Result (14)~ NonVolCause (I) 
+C/RN?nV? l~NonVolResul t (2  ) 
+Purpose (6) 
+Enablement (9) 
+ension (I', 
+/Condit ion (7) 
+GeneralCondition Exception (2) 
+Equative (5)  Contrast (14)~,Antithesis (6) Comparative Otherwise (7) 
+Comparison (3) , Analogy (4) 
+Evidence (7) Proof (I) 
+Support (2<Jus t i f i ca t ion  (3) 
+Motivation (5) 
+Concession (6) 
+Qualification (1) 
+/Conjunct ion (5) 
+gicalRelation I --Disjunction (2) 
+131 
+by their init ials and l isted subsequently).  In the 
+parenthesized comments,  S stands for speaker and 
+H for hearer. The part icu lar  elat ions defined by 
+each researcher and their respective classif ications 
+are provided in the full version of this paper.  
+Elaborat ion: MT, JH, JG, MP, GH, BF, KD, DSN, QG, 
+MH 
+Identification: KM, JG, HS, MP, KD, AC, MM, QG, ST, 
+RJ 
+ElabObject: 
+ObjectAttribute: MT, HI, HL, KM, LP, JG, MP, MM, MH 
+ObjectFunction: HL, KM, MP 
+ElabPart: 
+SetMember: MT, KM, JG 
+ProcessStep: MT, HP, HI, MP, DL 
+WholePart: MT, HI, HL, KM, JG, MP, AC, DL 
+ElabGenerality: 
+GeneralSpecific: MT, HP, JH, KM, JG, TNR, HS, MP, KD, 
+AC, NS, RC, QG, MH 
+AbstractInstance: MT, HP, JH, KM, LP, TNR, JG, HS, 
+MP, MM, RC, QG, MH 
+Interpretation: MT, KD 
+Evaluation (S opinion): MT, KD, JH 
+Restatement: MT, KM, KD, DSN, NS, RR, RC, QG, MH 
+Summary (short restatement): MT, DSN, RC, QG 
+Conclusion (interp at end): KM, JG, HS, KD, RR, RC, QG 
+Enhancement: MH 
+Circumstance: MT, JG, DSN, QG 
+Location: HI, HL, KD, QG, RJ, MH 
+Time: HI, HL, TNR, KD, QG, RJ, MH 
+Means: MP, QG, ST, MH 
+Manner: QG, MH 
+Instrument: QG 
+ParalleIEvent: KD, QG, RJ 
+Background: MT, JH, HL, MP  
+Sohitionhood (general prob): MT  
+Answer (numeric prob): KM 
+Extension: MH 
+Sequence: MT, JH, LP, KD, DSN, RC 
+SeqTemporah HI, HP, LP, DL, NS, MH 
+SeqSpatiah NS 
+SeqOrdinah LP, DSN, QG 
+Cause/Result: JH, KM, TNR, JG, GH, KD, LP, RL, RR, 
+RC, QG, R J, SA, MH 
+C/RVol (volitional): 
+VolCause: MT 
+VolResult: MT 
+C/RNonvol (nonvolitionM): 
+NonVolCause: MT 
+NonVolResult: MT, MP 
+Purpose: MT, HP, KD, QG, SA, MH 
+Enablement: MT, JH, HL, TNR, MP, KD, DSN, DL, SA 
+GeneralCondition: 
+Condition: MT, JG, LP, RL, DL, RC, MH 
+Exception: RL, MH 
+Comparative: 
+Equative (like, while): JG, TNR, DL, QG, MH 
+Contrast: MT, JH, LP, IR, TNR, MP, RL, GH, BF, KD, 
+NS, DSN, RC, QG 
+Antithesis: MT, DSN, JG, HS, KM, QG 
+Otherwise (if then else): MT, LP, NS, RL, RC, QG, MH 
+Comparison: KM, HS, MH 
+Analogy: KM, JG, MP, RR 
+Exhortation: 
+Support: RR, RC 
+Evidence (support claim): MT, KM, JG, MP, BF, KD, ST 
+Proof: MP 
+Justification (for S act): MT, IR, DL 
+Motivation (for H act): MT, MP, DSN, DL, MM 
+Concession: MT, DSN, KD, RR, QG, MH 
+Qualification: ST 
+LogicalRelation: 
+Conjunction (Join, and): MT, DSN, RC, QG, MH 
+Disjunction: QG, MH 
+(Note: Some of the relations of QG and RJ are intra- 
+clausal.) 
+The above init ia ls refer to the fol lowing authors:  
+AC: Alison Cawsey \[Cawsey 89\] 
+BF: Barbara Fox \[Fox 84\] 
+DL: Diane Litman \[Litman 85\] 
+DSN: Donia Scott et ai. \[De Souza et al 89\] 
+GH: Graeme Hirst \[Hirst 81\] 
+HI: Eduard Hovy, II domain \[Hovy 88c\] 
+HL: Eduard Hovy, LILOG domain \[Hovy 89\] 
+HP: Eduard Hovy, PEA domain \[Hovy 88a\] 
+HS: Shepherd \[Shepherd 26\] 
+IR: Ivan Rankin \[Ranldn 89\] 
+JG: Joseph Grimes \[Grimes 75\] 
+JH: Jerry Hobbs \[Hobbs 78, Hobbs 79, Hobbs 82\] 
+KD: Kathleen Dahlgren \[Dahlgren 88\], pp. 178-184 
+KM: Kathleen McKeown \[McKeown 85\] 
+LP: Livia Polanyi \[Polanyi 88\] 
+MH: Michael Halliday \[Halliday 85\], chapter 7
+MM: Mark Maybttry \[Maybury 89\] 
+MP: Johanna Moore and Cdcile Paris \[personal communi- 
+cation, 1989\], 
+\[Moore & Swartout 88, Paris 88, Moore & Paris 89\] 
+MT: Bill Mann and Sand_ra Thompson 
+\[Mann & Thompson 86, Mann & Thompson 88\] 
+NS: Nathalie Simonin \[Simonin 88\] 
+QG: Quirk and Greenbaum, pp. 284-296 (mainly) 
+\[Quirk & Greenbaum 73\] 
+RC: Robin Cohen \[Cohen 83\], appendix II
+R J: Ray Jackendoff \[Jackendoff83\], pp. 166-202 
+RL: Robert Longacre \[Longacre 76\] 
+RR: Rachel Reichman \[Reiehman 78\], chs. 2,3 
+SA: Roger Schank and Robert Abelson, pp. 30-32 
+\[Schank & Abelson 77\] 
+ST: Stephen Touhnin \[Toulmin 58\], pp. 94-113 
+TNR: Sergei Nirenburg et al \[Tucker et al 86\] 
+Some Evidence for the Hierarchy 
+Structure 
+Some nonconclusive vidence supports  parts  of the 
+hierarchy, though further s tudy must  be done to 
+examine all the relat ions. This  evidence is based 
+132 
+on sensitivity to generalization evinced by many 
+cue words and phrases. For example, the cue word 
+"then" is associated with SEQUENCE, and can be 
+used appropriately to indicate its subordinates SE- 
+QTEMPORAL and SEQSPATIAL, as in: 
+SEQTEMPORAL: First you play the long 
+note, then the short ones 
+SEQSPATIAL: On the wall I have a red 
+picture, then a blue one 
+In contrast, the cue words for the two subrelations 
+are specific and cannot be interchanged without in- 
+troducing the associated connotation: 
+SEQTEMPORAL: After the 10ng note you 
+play the short ones 
+SEQSPATIAL: Beside the red picture is the 
+blue one 
+Thus the relation associated with "then" subsumes 
+the relations associated with "after" and "beside". 
+Similar observations hold for a number of the rela- 
+tions (e.g., SOLUTIONHOOD and RESTATEMENT). 
+Preliminary investigation indicates possible ad- 
+ditional evidence in the syntactic realization of 
+some relations: When a relation typically gives rise 
+to a dependent clause, then its subrelations tend to 
+do so as well. More study must be done by a trained 
+linguist. 
+Role of Intent ional  Relat ions 
+What then of the two relations DOMINATES and 
+SATISFACTIONPRECEDES? They do not appear 
+anywhere in the hierarchy in Figure 2. 
+The answer is that these two relations express 
+information that is independent of the rhetori- 
+cal/semantic meanings of the relations in the tax- 
+onomy and only apply in discourses with inten- 
+tional, plan-like nature. They derive from early 
+work on a highly plan-oriented domain \[Grosz 81\], 
+in which plan steps' preconditions led to underly- 
+ing precedence orderings of plan steps and satis- 
+faction of subgoals which were dominated by su- 
+pergoals. However, not all discourse is plan-like; 
+a large proportion of everyday close discourse be- 
+tween people achieves goals for which, it can be 
+argued, no plans can be formulated (for some such 
+goals see \[Hovy 88b\]): the banter between friends 
+which serves to strengthen i terpersonal bonds, the 
+discussions in supermarket lines, the language and 
+presentation styles employed in order to be friendly 
+or attractive, etc. Such communications also ex- 
+hibit internal structure, and also employ the rhetor- 
+ical/semantic nterclausal relations. 
+However, it is not clear how to generalize DOMI- 
+NATES and SATISFACTIONPRECEDES to cover such 
+cases as well. One possible generalization is to use 
+the general relations HYPOTAXIS and PARATAXIS 
+(that is, asymmetrical and symmetrical relation- 
+ships: 
+HYPO: Joe left because Sue worked (5 
+Sue worked because Joe left) 
+PARA: He shouted when the horse 
+jumped (= the horse jumped when he 
+shouted) 
+respectively). But this does not work because both 
+DOMINATES and SATISFACTIONPRECEDES are by 
+their natures asymmetrical. Another possible gen- 
+eralization is to use the two syntactic relations 
+MULTIVARIATE and UNIVARIATE (that is, contain- 
+ing an embedded syntactic type recursion (a gram- 
+matical rank shift) ornot ,  as in: 
+MULTI: Sue's working caused \[Joe to 
+leave\] (S embedded in S) 
+UNI: Joe left because Sue worked (two 
+coequal Ss) 
+respectively). This does not work either because 
+some DOMINATES relations hold between syntacti- 
+cally independent complete sentences, so no syn- 
+tactic embedding occurs. 
+Does this mean that the two intentional relations 
+should simply be added into the hierarchy? No, 
+because they can be realized in the discourse by 
+various rhetorical/semantic relations; for example, 
+SATISFACTIONPREcEDEs can be expressed by SE- 
+QUENCE, as in: 
+First boil the water, then add the rice, and 
+then stir 
+or by CAUSE, as in: 
+The sun heats the desert, which causes the 
+air to rise, which causes a breeze 
+Thus, in the absence of other candidate gener- 
+alizations, one can conclude that the relations 
+DOMINATES and SATISFACTIONPRECEDES are in- 
+dependent of the rhetorical/semantic axonomiza- 
+tion and provide an additional dimension of infor- 
+mation, used for those discourses that exhibit an 
+appropriately intentional plan-like nature. 
+Some Object ions Answered 
+A number of objections may be raised to the tax- 
+onomization presented here. I attempt o respond 
+to some of the more serious ones: 
+133 
+Object ion  1. Does it make sense at all to or- 
+ganize into a single taxonomy such disparate n- 
+tities? After all, RESTATEMENT and CONCESSION 
+are primarily rhetorical while, say, PURPOSE and 
+PROCESSSTEP are  primarily semantic. 
+Why not? As a result of this study and previ- 
+ous work, I believe that "rhetorical" relations are 
+simply the crudest or most generalized "semantic" 
+ones; in other words, that no purely rhetorical or 
+purely semantic relations exist. Some relations, 
+typically those higher in the hierarchy, certainly 
+fulfill a more rhetorical function (i.e., provide more 
+information about the argumentational structure of 
+the discourse) than a semantic function. But not 
+even the topmost relations are entirely devoid of se- 
+mantic meaning. Since all the relations have some 
+semantic import (regardless of their structural im- 
+port), this objection to their being arranged into a 
+single taxonomy for the purposes of discourse struc- 
+ture description is groundless 1.
+Ob jec t ion  2. What guarantee xists that the 
+relations given in the taxonomy are indeed the 
+"right" ones? Or the only ones? It is not diffi- 
+cult to come up with relations that differ in some 
+way from those in the taxonomy and that do not 
+neatly fall under a single item in it. 
+This is a standard objection to any set of terms 
+proposed to fulfill some function. The standard re- 
+sponse holds here too: there is no guarantee that 
+these are the "right" relations, whatever "right" 
+may mean. Similarly, there is no guarantee that 
+the terms \[VERB NOUN ADJECTIVE ADVERB . . .  \] 
+are the "right" and "only" terms for types of words; 
+they have simply been canonized by long use and 
+much experience. There is enough evidence from 
+actual attempts at constructing working systems 
+(text planners and discourse analyzers) that rela- 
+tions at this level of interclausal representation are 
+required to guide inference and planning processes. 
+Without such relations we simply cannot construct 
+an adequate account of the structure of a discourse 
+1This position is in contradistinction with that of Sys- 
+temic Linguistics, which holds that semantic relations are of 
+the type Ideational while rhetorical relations are of the type 
+Textual. Since both kinds of relations erve the same func- 
+tion, namely to bind together different pieces of knowledge, 
+and certain relations operate both interclausally and intra- 
+clausally, there  seems to me no reason to differentiate hem 
+into two dif ferent types. I categorize discourse structure re- 
+lations with  those  called Ideational, and group separately 
+all those phenomena that reflect the characteristics of the 
+communicative s tting: referentially available artifacts and 
+concepts, the nature of the medium (telephone, paper, con- 
+versation, etc.), and the physical and social context (back- 
+ground noise, available time, etc.). 
+nor plan an adequate multisentence paragraph by 
+computer. 
+The particular relations proposed here are cer- 
+tainly open to question, and their strongest support 
+is that they are the amalgamation and synthesis of 
+the efforts and proposed terms of over 25 different 
+investigators from different fields, as noted previ- 
+ously. In addition, there is always the possibility 
+that new interclausal relations will be needed that 
+cannot in fact be subsumed under existing nodes 
+in the taxonomy. While not impossible, I believe 
+this is unlikely, based on my experience in compil- 
+ing the hierarchy: After the top three levels had 
+more or less been established halfway through this 
+study, only one new second-level relation - -  IDEN- 
+TIFICATION - -  had to be added. I expect hat when 
+new domains are investigated, the hierarchy will 
+grow primarily at the bottom, and that the ratio 
+of the number of relations added at one level to the 
+number of relations added at the next lower level, 
+averaged across all levels, will be well below 0.2. 
+Ob jec t ion  3. The taxonomy is unbounded to- 
+ward the bottom: it places one on the slippery 
+slope toward having to deal with the full complex- 
+ity of semantic meaning. Simply working on the 
+structure of discourse is difficult enough without 
+bringing in the complexity of semantic knowledge. 
+This is the the Parsimonious Position objection. 
+There is no reason to fear the complexity of an 
+unbounded set of terms, whether semantic or not, 
+as long as the terms are well-behaved and sub- 
+ject to a pattern of organization which makes them 
+manageable. A hierarchicalization of the terms in 
+which all the pertinent information about discour- 
+sal behavior is captured at the top (which is maxi- 
+mally general, bounded, and well-understood) and 
+not at the bottom (which permits unboundedness 
+and redundancy) presents no threat to computa- 
+tional processing. Each discourse relation simply 
+inherits from its ancestors all necessary process- 
+ing information, such as cue words and realization 
+constraints, adding its unique peculiarities, to be 
+used for inferring its discoursal role (in parsing) or 
+for planning out a discourse (in generation). In- 
+creasing differentiation of relations, continued un- 
+til the very finest nuances of meaning are sepa- 
+rately represented, need be pursued only to the 
+extent required for any given application. Thus 
+"unbounded" growth of semantic relations is not a 
+problem, as long as they can be subsumed under 
+existing nodes in the taxonomy. 
+Ob jec t ion  4. The hierarchy contains no explic- 
+itly structural relations, yet explicit signals of dis- 
+134 
+course structure are very common. Why are they 
+not included? 
+In fact, the relations people use to signal dis- 
+course structure (such as parallelism, say) are in- 
+cluded in the taxonomy. The most popular elation 
+(one that appeared as a separate relation in a num- 
+ber of the studies cited) is PARALLEL, which is in- 
+variably signalled using some set of SEQUENCE rela- 
+tions, often after having been explicitly introduced 
+by a separate clause. The fact that SEQUENCE 
+relations can be used to signal both semantic se- 
+quentiality and rhetorical structure is no reason for 
+alarm; if conditions hould arise in which the two 
+functions require different behavior, a more specific 
+relation subordinated to SEQUENCE, dedicated to 
+expressing purely rhetorical sequentiality (such as, 
+say, SEQSTRUCTURAL), can be created, though it 
+is likely that in the actual presentation, the rhetor- 
+ical sequence will usually follow some temporal or 
+spatial sequence in any case. 
+Conclusion 
+A rather gratifying result of the synthesis presented 
+here is that only 16 core relations, organized into 
+3 principal types, suffice to cover essentially all the 
+interclausal relations proposed by the sources. This 
+suggests that other relations not yet in the hierar- 
+chy are likely to be subtypes of relations already 
+in it, preserving the boundedness of the number of 
+relation types. The relations are rhetorical in na- 
+ture, becoming increasingly semantic as they be- 
+come more specific; the claim is that the rhetorical 
+relations are simply least delicate (i.e., most gen- 
+eral) semantic relations. 
+While some evidence is provided for the struc- 
+ture of the hierarchy, as well as for the claim that 
+the relations are independent of the goal-oriented 
+plan-based iscourse structure relations proposed 
+by \[Grosz & Sidner 86\], there is no claim that this 
+hierarchy is complete or correct in all details. It 
+is certainly open to elaboration, enhancement, and 
+extension! The hope is that it will serve the com- 
+munity by proving to be a common starting point 
+and straw man for future work on discourse struc- 
+ture. 
+Acknowledgments 
+Thanks to Christian Matthiessen, John Bateman, 
+Robin Cohen, Kathleen McCoy, Kathleen McKe- 
+own, Johanna Moore, Mick O'Donnell, and C4cile 
+Paris, and to everyone who sent me their relations. 
+I am still collecting relations and will continue to 
+update this hierarchy. 
+References 
+\[Aristotle 54\] Aristotle. The Rhetoric. In The Rhetoric 
+and the Poetics of Aristotle, W. Rhys Roberts 
+(trans), Random House, New York, 1954. 
+\[Cawsey 89\] Cawsey, A. Generating Communicative 
+Discourse. Presented at the Second European Work- 
+shop on Language Generation, Edinburgh, 1989. In 
+Mellish, C., Dale, R., and Zock, M. (eds), selected 
+papers from the workshop, in prep. 
+\[Cohen 83\] Cohen, R. A Computational Model for the 
+Analysis of Arguments. Technical Report CSRG-151, 
+University of Toronto, Toronto, 1983. 
+\[Dahlgren 88\] Dahlgren, K. Naive Semantics for Nat- 
+ural Language Understanding. Kluwer Academic 
+Press, Boston, 1988. 
+\[De Souza et al 89\] De Souza, C.S., Scott, D.R. 
+and Nunes, M.G.V. Enhancing Text Quality 
+in a Question-Answering System. Unpublished 
+manuscript, Pontificia Universidade Cat61ica de Rio 
+de Janeiro, 1989. 
+\[Fox 84\] Fox, B. Discourse Structure and Anaphora in 
+Written and Conversational English. Ph.D. disserta- 
+tion, UCLA, Los Angeles, 1984. 
+\[Grimes 75\] Grimes, J.E. The Thread of Discourse. 
+Mouton, The Hague, 1975. 
+\[Grosz 81\] Grosz, B.J. Focusing and Description in 
+Natural Language Dialogues. In Joshi, A., Webber, 
+B., and Sag, I. (eds) Elements of Discourse Under- 
+standing. Cambridge University Press, Cambridge, 
+1981. 
+\[Grosz & Sidner 86\] Grosz, B.J. and Sidner, C.L. At- 
+tention, Intentions, and the Structure of Discourse. 
+In Journal o\] Computational Linguistics 12(3), 1986 
+(175-204). 
+\[Halliday 85\] Halliday, M.A.K. An 

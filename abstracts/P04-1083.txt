@@ -1,0 +1,12 @@
+
+In an ordinary syntactic parser, the input is a string,
+and the grammar ranges over strings. This paper
+explores generalizations of ordinary parsing algo-
+rithms that allow the input to consist of string tu-
+ples and/or the grammar to range over string tu-
+ples. Such algorithms can infer the synchronous
+structures hidden in parallel texts. It turns out that
+these generalized parsers can do most of the work
+required to train and apply a syntax-aware statisti-
+cal machine translation system.
+1 

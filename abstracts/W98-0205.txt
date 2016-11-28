@@ -1,0 +1,37 @@
+ 
+Organizations that make use of large 
+amounts of multimedia material 
+(especially images and video) require 
+easy access to such information. Recent 
+developments in computer hardware and 
+algorithm design have made possible 
+content indexing of digital video 
+information and efficient display of 3D 
+data representations. This paper 
+describes collaborative work between 
+Boeing Applied Research & Technology 
+(AR&T), Carnegie Mellon University 
+(CMU), and the Battelle Pacific 
+Northwest National Laboratories 
+(PNNL). to integrate media indexing 
+with computer visualization to achieve 
+effective content-based access to video 
+information. Text metadata, representing 
+video content, was extracted from the 
+CMU Informedia system, processed by 
+AR&T's text analysis software, and 
+presented to users via PNNL's Starlight 
+3D visualization system. This approach 
+shows how to make multimedia 
+information accessible to a text-based 
+visualization system, facilitating aglobal 
+view of large collections of such data. 
+We evaluated our approach by making 
+several experimental queries against a 
+library of eight hours of video 
+segmented into several hundred "video 
+paragraphs." We conclude that search 
+performance of Inforrnedia was 
+enhanced in terms of ease of exploration 
+by the integration with Starlight. 
+33 

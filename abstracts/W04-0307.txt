@@ -1,0 +1,16 @@
+
+CDG represents a sentence?s grammatical structure
+as assignments of dependency relations to func-
+tional variables associated with each word in the
+sentence. In this paper, we describe a statistical
+CDG (SCDG) parser that performs parsing incre-
+mentally and evaluate it on the Wall Street Jour-
+nal Penn Treebank. Using a tight integration of
+multiple knowledge sources, together with distance
+modeling and synergistic dependencies, this parser
+achieves a parsing accuracy comparable to several
+state-of-the-art context-free grammar (CFG) based
+statistical parsers using a dependency-based eval-
+uation metric. Factors contributing to the SCDG
+parser?s performance are analyzed.
+1 

@@ -1,0 +1,16 @@
+
+Summarising georeferenced (can be iden-
+tified according to it?s location) data in
+natural language is challenging because it
+requires linking events describing its non-
+geographic attributes to their underlying
+geography. This mapping is not straightfor-
+ward as often the only explicit geographic
+information such data contains is latitude
+and longitude. In this paper we present an
+approach to generating textual summaries
+of georeferenced data based on spatial ref-
+erence frames. This approach has been im-
+plemented in a data-to-text system we have
+deployed in the weather forecasting domain.
+1 

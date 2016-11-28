@@ -1,0 +1,17 @@
+
+We describe clustering experiments for
+cross-document coreference for the first
+Web People Search Evaluation. In our ex-
+periments we apply agglomerative cluster-
+ing to group together documents potentially
+referring to the same individual. The algo-
+rithm is informed by the results of two dif-
+ferent summarization strategies and an off-
+the-shelf named entity recognition compo-
+nent. We present different configurations of
+the system and show the potential of the ap-
+plied techniques. We also present an analy-
+sis of the impact that semantic information
+and text summarization have in the cluster-
+ing process.
+1 

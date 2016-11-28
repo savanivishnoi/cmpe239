@@ -1,0 +1,13 @@
+
+This paper describes a language independent
+method for alignment of parallel texts that
+makes use of homograph tokens for each
+pair of languages. In order to filter out
+tokens that may cause misalignment, we use
+confidence bands of linear regression lines
+instead of heuristics which are not theoreti-
+cally supported. This method was originally
+inspired on work done by Pascale Fung and
+Kathleen McKeown, and Melamed, provid-
+ing the statistical support those authors
+could not claim.

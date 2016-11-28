@@ -1,0 +1,19 @@
+
+In this paper, we explore a streaming al-
+gorithm paradigm to handle large amounts
+of data for NLP problems. We present an
+efficient low-memory method for construct-
+ing high-order approximate n-gram frequency
+counts. The method is based on a determinis-
+tic streaming algorithm which efficiently com-
+putes approximate frequency counts over a
+stream of data while employing a small mem-
+ory footprint. We show that this method eas-
+ily scales to billion-word monolingual corpora
+using a conventional (8 GB RAM) desktop
+machine. Statistical machine translation ex-
+perimental results corroborate that the result-
+ing high-n approximate small language model
+is as effective as models obtained from other
+count pruning methods.
+1 

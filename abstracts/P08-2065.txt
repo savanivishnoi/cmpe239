@@ -1,0 +1,15 @@
+ 
+This paper addresses a new task in sentiment 
+classification, called multi-domain sentiment 
+classification, that aims to improve perform-
+ance through fusing training data from multi-
+ple domains. To achieve this, we propose two 
+approaches of fusion, feature-level and classi-
+fier-level, to use training data from multiple 
+domains simultaneously. Experimental stud-
+ies show that multi-domain sentiment classi-
+fication using the classifier-level approach 
+performs much better than single domain 
+classification (using the training data indi-
+vidually). 
+1 

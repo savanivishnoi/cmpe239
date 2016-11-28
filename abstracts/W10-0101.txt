@@ -1,0 +1,19 @@
+
+Active learning is a promising method to re-
+duce human?s effort for data annotation in dif-
+ferent NLP applications. Since it is an itera-
+tive task, it should be stopped at some point
+which is optimum or near-optimum. In this
+paper we propose a novel stopping criterion
+for active learning of frame assignment based
+on the variability of the classifier?s confidence
+score on the unlabeled data. The important ad-
+vantage of this criterion is that we rely only on
+the unlabeled data to stop the data annotation
+process; as a result there are no requirements
+for the gold standard data and testing the clas-
+sifier?s performance in each iteration. Our
+experiments show that the proposed method
+achieves 93.67% of the classifier maximum
+performance.
+1 

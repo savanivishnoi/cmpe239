@@ -1,0 +1,24 @@
+
+We propose using large-scale clustering of de-
+pendency relations between verbs and multi-
+word nouns (MNs) to construct a gazetteer for
+named entity recognition (NER). Since depen-
+dency relations capture the semantics of MNs
+well, the MN clusters constructed by using
+dependency relations should serve as a good
+gazetteer. However, the high level of computa-
+tional cost has prevented the use of clustering
+for constructing gazetteers. We parallelized
+a clustering algorithm based on expectation-
+maximization (EM) and thus enabled the con-
+struction of large-scale MN clusters. We
+demonstrated with the IREX dataset for the
+Japanese NER that using the constructed clus-
+ters as a gazetteer (cluster gazetteer) is a effec-
+tive way of improving the accuracy of NER.
+Moreover, we demonstrate that the combina-
+tion of the cluster gazetteer and a gazetteer ex-
+tracted from Wikipedia, which is also useful
+for NER, can further improve the accuracy in
+several cases.
+1 

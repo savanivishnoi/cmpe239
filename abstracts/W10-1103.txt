@@ -1,0 +1,27 @@
+
+NegEx, a rule-based algorithm that detects
+negations in English clinical text, was trans-
+lated into Swedish and evaluated on clini-
+cal text written in Swedish. The NegEx al-
+gorithm detects negations through the use of
+trigger phrases, which indicate that a preced-
+ing or following concept is negated. A list
+of English trigger phrases was translated into
+Swedish, taking grammatical differences be-
+tween the two languages into account. This
+translation was evaluated on a set of 436 man-
+ually classified sentences from Swedish health
+records. The results showed a precision of
+70% and a recall of 81% for sentences con-
+taining the trigger phrases and a negative pre-
+dictive value of 96% for sentences not con-
+taining any trigger phrases. The precision
+was significantly lower for the Swedish adap-
+tation than published results on the English
+version, but since many negated propositions
+were identified through a limited set of trigger
+phrases, it could nevertheless be concluded
+that the same trigger phrase approach is possi-
+ble in a Swedish context, even though it needs
+to be further developed.
+1 

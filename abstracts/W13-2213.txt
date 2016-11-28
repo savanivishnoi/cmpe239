@@ -1,0 +1,21 @@
+
+This paper describes Munich-Edinburgh-
+Stuttgart?s submissions to the Eighth
+Workshop on Statistical Machine Transla-
+tion. We report results of the translation
+tasks from German, Spanish, Czech and
+Russian into English and from English to
+German, Spanish, Czech, French and Rus-
+sian. The systems described in this paper
+use OSM (Operation Sequence Model).
+We explain different pre-/post-processing
+steps that we carried out for different
+language pairs. For German-English we
+used constituent parsing for reordering
+and compound splitting as preprocessing
+steps. For Russian-English we transliter-
+ated the unknown words. The translitera-
+tion system is learned with the help of an
+unsupervised transliteration mining algo-
+rithm.
+1 

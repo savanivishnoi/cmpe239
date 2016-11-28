@@ -1,0 +1,20 @@
+
+Topics generated automatically, e.g. using
+LDA, are now widely used in Computational
+Linguistics. Topics are normally represented
+as a set of keywords, often the n terms in a
+topic with the highest marginal probabilities.
+We introduce an alternative approach in which
+topics are represented using images. Candi-
+date images for each topic are retrieved from
+the web by querying a search engine using the
+top n terms. The most suitable image is se-
+lected from this set using a graph-based al-
+gorithm which makes use of textual informa-
+tion from the metadata associated with each
+image and features extracted from the images
+themselves. We show that the proposed ap-
+proach significantly outperforms several base-
+lines and can provide images that are useful to
+represent a topic.
+1 

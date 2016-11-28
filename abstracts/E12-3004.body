@@ -1,0 +1,25 @@
+ 
+Myanmar language and script are unique and 
+complex. Up to our knowledge, considerable 
+amount of work has not yet been done in 
+describing Myanmar script using formal language 
+theory. This paper presents manually constructed 
+context free grammar (CFG) with ?111? 
+productions to describe the Myanmar Syllable 
+Structure. We make our CFG in conformity with 
+the properties of LL(1) grammar so that we can 
+apply conventional parsing technique called 
+predictive top-down parsing to identify Myanmar 
+syllables. We present Myanmar syllable structure 
+according to orthographic rules. We also discuss 
+the preprocessing step called contraction for 
+vowels and consonant conjuncts. We make LL (1) 
+grammar in which ?1? does not mean exactly one 
+character of lookahead for parsing because of the 
+above mentioned contracted forms. We use five 
+basic sub syllabic elements to construct CFG and 
+found that all possible syllable combinations in 
+Myanmar Orthography can be parsed correctly 
+using the proposed grammar.  
+ 
+1 

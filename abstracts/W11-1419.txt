@@ -1,0 +1,28 @@
+
+We present a method that filters out non-
+scorable (NS) responses, such as responses
+with a technical difficulty, in an automated
+speaking proficiency assessment system. The
+assessment system described in this study first
+filters out the non-scorable responses and then
+predicts a proficiency score using a scoring
+model for the remaining responses.
+The data were collected from non-native
+speakers in two different countries, using two
+different item types in the proficiency assess-
+ment: items that elicit spontaneous speech and
+items that elicit recited speech. Since the pro-
+portion of NS responses and the features avail-
+able to the model differ according to the item
+type, an item type specific model was trained
+for each item type. The accuracy of the mod-
+els ranged between 75% and 79% in spon-
+taneous speech items and between 95% and
+97% in recited speech items.
+Two different groups of features, signal pro-
+cessing based features and automatic speech
+recognition (ASR) based features, were im-
+plemented. The ASR based models achieved
+higher accuracy than the non-ASR based mod-
+els.
+1 

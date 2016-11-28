@@ -1,0 +1,16 @@
+ 
+ 
+Both Inflectional and derivational morphology lead 
+to multiple surface forms of a word. Stemming 
+reduces these forms back to its stem or root, and is 
+a very useful tool for many applications.  There has 
+not been any work reported on Urdu stemming.  
+The current work develops an Urdu stemmer or 
+Assas-Band and improves the performance using 
+more precise affix based exception lists, instead of 
+the conventional lexical lookup employed for 
+developing stemmers in other languages.  Testing 
+shows an accuracy of 91.2%.  Further 
+enhancements are also suggested. 
+ 
+1. 

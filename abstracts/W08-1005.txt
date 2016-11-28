@@ -1,0 +1,16 @@
+
+We describe experiments on learning latent
+variable grammars for various German tree-
+banks, using a language-agnostic statistical
+approach. In our method, a minimal ini-
+tial grammar is hierarchically refined using an
+adaptive split-and-merge EM procedure, giv-
+ing compact, accurate grammars. The learn-
+ing procedure directly maximizes the likeli-
+hood of the training treebank, without the use
+of any language specific or linguistically con-
+strained features. Nonetheless, the resulting
+grammars encode many linguistically inter-
+pretable patterns and give the best published
+parsing accuracies on three German treebanks.
+1 

@@ -1,0 +1,20 @@
+ 
+This paper proposes an other-anaphora 
+resolution approach in bio-medical texts. 
+It utilizes automatically mined patterns to 
+discover the semantic relation between an 
+anaphor and a candidate antecedent. The 
+knowledge from lexical patterns is incor-
+porated in a machine learning framework 
+to perform anaphora resolution. The ex-
+periments show that machine learning 
+approach combined with the auto-mined 
+knowledge is effective for other-
+anaphora resolution in the biomedical 
+domain. Our system with auto-mined pat-
+terns gives an accuracy of 56.5%., yield-
+ing 16.2% improvement against the base-
+line system without pattern features, and 
+9% improvement against the system us-
+ing manually designed patterns.  
+1 

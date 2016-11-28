@@ -1,0 +1,26 @@
+
+This paper describes a plug-in component
+to extend the PULS information extraction
+framework to analyze Russian-language
+text. PULS is a comprehensive framework
+for information extraction (IE) that is used
+for analysis of news in several scenarios
+from English-language text and is primar-
+ily monolingual. Although monolingual-
+ity is recognized as a serious limitation,
+building an IE system for a new language
+from the bottom up is very labor-intensive.
+Thus, the objective of the present work is
+to explore whether the base framework can
+be extended to cover additional languages
+with limited effort, and to leverage the pre-
+existing PULS modules as far as possible,
+in order to accelerate the development pro-
+cess. The component for Russian analysis
+is described and its performance is evalu-
+ated on two news-analysis scenarios: epi-
+demic surveillance and cross-border secu-
+rity. The approach described in the paper
+can be generalized to a range of heavily-
+inflected languages.
+1 

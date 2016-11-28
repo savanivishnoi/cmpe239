@@ -1,0 +1,25 @@
+ 
+This paper details a software architecture for 
+discourse processing in spoken dialogue 
+systems, where the three component tasks of 
+discourse processing are (1) Dialogue Man- 
+agement, (2) Context Tracking, and (3) 
+Pragmatic Adaptation. We define these three 
+component tasks and describe their roles in a 
+complex, near-future scenario in which 
+multiple humans interact with each other 
+and with computers in multiple, simulta- 
+neous dialogue exchanges. This paper 
+reports on the software modules that accom- 
+plish the three component tasks of discourse 
+processing, and an architecture for the inter- 
+action among these modules and with other 
+modules of the spoken dialogue system. A 
+motivation of this work is reusable discourse 
+processing software for integration with 
+non-discourse modules in spoken dialogue 
+systems. We document the use of this ar- 
+chitecture and its components in several 
+prototypes, and also discuss its potential ap- 
+plication to spoken dialogue systems defined 
+in the near-future scenario. 

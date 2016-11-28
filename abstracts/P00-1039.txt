@@ -1,0 +1,24 @@
+
+This paper presents an algorithm for
+text summarization using the the-
+matic hierarchy of a text. The algo-
+rithm is intended to generate a one-
+page summary for the user, thereby
+enabling the user to skim large vol-
+umes of an electronic book on a
+computer display. The algorithm
+rst detects the thematic hierarchy
+of a source text with lexical cohe-
+sion measured by term repetitions.
+Then, it identies boundary sen-
+tences at which a topic of appropri-
+ate grading probably starts. Finally,
+it generates a structured summary
+indicating the outline of the the-
+matic hierarchy. This paper mainly
+describes and evaluates the part for
+boundary sentence identication in
+the algorithm, and then briey dis-
+cusses the readability of one-page
+summaries.
+1 

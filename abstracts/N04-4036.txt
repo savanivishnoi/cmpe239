@@ -1,0 +1,17 @@
+
+In this paper, we use a machine learning frame-
+work for semantic argument parsing, and apply
+it to the task of parsing arguments of eventive
+nominalizations in the FrameNet database. We
+create a baseline system using a subset of fea-
+tures introduced by Gildea and Jurafsky (2002),
+which are directly applicable to nominal pred-
+icates. We then investigate new features which
+are designed to capture the novelties in nom-
+inal argument structure and show a significant
+performance improvement using these new fea-
+tures. We also investigate the parsing perfor-
+mance of nominalizations in Chinese and com-
+pare the salience of the features for the two lan-
+guages.
+1 

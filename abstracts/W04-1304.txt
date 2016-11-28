@@ -1,0 +1,27 @@
+
+One argument for parametric models of language
+has been learnability in the context of first language
+acquisition. The claim is made that ?logical? ar-
+guments from learnability theory require non-trivial
+constraints on the class of languages. Initial formal-
+isations of the problem (Gold, 1967) are however
+inapplicable to this particular situation. In this pa-
+per we construct an appropriate formalisation of the
+problem using a modern vocabulary drawn from sta-
+tistical learning theory and grammatical inference
+and looking in detail at the relevant empirical facts.
+We claim that a variant of the Probably Approxi-
+mately Correct (PAC) learning framework (Valiant,
+1984) with positive samples only, modified so it is
+not completely distribution free is the appropriate
+choice. Some negative results derived from crypto-
+graphic problems (Kearns et al, 1994) appear to ap-
+ply in this situation but the existence of algorithms
+with provably good performance (Ron et al, 1995)
+and subsequent work, shows how these negative re-
+sults are not as strong as they initially appear, and
+that recent algorithms for learning regular languages
+partially satisfy our criteria. We then discuss the
+applicability of these results to parametric and non-
+parametric models.
+1 

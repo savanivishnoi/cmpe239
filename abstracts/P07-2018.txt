@@ -1,0 +1,23 @@
+
+This paper addresses two remaining chal-
+lenges in Chinese word segmentation. The
+challenge in HLT is to find a robust seg-
+mentation method that requires no prior lex-
+ical knowledge and no extensive training to
+adapt to new types of data. The challenge
+in modelling human cognition and acqui-
+sition it to segment words efficiently with-
+out using knowledge of wordhood. We pro-
+pose a radical method of word segmenta-
+tion to meet both challenges. The most
+critical concept that we introduce is that
+Chinese word segmentation is the classifi-
+cation of a string of character-boundaries
+(CB?s) into either word-boundaries (WB?s)
+and non-word-boundaries. In Chinese, CB?s
+are delimited and distributed in between two
+characters. Hence we can use the distri-
+butional properties of CB among the back-
+ground character strings to predict which
+CB?s are WB?s.
+1 

@@ -1,0 +1,14 @@
+
+We propose a method to obtain subsenten-
+tial alignments from several languages si-
+multaneously. The method handles sev-
+eral languages at once, and avoids the com-
+plexity explosion due to the usual pair-by-
+pair processing. It can be used for differ-
+ent units (characters, morphemes, words,
+chunks). An evaluation of word align-
+ments with a trilingual machine translation
+corpus has been conducted. A comparison
+of the results with those obtained by state
+of the art alignment software is reported.
+1 

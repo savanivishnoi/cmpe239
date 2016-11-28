@@ -1,0 +1,14 @@
+
+WordNet is a useful resource for lexi-
+cal inference in applications. Inference
+over predicates, however, often requires
+a change in argument positions, which
+is not specified in WordNet. We pro-
+pose a novel framework for augmenting
+WordNet-based inferences over predicates
+with corresponding argument mappings.
+We further present a concrete implementa-
+tion of this framework, which yields sub-
+stantial improvement to WordNet-based
+inference.
+1 

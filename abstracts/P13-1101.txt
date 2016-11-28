@@ -1,0 +1,18 @@
+
+This study proposes a text summarization
+model that simultaneously performs sen-
+tence extraction and compression. We
+translate the text summarization task into
+a problem of extracting a set of depen-
+dency subtrees in the document cluster.
+We also encode obligatory case constraints
+as must-link dependency constraints in or-
+der to guarantee the readability of the gen-
+erated summary. In order to handle the
+subtree extraction problem, we investigate
+a new class of submodular maximization
+problem, and a new algorithm that has
+the approximation ratio 12(1 ? e?1). Ourexperiments with the NTCIR ACLIA test
+collections show that our approach outper-
+forms a state-of-the-art algorithm.
+1 

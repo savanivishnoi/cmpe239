@@ -1,0 +1,24 @@
+ 
+This paper describes a novel method by which a dia- 
+logue agent can learn to choose an optimal dialogue 
+strategy. While it is widely agreed that dialogue 
+strategies hould be formulated in terms of com- 
+municative intentions, there has been little work on 
+automatically optimizing an agent's choices when 
+there are multiple ways to realize a communica- 
+tive intention. Our method is based on a combina- 
+tion of learning algorithms and empirical evaluation 
+techniques. The learning component of our method 
+is based on algorithms for reinforcement learning, 
+such as dynamic programming and Q-learning. The 
+empirical component uses the PARADISE evalua- 
+tion framework (Walker et al, 1997) to identify the 
+important performance factors and to provide the 
+performance function needed by the learning algo- 
+rithm. We illustrate our method with a dialogue 
+agent named ELVIS (EmaiL Voice Interactive Sys- 
+tem), that supports access to email over the phone. 
+We show how ELVIS can learn to choose among 
+alternate strategies for agent initiative, for reading 
+messages, and for summarizing email folders. 
+1 

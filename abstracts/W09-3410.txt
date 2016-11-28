@@ -1,0 +1,26 @@
+ 
+The performance of a corpus-based language and 
+speech processing system depends heavily on the 
+quantity and quality of the training corpora. Although 
+several famous Chinese corpora have been developed, 
+most of them are mainly written text. Even for some 
+existing corpora that contain spoken data, the quantity 
+is insufficient and the domain is limited. In this paper, 
+we describe the development of Chinese conversational 
+annotated textual corpora currently being used in the 
+NICT/ATR speech-to-speech translation system. A total 
+of 510K manually checked utterances provide 3.5M 
+words of Chinese corpora. As far as we know, this is 
+the largest conversational textual corpora in the 
+domain of travel. A set of three parallel corpora is 
+obtained with the corresponding pairs of Japanese and 
+English words from which the Chinese words are 
+translated. Evaluation experiments on these corpora 
+were conducted by comparing the parameters of the 
+language models, perplexities of test sets, and speech 
+recognition performance with Japanese and English. 
+The characteristics of the Chinese corpora, their 
+limitations, and solutions to these limitations are 
+analyzed and discussed.  
+ 
+1. 

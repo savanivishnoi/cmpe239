@@ -1,0 +1,21 @@
+
+This paper discusses Korean morpho-
+logical analysis and presents three
+probabilistic models for morphological
+analysis. Each model exploits a distinct
+linguistic unit as a processing unit. The
+three models can compensate for each
+other?s weaknesses. Contrary to the
+previous systems that depend on man-
+ually constructed linguistic knowledge,
+the proposed system can fully automat-
+ically acquire the linguistic knowledge
+from annotated corpora (e.g. part-of-
+speech tagged corpora). Besides, with-
+out any modification of the system, it
+can be applied to other corpora having
+different tagsets and annotation guide-
+lines. We describe the models and
+present evaluation results on three cor-
+pora with a wide range of conditions.
+1 

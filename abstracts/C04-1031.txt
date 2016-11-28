@@ -1,0 +1,16 @@
+
+Word alignment is a challenging task aim-
+ing at the identification of translational re-
+lations between words and multi-word units
+in parallel corpora. Many alignment strate-
+gies are based on links between single words.
+Different strategies can be used to find the
+optimal word alignment using such one-to-
+one word links including relations between
+multi-word units. In this paper seven algo-
+rithms are compared using a word alignment
+approach based on association clues and
+an English-Swedish bitext together with a
+handcrafted reference alignment used for
+evaluation.
+1 

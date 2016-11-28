@@ -1,0 +1,19 @@
+
+While automatic metrics of translation qual-
+ity are invaluable for machine translation re-
+search, deeper understanding of translation
+errors require more focused evaluations de-
+signed to target specific aspects of translation
+quality. We show that Word Sense Disam-
+biguation (WSD) can be used to evaluate the
+quality of machine translation lexical choice,
+by applying a standard phrase-based SMT sys-
+tem on the SemEval2010 Cross-Lingual WSD
+task. This case study reveals that the SMT
+system does not perform as well as a WSD
+system trained on the exact same parallel data,
+and that local context models based on source
+phrases and target n-grams are much weaker
+representations of context than the simple
+templates used by the WSD system.
+1 

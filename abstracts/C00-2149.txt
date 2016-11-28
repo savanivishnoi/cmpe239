@@ -1,0 +1,14 @@
+ 
+We propose an algorithm for the trausfer of packed linguistic 
+structures, that is, finite collections of labelled graphs which 
+share certain subparts. A labelled graph is seen as a word over 
+a vocabulary of description elements (nodes, arcs, labels), and 
+a collection of graphs as a set of such words, that is, as a hm- 
+guage over description elements. A packed representation for 
+the collection of graphs is then viewed as a context-free gram- 
+mar which generates such a language. We present an algorithm 
+that uses a conventional set of transfer ules but is capable of 
+rewriting the CFG representing the source packed structure into 
+a CFG representing the target packed structure that preserves 
+the compaction properties of the source CFG. 
+1 

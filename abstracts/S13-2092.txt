@@ -1,0 +1,16 @@
+
+In this paper we introduce our contribution
+to the SemEval-2013 Task 2 on ?Sentiment
+Analysis in Twitter?. We participated in ?task
+B?, where the objective was to build mod-
+els which classify tweets into three classes
+(positive, negative or neutral) by their con-
+tents. To solve this problem we basically fol-
+lowed the supervised learning approach and
+proposed several domain (i.e. microblog) spe-
+cific improvements including text preprocess-
+ing and feature engineering. Beyond the su-
+pervised setting we also introduce some early
+results employing a huge, automatically anno-
+tated tweet dataset.
+1 

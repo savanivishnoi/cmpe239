@@ -1,0 +1,18 @@
+
+This paper proposes a machine learning ap-
+proach to the task of assigning the inter-
+national standard on classification of dis-
+eases ICD-9-CM codes to clinical records.
+By treating the task as a text categorisa-
+tion problem, a classification system was
+built which explores a variety of features in-
+cluding negation, different strategies of mea-
+suring gloss overlaps between the content
+of clinical records and ICD-9-CM code de-
+scriptions together with expansion of the
+glosses from the ICD-9-CM hierarchy. The
+best classifier achieved an overall F1 value
+of 88.2 on a data set of 978 free text clinical
+records, and was better than the performance
+of two out of three human annotators.
+1 

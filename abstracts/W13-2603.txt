@@ -1,0 +1,19 @@
+
+Recent work in computational psycholin-
+guistics shows that morpheme lexica can
+be acquired in an unsupervised man-
+ner from a corpus of words by select-
+ing the lexicon that best balances pro-
+ductivity and reuse (e.g. Goldwater et
+al. (2009) and others). In this paper,
+we extend such work to the problem of
+acquiring non-concatenative morphology,
+proposing a simple model of morphology
+that can handle both concatenative and
+non-concatenative morphology and apply-
+ing Bayesian inference on two datasets of
+Arabic and English verbs to acquire lex-
+ica. We show that our approach success-
+fully extracts the non-contiguous triliteral
+root from Arabic verb stems.
+1 

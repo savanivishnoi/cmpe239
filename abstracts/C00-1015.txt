@@ -1,0 +1,19 @@
+ 
+While language-independent selztence align- 
+ment programs typically achieve a recall in the 
+90 percent range, tile same cannot be said about 
+word alignment systems, where normal recall 
+figures tend to fall somewhere between 20 and 
+40 percent, in tile language-indepeudent case. 
+As words (and phrases) for wlrious reasons 
+are more interesting to align than sentences, 
+we need methods to increase word alignment 
+recall, preferably without sacrificing precision. 
+This paper reports on a series of experiments 
+with pivot aligtunent, which is tile use of one or 
+more additional hmguages to improve bilingual 
+word aligment. Tile conclusion is that in a 
+multilingual parallel corpus, pivot alignment is 
+a safe way to iucrcase word alignment recall 
+without lowering the precision. 
+1 

@@ -1,0 +1,16 @@
+
+In some contexts, well-formed natural language
+cannot be expected as input to information or
+communication systems. In these contexts, the
+use of grammar-independent input (sequences of
+uninflected semantic units like e.g. language-
+independent icons) can be an answer to the users?
+needs. However, this requires that an intelligent sys-
+tem should be able to interpret this input with rea-
+sonable accuracy and in reasonable time. Here we
+propose a method allowing a purely semantic-based
+analysis of sequences of semantic units. It uses
+an algorithm inspired by the idea of ?chart pars-
+ing? known in Natural Language Processing, which
+stores intermediate parsing results in order to bring
+the calculation time down.

@@ -1,0 +1,13 @@
+
+We describe two methods to improve SMT
+accuracy using shallow syntax information.
+First, we use chunks to refine the set of word
+alignments typically used as a starting point in
+SMT systems. Second, we extend an N -gram-
+based SMT system with chunk tags to better
+account for long-distance reorderings. Exper-
+iments are reported on an Arabic-English task
+showing significant improvements. A human
+error analysis indicates that long-distance re-
+orderings are captured effectively.
+1 

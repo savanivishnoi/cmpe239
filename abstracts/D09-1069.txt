@@ -1,0 +1,21 @@
+
+Inspired by the success of English
+grapheme-to-phoneme research in speech
+synthesis, many researchers have pro-
+posed phoneme-based English-to-Chinese
+transliteration models. However, such ap-
+proaches have severely suffered from the
+errors in Chinese phoneme-to-grapheme
+conversion. To address this issue,
+we propose a new English-to-Chinese
+transliteration model and make system-
+atic comparisons with the conventional
+models. Our proposed model relies on
+the joint use of Chinese phonemes and
+their corresponding English graphemes
+and phonemes. Experiments showed that
+Chinese phonemes in our proposed model
+can contribute to the performance im-
+provement in English-to-Chinese translit-
+eration.
+1 

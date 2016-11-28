@@ -1,0 +1,28 @@
+ 
+This article presents the experiments carried 
+out at Jadavpur University as part of the 
+participation in Multi-Way Classification of 
+Semantic Relations between Pairs of Nomi-
+nals in the SemEval 2010 exercise. Separate 
+rules for each type of the relations are iden-
+tified in the baseline model based on the 
+verbs and prepositions present in the seg-
+ment between each pair of nominals. Inclu-
+sion of WordNet features associated with 
+the paired nominals play an important role 
+in distinguishing the relations from each 
+other. The Conditional Random Field (CRF) 
+based machine-learning framework is 
+adopted for classifying the pair of nominals.  
+Application of dependency relations, 
+Named Entities (NE) and various types of 
+WordNet features along with several com-
+binations of these features help to improve 
+the performance of the system. Error analy-
+sis suggests that the performance can be im-
+proved by applying suitable strategies to 
+differentiate each paired nominal in an al-
+ready identified relation. Evaluation result 
+gives an overall macro-averaged F1 score of 
+52.16%.     
+1 

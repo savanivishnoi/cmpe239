@@ -1,0 +1,17 @@
+
+We present a novel paraphrase fragment pair
+extraction method that uses a monolingual
+comparable corpus containing different arti-
+cles about the same topics or events. The pro-
+cedure consists of document pair extraction,
+sentence pair extraction, and fragment pair ex-
+traction. At each stage, we evaluate the in-
+termediate results manually, and tune the later
+stages accordingly. With this minimally su-
+pervised approach, we achieve 62% of accu-
+racy on the paraphrase fragment pairs we col-
+lected and 67% extracted from the MSR cor-
+pus. The results look promising, given the
+minimal supervision of the approach, which
+can be further scaled up.
+1 

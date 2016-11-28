@@ -1,0 +1,17 @@
+
+Previous research has shown that the
+plausibility of an adjective-noun com-
+bination is correlated with its corpus
+co-occurrence frequency. In this paper,
+we estimate the co-occurrence frequen-
+cies of adjective-noun pairs that fail to
+occur in a 100 million word corpus
+using smoothing techniques and com-
+pare them to human plausibility rat-
+ings. Both class-based smoothing and
+distance-weighted averaging yield fre-
+quency estimates that are significant
+predictors of rated plausibility, which
+provides independent evidence for the
+validity of these smoothing techniques.
+1 

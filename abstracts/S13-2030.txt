@@ -1,0 +1,14 @@
+ 
+This paper describes the XLING system partici-
+pation in SemEval-2013 Crosslingual Word 
+Sense Disambiguation task. The XLING system 
+introduces a novel approach to skip the sense 
+disambiguation step by matching query sentenc-
+es to sentences in a parallel corpus using topic 
+models; it returns the word alignments as the 
+translation for the target polysemous words. 
+Although, the topic-model base matching under-
+performed, the matching approach showed po-
+tential in the simple cosine-based surface simi-
+larity matching. 
+1 

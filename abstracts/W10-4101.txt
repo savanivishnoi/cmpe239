@@ -1,0 +1,26 @@
+ 
+The authors propose that we need some 
+change for the current technology in 
+Chinese word segmentation. We should 
+have separate and different phases in the 
+so-called segmentation. First of all, we 
+need to limit segmentation only to the 
+segmentation of Chinese characters in-
+stead of the so-called Chinese words. In 
+character segmentation, we will extract 
+all the information of each character. 
+Then we start a phase called Chinese 
+morphological processing (CMP). The 
+first step of CMP is to do a combination 
+of the separate characters and is then fol-
+lowed by post-segmentation processing, 
+including all sorts of repetitive structures, 
+Chinese-style abbreviations, recognition 
+of pseudo-OOVs and their processing, 
+etc. The most part of post-segmentation 
+processing may have to be done by some 
+rule-based sub-routines, thus we need 
+change the current corpus-based meth-
+odology by merging with rule-based 
+technique. 
+1 

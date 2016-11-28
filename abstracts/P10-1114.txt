@@ -1,0 +1,21 @@
+
+We present a new approach to cross-
+language text classification that builds on
+structural correspondence learning, a re-
+cently proposed theory for domain adap-
+tation. The approach uses unlabeled doc-
+uments, along with a simple word trans-
+lation oracle, in order to induce task-
+specific, cross-lingual word correspon-
+dences. We report on analyses that reveal
+quantitative insights about the use of un-
+labeled data and the complexity of inter-
+language correspondence modeling.
+We conduct experiments in the field
+of cross-language sentiment classification,
+employing English as source language,
+and German, French, and Japanese as tar-
+get languages. The results are convincing;
+they demonstrate both the robustness and
+the competitiveness of the presented ideas.
+1 

@@ -1,0 +1,21 @@
+
+While there has been much work on compu-
+tational models to predict readability based
+on the lexical, syntactic and discourse prop-
+erties of a text, there are also interesting open
+questions about how computer generated text
+should be evaluated with target populations.
+In this paper, we compare two offline methods
+for evaluating sentence quality, magnitude es-
+timation of acceptability judgements and sen-
+tence recall. These methods differ in the ex-
+tent to which they can differentiate between
+surface level fluency and deeper comprehen-
+sion issues. We find, most importantly, that
+the two correlate. Magnitude estimation can
+be run on the web without supervision, and
+the results can be analysed automatically. The
+sentence recall methodology is more resource
+intensive, but allows us to tease apart the flu-
+ency and comprehension issues that arise.
+1 

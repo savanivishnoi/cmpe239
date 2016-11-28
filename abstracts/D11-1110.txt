@@ -1,0 +1,21 @@
+
+We propose a relaxed correspondence as-
+sumption for cross-lingual projection of con-
+stituent syntax, which allows a supposed
+constituent of the target sentence to corre-
+spond to an unrestricted treelet in the source
+parse. Such a relaxed assumption fundamen-
+tally tolerates the syntactic non-isomorphism
+between languages, and enables us to learn
+the target-language-specific syntactic idiosyn-
+crasy rather than a strained grammar di-
+rectly projected from the source language syn-
+tax. Based on this assumption, a novel con-
+stituency projection method is also proposed
+in order to induce a projected constituent tree-
+bank from the source-parsed bilingual cor-
+pus. Experiments show that, the parser trained
+on the projected treebank dramatically out-
+performs previous projected and unsupervised
+parsers.
+1 

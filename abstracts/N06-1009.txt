@@ -1,0 +1,34 @@
+
+Deidentification of clinical records is a
+crucial step before these records can be
+distributed to non-hospital researchers.
+Most approaches to deidentification rely
+heavily on dictionaries and heuristic rules;
+these approaches fail to remove most per-
+sonal health information (PHI) that cannot
+be found in dictionaries. They also can fail
+to remove PHI that is ambiguous between
+PHI and non-PHI.
+Named entity recognition (NER) tech-
+nologies can be used for deidentification.
+Some of these technologies exploit both
+local and global context of a word to iden-
+tify its entity type. When documents are
+grammatically written, global context can
+improve NER.
+In this paper, we show that we can dei-
+dentify medical discharge summaries us-
+ing support vector machines that rely on a
+statistical representation of local context.
+We compare our approach with three dif-
+ferent systems. Comparison with a rule-
+based approach shows that a statistical
+representation of local context contributes
+more to deidentification than dictionaries
+and hand-tailored heuristics. Compari-
+son with two well-known systems, SNoW
+and IdentiFinder, shows that when the lan-
+guage of documents is fragmented, local
+context contributes more to deidentifica-
+tion than global context.
+1 

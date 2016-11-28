@@ -1,0 +1,20 @@
+
+Lexicalized Well-Founded Grammar
+(LWFG) is a recently developed syntactic-
+semantic grammar formalism for deep
+language understanding, which balances
+expressiveness with provable learnability
+results. The learnability result for LWFGs
+assumes that the semantic composition
+constraints are learnable. In this paper,
+we show what are the properties and
+principles the semantic representation and
+grammar formalism require, in order to
+be able to learn these constraints from
+examples, and give a learning algorithm.
+We also introduce a LWFG parser as a
+deductive system, used as an inference
+engine during LWFG induction. An
+example for learning a grammar for noun
+compounds is given.
+1 

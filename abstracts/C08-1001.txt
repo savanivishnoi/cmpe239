@@ -1,0 +1,22 @@
+
+Addressing the task of acquiring semantic
+relations between events from a large cor-
+pus, we first argue the complementarity be-
+tween the pattern-based relation-oriented
+approach and the anchor-based argument-
+oriented approach. We then propose a two-
+phased approach, which first uses lexico-
+syntactic patterns to acquire predicate pairs
+and then uses two types of anchors to iden-
+tify shared arguments. The present results
+of our empirical evaluation on a large-scale
+Japanese Web corpus have shown that (a)
+the anchor-based filtering extensively im-
+proves the accuracy of predicate pair ac-
+quisition, (b) the two types of anchors are
+almost equally contributive and combining
+them improves recall without losing accu-
+racy, and (c) the anchor-based method also
+achieves high accuracy in shared argument
+identification.
+1 

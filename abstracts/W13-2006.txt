@@ -1,0 +1,17 @@
+
+This paper describes the HDS4NLP en-
+try to the BioNLP 2013 shared task on
+biomedical event extraction. This system
+is based on a pairwise model that trans-
+forms trigger classification in a simple
+multi-class problem in place of the usual
+multi-label problem. This model facili-
+tates inference compared to global models
+while relying on richer information com-
+pared to usual pipeline approaches. The
+HDS4NLP system ranked 6th on the Ge-
+nia task (43.03% f-score), and after fix-
+ing a bug discovered after the final submis-
+sion, it outperforms the winner of this task
+(with a f-score of 51.15%).
+1 

@@ -1,0 +1,25 @@
+
+We present an extensible API for inte-
+grating language modeling and realiza-
+tion, describing its design and efficient
+implementation in the OpenCCG sur-
+face realizer. With OpenCCG, language
+models may be used to select realiza-
+tions with preferred word orders, pro-
+mote alignment with a conversational
+partner, avoid repetitive language use,
+and increase the speed of the best-first
+anytime search. The API enables a vari-
+ety of n-gram models to be easily com-
+bined and used in conjunction with ap-
+propriate edge pruning strategies. The
+n-gram models may be of any order,
+operate in reverse (?right-to-left?), and
+selectively replace certain words with
+their semantic classes. Factored lan-
+guage models with generalized backoff
+may also be employed, over words rep-
+resented as bundles of factors such as
+form, pitch accent, stem, part of speech,
+supertag, and semantic class.
+1 

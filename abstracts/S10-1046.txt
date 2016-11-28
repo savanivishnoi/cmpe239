@@ -1,0 +1,21 @@
+
+In this paper, we describe the system sub-
+mitted by the team TUD to Task 8 at
+SemEval 2010. The challenge focused on
+the identification of semantic relations be-
+tween pairs of nominals in sentences col-
+lected from the web. We applied max-
+imum entropy classification using both
+lexical and syntactic features to describe
+the nominals and their context. In addi-
+tion, we experimented with features de-
+scribing the semantic relatedness (SR) be-
+tween the target nominals and a set of clue
+words characteristic to the relations. Our
+best submission with SR features achieved
+69.23% macro-averaged F-measure, pro-
+viding 8.73% improvement over our base-
+line system. Thus, we think SR can serve
+as a natural way to incorporate external
+knowledge to relation classification.
+1 

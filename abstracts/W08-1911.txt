@@ -1,0 +1,21 @@
+
+Rephrasing text spans is a common task
+when revising a text. However, traditional
+dictionaries often cannot provide direct as-
+sistance to writers in performing this task.
+In this article, we describe an approach
+to obtain a monolingual phrase lexicon
+using techniques used in Statistical Ma-
+chine Translation. A part to be rephrased
+is first translated into a pivot language,
+and then translated back into the origi-
+nal language. Models for assessing flu-
+ency, meaning preservation and lexical di-
+vergence are used to rank possible rephras-
+ings, and their relative weight can be tuned
+by the user so as to better address her
+needs. An evaluation shows that these
+models can be used successfully to select
+rephrasings that are likely to be useful to a
+writer.
+1 

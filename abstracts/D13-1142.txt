@@ -1,0 +1,22 @@
+
+In this paper we present a novel approach to
+automatic creation of anchor texts for hyper-
+links in a document pointing to similar doc-
+uments. Methods used in this approach rank
+parts of a document based on the similarity
+to a presumably related document. Ranks are
+then used to automatically construct the best
+anchor text for a link inside original document
+to the compared document. A number of dif-
+ferent methods from information retrieval and
+natural language processing are adapted for
+this task. Automatically constructed anchor
+texts are manually evaluated in terms of relat-
+edness to linked documents and compared to
+baseline consisting of originally inserted an-
+chor texts. Additionally we use crowdsourc-
+ing for evaluation of original anchors and au-
+tomatically constructed anchors. Results show
+that our best adapted methods rival the preci-
+sion of the baseline method.
+1 

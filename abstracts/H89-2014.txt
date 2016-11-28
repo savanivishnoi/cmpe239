@@ -1,0 +1,8 @@
+ 
+The paper describes refinements hat are currently being investigated in a model for part-of-speech assign- 
+ment to words in unrestricted text. The model has the advantage that a pre-tagged training corpus is not 
+required. Words are represented by equivalence classes to reduce the number of parameters equired and 
+provide an essentially vocabulary-independent model. State chains are used to model selective higher-order 
+conditioning in the model, which obviates the proliferation of parameters attendant inuniformly higher-order 
+models. The structure of the state chains is based on both an analysis of errors and linguistic knowledge. 
+Examples how how word dependency across phrases can be modeled. 

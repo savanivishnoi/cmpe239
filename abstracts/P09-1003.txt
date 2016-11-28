@@ -1,0 +1,26 @@
+
+A number of studies have presented
+machine-learning approaches to semantic
+role labeling with availability of corpora
+such as FrameNet and PropBank. These
+corpora define the semantic roles of predi-
+cates for each frame independently. Thus,
+it is crucial for the machine-learning ap-
+proach to generalize semantic roles across
+different frames, and to increase the size
+of training instances. This paper ex-
+plores several criteria for generalizing se-
+mantic roles in FrameNet: role hierar-
+chy, human-understandable descriptors of
+roles, semantic types of filler phrases, and
+mappings from FrameNet roles to the-
+matic roles of VerbNet. We also pro-
+pose feature functions that naturally com-
+bine and weight these criteria, based on
+the training data. The experimental result
+of the role classification shows 19.16%
+and 7.42% improvements in error reduc-
+tion rate and macro-averaged F1 score, re-
+spectively. We also provide in-depth anal-
+yses of the proposed criteria.
+1 

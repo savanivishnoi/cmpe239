@@ -1,0 +1,21 @@
+
+Named entity disambiguation is the task of
+linking an entity mention in a text to the cor-
+rect real-world referent predefined in a knowl-
+edge base, and is a crucial subtask in many
+areas like information retrieval or topic detec-
+tion and tracking. Named entity disambigua-
+tion is challenging because entity mentions
+can be ambiguous and an entity can be refer-
+enced by different surface forms. We present
+an approach that exploits Wikipedia relations
+between entities co-occurring with the am-
+biguous form to derive a range of novel fea-
+tures for classifying candidate referents. We
+find that our features improve disambiguation
+results significantly over a strong popularity
+baseline, and are especially suitable for recog-
+nizing entities not contained in the knowledge
+base. Our system achieves state-of-the-art re-
+sults on the TAC-KBP 2009 dataset.
+1 

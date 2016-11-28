@@ -1,0 +1,13 @@
+ 
+The development ofnatural language processing (NLP) 
+systems that perform machine translation (MT) and 
+information retrieval (IR) has highlighted the need for 
+the automatic recognition of proper names. While vari- 
+ous name recognizers have been developed, they suffer 
+from being too limited; some only recognize one name 
+class, and all are language specific. This work devel- 
+ops an approach to multilingual name recognition that 
+uses machine learning and a portable framework to 
+simplify the porting task by maximizing reuse and au- 
+tomation. 
+1 

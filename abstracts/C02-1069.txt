@@ -1,0 +1,15 @@
+
+This paper investigates methods to automatically
+infer structural information from large XML doc-
+uments. Using XML as a reference format, we ap-
+proach the schema generation problem by applica-
+tion of inductive inference theory. In doing so, we re-
+view and extend results relating to the search spaces
+of grammatical inferences for large data set. We
+evaluate the result of an inference process using the
+concept of Minimum Message Length. Comprehen-
+sive experimentation reveals our new hybrid method
+to be the most effective for large documents. Finally
+tractability issues, including scalability analysis, are
+discussed.
+1 

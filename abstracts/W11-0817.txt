@@ -1,0 +1,17 @@
+
+In this paper, we describe our methods to
+detect noun compounds and light verb con-
+structions in running texts. For noun com-
+pounds, dictionary-based methods and POS-
+tagging seem to contribute most to the per-
+formance of the system whereas for light
+verb constructions, the combination of POS-
+tagging, syntactic information and restrictions
+on the nominal and verbal component yield
+the best result. However, focusing on deverbal
+nouns proves to be beneficial for both types
+of MWEs. The effect of syntax is negligible
+on noun compound detection whereas it is un-
+ambiguously helpful for identifying light verb
+constructions.
+1 

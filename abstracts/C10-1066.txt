@@ -1,0 +1,35 @@
+
+Text Understanding systems often commit
+to a single best interpretation of a sen-
+tence before analyzing subsequent text.
+This interpretation is chosen by resolv-
+ing ambiguous alternatives to the one with
+the highest confidence, given the context
+available at the time of commitment. Sub-
+sequent text, however, may contain infor-
+mation that changes the confidence of al-
+ternatives. This may especially be the
+case with multiple redundant texts on the
+same topic. Ideally, systems would de-
+lay choosing among ambiguous alterna-
+tives until more text has been read.
+One solution is to maintain multiple can-
+didate interpretations of each sentence un-
+til the system acquires disambiguating ev-
+idence. Unfortunately, the number of al-
+ternatives explodes quickly. In this pa-
+per, we propose a packed graphical (PG)
+representation that can efficiently repre-
+sent a large number of alternative interpre-
+tations along with dependencies among
+them. We also present an algorithm for
+combining multiple PG representations to
+help resolve ambiguity and prune alterna-
+tives when the time comes to commit to a
+single interpretation.
+Our controlled experiments show that by
+delaying ambiguity resolution until multi-
+ple texts have been read, our prototype?s
+accuracy is higher than when committing
+to interpretations sentence-by-sentence.
+1 

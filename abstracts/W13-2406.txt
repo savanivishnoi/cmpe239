@@ -1,0 +1,14 @@
+
+We present an approach for natural lan-
+guage parsing in which dependency and
+constituency parses are acquired simul-
+taneously. This leads to accurate parses
+represented in a specific way, richer than
+constituency or dependency tree. It also
+allows reducing parsing time complexity.
+Within the proposed approach, we show
+how to treat some significant phenomena
+of the Russian language and also perform
+a brief evaluation of the parser implemen-
+tation, known as DictaScope Syntax.
+1 

@@ -1,0 +1,36 @@
+ 
+Publications that report genotype-drug inte-
+raction findings, as well as manually curated 
+databases such as DrugBank and PharmGKB 
+are essential to advancing pharmacogenomics, 
+a relatively new area merging pharmacology 
+and genomic research. Natural language 
+processing (NLP) methods can be very useful 
+for automatically extracting knowledge such 
+as gene-drug interactions, offering researchers 
+immediate access to published findings, and 
+allowing curators a shortcut for their work.   
+We present a corpus of gene-drug interac-
+tions for evaluating and training systems to 
+extract those interactions.  The corpus in-
+cludes 551 sentences that have a mention of a 
+drug and a gene from about 600 journals 
+found to be relevant to pharmacogenomics 
+through an analysis of gene-drug relationships 
+in the PharmGKB knowledgebase.  
+We evaluated basic approaches to auto-
+matic extraction, including gene and drug co-
+occurrence, co-occurrence plus interaction 
+terms, and a linguistic pattern-based method.  
+The linguistic pattern method had the highest 
+precision (96.61%) but lowest recall (7.30%), 
+for an f-score of 13.57%. Basic co-occurrence 
+yields 68.99% precision, with the addition of 
+an interaction term precision increases slightly 
+(69.60%), though not as much as could be ex-
+pected. Co-occurrence is a reasonable base-
+line method, with pattern-based being a prom-
+ising approach if enough patterns can be gen-
+erated to address recall. The corpus is availa-
+ble at http://diego.asu.edu/index.php/projects 
+1 

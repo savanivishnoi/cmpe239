@@ -1,0 +1,30 @@
+
+In this paper, we introduce and compare
+between two novel approaches, supervised
+and unsupervised, for identifying the key-
+words to be used in extractive summa-
+rization of text documents. Both our ap-
+proaches are based on the graph-based
+syntactic representation of text and web
+documents, which enhances the traditional
+vector-space model by taking into account
+some structural document features. In the
+supervised approach, we train classifica-
+tion algorithms on a summarized collec-
+tion of documents with the purpose of
+inducing a keyword identification model.
+In the unsupervised approach, we run the
+HITS algorithm on document graphs under
+the assumption that the top-ranked nodes
+should represent the document keywords.
+Our experiments on a collection of bench-
+mark summaries show that given a set of
+summarized training documents, the su-
+pervised classification provides the highest
+keyword identification accuracy, while the
+highest F-measure is reached with a sim-
+ple degree-based ranking. In addition, it is
+sufficient to perform only the first iteration
+of HITS rather than running it to its con-
+vergence.
+1 

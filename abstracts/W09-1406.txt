@@ -1,0 +1,22 @@
+
+In this paper we describe our entry to the
+BioNLP 2009 Shared Task regarding bio-
+molecular event extraction. Our work can
+be described by three design decisions: (1)
+instead of building a pipeline using local
+classifier technology, we design and learn
+a joint probabilistic model over events in
+a sentence; (2) instead of developing spe-
+cific inference and learning algorithms for
+our joint model, we apply Markov Logic, a
+general purpose Statistical Relation Learn-
+ing language, for this task; (3) we represent
+events as relational structures over the to-
+kens of a sentence, as opposed to structures
+that explicitly mention abstract event en-
+tities. Our results are competitive: we
+achieve the 4th best scores for task 1 (in
+close range to the 3rd place) and the best
+results for task 2 with a 13 percent point
+margin.
+1 

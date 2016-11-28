@@ -1,0 +1,21 @@
+ 
+We describe an experimental system im- 
+plemented using the Java(TM) program- 
+ming language which demonstrates a va- 
+riety of application-level tradeoffs available 
+to distributed natural language processing 
+(NLP) applications. In the context of the 
+World Wide Web (WWW), it is possible to 
+provide value added functionality to legacy 
+documents in a client side browser, a docu- 
+ment server or an intermediary agent. Us- 
+ing a well-known ngram-based algorithm 
+for automatic language identification, we 
+have constructed a system to dynamically 
+add language labels for whole documents 
+and text fragments. We have experi- 
+mented with several client/server configu- 
+rations, and present he results of tradeoffs 
+made between labelling accuracy and the 
+size/completeness of the language models. 
+1 

@@ -1,0 +1,20 @@
+
+The last decade has seen many interesting ap-
+plications of Question Answering (QA) tech-
+nology. The Jeopardy! quiz show is certainly
+one of the most fascinating, from the view-
+points of both its broad domain and the com-
+plexity of its language. In this paper, we study
+kernel methods applied to syntactic/semantic
+structures for accurate classification of Jeop-
+ardy! definition questions. Our extensive em-
+pirical analysis shows that our classification
+models largely improve on classifiers based on
+word-language models. Such classifiers are
+also used in the state-of-the-art QA pipeline
+constituting Watson, the IBM Jeopardy! sys-
+tem. Our experiments measuring their impact
+on Watson show enhancements in QA accu-
+racy and a consequent increase in the amount
+of money earned in game-based evaluation.
+1 

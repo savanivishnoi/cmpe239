@@ -1,0 +1,24 @@
+
+We present an approach to detecting hate
+speech in online text, where hate speech is
+defined as abusive speech targeting specific
+group characteristics, such as ethnic origin, re-
+ligion, gender, or sexual orientation. While
+hate speech against any group may exhibit
+some common characteristics, we have ob-
+served that hatred against each different group
+is typically characterized by the use of a small
+set of high frequency stereotypical words;
+however, such words may be used in either
+a positive or a negative sense, making our
+task similar to that of words sense disambigua-
+tion. In this paper we describe our definition
+of hate speech, the collection and annotation
+of our hate speech corpus, and a mechanism
+for detecting some commonly used methods
+of evading common ?dirty word? filters. We
+describe pilot classification experiments in
+which we classify anti-semitic speech reach-
+ing an accuracy 94%, precision of 68% and
+recall at 60%, for an F1 measure of .6375.
+1 

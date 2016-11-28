@@ -1,0 +1,15 @@
+
+This work explores the utility of sentiment and
+arguing opinions for classifying stances in ide-
+ological debates. In order to capture arguing
+opinions in ideological stance taking, we con-
+struct an arguing lexicon automatically from
+a manually annotated corpus. We build su-
+pervised systems employing sentiment and ar-
+guing opinions and their targets as features.
+Our systems perform substantially better than
+a distribution-based baseline. Additionally,
+by employing both types of opinion features,
+we are able to perform better than a unigram-
+based system.
+1 

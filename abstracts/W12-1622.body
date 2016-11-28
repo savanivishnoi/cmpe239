@@ -1,0 +1,31 @@
+
+A coherently related group of sentences
+may be referred to as a discourse. In
+this paper we address the problem of pars-
+ing coherence relations as defined in the
+Penn Discourse Tree Bank (PDTB). A
+good model for discourse structure anal-
+ysis needs to account both for local depen-
+dencies at the token-level and for global
+dependencies and statistics. We present
+techniques on using inter-sentential or
+sentence-level (global), data-driven, non-
+grammatical features in the task of parsing
+discourse. The parser model follows up
+previous approach based on using token-
+level (local) features with conditional ran-
+dom fields for shallow discourse parsing,
+which is lacking in structural knowledge
+of discourse. The parser adopts a two-
+stage approach where first the local con-
+straints are applied and then global con-
+straints are used on a reduced weighted
+search space (n-best). In the latter stage
+we experiment with different rerankers
+trained on the first stage n-best parses,
+which are generated using lexico-syntactic
+local features. The two-stage parser yields
+significant improvements over the best
+performing model of discourse parser on
+the PDTB corpus.
+1 

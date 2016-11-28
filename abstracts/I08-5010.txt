@@ -1,0 +1,25 @@
+
+Named Entity Recognition (NER) is the
+task of identifying and classifying all proper
+nouns in a document as person names, or-
+ganization names, location names, date &
+time expressions and miscellaneous. Previ-
+ous work (Cucerzan and Yarowsky, 1999)
+was done using the complete words as fea-
+tures which suffers from a low recall prob-
+lem. Character n-gram based approach
+(Klein et al, 2003) using generative mod-
+els, was experimented on English language
+and it proved to be useful over the word
+based models. Applying the same technique
+on Indian Languages, we experimented with
+Conditional Random Fields (CRFs), a dis-
+criminative model, and evaluated our sys-
+tem on two Indian Languages Telugu and
+Hindi. The character n-gram based models
+showed considerable improvement over the
+word based models. This paper describes the
+features used and experiments to increase
+the recall of Named Entity Recognition Sys-
+tems which is also language independent.
+1 

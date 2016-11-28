@@ -1,0 +1,18 @@
+
+The paper presents an approach to utterance plan-
+ning, which can dynamically use context informa-
+tion about the environment in which a dialogue
+is situated. The approach is functional in nature,
+using systemic networks to specify its planning
+grammar. The planner takes a description of a
+communicative goal as input, and produces one
+or more logical forms that can express that goal
+in a contextually appropriate way. Both the goal
+and the resulting logical forms are expressed in a
+single formalism as ontologically rich, relational
+structures. To realize the logical forms, OpenCCG
+is used. The paper focuses primarily on the im-
+plementation, but also discusses how the planning
+grammar can be based on the grammar used in
+OpenCCG, and trained on (parseable) data.
+1 

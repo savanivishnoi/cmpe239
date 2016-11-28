@@ -1,0 +1,16 @@
+
+This paper is concerned with the evaluation
+of biomedical named entity recognition sys-
+tems. We compare two such systems, one
+based on a Hidden Markov Model and one
+based on Conditional Random Fields and
+syntactic parsing. In our experiments we
+used automatically generated data as well
+as manually annotated material, including
+a new dataset which consists of biomedi-
+cal full papers. Through our evaluation, we
+assess the strengths and weaknesses of the
+systems tested, as well as the datasets them-
+selves in terms of the challenges they present
+to the systems.
+1 

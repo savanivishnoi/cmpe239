@@ -1,0 +1,11 @@
+
+We describe a statistical approach to semantic
+role labelling that employs only shallow infor-
+mation. We use a Maximum Entropy learner,
+augmented by EM-based clustering to model
+the fit between a verb and its argument can-
+didate. The instances to be classified are se-
+quences of chunks that occur frequently as ar-
+guments in the training corpus. Our best model
+obtains an F score of 51.70 on the test set.
+1 

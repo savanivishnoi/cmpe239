@@ -1,0 +1,18 @@
+
+Many machine learning methods have
+recently been applied to natural lan-
+guage processing tasks. Among them,
+the Winnow algorithm has been ar-
+gued to be particularly suitable for NLP
+problems, due to its robustness to ir-
+relevant features. However in theory,
+Winnow may not converge for non-
+separable data. To remedy this prob-
+lem, a modification called regularized
+Winnow has been proposed. In this pa-
+per, we apply this new method to text
+chunking. We show that this method
+achieves state of the art performance
+with significantly less computation than
+previous approaches.
+1 

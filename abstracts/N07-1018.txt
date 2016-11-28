@@ -1,0 +1,17 @@
+
+This paper presents two Markov chain
+Monte Carlo (MCMC) algorithms for
+Bayesian inference of probabilistic con-
+text free grammars (PCFGs) from ter-
+minal strings, providing an alternative
+to maximum-likelihood estimation using
+the Inside-Outside algorithm. We illus-
+trate these methods by estimating a sparse
+grammar describing the morphology of
+the Bantu language Sesotho, demonstrat-
+ing that with suitable priors Bayesian
+techniques can infer linguistic structure
+in situations where maximum likelihood
+methods such as the Inside-Outside algo-
+rithm only produce a trivial grammar.
+1 

@@ -1,0 +1,30 @@
+
+This paper describes a novel method for
+computing a consensus translation from
+the outputs of multiple machine trans-
+lation (MT) systems. The outputs are
+combined and a possibly new transla-
+tion hypothesis can be generated. Simi-
+larly to the well-established ROVER ap-
+proach of (Fiscus, 1997) for combining
+speech recognition hypotheses, the con-
+sensus translation is computed by voting
+on a confusion network. To create the con-
+fusion network, we produce pairwise word
+alignments of the original machine trans-
+lation hypotheses with an enhanced sta-
+tistical alignment algorithm that explicitly
+models word reordering. The context of a
+whole document of translations rather than
+a single sentence is taken into account to
+produce the alignment.
+The proposed alignment and voting ap-
+proach was evaluated on several machine
+translation tasks, including a large vocab-
+ulary task. The method was also tested in
+the framework of multi-source and speech
+translation. On all tasks and conditions,
+we achieved significant improvements in
+translation quality, increasing e. g. the
+BLEU score by as much as 15% relative.
+1 

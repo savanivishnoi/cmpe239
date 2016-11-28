@@ -1,0 +1,22 @@
+ 
+Though both document summarization and 
+keyword extraction aim to extract concise 
+representations from documents, these two 
+tasks have usually been investigated inde-
+pendently. This paper proposes a novel it-
+erative reinforcement approach to simulta-
+neously extracting summary and keywords 
+from single document under the assump-
+tion that the summary and keywords of a 
+document can be mutually boosted. The 
+approach can naturally make full use of the 
+reinforcement between sentences and key-
+words by fusing three kinds of relation-
+ships between sentences and words, either 
+homogeneous or heterogeneous. Experi-
+mental results show the effectiveness of the 
+proposed approach for both tasks. The cor-
+pus-based approach is validated to work 
+almost as well as the knowledge-based ap-
+proach for computing word semantics.  
+1 

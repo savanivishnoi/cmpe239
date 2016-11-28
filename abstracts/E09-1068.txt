@@ -1,0 +1,16 @@
+
+We present a novel graph-based algo-
+rithm for the automated disambiguation
+of glosses in lexical knowledge resources.
+A dictionary graph is built starting from
+senses (vertices) and explicit or implicit
+relations in the dictionary (edges). The
+approach is based on the identification of
+edge sequences which constitute cycles in
+the dictionary graph (possibly with one
+edge reversed) and relate a source to a
+target word sense. Experiments are per-
+formed on the disambiguation of ambigu-
+ous words in the glosses of WordNet and
+two machine-readable dictionaries.
+1 

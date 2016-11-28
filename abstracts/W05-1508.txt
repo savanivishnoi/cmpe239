@@ -1,0 +1,15 @@
+
+We introduce a method for transferring
+annotation from a syntactically annotated
+corpus in a source language to a target lan-
+guage. Our approach assumes only that
+an (unannotated) text corpus exists for the
+target language, and does not require that
+the parameters of the mapping between
+the two languages are known. We outline
+a general probabilistic approach based on
+Data Augmentation, discuss the algorith-
+mic challenges, and present a novel algo-
+rithm for sampling from a posterior distri-
+bution over trees.
+1 

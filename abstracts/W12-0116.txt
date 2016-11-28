@@ -1,0 +1,18 @@
+
+In this paper, we present our linguistically-
+augmented statistical machine translation
+model from Bulgarian to English, which
+combines a statistical machine translation
+(SMT) system (as backbone) with deep lin-
+guistic features (as factors). The motiva-
+tion is to take advantages of the robust-
+ness of the SMT system and the linguis-
+tic knowledge of morphological analysis
+and the hand-crafted grammar through sys-
+tem combination approach. The prelimi-
+nary evaluation has shown very promising
+results in terms of BLEU scores (38.85) and
+the manual analysis also confirms the high
+quality of the translation the system deliv-
+ers.
+1 

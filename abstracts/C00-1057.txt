@@ -1,0 +1,24 @@
+ 
+We describe a segmentation component that 
+utilizes minimal syntactic knowledge to produce a
+lattice of word candidates for a broad coverage 
+Japanese NL parser. The segmenter is a finite 
+state morphological nalyzer and text normalizer 
+designed to handle the orthographic variations 
+characteristic of written Japanese, including 
+alternate spellings, script variation, vowel 
+extensions and word-internal parenthetical 
+material. This architecture differs from con- 
+ventional Japanese wordbreakers in that it does 
+not attempt to simultaneously attack the problems 
+of identifying segmentation candidates and 
+choosing the most probable analysis. To minimize 
+duplication of effort between components and to 
+give the segmenter greater fi'eedom to address 
+orthography issues, the task of choosing the best 
+analysis is handled by the parser, which has access 
+to a much richer set of linguistic information. By 
+maximizing recall in the segmenter and allowing a 
+precision of 34.7%, our parser currently achieves a
+breaking accuracy of ~97% over a wide variety of 
+corpora. 

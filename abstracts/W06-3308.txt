@@ -1,0 +1,29 @@
+ 
+In this paper, we construct a biomedical 
+semantic role labeling (SRL) system that 
+can be used to facilitate relation extraction. 
+First, we construct a proposition bank on 
+top of the popular biomedical GENIA 
+treebank following the PropBank annota-
+tion scheme. We only annotate the predi-
+cate-argument structures (PAS?s) of thirty 
+frequently used biomedical predicates and 
+their corresponding arguments. Second, 
+we use our proposition bank to train a 
+biomedical SRL system, which uses a 
+maximum entropy (ME) model. Thirdly, 
+we automatically generate argument-type 
+templates which can be used to improve 
+classification of biomedical argument 
+types. Our experimental results show that 
+a newswire SRL system that achieves an 
+F-score of 86.29% in the newswire do-
+main can maintain an F-score of 64.64% 
+when ported to the biomedical domain. 
+By using our annotated biomedical corpus, 
+we can increase that F-score by 22.9%. 
+Adding automatically generated template 
+features further increases overall F-score 
+by 0.47% and adjunct arguments (AM) F-
+score by 1.57%, respectively. 
+1 

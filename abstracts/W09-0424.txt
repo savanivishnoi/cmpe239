@@ -1,0 +1,17 @@
+
+We describe Joshua, an open source
+toolkit for statistical machine transla-
+tion. Joshua implements all of the algo-
+rithms required for synchronous context
+free grammars (SCFGs): chart-parsing, n-
+gram language model integration, beam-
+and cube-pruning, and k-best extraction.
+The toolkit also implements suffix-array
+grammar extraction and minimum error
+rate training. It uses parallel and dis-
+tributed computing techniques for scala-
+bility. We demonstrate that the toolkit
+achieves state of the art translation per-
+formance on the WMT09 French-English
+translation task.
+1 

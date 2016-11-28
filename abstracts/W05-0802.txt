@@ -1,0 +1,28 @@
+
+In a multilingual scenario, the classical
+monolingual text categorization problem
+can be reformulated as a cross language
+TC task, in which we have to cope with
+two or more languages (e.g. English and
+Italian). In this setting, the system is
+trained using labeled examples in a source
+language (e.g. English), and it classifies
+documents in a different target language
+(e.g. Italian).
+In this paper we propose a novel ap-
+proach to solve the cross language text
+categorization problem based on acquir-
+ing Multilingual Domain Models from
+comparable corpora in a totally unsuper-
+vised way and without using any external
+knowledge source (e.g. bilingual dictio-
+naries). These Multilingual Domain Mod-
+els are exploited to define a generalized
+similarity function (i.e. a kernel function)
+among documents in different languages,
+which is used inside a Support Vector Ma-
+chines classification framework. The re-
+sults show that our approach is a feasi-
+ble and cheap solution that largely outper-
+forms a baseline.
+1 

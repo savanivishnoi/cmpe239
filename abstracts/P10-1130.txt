@@ -1,0 +1,29 @@
+
+We show how web mark-up can be used
+to improve unsupervised dependency pars-
+ing. Starting from raw bracketings of four
+common HTML tags (anchors, bold, ital-
+ics and underlines), we refine approximate
+partial phrase boundaries to yield accurate
+parsing constraints. Conversion proce-
+dures fall out of our linguistic analysis of
+a newly available million-word hyper-text
+corpus. We demonstrate that derived con-
+straints aid grammar induction by training
+Klein and Manning?s Dependency Model
+with Valence (DMV) on this data set: pars-
+ing accuracy on Section 23 (all sentences)
+of the Wall Street Journal corpus jumps
+to 50.4%, beating previous state-of-the-
+art by more than 5%. Web-scale exper-
+iments show that the DMV, perhaps be-
+cause it is unlexicalized, does not benefit
+from orders of magnitude more annotated
+but noisier data. Our model, trained on a
+single blog, generalizes to 53.3% accuracy
+out-of-domain, against the Brown corpus
+? nearly 10% higher than the previous
+published best. The fact that web mark-up
+strongly correlates with syntactic structure
+may have broad applicability in NLP.
+1 

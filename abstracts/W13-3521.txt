@@ -1,0 +1,21 @@
+
+In this work, we present an approach for
+multilingual portability of Spoken Lan-
+guage Understanding systems. The goal
+of this approach is to avoid the effort of ac-
+quiring and labeling new corpora to learn
+models when changing the language. The
+work presented in this paper is focused on
+the learning of a specific translator for the
+task and the mechanism of transmitting the
+information among the modules by means
+of graphs. These graphs represent a set of
+hypotheses (a language) that is the input
+to the statistical semantic decoder that pro-
+vides the meaning of the sentence. Some
+experiments in a Spanish task evaluated
+with input French utterances and text are
+presented. They show the good behavior
+of the system, mainly when speech input
+is considered.
+1 

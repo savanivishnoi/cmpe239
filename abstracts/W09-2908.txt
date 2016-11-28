@@ -1,0 +1,22 @@
+
+This paper proposes Japanese bottom-up
+named entity recognition using a two-
+stage machine learning method. Most
+work has formalized Named Entity Recog-
+nition as a sequential labeling problem, in
+which only local information is utilized
+for the label estimation, and thus a long
+named entity consisting of several mor-
+phemes tends to be wrongly recognized.
+Our proposed method regards a compound
+noun (chunk) as a labeling unit, and first
+estimates the labels of all the chunks in
+a phrasal unit (bunsetsu) using a machine
+learning method. Then, the best label as-
+signment in the bunsetsu is determined
+from bottom up as the CKY parsing al-
+gorithm using a machine learning method.
+We conducted an experimental on CRL
+NE data, and achieved an F measure of
+89.79, which is higher than previous work.
+1 

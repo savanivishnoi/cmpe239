@@ -1,0 +1,19 @@
+
+We address the problem of using partially la-
+belled data, eg large collections were only little
+data is annotated, for extracting biological en-
+tities. Our approach relies on a combination of
+probabilistic models, which we use to model the
+generation of entities and their context, and ker-
+nel machines, which implement powerful cate-
+gorisers based on a similarity measure and some
+labelled data. This combination takes the form
+of the so-called Fisher kernels which implement
+a similarity based on an underlying probabilistic
+model. Such kernels are compared with trans-
+ductive inference, an alternative approach to
+combining labelled and unlabelled data, again
+coupled with Support Vector Machines. Exper-
+iments are performed on a database of abstracts
+extracted from Medline.
+1 

@@ -1,0 +1,22 @@
+
+Optimal ensembling (OE) is a word sense 
+disambiguation  (WSD)  method  using 
+word-specific training factors (average pos-
+itive vs negative training per sense,  posex 
+and negex) to predict best system (classifier 
+algorithm / applicable feature set) for given 
+target  word.  Our  official  entry  (OE1)  in 
+Senseval-4  Task  17  (coarse-grained  En-
+glish lexical sample task) contained many 
+design flaws and thus  failed to  show the 
+whole  potential  of  the  method,  finishing 
+-4.9% behind top system (+0.5 gain over 
+best  base  system).  A fixed system (OE2) 
+finished  only  -3.4%  behind  (+2.0%  net 
+gain).  All  our  systems  were  'closed',  i.e. 
+used the official training data only (average 
+56 training examples per each sense).  We 
+also show that the official evaluation mea-
+sure  tends  to  favor  systems  that  do  well 
+with high-trained words. 
+1 

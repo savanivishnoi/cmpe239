@@ -1,0 +1,24 @@
+
+We present a weakly supervised approach
+to automatic Ontology Population from
+text and compare it with other two unsu-
+pervised approaches. In our experiments
+we populate a part of our ontology of
+Named Entities. We considered two high
+level categories - geographical locations
+and person names and ten sub-classes for
+each category. For each sub-class, from
+a list of training examples and a syntac-
+tically parsed corpus, we automatically
+learn a syntactic model - a set of weighted
+syntactic features, i.e. words which typ-
+ically co-occur in certain syntactic posi-
+tions with the members of that class. The
+model is then used to classify the unknown
+Named Entities in the test set. The method
+is weakly supervised, since no annotated
+corpus is used in the learning process. We
+achieved promising results, i.e. 65% accu-
+racy, outperforming significantly previous
+unsupervised approaches.
+1 

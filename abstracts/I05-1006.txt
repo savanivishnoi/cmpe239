@@ -1,0 +1,12 @@
+. We present a preliminary study of several parser adaptation
+techniques evaluated on the GENIA corpus of MEDLINE abstracts [1,2].
+We begin by observing that the Penn Treebank (PTB) is lexically im-
+poverished when measured on various genres of scientific and techni-
+cal writing, and that this significantly impacts parse accuracy. To re-
+solve this without requiring in-domain treebank data, we show how ex-
+isting domain-specific lexical resources may be leveraged to augment
+PTB-training: part-of-speech tags, dictionary collocations, and named-
+entities. Using a state-of-the-art statistical parser [3] as our baseline, our
+lexically-adapted parser achieves a 14.2% reduction in error. With oracle-
+knowledge of named-entities, this error reduction improves to 21.2%.
+1 

@@ -1,0 +1,24 @@
+
+This paper describes the information
+extraction techniques developed in the
+framework of the participation of IRISA-
+TexMex to the following BioNLP-ST13
+tasks: Bacterial Biotope subtasks 1 and
+2, and Graph Regulation Network. The
+approaches developed are general-purpose
+ones and do not rely on specialized pre-
+processing, nor specialized external data,
+and they are expected to work indepen-
+dently of the domain of the texts pro-
+cessed. They are classically based on ma-
+chine learning techniques, but we put the
+emphasis on the use of similarity mea-
+sures inherited from the information re-
+trieval domain (Okapi-BM25 (Robertson
+et al, 1998), language modeling (Hiem-
+stra, 1998)). Through the good results ob-
+tained for these tasks, we show that these
+simple settings are competitive provided
+that the representation and similarity cho-
+sen are well suited for the task.
+1 

@@ -1,0 +1,16 @@
+
+In this paper, we propose a simple and
+effective approach to domain adaptation
+for dependency parsing. This is a fea-
+ture augmentation approach in which the
+new features are constructed based on sub-
+tree information extracted from the auto-
+parsed target domain data. To demon-
+strate the effectiveness of the proposed ap-
+proach, we evaluate it on three pairs of
+source-target data, compared with sever-
+al common baseline systems and previous
+approaches. Our approach achieves signif-
+icant improvement on all the three pairs of
+data sets.
+1 

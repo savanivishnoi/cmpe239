@@ -1,0 +1,19 @@
+
+We address two challenges for automatic ma-
+chine translation evaluation: a) avoiding the
+use of reference translations, and b) focusing
+on adequacy estimation. From an economic
+perspective, getting rid of costly hand-crafted
+reference translations (a) permits to alleviate
+the main bottleneck in MT evaluation. From
+a system evaluation perspective, pushing se-
+mantics into MT (b) is a necessity in order
+to complement the shallow methods currently
+used overcoming their limitations. Casting
+the problem as a cross-lingual textual entail-
+ment application, we experiment with differ-
+ent benchmarks and evaluation settings. Our
+method shows high correlation with human
+judgements and good results on all datasets
+without relying on reference translations.
+1 

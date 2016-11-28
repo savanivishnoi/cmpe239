@@ -1,0 +1,14 @@
+
+This paper describes our phrase-based Sta-
+tistical Machine Translation (SMT) sys-
+tem for the WMT10 Translation Task. We
+submitted translations for the German to
+English and English to German transla-
+tion tasks. Compared to state-of-the-art
+phrase-based systems we preformed addi-
+tional preprocessing and used a discrim-
+inative word alignment approach. The
+word reordering was modeled using POS
+information and we extended the transla-
+tion model with additional features.
+1 

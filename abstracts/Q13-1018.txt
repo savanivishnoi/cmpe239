@@ -1,0 +1,18 @@
+
+In this paper we introduce a joint arc-factored
+model for syntactic and semantic dependency
+parsing. The semantic role labeler predicts
+the full syntactic paths that connect predicates
+with their arguments. This process is framed
+as a linear assignment task, which allows
+to control some well-formedness constraints.
+For the syntactic part, we define a standard
+arc-factored dependency model that predicts
+the full syntactic tree. Finally, we employ dual
+decomposition techniques to produce consis-
+tent syntactic and predicate-argument struc-
+tures while searching over a large space of
+syntactic configurations. In experiments on
+the CoNLL-2009 English benchmark we ob-
+serve very competitive results.
+1 

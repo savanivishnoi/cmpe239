@@ -1,0 +1,21 @@
+
+We present V-measure, an external entropy-
+based cluster evaluation measure. V-
+measure provides an elegant solution to
+many problems that affect previously de-
+fined cluster evaluation measures includ-
+ing 1) dependence on clustering algorithm
+or data set, 2) the ?problem of matching?,
+where the clustering of only a portion of data
+points are evaluated and 3) accurate evalu-
+ation and combination of two desirable as-
+pects of clustering, homogeneity and com-
+pleteness. We compare V-measure to a num-
+ber of popular cluster evaluation measures
+and demonstrate that it satisfies several de-
+sirable properties of clustering solutions, us-
+ing simulated clustering results. Finally, we
+use V-measure to evaluate two clustering
+tasks: document clustering and pitch accent
+type clustering.
+1 

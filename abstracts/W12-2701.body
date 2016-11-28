@@ -1,0 +1,22 @@
+
+In spite of their well known limitations,
+most notably their use of very local con-
+texts, n-gram language models remain an es-
+sential component of many Natural Language
+Processing applications, such as Automatic
+Speech Recognition or Statistical Machine
+Translation. This paper investigates the po-
+tential of language models using larger con-
+text windows comprising up to the 9 previ-
+ous words. This study is made possible by
+the development of several novel Neural Net-
+work Language Model architectures, which
+can easily fare with such large context win-
+dows. We experimentally observed that ex-
+tending the context size yields clear gains in
+terms of perplexity and that the n-gram as-
+sumption is statistically reasonable as long as
+n is sufficiently high, and that efforts should
+be focused on improving the estimation pro-
+cedures for such large models.
+1 

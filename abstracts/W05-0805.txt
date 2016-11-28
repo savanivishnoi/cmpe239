@@ -1,0 +1,24 @@
+
+In this paper, we present an approach
+to automatically revealing phonological
+correspondences within historically re-
+lated languages. We create two bilingual
+pronunciation dictionaries for the lan-
+guage pairs German-Dutch and German-
+English. The data is used for automat-
+ically learning phonological similarities
+between the two language pairs via EM-
+based clustering. We apply our models
+to predict from a phonological German
+word the phonemes of a Dutch and an
+English cognate. The similarity scores
+show that German and Dutch phonemes
+are more similar than German and En-
+glish phonemes, which supplies statistical
+evidence of the common knowledge that
+German is more closely related to Dutch
+than to English. We assess our approach
+qualitatively, finding meaningful classes
+caused by historical sound changes. The
+classes can be used for language learning.
+1 

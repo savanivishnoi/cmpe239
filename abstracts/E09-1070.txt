@@ -1,0 +1,17 @@
+
+Named entity recognition (NER) for En-
+glish typically involves one of three gold
+standards: MUC, CoNLL, or BBN, all created
+by costly manual annotation. Recent work
+has used Wikipedia to automatically cre-
+ate a massive corpus of named entity an-
+notated text.
+We present the first comprehensive cross-
+corpus evaluation of NER. We identify
+the causes of poor cross-corpus perfor-
+mance and demonstrate ways of making
+them more compatible. Using our process,
+we develop a Wikipedia corpus which out-
+performs gold standard corpora on cross-
+corpus evaluation by up to 11%.
+1 

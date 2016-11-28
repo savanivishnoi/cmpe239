@@ -1,0 +1,22 @@
+
+Support Vector Machines have achieved
+state of the art performance in several clas-
+sification tasks. In this article we apply
+them to the identification and semantic an-
+notation of scientific and technical termi-
+nology in the domain of molecular biol-
+ogy. This illustrates the extensibility of
+the traditional named entity task to spe-
+cial domains with extensive terminologies
+such as those in medicine and related dis-
+ciplines. We illustrate SVM?s capabilities
+using a sample of 100 journal abstracts
+texts taken from the {human, blood cell,
+transcription factor} domain of MED-
+LINE. Approximately 3400 terms are an-
+notated and the model performs at about
+74% F-score on cross-validation tests. A
+detailed analysis based on empirical ev-
+idence shows the contribution of various
+feature sets to performance.
+1 

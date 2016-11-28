@@ -1,0 +1,28 @@
+
+The present methodology for evaluating
+complex questions at TREC analyzes an-
+swers in terms of facts called ?nuggets?.
+The official F-score metric represents the
+harmonic mean between recall and pre-
+cision at the nugget level. There is an
+implicit assumption that some facts are
+more important than others, which is im-
+plemented in a binary split between ?vi-
+tal? and ?okay? nuggets. This distinc-
+tion holds important implications for the
+TREC scoring model?essentially, sys-
+tems only receive credit for retrieving vi-
+tal nuggets?and is a source of evalua-
+tion instability. The upshot is that for
+many questions in the TREC testsets, the
+median score across all submitted runs is
+zero. In this work, we introduce a scor-
+ing model based on judgments from mul-
+tiple assessors that captures a more refined
+notion of nugget importance. We demon-
+strate on TREC 2003, 2004, and 2005 data
+that our ?nugget pyramids? address many
+shortcomings of the present methodology,
+while introducing only minimal additional
+overhead on the evaluation flow.
+1 

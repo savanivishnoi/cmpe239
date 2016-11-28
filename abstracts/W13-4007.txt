@@ -1,0 +1,25 @@
+ 
+In this paper we focus on modeling 
+friendships between humans as a way of 
+working towards technology that can initiate 
+and sustain a lifelong relationship with users. 
+We do this by predicting friendship status in a 
+dyad using a set of automatically harvested 
+verbal and nonverbal features from videos of 
+the interaction of students in a peer tutoring 
+study. We propose a new computational 
+model used to model friendship status in our 
+data, based on a group sparse model (GSM) 
+with L2,1 norm which is designed to 
+accommodate the sparse and noisy properties 
+of the multi-channel features. Our GSM model 
+achieved the best overall performance 
+compared to a non-sparse linear model (NLM) 
+and a regular sparse linear model (SLM), as 
+well as outperforming human raters. Dyadic 
+features, such as number and length of 
+conversational turns and mutual gaze, in 
+addition to low level features such as F0 and 
+gaze at task, were found to be good predictors 
+of friendship status. 
+1 

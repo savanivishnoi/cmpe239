@@ -1,0 +1,15 @@
+
+We propose an event-enriched model to 
+alleviate the semantic deficiency 
+problem in the IR-style text processing 
+and apply it to sentence ordering for 
+multi-document news summarization.
+The ordering algorithm is built on event 
+and entity coherence, both locally and 
+globally. To accommodate the event-
+enriched model, a novel LSA-integrated 
+two-layered clustering approach is 
+adopted. The experimental result shows 
+clear advantage of our model over 
+event-agonistic models.
+1 

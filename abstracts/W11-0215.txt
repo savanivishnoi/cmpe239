@@ -1,0 +1,27 @@
+
+Protein modifications, in particular post-
+translational modifications, have a central role
+in bringing about the full repertoire of pro-
+tein functions, and the identification of spe-
+cific protein modifications is important for
+understanding biological systems. This task
+presents a number of opportunities for the au-
+tomatic support of manual curation efforts.
+However, the sheer number of different types
+of protein modifications is a daunting chal-
+lenge for automatic extraction that has so far
+not been met in full, with most studies focus-
+ing on single modifications or a few prominent
+ones. In this work, aim to meet this challenge:
+we analyse protein modification types through
+ontologies, databases, and literature and intro-
+duce a corpus of 360 abstracts manually anno-
+tated in the BioNLP Shared Task event repre-
+sentation for over 4500 mentions of proteins
+and 1000 statements of modification events of
+nearly 40 different types. We argue that to-
+gether with existing resources, this corpus pro-
+vides sufficient coverage of modification types
+to make effectively exhaustive extraction of
+protein modifications from text feasible.
+1 

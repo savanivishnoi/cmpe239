@@ -1,0 +1,12 @@
+
+We present a fast, space efficient and non-
+heuristic method for calculating the decision
+function of polynomial kernel classifiers for
+NLP applications. We apply the method to
+the MaltParser system, resulting in a Java
+parser that parses over 50 sentences per sec-
+ond on modest hardware without loss of accu-
+racy (a 30 time speedup over existing meth-
+ods). The method implementation is available
+as the open-source splitSVM Java library.
+1 

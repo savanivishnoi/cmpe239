@@ -1,0 +1,13 @@
+ 
+This paper presents Hedge Trimmer, a HEaDline 
+GEneration system that creates a headline for a newspa-
+per story using linguistically-motivated heuristics to 
+guide the choice of a potential headline.  We present 
+feasibility tests used to establish the validity of an ap-
+proach that constructs a headline by selecting words in 
+order from a story.  In addition, we describe experimen-
+tal results that demonstrate the effectiveness of our lin-
+guistically-motivated approach over a HMM-based 
+model, using both human evaluation and automatic met-
+rics for comparing the two approaches. 
+1 

@@ -1,0 +1,20 @@
+
+We propose the subtree ranking approach to
+parse forest reranking which is a general-
+ization of current perceptron-based reranking
+methods. For the training of the reranker,
+we extract competing local subtrees, hence
+the training instances (candidate subtree sets)
+are very similar to those used during beam-
+search parsing. This leads to better param-
+eter optimization. Another chief advantage
+of the framework is that arbitrary learning to
+rank methods can be applied. We evaluated
+our reranking approach on German and En-
+glish phrase structure parsing tasks and com-
+pared it to various state-of-the-art reranking
+approaches such as the perceptron-based for-
+est reranker. The subtree ranking approach
+with a Maximum Entropy model significantly
+outperformed the other approaches.
+1 

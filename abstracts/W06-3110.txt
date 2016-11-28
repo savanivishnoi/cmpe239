@@ -1,0 +1,15 @@
+
+Word posterior probabilities are a com-
+mon approach for confidence estimation
+in automatic speech recognition and ma-
+chine translation. We will generalize this
+idea and introduce n-gram posterior prob-
+abilities and show how these can be used
+to improve translation quality. Addition-
+ally, we will introduce a sentence length
+model based on posterior probabilities.
+We will show significant improvements on
+the Chinese-English NIST task. The abso-
+lute improvements of the BLEU score is
+between 1.1% and 1.6%.
+1 

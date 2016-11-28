@@ -1,0 +1,31 @@
+
+This work reports on three human tense
+annotation experiments for Chinese verbs
+in Chinese-to-English translation scenar-
+ios. The results show that inter-annotator
+agreement increases as the context of the
+verb under the annotation becomes in-
+creasingly specified, i.e. as the context
+moves from the situation in which the tar-
+get English sentence is unknown to the
+situation in which the target lexicon and
+target syntactic structure are fully speci-
+fied. The annotation scheme with a fully
+specified syntax and lexicon in the tar-
+get English sentence yields a satisfactorily
+high agreement rate. The annotation re-
+sults were then analyzed via an ANOVA
+analysis, a logistic regression model and a
+log-linear model. The analyses reveal that
+while both the overt and the latent linguis-
+tic factors seem to significantly affect an-
+notation agreement under different scenar-
+ios, the latent features are the real driving
+factors of tense annotation disagreement
+among multiple annotators. The analy-
+ses also find the verb telicity feature, as-
+pect marker presence and syntactic em-
+bedding structure to be strongly associated
+with tense, suggesting their utility in the
+automatic tense classification task.
+1 

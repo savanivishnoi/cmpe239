@@ -1,0 +1,14 @@
+
+We refine the most frequent sense baseline
+for word sense disambiguation using a num-
+ber of novel word sense disambiguation tech-
+niques. Evaluating on the S???????-3 English
+all words task, our combined system focuses
+on improving every stage of word sense dis-
+ambiguation: starting with the lemmatization
+and part of speech tags used, through the ac-
+curacy of the most frequent sense baseline, to
+highly targeted individual systems. Our super-
+vised systems include a ranking algorithm and
+a Wikipedia similarity measure.
+1 

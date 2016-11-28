@@ -1,0 +1,15 @@
+ 
+This paper presents the results of a set of 
+preliminary experiments combining two 
+knowledge-based partial dependency 
+analyzers with two statistical parsers, 
+applied to the Basque Dependency 
+Treebank. The general idea will be to apply 
+a stacked scheme where the output of the 
+rule-based partial parsers will be given as 
+input to MaltParser and MST, two state of 
+the art statistical parsers. The results show 
+a modest improvement over the baseline, 
+although they also present interesting lines 
+for further research. 
+1. 

@@ -1,0 +1,16 @@
+
+We experiment with splitting words into
+their stem and suffix components for mod-
+eling morphologically rich languages. We
+show that using a morphological ana-
+lyzer and disambiguator results in a sig-
+nificant perplexity reduction in Turkish.
+We present flexible n-gram models, Flex-
+Grams, which assume that the n?1 tokens
+that determine the probability of a given
+token can be chosen anywhere in the sen-
+tence rather than the preceding n?1 posi-
+tions. Our final model achieves 27% per-
+plexity reduction compared to the standard
+n-gram model.
+1 

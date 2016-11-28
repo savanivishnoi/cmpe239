@@ -1,0 +1,27 @@
+
+Reordering is a major challenge for machine
+translation between distant languages. Recent
+work has shown that evaluation metrics that
+explicitly account for target language word or-
+der correlate better with human judgments of
+translation quality. Here we present a simple
+framework for evaluating word order indepen-
+dently of lexical choice by comparing the sys-
+tem?s reordering of a source sentence to ref-
+erence reordering data generated from manu-
+ally word-aligned translations. When used to
+evaluate a system that performs reordering as
+a preprocessing step our framework allows the
+parser and reordering rules to be evaluated ex-
+tremely quickly without time-consuming end-
+to-end machine translation experiments. A
+novelty of our approach is that the translations
+used to generate the reordering reference data
+are generated in an alignment-oriented fash-
+ion. We show that how the alignments are
+generated can significantly effect the robust-
+ness of the evaluation. We also outline some
+ways in which this framework has allowed our
+group to analyze reordering errors for English
+to Japanese machine translation.
+1 

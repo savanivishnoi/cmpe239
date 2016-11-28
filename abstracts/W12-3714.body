@@ -1,0 +1,30 @@
+
+This paper presents our research on automatic
+annotation of a five-billion-word corpus of
+Japanese blogs with information on affect and
+sentiment. We first perform a study in emotion
+blog corpora to discover that there has been
+no large scale emotion corpus available for
+the Japanese language. We choose the largest
+blog corpus for the language and annotate it
+with the use of two systems for affect anal-
+ysis: ML-Ask for word- and sentence-level
+affect analysis and CAO for detailed anal-
+ysis of emoticons. The annotated informa-
+tion includes affective features like sentence
+subjectivity (emotive/non-emotive) or emo-
+tion classes (joy, sadness, etc.), useful in affect
+analysis. The annotations are also general-
+ized on a 2-dimensional model of affect to ob-
+tain information on sentence valence/polarity
+(positive/negative) useful in sentiment analy-
+sis. The annotations are evaluated in several
+ways. Firstly, on a test set of a thousand sen-
+tences extracted randomly and evaluated by
+over forty respondents. Secondly, the statistics
+of annotations are compared to other existing
+emotion blog corpora. Finally, the corpus is
+applied in several tasks, such as generation of
+emotion object ontology or retrieval of emo-
+tional and moral consequences of actions.
+1 

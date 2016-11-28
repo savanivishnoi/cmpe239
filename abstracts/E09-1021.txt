@@ -1,0 +1,27 @@
+
+We present a method which, given a few
+words defining a concept in some lan-
+guage, retrieves, disambiguates and ex-
+tends corresponding terms that define a
+similar concept in another specified lan-
+guage. This can be very useful for
+cross-lingual information retrieval and the
+preparation of multi-lingual lexical re-
+sources. We automatically obtain term
+translations from multilingual dictionaries
+and disambiguate them using web counts.
+We then retrieve web snippets with co-
+occurring translations, and discover ad-
+ditional concept terms from these snip-
+pets. Our term discovery is based on co-
+appearance of similar words in symmetric
+patterns. We evaluate our method on a set
+of language pairs involving 45 languages,
+including combinations of very dissimilar
+ones such as Russian, Chinese, and He-
+brew for various concepts. We assess the
+quality of the retrieved sets using both hu-
+man judgments and automatically compar-
+ing the obtained categories to correspond-
+ing English WordNet synsets.
+1 

@@ -1,0 +1,20 @@
+
+Intelligent Tutoring Systems (ITSs) are
+now recognised as an interesting alter-
+native for providing learning opportuni-
+ties in various domains. The Reinforce-
+ment Learning (RL) approach has been
+shown reliable for finding efficient teach-
+ing strategies. However, similarly to other
+human-machine interaction systems such
+as spoken dialogue systems, ITSs suffer
+from a partial knowledge of the interlocu-
+tor?s intentions. In the dialogue case, en-
+gineering work can infer a precise state of
+the user by taking into account the uncer-
+tainty provided by the spoken understand-
+ing language module. A model-free ap-
+proach based on RL and Echo State New-
+torks (ESNs), which retrieves similar in-
+formation, is proposed here for tutoring.
+1 

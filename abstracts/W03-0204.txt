@@ -1,0 +1,38 @@
+
+PLASER is a multimedia tool with instant
+feedback designed to teach English pronunci-
+ation for high-school students of Hong Kong
+whose mother tongue is Cantonese Chinese.
+The objective is to teach correct pronunciation
+and not to assess a student?s overall pronuncia-
+tion quality. Major challenges related to speech
+recognition technology include: allowance for
+non-native accent, reliable and corrective feed-
+backs, and visualization of errors.
+PLASER employs hidden Markov models
+to represent position-dependent English
+phonemes. They are discriminatively trained
+using the standard American English TIMIT
+corpus together with a set of TIMIT utterances
+collected from ?good? local English speakers.
+There are two kinds of speaking exercises:
+minimal-pair exercises and word exercises.
+In the word exercises, PLASER computes
+a confidence-based score for each phoneme
+of the given word, and paints each vowel or
+consonant segment in the word using a novel
+3-color scheme to indicate their pronunciation
+accuracy. PLASER was used by 900 students
+of grade 7 and 8 over a period of 2?3 months.
+About 80% of the students said that they pre-
+ferred using PLASER over traditional English
+classes to learn pronunciation. A pronunciation
+test was also conducted before and after they
+used PLASER. The result from 210 students
+shows that the students? pronunciation skill
+was improved. (The statistics is significant at
+the 99% confidence level.)
+?Mr. Tam is now a graduate student at the Department of
+Computer Science at Carnegie Mellon University.
+?Mr. Chan is now working at SpeechWorks Inc.
+1 

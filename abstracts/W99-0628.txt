@@ -1,0 +1,16 @@
+ 
+In this paper we use various methods for multiple 
+neural network combination in tasks of prepo- 
+sitional phrase attachment. Experiments with 
+aggregation functions such as unweighted and 
+weighted average, OWA operator, Choquet inte- 
+gral and stacked generalization demonstrate hat 
+combining multiple networks improve the esti- 
+mation of each individual neural network. Using 
+the Ratnaparkhi data set (the complete training 
+set and the complete test set) we obtained an ac- 
+curacy score of 86.08%. In spite of the high cost 
+in computational time of neural net training, the 
+response time in test mode is faster than others 
+methods. 
+1 

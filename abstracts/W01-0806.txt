@@ -1,0 +1,17 @@
+
+We present an algorithm which im-
+proves the efficiency of a search for the
+optimally aggregated paragraph which
+summarises a flat structured input spec-
+ification. We model the space of possi-
+ble paraphrases of possible paragraphs
+as the space of sequences of composi-
+tions of a set of tree-adjoining grammar
+(TAG) elementary trees. Our algorithm
+transforms this to a set with equivalent
+paraphrasing power but better compu-
+tational properties. Also, it identifies an
+explicit mapping between input propo-
+sitions and their possible surface reali-
+sations.
+1 

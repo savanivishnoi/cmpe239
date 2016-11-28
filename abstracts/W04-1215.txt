@@ -1,0 +1,18 @@
+ 
+Named entity recognition is a fundamental 
+task in biomedical data mining.  Multiple -class 
+annotation is more challenging than single -
+class annotation.  In this paper, we took a 
+single word classification approach to dealing 
+with the multiple -class annotation problem 
+using Support Vector Machines (SVMs).  
+Word attributes, results of existing 
+gene/protein name taggers, context, and other 
+information are important features for 
+classification.  During training, the size of 
+training data and the distribution of named 
+entities are considered.  The preliminary 
+results showed that the approach might be 
+feasible when more training data is used to 
+alleviate the data imbalance problem. 
+1 

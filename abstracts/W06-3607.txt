@@ -1,0 +1,15 @@
+ 
+Integrating information from different 
+stages of an NLP processing pipeline can 
+yield significant error reduction. We dem-
+onstrate how re-ranking can improve name 
+tagging in a Chinese information extrac-
+tion system by incorporating information 
+from relation extraction, event extraction, 
+and coreference. We evaluate three state-
+of-the-art re-ranking algorithms (MaxEnt-
+Rank, SVMRank, and p-Norm Push Rank-
+ing), and show the benefit of multi-stage 
+re-ranking for cross-sentence and cross-
+document inference. 
+1 

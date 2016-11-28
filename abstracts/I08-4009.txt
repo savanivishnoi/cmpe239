@@ -1,0 +1,39 @@
+* 
+Since the first Chinese Word Segmenta-
+tion (CWS) Bakeoff on 2003, CWS has 
+experienced a prominent flourish be-
+cause Bakeoff provides a platform for 
+the participants, which helps them rec-
+ognize the merits and drawbacks of their 
+segmenters. However, the evaluation 
+metric of bakeoff is not sufficient 
+enough to measure the performance tho-
+roughly, sometimes even misleading.  
+One typical example caused by this in-
+sufficiency is that there is a popular be-
+lief existing in the research field that 
+segmentation based on word can yield a 
+better result than character-based tag-
+ging (CT) on in-vocabulary (IV) word 
+segmentation even within closed tests of 
+Bakeoff. Many efforts were paid to bal-
+ance the performance on IV and out-of-
+vocabulary (OOV) words by combining 
+these two methods according to this be-
+lief. In this paper, we provide a more de-
+tailed evaluation metric of IV and OOV 
+words than Bakeoff to analyze CT me-
+thod and combination method, which is 
+a typical way to seek such balance. Our 
+evaluation metric shows that CT outper-
+forms dictionary-based (or so called 
+word-based in general) segmentation on 
+both IV and OOV words within Bakeoff 
+                                               
+* The work is done when the first author is working 
+in MSRA as an intern. 
+closed tests. Furthermore, our analysis 
+shows that using confidence measure to 
+combine the two segmentation results 
+should be under certain limitation. 
+1 

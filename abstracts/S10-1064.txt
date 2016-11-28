@@ -1,0 +1,28 @@
+ 
+This paper describes our system 
+participating in task 18 of SemEval-2010, 
+i.e. disambiguating Sentiment-
+Ambiguous Adjectives (SAAs). To 
+disambiguating SAAs, we compare the 
+machine learning-based and lexicon-
+based methods in our submissions: 1) 
+Maximum entropy is used to train  
+classifiers based on the annotated 
+Chinese data from the NTCIR opinion 
+analysis tasks, and the clause-level and 
+sentence-level classifiers are compared; 
+2) For the lexicon-based method, we first 
+classify the adjectives into two classes: 
+intensifiers (i.e. adjectives intensifying 
+the intensity of context) and suppressors 
+(i.e. adjectives decreasing the intensity of 
+context), and then use the polarity of 
+context to get the SAAs? contextual 
+polarity based on a sentiment lexicon. 
+The results show that the performance of 
+maximum entropy is not quite high due 
+to little training data; on the other hand, 
+the lexicon-based method could improve 
+the precision by considering the polarity 
+of context. 
+1 

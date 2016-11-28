@@ -1,0 +1,16 @@
+ 
+Different Bengali TTS systems are already 
+available on a resourceful platform such as a 
+personal computer. However, porting these 
+systems to a resource limited device such as a 
+mobile phone is not an easy task. Practical 
+aspects including application size and 
+processing time have to be concerned. This 
+paper describes the implementation of a 
+Bengali speech synthesizer on a mobile device. 
+For speech generation we used Epoch 
+Synchronous Non Overlap Add (ESNOLA) 
+based concatenative speech synthesis technique 
+which uses the partnemes as the smallest signal 
+units for concatenations. 
+1 

@@ -1,0 +1,17 @@
+
+In this paper, we introduce a new semi-supervised learning
+model for word sense disambiguation based on Kernel Prin-
+cipal Component Analysis (KPCA), with experiments showing
+that it can further improve accuracy over supervised KPCA
+models that have achieved WSD accuracy superior to the best
+published individual models. Although empirical results with
+supervised KPCA models demonstrate significantly better ac-
+curacy compared to the state-of-the-art achieved by either na??ve
+Bayes or maximum entropy models on Senseval-2 data, we
+identify specific sparse data conditions under which supervised
+KPCA models deteriorate to essentially a most-frequent-sense
+predictor. We discuss the potential of KPCA for leveraging
+unannotated data for partially-unsupervised training to address
+these issues, leading to a composite model that combines both
+the supervised and semi-supervised models.
+1 

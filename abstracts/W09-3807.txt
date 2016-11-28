@@ -1,0 +1,21 @@
+
+Program analysis tools used in software
+maintenance must be robust and ought to
+be accurate. Many data-driven parsing ap-
+proaches developed for natural languages
+are robust and have quite high accuracy
+when applied to parsing of software. We
+show this for the programming languages
+Java, C/C++, and Python. Further studies
+indicate that post-processing can almost
+completely remove the remaining errors.
+Finally, the training data for instantiating
+the generic data-driven parser can be gen-
+erated automatically for formal languages,
+as opposed to the manually development
+of treebanks for natural languages. Hence,
+our approach could improve the robust-
+ness of software maintenance tools, proba-
+bly without showing a significant negative
+effect on their accuracy.
+1 

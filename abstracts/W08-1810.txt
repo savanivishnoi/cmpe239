@@ -1,0 +1,18 @@
+
+Semantic Role Labeling (SRL) has been
+used successfully in several stages of auto-
+mated Question Answering (QA) systems
+but its inherent slow procedures make it
+difficult to use at the indexing stage of the
+document retrieval component. In this pa-
+per we confirm the intuition that SRL at
+indexing stage improves the performance
+of QA and propose a simplified technique
+named the Question Prediction Language
+Model (QPLM), which provides similar in-
+formation with a much lower cost. The
+methods were tested on four different QA
+systems and the results suggest that QPLM
+can be used as a good compromise be-
+tween speed and accuracy.
+1 

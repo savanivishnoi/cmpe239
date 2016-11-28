@@ -1,0 +1,19 @@
+
+We aim to shed light on the state-of-the-art in NP
+coreference resolution by teasing apart the differ-
+ences in the MUC and ACE task definitions, the as-
+sumptions made in evaluation methodologies, and
+inherent differences in text corpora. First, we exam-
+ine three subproblems that play a role in coreference
+resolution: named entity recognition, anaphoric-
+ity determination, and coreference element detec-
+tion. We measure the impact of each subproblem on
+coreference resolution and confirm that certain as-
+sumptions regarding these subproblems in the eval-
+uation methodology can dramatically simplify the
+overall task. Second, we measure the performance
+of a state-of-the-art coreference resolver on several
+classes of anaphora and use these results to develop
+a quantitative measure for estimating coreference
+resolution performance on new data sets.
+1 

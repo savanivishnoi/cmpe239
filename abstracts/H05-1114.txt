@@ -1,0 +1,27 @@
+
+In this paper we investigate an applica-
+tion of feature clustering for word sense
+disambiguation, and propose a semi-
+supervised feature clustering algorithm.
+Compared with other feature clustering
+methods (ex. supervised feature cluster-
+ing), it can infer the distribution of class
+labels over (unseen) features unavailable
+in training data (labeled data) by the use of
+the distribution of class labels over (seen)
+features available in training data. Thus,
+it can deal with both seen and unseen fea-
+tures in feature clustering process. Our ex-
+perimental results show that feature clus-
+tering can aggressively reduce the dimen-
+sionality of feature space, while still main-
+taining state of the art sense disambigua-
+tion accuracy. Furthermore, when com-
+bined with a semi-supervised WSD algo-
+rithm, semi-supervised feature clustering
+outperforms other dimensionality reduc-
+tion techniques, which indicates that using
+unlabeled data in learning process helps to
+improve the performance of feature clus-
+tering and sense disambiguation.
+1 

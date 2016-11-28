@@ -1,0 +1,33 @@
+
+Many approaches for named entity recogni-
+tion rely on dictionaries gathered from cu-
+rated databases (such as Entrez Gene for
+gene names.) Strategies for matching entries
+in a dictionary against arbitrary text use ei-
+ther inexact string matching that allows for
+known deviations, dictionaries enriched ac-
+cording to some observed rules, or a com-
+bination of both. Such refined dictionar-
+ies cover potential structural, lexical, ortho-
+graphical, or morphological variations. In
+this paper, we present an approach to au-
+tomatically analyze dictionaries to discover
+how names are composed and which varia-
+tions typically occur. This knowledge can
+be constructed by looking at single entries
+(names and synonyms for one gene), and
+then be transferred to entries that show simi-
+lar patterns in one or more synonyms. For
+instance, knowledge about words that are
+frequently missing in (or added to) a name
+(?antigen?, ?protein?, ?human?) could au-
+tomatically be extracted from dictionaries.
+This paper should be seen as a vision paper,
+though we implemented most of the ideas
+presented and show results for the task of
+gene name recognition. The automatically
+extracted name composition rules can eas-
+ily be included in existing approaches, and
+provide valuable insights into the biomedi-
+cal sub-language.
+1 

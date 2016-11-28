@@ -1,0 +1,29 @@
+
+During the past few years, several novel
+text mining algorithms have been de-
+veloped in the context of the BioNLP
+Shared Tasks on Event Extraction. These
+algorithms typically aim at extracting
+biomolecular interactions from text by in-
+specting only the context of one sen-
+tence. However, when humans inter-
+pret biomolecular research articles, they
+usually build upon extensive background
+knowledge of their favorite genes and
+pathways. To make such world knowl-
+edge available to a text mining algorithm,
+it could first be applied to all available lit-
+erature to subsequently make a more in-
+formed decision on which predictions are
+consistent with the current known data. In
+this paper, we introduce our participation
+in the latest Shared Task using the large-
+scale text mining resource EVEX which
+we previously implemented using state-of-
+the-art algorithms, and which was applied
+to the whole of PubMed and PubMed Cen-
+tral. We participated in the Genia Event
+Extraction (GE) and Gene Regulation Net-
+work (GRN) tasks, ranking first in the for-
+mer and fifth in the latter.
+1 

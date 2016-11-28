@@ -1,0 +1,21 @@
+
+Comparing word contexts is a key compo-
+nent of many NLP tasks, but rarely is it
+used in conjunction with additional onto-
+logical knowledge. One problem is that
+the amount of overhead required can be
+high. In this paper, we provide a graphi-
+cal method which easily combines an on-
+tology with contextual information. We
+take advantage of the intrinsic graphical
+structure of an ontology for representing
+a context. In addition, we turn the on-
+tology into a metric space, such that sub-
+graphs within it, which represent contexts,
+can be compared. We develop two vari-
+ants of our graphical method for compar-
+ing contexts. Our analysis indicates that
+our method performs the comparison effi-
+ciently and offers a competitive alternative
+to non-graphical methods.
+1 

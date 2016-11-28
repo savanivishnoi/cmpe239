@@ -1,0 +1,13 @@
+. One of issues in the bootstrapping for named entity recogni-
+tion is how to control annotation errors introduced at every iteration. In
+this paper, we present several heuristics for reducing such errors using
+external resources such as WordNet, encyclopedia and Web documents.
+The bootstrapping is applied for identifying and classifying fine-grained
+geographic named entities, which are useful for applications such as in-
+formation extraction and question answering, as well as standard named
+entities such as PERSON and ORGANIZATION. The experiments show
+the usefulness of the suggested heuristics and the learning curve evalu-
+ated at each bootstrapping loop. When our approach was applied to a
+newspaper corpus, it could achieve 87 F1 value, which is quite promising
+for the fine-grained named entity recognition task.
+1 

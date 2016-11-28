@@ -1,0 +1,19 @@
+
+In this paper, we study the impact of a
+group of features extracted automatically from
+machine-generated parse trees on coreference
+resolution. One focus is on designing syn-
+tactic features using the binding theory as the
+guideline to improve pronoun resolution, al-
+though linguistic phenomenon such as apposi-
+tion is also modeled. These features are ap-
+plied to the Arabic, Chinese and English coref-
+erence resolution systems and their effective-
+ness is evaluated on data from the Automatic
+Content Extraction (ACE) task. The syntactic
+features improve the Arabic and English sys-
+tems significantly, but play a limited role in the
+Chinese one. Detailed analyses are done to un-
+derstand the syntactic features? impact on the
+three coreference systems.
+1 

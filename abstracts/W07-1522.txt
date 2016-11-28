@@ -1,0 +1,24 @@
+
+In this paper, we discuss how to anno-
+tate coreference and predicate-argument re-
+lations in Japanese written text. There
+have been research activities for building
+Japanese text corpora annotated with coref-
+erence and predicate-argument relations as
+are done in the Kyoto Text Corpus version
+4.0 (Kawahara et al, 2002) and the GDA-
+Tagged Corpus (Hasida, 2005). However,
+there is still much room for refining their
+specifications. For this reason, we discuss
+issues in annotating these two types of re-
+lations, and propose a new specification for
+each. In accordance with the specification,
+we built a large-scaled annotated corpus, and
+examined its reliability. As a result of our
+current work, we have released an anno-
+tated corpus named the NAIST Text Corpus1,
+which is used as the evaluation data set in
+the coreference and zero-anaphora resolu-
+tion tasks in Iida et al (2005) and Iida et al
+(2006).
+1 

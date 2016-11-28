@@ -1,0 +1,10 @@
+
+We propose a generic method to per-
+form lexical disambiguation in lexicalized
+grammatical formalisms. It relies on de-
+pendency constraints between words. The
+soundness of the method is due to invariant
+properties of the parsing in a given gram-
+mar that can be computed statically from
+the grammar.
+1 

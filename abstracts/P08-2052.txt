@@ -1,0 +1,18 @@
+
+We present a fast query-based multi-document
+summarizer called FastSum based solely on
+word-frequency features of clusters, docu-
+ments and topics. Summary sentences are
+ranked by a regression SVM. The summa-
+rizer does not use any expensive NLP tech-
+niques such as parsing, tagging of names or
+even part of speech information. Still, the
+achieved accuracy is comparable to the best
+systems presented in recent academic com-
+petitions (i.e., Document Understanding Con-
+ference (DUC)). Because of a detailed fea-
+ture analysis using Least Angle Regression
+(LARS), FastSum can rely on a minimal set of
+features leading to fast processing times: 1250
+news documents in 60 seconds.
+1 

@@ -1,0 +1,17 @@
+
+This paper suggests two ways of improving
+transition-based, non-projective dependency
+parsing. First, we add a transition to an exist-
+ing non-projective parsing algorithm, so it can
+perform either projective or non-projective
+parsing as needed. Second, we present a boot-
+strapping technique that narrows down dis-
+crepancies between gold-standard and auto-
+matic parses used as features. The new ad-
+dition to the algorithm shows a clear advan-
+tage in parsing speed. The bootstrapping
+technique gives a significant improvement to
+parsing accuracy, showing near state-of-the-
+art performance with respect to other parsing
+approaches evaluated on the same data set.
+1 

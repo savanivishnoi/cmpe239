@@ -1,0 +1,16 @@
+
+Motivated by the recent interest in stream-
+ing algorithms for processing large text
+collections, we revisit the work of
+Ravichandran et al (2005) on using the
+Locality Sensitive Hash (LSH) method of
+Charikar (2002) to enable fast, approxi-
+mate comparisons of vector cosine simi-
+larity. For the common case of feature
+updates being additive over a data stream,
+we show that LSH signatures can be main-
+tained online, without additional approxi-
+mation error, and with lower memory re-
+quirements than when using the standard
+offline technique.
+1 

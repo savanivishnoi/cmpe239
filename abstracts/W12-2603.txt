@@ -1,0 +1,25 @@
+
+The multilingual summarization pilot task at
+TAC?11 opened a lot of problems we are fac-
+ing when we try to evaluate summary qual-
+ity in different languages. The additional lan-
+guage dimension greatly increases annotation
+costs. For the TAC pilot task English arti-
+cles were first translated to other 6 languages,
+model summaries were written and submit-
+ted system summaries were evaluated. We
+start with the discussion whether ROUGE can
+produce system rankings similar to those re-
+ceived from manual summary scoring by mea-
+suring their correlation. We study then three
+ways of projecting summaries to a different
+language: projection through sentence align-
+ment in the case of parallel corpora, sim-
+ple summary translation and summarizing ma-
+chine translated articles. Building such sum-
+maries gives opportunity to run additional ex-
+periments and reinforce the evaluation. Later,
+we investigate whether an evaluation based on
+machine translated models can perform close
+to an evaluation based on original models.
+1 

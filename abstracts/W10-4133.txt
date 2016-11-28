@@ -1,0 +1,18 @@
+ 
+This paper presents a Chinese Word 
+Segmentation system for the closed track 
+of CIPS-SIGHAN Word Segmentation 
+Bakeoff 2010. This system adopts a 
+character-based joint approach, which 
+combines a character-based generative 
+model and a character-based discrimina-
+tive model. To further improve the cross-
+domain performance, we use an addi-
+tional semi-supervised learning proce-
+dure to incorporate the unlabeled corpus. 
+The final performance on the closed 
+track for the simplified-character text 
+shows that our system achieves compa-
+rable results with other state-of-the-art 
+systems. 
+1 

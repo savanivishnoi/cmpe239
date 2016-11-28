@@ -1,0 +1,25 @@
+
+Whilst the degree to which a treebank sub-
+scribes to a specific linguistic theory limits
+the usefulness of the resource, the availabil-
+ity of more formats for the same resource
+plays a crucial role both in NLP and linguis-
+tics. Conversion tools and multi-format tree-
+banks are useful for investigating portability
+of NLP systems and validity of annotation.
+Unfortunately, conversion is a quite complex
+task since it involves grammatical rules and
+linguistic knowledge to be incorporated into
+the converter program.
+The paper focusses on a methodology for
+treebank conversion which consists in split-
+ting the process in steps corresponding to
+the kinds of information that have to be con-
+verted, i.e. morphological, structural or re-
+lational syntactic. The advantage is the gen-
+eration of a set of parallel treebanks fea-
+turing progressively differentiated formats.
+An application to the case of an Italian
+dependency-based treebank in a Penn like
+format is described.
+1 

@@ -1,0 +1,11 @@
+ 
+The context in which a phoneme occurs leads to consistent differences in how it is pronounced. Phonologists 
+employ a variety of contextual descriptors, based on factors such as stress and syllable boundaries, to explain 
+phonological variation. However, in developing pronunciation networks for speech recognition systems, little 
+explicit use is made of context other than the use of whole word models and use of triphone models. 
+This paper describes the creation of pronunciation etworks using a wide variety of contextual factors 
+which allow better prediction of pronunciation variation. We use a phoneme level representation which 
+permits easy addition of new words to the vocabulary, with a flexible context representation which allows 
+modeling of long-range ffects, extending over syllables and across word-boundaries. In order to incorporate 
+a wide variety of factors in the creation of pronunciation networks, we used data-derived context rees, which 
+possess properties useful for pronunciation network creation. 

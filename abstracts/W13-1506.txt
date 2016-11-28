@@ -1,0 +1,24 @@
+ 
+Many existing approaches for measuring text 
+complexity tend to overestimate the complexi-
+ty levels of informational texts while simulta-
+neously underestimating the complexity levels 
+of literary texts. We present a two-stage esti-
+mation technique that successfully addresses 
+this problem.  At Stage 1, each text is classi-
+fied into one or another of three possible ge-
+nres:  informational, literary or mixed.  Next, 
+at Stage 2, a complexity score is generated for 
+each text by applying one or another of three 
+possible prediction models:  one optimized for 
+application to informational texts, one opti-
+mized for application to literary texts, and one 
+optimized for application to mixed texts.  
+Each model combines lexical, syntactic and 
+discourse features, as appropriate, to best rep-
+licate human complexity judgments. We dem-
+onstrate that resulting text complexity 
+predictions are both unbiased, and highly cor-
+related with classifications provided by expe-
+rienced educators. 
+1 

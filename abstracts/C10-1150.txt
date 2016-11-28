@@ -1,0 +1,23 @@
+ 
+Ambiguity of entity mentions and con-
+cept references is a challenge to mining 
+text beyond surface-level keywords. We 
+describe an effective method of disambi-
+guating surface forms and resolving them 
+to Wikipedia entities and concepts. Our 
+method employs an extensive set of fea-
+tures mined from Wikipedia and other 
+large data sources, and combines the fea-
+tures using a machine learning approach 
+with automatically generated training da-
+ta. Based on a manually labeled evalua-
+tion set containing over 1000 news ar-
+ticles, our resolution model has 85% pre-
+cision and 87.8% recall. The performance 
+is significantly better than three baselines 
+based on traditional context similarities 
+or sense commonness measurements. Our 
+method can be applied to other languages 
+and scales well to new entities and con-
+cepts. 
+1 

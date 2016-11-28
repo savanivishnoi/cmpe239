@@ -1,0 +1,16 @@
+
+We propose a model of natural language inference which identifies
+valid inferences by their lexical and syntactic features, without full se-
+mantic interpretation. We extend past work in natural logic, which has
+focused on semantic containment and monotonicity, by incorporating
+both semantic exclusion and implicativity. Our model decomposes an
+inference problem into a sequence of atomic edits linking premise to hy-
+pothesis; predicts a lexical semantic relation for each edit; propagates
+these relations upward through a semantic composition tree according
+to properties of intermediate nodes; and joins the resulting semantic
+relations across the edit sequence. A computational implementation
+of the model achieves 70% accuracy and 89% precision on the FraCaS
+test suite. Moreover, including this model as a component in an ex-
+isting system yields significant performance gains on the Recognizing
+Textual Entailment challenge.
+1 

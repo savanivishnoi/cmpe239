@@ -1,0 +1,22 @@
+ 
+Cross-language document summarization is de-
+fined as the task of producing a summary in a 
+target language (e.g. Chinese) for a set of 
+documents in a source language (e.g. English). 
+Existing methods for addressing this task make 
+use of either the information from the original 
+documents in the source language or the infor-
+mation from the translated documents in the 
+target language. In this study, we propose to use 
+the bilingual information from both the source 
+and translated documents for this task. Two 
+summarization methods (SimFusion and 
+CoRank) are proposed to leverage the bilingual 
+information in the graph-based ranking frame-
+work for cross-language summary extraction. 
+Experimental results on the DUC2001 dataset 
+with manually translated reference Chinese 
+summaries show the effectiveness of the pro-
+posed methods.  
+ 
+1 

@@ -1,0 +1,17 @@
+
+This paper presents a method of improv-
+ing the accuracy of subcategorization
+frames (SCFs) acquired from corpora to
+augment existing lexicon resources. I
+estimate a confidence value of each SCF
+using corpus-based statistics, and then
+perform clustering of SCF confidence-
+value vectors for words to capture co-
+occurrence tendency among SCFs in the
+lexicon. I apply my method to SCFs
+acquired from corpora using lexicons
+of two large-scale lexicalized grammars.
+The resulting SCFs achieve higher pre-
+cision and recall compared to SCFs ob-
+tained by naive frequency cut-off.
+1 

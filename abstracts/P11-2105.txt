@@ -1,0 +1,16 @@
+
+Recently, hierarchical text classification has
+become an active research topic. The essential
+idea is that the descendant classes can share
+the information of the ancestor classes in a
+predefined taxonomy. In this paper, we claim
+that each class has several latent concepts and
+its subclasses share information with these d-
+ifferent concepts respectively. Then, we pro-
+pose a variant Passive-Aggressive (PA) algo-
+rithm for hierarchical text classification with
+latent concepts. Experimental results show
+that the performance of our algorithm is com-
+petitive with the recently proposed hierarchi-
+cal classification algorithms.
+1 

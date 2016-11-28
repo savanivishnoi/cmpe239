@@ -1,0 +1,21 @@
+
+I present an automatic post-editing ap-
+proach that combines translation systems
+which produce syntactic trees as output.
+The nodes in the generation tree and target-
+side SCFG tree are aligned and form
+the basis for computing structural similar-
+ity. Structural similarity computation aligns
+subtrees and based on this alignment, sub-
+trees are substituted to create more accu-
+rate translations. Two different techniques
+have been implemented to compute struc-
+tural similarity: leaves and tree-edit dis-
+tance. I report on the translation quality of
+a machine translation (MT) system where
+both techniques are implemented. The ap-
+proach shows significant improvement over
+the baseline for MT systems with limited
+training data and structural improvement
+for MT systems trained on Europarl.
+1 

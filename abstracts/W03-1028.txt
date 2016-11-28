@@ -1,0 +1,19 @@
+
+In this paper, experiments on automatic
+extraction of keywords from abstracts us-
+ing a supervised machine learning algo-
+rithm are discussed. The main point of this
+paper is that by adding linguistic know-
+ledge to the representation (such as syn-
+tactic features), rather than relying only on
+statistics (such as term frequency and n-
+grams), a better result is obtained as mea-
+sured by keywords previously assigned by
+professional indexers. In more detail, ex-
+tracting NP-chunks gives a better preci-
+sion than n-grams, and by adding the POS
+tag(s) assigned to the term as a feature, a
+dramatic improvement of the results is ob-
+tained, independent of the term selection
+approach applied.
+1 

@@ -1,0 +1,23 @@
+
+In this paper, we analyze the state of cur-
+rent human and automatic evaluation of
+topic-focused summarization in the Docu-
+ment Understanding Conference main task
+for 2005-2007. The analyses show that
+while ROUGE has very strong correlation
+with responsiveness for both human and
+automatic summaries, there is a signifi-
+cant gap in responsiveness between hu-
+mans and systems which is not accounted
+for by the ROUGE metrics. In addition
+to teasing out gaps in the current auto-
+matic evaluation, we propose a method
+to maximize the strength of current auto-
+matic evaluations by using the method of
+canonical correlation. We apply this new
+evaluation method, which we call ROSE
+(ROUGE Optimal Summarization Evalua-
+tion), to find the optimal linear combina-
+tion of ROUGE scores to maximize corre-
+lation with human responsiveness.
+1 

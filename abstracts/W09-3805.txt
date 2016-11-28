@@ -1,0 +1,28 @@
+
+Empirical lower bounds studies in which
+the frequency of alignment configurations
+that cannot be induced by a particular for-
+malism is estimated, have been important
+for the development of syntax-based ma-
+chine translation formalisms. The for-
+malism that has received most attention
+has been inversion transduction grammars
+(ITGs) (Wu, 1997). All previous work
+on the coverage of ITGs, however, con-
+cerns parse failure rates (PFRs) or sen-
+tence level coverage, which is not di-
+rectly related to any of the evaluation mea-
+sures used in machine translation. S?gaard
+and Kuhn (2009) induce lower bounds on
+translation unit error rates (TUERs) for a
+number of formalisms, incl. normal form
+ITGs, but not for the full class of ITGs.
+Many of the alignment configurations that
+cannot be induced by normal form ITGs
+can be induced by unrestricted ITGs, how-
+ever. This paper estimates the difference
+and shows that the average reduction in
+lower bounds on TUER is 2.48 in absolute
+difference (16.01 in average parse failure
+rate).
+1 

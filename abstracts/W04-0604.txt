@@ -1,0 +1,19 @@
+ 
+A method for mapping linguistic descrip-
+tions in plain XML into semantically rich 
+RDF/OWL is outlined and demonstrated. 
+Starting with Simons?s (2003) original 
+proof of concept of this method, we extend 
+his Semantic Interpretation Language (SIL) 
+for creating metaschemas to carry out the 
+mapping, employ the General Ontology for 
+Linguistic Description (GOLD) of Farrar 
+and Langendoen (2003) as the target se-
+mantic schema, and make use of SeRQL, 
+an RDF-aware search engine. This data 
+migration effort is in keeping with the vi-
+sion of a Semantic Web; it is part of an ef-
+fort to build a ?community of practice? 
+around semantically rich linguistic re-
+sources. 
+1 

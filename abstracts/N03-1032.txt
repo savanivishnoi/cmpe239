@@ -1,0 +1,23 @@
+
+Statistical measures of word similarity have ap-
+plication in many areas of natural language pro-
+cessing, such as language modeling and in-
+formation retrieval. We report a comparative
+study of two methods for estimating word co-
+occurrence frequencies required by word sim-
+ilarity measures. Our frequency estimates are
+generated from a terabyte-sized corpus of Web
+data, and we study the impact of corpus size
+on the effectiveness of the measures. We base
+the evaluation on one TOEFL question set and
+two practice questions sets, each consisting of
+a number of multiple choice questions seek-
+ing the best synonym for a given target word.
+For two question sets, a context for the target
+word is provided, and we examine a number of
+word similarity measures that exploit this con-
+text. Our best combination of similarity mea-
+sure and frequency estimation method answers
+6-8% more questions than the best results pre-
+viously reported for the same question sets.
+1 

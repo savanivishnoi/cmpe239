@@ -1,0 +1,18 @@
+
+We present an adaptive technique that en-
+ables users to produce a high quality dic-
+tionary parsed into its lexicographic com-
+ponents (headwords, pronunciations, parts
+of speech, translations, etc.) using an
+extremely small amount of user provided
+training data. We use transformation-
+based learning (TBL) as a postprocessor at
+two points in our system to improve per-
+formance. The results using two dictio-
+naries show that the tagging accuracy in-
+creases from 83% and 91% to 93% and
+94% for individual words or ?tokens?, and
+from 64% and 83% to 90% and 93% for
+contiguous ?phrases? such as definitions
+or examples of usage.
+1 

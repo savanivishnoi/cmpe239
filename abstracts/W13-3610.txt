@@ -1,0 +1,11 @@
+
+This paper describes our system in the shared
+task of CoNLL-2013. We illustrate that gram-
+matical error detection and correction can be
+transformed into a multiclass classification
+task and implemented as a single-model sys-
+tem regardless of various error types with the
+aid of maximum entropy modeling. Our sys-
+tem achieves the F1 score of 17.13% on the
+standard test set.
+1 

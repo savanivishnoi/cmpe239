@@ -1,0 +1,28 @@
+
+Despite the existence of several noun phrase coref-
+erence resolution data sets as well as several for-
+mal evaluations on the task, it remains frustratingly
+difficult to compare results across different corefer-
+ence resolution systems. This is due to the high cost
+of implementing a complete end-to-end coreference
+resolution system, which often forces researchers
+to substitute available gold-standard information in
+lieu of implementing a module that would compute
+that information. Unfortunately, this leads to incon-
+sistent and often unrealistic evaluation scenarios.
+With the aim to facilitate consistent and realis-
+tic experimental evaluations in coreference resolu-
+tion, we present Reconcile, an infrastructure for the
+development of learning-based noun phrase (NP)
+coreference resolution systems. Reconcile is de-
+signed to facilitate the rapid creation of corefer-
+ence resolution systems, easy implementation of
+new feature sets and approaches to coreference res-
+olution, and empirical evaluation of coreference re-
+solvers across a variety of benchmark data sets and
+standard scoring metrics. We describe Reconcile
+and present experimental results showing that Rec-
+oncile can be used to create a coreference resolver
+that achieves performance comparable to state-of-
+the-art systems on six benchmark data sets.
+1 

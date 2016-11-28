@@ -1,0 +1,22 @@
+ 
+In this paper we present an overview of 
+recent developments in discourse the-
+ory and parsing under the Linguistic 
+Discourse Model (LDM) framework, a 
+semantic theory of discourse structure. 
+We give a novel approach to the prob-
+lem of discourse segmentation based 
+on discourse semantics and sketch a 
+limited but robust approach to sym-
+bolic discourse parsing based on syn-
+tactic, semantic and lexical rules. To 
+demonstrate the utility of the system in 
+a real application, we briefly describe 
+the architecture of the PALSUMM sys-
+tem, a symbolic summarization system 
+being developed at FX Palo Alto Labo-
+ratory that uses discourse structures 
+constructed using the theory outlined 
+to summarize written English prose 
+texts. 1 
+1 

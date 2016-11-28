@@ -1,0 +1,18 @@
+ 
+We propose an effective approach to auto-
+matically identify predicate heads in Chinese 
+sentences based on statistical pre-processing 
+and rule-based post-processing. In the pre-
+processing stage, the maximal noun phrases in 
+a sentence are recognized and replaced by 
+?NP? labels to simplify the sentence structure. 
+Then a CRF model is trained to recognize the 
+predicate heads of this simplified sentence. In 
+the post-processing stage, a rule base is built 
+according to the grammatical features of 
+predicate heads. It is then utilized to correct 
+the preliminary recognition results. Experi-
+mental results show that our approach is feasi-
+ble and effective, and its accuracy achieves 
+89.14% on Tsinghua Chinese Treebank. 
+1 

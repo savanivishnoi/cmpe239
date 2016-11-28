@@ -1,0 +1,12 @@
+. The merit of phrase-based statistical machine translation is
+often reduced by the complexity to construct it. In this paper, we ad-
+dress some issues in phrase-based statistical machine translation, namely:
+the size of the phrase translation table, the use of underlying transla-
+tion model probability and the length of the phrase unit. We present
+Level-Of-Detail (LOD) approach, an agglomerative approach for learn-
+ing phrase-level alignment. Our experiments show that LOD approach
+significantly improves the performance of the word-based approach. LOD
+demonstrates a clear advantage that the phrase translation table grows
+only sub-linearly over the maximum phrase length, while having a per-
+formance comparable to those of other phrase-based approaches.
+1 

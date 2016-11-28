@@ -1,0 +1,20 @@
+
+Detecting conflicting statements is a foun-
+dational text understanding task with appli-
+cations in information analysis. We pro-
+pose an appropriate definition of contradiction
+for NLP tasks and develop available corpora,
+from which we construct a typology of con-
+tradictions. We demonstrate that a system for
+contradiction needs to make more fine-grained
+distinctions than the common systems for en-
+tailment. In particular, we argue for the cen-
+trality of event coreference and therefore in-
+corporate such a component based on topical-
+ity. We present the first detailed breakdown
+of performance on this task. Detecting some
+types of contradiction requires deeper inferen-
+tial paths than our system is capable of, but
+we achieve good performance on types arising
+from negation and antonymy.
+1 

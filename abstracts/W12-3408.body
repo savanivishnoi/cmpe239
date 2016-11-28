@@ -1,0 +1,18 @@
+
+Although parsing performances have greatly
+improved in the last years, grammar inference
+from treebanks for morphologically rich lan-
+guages, especially from small treebanks, is
+still a challenging task. In this paper we in-
+vestigate how state-of-the-art parsing perfor-
+mances can be achieved on Spanish, a lan-
+guage with a rich verbal morphology, with a
+non-lexicalized parser trained on a treebank
+containing only around 2,800 trees. We rely
+on accurate part-of-speech tagging and data-
+driven lemmatization to provide parsing mod-
+els able to cope lexical data sparseness. Pro-
+viding state-of-the-art results on Spanish, our
+methodology is applicable to other languages
+with high level of inflection.
+1 

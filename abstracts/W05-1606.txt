@@ -1,0 +1,19 @@
+
+Algorithms for generating referring expressions 
+typically assume that an object in a scenary can be 
+identified through a set of commonly agreed 
+properties. This is a strong assumption, since in 
+reality properties of objects may be perceived differ-
+ently among people, due to a number of factors 
+including vagueness, knowledge discrepancies, and 
+limited perception capabilities. Taking these discre-
+pancies into account, we reinterpret concepts of 
+algorithms generating referring expressions in view 
+of uncertainties about the appearance of objects. Our 
+model includes two complementary measures of 
+likelihood in object identification, and adapted 
+property selection and termination criteria. The 
+approach is relevant for situations with potential 
+perception problems and for scenarios with knowl-
+edge discrepancies between conversants.
+1 

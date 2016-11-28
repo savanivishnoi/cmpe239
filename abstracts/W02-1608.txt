@@ -1,0 +1,24 @@
+
+Information on subcategorization and selec-
+tional restrictions is very important for nat-
+ural language processing in tasks such as
+monolingual parsing, accurate rule-based ma-
+chine translation and automatic summarization.
+However, adding this detailed information to a
+valency dictionary is both time consuming and
+costly.
+In this paper we present a method of assign-
+ing valency information and selectional restric-
+tions to entries in a bilingual dictionary, based
+on information in an existing valency dictio-
+nary. The method is based on two assump-
+tions: words with similar meaning have simi-
+lar subcategorization frames and selectional re-
+strictions; and words with the same translations
+have similar meanings. Based on these assump-
+tions, new valency entries are constructed for
+words in a plain bilingual dictionary, using en-
+tries with similar source-language meaning and
+the same target-language translations. We eval-
+uate the effects of various measures of similarity.
+1 

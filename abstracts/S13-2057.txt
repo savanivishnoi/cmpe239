@@ -1,0 +1,21 @@
+
+This paper presents the multi-phase relation
+extraction (RE) approach which was used for
+the DDI Extraction task of SemEval 2013. As
+a preliminary step, the proposed approach in-
+directly (and automatically) exploits the scope
+of negation cues and the semantic roles of in-
+volved entities for reducing the skewness in
+the training data as well as discarding possible
+negative instances from the test data. Then, a
+state-of-the-art hybrid kernel is used to train
+a classifier which is later applied on the in-
+stances of the test data not filtered out by the
+previous step. The official results of the task
+show that our approach yields an F-score of
+0.80 for DDI detection and an F-score of 0.65
+for DDI detection and classification. Our sys-
+tem obtained significantly higher results than
+all the other participating teams in this shared
+task and has been ranked 1st.
+1 

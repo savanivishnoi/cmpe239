@@ -1,0 +1,22 @@
+ 
+This paper proposes a context-sensitive convo-
+lution tree kernel for pronoun resolution. It re-
+solves two critical problems in previous 
+researches in two ways. First, given a parse 
+tree and a pair of an anaphor and an antecedent 
+candidate, it implements a dynamic-expansion 
+scheme to automatically determine a proper 
+tree span for pronoun resolution by taking 
+predicate- and antecedent competitor-related 
+information into consideration. Second, it ap-
+plies a context-sensitive convolution tree ker-
+nel, which enumerates both context-free and 
+context-sensitive sub-trees by considering their 
+ancestor node paths as their contexts. Evalua-
+tion on the ACE 2003 corpus shows that our 
+dynamic-expansion tree span scheme can well 
+cover necessary structured information in the 
+parse tree for pronoun resolution and the con-
+text-sensitive tree kernel much outperforms 
+previous tree kernels.  
+1 

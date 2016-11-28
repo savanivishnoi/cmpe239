@@ -1,0 +1,21 @@
+
+Previous work has shown that high quality
+phrasal paraphrases can be extracted from
+bilingual parallel corpora. However, it is not
+clear whether bitexts are an appropriate re-
+source for extracting more sophisticated sen-
+tential paraphrases, which are more obviously
+learnable from monolingual parallel corpora.
+We extend bilingual paraphrase extraction to
+syntactic paraphrases and demonstrate its abil-
+ity to learn a variety of general paraphrastic
+transformations, including passivization, da-
+tive shift, and topicalization. We discuss how
+our model can be adapted to many text gener-
+ation tasks by augmenting its feature set, de-
+velopment data, and parameter estimation rou-
+tine. We illustrate this adaptation by using
+our paraphrase model for the task of sentence
+compression and achieve results competitive
+with state-of-the-art compression systems.
+1 

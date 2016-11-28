@@ -1,0 +1,18 @@
+
+Many real-world systems for handling unstructured
+text data are rule-based. Examples of such systems
+are named entity annotators, information extraction
+systems, and text classifiers. In each of these appli-
+cations, ordering rules into a decision list is an im-
+portant issue. In this paper, we assume that a set of
+rules is given and study the problem (MaxDL) of or-
+dering them into an optimal decision list with respect
+to a given training set. We formalize this problem
+and show that it is NP-Hard and cannot be approxi-
+mated within any reasonable factors. We then propose
+some heuristic algorithms and conduct exhaustive ex-
+periments to evaluate their performance. In our ex-
+periments we also observe performance improvement
+over an existing decision list learning algorithm, by
+merely re-ordering the rules output by it.
+1 

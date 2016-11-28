@@ -1,0 +1,14 @@
+
+We propose a structure called dependency
+forest for statistical machine translation.
+A dependency forest compactly represents
+multiple dependency trees. We develop
+new algorithms for extracting string-to-
+dependency rules and training depen-
+dency language models. Our forest-based
+string-to-dependency system obtains sig-
+nificant improvements ranging from 1.36
+to 1.46 BLEU points over the tree-based
+baseline on the NIST 2004/2005/2006
+Chinese-English test sets.
+1 

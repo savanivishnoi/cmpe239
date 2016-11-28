@@ -1,0 +1,19 @@
+
+Out-of-vocabulary (OOV) words represent an
+important source of error in large vocabulary
+continuous speech recognition (LVCSR) sys-
+tems. These words cause recognition failures,
+which propagate through pipeline systems im-
+pacting the performance of downstream ap-
+plications. The detection of OOV regions in
+the output of a LVCSR system is typically ad-
+dressed as a binary classification task, where
+each region is independently classified using
+local information. In this paper, we show that
+jointly predicting OOV regions, and includ-
+ing contextual information from each region,
+leads to substantial improvement in OOV de-
+tection. Compared to the state-of-the-art, we
+reduce the missed OOV rate from 42.6% to
+28.4% at 10% false alarm rate.
+1 

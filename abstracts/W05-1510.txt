@@ -1,0 +1,20 @@
+
+We describe probabilistic models for a
+chart generator based on HPSG. Within
+the research field of parsing with lex-
+icalized grammars such as HPSG, re-
+cent developments have achieved efficient
+estimation of probabilistic models and
+high-speed parsing guided by probabilis-
+tic models. The focus of this paper is
+to show that two essential techniques ?
+model estimation on packed parse forests
+and beam search during parsing ? are suc-
+cessfully exported to the task of natural
+language generation. Additionally, we re-
+port empirical evaluation of the perfor-
+mance of several disambiguation models
+and how the performance changes accord-
+ing to the feature set used in the models
+and the size of training data.
+1 

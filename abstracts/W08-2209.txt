@@ -1,0 +1,18 @@
+
+In this paper we will present a system for Question Answering called
+GETARUNS, in its deep version applicable to closed domains, that is to
+say domains for which the lexical semantics is fully specified and does
+not have to be induced. In addition, no ontology is needed: semantic re-
+lations are derived from linguistic relations encoded in the syntax. The
+main tenet of the system is that it is possible to produce consistent seman-
+tic representations using a strict linguistic approach without resorting to
+extralinguistic knowledge sources. The paper will briefly present the low
+level component which is responsible for pronominal binding, quantifier
+raising and temporal interpretation. Then it will discuss in more detail
+the high level component where a Discourse Model is created from text.
+The system has been evaluated on a wide variety of texts from closed
+domains, producing full and accurate parsing, semantics and anaphora
+resolution for all sentences.
+103
+104 Delmonte and Pianta
+1 

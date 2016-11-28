@@ -1,0 +1,34 @@
+
+Coedition of a natural language text and its representation in some interlingual form seems the best and simplest way to
+share text revision across languages. For various reasons, UNL graphs are the best candidates in this context. We are
+developing a prototype where, in the simplest sharing scenario, naive users interact directly with the text in their
+language (L0), and indirectly with the associated graph. The modified graph is then sent to the UNL-L0 deconverter and
+the result shown. If is is satisfactory, the errors were probably due to the graph, not to the deconverter, and the graph is
+sent to deconverters in other languages. Versions in some other languages known by the user may be displayed, so that
+improvement sharing is visible and encouraging. As new versions are added with appropriate tags and attributes in the
+original multilingual document, nothing is ever lost, and cooperative working on a document is rendered feasible. On the
+internal side, liaisons are established between elements of the text and the graph by using broadly available resources
+such as a L0-English or better a L0-UNL dictionary, a morphosyntactic parser of L0, and a canonical graph2tree
+transformation. Establishing a "best" correspondence between the "UNL-tree+L0" and the "MS-L0 structure", a lattice,
+may be done using the dictionary and trying to align the tree and the selected trajectory with as few crossing liaisons as
+possible. A central goal of this research is to merge approaches from pivot MT, interactive MT, and multilingual text
+authoring.
+Keywords: revision sharing, interlingual representation, text / UNL coedition, multilingual communication
+R?sum?
+La co?dition d'un texte en langue naturelle et de sa repr?sentation dans une forme interlingue semble le moyen le
+meilleur et le plus simple de partager la r?vision du texte vers plusieurs langues. Pour diverses raisons, les graphes UNL
+sont les meilleurs candidats dans ce contexte. Nous d?veloppons un prototype o?, dans le sc?nario avec partage le plus
+simple, des utilisateurs "na?fs" interagissent directement avec le texte dans leur langue (L0), et indirectement avec le
+graphe associ?. Le graphe modifi? est ensuite envoy? au d?convertisseur UNL-L0 et le r?sultat est affich?. S'il est
+satisfaisant, les erreurs ?taient probablement dues au graphe et non au d?convertisseur, et le graphe est envoy? aux
+d?convertisseurs vers d'autres langues. Les versions dans certaines autres langues connues de l'utilisateur peuvent ?tre
+affich?es, de sorte que le partage de l'am?lioration soit visible et encourageant. Comme les nouvelles versions sont
+ajout?es dans le document multilingue original avec des balises et des attributs appropri?s, rien n'est jamais perdu, et le
+travail coop?ratif sur un m?me document est rendu possible. Du c?t? interne, des liaisons sont ?tablies entre des
+?l?ments du texte et du graphe en utilisant des ressources largement disponibles comme un dictionnaire L0-anglais, ou
+mieux L0-UNL, un analyseur morphosyntaxique de L0, et une transformation canonique de graphe UNL ? arbre. On
+peut ?tablir une "meilleure" correspondance entre "l'arbre-UNL+L0" et la "structure MS-L0", une treille, en utilisant le
+dictionnaire et en cherchant ? aligner l'arbre et une trajectoire avec aussi peu que possible de croisements de liaisons. Un
+but central de cette recherche est de fusionner les approches de la TA par pivot, de la TA interactive, et de la g?n?ration
+multilingue de texte.
+Mots-cl?s: r?vision partag?e, repr?sentation interlingue, co?dition texte / UNL, communication multilingue

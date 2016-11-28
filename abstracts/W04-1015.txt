@@ -1,0 +1,17 @@
+
+In this paper a sentence compression tool is de-
+scribed. We describe how an input sentence gets
+analysed by using a.o. a tagger, a shallow parser
+and a subordinate clause detector, and how, based
+on this analysis, several compressed versions of this
+sentence are generated, each with an associated es-
+timated probability. These probabilities were esti-
+mated from a parallel transcript/subtitle corpus. To
+avoid ungrammatical sentences, the tool also makes
+use of a number of rules. The evaluation was done
+on three different pronunciation speeds, averaging
+sentence reduction rates of 40% to 17%. The num-
+ber of reasonable reductions ranges between 32.9%
+and 51%, depending on the average estimated pro-
+nunciation speed.
+1 

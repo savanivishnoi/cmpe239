@@ -1,0 +1,16 @@
+
+Active learning is well-suited to many prob-
+lems in natural language processing, where
+unlabeled data may be abundant but annota-
+tion is slow and expensive. This paper aims
+to shed light on the best active learning ap-
+proaches for sequence labeling tasks such as
+information extraction and document segmen-
+tation. We survey previously used query selec-
+tion strategies for sequence models, and pro-
+pose several novel algorithms to address their
+shortcomings. We also conduct a large-scale
+empirical comparison using multiple corpora,
+which demonstrates that our proposed meth-
+ods advance the state of the art.
+1 

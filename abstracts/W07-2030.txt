@@ -1,0 +1,13 @@
+ 
+Entity disambiguation resolves the many-
+to-many correspondence between mentions 
+of entities in text and unique real-world en-
+tities.  Fair Isaac?s entity disambiguation 
+uses language-independent entity context 
+to agglomeratively resolve mentions with 
+similar names to unique entities.  This pa-
+per describes Fair Isaac?s automatic entity 
+disambiguation capability and assesses its 
+performance on the SemEval 2007 Web 
+People Search task. 
+1 

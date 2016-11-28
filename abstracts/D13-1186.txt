@@ -1,0 +1,11 @@
+
+This paper introduces IQPs (Integer Quadratic
+Programs) as a way to model joint inference
+for the task of concept recognition in clinical
+domain. IQPs make it possible to easily in-
+corporate soft constraints in the optimization
+framework and still support exact global infer-
+ence. We show that soft constraints give statis-
+tically significant performance improvements
+when compared to hard constraints.
+1 

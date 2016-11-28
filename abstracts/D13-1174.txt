@@ -1,0 +1,20 @@
+
+Translation into morphologically rich lan-
+guages is an important but recalcitrant prob-
+lem in MT. We present a simple and effec-
+tive approach that deals with the problem in
+two phases. First, a discriminative model is
+learned to predict inflections of target words
+from rich source-side annotations. Then, this
+model is used to create additional sentence-
+specific word- and phrase-level translations
+that are added to a standard translation model
+as ?synthetic? phrases. Our approach re-
+lies on morphological analysis of the target
+language, but we show that an unsupervised
+Bayesian model of morphology can success-
+fully be used in place of a supervised analyzer.
+We report significant improvements in transla-
+tion quality when translating from English to
+Russian, Hebrew and Swahili.
+1 

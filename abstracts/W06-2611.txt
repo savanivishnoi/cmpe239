@@ -1,0 +1,21 @@
+ 
+This article describes a robust semantic 
+parser that uses a broad knowledge base 
+created by interconnecting three major 
+resources: FrameNet, VerbNet and 
+PropBank. The FrameNet corpus con-
+tains the examples annotated with se-
+mantic roles whereas the VerbNet lexi-
+con provides the knowledge about the 
+syntactic behavior of the verbs. We 
+connect VerbNet and FrameNet by 
+mapping the FrameNet frames to the 
+VerbNet Intersective Levin classes. The 
+PropBank corpus, which is tightly con-
+nected to the VerbNet lexicon, is used to 
+increase the verb coverage and also to 
+test the effectiveness of our approach. 
+The results indicate that our model is an 
+interesting step towards the design of 
+free-text semantic parsers. 
+1 

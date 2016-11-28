@@ -1,0 +1,25 @@
+ 
+We conduct a series of Part-of-Speech 
+(POS) Tagging experiments using Ex-
+pectation Maximization (EM), Varia-
+tional Bayes (VB) and Gibbs Sampling 
+(GS) against the Chinese Penn Tree-
+bank.  We want to first establish a base-
+line for unsupervised POS tagging in 
+Chinese, which will facilitate future re-
+search in this area.  Secondly, by com-
+paring and analyzing the results between 
+Chinese and English, we highlight some 
+of the strengths and weaknesses of each 
+of the algorithms in POS tagging task 
+and attempt to explain the differences 
+based on some preliminary linguistics 
+analysis.  Comparing to English, we find 
+that all algorithms perform rather poorly 
+in Chinese in 1-to-1 accuracy result but 
+are more competitive in many-to-1 accu-
+racy.  We attribute one possible explana-
+tion of this to the algorithms? inability to 
+correctly produce tags that match the 
+desired tag count distribution. 
+1 

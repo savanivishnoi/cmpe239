@@ -1,0 +1,21 @@
+
+Recently, dependency grammar has gained renewed
+attention as empirical methods in parsing have
+emphasized the importance of relations between
+words, which is what dependency grammars model
+explicitly, but context-free phrase-structure gram-
+mars do not. While there has been much work on
+formalizing dependency grammar and on parsing
+algorithms for dependency grammars in the past,
+there is not a complete generative formalization of
+dependency grammar based on string-rewriting in
+which the derivation structure is the desired depen-
+dency structure. Such a system allows for the defi-
+nition of a compact parse forest in a straightforward
+manner. In this paper, we present a simple gen-
+erative formalism for dependency grammars based
+on Extended Context-Free Grammar, along with
+a parser; the formalism captures the intuitions of
+previous formalizations while deviating minimally
+from the much-used Context-Free Grammar.
+1 

@@ -1,0 +1,20 @@
+
+State-of-the-art Chinese word segmenta-
+tion systems have achieved high perfor-
+mance when training data and testing data
+are from the same domain. However, they
+suffer from the generalizability problem
+when applied on test data from different
+domains. We introduce a multi-layer Chi-
+nese word segmentation system which can
+integrate the outputs from multiple hetero-
+geneous segmentation systems. By train-
+ing a second layer of large margin clas-
+sifier on top of the outputs from several
+Conditional Random Fields classifiers, it
+can utilize a small amount of in-domain
+training data to improve the performance.
+Experimental results show consistent im-
+provement on F1 scores and OOV recall
+rates by applying the approach.
+1 

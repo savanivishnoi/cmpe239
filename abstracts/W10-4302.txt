@@ -1,0 +1,23 @@
+
+Incremental natural language understand-
+ing is the task of assigning semantic rep-
+resentations to successively larger prefixes
+of utterances. We compare two types of
+statistical models for this task: a) local
+models, which predict a single class for
+an input; and b), sequential models, which
+align a sequence of classes to a sequence
+of input tokens. We show that, with some
+modifications, the first type of model can
+be improved and made to approximate the
+output of the second, even though the lat-
+ter is more informative. We show on two
+different data sets that both types of model
+achieve comparable performance (signifi-
+cantly better than a baseline), with the first
+type requiring simpler training data. Re-
+sults for the first type of model have been
+reported in the literature; we show that for
+our kind of data our more sophisticated
+variant of the model performs better.
+1 

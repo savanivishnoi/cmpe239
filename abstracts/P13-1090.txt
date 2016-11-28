@@ -1,0 +1,31 @@
+
+Finding concepts in natural language ut-
+terances is a challenging task, especially
+given the scarcity of labeled data for learn-
+ing semantic ambiguity. Furthermore,
+data mismatch issues, which arise when
+the expected test (target) data does not
+exactly match the training data, aggra-
+vate this scarcity problem. To deal with
+these issues, we describe an efficient semi-
+supervised learning (SSL) approach which
+has two components: (i) Markov Topic
+Regression is a new probabilistic model
+to cluster words into semantic tags (con-
+cepts). It can efficiently handle seman-
+tic ambiguity by extending standard topic
+models with two new features. First, it en-
+codes word n-gram features from labeled
+source and unlabeled target data. Sec-
+ond, by going beyond a bag-of-words ap-
+proach, it takes into account the inherent
+sequential nature of utterances to learn se-
+mantic classes based on context. (ii) Ret-
+rospective Learner is a new learning tech-
+nique that adapts to the unlabeled target
+data. Our new SSL approach improves
+semantic tagging performance by 3% ab-
+solute over the baseline models, and also
+compares favorably on semi-supervised
+syntactic tagging.
+1 

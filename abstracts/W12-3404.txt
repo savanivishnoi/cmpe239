@@ -1,0 +1,14 @@
+
+This paper introduces a novel unsupervised
+approach to semantic role induction that uses
+a generative Bayesian model. To the best of
+our knowledge, it is the first model that jointly
+clusters syntactic verbs arguments into seman-
+tic roles, and also creates verbs classes ac-
+cording to the syntactic frames accepted by
+the verbs. The model is evaluated on French
+and English, outperforming, in both cases, a
+strong baseline. On English, it achieves re-
+sults comparable to state-of-the-art unsuper-
+vised approaches to semantic role induction.
+1 

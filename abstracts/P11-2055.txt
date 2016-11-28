@@ -1,0 +1,24 @@
+
+This paper describes a set of exploratory ex-
+periments for a multilingual classification-
+based approach to Word Sense Disambigua-
+tion. Instead of using a predefined monolin-
+gual sense-inventory such as WordNet, we use
+a language-independent framework where the
+word senses are derived automatically from
+word alignments on a parallel corpus. We built
+five classifiers with English as an input lan-
+guage and translations in the five supported
+languages (viz. French, Dutch, Italian, Span-
+ish and German) as classification output. The
+feature vectors incorporate both the more tra-
+ditional local context features, as well as bi-
+nary bag-of-words features that are extracted
+from the aligned translations. Our results
+show that the ParaSense multilingual WSD
+system shows very competitive results com-
+pared to the best systems that were evaluated
+on the SemEval-2010 Cross-Lingual Word
+Sense Disambiguation task for all five target
+languages.
+1 

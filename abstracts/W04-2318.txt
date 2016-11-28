@@ -1,0 +1,31 @@
+
+Theories of discourse structure hypothesize a
+hierarchical structure of discourse segments,
+typically tree-structured. While substantial
+work has been done on identifying and auto-
+matically recognizing the textual and prosodic
+correlates of discourse structure in mono-
+logue, comparable cues for dialogue or multi-
+party conversation, and in particular human-
+computer dialogue remain relatively less stud-
+ied. In this paper, we explore prosodic
+cues to discourse segmentation in human-
+computer dialogue. Using data drawn from
+60 hours of interactions with a voice-only
+conversational spoken language system, we
+identify pitch and intensity features that sig-
+nal segment boundaries. Specifically, based
+on 473 pairs of segment-final and segment-
+initiating utterances, we find significant in-
+creases for segment-initial utterances in max-
+imum pitch, average pitch, and average inten-
+sity, while segment-final utterances show sig-
+nificantly lower minimum pitch. These results
+suggest that even in the artificial environment
+of human-computer dialogue, prosodic cues ro-
+bustly signal discourse segment structure, com-
+parably to the contrastive uses of pitch and am-
+plitude identified in natural monologues.
+Keywords Dialogue Systems, Discourse structure,
+Prosody in understanding
+1 

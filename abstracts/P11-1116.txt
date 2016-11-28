@@ -1,0 +1,17 @@
+ 
+This paper focuses on mining the hypon-
+ymy (or is-a) relation from large-scale, 
+open-domain web documents. A nonlinear 
+probabilistic model is exploited to model 
+the correlation between sentences in the 
+aggregation of pattern matching results. 
+Based on the model, we design a set of ev-
+idence combination and propagation algo-
+rithms. These significantly improve the 
+result quality of existing approaches.  Ex-
+perimental results conducted on 500 mil-
+lion web pages and hypernym labels for 
+300 terms show over 20% performance 
+improvement in terms of P@5, MAP and 
+R-Precision. 
+1 

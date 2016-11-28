@@ -1,0 +1,19 @@
+
+We describe our language-independent un-
+supervised word sense induction system.
+This system only uses topic features to
+cluster different word senses in their global
+context topic space. Using unlabeled data,
+this system trains a latent Dirichlet alo-
+cation (LDA) topic model then uses it to
+infer the topics distribution of the test in-
+stances. By clustering these topics dis-
+tributions in their topic space we cluster
+them into different senses. Our hypothesis
+is that closeness in topic space reflects sim-
+ilarity between different word senses. This
+system participated in SemEval-2 word
+sense induction and disambiguation task
+and achieved the second highest V-measure
+score among all other systems.
+1 

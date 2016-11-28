@@ -1,0 +1,16 @@
+
+We propose an efficient method to detect
+end-of-utterances from prosodic information in
+conversational speech. Our method is based
+on the application of a large set of binary and
+ramp filters to the energy and fundamental fre-
+quency signals obtained from the speech sig-
+nal. These filter responses, which can be com-
+puted very efficiently, are used as input to a
+learning algorithm that generates the final de-
+tector. Preliminary experiments using data ob-
+tained from conversations show that an accu-
+rate classifier can be trained efficiently and that
+good results can be obtained without requiring
+a speech recognition system.
+1 

@@ -1,0 +1,20 @@
+ 
+ 
+In this paper we describe a system for the 
+recognition and normalization of temporal 
+expressions (Task 13: TempEval-2, Task 
+A). The recognition task is approached as 
+a classification problem of sentence con-
+stituents and the normalization is imple-
+mented in a rule-based manner. One of the 
+system features is extending positive an-
+notations in the corpus by semantically 
+similar words automatically obtained from 
+a large unannotated textual corpus. The 
+best results obtained by the system are 
+0.85 and 0.84 for precision and recall re-
+spectively for recognition of temporal ex-
+pressions; the accuracy values of 0.91 and 
+0.55 were obtained for the feature values 
+TYPE and VAL respectively. 
+1 

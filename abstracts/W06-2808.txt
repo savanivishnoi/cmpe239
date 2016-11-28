@@ -1,0 +1,31 @@
+ 
+The problem in processing Chinese chat 
+text originates from the anomalous char-
+acteristics and dynamic nature of such a 
+text genre. That is, it uses ill-edited terms 
+and anomalous writing styles in chat text, 
+and the anomaly is created and discarded 
+very quickly. To handle this problem, 
+one solution is to re-train the recognizer 
+periodically. This costs a lot of man-
+power in producing the timely chat text 
+corpus. The new approaches are pro-
+posed in this paper to detect the anomaly 
+within dynamic Chinese chat text by in-
+corporating standard Chinese corpora and 
+chat corpus. We first model standard lan-
+guage text using standard Chinese cor-
+pora and apply these models to detect 
+anomalous chat text. To improve detec-
+tion quality, we construct anomalous chat 
+language model using one static chat text 
+corpus and incorporate this model into 
+the standard language models. Our ap-
+proaches calculate confidence and en-
+tropy for the input text and apply thresh-
+old values to help make the decisions. 
+The experiments prove that performance 
+equivalent to the best ones produced by 
+the approaches in existence can be 
+achieved stably with our approaches.  
+1 

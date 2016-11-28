@@ -1,0 +1,11 @@
+
+We present a translation model enriched with
+shallow syntactic and semantic information
+about the source language. Base-phrase la-
+bels and semantic role labels are incorporated
+into an hierarchical model by creating shal-
+low semantic ?trees?. Results show an in-
+crease in performance of up to 6% in BLEU
+scores for English-Spanish translation over a
+standard phrase-based SMT baseline.
+1 

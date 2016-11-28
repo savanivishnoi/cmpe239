@@ -1,0 +1,22 @@
+ 
+The goal of this work is to produce a 
+classifier that can distinguish subjective 
+sentences from objective sentences for 
+the Urdu language. The amount of la-
+beled data required for training automatic 
+classifiers can be highly imbalanced es-
+pecially in the multilingual paradigm as 
+generating annotations is an expensive 
+task. In this work, we propose a co-
+training approach for subjectivity analy-
+sis in the Urdu language that augments 
+the positive set (subjective set) and gene-
+rates a negative set (objective set) devoid 
+of all samples close to the positive ones. 
+Using the data set thus generated for 
+training, we conduct experiments based 
+on SVM and VSM algorithms, and show 
+that our modified VSM based approach 
+works remarkably well as a sentence lev-
+el subjectivity classifier. 
+1 

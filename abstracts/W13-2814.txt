@@ -1,0 +1,25 @@
+ 
+This paper proposes a hybrid word alignment 
+model for Phrase-Based Statistical Machine 
+translation (PB-SMT). The proposed hybrid 
+alignment model provides most informative 
+alignment links which are offered by both un-
+supervised and semi-supervised word align-
+ment models. Two unsupervised word align-
+ment models (GIZA++ and Berkeley aligner) 
+and a rule based aligner are combined togeth-
+er. The rule based aligner only aligns named 
+entities (NEs) and chunks. The NEs are 
+aligned through transliteration using a joint 
+source-channel model. Chunks are aligned 
+employing a bootstrapping approach by trans-
+lating the source chunks into the target lan-
+guage using a baseline PB-SMT system and 
+subsequently validating the target chunks us-
+ing a fuzzy matching technique against the 
+target corpus. All the experiments are carried 
+out after single-tokenizing the multi-word 
+NEs.  Our best system provided significant 
+improvements over the baseline as measured 
+by BLEU.  
+1 

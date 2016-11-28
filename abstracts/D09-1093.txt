@@ -1,0 +1,25 @@
+
+We have designed, implemented and eval-
+uated an end-to-end system spellcheck-
+ing and autocorrection system that does
+not require any manually annotated train-
+ing data. The World Wide Web is used
+as a large noisy corpus from which we
+infer knowledge about misspellings and
+word usage. This is used to build an er-
+ror model and an n-gram language model.
+A small secondary set of news texts with
+artificially inserted misspellings are used
+to tune confidence classifiers. Because
+no manual annotation is required, our sys-
+tem can easily be instantiated for new lan-
+guages. When evaluated on human typed
+data with real misspellings in English and
+German, our web-based systems outper-
+form baselines which use candidate cor-
+rections based on hand-curated dictionar-
+ies. Our system achieves 3.8% total error
+rate in English. We show similar improve-
+ments in preliminary results on artificial
+data for Russian and Arabic.
+1 

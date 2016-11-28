@@ -1,0 +1,20 @@
+
+This paper presents a domain-assisted ap-
+proach to organize various aspects of a prod-
+uct into a hierarchy by integrating domain
+knowledge (e.g., the product specifications),
+as well as consumer reviews. Based on the
+derived hierarchy, we generate a hierarchical
+organization of consumer reviews on various
+product aspects and aggregate consumer opin-
+ions on these aspects. With such organiza-
+tion, user can easily grasp the overview of
+consumer reviews. Furthermore, we apply the
+hierarchy to the task of implicit aspect identi-
+fication which aims to infer implicit aspects of
+the reviews that do not explicitly express those
+aspects but actually comment on them. The
+experimental results on 11 popular products in
+four domains demonstrate the effectiveness of
+our approach.
+1 

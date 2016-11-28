@@ -1,0 +1,15 @@
+
+Recent natural language learning research
+has shown that structural kernels can be
+effectively used to induce accurate models
+of linguistic phenomena.
+In this paper, we show that the above prop-
+erties hold on a novel task related to predi-
+cate argument classification. A tree kernel
+for selecting the subtrees which encodes
+argument structures is applied. Experi-
+ments with Support Vector Machines on
+large data sets (i.e. the PropBank collec-
+tion) show that such kernel improves the
+recognition of argument boundaries.
+1 

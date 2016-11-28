@@ -1,0 +1,24 @@
+
+Phonetic string transduction problems, such
+as letter-to-phoneme conversion and name
+transliteration, have recently received much
+attention in the NLP community. In the past
+few years, two methods have come to dom-
+inate as solutions to supervised string trans-
+duction: generative joint n-gram models, and
+discriminative sequence models. Both ap-
+proaches benefit from their ability to consider
+large, flexible spans of source context when
+making transduction decisions. However, they
+encode this context in different ways, provid-
+ing their respective models with different in-
+formation. To combine the strengths of these
+two systems, we include joint n-gram fea-
+tures inside a state-of-the-art discriminative
+sequence model. We evaluate our approach
+on several letter-to-phoneme and translitera-
+tion data sets. Our results indicate an improve-
+ment in overall performance with respect to
+both the joint n-gram approach and traditional
+feature sets for discriminative models.
+1 

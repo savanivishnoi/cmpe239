@@ -1,0 +1,18 @@
+
+Previous attempts at identifying translational equiv-
+alents in comparable corpora have dealt with very
+large ?general language? corpora and words. We ad-
+dress this task in a specialized domain, medicine,
+starting from smaller non-parallel, comparable cor-
+pora and an initial bilingual medical lexicon. We
+compare the distributional contexts of source and
+target words, testing several weighting factors and
+similarity measures. On a test set of frequently oc-
+curring words, for the best combination (the Jaccard
+similarity measure with or without tf:idf weight-
+ing), the correct translation is ranked first for 20% of
+our test words, and is found in the top 10 candidates
+for 50% of them. An additional reverse-translation
+filtering step improves the precision of the top can-
+didate translation up to 74%, with a 33% recall.
+1 

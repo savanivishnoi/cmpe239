@@ -1,0 +1,26 @@
+
+This paper investigates the use of sublexi-
+cal units as a solution to handling the com-
+plex morphology with productive deriva-
+tional processes, in the development of
+a lexical functional grammar for Turkish.
+Such sublexical units make it possible to
+expose the internal structure of words with
+multiple derivations to the grammar rules
+in a uniform manner. This in turn leads to
+more succinct and manageable rules. Fur-
+ther, the semantics of the derivations can
+also be systematically reflected in a com-
+positional way by constructing PRED val-
+ues on the fly. We illustrate how we use
+sublexical units for handling simple pro-
+ductive derivational morphology and more
+interesting cases such as causativization,
+etc., which change verb valency. Our pri-
+ority is to handle several linguistic phe-
+nomena in order to observe the effects of
+our approach on both the c-structure and
+the f-structure representation, and gram-
+mar writing, leaving the coverage and
+evaluation issues aside for the moment.
+1 

@@ -1,0 +1,20 @@
+
+Tree Substitution Grammar rules form a large
+and expressive class of features capable of rep-
+resenting syntactic and lexical patterns that
+provide evidence of an author?s native lan-
+guage. However, this class of features can
+be applied to any general constituent based
+model of grammar and previous work has
+done little to explore these options, relying
+primarily on the common Penn Treebank an-
+notation standard. In this work we contrast
+the performance of syntactic features for Na-
+tive Language Indentification using five dif-
+ferent formalisms. The use of different for-
+malisms captures complementary information
+from second language data, and can be used
+in combination to yield classification perfor-
+mance superior to any formalism taken on its
+own.
+1 

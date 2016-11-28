@@ -1,0 +1,18 @@
+
+The state-of-the-art system combination
+method for machine translation (MT) is
+the word-based combination using confu-
+sion networks. One of the crucial steps in
+confusion network decoding is the align-
+ment of different hypotheses to each other
+when building a network. In this paper, we
+present new methods to improve alignment
+of hypotheses using word synonyms and a
+two-pass alignment strategy. We demon-
+strate that combination with the new align-
+ment technique yields up to 2.9 BLEU
+point improvement over the best input sys-
+tem and up to 1.3 BLEU point improve-
+ment over a state-of-the-art combination
+method on two different language pairs.
+1 

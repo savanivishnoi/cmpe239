@@ -1,0 +1,20 @@
+
+Automatic word segmentation is a basic re-
+quirement for unsupervised learning in morpho-
+logical analysis. In this paper, we formulate a
+novel recursive method for minimum descrip-
+tion length (MDL) word segmentation, whose
+basic operation is resegmenting the corpus on
+a prefix (equivalently, a suffix). We derive a
+local expression for the change in description
+length under resegmentation, i.e., one which de-
+pends only on properties of the specific prefix
+(not on the rest of the corpus). Such a formula-
+tion permits use of a new and efficient algorithm
+for greedy morphological segmentation of the
+corpus in a recursive manner. In particular, our
+method does not restrict words to be segmented
+only once, into a stem+affix form, as do many
+extant techniques. Early results for English and
+Turkish corpora are promising.
+1 

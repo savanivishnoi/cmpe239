@@ -1,0 +1,10 @@
+
+This paper describes a new automatic approach for
+extracting conceptual distinctions from dictionary
+definitions. A broad-coverage dependency parser is
+first used to extract the lexical relations from the def-
+initions. Then the relations are disambiguated using
+associations learned from tagged corpora. This con-
+trasts with earlier approaches using manually devel-
+oped rules for disambiguation.
+1 

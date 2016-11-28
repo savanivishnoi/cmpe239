@@ -1,0 +1,14 @@
+
+This paper presents an approach for gener-
+ating free paraphrases of compounds (task 4
+at SemEval 2013) by decomposing the train-
+ing data into a collection of templates and
+fillers and recombining/scoring these based on
+a generative language model and discrimina-
+tive MaxEnt reranking.
+The system described in this paper achieved
+the highest score (with a very small margin) in
+the (default) isomorphic setting of the scorer,
+for which it was optimized, at a disadvantage
+to the non-isomorphic score.
+1 

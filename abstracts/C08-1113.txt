@@ -1,0 +1,17 @@
+
+We address corpus building situations,
+where complete annotations to the whole
+corpus is time consuming and unrealistic.
+Thus, annotation is done only on crucial
+part of sentences, or contains unresolved
+label ambiguities. We propose a parame-
+ter estimation method for Conditional Ran-
+dom Fields (CRFs), which enables us to
+use such incomplete annotations. We show
+promising results of our method as applied
+to two types of NLP tasks: a domain adap-
+tation task of a Japanese word segmenta-
+tion using partial annotations, and a part-
+of-speech tagging task using ambiguous
+tags in the Penn treebank corpus.
+1 

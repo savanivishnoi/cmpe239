@@ -1,0 +1,11 @@
+ 
+We describe a practical parser for unre- 
+stricted dependencies. The parser creates 
+links between words and names the links 
+according to their syntactic functions. We 
+first describe the older Constraint Gram- 
+mar parser where many of the ideas come 
+from. Then we proceed to describe the cen- 
+tral ideas of our new parser. Finally, the 
+parser is evaluated. 
+1 

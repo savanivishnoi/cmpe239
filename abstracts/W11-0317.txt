@@ -1,0 +1,14 @@
+
+In this paper, we introduce a knowledge-based
+method to disambiguate biomedical acronyms
+using second-order co-occurrence vectors. We
+create these vectors using information about a
+long-form obtained from the Unified Medical
+Language System and Medline. We evaluate
+this method on a dataset of 18 acronyms found
+in biomedical text. Our method achieves an
+overall accuracy of 89%. The results show
+that using second-order features provide a dis-
+tinct representation of the long-form and po-
+tentially enhances automated disambiguation.
+1 

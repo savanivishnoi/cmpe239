@@ -1,0 +1,19 @@
+
+This paper studies issues on compiling
+a bilingual lexicon for technical terms.
+In the task of estimating bilingual term
+correspondences of technical terms, it
+is usually quite difficult to find an exist-
+ing corpus for the domain of such tech-
+nical terms. In this paper, we take an
+approach of collecting a corpus for the
+domain of such technical terms from
+the Web. As a method of translation
+estimation for technical terms, we pro-
+pose a compositional translation esti-
+mation technique. Through experimen-
+tal evaluation, we show that the do-
+main/topic specific corpus contributes
+to improving the performance of the
+compositional translation estimation.
+1 

@@ -1,0 +1,21 @@
+  
+In this paper, a framework for the develop-
+ment of a fast, accurate, and highly portable 
+semantic chunker is introduced. The frame-
+work is based on a non-overlapping, shallow 
+tree-structured language. The derivation of the 
+tree is considered as a sequence of tagging ac-
+tions in a predefined linguistic context, and a 
+novel semantic chunker is accordingly devel-
+oped. It groups the phrase chunks into the ar-
+guments of a given predicate in a bottom-up 
+fashion. This is quite different from current 
+approaches to semantic parsing or chunking 
+that depend on full statistical syntactic parsers 
+that require tree bank style annotation. We 
+compare it with a recently proposed word-by-
+word semantic chunker and present results 
+that show that the phrase-by-phrase approach 
+performs better than its word-by-word coun-
+terpart.  
+1 

@@ -1,0 +1,24 @@
+
+Typical statistical machine translation sys-
+tems are batch trained with a given train-
+ing data and their performances are large-
+ly influenced by the amount of data. With
+the growth of the available data across
+different domains, it is computationally
+demanding to perform batch training ev-
+ery time when new data comes. In face
+of the problem, we propose an efficient
+phrase table combination method. In par-
+ticular, we train a Bayesian phrasal inver-
+sion transduction grammars for each do-
+main separately. The learned phrase ta-
+bles are hierarchically combined as if they
+are drawn from a hierarchical Pitman-Yor
+process. The performance measured by
+BLEU is at least as comparable to the tra-
+ditional batch training method. Further-
+more, each phrase table is trained sepa-
+rately in each domain, and while compu-
+tational overhead is significantly reduced
+by training them in parallel.
+1 

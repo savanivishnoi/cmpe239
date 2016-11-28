@@ -1,0 +1,21 @@
+
+This paper presents a method for seman-
+tic classi?cation of onomatopoetic words
+like ??????? (hum)? and ????
+??? (clip clop)? which exist in ev-
+ery language, especially Japanese being
+rich in onomatopoetic words. We used
+a graph-based clustering algorithm called
+Newman clustering. The algorithm cal-
+culates a simple quality function to test
+whether a particular division is meaning-
+ful. The quality function is calculated
+based on the weights of edges between
+nodes. We combined two different sim-
+ilarity measures, distributional similarity,
+and orthographic similarity to calculate
+weights. The results obtained by using
+the Web data showed a 9.0% improvement
+over the baseline single distributional sim-
+ilarity measure.
+1 

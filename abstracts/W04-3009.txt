@@ -1,0 +1,23 @@
+
+Speech interface is often required in many
+application environments such as telephone-
+based information retrieval, car navigation sys-
+tems, and user-friendly interfaces, but the low
+speech recognition rate makes it difficult to ex-
+tend its application to new fields. Several ap-
+proaches to increase the accuracy of the recog-
+nition rate have been researched by error cor-
+rection of the recognition results, but previ-
+ous approaches were mainly lexical-oriented
+ones in post error correction. We suggest
+an improved syllable-based model and a new
+semantic-oriented approach to correct both se-
+mantic and lexical errors, which is also more
+accurate for especially domain-specific speech
+error correction. Through extensive experi-
+ments using a speech-driven in-vehicle telem-
+atics information retrieval, we demonstrate
+the superior performance of our approach and
+some advantages over previous lexical-oriented
+approaches.
+1 

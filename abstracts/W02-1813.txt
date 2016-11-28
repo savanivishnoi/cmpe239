@@ -1,0 +1,18 @@
+  
+The problem of word segmentation affects 
+all aspects of Chinese language processing, 
+including the development of text-to-speech 
+synthesis systems. In synthesizing a Hong 
+Kong Cantonese text, for example, words 
+must be identified in order to model fusion 
+of coda [p] with initial [h], and other similar 
+effects that differentiate word-internal 
+syllable boundaries from syllable edges that 
+begin or end words. Accurate segmentation 
+is necessary also for developing any list of 
+words large enough to identify the word-
+internal cross-syllable sequences that must 
+be recorded to model such effects using 
+concatenated synthesis units. This paper 
+describes our use of the Segmentation 
+Corpus to constrain such units. 

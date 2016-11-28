@@ -1,0 +1,17 @@
+
+We describe the SEERLAB system
+that participated in the SemEval 2010?s
+Keyphrase Extraction Task. SEERLAB
+utilizes the DBLP corpus for generating
+a set of candidate keyphrases from a
+document. Random Forest, a supervised
+ensemble classifier, is then used to select
+the top keyphrases from the candidate set.
+SEERLAB achieved a 0.24 F-score in
+generating the top 15 keyphrases, which
+places it sixth among 19 participating sys-
+tems. Additionally, SEERLAB performed
+particularly well in generating the top 5
+keyphrases with an F-score that ranked
+third.
+1 

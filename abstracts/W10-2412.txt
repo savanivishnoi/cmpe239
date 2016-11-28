@@ -1,0 +1,15 @@
+
+This paper describes the use of a pair
+Hidden Markov Model (pair HMM) sys-
+tem in mining transliteration pairs from
+noisy Wikipedia data. A pair HMM vari-
+ant that uses nine transition parameters,
+and emission parameters associated with
+single character mappings between source
+and target language alphabets is identified
+and used in estimating transliteration sim-
+ilarity. The system resulted in a precision
+of 78% and recall of 83% when evaluated
+on a random selection of English-Russian
+Wikipedia topics.
+1 

@@ -1,0 +1,28 @@
+
+In this paper, we propose a novel approach
+to compare languages on the basis of par-
+allel texts. Instead of using word lists or
+abstract grammatical characteristics to infer
+(phylogenetic) relationships, we use mul-
+tilingual alignments of words in sentences
+to establish measures of language similar-
+ity. To this end, we introduce a new method
+to quickly infer a multilingual alignment of
+words, using the co-occurrence of words in
+a massively parallel text (MPT) to simulta-
+neously align a large number of languages.
+The idea is that a simultaneous multilin-
+gual alignment yields a more adequate clus-
+tering of words across different languages
+than the successive analysis of bilingual
+alignments. Since the method is computa-
+tionally demanding for a larger number of
+languages, we reformulate the problem us-
+ing sparse matrix calculations. The useful-
+ness of the approach is tested on an MPT
+that has been extracted from pamphlets of
+the Jehova?s Witnesses. Our preliminary
+experiments show that this approach can
+supplement both the historical and the ty-
+pological comparison of languages.
+1 

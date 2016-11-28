@@ -1,0 +1,24 @@
+ 
+Query and document representation is a 
+key problem for information retrieval and 
+filtering. The vector space model (VSM) 
+has been widely used in this domain. But 
+the VSM suffers from high dimensionality. 
+The vectors built from documents always 
+have high dimensionality and contain too 
+much noise. In this paper, we present a 
+novel method that reduces the dimensional-
+ity using multilingual resource. We intro-
+duce a new metric called TC to measure the 
+term consistency constraints. We deduce a 
+TC matrix from the multilingual corpus and 
+then use this matrix together with the term-
+by-document matrix to do the Latent Se-
+mantic Indexing (LSI). By adopting differ-
+ent TC threshold, we can truncate the TC 
+matrix into small size and thus lower the 
+computational cost of LSI. The experimen-
+tal results show that this dimensionality re-
+duction method improves the retrieval per-
+formance significantly. 
+1 

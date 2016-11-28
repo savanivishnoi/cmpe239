@@ -1,0 +1,27 @@
+
+Work on the interpretation of temporal ex-
+pressions in text has generally been pur-
+sued in one of two paradigms: the for-
+mal semantics approach, where an attempt
+is made to provide a well-grounded theo-
+retical basis for the interpretation of these
+expressions, and the more pragmatically-
+focused approach represented by the de-
+velopment of the TIMEX2 standard, with
+its origins in work in information extrac-
+tion. The former emphasises formal ele-
+gance and consistency; the latter empha-
+sises broad coverage for practical applica-
+tions. In this paper, we report on the de-
+velopment of a framework that attempts
+to integrate insights from both perspec-
+tives, with the aim of achieving broad cov-
+erage of the domain in a well-grounded
+manner from a formal perspective. We
+focus in particular on the development
+of a compact notation for representing
+the semantics of underspecified tempo-
+ral expressions that can be used to pro-
+vide component-level evaluation of sys-
+tems that interpret such expressions.
+1 

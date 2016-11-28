@@ -1,0 +1,35 @@
+ 
+ 
+Segmental SNR (Signal to Noise Ratio) is 
+considered to be a reasonable   measure of 
+perceptual quality of speech. However it 
+only reflects the distortion in time 
+dependent contour of the signal due to 
+noise. Objective Measures such as Log 
+Area Ratio (LAR), Itakura-Saitio 
+Distortion (IS), Log-Likelihood Ratio 
+(LLR) and Weighted Spectral Slope 
+(WSS) are better   measures of perceptual 
+speech quality as they represent deviation 
+in the spectrum. Noise affects the speech 
+time contour and the corresponding 
+frequency content. Different languages 
+have some peculiar characteristics due to 
+variation in the phonetic content and their 
+distribution. Distortion introduced by noise 
+and application of enhancement algorithm 
+varies for different phonemes. In this paper 
+a novel idea of using noise and speech 
+enhancement as means of identifying a 
+language is presented, using objective 
+measures of speech quality. Study is done     
+on three spoken Indian regional languages 
+namely Kashmiri, Bangla and Manipuri, 
+when corrupted by white noise. It is found 
+that the objective measures of noisy 
+speech, when determined using 
+corresponding clear and enhanced speech 
+are different for different languages over a   
+range of SNR, giving clue to the type of   
+the language in use. 
+1. 

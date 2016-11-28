@@ -1,0 +1,30 @@
+
+We are interested in extracting semantic
+structures from spoken utterances gener-
+ated within conversational systems. Cur-
+rent Spoken Language Understanding sys-
+tems rely either on hand-written seman-
+tic grammars or on flat attribute-value se-
+quence labeling. While the former ap-
+proach is known to be limited in coverage
+and robustness, the latter lacks detailed re-
+lations amongst attribute-value pairs. In
+this paper, we describe and analyze the hu-
+man annotation process of rich semantic
+structures in order to train semantic statis-
+tical parsers. We have annotated spoken
+conversations from both a human-machine
+and a human-human spoken dialog cor-
+pus. Given a sentence of the transcribed
+corpora, domain concepts and other lin-
+guistic features are annotated, ranging
+from e.g. part-of-speech tagging and con-
+stituent chunking, to more advanced anno-
+tations, such as syntactic, dialog act and
+predicate argument structure. In particu-
+lar, the two latter annotation layers appear
+to be promising for the design of complex
+dialog systems. Statistics and mutual in-
+formation estimates amongst such features
+are reported and compared across corpora.
+1 

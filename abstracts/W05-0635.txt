@@ -1,0 +1,15 @@
+
+In this paper we introduce a semantic role
+labeling system constructed on top of the
+full syntactic analysis of text. The la-
+beling problem is modeled using a rich
+set of lexical, syntactic, and semantic at-
+tributes and learned using one-versus-all
+AdaBoost classifiers.
+Our results indicate that even a simple ap-
+proach that assumes that each semantic ar-
+gument maps into exactly one syntactic
+phrase obtains encouraging performance,
+surpassing the best system that uses par-
+tial syntax by almost 6%.
+1 

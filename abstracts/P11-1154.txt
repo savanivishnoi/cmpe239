@@ -1,0 +1,15 @@
+
+We propose a method for automatically la-
+belling topics learned via LDA topic models.
+We generate our label candidate set from the
+top-ranking topic terms, titles of Wikipedia ar-
+ticles containing the top-ranking topic terms,
+and sub-phrases extracted from the Wikipedia
+article titles. We rank the label candidates us-
+ing a combination of association measures and
+lexical features, optionally fed into a super-
+vised ranking model. Our method is shown to
+perform strongly over four independent sets of
+topics, significantly better than a benchmark
+method.
+1 

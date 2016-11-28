@@ -1,0 +1,19 @@
+
+This paper presents a spoken dialogue frame-
+work that helps users in making decisions.
+Users often do not have a definite goal or cri-
+teria for selecting from a list of alternatives.
+Thus the system has to bridge this knowledge
+gap and also provide the users with an appro-
+priate alternative together with the reason for
+this recommendation through dialogue. We
+present a dialogue state model for such deci-
+sion making dialogue. To evaluate this model,
+we implement a trial sightseeing guidance sys-
+tem and collect dialogue data. Then, we opti-
+mize the dialogue strategy based on the state
+model through reinforcement learning with a
+natural policy gradient approach using a user
+simulator trained on the collected dialogue
+corpus.
+1 

@@ -1,0 +1,26 @@
+
+This paper presents and evaluates several
+original techniques for the latent classifi-
+cation of biographic attributes such as gen-
+der, age and native language, in diverse
+genres (conversation transcripts, email)
+and languages (Arabic, English). First,
+we present a novel partner-sensitive model
+for extracting biographic attributes in con-
+versations, given the differences in lexi-
+cal usage and discourse style such as ob-
+served between same-gender and mixed-
+gender conversations. Then, we explore
+a rich variety of novel sociolinguistic and
+discourse-based features, including mean
+utterance length, passive/active usage, per-
+centage domination of the conversation,
+speaking rate and filler word usage. Cu-
+mulatively up to 20% error reduction is
+achieved relative to the standard Boulis
+and Ostendorf (2005) algorithm for classi-
+fying individual conversations on Switch-
+board, and accuracy for gender detection
+on the Switchboard corpus (aggregate) and
+Gulf Arabic corpus exceeds 95%.
+1 

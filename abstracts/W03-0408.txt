@@ -1,0 +1,22 @@
+
+Statistical machine learning algorithms have
+been successfully applied to many natural lan-
+guage processing (NLP) problems. Compared
+to manually constructed systems, statistical
+NLP systems are often easier to develop and
+maintain since only annotated training text is
+required. From annotated data, the underlying
+statistical algorithm can build a model so that
+annotations for future data can be predicted.
+However, the performance of a statistical sys-
+tem can also depend heavily on the character-
+istics of the training data. If we apply such
+a system to text with characteristics different
+from that of the training data, then performance
+degradation will occur. In this paper, we ex-
+amine this issue empirically using the sentence
+boundary detection problem. We propose and
+compare several methods that can be used to
+update a statistical NLP system when moving
+to a different domain.
+1 

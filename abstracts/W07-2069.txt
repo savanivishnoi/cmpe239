@@ -1,0 +1,16 @@
+
+Most of the previous works that disam-
+biguate personal names in Web search re-
+sults employ agglomerative clustering ap-
+proaches. However, these approaches tend
+to generate clusters that contain a single el-
+ement depending on a certain criterion of
+merging similar clusters. In contrast to such
+previous works, we have adopted a semi-
+supervised clustering approach to integrate
+similar documents into a labeled document.
+Moreover, our proposed approach is char-
+acterized by controlling the fluctuation of
+the centroid of a cluster in order to generate
+more accurate clusters.
+1 

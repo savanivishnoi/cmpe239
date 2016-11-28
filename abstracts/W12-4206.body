@@ -1,0 +1,27 @@
+
+We present an unsupervised approach to esti-
+mate the appropriate degree of contribution of
+each semantic role type for semantic transla-
+tion evaluation, yielding a semantic MT eval-
+uation metric whose correlation with human
+adequacy judgments is comparable to that of
+recent supervised approaches but without the
+high cost of a human-ranked training corpus.
+Our new unsupervised estimation approach
+is motivated by an analysis showing that the
+weights learned from supervised training are
+distributed in a similar fashion to the relative
+frequencies of the semantic roles. Empiri-
+cal results show that even without a training
+corpus of human adequacy rankings against
+which to optimize correlation, using instead
+our relative frequency weighting scheme to
+approximate the importance of each semantic
+role type leads to a semantic MT evaluation
+metric that correlates comparable with human
+adequacy judgments to previous metrics that
+require far more expensive human rankings of
+adequacy over a training corpus. As a result,
+the cost of semantic MT evaluation is greatly
+reduced.
+1 

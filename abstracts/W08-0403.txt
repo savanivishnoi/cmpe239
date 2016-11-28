@@ -1,0 +1,18 @@
+
+This paper presents an improved formally
+syntax-based SMT model, which is enriched
+by linguistically syntactic knowledge obtained
+from statistical constituent parsers. We pro-
+pose a linguistically-motivated prior deriva-
+tion model to score hypothesis derivations on
+top of the baseline model during the trans-
+lation decoding. Moreover, we devise a
+fast training algorithm to achieve such im-
+proved models based on tree kernel meth-
+ods. Experiments on an English-to-Chinese
+task demonstrate that our proposed models
+outperformed the baseline formally syntax-
+based models, while both of them achieved
+significant improvements over a state-of-the-
+art phrase-based SMT system.
+1 

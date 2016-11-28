@@ -1,0 +1,30 @@
+
+Speech translation can be tackled by
+means of the so-called decoupled ap-
+proach: a speech recognition system fol-
+lowed by a text translation system. The
+major drawback of this two-pass decod-
+ing approach lies in the fact that the trans-
+lation system has to cope with the er-
+rors derived from the speech recognition
+system. There is hardly any cooperation
+between the acoustic and the translation
+knowledge sources. There is a line of re-
+search focusing on alternatives to imple-
+ment speech translation efficiently: rang-
+ing from semi-decoupled to tightly in-
+tegrated approaches. The goal of inte-
+gration is to make acoustic and transla-
+tion models cooperate in the underlying
+decision problem. That is, the transla-
+tion is built by virtue of the joint ac-
+tion of both models. As a side-advantage
+of the integrated approaches, the transla-
+tion is obtained in a single-pass decod-
+ing strategy. The aim of this paper is
+to assess the quality of the hypotheses
+explored within different speech transla-
+tion approaches. Evidence of the perfor-
+mance is given through experimental re-
+sults on a limited-domain task.
+1 

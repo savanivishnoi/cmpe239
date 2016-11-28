@@ -1,0 +1,20 @@
+
+Although Subjectivity and Sentiment Analysis
+(SSA) has been witnessing a flurry of novel re-
+search, there are few attempts to build SSA
+systems for Morphologically-Rich Languages
+(MRL). In the current study, we report efforts
+to partially fill this gap. We present a newly
+developed manually annotated corpus of Mod-
+ern Standard Arabic (MSA) together with a
+new polarity lexicon.The corpus is a collec-
+tion of newswire documents annotated on the
+sentence level. We also describe an automatic
+SSA tagging system that exploits the anno-
+tated data. We investigate the impact of differ-
+ent levels of preprocessing settings on the SSA
+classification task. We show that by explicitly
+accounting for the rich morphology the system
+is able to achieve significantly higher levels of
+performance.
+1 

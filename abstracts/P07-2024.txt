@@ -1,0 +1,23 @@
+
+The AMI Meeting Corpus is now publicly
+available, including manual annotation files
+generated in the NXT XML format, but
+lacking explicit metadata for the 171 meet-
+ings of the corpus. To increase the usability
+of this important resource, a representation
+format based on relational databases is pro-
+posed, which maximizes informativeness,
+simplicity and reusability of the metadata
+and annotations. The annotation files are
+converted to a tabular format using an eas-
+ily adaptable XSLT-based mechanism, and
+their consistency is verified in the process.
+Metadata files are generated directly in the
+IMDI XML format from implicit informa-
+tion, and converted to tabular format using
+a similar procedure. The results and tools
+will be freely available with the AMI Cor-
+pus. Sharing the metadata using the Open
+Archives network will contribute to increase
+the visibility of the AMI Corpus.
+1 

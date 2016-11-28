@@ -1,0 +1,23 @@
+
+This paper studies the problem of non-
+monotonic sentence alignment, motivated
+by the observation that coupled sentences
+in real bitexts do not necessarily occur
+monotonically, and proposes a semisuper-
+vised learning approach based on two as-
+sumptions: (1) sentences with high affinity
+in one language tend to have their counter-
+parts with similar relatedness in the other;
+and (2) initial alignment is readily avail-
+able with existing alignment techniques.
+They are incorporated as two constraints
+into a semisupervised learning framework
+for optimization to produce a globally op-
+timal solution. The evaluation with real-
+world legal data from a comprehensive
+legislation corpus shows that while exist-
+ing alignment algorithms suffer severely
+from non-monotonicity, this approach can
+work effectively on both monotonic and
+non-monotonic data.
+1 

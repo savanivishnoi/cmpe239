@@ -1,0 +1,21 @@
+
+We present preliminary experiments of a
+binary-switch, static-grid typing interface
+making use of varying language model contri-
+butions. Our motivation is to quantify the de-
+gree to which language models can make the
+simplest scanning interfaces ? such as show-
+ing one symbol at a time rather than a scan-
+ning a grid ? competitive in terms of typing
+speed. We present a grid scanning method
+making use of optimal Huffman binary codes,
+and demonstrate the impact of higher order
+language models on its performance. We also
+investigate the scanning methods of highlight-
+ing just one cell in a grid at any given time
+or showing one symbol at a time without a
+grid, and show that they yield commensurate
+performance when using higher order n-gram
+models, mainly due to lower error rate and a
+lower rate of missed targets.
+1 

@@ -1,0 +1,19 @@
+
+This interactive presentation describes
+LexNet, a graphical environment for
+graph-based NLP developed at the Uni-
+versity of Michigan. LexNet includes
+LexRank (for text summarization), bi-
+ased LexRank (for passage retrieval), and
+TUMBL (for binary classification). All
+tools in the collection are based on random
+walks on lexical graphs, that is graphs
+where different NLP objects (e.g., sen-
+tences or phrases) are represented as nodes
+linked by edges proportional to the lexi-
+cal similarity between the two nodes. We
+will demonstrate these tools on a variety of
+NLP tasks including summarization, ques-
+tion answering, and prepositional phrase
+attachment.
+1 

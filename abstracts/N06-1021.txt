@@ -1,0 +1,15 @@
+
+We develop dependency parsers for Ara-
+bic, English, Chinese, and Czech using
+Bayes Point Machines, a training algo-
+rithm which is as easy to implement as
+the perceptron yet competitive with large
+margin methods. We achieve results com-
+parable to state-of-the-art in English and
+Czech, and report the first directed depen-
+dency parsing accuracies for Arabic and
+Chinese. Given the multilingual nature of
+our experiments, we discuss some issues
+regarding the comparison of dependency
+parsers for different languages.
+1 

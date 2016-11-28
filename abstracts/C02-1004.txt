@@ -1,0 +1,15 @@
+
+Statistical methods for PP attachment fall into
+two classes according to the training material
+used: first, unsupervised methods trained on
+raw text corpora and second, supervised meth-
+ods trained on manually disambiguated exam-
+ples. Usually supervised methods win over un-
+supervised methods with regard to attachment
+accuracy. But what if only small sets of manu-
+ally disambiguated material are available? We
+show that in this case it is advantageous to in-
+tertwine unsupervised and supervised methods
+into one disambiguation algorithm that outper-
+forms both methods used alone.1
+1 

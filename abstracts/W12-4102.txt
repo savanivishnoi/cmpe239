@@ -1,0 +1,30 @@
+
+Most of the research on social networks has al-
+most exclusively focused on positive links be-
+tween entities. There are much more insights
+that we may gain by generalizing social net-
+works to the signed case where both positive
+and negative edges are considered. One of the
+reasons why signed social networks have re-
+ceived less attention that networks based on
+positive links only is the lack of an explicit
+notion of negative relations in most social net-
+work applications. However, most such appli-
+cations have text embedded in the social net-
+work. Applying linguistic analysis techniques
+to this text enables us to identify both positive
+and negative interactions. In this work, we
+propose a new method to automatically con-
+struct a signed social network from text. The
+resulting networks have a polarity associated
+with every edge. Edge polarity is a means for
+indicating a positive or negative affinity be-
+tween two individuals. We apply the proposed
+method to a larger amount of online discus-
+sion posts. Experiments show that the pro-
+posed method is capable of constructing net-
+works from text with high accuracy. We also
+connect out analysis to social psychology the-
+ories of signed network, namely the structural
+balance theory.
+1 

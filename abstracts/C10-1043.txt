@@ -1,0 +1,12 @@
+
+We describe an approach to automatically
+learn reordering rules to be applied as a
+preprocessing step in phrase-based ma-
+chine translation. We learn rules for 8 dif-
+ferent language pairs, showing BLEU im-
+provements for all of them, and demon-
+strate that many important order trans-
+formations (SVO to SOV or VSO, head-
+modifier, verb movement) can be captured
+by this approach.
+1 

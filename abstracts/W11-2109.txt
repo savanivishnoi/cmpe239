@@ -1,0 +1,21 @@
+
+Current metrics for evaluating machine trans-
+lation quality have the huge drawback that
+they require human-quality reference transla-
+tions. We propose a truly automatic evalua-
+tion metric based on IBM1 lexicon probabili-
+ties which does not need any reference transla-
+tions. Several variants of IBM1 scores are sys-
+tematically explored in order to find the most
+promising directions. Correlations between
+the new metrics and human judgments are cal-
+culated on the data of the third, fourth and fifth
+shared tasks of the Statistical Machine Trans-
+lation Workshop. Five different European lan-
+guages are taken into account: English, Span-
+ish, French, German and Czech. The results
+show that the IBM1 scores are competitive
+with the classic evaluation metrics, the most
+promising being IBM1 scores calculated on
+morphemes and POS-4grams.
+1 

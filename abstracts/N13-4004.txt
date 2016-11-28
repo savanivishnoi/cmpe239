@@ -1,0 +1,20 @@
+ Meaning Representations and richer event
+representations will also be touched on.
+Details of machine learning approaches will be provided, beginning with fully
+supervised approaches that use the annotated corpora as training material. The
+importance of syntactic parse information and the contributions of different feature
+choices, including tree kernels, will be discussed, as well as the advantages and
+disadvantages of particular machine learning algorithms and approaches such as
+joint inference. Appropriate considerations for evaluation will be presented as well
+as successful uses of semantic role labeling in NLP applications.
+We will also cover techniques for exploiting unlabeled corpora and transfer-
+ring models across languages. These include methods, which project annotations
+across languages using parallel data, induce representations solely from unlabeled
+corpora (unsupervised methods) or exploit a combination of a small amount of hu-
+man annotation and a large unlabeled corpus (semi-supervised techniques). We
+will discuss methods based on different machine learning paradigms, including
+generative Bayesian models, graph-based algorithms and bootstrapping style tech-
+niques.
+10
+2 Outline
+I. 

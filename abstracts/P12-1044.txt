@@ -1,0 +1,18 @@
+
+We present a novel approach for building
+verb subcategorization lexicons using a simple
+graphical model. In contrast to previous meth-
+ods, we show how the model can be trained
+without parsed input or a predefined subcate-
+gorization frame inventory. Our method out-
+performs the state-of-the-art on a verb clus-
+tering task, and is easily trained on arbitrary
+domains. This quantitative evaluation is com-
+plemented by a qualitative discussion of verbs
+and their frames. We discuss the advantages of
+graphical models for this task, in particular the
+ease of integrating semantic information about
+verbs and arguments in a principled fashion.
+We conclude with future work to augment the
+approach.
+1 

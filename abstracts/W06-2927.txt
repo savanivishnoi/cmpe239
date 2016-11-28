@@ -1,0 +1,26 @@
+ 
+In this paper, we present a framework for 
+multi-lingual dependency parsing. Our 
+bottom-up deterministic parser adopts 
+Nivre?s algorithm (Nivre, 2004) with a 
+preprocessor. Support Vector Machines 
+(SVMs) are utilized to determine the word 
+dependency attachments. Then, a maxi-
+mum entropy method (MaxEnt) is used 
+for determining the label of the depend-
+ency relation. To improve the perform-
+ance of the parser, we construct a tagger 
+based on SVMs to find neighboring at-
+tachment as a preprocessor. Experimental 
+evaluation shows that the proposed exten-
+sion improves the parsing accuracy of our 
+base parser in 9 languages. (Haji? et al, 
+2004; Simov et al, 2005; Simov and 
+Osenova, 2003; Chen   et al, 2003; B?h-
+mov? et al, 2003; Kromann, 2003;    van 
+der Beek et al, 2002; Brants et al, 
+2002;   Kawata and Bartels, 2000; Afonso 
+et al, 2002;   D?eroski et al, 2006; Civit 
+and Mart?, 2002; Nilsson   et al, 2005; 
+Oflazer et al, 2003; Atalay et al, 2003). 
+1 

@@ -1,0 +1,15 @@
+
+This article describes a Sentiment Analysis
+(SA) system named senti.ue-en, built
+for participation in SemEval-2013 Task 2, a
+Twitter SA challenge. In both challenge sub-
+tasks we used the same supervised machine
+learning approach, including two classifiers in
+pipeline, with 22 semantic oriented features,
+such as polarized term presence and index,
+and negation presence. Our system achieved
+a better score on Task A (0.7413) than in the
+Task B (0.4785). In the first subtask, there is
+a better result for SMS than the obtained for
+the more trained type of data, the tweets.
+1 

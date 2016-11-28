@@ -1,0 +1,22 @@
+ 
+In this paper we evaluate the possibility of 
+improving the performance of a statistical 
+machine translation system by relaxing the 
+complexity of the translation task by remov-
+ing the most frequent and predictable terms 
+from the target language vocabulary. After-
+wards, the removed terms are inserted back 
+in the relaxed output by using an n-gram 
+based word predictor. Empirically, we have 
+found that when these words are omitted 
+from the text, the perplexity of the text de-
+creases, which may imply the reduction of 
+confusion in the text. We conducted some 
+machine translation experiments to see if 
+this perplexity reduction produced a better 
+translation output. While the word predic-
+tion results exhibits 77% accuracy in pre-
+dicting 40% of the most frequent words in 
+the text, the perplexity reduction did not 
+help to produce better translations. 
+1 

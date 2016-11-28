@@ -1,0 +1,25 @@
+
+In current phrase-based SMT systems, more
+training data is generally better than less.
+However, a larger data set eventually intro-
+duces a larger model that enlarges the search
+space for the translation problem, and con-
+sequently requires more time and more re-
+sources to translate. We argue redundant in-
+formation in a SMT system may not only de-
+lay the computations but also affect the qual-
+ity of the outputs. This paper proposes an ap-
+proach to reduce the model size by filtering
+out the less probable entries based on com-
+patible data in an intermediate language, a
+novel use of triangulation, without sacrificing
+the translation quality. Comprehensive exper-
+iments were conducted on standard data sets.
+We achieved significant quality improvements
+(up to 2.3 BLEU points) while translating with
+reduced models. In addition, we demon-
+strate a straightforward combination method
+for more progressive filtering. The reduction
+of the model size can be up to 94% with the
+translation quality being preserved.
+1 

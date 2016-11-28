@@ -1,0 +1,18 @@
+
+In this paper, we explore two extensions
+to an existing statistical parsing model to
+produce richer parse trees, annotated with
+function labels. We achieve significant
+improvements in parsing by modelling di-
+rectly the specific nature of function la-
+bels, as both expressions of the lexical se-
+mantics properties of a constituent and as
+syntactic elements whose distribution is
+subject to structural locality constraints.
+We also reach state-of-the-art accuracy
+on function labelling. Our results sug-
+gest that current statistical parsing meth-
+ods are sufficiently robust to produce ac-
+curate shallow functional or semantic an-
+notation, if appropriately biased.
+1 

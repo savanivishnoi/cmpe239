@@ -1,0 +1,28 @@
+
+This paper presents a model for summa-
+rizing multiple untranscribed spoken doc-
+uments. Without assuming the availabil-
+ity of transcripts, the model modifies a
+recently proposed unsupervised algorithm
+to detect re-occurring acoustic patterns in
+speech and uses them to estimate similari-
+ties between utterances, which are in turn
+used to identify salient utterances and re-
+move redundancies. This model is of in-
+terest due to its independence from spo-
+ken language transcription, an error-prone
+and resource-intensive process, its abil-
+ity to integrate multiple sources of infor-
+mation on the same topic, and its novel
+use of acoustic patterns that extends pre-
+vious work on low-level prosodic feature
+detection. We compare the performance of
+this model with that achieved using man-
+ual and automatic transcripts, and find that
+this new approach is roughly equivalent
+to having access to ASR transcripts with
+word error rates in the 33?37% range with-
+out actually having to do the ASR, plus
+it better handles utterances with out-of-
+vocabulary words.
+1 

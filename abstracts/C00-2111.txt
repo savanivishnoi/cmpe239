@@ -1,0 +1,16 @@
+ 
+After 3 years of specifying the UNL (Universal Networking Language) language and 
+prototyping deconverters I from more than 12 languages and enconverters for about 4, the 
+UNL project has opened to the community by publishing the specifcations (v2.0) of the UNL 
+language, intended to encode the meaning of NL utterances as semantic hypergraphs and to be 
+used as a "pivot" representation in multilingual information and communication systems. 
+A UNL document is an html document with special tags to delimit the utterances and their 
+rendering in UNL and in all natural languages currently handled. UNL can be viewed as the 
+future "html of the linguistic content". It is only an interface format, leading as well to the reuse 
+of existing NLP components as to the development of original tools in a variety of possible 
+applications, from automatic rough enconversion for information retrieval and information 
+gathering translation to partially interactive nconversion or deconversion for higher quality. 
+We illustrate these points by describing an UNL-French deconverter organized as a specific 
+"localizer" followed by a classical MT transfer and an existing generator. 
+Keywords 
+UNL, interlingua, pivot, deconversion, UNL~French localization, transfer, generation. 

@@ -1,0 +1,23 @@
+
+In biomedical information extraction (IE), a
+central problem is the disambiguation of am-
+biguous names for domain specific entities,
+such as proteins, genes, etc. One important
+dimension of ambiguity is the organism to
+which the entities belong: in order to disam-
+biguate an ambiguous entity name (e.g. a pro-
+tein), it is often necessary to identify the spe-
+cific organism to which it refers.
+In this paper we present an approach to the
+detection and disambiguation of the focus or-
+ganism(s), i.e. the organism(s) which are the
+subject of the research described in scientific
+papers, which can then be used for the disam-
+biguation of other entities.
+The results are evaluated against a gold stan-
+dard derived from IntAct annotations. The
+evaluation suggests that the results may al-
+ready be useful within a curation environment
+and are certainly a baseline for more complex
+approaches.
+1 

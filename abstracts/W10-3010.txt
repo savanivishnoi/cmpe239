@@ -1,0 +1,25 @@
+
+We extend our prior work on specula-
+tive sentence recognition and speculation
+scope detection in biomedical text to the
+CoNLL-2010 Shared Task on Hedge De-
+tection. In our participation, we sought
+to assess the extensibility and portability
+of our prior work, which relies on linguis-
+tic categorization and weighting of hedg-
+ing cues and on syntactic patterns in which
+these cues play a role. For Task 1B,
+we tuned our categorization and weight-
+ing scheme to recognize hedging in bio-
+logical text. By accommodating a small
+number of vagueness quantifiers, we were
+able to extend our methodology to de-
+tecting vague sentences in Wikipedia arti-
+cles. We exploited constituent parse trees
+in addition to syntactic dependency rela-
+tions in resolving hedging scope. Our re-
+sults are competitive with those of closed-
+domain trained systems and demonstrate
+that our high-precision oriented methodol-
+ogy is extensible and portable.
+1 

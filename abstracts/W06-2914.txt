@@ -1,0 +1,21 @@
+
+We investigate the appropriateness of us-
+ing a technique based on support vector
+machines for identifying thematic struc-
+ture of text streams. The thematic seg-
+mentation task is modeled as a binary-
+classification problem, where the different
+classes correspond to the presence or the
+absence of a thematic boundary. Exper-
+iments are conducted with this approach
+by using features based on word distri-
+butions through text. We provide em-
+pirical evidence that our approach is ro-
+bust, by showing good performance on
+three different data sets. In particu-
+lar, substantial improvement is obtained
+over previously published results of word-
+distribution based systems when evalua-
+tion is done on a corpus of recorded and
+transcribed multi-party dialogs.
+1 

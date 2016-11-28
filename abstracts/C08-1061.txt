@@ -1,0 +1,19 @@
+ 
+Classifying what-type questions into 
+proper semantic categories is found more 
+challenging than classifying other types 
+in question answering systems.  In this 
+paper, we propose to classify what-type 
+questions by head noun tagging. The ap-
+proach highlights the role of head nouns 
+as the category discriminator of what-
+type questions. To reduce the semantic 
+ambiguities of head noun, we integrate 
+local syntactic feature, semantic feature 
+and category dependency among adjacent 
+nouns with Conditional Random Fields 
+(CRFs). Experiments on standard ques-
+tion classification data set show that the 
+approach achieves state-of-the-art per-
+formances. 
+1 

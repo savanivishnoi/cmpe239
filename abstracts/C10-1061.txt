@@ -1,0 +1,19 @@
+
+This paper presents a first efficient imple-
+mentation of a weighted deductive CYK
+parser for Probabilistic Linear Context-
+Free Rewriting Systems (PLCFRS), to-
+gether with context-summary estimates
+for parse items used to speed up pars-
+ing. LCFRS, an extension of CFG, can de-
+scribe discontinuities both in constituency
+and dependency structures in a straight-
+forward way and is therefore a natural
+candidate to be used for data-driven pars-
+ing. We evaluate our parser with a gram-
+mar extracted from the German NeGra
+treebank. Our experiments show that data-
+driven LCFRS parsing is feasible with
+a reasonable speed and yields output of
+competitive quality.
+1 

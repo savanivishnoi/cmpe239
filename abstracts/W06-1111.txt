@@ -1,0 +1,19 @@
+
+We compare vectors containing counts of
+trigrams of part-of-speech (POS) tags in
+order to obtain an aggregate measure of
+syntax difference. Since lexical syntactic
+categories reflect more abstract syntax as
+well, we argue that this procedure reflects
+more than just the basic syntactic cate-
+gories. We tag the material automatically
+and analyze the frequency vectors for POS
+trigrams using a permutation test. A test
+analysis of a 305,000 word corpus con-
+taining the English of Finnish emigrants
+to Australia is promising in that the proce-
+dure proposed works well in distinguish-
+ing two different groups (adult vs. child
+emigrants) and also in highlighting syntac-
+tic deviations between the two groups.
+1 

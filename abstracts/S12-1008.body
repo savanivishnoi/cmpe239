@@ -1,0 +1,16 @@
+
+Text reuse is common in many scenarios and
+documents are often based, at least in part, on
+existing documents. This paper reports an ap-
+proach to detecting text reuse which identifies
+not only documents which have been reused
+verbatim but is also designed to identify cases
+of reuse when the original has been rewrit-
+ten. The approach identifies reuse by compar-
+ing word n-grams in documents and modifies
+these (by substituting words with synonyms
+and deleting words) to identify when text has
+been altered. The approach is applied to a cor-
+pus of newspaper stories and found to outper-
+form a previously reported method.
+1 

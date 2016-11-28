@@ -1,0 +1,15 @@
+
+We introduce bilingual word embeddings: se-
+mantic embeddings associated across two lan-
+guages in the context of neural language mod-
+els. We propose a method to learn bilingual
+embeddings from a large unlabeled corpus,
+while utilizing MT word alignments to con-
+strain translational equivalence. The new em-
+beddings significantly out-perform baselines
+in word semantic similarity. A single semantic
+similarity feature induced with bilingual em-
+beddings adds near half a BLEU point to the
+results of NIST08 Chinese-English machine
+translation task.
+1 

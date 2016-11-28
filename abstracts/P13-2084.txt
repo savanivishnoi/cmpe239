@@ -1,0 +1,17 @@
+
+This paper addresses the problem of deal-
+ing with a collection of labeled training
+documents, especially annotating negative
+training documents and presents a method
+of text classification from positive and un-
+labeled data. We applied an error detec-
+tion and correction technique to the re-
+sults of positive and negative documents
+classified by the Support Vector Machines
+(SVM). The results using Reuters docu-
+ments showed that the method was compa-
+rable to the current state-of-the-art biased-
+SVM method as the F-score obtained by
+our method was 0.627 and biased-SVM
+was 0.614.
+1 

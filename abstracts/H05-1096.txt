@@ -1,0 +1,24 @@
+
+Confidence measures for machine transla-
+tion is a method for labeling each word in
+an automatically generated translation as
+correct or incorrect. In this paper, we will
+present a new approach to confidence es-
+timation which has the advantage that it
+does not rely on system output such as N -
+best lists or word graphs as many other
+confidence measures do. It is, thus, appli-
+cable to any kind of machine translation
+system.
+Experimental evaluation has been per-
+formed on translation of technical manu-
+als in three different language pairs. Re-
+sults will be presented for different ma-
+chine translation systems to show that the
+new approach is independent of the under-
+lying machine translation system which
+generated the translations. To the best
+of our knowledge, the performance of the
+new confidence measure is better than that
+of any existing confidence measure.
+1 

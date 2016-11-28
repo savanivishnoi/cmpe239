@@ -1,0 +1,19 @@
+
+In this paper, we focus on the challenge
+of automatically converting a constituency
+treebank (source treebank) to fit the stan-
+dard of another constituency treebank (tar-
+get treebank). We formalize the conver-
+sion problem as an informed decoding
+procedure: information from original an-
+notations in a source treebank is incorpo-
+rated into the decoding phase of a parser
+trained on a target treebank during the
+parser assigning parse trees to sentences in
+the source treebank. Experiments on two
+Chinese treebanks show significant im-
+provements in conversion accuracy over
+baseline systems, especially when training
+data used for building the parser is small
+in size.
+1 

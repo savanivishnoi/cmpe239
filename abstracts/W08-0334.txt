@@ -1,0 +1,30 @@
+
+This paper presents a technique for class-
+dependent decoding for statistical machine 
+translation (SMT). The approach differs from 
+previous methods of class-dependent transla-
+tion in that the class-dependent forms of all 
+models are integrated directly into the decod-
+ing process. We employ probabilistic mixture 
+weights between models that can change dy-
+namically on a segment-by-segment basis 
+depending on the characteristics of the source 
+segment. The effectiveness of this approach is 
+demonstrated by evaluating its performance 
+on travel conversation data. We used the ap-
+proach to tackle the translation of questions 
+and declarative sentences using class-
+dependent models.  To achieve this, our system 
+integrated two sets of models specifically built 
+to deal with sentences that fall into one of two 
+classes of dialog sentence: questions and dec-
+larations, with a third set of models built to 
+handle the general class. The technique was 
+thoroughly evaluated on data from 17 lan-
+guage pairs using 6 machine translation 
+evaluation metrics. We found the results were 
+corpus-dependent, but in most cases our sys-
+tem was able to improve translation perform-
+ance, and for some languages the improve-
+ments were substantial.
+1 

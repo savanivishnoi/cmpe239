@@ -1,0 +1,17 @@
+
+Transition-based dependency parsers gener-
+ally use heuristic decoding algorithms but can
+accommodate arbitrarily rich feature represen-
+tations. In this paper, we show that we can im-
+prove the accuracy of such parsers by consid-
+ering even richer feature sets than those em-
+ployed in previous systems. In the standard
+Penn Treebank setup, our novel features im-
+prove attachment score form 91.4% to 92.9%,
+giving the best results so far for transition-
+based parsing and rivaling the best results
+overall. For the Chinese Treebank, they give a
+signficant improvement of the state of the art.
+An open source release of our parser is freely
+available.
+1 

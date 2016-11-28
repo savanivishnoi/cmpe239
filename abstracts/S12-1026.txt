@@ -1,0 +1,14 @@
+
+We present a method for learning syntax-
+semantics mappings for verbs from unanno-
+tated corpora. We learn linkings, i.e., map-
+pings from the syntactic arguments and ad-
+juncts of a verb to its semantic roles. By learn-
+ing such linkings, we do not need to model in-
+dividual semantic roles independently of one
+another, and we can exploit the relation be-
+tween different mappings for the same verb,
+or between mappings for different verbs. We
+present an evaluation on a standard test set for
+semantic role labeling.
+1 

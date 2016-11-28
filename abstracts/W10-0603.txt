@@ -1,0 +1,20 @@
+
+Different studies have been conducted for 
+predicting human brain activity associated 
+with the semantics of nouns. Corpus based 
+approaches have been used for deriving fea-
+ture vectors of concrete nouns, to model the 
+brain activity associated with that noun. In 
+this paper a computational model is proposed 
+in which, the feature vectors for each concrete 
+noun is computed by the WordNet similarity 
+of that noun with the 25 sensory-motor verbs 
+suggested by psychologists. The feature vec-
+tors are used for training a linear model to 
+predict functional MRI images of the brain as-
+sociated with nouns. The WordNet extracted 
+features are also combined with corpus based 
+semantic features of the nouns. The combined 
+features give better results in predicting hu-
+man brain activity related to concrete nouns.
+1 

@@ -1,0 +1,14 @@
+
+This paper introduces a general method to in-
+corporate the LDA Topic Model into text seg-
+mentation algorithms. We show that seman-
+tic information added by Topic Models signifi-
+cantly improves the performance of two word-
+based algorithms, namely TextTiling and C99.
+Additionally, we introduce the new TopicTil-
+ing algorithm that is designed to take better
+advantage of topic information. We show con-
+sistent improvements over word-based meth-
+ods and achieve state-of-the art performance
+on a standard dataset.
+1 

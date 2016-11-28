@@ -1,0 +1,13 @@
+
+We describe a speedup for training conditional maxi-
+mum entropy models. The algorithm is a simple vari-
+ation on Generalized Iterative Scaling, but converges
+roughly an order of magnitude faster, depending on
+the number of constraints, and the way speed is mea-
+sured. Rather than attempting to train all model pa-
+rameters simultaneously, the algorithm trains them
+sequentially. The algorithm is easy to implement,
+typically uses only slightly more memory, and will
+lead to improvements for most maximum entropy
+problems.
+1 

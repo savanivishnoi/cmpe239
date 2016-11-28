@@ -1,0 +1,26 @@
+
+We introduce cause identification, a new
+problem involving classification of in-
+cident reports in the aviation domain.
+Specifically, given a set of pre-defined
+causes, a cause identification system seeks
+to identify all and only those causes that
+can explain why the aviation incident de-
+scribed in a given report occurred. The dif-
+ficulty of cause identification stems in part
+from the fact that it is a multi-class, multi-
+label categorization task, and in part from
+the skewness of the class distributions and
+the scarcity of annotated reports. To im-
+prove the performance of a cause identi-
+fication system for the minority classes,
+we present a bootstrapping algorithm that
+automatically augments a training set by
+learning from a small amount of labeled
+data and a large amount of unlabeled data.
+Experimental results show that our algo-
+rithm yields a relative error reduction of
+6.3% in F-measure for the minority classes
+in comparison to a baseline that learns
+solely from the labeled data.
+1 

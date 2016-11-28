@@ -1,0 +1,15 @@
+
+This paper describes a new method for cross-
+lingual textual entailment (CLTE) detection
+based on machine translation (MT). We use
+sub-segment translations from different MT
+systems available online as a source of cross-
+lingual knowledge. In this work we describe
+and evaluate different features derived from
+these sub-segment translations, which are used
+by a support vector machine classifier to detect
+CLTEs. We presented this system to the Se-
+mEval 2012 task 8 obtaining an accuracy up to
+59.8% on the English?Spanish test set, the sec-
+ond best performing approach in the contest.
+1 

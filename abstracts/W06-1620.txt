@@ -1,0 +1,20 @@
+
+We propose a conditional random field-
+based method for supertagging, and ap-
+ply it to the task of learning new lexi-
+cal items for HPSG-based precision gram-
+mars of English and Japanese. Us-
+ing a pseudo-likelihood approximation we
+are able to scale our model to hun-
+dreds of supertags and tens-of-thousands
+of training sentences. We show that
+it is possible to achieve start-of-the-art
+results for both languages using maxi-
+mally language-independent lexical fea-
+tures. Further, we explore the performance
+of the models at the type- and token-level,
+demonstrating their superior performance
+when compared to a unigram-based base-
+line and a transformation-based learning
+approach.
+1 

@@ -1,0 +1,22 @@
+
+Many existing methods for bilingual
+lexicon learning from comparable corpora
+are based on similarity of context vectors.
+These methods suffer from noisy vectors
+that greatly affect their accuracy. We
+introduce a method for filtering this noise
+allowing highly accurate learning of
+bilingual lexicons. Our method is based
+on the notion of in-domain terms which
+can be thought of as the most important
+contextually relevant words. We provide
+a method for identifying such terms.
+Our evaluation shows that the proposed
+method can learn highly accurate bilin-
+gual lexicons without using orthographic
+features or a large initial seed dictionary.
+In addition, we also introduce a method
+for measuring the similarity between
+two words in different languages without
+requiring any initial dictionary.
+1 

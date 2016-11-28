@@ -1,0 +1,21 @@
+
+Morph length is one of the indicative feature
+that helps learning the morphology of lan-
+guages, in particular agglutinative languages.
+In this paper, we introduce a simple unsu-
+pervised model for morphological segmenta-
+tion and study how the knowledge of morph
+length affect the performance of the seg-
+mentation task under the Bayesian frame-
+work. The model is based on (Goldwater et
+al., 2006) unigram word segmentation model
+and assumes a simple prior distribution over
+morph length. We experiment this model
+on two highly related and agglutinative lan-
+guages namely Tamil and Telugu, and com-
+pare our results with the state of the art Mor-
+fessor system. We show that, knowledge of
+morph length has a positive impact and pro-
+vides competitive results in terms of overall
+performance.
+1 

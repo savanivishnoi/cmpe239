@@ -1,0 +1,14 @@
+
+Developing sophisticated turn-taking behavior
+is necessary for next-generation dialogue sys-
+tems. However, incorporating real users into
+the development cycle is expensive and cur-
+rent simulation techniques are inadequate. As
+a foundation for advancing turn-taking behav-
+ior, we present a temporal simulator that mod-
+els the interaction between the user and the
+system, including speech, voice activity de-
+tection, and incremental speech recognition.
+We describe the details of the simulator and
+demonstrate it on a sample domain.
+1 

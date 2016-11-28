@@ -1,0 +1,20 @@
+
+In Semantic Role Labeling (SRL), it is rea-
+sonable to globally assign semantic roles
+due to strong dependencies among argu-
+ments. Some relations between arguments
+significantly characterize the structural in-
+formation of argument structure. In this
+paper, we concentrate on thematic hierar-
+chy that is a rank relation restricting syn-
+tactic realization of arguments. A log-
+linear model is proposed to accurately
+identify thematic rank between two argu-
+ments. To import structural information,
+we employ re-ranking technique to incor-
+porate thematic rank relations into local
+semantic role classification results. Exper-
+imental results show that automatic pre-
+diction of thematic hierarchy can help se-
+mantic role classification.
+1 

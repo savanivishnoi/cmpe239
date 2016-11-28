@@ -1,0 +1,19 @@
+
+Pipelined Natural Language Generation
+(NLG) systems have grown increasingly
+complex as architectural modules were
+added to support language functionali-
+ties such as referring expressions, lexical
+choice, and revision. This has given rise to
+discussions about the relative placement
+of these new modules in the overall archi-
+tecture. Recent work on another aspect
+of multi-paragraph text, discourse mark-
+ers, indicates it is time to consider where a
+discourse marker insertion algorithm fits
+in. We present examples which suggest
+that in a pipelined NLG architecture, the
+best approach is to strongly tie it to a revi-
+sion component. Finally, we evaluate the
+approach in a working multi-page system.
+1 

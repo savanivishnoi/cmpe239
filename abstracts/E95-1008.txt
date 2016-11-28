@@ -1,0 +1,26 @@
+ 
+Statistical anguage models are useful 
+because they can provide probabilis- 
+tic information upon uncertain decision 
+making. The most common statistic is 
+n-grams measuring word cooccurrences 
+in texts. The method suffers from data 
+shortage problem, however. In this pa- 
+per, we suggest Bayesian networks be 
+used in approximating the statistics of 
+insufficient occurrences and of those that 
+do not occur in the sample texts with 
+graceful degradation. Collocation map 
+is a sigmoid belief network that can be 
+constructed from bigrams. We compared 
+the conditional probabilities and mutual 
+information computed from bigrams and 
+Collocation map. The results show that 
+the variance of the values from Colloca- 
+tion map is smaller than that from fre- 
+quency measure for the infrequent pairs 
+by 48%. The predictive power of Col- 
+location map for arbitrary associations 
+not observed from sample texts is also 
+demonstrated. 
+1 

@@ -1,0 +1,25 @@
+
+We propose a novel bilingual topical ad-
+mixture (BiTAM) formalism for word
+alignment in statistical machine transla-
+tion. Under this formalism, the paral-
+lel sentence-pairs within a document-pair
+are assumed to constitute a mixture of
+hidden topics; each word-pair follows a
+topic-specific bilingual translation model.
+Three BiTAM models are proposed to cap-
+ture topic sharing at different levels of lin-
+guistic granularity (i.e., at the sentence or
+word levels). These models enable word-
+alignment process to leverage topical con-
+tents of document-pairs. Efficient vari-
+ational approximation algorithms are de-
+signed for inference and parameter esti-
+mation. With the inferred latent topics,
+BiTAM models facilitate coherent pairing
+of bilingual linguistic entities that share
+common topical aspects. Our preliminary
+experiments show that the proposed mod-
+els improve word alignment accuracy, and
+lead to better translation quality.
+1 

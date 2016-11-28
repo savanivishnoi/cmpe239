@@ -1,0 +1,16 @@
+
+We compare the performance of two lexicon-
+based sentiment systems ? SentiStrength
+(Thelwall et al, 2012) and SO-CAL (Taboada
+et al, 2011) ? on the two genres of newspaper
+text and tweets. While SentiStrength has been
+geared specifically toward short social-media
+text, SO-CAL was built for general, longer
+text. After the initial comparison, we suc-
+cessively enrich the SO-CAL-based analysis
+with tweet-specific mechanisms and observe
+that in some cases, this improves the perfor-
+mance. A qualitative error analysis then iden-
+tifies classes of typical problems the two sys-
+tems have with tweets.
+1 

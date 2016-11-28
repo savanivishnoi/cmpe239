@@ -1,0 +1,14 @@
+
+We describe the system submitted to
+the closed challenge of the CoNLL-2008
+shared task on joint parsing of syntactic
+and semantic dependencies. Syntactic de-
+pendencies are processed with the Malt-
+Parser 0.4. Semantic dependencies are
+processed with a combination of memory-
+based classifiers. The system achieves
+78.43 labeled macro F1 for the complete
+problem, 86.07 labeled attachment score
+for syntactic dependencies, and 70.51 la-
+beled F1 for semantic dependencies.
+1 

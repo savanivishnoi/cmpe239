@@ -1,0 +1,24 @@
+
+Models of latent document semantics such as
+the mixture of multinomials model and La-
+tent Dirichlet Allocation have received sub-
+stantial attention for their ability to discover
+topical semantics in large collections of text.
+In an effort to apply such models to noisy
+optical character recognition (OCR) text out-
+put, we endeavor to understand the effect
+that character-level noise can have on unsu-
+pervised topic modeling. We show the ef-
+fects both with document-level topic analy-
+sis (document clustering) and with word-level
+topic analysis (LDA) on both synthetic and
+real-world OCR data. As expected, experi-
+mental results show that performance declines
+as word error rates increase. Common tech-
+niques for alleviating these problems, such as
+filtering low-frequency words, are successful
+in enhancing model quality, but exhibit fail-
+ure trends similar to models trained on unpro-
+cessed OCR output in the case of LDA. To our
+knowledge, this study is the first of its kind.
+1 

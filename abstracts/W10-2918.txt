@@ -1,0 +1,22 @@
+
+This paper presents a comparative study
+of three closely related Bayesian mod-
+els for unsupervised document level senti-
+ment classification, namely, the latent sen-
+timent model (LSM), the joint sentiment-
+topic (JST) model, and the Reverse-JST
+model. Extensive experiments have been
+conducted on two corpora, the movie re-
+view dataset and the multi-domain senti-
+ment dataset. It has been found that while
+all the three models achieve either bet-
+ter or comparable performance on these
+two corpora when compared to the exist-
+ing unsupervised sentiment classification
+approaches, both JST and Reverse-JST are
+able to extract sentiment-oriented topics.
+In addition, Reverse-JST always performs
+worse than JST suggesting that the JST
+model is more appropriate for joint senti-
+ment topic detection.
+1 

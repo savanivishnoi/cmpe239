@@ -1,0 +1,35 @@
+.
+This paper deals with the robust 
+expansion of Domain Lexico- 
+Taxonomy (DLT). DLT is a domain 
+taxonomy enriched with domain lexica. 
+DLT was proposed as an infrastructure 
+for crossing domain barriers (Huang et 
+al. 2004). The DLT proposal is based 
+on the observation that domain lexica 
+contain entries that are also part of a 
+general lexicon. Hence, when entries of 
+a general lexicon are marked with their 
+associated domain attributes, this 
+information can have two important 
+applications. First, the DLT will serve 
+as seeds for domain lexica. Second, the 
+DLT offers the most reliable evidence 
+for deciding the domain of a new text 
+since these lexical clues belong to the 
+general lexicon and do occur reliably in 
+all texts. Hence general lexicon 
+lemmas are extracted to populate 
+domain lexica, which are situated in 
+domain taxonomy. Based on this 
+previous work, we show in this paper 
+that the original DLT can be further 
+expanded when a new language 
+resource is introduced. We applied 
+CiLin, a Chinese thesaurus, and added 
+more than 1000 new entries for DLT 
+and show with evaluation that the DLT 
+approach is robust since the size and 
+number of domain lexica increased 
+effectively. 
+1.  

@@ -1,0 +1,29 @@
+ 
+Acronyms are increasingly prevalent in bio-
+medical text, and the task of acronym disam-
+biguation is fundamentally important for 
+biomedical natural language processing sys-
+tems. Several groups have generated sense in-
+ventories of acronym long form expansions 
+from the biomedical literature. Long form 
+sense inventories, however, may contain con-
+ceptually redundant expansions that negative-
+ly affect their quality. Our approach to 
+improving sense inventories consists of map-
+ping long form expansions to concepts in the 
+Unified Medical Language System (UMLS) 
+with subsequent application of a semantic si-
+milarity algorithm based upon conceptual 
+overlap. We evaluated this approach on a ref-
+erence standard developed for ten acronyms. 
+A total of 119 of 155 (78%) long forms 
+mapped to concepts in the UMLS. Our ap-
+proach identified synonymous long forms 
+with a sensitivity of 70.2% and a positive pre-
+dictive value of 96.3%. Although further re-
+finements are needed, this study demonstrates 
+the potential value of using automated tech-
+niques to merge synonymous biomedical 
+acronym long forms to improve the quality of 
+biomedical acronym sense inventories. 
+1 

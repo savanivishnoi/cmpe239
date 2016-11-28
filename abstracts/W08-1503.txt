@@ -1,0 +1,28 @@
+
+This paper proposes a novel integrated dialog
+simulation technique for evaluating spoken di-
+alog systems. Many techniques for simulat-
+ing users and errors have been proposed for
+use in improving and evaluating spoken dia-
+log systems, but most of them are not easily
+applied to various dialog systems or domains
+because some are limited to specific domains
+or others require heuristic rules. In this pa-
+per, we propose a highly-portable technique for
+simulating user intention, utterance and Au-
+tomatic Speech Recognition (ASR) channels.
+This technique can be used to rapidly build a
+dialog simulation system for evaluating spo-
+ken dialog systems. We propose a novel user
+intention modeling and generating method that
+uses a linear-chain conditional random field, a
+data-driven domain specific user utterance sim-
+ulation method, and a novel ASR channel sim-
+ulation method with adjustable error recogni-
+tion rates. Experiments using these techniques
+were carried out to evaluate the performance
+and behavior of previously developed dialog
+systems designed for navigation dialogs, and
+it turned out that our approach is easy to set up
+and shows the similar tendencies of real users.
+1 

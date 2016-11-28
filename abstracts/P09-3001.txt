@@ -1,0 +1,29 @@
+
+The use of figurative language is ubiqui-
+tous in natural language texts and it is a
+serious bottleneck in automatic text un-
+derstanding. We address the problem of
+interpretation of logical metonymy, using
+a statistical method. Our approach origi-
+nates from that of Lapata and Lascarides
+(2003), which generates a list of non-
+disambiguated interpretations with their
+likelihood derived from a corpus. We pro-
+pose a novel sense-based representation
+of the interpretation of logical metonymy
+and a more thorough evaluation method
+than that of Lapata and Lascarides (2003).
+By carrying out a human experiment we
+prove that such a representation is intu-
+itive to human subjects. We derive a rank-
+ing scheme for verb senses using an unan-
+notated corpus, WordNet sense numbering
+and glosses. We also provide an account
+of the requirements that different aspec-
+tual verbs impose onto the interpretation
+of logical metonymy. We tested our sys-
+tem on verb-object metonymic phrases. It
+identifies and ranks metonymic interpreta-
+tions with the mean average precision of
+0.83 as compared to the gold standard.
+1 

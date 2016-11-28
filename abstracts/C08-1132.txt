@@ -1,0 +1,20 @@
+ 
+This paper proposes an approach using 
+large scale case structures, which are 
+automatically constructed from both a 
+small tagged corpus and a large raw cor-
+pus, to improve Chinese dependency 
+parsing. The case structure proposed in 
+this paper has two characteristics: (1) it 
+relaxes the predicate of a case structure to 
+be all types of words which behaves as a 
+head; (2) it is not categorized by semantic 
+roles but marked by the neighboring 
+modifiers attached to a head. Experimen-
+tal results based on Penn Chinese Tree-
+bank show the proposed approach 
+achieved 87.26% on unlabeled attach-
+ment score, which significantly outper-
+formed the baseline parser without using 
+case structures. 
+1 

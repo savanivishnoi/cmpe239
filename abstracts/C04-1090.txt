@@ -1,0 +1,15 @@
+ 
+We propose a path-based transfer model for 
+machine translation. The model is trained with 
+a word-aligned parallel corpus where the 
+source language sentences are parsed. The 
+training algorithm extracts a set of transfer 
+rules and their probabilities from the training 
+corpus. A rule translates a path in the source 
+language dependency tree into a fragment in 
+the target dependency tree. The problem of 
+finding the most probable translation becomes 
+a graph-theoretic problem of finding the 
+minimum path covering of the source 
+language dependency tree. 
+1 

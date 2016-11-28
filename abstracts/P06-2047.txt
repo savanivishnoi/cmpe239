@@ -1,0 +1,17 @@
+
+Various kinds of scored dependency
+graphs are proposed as packed shared data
+structures in combination with optimum
+dependency tree search algorithms. This
+paper classifies the scored dependency
+graphs and discusses the specific features
+of the ?Dependency Forest? (DF) which is
+the packed shared data structure adopted
+in the ?Preference Dependency Grammar?
+(PDG), and proposes the ?Graph Branch
+Algorithm? for computing the optimum
+dependency tree from a DF. This paper
+also reports the experiment showing the
+computational amount and behavior of the
+graph branch algorithm.
+1 

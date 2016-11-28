@@ -1,0 +1,16 @@
+
+This paper present a new readability formula
+for French as a foreign language (FFL), which
+relies on 46 textual features representative of
+the lexical, syntactic, and semantic levels as
+well as some of the specificities of the FFL
+context. We report comparisons between sev-
+eral techniques for feature selection and var-
+ious learning algorithms. Our best model,
+based on support vector machines (SVM), sig-
+nificantly outperforms previous FFL formulas.
+We also found that semantic features behave
+poorly in our case, in contrast with some pre-
+vious readability studies on English as a first
+language.
+1 

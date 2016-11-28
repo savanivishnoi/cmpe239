@@ -1,0 +1,29 @@
+
+This paper proposes a new method for
+significantly improving the performance
+of pairwise coreference models. Given a
+set of indicators, our method learns how
+to best separate types of mention pairs
+into equivalence classes for which we con-
+struct distinct classification models. In ef-
+fect, our approach finds an optimal fea-
+ture space (derived from a base feature set
+and indicator set) for discriminating coref-
+erential mention pairs. Although our ap-
+proach explores a very large space of pos-
+sible feature spaces, it remains tractable
+by exploiting the structure of the hierar-
+chies built from the indicators. Our exper-
+iments on the CoNLL-2012 Shared Task
+English datasets (gold mentions) indicate
+that our method is robust relative to dif-
+ferent clustering strategies and evaluation
+metrics, showing large and consistent im-
+provements over a single pairwise model
+using the same base features. Our best
+system obtains a competitive 67.2 of aver-
+age F1 over MUC, B3, and CEAF which,
+despite its simplicity, places it above the
+mean score of other systems on these
+datasets.
+1 

@@ -1,0 +1,12 @@
+
+This paper presents our error tolerable sys-
+tem for coreference resolution in CoNLL-
+2011(Pradhan et al, 2011) shared task (closed
+track). Different from most previous reported
+work, we detect mention candidates based on
+packed forest instead of single parse tree, and
+we use beam search algorithm based on the
+Bell Tree to create entities. Experimental re-
+sults show that our methods achieve promising
+results on the development set.
+1 

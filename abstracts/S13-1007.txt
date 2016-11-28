@@ -1,0 +1,19 @@
+
+This paper presents the UNITOR system that
+participated in the *SEM 2013 shared task on
+Semantic Textual Similarity (STS). The task is
+modeled as a Support Vector (SV) regression
+problem, where a similarity scoring function
+between text pairs is acquired from examples.
+The proposed approach has been implemented
+in a system that aims at providing high ap-
+plicability and robustness, in order to reduce
+the risk of over-fitting over a specific datasets.
+Moreover, the approach does not require any
+manually coded resource (e.g. WordNet), but
+mainly exploits distributional analysis of un-
+labeled corpora. A good level of accuracy is
+achieved over the shared task: in the Typed
+STS task the proposed system ranks in 1st and
+2nd position.
+1 

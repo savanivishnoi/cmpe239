@@ -1,0 +1,21 @@
+ 
+Schwa deletion is an important issue in 
+grapheme-to-phoneme conversion for Indo-
+Aryan languages (IAL). In this paper, we 
+describe a syllable minimization based 
+algorithm for dealing with this that 
+outperforms the existing methods in terms of 
+efficiency and accuracy. The algorithm is 
+motivated by the fact that deletion of schwa is 
+a diachronic and sociolinguistic phenomenon 
+that facilitates faster communication through 
+syllable economy. The contribution of the 
+paper is not just a better algorithm for schwa 
+deletion; rather we describe here a constrained 
+optimization based framework that can partly 
+model the evolution of languages, and hence, 
+can be used for solving many problems in 
+computational linguistics that call for 
+diachronic explanations. 
+ 
+1 

@@ -1,0 +1,20 @@
+
+A pair of sentences in different newspaper
+articles on an event can have one of sev-
+eral relations. Of these, we have focused on
+two, i.e., equivalence and transition. Equiv-
+alence is the relation between two sentences
+that have the same information on an event.
+Transition is the relation between two sen-
+tences that have the same information except
+for values of numeric attributes. We pro-
+pose methods of identifying these relations.
+We first split a dataset consisting of pairs
+of sentences into clusters according to their
+similarities, and then construct a classifier
+for each cluster to identify equivalence re-
+lations. We also adopt a ?coarse-to-fine? ap-
+proach. We further propose using the identi-
+fied equivalence relations to address the task
+of identifying transition relations.
+1 

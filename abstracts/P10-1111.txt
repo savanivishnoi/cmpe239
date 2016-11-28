@@ -1,0 +1,25 @@
+
+For languages with (semi-) free word or-
+der (such as German), labelling gramma-
+tical functions on top of phrase-structural
+constituent analyses is crucial for making
+them interpretable. Unfortunately, most
+statistical classifiers consider only local
+information for function labelling and fail
+to capture important restrictions on the
+distribution of core argument functions
+such as subject, object etc., namely that
+there is at most one subject (etc.) per
+clause. We augment a statistical classifier
+with an integer linear program imposing
+hard linguistic constraints on the solution
+space output by the classifier, capturing
+global distributional restrictions. We show
+that this improves labelling quality, in par-
+ticular for argument grammatical func-
+tions, in an intrinsic evaluation, and, im-
+portantly, grammar coverage for treebank-
+based (Lexical-Functional) grammar ac-
+quisition and parsing, in an extrinsic eval-
+uation.
+1 

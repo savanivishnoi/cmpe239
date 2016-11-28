@@ -1,0 +1,15 @@
+
+This paper describes the phrase-based
+SMT systems developed for our partici-
+pation in the WMT13 Shared Translation
+Task. Translations for English?German
+and English?French were generated us-
+ing a phrase-based translation system
+which is extended by additional models
+such as bilingual, fine-grained part-of-
+speech (POS) and automatic cluster lan-
+guage models and discriminative word
+lexica (DWL). In addition, we combined
+reordering models on different sentence
+abstraction levels.
+1 

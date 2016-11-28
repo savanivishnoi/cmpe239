@@ -1,0 +1,22 @@
+ 
+This paper presents a comparative study 
+on two key problems existing in extrac-
+tive summarization: the ranking problem 
+and the selection problem. To this end, 
+we presented a systematic study of 
+comparing different learning-to-rank al-
+gorithms and comparing different selec-
+tion strategies. This is the first work of 
+providing systematic analysis on these 
+problems. Experimental results on two 
+benchmark datasets demonstrate three 
+findings: (1) pairwise and listwise learn-
+ing-to-rank algorithms outperform the 
+baselines significantly; (2) there is no 
+significant difference among the learn-
+ing-to-rank algorithms; and (3) the in-
+teger linear programming selection 
+strategy generally outperformed Maxi-
+mum Marginal Relevance and Diversity 
+Penalty strategies. 
+1 

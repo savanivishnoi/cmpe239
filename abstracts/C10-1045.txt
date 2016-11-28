@@ -1,0 +1,20 @@
+
+In this paper, we offer broad insight
+into the underperformance of Arabic con-
+stituency parsing by analyzing the inter-
+play of linguistic phenomena, annotation
+choices, and model design. First, we iden-
+tify sources of syntactic ambiguity under-
+studied in the existing parsing literature.
+Second, we show that although the Penn
+Arabic Treebank is similar to other tree-
+banks in gross statistical terms, annotation
+consistency remains problematic. Third,
+we develop a human interpretable gram-
+mar that is competitive with a latent vari-
+able PCFG. Fourth, we show how to build
+better models for three different parsers.
+Finally, we show that in application set-
+tings, the absence of gold segmentation
+lowers parsing performance by 2?5% F1.
+1 

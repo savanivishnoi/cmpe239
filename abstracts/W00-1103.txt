@@ -1,0 +1,35 @@
+ 
+In several recent years, natural 
+language processing (NLP) has brought 
+some very interesting and promising 
+outcomes. In the field of information 
+retrieval (IR), however, these significant 
+advances have not been applied in an 
+optimal way yet. 
+Author argues that traditional IR 
+methods, i.e. methods based on dealing 
+with individual terms without considering 
+their relations, can be overcome using 
+NLP procedures. The reason for this 
+expectation is the fact that NLP methods 
+are able to detect the relations among 
+terms in sentences and that the 
+information obtained can be stored and 
+used for searching. Features of word 
+senses and the significance of word 
+contexts are analysed and possibility of 
+searching based on word senses instead of 
+mere words is examined. 
+The core part of the paper focuses on 
+analysing Czech sentences and extracting 
+the  context relations among words from 
+them. In order to make use of 
+lemmatisation and morphological and 
+syntactic tagging of Czech texts, author 
+proposes a method for construction of 
+dependency word microcontexts fully 
+automatically extracted from texts, and 
+several ways how to exploit the 
+microcontexts for the sake of increasing 
+retrieval performance. 
+1 

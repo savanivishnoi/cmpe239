@@ -1,0 +1,20 @@
+
+Ranking documents or sentences accord-
+ing to both topic and sentiment relevance
+should serve a critical function in helping
+users when topics and sentiment polari-
+ties of the targeted text are not explicitly
+given, as is often the case on the web. In
+this paper, we propose several sentiment
+information retrieval models in the frame-
+work of probabilistic language models, as-
+suming that a user both inputs query terms
+expressing a certain topic and also speci-
+fies a sentiment polarity of interest in some
+manner. We combine sentiment relevance
+models and topic relevance models with
+model parameters estimated from training
+data, considering the topic dependence of
+the sentiment. Our experiments prove that
+our models are effective.
+1 

@@ -1,0 +1,47 @@
+ Context
+Peter D. Turney
+Inst. for Info. Tech.
+NRC Canada
+Ottawa, Canada
+peter.turney@nrc-cnrc.gc.ca
+Yair Neuman
+Dept. of Education
+Ben-Gurion Univ.
+Beer-Sheva, Israel
+yneuman@bgu.ac.il
+Dan Assaf
+Dept. of Education
+Ben-Gurion Univ.
+Beer-Sheva, Israel
+dan.assaf4@googlemail.com
+Yohai Cohen
+Gilasio Coding
+Tel-Aviv, Israel
+yohai@gilasio.com
+Abstract
+Metaphor is ubiquitous in text, even in highly
+technical text. Correct inference about tex-
+tual entailment requires computers to distin-
+guish the literal and metaphorical senses of
+a word. Past work has treated this problem
+as a classical word sense disambiguation task.
+In this paper, we take a new approach, based
+on research in cognitive linguistics that views
+metaphor as a method for transferring knowl-
+edge from a familiar, well-understood, or con-
+crete domain to an unfamiliar, less understood,
+or more abstract domain. This view leads to
+the hypothesis that metaphorical word usage
+is correlated with the degree of abstractness of
+the word?s context. We introduce an algorithm
+that uses this hypothesis to classify a word
+sense in a given context as either literal (de-
+notative) or metaphorical (connotative). We
+evaluate this algorithm with a set of adjective-
+noun phrases (e.g., in dark comedy, the adjec-
+tive dark is used metaphorically; in dark hair,
+it is used literally) and with the TroFi (Trope
+Finder) Example Base of literal and nonliteral
+usage for fifty verbs. We achieve state-of-the-
+art performance on both datasets.
+1 

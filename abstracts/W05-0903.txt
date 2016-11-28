@@ -1,0 +1,24 @@
+
+Evaluation measures for machine trans-
+lation depend on several common meth-
+ods, such as preprocessing, tokenization,
+handling of sentence boundaries, and the
+choice of a reference length. In this
+paper, we describe and review some
+new approaches to them and compare
+these to state-of-the-art methods. We
+experimentally look into their impact on
+four established evaluation measures. For
+this purpose, we study the correlation
+between automatic and human evaluation
+scores on three MT evaluation corpora.
+These experiments confirm that the to-
+kenization method, the reference length
+selection scheme, and the use of sentence
+boundaries we introduce will increase the
+correlation between automatic and human
+evaluation scores. We find that ignoring
+case information and normalizing evalu-
+ator scores has a positive effect on the
+sentence level correlation as well.
+1 

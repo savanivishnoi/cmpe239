@@ -1,0 +1,19 @@
+  
+This paper proposes an unsupervised 
+learning model for classifying named 
+entities. This model uses a training set, built 
+automatically by means of a small-scale 
+named entity dictionary and an unlabeled 
+corpus. This enables us to classify named 
+entities without the cost for building a large 
+hand-tagged training corpus or a lot of rules. 
+Our model uses the ensemble of three 
+different learning methods and repeats the 
+learning with new training examples 
+generated through the ensemble learning. 
+The ensemble of various learning methods 
+brings a better result than each individual 
+learning method. The experimental result 
+shows 73.16% in precision and 72.98% in 
+recall for Korean news articles.  
+1 

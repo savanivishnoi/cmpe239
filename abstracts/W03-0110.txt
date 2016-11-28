@@ -1,0 +1,12 @@
+
+We define a data model for storing geographic
+information from multiple sources that en-
+ables the efficient production of customizable
+gazetteers. The GazDB separates names from
+features while storing the relationships be-
+tween them. Geographic names are stored in
+a variety of resolutions to allow for i18n and
+for multiplicity of naming. Geographic fea-
+tures are categorized along several axes to fa-
+cilitate selection and filtering.
+1 

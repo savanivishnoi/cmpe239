@@ -1,0 +1,20 @@
+
+We present a discriminative, large-
+margin approach to feature-based
+matching for word alignment. In this
+framework, pairs of word tokens re-
+ceive a matching score, which is based
+on features of that pair, including mea-
+sures of association between the words,
+distortion between their positions, sim-
+ilarity of the orthographic form, and so
+on. Even with only 100 labeled train-
+ing examples and simple features which
+incorporate counts from a large unla-
+beled corpus, we achieve AER perfor-
+mance close to IBM Model 4, in much
+less time. Including Model 4 predic-
+tions as features, we achieve a relative
+AER reduction of 22% in over inter-
+sected Model 4 alignments.
+1 

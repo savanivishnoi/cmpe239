@@ -1,0 +1,24 @@
+
+We describe the LIU systems for English-
+German and German-English translation
+in the WMT09 shared task. We focus on
+two methods to improve the word align-
+ment: (i) by applying Giza++ in a sec-
+ond phase to a reordered training cor-
+pus, where reordering is based on the
+alignments from the first phase, and (ii)
+by adding lexical data obtained as high-
+precision alignments from a different word
+aligner. These methods were studied in
+the context of a system that uses com-
+pound processing, a morphological se-
+quence model for German, and a part-
+of-speech sequence model for English.
+Both methods gave some improvements to
+translation quality as measured by Bleu
+and Meteor scores, though not consis-
+tently. All systems used both out-of-
+domain and in-domain data as the mixed
+corpus had better scores in the baseline
+configuration.
+1 

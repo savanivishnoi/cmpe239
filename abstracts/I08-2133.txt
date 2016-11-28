@@ -1,0 +1,17 @@
+
+In this article we address the task of auto-
+matic text structuring into linear and non-
+overlapping thematic episodes at a coarse
+level of granularity. In particular, we
+deal with topic segmentation on multi-party
+meeting recording transcripts, which pose
+specific challenges for topic segmentation
+models. We present a comparative study
+of two probabilistic mixture models. Based
+on lexical features, we use these models in
+parallel in order to generate a low dimen-
+sional input representation for topic segmen-
+tation. Our experiments demonstrate that in
+this manner important information is cap-
+tured from the data through less features.
+1 

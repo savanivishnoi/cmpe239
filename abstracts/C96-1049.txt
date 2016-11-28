@@ -1,0 +1,25 @@
+ 
+This paper describes results achieved in a 
+project which addresses the issue of how the 
+gap between unification-based grammars as a 
+scientific concept and real world applications 
+can be narrowed own 1. Application-oriented 
+grammar development has to take into ac- 
+count the following parameters: Efficiency: 
+The project chose a so called 'lean' formal 
+ism, a term-encodable language providing effi- 
+cient term unification, ALEP. Coverage: The 
+project adopted a corpus-based approach. 
+Completeness: All modules needed from text 
+handling to semantics must be there. The 
+paper reports on a text handling compo- 
+nent, Two Level morphology, word structure, 
+phrase structure, semantics and the interfaces 
+between these components. Mainstream ap- 
+proach: The approach claims to be main- 
+stream, very much indebted to HPSG, thus 
+based on the currently most prominent and 
+recent linguistic theory. The relation (and 
+tension) between these parameters are de- 
+scribed in this paper. 
+1 

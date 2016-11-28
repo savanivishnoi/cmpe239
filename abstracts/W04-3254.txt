@@ -1,0 +1,19 @@
+
+We present a new approach to intrinsic sum-
+mary evaluation, based on initial experiments
+in van Halteren and Teufel (2003), which com-
+bines two novel aspects: comparison of infor-
+mation content (rather than string similarity)
+in gold standard and system summary, mea-
+sured in shared atomic information units which
+we call factoids, and comparison to more than
+one gold standard summary (in our data: 20
+and 50 summaries respectively). In this paper,
+we show that factoid annotation is highly re-
+producible, introduce a weighted factoid score,
+estimate how many summaries are required for
+stable system rankings, and show that the fac-
+toid scores cannot be sufficiently approximated
+by unigrams and the DUC information overlap
+measure.
+1 

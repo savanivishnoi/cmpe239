@@ -1,0 +1,25 @@
+ 
+Functional chunks are defined as a series 
+of non-overlapping, non-nested segments 
+of text in a sentence, representing the im-
+plicit grammatical relations between the 
+sentence-level predicates and their argu-
+ments. Its top-down scheme and com-
+plexity of internal constitutions bring in a 
+new challenge for automatic parser. In 
+this paper, a new parsing model is pro-
+posed to formulate the complete chunk-
+ing problem as a series of boundary de-
+tection sub tasks. Each of these sub tasks 
+is only in charge of detecting one type of 
+the chunk boundaries. As each sub task 
+could be modeled as a binary classifica-
+tion problem, a lot of machine learning 
+techniques could be applied.  
+In our experiments, we only focus on 
+the subject-predicate (SP) and predicate-
+object (PO) boundary detection sub tasks. 
+By applying SVM algorithm to these sub 
+tasks, we have achieved the best F-Score 
+of 76.56% and 82.26% respectively. 
+1 

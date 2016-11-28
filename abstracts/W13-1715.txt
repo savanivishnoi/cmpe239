@@ -1,0 +1,18 @@
+ 
+Native Language Identification (NLI), which 
+tries to identify the native language (L1) of a 
+second language learner based on their writ-
+ings, is helpful for advancing second language 
+learning and authorship profiling in forensic 
+linguistics. With the availability of relevant 
+data resources, much work has been done to 
+explore the native language of a foreign lan-
+guage learner. In this report, we present our 
+system for the first shared task in Native Lan-
+guage Identification (NLI). We use a linear 
+SVM classifier and explore features of words, 
+word and character n-grams, style, and 
+metadata. Our official system achieves accu-
+racy of 0.773, which ranks it 18th among the 
+29 teams in the closed track. 
+1 

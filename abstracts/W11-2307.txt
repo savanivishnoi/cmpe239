@@ -1,0 +1,32 @@
+
+This paper describes the integration of com-
+monly used screen readers, namely, NVDA
+[NVDA 2011] and ORCA [ORCA 2011] with
+Text to Speech (TTS) systems for Indian lan-
+guages. A participatory design approach was
+followed in the development of the integrated
+system to ensure that the expectations of vi-
+sually challenged people are met. Given that
+India is a multilingual country (22 official lan-
+guages), a uniform framework for an inte-
+grated text-to-speech synthesis systems with
+screen readers across six Indian languages are
+developed, which can be easily extended to
+other languages as well. Since Indian lan-
+guages are syllable centred, syllable-based
+concatenative speech synthesizers are built.
+This paper describes the development and
+evaluation of syllable-based Indian lan-
+guage Text-To-Speech (TTS) synthesis sys-
+tem (around festival TTS) with ORCA and
+NVDA, for Linux and Windows environments
+respectively. TTS systems for six Indian Lan-
+guages, namely, Hindi, Tamil, Marathi, Ben-
+gali, Malayalam and Telugu were built. Us-
+ability studies of the screen readers were per-
+formed. The system usability was evaluated
+by a group of visually challenged people based
+on a questionnaire provided to them. And
+a Mean Opinion Score(MoS) of 62.27% was
+achieved.
+1 

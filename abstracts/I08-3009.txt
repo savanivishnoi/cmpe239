@@ -1,0 +1,31 @@
+
+Sinhala, spoken in Sri Lanka as an official
+language, is one of the less privileged lan-
+guages; still there are no established text in-
+put methods. As with many of the Asian lan-
+guages, Sinhala also has a large set of char-
+acters, forcing us to develop an input method
+that involves a conversion process from a
+key sequence to a character/word. This
+paper proposes a novel word-based predic-
+tive text input system named SriShell Primo.
+This system allows the user to input a Sin-
+hala word with a key sequence that highly
+matches his/her intuition from its pronuncia-
+tion. A key to this scenario is a pre-compiled
+table that lists conceivable roman character
+sequences utilized by a wide range of users
+for representing a consonant, a consonant
+sign, and a vowel. By referring to this ta-
+ble, as the user enters a key, the system gen-
+erates possible character strings as candidate
+Sinhala words. Thanks to a TRIE structured
+word dictionary and a fast search algorithm,
+the system successively and efficiently nar-
+rows down the candidates to possible Sin-
+hala words. The experimental results show
+that the system greatly improves the user-
+friendliness compared to former character-
+based input systems while maintaining high
+efficiency.
+1 

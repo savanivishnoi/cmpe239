@@ -1,0 +1,27 @@
+
+This paper studies the problem of mining en-
+tity translation, specifically, mining English
+and Chinese name pairs. Existing efforts
+can be categorized into (a) a transliteration-
+based approach leveraging phonetic similar-
+ity and (b) a corpus-based approach exploiting
+bilingual co-occurrences, each of which suf-
+fers from inaccuracy and scarcity respectively.
+In clear contrast, we use unleveraged re-
+sources of monolingual entity co-occurrences,
+crawled from entity search engines, repre-
+sented as two entity-relationship graphs ex-
+tracted from two language corpora respec-
+tively. Our problem is then abstracted as find-
+ing correct mappings across two graphs. To
+achieve this goal, we propose a holistic ap-
+proach, of exploiting both transliteration sim-
+ilarity and monolingual co-occurrences. This
+approach, building upon monolingual corpora,
+complements existing corpus-based work, re-
+quiring scarce resources of parallel or compa-
+rable corpus, while significantly boosting the
+accuracy of transliteration-based work. We
+validate our proposed system using real-life
+datasets.
+1 

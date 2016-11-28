@@ -1,0 +1,24 @@
+
+Most computational approaches to metaphor
+have focused on discerning between
+metaphorical and literal text. Recent work
+on computational metaphor identification
+(CMI) instead seeks to identify overarching
+conceptual metaphors by mapping selectional
+preferences between source and target cor-
+pora. This paper explores using semantic role
+labeling (SRL) in CMI. Its goals are two-fold:
+first, to demonstrate that semantic roles can
+effectively be used to identify conceptual
+metaphors, and second, to compare SRL to
+the current use of typed dependency parsing
+in CMI. The results show that SRL can be
+used to identify potential metaphors and
+that it overcomes some of the limitations
+of using typed dependencies, but also that
+SRL introduces its own set of complications.
+The paper concludes by suggesting future
+directions, both for evaluating the use of SRL
+in CMI, and for fostering critical and creative
+thinking about metaphors.
+1 

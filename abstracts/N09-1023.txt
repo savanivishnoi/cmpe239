@@ -1,0 +1,20 @@
+
+Computational processing of text exchanged
+in interactive venues in which participants en-
+gage in simultaneous conversations can bene-
+fit from techniques for automatically grouping
+overlapping sequences of messages into sepa-
+rate conversations, a problem known as ?dis-
+entanglement.? While previous methods ex-
+ploit both lexical and non-lexical information
+that exists in conversations for this task, the
+inter-dependency between the meaning of a
+message and its temporal and social contexts
+is largely ignored. Our approach exploits con-
+textual properties (both explicit and hidden)
+to probabilistically expand each message to
+provide a more accurate message representa-
+tion. Extensive experimental evaluations show
+our approach outperforms the best previously
+known technique.
+1 

@@ -1,0 +1,23 @@
+
+To overcome the shortage of labeled data
+for implicit discourse relation recogni-
+tion, previous works attempted to auto-
+matically generate training data by remov-
+ing explicit discourse connectives from
+sentences and then built models on these
+synthetic implicit examples. However, a
+previous study (Sporleder and Lascarides,
+2008) showed that models trained on these
+synthetic data do not generalize very well
+to natural (i.e. genuine) implicit discourse
+data. In this work we revisit this issue and
+present a multi-task learning based system
+which can effectively use synthetic data
+for implicit discourse relation recognition.
+Results on PDTB data show that under the
+multi-task learning framework our models
+with the use of the prediction of explicit
+discourse connectives as auxiliary learn-
+ing tasks, can achieve an averaged F1 im-
+provement of 5.86% over baseline models.
+1 

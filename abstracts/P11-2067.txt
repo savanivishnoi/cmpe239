@@ -1,0 +1,12 @@
+
+There are a number of systems that use a
+syntax-based reordering step prior to phrase-
+based statistical MT. An early work proposing
+this idea showed improved translation perfor-
+mance, but subsequent work has had mixed re-
+sults. Speculations as to cause have suggested
+the parser, the data, or other factors. We sys-
+tematically investigate possible factors to give
+an initial answer to the question: Under what
+conditions does this use of syntax help PSMT?
+1 

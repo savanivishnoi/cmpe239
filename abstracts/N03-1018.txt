@@ -1,0 +1,18 @@
+
+In this paper, we introduce a generative prob-
+abilistic optical character recognition (OCR)
+model that describes an end-to-end process in
+the noisy channel framework, progressing from
+generation of true text through its transforma-
+tion into the noisy output of an OCR system.
+The model is designed for use in error correc-
+tion, with a focus on post-processing the output
+of black-box OCR systems in order to make
+it more useful for NLP tasks. We present an
+implementation of the model based on finite-
+state models, demonstrate the model?s ability
+to significantly reduce character and word er-
+ror rate, and provide evaluation results involv-
+ing automatic extraction of translation lexicons
+from printed text.
+1 

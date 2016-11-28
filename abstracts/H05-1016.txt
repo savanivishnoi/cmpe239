@@ -1,0 +1,24 @@
+
+New Event Detection (NED) involves
+monitoring chronologically-ordered news
+streams to automatically detect the stories
+that report on new events. We compare
+two stories by finding three cosine simi-
+larities based on names, topics and the full
+text. These additional comparisons sug-
+gest treating the NED problem as a bi-
+nary classification problem with the com-
+parison scores serving as features. The
+classifier models we learned show statis-
+tically significant improvement over the
+baseline vector space model system on all
+the collections we tested, including the lat-
+est TDT5 collection.
+The presence of automatic speech recog-
+nizer (ASR) output of broadcast news in
+news streams can reduce performance and
+render our named entity recognition based
+approaches ineffective. We provide a so-
+lution to this problem achieving statisti-
+cally significant improvements.
+1 

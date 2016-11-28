@@ -1,0 +1,19 @@
+
+When translating English to German, exist-
+ing reordering models often cannot model
+the long-range reorderings needed to gen-
+erate German translations with verbs in the
+correct position. We reorder English as a
+preprocessing step for English-to-German
+SMT. We use a sequence of hand-crafted
+reordering rules applied to English parse
+trees. The reordering rules place English
+verbal elements in the positions within the
+clause they will have in the German transla-
+tion. This is a difficult problem, as German
+verbal elements can appear in different po-
+sitions within a clause (in contrast with En-
+glish verbal elements, whose positions do
+not vary as much). We obtain a significant
+improvement in translation performance.
+1 

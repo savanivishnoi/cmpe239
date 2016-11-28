@@ -1,0 +1,13 @@
+
+A key task in an extraction system for
+query-oriented multi-document summari-
+sation, necessary for computing relevance
+and redundancy, is modelling text seman-
+tics. In the Embra system, we use a repre-
+sentation derived from the singular value
+decomposition of a term co-occurrence
+matrix. We present methods to show the
+reliability of performance improvements.
+We find that Embra performs better with
+dimensionality reduction.
+1 

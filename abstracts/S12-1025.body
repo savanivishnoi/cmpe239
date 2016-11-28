@@ -1,0 +1,18 @@
+
+This paper describes Bayesian selectional
+preference models that incorporate knowledge
+from a lexical hierarchy such as WordNet. In-
+spired by previous work on modelling with
+WordNet, these approaches are based either on
+?cutting? the hierarchy at an appropriate level
+of generalisation or on a ?walking? model that
+selects a path from the root to a leaf. In
+an evaluation comparing against human plau-
+sibility judgements, we show that the mod-
+els presented here outperform previously pro-
+posed comparable WordNet-based models, are
+competitive with state-of-the-art selectional
+preference models and are particularly well-
+suited to estimating plausibility for items that
+were not seen in training.
+1 

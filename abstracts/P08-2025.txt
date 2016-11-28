@@ -1,0 +1,26 @@
+
+Question answering communities such as Ya-
+hoo! Answers have emerged as a popular al-
+ternative to general-purpose web search. By
+directly interacting with other participants, in-
+formation seekers can obtain specific answers
+to their questions. However, user success in
+obtaining satisfactory answers varies greatly.
+We hypothesize that satisfaction with the con-
+tributed answers is largely determined by the
+asker?s prior experience, expectations, and
+personal preferences. Hence, we begin to de-
+velop personalized models of asker satisfac-
+tion to predict whether a particular question
+author will be satisfied with the answers con-
+tributed by the community participants. We
+formalize this problem, and explore a variety
+of content, structure, and interaction features
+for this task using standard machine learning
+techniques. Our experimental evaluation over
+thousands of real questions indicates that in-
+deed it is beneficial to personalize satisfaction
+predictions when sufficient prior user history
+exists, significantly improving accuracy over
+a ?one-size-fits-all? prediction model.
+1 

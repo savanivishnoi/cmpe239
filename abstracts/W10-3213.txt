@@ -1,0 +1,32 @@
+
+Dzongkha,  the  national  language  of 
+Bhutan, is continuous in written form 
+and it fails to mark the word boundary. 
+Dzongkha word segmentation is one of 
+the  fundamental  problems  and  a 
+prerequisite  that  needs  to  be  solved 
+before  more  advanced  Dzongkha  text 
+processing and other natural  language 
+processing  tools  can  be  developed. 
+This paper presents our initial attempt 
+at segmenting Dzongkha sentences into 
+words.  The  paper  describes  the 
+implementation of Maximal  Matching 
+(Dictionary based Approach) followed 
+by bigram techniques  (Non-dictionary 
+based  Approach)  in  segmenting  the 
+Dzongkha  scripts.  Although  the  used 
+techniques  are  basic  and  naive,  it 
+provides  a  baseline  of  the  Dzongkha 
+word  segmentation  task.  Preliminary 
+experimental  results  show  percentage 
+of  segmentation  accuracy.  However, 
+the segmentation accuracy is dependent 
+on the  type  of  document  domain  and 
+size and quality of the lexicon and the 
+corpus. Some of the related issues for 
+future directions are also discussed.
+Keywords:  Dzongkha  script,  word 
+segmentation,  maximal  matching,  bigram 
+technique, smoothing technique.
+1    

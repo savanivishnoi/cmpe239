@@ -1,0 +1,19 @@
+
+We propose three new features for MT
+evaluation: source-sentence constrained
+n-gram precision, source-sentence re-
+ordering metrics, and discriminative un-
+igram precision, as well as a method of
+learning linear feature weights to directly
+maximize correlation with human judg-
+ments. By aligning both the hypothe-
+sis and the reference with the source-
+language sentence, we achieve better cor-
+relation with human judgments than pre-
+viously proposed metrics. We further
+improve performance by combining indi-
+vidual evaluation metrics using maximum
+correlation training, which is shown to be
+better than the classification-based frame-
+work.
+1 

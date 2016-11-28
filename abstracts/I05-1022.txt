@@ -1,0 +1,15 @@
+. The entity and relation recognition, i.e. (1) assigning semantic classes 
+to entities in a sentence, and (2) determining the relations held between entities, 
+is an important task in areas such as information extraction. Subtasks (1) and 
+(2) are typically carried out sequentially, but this approach is problematic: the 
+errors made in subtask (1) are propagated to subtask (2) with an accumulative 
+effect; and, the information available only in subtask (2) cannot be used in sub-
+task (1). To address this problem, we propose a method that allows subtasks (1) 
+and (2) to be associated more closely with each other. The process is performed 
+in three stages: firstly, employing two classifiers to do subtasks (1) and (2) in-
+dependently; secondly, recognizing an entity by taking all the entities and rela-
+tions into account, using a model called the Entity Relation Propagation Dia-
+gram; thirdly, recognizing a relation based on the results of the preceding stage. 
+The experiments show that the proposed method can improve the entity and re-
+lation recognition in some degree. 
+1   

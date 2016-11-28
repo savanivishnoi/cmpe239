@@ -1,0 +1,37 @@
+
+Within Information Extraction tasks,
+Named Entity Recognition has received
+much attention over latest decades. From
+symbolic / knowledge-based to data-driven
+/ machine-learning systems, many ap-
+proaches have been experimented. Our
+work may be viewed as an attempt to
+bridge the gap from the data-driven per-
+spective back to the knowledge-based one.
+We use a knowledge-based system, based
+on manually implemented transducers,
+that reaches satisfactory performances. It
+has the undisputable advantage of being
+modular. However, such a hand-crafted
+system requires substantial efforts to
+cope with dedicated tasks. In this con-
+text, we implemented a pattern extractor
+that extracts symbolic knowledge, using
+hierarchical sequential pattern mining
+over annotated corpora. To assess the
+accuracy of mined patterns, we designed a
+module that recognizes Named Entities in
+texts by determining their most probable
+boundaries. Instead of considering Named
+Entity Recognition as a labeling task, it
+relies on complex context-aware features
+provided by lower-level systems and
+considers the tagging task as a markovian
+process. Using thos systems, coupling
+knowledge-based system with extracted
+patterns is straightforward and leads to a
+competitive hybrid NE-tagger. We report
+experiments using this system and compare
+it to other hybridization strategies along
+with a baseline CRF model.
+1 

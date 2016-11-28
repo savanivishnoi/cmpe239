@@ -1,0 +1,21 @@
+
+In this demonstration we present a mixed-
+initiative dialog system for address recog-
+nition that lets users to specify a complete
+addresses in a single sentence with ad-
+dress components spoken in their natural
+sequence. Users can also specify fewer ad-
+dress components in several ways, based
+on their convenience. The system extracts
+specified address components, prompts for
+missing information, disambiguates items
+independently or collectively all the while
+guiding the user so as to obtain the de-
+sired valid address. The language mod-
+eling and dialog management techniques
+developed for this purpose are also briefly
+described. Finally, several use cases with
+screen shots are presented. The combined
+system yields very high task completion
+accuracy on user tests.
+1 

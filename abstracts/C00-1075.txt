@@ -1,0 +1,8 @@
+ 
+This paper describes a self-modelling, incremental gorithm for learning translation rules from existing 
+bilingual corpora. The notions of supracontext and subcontext are extended to encompass bilingual 
+information through simultaneous analogy on both source and target sentences and juxtaposition of 
+corresponding results. Analogical modelling is performed uring the learning phase and translation 
+patterns are projected in a multi-dimensional analogical network. The proposed fi'amework was evaluated 
+on a small training corpus providing promising results. Suggestions to improve system performance are 
+1. 

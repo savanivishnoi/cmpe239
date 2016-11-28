@@ -1,0 +1,32 @@
+
+As a consequence of the established prac-
+tice to prefer training data obtained from
+written sources, NLP tools encounter
+problems in handling data from the spo-
+ken domain. However, accurate models
+of spoken data are increasingly in demand
+for naturalistic speech generation and ma-
+chine translations in speech-like contexts
+(such as chat windows and SMS). There
+is a widely held assumption in the lin-
+guistic field that spoken language is an
+impoverished form of written language.
+However, we show that spoken data is
+not unpredictably irregular and that lan-
+guage models can benefit from detailed
+consideration of spoken language features.
+This paper considers one specific con-
+struction which is largely restricted to the
+spoken domain - the ZERO AUXILIARY -
+and makes a predictive model of that con-
+struction for native speakers of British En-
+glish. The model can predict zero auxil-
+iary occurrence in the BNC with 96.9%
+accuracy. We will demonstrate how this
+model can be integrated into existing pars-
+ing tools, increasing the number of suc-
+cessful parses for this zero auxiliary con-
+struction by around 30%, and thus improv-
+ing the performance of NLP applications
+which rely on parsing.
+1 

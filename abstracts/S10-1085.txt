@@ -1,0 +1,14 @@
+
+This paper reports about our three par-
+ticipating systems in SemEval-2 Japanese
+WSD task. The first one is a clustering
+based method, which chooses a sense for,
+not individual instances, but automatically
+constructed clusters of instances. The sec-
+ond one is a classification method, which
+is an ordinary SVM classifier with simple
+domain adaptation techniques. The last is
+an ensemble of these two systems. Results
+of the formal run shows the second system
+is the best. Its precision is 0.7476.
+1 

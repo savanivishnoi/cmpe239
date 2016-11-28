@@ -1,0 +1,20 @@
+
+We describe two systems that participated
+in SemEval-2010 task 17 (All-words Word
+Sense Disambiguation on a Specific Do-
+main) and were ranked in the third and
+fourth positions in the formal evaluation.
+Domain adaptation techniques using the
+background documents released in the
+task were used to assign ranking scores to
+the words and their senses. The test data
+was disambiguated using the Personalized
+PageRank algorithm which was applied
+to a graph constructed from the whole of
+WordNet in which nodes are initialized
+with ranking scores of words and their
+senses. In the competition, our systems
+achieved comparable accuracy of 53.4 and
+52.2, which outperforms the most frequent
+sense baseline (50.5).
+1 

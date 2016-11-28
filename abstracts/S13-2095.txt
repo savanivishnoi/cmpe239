@@ -1,0 +1,13 @@
+
+This paper describes the NILC USP system
+that participated in SemEval-2013 Task 2:
+Sentiment Analysis in Twitter. Our system
+adopts a hybrid classification process that
+uses three classification approaches: rule-
+based, lexicon-based and machine learning
+approaches. We suggest a pipeline architec-
+ture that extracts the best characteristics from
+each classifier. Our system achieved an F-
+score of 56.31% in the Twitter message-level
+subtask.
+1 

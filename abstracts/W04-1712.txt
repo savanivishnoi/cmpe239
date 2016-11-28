@@ -1,0 +1,16 @@
+
+This paper proposes a new e-learning paradigm
+which enables the user to type in arbitrary sentences.
+The current NLP technologies, however, are not ma-
+tured enough to perform full-automatic semantic or
+discourse analysis. Thus, we take a different ap-
+proach; an instructor corrects the contents and its
+correction is embedded into the contents in an XML
+format called KeML. The key/mouse operations of
+the user are also embedded as annotations. Thus,
+the contents can be incomplete at the initial stage
+and become solid gradually as being utilized. We
+have implemented an e-learning system of group dis-
+cussion for a foreign language class, which is demon-
+strated at the workshop.
+1 

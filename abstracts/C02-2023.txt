@@ -1,0 +1,25 @@
+ 
+This paper discusses an innovative approach to 
+the computer assisted scoring of student 
+responses in WebLAS (web-based language 
+assessment system)- a language assessment 
+system delivered entirely over the web.  Expected 
+student responses are limited production free 
+response questions. 
+The portions of WebLAS with which we are 
+concerned are the task creation and scoring 
+modules.  Within the task creation module, 
+instructors and language experts do not only 
+provide the task input and prompt. More 
+importantly, they interactively inform the system 
+how and how much to score student responses.  
+This interaction consists of WebLAS? natural 
+language processing (NLP) modules searching 
+for alternatives of the provided ?gold standard? 
+(Hirschman et al 2000) answer and asking for 
+confirmation of score assignment.  WebLAS 
+processes and stores all this information within 
+its database, to be used in the task delivery and 
+scoring phases. 
+ 
+1 

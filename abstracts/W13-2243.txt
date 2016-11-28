@@ -1,0 +1,20 @@
+
+In this paper we present the approach and
+system setup of the joint participation of
+Fondazione Bruno Kessler and University
+of Edinburgh in the WMT 2013 Quality
+Estimation shared-task. Our submissions
+were focused on tasks whose aim was pre-
+dicting sentence-level Human-mediated
+Translation Edit Rate and sentence-level
+post-editing time (Task 1.1 and 1.3, re-
+spectively). We designed features that
+are built on resources such as automatic
+word alignment, n-best candidate transla-
+tion lists, back-translations and word pos-
+terior probabilities. Our models consis-
+tently overcome the baselines for both
+tasks and performed particularly well for
+Task 1.3, ranking first among seven parti-
+cipants.
+1 

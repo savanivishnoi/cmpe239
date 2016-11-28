@@ -1,0 +1,31 @@
+
+We present an algorithm for automatically
+disambiguating noun-noun compounds by
+deducing the correct semantic relation be-
+tween their constituent words. This algo-
+rithm uses a corpus of 2,500 compounds
+annotated with WordNet senses and cov-
+ering 139 different semantic relations (we
+make this corpus available online for re-
+searchers interested in the semantics of
+noun-noun compounds). The algorithm
+takes as input the WordNet senses for the
+nouns in a compound, finds all parent
+senses (hypernyms) of those senses, and
+searches the corpus for other compounds
+containing any pair of those senses. The
+relation with the highest proportional co-
+occurrence with any sense pair is returned
+as the correct relation for the compound.
+This algorithm was tested using a ?leave-
+one-out? procedure on the corpus of com-
+pounds. The algorithm identified the cor-
+rect relations for compounds with high
+precision: in 92% of cases where a re-
+lation was found with a proportional co-
+occurrence of 1.0, it was the correct re-
+lation for the compound being disam-
+biguated.
+Keywords: Noun-Noun Compounds, Conceputal
+Combination, Word Relations, WordNet
+1 

@@ -1,0 +1,24 @@
+ 
+In this paper we explore two strategies to in-
+corporate local morphosyntactic features in 
+Hindi dependency parsing. These features are 
+obtained using a shallow parser. We first ex-
+plore which information provided by the shal-
+low parser is most beneficial and show that 
+local morphosyntactic features in the form of 
+chunk type, head/non-head information, 
+chunk boundary information, distance to the 
+end of the chunk and suffix concatenation are 
+very crucial in Hindi dependency parsing. We 
+then investigate the best way to incorporate 
+this information during dependency parsing. 
+Further, we compare the results of various ex-
+periments based on various criterions and do 
+some error analysis. All the experiments were 
+done with two data-driven parsers, MaltParser 
+and MSTParser, on a part of multi-layered and 
+multi-representational Hindi Treebank which 
+is under development. This paper is also the 
+first attempt at complete sentence level pars-
+ing for Hindi. 
+1 

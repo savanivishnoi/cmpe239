@@ -1,0 +1,15 @@
+
+Humor identification is a hard natural lan-
+guage understanding problem. We identify
+a subproblem ? the ?that?s what she said?
+problem ? with two distinguishing character-
+istics: (1) use of nouns that are euphemisms
+for sexually explicit nouns and (2) structure
+common in the erotic domain. We address
+this problem in a classification approach that
+includes features that model those two char-
+acteristics. Experiments on web data demon-
+strate that our approach improves precision by
+12% over baseline techniques that use only
+word-based features.
+1 

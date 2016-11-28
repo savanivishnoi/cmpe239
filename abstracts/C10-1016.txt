@@ -1,0 +1,24 @@
+ 
+Multi-document summarization aims to 
+produce a concise summary that contains 
+salient information from a set of source 
+documents. In this field, sentence ranking 
+has hitherto been the issue of most concern. 
+Since documents often cover a number of 
+topic themes with each theme represented 
+by a cluster of highly related sentences, 
+sentence clustering was recently explored in 
+the literature in order to provide more 
+informative summaries. Existing cluster-
+based ranking approaches applied clustering 
+and ranking in isolation. As a result, the 
+ranking performance will be inevitably 
+influenced by the clustering result. In this 
+paper, we propose a reinforcement approach 
+that tightly integrates ranking and clustering 
+by mutually and simultaneously updating 
+each other so that the performance of both 
+can be improved. Experimental results on 
+the DUC datasets demonstrate its 
+effectiveness and robustness. 
+1 

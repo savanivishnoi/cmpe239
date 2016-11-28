@@ -1,0 +1,17 @@
+
+This paper presents an implemented hy-
+brid approach to grammar and style
+checking, combining an industrial pattern-
+based grammar and style checker with bi-
+directional, large-scale HPSG grammars
+for German and English. Under this ap-
+proach, deep processing is applied selec-
+tively based on the error hypotheses of a
+shallow system. We have conducted a com-
+parative evaluation of the two components,
+supporting an integration scenario where
+the shallow system is best used for error de-
+tection, whereas the HPSG grammars add
+error correction for both grammar and con-
+trolled language style errors.
+1 

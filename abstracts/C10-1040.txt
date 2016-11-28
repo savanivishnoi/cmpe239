@@ -1,0 +1,18 @@
+
+This paper proposes a novel semi-
+supervised word alignment technique
+called EMDC that integrates discrimina-
+tive and generative methods. A discrim-
+inative aligner is used to find high preci-
+sion partial alignments that serve as con-
+straints for a generative aligner which
+implements a constrained version of the
+EM algorithm. Experiments on small-size
+Chinese and Arabic tasks show consistent
+improvements on AER. We also experi-
+mented with moderate-size Chinese ma-
+chine translation tasks and got an aver-
+age of 0.5 point improvement on BLEU
+scores across five standard NIST test sets
+and four other test sets.
+1 

@@ -1,0 +1,21 @@
+
+We describe Prograder, a software package for
+automatic checking of requirements for pro-
+gramming homework assignments. Prograder
+lets instructors specify requirements in natural
+language as well as explains grading results to
+students in natural language. It does so using
+a grammar that generates as well as parses to
+translate between a small fragment of English
+and a first-order logical specification language
+that can be executed directly in Python. This
+execution embodies multiple semantics?both
+to check the requirement and to search for ev-
+idence that proves or disproves the require-
+ment. Such a checker needs to interpret and
+generate sentences containing quantifiers and
+negation. To handle quantifier and negation
+scope, we systematically simulate continua-
+tion grammars using record structures in the
+Grammatical Framework.
+1 

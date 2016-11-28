@@ -1,0 +1,12 @@
+
+We present a novel machine translation
+framework based on kernel regression
+techniques. In our model, the translation
+task is viewed as a string-to-string map-
+ping, for which a regression type learning
+is employed with both the source and the
+target sentences embedded into their ker-
+nel induced feature spaces. We report the
+experiments on a French-English transla-
+tion task showing encouraging results.
+1 

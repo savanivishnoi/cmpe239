@@ -1,0 +1,13 @@
+
+Cohesive constraints allow the phrase-based decoder
+to employ arbitrary, non-syntactic phrases, and en-
+courage it to translate those phrases in an order that
+respects the source dependency tree structure. We
+present extensions of the cohesive constraints, such
+as exhaustive interruption count and rich interrup-
+tion check. We show that the cohesion-enhanced de-
+coder significantly outperforms the standard phrase-
+based decoder on English?Spanish. Improvements
+between 0.5 and 1.2 BLEU point are obtained on
+English?Iraqi system.
+1 

@@ -1,0 +1,28 @@
+ 
+In this work, we propose a new method 
+for extracting user preferences from a few 
+documents that might interest users. For 
+this end, we first extract candidate terms 
+and choose a number of terms called ini-
+tial representative keywords (IRKs) from 
+them through fuzzy inference. Then, by 
+expanding IRKs and reweighting them us-
+ing term co-occurrence similarity, the fi-
+nal representative keywords are extracted. 
+Performance of our approach is heavily 
+influenced by effectiveness of selection 
+method for IRKs so we choose fuzzy in-
+ference because it is more effective in 
+handling the uncertainty inherent in se-
+lecting representative keywords of docu-
+ments. The problem addressed in this 
+paper can be viewed as the one of finding 
+a representative vector of documents in 
+the linear text classification literature. So, 
+to show the usefulness of our approach, 
+we compare it with two famous methods - 
+Rocchio and Widrow-Hoff - on the 
+Reuters-21578 collection. The results 
+show that our approach outperforms the 
+other approaches. 
+1 

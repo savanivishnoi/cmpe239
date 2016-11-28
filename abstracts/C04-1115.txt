@@ -1,0 +1,13 @@
+*
+The paper comparatively studies methods of
+feature weighting in application to the task of
+cooccurrence-based classification of words
+according to their meaning. We explore parameter
+optimization of several weighting methods
+frequently used for similar problems such as text
+classification. We find that successful application
+of all the methods crucially depends on a number
+of parameters; only a carefully chosen weighting
+procedure allows to obtain consistent improvement
+on a classifier learned from non-weighted data.
+1 

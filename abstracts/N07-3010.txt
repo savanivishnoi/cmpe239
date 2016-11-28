@@ -1,0 +1,29 @@
+ 
+In the past, NLP has always been based 
+on the explicit or implicit use of linguistic 
+knowledge. In classical computer linguis-
+tic applications explicit rule based ap-
+proaches prevail, while machine learning 
+algorithms use implicit knowledge for 
+generating linguistic knowledge. The 
+question behind this work is: how far can 
+we go in NLP without assuming explicit 
+or implicit linguistic knowledge? How 
+much efforts in annotation and resource 
+building are needed for what level of so-
+phistication in text processing? This work 
+tries to answer the question by experi-
+menting with algorithms that do not pre-
+sume any linguistic knowledge in the 
+system. The claim is that the knowledge 
+needed can largely be acquired by know-
+ledge-free and unsupervised methods. 
+Here, graph models are employed for rep-
+resenting language data. A new graph 
+clustering method finds related lexical 
+units, which form word sets on various 
+levels of homogeneity. This is exempli-
+fied and evaluated on language separation 
+and unsupervised part-of-speech tagging, 
+further applications are discussed. 
+1 

@@ -1,0 +1,19 @@
+
+We present a model for the inclusion of se-
+mantic role annotations in the framework of
+confidence estimation for machine translation.
+The model has several interesting properties,
+most notably: 1) it only requires a linguis-
+tic processor on the (generally well-formed)
+source side of the translation; 2) it does
+not directly rely on properties of the transla-
+tion model (hence, it can be applied beyond
+phrase-based systems). These features make
+it potentially appealing for system ranking,
+translation re-ranking and user feedback eval-
+uation. Preliminary experiments in pairwise
+hypothesis ranking on five confidence estima-
+tion benchmarks show that the model has the
+potential to capture salient aspects of transla-
+tion quality.
+1 

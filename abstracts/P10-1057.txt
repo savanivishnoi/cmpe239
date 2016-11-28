@@ -1,0 +1,20 @@
+
+Identifying background (context) informa-
+tion in scientific articles can help schol-
+ars understand major contributions in their
+research area more easily. In this paper,
+we propose a general framework based
+on probabilistic inference to extract such
+context information from scientific papers.
+We model the sentences in an article and
+their lexical similarities as a Markov Ran-
+dom Field tuned to detect the patterns that
+context data create, and employ a Belief
+Propagation mechanism to detect likely
+context sentences. We also address the
+problem of generating surveys of scien-
+tific papers. Our experiments show greater
+pyramid scores for surveys generated us-
+ing such context information rather than
+citation sentences alone.
+1 

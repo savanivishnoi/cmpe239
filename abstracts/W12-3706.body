@@ -1,0 +1,18 @@
+
+The classification of opinion texts in positive
+and negative can be tackled by evaluating sep-
+arate key words but this is a very limited ap-
+proach. We propose an approach based on the
+order of the words without using any syntac-
+tic and semantic information. It consists of
+building one probabilistic model for the posi-
+tive and another one for the negative opinions.
+Then the test opinions are compared to both
+models and a decision and confidence mea-
+sure are calculated. In order to reduce the
+complexity of the training corpus we first lem-
+matize the texts and we replace most named-
+entities with wildcards. We present an accu-
+racy above 81% for Spanish opinions in the
+financial products domain.
+1 

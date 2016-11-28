@@ -1,0 +1,16 @@
+
+We describe a supervised learning approach to 
+categorizing  inter-noun  relations,  based  on 
+Support Vector Machines, that builds a differ-
+ent classifier for each of seven semantic rela-
+tions.  Each  model  uses  the  same  learning 
+strategy,  while  a  simple  voting  procedure 
+based on five trained discriminators with vari-
+ous  blends  of  features  determines  the  final 
+categorization.  The features that  characterize 
+each of the noun pairs are a blend of lexical-
+semantic  categories extracted  from WordNet 
+and  several  flavors  of  syntactic  patterns  ex-
+tracted  from  various  corpora,  including 
+Wikipedia and the WMTS corpus.
+1 

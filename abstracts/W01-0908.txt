@@ -1,0 +1,19 @@
+
+Statistical NLP systems are fre-
+quently evaluated and compared on
+the basis of their performances on
+a single split of training and test
+data. Results obtained using a single
+split are, however, subject to sam-
+pling noise. In this paper we ar-
+gue in favour of reporting a distri-
+bution of performance figures, ob-
+tained by resampling the training
+data, rather than a single num-
+ber. The additional information
+from distributions can be used to
+make statistically quantified state-
+ments about differences across pa-
+rameter settings, systems, and cor-
+pora.
+1 

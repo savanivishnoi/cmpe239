@@ -1,0 +1,26 @@
+
+We consider the problem of question-
+focused sentence retrieval from complex
+news articles describing multi-event sto-
+ries published over time. Annotators gen-
+erated a list of questions central to under-
+standing each story in our corpus. Be-
+cause of the dynamic nature of the stories,
+many questions are time-sensitive (e.g.
+?How many victims have been found??)
+Judges found sentences providing an an-
+swer to each question. To address the
+sentence retrieval problem, we apply a
+stochastic, graph-based method for com-
+paring the relative importance of the tex-
+tual units, which was previously used suc-
+cessfully for generic summarization. Cur-
+rently, we present a topic-sensitive version
+of our method and hypothesize that it can
+outperform a competitive baseline, which
+compares the similarity of each sentence
+to the input question via IDF-weighted
+word overlap. In our experiments, the
+method achieves a TRDR score that is sig-
+nificantly higher than that of the baseline.
+1 

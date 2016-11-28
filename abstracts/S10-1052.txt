@@ -1,0 +1,19 @@
+
+We describe a system which ranks human-
+provided paraphrases of noun compounds,
+where the frequency with which a given
+paraphrase was provided by human volun-
+teers is the gold standard for ranking. Our
+system assigns a score to a paraphrase of
+a given compound according to the num-
+ber of times it has co-occurred with other
+paraphrases in the rest of the dataset. We
+use these co-occurrence statistics to com-
+pute conditional probabilities to estimate a
+sub-typing or Is-A relation between para-
+phrases. This method clusters together
+paraphrases which have similar meanings
+and also favours frequent, general para-
+phrases rather than infrequent paraphrases
+with more specific meanings.
+1 

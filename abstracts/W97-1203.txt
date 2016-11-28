@@ -1,0 +1,28 @@
+ 
+The acceptance of speech dialogue sys- 
+tems by the user is critically dependent 
+on the degree of "naturalness" realized. 
+The speech generation and synthesis mod- 
+ules have to be able to run in real time 
+and to produce high-quality speech output. 
+To produce naturally sounding speech, the 
+synthesizer has to have not only the knowl- 
+edge of the words to utter and the or- 
+der in which they appear but also infor- 
+mation about their structural relationship. 
+The latter is expressed acoustically in the 
+form of prosody, i.e. how the voice raises 
+and falls during an utterance, the rhythm, 
+where pauses are set, etc. Prosody is 
+also influenced by the properties associated 
+with given words in the context of an ut- 
+terance, e.g. the focus of a sentence or cer- 
+tain emphatic elements. This article de- 
+scribes a compact representation for con- 
+veying this type of information from the 
+generator to the synthesizer in a modular 
+system and describes how (parts of) this in- 
+formation is (are) derived in the EFFENDI 
+system, the generation module for a speech 
+dialogue system for train inquiries. 
+1 

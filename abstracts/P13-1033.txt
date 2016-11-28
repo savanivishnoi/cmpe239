@@ -1,0 +1,25 @@
+
+Most modern machine translation systems
+use phrase pairs as translation units, al-
+lowing for accurate modelling of phrase-
+internal translation and reordering. How-
+ever phrase-based approaches are much
+less able to model sentence level effects
+between different phrase-pairs. We pro-
+pose a new model to address this im-
+balance, based on a word-based Markov
+model of translation which generates tar-
+get translations left-to-right. Our model
+encodes word and phrase level phenom-
+ena by conditioning translation decisions
+on previous decisions and uses a hierar-
+chical Pitman-Yor Process prior to pro-
+vide dynamic adaptive smoothing. This
+mechanism implicitly supports not only
+traditional phrase pairs, but also gapping
+phrases which are non-consecutive in the
+source. Our experiments on Chinese to
+English and Arabic to English translation
+show consistent improvements over com-
+petitive baselines, of up to +3.4 BLEU.
+1 

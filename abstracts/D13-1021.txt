@@ -1,0 +1,13 @@
+
+This paper proposes a novel noise-aware char-
+acter alignment method for bootstrapping sta-
+tistical machine transliteration from automat-
+ically extracted phrase pairs. The model is
+an extension of a Bayesian many-to-many
+alignment method for distinguishing non-
+transliteration (noise) parts in phrase pairs. It
+worked effectively in the experiments of boot-
+strapping Japanese-to-English statistical ma-
+chine transliteration in patent domain using
+patent bilingual corpora.
+1 

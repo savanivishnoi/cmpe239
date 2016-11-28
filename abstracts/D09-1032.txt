@@ -1,0 +1,21 @@
+
+We present a fully automatic method for
+content selection evaluation in summariza-
+tion that does not require the creation of
+human model summaries. Our work capi-
+talizes on the assumption that the distribu-
+tion of words in the input and an informa-
+tive summary of that input should be sim-
+ilar to each other. Results on a large scale
+evaluation from the Text Analysis Con-
+ference show that input-summary compar-
+isons are very effective for the evaluation
+of content selection. Our automatic meth-
+ods rank participating systems similarly
+to manual model-based pyramid evalua-
+tion and to manual human judgments of
+responsiveness. The best feature, Jensen-
+Shannon divergence, leads to a correlation
+as high as 0.88 with manual pyramid and
+0.73 with responsiveness evaluations.
+1 

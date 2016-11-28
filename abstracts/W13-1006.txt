@@ -1,0 +1,19 @@
+
+This research focuses on determining seman-
+tic compositionality of word expressions us-
+ing word space models (WSMs). We discuss
+previous works employing WSMs and present
+differences in the proposed approaches which
+include types of WSMs, corpora, preprocess-
+ing techniques, methods for determining com-
+positionality, and evaluation testbeds.
+We also present results of our own approach
+for determining the semantic compositionality
+based on comparing distributional vectors of
+expressions and their components. The vec-
+tors were obtained by Latent Semantic Analy-
+sis (LSA) applied to the ukWaC corpus. Our
+results outperform those of all the participants
+in the Distributional Semantics and Composi-
+tionality (DISCO) 2011 shared task.
+1 

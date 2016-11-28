@@ -1,0 +1,16 @@
+
+Knowledge of the anaphoricity of a noun phrase
+might be profitably exploited by a coreference sys-
+tem to bypass the resolution of non-anaphoric noun
+phrases. Perhaps surprisingly, recent attempts to
+incorporate automatically acquired anaphoricity in-
+formation into coreference systems, however, have
+led to the degradation in resolution performance.
+This paper examines several key issues in com-
+puting and using anaphoricity information to im-
+prove learning-based coreference systems. In par-
+ticular, we present a new corpus-based approach to
+anaphoricity determination. Experiments on three
+standard coreference data sets demonstrate the ef-
+fectiveness of our approach.
+1 

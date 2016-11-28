@@ -1,0 +1,19 @@
+
+The paper presents a novel approach to ex-
+tracting dependency information in morpho-
+logically rich languages using co-occurrence
+statistics based not only on lexical forms
+(as in previously described collocation-based
+methods), but also on morphosyntactic and
+wordnet-derived semantic properties of words.
+Statistics generated from a corpus annotated
+only at the morphosyntactic level are used
+as features in a Machine Learning classifier
+which is able to detect which heads of groups
+found by a shallow parser are likely to be con-
+nected by an edge in the complete parse tree.
+The approach reaches the precision of 89%
+and the recall of 65%, with an extra 6% re-
+call, if only words present in the wordnet are
+considered.
+1 

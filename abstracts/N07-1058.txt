@@ -1,0 +1,20 @@
+ 
+This work evaluates a system that uses in-
+terpolated predictions of reading difficulty 
+that are based on both vocabulary and 
+grammatical features.  The combined ap-
+proach is compared to individual gram-
+mar- and language modeling-based 
+approaches.  While the vocabulary-based 
+language modeling approach outper-
+formed the grammar-based approach, 
+grammar-based predictions can be com-
+bined using confidence scores with the 
+vocabulary-based predictions to produce 
+more accurate predictions of reading dif-
+ficulty for both first and second language 
+texts.  The results also indicate that gram-
+matical features may play a more impor-
+tant role in second language readability 
+than in first language readability. 
+1 

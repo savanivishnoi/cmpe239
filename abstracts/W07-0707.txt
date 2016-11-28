@@ -1,0 +1,23 @@
+
+Evaluation and error analysis of machine
+translation output are important but difficult
+tasks. In this work, we propose a novel
+method for obtaining more details about ac-
+tual translation errors in the generated output
+by introducing the decomposition of Word
+Error Rate (WER) and Position independent
+word Error Rate (PER) over different Part-
+of-Speech (POS) classes. Furthermore, we
+investigate two possible aspects of the use
+of these decompositions for automatic er-
+ror analysis: estimation of inflectional errors
+and distribution of missing words over POS
+classes. The obtained results are shown to
+correspond to the results of a human error
+analysis. The results obtained on the Euro-
+pean Parliament Plenary Session corpus in
+Spanish and English give a better overview
+of the nature of translation errors as well as
+ideas of where to put efforts for possible im-
+provements of the translation system.
+1 

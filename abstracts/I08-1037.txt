@@ -1,0 +1,36 @@
+
+Named entity (NE) translation plays
+an important role in many applications.
+In this paper, we focus on translating
+NEs from Korean to Chinese to improve
+Korean-Chinese cross-language informa-
+tion retrieval (KCIR). The ideographic
+nature of Chinese makes NE translation
+difficult because one syllable may map to
+several Chinese characters. We propose
+a hybrid NE translation system. First,
+we integrate two online databases to ex-
+tend the coverage of our bilingual dic-
+tionaries. We use Wikipedia as a trans-
+lation tool based on the inter-language
+links between the Korean edition and
+the Chinese or English editions. We
+also use Naver.com?s people search en-
+gine to find a query name?s Chinese or
+English translation. The second compo-
+nent is able to learn Korean-Chinese (K-
+C), Korean-English (K-E), and English-
+Chinese (E-C) translation patterns from
+the web. These patterns can be used to
+extract K-C, K-E and E-C pairs from
+Google snippets. We found KCIR per-
+formance using this hybrid configura-
+tion over five times better than that
+a dictionary-based configuration using
+only Naver people search. Mean average
+precision was as high as 0.3385 and recall
+reached 0.7578. Our method can han-
+dle Chinese, Japanese, Korean, and non-
+CJK NE translation and improve perfor-
+mance of KCIR substantially.
+1 

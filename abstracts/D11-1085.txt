@@ -1,0 +1,21 @@
+
+Discriminative training for machine transla-
+tion has been well studied in the recent past.
+A limitation of the work to date is that it relies
+on the availability of high-quality in-domain
+bilingual text for supervised training. We
+present an unsupervised discriminative train-
+ing framework to incorporate the usually plen-
+tiful target-language monolingual data by us-
+ing a rough ?reverse? translation system. Intu-
+itively, our method strives to ensure that prob-
+abilistic ?round-trip? translation from a target-
+language sentence to the source-language and
+back will have low expected loss. Theoret-
+ically, this may be justified as (discrimina-
+tively) minimizing an imputed empirical risk.
+Empirically, we demonstrate that augment-
+ing supervised training with unsupervised data
+improves translation performance over the su-
+pervised case for both IWSLT and NIST tasks.
+1 

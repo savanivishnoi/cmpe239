@@ -1,0 +1,30 @@
+
+We use a machine learner trained on a
+combination of acoustic and contextual
+features to predict the accuracy of incom-
+ing n-best automatic speech recognition
+(ASR) hypotheses to a spoken dialogue
+system (SDS). Our novel approach is to
+use a simple statistical User Simulation
+(US) for this task, which measures the
+likelihood that the user would say each
+hypothesis in the current context. Such
+US models are now common in machine
+learning approaches to SDS, are trained on
+real dialogue data, and are related to the-
+ories of ?alignment? in psycholinguistics.
+We use a US to predict the user?s next dia-
+logue move and thereby re-rank n-best hy-
+potheses of a speech recognizer for a cor-
+pus of 2564 user utterances. The method
+achieved a significant relative reduction of
+Word Error Rate (WER) of 5% (this is
+44% of the possible WER improvement
+on this data), and 62% of the possible se-
+mantic improvement (Dialogue Move Ac-
+curacy), compared to the baseline policy
+of selecting the topmost ASR hypothesis.
+The majority of the improvement is at-
+tributable to the User Simulation feature,
+as shown by Information Gain analysis.
+1 

@@ -1,0 +1,18 @@
+
+Manually annotating the rhetorical struc-
+ture of texts is very labour-intensive. At the
+same time, high-quality automatic analysis
+is currently out of reach. We thus propose to
+split the manual annotation in two phases:
+the simpler marking of lexical connectives
+and their relations, and the more difficult
+decisions on overall tree structure. To this
+end, we developed an environment of two
+analysis tools and XML-based declarative
+resources. Our ConAno tool allows for effi-
+cient, interactive annotation of connectives,
+scopes and relations. This intermediate re-
+sult is exported to O?Donnell?s ?RST Tool?,
+which facilitates completing the tree struc-
+ture.
+1 

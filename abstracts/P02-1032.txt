@@ -1,0 +1,25 @@
+
+In many types of technical texts, meaning is
+embedded in noun compounds. A language un-
+derstanding program needs to be able to inter-
+pret these in order to ascertain sentence mean-
+ing. We explore the possibility of using an ex-
+isting lexical hierarchy for the purpose of plac-
+ing words from a noun compound into cate-
+gories, and then using this category member-
+ship to determine the relation that holds be-
+tween the nouns. In this paper we present the
+results of an analysis of this method on two-
+word noun compounds from the biomedical do-
+main, obtaining classification accuracy of ap-
+proximately 90%. Since lexical hierarchies are
+not necessarily ideally suited for this task, we
+also pose the question: how far down the hi-
+erarchy must the algorithm descend before all
+the terms within the subhierarchy behave uni-
+formly with respect to the semantic relation in
+question? We find that the topmost levels of the
+hierarchy yield an accurate classification, thus
+providing an economic way of assigning rela-
+tions to noun compounds.
+1 

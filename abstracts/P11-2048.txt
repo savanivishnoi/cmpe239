@@ -1,0 +1,18 @@
+
+In this paper, we extend distant supervision
+(DS) based on Wikipedia for Relation Extrac-
+tion (RE) by considering (i) relations defined
+in external repositories, e.g. YAGO, and (ii)
+any subset of Wikipedia documents. We show
+that training data constituted by sentences
+containing pairs of named entities in target re-
+lations is enough to produce reliable supervi-
+sion. Our experiments with state-of-the-art re-
+lation extraction models, trained on the above
+data, show a meaningful F1 of 74.29% on a
+manually annotated test set: this highly im-
+proves the state-of-art in RE using DS. Addi-
+tionally, our end-to-end experiments demon-
+strated that our extractors can be applied to
+any general text document.
+1 

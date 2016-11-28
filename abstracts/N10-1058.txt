@@ -1,0 +1,17 @@
+
+This work incorporates Selectional Prefer-
+ences (SP) into a Semantic Role (SR) Clas-
+sification system. We learn separate selec-
+tional preferences for noun phrases and prepo-
+sitional phrases and we integrate them in a
+state-of-the-art SR classification system both
+in the form of features and individual class
+predictors. We show that the inclusion of the
+refined SPs yields statistically significant im-
+provements on both in domain and out of do-
+main data (14.07% and 11.67% error reduc-
+tion, respectively). The key factor for success
+is the combination of several SP methods with
+the original classification model using meta-
+classification.
+1 

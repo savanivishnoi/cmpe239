@@ -1,0 +1,24 @@
+ 
+ 
+Spoken Language Translation systems have 
+usually been produced for such specific domains as 
+health care or military use. Ideally, such systems 
+would be easily portable to other domains in which 
+translation is mission critical, such as emergency 
+response or law enforcement. However, porting has in 
+practice proven difficult. This paper will comment on 
+the sources of this difficulty and briefly present an 
+approach to rapid inter-domain portability. Three 
+aspects will be discussed: (1) large general-purpose 
+lexicons for automatic speech recognition and 
+machine translation, made reliable and usable through 
+interactive facilities for monitoring and correcting 
+errors; (2) easily modifiable facilities for instant 
+translation of frequent phrases; and (3) quickly 
+modifiable custom glossaries. As support for our 
+approach, we apply our current SLT system, now 
+optimized for the health care domain, to sample 
+utterances from the military, emergency service, and 
+law enforcement domains, with discussion of 
+numerous specific sentences.  
+1 

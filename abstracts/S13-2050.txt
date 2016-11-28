@@ -1,0 +1,27 @@
+
+Word sense induction aims to discover differ-
+ent senses of a word from a corpus by us-
+ing unsupervised learning approaches. Once a
+sense inventory is obtained for an ambiguous
+word, word sense discrimination approaches
+choose the best-fitting single sense for a given
+context from the induced sense inventory.
+However, there may not be a clear distinction
+between one sense and another, although for
+a context, more than one induced sense can
+be suitable. Graded word sense method al-
+lows for labeling a word in more than one
+sense. In contrast to the most common ap-
+proach which is to apply clustering or graph
+partitioning on a representation of first or sec-
+ond order co-occurrences of a word, we pro-
+pose a system that creates a substitute vec-
+tor for each target word from the most likely
+substitutes suggested by a statistical language
+model. Word samples are then taken accord-
+ing to probabilities of these substitutes and the
+results of the co-occurrence model are clus-
+tered. This approach outperforms the other
+systems on graded word sense induction task
+in SemEval-2013.
+1 

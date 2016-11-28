@@ -1,0 +1,20 @@
+
+In this paper, we propose a lexical senses
+representation system called E-HowNet,
+in which the lexical senses are defined by
+basic concepts. As a result, the mean-
+ings of expressions are more specific than
+those derived by using primitives. We also
+design an ontology to express the taxo-
+nomic relations between concepts and the
+attributes of concepts. To establish the
+taxonomic relations between word senses,
+we introduce a strategy that constructs the
+E-HowNet ontology automatically. We
+then implement the lexical ontology as a
+Web application1 to demonstrate the tax-
+onomy and the search functions for query-
+ing key-terms and E-HowNet expressions
+in the lexicon, which contains more than
+88,000 lexical senses.
+1 

@@ -1,0 +1,20 @@
+
+We present a unified approach to perform-
+ing minimum risk training and minimum
+Bayes risk (MBR) decoding with BLEU
+in a phrase-based model. Key to our ap-
+proach is the use of a Gibbs sampler that
+allows us to explore the entire probabil-
+ity distribution and maintain a strict prob-
+abilistic formulation across the pipeline.
+We also describe a new sampling algo-
+rithm called corpus sampling which al-
+lows us at training time to use BLEU in-
+stead of an approximation thereof. Our
+approach is theoretically sound and gives
+better (up to +0.6%BLEU) and more sta-
+ble results than the standard MERT opti-
+mization algorithm. By comparing our ap-
+proach to lattice MBR, we are also able to
+gain crucial insights about both methods.
+1 

@@ -1,0 +1,18 @@
+
+This paper describes the system has been
+developed for the HOO 2012 Shared Task.
+The task was to correct determiner and
+preposition errors. I explore the possibil-
+ity of learning error correcting rules from
+the given manually annotated data using
+features such as word length and word
+endings only. Furthermore, I employ er-
+ror correction ranking based on the ratio
+of the sentence probabilities using original
+and corrected language models. Our sys-
+tem has been ranked for the ninth posi-
+tion out of thirteen teams. The best result
+was achieved in correcting missing prepo-
+sitions, which was ranked for the sixth po-
+sition.
+1 

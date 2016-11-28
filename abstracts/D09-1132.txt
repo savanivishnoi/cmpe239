@@ -1,0 +1,16 @@
+
+We present a system that finds short def-
+initions of terms on Web pages. It em-
+ploys a Maximum Entropy classifier, but it
+is trained on automatically generated ex-
+amples; hence, it is in effect unsupervised.
+We use ROUGE-W to generate training ex-
+amples from encyclopedias and Web snip-
+pets, a method that outperforms an alter-
+native centroid-based one. After training,
+our system can be used to find definitions
+of terms that are not covered by encyclo-
+pedias. The system outperforms a compa-
+rable publicly available system, as well as
+a previously published form of our system.
+1 

@@ -1,0 +1,31 @@
+
+Morphological lexica are often imple-
+mented on top of morphological paradigms,
+corresponding to different ways of building
+the full inflection table of a word. Compu-
+tationally precise lexica may use hundreds
+of paradigms, and it can be hard for a lex-
+icographer to choose among them. To au-
+tomate this task, this paper introduces the
+notion of a smart paradigm. It is a meta-
+paradigm, which inspects the base form and
+tries to infer which low-level paradigm ap-
+plies. If the result is uncertain, more forms
+are given for discrimination. The number
+of forms needed in average is a measure
+of predictability of an inflection system.
+The overall complexity of the system also
+has to take into account the code size of
+the paradigms definition itself. This pa-
+per evaluates the smart paradigms imple-
+mented in the open-source GF Resource
+Grammar Library. Predictability and com-
+plexity are estimated for four different lan-
+guages: English, French, Swedish, and
+Finnish. The main result is that predictabil-
+ity does not decrease when the complex-
+ity of morphology grows, which means that
+smart paradigms provide an efficient tool
+for the manual construction and/or auto-
+matically bootstrapping of lexica.
+1 

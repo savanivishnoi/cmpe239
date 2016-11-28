@@ -1,0 +1,24 @@
+
+We present a method for identifying the pos-
+itive or negative semantic orientation of for-
+eign words. Identifying the semantic orienta-
+tion of words has numerous applications in the
+areas of text classification, analysis of prod-
+uct review, analysis of responses to surveys,
+and mining online discussions. Identifying
+the semantic orientation of English words has
+been extensively studied in literature. Most of
+this work assumes the existence of resources
+(e.g. Wordnet, seeds, etc) that do not exist
+in foreign languages. In this work, we de-
+scribe a method based on constructing a mul-
+tilingual network connecting English and for-
+eign words. We use this network to iden-
+tify the semantic orientation of foreign words
+based on connection between words in the
+same language as well as multilingual connec-
+tions. The method is experimentally tested us-
+ing a manually labeled set of positive and neg-
+ative words and has shown very promising re-
+sults.
+1 

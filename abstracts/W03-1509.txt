@@ -1,0 +1,23 @@
+ 
+Named Entity Recognition is one of the 
+key techniques in the fields of natural 
+language processing, information retrieval, 
+question answering and so on. 
+Unfortunately, Chinese Named Entity 
+Recognition (NER) is more difficult for 
+the lack of capitalization information and 
+the uncertainty in word segmentation. In 
+this paper, we present a hybrid algorithm 
+which can combine a class-based 
+statistical model with various types of 
+human knowledge very well. In order to 
+avoid data sparseness problem, we 
+employ a back-off model and?????
+?/TONG YI CI CI LIN? , a Chinese 
+thesaurus, to smooth the parameters in the 
+model. The F-measure of person names, 
+location names, and organization names 
+on the newswire test data for the 1999 
+IEER evaluation in Mandarin is 86.84%, 
+84.40% and 76.22% respectively. 
+1 

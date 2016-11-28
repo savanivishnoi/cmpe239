@@ -1,0 +1,14 @@
+  
+We describe a language-independent, flexi-
+ble, and accurate method for the detection of 
+abbreviations in text corpora. It is based on 
+the idea that an abbreviation can be viewed 
+as a collocation, and can be identified by us-
+ing methods for collocation detection such 
+as the log likelihood ratio. Although the log 
+likelihood ratio is known to show a good re-
+call, its precision is poor. We employ scal-
+ing factors which lead to a strong improve-
+ment of precision. Experiments with English 
+and German corpora show that abbreviations 
+can be detected with high accuracy. 

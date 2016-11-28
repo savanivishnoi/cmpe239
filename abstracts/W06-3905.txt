@@ -1,0 +1,8 @@
+
+Dependency Tree Semantics (DTS) is an underspecified formalism for representing
+quantifier scope ambiguities in natural language. DTS features a direct interface
+with a Dependency grammar and an incremental, constraint-based disambiguation
+mechanism. In this paper, we discuss the meaning of quantifier dependency in DTS
+by translating its well formed structures into formulae of a Second Order Logic
+augmented with Mostowskian generalized quantifiers.
+1 

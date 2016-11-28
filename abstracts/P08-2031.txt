@@ -1,0 +1,14 @@
+
+We use an EM algorithm to learn user mod-
+els in a spoken dialog system. Our method
+requires automatically transcribed (with ASR)
+dialog corpora, plus a model of transcription
+errors, but does not otherwise need any man-
+ual transcription effort. We tested our method
+on a voice-controlled telephone directory ap-
+plication, and show that our learned models
+better replicate the true distribution of user ac-
+tions than those trained by simpler methods
+and are very similar to user models estimated
+from manually transcribed dialogs.
+1 

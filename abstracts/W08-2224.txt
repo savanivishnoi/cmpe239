@@ -1,0 +1,19 @@
+
+LXGram is a hand-built Portuguese computational grammar based on
+HPSG (syntax) and MRS (semantics). The LXGram system participated
+in the STEP 2008 shared task which aims at comparing semantic repre-
+sentations produced by NLP systems such as LXGram. Every partici-
+pating team had to contribute a small text. The text that we submitted
+for the shared task was originally in Portuguese (an excerpt from a news-
+paper) and translated into English, to make a meaningful comparison at
+the shared task possible. Likewise, the English texts contributed by the
+other participating teams were translated into Portuguese. Because the
+LXGram generates many different analyses (mainly due to PP attach-
+ment ambiguities), the preferred analysis was selected manually. It was
+required to extend LXGram?s lexicon and inventory of syntax rules to be
+able to get a reasonable performance on the shared task data. Eventually,
+our system was able to produce an analysis for 20 out of the 30 sentences
+of the shared task data.
+299
+300 Branco and Costa
+1 

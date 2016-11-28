@@ -1,0 +1,18 @@
+
+Chinese and Japanese have a different sen-
+tence structure. Reordering methods are
+effective, but need reliable parsers to ex-
+tract the syntactic structure of the source
+sentences. However, Chinese has a loose
+word order, and Chinese parsers that ex-
+tract the phrase structure do not perform
+well. We propose a framework where only
+POS tags and unlabeled dependency parse
+trees are necessary, and linguistic knowl-
+edge on structural difference can be en-
+coded in the form of reordering rules. We
+show significant improvements in transla-
+tion quality of sentences from news do-
+main, when compared to state-of-the-art
+reordering methods.
+1 

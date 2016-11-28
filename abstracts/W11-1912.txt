@@ -1,0 +1,19 @@
+
+We introduce an incremental model for coref-
+erence resolution that competed in the CoNLL
+2011 shared task (open regular). We decided
+to participate with our baseline model, since it
+worked well with two other datasets. The ben-
+efits of an incremental over a mention-pair ar-
+chitecture are: a drastic reduction of the num-
+ber of candidate pairs, a means to overcome
+the problem of underspecified items in pair-
+wise classification and the natural integration
+of global constraints such as transitivity. We
+do not apply machine learning, instead the
+system uses an empirically derived salience
+measure based on the dependency labels of the
+true mentions. Our experiments seem to indi-
+cate that such a system already is on par with
+machine learning approaches.
+1 

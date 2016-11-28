@@ -1,0 +1,31 @@
+ 
+This paper studies sentiment analysis of condi-
+tional sentences. The aim is to determine 
+whether opinions expressed on different topics 
+in a conditional sentence are positive, negative 
+or neutral. Conditional sentences are one of the 
+commonly used language constructs in text. In 
+a typical document, there are around 8% of 
+such sentences. Due to the condition clause, 
+sentiments expressed in a conditional sentence 
+can be hard to determine. For example, in the 
+sentence, if your Nokia phone is not good, buy 
+this great Samsung phone, the author is posi-
+tive about ?Samsung phone? but does not ex-
+press an opinion on ?Nokia phone? (although 
+the owner of the ?Nokia phone? may be nega-
+tive about it). However, if the sentence does 
+not have ?if?, the first clause is clearly nega-
+tive. Although ?if? commonly signifies a con-
+ditional sentence, there are many other words 
+and constructs that can express conditions. 
+This paper first presents a linguistic analysis of 
+such sentences, and then builds some super-
+vised learning models to determine if senti-
+ments expressed on different topics in a condi-
+tional sentence are positive, negative or neu-
+tral. Experimental results on conditional sen-
+tences from 5 diverse domains are given to 
+demonstrate the effectiveness of the proposed 
+approach. 
+1 

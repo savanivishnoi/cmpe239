@@ -1,0 +1,22 @@
+
+In this paper we investigate Chinese-
+English name transliteration using compa-
+rable corpora, corpora where texts in the
+two languages deal in some of the same
+topics ? and therefore share references
+to named entities ? but are not transla-
+tions of each other. We present two dis-
+tinct methods for transliteration, one ap-
+proach using phonetic transliteration, and
+the second using the temporal distribu-
+tion of candidate pairs. Each of these ap-
+proaches works quite well, but by com-
+bining the approaches one can achieve
+even better results. We then propose a
+novel score propagation method that uti-
+lizes the co-occurrence of transliteration
+pairs within document pairs. This prop-
+agation method achieves further improve-
+ment over the best results from the previ-
+ous step.
+1 

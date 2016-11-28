@@ -1,0 +1,23 @@
+
+Statistical machine translation (SMT) per-
+formance suffers when models are trained
+on only small amounts of parallel data.
+The learned models typically have both
+low accuracy (incorrect translations and
+feature scores) and low coverage (high
+out-of-vocabulary rates). In this work, we
+use an additional data resource, compa-
+rable corpora, to improve both. Begin-
+ning with a small bitext and correspond-
+ing phrase-based SMT model, we improve
+coverage by using bilingual lexicon induc-
+tion techniques to learn new translations
+from comparable corpora. Then, we sup-
+plement the model?s feature space with
+translation scores estimated over compa-
+rable corpora in order to improve accu-
+racy. We observe improvements between
+0.5 and 1.7 BLEU translating Tamil, Tel-
+ugu, Bengali, Malayalam, Hindi, and Urdu
+into English.
+1 

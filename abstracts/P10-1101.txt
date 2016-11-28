@@ -1,0 +1,29 @@
+
+A fundamental step in sentence compre-
+hension involves assigning semantic roles
+to sentence constituents. To accomplish
+this, the listener must parse the sentence,
+find constituents that are candidate argu-
+ments, and assign semantic roles to those
+constituents. Each step depends on prior
+lexical and syntactic knowledge. Where
+do children learning their first languages
+begin in solving this problem? In this pa-
+per we focus on the parsing and argument-
+identification steps that precede Seman-
+tic Role Labeling (SRL) training. We
+combine a simplified SRL with an un-
+supervised HMM part of speech tagger,
+and experiment with psycholinguistically-
+motivated ways to label clusters resulting
+from the HMM so that they can be used
+to parse input for the SRL system. The
+results show that proposed shallow rep-
+resentations of sentence structure are ro-
+bust to reductions in parsing accuracy, and
+that the contribution of alternative repre-
+sentations of sentence structure to suc-
+cessful semantic role labeling varies with
+the integrity of the parsing and argument-
+identification stages.
+1 

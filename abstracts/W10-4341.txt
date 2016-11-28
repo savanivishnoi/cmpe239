@@ -1,0 +1,15 @@
+
+Dialog modeling in robotics suffers from
+lack of generalizability, due to the fact
+that the dialog is heavily influenced by
+the tasks the robot is able to perform.
+We introduce interleaving interaction pat-
+terns together with a general protocol for
+task communication which enables us to
+systematically specify the relationship be-
+tween dialog structure and task structure.
+We argue that this approach meets the re-
+quirements of advanced dialog modeling
+on robots and at the same time exhibits a
+better scalability than existing concepts.
+1 

@@ -1,0 +1,22 @@
+
+We address two issues related to the devel-
+opment of systems for Recognizing Textual
+Entailment. The first is the impossibility to
+capitalize on lessons learned over the different
+datasets available, due to the changing nature
+of traditional RTE evaluation settings. The
+second is the lack of simple ways to assess
+the results achieved by our system on a given
+training corpus, and figure out its real potential
+on unseen test data. Our contribution is the ex-
+tension of an open-source RTE package with
+an automatic way to explore the large search
+space of possible configurations, in order to
+select the most promising one over a given
+dataset. From the developers? point of view,
+the efficiency and ease of use of the system,
+together with the good results achieved on all
+previous RTE datasets, represent a useful sup-
+port, providing an immediate term of compar-
+ison to position the results of their approach.
+1 

@@ -1,0 +1,25 @@
+
+We introduce a technique for analyzing the
+temporal evolution of the salience of par-
+ticipants in a discussion. Our method can
+dynamically track how the relative impor-
+tance of speakers evolve over time using
+graph based techniques. Speaker salience
+is computed based on the eigenvector cen-
+trality in a graph representation of partici-
+pants in a discussion. Two participants in a
+discussion are linked with an edge if they
+use similar rhetoric. The method is dy-
+namic in the sense that the graph evolves
+over time to capture the evolution inher-
+ent to the participants salience. We used
+our method to track the salience of mem-
+bers of the US Senate using data from the
+US Congressional Record. Our analysis
+investigated how the salience of speakers
+changes over time. Our results show that
+the scores can capture speaker centrality
+in topics as well as events that result in
+change of salience or influence among dif-
+ferent participants.
+1 

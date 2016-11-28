@@ -1,0 +1,18 @@
+
+In this work, we are concerned with a coarse
+grained semantic analysis over sparse data, which
+labels all nouns with a set of semantic categories.
+To get the benefit of unlabeled data, we propose
+a bootstrapping framework with Maximum En-
+tropy modeling (MaxEnt) as the statistical learn-
+ing component. During the iterative tagging pro-
+cess, unlabeled data is used not only for better
+statistical estimation, but also as a medium to in-
+tegrate non-statistical knowledge into the model
+training. Two main issues are discussed in this
+paper. First, Association Rule principles are sug-
+gested to guide MaxEnt feature selections. Sec-
+ond, to guarantee the convergence of the boot-
+strapping process, three adjusting strategies are
+proposed to soft tag unlabeled data.
+1 

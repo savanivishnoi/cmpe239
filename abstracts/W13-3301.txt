@@ -1,0 +1,19 @@
+
+We present a new approach to dialogue
+processing in terms of ?meaning units?. In
+our annotation task, we asked speakers of
+English and Chinese to mark boundaries
+where they could construct the maximal
+concept using minimal words. We com-
+pared English data across genres (news,
+literature, and policy). We analyzed the
+agreement for annotators using a state-of-
+the-art segmentation similarity algorithm
+and compared annotations with a random
+baseline. We found that annotators are
+able to identify meaning units systemati-
+cally, even though they may disagree on
+the quantity and position of units. Our
+analysis includes an examination of phrase
+structure for annotated units using con-
+stituency parses.1 

@@ -1,0 +1,13 @@
+ 
+In order to answer factoid questions, the 
+Webclopedia QA system employs a 
+range of knowledge resources.  These 
+include a QA Typology with answer 
+patterns, WordNet, information about 
+typical numerical answer ranges, and 
+semantic relations identified by a robust 
+parser, to filter out likely-looking but 
+wrong candidate answers.  This paper 
+describes the knowledge resources and 
+their impact on system performance. 
+1.   

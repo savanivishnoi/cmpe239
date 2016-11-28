@@ -1,0 +1,17 @@
+ 
+This paper presents a morpheme-based 
+part-of-speech tagger for Chinese. It con-
+sists of two main components, namely a 
+morpheme segmenter to segment each 
+word in a sentence into a sequence of mor-
+phemes, based on forward maximum 
+matching, and a lexical tagger to label each 
+morpheme with a proper tag indicating its 
+position pattern in forming a word of a 
+specific class, based on lexicalized hidden 
+Markov models. This system have partici-
+pated four closed tracks for POS tagging at 
+the Fourth International Chinese Language 
+Processing Bakeoff sponsored by the ACL-
+SIGHAN.  
+1 

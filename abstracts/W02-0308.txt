@@ -1,0 +1,31 @@
+
+Objectives: To automatically extend
+downwards an existing biomedical termi-
+nology using a corpus and both lexical
+and terminological knowledge. Methods:
+Adjectival modifiers are removed from
+terms extracted from the corpus (three
+million noun phrases extracted from
+MEDLINE), and demodified terms are
+searched for in the terminology (UMLS
+Metathesaurus, restricted to disorders and
+procedures). A phrase from MEDLINE
+becomes a candidate term in the Metathe-
+saurus if the following two requirements
+are met: 1) a demodified term created
+from this phrase is found in the terminol-
+ogy and 2) the modifiers removed to cre-
+ate the demodified term also modify
+existing terms from the terminology, for a
+given semantic category. A manual re-
+view of a sample of candidate terms was
+performed. Results: Out of the 3 million
+simple phrases randomly extracted from
+MEDLINE, 125,000 new terms were
+identified for inclusion in the UMLS.
+83% of the 1000 terms reviewed manually
+were associated with a relevant UMLS
+concept. Discussion: The limitations of
+this approach are discussed, as well as ad-
+aptation and generalization issues.
+1 

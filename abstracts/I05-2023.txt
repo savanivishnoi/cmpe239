@@ -1,0 +1,22 @@
+
+In this paper, a novel kernel-based
+method is presented for the problem
+of relation extraction between named
+entities from Chinese texts. The ker-
+nel is defined over the original Chi-
+nese string representations around par-
+ticular entities. As a kernel func-
+tion, the Improved-Edit-Distance (IED)
+is used to calculate the similarity be-
+tween two Chinese strings. By em-
+ploying the Voted Perceptron and Sup-
+port Vector Machine (SVM) kernel ma-
+chines with the IED kernel as the clas-
+sifiers, we tested the method by extract-
+ing person-affiliation relation from Chi-
+nese texts. By comparing with tradi-
+tional feature-based learning methods,
+we conclude that our method needs less
+manual efforts in feature transformation
+and achieves a better performance.
+1 

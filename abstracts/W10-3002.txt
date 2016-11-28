@@ -1,0 +1,26 @@
+
+Detecting hedges and their scope in nat-
+ural language text is very important for
+information inference. In this paper,
+we present a system based on a cascade
+method for the CoNLL-2010 shared task.
+The system composes of two components:
+one for detecting hedges and another one
+for detecting their scope. For detecting
+hedges, we build a cascade subsystem.
+Firstly, a conditional random field (CRF)
+model and a large margin-based model are
+trained respectively. Then, we train an-
+other CRF model using the result of the
+first phase. For detecting the scope of
+hedges, a CRF model is trained according
+to the result of the first subtask. The ex-
+periments show that our system achieves
+86.36% F-measure on biological corpus
+and 55.05% F-measure on Wikipedia cor-
+pus for hedge detection, and 49.95% F-
+measure on biological corpus for hedge
+scope detection. Among them, 86.36%
+is the best result on biological corpus for
+hedge detection.
+1 

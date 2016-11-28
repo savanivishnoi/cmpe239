@@ -1,0 +1,19 @@
+
+This paper presents the Chinese lexical
+analysis systems developed by Natural
+Language Processing Laboratory at Dalian
+University of Technology, which were
+evaluated in the 4th International Chinese
+Language Processing Bakeoff. The HMM
+and CRF hybrid model, which combines
+character-based model with word-based
+model in a directed graph, is adopted in
+system developing. Both the closed and
+open tracks regarding to Chinese word
+segmentation, POS tagging and Chinese
+Named Entity Recognition are involved in
+our systems? evaluation, and good per-
+formance are achieved. Especially, in the
+open track of Chinese word segmentation
+on SXU, our system ranks 1st.
+1 

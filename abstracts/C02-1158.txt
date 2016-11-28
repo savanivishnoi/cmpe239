@@ -1,0 +1,23 @@
+
+A number of machine translation systems based
+on the learning algorithms are presented. These
+methods acquire translation rules from pairs
+of similar sentences in a bilingual text cor-
+pora. This means that it is difficult for the
+systems to acquire the translation rules from
+sparse data. As a result, these methods require
+large amounts of training data in order to ac-
+quire high-quality translation rules. To over-
+come this problem, we propose a method of ma-
+chine translation using a Recursive Chain-link-
+type Learning. In our new method, the system
+can acquire many new high-quality translation
+rules from sparse translation examples based on
+already acquired translation rules. Therefore,
+acquisition of new translation rules results in
+the generation of more new translation rules.
+Such a process of acquisition of translation rules
+is like a linked chain. From the results of evalua-
+tion experiments, we confirmed the effectiveness
+of Recursive Chain-link-type Learning.
+1 

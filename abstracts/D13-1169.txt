@@ -1,0 +1,22 @@
+
+Continuous space word representations ex-
+tracted from neural network language mod-
+els have been used effectively for natural lan-
+guage processing, but until recently it was not
+clear whether the spatial relationships of such
+representations were interpretable. Mikolov
+et al (2013) show that these representations
+do capture syntactic and semantic regularities.
+Here, we push the interpretation of continuous
+space word representations further by demon-
+strating that vector offsets can be used to de-
+rive adjectival scales (e.g., okay < good < ex-
+cellent). We evaluate the scales on the indirect
+answers to yes/no questions corpus (de Marn-
+effe et al, 2010). We obtain 72.8% accuracy,
+which outperforms previous results (?60%)
+on this corpus and highlights the quality of the
+scales extracted, providing further support that
+the continuous space word representations are
+meaningful.
+1 

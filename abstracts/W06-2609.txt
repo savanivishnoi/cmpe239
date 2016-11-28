@@ -1,0 +1,15 @@
+
+This paper describes an approach to learn-
+ing concept definitions which operates on
+fully parsed text. A subcorpus of the
+Dutch version of Wikipedia was searched
+for sentences which have the syntactic
+properties of definitions. Next, we ex-
+perimented with various text classifica-
+tion techniques to distinguish actual defi-
+nitions from other sentences. A maximum
+entropy classifier which incorporates fea-
+tures referring to the position of the sen-
+tence in the document as well as various
+syntactic features, gives the best results.
+1 

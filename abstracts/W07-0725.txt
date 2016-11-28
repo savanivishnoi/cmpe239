@@ -1,0 +1,14 @@
+
+This paper describes the development of a
+statistical machine translation system based
+on the Moses decoder for the 2007 WMT
+shared tasks. Several different translation
+strategies were explored. We also use a sta-
+tistical language model that is based on a
+continuous representation of the words in
+the vocabulary. By these means we expect to
+take better advantage of the limited amount
+of training data. Finally, we have investi-
+gated the usefulness of a second reference
+translation of the development data.
+1 

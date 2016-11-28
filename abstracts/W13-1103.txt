@@ -1,0 +1,21 @@
+
+Although the ideal length of summaries dif-
+fers greatly from topic to topic on Twitter, pre-
+vious work has only generated summaries of
+a pre-fixed length. In this paper, we propose
+an event-graph based method using informa-
+tion extraction techniques that is able to cre-
+ate summaries of variable length for different
+topics. In particular, we extend the Pagerank-
+like ranking algorithm from previous work to
+partition event graphs and thereby detect fine-
+grained aspects of the event to be summarized.
+Our preliminary results show that summaries
+created by our method are more concise and
+news-worthy than SumBasic according to hu-
+man judges. We also provide a brief survey of
+datasets and evaluation design used in previ-
+ous work to highlight the need of developing a
+standard evaluation for automatic tweet sum-
+marization task.
+1 

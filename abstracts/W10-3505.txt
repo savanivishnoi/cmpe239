@@ -1,0 +1,39 @@
+
+Sentiment analysis attempts to extract the
+author?s sentiments or opinions from un-
+structured text. Unlike approaches based
+on rules, a machine learning approach
+holds the promise of learning robust, high-
+coverage sentiment classifiers from la-
+beled examples. However, people tend
+to use different ways to express the same
+sentiment due to the richness of natural
+language. Therefore, each sentiment ex-
+pression normally does not have many ex-
+amples in the training corpus. Further-
+more, sentences extracted from unstruc-
+tured text (e.g., I filmed my daughter?s
+ballet recital and could not believe how
+the auto focus kept blurring then focus-
+ing) often contain both informative (e.g.,
+the auto focus kept blurring then focus-
+ing) and extraneous non-informative text
+regarding the author?s sentiment towards a
+certain topic. When there are few exam-
+ples of any given sentiment expression, ex-
+traneous non-sentiment information can-
+not be identified as noise by the learn-
+ing algorithm and can easily become cor-
+related with the sentiment label, thereby
+confusing sentiment classifiers. In this pa-
+per, we present a highly effective proce-
+dure for using crowd-sourcing techniques
+to label informative and non-informative
+information regarding the sentiment ex-
+pressed in a sentence. We also show
+that pruning non-informative information
+using non-expert annotations during the
+training phase can result in classifiers with
+better performance even when the test data
+includes non-informative information.
+1 

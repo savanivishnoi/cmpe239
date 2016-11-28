@@ -1,0 +1,11 @@
+
+We evaluate probabilistic models of verb argument
+structure trained on a corpus of verbs and their syn-
+tactic arguments. Models designed to represent pat-
+terns of verb alternation behavior are compared with
+generic clustering models in terms of the perplexity
+assigned to held-out test data. While the special-
+ized models of alternation do not perform as well,
+closer examination reveals alternation behavior rep-
+resented implicitly in the generic models.
+1 

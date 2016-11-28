@@ -1,0 +1,17 @@
+ 
+This paper studies the impact that difficult-to-
+translate source-language phrases might have 
+on the machine translation process. We formu-
+late the notion of difficulty as a measurable 
+quantity; we show that a classifier can be 
+trained to predict whether a phrase might be 
+difficult to translate; and we develop a frame-
+work that makes use of the classifier and ex-
+ternal resources (such as human translators) to 
+improve the overall translation quality. 
+Through experimental work, we verify that by 
+isolating difficult-to-translate phrases and 
+processing them as special cases, their nega-
+tive impact on the translation of the rest of the 
+sentences can be reduced. 
+1 

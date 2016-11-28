@@ -1,0 +1,20 @@
+
+In the recognition of words that are typical
+of a specific language variety, the classic
+keyword approach performs rather poorly.
+We show how this keyword analysis can be
+complemented with a word space model
+constructed on the basis of two corpora:
+one representative of the language variety
+under investigation, and a reference cor-
+pus. This combined approach is able to
+recognize the markers of a language va-
+riety as words that not only have a sig-
+nificantly higher frequency as compared
+to the reference corpus, but also a differ-
+ent distribution. The application of word
+space models moreover makes it possible
+to automatically discover the lexical alter-
+native to a specific marker in the reference
+corpus.
+1 

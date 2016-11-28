@@ -1,0 +1,20 @@
+
+This paper presents an algorithm for the unsuper-
+vised learning of a simple morphology of a nat-
+ural language from raw text. A generative prob-
+abilistic model is applied to segment word forms
+into morphs. The morphs are assumed to be gener-
+ated by one of three categories, namely prefix, suf-
+fix, or stem, and we make use of some observed
+asymmetries between these categories. The model
+learns a word structure, where words are allowed
+to consist of lengthy sequences of alternating stems
+and affixes, which makes the model suitable for
+highly-inflecting languages. The ability of the al-
+gorithm to find real morpheme boundaries is eval-
+uated against a gold standard for both Finnish and
+English. In comparison with a state-of-the-art al-
+gorithm the new algorithm performs best on the
+Finnish data, and on roughly equal level on the En-
+glish data.
+1 

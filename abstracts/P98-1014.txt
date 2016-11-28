@@ -1,0 +1,22 @@
+ 
+The lexical acquisition system presented in this pa- 
+per incrementally updates linguistic properties of un- 
+known words inferred from their surrounding con- 
+text by parsing sentences with an HPSG grammar 
+for German. We employ a gradual, information- 
+based concept of "unknownness" providing a uni- 
+form treatment for the range of completely known to 
+maximally unknown lexical entries. "Unknown" in- 
+formation is viewed as revisable information, which 
+is either generalizable or specializable. Updating 
+takes place after parsing, which only requires amod- 
+ified lexical lookup. Revisable pieces of informa- 
+tion are identified by grammar-specified declarations 
+wlfich provide access paths into the parse feature 
+structure. The updating mechanism revises the cor- 
+responding places in the lexical feature structures iff 
+the context actually provides new information. For 
+revising generalizable inlbrmation, type union is re- 
+quired. A worked-out example demonstrates the in- 
+ferential capacity of our implemented system. 
+1 

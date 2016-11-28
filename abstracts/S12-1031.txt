@@ -1,0 +1,15 @@
+
+We investigate the effects of adding semantic
+annotations including word sense hypernyms
+to the source text for use as an extra source
+of information in HPSG parse ranking for the
+English Resource Grammar. The semantic an-
+notations are coarse semantic categories or en-
+tries from a distributional thesaurus, assigned
+either heuristically or by a pre-trained tagger.
+We test this using two test corpora in different
+domains with various sources of training data.
+The best reduces error rate in dependency F-
+score by 1% on average, while some methods
+produce substantial decreases in performance.
+1 

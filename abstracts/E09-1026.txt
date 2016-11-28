@@ -1,0 +1,25 @@
+
+Large scale annotated corpora are pre-
+requisite to developing high-performance
+semantic role labeling systems. Unfor-
+tunately, such corpora are expensive to
+produce, limited in size, and may not be
+representative. Our work aims to reduce
+the annotation effort involved in creat-
+ing resources for semantic role labeling
+via semi-supervised learning. Our algo-
+rithm augments a small number of man-
+ually labeled instances with unlabeled ex-
+amples whose roles are inferred automat-
+ically via annotation projection. We for-
+mulate the projection task as a generaliza-
+tion of the linear assignment problem. We
+seek to find a role assignment in the un-
+labeled data such that the argument sim-
+ilarity between the labeled and unlabeled
+instances is maximized. Experimental re-
+sults on semantic role labeling show that
+the automatic annotations produced by our
+method improve performance over using
+hand-labeled instances alone.
+1 

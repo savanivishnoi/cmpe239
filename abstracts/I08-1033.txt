@@ -1,0 +1,21 @@
+  
+Most of the current Chinese word 
+alignment tasks often adopt word 
+segmentation systems firstly to identify 
+words. However, word-mismatching 
+problems exist between languages and will 
+degrade the performance of word 
+alignment. In this paper, we propose two 
+unsupervised methods to adjust word 
+segmentation to make the tokens 1-to-1 
+mapping as many as possible between the 
+corresponding sentences. The first method 
+is learning affix rules from a bilingual 
+terminology bank. The second method is 
+using the concept of impurity measure 
+motivated by the decision tree. Our 
+experiments showed that both of the 
+adjusting methods improve the 
+performance of word alignment 
+significantly. 
+1 

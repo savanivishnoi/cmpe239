@@ -1,0 +1,16 @@
+
+We present two translation systems ex-
+perimented for the shared-task of ?Work-
+shop on Statistical Machine Translation,?
+a phrase-based model and a hierarchical
+phrase-based model. The former uses a
+phrasal unit for translation, whereas the
+latter is conceptualized as a synchronous-
+CFG in which phrases are hierarchically
+combined using non-terminals. Experi-
+ments showed that the hierarchical phrase-
+based model performed very comparable
+to the phrase-based model. We also report
+a phrase/rule extraction technique differ-
+entiating tokenization of corpora.
+1 

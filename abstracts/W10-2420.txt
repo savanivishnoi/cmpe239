@@ -1,0 +1,34 @@
+ 
+Human annotation for Co-reference Resolu-
+tion (CRR) is labor intensive and costly, and 
+only a handful of annotated corpora are cur-
+rently available. However, corpora with 
+Named Entity (NE) annotations are widely 
+available. Also, unlike current CRR systems, 
+state-of-the-art NER systems have very high 
+accuracy and can generate NE labels that are 
+very close to the gold standard for unlabeled 
+corpora.  We propose a new set of metrics col-
+lectively called CONE for Named Entity Co-
+reference Resolution (NE-CRR) that use a 
+subset of gold standard annotations, with the 
+advantage that this subset can be easily ap-
+proximated using NE labels when gold stan-
+dard CRR annotations are absent. We define 
+CONE B3 and CONE CEAF metrics based on 
+the traditional B3 and CEAF metrics and show 
+that CONE B3 and CONE CEAF scores of any 
+CRR system on any dataset are highly corre-
+lated with its B3 and CEAF scores respectively. 
+We obtain correlation factors greater than 0.6 
+for all CRR systems across all datasets, and a 
+best-case correlation factor of 0.8. We also 
+present a baseline method to estimate the gold 
+standard required by CONE metrics, and show 
+that CONE B3 and CONE CEAF scores using 
+this estimated gold standard are also correlated 
+with B3 and CEAF scores respectively. We 
+thus demonstrate the suitability of CONE 
+B3and CONE CEAF for automatic evaluation 
+of NE-CRR. 
+1 

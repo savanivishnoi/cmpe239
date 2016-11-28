@@ -1,0 +1,31 @@
+ 
+The package insert (aka drug product label) is 
+the only publicly-available source of infor-
+mation on drug-drug interactions (DDIs) for 
+some drugs, especially newer ones. Thus, an 
+automated method for identifying DDIs in 
+drug package inserts would be a potentially 
+important complement to methods for identi-
+fying DDIs from other sources such as the 
+scientific literature. To develop such an algo-
+rithm, we created a corpus of Federal Drug 
+Administration approved drug package insert 
+statements that have been manually annotated 
+for pharmacokinetic DDIs by a pharmacist 
+and a drug information expert. We then evalu-
+ated three different machine learning algo-
+rithms for their ability to 1) identify 
+pharmacokinetic DDIs in the package insert 
+corpus and 2) classify pharmacokinetic DDI 
+statements by their modality (i.e., whether 
+they report a DDI or no interaction between 
+drug pairs). Experiments found that a support 
+vector machine algorithm performed best on 
+both tasks with an F-measure of 0.859 for 
+pharmacokinetic DDI identification and 0.949 
+for modality assignment. We also found that 
+the use of syntactic information is very helpful 
+for addressing the problem of sentences con-
+taining both interacting and non-interacting 
+pairs of drugs. 
+1 

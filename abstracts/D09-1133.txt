@@ -1,0 +1,18 @@
+ 
+This paper explores Chinese semantic role la-
+beling (SRL) for nominal predicates. Besides 
+those widely used features in verbal SRL, 
+various nominal SRL-specific features are 
+first included. Then, we improve the perform-
+ance of nominal SRL by integrating useful 
+features derived from a state-of-the-art verbal 
+SRL system. Finally, we address the issue of 
+automatic predicate recognition, which is es-
+sential for a nominal SRL system. Evaluation 
+on Chinese NomBank shows that our research 
+in integrating various features derived from 
+verbal SRL significantly improves the per-
+formance. It also shows that our nominal SRL 
+system much outperforms the state-of-the-art 
+ones. 
+1. 

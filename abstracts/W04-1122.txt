@@ -1,0 +1,19 @@
+ 
+Unknown word recognition is an important 
+problem in Chinese word segmentation systems. 
+In this paper, we propose an integrated method 
+for Chinese unknown word extraction for off-
+line corpus processing, in which both context-
+entropy (on each side) and frequency ratio 
+against background corpus are introduced to 
+evaluate the candidate words. Both of the meas-
+ures are computed efficiently on Suffix array 
+with much less space overhead. Our method can 
+also be reinforced when combined with a basic 
+Segmentor by boundary-verification and arbi-
+trary n-gram words can be extracted by our 
+method. We test our method on Chinese novel 
+Xiao Ao Jiang Hu, and obtain satisfactory 
+achievements compared to traditional criteria 
+such as Likelihood Ratio. 
+1 

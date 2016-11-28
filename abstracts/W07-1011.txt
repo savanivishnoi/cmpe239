@@ -1,0 +1,19 @@
+ 
+Applications using automatically indexed 
+clinical conditions must account for con-
+textual features such as whether a condition 
+is negated, historical or hypothetical, or 
+experienced by someone other than the pa-
+tient. We developed and evaluated an algo-
+rithm called ConText, an extension of the 
+NegEx negation algorithm, which relies on 
+trigger terms, pseudo-trigger terms, and 
+termination terms for identifying the values 
+of three contextual features. In spite of its 
+simplicity, ConText performed well at 
+identifying negation and hypothetical status. 
+ConText performed moderately at identify-
+ing whether a condition was experienced 
+by someone other than the patient and 
+whether the condition occurred historically.  
+1 

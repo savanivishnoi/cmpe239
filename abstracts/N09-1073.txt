@@ -1,0 +1,21 @@
+
+In this paper, we extend methods from Roark
+and Hollingshead (2008) for reducing the
+worst-case complexity of a context-free pars-
+ing pipeline via hard constraints derived from
+finite-state tagging pre-processing. Methods
+from our previous paper achieved quadratic
+worst-case complexity. We prove here that al-
+ternate methods for choosing constraints can
+achieve either linear orO(N log2N) complex-
+ity. These worst-case bounds on processing
+are demonstrated to be achieved without re-
+ducing the parsing accuracy, in fact in some
+cases improving the accuracy. The new meth-
+ods achieve observed performance compara-
+ble to the previously published quadratic com-
+plexity method. Finally, we demonstrate im-
+proved performance by combining complexity
+bounding methods with additional high preci-
+sion constraints.
+1 

@@ -1,0 +1,28 @@
+
+Everyday the newswire introduce events from all over 
+the world, highlighting new names of persons, loca-
+tions and organizations with different origins. These 
+names appear as Out of Vocabulary (OOV) words for 
+Machine translation, cross lingual information retriev-
+al, and many other NLP applications. One way to deal 
+with OOV words is to transliterate the unknown 
+words, that is, to render them in the orthography of 
+the second language.
+We introduce a statistical approach for transliteration 
+only using the bilingual resources released in the 
+shared task and without any previous knowledge of 
+the target languages. Mapping the Transliteration 
+problem to the Machine Translation problem, we 
+make use of the phrase based SMT approach and ap-
+ply it on substrings of names. In the English to Russi-
+an task, we report ACC (Accuracy in top-1) of 0.545, 
+Mean F-score of 0.917, and MRR (Mean Reciprocal  
+Rank) of 0.596.
+Due to time constraints, we made a single experiment 
+in the English to Chinese task, reporting ACC, Mean 
+F-score, and MRR of 0.411, 0.737, and 0.464 respect-
+ively.
+Finally, it is worth mentioning that the system is 
+language independent since the author is not aware of 
+either languages used in the experiments.
+1. 

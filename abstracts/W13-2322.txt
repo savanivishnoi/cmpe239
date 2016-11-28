@@ -1,0 +1,52 @@
+ Meaning Representation for Sembanking
+Laura Banarescu
+SDL
+lbanarescu@sdl.com
+Claire Bonial
+Linguistics Dept.
+Univ. Colorado
+claire.bonial@colorado.edu
+Shu Cai
+ISI
+USC
+shucai@isi.edu
+Madalina Georgescu
+SDL
+mgeorgescu@sdl.com
+Kira Griffitt
+LDC
+kiragrif@ldc.upenn.edu
+Ulf Hermjakob
+ISI
+USC
+ulf@isi.edu
+Kevin Knight
+ISI
+USC
+knight@isi.edu
+Philipp Koehn
+School of Informatics
+Univ. Edinburgh
+pkoehn@inf.ed.ac.uk
+Martha Palmer
+Linguistics Dept.
+Univ. Colorado
+martha.palmer@colorado.edu
+Nathan Schneider
+LTI
+CMU
+nschneid@cs.cmu.edu
+Abstract
+We describe Abstract Meaning Represen-
+tation (AMR), a semantic representation
+language in which we are writing down
+the meanings of thousands of English sen-
+tences. We hope that a sembank of simple,
+whole-sentence semantic structures will
+spur new work in statistical natural lan-
+guage understanding and generation, like
+the Penn Treebank encouraged work on
+statistical parsing. This paper gives an
+overview of AMR and tools associated
+with it.
+1 

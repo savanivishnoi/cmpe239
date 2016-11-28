@@ -1,0 +1,25 @@
+
+The design of practical language applica-
+tions by means of statistical approaches
+requires annotated data, which is one of
+the most critical constraint. This is par-
+ticularly true for Spoken Dialog Systems
+since considerably domain-specific con-
+ceptual annotation is needed to obtain ac-
+curate Language Understanding models.
+Since data annotation is usually costly,
+methods to reduce the amount of data are
+needed. In this paper, we show that bet-
+ter feature representations serve the above
+purpose and that structure kernels pro-
+vide the needed improved representation.
+Given the relatively high computational
+cost of kernel methods, we apply them to
+just re-rank the list of hypotheses provided
+by a fast generative model. Experiments
+with Support Vector Machines and differ-
+ent kernels on two different dialog cor-
+pora show that our re-ranking models can
+achieve better results than state-of-the-art
+approaches when small data is available.
+1 

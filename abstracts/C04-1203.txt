@@ -1,0 +1,23 @@
+ 
+We built an open-source software platform in-
+tended to serve as a common infrastructure that 
+can be of use in the development of new applica-
+tions involving the processing of Turkish. The 
+platform incorporates a lexicon, a morphological 
+analyzer/generator, and a DCG parser/generator 
+that translates Turkish sentences to predicate 
+logic formulas, and a knowledge base frame-
+work. Several developers have already utilized 
+the platform for a variety of applications, includ-
+ing conversation programs and an artificial per-
+sonal assistant, tools for automatic analysis of 
+rhyme and meter in Turkish folk poems, a proto-
+type sentence-level translator between Albanian, 
+Turkish, and English, natural language interfaces 
+for generating SQL queries and JAVA code, as 
+well as a text tagger used for collecting statistics 
+about Turkish morpheme order for a speech rec-
+ognition algorithm. The results indicate the 
+adaptability of the infrastructure to different 
+kinds of applications and how it facilitates im-
+provements and modifications.  

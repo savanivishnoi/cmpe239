@@ -1,0 +1,16 @@
+
+In this paper we investigate the use of sev-
+eral types of lexico-semantic information
+for query expansion in the passage retrieval
+component of our QA system. We have
+used four corpus-based methods to acquire
+semantically related words, and we have
+used one hand-built resource. We eval-
+uate our techniques on the Dutch CLEF
+QA track.1 In our experiments expansions
+that try to bridge the terminological gap
+between question and document collection
+do not result in any improvements. How-
+ever, expansions bridging the knowledge
+gap show modest improvements.
+1 

@@ -1,0 +1,25 @@
+ 
+Temporal reference is an issue of determining 
+how events relate to one another. Determining 
+temporal relations relies on the combination of 
+the information, which is explicit or implicit in 
+a language. This paper reports a computational 
+model for determining temporal relations in 
+Chinese. The model takes into account the ef-
+fects of linguistic features, such as tense/aspect, 
+temporal connectives, and discourse structures, 
+and makes use of the fact that events are repre-
+sented in different temporal structures. A ma-
+chine learning approach, Weighted Bayesian 
+Classifier, is developed to map their combined 
+effects to the corresponding relations. An em-
+pirical study is conducted to investigate differ-
+ent combination methods, including lexical-
+based, grammatical-based, and role-based 
+methods. When used in combination, the 
+weights of the features may not be equal. Incor-
+porating with an optimization algorithm, the 
+weights are fine tuned and the improvement is 
+remarkable. 
+ 
+1 

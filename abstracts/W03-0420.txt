@@ -1,0 +1,13 @@
+
+In this paper, we describe a system that applies
+maximum entropy (ME) models to the task of
+named entity recognition (NER). Starting with
+an annotated corpus and a set of features which
+are easily obtainable for almost any language,
+we first build a baseline NE recognizer which
+is then used to extract the named entities and
+their context information from additional non-
+annotated data. In turn, these lists are incor-
+porated into the final recognizer to further im-
+prove the recognition accuracy.
+1 

@@ -1,0 +1,18 @@
+ 
+This paper introduces simplified yet effective 
+features that can robustly identify named enti-
+ties in Arabic text without the need for mor-
+phological or syntactic analysis or gazetteers. 
+A CRF sequence labeling model is trained on 
+features that primarily use character n-gram of 
+leading and trailing letters in words and word 
+n-grams.  The proposed features help over-
+come some of the morphological and ortho-
+graphic complexities of Arabic.  In comparing 
+to results in the literature using Arabic specific 
+features such POS tags on the same dataset 
+and same CRF implementation, the results in 
+this paper are lower by 2 F-measure points for 
+locations, but are better by 8 points for organi-
+zations and 9 points for persons.     
+1 

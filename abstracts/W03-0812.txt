@@ -1,0 +1,18 @@
+
+We present the system description language
+SDL that offers a declarative way of specify-
+ing new complex NLP systems from already
+existing modules with the help of three oper-
+ators: sequence, parallelism, and unrestricted
+iteration. Given a system description and mod-
+ules that implement a minimal interface, the
+SDL compiler returns a running Java program
+which realizes exactly the desired behavior of
+the original speci?cation. The execution se-
+mantics of SDL is complemented by a precise
+formal semantics, de?ned in terms of concepts
+of function theory. The SDL compiler is part
+of the SProUT shallow language platform, a
+system for the development and processing of
+multilingual resources.
+1 

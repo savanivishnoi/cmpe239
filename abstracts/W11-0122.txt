@@ -1,0 +1,11 @@
+
+We propose a method to automatically alignWordNet synsets andWikipedia articles to obtain a sense
+inventory of higher coverage and quality. For eachWordNet synset, we first extract a set of Wikipedia
+articles as alignment candidates; in a second step, we determine which article (if any) is a valid
+alignment, i.e. is about the same sense or concept. In this paper, we go significantly beyond state-
+of-the-art word overlap approaches, and apply a threshold-based Personalized PageRank method for
+the disambiguation step. We show that WordNet synsets can be aligned to Wikipedia articles with a
+performance of up to 0.78 F1-Measure based on a comprehensive, well-balanced reference dataset
+consisting of 1,815 manually annotated sense alignment candidates. The fully-aligned resource as
+well as the reference dataset is publicly available.1
+1 

@@ -1,0 +1,26 @@
+
+State-of-the-art systems for grammatical er-
+ror correction are based on a collection of
+independently-trained models for specific er-
+rors. Such models ignore linguistic interac-
+tions at the sentence level and thus do poorly
+on mistakes that involve grammatical depen-
+dencies among several words. In this paper,
+we identify linguistic structures with interact-
+ing grammatical properties and propose to ad-
+dress such dependencies via joint inference
+and joint learning.
+We show that it is possible to identify interac-
+tions well enough to facilitate a joint approach
+and, consequently, that joint methods correct
+incoherent predictions that independently-
+trained classifiers tend to produce. Further-
+more, because the joint learning model con-
+siders interacting phenomena during training,
+it is able to identify mistakes that require mak-
+ing multiple changes simultaneously and that
+standard approaches miss. Overall, our model
+significantly outperforms the Illinois system
+that placed first in the CoNLL-2013 shared
+task on grammatical error correction.
+1 

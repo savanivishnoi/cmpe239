@@ -1,0 +1,14 @@
+
+The method of Topic Indexing and Re-
+trieval for QA persented in this paper
+enables fast and efficent QA for ques-
+tions with named entity answers. This is
+achieved by identifying all possible named
+entity answers in a corpus off-line and
+gathering all possible evidence for their di-
+rect retrieval as answer candidates using
+standard IR techniques. An evaluation of
+this method on 377 TREC questions pro-
+duced a score of 0.342 in Accuracy and
+0.413 in Mean Reciprocal Rank (MRR).
+1 

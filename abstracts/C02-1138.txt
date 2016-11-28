@@ -1,0 +1,19 @@
+
+Systems that interact with the user via natural
+language are in their infancy. As these systems
+mature and become more complex, it would be
+desirable for a system developer if there were
+an automatic method for creating natural lan-
+guage generation components that can produce
+quality output efficiently. We conduct experi-
+ments that show that this goal appears to be
+realizable. In particular we discuss a natural
+language generation system that is composed of
+SPoT, a trainable sentence planner, and FER-
+GUS, a stochastic surface realizer. We show
+how these stochastic NLG components can be
+made to work together, that they can be ported
+to new domains with apparent ease, and that
+such NLG components can be integrated in a
+real-time dialog system.
+1 

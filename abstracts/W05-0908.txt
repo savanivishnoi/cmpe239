@@ -1,0 +1,23 @@
+
+We investigate some pitfalls regarding the
+discriminatory power of MT evaluation
+metrics and the accuracy of statistical sig-
+nificance tests. In a discriminative rerank-
+ing experiment for phrase-based SMT we
+show that the NIST metric is more sensi-
+tive than BLEU or F-score despite their in-
+corporation of aspects of fluency or mean-
+ing adequacy into MT evaluation. In an
+experimental comparison of two statistical
+significance tests we show that p-values
+are estimated more conservatively by ap-
+proximate randomization than by boot-
+strap tests, thus increasing the likelihood
+of type-I error for the latter. We point
+out a pitfall of randomly assessing signif-
+icance in multiple pairwise comparisons,
+and conclude with a recommendation to
+combine NIST with approximate random-
+ization, at more stringent rejection levels
+than is currently standard.
+1 

@@ -1,0 +1,15 @@
+
+Minimum error rate training (MERT) is a
+widely used learning procedure for statistical
+machine translation models. We contrast three
+search strategies for MERT: Powell?s method,
+the variant of coordinate descent found in the
+Moses MERT utility, and a novel stochastic
+method. It is shown that the stochastic method
+obtains test set gains of +0.98 BLEU on MT03
+and +0.61 BLEU on MT05. We also present
+a method for regularizing the MERT objec-
+tive that achieves statistically significant gains
+when combined with both Powell?s method
+and coordinate descent.
+1 

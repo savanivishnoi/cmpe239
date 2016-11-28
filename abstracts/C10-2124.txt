@@ -1,0 +1,19 @@
+
+We present an adaptation technique for
+statistical machine translation, which ap-
+plies the well-known Bayesian learning
+paradigm for adapting the model param-
+eters. Since state-of-the-art statistical ma-
+chine translation systems model the trans-
+lation process as a log-linear combination
+of simpler models, we present the formal
+derivation of how to apply such paradigm
+to the weights of the log-linear combina-
+tion. We show empirical results in which
+a small amount of adaptation data is able
+to improve both the non-adapted system
+and a system which optimises the above-
+mentioned weights on the adaptation set
+only, while gaining both in reliability and
+speed.
+1 

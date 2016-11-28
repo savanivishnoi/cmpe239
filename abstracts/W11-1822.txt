@@ -1,0 +1,11 @@
+ 
+We describe our approach for the GENIA 
+Event Extraction in the Main Task of BioNLP 
+Shared Task 2011.  There are two important 
+parts in our method: Event Trigger Annotation 
+and Event Extraction. We use rules and dic-
+tionary to annotate event triggers. Event ex-
+traction is based on patterns created from 
+dependent graphs. We apply UIMA Frame-
+work to support all stages in our system. 
+1 

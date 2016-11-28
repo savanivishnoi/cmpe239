@@ -1,0 +1,32 @@
+
+Using SVMs for named entity recogni-
+tion, we are often confronted with the
+multi-class problem. Larger as the num-
+ber of classes is, more severe the multi-
+class problem is. Especially, one-vs-rest
+method is apt to drop the performance by
+generating severe unbalanced class distri-
+bution. In this study, to tackle the prob-
+lem, we take a two-phase named entity
+recognition method based on SVMs and
+dictionary; at the first phase, we try to
+identify each entity by a SVM classifier
+and post-process the identified entities by
+a simple dictionary look-up; at the sec-
+ond phase, we try to classify the seman-
+tic class of the identified entity by SVMs.
+By dividing the task into two subtasks, i.e.
+the entity identification and the semantic
+classification, the unbalanced class distri-
+bution problem can be alleviated. Further-
+more, we can select the features relevant
+to each task and take an alternative classi-
+fication method according to the task. The
+experimental results on the GENIA cor-
+pus show that the proposed method is ef-
+fective not only in the reduction of train-
+ing cost but also in performance improve-
+ment: the identification performance is
+about 79.9(F? = 1), the semantic clas-
+sification accuracy is about 66.5(F? = 1).
+1 

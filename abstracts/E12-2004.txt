@@ -1,0 +1,21 @@
+ 
+We introduce a method for learning to 
+predict the following grammar and text 
+of the ongoing translation given a source 
+text. In our approach, predictions are 
+offered aimed at reducing users? burden 
+on lexical and grammar choices, and 
+improving productivity. The method 
+involves learning syntactic phraseology 
+and translation equivalents. At run-time, 
+the source and its translation prefix are 
+sliced into ngrams to generate subsequent 
+grammar and translation predictions. We 
+present a prototype writing assistant, 
+TransAhead1, that applies the method to 
+where computer-assisted translation and 
+language learning meet. The preliminary 
+results show that the method has great 
+potentials in CAT and CALL (significant 
+boost in translation quality is observed). 
+1.  

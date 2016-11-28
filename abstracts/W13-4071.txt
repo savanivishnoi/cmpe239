@@ -1,0 +1,11 @@
+
+This paper presents our approach to dialog
+state tracking for the Dialog State Track-
+ing Challenge task. In our approach we
+use discriminative general structured con-
+ditional random fields, instead of tradi-
+tional generative directed graphic models,
+to incorporate arbitrary overlapping fea-
+tures. Our approach outperforms the sim-
+ple 1-best tracking approach.
+1 

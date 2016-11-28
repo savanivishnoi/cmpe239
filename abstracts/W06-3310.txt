@@ -1,0 +1,21 @@
+ 
+A picture is worth a thousand words. 
+Biomedical researchers tend to incorpo-
+rate a significant number of images (i.e., 
+figures or tables) in their publications to 
+report experimental results, to present re-
+search models, and to display examples of 
+biomedical objects. Unfortunately, this 
+wealth of information remains virtually 
+inaccessible without automatic systems to 
+organize these images. We explored su-
+pervised machine-learning systems using 
+Support Vector Machines to automatically 
+classify images into six representative 
+categories based on text, image, and the 
+fusion of both. Our experiments show a 
+significant improvement in the average F-
+score of the fusion classifier (73.66%) as 
+compared with classifiers just based on 
+image (50.74%) or text features (68.54%). 
+1 

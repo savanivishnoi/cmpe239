@@ -1,0 +1,24 @@
+
+This paper describes a fast algorithm that se-
+lects features for conditional maximum en-
+tropy modeling. Berger et al (1996) presents
+an incremental feature selection (IFS) algo-
+rithm, which computes the approximate gains
+for all candidate features at each selection
+stage, and is very time-consuming for any
+problems with large feature spaces. In this
+new algorithm, instead, we only compute the
+approximate gains for the top-ranked features
+based on the models obtained from previous
+stages. Experiments on WSJ data in Penn
+Treebank are conducted to show that the new
+algorithm greatly speeds up the feature selec-
+tion process while maintaining the same qual-
+ity of selected features. One variant of this
+new algorithm with look-ahead functionality
+is also tested to further confirm the good
+quality of the selected features. The new algo-
+rithm is easy to implement, and given a fea-
+ture space of size F, it only uses O(F) more
+space than the original IFS algorithm.
+1 

@@ -1,0 +1,22 @@
+
+One of the particular characteristics
+of text classification tasks is that they
+present large class imbalances. Such a
+problem can easily be tackled using re-
+sampling methods. However, although
+these approaches are very simple to im-
+plement, tuning them most effectively
+is not an easy task. In particular,
+it is unclear whether oversampling is
+more effective than undersampling and
+which oversampling or undersampling
+rate should be used. This paper presents
+a method for combining different ex-
+pressions of the re-sampling approach
+in a mixture of experts framework. The
+proposed combination scheme is evalu-
+ated on a very imbalanced subset of the
+REUTERS-21578 text collection and is
+shown to be very effective on this do-
+main.
+1 

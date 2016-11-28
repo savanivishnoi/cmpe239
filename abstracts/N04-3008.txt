@@ -1,0 +1,14 @@
+
+SenseClusters is a freely available word sense
+discrimination system that takes a purely unsu-
+pervised clustering approach. It uses no knowl-
+edge other than what is available in a raw un-
+structured corpus, and clusters instances of a
+given target word based only on their mutual
+contextual similarities. It is a complete sys-
+tem that provides support for feature selec-
+tion from large corpora, several different con-
+text representation schemes, various clustering
+algorithms, and evaluation of the discovered
+clusters.
+1 

@@ -1,0 +1,24 @@
+
+Recent parsing research has started addressing
+the questions a) how parsers trained on differ-
+ent syntactic resources differ in their perfor-
+mance and b) how to conduct a meaningful
+evaluation of the parsing results across such
+a range of syntactic representations. Two Ger-
+man treebanks, Negra and Tu?Ba-D/Z, consti-
+tute an interesting testing ground for such re-
+search given that the two treebanks make very
+different representational choices for this lan-
+guage, which also is of general interest given
+that German is situated between the extremes
+of fixed and free word order. We show that
+previous work comparing PCFG parsing with
+these two treebanks employed PARSEVAL
+and grammatical function comparisons which
+were skewed by differences between the two
+corpus annotation schemes. Focusing on the
+grammatical dependency triples as an essen-
+tial dimension of comparison, we show that
+the two very distinct corpora result in compa-
+rable parsing performance.
+1 

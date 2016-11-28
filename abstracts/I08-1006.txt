@@ -1,0 +1,22 @@
+
+Topic Detection and Tracking refers to au-
+tomatic techniques for locating topically re-
+lated materials in streams of data. As the
+core technology of it, story link detection is
+to determine whether two stories are about
+the same topic. To overcome the limitation
+of the story length and the topic dynamic
+evolution problem in data streams, this pa-
+per presents a method of applying dynamic
+information extending to improve the per-
+formance of link detection. The proposed
+method uses previous latest related story to
+extend current processing story, generates
+new dynamic models for computing the sim-
+ilarity between the current two stories. The
+work is evaluated on the TDT4 Chinese cor-
+pus, and the experimental results indicate
+that story link detection using this method
+can make much better performance on all
+evaluation metrics.
+1 

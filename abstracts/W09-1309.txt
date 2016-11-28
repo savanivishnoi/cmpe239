@@ -1,0 +1,19 @@
+
+Abbreviations are common in biomedical doc-
+uments and many are ambiguous in the sense
+that they have several potential expansions.
+Identifying the correct expansion is necessary
+for language understanding and important for
+applications such as document retrieval. Iden-
+tifying the correct expansion can be viewed as
+a Word Sense Disambiguation (WSD) prob-
+lem. A WSD system that uses a variety of
+knowledge sources, including two types of in-
+formation specific to the biomedical domain,
+is also described. This system was tested on a
+corpus of ambiguous abbreviations, created by
+automatically identifying the correct expan-
+sion in Medline abstracts, and found to iden-
+tify the correct expansion with up to 99% ac-
+curacy.
+1 

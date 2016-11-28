@@ -1,0 +1,22 @@
+
+We introduce a novel semantic represen-
+tation formalism, Almost Flat Functional
+semantics (AFF), which is designed as an
+intelligent compromise between linguis-
+tically motivated predicate/argument se-
+mantics and ad hoc engineering solutions
+based on flat feature/value lists; the cen-
+tral idea is to tag each semantic element
+with the functional marking which most
+closely surrounds it. We argue that AFF is
+well-suited for medium-vocabulary speech
+translation applications, and describe sim-
+ple and general algorithms for parsing,
+generating and performing transfer using
+AFF representations. The formalism has
+been fully implemented within a medium-
+vocabulary interlingua-based Open Source
+speech translation system which translates
+between English, French, Japanese and
+Arabic.
+1 

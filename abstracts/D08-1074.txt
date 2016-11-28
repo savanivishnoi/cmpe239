@@ -1,0 +1,22 @@
+
+Chinese is a language that does not have mor-
+phological tense markers that provide explicit
+grammaticalization of the temporal location of
+situations (events or states). However, in many
+NLP applications such as Machine Transla-
+tion, Information Extraction and Question An-
+swering, it is desirable to make the temporal
+location of the situations explicit. We describe
+a machine learning framework where differ-
+ent sources of information can be combined to
+predict the temporal location of situations in
+Chinese text. Our experiments show that this
+approach significantly outperforms the most
+frequent tense baseline. More importantly,
+the high training accuracy shows promise that
+this challenging problem is solvable to a level
+where it can be used in practical NLP applica-
+tions with more training data, better modeling
+techniques and more informative and general-
+izable features.
+1 

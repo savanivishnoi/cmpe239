@@ -1,0 +1,23 @@
+
+Most event extraction systems are trained
+with supervised learning and rely on a col-
+lection of annotated documents. Due to
+the domain-specificity of this task, event
+extraction systems must be retrained with
+new annotated data for each domain. In
+this paper, we propose a bootstrapping so-
+lution for event role filler extraction that re-
+quires minimal human supervision. We aim
+to rapidly train a state-of-the-art event ex-
+traction system using a small set of ?seed
+nouns? for each event role, a collection
+of relevant (in-domain) and irrelevant (out-
+of-domain) texts, and a semantic dictio-
+nary. The experimental results show that
+the bootstrapped system outperforms previ-
+ous weakly supervised event extraction sys-
+tems on the MUC-4 data set, and achieves
+performance levels comparable to super-
+vised training with 700 manually annotated
+documents.
+1 

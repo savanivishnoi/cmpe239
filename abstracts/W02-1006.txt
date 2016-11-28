@@ -1,0 +1,23 @@
+
+In this paper, we evaluate a vari-
+ety of knowledge sources and super-
+vised learning algorithms for word sense
+disambiguation on SENSEVAL-2 and
+SENSEVAL-1 data. Our knowledge
+sources include the part-of-speech of
+neighboring words, single words in the
+surrounding context, local collocations,
+and syntactic relations. The learning al-
+gorithms evaluated include Support Vec-
+tor Machines (SVM), Naive Bayes, Ad-
+aBoost, and decision tree algorithms. We
+present empirical results showing the rela-
+tive contribution of the component knowl-
+edge sources and the different learning
+algorithms. In particular, using all of
+these knowledge sources and SVM (i.e.,
+a single learning algorithm) achieves ac-
+curacy higher than the best official scores
+on both SENSEVAL-2 and SENSEVAL-1
+test data.
+1 

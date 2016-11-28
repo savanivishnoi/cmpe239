@@ -1,0 +1,11 @@
+ 
+ 
+This paper deals with the relationship between weblog content and time. With the proposed temporal mutual information, we analyze 
+the collocations in time dimension, and the interesting collocations related to special events. The temporal mutual information is 
+employed to observe the strength of term-to-term associations over time. An event detection algorithm identifies the collocations that 
+may cause an event in a specific timestamp. An event summarization algorithm retrieves a set of collocations which describe an event. 
+We compare our approach with the approach without considering the time interval. The experimental results demonstrate that the 
+temporal collocations capture the real world semantics and real world events over time. 
+ 
+1. 
+2. 

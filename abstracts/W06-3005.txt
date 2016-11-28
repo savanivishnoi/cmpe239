@@ -1,0 +1,18 @@
+
+Contextual question answering (QA), in
+which users? information needs are satis-
+fied through an interactive QA dialogue,
+has recently attracted more research atten-
+tion. One challenge of engaging dialogue
+into QA systems is to determine whether
+a question is relevant to the previous inter-
+action context. We refer to this task as rel-
+evancy recognition. In this paper we pro-
+pose a data driven approach for the task
+of relevancy recognition and evaluate it
+on two data sets: the TREC data and the
+HandQA data. The results show that we
+achieve better performance than a previ-
+ous rule-based algorithm. A detailed eval-
+uation analysis is presented.
+1 

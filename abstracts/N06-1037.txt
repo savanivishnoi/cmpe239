@@ -1,0 +1,19 @@
+ 
+This paper proposes to use a convolution 
+kernel over parse trees to model syntactic 
+structure information for relation extrac-
+tion. Our study reveals that the syntactic 
+structure features embedded in a parse 
+tree are very effective for relation extrac-
+tion and these features can be well cap-
+tured by the convolution tree kernel. 
+Evaluation on the ACE 2003 corpus 
+shows that the convolution kernel over 
+parse trees can achieve comparable per-
+formance with the previous best-reported 
+feature-based methods on the 24 ACE re-
+lation subtypes. It also shows that our 
+method significantly outperforms the pre-
+vious two dependency tree kernels on the 
+5 ACE relation major types. 
+1 

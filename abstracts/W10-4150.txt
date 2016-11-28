@@ -1,0 +1,15 @@
+
+We present a new probabilistic model
+based on the lexical PCFG model, which
+can easily utilize the Chinese character in-
+formation to solve the lexical information
+sparseness in lexical PCFG model. We
+discuss in particular some important fea-
+tures that can improve the parsing perfor-
+mance, and describe the strategy of mod-
+ifying original label structure to reduce
+the label ambiguities. Final experiment
+demonstrates that the character informa-
+tion and label modification improve the
+parsing performance.
+1 

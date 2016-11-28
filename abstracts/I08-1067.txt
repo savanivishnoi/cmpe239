@@ -1,0 +1,25 @@
+
+In this paper, we report our work on incor-
+porating syntactic and morphological infor-
+mation for English to Hindi statistical ma-
+chine translation. Two simple and compu-
+tationally inexpensive ideas have proven to
+be surprisingly effective: (i) reordering the
+English source sentence as per Hindi syntax,
+and (ii) using the suffixes of Hindi words.
+The former is done by applying simple trans-
+formation rules on the English parse tree.
+The latter, by using a simple suffix separa-
+tion program. With only a small amount of
+bilingual training data and limited tools for
+Hindi, we achieve reasonable performance
+and substantial improvements over the base-
+line phrase-based system. Our approach es-
+chews the use of parsing or other sophisti-
+cated linguistic tools for the target language
+(Hindi) making it a useful framework for
+statistical machine translation from English
+to Indian languages in general, since such
+tools are not widely available for Indian lan-
+guages currently.
+1 

@@ -1,0 +1,24 @@
+ 
+In this paper we describe a method of acquiring word 
+order fl'om corpora. Word order is defined as the or- 
+der of modifiers, or the order of phrasal milts called 
+'bunsetsu' which depend on the stone modifiee. The 
+method uses a model which automatically discovers 
+what the tendency of the word order in Japanese is 
+by using various kinds of information in and around 
+the target bunsetsus. This model shows us to what 
+extent each piece of information contributes to de- 
+ciding the word order mid which word order tends to 
+be selected when several kinds of information con- 
+flict. The contribution rate of each piece of informa- 
+tion in deciding word order is eiIiciently learned by a 
+model within a maximum entropy framework. The 
+performance of this traiimd model can be ewfluated 
+by checking how many instances of word order st- 
+letted by the model agree with those in the original 
+text. In this paper, we show t, hat even a raw cor- 
+pits that has not been tagged can be used to train 
+the model, if it is first analyzed by a parser. This 
+is possible because the word order of the text in the 
+corpus is correct. 
+1 

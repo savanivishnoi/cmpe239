@@ -1,0 +1,22 @@
+
+Many dialogue system developers use data
+gathered from previous versions of the dia-
+logue system to build models which enable the
+system to detect and respond to users? affect.
+Previous work in the dialogue systems com-
+munity for domain adaptation has shown that
+large differences between versions of dialogue
+systems affect performance of ported models.
+Thus, we wish to investigate how more mi-
+nor differences, like small dialogue content
+changes and switching from a wizarded sys-
+tem to a fully automated system, influence the
+performance of our affect detection models.
+We perform a post-hoc experiment where we
+use various data sets to train multiple mod-
+els, and compare against a test set from the
+most recent version of our dialogue system.
+Analyzing these results strongly suggests that
+these differences do impact these models? per-
+formance.
+1 

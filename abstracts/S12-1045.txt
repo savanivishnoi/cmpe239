@@ -1,0 +1,17 @@
+
+Automatic detection of negation cues along
+with their scope and corresponding negated
+events is an important task that could bene-
+fit other natural language processing (NLP)
+tasks such as extraction of factual information
+from text, sentiment analysis, etc. This paper
+presents a system for this task that exploits
+phrasal and contextual clues apart from vari-
+ous token specific features. The system was
+developed for the participation in the Task 1
+(closed track) of the *SEM 2012 Shared Task
+(Resolving the Scope and Focus of Negation),
+where it is ranked 3rd among the participating
+teams while attaining the highest F1 score for
+negation cue detection.
+1 

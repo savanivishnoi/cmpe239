@@ -1,0 +1,10 @@
+
+First-order logic provides a powerful and flexible mechanism for representing natural language
+semantics. However, it is an open question of how best to integrate it with uncertain, probabilistic
+knowledge, for example regarding word meaning. This paper describes the first steps of an approach
+to recasting first-order semantics into the probabilistic models that are part of Statistical Relational
+AI. Specifically, we show how Discourse Representation Structures can be combined with distribu-
+tional models for word meaning inside a Markov Logic Network and used to successfully perform
+inferences that take advantage of logical concepts such as factivity as well as probabilistic informa-
+tion on word meaning in context.
+1 

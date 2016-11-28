@@ -1,0 +1,20 @@
+ 
+We apply a PARADISE-style evaluation to a 
+human-human dialogue corpus that was  col-
+lected to support the design of a spoken dialo-
+gue system for library transactions.  The book 
+request dialogue task we investigate is infor-
+mational in nature: a book request is consi-
+dered successful if the librarian is able to 
+identify a specific book for the patron. 
+PARADISE assumes that user satisfaction can 
+be modeled as a regression over task success 
+and dialogue costs.  The PARADISE model 
+we derive includes features that characterize 
+two types of qualitative features. The first has 
+to do with the specificity of the communica-
+tive goals, given a request for an item.  The 
+second has to do with the number and location 
+of overlapping turns, which can sometimes 
+signal rapport between the speakers.  
+1 

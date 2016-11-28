@@ -1,0 +1,24 @@
+
+This research examines a word sense dis-
+ambiguation method using selectors acquired
+from the Web. Selectors describe words which
+may take the place of another given word
+within its local context. Work in using Web se-
+lectors for noun sense disambiguation is gen-
+eralized into the disambiguation of verbs, ad-
+verbs, and adjectives as well. Additionally,
+this work incorporates previously ignored ad-
+verb context selectors and explores the effec-
+tiveness of each type of context selector ac-
+cording to its part of speech. Overall results
+for verb, adjective, and adverb disambigua-
+tion are well above a random baseline and
+slightly below the most frequent sense base-
+line, a point which noun sense disambigua-
+tion overcomes. Our experiments find that,
+for noun and verb sense disambiguation tasks,
+each type of context selector may assist target
+selectors in disambiguation. Finally, these ex-
+periments also help to draw insights about the
+future direction of similar research.
+1 

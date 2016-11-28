@@ -1,0 +1,11 @@
+
+We pursue two strategies for offline data collection for a temporal question answering
+system that uses both quantitative methods and fuzzy methods to reason about time
+and events. The first strategy extracts event descriptions from the structured year
+entries in the online encyclopedia Wikipedia, yielding clean quantitative temporal
+information about a range of events. The second strategy mines the web using
+patterns indicating temporal relations between events and times and between events.
+Web mining leverages the volume of data available on the web to find qualitative
+temporal relations between known events and new, related events and to build fuzzy
+time spans for events for which we lack crisp metric temporal information.
+1 

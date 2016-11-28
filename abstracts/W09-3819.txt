@@ -1,0 +1,24 @@
+
+We describe a newly available Hebrew
+Dependency Treebank, which is extracted
+from the Hebrew (constituency) Tree-
+bank. We establish some baseline un-
+labeled dependency parsing performance
+on Hebrew, based on two state-of-the-art
+parsers, MST-parser and MaltParser. The
+evaluation is performed both in an artifi-
+cial setting, in which the data is assumed
+to be properly morphologically segmented
+and POS-tagged, and in a real-world set-
+ting, in which the parsing is performed on
+automatically segmented and POS-tagged
+text. We present an evaluation measure
+that takes into account the possibility of
+incompatible token segmentation between
+the gold standard and the parsed data.
+Results indicate that (a) MST-parser per-
+forms better on Hebrew data than Malt-
+Parser, and (b) both parsers do not make
+good use of morphological information
+when parsing Hebrew.
+1 

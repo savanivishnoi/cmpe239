@@ -1,0 +1,17 @@
+ 
+This paper describes and evaluates DQGen, 
+which automatically generates multiple choice 
+cloze questions to test a child?s comprehen-
+sion while reading a given text.  Unlike previ-
+ous methods, it generates different types of 
+distracters designed to diagnose different 
+types of comprehension failure, and tests 
+comprehension not only of an individual sen-
+tence but of the context that precedes it.  We 
+evaluate the quality of the overall questions 
+and the individual distracters, according to 8 
+human judges blind to the correct answers and 
+intended distracter types.  The results, errors, 
+and judges? comments reveal limitations and 
+suggest how to address some of them. 
+1 

@@ -1,0 +1,10 @@
+
+This paper investigates the use of a language inde-
+pendent model for named entity recognition based
+on iterative learning in a co-training fashion, using
+word-internal and contextual information as inde-
+pendent evidence sources. Its bootstrapping pro-
+cess begins with only seed entities and seed con-
+texts extracted from the provided annotated corpus.
+F-measure exceeds 77 in Spanish and 72 in Dutch.
+1. 

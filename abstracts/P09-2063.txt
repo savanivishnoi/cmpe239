@@ -1,0 +1,17 @@
+
+We propose a new specifically designed
+method for paraphrase generation based
+on Monte-Carlo sampling and show how
+this algorithm is suitable for its task.
+Moreover, the basic algorithm presented
+here leaves a lot of opportunities for fu-
+ture improvement. In particular, our algo-
+rithm does not constraint the scoring func-
+tion in opposite to Viterbi based decoders.
+It is now possible to use some global fea-
+tures in paraphrase scoring functions. This
+algorithm opens new outlooks for para-
+phrase generation and other natural lan-
+guage processing applications like statis-
+tical machine translation.
+1 

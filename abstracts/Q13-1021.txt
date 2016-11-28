@@ -1,0 +1,23 @@
+
+This paper explores the use of Adaptor Gram-
+mars, a nonparametric Bayesian modelling
+framework, for minimally supervised morpho-
+logical segmentation. We compare three train-
+ing methods: unsupervised training, semi-
+supervised training, and a novel model selec-
+tion method. In the model selection method,
+we train unsupervised Adaptor Grammars us-
+ing an over-articulated metagrammar, then use
+a small labelled data set to select which poten-
+tial morph boundaries identified by the meta-
+grammar should be returned in the final output.
+We evaluate on five languages and show that
+semi-supervised training provides a boost over
+unsupervised training, while the model selec-
+tion method yields the best average results over
+all languages and is competitive with state-of-
+the-art semi-supervised systems. Moreover,
+this method provides the potential to tune per-
+formance according to different evaluation met-
+rics or downstream tasks.
+1 

@@ -1,0 +1,20 @@
+
+We propose a Name-aware Machine
+Translation (MT) approach which can
+tightly integrate name processing into MT
+model, by jointly annotating parallel cor-
+pora, extracting name-aware translation
+grammar and rules, adding name phrase
+table and name translation driven decod-
+ing. Additionally, we also propose a new
+MT metric to appropriately evaluate the
+translation quality of informative words,
+by assigning different weights to differ-
+ent words according to their importance
+values in a document. Experiments on
+Chinese-English translation demonstrated
+the effectiveness of our approach on en-
+hancing the quality of overall translation,
+name translation and word alignment over
+a high-quality MT baseline1.
+1 

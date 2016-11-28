@@ -1,0 +1,24 @@
+ 
+In the construction of a part-of-speech an-
+notated corpus, we are constrained by a 
+fixed budget. A fully annotated corpus is 
+required, but we can afford to label only a 
+subset. We train a Maximum Entropy Mar-
+kov Model tagger from a labeled subset 
+and automatically tag the remainder. This 
+paper addresses the question of where to 
+focus our manual tagging efforts in order to 
+deliver an annotation of highest quality. In 
+this context, we find that active learning is 
+always helpful. We focus on Query by Un-
+certainty (QBU) and Query by Committee 
+(QBC) and report on experiments with sev-
+eral baselines and new variations of QBC 
+and QBU, inspired by weaknesses particu-
+lar to their use in this application. Experi-
+ments on English prose and poetry test 
+these approaches and evaluate their robust-
+ness. The results allow us to make recom-
+mendations for both types of text and raise 
+questions that will lead to further inquiry. 
+1 

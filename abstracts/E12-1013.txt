@@ -1,0 +1,24 @@
+
+The search space of Phrase-Based Statisti-
+cal Machine Translation (PBSMT) systems
+can be represented under the form of a di-
+rected acyclic graph (lattice). The quality
+of this search space can thus be evaluated
+by computing the best achievable hypoth-
+esis in the lattice, the so-called oracle hy-
+pothesis. For common SMT metrics, this
+problem is however NP-hard and can only
+be solved using heuristics. In this work,
+we present two new methods for efficiently
+computing BLEU oracles on lattices: the
+first one is based on a linear approximation
+of the corpus BLEU score and is solved us-
+ing the FST formalism; the second one re-
+lies on integer linear programming formu-
+lation and is solved directly and using the
+Lagrangian relaxation framework. These
+new decoders are positively evaluated and
+compared with several alternatives from the
+literature for three language pairs, using lat-
+tices produced by two PBSMT systems.
+1 

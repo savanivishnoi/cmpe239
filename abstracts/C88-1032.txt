@@ -1,0 +1,23 @@
+ 
+This paper describes Word Manager, a system which 
+is currently the object of a research project at the 
+University of Zfirich Computer Science Department. 
+Word Manager supports the definition, access and 
+maintenance  of lexical databases.  It comprises a 
+formal  language for the imp lemenat ion  of 
+morphological knowledge. This formal language is 
+integrated in a graphics-oriented, high-level user 
+Interface and is language independent. The project is 
+now in the prototyping phase where parts of the 
+software are pretty far advanced (the user interface) 
+and  .others are sti l l  rud imentary  (the rule 
+compi lcr /runt ime system). The design of the system 
+was strongly inf luenced by Koskenniemi's two-level 
+model /Koskenniemi  1983/,  its successors /Bear  
+1986/,  /B lack  1986/,  /Bor in 1986/,  /Darymple 
+1987/, the ANSI-SPARC 3-Schema Concept /ANSI- 
+X3-SPARC 1975/ and visual programming techniques 
+/Bocker 1986/,  /Myers 1986/: We will focus the 
+discussion on one aspect: the user interfacing for the 
+construction of the lexlcal data base. 
+I. 

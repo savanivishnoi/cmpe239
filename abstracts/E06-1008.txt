@@ -1,0 +1,25 @@
+
+In this paper, we explore statistical lan-
+guage modelling for a speech-enabled
+MP3 player application by generating a
+corpus from the interpretation grammar
+written for the application with the Gram-
+matical Framework (GF) (Ranta, 2004).
+We create a statistical language model
+(SLM) directly from our interpretation
+grammar and compare recognition per-
+formance of this model against a speech
+recognition grammar compiled from the
+same GF interpretation grammar. The
+results show a relative Word Error Rate
+(WER) reduction of 37% for the SLM
+derived from the interpretation grammar
+while maintaining a low in-grammarWER
+comparable to that associated with the
+speech recognition grammar. From this
+starting point we try to improve our arti-
+ficially generated model by interpolating
+it with different corpora achieving great
+reduction in perplexity and 8% relative
+recognition improvement.
+1 

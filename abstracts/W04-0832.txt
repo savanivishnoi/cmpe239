@@ -1,0 +1,13 @@
+ 
+As a task in SensEval-3, Automatic Labeling 
+of Semantic Roles is to identify frame 
+elements within a sentence and tag them with 
+appropriate semantic roles given a sentence, a 
+target word and its frame.  We apply 
+Maximum Entropy classification with feature 
+sets of syntactic patterns from parse trees and 
+officially attain 80.2% precision and 65.4% 
+recall.  When the frame element boundaries 
+are given, the system performs 86.7% 
+precision and 85.8% recall. 
+1 

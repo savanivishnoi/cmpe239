@@ -1,0 +1,24 @@
+
+The task of selecting information and render-
+ing it appropriately appears in multiple con-
+texts in summarization. In this paper we
+present a model that simultaneously optimizes
+selection and rendering preferences. The
+model operates over a phrase-based represen-
+tation of the source document which we ob-
+tain by merging PCFG parse trees and depen-
+dency graphs. Selection preferences for in-
+dividual phrases are learned discriminatively,
+while a quasi-synchronous grammar (Smith
+and Eisner, 2006) captures rendering prefer-
+ences such as paraphrases and compressions.
+Based on an integer linear programming for-
+mulation, the model learns to generate sum-
+maries that satisfy both types of preferences,
+while ensuring that length, topic coverage and
+grammar constraints are met. Experiments on
+headline and image caption generation show
+that our method obtains state-of-the-art per-
+formance using essentially the same model for
+both tasks without any major modifications.
+1 

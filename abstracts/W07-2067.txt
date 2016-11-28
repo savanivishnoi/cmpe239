@@ -1,0 +1,17 @@
+
+In this paper, we describe our two SemEval-
+2007 entries. Our first entry, for Task 5:
+Multilingual Chinese-English Lexical Sam-
+ple Task, is a supervised system that decides
+the most appropriate English translation of
+a Chinese target word. This system uses a
+combination of Na??ve Bayes, nearest neigh-
+bor cosine, decision lists, and latent seman-
+tic analysis. Our second entry, for Task 14:
+Affective Text, is a supervised system that
+annotates headlines using a predefined list of
+emotions. This system uses synonym expan-
+sion and matches lemmatized unigrams in
+the test headlines against a corpus of hand-
+annotated headlines.
+1 

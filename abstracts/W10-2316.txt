@@ -1,0 +1,17 @@
+
+This paper focuses on redundancy, over-
+lapping information in multi-documents,
+and presents a method for detecting
+salient, key sentences from documents
+that discuss the same event. To elimi-
+nate redundancy, we used spectral clus-
+tering and classified each sentence into
+groups, each of which consists of seman-
+tically related sentences. Then, we ap-
+plied link analysis, the Markov Random
+Walk (MRW) Model to deciding the im-
+portance of a sentence within documents.
+The method was tested on the NTCIR
+evaluation data, and the result shows the
+effectiveness of the method.
+1 

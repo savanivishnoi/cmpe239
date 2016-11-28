@@ -1,0 +1,18 @@
+
+Code assignment is important for handling
+large amounts of electronic medical data in
+the modern hospital. However, only expert
+annotators with extensive training can as-
+sign codes. We present a system for the
+assignment of ICD-9-CM clinical codes to
+free text radiology reports. Our system as-
+signs a code configuration, predicting one or
+more codes for each document. We com-
+bine three coding systems into a single learn-
+ing system for higher accuracy. We compare
+our system on a real world medical dataset
+with both human annotators and other auto-
+mated systems, achieving nearly the maxi-
+mum score on the Computational Medicine
+Center?s challenge.
+1 

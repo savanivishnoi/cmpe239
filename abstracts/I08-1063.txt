@@ -1,0 +1,24 @@
+ 
+In this paper, we propose a machine    
+learning approach to rhetorical role       
+identification from legal documents. In our 
+approach, we annotate roles in sample 
+documents with the help of legal experts 
+and take them as training data.  Conditional 
+random field model has been trained with 
+the data to perform rhetorical role         
+identification with reinforcement of rich 
+feature sets. The understanding of structure 
+of a legal document and the application of 
+mathematical model can brings out an     
+effective summary in the final stage. Other 
+important new findings in this work         
+include that the training of a model for one 
+sub-domain can be extended to another 
+sub-domains with very limited augmenta-
+tion of feature sets. Moreover, we can     
+significantly improve extraction-based 
+summarization results by modifying the 
+ranking of sentences with the importance 
+of specific roles. 
+1 

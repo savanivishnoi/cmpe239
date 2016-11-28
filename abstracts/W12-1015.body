@@ -1,0 +1,20 @@
+
+Document layout analysis is an important
+task needed for handwritten text recogni-
+tion among other applications. Text lay-
+out commonly found in handwritten legacy
+documents is in the form of one or more
+paragraphs composed of parallel text lines.
+An approach for handwritten text line de-
+tection is presented which uses machine-
+learning techniques and methods widely
+used in natural language processing. It is
+shown that text line detection can be accu-
+rately solved using a formal methodology,
+as opposed to most of the proposed heuris-
+tic approaches found in the literature. Ex-
+perimental results show the impact of us-
+ing increasingly constrained ?vertical lay-
+out language models? in text line detection
+accuracy.
+1 

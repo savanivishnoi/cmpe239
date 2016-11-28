@@ -1,0 +1,30 @@
+ 
+Our goal is to make note-taking easier in 
+meetings by automatically detecting 
+noteworthy utterances in verbal ex-
+changes and suggesting them to meeting 
+participants for inclusion in their notes. 
+To show feasibility of such a process we 
+conducted a Wizard of Oz study where 
+the Wizard picked automatically tran-
+scribed utterances that he judged as 
+noteworthy, and suggested their contents 
+to the participants as notes. Over 9 meet-
+ings, participants accepted 35% of these 
+suggestions. Further, 41.5% of their notes 
+at the end of the meeting contained Wi-
+zard-suggested text. Next, in order to per-
+form noteworthiness detection automati-
+cally, we annotated a set of 6 meetings 
+with a 3-level noteworthiness annotation 
+scheme, which is a break from the binary 
+?in summary?/ ?not in summary? labe-
+ling typically used in speech summariza-
+tion. We report Kappa of 0.44 for the 3-
+way classification, and 0.58 when two of 
+the 3 labels are merged into one. Finally, 
+we trained an SVM classifier on this an-
+notated data; this classifier?s performance 
+lies between that of trivial baselines and 
+inter-annotator agreement.  
+1 

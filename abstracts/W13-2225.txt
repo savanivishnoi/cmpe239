@@ -1,0 +1,15 @@
+
+This paper describes the University of
+Cambridge submission to the Eighth
+Workshop on Statistical Machine Transla-
+tion. We report results for the Russian-
+English translation task. We use mul-
+tiple segmentations for the Russian in-
+put language. We employ the Hadoop
+framework to extract rules. The decoder
+is HiFST, a hierarchical phrase-based de-
+coder implemented using weighted finite-
+state transducers. Lattices are rescored
+with a higher order language model and
+minimum Bayes-risk objective.
+1 

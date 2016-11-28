@@ -1,0 +1,27 @@
+
+Continuous space language models have re-
+cently demonstrated outstanding results across
+a variety of tasks. In this paper, we ex-
+amine the vector-space word representations
+that are implicitly learned by the input-layer
+weights. We find that these representations
+are surprisingly good at capturing syntactic
+and semantic regularities in language, and
+that each relationship is characterized by a
+relation-specific vector offset. This allows
+vector-oriented reasoning based on the offsets
+between words. For example, the male/female
+relationship is automatically learned, and with
+the induced vector representations, ?King -
+Man + Woman? results in a vector very close
+to ?Queen.? We demonstrate that the word
+vectors capture syntactic regularities by means
+of syntactic analogy questions (provided with
+this paper), and are able to correctly answer
+almost 40% of the questions. We demonstrate
+that the word vectors capture semantic regu-
+larities by using the vector offset method to
+answer SemEval-2012 Task 2 questions. Re-
+markably, this method outperforms the best
+previous systems.
+1 

@@ -1,0 +1,16 @@
+
+In this paper we describe our participation
+in the contributed task at ACL Special work-
+shop 2012. We contribute to the goal of en-
+riching the textual content of ACL Anthology
+by identifying the citation contexts in a paper
+and linking them to their corresponding ref-
+erences in the bibliography section. We use
+Parscit, to process the Bibliography of each
+paper. Pattern matching heuristics are then
+used to connect the citations with their ref-
+erences. Furthermore, we prepared a small
+evaluation dataset, to test the efficiency of our
+method. We achieved 95% precision and 80%
+recall on this dataset.
+1 

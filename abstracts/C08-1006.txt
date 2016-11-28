@@ -1,0 +1,36 @@
+ 
+Our goal is to use natural language proc-
+essing to identify deceptive and non-
+deceptive passages in transcribed narra-
+tives.  We begin by motivating an analy-
+sis of language-based deception that 
+relies on specific linguistic indicators to 
+discover deceptive statements.  The indi-
+cator tags are assigned to a document us-
+ing a mix of automated and manual 
+methods.  Once the tags are assigned, an 
+interpreter automatically discriminates 
+between deceptive and truthful state-
+ments based on tag densities.  The texts 
+used in our study come entirely from 
+?real world? sources?criminal state-
+ments, police interrogations and legal tes-
+timony.  The corpus was hand-tagged for 
+the truth value of all propositions that 
+could be externally verified as true or 
+false. Classification and Regression Tree 
+techniques suggest that the approach is 
+feasible, with the model able to identify 
+74.9% of the T/F propositions correctly. 
+Implementation of an automatic tagger 
+with a large subset of tags performed 
+well on test data, producing an average 
+score of 68.6% recall and 85.3% preci-
+                                                          
+ ? 2008. Licensed under the Creative Commons Attri-
+bution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+sion when compared to the performance 
+of human taggers on the same subset.   
+1. 

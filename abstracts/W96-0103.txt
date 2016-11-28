@@ -1,0 +1,318 @@
+ 
+This paper describes a data-driven method for hierarchical clustering of words and 
+clustering of multiword compounds. A large vocabulary of English words (70,000 words) is 
+clustered bottom-up, with respect o corpora ranging in size from 5 million to 50 million 
+words, using mutual information as an objective function. The resulting hierarchical clusters 
+of words are then naturally transformed to a bit-string representation f (i.e. word bits for) 
+all the words in the vocabulary. Evaluation of the word bits is carried out through the 
+measurement of the error rate of the ATR Decision-Tree Part-Of-Speech Tagger. The same 
+clustering technique is then applied to the classification of multiword compounds. In order 
+to avoid the explosion of the number of compounds to be handled, compounds in a small 
+subclass are bundled and treated as a single compound. Another merit of this approach is 
+that we can avoid the data sparseness problem which is ubiquitous in corpus statistics. The 
+quality of one of the obtained compound classes is examined and compared to a conventional 
+approach. 
+1 Introduct ion 
+One of the fundamental issues concerning corpus-based NLP is that we can never expect to 
+know from the training data all the necessary quantitative information for the words that might 
+occur in the test data if the vocabulary is large enough to cope with a real world domain. In 
+view of the effectiveness of class-based n-gram language models against the data sparseness 
+problem (Kneser and Ney 1993, Ueberla 1995), it is expected that classes of words are also 
+useful for NLP tasks in such a way that statistics on classes are used whenever statistics on 
+individual words are unavailable or unreliable. An ideal type of clusters for NLP is the one 
+which guarantees mutual substitutability, in terms of both syntactic and semantic soundness, 
+among words in the same class (Harris 1951, Brill and Marcus 1992). Take, for example, the 
+following sentences. 
+(a) He went to the house by car. 
+(b) He went to the apartment by bus. 
+(c) He went to the ? by ? . 
+(d) He went to the house by the sea. 
+Suppose that we want to parse sentences using a statistical parser and that sentences (a) and 
+(b) appeared in the training and test data, respectively. Since (a) is in the training data, 
+we know that the prepositional phrase by car is attached to the main verb went, not to the 
+noun phrase the house. Sentence (b) is quite similar to (a) in meaning, and identical to (a) in 
+sentence structure. Now if the words apartment and bus are unknown to the parsing system 
+*A part of this work is done when the author was at ATR Interpreting Telecommunications Research Labo- 
+ratories, Kyoto, Japan. 
+28 
+(i.e. never occurred in the training data), then sentence (b) must look to the system very 
+much like (c), and it will be very hard for the parsing system to tell the difference in sentence 
+structure between (c) and (d). However, if the system has access to a predefined set of classes 
+of words, and if car and bus are in the same class, and house and apartme.nt are in another 
+class, it will not be hard for the system to detect he similarity between (a) and (b) and assign 
+the correct sentence structure to (b) without confusing it with (d). The same argument holds 
+for an example-based machine translation system. In that case, an appropriate translation of 
+(b) is expected to be derived with an example translation of (a) if the system has an access 
+to the classes of words. Therefore, it is desirable that we build clustering of the vocabulary in 
+terms of mutual substitutability. 
+Furthermore, clustering is much more useful if the clusters are of variable granularity. Sup- 
+pose, for example, that we have two sets of clusters, one is finer than the other, and that word-1 
+and word-2 are in different finer classes. With finer clusters alone, the amount of information 
+on the association of the two words that the system can obtain from the clusters is minimal. 
+However, if the system has a capability of falling back and checking if they belong to the same 
+coarser class, and if that is the case, then the system can take advantage of the class informa- 
+tion for the two words. When we extend this notion of two-level word clustering to many levels, 
+we will have a tree representation f all the words in the vocabulary in which the root node 
+represents the whole vocabulary and a leaf node represents a word in the vocabulary. Also, 
+any set of nodes in the tree constitutes a partition (or clustering) of the vocabulary if there 
+exists one and only one node in the set alng the path from the root node to each leaf node. 
+In the following sections, we will first describe a method of creating a binary tree repre- 
+sentation of the vocabulary and present results of evaluating and comparing the quality of 
+the clusters obtained from texts of very different sizes. Then we will extend the paradigm of 
+clustering from word-based clustering to compound-based clustering. In the above examples 
+we looked only at the mutual substitutability of words; however, a lot of information can also 
+be gained if we look at the substitutability of word compounds for either other word com- 
+pounds or single words. We will introduce the notion of compound-classes, propose a method 
+for constructing them, and present results of our approach. 
+2 Hierarchical Clustering of Words 
+Several algorithms have been proposed for automatically clustering words based on a large 
+corpus (Jardino and Adda 91, Brown et al 1992, Kneser and Ney 1993, Martin et al 1995, 
+Ueberla 1995). They are classified into two types. One type is based on shuffling words from 
+class to class starting from some initial set of classes. The other type repeats merging classes 
+starting from a set of singleton classes (which contain only one word). Both types are driven by 
+some objective function, in most cases by perplexity or average mutual information. The merit 
+of the second type for the purpose of constructing hierarchical clustering is that we can easily 
+convert he history of the merging process to a tree-structured representation f the vocabulary. 
+On the other hand, the second type is prone to being trapped by a local minimum. The first 
+type is more robust to the local minimum problem, but the quality of classes greatly depends 
+on the initial set of classes, and finding an initial set of good quality is itself a very difficult 
+problem. Moreover, the first approach only provides a means of partitioning the vocabulary 
+and it doesn't provide a way of constructing a hierarchical clustering of words. In this paper 
+we adopt the merging approach and propose an improved method of constructing hierarchical 
+clustering. An attempt is also made to combine the two types of clustering and some results 
+will be shown. The combination is realized by the construction of clusters using the merging 
+method followed by the reshuffling of words from class to class. 
+Our word bits construction algorithm (Ushioda 1996) is a modification and an extension 
+29 
+of the mutual information (MI) clustering algorithm proposed by Brown et al (1992). The 
+reader is referred to (Ushioda 1996) and (Brown et al 1992) for details of MI clustering, but 
+we will first briefly summarize the MI clustering and then describe our hierarchical clustering 
+algorithm. 
+2.1 Mutua l  In fo rmat ion  C lus ter ing  A lgor i thm 
+Suppose we have a text of T words, a vocabulary of V words, and a partition 7r of the vocabulary 
+which is a function from the vocabulary V to the set C of classes of words in the vocabulary. 
+Brown et al showed that the likelihood L(Tr) of a bigram class model generating the text is 
+given by the following formula. 
+L(r) -- -H  -4- I (1) 
+Here H is the entropy of the 1-gram word distribution, and I is the average mutual information 
+(AMI) of adjacent classes in the text and is given by equation 2. 
+F (elc2) 
+I= ~ Pr(clc2)log Pr(cl)Pr(c2) (2) 
+Cl ~C2 
+Since H is independent of r, the partition that maximizes the AMI also maximizes the likelihood 
+L(r) of the text. Therefore, we can use the AMI as an objective function for the construction 
+of classes of words. 
+The mutual information clustering method employs abottum-up merging procedure. In the 
+initial stage, each word is assigned to its own distinct class. We then merge two classes if the 
+merging of them induces minimum AMI reduction among all pairs of classes, and we repeat 
+the merging step until the number of the classes i reduced to the predefined number C. Time 
+complexity of this basic algorithm is O(V s) when implemented straightforwardly, but it can 
+be reduced to O(V 3) by storing the result of all the trial merges at the previous merging step. 
+Even with the O(V 3) algorithm, however, the calculation is not practical for a large vo- 
+cabulary of order 104 or higher. Brown et al proposed the following method, which we also 
+adopted. We first make V singleton classes out of the V words in the vocabulary and arrange 
+the classes in the descending order of frequency, then define the merging region as the first 
+C + 1 positions in the sequence of classes. So initially the C + 1 most frequent words are in 
+the merging region. Then do the following. 
+I. Merge the pair of classes in the merging region merging of which induces minimum AMI 
+reduction among all the pairs in the merging region. 
+2. Put the class in the (C + 2) nd position into the merging region and shift each class after 
+the (C + 2) nd position to its left. 
+3. Repeat I. and 2. until C classes remain. 
+With this algorithm, the time complexity becomes O(C2V) which is practical for a workstation 
+with V in the order of 100,00O and C up to 1,000. 
+2.2 Word  B i t s  Const ruct ion  A lgor i thm 
+The simplest way to construct a tree-structured representation f words is to construct a 
+dendrogram as a byproduct of the merging process, that is, to keep track of the order of merging 
+and make a binary tree out of the record. A simple example with a five word vocabulary is 
+shown in Figure 1. If we apply this method to the above O(C2V) algorithm straightforwardly, 
+however, we obtain for each class an extremely unbalanced, almost left branching subtree. The 
+30 
+Merging History: 
+Merge(A, B -> A) 
+Merge(C, D -> C) 
+Merge(C, E -> C) 
+Merge(A, C -> A) 
+Merge(X,Y->Z) reads 
+"merge X and Y and name 
+the new class as Z" 
+Dendrogram 
+f 
+F 
+Figure 1: Dendrogram Construction 
+reason is that after classes in the merging region are grown to a certain size, it is much less 
+expensive, in terms of AMI, to merge a singleton class with lower frequency into a higher 
+frequency class than merging two higher frequency classes with substantial sizes. 
+A new approach we adopted incorporates the following steps. 
+1. MI-clustering: Make C classes using the mutual information clustering algorithm with 
+the merging region constraint mentioned in (2.1). 
+2. Outer-clustering: Replace all words in the text with their class token 1 and execute binary 
+merging without he merging region constraint until all the classes are merged into a single 
+class. Make a dendrogram out of this process. This dendrogram, Droot, constitutes the 
+upper part of the final tree. 
+3. Inner-clustering: Let {C(1), C(2), ..., C(C)} be the set of the classes obtained at step 1. 
+For each i (1 < i < C) do the following. 
+(a) Replace all words in the text except those in C(i) with their class token. De- 
+fine a new vocabulary V' = V1 U V2, where V1 = {all the words in C(i)}, V2 = 
+{C1,C2, ...,Ci-l,Ci+l,Cc}, and Cj is a token for C(j) for 1 < j _< C. Assign each 
+element in V' to its own class and execute binary merging with a merging constraint 
+such that only those classes which only contain elements of V1 can be merged. This 
+can be done by ordering elements of V' with elements of V1 in the first Ivll positions 
+and keep merging with a merging region whose width is \]Vll initially and decreases 
+by one with each merging step. 
+(b) Repeat merging until all the elements in V1 are put in a single class. 
+Make a dendrogram Dsub out of the merging process for each class. This dendrogram 
+constitutes a subtree for each class with a leaf node representing each word in the class. 
+4 Combine the dendrograms by substituting each leaf node of Droot with the corresponding 
+D sub . 
+This algorithm produces a balanced binary tree representation of words in which those 
+words which are close in meaning or syntactic feature come close in position. Figure 2 shows 
+an example of Dsu b for one class out of 500 classes constructed using this algorithm with a 
+vocabulary of the 70,000 most frequently occurring words in the Wall Street Journal Corpus. 
+Finally, by tracing the path from the root node to a leaf node and assigning a bit to each branch 
+with zero or one representing a left or right branch, respectively, we can assign a bit-string (word 
+bits) to each word in the vocabulary. 
+1In the actual implementation, weonly have to work on the bigram table instead of the whole text. 
+31 
+I I I 
+Figure 2: Sample Subtree for One Class 
+3 Word  C lus ter ing  Exper iments  
+We performed experiments u ing plain texts from six years of the Wall Street Journal Corpus 
+to create clusters and word bits. The sizes of the texts are 5 million words (MW), 10MW, 
+20MW, and 50MW. The vocabulary is selected as the 70,000 most frequently occurring words 
+in the entire corpus. We set the number C of classes to 500. The obtained hierarchical c usters 
+are evaluated via the error rate of the ATR Decision-Tree Part-Of-Speech Tagger. 
+Then as an attempt o combine the two types of clustering methods discussed in Section 
+2, we performed an experiment for incorporating a word-reshuffling process into the word bits 
+construction process. 
+3.1 Dec is ion -Tree  Par t -Of -Speech  Tagg ing  
+The ATR Decision-Tree Part-Of-Speech Tagger is an integrated module of the ATR Decision- 
+Tree Parser which is based on SPATTER (Magerman 1994). The tagger employs a set of 
+441 syntactic tags, which is one order of magnitude larger than that of the University of 
+Pennsylvania Treebank Project. Training texts, test texts, and held-out exts are all sequences 
+of word-tag pairs. In the training phase, a set of events are extracted from the training texts. 
+An event is a set of feature-value pairs or question-answer pairs. A feature can be any attribute 
+of the context in which the current word word(O) appears; it is conveniently expressed as a 
+question. Tagging is performed left to right. Figure 3 shows an example of an event with 
+a current word like. The last pair in the event is a special item which shows the answer, 
+i.e., the correct ag of the current word. The first two lines show questions about identity of 
+words around the current word and tags for previous words. These questions are called basic 
+questions. The second type of questions, word bits questions, are on clusters and word bits such 
+as is the current word in Class 295? or what is the 29th bit of the previous word's word bits?. 
+The third type of questions are called linguist's questions and these are compiled by an expert 
+grammarian. Such questions could concern membership relations of words or sets of words, or 
+morphological features of words. 
+Out of the set of events, a decision tree is constructed. The root node of the decision 
+tree represents the set of all the events with each event containing the correct tag for the 
+corresponding word. Probability distribution of tags for the root node can be obtained by 
+calculating relative frequencies of tags in the set. By asking a value of a specific feature on 
+each event in the set, the set can be split into N subsets where N is the number of possible 
+values for the feature. We can then calculate conditional probability distribution of tags for 
+32 
+Event- 128: 
+{ 
+(word(0), "like" ) (word(-1), "flies" ) (word(-2), "time" } (word(l), "a~" ) (word(2), "arrow" ) 
+(tag(-1), "Verb-3rd-Sg-type3" ) (tag(-2), "Noun-Sg-typel4" ) 
+. . . . . . . . . . .  (Basic Questions) 
+(Inclass?(word(0), Class295), "yes" ) (WordBits(Word(-1), 29), "1" ) 
+(\]sMember?(word(-2), Set("and", or" ,"nor" )), "no" ) 
+(Tag, "Prep-typeS" ) 
+} 
+(WordBits Questions) 
+(IsPrefix?(Word(0), "anti"), "no" ) 
+(Linguist's Questions) 
+Figure 3: Example of an event 
+tl 
+L. t- 
+im 
+g, 
+\[-q 
+26 
+24 
+22 
+20 
+18 
+16 
+14 
+0 
+\[\] WSJ  Text  
+? ATR Corpus  
+t i 
+60 
+Clustering Text Size (Million Words) 
+Figure 4: Tagging Error Rate 
+each subset, conditioned on the feature value. After computing for each feature the entropy 
+reduction incurred by splitting the set, we choose the best feature which yields maximum 
+entropy reduction. By repeating this step and dividing the sets into their subsets we can 
+construct a decision tree whose leaf nodes contain conditional probability distributions of tags. 
+The obtained probability distributions are then smoothed using the held-out data. The reader 
+is referred to (Magerman 1994) for the details of smoothing. In the test phase the system looks 
+up conditional probability distributions of tags for each word in the test text and chooses the 
+most probable tag sequences using beam search. 
+We used WSJ texts and the ATR corpus for the tagging experiment. The WSJ texts are 
+re-tagged manually using the ATR syntactic tag set. The ATR corpus is a comprehensive 
+sampling of Written American English, displaying language use in a very wide range of styles 
+and settings, and compiled from many different domains (Black et al 1996). Since the ATR 
+corpus is still in the process of development, he size of the texts we have at hand for this 
+experiment is rather minimal considering the large size of the tag set. Table 1 shows the 
+sizes of texts used for the experiment. Figure 4 shows the tagging error rates plotted against 
+various clustering text sizes. Out of the three types of questions, basic questions and word bits 
+33 
+Text Size (words) Training Test Held-Out 
+WSJ Text 75,139 5,831 6,534 
+ATR Text 76,132 23,163 6,680 
+Table 1: Texts for Tagging Experiments 
+o 
+iN  
+28 
+2d 
+24 
+2~ 
+2C 
+18 
+16 
+14 
+WSJ Text 
+? Word,Bit 
+@ LingQuest & Word\]3its 
+m I 
+I I  
+12 . . . . .  
+0 10 20 30 40 50 60 
+Cluster ing Text Size (Mi l l ion Words)  
+Figure 5: Comparison of WordBits with LingQuest & WordBits 
+questions are used in this experiment. To see the effect of introducing word bits information 
+into the tagger, we performed a separate xperiment in which a randomly generated bit-string 
+is assigned to each word 2 and basic questions and word bits questions are used. The results are 
+plotted at zero clustering text size. For both WSJ texts and ATR corpus, the tagging error rate 
+dropped by more than 30% when using word bits information extracted from the 5MW text, 
+and increasing the clustering text size further decreases the error rate. At 50MW, the error 
+rate drops by 43%. This shows the improvement of the quality of clusters with increasing size 
+of the clustering text. Overall high error rates are attributed to the very large tag set and the 
+small training set. One notable point in this result is that introducing word bits constructed 
+from WSJ texts is as effective for tagging ATtt texts as it is for tagging WS3 texts even though 
+these texts are from very different domains. To that extent, the obtained hierarchical c usters 
+are considered to be portable across domains. 
+Figure 5 contrasts the tagging results using only word bits against he results with both word 
+bits and linguistic questions 3 for the WS3 text. The zero clustering text size again corresponds 
+~Since a distinctive bit-string is assigned to each word, the tagger also uses the bit-string as an ID number 
+for each word in the process. In this control experiment bit-strings are assigned in a random way, but no two 
+words are assigned the same word bits. Random word bits are expected to give no class information to the 
+tagger except for the identity of words. 
+3The linguistic questions we used here are still in the initial stage of development and are by no means 
+34 
+WSJ Text  
+22q 
+20 
+16 I 
+14i 
+12 
+10 
+0 60 
+l \[\] ? Word.Bits 
+@ ? LingQuest &WordBits 
+,i i i I i I J r i i 
+10 20 30 40 50 
+Clustering Text Size (Million Words) 
+Figure 6: Effects of Reshuffling for Tagging 
+to a randomly generated bit-string. 

@@ -1,0 +1,17 @@
+
+We propose the hypothesis that word ety-
+mology is useful for NLP applications as
+a bridge between languages. We support
+this hypothesis with experiments in cross-
+language (English-Italian) document cat-
+egorization. In a straightforward bag-of-
+words experimental set-up we add etymo-
+logical ancestors of the words in the docu-
+ments, and investigate the performance of
+a model built on English data, on Italian
+test data (and viceversa). The results show
+not only statistically significant, but a large
+improvement ? a jump of almost 40 points
+in F1-score ? over the raw (vanilla bag-of-
+words) representation.
+1 

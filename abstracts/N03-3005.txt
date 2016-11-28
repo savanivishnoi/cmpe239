@@ -1,0 +1,21 @@
+
+This paper presents recent developments of an
+indexing technique aimed at improving parsing
+times. Although several methods exist today
+that serve this purpose, most of them rely on
+statistical data collected during lengthy train-
+ing phases. Our goal is to obtain a reliable
+method that exhibits an optimal efficiency/cost
+ratio, without lengthy training processes. We
+focus here on static analysis of the grammar,
+a method that has unworthily received less at-
+tention in the last few years in computational
+linguistics. The paper is organized as follows:
+first, the parsing and indexing problem are in-
+troduced, followed by a description of the gen-
+eral indexing strategy for chart parsing; sec-
+ond, a detailed overview and performance anal-
+ysis of the indexing technique used for typed-
+feature structure grammars is presented; finally,
+conclusions and future work are outlined.
+1 

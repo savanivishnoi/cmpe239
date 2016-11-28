@@ -1,0 +1,24 @@
+
+We present an unsupervised approach to
+Word Sense Disambiguation (WSD). We
+automatically acquire English sense exam-
+ples using an English-Chinese bilingual
+dictionary, Chinese monolingual corpora
+and Chinese-English machine translation
+software. We then train machine learn-
+ing classifiers on these sense examples
+and test them on two gold standard En-
+glish WSD datasets, one for binary and
+the other for fine-grained sense identifica-
+tion. On binary disambiguation, perfor-
+mance of our unsupervised system has ap-
+proached that of the state-of-the-art super-
+vised ones. On multi-way disambiguation,
+it has achieved a very good result that is
+competitive to other state-of-the-art unsu-
+pervised systems. Given the fact that our
+approach does not rely on manually anno-
+tated resources, such as sense-tagged data
+or parallel corpora, the results are very
+promising.
+1 

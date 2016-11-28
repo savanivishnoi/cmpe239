@@ -1,0 +1,13 @@
+
+We present the Carnegie Mellon University
+Stat-XFER group submission to the WMT
+2011 shared translation task. We built a hy-
+brid syntactic MT system for French?English
+using the Joshua decoder and an automati-
+cally acquired SCFG. New work for this year
+includes training data selection and grammar
+filtering. Expanded training data selection
+significantly increased translation scores and
+lowered OOV rates, while results on grammar
+filtering were mixed.
+1 

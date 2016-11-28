@@ -1,0 +1,19 @@
+
+This paper proposes an approach to en-
+hance dependency parsing in a language
+by using a translated treebank from an-
+other language. A simple statistical ma-
+chine translation method, word-by-word
+decoding, where not a parallel corpus but
+a bilingual lexicon is necessary, is adopted
+for the treebank translation. Using an en-
+semble method, the key information ex-
+tracted from word pairs with dependency
+relations in the translated text is effectively
+integrated into the parser for the target lan-
+guage. The proposed method is evaluated
+in English and Chinese treebanks. It is
+shown that a translated English treebank
+helps a Chinese parser obtain a state-of-
+the-art result.
+1 

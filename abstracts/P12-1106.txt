@@ -1,0 +1,21 @@
+
+An ideal summarization system should pro-
+duce summaries that have high content cov-
+erage and linguistic quality. Many state-of-
+the-art summarization systems focus on con-
+tent coverage by extracting content-dense sen-
+tences from source articles. A current research
+focus is to process these sentences so that they
+read fluently as a whole. The current AE-
+SOP task encourages research on evaluating
+summaries on content, readability, and over-
+all responsiveness. In this work, we adapt
+a machine translation metric to measure con-
+tent coverage, apply an enhanced discourse
+coherence model to evaluate summary read-
+ability, and combine both in a trained regres-
+sion model to evaluate overall responsiveness.
+The results show significantly improved per-
+formance over AESOP 2011 submitted met-
+rics.
+1 

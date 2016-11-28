@@ -1,0 +1,28 @@
+
+Relation extraction is the task of find-
+ing semantic relations between entities
+from text. The state-of-the-art methods
+for relation extraction are mostly based
+on statistical learning, and thus all have
+to deal with feature selection, which can
+significantly affect the classification per-
+formance. In this paper, we systemat-
+ically explore a large space of features
+for relation extraction and evaluate the ef-
+fectiveness of different feature subspaces.
+We present a general definition of fea-
+ture spaces based on a graphic represen-
+tation of relation instances, and explore
+three different representations of relation
+instances and features of different com-
+plexities within this framework. Our ex-
+periments show that using only basic unit
+features is generally sufficient to achieve
+state-of-the-art performance, while over-
+inclusion of complex features may hurt
+the performance. A combination of fea-
+tures of different levels of complexity and
+from different sentence representations,
+coupled with task-oriented feature prun-
+ing, gives the best performance.
+1 

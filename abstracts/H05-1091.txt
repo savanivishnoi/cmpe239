@@ -1,0 +1,15 @@
+
+We present a novel approach to relation
+extraction, based on the observation that
+the information required to assert a rela-
+tionship between two named entities in
+the same sentence is typically captured
+by the shortest path between the two en-
+tities in the dependency graph. Exper-
+iments on extracting top-level relations
+from the ACE (Automated Content Ex-
+traction) newspaper corpus show that the
+new shortest path dependency kernel out-
+performs a recent approach based on de-
+pendency tree kernels.
+1 

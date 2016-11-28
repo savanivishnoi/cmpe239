@@ -1,0 +1,25 @@
+
+Many verbal jokes, like garden path sen-
+tences, pose difficulties to models of dis-
+course since the initially primed interpre-
+tation needs to be discarded and a new one
+created based on subsequent statements.
+The effect of the joke depends on the
+fact that the second (correct) interpretation
+was not visible earlier. Existing models
+of discourse semantics in principle gen-
+erate all interpretations of discourse frag-
+ments and carry these until contradicted,
+and thus the dissonance criteria in humour
+cannot be met. Computationally, main-
+taining all possible worlds in a discourse
+is very inefficient, thus computing only the
+maximum-likelihood interpretation seems
+to be a more efficient choice on average.
+In this work we outline a probabilistic
+lexicon based lexical semantics approach
+which seems to be a reasonable construct
+for discourse in general and use some ex-
+amples from humour to demonstrate its
+working.
+1 

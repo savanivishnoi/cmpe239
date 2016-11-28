@@ -1,0 +1,14 @@
+
+Bayesian approaches have been shown to re-
+duce the amount of overfitting that occurs
+when running the EM algorithm, by placing
+prior probabilities on the model parameters.
+We apply one such Bayesian technique, vari-
+ational Bayes, to the IBM models of word
+alignment for statistical machine translation.
+We show that using variational Bayes im-
+proves the performance of the widely used
+GIZA++ software, as well as improving the
+overall performance of the Moses machine
+translation system in terms of BLEU score.
+1 

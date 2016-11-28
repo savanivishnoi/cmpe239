@@ -1,0 +1,12 @@
+. Our research aims at developing a system that paraphrases
+written language text to spoken language style. In such a system, it is
+important to distinguish between appropriate and inappropriate words
+in an input text for spoken language. We call this task lexical choice
+for paraphrasing. In this paper, we describe a method of lexical choice
+that considers the topic. Basically, our method is based on the word
+probabilities in written and spoken language corpora. The novelty of our
+method is topic adaptation. In our framework, the corpora are classified
+into topic categories, and the probability is estimated using such corpora
+that have the same topic as input text. The result of evaluation showed
+the effectiveness of topic adaptation.
+1 

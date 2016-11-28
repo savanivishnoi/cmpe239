@@ -1,0 +1,13 @@
+
+This paper describes our coreference resolu-
+tion system for the CoNLL-2012 shared task.
+Our system is based on the Stanford?s dcore-
+f deterministic system which applies multiple
+sieves with the order from high precision to
+low precision to generate coreference chains.
+We introduce the newly added constraints and
+sieves and discuss the improvement on the o-
+riginal system. We evaluate the system using
+OntoNotes data set and report our results of
+average F-score 58.25 in the closed track.
+1 

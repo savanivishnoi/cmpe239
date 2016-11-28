@@ -1,0 +1,21 @@
+
+We present an approach to performing auto-
+mated evaluations of pipeline architectures in
+natural language dialogue systems. Our ap-
+proach addresses some of the difficulties that
+arise in such automated evaluations, includ-
+ing the lack of consensus among human an-
+notators about the correct outputs within the
+processing pipeline, the availability of multi-
+ple acceptable system responses to some user
+utterances, and the complex relationship be-
+tween system responses and internal process-
+ing results. Our approach includes the devel-
+opment of a corpus of richly annotated tar-
+get dialogues, simulations of the pipeline pro-
+cessing that could occur in these dialogues,
+and an analysis of how system responses vary
+based on internal processing results within the
+pipeline. We illustrate our approach in two im-
+plemented virtual human dialogue systems.
+1 

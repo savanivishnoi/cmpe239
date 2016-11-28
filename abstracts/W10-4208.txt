@@ -1,0 +1,19 @@
+ 
+In this paper, we propose a general way of con-
+structing an NLG system that permits the system-
+atic exploration of the effects of particular system 
+choices on output quality. We call a system devel-
+oped according to this model a Programmable In-
+strumented Generator (PIG). Although a PIG could 
+be designed and implemented from scratch, it is 
+likely that researchers would also want to create 
+PIGs based on existing systems. We therefore pro-
+pose an approach to ?instrumenting? an NLG sys-
+tem so as to make it PIG-like. To experiment with 
+the idea, we have produced code to support the 
+?instrumenting? of any NLG system written in 
+Java. We report on initial experiments with ?in-
+strumenting? two existing systems and attempting 
+to ?tune? them to produce text satisfying complex 
+stylistic constraints. 
+1 

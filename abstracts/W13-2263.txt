@@ -1,0 +1,19 @@
+
+We propose a novel unsupervised word
+alignment model based on the Hidden
+Markov Tree (HMT) model. Our model
+assumes that the alignment variables have
+a tree structure which is isomorphic to the
+target dependency tree and models the dis-
+tortion probability based on the source de-
+pendency tree, thereby incorporating the
+syntactic structure from both sides of the
+parallel sentences. In English-Japanese
+word alignment experiments, our model
+outperformed an IBM Model 4 baseline
+by over 3 points alignment error rate.
+While our model was sensitive to poste-
+rior thresholds, it also showed a perfor-
+mance comparable to that of HMM align-
+ment models.
+1 

@@ -1,0 +1,21 @@
+
+We propose a method that automat-
+ically generates paraphrase sets from
+seed sentences to be used as refer-
+ence sets in objective machine trans-
+lation evaluation measures like BLEU
+and NIST. We measured the quality
+of the paraphrases produced in an ex-
+periment, i.e., (i) their grammatical-
+ity: at least 99% correct sentences;
+(ii) their equivalence in meaning: at
+least 96% correct paraphrases either
+by meaning equivalence or entailment;
+and, (iii) the amount of internal lexi-
+cal and syntactical variation in a set of
+paraphrases: slightly superior to that
+of hand-produced sets. The paraphrase
+sets produced by this method thus seem
+adequate as reference sets to be used for
+MT evaluation.
+1 

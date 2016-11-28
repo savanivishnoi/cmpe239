@@ -1,0 +1,18 @@
+
+Text representation is a central task for any ap-
+proach to automatic learning from texts. It re-
+quires a format which allows to interrelate texts
+even if they do not share content words, but
+deal with similar topics. Furthermore, measur-
+ing text similarities raises the question of how
+to organize the resulting clusters. This paper
+presents cohesion trees (CT) as a data structure
+for the perspective, hierarchical organization of
+text corpora. CTs operate on alternative text
+representation models taking lexical organiza-
+tion, quantitative text characteristics, and text
+structure into account. It is shown that CTs
+realize text linkages which are lexically more
+homogeneous than those produced by minimal
+spanning trees.
+1 

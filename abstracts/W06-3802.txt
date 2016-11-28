@@ -1,0 +1,27 @@
+ 
+Classification techniques deploy supervised 
+labeled instances to train classifiers for 
+various classification problems. However 
+labeled instances are limited, expensive, 
+and time consuming to obtain, due to the 
+need of experienced human annotators.  
+Meanwhile large amount of unlabeled data 
+is usually easy to obtain. Semi-supervised 
+learning addresses the problem of utilizing 
+unlabeled data along with supervised la-
+beled data, to build better classifiers.  In 
+this paper we introduce a semi-supervised 
+approach based on mutual reinforcement in 
+graphs to obtain more labeled data to en-
+hance the classifier accuracy. The approach 
+has been used to supplement a maximum 
+entropy model for semi-supervised training 
+of the ACE Relation Detection and Charac-
+terization (RDC) task. ACE RDC is con-
+sidered a hard task in information 
+extraction due to lack of large amounts of 
+training data and inconsistencies in the 
+available data. The proposed approach pro-
+vides 10% relative improvement over the 
+state of the art supervised baseline system. 
+1 

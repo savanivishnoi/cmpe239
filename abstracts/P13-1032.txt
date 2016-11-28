@@ -1,0 +1,13 @@
+
+In this paper, we propose a novel re-
+ordering model based on sequence label-
+ing techniques. Our model converts the
+reordering problem into a sequence label-
+ing problem, i.e. a tagging task. Results
+on five Chinese-English NIST tasks show
+that our model improves the baseline sys-
+tem by 1.32 BLEU and 1.53 TER on av-
+erage. Results of comparative study with
+other seven widely used reordering mod-
+els will also be reported.
+1 

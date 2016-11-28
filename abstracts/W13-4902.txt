@@ -1,0 +1,18 @@
+
+We present the first statistical dependency
+parsing results for Lithuanian, a morpholog-
+ically rich language in the Baltic branch of
+the Indo-European family. Using a greedy
+transition-based parser, we obtain a labeled at-
+tachment score of 74.7 with gold morphology
+and 68.1 with predicted morphology (77.8 and
+72.8 unlabeled). We investigate the usefulness
+of different features and find that rich morpho-
+logical features improve parsing accuracy sig-
+nificantly, by 7.5 percentage points with gold
+features and 5.6 points with predicted features.
+As expected, CASE is the single most impor-
+tant morphological feature, but virtually all
+available features bring some improvement,
+especially under the gold condition.
+1 

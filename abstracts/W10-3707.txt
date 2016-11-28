@@ -1,0 +1,27 @@
+ 
+Data preprocessing plays a crucial role in 
+phrase-based statistical machine transla-
+tion (PB-SMT). In this paper, we show 
+how single-tokenization of two types of 
+multi-word expressions (MWE), namely 
+named entities (NE) and compound 
+verbs, as well as their prior alignment 
+can boost the performance of PB-SMT. 
+Single-tokenization of compound verbs 
+and named entities (NE) provides sig-
+nificant gains over the baseline PB-SMT 
+system. Automatic alignment of NEs 
+substantially improves the overall MT 
+performance, and thereby the word 
+alignment quality indirectly. For estab-
+lishing NE alignments, we transliterate 
+source NEs into the target language and 
+then compare them with the target NEs. 
+Target language NEs are first converted 
+into a canonical form before the com-
+parison takes place. Our best system 
+achieves statistically significant im-
+provements (4.59 BLEU points absolute, 
+52.5% relative improvement) on an Eng-
+lish?Bangla translation task. 
+1 

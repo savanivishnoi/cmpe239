@@ -1,0 +1,13 @@
+
+We investigate a way to partially automate
+corpus annotation for named entity recogni-
+tion, by requiring only binary decisions from
+an annotator. Our approach is based on a lin-
+ear sequence model trained using a k-best
+MIRA learning algorithm. We ask an an-
+notator to decide whether each mention pro-
+duced by a high recall tagger is a true men-
+tion or a false positive. We conclude that our
+approach can reduce the effort of extending
+a seed training corpus by up to 58%.
+1 

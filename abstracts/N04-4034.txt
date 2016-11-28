@@ -1,0 +1,21 @@
+
+In conventional language modeling, the words
+from only one speaker at a time are repre-
+sented, even for conversational tasks such as
+meetings and telephone calls. In a conversa-
+tional or meeting setting, however, speakers
+can have significant influence on each other.
+To recover such un-modeled inter-speaker in-
+formation, we introduce an approach for con-
+versational language modeling that considers
+words from other speakers when predicting
+words from the current one. By augmenting a
+normal trigram context, our new multi-speaker
+language model (MSLM) improves on both
+Switchboard and ICSI Meeting Recorder cor-
+pora. Using an MSLM and a conditional mu-
+tual information based word clustering algo-
+rithm, we achieve a 8.9% perplexity reduction
+on Switchboard and a 12.2% reduction on the
+ICSI Meeting Recorder data.
+1 

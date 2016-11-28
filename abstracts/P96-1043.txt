@@ -1,0 +1,16 @@
+ 
+Words unknown to the lexicon present a 
+substantial problem to part-of-speech tag- 
+ging. In this paper we present a technique 
+for fully unsupervised statistical acquisi- 
+tion of rules which guess possible parts- 
+of-speech for unknown words. Three com- 
+plementary sets of word-guessing rules are 
+induced from the lexicon and a raw cor- 
+pus: prefix morphological rules, suffix mor- 
+phological rules and ending-guessing rules. 
+The learning was performed on the Brown 
+Corpus data and rule-sets, with a highly 
+competitive performance, were produced 
+and compared with the state-of-the-art. 
+1 

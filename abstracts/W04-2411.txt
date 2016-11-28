@@ -1,0 +1,23 @@
+
+Semantic similarity measures have focused on
+individual word senses. However, in many ap-
+plications, it may be informative to compare
+the overall sense distributions for two differ-
+ent contexts. We propose a new method for
+comparing two probability distributions over
+WordNet, which captures in a single measure
+the aggregate semantic distance of the com-
+ponent nodes, weighted by their probability.
+Previous such measures compute only the dis-
+tributional distance, and do not take into ac-
+count the semantic similarity between Word-
+Net senses across the distributions. To in-
+corporate semantic similarity, we calculate the
+(dis)similarity between two probability distri-
+butions as a weighted distance ?travelled? from
+one to the other through the WordNet hierar-
+chy. We evaluate the measure by applying it
+to the acquisition of verb argument alternation
+knowledge, and find that overall it outperforms
+existing distance measures.
+1 

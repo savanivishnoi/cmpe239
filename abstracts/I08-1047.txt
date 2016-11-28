@@ -1,0 +1,24 @@
+ 
+We propose a method for learning semantic 
+categories of words with minimal supervi-
+sion from web search query logs. Our me-
+thod is based on the Espresso algorithm 
+(Pantel and Pennacchiotti, 2006) for ex-
+tracting binary lexical relations, but makes 
+important modifications to handle query 
+log data for the task of acquiring semantic 
+categories. We present experimental results 
+comparing our method with two state-of-
+the-art minimally supervised lexical know-
+ledge extraction systems using Japanese 
+query log data, and show that our method 
+achieves higher precision than the pre-
+viously proposed methods. We also show 
+that the proposed method offers an addi-
+tional advantage for knowledge acquisition 
+in an Asian language for which word seg-
+mentation is an issue, as the method utiliz-
+es no prior knowledge of word segmenta-
+tion, and is able to harvest new terms with 
+correct word segmentation.  
+1 

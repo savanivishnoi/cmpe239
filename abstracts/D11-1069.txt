@@ -1,0 +1,20 @@
+
+This research studies the text genre of mes-
+sage board forums, which contain a mix-
+ture of expository sentences that present fac-
+tual information and conversational sentences
+that include communicative acts between the
+writer and readers. Our goal is to create
+sentence classifiers that can identify whether
+a sentence contains a speech act, and can
+recognize sentences containing four different
+speech act classes: Commissives, Directives,
+Expressives, and Representatives. We con-
+duct experiments using a wide variety of fea-
+tures, including lexical and syntactic features,
+speech act word lists from external resources,
+and domain-specific semantic class features.
+We evaluate our results on a collection of mes-
+sage board posts in the domain of veterinary
+medicine.
+1 

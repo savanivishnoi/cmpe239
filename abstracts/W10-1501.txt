@@ -1,0 +1,23 @@
+
+In this paper we introduce the first version
+of noWaC, a large web-based corpus of Bok-
+m?l Norwegian currently containing about
+700 million tokens. The corpus has been
+built by crawling, downloading and process-
+ing web documents in the .no top-level in-
+ternet domain. The procedure used to col-
+lect the noWaC corpus is largely based on
+the techniques described by Ferraresi et al
+(2008). In brief, first a set of ?seed? URLs
+containing documents in the target language
+is collected by sending queries to commer-
+cial search engines (Google and Yahoo). The
+obtained seeds (overall 6900 URLs) are then
+used to start a crawling job using the Heritrix
+web-crawler limited to the .no domain. The
+downloaded documents are then processed in
+various ways in order to build a linguistic cor-
+pus (e.g. filtering by document size, language
+identification, duplicate and near duplicate de-
+tection, etc.).
+1 

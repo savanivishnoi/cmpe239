@@ -1,0 +1,23 @@
+
+Learning of new words is assisted by contex-
+tual information. This context can come in
+several forms, including observations in non-
+linguistic semantic domains, as well as the lin-
+guistic context in which the new word was pre-
+sented. We outline a general architecture for
+word learning, in which structural alignment
+coordinates this contextual information in or-
+der to restrict the possible interpretations of un-
+known words. We identify spatial relations as
+an applicable semantic domain, and describe a
+system-in-progress for implementing the gen-
+eral architecture using video sequences as our
+non-linguistic input. For example, when the
+complete system is presented with ?The bird
+dove to the rock,? with a video sequence of a
+bird flying from a tree to a rock, and with the
+meanings for all the words except the preposi-
+tion ?to,? the system will register the unknown
+?to? with the corresponding aspect of the bird?s
+trajectory.
+1 

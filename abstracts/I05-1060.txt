@@ -1,0 +1,9 @@
+. Katakana, Japanese phonogram mainly used for loan words, is a 
+trou-blemaker in Japanese word segmentation. Since Katakana words are heavily 
+domain-dependent and there are many Katakana neologisms, it is almost 
+impossible to construct and maintain Katakana word dictionary by hand. This 
+paper proposes an automatic segmentation method of Japanese Katakana 
+compounds, which makes it possible to construct precise and concise Katakana 
+word dictionary automati-cally, given only a medium or large size of Japanese 
+corpus of some domain. 
+1   

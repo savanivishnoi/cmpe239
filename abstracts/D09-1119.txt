@@ -1,0 +1,25 @@
+
+We use the technique of SVM anchoring to
+demonstrate that lexical features extracted
+from a training corpus are not necessary to
+obtain state of the art results on tasks such
+as Named Entity Recognition and Chunk-
+ing. While standard models require as
+many as 100K distinct features, we derive
+models with as little as 1K features that
+perform as well or better on different do-
+mains. These robust reduced models in-
+dicate that the way rare lexical features
+contribute to classification in NLP is not
+fully understood. Contrastive error analy-
+sis (with and without lexical features) in-
+dicates that lexical features do contribute
+to resolving some semantic and complex
+syntactic ambiguities ? but we find this
+contribution does not generalize outside
+the training corpus. As a general strat-
+egy, we believe lexical features should not
+be directly derived from a training corpus
+but instead, carefully inferred and selected
+from other sources.
+1 

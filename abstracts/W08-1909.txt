@@ -1,0 +1,41 @@
+ 
+ETAP-3 is a system of machine 
+translation consisting of various types of 
+rules and dictionaries. Those dictionaries, 
+being created especially for NLP system, 
+provide for every lexeme not only data 
+about its characteristics as a separate 
+item, but also different types of 
+information about its syntactic and 
+semantic links to other lexemes.  
+The paper shows how the information 
+about certain types of semantic links 
+between lexemes represented in the 
+dictionaries can be used in a machine 
+translation system. The paper deals with 
+correspondences between lexical-
+functional constructions of different types 
+in the Russian and the English languages.  
+Lexical-functional construction is a 
+word-combination consisting of an 
+argument of a lexical function and a value 
+of this lexical function for this argument.  
+The paper describes the cases when a 
+lexical functional construction in one of 
+these languages corresponds to a lexical-
+functional construction in the other 
+language, but lexical functions 
+represented by these two constructions 
+are different. The paper lists different 
+types of correspondences and gives the 
+reasons for their existence. It also shows 
+how the information about these 
+correspondences can be used to improve 
+the work of the linguistic component of 
+the machine translation system ETAP-3. 
+                                                          
+? 2008. Licensed under the Creative Commons 
+Attribution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+1 

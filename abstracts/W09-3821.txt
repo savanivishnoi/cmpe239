@@ -1,0 +1,25 @@
+
+We present a semi-supervised method to
+improve statistical parsing performance.
+We focus on the well-known problem of
+lexical data sparseness and present exper-
+iments of word clustering prior to pars-
+ing. We use a combination of lexicon-
+aided morphological clustering that pre-
+serves tagging ambiguity, and unsuper-
+vised word clustering, trained on a large
+unannotated corpus. We apply these clus-
+terings to the French Treebank, and we
+train a parser with the PCFG-LA unlex-
+icalized algorithm of (Petrov et al, 2006).
+We find a gain in French parsing perfor-
+mance: from a baseline of F1=86.76% to
+F1=87.37% using morphological cluster-
+ing, and up to F1=88.29% using further
+unsupervised clustering. This is the best
+known score for French probabilistic pars-
+ing. These preliminary results are encour-
+aging for statistically parsing morpholog-
+ically rich languages, and languages with
+small amount of annotated data.
+1 

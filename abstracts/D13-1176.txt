@@ -1,0 +1,24 @@
+
+We introduce a class of probabilistic con-
+tinuous translation models called Recur-
+rent Continuous Translation Models that are
+purely based on continuous representations
+for words, phrases and sentences and do not
+rely on alignments or phrasal translation units.
+The models have a generation and a condi-
+tioning aspect. The generation of the transla-
+tion is modelled with a target Recurrent Lan-
+guage Model, whereas the conditioning on the
+source sentence is modelled with a Convolu-
+tional Sentence Model. Through various ex-
+periments, we show first that our models ob-
+tain a perplexity with respect to gold transla-
+tions that is > 43% lower than that of state-
+of-the-art alignment-based translation models.
+Secondly, we show that they are remarkably
+sensitive to the word order, syntax, and mean-
+ing of the source sentence despite lacking
+alignments. Finally we show that they match a
+state-of-the-art system when rescoring n-best
+lists of translations.
+1 

@@ -1,0 +1,19 @@
+
+In this paper we develop a story genera-
+tor that leverages knowledge inherent in
+corpora without requiring extensive man-
+ual involvement. A key feature in our ap-
+proach is the reliance on a story planner
+which we acquire automatically by record-
+ing events, their participants, and their
+precedence relationships in a training cor-
+pus. Contrary to previous work our system
+does not follow a generate-and-rank archi-
+tecture. Instead, we employ evolutionary
+search techniques to explore the space of
+possible stories which we argue are well
+suited to the story generation task. Experi-
+ments on generating simple children?s sto-
+ries show that our system outperforms pre-
+vious data-driven approaches.
+1 

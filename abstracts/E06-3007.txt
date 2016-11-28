@@ -1,0 +1,13 @@
+
+This paper presents a way in which a lex-
+icalised HPSG grammar can handle word
+order constraints in a computational pars-
+ing system, without invoking an additional
+layer of representation for word order,
+such as Reape?s Word Order Domain. The
+key proposal is to incorporate into lexi-
+cal heads the WOC (Word Order Con-
+straints) feature, which is used to constrain
+the word order of its projection. We also
+overview our parsing algorithm.
+1 

@@ -1,0 +1,17 @@
+
+We present an approach to time normalization
+(e.g. the day before yesterday?2013-04-12)
+based on a synchronous context free grammar.
+Synchronous rules map the source language
+to formally defined operators for manipulat-
+ing times (FINDENCLOSED, STARTATENDOF,
+etc.). Time expressions are then parsed using
+an extended CYK+ algorithm, and converted
+to a normalized form by applying the opera-
+tors recursively. For evaluation, a small set
+of synchronous rules for English time expres-
+sions were developed. Our model outperforms
+HeidelTime, the best time normalization sys-
+tem in TempEval 2013, on four different time
+normalization corpora.
+1 

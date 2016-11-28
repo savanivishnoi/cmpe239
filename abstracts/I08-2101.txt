@@ -1,0 +1,22 @@
+ 
+Abstract. In this paper, a new multi-
+document multi-lingual text summarization 
+technique, based on singular value decom-
+position and hierarchical clustering, is pro-
+posed. The proposed approach relies on 
+only two resources for any language: a 
+word segmentation system and a dictionary 
+of words along with their document fre-
+quencies. The summarizer initially takes a 
+collection of related documents, and trans-
+forms them into a matrix; it then applies 
+singular value decomposition to the re-
+sulted matrix.  After using a binary hierar-
+chical clustering algorithm, the most im-
+portant sentences of the most important 
+clusters form the summary. The appropri-
+ate place of each chosen sentence is deter-
+mined by a novel technique.  The system 
+has been successfully tested on summariz-
+ing several Persian document collections. 
+1 

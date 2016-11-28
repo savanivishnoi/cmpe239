@@ -1,0 +1,16 @@
+. Research on linear text segmentation has been an on-going focus in 
+NLP for the last decade, and it has great potential for a wide range of 
+applications such as document summarization, information retrieval and text 
+understanding. However, for linear text segmentation, there are two critical 
+problems involving automatic boundary detection and automatic determination 
+of the number of segments in a document. In this paper, we propose a new 
+domain-independent statistical model for linear text segmentation. In our 
+model, Multiple Discriminant Analysis (MDA) criterion function is used to 
+achieve global optimization in finding the best segmentation by means of the 
+largest word similarity within a segment and the smallest word similarity 
+between segments. To alleviate the high computational complexity problem 
+introduced by the model, genetic algorithms (GAs) are used. Comparative 
+experimental results show that our method based on MDA criterion functions 
+has achieved higher Pk measure (Beeferman) than that of the baseline system 
+using TextTiling algorithm. 
+1   

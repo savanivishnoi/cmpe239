@@ -1,0 +1,22 @@
+ 
+In this paper we discuss morpho-syntactic 
+clues that can be used to facilitate termi-
+nological processing in Serbian. A 
+method (called SRCE) for automatic ex-
+traction of multiword terms is presented. 
+The approach incorporates a set of ge-
+neric morpho-syntactic filters for recogni-
+tion of term candidates, a method for 
+conflation of morphological variants and 
+a module for foreign word recognition. 
+Morpho-syntactic filters describe general 
+term formation patterns, and are imple-
+mented as generic regular expressions. 
+The inner structure together with the 
+agreements within term candidates are 
+used as clues to discover the boundaries 
+of nested terms. The results of the termi-
+nological processing of a textbook corpus 
+in the domains of mathematics and com-
+puter science are presented.  
+1 

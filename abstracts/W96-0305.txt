@@ -1,0 +1,15 @@
+ 
+This paper describes a heuristic algorithm capable of automatically assigning a label to 
+each of the senses in a machine readable dictionary (MRD) for the purpose of acquiring a com- 
+putational-semantic lexicon for treatment of lexical ambiguity. Including these labels in the 
+MRD-based lexical database offers several positive ffects. The labels can be used as a coarser 
+sense division so unnecessarily fine sense distinction can be avoided in word sense disambigu- 
+ation (WSD).The algorithm is based primarily on simple word matching between an MRD defi- 
+nition sentence and word lists of an LLOCE topic. We also describe an implementation f the 
+algorithm for labeling definition sentences in Longman Dictionary of Contemporary English 
+(LDOCE). For this purpose the topics and sets of related words in Longman Lexicon of Con- 
+temporary English (LLOCE) are used in this work. Quantitative r sults for a 12-word test set 
+are reported. Our discussion entails how the availability of these labels provides the means for 
+treating such problems as: acquisition of a lexicon capable of providing broad coverage, sys- 
+tematic word sense shifts, lexical underspecification, and acquisition of zero-derivatives. 
+1. 

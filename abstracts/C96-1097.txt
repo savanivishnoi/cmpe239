@@ -1,0 +1,30 @@
+ 
+In order to extract rigid expressions with a high fre- 
+quency of use, new algorithm that can efficiently extract 
+both uninterrupted and interrupted collocations from very 
+large corpora has been proposed. 
+The statistical method recently proposed for calculating 
+N-gram of m'bitrary N can be applied to the extraction of 
+uninterrupted collocations. But this method posed pro- 
+blems that so large volumes of fractional and unnecessary 
+expressions are extracted that it was impossible to extract 
+interrupted collocations combining the results. To solve 
+this problem, this paper proposed a new algorithm that 
+restrains extraction of unnecessary substrings. This is 
+followed by the proposal of a method that enable to extract 
+interrupted collocations. 
+The new methods are applied to Japanese newspaper 
+articles involving 8.92 million characters. In the case of 
+uninterrupted collocations with string length of 2 or mere 
+characters and frequency of appearance 2 or more times, 
+there were 4.4 millions types of expressions (total fre- 
+quency of 31.2 millions times) extracted by the N-gram 
+method. In contrast, the new method has reduced this to 
+0.97 million types (total frequency of 2.6 million times) 
+revealing a substantial reduction in fractional and un- 
+necessary expressions. In the case of interrupted collo- 
+cational substring extraction, combining the substring with 
+frequency of 10 times or more extracted by the first 
+method, 6.5 thousand types of pairs of substrings with the 
+total frequency of 21.8 thousands were extracted. 
+I. 

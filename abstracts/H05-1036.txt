@@ -1,0 +1,10 @@
+
+Weighted deduction with aggregation is a powerful theoretical
+formalism that encompasses many NLP algorithms. This pa-
+per proposes a declarative specification language, Dyna; gives
+general agenda-based algorithms for computing weights and
+gradients; briefly discusses Dyna-to-Dyna program transforma-
+tions; and shows that a first implementation of a Dyna-to-C++
+compiler produces code that is efficient enough for real NLP re-
+search, though still several times slower than hand-crafted code.
+1 

@@ -1,0 +1,27 @@
+ 
+Character-based tagging method has 
+achieved great success in Chinese Word 
+Segmentation (CWS). This paper 
+proposes a new approach to improve the 
+CWS tagging accuracy by structured 
+support vector machine (SVM) 
+utilization of unlabeled text corpus. First, 
+character N-grams in unlabeled text 
+corpus are mapped into low-dimensional 
+space by adopting SOM algorithm. Then 
+new features extracted from these maps 
+and another kind of feature based on 
+entropy for each N-gram are integrated 
+into the structured SVM methods for 
+CWS. We took part in two tracks of the 
+Word Segmentation for Simplified 
+Chinese Text in bakeoff-2010: Closed 
+track and Open track. The test corpora 
+cover four domains: Literature, 
+Computer Science, Medicine and 
+Finance. Our system achieved good 
+performance, especially in the open 
+track on the domain of medicine, our 
+system got the highest score among 18 
+systems. 
+1 

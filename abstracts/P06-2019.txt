@@ -1,0 +1,17 @@
+
+The ability to compress sentences while
+preserving their grammaticality and most
+of their meaning has recently received
+much attention. Our work views sentence
+compression as an optimisation problem.
+We develop an integer programming for-
+mulation and infer globally optimal com-
+pressions in the face of linguistically moti-
+vated constraints. We show that such a for-
+mulation allows for relatively simple and
+knowledge-lean compression models that
+do not require parallel corpora or large-
+scale resources. The proposed approach
+yields results comparable and in some
+cases superior to state-of-the-art.
+1 

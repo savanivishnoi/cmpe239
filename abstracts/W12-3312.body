@@ -1,0 +1,27 @@
+
+Automatically constructing knowledge bases
+from online resources has become a crucial
+task in many research areas. Most existing
+knowledge bases are built from English re-
+sources, while few efforts have been made for
+other languages. Building knowledge bases
+for Chinese is of great importance on its own
+right. However, simply adapting existing tool-
+s from English to Chinese yields inferior re-
+sults.In this paper, we propose to create Chi-
+nese knowledge bases from online resources
+with less human involvement.This project will
+be formulated in a self-supervised framework
+which requires little manual work to extrac-
+t knowledge facts from online encyclopedia
+resources in a probabilistic view.In addition,
+this framework will be able to update the con-
+structed knowledge base with knowledge facts
+extracted from up-to-date newswire.Currently,
+we have obtained encouraging results in our
+pilot experiments that extracting knowledge
+facts from infoboxes can achieve a high accu-
+racy of around 95%, which will be then used
+as training data for the extraction of plain web-
+pages.
+1 

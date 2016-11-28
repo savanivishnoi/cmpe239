@@ -1,0 +1,31 @@
+
+Spoken dialogue is notoriously hard to
+process with standard NLP technologies.
+Natural spoken dialogue is replete with
+disfluent, partial, elided or ungrammatical
+utterances, all of which are very hard to
+accommodate in a dialogue system. Fur-
+thermore, speech recognition is known to
+be a highly error-prone task, especially for
+complex, open-ended discourse domains.
+The combination of these two problems
+? ill-formed and/or misrecognised speech
+inputs ? raises a major challenge to the de-
+velopment of robust dialogue systems.
+We present an integrated approach for ad-
+dressing these two issues, based on a in-
+cremental parser for Combinatory Cate-
+gorial Grammar. The parser takes word
+lattices as input and is able to handle ill-
+formed and misrecognised utterances by
+selectively relaxing its set of grammati-
+cal rules. The choice of the most rele-
+vant interpretation is then realised via a
+discriminative model augmented with con-
+textual information. The approach is fully
+implemented in a dialogue system for au-
+tonomous robots. Evaluation results on a
+Wizard of Oz test suite demonstrate very
+significant improvements in accuracy and
+robustness compared to the baseline.
+1 

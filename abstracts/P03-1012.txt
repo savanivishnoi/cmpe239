@@ -1,0 +1,13 @@
+
+Word alignment plays a crucial role in sta-
+tistical machine translation. Word-aligned
+corpora have been found to be an excellent
+source of translation-related knowledge.
+We present a statistical model for comput-
+ing the probability of an alignment given a
+sentence pair. This model allows easy in-
+tegration of context-specific features. Our
+experiments show that this model can be
+an effective tool for improving an existing
+word alignment.
+1 

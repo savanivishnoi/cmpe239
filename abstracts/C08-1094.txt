@@ -1,0 +1,18 @@
+
+In this paper, we consider classifying word
+positions by whether or not they can either
+start or end multi-word constituents. This
+provides a mechanism for ?closing? chart
+cells during context-free inference, which
+is demonstrated to improve efficiency and
+accuracy when used to constrain the well-
+known Charniak parser. Additionally, we
+present a method for ?closing? a sufficient
+number of chart cells to ensure quadratic
+worst-case complexity of context-free in-
+ference. Empirical results show that this
+O(n
+2
+) bound can be achieved without im-
+pacting parsing accuracy.
+1 

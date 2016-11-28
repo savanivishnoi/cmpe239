@@ -1,0 +1,24 @@
+
+This paper proposes a new method for ap-
+proximate string search, specifically candidate
+generation in spelling error correction, which
+is a task as follows. Given a misspelled word,
+the system finds words in a dictionary, which
+are most ?similar? to the misspelled word.
+The paper proposes a probabilistic approach to
+the task, which is both accurate and efficient.
+The approach includes the use of a log linear
+model, a method for training the model, and
+an algorithm for finding the top k candidates.
+The log linear model is defined as a condi-
+tional probability distribution of a corrected
+word and a rule set for the correction con-
+ditioned on the misspelled word. The learn-
+ing method employs the criterion in candidate
+generation as loss function. The retrieval al-
+gorithm is efficient and is guaranteed to find
+the optimal k candidates. Experimental re-
+sults on large scale data show that the pro-
+posed approach improves upon existing meth-
+ods in terms of accuracy in different settings.
+1 

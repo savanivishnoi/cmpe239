@@ -1,0 +1,8 @@
+
+We describe finite-state constraint relaxation, a method for ap-
+plying global constraints, expressed as automata, to sequence
+model decoding. We present algorithms for both hard con-
+straints and binary soft constraints. On the CoNLL-2004 se-
+mantic role labeling task, we report a speedup of at least 16x
+over a previous method that used integer linear programming.
+1 

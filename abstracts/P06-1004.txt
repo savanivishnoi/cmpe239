@@ -1,0 +1,12 @@
+
+We consider the task of unsupervised lec-
+ture segmentation. We formalize segmen-
+tation as a graph-partitioning task that op-
+timizes the normalized cut criterion. Our
+approach moves beyond localized com-
+parisons and takes into account long-
+range cohesion dependencies. Our results
+demonstrate that global analysis improves
+the segmentation accuracy and is robust in
+the presence of speech recognition errors.
+1 

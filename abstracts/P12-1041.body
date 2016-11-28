@@ -1,0 +1,15 @@
+
+To address semantic ambiguities in corefer-
+ence resolution, we use Web n-gram features
+that capture a range of world knowledge in a
+diffuse but robust way. Specifically, we ex-
+ploit short-distance cues to hypernymy, se-
+mantic compatibility, and semantic context, as
+well as general lexical co-occurrence. When
+added to a state-of-the-art coreference base-
+line, our Web features give significant gains on
+multiple datasets (ACE 2004 and ACE 2005)
+and metrics (MUC and B3), resulting in the
+best results reported to date for the end-to-end
+task of coreference resolution.
+1 

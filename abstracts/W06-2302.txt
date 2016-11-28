@@ -1,0 +1,22 @@
+
+In this paper we will present an evaluation of
+current state-of-the-art algorithms for Anaphora
+Resolution based on a segment of Susanne
+corpus (itself a portion of Brown Corpus), a
+much more comparable text type to what is
+usually required at an international level for
+s u c h a p p l i c a t i o n d o m a i n s a s
+Question/Answering, Information Extraction,
+Text Understanding, Language Learning. The
+portion of text chosen has an adequate size
+which lends itself to significant statistical
+measurements: it is portion A, counting 35,000
+tokens and some 1000 third person pronominal
+expressions. The algorithms will then be
+compared to our system, GETARUNS, which
+incorporates an AR algorithm at the end of a
+pipeline of interconnected modules that
+instantiate standard architectures for NLP. F-
+measure values reached by our system are
+significantly higher (75%) than the other ones.
+1 

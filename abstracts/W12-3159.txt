@@ -1,0 +1,25 @@
+
+Minimum error rate training is often the pre-
+ferred method for optimizing parameters of
+statistical machine translation systems. MERT
+minimizes error rate by using a surrogate rep-
+resentation of the search space, such as N -
+best lists or hypergraphs, which only offer
+an incomplete view of the search space. In
+our work, we instead minimize error rate di-
+rectly by integrating the decoder into the min-
+imizer. This approach yields two benefits.
+First, the function being optimized is the true
+error rate. Second, it lets us optimize param-
+eters of translations systems other than stan-
+dard linear model features, such as distortion
+limit. Since integrating the decoder into the
+minimizer is often too slow to be practical, we
+also exploit statistical significance tests to ac-
+celerate the search by quickly discarding un-
+promising models. Experiments with a phrase-
+based system show that our approach is scal-
+able, and that optimizing the parameters that
+MERT cannot handle brings improvements to
+translation results.
+1 

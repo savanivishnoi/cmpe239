@@ -1,0 +1,24 @@
+
+Query expansion is an effective technique to
+improve the performance of information re-
+trieval systems. Although hand-crafted lexi-
+cal resources, such as WordNet, could provide
+more reliable related terms, previous stud-
+ies showed that query expansion using only
+WordNet leads to very limited performance
+improvement. One of the main challenges is
+how to assign appropriate weights to expanded
+terms. In this paper, we re-examine this prob-
+lem using recently proposed axiomatic ap-
+proaches and find that, with appropriate term
+weighting strategy, we are able to exploit
+the information from lexical resources to sig-
+nificantly improve the retrieval performance.
+Our empirical results on six TREC collec-
+tions show that query expansion using only
+hand-crafted lexical resources leads to signif-
+icant performance improvement. The perfor-
+mance can be further improved if the proposed
+method is combined with query expansion us-
+ing co-occurrence-based resources.
+1 

@@ -1,0 +1,15 @@
+
+We propose three enhancements to the tree-
+to-string (TTS) transducer for machine trans-
+lation: first-level expansion-based normaliza-
+tion for TTS templates, a syntactic align-
+ment framework integrating the insertion of
+unaligned target words, and subtree-based n-
+gram model addressing the tree decomposi-
+tion probability. Empirical results show that
+these methods improve the performance of a
+TTS transducer based on the standard BLEU-
+4 metric. We also experiment with semantic
+labels in a TTS transducer, and achieve im-
+provement over our baseline system.
+1 

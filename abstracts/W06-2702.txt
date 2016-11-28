@@ -1,0 +1,28 @@
+
+Publishers  of  biomedical  journals  in-
+creasingly  use  XML  as  the  underlying 
+document format.  We present a modular 
+text-processing pipeline that inserts XML 
+markup  into  such  documents  in  every 
+processing step, leading to multi-dimen-
+sional markup.  The markup introduced 
+is  used  to  identify  and  disambiguate 
+named entities of several semantic types 
+(protein/gene,  Gene  Ontology  terms, 
+drugs  and species)  and to  communicate 
+data from one module to the next.  Each 
+module  independently  adds,  changes  or 
+removes markup, which allows for mod-
+ularization  and  a  flexible  setup  of  the 
+processing  pipeline.  We  also  describe 
+how the cascaded approach is embedded 
+in  a  large-scale  XML-based  application 
+(EBIMed) used for on-line access to bio-
+medical  literature.   We discuss  the  les-
+sons  learnt  so  far,  as  well  as  the  open 
+problems  that  need  to  be  resolved.   In 
+particular,  we  argue  that  the  pragmatic 
+and tailored solutions allow for reduction 
+in  the need for overlapping annotations 
+? although not completely without cost.
+1 

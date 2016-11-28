@@ -1,0 +1,17 @@
+
+This paper proposes a learning and extracting
+method of word sequence correspondences from
+non-aligned parallel corpora with Support Vector
+Machines, which have high ability of the generaliza-
+tion, rarely cause over-fit for training samples and
+can learn dependencies of features by using a kernel
+function. Our method uses features for the trans-
+lation model which use the translation dictionary,
+the number of words, part-of-speech, constituent
+words and neighbor words. Experiment results in
+which Japanese and English parallel corpora are
+used archived 81.1 % precision rate and 69.0 % re-
+call rate of the extracted word sequence correspon-
+dences. This demonstrates that our method could
+reduce the cost for making translation dictionaries.
+1 

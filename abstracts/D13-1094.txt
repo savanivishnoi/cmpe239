@@ -1,0 +1,16 @@
+
+We present a classification model that predicts
+the presence or omission of a lexical connec-
+tive between two clauses, based upon linguis-
+tic features of the clauses and the type of dis-
+course relation holding between them. The
+model is trained on a set of high frequency
+relations extracted from the Penn Discourse
+Treebank and achieves an accuracy of 86.6%.
+Analysis of the results reveals that the most in-
+formative features relate to the discourse de-
+pendencies between sequences of coherence
+relations in the text. We also present results
+of an experiment that provides insight into the
+nature and difficulty of the task.
+1 

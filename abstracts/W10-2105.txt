@@ -1,0 +1,28 @@
+
+In the past decade several parsing systems
+for natural language have emerged, which
+use different methods and formalisms. For
+instance, systems that employ a hand-
+crafted grammar and a statistical disam-
+biguation component versus purely sta-
+tistical data-driven systems. What they
+have in common is the lack of portabil-
+ity to new domains: their performance
+might decrease substantially as the dis-
+tance between test and training domain in-
+creases. Yet, to which degree do they suf-
+fer from this problem, i.e. which kind of
+parsing system is more affected by domain
+shifts? Intuitively, grammar-driven sys-
+tems should be less affected by domain
+changes. To investigate this hypothesis,
+an empirical investigation on Dutch is car-
+ried out. The performance variation of
+a grammar-driven versus two data-driven
+systems across domains is evaluated, and a
+simple measure to quantify domain sensi-
+tivity proposed. This will give an estimate
+of which parsing system is more affected
+by domain shifts, and thus more in need
+for adaptation techniques.
+1 

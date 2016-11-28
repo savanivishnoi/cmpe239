@@ -1,0 +1,14 @@
+
+This paper analyzes the contribution of se-
+mantic roles to TimeML event recognition
+and classification. For that purpose, an
+approach using conditional random fields
+with a variety of morphosyntactic features
+plus semantic roles features is developed
+and evaluated. Our system achieves an
+F1 of 81.4% in recognition and a 64.2%
+in classification. We demonstrate that the
+application of semantic roles improves the
+performance of the presented system, es-
+pecially for nominal events.
+1 

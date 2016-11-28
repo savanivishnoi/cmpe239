@@ -1,0 +1,26 @@
+ 
+Mental Space Theory (Fauconnier, 1985) en-
+compasses a wide variety of complex linguis-
+tics phenomena that are largely ignored in to-
+day?s natural language processing systems. 
+These phenomena include conditionals (e.g. If 
+sentences), embedded discourse, and other 
+natural language utterances whose interpreta-
+tion depends on cognitive partitioning of con-
+textual knowledge. A unification-based 
+formalism, Embodied Construction Grammar 
+(ECG) (Chang et al, 2002a) took initial steps 
+to include space as a primitive type, but most 
+of the details are yet to be worked out. The 
+goal of this paper is to present a scalable com-
+putational account of mental spaces based on 
+the Neural Theory of Language (NTL) simu-
+lation-based understanding framework (Nara-
+yanan, 1999; Chang et al, 2002b). We 
+introduce a formalization of mental spaces 
+based on ECG, and describe how this formal-
+ization fits into the NTL framework. We will 
+also use English Conditionals as a case study 
+to show how mental spaces can be parameter-
+ized from language. 
+1 

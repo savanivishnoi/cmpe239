@@ -1,0 +1,17 @@
+
+We explore the task of automatically classify-
+ing dialogue acts in 1-on-1 online chat forums,
+an increasingly popular means of providing
+customer service. In particular, we investi-
+gate the effectiveness of various features and
+machine learners for this task. While a sim-
+ple bag-of-words approach provides a solid
+baseline, we find that adding information from
+dialogue structure and inter-utterance depen-
+dency provides some increase in performance;
+learners that account for sequential dependen-
+cies (CRFs) show the best performance. We
+report our results from testing using a corpus
+of chat dialogues derived from online shop-
+ping customer-feedback data.
+1 

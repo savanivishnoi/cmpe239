@@ -1,0 +1,15 @@
+ 
+\[n this paper it will be shown how unification grammars 
+can be used to build a reversible machine translation 
+system. 
+Unification grammars are often used to define the re- 
+lation between strings and meaning representations in 
+a declarative way. Such grammars are sometimes used 
+in a bidirecLional way, thus the same grammar is used 
+for both parsing and generation, in this paper 1 will 
+show how ~.o use bidirectional unification grammars to 
+dethle reversible relations between language dependent 
+meaning representations. Furthermore it is shown how 
+to obtain a completely reversible MT system using a 
+series of (bidirectional) unification grammars. 
+l 

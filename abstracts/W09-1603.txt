@@ -1,0 +1,25 @@
+
+Most of the Internet data for Indian languages
+exist in various encodings, causing difficul-
+ties in searching for the information through
+search engines. In the Indian scenario, ma-
+jority web pages are not searchable or the in-
+tended information is not efficiently retrieved
+by the search engines due to the following:
+(1) Multiple text-encodings are used while
+authoring websites. (2) Inspite of Indian
+languages sharing common phonetic nature,
+common words like loan words (borrowed
+from other languages like Sanskrit, Urdu or
+English), transliterated terms, pronouns etc.,
+can not be searched across languages. (3) Fi-
+nally the query input mechanism is another
+major problem. Most of the users hardly know
+how to type in their native language and pre-
+fer to access the information through English
+based transliteration. This paper addresses all
+these problems and presents a transliteration
+based search engine (inSearch) which is ca-
+pable of searching 10 multi-script and multi-
+encoded Indian languages content on the web.
+1 

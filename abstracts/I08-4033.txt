@@ -1,0 +1,30 @@
+
+We created a new Chinese morpholog-
+ical analyzer, Achilles, by integrating
+rule-based, dictionary-based, and statis-
+tical machine learning method, condi-
+tional random fields (CRF). The rule-
+based method is used to recognize regular
+expressions: numbers, time and alphabets.
+The dictionary-based method is used to
+find in-vocabulary (IV) words while out-
+of-vocabulary (OOV) words are detected
+by the CRFs. At last, confidence measure
+based approach is used to weigh all the re-
+sults and output the best ones. Achilles
+was used and evaluated in the bakeoff.
+We participated the closed tracks of word
+segmentation and part-of-speech tagging
+for all the provided corpus. In spite of
+an unexpected file encoding errors, the
+system exhibited a top level performance.
+A higher word segmentation accuracy for
+the corpus ckip and ncc were achieved.
+We are ranked at the fifth and eighth po-
+sition out of all 19 and 26 submissions
+respectively for the two corpus. Achilles
+uses a feature combined approach for part-
+of-speech tagging. Our post-evaluation re-
+sults prove the effectiveness of this ap-
+proach for POS tagging.
+1 

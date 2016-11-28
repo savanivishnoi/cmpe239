@@ -1,0 +1,13 @@
+ 
+The importance ofdealing with unknown words in Natural Language Processing 
+(NLP) is growing as NLP systems are used in more and more applications. One aid 
+in predicting the lexical class of words that do not appear in the lexicon (referred 
+to as unknown words) is the use of syntactic parsing rules. The distinction between 
+closed-class and open-class words together with morphological recognition appears 
+to be pivotal in increasing the ability of the system to predict he lexical categories of
+unknown words. An experiment is performed to investigate he ability of a parser to 
+parse unknown words using morphology and syntactic parsing rules without human 
+intervention. This experiment shows that the performance of the parser is enhanced 
+greatly when morphological recognition is used in conjunction with syntactic rules 
+to parse sentences containing unknown words from the TIMIT corpus. 
+1 

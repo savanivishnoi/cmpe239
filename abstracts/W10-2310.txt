@@ -1,0 +1,18 @@
+ 
+ 
+We present a representation of documents 
+as directed, weighted graphs, modeling the 
+range of influence of terms within the 
+document as well as contextually deter-
+mined semantic relatedness among terms. 
+We then show the usefulness of this kind 
+of representation in topic segmentation. 
+Our boundary detection algorithm uses 
+this graph to determine topical coherence 
+and potential topic shifts, and does not re-
+quire labeled data or training of parame-
+ters. We show that this method yields im-
+proved results on both concatenated pseu-
+do-documents and on closed-captions for 
+television programs. 
+1 

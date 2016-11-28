@@ -1,0 +1,21 @@
+
+Word Sense Induction (WSI) is an unsuper-
+vised learning approach to discovering the dif-
+ferent senses of a word from its contextual
+uses. A core challenge to WSI approaches
+is distinguishing between related and possibly
+similar senses of a word. Current WSI evalu-
+ation techniques have yet to analyze the spe-
+cific impact of similarity on accuracy. There-
+fore, we present a new WSI evaluation that
+quantifies the relationship between the relat-
+edness of a word?s senses and the ability of a
+WSI algorithm to distinguish between them.
+Furthermore, we perform an analysis on sense
+confusions in SemEval-2 WSI task according
+to sense similarity. Both analyses for a rep-
+resentative selection of clustering-based WSI
+approaches reveals that performance is most
+sensitive to the clustering algorithm and not
+the lexical features used.
+1 

@@ -1,0 +1,17 @@
+
+In this work, we propose a semi-
+supervised extension to a well-known
+supervised domain adaptation approach
+(EA) (Daume? III, 2007). Our proposed
+approach (EA++) builds on the notion
+of augmented space (introduced in EA)
+and harnesses unlabeled data in target do-
+main to ameliorate the transfer of infor-
+mation from source to target. This semi-
+supervised approach to domain adaptation
+is extremely simple to implement, and can
+be applied as a pre-processing step to any
+supervised learner. Experimental results
+on sequential labeling tasks demonstrate
+the efficacy of the proposed method.
+1 

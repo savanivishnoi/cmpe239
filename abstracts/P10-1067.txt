@@ -1,0 +1,19 @@
+ 
+Comparing one thing with another is a typical 
+part of human decision making process. How-
+ever, it is not always easy to know what to 
+compare and what are the alternatives. To ad-
+dress this difficulty, we present a novel way to 
+automatically mine comparable entities from 
+comparative questions that users posted on-
+line. To ensure high precision and high recall, 
+we develop a weakly-supervised bootstrapping 
+method for comparative question identification 
+and comparable entity extraction by leveraging 
+a large online question archive. The experi-
+mental results show our method achieves F1-
+measure of 82.5% in comparative question 
+identification and 83.3% in comparable entity 
+extraction. Both significantly outperform an 
+existing state-of-the-art method.  
+1 

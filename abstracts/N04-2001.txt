@@ -1,0 +1,19 @@
+ 
+This paper analyzes various issues in building 
+a HMM based multilingual speech recognizer 
+for Indian languages. The system is originally 
+designed for Hindi and Tamil languages and 
+adapted to incorporate Indian accented Eng-
+lish. Language-specific characteristics in 
+speech recognition framework are highlighted. 
+The recognizer is embedded in information re-
+trieval applications and hence several issues 
+like handling spontaneous telephony speech in 
+real-time, integrated language identification 
+for interactive response and automatic graph-
+eme to phoneme conversion to handle Out Of 
+Vocabulary words are addressed. Experiments 
+to study relative effectiveness of different al-
+gorithms have been performed and the results 
+are investigated. 
+1 

@@ -1,0 +1,15 @@
+
+This paper presents our work for participation
+in the 2010 CIPS-ParsEval shared task on Chi-
+nese syntactic constituent tree parsing. We
+use dependency parsers for this constituent
+parsing task based on a formal dependency-
+constituent transformation method which con-
+verts dependency to constituent structures us-
+ing a machine learning approach. A condi-
+tional random fields (CRF) tagger is adopted
+for head information recognition. Our ex-
+periments shows that acceptable parsing and
+head tagging results are obtained on our ap-
+proaches.
+1 

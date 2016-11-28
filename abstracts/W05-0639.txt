@@ -1,0 +1,12 @@
+
+This paper describes a system for the
+CoNLL-2005 Shared Task on Semantic
+Role Labeling. We trained two parsers
+with the training corpus in which the se-
+mantic argument information is attached
+to the constituent labels, we then used the
+resulting parse trees as the input of the
+pipelined SRL system. We present our re-
+sults of combining the output of various
+SRL systems using different parsers.
+1 

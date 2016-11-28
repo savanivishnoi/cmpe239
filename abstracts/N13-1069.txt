@@ -1,0 +1,14 @@
+
+We present a systematic study of the effect of
+crowdsourced translations on Machine Trans-
+lation performance. We compare Machine
+Translation systems trained on the same data
+but with translations obtained using Amazon?s
+Mechanical Turk vs. professional translations,
+and show that the same performance is ob-
+tained from Mechanical Turk translations at
+1/5th the cost. We also show that adding a Me-
+chanical Turk reference translation of the de-
+velopment set improves parameter tuning and
+output evaluation.
+1 

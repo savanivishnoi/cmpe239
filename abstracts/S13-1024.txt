@@ -1,0 +1,22 @@
+
+This paper describes the UNIBA participation
+in the Semantic Textual Similarity (STS) core
+task 2013. We exploited three different sys-
+tems for computing the similarity between two
+texts. A system is used as baseline, which rep-
+resents the best model emerged from our pre-
+vious participation in STS 2012. Such system
+is based on a distributional model of seman-
+tics capable of taking into account also syn-
+tactic structures that glue words together. In
+addition, we investigated the use of two dif-
+ferent learning strategies exploiting both syn-
+tactic and semantic features. The former uses
+ensemble learning in order to combine the
+best machine learning techniques trained on
+2012 training and test sets. The latter tries to
+overcome the limit of working with different
+datasets with varying characteristics by select-
+ing only the more suitable dataset for the train-
+ing purpose.
+1 

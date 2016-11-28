@@ -1,0 +1,28 @@
+ 
+This paper presents a system for automatically 
+generating a set of plausible paraphrases for a 
+given noun compound and rank them in de-
+creasing order of their usage represented by 
+the confidence value provided by the human 
+annotators. Our system implements a corpus-
+driven probabilistic co-occurrence based 
+model for predicting the paraphrases, that uses 
+a seed list of paraphrases extracted from cor-
+pus to predict other paraphrases based on their 
+co-occurrences. The corpus study reveals that 
+the prepositional paraphrases for the noun 
+compounds are quite frequent and well cov-
+ered but the verb paraphrases, on the other 
+hand, are scarce, revealing the unsuitability of 
+the model for standalone corpus-driven ap-
+proach. Therefore, to predict other paraphras-
+es, we adopt a two-fold approach: (i) 
+Prediction based on Verb-Verb co-
+occurrences, in case the seed paraphrases are 
+greater than threshold; and (ii) Prediction 
+based on Semantic Relation of NC, otherwise. 
+The system achieves a comparabale score of 
+0.23 for the isomorphic system while main-
+taining a score of 0.26 for the non-isomorphic 
+system. 
+1 

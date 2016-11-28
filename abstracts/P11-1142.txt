@@ -1,0 +1,20 @@
+
+There are several tasks where is preferable not
+responding than responding incorrectly. This
+idea is not new, but despite several previous at-
+tempts there isn?t a commonly accepted mea-
+sure to assess non-response. We study here an
+extension of accuracy measure with this fea-
+ture and a very easy to understand interpreta-
+tion. The measure proposed (c@1) has a good
+balance of discrimination power, stability and
+sensitivity properties. We show also how this
+measure is able to reward systems that main-
+tain the same number of correct answers and
+at the same time decrease the number of in-
+correct ones, by leaving some questions unan-
+swered. This measure is well suited for tasks
+such as Reading Comprehension tests, where
+multiple choices per question are given, but
+only one is correct.
+1 

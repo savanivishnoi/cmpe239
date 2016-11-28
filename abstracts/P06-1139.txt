@@ -1,0 +1,15 @@
+
+We propose WIDL-expressions as a flex-
+ible formalism that facilitates the integra-
+tion of a generic sentence realization sys-
+tem within end-to-end language process-
+ing applications. WIDL-expressions rep-
+resent compactly probability distributions
+over finite sets of candidate realizations,
+and have optimal algorithms for realiza-
+tion via interpolation with language model
+probability distributions. We show the ef-
+fectiveness of a WIDL-based NLG system
+in two sentence realization tasks: auto-
+matic translation and headline generation.
+1 

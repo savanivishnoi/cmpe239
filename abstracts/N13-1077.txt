@@ -1,0 +1,15 @@
+
+Inspired by robust generalization and adver-
+sarial learning we describe a novel approach
+to learning structured perceptrons for part-of-
+speech (POS) tagging that is less sensitive to
+domain shifts. The objective of our method is
+to minimize average loss under random distri-
+bution shifts. We restrict the possible target
+distributions to mixtures of the source distri-
+bution and random Zipfian distributions. Our
+algorithm is used for POS tagging and eval-
+uated on the English Web Treebank and the
+Danish Dependency Treebank with an average
+4.4% error reduction in tagging accuracy.
+1 

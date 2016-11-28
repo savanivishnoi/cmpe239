@@ -1,0 +1,21 @@
+
+Error analysis in machine translation is a nec-
+essary step in order to investigate the strengths
+and weaknesses of the MT systems under de-
+velopment and allow fair comparisons among
+them. This work presents an application that
+shows how a set of heterogeneous automatic
+metrics can be used to evaluate a test bed of
+automatic translations. To do so, we have
+set up an online graphical interface for the
+ASIYA toolkit, a rich repository of evaluation
+measures working at different linguistic lev-
+els. The current implementation of the inter-
+face shows constituency and dependency trees
+as well as shallow syntactic and semantic an-
+notations, and word alignments. The intelli-
+gent visualization of the linguistic structures
+used by the metrics, as well as a set of navi-
+gational functionalities, may lead towards ad-
+vanced methods for automatic error analysis.
+1 

@@ -1,0 +1,13 @@
+ 
+In this paper we examine the use of hypotheticals as a heuristic device to assist a 
+case-based reasoner test the strengths, weaknesses, and ramifications of an analysis or 
+argument by exploring and augmenting the space of known cases and indirectly, the 
+attendant spaces of doctrine and argument. Our program, HYPO, works in the task 
+domain of the law, particularly, the area of trade secret protection for software. We 
+describe how HYPO generates a constellation of legally-meaningful hypothetical fact 
+situations ("hypos") which are "near" a given fact situation. This is done in two 
+steps: analysis of the given situation and then generation of the hypos. We discuss 
+the heuristics HYPO currently uses, which include: (1) make a case weaker or 
+stronger; (2) generate an extreme case; (3) generate a near miss; (4) manipulate a 
+near win; and (5) generate a case on a related "dimension". 
+I. 

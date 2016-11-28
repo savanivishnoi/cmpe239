@@ -1,0 +1,30 @@
+ 
+ 
+The automatic QA system described in 
+this paper uses a reference interview 
+model to allow the user to guide and 
+contribute to the QA process.  A set of 
+system capabilities was designed and 
+implemented that defines how the user?s 
+contributions can help improve the 
+system.  These include tools, called the 
+Query Template Builder and the 
+Knowledge Base Builder, that tailor the 
+document processing and QA system to 
+a particular domain by allowing a 
+Subject Matter Expert to contribute to 
+the query representation and to the 
+domain knowledge.  During the QA 
+process, the system can interact with the 
+user to improve query terminology by 
+using Spell Checking, Answer Type 
+verification, Expansions and Acronym 
+Clarifications.  The system also has 
+capabilities that depend upon, and 
+expand the user?s history of interaction 
+with the system, including a User 
+Profile, Reference Resolution, and 
+Question Similarity modules 
+ 
+ 
+1  

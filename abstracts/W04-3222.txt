@@ -1,0 +1,13 @@
+
+We present a novel representation of parse trees as
+lists of paths (leaf projection paths) from leaves to
+the top level of the tree. This representation allows
+us to achieve significantly higher accuracy in the
+task of HPSG parse selection than standard models,
+and makes the application of string kernels natural.
+We define tree kernels via string kernels on projec-
+tion paths and explore their performance in the con-
+text of parse disambiguation. We apply SVM rank-
+ing models and achieve an exact sentence accuracy
+of 85.40% on the Redwoods corpus.
+1 

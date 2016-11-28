@@ -1,0 +1,25 @@
+ 
+Syntax-based statistical machine transla-
+tion (MT) aims at applying statistical 
+models to structured data. In this paper, 
+we present a syntax-based statistical ma-
+chine translation system based on a prob-
+abilistic synchronous dependency 
+insertion grammar. Synchronous depend-
+ency insertion grammars are a version of 
+synchronous grammars defined on de-
+pendency trees. We first introduce our 
+approach to inducing such a grammar 
+from parallel corpora. Second, we de-
+scribe the graphical model for the ma-
+chine translation task, which can also be 
+viewed as a stochastic tree-to-tree trans-
+ducer. We introduce a polynomial time 
+decoding algorithm for the model. We 
+evaluate the outputs of our MT system us-
+ing the NIST and Bleu automatic MT 
+evaluation software. The result shows that 
+our system outperforms the baseline sys-
+tem based on the IBM models in both 
+translation speed and quality. 
+1 

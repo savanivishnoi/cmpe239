@@ -1,0 +1,9 @@
+. This paper describes a novel method for a word sense disam-
+biguation that utilizes relatives (i.e. synonyms, hypernyms, meronyms,
+etc in WordNet) of a target word and raw corpora. The method disam-
+biguates senses of a target word by selecting a relative that most prob-
+ably occurs in a new sentence including the target word. Only one co-
+occurrence frequency matrix is utilized to efficiently disambiguate senses
+of many target words. Experiments on several English datum present
+that our proposed method achieves a good performance.
+1 

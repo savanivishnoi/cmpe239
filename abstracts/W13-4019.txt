@@ -1,0 +1,16 @@
+
+SCXML was proposed as one description
+language for dialog control in the W3C
+Multimodal Architecture but lacks the fa-
+cilities required for grounding and rea-
+soning. This prohibits the application of
+many dialog modeling techniques for mul-
+timodal applications following this W3C
+standard. By extending SCXML with a
+Prolog datamodel and scripting language,
+we enable those techniques to be em-
+ployed again. Thereby bridging the gap
+between respective dialog modeling re-
+search and a standardized architecture to
+access and coordinate modalities.
+1 

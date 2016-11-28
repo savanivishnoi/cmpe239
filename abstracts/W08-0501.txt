@@ -1,0 +1,10 @@
+
+Computing precision and recall metrics for named
+entity tagging and resolution involves classifying
+text spans as true positives, false positives, or false
+negatives. There are many factors that make this
+classification complicated for real world systems.
+We describe an evaluation system that attempts to
+control this complexity through a set of rules and a
+forward chaining inference engine.
+1 

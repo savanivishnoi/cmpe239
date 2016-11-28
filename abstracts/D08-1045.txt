@@ -1,0 +1,19 @@
+
+We propose a novel lexicon acquirer that
+works in concert with the morphological ana-
+lyzer and has the ability to run in online mode.
+Every time a sentence is analyzed, it detects
+unknown morphemes, enumerates candidates
+and selects the best candidates by comparing
+multiple examples kept in the storage. When
+a morpheme is unambiguously selected, the
+lexicon acquirer updates the dictionary of the
+analyzer, and it will be used in subsequent
+analysis. We use the constraints of Japanese
+morphology and effectively reduce the num-
+ber of examples required to acquire a mor-
+pheme. Experiments show that unknown mor-
+phemes were acquired with high accuracy and
+improved the quality of morphological analy-
+sis.
+1 

@@ -1,0 +1,19 @@
+
+The paper describes an experiment in
+detecting a specific type of multiword
+expressions in Russian, namely expres-
+sions starting with a preposition. This
+covers not only prepositional phrases
+proper, but also fixed syntactic construc-
+tions like v techenie (?in the course of?).
+First, we collect lists of such construc-
+tions in a corpus of 50 mln words using
+a simple mechanism that combines sta-
+tistical methods with knowledge about
+the structure of Russian prepositional
+phrases. Then we analyse the results of
+this data collection and estimate the ef-
+ficiency of the collected list for the reso-
+lution of morphosyntactic and semantic
+ambiguity in a corpus.
+1 

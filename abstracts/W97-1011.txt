@@ -1,0 +1,21 @@
+ 
+We examine the Differential Grammar,  
+a representation designed to discriminate 
+which of a set of eonfusable alternatives i
+most likely in the context it occurs in. This 
+approach is useful whereever uncertainty 
+may exist about the identity of a token 
+or sequence of tokens, including in speech 
+recognition, optical character ecognition 
+and machine translation. In this paper our 
+application is word processing: we discuss 
+multiple models of confusion which may 
+be used in the identification of confused 
+words, we show how significant contexts 
+may be identified and condensed into Dif- 
+ferential Grammars,  and we contrast the 
+performance of our implementation with 
+that of two commercial grammar checkers 
+which purport  to handle the confused word 
+problem. 
+1 

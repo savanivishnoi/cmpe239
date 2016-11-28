@@ -1,0 +1,15 @@
+
+Many recent statistical parsers rely on a preprocess-
+ing step which uses hand-written, corpus-specific
+rules to augment the training data with extra infor-
+mation. For example, head-finding rules are used
+to augment node labels with lexical heads. In this
+paper, we provide machinery to reduce the amount
+of human effort needed to adapt existing models to
+new corpora: first, we propose a flexible notation for
+specifying these rules that would allow them to be
+shared by different models; second, we report on an
+experiment to see whether we can use Expectation-
+Maximization to automatically fine-tune a set of
+hand-written rules to a particular corpus.
+1 

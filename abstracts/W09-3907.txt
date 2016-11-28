@@ -1,0 +1,15 @@
+
+This paper describes a probabilistic mech-
+anism for the interpretation of sentence se-
+quences developed for a spoken dialogue
+system mounted on a robotic agent. The
+mechanism receives as input a sequence of
+sentences, and produces an interpretation
+which integrates the interpretations of in-
+dividual sentences. For our evaluation, we
+collected a corpus of hypothetical requests
+to a robot. Our mechanism exhibits good
+performance for sentence pairs, but re-
+quires further improvements for sentence
+sequences.
+1 

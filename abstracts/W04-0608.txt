@@ -1,0 +1,17 @@
+
+In this paper, we describe an integrated approach to-
+wards dealing with various semantic and structural is-
+sues associated with document management. We
+provide motivations for using XML, RDF and OWL in
+building a seamless architecture to serve not only as a
+document exchange service but also to enable higher
+level services such as annotations, metadata access and
+querying. The key idea is to manifest differential treat-
+ments for the actual document structure, semantic con-
+tent of the document and ontological document
+organization. The deployment of this architecture in the
+PROTEUS project
+1
+ provides an industrial setting for
+evaluation and further specification.
+1. 

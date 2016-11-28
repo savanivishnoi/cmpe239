@@ -1,0 +1,16 @@
+ 
+Gazetteers or entity dictionaries are important 
+knowledge resources for solving a wide range of 
+NLP problems, such as entity extraction. We in-
+troduce a novel method to automatically generate 
+gazetteers from seed lists using an external 
+knowledge resource, the Wikipedia. Unlike pre-
+vious methods, our method exploits the rich con-
+tent and various structural elements of Wikipe-
+dia, and does not rely on language- or domain-
+specific knowledge. Furthermore, applying the 
+extended gazetteers to an entity extraction task in 
+a scientific domain, we empirically observed a 
+significant improvement in system accuracy 
+when compared with those using seed gazetteers. 
+1 

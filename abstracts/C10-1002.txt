@@ -1,0 +1,21 @@
+
+Multi-word expressions constitute a sig-
+nificant portion of the lexicon of every
+natural language, and handling them cor-
+rectly is mandatory for various NLP appli-
+cations. Yet such entities are notoriously
+hard to define, and are consequently miss-
+ing from standard lexicons and dictionar-
+ies. Multi-word expressions exhibit id-
+iosyncratic behavior on various levels: or-
+thographic, morphological, syntactic and
+semantic. In this work we take advan-
+tage of the morphological and syntactic
+idiosyncrasy of Hebrew noun compounds
+and employ it to extract such expressions
+from text corpora. We show that relying
+on linguistic information dramatically im-
+proves the accuracy of compound extrac-
+tion, reducing over one third of the errors
+compared with the best baseline.
+1 

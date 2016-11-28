@@ -1,0 +1,11 @@
+
+This paper describes the system developed
+in collabaration between UCH and UPV
+for the 2010 WMT. For this year?s work-
+shop, we present a system for English-
+Spanish translation. Output N -best lists
+were rescored via a target Neural Network
+Language Model, yielding improvements
+in the final translation quality as measured
+by BLEU and TER.
+1 

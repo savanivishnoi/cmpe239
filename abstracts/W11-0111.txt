@@ -1,0 +1,10 @@
+
+Entailment pairs are sentence pairs of a premise and a hypothesis, where the premise textually
+entails the hypothesis. Such sentence pairs are important for the development of Textual Entailment
+systems. In this paper, we take a closer look at a prominent strategy for their automatic acquisition
+from newspaper corpora, pairing first sentences of articles with their titles. We propose a simple
+logistic regression model that incorporates and extends this heuristic and investigate its robustness
+across three languages and three domains. We manage to identify two predictors which predict
+entailment pairs with a fairly high accuracy across all languages. However, we find that robustness
+across domains within a language is more difficult to achieve.
+1 

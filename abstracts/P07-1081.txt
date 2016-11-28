@@ -1,0 +1,24 @@
+
+Most current machine transliteration sys-
+tems employ a corpus of known source-
+target word pairs to train their system, and
+typically evaluate their systems on a similar
+corpus. In this paper we explore the perfor-
+mance of transliteration systems on corpora
+that are varied in a controlled way. In partic-
+ular, we control the number, and prior lan-
+guage knowledge of human transliterators
+used to construct the corpora, and the origin
+of the source words that make up the cor-
+pora. We find that the word accuracy of au-
+tomated transliteration systems can vary by
+up to 30% (in absolute terms) depending on
+the corpus on which they are run. We con-
+clude that at least four human transliterators
+should be used to construct corpora for eval-
+uating automated transliteration systems;
+and that although absolute word accuracy
+metrics may not translate across corpora, the
+relative rankings of system performance re-
+mains stable across differing corpora.
+1 

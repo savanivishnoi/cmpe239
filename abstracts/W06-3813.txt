@@ -1,0 +1,26 @@
+
+We present a graph-matching algorithm
+for semantic relation assignment. The al-
+gorithm is part of an interactive text analy-
+sis system. The system automatically ex-
+tracts pairs of syntactic units from a text
+and assigns a semantic relation to each
+pair. This is an incremental learning algo-
+rithm, in which previously processed pairs
+and user feedback guide the process. Af-
+ter each assignment, the system adds to its
+database a syntactic-semantic graph cen-
+tered on the main element of each pair of
+units. A graph consists of the main unit
+and all syntactic units with which it is syn-
+tactically connected. An edge contains in-
+formation both about syntax and about se-
+mantic relations for use in further process-
+ing. Syntactic-semantic graph matching is
+used to produce a list of candidate assign-
+ments for 63.75% of the pairs analysed,
+and in 57% of situations the correct rela-
+tions is one of the system?s suggestions;
+in 19.6% of situations it suggests only the
+correct relation.
+1 

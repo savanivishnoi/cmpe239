@@ -1,0 +1,16 @@
+
+We describe a novel approach for syntax-
+based statistical MT, which builds on a
+variant of tree adjoining grammar (TAG).
+Inspired by work in discriminative depen-
+dency parsing, the key idea in our ap-
+proach is to allow highly flexible reorder-
+ing operations during parsing, in combina-
+tion with a discriminative model that can
+condition on rich features of the source-
+language string. Experiments on trans-
+lation from German to English show im-
+provements over phrase-based systems,
+both in terms of BLEU scores and in hu-
+man evaluations.
+1 

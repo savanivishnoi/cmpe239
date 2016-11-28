@@ -1,0 +1,23 @@
+
+We present two experiments in the localiza-
+tion of spoken dialogue systems. The do-
+main of the dialogue system is an MP3 ap-
+plication for automobiles. In the first expe-
+riment, a grammar in Nuance GSL format
+was rewritten in Grammatical Framework
+(GF). Within GF, the grammar was extended
+from two to six languages, giving a baseline
+for semantically complete grammars. In the
+second experiment, the German version of
+this baseline GF grammar was extended with
+the goal to restore the coverage of the origi-
+nal Nuance grammar.
+1 Credits
+Part of this work was done under the TALK1 re-
+search project, funded by EU FP6 [ref. 507802].
+The Nuance grammar was written by Jochen
+Steigner, Peter Poller, and Rosemary Stegmann. The
+first GF experiment was made together with Bjo?rn
+Bringert. The Spanish grammar was written to-
+gether with Libertad Tansini.
+2 

@@ -1,0 +1,12 @@
+
+This paper introduces a novel Support Vec-
+tor Machines (SVMs) based voting algorithm
+for reranking, which provides a way to solve
+the sequential models indirectly. We have
+presented a risk formulation under the PAC
+framework for this voting algorithm. We have
+applied this algorithm to the parse reranking
+problem, and achieved labeled recall and pre-
+cision of 89.4%/89.8% on WSJ section 23 of
+Penn Treebank.
+1 

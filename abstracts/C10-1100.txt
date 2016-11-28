@@ -1,0 +1,12 @@
+
+We use web-scale N-grams in a base NP
+parser that correctly analyzes 95.4% of the
+base NPs in natural text. Web-scale data
+improves performance. That is, there is no
+data like more data. Performance scales
+log-linearly with the number of parame-
+ters in the model (the number of unique
+N-grams). The web-scale N-grams are
+particularly helpful in harder cases, such
+as NPs that contain conjunctions.
+1 

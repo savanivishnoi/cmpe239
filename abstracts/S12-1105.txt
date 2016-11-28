@@ -1,0 +1,21 @@
+
+This paper overviews FBK?s participation
+in the Cross-Lingual Textual Entailment
+for Content Synchronization task organized
+within SemEval-2012. Our participation is
+characterized by using cross-lingual matching
+features extracted from lexical and semantic
+phrase tables and dependency relations. The
+features are used for multi-class and binary
+classification using SVMs. Using a combi-
+nation of lexical, syntactic, and semantic fea-
+tures to create a cross-lingual textual entail-
+ment system, we report on experiments over
+the provided dataset. Our best run achieved
+an accuracy of 50.4% on the Spanish-English
+dataset (with the average score and the me-
+dian system respectively achieving 40.7% and
+34.6%), demonstrating the effectiveness of a
+?pure? cross-lingual approach that avoids in-
+termediate translations.
+1 

@@ -1,0 +1,15 @@
+
+An algorithm based on the Generalized
+Hebbian Algorithm is described that
+allows the singular value decomposition
+of a dataset to be learned based on
+single observation pairs presented seri-
+ally. The algorithm has minimal mem-
+ory requirements, and is therefore in-
+teresting in the natural language do-
+main, where very large datasets are of-
+ten used, and datasets quickly become
+intractable. The technique is demon-
+strated on the task of learning word
+and letter bigram pairs from text.
+1 

@@ -1,0 +1,30 @@
+
+Noun extraction is very important for
+many NLP applications such as informa-
+tion retrieval, automatic text classification,
+and information extraction. Most of the
+previous Korean noun extraction systems
+use a morphological analyzer or a Part-
+of-Speech (POS) tagger. Therefore, they
+require much of the linguistic knowledge
+such as morpheme dictionaries and rules
+(e.g. morphosyntactic rules and morpho-
+logical rules).
+This paper proposes a new noun extrac-
+tion method that uses the syllable based
+word recognition model. It finds the
+most probable syllable-tag sequence of
+the input sentence by using automatically
+acquired statistical information from the
+POS tagged corpus and extracts nouns by
+detecting word boundaries. Furthermore,
+it does not require any labor for construct-
+ing and maintaining linguistic knowledge.
+We have performed various experiments
+with a wide range of variables influenc-
+ing the performance. The experimental
+results show that without morphological
+analysis or POS tagging, the proposed
+method achieves comparable performance
+with the previous methods.
+1 

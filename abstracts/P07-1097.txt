@@ -1,0 +1,22 @@
+
+The idea of ?nugget pyramids? has re-
+cently been introduced as a refinement to the
+nugget-based methodology used to evaluate
+answers to complex questions in the TREC
+QA tracks. This paper examines data from
+the 2006 evaluation, the first large-scale de-
+ployment of the nugget pyramids scheme.
+We show that this method of combining
+judgments of nugget importance from multi-
+ple assessors increases the stability and dis-
+criminative power of the evaluation while in-
+troducing only a small additional burden in
+terms of manual assessment. We also con-
+sider an alternative method for combining
+assessor opinions, which yields a distinction
+similar to micro- and macro-averaging in the
+context of classification tasks. While the
+two approaches differ in terms of underly-
+ing assumptions, their results are neverthe-
+less highly correlated.
+1 

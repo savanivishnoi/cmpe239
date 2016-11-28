@@ -1,0 +1,14 @@
+
+We present an improved version of DEPFIX
+(Marec?ek et al., 2011), a system for auto-
+matic rule-based post-processing of English-
+to-Czech MT outputs designed to increase
+their fluency. We enhanced the rule set used
+by the original DEPFIX system and measured
+the performance of the individual rules.
+We also modified the dependency parser of
+McDonald et al. (2005) in two ways to adjust
+it for the parsing of MT outputs. We show that
+our system is able to improve the quality of the
+state-of-the-art MT systems.
+1 

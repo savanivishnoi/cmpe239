@@ -1,0 +1,23 @@
+
+Semantic Role Labeling annotation task de-
+pends on the correct identification of pred-
+icates, before identifying arguments and as-
+signing them role labels. However, most pred-
+icates are not constituted only by a verb: they
+constitute Complex Predicates (CPs) not yet
+available in a computational lexicon. In order
+to create a dictionary of CPs, this study em-
+ploys a corpus-based methodology. Searches
+are guided by POS tags instead of a limited list
+of verbs or nouns, in contrast to similar stud-
+ies. Results include (but are not limited to)
+light and support verb constructions. These
+CPs are classified into idiomatic and less id-
+iomatic. This paper presents an in-depth anal-
+ysis of this phenomenon, as well as an original
+resource containing a set of 773 annotated ex-
+pressions. Both constitute an original and rich
+contribution for NLP tools in Brazilian Por-
+tuguese that perform tasks involving seman-
+tics.
+1 

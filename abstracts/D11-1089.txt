@@ -1,0 +1,20 @@
+
+Word boundaries within noun compounds are
+not marked by white spaces in a number of
+languages, unlike in English, and it is benefi-
+cial for various NLP applications to split such
+noun compounds. In the case of Japanese,
+noun compounds made up of katakana words
+(i.e., transliterated foreign words) are par-
+ticularly difficult to split, because katakana
+words are highly productive and are often out-
+of-vocabulary. To overcome this difficulty,
+we propose using monolingual and bilingual
+paraphrases of katakana noun compounds for
+identifying word boundaries. Experiments
+demonstrated that splitting accuracy is sub-
+stantially improved by extracting such para-
+phrases from unlabeled textual data, the Web
+in our case, and then using that information for
+constructing splitting models.
+1 

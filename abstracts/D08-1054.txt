@@ -1,0 +1,28 @@
+
+Previously topic models such as PLSI (Prob-
+abilistic Latent Semantic Indexing) and LDA
+(Latent Dirichlet Allocation) were developed
+for modeling the contents of plain texts. Re-
+cently, topic models for processing hyper-
+texts such as web pages were also proposed.
+The proposed hypertext models are generative
+models giving rise to both words and hyper-
+links. This paper points out that to better rep-
+resent the contents of hypertexts it is more es-
+sential to assume that the hyperlinks are fixed
+and to define the topic model as that of gen-
+erating words only. The paper then proposes
+a new topic model for hypertext processing,
+referred to as Hypertext Topic Model (HTM).
+HTM defines the distribution of words in a
+document (i.e., the content of the document)
+as a mixture over latent topics in the document
+itself and latent topics in the documents which
+the document cites. The topics are further
+characterized as distributions of words, as in
+the conventional topic models. This paper fur-
+ther proposes a method for learning the HTM
+model. Experimental results show that HTM
+outperforms the baselines on topic discovery
+and document classification in three datasets.
+1 

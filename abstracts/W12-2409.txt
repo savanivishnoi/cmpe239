@@ -1,0 +1,15 @@
+
+Active learning can lower the cost of anno-
+tation for some natural language processing
+tasks by using a classifier to select informa-
+tive instances to send to human annotators. It
+has worked well in cases where the training in-
+stances are selected one at a time and require
+minimal context for annotation. However,
+coreference annotations often require some
+context and the traditional active learning ap-
+proach may not be feasible. In this work we
+explore various active learning methods for
+coreference resolution that fit more realisti-
+cally into coreference annotation workflows.
+1 

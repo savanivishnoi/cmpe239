@@ -1,0 +1,15 @@
+
+We establish a novel task in the spirit of news sum-
+marization and topic detection and tracking (TDT):
+daily determination of the topics newly popular with
+Wikipedia readers. Central to this effort is a new
+public dataset consisting of the hourly page view
+statistics of all Wikipedia articles over the last three
+years. We give baseline results for the tasks of:
+discovering individual pages of interest, clustering
+these pages into coherent topics, and extracting the
+most relevant summarizing sentence for the reader.
+When compared to human judgements, our system
+shows the viability of this task, and opens the door
+to a range of exciting future work.
+1 

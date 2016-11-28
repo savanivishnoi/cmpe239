@@ -1,0 +1,22 @@
+
+Comma placements in Chinese text are
+relatively arbitrary although there are
+some syntactic guidelines for them. In this
+research, we attempt to improve the read-
+ability of text by optimizing comma place-
+ments through integration of linguistic fea-
+tures of text and gaze features of readers.
+We design a comma predictor for gen-
+eral Chinese text based on conditional ran-
+dom field models with linguistic features.
+After that, we build a rule-based filter for
+categorizing commas in text according to
+their contribution to readability based on
+the analysis of gazes of people reading text
+with and without commas.
+The experimental results show that our
+predictor reproduces the comma distribu-
+tion in the Penn Chinese Treebank with
+78.41 in F1-score and commas chosen by
+our filter smoothen certain gaze behaviors.
+1 

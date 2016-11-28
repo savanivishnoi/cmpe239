@@ -1,0 +1,30 @@
+
+We present a novel hierarchical prior struc-
+ture for supervised transfer learning in named
+entity recognition, motivated by the common
+structure of feature spaces for this task across
+natural language data sets. The problem of
+transfer learning, where information gained in
+one learning task is used to improve perfor-
+mance in another related task, is an important
+new area of research. In the subproblem of do-
+main adaptation, a model trained over a source
+domain is generalized to perform well on a re-
+lated target domain, where the two domains?
+data are distributed similarly, but not identi-
+cally. We introduce the concept of groups
+of closely-related domains, called genres, and
+show how inter-genre adaptation is related to
+domain adaptation. We also examine multi-
+task learning, where two domains may be re-
+lated, but where the concept to be learned in
+each case is distinct. We show that our prior
+conveys useful information across domains,
+genres and tasks, while remaining robust to
+spurious signals not related to the target do-
+main and concept. We further show that our
+model generalizes a class of similar hierarchi-
+cal priors, smoothed to varying degrees, and
+lay the groundwork for future exploration in
+this area.
+1 

@@ -1,0 +1,21 @@
+
+In this paper we investigate the task of automatically
+identifying the correct argument structure for a set
+of verbs. The argument structure of a verb allows
+us to predict the relationship between the syntac-
+tic arguments of a verb and their role in the under-
+lying lexical semantics of the verb. Following the
+method described in (Merlo and Stevenson, 2001),
+we exploit the distributions of some selected fea-
+tures from the local context of a verb. These fea-
+tures were extracted from a 23M word WSJ cor-
+pus based on part-of-speech tags and phrasal chunks
+alone. We constructed several decision tree classi-
+fiers trained on this data. The best performing clas-
+sifier achieved an error rate of 33.4%. This work
+shows that a subcategorization frame (SF) learning
+algorithm previously applied to Czech (Sarkar and
+Zeman, 2000) is used to extract SFs in English. The
+extracted SFs are evaluated by classifying verbs into
+verb alternation classes.
+1 

@@ -1,0 +1,18 @@
+
+We extend the classical single-task active
+learning (AL) approach. In the multi-task ac-
+tive learning (MTAL) paradigm, we select ex-
+amples for several annotation tasks rather than
+for a single one as usually done in the con-
+text of AL. We introduce two MTAL meta-
+protocols, alternating selection and rank com-
+bination, and propose a method to implement
+them in practice. We experiment with a two-
+task annotation scenario that includes named
+entity and syntactic parse tree annotations on
+three different corpora. MTAL outperforms
+random selection and a stronger baseline, one-
+sided example selection, in which one task is
+pursued using AL and the selected examples
+are provided also to the other task.
+1 

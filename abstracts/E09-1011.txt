@@ -1,0 +1,18 @@
+
+Syntactic Reordering of the source lan-
+guage to better match the phrase struc-
+ture of the target language has been
+shown to improve the performance of
+phrase-based Statistical Machine Transla-
+tion. This paper applies syntactic reorder-
+ing to English-to-Arabic translation. It in-
+troduces reordering rules, and motivates
+them linguistically. It also studies the ef-
+fect of combining reordering with Ara-
+bic morphological segmentation, a pre-
+processing technique that has been shown
+to improve Arabic-English and English-
+Arabic translation. We report on results in
+the news text domain, the UN text domain
+and in the spoken travel domain.
+1 

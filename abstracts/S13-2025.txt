@@ -1,0 +1,25 @@
+
+In this paper, we describe SemEval-2013 Task
+4: the definition, the data, the evaluation and
+the results. The task is to capture some of the
+meaning of English noun compounds via para-
+phrasing. Given a two-word noun compound,
+the participating system is asked to produce
+an explicitly ranked list of its free-form para-
+phrases. The list is automatically compared
+and evaluated against a similarly ranked list
+of paraphrases proposed by human annota-
+tors, recruited and managed through Ama-
+zon?s Mechanical Turk. The comparison of
+raw paraphrases is sensitive to syntactic and
+morphological variation. The ?gold? ranking
+is based on the relative popularity of para-
+phrases among annotators. To make the rank-
+ing more reliable, highly similar paraphrases
+are grouped, so as to downplay superficial dif-
+ferences in syntax and morphology. Three
+systems participated in the task. They all beat
+a simple baseline on one of the two evalua-
+tion measures, but not on both measures. This
+shows that the task is difficult.
+1 

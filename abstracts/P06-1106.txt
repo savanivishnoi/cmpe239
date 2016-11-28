@@ -1,0 +1,22 @@
+
+This paper presents a hybrid approach
+to question answering in the clinical
+domain that combines techniques from
+summarization and information retrieval.
+We tackle a frequently-occurring class of
+questions that takes the form ?What is
+the best drug treatment for X?? Starting
+from an initial set of MEDLINE citations,
+our system first identifies the drugs un-
+der study. Abstracts are then clustered us-
+ing semantic classes from the UMLS on-
+tology. Finally, a short extractive sum-
+mary is generated for each abstract to pop-
+ulate the clusters. Two evaluations?a
+manual one focused on short answers and
+an automatic one focused on the support-
+ing abstracts?demonstrate that our sys-
+tem compares favorably to PubMed, the
+search system most widely used by physi-
+cians today.
+1 

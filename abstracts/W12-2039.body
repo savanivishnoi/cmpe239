@@ -1,0 +1,25 @@
+
+There is a rise in interest in the evaluation of
+meaning in real-life applications, e.g., for as-
+sessing the content of short answers. The ap-
+proaches typically use a combination of shal-
+low and deep representations, but little use is
+made of the semantic formalisms created by
+theoretical linguists to represent meaning.
+In this paper, we explore the use of the un-
+derspecified semantic formalism LRS, which
+combines the capability of precisely repre-
+senting semantic distinctions with the ro-
+bustness and modularity needed to represent
+meaning in real-life applications.
+We show that a content-assessment approach
+built on LRS outperforms a previous approach
+on the CREG data set, a freely available cor-
+pus of answers to reading comprehension ex-
+ercises by learners of German. The use of such
+a formalism also readily supports the integra-
+tion of notions building on semantic distinc-
+tions, such as the information structuring in
+discourse, which we show to be useful for con-
+tent assessment.
+1 

@@ -1,0 +1,29 @@
+ 
+This paper presents a practical machine translation system 
+based on sentence types for economic news stories. 
+Conventional English-to-Japanese machine translation 
+(MT) systems which are rule-based approaches, are diffi- 
+cult to translate certain types of Associated Press (AP) 
+wire service news stories, such as economics and sports, 
+because these topics include many fixed expressions ( uch 
+as compound words or collocations) which are difficult o 
+be processed by conventional syntactic analysis and/or 
+word selection methods. 
+The proposed MT system, an economic-news stories 
+machine translation system (ENTS), can translate co- 
+nomic news sentences with fixed expressions. The system 
+consists of three processes, to handle different ypes of 
+sentences, fixed type, economics-specific type and general 
+type. This paper focuses mainly on the translation method 
+for fixed-type sentences, which is a kind of example-based 
+approach. In this translation method, fixed sentence trans- 
+lation (STRA) data plays a key role. The STRA data is a 
+set of bilingual templates, which is built automatically 
+from fixed English sentences and their Japanese transla- 
+tion equivalents. The fixed English sentences are extracted 
+automatically from the AP corpus. 
+A series of experiments o evaluate ENTS using eco- 
+nomic news in the AP news stories howed the translation 
+accuracy was about 50 % higher than with our conven- 
+tional rule-based MT method. 
+1 

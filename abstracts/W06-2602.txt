@@ -1,0 +1,20 @@
+
+We present a new method for performing
+sequence labelling based on the idea of us-
+ing a machine-learning classifier to gen-
+erate several possible output sequences,
+and then applying an inference proce-
+dure to select the best sequence among
+those. Most sequence labelling methods
+following a similar approach require the
+base classifier to make probabilistic pre-
+dictions. In contrast, our method can
+be used with virtually any type of clas-
+sifier. This is illustrated by implement-
+ing a sequence classifier on top of a (non-
+probabilistic) memory-based learner. In
+a series of experiments, this method is
+shown to outperform two other methods;
+one naive baseline approach, and another
+more sophisticated method.
+1 

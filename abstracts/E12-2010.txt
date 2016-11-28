@@ -1,0 +1,19 @@
+
+This paper presents the first demonstration
+of a statistical spoken dialogue system that
+uses automatic belief compression to rea-
+son over complex user goal sets. Reasoning
+over the power set of possible user goals al-
+lows complex sets of user goals to be rep-
+resented, which leads to more natural dia-
+logues. The use of the power set results in a
+massive expansion in the number of belief
+states maintained by the Partially Observ-
+able Markov Decision Process (POMDP)
+spoken dialogue manager. A modified form
+of Value Directed Compression (VDC) is
+applied to the POMDP belief states produc-
+ing a near-lossless compression which re-
+duces the number of bases required to rep-
+resent the belief distribution.
+1 

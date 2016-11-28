@@ -1,0 +1,24 @@
+
+Ordinary classification techniques can
+drive a conceptually simple constituent
+parser that achieves near state-of-the-art
+accuracy on standard test sets. Here we
+present such a parser, which avoids some
+of the limitations of other discriminative
+parsers. In particular, it does not place
+any restrictions upon which types of fea-
+tures are allowed. We also present sev-
+eral innovations for faster training of dis-
+criminative parsers: we show how train-
+ing can be parallelized, how examples
+can be generated prior to training with-
+out a working parser, and how indepen-
+dently trained sub-classifiers that have
+never done any parsing can be effectively
+combined into a working parser. Finally,
+we propose a new figure-of-merit for best-
+first parsing with confidence-rated infer-
+ences. Our implementation is freely avail-
+able at: http://cs.nyu.edu/?turian/
+software/parser/
+1 

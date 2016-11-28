@@ -1,0 +1,13 @@
+
+The SPMRL 2013 shared task was the op-
+portunity to develop and test, with promising
+results, a simple beam-based shift-reduce de-
+pendency parser on top of the tabular logic
+programming system DYALOG. The parser
+was also extended to handle ambiguous word
+lattices, with almost no loss w.r.t. disam-
+biguated input, thanks to specific training, use
+of oracle segmentation, and large beams. We
+believe that this result is an interesting new
+one for shift-reduce parsing.
+1 

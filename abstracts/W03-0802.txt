@@ -1,0 +1,22 @@
+
+The idea of the Whiteboard project is to integrate
+deep and shallow natural language processing
+components in order to benefit from their synergy.
+The project came up with the first fully integrated
+hybrid system consisting of a fast HPSG parser that
+utilizes tokenization, PoS, morphology, lexical,
+named entity, phrase chunk and (for German)
+topological sentence field analyses from shallow
+components. This integration increases robustness,
+directs the search space and hence reduces
+processing time of the deep parser. In this paper, we
+focus on one of the central integration facilities, the
+XSLT-based Whiteboard Annotation Transformer
+(WHAT), report on the benefits of XSLT-based
+NLP component integration, and present examples
+of XSL transformation of shallow and deep
+annotations used in the integrated architecture. The
+infrastructure is open, portable and well suited for,
+but not restricted to the development of hybrid NLP
+architectures as well as NLP applications.
+1 

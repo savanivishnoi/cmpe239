@@ -1,0 +1,21 @@
+
+Differences between large-scale historical
+population archives and small decentral-
+ized databases can be used to improve data
+quality and record connectedness in both
+types of databases. A parser is developed
+to account for differences in syntax and
+data representation models. A matching
+procedure is described to discover records
+from different databases referring to the
+same historical event. The problem of ver-
+ification without reliable benchmark data
+is addressed by matching on a subset of
+record attributes and measuring support
+for the match using a different subset of
+attributes. An application of the matching
+procedure for comparison of family trees
+is discussed. A visualization tool is de-
+scribed to present an interactive overview
+of comparison results.
+1 

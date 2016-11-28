@@ -1,0 +1,27 @@
+
+Even though NLP tools are widely used for
+contemporary text today, there is a lack of
+tools that can handle historical documents.
+Such tools could greatly facilitate the work
+of researchers dealing with large volumes
+of historical texts. In this paper we pro-
+pose a method for extracting verbs and their
+complements from historical Swedish text,
+using NLP tools and dictionaries developed
+for contemporary Swedish and a set of nor-
+malisation rules that are applied before tag-
+ging and parsing the text. When evaluated
+on a sample of texts from the period 1550?
+1880, this method identifies verbs with an
+F-score of 77.2% and finds a partially or
+completely correct set of complements for
+55.6% of the verbs. Although these re-
+sults are in general lower than for contem-
+porary Swedish, they are strong enough to
+make the approach useful for information
+extraction in historical research. Moreover,
+the exact match rate for complete verb con-
+structions is in fact higher for historical
+texts than for contemporary texts (38.7%
+vs. 30.8%).
+1 

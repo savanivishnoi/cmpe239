@@ -1,0 +1,21 @@
+ 
+We present a translation model based on 
+dependency trees. The model adopts a tree-
+to-string approach and extends Phrase-
+Based translation (PBT) by using the de-
+pendency tree of the source sentence for 
+selecting translation options and for reor-
+dering them. Decoding is done by translat-
+ing each node in the tree and combining its 
+translations with those of its head in alter-
+native orders with respect to its siblings. 
+Reordering of the siblings exploits a heu-
+ristic based on the syntactic information 
+from the parse tree which is learned from 
+the corpus. The decoder uses the same 
+phrase tables produced by a PBT system 
+for looking up translations of single words 
+or of partial sub-trees. A mathematical 
+model is presented and experimental re-
+sults are discussed.  
+1 

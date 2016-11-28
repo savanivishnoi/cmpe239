@@ -1,0 +1,28 @@
+ 
+This paper addresses the issue of text nor-
+malization, an important yet often over-
+looked problem in natural language proc-
+essing. By text normalization, we mean 
+converting ?informally inputted? text into 
+the canonical form, by eliminating ?noises? 
+in the text and detecting paragraph and sen-
+tence boundaries in the text. Previously, 
+text normalization issues were often under-
+taken in an ad-hoc fashion or studied sepa-
+rately. This paper first gives a formaliza-
+tion of the entire problem. It then proposes 
+a unified tagging approach to perform the 
+task using Conditional Random Fields 
+(CRF). The paper shows that with the in-
+troduction of a small set of tags, most of 
+the text normalization tasks can be per-
+formed within the approach. The accuracy 
+of the proposed method is high, because 
+the subtasks of normalization are interde-
+pendent and should be performed together. 
+Experimental results on email data cleaning 
+show that the proposed method signifi-
+cantly outperforms the approach of using 
+cascaded models and that of employing in-
+dependent models. 
+1 

@@ -1,0 +1,10 @@
+. In this paper, a resolution system is presented to tackle nominal and 
+pronominal anaphora in biomedical literature by using rich set of syntactic and 
+semantic features. Unlike previous researches, the verification of semantic as-
+sociation between anaphors and their antecedents is facilitated by exploiting 
+more outer resources, including UMLS, WordNet, GENIA Corpus 3.02p and 
+PubMed. Moreover, the resolution is implemented with a genetic algorithm on 
+its feature selection. Experimental results on different biomedical corpora 
+showed that such approach could achieve promising results on resolving the 
+two common types of anaphora.  
+1   

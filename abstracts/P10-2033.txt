@@ -1,0 +1,19 @@
+
+We study the challenges raised by Ara-
+bic verb and subject detection and re-
+ordering in Statistical Machine Transla-
+tion (SMT). We show that post-verbal sub-
+ject (VS) constructions are hard to trans-
+late because they have highly ambiguous
+reordering patterns when translated to En-
+glish. In addition, implementing reorder-
+ing is difficult because the boundaries of
+VS constructions are hard to detect accu-
+rately, even with a state-of-the-art Arabic
+dependency parser. We therefore propose
+to reorder VS constructions into SV or-
+der for SMT word alignment only. This
+strategy significantly improves BLEU and
+TER scores, even on a strong large-scale
+baseline and despite noisy parses.
+1 

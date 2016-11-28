@@ -1,0 +1,18 @@
+
+This paper proposes an improved approach to extrac-
+tive summarization of spoken multi-party interac-
+tion, in which integrated random walk is performed
+on a graph constructed on topical/ lexical relations.
+Each utterance is represented as a node of the graph,
+and the edges? weights are computed from the topi-
+cal similarity between the utterances, evaluated us-
+ing probabilistic latent semantic analysis (PLSA),
+and from word overlap. We model intra-speaker
+topics by partially sharing the topics from the same
+speaker in the graph. In this paper, we perform ex-
+periments on automatically and manually generated
+transcripts. For automatic transcripts, our results
+show that intra-speaker topic sharing and integrating
+topical/ lexical relations can help include the impor-
+tant utterances.
+1 

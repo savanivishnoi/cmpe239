@@ -1,0 +1,15 @@
+ 
+Systems now exist which are able to con:pile 
+unification gralmnars into language models that 
+can be included in a speech recognizer, but it 
+is so far unclear whether non-trivial linguisti- 
+cally principled gralnlnars can be used for this 
+purpose. We describe a series of experiments 
+which investigate the question empirica.lly, by 
+incrementally constructing a grammar and dis- 
+covering what prot)lems emerge when succes- 
+sively larger versions are compiled into finite 
+state graph representations and used as lan- 
+guage models for a medium-vocabulary recog- 
+nition task. 
+1 

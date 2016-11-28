@@ -1,0 +1,18 @@
+
+Activities on social media increase at a dra-
+matic rate. When an external event happens,
+there is a surge in the degree of activities re-
+lated to the event. These activities may be
+temporally correlated with one another, but
+they may also capture different aspects of an
+event and therefore exhibit different bursty
+patterns. In this paper, we propose to iden-
+tify event-related bursts via social media activ-
+ities. We study how to correlate multiple types
+of activities to derive a global bursty pattern.
+To model smoothness of one state sequence,
+we propose a novel function which can cap-
+ture the state context. The experiments on a
+large Twitter dataset shows our methods are
+very effective.
+1 

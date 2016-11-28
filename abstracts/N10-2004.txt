@@ -1,0 +1,27 @@
+
+This paper demonstrates two annotation
+tools related to Propbank: Cornerstone
+and Jubilee. Propbank is a corpus in
+which the arguments of each verb pred-
+icate are annotated with their semantic
+roles. Propbank annotation also requires
+the choice of a sense id for each predicate,
+defined in the corresponding frameset file.
+Jubilee expedites the annotation process
+by displaying several resources of syntactic
+and semantic information simultaneously;
+easy access to each of these resources al-
+lows the annotator to quickly absorb and
+apply the necessary syntactic and semantic
+information pertinent to each predicate for
+consistent and efficient annotation. Cor-
+nerstone is a user-friendly xml editor, cus-
+tomized to allow frame authors to create
+and edit frameset files. Both tools have
+been successfully adapted to many Prop-
+bank projects; they run platform indepen-
+dently, are light enough to run as X11 ap-
+plications and support multiple languages
+such as Arabic, Chinese, English, Hindi
+and Korean.
+1 

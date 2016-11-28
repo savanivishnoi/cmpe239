@@ -1,0 +1,19 @@
+
+A problem in dialogue research is that of
+finding and managing expectations.
+Adjacency pair theory has widespread
+acceptance, but traditional classification
+features (in particular, ?previous-tag?
+type features) do not exploit this
+information optimally. We suggest a
+method of dialogue segmentation that
+verifies adjacency pairs and allows us to
+use dialogue-level information within the
+entire segment and not just the previous
+utterance. We also use the ?2 test for
+statistical significance as ?noise
+reduction? to refine a list of pairs.
+Together, these methods can be used to
+extend expectation beyond the traditional
+classification features. 
+1 

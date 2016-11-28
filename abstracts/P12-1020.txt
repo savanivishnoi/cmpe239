@@ -1,0 +1,25 @@
+
+During early language acquisition, infants must
+learn both a lexicon and a model of phonet-
+ics that explains how lexical items can vary
+in pronunciation?for instance ?the? might be
+realized as [Di] or [D@]. Previous models of ac-
+quisition have generally tackled these problems
+in isolation, yet behavioral evidence suggests
+infants acquire lexical and phonetic knowledge
+simultaneously. We present a Bayesian model
+that clusters together phonetic variants of the
+same lexical item while learning both a lan-
+guage model over lexical items and a log-linear
+model of pronunciation variability based on ar-
+ticulatory features. The model is trained on
+transcribed surface pronunciations, and learns
+by bootstrapping, without access to the true
+lexicon. We test the model using a corpus of
+child-directed speech with realistic phonetic
+variation and either gold standard or automati-
+cally induced word boundaries. In both cases
+modeling variability improves the accuracy of
+the learned lexicon over a system that assumes
+each lexical item has a unique pronunciation.
+1 

@@ -1,0 +1,15 @@
+
+We address the text-to-text generation prob-
+lem of sentence-level paraphrasing ? a phe-
+nomenon distinct from and more difficult than
+word- or phrase-level paraphrasing. Our ap-
+proach applies multiple-sequence alignment to
+sentences gathered from unannotated compara-
+ble corpora: it learns a set of paraphrasing pat-
+terns represented by word lattice pairs and au-
+tomatically determines how to apply these pat-
+terns to rewrite new sentences. The results of
+our evaluation experiments show that the sys-
+tem derives accurate paraphrases, outperform-
+ing baseline systems.
+1 

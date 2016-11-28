@@ -1,0 +1,31 @@
+
+Sets of lexical items sharing a significant
+aspect of their meaning (concepts) are fun-
+damental for linguistics and NLP. Unsuper-
+vised concept acquisition algorithms have
+been shown to produce good results, and are
+preferable over manual preparation of con-
+cept resources, which is labor intensive, er-
+ror prone and somewhat arbitrary. Some ex-
+isting concept mining methods utilize super-
+vised language-specific modules such as POS
+taggers and computationally intensive parsers.
+In this paper we present an efficient fully
+unsupervised concept acquisition algorithm
+that uses syntactic information obtained from
+a fully unsupervised parser. Our algorithm
+incorporates the bracketings induced by the
+parser into the meta-patterns used by a sym-
+metric patterns and graph-based concept dis-
+covery algorithm. We evaluate our algorithm
+on very large corpora in English and Russian,
+using both human judgments and WordNet-
+based evaluation. Using similar settings as
+the leading fully unsupervised previous work,
+we show a significant improvement in con-
+cept quality and in the extraction of multiword
+expressions. Our method is the first to use
+fully unsupervised parsing for unsupervised
+concept discovery, and requires no language-
+specific tools or pattern/word seeds.
+1 

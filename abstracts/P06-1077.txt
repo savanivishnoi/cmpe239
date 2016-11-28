@@ -1,0 +1,20 @@
+
+We present a novel translation model
+based on tree-to-string alignment template
+(TAT) which describes the alignment be-
+tween a source parse tree and a target
+string. A TAT is capable of generating
+both terminals and non-terminals and per-
+forming reordering at both low and high
+levels. The model is linguistically syntax-
+based because TATs are extracted auto-
+matically from word-aligned, source side
+parsed parallel texts. To translate a source
+sentence, we first employ a parser to pro-
+duce a source parse tree and then ap-
+ply TATs to transform the tree into a tar-
+get string. Our experiments show that
+the TAT-based model significantly outper-
+forms Pharaoh, a state-of-the-art decoder
+for phrase-based models.
+1 

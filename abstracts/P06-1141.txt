@@ -1,0 +1,36 @@
+
+This paper shows that a simple two-stage
+approach to handle non-local dependen-
+cies in Named Entity Recognition (NER)
+can outperform existing approaches that
+handle non-local dependencies, while be-
+ing much more computationally efficient.
+NER systems typically use sequence mod-
+els for tractable inference, but this makes
+them unable to capture the long distance
+structure present in text. We use a Con-
+ditional Random Field (CRF) based NER
+system using local features to make pre-
+dictions and then train another CRF which
+uses both local information and features
+extracted from the output of the first CRF.
+Using features capturing non-local depen-
+dencies from the same document, our ap-
+proach yields a 12.6% relative error re-
+duction on the F1 score, over state-of-the-
+art NER systems using local-information
+alone, when compared to the 9.3% relative
+error reduction offered by the best systems
+that exploit non-local information. Our
+approach also makes it easy to incorpo-
+rate non-local information from other doc-
+uments in the test corpus, and this gives
+us a 13.3% error reduction over NER sys-
+tems using local-information alone. Ad-
+ditionally, our running time for inference
+is just the inference time of two sequen-
+tial CRFs, which is much less than that
+of other more complicated approaches that
+directly model the dependencies and do
+approximate inference.
+1 

@@ -1,0 +1,23 @@
+
+The proper interpretation of prepositions
+is an important issue for automatic natu-
+ral language understanding. We present
+an approach towards PP interpretation as
+part of a natural language understanding
+system which has been successfully em-
+ployed in various NLP tasks for informa-
+tion retrieval and question answering. Our
+approach is based on the so-called Multi-
+Net paradigm, a knowledge representation
+formalism especially designed for the rep-
+resentation of natural language semantics.
+The paper describes how the information
+about the semantic interpretation of PPs is
+represented in the lexicon and in PP inter-
+pretation rules and how this information
+is used during semantic analysis. More-
+over, we report on experiments that eval-
+uate the impact of using this information
+about PP interpretation on the CLEF ques-
+tion answering task.
+1 

@@ -1,0 +1,14 @@
+
+We present two modules for the recogni-
+tion and annotation of temporal expres-
+sions and events in French texts accord-
+ing to the TimeML specification language.
+The Temporal Expression Tagger we have
+developed is based on a large coverage
+cascade of finite state transducers and our
+Event Tagger on a set of simple heuris-
+tics applied over local context in a chunked
+text. We present results of a preliminary
+evaluation and compare them with those
+obtained by a similar system.
+1 

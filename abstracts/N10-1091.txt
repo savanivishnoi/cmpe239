@@ -1,0 +1,19 @@
+
+Previous work on dependency parsing used
+various kinds of combination models but a
+systematic analysis and comparison of these
+approaches is lacking. In this paper we imple-
+mented such a study for English dependency
+parsing and find several non-obvious facts: (a)
+the diversity of base parsers is more important
+than complex models for learning (e.g., stack-
+ing, supervised meta-classification), (b) ap-
+proximate, linear-time re-parsing algorithms
+guarantee well-formed dependency trees with-
+out significant performance loss, and (c) the
+simplest scoring model for re-parsing (un-
+weighted voting) performs essentially as well
+as other more complex models. This study
+proves that fast and accurate ensemble parsers
+can be built with minimal effort.
+1 

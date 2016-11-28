@@ -1,0 +1,33 @@
+ 
+In this paper the development of an opi-
+nion summarization system that works on 
+Bengali News corpus has been described. 
+The system identifies the sentiment in-
+formation in each document, aggregates 
+them and represents the summary infor-
+mation in text. The present sys-tem fol-
+lows a topic-sentiment model for senti-
+ment identification and aggregation. Top-
+ic-sentiment model is designed as dis-
+course level theme identification and the 
+topic-sentiment aggregation is achieved 
+by theme clustering (k-means) and Doc-
+ument level Theme Relational Graph re-
+presentation. The Document Level 
+Theme Relational Graph is finally used 
+for candidate summary sentence selection 
+by standard page rank algorithms used in 
+Information Retrieval (IR). As Bengali is 
+a resource constrained language, the 
+building of annotated gold standard cor-
+pus and acquisition of linguistics tools 
+for lexico-syntactic, syntactic and dis-
+course level features extraction are de-
+scribed in this paper. The reported accu-
+racy of the Theme detection technique is 
+83.60% (precision), 76.44% (recall) and 
+79.85% (F-measure). The summarization 
+system has been evaluated with Precision 
+of 72.15%, Recall of 67.32% and F-
+measure of 69.65%. 
+1 

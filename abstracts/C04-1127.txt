@@ -1,0 +1,18 @@
+
+In this paper, we discuss the performance of cross-
+lingual information extraction systems employing
+an automatic pattern acquisition module. This mod-
+ule, which creates extraction patterns starting from
+a user?s narrative task description, allows rapid cus-
+tomization to new extraction tasks. We compare two
+approaches: (1) acquiring patterns in the source lan-
+guage, performing source language extraction, and
+then translating the resulting templates to the tar-
+get language, and (2) translating the texts and per-
+forming pattern discovery and extraction in the tar-
+get language. We demonstrate an average of 8-10%
+more recall using the first approach. We discuss
+some of the problems with machine translation and
+their effect on pattern discovery which lead to this
+difference in performance.
+1 

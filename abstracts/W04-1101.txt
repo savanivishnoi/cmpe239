@@ -1,0 +1,23 @@
+ 
+The comma is the most common form of 
+punctuation. As such, it may have the 
+greatest effect on the syntactic analysis of a 
+sentence. As an isolate language, Chinese 
+sentences have fewer cues for parsing. The 
+clues for segmentation of a long Chinese 
+sentence are even fewer. However, the av-
+erage frequency of comma usage in Chi-
+nese is higher than other languages. The 
+comma plays an important role in long 
+Chinese sentence segmentation. This paper 
+proposes a method for classifying commas 
+in Chinese sentences by their context, then 
+segments a long sentence according to the 
+classification results. Experimental results 
+show that accuracy for the comma classifi-
+cation reaches 87.1 percent, and with our 
+segmentation model, our parser?s depend-
+ency parsing accuracy improves by 9.6 per-
+cent.  
+ 
+1 

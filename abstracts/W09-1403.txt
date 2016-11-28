@@ -1,0 +1,19 @@
+
+We describe the approach to event extrac-
+tion which the JULIELab Team from FSU
+Jena (Germany) pursued to solve Task 1 in
+the ?BioNLP?09 Shared Task on Event Ex-
+traction?. We incorporate manually curated
+dictionaries and machine learning method-
+ologies to sort out associated event triggers
+and arguments on trimmed dependency graph
+structures. Trimming combines pruning ir-
+relevant lexical material from a dependency
+graph and decorating particularly relevant lex-
+ical material from that graph with more ab-
+stract conceptual class information. Given
+that methodological framework, the JULIELab
+Team scored on 2nd rank among 24 competing
+teams, with 45.8% precision, 47.5% recall and
+46.7% F1-score on all 3,182 events.
+1 

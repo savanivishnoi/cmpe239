@@ -1,0 +1,26 @@
+
+We propose an approach to natural lan-
+guage inference based on a model of nat-
+ural logic, which identifies valid infer-
+ences by their lexical and syntactic fea-
+tures, without full semantic interpretation.
+We greatly extend past work in natural
+logic, which has focused solely on seman-
+tic containment and monotonicity, to in-
+corporate both semantic exclusion and im-
+plicativity. Our system decomposes an in-
+ference problem into a sequence of atomic
+edits linking premise to hypothesis; pre-
+dicts a lexical entailment relation for each
+edit using a statistical classifier; propagates
+these relations upward through a syntax
+tree according to semantic properties of in-
+termediate nodes; and composes the result-
+ing entailment relations across the edit se-
+quence. We evaluate our system on the
+FraCaS test suite, and achieve a 27% re-
+duction in error from previous work. We
+also show that hybridizing an existing RTE
+system with our natural logic system yields
+significant gains on the RTE3 test suite.
+1 

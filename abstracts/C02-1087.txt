@@ -1,0 +1,20 @@
+  
+In this paper we propose an integration of a 
+selforganizing map and semantic networks 
+from WordNet for a text classification task 
+using the new Reuters news corpus.  This 
+neural model is based on significance vectors 
+and benefits from the presentation of 
+document clusters.  The Hypernym relation 
+in WordNet supplements the neural model in 
+classification.  We also analyse the 
+relationships of news headlines and their 
+contents of the new Reuters corpus by a 
+series of experiments.  This hybrid approach 
+of neural selforganization and symbolic 
+hypernym relationships is successful to 
+achieve good classification rates on 100,000 
+full-text news articles.  These results 
+demonstrate that this approach can scale up 
+to a large real-world task and show a lot of 
+potential for text classification. 

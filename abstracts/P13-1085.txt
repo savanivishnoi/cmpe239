@@ -1,0 +1,22 @@
+
+Subcategorization frames (SCFs), selec-
+tional preferences (SPs) and verb classes
+capture related aspects of the predicate-
+argument structure. We present the first
+unified framework for unsupervised learn-
+ing of these three types of information.
+We show how to utilize Determinantal
+Point Processes (DPPs), elegant proba-
+bilistic models that are defined over the
+possible subsets of a given dataset and
+give higher probability mass to high qual-
+ity and diverse subsets, for clustering. Our
+novel clustering algorithm constructs a
+joint SCF-DPP DPP kernel matrix and uti-
+lizes the efficient sampling algorithms of
+DPPs to cluster together verbs with sim-
+ilar SCFs and SPs. We evaluate the in-
+duced clusters in the context of the three
+tasks and show results that are superior to
+strong baselines for each 1.
+1 

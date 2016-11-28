@@ -1,0 +1,19 @@
+
+We introduce the novel problem of auto-
+matic related work summarization. Given
+multiple articles (e.g., conference/journal
+papers) as input, a related work sum-
+marization system creates a topic-biased
+summary of related work specific to the
+target paper. Our prototype Related Work
+Summarization system, ReWoS, takes in
+set of keywords arranged in a hierarchical
+fashion that describes a target paper?s top-
+ics, to drive the creation of an extractive
+summary using two different strategies for
+locating appropriate sentences for general
+topics as well as detailed ones. Our initial
+results show an improvement over generic
+multi-document summarization baselines
+in a human evaluation.
+1 

@@ -1,0 +1,19 @@
+
+This paper presents a two-step approach to
+compress spontaneous spoken utterances. In
+the first step, we use a sequence labeling
+method to determine if a word in the utterance
+can be removed, and generate n-best com-
+pressed sentences. In the second step, we
+use a discriminative training approach to cap-
+ture sentence level global information from
+the candidates and rerank them. For evalua-
+tion, we compare our system output with mul-
+tiple human references. Our results show that
+the new features we introduced in the first
+compression step improve performance upon
+the previous work on the same data set, and
+reranking is able to yield additional gain, espe-
+cially when training is performed to take into
+account multiple references.
+1 

@@ -1,0 +1,19 @@
+ 
+In this paper we are concerned with 
+identifying the topics of sentences in Chinese 
+texts. The key elements of the centering model 
+of local discourse coherence are employed to 
+identify the topic which is the most salient 
+element in a Chinese sentence. Due to the 
+phenomenon of zero anaphora occurring in 
+Chinese texts frequently, in addition to the 
+centering model, we further employ the 
+constraint rules to identify the antecedents of 
+zero anaphors. Unlike most traditional 
+approaches to parsing sentences based on the 
+integration of complex linguistic information 
+and domain knowledge, we work on the 
+output of a part-of-speech tagger and use 
+shallow parsing instead of complex parsing to 
+identify the topics from sentences. 
+1 

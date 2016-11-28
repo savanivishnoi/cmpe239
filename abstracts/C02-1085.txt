@@ -1,0 +1,13 @@
+
+For multi-document summarization where docu-
+ments are collected over an extended period of time,
+the subject in a document changes over time. This
+paper focuses on subject shift and presents a method
+for extracting key paragraphs from documents that
+discuss the same event. Our extraction method uses
+the results of event tracking which starts from a few
+sample documents and finds all subsequent docu-
+ments that discuss the same event. The method was
+tested on the TDT1 corpus, and the result shows the
+effectiveness of the method.
+1 

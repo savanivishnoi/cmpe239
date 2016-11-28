@@ -1,0 +1,17 @@
+. Automatic image annotation is a newly developed and promising 
+technique to provide semantic image retrieval via text descriptions. It concerns 
+a process of automatically labeling the image contents with a pre-defined set of 
+keywords which are exploited to represent the image semantics. A Maximum 
+Entropy Model-based approach to the task of automatic image annotation is 
+proposed in this paper. In the phase of training, a basic visual vocabulary con-
+sisting of blob-tokens to describe the image content is generated at first; then 
+the statistical relationship is modeled between the blob-tokens and keywords by 
+a Maximum Entropy Model constructed from the training set of labeled images. 
+In the phase of annotation, for an unlabeled image, the most likely associated 
+keywords are predicted in terms of the blob-token set extracted from the given 
+image. We carried out experiments on a medium-sized image collection with 
+about 5000 images from Corel Photo CDs. The experimental results demon-
+strated that the annotation performance of this method outperforms some tradi-
+tional annotation methods by about 8% in mean precision, showing a potential 
+of the Maximum Entropy Model in the task of automatic image annotation. 
+1   

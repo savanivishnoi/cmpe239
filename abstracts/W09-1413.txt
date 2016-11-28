@@ -1,0 +1,14 @@
+
+In this paper, we present BioEve a fully auto-
+mated event extraction system for bio-medical
+text. It first semantically classifies each sen-
+tence to the class type of the event mentioned
+in the sentence, and then using high coverage
+hand-crafted rules, it extracts the participants
+of that event. We participated in Task 1 of
+BioNLP 2009 Shared task, and the final eval-
+uation results are described here. Our exper-
+imentation with different approaches to clas-
+sify a sentence to bio-interaction classes are
+also shared.
+1 

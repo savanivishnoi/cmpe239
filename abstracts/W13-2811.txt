@@ -1,0 +1,33 @@
+ 
+This paper presents a hybrid approach to the 
+enhancement of English to Arabic statistical 
+machine translation quality. Machine Transla-
+tion has been defined as the process that utiliz-
+es computer software to translate text from one 
+natural language to another. Arabic, as a mor-
+phologically rich language, is a highly flex-
+ional language, in that the same root can lead 
+to various forms according to its context. Sta-
+tistical machine translation (SMT) engines of-
+ten show poor syntax processing especially 
+when the language used is morphologically 
+rich such as Arabic. In this paper, to overcome 
+these shortcomings, we describe our hybrid 
+approach which integrates knowledge of the 
+Arabic language into statistical machine trans-
+lation. In this framework, we propose the use 
+of a featured language model SFLM (Sma?li et 
+al., 2004) to be able to integrate syntactic and 
+grammatical knowledge about each word. In 
+this paper, we first discuss some challenges in 
+translating from English to Arabic and we ex-
+plore various techniques to improve perfor-
+mance on this task. We apply a morphological 
+segmentation step for Arabic words and we 
+present our hybrid approach by identifying 
+morpho-syntactic class of each segmented 
+word to build up our statistical feature lan-
+guage model. We propose the scheme for re-
+combining the segmented Arabic word, and 
+describe their effect on translation. 
+1 

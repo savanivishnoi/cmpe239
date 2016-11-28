@@ -1,0 +1,24 @@
+
+Word relation features, which encode 
+relation information between words, are 
+supposed to be effective features for 
+sentiment classification. However, the 
+use of word relation features suffers 
+from two issues. One is the sparse-data 
+problem and the lack of generalization 
+performance; the other is the limitation 
+of using word relations as additional 
+features to unigrams. To address the two 
+issues, we propose a generalized word 
+relation feature extraction method and 
+an ensemble model to efficiently inte-
+grate unigrams and different type of 
+word relation features. Furthermore, 
+aimed at reducing the computation 
+complexity, we propose two fast feature 
+selection methods that are specially de-
+signed for word relation features. A 
+range of experiments are conducted to 
+evaluate the effectiveness and efficiency 
+of our approaches. 
+1 

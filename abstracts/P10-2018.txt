@@ -1,0 +1,24 @@
+
+In predicate-argument structure analysis,
+it is important to capture non-local de-
+pendencies among arguments and inter-
+dependencies between the sense of a pred-
+icate and the semantic roles of its argu-
+ments. However, no existing approach ex-
+plicitly handles both non-local dependen-
+cies and semantic dependencies between
+predicates and arguments. In this pa-
+per we propose a structured model that
+overcomes the limitation of existing ap-
+proaches; the model captures both types of
+dependencies simultaneously by introduc-
+ing four types of factors including a global
+factor type capturing non-local dependen-
+cies among arguments and a pairwise fac-
+tor type capturing local dependencies be-
+tween a predicate and an argument. In
+experiments the proposed model achieved
+competitive results compared to the state-
+of-the-art systems without applying any
+feature selection procedure.
+1 

@@ -1,0 +1,19 @@
+
+We participate in the BioNLP 2013 Shared
+Task with Turku Event Extraction System
+(TEES) version 2.1. TEES is a support
+vector machine (SVM) based text mining
+system for the extraction of events and re-
+lations from natural language texts. In ver-
+sion 2.1 we introduce an automated an-
+notation scheme learning system, which
+derives task-specific event rules and con-
+straints from the training data, and uses
+these to automatically adapt the system
+for new corpora with no additional pro-
+gramming required. TEES 2.1 is shown to
+have good generalizability and good per-
+formance across the BioNLP 2013 task
+corpora, achieving first place in four out
+of eight tasks.
+1 

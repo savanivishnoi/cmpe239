@@ -1,0 +1,17 @@
+
+Text document clustering can greatly simplify
+browsing large collections of documents by re-
+organizing them into a smaller number of man-
+ageable clusters. Algorithms to solve this task
+exist; however, the algorithms are only as good
+as the data they work on. Problems include am-
+biguity and synonymy, the former allowing for
+erroneous groupings and the latter causing sim-
+ilarities between documents to go unnoticed. In
+this research, na??ve, syntax-based disambigua-
+tion is attempted by assigning each word a
+part-of-speech tag and by enriching the ?bag-of-
+words? data representation often used for docu-
+ment clustering with synonyms and hypernyms
+from WordNet.
+1 

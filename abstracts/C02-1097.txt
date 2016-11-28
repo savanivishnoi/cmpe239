@@ -1,0 +1,41 @@
+  
+It is popular in WSD to use contextual 
+information in training sense tagged data. 
+Co-occurring words within a limited 
+window-sized context support one sense 
+among the semantically ambiguous ones of 
+the word. This paper reports on word sense 
+disambiguation of English words using 
+static and dynamic sense vectors. First, 
+context vectors are constructed using 
+contextual words 1  in the training sense 
+tagged data. Then, the words in the context 
+vector are weighted with local density. 
+Using the whole training sense tagged data, 
+each sense of a target word2 is represented 
+as a static sense vector in word space, which 
+is the centroid of the context vectors. Then 
+contextual noise is removed using a 
+automatic selective sampling. A automatic 
+selective sampling method use information 
+retrieval technique, so as to enhance the 
+discriminative power. In each test case, a 
+automatic selective sampling method 
+retrieves N relevant training samples to 
+reduce noise. Using them, we construct 
+another sense vectors for each sense of the 
+target word. They are called dynamic sense 
+vectors because they are changed according 
+to a target word and its context. Finally, a 
+word sense of a target word is determined 
+using static and dynamic sense vectors. The 
+English SENSEVAL test suit is used for this 
+experimentation and our method produces 
+relatively good results. 
+                                                     
+1
+ ?Contextual words? is defined as a list of content 
+words in context. 
+2
+ In this paper, a target word ?Wt? is a semantically 
+1. 

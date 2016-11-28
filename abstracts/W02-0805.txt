@@ -1,0 +1,21 @@
+
+We report on an empirical study of sense
+relations in the Senseval-2 test suite. We
+apply and extend the method described
+in (Resnik and Yarowsky, 1999), estimat-
+ing proximity of sense pairs from the evi-
+dence collected from native-speaker trans-
+lations of 508 contexts across 4 Indoeu-
+ropean languages representing 3 language
+families. A control set composed of 65
+contexts has also been annotated in 12
+languages (including 2 non-Indoeuropean
+languages) in order to estimate the corre-
+lation between parallel polysemy and lan-
+guage family distance. A new parame-
+ter, sense stability, is introduced to assess
+the homogeneity of each individual sense
+definition. Finally, we combine the sense
+proximity estimation with a classification
+of semantic relations between senses.
+1 

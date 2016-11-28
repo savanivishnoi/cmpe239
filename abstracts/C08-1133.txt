@@ -1,0 +1,30 @@
+ 
+Annotated corpora are only useful if their 
+annotations are consistent.  Most large-scale 
+annotation efforts take special measures to 
+reconcile inter-annotator disagreement. To 
+date, however, no-one has investigated how 
+to automatically determine exemplars in 
+which the annotators agree but are wrong. In 
+this paper, we use OntoNotes, a large-scale 
+corpus of semantic annotations, including 
+word senses, predicate-argument structure, 
+ontology linking, and coreference. To de-
+termine the mistaken agreements in word 
+sense annotation, we employ word sense 
+disambiguation (WSD) to select a set of 
+suspicious candidates for human evaluation. 
+Experiments are conducted from three as-
+pects (precision, cost-effectiveness ratio, and 
+entropy) to examine the performance of 
+WSD. The experimental results show that 
+WSD is most effective on identifying erro-
+neous annotations for highly-ambiguous 
+words, while a baseline is better for other 
+cases. The two methods can be combined to 
+improve the cleanup process. This procedure 
+allows us to find approximately 2% remain-
+ing erroneous agreements in the OntoNotes 
+corpus. A similar procedure can be easily 
+defined to check other annotated corpora. 
+1 

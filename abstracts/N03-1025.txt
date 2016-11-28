@@ -1,0 +1,19 @@
+
+We present a simple method for language inde-
+pendent and task independent text categoriza-
+tion learning, based on character-level n-gram
+language models. Our approach uses simple
+information theoretic principles and achieves
+effective performance across a variety of lan-
+guages and tasks without requiring feature se-
+lection or extensive pre-processing. To demon-
+strate the language and task independence of
+the proposed technique, we present experimen-
+tal results on several languages?Greek, En-
+glish, Chinese and Japanese?in several text
+categorization problems?language identifica-
+tion, authorship attribution, text genre classifi-
+cation, and topic detection. Our experimental
+results show that the simple approach achieves
+state of the art performance in each case.
+1 

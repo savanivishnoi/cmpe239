@@ -1,0 +1,28 @@
+ 
+This paper describes the supervised ac-
+quisition of semantic event frames  based 
+on a corpus of biomedical abstracts, in 
+which the biological process of E. coli 
+gene regulation has been linguistically 
+annotated by a group of biologists in the 
+EC research project "BOOTStrep". Gene 
+regulation is one of the rapidly advancing 
+areas for which information extraction 
+could boost research. Event frames are an 
+essential linguistic resource for extraction 
+of information from biological literature.  
+This paper presents a specification for 
+linguistic-level annotation of gene regu-
+lation events, followed by novel methods 
+of automatic event frame extraction from 
+text.  The event frame extraction per-
+formance has been evaluated with 10-
+fold cross validation.  The experimental 
+results show that a precision of nearly 
+50% and a recall of around 20% are 
+achieved.  Since the goal of this paper is 
+event frame extraction, rather than event 
+instance extraction, the issue of low re-
+call could be solved by applying the 
+methods to a larger-scale corpus. 
+1 

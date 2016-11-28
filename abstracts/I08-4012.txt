@@ -1,0 +1,25 @@
+ 
+This paper presents the Chinese word 
+segmentation system developed by NOKIA 
+Research Center (NRC), which was 
+evaluated in the Fourth International 
+Chinese Language Processing Bakeoff and 
+the First CIPS Chinese Language 
+Processing Evaluation organized by 
+SIGHAN. In our system, a preprocessing 
+module was used to discover the out-of-
+vocabulary words which occur repeatedly 
+in the text, then an improved n-gram model 
+was used for segmentation and some post 
+processing strategies are adopted in system 
+to recognize the organization names and 
+new words. We took part in three tracks, 
+which are called the open and closed track 
+on corpora State Language Commission of 
+P.R.C. (NCC), and closed track on corpora 
+Shanxi University (SXU). Our system 
+achieved good performance, especially in 
+the open track on NCC, our system ranks 
+1st among 11 systems. 
+ 
+1 

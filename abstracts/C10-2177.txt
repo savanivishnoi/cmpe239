@@ -1,0 +1,20 @@
+
+This paper studies the problem of im-
+posing a known hierarchical structure
+onto an unstructured spoken document,
+aiming to help browse such archives.
+We formulate our solutions within a
+dynamic-programming-based alignment
+framework and use minimum error-
+rate training to combine a number of
+global and hierarchical constraints. This
+pragmatic approach is computationally
+efficient. Results show that it outperforms
+a baseline that ignores the hierarchical
+and global features and the improvement
+is consistent on transcripts with different
+WERs. Directly imposing such hierar-
+chical structures onto raw speech without
+using transcripts yields competitive
+results.
+1 

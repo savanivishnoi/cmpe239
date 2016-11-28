@@ -1,0 +1,20 @@
+
+Several sets of explanatory variables ? in-
+cluding shallow, language modeling, POS,
+syntactic, and discourse features ? are com-
+pared and evaluated in terms of their im-
+pact on predicting the grade level of read-
+ing material for primary school students.
+We find that features based on in-domain
+language models have the highest predic-
+tive power. Entity-density (a discourse fea-
+ture) and POS-features, in particular nouns,
+are individually very useful but highly cor-
+related. Average sentence length (a shal-
+low feature) is more useful ? and less ex-
+pensive to compute ? than individual syn-
+tactic features. A judicious combination
+of features examined here results in a sig-
+nificant improvement over the state of the
+art.
+1 

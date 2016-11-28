@@ -1,0 +1,19 @@
+
+Many language processing tasks can be re-
+duced to breaking the text into segments
+with prescribed properties. Such tasks
+include sentence splitting, tokenization,
+named-entity extraction, and chunking.
+We present a new model of text segmenta-
+tion based on ideas from multilabel clas-
+sification. Using this model, we can natu-
+rally represent segmentation problems in-
+volving overlapping and non-contiguous
+segments. We evaluate the model on en-
+tity extraction and noun-phrase chunking
+and show that it is more accurate for over-
+lapping and non-contiguous segments, but
+it still performs well on simpler data sets
+for which sequential tagging has been the
+best method.
+1 

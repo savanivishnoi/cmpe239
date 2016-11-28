@@ -1,0 +1,25 @@
+
+The objective of this work is to
+disambiguate transducers which have
+the following form: T = R ?D and to
+be able to apply the determinization
+algorithm described in (Mohri, 1997).
+Our approach to disambiguating
+T = R ?D consists first of computing
+the composition T and thereafter to
+disambiguate the transducer T . We
+will give an important consequence of
+this result that allows us to compose
+any number of transducers R with
+the transducer D, in contrast to the
+previous approach which consisted in
+first disambiguating transducers D
+and R to produce respectively D? and
+R? , then computing T ? = R? ?D? where
+T ? is unambiguous. We will present
+results in the case of a transducer
+D representing a dictionary and R
+representing phonological rules.
+Keywords: ambiguity, determinis-
+tic, dictionary, transducer.
+1 

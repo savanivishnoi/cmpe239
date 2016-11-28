@@ -1,0 +1,20 @@
+
+In this paper, we look at the problem of robust
+detection of a very productive class of Asian
+style emoticons, known as facemarks or kao-
+moji. We demonstrate the frequency and pro-
+ductivity of these sequences in social media
+such as Twitter. Previous approaches to detec-
+tion and analysis of kaomoji have placed lim-
+its on the range of phenomena that could be
+detected with their method, and have looked
+at largely monolingual evaluation sets (e.g.,
+Japanese blogs). We find that these emoticons
+occur broadly in many languages, hence our
+approach is language agnostic. Rather than
+relying on regular expressions over a prede-
+fined set of likely tokens, we build weighted
+context-free grammars that reward graphical
+affinity and symmetry within whatever sym-
+bols are used to construct the emoticon.
+1 

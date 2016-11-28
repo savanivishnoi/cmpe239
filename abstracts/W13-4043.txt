@@ -1,0 +1,24 @@
+
+In this paper, we propose a framework for
+conversational robots that facilitates four-
+participant groups. In three-participant con-
+versations, the minimum unit for multiparty
+conversations, social imbalance, in which a
+participant is left behind in the current conver-
+sation, sometimes occurs. In such scenarios, a
+conversational robot has the potential to facili-
+tate situations as the fourth participant. Conse-
+quently, we present model procedures for ob-
+taining conversational initiatives in incremen-
+tal steps to engage such four-participant con-
+versations. During the procedures, a facilitator
+must be aware of both the presence of dom-
+inant participants leading the current conver-
+sation and the status of any participant that is
+left behind. We model and optimize these situ-
+ations and procedures as a partially observable
+Markov decision process. The results of ex-
+periments conducted to evaluate the proposed
+procedures show evidence of their acceptabil-
+ity and feeling of groupness.
+1 

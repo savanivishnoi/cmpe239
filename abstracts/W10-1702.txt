@@ -1,0 +1,17 @@
+ 
+This paper presents a fast consensus hy-
+pothesis regeneration approach for ma-
+chine translation. It combines the advan-
+tages of feature-based fast consensus de-
+coding and hypothesis regeneration.  Our 
+approach is more efficient than previous 
+work on hypothesis regeneration, and it 
+explores a wider search space than con-
+sensus decoding, resulting in improved 
+performance.  Experimental results show 
+consistent improvements across language 
+pairs, and an improvement of up to 0.72 
+BLEU is obtained over a competitive 
+single-pass baseline on the Chinese-to-
+English NIST task. 
+1 

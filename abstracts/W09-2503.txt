@@ -1,0 +1,30 @@
+
+The ability to generate or to recognize
+paraphrases is key to the vast majority of
+NLP applications. As correctly exploit-
+ing context during translation has been
+shown to be successful, using context in-
+formation for paraphrasing could also lead
+to improved performance. In this arti-
+cle, we adopt the pivot approach based
+on parallel multilingual corpora proposed
+by (Bannard and Callison-Burch, 2005),
+which finds short paraphrases by finding
+appropriate pivot phrases in one or several
+auxiliary languages and back-translating
+these pivot phrases into the original lan-
+guage. We show how context can be ex-
+ploited both when attempting to find pivot
+phrases, and when looking for the most
+appropriate paraphrase in the original sub-
+sentential ?envelope?. This framework al-
+lows the use of paraphrasing units ranging
+from words to large sub-sentential frag-
+ments for which context information from
+the sentence can be successfully exploited.
+We report experiments on a text revision
+task, and show that in these experiments
+our contextual sub-sentential paraphrasing
+system outperforms a strong baseline sys-
+tem.
+1 

@@ -1,0 +1,17 @@
+
+One of the central challenges in sentiment-
+based text categorization is that not ev-
+ery portion of a document is equally in-
+formative for inferring the overall senti-
+ment of the document. Previous research
+has shown that enriching the sentiment la-
+bels with human annotators? ?rationales?
+can produce substantial improvements in
+categorization performance (Zaidan et al,
+2007). We explore methods to auto-
+matically generate annotator rationales for
+document-level sentiment classification.
+Rather unexpectedly, we find the automat-
+ically generated rationales just as helpful
+as human rationales.
+1 

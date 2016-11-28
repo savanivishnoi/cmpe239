@@ -1,0 +1,19 @@
+
+This paper assesses the role of multi-label
+classification in modelling polysemy for lan-
+guage acquisition tasks. We focus on the ac-
+quisition of semantic classes for Catalan ad-
+jectives, and show that polysemy acquisition
+naturally suits architectures used for multi-
+label classification. Furthermore, we ex-
+plore the performance of information drawn
+from different levels of linguistic descrip-
+tion, using feature sets based on morphol-
+ogy, syntax, semantics, and n-gram distribu-
+tion. Finally, we demonstrate that ensemble
+classifiers are a powerful and adequate way
+to combine different types of linguistic ev-
+idence: a simple, majority voting ensemble
+classifier improves the accuracy from 62.5%
+(best single classifier) to 84%.
+1 

@@ -1,0 +1,20 @@
+
+Participants in a conversation are normally re-
+ceptive to their surroundings and their inter-
+locutors, even while they are speaking and can,
+if necessary, adapt their ongoing utterance. Typ-
+ical dialogue systems are not receptive and can-
+not adapt while uttering. We present combin-
+able components for incremental natural lan-
+guage generation and incremental speech syn-
+thesis and demonstrate the flexibility they can
+achieve with an example system that adapts to
+a listener?s acoustic understanding problems
+by pausing, repeating and possibly rephrasing
+problematic parts of an utterance. In an eval-
+uation, this system was rated as significantly
+more natural than two systems representing the
+current state of the art that either ignore the
+interrupting event or just pause; it also has a
+lower response time.
+1 

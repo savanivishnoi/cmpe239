@@ -1,0 +1,29 @@
+
+Parallel corpus is a valuable resource used
+in various fields of multilingual natural
+language processing. One of the most
+significant problems in using parallel cor-
+pora is the lack of their availability. Re-
+searchers have investigated approaches to
+collecting parallel texts from the Web. A
+basic component of these approaches is
+an algorithm that judges whether a pair
+of texts is parallel or not. In this paper,
+we propose an algorithm that accelerates
+this task without losing accuracy by pre-
+processing a bilingual dictionary as well
+as the collection of texts. This method
+achieved 250,000 pairs/sec throughput on
+a single CPU, with the best F1 score
+of 0.960 for the task of detecting 200
+Japanese-English translation pairs out of
+40, 000. The method is applicable to texts
+of any format, and not specific to HTML
+documents labeled with URLs. We report
+details of these preprocessing methods and
+the fast comparison algorithm. To the
+best of our knowledge, this is the first re-
+ported experiment of extracting Japanese?
+English parallel texts from a large corpora
+based solely on linguistic content.
+1 

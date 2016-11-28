@@ -1,0 +1,18 @@
+
+This paper proposes a novel method to extract
+paraphrases of Japanese noun phrases from a
+set of documents. The proposed method con-
+sists of three steps: (1) retrieving passages us-
+ing character-based index terms given a noun
+phrase as an input query, (2) filtering the re-
+trieved passages with syntactic and seman-
+tic constraints, and (3) ranking the passages
+and reformatting them into grammatical forms.
+Experiments were conducted to evaluate the
+method by using 53 noun phrases and three
+years worth of newspaper articles. The ac-
+curacy of the method needs to be further im-
+proved for fully automatic paraphrasing but the
+proposed method can extract novel paraphrases
+which past approaches could not.
+1 

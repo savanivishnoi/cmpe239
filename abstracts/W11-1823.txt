@@ -1,0 +1,18 @@
+
+We introduce our incremental coreference res-
+olution system for the BioNLP 2011 Shared
+Task on Protein/Gene interaction. The benefits
+of an incremental architecture over a mention-
+pair model are: a reduction of the number
+of candidate pairs, a means to overcome the
+problem of underspecified items in pair-wise
+classification and the natural integration of
+global constraints such as transitivity. A fil-
+tering system takes into account specific fea-
+tures of different anaphora types. We do not
+apply Machine Learning, instead the system
+classifies with an empirically derived salience
+measure based on the dependency labels of the
+true mentions. The OntoGene pipeline is used
+for preprocessing.
+1 

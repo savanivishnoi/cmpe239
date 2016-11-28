@@ -1,0 +1,34 @@
+ 
+Traditionally, word sense disambiguation 
+(WSD) involves a different context classifi-
+cation model for each individual word. This 
+paper presents a weakly supervised learning 
+approach to WSD based on learning a word 
+independent context pair classification 
+model. Statistical models are not trained for 
+classifying the word contexts, but for classi-
+fying a pair of contexts, i.e. determining if a 
+pair of contexts of the same ambiguous word 
+refers to the same or different senses. Using 
+this approach, annotated corpus of a target 
+word A can be explored to disambiguate 
+senses of a different word B. Hence, only a 
+limited amount of existing annotated corpus 
+is required in order to disambiguate the entire 
+vocabulary. In this research, maximum en-
+tropy modeling is used to train the word in-
+dependent context pair classification model. 
+Then based on the context pair classification 
+results, clustering is performed on word men-
+tions extracted from a large raw corpus. The 
+resulting context clusters are mapped onto 
+the external thesaurus WordNet. This ap-
+proach shows great flexibility to efficiently 
+integrate heterogeneous knowledge sources, 
+e.g. trigger words and parsing structures. 
+Based on Senseval-3 Lexical Sample stan-
+dards, this approach achieves state-of-the-art 
+performance in the unsupervised learning 
+category, and performs comparably with the 
+supervised Na?ve Bayes system. 
+1 

@@ -1,0 +1,20 @@
+
+In human sentence processing, cognitive load can be
+dened many ways. This report considers a deni-
+tion of cognitive load in terms of the total probability
+of structural options that have been disconrmed at
+some point in a sentence: the surprisal of word w
+i
+given its prex w
+0...i?1
+on a phrase-structural lan-
+guage model. These loads can be eciently calcu-
+lated using a probabilistic Earley parser (Stolcke,
+1995) which is interpreted as generating predictions
+about reading time on a word-by-word basis. Un-
+der grammatical assumptions supported by corpus-
+frequency data, the operation of Stolcke?s probabilis-
+tic Earley parser correctly predicts processing phe-
+nomena associated with garden path structural am-
+biguity and with the subject/object relative asym-
+metry.

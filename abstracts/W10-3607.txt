@@ -1,0 +1,16 @@
+ 
+In this paper we present a lightweight 
+stemmer for Gujarati using a hybrid ap-
+proach. Instead of using a completely 
+unsupervised approach, we have har-
+nessed linguistic knowledge in the form 
+of a hand-crafted Gujarati suffix list in 
+order to improve the quality of the stems 
+and suffixes learnt during the training 
+phase. We used the EMILLE corpus for 
+training and evaluating the stemmer?s 
+performance. The use of hand-crafted 
+suffixes boosted the accuracy of our 
+stemmer by about 17% and helped us 
+achieve an accuracy of 67.86 %. 
+1 

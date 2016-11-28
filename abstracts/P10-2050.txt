@@ -1,0 +1,24 @@
+
+Automatic opinion recognition involves a
+number of related tasks, such as identi-
+fying the boundaries of opinion expres-
+sion, determining their polarity, and de-
+termining their intensity. Although much
+progress has been made in this area, ex-
+isting research typically treats each of the
+above tasks in isolation. In this paper,
+we apply a hierarchical parameter shar-
+ing technique using Conditional Random
+Fields for fine-grained opinion analysis,
+jointly detecting the boundaries of opinion
+expressions as well as determining two of
+their key attributes ? polarity and inten-
+sity. Our experimental results show that
+our proposed approach improves the per-
+formance over a baseline that does not
+exploit hierarchical structure among the
+classes. In addition, we find that the joint
+approach outperforms a baseline that is
+based on cascading two separate compo-
+nents.
+1 

@@ -1,0 +1,24 @@
+s and the Semantic Classification of
+Sentences
+Grace Y. Chung and Enrico Coiera
+Centre for Health Informatics
+University of New South Wales
+Sydney NSW 2052 Australia
+{graceyc, e.coiera}@unsw.edu.au
+Abstract
+This paper describes experiments in classi-
+fying sentences of medical abstracts into a
+number of semantic classes given by section
+headings in structured abstracts. Using con-
+ditional random fields, we obtain F -scores
+ranging from 0.72 to 0.97. By using a small
+set of sentences that appear under the PAR-
+TICPANTS heading, we demonstrate that it is
+possible to recognize sentences that describe
+population characteristics of a study. We
+present a detailed study of the structure of
+abstracts of randomized clinical trials, and
+examine how sentences labeled under PAR-
+TICIPANTS could be used to summarize the
+population group.
+1 

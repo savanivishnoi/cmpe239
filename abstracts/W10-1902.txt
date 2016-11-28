@@ -1,0 +1,25 @@
+
+Linear-chain Conditional Random Fields
+(CRF) has been applied to perform the
+Named Entity Recognition (NER) task in
+many biomedical text mining and infor-
+mation extraction systems. However, the
+linear-chain CRF cannot capture long dis-
+tance dependency, which is very common
+in the biomedical literature. In this pa-
+per, we propose a novel study of capturing
+such long distance dependency by defin-
+ing two principles of constructing skip-
+edges for a skip-chain CRF: linking sim-
+ilar words and linking words having typed
+dependencies. The approach is applied to
+recognize gene/protein mentions in the lit-
+erature. When tested on the BioCreAtIvE
+II Gene Mention dataset and GENIA cor-
+pus, the approach contributes significant
+improvements over the linear-chain CRF.
+We also present in-depth error analysis on
+inconsistent labeling and study the influ-
+ence of the quality of skip edges on the la-
+beling performance.
+1 

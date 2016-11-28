@@ -1,0 +1,20 @@
+
+We present a framework to extract the
+most important features (tree fragments)
+from a Tree Kernel (TK) space according
+to their importance in the target kernel-
+based machine, e.g. Support Vector Ma-
+chines (SVMs). In particular, our min-
+ing algorithm selects the most relevant fea-
+tures based on SVM estimated weights
+and uses this information to automatically
+infer an explicit representation of the in-
+put data. The explicit features (a) improve
+our knowledge on the target problem do-
+main and (b) make large-scale learning
+practical, improving training and test time,
+while yielding accuracy in line with tradi-
+tional TK classifiers. Experiments on se-
+mantic role labeling and question classifi-
+cation illustrate the above claims.
+1 

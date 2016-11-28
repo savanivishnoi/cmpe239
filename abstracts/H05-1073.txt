@@ -1,0 +1,25 @@
+
+In addition to information, text con-
+tains attitudinal, and more specifically,
+emotional content. This paper explores
+the text-based emotion prediction prob-
+lem empirically, using supervised machine
+learning with the SNoW learning archi-
+tecture. The goal is to classify the emo-
+tional affinity of sentences in the narra-
+tive domain of children?s fairy tales, for
+subsequent usage in appropriate expres-
+sive rendering of text-to-speech synthe-
+sis. Initial experiments on a preliminary
+data set of 22 fairy tales show encourag-
+ing results over a na??ve baseline and BOW
+approach for classification of emotional
+versus non-emotional contents, with some
+dependency on parameter tuning. We
+also discuss results for a tripartite model
+which covers emotional valence, as well
+as feature set alernations. In addition, we
+present plans for a more cognitively sound
+sequential model, taking into considera-
+tion a larger set of basic emotions.
+1 

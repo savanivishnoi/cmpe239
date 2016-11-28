@@ -1,0 +1,24 @@
+
+How can the development of ideas in a sci-
+entific field be studied over time? We ap-
+ply unsupervised topic modeling to the ACL
+Anthology to analyze historical trends in the
+field of Computational Linguistics from 1978
+to 2006. We induce topic clusters using Latent
+Dirichlet Allocation, and examine the strength
+of each topic over time. Our methods find
+trends in the field including the rise of prob-
+abilistic methods starting in 1988, a steady in-
+crease in applications, and a sharp decline of
+research in semantics and understanding be-
+tween 1978 and 2001, possibly rising again
+after 2001. We also introduce a model of the
+diversity of ideas, topic entropy, using it to
+show that COLING is a more diverse confer-
+ence than ACL, but that both conferences as
+well as EMNLP are becoming broader over
+time. Finally, we apply Jensen-Shannon di-
+vergence of topic distributions to show that all
+three conferences are converging in the topics
+they cover.
+1 

@@ -1,0 +1,14 @@
+
+We introduce a novel precedence reordering
+approach based on a dependency parser to sta-
+tistical machine translation systems. Similar
+to other preprocessing reordering approaches,
+our method can efficiently incorporate linguis-
+tic knowledge into SMT systems without in-
+creasing the complexity of decoding. For a set
+of five subject-object-verb (SOV) order lan-
+guages, we show significant improvements in
+BLEU scores when translating from English,
+compared to other reordering approaches, in
+state-of-the-art phrase-based SMT systems.
+1 

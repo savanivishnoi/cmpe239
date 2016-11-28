@@ -1,0 +1,26 @@
+
+In this paper we present a hybrid statisti-
+cal machine translation (SMT)-example-based
+MT (EBMT) system that shows significant
+improvement over both SMT and EBMT base-
+line systems. First we present a runtime
+EBMT system using a subsentential transla-
+tion memory (TM). The EBMT system is fur-
+ther combined with an SMT system for effec-
+tive hybridization of the pair of systems. The
+hybrid system shows significant improvement
+in translation quality (0.82 and 2.75 abso-
+lute BLEU points) for two different language
+pairs (English?Turkish (En?Tr) and English?
+French (En?Fr)) over the baseline SMT sys-
+tem. However, the EBMT approach suffers
+from significant time complexity issues for a
+runtime approach. We explore two methods to
+make the system scalable at runtime. First, we
+use an heuristic-based approach. Secondly, we
+use an IR-based indexing technique to speed
+up the time-consuming matching procedure of
+the EBMT system. The index-based match-
+ing procedure substantially improves run-time
+speed without affecting translation quality.
+1 

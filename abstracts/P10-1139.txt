@@ -1,0 +1,34 @@
+ 
+There is a growing research interest in opinion 
+retrieval as on-line users? opinions are becom-
+ing more and more popular in business, social 
+networks, etc. Practically speaking, the goal of 
+opinion retrieval is to retrieve documents, 
+which entail opinions or comments, relevant to 
+a target subject specified by the user?s query. A 
+fundamental challenge in opinion retrieval is 
+information representation. Existing research 
+focuses on document-based approaches and 
+documents are represented by bag-of-word. 
+However, due to loss of contextual information, 
+this representation fails to capture the associa-
+tive information between an opinion and its 
+corresponding target. It cannot distinguish dif-
+ferent degrees of a sentiment word when asso-
+ciated with different targets. This in turn se-
+riously affects opinion retrieval performance. 
+In this paper, we propose a sentence-based ap-
+proach based on a new information representa-
+tion, namely topic-sentiment word pair, to cap-
+ture intra-sentence contextual information be-
+tween an opinion and its target. Additionally, 
+we consider inter-sentence information to cap-
+ture the relationships among the opinions on 
+the same topic. Finally, the two types of infor-
+mation are combined in a unified graph-based 
+model, which can effectively rank the docu-
+ments. Compared with existing approaches, 
+experimental results on the COAE08 dataset 
+showed that our graph-based model achieved 
+significant improvement. 
+1 

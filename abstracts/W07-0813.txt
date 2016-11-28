@@ -1,0 +1,35 @@
+ 
+We propose an enhanced Part-of-Speech 
+(POS) tagger of Semitic languages that 
+treats Modern Standard Arabic (hence-
+forth Arabic) and Modern Hebrew 
+(henceforth Hebrew) using the same 
+probabilistic model and architectural set-
+ting. We start out by porting an existing 
+Hidden Markov Model POS tagger for 
+Hebrew to Arabic by exchanging a mor-
+phological analyzer for Hebrew with 
+Buckwalter's (2002) morphological ana-
+lyzer for Arabic. This gives state-of-the-
+art accuracy (96.12%), comparable to Ha-
+bash and Rambow?s (2005) analyzer-
+based POS tagger on the same Arabic 
+datasets. However, further improvement 
+of such analyzer-based tagging methods is 
+hindered by the incomplete coverage of 
+standard morphological analyzer (Bar 
+Haim et al, 2005). To overcome this cov-
+erage problem we supplement the output 
+of Buckwalter's analyzer with syntheti-
+cally constructed analyses that are pro-
+posed by a model which uses character 
+information (Diab et al, 2004) in a way 
+that is similar to Nakagawa's (2004) sys-
+tem for Chinese and Japanese. A version 
+of this extended model that (unlike Naka-
+gawa) incorporates synthetically con-
+structed analyses also for known words 
+achieves 96.28% accuracy on the standard 
+Arabic test set. 
+ 
+1 

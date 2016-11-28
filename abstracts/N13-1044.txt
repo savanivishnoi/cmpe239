@@ -1,0 +1,15 @@
+
+The many differences between Dialectal Ara-
+bic and Modern Standard Arabic (MSA) pose
+a challenge to the majority of Arabic natural
+language processing tools, which are designed
+for MSA. In this paper, we retarget an exist-
+ing state-of-the-art MSA morphological tag-
+ger to Egyptian Arabic (ARZ). Our evalua-
+tion demonstrates that our ARZ morphology
+tagger outperforms its MSA variant on ARZ
+input in terms of accuracy in part-of-speech
+tagging, diacritization, lemmatization and to-
+kenization; and in terms of utility for ARZ-to-
+English statistical machine translation.
+1 

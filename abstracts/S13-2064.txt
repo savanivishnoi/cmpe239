@@ -1,0 +1,21 @@
+
+This paper describes a dual-classifier ap-
+proach to contextual sentiment analysis at the
+SemEval-2013 Task 2. Contextual analysis of
+polarity focuses on a word or phrase, rather
+than the broader task of identifying the senti-
+ment of an entire text. The Task 2 definition
+includes target word spans that range in size
+from a single word to entire sentences. How-
+ever, the context of a single word is depen-
+dent on the word?s surrounding syntax, while a
+phrase contains most of the polarity within it-
+self. We thus describe separate treatment with
+two independent classifiers, outperforming the
+accuracy of a single classifier. Our system
+ranked 6th out of 19 teams on SMS message
+classification, and 8th of 23 on twitter data.
+We also show a surprising result that a very
+small amount of word context is needed for
+high-performance polarity extraction.
+1 

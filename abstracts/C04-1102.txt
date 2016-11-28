@@ -1,0 +1,11 @@
+
+We propose a detection method for or-
+thographic variants caused by translit-
+eration in a large corpus. The method
+employs two similarities. One is string
+similarity based on edit distance. The
+other is contextual similarity by a vec-
+tor space model. Experimental results
+show that the method performed a 0.889
+F-measure in an open test.
+1 

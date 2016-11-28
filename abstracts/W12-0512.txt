@@ -1,0 +1,26 @@
+
+Question answering systems answer cor-
+rectly to different questions because they
+are based on different strategies. In order
+to increase the number of questions which
+can be answered by a single process, we
+propose solutions to combine two question
+answering systems, QAVAL and RITEL.
+QAVAL proceeds by selecting short pas-
+sages, annotates them by question terms,
+and then extracts from them answers which
+are ordered by a machine learning valida-
+tion process. RITEL develops a multi-level
+analysis of questions and documents. An-
+swers are extracted and ordered according
+to two strategies: by exploiting the redun-
+dancy of candidates and a Bayesian model.
+In order to merge the system results, we de-
+veloped different methods either by merg-
+ing passages before answer ordering, or by
+merging end-results. The fusion of end-
+results is realized by voting, merging, and
+by a machine learning process on answer
+characteristics, which lead to an improve-
+ment of the best system results of 19 %.
+1 

@@ -1,0 +1,19 @@
+
+This paper describes SIE (Simple Infor-
+mation Extraction), a modular information
+extraction system designed with the goal
+of being easily and quickly portable across
+tasks and domains. SIE is composed by
+a general purpose machine learning algo-
+rithm (SVM) combined with several cus-
+tomizable modules. A crucial role in the
+architecture is played by Instance Filter-
+ing, which allows to increase efficiency
+without reducing effectiveness. The re-
+sults obtained by SIE on several standard
+data sets, representative of different tasks
+and domains, are reported. The experi-
+ments show that SIE achieves performance
+close to the best systems in all tasks, with-
+out using domain-specific knowledge.
+1 

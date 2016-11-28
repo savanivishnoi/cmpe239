@@ -1,0 +1,16 @@
+
+The paper proposes formulating MT evalu-
+ation as a ranking problem, as is often done
+in the practice of assessment by human. Un-
+der the ranking scenario, the study also in-
+vestigates the relative utility of several fea-
+tures. The results show greater correlation
+with human assessment at the sentence level,
+even when using an n-gram match score as
+a baseline feature. The feature contributing
+the most to the rank order correlation be-
+tween automatic ranking and human assess-
+ment was the dependency structure relation
+rather than BLEU score and reference lan-
+guage model feature.
+1 

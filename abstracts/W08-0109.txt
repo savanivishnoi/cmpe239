@@ -1,0 +1,12 @@
+
+We present the ADAMACH data centric dia-
+log system, that allows to perform on- and off-
+line mining of dialog context, speech recog-
+nition results and other system-generated rep-
+resentations, both within and across dialogs.
+The architecture implements a ?fat pipeline?
+for speech and language processing. We detail
+how the approach integrates domain knowl-
+edge and evolving empirical data, based on a
+user study in the University Helpdesk domain.
+1 

@@ -1,0 +1,14 @@
+
+We present a discourse-level Tree Adjoin-
+ing Grammar which tightly integrates syn-
+tax and discourse levels, including a repre-
+sentation for discourse entities. We show
+that this technique makes it possible to
+extend an optimisation algorithm used in
+natural language generation (polarity fil-
+tering) to the discourse level. We imple-
+mented the grammar in a surface realizer
+and show that this technique can be used
+to reduce the search space by filtering out
+referentially incoherent solutions.
+1 

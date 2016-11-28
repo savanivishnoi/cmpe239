@@ -1,0 +1,20 @@
+
+We present RUBISC, a new incremen-
+tal chunker that can perform incremental
+slot filling and revising as it receives a
+stream of words. Slot values can influ-
+ence each other via a unification mecha-
+nism. Chunks correspond to sense units,
+and end-of-sentence detection is done in-
+crementally based on a notion of seman-
+tic/pragmatic completeness. One of RU-
+BISC?s main fields of application is in
+dialogue systems where it can contribute
+to responsiveness and hence naturalness,
+because it can provide a partial or com-
+plete semantics of an utterance while the
+speaker is still speaking. The chunker is
+evaluated on a German transcribed speech
+corpus and achieves a concept error rate of
+43.3% and an F-Score of 81.5.
+1 

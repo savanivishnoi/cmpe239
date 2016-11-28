@@ -1,0 +1,14 @@
+
+In a supertagging task, sequence labeling
+models are commonly used. But their lim-
+ited ability to model long-distance informa-
+tion presents a bottleneck to make further im-
+provements. In this paper, we modeled this
+long-distance information in dependency for-
+malism and integrated it into the process of
+HPSG supertagging. The experiments showed
+that the dependency information is very in-
+formative for supertag disambiguation. We
+also evaluated the improved supertagger in the
+HPSG parser.
+1 

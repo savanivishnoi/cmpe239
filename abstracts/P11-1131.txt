@@ -1,0 +1,22 @@
+
+We propose a principled and efficient phrase-
+to-phrase alignment model, useful in machine
+translation as well as other related natural lan-
+guage processing problems. In a hidden semi-
+Markov model, word-to-phrase and phrase-
+to-word translations are modeled directly by
+the system. Agreement between two direc-
+tional models encourages the selection of par-
+simonious phrasal alignments, avoiding the
+overfitting commonly encountered in unsu-
+pervised training with multi-word units. Ex-
+panding the state space to include ?gappy
+phrases? (such as French ne ? pas) makes the
+alignment space more symmetric; thus, it al-
+lows agreement between discontinuous align-
+ments. The resulting system shows substantial
+improvements in both alignment quality and
+translation quality over word-based Hidden
+Markov Models, while maintaining asymptot-
+ically equivalent runtime.
+1 

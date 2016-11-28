@@ -1,0 +1,19 @@
+
+Despite much recent progress on accu-
+rate semantic role labeling, previous work
+has largely used independent classifiers,
+possibly combined with separate label se-
+quence models via Viterbi decoding. This
+stands in stark contrast to the linguistic
+observation that a core argument frame is
+a joint structure, with strong dependen-
+cies between arguments. We show how to
+build a joint model of argument frames,
+incorporating novel features that model
+these interactions into discriminative log-
+linear models. This system achieves an
+error reduction of 22% on all arguments
+and 32% on core arguments over a state-
+of-the art independent classifier for gold-
+standard parse trees on PropBank.
+1 

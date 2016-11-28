@@ -1,0 +1,16 @@
+
+The connection between part-of-speech (POS)
+categories and morphological properties is
+well-documented in linguistics but underuti-
+lized in text processing systems. This pa-
+per proposes a novel model for morphologi-
+cal segmentation that is driven by this connec-
+tion. Our model learns that words with com-
+mon affixes are likely to be in the same syn-
+tactic category and uses learned syntactic cat-
+egories to refine the segmentation boundaries
+of words. Our results demonstrate that incor-
+porating POS categorization yields substantial
+performance gains on morphological segmen-
+tation of Arabic. 1
+1 

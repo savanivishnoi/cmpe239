@@ -1,0 +1,17 @@
+
+Named Entity (NE) recognition is a task in which
+proper nouns and numerical information are ex-
+tracted from documents and are classified into cat-
+egories such as person, organization, and date. It
+is a key technology of Information Extraction and
+Open-Domain Question Answering. First, we show
+that an NE recognizer based on Support Vector Ma-
+chines (SVMs) gives better scores than conventional
+systems. However, off-the-shelf SVM classifiers are
+too inefficient for this task. Therefore, we present a
+method that makes the system substantially faster.
+This approach can also be applied to other simi-
+lar tasks such as chunking and part-of-speech tag-
+ging. We also present an SVM-based feature selec-
+tion method and an efficient training method.
+1 

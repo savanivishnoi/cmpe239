@@ -1,0 +1,20 @@
+
+We present an automatic approach to learn-
+ing criteria for classifying the parts-of-speech
+used in lexical mappings. This will fur-
+ther automate our knowledge acquisition sys-
+tem for non-technical users. The criteria for
+the speech parts are based on the types of
+the denoted terms along with morphological
+and corpus-based clues. Associations among
+these and the parts-of-speech are learned us-
+ing the lexical mappings contained in the Cyc
+knowledge base as training data. With over
+30 speech parts to choose from, the classifier
+achieves good results (77.8% correct). Ac-
+curate results (93.0%) are achieved in the
+special case of the mass-count distinction for
+nouns. Comparable results are also obtained
+using OpenCyc (73.1% general and 88.4%
+mass-count).
+1 

@@ -1,0 +1,24 @@
+
+In this paper we examine language mod-
+eling for text simplification. Unlike some
+text-to-text translation tasks, text simplifi-
+cation is a monolingual translation task al-
+lowing for text in both the input and out-
+put domain to be used for training the lan-
+guage model. We explore the relation-
+ship between normal English and simpli-
+fied English and compare language mod-
+els trained on varying amounts of text
+from each. We evaluate the models intrin-
+sically with perplexity and extrinsically
+on the lexical simplification task from Se-
+mEval 2012. We find that a combined
+model using both simplified and normal
+English data achieves a 23% improvement
+in perplexity and a 24% improvement on
+the lexical simplification task over a model
+trained only on simple data. Post-hoc anal-
+ysis shows that the additional unsimplified
+data provides better coverage for unseen
+and rare n-grams.
+1 

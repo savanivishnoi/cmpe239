@@ -1,0 +1,19 @@
+ 
+This paper presents the methods which are 
+based on the part-of-speech (POS) and auto 
+alignment information to improve the quality 
+of machine translation result and the word 
+alignment. We utilize different types of POS 
+tag to restructure source sentences and use an 
+alignment-based reordering method to im-
+prove the alignment. After applying the reor-
+dering method, we use two phrase tables in the 
+decoding part to keep the translation perfor-
+mance. Our experiments on Korean-Chinese 
+show that our methods can improve the align-
+ment and translation results. Since the pro-
+posed approach reduces the size of the phrase 
+table, multi-tables are considered. The combi-
+nation of all these methods together would get 
+the best translation result. 
+1 

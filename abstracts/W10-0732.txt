@@ -1,0 +1,14 @@
+
+We explore a new way to collect human an-
+notated relations in text using Amazon Me-
+chanical Turk. Given a knowledge base of
+relations and a corpus, we identify sentences
+which mention both an entity and an attribute
+that have some relation in the knowledge base.
+Each noisy sentence/relation pair is presented
+to multiple turkers, who are asked whether the
+sentence expresses the relation. We describe
+a design which encourages user efficiency and
+aids discovery of cheating. We also present
+results on inter-annotator agreement.
+1 

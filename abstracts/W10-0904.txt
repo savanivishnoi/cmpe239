@@ -1,0 +1,15 @@
+
+We present a technique for reading sentences
+and producing sets of hypothetical relations
+that the sentence may be expressing. The
+technique uses large amounts of instance-level
+background knowledge about the relations in
+order to gather statistics on the various ways
+the relation may be expressed in language, and
+was inspired by the observation that half of the
+linguistic forms used to express relations oc-
+cur very infrequently and are simply not con-
+sidered by systems that use too few seed ex-
+amples. Some very early experiments are pre-
+sented that show promising results.
+1 

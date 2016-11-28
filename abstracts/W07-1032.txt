@@ -1,0 +1,21 @@
+ 
+Morphological analysis as applied to Eng-
+lish has generally involved the study of 
+rules for inflections and derivations. Recent 
+work has attempted to derive such rules 
+from automatic analysis of corpora. Here 
+we study similar issues, but in the context 
+of the biological literature. We introduce a 
+new approach which allows us to assign 
+probabilities of the semantic relatedness of 
+pairs of tokens that occur in text in conse-
+quence of their relatedness as character 
+strings. Our analysis is based on over 84 
+million sentences that compose the MED-
+LINE database and over 2.3 million token 
+types that occur in MEDLINE and enables 
+us to identify over 36 million token type 
+pairs which have assigned probabilities of 
+semantic relatedness of at least 0.7 based 
+on their similarity as strings. 
+1 

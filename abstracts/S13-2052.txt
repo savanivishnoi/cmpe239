@@ -1,0 +1,22 @@
+
+In recent years, sentiment analysis in social
+media has attracted a lot of research interest
+and has been used for a number of applica-
+tions. Unfortunately, research has been hin-
+dered by the lack of suitable datasets, com-
+plicating the comparison between approaches.
+To address this issue, we have proposed
+SemEval-2013 Task 2: Sentiment Analysis in
+Twitter, which included two subtasks: A, an
+expression-level subtask, and B, a message-
+level subtask. We used crowdsourcing on
+Amazon Mechanical Turk to label a large
+Twitter training dataset alng with additional
+test sets of Twitter and SMS messages for both
+subtasks. All datasets used in the evaluation
+are released to the research community. The
+task attracted significant interest and a total
+of 149 submissions from 44 teams. The best-
+performing team achieved an F1 of 88.9% and
+69% for subtasks A and B, respectively.
+1 

@@ -1,0 +1,13 @@
+
+We approached the temporal relation identi-
+fication tasks of TempEval 2007 as pair-wise
+classification tasks. We introduced a va-
+riety of syntactically and semantically mo-
+tivated features, including temporal-logic-
+based features derived from running our
+Task B system on the Task A and C data.
+We trained support vector machine models
+and achieved the second highest accuracies
+on the tasks: 61% on Task A, 75% on Task B
+and 54% on Task C.
+1 

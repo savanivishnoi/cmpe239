@@ -1,0 +1,15 @@
+
+This paper describes the TALP participa-
+tion in the WMT13 evaluation campaign.
+Our participation is based on the combi-
+nation of several statistical machine trans-
+lation systems: based on standard phrase-
+based Moses systems. Variations include
+techniques such as morphology genera-
+tion, training sentence filtering, and do-
+main adaptation through unit derivation.
+The results show a coherent improvement
+on TER, METEOR, NIST, and BLEU
+scores when compared to our baseline sys-
+tem.
+1 

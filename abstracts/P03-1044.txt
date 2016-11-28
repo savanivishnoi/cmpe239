@@ -1,0 +1,24 @@
+
+This paper presents a method for unsu-
+pervised discovery of semantic patterns.
+Semantic patterns are useful for a vari-
+ety of text understanding tasks, in par-
+ticular for locating events in text for in-
+formation extraction. The method builds
+upon previously described approaches to
+iterative unsupervised pattern acquisition.
+One common characteristic of prior ap-
+proaches is that the output of the algorithm
+is a continuous stream of patterns, with
+gradually degrading precision.
+Our method differs from the previous pat-
+tern acquisition algorithms in that it intro-
+duces competition among several scenar-
+ios simultaneously. This provides natu-
+ral stopping criteria for the unsupervised
+learners, while maintaining good preci-
+sion levels at termination. We discuss the
+results of experiments with several scenar-
+ios, and examine different aspects of the
+new procedure.
+1 

@@ -1,0 +1,23 @@
+
+Methods that measure compatibility between
+mention pairs are currently the dominant ap-
+proach to coreference. However, they suffer
+from a number of drawbacks including diffi-
+culties scaling to large numbers of mentions
+and limited representational power. As these
+drawbacks become increasingly restrictive,
+the need to replace the pairwise approaches
+with a more expressive, highly scalable al-
+ternative is becoming urgent. In this paper
+we propose a novel discriminative hierarchical
+model that recursively partitions entities into
+trees of latent sub-entities. These trees suc-
+cinctly summarize the mentions providing a
+highly compact, information-rich structure for
+reasoning about entities and coreference un-
+certainty at massive scales. We demonstrate
+that the hierarchical model is several orders
+of magnitude faster than pairwise, allowing us
+to perform coreference on six million author
+mentions in under four hours on a single CPU.
+1 

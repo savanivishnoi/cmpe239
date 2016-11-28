@@ -1,0 +1,26 @@
+
+We present a graph-based semi-supervised
+learning algorithm to address the senti-
+ment analysis task of rating inference.
+Given a set of documents (e.g., movie
+reviews) and accompanying ratings (e.g.,
+?4 stars?), the task calls for inferring nu-
+merical ratings for unlabeled documents
+based on the perceived sentiment ex-
+pressed by their text. In particular, we
+are interested in the situation where la-
+beled data is scarce. We place this task
+in the semi-supervised setting and demon-
+strate that considering unlabeled reviews
+in the learning process can improve rating-
+inference performance. We do so by creat-
+ing a graph on both labeled and unlabeled
+data to encode certain assumptions for this
+task. We then solve an optimization prob-
+lem to obtain a smooth rating function
+over the whole graph. When only lim-
+ited labeled data is available, this method
+achieves significantly better predictive ac-
+curacy over other methods that ignore the
+unlabeled examples during training.
+1 

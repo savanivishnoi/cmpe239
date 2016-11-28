@@ -1,0 +1,19 @@
+
+Methods for evaluating dependency parsing
+using attachment scores are highly sensitive
+to representational variation between depen-
+dency treebanks, making cross-experimental
+evaluation opaque. This paper develops a ro-
+bust procedure for cross-experimental eval-
+uation, based on deterministic unification-
+based operations for harmonizing different
+representations and a refined notion of tree
+edit distance for evaluating parse hypothe-
+ses relative to multiple gold standards. We
+demonstrate that, for different conversions of
+the Penn Treebank into dependencies, perfor-
+mance trends that are observed for parsing
+results in isolation change or dissolve com-
+pletely when parse hypotheses are normalized
+and brought into the same common ground.
+1 

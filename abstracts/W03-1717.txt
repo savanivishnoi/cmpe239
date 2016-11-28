@@ -1,0 +1,22 @@
+ 
+The verb-noun sequence in Chinese often 
+creates ambiguities in parsing.  These ambi-
+guities can usually be resolved if we know 
+in advance whether the verb and the noun 
+tend to be in the verb-object relation or the 
+modifier-head relation.  In this paper, we de-
+scribe a learning procedure whereby such 
+knowledge can be automatically acquired.  
+Using an existing (imperfect) parser with a 
+chart filter and a tree filter, a large corpus, 
+and the log-likelihood-ratio (LLR) algo-
+rithm, we were able to acquire verb-noun 
+pairs which typically occur either in verb-
+object relations or modifier-head relations.  
+The learned pairs are then used in the pars-
+ing process for disambiguation.  Evaluation 
+shows that the accuracy of the original 
+parser improves significantly with the use of 
+the automatically acquired knowledge. 
+ 
+1 

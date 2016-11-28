@@ -1,0 +1,26 @@
+
+Semantic Role Labeling (SRL) has proved
+to be a valuable tool for performing auto-
+matic analysis of natural language texts.
+Currently however, most systems rely on
+a large training set, which is manually an-
+notated, an effort that needs to be repeated
+whenever different languages or a differ-
+ent set of semantic roles is used in a cer-
+tain application. A possible solution for
+this problem is semi-supervised learning,
+where a small set of training examples
+is automatically expanded using unlabeled
+texts. We present the Latent Words Lan-
+guage Model, which is a language model
+that learns word similarities from unla-
+beled texts. We use these similarities for
+different semi-supervised SRL methods as
+additional features or to automatically ex-
+pand a small training set. We evaluate the
+methods on the PropBank dataset and find
+that for small training sizes our best per-
+forming system achieves an error reduc-
+tion of 33.27% F1-measure compared to
+a state-of-the-art supervised baseline.
+1 

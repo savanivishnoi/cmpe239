@@ -1,0 +1,19 @@
+
+In this paper we present a multiclassifier
+approach for multilabel document classifi-
+cation problems, where a set of k-NN clas-
+sifiers is used to predict the category of
+text documents based on different training
+subsampling databases. These databases
+are obtained from the original training
+database by random subsampling. In or-
+der to combine the predictions generated
+by the multiclassifier, Bayesian voting is
+applied. Through all the classification pro-
+cess, a reduced dimension vector represen-
+tation obtained by Singular Value Decom-
+position (SVD) is used for training and
+testing documents. The good results of our
+experiments give an indication of the po-
+tentiality of the proposed approach.
+1 

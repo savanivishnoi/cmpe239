@@ -1,0 +1,28 @@
+
+This paper describes an approach to adapt
+an existing multilingual Open-Domain
+Question Answering (ODQA) system for
+factoid questions to a Restricted Domain,
+the Geographical Domain. The adaptation
+of this ODQA system involved the modifi-
+cation of some components of our system
+such as: Question Processing, Passage Re-
+trieval and Answer Extraction. The new
+system uses external resources like GNS
+Gazetteer for Named Entity (NE) Classi-
+fication and Wikipedia or Google in order
+to obtain relevant documents for this do-
+main. The system focuses on a Geograph-
+ical Scope: given a region, or country, and
+a language we can semi-automatically ob-
+tain multilingual geographical resources
+(e.g. gazetteers, trigger words, groups of
+place names, etc.) of this scope. The
+system has been trained and evaluated for
+Spanish in the scope of the Spanish Geog-
+raphy. The evaluation reveals that the use
+of scope-based Geographical resources is
+a good approach to deal with multilingual
+Geographical Domain Question Answer-
+ing.
+1 

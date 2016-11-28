@@ -1,0 +1,18 @@
+
+Temporal variations of text are usually ig-
+nored in NLP applications. However, text use
+changes with time, which can affect many
+applications. In this paper we model peri-
+odic distributions of words over time. Focus-
+ing on hashtag frequency in Twitter, we first
+automatically identify the periodic patterns.
+We use this for regression in order to fore-
+cast the volume of a hashtag based on past
+data. We use Gaussian Processes, a state-of-
+the-art bayesian non-parametric model, with
+a novel periodic kernel. We demonstrate this
+in a text classification setting, assigning the
+tweet hashtag based on the rest of its text. This
+method shows significant improvements over
+competitive baselines.
+1 

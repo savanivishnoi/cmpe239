@@ -1,0 +1,21 @@
+
+Having gold standards allows us to evalu-
+ate new methods and approaches against a
+common benchmark. In this paper we de-
+scribe a set of gold standard question re-
+formulations and associated reformulation
+guidelines that we have created to support
+research into automatic interpretation of
+questions in TREC question series, where
+questions may refer anaphorically to the
+target of the series or to answers to pre-
+vious questions. We also assess various
+string comparison metrics for their utility
+as evaluation measures of the proximity of
+an automated system?s reformulations to
+the gold standard. Finally we show how
+we have used this approach to assess the
+question processing capability of our own
+QA system and to pinpoint areas for im-
+provement.
+1 

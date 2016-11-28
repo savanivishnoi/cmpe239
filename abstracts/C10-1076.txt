@@ -1,0 +1,24 @@
+ 
+In this paper we present a simplified shallow 
+semantic parsing approach to learning the 
+scope of negation (SoN). This is done by 
+formulating it as a shallow semantic parsing 
+problem with the negation signal as the 
+predicate and the negation scope as its ar-
+guments. Our parsing approach to SoN 
+learning differs from the state-of-the-art 
+chunking ones in two aspects. First, we ex-
+tend SoN learning from the chunking level 
+to the parse tree level, where structured syn-
+tactic information is available. Second, we 
+focus on determining whether a constituent, 
+rather than a word, is negated or not, via a 
+simplified shallow semantic parsing frame-
+work. Evaluation on the BioScope corpus 
+shows that structured syntactic information 
+is effective in capturing the domination rela-
+tionship between a negation signal and its 
+dominated arguments. It also shows that our 
+parsing approach much outperforms the 
+state-of-the-art chunking ones. 
+1 

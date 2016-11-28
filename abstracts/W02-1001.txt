@@ -1,0 +1,17 @@
+
+We describe new algorithms for train-
+ing tagging models, as an alternative
+to maximum-entropy models or condi-
+tional random elds (CRFs). The al-
+gorithms rely on Viterbi decoding of
+training examples, combined with sim-
+ple additive updates. We describe the-
+ory justifying the algorithms through
+a modication of the proof of conver-
+gence of the perceptron algorithm for
+classication problems. We give exper-
+imental results on part-of-speech tag-
+ging and base noun phrase chunking, in
+both cases showing improvements over
+results for a maximum-entropy tagger.
+1 

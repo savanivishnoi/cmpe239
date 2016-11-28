@@ -1,0 +1,19 @@
+
+We introduce the possibility of combining
+lexical association measures and present
+empirical results of several methods em-
+ployed in automatic collocation extrac-
+tion. First, we present a comprehensive
+summary overview of association mea-
+sures and their performance on manu-
+ally annotated data evaluated by precision-
+-recall graphs and mean average precision.
+Second, we describe several classification
+methods for combining association mea-
+sures, followed by their evaluation and
+comparison with individual measures. Fi-
+nally, we propose a feature selection algo-
+rithm significantly reducing the number of
+combined measures with only a small per-
+formance degradation.
+1 

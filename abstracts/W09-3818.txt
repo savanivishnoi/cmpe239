@@ -1,0 +1,17 @@
+
+This paper describes and compares two al-
+gorithms that take as input a shared PCFG
+parse forest and produce shared forests
+that contain exactly the n most likely trees
+of the initial forest. Such forests are
+suitable for subsequent processing, such
+as (some types of) reranking or LFG f-
+structure computation, that can be per-
+formed ontop of a shared forest, but that
+may have a high (e.g., exponential) com-
+plexity w.r.t. the number of trees contained
+in the forest. We evaluate the perfor-
+mances of both algorithms on real-scale
+NLP forests generated with a PCFG ex-
+tracted from the Penn Treebank.
+1 

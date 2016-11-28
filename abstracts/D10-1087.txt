@@ -1,0 +1,19 @@
+
+This paper proposes a method for automat-
+ically inserting commas into Japanese texts.
+In Japanese sentences, commas play an im-
+portant role in explicitly separating the con-
+stituents, such as words and phrases, of a sen-
+tence. The method can be used as an ele-
+mental technology for natural language gen-
+eration such as speech recognition and ma-
+chine translation, or in writing-support tools
+for non-native speakers. We categorized the
+usages of commas and investigated the ap-
+pearance tendency of each category. In this
+method, the positions where commas should
+be inserted are decided based on a machine
+learning approach. We conducted a comma
+insertion experiment using a text corpus and
+confirmed the effectiveness of our method.
+1 

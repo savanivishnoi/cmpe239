@@ -1,0 +1,14 @@
+
+We argue in favor of the the use of la-
+beled directed graph to represent various
+types of linguistic structures, and illustrate
+how this allows one to view NLP tasks as
+graph transformations. We present a gen-
+eral method for learning such transforma-
+tions from an annotated corpus and de-
+scribe experiments with two applications
+of the method: identification of non-local
+depenencies (using Penn Treebank data)
+and semantic role labeling (using Propo-
+sition Bank data).
+1 

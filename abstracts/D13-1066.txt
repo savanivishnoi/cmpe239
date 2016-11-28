@@ -1,0 +1,18 @@
+
+A common form of sarcasm on Twitter con-
+sists of a positive sentiment contrasted with a
+negative situation. For example, many sarcas-
+tic tweets include a positive sentiment, such as
+?love? or ?enjoy?, followed by an expression
+that describes an undesirable activity or state
+(e.g., ?taking exams? or ?being ignored?). We
+have developed a sarcasm recognizer to iden-
+tify this type of sarcasm in tweets. We present
+a novel bootstrapping algorithm that automati-
+cally learns lists of positive sentiment phrases
+and negative situation phrases from sarcastic
+tweets. We show that identifying contrast-
+ing contexts using the phrases learned through
+bootstrapping yields improved recall for sar-
+casm recognition.
+1 

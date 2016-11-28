@@ -1,0 +1,18 @@
+
+Previous work on treebank parsing with
+discontinuous constituents using Linear
+Context-Free Rewriting systems (LCFRS)
+has been limited to sentences of up to 30
+words, for reasons of computational com-
+plexity. There have been some results on
+binarizing an LCFRS in a manner that min-
+imizes parsing complexity, but the present
+work shows that parsing long sentences with
+such an optimally binarized grammar re-
+mains infeasible. Instead, we introduce a
+technique which removes this length restric-
+tion, while maintaining a respectable accu-
+racy. The resulting parser has been applied
+to a discontinuous treebank with favorable
+results.
+1 

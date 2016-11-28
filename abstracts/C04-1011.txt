@@ -1,0 +1,14 @@
+
+We consider the problem of computing the
+Kullback-Leibler distance, also called the
+relative entropy, between a probabilistic
+context-free grammar and a probabilistic fi-
+nite automaton. We show that there is
+a closed-form (analytical) solution for one
+part of the Kullback-Leibler distance, viz.
+the cross-entropy. We discuss several ap-
+plications of the result to the problem of
+distributional approximation of probabilis-
+tic context-free grammars by means of prob-
+abilistic finite automata.
+1 

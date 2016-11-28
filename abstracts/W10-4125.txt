@@ -1,0 +1,22 @@
+
+Space characters can have an important role
+in disambiguating text. However, few, if
+any, Chinese information extraction systems
+make full use of space characters. However,
+it seems that treatment of space characters
+is necessary, especially in cases of extract-
+ing information from semi-structured docu-
+ments. This investigation aims to address
+the importance of space characters in Chi-
+nese information extraction by parsing some
+semi-structured documents with two simi-
+lar grammars - one with treatment for space
+characters, the other ignoring it. This paper
+also introduces two post processing filters
+to further improve treatment of space char-
+acters. Results show that the grammar that
+takes account of spaces clearly out-performs
+the one that ignores them, and so concludes
+that space characters can play a useful role in
+information extraction.
+1 

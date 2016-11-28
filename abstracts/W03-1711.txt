@@ -1,0 +1,44 @@
+  
+This paper introduces an efficient analyser for 
+the Chinese language, which efficiently and 
+effectively integrates  word segmentation, 
+part-of-speech tagging, partial parsing and full 
+parsing. The Chinese efficient analyser is based 
+on a Hidden Markov Model (HMM) and an 
+HMM-based tagger. That is, all the 
+components are based on the same 
+HMM-based tagging engine. One advantage of 
+using the same single engine is that it largely 
+decreases the code size and makes the 
+maintenance easy. Another advantage is that it 
+is easy to optimise the code and thus improve 
+the speed while speed plays a critical important 
+role in many applications. Finally, the 
+performances of all the components can benefit 
+from the optimisation of existing algorithms 
+and/or adoption of better algorithms to a single 
+engine. Experiments show that all the 
+components can achieve state-of-art 
+performances with high efficiency for the 
+Chinese language.  
+The layout of this paper is as follows. Section 2 
+describes the Chinese efficient analyser. Section 3 
+presents the HMM and the HMM-based tagger. 
+Sections 4 and 5 describe the applications of the 
+HMM-based tagger in integrated word 
+segmentation and part-of-speech tagging, partial 
+parsing, and full parsing respectively. Section 6 
+gives the experimental results. Finally, some 
+conclusions are drawn with possible extensions of 
+future work in section 7. 
+2 Chinese Efficient Analyser 
+The Chinese efficient analyser can be described by 
+the example as shown in Figure 1. Here, "." in 
+Figure 1 means that the current node has not been 
+chunked till now. For convenience, it is regarded as 
+a "special chunk" in this paper and others as 
+"normal chunks". Therefore, every node in Figure 1 
+can be represented as a 3tuple , where  
+is the i -th chunk in the input chunk sequence and 
+),( iii wpc ic
+1  

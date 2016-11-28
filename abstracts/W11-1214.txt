@@ -1,0 +1,16 @@
+
+In this paper we investigate automatic data-
+text alignment, i.e. the task of automatically
+aligning data records with textual descrip-
+tions, such that data tokens are aligned with
+the word strings that describe them. Our meth-
+ods make use of log likelihood ratios to esti-
+mate the strength of association between data
+tokens and text tokens. We investigate data-
+text alignment at the document level and at
+the sentence level, reporting results for sev-
+eral methodological variants as well as base-
+lines. We find that log likelihood ratios pro-
+vide a strong basis for predicting data-text
+alignment.
+1 

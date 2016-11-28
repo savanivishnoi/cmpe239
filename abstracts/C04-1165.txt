@@ -1,0 +1,37 @@
+ Concepts           
+via Directional Similarity  
+Kyoko Kanzaki  Eiko Yamamoto Hitoshi Isahara 
+Computational Linguistics Group, 
+National Institute of Information and Communications 
+Technology 
+3-5 Hikari-dai, Seika-cho, Souraku-gun, Kyoto, Japan,  
+{kanzaki, eiko, isahara}@nict.go.jp 
+Qing Ma 
+Faculty of Science  
+and Technology 
+Ryukoku University 
+Seta, Otsu,520-2194, Japan 
+qma@math.ryukoku.ac.jp
+Abstract 
+The method of organization of word mean-
+ings is a crucial issue with lexical databases. 
+Our purpose in this research is to extract word 
+hierarchies from corpora automatically. Our 
+initial task to this end is to determine adjec-
+tive hyperonyms. In order to find adjective 
+hyperonyms, we utilize abstract nouns. We 
+constructed linguistic data by extracting se-
+mantic relations between abstract nouns and 
+adjectives from corpus data and classifying 
+abstract nouns based on adjective similarity 
+using a self-organizing semantic map, which 
+is a neural network model (Kohonen 1995). 
+In this paper we describe how to hierarchi-
+cally organize abstract nouns (adjective hy-
+peronyms) in a semantic map mainly using 
+CSM. We compare three hierarchical organi-
+zations of abstract nouns, according to CSM, 
+frequency (Tf.CSM) and an alternative simi-
+larity measure based on coefficient overlap, to 
+estimate hyperonym relations between words. 
+1. 

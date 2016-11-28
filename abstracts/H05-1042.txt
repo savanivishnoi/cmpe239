@@ -1,0 +1,16 @@
+
+A content selection component deter-
+mines which information should be con-
+veyed in the output of a natural language
+generation system. We present an effi-
+cient method for automatically learning
+content selection rules from a corpus and
+its related database. Our modeling frame-
+work treats content selection as a col-
+lective classification problem, thus allow-
+ing us to capture contextual dependen-
+cies between input items. Experiments
+in a sports domain demonstrate that this
+approach achieves a substantial improve-
+ment over context-agnostic methods.
+1 

@@ -1,0 +1,14 @@
+
+This paper proposes a method for identify-
+ing synonymous relations in a bilingual lex-
+icon, which is a set of translation-equivalent
+term pairs. We train a classifier for identi-
+fying those synonymous relations by using
+spelling variations as main clues. We com-
+pared two approaches: the direct identifi-
+cation of bilingual synonym pairs, and the
+merger of two monolingual synonyms. We
+showed that our approach achieves a high
+pair-wise precision and recall, and outper-
+forms the baseline method.
+1 

@@ -1,0 +1,24 @@
+
+A Bloom filter (BF) is a randomised data
+structure for set membership queries. Its
+space requirements are significantly below
+lossless information-theoretic lower bounds
+but it produces false positives with some
+quantifiable probability. Here we explore the
+use of BFs for language modelling in statis-
+tical machine translation.
+We show how a BF containing n-grams can
+enable us to use much larger corpora and
+higher-order models complementing a con-
+ventional n-gram LM within an SMT sys-
+tem. We also consider (i) how to include ap-
+proximate frequency information efficiently
+within a BF and (ii) how to reduce the er-
+ror rate of these models by first checking for
+lower-order sub-sequences in candidate n-
+grams. Our solutions in both cases retain the
+one-sided error guarantees of the BF while
+taking advantage of the Zipf-like distribution
+of word frequencies to reduce the space re-
+quirements.
+1 

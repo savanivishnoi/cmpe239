@@ -1,0 +1,12 @@
+ 
+This paper mainly describes a Chinese 
+named entity recognition (NER) system 
+NER@ISCAS, which integrates text, 
+part-of-speech and a small-vocabulary-
+character-lists feature for MSRA NER 
+open track under the framework of Con-
+ditional Random Fields (CRFs) model. 
+The techniques used for the close NER 
+and word segmentation tracks are also 
+presented. 
+1 

@@ -1,0 +1,17 @@
+
+We examine the problem of overcoming
+noisy word-level alignments when learn-
+ing tree-to-string translation rules. Our
+approach introduces new rules, and re-
+estimates rule probabilities using EM. The
+major obstacles to this approach are the
+very reasons that word-alignments are
+used for rule extraction: the huge space
+of possible rules, as well as controlling
+overfitting. By carefully controlling which
+portions of the original alignments are re-
+analyzed, and by using Bayesian infer-
+ence during re-analysis, we show signifi-
+cant improvement over the baseline rules
+extracted from word-level alignments.
+1 

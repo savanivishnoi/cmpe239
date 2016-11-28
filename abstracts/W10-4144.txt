@@ -1,0 +1,22 @@
+
+Discriminative parse reranking has been
+shown to be an effective technique to im-
+prove the generative parsing models. In
+this paper, we present a series of exper-
+iments on parsing the Tsinghua Chinese
+Treebank with hierarchically split-merge
+grammars and reranked with a perceptron-
+based discriminative model. In addition to
+the homogeneous annotation on TCT, we
+also incorporate the PCTB-based parsing
+result as heterogeneous annotation into
+the reranking feature model. The rerank-
+ing model achieved 1.12% absolute im-
+provement on F1 over the Berkeley parser
+on a development set. The head labels in
+Task 2.1 are annotated with a sequence
+labeling model. The system achieved
+80.32 (B+C+H F1) in CIPS-SIGHAN-
+2010 Task 2.1 (Open Track) and 76.11
+(Overall F1) in Task 2.2 (Open Track)1.
+1 

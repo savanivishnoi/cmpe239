@@ -1,0 +1,18 @@
+
+We propose to analyse semantic similar-
+ity in comparable text by matching syn-
+tactic trees and labeling the alignments
+according to one of five semantic simi-
+larity relations. We present a Memory-
+based Graph Matcher (MBGM) that per-
+forms both tasks simultaneously as a com-
+bination of exhaustive pairwise classifica-
+tion using a memory-based learner, fol-
+lowed by global optimization of the align-
+ments using a combinatorial optimization
+algorithm. The method is evaluated on a
+monolingual treebank consisting of com-
+parable Dutch news texts. Results show
+that it performs substantially above the
+baseline and close to the human reference.
+1 

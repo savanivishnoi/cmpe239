@@ -1,0 +1,26 @@
+
+This paper describes a temporal expression
+identification and normalization system, Man-
+TIME, developed for the TempEval-3 chal-
+lenge. The identification phase combines
+the use of conditional random fields along
+with a post-processing identification pipeline,
+whereas the normalization phase is carried out
+using NorMA, an open-source rule-based tem-
+poral normalizer. We investigate the perfor-
+mance variation with respect to different fea-
+ture types. Specifically, we show that the use
+of WordNet-based features in the identifica-
+tion task negatively affects the overall perfor-
+mance, and that there is no statistically sig-
+nificant difference in using gazetteers, shal-
+low parsing and propositional noun phrases
+labels on top of the morphological features.
+On the test data, the best run achieved 0.95
+(P), 0.85 (R) and 0.90 (F1) in the identifica-
+tion phase. Normalization accuracies are 0.84
+(type attribute) and 0.77 (value attribute). Sur-
+prisingly, the use of the silver data (alone or in
+addition to the gold annotated ones) does not
+improve the performance.
+1 

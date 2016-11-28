@@ -1,0 +1,25 @@
+
+This paper presents a machine learning
+approach to acronym generation. We for-
+malize the generation process as a se-
+quence labeling problem on the letters in
+the definition (expanded form) so that a
+variety of Markov modeling approaches
+can be applied to this task. To con-
+struct the data for training and testing, we
+extracted acronym-definition pairs from
+MEDLINE abstracts and manually anno-
+tated each pair with positional informa-
+tion about the letters in the acronym. We
+have built an MEMM-based tagger using
+this training data set and evaluated the
+performance of acronym generation. Ex-
+perimental results show that our machine
+learning method gives significantly bet-
+ter performance than that achieved by the
+standard heuristic rule for acronym gen-
+eration and enables us to obtain multi-
+ple candidate acronyms together with their
+likelihoods represented in probability val-
+ues.
+1 

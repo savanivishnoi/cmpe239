@@ -1,0 +1,28 @@
+
+We describe a case study in which
+a memory-based learning algorithm is
+trained to simultaneously chunk sentences
+and assign grammatical function tags to
+these chunks. We compare the algo-
+rithm?s performance on this parsing task
+with varying training set sizes (yielding
+learning curves) and different input repre-
+sentations. In particular we compare in-
+put consisting of words only, a variant that
+includes word form information for low-
+frequency words, gold-standard POS only,
+and combinations of these. The word-
+based shallow parser displays an appar-
+ently log-linear increase in performance,
+and surpasses the flatter POS-based curve
+at about 50,000 sentences of training data.
+The low-frequency variant performs even
+better, and the combinations is best. Com-
+parative experiments with a real POS tag-
+ger produce lower results. We argue that
+we might not need an explicit intermediate
+POS-tagging step for parsing when a suffi-
+cient amount of training material is avail-
+able and word form information is used
+for low-frequency words.
+1 

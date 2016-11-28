@@ -1,0 +1,17 @@
+
+This paper examines the applicability of clas-
+sifier combination approaches such as bagging
+and boosting for coreference resolution. To
+the best of our knowledge, this is the first ef-
+fort that utilizes such techniques for corefer-
+ence resolution. In this paper, we provide ex-
+perimental evidence which indicates that the
+accuracy of the coreference engine can po-
+tentially be increased by use of bagging and
+boosting methods, without any additional fea-
+tures or training data. We implement and eval-
+uate combination techniques at the mention,
+entity and document level, and also address is-
+sues like entity alignment, that are specific to
+coreference resolution.
+1 

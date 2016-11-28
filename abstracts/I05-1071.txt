@@ -1,0 +1,16 @@
+. This paper proposes a method for detecting errors concern-
+ing article usage and singular/plural usage based on the mass count
+distinction. Although the mass count distinction is particularly impor-
+tant in detecting these errors, it has been pointed out that it is hard
+to make heuristic rules for distinguishing mass and count nouns. To
+solve the problem, first, instances of mass and count nouns are auto-
+matically collected from a corpus exploiting surface information in the
+proposed method. Then, words surrounding the mass (count) instances
+are weighted based on their frequencies. Finally, the weighted words are
+used for distinguishing mass and count nouns. After distinguishing mass
+and count nouns, the above errors can be detected by some heuristic
+rules. Experiments show that the proposed method distinguishes mass
+and count nouns in the writing of Japanese learners of English with
+an accuracy of 93% and that 65% of article errors are detected with a
+precision of 70%.
+1 

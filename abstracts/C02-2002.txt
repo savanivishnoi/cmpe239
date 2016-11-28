@@ -1,0 +1,21 @@
+  
+Dynamic lexical acquisition is a procedure 
+where the lexicon of an NLP system is 
+updated automatically during sentence 
+analysis.  In our system, new words and new 
+attributes are proposed online according to 
+the context of each sentence, and then get 
+accepted or rejected during syntactic analysis.  
+The accepted lexical information is stored in 
+an auxiliary lexicon which can be used in 
+conjunction with the existing dictionary in 
+subsequent processing.  In this way, we are 
+able to process sentences with an incomplete 
+lexicon and fill in the missing info without 
+the need of human editing.  As the auxiliary 
+lexicons are corpus-based, domain-specific 
+dictionaries can be created automatically by 
+combining the existing dictionary with 
+different auxiliary lexicons.  Evaluation 
+shows that this mechanism significantly 
+improves the coverage of our parser.    

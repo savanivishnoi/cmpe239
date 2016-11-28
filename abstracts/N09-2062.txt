@@ -1,0 +1,14 @@
+
+We experiment with several chunking models.
+Deeper architectures achieve better gener-
+alization. Quadratic filters, a simplification
+of a theoretical model of V1 complex cells,
+reliably increase accuracy. In fact, logistic
+regression with quadratic filters outperforms
+a standard single hidden layer neural network.
+Adding quadratic filters to logistic regression
+is almost as effective as feature engineering.
+Despite predicting each output label indepen-
+dently, our model is competitive with ones
+that use previous decisions.
+1 

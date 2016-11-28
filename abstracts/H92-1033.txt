@@ -1,0 +1,19 @@
+ 
+In this paper, we are looking into the adaptation issues of 
+vocabulary-independent (VI) systems. Just as with speaker- 
+adaptation i  speaker-independent system, two vocabulary 
+adaptation algorithms \[5\] are implemented in order to tailor 
+the VI subword models to the target vocabulary. The first 
+algorithm is to generate vocabulary-adapted clustering de- 
+cision trees by focusing on relevant allophones during tree 
+generation and reduces the VI error rate by 9%. The second 
+algorithm, vocabulary-bias training, is to give the relevant 
+allophones more prominence by assign more weight o them 
+during Baum-Welch training of the generalized allophonic 
+models and reduces the VI error ate by 15%. Finally, in order 
+to overcome the degradation caused by the different acoustic 
+environments u ed for VI training and testing, CDCN and 
+ISDCN originally designed for microphone adaptation are in- 
+corporated into our VI system and both reduce the degradation 
+of VI cross-environment recognition by 50%. 
+2 

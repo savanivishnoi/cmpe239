@@ -1,0 +1,18 @@
+  
+We descrlbe a general parsing method for systemic gram- 
+mars. Systemic grammars contain a paradigmatic analysis of 
+language in addition to structural information, so a parser 
+must assign a set of  grammatical features and functions to 
+each constituent in addition to producing a constituent s ruc- 
+ture. Our method constructs a parser by compiling systemic 
+grammars into the notation of Functional Unification Gram- 
+mar. The existing methods for parsing with unification gram- 
+mars hace been extended to  handle a fuller range of paradig- 
+matic descriptions. In particular, the PATR-II system has been 
+extended by using disjunctive and conditional information in 
+functional descriptions that are attached to phrase structure 
+rules. The method has been tested with a large grammar of En- 
+glish w:hich was originally developed for text generation. This 
+testing is the basis for some observations about the bidirec- 
+tional m~e of  a grammar. 
+1 

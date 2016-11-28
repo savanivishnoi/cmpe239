@@ -1,0 +1,10 @@
+. Recent ?visual worlds? studies, wherein researchers study language in
+context by monitoring eye-movements in a visual scene during sentence process-
+ing, have revealed much about the interaction of diverse information sources and
+the time course of their influence on comprehension. In this study, five experi-
+ments that trade off scene context with a variety of linguistic factors are modelled
+with a Simple Recurrent Network modified to integrate a scene representation
+with the standard incremental input of a sentence. The results show that the model
+captures the qualitative behavior observed during the experiments, while retain-
+ing the ability to develop the correct interpretation in the absence of visual input.
+1 

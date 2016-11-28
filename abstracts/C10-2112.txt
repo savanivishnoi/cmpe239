@@ -1,0 +1,28 @@
+
+We demonstrate the use of context fea-
+tures, namely, names of places, and un-
+labelled data for the detection of per-
+sonal name language of origin.
+While some early work used either
+rule-based methods or n-gram statisti-
+cal models to determine the name lan-
+guage of origin, we use the discrimi-
+native classification maximum entropy
+model and view the task as a classifica-
+tion task. We perform bootstrapping of
+the learning using list of names out of
+context but with known origin and then
+using expectation-maximisation algo-
+rithm to further train the model on
+a large corpus of names of unknown
+origin but with context features. Us-
+ing a relatively small unlabelled cor-
+pus we improve the accuracy of name
+origin recognition for names written
+in Chinese from 82.7% to 85.8%, a
+significant reduction in the error rate.
+The improvement in F -score for infre-
+quent Japanese names is even greater:
+from 77.4% without context features to
+82.8% with context features.
+1 

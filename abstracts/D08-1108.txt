@@ -1,0 +1,29 @@
+
+We present a novel method for discovering
+and modeling the relationship between in-
+formal Chinese expressions (including collo-
+quialisms and instant-messaging slang) and
+their formal equivalents. Specifically, we pro-
+posed a bootstrapping procedure to identify
+a list of candidate informal phrases in web
+corpora. Given an informal phrase, we re-
+trieve contextual instances from the web us-
+ing a search engine, generate hypotheses of
+formal equivalents via this data, and rank
+the hypotheses using a conditional log-linear
+model. In the log-linear model, we incorpo-
+rate as feature functions both rule-based intu-
+itions and data co-occurrence phenomena (ei-
+ther as an explicit or indirect definition, or
+through formal/informal usages occurring in
+free variation in a discourse). We test our
+system on manually collected test examples,
+and find that the (formal-informal) relation-
+ship discovery and extraction process using
+our method achieves an average 1-best preci-
+sion of 62%. Given the ubiquity of informal
+conversational style on the internet, this work
+has clear applications for text normalization
+in text-processing systems including machine
+translation aspiring to broad coverage.
+1 

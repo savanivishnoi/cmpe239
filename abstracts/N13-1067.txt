@@ -1,0 +1,20 @@
+
+Bibliometric measures are commonly used to
+estimate the popularity and the impact of pub-
+lished research. Existing bibliometric mea-
+sures provide ?quantitative? indicators of how
+good a published paper is. This does not nec-
+essarily reflect the ?quality? of the work pre-
+sented in the paper. For example, when h-
+index is computed for a researcher, all incom-
+ing citations are treated equally, ignoring the
+fact that some of these citations might be neg-
+ative. In this paper, we propose using NLP
+to add a ?qualitative? aspect to biblometrics.
+We analyze the text that accompanies citations
+in scientific articles (which we term citation
+context). We propose supervised methods for
+identifying citation text and analyzing it to de-
+termine the purpose (i.e. author intention) and
+the polarity (i.e. author sentiment) of citation.
+1 

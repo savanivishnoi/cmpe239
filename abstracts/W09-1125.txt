@@ -1,0 +1,15 @@
+
+We present a kernel-based approach for fine-
+grained classification of named entities. The
+only training data for our algorithm is a few
+manually annotated entities for each class. We
+defined kernel functions that implicitly map
+entities, represented by aggregating all con-
+texts in which they occur, into a latent seman-
+tic space derived from Wikipedia. Our method
+achieves a significant improvement over the
+state of the art for the task of populating an
+ontology of people, although requiring con-
+siderably less training instances than previous
+approaches.
+1 

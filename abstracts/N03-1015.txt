@@ -1,0 +1,21 @@
+ 
+Manually constructing an inventory of word 
+senses has suffered from problems including 
+high cost, arbitrary assignment of meaning to 
+words, and mismatch to domains. To over-
+come these problems, we propose a method 
+to assign word meaning from a bilingual 
+comparable corpus and a bilingual dictionary. 
+It clusters second-language translation 
+equivalents of a first-language target word on 
+the basis of their translingually aligned dis-
+tribution patterns. Thus it produces a hierar-
+chy of corpus-relevant meanings of the target 
+word, each of which is defined with a set of 
+translation equivalents. The effectiveness of 
+the method has been demonstrated through an 
+experiment using a comparable corpus con-
+sisting of Wall Street Journal and Nihon Kei-
+zai Shimbun corpora together with the EDR 
+bilingual dictionary. 
+1  

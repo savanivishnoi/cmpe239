@@ -1,0 +1,22 @@
+
+Within the framework of the construction of a
+fact database, we defined guidelines to extract
+named entities, using a taxonomy based on an
+extension of the usual named entities defini-
+tion. We thus defined new types of entities
+with broader coverage including substantive-
+based expressions. These extended named en-
+tities are hierarchical (with types and compo-
+nents) and compositional (with recursive type
+inclusion and metonymy annotation). Human
+annotators used these guidelines to annotate a
+1.3M word broadcast news corpus in French.
+This article presents the definition and novelty
+of extended named entity annotation guide-
+lines, the human annotation of a global corpus
+and of a mini reference corpus, and the evalu-
+ation of annotations through the computation
+of inter-annotator agreements. Finally, we dis-
+cuss our approach and the computed results,
+and outline further work.
+1 

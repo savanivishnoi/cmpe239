@@ -1,0 +1,38 @@
+
+We report on the development of a cross lan-
+guage information retrieval system, which
+translates user queries by categorizing these
+queries into terms listed in a controlled vo-
+cabulary. Unlike usual automatic text cat-
+egorization systems, which rely on data-
+intensive models induced from large train-
+ing data, our automatic text categorization
+tool applies data-independent classifiers: a
+vector-space engine and a pattern matcher
+are combined to improve ranking of Med-
+ical Subject Headings (MeSH). The cate-
+gorizer also benefits from the availability
+of large thesauri, where variants of MeSH
+terms can be found. For evaluation, we use
+an English collection of MedLine records:
+OHSUMED. French OHSUMED queries -
+translated from the original English queries
+by domain experts- are mapped into French
+MeSH terms; then we use the MeSH con-
+trolled vocabulary as interlingua to trans-
+late French MeSH terms into English MeSH
+terms, which are finally used to query the
+OHSUMED document collection. The first
+part of the study focuses on the text to
+MeSH categorization task. We use a set
+of MedLine abstracts as input documents
+in order to tune the categorization system.
+The second part compares the performance
+of a machine translation-based cross lan-
+guage information retrieval (CLIR) system
+with the categorization-based system: the
+former results in a CLIR ratio close to 60%,
+while the latter achieves a ratio above 80%.
+A final experiment, which combines both
+approaches, achieves a result above 90%.
+1 

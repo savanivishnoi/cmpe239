@@ -1,0 +1,23 @@
+
+Identifying collocations in a sentence, in
+order to ensure their proper processing in
+subsequent applications, and performing
+the syntactic analysis of the sentence are
+interrelated processes. Syntactic informa-
+tion is crucial for detecting collocations,
+and vice versa, collocational information
+is useful for parsing. This article describes
+an original approach in which collocations
+are identified in a sentence as soon as pos-
+sible during the analysis of that sentence,
+rather than at the end of the analysis, as in
+our previous work. In this way, priority is
+given to parsing alternatives involving col-
+locations, and collocational information
+guide the parser through the maze of alter-
+natives. This solution was shown to lead
+to substantial improvements in the perfor-
+mance of both tasks (collocation identifi-
+cation and parsing), and in that of a sub-
+sequent task (machine translation).
+1 

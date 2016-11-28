@@ -1,0 +1,21 @@
+
+For many NLP tasks, EM-trained HMMs are
+the common models. However, in order to es-
+cape local maxima and find the best model, we
+need to start with a good initial model. Re-
+searchers suggested repeated random restarts
+or constraints that guide the model evolu-
+tion. Neither approach is ideal. Restarts are
+time-intensive, and most constraint-based ap-
+proaches require serious re-engineering or ex-
+ternal solvers. In this paper we measure the ef-
+fectiveness of very limited initial constraints:
+specifically, annotations of a small number of
+words in the training data. We vary the amount
+and distribution of initial partial annotations,
+and compare the results to unsupervised and
+supervised approaches. We find that partial
+annotations improve accuracy and can reduce
+the need for random restarts, which speeds up
+training time considerably.
+1 

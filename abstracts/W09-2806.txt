@@ -1,0 +1,17 @@
+
+In evaluation of automatic summaries, it
+is necessary to employ multiple topics and
+human-produced models in order for the
+assessment to be stable and reliable. How-
+ever, providing multiple topics and models
+is costly and time-consuming. This paper
+examines the relation between the number
+of available models and topics and the cor-
+relations with human judgment obtained
+by automatic metrics ROUGE and BE, as
+well as the manual Pyramid method. Test-
+ing all these methods on the same data set,
+taken from the TAC 2008 Summarization
+track, allows us to compare and contrast
+the methods under different conditions.
+1 

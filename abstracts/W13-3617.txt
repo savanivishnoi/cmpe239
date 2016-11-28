@@ -1,0 +1,14 @@
+
+This paper describes an English grammat-
+ical error correction system for CoNLL-
+2013 shared task. Error types covered by
+our system are article/determiner, prepo-
+sition, and noun number agreement. This
+work is our first attempt on grammatical
+error correction research. In this work,
+we only focus on reimplementing the tech-
+niques presented before and optimizing
+the performance. As a result of the imple-
+mentation, our system?s final F1-score by
+m2 scorer is 0.1282 in our internal test set.
+1 

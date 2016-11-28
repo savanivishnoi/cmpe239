@@ -1,0 +1,21 @@
+
+Most previous studies of morphological dis-
+ambiguation and dependency parsing have
+been pursued independently. Morphological
+taggers operate on n-grams and do not take
+into account syntactic relations; parsers use
+the ?pipeline? approach, assuming that mor-
+phological information has been separately
+obtained.
+However, in morphologically-rich languages,
+there is often considerable interaction between
+morphology and syntax, such that neither can
+be disambiguated without the other. In this pa-
+per, we propose a discriminative model that
+jointly infers morphological properties and
+syntactic structures. In evaluations on various
+highly-inflected languages, this joint model
+outperforms both a baseline tagger in morpho-
+logical disambiguation, and a pipeline parser
+in head selection.
+1 

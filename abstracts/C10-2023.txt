@@ -1,0 +1,22 @@
+
+We present a new reordering model es-
+timated as a standard n-gram language
+model with units built from morpho-
+syntactic information of the source and
+target languages. It can be seen as a
+model that translates the morpho-syntactic
+structure of the input sentence, in contrast
+to standard translation models which take
+care of the surface word forms. We take
+advantage from the fact that such units
+are less sparse than standard translation
+units to increase the size of bilingual con-
+text that is considered during the trans-
+lation process, thus effectively account-
+ing for mid-range reorderings. Empirical
+results on French-English and German-
+English translation tasks show that our
+model achieves higher translation accu-
+racy levels than those obtained with the
+widely used lexicalized reordering model.
+1 

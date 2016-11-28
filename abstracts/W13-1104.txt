@@ -1,0 +1,31 @@
+
+More and more of the information on the web
+is dialogic, from Facebook newsfeeds, to fo-
+rum conversations, to comment threads on
+news articles. In contrast to traditional, mono-
+logic Natural Language Processing resources
+such as news, highly social dialogue is fre-
+quent in social media, making it a challenging
+context for NLP. This paper tests a bootstrap-
+ping method, originally proposed in a mono-
+logic domain, to train classifiers to identify
+two different types of subjective language in
+dialogue: sarcasm and nastiness. We explore
+two methods of developing linguistic indica-
+tors to be used in a first level classifier aimed
+at maximizing precision at the expense of re-
+call. The best performing classifier for the first
+phase achieves 54% precision and 38% recall
+for sarcastic utterances. We then use general
+syntactic patterns from previous work to cre-
+ate more general sarcasm indicators, improv-
+ing precision to 62% and recall to 52%. To
+further test the generality of the method, we
+then apply it to bootstrapping a classifier for
+nastiness dialogic acts. Our first phase, using
+crowdsourced nasty indicators, achieves 58%
+precision and 49% recall, which increases to
+75% precision and 62% recall when we boot-
+strap over the first level with generalized syn-
+tactic patterns.
+1 

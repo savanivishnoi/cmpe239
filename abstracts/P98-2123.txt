@@ -1,0 +1,15 @@
+ 
+In this paper we present Morphy, an inte- 
+grated tool for German morphology, part-of- 
+speech tagging and context-sensitive lem- 
+matization. Its large lexicon of more than 
+320,000 word forms plus its ability to pro- 
+cess German compound nouns guarantee a 
+wide morphological coverage. Syntactic 
+ambiguities can be resolved with a standard 
+statistical part-of-speech tagger. By using 
+the output of the tagger, the lemmatizer can 
+determine the correct root even for ambi- 
+guous word forms. The complete package is 
+freely available and can be downloaded 
+from the World Wide Web. 

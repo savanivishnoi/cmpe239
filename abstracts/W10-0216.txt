@@ -1,0 +1,17 @@
+
+In this work, we propose a novel representa-
+tion of text based on patterns derived from lin-
+guistic annotation graphs. We use a subgraph
+mining algorithm to automatically derive fea-
+tures as frequent subgraphs from the annota-
+tion graph. This process generates a very large
+number of features, many of which are highly
+correlated. We propose a genetic program-
+ming based approach to feature construction
+which creates a fixed number of strong classi-
+fication predictors from these subgraphs. We
+evaluate the benefit gained from evolved struc-
+tured features, when used in addition to the
+bag-of-words features, for a sentiment classi-
+fication task.
+1 

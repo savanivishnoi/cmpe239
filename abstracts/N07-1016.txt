@@ -1,0 +1,25 @@
+
+The task of identifying synonymous re-
+lations and objects, or Synonym Resolu-
+tion (SR), is critical for high-quality infor-
+mation extraction. The bulk of previous
+SR work assumed strong domain knowl-
+edge or hand-tagged training examples.
+This paper investigates SR in the con-
+text of unsupervised information extrac-
+tion, where neither is available. The pa-
+per presents a scalable, fully-implemented
+system for SR that runs in O(KN log N)
+time in the number of extractions N and
+the maximum number of synonyms per
+word, K. The system, called RESOLVER,
+introduces a probabilistic relational model
+for predicting whether two strings are
+co-referential based on the similarity of
+the assertions containing them. Given
+two million assertions extracted from the
+Web, RESOLVER resolves objects with
+78% precision and an estimated 68% re-
+call and resolves relations with 90% pre-
+cision and 35% recall.
+1 

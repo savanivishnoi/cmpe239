@@ -1,0 +1,15 @@
+
+We present a joint approach for recognizing
+spatial roles in SemEval-2012 Task 3. Can-
+didate spatial relations, in the form of triples,
+are heuristically extracted from sentences with
+high recall. The joint classification of spatial
+roles is then cast as a binary classification over
+the candidates. This joint approach allows for
+a rich feature set based on the complete rela-
+tion instead of individual relation arguments.
+Our best official submission achieves an F1-
+measure of 0.573 on relation recognition, best
+in the task and outperforming the previous
+best result on the same data set (0.500).
+1 

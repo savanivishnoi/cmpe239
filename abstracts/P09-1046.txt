@@ -1,0 +1,22 @@
+
+Recent work on temporal relation iden-
+tification has focused on three types of
+relations between events: temporal rela-
+tions between an event and a time expres-
+sion, between a pair of events and between
+an event and the document creation time.
+These types of relations have mostly been
+identified in isolation by event pairwise
+comparison. However, this approach ne-
+glects logical constraints between tempo-
+ral relations of different types that we be-
+lieve to be helpful. We therefore propose a
+Markov Logic model that jointly identifies
+relations of all three relation types simul-
+taneously. By evaluating our model on the
+TempEval data we show that this approach
+leads to about 2% higher accuracy for all
+three types of relations ?and to the best
+results for the task when compared to those
+of other machine learning based systems.
+1 

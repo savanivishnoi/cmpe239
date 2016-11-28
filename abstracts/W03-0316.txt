@@ -1,0 +1,27 @@
+ 
+Corpus-based Natural Language Processing (NLP) 
+tasks for such popular languages as English, French, 
+etc. have been well studied with satisfactory 
+achievements. In contrast, corpus-based NLP tasks for 
+unpopular languages (e.g. Vietnamese) are at a 
+deadlock due to absence of annotated training data for 
+these languages. Furthermore, hand-annotation of even 
+reasonably well-determined features such as part-of-
+speech (POS) tags has proved to be labor intensive and 
+costly. In this paper, we suggest a solution to partially 
+overcome the annotated resource shortage in 
+Vietnamese by building a POS-tagger for an 
+automatically word-aligned English-Vietnamese 
+parallel Corpus (named EVC). This POS-tagger made 
+use of the Transformation-Based Learning (or TBL) 
+method to bootstrap the POS-annotation results of the 
+English POS-tagger by exploiting the POS-information 
+of the corresponding Vietnamese words via their word-
+alignments in EVC. Then, we directly project POS-
+annotations from English side to Vietnamese via 
+available word alignments. This POS-annotated 
+Vietnamese corpus will be manually corrected to 
+become an annotated training data for Vietnamese NLP 
+tasks such as POS-tagger, Phrase-Chunker, Parser, 
+Word-Sense Disambiguator, etc. 
+1 

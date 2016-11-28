@@ -1,0 +1,14 @@
+  
+In this paper, we propose a new idea for 
+the automatic recognition of domain 
+specific terms. Our idea is based on the 
+statistics between a compound noun and 
+its component single-nouns. More 
+precisely, we focus basically on how 
+many nouns adjoin the noun in question 
+to form compound nouns. We propose 
+several scoring methods based on this 
+idea and experimentally evaluate them on 
+the NTCIR1 TMREC test collection. The 
+results are very promising especially in 
+the low recall area. 

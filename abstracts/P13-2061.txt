@@ -1,0 +1,23 @@
+
+The quality of bilingual data is a key factor
+in Statistical Machine Translation (SMT).
+Low-quality bilingual data tends to pro-
+duce incorrect translation knowledge and
+also degrades translation modeling per-
+formance. Previous work often used su-
+pervised learning methods to filter low-
+quality data, but a fair amount of human
+labeled examples are needed which are
+not easy to obtain. To reduce the re-
+liance on labeled examples, we propose
+an unsupervised method to clean bilin-
+gual data. The method leverages the mu-
+tual reinforcement between the sentence
+pairs and the extracted phrase pairs, based
+on the observation that better sentence
+pairs often lead to better phrase extraction
+and vice versa. End-to-end experiments
+show that the proposed method substan-
+tially improves the performance in large-
+scale Chinese-to-English translation tasks.
+1 

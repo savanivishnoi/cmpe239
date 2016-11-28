@@ -1,0 +1,9 @@
+ 
+Performance in speech recognition systems has progressed to the point where it is now realistic to begin 
+integrating speech with natural language systems to produce spoken language systems. Two factors have 
+contributed to the advances in speech: statistical modeling of the input signal and language constraints. 
+To produce spoken language systems, then, the grammar formalisms used in natural language systems 
+must incorporate statistical information and efficient parsers for these stochastic language models must be 
+developed. In this paper we outline how chart parsing techniques provide advantages in both computation 
+and accuracy for spoken language systems. We describe asystem that models all levels of the spoken language 
+system using stochastic language models and present experimental results. 

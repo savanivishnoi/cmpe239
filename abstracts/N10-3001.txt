@@ -1,0 +1,20 @@
+
+Determining the correct structure of coordi-
+nating conjunctions and the syntactic con-
+stituents that they coordinate is a difficult task.
+This subtask of syntactic parsing is explored
+here for biomedical scientific literature. In
+particular, the intuition that sentences contain-
+ing coordinating conjunctions can often be
+rephrased as two or more smaller sentences
+derived from the coordination structure is ex-
+ploited. Generating candidate sentences cor-
+responding to different possible coordination
+structures and comparing them with a lan-
+guage model is employed to help determine
+which coordination structure is best. This
+strategy is used to augment a simple baseline
+system for coordination resolution which out-
+performs both the baseline system and a con-
+stituent parser on the same task.
+1 

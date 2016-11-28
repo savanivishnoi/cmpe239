@@ -1,0 +1,16 @@
+
+In this paper we present preliminary exper-
+iments that aim to reduce lexical data spar-
+sity in statistical parsing by exploiting infor-
+mation about named entities. Words in the
+WSJ corpus are mapped to named entity clus-
+ters and a latent variable constituency parser
+is trained and tested on the transformed cor-
+pus. We explore two different methods for
+mapping words to entities, and look at the ef-
+fect of mapping various subsets of named en-
+tity types. Thus far, results show no improve-
+ment in parsing accuracy over the best base-
+line score; we identify possible problems and
+outline suggestions for future directions.
+1 

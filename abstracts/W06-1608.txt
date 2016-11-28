@@ -1,0 +1,12 @@
+
+We investigate the impact of parse quality
+on a syntactically-informed statistical ma-
+chine translation system applied to techni-
+cal text. We vary parse quality by vary-
+ing the amount of data used to train the
+parser. As the amount of data increases,
+parse quality improves, leading to im-
+provements in machine translation output
+and results that significantly outperform a
+state-of-the-art phrasal baseline.
+1 

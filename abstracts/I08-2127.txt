@@ -1,0 +1,21 @@
+
+This paper addresses the difficulties in rec-
+ognizing Japanese abbreviations through the
+use of previous approaches, examining ac-
+tual usages of parenthetical expressions in
+newspaper articles. In order to bridge the
+gap between Japanese abbreviations and
+their full forms, we present a discrimina-
+tive approach to abbreviation recognition.
+More specifically, we formalize the abbrevi-
+ation recognition task as a binary classifica-
+tion problem in which a classifier determines
+a positive (abbreviation) or negative (non-
+abbreviation) class, given a candidate of ab-
+breviation definition. The proposed method
+achieved 95.7% accuracy, 90.0% precision,
+and 87.6% recall on the evaluation corpus
+containing 7,887 (1,430 abbreviations and
+6,457 non-abbreviation) instances of paren-
+thetical expressions.
+1 

@@ -1,0 +1,13 @@
+
+BART (Versley et al, 2008) is a highly mod-
+ular toolkit for coreference resolution that
+supports state-of-the-art statistical approaches
+and enables efficient feature engineering. For
+the SemEval task 1 on Coreference Resolu-
+tion, BART runs have been submitted for Ger-
+man, English, and Italian.
+BART relies on a maximum entropy-based
+classifier for pairs of mentions. A novel entity-
+mention approach based on Semantic Trees is
+at the moment only supported for English.
+1 

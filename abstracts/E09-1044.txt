@@ -1,0 +1,15 @@
+
+We describe refinements to hierarchical
+translation search procedures intended to
+reduce both search errors and memory us-
+age through modifications to hypothesis
+expansion in cube pruning and reductions
+in the size of the rule sets used in transla-
+tion. Rules are put into syntactic classes
+based on the number of non-terminals and
+the pattern, and various filtering strate-
+gies are then applied to assess the impact
+on translation speed and quality. Results
+are reported on the 2008 NIST Arabic-to-
+English evaluation task.
+1 

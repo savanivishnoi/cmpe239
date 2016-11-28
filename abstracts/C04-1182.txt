@@ -1,0 +1,26 @@
+ 
+The Colorado Literacy Tutor (CLT) is a 
+technology-based literacy program, designed 
+on the basis of cognitive theory and 
+scientifically motivated reading research, 
+which aims to improve literacy and student 
+achievement in public schools. One of the 
+critical components of the CLT is a speech 
+recognition system which is used to track the 
+child?s progress during oral reading and to 
+provide sufficient information to detect 
+reading miscues.  In this paper, we extend on 
+prior work by examining a novel labeling of 
+children?s oral reading audio data in order to 
+better understand the factors that contribute 
+most significantly to speech recognition 
+errors.  While these events make up nearly 8% 
+of the data, they are shown to account for 
+approximately 30% of the word errors in a 
+state-of-the-art speech recognizer.  Next, we 
+consider the problem of detecting miscues 
+during oral reading. Using features derived 
+from the speech recognizer, we demonstrate 
+that 67% of reading miscues can be detected at 
+a false alarm rate of 3%. 
+1 

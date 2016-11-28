@@ -1,0 +1,25 @@
+
+Spoken dialogue systems promise effi-
+cient and natural access to information
+services from any phone. Recently, spo-
+ken dialogue systems for widely used ap-
+plications such as email, travel informa-
+tion, and customer care have moved from
+research labs into commercial use. These
+applications can receive millions of calls
+a month. This huge amount of spoken
+dialogue data has led to a need for fully
+automatic methods for selecting a subset
+of caller dialogues that are most likely
+to be useful for further system improve-
+ment, to be stored, transcribed and further
+analyzed. This paper reports results on
+automatically training a Problematic Di-
+alogue Identifier to classify problematic
+human-computer dialogues using a corpus
+of 1242 DARPA Communicator dialogues
+in the travel planning domain. We show
+that using fully automatic features we can
+identify classes of problematic dialogues
+with accuracies from 67% to 89%.
+1 

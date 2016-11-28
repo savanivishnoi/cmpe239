@@ -1,0 +1,27 @@
+
+Clustering is a central technique in NLP.
+Consequently, clustering evaluation is of
+great importance. Many clustering algo-
+rithms are evaluated by their success in
+tagging corpus tokens. In this paper we
+discuss type level evaluation, which re-
+flects class membership only and is inde-
+pendent of the token statistics of a partic-
+ular reference corpus. Type level evalua-
+tion casts light on the merits of algorithms,
+and for some applications is a more natural
+measure of the algorithm?s quality.
+We propose new type level evaluation
+measures that, contrary to existing mea-
+sures, are applicable when items are pol-
+ysemous, the common case in NLP. We
+demonstrate the benefits of our measures
+using a detailed case study, POS induc-
+tion. We experiment with seven leading
+algorithms, obtaining useful insights and
+showing that token and type level mea-
+sures can weakly or even negatively corre-
+late, which underscores the fact that these
+two approaches reveal different aspects of
+clustering quality.
+1 

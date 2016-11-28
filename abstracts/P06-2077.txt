@@ -1,0 +1,21 @@
+
+Countability of English nouns is impor-
+tant in various natural language process-
+ing tasks. It especially plays an important
+role in machine translation since it deter-
+mines the range of possible determiners.
+This paper proposes a method for reinforc-
+ing countability prediction by introducing
+a novel concept called one countability per
+discourse. It claims that when a noun
+appears more than once in a discourse,
+they will all share the same countability in
+the discourse. The basic idea of the pro-
+posed method is that mispredictions can
+be correctly overridden using efficiently
+the one countability per discourse prop-
+erty. Experiments show that the proposed
+method successfully reinforces countabil-
+ity prediction and outperforms other meth-
+ods used for comparison.
+1 

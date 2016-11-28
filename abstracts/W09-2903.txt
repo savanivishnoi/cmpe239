@@ -1,0 +1,17 @@
+
+We address the problem of classifying multi-
+word expression tokens in running text. We
+focus our study on Verb-Noun Constructions
+(VNC) that vary in their idiomaticity depend-
+ing on context. VNC tokens are classified as
+either idiomatic or literal. We present a super-
+vised learning approach to the problem. We ex-
+periment with different features. Our approach
+yields the best results to date on MWE clas-
+sification combining different linguistically mo-
+tivated features, the overall performance yields
+an F-measure of 84.58% corresponding to an F-
+measure of 89.96% for idiomaticity identification
+and classification and 62.03% for literal identifi-
+cation and classification.
+1 

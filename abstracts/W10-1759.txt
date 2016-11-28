@@ -1,0 +1,26 @@
+
+The translation model of statistical ma-
+chine translation systems is trained on par-
+allel data coming from various sources and
+domains. These corpora are usually con-
+catenated, word alignments are calculated
+and phrases are extracted. This means
+that the corpora are not weighted accord-
+ing to their importance to the domain of
+the translation task. This is in contrast
+to the training of the language model for
+which well known techniques are used to
+weight the various sources of texts. On
+a smaller granularity, the automatic cal-
+culated word alignments differ in quality.
+This is usually not considered when ex-
+tracting phrases either.
+In this paper we propose a method to auto-
+matically weight the different corpora and
+alignments. This is achieved with a resam-
+pling technique. We report experimen-
+tal results for a small (IWSLT) and large
+(NIST) Arabic/English translation tasks.
+In both cases, significant improvements in
+the BLEU score were observed.
+1 

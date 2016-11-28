@@ -1,0 +1,20 @@
+
+This paper proposes a boosting algorithm
+that uses a semi-Markov perceptron. The
+training algorithm repeats the training of a
+semi-Markov model and the update of the
+weights of training samples. In the boost-
+ing, training samples that are incorrectly
+segmented or labeled have large weights.
+Such training samples are aggressively
+learned in the training of the semi-Markov
+perceptron because the weights are used
+as the learning ratios. We evaluate our
+training method with Noun Phrase Chunk-
+ing, Text Chunking and Extended Named
+Entity Recognition. The experimental re-
+sults show that our method achieves better
+accuracy than a semi-Markov perceptron
+and a semi-Markov Conditional Random
+Fields.
+1 

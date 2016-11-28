@@ -1,0 +1,18 @@
+ 
+We show how a treebank can be used to 
+cluster words on the basis of their syntac- 
+tic behavior. The resulting clusters repre- 
+sent distinct types of behavior with much 
+more precision than parts of speech. As an 
+example we show how prepositions can be 
+automatical ly subdivided by their syntac- 
+tic behavior and discuss the appropriate- 
+ness of such a subdivision. Applications of 
+this work are also discussed. 
+S works 
+verb  
+NP ~$mith 
+John Smith works fast 
+proper  noun proper  noun verb  adverb  
+Figure 1: Sentence with Parse Tree and Headwords 
+1 

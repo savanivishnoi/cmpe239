@@ -1,0 +1,22 @@
+
+Many approaches to unsupervised mor-
+phology acquisition incorporate the fre-
+quency of character sequences with re-
+spect to each other to identify word stems
+and affixes. This typically involves heuris-
+tic search procedures and calibrating mul-
+tiple arbitrary thresholds. We present a
+simple approach that uses no thresholds
+other than those involved in standard ap-
+plication of ?2 significance testing. A
+key part of our approach is using docu-
+ment boundaries to constrain generation of
+candidate stems and affixes and clustering
+morphological variants of a given word
+stem. We evaluate our model on English
+and the Mayan language Uspanteko; it
+compares favorably to two benchmark sys-
+tems which use considerably more com-
+plex strategies and rely more on experi-
+mentally chosen threshold values.
+1 

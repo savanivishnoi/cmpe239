@@ -1,0 +1,22 @@
+
+To adapt a translation model trained from
+the data in one domain to another, previous
+works paid more attention to the studies of
+parallel corpus while ignoring the in-domain
+monolingual corpora which can be obtained
+more easily. In this paper, we propose a
+novel approach for translation model adapta-
+tion by utilizing in-domain monolingual top-
+ic information instead of the in-domain bilin-
+gual corpora, which incorporates the topic in-
+formation into translation probability estima-
+tion. Our method establishes the relationship
+between the out-of-domain bilingual corpus
+and the in-domain monolingual corpora vi-
+a topic mapping and phrase-topic distribution
+probability estimation from in-domain mono-
+lingual corpora. Experimental result on the
+NIST Chinese-English translation task shows
+that our approach significantly outperforms
+the baseline system.
+1 

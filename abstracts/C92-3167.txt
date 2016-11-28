@@ -1,0 +1,18 @@
+ 
+A crucial problem in topic recognition is how 
+to identify topic continuation. Domain knowl- 
+edge is generally indispensable for this. How~ 
+ever, knowledge-based approaches are imprac- 
+tical because not all domain knowledge needed 
+for the identification can be prepared in advance. 
+This paper presents a topic recognition model 
+using dialogue interaction structures. The model 
+can deal with both task-oriented and non-task- 
+oriented ialogues in any language. Topic con- 
+tinuation is identified without domain knowl- 
+edge because utterances of relevant opics are 
+indicated by certain interaction structures. The 
+model avoids the weak point of knowledge- 
+based approaches. The model is validated by 
+the result of a topic recognition experiment. 
+1 

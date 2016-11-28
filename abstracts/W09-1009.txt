@@ -1,0 +1,24 @@
+
+Unambiguous Non-Terminally Separated
+(UNTS) grammars have properties that
+make them attractive for grammatical in-
+ference. However, these properties do not
+state the maximal performance they can
+achieve when they are evaluated against a
+gold treebank that is not produced by an
+UNTS grammar. In this paper we inves-
+tigate such an upper bound. We develop
+a method to find an upper bound for the
+unlabeled F1 performance that any UNTS
+grammar can achieve over a given tree-
+bank. Our strategy is to characterize all
+possible versions of the gold treebank that
+UNTS grammars can produce and to find
+the one that optimizes a metric we define.
+We show a way to translate this score into
+an upper bound for the F1. In particular,
+we show that the F1 parsing score of any
+UNTS grammar can not be beyond 82.2%
+when the gold treebank is the WSJ10 cor-
+pus.
+1 

@@ -1,0 +1,18 @@
+ 
+In machine translation, parsing of long 
+English sentences still causes some problems, 
+whereas for short sentences a good machine 
+translation system usually can generate 
+readable translations. In this paper a 
+practical method is presented for parsing 
+long English sentences of some patterns. The 
+rules for the patterns are treated separately 
+from the augmented context free grammar, 
+where each context free grammar rule is 
+augmented by some syntactic functions and 
+semantic functions. The rules for patterns 
+and augmented context free grammar are 
+complimentary to each other. In this way 
+long English sentences covered by the 
+patterns can be parsed efficiently. 
+i. 

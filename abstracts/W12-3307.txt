@@ -1,0 +1,18 @@
+
+This work presents a Text Segmentation al-
+gorithm called TopicTiling. This algorithm
+is based on the well-known TextTiling algo-
+rithm, and segments documents using the La-
+tent Dirichlet Allocation (LDA) topic model.
+We show that using the mode topic ID as-
+signed during the inference method of LDA,
+used to annotate unseen documents, improves
+performance by stabilizing the obtained top-
+ics. We show significant improvements over
+state of the art segmentation algorithms on two
+standard datasets. As an additional benefit,
+TopicTiling performs the segmentation in lin-
+ear time and thus is computationally less ex-
+pensive than other LDA-based segmentation
+methods.
+1 

@@ -1,0 +1,8 @@
+. The paper introduces a method for interpreting novel noun compounds
+with semantic relations. The method is built around word similarity with pre-
+tagged noun compounds, based on WordNet::Similarity. Over 1,088
+training instances and 1,081 test instances from the Wall Street Journal in the
+Penn Treebank, the proposed method was able to correctly classify 53.3% of the
+test noun compounds. We also investigated the relative contribution of the modi-
+fier and the head noun in noun compounds of different semantic types.
+1 

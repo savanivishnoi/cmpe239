@@ -1,0 +1,23 @@
+
+As the number of learners of English is con-
+stantly growing, automatic error correction of
+ESL learners? writing is an increasingly ac-
+tive area of research. However, most research
+has mainly focused on errors concerning arti-
+cles and prepositions even though tense/aspect
+errors are also important. One of the main
+reasons why tense/aspect error correction is
+difficult is that the choice of tense/aspect is
+highly dependent on global context. Previous
+research on grammatical error correction typ-
+ically uses pointwise prediction that performs
+classification on each word independently, and
+thus fails to capture the information of neigh-
+boring labels. In order to take global infor-
+mation into account, we regard the task as se-
+quence labeling: each verb phrase in a doc-
+ument is labeled with tense/aspect depending
+on surrounding labels. Our experiments show
+that the global context makes a moderate con-
+tribution to tense/aspect error correction.
+1 

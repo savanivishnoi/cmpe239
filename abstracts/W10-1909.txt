@@ -1,0 +1,34 @@
+ 
+Here we explore mining data on gene expres-
+sion from the biomedical literature and 
+present Gene Expression Text Miner 
+(GETM), a tool for extraction of information 
+about the expression of genes and their ana-
+tomical locations from text. Provided with 
+recognized gene mentions, GETM identifies 
+mentions of anatomical locations and cell 
+lines, and extracts text passages where au-
+thors discuss the expression of a particular 
+gene in specific anatomical locations or cell 
+lines. This enables the automatic construction 
+of expression profiles for both genes and ana-
+tomical locations. Evaluated against a ma-
+nually extended version of the BioNLP '09 
+corpus, GETM achieved precision and recall 
+levels of 58.8% and 23.8%, respectively. Ap-
+plication of GETM to MEDLINE and 
+PubMed Central yielded over 700,000 gene 
+expression mentions. This data set may be 
+queried through a web interface, and should 
+prove useful not only for researchers who are 
+interested in the developmental regulation of 
+specific genes of interest, but also for data-
+base curators aiming to create structured re-
+positories of gene expression information. 
+The compiled tool, its source code, the ma-
+nually annotated evaluation corpus and a 
+search query interface to the data set ex-
+tracted from MEDLINE and  PubMed Cen-
+tral is available at http://getm-
+project.sourceforge.net/. 
+1 

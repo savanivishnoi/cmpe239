@@ -1,0 +1,17 @@
+
+In this paper we introduce a novel use of the
+lexicographic semiring and motivate its use
+for speech and language processing tasks. We
+prove that the semiring allows for exact en-
+coding of backoff models with epsilon tran-
+sitions. This allows for off-line optimization
+of exact models represented as large weighted
+finite-state transducers in contrast to implicit
+(on-line) failure transition representations. We
+present preliminary empirical results demon-
+strating that, even in simple intersection sce-
+narios amenable to the use of failure transi-
+tions, the use of the more powerful lexico-
+graphic semiring is competitive in terms of
+time of intersection.
+1 

@@ -1,0 +1,19 @@
+ 
+In this paper a morphological component 
+with a limited capability to automatically 
+interpret (and generate) derived words is 
+presented. The system combines an ex- 
+tended two-level morphology \[Trost, 1991a; 
+Trost, 1991b\] with a feature-based word 
+grammar building on a hierarchical lexicon. 
+Polymorphemic stems not explicitly stored 
+in the lexicon are given a compositional in- 
+terpretation. That way the system allows 
+to minimize redundancy in the lexicon be- 
+cause derived words that are transparent 
+need not to be stored explicitly. Also, words 
+formed ad-hoc can be recognized correctly. 
+The system is implemented in CommonLisp 
+and has been tested on examples from Ger- 
+man derivation. 
+1 

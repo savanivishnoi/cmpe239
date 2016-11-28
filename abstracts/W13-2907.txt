@@ -1,0 +1,26 @@
+
+An increasing range of features is being
+used for automatic readability classifica-
+tion. The impact of the features typically
+is evaluated using reference corpora con-
+taining graded reading material. But how
+do the readability models and the features
+they are based on perform on real-world
+web texts? In this paper, we want to take a
+step towards understanding this aspect on
+the basis of a broad range of lexical and
+syntactic features and several web datasets
+we collected.
+Applying our models to web search re-
+sults, we find that the average reading level
+of the retrieved web documents is rela-
+tively high. At the same time, documents
+at a wide range of reading levels are iden-
+tified and even among the Top-10 search
+results one finds documents at the lower
+levels, supporting the potential usefulness
+of readability ranking for the web. Finally,
+we report on generalization experiments
+showing that the features we used gener-
+alize well across different web sources.
+1 

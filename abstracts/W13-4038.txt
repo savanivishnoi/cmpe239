@@ -1,0 +1,28 @@
+
+Goal-oriented dialog agents are expected
+to recognize user-intentions from an utter-
+ance and execute appropriate tasks. Typi-
+cally, such systems use a semantic parser
+to solve this problem. However, semantic
+parsers could fail if user utterances contain
+out-of-grammar words/phrases or if the se-
+mantics of uttered phrases did not match
+the parser?s expectations. In this work,
+we have explored a more robust method
+of task prediction. We define task predic-
+tion as a classification problem, rather than
+?parsing? and use semantic contexts to im-
+prove classification accuracy. Our classi-
+fier uses semantic smoothing kernels that
+can encode information from knowledge
+bases such as Wordnet, NELL and Free-
+base.com. Our experiments on two spoken
+language corpora show that augmenting
+semantic information from these knowl-
+edge bases gives about 30% absolute im-
+provement in task prediction over a parser-
+based method. Our approach thus helps
+make a dialog agent more robust to user
+input and helps reduce number of turns re-
+quired to detected intended tasks.
+1 

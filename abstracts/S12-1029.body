@@ -1,0 +1,17 @@
+
+We present a novel technique for jointly predict-
+ing semantic arguments for lexical predicates. The
+task is to find the best matching between seman-
+tic roles and sentential spans, subject to struc-
+tural constraints that come from expert linguistic
+knowledge (e.g., in the FrameNet lexicon). We
+formulate this task as an integer linear program
+(ILP); instead of using an off-the-shelf tool to
+solve the ILP, we employ a dual decomposition
+algorithm, which we adapt for exact decoding via
+a branch-and-bound technique. Compared to a
+baseline that makes local predictions, we achieve
+better argument identification scores and avoid all
+structural violations. Runtime is nine times faster
+than a proprietary ILP solver.
+1 

@@ -1,0 +1,21 @@
+
+Lexical-semantic verb classifications have
+proved useful in supporting various natural lan-
+guage processing (NLP) tasks. The largest and
+the most widely deployed classification in En-
+glish is Levin?s (1993) taxonomy of verbs and
+their classes. While this resource is attrac-
+tive in being extensive enough for some NLP
+use, it is not comprehensive. In this paper, we
+present a substantial extension to Levin?s tax-
+onomy which incorporates 57 novel classes for
+verbs not covered (comprehensively) by Levin.
+We also introduce 106 novel diathesis alterna-
+tions, created as a side product of constructing
+the new classes. We demonstrate the utility of
+our novel classes by using them to support au-
+tomatic subcategorization acquisition and show
+that the resulting extended classification has
+extensive coverage over the English verb lex-
+icon.
+1 

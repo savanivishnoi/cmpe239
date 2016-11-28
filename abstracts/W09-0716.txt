@@ -1,0 +1,19 @@
+
+This paper presents the Ontology for Ac-
+cessing Transcription Systems (OATS), a
+knowledge base that supports interopera-
+tion over disparate transcription systems
+and practical orthographies. The knowl-
+edge base includes an ontological descrip-
+tion of writing systems and relations for
+mapping transcription system segments
+to an interlingua pivot, the IPA. It in-
+cludes orthographic and phonemic inven-
+tories from 203 African languages. OATS
+is motivated by the desire to query data in
+the knowledge base via IPA or native or-
+thography, and for error checking of dig-
+itized data and conversion between tran-
+scription systems. The model in this paper
+implements these goals.
+1 

@@ -1,0 +1,17 @@
+
+Previous work on classifying information sta-
+tus (Nissim, 2006; Rahman and Ng, 2011)
+is restricted to coarse-grained classification
+and focuses on conversational dialogue. We
+here introduce the task of classifying fine-
+grained information status and work on writ-
+ten text. We add a fine-grained information
+status layer to the Wall Street Journal portion
+of the OntoNotes corpus. We claim that the
+information status of a mention depends not
+only on the mention itself but also on other
+mentions in the vicinity and solve the task by
+collectively classifying the information status
+of all mentions. Our approach strongly outper-
+forms reimplementations of previous work.
+1 

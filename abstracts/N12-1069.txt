@@ -1,0 +1,16 @@
+
+We investigate models for unsupervised learn-
+ing with concave log-likelihood functions. We
+begin with the most well-known example,
+IBM Model 1 for word alignment (Brown
+et al, 1993) and analyze its properties, dis-
+cussing why other models for unsupervised
+learning are so seldom concave. We then
+present concave models for dependency gram-
+mar induction and validate them experimen-
+tally. We find our concave models to be effec-
+tive initializers for the dependency model of
+Klein and Manning (2004) and show that we
+can encode linguistic knowledge in them for
+improved performance.
+1 

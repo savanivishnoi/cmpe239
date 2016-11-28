@@ -1,0 +1,22 @@
+ 
+Suppose we have a large collection of 
+documents most of which are unlabeled. Suppose 
+further that we have a small subset of these 
+documents which represent a particular class of 
+documents we are interested in, i.e. these are 
+labeled as positive examples. We may have reason 
+to believe that there are more of these positive 
+class documents in our large unlabeled collection. 
+What data mining techniques could help us find 
+these unlabeled positive examples? Here we 
+examine machine learning strategies designed to 
+solve this problem. We find that a proper choice of 
+machine learning method as well as training 
+strategies can give substantial improvement in 
+retrieving, from the large collection, data enriched 
+with positive examples. We illustrate the principles 
+with a real example consisting of multiword 
+UMLS phrases among a much larger collection of 
+phrases from Medline. 
+ 
+1 

@@ -1,0 +1,18 @@
+
+We explore a model of stress prediction
+in Russian using a combination of lo-
+cal contextual features and linguistically-
+motivated features associated with the
+word?s stem and suffix. We frame this
+as a ranking problem, where the objec-
+tive is to rank the pronunciation with the
+correct stress above those with incorrect
+stress. We train our models using a simple
+Maximum Entropy ranking framework al-
+lowing for efficient prediction. An empir-
+ical evaluation shows that a model com-
+bining the local contextual features and
+the linguistically-motivated non-local fea-
+tures performs best in identifying both
+primary and secondary stress.
+1 

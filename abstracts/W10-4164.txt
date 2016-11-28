@@ -1,0 +1,14 @@
+ 
+Word Sense Induction (WSI) is an 
+important topic in natural langage 
+processing area. For the bakeoff task 
+Chinese Word Sense Induction (CWSI), 
+this paper proposes two systems using 
+basic clustering algorithms, k-means and 
+agglomerative clustering. Experimental 
+results show that k-means achieves a 
+better performance. Based only on the 
+data provided by the task organizers, the 
+two systems get FScores of 0.7812 and 
+0.7651 respectively. 
+1 

@@ -1,0 +1,20 @@
+
+Evaluating a dialogue system is seen as a
+major challenge within the dialogue research
+community. Due to the very nature of the task,
+most of the evaluation methods need a sub-
+stantial amount of human involvement. Fol-
+lowing the tradition in machine translation,
+summarization and discourse coherence mod-
+eling, we introduce the the idea of evaluation
+understudy for dialogue coherence models.
+Following (Lapata, 2006), we use the infor-
+mation ordering task as a testbed for evaluat-
+ing dialogue coherence models. This paper re-
+ports findings about the reliability of the infor-
+mation ordering task as applied to dialogues.
+We find that simple n-gram co-occurrence
+statistics similar in spirit to BLEU (Papineni
+et al, 2001) correlate very well with human
+judgments for dialogue coherence.
+1 

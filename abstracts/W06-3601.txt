@@ -1,0 +1,22 @@
+
+A syntax-directed translator first parses
+the source-language input into a parse-
+tree, and then recursively converts the tree
+into a string in the target-language. We
+model this conversion by an extended tree-
+to-string transducer that have multi-level
+trees on the source-side, which gives our
+system more expressive power and flexi-
+bility. We also define a direct probabil-
+ity model and use a linear-time dynamic
+programming algorithm to search for the
+best derivation. The model is then ex-
+tended to the general log-linear frame-
+work in order to rescore with other fea-
+tures like n-gram language models. We
+devise a simple-yet-effective algorithm to
+generate non-duplicate k-best translations
+for n-gram rescoring. Initial experimen-
+tal results on English-to-Chinese transla-
+tion are presented.
+1 

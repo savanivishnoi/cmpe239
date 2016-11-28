@@ -1,0 +1,21 @@
+
+Reordering is a serious challenge in sta-
+tistical machine translation. We propose
+a method for analysing syntactic reorder-
+ing in parallel corpora and apply it to un-
+derstanding the differences in the perfor-
+mance of SMT systems. Results at recent
+large-scale evaluation campaigns show
+that synchronous grammar-based statisti-
+cal machine translation models produce
+superior results for language pairs such as
+Chinese to English. However, for language
+pairs such as Arabic to English, phrase-
+based approaches continue to be competi-
+tive. Until now, our understanding of these
+results has been limited to differences in
+BLEU scores. Our analysis shows that cur-
+rent state-of-the-art systems fail to capture
+the majority of reorderings found in real
+data.
+1 

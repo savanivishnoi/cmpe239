@@ -1,0 +1,15 @@
+
+In this paper we introduce a methodology for annotating compo-
+sitional operations in natural language text, and describe a mark-up
+language, GLML, based on Generative Lexicon, for identifying such
+relations. While most annotation systems capture surface relation-
+ships, GLML captures the ?compositional history? of the argument
+selection relative to the predicate. We provide a brief overview of GL
+before moving on to our proposed methodology for annotating with
+GLML. There are three main tasks described in the paper: (i) Com-
+positional mechanisms of argument selection; (ii) Qualia in modifica-
+tion constructions; (iii) Type selection in modification of dot objects.
+We explain what each task includes and provide a description of the
+annotation interface. We also include the XML format for GLML in-
+cluding examples of annotated sentences.
+1 

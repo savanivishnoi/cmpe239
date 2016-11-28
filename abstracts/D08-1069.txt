@@ -1,0 +1,16 @@
+
+This paper investigates two strategies for im-
+proving coreference resolution: (1) training
+separate models that specialize in particu-
+lar types of mentions (e.g., pronouns versus
+proper nouns) and (2) using a ranking loss
+function rather than a classification function.
+In addition to being conceptually simple, these
+modifications of the standard single-model,
+classification-based approach also deliver sig-
+nificant performance improvements. Specifi-
+cally, we show that on the ACE corpus both
+strategies produce f -score gains of more than
+3% across the three coreference evaluation
+metrics (MUC, B3, and CEAF).
+1 

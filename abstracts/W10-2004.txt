@@ -1,0 +1,22 @@
+
+Hierarchical Hidden Markov Model
+(HHMM) parsers have been proposed as
+psycholinguistic models due to their broad
+coverage within human-like working
+memory limits (Schuler et al, 2008) and
+ability to model human reading time
+behavior according to various complexity
+metrics (Wu et al, 2010). But HHMMs
+have been evaluated previously only with
+very wide beams of several thousand
+parallel hypotheses, weakening claims to
+the model?s efficiency and psychological
+relevance. This paper examines the effects
+of varying beam width on parsing accu-
+racy and speed in this model, showing that
+parsing accuracy degrades gracefully as
+beam width decreases dramatically (to 2%
+of the width used to achieve previous top
+results), without sacrificing gains over a
+baseline CKY parser.
+1 

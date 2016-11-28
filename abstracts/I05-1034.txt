@@ -1,0 +1,13 @@
+. We propose a tree-similarity-based unsupervised learning method to 
+extract relations between Named Entities from a large raw corpus. Our method 
+regards relation extraction as a clustering problem on shallow parse trees. First, 
+we modify previous tree kernels on relation extraction to estimate the similarity 
+between parse trees more efficiently. Then, the similarity between parse trees is 
+used in a hierarchical clustering algorithm to group entity pairs into different 
+clusters. Finally, each cluster is labeled by an indicative word and unreliable 
+clusters are pruned out. Evaluation on the New York Times (1995) corpus 
+shows that our method outperforms the only previous work by 5 in F-measure. 
+It also shows that our method performs well on both high-frequent and less-
+frequent entity pairs. To the best of our knowledge, this is the first work to use a 
+tree similarity metric in relation clustering. 
+1   

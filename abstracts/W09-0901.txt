@@ -1,0 +1,26 @@
+
+This paper introduces a formal view of
+the semantics and pragmatics of corrective
+feedback in dialogues between adults and
+children. The goal of this research is to
+give a formal account of language coor-
+dination in dialogue, and semantic coor-
+dination in particular. Accounting for se-
+mantic coordination requires (1) a seman-
+tics, i.e. an architecture allowing for dy-
+namic meanings and meaning updates as
+results of dialogue moves, and (2) a prag-
+matics, describing the dialogue moves in-
+volved in semantic coordination. We illus-
+trate the general approach by applying it
+to some examples from the literature on
+corrective feedback, and provide a fairly
+detailed discussion of one example using
+TTR (Type Theory with Records) to for-
+malize concepts. TTR provides an analy-
+sis of linguistic content which is structured
+in order to allow modification and similar-
+ity metrics, and a framework for describ-
+ing dialogue moves and resulting updates
+to linguistic resources.
+1 

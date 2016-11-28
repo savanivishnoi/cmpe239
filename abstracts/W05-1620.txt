@@ -1,0 +1,13 @@
+
+The work presented here is intended as an evolu-
+tionary task-specific module for referring expres-
+sion generation and aggregation to be enclosed in a
+generic flexible architecture. Appearances of con-
+cepts are considered as genes, each one encoding
+the type of reference used. Three genetic opera-
+tors are used: classic crossover and mutation, plus
+a specific operator dealing with aggregation. Fit-
+ness functions are defined to achieve elementary
+coherence and stylistic validity. Experiments are
+described and discussed.
+1 

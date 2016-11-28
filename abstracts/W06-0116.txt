@@ -1,0 +1,15 @@
+
+We present a Chinese Named Entity
+Recognition (NER) system submitted to
+the close track of Sighan Bakeoff2006.
+We define some additional features via do-
+ing statistics in training corpus. Our sys-
+tem incorporates basic features and addi-
+tional features based on Conditional Ran-
+dom Fields (CRFs). In order to correct in-
+consistently results, we perform the post-
+processing procedure according to n-best
+results given by the CRFs model. Our fi-
+nal system achieved a F-score of 85.14 at
+MSRA, 89.03 at CityU, and 76.27 at LDC.
+1 

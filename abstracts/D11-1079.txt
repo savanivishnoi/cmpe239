@@ -1,0 +1,19 @@
+
+Long-distance reordering remains one of the
+biggest challenges facing machine translation.
+We derive soft constraints from the source de-
+pendency parsing to directly address the re-
+ordering problem for the hierarchical phrase-
+based model. Our approach significantly im-
+proves Chinese?English machine translation
+on a large-scale task by 0.84 BLEU points
+on average. Moreover, when we switch the
+tuning function from BLEU to the LRscore
+which promotes reordering, we observe total
+improvements of 1.21 BLEU, 1.30 LRscore
+and 3.36 TER over the baseline. On aver-
+age our approach improves reordering preci-
+sion and recall by 6.9 and 0.3 absolute points,
+respectively, and is found to be especially ef-
+fective for long-distance reodering.
+1 

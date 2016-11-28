@@ -1,0 +1,13 @@
+
+Transliteration of a word into another lan-
+guage often leads to multiple spellings. Un-
+less an information retrieval system recog-
+nises different forms of transliterated words,
+a significant number of documents will be
+missed when users specify only one spelling
+variant. Using two different datasets, we
+evaluate several approaches to finding vari-
+ants of foreign words in Arabic, and show
+that the longest common subsequence (LCS)
+technique is the best overall.
+1 

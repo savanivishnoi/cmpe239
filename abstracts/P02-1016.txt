@@ -1,0 +1,27 @@
+
+It is necessary to have a (large) annotated cor-
+pus to build a statistical parser. Acquisition of
+such a corpus is costly and time-consuming.
+This paper presents a method to reduce this
+demand using active learning, which selects
+what samples to annotate, instead of annotating
+blindly the whole training corpus.
+Sample selection for annotation is based upon
+?representativeness? and ?usefulness?. A
+model-based distance is proposed to measure
+the difference of two sentences and their most
+likely parse trees. Based on this distance, the
+active learning process analyzes the sample dis-
+tribution by clustering and calculates the den-
+sity of each sample to quantify its representa-
+tiveness. Further more, a sentence is deemed as
+useful if the existing model is highly uncertain
+about its parses, where uncertainty is measured
+by various entropy-based scores.
+Experiments are carried out in the shallow se-
+mantic parser of an air travel dialog system.
+Our result shows that for about the same pars-
+ing accuracy, we only need to annotate a third
+of the samples as compared to the usual random
+selection method.
+1 

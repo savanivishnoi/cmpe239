@@ -1,0 +1,17 @@
+
+In building practical two-way speech-to-speech
+translation systems the end user will always wish
+to use the system in an environment different from
+the original training data. As with all speech sys-
+tems, it is important to allow the system to adapt
+to the actual usage situations. This paper investi-
+gates how a speech-to-speech translation system can
+adapt day-to-day from collected data on day one to
+improve performance on day two. The platform is
+the CMU Iraqi-English portable two-way speech-
+to-speech system as developed under the DARPA
+TransTac program. We show how machine transla-
+tion, speech recognition and overall system perfor-
+mance can be improved on day 2 after adapting from
+day 1 in both a supervised and unsupervised way.
+1 

@@ -1,0 +1,23 @@
+ 
+Coreference resolution, which aims at 
+correctly linking meaningful expressions in 
+text, is a much challenging problem in 
+Natural Language Processing community. 
+This paper describes the multilingual 
+coreference modeling system of Web 
+Information Processing Group, Henan 
+University of Technology, China, for the 
+CoNLL-2012 shared task (closed track). 
+The system takes a supervised learning 
+strategy, and consists of two cascaded 
+components: one for detecting mentions, 
+and the other for clustering mentions. To 
+make the system applicable for multiple 
+languages, generic syntactic and semantic 
+features are used to model coreference in 
+text. The system obtained combined 
+official score 41.88 over three languages 
+(Arabic, Chinese, and English) and ranked 
+7th among the 15 systems in the closed 
+track. 
+1 

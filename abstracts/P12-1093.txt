@@ -1,0 +1,25 @@
+
+This paper uses an unsupervised model of
+grounded language acquisition to study the
+role that social cues play in language acqui-
+sition. The input to the model consists of (or-
+thographically transcribed) child-directed ut-
+terances accompanied by the set of objects
+present in the non-linguistic context. Each
+object is annotated by social cues, indicating
+e.g., whether the caregiver is looking at or
+touching the object. We show how to model
+the task of inferring which objects are be-
+ing talked about (and which words refer to
+which objects) as standard grammatical in-
+ference, and describe PCFG-based unigram
+models and adaptor grammar-based colloca-
+tion models for the task. Exploiting social
+cues improves the performance of all mod-
+els. Our models learn the relative importance
+of each social cue jointly with word-object
+mappings and collocation structure, consis-
+tent with the idea that children could discover
+the importance of particular social informa-
+tion sources during word learning.
+1 

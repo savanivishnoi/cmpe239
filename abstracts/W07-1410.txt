@@ -1,0 +1,15 @@
+
+This paper describes our experiments on
+Textual Entailment in the context of the
+Third Pascal Recognising Textual Entail-
+ment (RTE-3) Evaluation Challenge. Our
+system uses a Machine Learning approach
+with Support Vector Machines and Ad-
+aBoost to deal with the RTE challenge. We
+perform a lexical, syntactic, and semantic
+analysis of the entailment pairs . From this
+information we compute a set of semantic-
+based distances between sentences. The re-
+sults look promising specially for the QA en-
+tailment task.
+1 

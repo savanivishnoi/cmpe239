@@ -1,0 +1,19 @@
+
+Parsing in type logical grammars amounts
+to theorem proving in a substructural
+logic. This paper takes the proof net
+presentation of Lambek?s associative cal-
+culus as a case study. It introduces
+switch graphs for online maintenance
+of the Danos-Regnier acyclicity condi-
+tion on proof nets. Early detection of
+Danos-Regnier acyclicity violations sup-
+ports early failure in shift-reduce parsers.
+Normalized switch graphs represent the
+combinatorial potential of a set of anal-
+yses derived from lexical and structural
+ambiguities. Packing these subanalyses
+and memoizing the results leads directly
+to a dynamic programming algorithm for
+Lambek grammars.
+1 

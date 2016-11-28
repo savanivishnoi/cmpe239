@@ -1,0 +1,17 @@
+
+This paper describes our system for Task 11
+of SemEval-2013. In the task, participants
+are provided with a set of ambiguous search
+queries and the snippets returned by a search
+engine, and are asked to associate senses with
+the snippets. The snippets are then clus-
+tered using the sense assignments and sys-
+tems are evaluated based on the quality of the
+snippet clusters. Our system adopts a pre-
+existing Word Sense Induction (WSI) method-
+ology based on Hierarchical Dirichlet Process
+(HDP), a non-parametric topic model. Our
+system is trained over extracts from the full
+text of English Wikipedia, and is shown to per-
+form well in the shared task.
+1 

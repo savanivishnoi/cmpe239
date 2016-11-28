@@ -1,0 +1,16 @@
+
+We describe a data-driven approach to
+building interpretable discourse structures
+for appointment scheduling dialogues. We
+represent discourse structures as headed
+trees and model them with probabilis-
+tic head-driven parsing techniques. We
+show that dialogue-based features regard-
+ing turn-taking and domain specific goals
+have a large positive impact on perfor-
+mance. Our best model achieves an f -
+score of 43.2% for labelled discourse rela-
+tions and 67.9% for unlabelled ones, sig-
+nificantly beating a right-branching base-
+line that uses the most frequent relations.
+1 

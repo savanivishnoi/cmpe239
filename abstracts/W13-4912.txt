@@ -1,0 +1,18 @@
+
+This paper investigates the impact of dif-
+ferent morphological and lexical information
+on data-driven dependency parsing of Per-
+sian, a morphologically rich language. We
+explore two state-of-the-art parsers, namely
+MSTParser andMaltParser, on the recently re-
+leased Persian dependency treebank and es-
+tablish some baselines for dependency pars-
+ing performance. Three sets of issues are
+addressed in our experiments: effects of us-
+ing gold and automatically derived features,
+finding the best features for the parser, and
+a suitable way to alleviate the data sparsity
+problem. The final accuracy is 87.91% and
+88.37% labeled attachment scores for Malt-
+Parser and MSTParser, respectively.
+1 

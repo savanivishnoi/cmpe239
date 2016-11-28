@@ -1,0 +1,16 @@
+
+We propose a verb suggestion method
+which uses candidate sets and domain
+adaptation to incorporate error patterns
+produced by ESL learners. The candi-
+date sets are constructed from a large scale
+learner corpus to cover various error pat-
+terns made by learners. Furthermore, the
+model is trained using both a native cor-
+pus and the learner corpus via a domain
+adaptation technique. Experiments on two
+learner corpora show that the candidate
+sets increase the coverage of error patterns
+and domain adaptation improves the per-
+formance for verb suggestion.
+1 

@@ -1,0 +1,24 @@
+
+State-of-the-art statistical parsing models
+applied to free word-order languages tend
+to underperform compared to, e.g., pars-
+ing English. Constituency-based mod-
+els often fail to capture generalizations
+that cannot be stated in structural terms,
+and dependency-based models employ a
+?single-head? assumption that often breaks
+in the face of multiple exponence. In this
+paper we suggest that the position of a con-
+stituent is a form manifestation of its gram-
+matical function, one among various pos-
+sible means of realization. We develop the
+Relational-Realizational approach to pars-
+ing in which we untangle the projection
+of grammatical functions and their means
+of realization to allow for phrase-structure
+variability and morphological-syntactic in-
+teraction. We empirically demonstrate
+the application of our approach to pars-
+ing Modern Hebrew, obtaining 7% error
+reduction from previously reported results.
+1 

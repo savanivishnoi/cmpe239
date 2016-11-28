@@ -1,0 +1,18 @@
+
+We present a novel method for predicting in-
+flected word forms for generating morpho-
+logically rich languages in machine trans-
+lation. We utilize a rich set of syntactic
+and morphological knowledge sources from
+both source and target sentences in a prob-
+abilistic model, and evaluate their contribu-
+tion in generating Russian and Arabic sen-
+tences. Our results show that the proposed
+model substantially outperforms the com-
+monly used baseline of a trigram target lan-
+guage model; in particular, the use of mor-
+phological and syntactic features leads to
+large gains in prediction accuracy. We also
+show that the proposed method is effective
+with a relatively small amount of data.
+1 

@@ -1,0 +1,23 @@
+
+Usually unsupervised dependency parsing
+tries to optimize the probability of a corpus
+by modifying the dependency model that was
+presumably used to generate the corpus. In
+this article we explore a different view in
+which a dependency structure is among other
+things a partial order on the nodes in terms of
+centrality or saliency. Under this assumption
+we model the partial order directly and derive
+dependency trees from this order. The result is
+an approach to unsupervised dependency pars-
+ing that is very different from standard ones in
+that it requires no training data. Each sentence
+induces a model from which the parse is read
+off. Our approach is evaluated on data from 12
+different languages. Two scenarios are consid-
+ered: a scenario in which information about
+part-of-speech is available, and a scenario in
+which parsing relies only on word forms and
+distributional clusters. Our approach is com-
+petitive to state-of-the-art in both scenarios.
+1 

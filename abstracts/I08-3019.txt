@@ -1,0 +1,19 @@
+ 
+This paper describes a machine learning 
+algorithm for Gujarati Part of Speech Tag-
+ging. The machine learning part is per-
+formed using a CRF model. The features 
+given to CRF are properly chosen keeping 
+the linguistic aspect of Gujarati in mind. As 
+Gujarati is currently a less privileged lan-
+guage in the sense of being resource poor, 
+manually tagged data is only around 600 
+sentences. The tagset contains 26 different 
+tags which is the standard Indian Language 
+(IL) tagset. Both tagged (600 sentences) 
+and untagged (5000 sentences) are used for 
+learning. The algorithm has achieved an 
+accuracy of 92% for Gujarati texts where 
+the training corpus is of 10,000 words and 
+the test corpus is of 5,000 words. 
+1 

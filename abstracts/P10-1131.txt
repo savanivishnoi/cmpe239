@@ -1,0 +1,18 @@
+
+We present an approach to multilin-
+gual grammar induction that exploits a
+phylogeny-structured model of parameter
+drift. Our method does not require any
+translated texts or token-level alignments.
+Instead, the phylogenetic prior couples
+languages at a parameter level. Joint in-
+duction in the multilingual model substan-
+tially outperforms independent learning,
+with larger gains both from more articu-
+lated phylogenies and as well as from in-
+creasing numbers of languages. Across
+eight languages, the multilingual approach
+gives error reductions over the standard
+monolingual DMV averaging 21.1% and
+reaching as high as 39%.
+1 

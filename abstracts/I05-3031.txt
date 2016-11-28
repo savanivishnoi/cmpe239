@@ -1,0 +1,20 @@
+
+In this paper we present a Two-Phase
+LMR-RC Tagging scheme to perform
+Chinese word segmentation. In the
+Regular Tagging phase, Chinese sen-
+tences are processed similar to the orig-
+inal LMR Tagging. Tagged sentences
+are then passed to the Correctional Tag-
+ging phase, in which the sentences are
+re-tagged using extra information from
+the first round tagging results. Two
+training methods, Separated Mode and
+Integrated Mode, are proposed to con-
+struct the models. Experimental re-
+sults show that our scheme in Inte-
+grated Mode performs the best in terms
+of accuracy, where Separated Mode is
+more suitable under limited computa-
+tional resources.
+1 

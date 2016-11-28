@@ -1,0 +1,15 @@
+
+This paper describes the implementa-
+tion of our system at CLP 2010 bake-
+off of Chinese word sense induction.
+We first extract the triplets for the tar-
+get word in each sentence, then use
+the intersection of all related words of
+these triplets from the Internet. We
+use the related word to construct fea-
+ture vectors for the sentence. At last
+we discriminate the word senses by
+clustering the sentences. Our system
+achieved 77.88% F-score under the of-
+ficial evaluation.
+1 

@@ -1,0 +1,26 @@
+
+On the task of determining the tense to use
+when translating a Chinese verb into En-
+glish, current systems do not perform as
+well as human translators. The main focus
+of the present paper is to identify features
+that human translators use, but which are
+not currently automatically extractable.
+The goal is twofold: to test a particu-
+lar hypothesis about what additional infor-
+mation human translators might be using,
+and as a pilot to determine where to focus
+effort on developing automatic extraction
+methods for features that are somewhat be-
+yond the reach of current feature extrac-
+tion. The paper shows that incorporating
+several latent features into the tense clas-
+sifier boosts the tense classifier?s perfor-
+mance, and a tense classifier using only the
+latent features outperforms one using only
+the surface features. Our findings confirm
+the utility of the latent features in auto-
+matic tense classification, explaining the
+gap between automatic classification sys-
+tems and the human brain.
+1 

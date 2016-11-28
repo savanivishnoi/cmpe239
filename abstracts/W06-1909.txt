@@ -1,0 +1,35 @@
+
+This paper describes how a question an-
+swering (QA) system developed for small-
+sized document collections of several mil-
+lion sentences was modified in order to
+work with a monolingual subset of the
+web. The basic QA system relies on com-
+plete sentence parsing, inferences, and se-
+mantic representation matching. The ex-
+tensions and modifications needed for use-
+ful and quick answers from web docu-
+ments are discussed. The main extension
+is a two-level approach that first accesses a
+web search engine and downloads some of
+its document hits and then works similar
+to the basic QA system. Most modifica-
+tions are restrictions like a maximal num-
+ber of documents and a maximal length
+of investigated document parts; they en-
+sure acceptable answer times. The result-
+ing web QA system is evaluated on the
+German test collection from QA@CLEF
+2004. Several parameter settings and
+strategies for accessing the web search en-
+gine are investigated. The main results are:
+precision-oriented extensions and exper-
+imentally derived parameter settings are
+needed to achieve similar performance on
+the web as on small-sized document col-
+lections that show higher homogeneity and
+quality of the contained texts; adapting a
+semantic QA system to the web is feasible,
+but answering a question is still expensive
+in terms of bandwidth and CPU time.
+1 

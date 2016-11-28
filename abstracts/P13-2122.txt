@@ -1,0 +1,27 @@
+
+We describe a translation model adapta-
+tion approach for conversational spoken
+language translation (CSLT), which en-
+courages the use of contextually appropri-
+ate translation options from relevant train-
+ing conversations. Our approach employs
+a monolingual LDA topic model to de-
+rive a similarity measure between the test
+conversation and the set of training con-
+versations, which is used to bias trans-
+lation choices towards the current con-
+text. A significant novelty of our adap-
+tation technique is its incremental nature;
+we continuously update the topic distribu-
+tion on the evolving test conversation as
+new utterances become available. Thus,
+our approach is well-suited to the causal
+constraint of spoken conversations. On
+an English-to-Iraqi CSLT task, the pro-
+posed approach gives significant improve-
+ments over a baseline system as measured
+by BLEU, TER, and NIST. Interestingly,
+the incremental approach outperforms a
+non-incremental oracle that has up-front
+knowledge of the whole conversation.
+1 

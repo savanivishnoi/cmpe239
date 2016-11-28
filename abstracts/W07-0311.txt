@@ -1,0 +1,20 @@
+
+This paper presents a series of measure-
+ments of the accuracy of speech under-
+standing when grammar-based or robust
+approaches are used. The robust ap-
+proaches considered here are based on sta-
+tistical language models (SLMs) with the
+interpretation being carried out by phrase-
+spotting or robust parsing methods. We
+propose a simple process to leverage ex-
+isting grammars and logged utterances
+to upgrade grammar-based applications to
+become more robust to out-of-coverage
+inputs. All experiments herein are run
+on data collected from deployed directed
+dialog applications and show that SLM-
+based techniques outperform grammar-
+based ones without requiring any change
+in the application logic.
+1 

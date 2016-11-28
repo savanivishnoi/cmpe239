@@ -1,0 +1,19 @@
+
+We present a new approach to
+stochastic modeling of constraint-
+based grammars that is based on log-
+linear models and uses EM for esti-
+mation from unannotated data. The
+techniques are applied to an LFG
+grammar for German. Evaluation on
+an exact match task yields 86% pre-
+cision for an ambiguity rate of 5.4,
+and 90% precision on a subcat frame
+match for an ambiguity rate of 25.
+Experimental comparison to train-
+ing from a parsebank shows a 10%
+gain from EM training. Also, a new
+class-based grammar lexicalization is
+presented, showing a 10% gain over
+unlexicalized models.
+1 

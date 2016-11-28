@@ -1,0 +1,23 @@
+ 
+ 
+This paper reports about our work in the 
+NEWS 2009 Machine Transliteration Shared 
+Task held as part of ACL-IJCNLP 2009. We 
+submitted one standard run and two non-
+standard runs for English to Hindi translitera-
+tion. The modified joint source-channel model 
+has been used along with a number of alterna-
+tives. The system has been trained on the 
+NEWS 2009 Machine Transliteration Shared 
+Task datasets. For standard run, the system 
+demonstrated an accuracy of 0.471 and the 
+mean F-Score of 0.861. The non-standard runs 
+yielded the accuracy and mean F-scores of 
+0.389 and 0.831 respectively in the first one 
+and 0.384 and 0.828 respectively in the second 
+one. The non-standard runs resulted in sub-
+stantially worse performance than the standard 
+run. The reasons for this are the ranking algo-
+rithm used for the output and the types of to-
+kens present in the test set. 
+1 

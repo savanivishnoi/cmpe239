@@ -1,0 +1,12 @@
+
+This paper discusses a planner of the semantics of utterances, whose essential
+design is an epistemic theorem prover. The planner was designed for the purpose
+of planning communicative actions, whose effects are famously unknowable and
+unobservable by the doer/speaker, and depend on the beliefs of and inferences made
+by the recipient/hearer. The fully implemented model can achieve goals that do
+not match action effects, but that are rather entailed by them, which it does by
+reasoning about how to act: state-space planning is interwoven with theorem proving
+in such a way that a theorem prover uses the effects of actions as hypotheses. The
+planner is able to model problematic conversational situations, including felicitous
+and infelicitous instances of bluffing, lying, sarcasm, and stating the obvious. 1
+1 

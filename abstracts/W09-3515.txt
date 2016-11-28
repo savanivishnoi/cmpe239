@@ -1,0 +1,28 @@
+
+This paper describes our system for
+?NEWS 2009 Machine Transliteration
+Shared Task? (NEWS 2009). We only par-
+ticipated in the standard run, which is a
+direct orthographical mapping (DOP) be-
+tween two languages without using any
+intermediate phonemic mapping. We
+propose a new two-step conditional ran-
+dom field (CRF) model for DOP machine
+transliteration, in which the first CRF seg-
+ments a source word into chunks and the
+second CRF maps the chunks to a word
+in the target language. The two-step CRF
+model obtains a slightly lower top-1 ac-
+curacy when compared to a state-of-the-
+art n-gram joint source-channel model.
+The combination of the CRF model with
+the joint source-channel leads to improve-
+ments in all the tasks. The official re-
+sult of our system in the NEWS 2009
+shared task confirms the effectiveness of
+our system; where we achieved 0.627 top-
+1 accuracy for Japanese transliterated to
+Japanese Kanji(JJ), 0.713 for English-to-
+Chinese(E2C) and 0.510 for English-to-
+Japanese Katakana(E2J) .
+1 

@@ -1,0 +1,13 @@
+
+We propose a novel method to predict the inter-
+paragraph discourse structure of text, i.e. to infer
+which paragraphs are related to each other and form
+larger segments on a higher level. Our method com-
+bines a clustering algorithm with a model of seg-
+ment ?relatedness? acquired in a machine learning
+step. The model integrates information from a va-
+riety of sources, such as word co-occurrence, lexi-
+cal chains, cue phrases, punctuation, and tense. Our
+method outperforms an approach that relies on word
+co-occurrence alone.
+1 

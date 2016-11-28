@@ -1,0 +1,13 @@
+
+This paper describes an alternative trans-
+lation model based on a text chunk un-
+der the framework of statistical machine
+translation. The translation model sug-
+gested here first performs chunking. Then,
+each word in a chunk is translated. Fi-
+nally, translated chunks are reordered.
+Under this scenario of translation model-
+ing, we have experimented on a broad-
+coverage Japanese-English traveling cor-
+pus and achieved improved performance.
+1 

@@ -1,0 +1,15 @@
+
+This paper describes a Verb Phrase Ellipsis
+(VPE) detection system, built for robust-
+ness, accuracy and domain independence.
+The system is corpus-based, and uses a va-
+riety of machine learning techniques on free
+text that has been automatically parsed us-
+ing two different parsers. Tested on a mixed
+corpus comprising a range of genres, the sys-
+tem achieves a 72% F1-score. It is designed
+as the first stage of a complete VPE resolu-
+tion system that is input free text, detects
+VPEs, and proceeds to find the antecedents
+and resolve them.
+1 

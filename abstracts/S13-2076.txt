@@ -1,0 +1,30 @@
+
+The fast development of Social Media made it
+possible for people to no loger remain mere
+spectators to the events that happen in the
+world, but become part of them, comment-
+ing on their developments and the entities in-
+volved, sharing their opinions and distribut-
+ing related content. This phenomenon is of
+high importance to news monitoring systems,
+whose aim is to obtain an informative snap-
+shot of media events and related comments.
+This paper presents the strategies employed in
+the OPTWIMA participation to SemEval 2013
+Task 2-Sentiment Analysis in Twitter. The
+main goal was to evaluate the best settings for
+a sentiment analysis component to be added to
+the online news monitoring system.
+We describe the approaches used in the com-
+petition and the additional experiments per-
+formed combining different datasets for train-
+ing, using or not slang replacement and gener-
+alizing sentiment-bearing terms by replacing
+them with unique labels.
+The results regarding tweet classification are
+promising and show that sentiment generaliza-
+tion can be an effective approach for tweets
+and that SMS language is difficult to tackle,
+even when specific normalization resources
+are employed.
+1 

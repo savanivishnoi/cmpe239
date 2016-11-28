@@ -1,0 +1,14 @@
+
+This paper presents a system for querying
+treebanks. The system consists of a pow-
+erful query language with natural support
+for cross-layer queries, a client interface
+with a graphical query builder and visual-
+izer of the results, a command-line client
+interface, and two substitutable query en-
+gines: a very efficient engine using a re-
+lational database (suitable for large static
+data), and a slower, but paralel-computing
+enabled, engine operating on treebank files
+(suitable for ?live? data).
+1 

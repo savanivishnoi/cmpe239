@@ -1,0 +1,26 @@
+ 
+Identification of complex clinical phenotypes 
+among critically ill patients is a major chal-
+lenge in clinical research. The overall research 
+goal of our work is to develop automated ap-
+proaches that accurately identify critical illness 
+phenotypes to prevent the resource intensive 
+manual abstraction approach. In this paper, we 
+describe a text processing method that uses 
+Natural Language Processing (NLP) and su-
+pervised text classification methods to identify 
+patients who are positive for Acute Lung Inju-
+ry (ALI) based on the information available in 
+free-text chest x-ray reports. To increase the 
+classification performance we enhanced the 
+baseline unigram representation with bigram 
+and trigram features, enriched the n-gram fea-
+tures with assertion analysis, and applied sta-
+tistical feature selection. We used 10-fold 
+cross validation for evaluation and our best 
+performing classifier achieved 81.70% preci-
+sion (positive predictive value), 75.59% recall 
+(sensitivity), 78.53% f-score, 74.61% negative 
+predictive value, 76.80% specificity in identi-
+fying patients with ALI. 
+1 

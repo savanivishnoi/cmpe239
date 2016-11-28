@@ -1,0 +1,12 @@
+
+The (batch) EM algorithm plays an important
+role in unsupervised induction, but it some-
+times suffers from slow convergence. In this
+paper, we show that online variants (1) provide
+significant speedups and (2) can even find bet-
+ter solutions than those found by batch EM.
+We support these findings on four unsuper-
+vised tasks: part-of-speech tagging, document
+classification, word segmentation, and word
+alignment.
+1 

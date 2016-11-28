@@ -1,0 +1,21 @@
+ 
+This paper proposes a novel user intention si-
+mulation method which is a data-driven ap-
+proach but able to integrate diverse user dis-
+course knowledge together to simulate various 
+type of users. In Markov logic framework, lo-
+gistic regression based data-driven user inten-
+tion modeling is introduced, and human dialog 
+knowledge are designed into two layers such 
+as domain and discourse knowledge, then it is 
+integrated with the data-driven model in gen-
+eration time. Cooperative, corrective and self-
+directing discourse knowledge are designed 
+and integrated to mimic such type of users. 
+Experiments were carried out to investigate 
+the patterns of simulated users, and it turned 
+out that our approach was successful to gener-
+ate user intention patterns which are not only 
+unseen in the training corpus and but also per-
+sonalized in the designed direction.  
+1 

@@ -1,0 +1,15 @@
+
+In this paper, we discuss the application
+of UBIU to the CONLL-2011 shared task
+on ?Modeling Unrestricted Coreference? in
+OntoNotes. The shared task concentrates on
+the detection of coreference not only in noun
+phrases but also involving verbs. The infor-
+mation provided for the closed track included
+WordNet as well as corpus generated number
+and gender information. Our system shows
+no improvement when using WordNet infor-
+mation, and the number information proved
+less reliable than the information in the part
+of speech tags.
+1 

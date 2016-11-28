@@ -1,0 +1,27 @@
+
+We investigate a series of graph-theoretic
+constraints on non-projective dependency
+parsing and their effect on expressivity,
+i.e. whether they allow naturally occurring
+syntactic constructions to be adequately
+represented, and efficiency, i.e. whether
+they reduce the search space for the parser.
+In particular, we define a new measure
+for the degree of non-projectivity in an
+acyclic dependency graph obeying the
+single-head constraint. The constraints are
+evaluated experimentally using data from
+the Prague Dependency Treebank and the
+Danish Dependency Treebank. The results
+indicate that, whereas complete linguistic
+coverage in principle requires unrestricted
+non-projective dependency graphs, limit-
+ing the degree of non-projectivity to at
+most 2 can reduce average running time
+from quadratic to linear, while excluding
+less than 0.5% of the dependency graphs
+found in the two treebanks. This is a sub-
+stantial improvement over the commonly
+used projective approximation (degree 0),
+which excludes 15?25% of the graphs.
+1 

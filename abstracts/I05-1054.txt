@@ -1,0 +1,14 @@
+. This paper proposes a variation of synchronous grammar based on 
+the formalism of context-free grammar by generalizing the first component of 
+productions that models the source text, named Constraint-based Synchronous 
+Grammar (CSG). Unlike other synchronous grammars, CSG allows multiple 
+target productions to be associated to a single source production rule, which can 
+be used to guide a parser to infer different possible translational equivalences 
+for a recognized input string according to the feature constraints of symbols in 
+the pattern. Furthermore, CSG is augmented with independent rewriting that al-
+lows expressing discontinuous constituents in the inference rules. It turns out 
+that such grammar is more expressive to model the translational equivalences of 
+parallel texts for machine translation, and in this paper, we propose the use of 
+CSG as a basis for building a machine translation (MT) system for Portuguese 
+to Chinese translation. 
+1   

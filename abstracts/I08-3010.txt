@@ -1,0 +1,19 @@
+ 
+Myanmar script uses no space between 
+words and syllable segmentation represents 
+a significant process in many NLP tasks 
+such as word segmentation, sorting, line 
+breaking and so on. In this study, a rule-
+based approach of syllable segmentation 
+algorithm for Myanmar text is proposed. 
+Segmentation rules were created based on 
+the syllable structure of Myanmar script 
+and a syllable segmentation algorithm was 
+designed based on the created rules. A 
+segmentation program was developed to 
+evaluate the algorithm. A training corpus 
+containing 32,283 Myanmar syllables was 
+tested in the program and the experimental 
+results show an accuracy rate of 99.96% 
+for segmentation. 
+1 

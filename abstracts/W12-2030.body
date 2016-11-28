@@ -1,0 +1,14 @@
+
+This is the report for the CNGL ILT team en-
+try to the HOO 2012 shared task. A Naive-
+Bayes-based classifier was used in the task
+which involved error detection and correction
+in ESL exam scripts. The features we use in-
+clude n-grams of words and POS tags together
+with features based on the external Google N-
+Grams corpus. Our system placed 11th out
+of 14 teams for the detection and recognition
+tasks and 11th out of 13 teams for the correc-
+tion task based on F-score for both preposition
+and determiner errors.
+1 

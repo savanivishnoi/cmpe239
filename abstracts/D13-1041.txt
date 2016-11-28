@@ -1,0 +1,24 @@
+
+Entity disambiguation works by linking am-
+biguous mentions in text to their correspond-
+ing real-world entities in knowledge base. Re-
+cent collective disambiguation methods en-
+force coherence among contextual decisions
+at the cost of non-trivial inference processes.
+We propose a fast collective disambiguation
+approach based on stacking. First, we train a
+local predictor g0 with learning to rank as base
+learner, to generate initial ranking list of can-
+didates. Second, top k candidates of related
+instances are searched for constructing expres-
+sive global coherence features. A global pre-
+dictor g1 is trained in the augmented feature
+space and stacking is employed to tackle the
+train/test mismatch problem. The proposed
+method is fast and easy to implement. Exper-
+iments show its effectiveness over various al-
+gorithms on several public datasets. By learn-
+ing a rich semantic relatedness measure be-
+tween entity categories and context document,
+performance is further improved.
+1 

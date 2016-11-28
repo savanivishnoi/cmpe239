@@ -1,0 +1,26 @@
+:  This paper presents an approach to 
+computational morphology which can be considered as 
+being derived l?om the two-level model but differs from 
+this substantially. Lexemes rather than formatives are 
+the most important entities distinguished in this 
+approach. The consequence is that a new formalism for 
+the specification of morphological knowledge is 
+required. A short description of a system called Word 
+Manager will outline the characteristics of such a 
+formalistn, the most prominent of which is that 
+different subformalisms for inflectional rules and word- 
+formation rules are distinguished. These rules are 
+applied separately though not independently and support 
+the concept of lexicalization. The primary advantage of 
+this is that the system can build up a network of 
+knowledge on how formatives, lexemes, and rules 
+depend on each other while individual lexemes are 
+lexicalized. Thus, the system will know the inflectional 
+forms of a lexeme, the destructuring of these forms into 
+formatives, how the lexeme has been derived or 
+composed if it is a word-fommtion, etc. This requires 
+much memory, yet, the phik)sophy behind the approach 
+is that lhe system runs as a server on a local area 
+network, so that an entire machine can be dedicated to 
+the task, if necessary. 
+1. 

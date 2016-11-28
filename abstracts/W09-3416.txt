@@ -1,0 +1,17 @@
+ 
+In this paper we propose a modelization of 
+the construction of Persian noun and adjec-
+tival phrases in a phrase structure grammar. 
+This modelization uses the Interaction 
+Grammar (IG) formalism by taking advan-
+tage of the polarities on features and tree 
+descriptions for the various constructions 
+that we studied. The proposed grammar was 
+implemented with a Metagrammar compiler 
+named XMG. A small test suite was built 
+and tested with a parser based on IG, called 
+LEOPAR. The experimental results show 
+that we could parse the phrases successfully, 
+even the most complex ones which have 
+various constructions in them. 
+1 

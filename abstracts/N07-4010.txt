@@ -1,0 +1,15 @@
+
+We introduce a simple opinion mining
+system for analyzing Japanese Weblog re-
+views called OMS-J. OMS-J is designed
+to provide an intuitive visual GUI of opin-
+ion mining graphs for a comparison of
+different products of the same type to
+help a user make a quick purchase de-
+cision. We first use an opinion mining
+method using a combination of supervised
+(a Naive Bayes Classifier) and unsuper-
+vised (an improved SO-PMI: Semantic
+Orientation Using Pointwise Mutual In-
+formation) learning.
+1 

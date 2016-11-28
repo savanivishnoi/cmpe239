@@ -1,0 +1,18 @@
+
+Since paraphrasing is one of the crucial tasks
+in natural language understanding and gener-
+ation, this paper introduces a novel technique
+to extract paraphrases for emotion terms, from
+non-parallel corpora. We present a bootstrap-
+ping technique for identifying paraphrases,
+starting with a small number of seeds. Word-
+Net Affect emotion words are used as seeds.
+The bootstrapping approach learns extraction
+patterns for six classes of emotions. We use
+annotated blogs and other datasets as texts
+from which to extract paraphrases, based on
+the highest-scoring extraction patterns. The
+results include lexical and morpho-syntactic
+paraphrases, that we evaluate with human
+judges.
+1 

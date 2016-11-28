@@ -1,0 +1,26 @@
+
+This paper describes the results of our experi-
+ments in building speaker-adaptive recogniz-
+ers for talkers with spastic dysarthria. We
+study two modifications ? (a) MAP adapta-
+tion of speaker-independent systems trained
+on normal speech and, (b) using a transition
+probability matrix that is a linear interpolation
+between fully ergodic and (exclusively) left-
+to-right structures, for both speaker-dependent
+and speaker-adapted systems. The experi-
+ments indicate that (1) for speaker-dependent
+systems, left-to-right HMMs have lower word
+error rate than transition-interpolated HMMs,
+(2) adapting all parameters other than transi-
+tion probabilities results in the highest recog-
+nition accuracy compared to adapting any
+subset of these parameters or adapting all
+parameters including transition probabilities,
+(3) performing both transition-interpolation
+and adaptation gives higher word error rate
+than performing adaptation alone and, (4)
+dysarthria severity is not a sufficient indica-
+tor of the relative performance of speaker-
+dependent and speaker-adapted systems.
+1 

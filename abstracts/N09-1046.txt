@@ -1,0 +1,23 @@
+
+Recent work has shown that translating seg-
+mentation lattices (lattices that encode alterna-
+tive ways of breaking the input to an MT sys-
+tem into words), rather than text in any partic-
+ular segmentation, improves translation qual-
+ity of languages whose orthography does not
+mark morpheme boundaries. However, much
+of this work has relied on multiple segmenters
+that perform differently on the same input to
+generate sufficiently diverse source segmen-
+tation lattices. In this work, we describe a
+maximum entropy model of compound word
+splitting that relies on a few general features
+that can be used to generate segmentation lat-
+tices for most languages with productive com-
+pounding. Using a model optimized for Ger-
+man translation, we present results showing
+significant improvements in translation qual-
+ity in German-English, Hungarian-English,
+and Turkish-English translation over state-of-
+the-art baselines.
+1 

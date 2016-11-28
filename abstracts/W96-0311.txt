@@ -1,0 +1,11 @@
+ 
+In this paper we outline a lexical organization for Turkish that makes use of lexical rules for inflec- 
+tions, derivations, and lexical category changes to control the proliferation of lexical entries. Lexical 
+rules handle changes in grammatical roles, enforce type constraints, and control the mapping of sub- 
+categorization frames in valency changing operations. A lexical inheritance hierarchy facilitates the 
+enforcement of type constraints. Semantic ompositions in inflections and derivations are constrained 
+by the properties of the terms and predicates. 
+The design has been tested as part of a HPSG grammar for Turkish. In terms of performance, 
+run-time xecution of the rules seems to be a far better alternative than pre-compilation. The latter causes 
+exponential growth in the lexicon due to intensive use of inflections and derivations in Turkish. 
+1 

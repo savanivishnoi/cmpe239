@@ -1,0 +1,19 @@
+ 
+We present a novel method of applying the 
+results of coreference resolution to improve 
+Name Recognition for Chinese.  We consider 
+first some methods for gauging the confidence 
+of individual tags assigned by a statistical 
+name tagger.  For names with low confidence, 
+we show how these names can be filtered 
+using coreference features to improve 
+accuracy.  In addition, we present rules which 
+use coreference information to correct some 
+name tagging errors.  Finally, we show how 
+these gains can be magnified by clustering 
+documents and using cross-document 
+coreference in these clusters.  These combined 
+methods yield an absolute improvement of 
+about 3.1% in tagger F score. 
+ 
+1 

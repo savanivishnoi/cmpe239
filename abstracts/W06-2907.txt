@@ -1,0 +1,18 @@
+
+This paper investigates an isolated setting
+of the lexical substitution task of replac-
+ing words with their synonyms. In par-
+ticular, we examine this problem in the
+setting of subtitle generation and evaluate
+state of the art scoring methods that pre-
+dict the validity of a given substitution.
+The paper evaluates two context indepen-
+dent models and two contextual models.
+The major findings suggest that distribu-
+tional similarity provides a useful comple-
+mentary estimate for the likelihood that
+two Wordnet synonyms are indeed substi-
+tutable, while proper modeling of contex-
+tual constraints is still a challenging task
+for future research.
+1 

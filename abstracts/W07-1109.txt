@@ -1,0 +1,19 @@
+
+This paper proposes an approach of process-
+ing Japanese compound functional expressions
+by identifying them and analyzing their depen-
+dency relations through a machine learning tech-
+nique. First, we formalize the task of identify-
+ing Japanese compound functional expressions
+in a text as a machine learning based chunking
+problem. Next, against the results of identify-
+ing compound functional expressions, we apply
+the method of dependency analysis based on the
+cascaded chunking model. The results of ex-
+perimental evaluation show that, the dependency
+analysis model achieves improvements when ap-
+plied after identifying compound functional ex-
+pressions, compared with the case where it is ap-
+plied without identifying compound functional
+expressions.
+1 

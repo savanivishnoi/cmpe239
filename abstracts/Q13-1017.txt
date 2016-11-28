@@ -1,0 +1,23 @@
+
+Due to the nature of complex NLP problems,
+structured prediction algorithms have been
+important modeling tools for a wide range of
+tasks. While there exists evidence showing
+that linear Structural Support Vector Machine
+(SSVM) algorithm performs better than struc-
+tured Perceptron, the SSVM algorithm is still
+less frequently chosen in the NLP community
+because of its relatively slow training speed.
+In this paper, we propose a fast and easy-to-
+implement dual coordinate descent algorithm
+for SSVMs. Unlike algorithms such as Per-
+ceptron and stochastic gradient descent, our
+method keeps track of dual variables and up-
+dates the weight vector more aggressively. As
+a result, this training process is as efficient as
+existing online learning methods, and yet de-
+rives consistently better models, as evaluated
+on four benchmark NLP datasets for part-of-
+speech tagging, named-entity recognition and
+dependency parsing.
+1 

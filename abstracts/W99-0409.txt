@@ -1,0 +1,23 @@
+ 
+One of the typical problems of Natural 
+Language Processing (NLP) is the explosive 
+property of the parser and this is aggravated in
+an Intelligent Language Tutoring System (ILTS) 
+because the grammar is unconstrained and 
+admits even more analyses. NLP applications 
+frequently incorporate chniques for selecting a
+preferred parse. Computational criteria, 
+however, are insufficient for a pedagogic system 
+because the parse chosen will possibly result in 
+misleading feedback for the learner. Preferably, 
+the analysis emphasizes language teaching 
+pedagogy by selecting the sentence 
+interpretation a student most likely intended. In 
+the system described in this paper, several 
+modules are responsible for selecting the 
+appropriate analysis and these are informed by 
+the Student Model. Aspects in the Student 
+Model play an important pedagogic role in 
+determining the desired sentence interpretation, 
+handling multiple errors, and deciding on the 
+level of interaction with the student. 

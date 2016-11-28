@@ -1,0 +1,21 @@
+
+This paper proposes a semi-supervised 
+approach for WSD in Word-Class 
+based selectional preferences. The 
+approach exploits syntagmatic and 
+paradigmatic semantic redundancy in 
+the semantic system and uses 
+association computation and minimum 
+description length for the task of WSD. 
+Experiments on Predicate-Object 
+collocations and Subject-Predicate 
+collocations with polysemous 
+predicates in Chinese show that the 
+proposed approach achieves a precision 
+which is 8% higher than the semantic-
+association based baseline. The semi-
+supervised nature of the approach 
+makes it promising for constructing 
+large scale selectional preference 
+knowledge base. 
+1 

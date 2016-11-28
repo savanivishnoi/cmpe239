@@ -1,0 +1,14 @@
+
+The CoNLL-2012 shared task is an extension
+of the last year?s coreference task. We partici-
+pated in the closed track of the shared tasks in
+both years. In this paper, we present the im-
+provements of Illinois-Coref system from last
+year. We focus on improving mention detec-
+tion and pronoun coreference resolution, and
+present a new learning protocol. These new
+strategies boost the performance of the system
+by 5% MUC F1, 0.8% BCUB F1, and 1.7%
+CEAF F1 on the OntoNotes-5.0 development
+set.
+1 

@@ -1,0 +1,22 @@
+ 
+In this paper we propose a new technique to 
+enhance emotion recognition by combining 
+in different ways what we call emotion pre-
+dictions. The technique is called F2 as the 
+combination is based on a double fusion 
+process. The input to the first fusion phase is 
+the output of a number of classifiers which 
+deal with different types of information re-
+garding each sentence uttered by the user. 
+The output of this process is the input to the 
+second fusion stage, which provides as out-
+put the most likely emotional category. Ex-
+periments have been carried out using a pre-
+viously-developed spoken dialogue system 
+designed for the fast food domain. Results 
+obtained considering three and two emo-
+tional categories show that our technique 
+outperforms the standard single fusion tech-
+nique by 2.25% and 3.35% absolute, respec-
+tively. 
+1 

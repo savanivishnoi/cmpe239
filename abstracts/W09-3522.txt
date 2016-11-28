@@ -1,0 +1,17 @@
+ 
+This paper presents a transliteration system 
+based on pair Hidden Markov Model (pair 
+HMM) training and Weighted Finite State 
+Transducer (WFST) techniques. Parameters 
+used by WFSTs for transliteration generation 
+are learned from a pair HMM. Parameters 
+from pair-HMM training on English-Russian 
+data sets are found to give better transliteration 
+quality than parameters trained for WFSTs for 
+corresponding structures. Training a pair 
+HMM on English vowel bigrams and standard 
+bigrams for Cyrillic Romanization, and using 
+a few transformation rules on generated Rus-
+sian transliterations to test for context im-
+proves the system?s transliteration quality. 
+1 

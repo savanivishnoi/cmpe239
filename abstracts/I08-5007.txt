@@ -1,0 +1,32 @@
+
+This paper is about Named Entity Recogni-
+tion (NER) for Telugu. Not much work has
+been done in NER for Indian languages in
+general and Telugu in particular. Adequate
+annotated corpora are not yet available in
+Telugu. We recognize that named entities
+are usually nouns. In this paper we there-
+fore start with our experiments in building
+a CRF (Conditional Random Fields) based
+Noun Tagger. Trained on a manually tagged
+data of 13,425 words and tested on a test
+data set of 6,223 words, this Noun Tagger
+has given an F-Measure of about 92%. We
+then develop a rule based NER system for
+Telugu. Our focus is mainly on identify-
+ing person, place and organization names.
+A manually checked Named Entity tagged
+corpus of 72,157 words has been developed
+using this rule based tagger through boot-
+strapping. We have then developed a CRF
+based NER system for Telugu and tested
+it on several data sets from the Eenaadu
+and Andhra Prabha newspaper corpora de-
+veloped by us here. Good performance has
+been obtained using the majority tag con-
+cept. We have obtained overall F-measures
+between 80% and 97% in various experi-
+ments.
+Keywords: Noun Tagger, NER for Telugu, CRF,
+Majority Tag.
+1 

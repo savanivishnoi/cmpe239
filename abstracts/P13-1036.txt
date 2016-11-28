@@ -1,0 +1,28 @@
+
+In this paper, we propose a new Bayesian
+inference method to train statistical ma-
+chine translation systems using only non-
+parallel corpora. Following a probabilis-
+tic decipherment approach, we first intro-
+duce a new framework for decipherment
+training that is flexible enough to incorpo-
+rate any number/type of features (besides
+simple bag-of-words) as side-information
+used for estimating translation models. In
+order to perform fast, efficient Bayesian
+inference in this framework, we then de-
+rive a hash sampling strategy that is in-
+spired by the work of Ahmed et al (2012).
+The new translation hash sampler enables
+us to scale elegantly to complex mod-
+els (for the first time) and large vocab-
+ulary/corpora sizes. We show empirical
+results on the OPUS data?our method
+yields the best BLEU scores compared to
+existing approaches, while achieving sig-
+nificant computational speedups (several
+orders faster). We also report for the
+first time?BLEU score results for a large-
+scale MT task using only non-parallel data
+(EMEA corpus).
+1 

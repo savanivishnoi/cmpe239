@@ -1,0 +1,21 @@
+
+Semantic frames are a rich linguistic re-
+source. There has been much work
+on semantic frame parsers, but less that
+applies them to general NLP problems.
+We address a task to predict change in
+stock price from financial news. Seman-
+tic frames help to generalize from spe-
+cific sentences to scenarios, and to de-
+tect the (positive or negative) roles of spe-
+cific companies. We introduce a novel tree
+representation, and use it to train predic-
+tive models with tree kernels using sup-
+port vector machines. Our experiments
+test multiple text representations on two
+binary classification tasks, change of price
+and polarity. Experiments show that fea-
+tures derived from semantic frame pars-
+ing have significantly better performance
+across years on the polarity task.
+1 

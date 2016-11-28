@@ -1,0 +1,27 @@
+ 
+A critical path in the development of natural language 
+understanding (NLU) modules lies in the difficulty of 
+defining a mapping from words to semantics: Usually it 
+takes in the order of years of highly-skilled labor to de- 
+velop a semantic mapping, e.g., in the form of a semantic 
+grammar, that is comprehensive enough for a given do- 
+main. Yet, due to the very nature of human language, 
+such mappings invariably fail to achieve full coverage on 
+unseen data. Acknowledging the impossibility of stat- 
+ing a priori all the surface forms by which a concept can 
+be expressed, we present GsG: an empathic computer 
+system for the rapid deployment of NLU front-ends and 
+their dynamic customization by non-expert end-users. 
+Given a new domain for which an NLU front-end is to 
+be developed, two stages are involved. In the author- 
+ing stage, GSQ aids the developer in the construction 
+of a simple domain model and a kernel analysis gram- 
+mar. Then, in the run-time stage, GSG provides the end- 
+user with an interactive environment in which the kernel 
+grammar isdynamically extended. Three learning meth- 
+ods are employed in the acquisition of semantic mappings 
+from unseen data: (i) parser predictions, (ii) hidden un- 
+derstanding model, and (iii) end-user paraphrases. A 
+baseline version of GsG has been implemented and pre- 
+llminary experiments show promising results. 
+1 

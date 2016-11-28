@@ -1,0 +1,26 @@
+
+An important component of any generation
+system is the mapping dictionary, a lexicon
+of elementary semantic expressions and cor-
+responding natural language realizations.
+Typically, labor-intensive knowledge-based
+methods are used to construct the dictio-
+nary. We instead propose to acquire it
+automatically via a novel multiple-pass al-
+gorithm employing multiple-sequence align-
+ment, a technique commonly used in bioin-
+formatics. Crucially, our method lever-
+ages latent information contained in multi-
+parallel corpora ? datasets that supply
+several verbalizations of the corresponding
+semantics rather than just one.
+We used our techniques to generate natural
+language versions of computer-generated
+mathematical proofs, with good results on
+both a per-component and overall-output
+basis. For example, in evaluations involv-
+ing a dozen human judges, our system pro-
+duced output whose readability and faith-
+fulness to the semantic input rivaled that of
+a traditional generation system.
+1 

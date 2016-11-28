@@ -1,0 +1,13 @@
+ 
+QPATR is an MS-DOS Arity/PROLOG implemen- 
+tation of the PATR-II formalism for unification grammar. 
+The fbnnalism has been extended to include the constraints 
+of LFG as well as negation and disjunction, which are 
+implemented with the disjunction and negation-as-failure of 
+PROLOG itself. A technique of constraint threading is 
+employed to collect negative and constraining conditions in 
+PROLOG difference lists. The parser of QPATR uses a 
+left-corner algorithm for context-free grammars and 
+includes a facility for identifying new lexical items in 
+input on the basis of contextual information. 
+I 

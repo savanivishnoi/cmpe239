@@ -1,0 +1,20 @@
+
+Automatically extracting social meaning and
+intention from spoken dialogue is an impor-
+tant task for dialogue systems and social com-
+puting. We describe a system for detecting
+elements of interactional style: whether a
+speaker is awkward, friendly, or flirtatious.
+We create and use a new spoken corpus of 991
+4-minute speed-dates. Participants rated their
+interlocutors for these elements of style. Us-
+ing rich dialogue, lexical, and prosodic fea-
+tures, we are able to detect flirtatious, awk-
+ward, and friendly styles in noisy natural con-
+versational data with up to 75% accuracy,
+compared to a 50% baseline. We describe sim-
+ple ways to extract relatively rich dialogue fea-
+tures, and analyze which features performed
+similarly for men and women and which were
+gender-specific.
+1 

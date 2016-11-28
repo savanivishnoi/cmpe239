@@ -1,0 +1,25 @@
+
+We consider a semi-supervised setting for do-
+main adaptation where only unlabeled data is
+available for the target domain. One way to
+tackle this problem is to train a generative
+model with latent variables on the mixture of
+data from the source and target domains. Such
+a model would cluster features in both do-
+mains and ensure that at least some of the la-
+tent variables are predictive of the label on the
+source domain. The danger is that these pre-
+dictive clusters will consist of features specific
+to the source domain only and, consequently,
+a classifier relying on such clusters would per-
+form badly on the target domain. We in-
+troduce a constraint enforcing that marginal
+distributions of each cluster (i.e., each latent
+variable) do not vary significantly across do-
+mains. We show that this constraint is effec-
+tive on the sentiment classification task (Pang
+et al, 2002), resulting in scores similar to
+the ones obtained by the structural correspon-
+dence methods (Blitzer et al, 2007) without
+the need to engineer auxiliary tasks.
+1 

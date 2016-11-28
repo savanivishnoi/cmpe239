@@ -1,0 +1,19 @@
+
+We present a study on how grammar binariza-
+tion empirically affects the efficiency of the
+CKY parsing. We argue that binarizations af-
+fect parsing efficiency primarily by affecting
+the number of incomplete constituents gener-
+ated, and the effectiveness of binarization also
+depends on the nature of the input. We pro-
+pose a novel binarization method utilizing rich
+information learnt from training corpus. Ex-
+perimental results not only show that differ-
+ent binarizations have great impacts on pars-
+ing efficiency, but also confirm that our learnt
+binarization outperforms other existing meth-
+ods. Furthermore we show that it is feasible to
+combine existing parsing speed-up techniques
+with our binarization to achieve even better
+performance.
+1 

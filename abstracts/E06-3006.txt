@@ -1,0 +1,31 @@
+ 
+This paper addresses the problem of 
+automatically retrieving answers for 
+how-to questions, focusing on those that 
+inquire about the procedure for 
+achieving a specific goal. For such 
+questions, typical information retrieval 
+methods, based on key word matching, 
+are better suited to detecting the content 
+of the goal (e.g., ?installing a Windows 
+XP server?) than the general nature of the 
+desired information (i.e., procedural, a 
+series of steps for achieving this goal). 
+We suggest dividing the process of 
+retrieving answers for such questions 
+into two stages, with each stage focusing 
+on modeling one aspect of a how-to 
+question. We compare the two-stage 
+approach with two alternative 
+approaches: a baseline approach that 
+only uses the content of the goal to 
+retrieve relevant documents and another 
+approach that explores the potential of 
+automatic query expansion. The result of 
+the experiment shows that the two-stage 
+approach significantly outperforms the 
+baseline but achieves similar result with 
+the systems using automatic query 
+expansion techniques. We analyze the 
+reason and also present some future work. 
+1 

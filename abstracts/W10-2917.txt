@@ -1,0 +1,27 @@
+
+Supervised learning has been recently
+used to improve the performance of word
+alignment. However, due to the limited
+amount of labeled data, the performance
+of ?pure? supervised learning, which only
+used labeled data, is limited. As a re-
+sult, many existing methods employ fea-
+tures learnt from a large amount of unla-
+beled data to assist the task. In this pa-
+per, we propose a semi-supervised ensem-
+ble method to better incorporate both la-
+beled and unlabeled data during learning.
+Firstly, we employ an ensemble learning
+framework, which effectively uses align-
+ment results from different unsupervised
+alignment models. We then propose to
+use a semi-supervised learning method,
+namely Tri-training, to train classifiers us-
+ing both labeled and unlabeled data col-
+laboratively and further improve the result.
+Experimental results show that our meth-
+ods can substantially improve the quality
+of word alignment. The final translation
+quality of a phrase-based translation sys-
+tem is slightly improved, as well.
+1 

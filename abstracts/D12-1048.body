@@ -1,0 +1,23 @@
+
+Open Information Extraction (IE) systems ex-
+tract relational tuples from text, without re-
+quiring a pre-specified vocabulary, by iden-
+tifying relation phrases and associated argu-
+ments in arbitrary sentences. However, state-
+of-the-art Open IE systems such as REVERB
+and WOE share two important weaknesses ?
+(1) they extract only relations that are medi-
+ated by verbs, and (2) they ignore context,
+thus extracting tuples that are not asserted as
+factual. This paper presents OLLIE, a sub-
+stantially improved Open IE system that ad-
+dresses both these limitations. First, OLLIE
+achieves high yield by extracting relations me-
+diated by nouns, adjectives, and more. Sec-
+ond, a context-analysis step increases preci-
+sion by including contextual information from
+the sentence in the extractions. OLLIE obtains
+2.7 times the area under precision-yield curve
+(AUC) compared to REVERB and 1.9 times
+the AUC of WOEparse.
+1 

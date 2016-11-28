@@ -1,0 +1,25 @@
+
+In natural-language discourse, related events
+tend to appear near each other to describe a
+larger scenario. Such structures can be formal-
+ized by the notion of a frame (a.k.a. template),
+which comprises a set of related events and
+prototypical participants and event transitions.
+Identifying frames is a prerequisite for infor-
+mation extraction and natural language gen-
+eration, and is usually done manually. Meth-
+ods for inducing frames have been proposed
+recently, but they typically use ad hoc proce-
+dures and are difficult to diagnose or extend.
+In this paper, we propose the first probabilistic
+approach to frame induction, which incorpo-
+rates frames, events, and participants as latent
+topics and learns those frame and event transi-
+tions that best explain the text. The number
+of frame components is inferred by a novel
+application of a split-merge method from syn-
+tactic parsing. In end-to-end evaluations from
+text to induced frames and extracted facts, our
+method produces state-of-the-art results while
+substantially reducing engineering effort.
+1 

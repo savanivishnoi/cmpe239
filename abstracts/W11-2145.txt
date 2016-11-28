@@ -1,0 +1,16 @@
+
+This paper describes the phrase-based SMT
+systems developed for our participation
+in the WMT11 Shared Translation Task.
+Translations for English?German and
+English?French were generated using a
+phrase-based translation system which is
+extended by additional models such as
+bilingual and fine-grained POS language
+models, POS-based reordering, lattice phrase
+extraction and discriminative word alignment.
+Furthermore, we present a special filtering
+method for the English-French Giga corpus
+and the phrase scoring step in the training is
+parallelized.
+1 

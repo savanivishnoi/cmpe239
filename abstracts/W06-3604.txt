@@ -1,0 +1,28 @@
+
+We present a classification-based word
+prediction model based on IGTREE, a
+decision-tree induction algorithm with fa-
+vorable scaling abilities and a functional
+equivalence to n-gram models with back-
+off smoothing. Through a first series of
+experiments, in which we train on Reuters
+newswire text and test either on the same
+type of data or on general or fictional text,
+we demonstrate that the system exhibits
+log-linear increases in prediction accuracy
+with increasing numbers of training ex-
+amples. Trained on 30 million words
+of newswire text, prediction accuracies
+range between 12.6% on fictional text and
+42.2% on newswire text. In a second se-
+ries of experiments we compare all-words
+prediction with confusable prediction, i.e.,
+the same task, but specialized to predict-
+ing among limited sets of words. Con-
+fusable prediction yields high accuracies
+on nine example confusable sets in all
+genres of text. The confusable approach
+outperforms the all-words-prediction ap-
+proach, but with more data the difference
+decreases.
+1 

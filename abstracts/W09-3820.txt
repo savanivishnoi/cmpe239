@@ -1,0 +1,25 @@
+
+Generative lexicalized parsing models,
+which are the mainstay for probabilistic
+parsing of English, do not perform as well
+when applied to languages with differ-
+ent language-specific properties such as
+free(r) word order or rich morphology. For
+German and other non-English languages,
+linguistically motivated complex treebank
+transformations have been shown to im-
+prove performance within the framework
+of PCFG parsing, while generative lexical-
+ized models do not seem to be as easily
+adaptable to these languages.
+In this paper, we show a practical way
+to use grammatical functions as first-class
+citizens in a discriminative model that al-
+lows to extend annotated treebank gram-
+mars with rich feature sets without hav-
+ing to suffer from sparse data problems.
+We demonstrate the flexibility of the ap-
+proach by integrating unsupervised PP at-
+tachment and POS-based word clusters
+into the parser.
+1 

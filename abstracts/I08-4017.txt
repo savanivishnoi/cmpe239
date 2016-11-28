@@ -1,0 +1,15 @@
+
+This paper describes a novel character tag-
+ging approach to Chinese word segmenta-
+tion and named entity recognition (NER) for
+our participation in Bakeoff-4.1 It integrates
+unsupervised segmentation and conditional
+random fields (CRFs) learning successfully,
+using similar character tags and feature tem-
+plates for both word segmentation and NER.
+It ranks at the top in all closed tests of word
+segmentation and gives promising results for
+all closed and open NER tasks in the Bake-
+off. Tag set selection and unsupervised seg-
+mentation play a critical role in this success.
+1 

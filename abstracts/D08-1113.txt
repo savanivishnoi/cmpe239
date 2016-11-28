@@ -1,0 +1,21 @@
+
+String-to-string transduction is a central prob-
+lem in computational linguistics and natural
+language processing. It occurs in tasks as di-
+verse as name transliteration, spelling correc-
+tion, pronunciation modeling and inflectional
+morphology. We present a conditional log-
+linear model for string-to-string transduction,
+which employs overlapping features over la-
+tent alignment sequences, and which learns la-
+tent classes and latent string pair regions from
+incomplete training data. We evaluate our ap-
+proach on morphological tasks and demon-
+strate that latent variables can dramatically
+improve results, even when trained on small
+data sets. On the task of generating mor-
+phological forms, we outperform a baseline
+method reducing the error rate by up to 48%.
+On a lemmatization task, we reduce the error
+rates in Wicentowski (2002) by 38?92%.
+1 

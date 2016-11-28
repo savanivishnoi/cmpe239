@@ -1,0 +1,20 @@
+ 
+To relax the Term Independence Assump-
+tion, Term Dependency is introduced and it 
+has improved retrieval precision dramati-
+cally. There are two kinds of term depend-
+encies, one is defined by term proximity, 
+and the other is defined by linguistic de-
+pendencies. In this paper, we take a com-
+parative study to re-examine these two 
+kinds of term dependencies in dependence 
+language model framework. Syntactic rela-
+tionships, derived from a dependency 
+parser, Minipar, are used as linguistic term 
+dependencies. Our study shows: 1) Lin-
+guistic dependencies get a better result than 
+term proximity. 2) Dependence retrieval 
+model achieves more improvement in sen-
+tence-based verbose queries than keyword-
+based short queries. 
+1 

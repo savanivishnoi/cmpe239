@@ -1,0 +1,37 @@
+s
+Jacob Eisenstein
+?
+James Clarke
+?
+Dan Goldwasser
+?
+Dan Roth
+??
+?
+Beckman Institute for Advanced Science and Technology,
+?
+Department of Computer Science
+University of Illinois
+Urbana, IL 61801
+{jacobe,clarkeje,goldwas1,danr}@illinois.edu
+Abstract
+Machine learning offers a range of tools
+for training systems from data, but these
+methods are only as good as the underly-
+ing representation. This paper proposes to
+acquire representations for machine learn-
+ing by reading text written to accommo-
+date human learning. We propose a novel
+form of semantic analysis called read-
+ing to learn, where the goal is to obtain
+a high-level semantic abstract of multi-
+ple documents in a representation that fa-
+cilitates learning. We obtain this abstract
+through a generative model that requires
+no labeled data, instead leveraging repe-
+tition across multiple documents. The se-
+mantic abstract is converted into a trans-
+formed feature space for learning, result-
+ing in improved generalization on a rela-
+tional learning task.
+1 

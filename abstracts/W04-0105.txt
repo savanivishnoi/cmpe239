@@ -1,0 +1,19 @@
+
+This paper describes a Bayesian procedure for un-
+supervised learning of phonological rules from an
+unlabeled corpus of training data. Like Goldsmith?s
+Linguistica program (Goldsmith, 2004b), whose
+output is taken as the starting point of this proce-
+dure, our learner returns a grammar that consists of
+a set of signatures, each of which consists of a set
+of stems and a set of suffixes. Our grammars dif-
+fer from Linguistica?s in that they also contain a set
+of phonological rules, specifically insertion, dele-
+tion and substitution rules, which permit our gram-
+mars to collapse far more words into a signature
+than Linguistica can. Interestingly, the choice of
+Bayesian prior turns out to be crucial for obtaining a
+learner that makes linguistically appropriate gener-
+alizations through a range of different sized training
+corpora.
+1 

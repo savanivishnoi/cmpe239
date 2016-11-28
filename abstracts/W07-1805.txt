@@ -1,0 +1,21 @@
+ 
+In command and control (C&C) speech in-
+teraction, users interact by speaking com-
+mands or asking questions typically speci-
+fied in a context-free grammar (CFG). Un-
+fortunately, users often produce out-of-
+grammar (OOG) commands, which can re-
+sult in misunderstanding or non-
+understanding.  We explore a simple ap-
+proach to handling OOG commands that 
+involves generating a backoff grammar 
+from any CFG using filler models, and util-
+izing that grammar for recognition when-
+ever the CFG fails.  Working within the 
+memory footprint requirements of a mobile 
+C&C product, applying the approach 
+yielded a 35% relative reduction in seman-
+tic error rate for OOG commands.  It also 
+improved partial recognitions for enabling 
+clarification dialogue. 
+1 

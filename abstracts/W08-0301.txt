@@ -1,0 +1,16 @@
+
+The treatment of ?spurious? words of source
+language is an important problem but often
+ignored in the discussion on phrase-based
+SMT. This paper explains why it is impor-
+tant and why it is not a trivial problem, and
+proposes three models to handle spurious
+source words. Experiments show that any
+source word deletion model can improve a
+phrase-based system by at least 1.6 BLEU
+points and the most sophisticated model
+improves by nearly 2 BLEU points. This
+paper also explores the impact of training
+data size and training data domain/genre on
+source word deletion.
+1 

@@ -1,0 +1,15 @@
+
+Determining the quality of an ongoing in-
+teraction in the field of Spoken Dialogue
+Systems is a hard task. While existing
+methods employing automatic estimation
+already achieve reasonable results, still
+there is a lot of room for improvement.
+Hence, we aim at tackling the task by es-
+timating the error of the applied statistical
+classification algorithms in a two-stage ap-
+proach. Correcting the hypotheses using
+the estimated model error increases per-
+formance by up to 4.1 % relative improve-
+ment in Unweighted Average Recall.
+1 

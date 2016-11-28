@@ -1,0 +1,34 @@
+
+The aim of this work is to present some
+preliminary results of an investigation in
+course on the typology of the morphol-
+ogy of the native South American lan-
+guages from the point of view of the for-
+mal language theory. With this object,
+we give two contrasting examples of de-
+scriptions of two Aboriginal languages fi-
+nite verb forms morphology: Argentinean
+Quechua (quichua santiaguen?o) and Toba.
+The description of the morphology of the
+finite verb forms of Argentinean quechua,
+uses finite automata and finite transducers.
+In this case the construction is straight-
+forward using two level morphology and
+then, describes in a very natural way the
+Argentinean Quechua morphology using
+a regular language. On the contrary, the
+Toba verbs morphology, with a system that
+simultaneously uses prefixes and suffixes,
+has not a natural description as regular lan-
+guage. Toba has a complex system of
+causative suffixes, whose successive ap-
+plications determinate the use of prefixes
+belonging different person marking pre-
+fix sets. We adopt the solution of Crei-
+der et al (1995) to naturally deal with this
+and other similar morphological processes
+which involve interactions between pre-
+fixes and suffixes and then we describe the
+toba morphology using linear context-free
+languages.1.
+1 

@@ -1,0 +1,19 @@
+
+An algorithm is presented for learning a
+phrase-structure grammar from tagged
+text. It clusters sequences of tags to-
+gether based on local distributional in-
+formation, and selects clusters that sat-
+isfy a novel mutual information crite-
+rion. This criterion is shown to be re-
+lated to the entropy of a random vari-
+able associated with the tree structures,
+and it is demonstrated that it selects lin-
+guistically plausible constituents. This
+is incorporated in a Minimum Descrip-
+tion Length algorithm. The evaluation
+of unsupervised models is discussed,
+and results are presented when the al-
+gorithm has been trained on 12 million
+words of the British National Corpus.
+1 

@@ -1,0 +1,25 @@
+
+We address the issue of using heteroge-
+neous treebanks for parsing by breaking
+it down into two sub-problems, convert-
+ing grammar formalisms of the treebanks
+to the same one, and parsing on these
+homogeneous treebanks. First we pro-
+pose to employ an iteratively trained tar-
+get grammar parser to perform grammar
+formalism conversion, eliminating prede-
+fined heuristic rules as required in previ-
+ous methods. Then we provide two strate-
+gies to refine conversion results, and adopt
+a corpus weighting technique for parsing
+on homogeneous treebanks. Results on the
+Penn Treebank show that our conversion
+method achieves 42% error reduction over
+the previous best result. Evaluation on
+the Penn Chinese Treebank indicates that a
+converted dependency treebank helps con-
+stituency parsing and the use of unlabeled
+data by self-training further increases pars-
+ing f-score to 85.2%, resulting in 6% error
+reduction over the previous best result.
+1 

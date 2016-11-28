@@ -1,0 +1,15 @@
+
+This paper describes a method using mor-
+phological rules and heuristics, for the au-
+tomatic extraction of large-coverage lexi-
+cons of stems and root word-forms from
+a raw text corpus. We cast the problem
+of high-coverage lexicon extraction as one
+of stemming followed by root word-form
+selection. We examine the use of POS
+tagging to improve precision and recall of
+stemming and thereby the coverage of the
+lexicon. We present accuracy, precision
+and recall scores for the system on a Hindi
+corpus.
+1 

@@ -1,0 +1,19 @@
+
+This paper describes the system submit-
+ted by the Laboratory of Informatics of
+Grenoble (LIG) for the fifth Workshop
+on Statistical Machine Translation. We
+participated to the news shared transla-
+tion task for the French-English language
+pair. We investigated differents techniques
+to simply deal with Out-Of-Vocabulary
+words in a statistical phrase-based ma-
+chine translation system and analyze their
+impact on translation quality. The final
+submission is a combination between a
+standard phrase-based system using the
+Moses decoder, with appropriate setups
+and pre-processing, and a lemmatized sys-
+tem to deal with Out-Of-Vocabulary con-
+jugated verbs.
+1 

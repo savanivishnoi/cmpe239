@@ -1,0 +1,31 @@
+
+In this paper, we investigate the prob-
+lem of automatically predicting segment
+boundaries in spoken multiparty dialogue.
+We extend prior work in two ways. We
+first apply approaches that have been pro-
+posed for predicting top-level topic shifts
+to the problem of identifying subtopic
+boundaries. We then explore the impact
+on performance of using ASR output as
+opposed to human transcription. Exam-
+ination of the effect of features shows
+that predicting top-level and predicting
+subtopic boundaries are two distinct tasks:
+(1) for predicting subtopic boundaries,
+the lexical cohesion-based approach alone
+can achieve competitive results, (2) for
+predicting top-level boundaries, the ma-
+chine learning approach that combines
+lexical-cohesion and conversational fea-
+tures performs best, and (3) conversational
+cues, such as cue phrases and overlapping
+speech, are better indicators for the top-
+level prediction task. We also find that
+the transcription errors inevitable in ASR
+output have a negative impact on models
+that combine lexical-cohesion and conver-
+sational features, but do not change the
+general preference of approach for the two
+tasks.
+1 

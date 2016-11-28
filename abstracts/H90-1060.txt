@@ -1,0 +1,25 @@
+ 
+This paper reports on two contributions to large vocabu- 
+lary continuous peech recognition. First, we present a 
+new paradigm for speaker-independent (SI) training of hid- 
+den Markov models (HMM), which uses a large amount of 
+speech from a few speakers instead of the traditional prac- 
+tice of using a little speech from many speakers. In addition, 
+combination of the training speakers is done by averaging 
+the statistics of independently rained models rather than the 
+usual pooling of all the speech data from many speakers prior 
+to training. With only 12 training speakers for SI recogni- 
+tion, we achieved a 7.5% word error rate on a standard 
+grammar and test set from the DARPA Resource Manage- 
+ment corpus. This performance is comparable to our best 
+condition for this test suite, using 109 training speakers. 
+Second, we show a significant improvement for speaker 
+adaptation (SA) using the new SI corpus and a small amount 
+of speech from the new (target) speaker. A probabilistic 
+spectral mapping is estimated independently for each train- 
+ing (reference) speaker and the target speaker. Each refer- 
+ence model is transformed tothe space of the target speaker 
+and combined by averaging. Using only 40 utterances from 
+the target speaker for adaptation, the error rate dropped to 
+4.1% - -  a 45% reduction in error compared to the SI result. 
+1. 

@@ -1,0 +1,15 @@
+
+This paper reports work aimed at develop-
+ing an open, distributed learning environ-
+ment, OLLIE, where researchers can ex-
+periment with different Machine Learning
+(ML) methods for Information Extraction.
+Once the required level of performance is
+reached, the ML algorithms can be used to
+speed up the manual annotation process.
+OLLIE uses a browser client while data
+storage and ML training is performed on
+servers. The different ML algorithms use
+a unified programming interface; the inte-
+gration of new ones is straightforward.
+1 

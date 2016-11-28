@@ -1,0 +1,18 @@
+
+This paper addresses the task of extract-
+ing opinions from a given document
+collection. Assuming that an opinion
+can be represented as a tuple ?Subject,
+Attribute, Value?, we propose a compu-
+tational method to extract such tuples
+from texts. In this method, the main
+task is decomposed into (a) the pro-
+cess of extracting Attribute-Value pairs
+from a given text and (b) the process of
+judging whether an extracted pair ex-
+presses an opinion of the author. We
+apply machine-learning techniques to
+both subtasks. We also report on the
+results of our experiments and discuss
+future directions.
+1 

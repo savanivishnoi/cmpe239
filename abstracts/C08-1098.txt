@@ -1,0 +1,15 @@
+
+We present a HMM part-of-speech tag-
+ging method which is particularly suited
+for POS tagsets with a large number of
+fine-grained tags. It is based on three ideas:
+(1) splitting of the POS tags into attribute
+vectors and decomposition of the contex-
+tual POS probabilities of the HMM into a
+product of attribute probabilities, (2) esti-
+mation of the contextual probabilities with
+decision trees, and (3) use of high-order
+HMMs. In experiments on German and
+Czech data, our tagger outperformed state-
+of-the-art POS taggers.
+1 

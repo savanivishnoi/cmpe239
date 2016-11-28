@@ -1,0 +1,19 @@
+
+Stochastic Optimality Theory (Boersma,
+1997) is a widely-used model in linguis-
+tics that did not have a theoretically sound
+learning method previously. In this pa-
+per, a Markov chain Monte-Carlo method
+is proposed for learning Stochastic OT
+Grammars. Following a Bayesian frame-
+work, the goal is finding the posterior dis-
+tribution of the grammar given the rela-
+tive frequencies of input-output pairs. The
+Data Augmentation algorithm allows one
+to simulate a joint posterior distribution by
+iterating two conditional sampling steps.
+This Gibbs sampler constructs a Markov
+chain that converges to the joint distribu-
+tion, and the target posterior can be de-
+rived as its marginal distribution.
+1 

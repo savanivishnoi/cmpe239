@@ -1,0 +1,27 @@
+
+We introduce a word alignment framework
+that facilitates the incorporation of syntax en-
+coded in bilingual dependency tree pairs. Our
+model consists of two sub-models: an anchor
+word alignment model which aims to find a set
+of high-precision anchor links and a syntax-
+enhanced word alignment model which fo-
+cuses on aligning the remaining words relying
+on dependency information invoked by the ac-
+quired anchor links. We show that our syntax-
+enhanced word alignment approach leads to a
+10.32% and 5.57% relative decrease in align-
+ment error rate compared to a generative word
+alignment model and a syntax-proof discrim-
+inative word alignment model respectively.
+Furthermore, our approach is evaluated ex-
+trinsically using a phrase-based statistical ma-
+chine translation system. The results show
+that SMT systems based on our word align-
+ment approach tend to generate shorter out-
+puts. Without length penalty, using our word
+alignments yields statistically significant im-
+provement in Chinese?English machine trans-
+lation in comparison with the baseline word
+alignment.
+1 

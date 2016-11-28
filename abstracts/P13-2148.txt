@@ -1,0 +1,14 @@
+
+Sentiment Word Identification (SWI) is a
+basic technique in many sentiment analy-
+sis applications. Most existing research-
+es exploit seed words, and lead to low ro-
+bustness. In this paper, we propose a novel
+optimization-based model for SWI. Unlike
+previous approaches, our model exploits
+the sentiment labels of documents instead
+of seed words. Several experiments on re-
+al datasets show that WEED is effective
+and outperforms the state-of-the-art meth-
+ods with seed words.
+1 

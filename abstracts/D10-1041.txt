@@ -1,0 +1,28 @@
+
+For resource-limited language pairs, coverage
+of the test set by the parallel corpus is an
+important factor that affects translation qual-
+ity in two respects: 1) out of vocabulary
+words; 2) the same information in an input
+sentence can be expressed in different ways,
+while current phrase-based SMT systems can-
+not automatically select an alternative way
+to transfer the same information. Therefore,
+given limited data, in order to facilitate trans-
+lation from the input side, this paper pro-
+poses a novel method to reduce the transla-
+tion difficulty using source-side lattice-based
+paraphrases. We utilise the original phrases
+from the input sentence and the correspond-
+ing paraphrases to build a lattice with esti-
+mated weights for each edge to improve trans-
+lation quality. Compared to the baseline sys-
+tem, our method achieves relative improve-
+ments of 7.07%, 6.78% and 3.63% in terms
+of BLEU score on small, medium and large-
+scale English-to-Chinese translation tasks re-
+spectively. The results show that the proposed
+method is effective not only for resource-
+limited language pairs, but also for resource-
+sufficient pairs to some extent.
+1 

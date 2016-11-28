@@ -1,0 +1,26 @@
+ 
+Extracting semantic relationships between en-
+tities is challenging. This paper investigates 
+the incorporation of diverse lexical, syntactic 
+and semantic knowledge in feature-based rela-
+tion extraction using SVM. Our study illus-
+trates that the base phrase chunking 
+information is very effective for relation ex-
+traction and contributes to most of the per-
+formance improvement from syntactic aspect 
+while additional information from full parsing 
+gives limited further enhancement. This sug-
+gests that most of useful information in full 
+parse trees for relation extraction is shallow 
+and can be captured by chunking. We also 
+demonstrate how semantic information such as 
+WordNet and Name List, can be used in fea-
+ture-based relation extraction to further im-
+prove the performance. Evaluation on the 
+ACE corpus shows that effective incorporation 
+of diverse features enables our system outper-
+form previously best-reported systems on the 
+24 ACE relation subtypes and significantly 
+outperforms tree kernel-based systems by over 
+20 in F-measure on the 5 ACE relation types. 
+1 

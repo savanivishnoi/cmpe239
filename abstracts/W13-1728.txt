@@ -1,0 +1,19 @@
+
+This paper presents a Native Language Iden-
+tification (NLI) system based on TF-IDF
+weighting schemes and using linear classi-
+fiers - support vector machines, logistic re-
+gressions and perceptrons. The system was
+one of the participants of the 2013 NLI Shared
+Task in the closed-training track, achieving
+0.814 overall accuracy for a set of 11 native
+languages. This accuracy was only 2.2 per-
+centage points lower than the winner?s perfor-
+mance. Furthermore, with subsequent evalua-
+tions using 10-fold cross-validation (as given
+by the organizers) on the combined training
+and development data, the best average accu-
+racy obtained is 0.8455 and the features that
+contributed to this accuracy are the TF-IDF of
+the combined unigrams and bigrams of words.
+1 

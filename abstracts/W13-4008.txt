@@ -1,0 +1,19 @@
+
+Online debate forums provide a rich col-
+lection of differing opinions on vari-
+ous topics. In dual-sided debates, users
+present their opinions or judge other?s
+opinions to support their stance. In this
+paper, we examine the use of users? inten-
+tions and debate structure for stance clas-
+sification of the debate posts. We propose
+a domain independent approach to capture
+users? intent at sentence level using its de-
+pendency parse and sentiWordNet and to
+build the intention structure of the post to
+identify its stance. To aid the task of clas-
+sification, we define the health of the de-
+bate structure and show that maximizing
+its value leads to better stance classifica-
+tion accuracies.
+1 

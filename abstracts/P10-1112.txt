@@ -1,0 +1,24 @@
+
+We present a simple but accurate parser
+which exploits both large tree fragments
+and symbol refinement. We parse with
+all fragments of the training set, in con-
+trast to much recent work on tree se-
+lection in data-oriented parsing and tree-
+substitution grammar learning. We re-
+quire only simple, deterministic grammar
+symbol refinement, in contrast to recent
+work on latent symbol refinement. More-
+over, our parser requires no explicit lexi-
+con machinery, instead parsing input sen-
+tences as character streams. Despite its
+simplicity, our parser achieves accuracies
+of over 88% F1 on the standard English
+WSJ task, which is competitive with sub-
+stantially more complicated state-of-the-
+art lexicalized and latent-variable parsers.
+Additional specific contributions center on
+making implicit all-fragments parsing effi-
+cient, including a coarse-to-fine inference
+scheme and a new graph encoding.
+1 

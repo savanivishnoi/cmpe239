@@ -1,0 +1,28 @@
+
+In Community question answering (QA)
+sites, malicious users may provide decep-
+tive answers to promote their products or
+services. It is important to identify and fil-
+ter out these deceptive answers. In this
+paper, we first solve this problem with
+the traditional supervised learning meth-
+ods. Two kinds of features, including tex-
+tual and contextual features, are investi-
+gated for this task. We further propose
+to exploit the user relationships to identify
+the deceptive answers, based on the hy-
+pothesis that similar users will have simi-
+lar behaviors to post deceptive or authentic
+answers. To measure the user similarity,
+we propose a new user preference graph
+based on the answer preference expressed
+by users, such as ?helpful? voting and
+?best answer? selection. The user prefer-
+ence graph is incorporated into traditional
+supervised learning framework with the
+graph regularization technique. The ex-
+periment results demonstrate that the user
+preference graph can indeed help improve
+the performance of deceptive answer pre-
+diction.
+1 

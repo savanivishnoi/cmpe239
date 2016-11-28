@@ -1,0 +1,23 @@
+
+In performing morpho-phonological se-
+quence processing tasks, such as letter-
+phoneme conversion or morphological
+analysis, it is typically not enough to base
+the output sequence on local decisions that
+map local-context input windows to sin-
+gle output tokens. We present a global
+sequence-processing method that repairs
+inconsistent local decisions. The approach
+is based on local predictions of overlap-
+ping trigrams of output tokens, which
+open up a space of possible sequences;
+a data-driven constraint satisfaction infer-
+ence step then searches for the optimal
+output sequence. We demonstrate signifi-
+cant improvements in terms of word accu-
+racy on English and Dutch letter-phoneme
+conversion and morphological segmenta-
+tion, and we provide qualitative analyses
+of error types prevented by the constraint
+satisfaction inference method.
+1 

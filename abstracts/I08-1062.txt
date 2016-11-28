@@ -1,0 +1,28 @@
+ 
+We present the results of research with the 
+goal of automatically creating a multilin-
+gual thesaurus based on the freely available 
+resources of Wikipedia and WordNet. Our 
+goal is to increase resources for natural 
+language processing tasks such as machine 
+translation targeting the Japanese-Spanish 
+language pair. Given the scarcity of re-
+sources, we use existing English resources 
+as a pivot for creating a trilingual Japanese-
+Spanish-English thesaurus. Our approach 
+consists of extracting the translation tuples 
+from Wikipedia, disambiguating them by 
+mapping them to WordNet word senses. 
+We present results comparing two methods 
+of disambiguation, the first using VSM on 
+Wikipedia article texts and WordNet defi-
+nitions, and the second using categorical 
+information extracted from Wikipedia, We 
+find that mixing the two methods produces 
+favorable results. Using the proposed 
+method, we have constructed a multilingual 
+Spanish-Japanese-English thesaurus con-
+sisting of 25,375 entries. The same method 
+can be applied to any pair of languages that 
+are linked to English in Wikipedia. 
+1 

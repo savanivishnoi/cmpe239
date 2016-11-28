@@ -1,0 +1,13 @@
+
+For SemEval-2013 Task 2, A and B (Sen-
+timent Analysis in Twitter), we use a rule-
+based pattern matching system that is based on
+an existing ?Domain Independent? sentiment
+taxonomy for English, essentially a highly
+phrasal sentiment lexicon. We have made
+some modifications to our set of rules, based
+on what we found in the annotated training
+data that was made available for the task. The
+resulting system scores competitively, espe-
+cially on task B.
+1 

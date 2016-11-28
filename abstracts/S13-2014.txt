@@ -1,0 +1,15 @@
+
+This paper describes a system for temporal
+processing of text, which participated in the
+Temporal Evaluations 2013 campaign. The
+system employs a number of machine learning
+classifiers to perform the core tasks of: identi-
+fication of time expressions and events, recog-
+nition of their attributes, and estimation of
+temporal links between recognized events and
+times. The central feature of the proposed sys-
+tem is temporal parsing ? an approach which
+identifies temporal relation arguments (event-
+event and event-timex pairs) and the semantic
+label of the relation as a single decision.
+1 

@@ -1,0 +1,14 @@
+
+In this paper, we report the adaptation of a
+named entity recognition (NER) system to the
+biomedical domain in order to participate in
+the ?Shared Task Bio-Entity Recognition?.
+The system is originally developed for Ger-
+man NER that shares characteristics with the
+biomedical task. To facilitate adaptability, the
+system is knowledge-poor and utilizes unla-
+beled data. Investigating the adaptability of the
+single components and the enhancements nec-
+essary, we get insights into the task of bio-
+entity recognition.
+1 

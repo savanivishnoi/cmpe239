@@ -1,0 +1,21 @@
+
+This paper investigates the claim that a di-
+alogue manager modelled as a Partially Ob-
+servable Markov Decision Process (POMDP)
+can achieve improved robustness to noise
+compared to conventional state-based dia-
+logue managers. Using the Hidden Infor-
+mation State (HIS) POMDP dialogue man-
+ager as an exemplar, and an MDP-based dia-
+logue manager as a baseline, evaluation results
+are presented for both simulated and real dia-
+logues in a Tourist Information Domain. The
+results on the simulated data show that the
+inherent ability to model uncertainty, allows
+the POMDP model to exploit alternative hy-
+potheses from the speech understanding sys-
+tem. The results obtained from a user trial
+show that the HIS system with a trained policy
+performed significantly better than the MDP
+baseline.
+1 

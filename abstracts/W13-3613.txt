@@ -1,0 +1,28 @@
+
+We describe the system developed for the
+CoNLL-2013 shared task?automatic En-
+glish L2 grammar error correction. The
+system is based on the rule-based ap-
+proach. It uses very few additional re-
+sources: a morphological analyzer and a
+list of 250 common uncountable nouns,
+along with the training data provided by
+the organizers. The system uses the syn-
+tactic information available in the train-
+ing data: this information is represented
+as syntactic n-grams, i.e. n-grams ex-
+tracted by following the paths in depen-
+dency trees. The system is simple and
+was developed in a short period of time
+(1 month). Since it does not employ
+any additional resources or any sophisti-
+cated machine learning methods, it does
+not achieve high scores (specifically, it has
+low recall) but could be considered as a
+baseline system for the task. On the other
+hand, it shows what can be obtained using
+a simple rule-based approach and presents
+a few situations where the rule-based ap-
+proach can perform better than ML ap-
+proach.
+1 

@@ -1,0 +1,17 @@
+ 
+This paper describes a small experiment to 
+test a rule-based approach to unknown word 
+recognition in Arabic. The morphological 
+complexity of Arabic presents its challenges 
+to a variety of NLP applications, but it can al-
+so be viewed as an advantage, if we can tap 
+into the complex linguistic knowledge associ-
+ated with these complex forms. In particular, 
+the derived forms of verbs can be analysed 
+and an educated guess at the likely meaning of 
+a derived form can be predicted, based on the 
+meaning of a known form and the relationship 
+between the known form and the unknown 
+one. The performance of the approach is test-
+ed on the NEMLAR Written Arabic Corpus. 
+1 

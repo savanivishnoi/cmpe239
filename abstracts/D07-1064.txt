@@ -1,0 +1,19 @@
+
+We propose a sequence-alignment based
+method for detecting and disambiguating co-
+ordinate conjunctions. In this method, av-
+eraged perceptron learning is used to adapt
+the substitution matrix to the training data
+drawn from the target language and domain.
+To reduce the cost of training data con-
+struction, our method accepts training exam-
+ples in which complete word-by-word align-
+ment labels are missing, but instead only
+the boundaries of coordinated conjuncts are
+marked. We report promising empirical re-
+sults in detecting and disambiguating coor-
+dinated noun phrases in the GENIA corpus,
+despite a relatively small number of train-
+ing examples and minimal features are em-
+ployed.
+1 

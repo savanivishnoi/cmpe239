@@ -1,0 +1,18 @@
+
+We argue that groups of unannotated texts
+with overlapping and non-contradictory
+semantics represent a valuable source of
+information for learning semantic repre-
+sentations. A simple and efficient infer-
+ence method recursively induces joint se-
+mantic representations for each group and
+discovers correspondence between lexical
+entries and latent semantic concepts. We
+consider the generative semantics-text cor-
+respondence model (Liang et al, 2009)
+and demonstrate that exploiting the non-
+contradiction relation between texts leads
+to substantial improvements over natu-
+ral baselines on a problem of analyzing
+human-written weather forecasts.
+1 

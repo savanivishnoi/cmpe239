@@ -1,0 +1,17 @@
+ 
+We present results and experiences from 
+our experiments with phrase-based statisti-
+cal machine translation using Moses. The 
+paper is based on the idea of using an off-
+the-shelf parser to supply linguistic infor-
+mation to a factored translation model and 
+compare the results of German?English 
+translation to the shared task baseline sys-
+tem based on word form. We report partial 
+results for this model and results for two 
+simplified setups. Our best setup takes ad-
+vantage of the parser?s lemmatization and 
+decompounding. A qualitative analysis of 
+compound translation shows that decom-
+pounding improves translation quality. 
+1 

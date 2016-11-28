@@ -1,0 +1,25 @@
+
+Computing the semantic similarity between
+terms relies on existence and usage of seman-
+tic resources. However, these resources, often
+composed of equivalent units, or synonyms,
+must be first analyzed and weighted in or-
+der to define within them the reliability zones
+where the semantic cohesiveness is stronger.
+We propose an original method for acquisition
+of elementary synonyms based on exploitation
+of structured terminologies, analysis of syn-
+tactic structure of complex (multi-unit) terms
+and their compositionality. The acquired syn-
+onyms are then profiled thanks to endogenous
+lexical and linguistic indicators (other types
+of relations, lexical inclusions, productivity),
+which are automatically inferred within the
+same terminologies. Additionally, synonymy
+relations are observed within graph, and its
+structure is analyzed. Particularly, we ex-
+plore the usefulness of the graph theory no-
+tions such as connected component, clique,
+density, bridge, articulation vertex, and cen-
+trality of vertices.
+1 

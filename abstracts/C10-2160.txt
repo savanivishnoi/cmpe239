@@ -1,0 +1,22 @@
+
+In this paper, we investigate the problem of en-
+tity identification and relation extraction from en-
+cyclopedia articles, and we propose a joint discrim-
+inative probabilistic model with arbitrary graphical
+structure to optimize all relevant subtasks simulta-
+neously. This modeling offers a natural formalism
+for exploiting rich dependencies and interactions
+between relevant subtasks to capture mutual ben-
+efits, as well as a great flexibility to incorporate a
+large collection of arbitrary, overlapping and non-
+independent features. We show the parameter es-
+timation algorithm of this model. Moreover, we
+propose a new inference method, namely collec-
+tive iterative classification (CIC), to find the most
+likely assignments for both entities and relations.
+We evaluate our model on real-world data from
+Wikipedia for this task, and compare with current
+state-of-the-art pipeline and joint models, demon-
+strating the effectiveness and feasibility of our ap-
+proach.
+1 

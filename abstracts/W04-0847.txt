@@ -1,0 +1,12 @@
+
+This article describes the implementation of I2R
+word sense disambiguation system (I2R ?WSD)
+that participated in one senseval3 task: Chinese lex-
+ical sample task. Our core algorithm is a supervised
+Naive Bayes classifier. This classifier utilizes an op-
+timal feature set, which is determined by maximiz-
+ing the cross validated accuracy of NB classifier on
+training data. The optimal feature set includes part-
+of-speech with position information in local con-
+text, and bag of words in topical context.
+1 

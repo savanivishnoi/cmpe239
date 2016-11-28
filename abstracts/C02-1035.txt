@@ -1,0 +1,17 @@
+
+To support context-based multimodal interpre-
+tation in conversational systems, we have devel-
+oped a semantics-based representation to
+capture salient information from user inputs and
+the overall conversation. In particular, we
+present three unique characteristics: fine-
+grained semantic models, flexible composition
+of feature structures, and consistent representa-
+tion at multiple levels. This representation
+allows our system to use rich contexts to resolve
+ambiguities, infer unspecified information, and
+improve multimodal alignment. As a result, our
+system is able to enhance understanding of mul-
+timodal inputs including those abbreviated,
+imprecise, or complex ones.
+1 

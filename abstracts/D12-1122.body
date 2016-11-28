@@ -1,0 +1,23 @@
+
+Extracting opinion expressions from text is
+usually formulated as a token-level sequence
+labeling task tackled using Conditional Ran-
+dom Fields (CRFs). CRFs, however, do not
+readily model potentially useful segment-level
+information like syntactic constituent struc-
+ture. Thus, we propose a semi-CRF-based ap-
+proach to the task that can perform sequence
+labeling at the segment level. We extend the
+original semi-CRF model (Sarawagi and Co-
+hen, 2004) to allow the modeling of arbitrar-
+ily long expressions while accounting for their
+likely syntactic structure when modeling seg-
+ment boundaries. We evaluate performance on
+two opinion extraction tasks, and, in contrast
+to previous sequence labeling approaches to
+the task, explore the usefulness of segment-
+level syntactic parse features. Experimental
+results demonstrate that our approach outper-
+forms state-of-the-art methods for both opin-
+ion expression tasks.
+1 

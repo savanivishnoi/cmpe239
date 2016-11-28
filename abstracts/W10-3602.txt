@@ -1,0 +1,18 @@
+ 
+Thai language text presents challenges 
+for integration into large-scale multi-
+language statistical machine translation 
+(SMT) systems, largely stemming from 
+the nominal lack of punctuation and in-
+ter-word space. For Thai sentence break-
+ing, we describe a monolingual maxi-
+mum entropy classifier with features that 
+may be applicable to other languages 
+such as Arabic, Khmer and Lao. We ap-
+ply this sentence breaker to our large-
+vocabulary, general-purpose, bidirec-
+tional Thai-English SMT system, and 
+achieve BLEU scores of around 0.20, 
+reaching our threshold of releasing it as a 
+free online service. 
+1 

@@ -1,0 +1,12 @@
+
+We propose a biomedical event extraction system, HVS-BioEvent, which employs the hidden
+vector state (HVS) model for semantic parsing. Biomedical events extraction needs to deal with
+complex events consisting of embedded or hierarchical relations among proteins, events, and their
+textual triggers. In HVS-BioEvent, we further propose novel machine learning approaches for event
+trigger word identification, and for biomedical events extraction from the HVS parse results. Our
+proposed system achieves an F-score of 49.57% on the corpus used in the BioNLP?09 shared task,
+which is only two points lower than the best performing system by UTurku. Nevertheless, HVS-
+BioEvent outperforms UTurku on the extraction of complex event types. The results suggest that the
+HVS model with the hierarchical hidden state structure is indeed more suitable for complex event
+extraction since it can naturally model embedded structural context in sentences.
+1 

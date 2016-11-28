@@ -1,0 +1,34 @@
+
+Prepositions in English are a well-known
+challenge for language learners, and the
+computational analysis of preposition us-
+age has attracted significant attention.
+Such research generally starts out by de-
+veloping models of preposition usage for
+native English based on a range of fea-
+tures, from shallow surface evidence to
+deep linguistically-informed properties.
+While we agree that ultimately a com-
+bination of shallow and deep features is
+needed to balance the preciseness of ex-
+emplars with the usefulness of generaliza-
+tions to avoid data sparsity, in this paper
+we explore the limits of a purely surface-
+based prediction of prepositions.
+Using a web-as-corpus approach, we in-
+vestigate the classification based solely on
+the relative number of occurrences for tar-
+get n-grams varying in preposition usage.
+We show that such a surface-based ap-
+proach is competitive with the published
+state-of-the-art results relying on complex
+feature sets.
+Where enough data is available, in a sur-
+prising number of cases it thus is possible
+to obtain sufficient information from the
+relatively narrow window of context pro-
+vided by n-grams which are small enough
+to frequently occur but large enough
+to contain enough predictive information
+about preposition usage.
+1 

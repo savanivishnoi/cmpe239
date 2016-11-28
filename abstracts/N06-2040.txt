@@ -1,0 +1,19 @@
+
+In the current work, we focus on systems that
+provide incremental directions and monitor
+the progress of mobile users following those
+directions. Such directions are based on dy-
+namic quantities like the visibility of reference
+points and their distance from the user. An
+intelligent navigation assistant might take ad-
+vantage of the user?s mobility within the set-
+ting to achieve communicative goals, for ex-
+ample, by repositioning him to a point from
+which a description of the target is easier to
+produce. Calculating spatial variables over a
+corpus of human-human data developed for
+this study, we trained a classifier to detect con-
+texts in which a target object can be felici-
+tously described. Our algorithm matched the
+human subjects with 86% precision.
+1 

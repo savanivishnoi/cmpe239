@@ -1,0 +1,19 @@
+
+There are two decoding algorithms essen-
+tial to the area of natural language pro-
+cessing. One is the Viterbi algorithm
+for linear-chain models, such as HMMs
+or CRFs. The other is the CKY algo-
+rithm for probabilistic context free gram-
+mars. However, tasks such as noun phrase
+chunking and relation extraction seem to
+fall between the two, neither of them be-
+ing the best fit. Ideally we would like to
+model entities and relations, with two lay-
+ers of labels. We present a tractable algo-
+rithm for exact inference over two layers
+of labels and chunks with time complexity
+O(n2), and provide empirical results com-
+paring our model with linear-chain mod-
+els.
+1 

@@ -1,0 +1,19 @@
+
+This paper describes a new part-of-speech tag-
+ger including multiword unit (MWU) identifi-
+cation. It is based on a Conditional Random
+Field model integrating language-independent
+features, as well as features computed from
+external lexical resources. It was imple-
+mented in a finite-state framework composed
+of a preliminary finite-state lexical analysis
+and a CRF decoding using weighted finite-
+state transducer composition. We showed that
+our tagger reaches state-of-the-art results for
+French in the standard evaluation conditions
+(i.e. each multiword unit is already merged in
+a single token). The evaluation of the tagger
+integrating MWU recognition clearly shows
+the interest of incorporating features based on
+MWU resources.
+1 

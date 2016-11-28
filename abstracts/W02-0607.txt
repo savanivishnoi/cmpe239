@@ -1,0 +1,11 @@
+
+We describe here a supervised learning
+model that, given paradigms of related
+words, learns the morphological and
+phonological rules needed to derive the
+paradigm. The model can use its rules to
+make guesses about how novel forms
+would be inflected, and has been tested
+experimentally against the intuitions of
+human speakers.
+1 

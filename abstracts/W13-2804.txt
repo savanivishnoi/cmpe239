@@ -1,0 +1,23 @@
+
+We have implemented a rule-based proto-
+type of a Spanish-to-Cuzco Quechua MT
+system enhanced through the addition of
+statistical components. The greatest dif-
+ficulty during the translation process is to
+generate the correct Quechua verb form in
+subordinated clauses. The prototype has
+several rules that decide which verb form
+should be used in a given context. How-
+ever, matching the context in order to ap-
+ply the correct rule depends crucially on
+the parsing quality of the Spanish input.
+As the form of the subordinated verb de-
+pends heavily on the conjunction in the
+subordinated Spanish clause and the se-
+mantics of the main verb, we extracted
+this information from two treebanks and
+trained different classifiers on this data.
+We tested the best classifier on a set of 4
+texts, increasing the correct subordinated
+verb forms from 80% to 89%.
+1 

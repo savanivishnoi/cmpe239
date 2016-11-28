@@ -1,0 +1,22 @@
+
+Graph-based methods have gained attention in
+many areas of Natural Language Processing
+(NLP) including Word Sense Disambiguation
+(WSD), text summarization, keyword extrac-
+tion and others. Most of the work in these ar-
+eas formulate their problem in a graph-based
+setting and apply unsupervised graph cluster-
+ing to obtain a set of clusters. Recent studies
+suggest that graphs often exhibit a hierarchi-
+cal structure that goes beyond simple flat clus-
+tering. This paper presents an unsupervised
+method for inferring the hierarchical group-
+ing of the senses of a polysemous word. The
+inferred hierarchical structures are applied to
+the problem of word sense disambiguation,
+where we show that our method performs sig-
+nificantly better than traditional graph-based
+methods and agglomerative clustering yield-
+ing improvements over state-of-the-art WSD
+systems based on sense induction.
+1 

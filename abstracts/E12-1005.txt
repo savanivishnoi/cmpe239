@@ -1,0 +1,25 @@
+
+A major focus of current work in distri-
+butional models of semantics is to con-
+struct phrase representations composition-
+ally from word representations. However,
+the syntactic contexts which are modelled
+are usually severely limited, a fact which
+is reflected in the lexical-level WSD-like
+evaluation methods used. In this paper, we
+broaden the scope of these models to build
+sentence-level representations, and argue
+that phrase representations are best eval-
+uated in terms of the inference decisions
+that they support, invariant to the partic-
+ular syntactic constructions used to guide
+composition. We propose two evaluation
+methods in relation classification and QA
+which reflect these goals, and apply several
+recent compositional distributional models
+to the tasks. We find that the models out-
+perform a simple lemma overlap baseline
+slightly, demonstrating that distributional
+approaches can already be useful for tasks
+requiring deeper inference.
+1 

@@ -1,0 +1,32 @@
+
+We report on the development of a new au-
+tomatic feedback model to improve informa-
+tion retrieval in digital libraries. Our hy-
+pothesis is that some particular sentences,
+selected based on argumentative criteria,
+can be more useful than others to perform
+well-known feedback information retrieval
+tasks. The argumentative model we ex-
+plore is based on four disjunct classes, which
+has been very regularly observed in scien-
+tific reports: PURPOSE, METHODS, RE-
+SULTS, CONCLUSION. To test this hy-
+pothesis, we use the Rocchio algorithm as
+baseline. While Rocchio selects the fea-
+tures to be added to the original query
+based on statistical evidence, we propose
+to base our feature selection also on argu-
+mentative criteria. Thus, we restrict the ex-
+pansion on features appearing only in sen-
+tences classified into one of our argumen-
+tative categories. Our results, obtained on
+the OHSUMED collection, show a signifi-
+cant improvement when expansion is based
+on PURPOSE (mean average precision =
++23%) and CONCLUSION (mean average
+precision = +41%) contents rather than on
+other argumentative contents. These results
+suggest that argumentation is an important
+linguistic dimension that could benefit in-
+formation retrieval.
+1 

@@ -1,0 +1,15 @@
+ 
+The GREC-MSR task is to generate appropri-
+ate references to an entity in the context of a 
+piece of discourse longer than a sentence. In 
+MSR ?09 run of this task, the main aim is to 
+select the actual main subject reference 
+(MSR) from a list of given referential expres-
+sions that is appropriate in context. We used a 
+machine learning approach augmented with 
+some rules to select the most appropriate ref-
+erential expression. Our approach uses the 
+training set for learning and then combines 
+some of the rules found by observation to im-
+prove the system. 
+1 

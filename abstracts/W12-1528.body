@@ -1,0 +1,22 @@
+
+We describe a new shared task on syntac-
+tic paraphrase ranking that is intended to run
+in conjunction with the main surface real-
+ization shared task. Taking advantage of
+the human judgments collected to evaluate
+the surface realizations produced by com-
+peting systems, the task is to automatically
+rank these realizations?viewed as syntactic
+paraphrases?in a way that agrees with the hu-
+man judgments as often as possible. The task
+is designed to appeal to developers of surface
+realization systems as well as machine transla-
+tion evaluation metrics: for surface realization
+systems, the task sidesteps the thorny issue of
+converting inputs to a common representation;
+for MT evaluation metrics, the task provides
+a challenging framework for advancing auto-
+matic evaluation, as many of the paraphrases
+are expected to be of high quality, differing
+only in subtle syntactic choices.
+1 

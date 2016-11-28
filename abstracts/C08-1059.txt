@@ -1,0 +1,17 @@
+
+Active learning is a proven method for re-
+ducing the cost of creating the training sets
+that are necessary for statistical NLP. How-
+ever, there has been little work on stopping
+criteria for active learning. An operational
+stopping criterion is necessary to be able
+to use active learning in NLP applications.
+We investigate three different stopping cri-
+teria for active learning of named entity
+recognition (NER) and show that one of
+them, gradient-based stopping, (i) reliably
+stops active learning, (ii) achieves near-
+optimal NER performance, (iii) and needs
+only about 20% as much training data as
+exhaustive labeling.
+1 

@@ -1,0 +1,20 @@
+
+The past few years have seen an increasing
+interest in using Amazon?s Mechanical Turk
+for purposes of collecting data and perform-
+ing annotation tasks. One such task is the
+mass evaluation of system output in a variety
+of tasks. In this paper, we present MAISE,
+a package that allows researchers to evalu-
+ate the output of their AI system(s) using hu-
+man judgments collected via Amazon?s Me-
+chanical Turk, greatly streamlining the pro-
+cess. MAISE is open source, easy to run, and
+platform-independent. The core of MAISE?s
+codebase was used for the manual evaluation
+of WMT10, and the completed package is be-
+ing used again in the current evaluation for
+WMT11. In this paper, we describe the main
+features, functionality, and usage of MAISE,
+which is now available for download and use.
+1 

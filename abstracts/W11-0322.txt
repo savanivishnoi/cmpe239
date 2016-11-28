@@ -1,0 +1,29 @@
+
+We describe the extension and objective eval-
+uation of a network1 of semantically related
+noun senses (or concepts) that has been au-
+tomatically acquired by analyzing lexical co-
+occurrence in Wikipedia. The acquisition pro-
+cess makes no use of the metadata or links
+that have been manually built into the ency-
+clopedia, and nouns in the network are auto-
+matically disambiguated to their correspond-
+ing noun senses without supervision. For
+this task, we use the noun sense inventory of
+WordNet 3.0. Thus, this work can be con-
+ceived of as augmenting the WordNet noun
+ontologywith unweighted, undirected related-
+to edges between synsets. Our network con-
+tains 208,832 such edges.
+We evaluate our network?s performance on a
+word sense disambiguation (WSD) task and
+show: a) the network is competitive with
+WordNet when used as a stand-alone knowl-
+edge source for two WSD algorithms; b) com-
+bining our network with WordNet achieves
+disambiguation results that exceed the perfor-
+mance of either resource individually; and c)
+our network outperforms a similar resource
+that has been automatically derived from se-
+mantic annotations in the Wikipedia corpus.
+1 

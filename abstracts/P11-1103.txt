@@ -1,0 +1,24 @@
+
+One of the major challenges facing statistical
+machine translation is how to model differ-
+ences in word order between languages. Al-
+though a great deal of research has focussed
+on this problem, progress is hampered by the
+lack of reliable metrics. Most current metrics
+are based on matching lexical items in the
+translation and the reference, and their abil-
+ity to measure the quality of word order has
+not been demonstrated. This paper presents
+a novel metric, the LRscore, which explic-
+itly measures the quality of word order by
+using permutation distance metrics. We show
+that the metric is more consistent with human
+judgements than other metrics, including the
+BLEU score. We also show that the LRscore
+can successfully be used as the objective func-
+tion when training translation model parame-
+ters. Training with the LRscore leads to output
+which is preferred by humans. Moreover, the
+translations incur no penalty in terms of BLEU
+scores.
+1 

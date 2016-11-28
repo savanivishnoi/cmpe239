@@ -1,0 +1,23 @@
+
+The quality of automatic translation is af-
+fected by many factors. One is the diver-
+gence between the specific source and tar-
+get languages. Another lies in the source
+text itself, as some texts are more com-
+plex than others. One way to handle such
+texts is to modify them prior to transla-
+tion. Yet, an important factor that is of-
+ten overlooked is the source translatabil-
+ity with respect to the specific translation
+system and the specific model that are be-
+ing used. In this paper we present an in-
+teractive system where source modifica-
+tions are induced by confidence estimates
+that are derived from the translation model
+in use. Modifications are automatically
+generated and proposed for the user?s ap-
+proval. Such a system can reduce post-
+editing effort, replacing it by cost-effective
+pre-editing that can be done by monolin-
+guals.
+1 

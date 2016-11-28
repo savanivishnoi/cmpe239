@@ -1,0 +1,12 @@
+
+We describe our system for the translation
+task of WMT 2010. This system, devel-
+oped for the English-French and French-
+English directions, is based on Moses and
+was trained using only the resources sup-
+plied for the workshop. We report exper-
+iments to enhance it with out-of-domain
+parallel corpora sub-sampling, N-best list
+post-processing and a French grammatical
+checker.
+1 

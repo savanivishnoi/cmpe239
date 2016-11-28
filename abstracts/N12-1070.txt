@@ -1,0 +1,25 @@
+
+This paper reports on an implementation of a
+multimodal grammar of speech and co-speech
+gesture within the LKB/PET grammar engi-
+neering environment. The implementation ex-
+tends the English Resource Grammar (ERG,
+Flickinger (2000)) with HPSG types and rules
+that capture the form of the linguistic signal,
+the form of the gestural signal and their rel-
+ative timing to constrain the meaning of the
+multimodal action. The grammar yields a sin-
+gle parse tree that integrates the spoken and
+gestural modality thereby drawing on stan-
+dard semantic composition techniques to de-
+rive the multimodal meaning representation.
+Using the current machinery, the main chal-
+lenge for the grammar engineer is the non-
+linear input: the modalities can overlap tem-
+porally. We capture this by identical speech
+and gesture token edges. Further, the semantic
+contribution of gestures is encoded by lexical
+rules transforming a speech phrase into a mul-
+timodal entity of conjoined spoken and gestu-
+ral semantics.
+1 

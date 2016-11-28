@@ -1,0 +1,11 @@
+
+We describe a biological event detec-
+tion method implemented for the Genia
+Event Extraction task of BioNLP 2013.
+The method relies on syntactic depen-
+dency relations provided by a general NLP
+pipeline, supported by statistics derived
+from Maximum Entropy models for can-
+didate trigger words, for potential argu-
+ments, and for argument frames.
+1 

@@ -1,0 +1,15 @@
+
+Optimising for one grammatical representa-
+tion, but evaluating over a different one is
+a particular challenge for parsers and n-best
+CCG parsing. We find that this mismatch
+causes many n-best CCG parses to be semanti-
+cally equivalent, and describe a hashing tech-
+nique that eliminates this problem, improving
+oracle n-best F-score by 0.7% and reranking
+accuracy by 0.4%. We also present a compre-
+hensive analysis of errors made by the C&C
+CCG parser, providing the first breakdown of
+the impact of implementation decisions, such
+as supertagging, on parsing accuracy.
+1 

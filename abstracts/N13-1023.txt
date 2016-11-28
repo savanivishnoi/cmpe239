@@ -1,0 +1,28 @@
+
+The study presented in this work is a first ef-
+fort at real-time speech translation of TED
+talks, a compendium of public talks with dif-
+ferent speakers addressing a variety of top-
+ics. We address the goal of achieving a sys-
+tem that balances translation accuracy and la-
+tency. In order to improve ASR performance
+for our diverse data set, adaptation techniques
+such as constrained model adaptation and vo-
+cal tract length normalization are found to be
+useful. In order to improve machine transla-
+tion (MT) performance, techniques that could
+be employed in real-time such as monotonic
+and partial translation retention are found to
+be of use. We also experiment with inserting
+text segmenters of various types between ASR
+and MT in a series of real-time translation ex-
+periments. Among other results, our experi-
+ments demonstrate that a good segmentation
+is useful, and a novel conjunction-based seg-
+mentation strategy improves translation qual-
+ity nearly as much as other strategies such
+as comma-based segmentation. It was also
+found to be important to synchronize various
+pipeline components in order to minimize la-
+tency.
+1 

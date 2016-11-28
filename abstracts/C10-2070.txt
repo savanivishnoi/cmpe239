@@ -1,0 +1,20 @@
+
+We present a new method, based on
+graph theory, for bilingual lexicon ex-
+traction without relying on resources with
+limited availability like parallel corpora.
+The graphs we use represent linguis-
+tic relations between words such as ad-
+jectival modification. We experiment
+with a number of ways of combining
+different linguistic relations and present
+a novel method, multi-edge extraction
+(MEE), that is both modular and scalable.
+We evaluate MEE on adjectives, verbs
+and nouns and show that it is superior
+to cooccurrence-based extraction (which
+does not use linguistic analysis). Finally,
+we publish a reproducible baseline to es-
+tablish an evaluation benchmark for bilin-
+gual lexicon extraction.
+1 

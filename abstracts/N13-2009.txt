@@ -1,0 +1,24 @@
+
+We examine the application of data-driven
+paraphrasing to natural language understand-
+ing. We leverage bilingual parallel corpora
+to extract a large collection of syntactic para-
+phrase pairs, and introduce an adaptation
+scheme that allows us to tackle a variety of
+text transformation tasks via paraphrasing. We
+evaluate our system on the sentence compres-
+sion task. Further, we use distributional sim-
+ilarity measures based on context vectors de-
+rived from large monolingual corpora to anno-
+tate our paraphrases with an orthogonal source
+of information. This yields significant im-
+provements in our compression system?s out-
+put quality, achieving state-of-the-art perfor-
+mance. Finally, we propose a refinement of
+our paraphrases by classifying them into nat-
+ural logic entailment relations. By extend-
+ing the synchronous parsing paradigm towards
+these entailment relations, we will enable our
+system to perform recognition of textual en-
+tailment.
+1 

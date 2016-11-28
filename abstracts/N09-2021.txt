@@ -1,0 +1,17 @@
+
+The automatic identification of prosodic
+events such as pitch accent in English has long
+been a topic of interest to speech researchers,
+with applications to a variety of spoken lan-
+guage processing tasks. However, much re-
+mains to be understood about the best meth-
+ods for obtaining high accuracy detection. We
+describe experiments examining the optimal
+domain for accent analysis. Specifically, we
+compare pitch accent identification at the syl-
+lable, vowel or word level as domains for anal-
+ysis of acoustic indicators of accent. Our re-
+sults indicate that a word-based approach is
+superior to syllable- or vowel-based detection,
+achieving an accuracy of 84.2%.
+1 

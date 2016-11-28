@@ -1,0 +1,12 @@
+
+This paper describes a chunk-based parser/semantic
+analyzer used by a language learning model. The
+language learning model requires an analyzer that
+robustly responds to extragrammaticality, ungram-
+maticality and other problems associated with tran-
+scribed language. The analyzer produces globally
+coherent analyses by semantically integrating the
+partial parses. Each resulting semantically inte-
+grated analysis is ranked by its semantic compati-
+bility using a novel metric called semantic density.
+1 

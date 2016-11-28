@@ -1,0 +1,17 @@
+
+Statistical machine translation is often faced
+with the problem of combining training data
+from many diverse sources into a single trans-
+lation model which then has to translate sen-
+tences in a new domain. We propose a novel
+approach, ensemble decoding, which com-
+bines a number of translation systems dynam-
+ically at the decoding step. In this paper,
+we evaluate performance on a domain adap-
+tation setting where we translate sentences
+from the medical domain. Our experimental
+results show that ensemble decoding outper-
+forms various strong baselines including mix-
+ture models, the current state-of-the-art for do-
+main adaptation in machine translation.
+1 

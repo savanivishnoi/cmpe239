@@ -1,0 +1,24 @@
+ 
+The graph-based ranking algorithm has been 
+recently exploited for multi-document sum-
+marization by making only use of the sen-
+tence-to-sentence relationships in the 
+documents, under the assumption that all the 
+sentences are indistinguishable. However, 
+given a document set to be summarized, dif-
+ferent documents are usually not equally im-
+portant, and moreover, different sentences in a 
+specific document are usually differently im-
+portant. This paper aims to explore document 
+impact on summarization performance. We 
+propose a document-based graph model to in-
+corporate the document-level information and 
+the sentence-to-document relationship into the 
+graph-based ranking process. Various meth-
+ods are employed to evaluate the two factors.  
+Experimental results on the DUC2001 and 
+DUC2002 datasets demonstrate that the good 
+effectiveness of the proposed model. More-
+over, the results show the robustness of the 
+proposed model. 
+1 

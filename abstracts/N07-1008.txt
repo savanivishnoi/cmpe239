@@ -1,0 +1,27 @@
+
+This paper presents a maximum entropy ma-
+chine translation system using a minimal set
+of translation blocks (phrase-pairs). While
+recent phrase-based statistical machine trans-
+lation (SMT) systems achieve significant im-
+provement over the original source-channel sta-
+tistical translation models, they 1) use a large
+inventory of blocks which have significant over-
+lap and 2) limit the use of training to just a
+few parameters (on the order of ten). In con-
+trast, we show that our proposed minimalist
+system (DTM2) achieves equal or better per-
+formance by 1) recasting the translation prob-
+lem in the traditional statistical modeling ap-
+proach using blocks with no overlap and 2) re-
+lying on training most system parameters (on
+the order of millions or larger). The new model
+is a direct translation model (DTM) formu-
+lation which allows easy integration of addi-
+tional/alternative views of both source and tar-
+get sentences such as segmentation for a source
+language such as Arabic, part-of-speech of both
+source and target, etc. We show improvements
+over a state-of-the-art phrase-based decoder in
+Arabic-English translation.
+1 

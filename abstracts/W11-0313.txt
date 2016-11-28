@@ -1,0 +1,24 @@
+
+Feature feedback is an alternative to instance
+labeling when seeking supervision from hu-
+man experts. Combination of instance and
+feature feedback has been shown to reduce the
+total annotation cost for supervised learning.
+However, learning problems may not benefit
+equally from feature feedback. It is well un-
+derstood that the benefit from feature feed-
+back reduces as the amount of training data
+increases. We show that other characteristics
+such as domain, instance granularity, feature
+space, instance selection strategy and propor-
+tion of relevant text, have a significant effect
+on benefit from feature feedback. We estimate
+the maximum benefit feature feedback may
+provide; our estimate does not depend on how
+the feedback is solicited and incorporated into
+the model. We extend the complexity mea-
+sures proposed in the literature and propose
+some new ones to categorize learning prob-
+lems, and find that they are strong indicators
+of the benefit from feature feedback.
+1 

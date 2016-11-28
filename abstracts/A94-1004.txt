@@ -1,0 +1,32 @@
+ 
+A new technique to locate content-represent- 
+ing words for a given document image using 
+abstract representation f character shapes is 
+described. A character shape code representa- 
+tion defined by the location of a character in a 
+text line has been developed. Character shape 
+code generation avoids the computational 
+expense of conventional optical character rec- 
+ognition (OCR). Because character shape 
+codes are an abstraction of standard character 
+code (e.g., ASCII), the mapping is ambiguous. 
+In this paper, the ambiguity is shown to be 
+practically limited to an acceptable vel. It is 
+illustrated that: first, punctuation marks are 
+clearly distinguished from the other charac- 
+ters; second, stop words are generally distin- 
+guishable from other words, because the 
+permutations of character shape codes in func- 
+tion words are characteristically different from 
+those in content words; and third, numerals 
+and acronyms in capital letters are distinguish- 
+able from other words. With these clAssifica- 
+tions, potential content-representing words are 
+identified, and an analysis of their distribution 
+yields their rank. Consequently, introducing 
+character shape codes makes it possible to 
+inexpensively and robustly bridge the gap 
+between electronic documents and hard-copy 
+documents for the purpose of content identifi- 
+cation. 
+1 

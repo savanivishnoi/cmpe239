@@ -1,0 +1,21 @@
+
+This document describes the prelimi-
+nary release of the integrated Kyoto sys-
+tem for specific domain WSD. The sys-
+tem uses concept miners (Tybots) to ex-
+tract domain-related terms and produces
+a domain-related thesaurus, followed by
+knowledge-based WSD based on word-
+net graphs (UKB). The resulting system
+can be applied to any language with a
+lexical knowledge base, and is based on
+publicly available software and resources.
+Our participation in Semeval task #17 fo-
+cused on producing running systems for
+all languages in the task, and we attained
+good results in all except Chinese. Due
+to the pressure of the time-constraints in
+the competition, the system is still under
+development, and we expect results to im-
+prove in the near future.
+1 

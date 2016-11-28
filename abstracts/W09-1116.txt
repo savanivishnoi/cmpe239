@@ -1,0 +1,27 @@
+
+English pronouns like he and they reliably re-
+flect the gender and number of the entities to
+which they refer. Pronoun resolution systems
+can use this fact to filter noun candidates that
+do not agree with the pronoun gender. In-
+deed, broad-coverage models of noun gender
+have proved to be the most important source
+of world knowledge in automatic pronoun res-
+olution systems.
+Previous approaches predict gender by count-
+ing the co-occurrence of nouns with pronouns
+of each gender class. While this provides use-
+ful statistics for frequent nouns, many infre-
+quent nouns cannot be classified using this
+method. Rather than using co-occurrence in-
+formation directly, we use it to automatically
+annotate training examples for a large-scale
+discriminative gender model. Our model col-
+lectively classifies all occurrences of a noun
+in a document using a wide variety of con-
+textual, morphological, and categorical gender
+features. By leveraging large volumes of un-
+labeled data, our full semi-supervised system
+reduces error by 50% over the existing state-
+of-the-art in gender classification.
+1 

@@ -1,0 +1,18 @@
+
+We present a substitution-only approach to
+sentence compression which ?tightens? a sen-
+tence by reducing its character length. Replac-
+ing phrases with shorter paraphrases yields
+paraphrastic compressions as short as 60% of
+the original length. In support of this task,
+we introduce a novel technique for re-ranking
+paraphrases extracted from bilingual corpora.
+At high compression rates1 paraphrastic com-
+pressions outperform a state-of-the-art dele-
+tion model in an oracle experiment. For fur-
+ther compression, deleting from oracle para-
+phrastic compressions preserves more mean-
+ing than deletion alone. In either setting, para-
+phrastic compression shows promise for sur-
+passing deletion-only methods.
+1 

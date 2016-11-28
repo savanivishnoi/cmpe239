@@ -1,0 +1,68 @@
+ 
+NL-Soar is a computer system that performs language com- 
+prehension and generation within the framework of the Soar 
+architecture \[New90\]. NL-Soar provides language capabilities 
+for systems working in a real-time nvironment. Responding in
+real time to changing situations requires aflexible way to shift 
+control between language and task operations. To provide this 
+flexibility, NL-Soar organizes generation as a sequence of in- 
+cremental steps that can be interleaved with task actions as the 
+situation requires. This capability has been demonstrated via 
+the integration of NL-Soar with two different independently- 
+developed Soar-based systems. 
+1 Real-time generation and NL-Soar 
+NL-Soar is a language comprehension a d generation facility 
+designed to provide integrated real-time 1 language capabilities 
+for other systems built within the Soar architecture \[New90\]. 
+In particular, this requires integrating NL-Soar's generation 
+subsystem with other task(s) that Soar is performing. 2 One 
+possible way to achieve this integration would be to use gen- 
+eration as a kind of "back end" which other task(s) can call 
+as a subroutine whenever they need to say something. This 
+approach is widely used in applications such as database query 
+systems or expert systems, where the main system invokes the 
+generator to express the answer to a query or to explain some 
+aspect of its reasoning or conclusions. 
+In applications that need to provide real-time behavior, 
+though, this "subroutine" approach is problematic. There is 
+no way for the task to interrupt generation i  order to handle 
+some other (perhaps urgent) work. In addition, if generation is
+an unbounded process, it may proceed to complete an utterance 
+that may have become unnecessary oreven harmful because of 
+changes in the situation; the task has no way to modify what it 
+wants to say once generation has been invoked. While the task 
+could of course simply stop NL-Soar in either of these cases, 
+I NL-Soar is being used in applications that perform inboth simulated and 
+actual real-time environments. 
+2Similar issues arise in NL-Soar's language comprehension subsystem, 
+which is not described here; see \[LLN91, Lew93\] for a discussion ofthis part 
+of NL-Soar. 
+there is no way to guarantee that generation will be interrupted 
+in a state from which it can recover if reinvoked later. 
+Furthermore, the problem isn't simply one of the speed of 
+generation; using faster processors to run Soar won't eliminate 
+the difficulties. It might seem that we could simply assume 
+NL-Soar can run fast enough to finish constructing an utterance 
+before the task has time to do anything else, this is not the case. 
+First, generation is potentially unbounded; no matter how fast 
+a computer is used, there will still be occasions when NL-Soar 
+takes longer than the task can afford to wait. More significantly, 
+this assumes that NL-Soar can absorb all the speedup; this is 
+not reasonable. If  we have faster processors, we want all the 
+tasks to share the speedup equally; a faster NL-Soar will be 
+invoked by a task that can respond more quickly as well, and 
+will thus want to interrupt NL-Soar more quickly. 
+The underlying difficulty with the subroutine approach is 
+that generation can take an unbounded amount of time; in a 
+real-time situation, we need to guarantee that generation can't 
+prevent he task from responding promptly to changes in the 
+situation. Generation must be incremental and interruptible. 
+NL-Soar accomplishes this by dividing generation into small 
+steps that Can be interleaved with task steps. In cases where 
+the small steps can't be directly carried out and require more 
+complex computation, the sub-steps are designed so that inter- 
+ruptions leave the system in a clean state (although some work 
+may be lost and need to be redone). This allows NL-Soar to 
+operate without limiting the task's ability to respond to things 
+that happen during generation, and vice versa. 
+2 A Brief 

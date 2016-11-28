@@ -1,0 +1,17 @@
+ 
+Srinivas (97) enriches traditional 
+morpho-syntactic POS tagging with 
+syntactic information by introducing 
+Supertags. Unfortunately, words are 
+assigned on average a much higher number 
+of Supertags than traditional POS. In this 
+paper, we develop the notion of Hypertag, 
+first introduced in Kinyon (00a) and in 
+Kinyon (00b), which allows to factor the 
+information contained in ~everal Supertags 
+into a single structure and to encode 
+flmctional information in a systematic 
+lnanner. We show why other possible 
+solutions based on mathematical properties 
+of trees are unsatisfactory and also discuss 
+the practical usefulness of this approach. 

@@ -1,0 +1,18 @@
+
+This paper presents two minimum Bayes
+risk (MBR) based Answer Re-ranking
+(MBRAR) approaches for the question
+answering (QA) task. The first approach
+re-ranks single QA system?s outputs by
+using a traditional MBR model, by mea-
+suring correlations between answer can-
+didates; while the second approach re-
+ranks the combined outputs of multiple
+QA systems with heterogenous answer ex-
+traction components by using a mixture
+model-based MBR model. Evaluation-
+s are performed on factoid questions se-
+lected from two different domains: Jeop-
+ardy! and Web, and significant improve-
+ments are achieved on all data sets.
+1 

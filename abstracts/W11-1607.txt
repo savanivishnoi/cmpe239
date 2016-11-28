@@ -1,0 +1,19 @@
+
+We present a system for fusing sentences
+which are drawn from the same source docu-
+ment but have different content. Unlike previ-
+ous work, our approach is supervised, training
+on real-world examples of sentences fused by
+professional journalists in the process of edit-
+ing news articles. Like Filippova and Strube
+(2008), our system merges dependency graphs
+using Integer Linear Programming. However,
+instead of aligning the inputs as a preprocess,
+we integrate the tasks of finding an alignment
+and selecting a merged sentence into a joint
+optimization problem, and learn parameters
+for this optimization using a structured online
+algorithm. Evaluation by human judges shows
+that our technique produces fused sentences
+that are both informative and readable.
+1 

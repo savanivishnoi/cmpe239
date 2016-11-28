@@ -1,0 +1,21 @@
+
+We present a general and simple method to
+adapt an existing NLP tool in order to enable
+it to deal with historical varieties of languages.
+This approach consists basically in expanding
+the dictionary with the old word variants and
+in retraining the tagger with a small training
+corpus. We implement this approach for Old
+Spanish.
+The results of a thorough evaluation over the
+extended tool show that using this method
+an almost state-of-the-art performance is ob-
+tained, adequate to carry out quantitative stud-
+ies in the humanities: 94.5% accuracy for the
+main part of speech and 92.6% for lemma. To
+our knowledge, this is the first time that such
+a strategy is adopted to annotate historical lan-
+guage varieties and we believe that it could be
+used as well to deal with other non-standard
+varieties of languages.
+1 

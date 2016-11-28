@@ -1,0 +1,36 @@
+
+This study presents a novel method that
+measures English language learners? syntac-
+tic competence towards improving automated
+speech scoring systems. In contrast to most
+previous studies which focus on the length of
+production units such as the mean length of
+clauses, we focused on capturing the differ-
+ences in the distribution of morpho-syntactic
+features or grammatical expressions across
+proficiency. We estimated the syntactic com-
+petence through the use of corpus-based NLP
+techniques. Assuming that the range and so-
+phistication of grammatical expressions can
+be captured by the distribution of Part-of-
+Speech (POS) tags, vector space models of
+POS tags were constructed. We use a large
+corpus of English learners? responses that are
+classified into four proficiency levels by hu-
+man raters. Our proposed feature measures
+the similarity of a given response with the
+most proficient group and is then estimates the
+learner?s syntactic competence level.
+Widely outperforming the state-of-the-art
+measures of syntactic complexity, our method
+attained a significant correlation with human-
+rated scores. The correlation between human-
+rated scores and features based on manual
+transcription was 0.43 and the same based on
+ASR-hypothesis was slightly lower, 0.42. An
+important advantage of our method is its ro-
+bustness against speech recognition errors not
+to mention the simplicity of feature genera-
+tion that captures a reasonable set of learner-
+specific syntactic errors.
+1 

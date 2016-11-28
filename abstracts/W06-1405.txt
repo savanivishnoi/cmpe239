@@ -1,0 +1,21 @@
+
+It would be useful to enable dialogue
+agents to project, through linguistic
+means, their individuality or personality.
+Equally, each member of a pair of agents
+ought to adjust its language (to a greater or
+lesser extent) to match that of its interlocu-
+tor. We describe CRAG, which generates
+dialogues between pairs of agents, who are
+linguistically distinguishable, but able to
+align. CRAG-2 makes use of OPENCCG
+and an over-generation and ranking ap-
+proach, guided by a set of language mod-
+els covering both personality and align-
+ment. We illustrate with examples of out-
+put, and briefly note results from user stud-
+ies with the earlier CRAG-1, indicating
+how CRAG-2 will be further evaluated.
+Related work is discussed, along with cur-
+rent limitations and future directions.
+1 

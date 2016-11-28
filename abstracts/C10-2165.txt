@@ -1,0 +1,20 @@
+ 
+This paper presents two pivot strategies 
+for statistical machine transliteration, 
+namely system-based pivot strategy 
+and model-based pivot strategy. Given 
+two independent source-pivot and pi-
+vot-target name pair corpora, the mod-
+el-based strategy learns a direct source-
+target transliteration model while the 
+system-based strategy learns a source-
+pivot model and a pivot-target model, 
+respectively. Experimental results on 
+benchmark data show that the system-
+based pivot strategy is effective in re-
+ducing the high resource requirement 
+of training corpus for low-density lan-
+guage pairs while the model-based pi-
+vot strategy performs worse than the 
+system-based one. 
+1 

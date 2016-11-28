@@ -1,0 +1,14 @@
+
+This paper examines feature selection for log linear
+models over rich constraint-based grammar (HPSG)
+representations by building decision trees over fea-
+tures in corresponding probabilistic context free
+grammars (PCFGs). We show that single decision
+trees do not make optimal use of the available in-
+formation; constructed ensembles of decision trees
+based on different feature subspaces show signifi-
+cant performance gains (14% parse selection error
+reduction). We compare the performance of the
+learned PCFG grammars and log linear models over
+the same features.
+1 

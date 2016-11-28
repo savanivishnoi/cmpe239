@@ -1,0 +1,28 @@
+ 
+In Cross Language Information Retrieval 
+(CLIR), query terms can be translated to 
+the document language using Bilingual 
+Dictionaries (BDs) or Statistical Transla-
+tion Models (STMs). Combining different 
+translation resources can also be used to 
+improve the performance. Unfortunately, 
+the most studies on combining multiple re-
+sources use simple methods such as linear 
+combination. In this paper, we drew up a 
+comparative study between linear combina-
+tion and confidence measures to combine 
+multiple translation resources for the pur-
+pose of CLIR. We show that the linear 
+combination method is unable to combine 
+correctly different types of resources such 
+as BDs and STMs. While the confidence 
+measure method is able to re-weight the 
+translation candidate more radically than in 
+linear combination. It reconsiders each 
+translation candidate proposed by different 
+resources with respect to additional fea-
+tures. We tested the two methods on differ-
+ent test CLIR collections and the results 
+show that the confidence measure outper-
+forms the linear combination method. 
+1 

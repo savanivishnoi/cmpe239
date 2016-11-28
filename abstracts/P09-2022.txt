@@ -1,0 +1,17 @@
+
+This paper presents a predicate-argument
+structure analysis that simultaneously con-
+ducts zero-anaphora resolution. By adding
+noun phrases as candidate arguments that
+are not only in the sentence of the target
+predicate but also outside of the sentence,
+our analyzer identifies arguments regard-
+less of whether they appear in the sen-
+tence or not. Because we adopt discrimi-
+native models based on maximum entropy
+for argument identification, we can easily
+add new features. We add language model
+scores as well as contextual features. We
+also use contextual information to restrict
+candidate arguments.
+1 

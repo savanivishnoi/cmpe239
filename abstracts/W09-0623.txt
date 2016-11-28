@@ -1,0 +1,18 @@
+
+The content selection component of a nat-
+ural language generation system decides
+which information should be communi-
+cated in its output. We use informa-
+tion from reports on the game of cricket.
+We first describe a simple factoid-to-text
+alignment algorithm then treat content se-
+lection as a collective classification prob-
+lem and demonstrate that simple ?group-
+ing? of statistics at various levels of granu-
+larity yields substantially improved results
+over a probabilistic baseline. We addi-
+tionally show that holding back of specific
+types of input data, and linking database
+structures with commonality further in-
+crease performance.
+1 

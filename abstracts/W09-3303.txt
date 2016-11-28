@@ -1,0 +1,23 @@
+
+Wiktionary, a satellite of the Wikipedia
+initiative, can be seen as a potential re-
+source for Natural Language Processing.
+It requires however to be processed be-
+fore being used efficiently as an NLP re-
+source. After describing the relevant as-
+pects of Wiktionary for our purposes, we
+focus on its structural properties. Then,
+we describe how we extracted synonymy
+networks from this resource. We pro-
+vide an in-depth study of these synonymy
+networks and compare them to those ex-
+tracted from traditional resources. Fi-
+nally, we describe two methods for semi-
+automatically improving this network by
+adding missing relations: (i) using a kind
+of semantic proximity measure; (ii) using
+translation relations of Wiktionary itself.
+Note: The experiments of this paper are based on Wik-
+tionary?s dumps downloaded in year 2008. Differences may
+be observed with the current versions available online.
+1 

@@ -1,0 +1,18 @@
+
+We present a family of priors over probabilis-
+tic grammar weights, called the shared logistic
+normal distribution. This family extends the
+partitioned logistic normal distribution, en-
+abling factored covariance between the prob-
+abilities of different derivation events in the
+probabilistic grammar, providing a new way
+to encode prior knowledge about an unknown
+grammar. We describe a variational EM al-
+gorithm for learning a probabilistic grammar
+based on this family of priors. We then experi-
+ment with unsupervised dependency grammar
+induction and show significant improvements
+using our model for both monolingual learn-
+ing and bilingual learning with a non-parallel,
+multilingual corpus.
+1 

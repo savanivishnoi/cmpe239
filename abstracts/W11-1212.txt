@@ -1,0 +1,21 @@
+
+While several recent works on dealing with
+large bilingual collections of texts, e.g. (Smith
+et al, 2010), seek for extracting parallel sen-
+tences from comparable corpora, we present
+PARADOCS, a system designed to recognize
+pairs of parallel documents in a (large) bilin-
+gual collection of texts. We show that this
+system outperforms a fair baseline (Enright
+and Kondrak, 2007) in a number of con-
+trolled tasks. We applied it on the French-
+English cross-language linked article pairs of
+Wikipedia in order see whether parallel ar-
+ticles in this resource are available, and if
+our system is able to locate them. Accord-
+ing to some manual evaluation we conducted,
+a fourth of the article pairs in Wikipedia are
+indeed in translation relation, and PARADOCS
+identifies parallel or noisy parallel article pairs
+with a precision of 80%.
+1 

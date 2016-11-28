@@ -1,0 +1,22 @@
+
+A large body of prior research on coref-
+erence resolution recasts the problem as
+a two-class classification problem. How-
+ever, standard supervised machine learn-
+ing algorithms that minimize classifica-
+tion errors on the training instances do not
+always lead to maximizing the F-measure
+of the chosen evaluation metric for coref-
+erence resolution. In this paper, we pro-
+pose a novel approach comprising the use
+of instance weighting and beam search to
+maximize the evaluation metric score on
+the training corpus during training. Ex-
+perimental results show that this approach
+achieves significant improvement over the
+state-of-the-art. We report results on stan-
+dard benchmark corpora (two MUC cor-
+pora and three ACE corpora), when evalu-
+ated using the link-based MUC metric and
+the mention-based B-CUBED metric.
+1 

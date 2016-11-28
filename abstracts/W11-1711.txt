@@ -1,0 +1,30 @@
+
+In this paper, we focus on the impressions that
+people gain from reading articles in Japanese
+newspapers, and we propose a method for
+extracting and quantifying these impressions
+in real numbers. The target impressions are
+limited to those represented by three bipo-
+lar scales, ?Happy ? Sad,? ?Glad ? Angry,?
+and ?Peaceful ? Strained,? and the strength of
+each impression is computed as a real num-
+ber between 1 and 7. First, we implement a
+method for computing impression values of
+articles using an impression lexicon. This
+lexicon represents a correlation between the
+words appearing in articles and the influence
+of these words on the readers? impressions,
+and is created from a newspaper database us-
+ing a word co-occurrence based method. We
+considered that some gaps would occur be-
+tween values computed by such an unsuper-
+vised method and those judged by the readers,
+and we conducted experiments with 900 sub-
+jects to identify what gaps actually occurred.
+Consequently, we propose a new approach
+that uses regression equations to correct im-
+pression values computed by the method. Our
+investigation shows that accuracy is improved
+by a range of 23.2% to 42.7% by using regres-
+sion equations.
+1 

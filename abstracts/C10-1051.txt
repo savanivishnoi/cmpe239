@@ -1,0 +1,28 @@
+
+Phrase reordering is of great importance 
+for statistical machine translation. Ac-
+cording to the movement of phrase trans-
+lation, the pattern of phrase reordering 
+can be divided into three classes: mono-
+tone, BTG (Bracket Transduction 
+Grammar) and hierarchy. It is a good 
+way to use different styles of reordering 
+models to reorder different phrases ac-
+cording to the characteristics of both the 
+reordering models and phrases itself.  In 
+this paper a novel reordering model 
+based on multi-layer phrase (PRML) is 
+proposed, where the source sentence is 
+segmented into different layers of phras-
+es on which different reordering models 
+are applied to get the final translation.  
+This model has some advantages: differ-
+ent styles of phrase reordering models 
+are easily incorporated together; when a 
+complicated reordering model is em-
+ployed, it can be limited in a smaller 
+scope and replaced with an easier reor-
+dering model in larger scope. So this 
+model better trade-offs the translation 
+speed and performance simultaneously.  
+1 

@@ -1,0 +1,22 @@
+
+In this paper we describe the technical im-
+plementation of our system that participated
+in the Helping Our Own 2012 Shared Task
+(HOO-2012). The system employs a num-
+ber of preprocessing steps and machine learn-
+ing classifiers for correction of determiner and
+preposition errors in non-native English texts.
+We use maximum entropy classifiers trained
+on the provided HOO-2012 development data
+and a large high-quality English text collec-
+tion. The system proposes a number of highly-
+probable corrections, which are evaluated by a
+language model and compared with the origi-
+nal text. A number of deterministic rules are
+used to increase the precision and recall of the
+system. Our system is ranked among the three
+best performing HOO-2012 systems with a
+precision of 31.15%, recall of 22.08% and F1-
+score of 25.84% for correction of determiner
+and preposition errors combined.
+1 

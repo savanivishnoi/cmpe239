@@ -1,0 +1,20 @@
+
+We address the problem of classifying
+multiword expression tokens in running
+text. We focus our study on Verb-Noun
+Constructions (VNC) that vary in their id-
+iomaticity depending on context. VNC
+tokens are classified as either idiomatic
+or literal. Our approach hinges upon
+the assumption that a literal VNC will
+have more in common with its component
+words than an idiomatic one. Commonal-
+ity is measured by contextual overlap. To
+this end, we set out to explore different
+contextual variations and different similar-
+ity measures handling the sparsity in the
+possible contexts via four different param-
+eter variations. Our approach yields state
+of the art performance with an overall ac-
+curacy of 75.54% on a TEST data set.
+1 

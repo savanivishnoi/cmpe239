@@ -1,0 +1,20 @@
+
+We participated in the SENSEVAL-3 English lexi-
+cal sample task and multilingual lexical sample task.
+We adopted a supervised learning approach with
+Support Vector Machines, using only the official
+training data provided. No other external resources
+were used. The knowledge sources used were part-
+of-speech of neighboring words, single words in the
+surrounding context, local collocations, and syntac-
+tic relations. For the translation and sense subtask
+of the multilingual lexical sample task, the English
+sense given for the target word was also used as
+an additional knowledge source. For the English
+lexical sample task, we obtained fine-grained and
+coarse-grained score (for both recall and precision)
+of 0.724 and 0.788 respectively. For the multilin-
+gual lexical sample task, we obtained recall (and
+precision) of 0.634 for the translation subtask, and
+0.673 for the translation and sense subtask.
+1 

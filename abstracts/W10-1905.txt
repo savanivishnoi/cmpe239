@@ -1,0 +1,27 @@
+
+The extraction of bio-molecular events
+from text is an important task for a number
+of domain applications such as pathway
+construction. Several syntactic parsers
+have been used in Biomedical Natural
+Language Processing (BioNLP) applica-
+tions, and the BioNLP 2009 Shared Task
+results suggest that incorporation of syn-
+tactic analysis is important to achieving
+state-of-the-art performance. Direct com-
+parison of parsers is complicated by to dif-
+ferences in the such as the division be-
+tween phrase structure- and dependency-
+based analyses and the variety of output
+formats, structures and representations ap-
+plied. In this paper, we present a task-
+oriented comparison of five parsers, mea-
+suring their contribution to bio-molecular
+event extraction using a state-of-the-art
+event extraction system. The results show
+that the parsers with domain models using
+dependency formats provide very similar
+performance, and that an ensemble of dif-
+ferent parsers in different formats can im-
+prove the event extraction system.
+1 

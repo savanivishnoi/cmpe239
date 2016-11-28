@@ -1,0 +1,23 @@
+ 
+In the Fourth SIGHAN Bakeoff, we took 
+part in the closed tracks of the word 
+segmentation, part of speech (POS)  
+tagging and named entity recognition (NER) 
+tasks. Particularly, we evaluated our word 
+segmentation model on all the corpora, 
+namely Academia Sinica (CKIP), City 
+University of Hong Kong (CITYU), 
+University of Colorado (CTB), State 
+Language Commission of P.R.C. (NCC) 
+and Shanxi University (SXU). For POS 
+tagging and NER tasks, our models were 
+evaluated on CITYU corpus only. Our 
+models for the evaulation are based on the 
+maximum entropy approach, we 
+concentrated on the word segmentation 
+task for the bakeoff and our best official 
+results on all the corpora for this task are 
+0.9083 F-score on CITYU, 0.8985 on 
+CKIP, 0.9077 on CTB, 0.8995 on NCC and 
+0.9146 on SXU. 
+1 

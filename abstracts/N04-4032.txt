@@ -1,0 +1,12 @@
+
+The lack of sentence boundaries and presence of dis-
+fluencies pose difficulties for parsing conversational
+speech. This work investigates the effects of au-
+tomatically detecting these phenomena on a proba-
+bilistic parser?s performance. We demonstrate that a
+state-of-the-art segmenter, relative to a pause-based
+segmenter, gives more than 45% of the possible er-
+ror reduction in parser performance, and that presen-
+tation of interruption points to the parser improves
+performance over using sentence boundaries alone.
+1 

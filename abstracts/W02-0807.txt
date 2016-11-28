@@ -1,0 +1,19 @@
+
+For SENSEVAL-2, we disambiguated the lexical
+sample using two different sense inventories.
+Official SENSEVAL-2 results were generated
+using WordNet, and separately using the New
+Oxford Dictionary of English (NODE). Since
+our initial submission, we have implemented
+additional routines and have now examined the
+differences in the features used for making sense
+selections. We report here the contribution of
+default sense selection, idiomatic usage, syntactic
+and semantic clues, subcategorization patterns,
+word forms, syntactic usage, context, selectional
+preferences, and topics or subject fields. We also
+compare the differences between WordNet and
+NODE. Finally, we compare these features to
+those identified as significant in supervised
+learning approaches.
+1 

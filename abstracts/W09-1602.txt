@@ -1,0 +1,25 @@
+
+Most cross-lingual speech retrieval assumes
+intensive knowledge about all involved lan-
+guages. However, such resource may not ex-
+ist for some less popular languages. Some
+applications call for speech retrieval in un-
+known languages. In this work, we lever-
+age on a quasi-language-independent subword
+recognizer trained on multiple languages, to
+obtain an abstracted representation of speech
+data in an unknown language. Language-
+independent query expansion is achieved ei-
+ther by allowing a wide lattice output for an
+audio query, or by taking advantage of dis-
+tinctive features in speech articulation to pro-
+pose subwords most similar to the given sub-
+words in a query. We propose using a re-
+trieval model based on finite state machines
+for fuzzy matching of speech sound patterns,
+and further for speech retrieval. A pilot study
+of speech retrieval in unknown languages is
+presented, using English, Spanish and Russian
+as training languages, and Croatian as the un-
+known target language.
+1 

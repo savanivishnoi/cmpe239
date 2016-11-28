@@ -1,0 +1,22 @@
+
+This paper explores the use of set expan-
+sion (SE) to improve question answering (QA)
+when the expected answer is a list of entities
+belonging to a certain class. Given a small
+set of seeds, SE algorithms mine textual re-
+sources to produce an extended list including
+additional members of the class represented
+by the seeds. We explore the hypothesis that
+a noise-resistant SE algorithm can be used to
+extend candidate answers produced by a QA
+system and generate a new list of answers that
+is better than the original list produced by the
+QA system. We further introduce a hybrid ap-
+proach which combines the original answers
+from the QA system with the output from the
+SE algorithm. Experimental results for several
+state-of-the-art QA systems show that the hy-
+brid system performs better than the QA sys-
+tems alone when tested on list question data
+from past TREC evaluations.
+1 

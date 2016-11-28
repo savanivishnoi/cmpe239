@@ -1,0 +1,23 @@
+? 
+Most data-driven dependency parsing 
+approaches assume that sentence struc-
+ture is represented as trees. Although 
+trees have several desirable properties 
+from both computational and linguistic 
+perspectives, the structure of linguistic 
+phenomena that goes beyond shallow 
+syntax often cannot be fully captured by 
+tree representations.  We present a pars-
+ing approach that is nearly as simple as 
+current data-driven transition-based de-
+pendency parsing frameworks, but out-
+puts directed acyclic graphs (DAGs). We 
+demonstrate the benefits of DAG parsing 
+in two experiments where its advantages 
+over dependency tree parsing can be 
+clearly observed: predicate-argument 
+analysis of English and syntactic analysis 
+of Danish with a representation that in-
+cludes long-distance dependencies and 
+anaphoric reference links.  
+1 

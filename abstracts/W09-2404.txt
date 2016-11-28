@@ -1,0 +1,25 @@
+
+We revisit the one sense per discourse hypoth-
+esis of Gale et al in the context of machine
+translation. Since a given sense can be lex-
+icalized differently in translation, do we ob-
+serve one translation per discourse? Analy-
+sis of manual translations reveals that the hy-
+pothesis still holds when using translations in
+parallel text as sense annotation, thus con-
+firming that translational differences repre-
+sent useful sense distinctions. Analysis of
+Statistical Machine Translation (SMT) out-
+put showed that despite ignoring document
+structure, the one translation per discourse hy-
+pothesis is strongly supported in part because
+of the low variability in SMT lexical choice.
+More interestingly, cases where the hypoth-
+esis does not hold can reveal lexical choice
+errors. A preliminary study showed that en-
+forcing the one translation per discourse con-
+straint in SMT can potentially improve trans-
+lation quality, and that SMT systems might
+benefit from translating sentences within their
+entire document context.
+1 

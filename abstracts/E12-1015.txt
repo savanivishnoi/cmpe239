@@ -1,0 +1,14 @@
+
+In this paper we investigate the use of
+character-level translation models to sup-
+port the translation from and to under-
+resourced languages and textual domains
+via closely related pivot languages. Our ex-
+periments show that these low-level models
+can be successful even with tiny amounts
+of training data. We test the approach on
+movie subtitles for three language pairs and
+legal texts for another language pair in a do-
+main adaptation task. Our pivot translations
+outperform the baselines by a large margin.
+1 

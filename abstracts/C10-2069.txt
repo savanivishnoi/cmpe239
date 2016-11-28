@@ -1,0 +1,19 @@
+
+This paper presents the novel task of best
+topic word selection, that is the selection
+of the topic word that is the best label for
+a given topic, as a means of enhancing the
+interpretation and visualisation of topic
+models. We propose a number of features
+intended to capture the best topic word,
+and show that, in combination as inputs to
+a reranking model, we are able to consis-
+tently achieve results above the baseline of
+simply selecting the highest-ranked topic
+word. This is the case both when training
+in-domain over other labelled topics for
+that topic model, and cross-domain, us-
+ing only labellings from independent topic
+models learned over document collections
+from different domains and genres.
+1 

@@ -1,0 +1,25 @@
+
+We propose a novel approach to sentiment
+analysis for a low resource setting. The in-
+tuition behind this work is that sentiment
+expressed towards an entity, targeted senti-
+ment, may be viewed as a span of sentiment
+expressed across the entity. This represen-
+tation allows us to model sentiment detec-
+tion as a sequence tagging problem, jointly
+discovering people and organizations along
+with whether there is sentiment directed to-
+wards them. We compare performance in
+both Spanish and English on microblog data,
+using only a sentiment lexicon as an exter-
+nal resource. By leveraging linguistically-
+informed features within conditional random
+fields (CRFs) trained to minimize empiri-
+cal risk, our best models in Spanish signifi-
+cantly outperform a strong baseline, and reach
+around 90% accuracy on the combined task of
+named entity recognition and sentiment pre-
+diction. Our models in English, trained on a
+much smaller dataset, are not yet statistically
+significant against their baselines.
+1 

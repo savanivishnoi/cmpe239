@@ -1,0 +1,28 @@
+
+The identification of causal relations be-
+tween verbal events is important for
+achieving natural language understanding.
+However, the problem has proven notori-
+ously difficult since it is not clear which
+types of knowledge are necessary to solve
+this challenging problem close to human
+level performance. Instead of employing a
+large set of features proved useful in other
+NLP tasks, we split the problem in smaller
+sub problems. Since verbs play a very im-
+portant role in causal relations, in this pa-
+per we harness, explore, and evaluate the
+predictive power of causal associations of
+verb-verb pairs. More specifically, we pro-
+pose a set of knowledge-rich metrics to
+learn the likelihood of causal relations be-
+tween verbs. Employing these metrics, we
+automatically generate a knowledge base
+(KBc) which identifies three categories
+of verb pairs: Strongly Causal, Ambigu-
+ous, and Strongly Non-causal. The knowl-
+edge base is evaluated empirically. The re-
+sults show that our metrics perform signif-
+icantly better than the state-of-the-art on
+the task of detecting causal verbal events.
+1 

@@ -1,0 +1,24 @@
+ 
+This paper describes the participation of 
+Universidad Carlos III de Madrid in Task A of 
+the TempEval-2 evaluation. The UC3M 
+system was originally developed for the 
+temporal expressions recognition and 
+normalization (TERN task) in Spanish texts, 
+according to the TIDES standard. Current 
+version supposes an almost-total refactoring of 
+the earliest system. Additionally, it has been 
+adapted to the TimeML annotation schema 
+and a considerable effort has been done with 
+the aim of increasing its coverage. It takes a 
+rule-based design both in the identification and 
+the resolution phases. It adopts an inductive 
+approach based on the empirical study of 
+frequency of temporal expressions in Spanish 
+corpora. Detecting the extent of the temporal 
+expressions the system achieved a 
+Precision/Recall of 0.90/0.87 whereas, in 
+determining the TYPE and VALUE of those 
+expressions, system results were 0.91 and 
+0.83, respectively.  
+1 

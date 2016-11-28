@@ -1,0 +1,21 @@
+ 
+We report in this paper a novel hybrid ap-
+proach for Urdu to Hindi transliteration that 
+combines finite-state machine (FSM) based 
+techniques with statistical word language 
+model based approach. The output from the 
+FSM is filtered with the word language model 
+to produce the correct Hindi output. The main 
+problem handled is the case of omission of di-
+acritical marks from the input Urdu text. Our 
+system produces the correct Hindi output even 
+when the crucial information in the form of di-
+acritic marks is absent. The approach improves 
+the accuracy of the transducer-only approach 
+from 50.7% to 79.1%. The results reported 
+show that performance can be improved using 
+a word language model to disambiguate the 
+output produced by the transducer-only ap-
+proach, especially when diacritic marks are not 
+present in the Urdu input. 
+1 

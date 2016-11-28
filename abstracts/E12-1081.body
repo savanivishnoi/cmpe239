@@ -1,0 +1,17 @@
+
+While information status (IS) plays a cru-
+cial role in discourse processing, there have
+only been a handful of attempts to automat-
+ically determine the IS of discourse entities.
+We examine a related but more challenging
+task, fine-grained IS determination, which
+involves classifying a discourse entity as
+one of 16 IS subtypes. We investigate the
+use of rich knowledge sources for this task
+in combination with a rule-based approach
+and a learning-based approach. In experi-
+ments with a set of Switchboard dialogues,
+the learning-based approach achieves an ac-
+curacy of 78.7%, outperforming the rule-
+based approach by 21.3%.
+1 

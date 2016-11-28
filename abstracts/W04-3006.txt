@@ -1,0 +1,25 @@
+
+This paper describes our research on both the
+detection and subsequent resolution of recog-
+nition errors in spoken dialogue systems. The
+paper consists of two major components. The
+first half concerns the design of the error detec-
+tion mechanism for resolving city names in our
+MERCURY flight reservation system, and an in-
+vestigation of the behavioral patterns of users
+in subsequent subdialogues involving keypad
+entry for disambiguation. An important obser-
+vation is that, upon a request for keypad en-
+try, users are frequently unresponsive to the ex-
+tent of waiting for a time-out or hanging up the
+phone. The second half concerns a pilot ex-
+periment investigating the feasibility of replac-
+ing the solicitation of a keypad entry with that
+of a ?speak-and-spell? entry. A novelty of our
+work is the introduction of a speech synthesizer
+to simulate the user, which facilitates develop-
+ment and evaluation of our proposed strategy.
+We have found that the speak-and-spell strat-
+egy is quite effective in simulation mode, but it
+remains to be tested in real user dialogues.
+1 

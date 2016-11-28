@@ -1,0 +1,20 @@
+
+In this paper we present a proposal for the
+development of dialog systems that, on the
+one hand, takes into account the benefits of
+using standards like VoiceXML, whilst on
+the other, includes a statistical dialog mod-
+ule to avoid the effort of manually defin-
+ing the dialog strategy. This module is
+trained using a labeled dialog corpus, and
+selects the next system response consider-
+ing a classification process that takes into
+account the dialog history. Thus, system
+developers only need to define a set of
+VoiceXML files, each including a system
+prompt and the associated grammar to rec-
+ognize the users responses to the prompt.
+We have applied this technique to develop
+a dialog system in VoiceXML that pro-
+vides railway information in Spanish.
+1 

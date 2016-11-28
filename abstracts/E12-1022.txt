@@ -1,0 +1,19 @@
+
+Update summarization is a new challenge
+in multi-document summarization focusing
+on summarizing a set of recent documents
+relatively to another set of earlier docu-
+ments. We present an unsupervised proba-
+bilistic approach to model novelty in a doc-
+ument collection and apply it to the genera-
+tion of update summaries. The new model,
+called DUALSUM, results in the second or
+third position in terms of the ROUGE met-
+rics when tuned for previous TAC competi-
+tions and tested on TAC-2011, being statis-
+tically indistinguishable from the winning
+system. A manual evaluation of the gen-
+erated summaries shows state-of-the art re-
+sults for DUALSUM with respect to focus,
+coherence and overall responsiveness.
+1 

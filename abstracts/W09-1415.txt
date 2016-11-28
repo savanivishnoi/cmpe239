@@ -1,0 +1,20 @@
+
+In this paper, we propose a system for biomed-
+ical event extraction using multi-phase ap-
+proach. It consists of event trigger detector,
+event type classifier, and relation recognizer
+and event compositor. The system firstly iden-
+tifies triggers in a given sentence. Then, it
+classifies the triggers into one of nine pre-
+defined classes. Lastly, the system examines
+each trigger whether it has a relation with
+participant candidates, and composites events
+with the extracted relations. The official score
+of the proposed system recorded 61.65 preci-
+sion, 9.40 recall and 16.31 f-score in approxi-
+mate span matching. However, we found that
+the threshold tuning for the third phase had
+negative effect. Without the threshold tuning,
+the system showed 55.32 precision, 16.18 re-
+call and 25.04 f-score.
+1 

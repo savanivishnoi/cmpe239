@@ -1,0 +1,20 @@
+ 
+I describe a compiler and development 
+environment for feature-augmented wo- 
+level morphology rules integrated into 
+a full NLP system. The compiler is 
+optimized for a class of languages in- 
+cluding many or most European ones, 
+and for rapid development and debug- 
+ging of descriptions of new languages. 
+The key design decision is to compose 
+morphophonological and morphosyntac- 
+tic information, but not the lexicon, 
+when compiling the description. This 
+results in typical compilation times of 
+about a minute, and has allowed a rea- 
+sonably full, feature-based description of 
+French inflectional morphology to be de- 
+veloped in about a month by a linguist 
+new to the system. 
+1 

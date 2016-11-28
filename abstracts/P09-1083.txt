@@ -1,0 +1,24 @@
+
+Opinion Question Answering (Opinion
+QA), which aims to find the authors? sen-
+timental opinions on a specific target, is
+more challenging than traditional fact-
+based question answering problems. To
+extract the opinion oriented answers, we
+need to consider both topic relevance and
+opinion sentiment issues. Current solu-
+tions to this problem are mostly ad-hoc
+combinations of question topic informa-
+tion and opinion information. In this pa-
+per, we propose an Opinion PageRank
+model and an Opinion HITS model to fully
+explore the information from different re-
+lations among questions and answers, an-
+swers and answers, and topics and opin-
+ions. By fully exploiting these relations,
+the experiment results show that our pro-
+posed algorithms outperform several state
+of the art baselines on benchmark data set.
+A gain of over 10% in F scores is achieved
+as compared to many other systems.
+1 

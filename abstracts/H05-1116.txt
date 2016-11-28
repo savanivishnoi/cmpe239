@@ -1,0 +1,18 @@
+
+We investigate techniques to support the
+answering of opinion-based questions.
+We first present the OpQA corpus of opin-
+ion questions and answers. Using the cor-
+pus, we compare and contrast the proper-
+ties of fact and opinion questions and an-
+swers. Based on the disparate characteris-
+tics of opinion vs. fact answers, we argue
+that traditional fact-based QA approaches
+may have difficulty in an MPQA setting
+without modification. As an initial step
+towards the development of MPQA sys-
+tems, we investigate the use of machine
+learning and rule-based subjectivity and
+opinion source filters and show that they
+can be used to guide MPQA systems.
+1 

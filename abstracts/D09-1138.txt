@@ -1,0 +1,30 @@
+
+The work presented in this paper explores
+a supervised method for learning a prob-
+abilistic model of a lexicon of VerbNet
+classes. We intend for the probabilis-
+tic model to provide a probability dis-
+tribution of verb-class associations, over
+known and unknown verbs, including pol-
+ysemous words. In our approach, train-
+ing instances are obtained from an ex-
+isting lexicon and/or from an annotated
+corpus, while the features, which repre-
+sent syntactic frames, semantic similarity,
+and selectional preferences, are extracted
+from unannotated corpora. Our model
+is evaluated in type-level verb classifica-
+tion tasks: we measure the prediction ac-
+curacy of VerbNet classes for unknown
+verbs, and also measure the dissimilarity
+between the learned and observed proba-
+bility distributions. We empirically com-
+pare several settings for model learning,
+while we vary the use of features, source
+corpora for feature extraction, and disam-
+biguated corpora. In the task of verb clas-
+sification into all VerbNet classes, our best
+model achieved a 10.69% error reduction
+in the classification accuracy, over the pre-
+viously proposed model.
+1 

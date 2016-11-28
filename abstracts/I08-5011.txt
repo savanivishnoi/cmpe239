@@ -1,0 +1,21 @@
+ 
+Several preprocessing steps are necessary 
+in various problems of automatic Natural 
+Language Processing. One major step is 
+named-entity detection, which is relatively 
+simple in English, because such entities 
+start with an uppercase character. For In-
+dian scripts like Bangla, no such indicator 
+exists and the problem of identification is 
+more complex, especially for human 
+names, which may be common nouns and 
+adjectives as well. In this paper we have 
+proposed a three-stage approach of named-
+entity detection. The stages are based on 
+the use of Named-Entity (NE) dictionary, 
+rules for named-entity and left-right co-
+occurrence statistics. Experimental results 
+obtained on Anandabazar Patrika (Most 
+popular Bangla newspaper) corpus are 
+quite encouraging. 
+1 

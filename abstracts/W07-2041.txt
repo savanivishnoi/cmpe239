@@ -1,0 +1,22 @@
+ 
+In this paper we describe a person clus-
+tering system for web pages and report 
+the results we have obtained on the test 
+set of the Semeval 2007 Web Person 
+Search task. Deciding which particular 
+person a name refers to within a text 
+document depends mainly on the capac-
+ity to extract the relevant information 
+out of texts when it is present. We con-
+sider ?relevant? here to stand primarily 
+for two properties: (1) uniqueness and 
+(2) appropriateness. In order to address 
+both (1) and (2) our method gives pri-
+mary importance to Name Entities 
+(NEs), defined according to the ACE 
+specifications. The common nouns not 
+referring to entities are considered fur-
+ther as coreference clues only if they are 
+found within already coreferred docu-
+ments. 
+1 

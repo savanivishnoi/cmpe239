@@ -1,0 +1,15 @@
+
+Evaluation methods for Distributional Se-
+mantic Models typically rely on behav-
+iorally derived gold standards. These
+methods are difficult to deploy in lan-
+guages with scarce linguistic/behavioral
+resources. We introduce a corpus-based
+measure that evaluates the stability of the
+lexical semantic similarity space using a
+pseudo-synonym same-different detection
+task and no external resources. We show
+that it enables to predict two behavior-
+based measures across a range of parame-
+ters in a Latent Semantic Analysis model.
+1 

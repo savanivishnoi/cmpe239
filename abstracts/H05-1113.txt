@@ -1,0 +1,26 @@
+
+Measuring the relative compositionality
+of Multi-word Expressions (MWEs) is
+crucial to Natural Language Processing.
+Various collocation based measures have
+been proposed to compute the relative
+compositionality of MWEs. In this paper,
+we define novel measures (both colloca-
+tion based and context based measures) to
+measure the relative compositionality of
+MWEs of V-N type. We show that the
+correlation of these features with the hu-
+man ranking is much superior to the cor-
+relation of the traditional features with the
+human ranking. We then integrate the pro-
+posed features and the traditional features
+using a SVM based ranking function to
+rank the collocations of V-N type based
+on their relative compositionality. We
+then show that the correlation between the
+ranks computed by the SVM based rank-
+ing function and human ranking is signif-
+icantly better than the correlation between
+ranking of individual features and human
+ranking.
+1 

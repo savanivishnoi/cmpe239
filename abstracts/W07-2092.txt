@@ -1,0 +1,16 @@
+
+This paper is an outcome of ongoing re-
+search and presents an unsupervised method
+for automatic word sense induction (WSI)
+and disambiguation (WSD). The induction
+algorithm is based on modeling the co-
+occurrences of two or more words using
+hypergraphs. WSI takes place by detect-
+ing high-density components in the co-
+occurrence hypergraphs. WSD assigns to
+each induced cluster a score equal to the sum
+of weights of its hyperedges found in the lo-
+cal context of the target word. Our system
+participates in SemEval-2007 word sense in-
+duction and discrimination task.
+1 

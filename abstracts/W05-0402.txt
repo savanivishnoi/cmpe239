@@ -1,0 +1,24 @@
+
+We present the results of feature engineer-
+ing and post-processing experiments con-
+ducted on a temporal expression recogni-
+tion task. The former explores the use of
+different kinds of tagging schemes and of
+exploiting a list of core temporal expres-
+sions during training. The latter is con-
+cerned with the use of this list for post-
+processing the output of a system based on
+conditional random fields.
+We find that the incorporation of knowl-
+edge sources both for training and post-
+processing improves recall, while the use
+of extended tagging schemes may help
+to offset the (mildly) negative impact on
+precision. Each of these approaches ad-
+dresses a different aspect of the over-
+all recognition performance. Taken sep-
+arately, the impact on the overall perfor-
+mance is low, but by combining the ap-
+proaches we achieve both high precision
+and high recall scores.
+1 

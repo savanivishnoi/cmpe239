@@ -1,0 +1,23 @@
+
+This paper proposes a corpus-based ap-
+proach for answering why-questions. Con-
+ventional systems use hand-crafted patterns
+to extract and evaluate answer candidates.
+However, such hand-crafted patterns are
+likely to have low coverage of causal expres-
+sions, and it is also difficult to assign suit-
+able weights to the patterns by hand. In our
+approach, causal expressions are automati-
+cally collected from corpora tagged with se-
+mantic relations. From the collected expres-
+sions, features are created to train an an-
+swer candidate ranker that maximizes the
+QA performance with regards to the corpus
+of why-questions and answers. NAZEQA, a
+Japanese why-QA system based on our ap-
+proach, clearly outperforms a baseline that
+uses hand-crafted patterns with a Mean Re-
+ciprocal Rank (top-5) of 0.305, making it
+presumably the best-performing fully imple-
+mented why-QA system.
+1 

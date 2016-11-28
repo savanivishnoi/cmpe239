@@ -1,0 +1,26 @@
+
+The lack of annotated data is an ob-
+stacle to the development of many
+natural language processing applica-
+tions; the problem is especially severe
+when the data is non-English. Pre-
+vious studies suggested the possibility
+of acquiring resources for non-English
+languages by bootstrapping from high
+quality English NLP tools and paral-
+lel corpora; however, the success of
+these approaches seems limited for dis-
+similar language pairs. In this paper,
+we propose a novel approach of com-
+bining a bootstrapped resource with a
+small amount of manually annotated
+data. We compare the proposed ap-
+proach with other bootstrapping meth-
+ods in the context of training a Chinese
+Part-of-Speech tagger. Experimental
+results show that our proposed ap-
+proach achieves a significant improve-
+ment over EM and self-training and
+systems that are only trained on man-
+ual annotations.
+1 

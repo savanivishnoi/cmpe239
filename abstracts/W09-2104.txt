@@ -1,0 +1,26 @@
+ 
+The goal of this research is to increase the 
+value of each individual student's vocabulary 
+by finding words that the student doesn?t 
+know, needs to, and is ready to learn. To help 
+identify such words, a better model of how 
+well any given word is expected to be known 
+was created. This is accomplished by using a 
+semantic language model, LSA, to track how 
+every word changes with the addition of more 
+and more text from an appropriate corpus. We 
+define the ?maturity? of a word as the degree 
+to which it has become similar to that after 
+training on the entire corpus. 
+An individual student?s average vocabu-
+lary level can then be placed on the word-
+maturity scale by an adaptive test. Finally, the 
+words that the student did or did not know on 
+the test can be used to predict what other 
+words the same student knows by using mul-
+tiple maturity models trained on random sam-
+ples of typical educational readings. This 
+detailed information can be used to generate 
+highly customized vocabulary teaching and 
+testing exercises, such as Cloze tests.
+1 

@@ -1,0 +1,14 @@
+
+This paper describes the approach of the
+Hochschule Hannover to the SemEval 2013
+Task Evaluating Phrasal Semantics. In or-
+der to compare a single word with a two word
+phrase we compute various distributional sim-
+ilarities, among which a new similarity mea-
+sure, based on Jensen-Shannon Divergence
+with a correction for frequency effects. The
+classification is done by a support vector ma-
+chine that uses all similarities as features. The
+approach turned out to be the most successful
+one in the task.
+1 

@@ -1,0 +1,17 @@
+
+We present Minimum Bayes-Risk (MBR) de-
+coding for statistical machine translation. This
+statistical approach aims to minimize expected
+loss of translation errors under loss functions
+that measure translation performance. We de-
+scribe a hierarchy of loss functions that incor-
+porate different levels of linguistic information
+from word strings, word-to-word alignments
+from an MT system, and syntactic structure
+from parse-trees of source and target language
+sentences. We report the performance of the
+MBR decoders on a Chinese-to-English trans-
+lation task. Our results show that MBR decod-
+ing can be used to tune statistical MT perfor-
+mance for specific loss functions.
+1 

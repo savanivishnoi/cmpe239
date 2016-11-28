@@ -1,0 +1,24 @@
+
+Extracting sentiment and topic lexicons is im-
+portant for opinion mining. Previous works
+have showed that supervised learning methods
+are superior for this task. However, the perfor-
+mance of supervised methods highly relies on
+manually labeled training data. In this paper,
+we propose a domain adaptation framework
+for sentiment- and topic- lexicon co-extraction
+in a domain of interest where we do not re-
+quire any labeled data, but have lots of labeled
+data in another related domain. The frame-
+work is twofold. In the first step, we gener-
+ate a few high-confidence sentiment and topic
+seeds in the target domain. In the second
+step, we propose a novel Relational Adaptive
+bootstraPping (RAP) algorithm to expand the
+seeds in the target domain by exploiting the
+labeled source domain data and the relation-
+ships between topic and sentiment words. Ex-
+perimental results show that our domain adap-
+tation framework can extract precise lexicons
+in the target domain without any annotation.
+1 

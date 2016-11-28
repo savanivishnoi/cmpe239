@@ -1,0 +1,17 @@
+
+The task of mining relations from collec-
+tions of documents is usually approached
+in two different ways. One type of sys-
+tems do relation extraction from individ-
+ual sentences, followed by an aggrega-
+tion of the results over the entire collec-
+tion. Other systems follow an entirely dif-
+ferent approach, in which co-occurrence
+counts are used to determine whether the
+mentioning together of two entities is due
+to more than simple chance. We show
+that increased extraction performance can
+be obtained by combining the two ap-
+proaches into an integrated relation ex-
+traction model.
+1 

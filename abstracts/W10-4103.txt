@@ -1,0 +1,20 @@
+ 
+Sentence segmentation is a fundamental 
+issue in Classical Chinese language 
+processing. To facilitate reading and 
+processing of the raw Classical Chinese 
+data, we propose a statistical method to 
+split unstructured Classical Chinese text 
+into smaller pieces such as sentences and 
+clauses. The segmenter based on the 
+conditional random field (CRF) model is 
+tested under different tagging schemes 
+and various features including n-gram, 
+jump, word class, and phonetic informa-
+tion. We evaluated our method on four 
+datasets from several eras (i.e., from the 
+5th century BCE to the 19th century). 
+Our CRF segmenter achieves an F-score 
+of 83.34% and can be applied on a varie-
+ty of data from different eras. 
+1 

@@ -1,0 +1,16 @@
+
+Ranked lists of output trees from syn-
+tactic statistical NLP applications fre-
+quently contain multiple repeated entries.
+This redundancy leads to misrepresenta-
+tion of tree weight and reduced informa-
+tion for debugging and tuning purposes.
+It is chiefly due to nondeterminism in the
+weighted automata that produce the re-
+sults. We introduce an algorithm that de-
+terminizes such automata while preserv-
+ing proper weights, returning the sum of
+the weight of all multiply derived trees.
+We also demonstrate our algorithm?s ef-
+fectiveness on two large-scale tasks.
+1 

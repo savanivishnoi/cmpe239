@@ -1,0 +1,35 @@
+
+Traditional Information Extraction (IE) takes
+a relation name and hand-tagged examples of
+that relation as input. Open IE is a relation-
+independent extraction paradigm that is tai-
+lored to massive and heterogeneous corpora
+such as theWeb. An Open IE system extracts a
+diverse set of relational tuples from text with-
+out any relation-specific input. How is Open
+IE possible? We analyze a sample of English
+sentences to demonstrate that numerous rela-
+tionships are expressed using a compact set
+of relation-independent lexico-syntactic pat-
+terns, which can be learned by an Open IE sys-
+tem.
+What are the tradeoffs between Open IE and
+traditional IE? We consider this question in
+the context of two tasks. First, when the
+number of relations is massive, and the rela-
+tions themselves are not pre-specified, we ar-
+gue that Open IE is necessary. We then present
+a new model for Open IE called O-CRF and
+show that it achieves increased precision and
+nearly double the recall than the model em-
+ployed by TEXTRUNNER, the previous state-
+of-the-art Open IE system. Second, when the
+number of target relations is small, and their
+names are known in advance, we show that
+O-CRF is able to match the precision of a tra-
+ditional extraction system, though at substan-
+tially lower recall. Finally, we show how to
+combine the two types of systems into a hy-
+brid that achieves higher precision than a tra-
+ditional extractor, with comparable recall.
+1 

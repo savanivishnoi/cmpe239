@@ -1,0 +1,27 @@
+
+We propose several improvements to the
+hierarchical phrase-based MT model of
+Chiang (2005) and its syntax-based exten-
+sion by Zollmann and Venugopal (2006).
+We add a source-span variance model
+that, for each rule utilized in a prob-
+abilistic synchronous context-free gram-
+mar (PSCFG) derivation, gives a confi-
+dence estimate in the rule based on the
+number of source words spanned by the
+rule and its substituted child rules, with
+the distributions of these source span sizes
+estimated during training time.
+We further propose different methods of
+combining hierarchical and syntax-based
+PSCFG models, by merging the grammars
+as well as by interpolating the translation
+models.
+Finally, we compare syntax-augmented
+MT, which extracts rules based on target-
+side syntax, to a corresponding variant
+based on source-side syntax, and experi-
+ment with a model extension that jointly
+takes source and target syntax into ac-
+count.
+1 

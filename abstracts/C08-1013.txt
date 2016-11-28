@@ -1,0 +1,15 @@
+
+We present ParaMetric, an automatic eval-
+uation metric for data-driven approaches to
+paraphrasing. ParaMetric provides an ob-
+jective measure of quality using a collec-
+tion of multiple translations whose para-
+phrases have been manually annotated.
+ParaMetric calculates precision and recall
+scores by comparing the paraphrases dis-
+covered by automatic paraphrasing tech-
+niques against gold standard alignments of
+words and phrases within equivalent sen-
+tences. We report scores for several estab-
+lished paraphrasing techniques.
+1 

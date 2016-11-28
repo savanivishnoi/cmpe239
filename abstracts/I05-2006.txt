@@ -1,0 +1,18 @@
+
+In this paper, we report a QA system
+which can answer how type questions
+based on the confirmed knowledge base
+which was developed by using mails
+posted to a mailing list. We first dis-
+cuss a problem of developing a knowl-
+edge base by using natural language doc-
+uments: wrong information in natural
+language documents. Then, we describe
+a method of detecting wrong informa-
+tion in mails posted to a mailing list and
+developing a knowledge base by using
+these mails. Finally, we show that ques-
+tion and answer mails posted to a mailing
+list can be used as a knowledge base for
+a QA system.
+1 

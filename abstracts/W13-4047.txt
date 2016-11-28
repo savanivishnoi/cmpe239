@@ -1,0 +1,18 @@
+
+A challenge in dialogue act recognition
+is the mapping from noisy user inputs to
+dialogue acts. In this paper we describe
+an approach for re-ranking dialogue act
+hypotheses based on Bayesian classifiers
+that incorporate dialogue history and Au-
+tomatic Speech Recognition (ASR) N-best
+information. We report results based on
+the Let?s Go dialogue corpora that show
+(1) that including ASR N-best information
+results in improved dialogue act recogni-
+tion performance (+7% accuracy), and (2)
+that competitive results can be obtained
+from as early as the first system dialogue
+act, reducing the need to wait for subse-
+quent system dialogue acts.
+1 

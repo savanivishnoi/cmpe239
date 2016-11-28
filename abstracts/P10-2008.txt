@@ -1,0 +1,12 @@
+
+In this paper, we present a novel approach
+for authorship attribution, the task of iden-
+tifying the author of a document, using
+probabilistic context-free grammars. Our
+approach involves building a probabilistic
+context-free grammar for each author and
+using this grammar as a language model
+for classification. We evaluate the perfor-
+mance of our method on a wide range of
+datasets to demonstrate its efficacy.
+1 

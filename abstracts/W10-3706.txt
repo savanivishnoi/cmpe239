@@ -1,0 +1,25 @@
+ 
+This paper presents the automatic ex-
+traction of Complex Predicates (CPs) 
+in Bengali with a special focus on 
+compound verbs (Verb + Verb) and 
+conjunct verbs (Noun /Adjective + 
+Verb). The lexical patterns of com-
+pound and conjunct verbs are extracted 
+based on the information of shallow 
+morphology and available seed lists of 
+verbs. Lexical scopes of compound and 
+conjunct verbs in consecutive sequence 
+of Complex Predicates (CPs) have 
+been identified. The fine-grained error 
+analysis through confusion matrix 
+highlights some insufficiencies of lexi-
+cal patterns and the impacts of different 
+constraints that are used to identify the 
+Complex Predicates (CPs). System 
+achieves F-Scores of 75.73%, and 
+77.92% for compound verbs and 
+89.90% and 89.66% for conjunct verbs 
+respectively on two types of Bengali 
+corpus.      
+1 

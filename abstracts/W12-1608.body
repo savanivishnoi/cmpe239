@@ -1,0 +1,24 @@
+ 
+We herein propose a method for the rapid 
+development of a spoken dialogue system 
+based on collaboratively constructed 
+semantic resources and compare the 
+proposed method with a conventional 
+method that is based on a relational 
+database. Previous development 
+frameworks of spoken dialogue systems, 
+which presuppose a relational database 
+management system as a background 
+application, require complex data definition, 
+such as making entries in a task-dependent 
+language dictionary, templates of semantic 
+frames, and conversion rules from user 
+utterances to the query language of the 
+database. We demonstrate that a semantic 
+web oriented approach based on 
+collaboratively constructed semantic 
+resources significantly reduces troublesome 
+rule descriptions and complex 
+configurations in the rapid development 
+process of spoken dialogue systems. 
+1 

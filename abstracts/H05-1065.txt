@@ -1,0 +1,17 @@
+
+German has a productive morphology and
+allows the creation of complex words
+which are often highly ambiguous. This
+paper reports on the development of a
+head-lexicalized PCFG for the disam-
+biguation of German morphological anal-
+yses. The grammar is trained on unla-
+beled data using the Inside-Outside algo-
+rithm. The parser achieves a precision
+of more than 68% on difficult test data,
+which is 23% more than the baseline ob-
+tained by randomly choosing one of the
+simplest analyses. Remarkable is the fact
+that precision drops to 52% without lexi-
+calization.
+1 

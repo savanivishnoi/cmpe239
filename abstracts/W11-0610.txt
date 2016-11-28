@@ -1,0 +1,27 @@
+
+Atypical or idiosyncratic language is a char-
+acteristic of autism spectrum disorder (ASD).
+In this paper, we discuss previous work iden-
+tifying language errors associated with atyp-
+ical language in ASD and describe a proce-
+dure for reproducing those results. We de-
+scribe our data set, which consists of tran-
+scribed data from a widely used clinical di-
+agnostic instrument (the ADOS) for children
+with autism, children with developmental lan-
+guage disorder, and typically developing chil-
+dren. We then present methods for automati-
+cally extracting lexical and syntactic features
+from transcripts of children?s speech to 1)
+identify certain syntactic and semantic errors
+that have previously been found to distinguish
+ASD language from that of children with typ-
+ical development; and 2) perform diagnostic
+classification. Our classifiers achieve results
+well above chance, demonstrating the poten-
+tial for using NLP techniques to enhance neu-
+rodevelopmental diagnosis and atypical lan-
+guage analysis. We expect further improve-
+ment with additional data, features, and clas-
+sification techniques.
+1 

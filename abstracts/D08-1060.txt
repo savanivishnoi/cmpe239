@@ -1,0 +1,20 @@
+
+Syntactic word reordering is essential for
+translations across different grammar struc-
+tures between syntactically distant language-
+pairs. In this paper, we propose to em-
+bed local and non-local word reordering de-
+cisions in a synchronous context free gram-
+mar, and leverages the grammar in a chart-
+based decoder. Local word-reordering is ef-
+fectively encoded in Hiero-like rules; whereas
+non-local word-reordering, which allows for
+long-range movements of syntactic chunks,
+is represented in tree-based reordering rules,
+which contain variables correspond to source-
+side syntactic constituents. We demonstrate
+how these rules are learned from parallel cor-
+pora. Our proposed shallow Tree-to-String
+rules show significant improvements in trans-
+lation quality across different test sets.
+1 

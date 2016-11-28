@@ -1,0 +1,16 @@
+
+We introduce a system for textual entail-
+ment that is based on a probabilistic model
+of entailment. The model is defined using
+some calculus of transformations on depen-
+dency trees, which is characterized by the
+fact that derivations in that calculus preserve
+the truth only with a certain probability. We
+also describe a possible set of transforma-
+tions (and with it implicitly a calculus) that
+was successfully applied to the RTE3 chal-
+lenge data. However, our system can be im-
+proved in many ways and we see it as the
+starting point for a promising new approach
+to textual entailment.
+1 

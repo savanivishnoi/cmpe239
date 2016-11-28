@@ -1,0 +1,19 @@
+
+Reading is known to be an essential task
+in language learning, but finding the ap-
+propriate text for every learner is far from
+easy. In this context, automatic procedures
+can support the teacher?s work. Some
+tools exist for English, but at present there
+are none for French as a foreign language
+(FFL). In this paper, we present an origi-
+nal approach to assessing the readability
+of FFL texts using NLP techniques and
+extracts from FFL textbooks as our cor-
+pus. Two logistic regression models based
+on lexical and grammatical features are
+explored and give quite good predictions
+on new texts. The results shows a slight
+superiority for multinomial logistic re-
+gression over the proportional odds model.
+1 

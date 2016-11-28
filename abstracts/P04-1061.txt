@@ -1,0 +1,13 @@
+
+We present a generative model for the unsupervised
+learning of dependency structures. We also describe
+the multiplicative combination of this dependency model
+with a model of linear constituency. The product model
+outperforms both components on their respective evalu-
+ation metrics, giving the best published figures for un-
+supervised dependency parsing and unsupervised con-
+stituency parsing. We also demonstrate that the com-
+bined model works and is robust cross-linguistically, be-
+ing able to exploit either attachment or distributional reg-
+ularities that are salient in the data.
+1 

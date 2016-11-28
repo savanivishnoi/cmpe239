@@ -1,0 +1,17 @@
+ 
+This paper presents systems submitted to 
+the close track of Fourth SIGHAN Bakeoff. 
+We built up three systems based on Condi-
+tional Random Field for Chinese Word 
+Segmentation, Named Entity Recognition 
+and Part-Of-Speech Tagging respectively. 
+Our systems employed basic features as 
+well as a large number of linguistic features. 
+For segmentation task, we adjusted the BIO 
+tags according to confidence of each char-
+acter. Our final system achieve a F-score of 
+94.18 at CTB, 92.86 at NCC, 94.59 at SXU 
+on Segmentation, 85.26 at MSRA on 
+Named Entity Recognition, and 90.65 at 
+PKU on Part-Of-Speech Tagging. 
+1 

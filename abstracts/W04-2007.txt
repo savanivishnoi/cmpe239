@@ -1,0 +1,19 @@
+
+The UNL project (Universal Networking Lan-
+guage) proposes a standard for encoding the
+meaning of natural language utterances as se-
+mantic hypergraphs, intended to be used as
+pivot in multilingual information and commu-
+nication systems. Several deconverters permit
+to automatically translate UNL utterances into
+natural languages. However, a rough enconver-
+tion from natural language texts to UNL expres-
+sions is usually done interactively with editors
+specially designed for the UNL project or by
+hand (which is very time-consuming and diffi-
+cult to extrapolate to huge amounts of data).
+In this paper, we address the issue of using an
+existing incremental robust parser as main re-
+source to enconverting French utterances into
+UNL expressions.
+1 

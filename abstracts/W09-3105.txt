@@ -1,0 +1,26 @@
+
+We propose using active learning for tag-
+ging extractive reference summary of lec-
+ture speech. The training process of
+feature-based summarization model usu-
+ally requires a large amount of train-
+ing data with high-quality reference sum-
+maries. Human production of such sum-
+maries is tedious, and since inter-labeler
+agreement is low, very unreliable. Ac-
+tive learning helps assuage this problem by
+automatically selecting a small amount of
+unlabeled documents for humans to hand
+correct. Our method chooses the unla-
+beled documents according to the similar-
+ity score between the document and the
+comparable resource?PowerPoint slides.
+After manual correction, the selected doc-
+uments are returned to the training pool.
+Summarization results show an increasing
+learning curve of ROUGE-L F-measure,
+from 0.44 to 0.514, consistently higher
+than that of using randomly chosen train-
+ing samples.
+Index Terms: active learning, summarization
+1 

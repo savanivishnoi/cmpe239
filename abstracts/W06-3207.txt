@@ -1,0 +1,25 @@
+ 
+This paper proposes an unsupervised 
+learning algorithm for Optimality Theo-
+retic grammars, which learns a complete 
+constraint ranking and a lexicon given 
+only unstructured surface forms and mor-
+phological relations. The learning algo-
+rithm, which is based on the Expectation-
+Maximization algorithm, gradually 
+maximizes the likelihood of the observed 
+forms by adjusting the parameters of a 
+probabilistic constraint grammar and a 
+probabilistic lexicon. The paper presents 
+the algorithm?s results on three con-
+structed language systems with different 
+types of hidden structure: voicing neu-
+tralization, stress, and abstract vowels. In 
+all cases the algorithm learns the correct 
+constraint ranking and lexicon.  The paper 
+argues that the algorithm?s ability to iden-
+tify correct, restrictive grammars is due in 
+part to its explicit reliance on the Opti-
+mality Theoretic notion of Richness of the 
+Base. 
+1 

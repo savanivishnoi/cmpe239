@@ -1,0 +1,17 @@
+
+This paper presents a study of the impact
+of using simple and complex morphological
+clues to improve the classification of rare and
+unknown words for parsing. We compare
+this approach to a language-independent tech-
+nique often used in parsers which is based
+solely on word frequencies. This study is ap-
+plied to three languages that exhibit different
+levels of morphological expressiveness: Ara-
+bic, French and English. We integrate infor-
+mation about Arabic affixes and morphotac-
+tics into a PCFG-LA parser and obtain state-
+of-the-art accuracy. We also show that these
+morphological clues can be learnt automati-
+cally from an annotated corpus.
+1 

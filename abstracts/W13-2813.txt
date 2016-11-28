@@ -1,0 +1,18 @@
+ 
+Since the Tunisian revolution, Tunisian Dialect (TD) 
+used in daily life, has became progressively used and 
+represented in interviews, news and debate programs 
+instead of Modern Standard Arabic (MSA). This situ-
+ation has important negative consequences for natural 
+language processing (NLP): since the spoken dialects 
+are not officially written and do not have standard 
+orthography, it is very costly to obtain adequate cor-
+pora to use for training NLP tools. Furthermore, there 
+are almost no parallel corpora involving TD and 
+MSA. In this paper, we describe the creation of Tuni-
+sian dialect text corpus as well as a method for build-
+ing a bilingual dictionary, in order to create language 
+model for speech recognition system for the Tunisian 
+Broadcast News. So, we use explicit knowledge about 
+the relation between TD and MSA.  
+1 

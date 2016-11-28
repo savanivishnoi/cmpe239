@@ -1,0 +1,21 @@
+
+In this paper we describe a method for simpli-
+fying sentences using Phrase Based Machine
+Translation, augmented with a re-ranking
+heuristic based on dissimilarity, and trained on
+a monolingual parallel corpus. We compare
+our system to a word-substitution baseline and
+two state-of-the-art systems, all trained and
+tested on paired sentences from the English
+part of Wikipedia and Simple Wikipedia. Hu-
+man test subjects judge the output of the dif-
+ferent systems. Analysing the judgements
+shows that by relatively careful phrase-based
+paraphrasing our model achieves similar sim-
+plification results to state-of-the-art systems,
+while generating better formed output. We
+also argue that text readability metrics such
+as the Flesch-Kincaid grade level should be
+used with caution when evaluating the output
+of simplification systems.
+1 

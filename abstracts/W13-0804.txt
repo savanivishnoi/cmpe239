@@ -1,0 +1,18 @@
+
+In this paper, we empirically investigate the
+impact of critical configuration parameters in
+the popular cube pruning algorithm for decod-
+ing in hierarchical statistical machine transla-
+tion. Specifically, we study how the choice
+of the k-best generation size affects trans-
+lation quality and resource requirements in
+hierarchical search. We furthermore exam-
+ine the influence of two different granular-
+ities of hypothesis recombination. Our ex-
+periments are conducted on the large-scale
+Chinese?English and Arabic?English NIST
+translation tasks. Besides standard hierarchi-
+cal grammars, we also explore search with re-
+stricted recursion depth of hierarchical rules
+based on shallow-1 grammars.
+1 

@@ -1,0 +1,22 @@
+
+Scoring sentences in documents given ab-
+stract summaries created by humans is im-
+portant in extractive multi-document sum-
+marization. In this paper, we formulate ex-
+tractive summarization as a two step learn-
+ing problem building a generative model
+for pattern discovery and a regression
+model for inference. We calculate scores
+for sentences in document clusters based
+on their latent characteristics using a hi-
+erarchical topic model. Then, using these
+scores, we train a regression model based
+on the lexical and structural characteris-
+tics of the sentences, and use the model to
+score sentences of new documents to form
+a summary. Our system advances current
+state-of-the-art improving ROUGE scores
+by ?7%. Generated summaries are less
+redundant and more coherent based upon
+manual quality evaluations.
+1 

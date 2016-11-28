@@ -1,0 +1,24 @@
+
+Surface realisers in spoken dialogue sys-
+tems need to be more responsive than con-
+ventional surface realisers. They need to
+be sensitive to the utterance context as well
+as robust to partial or changing generator
+inputs. We formulate surface realisation as
+a sequence labelling task and combine the
+use of conditional random fields (CRFs)
+with semantic trees. Due to their extended
+notion of context, CRFs are able to take
+the global utterance context into account
+and are less constrained by local features
+than other realisers. This leads to more
+natural and less repetitive surface realisa-
+tion. It also allows generation from partial
+and modified inputs and is therefore ap-
+plicable to incremental surface realisation.
+Results from a human rating study confirm
+that users are sensitive to this extended no-
+tion of context and assign ratings that are
+significantly higher (up to 14%) than those
+for taking only local context into account.
+1 

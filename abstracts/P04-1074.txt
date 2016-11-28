@@ -1,0 +1,22 @@
+ 
+Temporal relation resolution involves extraction 
+of temporal information explicitly or implicitly 
+embedded in a language. This information is of-
+ten inferred from a variety of interactive gram-
+matical and lexical cues, especially in Chinese. 
+For this purpose, inter-clause relations (tempo-
+ral or otherwise) in a multiple-clause sentence 
+play an important role. In this paper, a computa-
+tional model based on machine learning and 
+heterogeneous collaborative bootstrapping is 
+proposed for analyzing temporal relations in a 
+Chinese multiple-clause sentence. The model 
+makes use of the fact that events are represented 
+in different temporal structures. It takes into ac-
+count the effects of linguistic features such as 
+tense/aspect, temporal connectives, and dis-
+course structures. A set of experiments has been 
+conducted to investigate how linguistic features 
+could affect temporal relation resolution.  
+ 
+1 

@@ -1,0 +1,16 @@
+
+This paper describes a tool for aligning and
+searching parallel treebanks. Such treebanks
+are a new type of parallel corpora that come
+with syntactic annotation on both languages
+plus sub-sentential alignment. Our tool al-
+lows the visualization of tree pairs and the
+comfortable annotation of word and phrase
+alignments. It also allows monolingual and
+bilingual searches including the specifica-
+tion of alignment constraints. We show that
+the TIGER-Search query language can eas-
+ily be combined with such alignment con-
+straints to obtain a powerful cross-lingual
+query language.
+1 

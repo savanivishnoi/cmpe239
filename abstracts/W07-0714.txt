@@ -1,0 +1,17 @@
+ 
+We present a method for evaluating the 
+quality of Machine Translation (MT) 
+output, using labelled dependencies 
+produced by a Lexical-Functional 
+Grammar (LFG) parser. Our dependency-
+based method, in contrast to most popular 
+string-based evaluation metrics, does not 
+unfairly penalize perfectly valid syntactic 
+variations in the translation, and the 
+addition of WordNet provides a way to 
+accommodate lexical variation. In 
+comparison with other metrics on 16,800 
+sentences of Chinese-English newswire 
+text, our method reaches high correlation 
+with human scores.  
+1 

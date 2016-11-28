@@ -1,0 +1,28 @@
+ 
+A model-based spectral estimation algorithm is derived 
+that improves the robustness of speech recognition 
+systems to additive noise. The algorithm is tailored for 
+filter-bank-based systems, where the estimation should 
+seek to minimize the distortion as measured by the 
+recognizer's distance metric. This estimation criterion is 
+approximated by minimizing the Euclidean distance 
+between spectral log-energy vectors, which is equivalent 
+to minimizing the nonweighted, nontruncated cepstral 
+distance. Correlations between frequency channels are 
+incorporated in the estimation by modeling the spectral 
+distribution of speech as a mixture of components, each 
+representing a different speech class, and assuming that 
+spectral energies at different frequency channels are 
+uncorrelated within each class. The algorithm was tested 
+with SRI's continuous-speech, speaker-independent, 
+hidden Markov model recognition system using the large- 
+vocabulary NIST "Resource Management Task." When 
+trained on a clean-speech database and tested with 
+additive white Gaussian noise, the new algorithm has an 
+error rate half of that with MMSE estimation of log 
+spectral energies at individual frequency channels, and it 
+achieves a level similar to that with the ideal condition of 
+training and testing at constant SNR. The algorithm is 
+also very efficient with additive environmental noise, 
+recorded with a desktop microphone. 
+I. 

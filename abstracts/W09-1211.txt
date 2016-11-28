@@ -1,0 +1,21 @@
+ 
+This paper describes the multilingual semantic 
+role labeling system of Computational Lin-
+guistics Group, Trinity College Dublin, for the 
+CoNLL-2009 SRLonly closed shared task. 
+The system consists of two cascaded compo-
+nents: one for disambiguating predicate word 
+sense, and the other for identifying and classi-
+fying arguments. Supervised learning tech-
+niques are utilized in these two components. 
+As each language has its unique characteris-
+tics, different parameters and strategies have 
+to be taken for different languages, either for 
+providing functions required by a language or 
+for meeting the tight deadline. The system ob-
+tained labeled F1 69.26 averaging over seven 
+languages (Catalan, Chinese, Czech, English, 
+German, Japanese, and Spanish), which ranks 
+the system fourth among the seven systems 
+participating the SRLonly closed track. 
+1 

@@ -1,0 +1,25 @@
+ 
+This paper offers a transcription system for 
+Persian, the target language in the Transonics 
+project, a speech-to-speech translation system 
+developed as a part of the DARPA Babylon 
+program (The DARPA Babylon Program; 
+Narayanan, 2003).  In this paper, we discuss 
+transcription systems needed for automated 
+spoken language processing applications in 
+Persian that uses the Arabic script for writing.  
+This system can easily be modified for Arabic, 
+Dari, Urdu and any other language that uses 
+the Arabic script. The proposed system has 
+two components. One is a phonemic based 
+transcription of sounds for acoustic modelling 
+in Automatic Speech Recognizers and for Text 
+to Speech synthesizer, using ASCII based 
+symbols, rather than International Phonetic 
+Alphabet symbols.  The other is a hybrid 
+system that provides a minimally-ambiguous 
+lexical representation that explicitly includes 
+vocalic information; such a representation is 
+needed for language modelling, text to speech 
+synthesis and machine translation. 
+1 

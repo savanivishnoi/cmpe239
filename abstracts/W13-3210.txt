@@ -1,0 +1,26 @@
+
+Most distributional models of word sim-
+ilarity represent a word type by a single
+vector of contextual features, even though,
+words commonly have more than one
+sense. The multiple senses can be captured
+by employing several vectors per word in a
+multi-prototype distributional model, pro-
+totypes that can be obtained by first con-
+structing all the context vectors for the
+word and then clustering similar vectors
+to create sense vectors. Storing and clus-
+tering context vectors can be expensive
+though. As an alternative, we introduce
+Multi-Sense Random Indexing, which per-
+forms on-the-fly (incremental) clustering.
+To evaluate the method, a number of mea-
+sures for word similarity are proposed,
+both contextual and non-contextual, in-
+cluding new measures based on optimal
+alignment of word senses. Experimental
+results on the task of predicting semantic
+textual similarity do, however, not show
+a systematic difference between single-
+prototype and multi-prototype models.
+1 

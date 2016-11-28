@@ -1,0 +1,22 @@
+ 
+Many recent studies have been dedicated to the 
+extraction of semantic connections between 
+words. Using such information at semantic 
+level is likely to improve the performance of 
+Natural Language Processing (NLP) systems, 
+such as text categorization, question answering, 
+information extraction, etc. The scarcity of such 
+resources in Turkish, obstructs new 
+improvements. There are many examples of 
+semantic networks for English and other 
+widely-used languages to lead the way for 
+studies in Turkish. In this study, developing a 
+semantic network for Turkish is aimed by using 
+structural and string patterns in a dictionary. 
+The results are promising, so that 
+approximately two relations can be extracted 
+from 3 definitions. The overall accuracy is 86% 
+if we consider the correct sense assignment, 
+94% without considering word sense 
+disambiguation. 
+1 

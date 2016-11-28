@@ -1,0 +1,19 @@
+
+This paper introduces a new method to im-
+prove tree edit distance approach to tex-
+tual entailment recognition, using particle
+swarm optimization. Currently, one of the
+main constraints of recognizing textual en-
+tailment using tree edit distance is to tune
+the cost of edit operations, which is a dif-
+ficult and challenging task in dealing with
+the entailment problem and datasets. We
+tried to estimate the cost of edit operations
+in tree edit distance algorithm automati-
+cally, in order to improve the results for
+textual entailment. Automatically estimat-
+ing the optimal values of the cost opera-
+tions over all RTE development datasets,
+we proved a significant enhancement in
+accuracy obtained on the test sets.
+1 

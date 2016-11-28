@@ -1,0 +1,22 @@
+
+Most work on evaluation of named-entity
+recognition has been done in the context of
+competitions, as a part of Information Extrac-
+tion. There has been little work on any form of
+extrinsic evaluation, and how one tagger com-
+pares with another on the major classes: PER-
+SON, ORGANIZATION, and LOCATION.
+We report on a comparison of three state-of-
+the-art named entity taggers: Stanford, LBJ,
+and IdentiFinder. The taggers were compared
+with respect to: 1) Agreement rate on the clas-
+sification of entities by class, and 2) Percent-
+age of ambiguous entities (belonging to more
+than one class) co-occurring in a document.
+We found that the agreement between the tag-
+gers ranged from 34% to 58%, depending on
+the class and that more than 40% of the glob-
+ally ambiguous entities co-occur within the
+same document. We also propose a unit test
+based on the problems we encountered.
+1 

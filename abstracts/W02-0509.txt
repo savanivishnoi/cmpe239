@@ -1,0 +1,29 @@
+ 
+This paper presents a comprehensive NLP sys-
+tem by Melingo that has been recently developed 
+for Arabic, based on MorfixTM ? an operational 
+formerly developed highly successful comprehen-
+sive Hebrew NLP system. 
+The system discussed includes modules for 
+morphological analysis, context sensitive lemmati-
+zation, vocalization, text-to-phoneme conversion, 
+and syntactic-analysis-based prosody (intonation) 
+model. It is employed in applications such as full 
+text search, information retrieval, text categoriza-
+tion, textual data mining, online contextual dic-
+tionaries, filtering, and text-to-speech applications 
+in the fields of telephony and accessibility and 
+could serve as a handy accessory for non-fluent 
+Arabic or Hebrew speakers. 
+Modern Hebrew and Modern Standard Arabic 
+share some unique Semitic linguistic characteris-
+tics. Yet up to now, the two languages have been 
+handled separately in Natural Language Processing 
+circles, both on the academic and on the applica-
+tive levels. This paper reviews the major similari-
+ties and the minor dissimilarities between Modern 
+Hebrew and Modern Standard Arabic from the 
+NLP standpoint, and emphasizes the benefit of de-
+veloping and maintaining a unified system for both 
+languages. 
+1 

@@ -1,0 +1,14 @@
+
+We describe our contribution to the Gen-
+eration Challenge 2010 for the tasks
+of Named Entity Recognition and co-
+reference detection (GREC-NER). To ex-
+tract the NE and the referring expressions,
+we employ a combination of a Part of
+Speech Tagger and the Conditional Ran-
+dom Fields (CRF) learning technique. We
+finally experiment an original algorithm
+to detect co-references. We conclude
+with discussion about our system perfor-
+mances.
+1 

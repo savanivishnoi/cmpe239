@@ -1,0 +1,17 @@
+ 
+There are generally many ways to translite-
+rate a name from one language script into 
+another. The resulting ambiguity can make it 
+very difficult to ?untransliterate? a name by 
+reverse engineering the process. In this paper, 
+we present a highly successful cross-script 
+name matching system that we developed by 
+combining the creativity of human intuition 
+with the power of machine learning. Our sys-
+tem determines whether a name in Roman 
+script and a name in Chinese script match 
+each other with an F-score of 96%. In addi-
+tion, for name pairs that satisfy a computa-
+tional test, the F-score is 98%. 
+ 
+1 

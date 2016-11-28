@@ -1,0 +1,18 @@
+ 
+We participate in the CIPS-SIGHAN-
+2010 bake-off task of Chinese word 
+segmentation. Unlike the previous 
+bakeoff series, the purpose of the 
+bakeoff 2010 is to test the cross-
+domain performance of Chinese seg-
+mentation model. This paper summa-
+rizes our approach and our bakeoff re-
+sults. We mainly propose to use ?2 sta-
+tistics to increase the OOV recall and 
+use bootstrapping strategy to increase 
+the overall F score. As the results 
+shows, the approach proposed in the 
+paper does help, both of the OOV re-
+call and the overall F score are im-
+proved. 
+1 

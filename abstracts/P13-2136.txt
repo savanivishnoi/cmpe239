@@ -1,0 +1,19 @@
+
+We present an information theoretic objec-
+tive for bilingual word clustering that in-
+corporates both monolingual distributional
+evidence as well as cross-lingual evidence
+from parallel corpora to learn high qual-
+ity word clusters jointly in any number of
+languages. The monolingual component
+of our objective is the average mutual in-
+formation of clusters of adjacent words in
+each language, while the bilingual com-
+ponent is the average mutual information
+of the aligned clusters. To evaluate our
+method, we use the word clusters in an
+NER system and demonstrate a statisti-
+cally significant improvement in F1 score
+when using bilingual word clusters instead
+of monolingual clusters.
+1 

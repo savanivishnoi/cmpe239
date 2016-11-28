@@ -1,0 +1,17 @@
+
+We discuss text summarization in terms of
+maximum coverage problem and its vari-
+ant. We explore some decoding algorithms
+including the ones never used in this sum-
+marization formulation, such as a greedy
+algorithm with performance guarantee, a
+randomized algorithm, and a branch-and-
+bound method. On the basis of the results
+of comparative experiments, we also aug-
+ment the summarization model so that it
+takes into account the relevance to the doc-
+ument cluster. Through experiments, we
+showed that the augmented model is su-
+perior to the best-performing method of
+DUC?04 on ROUGE-1 without stopwords.
+1 

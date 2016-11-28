@@ -1,0 +1,22 @@
+
+In this paper we propose a generalization
+of the Stack-based decoding paradigm for
+Statistical Machine Translation. The well
+known single and multi-stack decoding
+algorithms defined in the literature have
+been integrated within a new formalism
+which also defines a new family of stack-
+based decoders. These decoders allows
+a tradeoff to be made between the ad-
+vantages of using only one or multiple
+stacks. The key point of the new formal-
+ism consists in parameterizeing the num-
+ber of stacks to be used during the de-
+coding process, and providing an efficient
+method to decide in which stack each par-
+tial hypothesis generated is to be inserted-
+during the search process. Experimental
+results are also reported for a search algo-
+rithm for phrase-based statistical transla-
+tion models.
+1 

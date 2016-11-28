@@ -1,0 +1,34 @@
+ 
+Discovering significant types of relations 
+from the web is challenging because of its 
+open nature. Unsupervised algorithms are 
+developed to extract relations from a cor-
+pus without knowing the relations in ad-
+vance, but most of them rely on tagging 
+arguments of predefined types. Recently, 
+a new algorithm was proposed to jointly 
+extract relations and their argument se-
+mantic classes, taking a set of relation in-
+stances extracted by an open IE algorithm 
+as input. However, it cannot handle poly-
+semy of relation phrases and fails to 
+group many similar (?synonymous?) rela-
+tion instances because of the sparseness of 
+features. In this paper, we present a novel 
+unsupervised algorithm that provides a 
+more general treatment of the polysemy 
+and synonymy problems. The algorithm 
+incorporates various knowledge sources 
+which we will show to be very effective 
+for unsupervised extraction. Moreover, it 
+explicitly disambiguates polysemous rela-
+tion phrases and groups synonymous 
+ones. While maintaining approximately 
+the same precision, the algorithm achieves 
+significant improvement on recall com-
+pared to the previous method. It is also 
+very efficient. Experiments on a real-
+world dataset show that it can handle 14.7 
+million relation instances and extract a 
+very large set of relations from the web.  
+1 

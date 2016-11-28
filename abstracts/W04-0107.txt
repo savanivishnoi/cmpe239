@@ -1,0 +1,20 @@
+ 
+We propose a novel language-independent 
+framework for inducing a collection of mor-
+phological inflection classes from a monolin-
+gual corpus of full form words.  Our approach 
+involves two main stages.  In the first stage, 
+we generate a large data structure of candidate 
+inflection classes and their interrelationships.  
+In the second stage, search and filtering tech-
+niques are applied to this data structure, to 
+identify a select collection of "true" inflection 
+classes of the language.  We describe the basic 
+methodology involved in both stages of our 
+approach and present an evaluation of our 
+baseline techniques applied to induction of 
+major inflection classes of Spanish.  The pre-
+liminary results on an initial training corpus 
+already surpass an F1 of 0.5 against ideal 
+Spanish inflectional morphology classes. 
+1 

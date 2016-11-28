@@ -1,0 +1,12 @@
+ 
+This paper presents an unsupervised ap-
+proach to learning translation span align-
+ments from parallel data that improves 
+syntactic rule extraction by deleting spuri-
+ous word alignment links and adding new 
+valuable links based on bilingual transla-
+tion span correspondences. Experiments on 
+Chinese-English translation demonstrate 
+improvements over standard methods for 
+tree-to-string and tree-to-tree translation.  
+1 

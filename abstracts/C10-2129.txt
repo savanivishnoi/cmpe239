@@ -1,0 +1,26 @@
+
+We investigate a series of targeted modifi-
+cations to a data-driven dependency parser
+of German and show that these can be
+highly effective even for a relatively well
+studied language like German if they are
+made on a (linguistically and methodolog-
+ically) informed basis and with a parser
+implementation that allows for fast and
+robust training and application. Mak-
+ing relatively small changes to a range
+of very different system components, we
+were able to increase labeled accuracy on
+a standard test set (from the CoNLL 2009
+shared task), ignoring gold standard part-
+of-speech tags, from 87.64% to 89.40%.
+The study was conducted in less than five
+weeks and as a secondary project of all
+four authors. Effective modifications in-
+clude the quality and combination of auto-
+assigned morphosyntactic features enter-
+ing machine learning, the internal feature
+handling as well as the inclusion of global
+constraints and a combination of different
+parsing strategies.
+1 

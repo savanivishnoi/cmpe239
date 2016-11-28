@@ -1,0 +1,24 @@
+
+Language can describe our visual world at
+many levels, including not only what is lit-
+erally there but also the sentiment that it in-
+vokes. In this paper, we study visual language,
+both literal and sentimental, that describes the
+overall appearance and style of virtual char-
+acters. Sentimental properties, including la-
+bels such as ?youthful? or ?country western,?
+must be inferred from descriptions of the more
+literal properties, such as facial features and
+clothing selection. We present a new dataset,
+collected to describe Xbox avatars, as well as
+models for learning the relationships between
+these avatars and their literal and sentimen-
+tal descriptions. In a series of experiments,
+we demonstrate that such learned models can
+be used for a range of tasks, including pre-
+dicting sentimental words and using them to
+rank and build avatars. Together, these re-
+sults demonstrate that sentimental language
+provides a concise (though noisy) means of
+specifying low-level visual properties.
+1 

@@ -1,0 +1,21 @@
+
+To support the real-time understanding of
+spoken monologue such as lectures and
+commentaries, the development of a cap-
+tioning system is required. In monologues,
+since a sentence tends to be long, each
+sentence is often displayed in multi lines
+on one screen, it is necessary to insert
+linefeeds into a text so that the text be-
+comes easy to read. This paper proposes
+a technique for inserting linefeeds into a
+Japanese spoken monologue text as an el-
+emental technique to generate the read-
+able captions. Our method appropriately
+inserts linefeeds into a sentence by ma-
+chine learning, based on the information
+such as dependencies, clause boundaries,
+pauses and line length. An experiment us-
+ing Japanese speech data has shown the ef-
+fectiveness of our technique.
+1 

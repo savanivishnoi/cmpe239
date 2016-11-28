@@ -1,0 +1,23 @@
+
+Error mining is a useful technique for
+identifying forms that cause incomplete
+parses of sentences. We extend the iter-
+ative method of Sagot and de la Clerg-
+erie (2006) to treat n-grams of an arbi-
+trary length. An inherent problem of in-
+corporating longer n-grams is data sparse-
+ness. Our new method takes sparseness
+into account, producing n-grams that are
+as long as necessary to identify problem-
+atic forms, but not longer.
+Not every cause for parsing errors can be
+captured effectively by looking at word
+n-grams. We report on an algorithm for
+building more general patterns for min-
+ing, consisting of words and part of speech
+tags.
+It is not easy to evaluate the various er-
+ror mining techniques. We propose a new
+evaluation metric which will enable us to
+compare different error miners.
+1 

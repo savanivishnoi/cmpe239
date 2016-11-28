@@ -1,0 +1,30 @@
+
+Social media services such as Twitter offer an
+immense volume of real-world linguistic data.
+We explore the use of Twitter to obtain authen-
+tic user-generated text in low-resource lan-
+guages such as Nepali, Urdu, and Ukrainian.
+Automatic language identification (LID) can
+be used to extract language-specific data from
+Twitter, but it is unclear how well LID per-
+forms on short, informal texts in low-resource
+languages. We address this question by an-
+notating and releasing a large collection of
+tweets in nine languages, focusing on confus-
+able languages using the Cyrillic, Arabic, and
+Devanagari scripts. This is the first publicly-
+available collection of LID-annotated tweets
+in non-Latin scripts, and should become a
+standard evaluation set for LID systems. We
+also advance the state-of-the-art by evaluat-
+ing new, highly-accurate LID systems, trained
+both on our new corpus and on standard ma-
+terials only. Both types of systems achieve
+a huge performance improvement over the
+existing state-of-the-art, correctly classifying
+around 98% of our gold standard tweets. We
+provide a detailed analysis showing how the
+accuracy of our systems vary along certain di-
+mensions, such as the tweet-length and the
+amount of in- and out-of-domain training data.
+1 

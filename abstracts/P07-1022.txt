@@ -1,0 +1,18 @@
+
+This paper shows how to use the Unfold-
+Fold transformation to transform Projective
+Bilexical Dependency Grammars (PBDGs)
+into ambiguity-preserving weakly equiva-
+lent Context-Free Grammars (CFGs). These
+CFGs can be parsed in O(n3) time using a
+CKY algorithm with appropriate indexing,
+rather than the O(n5) time required by a
+naive encoding. Informally, using the CKY
+algorithm with such a CFG mimics the steps
+of the Eisner-Satta O(n3) PBDG parsing al-
+gorithm. This transformation makes all of
+the techniques developed for CFGs available
+to PBDGs. We demonstrate this by describ-
+ing a maximum posterior parse decoder for
+PBDGs.
+1 

@@ -1,0 +1,16 @@
+
+This paper presents a new fully automatic method for building highly
+dense and accurate knowledge bases from existing semantic resources.
+Basically, the method uses a wide-coverage and accurate knowledge-
+based Word Sense Disambiguation algorithm to assign the most appro-
+priate senses to large sets of topically related words acquired from the
+web. KnowNet, the resulting knowledge-base which connects large sets
+of semantically-related concepts is a major step towards the autonomous
+acquisition of knowledge from raw corpora. In fact, KnowNet is several
+times larger than any available knowledge resource encoding relations
+between synsets, and the knowledge that KnowNet contains outperform
+any other resource when empirically evaluated in a common multilingual
+framework.
+71
+72 Cuadros and Rigau
+1 

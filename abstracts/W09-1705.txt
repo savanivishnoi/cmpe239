@@ -1,0 +1,28 @@
+
+Word Sense Induction (WSI) is the task of
+identifying the different senses (uses) of a tar-
+get word in a given text. This paper focuses
+on the unsupervised estimation of the free pa-
+rameters of a graph-based WSI method, and
+explores the use of eight Graph Connectiv-
+ity Measures (GCM) that assess the degree of
+connectivity in a graph. Given a target word
+and a set of parameters, GCM evaluate the
+connectivity of the produced clusters, which
+correspond to subgraphs of the initial (unclus-
+tered) graph. Each parameter setting is as-
+signed a score according to one of the GCM
+and the highest scoring setting is then selected.
+Our evaluation on the nouns of SemEval-2007
+WSI task (SWSI) shows that: (1) all GCM es-
+timate a set of parameters which significantly
+outperform the worst performing parameter
+setting in both SWSI evaluation schemes, (2)
+all GCM estimate a set of parameters which
+outperform the Most Frequent Sense (MFS)
+baseline by a statistically significant amount
+in the supervised evaluation scheme, and (3)
+two of the measures estimate a set of parame-
+ters that performs closely to a set of parame-
+ters estimated in supervised manner.
+1 

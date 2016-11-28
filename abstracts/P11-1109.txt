@@ -1,0 +1,18 @@
+
+We propose an automatic method of extracting
+paraphrases from definition sentences, which
+are also automatically acquired from the Web.
+We observe that a huge number of concepts
+are defined in Web documents, and that the
+sentences that define the same concept tend
+to convey mostly the same information using
+different expressions and thus contain many
+paraphrases. We show that a large number
+of paraphrases can be automatically extracted
+with high precision by regarding the sentences
+that define the same concept as parallel cor-
+pora. Experimental results indicated that with
+our method it was possible to extract about
+300,000 paraphrases from 6? 108 Web docu-
+ments with a precision rate of about 94%.
+1 

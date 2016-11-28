@@ -1,0 +1,9 @@
+
+This paper presents a machine learning-based approach to the incremental understanding of dia-
+logue utterances, with a focus on the recognition of their communicative functions. A token-based
+approach combining the use of local classifiers, which exploit local utterance features, and global
+classifiers which use the outputs of local classifiers applied to previous and subsequent tokens, is
+shown to result in excellent dialogue act recognition scores for unsegmented spoken dialogue. This
+can be seen as a significant step forward towards the development of fully incremental, on-line meth-
+ods for computing the meaning of utterances in spoken dialogue.
+1 

@@ -1,0 +1,20 @@
+
+We present a theoretical and empirical
+comparative analysis of the two domi-
+nant categories of approaches in Chinese
+word segmentation: word-based models
+and character-based models. We show
+that, in spite of similar performance over-
+all, the two models produce different dis-
+tribution of segmentation errors, in a way
+that can be explained by theoretical prop-
+erties of the two models. The analysis is
+further exploited to improve segmentation
+accuracy by integrating a word-based seg-
+menter and a character-based segmenter.
+A Bootstrap Aggregating model is pro-
+posed. By letting multiple segmenters
+vote, our model improves segmentation
+consistently on the four different data sets
+from the second SIGHAN bakeoff.
+1 

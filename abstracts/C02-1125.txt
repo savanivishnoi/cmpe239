@@ -1,0 +1,19 @@
+  
+We propose a novel measure of the 
+representativeness (i.e., indicativeness or topic 
+specificity) of a term in a given corpus. The 
+measure embodies the idea that the distribution 
+of words co-occurring with a representative term 
+should be biased according to the word 
+distribution in the whole corpus. The bias of the 
+word distribution in the co-occurring words is 
+defined as the number of distinct words whose 
+occurrences are saliently biased in the 
+co-occurring words. The saliency of a word is 
+defined by a threshold probability that can be 
+automatically defined using the whole corpus. 
+Comparative evaluation clarified that the 
+measure is clearly superior to conventional 
+measures in finding topic-specific words in the 
+newspaper archives of different sizes. 
+ 

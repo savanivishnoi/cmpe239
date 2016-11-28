@@ -1,0 +1,34 @@
+
+Within the natural language processing
+(NLP) community, active learning has
+been widely investigated and applied in or-
+der to alleviate the annotation bottleneck
+faced by developers of new NLP systems
+and technologies. This paper presents the
+first theoretical analysis of stopping active
+learning based on stabilizing predictions
+(SP). The analysis has revealed three ele-
+ments that are central to the success of the
+SP method: (1) bounds on Cohen?s Kappa
+agreement between successively trained
+models impose bounds on differences in
+F-measure performance of the models; (2)
+since the stop set does not have to be la-
+beled, it can be made large in practice,
+helping to guarantee that the results trans-
+fer to previously unseen streams of ex-
+amples at test/application time; and (3)
+good (low variance) sample estimates of
+Kappa between successive models can be
+obtained. Proofs of relationships between
+the level of Kappa agreement and the dif-
+ference in performance between consecu-
+tive models are presented. Specifically, if
+the Kappa agreement between two mod-
+els exceeds a threshold T (where T > 0),
+then the difference in F-measure perfor-
+mance between those models is bounded
+above by 4(1?T )T in all cases. If precisionof the positive conjunction of the models
+is assumed to be p, then the bound can be
+tightened to 4(1?T )(p+1)T .
+1 

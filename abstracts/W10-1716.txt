@@ -1,0 +1,22 @@
+
+This paper describes the development of
+French?English and English?French ma-
+chine translation systems for the 2010
+WMT shared task evaluation. These sys-
+tems were standard phrase-based statisti-
+cal systems based on the Moses decoder,
+trained on the provided data only. Most
+of our efforts were devoted to the choice
+and extraction of bilingual data used for
+training. We filtered out some bilingual
+corpora and pruned the phrase table. We
+also investigated the impact of adding two
+types of additional bilingual texts, ex-
+tracted automatically from the available
+monolingual data. We first collected bilin-
+gual data by performing automatic trans-
+lations of monolingual texts. The second
+type of bilingual text was harvested from
+comparable corpora with Information Re-
+trieval techniques.
+1 

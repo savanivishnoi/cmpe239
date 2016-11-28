@@ -1,0 +1,10 @@
+
+The  speed  with  which  pronunciation  dictio-
+naries can be bootstrapped depends on the ef-
+ficiency of learning algorithms and on the or-
+dering of words presented to the user. This pa-
+per presents an active-learning word selection
+strategy that is mindful of human limitations.
+Learning rates approach that of an oracle sys-
+tem that knows the final LTS rule set. 
+1 

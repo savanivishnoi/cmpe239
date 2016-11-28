@@ -1,0 +1,11 @@
+. We propose a novel type of document classification task that
+quantifies how much a given document (review) appreciates the target
+object using not binary polarity (good or bad) but a continuous mea-
+sure called sentiment polarity score (sp-score). An sp-score gives a very
+concise summary of a review and provides more information than binary
+classification. The difficulty of this task lies in the quantification of po-
+larity. In this paper we use support vector regression (SVR) to tackle
+the problem. Experiments on book reviews with five-point scales show
+that SVR outperforms a multi-class classification method using support
+vector machines and the results are close to human performance.
+1 

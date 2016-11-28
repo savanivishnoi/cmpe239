@@ -1,0 +1,31 @@
+ 
+Statistical bilingual word alignment has been 
+well studied in the context of machine trans-
+lation. This paper adapts the bilingual word 
+alignment algorithm to monolingual scenario 
+to extract collocations from monolingual cor-
+pus. The monolingual corpus is first repli-
+cated to generate a parallel corpus, where 
+each sentence pair consists of two identical 
+sentences in the same language. Then the 
+monolingual word alignment algorithm is 
+employed to align the potentially collocated 
+words in the monolingual sentences. Finally 
+the aligned word pairs are ranked according 
+to refined alignment probabilities and those 
+with higher scores are extracted as colloca-
+tions. We conducted experiments using Chi-
+nese and English corpora individually. Com-
+pared with previous approaches, which use 
+association measures to extract collocations 
+from the co-occurring word pairs within a 
+given window, our method achieves higher 
+precision and recall. According to human 
+evaluation in terms of precision, our method 
+achieves absolute improvements of 27.9% on 
+the Chinese corpus and 23.6% on the English 
+corpus, respectively. Especially, we can ex-
+tract collocations with longer spans, achiev-
+ing a high precision of 69% on the long-span 
+(>6) Chinese collocations. 
+1 

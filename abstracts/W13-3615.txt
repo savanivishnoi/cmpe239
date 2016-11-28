@@ -1,0 +1,16 @@
+
+We report on the TOR system that partic-
+ipated in the 2013 CoNLL shared task on
+grammatical correction. The system was
+a provisional implementation of a beam
+search correction over a noisy channel
+model. Although the results on the shared
+task test set were poor, the approach may
+still be promising, as there are many as-
+pects of the current implementation that
+could be optimised. Grammatical correc-
+tion is inherently difficult both to perform
+and to evaluate. As such, possible im-
+provements to the evaluation are also dis-
+cussed.
+1 

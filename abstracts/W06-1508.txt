@@ -1,0 +1,16 @@
+
+Several grammars have been proposed
+for modeling RNA pseudoknotted struc-
+ture. In this paper, we focus on multiple
+context-free grammars (MCFGs), which
+are natural extension of context-free gram-
+mars and can represent pseudoknots, and
+extend a specific subclass of MCFGs to
+a probabilistic model called SMCFG. We
+present a polynomial time parsing algo-
+rithm for finding the most probable deriva-
+tion tree and a probability parameter esti-
+mation algorithm. Furthermore, we show
+some experimental results of pseudoknot
+prediction using SMCFG algorithm.
+1 

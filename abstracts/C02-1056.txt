@@ -1,0 +1,18 @@
+
+One of the key issues in spoken language trans-
+lation is how to deal with unrestricted expres-
+sions in spontaneous utterances. This research
+is centered on the development of a Chinese
+paraphraser that automatically paraphrases ut-
+terances prior to transfer in Chinese-Japanese
+spoken language translation. In this paper, a
+pattern-based approach to paraphrasing is pro-
+posed for which only morphological analysis is
+required. In addition, a pattern construction
+method is described through which paraphras-
+ing patterns can be efficiently learned from a
+paraphrase corpus and human experience. Us-
+ing the implemented paraphraser and the ob-
+tained patterns, a paraphrasing experiment was
+conducted and the results were evaluated.
+1 

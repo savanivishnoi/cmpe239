@@ -1,0 +1,21 @@
+
+Research in data-driven methods for Ma-
+chine Translation has greatly benefited
+from the increasing availability of paral-
+lel corpora. Processing the same text in
+two different languages yields useful in-
+formation on how words and phrases are
+translated from a source language into a
+target language. To investigate this, a par-
+allel corpus is typically aligned by linking
+linguistic tokens in the source language to
+the corresponding units in the target lan-
+guage. An aligned parallel corpus there-
+fore facilitates the automatic development
+of a machine translation system and can
+also bootstrap annotation through projec-
+tion. In this paper, we describe data col-
+lection and annotation efforts and prelim-
+inary experimental results with a parallel
+corpus English - Swahili.
+1 

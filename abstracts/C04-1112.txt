@@ -1,0 +1,18 @@
+
+In this paper, we present a corpus-based super-
+vised word sense disambiguation (WSD) sys-
+tem for Dutch which combines statistical classi-
+fication (maximum entropy) with linguistic in-
+formation. Instead of building individual clas-
+sifiers per ambiguous wordform, we introduce
+a lemma-based approach. The advantage of
+this novel method is that it clusters all inflec-
+ted forms of an ambiguous word in one classi-
+fier, therefore augmenting the training material
+available to the algorithm. Testing the lemma-
+based model on the Dutch SENSEVAL-2 test
+data, we achieve a significant increase in accur-
+acy over the wordform model. Also, the WSD
+system based on lemmas is smaller and more
+robust.
+1 

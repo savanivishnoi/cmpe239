@@ -1,0 +1,18 @@
+
+Deterministic dependency parsing is a robust
+and efficient approach to syntactic parsing of
+unrestricted natural language text. In this pa-
+per, we analyze its potential for incremental
+processing and conclude that strict incremen-
+tality is not achievable within this framework.
+However, we also show that it is possible to min-
+imize the number of structures that require non-
+incremental processing by choosing an optimal
+parsing algorithm. This claim is substantiated
+with experimental evidence showing that the al-
+gorithm achieves incremental parsing for 68.9%
+of the input when tested on a random sample
+of Swedish text. When restricted to sentences
+that are accepted by the parser, the degree of
+incrementality increases to 87.9%.
+1 

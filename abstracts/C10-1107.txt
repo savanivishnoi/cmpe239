@@ -1,0 +1,16 @@
+
+Active learning has been applied to dif-
+ferent NLP tasks, with the aim of limit-
+ing the amount of time and cost for human
+annotation. Most studies on active learn-
+ing have only simulated the annotation
+scenario, using prelabelled gold standard
+data. We present the first active learning
+experiment for Word Sense Disambigua-
+tion with human annotators in a realistic
+environment, using fine-grained sense dis-
+tinctions, and investigate whether AL can
+reduce annotation cost and boost classifier
+performance when applied to a real-world
+task.
+1 

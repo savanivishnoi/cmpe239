@@ -1,0 +1,20 @@
+
+In this paper the UNITOR-HMM-TK system
+participating in the Spatial Role Labeling
+task at SemEval 2013 is presented. The
+spatial roles classification is addressed as a
+sequence-based word classification problem:
+the SVMhmm learning algorithm is applied,
+based on a simple feature modeling and a ro-
+bust lexical generalization achieved through a
+Distributional Model of Lexical Semantics. In
+the identification of spatial relations, roles are
+combined to generate candidate relations, later
+verified by a SVM classifier. The Smoothed
+Partial Tree Kernel is applied, i.e. a con-
+volution kernel that enhances both syntactic
+and lexical properties of the examples, avoid-
+ing the need of a manual feature engineering
+phase. Finally, results on three of the five tasks
+of the challenge are reported.
+1 

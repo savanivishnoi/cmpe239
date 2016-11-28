@@ -1,0 +1,17 @@
+
+This paper presents a tool for extrac-
+ting multi-word expressions from cor-
+pora in Modern Greek, which is used to-
+gether with a parallel concordancer to aug-
+ment the lexicon of a rule-based machine-
+translation system. The tool is part of a
+larger extraction system that relies, in turn,
+on a multilingual parser developed over
+the past decade in our laboratory. The
+paper reviews the various NLP modules
+and resources which enable the retrieval
+of Greek multi-word expressions and their
+translations: the Greek parser, its lexical
+database, the extraction and concordanc-
+ing system.
+1 

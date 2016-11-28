@@ -1,0 +1,21 @@
+
+We consider the problem of NER in Arabic
+Wikipedia, a semisupervised domain adap-
+tation setting for which we have no labeled
+training data in the target domain. To fa-
+cilitate evaluation, we obtain annotations
+for articles in four topical groups, allow-
+ing annotators to identify domain-specific
+entity types in addition to standard cate-
+gories. Standard supervised learning on
+newswire text leads to poor target-domain
+recall. We train a sequence model and show
+that a simple modification to the online
+learner?a loss function encouraging it to
+?arrogantly? favor recall over precision?
+substantially improves recall and F1. We
+then adapt our model with self-training
+on unlabeled target-domain data; enforc-
+ing the same recall-oriented bias in the self-
+training stage yields marginal gains.1
+1 

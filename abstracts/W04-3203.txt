@@ -1,0 +1,19 @@
+
+Most statistical parsers have used the gram-
+mar induction approach, in which a stochastic
+grammar is induced from a treebank. An alter-
+native approach is to induce a controller for a
+given parsing automaton. Such controllers may
+be stochastic; here, we focus on greedy con-
+trollers, which result in deterministic parsers.
+We use decision trees to learn the controllers.
+The resulting parsers are surprisingly accurate
+and robust, considering their speed and simplic-
+ity. They are almost as fast as current part-of-
+speech taggers, and considerably more accurate
+than a basic unlexicalized PCFG parser. We
+also describe Markov parsing models, a general
+framework for parser modeling and control, of
+which the parsers reported here are a special
+case.
+1 

@@ -1,0 +1,9 @@
+
+We present a model for automatically predict-
+ing information status labels for German refer-
+ring expressions. We train a CRF on manually
+annotated phrases, and predict a fine-grained
+set of labels. We achieve an accuracy score of
+69.56% on our most detailed label set, 76.62%
+when gold standard coreference is available.
+1 

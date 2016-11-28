@@ -1,0 +1,19 @@
+
+Vocal activity detection is an impor-
+tant technology for both automatic speech
+recognition and automatic speech under-
+standing. In meetings, standard vocal
+activity detection algorithms have been
+shown to be ineffective, because partici-
+pants typically vocalize for only a frac-
+tion of the recorded time and because,
+while they are not vocalizing, their channels
+are frequently dominated by crosstalk from
+other participants. In the present work,
+we review a particular type of normaliza-
+tion of maximum cross-channel correlation,
+a feature recently introduced to address the
+crosstalk problem. We derive a plausible
+geometric interpretation and show how the
+frame size affects performance.
+1 

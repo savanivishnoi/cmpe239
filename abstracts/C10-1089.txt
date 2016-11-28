@@ -1,0 +1,24 @@
+
+Relations between entities in text have
+been widely researched in the natu-
+ral language processing and information-
+extraction communities. The region con-
+necting a pair of entities (in a parsed
+sentence) is often used to construct ker-
+nels or feature vectors that can recognize
+and extract interesting relations. Such re-
+gions are useful, but they can also incor-
+porate unnecessary distracting informa-
+tion. In this paper, we propose a rule-
+based method to remove the information
+that is unnecessary for relation extraction.
+Protein?protein interaction (PPI) is used
+as an example relation extraction problem.
+A dozen simple rules are defined on out-
+put from a deep parser. Each rule specif-
+ically examines the entities in one target
+interaction pair. These simple rules were
+tested using several PPI corpora. The PPI
+extraction performance was improved on
+all the PPI corpora.
+1 

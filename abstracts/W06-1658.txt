@@ -1,0 +1,22 @@
+
+Entity annotation involves attaching a la-
+bel such as ?name? or ?organization? to a
+sequence of tokens in a document. All the
+current rule-based and machine learning-
+based approaches for this task operate at
+the document level. We present a new
+and generic approach to entity annotation
+which uses the inverse index typically cre-
+ated for rapid key-word based searching
+of a document collection. We define a set
+of operations on the inverse index that al-
+lows us to create annotations defined by
+cascading regular expressions. The entity
+annotations for an entire document cor-
+pus can be created purely of the index
+with no need to access the original docu-
+ments. Experiments on two publicly avail-
+able data sets show very significant perfor-
+mance improvements over the document-
+based annotators.
+1 

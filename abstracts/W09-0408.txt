@@ -1,0 +1,17 @@
+
+We describe a synthetic method for com-
+bining machine translations produced by
+different systems given the same input.
+One-best outputs are explicitly aligned
+to remove duplicate words. Hypotheses
+follow system outputs in sentence order,
+switching between systems mid-sentence
+to produce a combined output. Experi-
+ments with the WMT 2009 tuning data
+showed improvement of 2 BLEU and 1
+METEOR point over the best Hungarian-
+English system. Constrained to data pro-
+vided by the contest, our system was sub-
+mitted to the WMT 2009 shared system
+combination task.
+1 

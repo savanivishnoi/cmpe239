@@ -1,0 +1,20 @@
+
+We report on recent advances in HPSG pars-
+ing of German with local ambiguity pack-
+ing (Oepen and Carroll, 2000), achieving a
+speed-up factor of 2 on a balanced test-suite.
+In contrast to earlier studies carried out for
+English using the same packing algorithm,
+we show that restricting semantic features
+only is insufficient for achieving acceptable
+runtime performance with a German HPSG
+grammar. In a series of experiments relating
+to the three different types of discontinuities
+in German (head movement, extraction, ex-
+traposition), we examine the effects of re-
+strictor choice, ultimately showing that ex-
+traction and head movement require partial
+restriction of the respective features encod-
+ing the dependency, whereas full restriction
+gives best results for extraposition.
+1 

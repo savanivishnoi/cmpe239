@@ -1,0 +1,18 @@
+
+This paper briefly reports our system for the
+SemEval-2013 Task 2: sentiment analysis in
+Twitter. We first used an SVM classifier with
+a wide range of features, including bag of
+word features (unigram, bigram), POS fea-
+tures, stylistic features, readability scores and
+other statistics of the tweet being analyzed,
+domain names, abbreviations, emoticons in
+the Twitter text. Then we investigated the ef-
+fectiveness of these features. We also used
+character n-gram language models to address
+the problem of high lexical variation in Twit-
+ter text and combined the two approaches to
+obtain the final results. Our system is robust
+and achieves good performance on the Twitter
+test data as well as the SMS test data.
+1 

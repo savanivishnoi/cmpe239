@@ -1,0 +1,33 @@
+ 
+ 
+ As interaction between speakers of different 
+languages continues to increase, the ever-
+present problem of language barriers must be 
+overcome. For the same reason, automatic 
+language translation (Machine Translation) has 
+become an attractive area of research and 
+development. Statistical Machine Translation 
+(SMT) has been used for translation between 
+many language pairs, the results of which have 
+shown considerable success. The focus of this 
+research is on the English/Persian language pair. 
+This paper investigates the development and 
+evaluation of the performance of a statistical 
+machine translation system by building a 
+baseline system using subtitles from Persian 
+films. We present an overview of previous 
+related work in English/Persian machine 
+translation, and examine the available corpora 
+for this language pair. We finally show the 
+results of the experiments of our system using 
+an in-house corpus and compare the results we 
+obtained when building a language model with 
+different sized monolingual corpora. Different 
+automatic evaluation metrics like BLEU, NIST 
+and IBM-BLEU were used to evaluate the 
+performance of the system on half of the corpus 
+built. Finally, we look at future work by 
+outlining ways of getting highly accurate 
+translations as fast as possible. 
+ 
+1    

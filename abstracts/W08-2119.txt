@@ -1,0 +1,22 @@
+
+Though phrase-based SMT has achieved high
+translation quality, it still lacks of generaliza-
+tion ability to capture word order differences
+between languages. In this paper we describe
+a general method for tree-to-string phrase-
+based SMT. We study how syntactic trans-
+formation is incorporated into phrase-based
+SMT and its effectiveness. We design syntac-
+tic transformation models using unlexicalized
+form of synchronous context-free grammars.
+These models can be learned from source-
+parsed bitext. Our system can naturally make
+use of both constituent and non-constituent
+phrasal translations in the decoding phase. We
+considered various levels of syntactic analy-
+sis ranging from chunking to full parsing.
+Our experimental results of English-Japanese
+and English-Vietnamese translation showed
+a significant improvement over two baseline
+phrase-based SMT systems.
+1 

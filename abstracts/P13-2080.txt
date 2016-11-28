@@ -1,0 +1,19 @@
+
+Textual entailment is an asymmetric rela-
+tion between two text fragments that de-
+scribes whether one fragment can be in-
+ferred from the other. It thus cannot cap-
+ture the notion that the target fragment
+is ?almost entailed? by the given text.
+The recently suggested idea of partial tex-
+tual entailment may remedy this problem.
+We investigate partial entailment under the
+faceted entailment model and the possibil-
+ity of adapting existing textual entailment
+methods to this setting. Indeed, our results
+show that these methods are useful for rec-
+ognizing partial entailment. We also pro-
+vide a preliminary assessment of how par-
+tial entailment may be used for recogniz-
+ing (complete) textual entailment.
+1 

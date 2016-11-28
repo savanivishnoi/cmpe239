@@ -1,0 +1,20 @@
+
+This paper outlines a measure of lan-
+guage similarity based on structural
+similarity of surface syntactic depen-
+dency trees. Unlike the more tradi-
+tional string-based measures, this mea-
+sure tries to reflect ?deeper? correspon-
+dences among languages. The develop-
+ment of this measure has been inspired
+by the experience from MT of syntac-
+tically similar languages. This experi-
+ence shows that the lexical similarity is
+less important than syntactic similar-
+ity. This claim is supported by a num-
+ber of examples illustrating the prob-
+lems which may arise when a measure
+of language similarity relies too much
+on a simple similarity of texts in differ-
+ent languages.
+1 

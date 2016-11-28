@@ -1,0 +1,14 @@
+
+Selection of natural-sounding referring ex-
+pressions is useful in text generation and in-
+formation summarization (Kan et al, 2001).
+We use discourse-level feature predicates in
+a maximum entropy classifier (Berger et al,
+1996) with binary and n-class classification to
+select referring expressions from a list. We
+find that while mention-type n-class classifi-
+cation produces higher accuracy of type, bi-
+nary classification of individual referring ex-
+pressions helps to avoid use of awkward refer-
+ring expressions.
+1 

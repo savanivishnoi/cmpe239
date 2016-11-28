@@ -1,0 +1,42 @@
+s: An
+Investigation of Three Different Schemes
+Yufan Guo
+University of Cambridge, UK
+yg244@cam.ac.uk
+Anna Korhonen
+University of Cambridge, UK
+alk23@cam.ac.uk
+Maria Liakata
+Aberystwyth University, UK
+mal@aber.ac.uk
+Ilona Silins
+Karolinska Institutet, SWEDEN
+Ilona.Silins@ki.se
+Lin Sun
+University of Cambridge, UK
+ls418@cam.ac.uk
+Ulla Stenius
+Karolinska Institutet, SWEDEN
+Ulla.Stenius@ki.se
+Abstract
+Many practical tasks require accessing
+specific types of information in scientific
+literature; e.g. information about the ob-
+jective, methods, results or conclusions of
+the study in question. Several schemes
+have been developed to characterize such
+information in full journal papers. Yet
+many tasks focus on abstracts instead. We
+take three schemes of different type and
+granularity (those based on section names,
+argumentative zones and conceptual struc-
+ture of documents) and investigate their
+applicability to biomedical abstracts. We
+show that even for the finest-grained of
+these schemes, the majority of categories
+appear in abstracts and can be identified
+relatively reliably using machine learning.
+We discuss the impact of our results and
+the need for subsequent task-based evalu-
+ation of the schemes.
+1 

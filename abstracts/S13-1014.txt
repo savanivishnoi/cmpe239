@@ -1,0 +1,14 @@
+
+This paper describes our submission for the
+*SEM shared task of Semantic Textual Sim-
+ilarity. We estimate the semantic similarity
+between two sentences using regression mod-
+els with features: 1) n-gram hit rates (lexical
+matches) between sentences, 2) lexical seman-
+tic similarity between non-matching words, 3)
+string similarity metrics, 4) affective content
+similarity and 5) sentence length. Domain
+adaptation is applied in the form of indepen-
+dent models and a model selection strategy
+achieving a mean correlation of 0.47.
+1 

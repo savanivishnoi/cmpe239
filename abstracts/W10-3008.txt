@@ -1,0 +1,20 @@
+
+Hedge cues were detected using a super-
+vised Conditional Random Field (CRF)
+classifier exploiting features from the
+RASP parser. The CRF?s predictions were
+filtered using known cues and unseen in-
+stances were removed, increasing preci-
+sion while retaining recall. Rules for scope
+detection, based on the grammatical re-
+lations of the sentence and the part-of-
+speech tag of the cue, were manually-
+developed. However, another supervised
+CRF classifier was used to refine these pre-
+dictions. As a final step, scopes were con-
+structed from the classifier output using a
+small set of post-processing rules. Devel-
+opment of the system revealed a number of
+issues with the annotation scheme adopted
+by the organisers.
+1 

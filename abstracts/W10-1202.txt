@@ -1,0 +1,25 @@
+
+In this paper, we propose a multiword-
+enhanced author topic model that clusters au-
+thors with similar interests and expertise, and
+apply it to an information retrieval system that
+returns a ranked list of authors related to a key-
+word. For example, we can retrieve Eugene
+Charniak via search for statistical parsing.
+The existing works on author topic model-
+ing assume a ?bag-of-words? representation.
+However, many semantic atomic concepts are
+represented by multiwords in text documents.
+This paper presents a pre-computation step as
+a way to discover these multiwords in the cor-
+pus automatically and tags them in the term-
+document matrix. The key advantage of this
+method is that it retains the simplicity and
+the computational efficiency of the unigram
+model. In addition to a qualitative evaluation,
+we evaluate the results by using the topic mod-
+els as a component in a search engine. We ex-
+hibit improved retrieval scores when the docu-
+ments are represented via sets of latent topics
+and authors.
+1 

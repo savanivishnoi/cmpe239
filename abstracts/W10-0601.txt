@@ -1,0 +1,19 @@
+
+(Mitchell et al, 2008) showed that it was pos-
+sible to use a text corpus to learn the value of
+hypothesized semantic features characterizing
+the meaning of a concrete noun. The authors
+also demonstrated that those features could
+be used to decompose the spatial pattern of
+fMRI-measured brain activation in response to
+a stimulus containing that noun and a picture
+of it. In this paper we introduce a method for
+learning such semantic features automatically
+from a text corpus, without needing to hypoth-
+esize them or provide any proxies for their
+presence on the text. We show that those fea-
+tures are effective in a more demanding classi-
+fication task than that in (Mitchell et al, 2008)
+and describe their qualitative relationship to
+the features proposed in that paper.
+1 

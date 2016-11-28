@@ -1,0 +1,14 @@
+
+This paper addresses the problem of the identification of the seman-
+tic relations in Italian complex nominals (CNs) of the type N+P+N.
+We exploit the fact that the semantic relation, which is underspeci-
+fied in most cases, is partially made explicit by the preposition. We
+develop an annotation framework around five different semantic rela-
+tions, which we use to create a corpus of 1700 Italian CNs, obtaining an
+inter-annotator agreement of K=.695. Exploiting this data, for each
+preposition p we train a classifier to assign one of the five semantic
+relations to any CN of the type N+p+N, by using both string and
+supersense features. To obtain supersenses, we experiment with a se-
+quential tagger as well as a plain lookup in MultiWordNet, and find
+that using information obtained from the former yields better results.
+1 

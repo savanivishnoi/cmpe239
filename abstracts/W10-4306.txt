@@ -1,0 +1,22 @@
+
+We introduce a novel approach for robust
+belief tracking of user intention within
+a spoken dialog system. The space of
+user intentions is modeled by a proba-
+bilistic extension of the underlying do-
+main ontology called a probabilistic on-
+tology tree (POT). POTs embody a prin-
+cipled approach to leverage the dependen-
+cies among domain concepts and incorpo-
+rate corroborating or conflicting dialog ob-
+servations in the form of interpreted user
+utterances across dialog turns. We tailor
+standard inference algorithms to the POT
+framework to efficiently compute the user
+intentions in terms of m-best most proba-
+ble explanations. We empirically validate
+the efficacy of our POT and compare it to
+a hierarchical frame-based approach in ex-
+periments with users of a tourism informa-
+tion system.
+1 

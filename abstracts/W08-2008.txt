@@ -1,0 +1,17 @@
+
+One of the main problems in research on
+automatic summarization is the inaccu-
+rate semantic interpretation of the source.
+Using specific domain knowledge can con-
+siderably alleviate the problem. In this pa-
+per, we introduce an ontology-based ex-
+tractive method for summarization. It is
+based on mapping the text to concepts
+and representing the document and its sen-
+tences as graphs. We have applied our
+approach to summarize biomedical litera-
+ture, taking advantages of free resources as
+UMLS. Preliminary empirical results are
+presented and pending problems are iden-
+tified.
+1 

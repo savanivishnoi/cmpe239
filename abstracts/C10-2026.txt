@@ -1,0 +1,40 @@
+ 
+Global ranking, a new information re-
+trieval (IR) technology, uses a ranking 
+model for cases in which there exist re-
+lationships between the objects to be 
+ranked. In the ranking task, the ranking 
+model is defined as a function of the 
+properties of the objects as well as the 
+relations between the objects. Existing 
+global ranking approaches address the 
+problem by ?learning to rank?. In this 
+paper, we propose a global ranking 
+framework that solves the problem via 
+data fusion. The idea is to take each re-
+trieved document as a pseudo-IR sys-
+tem. Each document generates a pseu-
+do-ranked list by a global function. The 
+data fusion algorithm is then adapted to 
+generate the final ranked list. Taking a 
+biomedical information extraction task, 
+namely, interactor normalization task 
+(INT), as an example, we explain how 
+the problem can be formulated as a 
+global ranking problem, and demon-
+strate how the proposed fusion-based 
+framework outperforms baseline me-
+thods. By using the proposed frame-
+work, we improve the performance of 
+the top 1 INT system by 3.2% using 
+the official evaluation metric of the 
+BioCreAtIvE challenge. In addition, by 
+employing the standard ranking quality 
+measure, NDCG, we demonstrate that 
+                                                 
+* Corresponding author 
+the proposed framework can be cas-
+caded with different local ranking 
+models and improve their ranking re-
+sults. 
+1 

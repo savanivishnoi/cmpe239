@@ -1,0 +1,24 @@
+
+In this work we present results from using
+Amazon?s Mechanical Turk (MTurk) to an-
+notate translation lexicons between English
+and a large set of less commonly used lan-
+guages. We generate candidate translations for
+100 English words in each of 42 foreign lan-
+guages using Wikipedia and a lexicon induc-
+tion framework. We evaluate the MTurk an-
+notations by using positive and negative con-
+trol candidate translations. Additionally, we
+evaluate the annotations by adding pairs to our
+seed dictionaries, providing a feedback loop
+into the induction system. MTurk workers are
+more successful in annotating some languages
+than others and are not evenly distributed
+around the world or among the world?s lan-
+guages. However, in general, we find that
+MTurk is a valuable resource for gathering
+cheap and simple annotations for most of the
+languages that we explored, and these anno-
+tations provide useful feedback in building a
+larger, more accurate lexicon.
+1 

@@ -1,0 +1,23 @@
+
+Given the increasing interest and devel-
+opment of computational and quantitative
+methods in historical linguistics, it is im-
+portant that scholars have a basis for doc-
+umenting, testing, evaluating, and shar-
+ing complex workflows. We present a
+novel open-source toolkit for quantitative
+tasks in historical linguistics that offers
+these features. This toolkit also serves
+as an interface between existing software
+packages and frequently used data for-
+mats, and it provides implementations of
+new and existing algorithms within a ho-
+mogeneous framework. We illustrate the
+toolkit?s functionality with an exemplary
+workflow that starts with raw language
+data and ends with automatically calcu-
+lated phonetic alignments, cognates and
+borrowings. We then illustrate evaluation
+metrics on gold standard datasets that are
+provided with the toolkit.
+1 

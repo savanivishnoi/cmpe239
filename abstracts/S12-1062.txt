@@ -1,0 +1,24 @@
+
+This paper describes the participation of
+UNED NLP group in the SEMEVAL 2012 Se-
+mantic Textual Similarity task. Our contribu-
+tion consists of an unsupervised method, Het-
+erogeneity Based Ranking (HBR), to combine
+similarity measures. Our runs focus on com-
+bining standard similarity measures for Ma-
+chine Translation. The Pearson correlation
+achieved is outperformed by other systems,
+due to the limitation of MT evaluation mea-
+sures in the context of this task. However,
+the combination of system outputs that partici-
+pated in the campaign produces three interest-
+ing results: (i) Combining all systems without
+considering any kind of human assessments
+achieve a similar performance than the best
+peers in all test corpora, (ii) combining the 40
+less reliable peers in the evaluation campaign
+achieves similar results; and (iii) the correla-
+tion between peers and HBR predicts, with a
+0.94 correlation, the performance of measures
+according to human assessments.
+1 

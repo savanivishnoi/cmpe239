@@ -1,0 +1,23 @@
+
+We present a novel voice-based human-
+computer interface designed to enable in-
+dividuals with motor impairments to use
+vocal parameters for continuous control
+tasks. Since discrete spoken commands
+are ill-suited to such tasks, our interface
+exploits a large set of continuous acoustic-
+phonetic parameters like pitch, loudness,
+vowel quality, etc. Their selection is opti-
+mized with respect to automatic recogniz-
+ability, communication bandwidth, learn-
+ability, suitability, and ease of use. Pa-
+rameters are extracted in real time, trans-
+formed via adaptation and acceleration,
+and converted into continuous control sig-
+nals. This paper describes the basic en-
+gine, prototype applications (in particu-
+lar, voice-based web browsing and a con-
+trolled trajectory-following task), and ini-
+tial user studies confirming the feasibility
+of this technology.
+1 

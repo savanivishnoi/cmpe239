@@ -1,0 +1,25 @@
+
+In this paper, we detail a method for do-
+main specific, multi-category emotion recog-
+nition, based on human computation. We cre-
+ate an Amazon Mechanical Turk1 task that
+elicits emotion labels and phrase-emotion as-
+sociations from the participants. Using the
+proposed method, we create an emotion lex-
+icon, compatible with the 20 emotion cate-
+gories of the Geneva Emotion Wheel. GEW
+is the first computational resource that can be
+used to assign emotion labels with such a high
+level of granularity. Our emotion annotation
+method also produced a corpus of emotion la-
+beled sports tweets. We compared the cross-
+validated version of the lexicon with existing
+resources for both the positive/negative and
+multi-emotion classification problems. We
+show that the presented domain-targeted lex-
+icon outperforms the existing general purpose
+ones in both settings. The performance gains
+are most pronounced for the fine-grained emo-
+tion classification, where we achieve an accu-
+racy twice higher than the benchmark.2
+1 

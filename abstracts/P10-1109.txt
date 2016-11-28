@@ -1,0 +1,15 @@
+
+A characterization of the expressive power
+of synchronous tree-adjoining grammars
+(STAGs) in terms of tree transducers (or
+equivalently, synchronous tree substitution
+grammars) is developed. Essentially, a
+STAG corresponds to an extended tree
+transducer that uses explicit substitution in
+both the input and output. This characteri-
+zation allows the easy integration of STAG
+into toolkits for extended tree transducers.
+Moreover, the applicability of the charac-
+terization to several representational and
+algorithmic problems is demonstrated.
+1 

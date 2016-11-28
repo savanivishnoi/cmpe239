@@ -1,0 +1,21 @@
+
+We describe a multi-step process for automati-
+cally learning reliable sub-sentential syntactic
+phrases that are translation equivalents of each
+other and syntactic translation rules between
+two languages. The input to the process is a
+corpus of parallel sentences, word-aligned and
+annotated with phrase-structure parse trees.
+We first apply a newly developed algorithm
+for aligning parse-tree nodes between the two
+parallel trees. Next, we extract all aligned
+sub-sentential syntactic constituents from the
+parallel sentences, and create a syntax-based
+phrase-table. Finally, we treat the node align-
+ments as tree decomposition points and extract
+from the corpus all possible synchronous par-
+allel tree fragments. These are then converted
+into synchronous context-free rules. We de-
+scribe the approach and analyze its application
+to Chinese-English parallel data.
+1 

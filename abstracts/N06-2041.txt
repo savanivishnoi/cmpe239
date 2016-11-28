@@ -1,0 +1,15 @@
+ 
+This paper proposes an automatic method 
+for disambiguating an acronym with mul-
+tiple definitions, considering the context 
+surrounding the acronym. First, the 
+method obtains the Web pages that in-
+clude both the acronym and its definitions. 
+Second, the method feeds them to the ma-
+chine learner. Cross-validation tests re-
+sults indicate that the current accuracy of 
+obtaining the appropriate definition for an 
+acronym is around 92% for two ambigu-
+ous definitions and around 86% for five 
+ambiguous definitions. 
+1 

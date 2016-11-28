@@ -1,0 +1,19 @@
+
+This paper reports on the develop-
+ment of a core semantics for German
+which was implemented on the ba-
+sis of an English semantics that con-
+verts LFG f-structures to flat meaning
+representations in a Neo-Davidsonian
+style. Thanks to the parallel design
+of the broad-coverage LFG grammars
+written in the context of the ParGram
+project (Butt et al, 2002) and the
+general surface independence of LFG
+f-structure analyses, the development
+process was substantially facilitated.
+We also discuss the overall architec-
+ture of the semantic conversion sys-
+tem from a crosslinguistic, theoretical
+perspective.
+1 

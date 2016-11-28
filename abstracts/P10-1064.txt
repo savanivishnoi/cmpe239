@@ -1,0 +1,23 @@
+
+We propose a translation recommendation
+framework to integrate Statistical Machine
+Translation (SMT) output with Transla-
+tion Memory (TM) systems. The frame-
+work recommends SMT outputs to a TM
+user when it predicts that SMT outputs are
+more suitable for post-editing than the hits
+provided by the TM. We describe an im-
+plementation of this framework using an
+SVM binary classifier. We exploit meth-
+ods to fine-tune the classifier and inves-
+tigate a variety of features of different
+types. We rely on automatic MT evalua-
+tion metrics to approximate human judge-
+ments in our experiments. Experimental
+results show that our system can achieve
+0.85 precision at 0.89 recall, excluding ex-
+act matches. Furthermore, it is possible for
+the end-user to achieve a desired balance
+between precision and recall by adjusting
+confidence levels.
+1 

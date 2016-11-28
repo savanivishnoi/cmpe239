@@ -1,0 +1,17 @@
+
+This paper reports our submissions to the
+Semantic Textual Similarity (STS) task in
+?SEM Shared Task 2013. We submitted three
+Support Vector Regression (SVR) systems in
+core task, using 6 types of similarity mea-
+sures, i.e., string similarity, number similar-
+ity, knowledge-based similarity, corpus-based
+similarity, syntactic dependency similarity and
+machine translation similarity. Our third sys-
+tem with different training data and different
+feature sets for each test data set performs the
+best and ranks 35 out of 90 runs. We also sub-
+mitted two systems in typed task using string
+based measure and Named Entity based mea-
+sure. Our best system ranks 5 out of 15 runs.
+1 

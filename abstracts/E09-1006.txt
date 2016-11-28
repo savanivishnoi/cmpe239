@@ -1,0 +1,20 @@
+
+The lack of positive results on super-
+vised domain adaptation for WSD have
+cast some doubts on the utility of hand-
+tagging general corpora and thus devel-
+oping generic supervised WSD systems.
+In this paper we show for the first time
+that our WSD system trained on a general
+source corpus (BNC) and the target corpus,
+obtains up to 22% error reduction when
+compared to a system trained on the tar-
+get corpus alone. In addition, we show
+that as little as 40% of the target corpus
+(when supplemented with the source cor-
+pus) is sufficient to obtain the same results
+as training on the full target data. The key
+for success is the use of unlabeled data
+with SVD, a combination of kernels and
+SVM.
+1 

@@ -1,0 +1,16 @@
+
+Standard grammar formalisms are defined with-
+out reflection of the incremental and serial na-
+ture of language processing, and incremental-
+ity must therefore be reflected by independently
+defined parsing and/or generation techniques.
+We argue that this leads to a poor setup for
+modelling dialogue, with its rich speaker-hearer
+interaction, and instead propose context-based
+parsing and generation models defined in terms
+of an inherently incremental grammar formal-
+ism (Dynamic Syntax), which allow a straight-
+forward model of otherwise problematic dia-
+logue phenomena such as shared utterances, el-
+lipsis and alignment.
+1 

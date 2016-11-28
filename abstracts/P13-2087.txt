@@ -1,0 +1,21 @@
+
+We present a fast method for re-purposing
+existing semantic word vectors to improve
+performance in a supervised task. Re-
+cently, with an increase in computing re-
+sources, it became possible to learn rich
+word embeddings from massive amounts
+of unlabeled data. However, some meth-
+ods take days or weeks to learn good em-
+beddings, and some are notoriously dif-
+ficult to train. We propose a method
+that takes as input an existing embedding,
+some labeled data, and produces an em-
+bedding in the same space, but with a bet-
+ter predictive performance in the super-
+vised task. We show improvement on the
+task of sentiment classification with re-
+spect to several baselines, and observe that
+the approach is most useful when the train-
+ing set is sufficiently small.
+1 

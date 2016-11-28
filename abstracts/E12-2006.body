@@ -1,0 +1,23 @@
+
+We propose a real-time machine translation
+system that allows users to select a news
+category and to translate the related live
+news articles from Arabic, Czech, Danish,
+Farsi, French, German, Italian, Polish, Por-
+tuguese, Spanish and Turkish into English.
+The Moses-based system was optimised for
+the news domain and differs from other
+available systems in four ways: (1) News
+items are automatically categorised on the
+source side, before translation; (2) Named
+entity translation is optimised by recog-
+nising and extracting them on the source
+side and by re-inserting their translation in
+the target language, making use of a sep-
+arate entity repository; (3) News titles are
+translated with a separate translation sys-
+tem which is optimised for the specific style
+of news titles; (4) The system was opti-
+mised for speed in order to cope with the
+large volume of daily news articles.
+1 

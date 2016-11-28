@@ -1,0 +1,26 @@
+ 
+This paper details our experiments 
+carried out at Word Sense Induction task. 
+For the foreign language (especially 
+English), there have been many studies 
+of word sense induction (WSI), and the 
+approaches and the techniques are more 
+and more mature. However, the study of 
+Chinese WSI is just getting started, and 
+there has not been a better way to solve 
+the problems encountered. WSI can be 
+divided into two categories: supervised 
+manner and unsupervised manner. But in 
+the light of the high cost of supervised 
+manner, we introduce novel solutions to 
+automatic and unsupervised WSI. In this 
+paper, we propose two different systems. 
+The first one is called K-means-based 
+Chinese word sense induction in an 
+unsupervised manner while the second 
+one is graph-based Chinese word sense 
+induction. In the experiments, the first 
+system has achieved a 0.7729 Fscore on 
+average while the second one has 
+achieved a 0.6067 Fscore. 
+1 

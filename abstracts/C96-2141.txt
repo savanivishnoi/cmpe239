@@ -1,0 +1,20 @@
+ 
+In this paper, we describe a new model 
+for word alignment in statistical trans- 
+lation and present experimental results. 
+The idea of the model is to make the 
+alignment probabilities dependent on the 
+differences in the alignment positions 
+rather than on the absolute positions. 
+To achieve this goal, the approach us- 
+es a first-order Hidden Markov model 
+(HMM) for the word alignment problem 
+as they are used successfully in speech 
+recognition for the time alignment prob- 
+lem. The difference to the time align- 
+ment HMM is that there is no monotony 
+constraint for the possible word order- 
+ings. We describe the details of the mod- 
+el and test the model on several bilingual 
+corpora. 
+1 

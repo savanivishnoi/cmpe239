@@ -1,0 +1,24 @@
+
+We show that the intelligent use of one small
+piece of contextual information?a document?s
+publication date?can improve the performance
+of classifiers trained on a text categorization
+task. We focus on academic research docu-
+ments, where the date of publication undoubt-
+edly has an effect on an author?s choice of
+words. To exploit this contextual feature, we
+propose the technique of temporal feature mod-
+ification, which takes various sources of lexi-
+cal change into account, including changes in
+term frequency, associative strength between
+terms and categories, and dynamic categoriza-
+tion systems. We present results of classifi-
+cation experiments using both full text papers
+and abstracts of conference proceedings, show-
+ing improved classification accuracy across the
+whole collection, with performance increases
+of greater than 40% when temporal features
+are exploited. The technique is fast, classifier-
+independent, and works well even when mak-
+ing only a few modifications.
+1 

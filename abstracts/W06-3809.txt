@@ -1,0 +1,21 @@
+
+This paper describes a new approach for
+estimating term weights in a text classifi-
+cation task. The approach uses term co-
+occurrence as a measure of dependency
+between word features. A random walk
+model is applied on a graph encoding
+words and co-occurrence dependencies,
+resulting in scores that represent a quan-
+tification of how a particular word feature
+contributes to a given context. We argue
+that by modeling feature weights using
+these scores, as opposed to the traditional
+frequency-based scores, we can achieve
+better results in a text classification task.
+Experiments performed on four standard
+classification datasets show that the new
+random-walk based approach outperforms
+the traditional term frequency approach to
+feature weighting.
+1 

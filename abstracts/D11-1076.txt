@@ -1,0 +1,23 @@
+
+This paper proposes a semi-supervised rela-
+tion acquisition method that does not rely on
+extraction patterns (e.g. ?X causes Y? for
+causal relations) but instead learns a combi-
+nation of indirect evidence for the target re-
+lation ? semantic word classes and partial
+patterns. This method can extract long tail
+instances of semantic relations like causality
+from rare and complex expressions in a large
+JapaneseWeb corpus? in extreme cases, pat-
+terns that occur only once in the entire cor-
+pus. Such patterns are beyond the reach of cur-
+rent pattern based methods. We show that our
+method performs on par with state-of-the-art
+pattern based methods, and maintains a rea-
+sonable level of accuracy even for instances
+acquired from infrequent patterns. This abil-
+ity to acquire long tail instances is crucial for
+risk management and innovation, where an ex-
+haustive database of high-level semantic rela-
+tions like causation is of vital importance.
+1 

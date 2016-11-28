@@ -1,0 +1,15 @@
+
+We propose a principled probabilisitc frame-
+work which uses trees over the vocabulary to
+capture similarities among terms in an infor-
+mation retrieval setting. This allows the re-
+trieval of documents based not just on occur-
+rences of specific query terms, but also on sim-
+ilarities between terms (an effect similar to
+query expansion). Additionally our principled
+generative model exhibits an effect similar to
+inverse document frequency. We give encour-
+aging experimental evidence of the superiority
+of the hierarchical Dirichlet tree compared to
+standard baselines.
+1 

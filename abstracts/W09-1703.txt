@@ -1,0 +1,22 @@
+
+Various techniques have been developed to au-
+tomatically induce semantic dictionaries from
+text corpora and from the Web. Our research
+combines corpus-based semantic lexicon in-
+duction with statistics acquired from the Web
+to improve the accuracy of automatically ac-
+quired domain-specific dictionaries. We use
+a weakly supervised bootstrapping algorithm
+to induce a semantic lexicon from a text cor-
+pus, and then issue Web queries to generate
+co-occurrence statistics between each lexicon
+entry and semantically related terms. The Web
+statistics provide a source of independent ev-
+idence to confirm, or disconfirm, that a word
+belongs to the intended semantic category. We
+evaluate this approach on 7 semantic cate-
+gories representing two domains. Our results
+show that the Web statistics dramatically im-
+prove the ranking of lexicon entries, and can
+also be used to filter incorrect entries.
+1 

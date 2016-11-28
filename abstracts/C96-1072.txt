@@ -1,0 +1,29 @@
+ 
+The development of natural anguage pro- 
+ccssing (NLP) systems that perform ma- 
+chine translation (MT) and information re- 
+trieval (IR) has highlighted the need for the 
+automatic recognition of proper names. 
+While various name recognizers have been 
+developed, they suffer from being too lim- 
+ited; some only recognize one name class, 
+and all are language specific. This work 
+develops an approach to multilingual name 
+recognition that allows a system optimized 
+for one language to be ported to another 
+with little additional effort and resources. 
+An initial core set of linguistic features, 
+useful for name recognition in most lan- 
+guages, is identified. When porting to a 
+new language, these features need to be 
+converted (partly by hand, partly by on-line 
+lists), after which point machine learning 
+(ML) techniques build decision trees that 
+map features to name classes. A system 
+initially optimized for English has been 
+successfully ported to Spanish and Japa- 
+nese. Only a few days of human effort for 
+each new language results in performance 
+levels comparable to that of the best cur- 
+rent English systems. 
+1 

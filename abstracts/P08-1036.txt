@@ -1,0 +1,17 @@
+
+Online reviews are often accompanied with
+numerical ratings provided by users for a set
+of service or product aspects. We propose
+a statistical model which is able to discover
+corresponding topics in text and extract tex-
+tual evidence from reviews supporting each of
+these aspect ratings ? a fundamental problem
+in aspect-based sentiment summarization (Hu
+and Liu, 2004a). Our model achieves high ac-
+curacy, without any explicitly labeled data ex-
+cept the user provided opinion ratings. The
+proposed approach is general and can be used
+for segmentation in other applications where
+sequential data is accompanied with corre-
+lated signals.
+1 

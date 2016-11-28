@@ -1,0 +1,17 @@
+
+This article presents a compression-based adap-
+tive algorithm for Chinese Pinyin input. There
+are many different input methods for Chinese
+character text and the phonetic Pinyin in-
+put method is the one most commonly used.
+Compression by Partial Match (PPM) is an
+adaptive statistical modelling technique that
+is widely used in the field of text compres-
+sion. Compression-based approaches are able to
+build models very efficiently and incrementally.
+Experiments show that adaptive compression-
+based approach for Pinyin input outperforms
+modified Kneser-Ney smoothing method im-
+plemented by SRILM language tools (Stolcke,
+2002).
+1 

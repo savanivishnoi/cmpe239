@@ -1,0 +1,24 @@
+ 
+We describe an annotation tool developed to as-
+sist in the creation of multimodal action-
+communication corpora from on-line massively 
+multi-player games, or MMGs. MMGs typically 
+involve groups of players (5-30) who control 
+their avatars1, perform various activities (quest-
+ing, competing, fighting, etc.) and communicate 
+via chat or speech using assumed screen names. 
+We collected a corpus of 48 group quests in 
+Second Life that jointly involved 206 players 
+who generated over 30,000 messages in quasi-
+synchronous chat during approximately 140 
+hours of recorded action. Multiple levels of co-
+ordinated annotation of this corpus (dialogue, 
+movements, touch, gaze, wear, etc) are required 
+in order to support development of automated 
+predictors of selected real-life social and demo-
+graphic characteristics of the players. The anno-
+tation tool presented in this paper was developed 
+to enable efficient and accurate annotation of all 
+dimensions simultaneously. 
+ 
+1 

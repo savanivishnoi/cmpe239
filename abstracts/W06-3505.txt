@@ -1,0 +1,26 @@
+
+Non-statistical natural language under-
+standing components need world knowl-
+edge of the domain for which they are ap-
+plied in a machine-readable form. This
+knowledge can be represented by manu-
+ally created ontologies. However, as soon
+as new concepts, instances or relations
+are involved in the domain, the manually
+created ontology lacks necessary informa-
+tion, i.e. it becomes obsolete and/or in-
+complete. This means its ?world model?
+will be insufficient to understand the user.
+The scalability of a natural language un-
+derstanding system, therefore, essentially
+depends on its capability to be up to
+date. The approach presented herein ap-
+plies the information provided by the user
+in a dialog system to acquire the knowl-
+edge needed to understand him or her ad-
+equately. Furthermore, it takes the posi-
+tion that the type of incremental ontology
+learning as proposed herein constitutes a
+viable approach to enhance the scalability
+of natural language systems.
+1 

@@ -1,0 +1,21 @@
+
+In order to integrate heterogeneous clinical
+information sources, semantically correlating
+information entities have to be linked. Our
+discussions with radiologists revealed that
+anatomical entities with pathological findings
+are of particular interest when linking radi-
+ology text and images. Previous research to
+identify pathological findings focused on sim-
+plistic approaches that recognize diseases or
+negated findings, but failed to establish a holis-
+tic approach. In this paper, we introduce our
+syntacto-semantic parsing approach to clas-
+sify sentences in radiology reports as either
+pathological or non-pathological based on the
+findings they describe. Although we operate
+with an incomplete, RadLex-based linguistic
+resource, the obtained results show the effec-
+tiveness of our approach by identifying a recall
+value of 74.3% for the classification task.
+1 

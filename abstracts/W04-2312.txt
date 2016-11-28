@@ -1,0 +1,19 @@
+
+The development of conversational multi-
+domain spoken dialogue systems poses new
+challenges for the reliable processing of less re-
+stricted user utterances. Unlike in controlled
+and restricted dialogue systems a simple one-
+to-one mapping from words to meanings is no
+longer feasible here. In this paper two different
+approaches to the resolution of lexical ambigu-
+ities are applied to a multi-domain corpus of
+speech recognition output produced from spon-
+taneous utterances in a spoken dialogue sys-
+tem. The resulting evaluations show that all
+approaches yield significant gains over the ma-
+jority class baseline performance of .68, i.e. f-
+measures of .79 for the knowledge-driven ap-
+proach and .86 for the supervised learning ap-
+proach.
+1 

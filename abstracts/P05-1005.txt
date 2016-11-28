@@ -1,0 +1,19 @@
+
+Word Sense Disambiguation suffers from
+a long-standing problem of knowledge ac-
+quisition bottleneck. Although state of the
+art supervised systems report good accu-
+racies for selected words, they have not
+been shown to be promising in terms of
+scalability. In this paper, we present an ap-
+proach for learning coarser and more gen-
+eral set of concepts from a sense tagged
+corpus, in order to alleviate the knowl-
+edge acquisition bottleneck. We show that
+these general concepts can be transformed
+to fine grained word senses using simple
+heuristics, and applying the technique for
+recent SENSEVAL data sets shows that our
+approach can yield state of the art perfor-
+mance.
+1 

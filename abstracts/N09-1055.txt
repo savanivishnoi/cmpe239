@@ -1,0 +1,28 @@
+ 
+With the in-depth study of sentiment analysis 
+research, finer-grained opinion mining, which 
+aims to detect opinions on different review fea-
+tures as opposed to the whole review level, has 
+been receiving more and more attention in the 
+sentiment analysis research community re-
+cently. Most of existing approaches rely mainly 
+on the template extraction to identify the ex-
+plicit relatedness between product feature and 
+opinion terms, which is insufficient to detect 
+the implicit review features and mine the hid-
+den sentiment association in reviews, which 
+satisfies (1) the review features are not appear 
+explicit in the review sentences; (2) it can be 
+deduced by the opinion words in its context. 
+From an information theoretic point of view, 
+this paper proposed an iterative reinforcement 
+framework based on the improved information 
+bottleneck algorithm to address such problem. 
+More specifically, the approach clusters prod-
+uct features and opinion words simultaneously 
+and iteratively by fusing both their semantic in-
+formation and co-occurrence information. The 
+experimental results demonstrate that our ap-
+proach outperforms the template extraction 
+based approaches. 
+1 

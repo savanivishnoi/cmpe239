@@ -1,0 +1,15 @@
+
+We present a revision learning model for
+improving the accuracy of a dependency
+parser. The revision stage corrects the out-
+put of the base parser by means of revi-
+sion rules learned from the mistakes of
+the base parser itself. Revision learning
+is performed with a discriminative classi-
+fier. The revision stage has linear com-
+plexity and preserves the efficiency of the
+base parser. We present empirical evalu-
+ations on the treebanks of two languages,
+which show effectiveness in relative error
+reduction and state of the art accuracy.
+1 

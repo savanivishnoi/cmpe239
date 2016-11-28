@@ -1,0 +1,32 @@
+
+We show that combining both bottom-up rule
+chunking and top-down rule segmentation
+search strategies in purely unsupervised learn-
+ing of phrasal inversion transduction gram-
+mars yields significantly better translation ac-
+curacy than either strategy alone. Previous ap-
+proaches have relied on incrementally building
+larger rules by chunking smaller rules bottom-
+up; we introduce a complementary top-down
+model that incrementally builds shorter rules
+by segmenting larger rules. Specifically, we
+combine iteratively chunked rules from Saers
+et al (2012) with our new iteratively seg-
+mented rules. These integrate seamlessly be-
+cause both stay strictly within a pure trans-
+duction grammar framework inducing under
+matching models during both training and
+testing?instead of decoding under a com-
+pletely different model architecture than what
+is assumed during the training phases, which
+violates an elementary principle of machine
+learning and statistics. To be able to drive in-
+duction top-down, we introduce a minimum
+description length objective that trades off
+maximum likelihood against model size. We
+show empirically that combining the more lib-
+eral rule chunking model with a more conser-
+vative rule segmentation model results in sig-
+nificantly better translations than either strat-
+egy in isolation.
+1 

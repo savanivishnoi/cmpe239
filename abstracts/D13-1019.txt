@@ -1,0 +1,24 @@
+
+The creation of a pronunciation lexicon re-
+mains the most inefficient process in develop-
+ing an Automatic Speech Recognizer (ASR).
+In this paper, we propose an unsupervised
+alternative ? requiring no language-specific
+knowledge ? to the conventional manual ap-
+proach for creating pronunciation dictionar-
+ies. We present a hierarchical Bayesian model,
+which jointly discovers the phonetic inven-
+tory and the Letter-to-Sound (L2S) mapping
+rules in a language using only transcribed
+data. When tested on a corpus of spontaneous
+queries, the results demonstrate the superior-
+ity of the proposed joint learning scheme over
+its sequential counterpart, in which the la-
+tent phonetic inventory and L2S mappings are
+learned separately. Furthermore, the recogniz-
+ers built with the automatically induced lexi-
+con consistently outperform grapheme-based
+recognizers and even approach the perfor-
+mance of recognition systems trained using
+conventional supervised procedures.
+1 

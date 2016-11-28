@@ -1,0 +1,19 @@
+
+This paper presents a novel approach for ex-
+ploiting the global context for the task of
+word sense disambiguation (WSD). This is
+done by using topic features constructed us-
+ing the latent dirichlet alocation (LDA) al-
+gorithm on unlabeled data. The features are
+incorporated into a modified na??ve Bayes
+network alongside other features such as
+part-of-speech of neighboring words, single
+words in the surrounding context, local col-
+locations, and syntactic patterns. In both the
+English all-words task and the English lex-
+ical sample task, the method achieved sig-
+nificant improvement over the simple na??ve
+Bayes classifier and higher accuracy than the
+best official scores on Senseval-3 for both
+task.
+1 

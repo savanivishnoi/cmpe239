@@ -1,0 +1,12 @@
+ 
+In this paper we address the problem of 
+choosing the best solution(s) from a set 
+of interpretations of the same object (in 
+our case a segment of text). A notion of 
+preference is stated, based on pairwise 
+comparisons of complete interpretations in 
+order to obtain a partial order among the 
+competing interpretations. An experimental 
+implementation is described, which uses 
+Prolog-l ike preference statements. 
+1. 

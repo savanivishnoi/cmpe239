@@ -1,0 +1,17 @@
+
+The goal of this article is to present our work
+about a combination of several syntactic
+parsers to produce a more robust parser. We
+have built a platform which allows us to
+compare syntactic parsers for a given language
+by splitting their results in elementary pieces,
+normalizing them, and comparing them with
+reference results. The same platform is used to
+combine several parsers to produce a
+dependency parser that has larger coverage
+and is more robust than its component parsers.
+In the future, it should be possible to
+?compile? the knowledge extracted from
+several analyzers into an autonomous
+dependency parser.
+1 

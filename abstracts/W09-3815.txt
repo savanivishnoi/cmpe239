@@ -1,0 +1,20 @@
+
+We apply the idea of weight pushing
+(Mohri, 1997) to CKY parsing with fixed
+context-free grammars. Applied after
+rule binarization, weight pushing takes the
+weight from the original grammar rule and
+pushes it down across its binarized pieces,
+allowing the parser to make better prun-
+ing decisions earlier in the parsing pro-
+cess. This process can be viewed as gen-
+eralizing weight pushing from transduc-
+ers to hypergraphs. We examine its ef-
+fect on parsing efficiency with various bi-
+narization schemes applied to tree sub-
+stitution grammars from previous work.
+We find that weight pushing produces dra-
+matic improvements in efficiency, espe-
+cially with small amounts of time and with
+large grammars.
+1 

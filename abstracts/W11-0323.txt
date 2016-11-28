@@ -1,0 +1,13 @@
+
+We investigate the use of Semi-Supervised
+Learning (SSL) in opinion detection both in
+sparse data situations and for domain adapta-
+tion. We show that co-training reaches the best
+results in an in-domain setting with small la-
+beled data sets, with a maximum absolute gain
+of 33.5%. For domain transfer, we show that
+self-training gains an absolute improvement in
+labeling accuracy for blog data of 16% over
+the supervised approach with target domain
+training data.
+1 

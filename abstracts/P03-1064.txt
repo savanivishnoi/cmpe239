@@ -1,0 +1,24 @@
+
+Supertagging is the tagging process of
+assigning the correct elementary tree of
+LTAG, or the correct supertag, to each
+word of an input sentence1 . In this pa-
+per we propose to use supertags to expose
+syntactic dependencies which are unavail-
+able with POS tags. We first propose a
+novel method of applying Sparse Network
+of Winnow (SNoW) to sequential models.
+Then we use it to construct a supertagger
+that uses long distance syntactical depen-
+dencies, and the supertagger achieves an
+accuracy of 
+	 . We apply the su-
+pertagger to NP chunking. The use of su-
+pertags in NP chunking gives rise to al-
+most 	 absolute increase (from 
+to  ) in F-score under Transforma-
+tion Based Learning(TBL) frame. The
+surpertagger described here provides an
+effective and efficient way to exploit syn-
+tactic information.
+1 

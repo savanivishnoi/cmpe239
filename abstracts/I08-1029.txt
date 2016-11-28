@@ -1,0 +1,17 @@
+
+Many acoustic approaches to prosodic la-
+beling in English have employed only lo-
+cal classifiers, although text-based classifi-
+cation has employed some sequential mod-
+els. In this paper we employ linear chain and
+factorial conditional random fields (CRFs)
+in conjunction with rich, contextually-based
+prosodic features, to exploit sequential de-
+pendencies and to facilitate integration with
+lexical features. Integration of lexical and
+prosodic features improves pitch accent pre-
+diction over either feature set alne, and for
+lower accuracy feature sets, factorial CRF
+models can improve over linear chain based
+prediction of pitch accent.
+1 

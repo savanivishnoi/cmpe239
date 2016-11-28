@@ -1,0 +1,16 @@
+
+We address the task of automatic discovery of
+information extraction template from a given
+text collection. Our approach clusters candi-
+date slot fillers to identify meaningful tem-
+plate slots. We propose a generative model
+that incorporates distributional prior knowl-
+edge to help distribute candidates in a docu-
+ment into appropriate slots. Empirical results
+suggest that the proposed prior can bring sub-
+stantial improvements to our task as compared
+to a K-means baseline and a Gaussian mixture
+model baseline. Specifically, the proposed
+prior has shown to be effective when coupled
+with discriminative features of the candidates.
+1 

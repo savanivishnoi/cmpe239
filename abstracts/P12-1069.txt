@@ -1,0 +1,12 @@
+
+This paper presents a novel top-down head-
+driven parsing algorithm for data-driven pro-
+jective dependency analysis. This algorithm
+handles global structures, such as clause and
+coordination, better than shift-reduce or other
+bottom-up algorithms. Experiments on the
+English Penn Treebank data and the Chinese
+CoNLL-06 data show that the proposed algo-
+rithm achieves comparable results with other
+data-driven dependency parsing algorithms.
+1 

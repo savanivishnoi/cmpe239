@@ -1,0 +1,26 @@
+
+This paper presents a generic dialogue
+state tracker that maintains beliefs over
+user goals based on a few simple domain-
+independent rules, using basic probability
+operations. The rules apply to observed
+system actions and partially observable
+user acts, without using any knowledge
+obtained from external resources (i.e.
+without requiring training data). The core
+insight is to maximise the amount of in-
+formation directly gainable from an error-
+prone dialogue itself, so as to better lower-
+bound one?s expectations on the perfor-
+mance of more advanced statistical tech-
+niques for the task. The proposed method
+is evaluated in the Dialog State Track-
+ing Challenge, where it achieves compara-
+ble performance in hypothesis accuracy to
+machine learning based systems. Conse-
+quently, with respect to different scenarios
+for the belief tracking problem, the poten-
+tial superiority and weakness of machine
+learning approaches in general are investi-
+gated.
+1 

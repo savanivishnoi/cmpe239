@@ -1,0 +1,16 @@
+ 
+This paper describes the specifications and 
+results of UMCC_DLSI-(EPS) system, which 
+participated in the first Evaluating Phrasal 
+Semantics of SemEval-2013. Our supervised 
+system uses different kinds of semantic 
+features to train a bagging classifier used to 
+select the correct similarity option. Related to 
+the different features we can highlight the 
+resource WordNet used to extract semantic 
+relations among words and the use of different 
+algorithms to establish semantic similarities. 
+Our system obtains promising results with a 
+precision value around 78% for the English 
+corpus and 71.84% for the Italian corpus. 
+1 

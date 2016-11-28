@@ -1,0 +1,17 @@
+
+Synchronous tree substitution grammars are a
+translation model that is used in syntax-based
+machine translation. They are investigated in
+a formal setting and compared to a competi-
+tor that is at least as expressive. The competi-
+tor is the extended multi bottom-up tree trans-
+ducer, which is the bottom-up analogue with
+one essential additional feature. This model
+has been investigated in theoretical computer
+science, but seems widely unknown in natu-
+ral language processing. The two models are
+compared with respect to standard algorithms
+(binarization, regular restriction, composition,
+application). Particular attention is paid to the
+complexity of the algorithms.
+1 

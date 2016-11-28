@@ -1,0 +1,16 @@
+
+This paper presents a demonstration of a tem-
+poral reasoning system that addresses three
+fundamental tasks related to temporal expres-
+sions in text: extraction, normalization to time
+intervals and comparison. Our system makes
+use of an existing state-of-the-art temporal ex-
+traction system, on top of which we add sev-
+eral important novel contributions. In addi-
+tion, we demonstrate that our system can per-
+form temporal reasoning by comparing nor-
+malized temporal expressions with respect
+to several temporal relations. Experimental
+study shows that the system achieves excellent
+performance on all the tasks we address.
+1 

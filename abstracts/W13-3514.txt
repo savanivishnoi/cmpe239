@@ -1,0 +1,18 @@
+
+Determining the stance expressed by an
+author from a post written for a two-sided
+debate in an online debate forum is a
+relatively new problem in opinion min-
+ing. We extend a state-of-the-art learning-
+based approach to debate stance classifica-
+tion by (1) inducing lexico-syntactic pat-
+terns based on syntactic dependencies and
+semantic frames that aim to capture the
+meaning of a sentence and provide a gen-
+eralized representation of it; and (2) im-
+proving the classification of a test post via
+a novel way of exploiting the information
+in other test posts with the same stance.
+Empirical results on four datasets demon-
+strate the effectiveness of our extensions.
+1 

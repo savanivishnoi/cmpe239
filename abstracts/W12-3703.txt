@@ -1,0 +1,12 @@
+
+This paper presents a novel approach in Sen-
+timent Polarity Detection on Twitter posts, by
+extracting a vector of weighted nodes from the
+graph of WordNet. These weights are used
+on SentiWordNet to compute a final estima-
+tion of the polarity. Therefore, the method
+proposes a non-supervised solution that is
+domain-independent. The evaluation over a
+generated corpus of tweets shows that this
+technique is promising.
+1 

@@ -1,0 +1,21 @@
+
+We propose a supervised, two-phase
+framework to address the problem of para-
+phrase recognition (PR). Unlike most PR
+systems that focus on sentence similarity,
+our framework detects dissimilarities be-
+tween sentences and makes its paraphrase
+judgment based on the significance of such
+dissimilarities. The ability to differenti-
+ate significant dissimilarities not only re-
+veals what makes two sentences a non-
+paraphrase, but also helps to recall addi-
+tional paraphrases that contain extra but
+insignificant information. Experimental
+results show that while being accurate
+at discerning non-paraphrasing dissimilar-
+ities, our implemented system is able to
+achieve higher paraphrase recall (93%), at
+an overall performance comparable to the
+alternatives.
+1 

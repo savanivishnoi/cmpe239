@@ -1,0 +1,31 @@
+
+Pointing gestures are pervasive in human
+referring actions, and are often combined
+with spoken descriptions. Combining ges-
+ture and speech naturally to refer to objects
+is an essential task in multimodal NLG
+systems. However, the way gesture and
+speech should be combined in a referring
+act remains an open question. In particu-
+lar, it is not clear whether, in planning a
+pointing gesture in conjunction with a de-
+scription, an NLG system should seek to
+minimise the redundancy between them,
+e.g. by letting the pointing gesture indi-
+cate locative information, with other, non-
+locative properties of a referent included
+in the description. This question has a
+bearing on whether the gestural and spo-
+ken parts of referring acts are planned sep-
+arately or arise from a common underly-
+ing computational mechanism. This paper
+investigates this question empirically, us-
+ing machine-learning techniques on a new
+corpus of dialogues involving multimodal
+references to objects. Our results indi-
+cate that human pointing strategies inter-
+act with descriptive strategies. In partic-
+ular, pointing gestures are strongly asso-
+ciated with the use of locative features in
+referring expressions.
+1 

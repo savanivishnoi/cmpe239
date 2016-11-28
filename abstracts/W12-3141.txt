@@ -1,0 +1,17 @@
+
+This paper describes LIMSI?s submissions to
+the shared translation task. We report results
+for French-English and German-English in
+both directions. Our submissions use n-code,
+an open source system based on bilingual
+n-grams. In this approach, both the transla-
+tion and target language models are estimated
+as conventional smoothed n-gram models; an
+approach we extend here by estimating the
+translation probabilities in a continuous space
+using neural networks. Experimental results
+show a significant and consistent BLEU im-
+provement of approximately 1 point for all
+conditions. We also report preliminary experi-
+ments using an ?on-the-fly? translation model.
+1 

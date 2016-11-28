@@ -1,0 +1,24 @@
+
+Semantic parsing is the task of mapping
+natural language sentences to complete
+formal meaning representations. The per-
+formance of semantic parsing can be po-
+tentially improved by using discrimina-
+tive reranking, which explores arbitrary
+global features. In this paper, we investi-
+gate discriminative reranking upon a base-
+line semantic parser, SCISSOR, where the
+composition of meaning representations is
+guided by syntax. We examine if features
+used for syntactic parsing can be adapted
+for semantic parsing by creating similar
+semantic features based on the mapping
+between syntax and semantics. We re-
+port experimental results on two real ap-
+plications, an interpreter for coaching in-
+structions in robotic soccer and a natural-
+language database interface. The results
+show that reranking can improve the per-
+formance on the coaching interpreter, but
+not on the database interface.
+1 

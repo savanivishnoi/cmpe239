@@ -1,0 +1,18 @@
+
+We propose a method for modeling pronunci-
+ation variation in the context of spell checking
+for non-native writers of English. Spell check-
+ers, typically developed for native speakers,
+fail to address many of the types of spelling
+errors peculiar to non-native speakers, espe-
+cially those errors influenced by differences in
+phonology. Our model of pronunciation varia-
+tion is used to extend a pronouncing dictionary
+for use in the spelling correction algorithm
+developed by Toutanova and Moore (2002),
+which includes models for both orthography
+and pronunciation. The pronunciation vari-
+ation modeling is shown to improve perfor-
+mance for misspellings produced by Japanese
+writers of English.
+1 

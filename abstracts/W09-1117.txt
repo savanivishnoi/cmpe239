@@ -1,0 +1,21 @@
+
+This paper presents novel improvements
+to the induction of translation lexicons
+from monolingual corpora using multilin-
+gual dependency parses. We introduce a
+dependency-based context model that in-
+corporates long-range dependencies, vari-
+able context sizes, and reordering. It pro-
+vides a 16% relative improvement over
+the baseline approach that uses a fixed
+context window of adjacent words. Its
+Top 10 accuracy for noun translation is
+higher than that of a statistical translation
+model trained on a Spanish-English par-
+allel corpus containing 100,000 sentence
+pairs. We generalize the evaluation to
+other word-types, and show that the per-
+formance can be increased to 18% rela-
+tive by preserving part-of-speech equiva-
+lencies during translation.
+1 

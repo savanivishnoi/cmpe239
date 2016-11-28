@@ -1,0 +1,23 @@
+ 
+The formal architecture of Lexical Func- 
+tional Grammar offers a particular formal 
+device, the structural correspondence, for 
+modularizing the mapping between the sur- 
+face forms of a language and representa- 
+tions of their underlying meanings. This 
+approach works well when the structural 
+discrepancies between form and meaning 
+representations are finitely bounded, but 
+there are some phenomena in natural an- 
+guage, e.g. adverbs in English, where this 
+restriction does not hold. In this paper, we 
+describe rule-based type-driven interpreta- 
+tion algorithms which cover cases of such 
+a structural misalignment by exploiting a 
+new descriptive device, the "restriction op- 
+erator". The algorithms are set up in such 
+a way that recursive rules can be derived 
+for the interpretation f adjunct sets within 
+a codescripiion approach (see \[Kaplan and 
+Wedekind, 1993\] for details). 
+1 

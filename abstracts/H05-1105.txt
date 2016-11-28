@@ -1,0 +1,12 @@
+
+Recent work has shown that very large
+corpora can act as training data for NLP
+algorithms even without explicit labels. In
+this paper we show how the use of sur-
+face features and paraphrases in queries
+against search engines can be used to infer
+labels for structural ambiguity resolution
+tasks. Using unsupervised algorithms, we
+achieve 84% precision on PP-attachment
+and 80% on noun compound coordination.
+1 

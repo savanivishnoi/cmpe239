@@ -1,0 +1,16 @@
+
+Two recent measures incorporate the notion of
+statistical significance in basic PMI formula-
+tion. In some tasks, we find that the new mea-
+sures perform worse than the PMI. Our anal-
+ysis shows that while the basic ideas in incor-
+porating statistical significance in PMI are rea-
+sonable, they have been applied slightly inap-
+propriately. By fixing this, we get new mea-
+sures that improve performance over not just
+PMI but on other popular co-occurrence mea-
+sures as well. In fact, the revised measures
+perform reasonably well compared with more
+resource intensive non co-occurrence based
+methods also.
+1 

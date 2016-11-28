@@ -1,0 +1,15 @@
+
+We present in this paper the system sub-
+missions of the SDL Language Weaver
+team in the WMT 2012 Quality Estimation
+shared-task. Our MT quality-prediction sys-
+tems use machine learning techniques (M5P
+regression-tree and SVM-regression models)
+and a feature-selection algorithm that has been
+designed to directly optimize towards the of-
+ficial metrics used in this shared-task. The
+resulting submissions placed 1st (the M5P
+model) and 2nd (the SVM model), respec-
+tively, on both the Ranking task and the Scor-
+ing task, out of 11 participating teams.
+1 

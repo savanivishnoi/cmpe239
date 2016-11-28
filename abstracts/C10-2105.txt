@@ -1,0 +1,28 @@
+
+In this paper we propose a novel algorithm
+for opinion summarization that takes ac-
+count of content and coherence, simulta-
+neously. We consider a summary as a se-
+quence of sentences and directly acquire
+the optimum sequence from multiple re-
+view documents by extracting and order-
+ing the sentences. We achieve this with a
+novel Integer Linear Programming (ILP)
+formulation. Our proposed formulation is
+a powerful mixture of the Maximum Cov-
+erage Problem and the Traveling Sales-
+man Problem, and is widely applicable to
+text generation and summarization tasks.
+We score each candidate sequence accord-
+ing to its content and coherence. Since
+our research goal is to summarize reviews,
+the content score is defined by opinions
+and the coherence score is developed in
+training against the review document cor-
+pus. We evaluate our method using the
+reviews of commodities and restaurants.
+Our method outperforms existing opinion
+summarizers as indicated by its ROUGE
+score. We also report the results of human
+readability experiments.
+1 

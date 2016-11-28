@@ -1,0 +1,21 @@
+
+An important task in information extraction
+(IE) from biomedical articles is term iden-
+tification (TI), which concerns linking en-
+tity mentions (e.g., terms denoting proteins)
+in text to unambiguous identifiers in stan-
+dard databases (e.g., RefSeq). Previous work
+on TI has focused on species-specific docu-
+ments. However, biomedical documents, es-
+pecially full-length articles, often talk about
+entities across a number of species, in which
+case resolving species ambiguity becomes an
+indispensable part of TI. This paper de-
+scribes our rule-based and machine-learning
+based approaches to species disambiguation
+and demonstrates that performance of TI can
+be improved by over 20% if the correct species
+are known. We also show that using the
+species predicted by the automatic species tag-
+gers can improve TI by a large margin.
+1 

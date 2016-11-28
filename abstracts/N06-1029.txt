@@ -1,0 +1,32 @@
+
+Recognition of tone and intonation is es-
+sential for speech recognition and lan-
+guage understanding. However, most ap-
+proaches to this recognition task have re-
+lied upon extensive collections of man-
+ually tagged data obtained at substantial
+time and financial cost. In this paper,
+we explore two approaches to tone learn-
+ing with substantially reductions in train-
+ing data. We employ both unsupervised
+clustering and semi-supervised learning
+to recognize pitch accent in English and
+tones in Mandarin Chinese. In unsu-
+pervised Mandarin tone clustering exper-
+iments, we achieve 57-87% accuracy on
+materials ranging from broadcast news to
+clean lab speech. For English pitch accent
+in broadcast news materials, results reach
+78%. In the semi-supervised framework,
+we achieve Mandarin tone recognition ac-
+curacies ranging from 70% for broadcast
+news speech to 94% for read speech, out-
+performing both Support Vector Machines
+(SVMs) trained on only the labeled data
+and the 25% most common class assign-
+ment level. These results indicate that the
+intrinsic structure of tone and pitch accent
+acoustics can be exploited to reduce the
+need for costly labeled training data for
+tone learning and recognition.
+1 

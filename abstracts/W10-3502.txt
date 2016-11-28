@@ -1,0 +1,20 @@
+
+One of the valuable features of any col-
+laboratively constructed semantic resource
+(CSR) is its ability to ? as a system ? con-
+tinuously correct itself. Wikipedia is an ex-
+cellent example of such a process, with van-
+dalism and misinformation being removed
+or reverted in astonishing time by a coali-
+tion of human editors and machine bots.
+However, some errors are harder to spot
+than others, a problem which can lead to
+persistent unchecked errors, particularly on
+more obscure, less viewed article pages. In
+this paper we discuss the problems of incor-
+rect link targets in Wikipedia, and propose
+a method of automatically highlighting and
+correcting them using only the semantic
+information found in this encyclopaedia?s
+link structure.
+1 

@@ -1,0 +1,15 @@
+
+In an automatic speech recognition system us-
+ing a tied-mixture acoustic model, the main
+cost in CPU time and memory lies not in
+the evaluation and storage of Gaussians them-
+selves but rather in evaluating the mixture
+likelihoods for each state output distribution.
+Using a simple entropy-based technique for
+pruning the mixture weight distributions, we
+can achieve a significant speedup in recogni-
+tion for a 5000-word vocabulary with a negli-
+gible increase in word error rate. This allows
+us to achieve real-time connected-word dicta-
+tion on an ARM-based mobile device.
+1 

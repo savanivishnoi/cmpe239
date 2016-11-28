@@ -1,0 +1,27 @@
+
+In contrast with the booming increase of inter-
+net data, state-of-art QA (question answering)
+systems, otherwise, concerned data from spe-
+cific domains or resources such as search en-
+gine snippets, online forums and Wikipedia in
+a somewhat isolated way. Users may welcome
+a more general QA system for its capability
+to answer questions of various sources, inte-
+grated from existed specialized sub-QA en-
+gines. In this framework, question classifica-
+tion is the primary task.
+However, the current paradigms of question
+classification were focused on some speci-
+fied type of questions, i.e. factoid questions,
+which are inappropriate for the general QA.
+In this paper, we propose a new question clas-
+sification paradigm, which includes a ques-
+tion taxonomy suitable to the general QA and
+a question classifier based on MLN (Markov
+logic network), where rule-based methods and
+statistical methods are unified into a single
+framework in a fuzzy discriminative learning
+approach. Experiments show that our method
+outperforms traditional question classification
+approaches.
+1 

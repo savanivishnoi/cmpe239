@@ -1,0 +1,18 @@
+
+This paper presents a novel method for the com-
+putation of word meaning in context. We make
+use of a factorization model in which words, to-
+gether with their window-based context words
+and their dependency relations, are linked to
+latent dimensions. The factorization model al-
+lows us to determine which dimensions are im-
+portant for a particular context, and adapt the
+dependency-based feature vector of the word
+accordingly. The evaluation on a lexical substi-
+tution task ? carried out for both English and
+French ? indicates that our approach is able to
+reach better results than state-of-the-art meth-
+ods in lexical substitution, while at the same
+time providing more accurate meaning repre-
+sentations.
+1 

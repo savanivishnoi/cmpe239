@@ -1,0 +1,21 @@
+
+In this paper, we propose a novel
+dependency-based bracketing transduc-
+tion grammar for statistical machine
+translation, which converts a source sen-
+tence into a target dependency tree. Dif-
+ferent from conventional bracketing trans-
+duction grammar models, we encode tar-
+get dependency information into our lex-
+ical rules directly, and then we employ
+two different maximum entropy models
+to determine the reordering and combi-
+nation of partial dependency structures,
+when we merge two neighboring blocks.
+By incorporating dependency language
+model further, large-scale experiments on
+Chinese-English task show that our sys-
+tem achieves significant improvements
+over the baseline system on various test
+sets even with fewer phrases.
+1 

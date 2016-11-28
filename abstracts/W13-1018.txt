@@ -1,0 +1,21 @@
+
+The linguistic annotation of noun-verb com-
+plex predicates (also termed as light verb con-
+structions) is challenging as these predicates
+are highly productive in Hindi. For semantic
+role labelling, each argument of the noun-verb
+complex predicate must be given a role la-
+bel. For complex predicates, frame files need
+to be created specifying the role labels for
+each noun-verb complex predicate. The cre-
+ation of frame files is usually done manually,
+but we propose an automatic method to expe-
+dite this process. We use two resources for
+this method: Hindi PropBank frame files for
+simple verbs and the annotated Hindi Tree-
+bank. Our method perfectly predicts 65% of
+the roles in 3015 unique noun-verb combi-
+nations, with an additional 22% partial pre-
+dictions, giving us 87% useful predictions to
+build our annotation resource.
+1 

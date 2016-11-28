@@ -1,0 +1,29 @@
+
+To improve the Mandarin large vocabulary
+continuous speech recognition (LVCSR), a
+unified framework based approach is intro-
+duced to exploit multi-level linguistic knowl-
+edge. In this framework, each knowledge
+source is represented by a Weighted Finite
+State Transducer (WFST), and then they are
+combined to obtain a so-called analyzer for in-
+tegrating multi-level knowledge sources. Due
+to the uniform transducer representation, any
+knowledge source can be easily integrated into
+the analyzer, as long as it can be encoded
+into WFSTs. Moreover, as the knowledge in
+each level is modeled independently and the
+combination is processed in the model level,
+the information inherently in each knowledge
+source has a chance to be thoroughly ex-
+ploited. By simulations, the effectiveness
+of the analyzer is investigated, and then a
+LVCSR system embedding the presented ana-
+lyzer is evaluated. Experimental results reveal
+that this unified framework is an effective ap-
+proach which significantly improves the per-
+formance of speech recognition with a 9.9%
+relative reduction of character error rate on
+the HUB-4 test set, a widely used Mandarin
+speech recognition task.
+1 

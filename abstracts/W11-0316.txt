@@ -1,0 +1,29 @@
+
+Keyphrase extraction aims to select a set of
+terms from a document as a short summary
+of the document. Most methods extract
+keyphrases according to their statistical prop-
+erties in the given document. Appropriate
+keyphrases, however, are not always statis-
+tically significant or even do not appear in
+the given document. This makes a large
+vocabulary gap between a document and its
+keyphrases. In this paper, we consider that
+a document and its keyphrases both describe
+the same object but are written in two different
+languages. By regarding keyphrase extraction
+as a problem of translating from the language
+of documents to the language of keyphrases,
+we use word alignment models in statistical
+machine translation to learn translation proba-
+bilities between the words in documents and
+the words in keyphrases. According to the
+translation model, we suggest keyphrases giv-
+en a new document. The suggested keyphrases
+are not necessarily statistically frequent in the
+document, which indicates that our method
+is more flexible and reliable. Experiments
+on news articles demonstrate that our method
+outperforms existing unsupervised methods
+on precision, recall and F-measure.
+1 

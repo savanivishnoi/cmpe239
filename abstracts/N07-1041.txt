@@ -1,0 +1,26 @@
+
+This paper studies methods that automat-
+ically detect action-items in e-mail, an
+important category for assisting users in
+identifying new tasks, tracking ongoing
+ones, and searching for completed ones.
+Since action-items consist of a short span
+of text, classifiers that detect action-items
+can be built from a document-level or a
+sentence-level view. Rather than com-
+mit to either view, we adapt a context-
+sensitive metaclassification framework to
+this problem to combine the rankings pro-
+duced by different algorithms as well as
+different views. While this framework is
+known to work well for standard classi-
+fication, its suitability for fusing rankers
+has not been studied. In an empirical eval-
+uation, the resulting approach yields im-
+proved rankings that are less sensitive to
+training set variation, and furthermore, the
+theoretically-motivated reliability indica-
+tors we introduce enable the metaclassi-
+fier to now be applicable in any problem
+where the base classifiers are used.
+1 

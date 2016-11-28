@@ -1,0 +1,24 @@
+
+This paper describes a simple pattern-
+matching algorithm for recovering empty
+nodes and identifying their co-indexed an-
+tecedents in phrase structure trees that do
+not contain this information. The pat-
+terns are minimal connected tree frag-
+ments containing an empty node and all
+other nodes co-indexed with it. This pa-
+per also proposes an evaluation proce-
+dure for empty node recovery procedures
+which is independent of most of the de-
+tails of phrase structure, which makes it
+possible to compare the performance of
+empty node recovery on parser output
+with the empty node annotations in a gold-
+standard corpus. Evaluating the algorithm
+on the output of Charniak?s parser (Char-
+niak, 2000) and the Penn treebank (Mar-
+cus et al, 1993) shows that the pattern-
+matching algorithm does surprisingly well
+on the most frequently occuring types of
+empty nodes given its simplicity.
+1 

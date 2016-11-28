@@ -1,0 +1,18 @@
+
+The identification and extraction of Multiword
+Expressions (MWEs) currently deliver satis-
+factory results. However, the integration of
+these results into a wider application remains
+an issue. This is mainly due to the fact that
+the association measures (AMs) used to detect
+MWEs require a critical amount of data and
+that the MWE dictionaries cannot account for
+all the lexical and syntactic variations inherent
+in MWEs. In this study, we use an alterna-
+tive technique to overcome these limitations. It
+consists in defining an n-gram frequency data-
+base that can be used to compute AMs on-the-
+fly, allowing the extraction procedure to effi-
+ciently process all the MWEs in a text, even if
+they have not been previously observed.
+1 

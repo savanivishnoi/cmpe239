@@ -1,0 +1,19 @@
+
+This paper describes the University of
+Sheffield?s submission to SemEval-2012 Task
+6: Semantic Text Similarity. Two approaches
+were developed. The first is an unsupervised
+technique based on the widely used vector
+space model and information from WordNet.
+The second method relies on supervised ma-
+chine learning and represents each sentence as
+a set of n-grams. This approach also makes
+use of information from WordNet. Results
+from the formal evaluation show that both ap-
+proaches are useful for determining the simi-
+larity in meaning between pairs of sentences
+with the best performance being obtained by
+the supervised approach. Incorporating infor-
+mation from WordNet also improves perfor-
+mance for both approaches.
+1 

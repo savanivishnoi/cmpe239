@@ -1,0 +1,16 @@
+
+In this paper we propose a method to auto-
+matically label multi-lingual data with named
+entity tags. We build on prior work utiliz-
+ing Wikipedia metadata and show how to ef-
+fectively combine the weak annotations stem-
+ming from Wikipedia metadata with infor-
+mation obtained through English-foreign lan-
+guage parallel Wikipedia sentences. The com-
+bination is achieved using a novel semi-CRF
+model for foreign sentence tagging in the con-
+text of a parallel English sentence. The model
+outperforms both standard annotation projec-
+tion methods and methods based solely on
+Wikipedia metadata.
+1 

@@ -1,0 +1,13 @@
+
+We present Minimum Bayes-Risk word
+alignment for machine translation. This
+statistical, model-based approach attempts
+to minimize the expected risk of align-
+ment errors under loss functions that mea-
+sure alignment quality. We describe var-
+ious loss functions, including some that
+incorporate linguistic analysis as can be
+obtained from parse trees, and show that
+these approaches can improve alignments
+of the English-French Hansards.
+1 

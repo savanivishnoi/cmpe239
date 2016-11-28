@@ -1,0 +1,20 @@
+
+In this paper, we present our system de-
+scription for the CoNLL-2012 coreference
+resolution task on English, Chinese and
+Arabic. We investigate a projection-based
+model in which we first translate Chinese
+and Arabic into English, run a publicly
+available coreference system, and then use
+a new projection algorithm to map the
+coreferring entities back from English in-
+to mention candidates detected in the Chi-
+nese and Arabic source. We compare to
+a baseline that just runs the English coref-
+erence system on the supplied parses for
+Chinese and Arabic. Because our method
+does not beat the baseline system on the
+development set, we submit outputs gen-
+erated by the baseline system as our final
+submission.
+1 

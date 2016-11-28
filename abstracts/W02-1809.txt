@@ -1,0 +1,17 @@
+ 
+For readers of English text who know some 
+Chinese, Pinyin codes that spell out Chinese 
+names are often ambiguous as to their 
+original Chinese character representations if 
+the names are new or not well known.  For 
+English-Chinese cross language retrieval, 
+failure to accurately translate Pinyin names 
+in a query to Chinese characters can lead to 
+dismal retrieval effectiveness. This paper 
+presents an approach of extracting Pinyin 
+names from English text, suggesting 
+translations to these Pinyin using a database 
+of names and their characters with usage 
+probabilities, followed with IR techniques 
+with a corpus as a disambiguation tool to 
+resolve the translation candidates. 

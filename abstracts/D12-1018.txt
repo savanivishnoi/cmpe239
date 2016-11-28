@@ -1,0 +1,22 @@
+
+Learning inference relations between verbs is
+at the heart of many semantic applications.
+However, most prior work on learning such
+rules focused on a rather narrow set of in-
+formation sources: mainly distributional sim-
+ilarity, and to a lesser extent manually con-
+structed verb co-occurrence patterns. In this
+paper, we claim that it is imperative to uti-
+lize information from various textual scopes:
+verb co-occurrence within a sentence, verb co-
+occurrence within a document, as well as over-
+all corpus statistics. To this end, we propose
+a much richer novel set of linguistically mo-
+tivated cues for detecting entailment between
+verbs and combine them as features in a su-
+pervised classification framework. We empir-
+ically demonstrate that our model significantly
+outperforms previous methods and that infor-
+mation from each textual scope contributes to
+the verb entailment learning task.
+1 

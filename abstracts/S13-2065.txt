@@ -1,0 +1,18 @@
+
+This paper describes our approach to the
+SemEval-2013 task on ?Sentiment Analysis
+in Twitter?. We use simple bag-of-words mod-
+els, a freely available sentiment dictionary auto-
+matically extended with distributionally similar
+terms, as well as lists of emoticons and inter-
+net slang abbreviations in conjunction with fast
+and robust machine learning algorithms. The
+resulting system is resource-lean, making it rel-
+atively independent of a specific language. De-
+spite its simplicity, the system achieves compet-
+itive accuracies of 0.70?0.72 in detecting the
+sentiment of text messages. We also apply our
+approach to the task of detecting the context-
+dependent sentiment of individual words and
+phrases within a message.
+1 

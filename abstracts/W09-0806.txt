@@ -1,0 +1,22 @@
+
+A number of papers have reported on meth-
+ods for the automatic acquisition of large-scale,
+probabilistic LFG-based grammatical resources
+from treebanks for English (Cahill and al., 2002),
+(Cahill and al., 2004), German (Cahill and al.,
+2003), Chinese (Burke, 2004), (Guo and al.,
+2007), Spanish (O?Donovan, 2004), (Chrupala
+and van Genabith, 2006) and French (Schluter
+and van Genabith, 2008). Here, we extend the
+LFG grammar acquisition approach to Arabic and
+the Penn Arabic Treebank (ATB) (Maamouri and
+Bies, 2004), adapting and extending the methodol-
+ogy of (Cahill and al., 2004) originally developed
+for English. Arabic is challenging because of its
+morphological richness and syntactic complexity.
+Currently 98% of ATB trees (without FRAG and
+X) produce a covering and connected f-structure.
+We conduct a qualitative evaluation of our annota-
+tion against a gold standard and achieve an f-score
+of 95%.
+1 

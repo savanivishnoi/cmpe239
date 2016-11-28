@@ -1,0 +1,21 @@
+
+This paper presents the first step to project
+POS tags and dependencies from English
+and French to Polish in aligned corpora.
+Both the English and French parts of the
+corpus are analysed with a POS tagger
+and a robust parser. The English/Polish
+bi-text and the French/Polish bi-text are
+then aligned at the word level with the
+GIZA++ package. The intersection of
+IBM-4 Viterbi alignments for both trans-
+lation directions is used to project the an-
+notations from English and French to Pol-
+ish. The results show that the precision
+of direct projection vary according to the
+type of induced annotations as well as the
+source language. Moreover, the perfor-
+mances are likely to be improved by defin-
+ing regular conversion rules among POS
+tags and dependencies.
+1 

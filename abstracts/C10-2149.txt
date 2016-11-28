@@ -1,0 +1,29 @@
+
+The overwhelming amounts of multi-
+media contents have triggered the need 
+for automatically detecting the semantic 
+concepts within the media contents. 
+With the development of photo sharing 
+websites such as Flickr, we are able to
+obtain millions of images with user-
+supplied tags. However, user tags tend 
+to be noisy, ambiguous and incomplete.
+In order to improve the quality of tags
+to annotate web images, we propose an 
+approach to build Semantic Fields for
+annotating the web images. The main 
+idea is that the images are more likely to 
+be relevant to a given concept, if several 
+tags to the image belong to the same 
+Semantic Field as the target concept. 
+Semantic Fields are determined by a set 
+of highly semantically associated terms 
+with high tag co-occurrences in the im-
+age corpus and in different corpora and 
+lexica such as WordNet and Wikipedia.
+We conduct experiments on the NUS-
+WIDE web image corpus and demon-
+strate superior performance on image 
+annotation as compared to the state-of-
+the-art approaches.
+1 

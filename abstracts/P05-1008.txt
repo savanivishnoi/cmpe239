@@ -1,0 +1,19 @@
+ 
+In this paper we present a new approach to 
+controlling the behaviour of a natural lan-
+guage generation system by correlating in-
+ternal decisions taken during free generation 
+of a wide range of texts with the surface sty-
+listic characteristics of the resulting outputs, 
+and using the correlation to control the gen-
+erator. This contrasts with the generate-and-
+test architecture adopted by most previous 
+empirically-based generation approaches, 
+offering a more efficient, generic and holis-
+tic method of generator control. We illus-
+trate the approach by describing a system in 
+which stylistic variation (in the sense of 
+Biber (1988)) can be effectively controlled 
+during the generation of short medical in-
+formation texts.  
+1 

@@ -1,0 +1,25 @@
+
+In Information Retrieval (IR) in general
+and Question Answering (QA) in particu-
+lar, queries and relevant textual content of-
+ten significantly differ in their properties
+and are therefore difficult to relate with tra-
+ditional IR methods, e.g. key-word match-
+ing. In this paper we describe an algorithm
+that addresses this problem, but rather than
+looking at it on a term matching/term re-
+formulation level, we focus on the syntac-
+tic differences between questions and rele-
+vant text passages. To this end we propose
+a novel algorithm that analyzes dependency
+structures of queries and known relevant
+text passages and acquires transformational
+patterns that can be used to retrieve rele-
+vant textual content. We evaluate our algo-
+rithm in a QA setting, and show that it out-
+performs a baseline that uses only depen-
+dency information contained in the ques-
+tions by 300% and that it also improves per-
+formance of a state of the art QA system
+significantly.
+1 

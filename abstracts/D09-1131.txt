@@ -1,0 +1,21 @@
+ 
+This paper employs morphological struc-
+tures and relations between sentence seg-
+ments for opinion analysis on words and 
+sentences.  Chinese words are classified 
+into eight morphological types by two 
+proposed classifiers, CRF classifier and 
+SVM classifier.  Experiments show that 
+the injection of morphological information 
+improves the performance of the word po-
+larity detection.  To utilize syntactic struc-
+tures, we annotate structural trios to repre-
+sent relations between sentence segments.  
+Experiments show that considering struc-
+tural trios is useful for sentence opinion 
+analysis.  The best f-score achieves 0.77 
+for opinion word extraction, 0.62 for opin-
+ion word polarity detection, 0.80 for opin-
+ion sentence extraction, and 0.54 for opin-
+ion sentence polarity detection. 
+1 

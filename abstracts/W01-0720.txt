@@ -1,0 +1,25 @@
+
+Computational learning of natural lan-
+guage is often attempted without using
+the knowledge available from other re-
+search areas such as psychology and
+linguistics. This can lead to systems
+that solve problems that are neither
+theoretically or practically useful. In
+this paper we present a system CLL
+which aims to learn natural language
+syntax in a way that is both compu-
+tationally effective and psychologically
+plausible. This theoretically plausible
+system can also perform the practically
+useful task of unsupervised learning of
+syntax. CLL has then been applied to
+a corpus of declarative sentences from
+the Penn Treebank (Marcus et al, 1993;
+Marcus et al, 1994) on which it has
+been shown to perform comparatively
+well with respect to much less psycho-
+logically plausible systems, which are
+significantly more supervised and are
+applied to somewhat simpler problems.
+1 

@@ -1,0 +1,29 @@
+
+English is a typical SVO (Subject-Verb-
+Object) language, while Japanese is a typ-
+ical SOV language. Conventional Statis-
+tical Machine Translation (SMT) systems
+work well within each of these language
+families. However, SMT-based translation
+from an SVO language to an SOV lan-
+guage does not work well because their
+word orders are completely different. Re-
+cently, a few groups have proposed rule-
+based preprocessing methods to mitigate
+this problem (Xu et al, 2009; Hong et al,
+2009). These methods rewrite SVO sen-
+tences to derive more SOV-like sentences
+by using a set of handcrafted rules. In this
+paper, we propose an alternative single re-
+ordering rule: Head Finalization. This
+is a syntax-based preprocessing approach
+that offers the advantage of simplicity. We
+do not have to be concerned about part-
+of-speech tags or rule weights because the
+powerful Enju parser allows us to imple-
+ment the rule at a general level. Our ex-
+periments show that its result, Head Final
+English (HFE), follows almost the same
+order as Japanese. We also show that this
+rule improves automatic evaluation scores.
+1 

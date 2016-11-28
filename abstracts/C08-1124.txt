@@ -1,0 +1,27 @@
+ 
+It is difficult to identify sentence impor-
+tance from a single point of view. In this 
+paper, we propose a learning-based ap-
+proach to combine various sentence fea-
+tures. They are categorized as surface, 
+content, relevance and event features. 
+Surface features are related to extrinsic 
+aspects of a sentence. Content features 
+measure a sentence based on content-
+conveying words. Event features repre-
+sent sentences by events they contained. 
+Relevance features evaluate a sentence 
+from its relatedness with other sentences. 
+Experiments show that the combined fea-
+tures improved summarization perform-
+ance significantly. Although the evalua-
+tion results are encouraging, supervised 
+learning approach requires much labeled 
+data. Therefore we investigate co-training 
+by combining labeled and unlabeled data. 
+Experiments show that this semi-
+supervised learning approach achieves 
+comparable performance to its supervised 
+counterpart and saves about half of the 
+labeling time cost. 
+1 

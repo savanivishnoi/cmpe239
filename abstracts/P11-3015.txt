@@ -1,0 +1,19 @@
+
+Sentiment analysis of citations in scientific pa-
+pers and articles is a new and interesting prob-
+lem due to the many linguistic differences be-
+tween scientific texts and other genres. In
+this paper, we focus on the problem of auto-
+matic identification of positive and negative
+sentiment polarity in citations to scientific pa-
+pers. Using a newly constructed annotated ci-
+tation sentiment corpus, we explore the effec-
+tiveness of existing and novel features, includ-
+ing n-grams, specialised science-specific lex-
+ical features, dependency relations, sentence
+splitting and negation features. Our results
+show that 3-grams and dependencies perform
+best in this task; they outperform the sentence
+splitting, science lexicon and negation based
+features.
+1 

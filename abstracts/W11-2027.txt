@@ -1,0 +1,19 @@
+
+This paper presents a progressively challeng-
+ing series of experiments that investigate clar-
+ification subdialogues to resolve the words in
+noisy transcriptions of user utterances. We fo-
+cus on user utterances where the user?s spe-
+cific intent requires little additional inference,
+given sufficient understanding of the form. We
+learned decision-making strategies for a dia-
+logue manager from run-time features of our
+spoken dialogue system and from observation
+of human wizards we had embedded within it.
+Results show that noisy ASR can be resolved
+based on predictions from context about what
+a user might say, and that dialogue manage-
+ment strategies for clarifications of linguistic
+form benefit from access to features from spo-
+ken language understanding.
+1 

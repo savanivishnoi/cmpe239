@@ -1,0 +1,16 @@
+
+In this paper, we introduce a new base-
+line for language-independent text diffi-
+culty assessment applied to the Intera-
+gency Language Roundtable (ILR) profi-
+ciency scale. We demonstrate that reading
+level assessment is a discriminative prob-
+lem that is best-suited for regression. Our
+baseline uses z-normalized shallow length
+features and TF-LOG weighted vectors on
+bag-of-words for Arabic, Dari, English,
+and Pashto. We compare Support Vector
+Machines and the Margin-Infused Relaxed
+Algorithm measured by mean squared er-
+ror. We provide an analysis of which fea-
+tures are most predictive of a given level.1 

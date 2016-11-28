@@ -1,0 +1,17 @@
+
+In this paper, we describe an efficient
+A* search algorithm for statistical ma-
+chine translation. In contrary to beam-
+search or greedy approaches it is possi-
+ble to guarantee the avoidance of search
+errors with A*. We develop various so-
+phisticated admissible and almost ad-
+missible heuristic functions. Especially
+our newly developped method to per-
+form a multi-pass A* search with an
+iteratively improved heuristic function
+allows us to translate even long sen-
+tences. We compare the A* search al-
+gorithm with a beam-search approach
+on the Hansards task.
+1 

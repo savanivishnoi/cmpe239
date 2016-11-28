@@ -1,0 +1,20 @@
+
+Cross-lingual projection methods can ben-
+efit from resource-rich languages to im-
+prove performances of NLP tasks in
+resources-scarce languages. However,
+these methods confronted the difficulty of
+syntactic differences between languages
+especially when the pair of languages
+varies greatly. To make the projection
+method well-generalize to diverse lan-
+guages pairs, we enhance the projec-
+tion method based on word alignments
+by introducing target-language word rep-
+resentations as features and proposing a
+novel noise removing method based on
+these word representations. Experiments
+showed that our methods improve the per-
+formances greatly on projections between
+English and Chinese.
+1 

@@ -1,0 +1,15 @@
+
+An incremental dependency parser?s proba-
+bility model is entered as a predictor in a
+linear mixed-effects model of German read-
+ers? eye-fixation durations. This dependency-
+based predictor improves a baseline that takes
+into account word length, n-gram probabil-
+ity, and Cloze predictability that are typically
+applied in models of human reading. This
+improvement obtains even when the depen-
+dency parser explores a tiny fraction of its
+search space, as suggested by narrow-beam
+accounts of human sentence processing such
+as Garden Path theory.
+1 

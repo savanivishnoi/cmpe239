@@ -1,0 +1,15 @@
+
+We present a sub-sentential alignment
+system that links linguistically motivated
+phrases in parallel texts based on lexical
+correspondences and syntactic similarity.
+We compare the performance of our sub-
+sentential alignment system with different
+symmetrization heuristics that combine the
+GIZA++ alignments of both translation di-
+rections. We demonstrate that the aligned
+linguistically motivated phrases are a use-
+ful means to extract bilingual terminology
+and more specifically complex multiword
+terms.
+1 

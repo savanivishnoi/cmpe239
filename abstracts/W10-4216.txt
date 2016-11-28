@@ -1,0 +1,28 @@
+
+Fluency rankers are used in modern sentence
+generation systems to pick sentences that are
+not just grammatical, but also fluent. It has
+been shown that feature-based models, such as
+maximum entropy models, work well for this
+task.
+Since maximum entropy models allow for in-
+corporation of arbitrary real-valued features,
+it is often attractive to create very general
+feature templates, that create a huge num-
+ber of features. To select the most discrim-
+inative features, feature selection can be ap-
+plied. In this paper we compare three fea-
+ture selection methods: frequency-based se-
+lection, a generalization of maximum entropy
+feature selection for ranking tasks with real-
+valued features, and a new selection method
+based on feature value correlation. We show
+that the often-used frequency-based selection
+performs badly compared to maximum en-
+tropy feature selection, and that models with a
+few hundred well-picked features are compet-
+itive to models with no feature selection ap-
+plied. In the experiments described in this pa-
+per, we compressed a model of approximately
+490.000 features to 1.000 features.
+1 

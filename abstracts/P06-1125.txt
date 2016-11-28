@@ -1,0 +1,27 @@
+ 
+Chatting is a popular communication 
+media on the Internet via ICQ, chat 
+rooms, etc. Chat language is different 
+from natural language due to its anoma-
+lous and dynamic natures, which renders 
+conventional NLP tools inapplicable. The 
+dynamic problem is enormously trouble-
+some because it makes static chat lan-
+guage corpus outdated quickly in repre-
+senting contemporary chat language. To 
+address the dynamic problem, we pro-
+pose the phonetic mapping models to 
+present mappings between chat terms and 
+standard words via phonetic transcrip-
+tion, i.e. Chinese Pinyin in our case. Dif-
+ferent from character mappings, the pho-
+netic mappings can be constructed from 
+available standard Chinese corpus. To 
+perform the task of dynamic chat lan-
+guage term normalization, we extend the 
+source channel model by incorporating 
+the phonetic mapping models. Experi-
+mental results show that this method is 
+effective and stable in normalizing dy-
+namic chat language terms. 
+1 

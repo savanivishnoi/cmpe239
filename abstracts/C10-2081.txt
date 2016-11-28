@@ -1,0 +1,25 @@
+
+Sentence-level aligned parallel texts are
+important resources for a number of nat-
+ural language processing (NLP) tasks and
+applications such as statistical machine
+translation and cross-language informa-
+tion retrieval. With the rapid growth
+of online parallel texts, efficient and ro-
+bust sentence alignment algorithms be-
+come increasingly important. In this
+paper, we propose a fast and robust
+sentence alignment algorithm, i.e., Fast-
+Champollion, which employs a combi-
+nation of both length-based and lexicon-
+based algorithm. By optimizing the pro-
+cess of splitting the input bilingual texts
+into small fragments for alignment, Fast-
+Champollion, as our extensive experi-
+ments show, is 4.0 to 5.1 times as fast
+as the current baseline methods such as
+Champollion (Ma, 2006) on short texts
+and achieves about 39.4 times as fast on
+long texts, and Fast-Champollion is as ro-
+bust as Champollion.
+1 

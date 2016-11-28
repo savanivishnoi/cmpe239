@@ -1,0 +1,23 @@
+
+Translation needs have greatly increased
+during the last years. In many situa-
+tions, text to be translated constitutes an
+unbounded stream of data that grows con-
+tinually with time. An effective approach
+to translate text documents is to follow
+an interactive-predictive paradigm in which
+both the system is guided by the user
+and the user is assisted by the system to
+generate error-free translations. Unfortu-
+nately, when processing such unbounded
+data streams even this approach requires an
+overwhelming amount of manpower. Is in
+this scenario where the use of active learn-
+ing techniques is compelling. In this work,
+we propose different active learning tech-
+niques for interactive machine translation.
+Results show that for a given translation
+quality the use of active learning allows us
+to greatly reduce the human effort required
+to translate the sentences in the stream.
+1 

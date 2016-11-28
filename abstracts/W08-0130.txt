@@ -1,0 +1,19 @@
+
+We present a development pipeline and asso-
+ciated algorithms designed to make grammar-
+based generation easier to deploy in imple-
+mented dialogue systems. Our approach real-
+izes a practical trade-off between the capabili-
+ties of a system?s generation component and
+the authoring and maintenance burdens im-
+posed on the generation content author for a
+deployed system. To evaluate our approach,
+we performed a human rating study with sys-
+tem builders who work on a common large-
+scale spoken dialogue system. Our results
+demonstrate the viability of our approach and
+illustrate authoring/performance trade-offs be-
+tween hand-authored text, our grammar-based
+approach, and a competing shallow statistical
+NLG technique.
+1 

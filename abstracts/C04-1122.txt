@@ -1,0 +1,18 @@
+
+In this paper we describe a way to discover
+Named Entities by using the distribution of
+words in news articles. Named Entity recog-
+nition is an important task for today?s natural
+language applications, but it still suffers from
+data sparseness. We used an observation that a
+Named Entity is likely to appear synchronously
+in several news articles, whereas a common
+noun is less likely. Exploiting this characteris-
+tic, we successfully obtained rare Named Enti-
+ties with 90% accuracy just by comparing time
+series distributions of a word in two newspa-
+pers. Although the achieved recall is not suf-
+ficient yet, we believe that this method can be
+used to strengthen the lexical knowledge of a
+Named Entity tagger.
+1 

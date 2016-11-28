@@ -1,0 +1,34 @@
+ 
+In this paper, we present a weakly super-
+vised learning approach for spoken lan-
+guage understanding in domain-specific 
+dialogue systems. We model the task of 
+spoken language understanding as a suc-
+cessive classification problem. The first 
+classifier (topic classifier) is used to iden-
+tify the topic of an input utterance. With 
+the restriction of the recognized target 
+topic, the second classifier (semantic 
+classifier) is trained to extract the corre-
+sponding slot-value pairs. It is mainly 
+data-driven and requires only minimally 
+annotated corpus for training whilst re-
+taining the understanding robustness and 
+deepness for spoken language. Most im-
+portantly, it allows the employment of 
+weakly supervised strategies for training 
+the two classifiers. We first apply the 
+training strategy of combining active 
+learning and self-training (Tur et al, 
+2005) for topic classifier. Also, we pro-
+pose a practical method for bootstrapping 
+the topic-dependent semantic classifiers 
+from a small amount of labeled sentences. 
+Experiments have been conducted in the 
+context of Chinese public transportation 
+information inquiry domain. The experi-
+mental results demonstrate the effective-
+ness of our proposed SLU framework 
+and show the possibility to reduce human 
+labeling efforts significantly. 
+1 

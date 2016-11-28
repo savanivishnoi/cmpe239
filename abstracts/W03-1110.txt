@@ -1,0 +1,30 @@
+
+Query expansion by pseudo-relevance
+feedback is a well-established technique
+in both mono- and cross- lingual informa-
+tion retrieval, enriching and disambiguat-
+ing the typically terse queries provided
+by searchers. Comparable document-side
+expansion is a relatively more recent de-
+velopment motivated by error-prone tran-
+scription and translation processes in spo-
+ken document and cross-language re-
+trieval. In the cross-language case, one
+can perform expansion before translation,
+after translation, and at both points. We
+investigate the relative impact of pre- and
+post- translation document expansion for
+cross-language spoken document retrieval
+in Mandarin Chinese. We find that post-
+translation expansion yields a highly sig-
+nificant improvement in retrieval effec-
+tiveness, while improvements due to pre-
+translation expansion alone or in combina-
+tion do not reach significance. We identify
+two key factors of segmentation and trans-
+lation in Chinese orthography that limit
+the effectiveness of pre-translation expan-
+sion in the Chinese-English case, while
+post-translation expansion yields its full
+benefit.
+1 

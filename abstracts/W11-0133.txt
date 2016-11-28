@@ -1,0 +1,12 @@
+
+In this paper we describe DISCUSS, a dialogue move taxonomy layered over semantic represen-
+tations. We designed this scheme to enable development of computational models of tutorial dia-
+logues and to provide an intermediate representation suitable for question and tutorial act generation.
+As such, DISCUSS captures semantic and pragmatic elements across four dimensions: Dialogue Act,
+Rhetorical Form, Predicate Type, Semantic Roles. Together these dimensions provide a summary of
+an utterance?s propositional content and how it may change the underlying information state of the
+conversation. This taxonomy builds on previous work in both general dialogue act taxonomies as
+well as work in tutorial act and tutorial question categorization. The types and values found within
+our taxonomy are based on preliminary observations and on-going annotation from our corpus of
+multimodal tutorial dialogues for elementary school science education.
+1 

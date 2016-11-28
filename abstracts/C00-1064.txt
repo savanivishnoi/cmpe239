@@ -1,0 +1,21 @@
+ 
+When aligning texts in very different languages such 
+as Korean and English, structural features beyond 
+word or phrase give useful intbrmation. In this pa- 
+per, we present a method for selecting struetm'al 
+features of two languages, from which we construct 
+a model that assigns the conditional probabilities 
+to corresponding tag sequences in bilingual English- 
+Korean corpora. For tag sequence mapl)ing 1)etween 
+two langauges, we first, define a structural feature 
+fllnction which represents tatistical prol)erties of 
+elnpirical distribution of a set of training samples. 
+The system, based on maximmn entrol)y coneet)t, se- 
+le(:ts only ti;atures that pro(luee high increases in log- 
+likelihood of training salnl)les. These structurally 
+mat)ped features are more informative knowledge for 
+statistical machine translation t)etween English and 
+Korean. Also, the inforum.tion can help to reduce the 
+1)arameter sl)ace of statisti('al alignment 1)y eliminat- 
+ing synta(:tically uiflikely alignmenls. 
+1 

@@ -1,0 +1,15 @@
+
+This paper proposes a method of fertilizing a
+Japanese case frame dictionary to handle com-
+plicated expressions: double nominative sen-
+tences, non-gapping relation of relative clauses,
+and case change. Our method is divided into
+two stages. In the first stage, we parse a large
+corpus and construct a Japanese case frame dic-
+tionary automatically from the parse results. In
+the second stage, we apply case analysis to the
+large corpus utilizing the constructed case frame
+dictionary, and upgrade the case frame dictio-
+nary by incorporating newly acquired informa-
+tion.
+1 

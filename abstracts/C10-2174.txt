@@ -1,0 +1,41 @@
+ 
+The field of information retrieval still 
+strives to develop models which allow 
+semantic information to be integrated in 
+the ranking process to improve perform-
+ance in comparison to standard bag-of-
+words based models. A conceptual 
+model has been adopted in general-
+purpose retrieval which can comprise a 
+range of concepts, including linguistic 
+terms, latent concepts and explicit 
+knowledge concepts. One of the draw-
+backs of this model is that the computa-
+tional cost is significant and often in-
+tractable in modern test collections. 
+Therefore, approaches utilising concept-
+based models for re-ranking initial re-
+trieval results have attracted a consider-
+able amount of study. This method en-
+joys the benefits of reduced document 
+corpora for semantic space construction 
+and improved ranking results. However, 
+fitting such a model to a smaller collec-
+tion is less meaningful than fitting it into 
+the whole corpus. This paper proposes a 
+dual-space model which incorporates 
+external knowledge to enhance the space 
+produced by the latent concept method. 
+This model is intended to produce 
+global consistency across the semantic 
+space: similar entries are likely to have 
+the same re-ranking scores with respect 
+to the latent and manifest concepts. To 
+illustrate the effectiveness of the pro-
+posed method, experiments were con-
+ducted using test collections across dif-
+ferent languages. The results demon-
+strate that the method can comfortably 
+achieve improvements in retrieval per-
+formance. 
+1 

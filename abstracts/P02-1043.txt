@@ -1,0 +1,17 @@
+
+This paper compares a number of gen-
+erative probability models for a wide-
+coverage Combinatory Categorial Gram-
+mar (CCG) parser. These models are
+trained and tested on a corpus obtained by
+translating the Penn Treebank trees into
+CCG normal-form derivations. According
+to an evaluation of unlabeled word-word
+dependencies, our best model achieves a
+performance of 89.9%, comparable to the
+figures given by Collins (1999) for a lin-
+guistically less expressive grammar. In
+contrast to Gildea (2001), we find a signif-
+icant improvement from modeling word-
+word dependencies.
+1 

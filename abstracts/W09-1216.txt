@@ -1,0 +1,21 @@
+
+I describe a fast multilingual parser for seman-
+tic dependencies. The parser is implemented
+as a pipeline of linear classifiers trained with
+support vector machines. I use only first or-
+der features, and no pair-wise feature combi-
+nations in order to reduce training and pre-
+diction times. Hyper-parameters are carefully
+tuned for each language and sub-problem.
+The system is evaluated on seven different
+languages: Catalan, Chinese, Czech, English,
+German, Japanese and Spanish. An analysis
+of learning rates and of the reliance on syn-
+tactic parsing quality shows that only modest
+improvements could be expected for most lan-
+guages given more training data; Better syn-
+tactic parsing quality, on the other hand, could
+greatly improve the results. Individual tun-
+ing of hyper-parameters is crucial for obtain-
+ing good semantic parsing quality.
+1 

@@ -1,0 +1,29 @@
+*
+Technical terms are linguistic realiza-
+tion of a domain concept and their con-
+stituents are a component used for 
+representing the concept. Many techni-
+cal terms are usually multi-word terms 
+and their meaning can be inferred from 
+their constituents. Because a term con-
+stituent is usually a morphological unit 
+rather than a conceptual unit in Korean 
+technical terms, we need to first iden-
+tify conceptual units and then to re-
+solve the proper meaning of the 
+conceptual units in order to properly 
+translate technical terms. For natural 
+language applications to properly han-
+dle technical terms, it is necessary to 
+give information about conceptual units 
+and their meaning including homonym, 
+synonym and domain dependency. In 
+this paper, we propose a term constitu-
+ent alignment algorithm, which extracts 
+such information from bilingual techni-
+cal term pairs. Our algorithm regards 
+English term constituents as a concep-
+tual unit and then finds its Korean 
+counterpart. Our method shows about 
+6.1% AER. 
+1 

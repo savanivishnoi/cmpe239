@@ -1,0 +1,24 @@
+
+We analyze the linguistic behaviour of par-
+ticipants in bilateral electronic negotiations,
+and discover that particular language char-
+acteristics are in contrast with face-to-face
+negotiations. Language patterns in the later
+part of electronic negotiation are highly in-
+dicative of the successful or unsuccessful
+outcome of the process, whereas in face-to-
+face negotiations, the first part of the nego-
+tiation is more useful for predicting the out-
+come. We formulate our problem in terms of
+text classification on negotiation segments
+of different sizes. The data are represented
+by a variety of linguistic features that cap-
+ture the gist of the discussion: negotiation-
+or strategy-related words. We show that,
+as we consider ever smaller final segments
+of a negotiation transcript, the negotiation-
+related words become more indicative of the
+negotiation outcome, and give predictions
+with higher Accuracy than larger segments
+from the beginning of the process.
+1 

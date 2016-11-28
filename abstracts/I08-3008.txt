@@ -1,0 +1,15 @@
+ 
+The present paper describes an approach to 
+adapting a parser to a new language. 
+Presumably the target language is much 
+poorer in linguistic resources than the source 
+language. The technique has been tested on 
+two European languages due to test data 
+availability; however, it is easily applicable 
+to any pair of sufficiently related languages, 
+including some of the Indic language group. 
+Our adaptation technique using existing 
+annotations in the source language achieves 
+performance equivalent to that obtained by 
+training on 1546 trees in the target language. 
+1 

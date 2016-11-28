@@ -1,0 +1,30 @@
+
+This paper describes a novel instance-
+based sentence boundary determination
+method for natural language generation
+that optimizes a set of criteria based on
+examples in a corpus. Compared to exist-
+ing sentence boundary determination ap-
+proaches, our work offers three signifi-
+cant contributions. First, our approach
+provides a general domain independent
+framework that effectively addresses sen-
+tence boundary determination by balanc-
+ing a comprehensive set of sentence com-
+plexity and quality related constraints.
+Second, our approach can simulate the
+characteristics and the style of naturally
+occurring sentences in an application do-
+main since our solutions are optimized
+based on their similarities to examples
+in a corpus. Third, our approach can
+adapt easily to suit a natural language gen-
+eration system?s capability by balancing
+the strengths and weaknesses of its sub-
+components (e.g. its aggregation and re-
+ferring expression generation capability).
+Our final evaluation shows that the pro-
+posed method results in significantly bet-
+ter sentence generation outcomes than a
+widely adopted approach.
+1 

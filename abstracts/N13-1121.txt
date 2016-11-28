@@ -1,0 +1,26 @@
+
+Hidden properties of social media users, such
+as their ethnicity, gender, and location, are of-
+ten reflected in their observed attributes, such
+as their first and last names. Furthermore,
+users who communicate with each other of-
+ten have similar hidden properties. We pro-
+pose an algorithm that exploits these insights
+to cluster the observed attributes of hundreds
+of millions of Twitter users. Attributes such
+as user names are grouped together if users
+with those names communicate with other
+similar users. We separately cluster millions
+of unique first names, last names, and user-
+provided locations. The efficacy of these clus-
+ters is then evaluated on a diverse set of clas-
+sification tasks that predict hidden users prop-
+erties such as ethnicity, geographic location,
+gender, language, and race, using only pro-
+file names and locations when appropriate.
+Our readily-replicable approach and publicly-
+released clusters are shown to be remarkably
+effective and versatile, substantially outper-
+forming state-of-the-art approaches and hu-
+man accuracy on each of the tasks studied.
+1 

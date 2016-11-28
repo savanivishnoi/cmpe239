@@ -1,0 +1,29 @@
+
+We present a new phrase-based con-
+ditional exponential family translation
+model for statistical machine translation.
+The model operates on a feature repre-
+sentation in which sentence level transla-
+tions are represented by enumerating all
+the known phrase level translations that
+occur inside them. This makes the model
+a good match with the commonly used
+phrase extraction heuristics. The model?s
+predictions are properly normalized prob-
+abilities. In addition, the model automati-
+cally takes into account information pro-
+vided by phrase overlaps, and does not
+suffer from reference translation reacha-
+bility problems.
+We have implemented an open source
+translation system Sinuhe based on the
+proposed translation model. Our experi-
+ments on Europarl and GigaFrEn corpora
+demonstrate that finding the unique MAP
+parameters for the model on large scale
+data is feasible with simple stochastic gra-
+dient methods. Sinuhe is fast and mem-
+ory efficient, and the BLEU scores ob-
+tained by it are only slightly inferior to
+those of Moses.
+1 

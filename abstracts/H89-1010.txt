@@ -1,0 +1,21 @@
+ 
+In this paper we describe the algorithms used in the 
+BBN BYBLOS Continuous Speech Recognition system. 
+The BYBLOS system uses context-dependent hidden 
+Markov models of phonemes to provide a robust model of 
+phonetic coarticulation. We provide an update of the 
+ongoing research aimed at improving the recognition 
+accuracy. In the first experiment we confirm the large 
+improvement in accuracy that can be derived by using 
+spectral derivative parameters in the recognition. In 
+particular, the word error rate is reduced by a factor of two. 
+Currently the system achieves a word error rate of 2.9% 
+when tested on the speaker-dependent part of the standard 
+1000-Word DARPA Resource Management Database 
+using the Word-Pair grammar supplied with the database. 
+When no grammar was used, the error rate is 15.3%. 
+Finally, we present a method for smoothing the discrete 
+densities on the states of the HMM, which is intended to 
+alleviate the problem of insufficient raining for detailed 
+phonetic models. 
+i. 

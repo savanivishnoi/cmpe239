@@ -1,0 +1,22 @@
+
+While domain adaptation techniques for
+SMT have proven to be effective at im-
+proving translation quality, their practical-
+ity for a multi-domain environment is of-
+ten limited because of the computational
+and human costs of developing and main-
+taining multiple systems adapted to differ-
+ent domains. We present an architecture
+that delays the computation of translation
+model features until decoding, allowing
+for the application of mixture-modeling
+techniques at decoding time. We also de-
+scribe a method for unsupervised adapta-
+tion with development and test data from
+multiple domains. Experimental results on
+two language pairs demonstrate the effec-
+tiveness of both our translation model ar-
+chitecture and automatic clustering, with
+gains of up to 1 BLEU over unadapted sys-
+tems and single-domain adaptation.
+1 

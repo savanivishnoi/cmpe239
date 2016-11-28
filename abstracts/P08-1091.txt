@@ -1,0 +1,16 @@
+
+There is a widely held belief in the natural lan-
+guage and computational linguistics commu-
+nities that Semantic Role Labeling (SRL) is
+a significant step toward improving important
+applications, e.g. question answering and in-
+formation extraction. In this paper, we present
+an SRL system for Modern Standard Arabic
+that exploits many aspects of the rich mor-
+phological features of the language. The ex-
+periments on the pilot Arabic Propbank data
+show that our system based on Support Vector
+Machines and Kernel Methods yields a global
+SRL F1 score of 82.17%, which improves the
+current state-of-the-art in Arabic SRL.
+1 

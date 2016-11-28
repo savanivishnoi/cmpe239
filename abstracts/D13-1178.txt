@@ -1,0 +1,23 @@
+
+Chambers and Jurafsky (2009) demonstrated
+that event schemas can be automatically in-
+duced from text corpora. However, our analy-
+sis of their schemas identifies several weak-
+nesses, e.g., some schemas lack a common
+topic and distinct roles are incorrectly mixed
+into a single actor. It is due in part to their
+pair-wise representation that treats subject-
+verb independently from verb-object. This of-
+ten leads to subject-verb-object triples that are
+not meaningful in the real-world.
+We present a novel approach to inducing
+open-domain event schemas that overcomes
+these limitations. Our approach uses co-
+occurrence statistics of semantically typed re-
+lational triples, which we call Rel-grams (re-
+lational n-grams). In a human evaluation, our
+schemas outperform Chambers?s schemas by
+wide margins on several evaluation criteria.
+Both Rel-grams and event schemas are freely
+available to the research community.
+1 

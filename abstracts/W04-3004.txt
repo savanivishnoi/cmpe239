@@ -1,0 +1,40 @@
+ 
+This paper introduces a method that generates 
+simulated multimodal input to be used in test-
+ing multimodal system implementations, as 
+well as to build statistically motivated multi-
+modal integration modules. The generation of 
+such data is inspired by the fact that true mul-
+timodal data, recorded from real usage scenar-
+ios, is difficult and costly to obtain in large 
+amounts. On the other hand, thanks to opera-
+tional speech-only dialogue system applica-
+tions, a wide selection of speech/text data (in 
+the form of transcriptions, recognizer outputs, 
+parse results, etc.) is available. Taking the tex-
+tual transcriptions and converting them into 
+multimodal inputs in order to assist multimo-
+dal system development is the underlying idea 
+of the paper. A conceptual framework is es-
+tablished which utilizes two input channels: 
+the original speech channel and an additional 
+channel called Virtual Modality. This addi-
+tional channel provides a certain level of ab-
+straction to represent non-speech user inputs 
+(e.g., gestures or sketches). From the tran-
+scriptions of the speech modality, pre-defined 
+semantic items (e.g., nominal location refer-
+ences) are identified, removed, and replaced 
+with deictic references (e.g., here, there). The 
+deleted semantic items are then placed into the 
+Virtual Modality channel and, according to 
+external parameters (such as a pre-defined 
+user population with various deviations), tem-
+poral shifts relative to the instant of each cor-
+responding deictic reference are issued. The 
+paper explains the procedure followed to cre-
+ate Virtual Modality data, the details of the 
+speech-only database, and results based on a 
+multimodal city information and navigation 
+application.  
+1 

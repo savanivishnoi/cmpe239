@@ -1,0 +1,19 @@
+
+This paper tackles textual demand analy-
+sis, the task of capturing what people want
+or need, rather than identifying what they
+like or dislike, on which much conven-
+tional work has focused. It exploits syn-
+tactic patterns as clues to detect previously
+unknown demands, and requires domain-
+dependent knowledge to get high recall. To
+build such patterns we created an unsuper-
+vised pattern induction method relying on
+the hypothesis that there are commonly de-
+sired aspects throughout a domain corpus.
+Experimental results show that the pro-
+posed method detects twice to four times
+as many demand expressions in Japanese
+discussion forums compared to a baseline
+method.
+1 

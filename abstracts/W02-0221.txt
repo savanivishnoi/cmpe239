@@ -1,0 +1,32 @@
+
+While dialogue acts provide a useful
+schema for characterizing dialogue be-
+haviors in human-computer and human-
+human dialogues, their utility is limited
+by the huge effort involved in hand-
+labelling dialogues with a dialogue act la-
+belling scheme. In this work, we exam-
+ine whether it is possible to fully auto-
+mate the tagging task with the goal of en-
+abling rapid creation of corpora for eval-
+uating spoken dialogue systems and com-
+paring them to human-human dialogues.
+We report results for training and test-
+ing an automatic classifier to label the in-
+formation provider?s utterances in spoken
+human-computer and human-human dia-
+logues with DATE (Dialogue Act Tagging
+for Evaluation) dialogue act tags. We
+train and test the DATE tagger on var-
+ious combinations of the DARPA Com-
+municator June-2000 and October-2001
+human-computer corpora, and the CMU
+human-human corpus in the travel plan-
+ning domain. Our results show that we
+can achieve high accuracies on the human-
+computer data, and surprisingly, that the
+human-computer data improves accuracy
+on the human-human data, when only
+small amounts of human-human training
+data are available.
+1 

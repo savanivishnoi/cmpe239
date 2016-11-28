@@ -1,0 +1,20 @@
+
+In this paper we present a confidence mea-
+sure for word alignment based on the
+posterior probability of alignment links.
+We introduce sentence alignment confi-
+dence measure and alignment link con-
+fidence measure. Based on these mea-
+sures, we improve the alignment qual-
+ity by selecting high confidence sentence
+alignments and alignment links from mul-
+tiple word alignments of the same sen-
+tence pair. Additionally, we remove
+low confidence alignment links from the
+word alignment of a bilingual training
+corpus, which increases the alignment
+F-score, improves Chinese-English and
+Arabic-English translation quality and sig-
+nificantly reduces the phrase translation
+table size.
+1 

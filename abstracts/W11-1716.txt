@@ -1,0 +1,26 @@
+
+In most tasks related to opinion mining and
+sentiment analysis, it is necessary to compute
+the semantic orientation (i.e., positive or neg-
+ative evaluative implications) of certain opin-
+ion expressions. Recent works suggest that se-
+mantic orientation depends on application do-
+mains. Moreover, we think that semantic ori-
+entation depends on the specific targets (fea-
+tures) that an opinion is applied to. In this pa-
+per, we introduce a technique to build domain-
+specific, feature-level opinion lexicons in a
+semi-supervised manner: we first induce a lex-
+icon starting from a small set of annotated
+documents; then, we expand it automatically
+from a larger set of unannotated documents,
+using a new graph-based ranking algorithm.
+Our method was evaluated in three different
+domains (headphones, hotels and cars), using
+a corpus of product reviews which opinions
+were annotated at the feature level. We con-
+clude that our method produces feature-level
+opinion lexicons with better accuracy and re-
+call that domain-independent opinion lexicons
+using only a few annotated documents.
+1 

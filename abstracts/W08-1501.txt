@@ -1,0 +1,17 @@
+
+The concept classifier has been used as a
+translation unit in speech-to-speech trans-
+lation systems. However, the sparsity of
+the training data is the bottle neck of its
+effectiveness. Here, a new method based
+on using a statistical machine translation
+system has been introduced to mitigate the
+effects of data sparsity for training classi-
+fiers. Also, the effects of the background
+model which is necessary to compensate
+the above problem, is investigated. Exper-
+imental evaluation in the context of cross-
+lingual doctor-patient interaction applica-
+tion show the superiority of the proposed
+method.
+1 

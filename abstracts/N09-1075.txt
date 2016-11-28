@@ -1,0 +1,19 @@
+
+Human sentence processing involves integrat-
+ing probabilistic knowledge from a variety of
+sources in order to incrementally determine
+the hierarchical structure for the serial input
+stream. While a large number of sentence pro-
+cessing effects have been explained in terms of
+comprehenders? rational use of probabilistic
+information, effects of local coherences have
+not. We present here a new model of local
+coherences, viewing them as resulting from a
+belief-update process, and show that the rele-
+vant probabilities in our model are calculable
+from a probabilistic Earley parser. Finally, we
+demonstrate empirically that an implemented
+version of the model makes the correct predic-
+tions for the materials from the original exper-
+iment demonstrating local coherence effects.
+1 

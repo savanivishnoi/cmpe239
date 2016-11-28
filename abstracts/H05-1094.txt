@@ -1,0 +1,18 @@
+
+Many learning tasks have subtasks for which
+much training data exists. Therefore, we want
+to transfer learning from the old, general-
+purpose subtask to a more specific new task,
+for which there is often less data. While work
+in transfer learning often considers how the
+old task should affect learning on the new
+task, in this paper we show that it helps to
+take into account how the new task affects the
+old. Specifically, we perform joint decoding of
+separately-trained sequence models, preserv-
+ing uncertainty between the tasks and allowing
+information from the new task to affect predic-
+tions on the old task. On two standard text data
+sets, we show that joint decoding outperforms
+cascaded decoding.
+1 

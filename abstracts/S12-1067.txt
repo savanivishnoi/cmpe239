@@ -1,0 +1,14 @@
+
+In this paper, we describe the system we sub-
+mitted to the SemEval-2012 Lexical Simplifi-
+cation Task. Our system (mmSystem) com-
+bines word frequency with decompositional
+semantics criteria based on syntactic structure
+in order to rank candidate substitutes of lexical
+forms of arbitrary syntactic complexity (one-
+word, multi-word, etc.) in descending order
+of (cognitive) simplicity. We believe that the
+proposed approach might help to shed light on
+the interplay between linguistic features and
+lexical complexity in general.
+1 

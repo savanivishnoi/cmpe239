@@ -1,0 +1,21 @@
+
+Automatically deriving semantic structures
+from text is a challenging task for machine
+learning. The flat feature representations, usu-
+ally used in learning models, can only partially
+describe structured data. This makes difficult
+the processing of the semantic information that
+is embedded into parse-trees.
+In this paper a new kernel for automatic clas-
+sification of predicate arguments has been de-
+signed and experimented. It is based on sub-
+parse-trees annotated with predicate argument
+information from PropBank corpus. This ker-
+nel, exploiting the convolution properties of
+the parse-tree kernel, enables us to learn which
+syntactic structures can be associated with the
+arguments defined in PropBank. Support Vec-
+tor Machines (SVMs) using such a kernel clas-
+sify arguments with a better accuracy than
+SVMs based on linear kernel.
+1 

@@ -1,0 +1,31 @@
+ 
+This paper presents the semi-automatic 
+construction method of a practical 
+ontology by using various resources. In 
+order to acquire a reasonably practical 
+ontology in a limited time and with less 
+manpower, we extend the Kadokawa 
+thesaurus by inserting additional 
+semantic relations into its hierarchy, 
+which are classified as case relations 
+and other semantic relations. The 
+former can be obtained by converting 
+valency information and case frames 
+from previously-built computational 
+dictionaries used in machine translation. 
+The latter can be acquired from concept 
+co-occurrence information, which is 
+extracted automatically from large 
+corpora. The ontology stores rich 
+semantic constraints among 1,110 
+concepts, and enables a natural 
+language processing system to resolve 
+semantic ambiguities by making 
+inferences with the concept network of 
+the ontology. In our practical machine 
+translation system, our ontology-based 
+word sense disambiguation method 
+achieved an 8.7% improvement over 
+methods which do not use an ontology 
+for Korean translation. 
+1 

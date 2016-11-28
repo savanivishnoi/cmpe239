@@ -1,0 +1,12 @@
+ 
+Traditionally, text is stored on computers as 
+a stremn of characters. The goal of this research is 
+to store text in a form that facilitates word manipu- 
+lation whilst reducing storage space. A word list 
+with syntactic linear ordering is stored and words in 
+a text are given two-byte integer codes that point to 
+their respective positions in this list. The imple- 
+mentation of the encoding scheme is described and the 
+perfomnance statistics of ~lis encoding scheme is 
+presented. 
+1.0 

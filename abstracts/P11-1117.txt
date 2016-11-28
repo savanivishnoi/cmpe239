@@ -1,0 +1,15 @@
+
+This paper presents a supervised pronoun
+anaphora resolution system based on factorial
+hidden Markov models (FHMMs). The ba-
+sic idea is that the hidden states of FHMMs
+are an explicit short-term memory with an an-
+tecedent buffer containing recently described
+referents. Thus an observed pronoun can find
+its antecedent from the hidden buffer, or in
+terms of a generative model, the entries in the
+hidden buffer generate the corresponding pro-
+nouns. A system implementing this model is
+evaluated on the ACE corpus with promising
+performance.
+1 

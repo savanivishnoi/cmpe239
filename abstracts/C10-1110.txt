@@ -1,0 +1,23 @@
+
+The paper describes a weakly supervised
+approach for decomposing words into all
+morphemes: stems, prefixes and suffixes,
+using wordforms with marked stems as
+training data. As we concentrate on
+under-resourced languages, the amount
+of training data is limited and we need
+some amount of supervision in the form
+of a small number of wordforms with
+marked stems. In the first stage we in-
+troduce a new Supervised Stem Extrac-
+tion algorithm (SSE). Once stems have
+been extracted, an improved unsupervised
+segmentation algorithm GBUMS (Graph-
+Based Unsupervised Morpheme Segmen-
+tation) is used to segment suffix or prefix
+sequences into individual suffixes and pre-
+fixes. The approach, experimentally val-
+idated on Turkish and isiZulu languages,
+gives high performance on test data and is
+comparable to a fully supervised method.
+1 

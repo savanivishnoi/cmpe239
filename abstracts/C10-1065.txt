@@ -1,0 +1,17 @@
+
+This paper describes a feasibility study
+of n-gram-based evaluation metrics for
+automatic keyphrase extraction. To ac-
+count for near-misses currently ignored
+by standard evaluation metrics, we adapt
+various evaluation metrics developed for
+machine translation and summarization,
+and also the R-precision evaluation metric
+from keyphrase evaluation. In evaluation,
+the R-precision metric is found to achieve
+the highest correlation with human anno-
+tations. We also provide evidence that
+the degree of semantic similarity varies
+with the location of the partially-matching
+component words.
+1 

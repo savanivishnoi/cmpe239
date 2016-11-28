@@ -1,0 +1,15 @@
+
+Parallel corpora have applications in many ar-
+eas of Natural Language Processing, but are
+very expensive to produce. Much information
+can be gained from comparable texts, and we
+present an algorithm which, given any bod-
+ies of text in multiple languages, uses ex-
+isting named entity recognition software and
+topic detection algorithm to generate pairs of
+comparable texts without requiring a paral-
+lel corpus training phase. We evaluate the
+system?s performance firstly on data from the
+online newspaper domain, and secondly on
+Wikipedia cross-language links.
+1 

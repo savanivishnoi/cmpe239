@@ -1,0 +1,19 @@
+
+The computation of meaning similarity as
+operationalized by vector-based models has
+found widespread use in many tasks ranging
+from the acquisition of synonyms and para-
+phrases to word sense disambiguation and tex-
+tual entailment. Vector-based models are typ-
+ically directed at representing words in isola-
+tion and thus best suited for measuring simi-
+larity out of context. In his paper we propose
+a probabilistic framework for measuring sim-
+ilarity in context. Central to our approach is
+the intuition that word meaning is represented
+as a probability distribution over a set of la-
+tent senses and is modulated by context. Ex-
+perimental results on lexical substitution and
+word similarity show that our algorithm out-
+performs previously proposed models.
+1 

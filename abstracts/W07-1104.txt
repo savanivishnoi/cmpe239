@@ -1,0 +1,19 @@
+
+This paper describes a fully unsupervised
+and automated method for large-scale ex-
+traction of multiword expressions (MWEs)
+from large corpora. The method aims at cap-
+turing the non-compositionality of MWEs;
+the intuition is that a noun within a MWE
+cannot easily be replaced by a semanti-
+cally similar noun. To implement this intu-
+ition, a noun clustering is automatically ex-
+tracted (using distributional similarity mea-
+sures), which gives us clusters of semanti-
+cally related nouns. Next, a number of statis-
+tical measures ? based on selectional prefer-
+ences ? is developed that formalize the intu-
+ition of non-compositionality. Our approach
+has been tested on Dutch, and automatically
+evaluated using Dutch lexical resources.
+1 

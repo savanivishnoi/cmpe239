@@ -1,0 +1,14 @@
+ 
+We demonstrate that it is possible to perform 
+automatic sentiment classification in the very noisy 
+domain of customer feedback data. We show that 
+by using large feature vectors in combination with 
+feature reduction, we can train linear support 
+vector machines that achieve high classification 
+accuracy on data that present classification 
+challenges even for a human annotator. We also 
+show that, surprisingly, the addition of deep 
+linguistic analysis features to a set of surface level 
+word n-gram features contributes consistently to 
+classification accuracy in this domain. 
+1 

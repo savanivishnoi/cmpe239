@@ -1,0 +1,19 @@
+ 
+This paper presents a novel information sys-
+tem integrating advanced information extrac-
+tion technology and automatic hyper-linking. 
+Extracted entities are mapped into a domain 
+ontology that relates concepts to a selection of 
+hyperlinks. For information extraction, we use 
+SProUT, a generic platform for the develop-
+ment and use of multilingual text processing 
+components. By combining finite-state and 
+unification-based formalisms, the grammar 
+formalism used in SProUT offers both pro-
+cessing efficiency and a high degree of decal-
+rativeness. The ExtraLink demo system show-
+cases the extraction of relevant concepts from 
+German texts in the tourism domain, offering 
+the direct connection to associated web docu-
+ments on demand.   
+1 

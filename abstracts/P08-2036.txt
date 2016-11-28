@@ -1,0 +1,17 @@
+
+Frequency counts from very large corpora,
+such as the Web 1T dataset, have recently be-
+come available for language modeling. Omis-
+sion of low frequency n-gram counts is a prac-
+tical necessity for datasets of this size. Naive
+implementations of standard smoothing meth-
+ods do not realize the full potential of such
+large datasets with missing counts. In this pa-
+per I present a new smoothing algorithm that
+combines the Dirichlet prior form of (Mackay
+and Peto, 1995) with the modified back-off es-
+timates of (Kneser and Ney, 1995) that leads to
+a 31% perplexity reduction on the Brown cor-
+pus compared to a baseline implementation of
+Kneser-Ney discounting.
+1 

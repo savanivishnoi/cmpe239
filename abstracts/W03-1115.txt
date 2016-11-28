@@ -1,0 +1,20 @@
+ 
+In business, the retrieval of up-to-date, or fresh, 
+information is very important. It is difficult for 
+conventional search engines based on a centralized 
+architecture to retrieve fresh information, because 
+they take a long time to collect documents via Web 
+robots. In contrast to a centralized architecture, a 
+search engine based on a distributed architecture 
+does not need to collect documents, because each 
+site makes an index independently. As a result, 
+distributed search engines can be used to retrieve 
+fresh information. However, fast indexing alone is 
+not enough to retrieve fresh information, as support 
+for temporal information based retrieval is also 
+required. In this paper, we describe temporal 
+information retrieval in distributed search engines. In 
+particular, we propose an implementation of 
+temporal ranking. 
+ 
+1. 

@@ -1,0 +1,18 @@
+
+Effective transliteration of proper names
+via grapheme conversion needs to find
+transliteration patterns in training data,
+and then generate optimized candidates
+for testing samples accordingly. However,
+the top-1 accuracy for the generated candi-
+dates cannot be good if the right one is not
+ranked at the top. To tackle this issue, we
+propose to rerank the output candidates for
+a better order using the averaged percep-
+tron with multiple features. This paper de-
+scribes our recent work in this direction for
+our participation in NEWS2010 transliter-
+ation evaluation. The official results con-
+firm its effectiveness in English-Chinese
+bidirectional transliteration.
+1 

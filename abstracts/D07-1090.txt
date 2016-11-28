@@ -1,0 +1,15 @@
+
+This paper reports on the benefits of large-
+scale statistical language modeling in ma-
+chine translation. A distributed infrastruc-
+ture is proposed which we use to train on
+up to 2 trillion tokens, resulting in language
+models having up to 300 billion n-grams. It
+is capable of providing smoothed probabil-
+ities for fast, single-pass decoding. We in-
+troduce a new smoothing method, dubbed
+Stupid Backoff, that is inexpensive to train
+on large data sets and approaches the quality
+of Kneser-Ney Smoothing as the amount of
+training data increases.
+1 

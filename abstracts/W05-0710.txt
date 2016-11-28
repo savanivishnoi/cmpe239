@@ -1,0 +1,19 @@
+
+The paper addresses using artificial neu-
+ral networks for classification of Amharic
+news items. Amharic is the language for
+countrywide communication in Ethiopia
+and has its own writing system contain-
+ing extensive systematic redundancy. It is
+quite dialectally diversified and probably
+representative of the languages of a conti-
+nent that so far has received little attention
+within the language processing field.
+The experiments investigated document
+clustering around user queries using Self-
+Organizing Maps, an unsupervised learn-
+ing neural network strategy. The best
+ANN model showed a precision of 60.0%
+when trying to cluster unseen data, and a
+69.5% precision when trying to classify it.
+1 

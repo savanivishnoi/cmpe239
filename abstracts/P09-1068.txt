@@ -1,0 +1,18 @@
+
+We describe an unsupervised system for learn-
+ing narrative schemas, coherent sequences or sets
+of events (arrested(POLICE,SUSPECT), convicted(
+JUDGE, SUSPECT)) whose arguments are filled
+with participant semantic roles defined over words
+(JUDGE = {judge, jury, court}, POLICE = {police,
+agent, authorities}). Unlike most previous work in
+event structure or semantic role learning, our sys-
+tem does not use supervised techniques, hand-built
+knowledge, or predefined classes of events or roles.
+Our unsupervised learning algorithm uses corefer-
+ring arguments in chains of verbs to learn both rich
+narrative event structure and argument roles. By
+jointly addressing both tasks, we improve on pre-
+vious results in narrative/frame learning and induce
+rich frame-specific semantic roles.
+1 

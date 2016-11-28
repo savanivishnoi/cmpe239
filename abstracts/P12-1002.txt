@@ -1,0 +1,20 @@
+
+With a few exceptions, discriminative train-
+ing in statistical machine translation (SMT)
+has been content with tuning weights for large
+feature sets on small development data. Ev-
+idence from machine learning indicates that
+increasing the training sample size results in
+better prediction. The goal of this paper is to
+show that this common wisdom can also be
+brought to bear upon SMT. We deploy local
+features for SCFG-based SMT that can be read
+off from rules at runtime, and present a learn-
+ing algorithm that applies `1/`2 regulariza-
+tion for joint feature selection over distributed
+stochastic learning processes. We present ex-
+periments on learning on 1.5 million training
+sentences, and show significant improvements
+over tuning discriminative models on small
+development sets.
+1 

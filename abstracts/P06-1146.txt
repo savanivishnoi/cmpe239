@@ -1,0 +1,19 @@
+
+Given a parallel corpus, semantic projec-
+tion attempts to transfer semantic role an-
+notations from one language to another,
+typically by exploiting word alignments.
+In this paper, we present an improved
+method for obtaining constituent align-
+ments between parallel sentences to guide
+the role projection task. Our extensions
+are twofold: (a) we model constituent
+alignment as minimum weight edge cov-
+ers in a bipartite graph, which allows us to
+find a globally optimal solution efficiently;
+(b) we propose tree pruning as a promising
+strategy for reducing alignment noise. Ex-
+perimental results on an English-German
+parallel corpus demonstrate improvements
+over state-of-the-art models.
+1 

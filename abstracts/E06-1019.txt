@@ -1,0 +1,15 @@
+
+This work is concerned with the space of
+alignments searched by word alignment
+systems. We focus on situations where
+word re-ordering is limited by syntax. We
+present two new alignment spaces that
+limit an ITG according to a given depen-
+dency parse. We provide D-ITG grammars
+to search these spaces completely and
+without redundancy. We conduct a care-
+ful comparison of five alignment spaces,
+and show that limiting search with an ITG
+reduces error rate by 10%, while a D-ITG
+produces a 31% reduction.
+1 

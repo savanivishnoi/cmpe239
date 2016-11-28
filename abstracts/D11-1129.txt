@@ -1,0 +1,20 @@
+
+Modelling compositional meaning for sen-
+tences using empirical distributional methods
+has been a challenge for computational lin-
+guists. We implement the abstract categorical
+model of Coecke et al (2010) using data from
+the BNC and evaluate it. The implementation
+is based on unsupervised learning of matrices
+for relational words and applying them to the
+vectors of their arguments. The evaluation is
+based on the word disambiguation task devel-
+oped by Mitchell and Lapata (2008) for intran-
+sitive sentences, and on a similar new experi-
+ment designed for transitive sentences. Our
+model matches the results of its competitors
+in the first experiment, and betters them in the
+second. The general improvement in results
+with increase in syntactic complexity show-
+cases the compositional power of our model.
+1 

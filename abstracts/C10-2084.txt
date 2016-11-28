@@ -1,0 +1,17 @@
+ 
+While ITG has many desirable properties 
+for word alignment, it still suffers from 
+the limitation of one-to-one matching. 
+While existing approaches relax this li-
+mitation using phrase pairs, we propose a 
+ITG formalism, which even handles units 
+of non-contiguous words, using both 
+simple and hierarchical phrase pairs. We 
+also propose a parameter estimation me-
+thod, which combines the merits of both 
+supervised and unsupervised learning, 
+for the ITG formalism. The ITG align-
+ment system achieves significant im-
+provement in both word alignment quali-
+ty and translation performance. 
+1 

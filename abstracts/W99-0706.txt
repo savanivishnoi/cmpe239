@@ -1,0 +1,9 @@
+ 
+Grammatical relationships are an important level of 
+natural language processing. We present a trainable 
+approach to find these relationships through transfor- 
+mation sequences and-error-driven learning. Our ap- 
+proach finds grammatical relationships between core 
+syntax groups and bypasses much of the parsing phase. 
+On our training and test set, our procedure achieves 
+63.6% recall and 77.3% precision (f-score = 69.8). 

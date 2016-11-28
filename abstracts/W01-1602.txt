@@ -1,0 +1,24 @@
+
+We describe an approach (\vari-
+ant transduction") aimed at reduc-
+ing the eort and skill involved
+in building spoken language inter-
+faces. Applications are created
+by specifying a relatively small set
+of example utterance-action pairs
+grouped into contexts. No interme-
+diate semantic representations are
+involved in the specication, and
+the conrmation requests used in
+the dialog are constructed automat-
+ically. These properties of vari-
+ant transduction arise from combin-
+ing techniques for paraphrase gen-
+eration, classication, and example-
+matching. We describe how a spo-
+ken dialog system is constructed
+with this approach and also provide
+some experimental results on vary-
+ing the number of examples used to
+build a particular application.
+1 

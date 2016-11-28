@@ -1,0 +1,23 @@
+
+Previous research applying kernel meth-
+ods to natural language parsing have fo-
+cussed on proposing kernels over parse
+trees, which are hand-crafted based on do-
+main knowledge and computational con-
+siderations. In this paper we propose a
+method for defining kernels in terms of
+a probabilistic model of parsing. This
+model is then trained, so that the param-
+eters of the probabilistic model reflect the
+generalizations in the training data. The
+method we propose then uses these trained
+parameters to define a kernel for rerank-
+ing parse trees. In experiments, we use
+a neural network based statistical parser
+as the probabilistic model, and use the
+resulting kernel with the Voted Percep-
+tron algorithm to rerank the top 20 parses
+from the probabilistic model. This method
+achieves a significant improvement over
+the accuracy of the probabilistic model.
+1 

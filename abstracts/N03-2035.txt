@@ -1,0 +1,21 @@
+ 
+Homograph ambiguity is an original issue in 
+Text-to-Speech (TTS). To disambiguate 
+homograph, several efficient approaches have 
+been proposed such as part-of-speech (POS) 
+n-gram, Bayesian classifier, decision tree, and 
+Bayesian-hybrid approaches. These methods 
+need words or/and POS tags surrounding the 
+question homographs in disambiguation. 
+Some languages such as Thai, Chinese, and 
+Japanese have no word-boundary delimiter. 
+Therefore before solving homograph ambigu-
+ity, we need to identify word boundaries. In 
+this paper, we propose a unique framework 
+that solves both word segmentation and 
+homograph ambiguity problems altogether. 
+Our model employs both local and long-
+distance contexts, which are automatically ex-
+tracted by a machine learning technique called 
+Winnow. 
+1 

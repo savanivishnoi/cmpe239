@@ -1,0 +1,15 @@
+
+We present an approach for smoothing
+treebank-PCFG lexicons by interpolating
+treebank lexical parameter estimates with
+estimates obtained from unannotated data
+via the Inside-outside algorithm. The
+PCFG has complex lexical categories,
+making relative-frequency estimates from
+a treebank very sparse. This kind of
+smoothing for complex lexical categories
+results in improved parsing performance,
+with a particular advantage in identify-
+ing obligatory arguments subcategorized
+by verbs unseen in the treebank.
+1 

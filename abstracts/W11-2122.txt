@@ -1,0 +1,18 @@
+
+We consider using online language models for
+translating multiple streams which naturally
+arise on the Web. After establishing that us-
+ing just one stream can degrade translations
+on different domains, we present a series of
+simple approaches which tackle the problem
+of maintaining translation performance on all
+streams in small space. By exploiting the dif-
+fering throughputs of each stream and how
+the decoder translates prior test points from
+each stream, we show how translation perfor-
+mance can equal specialised, per-stream lan-
+guage models, but do this in a single language
+model using far less space. Our results hold
+even when adding three billion tokens of addi-
+tional text as a background language model.
+1 

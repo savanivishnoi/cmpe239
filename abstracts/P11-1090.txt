@@ -1,0 +1,19 @@
+
+This paper describes an unsupervised dynamic
+graphical model for morphological segmen-
+tation and bilingual morpheme alignment for
+statistical machine translation. The model ex-
+tends Hidden Semi-Markov chain models by
+using factored output nodes and special struc-
+tures for its conditional probability distribu-
+tions. It relies on morpho-syntactic and lex-
+ical source-side information (part-of-speech,
+morphological segmentation) while learning a
+morpheme segmentation over the target lan-
+guage. Our model outperforms a competi-
+tive word alignment system in alignment qual-
+ity. Used in a monolingual morphological seg-
+mentation setting it substantially improves ac-
+curacy over previous state-of-the-art models
+on three Arabic and Hebrew datasets.
+1 

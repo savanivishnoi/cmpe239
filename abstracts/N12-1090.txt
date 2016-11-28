@@ -1,0 +1,18 @@
+
+To build a coreference resolver for a new
+language, the typical approach is to first
+coreference-annotate documents from this tar-
+get language and then train a resolver on these
+annotated documents using supervised learn-
+ing techniques. However, the high cost asso-
+ciated with manually coreference-annotating
+documents needed by a supervised approach
+makes it difficult to deploy coreference tech-
+nologies across a large number of natural lan-
+guages. To alleviate this corpus annotation
+bottleneck, we examine a translation-based
+projection approach to multilingual corefer-
+ence resolution. Experimental results on two
+target languages demonstrate the promise of
+our approach.
+1 

@@ -1,0 +1,26 @@
+
+In this paper, semantic role labeling(SRL)
+on Chinese FrameNet is divided into the
+subtasks of boundary identification(BI)
+and semantic role classification(SRC).
+These subtasks are regarded as the se-
+quential tagging problem at the word
+level, respectively. We use the conditional
+random fields(CRFs) model to train and
+test on a two-fold cross-validation data
+set. The extracted features include 11
+word-level and 15 shallow syntactic fea-
+tures derived from automatic base chunk
+parsing. We use the orthogonal array of
+statistics to arrange the experiment so that
+the best feature template is selected. The
+experimental results show that given the
+target word within a sentence, the best
+F-measures of SRL can achieve 60.42%.
+For the BI and SRC subtasks, the best F-
+measures are 70.55 and 81%, respectively.
+The statistical t-test shows that the im-
+provement of our SRL model is not signif-
+icant after appending the base chunk fea-
+tures.
+1 

@@ -1,0 +1,20 @@
+
+It is well known that the output quality of
+statistical machine translation (SMT) systems
+increases with more training data. To ob-
+tain more parallel text for translation mod-
+eling, researchers have turned to the web to
+mine parallel sentences, but most previous ap-
+proaches have avoided the difficult problem
+of pairwise similarity on cross-lingual docu-
+ments and instead rely on heuristics. In con-
+trast, we confront this challenge head on us-
+ing the MapReduce framework. On a mod-
+est cluster, our scalable end-to-end processing
+pipeline was able to automatically gather 5.8m
+parallel sentence pairs from English and Ger-
+man Wikipedia. Augmenting existing bitext
+with these data yielded significant improve-
+ments over a state-of-the-art baseline (2.39
+BLEU points in the best case).
+1 

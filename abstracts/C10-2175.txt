@@ -1,0 +1,26 @@
+ 
+String-based metrics of automatic ma-
+chine translation (MT) evaluation are 
+widely applied in MT research. Mean-
+while, some linguistic motivated me-
+trics have been suggested to improve 
+the string-based metrics in sentence-
+level evaluation. In this work, we at-
+tempt to change their original calcula-
+tion units (granularities) of string-based 
+metrics to generate new features. We 
+then propose a powerful string-based 
+automatic MT evaluation metric, com-
+bining all the features with various 
+granularities based on SVM rank and 
+regression models. The experimental 
+results show that i) the new features 
+with various granularities can contri-
+bute to the automatic evaluation of 
+translation quality; ii) our proposed 
+string-based metrics with multiple gra-
+nularities based on SVM regression 
+model can achieve higher correlations 
+with human assessments than the state-
+of-art  automatic metrics. 
+1 

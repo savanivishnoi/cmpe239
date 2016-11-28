@@ -1,0 +1,18 @@
+
+Discovering and summarizing opinions from
+online reviews is an important and challeng-
+ing task. A commonly-adopted framework
+generates structured review summaries with
+aspects and opinions. Recently topic mod-
+els have been used to identify meaningful re-
+view aspects, but existing topic models do
+not identify aspect-specific opinion words. In
+this paper, we propose a MaxEnt-LDA hy-
+brid model to jointly discover both aspects
+and aspect-specific opinion words. We show
+that with a relatively small amount of train-
+ing data, our model can effectively identify as-
+pect and opinion words simultaneously. We
+also demonstrate the domain adaptability of
+our model.
+1 

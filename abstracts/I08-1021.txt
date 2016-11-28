@@ -1,0 +1,23 @@
+
+We describe a graph-based approach to Sce-
+nario Template Creation, which is the task
+of creating a representation of multiple re-
+lated events, such as reports of different hur-
+ricane incidents. We argue that context is
+valuable to identify important, semantically
+similar text spans from which template slots
+could be generalized. To leverage context,
+we represent the input as a set of graphs
+where predicate-argument tuples are ver-
+tices and their contextual relations are edges.
+A context-sensitive clustering framework is
+then applied to obtain meaningful tuple clus-
+ters by examining their intrinsic and extrin-
+sic similarities. The clustering framework
+uses Expectation Maximization to guide the
+clustering process. Experiments show that:
+1) our approach generates high quality clus-
+ters, and 2) information extracted from the
+clusters is adequate to build high coverage
+templates.
+1 

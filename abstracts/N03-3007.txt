@@ -1,0 +1,22 @@
+
+Word fragments pose serious problems for
+speech recognizers. Accurate identification of
+word fragments will not only improve recogni-
+tion accuracy, but also be very helpful for dis-
+fluency detection algorithm because the occur-
+rence of word fragments is a good indicator of
+speech disfluencies. Different from the previ-
+ous effort of including word fragments in the
+acoustic model, in this paper, we investigate the
+problem of word fragment identification from
+another approach, i.e. building classifiers using
+acoustic-prosodic features. Our experiments
+show that, by combining a few voice quality
+measures and prosodic features extracted from
+the forced alignments with the human tran-
+scriptions, we obtain a precision rate of 74.3%
+and a recall rate of 70.1% on the downsampled
+data of spontaneous speech. The overall accu-
+racy is 72.9%, which is significantly better than
+chance performance of 50%.
+1 

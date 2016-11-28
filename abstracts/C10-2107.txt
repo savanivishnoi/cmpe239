@@ -1,0 +1,26 @@
+
+Supervised semantic role labeling (SRL)
+systems are generally claimed to have ac-
+curacies in the range of 80% and higher
+(Erk and Pado?, 2006). These numbers,
+though, are the result of highly-restricted
+evaluations, i.e., typically evaluating on
+hand-picked lemmas for which training
+data is available. In this paper we con-
+sider performance of such systems when
+we evaluate at the document level rather
+than on the lemma level. While it is well-
+known that coverage gaps exist in the re-
+sources available for training supervised
+SRL systems, what we have been lacking
+until now is an understanding of the pre-
+cise nature of this coverage problem and
+its impact on the performance of SRL sys-
+tems. We present a typology of five differ-
+ent types of coverage gaps in FrameNet.
+We then analyze the impact of the cov-
+erage gaps on performance of a super-
+vised semantic role labeling system on full
+texts, showing an average oracle upper
+bound of 46.8%.
+1 

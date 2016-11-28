@@ -1,0 +1,22 @@
+ 
+This paper explores the contribution 
+of a broad range of syntactic features 
+to WSD: grammatical relations coded 
+as the presence of adjuncts/arguments 
+in isolation or as subcategorization 
+frames, and instantiated grammatical 
+relations between words. We have 
+tested the performance of syntactic 
+features using two different ML 
+algorithms (Decision Lists and 
+AdaBoost) on the Senseval-2 data. 
+Adding syntactic features to a basic 
+set of traditional features improves 
+performance, especially for AdaBoost. 
+In addition, several methods to build 
+arbitrarily high accuracy WSD 
+systems are also tried, showing that 
+syntactic features allow for a precision 
+of 86% and a coverage of 26% or 95% 
+precision and 8% coverage.  
+1. 

@@ -1,0 +1,42 @@
+s using Conditional Random Fields
+Kenji Hirohata?
+hirohata@nii.ac.jp
+Naoaki Okazaki?
+okazaki@is.s.u-tokyo.ac.jp
+Sophia Ananiadou?
+sophia.ananiadou@manchester.ac.uk
+?Graduate School of Information
+Science and Technology,
+University of Tokyo
+7-3-1 Hongo, Bunkyo-ku,
+Tokyo 113-8656, Japan
+Mitsuru Ishizuka?
+ishizuka@i.u-tokyo.ac.jp
+?School of Computer Science,
+University of Manchester
+National Centre for Text Mining (NaCTeM)
+Manchester Interdisciplinary Biocentre,
+131 Princess Street, Manchester M1 7DN, UK
+Abstract
+OBJECTIVE: The prior knowledge about
+the rhetorical structure of scientific abstracts
+is useful for various text-mining tasks such
+as information extraction, information re-
+trieval, and automatic summarization. This
+paper presents a novel approach to cate-
+gorize sentences in scientific abstracts into
+four sections, objective, methods, results,
+and conclusions. METHOD: Formalizing
+the categorization task as a sequential label-
+ing problem, we employ Conditional Ran-
+dom Fields (CRFs) to annotate section la-
+bels into abstract sentences. The train-
+ing corpus is acquired automatically from
+Medline abstracts. RESULTS: The pro-
+posed method outperformed the previous
+approaches, achieving 95.5% per-sentence
+accuracy and 68.8% per-abstract accuracy.
+CONCLUSION: The experimental results
+showed that CRFs could model the rhetor-
+ical structure of abstracts more suitably.
+1 

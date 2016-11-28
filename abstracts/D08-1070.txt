@@ -1,0 +1,18 @@
+
+We present a novel learning framework for
+pipeline models aimed at improving the com-
+munication between consecutive stages in a
+pipeline. Our method exploits the confidence
+scores associated with outputs at any given
+stage in a pipeline in order to compute prob-
+abilistic features used at other stages down-
+stream. We describe a simple method of in-
+tegrating probabilistic features into the linear
+scoring functions used by state of the art ma-
+chine learning algorithms. Experimental eval-
+uation on dependency parsing and named en-
+tity recognition demonstrate the superiority of
+our approach over the baseline pipeline mod-
+els, especially when upstream stages in the
+pipeline exhibit low accuracy.
+1 

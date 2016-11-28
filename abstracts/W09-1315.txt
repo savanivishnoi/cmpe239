@@ -1,0 +1,20 @@
+
+We introduce a controlled natural language for
+biomedical queries, called BIOQUERYCNL,
+and present an algorithm to convert a biomed-
+ical query in this language into a program
+in answer set programming (ASP)?a for-
+mal framework to automate reasoning about
+knowledge. BIOQUERYCNL allows users to
+express complex queries (possibly containing
+nested relative clauses and cardinality con-
+straints) over biomedical ontologies; and such
+a transformation of BIOQUERYCNL queries
+into ASP programs is useful for automat-
+ing reasoning about biomedical ontologies by
+means of ASP solvers. We precisely describe
+the grammar of BIOQUERYCNL, implement
+our transformation algorithm, and illustrate its
+applicability to biomedical queries by some
+examples.
+1 

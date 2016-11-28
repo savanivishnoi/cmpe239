@@ -1,0 +1,23 @@
+
+A new almost-parsing language model incorporat-
+ing multiple knowledge sources that is based upon
+the concept of Constraint Dependency Grammars is
+presented in this paper. Lexical features and syn-
+tactic constraints are tightly integrated into a uni-
+form linguistic structure called a SuperARV that is
+associated with a word in the lexicon. The Super-
+ARV language model reduces perplexity and word er-
+ror rate compared to trigram, part-of-speech-based,
+and parser-based language models. The relative con-
+tributions of the various knowledge sources to the
+strength of our model are also investigated by using
+constraint relaxation at the level of the knowledge
+sources. We have found that although each knowl-
+edge source contributes to language model quality,
+lexical features are an outstanding contributor when
+they are tightly integrated with word identity and
+syntactic constraints. Our investigation also suggests
+possible reasons for the reported poor performance
+of several probabilistic dependency grammar models
+in the literature.
+1 

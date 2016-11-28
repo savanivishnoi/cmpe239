@@ -1,0 +1,21 @@
+ion
+Benjamin Van Durme, Phillip Michalak and Lenhart K. Schubert
+Department of Computer Science
+University of Rochester
+Rochester, NY 14627, USA
+Abstract
+Existing work in the extraction of com-
+monsense knowledge from text has been
+primarily restricted to factoids that serve
+as statements about what may possibly ob-
+tain in the world. We present an ap-
+proach to deriving stronger, more general
+claims by abstracting over large sets of
+factoids. Our goal is to coalesce the ob-
+served nominals for a given predicate ar-
+gument into a few predominant types, ob-
+tained as WordNet synsets. The results can
+be construed as generically quantified sen-
+tences restricting the semantic type of an
+argument position of a predicate.
+1 

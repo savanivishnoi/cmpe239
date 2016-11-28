@@ -1,0 +1,17 @@
+
+The DDIExtraction 2013 task in the SemEval
+conference concerns the detection of drug
+names and statements of drug-drug interac-
+tions (DDI) from text. Extraction of DDIs
+is important for providing up-to-date knowl-
+edge on adverse interactions between co-
+administered drugs. We apply the machine
+learning based Turku Event Extraction Sys-
+tem to both tasks. We evaluate three fea-
+ture sets, syntactic features derived from deep
+parsing, enhanced optionally with features de-
+rived from DrugBank or from both DrugBank
+and MetaMap. TEES achieves F-scores of
+60% for the drug name recognition task and
+59% for the DDI extraction task.
+1 

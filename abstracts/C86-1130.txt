@@ -1,0 +1,23 @@
+ 
+The development of natural language interfaces to Artifi- 
+cial Intelligence systems is dependent on the representation of 
+knowledge. A major impediment to building such systems has 
+been the difficulty in adding sufficient linguistic and concep- 
+tual knowledge to extend and adapt their capabilities. This 
+difficulty has been apparent in systems which perform the 
+task of language production, i. e. the generation of natural 
+language output to satisfy the communicative requirements 
+of a system. 
+The Ace framework applies knowledge representation fun- 
+damentals to the task of encoding knowledge about language. 
+Within this framework, linguistic and conceptual knowledge 
+are organized into hierarchies, and structured associations are 
+used to join knowledge structures that are metaphorically 
+or referentially related. These structured associations per- 
+mit specialized linguistic knowledge to derive partially from 
+more abstract knowledge, facilitating the use of abstractions 
+in generating specialized phrases. Thls organization, used by 
+a generator called KING (Knowledge INtensive Generator), 
+promotes the extenslbility and adaptability of the generation 
+system. 
+1 

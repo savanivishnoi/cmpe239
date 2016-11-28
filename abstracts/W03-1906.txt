@@ -1,0 +1,55 @@
+
+Despite the many initiatives in recent years
+aimed at creating Language Engineering
+standards, it is often the case that dierent
+projects use dierent approaches and often
+dene their own standards. Even within the
+same project it often happens that dierent
+tools will require dierent ways to represent
+their linguistic data.
+In a recently started EU project focusing
+on the integration of Information Extrac-
+tion and Data Mining techniques, we aim
+at avoiding the problem of incompatibility
+among dierent tools by dening a Com-
+mon Annotation Scheme internal to the
+project. However, when the project was
+started (Sep 2002) we were unaware of the
+standardization eort of ISO TC37/SC4,
+and so we commenced once again trying to
+dene our own schema. Fortunately, as this
+work is still at an early stage (the project
+will last till 2005) it is still possible to redi-
+rect it in a way that it will be compati-
+ble with the standardization work of ISO.
+In this paper we describe the status of the
+work in the project and explore possible
+synergies with the work in ISO TC37 SC4.
+1 1
+Institute of Computational Linguistics, Uni-
+versity of Zurich, Switzerland;
+2
+Biovista, Athens,
+Greece;
+3
+Centre for Research in Information Manage-
+ment, UMIST, Manchester, UK;
+4
+CNRS, Paris, France;
+5
+Unilever Research and Development, Vlaardingen,
+The Netherlands;
+6
+TIM/ISSCO, University of Geneva,
+Switzerland;
+7
+Uni Magdeburg, Germany;
+8
+Wordmap
+Ltd., Bath, UK;
+9
+Neurosoft, Athens, Greece;
+10
+The
+Greek Ministry of National Defense, Athens, Greece
+1 

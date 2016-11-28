@@ -1,0 +1,15 @@
+
+We describe the Argument Selection and
+Coercion task for the SemEval-2010 eval-
+uation exercise. This task involves char-
+acterizing the type of compositional oper-
+ation that exists between a predicate and
+the arguments it selects. Specifically, the
+goal is to identify whether the type that
+a verb selects is satisfied directly by the
+argument, or whether the argument must
+change type to satisfy the verb typing. We
+discuss the problem in detail, describe the
+data preparation for the task, and analyze
+the results of the submissions.
+1 

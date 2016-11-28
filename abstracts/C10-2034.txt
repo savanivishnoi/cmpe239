@@ -1,0 +1,26 @@
+
+A new approach has been developed 
+for acquiring bilingual web pages from 
+the result pages of search engines, 
+which is composed of two challenging 
+tasks. The first task is to detect web 
+records embedded in the result pages 
+automatically via a clustering method 
+of a sample page. Identifying these 
+useful records through the clustering 
+method allows the generation of highly 
+effective features for the next task 
+which is high-quality bilingual web 
+page acquisition. The task of 
+high-quality bilingual web page 
+acquisition is a classification problem. 
+One advantage of our approach is that it 
+is search engine and domain 
+independent. The test is based on 2516 
+records extracted from six search 
+engines automatically and annotated 
+manually, which gets a high precision 
+of 81.3% and a recall of 94.93%. The 
+experimental results indicate that our 
+approach is very effective. 
+1 

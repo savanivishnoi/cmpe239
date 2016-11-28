@@ -1,0 +1,24 @@
+
+In this paper we first present a brief discus-
+sion of the problem of Named Entity Recog-
+nition (NER) in the context of the IJCNLP
+workshop on NER for South and South East
+Asian (SSEA) languages1 . We also present a
+short report on the development of a named
+entity annotated corpus in five South Asian
+language, namely Hindi, Bengali, Telugu,
+Oriya and Urdu. We present some details
+about a new named entity tagset used for this
+corpus and describe the annotation guide-
+lines. Since the corpus was used for a shared
+task, we also explain the evaluation mea-
+sures used for the task. We then present
+the results of our experiments on a baseline
+which uses a maximum entropy based ap-
+proach. Finally, we give an overview of the
+papers to be presented at the workshop, in-
+cluding those from the shared task track. We
+discuss the results obtained by teams partic-
+ipating in the task and compare their results
+with the baseline results.
+1 

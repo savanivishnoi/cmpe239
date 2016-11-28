@@ -1,0 +1,19 @@
+
+In this paper, the UNITOR system participat-
+ing in the SemEval-2013 Sentiment Analysis
+in Twitter task is presented. The polarity de-
+tection of a tweet is modeled as a classifica-
+tion task, tackled through a Multiple Kernel
+approach. It allows to combine the contribu-
+tion of complex kernel functions, such as the
+Latent Semantic Kernel and Smoothed Par-
+tial Tree Kernel, to implicitly integrate syn-
+tactic and lexical information of annotated ex-
+amples. In the challenge, UNITOR system
+achieves good results, even considering that
+no manual feature engineering is performed
+and no manually coded resources are em-
+ployed. These kernels in-fact embed distri-
+butional models of lexical semantics to deter-
+mine expressive generalization of tweets.
+1 

@@ -1,0 +1,19 @@
+
+We are aiming to acquire named entity
+(NE) translation knowledge from non-
+parallel, content-aligned corpora, by uti-
+lizing NE extraction techniques. For this
+research, we are constructing a Japanese-
+English broadcast news corpus with NE
+tags. The tags represent not only NE
+class information but also coreference in-
+formation within the same monolingual
+document and between corresponding
+Japanese-English document pairs. Anal-
+ysis of about 1,100 annotated article pairs
+has shown that if NE occurrence informa-
+tion, such as classes, number of occur-
+rence and occurrence order, is given for
+each language, it may provide a good clue
+for corresponding NEs across languages.
+1 

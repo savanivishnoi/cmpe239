@@ -1,0 +1,33 @@
+ 
+This paper describes the NLP2CT Grammati-
+cal Error Detection and Correction system for 
+the CoNLL 2013 shared task, with a focus on 
+the errors of article or determiner (ArtOrDet), 
+noun number (Nn), preposition (Prep), verb 
+form (Vform) and subject-verb agreement 
+(SVA). A hybrid model is adopted for this spe-
+cial task. The process starts with spell-
+checking as a preprocessing step to correct any 
+possible erroneous word. We used a Maxi-
+mum Entropy classifier together with manual-
+ly rule-based filters to detect the grammatical 
+errors in English. A language model based on 
+the Google N-gram corpus was employed to 
+select the best correction candidate from a 
+confusion matrix. We also explored a graph-
+based label propagation approach to overcome 
+the sparsity problem in training the model. Fi-
+nally, a number of deterministic rules were 
+used to increase the precision and recall. The 
+proposed model was evaluated on the test set 
+consisting of 50 essays and with about 500 
+words in each essay. Our system achieves the 
+5
+th
+ and 3
+rd
+ F1 scores on official test set among 
+all 17 participating teams based on gold-
+standard edits before and after revision, re-
+spectively.  
+1 

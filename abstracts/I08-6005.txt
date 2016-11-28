@@ -1,0 +1,21 @@
+
+Accurate high-coverage translation is a vi-
+tal component of reliable cross language in-
+formation access (CLIA) systems. While
+machine translation (MT) has been shown
+to be effective for CLIA tasks in previous
+evaluation workshops, it is not well suited
+to specialized tasks where domain specific
+translations are required. We demonstrate
+that effective query translation for CLIA can
+be achieved in the domain of cultural her-
+itage (CH). This is performed by augment-
+ing a standard MT system with domain-
+specific phrase dictionaries automatically
+mined from the online Wikipedia. Exper-
+iments using our hybrid translation system
+with sample query logs from users of CH
+websites demonstrate a large improvement
+in the accuracy of domain specific phrase de-
+tection and translation.
+1 

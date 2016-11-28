@@ -1,0 +1,11 @@
+
+Georgian is a less commonly studied lan-
+guage with complex, non-concatenative
+verbal morphology. We present a compu-
+tational model for generation and recogni-
+tion of Georgian verb conjugations, rely-
+ing on the analysis of Georgian verb struc-
+ture as a word-level template. The model
+combines a set of finite-state transducers
+with a default inheritance mechanism.1
+1 

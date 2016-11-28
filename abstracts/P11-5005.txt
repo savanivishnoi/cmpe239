@@ -1,0 +1,19 @@
+
+We present an approach to grammar induc-
+tion that utilizes syntactic universals to im-
+prove dependency parsing across a range of
+languages. Our method uses a single set
+of manually-specified language-independent
+rules that identify syntactic dependencies be-
+tween pairs of syntactic categories that com-
+monly occur across languages. During infer-
+ence of the probabilistic model, we use pos-
+terior expectation constraints to require that a
+minimum proportion of the dependencies we
+infer be instances of these rules. We also auto-
+matically refine the syntactic categories given
+in our coarsely tagged input. Across six lan-
+guages our approach outperforms state-of-the-
+art unsupervised methods by a significant mar-
+gin.1
+1 

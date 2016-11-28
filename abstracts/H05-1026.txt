@@ -1,0 +1,25 @@
+
+During the last years there has been grow-
+ing interest in using neural networks for
+language modeling. In contrast to the well
+known back-off n-gram language models,
+the neural network approach attempts to
+overcome the data sparseness problem by
+performing the estimation in a continuous
+space. This type of language model was
+mostly used for tasks for which only a
+very limited amount of in-domain training
+data is available.
+In this paper we present new algorithms to
+train a neural network language model on
+very large text corpora. This makes pos-
+sible the use of the approach in domains
+where several hundreds of millions words
+of texts are available. The neural network
+language model is evaluated in a state-of-
+the-art real-time continuous speech recog-
+nizer for French Broadcast News. Word
+error reductions of 0.5% absolute are re-
+ported using only a very limited amount
+of additional processing time.
+1 

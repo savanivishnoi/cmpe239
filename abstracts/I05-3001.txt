@@ -1,0 +1,35 @@
+
+          
+This paper proposes a 
+semi-automatic method to detect 
+segmentation errors in a manually 
+annotated Chinese corpus in order 
+to improve its quality further. A 
+particular Chinese character string 
+occurring more than once in a 
+corpus may be assigned different 
+segmentations during a 
+segmentation process. Based on 
+these differences our approach 
+outputs the segmentation error 
+candidates found in a segmented 
+corpus and then on which the 
+segmentation errors are identified 
+manually. Segmentation error rate 
+of a gold standard corpus can be 
+given using our method. In Peking 
+University (PK) and Academic 
+Sinica (AS) test corpora of Special 
+Interest Group for Chinese 
+Language Processing (SIGHAN) 
+Bakeoff1, 1.29% and 2.26% 
+segmentation error rates are 
+detected by our method. These 
+errors decrease the F-measure of 
+SIGHAN Bakeoff1 baseline test by 
+1.36% in PK test data and 1.93% in 
+AS test data respectively.  
+                                                          
+                                                           This work was done while Chengjie Sun was visiting 
+Microsoft Research Asia. 
+1 

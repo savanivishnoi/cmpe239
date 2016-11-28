@@ -1,0 +1,29 @@
+
+We propose a computational framework
+for identifying linguistic aspects of polite-
+ness. Our starting point is a new corpus
+of requests annotated for politeness, which
+we use to evaluate aspects of politeness
+theory and to uncover new interactions
+between politeness markers and context.
+These findings guide our construction of
+a classifier with domain-independent lexi-
+cal and syntactic features operationalizing
+key components of politeness theory, such
+as indirection, deference, impersonaliza-
+tion and modality. Our classifier achieves
+close to human performance and is effec-
+tive across domains. We use our frame-
+work to study the relationship between po-
+liteness and social power, showing that po-
+lite Wikipedia editors are more likely to
+achieve high status through elections, but,
+once elevated, they become less polite. We
+see a similar negative correlation between
+politeness and power on Stack Exchange,
+where users at the top of the reputation
+scale are less polite than those at the bot-
+tom. Finally, we apply our classifier to
+a preliminary analysis of politeness vari-
+ation by gender and community.
+1 

@@ -1,0 +1,15 @@
+
+Tree-based approaches to alignment model
+translation as a sequence of probabilistic op-
+erations transforming the syntactic parse tree
+of a sentence in one language into that of the
+other. The trees may be learned directly from
+parallel corpora (Wu, 1997), or provided by a
+parser trained on hand-annotated treebanks (Ya-
+mada and Knight, 2001). In this paper, we
+compare these approaches on Chinese-English
+and French-English datasets, and find that au-
+tomatically derived trees result in better agree-
+ment with human-annotated word-level align-
+ments for unseen test data.
+1 

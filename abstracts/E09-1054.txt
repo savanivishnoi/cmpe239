@@ -1,0 +1,22 @@
+
+In this paper, we present a novel approach
+to integrate speech recognition and rule-
+based machine translation by lattice pars-
+ing. The presented approach is hybrid
+in two senses. First, it combines struc-
+tural and statistical methods for language
+modeling task. Second, it employs a
+chart parser which utilizes manually cre-
+ated syntax rules in addition to scores ob-
+tained after statistical processing during
+speech recognition. The employed chart
+parser is a unification-based active chart
+parser. It can parse word graphs by using a
+mixed strategy instead of being bottom-up
+or top-down only. The results are reported
+based on word error rate on the NIST
+HUB-1 word-lattices. The presented ap-
+proach is implemented and compared with
+other syntactic language modeling tech-
+niques.
+1 

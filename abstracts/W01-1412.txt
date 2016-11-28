@@ -1,0 +1,22 @@
+
+This paper presents on-going research
+on automatic extraction of bilingual
+lexicon from English-Japanese paral-
+lel corpora. The main objective of
+this paper is to examine various N-
+gram models of generating transla-
+tion units for bilingual lexicon ex-
+traction. Three N-gram models, a
+baseline model (Bound-length N-gram)
+and two new models (Chunk-bound N-
+gram and Dependency-linked N-gram)
+are compared. An experiment with
+10000 English-Japanese parallel sen-
+tences shows that Chunk-bound N-
+gram produces the best result in terms
+of accuracy (83%) as well as coverage
+(60%) and it improves approximately
+by 13% in accuracy and by 5-9% in
+coverage from the previously proposed
+baseline model.
+1 

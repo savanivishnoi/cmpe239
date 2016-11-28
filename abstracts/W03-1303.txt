@@ -1,0 +1,25 @@
+ 
+In this paper we present an approach to 
+term classification based on verb com-
+plementation patterns. The complementa-
+tion patterns have been automatically 
+learnt by combining information found in 
+a corpus and an ontology, both belonging 
+to the biomedical domain. The learning 
+process is unsupervised and has been im-
+plemented as an iterative reasoning pro-
+cedure based on a partial order relation 
+induced by the domain-specific ontology. 
+First, term recognition was performed by 
+both looking up the dictionary of terms 
+listed in the ontology and applying the 
+C/NC-value method. Subsequently, do-
+main-specific verbs were automatically 
+identified in the corpus. Finally, the 
+classes of terms typically selected as ar-
+guments for the considered verbs were in-
+duced from the corpus and the ontology. 
+This information was used to classify 
+newly recognised terms. The precision of 
+the classification method reached 64%. 
+1 

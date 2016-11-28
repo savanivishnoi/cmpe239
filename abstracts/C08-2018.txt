@@ -1,0 +1,15 @@
+
+This paper elaborates a model for rep-
+resenting semantic calendar expressions
+(SCEs), which correspond to the inten-
+sional meanings of natural-language calen-
+dar phrases. The model uses finite-state
+transducers (FSTs) to mark denoted peri-
+ods of time on a set of timelines repre-
+sented as a finite-state automaton (FSA).
+We present a treatment of SCEs corre-
+sponding to quantified phrases (any Mon-
+day; every May) and an implication oper-
+ation for requiring the denotation of one
+SCE to contain completely that of another.
+1 

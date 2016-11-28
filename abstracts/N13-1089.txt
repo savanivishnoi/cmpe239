@@ -1,0 +1,19 @@
+
+Sentence Similarity [SS] computes a similar-
+ity score between two sentences. The SS task
+differs from document level semantics tasks
+in that it features the sparsity of words in a
+data unit, i.e. a sentence. Accordingly it is
+crucial to robustly model each word in a sen-
+tence to capture the complete semantic picture
+of the sentence. In this paper, we hypoth-
+esize that by better modeling lexical seman-
+tics we can obtain better sentential semantics.
+We incorporate both corpus-based (selectional
+preference information) and knowledge-based
+(similar words extracted in a dictionary) lex-
+ical semantics into a latent variable model.
+The experiments show state-of-the-art perfor-
+mance among unsupervised systems on two
+SS datasets.
+1 

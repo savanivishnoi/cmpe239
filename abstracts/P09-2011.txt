@@ -1,0 +1,12 @@
+
+This paper describes an incremental parser
+based on an adjoining operation. By using
+the operation, we can avoid the problem
+of infinite local ambiguity in incremental
+parsing. This paper further proposes a re-
+stricted version of the adjoining operation,
+which preserves lexical dependencies of
+partial parse trees. Our experimental re-
+sults showed that the restriction enhances
+the accuracy of the incremental parsing.
+1 

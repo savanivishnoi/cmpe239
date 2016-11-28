@@ -1,0 +1,25 @@
+
+We address appropriate user modeling in
+order to generate cooperative responses to
+each user in spoken dialogue systems. Un-
+like previous studies that focus on user?s
+knowledge or typical kinds of users, the
+user model we propose is more compre-
+hensive. Specifically, we set up three di-
+mensions of user models: skill level to
+the system, knowledge level on the tar-
+get domain and the degree of hastiness.
+Moreover, the models are automatically
+derived by decision tree learning using
+real dialogue data collected by the sys-
+tem. We obtained reasonable classifica-
+tion accuracy for all dimensions. Dia-
+logue strategies based on the user model-
+ing are implemented in Kyoto city bus in-
+formation system that has been developed
+at our laboratory. Experimental evalua-
+tion shows that the cooperative responses
+adaptive to individual users serve as good
+guidance for novice users without increas-
+ing the dialogue duration for skilled users.
+1 

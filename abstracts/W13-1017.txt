@@ -1,0 +1,24 @@
+
+We present an experimental study of how dif-
+ferent features help measuring the idiomatic-
+ity of noun+verb (NV) expressions in Basque.
+After testing several techniques for quantify-
+ing the four basic properties of multiword ex-
+pressions or MWEs (institutionalization, se-
+mantic non-compositionality, morphosyntac-
+tic fixedness and lexical fixedness), we test
+different combinations of them for classifica-
+tion into idioms and collocations, using Ma-
+chine Learning (ML) and feature selection.
+The results show the major role of distribu-
+tional similarity, which measures composi-
+tionality, in the extraction and classification
+of MWEs, especially, as expected, in the case
+of idioms. Even though cooccurrence and
+some aspects of morphosyntactic flexibility
+contribute to this task in a more limited mea-
+sure, ML experiments make benefit of these
+sources of knowledge, allowing to improve
+the results obtained using exclusively distribu-
+tional similarity features.
+1 

@@ -1,0 +1,20 @@
+
+This paper presents a discriminative align-
+ment model for extracting abbreviations
+and their full forms appearing in actual
+text. The task of abbreviation recognition
+is formalized as a sequential alignment
+problem, which finds the optimal align-
+ment (origins of abbreviation letters) be-
+tween two strings (abbreviation and full
+form). We design a large amount of fine-
+grained features that directly express the
+events where letters produce or do not pro-
+duce abbreviations. We obtain the optimal
+combination of features on an aligned ab-
+breviation corpus by using the maximum
+entropy framework. The experimental re-
+sults show the usefulness of the alignment
+model and corpus for improving abbrevia-
+tion recognition.
+1 

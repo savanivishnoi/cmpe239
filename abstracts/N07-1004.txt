@@ -1,0 +1,19 @@
+
+This study addresses the problem of au-
+tomatically detecting decisions in conver-
+sational speech. We formulate the prob-
+lem as classifying decision-making units
+at two levels of granularity: dialogue acts
+and topic segments. We conduct an em-
+pirical analysis to determine the charac-
+teristic features of decision-making dia-
+logue acts, and train MaxEnt models using
+these features for the classification tasks.
+We find that models that combine lexi-
+cal, prosodic, contextual and topical fea-
+tures yield the best results on both tasks,
+achieving 72% and 86% precision, respec-
+tively. The study also provides a quantita-
+tive analysis of the relative importance of
+the feature types.
+1 

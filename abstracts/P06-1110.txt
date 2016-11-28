@@ -1,0 +1,18 @@
+
+The present work advances the accu-
+racy and training speed of discrimina-
+tive parsing. Our discriminative parsing
+method has no generative component, yet
+surpasses a generative baseline on con-
+stituent parsing, and does so with mini-
+mal linguistic cleverness. Our model can
+incorporate arbitrary features of the in-
+put and parse state, and performs fea-
+ture selection incrementally over an ex-
+ponential feature space during training.
+We demonstrate the flexibility of our ap-
+proach by testing it with several pars-
+ing strategies and various feature sets.
+Our implementation is freely available at:
+http://nlp.cs.nyu.edu/parser/.
+1 

@@ -1,0 +1,15 @@
+
+We show that orthographic cues can be helpful
+for unsupervised parsing. In the Penn Tree-
+bank, transitions between upper- and lower-
+case tokens tend to align with the boundaries
+of base (English) noun phrases. Such signals
+can be used as partial bracketing constraints to
+train a grammar inducer: in our experiments,
+directed dependency accuracy increased by
+2.2% (average over 14 languages having case
+information). Combining capitalization with
+punctuation-induced constraints in inference
+further improved parsing performance, attain-
+ing state-of-the-art levels for many languages.
+1 

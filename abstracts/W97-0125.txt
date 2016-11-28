@@ -1,0 +1,12 @@
+ 
+We present an LO-based approach to recognizing of Proper Names in Korean texts. 
+Local grammars (LGs) are constructed byexamining specific syntactic contexts of lexical 
+elements, given that the general syntactic rules, independent from lexical items, cannot 
+provide accurate analyses. The LGs will be represented under the form of Finite State 
+Automata (FSA) in our system. 
+So far as we do not have a dictionary which would provide all proper names, we need 
+auxiliary tools to analyze them. We will examine contexts where strings containing proper 
+names occur. Our approach consists in building an electronic lexicon of PNs in a way more 
+satisfactory than other existing methods, uch as their recognition i  texts by means of 
+statistical pproaches or by rule-based methods. 
+1. 

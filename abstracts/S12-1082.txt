@@ -1,0 +1,19 @@
+
+We estimate the semantic similarity between
+two sentences using regression models with
+features: 1) n-gram hit rates (lexical matches)
+between sentences, 2) lexical semantic sim-
+ilarity between non-matching words, and 3)
+sentence length. Lexical semantic similarity is
+computed via co-occurrence counts on a cor-
+pus harvested from the web using a modified
+mutual information metric. State-of-the-art re-
+sults are obtained for semantic similarity com-
+putation at the word level, however, the fusion
+of this information at the sentence level pro-
+vides only moderate improvement on Task 6
+of SemEval?12. Despite the simple features
+used, regression models provide good perfor-
+mance, especially for shorter sentences, reach-
+ing correlation of 0.62 on the SemEval test set.
+1 

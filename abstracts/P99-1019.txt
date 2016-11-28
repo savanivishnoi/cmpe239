@@ -1,0 +1,40 @@
+ion Level 
+Yael Dahan Netzer and Michael Elhadad 
+Ben Gurion University 
+Department of Mathematics and Computer Science, Beer Sheva, 84105, Israel 
+(yaeln I elhadad) @cs. bgu. ac. il 
+Abstract 
+Syntactic realization grammars have tradi- 
+tionally attempted to accept inputs with the 
+highest possible level of abstraction, in or- 
+der to facilitate the work of the compo- 
+nents (sentence planner) preparing the in- 
+put. Recently, the search for higher ab- 
+straction has been, however, challenged (E1- 
+hadad and Robin, 1996)(Lavoie and Ram- 
+bow, 1997)(Busemann a d Horacek, 1998). 
+In this paper, we contribute to the issue of 
+selecting the "ideal" abstraction level in the 
+input to syntactic realization grammar by 
+considering the case of partitives and pos- 
+sessives in a bilingual Hebrew-English gen- 
+eration grammar. In the case of bilingual 
+generation, the ultimate goal is to provide a 
+single input structure, where only the open- 
+class lexical entries are specific to the lan- 
+guage. In that case, the minimal abstraction 
+required must cover the different syntactic 
+constraints of the two languages. 
+We present a contrastive analysis of the 
+syntactic realizations of possessives and par- 
+titives in Hebrew and English and conclude 
+by presenting an input specification for com- 
+plex NPs which is slightly more abstract 
+than the one used in SURGE. We define two 
+main features -possessor and rejLset, and 
+? discuss how the grammar handles complex 
+syntactic o-occurrence phenomena based on 
+this input. We conclude by evaluating how 
+the resulting input specification language is 
+appropriate for both languages. 
+1 

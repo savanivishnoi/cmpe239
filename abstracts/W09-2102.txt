@@ -1,0 +1,21 @@
+ 
+Assessment of reading proficiency is typically 
+done by asking subjects to read a text passage 
+silently and then answer questions related to 
+the text. An alternate approach, measuring 
+reading-aloud proficiency, has been shown to 
+correlate well with the aforementioned com-
+mon method and is used as a paradigm in this 
+paper.  
+We describe a system that is able to automati-
+cally score two types of children?s read speech 
+samples (text passages and word lists), using 
+automatic speech recognition and the target 
+criterion ?correctly read words per minute?. 
+Its performance is dependent on the data type 
+(passages vs. word lists) as well as on the rela-
+tive difficulty of passages or words for indi-
+vidual readers. Pearson correlations with 
+human assigned scores are around 0.86 for 
+passages and around 0.80 for word lists. 
+1 

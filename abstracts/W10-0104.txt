@@ -1,0 +1,17 @@
+
+In this work, we show how active learning
+in some (target) domain can leverage infor-
+mation from a different but related (source)
+domain. We present an algorithm that har-
+nesses the source domain data to learn the best
+possible initializer hypothesis for doing active
+learning in the target domain, resulting in im-
+proved label complexity. We also present a
+variant of this algorithm which additionally
+uses the domain divergence information to se-
+lectively query the most informative points in
+the target domain, leading to further reduc-
+tions in label complexity. Experimental re-
+sults on a variety of datasets establish the effi-
+cacy of the proposed methods.
+1 

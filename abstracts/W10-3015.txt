@@ -1,0 +1,24 @@
+ 
+In this paper, we present a machine learning 
+approach that detects hedge cues and their 
+scope in biomedical texts. Identifying hedged 
+information in texts is a kind of semantic 
+filtering of texts and it is important since it 
+could extract speculative information from 
+factual information. In order to deal with the 
+semantic analysis problem, various evidential 
+features are proposed and integrated through a 
+Conditional Random Fields (CRFs) model. 
+Hedge cues that appear in the training dataset 
+are regarded as keywords and employed as an 
+important feature in hedge cue identification 
+system. For the scope finding, we construct a 
+CRF-based system and a syntactic 
+pattern-based system, and compare their 
+performances. Experiments using test data 
+from CoNLL-2010 shared task show that our 
+proposed method is robust. F-score of the 
+biological hedge detection task and scope 
+finding task achieves 86.32% and 54.18% in 
+in-domain evaluations respectively. 
+1. 

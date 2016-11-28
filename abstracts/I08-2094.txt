@@ -1,0 +1,16 @@
+
+Automatic paraphrasing is a transformation
+of expressions into semantically equivalent
+expressions within one language. For gener-
+ating a wider variety of phrasal paraphrases
+in Japanese, it is necessary to paraphrase
+functional expressions as well as content ex-
+pressions. We propose a method of para-
+phrasing of Japanese functional expressions
+using a dictionary with two hierarchies: a
+morphological hierarchy and a semantic hi-
+erarchy. Our system generates appropriate
+alternative expressions for 79% of source
+phrases in Japanese in an open test. It also
+accepts style and readability specifications.
+1 

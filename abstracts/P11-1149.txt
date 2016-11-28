@@ -1,0 +1,18 @@
+
+Current approaches for semantic parsing take
+a supervised approach requiring a consider-
+able amount of training data which is expen-
+sive and difficult to obtain. This supervision
+bottleneck is one of the major difficulties in
+scaling up semantic parsing.
+We argue that a semantic parser can be trained
+effectively without annotated data, and in-
+troduce an unsupervised learning algorithm.
+The algorithm takes a self training approach
+driven by confidence estimation. Evaluated
+over Geoquery, a standard dataset for this
+task, our system achieved 66% accuracy, com-
+pared to 80% of its fully supervised counter-
+part, demonstrating the promise of unsuper-
+vised approaches for this task.
+1 

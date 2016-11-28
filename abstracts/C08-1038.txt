@@ -1,0 +1,15 @@
+
+We present dependency-based n-gram
+models for general-purpose, wide-
+coverage, probabilistic sentence realisa-
+tion. Our method linearises unordered
+dependencies in input representations
+directly rather than via the application
+of grammar rules, as in traditional chart-
+based generators. The method is simple,
+efficient, and achieves competitive accu-
+racy and complete coverage on standard
+English (Penn-II, 0.7440 BLEU, 0.05
+sec/sent) and Chinese (CTB6, 0.7123
+BLEU, 0.14 sec/sent) test data.
+1 

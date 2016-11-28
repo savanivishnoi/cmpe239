@@ -1,0 +1,15 @@
+
+This paper describes our system for
+SemEval-2010 Task 8 on multi-way clas-
+sification of semantic relations between
+nominals. First, the type of semantic re-
+lation is classified. Then a relation type-
+specific classifier determines the relation
+direction. Classification is performed us-
+ing SVM classifiers and a number of fea-
+tures that capture the context, semantic
+role affiliation, and possible pre-existing
+relations of the nominals. This approach
+achieved an F1 score of 82.19% and an ac-
+curacy of 77.92%.
+1 

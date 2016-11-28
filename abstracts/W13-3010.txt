@@ -1,0 +1,25 @@
+
+The consistency method has been estab-
+lished as the standard strategy for extract-
+ing high quality translation rules in statis-
+tical machine translation (SMT). However,
+no attention has been drawn to why this
+method is successful, other than empiri-
+cal evidence. Using concepts from graph
+theory, we identify the relation between
+consistency and components of graphs that
+represent word-aligned sentence pairs. It
+can be shown that phrase pairs of interest
+to SMT form a sigma-algebra generated
+by components of such graphs. This con-
+struction is generalized by allowing seg-
+mented sentence pairs, which in turn gives
+rise to a phrase-based generative model. A
+by-product of this model is a derivation of
+probability mass functions for random par-
+titions. These are realized as cases of con-
+strained, biased sampling without replace-
+ment and we provide an exact formula for
+the probability of a segmentation of a sen-
+tence.
+1 

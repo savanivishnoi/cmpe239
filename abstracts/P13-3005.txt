@@ -1,0 +1,15 @@
+
+In this paper we focus on practical is-
+sues of data representation for dependency
+parsing. We carry out an experimental
+comparison of (a) three syntactic depen-
+dency schemes; (b) three data-driven de-
+pendency parsers; and (c) the influence of
+two different approaches to lexical cate-
+gory disambiguation (aka tagging) prior to
+parsing. Comparing parsing accuracies in
+various setups, we study the interactions
+of these three aspects and analyze which
+configurations are easier to learn for a de-
+pendency parser.
+1 

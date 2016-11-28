@@ -1,0 +1,24 @@
+
+Analogical learning is based on a two-
+step inference process: (i) computation
+of a structural mapping between a new
+and a memorized situation; (ii) transfer
+of knowledge from the known to the un-
+known situation. This approach requires
+the ability to search for and exploit such
+mappings, hence the need to properly de-
+fine analogical relationships, and to effi-
+ciently implement their computation.
+In this paper, we propose a unified defini-
+tion for the notion of (formal) analogical
+proportion, which applies to a wide range
+of algebraic structures. We show that this
+definition is suitable for learning in do-
+mains involving large databases of struc-
+tured data, as is especially the case in Nat-
+ural Language Processing (NLP). We then
+present experimental results obtained on
+two morphological analysis tasks which
+demonstrate the flexibility and accuracy of
+this approach.
+1 

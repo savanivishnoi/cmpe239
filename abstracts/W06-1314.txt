@@ -1,0 +1,23 @@
+
+Identification of action items in meeting
+recordings can provide immediate access
+to salient information in a medium noto-
+riously difficult to search and summarize.
+To this end, we use a maximum entropy
+model to automatically detect action item-
+related utterances from multi-party audio
+meeting recordings. We compare the ef-
+fect of lexical, temporal, syntactic, seman-
+tic, and prosodic features on system per-
+formance. We show that on a corpus of ac-
+tion item annotations on the ICSI meeting
+recordings, characterized by high imbal-
+ance and low inter-annotator agreement,
+the system performs at an F measure of
+31.92%. While this is low compared to
+better-studied tasks on more mature cor-
+pora, the relative usefulness of the features
+towards this task is indicative of their use-
+fulness on more consistent annotations, as
+well as to related tasks.
+1 

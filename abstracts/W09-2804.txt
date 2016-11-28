@@ -1,0 +1,19 @@
+
+We introduce a content selection method
+for opinion summarization based on a
+well-studied, formal mathematical model,
+the p-median clustering problem from fa-
+cility location theory. Our method re-
+places a series of local, myopic steps to
+content selection with a global solution,
+and is designed to allow content and re-
+alization decisions to be naturally inte-
+grated. We evaluate and compare our
+method against an existing heuristic-based
+method on content selection, using human
+selections as a gold standard. We find that
+the algorithms perform similarly, suggest-
+ing that our content selection method is
+robust enough to support integration with
+other aspects of summarization.
+1 

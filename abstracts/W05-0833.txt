@@ -1,0 +1,33 @@
+
+(Way and Gough, 2005) provide an in-
+depth comparison of their Example-Based
+Machine Translation (EBMT) system with
+a Statistical Machine Translation (SMT)
+system constructed from freely available
+tools. According to a wide variety of au-
+tomatic evaluation metrics, they demon-
+strated that their EBMT system outper-
+formed the SMT system by a factor of two
+to one.
+Nevertheless, they did not test their EBMT
+system against a phrase-based SMT sys-
+tem. Obtaining their training and test
+data for English?French, we carry out a
+number of experiments using the Pharaoh
+SMT Decoder. While better results are
+seen when Pharaoh is seeded with Giza++
+word- and phrase-based data compared to
+EBMT sub-sentential alignments, in gen-
+eral better results are obtained when com-
+binations of this ?hybrid? data is used
+to construct the translation and probabil-
+ity models. While for the most part the
+EBMT system of (Gough & Way, 2004b)
+outperforms any flavour of the phrase-
+based SMT systems constructed in our
+experiments, combining the data sets au-
+tomatically induced by both Giza++ and
+their EBMT system leads to a hybrid sys-
+tem which improves on the EBMT system
+per se for French?English.
+1 

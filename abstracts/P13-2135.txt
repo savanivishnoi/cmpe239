@@ -1,0 +1,21 @@
+
+The use of automatic word alignment to
+capture sentence-level semantic relations
+is common to a number of cross-lingual
+NLP applications. Despite its proved
+usefulness, however, word alignment in-
+formation is typically considered from a
+quantitative point of view (e.g. the number
+of alignments), disregarding qualitative
+aspects (the importance of aligned terms).
+In this paper we demonstrate that integrat-
+ing qualitative information can bring sig-
+nificant performance improvements with
+negligible impact on system complexity.
+Focusing on the cross-lingual textual en-
+tailment task, we contribute with a novel
+method that: i) significantly outperforms
+the state of the art, and ii) is portable, with
+limited loss in performance, to language
+pairs where training data are not available.
+1 

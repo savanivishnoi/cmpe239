@@ -1,0 +1,19 @@
+
+In this paper, we present a novel morphol-
+ogy preprocessing technique for Arabic-
+English translation. We exploit the Arabic
+morphology-English alignment to learn a
+model removing nonaligned Arabic mor-
+phemes. The model is an instance of
+the Conditional Random Field (Lafferty et
+al., 2001) model; it deletes a morpheme
+based on the morpheme?s context. We
+achieved around two BLEU points im-
+provement over the original Arabic trans-
+lation for both a travel-domain system
+trained on 20K sentence pairs and a news
+domain system trained on 177K sentence
+pairs, and showed a potential improvement
+for a large-scale SMT system trained on 5
+million sentence pairs.
+1 

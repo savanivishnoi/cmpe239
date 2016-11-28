@@ -1,0 +1,20 @@
+ 
+This paper presents a strategy to generate ge-
+neric summary of documents using Probabilistic 
+Latent Semantic Indexing. Generally a docu-
+ment contains several topics rather than a single 
+one. Summaries created by human beings tend 
+to cover several topics to give the readers an 
+overall idea about the original document. Hence 
+we can expect that a summary containing sen-
+tences from better part of the topic spectrum 
+should make a better summary. PLSI has 
+proven to be an effective method in topic detec-
+tion. In this paper we present a method for cre-
+ating extractive summary of the document by 
+using PLSI to analyze the features of document 
+such as term frequency and graph structure. We 
+also show our results, which was evaluated us-
+ing ROUGE, and compare the results with other 
+techniques, proposed in the past.  
+1 

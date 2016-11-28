@@ -1,0 +1,19 @@
+ 
+Mandarin Chinese is a highly flexible and context-sensitive 
+language. It is difficult to do the case marking and index 
+assignment during the parsing of Chinese sentences. This 
+paper proposes a logic-based Government-Binding approach to 
+treat this problem. The grammar formalism is specified in a 
+formal way. Uniform treatments of movements, arbitrary 
+number of movement non-terminals, automatic detection of 
+grammar errors beforehand, and clear declarative semantics are 
+its specific features. Many common linguistic phenomena of
+Chinese sentences are represented with this fornmlism. For 
+example, topic-comment structures, the ba-constructions, the 
+bei-constructions, relative clause constructions, appositive 
+clause constructions, and serial verb constructions. A simple 
+pronot,n resolution is touched upon. The expressive 
+capabilities and the design methodologies show this mechanism 
+is also suitable for other flexible and context-sensitive 
+languages. 
+1. 

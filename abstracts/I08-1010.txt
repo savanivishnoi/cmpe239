@@ -1,0 +1,54 @@
+
+In this paper, we propose an architecture,
+called UCSG Shallow Parsing Architecture,
+for building wide coverage shallow parsers by
+using a judicious combination of linguistic
+and statistical techniques without need for
+large amount of parsed training corpus to
+start with. We only need a large POS tagged
+corpus. A parsed corpus can be developed
+using the architecture with minimal manual
+effort, and such a corpus can be used for
+evaluation as also for performance improve-
+ment. The UCSG architecture is designed to
+be extended into a full parsing system but
+the current work is limited to chunking and
+obtaining appropriate chunk sequences for a
+given sentence. In the UCSG architecture, a
+Finite State Grammar is designed to accept
+all possible chunks, referred to as word
+groups here. A separate statistical compo-
+nent, encoded in HMMs (Hidden Markov
+Model), has been used to rate and rank the
+word groups so produced. Note that we are
+not pruning, we are only rating and ranking
+the word groups already obtained. Then we
+use a Best First Search strategy to produce
+parse outputs in best first order, without
+compromising on the ability to produce all
+possible parses in principle. We propose a
+bootstrapping strategy for improving HMM
+parameters and hence the performance of
+the parser as a whole.
+A wide coverage shallow parser has been
+implemented for English starting from the
+British National Corpus, a nearly 100 Mil-
+lion word POS tagged corpus. Note that the
+corpus is not a parsed corpus. Also, there
+are tagging errors, multiple tags assigned in
+many cases, and some words have not been
+tagged. A dictionary of 138,000 words with
+frequency counts for each word in each tag
+has been built. Extensive experiments have
+been carried out to evaluate the performance
+of the various modules. We work with large
+data sets and performance obtained is
+encouraging. A manually checked parsed
+corpus of 4000 sentences has also been
+developed and used to improve the parsing
+performance further. The entire system has
+been implemented in Perl under Linux.
+Key Words:- Chunking, Shallow Parsing,
+Finite State Grammar, HMM, Best First
+Search
+1 

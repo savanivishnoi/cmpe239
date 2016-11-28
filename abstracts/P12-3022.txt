@@ -1,0 +1,17 @@
+
+We describe Akamon, an open source toolkit
+for tree and forest-based statistical machine
+translation (Liu et al, 2006; Mi et al, 2008;
+Mi and Huang, 2008). Akamon implements
+all of the algorithms required for tree/forest-
+to-string decoding using tree-to-string trans-
+lation rules: multiple-thread forest-based de-
+coding, n-gram language model integration,
+beam- and cube-pruning, k-best hypotheses
+extraction, and minimum error rate training.
+In terms of tree-to-string translation rule ex-
+traction, the toolkit implements the tradi-
+tional maximum likelihood algorithm using
+PCFG trees (Galley et al, 2004) and HPSG
+trees/forests (Wu et al, 2010).
+1 

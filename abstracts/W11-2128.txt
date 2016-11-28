@@ -1,0 +1,23 @@
+
+Paraphrases are useful for statistical machine
+translation (SMT) and natural language pro-
+cessing tasks. Distributional paraphrase gen-
+eration is independent of parallel texts and
+syntactic parses, and hence is suitable also
+for resource-poor languages, but tends to erro-
+neously rank antonyms, trend-contrasting, and
+polarity-dissimilar candidates as good para-
+phrases. We present here a novel method
+for improving distributional paraphrasing by
+filtering out such candidates. We evalu-
+ate it in simulated low and mid-resourced
+SMT tasks, translating from English to two
+quite different languages. We show statisti-
+cally significant gains in English-to-Chinese
+translation quality, up to 1 BLEU from non-
+filtered paraphrase-augmented models (1.6
+BLEU from baseline). We also show that
+yielding gains in translation to Arabic, a mor-
+phologically rich language, is not straightfor-
+ward.
+1 

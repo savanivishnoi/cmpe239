@@ -1,0 +1,14 @@
+
+Semantic relations between main and complement sentences are of great signifi-
+cance in any system of automatic data processing that depends on natural lan-
+guage. In this paper we present a strategy for detecting author commitment to
+the truth/falsity of complement clauses based on their syntactic type and on the
+meaning of their embedding predicate. We show that the implications of a predi-
+cate at an arbitrary depth of embedding about its complement clause depend on a
+globally determined notion of relative polarity. We, moreover, observe that different
+classes of complement-taking verbs have a different effect on the polarity of their
+complement clauses and that this effect depends recursively on their own embed-
+ding. A polarity propagation algorithm is presented as part of a general strategy of
+canonicalization of linguistically-based representations, with a view to minimizing
+the demands on the entailment and contradiction detection process.
+1 

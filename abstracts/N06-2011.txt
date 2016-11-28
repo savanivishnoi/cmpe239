@@ -1,0 +1,19 @@
+
+Prior work has shown that generaliza-
+tion of data in an Example Based Ma-
+chine Translation (EBMT) system, re-
+duces the amount of pre-translated text re-
+quired to achieve a certain level of accu-
+racy (Brown, 2000). Several word clus-
+tering algorithms have been suggested to
+perform these generalizations, such as k-
+Means clustering or Group Average Clus-
+tering. The hypothesis is that better con-
+textual clustering can lead to better trans-
+lation accuracy with limited training data.
+In this paper, we use a form of spectral
+clustering to cluster words, and this is
+shown to result in as much as 29.08% im-
+provement over the baseline EBMT sys-
+tem.
+1 

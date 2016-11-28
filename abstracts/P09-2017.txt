@@ -1,0 +1,17 @@
+
+Identifying whether a multi-word expres-
+sion (MWE) is compositional or not is im-
+portant for numerous NLP applications.
+Sense induction can partition the context
+of MWEs into semantic uses and there-
+fore aid in deciding compositionality. We
+propose an unsupervised system to ex-
+plore this hypothesis on compound nom-
+inals, proper names and adjective-noun
+constructions, and evaluate the contribu-
+tion of sense induction. The evaluation
+set is derived from WordNet in a semi-
+supervised way. Graph connectivity mea-
+sures are employed for unsupervised pa-
+rameter tuning.
+1 

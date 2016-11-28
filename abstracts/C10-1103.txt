@@ -1,0 +1,35 @@
+
+The problem addressed in this paper is to
+predict a user?s numeric rating in a prod-
+uct review from the text of the review. Un-
+igram and n-gram representations of text
+are common choices in opinion mining.
+However, unigrams cannot capture impor-
+tant expressions like ?could have been bet-
+ter?, which are essential for prediction
+models of ratings. N-grams of words, on
+the other hand, capture such phrases, but
+typically occur too sparsely in the train-
+ing set and thus fail to yield robust pre-
+dictors. This paper overcomes the limita-
+tions of these two models, by introducing
+a novel kind of bag-of-opinions represen-
+tation, where an opinion, within a review,
+consists of three components: a root word,
+a set of modifier words from the same sen-
+tence, and one or more negation words.
+Each opinion is assigned a numeric score
+which is learned, by ridge regression,
+from a large, domain-independent cor-
+pus of reviews. For the actual test case
+of a domain-dependent review, the re-
+view?s rating is predicted by aggregat-
+ing the scores of all opinions in the re-
+view and combining it with a domain-
+dependent unigram model. The paper
+presents a constrained ridge regression al-
+gorithm for learning opinion scores. Ex-
+periments show that the bag-of-opinions
+method outperforms prior state-of-the-art
+techniques for review rating prediction.
+1 

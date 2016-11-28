@@ -1,0 +1,22 @@
+
+Deep linguistic grammars are able to pro-
+vide rich and highly complex grammatical
+representations of sentences, capturing, for
+instance, long-distance dependencies and re-
+turning a semantic representation. These
+grammars lack robustness in the sense that
+they do not gracefully handle words miss-
+ing from their lexicon. Several approaches
+have been explored to handle this problem,
+many of which consist in pre-annotating the
+input to the grammar with shallow processing
+machine-learning tools. Most of these tools,
+however, use features based on a fixed win-
+dow of context, such as n-grams. We investi-
+gate whether the use of features that encode
+discrete structures, namely grammatical de-
+pendencies, can improve the performance of
+a machine learning classifier that assigns deep
+lexical types. In this paper we report on the
+design and evaluation of this classifier.
+1 

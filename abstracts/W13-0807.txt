@@ -1,0 +1,23 @@
+
+Deciding whether a synchronous grammar
+formalism generates a given word alignment
+(the alignment coverage problem) depends on
+finding an adequate instance grammar and
+then using it to parse the word alignment. But
+what does it mean to parse a word align-
+ment by a synchronous grammar? This is for-
+mally undefined until we define an unambigu-
+ous mapping between grammatical deriva-
+tions and word-level alignments. This pa-
+per proposes an initial, formal characteriza-
+tion of alignment coverage as intersecting two
+partially ordered sets (graphs) of translation
+equivalence units, one derived by a gram-
+mar instance and another defined by the word
+alignment. As a first sanity check, we report
+extensive coverage results for ITG on auto-
+matic and manual alignments. Even for the
+ITG formalism, our formal characterization
+makes explicit many algorithmic choices of-
+ten left underspecified in earlier work.
+1 

@@ -1,0 +1,24 @@
+
+We analyze adaptive model weight-
+ing techniques for reranking using in-
+stance scores obtained by L1 regular-
+ized transductive regression. Compet-
+itive statistical machine translation is
+an on-line learning technique for se-
+quential translation tasks where we
+try to select the best among com-
+peting statistical machine translators.
+The competitive predictor assigns a
+probability per model weighted by
+the sequential performance. We de-
+fine additive, multiplicative, and loss-
+based weight updates with exponential
+loss functions for competitive statisti-
+cal machine translation. Without any
+pre-knowledge of the performance of
+the translation models, we succeed in
+achieving the performance of the best
+model in all systems and surpass their
+performance in most of the language
+pairs we considered.
+1 

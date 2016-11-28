@@ -1,0 +1,22 @@
+
+Existing work in fine-grained sentiment anal-
+ysis focuses on sentences and phrases but ig-
+nores the contribution of individual words and
+their grammatical connections. This is because
+of a lack of both (1) annotated data at the word
+level and (2) algorithms that can leverage syn-
+tactic information in a principled way. We ad-
+dress the first need by annotating articles from
+the information technology business press via
+crowdsourcing to provide training and testing
+data. To address the second need, we propose
+a suffix-tree data structure to represent syntac-
+tic relationships between opinion targets and
+words in a sentence that are opinion-bearing.
+We show that a factor graph derived from this
+data structure acquires these relationships with
+a small number of word-level features. We
+demonstrate that our supervised model per-
+forms better than baselines that ignore syntac-
+tic features and constraints.
+1 

@@ -1,0 +1,21 @@
+ 
+This paper presents an unsupervised method for 
+choosing the correct translation of a word in con- 
+text. It learns disambiguation information from non- 
+parallel bilinguM corpora (preferably in the same do- 
+main) free from tagging. 
+Our method combines two existing unsupervised 
+disambiguation algorithms: a word sense disam- 
+biguation algorithm based on distributional cluster- 
+ing and a translation disambiguation algorithm us- 
+ing target language corpora. 
+For the given word in context, the former algo- 
+rithm identifies its meaning as one of a number of 
+predefined usage classes derived by clustering a large 
+amount of usages in the source language corpus. The 
+latter algorithm is responsible for associating each 
+usage class (i.e., cluster) with a target word that is 
+most relevant o the usage. 
+This paper also shows preliminary results of trans- 
+lation experiments. 
+1 

@@ -1,0 +1,16 @@
+
+This paper proposes a novel maximum en-
+tropy based rule selection (MERS) model
+for syntax-based statistical machine transla-
+tion (SMT). The MERS model combines lo-
+cal contextual information around rules and
+information of sub-trees covered by variables
+in rules. Therefore, our model allows the de-
+coder to perform context-dependent rule se-
+lection during decoding. We incorporate the
+MERS model into a state-of-the-art linguis-
+tically syntax-based SMT model, the tree-
+to-string alignment template model. Experi-
+ments show that our approach achieves signif-
+icant improvements over the baseline system.
+1 

@@ -1,0 +1,20 @@
+
+Many problems in natural language process-
+ing can be viewed as variations of the task of
+measuring the semantic textual similarity be-
+tween short texts. However, many systems
+that address these tasks focus on a single task
+and may or may not generalize well. In this
+work, we extend an existing machine transla-
+tion metric, TERp (Snover et al., 2009a), by
+adding support for more detailed feature types
+and by implementing a discriminative learning
+algorithm. These additions facilitate applica-
+tions of our system, called PERP, to similar-
+ity tasks other than machine translation eval-
+uation, such as paraphrase recognition. In
+the SemEval 2012 Semantic Textual Similar-
+ity task, PERP performed competitively, par-
+ticularly at the two surprise subtasks revealed
+shortly before the submission deadline.
+1 

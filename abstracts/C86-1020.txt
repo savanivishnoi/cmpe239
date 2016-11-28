@@ -1,0 +1,13 @@
+ 
+This paper argues that a lexical database should be 
+implemented with a special kind of database 
+management system (DBMS) and outlines the design of 
+such a system. The major difference between this 
+proposal and a general purpose DBMS is that its data 
+definition language (DDL) allows the specification of 
+the entire morphology, which turns the lexical database 
+from a mere collection of 'static' data into a real-time 
+word-analyser. Moreover, the dedication of the system 
+conduces to the feasibility of user interfaces with very 
+comfortable monitor- and manipulation functions. 
+1. 

@@ -1,0 +1,18 @@
+
+This paper improves an existing bilingual
+paraphrase extraction technique using mono-
+lingual distributional similarity to rerank can-
+didate paraphrases. Raw monolingual data
+provides a complementary and orthogonal
+source of information that lessens the com-
+monly observed errors in bilingual pivot-
+based methods. Our experiments reveal that
+monolingual scoring of bilingually extracted
+paraphrases has a significantly stronger cor-
+relation with human judgment for grammat-
+icality than the probabilities assigned by the
+bilingual pivoting method does. The results
+also show that monolingual distribution simi-
+larity can serve as a threshold for high preci-
+sion paraphrase selection.
+1 

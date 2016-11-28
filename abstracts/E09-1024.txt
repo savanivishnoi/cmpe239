@@ -1,0 +1,27 @@
+
+Spoken Language Understanding aims at
+mapping a natural language spoken sen-
+tence into a semantic representation. In
+the last decade two main approaches have
+been pursued: generative and discrimi-
+native models. The former is more ro-
+bust to overfitting whereas the latter is
+more robust to many irrelevant features.
+Additionally, the way in which these ap-
+proaches encode prior knowledge is very
+different and their relative performance
+changes based on the task. In this pa-
+per we describe a machine learning frame-
+work where both models are used: a gen-
+erative model produces a list of ranked hy-
+potheses whereas a discriminative model
+based on structure kernels and Support
+Vector Machines, re-ranks such list. We
+tested our approach on the MEDIA cor-
+pus (human-machine dialogs) and on a
+new corpus (human-machine and human-
+human dialogs) produced in the Euro-
+pean LUNA project. The results show a
+large improvement on the state-of-the-art
+in concept segmentation and labeling.
+1 

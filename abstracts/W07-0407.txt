@@ -1,0 +1,29 @@
+
+Discriminative approaches for word align-
+ment have gained popularity in recent
+years because of the flexibility that they
+offer for using a large variety of features
+and combining information from various
+sources. But, the models proposed in the
+past have not been able to make much use
+of features that capture the likelihood of an
+alignment structure (the set of alignment
+links) and the syntactic divergence be-
+tween sentences in the parallel text. This is
+primarily because of the limitation of their
+search techniques. In this paper, we pro-
+pose a generic discriminative re-ranking
+approach for word alignment which allows
+us to make use of structural features effec-
+tively. These features are particularly use-
+ful for language pairs with high structural
+divergence (like English-Hindi, English-
+Japanese). We have shown that by us-
+ing the structural features, we have ob-
+tained a decrease of 2.3% in the absolute
+value of alignment error rate (AER). When
+we add the cooccurence probabilities ob-
+tained from IBM model-4 to our features,
+we achieved the best AER (50.50) for the
+English-Hindi parallel corpus.
+1 

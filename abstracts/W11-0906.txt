@@ -1,0 +1,21 @@
+
+This paper suggests two ways of improving
+semantic role labeling (SRL). First, we intro-
+duce a novel transition-based SRL algorithm
+that gives a quite different approach to SRL.
+Our algorithm is inspired by shift-reduce pars-
+ing and brings the advantages of the transition-
+based approach to SRL. Second, we present
+a self-learning clustering technique that effec-
+tively improves labeling accuracy in the test
+domain. For better generalization of the sta-
+tistical models, we cluster verb predicates by
+comparing their predicate argument structures
+and apply the clustering information to the
+final labeling decisions. All approaches are
+evaluated on the CoNLL?09 English data. The
+new algorithm shows comparable results to
+another state-of-the-art system. The cluster-
+ing technique improves labeling accuracy for
+both in-domain and out-of-domain tasks.
+1 

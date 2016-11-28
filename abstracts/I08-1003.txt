@@ -1,0 +1,13 @@
+
+We present a technique for refining a base-
+line segmentation and generating a plausible
+underlying morpheme segmentation by inte-
+grating hand-written rewrite rules into an ex-
+isting state-of-the-art unsupervised morpho-
+logical induction procedure. Performance on
+measures which consider surface-boundary
+accuracy and underlying morpheme consis-
+tency indicates this technique leads to im-
+provements over baseline segmentations for
+English and Turkish word lists.
+1 

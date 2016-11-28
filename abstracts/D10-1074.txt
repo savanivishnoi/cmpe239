@@ -1,0 +1,24 @@
+
+While a significant amount of research has
+been devoted to textual entailment, automated
+entailment from conversational scripts has re-
+ceived less attention. To address this limi-
+tation, this paper investigates the problem of
+conversation entailment: automated inference
+of hypotheses from conversation scripts. We
+examine two levels of semantic representa-
+tions: a basic representation based on syntac-
+tic parsing from conversation utterances and
+an augmented representation taking into con-
+sideration of conversation structures. For each
+of these levels, we further explore two ways of
+capturing long distance relations between lan-
+guage constituents: implicit modeling based
+on the length of distance and explicit mod-
+eling based on actual patterns of relations.
+Our empirical findings have shown that the
+augmented representation with conversation
+structures is important, which achieves the
+best performance when combined with ex-
+plicit modeling of long distance relations.
+1 

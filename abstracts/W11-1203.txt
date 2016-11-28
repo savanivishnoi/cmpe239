@@ -1,0 +1,34 @@
+
+Using comparable corpora to find new word
+translations is a promising approach for ex-
+tending bilingual dictionaries (semi-) auto-
+matically. The basic idea is based on the
+assumption that similar words have similar
+contexts across languages. The context of
+a word is often summarized by using the
+bag-of-words in the sentence, or by using
+the words which are in a certain dependency
+position, e.g. the predecessors and succes-
+sors. These different context positions are
+then combined into one context vector and
+compared across languages. However, previ-
+ous research makes the (implicit) assumption
+that these different context positions should be
+weighted as equally important. Furthermore,
+only the same context positions are compared
+with each other, for example the successor po-
+sition in Spanish is compared with the suc-
+cessor position in English. However, this is
+not necessarily always appropriate for lan-
+guages like Japanese and English. To over-
+come these limitations, we suggest to perform
+a linear transformation of the context vec-
+tors, which is defined by a matrix. We de-
+fine the optimal transformation matrix by us-
+ing a Bayesian probabilistic model, and show
+that it is feasible to find an approximate solu-
+tion using Markov chain Monte Carlo meth-
+ods. Our experiments demonstrate that our
+proposed method constantly improves transla-
+tion accuracy.
+1 

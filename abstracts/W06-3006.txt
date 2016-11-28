@@ -1,0 +1,20 @@
+
+In this paper, we propose ellipsis han-
+dling method for follow-up questions in
+Information Access Dialogue (IAD) task
+of NTCIR QAC3. In this method, our sys-
+tem classifies ellipsis patterns of question
+sentences into three types and recognizes
+elliptical elements using ellipsis handling
+algorithm for each type. In the evalua-
+tion using Formal Run and Reference Run
+data, there were several cases which our
+algorithm could not handle ellipsis cor-
+rectly. According to the analysis of evalu-
+ation results, the main reason of low per-
+formance was lack of word information
+for recognition of referential elements. If
+our system can recognize word meanings
+correctly, some errors will not occur and
+ellipsis handling works well.
+1 

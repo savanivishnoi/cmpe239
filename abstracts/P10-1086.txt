@@ -1,0 +1,17 @@
+ 
+ 
+This paper proposes new algorithms to com-
+pute the sense similarity between two units 
+(words, phrases, rules, etc.) from parallel cor-
+pora. The sense similarity scores are computed 
+by using the vector space model.  We then ap-
+ply the algorithms to statistical machine trans-
+lation by computing the sense similarity be-
+tween the source and target side of translation 
+rule pairs. Similarity scores are used as addi-
+tional features of the translation model to im-
+prove translation performance. Significant im-
+provements are obtained over a state-of-the-art 
+hierarchical phrase-based machine translation 
+system. 
+1 

@@ -1,0 +1,24 @@
+
+This paper shows how we can combine
+the art of grammar writing with the power
+of statistics by bootstrapping statistical lan-
+guage models (SLMs) for Dialogue Systems
+from grammars written using the Grammati-
+cal Framework (GF) (Ranta, 2004). Further-
+more, to take into account that the probabil-
+ity of a user?s dialogue moves is not static
+during a dialogue we show how the same
+methodology can be used to generate dia-
+logue move specific SLMs where certain di-
+alogue moves are more probable than others.
+These models can be used at different points
+of a dialogue depending on contextual con-
+straints. By using grammar generated SLMs
+we can improve both recognition and un-
+derstanding performance considerably over
+using the original grammar. With dialogue
+move specific SLMs we would be able to
+get a further improvement if we had an op-
+timal way of predicting the correct language
+model.
+1 

@@ -1,0 +1,13 @@
+
+This paper presents techniques for reference-
+free, automatic prediction of Machine Trans-
+lation output quality at both sentence- and
+document-level. In addition to helping with
+document-level quality estimation, sentence-
+level predictions are used for system selection,
+improving the quality of the output transla-
+tions. We present three system selection tech-
+niques and perform evaluations that quantify
+the gains across multiple domains and lan-
+guage pairs.
+1 

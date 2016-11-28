@@ -1,0 +1,21 @@
+ 
+This paper proposes a convolution forest ker-
+nel to effectively explore rich structured fea-
+tures embedded in a packed parse forest. As 
+opposed to the convolution tree kernel, the 
+proposed forest kernel does not have to com-
+mit to a single best parse tree, is thus able to 
+explore very large object spaces and much 
+more structured features embedded in a forest. 
+This makes the proposed kernel more robust 
+against parsing errors and data sparseness is-
+sues than the convolution tree kernel. The pa-
+per presents the formal definition of convolu-
+tion forest kernel and also illustrates the com-
+puting algorithm to fast compute the proposed 
+convolution forest kernel. Experimental results 
+on two NLP applications, relation extraction 
+and semantic role labeling, show that the pro-
+posed forest kernel significantly outperforms 
+the baseline of the convolution tree kernel. 
+1 

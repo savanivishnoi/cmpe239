@@ -1,0 +1,8 @@
+. Previous works have suggested that the uncertainty of tokens
+coming after a sequence helps determine whether a given position is
+at a context boundary. This feature of language has been applied to
+unsupervised text segmentation and term extraction. In this paper, we
+fundamentally verify this feature. An experiment was performed using a
+web search engine, in order to clarify the extent to which this assumption
+holds. The verification was applied to Chinese and Japanese.
+1 

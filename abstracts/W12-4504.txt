@@ -1,0 +1,12 @@
+
+We describe our system for the CoNLL-2012
+shared task, which seeks to model corefer-
+ence in OntoNotes for English, Chinese, and
+Arabic. We adopt a hybrid approach to
+coreference resolution, which combines the
+strengths of rule-based methods and learning-
+based methods. Our official combined score
+over all three languages is 56.35. In particu-
+lar, our score on the Chinese test set is the best
+among the participating teams.
+1 

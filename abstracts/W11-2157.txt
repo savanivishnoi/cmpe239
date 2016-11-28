@@ -1,0 +1,18 @@
+
+This paper describes the machine translation
+(MT) system developed by the Transducens
+Research Group, from Universitat d?Alacant,
+Spain, for the WMT 2011 shared transla-
+tion task. We submitted a hybrid system for
+the Spanish?English language pair consist-
+ing of a phrase-based statistical MT system
+whose phrase table was enriched with bilin-
+gual phrase pairs matching transfer rules and
+dictionary entries from the Apertium shallow-
+transfer rule-based MT platform. Our hybrid
+system outperforms, in terms of BLEU, GTM
+and METEOR, a standard phrase-based statis-
+tical MT system trained on the same corpus,
+and received the second best BLEU score in
+the automatic evaluation.
+1 

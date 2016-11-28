@@ -1,0 +1,25 @@
+ 
+This paper proposes a dependency tree-
+based SRL system with proper pruning and 
+extensive feature engineering. Official 
+evaluation on the CoNLL 2008 shared task 
+shows that our system achieves 76.19 in la-
+beled macro F1 for the overall task, 84.56 
+in labeled attachment score for syntactic 
+dependencies, and 67.12 in labeled F1 for 
+semantic dependencies on combined test 
+set, using the standalone MaltParser. Be-
+sides, this paper also presents our unofficial 
+system by 1) applying a new effective 
+pruning algorithm; 2) including additional 
+features; and 3) adopting a better depend-
+ency parser, MSTParser. Unofficial evalua-
+tion on the shared task shows that our sys-
+tem achieves 82.53 in labeled macro F1, 
+86.39 in labeled attachment score, and 
+78.64 in labeled F1, using MSTParser on 
+combined test set. This suggests that proper 
+pruning and extensive feature engineering 
+contributes much in dependency tree-based 
+SRL.  
+1 

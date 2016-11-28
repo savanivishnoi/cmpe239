@@ -1,0 +1,21 @@
+
+This paper explores the use of two graph
+algorithms for unsupervised induction and
+tagging of nominal word senses based on
+corpora. Our main contribution is the op-
+timization of the free parameters of those
+algorithms and its evaluation against pub-
+licly available gold standards. We present
+a thorough evaluation comprising super-
+vised and unsupervised modes, and both
+lexical-sample and all-words tasks. The
+results show that, in spite of the infor-
+mation loss inherent to mapping the in-
+duced senses to the gold-standard, the
+optimization of parameters based on a
+small sample of nouns carries over to all
+nouns, performing close to supervised sys-
+tems in the lexical sample task and yield-
+ing the second-best WSD systems for the
+Senseval-3 all-words task.
+1 

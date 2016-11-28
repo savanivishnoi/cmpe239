@@ -1,0 +1,16 @@
+
+The past decade has witnessed exciting work
+in the field of Statistical Machine Translation
+(SMT). However, accurate evaluation of its po-
+tential in real-life contexts is still a questionable
+issue.
+In this study, we investigate the behavior of
+an SMT engine faced with a corpus far differ-
+ent from the one it has been trained on. We
+show that terminological databases are obvious
+resources that should be used to boost the per-
+formance of a statistical engine. We propose
+and evaluate a way of integrating terminology
+into a SMT engine which yields a significant re-
+duction in word error rate.
+1 

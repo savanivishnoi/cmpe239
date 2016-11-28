@@ -1,0 +1,21 @@
+
+The identification of the key concepts in a set of
+documents is a useful source of information for
+several information access applications. We are
+interested in its application to multi-document
+summarization, both for the automatic genera-
+tion of summaries and for interactive summa-
+rization systems.
+In this paper, we study whether the syntactic po-
+sition of terms in the texts can be used to predict
+which terms are good candidates as key con-
+cepts. Our experiments show that a) distance
+to the verb is highly correlated with the proba-
+bility of a term being part of a key concept; b)
+subject modifiers are the best syntactic locations
+to find relevant terms; and c) in the task of auto-
+matically finding key terms, the combination of
+statistical term weights with shallow syntactic
+information gives better results than statistical
+measures alone.
+1 

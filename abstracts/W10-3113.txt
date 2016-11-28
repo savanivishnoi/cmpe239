@@ -1,0 +1,25 @@
+ 
+In this paper we explore the identification of 
+negated molecular events (e.g. protein binding, 
+gene expressions, regulation, etc.) in biomedi-
+cal research abstracts. We construe the prob-
+lem as a classification task and apply a ma-
+chine learning (ML) approach that uses lexi-
+cal, syntactic, and semantic features associated 
+with sentences that represent events. Lexical 
+features include negation cues, whereas syn-
+tactic features are engineered from constitu-
+ency parse trees and the command relation be-
+tween constituents. Semantic features include 
+event type and participants. We also consider a 
+rule-based approach that uses only the com-
+mand relation. On a test dataset, the ML ap-
+proach showed significantly better results 
+(51% F-measure) compared to the command-
+based rules (35-42% F-measure). Training a 
+separate classifier for each event class proved 
+to be useful, as the micro-averaged F-score 
+improved to 63% (with 88% precision), dem-
+onstrating the potential of task-specific ML 
+approaches to negation detection. 
+1 

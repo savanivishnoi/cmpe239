@@ -1,0 +1,19 @@
+
+The ability to represent cross-serial depen-
+dencies is one of the central features of
+Tree Adjoining Grammar (TAG). The class
+of dependency structures representable by
+lexicalized TAG derivations can be captured
+by two graph-theoretic properties: a bound
+on the gap degree of the structures, and a
+constraint called well-nestedness. In this
+paper, we compare formalisms from two
+strands of extensions to TAG in the context
+of the question, how they behave with re-
+spect to these constraints. In particular, we
+show that multi-component TAG does not
+necessarily retain the well-nestedness con-
+straint, while this constraint is inherent to
+Coupled Context-Free Grammar (Hotz and
+Pitsch, 1996).
+1 

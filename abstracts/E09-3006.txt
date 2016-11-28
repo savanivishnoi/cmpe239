@@ -1,0 +1,16 @@
+
+Given the great amount of definite noun
+phrases that introduce an entity into the
+text for the first time, this paper presents a
+set of linguistic features that can be used
+to detect this type of definites in Span-
+ish. The efficiency of the different fea-
+tures is tested by building a rule-based and
+a learning-based chain-starting classifier.
+Results suggest that the classifier, which
+achieves high precision at the cost of re-
+call, can be incorporated as either a filter
+or an additional feature within a corefer-
+ence resolution system to boost its perfor-
+mance.
+1 

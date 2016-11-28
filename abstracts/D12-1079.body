@@ -1,0 +1,17 @@
+
+We describe a transformation-based learning
+method for learning a sequence of mono-
+lingual tree transformations that improve the
+agreement between constituent trees and word
+alignments in bilingual corpora. Using the
+manually annotated English Chinese Transla-
+tion Treebank, we show how our method au-
+tomatically discovers transformations that ac-
+commodate differences in English and Chi-
+nese syntax. Furthermore, when transforma-
+tions are learned on automatically generated
+trees and alignments from the same domain as
+the training data for a syntactic MT system,
+the transformed trees achieve a 0.9 BLEU im-
+provement over baseline trees.
+1 

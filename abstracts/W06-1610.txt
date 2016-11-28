@@ -1,0 +1,16 @@
+ 
+In this paper, we present ParaEval, an 
+automatic evaluation framework that uses 
+paraphrases to improve the quality of 
+machine translation evaluations. Previous 
+work has focused on fixed n-gram 
+evaluation metrics coupled with lexical 
+identity matching. ParaEval addresses 
+three important issues: support for para-
+phrase/synonym matching, recall meas-
+urement, and correlation with human 
+judgments. We show that ParaEval corre-
+lates significantly better than BLEU with 
+human assessment in measurements for 
+both fluency and adequacy. 
+1 

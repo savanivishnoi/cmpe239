@@ -1,0 +1,24 @@
+ 
+In our information era, keywords are very 
+useful to information retrieval, text clus-
+tering and so on.  News is always a do-
+main attracting a large amount of 
+attention.  However, the majority of news 
+articles come without keywords, and in-
+dexing them manually costs highly.  Aim-
+ing at news articles? characteristics and 
+the resources available, this paper intro-
+duces a simple procedure to index key-
+words based on the scoring system.  In the 
+process of indexing, we make use of some 
+relatively mature linguistic techniques and 
+tools to filter those meaningless candidate 
+items.  Furthermore, according to the hi-
+erarchical relations of content words, 
+keywords are not restricted to extracting 
+from text. These methods have improved 
+our system a lot.  At last experimental re-
+sults are given and analyzed, showing that 
+the quality of extracted keywords are sat-
+isfying. 
+1 

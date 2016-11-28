@@ -1,0 +1,24 @@
+
+Ngram language models tend to increase in
+size with inflating the corpus size, and con-
+sume considerable resources. In this pa-
+per, we propose an efficient method for im-
+plementing ngram models based on double-
+array structures. First, we propose a method
+for representing backwards suffix trees using
+double-array structures and demonstrate its ef-
+ficiency. Next, we propose two optimization
+methods for improving the efficiency of data
+representation in the double-array structures.
+Embedding probabilities into unused spaces
+in double-array structures reduces the model
+size. Moreover, tuning the word IDs in the
+language model makes the model smaller and
+faster. We also show that our method can be
+used for building large language models using
+the division method. Lastly, we show that our
+method outperforms methods based on recent
+related works from the viewpoints of model
+size and query speed when both optimization
+methods are used.
+1 

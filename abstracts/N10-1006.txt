@@ -1,0 +1,19 @@
+
+For extractive meeting summarization, previ-
+ous studies have shown performance degrada-
+tion when using speech recognition transcripts
+because of the relatively high speech recogni-
+tion errors on meeting recordings. In this pa-
+per we investigated using confusion networks
+to improve the summarization performance
+on the ASR condition under an unsupervised
+framework by considering more word candi-
+dates and their confidence scores. Our ex-
+perimental results showed improved summa-
+rization performance using our proposed ap-
+proach, with more contribution from leverag-
+ing the confidence scores. We also observed
+that using these rich speech recognition re-
+sults can extract similar or even better sum-
+mary segments than using human transcripts.
+1 

@@ -1,0 +1,24 @@
+
+This paper presents a method of acquiring
+knowledge from the Web for noun sense
+disambiguation. Words, called selectors,
+are acquired which take the place of an
+instance of a target word in its local con-
+text. The selectors serve for the system to
+essentially learn the areas or concepts of
+WordNet that the sense of a target word
+should be a part of. The correct sense
+is chosen based on a combination of the
+strength given from similarity and related-
+ness measures over WordNet and the prob-
+ability of a selector occurring within the lo-
+cal context. Our method is evaluated using
+the coarse-grained all-words task from Se-
+mEval 2007. Experiments reveal that path-
+based similarity measures perform just as
+well as information content similarity mea-
+sures within our system. Overall, the re-
+sults show our system is out-performed
+only by systems utilizing training data or
+substantially more annotated data.
+1 

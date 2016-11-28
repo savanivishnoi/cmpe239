@@ -1,0 +1,26 @@
+
+In this paper we study a set of prob-
+lems that are of considerable importance
+to Statistical Machine Translation (SMT)
+but which have not been addressed satis-
+factorily by the SMT research community.
+Over the last decade, a variety of SMT
+algorithms have been built and empiri-
+cally tested whereas little is known about
+the computational complexity of some of
+the fundamental problems of SMT. Our
+work aims at providing useful insights into
+the the computational complexity of those
+problems. We prove that while IBM Mod-
+els 1-2 are conceptually and computation-
+ally simple, computations involving the
+higher (and more useful) models are hard.
+Since it is unlikely that there exists a poly-
+nomial time solution for any of these hard
+problems (unless P = NP and P#P =
+P), our results highlight and justify the
+need for developing polynomial time ap-
+proximations for these computations. We
+also discuss some practical ways of deal-
+ing with complexity.
+1 

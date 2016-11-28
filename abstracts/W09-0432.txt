@@ -1,0 +1,30 @@
+
+Domain adaptation has recently gained
+interest in statistical machine translation
+to cope with the performance drop ob-
+served when testing conditions deviate
+from training conditions. The basic idea
+is that in-domain training data can be ex-
+ploited to adapt all components of an al-
+ready developed system. Previous work
+showed small performance gains by adapt-
+ing from limited in-domain bilingual data.
+Here, we aim instead at significant per-
+formance gains by exploiting large but
+cheap monolingual in-domain data, either
+in the source or in the target language.
+We propose to synthesize a bilingual cor-
+pus by translating the monolingual adap-
+tation data into the counterpart language.
+Investigations were conducted on a state-
+of-the-art phrase-based system trained on
+the Spanish?English part of the UN cor-
+pus, and adapted on the corresponding
+Europarl data. Translation, re-ordering,
+and language models were estimated after
+translating in-domain texts with the base-
+line. By optimizing the interpolation of
+these models on a development set the
+BLEU score was improved from 22.60%
+to 28.10% on a test set.
+1 

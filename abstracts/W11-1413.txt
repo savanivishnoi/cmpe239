@@ -1,0 +1,22 @@
+ 
+Learning a vocabulary word requires seeing it 
+in multiple informative contexts.  We describe 
+a system to generate such contexts for a given 
+word sense.  Rather than attempt to do word 
+sense disambiguation on example contexts al-
+ready generated or selected from a corpus, we 
+compile information about the word sense into 
+the context generation process.  To evaluate the 
+sense-appropriateness of the generated contexts 
+compared to WordNet examples, three human 
+judges chose which word sense(s) fit each ex-
+ample, blind to its source and intended sense.  
+On average, one judge rated the generated ex-
+amples as sense-appropriate, compared to two 
+judges for the WordNet examples.  Although 
+the system?s precision was only half of Word-
+Net?s, its recall was actually higher than 
+WordNet?s, thanks to covering many senses for 
+which WordNet lacks examples. 
+ 
+1 

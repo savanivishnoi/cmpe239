@@ -1,0 +1,30 @@
+
+With the dramatic growth of scientific
+publishing, Information Extraction (IE)
+systems are becoming an increasingly im-
+portant tool for large scale data analy-
+sis. Hedge detection and uncertainty clas-
+sification are important components of a
+high precision IE system. This paper
+describes a two part supervised system
+which classifies words as hedge or non-
+hedged and sentences as certain or uncer-
+tain in biomedical and Wikipedia data. In
+the first stage, our system trains a logistic
+regression classifier to detect hedges based
+on lexical and Part-of-Speech collocation
+features. In the second stage, we use the
+output of the hedge classifier to generate
+sentence level features based on the num-
+ber of hedge cues, the identity of hedge
+cues, and a Bag-of-Words feature vector
+to train a logistic regression classifier for
+sentence level uncertainty. With the result-
+ing classification, an IE system can then
+discard facts and relations extracted from
+these sentences or treat them as appropri-
+ately doubtful. We present results for in
+domain training and testing and cross do-
+main training and testing based on a sim-
+ple union of training sets.
+1 

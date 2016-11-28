@@ -1,0 +1,21 @@
+
+Named Entity Recognition and Classi-
+fication (NERC) is a well-studied NLP
+task typically focused on coarse-grained
+named entity (NE) classes. NERC for
+more fine-grained semantic NE classes has
+not been systematically studied. This pa-
+per quantifies the difficulty of fine-grained
+NERC (FG-NERC) when performed at
+large scale on the people domain. We
+apply unsupervised acquisition methods
+to construct a gold standard dataset for
+FG-NERC. This dataset is used to bench-
+mark methods for classifying NEs at var-
+ious levels of fine-grainedness using clas-
+sical NERC techniques and global contex-
+tual information inspired fromWord Sense
+Disambiguation approaches. Our results
+indicate high difficulty of the task and pro-
+vide a ?strong? baseline for future research.
+1 

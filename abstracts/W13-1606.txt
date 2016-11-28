@@ -1,0 +1,26 @@
+
+Nowadays a large number of opinion reviews
+are posted on the Web. Such reviews are a very
+important source of information for customers
+and companies. The former rely more than
+ever on online reviews to make their purchase
+decisions and the latter to respond promptly
+to their clients? expectations. Due to the eco-
+nomic importance of these reviews there is a
+growing trend to incorporate spam on such
+sites, and, as a consequence, to develop meth-
+ods for opinion spam detection. In this paper
+we focus on the detection of deceptive opin-
+ion spam, which consists of fictitious opinions
+that have been deliberately written to sound
+authentic, in order to deceive the consumers.
+In particular we propose a method based on
+the PU-learning approach which learns only
+from a few positive examples and a set of un-
+labeled data. Evaluation results in a corpus of
+hotel reviews demonstrate the appropriateness
+of the proposed method for real applications
+since it reached a f-measure of 0.84 in the de-
+tection of deceptive opinions using only 100
+positive examples for training.
+1 

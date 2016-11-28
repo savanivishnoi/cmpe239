@@ -1,0 +1,13 @@
+
+We investigate methods of generating addi-
+tional bilingual phrase pairs for a phrase-
+based decoder by translating short sequences
+of source text. Because our translation task
+is more constrained, we can use a model that
+employs more linguistically rich features than
+a traditional decoder. We have implemented
+an example of this approach. Experimental re-
+sults suggest that the phrase pairs produced by
+our method are useful to the decoder, and lead
+to improved sentence translations.
+1 

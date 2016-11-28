@@ -1,0 +1,19 @@
+
+We present a model for discourse co-
+herence which combines the local entity-
+based approach of (Barzilay and Lapata,
+2005) and the HMM-based content model
+of (Barzilay and Lee, 2004). Unlike the
+mixture model of (Soricut and Marcu,
+2006), we learn local and global features
+jointly, providing a better theoretical ex-
+planation of how they are useful. As the
+local component of our model we adapt
+(Barzilay and Lapata, 2005) by relaxing
+independence assumptions so that it is ef-
+fective when estimated generatively. Our
+model performs the ordering task compet-
+itively with (Soricut and Marcu, 2006),
+and significantly better than either of the
+models it is based on.
+1 

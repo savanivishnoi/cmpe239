@@ -1,0 +1,20 @@
+
+In this paper, we encode topic dependencies
+in hierarchical multi-label Text Categoriza-
+tion (TC) by means of rerankers. We rep-
+resent reranking hypotheses with several in-
+novative kernels considering both the struc-
+ture of the hierarchy and the probability of
+nodes. Additionally, to better investigate the
+role of category relationships, we consider two
+interesting cases: (i) traditional schemes in
+which node-fathers include all the documents
+of their child-categories; and (ii) more gen-
+eral schemes, in which children can include
+documents not belonging to their fathers. The
+extensive experimentation on Reuters Corpus
+Volume 1 shows that our rerankers inject ef-
+fective structural semantic dependencies in
+multi-classifiers and significantly outperform
+the state-of-the-art.
+1 

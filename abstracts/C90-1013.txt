@@ -1,0 +1,176 @@
+ 
+This art ic le  int roduces a b id i rect iona l  
+grammar generat ion system called feature 
+structure-directed generation, developed for a 
+dialogue translation system. The system 
+utilizes typed feature structures to control the 
+top-down derivation in a declarative way. This 
+generation system also uses disjunctive feature 
+structures to reduce the number of copies of 
+the derivation tree. The grammar for this 
+generator is designed to properly generate the 
+speaker's intention in a telephone dialogue. 
+1. Introduct ion 
+It is important for the generation part of the 
+dialogue translation system to reflect the 
+speaker's intention ( i l locutionary force). To 
+properly translate the illocutionary forces, the 
+Intent ion Trans lat ion  Method has been 
+developed at ATR (Kogure et al, 1989). This 
+generator was developed as a part of the 
+dialogue translation system. 
+Bidirectional grammar is helpful in maintain- 
+ing tile grammar/lexicon (Appelt, 1987). A 
+feature structure representat ion has been 
+adopted for analysis result and generation 
+input because it can keep various information 
+including i l locutionary forces and pragmatics 
+in a consistent way. 
+The infinite application of grammar rules is a 
+common problem of the existing top-down 
+unif icat ion-based generators (Shieber et al, 
+1989). The solution adopted here is to control 
+the generation process by selecting appro- 
+priate rules to apply. Typed feature struc- 
+tures (A~'t-Kaci, 1986) are utilized to describe 
+the control of the generation process in a 
+declarative way. This description can also be 
+used to avoid the derivation of unnecessary 
+trees and to increase the generation efficiency. 
+Another problem of the top-down generators is 
+making multiple copies of the phrase structure 
+when the generat ion process encounters 
+multiple rule candidates. This problem can be 
+treated by introducing dis junct ive feature 
+s t ruc tures .  
+This article first describes the advantages of 
+typed feature structures and dis junct ive 
+feature structures in sections 2 and 3. The 
+grammar for the generation system and the 
+generation results are shown in section 4. The 
+current status of this project and future tasks 
+are described in section 5. 
+2.  Introducing Typed Feature 
+St ructures  
+2.1 Selecting Appropriate Rules 
+The basic mechanism of this generator is the 
+top-down application of the grammar rules and 
+construction of the feature structures of the 
+daughter nodes. 
+It is important to avoid the derivation of 
+unnecessary phrase structures by selecting 
+appropriate rules to apply in order to increase 
+the efficiency. Consider the following rules 
+taken from D-PATR (Karttunen, 1986). 
+VP =HC*=> (VP XP) 
+(<!m sem cont> == <!head-dtr sem cont>) 
+(<lhead-dtr !subcat first> == <!comp-dtr-l>) 
+(<!head-dtr Jsubcat rest> == <Jm !subcat>)) 
+VP =CH=> (VP PP) 
+(<!m sem cont> == <!head-dtr sem cont>) 
+(<!head-dtr !subcat first> == <!comp-dtr-l>) 
+(<Phead-dtr !subcat rest> == <!m isubcat>)) 
+(1)I 
+(2) 
+The construct ion of the semantic repre- 
+sentations given to the mother nodes of these 
+~ In this rule, =HC*=> link shows that the first element 
+of the right hand syml?~ls becomes the head daughter and 
+the others the complement daughters. =CH=> link is 
+also supplied for complement-head constructions. A 
+symbol with an exclamation mark (!) indicates a 
+predefined template. In this rule, !m stands for tile 
+mother, i.e., the left-hand VP. 
+1 
+64 
+two rules are the same (predicate-argument 
+structure), as can be seen below: 
+ob je  re ln  p lay  
+agen  john ' 
+ob je  soccer '  
+loc  a -park  ' 
+(1) 
+Fig.1 Sample feature structure 
+In generation, appropriate grammar rules must 
+be selected using this representation. For this 
+purpose, the difference between these feature 
+structures must be found in the type of the key 
+feature value's type. In this case, the reln 
+(relation) feature plays the key role, and the 
+value "play" must be of the verb type and "in" 
+the prepositional type. 
+Typed feature structures formulated by Ai"t- 
+Kaci (1986) are introduced to handle types in 
+feature structures, because,  types cannot be 
+handled by ord inary  feature structure 
+unification. Using typed feature structures, 
+the following specifications can be attached to 
+the former rules. 
+For (1): (<!m sem cent rein> == \[V j) 
+For (2): (<!m sere cent rein> == \[PJ) 
+These specifications work as constraints to the 
+rule application. The first specification shows 
+that the <sere cont reln> feature of the node is 
+unified to the type V (bracketed, shown in bold 
+italics). If the unification succeeds, i.e., the 
+<sem cont reln> feature is under V type in the 
+type hierarchy, this grammar rule can be 
+applied. The selection of appropriate grammar 
+rules is thus accomplished in a declarative 
+way. 
+2.2 Avoiding Termination Problem 
+There are various ways to utilize the type 
+hierarchy. One example is subclassifying the 
+categor ies.  
+One of the termination problems Shieber et al 
+(1989) pointed out is in the left-recursive 
+rules. The rule (1) infinitely appends the 
+subcat list to the daughter VP if the grammar 
+is used for generation. This can be solved by 
+restr ict ing the permiss ib le length of the 
+subcat list t ? .  The maximum length of the 
+subcat list is 2, excluding the subject. This 
+restriction can be represented as follows. 
+1"'\] Though the restriction cannot be applied to 
+languages like Dutch (Shieber et al, 1989), the 
+limitation is irrelevant to our purpose (translation 
+between Japanese and English). 
+(:or (<lm lsubcat> == \[list-end\])) 
+(<!m lsubcat rest> == \[list-end\])) 
+However, this restriction forces the rule (2) to 
+be applied twice to all verbs including 
+intransitive verbs. Derivation of the phrase 
+structures with incorrectly extended subcat 
+lists will fail when the terminal is reached. 
+This restriction can be solved more effectively 
+using the type hierarchy.  If verbs are 
+c lassi f ied into three subtypes (Monadic, 
+Dyadic and Triadic) by the numbers of their 
+arguments, the restriction in rule (1) can be 
+written as follows. 
+(:or ((<Im sem cent rein> == \[dyadic\]) 
+(<!m !subcat> == \[list-end\])) 
+((<!m sem cent rein> == \[triadic\]) 
+(:or (<!m !subcat> == \[list-end\]) 
+(<!m !subcat rest> == \[list-end\])) 
+2.3 Relating Types and Categories 
+Another function of the type hierarchy is 
+using the types as a bridge between the 
+semantics in the feature structure and the 
+category in the CFG rules. Categories 
+(nonterminal symbols) are also expressed by, 
+and are closely related to, types. The following 
+lexical entry def init ion shows that the 
+complement of the verb is VP. 
+(deflex "must" dyadic 
+(<lsubcat first> == \[VPJ) 
+? . .  ) 
+If type VP is a subtype of XP, \[XP\] and \[VP\] are 
+unified to bear \[VP\] when the lexical entry 
+"must" is unified in rule (1). In D-PATR, such 
+unspecif ied categories are treated by the 
+system by introducing special symbols X, Y, 
+etc. Typed feature structures serve as a sound 
+foundation for this task. 
+3. Introducing Disjunctive Feature 
+Structure Unification 

@@ -1,0 +1,13 @@
+
+In this paper, we propose a machine learning al-
+gorithm for shallow semantic parsing, extend-
+ing the work of Gildea and Jurafsky (2002),
+Surdeanu et al (2003) and others. Our al-
+gorithm is based on Support Vector Machines
+which we show give an improvement in perfor-
+mance over earlier classifiers. We show perfor-
+mance improvements through a number of new
+features and measure their ability to general-
+ize to a new test set drawn from the AQUAINT
+corpus.
+1 

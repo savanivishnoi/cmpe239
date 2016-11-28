@@ -1,0 +1,18 @@
+
+Topic models are a useful tool for analyz-
+ing large text collections, but have previ-
+ously been applied in only monolingual,
+or at most bilingual, contexts. Mean-
+while, massive collections of interlinked
+documents in dozens of languages, such
+as Wikipedia, are now widely available,
+calling for tools that can characterize con-
+tent in many languages. We introduce a
+polylingual topic model that discovers top-
+ics aligned across multiple languages. We
+explore the model?s characteristics using
+two large corpora, each with over ten dif-
+ferent languages, and demonstrate its use-
+fulness in supporting machine translation
+and tracking topic trends across languages.
+1 

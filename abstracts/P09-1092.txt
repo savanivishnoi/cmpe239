@@ -1,0 +1,17 @@
+
+We investigate the influence of informa-
+tion status (IS) on constituent order in Ger-
+man, and integrate our findings into a log-
+linear surface realisation ranking model.
+We show that the distribution of pairs of IS
+categories is strongly asymmetric. More-
+over, each category is correlated with mor-
+phosyntactic features, which can be au-
+tomatically detected. We build a log-
+linear model that incorporates these asym-
+metries for ranking German string reali-
+sations from input LFG F-structures. We
+show that it achieves a statistically signif-
+icantly higher BLEU score than the base-
+line system without these features.
+1 

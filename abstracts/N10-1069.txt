@@ -1,0 +1,21 @@
+
+Perceptron training is widely applied in the
+natural language processing community for
+learning complex structured models. Like all
+structured prediction learning frameworks, the
+structured perceptron can be costly to train
+as training complexity is proportional to in-
+ference, which is frequently non-linear in ex-
+ample sequence length. In this paper we
+investigate distributed training strategies for
+the structured perceptron as a means to re-
+duce training times when computing clusters
+are available. We look at two strategies and
+provide convergence bounds for a particu-
+lar mode of distributed structured perceptron
+training based on iterative parameter mixing
+(or averaging). We present experiments on
+two structured prediction problems ? named-
+entity recognition and dependency parsing ?
+to highlight the efficiency of this method.
+1 

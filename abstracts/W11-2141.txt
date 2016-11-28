@@ -1,0 +1,24 @@
+
+In this paper we describe our hybrid machine
+translation system with which we participated
+in the WMT11 shared translation task for the
+English?German language pair. Our system
+was able to outperform its RBMT baseline and
+turned out to be the best-scored participating
+system in the manual evaluation. To achieve
+this, we extended an existing, rule-based MT
+system with a module for stochastic selection
+of analysis parse trees that allowed to better
+cope with parsing errors during the system?s
+analysis phase. Due to the integration into the
+analysis phase of the RBMT engine, we are
+able to preserve the benefits of a rule-based
+translation system such as proper generation
+of target language text. Additionally, we used
+a statistical tool for terminology extraction to
+improve the lexicon of the RBMT system.
+We report results from both automated metrics
+and human evaluation efforts, including exam-
+ples which show how the proposed approach
+can improve machine translation quality.
+1 

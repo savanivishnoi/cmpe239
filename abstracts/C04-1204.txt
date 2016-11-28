@@ -1,0 +1,13 @@
+
+This paper evaluates the accuracy of HPSG
+parsing in terms of the identification of
+predicate-argument relations. We could directly
+compare the output of HPSG parsing with Prop-
+Bank annotations, by assuming a unique map-
+ping from HPSG semantic representation into
+PropBank annotation. Even though PropBank
+was not used for the training of a disambigua-
+tion model, an HPSG parser achieved the ac-
+curacy competitive with existing studies on the
+task of identifying PropBank annotations.
+1 

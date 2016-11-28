@@ -1,0 +1,18 @@
+
+Choosing the right parameters for a word
+sense disambiguation task is critical to
+the success of the experiments. We ex-
+plore this idea for prepositions, an of-
+ten overlooked word class. We examine
+the parameters that must be considered in
+preposition disambiguation, namely con-
+text, features, and granularity. Doing
+so delivers an increased performance that
+significantly improves over two state-of-
+the-art systems, and shows potential for
+improving other word sense disambigua-
+tion tasks. We report accuracies of 91.8%
+and 84.8% for coarse and fine-grained
+preposition sense disambiguation, respec-
+tively.
+1 

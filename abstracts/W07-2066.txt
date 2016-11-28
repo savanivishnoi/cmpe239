@@ -1,0 +1,14 @@
+
+We present two systems that pick the ten
+most appropriate substitutes for a marked
+word in a test sentence. The first system
+scores candidates based on how frequently
+their local contexts match that of the marked
+word. The second system, an enhancement
+to the first, incorporates cosine similarity us-
+ing unigram features. The core of both sys-
+tems bypasses intermediate sense selection.
+Our results show that a knowledge-light, di-
+rect method for scoring potential replace-
+ments is viable.
+1 

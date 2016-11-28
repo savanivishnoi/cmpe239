@@ -1,0 +1,13 @@
+
+We present DIRECTL: an online discrimi-
+native sequence prediction model that em-
+ploys a many-to-many alignment between
+target and source. Our system incorpo-
+rates input segmentation, target charac-
+ter prediction, and sequence modeling in
+a unified dynamic programming frame-
+work. Experimental results suggest that
+DIRECTL is able to independently dis-
+cover many of the language-specific reg-
+ularities in the training data.
+1 

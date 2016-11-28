@@ -1,0 +1,31 @@
+
+Word-aligned bilingual corpora are an
+important knowledge source for many
+tasks in natural language processing. We
+improve the well-known IBM alignment
+models, as well as the Hidden-Markov
+alignment model using a symmetric lex-
+icon model. This symmetrization takes
+not only the standard translation direc-
+tion from source to target into account,
+but also the inverse translation direction
+from target to source. We present a the-
+oretically sound derivation of these tech-
+niques. In addition to the symmetriza-
+tion, we introduce a smoothed lexicon
+model. The standard lexicon model is
+based on full-form words only. We propose
+a lexicon smoothing method that takes
+the word base forms explicitly into ac-
+count. Therefore, it is especially useful
+for highly inflected languages such as Ger-
+man. We evaluate these methods on the
+German?English Verbmobil task and the
+French?English Canadian Hansards task.
+We show statistically significant improve-
+ments of the alignment quality compared
+to the best system reported so far. For
+the Canadian Hansards task, we achieve
+an improvement of more than 30% rela-
+tive.
+1 

@@ -1,0 +1,22 @@
+  
+ 
+Ambiguity is very high for location names. For 
+example, there are 23 cities named ?Buffalo? in 
+the U.S.  Country names such as ?Canada?, 
+?Brazil? and ?China? are also city names in the 
+USA. Almost every city has a Main Street or 
+Broadway. Such ambiguity needs to be handled 
+before we can refer to location names for 
+visualization of related extracted events. This 
+paper presents a hybrid approach for location 
+normalization which combines (i) lexical 
+grammar driven by local context constraints, (ii) 
+graph search for maximum spanning tree and 
+(iii) integration of semi-automatically derived 
+default senses. The focus is on resolving 
+ambiguities for the following types of location 
+names: island, town, city, province, and country. 
+The results are promising with 93.8% accuracy 
+on our test collections. 
+ 
+1 

@@ -1,0 +1,18 @@
+
+Recent advances in statistical machine
+translation have used beam search for
+approximate NP-complete inference within
+probabilistic translation models. We present
+an alternative approach of sampling from the
+posterior distribution defined by a translation
+model. We define a novel Gibbs sampler
+for sampling translations given a source
+sentence and show that it effectively explores
+this posterior distribution. In doing so
+we overcome the limitations of heuristic
+beam search and obtain theoretically sound
+solutions to inference problems such as
+finding the maximum probability translation
+and minimum expected risk training and
+decoding.
+1 

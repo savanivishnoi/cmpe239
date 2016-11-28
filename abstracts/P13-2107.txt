@@ -1,0 +1,18 @@
+
+We show that informative lexical cate-
+gories from a strongly lexicalised for-
+malism such as Combinatory Categorial
+Grammar (CCG) can improve dependency
+parsing of Hindi, a free word order lan-
+guage. We first describe a novel way to
+obtain a CCG lexicon and treebank from
+an existing dependency treebank, using a
+CCG parser. We use the output of a su-
+pertagger trained on the CCGbank as a
+feature for a state-of-the-art Hindi depen-
+dency parser (Malt). Our results show that
+using CCG categories improves the accu-
+racy of Malt on long distance dependen-
+cies, for which it is known to have weak
+rates of recovery.
+1 

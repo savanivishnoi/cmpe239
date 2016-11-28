@@ -1,0 +1,12 @@
+. Biomedical named entity recognition (NER) is a difficult
+problem in biomedical information processing due to the widespread am-
+biguity of terms out of context and extensive lexical variations. This pa-
+per presents a two-phase biomedical NER consisting of term boundary
+detection and semantic labeling. By dividing the problem, we can adopt
+an effective model for each process. In our study, we use two exponential
+models, conditional random fields and maximum entropy, at each phase.
+Moreover, results by this machine learning based model are refined by
+rule-based postprocessing implemented using a finite state method. Ex-
+periments show it achieves the performance of F-score 71.19% on the
+JNLPBA 2004 shared task of identifying 5 classes of biomedical NEs.
+1 

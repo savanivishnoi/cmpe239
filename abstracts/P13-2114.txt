@@ -1,0 +1,17 @@
+
+Automatically determining the temporal order
+of events and times in a text is difficult, though
+humans can readily perform this task. Some-
+times events and times are related through use
+of an explicit co-ordination which gives infor-
+mation about the temporal relation: expres-
+sions like ?before? and ?as soon as?. We in-
+vestigate the ro?le that these co-ordinating tem-
+poral signals have in determining the type of
+temporal relations in discourse. Using ma-
+chine learning, we improve upon prior ap-
+proaches to the problem, achieving over 80%
+accuracy at labelling the types of temporal re-
+lation between events and times that are re-
+lated by temporal signals.
+1 

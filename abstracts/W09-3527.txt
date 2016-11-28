@@ -1,0 +1,16 @@
+
+We describe in detail a method for translit-
+erating an English string to a foreign
+language string evaluated on five differ-
+ent languages, including Tamil, Hindi,
+Russian, Chinese, and Kannada. Our
+method involves deriving substring align-
+ments from the training data and learning a
+weighted finite state transducer from these
+alignments. We define an ?-extension Hid-
+den Markov Model to derive alignments
+between training pairs and a heuristic to
+extract the substring alignments. Our
+method involves only two tunable parame-
+ters that can be optimized on held-out data.
+1 

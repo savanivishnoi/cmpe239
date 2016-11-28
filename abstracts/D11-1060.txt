@@ -1,0 +1,17 @@
+
+Responding to the need for semantic lexical
+resources in natural language processing ap-
+plications, we examine methods to acquire
+noun compounds (NCs), e.g., orange juice, to-
+gether with suitable fine-grained semantic in-
+terpretations, e.g., squeezed from, which are
+directly usable as paraphrases. We employ
+bootstrapping and web statistics, and utilize
+the relationship between NCs and paraphras-
+ing patterns to jointly extract NCs and such
+patterns in multiple alternating iterations. In
+evaluation, we found that having one com-
+pound noun fixed yields both a higher number
+of semantically interpreted NCs and improved
+accuracy due to stronger semantic restrictions.
+1 

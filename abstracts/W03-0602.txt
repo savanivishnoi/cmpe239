@@ -1,0 +1,16 @@
+
+We discuss the properties of a collection of
+news photos and captions, collected from the
+Associated Press and Reuters. Captions have
+a vocabulary dominated by proper names. We
+have implemented various text clustering algo-
+rithms to organize these items by topic, as well
+as an iconic matcher that identifies articles that
+share a picture. We have found that the spe-
+cial structure of captions allows us to extract
+some names of people actually portrayed in the
+image quite reliably, using a simple syntactic
+analysis. We have been able to build a directory
+of face images of individuals from this collec-
+tion.
+1 

@@ -1,0 +1,458 @@
+ Categories of Inquiry Operators 
+The inquiries of the grammar can be differentiated 
+according to categories of purposes they serve. Five such 
+categories are described below. The first two kinds of inquiries 
+~ ~ :.'~-ed for control, and the last three extract symbols from the 
+environment -- either lexical items or symbols that can be included 
+as subject matter in subsequent inquiries. Inquiries of the first two 
+kinds have predetermined closed sets of possible responses: the 
+last three kinds allow an unlimited number of responses. 
+1. in format ion avai lab i l i ty  
+2. in format ion character izat ion 
+3. decomposition 
+4, l ink ing ( ident i f icat ion of related information) 
+5. mapping 
+Some inquiries determine whether information of a certain 
+character is avai lable,  such as the location or duration of an 
+event. These inquiries generally precede others used to 
+characterize information. 
+The operators used for in format ion character izat ion 
+form the largest collection of operators among the five kinds. 
+They are used to subcategorize and also to discover relations of 
+inclusion, identity, precedence, adjacency, and attributes of 
+manner, number, completeness, intended emphasis, identifiability 
+to the reader, decomposability, gender, hypotheticality, 
+extensionality, and many other sorts. 
+When the grammar has determined that some of the 
+available informaion is decomposable into parts in a syntactically 
+significant way (usually through information availability inquiries), 
+in format ion decompos i t ion  inquiries are used to obtain access 
+168 
+to the parts. This is the largest category of inquiries for which an 
+unlimited diversity of responses is allowed. These inquiries offer 
+access to actors, affected objects, processes, causers, polarities, 
+locations, time periods, extents, manners, and various kinds of 
+participants or conditioners of processes. 
+The linking inquiries are a small collection of inquiries 
+which resemble the information decomposition inquiries. They 
+obtain information related in a particular way to known 
+information, but not part of it. For example, given an event whose 
+time must be expressed, there is an inquiry that obtains the 
+identity of the time relative to which the event's time of occurrence 
+should be expressed. 
+In terms of the four forms of information presented in 
+section 3.1 above, exploration always proceeds from concepts to 
+presentation specifications and term sets, and from term sets to 
+terms, as shown in Figure 1. 
+Concepts , / - . . . ,  
+Presentation Specifications Term Sets 
+Terms 
+Figure 1: Information flow through mapping inquiries 
+A small collection of Mapping inquiries participate in this 
+:~,ploration at the points where information forms change. 
+Several create specialized presentation specifications for 
+concepts, and others create term sets and terms. 
+Since operators can request presentation specifications, 
+they can in effect demand that the environment work out what 
+information to include in a new reference to an entity. The 
+e,~vironment must then use the knowledge of past mentions, a 
+model of the hearer's attention and of possible confusion 
+candidates, and also the knowledge of denotationally appropriate 
+le.<ic.~l items; these elements of knowledge are all outside the 
+ooundary of the grammar. The mapping from concepts to 
+presentation specifications is thus dependent on the particular 
+circumstances. 
+In a similar way, the mappings from concepts to term sets 
+and from term sets to terms also vary depending on the 
+comm,mication situation. 
+3.3 Categories of Subject Matter 
+Recurrent topics and categories of subject matter in the 
+inquiries reflect the syntactically encoded categories Of 
+knowledge in English. The subject matter categories form two 
+groups: 
+1. Elements of knowledge that typically exist odor to the 
+intention or plan to communicate (described in 
+section 3.3.1 below), and 
+2. Elements of knowledge ~:r~ated as Dad of pursuing 
+the intention or plan to communicate (described in 
+section 3.3.2 below.) 
+These are called the Knowledge Base and the Text 
+Plan, respectively. 
+Surprisingly, we do not see any sharing of inquiries 
+between these two kinds of knowledge. In Nigel, we find that each 
+inquiry operator addresses solely one body of knowledge or the 
+other. A few of the categories of operations address both kinds of 
+knowledge, notably inquiries about availability of information. 
+Within the categories, however, each individual inquiry is 
+specialized to a single kind of knowledge. 
+3.3.1 Subject  Matter  of Inquiries Concerning Prior 
+Knowledge 
+In addition to inquiring about availability of information, the 
+grammar asks about abstract characteristics of processes, about 
+number and discreteness, and about time and space. Also, there 
+is ~ substantial collection of inquiries about logical relations such 
+as set membership, interval inclusion, identity of two entities, 
+extensionality, definiteness of existence, hypotheticality, polarity 
+and conditionality. 
+3.3.2 Subject Matter of Inquiries for Communicat ion 
+Among the inquiry operators that refer to information 
+created in pursuit of an intention or plan to communicate, there 
+are inquiries about speech acts and about controlling the hearer's 
+attention. The latter are used in controlling thematicity, various 
+kinds of marking, and the foregrounding or backgrounding of 
+information. 
+3.4 Support Processes in the Environment 
+The organization of inquiry requires that various kinds of 
+processes be available in the environment for responding to 
+inquiries. At a detailed level, there must be a capability for the 
+169 
+environment to recognize each inquiry operator and to respond to 
+each one appropriately. In computational terms, for a particular 
+domain of expressive problems, all of the inquiry operators which 
+are called upon to serve that domain must be implemented. (For 
+simple expressive problems this can be far fewer than the total for 
+the grammar.) 
+At a more comprehensive level, we can identify certain 
+recurrent activities which must underlie the operations of the 
+inquiry operator implementations. These include searching for an 
+appropriate set of.lexical items (such as candidate head nouns for 
+a nominal group), creating a presentation specification for 
+expressing a particular idea, and choosing among a set of terms 
+which the grammar has approved as appropriate for a certain use. 
+At an even more comprehensive level, the grammar relies 
+or; the prior activity of processes which plan the text. 
+a, Inquiries in Action: An example 
+The following list summarizes Nigel's activity in developing 
+a particular nominal group: "her appointment on Wednesday 
+morning with us." The starting point is identification of a need to 
+refer to an object represented by concept APPOINTMENT. At the 
+end of the activity shown, there is a structure containing the word 
+"appointment" as the head term, the word "her" as its determiner, 
+and elements that could be further developed into the phrases "on 
+Wednesday morning" and "with us." The category of each 
+inquiry operator is indicated in <brackets>. The order of 
+presentation is the order actually used in the program. It is 
+somewhat disconnected, since the program often Chooses in an 
+arbitrary way between several things which it could do next. An 
+inquiry appears more than once if it is used by more than one 
+choice expert. 
+1. Obtain a presentation specification for 
+APPOINTMENT <mapping> 
+developing the head term of the group 
+2. Obtain a set of candidate head terms <mapping> 
+3. Establish that APPOINTMENT is countable 
+<characterization> 
+4. Classify APPOINTMENT as 
+<characterization> 
+5. Classify APPOINTMENT as unitary <characterization> 
+extensional 
+6. Classify APPOINTMENT as not a question variable 
+<characterization> 
+7. Classify APPOINTMENT as extensional (as part of 
+pronoun control) <characterization> 
+8. Classify APPOINTMENT as unitary (as part of pronoun 
+control) <characterization> 
+9. Establish that the gender of APPOINTMENT is known 
+<availability> 
+10. Establish that in the presentation specification of 
+APPOINTMENT, there is more to be expressed than 
+gender and number <characterization> 
+11. Determine that it is preferab!e to exclude proper 
+nouns from the term set, rather than exclude the 
+remainder <preference> 
+begin developing the determiner 
+12. Establish that APPOINTMENT is extensional (for 
+determiner control) <characterization> 
+13. Establish that APPOINTMENT is identifiable to the 
+reader <characterization> 
+resume developing the head term 
+14. Have the environment select a term, here 
+"appointment," from among the terms that survived 
+syntactic selectivity <mapping> 
+developing the modifiers of the head term 
+15. Establish that the presentation specification for 
+APPOINTMENT does not indicate that color, location, 
+use, substance, size, place of origin or age should be 
+expressed (7 inquiries) <characterization> 
+developing the accompaniment modifier 
+16. Establish that some kind of accompaniment of 
+APPOINTMENT should be expressed 
+<characterization> 
+17. Obtain a symbol (WITHUS) representing the 
+accompaniment knowledge to be expressed 
+<decomposition> 
+complete development of the head term 
+18. Determine that the speaker wants the hearer to pay 
+more than minimal attention to APPOINTMENT (thus 
+cutting off further investigation of a substitution of 
+"one" for "appointment") <characterization> 
+developing the time period modifier 
+19. Establish that the presentation specification of 
+APPOINTMENT indicates that a time constraint 
+should be expressed <characterization> 
+20. Obtain a symbol (ONWEDNESDAYMORN) 
+:eprasenting the time constraint to be expressed 
+<decomposition> 
+resume developing the determiner 
+170 
+21. Establish that no information about the proximity of 
+APPOINTMENT should be expressed 
+<characterization> 
+22. Establish that information about the possessor of 
+APPOINTMENT should be expressed 
+<characterization> 
+23. Obtain a symbol (JANE) representing the possessor of 
+APPOINTMENT <decomposition> 
+24. Establish that JANE is unitary <characterization> 
+25. Establish that JANE does not represent a question 
+variable <characterization> 
+26. Obtain a symbol (SELF) representing the speaker 
+<decomposition> 
+27. Obtain a symbol (PUBLIC) representing the hearer of 
+the entire nominal group <decomposition> 
+28. Establish that SELF is not identical with or included in 
+JANE <characterization> 
+29. Establish that PUBLIC is not identical with or included 
+in JANE <characterization> 
+30. Establish that the gender of JANE is known 
+<availability> 
+31. Establish that the gender of JANE is female 
+<characterization> 
+finish developing the modifiers 
+32.5stablish that there is no residue of unexpressed 
+content in the presentation specification 
+<characterization;> 
+Using the answers to these inquiries, the grammar builds a 
+structure consisting of four elements in an ordered sequence: 
+"her," "appointment," ONWEDNESDAYMORN, 
+WITHUS. 
+the latter two representing conceptual elements tO be further 
+developed in subsequent applications of the grammar. 
+5 Relations between Operators 
+Some operators are closely related in ways not suggested 
+above. In particular, some pairs of operators are used together in 
+a characteristic way: First an availability operator asks if certain 
+information is available, for example, whether the location of an 
+event is known. If a positive response is given, a decomposition 
+inquiry asks for a symbol to represent the available information, 
+such as the location. 
+Almost all of the decomposition inquiries are paired with 
+availability inquiries in this way. However, a few are not. For 
+these, the grammar assumes the existence and separability of the 
+information it requests.- The following are the exception cases: 
+1. the identity of the speaker. 
+2. the identity of the time of speaking, the "now" of 
+tense. 
+3. given an event to express in an independent clause, 
+the identity of the time of occurrence of the event. 
+4. given the need to generate a clause, the identity of the 
+process portion (which will be realized in the main 
+verb.) 
+In addition, none of the mapping operators and none of the 
+linking operators are paired. We see that the decomposition 
+operators have little intellectual content, but the other kinds all 
+contribute significantly. 
+6 Demands on the Knowledge 
+Representation 
+Reviewing the inquiries, we can find several kinds of 
+operations that are particularly difficult to support in explicit 
+knowledge representations uch as those currently used in AI or 
+logic. 
+One operator asks whether the existence of a particular 
+entity is hvoothetical. Knowledge gained from this inquiry is useful 
+in controlling contrasts such as the following: 
+If they run to town, they will be sorry. 
+If they are running to town, they will be sorry. 
+Another operator asks about conjectural existence. It 
+controls contrasts such as: 
+They will run to town. 
+They might run to town. 
+In the first case the running to town is treated as definite 
+but occurring in the future. 
+Another asks whether an action to be expressed is habitual 
+recurrent rather than a particular instance. Another group of 
+inquiries seeks to determine the manner of performance of an 
+action. Others deal with partial specifications and "question 
+171 
+variables" of the sort that are often realized by "wh" terms such 
+as "what," "how," and "whether." Some operators control 
+negation and quantification, which often cause representation 
+problems. 
+In addition to all of these potential problem sources, 
+associated with inquiries whose responses will be difficult to 
+determine, there are also many difficulties which do not arise from 
+difficulties of representation. For example, knowing what to 
+thematize and what to mark, knowing causes and beneficiaries, 
+knowing which of several lexical items to use (after passing all 
+syntactic and semantic tests), knowing what relations can be 
+expressed as possession, knowing whether the reader is able to 
+identify an entity in memory (for definite determination), 
+discriminating near from far. all present difficulties without 
+appearing to stress the capabilities of modern knowledge 
+representations. 
+Thus the inquiries can be used as an indication of what 
+sorts of expansion a knowledge representation needs and as a 
+guide to the ways in which current knowledge of discourse is 
+inadequate to support text generation programming. 
+7 Factoring the Text Generation Problem 
+Inquiry semantics separates the problem of designing a 
+text generator into parts which seem much more approachable 
+than the problem as a whole. The grammar is separated from the 
+environment by a tight interface which does not allow the 
+grammar to access any elements of the environment directly. The 
+inquiries are defined in a syntactically neutral or pre-syntactic 
+form; answering them never requires knowledge of the syntax of 
+the language being generated. As a result, the environment and 
+the grammar can develop independently. This is particularly 
+important today, since the technologies of the environment are 
+very unstable, and we would like to be able to use a grammar in 
+con!unction with several styles of knowledge representation. 
+The environment is divided into the Knowledge Base and 
+Text Plan parts, an informal but potentially very useful distinction. 
+It tends to facilitate independent development of discourse 
+planning methods. Truth-functional issues seem to be related 
+largely to the Knowledge Base. 
+The treatment of the lexicon separates a variety of lexical 
+phenomena in separate, controlled ways: denotational 
+appropriateness, syntactic features, and nonsyntactic 
+.~onde=~otational attributes such as frequency and register, each 
+receive distinctive treatment in NigeL 
+8The Abstract Character of Inquiry 
+Semantics 
+In this section we compare inquiry semantics to other kinds 
+of semantics, and also identify the nature of meaning in this 
+framework. 
+8.1 Comparative Semant ics  
+The inquiry-based semantics presented here contrasts 
+with other accounts also called "semantics" in many ways, but it 
+does not particularly compete with them. This semantics, as a way 
+of theorizing, is an answer to the question "How can we 
+characterize the circumstances under which it is appropriate to 
+make each particular grammatical choice of a language?" 
+It differs from other semantic approaches in that 
+1. its scope is confined to grammar, rather than 
+addressing linguistic behavior as a whole; 
+2. it does not presume particular structures (deep or 
+otherwise) in the environment; 
+3. it is not particularly limited to issues reducible to 
+questions of truth value; 
+4. its scope includes nondeclarative, noninterrogative 
+speech actions (including imperative, imprecation, 
+and greeting functions) on a par with declarative and 
+interrogative ones; 
+5. it includes other functions of language in addition to 
+the representational ones (such as the 
+attention.direction functions); 
+6. it is defined relative to generation rather than 
+interpretation, but is not thereby "generative". 
+This semantics is potentially compatible with other sorts, 
+since it makes very few theoretical assumptions about the nature 
+of language and communication. By encompassing every kind of 
+syntactic construction, it is more inclusive than most. 
+Nothing in inquiry semantics rules out any particular formal 
+apparatus as the notation for the methods by which the 
+environment responds to inquiries. Accounts of particular 
+languages and grammars will give some informal guidance as to 
+which sorts of methods will be perspicuous, and may rule out 
+particular formalisms as response mechanisms for particular 
+grammars. The topic is as yet unexplored. 
+172 
+8.2 The Nature of Meaning in inquiry Semantics 
+We could assign meanings to any of several kinds of 
+entities in this framework: grammatical features, collections of 
+features, realizations of collections of features (i.e., structures), 
+inquiry responses--or other possibilities. Our selection of a 
+particular kind of entity as the locus of meaning depends on our 
+intended use for that locus. We intend to use this notion of 
+meaning to identify the ways in which minimal structurally-justified 
+.~istinctives are responsive to their conditions of use. This 
+selection does not preclude other selections for other purposes, 
+and it certainly does not suggest that there are no other entities 
+which are meaningful. 
+We associate meanings with qrammal; qa feature~, in part 
+because these are the controlling entities in the systemic 
+framework. Given a systemic grammar, the syntactic structures 
+~',nicn are produced depend entirely on the grammatical features 
+which are chosen, and the opportunity to choose a grammatical 
+feature also depends entirely on the grammatical features which 
+are chosen, i.e., the entry conditions of the system in which "the 
+feature occurs. So it is convenient to associate meaning with 
+features, and to derive meanings for any other entity by the 
+determinate derivational methods which the systemic framework 
+provides. 
+To state the meaning of a grammatical feature is to state 
+the technical circumstances under which the feature is chosen. 
+We identify these circumstances as the set of possible collections 
+of inquiry responses which are sufficient to lead to the choice of 
+the feature. The definitions of the systems of the grammar and 
+their choice experts are thus sufficient to determine the meaning 
+of every grammatical feature. 45 Ambiguity of a feature arises when 
+there is more than one collection of relevant inquiry responses 
+which leads to the choice of the feature. 
+Differences of meaning reflect differences between 
+collections of inquiry responses. In Nigel, for the features Singular 
+and Plural, one of the collections of inquiry responses which leads 
+4We do not stats the method here, since that involves many systemic details, but 
+it is normally a rather straightforward matter for the Nige! grammar? More detail 
+can be found in \[Mann 82, Mann & Matthiessen 83a, Mann & Matthiessen 8,3b\]. 
+5The meanings of the features are not sufficient to find the sets of meanings 
+which corres~ond to particular structures, since that requires the realization 
+mapping of featureS to structureS. However, given the associations of features 
+with realization operations, the structures for which a particular feature (or 
+combination of features) is chosen can be identified, and so in principle the sets of 
+techincal circumstances which can yield a particular string can be identified. 
+to Singular contains a response "unitary" to MultiplicityQ, and a 
+corresponding collection contains "multiple" as a response to 
+MultiplicityQ, which leads to Plural. We can determine by 
+inspection of the entire meanings that Singular and Plural exclude 
+each other, and the determination could be made even if the 
+features were not in direct opposition in the grammar. 
+Notice that this approach is compatible with approaches to 
+grammar other than traditional systemic grammar, provided that 
+their optionality is reexpressed as alternation of features, with 
+choice experts defined to identify the circumstances under which 
+each option is chosen. 
+Notice also that it is possible to have meanings in the 
+~irammar which are ruled out by the environment, for example, by 
+consistency conditions. A change in the environment's 
+epistemology could lead to changes in how the grammar is 
+employed, without changes in meaning, the grammar being more 
+neutral than its user. 
+Notice also that the collection of inquiry operators for a 
+language is a claim concerning the semantic range of the 
+grammar of that language, a characterization of what can be 
+exDresssd syntactically. 
+Notice finally that, given a grammar and an inquiry 
+semantics of each of two different languages, the question of 
+whether a particular sentence of one language has the same 
+meaning as a particular sentence of the other language is an 
+addressable question, and that it is possible in principle to find 
+cases for which the meanings are the same. One can also 
+investigate the extent to which a particular opposition in one 
+language is an exact translation of an opposition in another. 
+9 Conclusions 
+The inquiry language as a level of abstraction provides a 
+useful factoring of the text generation problem, isolating the 
+grammar-intensive part. 
+Development of inquiry language has led to the creation of 
+new kinds of abstract elements that can be the operands of 
+i;~quiries. Of these, presentation specifications and term sets have 
+sufficiently novel scopes to suggest that they may be useful in 
+defining relationships between grammar and language use. 
+We have identified three dimensions of characterization 
+that yield a convenient abstract structure for understanding 
+inqui ry  language collectively (by categories of operands, 
+173 
+categories of operators and categories of subject matter.) These 
+categorizations clarify the ways in which effective use of a 
+grammar depends on processes and information outside of the 
+grammar, including some ways which are not well controlled in 
+available knowledge representations. 
+Inquiry semantics contrasts with other theoretical entities 
+I .  
+also called "semantics" in many ways. It is potentially compatible 
+with some other forms, but tends to be broader than many in 
+including non-representational functions and non-declarative 
+speech actions in its scope. 
+Refe rences  
+\[Berry 75\] Berry, M., 

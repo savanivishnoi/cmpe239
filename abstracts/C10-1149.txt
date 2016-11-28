@@ -1,0 +1,24 @@
+
+This paper proposes a method that lever-
+ages multiple machine translation (MT)
+engines for paraphrase generation (PG).
+The method includes two stages. Firstly,
+we use a multi-pivot approach to acquire
+a set of candidate paraphrases for a source
+sentence S. Then, we employ two kinds
+of techniques, namely the selection-based
+technique and the decoding-based tech-
+nique, to produce a best paraphrase T for
+S using the candidates acquired in the first
+stage. Experimental results show that:
+(1) The multi-pivot approach is effective
+for obtaining plenty of valuable candi-
+date paraphrases. (2) Both the selection-
+based and decoding-based techniques can
+make good use of the candidates and pro-
+duce high-quality paraphrases. Moreover,
+these two techniques are complementary.
+(3) The proposed method outperforms a
+state-of-the-art paraphrase generation ap-
+proach.
+1 

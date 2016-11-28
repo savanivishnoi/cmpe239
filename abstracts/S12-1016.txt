@@ -1,0 +1,18 @@
+
+Semantic role classification accuracy for most
+languages other than English is constrained by
+the small amount of annotated data. In this pa-
+per, we demonstrate how the frame-to-frame
+relations described in the FrameNet ontology
+can be used to improve the performance of
+a FrameNet-based semantic role classifier for
+Swedish, a low-resource language. In order
+to make use of the FrameNet relations, we
+cast the semantic role classification task as
+a non-atomic label prediction task. The ex-
+periments show that the cross-frame general-
+ization methods lead to a 27% reduction in
+the number of errors made by the classifier.
+For previously unseen frames, the reduction is
+even more significant: 50%.
+1 

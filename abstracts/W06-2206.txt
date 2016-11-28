@@ -1,0 +1,20 @@
+
+We present two methods for semi-
+automatic detection and correction of er-
+rors in textual databases. The first method
+(horizontal correction) aims at correct-
+ing inconsistent values within a database
+record, while the second (vertical correc-
+tion) focuses on values which were en-
+tered in the wrong column. Both methods
+are data-driven and language-independent.
+We utilise supervised machine learning,
+but the training data is obtained automat-
+ically from the database; no manual anno-
+tation is required. Our experiments show
+that a significant proportion of errors can
+be detected by the two methods. Further-
+more, both methods were found to lead to
+a precision that is high enough to make
+semi-automatic error correction feasible.
+1 

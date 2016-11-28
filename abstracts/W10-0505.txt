@@ -1,0 +1,24 @@
+ 
+Many questions submitted to Collaborative 
+Question Answering (CQA) sites have been 
+answered before. We propose an approach to 
+automatically generating an answer to such 
+questions based on automatically learning to 
+identify ?equivalent? questions. Our main 
+contribution is an unsupervised method for 
+automatically learning question equivalence 
+patterns from CQA archive data. These pat-
+terns can be used to match new questions to 
+their equivalents that have been answered be-
+fore, and thereby help suggest answers auto-
+matically. We experimented with our method 
+approach over a large collection of more than 
+200,000 real questions drawn from the Yahoo! 
+Answers archive, automatically acquiring 
+over 300 groups of question equivalence pat-
+terns. These patterns allow our method to ob-
+tain over 66% precision on automatically 
+suggesting answers to new questions, signifi-
+cantly outperforming conventional baseline 
+approaches to question matching.  
+1 

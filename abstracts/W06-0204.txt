@@ -1,0 +1,14 @@
+
+This paper presents a novel approach to
+the semi-supervised learning of Informa-
+tion Extraction patterns. The method
+makes use of more complex patterns than
+previous approaches and determines their
+similarity using a measure inspired by re-
+cent work using kernel methods (Culotta
+and Sorensen, 2004). Experiments show
+that the proposed similarity measure out-
+performs a previously reported measure
+based on cosine similarity when used to
+perform binary relation extraction.
+1 

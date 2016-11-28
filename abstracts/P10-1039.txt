@@ -1,0 +1,28 @@
+
+This paper demonstrates that the use of
+ensemble methods and carefully calibrat-
+ing the decision threshold can signifi-
+cantly improve the performance of ma-
+chine learning methods for morphologi-
+cal word decomposition. We employ two
+algorithms which come from a family of
+generative probabilistic models. The mod-
+els consider segment boundaries as hidden
+variables and include probabilities for let-
+ter transitions within segments. The ad-
+vantage of this model family is that it can
+learn from small datasets and easily gen-
+eralises to larger datasets. The first algo-
+rithm PROMODES, which participated in
+the Morpho Challenge 2009 (an interna-
+tional competition for unsupervised mor-
+phological analysis) employs a lower or-
+der model whereas the second algorithm
+PROMODES-H is a novel development of
+the first using a higher order model. We
+present the mathematical description for
+both algorithms, conduct experiments on
+the morphologically rich language Zulu
+and compare characteristics of both algo-
+rithms based on the experimental results.
+1 

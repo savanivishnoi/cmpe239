@@ -1,0 +1,23 @@
+ 
+Community-based question answering 
+(cQA) services have accumulated millions 
+of questions and their answers over time. 
+In the process of accumulation, cQA ser-
+vices assume that questions always have 
+unique best answers. However, with an in-
+depth analysis of questions and answers 
+on cQA services, we find that the assump-
+tion cannot be true. According to the anal-
+ysis, at least 78% of the cQA best answers 
+are reusable when similar questions are 
+asked again, but no more than 48% of 
+them are indeed the unique best answers. 
+We conduct the analysis by proposing 
+taxonomies for cQA questions and an-
+swers. To better reuse the cQA content, 
+we also propose applying automatic sum-
+marization techniques to summarize an-
+swers. Our results show that question-type 
+oriented summarization techniques can 
+improve cQA answer quality significantly. 
+1 

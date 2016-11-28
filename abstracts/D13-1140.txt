@@ -1,0 +1,14 @@
+
+We explore the application of neural language
+models to machine translation. We develop a
+new model that combines the neural proba-
+bilistic language model of Bengio et al, rec-
+tified linear units, and noise-contrastive esti-
+mation, and we incorporate it into a machine
+translation system both by reranking k-best
+lists and by direct integration into the decoder.
+Our large-scale, large-vocabulary experiments
+across four language pairs show that our neu-
+ral language model improves translation qual-
+ity by up to 1.1 Bleu.
+1 

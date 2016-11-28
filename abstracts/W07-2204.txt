@@ -1,0 +1,13 @@
+
+We introduce a set of 1,000 gold standard
+parse trees for the British National Corpus
+(BNC) and perform a series of self-training
+experiments with Charniak and Johnson?s
+reranking parser and BNC sentences. We
+show that retraining this parser with a com-
+bination of one million BNC parse trees
+(produced by the same parser) and the orig-
+inal WSJ training data yields improvements
+of 0.4% on WSJ Section 23 and 1.7% on the
+new BNC gold standard set.
+1 

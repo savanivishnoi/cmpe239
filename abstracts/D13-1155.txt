@@ -1,0 +1,26 @@
+
+A major challenge in supervised sentence
+compression is making use of rich feature rep-
+resentations because of very scarce parallel
+data. We address this problem and present
+a method to automatically build a compres-
+sion corpus with hundreds of thousands of
+instances on which deletion-based algorithms
+can be trained. In our corpus, the syntactic
+trees of the compressions are subtrees of their
+uncompressed counterparts, and hence super-
+vised systems which require a structural align-
+ment between the input and output can be suc-
+cessfully trained. We also extend an exist-
+ing unsupervised compression method with a
+learning module. The new system uses struc-
+tured prediction to learn from lexical, syntac-
+tic and other features. An evaluation with hu-
+man raters shows that the presented data har-
+vesting method indeed produces a parallel cor-
+pus of high quality. Also, the supervised sys-
+tem trained on this corpus gets high scores
+both from human raters and in an automatic
+evaluation setting, significantly outperforming
+a strong baseline.
+1 

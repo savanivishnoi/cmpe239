@@ -1,0 +1,13 @@
+
+We develop a new objective function for word
+alignment that measures the size of the bilin-
+gual dictionary induced by an alignment. A
+word alignment that results in a small dictio-
+nary is preferred over one that results in a large
+dictionary. In order to search for the align-
+ment that minimizes this objective, we cast the
+problem as an integer linear program. We then
+extend our objective function to align corpora
+at the sub-word level, which we demonstrate
+on a small Turkish-English corpus.
+1 

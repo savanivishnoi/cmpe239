@@ -1,0 +1,19 @@
+
+In this paper, we introduce a new frame-
+work for recognizing textual entailment
+(RTE) which depends on extraction of the
+set of publicly-held beliefs ? known as dis-
+course commitments ? that can be ascribed
+to the author of a text (t) or a hypothesis
+(h). We show that once a set of commit-
+ments have been extracted from a t-h pair,
+the task of recognizing textual entailment
+is reduced to the identification of the com-
+mitments from a t which support the infer-
+ence of the h. Our system correctly identi-
+fied entailment relationships in more than
+80% of t-h pairs taken from all three of the
+previous PASCAL RTE Challenges, with-
+out the need for additional sources of train-
+ing data.
+1 

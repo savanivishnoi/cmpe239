@@ -1,0 +1,13 @@
+ 
+This paper proposes a new automatic ma-
+chine translation evaluation metric: 
+AMBER, which is based on the metric 
+BLEU but incorporates recall, extra penal-
+ties, and some text processing variants. 
+There is very little linguistic information in 
+AMBER. We evaluate its system-level cor-
+relation and sentence-level consistency 
+scores with human rankings from the 
+WMT shared evaluation task; AMBER 
+achieves state-of-the-art performance. 
+1 

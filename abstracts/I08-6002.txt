@@ -1,0 +1,15 @@
+ 
+This paper presents a methodology for 
+finding similarity and co-reference of 
+documents across languages. The similarity 
+between the documents is identified ac-
+cording to the content of the whole docu-
+ment and co-referencing of documents is 
+found by taking the named entities present 
+in the document. Here we use Vector Space 
+Model (VSM) for identifying both similar-
+ity and co-reference. This can be applied in 
+cross-lingual search engines where users 
+get documents of very similar content from 
+different language documents.  
+1 

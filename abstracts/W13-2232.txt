@@ -1,0 +1,22 @@
+
+Many tasks in NLP and IR require ef-
+ficient document similarity computations.
+Beyond their common application to ex-
+ploratory data analysis, latent variable
+topic models have been used to represent
+text in a low-dimensional space, indepen-
+dent of vocabulary, where documents may
+be compared. This paper focuses on the
+task of searching a large multilingual col-
+lection for pairs of documents that are
+translations of each other. We present
+(1) efficient, online inference for repre-
+senting documents in several languages in
+a common topic space and (2) fast ap-
+proximations for finding near neighbors in
+the probability simplex. Empirical evalu-
+ations show that these methods are as ac-
+curate as?and significantly faster than?
+Gibbs sampling and brute-force all-pairs
+search.
+1 

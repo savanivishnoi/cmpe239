@@ -1,0 +1,34 @@
+
+In a previous work of ours Chinnakotla
+et al (2010) we introduced a novel
+framework for Pseudo-Relevance Feed-
+back (PRF) called MultiPRF. Given a
+query in one language called Source, we
+used English as the Assisting Language to
+improve the performance of PRF for the
+source language. MulitiPRF showed re-
+markable improvement over plain Model
+Based Feedback (MBF) uniformly for 4
+languages, viz., French, German, Hungar-
+ian and Finnish with English as the as-
+sisting language. This fact inspired us
+to study the effect of any source-assistant
+pair on MultiPRF performance from out
+of a set of languages with widely differ-
+ent characteristics, viz., Dutch, English,
+Finnish, French, German and Spanish.
+Carrying this further, we looked into the
+effect of using two assisting languages to-
+gether on PRF.
+The present paper is a report of these in-
+vestigations, their results and conclusions
+drawn therefrom. While performance im-
+provement on MultiPRF is observed what-
+ever the assisting language and whatever
+the source, observations are mixed when
+two assisting languages are used simul-
+taneously. Interestingly, the performance
+improvement is more pronounced when
+the source and assisting languages are
+closely related, e.g., French and Spanish.
+1 

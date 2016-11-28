@@ -1,0 +1,21 @@
+
+In this paper we present a joint con-
+tent selection and compression model
+for single-document summarization. The
+model operates over a phrase-based rep-
+resentation of the source document which
+we obtain by merging information from
+PCFG parse trees and dependency graphs.
+Using an integer linear programming for-
+mulation, the model learns to select and
+combine phrases subject to length, cover-
+age and grammar constraints. We evalu-
+ate the approach on the task of generat-
+ing ?story highlights??a small number of
+brief, self-contained sentences that allow
+readers to quickly gather information on
+news stories. Experimental results show
+that the model?s output is comparable to
+human-written highlights in terms of both
+grammaticality and content.
+1 

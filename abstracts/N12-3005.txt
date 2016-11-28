@@ -1,0 +1,20 @@
+
+We demonstrate a conversational humanoid
+robot that allows users to follow their own
+dialogue structures. Our system uses a hi-
+erarchy of reinforcement learning dialogue
+agents, which support transitions across
+sub-dialogues in order to relax the strict-
+ness of hierarchical control and therefore
+support flexible interactions. We demon-
+strate our system with the Nao robot play-
+ing two versions of a Quiz game. Whilst
+language input and dialogue control is au-
+tonomous or wizarded, language output is
+provided by the robot combining verbal and
+non-verbal contributions. The novel fea-
+tures in our system are (a) the flexibility
+given to users to navigate flexibly in the in-
+teraction; and (b) a framework for investi-
+gating adaptive and flexible dialogues.
+1 

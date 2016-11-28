@@ -1,0 +1,22 @@
+ 
+In this paper, we present a fully auto-
+mated extraction system, named IntEx, to 
+identify gene and protein interactions in 
+biomedical text. Our approach is based on 
+first splitting complex sentences into sim-
+ple clausal structures made up of syntactic 
+roles. Then, tagging biological entities 
+with the help of biomedical and linguistic 
+ontologies. Finally, extracting complete 
+interactions by analyzing the matching 
+contents of syntactic roles and their lin-
+guistically significant combinations. Our 
+extraction system handles complex sen-
+tences and extracts multiple and nested in-
+teractions specified in a sentence. 
+Experimental evaluations with two other 
+state of the art extraction systems indicate 
+that the IntEx system achieves better per-
+formance without the labor intensive pat-
+tern engineering requirement. ?  
+1 

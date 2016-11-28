@@ -1,0 +1,15 @@
+
+This paper describes work being done on
+the modeling and encoding of a legacy re-
+source, the traditional descriptive wordlist,
+in ways that make its data accessible to
+NLP applications. We describe an abstract
+model for traditional wordlist entries and
+then provide an instantiation of the model
+in RDF/XML which makes clear the re-
+lationship between our wordlist database
+and interlingua approaches aimed towards
+machine translation, and which also al-
+lows for straightforward interoperation
+with data from full lexicons.
+1 

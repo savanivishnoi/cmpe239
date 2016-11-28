@@ -1,0 +1,23 @@
+
+Recent literature on text-tagging reported
+successful results by applying Maximum
+Entropy (ME) models. In general, ME
+taggers rely on carefully selected binary
+features, which try to capture discrimi-
+nant information from the training data.
+This paper introduces a standard setting
+of binary features, inspired by the litera-
+ture on named-entity recognition and text
+chunking, and derives corresponding real-
+valued features based on smoothed log-
+probabilities. The resulting ME models
+have orders of magnitude fewer parame-
+ters. Effective use of training data to esti-
+mate features and parameters is achieved
+by integrating a leaving-one-out method
+into the standard ME training algorithm.
+Experimental results on two tagging tasks
+show statistically significant performance
+gains after augmenting standard binary-
+feature models with real-valued features.
+1 

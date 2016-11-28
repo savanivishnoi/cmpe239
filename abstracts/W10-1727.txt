@@ -1,0 +1,17 @@
+
+In this paper we report on experiments
+with three preprocessing strategies for im-
+proving translation output in a statistical
+MT system. In training, two reordering
+strategies were studied: (i) reorder on the
+basis of the alignments from Giza++, and
+(ii) reorder by moving all verbs to the
+end of segments. In translation, out-of-
+vocabulary words were preprocessed in a
+knowledge-lite fashion to identify a likely
+equivalent. All three strategies were im-
+plemented for our English?German sys-
+tem submitted to the WMT10 shared task.
+Combining them lead to improvements in
+both language directions.
+1 

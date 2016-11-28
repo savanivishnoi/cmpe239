@@ -1,0 +1,20 @@
+
+In previous research in automatic verb
+classification, syntactic features have
+proved the most useful features, although
+manual classifications rely heavily on se-
+mantic features. We show, in contrast
+with previous work, that considerable ad-
+ditional improvement can be obtained by
+using semantic features in automatic clas-
+sification: verb selectional preferences ac-
+quired from corpus data using a fully unsu-
+pervised method. We report these promis-
+ing results using a new framework for
+verb clustering which incorporates a re-
+cent subcategorization acquisition system,
+rich syntactic-semantic feature sets, and
+a variation of spectral clustering which
+performs particularly well in high dimen-
+sional feature space.
+1 

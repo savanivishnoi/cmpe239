@@ -1,0 +1,28 @@
+
+This paper reports on experiments in clas-
+sifying the semantic role annotations as-
+signed to prepositional phrases in both the
+PENN TREEBANK and FRAMENET. In
+both cases, experiments are done to see
+how the prepositions can be classified
+given the dataset?s role inventory, using
+standard word-sense disambiguation fea-
+tures. In addition to using traditional word
+collocations, the experiments incorporate
+class-based collocations in the form of
+WordNet hypernyms. For Treebank, the
+word collocations achieve slightly better
+performance: 78.5% versus 77.4% when
+separate classifiers are used per preposi-
+tion. When using a single classifier for
+all of the prepositions together, the com-
+bined approach yields a significant gain at
+85.8% accuracy versus 81.3% for word-
+only collocations. For FrameNet, the
+combined use of both collocation types
+achieves better performance for the indi-
+vidual classifiers: 70.3% versus 68.5%.
+However, classification using a single
+classifier is not effective due to confusion
+among the fine-grained roles.
+1 

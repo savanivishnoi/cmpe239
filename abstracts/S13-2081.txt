@@ -1,0 +1,20 @@
+
+We evaluate a naive machine learning ap-
+proach to sentiment classification focused
+on Twitter in the context of the sentiment
+analysis task of SemEval-2013. We employ
+a classifier based on the Random Forests al-
+gorithm to determine whether a tweet ex-
+presses overall positive, negative or neu-
+tral sentiment. The classifier was trained
+only with the provided dataset and uses as
+main features word vectors and lexicon word
+counts. Our average F-score for all three
+classes on the Twitter evaluation dataset
+was 51.55%. The average F-score of both
+positive and negative classes was 45.01%.
+For the optional SMS evaluation dataset our
+overall average F-score was 58.82%. The
+average between positive and negative F-
+scores was 50.11%.
+1 

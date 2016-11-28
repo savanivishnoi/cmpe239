@@ -1,0 +1,15 @@
+
+We present an architecture for parsing in two
+steps. A phrase-structure parser builds for
+each sentence an n-best list of analyses which
+are converted to dependency trees. These de-
+pendency structures are then rescored by a dis-
+criminative reranker. Our method is language
+agnostic and enables the incorporation of ad-
+ditional information which are useful for the
+choice of the best parse candidate. We test
+our approach on the the Penn Treebank and
+the French Treebank. Evaluation shows a sig-
+nificative improvement on different parse met-
+rics.
+1 

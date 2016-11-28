@@ -1,0 +1,22 @@
+ 
+Chinese part-of-speech tagging is more difficult than 
+its English counterpart because it needs to be solved 
+together wgh the problem of word identification. In 
+this paper, we present our work on Chinese part-of- 
+speech tagging based on a first-order, fully-connected 
+hsdden Markov model. Part of the 1991 United Daily 
+corpus of approzimately 10 million Chinese charac- 
+ters zs used for training and testing. A news arti- 
+cle is first segmented into clauses, then into words 
+by a Viterbi-based word identification system. The 
+(untagged} segmented corpus is then used to train the 
+HMM for tagging using the Bantu. Welch reestimation 
+procedure. We also adopt Kupiec's concept of word 
+equivalence classes in the tagger. Modeling higher or. 
+der local constraints, a pattern.driven tag corrector is 
+designed to postprocess the tag output of the Vgerbi 
+decoder based on ~rained HMM parameters. Experi- 
+mental results for various testing conditions are re. 
+ported: The system is able to correctly tag approzi- 
+mately 96~ of all words in the testing data. 
+1 

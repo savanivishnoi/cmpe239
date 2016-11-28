@@ -1,0 +1,23 @@
+ 
+This paper describes our work-in-progress in au- 
+tomatic English-to-Korean text; translation. This 
+work is an initial step toward the ultimate goal of 
+text and speech translation for enhanced nmltilin- 
+gual and multinational operations. For riffs pui- 
+pose, we have adopted an interlintlua pproach 
+with natural language understmlding (TINA) and 
+generation (GENESIS) modules at the core. We 
+tackle the ambiguity problem t)y incorporating 
+syntactic and semantic ategories in |;he anal- 
+ysis grammar. Our system is capable of pro- 
+ducing accurate translation of comt)lex sentences 
+(38 words) and sentence fragments as well as av- 
+erage le.ngth (12 words) grammatical sentences. 
+Two types of sysl, em ewJuatiou have 1)een car- 
+ried out: one for grammar coverage and the other 
+for overall performance. \],br system robustness, 
+integration of two subsystems i under way: (i) 
+a rule-based part-of-speech tagger to handle tin- 
+known words/constructions, and (if) a word-for- 
+word translator to handle other system failures. 
+1 

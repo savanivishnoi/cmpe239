@@ -1,0 +1,19 @@
+ 
+This paper briefly describes our system in 
+The Fourth SIGHAN Bakeoff. 
+Discriminative models including maximum 
+entropy model and conditional random 
+fields are utilized in Chinese word 
+segmentation and named entity recognition 
+with different tag sets and features. 
+Transformation-based learning model is 
+used in part-of-speech tagging. Evaluation 
+shows that our system achieves the 
+F-scores: 92.64% and 92.73% in NCC 
+Word Segmentation close and open tests, 
+89.11% in MSRA name entity recognition 
+open test, 91.13% and 91.97% in PKU 
+part-of-speech tagging close and open tests. 
+All the results get medium performances 
+on the bakeoff tracks. 
+1 

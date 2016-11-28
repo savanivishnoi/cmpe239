@@ -1,0 +1,27 @@
+
+The CoNLL-2011 shared task involved pre-
+dicting coreference using OntoNotes data. Re-
+sources in this field have tended to be lim-
+ited to noun phrase coreference, often on a
+restricted set of entities, such as ACE enti-
+ties. OntoNotes provides a large-scale corpus
+of general anaphoric coreference not restricted
+to noun phrases or to a specified set of en-
+tity types. OntoNotes also provides additional
+layers of integrated annotation, capturing ad-
+ditional shallow semantic structure. This pa-
+per briefly describes the OntoNotes annota-
+tion (coreference and other layers) and then
+describes the parameters of the shared task
+including the format, pre-processing informa-
+tion, and evaluation criteria, and presents and
+discusses the results achieved by the partic-
+ipating systems. Having a standard test set
+and evaluation parameters, all based on a new
+resource that provides multiple integrated an-
+notation layers (parses, semantic roles, word
+senses, named entities and coreference) that
+could support joint models, should help to en-
+ergize ongoing research in the task of entity
+and event coreference.
+1 

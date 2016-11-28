@@ -1,0 +1,20 @@
+
+In this paper we describe an unsupervised
+method for semantic role induction which
+holds promise for relieving the data acqui-
+sition bottleneck associated with supervised
+role labelers. We present an algorithm that it-
+eratively splits and merges clusters represent-
+ing semantic roles, thereby leading from an
+initial clustering to a final clustering of bet-
+ter quality. The method is simple, surpris-
+ingly effective, and allows to integrate lin-
+guistic knowledge transparently. By com-
+bining role induction with a rule-based com-
+ponent for argument identification we obtain
+an unsupervised end-to-end semantic role la-
+beling system. Evaluation on the CoNLL
+2008 benchmark dataset demonstrates that
+our method outperforms competitive unsuper-
+vised approaches by a wide margin.
+1 

@@ -1,0 +1,23 @@
+
+Unsupervised dependency parsing is one of
+the most challenging tasks in natural lan-
+guages processing. The task involves find-
+ing the best possible dependency trees from
+raw sentences without getting any aid from
+annotated data. In this paper, we illus-
+trate that by applying a supervised incre-
+mental parsing model to unsupervised pars-
+ing; parsing with a linear time complex-
+ity will be faster than the other methods.
+With only 15 training iterations with linear
+time complexity, we gain results compara-
+ble to those of other state of the art methods.
+By employing two simple universal linguis-
+tic rules inspired from the classical depen-
+dency grammar, we improve the results in
+some languages and get the state of the art
+results. We also test our model on a part of
+the ongoing Persian dependency treebank.
+This work is the first work done on the Per-
+sian language.
+1 

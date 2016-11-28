@@ -1,0 +1,25 @@
+
+Label Propagation, a standard algorithm
+for semi-supervised classification, suffers
+from scalability issues involving memory
+and computation when used with large-
+scale graphs from real-world datasets. In
+this paper we approach Label Propagation
+as solution to a system of linear equations
+which can be implemented as a scalable
+parallel algorithm using the map-reduce
+framework. In addition to semi-supervised
+classification, this approach to Label Prop-
+agation allows us to adapt the algorithm to
+make it usable for ranking on graphs and
+derive the theoretical connection between
+Label Propagation and PageRank. We pro-
+vide empirical evidence to that effect using
+two natural language tasks ? lexical relat-
+edness and polarity induction. The version
+of the Label Propagation algorithm pre-
+sented here scales linearly in the size of
+the data with a constant main memory re-
+quirement, in contrast to the quadratic cost
+of both in traditional approaches.
+1 

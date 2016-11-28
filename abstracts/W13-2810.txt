@@ -1,0 +1,23 @@
+
+We present a minimalist, unsupervised
+learning model that induces relatively
+clean phrasal inversion transduction gram-
+mars by employing the minimum descrip-
+tion length principle to drive search over
+a space defined by two opposing ex-
+treme types of ITGs. In comparison to
+most current SMT approaches, the model
+learns a very parsimonious phrase trans-
+lation lexicons that provide an obvious
+basis for generalization to abstract trans-
+lation schemas. To do this, the model
+maintains internal consistency by avoid-
+ing use of mismatched or unrelated mod-
+els, such as word alignments or probabil-
+ities from IBM models. The model in-
+troduces a novel strategy for avoiding the
+pitfalls of premature pruning in chunking
+approaches, by incrementally splitting an
+ITGwhile using a second ITG to guide this
+search.
+1 

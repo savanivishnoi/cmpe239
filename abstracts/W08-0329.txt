@@ -1,0 +1,18 @@
+
+Confusion network decoding has been the
+most successful approach in combining out-
+puts from multiple machine translation (MT)
+systems in the recent DARPA GALE and
+NIST Open MT evaluations. Due to the vary-
+ing word order between outputs from differ-
+ent MT systems, the hypothesis alignment
+presents the biggest challenge in confusion
+network decoding. This paper describes an
+incremental alignment method to build confu-
+sion networks based on the translation edit rate
+(TER) algorithm. This new algorithm yields
+significant BLEU score improvements over
+other recent alignment methods on the GALE
+test sets and was used in BBN?s submission to
+the WMT08 shared translation task.
+1 

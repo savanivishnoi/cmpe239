@@ -1,0 +1,34 @@
+ 
+In this paper we present an opinion summari-
+zation technique in spoken dialogue systems. 
+Opinion mining has been well studied for 
+years, but very few have considered its appli-
+cation in spoken dialogue systems. Review 
+summarization, when applied to real dialogue 
+systems, is much more complicated than pure 
+text-based summarization. We conduct a sys-
+tematic study on dialogue-system-oriented 
+review analysis and propose a three-level 
+framework for a recommendation dialogue 
+system. In previous work we have explored a 
+linguistic parsing approach to phrase extrac-
+tion from reviews. In this paper we will de-
+scribe an approach using statistical models 
+such as decision trees and SVMs to select the 
+most representative phrases from the ex-
+tracted phrase set. We will also explain how 
+to generate informative yet concise review 
+summaries for dialogue purposes. Experimen-
+tal results in the restaurant domain show that 
+the proposed approach using decision tree al-
+gorithms achieves an outperformance of 13% 
+compared to SVM models and an improve-
+ment of 36% over a heuristic rule baseline. 
+Experiments also show that the decision-tree-
+based phrase selection model can achieve ra-
+ther reliable predictions on the phrase label, 
+comparable to human judgment. The pro-
+posed statistical approach is based on do-
+main-independent learning features and can 
+be extended to other domains effectively. 
+1 

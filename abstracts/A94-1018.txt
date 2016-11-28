@@ -1,0 +1,28 @@
+ 
+A new chart-based technique for parsing ill-formed 
+input is proposed. This can process sentences 
+with unknown/misspelled words, omitted words 
+or extraneous words. This generalized parsing 
+strategy is, similar to Mellish's, based on an 
+active chart parser, and shares the many 
+advantages of Mellish's technique. It is based on 
+pure syntactic knowledge, it is independent ofall 
+grammars, and it does not slow down the original 
+parsing operation if there is no ill-formedness. 
+However, unlike Mellish's technique, it doesn't 
+employ any complicated heuristic parameters. 
+There are two key points. First, instead of using 
+a unified or interleaved process for finding errors 
+and correcting them, we separate the initial error 
+detection stage from the other stages and adopt a 
+version of bi-directional parsing. This effectively 
+prunes the search space. Second, it employs 
+normal top-down parsing, in which each parsing 
+state reflects the global context, instead of top- 
+down chart parsing. This enables the technique to 
+determine the global plausibility of candidates 
+easily, based on an admissible A* search. The 
+proposed strategy could enumerate all possible 
+minimal-penalty solutions in just 4 times the 
+time taken to parse the correct sentences. 
+1 

@@ -1,0 +1,18 @@
+ 
+Chinese named entity recognition is one 
+of the difficult and challenging tasks of 
+NLP. In this paper, we present a Chinese 
+named entity recognition system using a 
+multi-phase model. First, we segment the 
+text with a character-level CRF model. 
+Then we apply three word-level CRF 
+models to the labeling person names, lo-
+cation names and organization names in 
+the segmentation results, respectively. 
+Our systems participated in the NER tests 
+on open and closed tracks of  Microsoft 
+Research (MSRA). The actual evaluation 
+results show that our system performs 
+well on both the open tracks and closed 
+tracks. 
+1 

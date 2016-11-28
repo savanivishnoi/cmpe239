@@ -1,0 +1,19 @@
+
+This paper describes a non-statistical
+approach for semantic annotation of
+documents by analysing their syntax
+and by using semantic/syntactic behav-
+iour patterns described in VerbNet. We
+use a two-stage approach, firstly iden-
+tifying the semantic roles in a sen-
+tence, and then using these roles to rep-
+resent some of the relations between
+the concepts in the sentence and a list
+of noun behaviour patterns to resolve
+some of the unknown (generic) rela-
+tions between concepts. All outlined
+algorithms were tested on two corpora
+which differs in size, type, style and
+genre, and the performance does not
+vary significantly.
+1 

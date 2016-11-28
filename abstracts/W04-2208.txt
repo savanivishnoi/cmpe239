@@ -1,0 +1,20 @@
+
+This paper describes Japanese-English-Chinese
+aligned parallel treebank corpora of newspaper
+articles. They have been constructed by trans-
+lating each sentence in the Penn Treebank and
+the Kyoto University text corpus into a cor-
+responding natural sentence in a target lan-
+guage. Each sentence is translated so as to
+reflect its contextual information and is anno-
+tated with morphological and syntactic struc-
+tures and phrasal alignment. This paper also
+describes the possible applications of the par-
+allel corpus and proposes a new framework to
+aid in translation. In this framework, paral-
+lel translations whose source language sentence
+is similar to a given sentence can be semi-
+automatically generated. In this paper we show
+that the framework can be achieved by using
+our aligned parallel treebank corpus.
+1 

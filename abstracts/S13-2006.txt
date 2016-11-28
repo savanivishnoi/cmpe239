@@ -1,0 +1,17 @@
+
+In this paper we describe our system submit-
+ted for evaluation in the CLTE-SemEval-2013
+task, which achieved the best results in two
+of the four data sets, and finished third in av-
+erage. This system consists of a SVM clas-
+sifier with features extracted from texts (and
+their translations SMT) based on a cardinality
+function. Such function was the soft cardinal-
+ity. Furthermore, this system was simplified
+by providing a single model for the 4 pairs
+of languages obtaining better (unofficial) re-
+sults than separate models for each language
+pair. We also evaluated the use of additional
+circular-pivoting translations achieving results
+6.14% above the best official results.
+1 

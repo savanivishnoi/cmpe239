@@ -1,0 +1,19 @@
+
+We describe for dependency parsing an an-
+notation adaptation strategy, which can au-
+tomatically transfer the knowledge from
+a source corpus with a different annota-
+tion standard to the desired target parser,
+with the supervision by a target corpus an-
+notated in the desired standard. Further-
+more, instead of a hand-annotated one, a
+projected treebank derived from a bilin-
+gual corpus is used as the source cor-
+pus. This benefits the resource-scarce
+languages which haven?t different hand-
+annotated treebanks. Experiments show
+that the target parser gains significant im-
+provement over the baseline parser trained
+on the target corpus only, when the target
+corpus is smaller.
+1 

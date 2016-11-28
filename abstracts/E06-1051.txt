@@ -1,0 +1,16 @@
+
+We propose an approach for extracting re-
+lations between entities from biomedical
+literature based solely on shallow linguis-
+tic information. We use a combination of
+kernel functions to integrate two different
+information sources: (i) the whole sen-
+tence where the relation appears, and (ii)
+the local contexts around the interacting
+entities. We performed experiments on ex-
+tracting gene and protein interactions from
+two different data sets. The results show
+that our approach outperforms most of the
+previous methods based on syntactic and
+semantic information.
+1 

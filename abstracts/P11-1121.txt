@@ -1,0 +1,23 @@
+
+The availability of learner corpora, especially
+those which have been manually error-tagged
+or shallow-parsed, is still limited. This means
+that researchers do not have a common devel-
+opment and test set for natural language pro-
+cessing of learner English such as for gram-
+matical error detection. Given this back-
+ground, we created a novel learner corpus
+that was manually error-tagged and shallow-
+parsed. This corpus is available for research
+and educational purposes on the web. In
+this paper, we describe it in detail together
+with its data-collection method and annota-
+tion schemes. Another contribution of this
+paper is that we take the first step toward
+evaluating the performance of existing POS-
+tagging/chunking techniques on learner cor-
+pora using the created corpus. These contribu-
+tions will facilitate further research in related
+areas such as grammatical error detection and
+automated essay scoring.
+1 

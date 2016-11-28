@@ -1,0 +1,20 @@
+
+This paper describes the English-Russian
+and Russian-English statistical machine
+translation (SMT) systems developed at
+Yandex School of Data Analysis for the
+shared translation task of the ACL 2013
+Eighth Workshop on Statistical Machine
+Translation. We adopted phrase-based
+SMT approach and evaluated a number
+of different techniques, including data fil-
+tering, spelling correction, alignment of
+lemmatized word forms and translitera-
+tion. Altogether they yielded +2.0 and
++1.5 BLEU improvement for ru-en and en-
+ru language pairs. We also report on the
+experiments that did not have any positive
+effect and provide an analysis of the prob-
+lems we encountered during the develop-
+ment of our systems.
+1 

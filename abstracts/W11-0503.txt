@@ -1,0 +1,22 @@
+
+This paper addresses the problem of summa-
+rizing decisions in spoken meetings: our goal
+is to produce a concise decision abstract for
+each meeting decision. We explore and com-
+pare token-level and dialogue act-level au-
+tomatic summarization methods using both
+unsupervised and supervised learning frame-
+works. In the supervised summarization set-
+ting, and given true clusterings of decision-
+related utterances, we find that token-level
+summaries that employ discourse context can
+approach an upper bound for decision ab-
+stracts derived directly from dialogue acts.
+In the unsupervised summarization setting,we
+find that summaries based on unsupervised
+partitioning of decision-related utterances per-
+form comparably to those based on partitions
+generated using supervised techniques (0.22
+ROUGE-F1 using LDA-based topic models
+vs. 0.23 using SVMs).
+1 

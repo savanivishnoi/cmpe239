@@ -1,0 +1,23 @@
+
+This paper presents a new, exemplar-based
+model of thematic fit. In contrast to pre-
+vious models, it does not approximate
+thematic fit as argument plausibility or
+?fit with verb selectional preferences?, but
+directly as semantic role plausibility for
+a verb-argument pair, through similarity-
+based generalization from previously seen
+verb-argument pairs. This makes the
+model very robust for data sparsity. We
+argue that the model is easily extensible to
+a model of semantic role ambiguity reso-
+lution during online sentence comprehen-
+sion.
+The model is evaluated on human seman-
+tic role plausibility judgments. Its predic-
+tions correlate significantly with the hu-
+man judgments. It rivals two state-of-the-
+art models of thematic fit and exceeds their
+performance on previously unseen or low-
+frequency items.
+1 

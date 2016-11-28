@@ -1,0 +1,19 @@
+
+We describe a new approach to disambiguat-
+ing semantic frames evoked by lexical predi-
+cates previously unseen in a lexicon or anno-
+tated data. Our approach makes use of large
+amounts of unlabeled data in a graph-based
+semi-supervised learning framework. We con-
+struct a large graph where vertices correspond
+to potential predicates and use label propa-
+gation to learn possible semantic frames for
+new ones. The label-propagated graph is used
+within a frame-semantic parser and, for un-
+known predicates, results in over 15% abso-
+lute improvement in frame identification ac-
+curacy and over 13% absolute improvement
+in full frame-semantic parsing F1 score on a
+blind test set, over a state-of-the-art supervised
+baseline.
+1 

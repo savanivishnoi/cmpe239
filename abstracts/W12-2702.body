@@ -1,0 +1,28 @@
+
+Language models play an important role in
+large vocabulary speech recognition and sta-
+tistical machine translation systems. The
+dominant approach since several decades are
+back-off language models. Some years ago,
+there was a clear tendency to build huge lan-
+guage models trained on hundreds of billions
+of words. Lately, this tendency has changed
+and recent works concentrate on data selec-
+tion. Continuous space methods are a very
+competitive approach, but they have a high
+computational complexity and are not yet in
+widespread use. This paper presents an ex-
+perimental comparison of all these approaches
+on a large statistical machine translation task.
+We also describe an open-source implemen-
+tation to train and use continuous space lan-
+guage models (CSLM) for such large tasks.
+We describe an efficient implementation of the
+CSLM using graphical processing units from
+Nvidia. By these means, we are able to train
+an CSLM on more than 500 million words in
+20 hours. This CSLM provides an improve-
+ment of up to 1.8 BLEU points with respect to
+the best back-off language model that we were
+able to build.
+1 

@@ -1,0 +1,13 @@
+
+Both vector space models and graph ran-
+domwalk models can be used to determine
+similarity between concepts. Noting that
+vectors can be regarded as local views of
+a graph, we directly compare vector space
+models and graph random walk models on
+standard tasks of predicting human simi-
+larity ratings, concept categorization, and
+semantic priming, varying the size of the
+dataset from which vector space and graph
+are extracted.
+1 

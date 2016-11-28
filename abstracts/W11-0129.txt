@@ -1,0 +1,7 @@
+
+WordNet is extensively used as a major lexical resource in NLP. However, its quality is far from
+perfect, and this alters the results of applications using it. We propose here to complement previous
+efforts for ?cleaning up? the top-level of its taxonomy with semi-automatic methods based on the
+detection of errors at the lower levels. The methods we propose test the coherence of two sources of
+knowledge, exploiting ontological principles and semantic constraints.
+1 

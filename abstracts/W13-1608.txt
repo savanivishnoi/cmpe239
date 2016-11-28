@@ -1,0 +1,20 @@
+
+Though much research has been conducted
+on Subjectivity and Sentiment Analysis (SSA)
+during the last decade, little work has fo-
+cused on Arabic. In this work, we focus on
+SSA for both Modern Standard Arabic (MSA)
+news articles and dialectal Arabic microblogs
+from Twitter. We showcase some of the chal-
+lenges associated with SSA on microblogs.
+We adopted a random graph walk approach to
+extend the Arabic SSA lexicon using Arabic-
+English phrase tables, leading to improve-
+ments for SSA on Arabic microblogs. We
+used different features for both subjectivity
+and sentiment classification including stem-
+ming, part-of-speech tagging, as well as tweet
+specific features. Our classification features
+yield results that surpass Arabic SSA results
+in the literature.
+1 

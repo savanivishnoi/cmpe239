@@ -1,0 +1,19 @@
+
+Model minimization has been shown to
+work well for the task of unsupervised
+part-of-speech tagging with a dictionary.
+In (Ravi and Knight, 2009), the authors in-
+voke an integer programming (IP) solver
+to do model minimization. However,
+solving this problem exactly using an
+integer programming formulation is in-
+tractable for practical purposes. We pro-
+pose a novel two-stage greedy approxima-
+tion scheme to replace the IP. Our method
+runs fast, while yielding highly accurate
+tagging results. We also compare our
+method against standard EM training, and
+show that we consistently obtain better
+tagging accuracies on test data of varying
+sizes for English and Italian.
+1 

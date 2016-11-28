@@ -1,0 +1,11 @@
+. Ordering information is a difficult but a important task for
+natural language generation applications. A wrong order of information
+not only makes it difficult to understand, but also conveys an entirely
+different idea to the reader. This paper proposes an algorithm that learns
+orderings from a set of human ordered texts. Our model consists of a set
+of ordering experts. Each expert gives its precedence preference between
+two sentences. We combine these preferences and order sentences. We
+also propose two new metrics for the evaluation of sentence orderings.
+Our experimental results show that the proposed algorithm outperforms
+the existing methods in all evaluation metrics.
+1 

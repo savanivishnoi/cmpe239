@@ -1,0 +1,22 @@
+
+We introduce a method for using images for
+word sense disambiguation, either alone, or in
+conjunction with traditional text based
+methods. The approach is based in recent work
+on a method for predicting words for images
+which can be learned from image datasets with
+associated text. When word prediction is
+constrained to a narrow set of choices such as
+possible senses, it can be quite reliable, and we
+use these predictions either by themselves or
+to reinforce standard methods. We provide
+preliminary results on a subset of the Corel
+image database which has three to five
+keywords per image. The subset was
+automatically selected to have a greater
+portion of keywords with sense ambiguity and
+the word senses were hand labeled to provide
+ground truth for testing. Results on this data
+strongly suggest that images can help with
+word sense disambiguation.
+1 

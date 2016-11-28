@@ -1,0 +1,18 @@
+
+Building machine translation (MT) for many
+minority languages in the world is a serious
+challenge. For many minor languages there is
+little machine readable text, few knowledge-
+able linguists, and little money available for
+MT development. For these reasons, it be-
+comes very important for an MT system to
+make best use of its resources, both labeled
+and unlabeled, in building a quality system.
+In this paper we argue that traditional active
+learning setup may not be the right fit for seek-
+ing annotations required for building a Syn-
+tax Based MT system for minority languages.
+We posit that a relatively new variant of active
+learning, Proactive Learning, is more suitable
+for this task.
+1 

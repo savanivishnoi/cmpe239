@@ -1,0 +1,20 @@
+
+We considered a wide range of features for
+the DiSCo 2011 shared task about composi-
+tionality prediction for word pairs, including
+COALS-based endocentricity scores, compo-
+sitionality scores based on distributional clus-
+ters, statistics about wordnet-induced para-
+phrases, hyphenation, and the likelihood of
+long translation equivalents in other lan-
+guages. Many of the features we considered
+correlated significantly with human compo-
+sitionality scores, but in support vector re-
+gression experiments we obtained the best re-
+sults using only COALS-based endocentric-
+ity scores. Our system was nevertheless the
+best performing system in the shared task, and
+average error reductions over a simple base-
+line in cross-validation were 13.7% for En-
+glish and 50.1% for German.
+1 

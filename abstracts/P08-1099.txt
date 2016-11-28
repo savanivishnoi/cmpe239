@@ -1,0 +1,21 @@
+
+This paper presents a semi-supervised train-
+ing method for linear-chain conditional ran-
+dom fields that makes use of labeled features
+rather than labeled instances. This is accom-
+plished by using generalized expectation cri-
+teria to express a preference for parameter set-
+tings in which the model?s distribution on un-
+labeled data matches a target distribution. We
+induce target conditional probability distribu-
+tions of labels given features from both anno-
+tated feature occurrences in context and ad-
+hoc feature majority label assignment. The
+use of generalized expectation criteria allows
+for a dramatic reduction in annotation time
+by shifting from traditional instance-labeling
+to feature-labeling, and the methods presented
+outperform traditional CRF training and other
+semi-supervised methods when limited human
+effort is available.
+1 

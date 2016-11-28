@@ -1,0 +1,19 @@
+
+In this paper we deal with Named En-
+tity Recognition (NER) on transcriptions of
+French broadcast data. Two aspects make
+the task more difficult with respect to previ-
+ous NER tasks: i) named entities annotated
+used in this work have a tree structure, thus
+the task cannot be tackled as a sequence la-
+belling task; ii) the data used are more noisy
+than data used for previous NER tasks. We
+approach the task in two steps, involving
+Conditional Random Fields and Probabilis-
+tic Context-Free Grammars, integrated in a
+single parsing algorithm. We analyse the
+effect of using several tree representations.
+Our system outperforms the best system of
+the evaluation campaign by a significant
+margin.
+1 

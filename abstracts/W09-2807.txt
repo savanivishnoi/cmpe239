@@ -1,0 +1,18 @@
+
+We investigate the problem of generating
+the structure of short domain independent
+abstracts. We apply a supervised machine
+learning approach trained over a set of ab-
+stracts collected from abstracting services
+and automatically annotated with a text
+analysis tool. We design a set of features
+for learning inspired from past research
+in content selection, information order-
+ing, and rhetorical analysis for training
+an algorithm which then predicts the dis-
+course structure of unseen abstracts. The
+proposed approach to the problem which
+combines local and contextual features is
+able to predict the local structure of the ab-
+stracts in just over 60% of the cases.
+1 

@@ -1,0 +1,21 @@
+
+This paper addresses the problem of dy-
+namic model parameter selection for log-
+linear model based statistical machine
+translation (SMT) systems. In this work,
+we propose a principled method for this
+task by transforming it to a test data de-
+pendent development set selection prob-
+lem. We present two algorithms for au-
+tomatic development set construction, and
+evaluated our method on several NIST
+data sets for the Chinese-English trans-
+lation task. Experimental results show
+that our method can effectively adapt
+log-linear model parameters to different
+test data, and consistently achieves good
+translation performance compared with
+conventional methods that use a fixed
+model parameter setting across different
+data sets.
+1 

@@ -1,0 +1,29 @@
+
+Automatic evaluation has greatly facilitated
+system development in summarization. At the
+same time, the use of automatic evaluation
+has been viewed with mistrust by many, as its
+accuracy and correct application are not well
+understood. In this paper we provide an as-
+sessment of the automatic evaluations used for
+multi-document summarization of news. We
+outline our recommendations about how any
+evaluation, manual or automatic, should be
+used to find statistically significant differences
+between summarization systems. We identify
+the reference automatic evaluation metrics?
+ROUGE 1 and 2?that appear to best emu-
+late human pyramid and responsiveness scores
+on four years of NIST evaluations. We then
+demonstrate the accuracy of these metrics in
+reproducing human judgements about the rel-
+ative content quality of pairs of systems and
+present an empirical assessment of the rela-
+tionship between statistically significant dif-
+ferences between systems according to man-
+ual evaluations, and the difference according
+to automatic evaluations. Finally, we present a
+case study of how new metrics should be com-
+pared to the reference evaluation, as we search
+for even more accurate automatic measures.
+1 

@@ -1,0 +1,23 @@
+
+Documents often have inherently parallel
+structure: they may consist of a text and
+commentaries, or an abstract and a body,
+or parts presenting alternative views on
+the same problem. Revealing relations be-
+tween the parts by jointly segmenting and
+predicting links between the segments,
+would help to visualize such documents
+and construct friendlier user interfaces. To
+address this problem, we propose an un-
+supervised Bayesian model for joint dis-
+course segmentation and alignment. We
+apply our method to the ?English as a sec-
+ond language? podcast dataset where each
+episode is composed of two parallel parts:
+a story and an explanatory lecture. The
+predicted topical links uncover hidden re-
+lations between the stories and the lec-
+tures. In this domain, our method achieves
+competitive results, rivaling those of a pre-
+viously proposed supervised technique.
+1 

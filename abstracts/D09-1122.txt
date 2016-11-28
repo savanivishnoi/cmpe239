@@ -1,0 +1,22 @@
+
+Textual entailment recognition plays a
+fundamental role in tasks that require in-
+depth natural language understanding. In
+order to use entailment recognition tech-
+nologies for real-world applications, a
+large-scale entailment knowledge base is
+indispensable. This paper proposes a con-
+ditional probability based directional sim-
+ilarity measure to acquire verb entailment
+pairs on a large scale. We targeted 52,562
+verb types that were derived from 108
+Japanese Web documents, without regard
+for whether they were used in daily life
+or only in specific fields. In an evaluation
+of the top 20,000 verb entailment pairs ac-
+quired by previous methods and ours, we
+found that our similarity measure outper-
+formed the previous ones. Our method
+also worked well for the top 100,000 re-
+sults.
+1 

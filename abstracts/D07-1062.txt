@@ -1,0 +1,15 @@
+
+This paper proposes the use of Lexical-
+ized Tree-Adjoining Grammar (LTAG) for-
+malism as an important additional source
+of features for the Semantic Role Labeling
+(SRL) task. Using a set of one-vs-all Sup-
+port Vector Machines (SVMs), we evalu-
+ate these LTAG-based features. Our exper-
+iments show that LTAG-based features can
+improve SRL accuracy significantly. When
+compared with the best known set of fea-
+tures that are used in state of the art SRL sys-
+tems we obtain an improvement in F-score
+from 82.34% to 85.25%.
+1 

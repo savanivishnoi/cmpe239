@@ -1,0 +1,14 @@
+
+We propose a novel algorithm for extract-
+ing dependencies from the derivations of
+a large fragment of CCG. Unlike earlier
+proposals, our dependency structures are
+always tree-shaped. We then use these de-
+pendency trees to compare the strong gen-
+erative capacities of CCG and TAG and
+obtain surprising results: Both formalisms
+generate the same languages of derivation
+trees ? but the mechanisms they use to
+bring the words in these trees into a linear
+order are incomparable.
+1 

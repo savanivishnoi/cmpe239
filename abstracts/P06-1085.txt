@@ -1,0 +1,17 @@
+
+Developing better methods for segment-
+ing continuous text into words is impor-
+tant for improving the processing of Asian
+languages, and may shed light on how hu-
+mans learn to segment speech. We pro-
+pose two new Bayesian word segmenta-
+tion methods that assume unigram and bi-
+gram models of word dependencies re-
+spectively. The bigram model greatly out-
+performs the unigram model (and previous
+probabilistic models), demonstrating the
+importance of such dependencies for word
+segmentation. We also show that previous
+probabilistic models rely crucially on sub-
+optimal search procedures.
+1 

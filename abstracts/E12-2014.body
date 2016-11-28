@@ -1,0 +1,12 @@
+
+This paper describes a system designed
+to support event detection over Twitter.
+The system operates by querying the data
+stream with a user-specified set of key-
+words, filtering out non-English messages,
+and probabilistically geolocating each mes-
+sage. The user can dynamically set a proba-
+bility threshold over the geolocation predic-
+tions, and also the time interval to present
+data for.
+1 

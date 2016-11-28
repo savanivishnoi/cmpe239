@@ -1,0 +1,28 @@
+
+An HMM-based Single Character
+Recovery (SCR) Model is proposed in
+this paper to extract a large set of
+?atomic abbreviation pairs?from a large
+text corpus. By an ?atomic abbreviation
+pair,?it refers to an abbreviated word
+and its root word (i.e., unabbreviated
+form) in which the abbreviation is a
+single Chinese character.
+This task is interesting since the
+abbreviation process for Chinese
+compound words seems to be
+?compositional?; in other words, one
+can often decode an abbreviated word,
+such as ????(Taiwan University),
+character-by-character back to its root
+form. With a large atomic abbreviation
+dictionary, one may be able to recover
+multiple-character abbreviations more
+easily.
+With only a few training iterations, the
+acquisition accuracy of the proposed
+SCR model achieves 62% and 50 %
+precision for training set and test set,
+respectively, from the ASWSC-2001
+corpus.
+1 

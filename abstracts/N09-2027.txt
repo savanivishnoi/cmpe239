@@ -1,0 +1,18 @@
+
+We present an experiment aimed at under-
+standing how to optimally use acoustic and
+prosodic information to predict a speaker?s
+level of certainty. With a corpus of utterances
+where we can isolate a single word or phrase
+that is responsible for the speaker?s level of
+certainty we use different sets of sub-utterance
+prosodic features to train models for predict-
+ing an utterance?s perceived level of certainty.
+Our results suggest that using prosodic fea-
+tures of the word or phrase responsible for the
+level of certainty and of its surrounding con-
+text improves the prediction accuracy without
+increasing the total number of features when
+compared to using only features taken from
+the utterance as a whole.
+1 

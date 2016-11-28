@@ -1,0 +1,16 @@
+
+We present the psycholinguistically moti-
+vated task of predicting human plausibility
+judgements for verb-role-argument triples
+and introduce a probabilistic model that
+solves it. We also evaluate our model on
+the related role-labelling task, and com-
+pare it with a standard role labeller. For
+both tasks, our model benefits from class-
+based smoothing, which allows it to make
+correct argument-specific predictions de-
+spite a severe sparse data problem. The
+standard labeller suffers from sparse data
+and a strong reliance on syntactic cues, es-
+pecially in the prediction task.
+1 

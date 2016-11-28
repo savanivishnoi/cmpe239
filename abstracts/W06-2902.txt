@@ -1,0 +1,18 @@
+
+Previous results have shown disappointing
+performance when porting a parser trained
+on one domain to another domain where
+only a small amount of data is available.
+We propose the use of data-defined ker-
+nels as a way to exploit statistics from a
+source domain while still specializing a
+parser to a target domain. A probabilistic
+model trained on the source domain (and
+possibly also the target domain) is used to
+define a kernel, which is then used in a
+large margin classifier trained only on the
+target domain. With a SVM classifier and
+a neural network probabilistic model, this
+method achieves improved performance
+over the probabilistic model alone.
+1 

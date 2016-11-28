@@ -1,0 +1,22 @@
+
+We describe DCU?s LFG dependency-
+based metric submitted to the shared eval-
+uation task of WMT-MetricsMATR 2010.
+The metric is built on the LFG F-structure-
+based approach presented in (Owczarzak
+et al, 2007). We explore the following
+improvements on the original metric: 1)
+we replace the in-house LFG parser with
+an open source dependency parser that
+directly parses strings into LFG depen-
+dencies; 2) we add a stemming module
+and unigram paraphrases to strengthen the
+aligner; 3) we introduce a chunk penalty
+following the practice of METEOR to re-
+ward continuous matches; and 4) we intro-
+duce and tune parameters to maximize the
+correlation with human judgement. Exper-
+iments show that these enhancements im-
+prove the dependency-based metric?s cor-
+relation with human judgement.
+1 

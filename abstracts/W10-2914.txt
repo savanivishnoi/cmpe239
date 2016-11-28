@@ -1,0 +1,29 @@
+
+Sarcasm is a form of speech act in which
+the speakers convey their message in an
+implicit way. The inherently ambiguous
+nature of sarcasm sometimes makes it hard
+even for humans to decide whether an ut-
+terance is sarcastic or not. Recognition of
+sarcasm can benefit many sentiment analy-
+sis NLP applications, such as review sum-
+marization, dialogue systems and review
+ranking systems.
+In this paper we experiment with semi-
+supervised sarcasm identification on two
+very different data sets: a collection of
+5.9 million tweets collected from Twit-
+ter, and a collection of 66000 product re-
+views from Amazon. Using the Mechani-
+cal Turk we created a gold standard sam-
+ple in which each sentence was tagged by
+3 annotators, obtaining F-scores of 0.78 on
+the product reviews dataset and 0.83 on
+the Twitter dataset. We discuss the dif-
+ferences between the datasets and how the
+algorithm uses them (e.g., for the Amazon
+dataset the algorithm makes use of struc-
+tured information). We also discuss the
+utility of Twitter #sarcasm hashtags for the
+task.
+1 

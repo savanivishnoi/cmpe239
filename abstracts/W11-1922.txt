@@ -1,0 +1,30 @@
+
+This paper presents our participation in the
+CoNLL-2011 shared task, Modeling Unre-
+stricted Coreference in OntoNotes. Corefer-
+ence resolution, as a difficult and challenging
+problem in NLP, has attracted a lot of atten-
+tion in the research community for a long time.
+Its objective is to determine whether two men-
+tions in a piece of text refer to the same en-
+tity. In our system, we implement mention de-
+tection and coreference resolution seperately.
+For mention detection, a simple classification
+based method combined with several effective
+features is developed. For coreference resolu-
+tion, we propose a link type based pre-cluster
+pair model. In this model, pre-clustering of all
+the mentions in a single document is first per-
+formed. Then for different link types, different
+classification models are trained to determine
+wheter two pre-clusters refer to the same en-
+tity. The final clustering results are generated
+by closest-first clustering method. Official test
+results for closed track reveal that our method
+gives a MUC F-score of 59.95%, a B-cubed
+F-score of 63.23%, and a CEAF F-score of
+35.96% on development dataset. When using
+gold standard mention boundaries, we achieve
+MUC F-score of 55.48%, B-cubed F-score of
+61.29%, and CEAF F-score of 32.53%.
+1 

@@ -1,0 +1,16 @@
+
+For many years, statistical machine trans-
+lation relied on generative models to pro-
+vide bilingual word alignments. In 2005,
+several independent efforts showed that
+discriminative models could be used to
+enhance or replace the standard genera-
+tive approach. Building on this work,
+we demonstrate substantial improvement
+in word-alignment accuracy, partly though
+improved training methods, but predomi-
+nantly through selection of more and bet-
+ter features. Our best model produces the
+lowest alignment error rate yet reported on
+Canadian Hansards bilingual data.
+1 

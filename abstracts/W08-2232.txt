@@ -1,0 +1,17 @@
+
+The paper proposes a new method of linear text segmentation based on
+lexical cohesion of a text. Namely, first a single chain of disambiguated
+words in a text is established, then the rips of this single chain are consid-
+ered as boundaries for the segments of the cohesion text structure (Cohe-
+sion TextTiling or CTT). The summaries of arbitrarily length are obtained
+by extraction using three different methods applied to the obtained seg-
+ments. The informativeness of the obtained summaries is compared with
+the informativeness of the pair summaries of the same length obtained us-
+ing an earlier method of logical segmentation by text entailment (Logical
+TextTiling or LTT). Some experiments about CTT and LTT methods are
+carried out for four ?classical" texts in summarization literature showing
+that the quality of the summarization using cohesion segmentation (CTT)
+is better than the quality using logical segmentation (LTT).
+389
+390 Tatar, Mihis, and Serban
+1 

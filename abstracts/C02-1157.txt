@@ -1,0 +1,24 @@
+
+In this paper, we present a parser based on a stochas-
+tic structured language model (SLM) with a exible
+history reference mechanism. An SLM is an alterna-
+tive to an n-gram model as a language model for a
+speech recognizer. The advantage of an SLM against
+an n-gram model is the ability to return the struc-
+ture of a given sentence. Thus SLMs are expected
+to play an important part in spoken language under-
+standing systems. The current SLMs refer to a xed
+part of the history for prediction just like an n-gram
+model. We introduce a exible history reference
+mechanism called an ACT (arboreal context tree;
+an extension of the context tree to tree-shaped his-
+tories) and describe a parser based on an SLM with
+ACTs. In the experiment, we built an SLM-based
+parser with a xed history and one with ACTs, and
+compared their parsing accuracies. The accuracy of
+our parser was 92.8%, which was higher than that
+for the parser with the xed history (89.8%). This
+result shows that the exible history reference mech-
+anism improves the parsing ability of an SLM, which
+has great importance for language understanding.
+1 

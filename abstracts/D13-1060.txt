@@ -1,0 +1,14 @@
+
+We address the problem of identifying mul-
+tiword expressions in a language, focus-
+ing on English phrasal verbs. Our poly-
+glot ranking approach integrates frequency
+statistics from translated corpora in 50 dif-
+ferent languages. Our experimental eval-
+uation demonstrates that combining statisti-
+cal evidence from many parallel corpora us-
+ing a novel ranking-oriented boosting algo-
+rithm produces a comprehensive set of English
+phrasal verbs, achieving performance compa-
+rable to a human-curated set.
+1 

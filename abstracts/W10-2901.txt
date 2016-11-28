@@ -1,0 +1,19 @@
+
+This paper presents an algorithm for unsu-
+pervised co-occurrence based parsing that
+improves and extends existing approaches.
+The proposed algorithm induces a context-
+free grammar of the language in question
+in an iterative manner. The resulting struc-
+ture of a sentence will be given as a hier-
+archical arrangement of constituents. Al-
+though this algorithm does not use any a
+priori knowledge about the language, it
+is able to detect heads, modifiers and a
+phrase type?s different compound compo-
+sition possibilities. For evaluation pur-
+poses, the algorithm is applied to manually
+annotated part-of-speech tags (POS tags)
+as well as to word classes induced by an
+unsupervised part-of-speech tagger.
+1 

@@ -1,0 +1,31 @@
+ 
+The aim of this study is to investigate the 
+relationships between citations and the 
+scientific argumentation found in the abstract. 
+We extracted citation lists from a set of 3200 
+full-text papers originating from a narrow 
+domain.  In parallel, we recovered the 
+corresponding MEDLINE records for analysis 
+of the argumentative moves. Our 
+argumentative model is founded on four 
+classes: PURPOSE, METHODS, RESULTS, 
+and CONCLUSION. A Bayesian classifier 
+trained on explicitly structured MEDLINE 
+abstracts generates these argumentative 
+categories. The categories are used to generate 
+four different argumentative indexes. A fifth 
+index contains the complete abstract, together 
+with the title and the list of Medical Subject 
+Headings (MeSH) terms. To appraise the 
+relationship of the moves to the citations, the 
+citation lists were used as the criteria for 
+determining relatedness of articles, 
+establishing a benchmark. Our results show 
+that the average precision of queries with the 
+PURPOSE and CONCLUSION features is the 
+highest, while the precision of the RESULTS 
+and METHODS features was relatively low. A 
+linear weighting combination of the moves is 
+proposed, which significantly improves 
+retrieval of related articles. 
+1 

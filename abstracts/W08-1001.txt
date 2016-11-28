@@ -1,0 +1,18 @@
+
+This paper presents a method and implemen-
+tation of parsing German V2 word order by
+means of constraints that reside in lexical
+heads. It first describes the design of the
+underlying parsing engine: the head-corner
+chart parsing that incorporates a procedure
+that dynamically enforces word order con-
+straints. While the parser could potentially
+generate all the permutations of terminal sym-
+bols, constraint checking is conducted locally
+in an efficient manner. The paper then shows
+how this parser can adequately cover a variety
+of V2 word order patterns with sets of lexi-
+cally encoded constraints, including non-local
+preposing of an embedded argument or an ad-
+verbial.
+1 

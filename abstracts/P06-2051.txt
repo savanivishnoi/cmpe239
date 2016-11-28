@@ -1,0 +1,23 @@
+
+This paper presents a speech understand-
+ing component for enabling robust situated
+human-robot communication. The aim is
+to gain semantic interpretations of utter-
+ances that serve as a basis for multi-modal
+dialog management also in cases where
+the recognized word-stream is not gram-
+matically correct. For the understand-
+ing process, we designed semantic pro-
+cessable units, which are adapted to the
+domain of situated communication. Our
+framework supports the specific character-
+istics of spontaneous speech used in com-
+bination with gestures in a real world sce-
+nario. It also provides information about
+the dialog acts. Finally, we present a pro-
+cessing mechanism using these concept
+structures to generate the most likely se-
+mantic interpretation of the utterances and
+to evaluate the interpretation with respect
+to semantic coherence.
+1 

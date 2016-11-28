@@ -1,0 +1,27 @@
+
+We present translation results on the
+shared task ?Exploiting Parallel Texts for
+Statistical Machine Translation? gener-
+ated by a chart parsing decoder operating
+on phrase tables augmented and general-
+ized with target language syntactic cate-
+gories. We use a target language parser
+to generate parse trees for each sentence
+on the target side of the bilingual train-
+ing corpus, matching them with phrase
+table lattices built for the corresponding
+source sentence. Considering phrases that
+correspond to syntactic categories in the
+parse trees we develop techniques to aug-
+ment (declare a syntactically motivated
+category for a phrase pair) and general-
+ize (form mixed terminal and nonterminal
+phrases) the phrase table into a synchro-
+nous bilingual grammar. We present re-
+sults on the French-to-English task for this
+workshop, representing significant im-
+provements over the workshop?s baseline
+system. Our translation system is avail-
+able open-source under the GNU General
+Public License.
+1 

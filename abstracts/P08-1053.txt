@@ -1,0 +1,24 @@
+
+Rapid and inexpensive techniques for auto-
+matic transcription of speech have the po-
+tential to dramatically expand the types of
+content to which information retrieval tech-
+niques can be productively applied, but lim-
+itations in accuracy and robustness must be
+overcome before that promise can be fully
+realized. Combining retrieval results from
+systems built on various errorful representa-
+tions of the same collection offers some po-
+tential to address these challenges. This pa-
+per explores that potential by applying Gener-
+alized Additive Models to optimize the combi-
+nation of ranked retrieval results obtained us-
+ing transcripts produced automatically for the
+same spoken content by substantially differ-
+ent recognition systems. Topic-averaged re-
+trieval effectiveness better than any previously
+reported for the same collection was obtained,
+and even larger gains are apparent when using
+an alternative measure emphasizing results on
+the most difficult topics.
+1 

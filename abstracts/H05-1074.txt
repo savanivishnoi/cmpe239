@@ -1,0 +1,25 @@
+
+This paper studies how to go beyond relevance
+and enable a filtering system to learn more in-
+teresting and detailed data driven user models
+from multiple forms of evidence. We carry out
+a user study using a real time web based per-
+sonal news filtering system, and collect exten-
+sive multiple forms of evidence, including ex-
+plicit and implicit user feedback. We explore
+the graphical modeling approach to combine
+these forms of evidence. To test whether the ap-
+proach can help us understand the domain bet-
+ter, we use graph structure learning algorithm
+to derive the causal relationships between dif-
+ferent forms of evidence. To test whether the
+approach can help the system improve the per-
+formance, we use the graphical inference algo-
+rithms to predict whether a user likes a docu-
+ment based on multiple forms of evidence. The
+results show that combining multiple forms
+of evidence using graphical models can help
+us better understand the filtering problem, im-
+prove filtering system performance, and handle
+various data missing situations naturally.
+1 

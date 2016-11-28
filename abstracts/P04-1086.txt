@@ -1,0 +1,21 @@
+
+The detection of prosodic characteristics is an im-
+portant aspect of both speech synthesis and speech
+recognition. Correct placement of pitch accents aids
+in more natural sounding speech, while automatic
+detection of accents can contribute to better word-
+level recognition and better textual understanding.
+In this paper we investigate probabilistic, contex-
+tual, and phonological factors that influence pitch
+accent placement in natural, conversational speech
+in a sequence labeling setting. We introduce Con-
+ditional Random Fields (CRFs) to pitch accent pre-
+diction task in order to incorporate these factors ef-
+ficiently in a sequence model. We demonstrate the
+usefulness and the incremental effect of these fac-
+tors in a sequence model by performing experiments
+on hand labeled data from the Switchboard Corpus.
+Our model outperforms the baseline and previous
+models of pitch accent prediction on the Switch-
+board Corpus.
+1 

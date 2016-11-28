@@ -1,0 +1,21 @@
+
+According to previous work on pedophile psy-
+chology and cyberpedophilia, sentiments and
+emotions in texts could be a good clue to de-
+tect online sexual predation. In this paper, we
+have suggested a list of high-level features, in-
+cluding sentiment and emotion based ones, for
+detection of online sexual predation. In partic-
+ular, since pedophiles are known to be emo-
+tionally unstable, we were interested in inves-
+tigating if emotion-based features could help
+in their detection. We have used a corpus of
+predators? chats with pseudo-victims down-
+loaded from www.perverted-justice.com and
+two negative datasets of different nature: cy-
+bersex logs available online and the NPS chat
+corpus. Naive Bayes classification based on
+the proposed features achieves accuracies of
+up to 94% while baseline systems of word and
+character n-grams can only reach up to 72%.
+1 

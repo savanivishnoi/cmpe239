@@ -1,0 +1,19 @@
+
+Published literature in molecular genetics
+may collectively provide much informa-
+tion on gene regulation networks. Ded-
+icated computational approaches are re-
+quired to sip through large volumes of text
+and infer gene interactions. We propose a
+novel sieve-based relation extraction sys-
+tem that uses linear-chain conditional ran-
+dom fields and rules. Also, we intro-
+duce a new skip-mention data represen-
+tation to enable distant relation extraction
+using first-order models. To account for a
+variety of relation types, multiple models
+are inferred. The system was applied to the
+BioNLP 2013 Gene Regulation Network
+Shared Task. Our approach was ranked
+first of five, with a slot error rate of 0.73.
+1 

@@ -1,0 +1,21 @@
+
+Syntactic analysis influences the way in
+which the source sentence is translated.
+Previous efforts add syntactic constraints
+to phrase-based translation by directly
+rewarding/punishing a hypothesis when-
+ever it matches/violates source-side con-
+stituents. We present a new model that
+automatically learns syntactic constraints,
+including but not limited to constituent
+matching/violation, from training corpus.
+The model brackets a source phrase as
+to whether it satisfies the learnt syntac-
+tic constraints. The bracketed phrases are
+then translated as a whole unit by the de-
+coder. Experimental results and analy-
+sis show that the new model outperforms
+other previous methods and achieves a
+substantial improvement over the baseline
+which is not syntactically informed.
+1 

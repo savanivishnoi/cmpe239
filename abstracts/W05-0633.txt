@@ -1,0 +1,15 @@
+
+Our system for semantic role labeling is
+multi-stage in nature, being based on tree
+pruning techniques, statistical methods for
+lexicalised feature encoding, and a C4.5
+decision tree classifier. We use both shal-
+low and deep syntactic information from
+automatically generated chunks and parse
+trees, and develop a model for learning
+the semantic arguments of predicates as a
+multi-class decision problem. We evalu-
+ate the performance on a set of relatively
+?cheap? features and report an F1 score of
+68.13% on the overall test set.
+1 

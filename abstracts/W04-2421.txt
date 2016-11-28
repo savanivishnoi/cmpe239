@@ -1,0 +1,11 @@
+
+We present a system submitted to the CoNLL-
+2004 shared task for semantic role labeling.
+The system is composed of a set of classifiers
+and an inference procedure used both to clean
+the classification results and to ensure struc-
+tural integrity of the final role labeling. Lin-
+guistic information is used to generate features
+during classification and constraints for the in-
+ference process.
+1 

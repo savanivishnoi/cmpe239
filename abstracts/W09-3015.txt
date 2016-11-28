@@ -1,0 +1,66 @@
+ 
+Corpus annotation plays an important 
+role in linguistic analysis and computa-
+tional processing of both written and 
+spoken language. Syntactic annotation 
+of spoken texts becomes clearly a topic 
+of considerable interest nowadays, 
+driven by the desire to improve auto-
+matic speech recognition systems by 
+incorporating syntax in the language 
+models, or to build language under-
+standing applications. Syntactic anno-
+tation of both written and spoken texts 
+in the Czech Academic Corpus was 
+created thirty years ago when no other 
+(even annotated) corpus of spoken texts 
+has existed. We will discuss how much 
+relevant and inspiring this annotation is 
+to the current frameworks of spoken 
+text annotation. 
+1 Motivation 
+The purpose of annotating corpora is to cre-
+ate an objective evidence of the real usage 
+of the language. In general, it is easier to anno-
+tate written text ? speech must be recorded and 
+transcribed to process it whilst texts are avail-
+able ?immediately?; moreover, written texts 
+usually obey standard grammar rules of the 
+language in questions, while a true transcript of 
+spoken utterances often does not. 
+The theoretical linguistic research considers 
+the language to be a system of layers 
+(e.g. the Government and Binding theory 
+(Chomsky, 1993), the Functional-Generative 
+Description of the language (Sgall, Haji?ov?, 
+Panevov? 1986)). In order to be a valuable 
+source of linguistic knowledge, the corpus an-
+notation should respect this point of view. 
+The morphological and syntactic layers 
+of annotation represent a standard in today?s 
+text corpora, e.g. the Penn Treebank, 
+the family of the Prague Dependency Tree-
+banks, the Tiger corpus for German, etc. Some 
+corpora contain a semantic annotation, such as 
+the Penn Treebank enriched by PropBank and 
+Nombank, the Prague Dependency Treebank in 
+its highest layer, the Penn Chinese or the 
+the Korean Treebanks. The Penn Discourse 
+Treebank contains discourse annotation. 
+It is desirable that syntactic (and higher) an-
+notation of spoken texts respects the written-
+text style as much as possible, for obvious rea-
+sons: data ?compatibility?, reuse of tools etc. 
+A number of questions arise immediately: 
+How much experience and knowledge ac-
+quired during the written text annotation can 
+we apply to the spoken texts? Are the annota-
+tion instructions applicable to transcriptions in 
+a straightforward way or some modifications 
+of them must be done? Can transcriptions be 
+annotated ?as they are? or some transformation 
+of their inner structure into a written text struc-
+ture must precede the annotation? The Czech 
+Academic Corpus will help us to find out the 
+answers. 
+2 

@@ -1,0 +1,25 @@
+
+Named entity (NE) recognition is an impor-
+tant task for many natural language applica-
+tions, such as Internet search engines,
+document indexing, information extraction
+and machine translation. Moreover, in ori-
+ental languages (such as Chinese, Japanese
+and Korean), NE recognition is even more
+important because it significantly affects the
+performance of word segmentation, the most
+fundamental task for understanding the texts
+in oriental languages. In this paper, a prob-
+abilistic verification model is designed for
+verifying the correctness of a named entity
+candidate. This model assesses the confi-
+dence level of a candidate not only accord-
+ing to the candidate?s structure but also ac-
+cording to its context. In our design, the
+clues for confidence measurement are col-
+lected from both positive and negative ex-
+amples in the training data in a statistical
+manner. Experimental results show that the
+proposed method significantly improves the
+F-measure of Chinese personal name recog-
+nition from 86.5% to 94.4%.

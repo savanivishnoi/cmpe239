@@ -1,0 +1,30 @@
+
+This paper shows that incorporating lin-
+guistically motivated features to ensure
+correct animacy and number agreement in
+an averaged perceptron ranking model for
+CCG realization helps improve a state-of-
+the-art baseline even further. Tradition-
+ally, these features have been modelled us-
+ing hard constraints in the grammar. How-
+ever, given the graded nature of grammat-
+icality judgements in the case of animacy
+we argue a case for the use of a statisti-
+cal model to rank competing preferences.
+Though subject-verb agreement is gener-
+ally viewed to be syntactic in nature, a pe-
+rusal of relevant examples discussed in the
+theoretical linguistics literature (Kathol,
+1999; Pollard and Sag, 1994) points to-
+ward the heterogeneous nature of English
+agreement. Compared to writing gram-
+mar rules, our method is more robust and
+allows incorporating information from di-
+verse sources in realization. We also show
+that the perceptron model can reduce bal-
+anced punctuation errors that would other-
+wise require a post-filter. The full model
+yields significant improvements in BLEU
+scores on Section 23 of the CCGbank and
+makes many fewer agreement errors.
+1 

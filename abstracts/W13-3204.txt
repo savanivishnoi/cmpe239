@@ -1,0 +1,22 @@
+
+We present a letter-based encoding for
+words in continuous space language mod-
+els. We represent the words completely by
+letter n-grams instead of using the word
+index. This way, similar words will au-
+tomatically have a similar representation.
+With this we hope to better generalize
+to unknown or rare words and to also
+capture morphological information. We
+show their influence in the task of machine
+translation using continuous space lan-
+guage models based on restricted Boltz-
+mann machines. We evaluate the trans-
+lation quality as well as the training time
+on a German-to-English translation task of
+TED and university lectures as well as on
+the news translation task translating from
+English to German. Using our new ap-
+proach a gain in BLEU score by up to 0.4
+points can be achieved.
+1 

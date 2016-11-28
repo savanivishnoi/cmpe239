@@ -1,0 +1,21 @@
+
+This paper describes techniques for unsu-
+pervised word sense disambiguation of En-
+glish and German medical documents us-
+ing UMLS. We present both monolingual
+techniques which rely only on the structure
+of UMLS, and bilingual techniques which
+also rely on the availability of parallel cor-
+pora. The best results are obtained using
+relations between terms given by UMLS,
+a method which achieves 74% precision,
+66% coverage for English and 79% preci-
+sion, 73% coverage for German on evalua-
+tion corpora and over 83% coverage over the
+whole corpus. The success of this technique
+for German shows that a lexical resource
+giving relations between concepts used to
+index an English document collection can
+be used for high quality disambiguation in
+another language.
+1 

@@ -1,0 +1,15 @@
+
+We present a simple, robust generation system
+which performs content selection and surface
+realization in a unified, domain-independent
+framework. In our approach, we break up
+the end-to-end generation process into a se-
+quence of local decisions, arranged hierar-
+chically and each trained discriminatively.
+We deployed our system in three different
+domains?Robocup sportscasting, technical
+weather forecasts, and common weather fore-
+casts, obtaining results comparable to state-of-
+the-art domain-specific systems both in terms
+of BLEU scores and human evaluation.
+1 

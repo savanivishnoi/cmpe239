@@ -1,0 +1,23 @@
+
+The task of machine translation (MT)
+evaluation is closely related to the
+task of sentence-level semantic equiv-
+alence classification. This paper in-
+vestigates the utility of applying stan-
+dard MT evaluation methods (BLEU,
+NIST, WER and PER) to building clas-
+sifiers to predict semantic equivalence
+and entailment. We also introduce a
+novel classification method based on
+PER which leverages part of speech
+information of the words contributing
+to the word matches and non-matches
+in the sentence. Our results show
+that MT evaluation techniques are able
+to produce useful features for para-
+phrase classification and to a lesser ex-
+tent entailment. Our technique gives a
+substantial improvement in paraphrase
+classification accuracy over all of the
+other models used in the experiments.
+1 

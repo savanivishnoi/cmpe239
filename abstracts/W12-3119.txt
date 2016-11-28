@@ -1,0 +1,12 @@
+
+We in this paper describe the regression sys-
+tem for our participation in the quality estima-
+tion task of WMT12. This paper focuses on
+exploiting special phrases, or word sequences,
+to estimate translation quality. Several feature
+templates on this topic are put forward sub-
+sequently. We train a SVM regression model
+for predicting the scores and numerical results
+show the effectiveness of our phrase indicators
+and method in both ranking and scoring tasks.
+1 

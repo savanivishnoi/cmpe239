@@ -1,0 +1,29 @@
+ 
+Existing Augmentative and Alternative Com-
+munication vocabularies assign multimodal 
+stimuli to words with multiple meanings. The 
+ambiguity hampers the vocabulary effective-
+ness when used by people with language dis-
+abilities. For example, the noun ?a missing 
+letter? may refer to a character or a written 
+message, and each corresponds to a different 
+picture. A vocabulary with images and sounds 
+unambiguously linked to words can better 
+eliminate misunderstanding and assist com-
+munication for people with language disorders. 
+We explore a new approach of creating such a 
+vocabulary via automatically assigning se-
+mantically unambiguous groups of synonyms 
+to sound and image labels. We propose an un-
+supervised word sense disambiguation (WSD) 
+voting algorithm, which combines different 
+semantic relatedness measures. Our voting al-
+gorithm achieved over 80% accuracy with a 
+sound label dataset, which significantly out-
+performs WSD with individual measures. We 
+also explore the use of human judgments of 
+evocation between members of concept pairs, 
+in the label disambiguation task. Results show 
+that evocation achieves similar performance to 
+most of the existing relatedness measures.  
+1 

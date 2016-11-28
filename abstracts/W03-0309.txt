@@ -1,0 +1,14 @@
+
+The Duluth Word Alignment System partici-
+pated in the 2003 HLT-NAACL Workshop on
+Parallel Text shared task on word alignment for
+both English?French and Romanian?English.
+It is a Perl implementation of IBM Model 2.
+We used approximately 50,000 aligned sen-
+tences as training data for each language pair,
+and found the results for Romanian?English to
+be somewhat better. We also varied the Model
+2 distortion parameters among the values 2, 4,
+and 6, but did not observe any significant dif-
+ferences in performance as a result.
+1 

@@ -1,0 +1,22 @@
+
+Despite being closely related languages,
+German and English are characterized by
+important word order differences. Long-
+range reordering of verbs, in particular,
+represents a real challenge for state-of-the-
+art SMT systems and is one of the main
+reasons why translation quality is often so
+poor in this language pair. In this work,
+we review several solutions to improve
+the accuracy of German-English word re-
+ordering while preserving the efficiency of
+phrase-based decoding. Among these, we
+consider a novel technique to dynamically
+shape the reordering search space and
+effectively capture long-range reordering
+phenomena. Through an extensive eval-
+uation including diverse translation qual-
+ity metrics, we show that these solutions
+can significantly narrow the gap between
+phrase-based and hierarchical SMT.
+1 

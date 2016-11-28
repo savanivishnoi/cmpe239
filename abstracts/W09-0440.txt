@@ -1,0 +1,24 @@
+
+Linguistic metrics based on syntactic and
+semantic information have proven very
+effective for Automatic MT Evaluation.
+However, no results have been presented
+so far on their performance when applied
+to heavily ill-formed low quality transla-
+tions. In order to glean some light into this
+issue, in this work we present an empirical
+study on the behavior of a heterogeneous
+set of metrics based on linguistic analysis
+in the paradigmatic case of speech transla-
+tion between non-related languages. Cor-
+roborating previous findings, we have ver-
+ified that metrics based on deep linguis-
+tic analysis exhibit a very robust and sta-
+ble behavior at the system level. How-
+ever, these metrics suffer a significant de-
+crease at the sentence level. This is in
+many cases attributable to a loss of recall,
+due to parsing errors or to a lack of parsing
+at all, which may be partially ameliorated
+by backing off to lexical similarity.
+1 

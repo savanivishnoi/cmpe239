@@ -1,0 +1,16 @@
+ 
+This paper presents a hybrid model for 
+restoring an elided entry word for en-
+cyclopedia QA system. In Korean en-
+cyclopedia, an entry word is frequently 
+omitted in a sentence. If the QA system 
+uses a sentence without an entry word, 
+it cannot provide a right answer. For 
+resolving this problem, we combine a 
+rule-based approach with Maximum 
+Entropy model to use the merit of each 
+approach. A rule-based approach uses 
+caseframes and sense classes. The re-
+sult shows that combined approach 
+gives a 20% increase over our baseline.  
+1 

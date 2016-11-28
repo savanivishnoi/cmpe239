@@ -1,0 +1,22 @@
+ 
+In this paper, we will describe ODIE, the 
+On-Demand Information Extraction system. 
+Given a user?s query, the system will pro-
+duce tables of the salient information about 
+the topic in structured form. It produces the 
+tables in less than one minute without any 
+knowledge engineering by hand, i.e. pat-
+tern creation or paraphrase knowledge 
+creation, which was the largest obstacle in 
+traditional IE. This demonstration is based 
+on the idea and technologies reported in 
+(Sekine 06). A substantial speed-up over 
+the previous system (which required about 
+15 minutes to analyze one year of newspa-
+per) was achieved through a new approach 
+to handling pattern candidates; now less 
+than one minute is required when using 11 
+years of newspaper corpus. In addition, 
+functionality was added to facilitate inves-
+tigation of the extracted information. 
+1 

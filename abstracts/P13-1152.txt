@@ -1,0 +1,15 @@
+
+We suggest a generation task that inte-
+grates discourse-level referring expression
+generation and sentence-level surface re-
+alization. We present a data set of Ger-
+man articles annotated with deep syntax
+and referents, including some types of im-
+plicit referents. Our experiments compare
+several architectures varying the order of a
+set of trainable modules. The results sug-
+gest that a revision-based pipeline, with in-
+termediate linearization, significantly out-
+performs standard pipelines or a parallel
+architecture.
+1 

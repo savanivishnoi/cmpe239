@@ -1,0 +1,19 @@
+
+Voice-Rate is an experimental dialog system
+through which a user can call to get prod-
+uct information. In this paper, we describe
+an optimal dialog management algorithm for
+Voice-Rate. Our algorithm uses a POMDP
+framework, which is probabilistic and cap-
+tures uncertainty in speech recognition and
+user knowledge. We propose a novel method
+to learn a user knowledge model from a review
+database. Simulation results show that the
+POMDP system performs significantly better
+than a deterministic baseline system in terms
+of both dialog failure rate and dialog interac-
+tion time. To the best of our knowledge, our
+work is the first to show that a POMDP can
+be successfully used for disambiguation in a
+complex voice search domain like Voice-Rate.
+1 

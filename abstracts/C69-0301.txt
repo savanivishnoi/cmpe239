@@ -1,0 +1,60 @@
+  
+A method for automatical ly  precoordinat ing index te rms was devised to 
+form combinat ions of te rms  which are  s tored as subject  headings.  A compu-  
+ter  p rogram accepts l i s ts  of auto- indexed te rms and by applying l inguist ic 
+and sequence rules combines appropr iate te rms ,  thereby effecting improved 
+searchabi l i ty  of an information storage and retr ieval  sys tem.  
+A ser ious  fal l ing ex ists  in many indexing sys tems in that index te rms 
+author ized for use  are  too genera l  for use  by technical ly-knowledgeable 
+searchers .  A search  conducted us ing these  te rms frequently produces too 
+many documents not speci f ical ly related to the users '  requ i rements .  An 
+indexing method using the language in which the document was wr i t ten cor -  
+rects  this  fai l ing, but e l iminates the general i ty  of the prev ious  approach. A 
+compromise  between indexing general i ty  and specif ic i ty is  offered by NEXUS 
+precoord inat ion which combines specif ic  te rms  into sub ject -headings ,  e l imi -  
+nating improper  coordination of te rms  when match ing search  requ i rements  
+with document te rm sets .  
+NEXUS examines  the suffix morpheme of each input te rm and determines  
+whether  or not the te rm should be a member  of an index te rm combinat ion 
+or  preeoordinat ion.  If insuff ic ient evidence is  p resent  o make  such a 
+determination, a sequence rule goes into effect which combines terms based 
+on their  syntax. 
+A variety of corpora was used to test and develop the NEXUS precoordina- 
+tot.  Data bases consisting of legal information, computer program descr ip-  
+tions and NASA l inear tape system documentation were used. More variety 
+was present  in the NASA documents which made the results of the application 
+of NEXUS to this collection more  significant han the others.  Also, a fuller 
+battery of rules was developed by this time, increasing the power of the pro -  
+gram.  
+Summary 
+NEXUS is a research project which is concerned with input process ing 
+of natural language for information retr ieval.  
+The computer  program used to do this task consists of l inguistic rules 
+that operate on the suffix portions of printed words, and the order  of these 
+words as they appear in a sentence. 
+NEXUS accepts l ists of index terms that have resulted from the applica- 
+tion of an auto-indexer program to titles and abstracts.  Thcsc term l ists 
+are  processed by NICKUS in order  to form combinations of terms which are 
+J 
+stored as subject headings. Such subject headings or  precoordinations aid 
+the searcher  in finding information when they are used in a bibliographic 
+printout.  As opposed to coordinate-indexed printouts, consisting of l ists 
+of individual te rms and the accession umbers of the source documents, 
+those printouts of NEXUS-processed terms contain word combinations that 
+have been precoordinated, saving time and increasing accuracy for the 
+searcher .  
+It must  be s t ressed  that NEXUS operates on general rules. There are  
+occur rences  in language that are not covetable by this method. Storage by 
+individual terms is effected in conjunction wRh NEXUS so that nothing is 
+missed because of rule exceptions. 
+Comparison tests have been run using the full NEXUS program,  a part ial  
+application of the program using sequence rules (SEQS), and human analysis 
+of the same data. Although falling short  of human analysis in some respects  
+(except for consistency), the NEXUS approach is more effective than SEQS 
+in producing effective combinations. 
+Although some suggestions arc made for applying this technique along 
+with a possible output format for a bibliographic application, the chief value 
+of this effort, however, has been to further study those aspects of language 
+that are amenable to computerized analysis for the purpose of improving in- 
+put and output functions in information retr ieval.  
+SECTION 1 

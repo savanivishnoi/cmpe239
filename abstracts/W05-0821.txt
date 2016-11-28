@@ -1,0 +1,20 @@
+
+Statistical machine translation systems
+use a combination of one or more transla-
+tion models and a language model. While
+there is a significant body of research ad-
+dressing the improvement of translation
+models, the problem of optimizing lan-
+guage models for a specific translation
+task has not received much attention. Typ-
+ically, standard word trigram models are
+used as an out-of-the-box component in
+a statistical machine translation system.
+In this paper we apply language model-
+ing techniques that have proved benefi-
+cial in automatic speech recognition to the
+ACL05 machine translation shared data
+task and demonstrate improvements over a
+baseline system with a standard language
+model.
+1 

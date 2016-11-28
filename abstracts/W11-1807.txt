@@ -1,0 +1,18 @@
+
+We present a joint model for biomedical event
+extraction and apply it to four tracks of the
+BioNLP 2011 Shared Task. Our model de-
+composes into three sub-models that concern
+(a) event triggers and outgoing arguments, (b)
+event triggers and incoming arguments and
+(c) protein-protein bindings. For efficient de-
+coding we employ dual decomposition. Our
+results are very competitive: With minimal
+adaptation of our model we come in second
+for two of the tasks?right behind a version
+of the system presented here that includes pre-
+dictions of the Stanford event extractor as fea-
+tures. We also show that for the Infectious
+Diseases task using data from the Genia track
+is a very effective way to improve accuracy.
+1 

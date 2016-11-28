@@ -1,0 +1,18 @@
+
+Most corpus-based approaches to
+natural language processing suer
+from lack of training data. This
+is because acquiring a large num-
+ber of labeled data is expensive.
+This paper describes a learning
+method that exploits unlabeled data
+to tackle data sparseness problem.
+The method uses committee learn-
+ing to predict the labels of unla-
+beled data that augment the exist-
+ing training data. Our experiments
+on word sense disambiguation show
+that predictive accuracy is signi-
+cantly improved by using additional
+unlabeled data.
+1 

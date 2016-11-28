@@ -1,0 +1,22 @@
+  
+Title generation is a complex task involving 
+both natural language understanding and 
+natural language synthesis. In this paper, we 
+propose a new probabilistic model for title 
+generation. Different from the previous 
+statistical models for title generation, which 
+treat title generation as a generation process 
+that converts the ?document representation? 
+of information directly into a ?title 
+representation? of the same information, this 
+model introduces a hidden state called 
+?information source? and divides title 
+generation into two steps, namely the step of 
+distilling the ?information source? from the 
+observation of a document and the step of 
+generating a title from the estimated 
+?information source?. In our experiment, the 
+new probabilistic model outperforms the 
+previous model for title generation in terms 
+of both automatic evaluations and human 
+judgments. 

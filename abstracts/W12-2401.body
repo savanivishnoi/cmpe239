@@ -1,0 +1,25 @@
+
+Narrative recall tasks are widely used in neu-
+ropsychological evaluation protocols in or-
+der to detect symptoms of disorders such
+as autism, language impairment, and demen-
+tia. In this paper, we propose a graph-based
+method commonly used in information re-
+trieval to improve word-level alignments in
+order to align a source narrative to narra-
+tive retellings elicited in a clinical setting.
+From these alignments, we automatically ex-
+tract narrative recall scores which can then be
+used for diagnostic screening. The signifi-
+cant reduction in alignment error rate (AER)
+afforded by the graph-based method results
+in improved automatic scoring and diagnos-
+tic classification. The approach described here
+is general enough to be applied to almost any
+narrative recall scenario, and the reductions in
+AER achieved in this work attest to the po-
+tential utility of this graph-based method for
+enhancing multilingual word alignment and
+alignment of comparable corpora for more
+standard NLP tasks.
+1 

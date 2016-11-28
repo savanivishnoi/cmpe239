@@ -1,0 +1,18 @@
+
+Turkish is an agglutinative language with
+complex morphological structures, therefore
+using only word forms is not enough for many
+computational tasks. In this paper we an-
+alyze the effect of morphology in a Named
+Entity Recognition system for Turkish. We
+start with the standard word-level representa-
+tion and incrementally explore the effect of
+capturing syntactic and contextual properties
+of tokens. Furthermore, we also explore a new
+representation in which roots and morphologi-
+cal features are represented as separate tokens
+instead of representing only words as tokens.
+Using syntactic and contextual properties with
+the new representation provide an 7.6% rela-
+tive improvement over the baseline.
+1 

@@ -1,0 +1,17 @@
+
+We demonstrate an open-source natural
+language generation engine that produces
+descriptions of entities and classes in En-
+glish and Greek from OWL ontologies that
+have been annotated with linguistic and
+user modeling information expressed in
+RDF. We also demonstrate an accompany-
+ing plug-in for the Prote?ge? ontology editor,
+which can be used to create the ontology?s
+annotations and generate previews of the
+resulting texts by invoking the generation
+engine. The engine has been embedded in
+robots acting as museum tour guides in the
+physical world and in Second Life; here
+we demonstrate the latter application.
+1 

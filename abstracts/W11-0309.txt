@@ -1,0 +1,29 @@
+
+Crisis-affected populations are often able to
+maintain digital communications but in a
+sudden-onset crisis any aid organizations will
+have the least free resources to process such
+communications. Information that aid agen-
+cies can actually act on, ?actionable? informa-
+tion, will be sparse so there is great poten-
+tial to (semi)automatically identify actionable
+communications. However, there are hurdles
+as the languages spoken will often be under-
+resourced, have orthographic variation, and
+the precise definition of ?actionable? will be
+response-specific and evolving. We present
+a novel system that addresses this, drawing
+on 40,000 emergency text messages sent in
+Haiti following the January 12, 2010 earth-
+quake, predominantly in Haitian Kreyol. We
+show that keyword/ngram-based models us-
+ing streaming MaxEnt achieve up to F=0.21
+accuracy. Further, we find current state-of-
+the-art subword models increase this substan-
+tially to F=0.33 accuracy, while modeling the
+spatial, temporal, topic and source contexts of
+the messages can increase this to a very ac-
+curate F=0.86 over direct text messages and
+F=0.90-0.97 over social media, making it a vi-
+able strategy for message prioritization.
+1 

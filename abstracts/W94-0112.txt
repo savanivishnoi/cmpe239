@@ -1,0 +1,13 @@
+ 
+This paper describes a "bootstrapping" method 
+which uses a broad-coverage, rule-based parser to 
+compute probabilities while parsing an untagged 
+corpus of NL text, and which then incorporates 
+those probabilities into the processing of the same 
+parser as it analyzes new text. Results are reported 
+which show that this method can significantly 
+improve the speed and accuracy of the parser 
+without requiring the use of annotated corpora or 
+human-supervised training during the computation 
+of probabilities. 
+1 

@@ -1,0 +1,19 @@
+ 
+Translation rule extraction is an impor-
+tant issue in syntax-based Statistical Ma-
+chine Translation (SMT). Recent studies 
+show that rule coverage is one of the key 
+factors affecting the success of syntax-
+based systems. In this paper, we first 
+present a simple and effective method to 
+improve rule coverage by using multiple 
+parsers in translation rule extraction, and 
+then empirically investigate the effec-
+tiveness of our method on Chinese-
+English translation tasks. Experimental 
+results show that extracting translation 
+rules using multiple parsers improves a 
+string-to-tree system by over 0.9 BLEU 
+points on both NIST 2004 and 2005 test 
+corpora. 
+1 

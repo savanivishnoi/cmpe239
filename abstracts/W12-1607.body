@@ -1,0 +1,23 @@
+
+Conversational practices do not occur at a sin-
+gle unit of analysis. To understand the inter-
+play between social positioning, information
+sharing, and rhetorical strategy in language,
+various granularities are necessary. In this
+work we present a machine learning model
+for multi-party chat which predicts conversa-
+tion structure across differing units of analy-
+sis. First, we mark sentence-level behavior us-
+ing an information sharing annotation scheme.
+By taking advantage of Integer Linear Pro-
+gramming and a sociolinguistic framework,
+we enforce structural relationships between
+sentence-level annotations and sequences of
+interaction. Then, we show that clustering
+these sequences can effectively disentangle
+the threads of conversation. This model is
+highly accurate, performing near human accu-
+racy, and performs analysis on-line, opening
+the door to real-time analysis of the discourse
+of conversation.
+1 

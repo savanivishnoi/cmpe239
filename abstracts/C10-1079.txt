@@ -1,0 +1,19 @@
+ 
+News tweets that report what is happen-
+ing have become an important real-time 
+information source. We raise the prob-
+lem of Semantic Role Labeling (SRL) 
+for news tweets, which is meaningful for 
+fine grained information extraction and 
+retrieval. We present a self-supervised 
+learning approach to train a domain spe-
+cific SRL system to resolve the problem. 
+A large volume of training data is auto-
+matically labeled, by leveraging the ex-
+isting SRL system on news domain and 
+content similarity between news and 
+news tweets. On a human annotated test 
+set, our system achieves  state-of-the-art 
+performance, outperforming the SRL 
+system trained on news. 
+1 

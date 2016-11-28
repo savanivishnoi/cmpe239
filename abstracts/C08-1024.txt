@@ -1,0 +1,25 @@
+
+This paper presents a method for mining
+potential troubles or obstacles related to
+the use of a given object. Some exam-
+ple instances of this relation are ?medicine,
+side effect? and ?amusement park, height
+restriction?. Our acquisition method con-
+sists of three steps. First, we use an un-
+supervised method to collect training sam-
+ples from Web documents. Second, a set
+of expressions generally referring to trou-
+bles is acquired by a supervised learning
+method. Finally, the acquired troubles
+are associated with objects so that each
+of the resulting pairs consists of an ob-
+ject and a trouble or obstacle in using that
+object. To show the effectiveness of our
+method we conducted experiments using
+a large collection of Japanese Web doc-
+uments for acquisition. Experimental re-
+sults show an 85.5% precision for the top
+10,000 acquired troubles, and a 74% pre-
+cision for the top 10% of over 60,000 ac-
+quired object-trouble pairs.
+1 

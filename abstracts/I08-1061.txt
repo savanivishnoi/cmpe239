@@ -1,0 +1,22 @@
+
+We present a novel algorithm for the acqui-
+sition of multilingual lexical taxonomies (in-
+cluding hyponymy/hypernymy, meronymy
+and taxonomic cousinhood), from monolin-
+gual corpora with minimal supervision in the
+form of seed exemplars using discriminative
+learning across the major WordNet seman-
+tic relationships. This capability is also ex-
+tended robustly and effectively to a second
+language (Hindi) via cross-language projec-
+tion of the various seed exemplars. We also
+present a novel model of translation dic-
+tionary induction via multilingual transitive
+models of hypernymy and hyponymy, us-
+ing these induced taxonomies. Candidate
+lexical translation probabilities are based on
+the probability that their induced hyponyms
+and/or hypernyms are translations of one an-
+other. We evaluate all of the above models
+on English and Hindi.
+1 

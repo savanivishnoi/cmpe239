@@ -1,0 +1,26 @@
+ 
+Many errors produced by unsupervised and 
+semi-supervised relation extraction (RE) 
+systems occur because of wrong recogni-
+tion of entities that participate in the rela-
+tions. This is especially true for systems 
+that do not use separate named-entity rec-
+ognition components, instead relying on 
+general-purpose shallow parsing. Such sys-
+tems have greater applicability, because 
+they are able to extract relations that 
+contain attributes of unknown types. 
+However, this generality comes with the 
+cost in accuracy. In this paper we show 
+how to use corpus statistics to validate and 
+correct the arguments of extracted relation 
+instances, improving the overall RE 
+performance. We test the methods on 
+SRES ? a self-supervised Web relation 
+extraction system. We also compare the 
+performance of corpus-based methods to 
+the performance of validation and correc-
+tion methods based on supervised NER 
+components.  
+ 
+1 

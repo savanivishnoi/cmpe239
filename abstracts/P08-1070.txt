@@ -1,0 +1,17 @@
+
+This paper describes how external resources
+can be used to improve parser performance for
+heavily lexicalised grammars, looking at both
+robustness and efficiency. In terms of robust-
+ness, we try using different types of external
+data to increase lexical coverage, and find that
+simple POS tags have the most effect, increas-
+ing coverage on unseen data by up to 45%. We
+also show that filtering lexical items in a su-
+pertagging manner is very effective in increas-
+ing efficiency. Even using vanilla POS tags we
+achieve some efficiency gains, but when us-
+ing detailed lexical types as supertags weman-
+age to halve parsing time with minimal loss of
+coverage or precision.
+1 

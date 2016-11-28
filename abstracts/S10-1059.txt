@@ -1,0 +1,17 @@
+
+This paper describes the SEMAFOR sys-
+tem?s performance in the SemEval 2010
+task on linking events and their partici-
+pants in discourse. Our entry is based
+upon SEMAFOR 1.0 (Das et al, 2010a),
+a frame-semantic probabilistic parser built
+from log-linear models. The extended sys-
+tem models null instantiations, including
+non-local argument reference. Performance
+is evaluated on the task data with and with-
+out gold-standard overt arguments. In both
+settings, it fares the best of the submitted
+systems with respect to recall and F
+1
+.
+1 

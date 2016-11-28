@@ -1,0 +1,13 @@
+
+This paper present the University of Washing-
+ton?s submission to the 2008 ACL SMT shared ma-
+chine translation task. Two systems, for English-to-
+Spanish and German-to-Spanish translation are de-
+scribed. Our main focus was on testing a novel
+boosting framework for N-best list reranking and
+on handling German morphology in the German-to-
+Spanish system. While boosted N-best list reranking
+did not yield any improvements for this task, simpli-
+fying German morphology as part of the preprocess-
+ing step did result in significant gains.
+1 

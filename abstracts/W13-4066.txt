@@ -1,0 +1,19 @@
+ 
+For robust spoken conversational interaction, 
+many dialog state tracking algorithms have 
+been developed. Few studies, however, have 
+reported the strengths and weaknesses of each 
+method. The Dialog State Tracking Challenge 
+(DSTC) is designed to address this issue by 
+comparing various methods on the same 
+domain. In this paper, we present a set of 
+techniques that build a robust dialog state 
+tracker with high performance: wide-coverage 
+and well-calibrated data selection, feature-rich 
+discriminative model design, generalization 
+improvement techniques and unsupervised 
+prior adaptation. The DSTC results show that 
+the proposed method is superior to other 
+systems on average on both the development 
+and test datasets.  
+1 

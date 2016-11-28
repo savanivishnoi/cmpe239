@@ -1,0 +1,16 @@
+
+The UC Berkeley team participated in the
+SemEval 2007 Task #4, with an approach
+that leverages the vast size of the Web in or-
+der to build lexically-specific features. The
+idea is to determine which verbs, preposi-
+tions, and conjunctions are used in sentences
+containing a target word pair, and to com-
+pare those to features extracted for other
+word pairs in order to determine which are
+most similar. By combining these Web fea-
+tures with words from the sentence context,
+our team was able to achieve the best results
+for systems of category C and third best for
+systems of category A.
+1 

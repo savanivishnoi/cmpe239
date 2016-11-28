@@ -1,0 +1,17 @@
+
+This paper presents a practical
+methodology for the integration of
+reinforcement learning during the
+design of a Spoken Dialogue System
+(SDS). It proposes a method that
+enables SDS designers to know, in
+advance, the number of dialogues that
+their system will need in order to learn
+the value of each state-action couple.
+We ask the designer to provide a user
+model in a simple way. Then, we run
+simulations with this model and we
+compute confidence intervals for the
+mean of the expected return of the
+state-action couples.
+1 

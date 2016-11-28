@@ -1,0 +1,30 @@
+
+Context-dependent word similarity can be
+measured over multiple cross-cutting dimen-
+sions. For example, lung and breath are sim-
+ilar thematically, while authoritative and su-
+perficial occur in similar syntactic contexts,
+but share little semantic similarity. Both of
+these notions of similarity play a role in deter-
+mining word meaning, and hence lexical se-
+mantic models must take them both into ac-
+count. Towards this end, we develop a novel
+model, Multi-View Mixture (MVM), that rep-
+resents words as multiple overlapping clus-
+terings. MVM finds multiple data partitions
+based on different subsets of features, sub-
+ject to the marginal constraint that feature sub-
+sets are distributed according to Latent Dirich-
+let Allocation. Intuitively, this constraint fa-
+vors feature partitions that have coherent top-
+ical semantics. Furthermore, MVM uses soft
+feature assignment, hence the contribution of
+each data point to each clustering view is vari-
+able, isolating the impact of data only to views
+where they assign the most features. Through
+a series of experiments, we demonstrate the
+utility of MVM as an inductive bias for captur-
+ing relations between words that are intuitive
+to humans, outperforming related models such
+as Latent Dirichlet Allocation.
+1 

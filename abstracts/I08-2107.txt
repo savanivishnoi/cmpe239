@@ -1,0 +1,17 @@
+
+Previous research has shown that syntactic
+features are the most informative features
+in automatic verb classification. We exper-
+iment with a new, rich feature set, extracted
+from a large automatically acquired subcate-
+gorisation lexicon for English, which incor-
+porates information about arguments as well
+as adjuncts. We evaluate this feature set us-
+ing a set of supervised classifiers, most of
+which are new to the task. The best classi-
+fier (based on Maximum Entropy) yields the
+promising accuracy of 60.1% in classifying
+204 verbs to 17 Levin (1993) classes. We
+discuss the impact of this result on the state-
+of-art, and propose avenues for future work.
+1 

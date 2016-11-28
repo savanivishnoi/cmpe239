@@ -1,0 +1,28 @@
+
+Semantic similarity is a central concept
+that extends across numerous fields such
+as artificial intelligence, natural language
+processing, cognitive science and psychol-
+ogy. Accurate measurement of semantic
+similarity between words is essential for
+various tasks such as, document cluster-
+ing, information retrieval, and synonym
+extraction. We propose a novel model
+of semantic similarity using the semantic
+relations that exist among words. Given
+two words, first, we represent the seman-
+tic relations that hold between those words
+using automatically extracted lexical pat-
+tern clusters. Next, the semantic similar-
+ity between the two words is computed
+using a Mahalanobis distance measure.
+We compare the proposed similarity mea-
+sure against previously proposed seman-
+tic similarity measures on Miller-Charles
+benchmark dataset and WordSimilarity-
+353 collection. The proposed method out-
+performs all existing web-based seman-
+tic similarity measures, achieving a Pear-
+son correlation coefficient of 0.867 on the
+Millet-Charles dataset.
+1 

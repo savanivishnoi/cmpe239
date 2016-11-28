@@ -1,0 +1,27 @@
+ 
+Natural Language call routing remains a com-
+plex and challenging research area in machine 
+intelligence and language understanding. This 
+paper is in the area of classifying user utter-
+ances into different categories. The focus is on 
+design of algorithm that combines supervised 
+and unsupervised learning models in order to 
+improve classification quality. We have shown 
+that the proposed approach is able to outper-
+form existing methods on a large dataset and 
+do not require morphological and stop-word 
+filtering. In this paper we present a new for-
+mula for term relevance estimation, which is a 
+modification of fuzzy rules relevance estima-
+tion for fuzzy classifier. Using this formula 
+and only 300 frequent words for each class, we 
+achieve an accuracy rate of 85.55% on the da-
+tabase excluding the ?garbage? class (it in-
+cludes utterances that cannot be assigned to 
+any useful class or that can be assigned to 
+more than one class). Dividing the ?garbage? 
+class into the set of subclasses by agglomera-
+tive hierarchical clustering we achieve about 
+9% improvement of accuracy rate on the 
+whole database. 
+1 

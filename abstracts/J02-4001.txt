@@ -1,0 +1,82 @@
+ion
+At this early stage in research on summarization, we categorize any approach that
+does not use extraction as an abstractive approach. Abstractive approaches have used
+information extraction, ontological information, information fusion, and compression.
+Information extraction approaches can be characterized as ?top-down,? since they
+look for a set of predefined information types to include in the summary (in con-
+trast, extractive approaches are more data-driven). For each topic, the user predefines
+frames of expected information types, together with recognition criteria. For example,
+an earthquake frame may contain slots for location, earthquake magnitude, number of
+casualties, etc. The summarization engine must then locate the desired pieces of infor-
+mation, fill them in, and generate a summary with the results (DeJong 1978; Rau and
+Jacobs 1991). This method can produce high-quality and accurate summaries, albeit in
+restricted domains only.
+Compressive summarization results from approaching the problem from the point
+of view of language generation. Using the smallest units from the original document,
+Witbrock and Mittal (1999) extract a set of words from the input document and then
+order the words into sentences using a bigram language model. Jing and McKeown
+(1999) point out that human summaries are often constructed from the source docu-
+ment by a process of cutting and pasting document fragments that are then combined
+and regenerated as summary sentences. Hence a summarizer can be developed to
+extract sentences, reduce them by dropping unimportant fragments, and then use in-
+formation fusion and generation to combine the remaining fragments. In this special
+issue, Jing (2002) reports on automated techniques to build a corpus representing the
+cut-and-paste process used by humans; such a corpus can then be used to train an
+automated summarizer.
+Other researchers focus on the reduction process. In an attempt to learn rules for
+reduction, Knight and Marcu (2000) use expectation maximization to train a system
+to compress the syntactic parse tree of a sentence in order to produce a shorter but
+402
+Computational Linguistics Volume 28, Number 4
+still maximally grammatical version. Ultimately, this approach can likely be used for
+shortening two sentences into one, three into two (or one), and so on.
+Of course, true abstraction involves taking the process one step further. Abstraction
+involves recognizing that a set of extracted passages together constitute something
+new, something that is not explicitly mentioned in the source, and then replacing them
+in the summary with the (ideally more concise) new concept(s). The requirement that
+the new material not be in the text explicitly means that the system must have access
+to external information of some kind, such as an ontology or a knowledge base, and be
+able to perform combinatory inference (Hahn and Reimer 1997). Since no large-scale
+resources of this kind yet exist, abstractive summarization has not progressed beyond
+the proof-of-concept stage (although top-down information extraction can be seen as
+one variant).
+2.3 Multidocument Summarization
+Multidocument summarization, the process of producing a single summary of a set
+of related source documents, is relatively new. The three major problems introduced
+by having to handle multiple input documents are (1) recognizing and coping with
+redundancy, (2) identifying important differences among documents, and (3) ensuring
+summary coherence, even when material stems from different source documents.
+In an early approach to multidocument summarization, information extraction
+was used to facilitate the identification of similarities and differences (McKeown and
+Radev 1995). As for single-document summarization, this approach produces more of a
+briefing than a summary, as it contains only preidentified information types. Identity of
+slot values are used to determine when information is reliable enough to include in the
+summary. Later work merged information extraction approaches with regeneration of
+extracted text to improve summary generation (Radev and McKeown 1998). Important
+differences (e.g., updates, trends, direct contradictions) are identified through a set of
+discourse rules. Recent work also follows this approach, using enhanced information
+extraction and additional forms of contrasts (White and Cardie 2002).
+To identify redundancy in text documents, various similarity measures are used.
+A common approach is to measure similarity between all pairs of sentences and then
+use clustering to identify themes of common information (McKeown et al 1999; Radev,
+Jing, and Budzikowska 2000; Marcu and Gerber 2001). Alternatively, systems measure
+the similarity of a candidate passage to that of already-selected passages and retain
+it only if it contains enough new (dissimilar) information. A popular such measure is
+maximal marginal relevance (MMR) (Carbonell, Geng, and Goldstein 1997; Carbonell
+and Goldstein 1998).
+Once similar passages in the input documents have been identified, the infor-
+mation they contain must be included in the summary. Rather than simply listing
+all similar sentences (a lengthy solution), some approaches will select a representa-
+tive passage to convey information in each cluster (Radev, Jing, and Budzikowska
+2000), whereas other approaches use information fusion techniques to identify repet-
+itive phrases from the clusters and combine the phrases into the summary (Barzilay,
+McKeown, and Elhadad 1999). Mani, Gates, and Bloedorn (1999) describe the use of
+human-generated compression and reformulation rules.
+Ensuring coherence is difficult, because this in principle requires some understand-
+ing of the content of each passage and knowledge about the structure of discourse.
+In practice, most systems simply follow time order and text order (passages from
+the oldest text appear first, sorted in the order in which they appear in the input).
+To avoid misleading the reader when juxtaposed passages from different dates all
+say ?yesterday,? some systems add explicit time stamps (Lin and Hovy 2002a). Other
+403
+Radev, Hovy, and McKeown Summarization: 

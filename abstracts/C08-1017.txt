@@ -1,0 +1,27 @@
+ 
+We describe an entirely statistics-based, 
+unsupervised, and language-
+independent approach to multilingual 
+information retrieval, which we call La-
+tent Morpho-Semantic Analysis 
+(LMSA). LMSA overcomes some of the 
+shortcomings of related previous ap-
+proaches such as Latent Semantic 
+Analysis (LSA). LMSA has an impor-
+tant theoretical advantage over LSA: it 
+combines well-known techniques in a 
+novel way to break the terms of LSA 
+down into units which correspond more 
+closely to morphemes. Thus, it has a 
+particular appeal for use with morpho-
+logically complex languages such as 
+Arabic. We show through empirical re-
+sults that the theoretical advantages of 
+LMSA can translate into significant 
+gains in precision in multilingual infor-
+mation retrieval tests. These gains are 
+not matched either when a standard 
+stemmer is used with LSA, or when 
+terms are indiscriminately broken down 
+into n-grams. 
+1 

@@ -1,0 +1,20 @@
+
+Statistical machine translation (SMT)
+models require bilingual corpora for train-
+ing, and these corpora are often multi-
+lingual with parallel text in multiple lan-
+guages simultaneously. We introduce an
+active learning task of adding a new lan-
+guage to an existing multilingual set of
+parallel text and constructing high quality
+MT systems, from each language in the
+collection into this new target language.
+We show that adding a new language using
+active learning to the EuroParl corpus pro-
+vides a significant improvement compared
+to a random sentence selection baseline.
+We also provide new highly effective sen-
+tence selection methods that improve AL
+for phrase-based SMT in the multilingual
+and single language pair setting.
+1 

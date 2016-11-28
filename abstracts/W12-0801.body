@@ -1,0 +1,17 @@
+
+An open question in [FU?LO?P, MALETTI,
+VOGLER: Weighted extended tree trans-
+ducers. Fundamenta Informaticae 111(2),
+2011] asks whether weighted linear ex-
+tended tree transducers preserve recogniz-
+ability in countably complete commuta-
+tive semirings. In this contribution, the
+question is answered positively, which is
+achieved with a construction that utilizes
+inside weights. Due to the completeness
+of the semiring, the inside weights always
+exist, but the construction is only effective
+if they can be effectively determined. It is
+demonstrated how to achieve this in a num-
+ber of important cases.
+1 

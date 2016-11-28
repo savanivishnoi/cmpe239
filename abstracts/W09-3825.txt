@@ -1,0 +1,17 @@
+
+Transition-based approaches have shown
+competitive performance on constituent
+and dependency parsing of Chinese. State-
+of-the-art accuracies have been achieved
+by a deterministic shift-reduce parsing
+model on parsing the Chinese Treebank 2
+data (Wang et al, 2006). In this paper,
+we propose a global discriminative model
+based on the shift-reduce parsing process,
+combined with a beam-search decoder, ob-
+taining competitive accuracies on CTB2.
+We also report the performance of the
+parser on CTB5 data, obtaining the highest
+scores in the literature for a dependency-
+based evaluation.
+1 

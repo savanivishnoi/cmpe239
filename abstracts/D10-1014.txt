@@ -1,0 +1,24 @@
+
+In this paper, we present a novel approach
+to enhance hierarchical phrase-based machine
+translation systems with linguistically moti-
+vated syntactic features. Rather than directly
+using treebank categories as in previous stud-
+ies, we learn a set of linguistically-guided la-
+tent syntactic categories automatically from a
+source-side parsed, word-aligned parallel cor-
+pus, based on the hierarchical structure among
+phrase pairs as well as the syntactic structure
+of the source side. In our model, each X non-
+terminal in a SCFG rule is decorated with a
+real-valued feature vector computed based on
+its distribution of latent syntactic categories.
+These feature vectors are utilized at decod-
+ing time to measure the similarity between the
+syntactic analysis of the source side and the
+syntax of the SCFG rules that are applied to
+derive translations. Our approach maintains
+the advantages of hierarchical phrase-based
+translation systems while at the same time nat-
+urally incorporates soft syntactic constraints.
+1 

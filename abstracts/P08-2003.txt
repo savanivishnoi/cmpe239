@@ -1,0 +1,21 @@
+
+We consider the problem of answering com-
+plex questions that require inferencing and
+synthesizing information from multiple doc-
+uments and can be seen as a kind of topic-
+oriented, informative multi-document summa-
+rization. The stochastic, graph-based method
+for computing the relative importance of tex-
+tual units (i.e. sentences) is very successful
+in generic summarization. In this method,
+a sentence is encoded as a vector in which
+each component represents the occurrence fre-
+quency (TF*IDF) of a word. However, the
+major limitation of the TF*IDF approach is
+that it only retains the frequency of the words
+and does not take into account the sequence,
+syntactic and semantic information. In this pa-
+per, we study the impact of syntactic and shal-
+low semantic information in the graph-based
+method for answering complex questions.
+1 

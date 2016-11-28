@@ -1,0 +1,18 @@
+
+In this paper, a new method for automatic
+cognate detection in multilingual wordlists
+will be presented. The main idea behind the
+method is to combine different approaches to
+sequence comparison in historical linguistics
+and evolutionary biology into a new frame-
+work which closely models the most impor-
+tant aspects of the comparative method. The
+method is implemented as a Python program
+and provides a convenient tool which is pub-
+licly available, easily applicable, and open
+for further testing and improvement. Testing
+the method on a large gold standard of IPA-
+encoded wordlists showed that its results are
+highly consistent and outperform previous
+methods.
+1 

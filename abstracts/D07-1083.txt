@@ -1,0 +1,22 @@
+
+This paper proposes a framework for
+semi-supervised structured output learning
+(SOL), specifically for sequence labeling,
+based on a hybrid generative and discrim-
+inative approach. We define the objective
+function of our hybrid model, which is writ-
+ten in log-linear form, by discriminatively
+combining discriminative structured predic-
+tor(s) with generative model(s) that incor-
+porate unlabeled data. Then, unlabeled
+data is used in a generative manner to in-
+crease the sum of the discriminant functions
+for all outputs during the parameter estima-
+tion. Experiments on named entity recogni-
+tion (CoNLL-2003) and syntactic chunking
+(CoNLL-2000) data show that our hybrid
+model significantly outperforms the state-
+of-the-art performance obtained with super-
+vised SOL methods, such as conditional ran-
+dom fields (CRFs).
+1 

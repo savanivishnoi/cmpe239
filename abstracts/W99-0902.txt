@@ -1,0 +1,14 @@
+ 
+In this paper, we adapt the TF-IDF model to the 
+Japanese grapheme-phoneme alignment task, by 
+way of a simple statistical model and an incremen- 
+tal learning method. In the incremental learning 
+method, grapheme-phoneme alignment paradigms 
+are disambiguated one at a time according to the 
+relative plausibility of the highest scoring align- 
+ment schema, and the statistical model is re-trained 
+accordingly. On limited evaluation, the learning 
+method achieved an accuracy of 93.28%, represent- 
+ing a slight improvement over a baseline rule-based 
+method. 
+1 

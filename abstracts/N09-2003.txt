@@ -1,0 +1,23 @@
+
+Hypergraphs are used in several syntax-
+inspired methods of machine translation to
+compactly encode exponentially many trans-
+lation hypotheses. The hypotheses closest to
+given reference translations therefore cannot
+be found via brute force, particularly for pop-
+ular measures of closeness such as BLEU. We
+develop a dynamic program for extracting the
+so called oracle-best hypothesis from a hyper-
+graph by viewing it as the problem of finding
+the most likely hypothesis under an n-gram
+language model trained from only the refer-
+ence translations. We further identify and re-
+move massive redundancies in the dynamic
+program state due to the sparsity of n-grams
+present in the reference translations, resulting
+in a very efficient program. We present run-
+time statistics for this program, and demon-
+strate successful application of the hypothe-
+ses thus found as the targets for discriminative
+training of translation system components.
+1 

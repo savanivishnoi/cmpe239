@@ -1,0 +1,18 @@
+
+Most approaches to extractive summarization define
+a set of features upon which selection of sentences
+is based, using algorithms independent of the fea-
+tures themselves. We propose a new set of features
+based on low-level, atomic events that describe rela-
+tionships between important actors in a document or
+set of documents. We investigate the effect this new
+feature has on extractive summarization, compared
+with a baseline feature set consisting of the words
+in the input documents, and with state-of-the-art
+summarization systems. Our experimental results
+indicate that not only the event-based features of-
+fer an improvement in summary quality over words
+as features, but that this effect is more pronounced
+for more sophisticated summarization methods that
+avoid redundancy in the output.
+1 

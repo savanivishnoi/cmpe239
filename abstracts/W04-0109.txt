@@ -1,0 +1,17 @@
+
+This paper presents the WordFrame model, a noise-
+robust supervised algorithm capable of inducing
+morphological analyses for languages which exhibit
+prefixation, suffixation, and internal vowel shifts. In
+combination with a na?ive approach to suffix-based
+morphology, this algorithm is shown to be remark-
+ably effective across a broad range of languages, in-
+cluding those exhibiting infixation and partial redu-
+plication. Results are presented for over 30 lan-
+guages with a median accuracy of 97.5% on test
+sets including both regular and irregular verbal in-
+flections. Because the proposed method trains ex-
+tremely well under conditions of high noise, it is an
+ideal candidate for use in co-training with unsuper-
+vised algorithms.
+1 

@@ -1,0 +1,22 @@
+
+This work describes the participation of the
+WBI-DDI team on the SemEval 2013 ? Task
+9.2 DDI extraction challenge. The task con-
+sisted of extracting interactions between pairs
+of drugs from two collections of documents
+(DrugBank and MEDLINE) and their clas-
+sification into four subtypes: advise, effect,
+mechanism, and int. We developed a two-step
+approach in which pairs are initially extracted
+using ensembles of up to five different clas-
+sifiers and then relabeled to one of the four
+categories. Our approach achieved the sec-
+ond rank in the DDI competition. For interac-
+tion detection we achieved F1 measures rang-
+ing from 73 % to almost 76 % depending on
+the run. These results are on par or even higher
+than the performance estimation on the train-
+ing dataset. When considering the four inter-
+action subtypes we achieved an F1 measure of
+60.9 %.
+1 

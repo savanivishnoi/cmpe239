@@ -1,0 +1,19 @@
+
+We describe a concept-based summariza-
+tion system for biomedical documents and
+show that its performance can be improved
+using Word Sense Disambiguation. The
+system represents the documents as graphs
+formed from concepts and relations from
+the UMLS. A degree-based clustering al-
+gorithm is applied to these graphs to dis-
+cover different themes or topics within
+the document. To create the graphs, the
+MetaMap program is used to map the
+text onto concepts in the UMLS Metathe-
+saurus. This paper shows that applying a
+graph-based Word Sense Disambiguation
+algorithm to the output of MetaMap im-
+proves the quality of the summaries that
+are generated.
+1 

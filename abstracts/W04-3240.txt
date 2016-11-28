@@ -1,0 +1,21 @@
+ 
+It is often useful to classify email accord-
+ing to the intent of the sender (e.g., "pro-
+pose a meeting", "deliver information"). 
+We present experimental results in learn-
+ing to classify email in this fashion, 
+where each class corresponds to a verb-
+noun pair taken from a predefined ontol-
+ogy describing typical ?email speech 
+acts?.   We demonstrate that, although 
+this categorization problem is quite dif-
+ferent from ?topical? text classification, 
+certain categories of messages can none-
+theless be detected with high precision 
+(above 80%) and reasonable recall (above 
+50%) using existing text-classification 
+learning methods. This result suggests 
+that useful task-tracking tools could be 
+constructed based on automatic classifi-
+cation into this taxonomy.  
+1 

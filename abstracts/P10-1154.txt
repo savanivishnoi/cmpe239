@@ -1,0 +1,17 @@
+
+One of the main obstacles to high-
+performance Word Sense Disambigua-
+tion (WSD) is the knowledge acquisi-
+tion bottleneck. In this paper, we present
+a methodology to automatically extend
+WordNet with large amounts of seman-
+tic relations from an encyclopedic re-
+source, namely Wikipedia. We show
+that, when provided with a vast amount
+of high-quality semantic relations, sim-
+ple knowledge-lean disambiguation algo-
+rithms compete with state-of-the-art su-
+pervisedWSD systems in a coarse-grained
+all-words setting and outperform them on
+gold-standard domain-specific datasets.
+1 

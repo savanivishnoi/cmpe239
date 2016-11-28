@@ -1,0 +1,17 @@
+
+Linearization-based HPSG theories are widely
+used for analyzing languages with relatively
+free constituent order. This paper introduces
+the Generalized ID/LP (GIDLP) grammar for-
+mat, which supports a direct encoding of such
+theories, and discusses key aspects of a parser
+that makes use of the dominance, precedence,
+and linearization domain information explicitly
+encoded in this grammar format. We show
+that GIDLP grammars avoid the explosion in
+the number of rules required under a traditional
+phrase structure analysis of free constituent or-
+der. As a result, GIDLP grammars support more
+modular and compact grammar encodings and
+require fewer edges in parsing.
+1 

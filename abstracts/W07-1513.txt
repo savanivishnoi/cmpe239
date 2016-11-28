@@ -1,0 +1,19 @@
+
+We present an approach to automatic se-
+mantic role labeling (SRL) carried out in
+the context of the Dutch Language Corpus
+Initiative (D-Coi) project. Adapting ear-
+lier research which has mainly focused on
+English to the Dutch situation poses an in-
+teresting challenge especially because there
+is no semantically annotated Dutch corpus
+available that can be used as training data.
+Our automatic SRL approach consists of
+three steps: bootstrapping from a syntacti-
+cally annotated corpus by means of a rule-
+based tagger developed for this purpose,
+manual correction on the basis of the Prop-
+Bank guidelines which have been adapted to
+Dutch and training a machine learning sys-
+tem on the manually corrected data.
+1 

@@ -1,0 +1,14 @@
+
+This paper proposes three modules based on
+latent topics of documents for alleviating ?se-
+mantic drift? in bootstrapping entity set ex-
+pansion. These new modules are added to a
+discriminative bootstrapping algorithm to re-
+alize topic feature generation, negative exam-
+ple selection and entity candidate pruning. In
+this study, we model latent topics with LDA
+(Latent Dirichlet Allocation) in an unsuper-
+vised way. Experiments show that the accu-
+racy of the extracted entities is improved by
+6.7 to 28.2% depending on the domain.
+1 

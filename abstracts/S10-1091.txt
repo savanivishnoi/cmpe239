@@ -1,0 +1,13 @@
+
+This paper presents an unsupervised sys-
+tem for all-word domain specific word
+sense disambiguation task. This system
+tags target word with the most frequent
+sense which is estimated using a thesaurus
+and the word distribution information in
+the domain. The thesaurus is automati-
+cally constructed from bilingual parallel
+corpus using paraphrase technique. The
+recall of this system is 43.5% on SemEval-
+2 task 17 English data set.
+1 

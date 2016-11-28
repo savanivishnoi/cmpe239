@@ -1,0 +1,15 @@
+ 
+This paper describes our preliminary at-
+tempt to automatically recognize zero ad-
+nominals, a subgroup of zero pronouns, in 
+Japanese discourse.  Based on the corpus 
+study, we define and classify what we call 
+?argument-taking nouns (ATNs),? i.e., 
+nouns that can appear with zero adnomi-
+nals.  We propose an ATN recognition al-
+gorithm that consists of lexicon-based 
+heuristics, drawn from the observations of 
+our analysis.  We finally present the result 
+of the algorithm evaluation and discuss 
+future directions. 
+1 

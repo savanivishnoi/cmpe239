@@ -1,0 +1,22 @@
+
+We present results of a novel experiment to in-
+vestigate speech production in conversational
+data that links speech rate to information den-
+sity. We provide the first evidence for an asso-
+ciation between syntactic surprisal and word
+duration in recorded speech. Using the AMI
+corpus which contains transcriptions of focus
+group meetings with precise word durations,
+we show that word durations correlate with
+syntactic surprisal estimated from the incre-
+mental Roark parser over and above simpler
+measures, such as word duration estimated
+from a state-of-the-art text-to-speech system
+and word frequencies, and that the syntac-
+tic surprisal estimates are better predictors of
+word durations than a simpler version of sur-
+prisal based on trigram probabilities. This re-
+sult supports the uniform information density
+(UID) hypothesis and points a way to more re-
+alistic artificial speech generation.
+1 

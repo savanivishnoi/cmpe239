@@ -1,0 +1,11 @@
+
+We present a version of Inversion Trans-
+duction Grammar where rule probabili-
+ties are lexicalized throughout the syn-
+chronous parse tree, along with pruning
+techniques for efficient training. Align-
+ment results improve over unlexicalized
+ITG on short sentences for which full EM
+is feasible, but pruning seems to have a
+negative impact on longer sentences.
+1 

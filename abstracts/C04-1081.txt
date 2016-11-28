@@ -1,0 +1,17 @@
+
+Chinese word segmentation is a difficult, im-
+portant and widely-studied sequence modeling
+problem. This paper demonstrates the abil-
+ity of linear-chain conditional random fields
+(CRFs) to perform robust and accurate Chi-
+nese word segmentation by providing a prin-
+cipled framework that easily supports the in-
+tegration of domain knowledge in the form of
+multiple lexicons of characters and words. We
+also present a probabilistic new word detection
+method, which further improves performance.
+Our system is evaluated on four datasets used
+in a recent comprehensive Chinese word seg-
+mentation competition. State-of-the-art perfor-
+mance is obtained.
+1 

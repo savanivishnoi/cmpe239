@@ -1,0 +1,13 @@
+
+This paper describes our submission to
+the WMT10 Shared Evaluation Task and
+MetricsMATR10. We present a version
+of the METEOR-NEXT metric with para-
+phrase tables for five target languages. We
+describe the creation of these paraphrase
+tables and conduct a tuning experiment
+that demonstrates consistent improvement
+across all languages over baseline ver-
+sions of the metric without paraphrase re-
+sources.
+1 

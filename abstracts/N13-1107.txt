@@ -1,0 +1,30 @@
+
+Traditional relation extraction seeks to iden-
+tify pre-specified semantic relations within
+natural language text, while open Information
+Extraction (Open IE) takes a more general ap-
+proach, and looks for a variety of relations
+without restriction to a fixed relation set. With
+this generalization comes the question, what
+is a relation? For example, should the more
+general task be restricted to relations medi-
+ated by verbs, nouns, or both? To help answer
+this question, we propose two levels of sub-
+tasks for Open IE. One task is to determine if
+a sentence potentially contains a relation be-
+tween two entities? The other task looks to
+confirm explicit relation words for two enti-
+ties. We propose multiple SVM models with
+dependency tree kernels for both tasks. For
+explicit relation extraction, our system can ex-
+tract both noun and verb relations. Our results
+on three datasets show that our system is su-
+perior when compared to state-of-the-art sys-
+tems like REVERB and OLLIE for both tasks.
+For example, in some experiments our system
+achieves 33% improvement on nominal rela-
+tion extraction over OLLIE. In addition we
+propose an unsupervised rule-based approach
+which can serve as a strong baseline for Open
+IE systems.
+1 

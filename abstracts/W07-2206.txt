@@ -1,0 +1,22 @@
+
+The C&C CCG parser is a highly efficient
+linguistically motivated parser. The effi-
+ciency is achieved using a tightly-integrated
+supertagger, which assigns CCG lexical cat-
+egories to words in a sentence. The integra-
+tion allows the parser to request more cat-
+egories if it cannot find a spanning anal-
+ysis. We present several enhancements to
+the CKY chart parsing algorithm used by the
+parser. The first proposal is chart repair,
+which allows the chart to be efficiently up-
+dated by adding lexical categories individu-
+ally, and we evaluate several strategies for
+adding these categories. The second pro-
+posal is to add constraints to the chart which
+require certain spans to be constituents. Fi-
+nally, we propose partial beam search to fur-
+ther reduce the search space. Overall, the
+parsing speed is improved by over 35% with
+negligible loss of accuracy or coverage.
+1 

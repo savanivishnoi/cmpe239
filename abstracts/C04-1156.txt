@@ -1,0 +1,16 @@
+ 
+In this paper we present KNOWA, an 
+English/Italian word aligner, developed at ITC-irst, 
+which relies mostly on information contained in 
+bilingual dictionaries. The performances of 
+KNOWA are compared with those of GIZA++, a 
+state of the art statistics-based alignment algorithm. 
+The two algorithms are evaluated on the EuroCor 
+and MultiSemCor tasks, that is on two 
+English/Italian publicly available parallel corpora. 
+The results of the evaluation show that, given the 
+nature and the size of the available English-Italian 
+parallel corpora, a language-resource-based word 
+aligner such as KNOWA can outperform a fully 
+statistics-based algorithm such as GIZA++. 
+1 

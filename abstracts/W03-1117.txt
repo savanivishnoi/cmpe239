@@ -1,0 +1,22 @@
+1  
+Document clustering is an aggregation of 
+related documents to a cluster based on the 
+similarity evaluation task between documents and 
+the representatives of clusters. Terms and their 
+discriminating features of terms are the clue to 
+the clustering and the discriminating features are 
+based on the term and document frequencies. 
+Feature selection method on the basis of 
+frequency statistics has a limitation to the 
+enhancement of the clustering algorithm because 
+it does not consider the contents of the cluster 
+objects. In this paper, we adopt a content-based 
+analytic approach to refine the similarity 
+computation and propose a keyword-based 
+clustering algorithm. Experimental results show 
+that content-based keyword weighting 
+outperforms frequency-based weighting method. 
+Keywords: Document Clustering, Weighting 
+Scheme, Feature Selection 
+ 
+1 

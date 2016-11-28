@@ -1,0 +1,23 @@
+
+The language model (LM) is a critical com-
+ponent in most statistical machine translation
+(SMT) systems, serving to establish a proba-
+bility distribution over the hypothesis space.
+Most SMT systems use a static LM, inde-
+pendent of the source language input. While
+previous work has shown that adapting LMs
+based on the input improves SMT perfor-
+mance, none of the techniques has thus far
+been shown to be feasible for on-line sys-
+tems. In this paper, we develop a novel mea-
+sure of cross-lingual similarity for biasing the
+LM based on the test input. We also illustrate
+an efficient on-line implementation that sup-
+ports integration with on-line SMT systems by
+transferring much of the computational load
+off-line. Our approach yields significant re-
+ductions in target perplexity compared to the
+static LM, as well as consistent improvements
+in SMT performance across language pairs
+(English-Dari and English-Pashto).
+1 

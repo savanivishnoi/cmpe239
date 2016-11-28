@@ -1,0 +1,15 @@
+ 
+This paper describes a system for semantic 
+role labeling for the CoNLL2005 Shared 
+task.  We divide the task into two sub-tasks: 
+boundary recognition by a general tree-
+based predicate-argument recognition algo-
+rithm to convert a parse tree into a flat rep-
+resentation of all predicates and their 
+related boundaries, and role labeling by a 
+consensus model using a pattern-matching 
+framework to find suitable roles for core 
+constituents and adjuncts.  We describe the 
+system architecture and report results for 
+the CoNLL2005 development dataset.  
+1 

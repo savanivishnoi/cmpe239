@@ -1,0 +1,26 @@
+
+Query expansion techniques generally se-
+lect new query terms from a set of top
+ranked documents. Although a user?s
+manual judgment of those documents
+would much help to select good expansion
+terms, it is difficult to get enough feedback
+from users in practical situations. In this
+paper we propose a query expansion tech-
+nique which performs well even if a user
+notifies just a relevant document and a
+non-relevant document. In order to tackle
+this specific condition, we introduce two
+refinements to a well-known query expan-
+sion technique. One is application of a
+transductive learning technique in order to
+increase relevant documents. The other is
+a modified parameter estimation method
+which laps the predictions by multiple
+learning trials and try to differentiate the
+importance of candidate terms for expan-
+sion in relevant documents. Experimen-
+tal results show that our technique outper-
+forms some traditional query expansion
+methods in several evaluation measures.
+1 

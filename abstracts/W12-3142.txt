@@ -1,0 +1,18 @@
+ 
+This paper describes the UPM system for the 
+Spanish-English translation task at the 
+NAACL 2012 workshop on statistical ma-
+chine translation. This system is based on Mo-
+ses. We have used all available free corpora, 
+cleaning and deleting some repetitions. In this 
+paper, we also propose a technique for select-
+ing the sentences for tuning the system. This 
+technique is based on the similarity with the 
+sentences to translate. With our approach, we 
+improve the BLEU score from 28.37% to 
+28.57%. And as a result of the WMT12 chal-
+lenge we have obtained a 31.80% BLEU with 
+the 2012 test set. Finally, we explain different 
+experiments that we have carried out after the 
+competition. 
+1 

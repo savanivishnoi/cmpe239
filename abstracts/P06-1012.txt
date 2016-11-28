@@ -1,0 +1,17 @@
+
+Instances of a word drawn from different
+domains may have different sense priors
+(the proportions of the different senses of
+a word). This in turn affects the accuracy
+of word sense disambiguation (WSD) sys-
+tems trained and applied on different do-
+mains. This paper presents a method to
+estimate the sense priors of words drawn
+from a new domain, and highlights the im-
+portance of using well calibrated probabil-
+ities when performing these estimations.
+By using well calibrated probabilities, we
+are able to estimate the sense priors effec-
+tively to achieve significant improvements
+in WSD accuracy.
+1 

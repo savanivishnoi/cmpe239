@@ -1,0 +1,21 @@
+
+We present a new approach to summary evaluation
+which combines two novel aspects, namely (a) con-
+tent comparison between gold standard summary
+and system summary via factoids, a pseudo-semantic
+representation based on atomic information units
+which can be robustly marked in text, and (b) use
+of a gold standard consensus summary, in our case
+based on 50 individual summaries of one text. Even
+though future work on more than one source text is
+imperative, our experiments indicate that (1) rank-
+ing with regard to a single gold standard summary is
+insufficient as rankings based on any two randomly
+chosen summaries are very dissimilar (correlations
+average ? = 0.20), (2) a stable consensus summary
+can only be expected if a larger number of sum-
+maries are collected (in the range of at least 30-40
+summaries), and (3) similarity measurement using
+unigrams shows a similarly low ranking correlation
+when compared with factoid-based ranking.
+1 

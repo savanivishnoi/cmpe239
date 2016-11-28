@@ -1,0 +1,20 @@
+ 
+This paper is an attempt to show that an inter-
+mediary level of analysis is an effective way 
+for carrying out various NLP tasks for linguis-
+tically similar languages. We describe a 
+process for developing a simple parser for 
+doing such tasks. This parser uses a grammar 
+driven approach to annotate dependency rela-
+tions (both inter and intra chunk) at an inter-
+mediary level. Ease in identifying a particular 
+dependency relation dictates the degree of 
+analysis reached by the parser. To establish ef-
+ficiency of the simple parser we show the im-
+provement in its results over previous gram-
+mar driven dependency parsing approaches for 
+Indian languages like Hindi. We also propose 
+the possibility of usefulness of the simple 
+parser for Indian languages that are similar in 
+nature. 
+1 

@@ -1,0 +1,19 @@
+
+This paper introduces a supervised ap-
+proach for performing sentence level di-
+alect identification between Modern Stan-
+dard Arabic and Egyptian Dialectal Ara-
+bic. We use token level labels to de-
+rive sentence-level features. These fea-
+tures are then used with other core and
+meta features to train a generative clas-
+sifier that predicts the correct label for
+each sentence in the given input text. The
+system achieves an accuracy of 85.5%
+on an Arabic online-commentary dataset
+outperforming a previously proposed ap-
+proach achieving 80.9% and reflecting a
+significant gain over a majority baseline of
+51.9% and two strong baseline systems of
+78.5% and 80.4%, respectively.
+1 

@@ -1,0 +1,20 @@
+
+We investigate the task of assigning medi-
+cal events in clinical narratives to discrete
+time-bins. The time-bins are defined to cap-
+ture when a medical event occurs relative to
+the hospital admission date in each clinical
+narrative. We model the problem as a se-
+quence tagging task using Conditional Ran-
+dom Fields. We extract a combination of lexi-
+cal, section-based and temporal features from
+medical events in each clinical narrative. The
+sequence tagging system outperforms a sys-
+tem that does not utilize any sequence infor-
+mation modeled using a Maximum Entropy
+classifier. We present results with both hand-
+tagged as well as automatically extracted fea-
+tures. We observe over 8% improvement in
+overall tagging accuracy with the inclusion of
+sequence information.
+1 

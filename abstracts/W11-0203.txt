@@ -1,0 +1,26 @@
+
+Accurate phenotype mapping will play an im-
+portant role in facilitating Phenome-Wide As-
+sociation Studies (PheWAS), and potentially
+in other phenomics based studies. The Phe-
+WAS approach investigates the association be-
+tween genetic variation and an extensive range
+of phenotypes in a high-throughput manner to
+better understand the impact of genetic varia-
+tions on multiple phenotypes. Herein we de-
+fine the phenotype mapping problem posed
+by PheWAS analyses, discuss the challenges,
+and present a machine-learning solution. Our
+key ideas include the use of weighted Jaccard
+features and term augmentation by dictionary
+lookup. When compared to string similarity
+metric-based features, our approach improves
+the F-score from 0.59 to 0.73. With augmenta-
+tion we show further improvement in F-score
+to 0.89. For terms not covered by the dictio-
+nary, we use transitive closure inference and
+reach an F-score of 0.91, close to a level suffi-
+cient for practical use. We also show that our
+model generalizes well to phenotypes not used
+in our training dataset.
+1 

@@ -1,0 +1,20 @@
+
+We propose a question answering sys-
+tem which uses an encyclopedia as a
+knowledge base. However, since ex-
+isting encyclopedias lack technical/new
+terms, we use an encyclopedia automat-
+ically generated from the World Wide
+Web. For this purpose, we first search
+the Web for pages containing a term
+in question. Then linguistic patterns
+and HTML structures are used to ex-
+tract text fragments describing the term.
+Finally, extracted term descriptions are
+organized based on word senses and
+domains. We also evaluate our sys-
+tem by way of experiments, where the
+Japanese Information-Technology En-
+gineers Examination is used as a test
+collection.
+1 

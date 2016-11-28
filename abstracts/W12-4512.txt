@@ -1,0 +1,29 @@
+ 
+This paper describes a coreference resolution 
+system for CONLL 2012 shared task 
+developed by HLT_HITSZ group, which 
+incorporates rule-based and statistic-based 
+techniques. The system performs coreference 
+resolution through the mention pair 
+classification and linking. For each detected 
+mention pairs in the text, a Decision Tree (DT) 
+based binary classifier is applied to determine 
+whether they form a coreference. This 
+classifier incorporates 51 and 61 selected 
+features for English and Chinese, respectively. 
+Meanwhile, a rule-based classifier is applied to 
+recognize some specific types of coreference, 
+especially the ones with long distances. The 
+outputs of these two classifiers are merged. 
+Next, the recognized coreferences are linked to 
+generate the final coreference chain. This 
+system is evaluated on English and Chinese 
+sides (Closed Track), respectively. It achieves 
+0.5861 and 0.6003 F1 score on the 
+development data of English and Chinese, 
+respectively. As for the test dataset, the 
+achieved F1 scores are 0.5749 and 0.6508, 
+respectively. This encouraging performance 
+shows the effectiveness of our proposed 
+coreference resolution system. 
+1 

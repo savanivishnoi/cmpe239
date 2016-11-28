@@ -1,0 +1,22 @@
+
+We present a framework where auxiliary
+MT systems are used to provide lexical
+predictions to a main SMT system. In
+this work, predictions are obtained by
+means of pivoting via auxiliary languages,
+and introduced into the main SMT sys-
+tem in the form of a low order language
+model, which is estimated on a sentence-
+by-sentence basis. The linear combination
+of models implemented by the decoder
+is thus extended with this additional lan-
+guage model. Experiments are carried out
+over three different translation tasks using
+the European Parliament corpus. For each
+task, nine additional languages are used
+as auxiliary languages to obtain the trian-
+gulated predictions. Translation accuracy
+results show that improvements in trans-
+lation quality are obtained, even for large
+data conditions.
+1 

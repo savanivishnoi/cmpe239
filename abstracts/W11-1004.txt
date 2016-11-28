@@ -1,0 +1,29 @@
+
+To increase the model coverage, source-
+language paraphrases have been utilized to
+boost SMT system performance. Previous
+work showed that word lattices constructed
+from paraphrases are able to reduce out-of-
+vocabulary words and to express inputs in
+different ways for better translation quality.
+However, such a word-lattice-based method
+suffers from two problems: 1) path dupli-
+cations in word lattices decrease the capac-
+ities for potential paraphrases; 2) lattice de-
+coding in SMT dramatically increases the
+search space and results in poor time effi-
+ciency. Therefore, in this paper, we adopt
+word confusion networks as the input struc-
+ture to carry source-language paraphrase in-
+formation. Similar to previous work, we use
+word lattices to build word confusion net-
+works for merging of duplicated paths and
+faster decoding. Experiments are carried out
+on small-, medium- and large-scale English?
+Chinese translation tasks, and we show that
+compared with the word-lattice-based method,
+the decoding time on three tasks is reduced
+significantly (up to 79%) while comparable
+translation quality is obtained on the large-
+scale task.
+1 

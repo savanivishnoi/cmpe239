@@ -1,0 +1,28 @@
+
+This paper presents a method for an AAC sys-
+tem to predict a whole response given features
+of the previous utterance from the interlocu-
+tor. It uses a large corpus of scripted dialogs,
+computes a variety of lexical, syntactic and
+whole phrase features for the previous utter-
+ance, and predicts features that the response
+should have, using an entropy-based measure.
+We evaluate the system on a held-out portion
+of the corpus. We find that for about 3.5% of
+cases in the held-out corpus, we are able to
+predict a response, and among those, over half
+are either exact or at least reasonable substi-
+tutes for the actual response. We also present
+some results on keystroke savings. Finally
+we compare our approach to a state-of-the-art
+chatbot, and show (not surprisingly) that a sys-
+tem like ours, tuned for a particular style of
+conversation, outperforms one that is not.
+Predicting possible responses automatically
+by mining a corpus of dialogues is a
+novel contribution to the literature on whole
+utterance-based methods in AAC. Also useful,
+we believe, is our estimate that about 3.5-4.0%
+of utterances in dialogs are in principle pre-
+dictable given previous context.
+1 

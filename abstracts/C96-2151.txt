@@ -1,0 +1,16 @@
+ion 
+Christer Samuelsson 
+Universit?t des Saarlandes, FR 8.7, Computcrlinguistik 
+Postfach 1150, D-66041 Saarbrfickcn, Germany 
+Internet: christer?coli.uni-sb, de 
+Abstract  
+A general, practical method for hand- 
+ling sparse data that avoids held-out 
+data and iterative reestimation is derived 
+from first principles. It has been tested 
+on a part-of-speech tagging task and out- 
+performed (deleted) interpolation with 
+context-independent weights, even when 
+the latter used a globally optimal para- 
+meter setting determined a posteriori. 
+1 

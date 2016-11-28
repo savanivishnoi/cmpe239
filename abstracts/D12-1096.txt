@@ -1,0 +1,15 @@
+
+Constituency parser performance is primarily
+interpreted through a single metric, F-score
+on WSJ section 23, that conveys no linguis-
+tic information regarding the remaining errors.
+We classify errors within a set of linguisti-
+cally meaningful types using tree transforma-
+tions that repair groups of errors together. We
+use this analysis to answer a range of ques-
+tions about parser behaviour, including what
+linguistic constructions are difficult for state-
+of-the-art parsers, what types of errors are be-
+ing resolved by rerankers, and what types are
+introduced when parsing out-of-domain text.
+1 

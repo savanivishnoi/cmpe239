@@ -1,0 +1,26 @@
+
+The task of Semantic Role Labeling
+(SRL) is often divided into two sub-tasks:
+verb argument identification, and argu-
+ment classification. Current SRL algo-
+rithms show lower results on the identifi-
+cation sub-task. Moreover, most SRL al-
+gorithms are supervised, relying on large
+amounts of manually created data. In
+this paper we present an unsupervised al-
+gorithm for identifying verb arguments,
+where the only type of annotation required
+is POS tagging. The algorithm makes use
+of a fully unsupervised syntactic parser,
+using its output in order to detect clauses
+and gather candidate argument colloca-
+tion statistics. We evaluate our algorithm
+on PropBank10, achieving a precision of
+56%, as opposed to 47% of a strong base-
+line. We also obtain an 8% increase in
+precision for a Spanish corpus. This is
+the first paper that tackles unsupervised
+verb argument identification without using
+manually encoded rules or extensive lexi-
+cal or syntactic resources.
+1 

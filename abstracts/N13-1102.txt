@@ -1,0 +1,23 @@
+
+In this paper, we propose a multi-step stacked
+learning model for disfluency detection. Our
+method incorporates refined n-gram features
+step by step from different word sequences.
+First, we detect filler words. Second, edited
+words are detected using n-gram features ex-
+tracted from both the original text and filler fil-
+tered text. In the third step, additional n-gram
+features are extracted from edit removed texts
+together with our newly induced in-between
+features to improve edited word detection. We
+useMax-MarginMarkov Networks (M3Ns) as
+the classifier with the weighted hamming loss
+to balance precision and recall. Experiments
+on the Switchboard corpus show that the re-
+fined n-gram features from multiple steps and
+M3Ns with weighted hamming loss can signif-
+icantly improve the performance. Our method
+for disfluency detection achieves the best re-
+ported F-score 0.841 without the use of addi-
+tional resources.1
+1 

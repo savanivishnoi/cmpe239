@@ -1,0 +1,12 @@
+
+The paper describes two parsing schemes:
+a shallow approach based on machine
+learning and a cascaded finite-state parser
+with a hand-crafted grammar. It dis-
+cusses several ways to combine them and
+presents evaluation results for the two in-
+dividual approaches and their combina-
+tion. An underspecification scheme for
+the output of the finite-state parser is intro-
+duced and shown to improve performance.
+1 

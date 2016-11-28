@@ -1,0 +1,16 @@
+ 
+This work describes an online application 
+that uses Natural Language Generation 
+(NLG) methods to generate walking di-
+rections in combination with dynamic 2D 
+visualisation. We make use of third party 
+resources, which provide for a given 
+query (geographic) routes and landmarks 
+along the way. We present a statistical 
+model that can be used for generating 
+natural language directions. This model 
+is trained on a corpus of walking direc-
+tions annotated with POS, grammatical 
+information, frame-semantics and mark-
+up for temporal structure. 
+1 

@@ -1,0 +1,20 @@
+
+In this paper, we present an algorithm for
+learning a generative model of natural lan-
+guage sentences together with their for-
+mal meaning representations with hierarchi-
+cal structures. The model is applied to the
+task of mapping sentences to hierarchical rep-
+resentations of their underlying meaning. We
+introduce dynamic programming techniques
+for efficient training and decoding. In exper-
+iments, we demonstrate that the model, when
+coupled with a discriminative reranking tech-
+nique, achieves state-of-the-art performance
+when tested on two publicly available cor-
+pora. The generative model degrades robustly
+when presented with instances that are differ-
+ent from those seen in training. This allows
+a notable improvement in recall compared to
+previous models.
+1 

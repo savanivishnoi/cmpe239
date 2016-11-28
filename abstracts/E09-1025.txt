@@ -1,0 +1,18 @@
+
+In this paper, we explore ways of improv-
+ing an inference rule collection and its ap-
+plication to the task of recognizing textual
+entailment. For this purpose, we start with
+an automatically acquired collection and
+we propose methods to refine it and ob-
+tain more rules using a hand-crafted lex-
+ical resource. Following this, we derive
+a dependency-based structure representa-
+tion from texts, which aims to provide a
+proper base for the inference rule appli-
+cation. The evaluation of our approach
+on the recognizing textual entailment data
+shows promising results on precision and
+the error analysis suggests possible im-
+provements.
+1 

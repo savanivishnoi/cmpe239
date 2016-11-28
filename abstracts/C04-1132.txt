@@ -1,0 +1,19 @@
+
+This paper proposes a method to improve
+the robustness of a word sense disambigua-
+tion (WSD) system for Japanese. Two
+WSD classifiers are trained from a word
+sense-tagged corpus: one is a classifier ob-
+tained by supervised learning, the other is
+a classifier using hypernyms extracted from
+definition sentences in a dictionary. The for-
+mer will be suitable for the disambiguation
+of high frequency words, while the latter is
+appropriate for low frequency words. A ro-
+bust WSD system will be constructed by
+combining these two classifiers. In our ex-
+periments, the F-measure and applicability
+of our proposed method were 3.4% and 10%
+greater, respectively, compared with a single
+classifier obtained by supervised learning.
+1 

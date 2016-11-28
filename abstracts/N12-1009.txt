@@ -1,0 +1,25 @@
+
+A citing sentence is one that appears in a sci-
+entific article and cites previous work. Cit-
+ing sentences have been studied and used in
+many applications. For example, they have
+been used in scientific paper summarization,
+automatic survey generation, paraphrase iden-
+tification, and citation function classification.
+Citing sentences that cite multiple papers are
+common in scientific writing. This observa-
+tion should be taken into consideration when
+using citing sentences in applications. For in-
+stance, when a citing sentence is used in a
+summary of a scientific paper, only the frag-
+ments of the sentence that are relevant to the
+summarized paper should be included in the
+summary. In this paper, we present and com-
+pare three different approaches for identifying
+the fragments of a citing sentence that are re-
+lated to a given target reference. Our methods
+are: word classification, sequence labeling,
+and segment classification. Our experiments
+show that segment classification achieves the
+best results.
+1 

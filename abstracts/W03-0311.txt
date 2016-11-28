@@ -1,0 +1,20 @@
+
+Example-based machine translation (EBMT)
+is a promising translation method for speech-
+to-speech translation because of its robust-
+ness. It retrieves example sentences similar to
+the input and adjusts their translations to ob-
+tain the output. However, it has problems in
+that the performance degrades when input sen-
+tences are long and when the style of inputs
+and that of the example corpus are different.
+This paper proposes a method for retrieving
+?meaning-equivalent sentences? to overcome
+these two problems. A meaning-equivalent
+sentence shares the main meaning with an in-
+put despite lacking some unimportant informa-
+tion. The translations of meaning-equivalent
+sentences correspond to ?rough translations.?
+The retrieval is based on content words, modal-
+ity, and tense.
+1 

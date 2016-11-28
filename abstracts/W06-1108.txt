@@ -1,0 +1,17 @@
+
+We examine various string distance mea-
+sures for suitability in modeling dialect
+distance, especially its perception. We find
+measures superior which do not normalize
+for word length, but which are are sensi-
+tive to order. We likewise find evidence for
+the superiority of measures which incor-
+porate a sensitivity to phonological con-
+text, realized in the form of n-grams?
+although we cannot identify which form
+of context (bigram, trigram, etc.) is best.
+However, we find no clear benefit in us-
+ing gradual as opposed to binary segmen-
+tal difference when calculating sequence
+distances.
+1 

@@ -1,0 +1,26 @@
+
+Dependency parsers are critical components
+within many NLP systems. However, cur-
+rently available dependency parsers each ex-
+hibit at least one of several weaknesses, in-
+cluding high running time, limited accuracy,
+vague dependency labels, and lack of non-
+projectivity support. Furthermore, no com-
+monly used parser provides additional shal-
+low semantic interpretation, such as prepo-
+sition sense disambiguation and noun com-
+pound interpretation. In this paper, we present
+a new dependency-tree conversion of the Penn
+Treebank along with its associated fine-grain
+dependency labels and a fast, accurate parser
+trained on it. We explain how a non-projective
+extension to shift-reduce parsing can be in-
+corporated into non-directional easy-first pars-
+ing. The parser performs well when evalu-
+ated on the standard test section of the Penn
+Treebank, outperforming several popular open
+source dependency parsers; it is, to the best
+of our knowledge, the first dependency parser
+capable of parsing more than 75 sentences per
+second at over 93% accuracy.
+1 

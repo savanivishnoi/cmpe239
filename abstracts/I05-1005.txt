@@ -1,0 +1,13 @@
+. Japanese relative clause constructions (RCC?s) are defined as
+being the NP?s of structure ?S NP?, noting the lack of a relative pronoun
+or any other explicit form of noun-clause demarcation. Japanese relative
+clause modification should be classified into at least two major semantic
+types: case-slot gapping and head restrictive. However, these types for
+relative clause modification cannot apparently be distinguished. In this
+paper we propose a method of identifying a RCC?s type with a machine
+learning technique. The features used in our approach are not only rep-
+resenting RCC?s characteristics, but also automatically obtained from
+large corpora. The results we obtained from evaluation revealed that our
+method outperformed the traditional case frame-based method, and the
+features that we presented were effective in identifying RCC?s types.
+1 

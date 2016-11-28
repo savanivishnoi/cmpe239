@@ -1,0 +1,18 @@
+
+
+ In this paper we report results of a
+supervised machine-learning approach to
+Chinese word segmentation. First, a maximum
+entropy tagger is trainedonmanually annotated
+data to automatically labels the characters with
+tagsthatindicatethepositionofcharacterwithin
+a word. An error-driven transformation-based
+tagger is then trained to clean up the tagging
+inconsistencies of the first tagger. The tagged
+output is then converted into segmented text.
+The preliminary results show that this approach
+is competitive compared with other supervised
+machine-learning segmenters reported in
+previousstudies.
+
+1 

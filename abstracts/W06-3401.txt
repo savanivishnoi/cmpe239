@@ -1,0 +1,18 @@
+
+This paper investigates the usefulness of
+prosodic features in classifying rhetori-
+cal relations between utterances in meet-
+ing recordings. Five rhetorical relations
+of contrast, elaboration, summary, ques-
+tion and cause are explored. Three train-
+ing methods - supervised, unsupervised,
+and combined - are compared, and classi-
+fication is carried out using support vector
+machines. The results of this pilot study
+are encouraging but mixed, with pairwise
+classification achieving an average of 68%
+accuracy in discerning between relation
+pairs using only prosodic features, but
+multi-class classification performing only
+slightly better than chance.
+1 

@@ -1,0 +1,46 @@
+
+During the last decade, there has been
+a shift from developing natural lan-
+guage generation systems to developing
+generic systems that are capable of pro-
+ducing natural language descriptions di-
+rectly from Web ontologies. To make
+these descriptions coherent and accessi-
+ble in different languages, a methodol-
+ogy is needed for identifying the gen-
+eral principles that would determine the
+distribution of referential forms. Pre-
+vious work has proved through cross-
+linguistic investigations that strategies for
+building coreference are language depen-
+dent. However, to our knowledge, there is
+no language generation methodology that
+makes a distinction between languages
+about the generation of referential chains.
+To determine the principles governing
+referential chains, we gathered data from
+three languages: English, Swedish and
+Hebrew, and studied how coreference is
+expressed in a discourse. As a result of
+the study, a set of language specific coref-
+erence strategies were identified. Using
+these strategies, an ontology-based mul-
+tilingual grammar for generating writ-
+ten natural language descriptions about
+paintings was implemented in the Gram-
+matical Framework. A preliminary eval-
+uation of our method shows language-
+dependent coreference strategies lead to
+better generation results.
+createdBy (Guernica, PabloPicasso)
+currentLocation (Guernica, MuseoReinaSof?a)
+hasColor (Guernica, White)
+hasColor (Guernica, Gray)
+hasColor (Guernica, Black)
+Guernica is created by Pablo Picasso.
+Guernica has as current location the Museo
+Reina Sof?a. Guernica has as color
+White, Gray and Black.
+Figure 1: A natural language description generated
+from a set of ontology statements.
+1 

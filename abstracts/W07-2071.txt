@@ -1,0 +1,21 @@
+
+Words in the context of a target word
+have long been used as features by su-
+pervised word-sense classifiers. Moham-
+mad and Hirst (2006a) proposed a way to
+determine the strength of association be-
+tween a sense or concept and co-occurring
+words?the distributional profile of a con-
+cept (DPC)?without the use of manually
+annotated data. We implemented an unsu-
+pervised na??ve Bayes word sense classifier
+using these DPCs that was best or within
+one percentage point of the best unsuper-
+vised systems in the Multilingual Chinese?
+English Lexical Sample Task (task #5) and
+the English Lexical Sample Task (task #17).
+We also created a simple PMI-based classi-
+fier to attempt the English Lexical Substi-
+tution Task (task #10); however, its perfor-
+mance was poor.
+1 

@@ -1,0 +1,12 @@
+
+This paper describes a computational ap-
+proach to resolving the true referent of a
+named mention of a person in the body of an
+email. A generative model of mention gener-
+ation is used to guide mention resolution. Re-
+sults on three relatively small collections indi-
+cate that the accuracy of this approach com-
+pares favorably to the best known techniques,
+and results on the full CMU Enron collection
+indicate that it scales well to larger collections.
+1 

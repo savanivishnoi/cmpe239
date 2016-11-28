@@ -1,0 +1,27 @@
+
+This paper investigates the impact on French
+dependency parsing of lexical generalization
+methods beyond lemmatization and morpho-
+logical analysis. A distributional thesaurus
+is created from a large text corpus and used
+for distributional clustering and WordNet au-
+tomatic sense ranking. The standard approach
+for lexical generalization in parsing is to map
+a word to a single generalized class, either re-
+placing the word with the class or adding a
+new feature for the class. We use a richer
+framework that allows for probabilistic gener-
+alization, with a word represented as a prob-
+ability distribution over a space of general-
+ized classes: lemmas, clusters, or synsets.
+Probabilistic lexical information is introduced
+into parser feature vectors by modifying the
+weights of lexical features. We obtain im-
+provements in parsing accuracy with some
+lexical generalization configurations in exper-
+iments run on the French Treebank and two
+out-of-domain treebanks, with slightly better
+performance for the probabilistic lexical gen-
+eralization approach compared to the standard
+single-mapping approach.
+1 

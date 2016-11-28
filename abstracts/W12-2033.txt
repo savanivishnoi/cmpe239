@@ -1,0 +1,21 @@
+
+This paper describes the Nara Institute of Sci-
+ence and Technology (NAIST) error correc-
+tion system in the Helping Our Own (HOO)
+2012 Shared Task. Our system targets prepo-
+sition and determiner errors with spelling cor-
+rection as a pre-processing step. The re-
+sult shows that spelling correction improves
+the Detection, Correction, and Recognition F-
+scores for preposition errors. With regard to
+preposition error correction, F-scores were not
+improved when using the training set with cor-
+rection of all but preposition errors. As for
+determiner error correction, there was an im-
+provement when the constituent parser was
+trained with a concatenation of treebank and
+modified treebank where all the articles ap-
+pearing as the first word of an NP were re-
+moved. Our system ranked third in preposi-
+tion and fourth in determiner error corrections.
+1 

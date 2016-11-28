@@ -1,0 +1,21 @@
+
+Recent work has shown that compositional-
+distributional models using element-wise op-
+erations on contextual word vectors benefit
+from the introduction of a prior disambigua-
+tion step. The purpose of this paper is to
+generalise these ideas to tensor-based models,
+where relational words such as verbs and ad-
+jectives are represented by linear maps (higher
+order tensors) acting on a number of argu-
+ments (vectors). We propose disambiguation
+algorithms for a number of tensor-based mod-
+els, which we then test on a variety of tasks.
+The results show that disambiguation can pro-
+vide better compositional representation even
+for the case of tensor-based models. Further-
+more, we confirm previous findings regarding
+the positive effect of disambiguation on vec-
+tor mixture models, and we compare the ef-
+fectiveness of the two approaches.
+1 

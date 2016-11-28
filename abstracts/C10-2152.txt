@@ -1,0 +1,24 @@
+ 
+Recent years have witnessed a large body of 
+research works on cross-domain sentiment 
+classification problem, where most of the re-
+search endeavors were based on a supervised 
+learning strategy which builds models from 
+only the labeled documents or only the labeled 
+sentiment words. Unfortunately, such kind of 
+supervised learning method usually fails to 
+uncover the full knowledge between docu-
+ments and sentiment words. Taking account of 
+this limitation, in this paper, we propose an it-
+erative reinforcement learning approach for 
+cross-domain sentiment classification by si-
+multaneously utilizing documents and words 
+from both source domain and target domain. 
+Our new method can make full use of the rein-
+forcement between documents and words by 
+fusing four kinds of relationships between 
+documents and words. Experimental results 
+indicate that our new method can improve the 
+performance of cross-domain sentiment classi-
+fication dramatically. 
+1 

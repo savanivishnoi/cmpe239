@@ -1,0 +1,20 @@
+
+Verb classes which integrate a wide range
+of linguistic properties (Levin, 1993) have
+proved useful for natural language pro-
+cessing (NLP) applications. However,
+the real-world use of these classes has
+been limited because for most languages,
+no resources similar to VerbNet (Kipper-
+Schuler, 2005) are available. We apply
+a verb clustering approach developed for
+English to French ? a language for which
+no such experiment has been conducted
+yet. Our investigation shows that not only
+the general methodology but also the best
+performing features are transferable be-
+tween the languages, making it possible
+to learn useful VerbNet style classes for
+French automatically without language-
+specific tuning.
+1 

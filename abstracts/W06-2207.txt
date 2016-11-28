@@ -1,0 +1,17 @@
+
+In this paper we present a hybrid ap-
+proach for the acquisition of syntactico-
+semantic patterns from raw text. Our
+approach co-trains a decision list learner
+whose feature space covers the set of all
+syntactico-semantic patterns with an Ex-
+pectation Maximization clustering algo-
+rithm that uses the text words as attributes.
+We show that the combination of the two
+methods always outperforms the decision
+list learner alone. Furthermore, using a
+modular architecture we investigate sev-
+eral algorithms for pattern ranking, the
+most important component of the decision
+list learner.
+1 

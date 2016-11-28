@@ -1,0 +1,31 @@
+ 
+We present the Dependency Parser, 
+called Maxuxta, for the linguistic 
+processing of Basque, which can serve 
+as a representative of agglutinative 
+languages that are also characterized by 
+the free order of its constituents. The 
+Dependency syntactic model is applied 
+to establish the dependency-based 
+grammatical relations between the 
+components within the clause. Such a 
+deep analysis is used to improve the 
+output of the shallow parsing where 
+syntactic structure ambiguity is not fully 
+and explicitly resolved. Previous to the 
+completion of the grammar for the 
+dependency parsing, the design of the 
+Dependency Structure-based Scheme 
+had to be accomplished; we concentrated 
+on issues that must be resolved by any 
+practical system that uses such models. 
+This scheme was used both to the 
+manual tagging of the corpus and to 
+develop the parser. The manually tagged 
+corpus has been used to evaluate the 
+accuracy of the parser. We have 
+evaluated the application of the grammar 
+to corpus, measuring the linking of the 
+verb with its dependents, with 
+satisfactory results. 
+1 

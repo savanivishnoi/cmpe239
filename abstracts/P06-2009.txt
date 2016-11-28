@@ -1,0 +1,21 @@
+
+Pipeline computation, in which a task is
+decomposed into several stages that are
+solved sequentially, is a common compu-
+tational strategy in natural language pro-
+cessing. The key problem of this model
+is that it results in error accumulation and
+suffers from its inability to correct mis-
+takes in previous stages. We develop
+a framework for decisions made via in
+pipeline models, which addresses these
+difficulties, and presents and evaluates it
+in the context of bottom up dependency
+parsing for English. We show improve-
+ments in the accuracy of the inferred trees
+relative to existing models. Interestingly,
+the proposed algorithm shines especially
+when evaluated globally, at a sentence
+level, where our results are significantly
+better than those of existing approaches.
+1 

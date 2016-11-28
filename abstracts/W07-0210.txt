@@ -1,0 +1,30 @@
+
+We study the correlations in the connec-
+tivity patterns of large scale syntactic de-
+pendency networks. These networks are
+induced from treebanks: their vertices de-
+note word forms which occur as nuclei
+of dependency trees. Their edges con-
+nect pairs of vertices if at least two in-
+stance nuclei of these vertices are linked
+in the dependency structure of a sentence.
+We examine the syntactic dependency net-
+works of seven languages. In all these
+cases, we consistently obtain three find-
+ings. Firstly, clustering, i.e., the probabil-
+ity that two vertices which are linked to
+a common vertex are linked on their part,
+is much higher than expected by chance.
+Secondly, the mean clustering of vertices
+decreases with their degree ? this find-
+ing suggests the presence of a hierarchical
+network organization. Thirdly, the mean
+degree of the nearest neighbors of a ver-
+tex x tends to decrease as the degree of
+x grows ? this finding indicates disassor-
+tative mixing in the sense that links tend
+to connect vertices of dissimilar degrees.
+Our results indicate the existence of com-
+mon patterns in the large scale organiza-
+tion of syntactic dependency networks.
+1 

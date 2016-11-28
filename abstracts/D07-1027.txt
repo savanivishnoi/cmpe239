@@ -1,0 +1,23 @@
+
+To date, work on Non-Local Dependencies
+(NLDs) has focused almost exclusively on
+English and it is an open research question
+how well these approaches migrate to other
+languages. This paper surveys non-local de-
+pendency constructions in Chinese as repre-
+sented in the Penn Chinese Treebank (CTB)
+and provides an approach for generating
+proper predicate-argument-modifier struc-
+tures including NLDs from surface context-
+free phrase structure trees. Our approach re-
+covers non-local dependencies at the level
+of Lexical-Functional Grammar f-structures,
+using automatically acquired subcategorisa-
+tion frames and f-structure paths linking an-
+tecedents and traces in NLDs. Currently our
+algorithm achieves 92.2% f-score for trace
+insertion and 84.3% for antecedent recovery
+evaluating on gold-standard CTB trees, and
+64.7% and 54.7%, respectively, on CTB-
+trained state-of-the-art parser output trees.
+1 

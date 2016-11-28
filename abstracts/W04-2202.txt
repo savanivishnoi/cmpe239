@@ -1,0 +1,18 @@
+
+While alignment of texts on the sentential level
+is often seen as being too coarse, and word align-
+ment as being too fine-grained, bi- or multi-
+lingual texts which are aligned on a level in-
+between are a useful resource for many pur-
+poses. Starting from a number of examples of
+non-literal translations, which tend to make
+alignment difficult, we describe an alignment
+model which copes with these cases by explicitly
+coding them. The model is based on predicate-
+argument structures and thus covers the middle
+ground between sentence and word alignment.
+The model is currently used in a recently initi-
+ated project of a parallel English-German tree-
+bank (FuSe), which can in principle be extended
+with additional languages.
+1 

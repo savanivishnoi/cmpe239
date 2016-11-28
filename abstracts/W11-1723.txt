@@ -1,0 +1,28 @@
+ 
+ 
+News articles have always been a 
+prominent force in the formation of a 
+company?s financial image in the minds 
+of the general public, especially the 
+investors. Given the large amount of 
+news being generated these days through 
+various websites, it is possible to mine the 
+general sentiment of a particular company 
+being portrayed by media agencies over a 
+period of time, which can be utilized to 
+gauge the long term impact on the 
+investment potential of the company. 
+However, given such a vast amount of 
+news data, we need to first separate 
+corporate news from other kinds namely, 
+sports, entertainment, science & 
+technology, etc. We propose a system 
+which takes news as, checks whether it is 
+of corporate nature, and then identifies 
+the polarity of the sentiment expressed in 
+the news. The system is also capable of 
+distinguishing the company/organization 
+which is the subject of the news from 
+other organizations which find mention, 
+and this is used to pair the sentiment 
+polarity with the identified company. 

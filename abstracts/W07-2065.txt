@@ -1,0 +1,17 @@
+
+This article describes the implementation
+of Word Sense Disambiguation system that
+participated in the SemEval-2007 multilin-
+gual Chinese-English lexical sample task.
+We adopted a supervised learning approach
+with Maximum Entropy classifier. The fea-
+tures used were neighboring words and their
+part-of-speech, as well as single words in the
+context, and other syntactic features based
+on shallow parsing. In addition, we used
+word category information of a Chinese the-
+saurus as features for verb disambiguation.
+For the task we participated in, we obtained
+precision of 0.716 in micro-average, which
+is the best among all participated systems.
+1 

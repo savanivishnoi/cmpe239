@@ -1,0 +1,23 @@
+
+We extended language modeling ap-
+proaches in information retrieval (IR) to
+combine collaborative filtering (CF) and
+content-based filtering (CBF). Our ap-
+proach is based on the analogy between
+IR and CF, especially between CF and rel-
+evance feedback (RF). Both CF and RF
+exploit users? preference/relevance judg-
+ments to recommend items. We first in-
+troduce a multinomial model that com-
+bines CF and CBF in a language modeling
+framework. We then generalize the model
+to another multinomial model that approx-
+imates the Polya distribution. This gener-
+alized model outperforms the multinomial
+model by 3.4% for CBF and 17.4% for
+CF in recommending English Wikipedia
+articles. The performance of the gener-
+alized model for three different datasets
+was comparable to that of a state-of-the-
+art item-based CF method.
+1 

@@ -1,0 +1,21 @@
+
+We propose a novel approach to translating
+from a morphologically complex language.
+Unlike previous research, which has targeted
+word inflections and concatenations, we fo-
+cus on the pairwise relationship between mor-
+phologically related words, which we treat as
+potential paraphrases and handle using para-
+phrasing techniques at the word, phrase, and
+sentence level. An important advantage of
+this framework is that it can cope with deriva-
+tional morphology, which has so far remained
+largely beyond the capabilities of statistical
+machine translation systems. Our experiments
+translating from Malay, whose morphology is
+mostly derivational, into English show signif-
+icant improvements over rivaling approaches
+based on five automatic evaluation measures
+(for 320,000 sentence pairs; 9.5 million En-
+glish word tokens).
+1 

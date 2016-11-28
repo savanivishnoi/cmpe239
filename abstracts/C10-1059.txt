@@ -1,0 +1,17 @@
+
+We describe the implementation of
+reranking models for fine-grained opinion
+analysis ? marking up opinion expres-
+sions and extracting opinion holders. The
+reranking approach makes it possible
+to model complex relations between
+multiple opinions in a sentence, allowing
+us to represent how opinions interact
+through the syntactic and semantic
+structure. We carried out evaluations on
+the MPQA corpus, and the experiments
+showed significant improvements over a
+conventional system that only uses local
+information: for both tasks, our system
+saw recall boosts of over 10 points.
+1 

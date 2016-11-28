@@ -1,0 +1,19 @@
+
+In a broad range of natural language pro-
+cessing tasks, large-scale knowledge-base of
+paraphrases is anticipated to improve their
+performance. The key issue in creating such
+a resource is to establish a practical method
+of computing semantic equivalence and syn-
+tactic substitutability, i.e., paraphrasability,
+between given pair of expressions. This
+paper addresses the issues of computing
+paraphrasability, focusing on syntactic vari-
+ants of predicate phrases. Our model esti-
+mates paraphrasability based on traditional
+distributional similarity measures, where the
+Web snippets are used to overcome the data
+sparseness problem in handling predicate
+phrases. Several feature sets are evaluated
+through empirical experiments.
+1 

@@ -1,0 +1,14 @@
+
+In order to achieve the long-range goal
+of semantic interpretation of noun com-
+pounds, it is often necessary to first de-
+termine their syntactic structure. This pa-
+per describes an unsupervised method for
+noun compound bracketing which extracts
+statistics from Web search engines using a
+?2 measure, a new set of surface features,
+and paraphrases. On a gold standard, the
+system achieves results of 89.34% (base-
+line 66.80%), which is a sizable improve-
+ment over the state of the art (80.70%).
+1 

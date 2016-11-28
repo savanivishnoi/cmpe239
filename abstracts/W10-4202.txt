@@ -1,0 +1,18 @@
+
+This paper presents an easy-to-adapt,
+discourse-aware framework that can be
+utilized as the content selection compo-
+nent of a generation system whose goal is
+to deliver descriptive texts in several turns.
+Our framework involves a novel use of a
+graph-based ranking algorithm, to itera-
+tively determine what content to convey to
+a given request while taking into account
+various considerations such as capturing a
+priori importance of information, convey-
+ing related information, avoiding redun-
+dancy, and incorporating the effects of dis-
+course history. We illustrate and evaluate
+this framework in an accessibility system
+for sight-impaired individuals.
+1 

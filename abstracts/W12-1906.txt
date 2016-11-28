@@ -1,0 +1,20 @@
+
+Some of the most used models for statis-
+tical word alignment are the IBM models.
+Although these models generate acceptable
+alignments, they do not exploit the rich in-
+formation found in lexical resources, and as
+such have no reasonable means to choose bet-
+ter translations for specific senses.
+We try to address this issue by extending the
+IBM HMM model with an extra hidden layer
+which represents the senses a word can take,
+allowing similar words to share similar output
+distributions. We test a preliminary version of
+this model on English-French data. We com-
+pare different ways of generating senses and
+assess the quality of the alignments relative to
+the IBM HMM model, as well as the gener-
+ated sense probabilities, in order to gauge the
+usefulness in Word Sense Disambiguation.
+1 

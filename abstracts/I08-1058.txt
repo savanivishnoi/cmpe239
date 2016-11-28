@@ -1,0 +1,25 @@
+
+Computer users increasingly need to pro-
+duce text written in multiple languages.
+However, typical computer interfaces re-
+quire the user to change the text entry soft-
+ware each time a different language is used.
+This is cumbersome, especially when lan-
+guage changes are frequent.
+To solve this problem, we propose TypeAny,
+a novel front-end interface that detects the
+language of the user?s key entry and au-
+tomatically dispatches the input to the ap-
+propriate text entry system. Unlike previ-
+ously reported methods, TypeAny can han-
+dle more than two languages, and can easily
+support any new language even if the avail-
+able corpus is small.
+When evaluating this method, we obtained
+language detection accuracy of 96.7% when
+an appropriate language had to be chosen
+from among three languages. The number of
+control actions needed to switch languages
+was decreased over 93% when using Ty-
+peAny rather than a conventional method.
+1 

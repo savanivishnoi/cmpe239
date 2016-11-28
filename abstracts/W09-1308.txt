@@ -1,0 +1,29 @@
+
+Dictionaries of biomedical concepts (e.g. dis-
+eases, medical treatments) are critical source
+of background knowledge for systems doing
+biomedical information retrieval, extraction,
+and automated discovery. However, the rapid
+pace of biomedical research and the lack of
+constraints on usage ensure that such dictio-
+naries are incomplete. Focusing on medical
+treatment concepts (e.g. drugs, medical pro-
+cedures and medical devices), we have devel-
+oped an unsupervised, iterative pattern learn-
+ing approach for constructing a comprehen-
+sive dictionary of medical treatment terms
+from randomized clinical trial (RCT) ab-
+stracts. We have investigated different meth-
+ods of seeding, either with a seed pattern or
+seed instances (terms), and have compared
+different ranking methods for ranking ex-
+tracted context patterns and instances. When
+used to identify treatment concepts from 100
+randomly chosen, manually annotated RCT
+abstracts, our medical treatment dictionary
+shows better performance (precision:0.40, re-
+call: 0.92 and F-measure: 0.54) over the
+most widely used manually created medical
+treatment terminology (precision: 0.41, recall:
+0.52 and F-measure: 0.42).
+1 

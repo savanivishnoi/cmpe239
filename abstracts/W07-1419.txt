@@ -1,0 +1,17 @@
+
+Latent Semantic Analysis has only recently
+been applied to textual entailment recogni-
+tion. However, these efforts have suffered
+from inadequate bag of words vector repre-
+sentations. Our prototype implementation
+for the Third Recognising Textual Entail-
+ment Challenge (RTE-3) improves the ap-
+proach by applying it to vector represen-
+tations that contain semi-structured repre-
+sentations of words. It uses variable size
+n-grams of word stems to model indepen-
+dently verbs, subjects and objects displayed
+in textual statements. The system perfor-
+mance shows positive results and provides
+insights about how to improve them further.
+1 

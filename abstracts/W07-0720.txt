@@ -1,0 +1,23 @@
+
+This paper describes the 2007 Ngram-based sta-
+tistical machine translation system developed at
+the TALP Research Center of the UPC (Uni-
+versitat Polite`cnica de Catalunya) in Barcelona.
+Emphasis is put on improvements and extensions
+of the previous years system, being highlighted
+and empirically compared. Mainly, these include
+a novel word ordering strategy based on: (1) sta-
+tistically monotonizing the training source cor-
+pus and (2) a novel reordering approach based
+on weighted reordering graphs. In addition, this
+system introduces a target language model based
+on statistical classes, a feature for out-of-domain
+units and an improved optimization procedure.
+The paper provides details of this system par-
+ticipation in the ACL 2007 SECOND WORK-
+SHOP ON STATISTICAL MACHINE TRANSLA-
+TION. Results on three pairs of languages are
+reported, namely from Spanish, French and Ger-
+man into English (and the other way round) for
+both the in-domain and out-of-domain tasks.
+1 

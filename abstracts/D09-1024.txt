@@ -1,0 +1,20 @@
+
+We present a method to align words in
+a bitext that combines elements of a tra-
+ditional statistical approach with linguis-
+tic knowledge. We demonstrate this ap-
+proach for Arabic-English, using an align-
+ment lexicon produced by a statistical
+word aligner, as well as linguistic re-
+sources ranging from an English parser
+to heuristic alignment rules for function
+words. These linguistic heuristics have
+been generalized from a development cor-
+pus of 100 parallel sentences. Our aligner,
+UALIGN, outperforms both the commonly
+used GIZA++ aligner and the state-of-the-
+art LEAF aligner on F-measure and pro-
+duces superior scores in end-to-end sta-
+tistical machine translation, +1.3 BLEU
+points over GIZA++, and +0.7 over LEAF.
+1 

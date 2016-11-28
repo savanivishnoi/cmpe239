@@ -1,0 +1,22 @@
+
+We describe a ?How was your day??
+(HWYD) Companion whose purpose is to
+establish a comforting and supportive rela-
+tionship with a user via a conversation on
+a variety of work-related topics. The sys-
+tem has several fairly novel features aimed
+at increasing the naturalness of the interac-
+tion: a rapid ?short loop? response primed
+by the results of acoustic emotion anal-
+ysis, and an ?interruption manager?, en-
+abling the user to interrupt lengthy or ap-
+parently inappropriate system responses,
+prompting a replanning of behaviour on
+the part of the system. The ?long loop?
+also takes into account the emotional state
+of the user, but using more conventional
+dialogue management and planning tech-
+niques. We describe the architecture and
+components of the implemented prototype
+HWYD system.
+1 

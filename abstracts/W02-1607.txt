@@ -1,0 +1,18 @@
+
+The most difficult task in machine translation is the elimination of  ambiguity in human
+languages. A certain word in English as well as Vietnamese often has different  meanings
+which depend on their syntactical position in the sentence and the actual context. In order to
+solve this ambiguation, formerly, people used to resort to many hand-coded rules.
+Nevertheless, manually building these rules  is a time-consuming and exhausting task. So,
+we suggest an automatic method to solve the above-mentioned problem by using
+semantically tagged corpus. In this paper, we mainly present building a semantically tagged
+bilingual corpus to word sense disambiguation (WSD) in English texts. To assign semantic
+tags, we have taken advantage of  bilingual texts via word alignments with semantic class
+names of LLOCE (Longman Lexicon of Contemporary English). So far, we have built
+5,000,000-word bilingual corpus in which 1,000,000 words have been semantically
+annotated with the accuracy of 70%. We have evaluated our result of semantic tagging by
+comparing with SEMCOR on SUSANNE part of our corpus. This semantically annotated
+corpus will be used to extract disambiguation rules automatically by TBL (Transformation-
+based Learning) method. These rules will be manually revised  before being applied to the
+WSD module in the English-to-Vietnamese Translation (EVT) system.
+1 

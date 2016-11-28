@@ -1,0 +1,8 @@
+ 
+We describe how we constructed an automatic scoring function for machine translation quality; 
+this function makes use of arbitrarily many pieces of natural anguage processing software that 
+has been designed to process English language text. By machine-learning values of fnnctions 
+available inside the software and by constructing functions that yield values based upon the 
+software output, we are able to achieve preliminary, positive results in machine-learning the 
+difference between human-produced English and machine-translation E glish. We suggest 
+how the scoring ftmction may be used for MT system development. 

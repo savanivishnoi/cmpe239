@@ -1,0 +1,16 @@
+
+This paper presents METEOR-NEXT, an ex-
+tended version of the METEOR metric de-
+signed to have high correlation with post-
+editing measures of machine translation qual-
+ity. We describe changes made to the met-
+ric?s sentence aligner and scoring scheme as
+well as a method for tuning the metric?s pa-
+rameters to optimize correlation with human-
+targeted Translation Edit Rate (HTER). We
+then show that METEOR-NEXT improves cor-
+relation with HTER over baseline metrics, in-
+cluding earlier versions of METEOR, and ap-
+proaches the correlation level of a state-of-the-
+art metric, TER-plus (TERp).
+1 

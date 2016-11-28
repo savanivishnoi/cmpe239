@@ -1,0 +1,24 @@
+
+Grammar development makes up a large
+part of the multilingual rule-based appli-
+cation development cycle. One way to
+decrease the required grammar develop-
+ment efforts is to base the systems on
+multilingual grammar resources. This pa-
+per presents a detailed description of a
+parametrization mechanism used for build-
+ing multilingual grammar rules. We show
+how these rules, which had originally been
+designed and developed for typologically
+different languages (English, Japanese and
+Finnish) are applied to a new language
+(Greek). The developed shared grammar
+system has been implemented for a do-
+main specific speech-to-speech translation
+application. A majority of these rules
+(54%) are shared amongst the four lan-
+guages, 75% of the rules are shared for at
+least two languages. The main benefit of
+the described approach is shorter develop-
+ment cycles for new system languages.
+1 

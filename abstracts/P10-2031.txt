@@ -1,0 +1,17 @@
+
+Developing features has been shown cru-
+cial to advancing the state-of-the-art in Se-
+mantic Role Labeling (SRL). To improve
+Chinese SRL, we propose a set of ad-
+ditional features, some of which are de-
+signed to better capture structural infor-
+mation. Our system achieves 93.49 F-
+measure, a significant improvement over
+the best reported performance 92.0. We
+are further concerned with the effect
+of parsing in Chinese SRL. We empiri-
+cally analyze the two-fold effect, grouping
+words into constituents and providing syn-
+tactic information. We also give some pre-
+liminary linguistic explanations.
+1 

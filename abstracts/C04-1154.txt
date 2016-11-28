@@ -1,0 +1,22 @@
+
+Data-Oriented Translation (DOT), based on Data-
+Oriented Parsing (DOP), is a language-independent
+MT engine which exploits parsed, aligned bitexts
+to produce very high quality translations. How-
+ever, data acquisition constitutes a serious bottleneck
+as DOT requires parsed sentences aligned at both
+sentential and sub-structural levels. Manual sub-
+structural alignment is time-consuming, error-prone
+and requires considerable knowledge of both source
+and target languages and how they are related. Au-
+tomating this process is essential in order to carry out
+the large-scale translation experiments necessary to
+assess the full potential of DOT.
+We present a novel algorithm which automatically in-
+duces sub-structural alignments between context-free
+phrase structure trees in a fast and consistent fash-
+ion requiring little or no knowledge of the language
+pair. We present results from a number of experi-
+ments which indicate that our method provides a se-
+rious alternative to manual alignment.
+1 

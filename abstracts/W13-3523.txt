@@ -1,0 +1,27 @@
+
+We propose a flexible and effective frame-
+work for extracting a bilingual dictionary
+from comparable corpora. Our approach
+is based on a novel combination of topic
+modeling and word alignment techniques.
+Intuitively, our approach works by con-
+verting a comparable document-aligned
+corpus into a parallel topic-aligned cor-
+pus, then learning word alignments us-
+ing co-occurrence statistics. This topic-
+aligned corpus is similar in structure to the
+sentence-aligned corpus frequently used in
+statistical machine translation, enabling us
+to exploit advances in word alignment re-
+search. Unlike many previous work, our
+framework does not require any language-
+specific knowledge for initialization. Fur-
+thermore, our framework attempts to han-
+dle polysemy by allowing multiple trans-
+lation probability models for each word.
+On a large-scale Wikipedia corpus, we
+demonstrate that our framework reliably
+extracts high-precision translation pairs on
+a wide variety of comparable data condi-
+tions.
+1 

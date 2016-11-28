@@ -1,0 +1,18 @@
+
+In this paper we examine the process of
+developing a relational parser evaluation
+scheme, identifying a number of decisions
+which must be made by the designer of
+such a scheme. Making the process more
+modular may help the parsing community
+converge on a single scheme. Examples
+from the shared task at the COLING parser
+evaluation workshop are used to highlight
+decisions made by various developers, and
+the impact these decisions have on any re-
+sulting scoring mechanism. We show that
+quite subtle distinctions, such as howmany
+grammatical relations are used to encode a
+linguistic construction, can have a signifi-
+cant effect on the resulting scores.
+1 

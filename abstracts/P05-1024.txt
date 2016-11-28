@@ -1,0 +1,16 @@
+
+This paper introduces a new application of boost-
+ing for parse reranking. Several parsers have been
+proposed that utilize the all-subtrees representa-
+tion (e.g., tree kernel and data oriented parsing).
+This paper argues that such an all-subtrees repre-
+sentation is extremely redundant and a compara-
+ble accuracy can be achieved using just a small
+set of subtrees. We show how the boosting algo-
+rithm can be applied to the all-subtrees representa-
+tion and how it selects a small and relevant feature
+set efficiently. Two experiments on parse rerank-
+ing show that our method achieves comparable or
+even better performance than kernel methods and
+also improves the testing efficiency.
+1 

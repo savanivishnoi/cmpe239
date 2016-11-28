@@ -1,0 +1,20 @@
+ 
+Word sense disambiguation is a basic 
+problem in natural language processing. 
+This paper proposed an unsupervised word 
+sense disambiguation method based 
+PageRank and HowNet. In the method, a 
+free text is firstly represented as a sememe 
+graph with sememes as vertices and 
+relatedness of sememes as weighted edges 
+based on HowNet. Then UW-PageRank is 
+applied on the sememe graph to score the 
+importance of sememes. Score of each 
+definition of one word can be computed 
+from the score of sememes it contains. 
+Finally, the highest scored definition is 
+assigned to the word. This approach is 
+tested on SENSEVAL-3 and the 
+experimental results prove practical and 
+effective. 
+1 

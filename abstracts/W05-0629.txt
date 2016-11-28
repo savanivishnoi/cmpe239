@@ -1,0 +1,11 @@
+
+In this paper, we describe our systems for
+the CoNLL-2005 shared task. The aim of
+the task is semantic role labeling using a
+machine-learning algorithm. We apply the
+Support Vector Machines to the task. We
+added new features based on full parses
+and manually categorized words. We also
+report on system performance and what
+effect the newly added features had.
+1 

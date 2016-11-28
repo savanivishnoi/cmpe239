@@ -1,0 +1,21 @@
+
+In this paper, we extend the work on using
+latent cross-language topic models for iden-
+tifying word translations across compara-
+ble corpora. We present a novel precision-
+oriented algorithm that relies on per-topic
+word distributions obtained by the bilin-
+gual LDA (BiLDA) latent topic model.
+The algorithm aims at harvesting only the
+most probable word translations across lan-
+guages in a greedy fashion, without any
+prior knowledge about the language pair,
+relying on a symmetrization process and
+the one-to-one constraint. We report our re-
+sults for Italian-English and Dutch-English
+language pairs that outperform the current
+state-of-the-art results by a significant mar-
+gin. In addition, we show how to use the al-
+gorithm for the construction of high-quality
+initial seed lexicons of translations.
+1 

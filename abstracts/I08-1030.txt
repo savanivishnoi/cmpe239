@@ -1,0 +1,20 @@
+
+We propose a general approach for trans-
+lating Chinese unknown words (UNK) for
+SMT. This approach takes advantage of
+the properties of Chinese word composition
+rules, i.e., all Chinese words are formed
+by sequential characters. According to the
+proposed approach, the unknown word is
+re-split into a subword sequence followed
+by subword translation with a subword-
+based translation model. ?Subword? is a
+unit between character and long word. We
+found the proposed approach significantly
+improved translation quality on the test data
+of NIST MT04 and MT05. We also found
+that the translation quality was further im-
+proved if we applied named entity transla-
+tion to translate parts of unknown words be-
+fore using the subword-based translation.
+1 

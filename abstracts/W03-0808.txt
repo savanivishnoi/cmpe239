@@ -1,0 +1,34 @@
+ 
+Information extraction (IE) systems assist 
+analysts to assimilate information from 
+electronic documents. This paper focuses on 
+IE tasks designed to support information 
+discovery applications. Since information 
+discovery implies examining large volumes 
+of documents drawn from various sources for 
+situations that cannot be anticipated a priori, 
+they require IE systems to have breadth as 
+well as depth. This implies the need for a 
+domain-independent IE system that can 
+easily be customized for specific domains: 
+end users must be given tools to customize 
+the system on their own. It also implies the 
+need for defining new intermediate level IE 
+tasks that are richer than the 
+subject-verb-object (SVO) triples produced 
+by shallow systems, yet not as complex as the 
+domain-specific scenarios defined by the 
+Message Understanding Conference (MUC). 
+This paper describes a robust, scalable IE 
+engine designed for such purposes. It 
+describes new IE tasks such as entity profiles, 
+and concept-based general events which 
+represent realistic goals in terms of what can 
+be accomplished in the near-term as well as 
+providing useful, actionable information. 
+These new tasks also facilitate the correlation 
+of output from an IE engine with existing 
+structured data. Benchmarking results for the 
+core engine and applications utilizing the 
+engine are presented. 
+1 

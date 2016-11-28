@@ -1,0 +1,11 @@
+
+We apply multi-rate HMMs, a tree struc-
+tured HMM model, to the word-alignment
+problem. Multi-rate HMMs allow us to
+model reordering at both the morpheme
+level and the word level in a hierarchical
+fashion. This approach leads to better ma-
+chine translation results than a morpheme-
+aware model that does not explicitly model
+morpheme reordering.
+1 

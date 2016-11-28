@@ -1,0 +1,25 @@
+
+Bracketing Transduction Grammar (BTG)
+has been well studied and used in statistical
+machine translation (SMT) with promising
+results. However, there are two major issues
+for BTG-based SMT. First, there is no effec-
+tive mechanism available for predicting or-
+ders between neighboring blocks in the orig-
+inal BTG. Second, the computational cost is
+high. In this paper, we introduce two re-
+finements for BTG-based SMT to achieve
+better reordering and higher-speed decod-
+ing, which include (1) reordering heuristics
+to prevent incorrect swapping and reduce
+search space, and (2) special phrases with
+tags to indicate sentence beginning and end-
+ing. The two refinements are integrated into
+a well-established BTG-based Chinese-to-
+English SMT system that is trained on large-
+scale parallel data. Experimental results on
+the NIST MT-05 task show that the proposed
+refinements contribute significant improve-
+ment of 2% in BLEU score over the baseline
+system.
+1 

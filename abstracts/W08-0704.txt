@@ -1,0 +1,17 @@
+
+This paper describes a variety of non-
+parametric Bayesian models of word segmen-
+tation based on Adaptor Grammars that model
+different aspects of the input and incorporate
+different kinds of prior knowledge, and ap-
+plies them to the Bantu language Sesotho.
+While we find overall word segmentation ac-
+curacies lower than these models achieve on
+English, we also find some interesting dif-
+ferences in which factors contribute to better
+word segmentation. Specifically, we found lit-
+tle improvement to word segmentation accu-
+racy when we modeled contextual dependen-
+cies, while modeling morphological structure
+did improve segmentation accuracy.
+1 

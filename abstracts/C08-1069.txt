@@ -1,0 +1,24 @@
+
+This paper presents a methodology for the
+comparative performance analysis of the
+parsers developed for different grammar
+frameworks. For such a comparison, we
+need a common representation format of
+the parsing results since the representation
+of the parsing results depends on the gram-
+mar frameworks; hence they are not di-
+rectly comparable to each other. We first
+convert the parsing result to a shallow CFG
+analysis by using an automatic tree con-
+verter based on synchronous grammars.
+The use of such a shallow representation as
+a common format has the advantage of re-
+duced noise introduced by the conversion
+in comparison with the noise produced by
+the conversion to deeper representations.
+We compared an HPSG parser with sev-
+eral CFG parsers in our experiment and
+found that meaningful differences among
+the parsers? performance can still be ob-
+served by such a shallow representation.
+1 

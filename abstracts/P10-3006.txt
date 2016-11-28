@@ -1,0 +1,29 @@
+
+We tackle the previously unaddressed
+problem of unsupervised determination of
+the optimal morphological segmentation
+for statistical machine translation (SMT)
+and propose a segmentation metric that
+takes into account both sides of the SMT
+training corpus. We formulate the objec-
+tive function as the posterior probability of
+the training corpus according to a genera-
+tive segmentation-translation model. We
+describe how the IBM Model-1 transla-
+tion likelihood can be computed incremen-
+tally between adjacent segmentation states
+for efficient computation. Submerging the
+proposed segmentation method in a SMT
+task from morphologically-rich Turkish to
+English does not exhibit the expected im-
+provement in translation BLEU scores and
+confirms the robustness of phrase-based
+SMT to translation unit combinatorics.
+A positive outcome of this work is the
+described modification to the sequential
+search algorithm of Morfessor (Creutz and
+Lagus, 2007) that enables arbitrary-fold
+parallelization of the computation, which
+unexpectedly improves the translation per-
+formance as measured by BLEU.
+1 

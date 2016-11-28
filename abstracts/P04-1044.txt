@@ -1,0 +1,11 @@
+
+We use machine learners trained on a combina-
+tion of acoustic confidence and pragmatic plausi-
+bility features computed from dialogue context to
+predict the accuracy of incoming n-best recogni-
+tion hypotheses to a spoken dialogue system. Our
+best results show a 25% weighted f-score improve-
+ment over a baseline system that implements a
+?grammar-switching? approach to context-sensitive
+speech recognition.
+1 

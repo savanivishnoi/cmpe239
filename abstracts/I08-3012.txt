@@ -1,0 +1,18 @@
+ 
+This paper presents a rule-based approach 
+for finding out the stems from text in Ben-
+gali, a resource-poor language. It starts by 
+introducing the concept of orthographic 
+syllable, the basic orthographic unit of 
+Bengali. Then it discusses the morphologi-
+cal structure of the tokens for different 
+parts of speech, formalizes the inflection 
+rule constructs and formulates a quantita-
+tive ranking measure for potential candi-
+date stems of a token. These concepts are 
+applied in the design and implementation 
+of an extensible architecture of a stemmer 
+system for Bengali text. The accuracy of 
+the system is calculated to be ~89% and 
+above. 
+1 

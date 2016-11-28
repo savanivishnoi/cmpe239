@@ -1,0 +1,23 @@
+
+Generative probabilistic models have been
+used for content modelling and template
+induction, and are typically trained on
+small corpora in the target domain. In
+contrast, vector space models of distribu-
+tional semantics are trained on large cor-
+pora, but are typically applied to domain-
+general lexical disambiguation tasks. We
+introduce Distributional Semantic Hidden
+Markov Models, a novel variant of a hid-
+den Markov model that integrates these
+two approaches by incorporating contex-
+tualized distributional semantic vectors
+into a generative model as observed emis-
+sions. Experiments in slot induction show
+that our approach yields improvements in
+learning coherent entity clusters in a do-
+main. In a subsequent extrinsic evalua-
+tion, we show that these improvements are
+also reflected in multi-document summa-
+rization.
+1 

@@ -1,0 +1,19 @@
+
+We present an approach which uses the sim-
+ilarity in semantic structure of bilingual par-
+allel sentences to bootstrap a pair of seman-
+tic role labeling (SRL) models. The setting
+is similar to co-training, except for the inter-
+mediate model required to convert the SRL
+structure between the two annotation schemes
+used for different languages. Our approach
+can facilitate the construction of SRL models
+for resource-poor languages, while preserving
+the annotation schemes designed for the tar-
+get language and making use of the limited re-
+sources available for it. We evaluate the model
+on four language pairs, English vs German,
+Spanish, Czech and Chinese. Consistent im-
+provements are observed over the self-training
+baseline.
+1 

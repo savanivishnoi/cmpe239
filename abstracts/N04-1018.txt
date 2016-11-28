@@ -1,0 +1,18 @@
+
+The regular occurrence of disfluencies is a
+distinguishing characteristic of spontaneous
+speech. Detecting and removing such disflu-
+encies can substantially improve the usefulness
+of spontaneous speech transcripts. This pa-
+per presents a system that detects various types
+of disfluencies and other structural information
+with cues obtained from lexical and prosodic
+information sources. Specifically, combina-
+tions of decision trees and language models are
+used to predict sentence ends and interruption
+points and, given these events, transformation-
+based learning is used to detect edit disfluen-
+cies and conversational fillers. Results are re-
+ported on human and automatic transcripts of
+conversational telephone speech.
+1 

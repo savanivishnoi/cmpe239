@@ -1,0 +1,20 @@
+ 
+In this paper we present the SDOIrmi text 
+graph-based semi-supervised algorithm for 
+the task for relation mention identification 
+when the underlying concept mentions 
+have already been identified and linked to 
+an ontology. To overcome the lack of 
+annotated data, we propose a labelling 
+heuristic based on information extracted 
+from the ontology. We evaluated the 
+algorithm on the kdd09cma1 dataset using 
+a leave-one-document-out framework and 
+demonstrated an increase in F1 in 
+performance over a co-occurrence based 
+AllTrue baseline algorithm. An extrinsic 
+evaluation of the predictions suggests a 
+worthwhile precision on the more 
+confidently predicted additions to the 
+ontology. 
+1 

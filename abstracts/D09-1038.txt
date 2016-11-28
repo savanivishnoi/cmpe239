@@ -1,0 +1,19 @@
+ 
+Binarization of Synchronous Context Free 
+Grammars (SCFG) is essential for achieving 
+polynomial time complexity of decoding for 
+SCFG parsing based machine translation sys-
+tems. In this paper, we first investigate the 
+excess edge competition issue caused by a left-
+heavy binary SCFG derived with the method 
+of Zhang et al (2006). Then we propose a new 
+binarization method to mitigate the problem 
+by exploring other alternative equivalent bi-
+nary SCFGs. We present an algorithm that ite-
+ratively improves the resulting binary SCFG, 
+and empirically show that our method can im-
+prove a string-to-tree statistical machine trans-
+lations system based on the synchronous bina-
+rization method in Zhang et al (2006) on the 
+NIST machine translation evaluation tasks. 
+1 

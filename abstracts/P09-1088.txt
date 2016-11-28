@@ -1,0 +1,20 @@
+
+We present a phrasal synchronous gram-
+mar model of translational equivalence.
+Unlike previous approaches, we do not
+resort to heuristics or constraints from
+a word-alignment model, but instead
+directly induce a synchronous grammar
+from parallel sentence-aligned corpora.
+We use a hierarchical Bayesian prior
+to bias towards compact grammars with
+small translation units. Inference is per-
+formed using a novel Gibbs sampler
+over synchronous derivations. This sam-
+pler side-steps the intractability issues of
+previous models which required inference
+over derivation forests. Instead each sam-
+pling iteration is highly efficient, allowing
+the model to be applied to larger transla-
+tion corpora than previous approaches.
+1 

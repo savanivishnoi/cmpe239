@@ -1,0 +1,23 @@
+ 
+Weblogs are a source of human activity know-
+ledge comprising valuable information such as 
+facts, opinions and personal experiences. In 
+this paper, we propose a method for mining 
+personal experiences from a large set of web-
+logs. We define experience as knowledge em-
+bedded in a collection of activities or events 
+which an individual or group has actually un-
+dergone. Based on an observation that expe-
+rience-revealing sentences have a certain lin-
+guistic style, we formulate the problem of de-
+tecting experience as a classification task us-
+ing various features including tense, mood, as-
+pect, modality, experiencer, and verb classes. 
+We also present an activity verb lexicon con-
+struction method based on theories of lexical 
+semantics. Our results demonstrate that the ac-
+tivity verb lexicon plays a pivotal role among 
+selected features in the classification perfor-
+mance and shows that our proposed method 
+outperforms the baseline significantly. 
+1 

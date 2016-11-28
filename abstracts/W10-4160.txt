@@ -1,0 +1,18 @@
+ 
+In this paper we describe a person clus-
+tering system for a given document set 
+and report the results we have obtained 
+on the test set of Chinese personal name 
+(CPN) disambiguation task of CIPS-
+SIGHAN 2010. This task consists of 
+clustering a set of Xinhua news docu-
+ments that mention an ambiguous CPN 
+according to named entity in reality. 
+Several features including named entities 
+(NE) and common nouns generated from 
+the documents and a variety of rules are 
+employed in our system. This system 
+achieves F = 86.36% with B_Cubed 
+scoring metrics and F = 90.78% with pu-
+rity_based metrics. 
+1 

@@ -1,0 +1,30 @@
+
+A fundamental task in sentence compre-
+hension is to assign semantic roles to sen-
+tence constituents. The structure-mapping
+account proposes that children start with
+a shallow structural analysis of sentences:
+children treat the number of nouns in the
+sentence as a cue to its semantic predicate-
+argument structure, and represent language
+experience in an abstract format that per-
+mits rapid generalization to new verbs. In
+this paper, we tested the consequences of
+these representational assumptions via ex-
+periments with a system for automatic se-
+mantic role labeling (SRL), trained on a
+sample of child-directed speech. When
+the SRL was presented with representa-
+tions of sentence structure consisting sim-
+ply of an ordered set of nouns, it mim-
+icked experimental findings with toddlers,
+including a striking error found in children.
+Adding features representing the position
+of the verb increased accuracy and elim-
+inated the error. We show the SRL sys-
+tem can use incremental knowledge gain
+to switch from error-prone noun order fea-
+tures to a more accurate representation,
+demonstrating a possible mechanism for
+this process in child development.
+1 

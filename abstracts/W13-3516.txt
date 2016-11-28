@@ -1,0 +1,30 @@
+
+Large-scale linguistically annotated cor-
+pora have played a crucial role in advanc-
+ing the state of the art of key natural lan-
+guage technologies such as syntactic, se-
+mantic and discourse analyzers, and they
+serve as training data as well as evaluation
+benchmarks. Up till now, however, most
+of the evaluation has been done on mono-
+lithic corpora such as the Penn Treebank,
+the Proposition Bank. As a result, it is still
+unclear how the state-of-the-art analyzers
+perform in general on data from a vari-
+ety of genres or domains. The completion
+of the OntoNotes corpus, a large-scale,
+multi-genre, multilingual corpus manually
+annotated with syntactic, semantic and
+discourse information, makes it possible
+to perform such an evaluation. This paper
+presents an analysis of the performance of
+publicly available, state-of-the-art tools on
+all layers and languages in the OntoNotes
+v5.0 corpus. This should set the bench-
+mark for future development of various
+NLP components in syntax and semantics,
+and possibly encourage research towards
+an integrated system that makes use of the
+various layers jointly to improve overall
+performance.
+1 

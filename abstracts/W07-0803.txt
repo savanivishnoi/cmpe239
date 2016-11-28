@@ -1,0 +1,25 @@
+ 
+Named entity recognition (NER) is nowa-
+days an important task, which is responsi-
+ble for the identification of proper names in 
+text and their classification as different 
+types of named entity such as people, loca-
+tions, and organizations. In this paper, we 
+present our attempt at the recognition and 
+extraction of the most important proper 
+name entity, that is, the person name, for 
+the Arabic language. We developed the 
+system, Person Name Entity Recognition 
+for Arabic (PERA), using a rule-based ap-
+proach. The system consists of a lexicon, in 
+the form of gazetteer name lists, and a 
+grammar, in the form of regular expres-
+sions, which are responsible for recogniz-
+ing person name entities. The PERA sys-
+tem is evaluated using a corpus that is 
+tagged in a semi-automated way. The sys-
+tem performance results achieved were sat-
+isfactory and confirm to the targets set 
+forth for the precision, recall, and f-
+measure. 
+1 

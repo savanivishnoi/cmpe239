@@ -1,0 +1,19 @@
+
+The notion of fertility in word alignment
+(the number of words emitted by a sin-
+gle state) is useful but difficult to model.
+Initial attempts at modeling fertility used
+heuristic search methods. Recent ap-
+proaches instead use more principled ap-
+proximate inference techniques such as
+Gibbs sampling for parameter estimation.
+Yet in practice we also need the single best
+alignment, which is difficult to find us-
+ing Gibbs. Building on recent advances in
+dual decomposition, this paper introduces
+an exact algorithm for finding the sin-
+gle best alignment with a fertility HMM.
+Finding the best alignment appears impor-
+tant, as this model leads to a substantial
+improvement in alignment quality.
+1 

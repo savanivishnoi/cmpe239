@@ -1,0 +1,21 @@
+
+We present Multi-Relational Latent Seman-
+tic Analysis (MRLSA) which generalizes La-
+tent Semantic Analysis (LSA). MRLSA pro-
+vides an elegant approach to combining mul-
+tiple relations between words by construct-
+ing a 3-way tensor. Similar to LSA, a low-
+rank approximation of the tensor is derived
+using a tensor decomposition. Each word in
+the vocabulary is thus represented by a vec-
+tor in the latent semantic space and each re-
+lation is captured by a latent square matrix.
+The degree of two words having a specific
+relation can then be measured through sim-
+ple linear algebraic operations. We demon-
+strate that by integrating multiple relations
+from both homogeneous and heterogeneous
+information sources, MRLSA achieves state-
+of-the-art performance on existing benchmark
+datasets for two relations, antonymy and is-a.
+1 

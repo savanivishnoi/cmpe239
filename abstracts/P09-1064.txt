@@ -1,0 +1,21 @@
+
+The minimum Bayes risk (MBR) decoding ob-
+jective improves BLEU scores for machine trans-
+lation output relative to the standard Viterbi ob-
+jective of maximizing model score. However,
+MBR targeting BLEU is prohibitively slow to op-
+timize over k-best lists for large k. In this pa-
+per, we introduce and analyze an alternative to
+MBR that is equally effective at improving per-
+formance, yet is asymptotically faster ? running
+80 times faster than MBR in experiments with
+1000-best lists. Furthermore, our fast decoding
+procedure can select output sentences based on
+distributions over entire forests of translations, in
+addition to k-best lists. We evaluate our proce-
+dure on translation forests from two large-scale,
+state-of-the-art hierarchical machine translation
+systems. Our forest-based decoding objective
+consistently outperforms k-best list MBR, giving
+improvements of up to 1.0 BLEU.
+1 

@@ -1,0 +1,26 @@
+
+In this paper, we present a novel global re-
+ordering model that can be incorporated
+into standard phrase-based statistical ma-
+chine translation. Unlike previous local
+reordering models that emphasize the re-
+ordering of adjacent phrase pairs (Till-
+mann and Zhang, 2005), our model ex-
+plicitly models the reordering of long dis-
+tances by directly estimating the parame-
+ters from the phrase alignments of bilin-
+gual training sentences. In principle, the
+global phrase reordering model is condi-
+tioned on the source and target phrases
+that are currently being translated, and
+the previously translated source and tar-
+get phrases. To cope with sparseness, we
+use N-best phrase alignments and bilin-
+gual phrase clustering, and investigate a
+variety of combinations of conditioning
+factors. Through experiments, we show,
+that the global reordering model signifi-
+cantly improves the translation accuracy
+of a standard Japanese-English translation
+task.
+1 

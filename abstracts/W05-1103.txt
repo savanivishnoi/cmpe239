@@ -1,0 +1,19 @@
+
+We give a technical description of the
+fission module of the COMIC mul-
+timodal dialogue system, which both
+plans the multimodal content of the sys-
+tem turns and controls the execution of
+those plans. We emphasise the parts of
+the implementation that allow the sys-
+tem to begin producing output as soon as
+possible by preparing and outputting the
+content in parallel. We also demonstrate
+how the module was designed to ensure
+robustness and configurability, and de-
+scribe how the module has performed
+successfully as part of the overall sys-
+tem. Finally, we discuss how the tech-
+niques used in this module can be ap-
+plied to other similar dialogue systems.
+1 

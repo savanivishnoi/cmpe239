@@ -1,0 +1,33 @@
+
+In current statistical machine translation
+(SMT), erroneous word reordering is one of
+the most serious problems. To resolve this
+problem, many word-reordering constraint
+techniques have been proposed. The inver-
+sion transduction grammar (ITG) is one of
+these constraints. In ITG constraints, target-
+side word order is obtained by rotating nodes
+of the source-side binary tree. In these node
+rotations, the source binary tree instance is
+not considered. Therefore, stronger con-
+straints for word reordering can be obtained
+by imposing further constraints derived from
+the source tree on the ITG constraints. For
+example, for the source word sequence { a
+b c d }, ITG constraints allow a total of
+twenty-two target word orderings. How-
+ever, when the source binary tree instance ((a
+b) (c d)) is given, our proposed ?imposing
+source tree on ITG? (IST-ITG) constraints
+allow only eight word orderings. The re-
+duction in the number of word-order permu-
+tations by our proposed stronger constraints
+efficiently suppresses erroneous word order-
+ings. In our experiments with IST-ITG using
+the NIST MT08 English-to-Chinese transla-
+tion track?s data, the proposed method re-
+sulted in a 1.8-points improvement in char-
+acter BLEU-4 (35.2 to 37.0) and a 6.2%
+lower CER (74.1 to 67.9%) compared with
+our baseline condition.
+1 

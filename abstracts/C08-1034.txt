@@ -1,0 +1,17 @@
+
+We present an approach to ontology popu-
+lation based on a lexical substitution tech-
+nique. It consists in estimating the plausi-
+bility of sentences where the named entity
+to be classified is substituted with the ones
+contained in the training data, in our case,
+a partially populated ontology. Plausibility
+is estimated by using Web data, while the
+classification algorithm is instance-based.
+We evaluated our method on two different
+ontology population tasks. Experiments
+show that our solution is effective, out-
+performing existing methods, and it can
+be applied to practical ontology population
+problems.
+1 

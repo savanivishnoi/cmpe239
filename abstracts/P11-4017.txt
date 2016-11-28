@@ -1,0 +1,24 @@
+
+We present an open-source toolkit which
+allows (i) to reconstruct past states of
+Wikipedia, and (ii) to efficiently access the
+edit history of Wikipedia articles. Recon-
+structing past states of Wikipedia is a pre-
+requisite for reproducing previous experimen-
+tal work based on Wikipedia. Beyond that,
+the edit history of Wikipedia articles has been
+shown to be a valuable knowledge source for
+NLP, but access is severely impeded by the
+lack of efficient tools for managing the huge
+amount of provided data. By using a dedi-
+cated storage format, our toolkit massively de-
+creases the data volume to less than 2% of
+the original size, and at the same time pro-
+vides an easy-to-use interface to access the re-
+vision data. The language-independent design
+allows to process any language represented in
+Wikipedia. We expect this work to consolidate
+NLP research using Wikipedia in general, and
+to foster research making use of the knowl-
+edge encoded in Wikipedia?s edit history.
+1 

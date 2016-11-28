@@ -1,0 +1,20 @@
+
+Regardless of language, the standard character
+set for text messages (SMS) and many other
+social media platforms is the Roman alphabet.
+There are romanization conventions for some
+character sets, but they are used inconsistently
+in informal text, such as SMS. In this work, we
+convert informal, romanized Urdu messages
+into the native Arabic script and normalize
+non-standard SMS language. Doing so pre-
+pares the messages for existing downstream
+processing tools, such as machine translation,
+which are typically trained on well-formed,
+native script text. Our model combines infor-
+mation at the word and character levels, al-
+lowing it to handle out-of-vocabulary items.
+Compared with a baseline deterministic ap-
+proach, our system reduces both word and
+character error rate by over 50%.
+1 

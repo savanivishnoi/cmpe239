@@ -1,0 +1,31 @@
+
+We report two new approaches for building
+scoring models used by automated speech
+scoring systems. First, we introduce the Cu-
+mulative Logit Model (CLM), which has been
+widely used in modeling categorical outcomes
+in statistics. On a large set of responses
+to an English proficiency test, we systemati-
+cally compare the CLM with two other scor-
+ing models that have been widely used, i.e.,
+linear regression and decision trees. Our ex-
+periments suggest that the CLM has advan-
+tages in its scoring performance and its robust-
+ness to limited-sized training data. Second, we
+propose a novel way to utilize human rating
+processes in automated speech scoring. Ap-
+plying accurate human ratings on a small set
+of responses can improve the whole scoring
+system?s performance while meeting cost and
+score-reporting time requirements. We find
+that the scoring difficulty of each speech re-
+sponse, which could be modeled by the degree
+to which it challenged human raters, could
+provide a way to select an optimal set of re-
+sponses for the application of human scor-
+ing. In a simulation, we show that focusing
+on challenging responses can achieve a larger
+scoring performance improvement than sim-
+ply applying human scoring on the same num-
+ber of randomly selected responses.
+1 

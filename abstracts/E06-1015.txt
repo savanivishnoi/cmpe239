@@ -1,0 +1,20 @@
+
+In recent years tree kernels have been pro-
+posed for the automatic learning of natural
+language applications. Unfortunately, they
+show (a) an inherent super linear complex-
+ity and (b) a lower accuracy than tradi-
+tional attribute/value methods.
+In this paper, we show that tree kernels
+are very helpful in the processing of nat-
+ural language as (a) we provide a simple
+algorithm to compute tree kernels in linear
+average running time and (b) our study on
+the classification properties of diverse tree
+kernels show that kernel combinations al-
+ways improve the traditional methods. Ex-
+periments with Support Vector Machines
+on the predicate argument classification
+task provide empirical support to our the-
+sis.
+1 

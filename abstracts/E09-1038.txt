@@ -1,0 +1,18 @@
+
+We present a framework for interfacing
+a PCFG parser with lexical information
+from an external resource following a dif-
+ferent tagging scheme than the treebank.
+This is achieved by defining a stochas-
+tic mapping layer between the two re-
+sources. Lexical probabilities for rare
+events are estimated in a semi-supervised
+manner from a lexicon and large unanno-
+tated corpora. We show that this solu-
+tion greatly enhances the performance of
+an unlexicalized Hebrew PCFG parser, re-
+sulting in state-of-the-art Hebrew parsing
+results both when a segmentation oracle is
+assumed, and in a real-word parsing sce-
+nario of parsing unsegmented tokens.
+1 

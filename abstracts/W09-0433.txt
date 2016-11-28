@@ -1,0 +1,30 @@
+ 
+Chinese and Korean belong to different lan-
+guage families in terms of word-order and 
+morphological typology. Chinese is an SVO 
+and morphologically poor language while Ko-
+rean is an SOV and morphologically rich one. 
+In Chinese-to-Korean SMT systems, systemat-
+ic differences between the verbal systems of 
+the two languages make the generation of Ko-
+rean verbal phrases difficult. To resolve the 
+difficulties, we address two issues in this paper. 
+The first issue is that the verb position is dif-
+ferent from the viewpoint of word-order ty-
+pology. The second is the difficulty of com-
+plex morphology generation of Korean verbs 
+from the viewpoint of morphological typology. 
+We propose a Chinese syntactic reordering 
+that is better at generating Korean verbal 
+phrases in Chinese-to-Korean SMT. Specifi-
+cally, we consider reordering rules targeting 
+Chinese verb phrases (VPs), preposition 
+phrases (PPs), and modality-bearing words 
+that are closely related to Korean verbal phras-
+es. We verify our system with two corpora of 
+different domains. Our proposed approach 
+significantly improves the performance of our 
+system over a baseline phrased-based SMT 
+system. The relative improvements in the two 
+corpora are +9.32% and +5.43%, respectively. 
+1 

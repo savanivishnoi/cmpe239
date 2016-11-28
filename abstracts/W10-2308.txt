@@ -1,0 +1,18 @@
+
+As an initial effort to identify universal
+and language-specific factors that influ-
+ence the behavior of distributional models,
+we have formulated a distributionally de-
+termined word similarity network model,
+implemented it for eleven different lan-
+guages, and compared the resulting net-
+works. In the model, vertices constitute
+words and two words are linked if they oc-
+cur in similar contexts. The model is found
+to capture clear isomorphisms across lan-
+guages in terms of syntactic and semantic
+classes, as well as functional categories of
+abstract discourse markers. Language spe-
+cific morphology is found to be a dominat-
+ing factor for the accuracy of the model.
+1 

@@ -1,0 +1,20 @@
+
+We consider the problem of translating natu-
+ral language text queries into regular expres-
+sions which represent their meaning. The mis-
+match in the level of abstraction between the
+natural language representation and the regu-
+lar expression representation make this a novel
+and challenging problem. However, a given
+regular expression can be written in many se-
+mantically equivalent forms, and we exploit
+this flexibility to facilitate translation by find-
+ing a form which more directly corresponds to
+the natural language. We evaluate our tech-
+nique on a set of natural language queries
+and their associated regular expressions which
+we gathered from Amazon Mechanical Turk.
+Our model substantially outperforms a state-
+of-the-art semantic parsing baseline, yielding
+a 29% absolute improvement in accuracy.1
+1 

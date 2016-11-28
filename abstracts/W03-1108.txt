@@ -1,0 +1,30 @@
+
+Recent years saw an increased interest
+in the use and the construction of large
+corpora. With this increased interest
+and awareness has come an expansion
+in the application to knowledge acqui-
+sition and bilingual terminology extrac-
+tion. The present paper will seek to
+present an approach to bilingual lexi-
+con extraction from non-aligned compa-
+rable corpora, combination to linguistics-
+based pruning and evaluations on Cross-
+Language Information Retrieval. We pro-
+pose and explore a two-stages translation
+model for the acquisition of bilingual ter-
+minology from comparable corpora, dis-
+ambiguation and selection of best transla-
+tion alternatives on the basis of their mor-
+phological knowledge. Evaluations using
+a large-scale test collection on Japanese-
+English and different weighting schemes
+of SMART retrieval system confirmed the
+effectiveness of the proposed combina-
+tion of two-stages comparable corpora
+and linguistics-based pruning on Cross-
+Language Information Retrieval.
+Keywords: Cross-Language Information
+Retrieval, Comparable corpora, Transla-
+tion, Disambiguation, Part-of-Speech.
+1 

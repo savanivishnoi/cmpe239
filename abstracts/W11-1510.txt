@@ -1,0 +1,22 @@
+
+We present an end-to-end pipeline including
+a user interface for the production of word-
+level annotations for an opinion-mining task
+in the information technology (IT) domain.
+Our pre-annotation pipeline selects candidate
+sentences for annotation using results from a
+small amount of trained annotation to bias the
+random selection over a large corpus. Our
+user interface reduces the need for the user to
+understand the ?meaning? of opinion in our
+domain context, which is related to commu-
+nity reaction. It acts as a preliminary buffer
+against low-quality annotators. Finally, our
+post-annotation pipeline aggregates responses
+and applies a more aggressive quality filter.
+We present positive results using two differ-
+ent evaluation philosophies and discuss how
+our design decisions enabled the collection of
+high-quality annotations under subjective and
+fine-grained conditions.
+1 

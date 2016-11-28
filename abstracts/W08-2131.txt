@@ -1,0 +1,22 @@
+
+This paper describes the two algorithms
+we developed for the CoNLL 2008 Shared
+Task ?Joint learning of syntactic and se-
+mantic dependencies?. Both algorithms
+start parsing the sentence using the same
+syntactic parser. The first algorithm
+uses machine learning methods to identify
+the semantic dependencies in four stages:
+identification and labeling of predicates,
+identification and labeling of arguments.
+The second algorithm uses a generative
+probabilistic model, choosing the seman-
+tic dependencies that maximize the proba-
+bility with respect to the model. A hybrid
+algorithm combining the best stages of
+the two algorithms attains 86.62% labeled
+syntactic attachment accuracy, 73.24% la-
+beled semantic dependency F1 and 79.93%
+labeled macro F1 score for the combined
+WSJ and Brown test sets1.
+1 

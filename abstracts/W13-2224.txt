@@ -1,0 +1,22 @@
+
+This paper describes the statistical ma-
+chine translation (SMT) systems devel-
+oped at RWTH Aachen University for
+the translation task of the ACL 2013
+Eighth Workshop on Statistical Machine
+Translation (WMT 2013). We partici-
+pated in the evaluation campaign for the
+French-English and German-English lan-
+guage pairs in both translation directions.
+Both hierarchical and phrase-based SMT
+systems are applied. A number of dif-
+ferent techniques are evaluated, including
+hierarchical phrase reordering, translation
+model interpolation, domain adaptation
+techniques, weighted phrase extraction,
+word class language model, continuous
+space language model and system combi-
+nation. By application of these methods
+we achieve considerable improvements
+over the respective baseline systems.
+1 

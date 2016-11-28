@@ -1,0 +1,30 @@
+ 
+To understand the key characteristics of NLP 
+tools, evaluation and comparison against dif-
+ferent tools is important. And as NLP applica-
+tions tend to consist of multiple semi-
+independent sub-components, it is not always 
+enough to just evaluate complete systems, a 
+fine grained evaluation of underlying compo-
+nents is also often worthwhile. Standardization 
+of NLP components and resources is not only 
+significant for reusability, but also in that it al-
+lows the comparison of individual components 
+in terms of reliability and robustness in a wid-
+er range of target domains.  But as many eval-
+uation metrics exist in even a single domain, 
+any system seeking to aid inter-domain eval-
+uation needs not just predefined metrics, but 
+must also support pluggable user-defined me-
+trics. Such a system would of course need to 
+be based on an open standard to allow a large 
+number of components to be compared, and 
+would ideally include visualization of the dif-
+ferences between components. We have de-
+veloped a pluggable evaluation system based 
+on the UIMA framework, which provides vi-
+sualization useful in error analysis. It is a sin-
+gle integrated system which includes a large 
+ready-to-use, fully interoperable library of 
+NLP tools. 
+1 

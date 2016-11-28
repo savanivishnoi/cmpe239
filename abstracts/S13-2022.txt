@@ -1,0 +1,21 @@
+
+This paper describes the evaluation of differ-
+ent kinds of textual features for the Cross-
+Lingual Textual Entailment Task of SemEval
+2013. We have counted the number of N -
+grams for three types of textual entities (char-
+acter, word and PoS tags) that exist in the
+pair of sentences from which we are inter-
+ested in determining the judgment of textual
+entailment. Difference, intersection and dis-
+tance (Euclidian, Manhattan and Jaccard) of
+N -grams were considered for constructing a
+feature vector which is further introduced in
+a support vector machine classifier which al-
+lows to construct a classification model. Five
+different runs were submitted, one of them
+considering voting system of the previous four
+approaches. The results obtained show a per-
+formance below the median of six teams that
+have participated in the competition.
+1 

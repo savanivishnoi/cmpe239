@@ -1,0 +1,23 @@
+
+Question answering (QA) is the task of
+finding a concise answer to a natural lan-
+guage question. The first stage of QA in-
+volves information retrieval. Therefore,
+performance of an information retrieval
+subsystem serves as an upper bound for the
+performance of a QA system. In this work
+we use phrases automatically identified
+from questions as exact match constituents
+to search queries. Our results show an im-
+provement over baseline on several docu-
+ment and sentence retrieval measures on
+the WEB dataset. We get a 20% relative
+improvement in MRR for sentence extrac-
+tion on the WEB dataset when using au-
+tomatically generated phrases and a fur-
+ther 9.5% relative improvement when us-
+ing manually annotated phrases. Surpris-
+ingly, a separate experiment on the indexed
+AQUAINT dataset showed no effect on IR
+performance of using exact phrases.
+1 

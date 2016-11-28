@@ -1,0 +1,24 @@
+
+In the 1980s, plot units were proposed as a
+conceptual knowledge structure for represent-
+ing and summarizing narrative stories. Our
+research explores whether current NLP tech-
+nology can be used to automatically produce
+plot unit representations for narrative text. We
+create a system called AESOP that exploits
+a variety of existing resources to identify af-
+fect states and applies ?projection rules? to
+map the affect states onto the characters in a
+story. We also use corpus-based techniques
+to generate a new type of affect knowledge
+base: verbs that impart positive or negative
+states onto their patients (e.g., being eaten is
+an undesirable state, but being fed is a desir-
+able state). We harvest these ?patient polar-
+ity verbs? from a Web corpus using two tech-
+niques: co-occurrence with Evil/Kind Agent
+patterns, and bootstrapping over conjunctions
+of verbs. We evaluate the plot unit representa-
+tions produced by our system on a small col-
+lection of Aesop?s fables.
+1 

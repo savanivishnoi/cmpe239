@@ -1,0 +1,18 @@
+
+We present a method we used for the quality
+estimation shared task of WMT 2012 involving
+IBM1 and language model scores calculated
+on morphemes and POS tags. The IBM1 scores
+calculated on morphemes and POS-4grams of
+the source sentence and obtained translation
+output are shown to be competitive with the
+classic evaluation metrics for ranking of trans-
+lation systems. Since these scores do not re-
+quire any reference translations, they can be
+used as features for the quality estimation task
+presenting a connection between the source
+language and the obtained target language. In
+addition, target language model scores of mor-
+phemes and POS tags are investigated as esti-
+mates for the obtained target language quality.
+1 

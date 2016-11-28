@@ -1,0 +1,22 @@
+
+This paper presents suggested semantic representations for different types
+of referring expressions in the format of Minimal Recursion Semantics
+and sketches syntactic analyses which can create them compositionally.
+We explore cross-linguistic harmonization of these representations, to
+promote interoperability and reusability of linguistic analyses. We follow
+Borthen and Haugereid (2005) in positing COG-ST (?cognitive status?)
+as a feature on the syntax-semantics interface to handle phenomena as-
+sociated with definiteness. Our proposal helps to unify the treatments of
+definiteness markers, demonstratives, overt pronouns and null anaphora
+across languages. In languages with articles, they contribute an existen-
+tial quantifier and the appropriate value for COG-ST. In other languages,
+the COG-ST value is determined by an affix. The contribution of demon-
+strative determiners is decomposed into a COG-ST value, a quantifier,
+and proximity information, each of which can be contributed by a dif-
+ferent kind of grammatical construction in a given language. Along with
+COG-ST, we posit a feature that distinguishes between pronouns (and
+null anaphora) that are sensitive to the identity of the referent of their
+antecedent and those that are sensitive to its type.
+17
+18 Bender and Goss-Grubbs
+1 

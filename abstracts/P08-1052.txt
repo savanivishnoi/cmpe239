@@ -1,0 +1,25 @@
+
+We present a simple linguistically-motivated
+method for characterizing the semantic rela-
+tions that hold between two nouns. The ap-
+proach leverages the vast size of the Web
+in order to build lexically-specific features.
+The main idea is to look for verbs, preposi-
+tions, and coordinating conjunctions that can
+help make explicit the hidden relations be-
+tween the target nouns. Using these fea-
+tures in instance-based classifiers, we demon-
+strate state-of-the-art results on various rela-
+tional similarity problems, including mapping
+noun-modifier pairs to abstract relations like
+TIME, LOCATION and CONTAINER, charac-
+terizing noun-noun compounds in terms of ab-
+stract linguistic predicates like CAUSE, USE,
+and FROM, classifying the relations between
+nominals in context, and solving SAT verbal
+analogy problems. In essence, the approach
+puts together some existing ideas, showing
+that they apply generally to various semantic
+tasks, finding that verbs are especially useful
+features.
+1 

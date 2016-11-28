@@ -1,0 +1,19 @@
+
+In this paper, we proposed a novel prob-
+abilistic generative model to deal with ex-
+plicit multiple-topic documents: Parametric
+Dirichlet Mixture Model(PDMM). PDMM
+is an expansion of an existing probabilis-
+tic generative model: Parametric Mixture
+Model(PMM) by hierarchical Bayes model.
+PMM models multiple-topic documents by
+mixing model parameters of each single
+topic with an equal mixture ratio. PDMM
+models multiple-topic documents by mix-
+ing model parameters of each single topic
+with mixture ratio following Dirichlet dis-
+tribution. We evaluate PDMM and PMM
+by comparing F-measures using MEDLINE
+corpus. The evaluation showed that PDMM
+is more effective than PMM.
+1 

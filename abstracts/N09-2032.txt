@@ -1,0 +1,12 @@
+
+We adapt a semantic role parser to the do-
+main of goal-directed speech by creating an
+artificial treebank from an existing text tree-
+bank. We use a three-component model that
+includes distributional models from both tar-
+get and source domains. We show that we im-
+prove the parser?s performance on utterances
+collected from human-machine dialogues by
+training on the artificially created data without
+loss of performance on the text treebank.
+1 

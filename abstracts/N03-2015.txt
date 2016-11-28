@@ -1,0 +1,12 @@
+
+We describe a simple unsupervised technique
+for learning morphology by identifying hubs
+in an automaton.  For our purposes, a hub is a
+node in a graph with in-degree greater than
+one and out-degree greater than one.   We cre-
+ate a word-trie, transform it into a minimal
+DFA, then identify hubs.  Those hubs mark
+the boundary between root and suffix,
+achieving similar performance to more com-
+plex mixtures of techniques.
+1 

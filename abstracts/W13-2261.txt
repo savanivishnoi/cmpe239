@@ -1,0 +1,30 @@
+
+Sentence alignment is an important step
+in the preparation of parallel data. Most
+aligners do not perform very well when
+the input is a noisy, rather than a highly-
+parallel, document pair. Evaluating align-
+ers under noisy conditions would seem to
+require creating an evaluation dataset by
+manually annotating a noisy document for
+gold-standard alignments. Such a costly
+process hinders our ability to evaluate
+an aligner under various types and lev-
+els of noise. In this paper, we propose
+a new evaluation framework for sentence
+aligners, which is particularly suitable for
+noisy-data evaluation. Our approach is
+unique as it requires no manual labeling,
+instead relying on small parallel datasets
+(already at the disposal of MT researchers)
+to generate many evaluation datasets that
+mimic a variety of noisy conditions. We
+use our framework to perform a compre-
+hensive comparison of three aligners un-
+der noisy conditions. Furthermore, our
+framework facilitates the fine-tuning of a
+state-of-the-art sentence aligner, allowing
+us to substantially increase its recall rates
+by anywhere from 5% to 14% (absolute)
+across several language pairs.
+1 

@@ -1,0 +1,24 @@
+
+This paper presents the results of the
+system IRLAS1 from HIT-IRLab in the
+Second International Chinese Word
+Segmentation Bakeoff. IRLAS consists
+of several basic components and multi-
+ple postprocessors. The basic compo-
+nents include basic segmentation,
+factoid recognition, and named entity
+recognition. These components main-
+tain a segment graph together. The
+postprocessors include merging of ad-
+joining words, morphologically derived
+word recognition, and new word identi-
+fication. These postprocessors do some
+modifications on the best word se-
+quence which is selected from the seg-
+ment graph. Our system participated in
+the open and closed tracks of PK cor-
+pus and ranked #4 and #3 respectively.
+Our scores were very close to the high-
+est level. It proves that our system has
+reached the current state of the art.
+1 

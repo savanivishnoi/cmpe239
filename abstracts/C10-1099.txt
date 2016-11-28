@@ -1,0 +1,26 @@
+
+Although much work in NLP has focused
+on simply determining what a document
+means, we also must know whether or not
+to believe it. Fact-finding algorithms at-
+tempt to identify the ?truth? among com-
+peting claims in a corpus, but fail to
+take advantage of the user?s prior knowl-
+edge and presume that truth itself is uni-
+versal and objective rather than subjec-
+tive. We introduce a framework for incor-
+porating prior knowledge into any fact-
+finding algorithm, expressing both gen-
+eral ?common-sense? reasoning and spe-
+cific facts already known to the user as
+first-order logic and translating this into
+a tractable linear program. As our results
+show, this approach scales well to even
+large problems, both reducing error and
+allowing the system to determine truth re-
+spective to the user rather than the major-
+ity. Additionally, we introduce three new
+fact-finding algorithms capable of outper-
+forming existing fact-finders in many of
+our experiments.
+1 

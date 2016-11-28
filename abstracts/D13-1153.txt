@@ -1,0 +1,23 @@
+
+Cross-lingual adaptation aims to learn a pre-
+diction model in a label-scarce target lan-
+guage by exploiting labeled data from a label-
+rich source language. An effective cross-
+lingual adaptation system can substantially re-
+duce the manual annotation effort required in
+many natural language processing tasks. In
+this paper, we propose a new cross-lingual
+adaptation approach for document classifica-
+tion based on learning cross-lingual discrim-
+inative distributed representations of words.
+Specifically, we propose to maximize the log-
+likelihood of the documents from both lan-
+guage domains under a cross-lingual log-
+bilinear document model, while minimizing
+the prediction log-losses of labeled docu-
+ments. We conduct extensive experiments on
+cross-lingual sentiment classification tasks of
+Amazon product reviews. Our experimental
+results demonstrate the efficacy of the pro-
+posed cross-lingual adaptation approach.
+1 

@@ -1,0 +1,18 @@
+ 
+Currently several grammatical formalisms converge 
+towards being declarative and towards utilizing 
+context-free phrase-structure grammar as a back- 
+bone, e.g. LFG and PATR-II. Typically the pro- 
+cessing of these formalisms is organized within a 
+chart-parsing framework. The declarative charac- 
+ter of the formalisms makes it important to decide 
+upon an overall optimal control strategy on the part 
+of the processor. In particular, this brings the rule- 
+invocation strategy into critical focus: to gain max- 
+imal processing efficiency, one has to determine the 
+best way of putting the rules to use. The aim of this 
+paper is to provide a survey and a practical compari- 
+son of fundamental rule-invocation strategies within 
+context-free chart parsing. 
+1 Background 
+and 

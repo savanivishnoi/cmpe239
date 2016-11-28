@@ -1,0 +1,15 @@
+ 
+A coding scheme for inputting Chinese 
+characters by means of a conventional 
+keyboard has been developed. The code 
+for each Chinese character is composed 
+of two strings of keys, one corresponds 
+to the spell ing and the other the ideo- 
+graphic property of the character. Each 
+code requires no more than seven keys 
+(average five and a half keys) and 99.5% 
+of the ten thousand characters in a 
+dictionary 'XianDai HanYu CiDian' have 
+unique codes. Each input code can be 
+packed into 32 bits for internal 
+representation. 

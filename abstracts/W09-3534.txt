@@ -1,0 +1,25 @@
+
+This paper focuses on the change of named
+entities over time and its influence on the
+performance of the named entity tagger.
+First, we analyze Japanese named enti-
+ties which appear in Mainichi Newspaper
+articles published in 1995, 1996, 1997,
+1998 and 2005. This analysis reveals that
+the number of named entity types and
+the number of named entity tokens are
+almost steady over time and that 70 ?
+80% of named entity types in a certain
+year occur in the articles published either
+in its succeeding year or in its preceding
+year. These facts lead that 20 ? 30%
+of named entity types are replaced with
+new ones every year. The experiment
+against these texts shows that our propos-
+ing semi-supervised method which com-
+bines a small annotated corpus and a large
+unannotated corpus for training works ro-
+bustly although the traditional supervised
+method is fragile against the change of
+name entity distribution.
+1 

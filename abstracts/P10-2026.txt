@@ -1,0 +1,17 @@
+
+This paper presents a novel filtration cri-
+terion to restrict the rule extraction for
+the hierarchical phrase-based translation
+model, where a bilingual but relaxed well-
+formed dependency restriction is used to
+filter out bad rules. Furthermore, a new
+feature which describes the regularity that
+the source/target dependency edge trig-
+gers the target/source word is also pro-
+posed. Experimental results show that, the
+new criteria weeds out about 40% rules
+while with translation performance im-
+provement, and the new feature brings an-
+other improvement to the baseline system,
+especially on larger corpus.
+1 

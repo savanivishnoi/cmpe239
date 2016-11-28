@@ -1,0 +1,18 @@
+
+We describe the two systems submit-
+ted by the DCU-Symantec team to Task
+1.1. of the WMT 2013 Shared Task on
+Quality Estimation for Machine Transla-
+tion. Task 1.1 involve estimating post-
+editing effort for English-Spanish trans-
+lation pairs in the news domain. The
+two systems use a wide variety of fea-
+tures, of which the most effective are the
+word-alignment, n-gram frequency, lan-
+guage model, POS-tag-based and pseudo-
+references ones. Both systems perform at
+a similarly high level in the two tasks of
+scoring and ranking translations, although
+there is some evidence that the systems are
+over-fitting to the training data.
+1 

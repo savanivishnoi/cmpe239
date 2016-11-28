@@ -1,0 +1,12 @@
+ 
+We try to improve the classifier-based de-
+terministic dependency parsing in two 
+ways: by introducing a better search 
+method based on a non-deterministic nbest  
+algorithm and by devising a series of lin-
+guistically richer models. It is experimen-
+tally shown on a ConLL 2007 shared task 
+that this results in a system with higher per-
+formance while still keeping it simple 
+enough for an efficient implementation. 
+1 

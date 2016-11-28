@@ -1,0 +1,30 @@
+
+Morphological segmentation breaks words
+into morphemes (the basic semantic units). It
+is a key component for natural language pro-
+cessing systems. Unsupervised morphologi-
+cal segmentation is attractive, because in ev-
+ery language there are virtually unlimited sup-
+plies of text, but very few labeled resources.
+However, most existing model-based systems
+for unsupervised morphological segmentation
+use directed generative models, making it dif-
+ficult to leverage arbitrary overlapping fea-
+tures that are potentially helpful to learning.
+In this paper, we present the first log-linear
+model for unsupervised morphological seg-
+mentation. Our model uses overlapping fea-
+tures such as morphemes and their contexts,
+and incorporates exponential priors inspired
+by the minimum description length (MDL)
+principle. We present efficient algorithms
+for learning and inference by combining con-
+trastive estimation with sampling. Our sys-
+tem, based on monolingual features only, out-
+performs a state-of-the-art system by a large
+margin, even when the latter uses bilingual in-
+formation such as phrasal alignment and pho-
+netic correspondence. On the Arabic Penn
+Treebank, our system reduces F1 error by 11%
+compared to Morfessor.
+1 

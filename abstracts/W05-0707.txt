@@ -1,0 +1,13 @@
+
+We applied Conditional Random Fields
+(CRFs) to the tasks of Amharic word seg-
+mentation and POS tagging using a small
+annotated corpus of 1000 words. Given
+the size of the data and the large number of
+unknown words in the test corpus (80%),
+an accuracy of 84% for Amharic word
+segmentation and 74% for POS tagging
+is encouraging, indicating the applicabil-
+ity of CRFs for a morphologically com-
+plex language like Amharic.
+1 

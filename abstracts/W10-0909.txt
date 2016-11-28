@@ -1,0 +1,24 @@
+
+In this paper, we consider the problem of in-
+ductively learning rules from specific facts ex-
+tracted from texts. This problem is challeng-
+ing due to two reasons. First, natural texts
+are radically incomplete since there are always
+too many facts to mention. Second, natural
+texts are systematically biased towards nov-
+elty and surprise, which presents an unrep-
+resentative sample to the learner. Our solu-
+tions to these two problems are based on build-
+ing a generative observation model of what is
+mentioned and what is extracted given what
+is true. We first present a Multiple-predicate
+Bootstrapping approach that consists of it-
+eratively learning if-then rules based on an
+implicit observation model and then imput-
+ing new facts implied by the learned rules.
+Second, we present an iterative ensemble co-
+learning approach, where multiple decision-
+trees are learned from bootstrap samples of
+the incomplete training data, and facts are im-
+puted based on weighted majority.
+1 

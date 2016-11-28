@@ -1,0 +1,25 @@
+
+This paper provides a first assessment of a sta-
+tistical dialog system in public use. In our di-
+alog system there are four main recognition
+tasks, or slots ? bus route names, bus-stop lo-
+cations, dates, and times. Whereas a conven-
+tional system tracks a single value for each slot
+? i.e., the speech recognizer?s top hypothesis
+? our statistical system tracks a distribution
+of many possible values over each slot. Past
+work in lab studies has showed that this distri-
+bution improves robustness to speech recog-
+nition errors; but to our surprise, we found
+the distribution yielded an increase in accu-
+racy for only two of the four slots, and actu-
+ally decreased accuracy in the other two. In
+this paper, we identify root causes for these
+differences in performance, including intrin-
+sic properties of N-best lists, parameter set-
+tings, and the quality of statistical models. We
+synthesize our findings into a set of guidelines
+which aim to assist researchers and practition-
+ers employing statistical techniques in future
+dialog systems.
+1 

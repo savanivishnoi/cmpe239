@@ -1,0 +1,18 @@
+
+We present a novel approach for (written) di-
+alect identification based on the discrimina-
+tive potential of entire words. We generate
+Swiss German dialect words from a Standard
+German lexicon with the help of hand-crafted
+phonetic/graphemic rules that are associated
+with occurrence maps extracted from a linguis-
+tic atlas created through extensive empirical
+fieldwork. In comparison with a character-
+n-gram approach to dialect identification, our
+model is more robust to individual spelling dif-
+ferences, which are frequently encountered in
+non-standardized dialect writing. Moreover, it
+covers the whole Swiss German dialect contin-
+uum, which trained models struggle to achieve
+due to sparsity of training data.
+1 

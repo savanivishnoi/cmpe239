@@ -1,0 +1,20 @@
+
+We present the UKP system which performed
+best in the Semantic Textual Similarity (STS)
+task at SemEval-2012 in two out of three met-
+rics. It uses a simple log-linear regression
+model, trained on the training data, to combine
+multiple text similarity measures of varying
+complexity. These range from simple char-
+acter and word n-grams and common sub-
+sequences to complex features such as Ex-
+plicit Semantic Analysis vector comparisons
+and aggregation of word similarity based on
+lexical-semantic resources. Further, we em-
+ploy a lexical substitution system and statisti-
+cal machine translation to add additional lex-
+emes, which alleviates lexical gaps. Our final
+models, one per dataset, consist of a log-linear
+combination of about 20 features, out of the
+possible 300+ features implemented.
+1 

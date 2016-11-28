@@ -1,0 +1,26 @@
+ 
+This paper presents a computer-tool tea- 
+ching system supplied by a language proce- 
+ssor. Its aim is to correct mistakes in 
+texts written by foreign students learning 
+Russian as a second language. Since a text 
+may include grammar mistakes, the system 
+cannot use morphological analysis to fool 
+extent. So one must compile a programm 
+capable of finding and correcting mistakes 
+without traditional means of analysis. 
+To solve this problem we prepone a system 
+that includes a vocabalary and rules of 
+finding and re-writing words. So the pro- 
+cess consists of finding word stems and 
+than correcting word endings . Semantic 
+and syntactic information("a model of ru- 
+ling"/Mel'~uk 1974/~ necessary for that 
+is written in the vocabulary of verbs 
+as a frame. The slots of this frame con- 
+tain semantic and morphological infor- 
+mation about words that depend on this 
+vord~. 
+The vocabulary containing now approxi- 
+mately 200 lexemes is enough for beginners 
+I ? 

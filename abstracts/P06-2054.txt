@@ -1,0 +1,18 @@
+
+In this paper, we exploit non-local fea-
+tures as an estimate of long-distance de-
+pendencies to improve performance on the
+statistical spoken language understanding
+(SLU) problem. The statistical natural
+language parsers trained on text perform
+unreliably to encode non-local informa-
+tion on spoken language. An alternative
+method we propose is to use trigger pairs
+that are automatically extracted by a fea-
+ture induction algorithm. We describe a
+light version of the inducer in which a sim-
+ple modification is efficient and success-
+ful. We evaluate our method on an SLU
+task and show an error reduction of up to
+27% over the base local model.
+1 

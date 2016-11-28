@@ -1,0 +1,22 @@
+ 
+This paper presents a method to enhance a 
+Chinese parser in parsing conjunctive 
+structures. Long conjunctive structures 
+cause long-distance dependencies and tre-
+mendous syntactic ambiguities. Pure syn-
+tactic approaches hardly can determine 
+boundaries of conjunctive phrases properly. 
+In this paper, we propose a divide-and-
+conquer approach which overcomes the dif-
+ficulty of data-sparseness of the training 
+data and uses both syntactic symmetry and 
+semantic reasonableness to evaluate am-
+biguous conjunctive structures. In compar-
+ing with the performances of the PCFG 
+parser without using the divide-and-
+conquer approach, the precision of the con-
+junctive boundary detection is improved 
+from 53.47% to 83.17%, and the bracketing 
+f-score of sentences with conjunctive struc-
+tures is raised up about 11 %. 
+1 

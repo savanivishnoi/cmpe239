@@ -1,0 +1,19 @@
+
+This paper describes a parameter estima-
+tion method for multi-label classification
+that does not rely on approximate infer-
+ence. It is known that multi-label clas-
+sification involving label correlation fea-
+tures is intractable, because the graphi-
+cal model for this problem is a complete
+graph. Our solution is to exploit the spar-
+sity of features, and express a model struc-
+ture for each object by using a sparse
+graph. We can thereby apply the junc-
+tion tree algorithm, allowing for efficient
+exact inference on sparse graphs. Exper-
+iments on three data sets for text catego-
+rization demonstrated that our method in-
+creases the accuracy for text categorization
+with a reasonable cost.
+1 

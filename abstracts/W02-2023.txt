@@ -1,0 +1,11 @@
+
+The regularity of named entities is used to learn
+names and to extract named entities. Having only
+a few name elements and a set of patterns the al-
+gorithm learns new names and its elements. A
+verification step assures quality using a large
+background corpus. Further improvement is
+reached through classifying the newly learnt
+elements on character level. Moreover, unsuper-
+vised rule learning is discussed.
+1 

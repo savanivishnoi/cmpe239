@@ -1,0 +1,16 @@
+ 
+We present a model and an experimental 
+platform of a bootstrapping approach to 
+statistical induction of natural language 
+properties that is constraint based with voting 
+components. The system is incremental and 
+unsupervised. In the following discussion we 
+focus on the components for morphological 
+induction. We show that the much harder 
+problem of incremental unsupervised 
+morphological induction can outperform 
+comparable all-at-once algorithms with 
+respect to precision. We discuss how we use 
+such systems to identify cues for induction in 
+a cross-level architecture. 
+1 

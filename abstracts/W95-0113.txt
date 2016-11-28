@@ -1,0 +1,10 @@
+ 
+Resea/ch based on a treebank is active for many natural language applications. However, the work to 
+build a large scale treebank is laborious and tedious. This paper proposes a probabilistic hunker to help 
+the development of a partially bracketed corpus. The chunker partitions the part-of-speech sequence into 
+segments called chunks. Rather than using a treebank as our training corpus, a corpus which is tagged 
+with part-of-speech information only is used. The experimental results show the probabilistic hunker has 
+more than 92% correct rate in outside test. The well-formed partially bracketed corpus is a milestone in the 
+development of a treebank. Besides, the simple but effective chunker can also be applied to many natural 
+language applications. 
+1. 

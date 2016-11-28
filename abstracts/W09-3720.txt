@@ -1,0 +1,20 @@
+
+We present an approach to disambiguating verb senses which differ
+w.r.t. the inferences they allow. It combines standard ontological tools
+and formalisms with a formal semantic analysis and is hence more
+formalised and more detailed than existing lexical semantic resources
+like WordNet and FrameNet [Fellbaum, 1998, Baker et al, 1998]. The
+resource presented here implements formal semantic descriptions of
+verbs in the Web Ontology Language (OWL) and exploits its reasoning
+potential based on Description Logics (DL) for the disambiguation of
+verbs in context, since before the correct sense of a verb can be reliably
+determined, its syntactic arguments have to be disambiguated first. We
+present details on this process, which is based on a mapping from the
+French EuroWordNet [Vossen, 1998] to SUMO [Niles and Pease, 2003].
+Moreover, we focus on the selectional restrictions of verbs w.r.t. the
+ontological type of their arguments, as well as their representation as
+necessary and sufficient conditions in the TBox. After a DL reasoner
+has identified the verb sense on the basis of these conditions, we make
+use of the more expressive Semantic Web Rule Language to calculate
+the inferences that are permitted on the selected interpretation.
+1 

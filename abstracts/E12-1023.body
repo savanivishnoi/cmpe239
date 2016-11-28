@@ -1,0 +1,20 @@
+
+In this paper, we present a supervised
+learning approach to training submodu-
+lar scoring functions for extractive multi-
+document summarization. By taking a
+structured prediction approach, we pro-
+vide a large-margin method that directly
+optimizes a convex relaxation of the de-
+sired performance measure. The learning
+method applies to all submodular summa-
+rization methods, and we demonstrate its
+effectiveness for both pairwise as well as
+coverage-based scoring functions on mul-
+tiple datasets. Compared to state-of-the-
+art functions that were tuned manually, our
+method significantly improves performance
+and enables high-fidelity models with num-
+ber of parameters well beyond what could
+reasonably be tuned by hand.
+1 

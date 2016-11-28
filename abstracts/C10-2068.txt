@@ -1,0 +1,30 @@
+
+Implicit relevance feedback has proved
+to be a important resource in improv-
+ing search accuracy and personalization.
+However, researchers who rely on feed-
+back data for testing their algorithms or
+other personalization related problems are
+loomed with problems like unavailabil-
+ity of data, staling up of data and so
+on. Given these problems, we are mo-
+tivated towards creating a synthetic user
+relevance feedback data, based on insights
+from query log analysis. We call this sim-
+ulated feedback. We believe that simu-
+lated feedback can be immensely benefi-
+cial to web search engine and personaliza-
+tion research communities by greatly re-
+ducing efforts involved in collecting user
+feedback. The benefits from ?Simulated
+feedback? are - it is easy to obtain and
+also the process of obtaining the feed-
+back data is repeatable, customizable and
+does not need the interactions of the user.
+In this paper, we describe a simple yet
+effective approach for creating simulated
+feedback. We have evaluated our system
+using the clickthrough data of the users
+and achieved 77% accuracy in generating
+click-through data.
+1 

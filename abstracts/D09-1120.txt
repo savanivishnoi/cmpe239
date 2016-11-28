@@ -1,0 +1,19 @@
+
+Coreference systems are driven by syntactic, se-
+mantic, and discourse constraints. We present
+a simple approach which completely modularizes
+these three aspects. In contrast to much current
+work, which focuses on learning and on the dis-
+course component, our system is deterministic and
+is driven entirely by syntactic and semantic com-
+patibility as learned from a large, unlabeled corpus.
+Despite its simplicity and discourse naivete, our
+system substantially outperforms all unsupervised
+systems and most supervised ones. Primary con-
+tributions include (1) the presentation of a simple-
+to-reproduce, high-performing baseline and (2) the
+demonstration that most remaining errors can be at-
+tributed to syntactic and semantic factors external
+to the coreference phenomenon (and perhaps best
+addressed by non-coreference systems).
+1 

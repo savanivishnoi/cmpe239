@@ -1,0 +1,23 @@
+ 
+Users of Natural Language Generation 
+systems are required to have sophisti-
+cated linguistic and sometimes even pro-
+gramming knowledge, which has hin-
+dered the adoption of this technology by 
+individuals outside the computational 
+linguistics research community. We have 
+designed and implemented a visual envi-
+ronment for creating and modifying NLG 
+templates which requires no program-
+ming ability and minimum linguistic 
+knowledge. It allows specifying tem-
+plates with any number of variables and 
+dependencies between them. Internally, it 
+uses SimpleNLG to provide the linguistic 
+background knowledge. We tested the 
+performance of our system in the context 
+of an interactive simulation game. We 
+describe the templates used for testing 
+and show examples of sentences that our 
+system generates from these templates. 
+1 

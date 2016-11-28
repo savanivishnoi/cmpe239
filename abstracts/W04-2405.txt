@@ -1,0 +1,12 @@
+
+This paper investigates the application of co-
+training and self-training to word sense disam-
+biguation. Optimal and empirical parameter se-
+lection methods for co-training and self-training
+are investigated, with various degrees of error
+reduction. A new method that combines co-
+training with majority voting is introduced, with
+the effect of smoothing the bootstrapping learn-
+ing curves, and improving the average perfor-
+mance.
+1 

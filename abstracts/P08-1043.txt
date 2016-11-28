@@ -1,0 +1,20 @@
+
+Morphological processes in Semitic languages
+deliver space-delimited words which intro-
+duce multiple, distinct, syntactic units into the
+structure of the input sentence. These words
+are in turn highly ambiguous, breaking the
+assumption underlying most parsers that the
+yield of a tree for a given sentence is known in
+advance. Here we propose a single joint model
+for performing both morphological segmenta-
+tion and syntactic disambiguation which by-
+passes the associated circularity. Using a tree-
+bank grammar, a data-driven lexicon, and a
+linguistically motivated unknown-tokens han-
+dling technique our model outperforms previ-
+ous pipelined, integrated or factorized systems
+for Hebrew morphological and syntactic pro-
+cessing, yielding an error reduction of 12%
+over the best published results so far.
+1 

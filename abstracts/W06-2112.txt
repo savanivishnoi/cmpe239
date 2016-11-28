@@ -1,0 +1,21 @@
+
+The correct attachment of prepositional
+phrases (PPs) is a central disambigua-
+tion problem in parsing natural languages.
+This paper compares the baseline situation
+in English, German and Swedish based
+on manual PP attachments in various tree-
+banks for these languages. We argue that
+cross-language comparisons of the disam-
+biguation results in previous research is
+impossible because of the different selec-
+tion procedures when building the training
+and test sets. We perform uniform tree-
+bank queries and show that English has the
+highest noun attachment rate followed by
+Swedish and German. We also show that
+the high rate in English is dominated by
+the preposition of. From our study we de-
+rive a list of criteria for profiling data sets
+for PP attachment experiments.
+1 

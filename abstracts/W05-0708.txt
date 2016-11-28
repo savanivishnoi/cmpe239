@@ -1,0 +1,22 @@
+
+Natural language processing technology
+for the dialects of Arabic is still in its
+infancy, due to the problem of obtaining
+large amounts of text data for spoken Ara-
+bic. In this paper we describe the de-
+velopment of a part-of-speech (POS) tag-
+ger for Egyptian Colloquial Arabic. We
+adopt a minimally supervised approach
+that only requires raw text data from sev-
+eral varieties of Arabic and a morpholog-
+ical analyzer for Modern Standard Ara-
+bic. No dialect-specific tools are used. We
+present several statistical modeling and
+cross-dialectal data sharing techniques to
+enhance the performance of the baseline
+tagger and compare the results to those
+obtained by a supervised tagger trained
+on hand-annotated data and, by a state-of-
+the-art Modern Standard Arabic tagger ap-
+plied to Egyptian Arabic.
+1 

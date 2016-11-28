@@ -1,0 +1,14 @@
+
+Variational EM has become a popular
+technique in probabilistic NLP with hid-
+den variables. Commonly, for computa-
+tional tractability, we make strong inde-
+pendence assumptions, such as the mean-
+field assumption, in approximating pos-
+terior distributions over hidden variables.
+We show how a looser restriction on the
+approximate posterior, requiring it to be a
+mixture, can help inject prior knowledge
+to exploit soft constraints during the varia-
+tional E-step.
+1 

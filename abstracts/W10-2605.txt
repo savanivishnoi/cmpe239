@@ -1,0 +1,23 @@
+
+Many natural language processing (NLP)
+tools exhibit a decrease in performance
+when they are applied to data that is lin-
+guistically different from the corpus used
+during development. This makes it hard to
+develop NLP tools for domains for which
+annotated corpora are not available. This
+paper explores a number of metrics that
+attempt to predict the cross-domain per-
+formance of an NLP tool through statis-
+tical inference. We apply different sim-
+ilarity metrics to compare different do-
+mains and investigate the correlation be-
+tween similarity and accuracy loss of NLP
+tool. We find that the correlation between
+the performance of the tool and the sim-
+ilarity metric is linear and that the latter
+can therefore be used to predict the perfor-
+mance of an NLP tool on out-of-domain
+data. The approach also provides a way to
+quantify the difference between domains.
+1 

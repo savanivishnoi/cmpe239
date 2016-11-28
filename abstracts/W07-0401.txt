@@ -1,0 +1,20 @@
+
+In this paper, we describe a source-
+side reordering method based on syntac-
+tic chunks for phrase-based statistical ma-
+chine translation. First, we shallow parse
+the source language sentences. Then, re-
+ordering rules are automatically learned
+from source-side chunks and word align-
+ments. During translation, the rules are
+used to generate a reordering lattice for
+each sentence. Experimental results are
+reported for a Chinese-to-English task,
+showing an improvement of 0.5%?1.8%
+BLEU score absolute on various test sets
+and better computational efficiency than
+reordering during decoding. The exper-
+iments also show that the reordering at
+the chunk-level performs better than at the
+POS-level.
+1 

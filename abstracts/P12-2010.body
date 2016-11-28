@@ -1,0 +1,16 @@
+
+Although researchers have conducted exten-
+sive studies on relation extraction in the last
+decade, supervised approaches are still limited
+because they require large amounts of training
+data to achieve high performances. To build
+a relation extractor without significant anno-
+tation effort, we can exploit cross-lingual an-
+notation projection, which leverages parallel
+corpora as external resources for supervision.
+This paper proposes a novel graph-based pro-
+jection approach and demonstrates the mer-
+its of it by using a Korean relation extrac-
+tion system based on projected dataset from
+an English-Korean parallel corpus.
+1 

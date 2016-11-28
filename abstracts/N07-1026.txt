@@ -1,0 +1,23 @@
+
+Graph-based semi-supervised learning has
+recently emerged as a promising approach
+to data-sparse learning problems in natu-
+ral language processing. All graph-based
+algorithms rely on a graph that jointly rep-
+resents labeled and unlabeled data points.
+The problem of how to best construct this
+graph remains largely unsolved. In this
+paper we introduce a data-driven method
+that optimizes the representation of the
+initial feature space for graph construc-
+tion by means of a supervised classifier.
+We apply this technique in the frame-
+work of label propagation and evaluate
+it on two different classification tasks, a
+multi-class lexicon acquisition task and a
+word sense disambiguation task. Signifi-
+cant improvements are demonstrated over
+both label propagation using conventional
+graph construction and state-of-the-art su-
+pervised classifiers.
+1 

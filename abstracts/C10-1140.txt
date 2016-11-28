@@ -1,0 +1,19 @@
+
+This paper proposes an efficient online
+method that trains a classifier with many
+conjunctive features. We employ kernel
+computation called kernel slicing, which
+explicitly considers conjunctions among
+frequent features in computing the poly-
+nomial kernel, to combine the merits of
+linear and kernel-based training. To im-
+prove the scalability of this training, we
+reuse the temporal margins of partial fea-
+ture vectors and terminate unnecessary
+margin computations. Experiments on de-
+pendency parsing and hyponymy-relation
+extraction demonstrated that our method
+could train a classifier orders of magni-
+tude faster than kernel-based online learn-
+ing, while retaining its space efficiency.
+1 

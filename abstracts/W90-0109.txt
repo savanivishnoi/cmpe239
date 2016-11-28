@@ -1,0 +1,19 @@
+ Linguistic Resources for Text Planning 
+Mar ie  W.  Meteer  
+BBN Systems & Technologies Corporation 
+10 Moulton Street 
+Cambridge, Massachusetts 02138 
+MMETEER@BBN.COM 
+Abstract 
+In this paper, I define the notion of an abstract 
+linguistic resource which reifies as a term for use by 
+the text planner just those combinations of concrete 
+linguistic resources (the words, morphological 
+markings, syntactic structures, etc. that actually 
+appear in a stream of text) that are expressible. I
+present a representational level, the Text Structure, 
+which is defined in these abstract linguistic terms 
+and which mediates and constrains the commitments 
+of a text planner to ensure that the utterance being 
+planned will be expressible in language. 
+1. 

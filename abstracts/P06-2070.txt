@@ -1,0 +1,22 @@
+
+A number of metrics for automatic eval-
+uation of machine translation have been
+proposed in recent years, with some met-
+rics focusing on measuring the adequacy
+of MT output, and other metrics focus-
+ing on fluency. Adequacy-oriented met-
+rics such as BLEU measure n-gram over-
+lap of MT outputs and their references, but
+do not represent sentence-level informa-
+tion. In contrast, fluency-oriented metrics
+such as ROUGE-W compute longest com-
+mon subsequences, but ignore words not
+aligned by the LCS. We propose a metric
+based on stochastic iterative string align-
+ment (SIA), which aims to combine the
+strengths of both approaches. We com-
+pare SIA with existing metrics, and find
+that it outperforms them in overall evalu-
+ation, and works specially well in fluency
+evaluation.
+1 

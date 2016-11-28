@@ -1,0 +1,19 @@
+
+We present a comparative study of corpus-
+based methods for the automatic synthe-
+sis of email responses to help-desk re-
+quests. Our methods were developed by
+considering two operational dimensions:
+(1) information-gathering technique, and
+(2) granularity of the information. In par-
+ticular, we investigate two techniques ? re-
+trieval and prediction ? applied to infor-
+mation represented at two levels of granu-
+larity ? sentence-level and document level.
+We also developed a hybrid method that
+combines prediction with retrieval. Our
+results show that the different approaches
+are applicable in different situations, ad-
+dressing a combined 72% of the requests
+with either complete or partial responses.
+1 

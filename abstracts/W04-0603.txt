@@ -1,0 +1,16 @@
+
+This paper describes using RDF/RDFS/XML to cre-
+ate and navigate a metadata model of relationships
+among entities in text. The metadata we create
+is roughly an order of magnitude smaller than the
+content being modeled, it provides the end-user
+with context sensitive information about the hyper-
+linked entities in focus. These entities at the core
+of the model are originally found and resolved us-
+ing a combination of information extraction and
+record linkage techniques. The RDF/RDFS meta-
+data model is then used to ?look ahead? and navi-
+gate to related information. An RDF aware front-
+end web application streamlines the presentation of
+information to the end user.
+1 

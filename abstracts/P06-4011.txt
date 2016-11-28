@@ -1,0 +1,23 @@
+s 
+Jien-Chen Wu1   Yu-Chia Chang1   Hsien-Chin Liou2   Jason S. Chang1 
+CS1 and FLL2, National Tsing Hua Univ. 
+{d928322,d948353}@oz.nthu.edu.tw, hcliu@mx.nthu.edu.tw, 
+jason.jschang@gmail.com 
+Abstract 
+This paper introduces a method for 
+computational analysis of move 
+structures in abstracts of research articles. 
+In our approach, sentences in a given 
+abstract are analyzed and labeled with a 
+specific move in light of various 
+rhetorical functions. The method involves 
+automatically gathering a large number 
+of abstracts from the Web and building a 
+language model of abstract moves. We 
+also present a prototype concordancer, 
+CARE, which exploits the move-tagged 
+abstracts for digital learning. This system 
+provides a promising approach to Web-
+based computer-assisted academic 
+writing. 
+1 

@@ -1,0 +1,15 @@
+
+This paper describes a statistical machine
+translation system for our participation
+for the WMT10 shared task. Based on
+MOSES, our system is capable of translat-
+ing German, French and Spanish into En-
+glish. Our main contribution in this work
+is about effective parameter tuning. We
+discover that there is a significant perfor-
+mance gap as different development sets
+are adopted. Finally, ten groups of devel-
+opment sets are used to optimize the model
+weights, and this does help us obtain a sta-
+ble evaluation result.
+1 

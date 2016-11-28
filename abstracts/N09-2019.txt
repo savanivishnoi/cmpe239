@@ -1,0 +1,14 @@
+
+We describe a simple strategy to achieve trans-
+lation performance improvements by combin-
+ing output from identical statistical machine
+translation systems trained on alternative mor-
+phological decompositions of the source lan-
+guage. Combination is done by means of Min-
+imum Bayes Risk decoding over a shared N-
+best list. When translating into English from
+two highly inflected languages such as Ara-
+bic and Finnish we obtain significant improve-
+ments over simply selecting the best morpho-
+logical decomposition.
+1 

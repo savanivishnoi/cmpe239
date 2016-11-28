@@ -1,0 +1,27 @@
+
+Automated answering of natural language
+questions is an interesting and useful prob-
+lem to solve. Question answering (QA)
+systems often perform information re-
+trieval at an initial stage. Information re-
+trieval (IR) performance, provided by en-
+gines such as Lucene, places a bound on
+overall system performance. For example,
+no answer bearing documents are retrieved
+at low ranks for almost 40% of questions.
+In this paper, answer texts from previous
+QA evaluations held as part of the Text
+REtrieval Conferences (TREC) are paired
+with queries and analysed in an attempt
+to identify performance-enhancing words.
+These words are then used to evaluate the
+performance of a query expansion method.
+Data driven extension words were found
+to help in over 70% of difficult questions.
+These words can be used to improve and
+evaluate query expansion methods. Sim-
+ple blind relevance feedback (RF) was cor-
+rectly predicted as unlikely to help overall
+performance, and an possible explanation
+is provided for its low value in IR for QA.
+1 

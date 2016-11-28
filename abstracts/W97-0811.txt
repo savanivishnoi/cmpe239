@@ -1,0 +1,17 @@
+ 
+The same word can have many different mean- 
+ings depending on the context in which it is 
+used. Discovering the meaning of a word, given 
+the text around it, has been an interesting prob- 
+lem for both the psychology and the artificial 
+intelligence research communities. In this arti- 
+cle, we present a series of experiments, using 
+methods which have proven to be useful for 
+eliminating part-of-speech ambiguity, to see if 
+such simple methods can be used to resolve se- 
+mantic ambiguities. Using a publicly available 
+semantic lexicon, we find the Hidden Markov 
+Models work surprising well at choosing the 
+right semantic ategories, once the sentence has 
+been stripped of purely functional words. 
+1 

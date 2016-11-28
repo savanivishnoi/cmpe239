@@ -1,0 +1,18 @@
+
+The use of similarities has been one of the
+main approaches to resolve the ambigui-
+ties of coordinate structures. In this pa-
+per, we present an alternative method for
+coordination disambiguation, which does
+not use similarities. Our hypothesis is
+that coordinate structures are supported
+by surrounding dependency relations, and
+that such dependency relations rather yield
+similarity between conjuncts, which hu-
+mans feel. Based on this hypothesis, we
+built a Japanese fully-lexicalized genera-
+tive parser that includes coordination dis-
+ambiguation. Experimental results on web
+sentences indicated the effectiveness of our
+approach, and endorsed our hypothesis.
+1 

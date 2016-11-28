@@ -1,0 +1,21 @@
+
+This paper describes a study of the pat-
+terns of translational equivalence exhib-
+ited by a variety of bitexts. The study
+found that the complexity of these pat-
+terns in every bitext was higher than sug-
+gested in the literature. These findings
+shed new light on why ?syntactic? con-
+straints have not helped to improve statis-
+tical translation models, including finite-
+state phrase-based models, tree-to-string
+models, and tree-to-tree models. The
+paper also presents evidence that inver-
+sion transduction grammars cannot gen-
+erate some translational equivalence rela-
+tions, even in relatively simple real bi-
+texts in syntactically similar languages
+with rigid word order. Instructions
+for replicating our experiments are at
+http://nlp.cs.nyu.edu/GenPar/ACL06
+1 

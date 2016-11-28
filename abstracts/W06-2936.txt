@@ -1,0 +1,14 @@
+
+Following (McDonald et al, 2005), we
+present an application of a maximum
+spanning tree algorithm for a directed
+graph to non-projective labeled depen-
+dency parsing. Using a variant of the
+voted perceptron (Collins, 2002; Collins
+and Roark, 2004; Crammer and Singer,
+2003), we discriminatively trained our
+parser in an on-line fashion. After just one
+epoch of training, we were generally able
+to attain average results in the CoNLL
+2006 Shared Task.
+1 

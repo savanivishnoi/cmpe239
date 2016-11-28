@@ -1,0 +1,21 @@
+ 
+This paper presents an algorithm for finding 
+systematic polysemous classes in WordNet 
+and similar semantic databases, based on a 
+definition in (Apresjan 1973). The 
+introduction of systematic polysemous 
+classes can reduce the amount of lexical 
+semantic processing, because the number of 
+disambiguation decisions can be restricted 
+more clearly to those cases that involve real 
+ambiguity (homonymy). In many 
+applications, for instance in document 
+categorization, information retrieval, and 
+information extraction, it may be sufficient 
+to know if a given word belongs to a certain 
+class (underspecified sense) rather than to 
+know which of its (related) senses exactly to 
+pick. The approach for finding systematic 
+polysemous classes is based on that of 
+(Buitelaar 1998a, Buitelaar 1998b), while 
+addressing some previous hortcomings. 

@@ -1,0 +1,30 @@
+
+It is not always clear how the differences
+in intrinsic evaluation metrics for a parser
+or classifier will affect the performance of
+the system that uses it. We investigate the
+relationship between the intrinsic evalua-
+tion scores of an interpretation component
+in a tutorial dialogue system and the learn-
+ing outcomes in an experiment with human
+users. Following the PARADISE method-
+ology, we use multiple linear regression to
+build predictive models of learning gain,
+an important objective outcome metric in
+tutorial dialogue. We show that standard
+intrinsic metrics such as F-score alone do
+not predict the outcomes well. However,
+we can build predictive performance func-
+tions that account for up to 50% of the vari-
+ance in learning gain by combining fea-
+tures based on standard evaluation scores
+and on the confusion matrix entries. We
+argue that building such predictive mod-
+els can help us better evaluate performance
+of NLP components that cannot be distin-
+guished based on F-score alone, and illus-
+trate our approach by comparing the cur-
+rent interpretation component in the system
+to a new classifier trained on the evaluation
+data.
+1 

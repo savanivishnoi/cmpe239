@@ -1,0 +1,18 @@
+
+A variety of query systems have been devel-
+oped for interrogating parsed corpora, or tree-
+banks. With the arrival of efficient, wide-
+coverage parsers, it is feasible to create very
+large databases of trees. However, existing ap-
+proaches that use in-memory search, or rela-
+tional or XML database technologies, do not
+scale up. We describe a method for storage,
+indexing, and query of treebanks that uses an
+information retrieval engine. Several experi-
+ments with a large treebank demonstrate ex-
+cellent scaling characteristics for a wide range
+of query types. This work facilitates the cu-
+ration of much larger treebanks, and enables
+them to be used effectively in a variety of sci-
+entific and engineering tasks.
+1 

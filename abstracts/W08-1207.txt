@@ -1,0 +1,22 @@
+
+There has been extensive work on elicit-
+ing human judgements on the sentiment
+of words and the resulting annotated word
+lists have frequently been used for opin-
+ion mining applications in Natural Lan-
+guage Processing (NLP). However, this
+word-based approach does not take differ-
+ent senses of a word into account, which
+might differ in whether and what kind
+of sentiment they evoke. In this paper,
+we therefore introduce a human annotation
+scheme for judging both the subjectivity
+and polarity of word senses. We show that
+the scheme is overall reliable, making this
+a well-defined task for automatic process-
+ing. We also discuss three issues that sur-
+faced during annotation: the role of anno-
+tation bias, hierarchical annotation (or un-
+derspecification) and bias in the sense in-
+ventory used.
+1 

@@ -1,0 +1,21 @@
+ 
+Large amounts of bilingual resource on the Internet 
+provide us with the probability of building a large 
+scale of bilingual corpus. The irregular characteris-
+tics of the real texts, especially without the strictly 
+aligned paragraph boundaries, bring a challenge to 
+alignment technology. The traditional alignment 
+methods have some difficulties in competency for 
+doing this. This paper describes a new method for 
+aligning real bilingual texts using sentence pair 
+location information. The model was motivated by 
+the observation that the location of a sentence pair 
+with certain length is distributed in the whole text 
+similarly. It uses (1:1) sentence beads instead of 
+high frequency words as the candidate anchors. 
+The method was developed and evaluated through 
+many different test data. The results show that it 
+can achieve good aligned performance and be ro-
+bust and language independent. It can resolve the 
+alignment problem on real bilingual text. 
+1 

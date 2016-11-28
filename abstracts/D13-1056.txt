@@ -1,0 +1,15 @@
+
+We introduce a novel discriminative model for
+phrase-based monolingual alignment using a
+semi-Markov CRF. Our model achieves state-
+of-the-art alignment accuracy on two phrase-
+based alignment datasets (RTE and para-
+phrase), while doing significantly better than
+other strong baselines in both non-identical
+alignment and phrase-only alignment. Addi-
+tional experiments highlight the potential ben-
+efit of our alignment model to RTE, para-
+phrase identification and question answering,
+where even a naive application of our model?s
+alignment score approaches the state of the art.
+1 

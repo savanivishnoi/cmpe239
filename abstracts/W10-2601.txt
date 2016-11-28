@@ -1,0 +1,17 @@
+
+We discuss the problem of model adapta-
+tion for the task of named entity recog-
+nition with respect to the variation of la-
+bel distributions in data from different do-
+mains. We investigate an adaptive exten-
+sion of the sequence perceptron, where the
+adaptive component includes parameters
+estimated from unlabelled data in combi-
+nation with background knowledge in the
+form of gazetteers. We apply this idea
+empirically on adaptation experiments in-
+volving two newswire datasets from dif-
+ferent domains and compare with other
+popular methods such as self training and
+structural correspondence learning.
+1 

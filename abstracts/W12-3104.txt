@@ -1,0 +1,17 @@
+ 
+A recent paper described a new machine 
+translation evaluation metric, AMBER. This 
+paper describes two changes to AMBER. The 
+first one is incorporation of a new ordering 
+penalty; the second one is the use of the 
+downhill simplex algorithm to tune the 
+weights for the components of AMBER. We 
+tested the impact of the two changes, using 
+data from the WMT metrics task. Each of the 
+changes by itself improved the performance of 
+AMBER, and the two together yielded even 
+greater improvement, which in some cases 
+was more than additive. The new version of 
+AMBER clearly outperforms BLEU in terms 
+of correlation with human judgment.  
+1 

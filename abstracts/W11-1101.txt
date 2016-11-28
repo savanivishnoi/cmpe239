@@ -1,0 +1,20 @@
+
+This paper proposes a novel application of
+a supervised topic model to do entity rela-
+tion detection (ERD). We adapt Maximum En-
+tropy Discriminant Latent Dirichlet Alloca-
+tion (MEDLDA) with mixed membership for
+relation detection. The ERD task is refor-
+mulated to fit into the topic modeling frame-
+work. Our approach combines the benefits of
+both, maximum-likelihood estimation (MLE)
+and max-margin estimation (MME), and the
+mixed membership formulation enables the
+system to incorporate heterogeneous features.
+We incorporate different features into the sys-
+tem and perform experiments on the ACE
+2005 corpus. Our approach achieves better
+overall performance for precision, recall and
+Fmeasure metrics as compared to SVM-based
+and LLDA-based models.
+1 

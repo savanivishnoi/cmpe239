@@ -1,0 +1,18 @@
+  
+Open-Domain Question Answering systems 
+(QA) performs the task of detecting text 
+fragments in a collection of documents that 
+contain the response to user?s queries. 
+These systems use high complexity tools that 
+reduce its applicability to the treatment of 
+small amounts of text. Consequently, when 
+working on large document collections, QA 
+systems apply Information Retrieval (IR) 
+techniques to reduce drastically text 
+collections to a tractable quantity of 
+relevant text. In this paper, we propose a 
+novel Passage Retrieval (PR) model that 
+performs this task with better performance 
+for QA purposes than current best IR 
+systems 
+1 

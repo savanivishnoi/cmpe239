@@ -1,0 +1,22 @@
+ 
+This paper presents Delphi, the natural 
+language component of the BBN Spoken 
+Language System. Delphi is a domain- 
+independent natural language question an- 
+swering system that is solidly based on 
+linguistic principles, yet which is also ro- 
+bust to ungrammatical input. It includes 
+a domain-independent, broad-coverage ram- 
+mar of English. Analysis components include 
+an agenda-based best-first parser and a fall- 
+back component for partial understanding that 
+works by fragment combination. Delphi has 
+been formally evaluated in the ARPA Spoken 
+Language program's ATIS (Airline Travel In- 
+formation System) domain, and has performed 
+well. Delphi has also been ported to a spo- 
+ken language demonstration system in an Air 
+Force Resource Management domain. We dis- 
+cuss results of the evaluation as well as the 
+porting process. 
+1 

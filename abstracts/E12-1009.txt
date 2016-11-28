@@ -1,0 +1,21 @@
+
+Transition-based dependency parsers are
+often forced to make attachment deci-
+sions at a point when only partial infor-
+mation about the relevant graph configu-
+ration is available. In this paper, we de-
+scribe a model that takes into account com-
+plete structures as they become available
+to rescore the elements of a beam, com-
+bining the advantages of transition-based
+and graph-based approaches. We also pro-
+pose an efficient implementation that al-
+lows for the use of sophisticated features
+and show that the completion model leads
+to a substantial increase in accuracy. We
+apply the new transition-based parser on ty-
+pologically different languages such as En-
+glish, Chinese, Czech, and German and re-
+port competitive labeled and unlabeled at-
+tachment scores.
+1 

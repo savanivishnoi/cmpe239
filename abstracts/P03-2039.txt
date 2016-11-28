@@ -1,0 +1,14 @@
+
+Since written Chinese has no space to de-
+limit words, segmenting Chinese texts be-
+comes an essential task. During this task,
+the problem of unknown word occurs. It is
+impossible to register all words in a dictio-
+nary as new words can always be created
+by combining characters. We propose a
+unified solution to detect unknown words
+in Chinese texts. First, a morphological
+analysis is done to obtain initial segmen-
+tation and POS tags and then a chunker is
+used to detect unknown words.
+1 

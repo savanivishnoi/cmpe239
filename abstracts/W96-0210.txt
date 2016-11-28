@@ -1,0 +1,15 @@
+ 
+This paper describes measures for evaluating the 
+three determinants of how well a probabilistic elas- 
+sifter performs on a given test set. These determi- 
+nants are the appropriateness, for the test set, of 
+the results of (1)feature selection, (2) formulation 
+of the parametric form of the model, and (3) pa- 
+rameter estimation. These are part of any model 
+formulation procedure, even if not broken out as 
+separate steps, so the tradeoffs explored in this 
+paper are relevant o a wide variety of methods. 
+The measures are demonstrated in a large experi- 
+ment, in which they are used to analyze the results 
+of roughly 300 classifiers that perform word-sense 
+disambiguation. 

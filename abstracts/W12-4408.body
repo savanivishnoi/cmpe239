@@ -1,0 +1,20 @@
+
+In this paper, we describe our approach
+to English-to-Korean transliteration task in
+NEWS 2012. Our system mainly consists
+of two components: an letter-to-phoneme
+alignment with m2m-aligner,and translitera-
+tion training model DirecTL-p. We construct
+different parameter settings to train several
+transliteration models. Then, we use two re-
+ranking methods to select the best transliter-
+ation among the prediction results from the
+different models. One re-ranking method is
+based on the co-occurrence of the translitera-
+tion pair in the web corpora. The other one is
+the JLIS-Reranking method which is based on
+the features from the alignment results. Our
+standard and non-standard runs achieves 0.398
+and 0.458 in top-1 accuracy in the generation
+task.
+1 

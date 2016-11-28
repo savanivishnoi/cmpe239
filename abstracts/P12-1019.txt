@@ -1,0 +1,21 @@
+
+Long-span features, such as syntax, can im-
+prove language models for tasks such as
+speech recognition and machine translation.
+However, these language models can be dif-
+ficult to use in practice because of the time
+required to generate features for rescoring a
+large hypothesis set. In this work, we pro-
+pose substructure sharing, which saves dupli-
+cate work in processing hypothesis sets with
+redundant hypothesis structures. We apply
+substructure sharing to a dependency parser
+and part of speech tagger to obtain significant
+speedups, and further improve the accuracy
+of these tools through up-training. When us-
+ing these improved tools in a language model
+for speech recognition, we obtain significant
+speed improvements with bothN -best and hill
+climbing rescoring, and show that up-training
+leads to WER reduction.
+1 

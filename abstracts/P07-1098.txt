@@ -1,0 +1,16 @@
+
+We study the impact of syntactic and shallow
+semantic information in automatic classifi-
+cation of questions and answers and answer
+re-ranking. We define (a) new tree struc-
+tures based on shallow semantics encoded
+in Predicate Argument Structures (PASs)
+and (b) new kernel functions to exploit the
+representational power of such structures
+with Support Vector Machines. Our ex-
+periments suggest that syntactic information
+helps tasks such as question/answer classifi-
+cation and that shallow semantics gives re-
+markable contribution when a reliable set of
+PASs can be extracted, e.g. from answers.
+1 

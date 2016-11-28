@@ -1,0 +1,16 @@
+ 
+This paper explores the usefltllmss of a technique 
+from software engineering, (:ode instrumentation, 
+tbr the developlnent of large-scale natural anguage 
+grammars, hltbrlnation about the usage of graln- 
+mar rules in test and corpus sentences i  used to 
+ilnprove grammar and testsuite, as well as adapting 
+a grammar to a specific genre. Results show that less 
+than half of a large-coverage rmnmar for German 
+is actually tested by two large testsuites, and that 
+10 30% of testing time is redundant. This method- 
+ology applied can be seen as a re-use of grammar 
+writing knowledge for testsuite compilation. The 
+construction of genre-specific grmmnars results in 
+peribrmance gains of a factor of four. 
+1 

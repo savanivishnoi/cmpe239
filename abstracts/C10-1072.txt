@@ -1,0 +1,23 @@
+ 
+Polarity shifting marked by various 
+linguistic structures has been a challenge 
+to automatic sentiment classification. In 
+this paper, we propose a machine learning 
+approach to incorporate polarity shifting 
+information into a document-level 
+sentiment classification system. First, a 
+feature selection method is adopted to 
+automatically generate the training data 
+for a binary classifier on polarity shifting 
+detection of sentences. Then, by using the 
+obtained binary classifier, each document 
+in the original polarity classification 
+training data is split into two partitions, 
+polarity-shifted and polarity-unshifted, 
+which are used to train two base 
+classifiers respectively for further 
+classifier combination. The experimental 
+results across four different domains 
+demonstrate the effectiveness of our 
+approach. 
+1 

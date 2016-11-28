@@ -1,0 +1,31 @@
+
+Generic rule-based systems for Information
+Extraction (IE) have been shown to work
+reasonably well out-of-the-box, and achieve
+state-of-the-art accuracy with further domain
+customization. However, it is generally rec-
+ognized that manually building and customiz-
+ing rules is a complex and labor intensive pro-
+cess. In this paper, we discuss an approach
+that facilitates the process of building cus-
+tomizable rules for Named-Entity Recognition
+(NER) tasks via rule induction, in the Annota-
+tion Query Language (AQL). Given a set of
+basic features and an annotated document col-
+lection, our goal is to generate an initial set
+of rules with reasonable accuracy, that are in-
+terpretable and thus can be easily refined by
+a human developer. We present an efficient
+rule induction process, modeled on a four-
+stage manual rule development process and
+present initial promising results with our sys-
+tem. We also propose a simple notion of ex-
+tractor complexity as a first step to quantify
+the interpretability of an extractor, and study
+the effect of induction bias and customization
+of basic features on the accuracy and complex-
+ity of induced rules. We demonstrate through
+experiments that the induced rules have good
+accuracy and low complexity according to our
+complexity measure.
+1 

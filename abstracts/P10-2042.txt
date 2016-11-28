@@ -1,0 +1,24 @@
+
+Learning a tree substitution grammar is
+very challenging due to derivational am-
+biguity. Our recent approach used a
+Bayesian non-parametric model to induce
+good derivations from treebanked input
+(Cohn et al, 2009), biasing towards small
+grammars composed of small generalis-
+able productions. In this paper we present
+a novel training method for the model us-
+ing a blocked Metropolis-Hastings sam-
+pler in place of the previous method?s lo-
+cal Gibbs sampler. The blocked sam-
+pler makes considerably larger moves than
+the local sampler and consequently con-
+verges in less time. A core component
+of the algorithm is a grammar transforma-
+tion which represents an infinite tree sub-
+stitution grammar in a finite context free
+grammar. This enables efficient blocked
+inference for training and also improves
+the parsing algorithm. Both algorithms are
+shown to improve parsing accuracy.
+1 

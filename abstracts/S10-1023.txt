@@ -1,0 +1,18 @@
+
+In this paper we present a na??ve approach
+to tackle the problem of cross-lingual
+WSD and cross-lingual lexical substitu-
+tion which correspond to the Task #2 and
+#3 of the SemEval-2 competition. We used
+a bilingual statistical dictionary, which is
+calculated with Giza++ by using the EU-
+ROPARL parallel corpus, in order to cal-
+culate the probability of a source word to
+be translated to a target word (which is as-
+sumed to be the correct sense of the source
+word but in a different language). Two ver-
+sions of the probabilistic model are tested:
+unweighted and weighted. The obtained
+values show that the unweighted version
+performs better thant the weighted one.
+1 

@@ -1,0 +1,20 @@
+
+This paper describes log-linear pars-
+ing models for Combinatory Categorial
+Grammar (CCG). Log-linear models can
+easily encode the long-range dependen-
+cies inherent in coordination and extrac-
+tion phenomena, which CCG was designed
+to handle. Log-linear models have pre-
+viously been applied to statistical pars-
+ing, under the assumption that all possible
+parses for a sentence can be enumerated.
+Enumerating all parses is infeasible for
+large grammars; however, dynamic pro-
+gramming over a packed chart can be used
+to efficiently estimate the model parame-
+ters. We describe a parellelised implemen-
+tation which runs on a Beowulf cluster and
+allows the complete WSJ Penn Treebank
+to be used for estimation.
+1 

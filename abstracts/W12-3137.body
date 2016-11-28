@@ -1,0 +1,19 @@
+
+This paper describes the statistical ma-
+chine translation (SMT) systems developed at
+RWTH Aachen University for the translation
+task of the NAACL 2012 Seventh Workshop on
+Statistical Machine Translation (WMT 2012).
+We participated in the evaluation campaign
+for the French-English and German-English
+language pairs in both translation directions.
+Both hierarchical and phrase-based SMT sys-
+tems are applied. A number of different tech-
+niques are evaluated, including an insertion
+model, different lexical smoothing methods,
+a discriminative reordering extension for the
+hierarchical system, reverse translation, and
+system combination. By application of these
+methods we achieve considerable improve-
+ments over the respective baseline systems.
+1 

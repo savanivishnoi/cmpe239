@@ -1,0 +1,26 @@
+
+This paper is focused on one aspect of SO-
+PMI, an unsupervised approach to senti-
+ment vocabulary acquisition proposed by
+Turney (Turney and Littman, 2003). The
+method, originally applied and evaluated
+for English, is often used in bootstrap-
+ping sentiment lexicons for European lan-
+guages where no such resources typically
+exist. In general, SO-PMI values are com-
+puted from word co-occurrence frequencies
+in the neighbourhoods of two small sets of
+paradigm words. The goal of this work is
+to investigate how lexeme selection affects
+the quality of obtained sentiment estima-
+tions. This has been achieved by compar-
+ing ad hoc random lexeme selection with
+two alternative heuristics, based on clus-
+tering and SVD decomposition of a word
+co-occurrence matrix, demonstrating supe-
+riority of the latter methods. The work can
+be also interpreted as sensitivity analysis on
+SO-PMI with regard to paradigm word se-
+lection. The experiments were carried out
+for Polish.
+1 

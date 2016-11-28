@@ -1,0 +1,51 @@
+
+Word access is an obligatory step in language
+production. In order to achieve his communica-
+tive goal, a speaker/writer needs not only to
+have something to say, he must also find the
+corresponding word(s). Yet, knowing a word,
+i.e. having it stored in a data-base or memory
+(human mind or electronic device) does not im-
+ply that one is able to access it in time. This
+is a clearly a case where computers (electronic
+dictionaries) can be of great help.
+In this paper we present our ideas of how
+an enhanced electronic dictionary can help peo-
+ple to find the word they are looking for. The
+yet-to-be-built resource is based on the age-old
+notion of association: every idea, concept or
+word is connected. In other words, we assume
+that people have a highly connected conceptual-
+lexical network in their mind. Finding a word
+amounts thus to entering the network at any
+point by giving the word or concept coming to
+their mind (source word) and then following the
+links (associations) leading to the word they are
+looking for(target word).
+Obviously, in order to allow for this kind
+of access, the resource has to be built accord-
+ingly. This requires at least two things: (a) in-
+dexing words by the associations they evoke,
+(b) identification and labeling of the most fre-
+quent/useful associations. This is precisely our
+goal. Actually, we propose to build an associa-
+tive network by enriching an existing electronic
+dictionary (essentially) with (syntagmatic) as-
+sociations coming from a corpus, representing
+the average citizen?s shared, basic knowledge of
+the world (encyclopedia). Such an enhanced
+electronic database resembles in many respects
+our mental dictionary. Combining the power of
+computers and the flexibility of the human mind
+(omnidirectional navigation and quick jumps),
+it emulates to some extent the latter in its ca-
+pacity to navigate quickly and efficiently in a
+large data base.
+While the notions of association and spread-
+ing activation are fairly old, their use to support
+word access via computer is new. The resource
+still needs to be built, and this is not a trivial
+task. We discuss here some of the strategies and
+problems involved in accomplishing it with the
+help of people and computers (automation).
+1 

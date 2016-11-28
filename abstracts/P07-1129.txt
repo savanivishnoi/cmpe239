@@ -1,0 +1,22 @@
+ 
+Psychiatric document retrieval attempts to 
+help people to efficiently and effectively 
+locate the consultation documents relevant 
+to their depressive problems. Individuals 
+can understand how to alleviate their symp-
+toms according to recommendations in the 
+relevant documents. This work proposes 
+the use of high-level topic information ex-
+tracted from consultation documents to im-
+prove the precision of retrieval results. The 
+topic information adopted herein includes 
+negative life events, depressive symptoms 
+and semantic relations between symptoms, 
+which are beneficial for better understand-
+ing of users' queries. Experimental results 
+show that the proposed approach achieves 
+higher precision than the word-based re-
+trieval models, namely the vector space 
+model (VSM) and Okapi model, adopting 
+word-level information alone. 
+1 

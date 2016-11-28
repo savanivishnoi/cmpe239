@@ -1,0 +1,21 @@
+
+We present an approach for the construction of text
+similarity functions using a parameterized resem-
+blance coefficient in combination with a softened
+cardinality function called soft cardinality. Our ap-
+proach provides a consistent and recursive model,
+varying levels of granularity from sentences to char-
+acters. Therefore, our model was used to compare
+sentences divided into words, and in turn, words di-
+vided into q-grams of characters. Experimentally,
+we observed that a performance correlation func-
+tion in a space defined by all parameters was rel-
+atively smooth and had a single maximum achiev-
+able by ?hill climbing.? Our approach used only sur-
+face text information, a stop-word remover, and a
+stemmer to tackle the semantic text similarity task
+6 at SEMEVAL 2012. The proposed method ranked
+3rd (average), 5th (normalized correlation), and 15th
+(aggregated correlation) among 89 systems submit-
+ted by 31 teams.
+1 

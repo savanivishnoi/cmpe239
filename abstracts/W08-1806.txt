@@ -1,0 +1,18 @@
+
+In this paper,an information distance based
+approach is proposed to perform answer
+validation for question answering system.
+To validate an answer candidate, the ap-
+proach calculates the conditional informa-
+tion distance between the question focus
+and the candidate under certain condition
+pattern set. Heuristic methods are de-
+signed to extract question focus and gen-
+erate proper condition patterns from ques-
+tion. General search engines are employed
+to estimate the Kolmogorov complexity,
+hence the information distance. Experi-
+mental results show that our approach is
+stable and flexible, and outperforms tradi-
+tional tfidf methods.
+1 

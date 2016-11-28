@@ -1,0 +1,19 @@
+ 
+This paper presents two approaches to ranking 
+reader emotions of documents. Past studies 
+assign a document to a single emotion cate-
+gory, so their methods cannot be applied di-
+rectly to the emotion ranking problem. 
+Furthermore, whereas previous research ana-
+lyzes emotions from the writer?s perspective, 
+this work examines readers? emotional states. 
+The first approach proposed in this paper 
+minimizes pairwise ranking errors. In the sec-
+ond approach, regression is used to model 
+emotional distributions. Experiment results 
+show that the regression method is more ef-
+fective at identifying the most popular emo-
+tion, but the pairwise loss minimization 
+method produces ranked lists of emotions that 
+have better correlations with the correct lists. 
+1 

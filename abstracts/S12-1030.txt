@@ -1,0 +1,30 @@
+
+Discourse coherence is an important aspect of
+natural language that is still understudied in
+computational linguistics. Our aim is to learn
+factors that constitute coherent discourse from
+data, with a focus on how to realize predicate-
+argument structures (PAS) in a model that ex-
+ceeds the sentence level. In particular, we aim
+to study the case of non-realized arguments
+as a coherence inducing factor. This task can
+be broken down into two subtasks. The first
+aligns predicates across comparable texts, ad-
+mitting partial argument structure correspon-
+dence. The resulting alignments and their con-
+texts can then be used for developing a coher-
+ence model for argument realization.
+This paper introduces a large corpus of com-
+parable monolingual texts as a prerequisite for
+approaching this task, including an evaluation
+set with manual predicate alignments. We il-
+lustrate the potential of this new resource for
+the empirical investigation of discourse coher-
+ence phenomena. Initial experiments on the
+task of predicting predicate alignments across
+text pairs show promising results. Our findings
+establish that manual and automatic predicate
+alignments across texts are feasible and that
+our data set holds potential for empirical re-
+search into a variety of discourse-related tasks.
+1 

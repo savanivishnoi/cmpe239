@@ -1,0 +1,32 @@
+
+Domain adaptation is an important problem in
+named entity recognition (NER). NER classi-
+fiers usually lose accuracy in the domain trans-
+fer due to the different data distribution be-
+tween the source and the target domains. The
+major reason for performance degrading is
+that each entity type often has lots of domain-
+specific term representations in the different
+domains. The existing approaches usually
+need an amount of labeled target domain data
+for tuning the original model. However, it
+is a labor-intensive and time-consuming task
+to build annotated training data set for every
+target domain. We present a domain adapta-
+tion method with latent semantic association
+(LaSA). This method effectively overcomes
+the data distribution difference without lever-
+aging any labeled target domain data. LaSA
+model is constructed to capture latent seman-
+tic association among words from the unla-
+beled corpus. It groups words into a set of
+concepts according to the related context snip-
+pets. In the domain transfer, the original term
+spaces of both domains are projected to a con-
+cept space using LaSA model at first, then the
+original NER model is tuned based on the se-
+mantic association features. Experimental re-
+sults on English and Chinese corpus show that
+LaSA-based domain adaptation significantly
+enhances the performance of NER.
+1 

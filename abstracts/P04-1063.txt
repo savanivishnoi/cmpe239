@@ -1,0 +1,11 @@
+
+The paper describes a particular approach to multi-
+engine machine translation (MEMT), where we
+make use of voted language models to selectively
+combine translation outputs from multiple off-the-
+shelf MT systems. Experiments are done using
+large corpora from three distinct domains. The
+study found that the use of voted language models
+leads to an improved performance of MEMT sys-
+tems.
+1 

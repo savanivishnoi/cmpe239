@@ -1,0 +1,26 @@
+
+We present a general framework containing a
+graded spectrum of Expectation Maximization
+(EM) algorithms called Unified Expectation
+Maximization (UEM.) UEM is parameterized
+by a single parameter and covers existing al-
+gorithms like standard EM and hard EM, con-
+strained versions of EM such as Constraint-
+Driven Learning (Chang et al, 2007) and Pos-
+terior Regularization (Ganchev et al, 2010),
+along with a range of new EM algorithms.
+For the constrained inference step in UEM we
+present an efficient dual projected gradient as-
+cent algorithm which generalizes several dual
+decomposition and Lagrange relaxation algo-
+rithms popularized recently in the NLP litera-
+ture (Ganchev et al, 2008; Koo et al, 2010;
+Rush and Collins, 2011). UEM is as efficient
+and easy to implement as standard EM. Fur-
+thermore, experiments on POS tagging, infor-
+mation extraction, and word-alignment show
+that often the best performing algorithm in the
+UEM family is a new algorithm that wasn?t
+available earlier, exhibiting the benefits of the
+UEM framework.
+1 

@@ -1,0 +1,30 @@
+ 
+A style checker is a tool which supports 
+authors during the process of writing: 
+Certain style markers are analyzed, their 
+values are compared with a given norm, 
+deviations are detected, and 
+recommendations are given to the author. 
+The power of a style checker depends on 
+available tools such as lexica, parser, etc. 
+This paper describes a style checker which 
+will be integrated m a workbench 
+(Translator's Workbench) and which has 
+access to lexica and parser. The style 
+checker can be used for different languages 
+and for different kinds of text. 
+defined with the help of these values: A 
+stylistic norm fl~r technical texts, for user 
+manuals, for a certain author, etc. 
+With respect to these premises we now 
+define style checking as: matching the 
+densities of the features in a given text 
+against he densities of the corresponding 
+features in the norm. "Correct style" is 
+correct style concerning a certain (group 
+based) norm. "Incorrect style" is the degree 
+of deviation between the norm values of 
+the style markers and the values in the 
+actual text. 
+3 Recent Approaches 
+2 

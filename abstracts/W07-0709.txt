@@ -1,0 +1,19 @@
+ 
+We propose a novel syntax-based model 
+for statistical machine translation in which 
+meta-structure (MS) and meta-structure se-
+quence (SMS) of a parse tree are defined. 
+In this framework, a parse tree is decom-
+posed into SMS to deal with the structure 
+divergence and the alignment can be recon-
+structed at different levels of recombination 
+of MS (RM). RM pairs extracted can per-
+form the mapping between the sub-
+structures across languages.  As a result, 
+we have got not only the translation for the 
+target language, but an SMS of its parse 
+tree at the same time. Experiments with 
+BLEU metric show that the model signifi-
+cantly outperforms Pharaoh, a state-art-the-
+art phrase-based system. 
+1 

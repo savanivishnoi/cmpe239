@@ -1,0 +1,28 @@
+ 
+Twitter, as one of the most popular 
+micro-blogging services, provides large 
+quantities of fresh information including 
+real-time news, comments, conversation, 
+pointless babble and advertisements. 
+Twitter presents tweets in chronological 
+order. Recently, Twitter introduced a 
+new ranking strategy that considers 
+popularity of tweets in terms of number 
+of retweets.  This ranking method, 
+however, has not taken into account 
+content relevance or the twitter account. 
+Therefore a large amount of pointless 
+tweets inevitably flood the relevant 
+tweets. This paper proposes a new 
+ranking strategy which uses not only the 
+content relevance of a tweet, but also the 
+account authority and tweet-specific 
+features such as whether a URL link is 
+included in the tweet. We employ 
+learning to rank algorithms to determine 
+the best set of features with a series of 
+experiments. It is demonstrated that 
+whether a tweet contains URL or not, 
+length of tweet and account authority are 
+the best conjunction.1 
+1 

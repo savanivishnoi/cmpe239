@@ -1,0 +1,19 @@
+
+In this paper, we present a phrase ex-
+traction algorithm using a translation lex-
+icon, a fertility model, and a simple dis-
+tortion model. Except these models, we
+do not need explicit word alignments for
+phrase extraction. For each phrase pair (a
+block), a bilingual lexicon based score is
+computed to estimate the translation qual-
+ity between the source and target phrase
+pairs; a fertility score is computed to es-
+timate how good the lengths are matched
+between phrase pairs; a center distortion
+score is computed to estimate the relative
+position divergence between the phrase
+pairs. We presented the results and our
+experience in the shared tasks on French-
+English.
+1 

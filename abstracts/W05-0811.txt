@@ -1,0 +1,11 @@
+
+This paper presents a set of techniques for bitext word align-
+ment, optimized for a language pair with the characteristics of
+Inuktitut-English. The resulting systems exploit cross-lingual
+affinities at the sublexical level of syllables and substrings, as
+well as regular patterns of transliteration and the tendency to-
+wards monotonicity of alignment. Our most successful systems
+were based on classifier combination, and we found different
+combination methods performed best under the target evalua-
+tion metrics of F-measure and alignment error rate.
+1 

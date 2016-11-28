@@ -1,0 +1,19 @@
+ 
+We present a data-driven model for de-
+tecting suitable response locations in the 
+user?s speech. The model has been 
+trained on human?machine dialogue data 
+and implemented and tested in a spoken 
+dialogue system that can perform the 
+Map Task with users. To our knowledge, 
+this is the first example of a dialogue sys-
+tem that uses automatically extracted 
+syntactic, prosodic and contextual fea-
+tures for online detection of response lo-
+cations. A subjective evaluation of the 
+dialogue system suggests that interac-
+tions with a system using our trained 
+model were perceived significantly better 
+than those with a system using a model 
+that made decisions at random. 
+1 

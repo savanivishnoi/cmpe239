@@ -1,0 +1,18 @@
+
+Several formalisms have been proposed
+for modeling trees with discontinuous
+phrases. Some of these formalisms allow
+for synchronous rewriting. However, it
+is unclear whether synchronous rewriting
+is a necessary feature. This is an impor-
+tant question, since synchronous rewrit-
+ing greatly increases parsing complexity.
+We present a characterization of recursive
+synchronous rewriting in constituent tree-
+banks with discontinuous annotation. An
+empirical investigation reveals that syn-
+chronous rewriting is actually a neces-
+sary feature. Furthermore, we transfer this
+property to grammars extracted from tree-
+banks.
+1 

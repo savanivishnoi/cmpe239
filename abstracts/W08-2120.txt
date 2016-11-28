@@ -1,0 +1,15 @@
+
+Previous work in referring expression gen-
+eration has explored general purpose tech-
+niques for attribute selection and surface
+realization. However, most of this work
+did not take into account: a) stylistic dif-
+ferences between speakers; or b) trainable
+surface realization approaches that com-
+bine semantic and word order information.
+In this paper we describe and evaluate sev-
+eral end-to-end referring expression gener-
+ation algorithms that take into considera-
+tion speaker style and use data-driven sur-
+face realization techniques.
+1 

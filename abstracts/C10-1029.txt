@@ -1,0 +1,26 @@
+
+This paper investigates the impact of us-
+ing different temporal algebras for learn-
+ing temporal relations between events.
+Specifically, we compare three interval-
+based algebras: Allen (1983) algebra,
+Bruce (1972) algebra, and the algebra de-
+rived from the TempEval-07 campaign.
+These algebras encode different granular-
+ities of relations and have different infer-
+ential properties. They in turn behave dif-
+ferently when used to enforce global con-
+sistency constraints on the building of a
+temporal representation. Through various
+experiments on the TimeBank/AQUAINT
+corpus, we show that although the TempE-
+val relation set leads to the best classifica-
+tion accuracy performance, it is too vague
+to be used for enforcing consistency. By
+contrast, the other two relation sets are
+similarly harder to learn, but more use-
+ful when global consistency is important.
+Overall, the Bruce algebra is shown to
+give the best compromise between learn-
+ability and expressive power.
+1 

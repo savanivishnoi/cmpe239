@@ -1,0 +1,23 @@
+ 
+This paper describes our effort on the task 
+of edited region identification for parsing 
+disfluent sentences in the Switchboard 
+corpus. We focus our attention on 
+exploring feature spaces and selecting 
+good features and start with analyzing the 
+distributions of the edited regions and 
+their components in the targeted corpus. 
+We explore new feature spaces of a part-
+of-speech (POS) hierarchy and relaxed for 
+rough copy in the experiments. These 
+steps result in an improvement of 43.98% 
+percent relative error reduction in F-score 
+over an earlier best result in edited 
+detection when punctuation is included in 
+both training and testing data [Charniak 
+and Johnson 2001], and 20.44% percent 
+relative error reduction in F-score over the 
+latest best result where punctuation is 
+excluded from the training and testing 
+data [Johnson and Charniak 2004]. 
+1 

@@ -1,0 +1,26 @@
+
+In this paper, we address the problem of build-
+ing a multilingual transliteration system using
+an interlingual representation. Our approach
+uses international phonetic alphabet (IPA) to
+learn the interlingual representation and thus
+allows us to use any word and its IPA repre-
+sentation as a training example. Thus, our ap-
+proach requires only monolingual resources: a
+phoneme dictionary that lists words and their
+IPA representations.1 By adding a phoneme
+dictionary of a new language, we can readily
+build a transliteration system into any of the
+existing previous languages, without the ex-
+pense of all-pairs data or computation. We
+also propose a regularization framework for
+learning the interlingual representation, which
+accounts for language specific phonemic vari-
+ability, and thus it can find better mappings
+between languages. Experimental results on
+the name transliteration task in five diverse
+languages show a maximum improvement of
+29% accuracy and an average improvement of
+17% accuracy compared to a state-of-the-art
+baseline system.
+1 

@@ -1,0 +1,23 @@
+
+This work shows how to improve state-of-the-art
+monolingual natural language processing models
+using unannotated bilingual text. We build a mul-
+tiview learning objective that enforces agreement
+between monolingual and bilingual models. In
+our method the first, monolingual view consists of
+supervised predictors learned separately for each
+language. The second, bilingual view consists of
+log-linear predictors learned over both languages
+on bilingual text. Our training procedure estimates
+the parameters of the bilingual model using the
+output of the monolingual model, and we show how
+to combine the two models to account for depen-
+dence between views. For the task of named entity
+recognition, using bilingual predictors increases F1
+by 16.1% absolute over a supervised monolingual
+model, and retraining on bilingual predictions
+increases monolingual model F1 by 14.6%. For
+syntactic parsing, our bilingual predictor increases
+F1 by 2.1% absolute, and retraining a monolingual
+model on its output gives an improvement of 2.0%.
+1 

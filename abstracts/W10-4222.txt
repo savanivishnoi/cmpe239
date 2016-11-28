@@ -1,0 +1,22 @@
+
+Ontologies and datasets for the Semantic
+Web are encoded in OWL formalisms that
+are not easily comprehended by people.
+To make ontologies accessible to human
+domain experts, several research groups
+have developed ontology verbalisers using
+Natural Language Generation. In practice
+ontologies are usually composed of simple
+axioms, so that realising them separately
+is relatively easy; there remains however
+the problem of producing texts that are co-
+herent and efficient. We describe in this
+paper some methods for producing sen-
+tences that aggregate over sets of axioms
+that share the same logical structure. Be-
+cause these methods are based on logical
+structure rather than domain-specific con-
+cepts or language-specific syntax, they are
+generic both as regards domain and lan-
+guage.
+1 

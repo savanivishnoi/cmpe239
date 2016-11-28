@@ -1,0 +1,32 @@
+
+We present vector space semantic parsing
+(VSSP), a framework for learning compo-
+sitional models of vector space semantics.
+Our framework uses Combinatory Cate-
+gorial Grammar (CCG) to define a cor-
+respondence between syntactic categories
+and semantic representations, which are
+vectors and functions on vectors. The
+complete correspondence is a direct con-
+sequence of minimal assumptions about
+the semantic representations of basic syn-
+tactic categories (e.g., nouns are vectors),
+and CCG?s tight coupling of syntax and
+semantics. Furthermore, this correspon-
+dence permits nonuniform semantic repre-
+sentations and more expressive composi-
+tion operations than previous work. VSSP
+builds a CCG semantic parser respecting
+this correspondence; this semantic parser
+parses text into lambda calculus formulas
+that evaluate to vector space representa-
+tions. In these formulas, the meanings of
+words are represented by parameters that
+can be trained in a task-specific fashion.
+We present experiments using noun-verb-
+noun and adverb-adjective-noun phrases
+which demonstrate that VSSP can learn
+composition operations that RNN (Socher
+et al, 2011) and MV-RNN (Socher et al,
+2012) cannot.
+1 

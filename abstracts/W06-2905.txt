@@ -1,0 +1,22 @@
+
+We explore a novel computational ap-
+proach to identifying ?constructions? or
+?multi-word expressions? (MWEs) in an
+annotated corpus. In this approach,
+MWEs have no special status, but emerge
+in a general procedure for finding the best
+statistical grammar to describe the train-
+ing corpus. The statistical grammar for-
+malism used is that of stochastic tree sub-
+stitution grammars (STSGs), such as used
+in Data-Oriented Parsing. We present an
+algorithm for calculating the expected fre-
+quencies of arbitrary subtrees given the
+parameters of an STSG, and a method
+for estimating the parameters of an STSG
+given observed frequencies in a tree bank.
+We report quantitative results on the ATIS
+corpus of phrase-structure annotated sen-
+tences, and give examples of the MWEs
+extracted from this corpus.
+1 

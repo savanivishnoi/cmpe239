@@ -1,0 +1,18 @@
+
+Statistical parsing of noun phrase (NP) struc-
+ture has been hampered by a lack of gold-
+standard data. This is a significant problem for
+CCGbank, where binary branching NP deriva-
+tions are often incorrect, a result of the auto-
+matic conversion from the Penn Treebank.
+We correct these errors in CCGbank using a
+gold-standard corpus of NP structure, result-
+ing in a much more accurate corpus. We also
+implement novel NER features that generalise
+the lexical information needed to parse NPs
+and provide important semantic information.
+Finally, evaluating against DepBank demon-
+strates the effectiveness of our modified cor-
+pus and novel features, with an increase in
+parser performance of 1.51%.
+1 

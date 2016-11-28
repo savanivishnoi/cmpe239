@@ -1,0 +1,27 @@
+
+We model human responses to speech recog-
+nition errors from a corpus of human clarifi-
+cation strategies. We employ learning tech-
+niques to study 1) the decision to either stop
+and ask a clarification question or to continue
+the dialogue without clarification, and 2) the
+decision to ask a targeted clarification question
+or a more generic question. Targeted clarifi-
+cation questions focus specifically on the part
+of an utterance that is misrecognized, in con-
+trast with generic requests to ?please repeat?
+or ?please rephrase?. Our goal is to generate
+targeted clarification strategies for handling er-
+rors in spoken dialogue systems, when appro-
+priate. Our experiments show that linguis-
+tic features, in particular the inferred part-of-
+speech of a misrecognized word are predictive
+of human clarification decisions. A combina-
+tion of linguistic features predicts a user?s de-
+cision to continue or stop a dialogue with ac-
+curacy of 72.8% over a majority baseline accu-
+racy of 59.1%. The same set of features predict
+the decision to ask a targeted question with ac-
+curacy of 74.6% compared with the majority
+baseline of 71.8%.1
+1 

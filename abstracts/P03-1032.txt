@@ -1,0 +1,16 @@
+
+This paper discusses the challenges and pro-
+poses a solution to performing information re-
+trieval on the Web using Chinese natural language
+speech query. The main contribution of this re-
+search is in devising a divide-and-conquer strategy
+to alleviate the speech recognition errors. It uses
+the query model to facilitate the extraction of main
+core semantic string (CSS) from the Chinese natu-
+ral language speech query. It then breaks the CSS
+into basic components corresponding to phrases,
+and uses a multi-tier strategy to map the basic
+components to known phrases in order to further
+eliminate the errors. The resulting system has been
+found to be effective.
+1 

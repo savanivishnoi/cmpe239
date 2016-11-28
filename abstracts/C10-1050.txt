@@ -1,0 +1,22 @@
+
+Hierarchical phrase-based machine trans-
+lation can capture global reordering with
+synchronous context-free grammar, but
+has little ability to evaluate the correctness
+of word orderings during decoding. We
+propose a method to integrate word-based
+reordering model into hierarchical phrase-
+based machine translation to overcome
+this weakness. Our approach extends the
+synchronous context-free grammar rules
+of hierarchical phrase-based model to in-
+clude reordered source strings, allowing
+efficient calculation of reordering model
+scores during decoding. Our experimen-
+tal results on Japanese-to-English basic
+travel expression corpus showed that the
+BLEU scores obtained by our proposed
+system were better than those obtained by
+a standard hierarchical phrase-based ma-
+chine translation system.
+1 

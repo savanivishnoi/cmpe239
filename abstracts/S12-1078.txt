@@ -1,0 +1,12 @@
+
+We propose a semantic similarity learning
+method based on Random Indexing (RI) and
+ranking with boosting. Unlike classical RI, we
+use only those context vector features that are
+informative for the semantics modeled. De-
+spite ignoring text preprocessing and dispens-
+ing with semantic resources, the approach was
+ranked as high as 22nd among 89 participants
+in the SemEval-2012 Task6: Semantic Textual
+Similarity.
+1 

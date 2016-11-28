@@ -1,0 +1,19 @@
+
+HMM-based models are developed for the
+alignment of words and phrases in bitext.
+The models are formulated so that align-
+ment and parameter estimation can be per-
+formed efficiently. We find that Chinese-
+English word alignment performance is
+comparable to that of IBM Model-4 even
+over large training bitexts. Phrase pairs
+extracted from word alignments generated
+under the model can also be used for
+phrase-based translation, and in Chinese
+to English and Arabic to English transla-
+tion, performance is comparable to sys-
+tems based on Model-4 alignments. Di-
+rect phrase pair induction under the model
+is described and shown to improve trans-
+lation performance.
+1 

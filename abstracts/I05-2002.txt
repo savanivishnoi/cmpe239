@@ -1,0 +1,32 @@
+ 
+In this paper, the usage and function of 
+Chinese punctuations are studied in 
+syntactic parsing and a new 
+hierarchical approach is proposed for 
+parsing long Chinese sentences. It 
+differentiates from most of the previous 
+approaches mainly in two aspects. 
+Firstly, Chinese punctuations are 
+classified as ?divide? punctuations and 
+?ordinary? ones. Long sentences which 
+include ?divide? punctuations are 
+broken into suitable units, so the 
+parsing will be carried out in two stages. 
+This ?divide-and-rule? strategy greatly 
+reduces the difficulty of acquiring the 
+boundaries of sub-sentences and 
+syntactic structures of sub-sentences or 
+phrases simultaneously in once-level 
+parsing strategy of previous approaches. 
+Secondly, a grammar rules system 
+including all punctuations and 
+probability distribution is built to be 
+used in parsing and disambiguating. 
+Experiments show that our approach 
+can significantly reduce the time 
+consumption and numbers of 
+ambiguous edges of traditional 
+methods, and also improve the 
+accuracy and recall when parsing long 
+Chinese sentences. 
+1 

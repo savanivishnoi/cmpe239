@@ -1,0 +1,17 @@
+ 
+This paper expounds a Chinese word seg-
+mentation system built for the Fourth 
+SIGHAN Bakeoff. The system participates 
+in six tracks, namely the CityU Closed, 
+CKIP Closed, CTB Closed, CTB Open, 
+SXU Closed and SXU Open tracks. The 
+model of Conditional Random Field is used 
+as a basic approach in the system, with at-
+tention focused on the construction of fea-
+ture templates and Chinese character cate-
+gorization. The system is also augmented 
+with some post-processing approaches such 
+as the Extended Word String, model inte-
+gration and others. The system performs 
+fairly well on the 5 tracks of the Bakeoff. 
+1 

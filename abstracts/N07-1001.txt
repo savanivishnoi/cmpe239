@@ -1,0 +1,21 @@
+
+In this paper we describe an automatic
+prosody labeling framework that exploits
+both language and speech information.
+We model the syntactic-prosodic informa-
+tion with a maximum entropy model that
+achieves an accuracy of 85.2% and 91.5%
+for pitch accent and boundary tone la-
+beling on the Boston University Radio
+News corpus. We model the acoustic-
+prosodic stream with two different mod-
+els, one a maximum entropy model and
+the other a traditional HMM. We finally
+couple the syntactic-prosodic and acoustic-
+prosodic components to achieve signifi-
+cantly improved pitch accent and bound-
+ary tone classification accuracies of 86.0%
+and 93.1% respectively. Similar experimen-
+tal results are also reported on Boston Di-
+rections corpus.
+1 

@@ -1,0 +1,20 @@
+
+Anaphora resolution for dialogues is a difficult
+problem because of the several kinds of com-
+plex anaphoric references generally present in
+dialogic discourses. It is nevertheless a criti-
+cal first step in the processing of any such dis-
+course. In this paper, we describe a system for
+anaphora resolution in multi-person dialogues.
+This system aims to bring together a wide array
+syntactic, semantic and world knowledge based
+techniques used for anaphora resolution. In
+this system, the performance of the heuristics is
+optimized for specific dialogues using genetic
+algorithms, which relieves the programmer of
+hand-crafting the weights of these heuristics. In
+our system, we propose a new technique based
+on the use of anaphora chains to enable reso-
+lution of a large variety of anaphors, including
+plural anaphora and cataphora.
+1 

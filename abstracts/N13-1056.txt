@@ -1,0 +1,23 @@
+
+Prior research into learning translations from
+source and target language monolingual texts
+has treated the task as an unsupervised learn-
+ing problem. Although many techniques take
+advantage of a seed bilingual lexicon, this
+work is the first to use that data for super-
+vised learning to combine a diverse set of sig-
+nals derived from a pair of monolingual cor-
+pora into a single discriminative model. Even
+in a low resource machine translation setting,
+where induced translations have the potential
+to improve performance substantially, it is rea-
+sonable to assume access to some amount of
+data to perform this kind of optimization. Our
+work shows that only a few hundred transla-
+tion pairs are needed to achieve strong per-
+formance on the bilingual lexicon induction
+task, and our approach yields an average rel-
+ative gain in accuracy of nearly 50% over an
+unsupervised baseline. Large gains in accu-
+racy hold for all 22 languages (low and high
+resource) that we investigate.1 

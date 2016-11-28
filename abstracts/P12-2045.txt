@@ -1,0 +1,15 @@
+
+Interpreting news requires identifying its con-
+stituent events. Events are complex linguis-
+tically and ontologically, so disambiguating
+their reference is challenging. We introduce
+event linking, which canonically labels an
+event reference with the article where it was
+first reported. This implicitly relaxes corefer-
+ence to co-reporting, and will practically en-
+able augmenting news archives with semantic
+hyperlinks. We annotate and analyse a corpus
+of 150 documents, extracting 501 links to a
+news archive with reasonable inter-annotator
+agreement.
+1 

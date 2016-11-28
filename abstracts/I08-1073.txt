@@ -1,0 +1,30 @@
+
+In recent years there have been various ap-
+proaches aimed at automatic acquisition of
+predominant senses of words. This infor-
+mation can be exploited as a powerful back-
+off strategy for word sense disambiguation
+given the zipfian distribution of word senses.
+Approaches which do not require manually
+sense-tagged data have been proposed for
+English exploiting lexical resources avail-
+able, notably WordNet. In these approaches
+distributional similarity is coupled with a se-
+mantic similarity measure which ties the dis-
+tributionally related words to the sense in-
+ventory. The semantic similarity measures
+that have been used have all taken advantage
+of the hierarchical information in WordNet.
+We investigate the applicability to Japanese
+and demonstrate the feasibility of a mea-
+sure which uses only information in the dic-
+tionary definitions, in contrast with previ-
+ous work on English which uses hierarchi-
+cal information in addition to dictionary def-
+initions. We extend the definition based
+semantic similarity measure with distribu-
+tional similarity applied to the words in dif-
+ferent definitions. This increases the recall
+of our method and in some cases, precision
+as well.
+1 

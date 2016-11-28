@@ -1,0 +1,16 @@
+
+In this paper a method to incorporate lin-
+guistic information regarding single-word
+and compound verbs is proposed, as a
+first step towards an SMT model based
+on linguistically-classified phrases. By
+substituting these verb structures by the
+base form of the head verb, we achieve
+a better statistical word alignment perfor-
+mance, and are able to better estimate the
+translation model and generalize to unseen
+verb forms during translation. Preliminary
+experiments for the English - Spanish lan-
+guage pair are performed, and future re-
+search lines are detailed.
+1 

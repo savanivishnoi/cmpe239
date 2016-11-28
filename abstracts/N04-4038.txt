@@ -1,0 +1,22 @@
+
+To date, there are no fully automated systems
+addressing the community?s need for funda-
+mental language processing tools for Arabic
+text. In this paper, we present a Support Vector
+Machine (SVM) based approach to automati-
+cally tokenize (segmenting off clitics), part-of-
+speech (POS) tag and annotate base phrases
+(BPs) in Arabic text. We adapt highly accu-
+rate tools that have been developed for En-
+glish text and apply them to Arabic text. Using
+standard evaluation metrics, we report that the
+SVM-TOK tokenizer achieves an
+
+score
+of 99.12, the SVM-POS tagger achieves an ac-
+curacy of 95.49%, and the SVM-BP chunker
+yields an
+
+
+score of 92.08.
+1 

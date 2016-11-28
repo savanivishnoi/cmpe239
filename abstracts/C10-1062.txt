@@ -1,0 +1,19 @@
+
+In this paper we consider the problem of
+building a system to predict readability
+of natural-language documents. Our sys-
+tem is trained using diverse features based
+on syntax and language models which are
+generally indicative of readability. The
+experimental results on a dataset of docu-
+ments from a mix of genres show that the
+predictions of the learned system are more
+accurate than the predictions of naive hu-
+man judges when compared against the
+predictions of linguistically-trained expert
+human judges. The experiments also com-
+pare the performances of different learn-
+ing algorithms and different types of fea-
+ture sets when used for predicting read-
+ability.
+1 

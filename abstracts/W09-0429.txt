@@ -1,0 +1,15 @@
+
+Edinburgh University participated in the
+WMT 2009 shared task using the Moses
+phrase-based statistical machine transla-
+tion decoder, building systems for all lan-
+guage pairs. The system configuration was
+identical for all language pairs (with a few
+additional components for the German-
+English language pairs). This paper de-
+scribes the configuration of the systems,
+plus novel contributions to Moses includ-
+ing truecasing, more efficient decoding
+methods, and a framework to specify re-
+ordering constraints.
+1 

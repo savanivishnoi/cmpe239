@@ -1,0 +1,19 @@
+
+Convolution kernels support the modeling of
+complex syntactic information in machine-
+learning tasks. However, such models are
+highly sensitive to the type and size of syntac-
+tic structure used. It is therefore an importan-
+t challenge to automatically identify high im-
+pact sub-structures relevant to a given task. In
+this paper we present a systematic study inves-
+tigating (combinations of) sequence and con-
+volution kernels using different types of sub-
+structures in document-level sentiment classi-
+fication. We show that minimal sub-structures
+extracted from constituency and dependency
+trees guided by a polarity lexicon show 1.45
+point absolute improvement in accuracy over a
+bag-of-words classifier on a widely used sen-
+timent corpus.
+1 

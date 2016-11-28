@@ -1,0 +1,22 @@
+ 
+This paper is concerned with the problem of 
+question search. In question search, given a 
+question as query, we are to return questions 
+semantically equivalent or close to the queried 
+question. In this paper, we propose to conduct 
+question search by identifying question topic 
+and question focus. More specifically, we first 
+summarize questions in a data structure con-
+sisting of question topic and question focus. 
+Then we model question topic and question 
+focus in a language modeling framework for 
+search. We also propose to use the MDL-
+based tree cut model for identifying question 
+topic and question focus automatically. Expe-
+rimental results indicate that our approach of 
+identifying question topic and question focus 
+for search significantly outperforms the base-
+line methods such as Vector Space Model 
+(VSM) and Language Model for Information 
+Retrieval (LMIR).  
+1 

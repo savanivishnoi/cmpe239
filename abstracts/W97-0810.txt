@@ -1,0 +1,24 @@
+ 
+We describe and evaluate an approach for fast 
+automatic recognition and extraction of subject 
+and object dependency relations from large 
+French corpora, using a sequence of finite-state 
+transducers. The extraction is performed in two 
+major steps: incremental finite-state parsing and 
+extraction of subject/verb and object/verb rela- 
+tions. Our incremental and cautious approach 
+during the first phase allows the system to deal 
+successfully with complex phenomena such as 
+embeddings, coordination of VPs and NPs or 
+non-standard word order. The extraction re- 
+quires no subcategorisation nformation. It relies 
+on POS information only. After describing the 
+two steps, we give the results of an evaluation 
+on various types of unrestricted corpora. Preci- 
+sion is around 90-97% for subjects (84-88% for 
+objects) and recall around 86-92% for subjects 
+(80-90% for objects). We also provide some er- 
+ror analysis; in particular, we evaluate the im- 
+pact of POS tagging errors on subject/object de- 
+pendency extraction. 
+1 

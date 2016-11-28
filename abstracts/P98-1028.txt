@@ -1,0 +1,20 @@
+ 
+It seems obvious that a successful model of 
+natural anguage would incorporate a great 
+deal of both linguistic and world knowledge. 
+Interestingly, state of the art language 
+models for speech recognition are based on 
+a very crude linguistic model, namely 
+conditioning the probability of a word on a 
+small fixed number of preceding words. 
+Despite many attempts to incorporate more 
+sophisticated information into the models, 
+the n-gram model remains the state of the 
+art, used in virtually all speech recognition 
+systems. In this paper we address the 
+question of whether there is hope in 
+improving language modeling by 
+incorporating more sophisticated linguistic 
+and world knowledge, or whether the n- 
+grams are already capturing the majority of 
+the information that can be employed. 

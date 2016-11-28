@@ -1,0 +1,22 @@
+ 
+To rapidly port speech applications to 
+new languages one of the most difficult 
+tasks is the initial collection of sufficient 
+speech corpora. State-of-the-art automatic 
+speech recognition systems are typical 
+trained on hundreds of hours of speech 
+data. While pre-existing corpora do exist 
+for major languages, a sufficient amount 
+of quality speech data is not available for 
+most world languages. While previous 
+works have focused on the collection of 
+translations and the transcription of audio 
+via Mechanical-Turk mechanisms, in this 
+paper we introduce two tools which ena-
+ble the collection of speech data remotely. 
+We then compare the quality of audio col-
+lected from paid part-time staff and unsu-
+pervised volunteers, and determine that 
+basic user training is critical to obtain us-
+able data.  
+1 

@@ -1,0 +1,22 @@
+
+This paper presents a series of efficient
+dynamic-programming (DP) based algorithms
+for phrase-based decoding and alignment
+computation in statistical machine translation
+(SMT). The DP-based decoding algorithms are
+analyzed in terms of shortest path-finding al-
+gorithms, where the similarity to DP-based
+decoding algorithms in speech recognition is
+demonstrated. The paper contains the follow-
+ing original contributions: 1) the DP-based de-
+coding algorithm in (Tillmann and Ney, 2003)
+is extended in a formal way to handle phrases
+and a novel pruning strategy with increased
+translation speed is presented 2) a novel align-
+ment algorithm is presented that computes a
+phrase alignment efficiently in the case that it
+is consistent with an underlying word align-
+ment. Under certain restrictions, both algo-
+rithms handle MT-related problems efficiently
+that are generally NP complete (Knight, 1999).
+1 

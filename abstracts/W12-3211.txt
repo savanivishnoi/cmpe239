@@ -1,0 +1,19 @@
+
+Extracting textual content and document
+structure from PDF presents a surprisingly
+(depressingly, to some, in fact) difficult chal-
+lenge, owing to the purely display-oriented de-
+sign of the PDF document standard. While a
+variety of lower-level PDF extraction toolk-
+its exist, none fully support the recovery of
+original text (in reading order) and relevant
+structural elements, even for so-called born-
+digital PDFs, i.e. those prepared electronically
+using typesetting systems like LATEX, OpenOf-
+fice, and the like. This short paper summarizes
+a new tool for high-quality extraction of text
+and structure from PDFs, combining state-of-
+the-art PDF parsing, font interpretation, layout
+analysis, and TEI-compliant output of text and
+logical document markup.?
+1 

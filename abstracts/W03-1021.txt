@@ -1,0 +1,28 @@
+
+We investigate the performance of the
+Structured Language Model (SLM) in
+terms of perplexity (PPL) when its compo-
+nents are modeled by connectionist mod-
+els. The connectionist models use a dis-
+tributed representation of the items in
+the history and make much better use of
+contexts than currently used interpolated
+or back-off models, not only because of
+the inherent capability of the connection-
+ist model in fighting the data sparseness
+problem, but also because of the sub-
+linear growth in the model size when the
+context length is increased. The connec-
+tionist models can be further trained by an
+EM procedure, similar to the previously
+used procedure for training the SLM. Our
+experiments show that the connectionist
+models can significantly improve the PPL
+over the interpolated and back-off mod-
+els on the UPENN Treebank corpora, after
+interpolating with a baseline trigram lan-
+guage model. The EM training procedure
+can improve the connectionist models fur-
+ther, by using hidden events obtained by
+the SLM parser.
+1 

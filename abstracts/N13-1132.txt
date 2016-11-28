@@ -1,0 +1,27 @@
+
+Non-expert annotation services like Amazon?s
+Mechanical Turk (AMT) are cheap and fast
+ways to evaluate systems and provide categor-
+ical annotations for training data. Unfortu-
+nately, some annotators choose bad labels in
+order to maximize their pay. Manual iden-
+tification is tedious, so we experiment with
+an item-response model. It learns in an un-
+supervised fashion to a) identify which an-
+notators are trustworthy and b) predict the
+correct underlying labels. We match perfor-
+mance of more complex state-of-the-art sys-
+tems and perform well even under adversarial
+conditions. We show considerable improve-
+ments over standard baselines, both for pre-
+dicted label accuracy and trustworthiness es-
+timates. The latter can be further improved
+by introducing a prior on model parameters
+and using Variational Bayes inference. Ad-
+ditionally, we can achieve even higher accu-
+racy by focusing on the instances our model is
+most confident in (trading in some recall), and
+by incorporating annotated control instances.
+Our system, MACE (Multi-Annotator Compe-
+tence Estimation), is available for download1.
+1 

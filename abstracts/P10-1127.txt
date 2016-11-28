@@ -1,0 +1,20 @@
+
+This paper presents a novel approach
+to automatic captioning of geo-tagged
+images by summarizing multiple web-
+documents that contain information re-
+lated to an image?s location. The summa-
+rizer is biased by dependency pattern mod-
+els towards sentences which contain fea-
+tures typically provided for different scene
+types such as those of churches, bridges,
+etc. Our results show that summaries bi-
+ased by dependency pattern models lead
+to significantly higher ROUGE scores than
+both n-gram language models reported in
+previous work and also Wikipedia base-
+line summaries. Summaries generated us-
+ing dependency patterns also lead to more
+readable summaries than those generated
+without dependency patterns.
+1 

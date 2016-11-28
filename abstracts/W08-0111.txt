@@ -1,0 +1,14 @@
+
+We look at the average frequency of con-
+trastive connectives in the SPaRKy Restaurant
+Corpus with respect to realization ratings by
+human judges. We implement a discriminative
+n-gram ranker to model these ratings and ana-
+lyze the resulting n-gram weights to determine
+if our ranker learns this distribution. Surpris-
+ingly, our ranker learns to avoid contrastive
+connectives. We look at possible explanations
+for this distribution, and recommend improve-
+ments to both the generator and ranker of the
+sentence plans/realizations.
+1 

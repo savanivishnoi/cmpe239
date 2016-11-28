@@ -1,0 +1,18 @@
+
+For many languages, the size of Wikipedia is
+an order of magnitude smaller than the En-
+glish Wikipedia. We present a method for
+cross-lingual alignment of template and in-
+fobox attributes in Wikipedia. The alignment
+is used to add and complete templates and
+infoboxes in one language with information
+derived from Wikipedia in another language.
+We show that alignment between English and
+Dutch Wikipedia is accurate and that the re-
+sult can be used to expand the number of tem-
+plate attribute-value pairs in Dutch Wikipedia
+by 50%. Furthermore, the alignment pro-
+vides valuable information for normalization
+of template and attribute names and can be
+used to detect potential inconsistencies.
+1 

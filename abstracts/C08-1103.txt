@@ -1,0 +1,21 @@
+
+Within the area of general-purpose fine-
+grained subjectivity analysis, opinion topic
+identification has, to date, received little
+attention due to both the difficulty of the
+task and the lack of appropriately anno-
+tated resources. In this paper, we pro-
+vide an operational definition of opinion
+topic and present an algorithm for opinion
+topic identification that, following our new
+definition, treats the task as a problem in
+topic coreference resolution. We develop a
+methodology for the manual annotation of
+opinion topics and use it to annotate topic
+information for a portion of an existing
+general-purpose opinion corpus. In exper-
+iments using the corpus, our topic identi-
+fication approach statistically significantly
+outperforms several non-trivial baselines
+according to three evaluation measures.
+1 

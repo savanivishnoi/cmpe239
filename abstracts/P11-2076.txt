@@ -1,0 +1,20 @@
+
+One problem with phrase-based statistical ma-
+chine translation is the problem of long-
+distance reordering when translating between
+languages with different word orders, such as
+Japanese-English. In this paper, we propose a
+method of imposing reordering constraints us-
+ing document-level context. As the document-
+level context, we use noun phrases which sig-
+nificantly occur in context documents contain-
+ing source sentences. Given a source sen-
+tence, zones which cover the noun phrases are
+used as reordering constraints. Then, in de-
+coding, reorderings which violate the zones
+are restricted. Experiment results for patent
+translation tasks show a significant improve-
+ment of 1.20% BLEU points in Japanese-
+English translation and 1.41% BLEU points in
+English-Japanese translation.
+1 

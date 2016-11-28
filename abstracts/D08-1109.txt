@@ -1,0 +1,21 @@
+
+We demonstrate the effectiveness of multilin-
+gual learning for unsupervised part-of-speech
+tagging. The key hypothesis of multilin-
+gual learning is that by combining cues from
+multiple languages, the structure of each be-
+comes more apparent. We formulate a hier-
+archical Bayesian model for jointly predicting
+bilingual streams of part-of-speech tags. The
+model learns language-specific features while
+capturing cross-lingual patterns in tag distri-
+bution for aligned words. Once the parame-
+ters of our model have been learned on bilin-
+gual parallel data, we evaluate its performance
+on a held-out monolingual test set. Our evalu-
+ation on six pairs of languages shows consis-
+tent and significant performance gains over a
+state-of-the-art monolingual baseline. For one
+language pair, we observe a relative reduction
+in error of 53%.
+1 

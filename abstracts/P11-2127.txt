@@ -1,0 +1,19 @@
+
+We investigate full-scale shortest-derivation
+parsing (SDP), wherein the parser selects an
+analysis built from the fewest number of train-
+ing fragments. Shortest derivation parsing
+exhibits an unusual range of behaviors. At
+one extreme, in the fully unpruned case, it
+is neither fast nor accurate. At the other ex-
+treme, when pruned with a coarse unlexical-
+ized PCFG, the shortest derivation criterion
+becomes both fast and surprisingly effective,
+rivaling more complex weighted-fragment ap-
+proaches. Our analysis includes an investi-
+gation of tie-breaking and associated dynamic
+programs. At its best, our parser achieves an
+accuracy of 87% F1 on the English WSJ task
+with minimal annotation, and 90% F1 with
+richer annotation.
+1 

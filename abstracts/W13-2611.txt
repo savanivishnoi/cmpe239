@@ -1,0 +1,18 @@
+
+We describe a method for learning an in-
+cremental semantic grammar from data in
+which utterances are paired with logical
+forms representing their meaning. Work-
+ing in an inherently incremental frame-
+work, Dynamic Syntax, we show how
+words can be associated with probabilistic
+procedures for the incremental projection
+of meaning, providing a grammar which
+can be used directly in incremental prob-
+abilistic parsing and generation. We test
+this on child-directed utterances from the
+CHILDES corpus, and show that it results
+in good coverage and semantic accuracy,
+without requiring annotation at the word
+level or any independent notion of syntax.
+1 

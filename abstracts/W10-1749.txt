@@ -1,0 +1,16 @@
+
+The ability to measure the quality of word
+order in translations is an important goal
+for research in machine translation. Cur-
+rent machine translation metrics do not
+adequately measure the reordering perfor-
+mance of translation systems. We present
+a novel metric, the LRscore, which di-
+rectly measures reordering success. The
+reordering component is balanced by a
+lexical metric. Capturing the two most im-
+portant elements of translation success in
+a simple combined metric with only one
+parameter results in an intuitive, shallow,
+language independent metric.
+1 

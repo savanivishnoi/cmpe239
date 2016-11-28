@@ -1,0 +1,19 @@
+
+This paper presents a method of querying
+databases by means of a natural language-
+like interface which offers the advantage
+of minimal configuration necessary for
+porting the system. The method allows
+us to first automatically infer the set of
+possible queries that can apply to a given
+database, automatically generate a lexicon
+and grammar rules for expressing these
+queries, and then provide users with an
+interface that allows them to pose these
+queries in natural language without the
+well-known limitations of most natural
+language interfaces to databases. The way
+the queries are inferred and constructed
+means that semantic translation is per-
+formed with perfect reliability.
+1 

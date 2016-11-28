@@ -1,0 +1,18 @@
+
+This paper describes our approach to rep-
+resenting and querying multi-dimensional,
+possibly overlapping text annotations, as
+used in our question answering (QA) sys-
+tem. We use a system extending XQuery,
+the W3C-standard XML query language,
+with new axes that allow one to jump eas-
+ily between different annotations of the
+same data. The new axes are formulated in
+terms of (partial) overlap and containment.
+All annotations are made using stand-off
+XML in a single document, which can be
+efficiently queried using the XQuery ex-
+tension. The system is scalable to giga-
+bytes of XML annotations. We show ex-
+amples of the system in QA scenarios.
+1 

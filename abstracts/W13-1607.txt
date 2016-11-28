@@ -1,0 +1,26 @@
+
+This paper describes a novel approach for sex-
+ual predator detection in chat conversations
+based on sequences of classifiers. The pro-
+posed approach divides documents into three
+parts, which, we hypothesize, correspond to
+the different stages that a predator employs
+when approaching a child. Local classifiers
+are trained for each part of the documents and
+their outputs are combined by a chain strat-
+egy: predictions of a local classifier are used
+as extra inputs for the next local classifier.
+Additionally, we propose a ring-based strat-
+egy, in which the chaining process is iterated
+several times, with the goal of further improv-
+ing the performance of our method. We re-
+port experimental results on the corpus used
+in the first international competition on sex-
+ual predator identification (PAN?12). Experi-
+mental results show that the proposed method
+outperforms a standard (global) classification
+technique for the different settings we con-
+sider; besides the proposed method compares
+favorably with most methods evaluated in the
+PAN?12 competition.
+1 

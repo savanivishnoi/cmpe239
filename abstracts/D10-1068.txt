@@ -1,0 +1,22 @@
+
+Parser disambiguation with precision gram-
+mars generally takes place via statistical rank-
+ing of the parse yield of the grammar using
+a supervised parse selection model. In the
+standard process, the parse selection model is
+trained over a hand-disambiguated treebank,
+meaning that without a significant investment
+of effort to produce the treebank, parse selec-
+tion is not possible. Furthermore, as treebank-
+ing is generally streamlined with parse selec-
+tion models, creating the initial treebank with-
+out a model requires more resources than sub-
+sequent treebanks. In this work, we show that,
+by taking advantage of the constrained nature
+of these HPSG grammars, we can learn a dis-
+criminative parse selection model from raw
+text in a purely unsupervised fashion. This al-
+lows us to bootstrap the treebanking process
+and provide better parsers faster, and with less
+resources.
+1 

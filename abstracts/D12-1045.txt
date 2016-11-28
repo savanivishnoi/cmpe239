@@ -1,0 +1,19 @@
+
+We introduce a novel coreference resolution
+system that models entities and events jointly.
+Our iterative method cautiously constructs
+clusters of entity and event mentions using lin-
+ear regression to model cluster merge opera-
+tions. As clusters are built, information flows
+between entity and event clusters through fea-
+tures that model semantic role dependencies.
+Our system handles nominal and verbal events
+as well as entities, and our joint formulation
+allows information from event coreference to
+help entity coreference, and vice versa. In a
+cross-document domain with comparable doc-
+uments, joint coreference resolution performs
+significantly better (over 3 CoNLL F1 points)
+than two strong baselines that resolve entities
+and events separately.
+1 

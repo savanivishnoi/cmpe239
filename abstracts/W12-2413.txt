@@ -1,0 +1,18 @@
+
+The acquisition of semantic resources and re-
+lations is an important task for several appli-
+cations, such as query expansion, information
+retrieval and extraction, machine translation.
+However, their validity should also be com-
+puted and indicated, especially for automatic
+systems and applications. We exploit the com-
+positionality based methods for the acquisi-
+tion of synonymy relations and of indicators
+of these synonyms. We then apply pager-
+ank-derived algorithm to the obtained seman-
+tic graph in order to filter out the acquired syn-
+onyms. Evaluation performed with two inde-
+pendent experts indicates that the quality of
+synonyms is systematically improved by 10 to
+15% after their filtering.
+1 

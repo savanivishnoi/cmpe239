@@ -1,0 +1,31 @@
+
+Short answer questions for reading compre-
+hension are a common task in foreign lan-
+guage learning. Automatic short answer scor-
+ing is the task of automatically assessing the
+semantic content of a student?s answer, mark-
+ing it e.g. as correct or incorrect. While pre-
+vious approaches mainly focused on compar-
+ing a learner answer to some reference an-
+swer provided by the teacher, we explore the
+use of the underlying reading texts as addi-
+tional evidence for the classification. First, we
+conduct a corpus study targeting the links be-
+tween sentences in reading texts for learners of
+German and answers to reading comprehen-
+sion questions based on those texts. Second,
+we use the reading text directly for classifi-
+cation, considering three different models: an
+answer-based classifier extended with textual
+features, a simple text-based classifier, and a
+model that combines the two according to con-
+fidence of the text-based classification. The
+most promising approach is the first one, re-
+sults for which show that textual features im-
+prove classification accuracy. While the other
+two models do not improve classification ac-
+curacy, they do investigate the role of the text
+and suggest possibilities for developing auto-
+matic answer scoring systems with less super-
+vision needed from instructors.
+1 

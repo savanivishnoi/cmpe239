@@ -1,0 +1,21 @@
+
+We investigate the clarification strategies
+exhibited by a hybrid POMDP dialog
+manager based on data obtained from a
+phone-based user study. The dialog man-
+ager combines task structures with a num-
+ber of POMDP policies each optimized for
+obtaining an individual concept. We in-
+vestigate the relationship between dialog
+length and task completion. In order to
+measure the effectiveness of the clarifica-
+tion strategies, we compute concept pre-
+cisions for two different mentions of the
+concept in the dialog: first mentions and
+final values after clarifications and simi-
+lar strategies, and compare this to a rule-
+based system on the same task. We ob-
+serve an improvement in concept precision
+of 12.1% for the hybrid POMDP com-
+pared to 5.2% for the rule-based system.
+1 

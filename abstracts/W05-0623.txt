@@ -1,0 +1,16 @@
+
+We present a semantic role labeling sys-
+tem submitted to the closed track of the
+CoNLL-2005 shared task. The system, in-
+troduced in (Toutanova et al, 2005), im-
+plements a joint model that captures de-
+pendencies among arguments of a predi-
+cate using log-linear models in a discrimi-
+native re-ranking framework. We also de-
+scribe experiments aimed at increasing the
+robustness of the system in the presence
+of syntactic parse errors. Our final system
+achieves F1-Measures of 76.68 and 78.45
+on the development and the WSJ portion
+of the test set, respectively.
+1 

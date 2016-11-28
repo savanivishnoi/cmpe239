@@ -1,0 +1,16 @@
+
+Previous approaches to instruction interpre-
+tation have required either extensive domain
+adaptation or manually annotated corpora.
+This paper presents a novel approach to in-
+struction interpretation that leverages a large
+amount of unannotated, easy-to-collect data
+from humans interacting with a virtual world.
+We compare several algorithms for automat-
+ically segmenting and discretizing this data
+into (utterance, reaction) pairs and training a
+classifier to predict reactions given the next ut-
+terance. Our empirical analysis shows that the
+best algorithm achieves 70% accuracy on this
+task, with no manual annotation required.
+1 

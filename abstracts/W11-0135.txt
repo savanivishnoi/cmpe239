@@ -1,0 +1,12 @@
+
+In the Textual Entailment community, a shared effort towards a deeper understanding of the core
+phenomena involved in textual inference is recently arose. To analyse how the common intuition
+that decomposing TE would allow a better comprehension of the problem from both a linguistic
+and a computational viewpoint, we propose a definition for strong component-based TE, where each
+component is in itself a complete TE system, able to address a TE task on a specific phenomenon
+in isolation. We review the literature according to our definition, trying to position relevant work as
+more or less close to our idea of strong component-based TE. Several dimensions of the problem are
+discussed: i) the implementation of system components to address specific inference types, ii) the
+analysis of the phenomena relevant to component-based TE, and iii) the development of evaluation
+methodologies to assess TE systems capabilities to address single phenomena in a pair.
+1 

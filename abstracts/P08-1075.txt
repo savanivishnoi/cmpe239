@@ -1,0 +1,23 @@
+
+Traditional wisdom holds that once docu-
+ments are turned into bag-of-words (unigram
+count) vectors, word orders are completely
+lost. We introduce an approach that, perhaps
+surprisingly, is able to learn a bigram lan-
+guage model from a set of bag-of-words docu-
+ments. At its heart, our approach is an EM al-
+gorithm that seeks a model which maximizes
+the regularized marginal likelihood of the bag-
+of-words documents. In experiments on seven
+corpora, we observed that our learned bigram
+language models: i) achieve better test set per-
+plexity than unigram models trained on the
+same bag-of-words documents, and are not far
+behind ?oracle bigram models? trained on the
+corresponding ordered documents; ii) assign
+higher probabilities to sensible bigram word
+pairs; iii) improve the accuracy of ordered-
+document recovery from a bag-of-words. Our
+approach opens the door to novel phenomena,
+for example, privacy leakage from index files.
+1 

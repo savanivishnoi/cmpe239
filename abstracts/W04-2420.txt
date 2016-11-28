@@ -1,0 +1,13 @@
+
+In this study, we try to apply SVMs to the se-
+mantic role labeling task, which is one of the
+multiclass problems. As a result, we propose a
+two-phase semantic role labeling model which
+consists of the identification phase and the clas-
+sification phase. We first identify semantic ar-
+guments, and then assign semantic roles to the
+identified semantic arguments. By taking the
+two-phase approach, we can alleviate the un-
+balanced class distribution problem, and select
+the features appropriate for each task.
+1 

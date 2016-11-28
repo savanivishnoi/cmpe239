@@ -1,0 +1,24 @@
+
+In SemEval-2007, CL Research participated in
+the task for Frame Semantic Structure
+Extraction. Participation in this task was used as
+the vehicle for efforts to integrate and exploit
+FrameNet in a comprehensive text processing
+system. In particular, this involved steps to build
+a FrameNet dictionary with CL Research?s
+DIMAP dictionary software and to use this
+dictionary (along with its semantic network
+processing capabilities) in processing text into
+XML representations. Implementation of the
+entire integrated package is only in its initial
+stages and was used to make only a bare
+submission of frame identification. On this task,
+over all texts, a recall of 0.372, a precision of
+0.553, and an F-score of 0.445 were achieved.
+Considering only targets included in the DIMAP
+FrameNet dictionary, the overall F-score is
+0.605. These results, competitive with the top
+scoring system, support continued attempts at a
+dictionary-based approach to frame structure
+extraction.
+1 

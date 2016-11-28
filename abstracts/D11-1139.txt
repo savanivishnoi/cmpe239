@@ -1,0 +1,18 @@
+
+Linear models have enjoyed great success in
+structured prediction in NLP. While a lot of
+progress has been made on efficient train-
+ing with several loss functions, the problem
+of endowing learners with a mechanism for
+feature selection is still unsolved. Common
+approaches employ ad hoc filtering or L1-
+regularization; both ignore the structure of the
+feature space, preventing practicioners from
+encoding structural prior knowledge. We fill
+this gap by adopting regularizers that promote
+structured sparsity, along with efficient algo-
+rithms to handle them. Experiments on three
+tasks (chunking, entity recognition, and de-
+pendency parsing) show gains in performance,
+compactness, and model interpretability.
+1 

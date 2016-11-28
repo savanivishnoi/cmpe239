@@ -1,0 +1,21 @@
+
+We present a novel approach to Data-Oriented
+Parsing (DOP). Like other DOP models, our
+parser utilizes syntactic fragments of arbitrary
+size from a treebank to analyze new sentences,
+but, crucially, it uses only those which are
+encountered at least twice. This criterion al-
+lows us to work with a relatively small but
+representative set of fragments, which can be
+employed as the symbolic backbone of sev-
+eral probabilistic generative models. For pars-
+ing we define a transform-backtransform ap-
+proach that allows us to use standard PCFG
+technology, making our results easily replica-
+ble. According to standard Parseval metrics,
+our best model is on par with many state-of-
+the-art parsers, while offering some comple-
+mentary benefits: a simple generative proba-
+bility model, and an explicit representation of
+the larger units of grammar.
+1 

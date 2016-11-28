@@ -1,0 +1,39 @@
+
+While working on valency lexicons for Czech
+and English, it was necessary to define treat-
+ment of multiword entities (MWEs) with the
+verb as the central lexical unit. Morphologi-
+cal, syntactic and semantic properties of such
+MWEs had to be formally specified in order to
+create lexicon entries and use them in treebank
+annotation. Such a formal specification has
+also been used for automated quality control
+of the annotation vs. the lexicon entries. We
+present a corpus-based study, concentrating on
+multilayer specification of verbal MWEs, their
+properties in Czech and English, and a com-
+parison between the two languages using the
+parallel Czech-English Dependency Treebank
+(PCEDT). This comparison revealed interest-
+ing differences in the use of verbal MWEs in
+translation (discovering that such MWEs are
+actually rarely translated as MWEs, at least
+between Czech and English) as well as some
+inconsistencies in their annotation. Adding
+MWE-based checks should thus result in bet-
+ter quality control of future treebank/lexicon
+annotation. Since Czech and English are typo-
+logically different languages, we believe that
+our findings will also contribute to a better
+understanding of verbal MWEs and possibly
+their more unified treatment across languages.
+? This work has been supported by the Grant No.
+GPP406/13/03351P of the Grant Agency of the Czech Repub-
+lic. The data used have been provided by the LINDAT/Clarin
+infrastructural project LM2010013 supported by the MSMT CR
+(http://lindat.cz).
+? Authors? full address: Institute of Formal and Applied
+Linguistics, Charles University in Prague, Faculty of Mathe-
+matics and Physics, Malostranske nam. 25, 11800 Prague 1,
+Czech Republic
+1 

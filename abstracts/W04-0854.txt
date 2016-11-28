@@ -1,0 +1,14 @@
+
+We have participated in both English all words
+task and English lexical sample task of SENSEVAL-
+3. Our system disambiguates senses of a target
+word in a context by selecting a substituent among
+WordNet relatives of the target word, such as syn-
+onyms, hypernyms, meronyms and so on. The deci-
+sion is made based on co-occurrence frequency be-
+tween candidate relatives and each of the context
+words. Since the co-occurrence frequency is obtain-
+able from raw corpus, our method is considered to
+be an unsupervised learning algorithm that does not
+require a sense-tagged corpus.
+1 

@@ -1,0 +1,21 @@
+
+Information extraction techniques automati-
+cally create structured databases from un-
+structured data sources, such as the Web or
+newswire documents. Despite the successes of
+these systems, accuracy will always be imper-
+fect. For many reasons, it is highly desirable to
+accurately estimate the confidence the system
+has in the correctness of each extracted field.
+The information extraction system we evalu-
+ate is based on a linear-chain conditional ran-
+dom field (CRF), a probabilistic model which
+has performed well on information extraction
+tasks because of its ability to capture arbitrary,
+overlapping features of the input in a Markov
+model. We implement several techniques to es-
+timate the confidence of both extracted fields
+and entire multi-field records, obtaining an av-
+erage precision of 98% for retrieving correct
+fields and 87% for multi-field records.
+1 

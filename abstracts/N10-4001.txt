@@ -1,0 +1,31 @@
+s, pages 1?2,
+Los Angeles, California, June 2010. c?2010 Association for Computational Linguistics
+Data-Intensive Text Processing with MapReduce
+Jimmy Lin and Chris Dyer
+University of Maryland, College Park
+{jimmylin,redpony}@umd.edu
+1. Overview
+This half-day tutorial introduces participants to data-intensive text
+processing with the MapReduce programming model [1], using the
+open-source Hadoop implementation. The focus will be on scalability
+and the tradeoffs associated with distributed processing of large
+datasets. Content will include general discussions about algorithm
+design, presentation of illustrative algorithms, case studies in HLT
+applications, as well as practical advice in writing Hadoop programs
+and running Hadoop clusters.
+2. Intended Audience
+The tutorial is targeted at any NLP researcher who is interested in
+data-intensive processing and scalability issues in general. No
+background in parallel or distributed computing is necessary, but a
+prior knowledge of HLT is assumed.
+3. Course Objectives
+* Acquire understanding of the MapReduce programming model and how it
+  relates to alternative approaches to concurrent programming.
+* Acquire understanding of how data-intensive HLT problems (e.g., text
+  retrieval, iterative optimization problems, and graph algorithms)
+  can be solved using MapReduce.
+* Acquire understanding of the tradeoffs involved in designing
+  MapReduce algorithms and awareness of associated engineering issues.
+4. Tutorial Topics
+The following represents a tentative list of topics that will be covered:
+* 

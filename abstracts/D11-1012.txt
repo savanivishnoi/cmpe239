@@ -1,0 +1,23 @@
+
+This paper presents a model that extends se-
+mantic role labeling. Existing approaches in-
+dependently analyze relations expressed by
+verb predicates or those expressed as nominal-
+izations. However, sentences express relations
+via other linguistic phenomena as well. Fur-
+thermore, these phenomena interact with each
+other, thus restricting the structures they artic-
+ulate. In this paper, we use this intuition to
+define a joint inference model that captures
+the inter-dependencies between verb seman-
+tic role labeling and relations expressed us-
+ing prepositions. The scarcity of jointly la-
+beled data presents a crucial technical chal-
+lenge for learning a joint model. The key
+strength of our model is that we use existing
+structure predictors as black boxes. By en-
+forcing consistency constraints between their
+predictions, we show improvements in the per-
+formance of both tasks without retraining the
+individual models.
+1 

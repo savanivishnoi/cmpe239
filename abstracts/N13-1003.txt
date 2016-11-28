@@ -1,0 +1,24 @@
+
+There have been many recent investigations
+into methods to tune SMT systems using large
+numbers of sparse features. However, there
+have not been nearly so many examples of
+helpful sparse features, especially for phrase-
+based systems. We use sparse features to ad-
+dress reordering, which is often considered a
+weak point of phrase-based translation. Using
+a hierarchical reordering model as our base-
+line, we show that simple features coupling
+phrase orientation to frequent words or word-
+clusters can improve translation quality, with
+boosts of up to 1.2 BLEU points in Chinese-
+English and 1.8 in Arabic-English. We com-
+pare this solution to a more traditional max-
+imum entropy approach, where a probability
+model with similar features is trained on word-
+aligned bitext. We show that sparse decoder
+features outperform maximum entropy hand-
+ily, indicating that there are major advantages
+to optimizing reordering features directly for
+BLEU with the decoder in the loop.
+1 

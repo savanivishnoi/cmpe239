@@ -1,0 +1,18 @@
+ 
+The emergence of vast quantities of on-line 
+information has raised the importance of methods 
+for automatic cataloguing of information in a 
+variety of domains, including electronic commerce 
+and bioinformatics. Ontologies can play a critical 
+role in such cataloguing. In this paper, we describe 
+a system that automatically induces an ontology 
+from any large on-line text collection in a specific 
+domain. The ontology that is induced consists of 
+domain concepts, related by kind-of and part-of 
+links. To achieve domain-independence, we use a 
+combination of relatively shallow methods along 
+with any available repositories of applicable 
+background knowledge. We describe our 
+evaluation experiences using these methods, and 
+provide examples of induced structures.  
+1 

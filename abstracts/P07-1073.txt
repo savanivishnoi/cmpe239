@@ -1,0 +1,13 @@
+
+We present a new approach to relation ex-
+traction that requires only a handful of train-
+ing examples. Given a few pairs of named
+entities known to exhibit or not exhibit a
+particular relation, bags of sentences con-
+taining the pairs are extracted from the web.
+We extend an existing relation extraction
+method to handle this weaker form of su-
+pervision, and present experimental results
+demonstrating that our approach can reliably
+extract relations from web documents.
+1 

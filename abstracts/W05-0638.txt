@@ -1,0 +1,23 @@
+ 
+In this paper, we propose a method that 
+exploits full parsing information by repre-
+senting it as features of argument classifi-
+cation models and as constraints in integer 
+linear learning programs. In addition, to 
+take advantage of SVM-based and Maxi-
+mum Entropy-based argument classifica-
+tion models, we incorporate their scoring 
+matrices, and use the combined matrix in 
+the above-mentioned integer linear pro-
+grams. The experimental results show that 
+full parsing information not only in-
+creases the F-score of argument classifi-
+cation models by 0.7%, but also 
+effectively removes all labeling inconsis-
+tencies, which increases the F-score by 
+0.64%. The ensemble of SVM and ME 
+also boosts the F-score by 0.77%. Our 
+system achieves an F-score of 76.53% in 
+the development set and 76.38% in Test 
+WSJ. 
+1 

@@ -1,0 +1,17 @@
+ 
+This system uses a background knowledge 
+base to identify semantic relations between 
+base noun phrases in English text, as eva-
+luated in SemEval 2007, Task 4.  Training 
+data for each relation is converted to state-
+ments in the Scone Knowledge Representa-
+tion Language.  At testing time a new 
+Scone statement is created for the sentence 
+under scrutiny, and presence or absence of 
+a relation is calculated by comparing the 
+total semantic distance between the new 
+statement and all positive examples to the 
+total distance between the new statement 
+and all negative examples. 
+   
+1 

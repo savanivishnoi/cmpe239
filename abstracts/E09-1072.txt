@@ -1,0 +1,18 @@
+
+This article presents empirical evaluations
+of aspects of annotation for the linguis-
+tic property of animacy in Swedish, rang-
+ing from manual human annotation, auto-
+matic classification and, finally, an exter-
+nal evaluation in the task of syntactic pars-
+ing. We show that a treatment of animacy
+as a lexical semantic property of noun
+types enables generalization over distri-
+butional properties of these nouns which
+proves beneficial in automatic classifica-
+tion and furthermore gives significant im-
+provements in terms of parsing accuracy
+for Swedish, compared to a state-of-the-
+art baseline parser with gold standard ani-
+macy information.
+1 

@@ -1,0 +1,17 @@
+
+To enhance the technology for computing
+semantic equivalence, we introduce the no-
+tion of phrasal thesaurus which is a natural
+extension of conventional word-based the-
+saurus. Among a variety of phrases that
+conveys the same meaning, i.e., paraphrases,
+we focus on syntactic variants that are com-
+positionally explainable using a small num-
+ber of atomic knowledge, and develop a sys-
+tem which dynamically generates such vari-
+ants. This paper describes the proposed sys-
+tem and three sorts of knowledge developed
+for dynamic phrasal thesaurus in Japanese:
+(i) transformation pattern, (ii) generation
+function, and (iii) lexical function.
+1 

@@ -1,0 +1,26 @@
+
+Bilingual lexicons are central components of
+machine translation and cross-lingual infor-
+mation retrieval systems. Their manual con-
+struction requires strong expertise in both lan-
+guages involved and is a costly process. Sev-
+eral automatic methods were proposed as an
+alternative but they often rely on resources
+available in a limited number of languages
+and their performances are still far behind
+the quality of manual translations. We intro-
+duce a novel approach to the creation of spe-
+cific domain bilingual lexicon that relies on
+Wikipedia. This massively multilingual en-
+cyclopedia makes it possible to create lexi-
+cons for a large number of language pairs.
+Wikipedia is used to extract domains in each
+language, to link domains between languages
+and to create generic translation dictionaries.
+The approach is tested on four specialized do-
+mains and is compared to three state of the art
+approaches using two language pairs: French-
+English and Romanian-English. The newly in-
+troduced method compares favorably to exist-
+ing methods in all configurations tested.
+1 

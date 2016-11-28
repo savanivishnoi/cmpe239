@@ -1,0 +1,23 @@
+
+Most Web-based Q/A systems work by find-
+ing pages that contain an explicit answer to
+a question. These systems are helpless if the
+answer has to be inferred from multiple sen-
+tences, possibly on different pages. To solve
+this problem, we introduce the HOLMES sys-
+tem, which utilizes textual inference (TI) over
+tuples extracted from text.
+Whereas previous work on TI (e.g., the lit-
+erature on textual entailment) has been ap-
+plied to paragraph-sized texts, HOLMES uti-
+lizes knowledge-based model construction to
+scale TI to a corpus of 117 million Web pages.
+Given only a few minutes, HOLMES doubles
+recall for example queries in three disparate
+domains (geography, business, and nutrition).
+Importantly, HOLMES?s runtime is linear in
+the size of its input corpus due to a surprising
+property of many textual relations in the Web
+corpus?they are ?approximately? functional
+in a well-defined sense.
+1 

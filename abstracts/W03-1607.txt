@@ -1,0 +1,37 @@
+ 
+Our general research aim is to extract the 
+actual intentions of persons when they 
+respond to open-ended questionnaires. 
+These intentions include the desire to 
+make requests, complaints, expressions of 
+resignation and so forth, but here we 
+focus on extracting the intention to make 
+a request. To do so, we first have to judge 
+whether their responses contain the intent 
+to make a request. Therefore, as a first 
+step, we have developed a criterion for 
+judging the existence of request intentions 
+in responses. This criterion, which is 
+based on paraphrasing, is described in 
+detail in this paper. Our assumption is that 
+a response with request intentions can be 
+paraphrased into a typical request 
+expression, e.g., ?I would like to ...?, 
+while responses without request are not 
+paraphrasable. The criterion is evaluated 
+in terms of objectivity, reproducibility and 
+effectiveness. Objectivity is demonstrated 
+by showing that machine learning 
+methods can learn the criterion from a set 
+of intention-tagged data, while 
+reproducibility, that the judgments of 
+three annotators are reasonably consistent, 
+and effectiveness, that judgments based 
+not on the criterion but on intuition do not 
+agree. This means the criterion is 
+necessary to achieve reproducibility. 
+These experiments indicate that the 
+criterion can be used to judge the 
+existence of request intentions in 
+responses reliably. 
+1 

@@ -1,0 +1,30 @@
+
+This paper proposes an unsupervised
+word segmentation algorithm that identi-
+fies word boundaries in continuous source
+language text in order to improve the
+translation quality of statistical machine
+translation (SMT) approaches. The
+method can be applied to any language
+pair where the source language is unseg-
+mented and the target language segmen-
+tation is known. First, an iterative boot-
+strap method is applied to learn multi-
+ple segmentation schemes that are consis-
+tent with the phrasal segmentations of an
+SMT system trained on the resegmented
+bitext. In the second step, multiple seg-
+mentation schemes are integrated into a
+single SMT system by characterizing the
+source language side and merging iden-
+tical translation pairs of differently seg-
+mented SMT models. Experimental re-
+sults translating five Asian languages into
+English revealed that the method of in-
+tegrating multiple segmentation schemes
+outperforms SMT models trained on any
+of the learned word segmentations and
+performs comparably to available state-of-
+the-art monolingually-built segmentation
+tools.
+1 

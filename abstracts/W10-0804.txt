@@ -1,0 +1,24 @@
+ 
+We describe and motivate the design of a 
+lexico-grammatical knowledgebase called 
+StringNet and illustrate its significance for re-
+search into constructional phenomena in Eng-
+lish. StringNet consists of a massive archive 
+of what we call hybrid n-grams. Unlike tradi-
+tional n-grams, hybrid n-grams can consist of 
+any co-occurring combination of POS tags, 
+lexemes, and specific word forms. Further, we 
+detect and represent superordinate and subor-
+dinate relations among hybrid n-grams by 
+cross-indexing, allowing the navigation of 
+StringNet through these hierarchies, from spe-
+cific fixed expressions (?It?s the thought that 
+counts?) up to their hosting proto-
+constructions (e.g. the It Cleft construction: 
+?it?s the [noun] that [verb]?). StringNet sup-
+ports discovery of grammatical dependencies 
+(e.g., subject-verb agreement) in non-
+canonical configurations as well as lexical de-
+pendencies (e.g., adjective/noun collocations 
+specific to families of constructions). 
+1 

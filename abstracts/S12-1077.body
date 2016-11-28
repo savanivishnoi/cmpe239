@@ -1,0 +1,23 @@
+ 
+In this paper, we describe the system architec-
+ture used in the Semantic Textual Similarity 
+(STS) task 6 pilot challenge. The goal of this 
+challenge is to accurately identify five levels 
+of semantic similarity between two sentences: 
+equivalent, mostly equivalent, roughly equiva-
+lent, not equivalent but sharing the same topic 
+and no equivalence. Our participations were 
+two systems. The first system (rule-based) 
+combines both semantic and syntax features to 
+arrive at the overall similarity. The proposed 
+rules enable the system to adequately handle 
+domain knowledge gaps that are inherent 
+when working with knowledge resources. As 
+such one of its main goals, the system sug-
+gests a set of domain-free rules to help the 
+human annotator in scoring semantic equiva-
+lence of two sentences. The second system is 
+our baseline in which we use the Cosine Simi-
+larity between the words in each sentence 
+pair.       
+1 

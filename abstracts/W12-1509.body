@@ -1,0 +1,27 @@
+
+Recent studies have shown that incremental
+systems are perceived as more reactive, nat-
+ural, and easier to use than non-incremental
+systems. However, previous work on incre-
+mental NLG has not employed recent ad-
+vances in statistical optimisation using ma-
+chine learning. This paper combines the two
+approaches, showing how the update, revoke
+and purge operations typically used in in-
+cremental approaches can be implemented as
+state transitions in a Markov Decision Process.
+We design a model of incremental NLG that
+generates output based on micro-turn inter-
+pretations of the user?s utterances and is able
+to optimise its decisions using statistical ma-
+chine learning. We present a proof-of-concept
+study in the domain of Information Presen-
+tation (IP), where a learning agent faces the
+trade-off of whether to present information as
+soon as it is available (for high reactiveness)
+or else to wait until input ASR hypotheses are
+more reliable. Results show that the agent
+learns to avoid long waiting times, fillers and
+self-corrections, by re-ordering content based
+on its confidence.
+1 

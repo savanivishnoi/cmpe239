@@ -1,0 +1,18 @@
+
+Significant amount of work has been
+devoted recently to develop learning
+techniques that can be used to gener-
+ate partial (shallow) analysis of natu-
+ral language sentences rather than a full
+parse. In this work we set out to evalu-
+ate whether this direction is worthwhile
+by comparing a learned shallow parser
+to one of the best learned full parsers
+on tasks both can perform ? identify-
+ing phrases in sentences. We conclude
+that directly learning to perform these
+tasks as shallow parsers do is advanta-
+geous over full parsers both in terms of
+performance and robustness to new and
+lower quality texts.
+1 

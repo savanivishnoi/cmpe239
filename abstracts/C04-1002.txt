@@ -1,0 +1,13 @@
+
+We present a novel algorithm for Japanese dependency
+analysis. The algorithm allows us to analyze dependency
+structures of a sentence in linear-time while keeping a
+state-of-the-art accuracy. In this paper, we show a formal
+description of the algorithm and discuss it theoretically
+with respect to time complexity. In addition, we eval-
+uate its efficiency and performance empirically against
+the Kyoto University Corpus. The proposed algorithm
+with improved models for dependency yields the best ac-
+curacy in the previously published results on the Kyoto
+University Corpus.
+1 

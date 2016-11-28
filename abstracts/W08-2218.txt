@@ -1,0 +1,16 @@
+
+Local coherence analysis is the task of deriving the (most likely) coher-
+ence relation holding between two elementary discourse units or, recur-
+sively, larger spans of text. The primary source of information for this
+step is the connectives provided by a language for, more or less explic-
+itly, signaling the relations. Focusing here on causal coherence relations,
+we propose a lexical resource that holds both lexicographic and corpus-
+statistic information on German connectives. It can serve as the cen-
+tral repository of information needed for identifying and disambiguating
+connectives in text, including determining the coherence relations being
+signaled. We sketch a procedure performing this task, and describe a
+manually-annotated corpus of causal relations (also in German), which
+serves as reference data.
+221
+222 Stede
+1 

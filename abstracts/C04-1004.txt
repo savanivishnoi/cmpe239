@@ -1,0 +1,24 @@
+ 
+This paper proposes a discriminative HMM 
+(DHMM) with long state dependence (LSD-
+DHMM) to segment and label sequential data. 
+The LSD-DHMM overcomes the strong context 
+independent assumption in traditional generative 
+HMMs (GHMMs) and models the sequential data 
+in a discriminative way, by assuming a novel 
+mutual information independence. As a result, the 
+LSD-DHMM separately models the long state 
+dependence in its state transition model and the 
+observation dependence in its output model. In 
+this paper, a variable-length mutual information-
+based modeling approach and an ensemble of 
+kNN probability estimators are proposed to 
+capture the long state dependence and the 
+observation dependence respectively. The 
+evaluation on shallow parsing shows that the 
+LSD-DHMM not only significantly outperforms 
+GHMMs but also much outperforms other 
+DHMMs. This suggests that the LSD-DHMM can 
+effectively capture the long context dependence to 
+segment and label sequential data. 
+1. 

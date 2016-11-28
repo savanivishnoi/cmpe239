@@ -1,0 +1,40 @@
+
+Semantic parsers map natural language sentences
+to formal representations of their underlying
+meaning. Building accurate semantic parsers
+without prohibitive engineering costs is a long-
+standing, open research problem.
+The tutorial will describe general principles for
+building semantic parsers. The presentation will
+be divided into two main parts: modeling and
+learning. The modeling section will include best
+practices for grammar design and choice of se-
+mantic representation. The discussion will be
+guided by examples from several domains. To il-
+lustrate the choices to be made and show how they
+can be approached within a real-life representation
+language, we will use ?-calculus meaning repre-
+sentations. In the learning part, we will describe
+a unified approach for learning Combinatory Cat-
+egorial Grammar (CCG) semantic parsers, that in-
+duces both a CCG lexicon and the parameters of
+a parsing model. The approach learns from data
+with labeled meaning representations, as well as
+from more easily gathered weak supervision. It
+also enables grounded learning where the seman-
+tic parser is used in an interactive environment, for
+example to read and execute instructions.
+The ideas we will discuss are widely appli-
+cable. The semantic modeling approach, while
+implemented in ?-calculus, could be applied to
+many other formal languages. Similarly, the al-
+gorithms for inducing CCGs focus on tasks that
+are formalism independent, learning the meaning
+of words and estimating parsing parameters. No
+prior knowledge of CCGs is required. The tuto-
+rial will be backed by implementation and exper-
+iments in the University of Washington Semantic
+Parsing Framework (UW SPF).1
+1http://yoavartzi.com/spf
+2 Outline
+1. 

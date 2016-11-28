@@ -1,0 +1,14 @@
+
+We describe an approach to textual infer-
+ence that improves alignments at both the
+typed dependency level and at a deeper se-
+mantic level. We present a machine learning
+approach to alignment scoring, a stochas-
+tic search procedure, and a new tool that
+finds deeper semantic alignments, allowing
+rapid development of semantic features over
+the aligned graphs. Further, we describe a
+complementary semantic component based
+on natural logic, which shows an added gain
+of 3.13% accuracy on the RTE3 test set.
+1 

@@ -1,0 +1,33 @@
+
+Rule-based spoken dialogue systems require
+a good regression testing framework if they
+are to be maintainable. We argue that there
+is a tension between two extreme positions
+when constructing the database of test exam-
+ples. On the one hand, if the examples con-
+sist of input/output tuples representing many
+levels of internal processing, they are fine-
+grained enough to catch most processing er-
+rors, but unstable under most system modi-
+fications. If the examples are pairs of user
+input and final system output, they are much
+more stable, but too coarse-grained to catch
+many errors. In either case, there are fairly
+severe difficulties in judging examples cor-
+rectly. We claim that a good compromise can
+be reached by implementing a paraphrasing
+mechanism which maps internal semantic rep-
+resentations into surface forms, and carrying
+out regression testing using paraphrases of se-
+mantic forms rather than the semantic forms
+themselves. We describe an implementation
+of the idea using the Open Source Regulus
+toolkit, where paraphrases are produced us-
+ing Regulus grammars compiled in generation
+mode. Paraphrases can also be used at run-
+time to produce confirmations. By compiling
+the paraphrase grammar a second time, as a
+recogniser, it is possible in a simple and nat-
+ural way to guarantee that confirmations are
+always within system coverage.
+1 

@@ -1,0 +1,38 @@
+s 
+ 
+Ben Goertzel Hugo Pinto Ari Heljakka 
+Applied Research Lab for National 
+and Homeland Security 
+Novamente LLC Novamente LLC 
+Virginia Tech 1405 Bernerd Place 1405 Bernerd Place 
+Arlington VA 22216 
+ 
+Rockville MD 20851 Rockville MD 20851 
+ben@goertzel.org hugo@vettalabs.com heljakka@iki.fi 
+ 
+Izabela Freire Goertzel Mike Ross Cassio Pennachin 
+Novamente LLC SAIC Novamente LLC 
+1405 Bernerd Place 5971 Kingstowne Village Parkway 1405 Bernerd Place 
+Rockville MD 20851 Kingstowne, VA 22315 Rockville MD 20851 
+izabela@goertzel.org miross@objectsciences.com cassio@vettalabs.com
+ 
+ 
+Abstract 
+We describe BioLiterate, a prototype software 
+system which infers relationships involving re-
+lationships between genes, proteins and ma-
+lignancies from research abstracts, and has ini-
+tially been tested in the domain of the molecu-
+lar genetics of oncology. The architecture uses 
+a natural language processing module to ex-
+tract entities, dependencies and simple seman-
+tic relationships from texts, and then feeds 
+these features into a probabilistic reasoning 
+module which combines the semantic relation-
+ships extracted by the NLP module to form 
+new semantic relationships.  One application 
+of this system is the discovery of relationships 
+that are not contained in any individual ab-
+stract but are implicit in the combined knowl-
+edge contained in two or more abstracts.  
+1 

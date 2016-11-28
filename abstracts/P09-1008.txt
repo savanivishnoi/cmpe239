@@ -1,0 +1,26 @@
+
+Freer-word-order languages such as Ger-
+man exhibit linguistic phenomena that
+present unique challenges to traditional
+CFG parsing. Such phenomena produce
+discontinuous constituents, which are not
+naturally modelled by projective phrase
+structure trees. In this paper, we exam-
+ine topological field parsing, a shallow
+form of parsing which identifies the ma-
+jor sections of a sentence in relation to
+the clausal main verb and the subordinat-
+ing heads. We report the results of topo-
+logical field parsing of German using the
+unlexicalized, latent variable-based Berke-
+ley parser (Petrov et al, 2006) Without
+any language- or model-dependent adapta-
+tion, we achieve state-of-the-art results on
+the Tu?Ba-D/Z corpus, and a modified NE-
+GRA corpus that has been automatically
+annotated with topological fields (Becker
+and Frank, 2002). We also perform a qual-
+itative error analysis of the parser output,
+and discuss strategies to further improve
+the parsing results.
+1 

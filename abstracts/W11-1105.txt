@@ -1,0 +1,15 @@
+
+A graph-based distance between Wikipedia ar-
+ticles is defined using a random walk model,
+which estimates visiting probability (VP) be-
+tween articles using two types of links: hy-
+perlinks and lexical similarity relations. The
+VP to and from a set of articles is then com-
+puted, and approximations are proposed to
+make tractable the computation of semantic
+relatedness between every two texts in a large
+data set. The model is applied to document
+clustering on the 20 Newsgroups data set. Pre-
+cision and recall are improved in comparison
+with previous textual distance algorithms.
+1 

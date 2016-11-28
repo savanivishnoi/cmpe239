@@ -1,0 +1,22 @@
+
+We present a novel algorithm for de-
+tecting errors in MT, specifically focus-
+ing on content words that are deleted
+during MT. We evaluate it in the con-
+text of cross-lingual question answering
+(CLQA), where we try to correct the
+detected errors by using a better (but
+slower) MT system to retranslate a lim-
+ited number of sentences at query time.
+Using a query-dependent ranking heuris-
+tic enabled the system to direct scarce
+MT resources towards retranslating the
+sentences that were most likely to ben-
+efit CLQA. The error detection algo-
+rithm identified spuriously deleted con-
+tent words with high precision. How-
+ever, retranslation was not an effective
+approach for correcting them, which in-
+dicates the need for a more targeted ap-
+proach to error correction in the future.
+1 

@@ -1,0 +1,21 @@
+
+Microblog streams often contain a consider-
+able amount of information about local, re-
+gional, national, and global events. Most ex-
+isting microblog search capabilities are fo-
+cused on recent happenings and do not provide
+the ability to search and explore past events.
+This paper proposes the problem of structured
+retrieval of historical event information over
+microblog archives. Rather than retrieving in-
+dividual microblog messages in response to an
+event query, we propose retrieving a ranked
+list of historical event summaries by distill-
+ing high quality event representations using
+a novel temporal query expansion technique.
+The results of an exploratory study carried
+out over a large archive of Twitter messages
+demonstrates both the value of the microblog
+event retrieval task and the effectiveness of our
+proposed search methodologies.
+1 

@@ -1,0 +1,23 @@
+
+Automatically describing visual content is an
+extremely difficult task, with hard AI prob-
+lems in Computer Vision (CV) and Natural
+Language Processing (NLP) at its core. Pre-
+vious work relies on supervised visual recog-
+nition systems to determine the content of im-
+ages. These systems require massive amounts
+of hand-labeled data for training, so the num-
+ber of visual classes that can be recognized is
+typically very small. We argue that these ap-
+proaches place unrealistic limits on the kinds
+of images that can be captioned, and are un-
+likely to produce captions which reflect hu-
+man interpretations.
+We present a framework for image caption
+generation that does not rely on visual recog-
+nition systems, which we have implemented
+on a dataset of online shopping images and
+product descriptions. We propose future work
+to improve this method, and extensions for
+other domains of images and natural text.
+1 

@@ -1,0 +1,26 @@
+ 
+This paper studies sentiment analysis 
+from the user-generated content on the 
+Web. In particular, it focuses on mining 
+opinions from comparative sentences, i.e., 
+to determine which entities in a compari-
+son are preferred by its author. A typical 
+comparative sentence compares two or 
+more entities. For example, the sentence, 
+?the picture quality of Camera X is better 
+than that of Camera Y?, compares two 
+entities ?Camera X? and ?Camera Y? 
+with regard to their picture quality. Clear-
+ly, ?Camera X? is the preferred entity. 
+Existing research has studied the problem 
+of extracting some key elements in a 
+comparative sentence. However, there is 
+still no study of mining opinions from 
+comparative sentences, i.e., identifying 
+preferred entities of the author. This pa-
+per studies this problem, and proposes a 
+technique to solve the problem. Our ex-
+periments using comparative sentences 
+from product reviews and forum posts 
+show that the approach is effective. 
+1 

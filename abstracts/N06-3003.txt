@@ -1,0 +1,23 @@
+ 
+This paper summarizes a largely automated 
+method that uses online post-editing feed-
+back to automatically improve translation 
+rules. As a starting point, bilingual speak-
+ers? local fixes are collected through an 
+online Translation Correction Tool. Next, 
+the Rule Refinement Module attacks the 
+problem at its core and uses the local fixes 
+to detect incorrect rules that need to be re-
+fined. Once the grammar and lexicon have 
+been refined, the Machine Translation sys-
+tem not only produces the correct transla-
+tion as fixed by the bilingual speaker, but is 
+also able to generalize and correctly trans-
+lates similar sentences. Thus, this work 
+constitutes a novel approach to improving 
+translation quality. Enhanced by the reach-
+ing power of the Internet, our approach be-
+comes even more relevant to address the 
+problem of how to automatically improve 
+the quality of Machine Translation output. 
+1 

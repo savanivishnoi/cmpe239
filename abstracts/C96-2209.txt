@@ -1,0 +1,18 @@
+ 
+In this paper, we want to describe a tag- 
+ger/lemmatiser for Dutch medical voca- 
+bulary, which consists of a full-form dic- 
+tionary and a morphological recogniser 
+for unknown vocabulary coupled to an 
+expert system-like disambiguation mo- 
+dule. Attention is also paid to the main 
+datastructures: a lexical database and 
+feature bundles implemented as direc- 
+ted acyclic graphs. Some evaluation re- 
+sults are presented as well. The tag- 
+ger/lemmatiser currently functions as a 
+lexical front-end for a syntactic parser. 
+For pure tagging/lemmatising purposes, 
+a reduced tagset (not suited for sentence 
+analysis) can be used as well. 
+1 

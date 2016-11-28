@@ -1,0 +1,7 @@
+. In this paper, we describe a new method for constructing minimal, determin- 
+istic, acyclic finite state automata and transducers. Traditional methods consist of two 
+steps. The first one is to construct atrie, the second one -- to perform minimization. Our 
+approach is to construct an automaton in a single step by adding new strings one by one 
+and minimizing the resulting automaton on-the-fly. We present a general algorithm as 
+well as a specialization that relies upon the lexicographical sorting of the input strings. 
+1 

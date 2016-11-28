@@ -1,0 +1,27 @@
+
+When designing grammars of natural lan-
+guage, typically, more than one formal anal-
+ysis can account for a given phenomenon.
+Moreover, because analyses interact, the
+choices made by the engineer influence the
+possibilities available in further grammar de-
+velopment. The order in which phenomena
+are treated may therefore have a major impact
+on the resulting grammar. This paper proposes
+to tackle this problem by using metagrammar
+development as a methodology for grammar
+engineering. I argue that metagrammar engi-
+neering as an approach facilitates the system-
+atic exploration of grammars through compar-
+ison of competing analyses. The idea is illus-
+trated through a comparative study of auxil-
+iary structures in HPSG-based grammars for
+German and Dutch. Auxiliaries form a cen-
+tral phenomenon of German and Dutch and
+are likely to influence many components of
+the grammar. This study shows that a spe-
+cial auxiliary+verb construction significantly
+improves efficiency compared to the standard
+argument-composition analysis for both pars-
+ing and generation.
+1 

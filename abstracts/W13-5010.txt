@@ -1,0 +1,22 @@
+
+Entity Resolution is the task of identifying which
+records in a database refer to the same entity. A
+standard machine learning pipeline for the entity res-
+olution problem consists of three major components:
+blocking, pairwise linkage, and clustering. The
+blocking step groups records by shared properties to
+determine which pairs of records should be exam-
+ined by the pairwise linker as potential duplicates.
+Next, the linkage step assigns a probability score to
+pairs of records inside each block. If a pair scores
+above a user-defined threshold, the records are pre-
+sumed to represent the same entity. Finally, the clus-
+tering step turns the input records into clusters of
+records (or profiles), where each cluster is uniquely
+associated with a single real-world entity. This paper
+describes the blocking and clustering strategies used
+to deploy a massive database of organization entities
+to power a major commercial People Search Engine.
+We demonstrate the viability of these algorithms for
+large data sets on a 50-node hadoop cluster.
+1 

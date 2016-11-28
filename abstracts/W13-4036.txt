@@ -1,0 +1,27 @@
+
+This paper describes a new approach to
+automatic learning of strategies for social
+multi-user human-robot interaction. Us-
+ing the example of a robot bartender that
+tracks multiple customers, takes their or-
+ders, and serves drinks, we propose a
+model consisting of a Social State Recog-
+niser (SSR) which processes audio-visual
+input and maintains a model of the social
+state, together with a Social Skills Execu-
+tor (SSE) which takes social state updates
+from the SSR as input and generates robot
+responses as output. The SSE is modelled
+as two connected Markov Decision Pro-
+cesses (MDPs) with action selection poli-
+cies that are jointly optimised in interaction
+with a Multi-User Simulation Environment
+(MUSE). The SSR and SSE have been in-
+tegrated in the robot bartender system and
+evaluated with human users in hand-coded
+and trained SSE policy variants. The re-
+sults indicate that the trained policy out-
+performed the hand-coded policy in terms
+of both subjective (+18%) and objective
+(+10.5%) task success.
+1 

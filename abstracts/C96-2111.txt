@@ -1,0 +1,18 @@
+ 
+Automatic ompilation of the linking relation 
+employed in certain parsing algorithms for con- 
+text-free languages is examined. Special pro- 
+blems arise in the extension of these algorithms 
+to the possibly infinite domain of feature struc- 
+tures. A technique is proposed which is design- 
+ed specifically for left-recursive categories and 
+is based on the generalization ftheir occurren- 
+ces in a derivation. Particular attention isdrawn 
+to the top-down predictive character of the link- 
+ing relation and to its significance not only as 
+a filter for increasing the efficiency of syntactic 
+analysis but as a device for the top-down in- 
+stantiation of information, which then serves as 
+a key to the directed analysis of inflected forms 
+as well as "unknown" or "new" words. 
+1 

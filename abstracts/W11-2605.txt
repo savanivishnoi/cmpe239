@@ -1,0 +1,17 @@
+
+This paper explores two different methods of
+learning dialectal morphology from a small
+parallel corpus of standard and dialect-form
+text, given that a computational description
+of the standard morphology is available. The
+goal is to produce a model that translates in-
+dividual lexical dialectal items to their stan-
+dard dialect counterparts in order to facili-
+tate dialectal use of available NLP tools that
+only assume standard-form input. The results
+show that a learning method based on induc-
+tive logic programming quickly converges to
+the correct model with respect to many phono-
+logical and morphological differences that are
+regular in nature.
+1 

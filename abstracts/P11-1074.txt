@@ -1,0 +1,25 @@
+
+In this paper, we adopt an n-best rescoring
+scheme using pitch-accent patterns to improve
+automatic speech recognition (ASR) perfor-
+mance. The pitch-accent model is decoupled
+from the main ASR system, thus allowing us
+to develop it independently. N-best hypothe-
+ses from recognizers are rescored by addi-
+tional scores that measure the correlation of
+the pitch-accent patterns between the acoustic
+signal and lexical cues. To test the robustness
+of our algorithm, we use two different data
+sets and recognition setups: the first one is En-
+glish radio news data that has pitch accent la-
+bels, but the recognizer is trained from a small
+amount of data and has high error rate; the sec-
+ond one is English broadcast news data using
+a state-of-the-art SRI recognizer. Our experi-
+mental results demonstrate that our approach
+is able to reduce word error rate relatively by
+about 3%. This gain is consistent across the
+two different tests, showing promising future
+directions of incorporating prosodic informa-
+tion to improve speech recognition.
+1 

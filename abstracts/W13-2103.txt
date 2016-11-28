@@ -1,0 +1,22 @@
+
+In this paper we describe a natural lan-
+guage generation system which produces
+complex sentences from a biology knowl-
+edge base. The NLG system allows do-
+main experts to discover errors in the
+knowledge base and generates certain
+parts of answers in response to users?
+questions in an e-textbook application.
+The system allows domain experts to cus-
+tomise its lexical resources and to set pa-
+rameters which influence syntactic con-
+structions in generated sentences. The
+system is capable of dealing with certain
+types of incomplete inputs arising from a
+knowledge base which is constantly edited
+and includes a referring expression gen-
+eration module which keeps track of dis-
+course history. Our referring expression
+module is available for download as the
+open source Antfarm tool1.
+1 

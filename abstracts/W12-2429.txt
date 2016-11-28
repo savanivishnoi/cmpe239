@@ -1,0 +1,24 @@
+
+The most accurate approaches to Word Sense
+Disambiguation (WSD) for biomedical docu-
+ments are based on supervised learning. How-
+ever, these require manually labeled training
+examples which are expensive to create and
+consequently supervised WSD systems are
+normally limited to disambiguating a small set
+of ambiguous terms. An alternative approach
+is to create labeled training examples automat-
+ically and use them as a substitute for manu-
+ally labeled ones. This paper describes a large
+scale WSD system based on automatically la-
+beled examples generated using information
+from the UMLS Metathesaurus. The labeled
+examples are generated without any use of la-
+beled training data whatsoever and is therefore
+completely unsupervised (unlike some previ-
+ous approaches). The system is evaluated on
+two widely used data sets and found to outper-
+form a state-of-the-art unsupervised approach
+which also uses information from the UMLS
+Metathesaurus.
+1 

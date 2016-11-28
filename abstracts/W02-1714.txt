@@ -1,0 +1,12 @@
+: This paper describes the use of XML in three generic interacting speech technology 
+systems.  The first, a phonological syllable recognition system, generates feature-based finite-state 
+automaton representations of phonotactic constraints in XML. It employs axioms of event logic to 
+interpret multilinear representations of speech utterances and outputs candidate syllables to the second 
+system, an XML syllable lexicon. This system enables users to generate their own lexicons and its default 
+lexicon is used to accept or reject the candidate syllables output by the speech recognition system. 
+Furthermore its XML representation facilitates its use by the third system which generates additional 
+lexicons, based on different feature sets, by means of a transduction process. The applicability of these 
+alternative feature sets in the generation of synthetic speech can then be tested using these new lexicons. 
+ 
+ 
+1. 

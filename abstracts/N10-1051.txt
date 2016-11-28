@@ -1,0 +1,14 @@
+
+Named entity recognition systems sometimes
+have difficulty when applied to data from do-
+mains that do not closely match the training
+data. We first use a simple rule-based tech-
+nique for domain adaptation. Data for robust
+validation of the technique is then generated,
+and we use crowdsourcing techniques to show
+that this strategy produces reliable results even
+on data not seen by the rule designers. We
+show that it is possible to extract large im-
+provements on the target data rapidly at low
+cost using these techniques.
+1 

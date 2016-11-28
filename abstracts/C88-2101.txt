@@ -1,0 +1,17 @@
+ 
+This paper presents an attempt o construct a feed- 
+back systenr PECOF which improves a Japauese- 
+English Machine Translation system by feedback of 
+correcting information given by posteditors. PECOF 
+analyzes the error-correcting information by using an 
+English-Japmmse Machine Translation system which 
+works in the reverse direction to the original MT sys~ 
+tern, corot)ares the intermediate xpressions of the 
+corrected patterns with those of the erroneous parts of 
+the originai MT output at every transfer stage and 
+idenLifies the responsible parts of the original Japanese- 
+English M'P system. Then PECOF corrects the 
+irrelevant parts of tt,e database or adds error correcting 
+patterns to a document of postediting to ask users for 
+further exmninations for corrections. 
+L 

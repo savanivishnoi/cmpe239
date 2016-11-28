@@ -1,0 +1,24 @@
+
+This paper presents an algorithm that allows
+the user to issue a query pattern, collects
+multi-word expressions (MWEs) that match
+the pattern, and then ranks them in a uniform
+fashion. This is achieved by quantifying the
+strength of all possible relations between the
+tokens and their features in the MWEs. The al-
+gorithm collects the frequency of morphologi-
+cal categories of the given pattern on a unified
+scale in order to choose the stable categories
+and their values. For every part of speech, and
+for all of its categories, we calculate a normal-
+ized Kullback-Leibler divergence between the
+category?s distribution in the pattern and its
+distribution in the corpus overall. Categories
+with the largest divergence are considered to
+be the most significant. The particular values
+of the categories are sorted according to a fre-
+quency ratio. As a result, we obtain morpho-
+syntactic profiles of a given pattern, which in-
+cludes the most stable category of the pattern,
+and their values.
+1 

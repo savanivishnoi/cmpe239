@@ -1,0 +1,20 @@
+
+We formalize weighted dependency pars-
+ing as searching for maximum spanning
+trees (MSTs) in directed graphs. Using
+this representation, the parsing algorithm
+of Eisner (1996) is sufficient for search-
+ing over all projective trees in O(n3) time.
+More surprisingly, the representation is
+extended naturally to non-projective pars-
+ing using Chu-Liu-Edmonds (Chu and
+Liu, 1965; Edmonds, 1967) MST al-
+gorithm, yielding an O(n2) parsing al-
+gorithm. We evaluate these methods
+on the Prague Dependency Treebank us-
+ing online large-margin learning tech-
+niques (Crammer et al, 2003; McDonald
+et al, 2005) and show that MST parsing
+increases efficiency and accuracy for lan-
+guages with non-projective dependencies.
+1 

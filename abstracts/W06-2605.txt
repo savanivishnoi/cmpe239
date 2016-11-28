@@ -1,0 +1,15 @@
+
+We report on our work to build a dis-
+course parser (SemDP) that uses seman-
+tic features of sentences. We use an In-
+ductive Logic Programming (ILP) System
+to exploit rich verb semantics of clauses
+to induce rules for discourse parsing. We
+demonstrate that ILP can be used to learn
+from highly structured natural language
+data and that the performance of a dis-
+course parsing model that only uses se-
+mantic information is comparable to that
+of the state of the art syntactic discourse
+parsers.
+1 

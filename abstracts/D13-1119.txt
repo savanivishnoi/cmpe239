@@ -1,0 +1,19 @@
+
+In this paper we report an empirical study
+on semi-supervised Chinese word segmenta-
+tion using co-training. We utilize two seg-
+menters: 1) a word-based segmenter lever-
+aging a word-level language model, and 2)
+a character-based segmenter using character-
+level features within a CRF-based sequence
+labeler. These two segmenters are initially
+trained with a small amount of segmented
+data, and then iteratively improve each other
+using the large amount of unlabelled data.
+Our experimental results show that co-training
+captures 20% and 31% of the performance
+improvement achieved by supervised training
+with an order of magnitude more data for the
+SIGHAN Bakeoff 2005 PKU and CU corpora
+respectively.
+1 

@@ -1,0 +1,22 @@
+
+The quality of the part-of-speech (PoS)
+annotation in a corpus is crucial for the
+development of PoS taggers. In this pa-
+per, we experiment with three complemen-
+tary methods for automatically detecting
+errors in the PoS annotation for the Ice-
+landic Frequency Dictionary corpus. The
+first two methods are language indepen-
+dent and we argue that the third method
+can be adapted to other morphologically
+complex languages. Once possible errors
+have been detected, we examine each er-
+ror candidate and hand-correct the cor-
+responding PoS tag if necessary. Over-
+all, based on the three methods, we hand-
+correct the PoS tagging of 1,334 tokens
+(0.23% of the tokens) in the corpus. Fur-
+thermore, we re-evaluate existing state-of-
+the-art PoS taggers on Icelandic text using
+the corrected corpus.
+1 

@@ -1,0 +1,20 @@
+
+This  document  describes  an  open 
+text-mining  system  that  was  developed 
+for the Asian-European project KYOTO. 
+The  KYOTO system uses  an  open text 
+representation format and a central onto-
+logy to  enable  extraction  of  knowledge 
+and facts  from large volumes of text  in 
+many different languages. We implemen-
+ted a semantic tagging approach that per-
+forms off-line reasoning. Mining of facts 
+and  knowledge  is  achieved  through  a 
+flexible pattern matching module that can 
+work in much the same way for different 
+languages,  can  handle  efficiently  large 
+volumes of documents and is not restric-
+ted to a specific domain. We applied the 
+system to an English database on estuar-
+ies.
+1 

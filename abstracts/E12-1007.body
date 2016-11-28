@@ -1,0 +1,21 @@
+
+Hungarian is a stereotype of morpholog-
+ically rich and non-configurational lan-
+guages. Here, we introduce results on de-
+pendency parsing of Hungarian that em-
+ploy a 80K, multi-domain, fully manu-
+ally annotated corpus, the Szeged Depen-
+dency Treebank. We show that the results
+achieved by state-of-the-art data-driven
+parsers on Hungarian and English (which is
+at the other end of the configurational-non-
+configurational spectrum) are quite simi-
+lar to each other in terms of attachment
+scores. We reveal the reasons for this and
+present a systematic and comparative lin-
+guistically motivated error analysis on both
+languages. This analysis highlights that ad-
+dressing the language-specific phenomena
+is required for a further remarkable error re-
+duction.
+1 

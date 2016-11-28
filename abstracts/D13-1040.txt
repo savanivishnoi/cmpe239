@@ -1,0 +1,20 @@
+
+In this paper we present an unsupervised ap-
+proach to relational information extraction.
+Our model partitions tuples representing an
+observed syntactic relationship between two
+named entities (e.g., ?X was born in Y?
+and ?X is from Y?) into clusters correspond-
+ing to underlying semantic relation types
+(e.g., BornIn, Located). Our approach incor-
+porates general domain knowledge which we
+encode as First Order Logic rules and auto-
+matically combine with a topic model devel-
+oped specifically for the relation extraction
+task. Evaluation results on the ACE 2007
+English Relation Detection and Categoriza-
+tion (RDC) task show that our model outper-
+forms competitive unsupervised approaches
+by a wide margin and is able to produce clus-
+ters shaped by both the data and the rules.
+1 

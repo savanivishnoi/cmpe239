@@ -1,0 +1,20 @@
+
+Derivational models are still an under-
+researched area in computational morphol-
+ogy. Even for German, a rather resource-
+rich language, there is a lack of large-
+coverage derivational knowledge. This pa-
+per describes a rule-based framework for
+inducing derivational families (i.e., clus-
+ters of lemmas in derivational relation-
+ships) and its application to create a high-
+coverage German resource, DERIVBASE,
+mapping over 280k lemmas into more than
+17k non-singleton clusters. We focus on the
+rule component and a qualitative and quan-
+titative evaluation. Our approach achieves
+up to 93% precision and 71% recall. We
+attribute the high precision to the fact that
+our rules are based on information from
+grammar books.
+1 

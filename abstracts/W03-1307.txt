@@ -1,0 +1,21 @@
+ 
+In this paper, we explore how to adapt a 
+general Hidden Markov Model-based 
+named entity recognizer effectively to 
+biomedical domain.  We integrate various 
+features, including simple deterministic 
+features, morphological features, POS 
+features and semantic trigger features, to 
+capture various evidences especially for 
+biomedical named entity and evaluate 
+their contributions.  We also present a 
+simple algorithm to solve the abbreviation 
+problem and a rule-based method to deal 
+with the cascaded phenomena in biomedi-
+cal domain.  Our experiments on GENIA 
+V3.0 and GENIA V1.1 achieve the 66.1 
+and 62.5 F-measure respectively, which 
+outperform the previous best published 
+results by 8.1 F-measure when using the 
+same training and testing data.  
+1 

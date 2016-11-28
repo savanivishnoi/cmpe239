@@ -1,0 +1,26 @@
+
+This paper proposes the use of local his-
+tograms (LH) over character n-grams for au-
+thorship attribution (AA). LHs are enriched
+histogram representations that preserve se-
+quential information in documents; they have
+been successfully used for text categorization
+and document visualization using word his-
+tograms. In this work we explore the suitabil-
+ity of LHs over n-grams at the character-level
+for AA. We show that LHs are particularly
+helpful for AA, because they provide useful
+information for uncovering, to some extent,
+the writing style of authors. We report experi-
+mental results in AA data sets that confirm that
+LHs over character n-grams are more help-
+ful for AA than the usual global histograms,
+yielding results far superior to state of the art
+approaches. We found that LHs are even more
+advantageous in challenging conditions, such
+as having imbalanced and small training sets.
+Our results motivate further research on the
+use of LHs for modeling the writing style of
+authors for related tasks, such as authorship
+verification and plagiarism detection.
+1 

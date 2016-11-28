@@ -1,0 +1,24 @@
+
+This paper presents new Information Extrac-
+tion scenarios which are linguistically and struc-
+turally more challenging than the traditional
+MUC scenarios. Traditional views on event
+structure and template design are not adequate
+for the more complex scenarios.
+The focus of this paper is to show the com-
+plexity of the scenarios, and propose a way to
+recover the structure of the event. First we
+identify two structural factors that contribute
+to the complexity of scenarios: the scattering
+of events in text, and inclusion relationships
+between events. These factors cause di?culty
+in representing the facts in an unambiguous
+way. Then we propose a modular, hierarchi-
+cal representation where the information is split
+in atomic units represented by templates, and
+where the inclusion relationships between the
+units are indicated by links. Lastly, we discuss
+how we may recover this representation from
+text, with the help of linguistic cues linking the
+events.
+1 

@@ -1,0 +1,22 @@
+ 
+This research is a continuation of that reported in Axiomatic 
+Characterization of Synonymy and Antonymy, which was presented at 
+the 1967 International Conference on Computational Linguistics \[3\]. 
+In that paper on mathematical linguistics the relations of synonymy 
+and antonymy were regarded as ternary relations and their domains 
+and ranges were discussed. Synonymy and antonymy were defined jointly 
+and implicity by a system of eight axioms, which permitted the proofs 
+of several intuitively satisfying theorems. The present paper on 
+computational linguistics is a preliminary report which describes 
+some computer programs that have been used to investigate the extent 
+to which those axioms model an existing dictionary of synonyms and 
+antonyms \[9\]. A set of computer programs is discussed that (i) input 
+the dictionary data concerning synonyms and antonyms, (2) create a 
+data structure in core memory to permit the manipulation of data, 
+(3) query this data structure about words and relations, and (4) out- 
+put the answers to queries or the entire data structure, if desired. 
+Some examples of computer output are also given to indicate present 
+directions of the computer-aided research. 
+*This research was supported in part by the Office of Naval 
+Research under Contract N00014-67-A-0239-0004. 
+i. 

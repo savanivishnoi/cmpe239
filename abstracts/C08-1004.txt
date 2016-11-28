@@ -1,0 +1,19 @@
+
+This paper addresses the fundamental
+problem of document classification, and
+we focus attention on classification prob-
+lems where the classes are mutually exclu-
+sive. In the course of the paper we advo-
+cate an approximate sampling distribution
+for word counts in documents, and demon-
+strate the model?s capacity to outperform
+both the simple multinomial and more re-
+cently proposed extensions on the classifi-
+cation task. We also compare the classi-
+fiers to a linear SVM, and show that pro-
+vided certain conditions are met, the new
+model allows performance which exceeds
+that of the SVM and attains amongst the
+very best published results on the News-
+groups classification task.
+1 

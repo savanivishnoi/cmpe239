@@ -1,0 +1,16 @@
+
+We investigate the utility of supertag infor-
+mation for guiding an existing dependency
+parser of German. Using weighted con-
+straints to integrate the additionally avail-
+able information, the decision process of
+the parser is influenced by changing its
+preferences, without excluding alternative
+structural interpretations from being con-
+sidered. The paper reports on a series of
+experiments using varying models of su-
+pertags that significantly increase the pars-
+ing accuracy. In addition, an upper bound
+on the accuracy that can be achieved with
+perfect supertags is estimated.
+1 

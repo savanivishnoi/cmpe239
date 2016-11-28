@@ -1,0 +1,22 @@
+
+We present a novel approach for multilin-
+gual document clustering using only com-
+parable corpora to achieve cross-lingual
+semantic interoperability. The method
+models document collections as weighted
+graph, and supervisory information is
+given as sets of must-linked constraints for
+documents in different languages. Recur-
+sive k-nearest neighbor similarity propa-
+gation is used to exploit the prior knowl-
+edge and merge two language spaces.
+Spectral method is applied to find the best
+cuts of the graph. Experimental results
+show that using limited supervisory in-
+formation, our method achieves promis-
+ing clustering results. Furthermore, since
+the method does not need any language
+dependent information in the process, our
+algorithm can be applied to languages in
+various alphabetical systems.
+1 

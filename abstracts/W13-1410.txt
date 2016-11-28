@@ -1,0 +1,27 @@
+
+Stylometric analysis of prose is typically lim-
+ited to classification tasks such as authorship
+attribution. Since the models used are typi-
+cally black boxes, they give little insight into
+the stylistic differences they detect. In this
+paper, we characterize two prose genres syn-
+tactically: chick lit (humorous novels on the
+challenges of being a modern-day urban fe-
+male) and high literature. First, we develop
+a top-down computational method based on
+existing literary-linguistic theory. Using an
+off-the-shelf parser we obtain syntactic struc-
+tures for a Dutch corpus of novels and measure
+the distribution of sentence types in chick-lit
+and literary novels. The results show that liter-
+ature contains more complex (subordinating)
+sentences than chick lit. Secondly, a bottom-up
+analysis is made of specific morphological and
+syntactic features in both genres, based on the
+parser?s output. This shows that the two gen-
+res can be distinguished along certain features.
+Our results indicate that detailed insight into
+stylistic differences can be obtained by com-
+bining computational linguistic analysis with
+literary theory.
+1 

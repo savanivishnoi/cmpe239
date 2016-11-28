@@ -1,0 +1,23 @@
+ 
+In this paper, we propose a practical 
+method to detect Japanese homophone 
+errors in Japanese texts. It is very 
+important o detect homophone rrors 
+in Japanese revision systems because 
+Japanese texts suffer from homophone 
+errors frequently. In order to detect ho- 
+mophone errors, we have only to solve 
+the homophone problem. We can use the 
+decision list to do it because the homo- 
+phone problem is equivalent to the word 
+sense disambiguation problem. However, 
+the homophone problem is different from 
+the word sense disambiguation problem 
+because the former can use the written 
+word but the latter cannot. In this pa- 
+per, we incorporate the written word into 
+the original decision list by obtaining the 
+identifying strength of the written word. 
+The improved ecision list can raise the 
+F-measure of error detection. 
+1 

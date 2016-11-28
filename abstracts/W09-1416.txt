@@ -1,0 +1,14 @@
+
+We introduce a supervised approach for ex-
+tracting bio-molecular events by using linguis-
+tic features that represent the contexts of the
+candidate event triggers and participants. We
+use Support Vector Machines as our learning
+algorithm and train separate models for event
+types that are described with a single theme
+participant, multiple theme participants, or a
+theme and a cause participant. We perform ex-
+periments with linear kernel and edit-distance
+based kernel and report our results on the
+BioNLP?09 Shared Task test data set.
+1 

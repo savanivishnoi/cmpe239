@@ -1,0 +1,21 @@
+ 
+Multilevel semantics has been proposed as a 
+powerful architecture for semantic analysis. We 
+propose a methodology that, while maintaining the 
+generality of the multilevel approach, is able to 
+establish formal constraints over the possible ways 
+to organize the level hierarchy. More precisely, we 
+propose a "strong" version of the multilevel 
+approach in which a level can be defined if and only 
+if it is possible to characterize a "meaningfulness" 
+notion peculiar to that level. Within such an 
+architecture each level reached uring the analysis 
+computes its meaningfulness value; this result is 
+then handled according to modalities that are peculiar 
+to that level. 
+The component described in this paper was 
+designed to be portable with respect to the 
+application domain and so far has been tested as the 
+semantic analysis component of two multimedial 
+dialog systems, ALFresco and MAIA. 
+1. 

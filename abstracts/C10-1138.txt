@@ -1,0 +1,24 @@
+
+In this paper we investigate the challenges
+of applying statistical machine translation
+to meeting conversations, with a particu-
+lar view towards analyzing the importance
+of modeling contextual factors such as the
+larger discourse context and topic/domain
+information on translation performance.
+We describe the collection of a small cor-
+pus of parallel meeting data, the develop-
+ment of a statistical machine translation
+system in the absence of genre-matched
+training data, and we present a quantita-
+tive analysis of translation errors result-
+ing from the lack of contextual modeling
+inherent in standard statistical machine
+translation systems. Finally, we demon-
+strate how the largest source of translation
+errors (lack of topic/domain knowledge)
+can be addressed by applying document-
+level, unsupervised word sense disam-
+biguation, resulting in performance im-
+provements over the baseline system.
+1 

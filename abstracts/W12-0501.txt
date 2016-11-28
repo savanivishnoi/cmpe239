@@ -1,0 +1,26 @@
+
+Numerous sentiment analysis applications
+make usage of a sentiment lexicon. In
+this paper we present experiments on hy-
+brid sentiment lexicon acquisition. The ap-
+proach is corpus-based and thus suitable
+for languages lacking general dictionary-
+based resources. The approach is a hy-
+brid two-step process that combines semi-
+supervised graph-based algorithms and su-
+pervised models. We evaluate the perfor-
+mance on three tasks that capture differ-
+ent aspects of a sentiment lexicon: polar-
+ity ranking task, polarity regression task,
+and sentiment classification task. Exten-
+sive evaluation shows that the results are
+comparable to those of a well-known senti-
+ment lexicon SentiWordNet on the polarity
+ranking task. On the sentiment classifica-
+tion task, the results are also comparable to
+SentiWordNet when restricted to monosen-
+timous (all senses carry the same senti-
+ment) words. This is satisfactory, given the
+absence of explicit semantic relations be-
+tween words in the corpus.
+1 

@@ -1,0 +1,23 @@
+
+In this paper, we focus on the task of gen-
+erating elliptic sentences. We extract from
+the data provided by the Surface Realisa-
+tion (SR) Task (Belz et al, 2011) 2398 in-
+put whose corresponding output sentence
+contain an ellipsis. We show that 9% of the
+data contains an ellipsis and that both cov-
+erage and BLEU score markedly decrease
+for elliptic input (from 82.3% coverage for
+non-elliptic sentences to 65.3% for ellip-
+tic sentences and from 0.60 BLEU score
+to 0.47). We argue that elided material
+should be represented using phonetically
+empty nodes and we introduce a set of
+rewrite rules which permits adding these
+empty categories to the SR data. Finally,
+we evaluate an existing surface realiser on
+the resulting dataset. We show that, after
+rewriting, the generator achieves a cover-
+age of 76% and a BLEU score of 0.74 on
+the elliptical data.
+1 

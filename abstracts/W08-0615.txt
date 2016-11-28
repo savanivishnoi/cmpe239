@@ -1,0 +1,12 @@
+ 
+We present a comparative study between 
+two machine learning methods, Conditional 
+Random Fields and Support Vector Ma-
+chines for clinical named entity recognition. 
+We explore their applicability to clinical 
+domain. Evaluation against a set of gold 
+standard named entities shows that CRFs 
+outperform SVMs. The best F-score with 
+CRFs is 0.86 and for the SVMs is 0.64 as 
+compared to a baseline of 0.60. 
+1 

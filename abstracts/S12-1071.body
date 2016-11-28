@@ -1,0 +1,16 @@
+
+We describe a system proposed for measuring
+the degree of relational similarity beetwen a
+pair of words at the Task #2 of Semeval 2012.
+The approach presented is based on a vec-
+torial representation using the following fea-
+tures: i) the context surrounding the words
+with a windows size = 3, ii) knowledge ex-
+tracted from WordNet to discover several se-
+mantic relationships, such as meronymy, hy-
+ponymy, hypernymy, and part-whole between
+pair of words, iii) the description of the pairs
+with their POS tag, morphological informa-
+tion (gender, person), and iv) the average num-
+ber of words separating the two words in text.
+1 

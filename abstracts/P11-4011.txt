@@ -1,0 +1,19 @@
+
+Virtual instructors can be used in several ap-
+plications, ranging from trainers in simulated
+worlds to non player characters for virtual
+games. In this paper we present a novel
+algorithm for rapidly prototyping virtual in-
+structors from human-human corpora without
+manual annotation. Automatically prototyp-
+ing full-fledged dialogue systems from cor-
+pora is far from being a reality nowadays. Our
+algorithm is restricted in that only the virtual
+instructor can perform speech acts while the
+user responses are limited to physical actions
+in the virtual world. We evaluate a virtual in-
+structor, generated using this algorithm, with
+human users. We compare our results both
+with human instructors and rule-based virtual
+instructors hand-coded for the same task.
+1 

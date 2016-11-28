@@ -1,0 +1,24 @@
+
+Mistranslation of an ambiguous word can have
+a large impact on the understandability of a
+given sentence. In this article, we describe
+a thorough evaluation of the translation qual-
+ity of ambiguous nouns in three different se-
+tups. We compared two statistical Machine
+Translation systems and one dedicated Word
+Sense Disambiguation (WSD) system. Our
+WSD system incorporates multilingual infor-
+mation and is independent from external lex-
+ical resources. Word senses are derived auto-
+matically from word alignments on a parallel
+corpus. We show that the two WSD classifiers
+that were built for these experiments (English?
+French and English?Dutch) outperform the
+SMT system that was trained on the same cor-
+pus. This opens perspectives for the integra-
+tion of our multilingual WSD module in a sta-
+tistical Machine Translation framework, in or-
+der to improve the automated translation of
+ambiguous words, and by consequence make
+the translation output more understandable.
+1 

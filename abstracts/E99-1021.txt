@@ -1,0 +1,25 @@
+ 
+In this paper we present an approach to 
+automatic authorship attribution dealing 
+with real-world (or unrestricted) text. 
+Our method is based on the 
+computational analysis of the input text 
+using a text-processing tool. Besides the 
+style markers relevant o the output of 
+this tool we also use analysis-dependent 
+style markers, that is, measures that 
+represent the way in which the text has 
+been processed. No word frequency 
+counts, nor other lexically-based 
+measures are taken into account. We 
+show that the proposed set of style 
+markers is able to distinguish texts of 
+various authors of a weekly newspaper 
+using multiple regression. All the 
+experiments we present were performed 
+using real-world text downloaded from 
+the World Wide Web. Our approach is 
+easily trainable and fully-automated 
+requiring no manual text preprocessing 
+nor sampling. 
+1 

@@ -1,0 +1,21 @@
+
+In many languages the use of compound
+words is very productive. A common practice
+to reduce sparsity consists in splitting com-
+pounds in the training data. When this is done,
+the system incurs the risk of translating com-
+ponents in non-consecutive positions, or in the
+wrong order. Furthermore, a post-processing
+step of compound merging is required to re-
+construct compound words in the output. We
+present a method for increasing the chances
+that components that should be merged are
+translated into contiguous positions and in the
+right order. We also propose new heuristic
+methods for merging components that outper-
+form all known methods, and a learning-based
+method that has similar accuracy as the heuris-
+tic method, is better at producing novel com-
+pounds, and can operate with no background
+linguistic resources.
+1 

@@ -1,0 +1,26 @@
+
+Automatic error detection is desired in
+the post-processing to improve machine
+translation quality. The previous work is
+largely based on confidence estimation us-
+ing system-based features, such as word
+posterior probabilities calculated from N -
+best lists or word lattices. We propose to
+incorporate two groups of linguistic fea-
+tures, which convey information from out-
+side machine translation systems, into er-
+ror detection: lexical and syntactic fea-
+tures. We use a maximum entropy clas-
+sifier to predict translation errors by inte-
+grating word posterior probability feature
+and linguistic features. The experimen-
+tal results show that 1) linguistic features
+alone outperform word posterior probabil-
+ity based confidence estimation in error
+detection; and 2) linguistic features can
+further provide complementary informa-
+tion when combined with word confidence
+scores, which collectively reduce the clas-
+sification error rate by 18.52% and im-
+prove the F measure by 16.37%.
+1 

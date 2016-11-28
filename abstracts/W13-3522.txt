@@ -1,0 +1,21 @@
+
+The use of pivot languages and word-
+alignment techniques over bilingual cor-
+pora has proved an effective approach for
+extracting paraphrases of words and short
+phrases. However, inherent ambiguities in
+the pivot language(s) can lead to inade-
+quate paraphrases. We propose a novel ap-
+proach that is able to extract paraphrases
+by pivoting through multiple languages
+while discriminating word senses in the in-
+put language, i.e., the language to be para-
+phrased. Text in the input language is an-
+notated with ?senses? in the form of for-
+eign phrases obtained from bilingual par-
+allel data and automatic word-alignment.
+This approach shows 62% relative im-
+provement over previous work in generat-
+ing paraphrases that are judged both more
+accurate and more fluent.
+1 

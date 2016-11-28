@@ -1,0 +1,23 @@
+
+This paper presents a framework for au-
+tomatically processing information com-
+ing from community Question Answering
+(cQA) portals with the purpose of gen-
+erating a trustful, complete, relevant and
+succinct summary in response to a ques-
+tion. We exploit the metadata intrinsically
+present in User Generated Content (UGC)
+to bias automatic multi-document summa-
+rization techniques toward high quality in-
+formation. We adopt a representation of
+concepts alternative to n-grams and pro-
+pose two concept-scoring functions based
+on semantic overlap. Experimental re-
+sults on data drawn from Yahoo! An-
+swers demonstrate the effectiveness of our
+method in terms of ROUGE scores. We
+show that the information contained in the
+best answers voted by users of cQA por-
+tals can be successfully complemented by
+our method.
+1 

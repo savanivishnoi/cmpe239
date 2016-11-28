@@ -1,0 +1,26 @@
+
+English-Thai MT systems are nowadays re-
+stricted by incomplete vocabularies and trans-
+lation knowledge. Users must consequently ac-
+cept only one translation result that is some-
+times semantically divergent or ungrammatical.
+With the according reason, we propose novel
+Internet-based translation assistant software in
+order to facilitate document translation from
+English to Thai. In this project, we utilize
+the structural transfer model as the mechanism.
+This project differs from current English-Thai
+MT systems in the aspects that it empowers the
+users to manually select the most appropriate
+translation from every possibility and to manu-
+ally train new translation rules to the system if
+it is necessary. With the applied model, we over-
+come four translation problems?lexicon rear-
+rangement, structural ambiguity, phrase trans-
+lation, and classifier generation. Finally, we
+started the system evaluation with 322 ran-
+domly selected sentences on the Future Mag-
+azine bilingual corpus and the system yielded
+59.87% and 83.08% translation accuracy for the
+best case and the worse case based on 90.1%
+average precision of the parser.

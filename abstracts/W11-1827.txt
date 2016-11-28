@@ -1,0 +1,23 @@
+
+The second BioNLP Shared Task on Event
+Extraction (BioNLP-ST?11) follows up the
+previous shared task competition with a focus
+on generalization with respect to text types,
+event types and subject domains. In this spirit,
+we re-engineered and extended our event ex-
+traction system, emphasizing linguistic gener-
+alizations and avoiding domain-, event type-
+or text type-specific optimizations. Similar
+to our earlier system, syntactic dependencies
+form the basis of our approach. However, di-
+verging from that system?s more pragmatic na-
+ture, we more clearly distinguish the shared
+task concerns from a general semantic com-
+position scheme, that is based on the no-
+tion of embedding. We apply our methodol-
+ogy to core bio-event extraction and specu-
+lation/negation detection tasks in three main
+tracks. Our results demonstrate that such a
+general approach is viable and pinpoint some
+of its shortcomings.
+1 

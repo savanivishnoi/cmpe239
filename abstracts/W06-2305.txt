@@ -1,0 +1,15 @@
+
+Covering as many phenomena as possible is a
+traditional goal of parser development, but the
+broader a grammar is made, the blunter it may
+become, as rare constructions influence the be-
+haviour on simple sentences that were already
+solved correctly. We observe the effects of in-
+tentionally removing support for specific con-
+structions from a broad-coverage grammar of
+German. We show that accuracy of analysing
+sentences from the NEGRA corpus can be im-
+proved not only for sentences that do not need
+the extra coverage, but even when including
+those that do.
+1 

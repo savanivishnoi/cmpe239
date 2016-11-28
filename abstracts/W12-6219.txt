@@ -1,0 +1,12 @@
+
+Minimum Error Rate Training (MERT) is a
+method for training the parameters of a log-
+linear model. One advantage of this method
+of training is that it can use the large num-
+ber of hypotheses encoded in a translation lat-
+tice as training data. We demonstrate that the
+MERT line optimisation can be modelled as
+computing the shortest distance in a weighted
+finite-state transducer using a tropical polyno-
+mial semiring.
+1 

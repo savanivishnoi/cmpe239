@@ -1,0 +1,23 @@
+
+As the interest in annotated corpora is
+spreading, there is increasing concern with
+using existing language technology for
+corpus processing. In this paper we ex-
+plore the idea of using natural language
+generation systems for corpus annotation.
+Resources for generation systems often fo-
+cus on areas of linguistic variability that
+are under-represented in analysis-directed
+approaches. Therefore, making use of
+generation resources promises some sig-
+nificant extensions in the kinds of anno-
+tation information that can be captured.
+We focus here on exploring the use of
+the KPML (Komet-Penman MultiLingual)
+generation system for corpus annotation.
+We describe the kinds of linguistic infor-
+mation covered in KPML and show the
+steps involved in creating a standard XML
+corpus representation from KPML?s gener-
+ation output.
+1 

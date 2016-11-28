@@ -1,0 +1,15 @@
+ 
+We present a word alignment procedure based 
+on a syntactic dependency analysis of 
+French/English parallel corpora called 
+?alignment by syntactic propagation?. Both 
+corpora are analysed with a deep and robust 
+parser. Starting with an anchor pair consisting 
+of two words which are potential translations 
+of one another within aligned sentences, the 
+alignment link is propagated to the 
+syntactically connected words. The method 
+was tested on two corpora and achieved a 
+precision of 94.3 and 93.1% as well as a recall 
+of 58 and 56%, respectively for each corpus. 
+1 

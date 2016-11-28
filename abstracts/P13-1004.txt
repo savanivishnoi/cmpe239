@@ -1,0 +1,22 @@
+
+Annotating linguistic data is often a com-
+plex, time consuming and expensive en-
+deavour. Even with strict annotation
+guidelines, human subjects often deviate
+in their analyses, each bringing different
+biases, interpretations of the task and lev-
+els of consistency. We present novel tech-
+niques for learning from the outputs of
+multiple annotators while accounting for
+annotator specific behaviour. These tech-
+niques use multi-task Gaussian Processes
+to learn jointly a series of annotator and
+metadata specific models, while explicitly
+representing correlations between models
+which can be learned directly from data.
+Our experiments on two machine trans-
+lation quality estimation datasets show
+uniform significant accuracy gains from
+multi-task learning, and consistently out-
+perform strong baselines.
+1 

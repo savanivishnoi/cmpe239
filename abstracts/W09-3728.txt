@@ -1,0 +1,14 @@
+
+Traditionally, domain ontologies are created manually, based on human experts?
+views on the classes and relations of the domain at hand. We present ongoing
+work on two approaches to the automatic construction of ontologies from a flat
+database of records, and compare them to a manually constructed ontology. The
+latter CIDOC-CRM ontology focusses on the organisation of classes and relations.
+In contrast, the first automatic method, based on machine learning, focuses on the
+mutual predictiveness between classes, while the second automatic method, created
+with the aid of Wikipedia, stresses meaningful relations between classes. The three
+ontologies show little overlap; their differences illustrate that a different focus during
+ontology construction can lead to radically different ontologies. We discuss the
+implications of these differences, and argue that the two alternative ontologies may
+be useful in higher-level information systems such as search engines.
+1 

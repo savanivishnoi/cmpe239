@@ -1,0 +1,19 @@
+
+We introduce DISSECT, a toolkit to
+build and explore computational models
+of word, phrase and sentence meaning
+based on the principles of distributional
+semantics. The toolkit focuses in partic-
+ular on compositional meaning, and im-
+plements a number of composition meth-
+ods that have been proposed in the litera-
+ture. Furthermore, DISSECT can be use-
+ful to researchers and practitioners who
+need models of word meaning (without
+composition) as well, as it supports var-
+ious methods to construct distributional
+semantic spaces, assessing similarity and
+even evaluating against benchmarks, that
+are independent of the composition infras-
+tructure.
+1 

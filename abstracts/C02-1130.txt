@@ -1,0 +1,21 @@
+ 
+ 
+While Named Entity extraction is useful in 
+many natural language applications, the 
+coarse categories that most NE extractors 
+work with prove insufficient for complex 
+applications such as Question Answering and 
+Ontology generation.  We examine one 
+coarse category of named entities, persons, 
+and describe a method for automatically 
+classifying person instances into eight finer-
+grained subcategories.  We present a 
+supervised learning method that considers the 
+local context surrounding the entity as well as 
+more global semantic information derived 
+from topic signatures and WordNet.  We 
+reinforce this method with an algorithm that 
+takes advantage of the presence of entities in 
+multiple contexts. 
+ 
+1. 

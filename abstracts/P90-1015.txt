@@ -1,0 +1,14 @@
+ 
+This paper presents an implemented, psychologically plau- 
+sible parsing model for Government Binding theory gram- 
+mars. I make use of two main ideas: (1) a generaliza- 
+tion of the licensing relations of \[Abney, 1986\] allows for 
+the direct encoding of certain principles of grammar (e.g. 
+Theta Criterion, Case Filter) which drive structure build- 
+ing; (2) the working space of the parser is constrained 
+to the domain determined by a Tree Adjoining Grammar 
+elementary tree. All dependencies and constraints are lo- 
+caiized within this bounded structure. The resultant parser 
+operates in linear time and allows for incremental semantic 
+interpretation a d determination f grammaticaiity. 
+1 

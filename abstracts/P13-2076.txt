@@ -1,0 +1,15 @@
+
+Question answering systems have been de-
+veloped for many languages, but most re-
+sources were created for English, which
+can be a problem when developing a sys-
+tem in another language such as French.
+In particular, for question classification,
+no labeled question corpus is available for
+French, so this paper studies the possi-
+bility to use existing English corpora and
+transfer a classification by translating the
+question and their labels. By translating
+the training corpus, we obtain results close
+to a monolingual setting.
+1 

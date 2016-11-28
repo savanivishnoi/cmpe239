@@ -1,0 +1,15 @@
+
+Semantic parsing is a domain-dependent
+process by nature, as its output is defined
+over a set of domain symbols. Motivated
+by the observation that interpretation can
+be decomposed into domain-dependent
+and independent components, we suggest
+a novel interpretation model, which aug-
+ments a domain dependent model with ab-
+stract information that can be shared by
+multiple domains. Our experiments show
+that this type of information is useful and
+can reduce the annotation effort signifi-
+cantly when moving between domains.
+1 

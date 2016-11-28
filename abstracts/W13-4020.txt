@@ -1,0 +1,25 @@
+
+We address the problem of localized error
+detection in Automatic Speech Recognition
+(ASR) output to support the generation of tar-
+geted clarifications in spoken dialogue sys-
+tems. Localized error detection finds specific
+mis-recognized words in a user utterance. Tar-
+geted clarifications, in contrast with generic
+?please repeat/rephrase? clarifications, target
+a specific mis-recognized word in an utter-
+ance (Stoyanchev et al, 2012a) and require
+accurate detection of such words. We extend
+and modify work presented in (Stoyanchev et
+al., 2012b) by experimenting with a new set
+of features for predicting the likelihood of a
+local error in an ASR hypothesis on an un-
+sifted version of the original dataset. We im-
+prove over baseline results, where only ASR-
+generated features are used, by constructing
+optimal feature sets for utterance and word
+mis-recognition prediction. The f-measure for
+identifying incorrect utterances improves by
+2.2% and by 3.9% for identifiying incorrect
+words.
+1 

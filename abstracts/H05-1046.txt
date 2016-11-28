@@ -1,0 +1,26 @@
+ 
+This research is aimed at the problem of 
+disambiguating toponyms (place names) 
+in terms of a classification derived by 
+merging information from two publicly 
+available gazetteers. To establish the dif-
+ficulty of the problem, we measured the 
+degree of ambiguity, with respect to a 
+gazetteer, for toponyms in news. We 
+found that 67.82% of the toponyms found 
+in a corpus that were ambiguous in a gaz-
+etteer lacked a local discriminator in the 
+text. Given the scarcity of human-
+annotated data, our method used unsuper-
+vised machine learning to develop disam-
+biguation rules. Toponyms were 
+automatically tagged with information 
+about them found in a gazetteer. A 
+toponym that was ambiguous in the gazet-
+teer was automatically disambiguated 
+based on preference heuristics. This 
+automatically tagged data was used to 
+train a machine learner, which disambigu-
+ated toponyms in a human-annotated 
+news corpus at 78.5% accuracy.  
+1 

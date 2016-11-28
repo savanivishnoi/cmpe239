@@ -1,0 +1,15 @@
+
+In this paper we investigate polysemous adjectives whose
+meaning varies depending on the nouns they modify
+(e.g., fast). We acquire the meanings of these adjectives
+from a large corpus and propose a probabilistic model
+which provides a ranking on the set of possible interpre-
+tations. We identify lexical semantic information auto-
+matically by exploiting the consistent correspondences
+between surface syntactic cues and lexical meaning.
+We evaluate our results against paraphrase judgments
+elicited experimentally from humans and show that the
+model?s ranking of meanings correlates reliably with hu-
+man intuitions: meanings that are found highly probable
+by the model are also rated as plausible by the subjects.
+1 

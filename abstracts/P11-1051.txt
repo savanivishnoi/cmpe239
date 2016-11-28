@@ -1,0 +1,20 @@
+
+In citation-based summarization, text written
+by several researchers is leveraged to identify
+the important aspects of a target paper. Previ-
+ous work on this problem focused almost ex-
+clusively on its extraction aspect (i.e. selecting
+a representative set of citation sentences that
+highlight the contribution of the target paper).
+Meanwhile, the fluency of the produced sum-
+maries has been mostly ignored. For exam-
+ple, diversity, readability, cohesion, and order-
+ing of the sentences included in the summary
+have not been thoroughly considered. This re-
+sulted in noisy and confusing summaries. In
+this work, we present an approach for produc-
+ing readable and cohesive citation-based sum-
+maries. Our experiments show that the pro-
+posed approach outperforms several baselines
+in terms of both extraction quality and fluency.
+1 

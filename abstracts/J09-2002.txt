@@ -1,0 +1,958 @@
+ roles defined by Gildea and Jurafsky based on FrameNet. Taken from Gildea and
+Jurafsky (2002).
+agent cause degree experiencer force goal
+instrument location manner null path patient
+percept proposition result source state topic
+162
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Table 8
+Inventory of semantic relations for definition analysis. This inventory is inspired by the roles in
+Table 7 and is primarily based on FrameNet (Fillmore, Wooters, and Baker 2001) and Conceptual
+Graphs (Sowa 1999); it also includes roles based on the PTB and Cyc inventories.
+Relation Description
+accompaniment entity that participates with another entity
+agent entity voluntarily performing an action
+amount quantity used as a measure of some characteristic
+area region in which the action takes place
+category general type or class of which the item is an instance
+cause non-agentive entity that produces an effect
+characteristic general properties of entities
+context background for situation or predication
+direction either spatial source or goal (same as in PTB)
+distance spatial extent of motion
+duration period of time that the situation applies within
+experiencer entity undergoing some (non-voluntary) experience
+goal location that an affected entity ends up in
+instrument entity or resource facilitating event occurrence
+location reference spatial location for situation
+manner property of the underlying process
+means action taken to affect something
+medium setting in which an affected entity is conveyed
+part component of entity or situation
+path trajectory which is neither a source nor a goal
+product entity present at end of event (same as Cyc products)
+recipient recipient of the resource(s)
+resource entity utilized during event (same as Cyc inputs)
+source initial position of an affected entity
+theme entity somehow affected by the event
+time reference time for situation
+tories. Table 8 shows this role inventory along with a description of each case. In
+addition to traditional thematic relations, this includes a few specialization relations,
+which are relevant to definition analysis. For example, characteristic corresponds to the
+general relation from Conceptual Graphs for properties of entities; and category gen-
+eralizes the corresponding FrameNet role, which indicates category type, to subsume
+other FrameNet roles related to categorization (e.g., topic). Note that this inventory is
+not meant to be definitive and has been developed primarily to address mappings from
+FrameNet for the experiments discussed in Section 3.5. Thus, it is likely that additional
+roles will be required when additional sources of semantic relations are incorporated
+(e.g., Cyc). Themappingswere producedmanually by reviewing the role descriptions in
+the FrameNet documentation and checking prepositional usages for each to determine
+which of the common inventory roles might be most relevant. As some of the roles with
+the same name have frame-specific meanings, in a few cases this involved conflicting
+usages (e.g., body-part associated with both area and instrument), which were resolved in
+favor of the more common usage.5
+5 See www.cs.nmsu.edu/~tomohara/cl-prep-article/relation-mapping.html for the mapping,
+covering cases occurring at least 50 times in FrameNet.
+163
+Computational Linguistics Volume 35, Number 2
+3. Preposition Disambiguation
+This section presents the results of our experiments on the disambiguation of relations
+indicated by prepositional phrases. Results are given for PTB, FrameNet, and Factotum.
+The PTB roles are general: For example, for the preposition for, there are six distinctions
+(four, with low-frequency pruning). The PTB role disambiguation experiments thus
+address a coarse form of sense distinction. In contrast, the FrameNet distinctions are
+quite specific: there are 192 distinctions associatedwith for (21 with low-frequency prun-
+ing); and, there are 17 distinctions in Factotum (15 with low-frequency pruning). Our
+FrameNet and Factotum role disambiguation experiments thus address fine-grained
+sense distinctions.
+3.1 Overview
+A straightforward approach for preposition disambiguation would be to use typical
+word-sense disambiguation features, such as the parts-of-speech of surrounding words
+and, more importantly, collocations (e.g., lexical associations). Although this can be
+highly accurate, it tends to overfit the data and to generalize poorly. The latter is of
+particular concern here as the training data is taken from a different genre than the
+application data. For example, the PTB data is from newspaper text (specifically, Wall
+Street Journal), but the lexical acquisition is based on dictionary definitions. We first
+discuss how class-based collocations address this problem and then present the features
+used in the experiments.
+Before getting into technical details, an informal example will be used to motivate
+the use of hypernym collocations. Consider the following purpose role examples, which
+are similar to the first example from the introduction.
+(3) This contention would justify dismissal of these actions onpurpose
+prudential grounds.
+(4) Ramada?s stock rose 87.5 cents onpurpose the news.
+It turns out that grounds and news are often used as the prepositional object in PTB
+when the sense for on is purpose (or reason). Thus, these words would likely be chosen as
+collocations for this sense. However, for the sake of generalization, it would be better to
+choose theWordNet hypernym subject matter, as that subsumes both words. This would
+then allow the following sentence to be recognized as indicating purpose even though
+censurewas not contained in the training data.
+(5) Senator sets hearing onpurpose censure of Bush.
+3.1.1 Class-Based Collocations via Hypernyms. To overcome data sparseness problems, a
+class-based approach is used for the collocations, with WordNet synsets as the source
+of the word classes. (Part-of-speech tags are a popular type of class-based feature used
+in word sense disambiguation (WSD) to capture syntactic generalizations.) Recall that
+the WordNet synset hierarchy can be viewed as a taxonomy of concepts. Therefore, in
+addition to using collocations in the form of other words, we use collocations in the
+form of semantic concepts.
+Word collocation features are derived by making two passes over the training
+data (e.g., ?on? sentences with correct role indicated). The first pass tabulates the
+164
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+co-occurrence counts for each of the context words (i.e., those in a window around the
+target word) paired with the classification value for the given training instance (e.g.,
+the preposition sense from the annotation). These counts are used to derive conditional
+probability estimates of each class value given co-occurrence of the various potential
+collocates. The words exceeding a certain threshold are collected into a list associated
+with the class value, making this a ?bag of words? approach. In the experiments dis-
+cussed below, a potential collocate (coll) is selected whenever the conditional probability
+for the class (C) value exceeds the prior probability by a factor greater than 20%:6
+P(C|coll)? P(C)
+P(C)
+? .20 (1)
+That is, for a given potential collocation word (coll) to be treated as one of the ac-
+tual collocation words, the relative percent change of the class conditional probability
+(P(C|coll)) versus the prior probability for the class value (P(C)) must be 20% or higher.
+The second pass over the training data determines the value for the collocational feature
+of each classification category by checking whether the current context window has any
+of the associated collocation words. Note that for the test data, only the second pass is
+made, using the collocation lists derived from the training data.
+In generalizing this to a class-based approach, the potential collocational words are
+replaced with each of their hypernym ancestors fromWordNet. The adjective hierarchy
+is relatively shallow, so it is augmented by treating is-similar-to as has-hypernym. For
+example, the synset for ?arid? and ?waterless? is linked to the synset for ?dry (vs.
+wet).? Adverbs would be included, but there is no hierarchy for them. Because the co-
+occurring words are not sense-tagged, this is done for each synset serving as a different
+sense of the word. Likewise, in the case of multiple inheritance, each parent synset is
+used. For example, given the co-occurring wordmoney, the counts would be updated as
+if each of the following tokens were seen (grouped by sense).
+1. { medium of exchange#1, monetary system#1, standard#1, criterion#1,
+measure#2, touchstone#1, reference point#1, point of reference#1, ref-
+erence#3, indicator#2, signal#1, signaling#1, sign#3, communication#2,
+social relation#1, relation#1, abstraction#6 }
+2. { wealth#4, property#2, belongings#1, holding#2, material possession#1,
+possession#2 }
+3. { currency#1, medium of exchange#1, monetary system#1, standard#1,
+criterion#1, measure#2, touchstone#1, reference point#1, point of -
+reference#1, reference#3, indicator#2, signal#1, signaling#1, sign#3,
+communication#2, social relation#1, relation#1, abstraction#6 }
+Thus, the word token money is replaced by 41 synset tokens. Then, the same two-pass
+process just described is performed over the text consisting of the replacement tokens.
+Although this introduces noise due to ambiguity, the conditional-probability selection
+scheme (Wiebe, McKeever, and Bruce 1998) compensates by selecting hypernym synsets
+that tend to co-occur with specific roles.
+6 The 20% threshold is a heuristic that is fixed for all experiments. We tested automatic threshold derivation
+for Senseval-3 and found that the optimal percentage differed across training sets. As values near 20%
+were common, it is left fixed rather than adding an additional feature-threshold refinement step.
+165
+Computational Linguistics Volume 35, Number 2
+Note that there is no preference in the system for choosing either specific or general
+hypernyms. Instead, they are inferred automatically based on the word to be disam-
+biguated (i.e., preposition for these experiments). Hypernyms at the top levels of the
+hierarchy are less likely to be chosen, as they most likely occur with different senses for
+the same word (as with relation#1 previously). However, hypernyms at lower levels
+tend not to be chosen, as there might not be enough occurrences due to other co-
+occurring words. For example, wealth#4 is unlikely to be chosen as a collocation for
+the second sense of money, as only a few words map into it, unlike property#2. The
+conditional-probability selection scheme (i.e., Equation (1)) handles this automatically
+without having to encode heuristics about hypernym rank, and so on.
+3.1.2 Classification Experiments. A supervised approach for word-sense disambiguation
+is used following Bruce and Wiebe (1999).
+For each experiment, stratified 10-fold cross validation is used: The classifiers are
+repeatedly trained on 90% of the data and tested on the remainder, with the test sets
+randomly selected to form a partition. The results described here were obtained using
+the settings in Figure 4, which are similar to the settings used by O?Hara et al (2004)
+in the third Senseval competition. The top systems from recent Senseval competitions
+(Mihalcea 2002; Grozea 2004) use a variety of lexical features for WSD. Words in the im-
+mediate context (Word?i) and their parts of speech (POS?i) are standard features. Word
+collocations are also common, but there are various ways of organizing collocations into
+features (Wiebe, McKeever, and Bruce 1998). We use the simple approach of having a
+single binary feature per sense (e.g., role) that is set true whenever any of the associated
+collocation words for that sense are encountered (i.e., per-class-binary).
+The main difference of our approach from more typical WSD systems (Mihalcea,
+Chklovski, and Kilgarriff 2004) concerns the hypernym collocations. The collocation
+context section of Figure 4 shows that word collocations can occur anywhere in the
+sentence, whereas hypernym collocations must occur within five words of the target
+Features:
+Prep: preposition being classified
+POS?i: part-of-speech of word at offset i
+Word?i: stem of word at offset i
+WordCollr: context has word collocation for role r
+HypernymCollr: context has hypernym collocation for role r
+Collocation context:
+Word: anywhere in the sentence
+Hypernym: within 5 words of target preposition
+Collocation selection:
+Frequency: f (word) > 1
+Conditional probability: P(C|coll) ? .50
+Relative percent change: (P(C|coll)? P(C))/P(C) ? .20
+Organization: per-class-binary
+Model selection:
+C4.5 Decision tree via Weka?s J4.8 classifier (Quinlan 1993; Witten and Frank 1999)
+Figure 4
+Feature settings used in preposition classification experiments. Aspects that differ from a typical WSD
+system are italicized.
+166
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+prepositions (i.e., a five-word context window).7 This reduced window size is used
+to make the hypernym collocations more related to the prepositional object and the
+modified term.
+The feature settings in Figure 4 are used in three different configurations: word-
+based collocations alone, hypernym collocations alone, and both collocations together.
+Combining the two types generally produces the best results, because this balances the
+specific clues provided by the word collocations with the generalized clues provided by
+the hypernym collocations.
+Unlike the general case for WSD, the sense inventory is the same for all the words
+being disambiguated; therefore, a single classifier can be produced rather than indi-
+vidual classifiers. This has the advantage of allowing more training data to be used
+in the derivation of the clues indicative of each semantic role. However, if there were
+sufficient annotations for particular preposition, then it would be advantageous to have
+a dedicated classifier. For example, the prior probabilities for the roles would be based
+on the usages for the given preposition. Therefore, we perform experiments illustrating
+the difference when disambiguating prepositions with a single classifier versus the use
+of separate classifiers.
+3.2 Penn Treebank Classification Experiments
+The first set of experiments deals with preposition disambiguation using PTB. When
+deriving training data from PTB via the parse tree annotations, the functional tags as-
+sociated with prepositional phrases are converted into preposition sense tags. Consider
+the following excerpt from the sample annotation for PTB shown earlier:
+(6)
+(S (PP-TMP In (NP 1982)), temporal extent
+(NP-SBJ grammatical subject
+(NP (NP (NP Sports) & (NP Recreation) ?s)
+managers) ...
+Treating temporal as the preposition sense yields the following annotation:
+(7) InTMP 1982, Sports & Recreation?s managers ...
+The relative frequencies of the roles in the PTB annotations for PPs are shown in Ta-
+ble 9. As can be seen, several of the roles do not occur often with PPs (e.g., extent). This
+somewhat skewed distribution makes for an easier classification task than the one for
+FrameNet.
+3.2.1 Illustration with ?at.? As an illustration of the probabilities associated with class-
+based collocations, consider the differences in the prior versus class-based conditional
+probabilities for the semantic roles of the preposition at in the Penn Treebank (ver-
+sion II). Table 10 shows the global probabilities for the roles assigned to at, along with
+7 This window size was chosen after estimating that on average the prepositional objects occur within
+2.3 ? 1.26 words of the preposition and that the average attachment site is within 3.0 ? 2.98 words. These
+figures were produced by analyzing the parse trees for the semantic role annotations in the PTB.
+167
+Computational Linguistics Volume 35, Number 2
+Table 9
+Penn Treebank semantic roles for PPs. Omits low-frequency benefactive relation. Freq. is the relative
+frequency of the role occurrence (36,476 total instances). Example usages are taken from
+the corpus.
+Role Freq. Example
+locative .472 workers at a factory
+temporal .290 expired atmidnight Tuesday
+direction .149 has grown at a sluggish pace
+manner .050 CDs aimed at individual investors
+purpose .030 opened for trading
+extent .008 declined by 14%
+conditional probabilities for these roles given that certain high-level WordNet synsets
+occur in the context. In a context referring to a concrete concept (i.e., entity#1), the
+difference in the probability distributions for the locative and temporal roles shows that
+the locative interpretation becomes even more likely. In contrast, in a context referring
+to an abstract concept (i.e., abstraction#6), the difference in the probability distributions
+for the same roles shows that the temporal interpretation becomes more likely. Therefore,
+these class-based lexical associations capture commonsense usages of the preposition at.
+3.2.2 Results. The classification results for these prepositions in the Penn Treebank show
+that this approach is very effective. Table 11 shows the accuracy when disambiguating
+the 14 prepositions using a single classifier with 6 roles. Table 11 also shows the per-
+class statistics, showing that there are difficulties tagging the manner role (e.g., lowest
+F-score). For the single-classifier case, the overall accuracy is 89.3%, using Weka?s J4.8
+classifier (Witten and Frank 1999), which is an implementation of Quinlan?s (1993) C4.5
+decision tree learner.
+For comparison, Table 12 shows the results for individual classifiers created for the
+prepositions annotated in PTB. A few prepositions only have small data sets, such as
+of which is used more for specialization relations (e.g., category) than thematic ones.
+This table is ordered by entropy, which measures the inherent ambiguity in the classes
+as given by the annotations. Note that the Baseline column is the probability of the most
+frequent sense, which is a common estimate of the lower bound for classification
+Table 10
+Prior and posterior probabilities of roles for ?at? in the Penn Treebank. P(R) is the relative frequency.
+P(R|S) is the probability of the relation given that the synset occurs in the immediate context of
+at. RPCR,S is the relative percentage change: (P(R|S)? P(R))/P(R).
+Synset
+entity#1 abstraction#6
+Relation P(R) P(R|S) RPCR,S P(R|S) RPCR,S
+locative 73.5 75.5 0.03 67.0 ?0.09
+temporal 23.9 22.5 ?0.06 30.6 0.28
+manner 2.0 1.5 ?0.25 2.0 0.00
+direction 0.6 0.4 ?0.33 0.4 ?0.33
+168
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Table 11
+Overall preposition disambiguation results over Penn Treebank roles. A single classifier is used for all
+the prepositions. # Instances is the number of role annotations. # Classes is the number of distinct
+roles. Entropy measures non-uniformity of the role distributions. Baseline is estimated by the
+most-frequent role. The Word Only experiment uses just word collocations, Hypernym Only just
+uses hypernym collocations, and Both uses both types of collocations. Accuracy is average for
+percent correct over ten trials in cross validation. STDEV is the standard deviation over the trials.
+Experiment Accuracy STDEV
+Word Collocations Only 88.1 0.88
+Hypernym Collocations Only 88.2 0.43
+Both Collocations 89.3 0.33
+Data Set Characteristics
+# Instances: 27,308
+# Classes: 6
+Entropy: 1.831
+Baseline: 49.2
+Word Only Hypernym Only Both
+Class Prec. Rec. F Prec. Rec. F Prec. Rec. F
+direction .953 .969 .960 .952 .967 .959 .956 .965 .961
+extent .817 .839 .826 .854 .819 .834 .817 .846 .829
+locative .879 .967 .921 .889 .953 .920 .908 .932 .920
+manner .797 .607 .687 .790 .599 .680 .826 .558 .661
+purpose .854 .591 .695 .774 .712 .740 .793 .701 .744
+temporal .897 .776 .832 .879 .794 .834 .845 .852 .848
+Table 12
+Per-preposition disambiguation results over Penn Treebank roles. A separate classifier is used for each
+preposition, excluding roles with less than 1% relative frequency. Freq gives the preposition
+frequency, and Roles the number of senses. Entropy measures data set uniformity, and Baseline
+selects most common role. The Word and Hypernym columns show results when including just
+word and hypernym collocations respectively, whereas Both includes both types. Each column
+shows averages for percent correct over ten trials. The Mean row averages the values of the
+individual experiments.
+Prep Freq. Roles Entropy Baseline Word Hypernym Both
+through 331 4 1.668 0.438 59.795 62.861 58.592
+by 1290 7 1.575 0.479 87.736 88.231 86.655
+as 220 3 1.565 0.405 95.113 96.377 96.165
+between 87 4 1.506 0.483 77.421 81.032 70.456
+of 30 3 1.325 0.567 63.182 82.424 65.606
+out 76 4 1.247 0.711 70.238 76.250 63.988
+for 1401 6 1.189 0.657 82.444 85.795 80.158
+on 1915 5 1.181 0.679 85.998 88.720 79.428
+in 14321 7 1.054 0.686 86.404 92.647 86.523
+throughout 59 2 0.998 0.525 61.487 35.949 63.923
+at 2825 5 0.981 0.735 84.178 90.265 85.561
+across 78 2 0.706 0.808 75.000 78.750 77.857
+from 1521 5 0.517 0.917 91.649 91.650 91.650
+to 3074 5 0.133 0.985 98.732 98.537 98.829
+Mean 1944.8 4.43 1.12 0.648 80.0 82.1 78.9
+169
+Computational Linguistics Volume 35, Number 2
+experiments. When using preposition-specific classifiers, the hypernym collocations
+surprisingly outperform the other configurations, most likely due to overfitting with
+word-based clues: 82.1% versus 80.0% for the word-only case.
+3.3 FrameNet Classification Experiments
+The second set of experiments perform preposition disambiguation using FrameNet.
+A similar preposition word-sense disambiguation experiment is carried out over the
+FrameNet semantic role annotations involving prepositional phrases. Consider the sam-
+ple annotation shown earlier:
+(8) Hewlett-Packard Co has rolled out a new range of ISDN connectivity
+enabling ?C FE=?Communicator? PT=?NP??standalone workstations?/C?
+to ?C TARGET=?y??communicate?/C? ?C FE=?Medium? PT=?PP??over
+public or private ISDN networks?/C?.
+The prepositional phrase annotation is isolated and treated as the sense of the preposi-
+tion. This yields the following sense annotation:
+(9) Hewlett-Packard Co has rolled out a new range of ISDN connectivity
+enabling standalone workstations to communicate overMedium public or
+private ISDN networks.
+Table 13 shows the distribution of common roles assigned to prepositional phrases. The
+topic role is the most frequent case not directly covered in PTB.
+3.3.1 Illustration with ?at.? See Table 14 for the most frequent roles out of the 124 cases
+that were assigned to at, along with the conditional probabilities for these roles given
+that certain high-level WordNet synsets occur in the context. In a context referring
+to concrete entities, the role place becomes more prominent. However, in an abstract
+context, the role time becomes more prominent. Thus, similar behavior to that noted for
+PTB in Section 3.2.1 occurs with FrameNet.
+3.3.2 Results. Table 15 shows the results of classification when all of the prepositions
+are classified together. Due to the exorbitant number of roles (641), the overall results
+are low. However, the combined collocation approach still shows slight improvement
+(23.3% versus 23.1%). The FrameNet inventory contains many low-frequency relations
+Table 13
+Most common FrameNet semantic roles for PPs. Relative frequencies for roles assigned to
+prepositional phrases in version 1.3 (66,038 instances), omitting cases below 0.01.
+Role Freq. Role Freq. Role Freq.
+goal .092 theme .022 whole .015
+path .071 manner .021 individuals .013
+source .043 area .018 location .012
+topic .040 reason .018 ground .012
+time .037 addressee .017 means .011
+place .033 stimulus .017 content .011
+170
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Table 14
+Prior and posterior probabilities of roles for ?at? in FrameNet. Only the top 5 of 641 applicable roles
+are shown. P(R) is the relative frequency for relation. P(R|S) is the probability of the relation given
+that the synset occurs in the immediate context of at. RPCR,S is the relative percentage change:
+(P(R|S) ? P(R))/P(R).
+Synset
+entity#1 abstraction#6
+Relation P(R) P(R|S) RPCR,S P(R|S) RPCR,S
+place 15.6 19.0 21.8 16.8 7.7
+time 12.0 11.5 ?4.2 15.1 25.8
+stimulus 6.6 5.0 ?24.2 6.6 0.0
+addressee 6.1 4.4 ?27.9 3.3 ?45.9
+goal 5.5 6.3 14.5 6.0 9.1
+Table 15
+Preposition disambiguation with all FrameNet roles. All 641 roles are considered. Entropymeasures
+data set uniformity, and Baseline selects most common role.
+Experiment Accuracy STDEV
+Word Collocations Only 23.078 0.472
+Hypernym Collocations Only 23.206 0.467
+Both Collocations 23.317 0.556
+Data Set Characteristics
+# Instances: 65,550
+# Classes: 641
+Entropy: 6.785
+Baseline: 9.3
+that complicate this type of classification. By filtering out relations that occur in less than
+1% of the role occurrences for prepositional phrases, substantial improvement results,
+as shown in Table 16. Even with filtering, the classification is challenging (e.g., 18 classes
+with entropy 3.82). Table 16 also shows the per-class statistics, indicating that the means
+and place roles are posing difficulties for classification.
+Table 17 shows the results when using individual classifiers, ordered by entropy.
+This illustrates that the role distributions are more complicated than those for PTB,
+yielding higher entropy values on average. In all, there are over 360 prepositions
+with annotations, 92 with ten or more instances each. (Several of the low-frequency
+cases are actually adverbs, such as anywhere, but are treated as prepositions during the
+annotation extraction.) The results show that the word collocations produce slightly
+better results: 67.8 versus 66.0 for combined collocations. Unlike the case with PTB,
+the single-classifier performance is below that of the individual classifiers. This is
+due to the fine-grained nature of the role inventory. When all the roles are considered
+together, prepositions are sometimes being incorrectly classified using roles that have
+not been assigned to them in the training data. This occurs when contextual clues are
+stronger for a commonly used role than for the appropriate one. Given PTB?s small role
+inventory, this problem does not occur in the corresponding experiments.
+3.4 Factotum Classification Experiments
+The third set of experiments deals with preposition disambiguation using Factotum.
+Note that Factotum does not indicate the way the relationships are expressed in English.
+171
+Computational Linguistics Volume 35, Number 2
+Table 16
+Overall results for preposition disambiguation with common FrameNet roles. Excludes roles with less
+than 1% relative frequency. Entropymeasures data set uniformity, and Baseline selects most
+common role. Detailed per-class statistics are also included, averaged over the 10 folds.
+Experiment Accuracy STDEV
+Word Collocations Only 73.339 0.865
+Hypernym Collocations Only 73.437 0.594
+Both Collocations 73.544 0.856
+Data Set Characteristics
+# Instances: 32974
+# Classes: 18
+Entropy: 3.822
+Baseline: 18.4
+Word Only Hypernym Only Both
+Class Prec. Rec. F Prec. Rec. F Prec. Rec. F
+addressee .785 .332 .443 .818 .263 .386 .903 .298 .447
+area .618 .546 .578 .607 .533 .566 .640 .591 .613
+content .874 .618 .722 .895 .624 .734 .892 .639 .744
+goal .715 .766 .739 .704 .778 .739 .703 .790 .743
+ground .667 .386 .487 .684 .389 .494 .689 .449 .541
+individuals .972 .947 .959 .961 .945 .953 .938 .935 .936
+location .736 .524 .610 .741 .526 .612 .815 .557 .660
+manner .738 .484 .584 .748 .481 .584 .734 .497 .591
+means .487 .449 .464 .562 .361 .435 .524 .386 .441
+path .778 .851 .812 .777 .848 .811 .788 .849 .817
+place .475 .551 .510 .483 .549 .513 .474 .576 .519
+reason .803 .767 .784 .777 .773 .774 .769 .714 .738
+source .864 .980 .918 .865 .981 .919 .860 .978 .915
+stimulus .798 .798 .797 .795 .809 .802 .751 .752 .750
+theme .787 .811 .798 .725 .847 .779 .780 .865 .820
+time .585 .665 .622 .623 .687 .653 .643 .690 .664
+topic .831 .836 .833 .829 .842 .835 .856 .863 .859
+whole .818 .932 .871 .807 .932 .865 .819 .941 .875
+Similarly, WordNet does not indicate this, but it does include definition glosses. For
+example,
+(10)
+Factotum:
+?drying, is-function-of , drier?
+WordNet:
+dryalter remove the moisture from and make dry
+dryerappliance an appliance that removes moisture
+These definition glosses might be useful in certain cases for inferring the relation markers
+(i.e., generalized case markers). As is, Factotum cannot be used to provide training data
+for learning how the relations are expressed in English. This contrasts with corpus-
+based annotations, such as PTB (Marcus et al 1994) and FrameNet (Fillmore, Wooters,
+and Baker 2001), where the relationships are marked in context.
+3.4.1 Inferring Semantic Role Markers. To overcome the lack of context in Factotum, the
+relation markers are inferred through corpus checks, in particular through proximity
+searches involving the source and target terms from the relationship (i.e., ?source,
+172
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Table 17
+Per-preposition disambiguation results over FrameNet roles. A separate classifier is used for each
+preposition, excluding roles with less than 1% relative frequency. Freq gives the preposition
+frequency, and Roles the number of senses. Entropy measures data set uniformity, and Baseline
+selects most common role. The Word and Hypernym columns show results when including just
+word and hypernym collocations, respectively, whereas Both includes both types. Each column
+shows averages for percent correct over ten trials. The Mean row averages the values of the
+individual experiments.
+Prep Freq. Roles Entropy Baseline Word Hypernym Both
+with 3758 25 4.201 19.6 59.970 57.809 61.924
+of 7339 22 4.188 12.8 85.747 84.663 85.965
+between 675 23 4.166 11.4 61.495 56.215 53.311
+under 286 26 4.045 25.5 29.567 33.040 33.691
+against 557 26 4.028 21.2 53.540 58.885 31.892
+for 2678 22 3.988 22.6 58.135 58.839 39.809
+by 3348 18 3.929 13.6 62.618 60.854 61.152
+on 3579 22 3.877 18.1 61.011 57.671 60.838
+at 2685 21 3.790 21.2 61.814 58.501 57.630
+in 6071 18 3.717 18.7 54.253 49.953 53.880
+as 1123 17 3.346 27.1 53.585 47.186 42.722
+to 4741 17 3.225 36.6 71.963 77.751 72.448
+behind 254 13 3.222 22.8 47.560 41.045 43.519
+over 1157 16 3.190 27.8 47.911 48.548 50.337
+after 349 16 2.837 45.8 62.230 65.395 61.944
+around 772 15 2.829 45.1 52.463 52.582 49.357
+from 3251 14 2.710 51.2 73.268 71.934 75.423
+round 389 12 2.633 34.7 46.531 50.733 49.393
+into 1923 14 2.208 62.9 79.175 77.366 80.846
+during 242 10 2.004 63.6 71.067 75.200 68.233
+like 570 9 1.938 62.3 82.554 79.784 85.666
+through 1358 10 1.905 66.0 77.800 77.798 79.963
+up 745 10 1.880 60.3 76.328 76.328 74.869
+off 647 9 1.830 63.8 90.545 86.854 90.423
+out 966 8 1.773 60.7 77.383 79.722 78.671
+across 894 11 1.763 67.6 80.291 80.095 80.099
+towards 673 10 1.754 67.9 65.681 71.171 65.517
+down 965 7 1.600 63.2 81.256 81.466 79.141
+along 723 9 1.597 72.5 87.281 86.862 86.590
+about 1894 8 1.488 72.2 83.214 76.663 83.899
+back 405 7 1.462 64.7 88.103 91.149 86.183
+past 275 9 1.268 78.9 85.683 86.423 85.573
+Mean 1727.9 14.8 2.762 43.8 67.813 67.453 65.966
+relation, target?). For example, using AltaVista?s Boolean search,8 this can be done via
+?source NEAR target.?
+Unfortunately, this technique would require detailed post-processing of the Web
+search results, possibly including parsing, in order to extract the patterns. As an ex-
+pedient, common prepositions9 are included in a series of proximity searches to find
+8 AltaVista?s Boolean search is available at www.altavista.com/sites/search/adv.
+9 The common prepositions are determined from the prepositional phrases assigned functional
+annotations in the Penn Treebank (Marcus et al 1994).
+173
+Computational Linguistics Volume 35, Number 2
+the preposition occurring most frequently with the given terms. For instance, given the
+relationship ?drying, is-function-of, drier?, the following searches would be performed.
+(11) drying NEAR drier NEAR in
+drying NEAR drier NEAR to
+...
+drying NEAR drier NEAR ?around?
+To account for prepositions that occur frequently (e.g., of ), pointwise mutual infor-
+mation (MI) statistics (Manning and Schu?tze 1999, pages 66?68) are used in place of the
+raw frequency when rating the potential markers. These are calculated as follows:
+MIprep = log2
+P(X,Y)
+P(X)? P(Y)
+? log2
+f (source NEAR target NEAR prep)
+f (source NEAR target)? f (prep)
+(2)
+Such checks are done for the 25 most common prepositions to find the preposition
+yielding the highest mutual information score. For example, the top three markers for
+the ?drying, is-function-of, drier? relationship based on this metric are during, after, and
+with.
+3.4.2 Method for Classifying Functional Relations. Given the functional relationships in
+Factotum along with the inferred relation markers, machine-learning algorithms can
+be used to infer what relation most likely applies to terms occurring together with a
+particular marker. Note that the main purpose of including the relation markers is to
+provide clues for the particular type of relation. Because the source term and target
+terms might occur in other relationships, associations based on them alone might not
+be as accurate. In addition, the inclusion of these clue words (e.g., the prepositions)
+makes the task closer to what would be done in inferring the relations from free text.
+The task thus approximates preposition disambiguation, using the Factotum relations
+as senses.
+Figure 5 gives the feature settings used in the experiments. This is a version of
+the feature set used in the PTB and FrameNet experiments (see Figure 4), simplified to
+account for the lack of sentential context. Figure 6 contains sample feature specifications
+from the experiments discussed in the next section. The top part shows the original
+relationships from Factotum; the first example indicates that connaturalize causes simi-
+larity. Also included is the most likely relation marker inferred for each instance. This
+shows that ?n/a? is used whenever a preposition for a particular relationship cannot be
+inferred. This happens in the first example because connaturalize is a rare term.
+The remaining parts of Figure 6 illustrate the feature values that would be derived
+for the three different experiment configurations, based on the inclusion of word and/or
+hypernym collocations. In each case, the classification variable is given by relation.
+For brevity, the feature specification only includes collocation features for the most
+frequent relations. Sample collocations are also shown for the relations (e.g., vulgar-
+ity for is-caused-by). In the word collocation case, the occurrence of similarity is used
+to determine that the is-caused-by feature (WC1) should be positive (i.e., ?1?) for the
+first two instances. Note that there is no corresponding hypernym collocation due to
+conditional probability filtering. In addition, although new is not included as a word
+collocation, one of its hypernyms, namely Adj:early#2, is used to determine that the
+has-consequence feature (HC3) should be positive in the last instance.
+174
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Context:
+Source and target terms from relationship (?source, relation, target?)
+Features:
+POSsource: part-of-speech of the source term
+POStarget: part-of-speech of the target term
+Prep: preposition serving as relation marker (?n/a? if not inferable)
+WordCollr: 1 iff context contains any word collocation for relation r
+HypernymCollr: 1 iff context contains any hypernym collocation for relation r
+Collocation selection:
+Frequency: f (word) > 1
+Relative percent change: (P(C|coll)? P(C))/P(C) ? .20
+Organization: per-class-binary grouping
+Model selection:
+Decision tree using Weka?s J4.8 classifier (Witten and Frank 1999)
+Figure 5
+Features used in Factotum role classification experiments. Simplified version of Figure 4: Context
+only consists of the source and target terms.
+3.4.3 Results. To make the task more similar to the PTB and FrameNet cases covered
+previously, only the functional relations in Factotum are used. These are determined
+by removing the hierarchical relations (e.g., has-subtype and has-part) along with the
+attribute relations (e.g., is-property-of ). In addition, in cases where there are inverse
+functions (e.g., causes and is-caused-by), the most frequently occurring relation of each
+inverse pair is used. This is done because the relation marker inference approach does
+not account for argument order. The boldface relations in the listing shown earlier in
+Table 5 are those used in the experiment. Only single-word source and target terms are
+considered to simplify the WordNet hypernym lookup (i.e., no phrasals). The resulting
+data set has 5,959 training instances. The data set alo includes the inferred relation
+markers (e.g., one preposition per training instance), thus introducing some noise.
+Figure 6 includes a few examples from this data set. This shows that the original
+relationship ?similarity, is-caused-by, rhyme? from Factotum is augmented with the
+by marker prior to classification. Again, these markers are inferred via Web searches
+involving the terms from the original relationship.
+Table 18 shows the results of the classification. The combined use of both collocation
+types achieves the best overall accuracy at 71.2%, which is good considering that the
+baseline of always choosing the most common relation (is-caused-by) is 24.2%. This com-
+bination generalizes well by using hypernym collocations, while retaining specificity
+via word collocations. The classification task is difficult, as suggested by the number
+of classes, entropy, and baseline values all being comparable to the filtered FrameNet
+experiment (see Table 16).
+3.5 Common Relation Inventory Classification Experiments
+The last set of experiments investigate preposition disambiguation using FrameNet
+mapped into a reduced semantic role inventory. For the application to lexical acqui-
+sition, the semantic role annotations are converted into the common relation inventory
+discussed in Section 2.5. To apply the common inventory to the FrameNet data, anno-
+tations using the 641 FrameNet relations (see Table 2) need to be mapped into those
+175
+Computational Linguistics Volume 35, Number 2
+Relationships from Factotum with inferred markers:
+Relationship Marker
+?similarity, is-caused-by, connaturalize? n/a
+?similarity, is-caused-by, rhyme? by
+?approximate, has-consequence, imprecise? because
+?new, has-consequence, patented? with
+Word collocations only:
+Relation POSs POSt Prep WC1 WC2 WC3 WC4 WC5 WC6 WC7
+is-caused-by NN VB n/a 1 0 0 0 0 0 0
+is-caused-by NN NN by 1 0 0 0 0 0 0
+has-consequence NN JJ because 0 0 0 0 0 0 0
+has-consequence JJ VBN with 0 0 0 0 0 0 0
+Sample collocations:
+is-caused-by {bitterness, evildoing, monochrome, similarity, vulgarity}
+has-consequence {abrogate, frequently, insufficiency, nonplus, ornament}
+Hypernym collocations only:
+Relation POSs POSt Prep HC1 HC2 HC3 HC4 HC5 HC6 HC7
+is-caused-by NN VB n/a 0 0 0 0 0 0 0
+is-caused-by NN NN by 0 0 0 0 0 0 0
+has-consequence NN JJ because 0 0 0 0 0 0 0
+has-consequence JJ VBN with 0 0 1 0 0 0 0
+Sample collocations:
+is-caused-by {N:hostility#3, N:inelegance#1, N:humorist#1}
+has-consequence {V:abolish#1, Adj:early#2, N:inability#1, V:write#2}
+Both collocations:
+Relation POSs POSt Prep WC1 ... WC7 HC1 HC2 HC3 ...
+is-caused-by NN VB n/a 1 ... 0 0 0 0 ...
+is-caused-by NN NN by 1 ... 0 0 0 0 ...
+has-consequence NN JJ because 0 ... 0 0 0 0 ...
+has-consequence JJ VBN with 0 ... 0 0 0 1 ...
+Legend:
+POSs & POSt are the parts of speech for the source and target terms; and
+WCr & HCr are the word and hypernym collocations as follows:
+1. is-caused-by 2. is-function-of 3. has-consequence 4. has-result
+5. is-caused-bymental 6. is-performed-by 7. uses
+Figure 6
+Sample feature specifications for Factotum experiments. Each relationship from Factotum is
+augmented with one relational marker inferred via Web searches, as shown at top of figure.
+Three distinct sets of feature vectors are shown based on the type of collocation included,
+omitting features for low-frequency relations.
+176
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+Table 18
+Functional relation classification over Factotum. This uses the relational source and target terms
+with inferred prepositions. The accuracy figures are averages based on 10-fold cross validation.
+The gain in accuracy for the combined experiment versus the word experiment is statistically
+significant at p < .01 (via a paired t-test).
+Experiment Accuracy STDEV
+Word Collocations Only 68.4 1.28
+Hypernym Collocations Only 53.9 1.66
+Both Collocations 71.2 1.78
+Data Set Characteristics
+# Instances: 5,959
+# Classes: 21
+Entropy: 3.504
+Baseline: 24.2
+using the 26 common relations shown in Table 8. Results for the classification of the
+FrameNet data mapped into the common inventory are shown in Table 19. As can
+be seen, the performance is well above that of the full classification over FrameNet
+without filtering (see Table 15). Although the low-frequency role filtering yields the
+highest performance (see Table 16), this comes at the expense of having half of the
+training instances discarded. Corpus annotations are a costly resource, so such waste
+is undesirable. Table 19 also shows the per-class statistics, indicating that the means,
+direction, and part roles are handled poorly by the classifier. The latter two are due to the
+relatively small training examples for the roles in question, which can be addressed
+partly by refining the mapping from FrameNet. However, problems classifying the
+means role occur with all classifiers discussed in this article, suggesting that that role
+is too subtle to be classified with the feature set currently used.
+The results in Table 19 also illustrate that the reduced, common-role inventory has
+an additional advantage of improving performance in the classification, compared to a
+cascaded approach. This occurs because several of the miscellaneous roles in FrameNet
+cover subtle distinctions that are not relevant for definition analysis (e.g., cognizer and
+addressee). The common inventory therefore strikes a balance between the overly general
+roles in PTB, which are easy to classify, and the overly specialized roles in FrameNet,
+which are quite difficult to classify. Nonetheless, a certain degree of classification diffi-
+culty is inevitable in order for the inventory to provide adequate coverage of the dif-
+ferent distinctions present in dictionary definitions. Note that, by using the annotations
+from PTB and FrameNet, the end result is a general-purpose classifier, not one tied into
+dictionary text. Thus, it is useful for other tasks besides definition analysis.
+This classifier was used to disambiguate prepositions in the lexical acquisition
+system we developed at NMSU (O?Hara 2005). Evaluation of the resulting distinctions
+was performed by having the output of the system rated by human judges. Manu-
+ally corrected results were also evaluated by the same judges. The overall ratings are
+not high in both cases, suggesting that some of the distinctions being made are subtle.
+For instance, for ?counterintelligence achieved by deleting any information of value?
+from the definition of censoring, means is the preferred role for by, but manner is ac-
+ceptable. Likewise, characteristic is the preferred role for of, but category is interpretable.
+Thus, the judges differed considerably on these cases. However, as the ratings for
+the uncorrected output were close to those for the corrected output, the approach is
+promising to use for lexical acquisition. If desired, the per-role accuracy results shown
+in Table 19 could be incorporated as confidence values assigned to particular relation-
+ships extracted from definitions (e.g., 81% for those with source but only 21% when
+means used).
+177
+Computational Linguistics Volume 35, Number 2
+4. Related Work
+The main contribution of this article concerns the classification methodology (rather
+than the inventories for semantic roles), so we will only review other work related
+to this aspect. First, we discuss similar work involving hypernyms. Then, we address
+preposition classification proper.
+Scott and Matwin (1998) use WordNet hypernyms for text classification. They
+include a numeric density feature for any synset that subsumes words appearing in
+the document, potentially yielding hundreds of features. In contrast, the hypernym
+collocations discussed in Section 3.1.1 involve a binary feature for each of the relations
+being classified, using indicative synsets based on the conditional probability test. This
+test alleviates the need for their maximum height parameter to avoid overly general
+hypernyms. Their approach, as well as ours, considers all senses of a word, distrib-
+uting the alternative readings throughout the set of features. In comparison, Gildea
+Table 19
+Results for preposition disambiguation with common roles. The FrameNet annotations are mapped
+into the common inventory from Table 8. Entropymeasures data set uniformity, and Baseline
+selects most common role. Detailed per-class statistics are also included, averaged over the
+10 folds.
+Experiment Accuracy STDEV
+Word Collocations Only 62.9 0.345
+Hypernym Collocations Only 62.6 0.487
+Both Collocations 63.1 0.639
+Data Set Characteristics
+# Instances: 59,615
+# Classes: 24
+Entropy: 4.191
+Baseline: 12.2
+Word Only Hypernym Only Both
+Class Prec. Rec. F Prec. Rec. F Prec. Rec. F
+accompaniment .630 .611 .619 .671 .605 .636 .628 .625 .626
+agent .623 .720 .667 .639 .726 .677 .616 .731 .668
+area .546 .475 .508 .541 .490 .514 .545 .501 .522
+category .694 .706 .699 .695 .700 .697 .714 .718 .716
+cause .554 .493 .521 .569 .498 .531 .540 .482 .509
+characteristic .595 .468 .523 .607 .474 .530 .584 .490 .532
+context .569 .404 .472 .577 .388 .463 .568 .423 .485
+direction .695 .171 .272 .701 .189 .294 .605 .169 .260
+duration .601 .465 .522 .589 .445 .503 .596 .429 .497
+experiencer .623 .354 .449 .606 .342 .435 .640 .378 .474
+goal .664 .683 .673 .662 .674 .668 .657 .680 .668
+instrument .406 .339 .367 .393 .337 .360 .405 .370 .385
+location .433 .557 .487 .427 .557 .483 .417 .553 .475
+manner .493 .489 .490 .483 .478 .479 .490 .481 .485
+means .235 .183 .205 .250 .183 .210 .254 .184 .212
+medium .519 .306 .382 .559 .328 .412 .529 .330 .403
+part .539 .289 .368 .582 .236 .323 .526 .301 .380
+path .705 .810 .753 .712 .813 .759 .706 .795 .748
+product .837 .750 .785 .868 .739 .788 .769 .783 .770
+recipient .661 .486 .559 .661 .493 .563 .642 .482 .549
+resource .613 .471 .530 .614 .458 .524 .618 .479 .539
+source .703 .936 .802 .697 .936 .799 .707 .937 .806
+theme .545 .660 .596 .511 .661 .576 .567 .637 .600
+time .619 .624 .621 .626 .612 .619 .628 .611 .619
+178
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+and Jurafsky (2002) instead just select the first sense for their hypernym features for
+relation classification. They report marginal improvements using the features, whereas
+configurations with hypernym collocations usually perform best in our preposition
+disambiguation experiments.
+Mohit and Narayanan (2003) use WordNet hypernyms to generalize patterns for
+information extraction inferred from FrameNet annotations by distributing support
+from terms co-occurring in annotations for frame elements to the terms for hypernyms.
+However, they do not incorporate a filtering stage, as with our conditional probability
+test. Mihalcea (2002) shows how hypernym information can be useful in deriving clues
+for unsupervised WSD. Patterns for co-occurring words of a given sense are induced
+from sense-tagged corpora. Each pattern specifies templates for the co-occurring words
+in the immediate context window of the target word, as well as their corresponding
+synsets if known (e.g., sense tagged or unambiguous), and similarly the hypernym
+synsets if known. To disambiguate a word, the patterns for each of its senses are
+evaluated in the context, and the sense with the most support is chosen.
+The work here addresses relation disambiguation specifically with respect to those
+indicated by prepositional phrases (i.e., preposition word-sense disambiguation). Until
+recently, there has been little work on general-purpose preposition disambiguation.
+Litkowski (2002) and Srihari, Niu, and Li (2001) present approaches using manually
+derived rules. Both approaches account for only a handful of prepositions; in contrast,
+for FrameNet we disambiguate 32 prepositions via individual classifiers and over 100
+prepositions via the combined classifier. Liu and Soo (1993) present a heuristic approach
+for relation disambiguation relying upon syntactic clues as well as occurrence of specific
+prepositions. They assign roles to constituents of a sentence from corpus data provided
+that sufficient instances are available. Otherwise, a human trainer is used to answer
+questions needed by the system for the assignment. They report an 86% accuracy rate
+for the assignment of roles to verbal arguments in about 5,000 processed sentences.
+Alam (2004) sketches out how the preposition over might be disambiguated into one
+of a dozen roles using features based on the head and complement, such as whether the
+head is amovement verb orwhether the complement refers to a duration. These features
+form the basis for a manually-constructed decision tree, which is interpreted by hand in
+an evaluation over sentences from the British National Corpus (BNC), giving a precision
+of 93.5%. Boonthum, Toida, and Levinstein (2006), building upon the work of Alam,
+show how WordNet can be used to automate the determination of similar head and
+complement properties. For example, if both the head and complement refer to people,
+with should be interpreted as accompaniment. These features form the basis for a
+disambiguation system using manually constructed rules accounting for ten commonly
+occurring prepositions. They report a precision of 79% with a recall of 76% over an
+inventory of seven roles in a post hoc evaluation that allows for partial correctness.
+There have been a fewmachine-learning approaches that are more similar to the ap-
+proach used here. Gildea and Jurafsky (2002) perform relation disambiguation using the
+FrameNet annotations as training data. They include lexical features for the headword
+of the phrase and the predicating word for the entire annotated frame (e.g., the verb
+corresponding to the frame under which the annotations are grouped). They also use
+several features derived from the output of a parser, such as the constituent type of the
+phrase (e.g., NP), the grammatical function (e.g., subject), and a path feature listing part-
+of-speech tags from the target word to the phrase being tagged. They report an accuracy
+of 78.5% with a baseline of 40.6% over the FrameNet semantic roles. However, by
+conditioning the classification on the predicatingword, the range of roles for a particular
+classification instance is more limited than in the experiments presented in this article.
+179
+Computational Linguistics Volume 35, Number 2
+Blaheta and Charniak (2000) use the PTB annotations for relation disambiguation. They
+use a few parser-derived features, such as the constituent labels for nearby nodes and
+part-of-speech for parent and grandparent nodes. They also include lexical features for
+the head and alternative head (because prepositions are considered as the head by their
+parser). As their classifier tags all adjuncts, they include the nominal and adverbial roles,
+which are syntactic and more predictable than the roles occurring with prepositional
+phrases.
+There have been recent workshops featuring competitions for semantic role tagging
+(Carreras and Ma`rquez 2004, 2005; Litkowski 2004). A common approach is to tag all
+the semantic roles in a sentence at the same time to account for dependencies, such
+as via Hidden Markov Models. To take advantage of accurate Support Vector Machine
+classification, Pradhan et al (2005) instead use a postprocessing phrase based on trigram
+models of roles. Their system incorporates a large variety of features, building upon sev-
+eral different preceding approaches, such as including extensions to the path features
+from Gildea and Jurafsky (2002). Their lexical features include the predicate root word,
+headwords for the sentence constituents and PPs, as well as their first and last words.
+Koomen et al (2005) likewise use a large feature set. They use an optimization phase to
+maximize satisfaction of the constraints imposed by the PropBank data set, such as the
+number of arguments for particular predicates (e.g., just two for stalk, arg0 and arg1).
+Lastly, Ye and Baldwin (2006) show how filtering can be used to constrain the
+hypernyms selected to serve as collocations, building upon our earlier work (O?Hara
+and Wiebe 2003). They report 87.7% accuracy in a setup similar to ours over PTB
+(i.e., a gain of 2 percentage points). They use a different type of collocation feature
+than ours: having a binary feature for each potential collocation rather than a single
+feature per class. That is, they useOver-Range Binary rather than Per-Class Binary (Wiebe,
+McKeever, and Bruce 1998). Moreover, they include several hundred of these features,
+rather than our seven (benefactive previously included), which is likely the main source
+of improvement. Again, the per-class binary organization is a bag of words approach,
+so it works well only with a limited number of potential collocations. Follow-up work
+of theirs (Ye and Baldwin 2007) fared well in the recent preposition disambiguation
+competition, held as part of SemEval-2007 (Litkowski and Hargraves 2007). Thus, an
+immediate area for future work will be to incorporate such improved feature sets. We
+will also investigate addressing sentential role constraints as in general semantic role
+tagging.
+5. Conclusion
+This article shows how to exploit semantic role resources for preposition disambigua-
+tion. Information about two different types of semantic role resources is provided. The
+emphasis is on corpus-based resources providing annotations of naturally occurring
+text. The Penn Treebank (Marcus et al 1994) covers general roles for verbal adjuncts and
+FrameNet (Fillmore, Wooters, and Baker 2001) includes a wide range of domain-specific
+roles for all verbal arguments. In addition, semantic role inventories from knowledge
+bases are investigated. Cyc (Lehmann 1996) provides fine-grained role distinctions,
+Factotum (Cassidy 2000) includes a variety of functional relations, and work in Concep-
+tual Graphs (Sowa 1999) emphasizes roles for attributes. Relations from both types of
+resources are considered when developing the inventory of relations used for definition
+analysis, as shown in Table 8.
+The disambiguation concentrates on relations indicated by prepositional phrases,
+and is framed as word-sense disambiguation for the preposition in question. A new
+180
+O?Hara and Wiebe Exploiting Resources for Preposition Disambiguation
+type of feature for word-sense disambiguation is introduced, using WordNet hyper-
+nyms as collocations rather than just words, as is typically done. The full feature set is
+shown in Figure 4. Various experiments over the PTB and FrameNet data are presented,
+including prepositions classified separately versus together, and illustrating the effects
+of filtering. The main results in Tables 11 and 16 show that the combined use of word
+and hypernym collocations generally achieves the best performance. For relationships
+derived from knowledge bases, the prepositions and other relational markers need to
+be inferred from corpora. A method for doing this is demonstrated using Factotum,
+with results shown in Table 18. In addition, to account for granularity differences in the
+semantic role inventories, the relations are mapped into a common inventory that was
+developed based on the inventories discussed in the article. This allows for improved
+classification in cases where inventories provide overly specialized relations, such as
+those in FrameNet. Classification results are shown in Table 19.
+The recent competitions on semantic relation labeling have highlighted the useful-
+ness of incorporating a variety of clues for general-purpose relation disambiguation
+(Carreras and Ma`rquez 2005). Some of the techniques developed here for preposition
+disambiguation can likely help with relation disambiguation in general. For instance,
+there are quite a few lexical features, such as in Pradhan et al (2005), which could be
+extended to use semantic classes as with our hypernym collocations. In general it seems
+that, when lexical features are used in supervised machine learning, it is likely that
+corresponding class-based features based on hypernyms can be beneficial for improved
+coverage.
+Other aspects of this approach are geared specifically to our goal of supporting
+lexical acquisition from dictionaries, which was the motivation for the emphasis on
+preposition disambiguation. Isolating the preposition annotations allows the classifiers
+to be more readily tailored to definition analysis, especially because predicate frames
+are not assumed as with other FrameNet relation disambiguation. Future work will
+investigate combining the general relation classifiers with preposition disambiguation
+classifiers, such as is done in Ye and Baldwin (2006). Future work will also investigate
+improvements to the application to definition analysis. Currently, FrameNet roles are
+alwaysmapped to the same common inventory role (e.g., place to location). However, this
+should account for the frame of the annotation and perhaps other context information.
+Lastly, we will also look for more resources to exploit for preposition disambiguation
+(e.g., ResearchCyc).
+Acknowledgments
+The experimentation for this article was
+greatly facilitated though the use of
+computing resources at New Mexico State
+University. We are also grateful for the
+extremely helpful comments provided
+by the anonymous reviewers.
+References
+Alam, Yukiko Sasaki. 2004. Decision trees
+for sense disambiguation of prepositions:
+Case of over. In Proceedings of the
+Computational Lexical Semantics Workshop,
+pages 52?59, Boston, MA.
+Barker, Ken. 1998. Semi-Automatic Recognition
+of Semantic Relationships in English Technical
+Texts. Ph.D. thesis, Department of
+Computer Science, University of Ottawa.
+Bies, Ann, Mark Ferguson, Karen Katz,
+Robert MacIntyre, Victoria Tredinnick,
+Grace Kim, Mary Ann Marcinkiewicz,
+and Britta Schasberger. 1995. Bracketing
+guidelines for Treebank II style:
+Penn Treebank project. Technical
+Report MS-CIS-95-06, University of
+Pennsylvania.
+Blaheta, Don and Eugene Charniak. 2000.
+Assigning function tags to parsed text.
+In Proceedings of the 1st Annual Meeting
+of the North American Chapter of the
+American Association for Computational
+Linguistics (NAACL-2000), pages
+234?240,Seattle, WA.
+181
+Computational Linguistics Volume 35, Number 2
+Boonthum, Chutima, Shunichi Toida, and
+Irwin B. Levinstein. 2006. Preposition
+senses: Generalized disambiguation
+model. In Proceedings of the Seventh
+International Conference on Computational
+Linguistics and Intelligent Text Processing
+(CICLing-2006), pages 196?207,
+Mexico City.
+Bruce, Bertram. 1975. Case systems for
+natural language. Artificial Intelligence,
+6:327?360.
+Bruce, Rebecca and Janyce Wiebe. 1999.
+Decomposable modeling in natural
+language processing. Computational
+Linguistics, 25(2):195?208.
+Carreras, Xavier and Llu??s Ma`rquez. 2004.

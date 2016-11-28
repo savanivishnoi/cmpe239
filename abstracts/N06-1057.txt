@@ -1,0 +1,16 @@
+
+ParaEval is an automated evaluation
+method for comparing reference and peer
+summaries. It facilitates a tiered-
+comparison strategy where recall-oriented
+global optimal and local greedy searches
+for paraphrase matching are enabled in
+the top tiers. We utilize a domain-
+independent paraphrase table extracted
+from a large bilingual parallel corpus us-
+ing methods from Machine Translation
+(MT). We show that the quality of ParaE-
+val?s evaluations, measured by correlating
+with human judgments, closely resembles
+that of ROUGE?s.
+1 

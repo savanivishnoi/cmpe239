@@ -1,0 +1,15 @@
+ 
+Two classifiers -- Support Vector Machine 
+(SVM) and Conditional Random Fields (CRFs) are 
+applied here for the recognition of biomedical 
+named entities. According to their different 
+characteristics, the results of two classifiers are 
+merged to achieve better performance. We propose 
+an automatic corpus expansion method for SVM 
+and CRF to overcome the shortage of the annotated 
+training data. In addition, we incorporate a 
+keyword-based post-processing step to deal with 
+the remaining problems such as assigning an 
+appropriate named entity tag to the word/phrase 
+containing parentheses. 
+1 

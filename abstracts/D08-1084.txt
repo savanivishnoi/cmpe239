@@ -1,0 +1,23 @@
+
+The alignment problem?establishing links
+between corresponding phrases in two related
+sentences?is as important in natural language
+inference (NLI) as it is in machine transla-
+tion (MT). But the tools and techniques of
+MT alignment do not readily transfer to NLI,
+where one cannot assume semantic equiva-
+lence, and for which large volumes of bitext
+are lacking. We present a new NLI aligner,
+the MANLI system, designed to address these
+challenges. It uses a phrase-based alignment
+representation, exploits external lexical re-
+sources, and capitalizes on a new set of su-
+pervised training data. We compare the per-
+formance of MANLI to existing NLI and MT
+aligners on an NLI alignment task over the
+well-known Recognizing Textual Entailment
+data. We show that MANLI significantly out-
+performs existing aligners, achieving gains of
+6.2% in F1 over a representative NLI aligner
+and 10.5% over GIZA++.
+1 

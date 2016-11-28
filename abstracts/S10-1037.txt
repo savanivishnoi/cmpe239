@@ -1,0 +1,19 @@
+
+In this paper, it is presented an unsuper-
+vised approach to automatically discover
+the latent keyphrases contained in scien-
+tific articles. The proposed technique is
+constructed on the basis of the combi-
+nation of two techniques: maximal fre-
+quent sequences and pageranking. We
+evaluated the obtained results by using
+micro-averaged precision, recall and F-
+scores with respect to two different gold
+standards: 1) reader?s keyphrases, and 2)
+a combined set of author?s and reader?s
+keyphrases. The obtained results were
+also compared against three different base-
+lines: one unsupervised (TF-IDF based)
+and two supervised (Na??ve Bayes and
+Maximum Entropy).
+1 

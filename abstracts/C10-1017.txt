@@ -1,0 +1,15 @@
+
+We describe a novel approach to coref-
+erence resolution which implements a
+global decision via hypergraph partition-
+ing. In constrast to almost all previ-
+ous approaches, we do not rely on sep-
+arate classification and clustering steps,
+but perform coreference resolution glob-
+ally in one step. Our hypergraph-based
+global model implemented within an end-
+to-end coreference resolution system out-
+performs two strong baselines (Soon et al,
+2001; Bengtson & Roth, 2008) using sys-
+tem mentions only.
+1 

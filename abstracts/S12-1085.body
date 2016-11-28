@@ -1,0 +1,24 @@
+
+The paper aims to come up with a sys-
+tem that examines the degree of semantic
+equivalence between two sentences. At the
+core of the paper is the attempt to grade
+the similarity of two sentences by find-
+ing the maximal weighted bipartite match
+between the tokens of the two sentences.
+The tokens include single words, or multi-
+words in case of Named Entitites, adjec-
+tivally and numerically modified words.
+Two token similarity measures are used for
+the task - WordNet based similarity, and a
+statistical word similarity measure which
+overcomes the shortcomings of WordNet
+based similarity. As part of three systems
+created for the task, we explore a simple
+bag of words tokenization scheme, a more
+careful tokenization scheme which cap-
+tures named entities, times, dates, mone-
+tary entities etc., and finally try to capture
+context around tokens using grammatical
+dependencies.
+1 

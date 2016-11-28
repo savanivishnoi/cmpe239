@@ -1,0 +1,23 @@
+
+This paper proposes a new approach to 
+dynamically determine the tree span for 
+tree kernel-based semantic relation ex-
+traction. It exploits constituent dependen-
+cies to keep the nodes and their head 
+children along the path connecting the 
+two entities, while removing the noisy in-
+formation from the syntactic parse tree, 
+eventually leading to a dynamic syntactic 
+parse tree. This paper also explores entity 
+features and their combined features in a 
+unified parse and semantic tree, which in-
+tegrates both structured syntactic parse 
+information and entity-related semantic 
+information. Evaluation on the ACE 
+RDC 2004 corpus shows that our dy-
+namic syntactic parse tree outperforms all 
+previous tree spans, and the composite 
+kernel combining this tree kernel with a 
+linear state-of-the-art feature-based ker-
+nel, achieves the so far best performance. 
+1 

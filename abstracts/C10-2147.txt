@@ -1,0 +1,28 @@
+
+Hindi and Urdu share a common phonol-
+ogy, morphology and grammar but are
+written in different scripts. In addition,
+the vocabularies have also diverged signif-
+icantly especially in the written form. In
+this paper we show that we can get rea-
+sonable quality translations (we estimated
+the Translation Error rate at 18%) between
+the two languages even in absence of a
+parallel corpus. Linguistic resources such
+as treebanks, part of speech tagged data
+and parallel corpora with English are lim-
+ited for both these languages. We use the
+translation system to share linguistic re-
+sources between the two languages. We
+demonstrate improvements on three tasks
+and show: statistical machine translation
+from Urdu to English is improved (0.8
+in BLEU score) by using a Hindi-English
+parallel corpus, Hindi part of speech tag-
+ging is improved (upto 6% absolute) by
+using an Urdu part of speech corpus and
+a Hindi-English word aligner is improved
+by using a manually word aligned Urdu-
+English corpus (upto 9% absolute in F-
+Measure).
+1 

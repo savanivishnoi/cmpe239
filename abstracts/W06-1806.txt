@@ -1,0 +1,24 @@
+
+We consider a logicist approach to nat-
+ural language understanding based on the
+translation of a quasi-logical form into a
+temporal logic, explicitly constructed for
+the representation of action and change,
+and the subsequent reasoning about this
+semantic structure in the context of a back-
+ground knowledge theory using automated
+theorem proving techniques. The ap-
+proach is substantiated through a proof-of-
+concept question answering system imple-
+mentation that uses a head-driven phrase
+structure grammar developed in the Lin-
+guistic Knowledge Builder to construct
+minimal recursion semantics structures
+which are translated into a Temporal Ac-
+tion Logic where both the SNARK au-
+tomated theorem prover and the Allegro
+Prolog logic programming environment
+can be used for reasoning through an in-
+terchangeable compilation into first-order
+logic or logic programs respectively.
+1 

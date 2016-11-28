@@ -1,0 +1,16 @@
+
+The first task of statistical computational
+linguistics, or any other type of data-
+driven processing of language, is the ex-
+traction of counts and distributions of phe-
+nomena. This is much more difficult for
+the type of complex structured data found
+in treebanks and in corpora with sophisti-
+cated annotation than for tokenized texts.
+Recent developments in data mining, par-
+ticularly in the extraction of frequent sub-
+trees from treebanks, offer some solutions.
+We have applied a modified version of the
+TreeMiner algorithm to a small treebank
+and present some promising results.
+1 

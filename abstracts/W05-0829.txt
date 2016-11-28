@@ -1,0 +1,13 @@
+
+This article describes the competitive
+grouping algorithm at the core of our Inte-
+grated Segmentation and Alignment (ISA)
+model. ISA extracts phrase pairs from a
+bilingual corpus without requiring the pre-
+calculated word alignment as many other
+phrase alignment models do. Experiments
+conducted within the WPT-05 shared task
+on statistical machine translation demon-
+strate the simplicity and effectiveness of
+this approach.
+1 

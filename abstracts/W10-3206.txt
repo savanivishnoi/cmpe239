@@ -1,0 +1,29 @@
+
+This paper presents on-going work on
+constructing bilingual multimodal corpora
+of referring expressions in collaborative
+problem solving for English and Japanese.
+The corpora were collected from dia-
+logues in which two participants collab-
+oratively solved Tangram puzzles with
+a puzzle simulator. Extra-linguistic in-
+formation such as operations on puzzle
+pieces, mouse cursor position and piece
+positions were recorded in synchronisa-
+tion with utterances. The speech data
+was transcribed and time-aligned with the
+extra-linguistic information. Referring
+expressions in utterances that refer to puz-
+zle pieces were annotated in terms of their
+spans, their referents and their other at-
+tributes. The Japanese corpus has already
+been completed, but the English counter-
+part is still undergoing annotation. We
+have conducted a preliminary comparative
+analysis of both corpora, mainly with re-
+spect to task completion time, task suc-
+cess rates and attributes of referring ex-
+pressions. These corpora showed signif-
+icant differences in task completion time
+and success rate.
+1 

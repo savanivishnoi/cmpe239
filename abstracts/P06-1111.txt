@@ -1,0 +1,19 @@
+
+We investigate prototype-driven learning for pri-
+marily unsupervised grammar induction. Prior
+knowledge is specified declaratively, by providing a
+few canonical examples of each target phrase type.
+This sparse prototype information is then propa-
+gated across a corpus using distributional similar-
+ity features, which augment an otherwise standard
+PCFG model. We show that distributional features
+are effective at distinguishing bracket labels, but not
+determining bracket locations. To improve the qual-
+ity of the induced trees, we combine our PCFG in-
+duction with the CCM model of Klein and Manning
+(2002), which has complementary stengths: it iden-
+tifies brackets but does not label them. Using only
+a handful of prototypes, we show substantial im-
+provements over naive PCFG induction for English
+and Chinese grammar induction.
+1 

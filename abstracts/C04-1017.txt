@@ -1,0 +1,22 @@
+
+In order to boost the translation quality of
+corpus-based MT systems for speech transla-
+tion, the technique of splitting an input sen-
+tence appears promising. In previous re-
+search, many methods used N-gram clues to
+split sentences. In this paper, to supplement
+N-gram based splitting methods, we introduce
+another clue using sentence similarity based
+on edit-distance. In our splitting method,
+we generate candidates for sentence splitting
+based on N-grams, and select the best one by
+measuring sentence similarity. We conducted
+experiments using two EBMT systems, one of
+which uses a phrase and the other of which
+uses a sentence as a translation unit. The
+translation results on various conditions were
+evaluated by objective measures and a subjec-
+tive measure. The experimental results show
+that the proposed method is valuable for both
+systems.
+1 

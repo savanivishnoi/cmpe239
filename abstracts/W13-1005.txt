@@ -1,0 +1,20 @@
+
+Human ratings are an important source for
+evaluating computational models that predict
+compositionality, but like many data sets of
+human semantic judgements, are often fraught
+with uncertainty and noise. However, despite
+their importance, to our knowledge there has
+been no extensive look at the effects of cleans-
+ing methods on human rating data. This paper
+assesses two standard cleansing approaches on
+two sets of compositionality ratings for Ger-
+man noun-noun compounds, in their ability
+to produce compositionality ratings of higher
+consistency, while reducing data quantity. We
+find (i) that our ratings are highly robust
+against aggressive filtering; (ii) Z-score filter-
+ing fails to detect unreliable item ratings; and
+(iii) Minimum Subject Agreement is highly
+effective at detecting unreliable subjects.
+1 

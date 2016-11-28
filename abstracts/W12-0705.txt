@@ -1,0 +1,32 @@
+
+Relation extraction is frequently and suc-
+cessfully addressed by machine learning
+methods. The downside of this approach
+is the need for annotated training data, typi-
+cally generated in tedious manual, cost inten-
+sive work. Distantly supervised approaches
+make use of weakly annotated data, like au-
+tomatically annotated corpora.
+Recent work in the biomedical domain
+has applied distant supervision for protein-
+protein interaction (PPI) with reasonable
+results making use of the IntAct database.
+Such data is typically noisy and heuristics
+to filter the data are commonly applied. We
+propose a constraint to increase the qual-
+ity of data used for training based on the
+assumption that no self-interaction of real-
+world objects are described in sentences.
+In addition, we make use of the Univer-
+sity of Kansas Proteomics Service (KUPS)
+database. These two steps show an increase
+of 7 percentage points (pp) for the PPI cor-
+pus AIMed. We demonstrate the broad appli-
+cability of our approach by using the same
+workflow for the analysis of drug-drug in-
+teractions, utilizing relationships available
+from the drug database DrugBank. We
+achieve 37.31 % in F1 measure without man-
+ually annotated training data on an indepen-
+dent test set.
+1 

@@ -1,0 +1,22 @@
+
+As the arm of NLP technologies extends
+beyond a small core of languages, tech-
+niques for working with instances of lan-
+guage data across hundreds to thousands
+of languages may require revisiting and re-
+calibrating the tried and true methods that
+are used. Of the NLP techniques that has
+been treated as ?solved? is language iden-
+tification (language ID) of written text.
+However, we argue that language ID is
+far from solved when one considers in-
+put spanning not dozens of languages, but
+rather hundreds to thousands, a number
+that one approaches when harvesting lan-
+guage data found on the Web. We formu-
+late language ID as a coreference resolu-
+tion problem and apply it to a Web harvest-
+ing task for a specific linguistic data type
+and achieve a much higher accuracy than
+long accepted language ID approaches.
+1 

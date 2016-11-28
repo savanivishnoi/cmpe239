@@ -1,0 +1,16 @@
+  
+We present a system for the automatic 
+extraction of salient information from 
+email messages, thus providing the gist of 
+their meaning.   Dealing with email raises 
+several challenges that we address in this 
+paper:  heterogeneous data in terms of 
+length and topic. Our method combines 
+shallow linguistic processing with 
+machine learning to extract phrasal units 
+that are representative of email content. 
+The GIST-IT application is fully 
+implemented and embedded in an active 
+mailbox platform.  Evaluation was 
+performed over three machine learning 
+paradigms.  

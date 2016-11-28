@@ -1,0 +1,27 @@
+ive Summarization using Text-to-Text Generation
+Pierre-Etienne Genest, Guy Lapalme
+RALI-DIRO
+Universite? de Montre?al
+P.O. Box 6128, Succ. Centre-Ville
+Montre?al, Que?bec
+Canada, H3C 3J7
+{genestpe,lapalme}@iro.umontreal.ca
+Abstract
+We propose a new, ambitious framework for
+abstractive summarization, which aims at se-
+lecting the content of a summary not from sen-
+tences, but from an abstract representation of
+the source documents. This abstract repre-
+sentation relies on the concept of Information
+Items (INIT), which we define as the smallest
+element of coherent information in a text or a
+sentence. Our framework differs from previ-
+ous abstractive summarization models in re-
+quiring a semantic analysis of the text. We
+present a first attempt made at developing a
+system from this framework, along with eval-
+uation results for it from TAC 2010. We also
+present related work, both from within and
+outside of the automatic summarization do-
+main.
+1 

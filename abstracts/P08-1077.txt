@@ -1,0 +1,19 @@
+
+Paraphrases have proved to be useful in many
+applications, including Machine Translation,
+Question Answering, Summarization, and In-
+formation Retrieval. Paraphrase acquisition
+methods that use a single monolingual corpus
+often produce only syntactic paraphrases. We
+present a method for obtaining surface para-
+phrases, using a 150GB (25 billion words)
+monolingual corpus. Our method achieves an
+accuracy of around 70% on the paraphrase ac-
+quisition task. We further show that we can
+use these paraphrases to generate surface pat-
+terns for relation extraction. Our patterns are
+much more precise than those obtained by us-
+ing a state of the art baseline and can extract
+relations with more than 80% precision for
+each of the test relations.
+1 

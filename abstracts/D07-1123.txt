@@ -1,0 +1,13 @@
+
+We describe an incremental parser that
+was trained to minimize cost over sen-
+tences rather than over individual parsing ac-
+tions. This is an attempt to use the advan-
+tages of the two top-scoring systems in the
+CoNLL-X shared task.
+In the evaluation, we present the perfor-
+mance of the parser in the Multilingual task,
+as well as an evaluation of the contribution
+of bidirectional parsing and beam search to
+the parsing performance.
+1 

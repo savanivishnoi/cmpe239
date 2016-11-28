@@ -1,0 +1,26 @@
+
+A mixture of positive (friendly) and nega-
+tive (antagonistic) relations exist among users
+in most social media applications. However,
+many such applications do not allow users to
+explicitly express the polarity of their interac-
+tions. As a result most research has either ig-
+nored negative links or was limited to the few
+domains where such relations are explicitly
+expressed (e.g. Epinions trust/distrust). We
+study text exchanged between users in online
+communities. We find that the polarity of the
+links between users can be predicted with high
+accuracy given the text they exchange. This
+allows us to build a signed network represen-
+tation of discussions; where every edge has
+a sign: positive to denote a friendly relation,
+or negative to denote an antagonistic relation.
+We also connect our analysis to social psy-
+chology theories of balance. We show that the
+automatically predicted networks are consis-
+tent with those theories. Inspired by that, we
+present a technique for identifying subgroups
+in discussions by partitioning singed networks
+representing them.
+1 

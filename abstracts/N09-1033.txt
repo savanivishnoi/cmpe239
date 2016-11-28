@@ -1,0 +1,20 @@
+ 
+State of the art set expansion algorithms pro-
+duce varying quality expansions for different 
+entity types. Even for the highest quality ex-
+pansions, errors still occur and manual re-
+finements are necessary for most practical 
+uses. In this paper, we propose algorithms to 
+aide this refinement process, greatly reducing 
+the amount of manual labor required. The me-
+thods rely on the fact that most expansion er-
+rors are systematic, often stemming from the 
+fact that some seed elements are ambiguous. 
+Using our methods, empirical evidence shows 
+that average R-precision over random entity 
+sets improves by 26% to 51% when given 
+from 5 to 10 manually tagged errors. Both 
+proposed refinement models have linear time 
+complexity in set size allowing for practical 
+online use in set expansion systems. 
+1 

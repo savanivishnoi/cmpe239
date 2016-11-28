@@ -1,0 +1,22 @@
+
+Given the increasing need to process mas-
+sive amounts of textual data, efficiency of
+NLP tools is becoming a pressing concern.
+Parsers based on lexicalised grammar for-
+malisms, such as TAG and CCG, can be
+made more efficient using supertagging,
+which for CCG is so effective that every
+derivation consistent with the supertagger
+output can be stored in a packed chart.
+However, wide-coverage CCG parsers still
+produce a very large number of deriva-
+tions for typical newspaper or Wikipedia
+sentences. In this paper we investigate
+two forms of chart pruning, and develop a
+novel method for pruning complete cells
+in a parse chart. The result is a wide-
+coverage CCG parser that can process al-
+most 100 sentences per second, with lit-
+tle or no loss in accuracy over the baseline
+with no pruning.
+1 

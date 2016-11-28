@@ -1,0 +1,25 @@
+ 
+ 
+This paper describes our infrequent sense 
+identification system participating in the 
+SemEval-2010 task 15 on Infrequent Sense 
+Identification for Mandarin Text to Speech 
+Systems. The core system is a supervised 
+system based on the ensembles of Na?ve 
+Bayesian classifiers. In order to solve the 
+problem of unbalanced sense distribution, we 
+intentionally extract only instances of 
+infrequent sense with the same N-gram pattern 
+as the complemental training data from an 
+untagged Chinese corpus ? People?s Daily of 
+the year 2001. At the same time, we adjusted 
+the prior probability to adapt to the 
+distribution of the test data and tuned the 
+smoothness coefficient to take the data 
+sparseness into account. Official result shows 
+that, our system ranked the first with the best 
+Macro Accuracy 0.952. We briefly describe 
+this system, its configuration options and the 
+features used for this task and present some 
+discussion of the results. 
+1 

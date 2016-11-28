@@ -1,0 +1,16 @@
+
+This paper deals with recognition of
+named entities in Czech texts. We present
+a recently released corpus of Czech sen-
+tences with manually annotated named en-
+tities, in which a rich two-level classifica-
+tion scheme was used. There are around
+6000 sentences in the corpus with roughly
+33000 marked named entity instances. We
+use the data for training and evaluating a
+named entity recognizer based on Support
+Vector Machine classification technique.
+The presented recognizer outperforms the
+results previously reported for NE recog-
+nition in Czech.
+1 

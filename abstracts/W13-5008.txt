@@ -1,0 +1,14 @@
+
+Review quality is determined by identifying
+the relevance of a review to a submission
+(the article or paper the review was written
+for). We identify relevance in terms of the se-
+mantic and syntactic similarities between two
+texts. We use a word order graph, whose ver-
+tices, edges and double edges help determine
+structure-based match across texts. We use
+WordNet to determine semantic relatedness.
+Ours is a lexico-semantic approach, which pre-
+dicts relevance with an accuracy of 66% and
+f -measure of 0.67.
+1 

@@ -1,0 +1,24 @@
+
+The creation of a gold standard corpus (GSC)
+is a very laborious and costly process. Silver
+standard corpus (SSC) annotation is a very re-
+cent direction of corpus development which
+relies on multiple systems instead of human
+annotators. In this paper, we investigate the
+practical usability of an SSC when a machine
+learning system is trained on it and tested on
+an unseen benchmark GSC. The main focus of
+this paper is how an SSC can be maximally ex-
+ploited. In this process, we inspect several hy-
+potheses which might have influenced the idea
+of SSC creation. Empirical results suggest that
+some of the hypotheses (e.g. a positive impact
+of a large SSC despite of having wrong and
+missing annotations) are not fully correct. We
+show that it is possible to automatically im-
+prove the quality and the quantity of the SSC
+annotations. We also observe that considering
+only those sentences of SSC which contain an-
+notations rather than the full SSC results in a
+performance boost.
+1 

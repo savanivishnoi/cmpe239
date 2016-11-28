@@ -1,0 +1,20 @@
+
+This paper proposes a new approach for
+Multi-word Expression (MWE)extraction
+on the motivation of gene sequence align-
+ment because textual sequence is simi-
+lar to gene sequence in pattern analy-
+sis. Theory of Longest Common Subse-
+quence (LCS) originates from computer
+science and has been established as affine
+gap model in Bioinformatics. We per-
+form this developed LCS technique com-
+bined with linguistic criteria in MWE ex-
+traction. In comparison with traditional
+n-gram method, which is the major tech-
+nique for MWE extraction, LCS approach
+is applied with great efficiency and per-
+formance guarantee. Experimental results
+show that LCS-based approach achieves
+better results than n-gram.
+1 

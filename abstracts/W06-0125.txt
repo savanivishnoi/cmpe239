@@ -1,0 +1,19 @@
+  
+This paper briefly describes our system in the 
+third SIGHAN bakeoff on Chinese word 
+segmentation and named entity recognition. 
+This is done via a word chunking strategy 
+using a context-dependent Mutual 
+Information Independence Model. 
+Evaluation shows that our system performs 
+well on all the word segmentation closed 
+tracks and achieves very good scalability 
+across different corpora. It also shows that 
+the use of the same strategy in named entity 
+recognition shows promising performance 
+given the fact that we only spend less than 
+three days in total on extending the system in 
+word segmentation to incorporate named 
+entity recognition, including training and 
+formal testing. 
+1  

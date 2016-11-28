@@ -1,0 +1,23 @@
+
+Recently, many researches in natural lan-
+guage learning have considered the repre-
+sentation of complex linguistic phenom-
+ena by means of structural kernels. In
+particular, tree kernels have been used to
+represent verbal subcategorization frame
+(SCF) information for predicate argument
+classification. As the SCF is a relevant
+clue to learn the relation between syn-
+tax and semantic, the classification algo-
+rithm accuracy was remarkable enhanced.
+In this article, we extend such work by
+studying the impact of the SCF tree kernel
+on both PropBank and FrameNet seman-
+tic roles. The experiments with Support
+Vector Machines (SVMs) confirm a strong
+link between the SCF and the semantics of
+the verbal predicates as well as the bene-
+fit of using kernels in diverse and complex
+test conditions, e.g. classification of un-
+seen verbs.
+1 

@@ -1,0 +1,19 @@
+
+In this paper, we present a word sense
+disambiguation (WSD) based system for
+multilingual lexical substitution. Our
+method depends on having a WSD system
+for English and an automatic word align-
+ment method. Crucially the approach re-
+lies on having parallel corpora. For Task
+2 (Sinha et al, 2009) we apply a super-
+vised WSD system to derive the English
+word senses. For Task 3 (Lefever & Hoste,
+2009), we apply an unsupervised approach
+to the training and test data. Both of our
+systems that participated in Task 2 achieve
+a decent ranking among the participating
+systems. For Task 3 we achieve the highest
+ranking on several of the language pairs:
+French, German and Italian.
+1 

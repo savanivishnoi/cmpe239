@@ -1,0 +1,19 @@
+
+Syntactically annotated corpora (tree-
+banks) play an important role in re-
+cent statistical natural language pro-
+cessing. However, building a large tree-
+bank is labor intensive and time con-
+suming work. To remedy this prob-
+lem, there have been many attempts to
+develop software tools for annotating
+treebanks.
+This paper presents an integrated en-
+vironment for annotating a treebank,
+called eBonsai. eBonsai helps annota-
+tors to choose a correct syntactic struc-
+ture of a sentence from outputs of a
+parser, allowing the annotators to re-
+trieve similar sentences in the treebank
+for referring to their structures.
+1 

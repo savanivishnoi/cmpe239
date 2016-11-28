@@ -1,0 +1,19 @@
+
+The incremental algorithm introduced in
+(Dale and Reiter, 1995) for producing dis-
+tinguishing descriptions does not always
+generate a minimal description. In this
+paper, I show that when generalised to
+sets of individuals and disjunctive proper-
+ties, this approach might generate unnec-
+essarily long and ambiguous and/or epis-
+temically redundant descriptions. I then
+present an alternative, constraint-based al-
+gorithm and show that it builds on existing
+related algorithms in that (i) it produces
+minimal descriptions for sets of individu-
+als using positive, negative and disjunctive
+properties, (ii) it straightforwardly gener-
+alises to n-ary relations and (iii) it is inte-
+grated with surface realisation.
+1 

@@ -1,0 +1,17 @@
+
+We address the problem of training the free
+parameters of a statistical machine transla-
+tion system. We show significant improve-
+ments over a state-of-the-art minimum er-
+ror rate training baseline on a large Chinese-
+English translation task. We present novel
+training criteria based on maximum likeli-
+hood estimation and expected loss compu-
+tation. Additionally, we compare the maxi-
+mum a-posteriori decision rule and the min-
+imum Bayes risk decision rule. We show
+that, not only from a theoretical point of
+view but also in terms of translation qual-
+ity, the minimum Bayes risk decision rule is
+preferable.
+1 

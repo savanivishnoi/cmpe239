@@ -1,0 +1,14 @@
+
+We propose a Named Entities translitera-
+tion mining system using Finite State Au-
+tomata (FSA). We compare the proposed
+approach with a baseline system that uti-
+lizes the Editex technique to measure the
+length-normalized phonetic based edit dis-
+tance between the two words. We sub-
+mitted three standard runs in NEWS2010
+shared task and ranked first for English
+to Arabic (WM-EnAr) and obtained an F-
+measure of 0.915, 0.903, and 0.874 re-
+spectively.
+1 

@@ -1,0 +1,17 @@
+
+This paper proposes a supervised learn-
+ing method to recognize expressions that
+show a relation between two named en-
+tities, e.g., person, location, or organiza-
+tion. The method uses two novel fea-
+tures, 1) whether the candidate words in-
+herently express relations and 2) how the
+candidate words are influenced by the past
+relations of two entities. These features
+together with conventional syntactic and
+contextual features are organized as a tree
+structure and are fed into a boosting-based
+classification algorithm. Experimental re-
+sults show that the proposed method out-
+performs conventional methods.
+1 

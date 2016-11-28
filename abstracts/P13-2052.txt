@@ -1,0 +1,13 @@
+ 
+Linking heterogeneous resources is a major re-
+search challenge in the Semantic Web. This 
+paper studies the task of mining equivalent re-
+lations from Linked Data, which was insuffi-
+ciently addressed before. We introduce an un-
+supervised method to measure equivalency of 
+relation pairs and cluster equivalent relations. 
+Early experiments have shown encouraging 
+results with an average of 0.75~0.87 precision 
+in predicting relation pair equivalency and 
+0.78~0.98 precision in relation clustering. 
+1 

@@ -1,0 +1,19 @@
+
+This paper explores the effect that dif-
+ferent corpus configurations have on the
+performance of a coreference resolution
+system, as measured by MUC, B3, and
+CEAF. By varying separately three param-
+eters (language, annotation scheme, and
+preprocessing information) and applying
+the same coreference resolution system,
+the strong bonds between system and cor-
+pus are demonstrated. The experiments
+reveal problems in coreference resolution
+evaluation relating to task definition, cod-
+ing schemes, and features. They also ex-
+pose systematic biases in the coreference
+evaluation metrics. We show that system
+comparison is only possible when corpus
+parameters are in exact agreement.
+1 

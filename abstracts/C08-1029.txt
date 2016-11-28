@@ -1,0 +1,21 @@
+
+The most critical issue in generating and
+recognizing paraphrases is development
+of wide-coverage paraphrase knowledge.
+Previous work on paraphrase acquisition
+has collected lexicalized pairs of expres-
+sions; however, the results do not ensure
+full coverage of the various paraphrase
+phenomena. This paper focuses on pro-
+ductive paraphrases realized by general
+transformation patterns, and addresses the
+issues in generating instances of phrasal
+paraphrases with those patterns. Our prob-
+abilistic model computes how two phrases
+are likely to be correct paraphrases. The
+model consists of two components: (i) a
+structured N -gram language model that
+ensures grammaticality and (ii) a distribu-
+tional similarity measure for estimating se-
+mantic equivalence and substitutability.
+1 

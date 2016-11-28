@@ -1,0 +1,19 @@
+
+We describe a method for generating sentences
+from ?keywords? or ?headwords?. This method
+consists of two main parts, candidate-text con-
+struction and evaluation. The construction part
+generates text sentences in the form of depen-
+dency trees by using complementary informa-
+tion to replace information that is missing be-
+cause of a ?knowledge gap? and other missing
+function words to generate natural text sen-
+tences based on a particular monolingual cor-
+pus. The evaluation part consists of a model
+for generating an appropriate text when given
+keywords. This model considers not only word
+n-gram information, but also dependency infor-
+mation between words. Furthermore, it consid-
+ers both string information and morphological
+information.
+1 

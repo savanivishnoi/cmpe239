@@ -1,0 +1,23 @@
+
+The addition of a deterministic permutation
+parser can provide valuable hierarchical in-
+formation to a phrase-based statistical ma-
+chine translation (PBSMT) system. Permuta-
+tion parsers have been used to implement hier-
+archical re-ordering models (Galley and Man-
+ning, 2008) and to enforce inversion trans-
+duction grammar (ITG) constraints (Feng et
+al., 2010). We present a number of theoret-
+ical results regarding the use of permutation
+parsers in PBSMT. In particular, we show that
+an existing ITG constraint (Zens et al., 2004)
+does not prevent all non-ITG permutations,
+and we demonstrate that the hierarchical re-
+ordering model can produce analyses during
+decoding that are inconsistent with analyses
+made during training. Experimentally, we ver-
+ify the utility of hierarchical re-ordering, and
+compare several theoretically-motivated vari-
+ants in terms of both translation quality and
+the syntactic complexity of their output.
+1 

@@ -1,0 +1,21 @@
+
+We present the Pathway Curation (PC)
+task, a main event extraction task of
+the BioNLP shared task (ST) 2013.
+The PC task concerns the automatic ex-
+traction of biomolecular reactions from
+text. The task setting, representation
+and semantics are defined with respect
+to pathway model standards and ontolo-
+gies (SBML, BioPAX, SBO) and docu-
+ments selected by relevance to specific
+model reactions. Two BioNLP ST 2013
+participants successfully completed the
+PC task. The highest achieved F-
+score, 52.8%, indicates that event extrac-
+tion is a promising approach to support-
+ing pathway curation efforts. The PC
+task continues as an open challenge with
+data, resources and tools available from
+http://2013.bionlp-st.org/
+1 

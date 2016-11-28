@@ -1,0 +1,12 @@
+
+For the competition of Chinese word seg-
+mentation held in the first CIPS-SIGHNA
+joint conference. We applied a subword-
+based word segmenter using CRFs and ex-
+tended the segmenter with OOV words
+recognized by Accessor Variety. More-
+over, we proposed several post-processing
+rules to improve the performance. Our
+system achieved promising OOV recall
+among all the participants.
+1 

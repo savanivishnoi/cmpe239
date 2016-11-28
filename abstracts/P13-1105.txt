@@ -1,0 +1,25 @@
+
+This paper describes a novel strategy for
+automatic induction of a monolingual de-
+pendency grammar under the guidance
+of bilingually-projected dependency. By
+moderately leveraging the dependency in-
+formation projected from the parsed coun-
+terpart language, and simultaneously min-
+ing the underlying syntactic structure of
+the language considered, it effectively in-
+tegrates the advantages of bilingual pro-
+jection and unsupervised induction, so as
+to induce a monolingual grammar much
+better than previous models only using
+bilingual projection or unsupervised in-
+duction. We induced dependency gram-
+mar for five different languages under the
+guidance of dependency information pro-
+jected from the parsed English translation,
+experiments show that the bilingually-
+guided method achieves a significant
+improvement of 28.5% over the unsuper-
+vised baseline and 3.0% over the best pro-
+jection baseline on average.
+1 

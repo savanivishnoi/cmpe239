@@ -1,0 +1,20 @@
+
+We combine the strengths of Bayesian mod-
+eling and synchronous grammar in unsu-
+pervised learning of basic translation phrase
+pairs. The structured space of a synchronous
+grammar is a natural fit for phrase pair proba-
+bility estimation, though the search space can
+be prohibitively large. Therefore we explore
+efficient algorithms for pruning this space that
+lead to empirically effective results. Incorpo-
+rating a sparse prior using Variational Bayes,
+biases the models toward generalizable, parsi-
+monious parameter sets, leading to significant
+improvements in word alignment. This pref-
+erence for sparse solutions together with ef-
+fective pruning methods forms a phrase align-
+ment regimen that produces better end-to-end
+translations than standard word alignment ap-
+proaches.
+1 

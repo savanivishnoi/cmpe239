@@ -1,0 +1,23 @@
+
+We present an efficient, novel two-pass
+approach to mitigate the computational
+impact resulting from online intersection
+of an n-gram language model (LM) and
+a probabilistic synchronous context-free
+grammar (PSCFG) for statistical machine
+translation. In first pass CYK-style decod-
+ing, we consider first-best chart item ap-
+proximations, generating a hypergraph of
+sentence spanning target language deriva-
+tions. In the second stage, we instantiate
+specific alternative derivations from this
+hypergraph, using the LM to drive this
+search process, recovering from search er-
+rors made in the first pass. Model search
+errors in our approach are comparable to
+those made by the state-of-the-art ?Cube
+Pruning? approach in (Chiang, 2007) un-
+der comparable pruning conditions evalu-
+ated on both hierarchical and syntax-based
+grammars.
+1 

@@ -1,0 +1,23 @@
+
+Treating classification as seeking minimum
+cuts in the appropriate graph has proven ef-
+fective in a number of applications. The
+power of this approach lies in its abil-
+ity to incorporate label-agreement prefer-
+ences among pairs of instances in a prov-
+ably tractable way. Label disagreement
+preferences are another potentially rich
+source of information, but prior NLP work
+within the minimum-cut paradigm has not
+explicitly incorporated it. Here, we re-
+port on work in progress that examines
+several novel heuristics for incorporating
+such information. Our results, produced
+within the context of a politically-oriented
+sentiment-classification task, demonstrate
+that these heuristics allow for the addition
+of label-disagreement information in a way
+that improves classification accuracy while
+preserving the efficiency guarantees of the
+minimum-cut framework.
+1 

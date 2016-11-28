@@ -1,0 +1,18 @@
+ I.I Sketch  of  P roposa l  
+We propose a semantics for locative expressions 
+such as near Jones or west of Denver, an impor- 
+tant subsystem for NLP applications. Locative ex- 
+pressions denote regions of space, and serve as argu- 
+ments to predicates, locating objects and events pa- 
+tially. Since simple locatives occupy argument posi- 
+tions, they do NOT participate in scope ambiguities m 
+pace one common view, which sees locatives as logical 
+operators. Our proposal justifies common representa- 
+tional practice in computational linguistics, account- 
+ing for how locative expressions function anaphori- 
+tally, and explaining a wide range of inference in- 
+volving locatives. We further demonstrate how the 
+argument analysis may accommodate multiple loca- 
+tive arguments in a single predicate. The analysis is 
+implemented for use in a database query application. 
+1 

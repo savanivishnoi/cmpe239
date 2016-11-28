@@ -1,0 +1,22 @@
+
+Prior use of machine learning in genre
+classification used a list of labels as clas-
+sification categories. However, genre
+classes are often organised into hierar-
+chies, e.g., covering the subgenres of fic-
+tion. In this paper we present a method
+of using the hierarchy of labels to improve
+the classification accuracy. As a testbed
+for this approach we use the Brown Cor-
+pus as well as a range of other corpora, in-
+cluding the BNC, HGC and Syracuse. The
+results are not encouraging: apart from the
+Brown corpus, the improvements of our
+structural classifier over the flat one are
+not statistically significant. We discuss the
+relation between structural learning per-
+formance and the visual and distributional
+balance of the label hierarchy, suggesting
+that only balanced hierarchies might profit
+from structural learning.
+1 

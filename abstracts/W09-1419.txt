@@ -1,0 +1,19 @@
+
+The BioNLP?09 Shared Task on Event Ex-
+traction is a challenge which concerns the de-
+tection of bio-molecular events from text. In
+this paper, we present a detailed account of
+the challenges encountered during the con-
+struction of a machine learning framework for
+participation in this task. We have focused
+our work mainly around the filtering of false
+positives, creating a high-precision extraction
+method. We have tested techniques such as
+SVMs, feature selection and various filters for
+data pre- and post-processing, and report on
+the influence on performance for each of them.
+To detect negation and speculation in text,
+we describe a custom-made rule-based sys-
+tem which is simple in design, but effective in
+performance.
+1 

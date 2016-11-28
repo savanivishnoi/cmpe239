@@ -1,0 +1,18 @@
+
+A well-recognized limitation of research on
+supervised sentence compression is the dearth
+of available training data. We propose a new
+and bountiful resource for such training data,
+which we obtain by mining the revision his-
+tory of Wikipedia for sentence compressions
+and expansions. Using only a fraction of the
+available Wikipedia data, we have collected
+a training corpus of over 380,000 sentence
+pairs, two orders of magnitude larger than the
+standardly used Ziff-Davis corpus. Using this
+newfound data, we propose a novel lexical-
+ized noisy channel model for sentence com-
+pression, achieving improved results in gram-
+maticality and compression rate criteria with a
+slight decrease in importance.
+1 

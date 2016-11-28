@@ -1,0 +1,20 @@
+
+We present a method for speeding up the
+calculation of tree kernels during train-
+ing. The calculation of tree kernels is still
+heavy even with efficient dynamic pro-
+gramming (DP) procedures. Our method
+maps trees into a small feature space
+where the inner product, which can be cal-
+culated much faster, yields the same value
+as the tree kernel for most tree pairs. The
+training is sped up by using the DP pro-
+cedure only for the exceptional pairs. We
+describe an algorithm that detects such ex-
+ceptional pairs and converts trees into vec-
+tors in a feature space. We propose tree
+kernels on marked labeled ordered trees
+and show that the training of SVMs for
+semantic role labeling using these kernels
+can be sped up by a factor of several tens.
+1 

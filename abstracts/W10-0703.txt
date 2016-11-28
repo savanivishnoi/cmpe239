@@ -1,0 +1,28 @@
+ 
+Vocabulary tutors need word sense disambig-
+uation (WSD) in order to provide exercises 
+and assessments that match the sense of words 
+being taught. Using expert annotators to build 
+a WSD training set for all the words supported 
+would be too expensive. Crowdsourcing that 
+task seems to be a good solution.  However, a 
+first required step is to define what the possi-
+ble sense labels to assign to word occurrence 
+are.  This can be viewed as a clustering task 
+on dictionary definitions. This paper evaluates 
+the possibility of using Amazon Mechanical 
+Turk (MTurk) to carry out that prerequisite 
+step to WSD.  We propose two different ap-
+proaches to using a crowd to accomplish clus-
+tering: one where the worker has a global 
+view of the task, and one where only a local 
+view is available.  We discuss how we can 
+aggregate multiple workers? clusters together, 
+as well as pros and cons of our two approach-
+es.  We show that either approach has an inte-
+rannotator agreement with experts that 
+corresponds to the agreement between ex-
+perts, and so using MTurk to cluster dictio-
+nary definitions appears to be a reliable 
+approach. 
+1 

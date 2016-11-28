@@ -1,0 +1,28 @@
+
+A simple and accurate method for assigning
+broad semantic classes to text strings is pre-
+sented. The method is to map text strings
+to terms in ontologies based on a pipeline of
+exact matches, normalized strings, headword
+matching, and stemming headwords. The
+results of three experiments evaluating the
+technique are given. Five semantic classes
+are evaluated against the CRAFT corpus of
+full-text journal articles. Twenty semantic
+classes are evaluated against the correspond-
+ing full ontologies, i.e. by reflexive match-
+ing. One semantic class is evaluated against
+a structured test suite. Precision, recall,
+and F-measure on the corpus when evaluat-
+ing against only the ontologies in the cor-
+pus is micro-averaged 67.06/78.49/72.32 and
+macro-averaged 69.84/83.12/75.31. Accuracy
+on the corpus when evaluating against all
+twenty semantic classes ranges from 77.12%
+to 95.73%. Reflexive matching is generally
+successful, but reveals a small number of er-
+rors in the implementation. Evaluation with
+the structured test suite reveals a number of
+characteristics of the performance of the ap-
+proach.
+1 

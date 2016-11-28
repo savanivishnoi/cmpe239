@@ -1,0 +1,22 @@
+
+Previous research in cross-document en-
+tity coreference has generally been re-
+stricted to the offline scenario where the
+set of documents is provided in advance.
+As a consequence, the dominant approach
+is based on greedy agglomerative cluster-
+ing techniques that utilize pairwise vec-
+tor comparisons and thus require O(n2)
+space and time. In this paper we ex-
+plore identifying coreferent entity men-
+tions across documents in high-volume
+streaming text, including methods for uti-
+lizing orthographic and contextual infor-
+mation. We test our methods using several
+corpora to quantitatively measure both the
+efficacy and scalability of our streaming
+approach. We show that our approach
+scales to at least an order of magnitude
+larger data than previous reported meth-
+ods.
+1 

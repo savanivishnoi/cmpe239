@@ -1,0 +1,22 @@
+ 
+A pervasive problem facing many bio-
+medical text mining applications is that of 
+correctly associating mentions of entities 
+in the literature with corresponding con-
+cepts in a database or ontology.  Attempts 
+to build systems for automating this proc-
+ess have shown promise as demonstrated 
+by the recent BioCreAtIvE Task 1B 
+evaluation.  A significant obstacle to im-
+proved performance for this task, how-
+ever, is a lack of high quality training 
+data. In this work, we explore methods for 
+improving the quality of (noisy) Task 1B 
+training data using variants of weakly su-
+pervised learning methods. We present 
+positive results demonstrating that these 
+methods result in an improvement in 
+training data quality as measured by im-
+proved system performance over the same 
+system using the originally labeled data. 
+1 

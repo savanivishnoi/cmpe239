@@ -1,0 +1,15 @@
+
+We report on a pilot experiment to improve the per-
+formance of an automatic speech recognizer (ASR)
+by using a single-channel EEG signal to classify the
+speaker?s mental state as reading easy or hard text.
+We use a previously published method (Mostow et
+al., 2011) to train the EEG classifier. We use its prob-
+abilistic output to control weighted interpolation of
+separate language models for easy and difficult read-
+ing. The EEG-adapted ASR achieves higher accu-
+racy than two baselines. We analyze how its perfor-
+mance depends on EEG classification accuracy. This
+pilot result is a step towards improving ASR more
+generally by using EEG to distinguish mental states.
+1 

@@ -1,0 +1,20 @@
+
+This paper presents the first probabilistic
+parsing results for French, using the re-
+cently released French Treebank. We start
+with an unlexicalized PCFG as a base-
+line model, which is enriched to the level
+of Collins? Model 2 by adding lexical-
+ization and subcategorization. The lexi-
+calized sister-head model and a bigram
+model are also tested, to deal with the flat-
+ness of the French Treebank. The bigram
+model achieves the best performance:
+81% constituency F-score and 84% de-
+pendency accuracy. All lexicalized mod-
+els outperform the unlexicalized baseline,
+consistent with probabilistic parsing re-
+sults for English, but contrary to results
+for German, where lexicalization has only
+a limited effect on parsing performance.
+1 

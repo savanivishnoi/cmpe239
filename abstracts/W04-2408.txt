@@ -1,0 +1,23 @@
+
+We propose one type of TOP (Tangent vector
+Of the Posterior log-odds) kernel and apply it to
+text categorization. In a number of categoriza-
+tion tasks including text categorization, nega-
+tive examples are usually more common than
+positive examples and there may be several dif-
+ferent types of negative examples. Therefore,
+we construct a TOP kernel, regarding the prob-
+abilistic model of negative examples as a mix-
+ture of several component models respectively
+corresponding to given categories. Since each
+component model of our mixture model is ex-
+pressed using a one-dimensional Gaussian-type
+function, the proposed kernel has an advantage
+in computational time. We also show that the
+computational advantage is shared by a more
+general class of models. In our experiments,
+the proposed kernel used with Support Vector
+Machines outperformed the linear kernel and
+the Fisher kernel based on the Probabilistic La-
+tent Semantic Indexing model.
+1 

@@ -1,0 +1,20 @@
+
+The Why-Atlas tutoring system presents
+students with qualitative physics questions
+and encourages them to explain their an-
+swers via natural language. Although
+there are inexpensive techniques for ana-
+lyzing explanations, we claim that better
+understanding is necessary for use within
+tutoring systems. In this paper we de-
+scribe how Why-Atlas creates and utilizes
+a proof-based representation of student es-
+says. We describe how it creates the proof
+given the output of sentence-level under-
+standing, how it uses the proofs to give
+students feedback, some preliminary run-
+time measures, and the work we are cur-
+rently doing to derive additional benefits
+from a proof-based approach for tutoring
+applications.
+1 

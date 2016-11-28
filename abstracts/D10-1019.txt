@@ -1,0 +1,20 @@
+
+Many sequence labeling tasks in NLP require
+solving a cascade of segmentation and tag-
+ging subtasks, such as Chinese POS tagging,
+named entity recognition, and so on. Tradi-
+tional pipeline approaches usually suffer from
+error propagation. Joint training/decoding in
+the cross-product state space could cause too
+many parameters and high inference complex-
+ity. In this paper, we present a novel method
+which integrates graph structures of two sub-
+tasks into one using virtual nodes, and per-
+forms joint training and decoding in the fac-
+torized state space. Experimental evaluations
+on CoNLL 2000 shallow parsing data set and
+Fourth SIGHAN Bakeoff CTB POS tagging
+data set demonstrate the superiority of our
+method over cross-product, pipeline and can-
+didate reranking approaches.
+1 

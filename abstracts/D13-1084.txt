@@ -1,0 +1,14 @@
+
+Multilingual speakers switch between lan-
+guages in online and spoken communication.
+Analyses of large scale multilingual data re-
+quire automatic language identification at the
+word level. For our experiments with mul-
+tilingual online discussions, we first tag the
+language of individual words using language
+models and dictionaries. Secondly, we incor-
+porate context to improve the performance.
+We achieve an accuracy of 98%. Besides word
+level accuracy, we use two new metrics to
+evaluate this task.
+1 

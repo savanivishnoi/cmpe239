@@ -1,0 +1,27 @@
+ 
+This paper presents a method for learning 
+phonological rules from sample pairs of un- 
+derlying and surface forms, without negative 
+evidence. The learned rules are represented as
+finite state transducers that accept underlying 
+forms as input and generate surface forms as 
+output. The algorithm for learning them is an 
+extension of the OSTIA algorithm for learn- 
+ing general subsequential finite state transduc- 
+ers. Although OSTIA is capable of learning 
+arbitrary s.-f.s.t's in the limit, large dictionaries 
+of actual English pronunciations did not give 
+enough samples to correctly induce phonolog- 
+ical rules. We then augmented OSTIA with 
+two kinds of knowledge specific to natural lan- 
+guage phonology, biases from "universal gram- 
+mar". One bias is that underlying phones are 
+often realized as phonetically similar or iden- 
+tical surface phones. The other biases phono- 
+logical rules to apply across natural phonolog- 
+ical classes. The additions helped in learning 
+more compact, accurate, and general transduc- 
+ers than the unmodified OSTIA algorithm. An 
+implementation f the algorithm successfully 
+learns a number of English postlexical rules. 
+1 

@@ -1,0 +1,14 @@
+
+We propose a normalized-cut model for the
+problem of aligning a known hierarchical
+browsing structure, e.g., electronic slides of
+lecture recordings, with the sequential tran-
+scripts of the corresponding spoken docu-
+ments, with the aim to help index and access
+the latter. This model optimizes a normalized-
+cut graph-partitioning criterion and considers
+local tree constraints at the same time. The ex-
+perimental results show the advantage of this
+model over Viterbi-like, sequential alignment,
+under typical speech recognition errors.
+1 

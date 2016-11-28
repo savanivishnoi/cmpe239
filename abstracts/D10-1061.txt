@@ -1,0 +1,27 @@
+
+Production of parallel training corpora for the
+development of statistical machine translation
+(SMT) systems for resource-poor languages
+usually requires extensive manual effort. Ac-
+tive sample selection aims to reduce the la-
+bor, time, and expense incurred in produc-
+ing such resources, attaining a given perfor-
+mance benchmark with the smallest possible
+training corpus by choosing informative, non-
+redundant source sentences from an available
+candidate pool for manual translation. We
+present a novel, discriminative sample selec-
+tion strategy that preferentially selects batches
+of candidate sentences with constructs that
+lead to erroneous translations on a held-out de-
+velopment set. The proposed strategy supports
+a built-in diversity mechanism that reduces
+redundancy in the selected batches. Simu-
+lation experiments on English-to-Pashto and
+Spanish-to-English translation tasks demon-
+strate the superiority of the proposed approach
+to a number of competing techniques, such
+as random selection, dissimilarity-based se-
+lection, as well as a recently proposed semi-
+supervised active learning strategy.
+1 

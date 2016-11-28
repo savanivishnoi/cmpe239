@@ -1,0 +1,19 @@
+
+This paper introduces Chart Inference (CI),
+an algorithm for deriving a CCG category
+for an unknown word from a partial parse
+chart. It is shown to be faster and more pre-
+cise than a baseline brute-force method, and
+to achieve wider coverage than a rule-based
+system. In addition, we show the application
+of CI to a domain adaptation task for ques-
+tion words, which are largely missing in the
+Penn Treebank. When used in combination
+with self-training, CI increases the precision
+of the baseline StatCCG parser over subject-
+extraction questions by 50%. An error analy-
+sis shows that CI contributes to the increase by
+expanding the number of category types avail-
+able to the parser, while self-training adjusts
+the counts.
+1 

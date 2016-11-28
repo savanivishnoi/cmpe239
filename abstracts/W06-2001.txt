@@ -1,0 +1,27 @@
+
+This paper presents the automatic exten-
+sion to other languages of TERSEO, a
+knowledge-based system for the recogni-
+tion and normalization of temporal ex-
+pressions originally developed for Span-
+ish1. TERSEO was first extended to En-
+glish through the automatic translation of
+the temporal expressions. Then, an im-
+proved porting process was applied to Ital-
+ian, where the automatic translation of
+the temporal expressions from English and
+from Spanish was combined with the ex-
+traction of new expressions from an Ital-
+ian annotated corpus. Experimental re-
+sults demonstrate how, while still adher-
+ing to the rule-based paradigm, the devel-
+opment of automatic rule translation pro-
+cedures allowed us to minimize the ef-
+fort required for porting to new languages.
+Relying on such procedures, and without
+any manual effort or previous knowledge
+of the target language, TERSEO recog-
+nizes and normalizes temporal expressions
+in Italian with good results (72% precision
+and 83% recall for recognition).
+1 

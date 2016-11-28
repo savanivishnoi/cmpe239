@@ -1,0 +1,28 @@
+
+This paper introduces Logical Semantics with
+Perception (LSP), a model for grounded lan-
+guage acquisition that learns to map natu-
+ral language statements to their referents in
+a physical environment. For example, given
+an image, LSP can map the statement ?blue
+mug on the table? to the set of image seg-
+ments showing blue mugs on tables. LSP
+learns physical representations for both cate-
+gorical (?blue,? ?mug?) and relational (?on?)
+language, and also learns to compose these
+representations to produce the referents of en-
+tire statements. We further introduce a weakly
+supervised training procedure that estimates
+LSP?s parameters using annotated referents
+for entire statements, without annotated ref-
+erents for individual words or the parse struc-
+ture of the statement. We perform experiments
+on two applications: scene understanding and
+geographical question answering. We find
+that LSP outperforms existing, less expressive
+models that cannot represent relational lan-
+guage. We further find that weakly supervised
+training is competitive with fully supervised
+training while requiring significantly less an-
+notation effort.
+1 

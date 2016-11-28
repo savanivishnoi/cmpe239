@@ -1,0 +1,15 @@
+
+We derive a spectral algorithm for learn-
+ing the parameters of a refinement HMM.
+This method is simple, efficient, and can
+be applied to a wide range of supervised
+sequence labeling tasks. Like other spec-
+tral methods, it avoids the problem of lo-
+cal optima and provides a consistent esti-
+mate of the parameters. Our experiments
+on a phoneme recognition task show that
+when equipped with informative feature
+functions, it performs significantly better
+than a supervised HMM and competitively
+with EM.
+1 

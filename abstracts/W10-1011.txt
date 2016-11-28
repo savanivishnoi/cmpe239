@@ -1,0 +1,16 @@
+ 
+This paper explores an issue of redundant errors 
+reported while automatically scoring English 
+learners? sentences. We use a human-computer 
+collaboration approach to eliminate redundant er-
+rors. The first step is to automatically select can-
+didate redundant errors using PMI and RFC. 
+Since those errors are detected with different IDs 
+although they represent the same error, the can-
+didacy cannot be confirmed automatically. The 
+errors are then handed over to human experts to 
+determine the candidacy. The final candidates 
+are provided to the system and trained with a de-
+cision tree. With those redundant errors eliminat-
+ed, the system accuracy has been improved. 
+1 

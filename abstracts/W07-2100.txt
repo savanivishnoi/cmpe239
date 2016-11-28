@@ -1,0 +1,22 @@
+
+This paper describes the University of Syd-
+ney?s WSD and Lexical Substitution sys-
+tems for SemEval-2007. These systems are
+principally based on evaluating the substi-
+tutability of potential synonyms in the con-
+text of the target word. Substitutability is
+measured using Pointwise Mutual Informa-
+tion as obtained from the Web1T corpus.
+The WSD systems are supervised, while
+the Lexical Substitution system is unsuper-
+vised. The lexical sample sub-task also used
+syntactic category information given from a
+CCG-based parse to assist in verb disam-
+biguation, while both WSD tasks also make
+use of more traditional features.
+These related systems participated in the
+Coarse-Grained English All-Words WSD
+task (task 7), the Lexical Substitution Task
+(task 10) and the English Lexical Sample
+WSD sub-task (task 17).
+1 

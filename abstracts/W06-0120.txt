@@ -1,0 +1,27 @@
+ 
+This paper addresses two major prob-
+lems in closed task of Chinese word 
+segmentation (CWS): tagging sentences 
+interspersed with non-Chinese words, 
+and long named entity (NE) identifica-
+tion. To resolve the former, we apply K-
+means clustering to identify non-Chinese 
+characters, and then adopt a two-tagger 
+architecture: one for Chinese text and the 
+other for non-Chinese text. For the latter 
+problem, we apply postprocessing to our 
+CWS output using automatically gener-
+ated templates. The experiment results 
+show that, when non-Chinese characters 
+are sparse in the training corpus, our 
+two-tagger method significantly im-
+proves the segmentation of sentences 
+containing non-Chinese words. Identifi-
+cation of long NEs and long words is 
+also enhanced by template-based post-
+processing. In the closed task of 
+SIGHAN 2006 CWS, our system 
+achieved F-scores of 0.957, 0.972, and 
+0.955 on the CKIP, CTU, and MSR cor-
+pora respectively.  
+1 

@@ -1,0 +1,19 @@
+
+We present a discriminative method for learn-
+ing selectional preferences from unlabeled
+text. Positive examples are taken from ob-
+served predicate-argument pairs, while nega-
+tives are constructed from unobserved combi-
+nations. We train a Support Vector Machine
+classifier to distinguish the positive from the
+negative instances. We show how to parti-
+tion the examples for efficient training with
+57 thousand features and 6.5 million training
+instances. The model outperforms other re-
+cent approaches, achieving excellent correla-
+tion with human plausibility judgments. Com-
+pared to Mutual Information, it identifies 66%
+more verb-object pairs in unseen text, and re-
+solves 37% more pronouns correctly in a pro-
+noun resolution experiment.
+1 

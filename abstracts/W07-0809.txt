@@ -1,0 +1,15 @@
+
+Tokenization is a necessary and non-trivial 
+step in natural language processing. In the 
+case of Arabic, where a single word can 
+comprise up to four independent tokens, 
+morphological knowledge needs to be in-
+corporated into the tokenizer. In this paper 
+we describe a rule-based tokenizer that 
+handles tokenization as a full-rounded 
+process with a preprocessing stage (white 
+space normalizer), and a post-processing 
+stage (token filter). We also show how it 
+handles multiword expressions, and how 
+ambiguity is resolved.
+1 

@@ -1,0 +1,23 @@
+
+We have adapted a classification approach
+coming from optical character recognition
+research to the task of speech emotion
+recognition. The classification approach
+enjoys the representational power of a syn-
+tactic method and efficiency of statisti-
+cal classification. The syntactic part im-
+plements a tree grammar inference algo-
+rithm. We have extended this part of the
+algorithm with various edit costs to pe-
+nalise more important features with higher
+edit costs for being outside the interval,
+which tree automata learned at the infer-
+ence stage. The statistical part implements
+an entropy based decision tree (C4.5). We
+did the testing on the Berlin database of
+emotional speech. Our classifier outper-
+forms the state of the art classifier (Multi-
+layer Perceptron) by 4.68% and a baseline
+(C4.5) by 26.58%, which proves validity
+of the approach.
+1 

@@ -1,0 +1,13 @@
+
+This paper explores what kind of user sim-
+ulation model is suitable for developing
+a training corpus for using Markov Deci-
+sion Processes (MDPs) to automatically
+learn dialog strategies. Our results sug-
+gest that with sparse training data, a model
+that aims to randomly explore more dialog
+state spaces with certain constraints actu-
+ally performs at the same or better than a
+more complex model that simulates real-
+istic user behaviors in a statistical way.
+1 

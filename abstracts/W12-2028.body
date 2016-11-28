@@ -1,0 +1,25 @@
+
+Previous work on automated error recognition
+and correction of texts written by learners of
+English as a Second Language has demon-
+strated experimentally that training classifiers
+on error-annotated ESL text generally outper-
+forms training on native text alone and that
+adaptation of error correction models to the
+native language (L1) of the writer improves
+performance. Nevertheless, most extant mod-
+els have poor precision, particularly when at-
+tempting error correction, and this limits their
+usefulness in practical applications requiring
+feedback.
+We experiment with various feature types,
+varying quantities of error-corrected data, and
+generic versus L1-specific adaptation to typi-
+cal errors using Na??ve Bayes (NB) classifiers
+and develop one model which maximizes pre-
+cision. We report and discuss the results for
+8 models, 5 trained on the HOO data and
+3 (partly) on the full error-coded Cambridge
+Learner Corpus, from which the HOO data is
+drawn.
+1 

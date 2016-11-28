@@ -1,0 +1,14 @@
+ 
+This paper proposes a three-level revision model for 
+improving badly-styled Japanese xpressions, especially 
+in the field of technical communication. The model is a 
+mixture of the regeneration-based model and tile 
+rewriting-based model. The first level divides tong 
+sentences, while the second level improves several 
+badly-styled expressions with iterative partial rewriting 
+operations. The last level performs regeneration, in
+which word ordering and punctuation to reduce tile 
+reading ambiguity are currently involvod. Expelimental 
+results show that our model is effective in realizing 
+practical revision support systems. 
+1 

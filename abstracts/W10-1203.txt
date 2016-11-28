@@ -1,0 +1,27 @@
+
+Text normalization transforms words into a
+base form so that terms from common equiv-
+alent classes match. Traditionally, informa-
+tion retrieval systems employ stemming tech-
+niques to remove derivational affixes. Deplu-
+ralization, the transformation of plurals into
+singular forms, is also used as a low-level text
+normalization technique to preserve more pre-
+cise lexical semantics of text.
+Experiment results suggest that the choice of
+text normalization technique should be made
+individually on each topic to enhance informa-
+tion retrieval accuracy. This paper proposes a
+hybrid approach, constructing a query-based
+selection model to select the appropriate text
+normalization technique (stemming, deplural-
+ization, or not doing any text normalization).
+The selection model utilized ambiguity prop-
+erties extracted from queries to train a com-
+posite of Support Vector Regression (SVR)
+models to predict a text normalization tech-
+nique that yields the highest Mean Average
+Precision (MAP). Based on our study, such
+a selection model holds promise in improving
+retrieval accuracy.
+1 

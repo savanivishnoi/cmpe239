@@ -1,0 +1,19 @@
+
+In adding syntax to statistical MT, there is
+a tradeoff between taking advantage of lin-
+guistic analysis, versus allowing the model
+to exploit linguistically unmotivated mappings
+learned from parallel training data. A num-
+ber of previous efforts have tackled this trade-
+off by starting with a commitment to linguisti-
+cally motivated analyses and then finding ap-
+propriate ways to soften that commitment. We
+present an approach that explores the trade-
+off from the other direction, starting with a
+context-free translation model learned directly
+from aligned parallel text, and then adding soft
+constituent-level constraints based on parses
+of the source language. We obtain substantial
+improvements in performance for translation
+from Chinese and Arabic to English.
+1 

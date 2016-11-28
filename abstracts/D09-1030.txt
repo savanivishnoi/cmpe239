@@ -1,0 +1,22 @@
+
+Manual evaluation of translation quality is
+generally thought to be excessively time
+consuming and expensive. We explore a
+fast and inexpensive way of doing it using
+Amazon?s Mechanical Turk to pay small
+sums to a large number of non-expert an-
+notators. For $10 we redundantly recre-
+ate judgments from a WMT08 transla-
+tion task. We find that when combined
+non-expert judgments have a high-level of
+agreement with the existing gold-standard
+judgments of machine translation quality,
+and correlate more strongly with expert
+judgments than Bleu does. We go on to
+show that Mechanical Turk can be used to
+calculate human-mediated translation edit
+rate (HTER), to conduct reading compre-
+hension experiments with machine trans-
+lation, and to create high quality reference
+translations.
+1 

@@ -1,0 +1,17 @@
+ 
+This paper presents a Prefix Tree (Trie) 
+based model for Generation of Referring 
+Expression (GRE). The existing algorithms 
+in GRE lie in two extremities. Incremental 
+algorithm is simple and speedy but less ex-
+pressive in nature whereas others are com-
+plex and exhaustive but more expressive in 
+nature. Our prefix tree based model not 
+only incorporates all relevant features of 
+GRE (like describing set, generating Boo-
+lean and context sensitive description etc.) 
+but also try to attain simplicity and speed 
+properties of Incremental algorithm. Thus 
+this model provides a simple and linguisti-
+cally rich approach to GRE. 
+1 

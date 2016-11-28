@@ -1,0 +1,17 @@
+
+In this paper we describe the system used to
+participate in the sub task 5b in the Phrasal Se-
+mantics challenge (task 5) in SemEval 2013.
+This sub task consists in discriminating lit-
+eral and figurative usage of phrases with
+compositional and non-compositional mean-
+ings in context. The proposed approach is
+based on part-of-speech tags, stylistic features
+and distributional statistics gathered from the
+same development-training-test text collec-
+tion. The system obtained a relative improve-
+ment in accuracy against the most-frequent-
+class baseline of 49.8% in the ?unseen con-
+texts? (LexSample) setting and 8.5% in ?un-
+seen phrases? (AllWords).
+1 

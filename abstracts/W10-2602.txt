@@ -1,0 +1,13 @@
+
+We report results from a domain adapta-
+tion task for statistical machine translation
+(SMT) using cache-based adaptive lan-
+guage and translation models. We apply
+an exponential decay factor and integrate
+the cache models in a standard phrase-
+based SMT decoder. Without the need for
+any domain-specific resources we obtain a
+2.6% relative improvement on average in
+BLEU scores using our dynamic adapta-
+tion procedure.
+1 

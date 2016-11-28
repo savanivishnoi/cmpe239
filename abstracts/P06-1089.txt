@@ -1,0 +1,18 @@
+
+In this paper, we present a method for
+guessing POS tags of unknown words us-
+ing local and global information. Al-
+though many existing methods use only
+local information (i.e. limited window
+size or intra-sentential features), global in-
+formation (extra-sentential features) pro-
+vides valuable clues for predicting POS
+tags of unknown words. We propose a
+probabilistic model for POS guessing of
+unknown words using global information
+as well as local information, and estimate
+its parameters using Gibbs sampling. We
+also attempt to apply the model to semi-
+supervised learning, and conduct experi-
+ments on multiple corpora.
+1 

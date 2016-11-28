@@ -1,0 +1,18 @@
+
+Given a movie comment, does it contain
+a spoiler? A spoiler is a comment that,
+when disclosed, would ruin a surprise or
+reveal an important plot detail. We study
+automatic methods to detect comments
+and reviews that contain spoilers and ap-
+ply them to reviews from the IMDB (Inter-
+net Movie Database) website. We develop
+topic models, based on Latent Dirichlet
+Allocation (LDA), but using linguistic de-
+pendency information in place of simple
+features from bag of words (BOW) repre-
+sentations. Experimental results demon-
+strate the effectiveness of our technique
+over four movie-comment datasets of dif-
+ferent scales.
+1 

@@ -1,0 +1,26 @@
+
+Single-word vector space models have been
+very successful at learning lexical informa-
+tion. However, they cannot capture the com-
+positional meaning of longer phrases, prevent-
+ing them from a deeper understanding of lan-
+guage. We introduce a recursive neural net-
+work (RNN) model that learns compositional
+vector representations for phrases and sen-
+tences of arbitrary syntactic type and length.
+Our model assigns a vector and a matrix to ev-
+ery node in a parse tree: the vector captures
+the inherent meaning of the constituent, while
+the matrix captures how it changes the mean-
+ing of neighboring words or phrases. This
+matrix-vector RNN can learn the meaning of
+operators in propositional logic and natural
+language. The model obtains state of the art
+performance on three different experiments:
+predicting fine-grained sentiment distributions
+of adverb-adjective pairs; classifying senti-
+ment labels of movie reviews and classifying
+semantic relationships such as cause-effect or
+topic-message between nouns using the syn-
+tactic path between them.
+1 

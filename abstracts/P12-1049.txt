@@ -1,0 +1,12 @@
+
+We propose a novel model to automatically
+extract transliteration pairs from parallel cor-
+pora. Our model is efficient, language pair
+independent and mines transliteration pairs in
+a consistent fashion in both unsupervised and
+semi-supervised settings. We model transliter-
+ation mining as an interpolation of translitera-
+tion and non-transliteration sub-models. We
+evaluate on NEWS 2010 shared task data and
+on parallel corpora with competitive results.
+1 

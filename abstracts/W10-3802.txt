@@ -1,0 +1,23 @@
+
+We present two contributions to gram-
+mar driven translation. First, since both
+Inversion Transduction Grammar and
+Linear Inversion Transduction Gram-
+mars have been shown to produce bet-
+ter alignments then the standard word
+alignment tool, we investigate how the
+trade-off between speed and end-to-end
+translation quality extends to the choice
+of grammar formalism. Second, we
+prove that Linear Transduction Gram-
+mars (LTGs) generate the same transduc-
+tions as Linear Inversion Transduction
+Grammars, and present a scheme for ar-
+riving at LTGs by bilingualizing Linear
+Grammars. We also present a method for
+obtaining Inversion Transduction Gram-
+mars from Linear (Inversion) Transduc-
+tion Grammars, which can speed up
+grammar induction from parallel corpora
+dramatically.
+1 

@@ -1,0 +1,25 @@
+ 
+When implementing computational lexicons it is 
+important o keep in mind the texts that a NLP 
+system must deal with. Words relate to each 
+other in many different, often queer, ways: this 
+information is rarely found in dictionaries, and it 
+is quite hard to be invented a priori, despite the 
+imagination that linguists exhibit at inventing 
+esoteric examples. 
+In this paper we present the results of an 
+experiment in learning from corpora the frequent 
+selectional restrictions holding between content 
+words. The method is based on the analysis of 
+word associations augmented with syntactic 
+markers and semantic tags. Word pairs are 
+extracted by a morphosyntactic analyzer and 
+clustered according to their semantic tags. A 
+statistical measure is applied to the data to 
+evaluate the significance of a detected relation. 
+Clustered association data render the study of 
+word associations more interesting with several 
+respects: data are more reliable even for smaller 
+corpora, more easy to interpret, and have many 
+practical applications in NLP. 
+1. 

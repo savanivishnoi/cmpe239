@@ -1,0 +1,22 @@
+
+In this paper, a framework for acquiring com-
+mon sense knowledge from the Web is pre-
+sented. Common sense knowledge includes
+information about the world that humans use
+in their everyday lives. To acquire this knowl-
+edge, relationships between nouns are re-
+trieved by using search phrases with automat-
+ically filled constituents. Through empirical
+analysis of the acquired nouns over Word-
+Net, probabilities are produced for relation-
+ships between a concept and a word rather
+than between two words. A specific goal of
+our acquisition method is to acquire knowl-
+edge that can be successfully applied to NLP
+problems. We test the validity of the acquired
+knowledge by means of an application to the
+problem of word sense disambiguation. Re-
+sults show that the knowledge can be used to
+improve the accuracy of a state of the art un-
+supervised disambiguation system.
+1 

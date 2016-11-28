@@ -1,0 +1,28 @@
+
+Dependency parsing has been shown to im-
+prove NLP systems in certain languages and
+in many cases helps achieve state of the art re-
+sults in NLP applications, in particular appli-
+cations for free word order languages. Mor-
+phologically rich languages are often short on
+training data or require much higher amounts
+of training data due to the increased size of
+their lexicon. This paper examines a new
+approach for addressing morphologically rich
+languages with little training data to start.
+Using Tamil as our test language, we cre-
+ate 9 dependency parse models with a lim-
+ited amount of training data. Using these
+models we train an SVM classifier using only
+the model agreements as features. We use
+this SVM classifier on an edge by edge deci-
+sion to form an ensemble parse tree. Using
+only model agreements as features allows this
+method to remain language independent and
+applicable to a wide range of morphologically
+rich languages.
+We show a statistically significant 5.44%
+improvement over the average dependency
+model and a statistically significant 0.52% im-
+provement over the best individual system.
+1 

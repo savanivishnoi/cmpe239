@@ -1,0 +1,20 @@
+
+In this paper we present a technique to
+reveal definitions and hypernym relations
+from text. Instead of using pattern match-
+ing methods that rely on lexico-syntactic
+patterns, we propose a technique which
+only uses syntactic dependencies between
+terms extracted with a syntactic parser.
+The assumption is that syntactic informa-
+tion are more robust than patterns when
+coping with length and complexity of the
+sentences. Afterwards, we transform such
+syntactic contexts in abstract representa-
+tions, that are then fed into a Support
+Vector Machine classifier. The results on
+an annotated dataset of definitional sen-
+tences demonstrate the validity of our ap-
+proach overtaking current state-of-the-art
+techniques.
+1 

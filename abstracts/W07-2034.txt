@@ -1,0 +1,15 @@
+ 
+HIT-IR-WSD is a word sense disambigua-
+tion (WSD) system developed for English 
+lexical sample task (Task 11) of Semeval 
+2007 by Information Retrieval Lab, Harbin 
+Institute of Technology. The system is 
+based on a supervised method using an 
+SVM classifier. Multi-resources including 
+words in the surrounding context, the part-
+of-speech of neighboring words, colloca-
+tions and syntactic relations are used. The 
+final micro-avg raw score achieves 81.9% 
+on the test set, the best one among partici-
+pating runs. 
+1 

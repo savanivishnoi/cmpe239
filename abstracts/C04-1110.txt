@@ -1,0 +1,13 @@
+
+We present a novel approach to spoken dialogue
+summarization. Our system employs a set of
+semantic similarity metrics using the noun por-
+tion of WordNet as a knowledge source. So far,
+the noun senses have been disambiguated man-
+ually. The algorithm aims to extract utterances
+carrying the essential content of dialogues. We
+evaluate the system on 20 Switchboard dia-
+logues. The results show that our system out-
+performs LEAD, RANDOM and TF*IDF base-
+lines.
+1 

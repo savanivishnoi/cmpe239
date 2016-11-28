@@ -1,0 +1,21 @@
+
+Measuring term informativeness is a funda-
+mental NLP task. Existing methods, mostly
+based on statistical information in corpora, do
+not actually measure informativeness of a term
+with regard to its semantic context. This pa-
+per proposes a new lightweight feature-free
+approach to encode term informativeness in
+context by leveraging web knowledge. Given
+a term and its context, we model context-
+aware term informativeness based on semantic
+similarity between the context and the term?s
+most featured context in a knowledge base,
+Wikipedia. We apply our method to three ap-
+plications: core term extraction from snippets
+(text segment), scientific keywords extraction
+(paper), and back-of-the-book index genera-
+tion (book). The performance is state-of-the-
+art or close to it for each application, demon-
+strating its effectiveness and generality.
+1 

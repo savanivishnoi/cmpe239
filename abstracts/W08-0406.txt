@@ -1,0 +1,18 @@
+
+We present a novel approach to word re-
+ordering which successfully integrates syn-
+tactic structural knowledge with phrase-based
+SMT. This is done by constructing a lattice
+of alternatives based on automatically learned
+probabilistic syntactic rules. In decoding, the
+alternatives are scored based on the output
+word order, not the order of the input. Un-
+like previous approaches, this makes it possi-
+ble to successfully integrate syntactic reorder-
+ing with phrase-based SMT. On an English-
+Danish task, we achieve an absolute improve-
+ment in translation quality of 1.1 % BLEU.
+Manual evaluation supports the claim that the
+present approach is significantly superior to
+previous approaches.
+1 

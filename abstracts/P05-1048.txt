@@ -1,0 +1,19 @@
+
+We directly investigate a subject of much
+recent debate: do word sense disambiga-
+tion models help statistical machine trans-
+lation quality? We present empirical re-
+sults casting doubt on this common, but
+unproved, assumption. Using a state-of-
+the-art Chinese word sense disambigua-
+tion model to choose translation candi-
+dates for a typical IBM statistical MT
+system, we find that word sense disam-
+biguation does not yield significantly bet-
+ter translation quality than the statistical
+machine translation system alone. Error
+analysis suggests several key factors be-
+hind this surprising finding, including in-
+herent limitations of current statistical MT
+architectures.
+1 

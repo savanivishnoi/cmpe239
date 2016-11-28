@@ -1,0 +1,18 @@
+
+Identifying news stories that discuss the
+same real-world events is important for
+news tracking and retrieval. Most exist-
+ing approaches rely on the traditional vec-
+tor space model. We propose an approach
+for recognizing identical real-world events
+based on a structured, event-oriented doc-
+ument representation. We structure docu-
+ments as graphs of event mentions and use
+graph kernels to measure the similarity be-
+tween document pairs. Our experiments
+indicate that the proposed graph-based ap-
+proach can outperform the traditional vec-
+tor space model, and is especially suitable
+for distinguishing between topically simi-
+lar, yet non-identical events.
+1 

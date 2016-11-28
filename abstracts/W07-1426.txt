@@ -1,0 +1,27 @@
+ 
+Textual Entailment Recognition is a se-
+mantic inference task that is required in 
+many natural language processing (NLP) 
+applications. In this paper, we present our 
+system for the third PASCAL recognizing 
+textual entailment (RTE-3) challenge. The 
+system is built on a machine learning 
+framework with the following features de-
+rived by state-of-the-art NLP techniques: 
+lexical semantic similarity (LSS), named 
+entities (NE), dependent content word pairs 
+(DEP), average distance (DIST), negation 
+(NG), task (TK), and text length (LEN). On 
+the RTE-3 test dataset, our system achieves 
+the accuracy of 0.64 and 0.6488 for the two 
+official submissions, respectively. Experi-
+mental results show that LSS and NE are 
+the most effective features. Further analy-
+ses indicate that a baseline dummy system 
+can achieve accuracy 0.545 on the RTE-3 
+test dataset, which makes RTE-3 relatively 
+easier than RTE-2 and RTE-1. In addition, 
+we demonstrate with examples that the cur-
+rent Average Precision measure and its 
+evaluation process need to be changed. 
+1 

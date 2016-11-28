@@ -1,0 +1,23 @@
+
+Humans identify word boundaries in continu-
+ous speech by combining multiple cues; exist-
+ing state-of-the-art models, though, look at a
+single cue. We extend the generative model of
+Goldwater et al(2006) to segment using sylla-
+ble stress as well as phonemic form. Our new
+model treats identification of word boundaries
+and prevalent stress patterns in the language as
+a joint inference task. We show that this model
+improves segmentation accuracy over purely
+segmental input representations, and recov-
+ers the dominant stress pattern of the data.
+Additionally, our model retains high perfor-
+mance even without single-word utterances.
+We also demonstrate a discrepancy in the per-
+formance of our model and human infants on
+an artificial-language task in which stress cues
+and transition-probability information are pit-
+ted against one another. We argue that this dis-
+crepancy indicates a bound on rationality in
+the mechanisms of human segmentation.
+1 

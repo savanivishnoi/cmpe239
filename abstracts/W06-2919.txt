@@ -1,0 +1,14 @@
+
+We present a novel context pattern in-
+duction method for information extrac-
+tion, specifically named entity extraction.
+Using this method, we extended several
+classes of seed entity lists into much larger
+high-precision lists. Using token member-
+ship in these extended lists as additional
+features, we improved the accuracy of a
+conditional random field-based named en-
+tity tagger. In contrast, features derived
+from the seed lists decreased extractor ac-
+curacy.
+1 

@@ -1,0 +1,18 @@
+
+We investigate statistical dependency parsing
+of two closely related languages, Croatian and
+Serbian. As these two morphologically com-
+plex languages of relaxed word order are gen-
+erally under-resourced ? with the topic of de-
+pendency parsing still largely unaddressed, es-
+pecially for Serbian ? we make use of the
+two available dependency treebanks of Croa-
+tian to produce state-of-the-art parsing models
+for both languages. We observe parsing accu-
+racy on four test sets from two domains. We
+give insight into overall parser performance
+for Croatian and Serbian, impact of prepro-
+cessing for lemmas and morphosyntactic tags
+and influence of selected morphosyntactic fea-
+tures on parsing accuracy.
+1 

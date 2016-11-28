@@ -1,0 +1,29 @@
+
+Unrehearsed spoken language often
+contains disfluencies. In order to cor-
+rectly interpret a spoken utterance,
+any such disfluencies must be identi-
+fied and removed or otherwise dealt
+with. Operating on transcripts of
+speech which contain disfluencies, our
+particular focus here is the identifica-
+tion and correction of speech repairs
+using a noisy channel model. Our aim
+is to develop a high-accuracy mecha-
+nism that can identify speech repairs
+in an incremental fashion, as the ut-
+terance is processed word-by-word.
+We also address the issue of the evalu-
+ation of such incremental systems. We
+propose a novel approach to evalua-
+tion, which evaluates performance in
+detecting and correcting disfluencies
+incrementally, rather than only assess-
+ing performance once the processing of
+an utterance is complete. This demon-
+strates some shortcomings in our ba-
+sic incremental model, and so we then
+demonstrate a technique that improves
+performance on the detection of disflu-
+encies as they happen.
+1 

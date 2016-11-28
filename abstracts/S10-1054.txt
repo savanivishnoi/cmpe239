@@ -1,0 +1,36 @@
+
+This paper presents the participation of the
+University of Bari (UBA) at the SemEval-
+2010 Cross-Lingual Lexical Substitution
+Task. The goal of the task is to substi-
+tute a word in a language L
+s
+, which oc-
+curs in a particular context, by provid-
+ing the best synonyms in a different lan-
+guage L
+t
+which fit in that context. This
+task has a strict relation with the task of
+automatic machine translation, but there
+are some differences: Cross-lingual lexi-
+cal substitution targets one word at a time
+and the main goal is to find as many good
+translations as possible for the given tar-
+get word. Moreover, there are some con-
+nections with Word Sense Disambiguation
+(WSD) algorithms. Indeed, understand-
+ing the meaning of the target word is nec-
+essary to find the best substitutions. An
+important aspect of this kind of task is
+the possibility of finding synonyms with-
+out using a particular sense inventory or a
+specific parallel corpus, thus allowing the
+participation of unsupervised approaches.
+UBA proposes two systems: the former is
+based on an automatic translation system
+which exploits Google Translator, the lat-
+ter is based on a parallel corpus approach
+which relies on Wikipedia in order to find
+the best substitutions.
+1 

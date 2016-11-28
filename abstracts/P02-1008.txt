@@ -1,0 +1,16 @@
+
+This paper ties up some loose ends in finite-state Optimality
+Theory. First, it discusses how to perform comprehension un-
+der Optimality Theory grammars consisting of finite-state con-
+straints. Comprehension has not been much studied in OT; we
+show that unlike production, it does not always yield a regular
+set, making finite-state methods inapplicable. However, after
+giving a suitably flexible presentation of OT, we show care-
+fully how to treat comprehension under recent variants of OT
+in which grammars can be compiled into finite-state transduc-
+ers. We then unify these variants, showing that compilation is
+possible if all components of the grammar are regular relations,
+including the harmony ordering on scored candidates. A side
+benefit of our construction is a far simpler implementation of
+directional OT (Eisner, 2000).
+1 

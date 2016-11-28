@@ -1,0 +1,20 @@
+ 
+ 
+Word segmentation is the first step in Chinese 
+information processing, and the performance 
+of the segmenter, therefore, has a direct and 
+great influence on the processing steps that 
+follow. Different segmenters will give 
+different results when handling issues like 
+word boundary. And we will present in this 
+paper that there is no need for an absolute 
+definition of word boundary for all segmenters, 
+and that different results of segmentation shall 
+be acceptable if they can help to reach a 
+correct syntactic analysis in the end.  
+Keyword: automatic Chinese word 
+segmentation, word segmentation evaluation, 
+corpus, natural language processing 
+ 
+ 
+1. 

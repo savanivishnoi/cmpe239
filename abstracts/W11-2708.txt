@@ -1,0 +1,25 @@
+
+Reversible stochastic attribute-value gram-
+mars (de Kok et al, 2011) use one model
+for parse disambiguation and fluency rank-
+ing. Such a model encodes preferences with
+respect to syntax, fluency, and appropriate-
+ness of logical forms, as weighted features.
+Reversible models are built on the premise
+that syntactic preferences are shared between
+parse disambiguation and fluency ranking.
+Given that reversible models also use fea-
+tures that are specific to parsing or genera-
+tion, there is the possibility that the model is
+trained to rely on these directional features. If
+this is true, the premise that preferences are
+shared between parse disambiguation and flu-
+ency ranking does not hold.
+In this work, we compare and apply feature se-
+lection techniques to extract the most discrim-
+inative features from directional and reversible
+models. We then analyse the contributions of
+different classes of features, and show that re-
+versible models do rely on task-independent
+features.
+1 

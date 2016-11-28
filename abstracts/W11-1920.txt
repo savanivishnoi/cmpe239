@@ -1,0 +1,17 @@
+
+This paper describes our entry to the 2011 CoNLL
+closed task (Pradhan et al, 2011) on modeling un-
+restricted coreference in OntoNotes. Our system is
+based on the Reconcile coreference resolution re-
+search platform. Reconcile is a general software in-
+frastructure for the development of learning-based
+noun phrase (NP) coreference resolution systems.
+Our entry for the CoNLL closed task is a configura-
+tion of Reconcile intended to do well on OntoNotes
+data. This paper describes our configuration of Rec-
+oncile as well as the changes that we had to imple-
+ment to integrate with the OntoNotes task definition
+and data formats. We also present and discuss the
+performance of our system under different testing
+conditions on a withheld validation set.
+1 

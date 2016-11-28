@@ -1,0 +1,11 @@
+ 
+Repetition is very common. Adaptive language models, which allow probabilities to change or adapt 
+after seeing just a few words of a text, were introduced in speech recognition to account for text cohesion. 
+Suppose a document mentions Noriega once. What is the chance that he will be mentioned again? if the 
+first instance has probability p, then under standard (bag-of words) independence assumptions, two in- 
+stances ought to have probability p2, but we find the probability is actually closer to p/2. The first men- 
+tion of a word obviously depends on frequency, but surprisingly, the second does not. Adaptation de- 
+pends more on lexical content han fl'equency; there is more adaptation for content words (proper nouns, 
+technical terminology and good keywords for information retrieval), and less adaptation for function 
+words, cliches and ordinary first names. 
+1. 

@@ -1,0 +1,30 @@
+ 
+ 
+This paper reports a voted Named Entity Rec-
+ognition (NER) system with the use of appro-
+priate unlabeled data. The proposed method is 
+based on the classifiers such as Maximum En-
+tropy (ME), Conditional Random Field (CRF) 
+and Support Vector Machine (SVM) and has 
+been tested for Bengali. The system makes use 
+of the language independent features in the 
+form of different contextual and orthographic 
+word level features along with the language 
+dependent features extracted from the Part of 
+Speech (POS) tagger and gazetteers. Context 
+patterns generated from the unlabeled data us-
+ing an active learning method have been used 
+as the features in each of the classifiers. A 
+semi-supervised method has been used to de-
+scribe the measures to automatically select ef-
+fective documents and sentences from unla-
+beled data. Finally, the models have been 
+combined together into a final system by 
+weighted voting technique. Experimental re-
+sults show the effectiveness of the proposed 
+approach with the overall Recall, Precision, 
+and F-Score values of 93.81%, 92.18% and 
+92.98%, respectively. We have shown how the 
+language dependent features can improve the 
+system performance. 
+1 

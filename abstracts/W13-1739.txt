@@ -1,0 +1,12 @@
+
+We present a method for automatically de-
+tecting missing hyphens in English text. Our
+method goes beyond a purely dictionary-based
+approach and also takes context into account.
+We evaluate our model on artificially gener-
+ated data as well as naturally occurring learner
+text. Our best-performing model achieves
+high precision and reasonable recall, making
+it suitable for inclusion in a system that gives
+feedback to language learners.
+1 

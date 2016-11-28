@@ -1,0 +1,13 @@
+
+In this paper, we describe our system sub-
+mitted for the Sentiment Analysis task at Se-
+mEval 2013 (Task 2). We implemented a com-
+bination of Explicit Semantic Analysis (ESA)
+with Naive Bayes classifier. ESA represents
+text as a high dimensional vector of explicitly
+defined topics, following the distributional se-
+mantic model. This approach is novel in the
+sense that ESA has not been used for Senti-
+ment Analysis in the literature, to the best of
+our knowledge.
+1 

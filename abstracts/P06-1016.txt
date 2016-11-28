@@ -1,0 +1,28 @@
+ 
+This paper proposes a novel hierarchical learn-
+ing strategy to deal with the data sparseness 
+problem in relation extraction by modeling the 
+commonality among related classes. For each 
+class in the hierarchy either manually prede-
+fined or automatically clustered, a linear dis-
+criminative function is determined in a top-
+down way using a perceptron algorithm with 
+the lower-level weight vector derived from the 
+upper-level weight vector. As the upper-level 
+class normally has much more positive train-
+ing examples than the lower-level class, the 
+corresponding linear discriminative function 
+can be determined more reliably. The upper-
+level discriminative function then can effec-
+tively guide the discriminative function learn-
+ing in the lower-level, which otherwise might 
+suffer from limited training data. Evaluation 
+on the ACE RDC 2003 corpus shows that the 
+hierarchical strategy much improves the per-
+formance by 5.6 and 5.1 in F-measure on 
+least- and medium- frequent relations respec-
+tively. It also shows that our system outper-
+forms the previous best-reported system by 2.7 
+in F-measure on the 24 subtypes using the 
+same feature set. 
+1 

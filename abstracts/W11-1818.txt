@@ -1,0 +1,20 @@
+
+Building on technical advances from the
+BioNLP 2009 Shared Task Challenge, the
+2011 challenge sets forth to generalize tech-
+niques to other complex biological event ex-
+traction tasks. In this paper, we present the
+implementation and evaluation of a signature-
+based machine-learning technique to predict
+events from full texts of infectious disease
+documents. Specifically, our approach uses
+novel signatures composed of traditional lin-
+guistic features and semantic knowledge to
+predict event triggers and their candidate argu-
+ments. Using a leave-one out analysis, we re-
+port the contribution of linguistic and shallow
+semantic features in the trigger prediction and
+candidate argument extraction. Lastly, we ex-
+amine evaluations and posit causes for errors
+in our complex biological event extraction.
+1 

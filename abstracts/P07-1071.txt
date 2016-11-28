@@ -1,0 +1,17 @@
+
+We describe a novel neural network archi-
+tecture for the problem of semantic role la-
+beling. Many current solutions are compli-
+cated, consist of several stages and hand-
+built features, and are too slow to be applied
+as part of real applications that require such
+semantic labels, partly because of their use
+of a syntactic parser (Pradhan et al, 2004;
+Gildea and Jurafsky, 2002). Our method in-
+stead learns a direct mapping from source
+sentence to semantic tags for a given pred-
+icate without the aid of a parser or a chun-
+ker. Our resulting system obtains accuracies
+comparable to the current state-of-the-art at
+a fraction of the computational cost.
+1 

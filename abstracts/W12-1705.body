@@ -1,0 +1,19 @@
+
+Probabilistic context-free grammars (PCFGs)
+are a popular cognitive model of syntax (Ju-
+rafsky, 1996). These can be formulated to
+be sensitive to human working memory con-
+straints by application of a right-corner trans-
+form (Schuler, 2009). One side-effect of the
+transform is that it guarantees at most a sin-
+gle expansion (push) and at most a single re-
+duction (pop) during a syntactic parse. The
+primary finding of this paper is that this prop-
+erty of right-corner parsing can be exploited to
+obtain a dramatic reduction in the number of
+random variables in a probabilistic sequence
+model parser. This yields a simpler structure
+that more closely resembles existing simple
+recurrent network models of sentence compre-
+hension.
+1 

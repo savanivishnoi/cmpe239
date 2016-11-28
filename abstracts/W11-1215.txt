@@ -1,0 +1,23 @@
+
+This paper introduces a new task of
+crosslingual slot filling which aims to dis-
+cover attributes for entity queries from
+crosslingual comparable corpora and then
+present answers in a desired language. It is
+a very challenging task which suffers from
+both information extraction and machine
+translation errors. In this paper we ana-
+lyze the types of errors produced by five
+different baseline approaches, and present
+a novel supervised rescoring based valida-
+tion approach to incorporate global evi-
+dence from very large bilingual compara-
+ble corpora. Without using any additional
+labeled data this new approach obtained
+38.5% relative improvement in Precision
+and 86.7% relative improvement in Recall
+over several state-of-the-art approaches.
+The ultimate system outperformed mono-
+lingual slot filling pipelines built on much
+larger monolingual corpora.
+1 

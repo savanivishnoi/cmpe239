@@ -1,0 +1,19 @@
+
+This paper describes the system developed by
+the Serendio team for the SemEval-2013 Task
+2 competition (Task A). We use a lexicon
+based approach for discovering sentiments.
+Our lexicon is built from the Serendio tax-
+onomy. The Serendio taxonomy consists of
+positive, negative, negation, stop words and
+phrases. A typical tweet contains word varia-
+tions, emoticons, hashtags etc. We use prepro-
+cessing steps such as stemming, emoticon de-
+tection and normalization, exaggerated word
+shortening and hashtag detection. After the
+preprocessing, the lexicon-based system clas-
+sifies the tweets as positive or negative based
+on the contextual sentiment orientation of the
+words. Our system yields an F-score of 0.8004
+on the test dataset.
+1 

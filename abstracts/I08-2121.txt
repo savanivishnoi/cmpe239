@@ -1,0 +1,22 @@
+
+Duplicate document detection is the problem
+of finding all document-pairs rapidly whose
+similarities are equal to or greater than a
+given threshold. There is a method pro-
+posed recently called prefix-filter that finds
+document-pairs whose similarities never
+reach the threshold based on the number
+of uncommon terms (words/characters) in
+a document-pair and removes them before
+similarity calculation. However, prefix-filter
+cannot decrease the number of similarity
+calculations sufficiently because it leaves
+many document-pairs whose similarities are
+less than the threshold. In this paper, we
+propose multi-level prefix-filter, which re-
+duces the number of similarity calculations
+more efficiently and maintains the advan-
+tage of prefix-filter (no detection loss, no ex-
+tra parameter) by applying multiple different
+prefix-filters.
+1 

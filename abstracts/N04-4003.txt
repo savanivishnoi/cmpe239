@@ -1,0 +1,17 @@
+
+Conventional statistical machine translation
+(SMT) approaches might not be able to find
+a good translation due to problems in its sta-
+tistical models (due to data sparseness dur-
+ing the estimation of the model parameters) as
+well as search errors during the decoding pro-
+cess. This paper1 presents an example-based
+rescoring method that validates SMT transla-
+tion candidates and judges whether the selected
+decoder output is good or not. Given such
+a validation filter, defective translations can
+be rejected. The experiments show a dras-
+tic improvement in the overall system perfor-
+mance compared to translation selection meth-
+ods based on statistical scores only.
+1 

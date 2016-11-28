@@ -1,0 +1,21 @@
+
+This paper addresses the task of construct-
+ing a timeline of events mentioned in a given
+text. To accomplish that, we present a novel
+representation of the temporal structure of a
+news article based on time intervals. We then
+present an algorithmic approach that jointly
+optimizes the temporal structure by coupling
+local classifiers that predict associations and
+temporal relations between pairs of tempo-
+ral entities with global constraints. Moreover,
+we present ways to leverage knowledge pro-
+vided by event coreference to further improve
+the system performance. Overall, our experi-
+ments show that the joint inference model sig-
+nificantly outperformed the local classifiers by
+9.2% of relative improvement in F1. The ex-
+periments also suggest that good event coref-
+erence could make remarkable contribution to
+a robust event timeline construction system.
+1 

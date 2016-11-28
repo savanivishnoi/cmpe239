@@ -1,0 +1,20 @@
+
+The vast majority of parser evaluation is
+conducted on the 1984 Wall Street Journal
+(WSJ). In-domain evaluation of this kind
+is important for system development, but
+gives little indication about how the parser
+will perform on many practical problems.
+Wikipedia is an interesting domain for
+parsing that has so far been under-
+explored. We present statistical parsing re-
+sults that for the first time provide infor-
+mation about what sort of performance a
+user parsing Wikipedia text can expect.
+We find that the C&C parser?s standard
+model is 4.3% less accurate on Wikipedia
+text, but that a simple self-training ex-
+ercise reduces the gap to 3.8%. The
+self-training also speeds up the parser on
+newswire text by 20%.
+1 

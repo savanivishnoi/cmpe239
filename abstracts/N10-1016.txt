@@ -1,0 +1,23 @@
+
+Constrained decoding is of great importance
+not only for speed but also for translation qual-
+ity. Previous efforts explore soft syntactic con-
+straints which are based on constituent bound-
+aries deduced from parse trees of the source
+language. We present a new framework to es-
+tablish soft constraints based on a more nat-
+ural alternative: translation boundary rather
+than constituent boundary. We propose sim-
+ple classifiers to learn translation boundaries
+for any source sentences. The classifiers are
+trained directly on word-aligned corpus with-
+out using any additional resources. We report
+the accuracy of our translation boundary clas-
+sifiers. We show that using constraints based
+on translation boundaries predicted by our
+classifiers achieves significant improvements
+over the baseline on large-scale Chinese-to-
+English translation experiments. The new
+constraints also significantly outperform con-
+stituent boundary based syntactic constrains.
+1 

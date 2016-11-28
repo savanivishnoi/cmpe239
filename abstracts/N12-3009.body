@@ -1,0 +1,27 @@
+
+This demonstration presents AttitudeMiner, a
+system for mining attitude from online dis-
+cussions. AttitudeMiner uses linguistic tech-
+niques to analyze the text exchanged between
+participants of online discussion threads at dif-
+ferent levels of granularity: the word level, the
+sentence level, the post level, and the thread
+level. The goal of this analysis is to iden-
+tify the polarity of the attitude the discussants
+carry towards one another. Attitude predic-
+tions are used to construct a signed network
+representation of the discussion thread. In this
+network, each discussant is represented by a
+node. An edge connects two discussants if
+they exchanged posts. The sign (positive or
+negative) of the edge is set based on the po-
+larity of the attitude identified in the text asso-
+ciated with the edge. The system can be used
+in different applications such as: word polar-
+ity identification, identifying attitudinal sen-
+tences and their signs, signed social network
+extraction from text, subgroup detect in dis-
+cussion. The system is publicly available for
+download and has an online demonstration at
+http://clair.eecs.umich.edu/AttitudeMiner/.
+1 

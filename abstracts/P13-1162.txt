@@ -1,0 +1,27 @@
+
+Unbiased language is a requirement for
+reference sources like encyclopedias and
+scientific texts. Bias is, nonetheless, ubiq-
+uitous, making it crucial to understand its
+nature and linguistic realization and hence
+detect bias automatically. To this end we
+analyze real instances of human edits de-
+signed to remove bias from Wikipedia ar-
+ticles. The analysis uncovers two classes
+of bias: framing bias, such as praising or
+perspective-specific words, which we link
+to the literature on subjectivity; and episte-
+mological bias, related to whether propo-
+sitions that are presupposed or entailed in
+the text are uncontroversially accepted as
+true. We identify common linguistic cues
+for these classes, including factive verbs,
+implicatives, hedges, and subjective inten-
+sifiers. These insights help us develop fea-
+tures for a model to solve a new prediction
+task of practical importance: given a bi-
+ased sentence, identify the bias-inducing
+word. Our linguistically-informed model
+performs almost as well as humans tested
+on the same task.
+1 

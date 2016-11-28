@@ -1,0 +1,24 @@
+
+Correct stress placement is important in
+text-to-speech systems, in terms of both
+the overall accuracy and the naturalness of
+pronunciation. In this paper, we formu-
+late stress assignment as a sequence pre-
+diction problem. We represent words as
+sequences of substrings, and use the sub-
+strings as features in a Support Vector Ma-
+chine (SVM) ranker, which is trained to
+rank possible stress patterns. The rank-
+ing approach facilitates inclusion of arbi-
+trary features over both the input sequence
+and output stress pattern. Our system ad-
+vances the current state-of-the-art, predict-
+ing primary stress in English, German, and
+Dutch with up to 98% word accuracy on
+phonemes, and 96% on letters. The sys-
+tem is also highly accurate in predicting
+secondary stress. Finally, when applied in
+tandem with an L2P system, it substan-
+tially reduces the word error rate when
+predicting both phonemes and stress.
+1 

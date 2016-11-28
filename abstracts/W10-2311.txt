@@ -1,0 +1,20 @@
+
+MuLLinG is a model for knowledge extrac-
+tion  (especially  lexical  extraction  from cor-
+pora), based on multilevel graphs. Its aim is 
+to allow large-scale data acquisition, by mak-
+ing  it  easy  to  realize  automatically,  and 
+simple to configure by linguists with limited 
+knowledge  in  computer  programming.  In 
+MuLLinG, each new level represents the in-
+formation  in  a  different  manner  (more  and 
+more abstract). We also introduce several as-
+sociated operators, written to be as generic as 
+possible. They are independent of what nodes 
+and  edges  represent,  and  of  the  task  to 
+achieve.  Consequently,  they  allow  the  de-
+scription of a complex extraction process as a 
+succession of simple graph manipulations. Fi-
+nally,  we present  an experiment of colloca-
+tion extraction using MuLLinG model.
+1 

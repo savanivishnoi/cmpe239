@@ -1,0 +1,20 @@
+
+One important subtask of Referring Expres-
+sion Generation (REG) algorithms is to se-
+lect the attributes in a definite description for
+a given object. In this paper, we study how
+much training data is required for algorithms
+to do this properly. We compare two REG al-
+gorithms in terms of their performance: the
+classic Incremental Algorithm and the more
+recent Graph algorithm. Both rely on a notion
+of preferred attributes that can be learned from
+human descriptions. In our experiments, pref-
+erences are learned from training sets that vary
+in size, in two domains and languages. The
+results show that depending on the algorithm
+and the complexity of the domain, training on
+a handful of descriptions can already lead to a
+performance that is not significantly different
+from training on a much larger data set.
+1 

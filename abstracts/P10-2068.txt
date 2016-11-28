@@ -1,0 +1,24 @@
+
+We present a novel system that helps non-
+experts find sets of similar words. The
+user begins by specifying one or more seed
+words. The system then iteratively sug-
+gests a series of candidate words, which
+the user can either accept or reject. Cur-
+rent techniques for this task typically boot-
+strap a classifier based on a fixed seed
+set. In contrast, our system involves
+the user throughout the labeling process,
+using active learning to intelligently ex-
+plore the space of similar words. In
+particular, our system can take advan-
+tage of negative examples provided by the
+user. Our system combines multiple pre-
+existing sources of similarity data (a stan-
+dard thesaurus, WordNet, contextual sim-
+ilarity), enabling it to capture many types
+of similarity groups (?synonyms of crash,?
+?types of car,? etc.). We evaluate on a
+hand-labeled evaluation set; our system
+improves over a strong baseline by 36%.
+1 

@@ -1,0 +1,14 @@
+
+The paper describes our experiments with
+English-Czech machine translation for
+WMT101 in 2010. Focusing primarily
+on the translation to Czech, our additions
+to the standard Moses phrase-based MT
+pipeline include two-step translation to
+overcome target-side data sparseness and
+optimization towards SemPOS, a metric
+better suited for evaluating Czech. Unfor-
+tunately, none of the approaches bring a
+significant improvement over our standard
+setup.
+1 

@@ -1,0 +1,27 @@
+ 
+The paper aises for discussion a proposal for the 
+semi-automatic annotation of pronoun-antecedent 
+pairs in corpora. The proposal is based on robust 
+knowledge-poor p onoun resolution followed by 
+post-editing. 
+The paper is structured as follows. The introduc- 
+tion comments on the fact that automatic dentifi- 
+cation of referential links in corpora has lagged 
+behind in comparison with similar lexical, syn- 
+tactical and even semantic tasks. The second sec- 
+tion of the paper outlines the author's practical 
+and robust knowledge-based approach to pro- 
+noun resolution which will subsequently be put 
+forward as the core of a larger architecture pro- 
+posed for the automatic tagging of referential 
+links. Section 3 briefly presents other related 
+knowledge-poor approaches, while section 4 dis- 
+cusses the limitations and advantages of the 
+practical approach. The main argument of the 
+paper is to be found in section 5, where we pres- 
+ent the idea of developing a semi-automatic envi- 
+ronment for annotating anaphoric links and out- 
+line the components of such a program. Finally, 
+the conclusion looks at the anticipated success 
+rate of the approach. 
+1. 

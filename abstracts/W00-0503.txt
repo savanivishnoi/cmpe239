@@ -1,0 +1,17 @@
+ 
+A growing trend in Machine Translation 
+(MT) is to view MT as an embedded part of 
+an overall process instead of an end result 
+itself. For the last four years, we have 
+fielded (primarily) Commercial-Off-The- 
+Shelf (COTS) MT systems in an operational 
+process. MT has been used to facilitate 
+cross-language information retrieval (IR), 
+topic detection and other, wide-scoped 
+scenarios. These uses caused a fundamental 
+shift in our views about MT - everything 
+from user interface to system evaluation to 
+the basic system structures. This paper 
+presents our lessons learned in developing 
+an MT service for a wide range of user 
+needs. 

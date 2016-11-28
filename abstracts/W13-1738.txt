@@ -1,0 +1,19 @@
+
+We present an experiment aimed at improv-
+ing interpretation robustness of a tutorial dia-
+logue system that relies on detailed semantic
+interpretation and dynamic natural language
+feedback generation. We show that we can
+improve overall interpretation quality by com-
+bining the output of a semantic interpreter
+with that of a statistical classifier trained on
+the subset of student utterances where seman-
+tic interpretation fails. This improves on a pre-
+vious result which used a similar approach but
+trained the classifier on a substantially larger
+data set containing all student utterances. Fi-
+nally, we discuss how the labels from the sta-
+tistical classifier can be integrated effectively
+with the dialogue system?s existing error re-
+covery policies.
+1 

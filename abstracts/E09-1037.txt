@@ -1,0 +1,23 @@
+
+We introduce cube summing, a technique
+that permits dynamic programming algo-
+rithms for summing over structures (like
+the forward and inside algorithms) to be
+extended with non-local features that vio-
+late the classical structural independence
+assumptions. It is inspired by cube prun-
+ing (Chiang, 2007; Huang and Chiang,
+2007) in its computation of non-local
+features dynamically using scored k-best
+lists, but also maintains additional resid-
+ual quantities used in calculating approx-
+imate marginals. When restricted to lo-
+cal features, cube summing reduces to a
+novel semiring (k-best+residual) that gen-
+eralizes many of the semirings of Good-
+man (1999). When non-local features are
+included, cube summing does not reduce
+to any semiring, but is compatible with
+generic techniques for solving dynamic
+programming equations.
+1 

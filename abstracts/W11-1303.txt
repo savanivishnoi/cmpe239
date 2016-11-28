@@ -1,0 +1,17 @@
+
+Since its introduction into the NLP community,
+pointwise mutual information has proven to be
+a useful association measure in numerous nat-
+ural language processing applications such as
+collocation extraction and word space models.
+In its original form, it is restricted to the anal-
+ysis of two-way co-occurrences. NLP prob-
+lems, however, need not be restricted to two-
+way co-occurrences; often, a particular prob-
+lem can be more naturally tackled when for-
+mulated as a multi-way problem. In this pa-
+per, we explore two multivariate generaliza-
+tions of pointwise mutual information, and ex-
+plore their usefulness and nature in the extrac-
+tion of subject verb object triples.
+1 

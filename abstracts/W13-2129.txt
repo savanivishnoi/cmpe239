@@ -1,0 +1,12 @@
+
+This demo showcases Thoughtland, an
+end-to-end system that takes training data
+and a selected machine learning model,
+produces a cloud of points via cross-
+validation to approximate its error func-
+tion, then uses model-based clustering to
+identify interesting components of the er-
+ror function and natural language genera-
+tion to produce an English text summariz-
+ing the error function.
+1 

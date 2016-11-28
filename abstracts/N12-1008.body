@@ -1,0 +1,22 @@
+
+This paper addresses the extraction of event
+records from documents that describe multi-
+ple events. Specifically, we aim to identify
+the fields of information contained in a docu-
+ment and aggregate together those fields that
+describe the same event. To exploit the in-
+herent connections between field extraction
+and event identification, we propose to model
+them jointly. Our model is novel in that it
+integrates information from separate sequen-
+tial models, using global potentials that en-
+courage the extracted event records to have
+desired properties. While the model con-
+tains high-order potentials, efficient approxi-
+mate inference can be performed with dual-
+decomposition. We experiment with two data
+sets that consist of newspaper articles de-
+scribing multiple terrorism events, and show
+that our model substantially outperforms tra-
+ditional pipeline models.
+1 

@@ -1,0 +1,24 @@
+
+Non-verbal modalities such as gesture can
+improve processing of spontaneous spoken
+language. For example, similar hand ges-
+tures tend to predict semantic similarity, so
+features that quantify gestural similarity can
+improve semantic tasks such as coreference
+resolution. However, not all hand move-
+ments are informative gestures; psycholog-
+ical research has shown that speakers are
+more likely to gesture meaningfully when
+their speech is ambiguous. Ideally, one
+would attend to gesture only in such cir-
+cumstances, and ignore other hand move-
+ments. We present conditional modality
+fusion, which formalizes this intuition by
+treating the informativeness of gesture as a
+hidden variable to be learned jointly with
+the class label. Applied to coreference
+resolution, conditional modality fusion sig-
+nificantly outperforms both early and late
+modality fusion, which are current tech-
+niques for modality combination.
+1 

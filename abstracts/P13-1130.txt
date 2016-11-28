@@ -1,0 +1,30 @@
+
+Hierarchical Bayesian Models (HBMs)
+have been used with some success
+to capture empirically observed pat-
+terns of under- and overgeneralization
+in child language acquisition. How-
+ever, as is well known, HBMs are
+?ideal? learning systems, assuming ac-
+cess to unlimited computational re-
+sources that may not be available
+to child language learners. Conse-
+quently, it remains crucial to carefully
+assess the use of HBMs along with al-
+ternative, possibly simpler, candidate
+models. This paper presents such
+an evaluation for a language acquisi-
+tion domain where explicit HBMs have
+been proposed: the acquisition of En-
+glish dative constructions. In particu-
+lar, we present a detailed, empirically-
+grounded model-selection compari-
+son of HBMs vs. a simpler alternative
+based on clustering along with max-
+imum likelihood estimation that we
+call linear competition learning (LCL).
+Our results demonstrate that LCL can
+match HBM model performance with-
+out incurring on the high computa-
+tional costs associated with HBMs.
+1 

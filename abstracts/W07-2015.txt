@@ -1,0 +1,18 @@
+
+This task tries to establish the relative qual-
+ity of available semantic resources (derived
+by manual or automatic means). The qual-
+ity of each large-scale knowledge resource
+is indirectly evaluated on a Word Sense Dis-
+ambiguation task. In particular, we use
+Senseval-3 and SemEval-2007 English Lex-
+ical Sample tasks as evaluation bechmarks
+to evaluate the relative quality of each re-
+source. Furthermore, trying to be as neu-
+tral as possible with respect the knowledge
+bases studied, we apply systematically the
+same disambiguation method to all the re-
+sources. A completely different behaviour is
+observed on both lexical data sets (Senseval-
+3 and SemEval-2007).
+1 

@@ -1,0 +1,32 @@
+
+The automatic generation of entity profiles
+from unstructured text, such as Knowledge
+Base Population, if applied in a multi-lingual
+setting, generates the need to align such pro-
+files from multiple languages in an unsuper-
+vised manner. This paper describes an unsu-
+pervised and language-independent approach
+to mine name translation pairs from entity pro-
+files, using Wikipedia Infoboxes as a stand-in
+for high quality entity profile extraction. Pairs
+are initially found using expressions that are
+written in language-independent forms (such
+as dates and numbers), and new translations
+are then mined from these pairs. The algo-
+rithm then iteratively bootstraps from these
+translations to learn more pairs and more
+translations. The algorithm maintains a high
+precision, over 95%, for the majority of its
+iterations, with a slightly lower precision of
+85.9% and an f-score of 76%. A side effect
+of the name mining algorithm is the unsuper-
+vised creation of a translation lexicon between
+the two languages, with an accuracy of 64%.
+We also duplicate three state-of-the-art name
+translation mining methods and use two ex-
+isting name translation gazetteers to compare
+with our approach. Comparisons show our
+approach can effectively augment the results
+from each of these alternative methods and re-
+sources.
+1 

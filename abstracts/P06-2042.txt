@@ -1,0 +1,26 @@
+
+Japanese dependency structure is usu-
+ally represented by relationships between
+phrasal units called bunsetsus. One of the
+biggest problems with dependency struc-
+ture analysis in spontaneous speech is that
+clause boundaries are ambiguous. This
+paper describes a method for detecting
+the boundaries of quotations and inserted
+clauses and that for improving the depen-
+dency accuracy by applying the detected
+boundaries to dependency structure anal-
+ysis. The quotations and inserted clauses
+are determined by using an SVM-based
+text chunking method that considers in-
+formation on morphemes, pauses, fillers,
+etc. The information on automatically an-
+alyzed dependency structure is also used
+to detect the beginning of the clauses.
+Our evaluation experiment using Corpus
+of Spontaneous Japanese (CSJ) showed
+that the automatically estimated bound-
+aries of quotations and inserted clauses
+helped to improve the accuracy of depen-
+dency structure analysis.
+1 

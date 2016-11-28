@@ -1,0 +1,21 @@
+ 
+This article describes the current state 
+of syntactic analysis of Estonian using 
+Constraint Grammar. Constraint Gram- 
+mar framework divides parsing into two 
+different modules: morphological disam- 
+biguation and determination of syntac- 
+tic functions. This article focuses on the 
+last module in detail. If the morphologi- 
+cal disambiguator achieves the precision 
+more than 85% and error rate is smaller 
+than 2% then 80-88% of words becomes 
+syntactically unambiguous. The error 
+rate of parser is 1-4% depending on the 
+ambiguity rate of input. The main goal 
+of this work is to elaborate an efficient 
+parser for Estonian and annotate the 
+Corpus of Estonian Written Texts syn- 
+tactically. It is the first attempt to write 
+a parser for Estonian. 
+1 

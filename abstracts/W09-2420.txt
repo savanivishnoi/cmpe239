@@ -1,0 +1,15 @@
+
+Domain portability and adaptation of NLP
+components and Word Sense Disambiguation
+systems present new challenges. The diffi-
+culties found by supervised systems to adapt
+might change the way we assess the strengths
+and weaknesses of supervised and knowledge-
+based WSD systems. Unfortunately, all ex-
+isting evaluation datasets for specific domains
+are lexical-sample corpora. With this paper
+we want to motivate the creation of an all-
+words test dataset for WSD on the environ-
+ment domain in several languages, and present
+the overall design of this SemEval task.
+1 

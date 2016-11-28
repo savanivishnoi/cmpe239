@@ -1,0 +1,18 @@
+
+This paper describes the Cambridge Uni-
+versity Engineering Department submis-
+sion to the Fifth Workshop on Statistical
+Machine Translation. We report results for
+the French-English and Spanish-English
+shared translation tasks in both directions.
+The CUED system is based on HiFST, a
+hierarchical phrase-based decoder imple-
+mented using weighted finite-state trans-
+ducers. In the French-English task, we
+investigate the use of context-dependent
+alignment models. We also show that
+lattice minimum Bayes-risk decoding is
+an effective framework for multi-source
+translation, leading to large gains in BLEU
+score.
+1 

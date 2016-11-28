@@ -1,0 +1,15 @@
+
+This paper presents an unsupervised
+graph-based method for automatic word
+sense induction and disambiguation. The
+innovative part of our method is the as-
+signment of either a word or a word pair
+to each vertex of the constructed graph.
+Word senses are induced by clustering the
+constructed graph. In the disambiguation
+stage, each induced cluster is scored ac-
+cording to the number of its vertices found
+in the context of the target word. Our sys-
+tem participated in SemEval-2010 word
+sense induction and disambiguation task.
+1 

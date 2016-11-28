@@ -1,0 +1,16 @@
+
+This paper presents latent semantic gram-
+mars for the unsupervised induction of
+English grammar. Latent semantic gram-
+mars were induced by applying singu-
+lar value decomposition to n-gram by
+context-feature matrices. Parsing was
+used to evaluate performance. Exper-
+iments with context, projectivity, and
+prior distributions show the relative per-
+formance effects of these kinds of prior
+knowledge. Results show that prior dis-
+tributions, projectivity, and part of speech
+information are not necessary to beat the
+right branching baseline.
+1 

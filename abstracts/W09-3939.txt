@@ -1,0 +1,16 @@
+
+In this paper we compare two Ma-
+chine Learning approaches to the task
+of pronominal anaphora resolution: a
+conventional classification system based
+on C5.0 decision trees, and a novel
+perceptron-based ranker. We use coref-
+erence links annotated in the Prague De-
+pendency Treebank 2.0 for training and
+evaluation purposes. The perceptron sys-
+tem achieves f-score 79.43% on recogniz-
+ing coreference of personal and possessive
+pronouns, which clearly outperforms the
+classifier and which is the best result re-
+ported on this data set so far.
+1 

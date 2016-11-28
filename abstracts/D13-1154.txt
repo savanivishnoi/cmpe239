@@ -1,0 +1,18 @@
+
+Often the bottleneck in document classifica-
+tion is finding good representations that zoom
+in on the most important aspects of the doc-
+uments. Most research uses n-gram repre-
+sentations, but relevant features often occur
+discontinuously, e.g., not. . . good in sentiment
+analysis. In this paper we present experi-
+ments getting experts to provide regular ex-
+pressions, as well as crowdsourced annota-
+tion tasks from which regular expressions can
+be derived. Somewhat surprisingly, it turns
+out that these crowdsourced feature combina-
+tions outperform automatic feature combina-
+tion methods, as well as expert features, by a
+very large margin and reduce error by 24-41%
+over n-gram representations.
+1 

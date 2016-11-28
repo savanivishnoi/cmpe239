@@ -1,0 +1,18 @@
+
+In this paper, we describe a method for as-
+sessing student answers, modeled as a para-
+phrase identification problem, based on sub-
+stitution by Basic English variants. Basic En-
+glish paraphrases are acquired from the Sim-
+ple English Wiktionary. Substitutions are ap-
+plied both on reference answers and student
+answers in order to reduce the diversity of
+their vocabulary and map them to a common
+vocabulary. The evaluation of our approach
+on the SemEval 2013 Joint Student Response
+Analysis and 8th Recognizing Textual Entail-
+ment Challenge data shows promising results,
+and this work is a first step toward an open-
+domain system able to exhibit deep text un-
+derstanding capabilities.
+1 

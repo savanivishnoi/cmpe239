@@ -1,0 +1,20 @@
+
+We analyze humorous spoken conversa-
+tions from a classic comedy television
+show, FRIENDS, by examining acoustic-
+prosodic and linguistic features and their
+utility in automatic humor recognition.
+Using a simple annotation scheme, we au-
+tomatically label speaker turns in our cor-
+pus that are followed by laughs as hu-
+morous and the rest as non-humorous.
+Our humor-prosody analysis reveals sig-
+nificant differences in prosodic character-
+istics (such as pitch, tempo, energy etc.)
+of humorous and non-humorous speech,
+even when accounted for the gender and
+speaker differences. Humor recognition
+was carried out using standard supervised
+learning classifiers, and shows promising
+results significantly above the baseline.
+1 

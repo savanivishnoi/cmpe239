@@ -1,0 +1,17 @@
+
+We present a novel unsupervised framework
+for focused meeting summarization that views
+the problem as an instance of relation extrac-
+tion. We adapt an existing in-domain rela-
+tion learner (Chen et al., 2011) by exploit-
+ing a set of task-specific constraints and fea-
+tures. We evaluate the approach on a decision
+summarization task and show that it outper-
+forms unsupervised utterance-level extractive
+summarization baselines as well as an exist-
+ing generic relation-extraction-based summa-
+rization method. Moreover, our approach pro-
+duces summaries competitive with those gen-
+erated by supervised methods in terms of the
+standard ROUGE score.
+1 

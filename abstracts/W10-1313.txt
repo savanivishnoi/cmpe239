@@ -1,0 +1,25 @@
+ 
+This paper presents factors in designing a sys-
+tem for automatically skimming text docu-
+ments in response to a question. The system 
+will take a potentially complex question and a 
+single document and return a Web page con-
+taining links to text related to the question. 
+The goal is that these text areas be those that 
+visual readers would spend the most time on 
+when skimming for the answer to a question. 
+To identify these areas, we had visual readers 
+skim for an answer to a complex question 
+while being tracked by an eye-tracking sys-
+tem. Analysis of these results indicates that 
+text with semantic connections to the question 
+are of interest, but these connections are much 
+looser than can be identified with traditional 
+Question-Answering or Information Retrieval 
+techniques. Instead, we are expanding tradi-
+tional semantic treatments by using a Web 
+search. The goal of this system is to give non-
+visual readers information similar to what vis-
+ual readers get when skimming through a 
+document in response to a question. 
+1 

@@ -1,0 +1,16 @@
+
+We propose a simple solution to the se-
+quence labeling problem based on an ex-
+tension of weighted decomposition ker-
+nels. We additionally introduce a multi-
+instance kernel approach for representing
+lexical word sense information. These
+new ideas have been preliminarily tested
+on named entity recognition and PP at-
+tachment disambiguation. We finally sug-
+gest how these techniques could be poten-
+tially merged using a declarative formal-
+ism that may provide a basis for the inte-
+gration of multiple sources of information
+when using kernel-based learning in NLP.
+1 

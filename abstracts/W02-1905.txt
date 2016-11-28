@@ -1,0 +1,37 @@
+
+This paper presents a novel approach to
+extracting phrase-level answers in a question 
+answering system. This approach uses
+structural support provided by an integrated 
+Natural Language Processing (NLP) and
+Information Extraction (IE) system. Both
+questions and the sentence-level candidate
+answer strings are parsed by this NLP/IE
+system into binary dependency structures.
+Phrase-level answer extraction is modelled by 
+comparing the structural similarity involving 
+the question-phrase and the candidate answer-
+phrase.
+There are two types of structural support. The 
+first type involves predefined, specific entity 
+associa tions such as Affiliation, Position, Age 
+for a person entity. If a question asks about 
+one of these associations, the answer-phrase
+can be determined as long as the system
+decodes such pre-defined dependency links 
+correctly, despite the syntactic difference
+used in expressions between the question and 
+the candidate answer string. The second type 
+involves generic grammatical relationships
+such as V-S (verb-subject), V-O (verb-
+object).
+Preliminary experimental results show an
+improvement in both precision and recall in 
+extracting phrase-level answers, compared
+with a baseline system which only uses Named 
+Entity constraints. The proposed methods are 
+particularly effective in cases where the
+question-phrase does not correspond to a
+known named entity type and in cases where 
+there are multiple candidate answer-phrases
+satisfying the named entity constraints.

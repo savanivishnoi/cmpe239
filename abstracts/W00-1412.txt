@@ -1,0 +1,18 @@
+ 
+In this paper we present a psycholinguistically 
+motivated architecture and its prototypical 
+implementation for an incremental conceptu- 
+alizer, which monitors dynamic hanges in the 
+world and simultaneously generates warnings 
+for (possibly) safety-critical developments. It 
+does so by conceptualizing events and build- 
+ing up a hierarchical knowledge representa- 
+tion of the perceived states of affairs. If it 
+detects a safety problem, it selects suitable 
+elements from the representation for a warn- 
+ing, brings them into an appropriate order, and 
+generates incremental preverbal messages 
+(propositional structures) from them, which 
+can be taken by a subsequent component to 
+encode them linguistically. 
+1 

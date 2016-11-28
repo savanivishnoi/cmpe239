@@ -1,0 +1,33 @@
+
+GREVAL, the test suite of 500 English sentences
+taken from SUSANNE Corpus and made
+available by John Carroll and Ted Briscoe at their
+website, has been used to test the performance of
+a symbolic linguistically-based parser called
+GETARUNS presented in (Delmonte, 2002).
+GETARUNS is a symbolic linguistically-based
+parser written in Prolog Horn clauses which uses
+a strong deterministic policy by means of a
+lookahead mechanism and a WFST. The grammar
+allows the specification of linguistic rules in a
+highly declarative mode: it works topdown and by
+making a heavy use of linguistic knowledge may
+achieve an almost complete deterministic policy:
+in this sense it is equivalent to an LR parser. The
+results obtained fare higher that the ones reported
+in (Preis, 2003) and this we argue is due basically
+to the symbolic rule-based approach: we reach
+96% precision (coverage) and 84% recall
+(accuracy). We assume that from a
+psycholinguistic point of view, parsing requires
+setting up a number of disambiguating strategies,
+to tell arguments apart from adjuncts and reduce
+the effects of backtracking. To do that the system
+is based on LFG theoretical framework and uses
+Grammatical Functions information to help the
+parser cope with syntactic ambiguity. In the paper
+we shall comment on some shortcomings of the
+Greval corpus annotation and more in general we
+shall criticize some aspects of the Dependency
+Structure representation.
+1. 

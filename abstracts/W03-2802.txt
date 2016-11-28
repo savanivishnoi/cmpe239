@@ -1,0 +1,39 @@
+
+This paper presents a paradigm for
+evaluating the context-sensitive under-
+standing capability of any spoken lan-
+guage dialog system: PEACE (French
+acronym for Paradigme d?Evaluation
+Automatique de la Compre?hension hors
+et En-contexte). This paradigm will be
+the basis of the French Technolangue
+MEDIA project, in which dialog sys-
+tems from various academic and indus-
+trial sites will be tested in an evaluation
+campaign coordinated by ELRA/ELDA
+(over the next two years). Despite pre-
+vious efforts such as EAGLES, DISC,
+AUPELF ARCB2 or the ongoing Ameri-
+can DARPA COMMUNICATOR project,
+the spoken dialog community still lacks
+common reference tasks and widely
+agreed upon methods for comparing
+and diagnosing systems and techniques.
+Automatic solutions are nowadays be-
+ing sought both to make possible the
+comparison of different approaches by
+means of reliable indicators with generic
+evaluation methodologies and also to re-
+duce system development costs. How-
+ever achieving independence from both
+the dialog system and the task per-
+formed seems to be more and more a
+utopia. Most of the evaluations have
+up to now either tackled the system as
+a whole, or based the measurements
+on dialog-context-free information. The
+PEACE proposal aims at bypassing some
+of these shortcomings by extracting,
+from real dialog corpora, test sets that
+synthesize contextual information.
+1 

@@ -1,0 +1,23 @@
+ 
+In this paper, we present the proposed me-
+thod of participating SIGHAN-2010 Chi-
+nese word segmentation bake-off. In this 
+year, our focus aims to quick train and test 
+the given data. Unlike the most structural 
+learning algorithms, such as conditional 
+random fields, we design an in-house devel-
+opment conditional support vector Markov 
+model (CMM) framework. The method is 
+very quick to train and also show better per-
+formance in accuracy than CRF. To give a 
+fair comparison, we compare our method to 
+CRF with three additional tasks, namely, 
+CoNLL-2000 chunking, SIGHAN-3 Chi-
+nese word segmentation. The results were 
+encourage and indicated that the proposed 
+CMM produces better not only accuracy but 
+also training time efficiency. The official re-
+sults in SIGHAN-2010 also demonstrates 
+that our method perform very well in tradi-
+tional Chinese with fine-tuned features set.  
+1 

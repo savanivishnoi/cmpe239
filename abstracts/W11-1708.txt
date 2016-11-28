@@ -1,0 +1,21 @@
+
+To assist in the research of social networks in
+history, we develop machine-learning-based
+tools for the identification and classification
+of personal relationships. Our case study fo-
+cuses on the Dutch social movement between
+1870 and 1940, and is based on biographical
+texts describing the lives of notable people in
+this movement. We treat the identification and
+the labeling of relations between two persons
+into positive, neutral, and negative both as a
+sequence of two tasks and as a single task. We
+observe that our machine-learning classifiers,
+support vector machines, produce better gen-
+eralization performance on the single task. We
+show how a complete social network can be
+built from these classifications, and provide a
+qualitative analysis of the induced network us-
+ing expert judgements on samples of the net-
+work.
+1 

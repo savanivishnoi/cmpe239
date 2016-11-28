@@ -1,0 +1,23 @@
+
+Twitter, a popular social networking service,
+enables its users to not only send messages
+but re-broadcast or retweet a message from an-
+other Twitter user to their own followers. Con-
+sidering the number of times that a message is
+retweeted across Twitter is a straightforward
+way to estimate how interesting it is. How-
+ever, a considerable number of messages in
+Twitter with high retweet counts are actually
+mundane posts by celebrities that are of inter-
+est to themselves and possibly their followers.
+In this paper, we leverage retweets as implicit
+relationships between Twitter users and mes-
+sages and address the problem of automati-
+cally finding messages in Twitter that may be
+of potential interest to a wide audience by us-
+ing link analysis methods that look at more
+than just the sheer number of retweets. Exper-
+imental results on real world data demonstrate
+that the proposed method can achieve better
+performance than several baseline methods.
+1 

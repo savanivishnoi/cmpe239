@@ -1,0 +1,19 @@
+ 
+In this paper we develop an approach to tackle 
+the problem of verb selection for learners of 
+English as a second language (ESL) by using 
+features from the output of Semantic Role La-
+beling (SRL). Unlike existing approaches to 
+verb selection that use local features such as 
+n-grams, our approach exploits semantic fea-
+tures which explicitly model the usage context 
+of the verb. The verb choice highly depends 
+on its usage context which is not consistently 
+captured by local features. We then combine 
+these semantic features with other local fea-
+tures under the generalized perceptron learn-
+ing framework. Experiments on both in-
+domain and out-of-domain corpora show that 
+our approach outperforms the baseline and 
+achieves state-of-the-art performance.1 
+1 

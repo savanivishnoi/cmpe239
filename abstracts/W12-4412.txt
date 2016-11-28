@@ -1,0 +1,13 @@
+ 
+This work presents an English-to-Chinese 
+(E2C) machine transliteration system based 
+on two-stage conditional random fields 
+(CRF) models with accessor variety (AV) 
+as an additional feature to approximate 
+local context of the source language. 
+Experiment results show that two-stage 
+CRF method outperforms the one-stage 
+opponent since the former costs less to 
+encode more features and finer grained 
+labels than the latter. 
+1 

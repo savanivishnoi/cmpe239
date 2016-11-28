@@ -1,0 +1,27 @@
+ive Meeting Summaries: Can It Be Done by
+Sentence Compression?
+Fei Liu and Yang Liu
+Computer Science Department
+The University of Texas at Dallas
+Richardson, TX 75080, USA
+{feiliu, yangl}@hlt.utdallas.edu
+Abstract
+Most previous studies on meeting summariza-
+tion have focused on extractive summariza-
+tion. In this paper, we investigate if we can
+apply sentence compression to extractive sum-
+maries to generate abstractive summaries. We
+use different compression algorithms, includ-
+ing integer linear programming with an addi-
+tional step of filler phrase detection, a noisy-
+channel approach using Markovization for-
+mulation of grammar rules, as well as hu-
+man compressed sentences. Our experiments
+on the ICSI meeting corpus show that when
+compared to the abstractive summaries, using
+sentence compression on the extractive sum-
+maries improves their ROUGE scores; how-
+ever, the best performance is still quite low,
+suggesting the need of language generation for
+abstractive summarization.
+1 

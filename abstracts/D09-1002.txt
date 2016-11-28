@@ -1,0 +1,22 @@
+
+Unknown lexical items present a major
+obstacle to the development of broad-
+coverage semantic role labeling systems.
+We address this problem with a semi-
+supervised learning approach which ac-
+quires training instances for unseen verbs
+from an unlabeled corpus. Our method re-
+lies on the hypothesis that unknown lexical
+items will be structurally and semantically
+similar to known items for which annota-
+tions are available. Accordingly, we rep-
+resent known and unknown sentences as
+graphs, formalize the search for the most
+similar verb as a graph alignment prob-
+lem and solve the optimization using inte-
+ger linear programming. Experimental re-
+sults show that role labeling performance
+for unknown lexical items improves with
+training data produced automatically by
+our method.
+1 

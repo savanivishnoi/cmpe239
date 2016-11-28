@@ -1,0 +1,27 @@
+
+Thanks to its simplicity, social tagging
+system has accumulated huge amount of
+user contributed tags. However, user
+contributed tags lack explicit hierarchi-
+cal structure, while many tag-based ap-
+plications would benefit if such a struc-
+ture presents. In this work, we explore
+the structure of tags with a directed and
+easy-to-evaluate relation, named as the
+subsumption relation. We propose three
+methods to discover the subsumption rela-
+tion between tags. Specifically, the tagged
+document?s content is used to find the re-
+lations, which leads to better result. Be-
+sides relation discovery, we also propose
+a greedy algorithm to eliminate the re-
+dundant relations by constructing a Lay-
+ered Directed Acyclic Graph (Layered-
+DAG) of tags. We perform quantita-
+tive evaluations on two real world data
+sets. The results show that our methods
+outperform hierarchical clustering-based
+approach. Empirical study of the con-
+structed Layered-DAG and error analysis
+are also provided.
+1 

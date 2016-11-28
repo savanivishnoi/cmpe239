@@ -1,0 +1,21 @@
+
+This paper proposes an approach to im-
+prove graph-based dependency parsing by
+using decision history. We introduce a
+mechanism that considers short dependen-
+cies computed in the earlier stages of pars-
+ing to improve the accuracy of long de-
+pendencies in the later stages. This re-
+lies on the fact that short dependencies are
+generally more accurate than long depen-
+dencies in graph-based models and may
+be used as features to help parse long de-
+pendencies. The mechanism can easily
+be implemented by modifying a graph-
+based parsing model and introducing a set
+of new features. The experimental results
+show that our system achieves state-of-
+the-art accuracy on the standard PTB test
+set for English and the standard Penn Chi-
+nese Treebank (CTB) test set for Chinese.
+1 

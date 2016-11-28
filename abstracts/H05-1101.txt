@@ -1,0 +1,14 @@
+
+This paper investigates some computa-
+tional problems associated with proba-
+bilistic translation models that have re-
+cently been adopted in the literature on
+machine translation. These models can be
+viewed as pairs of probabilistic context-
+free grammars working in a ?synchronous?
+way. Two hardness results for the class
+NP are reported, along with an exponen-
+tial time lower-bound for certain classes
+of algorithms that are currently used in the
+literature.
+1 

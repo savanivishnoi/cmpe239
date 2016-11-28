@@ -1,0 +1,22 @@
+
+We present an open-source virtual ma-
+nipulative for conditional log-linear mod-
+els. This web-based interactive visual-
+ization lets the user tune the probabili-
+ties of various shapes?which grow and
+shrink accordingly?by dragging sliders
+that correspond to feature weights. The
+visualization displays a regularized train-
+ing objective; it supports gradient as-
+cent by optionally displaying gradients
+on the sliders and providing ?Step? and
+?Solve? buttons. The user can sam-
+ple parameters and datasets of differ-
+ent sizes and compare their own pa-
+rameters to the truth. Our web-
+site, http://cs.jhu.edu/?jason/
+tutorials/loglin/, guides the user
+through a series of interactive lessons and
+provides auxiliary readings, explanations,
+practice problems and resources.
+1 

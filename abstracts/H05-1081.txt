@@ -1,0 +1,18 @@
+
+This paper focuses on semantic role la-
+beling using automatically-generated syn-
+tactic information. A simple and robust
+strategy for system combination is pre-
+sented, which allows to partially recover
+from input parsing errors and to signif-
+icantly boost results of individual sys-
+tems. This combination scheme is also
+very flexible since the individual systems
+are not required to provide any informa-
+tion other than their solution. Extensive
+experimental evaluation in the CoNLL-
+2005 shared task framework supports our
+previous claims. The proposed architec-
+ture outperforms the best results reported
+in that evaluation exercise.
+1 

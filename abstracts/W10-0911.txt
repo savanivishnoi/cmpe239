@@ -1,0 +1,24 @@
+
+Machine reading is a long-standing goal of AI
+and NLP. In recent years, tremendous progress
+has been made in developing machine learning
+approaches for many of its subtasks such as
+parsing, information extraction, and question
+answering. However, existing end-to-end so-
+lutions typically require substantial amount of
+human efforts (e.g., labeled data and/or man-
+ual engineering), and are not well poised for
+Web-scale knowledge acquisition. In this pa-
+per, we propose a unifying approach for ma-
+chine reading by bootstrapping from the easi-
+est extractable knowledge and conquering the
+long tail via a self-supervised learning pro-
+cess. This self-supervision is powered by joint
+inference based on Markov logic, and is made
+scalable by leveraging hierarchical structures
+and coarse-to-fine inference. Researchers at
+the University of Washington have taken the
+first steps in this direction. Our existing work
+explores the wide spectrum of this vision and
+shows its promise.
+1 

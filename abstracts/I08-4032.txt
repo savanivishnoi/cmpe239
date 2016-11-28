@@ -1,0 +1,17 @@
+ 
+This paper introduces the system of Word 
+Segmentation and analyzes its evaluation 
+results in the Fourth SIGHAN Bakeoff1 . A 
+novel method has been used in the system, 
+which main idea is: firstly, the main 
+problems of WS have been classified, and 
+then a cascaded model has been used to 
+gradually optimize the system.  The core of 
+this WS system is the segmentation of 
+ambiguous words and the internal 
+information extraction of unknown words. 
+The experiments show that the performance 
+is satisfying, with the RIV-measure 96.8% 
+in NCC open test in the SIGHAN bakeoff 
+2007.  
+1  

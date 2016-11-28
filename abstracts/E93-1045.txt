@@ -1,0 +1,16 @@
+ 
+We study parsing of tree adjoining ram- 
+mars with particular emphasis on the use 
+of shared forests to represent all the parse 
+trees deriving a well-formed string. We 
+show that there are two distinct ways of 
+representing the parse forest one of which 
+involves the use of linear indexed grammars 
+and the other the use of context-free gram- 
+mars. The work presented in this paper is 
+intended to give a general framework for 
+studying tag parsing. The schemes using 
+lig and cfg to represent parses can be seen 
+to underly most of the existing tag parsing 
+algorithms, 
+1 

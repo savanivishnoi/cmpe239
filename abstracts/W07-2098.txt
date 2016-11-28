@@ -1,0 +1,19 @@
+
+We describe the Sheffield system used
+in TempEval-2007. Our system takes
+a machine-learning (ML) based approach,
+treating temporal relation assignment as a
+simple classification task and using features
+easily derived from the TempEval data, i.e.
+which do not require ?deeper? NLP analy-
+sis. We aimed to explore three questions:
+(1) How well would a ?lite? approach of
+this kind perform? (2) Which features con-
+tribute positively to system performance?
+(3) Which ML algorithm is better suited for
+the TempEval tasks? We used the Weka
+ML workbench to facilitate experimenting
+with different ML algorithms. The paper de-
+scribes our system and supplies preliminary
+answers to the above questions.
+1 

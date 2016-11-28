@@ -1,0 +1,57 @@
+ 
+Sentence alignment consists in estimating 
+which sentence or sentences in the source 
+language correspond with which sentence 
+or sentences in a target language. We pre-
+sent in this paper a new approach to align-
+ing sentences from a parallel corpus based 
+on a cross-language information retrieval 
+system. This approach consists in building 
+a database of sentences of the target text 
+and considering each sentence of the 
+source text as a "query" to that database. 
+The cross-language information retrieval 
+system is a weighted Boolean search en-
+gine based on a deep linguistic analysis of 
+the query and the documents to be indexed. 
+This system is composed of a multilingual 
+linguistic analyzer, a statistical analyzer, a 
+reformulator, a comparator and a search 
+engine. The multilingual linguistic analyzer 
+includes a morphological analyzer, a part-
+of-speech tagger and a syntactic analyzer. 
+The linguistic analyzer processes both 
+documents to be indexed and queries to 
+produce a set of normalized lemmas, a set 
+of named entities and a set of nominal 
+compounds with their morpho-syntactic 
+tags. The statistical analyzer computes for 
+documents to be indexed concept weights 
+based on concept database frequencies. The 
+comparator computes intersections between 
+queries and documents and provides a rele-
+vance weight for each intersection. Before 
+this comparison, the reformulator expands 
+queries during the search. The expansion is 
+used to infer from the original query words 
+other words expressing the same concepts. 
+The search engine retrieves the ranked, 
+relevant documents from the indexes ac-
+cording to the corresponding reformulated 
+query and then merges the results obtained 
+for each language, taking into account the 
+original words of the query and their 
+weights in order to score the documents. 
+The sentence aligner has been evaluated on 
+the MD corpus of the ARCADE II project 
+which is composed of news articles from 
+the French newspaper "Le Monde Diplo-
+matique". The part of the corpus used in 
+evaluation consists of the same subset of 
+sentences in Arabic and French. Arabic 
+sentences are aligned to their French coun-
+terparts. Results showed that alignment has 
+correct precision and recall even when the 
+corpus is not completely parallel (changes 
+in sentence order or missing sentences). 
+1 

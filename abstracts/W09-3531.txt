@@ -1,0 +1,31 @@
+
+This paper explores a very basic linguis-
+tic phenomenon in multilingualism: the
+lexicalizations of entities are very often
+identical within different languages while
+concepts are usually lexicalized differ-
+ently. Since entities are commonly re-
+ferred to by proper names in natural lan-
+guage, we measured their distribution in
+the lexical overlap of the terminologies ex-
+tracted from comparable corpora. Results
+show that the lexical overlap is mostly
+composed by unambiguous words, which
+can be regarded as anchors to bridge lan-
+guages: most of terms having the same
+spelling refer exactly to the same entities.
+Thanks to this important feature of Named
+Entities, we developed a multilingual su-
+per sense tagging system capable to distin-
+guish between concepts and individuals.
+Individuals adopted for training have been
+extracted both by YAGO and by a heuristic
+procedure. The general F1 of the English
+tagger is over 76%, which is in line with
+the state of the art on super sense tagging
+while augmenting the number of classes.
+Performances for Italian are slightly lower,
+while ensuring a reasonable accuracy level
+which is capable to show effective results
+for knowledge acquisition.
+1 

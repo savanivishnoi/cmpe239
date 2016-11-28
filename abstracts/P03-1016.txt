@@ -1,0 +1,32 @@
+ 
+Automatically acquiring synonymous col-
+location pairs such as <turn on, OBJ, light> 
+and <switch on, OBJ, light> from corpora 
+is a challenging task. For this task, we can, 
+in general, have a large monolingual corpus 
+and/or a very limited bilingual corpus. 
+Methods that use monolingual corpora 
+alone or use bilingual corpora alone are 
+apparently inadequate because of low pre-
+cision or low coverage. In this paper, we 
+propose a method that uses both these re-
+sources to get an optimal compromise of 
+precision and coverage. This method first 
+gets candidates of synonymous collocation 
+pairs based on a monolingual corpus and a 
+word thesaurus, and then selects the ap-
+propriate pairs from the candidates using 
+their translations in a second language. The 
+translations of the candidates are obtained 
+with a statistical translation model which is 
+trained with a small bilingual corpus and a 
+large monolingual corpus. The translation 
+information is proved as effective to select 
+synonymous collocation pairs. Experi-
+mental results indicate that the average 
+precision and recall of our approach are 
+74% and 64% respectively, which outper-
+form those methods that only use mono-
+lingual corpora and those that only use bi-
+lingual corpora. 
+1 

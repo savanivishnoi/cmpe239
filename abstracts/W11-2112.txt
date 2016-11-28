@@ -1,0 +1,25 @@
+
+We describe TINE, a new automatic evalua-
+tion metric for Machine Translation that aims
+at assessing segment-level adequacy. Lexical
+similarity and shallow-semantics are used as
+indicators of adequacy between machine and
+reference translations. The metric is based on
+the combination of a lexical matching com-
+ponent and an adequacy component. Lexi-
+cal matching is performed comparing bags-
+of-words without any linguistic annotation.
+The adequacy component consists in: i) us-
+ing ontologies to align predicates (verbs), ii)
+using semantic roles to align predicate argu-
+ments (core arguments and modifiers), and
+iii) matching predicate arguments using dis-
+tributional semantics. TINE?s performance
+is comparable to that of previous metrics
+at segment level for several language pairs,
+with average Kendall?s tau correlation from
+0.26 to 0.29. We show that the addition of
+the shallow-semantic component improves the
+performance of simple lexical matching strate-
+gies and metrics such as BLEU.
+1 

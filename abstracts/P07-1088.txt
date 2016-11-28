@@ -1,0 +1,23 @@
+
+Even in a massive corpus such as the Web, a
+substantial fraction of extractions appear in-
+frequently. This paper shows how to assess
+the correctness of sparse extractions by uti-
+lizing unsupervised language models. The
+REALM system, which combines HMM-
+based and n-gram-based language models,
+ranks candidate extractions by the likeli-
+hood that they are correct. Our experiments
+show that REALM reduces extraction error
+by 39%, on average, when compared with
+previous work.
+Because REALM pre-computes language
+models based on its corpus and does not re-
+quire any hand-tagged seeds, it is far more
+scalable than approaches that learn mod-
+els for each individual relation from hand-
+tagged data. Thus, REALM is ideally suited
+for open information extraction where the
+relations of interest are not specified in ad-
+vance and their number is potentially vast.
+1 

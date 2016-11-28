@@ -1,0 +1,23 @@
+
+We investigate the problem of acoustic mod-
+eling in which prior language-specific knowl-
+edge and transcribed data are unavailable. We
+present an unsupervised model that simultane-
+ously segments the speech, discovers a proper
+set of sub-word units (e.g., phones) and learns
+a Hidden Markov Model (HMM) for each in-
+duced acoustic unit. Our approach is formu-
+lated as a Dirichlet process mixture model in
+which each mixture is an HMM that repre-
+sents a sub-word unit. We apply our model
+to the TIMIT corpus, and the results demon-
+strate that our model discovers sub-word units
+that are highly correlated with English phones
+and also produces better segmentation than the
+state-of-the-art unsupervised baseline. We test
+the quality of the learned acoustic models on a
+spoken term detection task. Compared to the
+baselines, our model improves the relative pre-
+cision of top hits by at least 22.1% and outper-
+forms a language-mismatched acoustic model.
+1 

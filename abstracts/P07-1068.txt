@@ -1,0 +1,16 @@
+
+This paper examines whether a learning-
+based coreference resolver can be improved
+using semantic class knowledge that is au-
+tomatically acquired from a version of the
+Penn Treebank in which the noun phrases
+are labeled with their semantic classes. Ex-
+periments on the ACE test data show that a
+resolver that employs such induced semantic
+class knowledge yields a statistically signif-
+icant improvement of 2% in F-measure over
+one that exploits heuristically computed se-
+mantic class knowledge. In addition, the in-
+duced knowledge improves the accuracy of
+common noun resolution by 2-6%.
+1 

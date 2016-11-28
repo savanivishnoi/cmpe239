@@ -1,0 +1,28 @@
+
+In this paper, we present a first attempt to
+characterize the semantic deviance of com-
+posite expressions in distributional seman-
+tics. Specifically, we look for properties of
+adjective-noun combinations within a vector-
+based semantic space that might cue their lack
+of meaning. We evaluate four different com-
+positionality models shown to have various
+levels of success in representing the mean-
+ing of AN pairs: the simple additive and
+multiplicative models of Mitchell and Lap-
+ata (2008), and the linear-map-based models
+of Guevara (2010) and Baroni and Zamparelli
+(2010). For each model, we generate com-
+posite vectors for a set of AN combinations
+unattested in the source corpus and which
+have been deemed either acceptable or seman-
+tically deviant. We then compute measures
+that might cue semantic anomaly, and com-
+pare each model?s results for the two classes of
+ANs. Our study shows that simple, unsuper-
+vised cues can indeed significantly tell unat-
+tested but acceptable ANs apart from impos-
+sible, or deviant, ANs, and that the simple ad-
+ditive and multiplicative models are the most
+effective in this task.
+1 

@@ -1,0 +1,27 @@
+
+Data-to-text generation systems tend to
+be knowledge-based and manually built,
+which limits their reusability and makes
+them time and cost-intensive to create
+and maintain. Methods for automating
+(part of) the system building process ex-
+ist, but do such methods risk a loss in
+output quality? In this paper, we inves-
+tigate the cost/quality trade-off in gen-
+eration system building. We compare
+four new data-to-text systems which were
+created by predominantly automatic tech-
+niques against six existing systems for the
+same domain which were created by pre-
+dominantly manual techniques. We eval-
+uate the ten systems using intrinsic au-
+tomatic metrics and human quality rat-
+ings. We find that increasing the degree to
+which system building is automated does
+not necessarily result in a reduction in out-
+put quality. We find furthermore that stan-
+dard automatic evaluation metrics under-
+estimate the quality of handcrafted sys-
+tems and over-estimate the quality of au-
+tomatically created systems.
+1 

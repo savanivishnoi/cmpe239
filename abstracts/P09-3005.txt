@@ -1,0 +1,16 @@
+
+Mapping and classification of chemical
+compound names are important aspects of
+the tasks of BioNLP. This paper introduces
+the architecture of a system for the syntac-
+tic and semantic analysis of such names.
+Our system aims at yielding both the de-
+noted chemical structure and a classifica-
+tion of a given name. We employ a novel
+approach to the task which promises an
+elegant and efficient way of solving the
+problem. The proposed system differs sig-
+nificantly from existing systems, in that it
+is also able to deal with underspecifying
+names and class names.
+1 

@@ -1,0 +1,15 @@
+
+In this paper we examine different linguistic features
+for sentimental polarity classification, and perform a
+comparative study on this task between blog and re-
+view data. We found that results on blog are much
+worse than reviews and investigated two methods
+to improve the performance on blogs. First we ex-
+plored information retrieval based topic analysis to
+extract relevant sentences to the given topics for po-
+larity classification. Second, we adopted an adaptive
+method where we train classifiers from review data
+and incorporate their hypothesis as features. Both
+methods yielded performance gain for polarity clas-
+sification on blog data.
+1 

@@ -1,0 +1,22 @@
+
+Linking constructions involving { (DE) are ubiq-
+uitous in Chinese, and can be translated into En-
+glish in many different ways. This is a major source
+of machine translation error, even when syntax-
+sensitive translation models are used. This paper
+explores how getting more information about the
+syntactic, semantic, and discourse context of uses
+of { (DE) can facilitate producing an appropriate
+English translation strategy. We describe a finer-
+grained classification of { (DE) constructions in
+Chinese NPs, construct a corpus of annotated ex-
+amples, and then train a log-linear classifier, which
+contains linguistically inspired features. We use the
+DE classifier to preprocess MT data by explicitly
+labeling { (DE) constructions, as well as reorder-
+ing phrases, and show that our approach provides
+significant BLEU point gains on MT02 (+1.24),
+MT03 (+0.88) and MT05 (+1.49) on a phrased-
+based system. The improvement persists when a hi-
+erarchical reordering model is applied.
+1 

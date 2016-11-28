@@ -1,0 +1,24 @@
+
+In this paper we investigate two distinct
+tasks. The first task involves detecting ar-
+guing subjectivity, a type of linguistic sub-
+jectivity on which relatively little work has
+yet to be done. The second task involves
+labeling instances of arguing subjectivity
+with argument tags reflecting the concep-
+tual argument being made. We refer to
+these two tasks collectively as ?recogniz-
+ing arguments?. We develop a new anno-
+tation scheme and assemble a new anno-
+tated corpus to support our learning ef-
+forts. Through our machine learning ex-
+periments, we investigate the utility of a
+sentiment lexicon, discourse parser, and
+semantic similarity measures with respect
+to recognizing arguments. By incorpo-
+rating information gained from these re-
+sources, we outperform a unigram baseline
+by a significant margin. In addition, we ex-
+plore a two-phase approach to recognizing
+arguments, with promising results.
+1 

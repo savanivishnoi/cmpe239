@@ -1,0 +1,8 @@
+ 
+In this article we present a method for combining different information retrieval models in order to increase the retrieval performance 
+in a Speech Information Retrieval task. The formulas for combining the models are tuned on training data. Then the system is evaluated 
+on test data. The task is particularly difficult because the text collection is automatically transcribed spontaneous speech, with many 
+recognition errors. Also, the topics are real information needs, difficult to satisfy. Information Retrieval systems are not able to obtain 
+good results on this data set, except for the case when manual summaries are included. 
+ 
+1. 

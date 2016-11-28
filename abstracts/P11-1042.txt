@@ -1,0 +1,21 @@
+
+We introduce a discriminatively trained, glob-
+ally normalized, log-linear variant of the lex-
+ical translation models proposed by Brown
+et al (1993). In our model, arbitrary, non-
+independent features may be freely incorpo-
+rated, thereby overcoming the inherent limita-
+tion of generative models, which require that
+features be sensitive to the conditional inde-
+pendencies of the generative process. How-
+ever, unlike previous work on discriminative
+modeling of word alignment (which also per-
+mits the use of arbitrary features), the param-
+eters in our models are learned from unanno-
+tated parallel sentences, rather than from su-
+pervised word alignments. Using a variety
+of intrinsic and extrinsic measures, including
+translation performance, we show our model
+yields better alignments than generative base-
+lines in a number of language pairs.
+1 

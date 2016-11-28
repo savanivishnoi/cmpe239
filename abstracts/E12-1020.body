@@ -1,0 +1,25 @@
+ 
+The well-studied supervised Relation 
+Extraction algorithms require training 
+data that is accurate and has good 
+coverage. To obtain such a gold standard, 
+the common practice is to do independent 
+double annotation followed by 
+adjudication. This takes significantly 
+more human effort than annotation done 
+by a single annotator. We do a detailed 
+analysis on a snapshot of the ACE 2005 
+annotation files to understand the 
+differences between single-pass 
+annotation and the more expensive nearly 
+three-pass process, and then propose an 
+algorithm that learns from the much 
+cheaper single-pass annotation and 
+achieves a performance on a par with the 
+extractor trained on multi-pass annotated 
+data. Furthermore, we show that given 
+the same amount of human labor, the 
+better way to do relation annotation is not 
+to annotate with high-cost quality 
+assurance, but to annotate more.  
+1. 

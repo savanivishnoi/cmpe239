@@ -1,0 +1,12 @@
+
+This paper describes a CoNLL-style
+chunk representation for the Tu?bingen
+Treebank of Written German, which as-
+sumes a flat chunk structure so that each
+word belongs to at most one chunk. For
+German, such a chunk definition causes
+problems in cases of complex prenominal
+modification. We introduce a flat annota-
+tion that can handle these structures via a
+stranded noun chunk.
+1 

@@ -1,0 +1,18 @@
+ 
+This paper is concerned with using a se- 
+mantic hierarchy to estimate the frequency 
+with which a word sense appears as a given 
+argument of a verb, assuming the data is 
+not sense disambiguated. The standard ap- 
+proach is to split the count for any noun ap- 
+pearing in the data equally among the al- 
+ternative senses of the noun. This can lead 
+to inaccurate stimates. We describe a re- 
+estimation process which uses the accumu- 
+lated counts of hypernyms of the alternative 
+senses in order to redistribute the count. In 
+order to choose a hypernym for each alter- 
+native sense, we employ a novel technique 
+which uses a X 2 test to measure the homo- 
+geneity of sets of concepts in the hierarchy. 
+1 

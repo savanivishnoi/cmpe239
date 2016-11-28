@@ -1,0 +1,3 @@
+ 
+We are modeling roles of individual messages and participants in Q&A discussion forums. In this paper, we present a mixed network model that represents message exchanges and message influences within a discussion thread.  We first model individual message roles and thread-level user roles using discussion content features. We then combine the resulting message roles and the user roles to generate the overall influence net-work. Message influences and their aggregation over the network are analyzed using B-centrality measures.  We use the results in identifying the most influential message in answering the initial question of the thread.  
+1 

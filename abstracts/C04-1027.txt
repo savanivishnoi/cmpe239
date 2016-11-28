@@ -1,0 +1,21 @@
+
+In this paper we describe a method of automati-
+cally learning domain theories from parsed cor-
+pora of sentences from the relevant domain and
+use FSA techniques for the graphical represen-
+tation of such a theory. By a ?domain theory? we
+mean a collection of facts and generalisations
+or rules which capture what commonly happens
+(or does not happen) in some domain of interest.
+As language users, we implicitly draw on such
+theories in various disambiguation tasks, such
+as anaphora resolution and prepositional phrase
+attachment, and formal encodings of domain
+theories can be used for this purpose in natural
+language processing. They may also be objects
+of interest in their own right, that is, as the out-
+put of a knowledge discovery process. The ap-
+proach is generizable to different domains pro-
+vided it is possible to get logical forms for the
+text in the domain.
+1 

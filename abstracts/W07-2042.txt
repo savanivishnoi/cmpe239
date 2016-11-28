@@ -1,0 +1,16 @@
+
+This paper presents an approach to person
+name disambiguation using K-means clus-
+tering on rich-feature-enhanced document
+vectors, augmented with additional web-
+extracted snippets surrounding the polyse-
+mous names to facilitate term bridging. This
+yields a significant F-measure improvement
+on the shared task training data set. The pa-
+per also illustrates the significant divergence
+between the properties of the training and
+test data in this shared task, substantially
+skewing results. Our system optimized on
+F0.2 rather than F0.5 would have achieved
+top performance in the shared task.
+1 

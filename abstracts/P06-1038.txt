@@ -1,0 +1,22 @@
+
+We present a novel approach for discov-
+ering word categories, sets of words shar-
+ing a significant aspect of their mean-
+ing. We utilize meta-patterns of high-
+frequency words and content words in or-
+der to discover pattern candidates. Sym-
+metric patterns are then identified using
+graph-based measures, and word cate-
+gories are created based on graph clique
+sets. Our method is the first pattern-based
+method that requires no corpus annota-
+tion or manually provided seed patterns
+or words. We evaluate our algorithm on
+very large corpora in two languages, us-
+ing both human judgments and WordNet-
+based evaluation. Our fully unsupervised
+results are superior to previous work that
+used a POS tagged corpus, and computa-
+tion time for huge corpora are orders of
+magnitude faster than previously reported.
+1 

@@ -1,0 +1,19 @@
+ 
+This paper presents a character-based model of 
+automatic sense determination for Chinese 
+compounds. The model adopts a sense 
+approximation approach using synonymous 
+compounds retrieved by measuring similarity 
+of semantic template in compounding. The 
+similarity measure is derived from an 
+association network among characters and 
+senses, which is built from a formatted MRD. 
+Adopting the taxonomy of CILIN, a system of 
+deep semantic classification (at least to the 
+small classes) for V-V compounds is 
+implemented and evaluated to test the model. 
+The experiment reports a high precision rate 
+(about 38% in outside test and 61% in inside 
+test) against the baseline one (about 18%). 
+ 
+1. 

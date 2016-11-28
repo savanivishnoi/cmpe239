@@ -1,0 +1,20 @@
+ 
+In this paper, we present a Bayesian Learn-
+ing based method to train word dependent 
+transition models for HMM based word 
+alignment. We present word alignment re-
+sults on the Canadian Hansards corpus as 
+compared to the conventional HMM and 
+IBM model 4. We show that this method 
+gives consistent and significant alignment 
+error rate (AER) reduction. We also con-
+ducted machine translation (MT) experi-
+ments on the Europarl corpus. MT results 
+show that word alignment based on this 
+method can be used in a phrase-based ma-
+chine translation system to yield up to 1% 
+absolute improvement in BLEU score, 
+compared to a conventional HMM, and 
+0.8% compared to a IBM model 4 based 
+word alignment. 
+1 

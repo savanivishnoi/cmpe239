@@ -1,0 +1,20 @@
+
+In this paper, we address the problem of
+dealing with a large collection of data
+and propose a method for text classifi-
+cation which manipulates data using two
+well-known machine learning techniques,
+Naive Bayes(NB) and Support Vector Ma-
+chines(SVMs). NB is based on the as-
+sumption of word independence in a text,
+which makes the computation of it far
+more efficient. SVMs, on the other hand,
+have the potential to handle large feature
+spaces, which makes it possible to pro-
+duce better performance. The training
+data for SVMs are extracted using NB
+classifiers according to the category hier-
+archies, which makes it possible to reduce
+the amount of computation necessary for
+classification without sacrificing accuracy.
+1 

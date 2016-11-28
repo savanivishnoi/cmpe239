@@ -1,0 +1,24 @@
+
+Most word segmentation methods em-
+ployed in Chinese Information Retrieval
+systems are based on a static dictionary
+or a model trained against a manually
+segmented corpus. These general seg-
+mentation approaches may not be opti-
+mal because they disregard information
+within semantic units. We propose a novel
+method for improving word-based Chi-
+nese IR, which performs segmentation ac-
+cording to the tightness of phrases. In
+order to evaluate the effectiveness of our
+method, we employ a new test collection
+of 203 queries, which include a broad dis-
+tribution of phrases with different tight-
+ness values. The results of our experi-
+ments indicate that our method improves
+IR performance as compared with a gen-
+eral word segmentation approach. The ex-
+periments also demonstrate the need for
+the development of better evaluation cor-
+pora.
+1 

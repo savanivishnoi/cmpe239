@@ -1,0 +1,31 @@
+
+Arabic morphology is complex, partly be-
+cause of its richness, and partly because
+of common irregular word forms, such as
+broken plurals (which resemble singular
+nouns), and nouns with irregular gender
+(feminine nouns that look masculine and
+vice versa). In addition, Arabic morpho-
+syntactic agreement interacts with the lex-
+ical semantic feature of rationality, which
+has no morphological realization. In this
+paper, we present a series of experiments
+on the automatic prediction of the latent
+linguistic features of functional gender and
+number, and rationality in Arabic. We com-
+pare two techniques, using simple maxi-
+mum likelihood (MLE) with back-off and
+a support vector machine based sequence
+tagger (Yamcha). We study a number of
+orthographic, morphological and syntactic
+learning features. Our results show that
+the MLE technique is preferred for words
+seen in the training data, while the Yam-
+cha technique is optimal for unseen words,
+which are our real target. Furthermore, we
+show that for unseen words, morphological
+features help beyond orthographic features
+and that syntactic features help even more.
+A combination of the two techniques im-
+proves overall performance even further.
+1 

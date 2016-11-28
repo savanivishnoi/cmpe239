@@ -1,0 +1,21 @@
+
+The technology of opinion extraction allows
+users to retrieve and analyze people?s opin-
+ions scattered over Web documents. We de-
+fine an opinion unit as a quadruple consist-
+ing of the opinion holder, the subject being
+evaluated, the part or the attribute in which
+the subject is evaluated, and the value of the
+evaluation that expresses a positive or neg-
+ative assessment. We use this definition as
+the basis for our opinion extraction task. We
+focus on two important subtasks of opinion
+extraction: (a) extracting aspect-evaluation
+relations, and (b) extracting aspect-of re-
+lations, and we approach each task using
+methods which combine contextual and sta-
+tistical clues. Our experiments on Japanese
+weblog posts show that the use of contex-
+tual clues improve the performance for both
+tasks.
+1 

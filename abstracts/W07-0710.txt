@@ -1,0 +1,19 @@
+
+Modern statistical machine translation sys-
+tems may be seen as using two components:
+feature extraction, that summarizes informa-
+tion about the translation, and a log-linear
+framework to combine features. In this pa-
+per, we propose to relax the linearity con-
+straints on the combination, and hence relax-
+ing constraints of monotonicity and indepen-
+dence of feature functions. We expand fea-
+tures into a non-parametric, non-linear, and
+high-dimensional space. We extend empir-
+ical Bayes reward training of model param-
+eters to meta parameters of feature genera-
+tion. In effect, this allows us to trade away
+some human expert feature design for data.
+Preliminary results on a standard task show
+an encouraging improvement.
+1 

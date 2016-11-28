@@ -1,0 +1,16 @@
+
+This paper presents a generative model for
+the automatic discovery of relations between
+entities in electronic medical records. The
+model discovers relation instances and their
+types by determining which context tokens ex-
+press the relation. Additionally, the valid se-
+mantic classes for each type of relation are de-
+termined. We show that the model produces
+clusters of relation trigger words which bet-
+ter correspond with manually annotated re-
+lations than several existing clustering tech-
+niques. The discovered relations reveal some
+of the implicit semantic structure present in
+patient records.
+1 

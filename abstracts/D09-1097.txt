@@ -1,0 +1,33 @@
+ 
+This paper presents a new method of devel-
+oping a large-scale hyponymy relation data-
+base by combining Wikipedia and other Web 
+documents. We attach new words to the hy-
+ponymy database extracted from Wikipedia 
+by using distributional similarity calculated 
+from documents on the Web. For a given tar-
+get word, our algorithm first finds k similar 
+words from the Wikipedia database. Then, 
+the hypernyms of these k similar words are 
+assigned scores by considering the distribu-
+tional similarities and hierarchical distances 
+in the Wikipedia database. Finally, new hy-
+ponymy relations are output according to the 
+scores. In this paper, we tested two distribu-
+tional similarities. One is based on raw verb-
+noun dependencies (which we call ?RVD?), 
+and the other is based on a large-scale clus-
+tering of verb-noun dependencies (called 
+?CVD?). Our method achieved an attachment 
+accuracy of 91.0% for the top 10,000 rela-
+tions, and an attachment accuracy of 74.5% 
+for the top 100,000 relations when using 
+CVD. This was a far better outcome com-
+pared to the other baseline approaches. Ex-
+cluding the region that had very high scores, 
+CVD was found to be more effective than 
+RVD. We also confirmed that most relations 
+extracted by our method cannot be extracted 
+merely by applying the well-known lexico-
+syntactic patterns to Web documents. 
+1 

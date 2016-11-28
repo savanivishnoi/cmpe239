@@ -1,0 +1,25 @@
+
+A range of Natural Language Process-
+ing tasks involve making judgments about
+the semantic relatedness of a pair of sen-
+tences, such as Recognizing Textual En-
+tailment (RTE) and answer selection for
+Question Answering (QA). A key chal-
+lenge that these tasks face in common
+is the lack of explicit alignment annota-
+tion between a sentence pair. We capture
+the alignment by using a novel probabilis-
+tic model that models tree-edit operations
+on dependency parse trees. Unlike previ-
+ous tree-edit models which require a sep-
+arate alignment-finding phase and resort
+to ad-hoc distance metrics, our method
+treats alignments as structured latent vari-
+ables, and offers a principled framework
+for incorporating complex linguistic fea-
+tures. We demonstrate the robustness of
+our model by conducting experiments for
+RTE and QA, and show that our model
+performs competitively on both tasks with
+the same set of general features.
+1 

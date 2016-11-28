@@ -1,0 +1,26 @@
+
+This paper describes a system for process-
+ing economic documents written in the an-
+cient Sumerian language. The system is
+application-oriented and takes advantage
+of the simplicity of ancient economy. We
+have developed an ontology for a selected
+branch of economic activities. We trans-
+late the documents into a meaning repre-
+sentation language by means of a semantic
+grammar. The meaning representation lan-
+guage is constructed in a way that allows
+us to handle massive ambiguity caused by:
+the specifics of the Sumerian writing sys-
+tem (signs? polyvalence, lack of mid-word
+signs), our incomplete knowledge of the
+Sumerian language and frequent damages
+of documents. The system is augmented
+with the capability of processing docu-
+ments whose parts describe concepts not
+included in the ontology and grammar. As
+an effect we obtain a structural description
+of the documents contents in the mean-
+ing representation language, ready to use
+in historical research.
+1 

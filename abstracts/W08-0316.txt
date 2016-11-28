@@ -1,0 +1,15 @@
+
+We describe the Cambridge University En-
+gineering Department phrase-based statisti-
+cal machine translation system for Spanish-
+English and French-English translation in the
+ACL 2008 Third Workshop on Statistical Ma-
+chine Translation Shared Task. The CUED
+system follows a generative model of trans-
+lation and is implemented by composition of
+component models realised as Weighted Fi-
+nite State Transducers, without the use of a
+special-purpose decoder. Details of system
+tuning for both Europarl and News translation
+tasks are provided.
+1 

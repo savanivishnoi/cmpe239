@@ -1,0 +1,23 @@
+
+Parallel corpora are made by human be-
+ings. However, as an MT system is an
+aggregation of state-of-the-art NLP tech-
+nologies without any intervention of hu-
+man beings, it is unavoidable that quite a
+few sentence pairs are beyond its analy-
+sis and that will therefore not contribute
+to the system. Furthermore, they in turn
+may act against our objectives to make the
+overall performance worse. Possible unfa-
+vorable items are n : m mapping objects,
+such as paraphrases, non-literal transla-
+tions, and multiword expressions. This
+paper presents a pre-processing method
+which detects such unfavorable items be-
+fore supplying them to the word aligner
+under the assumption that their frequency
+is low, such as below 5 percent. We show
+an improvement of Bleu score from 28.0
+to 31.4 in English-Spanish and from 16.9
+to 22.1 in German-English.
+1 

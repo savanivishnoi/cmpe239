@@ -1,0 +1,12 @@
+
+Tracking information flow (IFLOW) is crucial
+to understanding the evolution of news sto-
+ries. We present analysis and experiments for
+IFLOW between company announcements and
+newswire. Error analysis shows that many FPs
+are annotation errors and many FNs are due
+to coarse-grained document-level modelling.
+Experiments show that document meta-data
+features (e.g., category, length, timing) im-
+prove f-scores relative to upper bound by 23%.
+1 

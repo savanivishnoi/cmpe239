@@ -1,0 +1,24 @@
+
+Many organizations possess large collections
+of textual reports that document how a prob-
+lem is solved or analysed, e.g. medical pa-
+tient records, industrial accident reports, law-
+suit records and investigation reports. Ef-
+fective use of expert knowledge contained in
+these reports may greatly increase productiv-
+ity of the organization. In this article, we pro-
+pose a method for automatic extraction of rea-
+soning chains that contain information used
+by the author of a report to analyse the prob-
+lem at hand. For this purpose, we devel-
+oped a graph-based text representation that
+makes the relations between textual units ex-
+plicit. This representation is acquired auto-
+matically from a report using natural language
+processing tools including syntactic and dis-
+course parsers. When applied to aviation in-
+vestigation reports, our method generates rea-
+soning chains that reveal the connection be-
+tween initial information about the aircraft in-
+cident and its causes.
+1 

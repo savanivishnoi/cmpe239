@@ -1,0 +1,15 @@
+
+Lexical-Functional Grammar (Kaplan and
+Bresnan, 1982) f-structures are bilexical
+labelled dependency representations. We
+show that the Naive Bayes classifier is able
+to guess missing grammatical function la-
+bels (i.e. bilexical dependency labels) with
+reasonably high accuracy (82?91%). In
+the experiments we use f-structure parser
+output for English and German Europarl
+data, automatically ?broken? by replacing
+grammatical function labels with a generic
+UNKNOWN label and asking the classifier
+to restore the label.
+1 

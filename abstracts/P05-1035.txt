@@ -1,0 +1,27 @@
+
+This paper presents a probabilistic
+framework, QARLA, for the evaluation
+of text summarisation systems. The in-
+put of the framework is a set of man-
+ual (reference) summaries, a set of base-
+line (automatic) summaries and a set of
+similarity metrics between summaries.
+It provides i) a measure to evaluate the
+quality of any set of similarity metrics,
+ii) a measure to evaluate the quality of
+a summary using an optimal set of simi-
+larity metrics, and iii) a measure to eval-
+uate whether the set of baseline sum-
+maries is reliable or may produce biased
+results.
+Compared to previous approaches, our
+framework is able to combine different
+metrics and evaluate the quality of a set
+of metrics without any a-priori weight-
+ing of their relative importance. We pro-
+vide quantitative evidence about the ef-
+fectiveness of the approach to improve
+the automatic evaluation of text sum-
+marisation systems by combining sev-
+eral similarity metrics.
+1 

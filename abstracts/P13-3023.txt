@@ -1,0 +1,19 @@
+
+We present a novel method of statisti-
+cal morphological generation, i.e. the pre-
+diction of inflected word forms given
+lemma, part-of-speech and morphological
+features, aimed at robustness to unseen in-
+puts. Our system uses a trainable classifier
+to predict ?edit scripts? that are then used
+to transform lemmas into inflected word
+forms. Suffixes of lemmas are included as
+features to achieve robustness. We evalu-
+ate our system on 6 languages with a vary-
+ing degree of morphological richness. The
+results show that the system is able to learn
+most morphological phenomena and gen-
+eralize to unseen inputs, producing sig-
+nificantly better results than a dictionary-
+based baseline.
+1 

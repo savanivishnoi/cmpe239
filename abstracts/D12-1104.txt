@@ -1,0 +1,18 @@
+
+This paper presents PATTY: a large resource
+for textual patterns that denote binary relations
+between entities. The patterns are semanti-
+cally typed and organized into a subsumption
+taxonomy. The PATTY system is based on ef-
+ficient algorithms for frequent itemset mining
+and can process Web-scale corpora. It har-
+nesses the rich type system and entity popu-
+lation of large knowledge bases. The PATTY
+taxonomy comprises 350,569 pattern synsets.
+Random-sampling-based evaluation shows a
+pattern accuracy of 84.7%. PATTY has 8,162
+subsumptions, with a random-sampling-based
+precision of 75%. The PATTY resource
+is freely available for interactive access and
+download.
+1 

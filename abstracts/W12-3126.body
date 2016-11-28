@@ -1,0 +1,25 @@
+
+Statistical phrase-based machine translation
+requires no linguistic information beyond
+word-aligned parallel corpora (Zens et al.,
+2002; Koehn et al., 2003). Unfortunately,
+this linguistic agnosticism often produces un-
+grammatical translations. Syntax, or sentence
+structure, could provide guidance to phrase-
+based systems, but the ?non-constituent? word
+strings that phrase-based decoders manipu-
+late complicate the use of most recursive syn-
+tactic tools. We address these issues by
+using Combinatory Categorial Grammar, or
+CCG, (Steedman, 2000), which has a much
+more flexible notion of constituency, thereby
+providing more labels for putative non-
+constituent multiword translation phrases. Us-
+ing CCG parse charts, we train a syntactic
+analogue of a lexicalized reordering model by
+labelling phrase table entries with multiword
+labels and demonstrate significant improve-
+ments in translating between Urdu and En-
+glish, two language pairs with divergent sen-
+tence structure.
+1 

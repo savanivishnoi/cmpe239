@@ -1,0 +1,27 @@
+
+The decoding problem in Statistical Ma-
+chine Translation (SMT) is a computation-
+ally hard combinatorial optimization prob-
+lem. In this paper, we propose a new al-
+gorithmic framework for solving the decod-
+ing problem and demonstrate its utility. In
+the new algorithmic framework, the decod-
+ing problem can be solved both exactly and
+approximately. The key idea behind the
+framework is the modeling of the decod-
+ing problem as one that involves alternat-
+ing maximization of two relatively simpler
+subproblems. We show how the subprob-
+lems can be solved efficiently and how their
+solutions can be combined to arrive at a so-
+lution for the decoding problem. A fam-
+ily of provably fast decoding algorithms can
+be derived from the basic techniques under-
+lying the framework and we present a few
+illustrations. Our first algorithm is a prov-
+ably linear time search algorithm. We use
+this algorithm as a subroutine in the other
+algorithms. We believe that decoding algo-
+rithms derived from our framework can be
+of practical significance.
+1 

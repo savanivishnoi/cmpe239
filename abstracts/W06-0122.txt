@@ -1,0 +1,16 @@
+ 
+In sequence labeling tasks, applying dif-
+ferent machine learning models and fea-
+ture sets usually leads to different results. 
+In this paper, we exploit two ensemble 
+methods in order to integrate multiple 
+results generated under different condi-
+tions. One method is based on majority 
+vote, while the other is a memory-based 
+approach that integrates maximum en-
+tropy and conditional random field clas-
+sifiers. Our results indicate that the 
+memory-based method can outperform 
+the individual classifiers, but the major-
+ity vote method cannot. 
+1 

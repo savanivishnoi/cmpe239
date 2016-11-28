@@ -1,0 +1,20 @@
+
+In this paper we attempt to deduce tex-
+tual entailment based on syntactic depen-
+dency trees of a given text-hypothesis pair.
+The goals of this project are to provide an
+accurate and fast system, which we have
+called DLSITE-2, that can be applied in
+software systems that require a near-real-
+time interaction with the user. To accom-
+plish this we use MINIPAR to parse the
+phrases and construct their correspond-
+ing trees. Later on we apply syntactic-
+based techniques to calculate the seman-
+tic similarity between text and hypothe-
+sis. To measure our method?s precision we
+used the test text corpus set from Second
+PASCAL Recognising Textual Entailment
+Challenge (RTE-2), obtaining an accuracy
+rate of 60.75%.
+1 

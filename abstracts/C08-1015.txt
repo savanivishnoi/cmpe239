@@ -1,0 +1,21 @@
+
+In this paper, we focus on the adaptation
+problem that has a large labeled data in the
+source domain and a large but unlabeled
+data in the target domain. Our aim is to
+learn reliable information from unlabeled
+target domain data for dependency pars-
+ing adaptation. Current state-of-the-art sta-
+tistical parsers perform much better for
+shorter dependencies than for longer ones.
+Thus we propose an adaptation approach
+by learning reliable information on shorter
+dependencies in an unlabeled target data
+to help parse longer distance words. The
+unlabeled data is parsed by a dependency
+parser trained on labeled source domain
+data. The experimental results indicate
+that our proposed approach outperforms
+the baseline system, and is better than cur-
+rent state-of-the-art adaptation techniques.
+1 

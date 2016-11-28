@@ -1,0 +1,17 @@
+
+When a word sense disambiguation (WSD)
+system is trained on one domain but ap-
+plied to a different domain, a drop in ac-
+curacy is frequently observed. This high-
+lights the importance of domain adaptation
+for word sense disambiguation. In this pa-
+per, we first show that an active learning ap-
+proach can be successfully used to perform
+domain adaptation of WSD systems. Then,
+by using the predominant sense predicted by
+expectation-maximization (EM) and adopt-
+ing a count-merging technique, we improve
+the effectiveness of the original adaptation
+process achieved by the basic active learn-
+ing approach.
+1 

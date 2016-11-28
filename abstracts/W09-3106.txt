@@ -1,0 +1,3 @@
+ 
+Statistical machine translation relies heavily on available parallel corpora, but SMT may not have the ability or intelligence to make full use of the training set. Instead of col-lecting more and more parallel training cor-pora, this paper aims to improve SMT performance by exploiting the full potential of existing parallel corpora. We first iden-tify literally translated sentence pairs via lexical and grammatical compatibility, and then use these data to train SMT models. One experiment indicates that larger train-ing corpora do not always lead to higher de-coding performance when the added data are not literal translations. And another ex-periment shows that properly enlarging the contribution of literal translation can im-prove SMT performance significantly. 
+1 

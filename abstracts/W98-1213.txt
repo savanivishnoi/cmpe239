@@ -1,0 +1,16 @@
+ 
+We discuss an automatic method for the construction of 
+hypertext links within and between ewspaper articles. 
+The method comprises three steps: determining the lexical 
+chains in a text, building links between the paragraphs of
+articles, and building links between articles. Lexical chains 
+capture the semantic relations between words that occur 
+throughout a text. Each chain is a set of related words that 
+captures a portion of the cohesive structure of a text. By 
+considering the distribution of chains within an article, we 
+can build links between the paragraphs. By computing the 
+similarity of the chains contained in two different articles, 
+we can decide whether or not to place a link between them. 
+We also describe the results of an evaluation performed to 
+test he methodology. 
+1 

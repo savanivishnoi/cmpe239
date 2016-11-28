@@ -1,0 +1,18 @@
+
+This paper examines the Stanford typed
+dependencies representation, which was
+designed to provide a straightforward de-
+scription of grammatical relations for any
+user who could benefit from automatic text
+understanding. For such purposes, we ar-
+gue that dependency schemes must follow
+a simple design and provide semantically
+contentful information, as well as offer an
+automatic procedure to extract the rela-
+tions. We consider the underlying design
+principles of the Stanford scheme from this
+perspective, and compare it to the GR and
+PARC representations. Finally, we address
+the question of the suitability of the Stan-
+ford scheme for parser evaluation.
+1 

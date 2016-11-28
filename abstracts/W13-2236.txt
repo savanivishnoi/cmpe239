@@ -1,0 +1,21 @@
+
+Multi-task learning has been shown to be
+effective in various applications, including
+discriminative SMT. We present an exper-
+imental evaluation of the question whether
+multi-task learning depends on a ?natu-
+ral? division of data into tasks that bal-
+ance shared and individual knowledge, or
+whether its inherent regularization makes
+multi-task learning a broadly applicable
+remedy against overfitting. To investi-
+gate this question, we compare ?natural?
+tasks defined as sections of the Interna-
+tional Patent Classification versus ?ran-
+dom? tasks defined as random shards in
+the context of patent SMT. We find that
+both versions of multi-task learning im-
+prove equally well over independent and
+pooled baselines, and gain nearly 2 BLEU
+points over standard MERT tuning.
+1 

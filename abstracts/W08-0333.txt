@@ -1,0 +1,28 @@
+
+In recent years, the quantity of parallel train-
+ing data available for statistical machine trans-
+lation has increased far more rapidly than
+the performance of individual computers, re-
+sulting in a potentially serious impediment
+to progress. Parallelization of the model-
+building algorithms that process this data on
+computer clusters is fraught with challenges
+such as synchronization, data exchange, and
+fault tolerance. However, the MapReduce
+programming paradigm has recently emerged
+as one solution to these issues: a powerful
+functional abstraction hides system-level de-
+tails from the researcher, allowing programs to
+be transparently distributed across potentially
+very large clusters of commodity hardware.
+We describe MapReduce implementations of
+two algorithms used to estimate the parame-
+ters for two word alignment models and one
+phrase-based translation model, all of which
+rely on maximum likelihood probability esti-
+mates. On a 20-machine cluster, experimental
+results show that our solutions exhibit good
+scaling characteristics compared to a hypo-
+thetical, optimally-parallelized version of cur-
+rent state-of-the-art single-core tools.
+1 

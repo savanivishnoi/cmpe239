@@ -1,0 +1,26 @@
+
+Online debate forums provide a powerful
+communication platform for individual users
+to share information, exchange ideas and ex-
+press opinions on a variety of topics. Under-
+standing people?s opinions in such forums is
+an important task as its results can be used
+in many ways. It is, however, a challeng-
+ing task because of the informal language use
+and the dynamic nature of online conversa-
+tions. In this paper, we propose a new method
+for identifying participants? agreement or dis-
+agreement on an issue by exploiting infor-
+mation contained in each of the posts. Our
+proposed method first regards each post in
+its local context, then aggregates posts to es-
+timate a participant?s overall position. We
+have explored the use of sentiment, emotional
+and durational features to improve the accu-
+racy of automatic agreement and disagree-
+ment classification. Our experimental results
+have shown that aggregating local positions
+over posts yields better performance than non-
+aggregation baselines when identifying users?
+global positions on an issue.
+1 

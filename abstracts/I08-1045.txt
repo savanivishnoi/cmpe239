@@ -1,0 +1,21 @@
+
+We describe our effort in developing a
+Named Entity Recognition (NER) system
+for Hindi using Maximum Entropy (Max-
+Ent) approach. We developed a NER an-
+notated corpora for the purpose. We have
+tried to identify the most relevant features
+for Hindi NER task to enable us to develop
+an efficient NER from the limited corpora
+developed. Apart from the orthographic and
+collocation features, we have experimented
+on the efficiency of using gazetteer lists as
+features. We also worked on semi-automatic
+induction of context patterns and experi-
+mented with using these as features of the
+MaxEnt method. We have evaluated the per-
+formance of the system against a blind test
+set having 4 classes - Person, Organization,
+Location and Date. Our system achieved a
+f-value of 81.52%.
+1 

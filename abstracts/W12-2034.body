@@ -1,0 +1,19 @@
+
+We describe the Valkuil.net team entry for the
+HOO 2012 Shared Task. Our systems consists
+of four memory-based classifiers that generate
+correction suggestions for middle positions in
+small text windows of two words to the left
+and to the right. Trained on the Google 1TB 5-
+gram corpus, the first two classifiers determine
+the presence of a determiner or a preposition
+between all words in a text in which the actual
+determiners and prepositions are masked. The
+second pair of classifiers determines which is
+the most likely correction given a masked de-
+terminer or preposition. The hyperparameters
+that govern the classifiers are optimized on
+the shared task training data. We point out a
+number of obvious improvements to boost the
+medium-level scores attained by the system.
+1 

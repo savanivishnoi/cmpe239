@@ -1,0 +1,17 @@
+
+Foma is a compiler, programming lan-
+guage, and C library for constructing
+finite-state automata and transducers for
+various uses. It has specific support for
+many natural language processing appli-
+cations such as producing morphologi-
+cal and phonological analyzers. Foma is
+largely compatible with the Xerox/PARC
+finite-state toolkit. It also embraces Uni-
+code fully and supports various differ-
+ent formats for specifying regular expres-
+sions: the Xerox/PARC format, a Perl-like
+format, and a mathematical format that
+takes advantage of the ?Mathematical Op-
+erators? Unicode block.
+1 

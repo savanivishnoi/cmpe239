@@ -1,0 +1,19 @@
+
+Lexical Chains are powerful representa-
+tions of documents. In particular, they
+have successfully been used in the field
+of Automatic Text Summarization. How-
+ever, until now, Lexical Chaining algo-
+rithms have only been proposed for Eng-
+lish. In this paper, we propose a greedy
+Language-Independent algorithm that au-
+tomatically extracts Lexical Chains from
+texts. For that purpose, we build a hier-
+archical lexico-semantic knowledge base
+from a collection of texts by using the
+Pole-Based Overlapping Clustering Algo-
+rithm. As a consequence, our method-
+ology can be applied to any language
+and proposes a solution to language-
+dependent Lexical Chainers.
+1 

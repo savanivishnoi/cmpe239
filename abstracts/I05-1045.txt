@@ -1,0 +1,12 @@
+. In this paper, we explore the syntactic relation patterns for open-
+domain factoid question answering.  We propose a pattern extraction method to 
+extract the various relations between the proper answers and different types of 
+question words, including target words, head words, subject words and verbs, 
+from syntactic trees.  We further propose a QA-specific tree kernel to partially 
+match the syntactic relation patterns.  It makes the more tolerant matching be-
+tween two patterns and helps to solve the data sparseness problem.  Lastly, we 
+incorporate the patterns into a Maximum Entropy Model to rank the answer 
+candidates.  The experiment on TREC questions shows that the syntactic rela-
+tion patterns help to improve the performance by 6.91 MRR based on the com-
+mon features. 
+1   

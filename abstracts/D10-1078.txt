@@ -1,0 +1,19 @@
+ 
+We present a novel approach to distributional-
+only, fully unsupervised, POS tagging, based on 
+an adaptation of the EM algorithm for the esti-
+mation of a Gaussian mixture. In this approach, 
+which we call Latent-Descriptor Clustering 
+(LDC), word types are clustered using a series 
+of progressively more informative descriptor 
+vectors. These descriptors, which are computed 
+from the immediate left and right context of 
+each word in the corpus, are updated based on 
+the previous state of the cluster assignments. 
+The LDC algorithm is simple and intuitive. Us-
+ing standard evaluation criteria for unsupervised 
+POS tagging, LDC shows a substantial im-
+provement in performance over state-of-the-art 
+methods, along with a several-fold reduction in 
+computational cost. 
+1 

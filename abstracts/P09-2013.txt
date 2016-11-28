@@ -1,0 +1,13 @@
+
+We describe an algorithm for Japanese
+analysis that does both base phrase chunk-
+ing and dependency parsing simultane-
+ously in linear-time with a single scan of a
+sentence. In this paper, we show a pseudo
+code of the algorithm and evaluate its per-
+formance empirically on the Kyoto Uni-
+versity Corpus. Experimental results show
+that the proposed algorithm with the voted
+perceptron yields reasonably good accu-
+racy.
+1 

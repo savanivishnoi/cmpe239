@@ -1,0 +1,16 @@
+ 
+This paper investigates a machine learn-
+ing approach for temporally ordering and 
+anchoring events in natural language 
+texts. To address data sparseness, we 
+used temporal reasoning as an over-
+sampling method to dramatically expand 
+the amount of training data, resulting in 
+predictive accuracy on link labeling as 
+high as 93% using a Maximum Entropy 
+classifier on human annotated data. This 
+method compared favorably against a se-
+ries of increasingly sophisticated base-
+lines involving expansion of rules de-
+rived from human intuitions. 
+1 

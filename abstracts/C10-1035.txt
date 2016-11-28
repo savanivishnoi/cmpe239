@@ -1,0 +1,28 @@
+ 
+Previous methods on improving transla-
+tion quality by employing multiple SMT 
+models usually carry out as a second-
+pass decision procedure on hypotheses 
+from multiple systems using extra fea-
+tures instead of using features in existing 
+models in more depth. In this paper, we 
+propose translation model generalization 
+(TMG), an approach that updates proba-
+bility feature values for the translation 
+model being used based on the model it-
+self and a set of auxiliary models, aiming 
+to enhance translation quality in the first-
+pass decoding. We validate our approach 
+on translation models based on auxiliary 
+models built by two different ways. We 
+also introduce novel probability variance 
+features into the log-linear models for 
+further improvements. We conclude that 
+our approach can be developed indepen-
+dently and integrated into current SMT 
+pipeline directly. We demonstrate BLEU 
+improvements on the NIST Chinese-to-
+English MT tasks for single-system de-
+codings, a system combination approach 
+and a model combination approach.1 
+1 

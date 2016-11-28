@@ -1,0 +1,15 @@
+ 
+The BioNLP?09 Shared Task on Event Extrac-
+tion presented an evaluation on the extraction 
+of biological events related to genes/proteins 
+from the literature. We propose a system that 
+uses the case-based reasoning (CBR) machine 
+learning approach for the extraction of the enti-
+ties (events, sites and location). The mapping 
+of the proteins in the texts to the previously ex-
+tracted entities is carried out by some simple 
+manually developed rules for each of the argu-
+ments under consideration (cause, theme, site 
+or location). We have achieved an f-measure of 
+24.15 and 21.15 for Task 1 and 2, respectively. 
+1 

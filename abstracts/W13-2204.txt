@@ -1,0 +1,19 @@
+
+This paper describes LIMSI?s submis-
+sions to the shared WMT?13 translation
+task. We report results for French-English,
+German-English and Spanish-English in
+both directions. Our submissions use
+n-code, an open source system based on
+bilingual n-grams, and continuous space
+models in a post-processing step. The
+main novelties of this year?s participation
+are the following: our first participation
+to the Spanish-English task; experiments
+with source pre-ordering; a tighter integra-
+tion of continuous space language mod-
+els using artificial text generation (for Ger-
+man); and the use of different tuning sets
+according to the original language of the
+text to be translated.
+1 

@@ -1,0 +1,19 @@
+
+This paper presents a novel approach for in-
+ducing lexical taxonomies automatically from
+text. We recast the learning problem as
+that of inferring a hierarchy from a graph
+whose nodes represent taxonomic terms and
+edges their degree of relatedness. Our model
+takes this graph representation as input and
+fits a taxonomy to it via combination of a
+maximum likelihood approach with a Monte
+Carlo Sampling algorithm. Essentially, the
+method works by sampling hierarchical struc-
+tures with probability proportional to the like-
+lihood with which they produce the input
+graph. We use our model to infer a taxonomy
+over 541 nouns and show that it outperforms
+popular flat and hierarchical clustering algo-
+rithms.
+1 

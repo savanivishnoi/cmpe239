@@ -1,0 +1,14 @@
+
+This paper presents DAGGER, a toolkit for
+finite-state automata that operate on directed
+acyclic graphs (dags). The work is based on a
+model introduced by (Kamimura and Slutzki,
+1981; Kamimura and Slutzki, 1982), with a
+few changes to make the automata more ap-
+plicable to natural language processing. Avail-
+able algorithms include membership checking
+in bottom-up dag acceptors, transduction of
+dags to trees (bottom-up dag-to-tree transduc-
+ers), k-best generation and basic operations
+such as union and intersection.
+1 

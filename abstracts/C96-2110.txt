@@ -1,0 +1,16 @@
+ 
+This paper proposes a new algorithm 
+that simultaneously identifies the cod- 
+ing system and language of a code string 
+fetched from the Internet, especially 
+World-Wide Web. The algorithm uses 
+statistic language models to select the 
+correctly decoded string as well as to de- 
+termine the language. The proposed al- 
+gorithm covers 9 languages and 11 cod- 
+ing systems used in Eastern Asia and 
+Western Europe. Experimental results 
+show that the level of accuracy of our al- 
+gorithm is over 95% for 640 on-line doc- 
+uments. 
+1 

@@ -1,0 +1,18 @@
+
+When reviewing scientific literature, it would
+be useful to have automatic tools that iden-
+tify the most influential scientific articles as
+well as how ideas propagate between articles.
+In this context, this paper introduces topical
+influence, a quantitative measure of the ex-
+tent to which an article tends to spread its
+topics to the articles that cite it. Given the
+text of the articles and their citation graph, we
+show how to learn a probabilistic model to re-
+cover both the degree of topical influence of
+each article and the influence relationships be-
+tween articles. Experimental results on cor-
+pora from two well-known computer science
+conferences are used to illustrate and validate
+the proposed approach.
+1 

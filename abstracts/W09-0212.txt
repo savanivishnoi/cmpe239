@@ -1,0 +1,13 @@
+
+This paper presents a graph-theoretic
+approach to the identification of yet-
+unknown word translations. The proposed
+algorithm is based on the recursive Sim-
+Rank algorithm and relies on the intuition
+that two words are similar if they estab-
+lish similar grammatical relationships with
+similar other words. We also present a for-
+mulation of SimRank in matrix form and
+extensions for edge weights, edge labels
+and multiple graphs.
+1 

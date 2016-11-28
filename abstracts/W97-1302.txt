@@ -1,0 +1,20 @@
+ 
+In this paper, we propose a method for 
+anaphora resolution of zero subjects in 
+Japanese manual sentences based on both 
+the nature of language xpressions and the 
+ontology of ordinary instruction manuals. 
+In instruction manuals written in Japanese, 
+zero subjects often introduce ambiguity 
+into sentences. In order to resolve them, 
+we consider the property of several types of 
+expressions including some forms of verbal 
+phrases and some conjunctives of clauses, 
+and so on. As the result, we have a set 
+of constraints and defaults for zero subject 
+resolution. We examine the precision of the 
+constraints and defaults with real manual 
+sentences, and we have the result that they 
+make a good estimate with precision of over 
+80%. 
+1 

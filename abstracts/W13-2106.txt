@@ -1,0 +1,18 @@
+
+We present an Integer Linear Program-
+ming model of content selection, lexical-
+ization, and aggregation that we devel-
+oped for a system that generates texts from
+OWL ontologies. Unlike pipeline archi-
+tectures, our model jointly considers the
+available choices in these three text gen-
+eration stages, to avoid greedy decisions
+and produce more compact texts. Experi-
+ments with two ontologies confirm that it
+leads to more compact texts, compared to
+a pipeline with the same components, with
+no deterioration in the perceived quality of
+the generated texts. We also present an ap-
+proximation of our model, which allows
+longer texts to be generated efficiently.
+1 

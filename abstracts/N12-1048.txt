@@ -1,0 +1,26 @@
+
+In a conventional telephone conversation be-
+tween two speakers of the same language, the
+interaction is real-time and the speakers pro-
+cess the information stream incrementally. In
+this work, we address the problem of incre-
+mental speech-to-speech translation (S2S) that
+enables cross-lingual communication between
+two remote participants over a telephone. We
+investigate the problem in a novel real-time
+Session Initiation Protocol (SIP) based S2S
+framework. The speech translation is per-
+formed incrementally based on generation of
+partial hypotheses from speech recognition.
+We describe the statistical models comprising
+the S2S system and the SIP architecture for
+enabling real-time two-way cross-lingual dia-
+log. We present dialog experiments performed
+in this framework and study the tradeoff in ac-
+curacy versus latency in incremental speech
+translation. Experimental results demonstrate
+that high quality translations can be generated
+with the incremental approach with approxi-
+mately half the latency associated with non-
+incremental approach.
+1 

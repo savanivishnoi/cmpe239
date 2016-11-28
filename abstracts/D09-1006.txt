@@ -1,0 +1,25 @@
+
+Minimum error rate training (MERT) in-
+volves choosing parameter values for a
+machine translation (MT) system that
+maximize performance on a tuning set as
+measured by an automatic evaluation met-
+ric, such as BLEU. The method is best
+when the system will eventually be eval-
+uated using the same metric, but in reality,
+most MT evaluations have a human-based
+component. Although performing MERT
+with a human-based metric seems like a
+daunting task, we describe a new metric,
+RYPT, which takes human judgments into
+account, but only requires human input to
+build a database that can be reused over
+and over again, hence eliminating the need
+for human input at tuning time. In this
+investigative study, we analyze the diver-
+sity (or lack thereof) of the candidates pro-
+duced during MERT, we describe how this
+redundancy can be used to our advantage,
+and show that RYPT is a better predictor of
+translation quality than BLEU.
+1 

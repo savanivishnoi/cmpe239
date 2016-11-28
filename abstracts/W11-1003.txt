@@ -1,0 +1,29 @@
+
+To facilitate the application of semantics in
+statistical machine translation, we propose
+a broad-coverage predicate-argument struc-
+ture mapping technique using automated re-
+sources. Our approach utilizes automatic
+syntactic and semantic parsers to gener-
+ate Chinese-English predicate-argument struc-
+tures. The system produced a many-to-many
+argument mapping for all PropBank argu-
+ment types by computing argument similarity
+based on automatic word alignment, achieving
+80.5% F-score on numbered argument map-
+ping and 64.6% F-score on all arguments. By
+measuring predicate-argument structure sim-
+ilarity based on the argument mapping, and
+formulating the predicate-argument structure
+mapping problem as a linear-assignment prob-
+lem, the system achieved 84.9% F-score us-
+ing automatic SRL, only 3.7% F-score lower
+than using gold standard SRL. The map-
+ping output covered 49.6% of the annotated
+Chinese predicates (which contains predicate-
+adjectives that often have no parallel annota-
+tions in English) and 80.7% of annotated En-
+glish predicates, suggesting its potential as a
+valuable resource for improving word align-
+ment and reranking MT output.
+1 

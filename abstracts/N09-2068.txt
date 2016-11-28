@@ -1,0 +1,18 @@
+
+The spoken term detection (STD) task aims
+to return relevant segments from a spoken
+archive that contain the query terms. This pa-
+per focuses on the decision stage of an STD
+system. We propose a term specific threshold-
+ing (TST) method that uses per query poste-
+rior score distributions. The STD system de-
+scribed in this paper indexes word-level lat-
+tices produced by an LVCSR system using
+Weighted Finite State Transducers (WFSTs).
+The target application is a sign dictionary
+where precision is more important than recall.
+Experiments compare the performance of dif-
+ferent thresholding techniques. The proposed
+approach increases the maximum precision at-
+tainable by the system.
+1 

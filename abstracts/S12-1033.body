@@ -1,0 +1,20 @@
+
+Detecting emotions in microblogs and so-
+cial media posts has applications for industry,
+health, and security. However, there exists no
+microblog corpus with instances labeled for
+emotions for developing supervised systems.
+In this paper, we describe how we created such
+a corpus from Twitter posts using emotion-
+word hashtags. We conduct experiments to
+show that the self-labeled hashtag annotations
+are consistent and match with the annotations
+of trained judges. We also show how the Twit-
+ter emotion corpus can be used to improve
+emotion classification accuracy in a different
+domain. Finally, we extract a word?emotion
+association lexicon from this Twitter corpus,
+and show that it leads to significantly better
+results than the manually crafted WordNet Af-
+fect lexicon in an emotion classification task.1
+1 

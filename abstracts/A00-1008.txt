@@ -1,0 +1,16 @@
+ 
+This paper describes an application of APE (the 
+Atlas Planning Engine), an integrated planning and 
+execution system at the heart of the Atlas dialogue 
+management system. APE controls a mixed- 
+initiative dialogue between a human user and a 
+host system, where turns in the 'conversation' may 
+include graphical actions and/or written text. APE 
+has full unification and can handle arbitrarily 
+nested discourse constructs, making it more 
+powerful than dialogue managers based on finite- 
+state machines. We illustrate this work by 
+describing Atlas-Andes, an intelligent tutoring 
+system built using APE with the Andes physics 
+tutor as the host. 
+1 

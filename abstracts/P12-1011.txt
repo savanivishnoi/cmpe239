@@ -1,0 +1,23 @@
+
+Temporal reasoners for document understand-
+ing typically assume that a document?s cre-
+ation date is known. Algorithms to ground
+relative time expressions and order events of-
+ten rely on this timestamp to assist the learner.
+Unfortunately, the timestamp is not always
+known, particularly on the Web. This pa-
+per addresses the task of automatic document
+timestamping, presenting two new models that
+incorporate rich linguistic features about time.
+The first is a discriminative classifier with
+new features extracted from the text?s time
+expressions (e.g., ?since 1999?). This model
+alone improves on previous generative mod-
+els by 77%. The second model learns prob-
+abilistic constraints between time expressions
+and the unknown document time. Imposing
+these learned constraints on the discriminative
+model further improves its accuracy. Finally,
+we present a new experiment design that facil-
+itates easier comparison by future work.
+1 

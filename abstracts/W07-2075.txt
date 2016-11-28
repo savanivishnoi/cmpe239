@@ -1,0 +1,17 @@
+
+This paper describes a graph-based unsu-
+pervised system for induction and clas-
+sification. The system performs a two
+stage graph based clustering where a co-
+occurrence graph is first clustered to com-
+pute similarities against contexts. The con-
+text similarity matrix is pruned and the re-
+sulting associated graph is clustered again
+by means of a random-walk type algorithm.
+The system relies on a set of parameters that
+have been tuned to fit the corpus data. The
+system has participated in tasks 2 and 13
+of the SemEval-2007 competition, on word
+sense induction and Web people search, re-
+spectively, with mixed results.
+1 

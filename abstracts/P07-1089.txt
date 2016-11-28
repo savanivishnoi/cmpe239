@@ -1,0 +1,18 @@
+
+In this paper, we propose forest-to-string
+rules to enhance the expressive power of
+tree-to-string translation models. A forest-
+to-string rule is capable of capturing non-
+syntactic phrase pairs by describing the cor-
+respondence between multiple parse trees
+and one string. To integrate these rules
+into tree-to-string translation models, auxil-
+iary rules are introduced to provide a gen-
+eralization level. Experimental results show
+that, on the NIST 2005 Chinese-English test
+set, the tree-to-string model augmented with
+forest-to-string rules achieves a relative im-
+provement of 4.3% in terms of BLEU score
+over the original model which allows tree-
+to-string rules only.
+1 

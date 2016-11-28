@@ -1,0 +1,24 @@
+
+Implicit discourse relation recognition is
+difficult due to the absence of explicit
+discourse connectives between arbitrary
+spans of text. In this paper, we use lan-
+guage models to predict the discourse con-
+nectives between the arguments pair. We
+present two methods to apply the pre-
+dicted connectives to implicit discourse
+relation recognition. One is to use the
+sense frequency of the specific connec-
+tives in a supervised framework. The
+other is to directly use the presence of the
+predicted connectives in an unsupervised
+way. Results on PDTB2 show that using
+language model to predict the connectives
+can achieve comparable F-scores to the
+previous state-of-art method. Our method
+is quite promising in that not only it has
+a very small number of features but also
+once a language model based on other re-
+sources is trained it can be more adaptive
+to other languages and domains.
+1 

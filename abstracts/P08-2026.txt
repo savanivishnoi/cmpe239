@@ -1,0 +1,17 @@
+
+Parser self-training is the technique of
+taking an existing parser, parsing extra
+data and then creating a second parser
+by treating the extra data as further
+training data. Here we apply this tech-
+nique to parser adaptation. In partic-
+ular, we self-train the standard Char-
+niak/Johnson Penn-Treebank parser us-
+ing unlabeled biomedical abstracts. This
+achieves an f -score of 84.3% on a stan-
+dard test set of biomedical abstracts from
+the Genia corpus. This is a 20% error re-
+duction over the best previous result on
+biomedical data (80.2% on the same test
+set).
+1 

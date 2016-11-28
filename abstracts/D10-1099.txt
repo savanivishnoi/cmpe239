@@ -1,0 +1,23 @@
+
+We present a novel approach to relation ex-
+traction that integrates information across doc-
+uments, performs global inference and re-
+quires no labelled text. In particular, we
+tackle relation extraction and entity identifi-
+cation jointly. We use distant supervision to
+train a factor graph model for relation ex-
+traction based on an existing knowledge base
+(Freebase, derived in parts from Wikipedia).
+For inference we run an efficient Gibbs sam-
+pler that leads to linear time joint inference.
+We evaluate our approach both for an in-
+domain (Wikipedia) and a more realistic out-
+of-domain (New York Times Corpus) setting.
+For the in-domain setting, our joint model
+leads to 4% higher precision than an isolated
+local approach, but has no advantage over a
+pipeline. For the out-of-domain data, we ben-
+efit strongly from joint modelling, and observe
+improvements in precision of 13% over the
+pipeline, and 15% over the isolated baseline.
+1 

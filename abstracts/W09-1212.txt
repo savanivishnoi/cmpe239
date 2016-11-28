@@ -1,0 +1,16 @@
+
+We present a system developed for the
+CoNLL-2009 Shared Task (Hajic? et al, 2009).
+We extend the Carreras (2007) parser to
+jointly annotate syntactic and semantic depen-
+dencies. This state-of-the-art parser factor-
+izes the built tree in second-order factors. We
+include semantic dependencies in the factors
+and extend their score function to combine
+syntactic and semantic scores. The parser is
+coupled with an on-line averaged perceptron
+(Collins, 2002) as the learning method. Our
+averaged results for all seven languages are
+71.49 macro F1, 79.11 LAS and 63.06 seman-
+tic F1.
+1 

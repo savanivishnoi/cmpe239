@@ -1,0 +1,15 @@
+
+We present a search-based approach to au-
+tomatic surface realization given a cor-
+pus of domain sentences. Using heuris-
+tic search based on a statistical language
+model and a structure we introduce called
+an inheritance table we overgenerate a
+set of complete syntactic-semantic trees
+that are consistent with the given seman-
+tic structure and have high likelihood rela-
+tive to the language model. These trees are
+then lexicalized, linearized, scored, and
+ranked. This model is being developed to
+generate real-time navigation instructions.
+1 

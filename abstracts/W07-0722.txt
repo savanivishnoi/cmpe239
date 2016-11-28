@@ -1,0 +1,20 @@
+
+Mixture modelling is a standard technique
+for density estimation, but its use in sta-
+tistical machine translation (SMT) has just
+started to be explored. One of the main
+advantages of this technique is its capabil-
+ity to learn specific probability distributions
+that better fit subsets of the training dataset.
+This feature is even more important in SMT
+given the difficulties to translate polysemic
+terms whose semantic depends on the con-
+text in which that term appears. In this pa-
+per, we describe a mixture extension of the
+HMM alignment model and the derivation of
+Viterbi alignments to feed a state-of-the-art
+phrase-based system. Experiments carried
+out on the Europarl and News Commentary
+corpora show the potential interest and limi-
+tations of mixture modelling.
+1 

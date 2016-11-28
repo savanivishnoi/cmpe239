@@ -1,0 +1,32 @@
+
+We present the first ever results show-
+ing that tuning a machine translation sys-
+tem against a semantic frame based ob-
+jective function, MEANT, produces more
+robustly adequate translations than tun-
+ing against BLEU or TER as measured
+across commonly used metrics and human
+subjective evaluation. Moreover, for in-
+formal web forum data, human evalua-
+tors preferredMEANT-tuned systems over
+BLEU- or TER-tuned systems by a sig-
+nificantly wider margin than that for for-
+mal newswire?even though automatic se-
+mantic parsing might be expected to fare
+worse on informal language. We argue
+that by preserving themeaning of the trans-
+lations as captured by semantic frames
+right in the training process, an MT sys-
+tem is constrained to make more accu-
+rate choices of both lexical and reorder-
+ing rules. As a result, MT systems tuned
+against semantic frame based MT evalu-
+ation metrics produce output that is more
+adequate. Tuning a machine translation
+system against a semantic frame based ob-
+jective function is independent of the trans-
+lation model paradigm, so, any transla-
+tion model can benefit from the semantic
+knowledge incorporated to improve trans-
+lation adequacy through our approach.
+1 

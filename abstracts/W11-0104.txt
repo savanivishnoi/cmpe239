@@ -1,0 +1,6 @@
+
+This paper explores the role played by a multilingual feature representation for the task of word
+sense disambiguation. We translate the context of an ambiguous word in multiple languages, and
+show through experiments on standard datasets that by using a multilingual vector space we can
+obtain error rate reductions of up to 25%, as compared to a monolingual classifier.
+1 

@@ -1,0 +1,19 @@
+
+This paper presents an HMM-based
+chunk tagger for Hindi. Various tagging
+schemes for marking chunk boundaries
+are discussed along with their results.
+Contextual information is incorporated
+into the chunk tags in the form of part-
+of-speech (POS) information. This in-
+formation is also added to the tokens
+themselves to achieve better precision.
+Error analysis is carried out to reduce
+the number of common errors. It is
+found that for certain classes of words,
+using the POS information is more ef-
+fective than using a combination of
+word and POS tag as the token. Fi-
+nally, chunk labels are also marked on
+the chunks.
+1 

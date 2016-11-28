@@ -1,0 +1,22 @@
+
+This paper describes experiments in using
+machine learning for relation disambiguation.
+There have been succesfuld experiments in
+combining machine learning and ontologies,
+or light-weight ontologies such as WordNet,
+for word sense disambiguation. However,
+what we are trying to do, is to disambiguate
+complex concepts consisting of two simpler
+concepts and the relation that holds between
+them. The motivation behind the approach is
+to expand existing methods for content based
+information retrieval. The experiments have
+been performed using an annotated extract of
+a corpus, consisting of prepositions surroun-
+ded by noun phrases, where the prepositions
+denote the relation we are trying disambigu-
+ate. The results show an unexploited opportu-
+nity of including prepositions and the relations
+they denote, e.g. in content based information
+retrieval.
+1 

@@ -1,0 +1,32 @@
+
+Named entity recognition for morpholog-
+ically rich, case-insensitive languages, in-
+cluding the majority of semitic languages,
+Iranian languages, and Indian languages,
+is inherently more difficult than its English
+counterpart. Worse still, progress on ma-
+chine learning approaches to named entity
+recognition for many of these languages
+is currently hampered by the scarcity of
+annotated data and the lack of an accu-
+rate part-of-speech tagger. While it is
+possible to rely on manually-constructed
+gazetteers to combat data scarcity, this
+gazetteer-centric approach has the poten-
+tial weakness of creating irreproducible
+results, since these name lists are not
+publicly available in general. Motivated
+in part by this concern, we present a
+learning-based named entity recognizer
+that does not rely on manually-constructed
+gazetteers, using Bengali as our represen-
+tative resource-scarce, morphologically-
+rich language. Our recognizer achieves
+a relative improvement of 7.5% in F-
+measure over a baseline recognizer. Im-
+provements arise from (1) using in-
+duced affixes, (2) extracting information
+from online lexical databases, and (3)
+jointly modeling part-of-speech tagging
+and named entity recognition.
+1 

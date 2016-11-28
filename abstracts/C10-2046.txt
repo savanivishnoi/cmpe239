@@ -1,0 +1,19 @@
+
+This paper proposes a novel extractive
+summarization method for contact cen-
+ter dialogues. We use a particular
+type of hidden Markov model (HMM)
+called Class Speaker HMM (CSHMM),
+which processes operator/caller utterance
+sequences of multiple domains simulta-
+neously to model domain-specific utter-
+ance sequences and common (domain-
+wide) sequences at the same time. We
+applied the CSHMM to call summariza-
+tion of transcripts in six different con-
+tact center domains and found that our
+method significantly outperforms compet-
+itive baselines based on the maximum
+coverage of important words using integer
+linear programming.
+1 

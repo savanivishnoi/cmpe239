@@ -1,0 +1,37 @@
+ 
+Hall? Norden is a web site with information 
+regarding mobility between the Nordic coun-
+tries in five different languages; Swedish, 
+Danish, Norwegian, Icelandic and Finnish.  
+We wanted to create a Nordic cross-language 
+dictionary for the use in a cross-language 
+search engine for Hall? Norden. The entire 
+set of texts on the web site was treated as one 
+multilingual parallel corpus. From this we 
+extracted parallel corpora for each language 
+pair. The corpora were very sparse, contain-
+ing on average less than 80 000 words per 
+language pair. We have used the Uplug word 
+alignment system (Tiedemann 2003a), for the 
+creation of the dictionaries. The results gave 
+on average 213 new dictionary words (fre-
+quency > 3) per language pair. The average 
+error rate was 16 percent. Different combina-
+tions with Finnish had a higher error rate, 33 
+percent, whereas the error rate for the re-
+maining language pairs only yielded on aver-
+age 9 percent errors. The high error rate for 
+Finnish is possibly due to the fact that the 
+Finnish language belongs to a different lan-
+guage family. Although the corpora were 
+very sparse the word alignment results for the 
+combinations of Swedish, Danish, Norwe-
+gian and Icelandic were surprisingly good 
+compared to other experiments with larger 
+corpora.   
+                                                 
+ ? 2008. Licensed under the Creative Commons Attri-
+bution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+1 

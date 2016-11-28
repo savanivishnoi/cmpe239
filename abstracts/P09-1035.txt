@@ -1,0 +1,23 @@
+
+A number of approaches to Automatic
+MT Evaluation based on deep linguistic
+knowledge have been suggested. How-
+ever, n-gram based metrics are still to-
+day the dominant approach. The main
+reason is that the advantages of employ-
+ing deeper linguistic information have not
+been clarified yet. In this work, we pro-
+pose a novel approach for meta-evaluation
+of MT evaluation metrics, since correla-
+tion cofficient against human judges do
+not reveal details about the advantages and
+disadvantages of particular metrics. We
+then use this approach to investigate the
+benefits of introducing linguistic features
+into evaluation metrics. Overall, our ex-
+periments show that (i) both lexical and
+linguistic metrics present complementary
+advantages and (ii) combining both kinds
+of metrics yields the most robust meta-
+evaluation performance.
+1 

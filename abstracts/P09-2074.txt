@@ -1,0 +1,14 @@
+
+Most approaches to topic modeling as-
+sume an independence between docu-
+ments that is frequently violated. We
+present an topic model that makes use
+of one or more user-specified graphs de-
+scribing relationships between documents.
+These graph are encoded in the form of a
+Markov random field over topics and serve
+to encourage related documents to have
+similar topic structures. Experiments on
+show upwards of a 10% improvement in
+modeling performance.
+1 

@@ -1,0 +1,35 @@
+
+Spoken dialogue systems typically do not
+manage the communication channel, instead
+using fixed values for such features as the
+amplitude and speaking rate. Yet, the qual-
+ity of a dialogue can be compromised if the
+user has difficulty understanding the system.
+In this proof-of-concept research, we explore
+using reinforcement learning (RL) to create
+policies that manage the communication chan-
+nel to meet the needs of diverse users. To-
+wards this end, we first formalize a prelimi-
+nary communication channel model, in which
+users provide explicit feedback regarding is-
+sues with the communication channel, and the
+system implicitly alters its amplitude to ac-
+commodate the user?s optimal volume. Sec-
+ond, we explore whether RL is an appropri-
+ate tool for creating communication channel
+management strategies, comparing two differ-
+ent hand-crafted policies to policies trained
+using both a dialogue-length and a novel an-
+noyance cost. The learned policies performed
+better than hand-crafted policies, with those
+trained using the annoyance cost learning an
+equitable tradeoff between users with differ-
+ing needs and also learning to balance finding
+a user?s optimal amplitude against dialogue-
+length. These results suggest that RL can be
+used to create effective communication chan-
+nel management policies for diverse users.
+Index Terms: communication channel, spoken di-
+alogue systems, reinforcement learning, amplitude,
+diverse users
+1 

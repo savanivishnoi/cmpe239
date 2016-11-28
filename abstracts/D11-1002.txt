@@ -1,0 +1,26 @@
+
+Online discussion forums are a valuable
+means for users to resolve specific information
+needs, both interactively for the participants
+and statically for users who search/browse
+over historical thread data. However, the com-
+plex structure of forum threads can make it
+difficult for users to extract relevant informa-
+tion. The discourse structure of web forum
+threads, in the form of labelled dependency re-
+lationships between posts, has the potential to
+greatly improve information access over web
+forum archives. In this paper, we present the
+task of parsing user forum threads to deter-
+mine the labelled dependencies between posts.
+Three methods, including a dependency pars-
+ing approach, are proposed to jointly clas-
+sify the links (relationships) between posts
+and the dialogue act (type) of each link. The
+proposed methods significantly surpass an in-
+formed baseline. We also experiment with ?in
+situ? classification of evolving threads, and es-
+tablish that our best methods are able to per-
+form equivalently well over partial threads as
+complete threads.
+1 

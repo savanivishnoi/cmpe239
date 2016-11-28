@@ -1,0 +1,12 @@
+
+In this paper, we start with the existing idea of
+taking reordering rules automatically derived
+from syntactic representations, and applying
+them in a preprocessing step before translation
+to make the source sentence structurally more
+like the target; and we propose a new approach
+to hierarchically extracting these rules. We
+evaluate this, combined with a lattice-based
+decoding, and show improvements over state-
+of-the-art distortion models.
+1 

@@ -1,0 +1,21 @@
+
+A challenging problem in open informa-
+tion extraction and text mining is the learn-
+ing of the selectional restrictions of se-
+mantic relations. We propose a mini-
+mally supervised bootstrapping algorithm
+that uses a single seed and a recursive
+lexico-syntactic pattern to learn the ar-
+guments and the supertypes of a diverse
+set of semantic relations from the Web.
+We evaluate the performance of our algo-
+rithm on multiple semantic relations ex-
+pressed using ?verb?, ?noun?, and ?verb
+prep? lexico-syntactic patterns. Human-
+based evaluation shows that the accuracy
+of the harvested information is about 90%.
+We also compare our results with existing
+knowledge base to outline the similarities
+and differences of the granularity and di-
+versity of the harvested knowledge.
+1 

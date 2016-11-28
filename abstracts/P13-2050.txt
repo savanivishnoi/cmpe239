@@ -1,0 +1,16 @@
+ 
+Comparable corpora are important basic re-
+sources in cross-language information pro-
+cessing. However, the existing methods of 
+building comparable corpora, which use inter-
+translate words and relative features, cannot 
+evaluate the topical relation between document 
+pairs. This paper adopts the bilingual LDA 
+model to predict the topical structures of the 
+documents and proposes three algorithms of 
+document similarity in different languages. 
+Experiments show that the novel method can 
+obtain similar documents with consistent top-
+ics own better adaptability and stability per-
+formance.  
+1 

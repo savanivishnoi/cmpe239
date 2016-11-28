@@ -1,0 +1,15 @@
+
+This is a demonstration of a voice di-
+aler, implemented as a partially observable
+Markov decision process (POMDP). A real-
+time graphical display shows the POMDP?s
+probability distribution over different possi-
+ble dialog states, and shows how system out-
+put is generated and selected. The system
+demonstrated here includes several recent ad-
+vances, including an action selection mecha-
+nism which unifies a hand-crafted controller
+and reinforcement learning. The voice dialer
+itself is in use today in AT&T Labs and re-
+ceives daily calls.
+1 

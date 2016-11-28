@@ -1,0 +1,14 @@
+
+Text categorization is a crucial and well-
+proven method for organizing the collec-
+tion of large scale documents. In this pa-
+per, we propose a hierarchical multi-class
+text categorization method with global
+margin maximization. We not only max-
+imize the margins among leaf categories,
+but also maximize the margins among
+their ancestors. Experiments show that the
+performance of our algorithm is competi-
+tive with the recently proposed hierarchi-
+cal multi-class classification algorithms.
+1 

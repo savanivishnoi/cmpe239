@@ -1,0 +1,20 @@
+
+Unknown words are a major issue for
+large-scale grammars of natural language.
+We propose a machine learning based al-
+gorithm for acquiring lexical entries for
+all forms in the paradigm of a given un-
+known word. The main advantages of our
+method are the usage of word paradigms
+to obtain valuable morphological knowl-
+edge, the consideration of different con-
+texts which the unknown word and all
+members of its paradigm occur in and
+the employment of a full-blown syntactic
+parser and the grammar we want to im-
+prove to analyse these contexts and pro-
+vide elaborate syntactic constraints. We
+test our algorithm on a large-scale gram-
+mar of Dutch and show that its application
+leads to an improved parsing accuracy.
+1 

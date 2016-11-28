@@ -1,0 +1,11 @@
+
+We present an approach for generation of mor-
+phologically rich languages using statistical
+machine translation. Given a sequence of lem-
+mas and any subset of morphological features,
+we produce the inflected word forms. Testing
+on Arabic, a morphologically rich language,
+our models can reach 92.1% accuracy starting
+only with lemmas, and 98.9% accuracy if all
+the gold features are provided.
+1 

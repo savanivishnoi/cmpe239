@@ -1,0 +1,19 @@
+ 
+In this paper, we present the JUCSE system, 
+designed for the TempEval-3 shared task. The 
+system extracts events and temporal infor-
+mation from natural text in English. We have 
+participated in all the tasks of TempEval-3, 
+namely Task A, Task B & Task C. We have 
+primarily utilized the Conditional Random 
+Field (CRF) based machine learning tech-
+nique, for all the above tasks. Our system 
+seems to perform quite competitively in Task 
+A and Task B. In Task C, the system?s per-
+formance is comparatively modest at the ini-
+tial stages of system development. We have 
+incorporated various features based on differ-
+ent lexical, syntactic and semantic infor-
+mation, using Stanford CoreNLP and Wordnet 
+based tools. 
+1 

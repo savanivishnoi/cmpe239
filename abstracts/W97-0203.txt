@@ -1,0 +1,32 @@
+ 
+Minnesota Contextual Content Analysis 
+(MCCA) is a technique for characterizing the 
+concepts and themes occurring in text 
+(sentences, paragraphs, interview transcripts, 
+books). MCCA tags each word with a 
+category and examines the distribution of 
+categories against norms representing general 
+usage of categories. MCCA also scores texts 
+in terms of social contexts that are similar to 
+different functions of language. Distributions 
+can be analyzed using non-agglomerative 
+clustering to characterize the concepts and 
+themes. MCCA categories have been mapped 
+to WordNet senses. The &fining 
+characteristics that emerge from the mapping 
+and the statistical techniques used in MCCA 
+for analyzing concepts and themes suggest 
+that tagging with WordNet synsets or MCCA 
+categories may produce piphenomenal results 
+that are misleading. We suggest that WordNet 
+synsets and MCCA categories be augmented 
+with further lexical semantic information for 
+use after text is tagged or categorized. We 
+suggest hat such information is useful not 
+only for the primary purposes of 
+disambiguation in parsing and text 
+classification in content analysis and 
+information retrieval, but also for tasks in 
+corpus analysis, discourse analysis, and 
+automatic text summarization. 
+2 

@@ -1,0 +1,15 @@
+
+For the WMT 2007 shared task, the UC
+Berkeley team employed three techniques of
+interest. First, we used monolingual syntac-
+tic paraphrases to provide syntactic variety
+to the source training set sentences. Sec-
+ond, we trained two language models: a
+small in-domain model and a large out-of-
+domain model. Finally, we made use of re-
+sults from prior research that shows that cog-
+nate pairs can improve word alignments. We
+contributed runs translating English to Span-
+ish, French, and German using various com-
+binations of these techniques.
+1 

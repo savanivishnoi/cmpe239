@@ -1,0 +1,14 @@
+ 
+In this paper, we introduce our work on 
+SemEval-2012 task 5: Chinese Semantic De-
+pendency Parsing. Our system is based on 
+MSTParser and two effective methods are 
+proposed: splitting sentence by punctuations 
+and extracting last character of word as lemma. 
+The experiments show that, with a combina-
+tion of the two proposed methods, our system 
+can improve LAS about one percent and final-
+ly get the second prize out of nine participat-
+ing systems. We also try to handle the multi-
+level labels, but with no improvement. 
+1 

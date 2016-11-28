@@ -1,0 +1,19 @@
+
+Entity sense disambiguation becomes dif-
+ficult with few or even zero training in-
+stances available, which is known as im-
+balanced learning problem in machine
+learning. To overcome the problem, we
+create a new set of reliable training in-
+stances from dictionary, called dictionary-
+based prototypes. A hierarchical classifi-
+cation system with a tree-like structure is
+designed to learn from both the prototypes
+and training instances, and three different
+types of classifiers are employed. In addi-
+tion, supervised dimensionality reduction
+is conducted in a similarity-based space.
+Experimental results show our system out-
+performs three baseline systems by at least
+8.3% as measured by macro F1 score.
+1 

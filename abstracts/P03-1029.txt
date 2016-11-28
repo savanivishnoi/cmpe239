@@ -1,0 +1,17 @@
+
+Several approaches have been described
+for the automatic unsupervised acquisi-
+tion of patterns for information extraction.
+Each approach is based on a particular
+model for the patterns to be acquired, such
+as a predicate-argument structure or a de-
+pendency chain. The effect of these al-
+ternative models has not been previously
+studied. In this paper, we compare the
+prior models and introduce a new model,
+the Subtree model, based on arbitrary sub-
+trees of dependency trees. We describe
+a discovery procedure for this model and
+demonstrate experimentally an improve-
+ment in recall using Subtree patterns.
+1 

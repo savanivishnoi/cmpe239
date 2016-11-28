@@ -1,0 +1,21 @@
+
+Question Answering (QA) systems are of-
+ten built modularly, with a text retrieval
+component feeding forward into an answer
+extraction component. Conventional wis-
+dom suggests that, the higher the quality of
+the retrieval results used as input to the an-
+swer extraction module, the better the ex-
+tracted answers, and hence system accu-
+racy, will be. This turns out to be a poor
+assumption, because text retrieval and an-
+swer extraction are tightly coupled. Im-
+provements in retrieval quality can be lost
+at the answer extraction module, which can
+not necessarily recognize the additional
+answer candidates provided by improved
+retrieval. Going forward, to improve ac-
+curacy on the QA task, systems will need
+greater coordination between text retrieval
+and answer extraction modules.
+1 

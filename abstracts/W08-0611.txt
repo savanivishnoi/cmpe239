@@ -1,0 +1,20 @@
+
+Like text in other domains, biomedical doc-
+uments contain a range of terms with more
+than one possible meaning. These ambigu-
+ities form a significant obstacle to the auto-
+matic processing of biomedical texts. Previ-
+ous approaches to resolving this problem have
+made use of a variety of knowledge sources in-
+cluding linguistic information (from the con-
+text in which the ambiguous term is used) and
+domain-specific resources (such as UMLS). In
+this paper we compare a range of knowledge
+sources which have been previously used and
+introduce a novel one: MeSH terms. The best
+performance is obtained using linguistic fea-
+tures in combination with MeSH terms. Re-
+sults from our system outperform published
+results for previously reported systems on a
+standard test set (the NLM-WSD corpus).
+1 

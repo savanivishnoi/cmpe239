@@ -1,0 +1,18 @@
+
+Range Concatenation Grammars (RCGs)
+are a syntactic formalism which possesses
+many attractive properties. It is more pow-
+erful than Linear Context-Free Rewriting
+Systems, though this power is not reached
+to the detriment of efficiency since its sen-
+tences can always be parsed in polynomial
+time. If the input, instead of a string, is a
+Directed Acyclic Graph (DAG), only sim-
+ple RCGs can still be parsed in polyno-
+mial time. For non-linear RCGs, this poly-
+nomial parsing time cannot be guaranteed
+anymore. In this paper, we show how the
+standard parsing algorithm can be adapted
+for parsing DAGs with RCGs, both in the
+linear (simple) and in the non-linear case.
+1 

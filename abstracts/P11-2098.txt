@@ -1,0 +1,16 @@
+
+Recognizing entailment at the lexical level is
+an important and commonly-addressed com-
+ponent in textual inference. Yet, this task has
+been mostly approached by simplified heuris-
+tic methods. This paper proposes an initial
+probabilistic modeling framework for lexical
+entailment, with suitable EM-based parame-
+ter estimation. Our model considers promi-
+nent entailment factors, including differences
+in lexical-resources reliability and the impacts
+of transitivity and multiple evidence. Evalu-
+ations show that the proposed model outper-
+forms most prior systems while pointing at re-
+quired future improvements.
+1 

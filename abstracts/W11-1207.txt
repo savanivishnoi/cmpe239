@@ -1,0 +1,13 @@
+
+In this paper, we present two methods to use
+a noisy parallel news corpus to improve sta-
+tistical machine translation (SMT) systems.
+Taking full advantage of the characteristics of
+our corpus and of existing resources, we use
+a bootstrapping strategy, whereby an existing
+SMT engine is used both to detect parallel sen-
+tences in comparable data and to provide an
+adaptation corpus for translation models. MT
+experiments demonstrate the benefits of vari-
+ous combinations of these strategies.
+1 

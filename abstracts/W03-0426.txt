@@ -1,0 +1,14 @@
+
+In this approach to named entity recognition,
+a recurrent neural network, known as Long
+Short-Term Memory, is applied. The network
+is trained to perform 2 passes on each sentence,
+outputting its decisions on the second pass. The
+first pass is used to acquire information for dis-
+ambiguation during the second pass. SARD-
+NET, a self-organising map for sequences is
+used to generate representations for the lexical
+items presented to the LSTM network, whilst
+orthogonal representations are used to repre-
+sent the part of speech and chunk tags.
+1 

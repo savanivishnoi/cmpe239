@@ -1,0 +1,21 @@
+
+A major engineering challenge in statistical
+machine translation systems is the efficient
+representation of extremely large translation
+rulesets. In phrase-based models, this prob-
+lem can be addressed by storing the training
+data in memory and using a suffix array as
+an efficient index to quickly lookup and ex-
+tract rules on the fly. Hierarchical phrase-
+based translation introduces the added wrin-
+kle of source phrases with gaps. Lookup
+algorithms used for contiguous phrases no
+longer apply and the best approximate pat-
+tern matching algorithms are much too slow,
+taking several minutes per sentence. We
+describe new lookup algorithms for hierar-
+chical phrase-based translation that reduce
+the empirical computation time by nearly
+two orders of magnitude, making on-the-fly
+lookup feasible for source phrases with gaps.
+1 

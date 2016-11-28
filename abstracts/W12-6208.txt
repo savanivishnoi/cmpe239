@@ -1,0 +1,16 @@
+
+This paper introduces a new open source,
+WFST-based toolkit for Grapheme-to-
+Phoneme conversion. The toolkit is efficient,
+accurate and currently supports a range of
+features including EM sequence alignment
+and several decoding techniques novel in
+the context of G2P. Experimental results
+show that a combination RNNLM system
+outperforms all previous reported results on
+several standard G2P test sets. Preliminary
+experiments applying Lattice Minimum
+Bayes-Risk decoding to G2P conversion are
+also provided. The toolkit is implemented
+using OpenFst.
+1 

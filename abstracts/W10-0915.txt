@@ -1,0 +1,19 @@
+
+One of the main bottlenecks in natural lan-
+guage processing is the lack of a comprehen-
+sive lexicalized relation resource that contains
+fine grained knowledge on predicates. In this
+paper, we present PRISMATIC, a large scale
+lexicalized relation resource that is automati-
+cally created over 30 gb of text. Specifically,
+we describe what kind of information is col-
+lected in PRISMATIC and how it compares
+with existing lexical resources. Our main fo-
+cus has been on building the infrastructure and
+gathering the data. Although we are still in
+the early stages of applying PRISMATIC to
+a wide variety of applications, we believe the
+resource will be of tremendous value for AI
+researchers, and we discuss some of potential
+applications in this paper.
+1 

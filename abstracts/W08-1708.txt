@@ -1,0 +1,23 @@
+
+In this paper we illustrate and underline
+the importance of making detailed linguis-
+tic information a central part of the pro-
+cess of automatic acquisition of large-scale
+lexicons as a means for enhancing robust-
+ness and at the same time ensuring main-
+tainability and re-usability of deep lexi-
+calised grammars. Using the error mining
+techniques proposed in (van Noord, 2004)
+we show very convincingly that the main
+hindrance to portability of deep lexicalised
+grammars to domains other than the ones
+originally developed in, as well as to ro-
+bustness of systems using such grammars
+is low lexical coverage. To this effect,
+we develop linguistically-driven methods
+that use detailed morphosyntactic informa-
+tion to automatically enhance the perfor-
+mance of deep lexicalised grammars main-
+taining at the same time their usually al-
+ready achieved high linguistic quality.
+1 

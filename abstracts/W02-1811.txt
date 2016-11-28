@@ -1,0 +1,30 @@
+ 
+This is a pilot study which aims at the design of a 
+Chinese morphological analyzer which is in state 
+to predict the syntactic and semantic properties of 
+nominal, verbal and adjectival compounds. 
+Morphological structures of compound words 
+contain the essential information of knowing their 
+syntactic and semantic characteristics. In 
+particular, morphological analysis is a primary 
+step for predicting the syntactic and semantic 
+categories of out-of-vocabulary (unknown) words. 
+The designed Chinese morphological analyzer 
+contains three major functions, 1) to segment a 
+word into a sequence of morphemes, 2) to tag the 
+part-of-speech of those morphemes, and 3) to 
+identify the morpho-syntactic relation between 
+morphemes. We propose a method of using 
+associative strength among morphemes, 
+morpho-syntactic patterns, and syntactic 
+categories to solve the ambiguities of 
+segmentation and part-of-speech. In our 
+evaluation report, it is found that the accuracy of 
+our analyzer is 81%. 5% errors are caused by the 
+segmentation and 14% errors are due to 
+part-of-speech. Once the internal information of a 
+compound is known, it would be beneficial for the 
+further researches of the prediction of a word 
+meaning and its function. 
+ 
+1. 

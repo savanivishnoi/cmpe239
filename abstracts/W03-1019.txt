@@ -1,0 +1,16 @@
+
+Discriminative models have been of inter-
+est in the NLP community in recent years.
+Previous research has shown that they
+are advantageous over generative mod-
+els. In this paper, we investigate how dif-
+ferent objective functions and optimiza-
+tion methods affect the performance of the
+classifiers in the discriminative learning
+framework. We focus on the sequence la-
+belling problem, particularly POS tagging
+and NER tasks. Our experiments show
+that changing the objective function is not
+as effective as changing the features in-
+cluded in the model.
+1 

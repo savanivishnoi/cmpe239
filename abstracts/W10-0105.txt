@@ -1,0 +1,29 @@
+
+A practical concern for Active Learning (AL)
+is the amount of time human experts must wait
+for the next instance to label. We propose a
+method for eliminating this wait time inde-
+pendent of specific learning and scoring al-
+gorithms by making scores always available
+for all instances, using old (stale) scores when
+necessary. The time during which the ex-
+pert is annotating is used to train models and
+score instances?in parallel?to maximize the
+recency of the scores. Our method can be seen
+as a parameterless, dynamic batch AL algo-
+rithm. We analyze the amount of staleness
+introduced by various AL schemes and then
+examine the effect of the staleness on perfor-
+mance on a part-of-speech tagging task on the
+Wall Street Journal. Empirically, the parallel
+AL algorithm effectively has a batch size of
+one and a large candidate set size but elimi-
+nates the time an annotator would have to wait
+for a similarly parameterized batch scheme to
+select instances. The exact performance of our
+method on other tasks will depend on the rel-
+ative ratios of time spent annotating, training,
+and scoring, but in general we expect our pa-
+rameterless method to perform favorably com-
+pared to batch when accounting for wait time.
+1 

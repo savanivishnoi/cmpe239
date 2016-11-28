@@ -1,0 +1,19 @@
+
+Current statistical machine translation sys-
+tems usually extract rules from bilingual
+corpora annotated with 1-best alignments.
+They are prone to learn noisy rules due
+to alignment mistakes. We propose a new
+structure called weighted alignment matrix
+to encode all possible alignments for a par-
+allel text compactly. The key idea is to as-
+sign a probability to each word pair to in-
+dicate how well they are aligned. We de-
+sign new algorithms for extracting phrase
+pairs from weighted alignment matrices
+and estimating their probabilities. Our ex-
+periments on multiple language pairs show
+that using weighted matrices achieves con-
+sistent improvements over using n-best
+lists in significant less extraction time.
+1 

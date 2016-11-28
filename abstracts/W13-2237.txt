@@ -1,0 +1,17 @@
+
+We present a novel online learning ap-
+proach for statistical machine translation
+tailored to the computer assisted transla-
+tion scenario. With the introduction of
+a simple online feature, we are able to
+adapt the translation model on the fly
+to the corrections made by the transla-
+tors. Additionally, we do online adaption
+of the feature weights with a large mar-
+gin algorithm. Our results show that our
+online adaptation technique outperforms
+the static phrase based statistical machine
+translation system by 6 BLEU points abso-
+lute, and a standard incremental adaptation
+approach by 2 BLEU points absolute.
+1 

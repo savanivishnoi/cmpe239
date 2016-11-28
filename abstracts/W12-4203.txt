@@ -1,0 +1,18 @@
+
+This paper presents an approach to improving
+performance of statistical machine translation
+by automatically creating new training data
+for difficult to translate phenomena. In partic-
+ular this contribution is targeted towards tack-
+ling the poor performance of a state-of-the-art
+system on negated sentences. The corpus ex-
+pansion is achieved by high quality rephrasing
+of existing sentences to their negated counter-
+parts making use of semantic transfer. The
+method is designed to work on both sides of
+the parallel corpus while preserving the align-
+ment. Our results show an overall improve-
+ment of 0.16 BLEU points, with a statisti-
+cally significant increase of 1.63 BLEU points
+when tested on only negated test data.
+1 

@@ -1,0 +1,20 @@
+
+We propose a method ?Interactive Paraphras-
+ing? which enables users to interactively para-
+phrase words in a document by their definitions,
+making use of syntactic annotation and word
+sense annotation. Syntactic annotation is used
+for managing smooth integration of word sense
+definitions into the original document, and word
+sense annotation for retrieving the correct word
+sense definition for a word in a document. In
+this way, documents can be paraphrased so that
+they fit into the original context, preserving the
+semantics and improving the readability at the
+same time. No extra layer (window) is necessary
+for showing the word sense definition as in con-
+ventional methods, and other natural language
+processing techniques such as summarization,
+translation, and voice synthesis can be easily
+applied to the results.
+1 

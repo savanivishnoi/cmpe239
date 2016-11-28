@@ -1,0 +1,13 @@
+ 
+This paper describes an hierarchical approach 
+to WordNet sense distinctions that provides 
+different types of automatic Word Sense Dis-
+ambiguation (WSD) systems, which perform 
+at varying levels of accuracy.  For tasks where 
+fine-grained sense distinctions may not be es-
+sential, an accurate coarse-grained WSD sys-
+tem may be sufficient. The paper discusses the 
+criteria behind the three different levels of 
+sense granularity, as well as the machine learn-
+ing approach used by the WSD system. 
+1 

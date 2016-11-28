@@ -1,0 +1,9 @@
+
+We provide an approximation algorithm for
+PCFG parsing, which asymptotically im-
+proves time complexity with respect to the in-
+put grammar size, and prove upper bounds on
+the approximation quality. We test our algo-
+rithm on two treebanks, and get significant im-
+provements in parsing speed.
+1 

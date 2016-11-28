@@ -1,0 +1,17 @@
+
+Resolving ambiguity associated with names
+found on the Web, Wikipedia or medical texts
+is a very challenging task, which has been
+of great interest to the research community.
+We propose a novel approach to disambiguat-
+ing names using Latent Dirichlet Allocation,
+where the learned topics represent the under-
+lying senses of the ambiguous name. We con-
+duct a detailed evaluation on multiple data sets
+containing ambiguous person, location and or-
+ganization names and for multiple languages
+such as English, Spanish, Romanian and Bul-
+garian. We conduct comparative studies with
+existing approaches and show a substantial
+improvement of 15 to 35% in task accuracy.
+1 

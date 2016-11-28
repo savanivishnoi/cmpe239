@@ -1,0 +1,20 @@
+
+Large unsupervised latent variable models
+(LVMs) of text, such as Latent Dirichlet Al-
+location models or Hidden Markov Models
+(HMMs), are constructed using parallel train-
+ing algorithms on computational clusters. The
+memory required to hold LVM parameters
+forms a bottleneck in training more powerful
+models. In this paper, we show how the mem-
+ory required for parallel LVM training can
+be reduced by partitioning the training corpus
+to minimize the number of unique words on
+any computational node. We present a greedy
+document partitioning technique for the task.
+For large corpora, our approach reduces mem-
+ory consumption by over 50%, and trains the
+same models up to three times faster, when
+compared with existing approaches for paral-
+lel LVM training.
+1 

@@ -1,0 +1,18 @@
+
+This paper addresses the problem of ex-
+tracting the most important facts from a
+news article. Our approach uses syntac-
+tic, semantic, and general statistical fea-
+tures to identify the most important sen-
+tences in a document. The importance
+of the individual features is estimated us-
+ing generalized iterative scaling methods
+trained on an annotated newswire corpus.
+The performance of our approach is evalu-
+ated against 300 unseen news articles and
+shows that use of these features results in
+statistically significant improvements over
+a provenly robust baseline, as measured
+using metrics such as precision, recall and
+ROUGE.
+1 

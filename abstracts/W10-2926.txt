@@ -1,0 +1,17 @@
+
+In this paper, we provide a theoretical
+framework for feature selection in tree ker-
+nel spaces based on gradient-vector com-
+ponents of kernel-based machines. We
+show that a huge number of features can
+be discarded without a significant decrease
+in accuracy. Our selection algorithm is as
+accurate as and much more efficient than
+those proposed in previous work. Com-
+parative experiments on three interesting
+and very diverse classification tasks, i.e.
+Question Classification, Relation Extrac-
+tion and Semantic Role Labeling, support
+our theoretical findings and demonstrate
+the algorithm performance.
+1 

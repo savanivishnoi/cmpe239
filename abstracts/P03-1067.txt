@@ -1,0 +1,27 @@
+
+This paper describes an extension of the se-
+mantic grammars used in conventional sta-
+tistical spoken language interfaces to allow
+the probabilities of derived analyses to be
+conditioned on the meanings or denotations
+of input utterances in the context of an
+interface's underlying application environ-
+ment or world model. Since these denota-
+tions will be used to guide disambiguation
+in interactive applications, they must be ef-
+ciently shared among the many possible
+analyses that may be assigned to an input
+utterance. This paper therefore presents a
+formal restriction on the scope of variables
+in a semantic grammar which guarantees
+that the denotations of all possible analy-
+ses of an input utterance can be calculated
+in polynomial time, without undue con-
+straints on the expressivity of the derived
+semantics. Empirical tests show that this
+model-theoretic interpretation yields a sta-
+tistically signicant improvement on stan-
+dard measures of parsing accuracy over a
+baseline grammar not conditioned on deno-
+tations.
+1 

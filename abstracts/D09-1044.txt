@@ -1,0 +1,22 @@
+
+Experiments are reported that investi-
+gate the effect of various source docu-
+ment representations on the accuracy of
+the sentence extraction phase of a multi-
+document summarisation task. A novel
+representation is introduced based on
+generic relation extraction (GRE), which
+aims to build systems for relation iden-
+tification and characterisation that can be
+transferred across domains and tasks with-
+out modification of model parameters. Re-
+sults demonstrate performance that is sig-
+nificantly higher than a non-trivial base-
+line that uses tf*idf -weighted words and at
+least as good as a comparable but less gen-
+eral approach from the literature. Anal-
+ysis shows that the representations com-
+pared are complementary, suggesting that
+extraction performance could be further
+improved through system combination.
+1 

@@ -1,0 +1,28 @@
+
+Bootstrapping is the process of improving
+the performance of a trained classifier by
+iteratively adding data that is labeled by
+the classifier itself to the training set, and
+retraining the classifier. It is often used
+in situations where labeled training data is
+scarce but unlabeled data is abundant. In
+this paper, we consider the problem of do-
+main adaptation: the situation where train-
+ing data may not be scarce, but belongs to
+a different domain from the target appli-
+cation domain. As the distribution of un-
+labeled data is different from the training
+data, standard bootstrapping often has dif-
+ficulty selecting informative data to add to
+the training set. We propose an effective
+domain adaptive bootstrapping algorithm
+that selects unlabeled target domain data
+that are informative about the target do-
+main and easy to automatically label cor-
+rectly. We call these instances bridges, as
+they are used to bridge the source domain
+to the target domain. We show that the
+method outperforms supervised, transduc-
+tive and bootstrapping algorithms on the
+named entity recognition task.
+1 

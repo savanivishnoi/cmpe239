@@ -1,0 +1,23 @@
+
+We present a distributed framework for large-
+scale discriminative language models that can
+be integrated within a large vocabulary con-
+tinuous speech recognition (LVCSR) system
+using lattice rescoring. We intentionally
+use a weakened acoustic model in a base-
+line LVCSR system to generate candidate hy-
+potheses for voice-search data; this allows
+us to utilize large amounts of unsupervised
+data to train our models. We propose an ef-
+ficient and scalable MapReduce framework
+that uses a perceptron-style distributed train-
+ing strategy to handle these large amounts of
+data. We report small but significant improve-
+ments in recognition accuracies on a standard
+voice-search data set using our discriminative
+reranking model. We also provide an analy-
+sis of the various parameters of our models in-
+cluding model size, types of features, size of
+partitions in the MapReduce framework with
+the help of supporting experiments.
+1 

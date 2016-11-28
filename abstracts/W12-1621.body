@@ -1,0 +1,22 @@
+
+To enable effective referential grounding in
+situated human robot dialogue, we have con-
+ducted an empirical study to investigate how
+conversation partners collaborate and medi-
+ate shared basis when they have mismatched
+visual perceptual capabilities. In particu-
+lar, we have developed a graph-based repre-
+sentation to capture linguistic discourse and
+visual discourse, and applied inexact graph
+matching to ground references. Our empiri-
+cal results have shown that, even when com-
+puter vision algorithms produce many errors
+(e.g. 84.7% of the objects in the environment
+are mis-recognized), our approach can still
+achieve 66% accuracy in referential ground-
+ing. These results demonstrate that, due to its
+error-tolerance nature, inexact graph matching
+provides a potential solution to mediate shared
+perceptual basis for referential grounding in
+situated interaction.
+1 

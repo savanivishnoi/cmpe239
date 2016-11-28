@@ -1,0 +1,27 @@
+
+Recent syntactic extensions of statisti-
+cal translation models work with a syn-
+chronous context-free or tree-substitution
+grammar extracted from an automatically
+parsed parallel corpus. The decoders ac-
+companying these extensions typically ex-
+ceed quadratic time complexity.
+This paper extends the Direct Transla-
+tion Model 2 (DTM2) with syntax while
+maintaining linear-time decoding. We
+employ a linear-time parsing algorithm
+based on an eager, incremental interpre-
+tation of Combinatory Categorial Gram-
+mar (CCG). As every input word is pro-
+cessed, the local parsing decisions resolve
+ambiguity eagerly, by selecting a single
+supertag?operator pair for extending the
+dependency parse incrementally. Along-
+side translation features extracted from
+the derived parse tree, we explore syn-
+tactic features extracted from the incre-
+mental derivation process. Our empiri-
+cal experiments show that our model sig-
+nificantly outperforms the state-of-the art
+DTM2 system.
+1 

@@ -1,0 +1,32 @@
+
+Text simplification is the process of changing
+vocabulary and grammatical structure to cre-
+ate a more accessible version of the text while
+maintaining the underlying information and
+content. Automated tools for text simplifica-
+tion are a practical way to make large corpora
+of text accessible to a wider audience lacking
+high levels of fluency in the corpus language.
+In this work, we investigate the potential of
+Simple Wikipedia to assist automatic text sim-
+plification by building a statistical classifica-
+tion system that discriminates simple English
+from ordinary English. Most text simplifica-
+tion systems are based on hand-written rules
+(e.g., PEST (Carroll et al, 1999) and its mod-
+ule SYSTAR (Canning et al, 2000)), and
+therefore face limitations scaling and trans-
+ferring across domains. The potential for us-
+ing Simple Wikipedia for text simplification
+is significant; it contains nearly 60,000 ar-
+ticles with revision histories and aligned ar-
+ticles to ordinary English Wikipedia. Us-
+ing articles from Simple Wikipedia and ordi-
+nary Wikipedia, we evaluated different classi-
+fiers and feature sets to identify the most dis-
+criminative features of simple English for use
+across domains. These findings help further
+understanding of what makes text simple and
+can be applied as a tool to help writers craft
+simple text.
+1 

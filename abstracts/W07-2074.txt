@@ -1,0 +1,15 @@
+
+This work describes the University of the
+Basque Country system (UBC-ALM) for
+lexical sample and all-words WSD subtasks
+of SemEval-2007 task 17, where it per-
+formed in the second and fifth positions re-
+spectively. The system is based on a com-
+bination of k-Nearest Neighbor classifiers,
+with each classifier learning from a distinct
+set of features: local features (syntactic, col-
+locations features), topical features (bag-of-
+words, domain information) and latent fea-
+tures learned from a reduced space using
+Singular Value Decomposition.
+1 

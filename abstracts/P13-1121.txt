@@ -1,0 +1,39 @@
+ive Multi-Document Summarization: A
+Caseframe Analysis of Centrality and Domain
+Jackie Chi Kit Cheung
+University of Toronto
+10 King?s College Rd., Room 3302
+Toronto, ON, Canada M5S 3G4
+jcheung@cs.toronto.edu
+Gerald Penn
+University of Toronto
+10 King?s College Rd., Room 3302
+Toronto, ON, Canada M5S 3G4
+gpenn@cs.toronto.edu
+Abstract
+In automatic summarization, centrality is
+the notion that a summary should contain
+the core parts of the source text. Cur-
+rent systems use centrality, along with re-
+dundancy avoidance and some sentence
+compression, to produce mostly extrac-
+tive summaries. In this paper, we investi-
+gate how summarization can advance past
+this paradigm towards robust abstraction
+by making greater use of the domain of
+the source text. We conduct a series of
+studies comparing human-written model
+summaries to system summaries at the se-
+mantic level of caseframes. We show that
+model summaries (1) are more abstrac-
+tive and make use of more sentence aggre-
+gation, (2) do not contain as many topi-
+cal caseframes as system summaries, and
+(3) cannot be reconstructed solely from
+the source text, but can be if texts from
+in-domain documents are added. These
+results suggest that substantial improve-
+ments are unlikely to result from better
+optimizing centrality-based criteria, but
+rather more domain knowledge is needed.
+1 

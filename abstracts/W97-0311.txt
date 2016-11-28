@@ -1,0 +1,26 @@
+ 
+Automatic segmentation of text into min- 
+imal content-bearing units is an unsolved 
+problem even for languages like English. 
+Spaces between words offer an easy first ap- 
+proximation, but this approximation is not 
+good enough for machine translation (MT), 
+where many word sequences are not trans- 
+lated word-for-word. This paper presents 
+an efficient automatic method for discover- 
+ing sequences of words that are translated 
+as a unit. The method proceeds by com- 
+paring pairs of statistical translation mod- 
+els induced from parallel texts in two lan- 
+guages. It can discover hundreds of non- 
+compositional compounds on each itera- 
+tion, and constructs longer compounds out 
+of shorter ones. Objective evaluation on a 
+simple machine translation task has shown 
+the method's potential to improve the qual- 
+ity of MT output. The method makes few 
+assumptions about the data, so it can be 
+applied to parallel data other than parallel 
+texts, such as word spellings and pronunci- 
+ations. 
+1 

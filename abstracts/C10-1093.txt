@@ -1,0 +1,31 @@
+
+This paper describes a search procedure
+to discover optimal feature sets for depen-
+dency parsers. The search applies to the
+shift?reduce algorithm and the feature sets
+are extracted from the parser configura-
+tion. The initial feature is limited to the
+first word in the input queue. Then, the
+procedure uses a set of rules founded on
+the assumption that topological neighbors
+of significant features in the dependency
+graph may also have a significant contri-
+bution. The search can be fully automated
+and the level of greediness adjusted with
+the number of features examined at each
+iteration of the discovery procedure.
+Using our automated feature discovery
+on two corpora, the Swedish corpus in
+CoNLL-X and the English corpus in
+CoNLL 2008, and a single parser system,
+we could reach results comparable or bet-
+ter than the best scores reported in these
+evaluations. The CoNLL 2008 test set
+contains, in addition to a Wall Street Jour-
+nal (WSJ) section, an out-of-domain sam-
+ple from the Brown corpus. With sets of
+15 features, we obtained a labeled attach-
+ment score of 84.21 for Swedish, 88.11 on
+the WSJ test set, and 81.33 on the Brown
+test set.
+1 

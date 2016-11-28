@@ -1,0 +1,29 @@
+
+We propose a method to learn succinct hi-
+erarchical linguistic descriptions of visual
+datasets, which allow for improved navigation
+efficiency in image collections. Classic ex-
+ploratory data analysis methods, such as ag-
+glomerative hierarchical clustering, only pro-
+vide a means of obtaining a tree-structured
+partitioning of the data. This requires the user
+to go through the images first, in order to re-
+veal the semantic relationship between the dif-
+ferent nodes. On the other hand, in this work
+we propose to learn a hierarchy of linguistic
+descriptions, referred to as attributes, which
+allows for a textual description of the seman-
+tic content that is captured by the hierarchy.
+Our approach is based on a generative model,
+which relates the attribute descriptions asso-
+ciated with each node, and the node assign-
+ments of the data instances, in a probabilistic
+fashion. We furthermore use a nonparametric
+Bayesian prior, known as the tree-structured
+stick breaking process, which allows for the
+structure of the tree to be learned in an unsu-
+pervised fashion. We also propose appropriate
+performance measures, and demonstrate supe-
+rior performance compared to other hierarchi-
+cal clustering algorithms.
+1 

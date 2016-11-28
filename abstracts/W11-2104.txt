@@ -1,0 +1,14 @@
+
+We present a pilot study on an evaluation
+method which is able to rank translation out-
+puts with no reference translation, given only
+their source sentence. The system employs a
+statistical classifier trained upon existing hu-
+man rankings, using several features derived
+from analysis of both the source and the tar-
+get sentences. Development experiments on
+one language pair showed that the method
+has considerably good correlation with human
+ranking when using features obtained from a
+PCFG parser.
+1 

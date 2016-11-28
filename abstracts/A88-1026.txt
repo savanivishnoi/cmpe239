@@ -1,0 +1,27 @@
+ 
+Luke is a knowledge editor designed to support two 
+tasks; the first is editing the classes and relations in a 
+knowledge base. The second is editing and maintaining the 
+semantic mapping knowledge neccesery to allow a natural 
+language interface to understand sentences with respect to 
+that knowledge base. In order to emphasize design 
+decisions shared between the two tasks, Luke provides 
+facilities to concurrently debug the application and the 
+natural language interface. Luke also makes natural 
+language available in its own user interface. This makes it 
+possible for a knowledge base builder to exploit natural 
+language both as a way of locating desired concepts within 
+the knowledge base and as a a way of doing consistency 
+checking on the knowledge base as it is being built. 
+base, Luke makes natural language available in 
+its own interface. This makes it possible for the 
+knowledge base builder to exploit natural 
+language both as a way of referring to objects in 
+the knowledge base and as a way of doing 
+consistency checking on the objects themselves. 
+In this paper, we will describe both what Luke 
+does and how doing that supports this 
+productive view of the interaction between 
+building a knowledge based system and building 
+an associated natural language interface. 
+Background And Motivation 

@@ -1,0 +1,30 @@
+
+We describe how paperXML, a logical docu-
+ment structure markup for scholarly articles,
+is generated on the basis of OCR tool out-
+puts. PaperXML has been initially developed
+for the ACL Anthology Searchbench. The
+main purpose was to robustly provide uni-
+form access to sentences in ACL Anthology
+papers from the past 46 years, ranging from
+scanned, typewriter-written conference and
+workshop proceedings papers, up to recent
+high-quality typeset, born-digital journal arti-
+cles, with varying layouts. PaperXML markup
+includes information on page and paragraph
+breaks, section headings, footnotes, tables,
+captions, boldface and italics character styles
+as well as bibliographic and publication meta-
+data. The role of paperXML in the ACL Con-
+tributed Task Rediscovering 50 Years of Dis-
+coveries is to serve as fall-back source (1) for
+older, scanned papers (mostly published be-
+fore the year 2000), for which born-digital
+PDF sources are not available, (2) for born-
+digital PDF papers on which the PDFExtract
+method failed, (3) for document parts where
+PDFExtract does not output useful markup
+such as currently for tables. We sketch trans-
+formation of paperXML into the ACL Con-
+tributed Task?s TEI P5 XML.
+1 

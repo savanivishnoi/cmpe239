@@ -1,0 +1,15 @@
+
+Karamel is a system for finite-state mor-
+phology which is multi-tape and uses a
+typed Cartesian product to relate tapes in
+a structured way. It implements stati-
+cally compiled feature structures. Its lan-
+guage allows the use of regular expres-
+sions and Generalized Restriction rules to
+define multi-tape transducers. Both simul-
+taneous and successive application of local
+constraints are possible. This system is in-
+teresting for describing rich and structured
+morphologies such as the morphology of
+Semitic languages.
+1 

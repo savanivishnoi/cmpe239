@@ -1,0 +1,20 @@
+
+Obtaining high-quality machine transla-
+tions is still a long way off. A post-
+editing phase is required to improve the
+output of a machine translation system.
+An alternative is the so called computer-
+assisted translation. In this framework, a
+human translator interacts with the sys-
+tem in order to obtain high-quality trans-
+lations. A statistical phrase-based ap-
+proach to computer-assisted translation is
+described in this article. A new decoder al-
+gorithm for interactive search is also pre-
+sented, that combines monotone and non-
+monotone search. The system has been
+assessed in the TransType-2 project for
+the translation of several printer manuals,
+from (to) English to (from) Spanish, Ger-
+man and French.
+1 

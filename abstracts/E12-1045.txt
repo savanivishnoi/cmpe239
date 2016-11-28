@@ -1,0 +1,21 @@
+
+In this paper, we address statistical ma-
+chine translation of public conference talks.
+Modeling the style of this genre can be very
+challenging given the shortage of available
+in-domain training data. We investigate the
+use of a hybrid LM, where infrequent words
+are mapped into classes. Hybrid LMs are
+used to complement word-based LMs with
+statistics about the language style of the
+talks. Extensive experiments comparing
+different settings of the hybrid LM are re-
+ported on publicly available benchmarks
+based on TED talks, from Arabic to English
+and from English to French. The proposed
+models show to better exploit in-domain
+data than conventional word-based LMs for
+the target language modeling component of
+a phrase-based statistical machine transla-
+tion system.
+1 

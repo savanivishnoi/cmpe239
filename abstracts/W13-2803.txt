@@ -1,0 +1,17 @@
+
+We explore the selection of training data
+for language models using perplexity. We
+introduce three novel models that make
+use of linguistic information and evaluate
+them on three different corpora and two
+languages. In four out of the six scenar-
+ios a linguistically motivated method out-
+performs the purely statistical state-of-the-
+art approach. Finally, a method which
+combines surface forms and the linguisti-
+cally motivated methods outperforms the
+baseline in all the scenarios, selecting data
+whose perplexity is between 3.49% and
+8.17% (depending on the corpus and lan-
+guage) lower than that of the baseline.
+1 

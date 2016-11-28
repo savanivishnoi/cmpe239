@@ -1,0 +1,10 @@
+
+We describe an algorithm for a novel task: disam-
+biguating the pronoun you in conversation. You can
+be generic or referential; finding referential you is im-
+portant for tasks such as addressee identification or
+extracting ?owners? of action items. Our classifier
+achieves 84% accuracy in two-person conversations;
+an initial study shows promising performance even on
+more complex multi-party meetings.
+1 

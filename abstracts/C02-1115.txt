@@ -1,0 +1,18 @@
+
+In this paper, a supervised learning system of
+word sense disambiguation is presented. It is
+based on conditional maximum entropy models.
+This system acquires the linguistic knowledge
+from an annotated corpus and this knowledge
+is represented in the form of features. Several
+types of features have been analyzed using the
+SENSEVAL-2 data for the Spanish lexical sam-
+ple task. Such analysis shows that instead of
+training with the same kind of information for
+all words, each one is more eectively learned
+using a dierent set of features. This best-
+feature-selection is used to build some systems
+based on dierent maximum entropy classiers,
+and a voting system helped by a knowledge-
+based method.
+1 

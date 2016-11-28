@@ -1,0 +1,14 @@
+
+This paper describes a backtracking strategy
+for an incremental deterministic transition-
+based parser for HPSG. The method could
+theoretically be implemented on any other
+transition-based parser with some adjust-
+ments. In this paper, the algorithm is evaluated
+on CuteForce, an efficient deterministic shift-
+reduce HPSG parser. The backtracking strat-
+egy may serve to improve existing parsers, or
+to assess if a deterministic parser would bene-
+fit from backtracking as a strategy to improve
+parsing.
+1 

@@ -1,0 +1,25 @@
+
+We propose a set of open-source software
+modules to perform structured Perceptron
+Training, Prediction and Evaluation within
+the Hadoop framework. Apache Hadoop
+is a freely available environment for run-
+ning distributed applications on a com-
+puter cluster. The software is designed
+within the Map-Reduce paradigm. Thanks
+to distributed computing, the proposed soft-
+ware reduces substantially execution times
+while handling huge data-sets. The dis-
+tributed Perceptron training algorithm pre-
+serves convergence properties, thus guar-
+anties same accuracy performances as the
+serial Perceptron. The presented modules
+can be executed as stand-alone software or
+easily extended or integrated in complex
+systems. The execution of the modules ap-
+plied to specific NLP tasks can be demon-
+strated and tested via an interactive web in-
+terface that allows the user to inspect the
+status and structure of the cluster and inter-
+act with the MapReduce jobs.
+1 

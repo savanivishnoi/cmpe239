@@ -1,0 +1,17 @@
+
+This paper describes the CoMeT system, our
+contribution to the SemEval 2013 Task 7 chal-
+lenge, focusing on the task of automatically
+assessing student answers to factual questions.
+CoMeT is based on a meta-classifier that uses
+the outputs of the sub-systems we developed:
+CoMiC, CoSeC, and three shallower bag ap-
+proaches. We sketch the functionality of all
+sub-systems and evaluate their performance
+against the official test set of the challenge.
+CoMeT obtained the best result (73.1% accu-
+racy) for the 3-way unseen answers in Beetle
+among all challenge participants. We also dis-
+cuss possible improvements and directions for
+future research.
+1 

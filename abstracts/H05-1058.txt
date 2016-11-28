@@ -1,0 +1,19 @@
+
+We present a part-of-speech tagger which
+introduces two new concepts: virtual evi-
+dence in the form of an ?observed child?
+node, and negative training data to learn
+the conditional probabilities for the ob-
+served child. Associated with each word
+is a flexible feature-set which can in-
+clude binary flags, neighboring words, etc.
+The conditional probability of Tag given
+Word + Features is implemented using
+a factored language-model with back-off
+to avoid data sparsity problems. This
+model remains within the framework of
+Dynamic Bayesian Networks (DBNs) and
+is conditionally-structured, but resolves
+the label bias problem inherent in the con-
+ditional Markov model (CMM).
+1 

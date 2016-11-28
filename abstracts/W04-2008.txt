@@ -1,0 +1,13 @@
+
+This paper describes an algorithm for open text shal-
+low semantic parsing. The algorithm relies on a
+frame dataset (FrameNet) and a semantic network
+(WordNet), to identify semantic relations between
+words in open text, as well as shallow semantic fea-
+tures associated with concepts in the text. Parsing
+semantic structures allows semantic units and con-
+stituents to be accessed and processed in a more
+meaningful way than syntactic parsing, moving the
+automation of understanding natural language text
+to a higher level.
+1 

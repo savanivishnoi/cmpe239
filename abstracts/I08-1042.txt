@@ -1,0 +1,26 @@
+
+Combining different metrics into a single
+measure of quality seems the most direct
+and natural way to improve over the quality
+of individual metrics. Recently, several ap-
+proaches have been suggested (Kulesza and
+Shieber, 2004; Liu and Gildea, 2007; Al-
+brecht and Hwa, 2007a). Although based
+on different assumptions, these approaches
+share the common characteristic of being
+parametric. Their models involve a num-
+ber of parameters whose weight must be
+adjusted. As an alternative, in this work,
+we study the behaviour of non-parametric
+schemes, in which metrics are combined
+without having to adjust their relative im-
+portance. Besides, rather than limiting to
+the lexical dimension, we work on a wide
+set of metrics operating at different linguis-
+tic levels (e.g., lexical, syntactic and se-
+mantic). Experimental results show that
+non-parametric methods are a valid means
+of putting different quality dimensions to-
+gether, thus tracing a possible path towards
+heterogeneous automatic MT evaluation.
+1 

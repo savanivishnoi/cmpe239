@@ -1,0 +1,19 @@
+
+We present an approach for building multi-
+document event threads from a large corpus
+of newswire articles. An event thread is basi-
+cally a succession of events belonging to the
+same story. It helps the reader to contextual-
+ize the information contained in a single arti-
+cle, by navigating backward or forward in the
+thread from this article. A specific effort is
+also made on the detection of reactions to a
+particular event.
+In order to build these event threads, we use a
+cascade of classifiers and other modules, tak-
+ing advantage of the redundancy of informa-
+tion in the newswire corpus.
+We also share interesting comments con-
+cerning our manual annotation procedure for
+building a training and testing set1.
+1 

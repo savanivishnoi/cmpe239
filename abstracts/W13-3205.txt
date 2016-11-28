@@ -1,0 +1,18 @@
+
+Classification and learning algorithms use
+syntactic structures as proxies between
+source sentences and feature vectors. In
+this paper, we explore an alternative path
+to use syntax in feature spaces: the Dis-
+tributed Representation ?Parsers? (DRP).
+The core of the idea is straightforward:
+DRPs directly obtain syntactic feature vec-
+tors from sentences without explicitly pro-
+ducing symbolic syntactic interpretations.
+Results show that DRPs produce feature
+spaces significantly better than those ob-
+tained by existing methods in the same
+conditions and competitive with those ob-
+tained by existing methods with lexical in-
+formation.
+1 

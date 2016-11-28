@@ -1,0 +1,13 @@
+ 
+We present a 1000-word continuous speech recognition 
+(CSR) system that operates in real time on a personal 
+computer (PC). The system, designed for large vocabulary 
+natural language tasks, makes use of phonetic Hidden 
+Markov models (HMM) and incorporates acoustic, phonetic, 
+and linguistic sources of knowledge to achieve high 
+recognition performance. We describe the various 
+components of this system. We also present our strategy 
+for achieving real time recognition on the PC. Using a 486- 
+based PC with a 29K-based add-on board, the recognizer has 
+been timed at 1.1 times real time. 
+1. 

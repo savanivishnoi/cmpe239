@@ -1,0 +1,19 @@
+ 
+The aim of this paper is to develop ani-
+mated agents that can control multimodal 
+instruction dialogues by monitoring user?s 
+behaviors. First, this paper reports on our 
+Wizard-of-Oz experiments, and then, using 
+the collected corpus, proposes a probabilis-
+tic model of fine-grained timing dependen-
+cies among multimodal communication 
+behaviors: speech, gestures, and mouse 
+manipulations. A preliminary evaluation 
+revealed that our model can predict a in-
+structor?s grounding judgment and a lis-
+tener?s successful mouse manipulation 
+quite accurately, suggesting that the model 
+is useful in estimating the user?s under-
+standing, and can be applied to determining 
+the agent?s next action.  
+1 

@@ -1,0 +1,21 @@
+
+We propose a unified approach to web search
+query alterations in Japanese that is not lim-
+ited to particular character types or ortho-
+graphic similarity between a query and its al-
+teration candidate. Our model is based on pre-
+vious work on English query correction, but
+makes some crucial improvements: (1) we
+augment the query-candidate list to include
+orthographically dissimilar but semantically
+similar pairs; and (2) we use kernel-based
+lexical semantic similarity to avoid the prob-
+lem of data sparseness in computing query-
+candidate similarity. We also propose an ef-
+ficient method for generating query-candidate
+pairs for model training and testing. We show
+that the proposed method achieves about 80%
+accuracy on the query alteration task, improv-
+ing over previously proposed methods that use
+semantic similarity.
+1 

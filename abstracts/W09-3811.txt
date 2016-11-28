@@ -1,0 +1,11 @@
+
+We present an improved training strategy
+for dependency parsers that use online re-
+ordering to handle non-projective trees.
+The new strategy improves both efficiency
+and accuracy by reducing the number of
+swap operations performed on non-project-
+ive trees by up to 80%. We present state-of-
+the-art results for five languages with the
+best ever reported results for Czech.
+1 

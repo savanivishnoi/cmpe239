@@ -1,0 +1,31 @@
+
+This paper describes a novel model using
+dependency structures on the source side
+for syntax-based statistical machine transla-
+tion: Dependency Treelet String Correspon-
+dence Model (DTSC). The DTSC model
+maps source dependency structures to tar-
+get strings. In this model translation pairs of
+source treelets and target strings with their
+word alignments are learned automatically
+from the parsed and aligned corpus. The
+DTSC model allows source treelets and tar-
+get strings with variables so that the model
+can generalize to handle dependency struc-
+tures with the same head word but with dif-
+ferent modifiers and arguments. Addition-
+ally, target strings can be also discontinuous
+by using gaps which are corresponding to
+the uncovered nodes which are not included
+in the source treelets. A chart-style decod-
+ing algorithm with two basic operations?
+substituting and attaching?is designed for
+the DTSC model. We argue that the DTSC
+model proposed here is capable of lexical-
+ization, generalization, and handling discon-
+tinuous phrases which are very desirable for
+machine translation. We finally evaluate our
+current implementation of a simplified ver-
+sion of DTSC for statistical machine trans-
+lation.
+1 

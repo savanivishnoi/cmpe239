@@ -1,0 +1,22 @@
+
+Over the last few years, two of the main
+research directions in machine learning of
+natural language processing have been the
+study of semi-supervised learning algo-
+rithms as a way to train classifiers when the
+labeled data is scarce, and the study of ways
+to exploit knowledge and global information
+in structured learning tasks. In this paper,
+we suggest a method for incorporating do-
+main knowledge in semi-supervised learn-
+ing algorithms. Our novel framework unifies
+and can exploit several kinds of task specic
+constraints. The experimental results pre-
+sented in the information extraction domain
+demonstrate that applying constraints helps
+the model to generate better feedback during
+learning, and hence the framework allows
+for high performance learning with signif-
+icantly less training data than was possible
+before on these tasks.
+1 

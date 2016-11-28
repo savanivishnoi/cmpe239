@@ -1,0 +1,20 @@
+
+We investigate automatic geolocation (i.e.
+identification of the location, expressed as
+latitude/longitude coordinates) of documents.
+Geolocation can be an effective means of sum-
+marizing large document collections and it is
+an important component of geographic infor-
+mation retrieval. We describe several simple
+supervised methods for document geolocation
+using only the document?s raw text as evi-
+dence. All of our methods predict locations
+in the context of geodesic grids of varying de-
+grees of resolution. We evaluate the methods
+on geotagged Wikipedia articles and Twitter
+feeds. For Wikipedia, our best method obtains
+a median prediction error of just 11.8 kilome-
+ters. Twitter geolocation is more challenging:
+we obtain a median error of 479 km, an im-
+provement on previous results for the dataset.
+1 

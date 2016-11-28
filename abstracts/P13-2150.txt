@@ -1,0 +1,22 @@
+
+Syntactic features are useful for many
+text classification tasks. Among these,
+tree kernels (Collins and Duffy, 2001)
+have been perhaps the most robust and
+effective syntactic tool, appealing for
+their empirical success, but also be-
+cause they do not require an answer
+to the difficult question of which tree
+features to use for a given task. We
+compare tree kernels to different ex-
+plicit sets of tree features on five diverse
+tasks, and find that explicit features of-
+ten perform as well as tree kernels on
+accuracy and always in orders of mag-
+nitude less time, and with smaller mod-
+els. Since explicit features are easy to
+generate and use (with publicly avail-
+able tools), we suggest they should al-
+ways be included as baseline compar-
+isons in tree kernel method evaluations.
+1 

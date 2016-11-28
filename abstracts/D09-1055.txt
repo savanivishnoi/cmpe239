@@ -1,0 +1,24 @@
+ 
+User clicks on a URL in response to a query are 
+extremely useful predictors of the URL?s rele-
+vance to that query. Exact match click features 
+tend to suffer from severe data sparsity issues in 
+web ranking. Such sparsity is particularly pro-
+nounced for new URLs or long queries where 
+each distinct query-url pair will rarely occur. To 
+remedy this, we present a set of straightforward 
+yet informative query-url n-gram features that al-
+lows for generalization of limited user click data 
+to large amounts of unseen query-url pairs. The 
+method is motivated by techniques leveraged in 
+the NLP community for dealing with unseen 
+words. We find that there are interesting regulari-
+ties across queries and their preferred destination 
+URLs; for example, queries containing ?form? 
+tend to lead to clicks on URLs containing ?pdf?. 
+We evaluate our set of new query-url features on 
+a web search ranking task and obtain improve-
+ments that are statistically significant at a p-value 
+< 0.0001 level over a strong baseline with exact 
+match clickthrough features.   
+1 

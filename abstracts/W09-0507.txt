@@ -1,0 +1,26 @@
+
+LOGUS is a French-speaking spoken lan-
+guage understanding (SLU) system which
+carries out a deeper analysis than those
+achieved by standard concept spotters. It
+is designed for multi-domain conversa-
+tional systems or for systems that are
+working on complex application domains.
+Based on a logical approach, the sys-
+tem adapts the ideas of incremental ro-
+bust parsing to the issue of SLU. The pa-
+per provides a detailed description of the
+system as well as results from two evalu-
+ation campaigns that concerned all of cur-
+rent French-speaking SLU systems. The
+observed error rates suggest that our log-
+ical approach can stand comparison with
+concept spotters on restricted application
+domains, but also that its behaviour is
+promising for larger domains. The ques-
+tion of the generality of the approach is
+precisely addressed by our current inves-
+tigations on a new task: SLU for an emo-
+tional robot companion for young hospital
+patents.
+1 

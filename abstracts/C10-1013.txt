@@ -1,0 +1,31 @@
+
+Word Sense Disambiguation (WSD) of-
+ten relies on a context model or vector
+constructed from the words that co-occur
+with the target word within the same text
+windows. In most cases, a fixed-sized
+window is used, which is determined by
+trial and error. In addition, words within
+the same window are weighted uniformly
+regardless to their distance to the target
+word. Intuitively, it seems more reason-
+able to assign a stronger weight to con-
+text words closer to the target word. How-
+ever, it is difficult to manually define the
+optimal weighting function based on dis-
+tance. In this paper, we propose a unsu-
+pervised method for determining the op-
+timal weights for context words accord-
+ing to their distance. The general idea is
+that the optimal weights should maximize
+the similarity of two context models of the
+target word generated from two random
+samples. This principle is applied to both
+English and Japanese. The context mod-
+els using the resulting weights are used
+in WSD tasks on Semeval data. Our ex-
+perimental results showed that substantial
+improvements in WSD accuracy can be
+obtained using the automatically defined
+weighting schema.
+1 

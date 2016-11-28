@@ -1,0 +1,16 @@
+ 
+In this paper, two corpora of Urdu (with 110K 
+and 120K words) tagged with different POS 
+tagsets are used to train TnT and Tree taggers. 
+Error analysis of both taggers is done to identi-
+fy frequent confusions in tagging. Based on 
+the analysis of tagging, and syntactic structure 
+of Urdu, a more refined tagset is derived.  The 
+existing tagged corpora are tagged with the 
+new tagset to develop a single corpus of 230K 
+words and the TnT tagger is retrained.  The re-
+sults show improvement in tagging accuracy 
+for individual corpora to 94.2% and also for 
+the merged corpus to 91%.  Implications of 
+these results are discussed.    
+1 

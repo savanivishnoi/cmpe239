@@ -1,0 +1,33 @@
+
+The construction of pathways is a major fo-
+cus of present-day biology. Typical pathways
+involve large numbers of entities of various
+types whose associations are represented as
+reactions involving arbitrary numbers of reac-
+tants, outputs and modifiers. Until recently,
+few information extraction approaches were
+capable of resolving the level of detail in text
+required to support the annotation of such
+pathway representations. We argue that event
+representations of the type popularized by the
+BioNLP Shared Task are potentially applica-
+ble for pathway annotation support. As a step
+toward realizing this possibility, we study the
+mapping from a formal pathway representa-
+tion to the event representation in order to
+identify remaining challenges in event extrac-
+tion for pathway annotation support. Follow-
+ing initial analysis, we present a detailed study
+of protein association and dissociation reac-
+tions, proposing a new event class and repre-
+sentation for the latter and, as a step toward
+its automatic extraction, introduce a manu-
+ally annotated resource incorporating the type
+among a total of nearly 1300 annotated event
+instances. As a further practical contribu-
+tion, we introduce the first pathway-to-event
+conversion software for SBML/CellDesigner
+pathways and discuss the opportunities arising
+from the ability to convert the substantial ex-
+isting pathway resources to events.
+1 

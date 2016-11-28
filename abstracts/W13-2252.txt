@@ -1,0 +1,27 @@
+
+This paper gives a detailed description of
+the ACT (Accuracy of Connective Trans-
+lation) metric, a reference-based metric
+that assesses only connective translations.
+ACT relies on automatic word-level align-
+ment (using GIZA++) between a source
+sentence and respectively the reference
+and candidate translations, along with
+other heuristics for comparing translations
+of discourse connectives. Using a dictio-
+nary of equivalents, the translations are
+scored automatically or, for more accu-
+racy, semi-automatically. The accuracy of
+the ACT metric was assessed by human
+judges on sample data for English/French,
+English/Arabic, English/Italian and En-
+glish/German translations; the ACT scores
+are within 2-5% of human scores.
+The actual version of ACT is available
+only for a limited language pairs. Conse-
+quently, we are participating only for the
+English/French and English/German lan-
+guage pairs. Our hypothesis is that ACT
+metric scores increase with better transla-
+tion quality in terms of human evaluation.
+1 

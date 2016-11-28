@@ -1,0 +1,17 @@
+
+We propose a generalized bootstrapping
+algorithm in which categories are de-
+scribed by relevant seed features. Our
+method introduces two unsupervised steps
+that improve the initial categorization step
+of the bootstrapping scheme: (i) using La-
+tent Semantic space to obtain a general-
+ized similarity measure between instances
+and features, and (ii) the Gaussian Mixture
+algorithm, to obtain uniform classification
+probabilities for unlabeled examples. The
+algorithm was evaluated on two Text Cate-
+gorization tasks and obtained state-of-the-
+art performance using only the category
+names as initial seeds.
+1 

@@ -1,0 +1,23 @@
+
+Using multi-layer neural networks to esti-
+mate the probabilities of word sequences is
+a promising research area in statistical lan-
+guage modeling, with applications in speech
+recognition and statistical machine transla-
+tion. However, training such models for large
+vocabulary tasks is computationally challeng-
+ing which does not scale easily to the huge
+corpora that are nowadays available. In this
+work, we study the performance and behav-
+ior of two neural statistical language models
+so as to highlight some important caveats of
+the classical training algorithms. The induced
+word embeddings for extreme cases are also
+analysed, thus providing insight into the con-
+vergence issues. A new initialization scheme
+and new training techniques are then intro-
+duced. These methods are shown to greatly re-
+duce the training time and to significantly im-
+prove performance, both in terms of perplexity
+and on a large-scale translation task.
+1 

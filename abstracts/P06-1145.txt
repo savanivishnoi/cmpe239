@@ -1,0 +1,24 @@
+ 
+This study aims at identifying when an 
+event written in text occurs. In particular, 
+we classify a sentence for an event into 
+four time-slots; morning, daytime, eve-
+ning, and night. To realize our goal, we 
+focus on expressions associated with 
+time-slot (time-associated words). How-
+ever, listing up all the time-associated 
+words is impractical, because there are 
+numerous time-associated expressions. 
+We therefore use a semi-supervised 
+learning method, the Na?ve Bayes classi-
+fier backed up with the Expectation 
+Maximization algorithm, in order to it-
+eratively extract time-associated words 
+while improving the classifier. We also 
+propose to use Support Vector Machines 
+to filter out noisy instances that indicates 
+no specific time period. As a result of ex-
+periments, the proposed method achieved 
+0.864 of accuracy and outperformed 
+other methods. 
+1 

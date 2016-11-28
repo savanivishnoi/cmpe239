@@ -1,0 +1,16 @@
+
+In this paper we compare three approaches to
+adverbial positioning using lexical, syntactic,
+semantic and sentence-level features. We find
+that: (a), one- and two-stage classification-
+based approaches can achieve almost 86% ac-
+curacy in determining the absolute position of
+adverbials; (b) a classifier trained with only
+syntactic features gives performance close to
+that of a classifier trained with all features; and
+(c) a surface realizer incorporating a two-stage
+classifier for adverbial positioning as the sec-
+ond stage gives improvements of at least 10%
+in simple string accuracy over a baseline real-
+izer for sentences containing adverbials.
+1 

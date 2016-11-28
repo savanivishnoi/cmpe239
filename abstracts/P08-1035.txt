@@ -1,0 +1,16 @@
+
+The paper presents a novel sentence trimmer
+in Japanese, which combines a non-statistical
+yet generic tree generation model and Con-
+ditional Random Fields (CRFs), to address
+improving the grammaticality of compres-
+sion while retaining its relevance. Experi-
+ments found that the present approach out-
+performs in grammaticality and in relevance
+a dependency-centric approach (Oguro et al,
+2000; Morooka et al, 2004; Yamagata et al,
+2006; Fukutomi et al, 2007)? the only line of
+work in prior literature (on Japanese compres-
+sion) we are aware of that allows replication
+and permits a direct comparison.
+1 

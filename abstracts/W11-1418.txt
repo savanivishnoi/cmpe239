@@ -1,0 +1,19 @@
+
+Semantic distance is the degree of closeness
+between two pieces of text determined by their
+meaning. Semantic distance is typically mea-
+sured by analyzing a set of documents or a list
+of terms and assigning a metric based on the
+likeness of their meaning or the concept they
+represent. Although related research provides
+some semantic-based algorithms, few applica-
+tions exist. This work proposes a semantic-
+based approach for automatically identifying
+potential course equivalencies given their cat-
+alog descriptions. The method developed by
+Li et al (2006) is extended in this paper to take
+a course description from one university as the
+input and suggest equivalent courses offered at
+another university. Results are evaluated and
+future work is discussed.
+1 

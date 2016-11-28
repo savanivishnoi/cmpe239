@@ -1,0 +1,16 @@
+
+A Maximum Entropy Model based system
+for discriminative learning of syntactic and
+semantic dependencies submitted to the
+CoNLL-2008 shared task (Surdeanu, et al,
+2008) is presented in this paper. The sys-
+tem converts the dependency learning task
+to classification issues and reconstructs the
+dependent relations based on classification
+results. Finally F1 scores of 86.69, 69.95
+and 78.35 are obtained for syntactic depen-
+dencies, semantic dependencies and the
+whole system respectively in closed chal-
+lenge. For open challenge the correspond-
+ing F1 scores are 86.69, 68.99 and 77.84.
+1 

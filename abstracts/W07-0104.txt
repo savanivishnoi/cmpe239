@@ -1,0 +1,27 @@
+
+In this paper we present an active learn-
+ing approach used to create an annotated
+corpus of literal and nonliteral usages
+of verbs. The model uses nearly unsu-
+pervised word-sense disambiguation and
+clustering techniques. We report on exper-
+iments in which a human expert is asked
+to correct system predictions in different
+stages of learning: (i) after the last iter-
+ation when the clustering step has con-
+verged, or (ii) during each iteration of the
+clustering algorithm. The model obtains
+an f-score of 53.8% on a dataset in which
+literal/nonliteral usages of 25 verbs were
+annotated by human experts. In compari-
+son, the same model augmented with ac-
+tive learning obtains 64.91%. We also
+measure the number of examples required
+when model confidence is used to select
+examples for human correction as com-
+pared to random selection. The results of
+this active learning system have been com-
+piled into a freely available annotated cor-
+pus of literal/nonliteral usage of verbs in
+context.
+1 

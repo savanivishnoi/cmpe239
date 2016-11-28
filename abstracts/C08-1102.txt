@@ -1,0 +1,18 @@
+
+Supervised approaches to Word Sense Dis-
+ambiguation (WSD) have been shown to
+outperform other approaches but are ham-
+pered by reliance on labeled training ex-
+amples (the data acquisition bottleneck).
+This paper presents a novel approach to the
+automatic acquisition of labeled examples
+for WSD which makes use of the Informa-
+tion Retrieval technique of relevance feed-
+back. This semi-supervised method gener-
+ates additional labeled examples based on
+existing annotated data. Our approach is
+applied to a set of ambiguous terms from
+biomedical journal articles and found to
+significantly improve the performance of a
+state-of-the-art WSD system.
+1 

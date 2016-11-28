@@ -1,0 +1,14 @@
+
+Coreference resolution, like many problems
+in natural language processing, has most of-
+ten been explored using datasets of written
+text. While spontaneous spoken language
+poses well-known challenges, it also offers ad-
+ditional modalities that may help disambiguate
+some of the inherent disfluency. We explore
+features of hand gesture that are correlated
+with coreference. Combining these features
+with a traditional textual model yields a statis-
+tically significant improvement in overall per-
+formance.
+1 

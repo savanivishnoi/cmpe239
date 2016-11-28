@@ -1,0 +1,21 @@
+
+With OWL (Web Ontology Language) es-
+tablished as a standard for encoding on-
+tologies on the Semantic Web, interest
+has begun to focus on the task of ver-
+balising OWL code in controlled English
+(or other natural language). Current ap-
+proaches to this task assume that axioms
+in OWL can be mapped to sentences in
+English. We examine three potential prob-
+lems with this approach (concerning log-
+ical sophistication, information structure,
+and size), and show that although these
+could in theory lead to insuperable diffi-
+culties, in practice they seldom arise, be-
+cause ontology developers use OWL in
+ways that favour a transparent mapping.
+This result is evidenced by an analysis of
+patterns from a corpus of over 600,000 ax-
+ioms in about 200 ontologies.
+1 

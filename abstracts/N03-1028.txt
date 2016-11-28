@@ -1,0 +1,21 @@
+
+Conditional random fields for sequence label-
+ing offer advantages over both generative mod-
+els like HMMs and classifiers applied at each
+sequence position. Among sequence labeling
+tasks in language processing, shallow parsing
+has received much attention, with the devel-
+opment of standard evaluation datasets and ex-
+tensive comparison among methods. We show
+here how to train a conditional random field to
+achieve performance as good as any reported
+base noun-phrase chunking method on the
+CoNLL task, and better than any reported sin-
+gle model. Improved training methods based
+on modern optimization algorithms were crit-
+ical in achieving these results. We present ex-
+tensive comparisons between models and train-
+ing methods that confirm and strengthen pre-
+vious results on shallow parsing and training
+methods for maximum-entropy models.
+1 

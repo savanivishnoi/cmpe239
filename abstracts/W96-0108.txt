@@ -1,0 +1,15 @@
+ 
+This paper describes an automatic, ontext-sensitive, word-error correction system based 
+on statistical language modeling (SLM) as applied to optical character recognition (OCR) post- 
+processing. The system exploits information from multiple sources, including letter n-grams, 
+character confusion probabilities, and word-bigram probabilities. Letter n-grams are used to 
+index the words in the lexicon. Given a sentence to be corrected, the system decomposes ach 
+string in the sentence into letter n-grams and retrieves word candidates from the lexicon by 
+comparing string n-grams with lexicon-entry n-grams. The retrieved candidates are ranked by 
+the conditional probability of matches with the string, given character confusion probabilities. 
+Finally, the wordobigram odel and Viterbi algorithm are used to determine the best scoring 
+word sequence for the sentence. The system can correct non-word errors as well as real-word 
+errors and achieves a 60.2% error reduction rate for real OCR text. In addition, the system can 
+learn the character confusion probabilities for a specific OCR environment and use them in 
+self-calibration toachieve better performance. 
+1 

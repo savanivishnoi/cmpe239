@@ -1,0 +1,24 @@
+
+Various methods have been devised to pro-
+duce morphological analyzers and gen-
+erators for Semitic languages, ranging
+from methods based on widely used finite-
+state technologies to very specific solu-
+tions designed for a specific language
+or problem. Since the earliest propos-
+als of how to adopt the elsewhere suc-
+cessful finite-state methods to root-and-
+pattern morphologies, the solution of en-
+coding Semitic grammars using multi-tape
+automata has resurfaced on a regular ba-
+sis. Multi-tape automata, however, require
+specific algorithms and reimplementation
+of finite-state operators across the board,
+and hence such technology has not been
+readily available to linguists. This paper,
+using an actual Arabic grammar as a case
+study, describes an approach to encoding
+multi-tape automata on a single tape that
+can be implemented using any standard
+finite-automaton toolkit.
+1 

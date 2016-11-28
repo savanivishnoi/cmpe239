@@ -1,0 +1,20 @@
+ 
+In syntax, the trend nowadays is towards lexiealized 
+grammar formalisms. It is now widely accepted that 
+dividing words into wordclasses may serve as a 
+labor-saving mechanism - but at the same time, it 
+discards all detailed information on the idiosyncratic 
+behavior of words. And that is exactly the type of 
+information that may be necessary in order to parse 
+a sentence. For learning approaches, however, 
+lexicalized grammars represent a challenge for the 
+very reason that they include so much detailed and 
+specific information, which is difficult to learn. 
+This paper will present an algorithm for learning a 
+, link grammar of German. The problem of data spar- 
+seness is tackled by using all the available infor- 
+mation from partial parses as well as from an ex- 
+isting grammar fragment and a tagger. This is a re- 
+port about work in progress o there are no repre- 
+sentative results available yet. 
+1. 

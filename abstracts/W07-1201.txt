@@ -1,0 +1,48 @@
+ 
+Recent work identifies two properties that 
+appear particularly relevant to the charac-
+terization of graph-based dependency mod-
+els of syntactic structure1: the absence of 
+interleaving substructures (well-nestedness) 
+and a bound on a type of discontinuity 
+(gap-degree ? 1) successfully describe 
+more than 99% of the structures in two de-
+pendency treebanks (Kuhlmann and Nivre 
+2006).2 Bodirsky et al (2005) establish that 
+every dependency structure with these two 
+properties can be recast as a lexicalized 
+Tree Adjoining Grammar (LTAG) deriva-
+tion and vice versa. However, multi-
+component extensions of TAG (MC-TAG), 
+argued to be necessary on linguistic 
+grounds, induce dependency structures that 
+do not conform to these two properties 
+(Kuhlmann and M?hl 2006). In this paper, 
+we observe that several types of MC-TAG 
+as used for linguistic analysis are more re-
+strictive than the formal system is in prin-
+ciple. In particular, tree-local MC-TAG, 
+tree-local MC-TAG with flexible composi-
+                                                 
+1 Whereas weak equivalence of grammar classes is only con-
+cerned with string sets and fails to shed light on equivalence at 
+the structural level, our work involves the equivalence of deri-
+vations and graph based models of dependencies.  Thus, our 
+work is relevant to certain aspects of grammar engineering 
+that weak equivalence does not speak to. 
+2 These properties hold for many of the so-called non-
+projective dependency structures and the corresponding non-
+context free structures associated with TAG, further allowing 
+CKY type dynamic programming approaches to parsing to 
+these dependency graphs. 
+tion (Kallmeyer and Joshi 2003), and spe-
+cial cases of set-local TAG as used to de-
+scribe certain linguistic phenomena satisfy 
+the well-nested and gap degree ? 1 criteria. 
+We also observe that gap degree can dis-
+tinguish between prohibited and allowed 
+wh-extractions in English, and report some 
+preliminary work comparing the predic-
+tions of the graph approach and the MC-
+TAG approach to scrambling. 
+1 

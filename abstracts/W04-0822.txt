@@ -1,0 +1,20 @@
+
+The HKUST word sense disambiguation systems
+benefit from a new nonlinear Kernel Principal
+Component Analysis (KPCA) based disambigua-
+tion technique. We discuss and analyze results
+from the Senseval-3 English, Chinese, and Multi-
+lingual Lexical Sample data sets. Among an en-
+semble of four different kinds of voted models, the
+KPCA-based model, along with the maximum en-
+tropy model, outperforms the boosting model and
+na??ve Bayes model. Interestingly, while the KPCA-
+based model typically achieves close or better ac-
+curacy than the maximum entropy model, neverthe-
+less a comparison of predicted classifications shows
+that it has a significantly different bias. This char-
+acteristic makes it an excellent voter, as confirmed
+by results showing that removing the KPCA-based
+model from the ensemble generally degrades per-
+formance.
+1 

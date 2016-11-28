@@ -1,0 +1,12 @@
+
+This paper explores the issue of automatically
+generated ungrammatical data and its use in
+error detection, with a focus on the task of
+classifying a sentence as grammatical or un-
+grammatical. We present an error generation
+tool called GenERRate and show how Gen-
+ERRate can be used to improve the perfor-
+mance of a classifier on learner data. We de-
+scribe initial attempts to replicate Cambridge
+Learner Corpus errors using GenERRate.
+1 

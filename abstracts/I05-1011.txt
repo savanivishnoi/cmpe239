@@ -1,0 +1,14 @@
+. This paper presents a lightweight method for unsupervised
+extraction of paraphrases from arbitrary textual Web documents. The
+method differs from previous approaches to paraphrase acquisition in
+that 1) it removes the assumptions on the quality of the input data,
+by using inherently noisy, unreliable Web documents rather than clean,
+trustworthy, properly formatted documents; and 2) it does not require
+any explicit clue indicating which documents are likely to encode parallel
+paraphrases, as they report on the same events or describe the same sto-
+ries. Large sets of paraphrases are collected through exhaustive pairwise
+alignment of small needles, i.e., sentence fragments, across a haystack
+of Web document sentences. The paper describes experiments on a set
+of about one billion Web documents, and evaluates the extracted para-
+phrases in a natural-language Web search application.
+1 

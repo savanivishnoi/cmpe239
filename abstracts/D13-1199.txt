@@ -1,0 +1,21 @@
+
+Recent work has developed supervised meth-
+ods for detecting deceptive opinion spam?
+fake reviews written to sound authentic and
+deliberately mislead readers. And whereas
+past work has focused on identifying individ-
+ual fake reviews, this paper aims to identify
+offerings (e.g., hotels) that contain fake re-
+views. We introduce a semi-supervised man-
+ifold ranking algorithm for this task, which
+relies on a small set of labeled individual re-
+views for training. Then, in the absence of
+gold standard labels (at an offering level),
+we introduce a novel evaluation procedure
+that ranks artificial instances of real offer-
+ings, where each artificial offering contains a
+known number of injected deceptive reviews.
+Experiments on a novel dataset of hotel re-
+views show that the proposed method outper-
+forms state-of-art learning baselines.
+1 

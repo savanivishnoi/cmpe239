@@ -1,0 +1,13 @@
+ 
+Based on the core approach of the tree edit 
+distance algorithm, the system central mod-
+ule is designed to target the scope of TE ? 
+semantic variability. The main idea is to 
+transform the hypothesis making use of ex-
+tensive semantic knowledge from sources 
+like DIRT, WordNet, Wikipedia, acronyms 
+database. Additionally, we built a system to 
+acquire the extra background knowledge 
+needed and applied complex grammar rules 
+for rephrasing in English. 
+1 

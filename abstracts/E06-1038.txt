@@ -1,0 +1,21 @@
+
+We present a model for sentence com-
+pression that uses a discriminative large-
+margin learning framework coupled with
+a novel feature set defined on compressed
+bigrams as well as deep syntactic repre-
+sentations provided by auxiliary depen-
+dency and phrase-structure parsers. The
+parsers are trained out-of-domain and con-
+tain a significant amount of noise. We ar-
+gue that the discriminative nature of the
+learning algorithm allows the model to
+learn weights relative to any noise in the
+feature set to optimize compression ac-
+curacy directly. This differs from cur-
+rent state-of-the-art models (Knight and
+Marcu, 2000) that treat noisy parse trees,
+for both compressed and uncompressed
+sentences, as gold standard when calculat-
+ing model parameters.
+1 

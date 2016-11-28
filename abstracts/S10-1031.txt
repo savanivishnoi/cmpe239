@@ -1,0 +1,19 @@
+
+A central issue for making the content
+of a scientific document quickly acces-
+sible to a potential reader is the extrac-
+tion of keyphrases, which capture the main
+topic of the document. Keyphrases can
+be extracted automatically by generating a
+list of keyphrase candidates, ranking these
+candidates, and selecting the top-ranked
+candidates as keyphrases. We present the
+KeyWE system, which uses an adapted
+nominal group chunker for candidate ex-
+traction and a supervised ranking algo-
+rithm based on support vector machines
+for ranking the extracted candidates. The
+system was evaluated on data provided
+for the SemEval 2010 Shared Task on
+Keyphrase Extraction.
+1 

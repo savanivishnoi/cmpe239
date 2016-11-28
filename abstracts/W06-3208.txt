@@ -1,0 +1,26 @@
+
+For a language with limited resources, a
+dictionary may be one of the few available
+electronic resources. To make effective
+use of the dictionary for translation, how-
+ever, users must be able to access it us-
+ing the root form of morphologically de-
+formed variant found in the text. Stem-
+ming and data driven methods, however,
+are not suitable when data is sparse. We
+present algorithms for discovering mor-
+phemes from limited, noisy data obtained
+by scanning a hard copy dictionary. Our
+approach is based on the novel applica-
+tion of the longest common substring and
+string edit distance metrics. Results show
+that these algorithms can in fact segment
+words into roots and affixes from the lim-
+ited data contained in a dictionary, and ex-
+tract affixes. This in turn allows non na-
+tive speakers to perform multilingual tasks
+for applications where response must be
+rapid, and their knowledge is limited. In
+addition, this analysis can feed other NLP
+tools requiring lexicons.
+1 

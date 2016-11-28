@@ -1,0 +1,27 @@
+
+Training the phrase table by force-aligning
+(FA) the training data with the reference trans-
+lation has been shown to improve the phrasal
+translation quality while significantly reduc-
+ing the phrase table size on medium sized
+tasks. We apply this procedure to several
+large-scale tasks, with the primary goal of re-
+ducing model sizes without sacrificing transla-
+tion quality. To deal with the noise in the auto-
+matically crawled parallel training data, we in-
+troduce on-demand word deletions, insertions,
+and backoffs to achieve over 99% successful
+alignment rate. We also add heuristics to avoid
+any increase in OOV rates. We are able to re-
+duce already heavily pruned baseline phrase
+tables by more than 50% with little to no
+degradation in quality and occasionally slight
+improvement, without any increase in OOVs.
+We further introduce two global scaling fac-
+tors for re-estimation of the phrase table via
+posterior phrase alignment probabilities and
+a modified absolute discounting method that
+can be applied to fractional counts.
+Index Terms: phrasal machine translation, phrase
+training, phrase table pruning
+1 

@@ -1,0 +1,24 @@
+
+Cross-document coreference, the task of
+grouping all the mentions of each entity in a
+document collection, arises in information ex-
+traction and automated knowledge base con-
+struction. For large collections, it is clearly
+impractical to consider all possible groupings
+of mentions into distinct entities. To solve
+the problem we propose two ideas: (a) a dis-
+tributed inference technique that uses paral-
+lelism to enable large scale processing, and
+(b) a hierarchical model of coreference that
+represents uncertainty over multiple granular-
+ities of entities to facilitate more effective ap-
+proximate inference. To evaluate these ideas,
+we constructed a labeled corpus of 1.5 million
+disambiguated mentions in Web pages by se-
+lecting link anchors referring to Wikipedia en-
+tities. We show that the combination of the
+hierarchical model with distributed inference
+quickly obtains high accuracy (with error re-
+duction of 38%) on this large dataset, demon-
+strating the scalability of our approach.
+1 

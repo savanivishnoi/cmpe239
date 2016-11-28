@@ -1,0 +1,16 @@
+
+We describe a biological event detection
+method implemented for the BioNLP 2009
+Shared Task 1. The method relies entirely on
+the chunk and syntactic dependency relations
+provided by a general NLP pipeline which was
+not adapted in any way for the purposes of
+the shared task. The method maps the syn-
+tactic relations to event structures while be-
+ing guided by the probabilities of the syntactic
+features of events which were automatically
+learned from the training data. Our method
+achieved a recall of 26% and a precision of
+44% in the official test run, under ?strict equal-
+ity? of events.
+1 

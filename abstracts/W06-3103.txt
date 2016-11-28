@@ -1,0 +1,16 @@
+
+The Arabic language has far richer sys-
+tems of inflection and derivation than En-
+glish which has very little morphology.
+This morphology difference causes a large
+gap between the vocabulary sizes in any
+given parallel training corpus. Segmen-
+tation of inflected Arabic words is a way
+to smooth its highly morphological na-
+ture. In this paper, we describe some
+statistically and linguistically motivated
+methods for Arabic word segmentation.
+Then, we show the efficiency of proposed
+methods on the Arabic-English BTEC and
+NIST tasks.
+1 

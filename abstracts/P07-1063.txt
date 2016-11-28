@@ -1,0 +1,23 @@
+
+Over the last fifty years, the ?Big Five?
+model of personality traits has become a
+standard in psychology, and research has
+systematically documented correlations be-
+tween a wide range of linguistic variables
+and the Big Five traits. A distinct line of
+research has explored methods for automati-
+cally generating language that varies along
+personality dimensions. We present PER-
+SONAGE (PERSONAlity GEnerator), the
+first highly parametrizable language gener-
+ator for extraversion, an important aspect
+of personality. We evaluate two personal-
+ity generation methods: (1) direct genera-
+tion with particular parameter settings sug-
+gested by the psychology literature; and (2)
+overgeneration and selection using statistical
+models trained from judge?s ratings. Results
+show that both methods reliably generate ut-
+terances that vary along the extraversion di-
+mension, according to human judges.
+1 

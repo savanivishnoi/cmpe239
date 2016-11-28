@@ -1,0 +1,19 @@
+
+In this paper we look at the problem of
+cleansing noisy text using a statistical ma-
+chine translation model. Noisy text is pro-
+duced in informal communications such
+as Short Message Service (SMS), Twit-
+ter and chat. A typical Statistical Ma-
+chine Translation system is trained on par-
+allel text comprising noisy and clean sen-
+tences. In this paper we propose an un-
+supervised method for the translation of
+noisy text to clean text. Our method has
+two steps. For a given noisy sentence, a
+weighted list of possible clean tokens for
+each noisy token are obtained. The clean
+sentence is then obtained by maximizing
+the product of the weighted lists and the
+language model scores.
+1 

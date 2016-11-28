@@ -1,0 +1,13 @@
+
+We explore the benefit that users in sev-
+eral application areas can experience from
+a ?tab-complete? editing assistance func-
+tion. We develop an evaluation metric
+and adapt N -gram language models to
+the problem of predicting the subsequent
+words, given an initial text fragment. Us-
+ing an instance-based method as base-
+line, we empirically study the predictabil-
+ity of call-center emails, personal emails,
+weather reports, and cooking recipes.
+1 

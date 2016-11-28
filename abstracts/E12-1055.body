@@ -1,0 +1,18 @@
+
+We investigate the problem of domain
+adaptation for parallel data in Statistical
+Machine Translation (SMT). While tech-
+niques for domain adaptation of monolin-
+gual data can be borrowed for parallel data,
+we explore conceptual differences between
+translation model and language model do-
+main adaptation and their effect on per-
+formance, such as the fact that translation
+models typically consist of several features
+that have different characteristics and can
+be optimized separately. We also explore
+adapting multiple (4?10) data sets with no
+a priori distinction between in-domain and
+out-of-domain data except for an in-domain
+development set.
+1 

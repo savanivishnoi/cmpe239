@@ -1,0 +1,18 @@
+
+This paper explores ways to detect errors
+in aligned corpora, using very little tech-
+nology. In the first method, applicable
+to any aligned corpus, we consider align-
+ment as a string-to-string mapping. Treat-
+ing the target string as a label, we ex-
+amine each source string to find incon-
+sistencies in alignment. Despite setting
+up the problem on a par with grammat-
+ical annotation, we demonstrate crucial
+differences in sorting errors from legiti-
+mate variations. The second method ex-
+amines phrase nodes which are predicted
+to be aligned, based on the alignment of
+their yields. Both methods are effective in
+complementary ways.
+1 

@@ -1,0 +1,24 @@
+
+Dependency analysis of natural language
+has gained importance for its applicability
+to NLP tasks. Non-projective structures
+are common in dependency analysis, there-
+fore we need fine-grained means of describ-
+ing them, especially for the purposes of
+machine-learning oriented approaches like
+parsing. We present an evaluation on
+twelve languages which explores several
+constraints and measures on non-projective
+structures. We pursue an edge-based ap-
+proach concentrating on properties of in-
+dividual edges as opposed to properties of
+whole trees. In our evaluation, we include
+previously unreported measures taking into
+account levels of nodes in dependency trees.
+Our empirical results corroborate theoreti-
+cal results and show that an edge-based ap-
+proach using levels of nodes provides an
+accurate and at the same time expressive
+means for capturing non-projective struc-
+tures in natural language.
+1 

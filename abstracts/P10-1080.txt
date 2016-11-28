@@ -1,0 +1,16 @@
+
+Letter-phoneme alignment is usually gen-
+erated by a straightforward application of
+the EM algorithm. We explore several al-
+ternative alignment methods that employ
+phonetics, integer programming, and sets
+of constraints, and propose a novel ap-
+proach of refining the EM alignment by
+aggregation of best alignments. We per-
+form both intrinsic and extrinsic evalua-
+tion of the assortment of methods. We
+show that our proposed EM-Aggregation
+algorithm leads to the improvement of the
+state of the art in letter-to-phoneme con-
+version on several different data sets.
+1 

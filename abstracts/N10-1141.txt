@@ -1,0 +1,24 @@
+
+Machine translation benefits from two types
+of decoding techniques: consensus decoding
+over multiple hypotheses under a single model
+and system combination over hypotheses from
+different models. We present model combina-
+tion, a method that integrates consensus de-
+coding and system combination into a uni-
+fied, forest-based technique. Our approach
+makes few assumptions about the underly-
+ing component models, enabling us to com-
+bine systems with heterogenous structure. Un-
+like most system combination techniques, we
+reuse the search space of component models,
+which entirely avoids the need to align trans-
+lation hypotheses. Despite its relative sim-
+plicity, model combination improves trans-
+lation quality over a pipelined approach of
+first applying consensus decoding to individ-
+ual systems, and then applying system combi-
+nation to their output. We demonstrate BLEU
+improvements across data sets and language
+pairs in large-scale experiments.
+1 

@@ -1,0 +1,27 @@
+ 
+This paper proposes a semi-supervised 
+boosting approach to improve statistical 
+word alignment with limited labeled data 
+and large amounts of unlabeled data. The 
+proposed approach modifies the super-
+vised boosting algorithm to a semi-
+supervised learning algorithm by incor-
+porating the unlabeled data. In this algo-
+rithm, we build a word aligner by using 
+both the labeled data and the unlabeled 
+data. Then we build a pseudo reference 
+set for the unlabeled data, and calculate 
+the error rate of each word aligner using 
+only the labeled data. Based on this semi-
+supervised boosting algorithm, we inves-
+tigate two boosting methods for word 
+alignment. In addition, we improve the 
+word alignment results by combining the 
+results of the two semi-supervised boost-
+ing methods. Experimental results on 
+word alignment indicate that semi-
+supervised boosting achieves relative er-
+ror reductions of 28.29% and 19.52% as 
+compared with supervised boosting and 
+unsupervised boosting, respectively. 
+1 

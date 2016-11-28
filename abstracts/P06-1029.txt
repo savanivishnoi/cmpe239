@@ -1,0 +1,26 @@
+ 
+Lasso is a regularization method for pa-
+rameter estimation in linear models. It op-
+timizes the model parameters with respect 
+to a loss function subject to model com-
+plexities. This paper explores the use of 
+lasso for statistical language modeling for 
+text input. Owing to the very large number 
+of parameters, directly optimizing the pe-
+nalized lasso loss function is impossible. 
+Therefore, we investigate two approxima-
+tion methods, the boosted lasso (BLasso) 
+and the forward stagewise linear regres-
+sion (FSLR). Both methods, when used 
+with the exponential loss function, bear 
+strong resemblance to the boosting algo-
+rithm which has been used as a discrimi-
+native training method for language mod-
+eling. Evaluations on the task of Japanese 
+text input show that BLasso is able to 
+produce the best approximation to the 
+lasso solution, and leads to a significant 
+improvement, in terms of character error 
+rate, over boosting and the traditional 
+maximum likelihood estimation. 
+1 

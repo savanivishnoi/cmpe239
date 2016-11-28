@@ -1,0 +1,22 @@
+
+Transliteration is the process of transcribing
+words from a source script to a target script.
+These words can be content words or proper
+nouns. They may be of local or foreign ori-
+gin. In this paper we present a more dis-
+cerning method which applies different tech-
+niques based on the word origin. The tech-
+niques used also take into account the prop-
+erties of the scripts. Our approach does not
+require training data on the target side, while
+it uses more sophisticated techniques on the
+source side. Fuzzy string matching is used to
+compensate for lack of training on the target
+side. We have evaluated on two Indian lan-
+guages and have achieved substantially bet-
+ter results (increase of up to 0.44 in MRR)
+than the baseline and comparable to the state
+of the art. Our experiments clearly show that
+word origin is an important factor in achiev-
+ing higher accuracy in transliteration.
+1 

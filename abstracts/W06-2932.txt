@@ -1,0 +1,18 @@
+
+We present a two-stage multilingual de-
+pendency parser and evaluate it on 13
+diverse languages. The first stage is
+based on the unlabeled dependency pars-
+ing models described by McDonald and
+Pereira (2006) augmented with morpho-
+logical features for a subset of the lan-
+guages. The second stage takes the out-
+put from the first and labels all the edges
+in the dependency graph with appropri-
+ate syntactic categories using a globally
+trained sequence classifier over compo-
+nents of the graph. We report results on
+the CoNLL-X shared task (Buchholz et
+al., 2006) data sets and present an error
+analysis.
+1 

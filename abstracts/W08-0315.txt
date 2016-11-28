@@ -1,0 +1,19 @@
+
+This paper reports on the participation of the TALP
+Research Center of the UPC (Universitat Polit?cnica
+de Catalunya) to the ACL WMT 2008 evaluation
+campaign.
+This year?s system is the evolution of the one we em-
+ployed for the 2007 campaign. Main updates and
+extensions involve linguistically motivated word re-
+ordering based on the reordering patterns technique.
+In addition, this system introduces a target language
+model, based on linguistic classes (Part-of-Speech),
+morphology reduction for an inflectional language
+(Spanish) and an improved optimization procedure.
+Results obtained over the development and test sets
+on Spanish to English (and the other way round)
+translations for both the traditional Europarl and
+a challenging News stories tasks are analyzed and
+commented.
+1 

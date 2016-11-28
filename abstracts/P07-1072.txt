@@ -1,0 +1,17 @@
+
+This paper addresses the automatic classifi-
+cation of semantic relations in noun phrases
+based on cross-linguistic evidence from a
+set of five Romance languages. A set
+of novel semantic and contextual English?
+Romance NP features is derived based on
+empirical observations on the distribution
+of the syntax and meaning of noun phrases
+on two corpora of different genre (Europarl
+and CLUVI). The features were employed
+in a Support Vector Machines algorithm
+which achieved an accuracy of 77.9% (Eu-
+roparl) and 74.31% (CLUVI), an improve-
+ment compared with two state-of-the-art
+models reported in the literature.
+1 

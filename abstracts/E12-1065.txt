@@ -1,0 +1,22 @@
+
+Better representations of plot structure
+could greatly improve computational meth-
+ods for summarizing and generating sto-
+ries. Current representations lack abstrac-
+tion, focusing too closely on events. We
+present a kernel for comparing novelistic
+plots at a higher level, in terms of the
+cast of characters they depict and the so-
+cial relationships between them. Our kernel
+compares the characters of different nov-
+els to one another by measuring their fre-
+quency of occurrence over time and the
+descriptive and emotional language associ-
+ated with them. Given a corpus of 19th-
+century novels as training data, our method
+can accurately distinguish held-out novels
+in their original form from artificially dis-
+ordered or reversed surrogates, demonstrat-
+ing its ability to robustly represent impor-
+tant aspects of plot structure.
+1 

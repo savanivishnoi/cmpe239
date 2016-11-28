@@ -1,0 +1,37 @@
+ 
+The latest discoveries on diseases and their di-
+agnosis/treatment are mostly disseminated in 
+the form of scientific publications. However, 
+with the rapid growth of the biomedical litera-
+ture and a high level of variation and ambigui-
+ty in disease names, the task of retrieving 
+disease-related articles becomes increasingly 
+challenging using the traditional keyword-
+based approach. An important first step for 
+any disease-related information extraction 
+task in the biomedical literature is the disease 
+mention recognition task. However, despite 
+the strong interest, there has not been enough 
+work done on disease name identification, 
+perhaps because of the difficulty in obtaining 
+adequate corpora. Towards this aim, we creat-
+ed a large-scale disease corpus consisting of 
+6900 disease mentions in 793 PubMed cita-
+tions, derived from an earlier corpus. Our cor-
+pus contains rich annotations, was developed 
+by a team of 12 annotators (two people per 
+annotation) and covers all sentences in a 
+PubMed abstract. Disease mentions are cate-
+gorized into Specific Disease, Disease Class, 
+Composite Mention and Modifier categories. 
+When used as the gold standard data for a 
+state-of-the-art machine-learning approach, 
+significantly higher performance can be found 
+on our corpus than the previous one. Such 
+characteristics make this disease name corpus 
+a valuable resource for mining disease-related 
+information from biomedical text. The NCBI 
+corpus is available for download at 
+http://www.ncbi.nlm.nih.gov/CBBresearch/Fe
+llows/Dogan/disease.html. 
+1 

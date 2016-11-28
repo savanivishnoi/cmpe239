@@ -1,0 +1,16 @@
+
+We evaluate two dependency parsers,
+MSTParser and MaltParser, with respect
+to their capacity to recover unbounded de-
+pendencies in English, a type of evalu-
+ation that has been applied to grammar-
+based parsers and statistical phrase struc-
+ture parsers but not to dependency parsers.
+The evaluation shows that when combined
+with simple post-processing heuristics,
+the parsers correctly recall unbounded
+dependencies roughly 50% of the time,
+which is only slightly worse than two
+grammar-based parsers specifically de-
+signed to cope with such dependencies.
+1 

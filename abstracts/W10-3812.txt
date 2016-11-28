@@ -1,0 +1,23 @@
+
+A major challenge in statistical machine
+translation is mitigating the word or-
+der differences between source and tar-
+get strings. While reordering and lexical
+translation choices are often conducted in
+tandem, source string permutation prior
+to translation is attractive for studying re-
+ordering using hierarchical and syntactic
+structure. This work contributes an ap-
+proach for learning source string permu-
+tation via transfer of the source syntax
+tree. We present a novel discriminative,
+probabilistic tree transduction model, and
+contribute a set of empirical upperbounds
+on translation performance for English-
+to-Dutch source string permutation under
+sequence and parse tree constraints. Fi-
+nally, the translation performance of our
+learning model is shown to outperform the
+state-of-the-art phrase-based system sig-
+nificantly.
+1 

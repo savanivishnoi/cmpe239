@@ -1,0 +1,15 @@
+
+We extend the Blum and Chawla
+(2001) graph min-cut algorithm to
+structured problems. This extension
+can alternatively be viewed as a joint
+inference method over a set of train-
+ing and test instances where parts of
+the instances interact through a pre-
+specified associative network. The
+method has has an efficient approxima-
+tion through a linear-programming re-
+laxation. On small training data sets,
+the method achieves up to 34.8% rela-
+tive error reduction.
+1 

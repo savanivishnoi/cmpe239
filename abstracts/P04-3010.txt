@@ -1,0 +1,14 @@
+
+The previous probabilistic part-of-speech tagging
+models for agglutinative languages have consid-
+ered only lexical forms of morphemes, not surface
+forms of words. This causes an inaccurate cal-
+culation of the probability. The proposed model
+is based on the observation that when there exist
+words (surface forms) that share the same lexical
+forms, the probabilities to appear are different from
+each other. Also, it is designed to consider lexi-
+cal form of word. By experiments, we show that
+the proposed model outperforms the bigram Hidden
+Markov model (HMM)-based tagging model.
+1 

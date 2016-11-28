@@ -1,0 +1,15 @@
+
+SMT typically models translation at the sen-
+tence level, ignoring wider document context.
+Does this hurt the consistency of translated
+documents? Using a phrase-based SMT sys-
+tem in various data conditions, we show that
+SMT translates documents remarkably con-
+sistently, even without document knowledge.
+Nevertheless, translation inconsistencies often
+indicate translation errors. However, unlike in
+human translation, these errors are rarely due
+to terminology inconsistency. They are more
+often symptoms of deeper issues with SMT
+models instead.
+1 

@@ -1,0 +1,16 @@
+
+This paper proposes a supervised learn-
+ing method for detecting a semantic rela-
+tion between a given pair of named enti-
+ties, which may be located in different sen-
+tences. The method employs newly intro-
+duced contextual features based on center-
+ing theory as well as conventional syntac-
+tic and word-based features. These features
+are organized as a tree structure and are
+fed into a boosting-based classification al-
+gorithm. Experimental results show the pro-
+posed method outperformed prior methods,
+and increased precision and recall by 4.4%
+and 6.7%.
+1 

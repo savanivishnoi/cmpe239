@@ -1,0 +1,13 @@
+
+Most dialogue architectures are ei-
+ther pipelined or, if agent-based,
+are restricted to a pipelined flow-
+of-information. The TRIPS di-
+alogue architecture is agent-based
+and asynchronous, with several lay-
+ers of information flow. We present
+this architecture and the synchro-
+nization issues we encountered in
+building a truly distributed, agent-
+based dialogue architecture.
+1 

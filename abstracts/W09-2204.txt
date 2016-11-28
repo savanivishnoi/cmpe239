@@ -1,0 +1,23 @@
+
+Support Vector Machines present an interest-
+ing and effective approach to solve automated
+classification tasks. Although it only han-
+dles binary and supervised problems by na-
+ture, it has been transformed into multiclass
+and semi-supervised approaches in several
+works. A previous study on supervised and
+semi-supervised SVM classification over bi-
+nary taxonomies showed how the latter clearly
+outperforms the former, proving the suitability
+of unlabeled data for the learning phase in this
+kind of tasks. However, the suitability of un-
+labeled data for multiclass tasks using SVM
+has never been tested before. In this work,
+we present a study on whether unlabeled data
+could improve results for multiclass web page
+classification tasks using Support Vector Ma-
+chines. As a conclusion, we encourage to rely
+only on labeled data, both for improving (or at
+least equaling) performance and for reducing
+the computational cost.
+1 

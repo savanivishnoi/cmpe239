@@ -1,0 +1,25 @@
+
+Stanford dependencies are widely used in nat-
+ural language processing as a semantically-
+oriented representation, commonly generated
+either by (i) converting the output of a con-
+stituent parser, or (ii) predicting dependencies
+directly. Previous comparisons of the two ap-
+proaches for English suggest that starting from
+constituents yields higher accuracies. In this
+paper, we re-evaluate both methods for Chi-
+nese, using more accurate dependency parsers
+than in previous work. Our comparison of per-
+formance and efficiency across seven popular
+open source parsers (four constituent and three
+dependency) shows, by contrast, that recent
+higher-order graph-based techniques can be
+more accurate, though somewhat slower, than
+constituent parsers. We demonstrate also that
+n-way jackknifing is a useful technique for
+producing automatic (rather than gold) part-
+of-speech tags to train Chinese dependency
+parsers. Finally, we analyze the relations pro-
+duced by both kinds of parsing and suggest
+which specific parsers to use in practice.
+1 

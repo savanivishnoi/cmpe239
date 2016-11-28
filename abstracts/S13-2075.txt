@@ -1,0 +1,21 @@
+ 
+Sentiment Analysis in Twitter has become an 
+important task due to the huge user-generated 
+content published over such media. Such 
+analysis could be useful for many domains 
+such as Marketing, Finance, Politics, and So-
+cial. We propose to use many features in order 
+to improve a trained classifier of Twitter mes-
+sages; these features extend the feature vector 
+of uni-gram model by the concepts extracted 
+from DBpedia, the verb groups and the similar 
+adjectives extracted from WordNet, the Senti-
+features extracted using SentiWordNet and 
+some useful domain specific features. We also 
+built a dictionary for emotion icons, abbrevia-
+tion and slang words in tweets which is useful 
+before extending the tweets with different fea-
+tures. Adding these features has improved the 
+f-measure accuracy 2% with SVM and 4% 
+with NaiveBayes. 
+1 

@@ -1,0 +1,21 @@
+ 
+Recent research suggests that sentence 
+structure can improve the accuracy of 
+recognizing textual entailments and 
+paraphrasing. Although background 
+knowledge such as gazetteers, WordNet 
+and custom built knowledge bases are 
+also likely to improve performance, our 
+goal in this paper is to characterize the 
+syntactic features alone that aid in 
+accurate entailment prediction. We 
+describe candidate features, the role of 
+machine learning, and two final decision 
+rules. These rules resulted in an accuracy 
+of 60.50 and 65.87% and average 
+precision of 58.97 and 60.96% in 
+RTE3Test and suggest that sentence 
+structure alone can improve entailment 
+accuracy by 9.25 to 14.62% over the 
+baseline majority class.  
+1 

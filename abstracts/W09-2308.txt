@@ -1,0 +1,22 @@
+
+The alignment problem for synchronous
+grammars in its unrestricted form, i.e. whether
+for a grammar and a string pair the grammar
+induces an alignment of the two strings, re-
+duces to the universal recognition problem,
+but restrictions may be imposed on the align-
+ment sought, e.g. alignments may be 1 : 1,
+island-free or sure-possible sorted. The com-
+plexities of 15 restricted alignment problems
+in two very different synchronous grammar
+formalisms of syntax-based machine transla-
+tion, inversion transduction grammars (ITGs)
+(Wu, 1997) and a restricted form of range
+concatenation grammars ((2,2)-BRCGs) (S?-
+gaard, 2008), are investigated. The universal
+recognition problems, and therefore also the
+unrestricted alignment problems, of both for-
+malisms can be solved in time O(n6|G|). The
+complexities of the restricted alignment prob-
+lems differ significantly, however.
+1 

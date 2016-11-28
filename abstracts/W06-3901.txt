@@ -1,0 +1,13 @@
+
+Some anaphora resolution algorithms are based on model builders, and use the
+fact that they generate minimal models: only those elements that are necessary
+are postulated to exist in the model. In this way, such systems have the desirable
+property that if anaphora can be resolved to a linguistically available antecedent,
+this resolution applies, and only if there is no suitable antecedent, a deictic reading
+is generated.
+In this paper I formalize the entailments that follow from such anaphora reso-
+lution algorithms. In particular, I will suggest a simple, linguistically motivated,
+underspecified representation for anaphora?DRT, and place the burden of the res-
+olution of anaphora and its consequences on an independently motivated logic for
+default reasoning?Default Logic.
+1 

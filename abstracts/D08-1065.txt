@@ -1,0 +1,22 @@
+
+We present Minimum Bayes-Risk (MBR) de-
+coding over translation lattices that compactly
+encode a huge number of translation hypothe-
+ses. We describe conditions on the loss func-
+tion that will enable efficient implementation
+of MBR decoders on lattices. We introduce
+an approximation to the BLEU score (Pap-
+ineni et al, 2001) that satisfies these condi-
+tions. The MBR decoding under this approx-
+imate BLEU is realized using Weighted Fi-
+nite State Automata. Our experiments show
+that the Lattice MBR decoder yields mod-
+erate, consistent gains in translation perfor-
+mance over N-best MBR decoding on Arabic-
+to-English, Chinese-to-English and English-
+to-Chinese translation tasks. We conduct a
+range of experiments to understand why Lat-
+tice MBR improves upon N-best MBR and
+study the impact of various parameters on
+MBR performance.
+1 

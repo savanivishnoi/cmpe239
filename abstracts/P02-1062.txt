@@ -1,0 +1,16 @@
+
+This paper describes algorithms which
+rerank the top N hypotheses from a
+maximum-entropy tagger, the applica-
+tion being the recovery of named-entity
+boundaries in a corpus of web data. The
+first approach uses a boosting algorithm
+for ranking problems. The second ap-
+proach uses the voted perceptron algo-
+rithm. Both algorithms give compara-
+ble, significant improvements over the
+maximum-entropy baseline. The voted
+perceptron algorithm can be considerably
+more efficient to train, at some cost in
+computation on test examples.
+1 

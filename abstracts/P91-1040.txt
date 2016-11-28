@@ -1,0 +1,12 @@
+ 
+Unification of disjunctive feature descriptions 
+is important for efficient unification-based pars- 
+ing. This paper presents constraint projection, 
+a new method for unification of disjunctive fea- 
+ture structures represented by logical constraints. 
+Constraint projection is a generalization of con- 
+straint unification, and is more efficient because 
+constraint projection has a mechanism for aban- 
+doning information irrelevant o a goal specified 
+by a list of variables. 
+1 

@@ -1,0 +1,23 @@
+
+In this paper, we present the first incremental
+parser for Tree Substitution Grammar (TSG).
+A TSG allows arbitrarily large syntactic frag-
+ments to be combined into complete trees;
+we show how constraints (including lexical-
+ization) can be imposed on the shape of the
+TSG fragments to enable incremental process-
+ing. We propose an efficient Earley-based al-
+gorithm for incremental TSG parsing and re-
+port an F-score competitive with other incre-
+mental parsers. In addition to whole-sentence
+F-score, we also evaluate the partial trees that
+the parser constructs for sentence prefixes;
+partial trees play an important role in incre-
+mental interpretation, language modeling, and
+psycholinguistics. Unlike existing parsers, our
+incremental TSG parser can generate partial
+trees that include predictions about the up-
+coming words in a sentence. We show that
+it outperforms an n-gram model in predicting
+more than one upcoming word.
+1 

@@ -1,0 +1,21 @@
+
+We introduce a new approach to transition-
+based dependency parsing in which the
+parser does not directly construct a depen-
+dency structure, but rather an undirected
+graph, which is then converted into a di-
+rected dependency tree in a post-processing
+step. This alleviates error propagation,
+since undirected parsers do not need to ob-
+serve the single-head constraint.
+Undirected parsers can be obtained by sim-
+plifying existing transition-based parsers
+satisfying certain conditions. We apply this
+approach to obtain undirected variants of
+the planar and 2-planar parsers and of Cov-
+ington?s non-projective parser. We perform
+experiments on several datasets from the
+CoNLL-X shared task, showing that these
+variants outperform the original directed al-
+gorithms in most of the cases.
+1 

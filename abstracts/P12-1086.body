@@ -1,0 +1,28 @@
+
+The named entity disambiguation task is to re-
+solve the many-to-many correspondence be-
+tween ambiguous names and the unique real-
+world entity. This task can be modeled as a
+classification problem, provided that positive
+and negative examples are available for learn-
+ing binary classifiers. High-quality sense-
+annotated data, however, are hard to be ob-
+tained in streaming environments, since the
+training corpus would have to be constantly
+updated in order to accomodate the fresh data
+coming on the stream. On the other hand, few
+positive examples plus large amounts of un-
+labeled data may be easily acquired. Produc-
+ing binary classifiers directly from this data,
+however, leads to poor disambiguation per-
+formance. Thus, we propose to enhance the
+quality of the classifiers using finer-grained
+variations of the well-known Expectation-
+Maximization (EM) algorithm. We conducted
+a systematic evaluation using Twitter stream-
+ing data and the results show that our clas-
+sifiers are extremely effective, providing im-
+provements ranging from 1% to 20%, when
+compared to the current state-of-the-art biased
+SVMs, being more than 120 times faster.
+1 

@@ -1,0 +1,18 @@
+
+The task of identifying redundant infor-
+mation in documents that are generated
+from multiple sources provides a signifi-
+cant challenge for summarization and QA
+systems. Traditional clustering techniques
+detect redundancy at the sentential level
+and do not guarantee the preservation of
+all information within the document. We
+discuss an algorithm that generates a novel
+graph-based representation for a document
+and then utilizes a set cover approximation
+algorithm to remove redundant text from it.
+Our experiments show that this approach
+offers a significant performance advantage
+over clustering when evaluated over an an-
+notated dataset.
+1 

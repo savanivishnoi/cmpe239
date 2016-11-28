@@ -1,0 +1,28 @@
+
+The effectiveness of parsers based on man-
+ually created resources, namely a grammar
+and a lexicon, rely mostly on the quality
+of these resources. Thus, increasing the
+parser coverage and precision usually im-
+plies improving these two resources. Their
+manual improvement is a time consuming
+and complex task : identifying which re-
+source is the true culprit for a given mis-
+take is not always obvious, as well as find-
+ing the mistake and correcting it.
+Some techniques, like van Noord (2004)
+or Sagot and Villemonte de La Clergerie
+(2006), bring a convenient way to automat-
+ically identify forms having potentially er-
+roneous entries in a lexicon. We have in-
+tegrated and extended such techniques in a
+wider process which, thanks to the gram-
+mar ability to tell how these forms could
+be used as part of correct parses, is able to
+propose lexical corrections for the identi-
+fied entries.
+We present in this paper an implementa-
+tion of this process and discuss the main re-
+sults we have obtained on a syntactic wide-
+coverage French lexicon.
+1 

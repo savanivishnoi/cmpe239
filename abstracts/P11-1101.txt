@@ -1,0 +1,21 @@
+
+This paper addresses a data-driven surface
+realisation model based on a large-scale re-
+versible grammar of German. We investigate
+the relationship between the surface realisa-
+tion performance and the character of the in-
+put to generation, i.e. its degree of underspec-
+ification. We extend a syntactic surface reali-
+sation system, which can be trained to choose
+among word order variants, such that the can-
+didate set includes active and passive variants.
+This allows us to study the interaction of voice
+and word order alternations in realistic Ger-
+man corpus data. We show that with an ap-
+propriately underspecified input, a linguisti-
+cally informed realisation model trained to re-
+generate strings from the underlying semantic
+representation achieves 91.5% accuracy (over
+a baseline of 82.5%) in the prediction of the
+original voice.
+1 

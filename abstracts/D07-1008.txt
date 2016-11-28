@@ -1,0 +1,14 @@
+
+This paper presents a tree-to-tree transduc-
+tion method for text rewriting. Our model
+is based on synchronous tree substitution
+grammar, a formalism that allows local dis-
+tortion of the tree topology and can thus
+naturally capture structural mismatches. We
+describe an algorithm for decoding in this
+framework and show how the model can
+be trained discriminatively within a large
+margin framework. Experimental results on
+sentence compression bring significant im-
+provements over a state-of-the-art model.
+1 

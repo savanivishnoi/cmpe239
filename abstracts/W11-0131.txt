@@ -1,0 +1,10 @@
+
+Distributed models of semantics assume that word meanings can be discovered from ?the com-
+pany they keep.? Many such approaches learn semantics from large corpora, with each document
+considered to be unstructured bags of words, ignoring syntax and compositionality within a docu-
+ment. In contrast, this paper proposes a structured vectorial semantic framework, in which semantic
+vectors are defined and composed in syntactic context. As such, syntax and semantics are fully
+interactive; composition of semantic vectors necessarily produces a hypothetical syntactic parse.
+Evaluations show that using relationally-clustered headwords as a semantic space in this framework
+improves on a syntax-only model in perplexity and parsing accuracy.
+1 

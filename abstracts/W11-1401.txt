@@ -1,0 +1,18 @@
+
+In this paper, we present a system that au-
+tomatically generates questions from natural
+language text using discourse connectives. We
+explore the usefulness of the discourse con-
+nectives for Question Generation (QG) that
+looks at the problem beyond sentence level.
+Our work divides the QG task into content se-
+lection and question formation. Content se-
+lection consists of finding the relevant part in
+text to frame question from while question for-
+mation involves sense disambiguation of the
+discourse connectives, identification of ques-
+tion type and applying syntactic transforma-
+tions on the content. The system is evaluated
+manually for syntactic and semantic correct-
+ness.
+1 

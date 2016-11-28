@@ -1,0 +1,28 @@
+
+There is a long history of using logic to
+model the interpretation of indirect speech
+acts. Classical logical inference, how-
+ever, is unable to deal with the combina-
+tions of disparate, conflicting, uncertain
+evidence that shape such speech acts in
+discourse. We propose to address this by
+combining logical inference with proba-
+bilistic methods. We focus on responses
+to polar questions with the following prop-
+erty: they are neither yes nor no, but
+they convey information that can be used
+to infer such an answer with some de-
+gree of confidence, though often not with
+enough confidence to count as resolving.
+We present a novel corpus study and asso-
+ciated typology that aims to situate these
+responses in the broader class of indirect
+question?answer pairs (IQAPs). We then
+model the different types of IQAPs using
+Markov logic networks, which combine
+first-order logic with probabilities, empha-
+sizing the ways in which this approach al-
+lows us to model inferential uncertainty
+about both the context of utterance and in-
+tended meanings.
+1 

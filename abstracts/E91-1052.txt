@@ -1,0 +1,13 @@
+ 
+Attribute grammars are an elegant formalization of the 
+augmented context-free grammars characteristic ofmost 
+current natural anguage systems. This paper presents 
+an extension of Earley's algorithm to Knuth's attribute 
+grammars, considering the case of S-attributed 
+grammars. For this case, we study the conditions on 
+the underlying base grammar under which the extended 
+algorithm may be guaranteed to terminate. Finite 
+partitioning of attribute domains is proposed to 
+guarantee the termination of the algorithm, without he 
+need for any restrictions on the context-free base. 
+1. 

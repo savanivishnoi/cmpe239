@@ -1,0 +1,11 @@
+ 
+A semantic-representation-to-speech system 
+communicates orally the information given in a seman- 
+tic representation. Such a system must Integrate a text 
+generation module, a phonetic conversion module, a pro- 
+sodic module and a speech synthesizer We will see how 
+the syntactic information elaborated by the text genera- 
+tlon module is used for both phonetic conversion and 
+prosody, so as to produce the data that must be supplied 
+to the speech synthesizer, namely a phonetic chain 
+Including prosodic Information. 

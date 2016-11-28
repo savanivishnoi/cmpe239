@@ -1,0 +1,25 @@
+
+We use hand-crafted simulated negotiators
+(SNs) to train and evaluate dialogue poli-
+cies for two-issue negotiation between two
+agents. These SNs differ in their goals and
+in the use of strong and weak arguments
+to persuade their counterparts. They may
+also make irrational moves, i.e., moves not
+consistent with their goals, to generate a
+variety of negotiation patterns. Different
+versions of these SNs interact with each
+other to generate corpora for Reinforce-
+ment Learning (RL) of argumentation di-
+alogue policies for each of the two agents.
+We evaluate the learned policies against
+hand-crafted SNs similar to the ones used
+for training but with the modification that
+these SNs no longer make irrational moves
+and thus are harder to beat. The learned
+policies generally do as well as, or bet-
+ter than the hand-crafted SNs showing that
+RL can be successfully used for learning
+argumentation dialogue policies in two-
+issue negotiation scenarios.
+1 

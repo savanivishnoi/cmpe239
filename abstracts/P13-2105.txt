@@ -1,0 +1,15 @@
+
+This paper presents an effective algorith-
+m of annotation adaptation for constituen-
+cy treebanks, which transforms a treebank
+from one annotation guideline to anoth-
+er with an iterative optimization proce-
+dure, thus to build a much larger treebank
+to train an enhanced parser without in-
+creasing model complexity. Experiments
+show that the transformed Tsinghua Chi-
+nese Treebank as additional training da-
+ta brings significant improvement over the
+baseline trained on Penn Chinese Tree-
+bank only.
+1 

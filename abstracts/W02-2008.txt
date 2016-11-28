@@ -1,0 +1,20 @@
+
+Banko and Brill (2001) suggested that the develop-
+ment of very large training corpora may be more ef-
+fective for progress in empirical Natural Language
+Processing than improving methods that use exist-
+ing smaller training corpora.
+This work tests their claim by exploring whether
+a very large corpus can eliminate the sparseness
+problems associated with estimating unigram prob-
+abilities. We do this by empirically investigating
+the convergence behaviour of unigram probability
+estimates on a one billion word corpus. When us-
+ing one billion words, as expected, we do find that
+many of our estimates do converge to their eventual
+value. However, we also find that for some words,
+no such convergence occurs. This leads us to con-
+clude that simply relying upon large corpora is not
+in itself sufficient: we must pay attention to the sta-
+tistical modelling as well.
+1 

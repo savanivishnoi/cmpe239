@@ -1,0 +1,13 @@
+
+We describe experiments for the cross-
+document coreference task in SemEval
+2007. Our cross-document coreference sys-
+tem uses an in-house agglomerative clus-
+tering implementation to group documents
+referring to the same entity. Clustering
+uses vector representations created by sum-
+marization and semantic tagging analysis
+components. We present evaluation results
+for four system configurations demonstrat-
+ing the potential of the applied techniques.
+1 

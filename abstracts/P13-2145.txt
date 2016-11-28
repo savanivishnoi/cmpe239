@@ -1,0 +1,18 @@
+
+We present a system for extracting the
+dates of illness events (year and month of
+the event occurrence) from posting histo-
+ries in the context of an online medical
+support community. A temporal tagger re-
+trieves and normalizes dates mentioned in-
+formally in social media to actual month
+and year referents. Building on this, an
+event date extraction system learns to in-
+tegrate the likelihood of candidate dates
+extracted from time-rich sentences with
+temporal constraints extracted from event-
+related sentences. Our integrated model
+achieves 89.7% of the maximum perfor-
+mance given the performance of the tem-
+poral expression retrieval step.
+1 

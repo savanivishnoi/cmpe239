@@ -1,0 +1,18 @@
+ 
+A novel method is presented for compiling 
+two-level rules which have multiple context 
+parts. The same method can also be applied 
+to the resolution of so-called right-arrow rule 
+conflicts. The method makes use of the fact 
+that one can efficiently compose sets of two-
+level rules with a lexicon transducer. By in-
+troducing variant characters and using simple 
+pre-processing of multi-context rules, all 
+rules can be reduced into single-context rules. 
+After the modified rules have been combined 
+with the lexicon transducer, the variant char-
+acters may be reverted back to the original 
+surface characters. The proposed method ap-
+pears to be efficient but only partial evidence 
+is presented yet.   
+1 

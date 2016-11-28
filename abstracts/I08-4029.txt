@@ -1,0 +1,23 @@
+ 
+In Chinese, most of the language process-
+ing starts from word segmentation and 
+part-of-speech (POS) tagging. These two 
+steps tokenize the word from a sequence 
+of characters and predict the syntactic la-
+bels for each segmented word. In this pa-
+per, we present two distinct sequential 
+tagging models for the above two tasks. 
+The first word segmentation model was 
+basically similar to previous work which 
+made use of conditional random fields 
+(CRF) and set of predefined dictionaries 
+to recognize word boundaries. Second, we 
+revise and modify support vector ma-
+chine-based chunking model to label the 
+POS tag in the tagging task. Our method 
+in the WS task achieves moderately rank 
+among all participants, while in the POS 
+tagging task, it reaches very competitive 
+results. 
+ 
+1 

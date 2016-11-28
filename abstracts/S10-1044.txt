@@ -1,0 +1,20 @@
+
+We describe a WordNet-based system for
+the extraction of semantic relations be-
+tween pairs of nominals appearing in
+English texts. The system adopts a
+lightweight approach, based on training
+a Bayesian Network classifier using large
+sets of binary features. Our features con-
+sider: i) the context surrounding the an-
+notated nominals, and ii) different types
+of knowledge extracted from WordNet, in-
+cluding direct and explicit relations be-
+tween the annotated nominals, and more
+general and implicit evidence (e.g. seman-
+tic boundary collocations). The system
+achieved a Macro-averaged F1 of 68.02%
+on the ?Multi-Way Classification of Se-
+mantic Relations Between Pairs of Nom-
+inals? task (Task #8) at SemEval-2010.
+1 

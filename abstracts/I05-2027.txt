@@ -1,0 +1,25 @@
+ 
+In this paper, we present the 
+HybridTrim system which uses a 
+machine learning technique to combine 
+linguistic, statistical and positional 
+information to identify topic labels for 
+headlines in a text. We compare our 
+system with the Topiary system which, 
+in contrast, uses a statistical learning 
+approach to finding topic descriptors 
+for headlines. The Topiary system, 
+developed at the University of 
+Maryland with BBN, was the top 
+performing headline generation system 
+at DUC 2004. Topiary-style headlines 
+consist of a number of general topic 
+labels followed by a compressed 
+version of the lead sentence of a news 
+story. The Topiary system uses a 
+statistical learning approach to finding 
+topic labels. The performance of these 
+systems is evaluated using the ROUGE 
+evaluation suite on the DUC 2004 news 
+stories collection. 
+1 

@@ -1,0 +1,25 @@
+
+In situated dialogue, because humans and
+agents have mismatched capabilities of
+perceiving the shared physical world, ref-
+erential grounding becomes difficult. Hu-
+mans and agents will need to make ex-
+tra efforts by collaborating with each other
+to mediate a shared perceptual basis and
+to come to a mutual understanding of in-
+tended referents in the environment. In
+this paper, we have extended our previous
+graph-matching based approach to explic-
+itly incorporate collaborative referring be-
+haviors into the referential grounding al-
+gorithm. In addition, hypergraph-based
+representations have been used to account
+for group descriptions that are likely to oc-
+cur in spatial communications. Our empir-
+ical results have shown that incorporating
+the most prevalent pattern of collaboration
+with our hypergraph-based approach sig-
+nificantly improves reference resolution in
+situated dialogue by an absolute gain of
+over 18%.
+1 

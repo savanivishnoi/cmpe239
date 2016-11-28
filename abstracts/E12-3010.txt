@@ -1,0 +1,22 @@
+
+Null subjects are non overtly expressed
+subject pronouns found in pro-drop lan-
+guages such as Italian and Spanish. In
+this study we quantify and compare the oc-
+currence of this phenomenon in these two
+languages. Next, we evaluate null sub-
+jects? translation into French, a ?non pro-
+drop? language. We use the Europarl cor-
+pus to evaluate two MT systems on their
+performance regarding null subject trans-
+lation: Its-2, a rule-based system devel-
+oped at LATL, and a statistical system
+built using the Moses toolkit. Then we
+add a rule-based preprocessor and a sta-
+tistical post-editor to the Its-2 translation
+pipeline. A second evaluation of the im-
+proved Its-2 system shows an average in-
+crease of 15.46% in correct pro-drop trans-
+lations for Italian-French and 12.80% for
+Spanish-French.
+1 

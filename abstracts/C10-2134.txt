@@ -1,0 +1,23 @@
+
+This work presents a study to bridge topic
+modeling and personalized search. A
+probabilistic topic model is used to extract
+topics from user search history. These
+topics can be seen as a roughly summary
+of user preferences and further treated as
+feedback within the KL-Divergence re-
+trieval model to estimate a more accurate
+query model. The topics more relevant
+to current query contribute more in updat-
+ing the query model which helps to dis-
+tinguish between relevant and irrelevant
+parts and filter out noise in user search
+history. We designed task oriented user
+study and the results show that: (1) The
+extracted topics can be used to cluster
+queries according to topics. (2) The pro-
+posed approach improves ranking qual-
+ity consistently for queries matching user
+past interests and is robust for queries not
+matching past interests.
+1 

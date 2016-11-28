@@ -1,0 +1,20 @@
+
+To date, parsers have made limited use of se-
+mantic information, but there is evidence to
+suggest that semantic features can enhance
+parse disambiguation. This paper shows that
+semantic classes help to obtain significant im-
+provement in both parsing and PP attachment
+tasks. We devise a gold-standard sense- and
+parse tree-annotated dataset based on the in-
+tersection of the Penn Treebank and SemCor,
+and experiment with different approaches to
+both semantic representation and disambigua-
+tion. For the Bikel parser, we achieved a
+maximal error reduction rate over the base-
+line parser of 6.9% and 20.5%, for parsing and
+PP-attachment respectively, using an unsuper-
+vised WSD strategy. This demonstrates that
+word sense information can indeed enhance
+the performance of syntactic disambiguation.
+1 

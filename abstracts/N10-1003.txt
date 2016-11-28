@@ -1,0 +1,20 @@
+
+We show that the automatically induced latent
+variable grammars of Petrov et al (2006) vary
+widely in their underlying representations, de-
+pending on their EM initialization point. We
+use this to our advantage, combining multiple
+automatically learned grammars into an un-
+weighted product model, which gives signif-
+icantly improved performance over state-of-
+the-art individual grammars. In our model,
+the probability of a constituent is estimated as
+a product of posteriors obtained from multi-
+ple grammars that differ only in the random
+seed used for initialization, without any learn-
+ing or tuning of combination weights. Despite
+its simplicity, a product of eight automatically
+learned grammars improves parsing accuracy
+from 90.2% to 91.8% on English, and from
+80.3% to 84.5% on German.
+1 

@@ -1,0 +1,22 @@
+
+Strategic business decision making in-
+volves the analysis of market forecasts.
+Today, the identification and aggregation
+of relevant market statements is done by
+human experts, often by analyzing doc-
+uments from the World Wide Web. We
+present an efficient information extrac-
+tion chain to automate this complex nat-
+ural language processing task and show
+results for the identification part. Based
+on time and money extraction, we iden-
+tify sentences that represent statements on
+revenue using support vector classifica-
+tion. We provide a corpus with German
+online news articles, in which more than
+2,000 such sentences are annotated by do-
+main experts from the industry. On the
+test data, our statement identification al-
+gorithm achieves an overall precision and
+recall of 0.86 and 0.87 respectively.
+1 

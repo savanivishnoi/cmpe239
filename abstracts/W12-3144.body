@@ -1,0 +1,18 @@
+
+This paper describes the phrase-based SMT
+systems developed for our participation
+in the WMT12 Shared Translation Task.
+Translations for English?German and
+English?French were generated using a
+phrase-based translation system which is
+extended by additional models such as
+bilingual, fine-grained part-of-speech (POS)
+and automatic cluster language models and
+discriminative word lexica. In addition, we
+explicitly handle out-of-vocabulary (OOV)
+words in German, if we have translations for
+other morphological forms of the same stem.
+Furthermore, we extended the POS-based
+reordering approach to also use information
+from syntactic trees.
+1 

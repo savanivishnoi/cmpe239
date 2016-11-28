@@ -1,0 +1,15 @@
+
+We have been investigating an interactive
+approach for Open-domain QA (ODQA)
+and have constructed a spoken interactive
+ODQA system, SPIQA. The system de-
+rives disambiguating queries (DQs) that
+draw out additional information. To test
+the efficiency of additional information re-
+quested by the DQs, the system recon-
+structs the user?s initial question by com-
+bining the addition information with ques-
+tion. The combination is then used for an-
+swer extraction. Experimental results re-
+vealed the potential of the generated DQs.
+1 

@@ -1,0 +1,14 @@
+
+We present a variant of phrase-based SMT that
+uses source-side parsing and a constituent re-
+ordering model based on word alignments in
+the word-aligned training corpus to predict hi-
+erarchical block-wise reordering of the input.
+Multiple possible translation orders are rep-
+resented compactly in a source order lattice.
+This source order lattice is then annotated with
+phrase-level translations to form a lattice of to-
+kens in the target language. Various feature
+functions are combined in a log-linear fashion
+to evaluate paths through that lattice.
+1 

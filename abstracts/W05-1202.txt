@@ -1,0 +1,18 @@
+
+This work explores computing distribu-
+tional similarity between sub-parses, i.e.,
+fragments of a parse tree, as an extension
+to general lexical distributional similarity
+techniques. In the same way that lexical
+distributional similarity is used to estimate
+lexical semantic similarity, we propose us-
+ing distributional similarity between sub-
+parses to estimate the semantic similarity of
+phrases. Such a technique will allow us to
+identify paraphrases where the component
+words are not semantically similar. We
+demonstrate the potential of the method by
+applying it to a small number of examples
+and showing that the paraphrases are more
+similar than the non-paraphrases.
+1 

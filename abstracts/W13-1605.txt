@@ -1,0 +1,28 @@
+
+To avoid a sarcastic message being understood
+in its unintended literal meaning, in microtexts
+such as messages on Twitter.com sarcasm is
+often explicitly marked with the hashtag ?#sar-
+casm?. We collected a training corpus of about
+78 thousand Dutch tweets with this hashtag.
+Assuming that the human labeling is correct
+(annotation of a sample indicates that about
+85% of these tweets are indeed sarcastic), we
+train a machine learning classifier on the har-
+vested examples, and apply it to a test set of
+a day?s stream of 3.3 million Dutch tweets.
+Of the 135 explicitly marked tweets on this
+day, we detect 101 (75%) when we remove the
+hashtag. We annotate the top of the ranked list
+of tweets most likely to be sarcastic that do not
+have the explicit hashtag. 30% of the top-250
+ranked tweets are indeed sarcastic. Analysis
+shows that sarcasm is often signalled by hy-
+perbole, using intensifiers and exclamations;
+in contrast, non-hyperbolic sarcastic messages
+often receive an explicit marker. We hypothe-
+size that explicit markers such as hashtags are
+the digital extralinguistic equivalent of non-
+verbal expressions that people employ in live
+interaction when conveying sarcasm.
+1 

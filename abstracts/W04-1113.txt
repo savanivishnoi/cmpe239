@@ -1,0 +1,27 @@
+ 
+A challenging task in Chinese collocation 
+extraction is to improve both the precision and 
+recall rate. Most lexical statistical methods 
+including Xtract face the problem of unable to 
+extract  collocations with lower frequencies than 
+a given threshold. This paper presents a method 
+where HowNet is used to find synonyms using a 
+similarity function. Based on such synonym 
+information, we have successfully extracted 
+synonymous collocations which normally cannot 
+be extracted using the lexical statistical 
+approach. We applied synonyms mapping to 
+each headword to extract more synonymous 
+word bi-grams. Our evaluation over 60MB 
+tagged corpus shows that we can extract 
+synonymous collocations that occur with very 
+low frequency, sometimes even for collocations 
+that occur only once in the training set. 
+Comparing to a collocation extraction system 
+based on Xtract, we have reached the precision 
+rate of 43% on word bi-grams for a set of 9 
+headwords, almost 50% improvement from 
+precision rate of 30% in the Xtract system. 
+Furthermore, it  improves the recall rate of word 
+bi-gram collocation extraction by 30%. 
+1 

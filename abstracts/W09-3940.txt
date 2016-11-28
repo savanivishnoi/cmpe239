@@ -1,0 +1,19 @@
+
+We hypothesize that monitoring the accu-
+racy of the ?feeling of another?s know-
+ing? (FOAK) is a useful predictor of tu-
+torial dialogue system performance. We
+test this hypothesis in the context of a
+wizarded spoken dialogue tutoring system,
+where student learning is the primary per-
+formance metric. We first present our cor-
+pus, which has been annotated with re-
+spect to student correctness and uncer-
+tainty. We then discuss the derivation of
+FOAK measures from these annotations,
+for use in building predictive performance
+models. Our results show that monitoring
+the accuracy of FOAK is indeed predictive
+of student learning, both in isolation and in
+conjunction with other predictors.
+1 

@@ -1,0 +1,17 @@
+ 
+The paper presents an Expectation Maximiza-
+tion (EM) algorithm for automatic generation 
+of parallel and quasi-parallel data from any 
+degree of comparable corpora ranging from 
+parallel to weakly comparable. Specifically, 
+we address the problem of extracting related 
+textual units (documents, paragraphs or sen-
+tences) relying on the hypothesis that, in a 
+given corpus, certain pairs of translation 
+equivalents are better indicators of a correct 
+textual unit correspondence than other pairs of 
+translation equivalents. We evaluate our 
+method on mixed types of bilingual compara-
+ble corpora in six language pairs, obtaining 
+state of the art accuracy figures. 
+1 

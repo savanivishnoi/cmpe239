@@ -1,0 +1,16 @@
+
+One of the challenging tasks in the con-
+text of the Semantic Web is to automati-
+cally extract instances of binary relations
+from Web documents ? for example all
+pairs of a person and the corresponding
+birthdate. In this paper, we present LEILA,
+a system that can extract instances of ar-
+bitrary given binary relations from natu-
+ral language Web documents ? without
+human interaction. Different from previ-
+ous approaches, LEILA uses a deep syn-
+tactic analysis. This results in consistent
+improvements over comparable systems
+(such as e.g. Snowball or TextToOnto).
+1 

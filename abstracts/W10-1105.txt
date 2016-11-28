@@ -1,0 +1,23 @@
+
+This paper presents ongoing work on applica-
+tion of Information Extraction (IE) technology
+to domain of Public Health, in a real-world
+scenario. A central issue in IE is the quality
+of the results. We present two novel points.
+First, we distinguish the criteria for quality:
+the objective criteria that measure correctness
+of the system?s analysis in traditional terms
+(F-measure, recall and precision), and, on the
+other hand, subjective criteria that measure the
+utility of the results to the end-user.
+Second, to obtain measures of utility, we build
+an environment that allows users to interact
+with the system by rating the analyzed con-
+tent. We then build and compare several clas-
+sifiers that learn from the user?s responses to
+predict the relevance scores for new events.
+We conduct experiments with learning to pre-
+dict relevance, and discuss the results and their
+implications for text mining in the domain of
+Public Health.
+1 

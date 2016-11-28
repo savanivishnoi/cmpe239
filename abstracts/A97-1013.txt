@@ -1,0 +1,18 @@
+ 
+We describe the use of energy function op- 
+timisation in very shallow syntactic pars- 
+ing. The approach can use linguistic 
+rules and corpus-based statistics, so the 
+strengths of both linguistic and statisti- 
+cal approaches to NLP can be combined 
+in a single framework. The rules are con- 
+textual constraints for resolving syntactic 
+ambiguities expressed as alternative tags, 
+and the statistical language model consists 
+of corpus-based n-grams of syntactic tags. 
+The success of the hybrid syntactic dis- 
+ambiguator is evaluated against a held-out 
+benchmark corpus. Also the contributions 
+of the linguistic and statistical language 
+models to the hybrid model are estimated. 
+1 

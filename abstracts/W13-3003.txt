@@ -1,0 +1,12 @@
+
+We study the complexity of uniform mem-
+bership for Linear Context-Free Rewriting
+Systems, i.e., the problem where we are
+given a string w and a grammar G and are
+asked whether w ? L(G). In particular,
+we use parameterized complexity theory
+to investigate how the complexity depends
+on various parameters. While we focus
+primarily on rank and fan-out, derivation
+length is also considered.
+1 

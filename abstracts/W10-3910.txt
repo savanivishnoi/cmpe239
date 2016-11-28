@@ -1,0 +1,19 @@
+
+In this paper, we address the problem of
+discovering coreference relations between
+formulas and the surrounding text. The
+task is different from traditional coref-
+erence resolution because of the unique
+structure of the formulas. In this paper, we
+present an approach, which we call ?CDF
+(Concept Description Formula)?, for min-
+ing coreference relations between formu-
+las and the concepts that refer to them.
+Using Wikipedia articles as a target cor-
+pus, our approach is based on surface level
+text matching between formulas and text,
+as well as patterns that represent relation-
+ships between them. The results showed
+the potential of our approach for formulas
+and text coreference mining.
+1 

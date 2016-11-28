@@ -1,0 +1,20 @@
+
+In this paper, we describe the machine
+translation system in the evaluation cam-
+paign of the Fourth Workshop on Statisti-
+cal Machine Translation at EACL 2009.
+We describe the modular design of our
+multi-engine MT system with particular
+focus on the components used in this par-
+ticipation.
+We participated in the translation task
+for the following translation directions:
+French?English and English?French, in
+which we employed our multi-engine ar-
+chitecture to translate. We also partic-
+ipated in the system combination task
+which was carried out by the MBR de-
+coder and Confusion Network decoder.
+We report results on the provided devel-
+opment and test sets.
+1 

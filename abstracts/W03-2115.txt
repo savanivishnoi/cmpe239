@@ -1,0 +1,24 @@
+
+In this paper we present a contextual ex-
+tension to ONTOSCORE, a system for
+scoring sets of concepts on the basis of
+an ontology. We apply the contextually
+enhanced system to the task of scoring
+alternative speech recognition hypothe-
+ses (SRH) in terms of their semantic co-
+herence. We conducted several annota-
+tion experiments and showed that human
+annotators can reliably differentiate be-
+tween semantically coherent and incoher-
+ent speech recognition hypotheses (both
+with and without discourse context). We
+also showed, that annotators can reliably
+identify the overall best hypothesis from
+a given n-best list. While the original
+ONTOSCORE system correctly assigns the
+highest score to 84.06% of the corpus,
+the inclusion of the conceptual context in-
+creases the number of correct classifica-
+tions to yield 86.76%, given a baseline of
+63.91% in both cases.
+1 

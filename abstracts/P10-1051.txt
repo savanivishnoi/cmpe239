@@ -1,0 +1,18 @@
+
+We combine two complementary ideas
+for learning supertaggers from highly am-
+biguous lexicons: grammar-informed tag
+transitions and models minimized via in-
+teger programming. Each strategy on its
+own greatly improves performance over
+basic expectation-maximization training
+with a bitag Hidden Markov Model, which
+we show on the CCGbank and CCG-TUT
+corpora. The strategies provide further er-
+ror reductions when combined. We de-
+scribe a new two-stage integer program-
+ming strategy that efficiently deals with
+the high degree of ambiguity on these
+datasets while obtaining the full effect of
+model minimization.
+1 

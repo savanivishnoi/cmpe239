@@ -1,0 +1,21 @@
+
+This paper describes the incremental hy-
+pothesis alignment algorithm used in the
+BBN submissions to the WMT09 system
+combination task. The alignment algo-
+rithm used a sentence specific alignment
+order, flexible matching, and new shift
+heuristics. These refinements yield more
+compact confusion networks compared to
+using the pair-wise or incremental TER
+alignment algorithms. This should reduce
+the number of spurious insertions in the
+system combination output and the sys-
+tem combination weight tuning converges
+faster. System combination experiments
+on the WMT09 test sets from five source
+languages to English are presented. The
+best BLEU scores were achieved by comb-
+ing the English outputs of three systems
+from all five source languages.
+1 

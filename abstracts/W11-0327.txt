@@ -1,0 +1,32 @@
+
+Natural language systems trained on labeled
+data from one domain do not perform well
+on other domains. Most adaptation algorithms
+proposed in the literature train a new model for
+the new domain using unlabeled data. How-
+ever, it is time consuming to retrain big mod-
+els or pipeline systems. Moreover, the domain
+of a new target sentence may not be known,
+and one may not have significant amount of
+unlabeled data for every new domain.
+To pursue the goal of an Open Domain NLP
+(train once, test anywhere), we propose ADUT
+(ADaptation Using label-preserving Transfor-
+mation), an approach that avoids the need for
+retraining and does not require knowledge of
+the new domain, or any data from it. Our ap-
+proach applies simple label-preserving trans-
+formations to the target text so that the trans-
+formed text is more similar to the training do-
+main; it then applies the existing model on
+the transformed sentences and combines the
+predictions to produce the desired prediction
+on the target text. We instantiate ADUT for
+the case of Semantic Role Labeling (SRL)
+and show that it compares favorably with ap-
+proaches that retrain their model on the target
+domain. Specifically, this ?on the fly? adapta-
+tion approach yields 13% error reduction for
+a single parse system when adapting from the
+news wire text to fiction.
+1 

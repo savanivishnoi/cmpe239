@@ -1,0 +1,18 @@
+
+In this paper we propose a novel statistical
+language model to capture long-range se-
+mantic dependencies. Specifically, we ap-
+ply the concept of semantic composition to
+the problem of constructing predictive his-
+tory representations for upcoming words.
+We also examine the influence of the un-
+derlying semantic space on the composi-
+tion task by comparing spatial semantic
+representations against topic-based ones.
+The composition models yield reductions
+in perplexity when combined with a stan-
+dard n-gram language model over the
+n-gram model alone. We also obtain per-
+plexity reductions when integrating our
+models with a structured language model.
+1 

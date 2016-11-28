@@ -1,0 +1,28 @@
+
+Research on the structure of dialogue has
+been hampered for years because large di-
+alogue corpora have not been available.
+This has impacted the dialogue research
+community?s ability to develop better the-
+ories, as well as good off-the-shelf tools
+for dialogue processing. Happily, an in-
+creasing amount of information and opin-
+ion exchange occur in natural dialogue in
+online forums, where people share their
+opinions about a vast range of topics. In
+particular we are interested in rejection
+in dialogue, also called disagreement and
+denial, where the size of available dia-
+logue corpora, for the first time, offers
+an opportunity to empirically test theo-
+retical accounts of the expression and in-
+ference of rejection in dialogue. In this
+paper, we test whether topic-independent
+features motivated by theoretical predic-
+tions can be used to recognize rejection in
+online forums in a topic-independent way.
+Our results show that our theoretically mo-
+tivated features achieve 66% accuracy, an
+improvement over a unigram baseline of
+an absolute 6%.
+1 

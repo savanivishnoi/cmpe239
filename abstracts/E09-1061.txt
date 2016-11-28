@@ -1,0 +1,18 @@
+
+We present a unified view of many trans-
+lation algorithms that synthesizes work on
+deductive parsing, semiring parsing, and
+efficient approximate search algorithms.
+This gives rise to clean analyses and com-
+pact descriptions that can serve as the ba-
+sis for modular implementations. We illus-
+trate this with several examples, showing
+how to build search spaces for several dis-
+parate phrase-based search strategies, inte-
+grate non-local features, and devise novel
+models. Although the framework is drawn
+from parsing and applied to translation, it
+is applicable to many dynamic program-
+ming problems arising in natural language
+processing and other areas.
+1 

@@ -1,0 +1,12 @@
+. A speech act is a linguistic action intended by a speaker. It is impor-
+tant to analyze the speech act for the dialogue understanding system because the 
+speech act of an utterance is closely tied with the user?s intention in the utter-
+ance. This paper proposes to use a speech acts hierarchy and a discourse stack 
+for improving the accuracy of classifiers in speech acts analysis. We first adopt 
+a hierarchical statistical technique called shrinkage to solve the data sparseness 
+problem. In addition, we use a discourse stack in order to easily apply discourse 
+structure information to the speech acts analysis. From the results of experi-
+ments, we observed that the proposed model made a significant improvement 
+for Korean speech acts analysis. Moreover, we found that it can be more useful 
+when training data is insufficient. 
+1   

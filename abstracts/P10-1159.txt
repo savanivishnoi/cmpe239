@@ -1,0 +1,18 @@
+
+We present a natural language genera-
+tion approach which models, exploits, and
+manipulates the non-linguistic context in
+situated communication, using techniques
+from AI planning. We show how to gen-
+erate instructions which deliberately guide
+the hearer to a location that is convenient
+for the generation of simple referring ex-
+pressions, and how to generate referring
+expressions with context-dependent adjec-
+tives. We implement and evaluate our
+approach in the framework of the Chal-
+lenge on Generating Instructions in Vir-
+tual Environments, finding that it performs
+well even under the constraints of real-
+time generation.
+1 

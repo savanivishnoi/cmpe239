@@ -1,0 +1,24 @@
+
+Our submission for this NLI shared task used
+for the most part standard features found in re-
+cent work. Our focus was instead on two other
+aspects of our system: at a high level, on pos-
+sible ways of constructing ensembles of multi-
+ple classifiers; and at a low level, on the gran-
+ularity of part-of-speech tags used as features.
+We found that the choice of ensemble com-
+bination method did not lead to much differ-
+ence in results, although exploiting the vary-
+ing behaviours of linear versus logistic regres-
+sion SVM classifiers could be promising in fu-
+ture work; but part-of-speech tagsets showed
+noticeable differences.
+We also note that the overall architecture, with
+its feature set and ensemble approach, had an
+accuracy of 83.1% on the test set when trained
+on both the training data and development data
+supplied, close to the best result of the task.
+This suggests that basically throwing together
+all the features of previous work will achieve
+roughly the state of the art.
+1 

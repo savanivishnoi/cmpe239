@@ -1,0 +1,14 @@
+ 
+We describe the methods and hardware that we are using 
+to produce a real-time demonstration f an integrated Spo- 
+ken Language System. We describe algorithms that greatly 
+reduce the computation needed to compute the N-Best sen- 
+tence hypotheses. To avoid grammar coverage problems we 
+use a fully-connected first-order statistical class grammar. 
+The speech-search algorithm is implemented ona board with 
+a single Intel i860 chip, which provides afactor of 5 speedup 
+over a SUN 4 for straight C code. The board plugs directly 
+into the VME bus of the SUN4, which controls the system 
+and contains the natural anguage system and application 
+back end. 
+1. 

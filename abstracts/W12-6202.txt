@@ -1,0 +1,22 @@
+
+Previous work for encoding Optimality The-
+ory grammars as finite-state transducers has
+included two prominent approaches: the so-
+called ?counting? method where constraint vi-
+olations are counted and filtered out to some
+set limit of approximability in a finite-state
+system, and the ?matching? method, where
+constraint violations in alternative strings are
+matched through violation alignment in order
+to remove suboptimal candidates. In this pa-
+per we extend the matching approach to show
+how not only markedness constraints, but also
+faithfulness constraints and the interaction of
+the two types of constraints can be captured
+by the matching method. This often produces
+exact and small FST representations for OT
+grammars which we illustrate with two practi-
+cal example grammars. We also provide a new
+proof of nonregularity of simple OT gram-
+mars.
+1 

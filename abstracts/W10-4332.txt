@@ -1,0 +1,29 @@
+
+Building an industrial spoken dialogue
+system (SDS) requires several iterations
+of design, deployment, test, and evalua-
+tion phases. Most industrial SDS develop-
+ers use a graphical tool to design dialogue
+strategies. They are critical to get good
+system performances, but their evaluation
+is not part of the design phase.
+We propose integrating dialogue logs into
+the design tool so that developers can
+jointly monitor call flows and their asso-
+ciated Key Performance Indicators (KPI).
+It drastically shortens the complete devel-
+opment cycle, and offers a new design ex-
+perience.
+Orange Dialogue Design Studio (ODDS),
+our design tool, allows developers to de-
+sign several alternatives and compare their
+relative performances. It helps the SDS
+developers to understand and analyse the
+user behaviour, with the assistance of a re-
+inforcement learning algorithm. The SDS
+developers can thus confront the different
+KPI and control the further SDS choices
+by updating the call flow alternatives.
+Index Terms : Dialogue Design, Online Learning,
+Spoken Dialogue Systems, Monitoring Tools
+1 

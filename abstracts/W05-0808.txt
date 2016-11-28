@@ -1,0 +1,29 @@
+ 
+ 
+In this paper we describe an alignment 
+system that aligns English-Hindi texts 
+at the sentence and word level in 
+parallel corpora. We describe a simple 
+sentence length approach to sentence 
+alignment and a hybrid, multi-feature 
+approach to perform word alignment. 
+We use regression techniques in order 
+to learn parameters which characterise 
+the relationship between the lengths of 
+two sentences in parallel text.  We use 
+a multi-feature approach with 
+dictionary lookup as a primary 
+technique and other methods such as 
+local word grouping, transliteration 
+similarity (edit-distance) and a nearest 
+aligned neighbours approach to deal 
+with many-to-many word alignment.  
+Our experiments are based on the 
+EMILLE (Enabling Minority Language 
+Engineering) corpus.  We obtained 
+99.09% accuracy for many-to-many 
+sentence alignment and 77% precision 
+and 67.79% recall for many-to-many 
+word alignment. 
+ 
+1 

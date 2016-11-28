@@ -1,0 +1,19 @@
+
+We present a novel adaptive clustering model
+for coreference resolution in which the expert
+rules of a state of the art deterministic sys-
+tem are used as features over pairs of clus-
+ters. A significant advantage of the new ap-
+proach is that the expert rules can be eas-
+ily augmented with new semantic features.
+We demonstrate this advantage by incorporat-
+ing semantic compatibility features for neutral
+pronouns computed from web n-gram statis-
+tics. Experimental results show that the com-
+bination of the new features with the expert
+rules in the adaptive clustering approach re-
+sults in an overall performance improvement,
+and over 5% improvement in F1 measure for
+the target pronouns when evaluated on the
+ACE 2004 newswire corpus.
+1 

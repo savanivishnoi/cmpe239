@@ -1,0 +1,22 @@
+
+This paper presents a novel, ranking-style
+word segmentation approach, called RSVM-
+Seg, which is well tailored to Chinese informa-
+tion retrieval(CIR). This strategy makes seg-
+mentation decision based on the ranking of the
+internal associative strength between each pair
+of adjacent characters of the sentence. On the
+training corpus composed of query items, a
+ranking model is learned by a widely-used tool
+Ranking SVM, with some useful statistical
+features, such as mutual information, differ-
+ence of t-test, frequency and dictionary infor-
+mation. Experimental results show that, this
+method is able to eliminate overlapping am-
+biguity much more effectively, compared to
+the current word segmentation methods. Fur-
+thermore, as this strategy naturally generates
+segmentation results with different granular-
+ity, the performance of CIR systems is im-
+proved and achieves the state of the art.
+1 

@@ -1,0 +1,34 @@
+
+Example-based parsing has already been
+proposed in literature. In particular, at-
+tempts are being made to develop tech-
+niques for language pairs where the source
+and target languages are different, e.g.
+Direct Projection Algorithm (Hwa et al,
+2005). This enables one to develop parsed
+corpus for target languages having fewer
+linguistic tools with the help of a resource-
+rich source language. The DPA algo-
+rithm works on the assumption of Di-
+rect Correspondence which simply means
+that the relation between two words of
+the source language sentence can be pro-
+jected directly between the correspond-
+ing words of the parallel target language
+sentence. However, we find that this as-
+sumption does not hold good all the time.
+This leads to wrong parsed structure of the
+target language sentence. As a solution
+we propose an algorithm called pseudo
+DPA (pDPA) that can work even if Direct
+Correspondence assumption is not guaran-
+teed. The proposed algorithm works in a
+recursive manner by considering the em-
+bedded phrase structures from outermost
+level to the innermost. The present work
+discusses the pDPA algorithm, and illus-
+trates it with respect to English-Hindi lan-
+guage pair. Link Grammar based pars-
+ing has been considered as the underlying
+parsing scheme for this work.
+1 

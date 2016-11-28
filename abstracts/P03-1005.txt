@@ -1,0 +1,17 @@
+
+This paper proposes the ?Hierarchical Di-
+rected Acyclic Graph (HDAG) Kernel? for
+structured natural language data. The
+HDAG Kernel directly accepts several lev-
+els of both chunks and their relations,
+and then efficiently computes the weighed
+sum of the number of common attribute
+sequences of the HDAGs. We applied the
+proposed method to question classifica-
+tion and sentence alignment tasks to eval-
+uate its performance as a similarity mea-
+sure and a kernel function. The results
+of the experiments demonstrate that the
+HDAG Kernel is superior to other kernel
+functions and baseline methods.
+1 

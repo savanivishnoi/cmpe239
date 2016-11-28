@@ -1,0 +1,26 @@
+
+Recognition errors hinder the prolifera-
+tion of speech recognition (SR) systems.
+Based on the observation that recogni-
+tion errors may result in ungrammatical
+sentences, especially in dictation appli-
+cation where an acceptable level of ac-
+curacy of generated documents is indis-
+pensable, we propose to incorporate two
+kinds of linguistic features into error de-
+tection: lexical features of words, and syn-
+tactic features from a robust lexicalized
+parser. Transformation-based learning is
+chosen to predict recognition errors by in-
+tegrating word confidence scores with lin-
+guistic features. The experimental results
+on a dictation data corpus show that lin-
+guistic features alone are not as useful as
+word confidence scores in detecting er-
+rors. However, linguistic features provide
+complementary information when com-
+bined with word confidence scores, which
+collectively reduce the classification error
+rate by 12.30% and improve the F measure
+by 53.62%.
+1 

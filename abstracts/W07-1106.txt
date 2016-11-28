@@ -1,0 +1,18 @@
+
+Much work on idioms has focused on type
+identification, i.e., determining whether a se-
+quence of words can form an idiomatic ex-
+pression. Since an idiom type often has a
+literal interpretation as well, token classifi-
+cation of potential idioms in context is criti-
+cal for NLP. We explore the use of informa-
+tive prior knowledge about the overall syn-
+tactic behaviour of a potentially-idiomatic
+expression (type-based knowledge) to de-
+termine whether an instance of the expres-
+sion is used idiomatically or literally (token-
+based knowledge). We develop unsuper-
+vised methods for the task, and show that
+their performance is comparable to that of
+state-of-the-art supervised techniques.
+1 

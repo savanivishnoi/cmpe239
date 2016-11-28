@@ -1,0 +1,19 @@
+ 
+ 
+NRC?s Portage system participated in the Eng-
+lish-French (E-F) and French-English (F-E) 
+translation tasks of the ACL WMT 2010 eval-
+uation. The most notable improvement over 
+earlier versions of Portage is an efficient im-
+plementation of lattice MERT. While Portage 
+has typically performed well in Chinese to 
+English MT evaluations, most recently in the 
+NIST09 evaluation, our participation in WMT 
+2010 revealed some interesting differences be-
+tween Chinese-English and E-F/F-E transla-
+tion, and alerted us to certain weak spots in 
+our system. Most of this paper discusses the 
+problems we found in our system and ways of 
+fixing them. We learned several lessons that 
+we think will be of general interest.  
+1 

@@ -1,0 +1,19 @@
+
+Identifying peer-review helpfulness is an im-
+portant task for improving the quality of feed-
+back received by students, as well as for help-
+ing students write better reviews. As we tailor
+standard product review analysis techniques to
+our peer-review domain, we notice that peer-
+review helpfulness differs not only between
+students and experts but also between types
+of experts. In this paper, we investigate how
+different types of perceived helpfulness might
+influence the utility of features for automatic
+prediction. Our feature selection results show
+that certain low-level linguistic features are
+more useful for predicting student perceived
+helpfulness, while high-level cognitive con-
+structs are more effective in modeling experts?
+perceived helpfulness.
+1 

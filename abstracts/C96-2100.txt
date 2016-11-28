@@ -1,0 +1,22 @@
+ 
+A desired property of a measure of 
+connective strength in bigrams is that 
+the measure should be insensitive to 
+corpus size. This paper investigates 
+the stability of three different measures 
+over text genres and expansion of the 
+corpus. The measures are (1) the 
+commonly used mutual information, 
+(2) the difference in mutual informa- 
+tion, and (3) raw occurrence. Mutual 
+information is further compared to 
+using knowledge about genres to re- 
+move overlap between genres. This 
+last approach considers the difference 
+between two products of the same 
+process (human text-generation) con- 
+strained by different genres. The can- 
+cellation of overlap seems to provide 
+the most specific word pairs for each 
+genre. 
+1 

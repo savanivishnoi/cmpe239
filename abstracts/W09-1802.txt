@@ -1,0 +1,21 @@
+
+We present an Integer Linear Program for
+exact inference under a maximum coverage
+model for automatic summarization. We com-
+pare our model, which operates at the sub-
+sentence or ?concept?-level, to a sentence-
+level model, previously solved with an ILP.
+Our model scales more efficiently to larger
+problems because it does not require a
+quadratic number of variables to address re-
+dundancy in pairs of selected sentences. We
+also show how to include sentence compres-
+sion in the ILP formulation, which has the
+desirable property of performing compression
+and sentence selection simultaneously. The
+resulting system performs at least as well as
+the best systems participating in the recent
+Text Analysis Conference, as judged by a va-
+riety of automatic and manual content-based
+metrics.
+1 

@@ -1,0 +1,15 @@
+
+This paper describes NaCTeM entries for
+the Cancer Genetics (CG) and Pathway
+Curation (PC) tasks in the BioNLP Shared
+Task 2013. We have applied a state-of-
+the-art event extraction system EventMine
+to the tasks in two different settings: a
+single-corpus setting for the CG task and
+a stacking setting for the PC task. Event-
+Mine was applicable to the two tasks with
+simple task specific configuration, and it
+produced a reasonably high performance,
+positioning second in the CG task and first
+in the PC task.
+1 

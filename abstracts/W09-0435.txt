@@ -1,0 +1,23 @@
+
+In this paper we describe a new approach
+to model long-range word reorderings in
+statistical machine translation (SMT). Un-
+til now, most SMT approaches are only
+able to model local reorderings. But even
+the word order of related languages like
+German and English can be very different.
+In recent years approaches that reorder the
+source sentence in a preprocessing step
+to better match target sentences according
+to POS(Part-of-Speech)-based rules have
+been applied successfully. We enhance
+this approach to model long-range reorder-
+ings by introducing discontinuous rules.
+We tested this new approach on a German-
+English translation task and could signifi-
+cantly improve the translation quality, by
+up to 0.8 BLEU points, compared to a sys-
+tem which already uses continuous POS-
+based rules to model short-range reorder-
+ings.
+1 

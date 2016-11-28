@@ -1,0 +1,22 @@
+
+In this paper we explore the utility of sen-
+timent analysis and semantic word classes
+for improving why-question answering on a
+large-scale web corpus. Our work is moti-
+vated by the observation that a why-question
+and its answer often follow the pattern that if
+something undesirable happens, the reason is
+also often something undesirable, and if some-
+thing desirable happens, the reason is also of-
+ten something desirable. To the best of our
+knowledge, this is the first work that intro-
+duces sentiment analysis to non-factoid ques-
+tion answering. We combine this simple idea
+with semantic word classes for ranking an-
+swers to why-questions and show that on a set
+of 850 why-questions our method gains 15.2%
+improvement in precision at the top-1 answer
+over a baseline state-of-the-art QA system that
+achieved the best performance in a shared task
+of Japanese non-factoid QA in NTCIR-6.
+1 

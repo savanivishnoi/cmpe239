@@ -1,0 +1,14 @@
+
+This paper describes a project tagging a sponta-
+neous speech corpus with morphological infor-
+mation such as word segmentation and parts-of-
+speech. We use a morphological analysis system
+based on a maximum entropy model, which is
+independent of the domain of corpora. In this
+paper we show the tagging accuracy achieved by
+using the model and discuss problems in tagging
+the spontaneous speech corpus. We also show
+that a dictionary developed for a corpus on a
+certain domain is helpful for improving accu-
+racy in analyzing a corpus on another domain.
+1 

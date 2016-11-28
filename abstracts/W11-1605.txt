@@ -1,0 +1,17 @@
+
+In our work we use an existing classifier to
+quantify and analyze the level of specific and
+general content in news documents and their
+human and automatic summaries. We dis-
+cover that while human abstracts contain a
+more balanced mix of general and specific
+content, automatic summaries are overwhelm-
+ingly specific. We also provide an analysis of
+summary specificity and the summary qual-
+ity scores assigned by people. We find that
+too much specificity could adversely affect the
+quality of content in the summary. Our find-
+ings give strong evidence for the need for a
+new task in abstractive summarization: identi-
+fication and generation of general sentences.
+1 

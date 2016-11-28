@@ -1,0 +1,26 @@
+
+We present an investigation of recently
+proposed character and word sequence
+kernels for the task of authorship attribu-
+tion based on relatively short texts. Per-
+formance is compared with two corre-
+sponding probabilistic approaches based
+on Markov chains. Several configurations
+of the sequence kernels are studied on a
+relatively large dataset (50 authors), where
+each author covered several topics. Utilis-
+ing Moffat smoothing, the two probabilis-
+tic approaches obtain similar performance,
+which in turn is comparable to that of char-
+acter sequence kernels and is better than
+that of word sequence kernels. The results
+further suggest that when using a realistic
+setup that takes into account the case of
+texts which are not written by any hypoth-
+esised authors, the amount of training ma-
+terial has more influence on discrimination
+performance than the amount of test mate-
+rial. Moreover, we show that the recently
+proposed author unmasking approach is
+less useful when dealing with short texts.
+1 

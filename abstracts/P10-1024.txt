@@ -1,0 +1,14 @@
+
+The core-adjunct argument distinction is a
+basic one in the theory of argument struc-
+ture. The task of distinguishing between
+the two has strong relations to various ba-
+sic NLP tasks such as syntactic parsing,
+semantic role labeling and subcategoriza-
+tion acquisition. This paper presents a
+novel unsupervised algorithm for the task
+that uses no supervised models, utilizing
+instead state-of-the-art syntactic induction
+algorithms. This is the first work to tackle
+this task in a fully unsupervised scenario.
+1 

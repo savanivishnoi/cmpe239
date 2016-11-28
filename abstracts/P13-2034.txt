@@ -1,0 +1,24 @@
+
+We present an efficient approach for
+broadcast news story segmentation using a
+manifold learning algorithm on latent top-
+ic distributions. The latent topic distribu-
+tion estimated by Latent Dirichlet Alloca-
+tion (LDA) is used to represent each text
+block. We employ Laplacian Eigenmap-
+s (LE) to project the latent topic distribu-
+tions into low-dimensional semantic rep-
+resentations while preserving the intrinsic
+local geometric structure. We evaluate t-
+wo approaches employing LDA and prob-
+abilistic latent semantic analysis (PLSA)
+distributions respectively. The effects of
+different amounts of training data and dif-
+ferent numbers of latent topics on the two
+approaches are studied. Experimental re-
+sults show that our proposed LDA-based
+approach can outperform the correspond-
+ing PLSA-based approach. The proposed
+approach provides the best performance
+with the highest F1-measure of 0.7860.
+1 

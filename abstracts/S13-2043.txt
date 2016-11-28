@@ -1,0 +1,17 @@
+
+We introduce Peripheral Diversity (PD) as a
+knowledge-based approach to achieve multi-
+lingual Word Sense Disambiguation (WSD).
+PD exploits the frequency and diverse use
+of word senses in semantic subgraphs de-
+rived from larger sense inventories such as
+BabelNet, Wikipedia, and WordNet in order
+to achieve WSD. PD?s f -measure scores for
+SemEval 2013 Task 12 outperform the Most
+Frequent Sense (MFS) baseline for two of
+the five languages: English, French, German,
+Italian, and Spanish. Despite PD remain-
+ing under-developed and under-explored, it
+demonstrates that it is robust, competitive, and
+encourages development.
+1 

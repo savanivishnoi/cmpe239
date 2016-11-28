@@ -1,0 +1,15 @@
+
+This paper presents and compares WordNet-
+based and distributional similarity approaches.
+The strengths and weaknesses of each ap-
+proach regarding similarity and relatedness
+tasks are discussed, and a combination is pre-
+sented. Each of our methods independently
+provide the best results in their class on the
+RG and WordSim353 datasets, and a super-
+vised combination of them yields the best pub-
+lished results on all datasets. Finally, we pio-
+neer cross-lingual similarity, showing that our
+methods are easily adapted for a cross-lingual
+task with minor losses.
+1 

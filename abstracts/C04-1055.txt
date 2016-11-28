@@ -1,0 +1,9 @@
+
+We describe a simple approach for integrating
+shallow and deep parsing. We use phrase struc-
+ture bracketing obtained from the Collins parser
+as filters to guide deep parsing. Our exper-
+iments demonstrate that our technique yields
+substantial gains in speed along with modest
+improvements in accuracy.
+1 

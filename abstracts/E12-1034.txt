@@ -1,0 +1,23 @@
+
+In this paper, we extend current state-of-the-
+art research on unsupervised acquisition of
+scripts, that is, stereotypical and frequently
+observed sequences of events. We design,
+evaluate and compare different methods for
+constructing models for script event predic-
+tion: given a partial chain of events in a
+script, predict other events that are likely
+to belong to the script. Our work aims
+to answer key questions about how best
+to (1) identify representative event chains
+from a source text, (2) gather statistics from
+the event chains, and (3) choose ranking
+functions for predicting new script events.
+We make several contributions, introducing
+skip-grams for collecting event statistics, de-
+signing improved methods for ranking event
+predictions, defining a more reliable evalu-
+ation metric for measuring predictiveness,
+and providing a systematic analysis of the
+various event prediction models.
+1 

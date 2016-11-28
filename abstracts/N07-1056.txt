@@ -1,0 +1,25 @@
+
+The task of selecting and ordering infor-
+mation appears in multiple contexts in text
+generation and summarization. For in-
+stance, methods for title generation con-
+struct a headline by selecting and order-
+ing words from the input text. In this pa-
+per, we investigate decoding methods that
+simultaneously optimize selection and or-
+dering preferences. We formalize decod-
+ing as a task of finding an acyclic path
+in a directed weighted graph. Since the
+problem is NP-hard, finding an exact so-
+lution is challenging. We describe a novel
+decoding method based on a randomized
+color-coding algorithm. We prove bounds
+on the number of color-coding iterations
+necessary to guarantee any desired likeli-
+hood of finding the correct solution. Our
+experiments show that the randomized de-
+coder is an appealing alternative to a range
+of decoding algorithms for selection-and-
+ordering problems, including beam search
+and Integer Linear Programming.
+1 

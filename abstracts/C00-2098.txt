@@ -1,0 +1,15 @@
+ 
+This paper describes a hybrid approach to 
+spontaneous speech parsing. The implelnented 
+parser uses an extended probabilistic LR parsing 
+model with rich context and its output is post- 
+processed by a symbolic tree transformation routine 
+that tries to eliminate systematic errors of the 
+parser. The parser has been trained for three 
+different languages and was successflflly integrated 
+in tile Verbmobil speech-to-speech translation 
+system. The parser achieves more than 90%/90% 
+labeled precision/recall on pmsed Verbmobil 
+utterances while 3% of German and 5% of all 
+English input caunot be parsed. 
+1 

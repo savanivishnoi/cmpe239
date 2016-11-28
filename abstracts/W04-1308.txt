@@ -1,0 +1,33 @@
+
+Mainstream linguistic theory has traditionally
+assumed that children come into the world
+with rich innate knowledge about language
+and grammar. More recently, computational
+work using distributional algorithms has
+shown that the information contained in the
+input is much richer than proposed by the na-
+tivist approach. However, neither of these ap-
+proaches has been developed to the point of
+providing detailed and quantitative predictions
+about the developmental data. In this paper,
+we champion a third approach, in which com-
+putational models learn from naturalistic input
+and produce utterances that can be directly
+compared with the utterances of language-
+learning children. We demonstrate the feasi-
+bility of this approach by showing how
+MOSAIC, a simple distributional analyser,
+simulates the optional-infinitive phenomenon
+in English, Dutch, and Spanish. The model ac-
+counts for young children?s tendency to use
+both correct finites and incorrect (optional) in-
+finitives in finite contexts, for the generality of
+this phenomenon across languages, and for the
+sparseness of other types of errors (e.g., word
+order errors). It thus shows how these phe-
+nomena, which have traditionally been taken
+as evidence for innate knowledge of Universal
+Grammar, can be explained in terms of a sim-
+ple distributional analysis of the language to
+which children are exposed.
+1 

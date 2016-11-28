@@ -1,0 +1,17 @@
+ 
+This paper explores the possibilities of 
+improving parsing results by combining 
+outputs of several parsers. To some ex-
+tent, we are porting the ideas of Hender-
+son and Brill (1999) to the world of 
+dependency structures. We differ from 
+them in exploring context features more 
+deeply. All our experiments were con-
+ducted on Czech but the method is lan-
+guage-independent. We were able to 
+significantly improve over the best pars-
+ing result for the given setting, known so 
+far. Moreover, our experiments show that 
+even parsers far below the state of the art 
+can contribute to the total improvement. 
+1 

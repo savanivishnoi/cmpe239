@@ -1,0 +1,21 @@
+ 
+Spoken language understanding is a critical 
+component of automated customer service ap-
+plications.  Creating effective SLU models is 
+inherently a data driven process and requires 
+considerable human intervention.  We de-
+scribe an interactive system for speech data 
+mining.  Using data visualization and interac-
+tive speech analysis, our system allows a User 
+Experience (UE) expert to browse and under-
+stand data variability quickly.  Supervised 
+machine learning techniques are used to cap-
+ture knowledge from the UE expert.  This cap-
+tured knowledge is used to build an initial 
+SLU model, an annotation guide, and a train-
+ing and testing system for the labelers.  Our 
+goal is to shorten the time to market by in-
+creasing the efficiency of the process and to 
+improve the quality of the call types, the call 
+routing, and the overall application. 
+1 

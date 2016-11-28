@@ -1,0 +1,24 @@
+
+A desirable quality of a coreference resolution
+system is the ability to handle transitivity con-
+straints, such that even if it places high like-
+lihood on a particular mention being corefer-
+ent with each of two other mentions, it will
+also consider the likelihood of those two men-
+tions being coreferent when making a final as-
+signment. This is exactly the kind of con-
+straint that integer linear programming (ILP)
+is ideal for, but, surprisingly, previous work
+applying ILP to coreference resolution has not
+encoded this type of constraint. We train a
+coreference classifier over pairs of mentions,
+and show how to encode this type of constraint
+on top of the probabilities output from our
+pairwise classifier to extract the most probable
+legal entity assignments. We present results
+on two commonly used datasets which show
+that enforcement of transitive closure consis-
+tently improves performance, including im-
+provements of up to 3.6% using the b3 scorer,
+and up to 16.5% using cluster f-measure.
+1 

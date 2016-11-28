@@ -1,0 +1,16 @@
+
+Word alignment is the problem of annotating
+parallel text with translational correspon-
+dence. Previous generative word alignment
+models have made structural assumptions
+such as the 1-to-1, 1-to-N, or phrase-based
+consecutive word assumptions, while previ-
+ous discriminative models have either made
+such an assumption directly or used features
+derived from a generative model making one
+of these assumptions. We present a new gen-
+erative alignment model which avoids these
+structural limitations, and show that it is
+effective when trained using both unsuper-
+vised and semi-supervised training methods.
+1 

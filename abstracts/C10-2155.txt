@@ -1,0 +1,24 @@
+
+This paper presents a new approach to im-
+proving relation extraction based on min-
+imally supervised learning. By adding
+some limited closed-world knowledge for
+confidence estimation of learned rules to
+the usual seed data, the precision of re-
+lation extraction can be considerably im-
+proved. Starting from an existing base-
+line system we demonstrate that utilizing
+limited closed world knowledge can ef-
+fectively eliminate ?dangerous? or plainly
+wrong rules during the bootstrapping pro-
+cess. The new method improves the re-
+liability of the confidence estimation and
+the precision value of the extracted in-
+stances. Although recall suffers to a cer-
+tain degree depending on the domain and
+the selected settings, the overall perfor-
+mance measured by F-score considerably
+improves. Finally we validate the adapt-
+ability of the best ranking method to a new
+domain and obtain promising results.
+1 

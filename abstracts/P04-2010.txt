@@ -1,0 +1,20 @@
+
+This paper presents a novel ensemble
+learning approach to resolving German
+pronouns. Boosting, the method in
+question, combines the moderately ac-
+curate hypotheses of several classifiers
+to form a highly accurate one. Exper-
+iments show that this approach is su-
+perior to a single decision-tree classi-
+fier. Furthermore, we present a stan-
+dalone system that resolves pronouns in
+unannotated text by using a fully auto-
+matic sequence of preprocessing mod-
+ules that mimics the manual annotation
+process. Although the system performs
+well within a limited textual domain,
+further research is needed to make it
+effective for open-domain question an-
+swering and text summarisation.
+1 

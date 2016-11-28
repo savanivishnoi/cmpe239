@@ -1,0 +1,21 @@
+
+This paper presents DEPEVAL(summ),
+a dependency-based metric for automatic
+evaluation of summaries. Using a rerank-
+ing parser and a Lexical-Functional Gram-
+mar (LFG) annotation, we produce a
+set of dependency triples for each sum-
+mary. The dependency set for each
+candidate summary is then automatically
+compared against dependencies generated
+from model summaries. We examine a
+number of variations of the method, in-
+cluding the addition of WordNet, par-
+tial matching, or removing relation la-
+bels from the dependencies. In a test
+on TAC 2008 and DUC 2007 data, DE-
+PEVAL(summ) achieves comparable or
+higher correlations with human judg-
+ments than the popular evaluation metrics
+ROUGE and Basic Elements (BE).
+1 

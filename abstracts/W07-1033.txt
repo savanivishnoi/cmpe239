@@ -1,0 +1,20 @@
+
+This paper investigates improvement of au-
+tomatic biomedical named-entity recogni-
+tion by applying a reranking method to the
+COLING 2004 JNLPBA shared task of bio-
+entity recognition. Our system has a com-
+mon reranking architecture that consists of a
+pipeline of two statistical classifiers which
+are based on log-linear models. The ar-
+chitecture enables the reranker to take ad-
+vantage of features which are globally de-
+pendent on the label sequences, and fea-
+tures from the labels of other sentences than
+the target sentence. The experimental re-
+sults show that our system achieves the la-
+beling accuracies that are comparable to the
+best performance reported for the same task,
+thanks to the 1.55 points of F-score improve-
+ment by the reranker.
+1 

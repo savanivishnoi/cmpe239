@@ -1,0 +1,22 @@
+ 
+Most current word prediction systems make 
+use of n-gram language models (LM) to es-
+timate the probability of the following word 
+in a phrase. In the past years there have 
+been many attempts to enrich such lan-
+guage models with further syntactic or se-
+mantic information. We want to explore the 
+predictive powers of Latent Semantic 
+Analysis (LSA), a method that has been 
+shown to provide reliable information on 
+long-distance semantic dependencies be-
+tween words in a context. We present and 
+evaluate here several methods that integrate 
+LSA-based information with a standard 
+language model: a semantic cache, partial 
+reranking, and different forms of interpola-
+tion. We found that all methods show sig-
+nificant improvements, compared to the 4-
+gram baseline, and most of them to a sim-
+ple cache model as well. 
+1 

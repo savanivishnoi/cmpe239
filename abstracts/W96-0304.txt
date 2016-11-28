@@ -1,0 +1,17 @@
+ 
+This paper discusses a case study in which lexical semantic techniques were used to implement a
+prototype scoring system for short-answer, f ee-responses to test questions. Scoring, as it is discussed in 
+this paper, is a kind of clasgification problem. Responses are automatically scored by being assigned 
+appropriate classifications. The ultimate goal is to develop a scoring system which can reliably analyze 
+response content. 
+For this study, a domain-specific, concept-based lexicon, and a concept grammar were built to represent 
+the response set, using 200 of 378 responses from the original data set. The lexicon is built, from 
+individual words, and 2-word and 3-word terms from the training data. The lexicon is best characterized 
+by Bergler's (1995) layered lexicon. Concept grammar rules are built by mapping concepts from the 
+lexicon onto the concept-structure patterns present in a set of training responses. Previous attempts to 
+score these responses using lexically-based statistical techniques and structure-independent content 
+grammars were not reliable (Burstein and Kaplan (1995)). The results discussed in this paper illustrate 
+the reliability of the lexical semantic methods used in the study. 
+20 
+! 
+1. 

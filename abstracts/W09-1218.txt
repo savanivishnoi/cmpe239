@@ -1,0 +1,18 @@
+
+This paper describes a system for syntactic-
+semantic dependency parsing for multiple lan-
+guages. The system consists of three parts: a
+state-of-the-art higher-order projective depen-
+dency parser for syntactic dependency pars-
+ing, a predicate classifier, and an argument
+classifier for semantic dependency parsing.
+For semantic dependency parsing, we ex-
+plore use of global features. All components
+are trained with an approximate max-margin
+learning algorithm.
+In the closed challenge of the CoNLL-2009
+Shared Task (Hajic? et al, 2009), our system
+achieved the 3rd best performances for En-
+glish and Czech, and the 4th best performance
+for Japanese.
+1 

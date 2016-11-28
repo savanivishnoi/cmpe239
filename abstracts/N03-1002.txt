@@ -1,0 +1,29 @@
+
+Named Entity (NE) extraction is an important
+subtask of document processing such as in-
+formation extraction and question answering.
+A typical method used for NE extraction of
+Japanese texts is a cascade of morphological
+analysis, POS tagging and chunking. However,
+there are some cases where segmentation gran-
+ularity contradicts the results of morphologi-
+cal analysis and the building units of NEs, so
+that extraction of some NEs are inherently im-
+possible in this setting. To cope with the unit
+problem, we propose a character-based chunk-
+ing method. Firstly, the input sentence is an-
+alyzed redundantly by a statistical morpholog-
+ical analyzer to produce multiple (n-best) an-
+swers. Then, each character is annotated with
+its character types and its possible POS tags of
+the top n-best answers. Finally, a support vec-
+tor machine-based chunker picks up some por-
+tions of the input sentence as NEs. This method
+introduces richer information to the chunker
+than previous methods that base on a single
+morphological analysis result. We apply our
+method to IREX NE extraction task. The cross
+validation result of the F-measure being 87.2
+shows the superiority and effectiveness of the
+method.
+1 

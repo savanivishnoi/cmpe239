@@ -1,0 +1,51 @@
+
+The phenomenon of meaning-preserving
+corrections given by an adult to a child
+involves several aspects: (1) the child
+produces an incorrect utterance, which
+the adult nevertheless understands, (2) the
+adult produces a correct utterance with the
+same meaning and (3) the child recognizes
+the adult utterance as having the same
+meaning as its previous utterance, and
+takes that as a signal that its previous ut-
+terance is not correct according to the adult
+grammar. An adequate model of this phe-
+nomenon must incorporate utterances and
+meanings, account for how the child and
+adult can understand each other?s mean-
+ings, and model how meaning-preserving
+corrections interact with the child?s in-
+creasing mastery of language production.
+In this paper we are concerned with how
+a learner who has learned to comprehend
+utterances might go about learning to pro-
+duce them.
+We consider a model of language com-
+prehension and production based on finite
+sequential and subsequential transducers.
+Utterances are modeled as finite sequences
+of words and meanings as finite sequences
+of predicates. Comprehension is inter-
+preted as a mapping of utterances to mean-
+ings and production as a mapping of mean-
+ings to utterances. Previous work (Castel-
+lanos et al, 1993; Pieraccini et al, 1993)
+has applied subsequential transducers and
+the OSTIA algorithm to the problem of
+learning to comprehend language; here we
+apply them to the problem of learning to
+produce language. For ten natural lan-
+guages and a limited domain of geomet-
+ric shapes and their properties and rela-
+tions we define sequential transducers to
+produce pairs consisting of an utterance
+in that language and its meaning. Using
+this data we empirically explore the prop-
+erties of the OSTIA and DD-OSTIA al-
+gorithms for the tasks of learning compre-
+hension and production in this domain, to
+assess whether they may provide a basis
+for a model of meaning-preserving correc-
+tions.
+1 

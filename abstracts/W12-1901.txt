@@ -1,0 +1,16 @@
+
+The frame-semantic parsing task is challeng-
+ing for supervised techniques, even for those
+few languages where relatively large amounts
+of labeled data are available. In this prelim-
+inary work, we consider unsupervised induc-
+tion of frame-semantic representations. An
+existing state-of-the-art Bayesian model for
+PropBank-style unsupervised semantic role
+induction (Titov and Klementiev, 2012) is ex-
+tended to jointly induce semantic frames and
+their roles. We evaluate the model perfor-
+mance both quantitatively and qualitatively by
+comparing the induced representation against
+FrameNet annotations.
+1 

@@ -1,0 +1,19 @@
+
+Semantic space models represent the meaning of a word as a vector
+in high-dimensional space. They offer a framework in which the mean-
+ing representation of a word can be computed from its context, but the
+question remains how they support inferences. While there has been
+some work on paraphrase-based inferences in semantic space, it is not
+clear how semantic space models would support inferences involving
+hyponymy, like horse ran ? animal moved. In this paper, we first dis-
+cuss what a point in semantic space stands for, contrasting semantic
+space with Ga?rdenforsian conceptual space. Building on this, we pro-
+pose an extension of the semantic space representation from a point
+to a region. We present a model for learning a region representation
+for word meaning in semantic space, based on the fact that points at
+close distance tend to represent similar meanings. We show that this
+model can be used to predict, with high precision, when a hyponymy-
+based inference rule is applicable. Moving beyond paraphrase-based
+and hyponymy-based inference rules, we last discuss in what way se-
+mantic space models can support inferences.
+1 

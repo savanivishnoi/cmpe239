@@ -1,0 +1,29 @@
+
+Route directions are natural language
+(NL) statements that specify, for a given
+navigational task and an automatically
+computed route representation, a se-
+quence of actions to be followed by the
+user to reach his or her goal. A corpus-
+based approach to generate route direc-
+tions involves (i) the selection of elements
+along the route that need to be mentioned,
+and (ii) the induction of a mapping from
+route elements to linguistic structures that
+can be used as a basis for NL generation.
+This paper presents an Expectation-Maxi-
+mization (EM) based algorithm that aligns
+geographical route representations with
+semantically annotated NL directions, as
+a basis for the above tasks. We formu-
+late one basic and two extended models,
+the latter capturing special properties of
+the route direction task. Although our
+current data set is small, both extended
+models achieve better results than the sim-
+ple model and a random baseline. The
+best results are achieved by a combination
+of both extensions, which outperform the
+random baseline and the simple model by
+more than an order of magnitude.
+1 

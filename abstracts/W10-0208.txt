@@ -1,0 +1,24 @@
+
+In this paper we present an evaluation of new 
+techniques for automatically detecting emo-
+tions in text. The study estimates categorical 
+model and dimensional model for the recogni-
+tion of four affective states: Anger, Fear, Joy, 
+and Sadness that are common emotions in 
+three datasets: SemEval-2007 ?Affective 
+Text?, ISEAR (International Survey on Emo-
+tion Antecedents and Reactions), and child-
+ren?s fairy tales. In the first model, WordNet-
+Affect is used as a linguistic lexical resource 
+and three dimensionality reduction techniques 
+are evaluated: Latent Semantic Analysis 
+(LSA), Probabilistic Latent Semantic Analysis 
+(PLSA), and Non-negative Matrix Factoriza-
+tion (NMF). In the second model, ANEW (Af-
+fective Norm for English Words), a normative 
+database with affective terms, is employed. 
+Experiments show that a categorical model us-
+ing NMF results in better performances for 
+SemEval and fairy tales, whereas a dimension-
+al model performs better with ISEAR.
+1 

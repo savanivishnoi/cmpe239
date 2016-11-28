@@ -1,0 +1,20 @@
+
+Structural information in web text pro-
+vides natural annotations for NLP prob-
+lems such as word segmentation and pars-
+ing. In this paper we propose a discrim-
+inative learning algorithm to take advan-
+tage of the linguistic knowledge in large
+amounts of natural annotations on the In-
+ternet. It utilizes the Internet as an external
+corpus with massive (although slight and
+sparse) natural annotations, and enables a
+classifier to evolve on the large-scaled and
+real-time updated web text. With Chinese
+word segmentation as a case study, exper-
+iments show that the segmenter enhanced
+with the Chinese wikipedia achieves sig-
+nificant improvement on a series of testing
+sets from different domains, even with a
+single classifier and local features.
+1 

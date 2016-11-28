@@ -1,0 +1,16 @@
+
+The class of Linear Inversion Transduction
+Grammars (LITGs) is introduced, and used to
+induce a word alignment over a parallel cor-
+pus. We show that alignment via Stochas-
+tic Bracketing LITGs is considerably faster
+than Stochastic Bracketing ITGs, while still
+yielding alignments superior to the widely-
+used heuristic of intersecting bidirectional
+IBM alignments. Performance is measured as
+the translation quality of a phrase-based ma-
+chine translation system built upon the word
+alignments, and an improvement of 2.85 BLEU
+points over baseline is noted for French?
+English.
+1 

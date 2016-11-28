@@ -1,0 +1,18 @@
+
+We present a treebank conversion
+method by which we construct an
+RMRS bank for HPSG parser evalu-
+ation from the TIGER Dependency
+Bank. Our method effectively per-
+forms automatic RMRS semantics
+construction from functional depen-
+dencies, following the semantic alge-
+bra of Copestake et al (2001). We
+present the semantics construction
+mechanism, and focus on some spe-
+cial phenomena. Automatic conver-
+sion is followed by manual valida-
+tion. First evaluation results yield
+high precision of the automatic se-
+mantics construction rules.
+1 

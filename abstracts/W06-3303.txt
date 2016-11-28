@@ -1,0 +1,40 @@
+s:
+Using the Gene Ontology for Subcellular Localization Prediction
+Alona Fyshe
+Department of Computing Science
+University of Alberta
+Edmonton, Alberta T6G 2E8
+alona@cs.ualberta.ca
+Duane Szafron
+Department of Computing Science
+University of Alberta
+Edmonton, Alberta T6G 2E8
+duane@cs.ualberta.ca
+Abstract
+The field of molecular biology is growing
+at an astounding rate and research findings
+are being deposited into public databases,
+such as Swiss-Prot. Many of the over
+200,000 protein entries in Swiss-Prot 49.1
+lack annotations such as subcellular lo-
+calization or function, but the vast major-
+ity have references to journal abstracts de-
+scribing related research. These abstracts
+represent a huge amount of information
+that could be used to generate annotations
+for proteins automatically. Training clas-
+sifiers to perform text categorization on
+abstracts is one way to accomplish this
+task. We present a method for improving
+text classification for biological journal
+abstracts by generating additional text fea-
+tures using the knowledge represented in
+a biological concept hierarchy (the Gene
+Ontology). The structure of the ontology,
+as well as the synonyms recorded in it, are
+leveraged by our simple technique to sig-
+nificantly improve the F-measure of sub-
+cellular localization text classifiers by as
+much as 0.078 and we achieve F-measures
+as high as 0.935.
+1 

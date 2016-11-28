@@ -1,0 +1,18 @@
+
+The limited coverage of lexical-semantic re-
+sources is a significant problem for NLP sys-
+tems which can be alleviated by automati-
+cally classifying the unknown words. Su-
+persense tagging assigns unknown nouns one
+of 26 broad semantic categories used by lex-
+icographers to organise their manual inser-
+tion into WORDNET. Ciaramita and Johnson
+(2003) present a tagger which uses synonym
+set glosses as annotated training examples. We
+describe an unsupervised approach, based on
+vector-space similarity, which does not require
+annotated examples but significantly outper-
+forms their tagger. We also demonstrate the use
+of an extremely large shallow-parsed corpus for
+calculating vector-space semantic similarity.
+1 

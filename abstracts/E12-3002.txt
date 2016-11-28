@@ -1,0 +1,14 @@
+
+Classifying text genres across languages
+can bring the benefits of genre classifi-
+cation to the target language without the
+costs of manual annotation. This article
+introduces the first approach to this task,
+which exploits text features that can be con-
+sidered stable genre predictors across lan-
+guages. My experiments show this method
+to perform equally well or better than
+full text translation combined with mono-
+lingual classification, while requiring fewer
+resources.
+1 

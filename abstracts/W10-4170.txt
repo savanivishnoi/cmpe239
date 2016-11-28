@@ -1,0 +1,17 @@
+ 
+This paper presents an unsupervised 
+method for automatic Chinese word 
+sense induction. The algorithm is based 
+on clustering the similar words according 
+to the contexts in which they occur. First, 
+the target word which needs to be 
+disambiguated is represented as the 
+vector of its contexts. Then, reconstruct 
+the matrix constituted by the vectors of 
+target words through singular value 
+decomposition (SVD) method, and use 
+the vectors to cluster the similar words. 
+Our system participants in CLP2010 
+back off task4-Chinese word sense 
+induction. 
+1 

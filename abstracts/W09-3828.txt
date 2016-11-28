@@ -1,0 +1,28 @@
+
+In this paper, we propose two methods for
+analyzing errors in parsing. One is to clas-
+sify errors into categories which grammar
+developers can easily associate with de-
+fects in grammar or a parsing model and
+thus its improvement. The other is to
+discover inter-dependencies among errors,
+and thus grammar developers can focus on
+errors which are crucial for improving the
+performance of a parsing model.
+The first method uses patterns of er-
+rors to associate them with categories of
+causes for those errors, such as errors in
+scope determination of coordination, PP-
+attachment, identification of antecedent of
+relative clauses, etc. On the other hand,
+the second method, which is based on re-
+parsing with one of observed errors cor-
+rected, assesses inter-dependencies among
+errors by examining which other errors
+were to be corrected as a result if a spe-
+cific error was corrected.
+Experiments show that these two meth-
+ods are complementary and by being com-
+bined, they can provide useful clues as to
+how to improve a given grammar.
+1 

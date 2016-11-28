@@ -1,0 +1,15 @@
+
+We describe the Uppsala University sys-
+tem for WMT13, for English-to-German
+translation. We use the Docent decoder,
+a local search decoder that translates at
+the document level. We add tunable dis-
+tortion limits, that is, soft constraints on
+the maximum distortion allowed, to Do-
+cent. We also investigate cleaning of the
+noisy Common Crawl corpus. We show
+that we can use alignment-based filtering
+for cleaning with good results. Finally we
+investigate effects of corpus selection for
+recasing.
+1 

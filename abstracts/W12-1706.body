@@ -1,0 +1,35 @@
+
+Experimental evidence demonstrates that syn-
+tactic structure influences human online sen-
+tence processing behavior. Despite this ev-
+idence, open questions remain: which type
+of syntactic structure best explains observed
+behavior?hierarchical or sequential, and lexi-
+calized or unlexicalized? Recently, Frank and
+Bod (2011) find that unlexicalized sequen-
+tial models predict reading times better than
+unlexicalized hierarchical models, relative to
+a baseline prediction model that takes word-
+level factors into account. They conclude that
+the human parser is insensitive to hierarchi-
+cal syntactic structure. We investigate these
+claims and find a picture more complicated
+than the one they present. First, we show that
+incorporating additional lexical n-gram prob-
+abilities estimated from several different cor-
+pora into the baseline model of Frank and Bod
+(2011) eliminates all differences in accuracy
+between those unlexicalized sequential and hi-
+erarchical models. Second, we show that lexi-
+calizing the hierarchical models used in Frank
+and Bod (2011) significantly improves pre-
+diction accuracy relative to the unlexicalized
+versions. Third, we show that using state-
+of-the-art lexicalized hierarchical models fur-
+ther improves prediction accuracy. Our results
+demonstrate that the claim of Frank and Bod
+(2011) that sequential models predict reading
+times better than hierarchical models is pre-
+mature, and also that lexicalization matters for
+prediction accuracy.
+1 

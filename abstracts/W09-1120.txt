@@ -1,0 +1,27 @@
+
+The average results obtained by unsupervised
+statistical parsers have greatly improved in the
+last few years, but on many specific sentences
+they are of rather low quality. The output of
+such parsers is becoming valuable for vari-
+ous applications, and it is radically less expen-
+sive to create than manually annotated training
+data. Hence, automatic selection of high qual-
+ity parses created by unsupervised parsers is
+an important problem.
+In this paper we present PUPA, a POS-based
+Unsupervised Parse Assessment algorithm.
+The algorithm assesses the quality of a parse
+tree using POS sequence statistics collected
+from a batch of parsed sentences. We eval-
+uate the algorithm by using an unsupervised
+POS tagger and an unsupervised parser, se-
+lecting high quality parsed sentences from En-
+glish (WSJ) and German (NEGRA) corpora.
+We show that PUPA outperforms the leading
+previous parse assessment algorithm for su-
+pervised parsers, as well as a strong unsuper-
+vised baseline. Consequently, PUPA allows
+obtaining high quality parses without any hu-
+man involvement.
+1 

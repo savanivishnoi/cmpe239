@@ -1,0 +1,28 @@
+ 
+Today's statistical machine translation 
+systems generalize poorly to new 
+domains. Even small shifts can cause 
+precipitous drops in translation quality. 
+Phrasal systems rely heavily, for both 
+reordering and contextual translation, on 
+long phrases that simply fail to match out-
+of-domain text. Hierarchical systems 
+attempt to generalize these phrases but 
+their learned rules are subject to severe 
+constraints. Syntactic systems can learn 
+lexicalized and unlexicalized rules, but the 
+joint modeling of lexical choice and 
+reordering can narrow the applicability of 
+learned rules. The treelet approach models 
+reordering separately from lexical choice, 
+using a discriminatively trained order 
+model, which allows  treelets to apply 
+broadly, and has shown better 
+generalization to new domains, but suffers 
+a factorially large search space. We 
+introduce a new reordering model based 
+on dependency order templates, and show 
+that it outperforms both phrasal and treelet 
+systems on in-domain and out-of-domain 
+text, while limiting the search space. 
+1 

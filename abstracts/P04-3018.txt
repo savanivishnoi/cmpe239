@@ -1,0 +1,14 @@
+
+This paper attempts to analyze and bound the utility
+of various structured and unstructured resources in
+Question Answering, independent of a specific sys-
+tem or component. We quantify the degree to which
+gazetteers, web resources, encyclopedia, web doc-
+uments and web-based query expansion can help
+Question Answering in general and specific ques-
+tion types in particular. Depending on which re-
+sources are used, the QA task may shift from com-
+plex answer-finding mechanisms to simpler data ex-
+traction methods followed by answer re-mapping in
+local documents.
+1 

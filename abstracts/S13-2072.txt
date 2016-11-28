@@ -1,0 +1,21 @@
+
+This paper describes our submission for Se-
+mEval2013 Task 2: Sentiment Analysis in
+Twitter. For the limited data condition we use
+a lexicon-based model. The model uses an af-
+fective lexicon automatically generated from a
+very large corpus of raw web data. Statistics
+are calculated over the word and bigram af-
+fective ratings and used as features of a Naive
+Bayes tree model. For the unconstrained data
+scenario we combine the lexicon-based model
+with a classifier built on maximum entropy
+language models and trained on a large exter-
+nal dataset. The two models are fused at the
+posterior level to produce a final output. The
+approach proved successful, reaching rank-
+ings of 9th and 4th in the twitter sentiment
+analysis constrained and unconstrained sce-
+nario respectively, despite using only lexical
+features.
+1 

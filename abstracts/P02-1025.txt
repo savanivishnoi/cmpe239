@@ -1,0 +1,23 @@
+
+We study the impact of richer syntac-
+tic dependencies on the performance of
+the structured language model (SLM)
+along three dimensions: parsing accu-
+racy (LP/LR), perplexity (PPL) and word-
+error-rate (WER, N-best re-scoring). We
+show that our models achieve an im-
+provement in LP/LR, PPL and/or WER
+over the reported baseline results us-
+ing the SLM on the UPenn Treebank
+and Wall Street Journal (WSJ) corpora,
+respectively. Analysis of parsing per-
+formance shows correlation between the
+quality of the parser (as measured by pre-
+cision/recall) and the language model per-
+formance (PPL and WER). A remarkable
+fact is that the enriched SLM outperforms
+the baseline 3-gram model in terms of
+WER by 10% when used in isolation as a
+second pass (N-best re-scoring) language
+model.
+1 

@@ -1,0 +1,19 @@
+
+In this paper, we investigate how an ac-
+curate question classifier contributes to
+a question answering system. We first
+present a Maximum Entropy (ME) based
+question classifier which makes use of
+head word features and their WordNet hy-
+pernyms. We show that our question clas-
+sifier can achieve the state of the art per-
+formance in the standard UIUC question
+dataset. We then investigate quantitatively
+the contribution of this question classifier
+to a feature driven question answering sys-
+tem. With our accurate question classifier
+and some standard question answer fea-
+tures, our question answering system per-
+forms close to the state of the art using
+TREC corpus.
+1 

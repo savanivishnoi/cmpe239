@@ -1,0 +1,29 @@
+
+Inspired by previous source-side syntactic
+reordering methods for SMT, this paper
+focuses on using automatically learned
+syntactic reordering patterns with func-
+tional words which indicate structural re-
+orderings between the source and target
+language. This approach takes advan-
+tage of phrase alignments and source-side
+parse trees for pattern extraction, and then
+filters out those patterns without func-
+tional words. Word lattices transformed
+by the generated patterns are fed into PB-
+SMT systems to incorporate potential re-
+orderings from the inputs. Experiments
+are carried out on a medium-sized cor-
+pus for a Chinese?English SMT task. The
+proposed method outperforms the base-
+line system by 1.38% relative on a ran-
+domly selected testset and 10.45% rela-
+tive on the NIST 2008 testset in terms
+of BLEU score. Furthermore, a system
+with just 61.88% of the patterns filtered
+by functional words obtains a comparable
+performance with the unfiltered one on the
+randomly selected testset, and achieves
+1.74% relative improvements on the NIST
+2008 testset.
+1 

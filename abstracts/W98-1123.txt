@@ -1,0 +1,13 @@
+ 
+We present a new method for discovering a
+segmental discourse structure of a document 
+while categorizing each segment's function 
+and importance. Segments are determined 
+by a zero-sum weighting scheme, used on 
+occurrences of noun phrases and 
+pronominal forms retrieved from the 
+document. Segment roles are then 
+calculated from the distribution of the terms 
+in the segment. Finally, we present results 
+of evaluation in terms of precision and 
+recall which surpass earlier approaches'. 

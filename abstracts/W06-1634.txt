@@ -1,0 +1,22 @@
+
+This paper presents a method of automat-
+ically constructing information extraction
+patterns on predicate-argument structures
+(PASs) obtained by full parsing from a
+smaller training corpus. Because PASs
+represent generalized structures for syn-
+tactical variants, patterns on PASs are ex-
+pected to be more generalized than those
+on surface words. In addition, patterns
+are divided into components to improve
+recall and we introduce a Support Vector
+Machine to learn a prediction model using
+pattern matching results. In this paper, we
+present experimental results and analyze
+them on how well protein-protein interac-
+tions were extracted from MEDLINE ab-
+stracts. The results demonstrated that our
+method improved accuracy compared to a
+machine learning approach using surface
+word/part-of-speech patterns.
+1 

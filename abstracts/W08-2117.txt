@@ -1,0 +1,12 @@
+
+We propose a data-driven method for au-
+tomatically analyzing the morphology of
+ancient Greek. This method improves on
+existing ancient Greek analyzers in two
+ways. First, through the use of a nearest-
+neighbor machine learning framework, the
+analyzer requires no hand-crafted rules.
+Second, it is able to predict novel roots,
+and to rerank its predictions by exploiting a
+large, unlabelled corpus of ancient Greek.
+1 

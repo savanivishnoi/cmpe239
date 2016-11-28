@@ -1,0 +1,16 @@
+
+In this paper, we propose a method that
+clearly separates terms (words and de-
+pendency relations) in a natural language
+query into important and other terms, and
+differently handles the terms according to
+their importance. The proposed method
+uses three types of term importance: nec-
+essary, optional, and unnecessary. The
+importance are detected using linguistic
+clues. We evaluated the proposed method
+using a test collection for Japanese infor-
+mation retrieval. Performance was resul-
+tantly improved by differently handling
+terms according to their importance.
+1 

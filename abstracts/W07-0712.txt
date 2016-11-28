@@ -1,0 +1,23 @@
+
+Statistical machine translation, as well as
+other areas of human language processing,
+have recently pushed toward the use of large
+scale n-gram language models. This paper
+presents efficient algorithmic and architec-
+tural solutions which have been tested within
+the Moses decoder, an open source toolkit
+for statistical machine translation. Exper-
+iments are reported with a high perform-
+ing baseline, trained on the Chinese-English
+NIST 2006 Evaluation task and running on
+a standard Linux 64-bit PC architecture.
+Comparative tests show that our representa-
+tion halves the memory required by SRI LM
+Toolkit, at the cost of 44% slower translation
+speed. However, as it can take advantage
+of memory mapping on disk, the proposed
+implementation seems to scale-up much bet-
+ter to very large language models: decoding
+with a 289-million 5-gram language model
+runs in 2.1Gb of RAM.
+1 

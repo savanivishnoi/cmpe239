@@ -1,0 +1,23 @@
+
+The need for syntactically annotated data 
+for use in natural language processing has 
+increased dramatically in recent years. This 
+is true especially for parallel treebanks, of 
+which very few exist. The ones that exist 
+are mainly hand-crafted and too small for 
+reliable use in data-oriented applications. 
+In this paper we introduce a novel platform 
+for fast and robust automatic generation of 
+parallel treebanks. The software we have 
+developed based on this platform has been 
+shown to handle large data sets. We also 
+present evaluation results demonstrating 
+the quality of the derived treebanks and 
+discuss some possible modifications and 
+improvements that can lead to even better 
+results. We expect the presented platform 
+to help boost research in the field of data-
+oriented machine translation and lead to 
+advancements in other fields where paral-
+lel treebanks can be employed.
+1 

@@ -1,0 +1,21 @@
+
+Assume that you are looking for informa-
+tion about a particular person. A search
+engine returns many pages for that per-
+son?s name. Some of these pages may
+be on other people with the same name.
+One method to reduce the ambiguity in the
+query and filter out the irrelevant pages, is
+by adding a phrase that uniquely identi-
+fies the person we are interested in from
+his/her namesakes. We propose an un-
+supervised algorithm that extracts such
+phrases from the Web. We represent each
+document by a term-entity model and clus-
+ter the documents using a contextual sim-
+ilarity metric. We evaluate the algorithm
+on a dataset of ambiguous names. Our
+method outperforms baselines, achieving
+over 80% accuracy and significantly re-
+duces the ambiguity in a web search task.
+1 

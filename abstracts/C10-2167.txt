@@ -1,0 +1,31 @@
+
+An important task of opinion mining is 
+to extract people?s opinions on features 
+of an entity. For example, the sentence, 
+?I love the GPS function of Motorola 
+Droid? expresses a positive opinion on 
+the ?GPS function? of the Motorola 
+phone. ?GPS function? is the feature. 
+This paper focuses on mining features. 
+Double propagation is a state-of-the-art 
+technique for solving the problem. It 
+works well for medium-size corpora. 
+However, for large and small corpora, it 
+can result in low precision and low re-
+call. To deal with these two problems, 
+two improvements based on part-whole
+and ?no? patterns are introduced to in-
+crease the recall. Then feature ranking is 
+applied to the extracted feature candi-
+dates to improve the precision of the 
+top-ranked candidates. We rank feature 
+candidates by feature importance which 
+is determined by two factors: feature re-
+levance and feature frequency. The 
+problem is formulated as a bipartite 
+graph and the well-known web page 
+ranking algorithm HITS is used to find 
+important features and rank them high. 
+Experiments on diverse real-life datasets 
+show promising results. 
+1 

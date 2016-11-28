@@ -1,0 +1,19 @@
+
+This paper describes a method to acquire hy-
+ponyms for given hypernyms from HTML doc-
+uments on the WWW. We assume that a head-
+ing (or explanation) of an itemization (or list-
+ing) in an HTML document is likely to contain
+a hypernym of the items in the itemization, and
+we try to acquire hyponymy relations based on
+this assumption. Our method is obtained by ex-
+tending Shinzato?s method (Shinzato and Tori-
+sawa, 2004) where a common hypernym for ex-
+pressions in itemizations in HTML documents is
+obtained by using statistical measures. By us-
+ing Japanese HTML documents, we empirically
+show that our proposed method can obtain a sig-
+nificant number of hyponymy relations which
+would otherwise be missed by alternative meth-
+ods.
+1 

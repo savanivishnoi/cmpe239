@@ -1,0 +1,26 @@
+
+The computation of selectional prefer-
+ences, the admissible argument values for
+a relation, is a well-known NLP task with
+broad applicability. We present LDA-SP,
+which utilizes LinkLDA (Erosheva et al,
+2004) to model selectional preferences.
+By simultaneously inferring latent top-
+ics and topic distributions over relations,
+LDA-SP combines the benefits of pre-
+vious approaches: like traditional class-
+based approaches, it produces human-
+interpretable classes describing each re-
+lation?s preferences, but it is competitive
+with non-class-based methods in predic-
+tive power.
+We compare LDA-SP to several state-of-
+the-art methods achieving an 85% increase
+in recall at 0.9 precision over mutual in-
+formation (Erk, 2007). We also eval-
+uate LDA-SP?s effectiveness at filtering
+improper applications of inference rules,
+where we show substantial improvement
+over Pantel et al?s system (Pantel et al,
+2007).
+1 

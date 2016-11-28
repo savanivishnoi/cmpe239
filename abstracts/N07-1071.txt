@@ -1,0 +1,17 @@
+ 
+Semantic inference is a key component 
+for advanced natural language under-
+standing. However, existing collections of 
+automatically acquired inference rules 
+have shown disappointing results when 
+used in applications such as textual en-
+tailment and question answering. This pa-
+per presents ISP, a collection of methods 
+for automatically learning admissible ar-
+gument values to which an inference rule 
+can be applied, which we call inferential 
+selectional preferences, and methods for 
+filtering out incorrect inferences. We 
+evaluate ISP and present empirical evi-
+dence of its effectiveness. 
+1 

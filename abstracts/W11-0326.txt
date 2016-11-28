@@ -1,0 +1,20 @@
+
+Studying natural language, and especially how
+people describe the world around them can
+help us better understand the visual world. In
+turn, it can also help us in the quest to generate
+natural language that describes this world in a
+human manner. We present a simple yet effec-
+tive approach to automatically compose im-
+age descriptions given computer vision based
+inputs and using web-scale n-grams. Unlike
+most previous work that summarizes or re-
+trieves pre-existing text relevant to an image,
+our method composes sentences entirely from
+scratch. Experimental results indicate that it is
+viable to generate simple textual descriptions
+that are pertinent to the specific content of an
+image, while permitting creativity in the de-
+scription ? making for more human-like anno-
+tations than previous approaches.
+1 

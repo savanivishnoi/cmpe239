@@ -1,0 +1,32 @@
+
+This paper presents a new word align-
+ment method which incorporates knowl-
+edge about Bilingual Multi-Word Expres-
+sions (BMWEs). Our method of word
+alignment first extracts such BMWEs in
+a bidirectional way for a given corpus and
+then starts conventional word alignment,
+considering the properties of BMWEs in
+their grouping as well as their alignment
+links. We give partial annotation of align-
+ment links as prior knowledge to the word
+alignment process; by replacing the max-
+imum likelihood estimate in the M-step
+of the IBM Models with the Maximum A
+Posteriori (MAP) estimate, prior knowl-
+edge about BMWEs is embedded in the
+prior in this MAP estimate. In our exper-
+iments, we saw an improvement of 0.77
+Bleu points absolute in JP?EN. Except
+for one case, our method gave better re-
+sults than the method using only BMWEs
+grouping. Even though this paper does
+not directly address the issues in Cross-
+Lingual Information Retrieval (CLIR), it
+discusses an approach of direct relevance
+to the field. This approach could be
+viewed as the opposite of current trends
+in CLIR on semantic space that incorpo-
+rate a notion of order in the bag-of-words
+model (e.g. co-occurences).
+1 

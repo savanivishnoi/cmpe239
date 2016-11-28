@@ -1,0 +1,17 @@
+
+This paper examines what kind of similar-
+ity between words can be represented by
+what kind of word vectors in the vector
+space model. Through two experiments,
+three methods for constructing word vec-
+tors, i.e., LSA-based, cooccurrence-based
+and dictionary-based methods, were com-
+pared in terms of the ability to represent
+two kinds of similarity, i.e., taxonomic
+similarity and associative similarity. The
+result of the comparison was that the
+dictionary-based word vectors better re-
+flect taxonomic similarity, while the LSA-
+based and the cooccurrence-based word
+vectors better reflect associative similarity.
+1 

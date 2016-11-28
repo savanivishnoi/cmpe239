@@ -1,0 +1,20 @@
+
+In this paper, a variant of a spectral clus-
+tering algorithm is proposed for bilingual
+word clustering. The proposed algorithm
+generates the two sets of clusters for both
+languages efficiently with high seman-
+tic correlation within monolingual clus-
+ters, and high translation quality across
+the clusters between two languages. Each
+cluster level translation is considered as
+a bilingual concept, which generalizes
+words in bilingual clusters. This scheme
+improves the robustness for statistical ma-
+chine translation models. Two HMM-
+based translation models are tested to use
+these bilingual clusters. Improved per-
+plexity, word alignment accuracy, and
+translation quality are observed in our ex-
+periments.
+1 

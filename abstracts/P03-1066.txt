@@ -1,0 +1,21 @@
+ 
+This paper presents a dependency language 
+model (DLM) that captures linguistic con-
+straints via a dependency structure, i.e., a set 
+of probabilistic dependencies that express 
+the relations between headwords of each 
+phrase in a sentence by an acyclic, planar, 
+undirected graph. Our contributions are 
+three-fold. First, we incorporate the de-
+pendency structure into an n-gram language 
+model to capture long distance word de-
+pendency. Second, we present an unsuper-
+vised learning method that discovers the 
+dependency structure of a sentence using a 
+bootstrapping procedure. Finally, we 
+evaluate the proposed models on a realistic 
+application (Japanese Kana-Kanji conver-
+sion). Experiments show that the best DLM 
+achieves an 11.3% error rate reduction over 
+the word trigram model. 
+1 

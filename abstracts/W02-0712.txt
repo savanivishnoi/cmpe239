@@ -1,0 +1,27 @@
+
+This paper proposes an automatic in-
+terpretation system that integrates free-
+style sentence translation and parallel text
+based translation. Free-style sentence
+translation accepts natural language sen-
+tences and translates them by machine
+translation. Parallel text based translation
+provides a proper translation for a sen-
+tence in the parallel text by referring to a
+corresponding translation of the sentence
+and supplements free-style sentence trans-
+lation. We developed a prototype of an au-
+tomatic interpretation system for Japanese
+overseas travelers with parallel text based
+translation using 9206 parallel bilingual
+sentences prepared in task-oriented man-
+ner. Evaluation results show that the par-
+allel text based translation covers 72% of
+typical utterances for overseas travel and
+the user can easily find an appropriate sen-
+tence from a natural utterance for 64% of
+typical traveler?s tasks. This indicates that
+the user can benefit from reliable transla-
+tion based on parallel text for fundamental
+utterances necessary for overseas travel.
+1 

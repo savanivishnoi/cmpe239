@@ -1,0 +1,23 @@
+
+We present experiments that analyze the
+necessity of using a highly interconnected
+word/sense graph for unsupervised all-
+words word sense disambiguation. We show
+that allowing only grammatically related
+words to influence each other?s senses leads
+to disambiguation results on a par with the
+best graph-based systems, while greatly re-
+ducing the computation load. We also com-
+pare two methods for computing selectional
+preferences between the senses of every two
+grammatically related words: one using a
+Lesk-based measure on WordNet, the other
+using dependency relations from the British
+National Corpus. The best configuration
+uses the syntactically-constrained graph, se-
+lectional preferences computed from the
+corpus and a PageRank tie-breaking algo-
+rithm. We especially note good performance
+when disambiguating verbs with grammati-
+cally constrained links.
+1 

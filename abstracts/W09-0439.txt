@@ -1,0 +1,21 @@
+
+The most commonly used method for
+training feature weights in statistical ma-
+chine translation (SMT) systems is Och?s
+minimum error rate training (MERT) pro-
+cedure. A well-known problemwith Och?s
+procedure is that it tends to be sensitive
+to small changes in the system, particu-
+larly when the number of features is large.
+In this paper, we quantify the stability
+of Och?s procedure by supplying different
+random seeds to a core component of the
+procedure (Powell?s algorithm). We show
+that for systems with many features, there
+is extensive variation in outcomes, both on
+the development data and on the test data.
+We analyze the causes of this variation and
+propose modifications to the MERT proce-
+dure that improve stability while helping
+performance on test data.
+1 

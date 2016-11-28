@@ -1,0 +1,21 @@
+
+We present an algorithm for unsupervised
+induction of labeled parse trees. The al-
+gorithm has three stages: bracketing, ini-
+tial labeling, and label clustering. Brack-
+eting is done from raw text using an un-
+supervised incremental parser. Initial la-
+beling is done using a merging model that
+aims at minimizing the grammar descrip-
+tion length. Finally, labels are clustered
+to a desired number of labels using syn-
+tactic features extracted from the initially
+labeled trees. The algorithm obtains 59%
+labeled f-score on the WSJ10 corpus, as
+compared to 35% in previous work, and
+substantial error reduction over a random
+baseline. We report results for English,
+German and Chinese corpora, using two
+label mapping methods and two label set
+sizes.
+1 

@@ -1,0 +1,20 @@
+
+A good decoding algorithm is critical
+to the success of any statistical machine
+translation system. The decoder?s job is
+to find the translation that is most likely
+according to set of previously learned
+parameters (and a formula for combin-
+ing them). Since the space of possi-
+ble translations is extremely large, typ-
+ical decoding algorithms are only able
+to examine a portion of it, thus risk-
+ing to miss good solutions. In this pa-
+per, we compare the speed and out-
+put quality of a traditional stack-based
+decoding algorithm with two new de-
+coders: a fast greedy decoder and a
+slow but optimal decoder that treats de-
+coding as an integer-programming opti-
+mization problem.
+1 

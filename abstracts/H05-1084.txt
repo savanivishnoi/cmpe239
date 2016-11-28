@@ -1,0 +1,19 @@
+
+We analyze models for semantic role
+assignment by defining a meta-model
+that abstracts over features and learning
+paradigms. This meta-model is based on
+the concept of role confusability, is de-
+fined in information-theoretic terms, and
+predicts that roles realized by less specific
+grammatical functions are more difficult
+to assign. We find that confusability is
+strongly correlated with the performance
+of classifiers based on syntactic features,
+but not for classifiers including semantic
+features. This indicates that syntactic fea-
+tures approximate a description of gram-
+matical functions, and that semantic fea-
+tures provide an independent second view
+on the data.
+1 

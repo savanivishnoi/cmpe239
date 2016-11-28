@@ -1,0 +1,44 @@
+ 
+It is important to correct he errors in the results of 
+speech recognition to increase the performance of a 
+speech translation system. This paper proposes a 
+method for correcting errors using the statistical 
+features of character co-occurrence, and evaluates the 
+method. 
+The proposed method comprises two successive 
+correcting processes. The first process uses pairs of 
+strings: the first string is an erroneous substring of the 
+utterance predicted by speech recognition, the second 
+string is the corresponding section of the actual 
+utterance. Errors are detected and corrected according 
+to the database learned from erroneous-correct 
+utterance pairs. The remaining errors are passed to the 
+posterior process which uses a string in the corpus 
+that is similar to the string including recognition 
+errors. 
+The results of our evaluation show that the use of 
+our proposed method as a post-processor for speech 
+recognition is likely to make a significant contribution 
+to the performance of speech translation systems. 
+method also obtains reliably recognized partial segments 
+of an utterance by cooperatively using both grammatical 
+and n-gram based statistical language constraints, and uses 
+a robust parsing technique to apply the grammatical 
+constraints described by context-free grammar (Tsukada et 
+aL, 97). However, these methods do not carry out any error 
+correction on a recognition result, but only specify correct 
+parts in it. 
+In this paper we therefore propose a method for 
+correcting errors, which is characterized by learning the 
+trend of errors and expressions, and by processing in an 
+arbitrary length string. 
+Similar work on English was presented by (E.K. 
+Ringger et al, 96). Using a noisy-channel model, they 
+implemented a post-processor tocorrect word-level errors 
+committed by a speech recognizer. 
+2 Method for Correcting Errors 
+We refer to two compositions of the proposal as Error- 
+Pattem-Correction (EPC) and Similar-String-Correction 
+(SSC) respectively. The correction using EPC and SSC 
+together inthis order is abbreviated toEPC+SSC. 
+1 

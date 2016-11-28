@@ -1,0 +1,20 @@
+
+Treebank annotation is a labor-intensive
+and time-consuming task. In this paper,
+we show that a simple statistical ranking
+model can significantly improve treebank-
+ing efficiency by prompting human an-
+notators, well-trained in disambiguation
+tasks for treebanking but not necessarily
+grammar experts, to the most relevant lin-
+guistic disambiguation decisions. Experi-
+ments were carried out to evaluate the im-
+pact of such techniques on annotation ef-
+ficiency and quality. The detailed analysis
+of outputs from the ranking model shows
+strong correlation to the human annotator
+behavior. When integrated into the tree-
+banking environment, the model brings a
+significant annotation speed-up with im-
+proved inter-annotator agreement.?
+1 

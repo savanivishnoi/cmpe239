@@ -1,0 +1,39 @@
+ 
+Word Segmentation is the foremost 
+obligatory task in almost all the NLP 
+applications, where the initial phase requires 
+tokenization of input into words. Like other 
+Asian languages such as Chinese, Thai and 
+Myanmar, Urdu also faces word 
+segmentation challenges. Though the Urdu 
+word segmentation problem is not as severe 
+as the other Asian language, since space is 
+used for word delimitation, but the space is 
+not consistently used, which gives rise to 
+both space omission and space insertion 
+errors in Urdu. In this paper we present a 
+word segmentation system for handling 
+space omission problem in Urdu script with 
+application to Urdu-Devnagri Transliteration 
+system. Instead of using manually 
+segmented monolingual corpora to train 
+segmenters, we make use of bilingual 
+corpora and statistical word disambiguation  
+techniques. Though our approach is adapted 
+for the specific transliteration task at hand by 
+taking the corresponding target (Hindi) 
+language into account, the techniques 
+suggested can  be adapted to  independently 
+solve the space omission Urdu word 
+segmentation problems. The two major 
+components of our system are : 
+identification of merged words for 
+segmentation and proper segmentation of the 
+merged words. The system was tested on 
+1.61 million word Urdu test data. The recall 
+and precision for the merged word 
+recognition component were found to be  
+99.29% and 99.38% respectively. The 
+words are correctly segmented with 99.15% 
+accuracy. 
+1 

@@ -1,0 +1,15 @@
+ 
+In this paper a version of LFG will be developed, which has only 
+one level of representation and is equivalent o the modified 
+version of \[2\], presented in \[3\]. The structures of this mono- 
+stratal version are f-structures, augmented by additional infor- 
+mation about the derived symbols and their linear order. For these 
+structures it is possible to define an adequate concept of direct 
+derivability by which the derivation proeess becomes more 
+efficient, as the f-description solution algorithm is directly 
+simulated during the derivation of these structures, instead of 
+being postponed. Apart from this it follows from tiffs redueability 
+that LFG as a theory in its present form does not make use of the 
+c-structure information that goes beyond the mere linear order of 
+the derived symbols. 
+1 .

@@ -1,0 +1,23 @@
+
+This paper describes an incremental ap-
+proach to parsing transcribed spontaneous
+speech containing disfluencies with a Hier-
+archical Hidden Markov Model (HHMM).
+This model makes use of the right-corner
+transform, which has been shown to in-
+crease non-incremental parsing accuracy
+on transcribed spontaneous speech (Miller
+and Schuler, 2008), using trees trans-
+formed in this manner to train the HHMM
+parser. Not only do the representations
+used in this model align with structure in
+speech repairs, but as an HMM-like time-
+series model, it can be directly integrated
+into conventional speech recognition sys-
+tems run on continuous streams of audio.
+A system implementing this model is eval-
+uated on the standard task of parsing the
+Switchboard corpus, and achieves an im-
+provement over the standard baseline prob-
+abilistic CYK parser.
+1 

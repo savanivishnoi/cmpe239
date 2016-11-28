@@ -1,0 +1,20 @@
+
+We present a novel text exploration model,
+which extends the scope of state-of-the-art
+technologies by moving from standard con-
+cept-based exploration to statement-based ex-
+ploration. The proposed scheme utilizes the
+textual entailment relation between statements
+as the basis of the exploration process. A user
+of our system can explore the result space of
+a query by drilling down/up from one state-
+ment to another, according to entailment re-
+lations specified by an entailment graph and
+an optional concept taxonomy. As a promi-
+nent use case, we apply our exploration sys-
+tem and illustrate its benefit on the health-care
+domain. To the best of our knowledge this is
+the first implementation of an exploration sys-
+tem at the statement level that is based on the
+textual entailment relation.
+1 

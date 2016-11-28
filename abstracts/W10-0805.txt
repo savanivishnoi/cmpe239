@@ -1,0 +1,26 @@
+
+This paper illustrates a way of using para-
+phrasal interpretation of English nominal
+compound for translating them into Hindi.
+Input Nominal compound is first para-
+phrased automatically with the 8 preposi-
+tions as proposed by Lauer (1995) for the
+task. English prepositions have one-to-one
+mapping to post-position in Hindi. The
+English paraphrases are then translated
+into Hindi using the mapping schema. We
+have got an accuracy of 71% over a set of
+gold data of 250 Nominal Compound. The
+translation-strategy is motivated by the
+following observation: It is only 50% of
+the cases that English nominal compound
+is translated into nominal compound in
+Hindi. In other cases, they are translated
+into varied syntactic constructs. Among
+them the most frequent construction type
+is ?Modifier + Postposition + Head?. The
+translation module also attempts to deter-
+mine when a compound is translated using
+paraphrase and when it is translated into a
+Nominal compound.
+1 

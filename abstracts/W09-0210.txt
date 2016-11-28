@@ -1,0 +1,16 @@
+
+In this work, we apply Dirichlet Process
+Mixture Models (DPMMs) to a learning
+task in natural language processing (NLP):
+lexical-semantic verb clustering. We thor-
+oughly evaluate a method of guiding DP-
+MMs towards a particular clustering so-
+lution using pairwise constraints. The
+quantitative and qualitative evaluation per-
+formed highlights the benefits of both
+standard and constrained DPMMs com-
+pared to previously used approaches. In
+addition, it sheds light on the use of evalu-
+ation measures and their practical applica-
+tion.
+1 

@@ -1,0 +1,15 @@
+ 
+This paper describes a statistics-based Chinese parser, which parses the Chinese sentences with 
+correct segmentation a d POS tagging information through the following processing stages: 1) to predict 
+constituent boundaries, 2) to match open and close brackets and produce syntactic trees, 3) to 
+disambiguate and choose the best parse tree. Evaluating the parser against a smaller Chinese treebank 
+with 5573 sentences, it shows the following encouraging results: 86% precision, 86% recall, 1.1 crossing 
+brackets per sentence and 95% labeled precision. 
+! 
+|? 
+! 
+! 
+! 
+! 
+! 
+1 

@@ -1,0 +1,10 @@
+. Document clustering has many uses in natural language tools
+and applications. For instance, summarizing sets of documents that all
+describe the same event requires first identifying and grouping those
+documents talking about the same event. Document clustering involves
+dividing a set of documents into non-overlapping clusters. In this paper,
+we present two document clustering algorithms: grouping algorithm, and
+chaining algorithm. We compared them with k-means and the EM algo-
+rithms. The evaluation results showed that our two algorithms perform
+better than the k-means and EM algorithms in different experiments.
+1 

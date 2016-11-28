@@ -1,0 +1,17 @@
+
+Though dynamic programming matching
+can carry out approximate string matching
+when there may be deletions or insertions
+in a document, its effectiveness and
+efficiency are usually too poor to use it for
+large-scale information retrieval. In this
+paper, we propose a method of dynamic
+programming matching for information
+retrieval. This method is as effective as a
+conventional information retrieval system,
+even though it is capable of approximate
+matching. It is also as efficient as a
+conventional system.
+Keywords: Dynamic programming,
+Corpus-based, Japanese.
+1 

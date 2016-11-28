@@ -1,0 +1,25 @@
+
+Describing the main event of an image in-
+volves identifying the objects depicted and
+predicting the relationships between them.
+Previous approaches have represented images
+as unstructured bags of regions, which makes
+it difficult to accurately predict meaningful
+relationships between regions. In this pa-
+per, we introduce visual dependency represen-
+tations to capture the relationships between
+the objects in an image, and hypothesize that
+this representation can improve image de-
+scription. We test this hypothesis using a
+new data set of region-annotated images, as-
+sociated with visual dependency representa-
+tions and gold-standard descriptions. We de-
+scribe two template-based description gener-
+ation models that operate over visual depen-
+dency representations. In an image descrip-
+tion task, we find that these models outper-
+form approaches that rely on object proxim-
+ity or corpus information to generate descrip-
+tions on both automatic measures and on hu-
+man judgements.
+1 

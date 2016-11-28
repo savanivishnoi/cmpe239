@@ -1,0 +1,19 @@
+
+To date, most work in grammatical error cor-
+rection has focused on targeting specific er-
+ror types. We present a probe study into
+whether we can use round-trip translations ob-
+tained from Google Translate via 8 different
+pivot languages for whole-sentence grammat-
+ical error correction. We develop a novel
+alignment algorithm for combining multiple
+round-trip translations into a lattice using the
+TERp machine translation metric. We further
+implement six different methods for extract-
+ing whole-sentence corrections from the lat-
+tice. Our preliminary experiments yield fairly
+satisfactory results but leave significant room
+for improvement. Most importantly, though,
+they make it clear the methods we propose
+have strong potential and require further study.
+1 

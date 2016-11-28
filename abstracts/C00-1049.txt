@@ -1,0 +1,19 @@
+ 
+Complex documents tored in a flat or partially 
+marked up file format require layout sensitive pre- 
+processing before any natural language processing 
+can be carried out on their textual content. Con- 
+temporary technology for the discovery of basic tex- 
+tual units is based on either spatial or other con- 
+tent insensitive methods. However, there are many 
+cases where knowledge of both the language and lay- 
+out is required in order to establish the boundaries 
+of the basic textual blocks. This paper describes 
+a number of these cases and proposes the applica- 
+tion of a general method combining knowledge about 
+language with knowledge about the spatial arrange- 
+ment of text. We claim that the comprehensive un- 
+derstanding of layout can only be achieved through 
+the exploitation of layout knowledge and language 
+knowledge in an inter-dependent maimer. 
+1 

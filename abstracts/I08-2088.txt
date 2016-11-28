@@ -1,0 +1,17 @@
+
+Target task matched parallel corpora are re-
+quired for statistical translation model train-
+ing. However, training corpora sometimes
+include both target task matched and un-
+matched sentences. In such a case, train-
+ing set selection can reduce the size of the
+translation model. In this paper, we propose
+a training set selection method for transla-
+tion model training using linear translation
+model interpolation and a language model
+technique. According to the experimental
+results, the proposed method reduces the
+translation model size by 50% and improves
+BLEU score by 1.76% in comparison with a
+baseline training corpus usage.
+1 

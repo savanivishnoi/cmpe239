@@ -1,0 +1,26 @@
+
+The growing amount of textual information
+available electronically has increased the need
+for high performance retrieval. The use of
+phrases was long seen as a natural way to im-
+prove retrieval performance over the common
+document models that ignore the sequential as-
+pect of word occurrences in documents, consid-
+ering them as ?bags of words?. However, both
+statistical and syntactical phrases showed disap-
+pointing results for large document collections.
+In this paper we present a recent type of
+multi-word expressions in the form of Maxi-
+mal Frequent Sequences (Ahonen-Myka, 1999).
+Mined phrases rather than statistical or syntac-
+tical phrases, their main strengths are to form
+a very compact index and to account for the
+sequentiality and adjacency of meaningful word
+co-occurrences, by allowing for a gap between
+words.
+We introduce a method for using these
+phrases in information retrieval and present our
+experiments. They show a clear improvement
+over the well-known technique of extracting fre-
+quent word pairs.
+1 

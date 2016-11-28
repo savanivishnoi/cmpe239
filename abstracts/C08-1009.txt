@@ -1,0 +1,15 @@
+
+We present an automatic method for sense-
+labeling of text in an unsupervised manner.
+The method makes use of distributionally
+similar words to derive an automatically
+labeled training set, which is then used to
+train a standard supervised classifier for
+distinguishing word senses. Experimental
+results on the Senseval-2 and Senseval-3
+datasets show that our approach yields sig-
+nificant improvements over state-of-the-art
+unsupervised methods, and is competitive
+with supervised ones, while eliminating
+the annotation cost.
+1 

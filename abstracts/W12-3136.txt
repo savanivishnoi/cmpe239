@@ -1,0 +1,12 @@
+
+We describe the systems developed by the
+team of the Qatar Computing Research Insti-
+tute for the WMT12 Shared Translation Task.
+We used a phrase-based statistical machine
+translation model with several non-standard
+settings, most notably tuning data selection
+and phrase table combination. The evaluation
+results show that we rank second in BLEU and
+TER for Spanish-English, and in the top tier
+for German-English.
+1 

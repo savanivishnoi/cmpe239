@@ -1,0 +1,19 @@
+
+Key to named entity recognition, the manual
+gazetteering of entity lists is a costly, error-
+prone process that often yields results that
+are incomplete and suffer from sampling bias.
+Exploiting current sources of structured in-
+formation, we propose a novel method for
+extending minimal seed lists into complete
+gazetteers. Like previous approaches, we
+value WIKIPEDIA as a huge, well-curated, and
+relatively unbiased source of entities. How-
+ever, in contrast to previous work, we exploit
+not only its content, but also its structure, as
+exposed in DBPEDIA. We extend gazetteers
+through Wikipedia categories, carefully limit-
+ing the impact of noisy categorizations. The
+resulting gazetteers easily outperform previ-
+ous approaches on named entity recognition.
+1 

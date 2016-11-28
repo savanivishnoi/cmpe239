@@ -1,0 +1,21 @@
+
+Categorization of text in IR has
+traditionally focused on topic. As use
+of the Internet and e?mail increases,
+categorization has become a key area
+of research as users demand methods
+of prioritizing documents. This work
+investigates text classification by
+format style, i.e. "genre", and
+demonstrates, by complementing topic
+classification, that it can significantly
+improve retrieval of information. The
+paper compares use of presentation
+features to word features, and the
+combination thereof, using Na?ve
+Bayes, C4.5 and SVM classifiers.
+Results show use of combined feature
+sets with SVM yields 92%
+classification accuracy in sorting seven
+genres.   
+1 

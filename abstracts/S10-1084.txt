@@ -1,0 +1,15 @@
+
+Systems using text windows to model
+word contexts have mostly been using
+fixed-sized windows and uniform weights.
+The window size is often selected by trial
+and error to maximize task results. We
+propose a non-supervised method for se-
+lecting weights for each window distance,
+effectively removing the need to limit win-
+dow sizes, by maximizing the mutual gen-
+eration of two sets of samples of the same
+word. Experiments on Semeval Word
+Sense Disambiguation tasks showed con-
+siderable improvements.
+1 

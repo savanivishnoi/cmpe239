@@ -1,0 +1,20 @@
+
+After recasting the computation of a distribu-
+tional thesaurus in a graph-based framework
+for term similarity, we introduce a new con-
+textualization method that generates, for each
+term occurrence in a text, a ranked list of terms
+that are semantically similar and compatible
+with the given context. The framework is in-
+stantiated by the definition of term and con-
+text, which we derive from dependency parses
+in this work. Evaluating our approach on a
+standard data set for lexical substitution, we
+show substantial improvements over a strong
+non-contextualized baseline across all parts of
+speech. In contrast to comparable approaches,
+our framework defines an unsupervised gener-
+ative method for similarity in context and does
+not rely on the existence of lexical resources as
+a source for candidate expansions.
+1 

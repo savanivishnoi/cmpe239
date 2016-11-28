@@ -1,0 +1,19 @@
+
+In this paper we revisit the task of quantitative
+evaluation of coreference resolution systems.
+We review the most commonly used metrics
+(MUC, B3, CEAF and BLANC) on the basis of
+their evaluation of coreference resolution in
+five texts from the OntoNotes corpus. We ex-
+amine both the correlation between the met-
+rics and the degree to which our human judge-
+ment of coreference resolution agrees with the
+metrics. In conclusion we claim that loss of
+information value is an essential factor, insuf-
+ficiently adressed in current metrics, in human
+perception of the degree of success or failure
+of coreference resolution. We thus conjec-
+ture that including a layer of mention infor-
+mation weight could improve both the coref-
+erence resolution and its evaluation.
+1 

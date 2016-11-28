@@ -1,0 +1,25 @@
+
+Monolingual translation probabilities have
+recently been introduced in retrieval mod-
+els to solve the lexical gap problem.
+They can be obtained by training statisti-
+cal translation models on parallel mono-
+lingual corpora, such as question-answer
+pairs, where answers act as the ?source?
+language and questions as the ?target?
+language. In this paper, we propose
+to use as a parallel training dataset the
+definitions and glosses provided for the
+same term by different lexical semantic re-
+sources. We compare monolingual trans-
+lation models built from lexical semantic
+resources with two other kinds of datasets:
+manually-tagged question reformulations
+and question-answer pairs. We also show
+that the monolingual translation probabil-
+ities obtained (i) are comparable to tradi-
+tional semantic relatedness measures and
+(ii) significantly improve the results over
+the query likelihood and the vector-space
+model for answer finding.
+1 

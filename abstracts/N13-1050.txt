@@ -1,0 +1,21 @@
+
+Social media texts are written in an infor-
+mal style, which hinders other natural lan-
+guage processing (NLP) applications such as
+machine translation. Text normalization is
+thus important for processing of social media
+text. Previous work mostly focused on nor-
+malizing words by replacing an informal word
+with its formal form. In this paper, to fur-
+ther improve other downstream NLP applica-
+tions, we argue that other normalization oper-
+ations should also be performed, e.g., missing
+word recovery and punctuation correction. A
+novel beam-search decoder is proposed to ef-
+fectively integrate various normalization oper-
+ations. Empirical results show that our system
+obtains statistically significant improvements
+over two strong baselines in both normaliza-
+tion and translation tasks, for both Chinese
+and English.
+1 

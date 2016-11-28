@@ -1,0 +1,15 @@
+ 
+We propose a system to carry out the joint pars-
+ing of syntactic and semantic dependencies in 
+multiple languages for our participation in the 
+shared task of CoNLL-2009. We present an it-
+erative approach for dependency parsing and 
+semantic role labeling. We have participated in 
+the closed challenge, and our system achieves 
+73.98% on labeled macro F1 for the complete 
+problem, 77.11% on labeled attachment score 
+for syntactic dependencies, and 70.78% on la-
+beled F1 for semantic dependencies. The cur-
+rent experimental results  show that our method 
+effectively improves system performance. 
+1 

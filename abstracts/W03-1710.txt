@@ -1,0 +1,33 @@
+ 
+Ngram modeling is simple in language 
+modeling and has been widely used in many 
+applications. However, it can only capture the 
+short distance context dependency within an 
+N-word window where the largest practical N 
+for natural language is three. In the meantime, 
+much of context dependency in natural 
+language occurs beyond a three-word window. 
+In order to incorporate this kind of long 
+distance context dependency, this paper 
+proposes a new MI-Ngram modeling approach. 
+The MI-Ngram model consists of two 
+components: an ngram model and an MI 
+model. The ngram model captures the short 
+distance context dependency within an N-word 
+window while the MI model captures the long 
+distance context dependency between the word 
+pairs beyond the N-word window by using the 
+concept of mutual information. It is found that 
+MI-Ngram modeling has much better 
+performance than ngram modeling. Evaluation 
+on the XINHUA new corpus of 29 million 
+words shows that inclusion of the best 
+1,600,000 word pairs decreases the perplexity 
+of the MI-Trigram model by 20 percent 
+compared with the trigram model. In the 
+meanwhile, evaluation on Chinese word 
+segmentation shows that about 35 percent of 
+errors can be corrected by using the 
+MI-Trigram model compared with the trigram 
+model.  
+1 

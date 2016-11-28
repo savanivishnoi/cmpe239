@@ -1,0 +1,24 @@
+ 
+In this paper we illustrate and evaluate an approach 
+to the creation of high quality linguistically 
+annotated resources based on the exploitation of 
+aligned parallel corpora. This approach is based on 
+the assumption that if a text in one language has 
+been annotated and its translation has not, 
+annotations can be transferred from the source text 
+to the target using word alignment as a bridge. The 
+transfer approach has been tested in the creation of 
+the MultiSemCor corpus, an English/Italian 
+parallel corpus created on the basis of the English 
+SemCor corpus. In MultiSemCor texts are aligned 
+at the word level and semantically annotated with a 
+shared inventory of senses. We present some 
+experiments carried out to evaluate the different 
+steps involved in the methodology. The results of 
+the evaluation suggest that the cross-language 
+annotation transfer methodology is a promising 
+solution allowing for the exploitation of existing 
+(mostly English) annotated resources to bootstrap 
+the creation of annotated corpora in new (resource-
+poor) languages with greatly reduced human effort.  
+1 

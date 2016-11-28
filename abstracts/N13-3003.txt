@@ -1,0 +1,23 @@
+
+TMTprime is a recommender system that fa-
+cilitates the effective use of both transla-
+tion memory (TM) and machine translation
+(MT) technology within industrial language
+service providers (LSPs) localization work-
+flows. LSPs have long used Translation Mem-
+ory (TM) technology to assist the translation
+process. Recent research shows how MT sys-
+tems can be combined with TMs in Computer
+Aided Translation (CAT) systems, selecting
+either TM or MT output based on sophis-
+ticated translation quality estimation without
+access to a reference. However, to date there
+are no commercially available frameworks for
+this. TMTprime takes confidence estimation
+out of the lab and provides a commercially vi-
+able platform that allows for the seamless inte-
+gration of MT with legacy TM systems to pro-
+vide the most effective (least effort/cost) trans-
+lation options to human translators, based on
+the TMTprime confidence score.
+1 

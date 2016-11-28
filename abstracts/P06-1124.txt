@@ -1,0 +1,18 @@
+
+We propose a new hierarchical Bayesian
+n-gram model of natural languages. Our
+model makes use of a generalization of
+the commonly used Dirichlet distributions
+called Pitman-Yor processes which pro-
+duce power-law distributions more closely
+resembling those in natural languages. We
+show that an approximation to the hier-
+archical Pitman-Yor language model re-
+covers the exact formulation of interpo-
+lated Kneser-Ney, one of the best smooth-
+ing methods for n-gram language models.
+Experiments verify that our model gives
+cross entropy results superior to interpo-
+lated Kneser-Ney and comparable to mod-
+ified Kneser-Ney.
+1 

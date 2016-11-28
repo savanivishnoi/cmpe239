@@ -1,0 +1,265 @@
+ Specific Rule 
+sp = (w,e,s,t),  where w is the headword of the 
+trained phrase, c is the part of the speech of the 
+word, s is the sense number epresenting the mean- 
+ing of w, t is the semantic type identified by the pre- 
+processor for w. An abstract specifi c rule is shown 
+in Figure 4. 
+For each sp = (w, e, s, t), if w exists in WordNet, 
+then there is a corresponding synset in WordNet. 
+The hyponym/hypernym hierarchical structure pro- 
+vides a way of locating the superordinate concepts 
+of sp. By following additional hypernyms, we will 
+get more and more generalized concepts and eventu- 
+ally reach the most general concept, such as {person, 
+human being,...}. Based on this scenario, for each 
+concept, different degrees of generalization can be 
+achieved by adjusting the distance between this con- 
+cept and the most general concept in the WordNet 
+hierarchy. The function to accomplish this task is 
+Generalize(sp, h), which returns a synset list h levels 
+above the specific concept represented by sp in the 
+hierarchy. An example is shown in Figure 5. 
+sp = (IBM Corporation, NG, 1, company) 
+generalized at degree 1
+Generalize(sp, 1) = {business, concem} 
+generalized at degree 2
+Generalize(sp, 2) = { enterprise} 
+generalized at degree 3
+Generalize(sp, 3) = {organization} 
+generalized at degree 5
+Generalize(sp, 5) = {group, social group} 
+Figure 5: Degrees of Generalization for a Specific 
+Concept 
+3.2 Genera l i zed  Ru les  
+The process of generalizing rules consists of replacing 
+each sp = (w, e, s, t) in the specific rules by a more 
+general superordinate synset from its hypernym tree 
+in WordNet by performing the Generalize(sp, h) 
+function. The degree of generalization for rules 
+varies with the variation of h in Generalize(sp, h). 
+For example, Figure 6 shows the rule in Figure 3 
+generalized to two different degrees. 
+Figure 7 shows an abstract generalized rule. The 
+C symbol signifies the subsumption relationship. 
+Therefore, a C b signifies that a is subsumed by b, 
+or, in WordNet terms, concept b is a superordinate 
+concept of concept a. The generalized rule states 
+that the RHS of the rule gets executed if all of the 
+following conditions hold: 
+? A sentence contains three phrases (not neces- 
+sarily contiguous) with headwords W1, W2, and 
+w3. 
+? The quadruples corresponding to these head- 
+words are ( W1, C1, S1, T1) , ( W2 , C2, $2,T2), and 
+(W3, C3, $3, T3). 
+? The synsets, in WordNet, corresponding to the 
+quadruples, are subsumed by Generalize(spl, 
+hi), Generalize(sp2, h2), and Generalize(sp3, 
+h3) respectively. 
+4 Scanning New Art ic les 
+The goal of generalizing the rules is to generate se- 
+mantic networks for unseen articles. The semantic 
+networks are built with the help of the ADD.NODE 
+and the ADD.RELATION operations present in the 
+RHS of the rules. The Scanning Process consists of 
+the following steps: 
+? Parse the unseen article and segment it into 
+phrases belonging to one of NG, VG, or PG 
+(c,). 
+? Identify the headword (Wi) for each phrase. 
+Bagga ~4 Chai Trainable Message Understanding 
+\[{enterprise}\], \[seek, VG, 1, other_type\], [{applicant}\] 
+> ADD..NODE({enterprise}), ADD_NODE({applicant}), 
+ADD.RELATION(seek, {enterprise}, {applicant}) 
+\[{organization}\], \[seek, VG, 1, other_type\], [{person}\] 
+> ADD_NODE({organization}), ADD..NODE({person}), 
+ADD.RELATION(seek, {organization}, {person}) 
+Figure 6: Specific Rule in General Forms 
+(Wl, C1, S1, T1) (.~ Generalize(spl, hi), (W2, C2, $2, T2) C Generalize(sp2, h2), 
+(W3, C3, $3, T3) C Generalize(sp3, h3) 
+> ADD_NODE(W1), ADD_NODE(W3), ADD_RELATION(W2,W1, W3) 
+Figure 7: Generalized Rule 
+? Use the Preprocessor to identify the type (Ti) 
+for each headword. 
+Use the Sense Classifier (as described in Sec- 
+tion 2.5.1 to assign the appropriate sense (Si) 
+to each headword. 
+Each phrase can now be uniquely represented 
+by (W~, C~, Si, 7~). Match (14~, Ci, Si, 7~) with 
+the LHS of a generalized rule. 
+If the three entities \[Generalize(spi, h )\] sub- 
+sume three phrases \[(W~, C~, S~, 7~)\], within a 
+single sentence in the article, the rule is fired 
+and the RHS of the rule executed. 
+If we train on IBM Corporation seeks job candi- 
+dates and generate the rule as in Figure 3, Table 1 
+lists some sentences that can be processed as the 
+degree of generalization. 
+100 
+95 
+90 
+85 
+80 
+75 
+70 
+65 
+60 
+55 
+50 
+40 
+30 
+20 
+10 
+0 
+! i ! i i 
+8 train-arts - -  
+. i=.- i . -Z.- . -SZL.. . . . . . . .~.. .  16 train-arts . . . . .  
+- -  . . . . .  - - . . . . . . . . .  . . . . . .  
+I ! I I I 
+1 2 3 4 5 
+degree of generalization 
+Figure 8: Precision vs. Degree of Generalization 
+100 
+95 
+90 
+85 
+80 
+75 
+70 
+65 
+60 
+55 
+50 
+40 
+30 
+20 
+10 
+0 
+i i i i i 
+8 t ra in -ar ts  - -  " 
+16 t ra in -ar ts  . . . . .  
+24  t ra ln -ar l s  . . . . . .  
+i .  I ! 
+o 1 5 
+I ! I 
+2 3 4 
+degree ol generalization 
+Figure 9: Recall vs. Degree of Generalization 
+5 Exper iments  
+We designed an experiment to investigate how train- 
+ing and the generalization strategy affect meaning 
+extraction. We trained our system on three sets of 
+articles from the triangle.jobs USENET newsgroup, 
+with emphasis on the following seven facts: 
+? Company Name. Examples: IBM, Metro Infor- 
+mation Services, DCR Inc. 
+? Position/Title. Examples: programmer, finan- 
+cial analyst, software ngineer. 
+? Experience/Skill. Example: 5 years experience 
+in Oracle. 
+? Location. Examples: Winston-Salem, North 
+Carolina. 
+? Benefit. Examples: company matching funds, 
+comprehensive h alth plan. 
+Bagga ~ Chai 6 Trainable Message Understanding 
+degree Noun Phrase Verb Phrase Noun Phrase 
+0 GTE (any company) seeks, looks for, searches job candidates 
+1 Auction Agency (any business) seeks, looks for, searches bidder 
+2 Motor Factory (any enterprise) seeks, looks for, searches engineers 
+3 Police (any organization) seeks, looks for, searches the fugitive (any person) 
+4 Biology Lab (any group) seeks, looks for, searches missing frog (any life form) 
+Table 1: Sample Sentences that Can Be Processed in the Scanning Part 
+? Salary. Examples: $32/hr, 60K. 
+? Contact Info. Examples: Fax is 919-660-6519, 
+email address. 
+The first training set contained 8 articles; the 
+second set contained 16 articles including the first 
+set; and the third set contained 24 articles includ- 
+ing those in the first two sets. For rules from each 
+training set, seven levels of generalization were per- 
+formed. Based on the generalized rules at each level, 
+the system was run on 80 unseen articles from the 
+same newsgroup to test its performance on the ex- 
+traction of the seven facts. 
+The evaluation process consisted of the following 
+step: first, each unseen article was studied to see 
+how many facts of interest were present in the ar- 
+ticle; second, the semantic transitions produced by 
+the system were examined to see if they correctly 
+caught any facts of interest. The precision and recall 
+curves with respect o the degree of generalization 
+are shown in Figures 8 and 9 respectively. 
+In the precision vs. degree of generalization graph 
+(Figure 8), precision decreases from 96.1% to 68.4% 
+for the first training set as the degree of generaliza- 
+tion increases from 0 to 6. The first set of eight train- 
+ing articles has better performance on precision. The 
+fact that precision decreases with increased numbers 
+of training articles eems to be counter intuitive ini- 
+tially. But, as the number of training articles in- 
+crease, the the number of rules increase; which in- 
+creases the chance that some piece of irrelevant infor- 
+mation may trigger one of the rules, thereby decreas- 
+ing the precision. In the recall vs. degree of gener- 
+alization graph (Figure 9), for the third training set 
+of 24 articles, recall increases from 48.2% to 76.1% 
+as generalization degree increases. As expected, the 
+third training set out-performed the other two train- 
+ing sets on recall. 
+In Figure 9, there is a jump in recall as we go from 
+generalization degree 3 to generalization degree 4. 
+This gives rise to the following important question: 
+Why does a certain degree of generalization have a 
+big impact on extracting a fact(s)? Moreover, with 
+the increase in the degree of generalization, preci- 
+sion tends to fall while recall tends to increase. The 
+question that arises here is: What degree of general- 
+ization gives us the best compromise between preci- 
+sion and recall? We are currently conducting further 
+research that will help us answer such questions. 
+6 Conclusion 
+This paper describes a trainable system for mean- 
+ing extraction. The critical parts in the system are 
+the preprocessor, the partial parser, the training in- 
+terface, the rule interpreter, the rule generalization 
+routines, and the rule matching routines. 
+Our system allows a person to train a small num- 
+ber of texts from a particular domain, to get the 
+desired information from a larger corpus of texts. 
+The training effort is reduced to a few hours and the 
+person training the system need not be a linguist or 
+domain expert. 
+7 Acknowledgment 
+We wish to thank Jerry Hobbs of SRI for providing 
+us with the finite-state rules for the parser. 
+We also wish to thank our advisor Dr. Alan W. 
+Biermann for all his help, advise, and support. 
+Re ferences  
+Aberdeen, John, et al 1995. MITRE: Description of 
+the ALEMBIC System Used for MUC-6, Pro- 
+ceedings of the Sixth Message Understanding 
+Conference (MUC-6), pp. 141-155, November 
+1995. 
+Appelt, Douglas E., et al 1995. SRI International: 
+Description of the FASTUS System Used for 
+MUC-6, Proceedings ofthe Sixth Message Un- 
+derstanding Conference (MUC-6), pp. 237- 
+248, November 1995. 
+Fisher, David, et al 1995. Description of the UMass 
+System as Used for MUC-6, Proceedings of 
+the Sixth Message Understanding Conference 
+(MUC-6), pp. 127-140, November 1995. 
+Bagga 8J Chai 7 Trainable Message Understanding 
+Grishman, Ralph. 1995. The NYU System for 
+MUC-6 or Where's the Syntax? Proceedings 
+of the Sixth Message Understanding Confer- 
+ence (MUC-6), pp. 167-175, November 1995. 
+Hobbs, J., et al 1995. FASTUS: A system for Ex- 
+tracting Information from Text, Human Lan- 
+guage Technology, pp. 133-137, 1993. 
+Krupka, George R. 1995. Description of the SRA 
+System as Used for MUC-6, Proceedings of
+the Sixth Message Understanding Conference 
+(MUC-6), pp. 221-235, November 1995. 
+Miller, G.A. 1990. 

@@ -1,0 +1,17 @@
+
+This paper presents a phrase-based statis-
+tical machine translation method, based
+on non-contiguous phrases, i.e. phrases
+with gaps. A method for producing such
+phrases from a word-aligned corpora is
+proposed. A statistical translation model
+is also presented that deals such phrases,
+as well as a training method based on the
+maximization of translation accuracy, as
+measured with the NIST evaluation met-
+ric. Translations are produced by means of
+a beam-search decoder. Experimental re-
+sults are presented, that demonstrate how
+the proposed method allows to better gen-
+eralize from the training data.
+1 

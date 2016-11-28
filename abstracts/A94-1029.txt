@@ -1,0 +1,29 @@
+ 
+It is common opinion that current 
+hypertextual systems do not allow to express 
+objectively the information content of 
+documents, but only the view of the "author". 
+The hyperlink building requires an heavy and 
+highly specialised human intervention: this 
+task is very expensive whenever possible! 
+A different approach, based on NLP 
+methodologies, aiming at automatizing the 
+development of an hypertext, is hereafter 
+proposed. Anchorage points are inferred both 
+from content and structure of documents. A 
+semantic lexicon based on conceptual graph 
+structures i used to guide text understanding. 
+Contextual roles are introduced to model 
+domain specific concepts relevant to the 
+navigation. An off-line activation of useful 
+links has been defined according to explicit 
+user specifications. A simple declarative 
+language (HyDeL) for the definition of such 
+links is available to the user to create his own 
+views on the document base. HERMES is a 
+prototype system implementing our approach. 
+The paper discusses the semantic processing of 
+a document base and highlights the 
+performance of different hypertextual systems 
+derived by HERMES over different languages 
+and knowledge domains. 

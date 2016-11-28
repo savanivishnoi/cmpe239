@@ -1,0 +1,9 @@
+. The paper discusses the problem of determinising finite-state automata contain- 
+ing large numbers of e-moves. Experiments with finite-state approximations of natural lan- 
+guage grammars often give rise to very large automata with a very large number of e- 
+moves. The paper identifies three subset construction algorithms which treat e-moves. A 
+number of experiments has been performed which indicate that he algorithms diff~ con- 
+siderably in practice. Furthermore, the experiments suggest that he average number of e- 
+moves per state can be used to predict which algorithm islikely to perform best for a given 
+input automatorL 
+1 

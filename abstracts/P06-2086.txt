@@ -1,0 +1,38 @@
+ 
+Most information extraction systems ei-
+ther use hand written extraction patterns 
+or use a machine learning algorithm that 
+is trained on a manually annotated cor-
+pus. Both of these approaches require 
+massive human effort and hence prevent 
+information extraction from becoming 
+more widely applicable. In this paper we 
+present URES (Unsupervised Relation 
+Extraction System), which extracts rela-
+tions from the Web in a totally unsuper-
+vised way. It takes as input the 
+descriptions of the target relations, which 
+include the names of the predicates, the 
+types of their attributes, and several seed 
+instances of the relations. Then the sys-
+tem downloads from the Web a large col-
+lection of pages that are likely to contain 
+instances of the target relations. From 
+those pages, utilizing the known seed in-
+stances, the system learns the relation 
+patterns, which are then used for extrac-
+tion. We present several experiments in 
+which we learn patterns and extract in-
+stances of a set of several common IE re-
+lations, comparing several pattern 
+learning and filtering setups. We demon-
+strate that using simple noun phrase tag-
+ger is sufficient as a base for accurate 
+patterns. However, having a named en-
+tity recognizer, which is able to recog-
+nize the types of the relation attributes 
+significantly, enhances the extraction 
+performance. We also compare our ap-
+proach with KnowItAll?s fixed generic 
+patterns. 
+1 

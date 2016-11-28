@@ -1,0 +1,18 @@
+
+This paper presents empirical studies and
+closely corresponding theoretical models of
+the performance of a chart parser exhaus-
+tively parsing the Penn Treebank with the
+Treebank?s own CFG grammar. We show
+how performance is dramatically affected by
+rule representation and tree transformations,
+but little by top-down vs. bottom-up strate-
+gies. We discuss grammatical saturation, in-
+cluding analysis of the strongly connected
+components of the phrasal nonterminals in
+the Treebank, and model how, as sentence
+length increases, the effective grammar rule
+size increases as regions of the grammar
+are unlocked, yielding super-cubic observed
+time behavior in some configurations.
+1 

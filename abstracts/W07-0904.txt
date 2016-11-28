@@ -1,0 +1,27 @@
+ 
+ 
+We address the problem of mining text for 
+relevant image metadata.  Our work is situ-
+ated in the art and architecture domain, 
+where highly specialized technical vocabu-
+lary presents challenges for NLP tech-
+niques.  To extract high quality metadata, 
+the problem of word sense disambiguation 
+must be addressed in order to avoid leading 
+the searcher to the wrong image as a result 
+of ambiguous ? and thus faulty ? meta-
+data.  In this paper, we present a disam-
+biguation algorithm that attempts to select 
+the correct sense of nouns in textual de-
+scriptions of art objects, with respect to a 
+rich domain-specific thesaurus, the Art and 
+Architecture Thesaurus (AAT).  We per-
+formed a series of intrinsic evaluations us-
+ing a data set of 600 subject terms ex-
+tracted from an online National Gallery of 
+Art (NGA) collection of images and text.  
+Our results showed that the use of external 
+knowledge sources shows an improvement 
+over a baseline. 
+      
+1. 

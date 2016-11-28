@@ -1,0 +1,21 @@
+
+This paper presents a novel approach of in-
+corporating fine-grained treebanking deci-
+sions made by human annotators as dis-
+criminative features for automatic parse
+disambiguation. To our best knowledge,
+this is the first work that exploits treebank-
+ing decisions for this task. The advan-
+tage of this approach is that use of human
+judgements is made. The paper presents
+comparative analyses of the performance
+of discriminative models built using tree-
+banking decisions and state-of-the-art fea-
+tures. We also highlight how differently
+these features scale when these models are
+tested on out-of-domain data. We show
+that, features extracted using treebanking
+decisions are more efficient, informative
+and robust compared to traditional fea-
+tures.
+1 

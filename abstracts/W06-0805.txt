@@ -1,0 +1,20 @@
+ 
+In this paper, we explore the use of struc-
+tured content as semantic constraints for 
+enhancing the performance of traditional 
+term-based document retrieval in special 
+domains. First, we describe a method for 
+automatic extraction of semantic content 
+in the form of attribute-value (AV) pairs 
+from natural language texts based on 
+domain models constructed from a semi-
+structured web resource. Then, we ex-
+plore the effect of combining a state-of-
+the-art term-based IR system and a sim-
+ple constraint-based search system that 
+uses the extracted AV pairs. Our evalua-
+tion results have shown that such combi-
+nation produces some improvement in IR 
+performance over the term-based IR sys-
+tem on our test collection. 
+1 

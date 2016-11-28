@@ -1,0 +1,18 @@
+
+In this paper, we investigate how modeling
+content structure can benefit text analysis ap-
+plications such as extractive summarization
+and sentiment analysis. This follows the lin-
+guistic intuition that rich contextual informa-
+tion should be useful in these tasks. We
+present a framework which combines a su-
+pervised text analysis application with the in-
+duction of latent content structure. Both of
+these elements are learned jointly using the
+EM algorithm. The induced content struc-
+ture is learned from a large unannotated cor-
+pus and biased by the underlying text analysis
+task. We demonstrate that exploiting content
+structure yields significant improvements over
+approaches that rely only on local context.1
+1 

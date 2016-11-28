@@ -1,0 +1,34 @@
+
+Morphological disambiguation proceeds in 2
+stages: (1) an analyzer provides all possible
+analyses for a given token and (2) a stochastic
+disambiguation module picks the most likely
+analysis in context. When the analyzer does
+not recognize a given token, we hit the prob-
+lem of unknowns. In large scale corpora, un-
+knowns appear at a rate of 5 to 10% (depend-
+ing on the genre and the maturity of the lexi-
+con).
+We address the task of computing the distribu-
+tion p(t|w) for unknown words for full mor-
+phological disambiguation in Hebrew. We in-
+troduce a novel algorithm that is language in-
+dependent: it exploits a maximum entropy let-
+ters model trained over the known words ob-
+served in the corpus and the distribution of
+the unknown words in known tag contexts,
+through iterative approximation. The algo-
+rithm achieves 30% error reduction on dis-
+ambiguation of unknown words over a com-
+petitive baseline (to a level of 70% accurate
+full disambiguation of unknown words). We
+have also verified that taking advantage of a
+strong language-specific model of morpholog-
+ical patterns provides the same level of disam-
+biguation. The algorithm we have developed
+exploits distributional information latent in a
+wide-coverage lexicon and large quantities of
+unlabeled data.
+?This work is supported in part by the Lynn and William
+Frankel Center for Computer Science.
+1 

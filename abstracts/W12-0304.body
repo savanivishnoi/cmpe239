@@ -1,0 +1,18 @@
+
+In this research we explore the possibil-
+ity of using a large n-gram corpus (Google
+Books) to derive lexical transition probabil-
+ities from the frequency of word n-grams
+and then use them to check and suggest cor-
+rections in a target text without the need for
+grammar rules. We conduct several experi-
+ments in Spanish, although our conclusions
+also reach other languages since the proce-
+dure is corpus-driven. The paper reports
+on experiments involving different types
+of grammar errors, which are conducted
+to test different grammar-checking proce-
+dures, namely, spotting possible errors, de-
+ciding between different lexical possibili-
+ties and filling-in the blanks in a text.
+1 

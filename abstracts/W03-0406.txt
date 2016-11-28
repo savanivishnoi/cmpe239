@@ -1,0 +1,17 @@
+
+In this paper, we improve an unsuper-
+vised learning method using the Expectation-
+Maximization (EM) algorithm proposed by
+Nigam et al for text classification problems
+in order to apply it to word sense disambigua-
+tion (WSD) problems. The improved method
+stops the EM algorithm at the optimum itera-
+tion number. To estimate that number, we pro-
+pose two methods. In experiments, we solved
+50 noun WSD problems in the Japanese Dic-
+tionary Task in SENSEVAL2. The score of our
+method is a match for the best public score of
+this task. Furthermore, our methods were con-
+firmed to be effective also for verb WSD prob-
+lems.
+1 

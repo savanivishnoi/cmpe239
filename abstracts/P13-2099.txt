@@ -1,0 +1,22 @@
+
+Timeline summarization aims at generat-
+ing concise summaries and giving read-
+ers a faster and better access to under-
+stand the evolution of news. It is a new
+challenge which combines salience rank-
+ing problem with novelty detection. Pre-
+vious researches in this field seldom ex-
+plore the evolutionary pattern of topics
+such as birth, splitting, merging, develop-
+ing and death. In this paper, we develop
+a novel model called Evolutionary Hier-
+archical Dirichlet Process(EHDP) to cap-
+ture the topic evolution pattern in time-
+line summarization. In EHDP, time vary-
+ing information is formulated as a series
+of HDPs by considering time-dependent
+information. Experiments on 6 different
+datasets which contain 3156 documents
+demonstrates the good performance of our
+system with regard to ROUGE scores.
+1 

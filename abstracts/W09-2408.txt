@@ -1,0 +1,18 @@
+ 
+Temporal expressions are one of the important 
+structures in natural language. In order to un-
+derstand text, temporal expressions have to be 
+identified and normalized by providing ISO-
+based values. In this paper we present a shal-
+low approach for automatic recognition of 
+temporal expressions based on a supervised 
+machine learning approach trained on an an-
+notated corpus for temporal information, 
+namely TimeBank. Our experiments demon-
+strate a performance level comparable to a 
+rule-based implementation and achieve the 
+scores of 0.872, 0.836 and 0.852 for precision, 
+recall and F1-measure for the detection task 
+respectively, and 0.866, 0.796, 0.828 when an 
+exact match is required.   
+1 

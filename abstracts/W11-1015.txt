@@ -1,0 +1,15 @@
+
+We present a rule extractor for SCFG-based
+MT that generalizes many of the contraints
+present in existing SCFG extraction algo-
+rithms. Our method?s increased rule coverage
+comes from allowing multiple alignments, vir-
+tual nodes, and multiple tree decompositions
+in the extraction process. At decoding time,
+we improve automatic metric scores by signif-
+icantly increasing the number of phrase pairs
+that match a given test set, while our experi-
+ments with hierarchical grammar filtering in-
+dicate that more intelligent filtering schemes
+will also provide a key to future gains.
+1 

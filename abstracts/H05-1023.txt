@@ -1,0 +1,20 @@
+
+Most statistical translation systems are
+based on phrase translation pairs, or
+?blocks?, which are obtained mainly from
+word alignment. We use blocks to infer
+better word alignment and improved word
+alignment which, in turn, leads to better
+inference of blocks. We propose two new
+probabilistic models based on the inner-
+outer segmentations and use EM algorithms
+for estimating the models? parameters. The
+first model recovers IBM Model-1 as a spe-
+cial case. Both models outperform bi-
+directional IBM Model-4 in terms of word
+alignment accuracy by 10% absolute on the
+F-measure. Using blocks obtained from
+the models in actual translation systems
+yields statistically significant improvements
+in Chinese-English SMT evaluation.
+1 

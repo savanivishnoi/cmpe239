@@ -1,0 +1,17 @@
+
+Recent work on Semantic Role Labeling
+(SRL) has shown that to achieve high
+accuracy a joint inference on the whole
+predicate argument structure should be ap-
+plied. In this paper, we used syntactic sub-
+trees that span potential argument struc-
+tures of the target predicate in tree ker-
+nel functions. This allows Support Vec-
+tor Machines to discern between correct
+and incorrect predicate structures and to
+re-rank them based on the joint probabil-
+ity of their arguments. Experiments on the
+PropBank data show that both classifica-
+tion and re-ranking based on tree kernels
+can improve SRL systems.
+1 

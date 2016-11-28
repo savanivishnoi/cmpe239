@@ -1,0 +1,23 @@
+ 
+Informal language is actively used in net-
+work-mediated communication, e.g. chat 
+room, BBS, email and text message. We refer 
+the anomalous terms used in such context as 
+network informal language (NIL) expres-
+sions. For example, ??(ou3)? is used to re-
+place ?? (wo3)? in Chinese ICQ. Without 
+unconventional resource, knowledge and 
+techniques, the existing natural language 
+processing approaches exhibit less effective-
+ness in dealing with NIL text. We propose to 
+study NIL expressions with a NIL corpus and 
+investigate techniques in processing NIL ex-
+pressions. Two methods for Chinese NIL ex-
+pression recognition are designed in NILER 
+system. The experimental results show that 
+pattern matching method produces higher 
+precision and support vector machines 
+method higher F-1 measure. These results are 
+encouraging and justify our future research 
+effort in NIL processing. 
+1 

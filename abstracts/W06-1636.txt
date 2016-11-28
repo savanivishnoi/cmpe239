@@ -1,0 +1,19 @@
+
+In this work we learn clusters of contex-
+tual annotations for non-terminals in the
+Penn Treebank. Perhaps the best way
+to think about this problem is to contrast
+our work with that of Klein and Man-
+ning (2003). That research used tree-
+transformations to create various gram-
+mars with different contextual annotations
+on the non-terminals. These grammars
+were then used in conjunction with a CKY
+parser. The authors explored the space
+of different annotation combinations by
+hand. Here we try to automate the process
+? to learn the ?right? combination auto-
+matically. Our results are not quite as good
+as those carefully created by hand, but they
+are close (84.8 vs 85.7).
+1 

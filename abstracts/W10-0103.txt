@@ -1,0 +1,30 @@
+
+In some classification tasks, such as those re-
+lated to the automatic building and mainte-
+nance of text corpora, it is expensive to ob-
+tain labeled examples to train a classifier. In
+such circumstances it is common to have mas-
+sive corpora where a few examples are la-
+beled (typically a minority) while others are
+not. Semi-supervised learning techniques try
+to leverage the intrinsic information in unla-
+beled examples to improve classification mod-
+els. However, these techniques assume that
+the labeled examples cover all the classes to
+learn which might not stand. In the pres-
+ence of an imbalanced class distribution get-
+ting labeled examples from minority classes
+might be very costly if queries are randomly
+selected. Active learning allows asking an or-
+acle to label new examples, that are criteri-
+ously selected, and does not assume a previ-
+ous knowledge of all classes. D-Confidence
+is an active learning approach that is effective
+when in presence of imbalanced training sets.
+In this paper we discuss the performance of d-
+Confidence over text corpora. We show empir-
+ically that d-Confidence reduces the number
+of queries required to identify examples from
+all classes to learn when compared to confi-
+dence, a common active learning criterion.
+1 

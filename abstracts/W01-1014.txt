@@ -1,0 +1,18 @@
+
+In interpreting multilingual queries
+to databases whose domain informa-
+tion is described in a particular lan-
+guage, we must address the problem
+of word sense disambiguation. Since
+full-fledged semantic classification in-
+formation is difficult to construct ei-
+ther automatically or manually for this
+purpose, we propose to disambiguate
+the senses of the source lexical items
+by automatically augmenting a simple
+translation dictionary with database
+terminologies and describe an imple-
+mented multilingual query interpreta-
+tion system in a combinatory catego-
+rial grammar framework.1
+1 

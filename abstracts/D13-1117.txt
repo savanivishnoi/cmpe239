@@ -1,0 +1,23 @@
+
+NLP models have many and sparse features,
+and regularization is key for balancing model
+overfitting versus underfitting. A recently re-
+popularized form of regularization is to gen-
+erate fake training data by repeatedly adding
+noise to real data. We reinterpret this noising
+as an explicit regularizer, and approximate it
+with a second-order formula that can be used
+during training without actually generating
+fake data. We show how to apply this method
+to structured prediction using multinomial lo-
+gistic regression and linear-chain CRFs. We
+tackle the key challenge of developing a dy-
+namic program to compute the gradient of the
+regularizer efficiently. The regularizer is a
+sum over inputs, so we can estimate it more
+accurately via a semi-supervised or transduc-
+tive extension. Applied to text classification
+and NER, our method provides a >1% abso-
+lute performance gain over use of standard L2
+regularization.
+1 

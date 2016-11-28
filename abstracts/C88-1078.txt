@@ -1,0 +1,30 @@
+ 
+A brief survey is conducted of the inheritance principle - the 
+conveyance of properties between components within a hierarch- 
+ical relational structure. The standard form of inheritance is con- 
+sidered, using the subset (is-a) relation and highlighted as an 
+example of downward inheritance. Downward inheritance is 
+extended to specialisation of actions, and cases are presented in 
+which the rule fails. 
+sider them on tile same plane of generality and abstractness a
+the standard hierarchical inheritance rules. Upward inheritance, 
+on the other hand, is formally on the same plane as the more 
+common downward form. Our analysis shows that the explana- 
+tion for this powerful tool resides in one semantical aspect of a 
+large class of very common relations. 
+2. Downward inheritance 
+An alternative and less well-known form of inheritance is intro- 
+duced - upward inheritance. Several examples in which upward 
+inheritance is valid and others in which it is not valid are given, 
+in a treatment highlighting the analogy with downward inheri- 
+tance. The validity of the rule, in those case in which it 
+operates, is underlined, to distinguish it from induction. 
+A brief acconnt is given of tile search for the underlying reasons 
+for the validity of inheritance rules and these are then given. 
+The solution turns out to be due to a hidden or implicit 
+quantifier within the relations that are used. The semantical 
+nature of the problem and of its solution are stressed, emphasis- 
+ing the impossibility of a purely syntactic analysis and solution to 
+the problem. Various points of interest arising from the analysis 
+,are listed and discussed. 
+1. 

@@ -1,0 +1,19 @@
+
+Mikrokosmos contains an ontology plus a number
+of lexicons in different languages that were origi-
+nally developed for machine translation. The under-
+lying representation formalism for these resources
+is an ad-hoc frame-based language which makes it
+difficult to inter-operate Mikrokosmos with state-of-
+the-art knowledge-based systems.
+In this paper we propose a translation from the
+frame-based representation of Mikrokosmos into
+Description logics. This translation allows us to
+automatically transform Mikrokosmos sources into
+OWL and thus provide a powerful ontology in the
+formalism of the semantic web. Furthermore, the
+reasoning mechanisms of Description Logics may
+also support knowledge acquisition and mainte-
+nance as well as its application in natural language
+processing systems.
+1 

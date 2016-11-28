@@ -1,0 +1,25 @@
+
+Unsupervised learning algorithms based
+on Expectation Maximization (EM) are
+often straightforward to implement and
+provably converge on a local likelihood
+maximum. However, these algorithms of-
+ten do not perform well in practice. Com-
+mon wisdom holds that they yield poor
+results because they are overly sensitive
+to initial parameter values and easily get
+stuck in local (but not global) maxima.
+We present a series of experiments indi-
+cating that for the task of learning sylla-
+ble structure, the initial parameter weights
+are not crucial. Rather, it is the choice of
+model class itself that makes the differ-
+ence between successful and unsuccess-
+ful learning. We use a language-universal
+rule-based algorithm to find a good set of
+parameters, and then train the parameter
+weights using EM. We achieve word ac-
+curacy of 95.9% on German and 97.1% on
+English, as compared to 97.4% and 98.1%
+respectively for supervised training.
+1 

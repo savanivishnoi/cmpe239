@@ -1,0 +1,23 @@
+
+We present a novel method for build-
+ing a large-scale Japanese ontology from
+Wikipedia using one of the largest
+Japanese thesauri, Nihongo Goi-Taikei
+(referred to hereafter as ?Goi-Taikei?) as
+an upper ontology. First, The leaf cat-
+egories in the Goi-Taikei hierarchy are
+semi-automatically aligned with seman-
+tically equivalent Wikipedia categories.
+Then, their subcategories are created au-
+tomatically by detecting is-a links in the
+Wikipedia category network below the
+junction using the knowledge defined in
+Goi-Taikei above the junction. The re-
+sulting ontology has a well-defined taxon-
+omy in the upper level and a fine-grained
+taxonomy in the lower level with a large
+number of up-to-date instances. A sam-
+ple evaluation shows that the precisions of
+the extracted categories and instances are
+92.8% and 98.6%, respectively.
+1 

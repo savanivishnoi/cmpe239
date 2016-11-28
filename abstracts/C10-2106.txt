@@ -1,0 +1,28 @@
+ 
+Position information has been proved to 
+be very effective in document 
+summarization, especially in generic 
+summarization. Existing approaches 
+mostly consider the information of 
+sentence positions in a document, based 
+on a sentence position hypothesis that 
+the importance of a sentence decreases 
+with its distance from the beginning of 
+the document. In this paper, we consider 
+another kind of position information, i.e., 
+the word position information, which is 
+based on the ordinal positions of word 
+appearances instead of sentence 
+positions. An extractive summarization 
+model is proposed to provide an 
+evaluation framework for the position 
+information. The resulting systems are 
+evaluated on various data sets to 
+demonstrate the effectiveness of the 
+position information in different 
+summarization tasks. Experimental 
+results show that word position 
+information is more effective and 
+adaptive than sentence position 
+information. 
+1 

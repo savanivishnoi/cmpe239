@@ -1,0 +1,14 @@
+
+Word Sense Induction (WSI) is an unsu-
+pervised approach for learning the multiple
+senses of a word. Graph-based approaches to
+WSI frequently represent word co-occurrence
+as a graph and use the statistical properties
+of the graph to identify the senses. We rein-
+terpret graph-based WSI as community detec-
+tion, a well studied problem in network sci-
+ence. The relations in the co-occurrence graph
+give rise to word communities, which distin-
+guish senses. Our results show competitive
+performance on the SemEval-2010 WSI Task.
+1 

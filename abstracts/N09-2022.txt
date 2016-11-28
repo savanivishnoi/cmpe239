@@ -1,0 +1,24 @@
+
+Most Spoken Dialog Systems are based on
+speech grammars and frame/slot semantics.
+The semantic descriptions of input utterances
+are usually defined ad-hoc with no ability to
+generalize beyond the target application do-
+main or to learn from annotated corpora. The
+approach we propose in this paper exploits
+machine learning of frame semantics, bor-
+rowing its theoretical model from computa-
+tional linguistics. While traditional automatic
+Semantic Role Labeling approaches on writ-
+ten texts may not perform as well on spo-
+ken dialogs, we show successful experiments
+on such porting. Hence, we design and eval-
+uate automatic FrameNet-based parsers both
+for English written texts and for Italian dia-
+log utterances. The results show that disflu-
+encies of dialog data do not severely hurt per-
+formance. Also, a small set of FrameNet-like
+manual annotations is enough for realizing ac-
+curate Semantic Role Labeling on the target
+domains of typical Dialog Systems.
+1 

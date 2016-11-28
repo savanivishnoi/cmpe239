@@ -1,0 +1,13 @@
+. Temporal question classification assigns time granularities to tempo-
+ral questions ac-cording to their anticipated answers. It is very important for an-
+swer extraction and verification in the literature of temporal question answer-
+ing. Other than simply distinguishing between "date" and "period", a more fine-
+grained classification hierarchy scaling down from "millions of years" to "sec-
+ond" is proposed in this paper. Based on it, a SNoW-based classifier, combining 
+user preference, word N-grams, granularity of time expressions, special patterns 
+as well as event types, is built to choose appropriate time granularities for the 
+ambiguous temporal questions, such as When- and How long-like questions. 
+Evaluation on 194 such questions achieves 83.5% accuracy, almost close to 
+manually tagging accuracy 86.2%. Experiments reveal that user preferences 
+make significant contributions to time granularity classification. 
+1   

@@ -1,0 +1,27 @@
+ions for Statistical Machine Translation
+Karim Filali and Jeff Bilmes?
+Departments of Computer Science & Engineering and Electrical Engineering
+University of Washington
+Seattle, WA 98195, USA
+{karim@cs,bilmes@ee}.washington.edu
+Abstract
+We introduce a novel framework for the
+expression, rapid-prototyping, and eval-
+uation of statistical machine-translation
+(MT) systems using graphical mod-
+els. The framework extends dynamic
+Bayesian networks with multiple con-
+nected different-length streams, switching
+variable existence and dependence mech-
+anisms, and constraint factors. We have
+implemented a new general-purpose MT
+training/decoding system in this frame-
+work, and have tested this on a variety of
+existing MT models (including the 4 IBM
+models), and some novel ones as well,
+all using Europarl as a test corpus. We
+describe the semantics of our representa-
+tion, and present preliminary evaluations,
+showing that it is possible to prototype
+novel MT ideas in a short amount of time.
+1 

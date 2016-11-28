@@ -1,0 +1,28 @@
+
+This article presents the GETALP system for
+the participation to SemEval-2013 Task 12,
+based on an adaptation of the Lesk measure
+propagated through an Ant Colony Algorithm,
+that yielded good results on the corpus of Se-
+meval 2007 Task 7 (WordNet 2.1) as well as
+the trial data for Task 12 SemEval 2013 (Ba-
+belNet 1.0). We approach the parameter es-
+timation to our algorithm from two perspec-
+tives: edogenous estimation where we max-
+imised the sum the local Lesk scores; exoge-
+nous estimation where we maximised the F1
+score on trial data. We proposed three runs
+of out system, exogenous estimation with Ba-
+belNet 1.1.1 synset id annotations, endoge-
+nous estimation with BabelNet 1.1.1 synset id
+annotations and endogenous estimation with
+WordNet 3.1 sense keys. A bug in our imple-
+mentation led to incorrect results and here, we
+present an amended version thereof. Our sys-
+tem arrived third on this task and a more fine
+grained analysis of our results reveals that the
+algorithms performs best on general domain
+texts with as little named entities as possible.
+The presence of many named entities leads the
+performance of the system to plummet greatly.
+1 

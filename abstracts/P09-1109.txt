@@ -1,0 +1,19 @@
+
+We propose a hybrid approach to coor-
+dinate structure analysis that combines
+a simple grammar to ensure consistent
+global structure of coordinations in a sen-
+tence, and features based on sequence
+alignment to capture local symmetry of
+conjuncts. The weight of the alignment-
+based features, which in turn determines
+the score of coordinate structures, is op-
+timized by perceptron training on a given
+corpus. A bottom-up chart parsing al-
+gorithm efficiently finds the best scor-
+ing structure, taking both nested or non-
+overlapping flat coordinations into ac-
+count. We demonstrate that our approach
+outperforms existing parsers in coordina-
+tion scope detection on the Genia corpus.
+1 

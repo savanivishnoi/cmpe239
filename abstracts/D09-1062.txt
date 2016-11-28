@@ -1,0 +1,22 @@
+
+Polarity lexicons have been a valuable re-
+source for sentiment analysis and opinion
+mining. There are a number of such lexi-
+cal resources available, but it is often sub-
+optimal to use them as is, because general
+purpose lexical resources do not reflect
+domain-specific lexical usage. In this pa-
+per, we propose a novel method based on
+integer linear programming that can adapt
+an existing lexicon into a new one to re-
+flect the characteristics of the data more
+directly. In particular, our method collec-
+tively considers the relations among words
+and opinion expressions to derive the most
+likely polarity of each lexical item (posi-
+tive, neutral, negative, or negator) for the
+given domain. Experimental results show
+that our lexicon adaptation technique im-
+proves the performance of fine-grained po-
+larity classification.
+1 

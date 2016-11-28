@@ -1,0 +1,19 @@
+ 
+In this paper, we propose a method for learn-
+ing reordering model for BTG-based statisti-
+cal machine translation (SMT). The model 
+focuses on linguistic features from bilingual 
+phrases. Our method involves extracting reor-
+dering examples as well as features such as 
+part-of-speech and word class from aligned 
+parallel sentences. The features are classified 
+with special considerations of phrase lengths. 
+We then use these features to train the maxi-
+mum entropy (ME) reordering model. With 
+the model, we performed Chinese-to-English 
+translation tasks. Experimental results show 
+that our bilingual linguistic model outper-
+forms the state-of-the-art phrase-based and 
+BTG-based SMT systems by improvements of 
+2.41 and 1.31 BLEU points respectively. 
+1 

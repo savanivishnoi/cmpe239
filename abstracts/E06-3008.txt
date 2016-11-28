@@ -1,0 +1,28 @@
+
+This paper presents results from ex-
+periments in automatic classification of
+animacy for Norwegian nouns using
+decision-tree classifiers. The method
+makes use of relative frequency measures
+for linguistically motivated morphosyn-
+tactic features extracted from an automati-
+cally annotated corpus of Norwegian. The
+classifiers are evaluated using leave-one-
+out training and testing and the initial re-
+sults are promising (approaching 90% ac-
+curacy) for high frequency nouns, however
+deteriorate gradually as lower frequency
+nouns are classified. Experiments at-
+tempting to empirically locate a frequency
+threshold for the classification method in-
+dicate that a subset of the chosen mor-
+phosyntactic features exhibit a notable re-
+silience to data sparseness. Results will be
+presented which show that the classifica-
+tion accuracy obtained for high frequency
+nouns (with absolute frequencies >1000)
+can be maintained for nouns with consid-
+erably lower frequencies (?50) by back-
+ing off to a smaller set of features at clas-
+sification.
+1 

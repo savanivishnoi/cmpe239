@@ -1,0 +1,22 @@
+
+Low interannotator agreement (IAA) is a
+well-known issue in manual semantic tag-
+ging (sense tagging). IAA correlates with
+the granularity of word senses and they
+both correlate with the amount of informa-
+tion they give as well as with its reliability.
+We compare different approaches to seman-
+tic tagging in WordNet, FrameNet, Prop-
+Bank and OntoNotes with a small tagged
+data sample based on the Corpus Pattern
+Analysis to present the reliable information
+gain (RG), a measure used to optimize the
+semantic granularity of a sense inventory
+with respect to its reliability indicated by
+the IAA in the given data set. RG can also
+be used as feedback for lexicographers, and
+as a supporting component of automatic se-
+mantic classifiers, especially when dealing
+with a very fine-grained set of semantic cat-
+egories.
+1 

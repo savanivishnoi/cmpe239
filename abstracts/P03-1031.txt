@@ -1,0 +1,31 @@
+
+This paper concerns the discourse under-
+standing process in spoken dialogue sys-
+tems. This process enables the system to
+understand user utterances based on the
+context of a dialogue. Since multiple can-
+didates for the understanding result can
+be obtained for a user utterance due to
+the ambiguity of speech understanding, it
+is not appropriate to decide on a single
+understanding result after each user ut-
+terance. By holding multiple candidates
+for understanding results and resolving the
+ambiguity as the dialogue progresses, the
+discourse understanding accuracy can be
+improved. This paper proposes a method
+for resolving this ambiguity based on sta-
+tistical information obtained from dia-
+logue corpora. Unlike conventional meth-
+ods that use hand-crafted rules, the pro-
+posed method enables easy design of the
+discourse understanding process. Experi-
+ment results have shown that a system that
+exploits the proposed method performs
+sufficiently and that holding multiple can-
+didates for understanding results is effec-
+tive.
+?Currently with the School of Media Science, Tokyo Uni-
+versity of Technology, 1404-1 Katakuracho, Hachioji, Tokyo
+192-0982, Japan.
+1 

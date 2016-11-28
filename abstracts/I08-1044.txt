@@ -1,0 +1,22 @@
+
+Chinese named entity recognition (NER) has re-
+cently been viewed as a classification or sequence
+labeling problem, and many approaches have been
+proposed. However, they tend to address this
+problem without considering linguistic informa-
+tion in Chinese NEs. We propose a new framework
+based on probabilistic graphical models with first-
+order logic for Chinese NER. First, we use Condi-
+tional Random Fields (CRFs), a standard and the-
+oretically well-founded machine learning method
+based on undirected graphical models as a base
+system. Second, we introduce various types of
+domain knowledge into Markov Logic Networks
+(MLNs), an effective combination of first-order
+logic and probabilistic graphical models for vali-
+dation and error correction of entities. Experimen-
+tal results show that our framework of probabilis-
+tic graphical models with first-order logic signifi-
+cantly outperforms the state-of-the-art models for
+solving this task.
+1 

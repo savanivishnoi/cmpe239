@@ -1,0 +1,19 @@
+ 
+We are studying under which constraints 
+structured lexical data can bemade, at the same 
+time, widely available to the general public 
+(freely ornot), electronically supported, published 
+and reasonably protected frompiracy? A three 
+facet approach- with dictionary tools, web 
+servers and e-mail servers -seems to be effective. 
+We illustrate our views with Alex, a 
+genericdictionary tool, which is used with a 
+French-English-Malay dictionary. Thevery 
+distinction between output, logical and coding 
+formats is made. Storage is based onthe latter and 
+output formats are dynamically generated on the 
+fly atrequest times - making the tool usable in 
+many configurations. Keeping the data 
+structuredis necessary to make them usable also 
+by automated processes and to allowdynamic 
+filtering. 

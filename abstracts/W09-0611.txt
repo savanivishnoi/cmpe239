@@ -1,0 +1,24 @@
+
+We address the problem that different
+users have different lexical knowledge
+about problem domains, so that automated
+dialogue systems need to adapt their gen-
+eration choices online to the users? domain
+knowledge as it encounters them. We ap-
+proach this problem using policy learning
+in Markov Decision Processes (MDP). In
+contrast to related work we propose a new
+statistical user model which incorporates
+the lexical knowledge of different users.
+We evaluate this user model by showing
+that it allows us to learn dialogue poli-
+cies that automatically adapt their choice
+of referring expressions online to differ-
+ent users, and that these policies are sig-
+nificantly better than adaptive hand-coded
+policies for this problem. The learned
+policies are consistently between 2 and
+8 turns shorter than a range of different
+hand-coded but adaptive baseline lexical
+alignment policies.
+1 

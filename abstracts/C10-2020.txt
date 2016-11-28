@@ -1,0 +1,28 @@
+ 
+Creating correct, semantic representa-
+tions of questions is essential for appli-
+cations that can use formal reasoning to 
+answer them. However, even within a 
+restricted domain, it is hard to anticipate 
+all the possible ways that a question 
+might be phrased, and engineer reliable 
+processing modules to produce a correct 
+semantic interpretation for the reasoner. 
+In our work on posing questions to a bi-
+ology knowledge base, we address this 
+brittleness in two ways: First, we exploit 
+the DIRT paraphrase database to intro-
+duce alternative phrasings of a question; 
+Second, we defer word sense and se-
+mantic role commitment until question 
+answering. Resulting ambiguities are 
+then resolved by interleaving additional 
+interpretation with question-answering, 
+allowing the combinatorics of alterna-
+tives to be controlled and domain 
+knowledge to guide paraphrase and 
+sense selection. Our evaluation suggests 
+that the resulting system is able to un-
+derstand exam-style questions more re-
+liably. 
+1 

@@ -1,0 +1,14 @@
+
+Summarizing and analyzing Twitter content is
+an important and challenging task. In this pa-
+per, we propose to extract topical keyphrases
+as one way to summarize Twitter. We propose
+a context-sensitive topical PageRank method
+for keyword ranking and a probabilistic scor-
+ing function that considers both relevance and
+interestingness of keyphrases for keyphrase
+ranking. We evaluate our proposed methods
+on a large Twitter data set. Experiments show
+that these methods are very effective for topi-
+cal keyphrase extraction.
+1 

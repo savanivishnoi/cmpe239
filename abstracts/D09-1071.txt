@@ -1,0 +1,23 @@
+
+We extend previous work on fully unsu-
+pervised part-of-speech tagging. Using
+a non-parametric version of the HMM,
+called the infinite HMM (iHMM), we ad-
+dress the problem of choosing the number
+of hidden states in unsupervised Markov
+models for PoS tagging. We experi-
+ment with two non-parametric priors, the
+Dirichlet and Pitman-Yor processes, on the
+Wall Street Journal dataset using a paral-
+lelized implementation of an iHMM in-
+ference algorithm. We evaluate the re-
+sults with a variety of clustering evalua-
+tion metrics and achieve equivalent or bet-
+ter performances than previously reported.
+Building on this promising result we eval-
+uate the output of the unsupervised PoS
+tagger as a direct replacement for the out-
+put of a fully supervised PoS tagger for the
+task of shallow parsing and compare the
+two evaluations.
+1 

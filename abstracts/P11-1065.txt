@@ -1,0 +1,26 @@
+
+While it is generally accepted that many trans-
+lation phenomena are correlated with linguis-
+tic structures, employing linguistic syntax for
+translation has proven a highly non-trivial
+task. The key assumption behind many ap-
+proaches is that translation is guided by the
+source and/or target language parse, employ-
+ing rules extracted from the parse tree or
+performing tree transformations. These ap-
+proaches enforce strict constraints and might
+overlook important translation phenomena
+that cross linguistic constituents. We propose
+a novel flexible modelling approach to intro-
+duce linguistic information of varying gran-
+ularity from the source side. Our method
+induces joint probability synchronous gram-
+mars and estimates their parameters, by select-
+ing and weighing together linguistically moti-
+vated rules according to an objective function
+directly targeting generalisation over future
+data. We obtain statistically significant im-
+provements across 4 different language pairs
+with English as source, mounting up to +1.92
+BLEU for Chinese as target.
+1 

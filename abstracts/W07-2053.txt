@@ -1,0 +1,26 @@
+
+We participated in SemEval-1 English
+coarse-grained all-words task (task 7), En-
+glish fine-grained all-words task (task 17,
+subtask 3) and English coarse-grained lex-
+ical sample task (task 17, subtask 1). The
+same method with different labeled data is
+used for the tasks; SemCor is the labeled
+corpus used to train our system for the all-
+words tasks while the labeled corpus that
+is provided is used for the lexical sam-
+ple task. The knowledge sources include
+part-of-speech of neighboring words, single
+words in the surrounding context, local col-
+locations, and syntactic patterns. In addi-
+tion, we constructed a topic feature, targeted
+to capture the global context information,
+using the latent dirichlet alocation (LDA)
+algorithm with unlabeled corpus. A modi-
+fied na??ve Bayes classifier is constructed to
+incorporate all the features. We achieved
+81.6%, 57.6%, 88.7% for coarse-grained all-
+words task, fine-grained all-words task and
+coarse-grained lexical sample task respec-
+tively.
+1 

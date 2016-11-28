@@ -1,0 +1,22 @@
+ 
+This paper presents a CRF (Conditional 
+Random Field) model for Semantic 
+Chunk Annotation in a Chinese Question 
+and Answering System (SCACQA). The 
+model was derived from a corpus of real 
+world questions, which are collected 
+from some discussion groups on the 
+Internet. The questions are supposed to 
+be answered by other people, so some of 
+the questions are very complex. Mutual 
+information was adopted for feature se-
+lection.  The training data collection con-
+sists of 14000 sentences and the testing 
+data collection consists of 4000 sentences. 
+The result shows an F-score of 93.07%. 
+                                                 
+? 2008. Licensed under the Creative Commons Attri-
+bution-Noncommercial-Share Alike 3.0 Unported 
+license (http://creativecommons.org/licenses/by-nc-
+sa/3.0/). Some rights reserved. 
+1 

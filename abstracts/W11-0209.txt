@@ -1,0 +1,21 @@
+
+Semantic Role Labeling (SRL) plays a key
+role in many NLP applications. The develop-
+ment of SRL systems for the biomedical do-
+main is frustrated by the lack of large domain-
+specific corpora that are labeled with seman-
+tic roles. Corpus development has been very
+expensive and time-consuming. In this paper
+we propose a method for building frame-based
+corpus on the basis of domain knowledge pro-
+vided by ontologies. We believe that ontolo-
+gies, as a structured and semantic represen-
+tation of domain knowledge, can instruct and
+ease the tasks in building the corpora. In the
+paper we present a corpus built by using the
+method. We compared it to BioFrameNet, and
+examined the gaps between the semantic clas-
+sification of the target words in the domain-
+specific corpus and in FrameNet and Prop-
+Bank/VerbNet.
+1 

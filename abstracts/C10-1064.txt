@@ -1,0 +1,18 @@
+
+While extensive studies on relation ex-
+traction have been conducted in the last
+decade, statistical systems based on su-
+pervised learning are still limited because
+they require large amounts of training data
+to achieve high performance. In this pa-
+per, we develop a cross-lingual annota-
+tion projection method that leverages par-
+allel corpora to bootstrap a relation detec-
+tor without significant annotation efforts
+for a resource-poor language. In order to
+make our method more reliable, we intro-
+duce three simple projection noise reduc-
+tion methods. The merit of our method is
+demonstrated through a novel Korean re-
+lation detection task.
+1 

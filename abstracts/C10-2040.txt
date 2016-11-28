@@ -1,0 +1,20 @@
+
+Verb suffixes and verb complexes of mor-
+phologically rich languages carry a lot of
+information. We show that this infor-
+mation if harnessed for the task of shal-
+low parsing can lead to dramatic improve-
+ments in accuracy for a morphologically
+rich language- Marathi1. The crux of the
+approach is to use a powerful morpholog-
+ical analyzer backed by a high coverage
+lexicon to generate rich features for a CRF
+based sequence classifier. Accuracy fig-
+ures of 94% for Part of Speech Tagging
+and 97% for Chunking using a modestly
+sized corpus (20K words) vindicate our
+claim that for morphologically rich lan-
+guages linguistic insight can obviate the
+need for large amount of annotated cor-
+pora.
+1 

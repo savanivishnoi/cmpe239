@@ -1,0 +1,15 @@
+
+This paper revisits the work of (Malladi and
+Mannem, 2013) which focused on building
+a Statistical Morphological Analyzer (SMA)
+for Hindi and compares the performance of
+SMA with other existing statistical analyzer,
+Morfette. We shall evaluate SMA in vari-
+ous experiment scenarios and look at how it
+performs for unseen words. The later part
+of the paper presents the effect of the pre-
+dicted morph features on dependency parsing
+and extends the work to other morphologically
+rich languages: Hindi and Telugu, without any
+language-specific engineering.
+1 

@@ -1,0 +1,19 @@
+
+This paper looks at the web as a corpus
+and at the effects of using web counts
+to model language, particularly when we
+consider them as a domain-specific versus
+a general-purpose resource. We first com-
+pare three vocabularies that were ranked
+according to frequencies drawn from
+general-purpose, specialised and web cor-
+pora. Then, we look at methods to com-
+bine heterogeneous corpora and evaluate
+the individual and combined counts in the
+automatic extraction of noun compounds
+from English general-purpose and spe-
+cialised texts. Better n-gram counts can
+help improve the performance of empiri-
+cal NLP systems that rely on n-gram lan-
+guage models.
+1 

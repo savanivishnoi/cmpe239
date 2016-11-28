@@ -1,0 +1,16 @@
+
+Implicit feature detection, also known as im-
+plicit feature identification, is an essential as-
+pect of feature-specific opinion mining but
+previous works have often ignored it. We
+think, based on the explicit sentences, sever-
+al Support Vector Machine (SVM) classifier-
+s can be established to do this task. Never-
+theless, we believe it is possible to do bet-
+ter by using a constrained topic model instead
+of traditional attribute selection methods. Ex-
+periments show that this method outperforms
+the traditional attribute selection methods by
+a large margin and the detection task can be
+completed better.
+1 

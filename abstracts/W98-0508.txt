@@ -1,0 +1,15 @@
+ 
+In this paper we demonstrate that it is 
+possible to parse dependency structures 
+deterministically in linear time using 
+syntactic heuristic choices. We in'st prove 
+theoretically that deterministic, linear 
+parsing of dependency structures i possible 
+under certain conditions. We then discuss a 
+fully implemented parser and argue that 
+those conditions hold for at least one natural 
+language. Empirical data demonstrates that 
+the parsing time is indeed linear. The present 
+quality of the parser in terms of finding the 
+right dependency structure for sentences i
+about 85%. 

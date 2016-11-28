@@ -1,0 +1,18 @@
+
+This paper presents a headline emotion clas-
+sification approach based on frequency and
+co-occurrence information collected from
+the World Wide Web. The content words of
+a headline (nouns, verbs, adverbs and adjec-
+tives) are extracted in order to form different
+bag of word pairs with the joy, disgust, fear,
+anger, sadness and surprise emotions. For
+each pair, we compute the Mutual Informa-
+tion Score which is obtained from the web
+occurrences of an emotion and the content
+words. Our approach is based on the hypoth-
+esis that group of words which co-occur to-
+gether across many documents with a given
+emotion are highly probable to express the
+same emotion.
+1 

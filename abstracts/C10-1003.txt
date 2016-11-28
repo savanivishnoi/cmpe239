@@ -1,0 +1,27 @@
+
+In cross-language information retrieval it
+is often important to align words that are
+similar in meaning in two corpora writ-
+ten in different languages. Previous re-
+search shows that using context similar-
+ity to align words is helpful when no
+dictionary entry is available. We sug-
+gest a new method which selects a sub-
+set of words (pivot words) associated with
+a query and then matches these words
+across languages. To detect word associa-
+tions, we demonstrate that a new Bayesian
+method for estimating Point-wise Mutual
+Information provides improved accuracy.
+In the second step, matching is done in
+a novel way that calculates the chance of
+an accidental overlap of pivot words us-
+ing the hypergeometric distribution. We
+implemented a wide variety of previously
+suggested methods. Testing in two con-
+ditions, a small comparable corpora pair
+and a large but unrelated corpora pair,
+both written in disparate languages, we
+show that our approach consistently out-
+performs the other systems.
+1 

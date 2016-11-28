@@ -1,0 +1,24 @@
+
+This paper is concerned with the standard-
+isation of evaluation metrics for lexical ac-
+quisition over precision grammars, which
+are attuned to actual parser performance.
+Specifically, we investigate the impact that
+lexicons at varying levels of lexical item
+precision and recall have on the perfor-
+mance of pre-existing broad-coverage pre-
+cision grammars in parsing, i.e., on their
+coverage and accuracy. The grammars used
+for the experiments reported here are the
+LinGO English Resource Grammar (ERG;
+Flickinger (2000)) and JACY (Siegel and
+Bender, 2002), precision grammars of En-
+glish and Japanese, respectively. Our re-
+sults show convincingly that traditional F-
+score-based evaluation of lexical acquisition
+does not correlate with actual parsing per-
+formance. What we argue for, therefore, is a
+recall-heavy interpretation of F-score in de-
+signing and optimising automated lexical ac-
+quisition algorithms.
+1 

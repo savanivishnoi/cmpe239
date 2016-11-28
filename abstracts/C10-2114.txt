@@ -1,0 +1,15 @@
+ 
+ 
+In this paper we present a new algorithm for 
+the Person Cross Document Coreference task. 
+We show that accurate results require a way to 
+adapt the parameters of the similarity function 
+? metrics and threshold ? to the ontological 
+constraints obeyed by individuals. The tech-
+nique we propose dynamically changes the ini-
+tial weights computed when the context is ana-
+lyzed. The weight recomputation is necessary 
+in order to resolve clusters borders, which are 
+inevitably blurred by a static approach. The re-
+sults show a significant gain in accuracy. 
+1 

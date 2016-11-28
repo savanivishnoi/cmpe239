@@ -1,0 +1,16 @@
+
+Transliterated compound nouns not
+separated by whitespaces pose diffi-
+culty on word segmentation (WS). Of-
+fline approaches have been proposed to
+split them using word statistics, but
+they rely on static lexicon, limiting
+their use. We propose an online ap-
+proach, integrating source LM, and/or,
+back-transliteration and English LM.
+The experiments on Japanese and Chi-
+nese WS have shown that the pro-
+posed models achieve significant im-
+provement over state-of-the-art, reduc-
+ing 16% errors in Japanese.
+1 

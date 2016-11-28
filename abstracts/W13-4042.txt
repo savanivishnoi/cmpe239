@@ -1,0 +1,18 @@
+
+In many environments (e. g. sports com-
+mentary), situations incrementally unfold
+over time and often the future appearance
+of a relevant event can be predicted, but not
+in all its details or precise timing. We have
+built a simulation framework that uses our
+incremental speech synthesis component
+to assemble in a timely manner complex
+commentary utterances. In our evaluation,
+the resulting output is preferred over that
+from a baseline system that uses a simpler
+commenting strategy. Even in cases where
+the incremental system overcommits tem-
+porally and requires a filled pause to wait
+for the upcoming event, the system is pre-
+ferred over the baseline.
+1 

@@ -1,0 +1,19 @@
+
+Traditional noun phrase coreference res-
+olution systems represent features only
+of pairs of noun phrases. In this paper,
+we propose a machine learning method
+that enables features over sets of noun
+phrases, resulting in a first-order proba-
+bilistic model for coreference. We out-
+line a set of approximations that make this
+approach practical, and apply our method
+to the ACE coreference dataset, achiev-
+ing a 45% error reduction over a com-
+parable method that only considers fea-
+tures of pairs of noun phrases. This result
+demonstrates an example of how a first-
+order logic representation can be incorpo-
+rated into a probabilistic model and scaled
+efficiently.
+1 

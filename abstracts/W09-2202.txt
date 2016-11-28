@@ -1,0 +1,18 @@
+
+We consider the task of learning a classi-
+fier from the feature space X to the set of
+classes Y = {0, 1}, when the features can
+be partitioned into class-conditionally inde-
+pendent feature sets X1 and X2. We show
+that the class-conditional independence can be
+used to represent the original learning task
+in terms of 1) learning a classifier from X2
+to X1 (in the sense of estimating the prob-
+ability P (x1|x2))and 2) learning the class-
+conditional distribution of the feature set X1.
+This fact can be exploited for semi-supervised
+learning because the former task can be ac-
+complished purely from unlabeled samples.
+We present experimental evaluation of the idea
+in two real world applications.
+1 

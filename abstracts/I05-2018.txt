@@ -1,0 +1,19 @@
+ 
+In this paper, we proposed an approach 
+for detecting the countability of English 
+compound nouns treating the web as 
+a large corpus of words. We classified 
+compound nouns into three classes: 
+countable, uncountable, plural only. 
+Our detecting algorithm is based on 
+simple, viable n-gram models, whose 
+parameters can be obtained using the 
+WWW search engine Google. The de-
+tecting thresholds are optimized on the 
+small training set. Finally we 
+experimentally showed that our 
+algorithm based on these simple 
+models could perform the promising 
+results with a precision of 89.2% on the 
+total test set. 
+1 

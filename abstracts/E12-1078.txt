@@ -1,0 +1,22 @@
+
+We compare the impact of sentence-
+internal vs. sentence-external features on
+word order prediction in two generation
+settings: starting out from a discrimina-
+tive surface realisation ranking model for
+an LFG grammar of German, we enrich
+the feature set with lexical chain features
+from the discourse context which can be
+robustly detected and reflect rough gram-
+matical correlates of notions from theoreti-
+cal approaches to discourse coherence. In a
+more controlled setting, we develop a con-
+stituent ordering classifier that is trained
+on a German treebank with gold corefer-
+ence annotation. Surprisingly, in both set-
+tings, the sentence-external features per-
+form poorly compared to the sentence-
+internal ones, and do not improve over
+a baseline model capturing the syntactic
+functions of the constituents.
+1 

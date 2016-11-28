@@ -1,0 +1,19 @@
+ 
+One of the challenging problems in Thai 
+NLP is to manage a problem on a syn-
+tactical analysis of a long sentence.  
+This paper applies conditional random 
+field and categorical grammar to devel-
+op a chunking method, which can group 
+words into larger unit. Based on the ex-
+periment, we found the impressive re-
+sults. We gain around 74.17% on sen-
+tence level chunking. Furthermore we 
+got a more correct parsed tree based on 
+our technique. Around 50% of tree can 
+be added. Finally, we solved the prob-
+lem on implicit sentential NP which is 
+one of the difficult Thai language pro-
+cessing.  58.65% of sentential NP is cor-
+rectly detected. 
+1 

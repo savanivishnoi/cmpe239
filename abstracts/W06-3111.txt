@@ -1,0 +1,28 @@
+
+In statistical machine translation, large
+numbers of parallel sentences are required
+to train the model parameters. However,
+plenty of the bilingual language resources
+available on web are aligned only at the
+document level. To exploit this data,
+we have to extract the bilingual sentences
+from these documents.
+The common method is to break the doc-
+uments into segments using predefined
+anchor words, then these segments are
+aligned. This approach is not error free,
+incorrect alignments may decrease the
+translation quality.
+We present an alternative approach to ex-
+tract the parallel sentences by partitioning
+a bilingual document into two pairs. This
+process is performed recursively until all
+the sub-pairs are short enough.
+In experiments on the Chinese-English
+FBIS data, our method was capable of
+producing translation results comparable
+to those of a state-of-the-art sentence
+aligner. Using a combination of the two
+approaches leads to better translation per-
+formance.
+1 

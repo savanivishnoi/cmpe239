@@ -1,0 +1,18 @@
+ 1
+This paper reports on the SPOKESMAN natural anguage 
+generation system, which is a domain independent text gen- 
+erator designed to incrementally produce text for an underly- 
+ing application program. This work is a direct outgrowth of 
+the work we reported on at the last ACL Applied Conference 
+in 1988, where we connected an application program directly 
+to the linguistic omponent, Mumble-86. The major addi- 
+tion has been a new component to the system, a text planner 
+that provides the capability to compose the utterance incre- 
+mentally. The central feature of the text planning com- 
+ponent is a new level of representation that both captures 
+more linguistic generalizations and makes the system more 
+portable, so that we can easily interface to different domains 
+and different kinds of application programs. This larger sys- 
+tem is called "Spokesman", as it acts as the mouthpiece for 
+a number of application programs. 
+1. 

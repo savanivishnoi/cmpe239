@@ -1,0 +1,21 @@
+ 
+We present an algorithm and a tool for 
+automatically revising grammars for natural 
+language processing (NLP) systems to 
+disallow specifically identified sentences or 
+sets of sentences. We also outline an 
+approach for automatically revising attribute 
+value grammars using counter-examples. 
+Developing rammars for NLP systems that 
+are both general enough to accept most 
+sentences about a domain, but constrained 
+enough to disallow other sentences i very 
+tedious. Our approach of revising grammars 
+automatically using counter-examples 
+greatly simplifies the development and 
+revision of tightly constrained grammars. 
+We have successfully used our tool to 
+constrain over-generalizing rammars of 
+speech understanding systems and obtained 
+higher ecognition accuracy. 
+1 
